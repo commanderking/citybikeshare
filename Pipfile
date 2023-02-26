@@ -1,0 +1,15 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pandas = "*"
+
+[dev-packages]
+
+[scripts]
+syncS3 = "aws s3 sync s3://hubway-data ./data/bluebikeData"
+
+[requires]
+python_version = "3.9"
