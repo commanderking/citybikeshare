@@ -25,15 +25,14 @@ renamed_columns = {
     "postal code": "postal_code"
 }
 
-def format_data():
+def extract_zip_files():
     for file in os.listdir(zip_directory):
         file_path = os.path.join(zip_directory, file)
         if (zipfile.is_zipfile(file_path) and "bluebikes-tripdata" in file):
             with zipfile.ZipFile(file_path, mode="r") as archive:
-                archive.printdir()
                 archive.extractall(csv_directory)
 
-def insert_to_pandas():
+def export_data():
     trip_files = []
     for file in os.listdir(csv_directory):
         if (file.endswith(".csv")):
@@ -53,8 +52,6 @@ def insert_to_pandas():
 
     df.to_csv(all_trips, index=True, header=True)
 
-
-
 __name__
-# format_data()
-insert_to_pandas()
+extract_zip_files()
+export_data()
