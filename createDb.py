@@ -1,7 +1,7 @@
 import pandas as pd
 import sqlite3, zipfile, os
 
-sqlite_db = "./data/blue_bikes.db"
+sqlite_db = "./data/bluebikes.db"
 all_trips ="./data/all_trips.csv"
 raw_bluebike_zip_directory = "./data/bluebikeData"
 csv_directory = "./data/monthlyTripCsvs"
@@ -39,9 +39,7 @@ def export_data():
             csv_path = os.path.join(csv_directory, file)
             trip_files.append(csv_path)
 
-    # Still one issue
-    # 2) index resets with each frame even when using ignore_index option
-    df = pd.concat(map(pd.read_csv, trip_files))
+    df = pd.concat(map(pd.read_csv, trip_files), ignore_index=True)
     df.rename(columns=renamed_columns, inplace=True)
 
     # Beacuse of NaN in data, birth_year and gender are floats. Converting to Int64 allows for <NA> type in integer column
