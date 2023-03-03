@@ -49,7 +49,7 @@ def export_data():
 
     with connection:
         df.to_sql(name="bike_trip", con=connection)
-    # df.to_csv(all_trips, index=True, header=True)
+    df.to_csv(all_trips, index=True, header=True)
 
 __name__
 extract_zip_files()
