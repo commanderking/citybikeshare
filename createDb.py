@@ -1,5 +1,6 @@
 import pandas as pd
 import sqlite3, zipfile, os
+import inquirer
 
 sqlite_db = "./data/bluebikes.db"
 all_trips ="./data/all_trips.csv"
@@ -25,6 +26,16 @@ renamed_columns = {
     "postal code": "postal_code"
 }
 
+def create_output_question():
+    questions = [
+    inquirer.List('output',
+                    message="In what file format do you want the data? ",
+                    choices=['csv', 'sqlite_db', 'both'],
+                ),
+    ]
+    answers = inquirer.prompt(questions)
+    return answers["output"]
+
 def extract_zip_files():
     for file in os.listdir(raw_bluebike_zip_directory):
         file_path = os.path.join(raw_bluebike_zip_directory, file)
@@ -39,17 +50,23 @@ def export_data():
             csv_path = os.path.join(csv_directory, file)
             trip_files.append(csv_path)
 
+    output_file_type = create_output_question()
+    print(output_file_type)
+
     df = pd.concat(map(pd.read_csv, trip_files), ignore_index=True)
     df.rename(columns=renamed_columns, inplace=True)
 
     # Beacuse of NaN in data, birth_year and gender are floats. Converting to Int64 allows for <NA> type in integer column
     df[["birth_year", "gender"]] = df[["birth_year", "gender"]].astype("Int64")
 
-    connection = sqlite3.connect(sqlite_db)
+    if output_file_type in ("sqlite_db", "both"):
+        connection = sqlite3.connect(sqlite_db)
+        with connection:
+            df.to_sql(name="bike_trip", con=connection, if_exists="replace")
 
-    with connection:
-        df.to_sql(name="bike_trip", con=connection)
-    df.to_csv(all_trips, index=True, header=True)
+    if output_file_type in ("csv", "both"):
+        df.to_csv(all_trips, index=True, header=True)
+
 
 __name__
 extract_zip_files()
