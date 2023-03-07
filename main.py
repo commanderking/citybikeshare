@@ -1,11 +1,13 @@
-import pandas as pd
-import sqlite3, zipfile, os
 import argparse
+import os
+import sqlite3
+import zipfile
+import pandas as pd
 
-sqlite_db = "./data/bluebikes.db"
-all_trips ="./data/all_trips.csv"
-raw_bluebike_zip_directory = "./data/bluebikeData"
-csv_directory = "./data/monthlyTripCsvs"
+SQLITE_DB = "./data/bluebikes.db"
+ALL_TRIPS ="./data/all_trips.csv"
+RAW_BLUEBIKE_ZIP_DIRECTORY = "./data/bluebikeData"
+CSV_DIRECTORY = "./data/monthlyTripCsvs"
 
 renamed_columns = {
     "tripduration" : "trip_duration",
@@ -49,24 +51,24 @@ def setup_argparse():
 
 def extract_zip_files():
     print('unzipping bluebike trip files')
-    for file in os.listdir(raw_bluebike_zip_directory):
-        file_path = os.path.join(raw_bluebike_zip_directory, file)
+    for file in os.listdir(RAW_BLUEBIKE_ZIP_DIRECTORY):
+        file_path = os.path.join(RAW_BLUEBIKE_ZIP_DIRECTORY, file)
         if (zipfile.is_zipfile(file_path) and "bluebikes-tripdata" in file):
             with zipfile.ZipFile(file_path, mode="r") as archive:
-                archive.extractall(csv_directory)
+                archive.extractall(CSV_DIRECTORY)
 
 def export_data(args):
     output_csv = args.csv
     output_sqlite = args.sqlite
 
-    if output_csv == False and output_sqlite == False:
+    if output_csv is False and output_sqlite is False:
         output_csv = True
         output_sqlite = True
 
     trip_files = []
-    for file in os.listdir(csv_directory):
+    for file in os.listdir(CSV_DIRECTORY):
         if (file.endswith(".csv")):
-            csv_path = os.path.join(csv_directory, file)
+            csv_path = os.path.join(CSV_DIRECTORY, file)
             trip_files.append(csv_path)
 
     print("reading all csv files...")
@@ -78,19 +80,18 @@ def export_data(args):
 
     if output_sqlite:
         print("generating sqlite db... this will take a bit...")
-        connection = sqlite3.connect(sqlite_db)
+        connection = sqlite3.connect(SQLITE_DB)
         with connection:
             df.to_sql(name="bike_trip", con=connection, if_exists="replace")
 
     if output_csv:
         print ("generating csv...this will take a bit...")
-        df.to_csv(all_trips, index=True, header=True)
+        df.to_csv(ALL_TRIPS, index=True, header=True)
 
 def merge_data():
     args = setup_argparse()
-    if args.skip_unzip == False:
+    if args.skip_unzip is False:
         extract_zip_files()
     export_data(args)
 
-__name__
 merge_data()
