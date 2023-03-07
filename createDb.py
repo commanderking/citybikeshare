@@ -1,7 +1,6 @@
 import pandas as pd
 import sqlite3, zipfile, os
 import argparse
-import sys
 
 sqlite_db = "./data/bluebikes.db"
 all_trips ="./data/all_trips.csv"
