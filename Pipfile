@@ -8,6 +8,7 @@ pandas = "*"
 argparse = "*"
 
 [dev-packages]
+pylint = "*"
 
 [scripts]
 syncS3 = "aws s3 sync s3://hubway-data ./data/bluebikeData"
