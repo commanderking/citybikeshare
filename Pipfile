@@ -5,7 +5,7 @@ name = "pypi"
 
 [packages]
 pandas = "*"
-inquirer = "*"
+argparse = "*"
 
 [dev-packages]
 
