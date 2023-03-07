@@ -28,7 +28,7 @@ renamed_columns = {
 }
 
 def setup_argparse():
-    parser = argparse.ArgumentParser(description='Merging all Bike Trip Data into One File', add_help="Please specify whether you want to put --csv or --sqlite")
+    parser = argparse.ArgumentParser(description='Merging all Bike Trip Data into One File')
     parser.add_argument(
         '--csv',
         help='Output merged bike trip data into csv file only',
