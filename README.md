@@ -1,8 +1,8 @@
 ### Purpose
 
-Citizens should be able to analyze bikeshare data to make better decisions for their local community. While bikeshare data is readily accessible, it often requires further processing before analysis can be done. The code in this repo cleans and merges publicly available bikeshare trip data into a single csv or sqlite db file for analysis.
+Citizens should be able to analyze bikeshare data to make better decisions for their local community. While bikeshare data is readily accessible, it often requires further processing before analysis can be done. The code in this repo cleans and merges publicly available bikeshare trip data into a single csv or sqlite db file for further analysis.
 
-Currently, this is only available for Bluebikes bike share in the greater Boston area.
+Currently, this is only available for bike share data in the greater Boston area.
 
 ### Steps to Merge Trip Data into Single File
 
