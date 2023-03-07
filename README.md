@@ -1,8 +1,8 @@
 ### Purpose
 
-Make it easier for citizens interested in the entire history of bluebike data to play with the data. The code in this repository merges bluebike trip data from publicly avaiable monthly Bluebike trip data into a single csv or sqlite db file.
+Citizens interested in public bikeshare data should be able to easily analyze the data to make better decisions for their local community. Current bikeshare data is often difficult to parse through due to the data being in different files and inconsistent data patterns.
 
-### Motivation
+The code in this repo cleans and merges publicly available bluebike trip data into a single csv or sqlite db file for analysis.
 
 ### Steps to Merge Trip Data into Single File
 
