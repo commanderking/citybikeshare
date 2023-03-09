@@ -3,11 +3,20 @@ import os
 import sqlite3
 import zipfile
 import pandas as pd
+import csvformat
 
-SQLITE_DB = "./data/bluebikes.db"
-ALL_TRIPS ="./data/all_trips.csv"
-RAW_BLUEBIKE_ZIP_DIRECTORY = "./data/bluebikeData"
-CSV_DIRECTORY = "./data/monthlyTripCsvs"
+CURRENT_PATH = os.path.dirname(__file__)
+def get_absolute_path(filename):
+    return os.path.abspath(os.path.join(CURRENT_PATH, DATA_FOLDER, filename)) 
+
+DATA_FOLDER = "../../data"
+SQLITE_DB = get_absolute_path("bluebikes.db")
+ALL_TRIPS = get_absolute_path("all_trips.csv")
+RAW_BLUEBIKE_ZIP_DIRECTORY = get_absolute_path("blueBikeData")
+CSV_DIRECTORY = get_absolute_path("monthlyTripCsvs") 
+
+print(SQLITE_DB)
+print(RAW_BLUEBIKE_ZIP_DIRECTORY)
 
 renamed_columns = {
     "tripduration" : "trip_duration",
@@ -57,6 +66,7 @@ def extract_zip_files():
             with zipfile.ZipFile(file_path, mode="r") as archive:
                 archive.extractall(CSV_DIRECTORY)
 
+
 def export_data(args):
     output_csv = args.csv
     output_sqlite = args.sqlite
@@ -65,11 +75,7 @@ def export_data(args):
         output_csv = True
         output_sqlite = True
 
-    trip_files = []
-    for file in os.listdir(CSV_DIRECTORY):
-        if (file.endswith(".csv")):
-            csv_path = os.path.join(CSV_DIRECTORY, file)
-            trip_files.append(csv_path)
+    trip_files = csvformat.get_csv_files(CSV_DIRECTORY)
 
     print("reading all csv files...")
     df = pd.concat(map(pd.read_csv, trip_files), ignore_index=True)
@@ -94,4 +100,5 @@ def merge_data():
         extract_zip_files()
     export_data(args)
 
-merge_data()
+if __name__ == "__main__":
+    merge_data()

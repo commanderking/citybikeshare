@@ -3,3 +3,4 @@ data
 
 .DS_STORE
 .vscode
+.pytest_cache
