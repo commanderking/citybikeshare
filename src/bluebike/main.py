@@ -2,7 +2,6 @@ import argparse
 import os
 import sqlite3
 import zipfile
-import pandas as pd
 import csvformat
 
 CURRENT_PATH = os.path.dirname(__file__)
@@ -14,28 +13,6 @@ SQLITE_DB = get_absolute_path("bluebikes.db")
 ALL_TRIPS = get_absolute_path("all_trips.csv")
 RAW_BLUEBIKE_ZIP_DIRECTORY = get_absolute_path("blueBikeData")
 CSV_DIRECTORY = get_absolute_path("monthlyTripCsvs") 
-
-print(SQLITE_DB)
-print(RAW_BLUEBIKE_ZIP_DIRECTORY)
-
-renamed_columns = {
-    "tripduration" : "trip_duration",
-    "starttime": "start_time",
-    "stoptime": "stop_time",
-    "start station id": "start_station_id",
-    "start station name": "start_station_name",
-    "start station latitude": "start_station_latitude",
-    "start station longitude": "start_station_longitude",
-    "end station id": "end_station_id",
-    "end station name": "end_station_name",
-    "end station latitude": "end_station_latitude",
-    "end station longitude": "end_station_longitude",
-    "bikeid": "bike_id",
-    "usertype": "usertype",
-    "birth year": "birth_year",
-    "gender": "gender",
-    "postal code": "postal_code"
-}
 
 def setup_argparse():
     parser = argparse.ArgumentParser(description='Merging all Bike Trip Data into One File')
@@ -71,18 +48,15 @@ def export_data(args):
     output_csv = args.csv
     output_sqlite = args.sqlite
 
-    if output_csv is False and output_sqlite is False:
+    no_output_args = output_csv is False and output_sqlite is False
+
+    if no_output_args:
         output_csv = True
         output_sqlite = True
 
     trip_files = csvformat.get_csv_files(CSV_DIRECTORY)
 
-    print("reading all csv files...")
-    df = pd.concat(map(pd.read_csv, trip_files), ignore_index=True)
-    df.rename(columns=renamed_columns, inplace=True)
-
-    # Beacuse of NaN in data, birth_year and gender are floats. Converting to Int64 allows for <NA> type in integer column
-    df[["birth_year", "gender"]] = df[["birth_year", "gender"]].astype("Int64")
+    df = csvformat.create_formatted_df(trip_files)
 
     if output_sqlite:
         print("generating sqlite db... this will take a bit...")
