@@ -6,13 +6,15 @@ import csvformat
 
 CURRENT_PATH = os.path.dirname(__file__)
 def get_absolute_path(filename):
-    return os.path.abspath(os.path.join(CURRENT_PATH, DATA_FOLDER, filename)) 
+    return os.path.abspath(os.path.join(CURRENT_PATH, filename)) 
 
 DATA_FOLDER = "../../data"
-SQLITE_DB = get_absolute_path("bluebikes.db")
-ALL_TRIPS = get_absolute_path("all_trips.csv")
-RAW_BLUEBIKE_ZIP_DIRECTORY = get_absolute_path("blueBikeData")
-CSV_DIRECTORY = get_absolute_path("monthlyTripCsvs") 
+BUILD_FOLDER = "../../build"
+RAW_BLUEBIKE_ZIP_DIRECTORY = get_absolute_path("../data/blue_bike_data")
+CSV_DIRECTORY = get_absolute_path("../data/monthlyTripCsvs") 
+
+SQLITE_DB = get_absolute_path("../../build/bluebikes.db")
+ALL_TRIPS = get_absolute_path("../../build/all_trips.csv")
 
 def setup_argparse():
     parser = argparse.ArgumentParser(description='Merging all Bike Trip Data into One File')
