@@ -1,6 +1,5 @@
 import os
 import csvformat
-import pandas as pd
 
 TEST_PATH = os.path.dirname(__file__)
 EXPECTED_COLUMNS = csvformat.renamed_columns.values()
