@@ -8,8 +8,6 @@ CURRENT_PATH = os.path.dirname(__file__)
 def get_absolute_path(filename):
     return os.path.abspath(os.path.join(CURRENT_PATH, filename)) 
 
-DATA_FOLDER = "../../data"
-BUILD_FOLDER = "../../build"
 RAW_BLUEBIKE_ZIP_DIRECTORY = get_absolute_path("../data/blue_bike_data")
 CSV_DIRECTORY = get_absolute_path("../data/monthlyTripCsvs") 
 
