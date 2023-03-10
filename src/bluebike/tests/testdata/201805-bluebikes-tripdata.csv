@@ -1,0 +1,6 @@
+tripduration,starttime,stoptime,start station id,start station name,start station latitude,start station longitude,end station id,end station name,end station latitude,end station longitude,bikeid,usertype,birth year,gender
+1177,2018-05-01 00:01:32.4590,2018-05-01 00:21:10.0260,184,Sidney Research Campus/ Erie Street at Waverly,42.35775309465200,-71.10393404960630,189,Kendall T,42.362427842912400,-71.08495473861690,790,Subscriber,1994,1
+733,2018-05-01 00:05:19.4970,2018-05-01 00:17:32.7190,67,MIT at Mass Ave / Amherst St,42.3581,-71.093198,41,Packard's Corner - Commonwealth Ave at Brighton Ave,42.352261,-71.123831,1238,Subscriber,1993,2
+437,2018-05-01 00:05:37.7590,2018-05-01 00:12:54.8300,54,Tremont St at West St,42.354979,-71.063348,6,Cambridge St at Joy St,42.36129095030580,-71.06526192286770,218,Subscriber,1993,1
+730,2018-05-01 00:05:39.6780,2018-05-01 00:17:50.5880,54,Tremont St at West St,42.354979,-71.063348,46,Christian Science Plaza - Massachusetts Ave at Westland Ave,42.3436658245146,-71.08582377433780,1885,Subscriber,1992,1
+411,2018-05-01 00:06:10.1590,2018-05-01 00:13:02.0490,54,Tremont St at West St,42.354979,-71.063348,6,Cambridge St at Joy St,42.36129095030580,-71.06526192286770,602,Customer,1969,0

@@ -1,5 +1,7 @@
 hubwayS3
 data
+build
 
 .DS_STORE
 .vscode
+.pytest_cache

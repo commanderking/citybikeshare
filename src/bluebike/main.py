@@ -2,31 +2,17 @@ import argparse
 import os
 import sqlite3
 import zipfile
-import pandas as pd
+import csvformat
 
-SQLITE_DB = "./data/bluebikes.db"
-ALL_TRIPS ="./data/all_trips.csv"
-RAW_BLUEBIKE_ZIP_DIRECTORY = "./data/bluebikeData"
-CSV_DIRECTORY = "./data/monthlyTripCsvs"
+CURRENT_PATH = os.path.dirname(__file__)
+def get_absolute_path(filename):
+    return os.path.abspath(os.path.join(CURRENT_PATH, filename)) 
 
-renamed_columns = {
-    "tripduration" : "trip_duration",
-    "starttime": "start_time",
-    "stoptime": "stop_time",
-    "start station id": "start_station_id",
-    "start station name": "start_station_name",
-    "start station latitude": "start_station_latitude",
-    "start station longitude": "start_station_longitude",
-    "end station id": "end_station_id",
-    "end station name": "end_station_name",
-    "end station latitude": "end_station_latitude",
-    "end station longitude": "end_station_longitude",
-    "bikeid": "bike_id",
-    "usertype": "usertype",
-    "birth year": "birth_year",
-    "gender": "gender",
-    "postal code": "postal_code"
-}
+RAW_BLUEBIKE_ZIP_DIRECTORY = get_absolute_path("../data/blue_bike_data")
+CSV_DIRECTORY = get_absolute_path("../data/monthlyTripCsvs") 
+
+SQLITE_DB = get_absolute_path("../../build/bluebikes.db")
+ALL_TRIPS = get_absolute_path("../../build/all_trips.csv")
 
 def setup_argparse():
     parser = argparse.ArgumentParser(description='Merging all Bike Trip Data into One File')
@@ -57,26 +43,20 @@ def extract_zip_files():
             with zipfile.ZipFile(file_path, mode="r") as archive:
                 archive.extractall(CSV_DIRECTORY)
 
+
 def export_data(args):
     output_csv = args.csv
     output_sqlite = args.sqlite
 
-    if output_csv is False and output_sqlite is False:
+    no_output_args = output_csv is False and output_sqlite is False
+
+    if no_output_args:
         output_csv = True
         output_sqlite = True
 
-    trip_files = []
-    for file in os.listdir(CSV_DIRECTORY):
-        if (file.endswith(".csv")):
-            csv_path = os.path.join(CSV_DIRECTORY, file)
-            trip_files.append(csv_path)
+    trip_files = csvformat.get_csv_files(CSV_DIRECTORY)
 
-    print("reading all csv files...")
-    df = pd.concat(map(pd.read_csv, trip_files), ignore_index=True)
-    df.rename(columns=renamed_columns, inplace=True)
-
-    # Beacuse of NaN in data, birth_year and gender are floats. Converting to Int64 allows for <NA> type in integer column
-    df[["birth_year", "gender"]] = df[["birth_year", "gender"]].astype("Int64")
+    df = csvformat.create_formatted_df(trip_files)
 
     if output_sqlite:
         print("generating sqlite db... this will take a bit...")
@@ -94,4 +74,5 @@ def merge_data():
         extract_zip_files()
     export_data(args)
 
-merge_data()
+if __name__ == "__main__":
+    merge_data()

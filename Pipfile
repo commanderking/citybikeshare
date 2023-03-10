@@ -6,12 +6,13 @@ name = "pypi"
 [packages]
 pandas = "*"
 argparse = "*"
+pytest = "*"
 
 [dev-packages]
 pylint = "*"
 
 [scripts]
-syncS3 = "aws s3 sync s3://hubway-data ./data/bluebikeData"
+syncS3 = "aws s3 sync s3://hubway-data ./src/data/blue_bike_data"
 
 [requires]
 python_version = "3.9"
