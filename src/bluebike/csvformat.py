@@ -39,4 +39,7 @@ def create_formatted_df(trip_files):
     # Beacuse of NaN in data, birth_year and gender are floats. Converting to Int64 allows for <NA> type in integer column
     df[["birth_year", "gender"]] = df[["birth_year", "gender"]].astype("Int64")
 
+    df[["start_time", "stop_time"]] = df[["start_time", "stop_time"]].astype("datetime64[ns]")
+
     return df
+    

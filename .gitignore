@@ -5,3 +5,5 @@ build
 .DS_STORE
 .vscode
 .pytest_cache
+
+duck_analysis.py
