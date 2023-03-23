@@ -42,3 +42,4 @@ def create_formatted_df(trip_files):
     df[["start_time", "stop_time"]] = df[["start_time", "stop_time"]].astype("datetime64[ns]")
 
     return df
+    

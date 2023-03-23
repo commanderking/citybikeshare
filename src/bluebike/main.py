@@ -69,8 +69,6 @@ def export_data(args):
     trip_files = csvformat.get_csv_files(CSV_DIRECTORY)
     df = csvformat.create_formatted_df(trip_files)
 
-    print(df.dtypes)
-
     if output_sqlite:
         print("generating sqlite db... this will take a bit...")
         connection = sqlite3.connect(SQLITE_DB)
