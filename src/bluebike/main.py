@@ -2,6 +2,8 @@ import argparse
 import os
 import sqlite3
 import zipfile
+import pyarrow as pa
+import pyarrow.parquet as pq
 import csvformat
 
 CURRENT_PATH = os.path.dirname(__file__)
@@ -13,6 +15,7 @@ CSV_DIRECTORY = get_absolute_path("../data/monthlyTripCsvs")
 
 SQLITE_DB = get_absolute_path("../../build/bluebikes.db")
 ALL_TRIPS = get_absolute_path("../../build/all_trips.csv")
+BUILD_FOLDER = get_absolute_path("../../build")
 
 def setup_argparse():
     parser = argparse.ArgumentParser(description='Merging all Bike Trip Data into One File')
@@ -26,6 +29,13 @@ def setup_argparse():
         help='Output merged bike trip data into sqlite file only',
         action='store_true'
     )
+
+    parser.add_argument(
+        '--parquet',
+        help='Output merged bike trip data into parquet file only',
+        action='store_true'
+    )
+
     parser.add_argument(
         '--skip_unzip',
         help='Skips unzipping of files if files have already been unzipped',
@@ -47,16 +57,19 @@ def extract_zip_files():
 def export_data(args):
     output_csv = args.csv
     output_sqlite = args.sqlite
+    output_parquet = args.parquet
 
-    no_output_args = output_csv is False and output_sqlite is False
+    no_output_args = output_csv is False and output_sqlite is False and output_parquet is False
 
     if no_output_args:
         output_csv = True
         output_sqlite = True
+        output_parquet = True
 
     trip_files = csvformat.get_csv_files(CSV_DIRECTORY)
-
     df = csvformat.create_formatted_df(trip_files)
+
+    print(df.dtypes)
 
     if output_sqlite:
         print("generating sqlite db... this will take a bit...")
@@ -67,6 +80,14 @@ def export_data(args):
     if output_csv:
         print ("generating csv...this will take a bit...")
         df.to_csv(ALL_TRIPS, index=True, header=True)
+    
+    if output_parquet:
+        ### Helpful - if need to do this on s3 at future date
+        ### https://stackoverflow.com/questions/50604133/convert-csv-to-parquet-file-using-python
+        print ("generating parquet... this will take a bit...")
+        table = pa.Table.from_pandas(df)
+        pq.write_to_dataset(table=table,
+            root_path=BUILD_FOLDER)
 
 def merge_data():
     args = setup_argparse()
