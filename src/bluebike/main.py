@@ -2,8 +2,6 @@ import argparse
 import os
 import sqlite3
 import zipfile
-import pyarrow as pa
-import pyarrow.parquet as pq
 import csvformat
 
 CURRENT_PATH = os.path.dirname(__file__)
@@ -13,9 +11,9 @@ def get_absolute_path(filename):
 RAW_BLUEBIKE_ZIP_DIRECTORY = get_absolute_path("../data/blue_bike_data")
 CSV_DIRECTORY = get_absolute_path("../data/monthlyTripCsvs") 
 
-SQLITE_DB = get_absolute_path("../../build/bluebikes.db")
-ALL_TRIPS = get_absolute_path("../../build/all_trips.csv")
-BUILD_FOLDER = get_absolute_path("../../build")
+SQLITE_DB = get_absolute_path("../../build/all_trips.db")
+CSV_FILE = get_absolute_path("../../build/all_trips.csv")
+PARQUET_FILE = get_absolute_path("../../build/all_trips.parquet")
 
 def setup_argparse():
     parser = argparse.ArgumentParser(description='Merging all Bike Trip Data into One File')
@@ -77,15 +75,13 @@ def export_data(args):
 
     if output_csv:
         print ("generating csv...this will take a bit...")
-        df.to_csv(ALL_TRIPS, index=True, header=True)
+        df.to_csv(CSV_FILE, index=True, header=True)
     
     if output_parquet:
         ### Helpful - if need to do this on s3 at future date
         ### https://stackoverflow.com/questions/50604133/convert-csv-to-parquet-file-using-python
         print ("generating parquet... this will take a bit...")
-        table = pa.Table.from_pandas(df)
-        pq.write_to_dataset(table=table,
-            root_path=BUILD_FOLDER)
+        df.to_parquet(PARQUET_FILE)
 
 def merge_data():
     args = setup_argparse()
