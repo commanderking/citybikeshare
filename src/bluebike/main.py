@@ -9,11 +9,19 @@ def get_absolute_path(filename):
     return os.path.abspath(os.path.join(CURRENT_PATH, filename)) 
 
 RAW_BLUEBIKE_ZIP_DIRECTORY = get_absolute_path("../data/blue_bike_data")
-CSV_DIRECTORY = get_absolute_path("../data/monthlyTripCsvs") 
+CSV_DIRECTORY = get_absolute_path("../data/monthly_trip_csvs") 
 
 SQLITE_DB = get_absolute_path("../../build/all_trips.db")
 CSV_FILE = get_absolute_path("../../build/all_trips.csv")
 PARQUET_FILE = get_absolute_path("../../build/all_trips.parquet")
+
+def createFolders():
+    if not os.path.exists(get_absolute_path("../../build")):
+        os.makedirs(get_absolute_path("../../build"))
+        print("created build directory - files will be output in build folder")
+    else:
+        print("build directory found")
+
 
 def setup_argparse():
     parser = argparse.ArgumentParser(description='Merging all Bike Trip Data into One File')
@@ -72,19 +80,23 @@ def export_data(args):
         connection = sqlite3.connect(SQLITE_DB)
         with connection:
             df.to_sql(name="bike_trip", con=connection, if_exists="replace")
+            print(".db file created")
 
     if output_csv:
         print ("generating csv...this will take a bit...")
         df.to_csv(CSV_FILE, index=True, header=True)
+        print("csv file created")
     
     if output_parquet:
         ### Helpful - if need to do this on s3 at future date
         ### https://stackoverflow.com/questions/50604133/convert-csv-to-parquet-file-using-python
         print ("generating parquet... this will take a bit...")
         df.to_parquet(PARQUET_FILE)
+        print("parquet file created")
 
 def merge_data():
     args = setup_argparse()
+    createFolders()
     if args.skip_unzip is False:
         extract_zip_files()
     export_data(args)

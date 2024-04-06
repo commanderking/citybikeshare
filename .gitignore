@@ -1,9 +1,8 @@
 hubwayS3
 data
 build
+__pycache__
 
 .DS_STORE
 .vscode
 .pytest_cache
-
-duck_analysis.py
