@@ -9,7 +9,7 @@ def get_absolute_path(filename):
     return os.path.abspath(os.path.join(CURRENT_PATH, filename)) 
 
 RAW_BLUEBIKE_ZIP_DIRECTORY = get_absolute_path("../data/blue_bike_data")
-CSV_DIRECTORY = get_absolute_path("../data/monthlyTripCsvs") 
+CSV_DIRECTORY = get_absolute_path("../data/monthly_trip_csvs") 
 
 SQLITE_DB = get_absolute_path("../../build/all_trips.db")
 CSV_FILE = get_absolute_path("../../build/all_trips.csv")
@@ -65,13 +65,14 @@ def export_data(args):
         output_parquet = True
 
     trip_files = csvformat.get_csv_files(CSV_DIRECTORY)
+    print(trip_files)
     df = csvformat.create_formatted_df(trip_files)
 
-    if output_sqlite:
-        print("generating sqlite db... this will take a bit...")
-        connection = sqlite3.connect(SQLITE_DB)
-        with connection:
-            df.to_sql(name="bike_trip", con=connection, if_exists="replace")
+    # if output_sqlite:
+    #     print("generating sqlite db... this will take a bit...")
+    #     connection = sqlite3.connect(SQLITE_DB)
+    #     with connection:
+    #         df.to_sql(name="bike_trip", con=connection, if_exists="replace")
 
     if output_csv:
         print ("generating csv...this will take a bit...")
