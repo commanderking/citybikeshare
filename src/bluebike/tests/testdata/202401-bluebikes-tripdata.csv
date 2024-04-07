@@ -1,0 +1,7 @@
+"ride_id","rideable_type","started_at","ended_at","start_station_name","start_station_id","end_station_name","end_station_id","start_lat","start_lng","end_lat","end_lng","member_casual"
+"D2F4A4783B230A84","electric_bike","2024-01-31 12:16:49","2024-01-31 12:21:02","Ames St at Main St","M32037","Central Square at Mass Ave / Essex St","M32011",42.362356782,-71.088163376,42.36507,-71.1031,"member"
+"D305CEFFD4558633","classic_bike","2024-01-12 08:14:16","2024-01-12 08:19:48","Ames St at Main St","M32037","Central Square at Mass Ave / Essex St","M32011",42.3625,-71.08822,42.36507,-71.1031,"member"
+"02009BB4EBA0D1F6","electric_bike","2024-01-29 15:00:05","2024-01-29 15:05:47","One Memorial Drive","M32053","Kennedy-Longfellow School 158 Spring St","M32065",42.361697435,-71.080272794,42.36955297756508,-71.08579014980933,"member"
+"04C230C1C39071F7","classic_bike","2024-01-09 16:33:40","2024-01-09 17:00:41","Ames St at Main St","M32037","Brookline Town Hall","K32005",42.3625,-71.08822,42.33376472623494,-71.12046446660315,"member"
+"CEAFE67E28B43852","classic_bike","2024-01-23 10:19:21","2024-01-23 10:31:39","Mass Ave T Station","C32063","Chinatown T Stop","D32019",42.34135615767354,-71.08336953450817,42.352409,-71.062679,"member"
+"07C37921B6834977","classic_bike","2024-01-26 12:35:20","2024-01-26 12:54:06","St. Alphonsus St at Tremont St","B32063","Stuart St at Charles St","D32011",42.33329254719182,-71.10124647617339,42.351146,-71.066289,"member"
