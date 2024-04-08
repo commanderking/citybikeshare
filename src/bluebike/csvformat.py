@@ -2,7 +2,6 @@ import os
 import pandas as pd
 
 renamed_columns_pre_march_2023 = {
-    "tripduration" : "trip_duration",
     "starttime": "start_time",
     "stoptime": "stop_time",
     "start station id": "start_station_id",
@@ -53,6 +52,8 @@ def get_df_with_correct_columns(trip_file):
         df.rename(columns=renamed_columns_march_2023_and_beyond, inplace=True)
         return df
     else:
+        ### trip_duration no longer provided in post march 2023 ones - removing to avoid confusion with new columns not having this
+        df.drop(["tripduration"], axis=1, inplace=True)
         df.rename(columns=renamed_columns_pre_march_2023, inplace=True)
         return df
     
@@ -68,8 +69,7 @@ def create_formatted_df(trip_files):
     print("processing all csv files...")
 
     all_trips_df = pd.concat(file_dataframes, join='outer', ignore_index=True)
-    ### trip_duration no longer provided in post march 2023 ones - removing to avoid confusion with new columns not having this
-    all_trips_df.drop(["trip_duration"], axis=1, inplace=True)
+
 
     # Beacuse of NaN in data, birth_year and gender are floats. Converting to Int64 allows for <NA> type in integer column
     all_trips_df[["birth_year", "gender"]] = all_trips_df[["birth_year", "gender"]].astype("Int64")

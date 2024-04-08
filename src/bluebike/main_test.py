@@ -2,21 +2,27 @@ import os
 import csvformat
 
 TEST_PATH = os.path.dirname(__file__)
-EXPECTED_COLUMNS = csvformat.renamed_columns.values()
+
+pre_march_2023_columns = csvformat.renamed_columns_pre_march_2023.values()
+
+march_2023_and_beyond_columns = csvformat.renamed_columns_march_2023_and_beyond.values()
+
+all_headers = list(set(pre_march_2023_columns) | set(march_2023_and_beyond_columns))
 
 def test_csv_import():
     CSV_FILES_PATH = os.path.join(TEST_PATH, "tests/testdata")
     files = csvformat.get_csv_files(CSV_FILES_PATH)
 
-    assert len(files) == 2
+    assert len(files) == 3
 
 def test_formats_df_correctly():
     CSV_FILES_PATH = os.path.join(TEST_PATH, "tests/testdata")
     files = csvformat.get_csv_files(CSV_FILES_PATH)
     df = csvformat.create_formatted_df(files)
 
-    assert len(df.index) == 10
-    assert all([col in df.columns for col in EXPECTED_COLUMNS])
+    assert len(list(df)) == len(all_headers)
+
+    assert all([col in df.columns for col in all_headers])
 
     birth_year_check = df.loc[df["birth_year"] == 1994]
     assert len(birth_year_check) == 1
