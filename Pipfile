@@ -14,7 +14,9 @@ pyarrow = "*"
 pylint = "*"
 
 [scripts]
-sync_boston_bluebike_s3 = "aws s3 sync s3://hubway-data ./src/data/blue_bike_data"
+sync_boston_s3 = "aws s3 sync s3://hubway-data ./src/data/boston_zip"
+sync_nyc_s3 = "aws s3 sync s3://tripdata ./src/data/nyc_zip"
+sync_dc_s3 = "aws s3 sync s3://capitalbikeshare-data ./src/data/dc_zip"
 generate_blue_bike_trip_data = "python3 ./src/bluebike/main.py"
 
 [requires]
