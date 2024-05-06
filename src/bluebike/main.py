@@ -62,7 +62,6 @@ def extract_zip_files(city):
     if not os.path.exists(get_absolute_path(outputPath)):
         os.makedirs(outputPath)
 
-    print(outputPath)
     city_file_matcher = {
         "Boston": "bluebikes-tripdata",
         "NYC": "citibike-tripdata",
