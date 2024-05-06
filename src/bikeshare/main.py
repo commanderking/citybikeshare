@@ -58,7 +58,7 @@ def extract_zip_files(city):
         os.makedirs(outputPath)
 
     city_file_matcher = {
-        "Boston": "bluebikes-tripdata",
+        "Boston": "-tripdata.zip",
         "NYC": "citibike-tripdata",
         "DC": "capitalbikeshare-tripdata",
         "Chicago": "divvy-tripdata"
