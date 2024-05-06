@@ -4,14 +4,14 @@ While city bikeshare data is often accessible, it requires significant processin
 
 Currently, this is only available for bike data in Boston and Washington DC. 
 
-### Steps to Build One File
+### Steps to building a parquet or csv file
 
 1. Install pipenv (https://pipenv.pypa.io/en/latest/install/) if needed
 2. pipenv install
 3. pipenv shell
 4. pipenv run build [city] (ex pipenv run build Boston)
 
-You'll find the created files in the top level `build` folder. By default, we generate a parquet file. If you'd like a csv file, you can run 
+By default, you'll find the created file in the top level `build` folder. If you'd like a csv file instead, you can run 
 
 ```
 pipenv run build [city] --csv
@@ -22,7 +22,7 @@ pipenv run build [city] --csv
 The script does two things
 
 1. Unzip all bikeshare trip data from May, 2018 to now, into their csv files, storing them in `./src/data/[city]_csvs`
-2. Merges the unzipped csvs into a single file for further analysis
+2. Merges the unzipped csvs into a single csv or parquet file for further analysis
 
 If the data has already been unzipped by running `pipenv run build`, you can skip the unzipping step by adding `--skip_unzip` to
 
@@ -53,6 +53,6 @@ member_casual
 
 #### Washington DC
 
-On May 2020, DC bike data changed their column headers. 
+On May 2020, DC bike data changed their column headers in a similar manner.
 
 New York Bike shares - new headers start on 02/2021.
