@@ -77,27 +77,14 @@ def export_data(args):
     city = args.city
     output_format = "csv" if args.csv else "parquet"
 
-    df = None
-
     source_directory = get_unzipped_csv_directory(city)
     build_path = get_build_path(city, output_format)
 
     if city == "Boston": 
-        df = boston.get_trip_data_df(source_directory, build_path)
+        boston.build_all_trips(source_directory, build_path)
 
     if city == "DC":
-        trip_files = dc.get_csv_files(source_directory)
-        df = dc.create_formatted_df(trip_files)
-        if output_format == "csv":
-            print ("generating csv...this will take a bit...")
-            df.to_csv(get_build_path(city, 'csv'), index=True, header=True)
-            print("csv file created")
-        
-        if output_format == "parquet":
-            ### https://stackoverflow.com/questions/50604133/convert-csv-to-parquet-file-using-python
-            print ("generating parquet... this will take a bit...")
-            df.to_parquet(get_build_path(city, 'parquet'))
-            print("parquet file created")
+        dc.build_all_trips(source_directory, build_path)
 
 def merge_data():
     args = setup_argparse()

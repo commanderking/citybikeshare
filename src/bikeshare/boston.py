@@ -1,6 +1,6 @@
 import os
 import pandas as pd
-
+import utils
 renamed_columns_pre_march_2023 = {
     "starttime": "start_time",
     "stoptime": "stop_time",
@@ -35,15 +35,6 @@ renamed_columns_march_2023_and_beyond = {
     "member_casual": "member_casual"
 }
 
-def get_csv_files(directory):
-    trip_files = []
-    for file in os.listdir(directory):
-        if (file.endswith(".csv")):
-            csv_path = os.path.join(directory, file)
-            trip_files.append(csv_path)
-
-    return trip_files
-
 def get_df_with_correct_columns(trip_file):
     df = pd.read_csv(trip_file)
     headers = list(df)
@@ -61,10 +52,8 @@ def get_df_with_correct_columns(trip_file):
 def create_formatted_df(trip_files, output_path):
     file_dataframes = []
     for file in trip_files:
-        print(file)
         df = get_df_with_correct_columns(file)
         file_dataframes.append(df)
-
 
     print("concatenating all csv files...")
 
@@ -75,16 +64,8 @@ def create_formatted_df(trip_files, output_path):
     all_trips_df[["start_time", "stop_time"]] = all_trips_df[["start_time", "stop_time"]].astype("datetime64[ns]")
     all_trips_df[["start_station_id", "end_station_id"]] = all_trips_df[["start_station_id", "end_station_id"]].astype("str")
 
-    if output_path.endswith("csv"):
-        print ("generating csv...this will take a bit...")
-        all_trips_df.to_csv(output_path, index=True, header=True)
-        print("csv file created")
-    else: 
-        ### https://stackoverflow.com/questions/50604133/convert-csv-to-parquet-file-using-python
-        print ("generating parquet... this will take a bit...")
-        all_trips_df.to_parquet(output_path)
-        print("parquet file created")
+    utils.create_file(all_trips_df, output_path)
 
-def get_trip_data_df(csv_source_directory, output_path):
-    trip_files = get_csv_files(csv_source_directory)
+def build_all_trips(csv_source_directory, output_path):
+    trip_files = utils.get_csv_files(csv_source_directory)
     create_formatted_df(trip_files, output_path)
