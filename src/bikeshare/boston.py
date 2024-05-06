@@ -58,23 +58,33 @@ def get_df_with_correct_columns(trip_file):
         return df
     
 
-def create_formatted_df(trip_files):
-
+def create_formatted_df(trip_files, output_path):
     file_dataframes = []
     for file in trip_files:
+        print(file)
         df = get_df_with_correct_columns(file)
         file_dataframes.append(df)
 
 
-    print("processing all csv files...")
+    print("concatenating all csv files...")
 
     all_trips_df = pd.concat(file_dataframes, join='outer', ignore_index=True)
-
 
     # Beacuse of NaN in data, birth_year and gender are floats. Converting to Int64 allows for <NA> type in integer column
     all_trips_df[["birth_year", "gender"]] = all_trips_df[["birth_year", "gender"]].astype("Int64")
     all_trips_df[["start_time", "stop_time"]] = all_trips_df[["start_time", "stop_time"]].astype("datetime64[ns]")
     all_trips_df[["start_station_id", "end_station_id"]] = all_trips_df[["start_station_id", "end_station_id"]].astype("str")
 
-    return all_trips_df
-    
+    if output_path.endswith("csv"):
+        print ("generating csv...this will take a bit...")
+        all_trips_df.to_csv(output_path, index=True, header=True)
+        print("csv file created")
+    else: 
+        ### https://stackoverflow.com/questions/50604133/convert-csv-to-parquet-file-using-python
+        print ("generating parquet... this will take a bit...")
+        all_trips_df.to_parquet(output_path)
+        print("parquet file created")
+
+def get_trip_data_df(csv_source_directory, output_path):
+    trip_files = get_csv_files(csv_source_directory)
+    create_formatted_df(trip_files, output_path)

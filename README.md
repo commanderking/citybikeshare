@@ -1,23 +1,28 @@
 ### Purpose
 
-While bikeshare data is often accessible, it requires significant processing before analysis can be done. The repo cleans and merges publicly available bikeshare trip data into a single csv or sqlite db file for further analysis.
+While city bikeshare data is often accessible, it requires significant processing before analysis can be done. The repo cleans and merges publicly available bikeshare trip data into a single csv or parquet file to allow anaylsis on the entire history of bike trips.
 
 Currently, this is only available for bike data in Boston and Washington DC. 
 
-### Steps to Merge Trip Data into Single File
+### Steps to Build One File
 
 1. Install pipenv (https://pipenv.pypa.io/en/latest/install/) if needed
 2. pipenv install
-3. pipenv run build [city] 
+3. pipenv shell
+4. pipenv run build [city] (ex pipenv run build Boston)
 
-You'll find the created files in the top level `build` folder.
+You'll find the created files in the top level `build` folder. By default, we generate a parquet file. If you'd like a csv file, you can run 
+
+```
+pipenv run build [city] --csv
+```
 
 #### Steps in the script
 
 The script does two things
 
-1. Unzip all bluebike trip data from May, 2018 to now, into their csv files, storing them in `./src/data/[city]_csvs`
-2. Reads through the unzipped trip data csvs and merges them into a single file for further analysis
+1. Unzip all bikeshare trip data from May, 2018 to now, into their csv files, storing them in `./src/data/[city]_csvs`
+2. Merges the unzipped csvs into a single file for further analysis
 
 If the data has already been unzipped by running `pipenv run build`, you can skip the unzipping step by adding `--skip_unzip` to
 

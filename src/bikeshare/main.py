@@ -7,41 +7,34 @@ CURRENT_PATH = os.path.dirname(__file__)
 def get_absolute_path(filename):
     return os.path.abspath(os.path.join(CURRENT_PATH, filename)) 
 
-def getCityZipDirectory(city):
+def get_city_zip_directory(city):
     return get_absolute_path(f'../data/{city.lower()}_zip')
 
-def getCsvOutputDir(city):
+def get_unzipped_csv_directory(city):
     return get_absolute_path(f"../data/{city.lower()}_csvs")
 
-def getOutputPath(city, fileFormat):
+def get_build_path(city, fileFormat):
     return get_absolute_path(f"../../build/{city}/all_trips.{fileFormat}")
 
-
-CSV_FILE = get_absolute_path("../../build/all_trips.csv")
-PARQUET_FILE = get_absolute_path("../../build/all_trips.parquet")
-
-def createFolders(city):
+def create_folders(city):
     if not os.path.exists(get_absolute_path(f'../../build/{city.lower()}')):
         os.makedirs(get_absolute_path(f'../../build/{city.lower()}'))
         print(f'created build directory - files will be output in build/${city} folder')
     else:
         print("build directory found")
 
-
 def setup_argparse():
-    parser = argparse.ArgumentParser(description='Merging all Bike Trip Data into One File')
-
-    parser.add_argument('city', choices={"Boston", "DC" })
+    parser = argparse.ArgumentParser(description='Merging all bikeshare trip data into One CSV or parquet file')
 
     parser.add_argument(
         '--csv',
-        help='Output merged bike trip data into csv file only',
+        help='Output merged bike trip data into csv file',
         action='store_true'
     )
 
     parser.add_argument(
         '--parquet',
-        help='Output merged bike trip data into parquet file only',
+        help='Output merged bike trip data into parquet file',
         action='store_true'
     )
 
@@ -51,6 +44,8 @@ def setup_argparse():
         action='store_true'
     )
 
+    parser.add_argument('city', choices={"Boston", "DC" })
+
     args = parser.parse_args()
     return args
 
@@ -58,7 +53,7 @@ def extract_zip_files(city):
     print(f'unzipping {city} trip files')
 
     ### create folder if needed
-    outputPath = getCsvOutputDir(city)
+    outputPath = get_unzipped_csv_directory(city)
     if not os.path.exists(get_absolute_path(outputPath)):
         os.makedirs(outputPath)
 
@@ -69,8 +64,10 @@ def extract_zip_files(city):
         "Chicago": "divvy-tripdata"
     }
 
-    for file in os.listdir(getCityZipDirectory(city)):
-        file_path = os.path.join(getCityZipDirectory(city), file)
+    city_zip_directory = get_city_zip_directory(city)
+
+    for file in os.listdir(city_zip_directory):
+        file_path = os.path.join(city_zip_directory, file)
         if (zipfile.is_zipfile(file_path) and city_file_matcher[city] in file):
             with zipfile.ZipFile(file_path, mode="r") as archive:
                 archive.extractall(outputPath)
@@ -78,42 +75,39 @@ def extract_zip_files(city):
 
 def export_data(args):
     city = args.city
-    output_csv = args.csv
-    output_parquet = args.parquet
-
-    no_output_args = output_csv is False and output_parquet is False
-
-    if no_output_args:
-        output_csv = True
-        output_parquet = True
+    output_format = "csv" if args.csv else "parquet"
 
     df = None
 
+    source_directory = get_unzipped_csv_directory(city)
+    build_path = get_build_path(city, output_format)
+
     if city == "Boston": 
-        trip_files = boston.get_csv_files(getCsvOutputDir(city))
-        df = boston.create_formatted_df(trip_files)
+        df = boston.get_trip_data_df(source_directory, build_path)
 
     if city == "DC":
-        trip_files = dc.get_csv_files(getCsvOutputDir(city))
+        trip_files = dc.get_csv_files(source_directory)
         df = dc.create_formatted_df(trip_files)
-
-    if output_csv:
-        print ("generating csv...this will take a bit...")
-        df.to_csv(getOutputPath(city, 'csv'), index=True, header=True)
-        print("csv file created")
-    
-    if output_parquet:
-        ### Helpful - if need to do this on s3 at future date
-        ### https://stackoverflow.com/questions/50604133/convert-csv-to-parquet-file-using-python
-        print ("generating parquet... this will take a bit...")
-        df.to_parquet(getOutputPath(city, 'parquet'))
-        print("parquet file created")
+        if output_format == "csv":
+            print ("generating csv...this will take a bit...")
+            df.to_csv(get_build_path(city, 'csv'), index=True, header=True)
+            print("csv file created")
+        
+        if output_format == "parquet":
+            ### https://stackoverflow.com/questions/50604133/convert-csv-to-parquet-file-using-python
+            print ("generating parquet... this will take a bit...")
+            df.to_parquet(get_build_path(city, 'parquet'))
+            print("parquet file created")
 
 def merge_data():
     args = setup_argparse()
-    createFolders(args.city)
+    create_folders(args.city)
+
     if args.skip_unzip is False:
         extract_zip_files(args.city)
+    else:
+        print("skipping unzipping files")
+
     export_data(args)
 
 if __name__ == "__main__":
