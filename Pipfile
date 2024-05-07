@@ -9,6 +9,7 @@ argparse = "*"
 pytest = "*"
 duckdb = "*"
 pyarrow = "*"
+boto3 = "*"
 
 [dev-packages]
 pylint = "*"

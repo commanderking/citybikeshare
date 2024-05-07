@@ -43,11 +43,13 @@ def get_df_with_correct_columns(trip_file):
         return df
     
 
-def create_formatted_df(trip_files, output_path):
+def create_df_and_export(trip_files, output_path):
 
     file_dataframes = []
     for file in trip_files:
         df = get_df_with_correct_columns(file)
+        df[["start_time", "end_time"]] = df[["start_time", "end_time"]].astype("datetime64[ns]")
+        df[["start_station_id", "end_station_id"]] = df[["start_station_id", "end_station_id"]].astype("str")
         file_dataframes.append(df)
 
 
@@ -55,11 +57,8 @@ def create_formatted_df(trip_files, output_path):
 
     all_trips_df = pd.concat(file_dataframes, join='outer', ignore_index=True)
 
-    all_trips_df[["start_time", "end_time"]] = all_trips_df[["start_time", "end_time"]].astype("datetime64[ns]")
-    all_trips_df[["start_station_id", "end_station_id"]] = all_trips_df[["start_station_id", "end_station_id"]].astype("str")
-
     utils.create_file(all_trips_df, output_path)    
 
 def build_all_trips(csv_source_directory, output_path):
     trip_files = utils.get_csv_files(csv_source_directory)
-    create_formatted_df(trip_files, output_path)
+    create_df_and_export(trip_files, output_path)

@@ -3,6 +3,9 @@ import os
 import zipfile
 import boston
 import dc 
+import utils
+import pandas as pd
+
 CURRENT_PATH = os.path.dirname(__file__)
 def get_absolute_path(filename):
     return os.path.abspath(os.path.join(CURRENT_PATH, filename)) 
@@ -72,6 +75,15 @@ def extract_zip_files(city):
             with zipfile.ZipFile(file_path, mode="r") as archive:
                 archive.extractall(outputPath)
 
+def add_s3_files_to_df(args):
+    output_format = "csv" if args.csv else "parquet"
+
+    df = utils.read_s3_bucket_contents(args.city, boston.clean_headers_and_rows)
+    
+    build_path = get_build_path(args.city, output_format)
+
+    utils.create_file(df, build_path)
+    
 
 def export_data(args):
     city = args.city
@@ -88,14 +100,16 @@ def export_data(args):
 
 def merge_data():
     args = setup_argparse()
-    create_folders(args.city)
+    
+    add_s3_files_to_df(args)
+    # create_folders(args.city)
 
-    if args.skip_unzip is False:
-        extract_zip_files(args.city)
-    else:
-        print("skipping unzipping files")
+    # if args.skip_unzip is False:
+    #     extract_zip_files(args.city)
+    # else:
+    #     print("skipping unzipping files")
 
-    export_data(args)
+    # export_data(args)
 
 if __name__ == "__main__":
     merge_data()
