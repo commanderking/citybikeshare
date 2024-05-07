@@ -60,7 +60,7 @@ def extract_zip_files(city):
     city_file_matcher = {
         "Boston": "-tripdata.zip",
         "NYC": "citibike-tripdata",
-        "DC": "capitalbikeshare-tripdata",
+        "DC": "capitalbikeshare-tripdata.zip",
         "Chicago": "divvy-tripdata"
     }
 
