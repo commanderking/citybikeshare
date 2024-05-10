@@ -4,7 +4,7 @@ import os
 from zipfile import ZipFile
 from io import BytesIO
 
-from bikeshare.definitions import TAIPEI_CSVS_PATH
+from definitions import TAIPEI_CSVS_PATH
 import polars as pl
 import os
 
@@ -12,6 +12,9 @@ CURRENT_PATH = os.path.dirname(__file__)
 def get_absolute_path(filename):
     return os.path.abspath(os.path.join(CURRENT_PATH, filename)) 
 
+EXPECTED_TAIPEI_COLUMNS = ["rent_time","rent_station","return_time","return_station","rent","infodate"]
+# Specify the path where the Parquet file should be saved
+PARQUET_OUTPUT_PATH = get_absolute_path("../../../build/taipei.parquet")
 
 def read_csv_file(file_path, has_header=True, columns=None):
     if has_header:
@@ -53,7 +56,7 @@ def create_df_with_all_trips(folder_path, expected_columns):
 
         # Read and clean the file
         with open(file_path, 'r', encoding='utf-8', errors='replace') as file:
-            data = file.read().replace('�', '')  # Replace or remove the replacement character
+            data = file.read().replace('�', '')  # Remove the replacement character
             
         # Write the cleaned data back to the original file
         with open(file_path, 'w', encoding='utf-8') as file:
@@ -65,11 +68,9 @@ def create_df_with_all_trips(folder_path, expected_columns):
     return combined_df
 
 
-
+### CSV files often have non-ASCII characters (i.e. 202403_YouBike2.0≤º√“®Í•d∏ÍÆ∆.csv)
 def clean_filename(filename):
-    # Replace non-ASCII characters
     return f'{filename[:6]}.csv'
-
 
 ##
 # Get main csv, which lists monthly csv data in zip form
@@ -89,12 +90,10 @@ def extract_all_csvs():
         if response.status_code == 200:
             with ZipFile(BytesIO(response.content)) as zip_file:
                 zip_contents = zip_file.namelist()
-                print(f"Contents of the zip file from {file_url}: {zip_contents}")
                 
                 for file in zip_contents:
                     clean_file = clean_filename(file)
                     
-                    print(clean_file)
                     source = zip_file.open(file)
                     target_path = os.path.join(TAIPEI_CSVS_PATH, clean_file)
 
@@ -109,12 +108,11 @@ def export_to_parquet(df, output_path):
     print("writing parquet")
     df.write_parquet(output_path)
 
-if __name__ == "__main__":
-    # extract_all_csvs()
-    expected_columns = ["rent_time","rent_station","return_time","return_station","rent","infodate"]
 
-    combined_df = create_df_with_all_trips(TAIPEI_CSVS_PATH, expected_columns)
+def create_all_trips_parquet():
+    extract_all_csvs()
+    combined_df = create_df_with_all_trips(TAIPEI_CSVS_PATH, EXPECTED_TAIPEI_COLUMNS)
+    export_to_parquet(combined_df, PARQUET_OUTPUT_PATH)
     
-    # Specify the path where the Parquet file should be saved
-    output_parquet_path = get_absolute_path("../../../build/taipei.parquet")
-    export_to_parquet(combined_df, output_parquet_path)
+if __name__ == "__main__":
+    create_all_trips_parquet()

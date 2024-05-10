@@ -10,7 +10,7 @@ pytest = "*"
 duckdb = "*"
 pyarrow = "*"
 requests = "~=2.31.0"
-polars = "*"
+polars = "~=0.20.25"
 
 [dev-packages]
 pylint = "*"
