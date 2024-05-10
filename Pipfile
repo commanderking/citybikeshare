@@ -9,6 +9,8 @@ argparse = "*"
 pytest = "*"
 duckdb = "*"
 pyarrow = "*"
+requests = "~=2.31.0"
+polars = "*"
 
 [dev-packages]
 pylint = "*"

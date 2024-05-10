@@ -3,6 +3,8 @@ import os
 import zipfile
 import boston
 import dc 
+from pathlib import Path
+
 CURRENT_PATH = os.path.dirname(__file__)
 def get_absolute_path(filename):
     return os.path.abspath(os.path.join(CURRENT_PATH, filename)) 
