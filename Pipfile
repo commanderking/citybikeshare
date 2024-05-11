@@ -16,7 +16,7 @@ polars = "~=0.20.25"
 pylint = "*"
 
 [scripts]
-sync_boston_s3 = "aws s3 sync s3://hubway-data ./src/data/boston_zip"
+sync_boston_s3 = "aws s3 sync s3://hubway-data ./data/boston/zip"
 sync_nyc_s3 = "aws s3 sync s3://tripdata ./src/data/nyc_zip"
 sync_dc_s3 = "aws s3 sync s3://capitalbikeshare-data ./src/data/dc_zip"
 build = "python3 ./src/bikeshare/main.py --parquet"
