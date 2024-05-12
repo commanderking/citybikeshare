@@ -1,20 +1,24 @@
 import pandas 
 import requests 
 import os
+import sys
+import polars as pl
 from zipfile import ZipFile
 from io import BytesIO
+import utils
 
-from definitions import TAIPEI_CSVS_PATH
-import polars as pl
-import os
+project_root = os.getenv('PROJECT_ROOT')
+sys.path.insert(0, project_root)
 
-CURRENT_PATH = os.path.dirname(__file__)
-def get_absolute_path(filename):
-    return os.path.abspath(os.path.join(CURRENT_PATH, filename)) 
+import definitions
+
 
 EXPECTED_TAIPEI_COLUMNS = ["rent_time","rent_station","return_time","return_station","rent","infodate"]
 # Specify the path where the Parquet file should be saved
-PARQUET_OUTPUT_PATH = get_absolute_path("../../../build/taipei.parquet")
+
+PARQUET_OUTPUT_PATH = definitions.DATA_DIR / "taipei_all_trips.parquet" 
+
+TAIPEI_CSVS_PATH = utils.get_raw_files_directory("taipei")
 
 def read_csv_file(file_path, has_header=True, columns=None):
     if has_header:

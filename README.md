@@ -4,6 +4,11 @@ While city bikeshare data is often accessible, it requires significant processin
 
 Currently, this is only available for bike data in Boston and Washington DC. 
 
+### Configuration
+
+1. Copy the contents of .env.config to .env. 
+2. For PROJECT_ROOT, paste the path to this project. 
+
 ### Steps to building a parquet or csv file
 
 1. Install pipenv (https://pipenv.pypa.io/en/latest/install/) if needed
