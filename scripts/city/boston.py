@@ -1,5 +1,6 @@
 import pandas as pd
 import utils
+import polars as pl
 
 renamed_columns_pre_march_2023 = {
     "starttime": "start_time",
@@ -35,48 +36,58 @@ renamed_columns_march_2023_and_beyond = {
     "member_casual": "member_casual"
 }
 
-def get_df_with_correct_columns(trip_file):
-    df = pd.read_csv(trip_file)
-    headers = list(df)
-    ### ride_id is column only available starting march 2023 - denotes new headers are used
-    if ("ride_id" in headers):
-        df.rename(columns=renamed_columns_march_2023_and_beyond, inplace=True)
-        return df
-    else:
-        ### trip_duration no longer provided in post march 2023 ones - removing to avoid confusion with new columns not having this
-        df.drop(["tripduration"], axis=1, inplace=True)
-        df.rename(columns=renamed_columns_pre_march_2023, inplace=True)
-        return df
-    
+final_columns = ["start_time", "stop_time", "start_station_name", "end_station_name", "start_station_id", "end_station_id"]
 
-def create_formatted_df(trip_files, output_path):
+def get_applicable_columns_mapping(df, rename_dict):
+    # Filter the rename dictionary to include only columns that exist in the DataFrame
+    existing_columns = df.columns
+    filtered_rename_dict = {old: new for old, new in rename_dict.items() if old in existing_columns}
+
+    # Apply the renaming
+    return filtered_rename_dict
+
+def get_df_with_renamed_columns(trip_file):
+    """Map columns of different csvs to consistent column names and return a DataFrame"""
+    
+    # Some columns like birth year have value \\N for some reason.
+    # Polars will not read the csvs if it detects these values in what it deems an int column
+    df = pl.read_csv(trip_file, null_values='\\N')
+    headers = df.columns
+    
+    # Applicable columns needed because not all csvs (not even those pre/post 3/2023 can have slightly different columns)
+    # Polars throws error if it finds a column it can't rename
+    if "ride_id" in headers:
+        applicable_renamed_columns = get_applicable_columns_mapping(df, renamed_columns_march_2023_and_beyond)
+        df = df.rename(applicable_renamed_columns)
+    else:
+        applicable_renamed_columns = get_applicable_columns_mapping(df, renamed_columns_pre_march_2023)
+        df = df.rename(applicable_renamed_columns)
+    
+    return df.select(final_columns)
+
+def format_df_generate_parquet(trip_files, output_path):
+    """Get correct column data structures"""
     file_dataframes = []
     for file in trip_files:
-        print(file)
-        df = get_df_with_correct_columns(file)
-        df[["start_time", "stop_time"]] = df[["start_time", "stop_time"]].astype("datetime64[ns]")
-        df[["start_station_id", "end_station_id"]] = df[["start_station_id", "end_station_id"]].astype("str")
-        
-        ### Addressed the following issue: pyarrow.lib.ArrowInvalid: ("Could not convert '-71.101427' with type str: tried to convert to double", 'Conversion failed for column end_station_longitude with type object'). There may be some Na as a result in the final data
-        ### TODO: Investiage this further - probably don't want to drop the row completely
-        # We can check with: print(df['end_station_latitude'].isna().sum())
-        df['end_station_latitude'] = pd.to_numeric(df['end_station_latitude'], errors='coerce')
-        df['end_station_longitude'] = pd.to_numeric(df['end_station_longitude'], errors='coerce')
-        
-        if(all([item in df.columns for item in ['birth_year','gender']])):
-            # Beacuse of NaN in data, birth_year and gender are floats. Converting to Int64 allows for <NA> type in integer column
-            # hubway data contains \N for some birth_years
-            df[["birth_year", "gender"]] = df[["birth_year", "gender"]].replace('\\N', pd.NA).astype("Int64")
-
+        df = get_df_with_renamed_columns(file)
+        df = df.with_columns([
+            # Need to remove fractional seconds for certain csv files
+            pl.col("start_time").str.replace(r"\.\d+", "").str.strptime(pl.Datetime, "%Y-%m-%d %H:%M:%S", strict=False),
+            pl.col("stop_time").str.replace(r"\.\d+", "").str.strptime(pl.Datetime, "%Y-%m-%d %H:%M:%S", strict=False),
+            pl.col(["start_station_id", "end_station_id"]).cast(pl.Utf8)
+        ])
         
         file_dataframes.append(df)
 
     print("concatenating all csv files...")
     
-    all_trips_df = pd.concat(file_dataframes, join='outer', ignore_index=True)
-    utils.create_file(all_trips_df, output_path)
+    all_trips_df = pl.concat(file_dataframes)
+    all_trips_df.write_parquet(output_path)
     return all_trips_df
 
 def build_all_trips(csv_source_directory, output_path):
+    # Polars takes boaut 11 seconds for Boston. Was 60-70 seconds using pandas
     trip_files = utils.get_csv_files(csv_source_directory)
-    create_formatted_df(trip_files, output_path)
+    format_df_generate_parquet(trip_files, output_path)
+
+
