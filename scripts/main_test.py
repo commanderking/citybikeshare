@@ -1,5 +1,6 @@
 import os
-import boston
+import city.boston as boston
+import utils
 
 TEST_PATH = os.path.dirname(__file__)
 
@@ -11,14 +12,14 @@ all_headers = list(set(pre_march_2023_columns) | set(march_2023_and_beyond_colum
 
 def test_csv_import():
     CSV_FILES_PATH = os.path.join(TEST_PATH, "tests/testdata")
-    files = boston.get_csv_files(CSV_FILES_PATH)
+    files = utils.get_csv_files(CSV_FILES_PATH)
 
     assert len(files) == 3
 
 def test_formats_df_correctly():
     CSV_FILES_PATH = os.path.join(TEST_PATH, "tests/testdata")
-    files = boston.get_csv_files(CSV_FILES_PATH)
-    df = boston.create_formatted_df(files)
+    files = utils.get_csv_files(CSV_FILES_PATH)
+    df = boston.create_formatted_df(files, "")
 
     assert len(list(df)) == len(all_headers)
 
