@@ -7,5 +7,3 @@ BASE_DIR = Path(__file__).resolve().parent
 # Paths to various data directories
 DATA_DIR = BASE_DIR / 'data'
 RAW_DATA_DIR = BASE_DIR / 'data' / 'raw'
-PROCESSED_DATA_DIR = BASE_DIR / 'data' / 'processed'
-FINAL_DATA_DIR = BASE_DIR / 'data' / 'final'

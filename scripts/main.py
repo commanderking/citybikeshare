@@ -65,9 +65,6 @@ def build_all_trips_file():
     else:
         print("skipping unzipping files")
     
-    print(city)
-
-
     source_directory = utils.get_raw_files_directory(city)
     build_path = utils.get_output_path(city, output_format)
     

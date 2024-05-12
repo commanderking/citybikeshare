@@ -73,12 +73,8 @@ def create_formatted_df(trip_files, output_path):
 
     print("concatenating all csv files...")
     
-    print(output_path)
-
     all_trips_df = pd.concat(file_dataframes, join='outer', ignore_index=True)
-
     utils.create_file(all_trips_df, output_path)
-    
     return all_trips_df
 
 def build_all_trips(csv_source_directory, output_path):
