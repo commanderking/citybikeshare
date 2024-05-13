@@ -129,7 +129,6 @@ def format_and_concat_files(trip_files, rename_df_columns):
     return all_trips_df
 
 def build_all_trips(csv_source_directory, output_path, rename_columns):
-    # Polars takes boaut 11 seconds for Boston. Was 60-70 seconds using pandas
     trip_files = utils.get_csv_files(csv_source_directory)
     all_trips_df = format_and_concat_files(trip_files, rename_columns)
     all_trips_df.write_parquet(output_path)
