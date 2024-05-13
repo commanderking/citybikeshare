@@ -13,7 +13,7 @@ sys.path.insert(0, project_root)
 import definitions
 
 
-EXPECTED_TAIPEI_COLUMNS = ["rent_time","rent_station","return_time","return_station","rent","infodate"]
+EXPECTED_TAIPEI_COLUMNS = ["rent_time","rent_station","return_time","return_station","rent", "infodate"]
 # Specify the path where the Parquet file should be saved
 
 PARQUET_OUTPUT_PATH = definitions.DATA_DIR / "taipei_all_trips.parquet" 
@@ -48,7 +48,6 @@ def convert_rent_time_to_seconds(df, column_name):
          .map_batches(lambda timeString: toSeconds(timeString))
         )
     )
-
 
 def create_df_with_all_trips(folder_path, expected_columns):
     csv_files = [os.path.join(folder_path, f) for f in os.listdir(folder_path) if f.endswith('.csv')]
@@ -113,10 +112,8 @@ def export_to_parquet(df, output_path):
     df.write_parquet(output_path)
 
 
-def create_all_trips_parquet():
-    extract_all_csvs()
+def create_all_trips_parquet(args):    
+    if not args.skip_unzip:
+        extract_all_csvs()
     combined_df = create_df_with_all_trips(TAIPEI_CSVS_PATH, EXPECTED_TAIPEI_COLUMNS)
     export_to_parquet(combined_df, PARQUET_OUTPUT_PATH)
-    
-if __name__ == "__main__":
-    create_all_trips_parquet()

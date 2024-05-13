@@ -2,8 +2,7 @@ import argparse
 import os
 import sys
 import zipfile
-import city.boston as boston
-import city.dc as dc
+import city.usa_cities as usa_cities
 import city.taipei as taipei
 import utils
 
@@ -15,13 +14,7 @@ def setup_argparse():
 
     parser.add_argument(
         '--csv',
-        help='Output merged bike trip data into csv file',
-        action='store_true'
-    )
-
-    parser.add_argument(
-        '--parquet',
-        help='Output merged bike trip data into parquet file',
+        help='Output merged bike trip data into csv file. Default output is parquet file',
         action='store_true'
     )
 
@@ -69,13 +62,13 @@ def build_all_trips_file():
     build_path = utils.get_output_path(city, output_format)
     
     if city == "boston": 
-        boston.build_all_trips(source_directory, build_path)
+        usa_cities.build_all_trips(source_directory, build_path, usa_cities.rename_boston_columns)
 
     if city == "dc":
-        dc.build_all_trips(source_directory, build_path)
+        usa_cities.build_all_trips(source_directory, build_path, usa_cities.rename_dc_columns)
     
     if city == "taipei":
-        taipei.create_all_trips_parquet()
+        taipei.create_all_trips_parquet(args)
         
 
 if __name__ == "__main__":

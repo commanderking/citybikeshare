@@ -1,12 +1,12 @@
 import os
-import city.boston as boston
+import scripts.city.usa_cities as usa_cities
 import utils
 
 TEST_PATH = os.path.dirname(__file__)
 
-pre_march_2023_columns = boston.renamed_columns_pre_march_2023.values()
+pre_march_2023_columns = usa_cities.renamed_columns_pre_march_2023.values()
 
-march_2023_and_beyond_columns = boston.renamed_columns_march_2023_and_beyond.values()
+march_2023_and_beyond_columns = usa_cities.renamed_columns_march_2023_and_beyond.values()
 
 all_headers = list(set(pre_march_2023_columns) | set(march_2023_and_beyond_columns))
 
@@ -19,7 +19,7 @@ def test_csv_import():
 def test_formats_df_correctly():
     CSV_FILES_PATH = os.path.join(TEST_PATH, "tests/testdata")
     files = utils.get_csv_files(CSV_FILES_PATH)
-    df = boston.create_formatted_df(files, "")
+    df = usa_cities.create_formatted_df(files, "")
 
     assert len(list(df)) == len(all_headers)
 
