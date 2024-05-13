@@ -19,7 +19,7 @@ pylint = "*"
 sync_boston = "aws s3 sync s3://hubway-data ./data/boston/zip"
 sync_nyc_s3 = "aws s3 sync s3://tripdata ./src/data/nyc_zip"
 sync_dc = "aws s3 sync s3://capitalbikeshare-data ./data/dc/zip"
-build = "python3 ./scripts/main.py --parquet"
+build = "python3 ./scripts/main.py"
 build_boston = "bash -c 'pipenv run sync_boston && pipenv run build Boston'"
 
 [requires]

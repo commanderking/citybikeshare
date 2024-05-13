@@ -131,4 +131,6 @@ def format_and_concat_files(trip_files, rename_df_columns):
 def build_all_trips(csv_source_directory, output_path, rename_columns):
     trip_files = utils.get_csv_files(csv_source_directory)
     all_trips_df = format_and_concat_files(trip_files, rename_columns)
-    all_trips_df.write_parquet(output_path)
+    
+    utils.create_file(all_trips_df, output_path)
+    

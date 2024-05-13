@@ -14,13 +14,7 @@ def setup_argparse():
 
     parser.add_argument(
         '--csv',
-        help='Output merged bike trip data into csv file',
-        action='store_true'
-    )
-
-    parser.add_argument(
-        '--parquet',
-        help='Output merged bike trip data into parquet file',
+        help='Output merged bike trip data into csv file. Default output is parquet file',
         action='store_true'
     )
 
