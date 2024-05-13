@@ -13,7 +13,7 @@ sys.path.insert(0, project_root)
 import definitions
 
 
-EXPECTED_TAIPEI_COLUMNS = ["rent_time","rent_station","return_time","return_station","rent", "infoate"]
+EXPECTED_TAIPEI_COLUMNS = ["rent_time","rent_station","return_time","return_station","rent", "infodate"]
 # Specify the path where the Parquet file should be saved
 
 PARQUET_OUTPUT_PATH = definitions.DATA_DIR / "taipei_all_trips.parquet" 
@@ -112,9 +112,7 @@ def export_to_parquet(df, output_path):
     df.write_parquet(output_path)
 
 
-def create_all_trips_parquet(args):
-    args.skip_unzip
-    
+def create_all_trips_parquet(args):    
     if not args.skip_unzip:
         extract_all_csvs()
     combined_df = create_df_with_all_trips(TAIPEI_CSVS_PATH, EXPECTED_TAIPEI_COLUMNS)
