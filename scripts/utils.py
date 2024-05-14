@@ -1,6 +1,6 @@
 import os
 import sys
-from datetime import timedelta, datetime
+from datetime import timedelta
 import polars as pl
 
 project_root = os.getenv('PROJECT_ROOT')
@@ -47,13 +47,8 @@ def get_csv_files(directory):
     return trip_files
 
 def get_recent_year_df(df):
-    # Get the maximum date
+    """Returns all rows one year from the last date"""
     max_date = df.select(pl.max("start_time")).to_series()[0]
-    
-    
-
-    print(max_date)
-    # Calculate the date one year ago
     one_year_ago = max_date - timedelta(days=365)
 
     print(one_year_ago)
@@ -62,7 +57,7 @@ def get_recent_year_df(df):
     
     return last_year_df
 
-def create_files(df, args):
+def create_all_trips_file(df, args):
     all_trips_path = get_all_trips_path(args)
     if args.csv:
         print ("generating csv...this will take a bit...")

@@ -5,7 +5,6 @@ from io import BytesIO
 import requests 
 import polars as pl
 import utils
-from datetime import timedelta, datetime
 
 project_root = os.getenv('PROJECT_ROOT')
 sys.path.insert(0, project_root)
@@ -23,7 +22,6 @@ renamed_columns = {
 }
 
 RAW_TAIPEI_COLUMNS = ["rent_time","rent_station","return_time","return_station","rent", "infodate"]
-RENAMED_TAIPEI_COLUMNS = list(renamed_columns.values())
 
 # Specify the path where the Parquet file should be saved
 
@@ -44,26 +42,14 @@ def determine_has_header(file_path, expected_columns):
         first_line = file.readline().strip().split(',')
         return all(item in expected_columns for item in first_line)
 
-# def toSeconds(rentColumn):
-#     rowsInSeconds = []
-#     for row in rentColumn:
-#         timeArray = row.split(":")
-        
-#         seconds = int(timeArray[0]) * 3600 + int(timeArray[1]) * 60 + int(timeArray[2])
-#         rowsInSeconds.append(seconds)
-#     return pl.Series(rowsInSeconds)
+def toSeconds(rent_series):
+    rows_in_seconds = []
+    for rent_time in rent_series:
+        time_array = rent_time.split(":")
 
-# def convert_rent_time_to_seconds(df, column_name):
-#     return df.with_columns(
-#         (pl.col(column_name)
-#          .map_batches(lambda timeString: toSeconds(timeString))
-#         )
-#     )
-
-def time_to_seconds(time_list):
-    hours, minutes, seconds = int(time_list[0]), int(time_list[1]), int(time_list[2])
-    return hours * 3600 + minutes * 60 + seconds
-
+        seconds = int(time_array[0]) * 3600 + int(time_array[1]) * 60 + int(time_array[2])
+        rows_in_seconds.append(seconds)
+    return pl.Series(rows_in_seconds)
 
 def create_df_with_all_trips(folder_path, raw_columns):
     csv_files = [os.path.join(folder_path, f) for f in os.listdir(folder_path) if f.endswith('.csv')]
@@ -75,15 +61,13 @@ def create_df_with_all_trips(folder_path, raw_columns):
 
         df = read_csv_file(file_path, has_header, raw_columns)
 
-        ### I think apply is really slowing down the process, but not sure if there's a better approach here 
         df = df.rename(renamed_columns).with_columns([
             pl.col("start_time").str.to_datetime("%Y-%m-%d %H:%M:%S"),
             pl.col("end_time").str.to_datetime("%Y-%m-%d %H:%M:%S"),
-
-            pl.col("rent").str.split(":").apply(time_to_seconds, return_dtype=pl.Int32).alias("duration")
+            ### map_batches is not ideal, but using to_time is not an option because hours can go over 24. 
+            ### This is more efficient than the previous approach of: str.split(":").apply(time_to_seconds, return_dtype=pl.Int32).alias("duration")
+            pl.col("rent").map_batches(toSeconds, return_dtype=pl.Int64)
         ]).drop("rent", "info_date")
-        
-        print(df)
         dataframes.append(df)
 
     combined_df = pl.concat(dataframes)
@@ -102,12 +86,12 @@ def extract_all_csvs():
     print(TAIPEI_CSVS_PATH)
     df = pl.read_csv("https://tcgbusfs.blob.core.windows.net/dotapp/youbike_second_ticket_opendata/YouBikeHis.csv")
     
-    for index, row in df.iterrows():
+    for row in df.iterrows():
         file_url = row['fileURL']  # Assume the column containing the URLs is named 'fileURL'
         
         print(file_url)
         # Make an HTTP GET request to fetch the content of the zip file
-        response = requests.get(file_url)
+        response = requests.get(file_url, timeout=10000)
                 
         if response.status_code == 200:
             with ZipFile(BytesIO(response.content)) as zip_file:
@@ -134,7 +118,7 @@ def export_to_parquet(df, output_path):
 def create_all_trips_parquet(args):
     if not args.skip_unzip:
         extract_all_csvs()
-    all_trips_df = create_df_with_all_trips(TAIPEI_CSVS_PATH, RAW_TAIPEI_COLUMNS)
 
-    utils.create_files(all_trips_df, args)
+    all_trips_df = create_df_with_all_trips(TAIPEI_CSVS_PATH, RAW_TAIPEI_COLUMNS)
+    utils.create_all_trips_file(all_trips_df, args)
     utils.create_recent_year_file(all_trips_df, args)

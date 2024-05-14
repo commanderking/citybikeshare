@@ -159,5 +159,5 @@ def build_all_trips(args, rename_columns):
     trip_files = utils.get_csv_files(source_directory)
     all_trips_df = format_and_concat_files(trip_files, rename_columns)
     
-    utils.create_files(all_trips_df, args)
+    utils.create_all_trips_file(all_trips_df, args)
     utils.create_recent_year_file(all_trips_df, args)
