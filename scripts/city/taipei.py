@@ -57,13 +57,6 @@ def create_df_with_all_trips(folder_path, expected_columns):
         print(file_path)
         has_header = determine_has_header(file_path, expected_columns)
 
-        # Read and clean the file
-        with open(file_path, 'r', encoding='utf-8', errors='replace') as file:
-            data = file.read().replace('�', '')  # Remove the replacement character
-            
-        # Write the cleaned data back to the original file
-        with open(file_path, 'w', encoding='utf-8') as file:
-            file.write(data)
         df = read_csv_file(file_path, has_header, expected_columns)
         dataframes.append(convert_rent_time_to_seconds(df, 'rent'))
 
@@ -112,8 +105,9 @@ def export_to_parquet(df, output_path):
     df.write_parquet(output_path)
 
 
-def create_all_trips_parquet(args):    
+def create_all_trips_parquet(args, build_path):
     if not args.skip_unzip:
         extract_all_csvs()
-    combined_df = create_df_with_all_trips(TAIPEI_CSVS_PATH, EXPECTED_TAIPEI_COLUMNS)
-    export_to_parquet(combined_df, PARQUET_OUTPUT_PATH)
+    all_trips_df = create_df_with_all_trips(TAIPEI_CSVS_PATH, EXPECTED_TAIPEI_COLUMNS)
+    
+    utils.create_file(all_trips_df, build_path)

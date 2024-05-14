@@ -29,46 +29,24 @@ def setup_argparse():
     args = parser.parse_args()
     return args
 
-def extract_zip_files(city):
-    print(f'unzipping {city} trip files')
-    city_file_matcher = {
-        "boston": "-tripdata.zip",
-        "NYC": "citibike-tripdata",
-        "dc": "capitalbikeshare-tripdata.zip",
-        "Chicago": "divvy-tripdata"
-    }
-
-    city_zip_directory = utils.get_zip_directory(city)
-
-    for file in os.listdir(city_zip_directory):
-        file_path = os.path.join(city_zip_directory, file)
-        if (zipfile.is_zipfile(file_path) and city_file_matcher[city] in file):
-            with zipfile.ZipFile(file_path, mode="r") as archive:
-                archive.extractall(utils.get_raw_files_directory(city))
-
-
 def build_all_trips_file():
     args = setup_argparse()
 
     city = args.city.lower()
+    print(city)
     output_format = "csv" if args.csv else "parquet"
-    
-    if args.skip_unzip is False:
-        extract_zip_files(city)
-    else:
-        print("skipping unzipping files")
     
     source_directory = utils.get_raw_files_directory(city)
     build_path = utils.get_output_path(city, output_format)
     
     if city == "boston": 
-        usa_cities.build_all_trips(source_directory, build_path, usa_cities.rename_boston_columns)
+        usa_cities.build_all_trips(args, source_directory, build_path, usa_cities.rename_boston_columns)
 
     if city == "dc":
-        usa_cities.build_all_trips(source_directory, build_path, usa_cities.rename_dc_columns)
+        usa_cities.build_all_trips(args, source_directory, build_path, usa_cities.rename_dc_columns)
     
     if city == "taipei":
-        taipei.create_all_trips_parquet(args)
+        taipei.create_all_trips_parquet(args, build_path)
         
 
 if __name__ == "__main__":

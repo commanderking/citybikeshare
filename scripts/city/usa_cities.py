@@ -1,5 +1,7 @@
 import utils
 import polars as pl
+import zipfile
+import os
 
 boston_renamed_columns_pre_march_2023 = {
     "starttime": "start_time",
@@ -128,7 +130,29 @@ def format_and_concat_files(trip_files, rename_df_columns):
     all_trips_df = pl.concat(file_dataframes)
     return all_trips_df
 
-def build_all_trips(csv_source_directory, output_path, rename_columns):
+def extract_zip_files(city):
+    print(f'unzipping {city} trip files')
+    city_file_matcher = {
+        "boston": "-tripdata.zip",
+        "NYC": "citibike-tripdata",
+        "dc": "capitalbikeshare-tripdata.zip",
+        "Chicago": "divvy-tripdata"
+    }
+
+    city_zip_directory = utils.get_zip_directory(city)
+
+    for file in os.listdir(city_zip_directory):
+        file_path = os.path.join(city_zip_directory, file)
+        if (zipfile.is_zipfile(file_path) and city_file_matcher[city] in file):
+            with zipfile.ZipFile(file_path, mode="r") as archive:
+                archive.extractall(utils.get_raw_files_directory(city))
+
+
+def build_all_trips(args, csv_source_directory, output_path, rename_columns):
+    if args.skip_unzip is False:
+        extract_zip_files(args.city)
+    else:
+        print("skipping unzipping files")
     trip_files = utils.get_csv_files(csv_source_directory)
     all_trips_df = format_and_concat_files(trip_files, rename_columns)
     
