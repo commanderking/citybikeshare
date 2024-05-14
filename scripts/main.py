@@ -31,22 +31,18 @@ def setup_argparse():
 
 def build_all_trips_file():
     args = setup_argparse()
-
-    city = args.city.lower()
-    print(city)
-    output_format = "csv" if args.csv else "parquet"
     
-    source_directory = utils.get_raw_files_directory(city)
-    build_path = utils.get_output_path(city, output_format)
-    
+    args.city = args.city.lower()
+    city = args.city
+        
     if city == "boston": 
-        usa_cities.build_all_trips(args, source_directory, build_path, usa_cities.rename_boston_columns)
+        usa_cities.build_all_trips(args, usa_cities.rename_boston_columns)
 
     if city == "dc":
-        usa_cities.build_all_trips(args, source_directory, build_path, usa_cities.rename_dc_columns)
+        usa_cities.build_all_trips(args, usa_cities.rename_dc_columns)
     
     if city == "taipei":
-        taipei.create_all_trips_parquet(args, build_path)
+        taipei.create_all_trips_parquet(args)
         
 
 if __name__ == "__main__":

@@ -1,7 +1,8 @@
-import utils
-import polars as pl
 import zipfile
 import os
+import polars as pl
+import utils
+
 
 boston_renamed_columns_pre_march_2023 = {
     "starttime": "start_time",
@@ -111,7 +112,7 @@ def format_and_concat_files(trip_files, rename_df_columns):
     file_dataframes = []
     for file in trip_files:
         print(file)
-        # Some columns like birth year have value \\N for some reason.
+        # Some columns like birth year have value \\N.
         # Polars will not read the csvs if it detects these values in what it deems an int column
         # DC data has MTL-ECO5-03 in 202102 :(
         df = pl.read_csv(file, null_values=['\\N', 'MTL-ECO5-03'])
@@ -148,13 +149,15 @@ def extract_zip_files(city):
                 archive.extractall(utils.get_raw_files_directory(city))
 
 
-def build_all_trips(args, csv_source_directory, output_path, rename_columns):
+def build_all_trips(args, rename_columns):
+    source_directory = utils.get_raw_files_directory(args.city)
+
     if args.skip_unzip is False:
         extract_zip_files(args.city)
     else:
         print("skipping unzipping files")
-    trip_files = utils.get_csv_files(csv_source_directory)
+    trip_files = utils.get_csv_files(source_directory)
     all_trips_df = format_and_concat_files(trip_files, rename_columns)
     
-    utils.create_file(all_trips_df, output_path)
-    
+    utils.create_files(all_trips_df, args)
+    utils.create_recent_year_file(all_trips_df, args)
