@@ -24,7 +24,7 @@ def setup_argparse():
         action='store_true'
     )
 
-    parser.add_argument('city', choices={"Boston", "DC", "Taipei", "Chicago", "NYC"})
+    parser.add_argument('city', choices={"Boston", "DC", "Taipei", "Chicago", "NYC", "SF"})
 
     args = parser.parse_args()
     return args
@@ -44,12 +44,14 @@ def build_all_trips_file():
     if city == "chicago":
         usa_cities.build_all_trips(args, usa_cities.rename_chicago_columns)
 
-    if city =="nyc":
+    if city == "nyc":
         usa_cities.build_all_trips(args, usa_cities.rename_nyc_columns)
+    
+    if city == "sf":
+        usa_cities.build_all_trips(args, usa_cities.rename_sf_columns)
 
     if city == "taipei":
         taipei.create_all_trips_parquet(args)
-        
 
 if __name__ == "__main__":
     build_all_trips_file()
