@@ -2,7 +2,11 @@
 
 While city bikeshare data is often accessible, it requires significant processing before analysis can be done. The repo cleans and merges publicly available bikeshare trip data into a single csv or parquet file to allow anaylsis on the entire history of bike trips.
 
-Currently, this is only available for bike data in Boston and Washington DC. 
+Currently, data is available for:
+- Boston
+- Chicago
+- Taipei
+- Washington DC
 
 ### Configuration
 
@@ -61,3 +65,11 @@ member_casual
 On May 2020, DC bike data changed their column headers in a similar manner.
 
 New York Bike shares - new headers start on 02/2021.
+
+### Philadelphia
+
+Data can be found here: https://www.rideindego.com/about/data/
+
+### San Francisco
+
+Data can be found here: https://www.lyft.com/bikes/bay-wheels/system-data
