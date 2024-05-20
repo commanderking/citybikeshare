@@ -122,7 +122,7 @@ nyc_renamed_columns_initial = {
     "bikeid": "bike_id",
     "usertype": "usertype",
     "birth year": "birth_year",
-    "gender": "gender",
+    "Gender": "gender",
     "postal code": "postal_code"
 }
 
@@ -225,9 +225,7 @@ def rename_chicago_columns(df):
 
 def rename_nyc_columns(df):
     headers = df.columns
-    
-    print(headers)
-    
+        
     if "ride_id" in headers:
         applicable_renamed_columns = get_applicable_columns_mapping(df, nyc_renamed_columns_2021_01_and_beyond)
         df = df.rename(applicable_renamed_columns)
@@ -274,6 +272,7 @@ def extract_zip_files(city):
     
     def city_match(file_path, city):
         if city == "nyc":
+            # JC files are duplicates of other files, but contain a more limited set of columns
             return "JC" not in file_path
         else: 
             return any(word in file_path for word in city_file_matcher[city])        
