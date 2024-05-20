@@ -61,3 +61,11 @@ member_casual
 On May 2020, DC bike data changed their column headers in a similar manner.
 
 New York Bike shares - new headers start on 02/2021.
+
+### Philadelphia
+
+Data can be found here: https://www.rideindego.com/about/data/
+
+### San Francisco
+
+Data can be found here: https://www.lyft.com/bikes/bay-wheels/system-data
