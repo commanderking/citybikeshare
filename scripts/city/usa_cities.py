@@ -161,13 +161,50 @@ nyc_renamed_columns_2021_01_and_beyond = {
     "member_casual": "member_casual"   
 }
 
+sf_renamed_columns_pre_may_2020 = {
+    "starttime": "start_time",
+    "stoptime": "end_time",
+    "start station id": "start_station_id",
+    "start station name": "start_station_name",
+    "start station latitude": "start_station_latitude",
+    "start station longitude": "start_station_longitude",
+    "end station id": "end_station_id",
+    "end station name": "end_station_name",
+    "end station latitude": "end_station_latitude",
+    "end station longitude": "end_station_longitude",
+    "bikeid": "bike_id",
+    "usertype": "usertype",
+    "birth year": "birth_year",
+    "gender": "gender",
+    "postal code": "postal_code"
+}
+
+sf_renamed_columns_may_2020_and_beyond = {
+    "ride_id": "ride_id",
+    "rideable_type": "rideable_type",	
+    "started_at": "start_time",	
+    "ended_at": "end_time",	
+    "start_station_name": "start_station_name",
+    "start_station_id": "start_station_id",	
+    "end_station_name": "end_station_name",	
+    "end_station_id": "end_station_id", 
+    "start_lat": "start_station_latitude",	
+    "start_lng": "start_station_longitude",
+    "end_lat": "end_station_latitude",	
+    "end_lng": "end_station_longitude",	
+    "member_casual": "member_casual"
+}
+
+
+
 final_columns = ["start_time", "end_time", "start_station_name", "end_station_name", "start_station_id", "end_station_id"]
 
 city_file_matcher = {
     "boston": ["-tripdata"],
     "nyc": ["citibike-tripdata"],
     "dc": ["capitalbikeshare-tripdata"],
-    "chicago": ["trip", "Trips"]
+    "chicago": ["trip", "Trips"],
+    "sf": ["tripdata"]
 }
 
 def get_applicable_columns_mapping(df, rename_dict):
@@ -238,8 +275,19 @@ def rename_nyc_columns(df):
         df = df.rename(applicable_renamed_columns)
     
     return df.select(final_columns)
+
+def rename_sf_columns(df):
+    headers = df.columns
+
+    if "ride_id" in headers:
+        applicable_renamed_columns = get_applicable_columns_mapping(df, sf_renamed_columns_may_2020_and_beyond)
+        df = df.rename(applicable_renamed_columns)
+    else:
+        applicable_renamed_columns = get_applicable_columns_mapping(df, sf_renamed_columns_pre_may_2020)
+        df = df.rename(applicable_renamed_columns)
     
-    
+    return df.select(final_columns)
+
 
 def format_and_concat_files(trip_files, rename_df_columns):
     """Get correct column data structures"""

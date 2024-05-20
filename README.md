@@ -6,6 +6,7 @@ Currently, data is available for:
 - Boston
 - Chicago
 - NYC
+- San Francisco
 - Taipei
 - Washington DC
 
@@ -64,8 +65,6 @@ member_casual
 #### Washington DC
 
 On May 2020, DC bike data changed their column headers in a similar manner.
-
-New York Bike shares - new headers start on 02/2021.
 
 ### Philadelphia
 
