@@ -6,6 +6,7 @@ Currently, data is available for:
 - Boston
 - Chicago
 - NYC
+- San Francisco
 - Taipei
 - Washington DC
 
