@@ -5,6 +5,7 @@ While city bikeshare data is often accessible, it requires significant processin
 Currently, data is available for:
 - Boston
 - Chicago
+- NYC
 - Taipei
 - Washington DC
 
@@ -20,7 +21,7 @@ Currently, data is available for:
 3. pipenv shell
 4. pipenv run build [city] (ex pipenv run build Boston)
 
-By default, you'll find the created file in the top level `build` folder. If you'd like a csv file instead, you can run 
+By default, a parquet file for your selected city wil lbe generated in the `data` folder. If you'd like a csv file instead, you can run 
 
 ```
 pipenv run build [city] --csv
@@ -28,15 +29,15 @@ pipenv run build [city] --csv
 
 #### Steps in the script
 
-The script does two things
+The general procedure to clean the data in any city is:
 
-1. Unzip all bikeshare trip data from May, 2018 to now, into their csv files, storing them in `./src/data/[city]_csvs`
-2. Merges the unzipped csvs into a single csv or parquet file for further analysis
+1. Unzip all bikeshare trip data into their csv files, storing them in `./src/data/[city]`
+2. Commonize the column headers and merge all trips into one polars dataframe.
+3. Export a csv or parquet file for further analysis
 
 If the data has already been unzipped by running `pipenv run build`, you can skip the unzipping step by adding `--skip_unzip` to
 
 ### Notes about the data
-
 
 #### Boston
 Starting in March, 2023, bluebike csvs uploaded to [the s3 bucket](https://s3.amazonaws.com/hubway-data/index.html) changed their format to have different headers than previous csvs. Some of these headers were renamed, such as `starttime` changing to `start_at`, but some old columns were removed and new columns were added.

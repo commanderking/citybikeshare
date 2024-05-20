@@ -108,6 +108,59 @@ chicago_renamed_columns_2021_Q1_and_beyond = {
     "member_casual": "member_casual"
 }
 
+nyc_renamed_columns_initial = {
+    "starttime": "start_time",
+    "stoptime": "end_time",
+    "start station id": "start_station_id",
+    "start station name": "start_station_name",
+    "start station latitude": "start_station_latitude",
+    "start station longitude": "start_station_longitude",
+    "end station id": "end_station_id",
+    "end station name": "end_station_name",
+    "end station latitude": "end_station_latitude",
+    "end station longitude": "end_station_longitude",
+    "bikeid": "bike_id",
+    "usertype": "usertype",
+    "birth year": "birth_year",
+    "Gender": "gender",
+    "postal code": "postal_code"
+}
+
+nyc_renamed_columns_2017_03_to_2020_01 = {
+    "Trip Duration" : "duration",
+    "Start Time": "start_time",
+    "Stop Time": "end_time",
+    "Start Station ID": "start_station_id",
+    "Start Station Name" :"start_station_name",
+    "Start Station Latitude" : "start_station_latitude",
+    "Start Station Longitude": "start_station_longitude",
+    "End Station ID": "end_station_id",
+    "End Station Name": "end_station_name",
+    "End Station Latitude": "end_station_latitude",
+    "End Station Longitude": "end_station_longitude",
+    "Bike ID": "bike_id",
+    "User Type": "usertype",
+    "Birth Year": "birth_year",
+    "gender": "gender"
+    
+}
+
+nyc_renamed_columns_2021_01_and_beyond = {
+    "ride_id": "ride_id",
+    "rideable_type": "rideable_type",	
+    "started_at": "start_time",	
+    "ended_at": "end_time",	
+    "start_station_name": "start_station_name",
+    "start_station_id": "start_station_id",	
+    "end_station_name": "end_station_name",	
+    "end_station_id": "end_station_id", 
+    "start_lat": "start_station_latitude",	
+    "start_lng": "start_station_longitude",
+    "end_lat": "end_station_latitude",	
+    "end_lng": "end_station_longitude",	
+    "member_casual": "member_casual"   
+}
+
 final_columns = ["start_time", "end_time", "start_station_name", "end_station_name", "start_station_id", "end_station_id"]
 
 city_file_matcher = {
@@ -170,6 +223,24 @@ def rename_chicago_columns(df):
     
     return df.select(final_columns)
 
+def rename_nyc_columns(df):
+    headers = df.columns
+        
+    if "ride_id" in headers:
+        applicable_renamed_columns = get_applicable_columns_mapping(df, nyc_renamed_columns_2021_01_and_beyond)
+        df = df.rename(applicable_renamed_columns)
+    elif "Trip Duration" in headers:
+        print("in trip duration")
+        applicable_renamed_columns = get_applicable_columns_mapping(df, nyc_renamed_columns_2017_03_to_2020_01)
+        df = df.rename(applicable_renamed_columns)
+    else:
+        applicable_renamed_columns = get_applicable_columns_mapping(df, nyc_renamed_columns_initial)
+        df = df.rename(applicable_renamed_columns)
+    
+    return df.select(final_columns)
+    
+    
+
 def format_and_concat_files(trip_files, rename_df_columns):
     """Get correct column data structures"""
     
@@ -199,9 +270,16 @@ def extract_zip_files(city):
     print(f'unzipping {city} trip files')
     city_zip_directory = utils.get_zip_directory(city)
     
+    def city_match(file_path, city):
+        if city == "nyc":
+            # JC files are duplicates of other files, but contain a more limited set of columns
+            return "JC" not in file_path
+        else: 
+            return any(word in file_path for word in city_file_matcher[city])        
+
     for file in os.listdir(city_zip_directory):
         file_path = os.path.join(city_zip_directory, file)
-        if (zipfile.is_zipfile(file_path) and any(word in file_path for word in city_file_matcher[city])):
+        if (zipfile.is_zipfile(file_path) and city_match(file_path, city)):
             with zipfile.ZipFile(file_path, mode="r") as archive:
                 archive.extractall(utils.get_raw_files_directory(city))
 
