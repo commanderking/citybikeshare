@@ -66,9 +66,6 @@ dc_renamed_columns_may_2020_and_beyond = {
     "member_casual": "member_casual"
 }
 
-# "trip_id","starttime","stoptime","bikeid","tripduration","from_station_id","from_station_name","to_station_id","to_station_name","usertype","gender","birthyear"
-
-
 chicago_renamed_columns_pre_march_2023 = {
     "starttime": "start_time",
     "stoptime": "end_time",
@@ -80,9 +77,6 @@ chicago_renamed_columns_pre_march_2023 = {
     "birth year": "birth_year",
     "gender": "gender",
 }
-
-# 01 - Rental Details Rental ID,01 - Rental Details Local Start Time,01 - Rental Details Local End Time,01 - Rental Details Bike ID,01 - Rental Details Duration In Seconds Uncapped,03 - Rental Start Station ID,03 - Rental Start Station Name,02 - Rental End Station ID,02 - Rental End Station Name,User Type,Member Gender,05 - Member Details Member Birthday Year
-
 
 # 2018_Q1 2019_Q2 - maybe others
 chicago_renamed_columns_oddball = {
@@ -213,8 +207,6 @@ def extract_zip_files(city):
 
 def filter_filenames(filenames, matching_words):
     return [filename for filename in filenames if any(word in filename for word in matching_words)]
-
-
 
 def build_all_trips(args, rename_columns):
     source_directory = utils.get_raw_files_directory(args.city)
