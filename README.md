@@ -20,7 +20,7 @@ Currently, data is available for:
 1. Install pipenv (https://pipenv.pypa.io/en/latest/install/) if needed
 2. pipenv install
 3. pipenv shell
-4. pipenv run build [city] (ex pipenv run build Boston)
+4. pipenv run build [city] (ex pipenv run build boston)
 
 By default, a parquet file for your selected city wil lbe generated in the `data` folder. If you'd like a csv file instead, you can run 
 

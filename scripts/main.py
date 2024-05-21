@@ -1,13 +1,13 @@
 import argparse
 import os
 import sys
-import zipfile
-import city.usa_cities as usa_cities
+import city.usa_cities as usa_utils
 import city.taipei as taipei
-import utils
 
 project_root = os.getenv('PROJECT_ROOT')
 sys.path.insert(0, project_root)
+
+us_cities = ["boston", "dc", "taipei", "chicago", "nyc", "sf"]
 
 def setup_argparse():
     parser = argparse.ArgumentParser(description='Merging all bikeshare trip data into One CSV or parquet file')
@@ -24,7 +24,7 @@ def setup_argparse():
         action='store_true'
     )
 
-    parser.add_argument('city', choices={"Boston", "DC", "Taipei", "Chicago", "NYC", "SF"})
+    parser.add_argument('city', choices=set(us_cities))
 
     args = parser.parse_args()
     return args
@@ -32,23 +32,10 @@ def setup_argparse():
 def build_all_trips_file():
     args = setup_argparse()
     
-    args.city = args.city.lower()
     city = args.city
         
-    if city == "boston": 
-        usa_cities.build_all_trips(args, usa_cities.rename_boston_columns)
-
-    if city == "dc":
-        usa_cities.build_all_trips(args, usa_cities.rename_dc_columns)
-        
-    if city == "chicago":
-        usa_cities.build_all_trips(args, usa_cities.rename_chicago_columns)
-
-    if city == "nyc":
-        usa_cities.build_all_trips(args, usa_cities.rename_nyc_columns)
-    
-    if city == "sf":
-        usa_cities.build_all_trips(args, usa_cities.rename_sf_columns)
+    if city in us_cities:
+        usa_utils.build_all_trips(args)
 
     if city == "taipei":
         taipei.create_all_trips_parquet(args)
