@@ -1,10 +1,8 @@
 import argparse
 import os
 import sys
-import zipfile
 import city.usa_cities as usa_cities
 import city.taipei as taipei
-import utils
 
 project_root = os.getenv('PROJECT_ROOT')
 sys.path.insert(0, project_root)
@@ -36,19 +34,19 @@ def build_all_trips_file():
     city = args.city
         
     if city == "boston": 
-        usa_cities.build_all_trips(args, usa_cities.rename_boston_columns)
+        usa_cities.build_all_trips(args)
 
     if city == "dc":
-        usa_cities.build_all_trips(args, usa_cities.rename_dc_columns)
+        usa_cities.build_all_trips(args)
         
     if city == "chicago":
-        usa_cities.build_all_trips(args, usa_cities.rename_chicago_columns)
+        usa_cities.build_all_trips(args)
 
     if city == "nyc":
-        usa_cities.build_all_trips(args, usa_cities.rename_nyc_columns)
+        usa_cities.build_all_trips(args)
     
     if city == "sf":
-        usa_cities.build_all_trips(args, usa_cities.rename_sf_columns)
+        usa_cities.build_all_trips(args)
 
     if city == "taipei":
         taipei.create_all_trips_parquet(args)

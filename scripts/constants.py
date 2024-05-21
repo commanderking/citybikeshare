@@ -1,0 +1,188 @@
+commonized_system_data_columns = {
+    "ride_id": "ride_id",
+    "rideable_type": "rideable_type",	
+    "started_at": "start_time",	
+    "ended_at": "end_time",	
+    "start_station_name": "start_station_name",
+    "start_station_id": "start_station_id",	
+    "end_station_name": "end_station_name",	
+    "end_station_id": "end_station_id", 
+    "start_lat": "start_station_latitude",	
+    "start_lng": "start_station_longitude",
+    "end_lat": "end_station_latitude",	
+    "end_lng": "end_station_longitude",	
+    "member_casual": "member_casual" 
+}
+
+boston_renamed_columns_pre_march_2023 = {
+    "starttime": "start_time",
+    "stoptime": "end_time",
+    "start station id": "start_station_id",
+    "start station name": "start_station_name",
+    "start station latitude": "start_station_latitude",
+    "start station longitude": "start_station_longitude",
+    "end station id": "end_station_id",
+    "end station name": "end_station_name",
+    "end station latitude": "end_station_latitude",
+    "end station longitude": "end_station_longitude",
+    "bikeid": "bike_id",
+    "usertype": "usertype",
+    "birth year": "birth_year",
+    "gender": "gender",
+    "postal code": "postal_code"
+}
+
+dc_renamed_columns_pre_may_2020 = {
+    "Duration": "duration",
+    "Start date": "start_time",
+    "End date": "end_time",
+    "Start station number": "start_station_id",
+    "Start station": "start_station_name",
+    "End station number": "end_station_id",
+    "End station": "end_station_name",
+    "Bike number": "bike_number",
+    "Member type": "member_type",
+}
+
+chicago_renamed_columns_pre_march_2023 = {
+    "starttime": "start_time",
+    "stoptime": "end_time",
+    "from_station_id": "start_station_id",
+    "from_station_name": "start_station_name",
+    "to_station_id": "end_station_id",
+    "to_station_name": "end_station_name",
+    "usertype": "usertype",
+    "birth year": "birth_year",
+    "gender": "gender",
+}
+
+# 2018_Q1 2019_Q2 - maybe others
+chicago_renamed_columns_oddball = {
+    "01 - Rental Details Local Start Time": "start_time",
+    "01 - Rental Details Local End Time": "end_time",
+    "03 - Rental Start Station ID": "start_station_id",
+    "03 - Rental Start Station Name": "start_station_name",
+    "02 - Rental End Station ID": "end_station_id",
+    "02 - Rental End Station Name": "end_station_name",
+    "User Type": "usertype",
+    "Member Gender": "gender",
+    "05 - Member Details Member Birthday Year": "birth_year"
+}
+
+nyc_renamed_columns_initial = {
+    "starttime": "start_time",
+    "stoptime": "end_time",
+    "start station id": "start_station_id",
+    "start station name": "start_station_name",
+    "start station latitude": "start_station_latitude",
+    "start station longitude": "start_station_longitude",
+    "end station id": "end_station_id",
+    "end station name": "end_station_name",
+    "end station latitude": "end_station_latitude",
+    "end station longitude": "end_station_longitude",
+    "bikeid": "bike_id",
+    "usertype": "usertype",
+    "birth year": "birth_year",
+    "Gender": "gender",
+    "postal code": "postal_code"
+}
+
+nyc_renamed_columns_2017_03_to_2020_01 = {
+    "Trip Duration" : "duration",
+    "Start Time": "start_time",
+    "Stop Time": "end_time",
+    "Start Station ID": "start_station_id",
+    "Start Station Name" :"start_station_name",
+    "Start Station Latitude" : "start_station_latitude",
+    "Start Station Longitude": "start_station_longitude",
+    "End Station ID": "end_station_id",
+    "End Station Name": "end_station_name",
+    "End Station Latitude": "end_station_latitude",
+    "End Station Longitude": "end_station_longitude",
+    "Bike ID": "bike_id",
+    "User Type": "usertype",
+    "Birth Year": "birth_year",
+    "gender": "gender"
+    
+}
+
+sf_renamed_columns_pre_may_2020 = {
+    "start_time": "start_time",
+    "end_time": "end_time",
+    "start_station_id": "start_station_id",
+    "start_station_name": "start_station_name",
+    "start_station_latitude": "start_station_latitude",
+    "start_station_longitude": "start_station_longitude",
+    "end_station_id": "end_station_id",
+    "end_station_name": "end_station_name",
+    "end_station_latitude": "end_station_latitude",
+    "end_station_longitude": "end_station_longitude",
+    "bike_id": "bike_id",
+    "user_type": "usertype",
+    # In some bike_share_for_all_trip is rental_access_method
+    "bike_share_for_all_trip": "birth_year",
+}
+
+final_columns = ["start_time", "end_time", "start_station_name", "end_station_name"]
+
+column_mapping = {
+    "boston": [
+        {
+            "header_matcher": "ride_id",
+            "column_mapping": commonized_system_data_columns
+        },
+        {
+            "header_matcher": "bikeid",
+            "column_mapping": boston_renamed_columns_pre_march_2023
+        }
+    ],
+    "dc": [
+        {
+            "header_matcher": "ride_id",
+            "column_mapping": commonized_system_data_columns
+        },
+        {
+            "header_matcher": "Bike number",
+            "column_mapping": dc_renamed_columns_pre_may_2020
+        }
+    ],
+    "chicago": [
+        {
+            "header_matcher": "ride_id",
+            "column_mapping": commonized_system_data_columns
+        },
+        {
+            "header_matcher": "from_station_name",
+            "column_mapping": chicago_renamed_columns_pre_march_2023
+        },
+        {
+            "header_matcher": "01 - Rental Details Local Start Time",
+            "column_mapping": chicago_renamed_columns_oddball
+        }
+    ],
+    "nyc": [
+        {
+            "header_matcher": "ride_id",
+            "column_mapping": commonized_system_data_columns
+        },
+        {
+            "header_matcher": "bikeid",
+            "column_mapping": nyc_renamed_columns_initial
+        },
+        {
+            "header_matcher": "Trip Duration",
+            "column_mapping": nyc_renamed_columns_2017_03_to_2020_01
+        }
+    ],
+    "sf": [
+        {
+            "header_matcher": "ride_id",
+            "column_mapping": commonized_system_data_columns            
+        },
+        {
+            "header_matcher": "bike_id",
+            "column_mapping": sf_renamed_columns_pre_may_2020
+        }
+    ]
+
+}
