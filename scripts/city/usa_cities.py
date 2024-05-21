@@ -77,6 +77,7 @@ def extract_zip_files(city):
                 archive.extractall(utils.get_raw_files_directory(city))
 
 def filter_filenames(filenames, matching_words):
+    # os.path.basename - Chicago files have a stations_and_trips folder, which creates a csv for stations. I don't want to include this stations csv in our checks, so filtering on just the filename not folder
     return [filename for filename in filenames if any(word in os.path.basename(filename) for word in matching_words)]
 
 def build_all_trips(args):
