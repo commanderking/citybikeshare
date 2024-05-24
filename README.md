@@ -73,3 +73,15 @@ Data can be found here: https://www.rideindego.com/about/data/
 ### San Francisco
 
 Data can be found here: https://www.lyft.com/bikes/bay-wheels/system-data
+
+### Austin
+
+TODO: Austin updates monthly, but doesn't provide an easy way to download file (need to export) - https://data.austintexas.gov/Transportation-and-Mobility/Austin-MetroBike-Trips/tyfh-5r8s/about_data
+
+
+### Vancouver
+
+TODO: Vanocuver lists all files, but doesn't have an s3 bucket or API.
+
+
+### Toronto

@@ -12,7 +12,6 @@ sys.path.insert(0, project_root)
 import definitions
 
 renamed_columns = {
-
     "rent_time": "start_time",
     "rent_station": "start_station_name",
     "return_station": "return_station_name",
@@ -58,7 +57,6 @@ def create_df_with_all_trips(folder_path, raw_columns):
     for file_path in csv_files:
         print(file_path)
         has_header = determine_has_header(file_path, raw_columns)
-
         df = read_csv_file(file_path, has_header, raw_columns)
 
         df = df.rename(renamed_columns).with_columns([
