@@ -68,8 +68,6 @@ def extract_csvs():
         if not resource["datastore_active"]:
             url = base_url + "/api/3/action/resource_show?id=" + resource["id"]
             resource_metadata = requests.get(url).json()
-            # print(resource_metadata)
-            # print(resource_metadata['result']['url'])
             # From here, you can use the "url" attribute to download this file
             response = requests.get(resource_metadata['result']['url'], timeout=10000)
             if response.status_code == 200:
@@ -95,8 +93,6 @@ def create_all_trips_df():
     csv_files = [os.path.join(TORONTO_CSV_PATH, f) for f in os.listdir(TORONTO_CSV_PATH) if f.endswith('.csv')]
     
     dfs = []
-    
-    "7/1/2017 0:00"
     for file in csv_files:
         print(file)
         # TODO: utf8-lossy needed because there are some special characters in csv
@@ -109,7 +105,6 @@ def create_all_trips_df():
             pl.col("end_time").str.replace(r"\.\d+", "").str.strptime(pl.Datetime, "%m/%d/%Y %H:%M", strict=False),
             pl.col("duration").cast(pl.Int32)
         ])
-        print(df)
         dfs.append(df)
     return pl.concat(dfs)
 
@@ -118,11 +113,6 @@ def create_all_trips_df():
 def build_trips(args):
     if not args.skip_unzip:
         extract_csvs()
-
-
-
     all_trips_df = create_all_trips_df()
-    
-    print(all_trips_df)
     utils.create_all_trips_file(all_trips_df, args)
     utils.create_recent_year_file(all_trips_df, args)
