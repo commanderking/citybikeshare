@@ -118,5 +118,6 @@ def create_all_trips_parquet(args):
         extract_all_csvs()
 
     all_trips_df = create_df_with_all_trips(TAIPEI_CSVS_PATH, RAW_TAIPEI_COLUMNS)
+    utils.print_null_rows(all_trips_df)
     utils.create_all_trips_file(all_trips_df, args)
     utils.create_recent_year_file(all_trips_df, args)

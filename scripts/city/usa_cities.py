@@ -51,7 +51,6 @@ def format_and_concat_files(trip_files, args):
             pl.col("start_time").str.replace(r"\.\d+", "").str.strptime(pl.Datetime, "%Y-%m-%d %H:%M:%S", strict=False),
             pl.col("end_time").str.replace(r"\.\d+", "").str.strptime(pl.Datetime, "%Y-%m-%d %H:%M:%S", strict=False),
         ])
-        
         file_dataframes.append(df)
 
     print("concatenating all csv files...")
@@ -93,3 +92,5 @@ def build_all_trips(args):
     
     utils.create_all_trips_file(all_trips_df, args)
     utils.create_recent_year_file(all_trips_df, args)
+    
+    utils.print_null_rows(all_trips_df)

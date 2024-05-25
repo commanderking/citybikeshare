@@ -84,3 +84,14 @@ def create_recent_year_file(df, args):
         print ("generating recent year parquet... this will take a bit...")
         df.write_parquet(recent_year_path)
         print('parquet files created')
+
+def print_null_rows(df):
+    '''Print all rows that have NULL in at least one column'''
+    df_null_rows = (
+        df
+        .filter(
+            pl.any_horizontal(pl.all().is_null())
+        )
+    )    
+    print(df_null_rows)
+    print(f'{df_null_rows.height} rows have at least one column with a null value')
