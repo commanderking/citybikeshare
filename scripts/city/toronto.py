@@ -1,8 +1,8 @@
-import requests
 from zipfile import ZipFile
 from io import BytesIO
 import os
 import sys
+import requests
 import polars as pl
 
 import utils
@@ -68,16 +68,11 @@ def extract_csvs():
         if not resource["datastore_active"]:
             url = base_url + "/api/3/action/resource_show?id=" + resource["id"]
             resource_metadata = requests.get(url).json()
-            # print(resource_metadata)
-            # print(resource_metadata['result']['url'])
             # From here, you can use the "url" attribute to download this file
             response = requests.get(resource_metadata['result']['url'], timeout=10000)
             if response.status_code == 200:
                 with ZipFile(BytesIO(response.content)) as zip_file:
-                    zip_contents = zip_file.namelist()
-                    
-                    print(zip_contents)
-                    
+                    zip_contents = zip_file.namelist()                    
                     for file in zip_contents:
                         if file.endswith(".csv"):
                             source = zip_file.open(file)
@@ -95,21 +90,35 @@ def create_all_trips_df():
     csv_files = [os.path.join(TORONTO_CSV_PATH, f) for f in os.listdir(TORONTO_CSV_PATH) if f.endswith('.csv')]
     
     dfs = []
-    
-    "7/1/2017 0:00"
     for file in csv_files:
         print(file)
         # TODO: utf8-lossy needed because there are some special characters in csv
         # Example: Gailbraith Rd / KingG��s College Cr. (U of T)
         df = pl.read_csv(file, infer_schema_length=0, encoding="utf8-lossy")
+
         df = map_columns(df)
+
         df = df.with_columns([
-            # Need to remove fractional seconds for certain csv files
-            pl.col("start_time").str.replace(r"\.\d+", "").str.strptime(pl.Datetime, "%m/%d/%Y %H:%M", strict=False),
-            pl.col("end_time").str.replace(r"\.\d+", "").str.strptime(pl.Datetime, "%m/%d/%Y %H:%M", strict=False),
+            # Toronto data has three different possible date formats =( - Look at 2017_q1 for examples
+            pl.when(pl.col("start_time").str.strptime(pl.Datetime, "%m/%d/%Y %H:%M", strict=False).is_not_null())
+            .then(pl.col("start_time").str.strptime(pl.Datetime, "%m/%d/%Y %H:%M", strict=False))
+                .when(pl.col("start_time").str.strptime(pl.Datetime, "%m/%d/%Y %H:%M:%S", strict=False).is_not_null())
+                    .then(pl.col("start_time").str.strptime(pl.Datetime, "%m/%d/%Y %H:%M:%S", strict=False))
+                    .otherwise(pl.col("start_time").str.strptime(pl.Datetime, "%d/%m/%Y %H:%M", strict=False))
+            .alias("start_time"),
+
+            pl.when(pl.col("end_time").str.strptime(pl.Datetime, "%m/%d/%Y %H:%M", strict=False).is_not_null())
+            .then(pl.col("end_time").str.strptime(pl.Datetime, "%m/%d/%Y %H:%M", strict=False))
+                .when(pl.col("end_time").str.strptime(pl.Datetime, "%m/%d/%Y %H:%M:%S", strict=False).is_not_null())
+                    .then(pl.col("end_time").str.strptime(pl.Datetime, "%m/%d/%Y %H:%M:%S", strict=False))
+                    .otherwise(pl.col("end_time").str.strptime(pl.Datetime, "%d/%m/%Y %H:%M", strict=False))
+            .alias("end_time"),
+
             pl.col("duration").cast(pl.Int32)
         ])
-        print(df)
+
+        # If the start time and end time are both null, assume it's an invalid entry
+        df = df.filter(pl.col("start_time").is_not_null() & pl.col("end_time").is_not_null())
         dfs.append(df)
     return pl.concat(dfs)
 
@@ -118,11 +127,16 @@ def create_all_trips_df():
 def build_trips(args):
     if not args.skip_unzip:
         extract_csvs()
-
-
-
     all_trips_df = create_all_trips_df()
     
-    print(all_trips_df)
+    # Print all rows that have NULL in at least one column
+    # df_missing = (
+    #     all_trips_df
+    #     .filter(
+    #         pl.any_horizontal(pl.all().is_null())
+    #     )
+    # )    
+    # print(df_missing)
+    
     utils.create_all_trips_file(all_trips_df, args)
     utils.create_recent_year_file(all_trips_df, args)
