@@ -97,23 +97,10 @@ def create_all_trips_df():
         df = pl.read_csv(file, infer_schema_length=0, encoding="utf8-lossy")
 
         df = map_columns(df)
-
+        date_formats = ["%m/%d/%Y %H:%M",  "%m/%d/%Y %H:%M:%S", "%d/%m/%Y %H:%M"]
         df = df.with_columns([
-            # Toronto data has three different possible date formats =( - Look at 2017_q1 for examples
-            pl.when(pl.col("start_time").str.strptime(pl.Datetime, "%m/%d/%Y %H:%M", strict=False).is_not_null())
-            .then(pl.col("start_time").str.strptime(pl.Datetime, "%m/%d/%Y %H:%M", strict=False))
-                .when(pl.col("start_time").str.strptime(pl.Datetime, "%m/%d/%Y %H:%M:%S", strict=False).is_not_null())
-                    .then(pl.col("start_time").str.strptime(pl.Datetime, "%m/%d/%Y %H:%M:%S", strict=False))
-                    .otherwise(pl.col("start_time").str.strptime(pl.Datetime, "%d/%m/%Y %H:%M", strict=False))
-            .alias("start_time"),
-
-            pl.when(pl.col("end_time").str.strptime(pl.Datetime, "%m/%d/%Y %H:%M", strict=False).is_not_null())
-            .then(pl.col("end_time").str.strptime(pl.Datetime, "%m/%d/%Y %H:%M", strict=False))
-                .when(pl.col("end_time").str.strptime(pl.Datetime, "%m/%d/%Y %H:%M:%S", strict=False).is_not_null())
-                    .then(pl.col("end_time").str.strptime(pl.Datetime, "%m/%d/%Y %H:%M:%S", strict=False))
-                    .otherwise(pl.col("end_time").str.strptime(pl.Datetime, "%d/%m/%Y %H:%M", strict=False))
-            .alias("end_time"),
-
+            pl.coalesce([pl.col("start_time").str.strptime(pl.Datetime, format, strict=False) for format in date_formats]),
+            pl.coalesce([pl.col("end_time").str.strptime(pl.Datetime, format, strict=False) for format in date_formats]),
             pl.col("duration").cast(pl.Int32)
         ])
 
