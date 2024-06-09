@@ -52,6 +52,5 @@ Data can be found here: https://www.rideindego.com/about/data/
 ### Austin
 TODO: Austin updates monthly, but doesn't provide an easy way to download file (need to export) - https://data.austintexas.gov/Transportation-and-Mobility/Austin-MetroBike-Trips/tyfh-5r8s/about_data
 
-
 ### London 
 https://cycling.data.tfl.gov.uk/

@@ -87,11 +87,18 @@ def create_recent_year_file(df, args):
 
 def print_null_rows(df):
     '''Print all rows that have NULL in at least one column'''
+
+    headers = df.columns
+    for header in headers:
+        null_count = df.select(pl.col(header).is_null().sum()).item()
+        print(f'Column {header} has {null_count} rows with null values')
+
     df_null_rows = (
         df
         .filter(
             pl.any_horizontal(pl.all().is_null())
         )
-    )    
+    )
+    
     print(df_null_rows)
     print(f'{df_null_rows.height} rows have at least one column with a null value')

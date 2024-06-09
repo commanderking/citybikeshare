@@ -42,14 +42,22 @@ def format_and_concat_files(trip_files, args):
     file_dataframes = []
     for file in trip_files:
         print(file)
+
+        date_formats = [
+            "%Y-%m-%d %H:%M:%S",
+            "%m/%d/%Y %H:%M:%S",
+            "%m/%d/%Y %H:%M",
+            "%Y-%m-%d %H:%M" # Chicago - Divvy_Trips_2013
+            
+        ]
         # Some columns like birth year have value \\N.
         # TODO: Map \\N to correct values
         df = pl.read_csv(file, infer_schema_length=0)
         df = rename_columns(df ,args)
         df = df.with_columns([
-            # Need to remove fractional seconds for certain csv files
-            pl.col("start_time").str.replace(r"\.\d+", "").str.strptime(pl.Datetime, "%Y-%m-%d %H:%M:%S", strict=False),
-            pl.col("end_time").str.replace(r"\.\d+", "").str.strptime(pl.Datetime, "%Y-%m-%d %H:%M:%S", strict=False),
+            # Replace . and everything that follows with empty string. Some Boston dates have milliseconds
+            pl.coalesce([pl.col("start_time").str.replace(r"\.\d+", "").str.strptime(pl.Datetime, format, strict=False) for format in date_formats]),
+            pl.coalesce([pl.col("end_time").str.replace(r"\.\d+", "").str.strptime(pl.Datetime, format, strict=False) for format in date_formats]),
         ])
         file_dataframes.append(df)
 
