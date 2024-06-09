@@ -43,7 +43,7 @@ def format_and_concat_files(trip_files, args):
     for file in trip_files:
         print(file)
 
-        formats = [
+        date_formats = [
             "%Y-%m-%d %H:%M:%S",
             "%m/%d/%Y %H:%M:%S",
             "%m/%d/%Y %H:%M",
@@ -56,8 +56,8 @@ def format_and_concat_files(trip_files, args):
         df = rename_columns(df ,args)
         df = df.with_columns([
             # Replace . and everything that follows with empty string. Some Boston dates have milliseconds
-            pl.coalesce([pl.col("start_time").str.replace(r"\.\d+", "").str.strptime(pl.Datetime, fmt, strict=False) for fmt in formats]),
-            pl.coalesce([pl.col("end_time").str.replace(r"\.\d+", "").str.strptime(pl.Datetime, fmt, strict=False) for fmt in formats]),
+            pl.coalesce([pl.col("start_time").str.replace(r"\.\d+", "").str.strptime(pl.Datetime, format, strict=False) for format in date_formats]),
+            pl.coalesce([pl.col("end_time").str.replace(r"\.\d+", "").str.strptime(pl.Datetime, format, strict=False) for format in date_formats]),
         ])
         file_dataframes.append(df)
 
