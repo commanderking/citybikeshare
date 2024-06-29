@@ -123,7 +123,27 @@ sf_renamed_columns_pre_may_2020 = {
     "bike_share_for_all_trip": "birth_year",
 }
 
+philadelphia_renamed_columns = {
+    "trip_id": "ride_id",
+    "duration" : "duration",
+    "start_time": "start_time",
+    "end_time": "end_time",
+    "start_station": "start_station_id",
+    "start_lat": "start_station_latiitude",
+    "start_lon": "start_station_longitude",
+    "end_station": "end_station_id",
+    "end_longitude": "end_station_longitude",
+    "bike_id": "bike_id",
+    "plan_duration": "plan_duration",
+    "trip_route_category": "trip_route_category",
+    "passholder_type": "passholder_type",
+    "bike_type": "bike_type"
+
+}
+
 final_columns = ["start_time", "end_time", "start_station_name", "end_station_name"]
+
+philadelphia_final_columns = ["start_time", "end_time", "start_station_id", "end_station_id"]
 
 column_mapping = {
     "boston": [
@@ -183,6 +203,12 @@ column_mapping = {
             "header_matcher": "bike_id",
             "column_mapping": sf_renamed_columns_pre_may_2020
         }
+    ],
+    "philadelphia": [
+        {
+            "header_matcher": "trip_id",
+            "column_mapping": philadelphia_renamed_columns,
+            "final_columns": philadelphia_final_columns
+        }
     ]
-
 }

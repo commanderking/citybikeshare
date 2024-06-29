@@ -4,19 +4,21 @@ import polars as pl
 import utils
 import constants
 
-final_columns = constants.final_columns
+default_final_columns = constants.final_columns
 
 city_file_matcher = {
     "boston": ["-tripdata"],
     "nyc": ["citibike-tripdata"],
     "dc": ["capitalbikeshare-tripdata"],
     "chicago": ["trip", "Trips"],
+    "philadelphia": ["trips", "Trips"],
     "sf": ["tripdata"]
 }
 
 def get_applicable_columns_mapping(df, rename_dict):
     # Filter the rename dictionary to include only columns that exist in the DataFrame
     existing_columns = df.columns
+    print(existing_columns)
     filtered_rename_dict = {old: new for old, new in rename_dict.items() if old in existing_columns}
 
     return filtered_rename_dict
@@ -29,10 +31,14 @@ def rename_columns(df, args):
     
     # TODO: This should be more robust - theoretically, multiple column mappings could match and the 
     # last match would be the mapping used
+    print(mappings)
+    print(headers)
     for mapping in mappings:
         if (mapping["header_matcher"] in headers):
             applicable_renamed_columns = get_applicable_columns_mapping(df, mapping["column_mapping"])
-    return df.rename(applicable_renamed_columns).select(final_columns)
+            print(applicable_renamed_columns)
+            final_columns = mapping.get("final_columns", default_final_columns)
+            return df.rename(applicable_renamed_columns).select(final_columns)
 
 
 def format_and_concat_files(trip_files, args):

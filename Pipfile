@@ -11,6 +11,7 @@ duckdb = "*"
 pyarrow = "*"
 requests = "~=2.31.0"
 polars = "~=0.20.25"
+playwright = "*"
 
 [dev-packages]
 pylint = "*"

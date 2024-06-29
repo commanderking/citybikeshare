@@ -4,11 +4,12 @@ import sys
 import city.usa_cities as usa_utils
 import city.taipei as taipei
 import city.toronto as toronto
+import city.philadelphia as philadelphia
 
 project_root = os.getenv('PROJECT_ROOT')
 sys.path.insert(0, project_root)
 
-us_cities = ["boston", "dc", "chicago", "nyc", "sf"]
+us_cities = ["boston", "dc", "chicago", "nyc", "sf", "philadelphia"]
 
 other_cities = ["taipei", "toronto"]
 
@@ -41,6 +42,9 @@ def build_all_trips_file():
         
     if city in us_cities:
         usa_utils.build_all_trips(args)
+        
+    # if city == "philadelphia":
+    #     philadelphia.build_trips(args)
 
     if city == "taipei":
         taipei.create_all_trips_parquet(args)

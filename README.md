@@ -54,3 +54,21 @@ TODO: Austin updates monthly, but doesn't provide an easy way to download file (
 
 ### London 
 https://cycling.data.tfl.gov.uk/
+
+### Los Angeles
+https://bikeshare.metro.net/about/data/
+
+
+### Bicimad
+
+https://opendata.emtmadrid.es/Datos-estaticos/Datos-generales-(1)
+
+
+#### Null start and end stations - tested on 6/12/24. Includes 2024/04 bluebike data
+- Chicago - 4_102_485
+- Boston - 19_626
+- NYC - 308_238
+- DC - 1_563_414
+- SF - 3_205_547
+- Toronto - 16 
+- Taipei - 692
