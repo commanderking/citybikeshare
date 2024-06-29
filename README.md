@@ -68,6 +68,7 @@ https://opendata.emtmadrid.es/Datos-estaticos/Datos-generales-(1)
 - Chicago - 4_102_485
 - Boston - 19_626
 - NYC - 308_238
+- Philadelphia - 0
 - DC - 1_563_414
 - SF - 3_205_547
 - Toronto - 16 

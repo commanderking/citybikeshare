@@ -32,13 +32,3 @@ def run(playwright):
 def get_zip_files():
     with sync_playwright() as playwright:
         run(playwright)
-    
-def build_trips(args):
-    if not args.skip_unzip:
-        usa_cities.extract_zip_files("philadelphia")
-    # all_trips_df = create_all_trips_df()
-    
-    # utils.print_null_rows(all_trips_df)
-    
-    # utils.create_all_trips_file(all_trips_df, args)
-    # utils.create_recent_year_file(all_trips_df, args)
