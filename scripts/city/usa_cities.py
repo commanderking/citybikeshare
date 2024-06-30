@@ -4,13 +4,14 @@ import polars as pl
 import utils
 import constants
 
-final_columns = constants.final_columns
+default_final_columns = constants.final_columns
 
 city_file_matcher = {
     "boston": ["-tripdata"],
     "nyc": ["citibike-tripdata"],
     "dc": ["capitalbikeshare-tripdata"],
     "chicago": ["trip", "Trips"],
+    "philadelphia": ["trips", "Trips"],
     "sf": ["tripdata"]
 }
 
@@ -32,7 +33,9 @@ def rename_columns(df, args):
     for mapping in mappings:
         if (mapping["header_matcher"] in headers):
             applicable_renamed_columns = get_applicable_columns_mapping(df, mapping["column_mapping"])
-    return df.rename(applicable_renamed_columns).select(final_columns)
+            final_columns = mapping.get("final_columns", default_final_columns)
+            return df.rename(applicable_renamed_columns).select(final_columns)
+    raise ValueError(f'We could not rename the columns because no valid column mappings for {city} match the data!')
 
 
 def format_and_concat_files(trip_files, args):
