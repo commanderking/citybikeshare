@@ -9,6 +9,7 @@ Currently, data is available for:
 | Boston        | <https://bluebikes.com/system-data>  |
 | Chicago       | <https://divvybikes.com/system-data> |
 | NYC           | <https://citibikenyc.com/system-data> |
+| Philadelphia  | https://www.rideindego.com/about/data/ |
 | San Francisco | <https://www.lyft.com/bikes/bay-wheels/system-data> |
 | Taipei        | <https://data.gov.tw/dataset/150635> | 
 | Toronto       | <https://open.toronto.ca/dataset/bike-share-toronto-ridership-data/> |
@@ -49,6 +50,11 @@ If the data has already been unzipped by running `pipenv run build`, you can ski
 ### Philadelphia
 Data can be found here: https://www.rideindego.com/about/data/
 
+### Pittsburgh
+
+https://data.wprdc.org/organization/pogoh
+
+
 ### Austin
 TODO: Austin updates monthly, but doesn't provide an easy way to download file (need to export) - https://data.austintexas.gov/Transportation-and-Mobility/Austin-MetroBike-Trips/tyfh-5r8s/about_data
 
@@ -57,6 +63,22 @@ https://cycling.data.tfl.gov.uk/
 
 ### Los Angeles
 https://bikeshare.metro.net/about/data/
+
+### Montreal
+
+https://bixi.com/en/open-data/
+
+### Vancouver
+
+https://www.mobibikes.ca/en/system-data
+
+### Mexico City
+
+https://ecobici.cdmx.gob.mx/en/open-data/
+
+### Dublin
+
+https://data.gov.ie/dataset/dublinbikes-api
 
 
 ### Bicimad

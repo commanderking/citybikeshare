@@ -3,7 +3,7 @@ import os
 import polars as pl
 import utils
 import constants
-
+import city.philadelphia as philadelphia
 default_final_columns = constants.final_columns
 
 city_file_matcher = {
@@ -34,7 +34,10 @@ def rename_columns(df, args):
         if (mapping["header_matcher"] in headers):
             applicable_renamed_columns = get_applicable_columns_mapping(df, mapping["column_mapping"])
             final_columns = mapping.get("final_columns", default_final_columns)
-            return df.rename(applicable_renamed_columns).select(final_columns)
+            
+
+            renamed_df = df.rename(applicable_renamed_columns).select(final_columns)
+            return renamed_df
     raise ValueError(f'We could not rename the columns because no valid column mappings for {city} match the data!')
 
 
@@ -51,10 +54,8 @@ def format_and_concat_files(trip_files, args):
             "%m/%d/%Y %H:%M:%S",
             "%m/%d/%Y %H:%M",
             "%Y-%m-%d %H:%M" # Chicago - Divvy_Trips_2013
-            
         ]
-        # Some columns like birth year have value \\N.
-        # TODO: Map \\N to correct values
+        # TODO: Some columns like birth year have value \\N. Map \\N to correct values
         df = pl.read_csv(file, infer_schema_length=0)
         df = rename_columns(df ,args)
         df = df.with_columns([
@@ -62,6 +63,11 @@ def format_and_concat_files(trip_files, args):
             pl.coalesce([pl.col("start_time").str.replace(r"\.\d+", "").str.strptime(pl.Datetime, format, strict=False) for format in date_formats]),
             pl.coalesce([pl.col("end_time").str.replace(r"\.\d+", "").str.strptime(pl.Datetime, format, strict=False) for format in date_formats]),
         ])
+        # TODO: This station name mapping should apply to all stations
+        # May want to make this configuration based rather than explicit city checks here
+        if (args.city == "philadelphia"):
+            stations_df = philadelphia.get_stations_df()
+            df = philadelphia.append_station_names(df, stations_df).drop("start_station_id", "end_station_id")                      
         file_dataframes.append(df)
 
     print("concatenating all csv files...")
@@ -89,6 +95,7 @@ def extract_zip_files(city):
 def filter_filenames(filenames, matching_words):
     # os.path.basename - Chicago files have a stations_and_trips folder, which creates a csv for stations. I don't want to include this stations csv in our checks, so filtering on just the filename not folder
     return [filename for filename in filenames if any(word in os.path.basename(filename) for word in matching_words)]
+
 
 def build_all_trips(args):
     source_directory = utils.get_raw_files_directory(args.city)
