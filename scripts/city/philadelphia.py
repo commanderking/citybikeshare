@@ -53,7 +53,6 @@ def get_zip_files():
 
 def get_stations_df():
     df = pl.read_csv(os.path.join(STATIONS_CSV_PATH, "stations.csv"))
-    print(df)
     return df.rename(RENAMED_STATION_COLUMNS).with_columns([
         pl.col("station_id").cast(pl.String),
     ])

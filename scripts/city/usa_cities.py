@@ -54,10 +54,8 @@ def format_and_concat_files(trip_files, args):
             "%m/%d/%Y %H:%M:%S",
             "%m/%d/%Y %H:%M",
             "%Y-%m-%d %H:%M" # Chicago - Divvy_Trips_2013
-            
         ]
-        # Some columns like birth year have value \\N.
-        # TODO: Map \\N to correct values
+        # TODO: Some columns like birth year have value \\N. Map \\N to correct values
         df = pl.read_csv(file, infer_schema_length=0)
         df = rename_columns(df ,args)
         df = df.with_columns([
@@ -65,11 +63,11 @@ def format_and_concat_files(trip_files, args):
             pl.coalesce([pl.col("start_time").str.replace(r"\.\d+", "").str.strptime(pl.Datetime, format, strict=False) for format in date_formats]),
             pl.coalesce([pl.col("end_time").str.replace(r"\.\d+", "").str.strptime(pl.Datetime, format, strict=False) for format in date_formats]),
         ])
-        
+        # TODO: This station name mapping should apply to all stations
+        # May want to make this configuration based rather than explicit city checks here
         if (args.city == "philadelphia"):
-            ### TODO: Move mapping of id to stations to final step? 
             stations_df = philadelphia.get_stations_df()
-            df = philadelphia.append_station_names(df, stations_df)                        
+            df = philadelphia.append_station_names(df, stations_df).drop("start_station_id", "end_station_id")                      
         file_dataframes.append(df)
 
     print("concatenating all csv files...")

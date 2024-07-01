@@ -99,6 +99,6 @@ def print_null_rows(df):
             pl.any_horizontal(pl.all().is_null())
         )
     )
-    
-    print(df_null_rows)
     print(f'{df_null_rows.height} rows have at least one column with a null value')
+    print(f'There are {df.height} total rows')
+    print(f'{round(((df_null_rows.height / df.height) * 100), 2)}% of trips have a null value)')
