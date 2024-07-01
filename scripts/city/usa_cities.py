@@ -12,6 +12,7 @@ city_file_matcher = {
     "dc": ["capitalbikeshare-tripdata"],
     "chicago": ["trip", "Trips"],
     "philadelphia": ["trips", "Trips"],
+    "pittsburgh": [".csv"],
     "sf": ["tripdata"]
 }
 
@@ -34,8 +35,6 @@ def rename_columns(df, args):
         if (mapping["header_matcher"] in headers):
             applicable_renamed_columns = get_applicable_columns_mapping(df, mapping["column_mapping"])
             final_columns = mapping.get("final_columns", default_final_columns)
-            
-
             renamed_df = df.rename(applicable_renamed_columns).select(final_columns)
             return renamed_df
     raise ValueError(f'We could not rename the columns because no valid column mappings for {city} match the data!')
@@ -53,7 +52,8 @@ def format_and_concat_files(trip_files, args):
             "%Y-%m-%d %H:%M:%S",
             "%m/%d/%Y %H:%M:%S",
             "%m/%d/%Y %H:%M",
-            "%Y-%m-%d %H:%M" # Chicago - Divvy_Trips_2013
+            "%Y-%m-%d %H:%M", # Chicago - Divvy_Trips_2013
+            '%Y-%m-%dT%H:%M:%S' # Pittsburgh 
         ]
         # TODO: Some columns like birth year have value \\N. Map \\N to correct values
         df = pl.read_csv(file, infer_schema_length=0)
