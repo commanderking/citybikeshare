@@ -54,7 +54,6 @@ def get_recent_year_df(df):
     max_date = df.select(pl.max("start_time")).to_series()[0]
     one_year_ago = max_date - timedelta(days=365)
 
-    print(one_year_ago)
     # Filter the DataFrame for the last year of data
     last_year_df = df.filter(pl.col("start_time") >= one_year_ago)
     

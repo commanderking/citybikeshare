@@ -58,6 +58,11 @@ https://data.wprdc.org/organization/pogoh
 ### Austin
 TODO: Austin updates monthly, but doesn't provide an easy way to download file (need to export) - https://data.austintexas.gov/Transportation-and-Mobility/Austin-MetroBike-Trips/tyfh-5r8s/about_data
 
+### Columbus
+
+https://cogobikeshare.com/system-data
+
+
 ### London 
 https://cycling.data.tfl.gov.uk/
 
@@ -67,6 +72,14 @@ https://bikeshare.metro.net/about/data/
 ### Montreal
 
 https://bixi.com/en/open-data/
+
+### Oslo
+
+https://oslobysykkel.no/en/open-data/historical
+
+### Portland
+
+https://s3.amazonaws.com/biketown-tripdata-public/index.html
 
 ### Vancouver
 
@@ -85,6 +98,10 @@ https://data.gov.ie/dataset/dublinbikes-api
 
 https://opendata.emtmadrid.es/Datos-estaticos/Datos-generales-(1)
 
+
+### Issues
+
+Pittsburgh: 
 
 #### Null start and end stations - tested on 6/12/24. Includes 2024/04 bluebike data
 - Chicago - 4_102_485

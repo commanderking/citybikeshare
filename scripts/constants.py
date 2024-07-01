@@ -138,8 +138,21 @@ philadelphia_renamed_columns = {
     "trip_route_category": "trip_route_category",
     "passholder_type": "passholder_type",
     "bike_type": "bike_type"
-
 }
+
+pittsburgh_renamed_columns = {
+    "_id": "id",
+    "Closed Status": "closed_status",
+    "Duration": "duration",
+    "Start Station Id": "start_station_id",
+    "Start Date": "start_time",
+    "Start Station Name": "start_station_name",
+    "End Date": "end_time",
+    "End Station Id": "end_station_id",
+    "End Station Name": "end_station_name",
+    "Rider Type": "rider_type"
+}
+
 
 final_columns = ["start_time", "end_time", "start_station_name", "end_station_name"]
 
@@ -210,5 +223,11 @@ column_mapping = {
             "column_mapping": philadelphia_renamed_columns,
             "final_columns": philadelphia_final_columns
         }
+    ],
+    "pittsburgh": [
+        {
+            "header_matcher": "Start Date",
+            "column_mapping": pittsburgh_renamed_columns,
+        },
     ]
 }
