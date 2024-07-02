@@ -138,8 +138,49 @@ philadelphia_renamed_columns = {
     "trip_route_category": "trip_route_category",
     "passholder_type": "passholder_type",
     "bike_type": "bike_type"
-
 }
+
+pittsburgh_renamed_columns = {
+    "_id": "id",
+    "Closed Status": "closed_status",
+    "Duration": "duration",
+    "Start Station Id": "start_station_id",
+    "Start Date": "start_time",
+    "Start Station Name": "start_station_name",
+    "End Date": "end_time",
+    "End Station Id": "end_station_id",
+    "End Station Name": "end_station_name",
+    "Rider Type": "rider_type"
+}
+
+pittsburgh_healthy_ride_columns = {
+    "_id": "id",
+    "Trip id": "trip_id",
+    "Starttime": "start_time",
+    "Stoptime": "end_time",
+    "Bikeid": "bike_id",
+    "Tripduration": "duration",
+    "From station id": "start_station_id",
+    "From station name": "start_station_name",
+    "To station id": "end_station_id",
+    "To station name": "end_station_name",
+    "Usertype": "usertype"
+}
+
+pittsburgh_healthy_ride_columns_two = {
+    "_id": "id",
+    "trip_id": "trip_id",
+    "starttime": "start_time",
+    "stoptime": "end_time",
+    "bikeid": "bike_id",
+    "tripduration": "duration",
+    "from_station_id": "start_station_id",
+    "from_station_name": "start_station_name",
+    "to_station_id": "end_station_id",
+    "to_station_name": "end_station_name",
+    "usertype": "usertype"
+}
+
 
 final_columns = ["start_time", "end_time", "start_station_name", "end_station_name"]
 
@@ -209,6 +250,20 @@ column_mapping = {
             "header_matcher": "trip_id",
             "column_mapping": philadelphia_renamed_columns,
             "final_columns": philadelphia_final_columns
+        }
+    ],
+    "pittsburgh": [
+        {
+            "header_matcher": "Start Date",
+            "column_mapping": pittsburgh_renamed_columns,
+        },
+        {
+            "header_matcher": "Trip id",
+            "column_mapping": pittsburgh_healthy_ride_columns
+        },
+        {
+            "header_matcher": "trip_id",
+            "column_mapping": pittsburgh_healthy_ride_columns_two
         }
     ]
 }

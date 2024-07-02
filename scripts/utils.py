@@ -54,7 +54,6 @@ def get_recent_year_df(df):
     max_date = df.select(pl.max("start_time")).to_series()[0]
     one_year_ago = max_date - timedelta(days=365)
 
-    print(one_year_ago)
     # Filter the DataFrame for the last year of data
     last_year_df = df.filter(pl.col("start_time") >= one_year_ago)
     
@@ -102,3 +101,10 @@ def print_null_rows(df):
     print(f'{df_null_rows.height} rows have at least one column with a null value')
     print(f'There are {df.height} total rows')
     print(f'{round(((df_null_rows.height / df.height) * 100), 2)}% of trips have a null value)')
+    
+def assess_null_data(df):
+    headers = df.columns
+    for header in headers:
+        null_count = df.select(pl.col(header).is_null().sum()).item()
+        if (null_count != 0):
+            print(f'{header} has {null_count} rows with null values')
