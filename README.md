@@ -10,11 +10,13 @@ Currently, data is available for:
 | Chicago       | <https://divvybikes.com/system-data> |
 | NYC           | <https://citibikenyc.com/system-data> |
 | Philadelphia  | https://www.rideindego.com/about/data/ |
+| Pittsburgh    | https://data.wprdc.org/dataset/pogoh-trip-data |
 | San Francisco | <https://www.lyft.com/bikes/bay-wheels/system-data> |
 | Taipei        | <https://data.gov.tw/dataset/150635> | 
 | Toronto       | <https://open.toronto.ca/dataset/bike-share-toronto-ridership-data/> |
 | Washington DC | <https://capitalbikeshare.com/system-data> | 
 
+Pittsburgh old data can be found at: https://data.wprdc.org/dataset/healthyride-trip-data
 
 ### Configuration
 

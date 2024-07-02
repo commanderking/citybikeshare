@@ -37,7 +37,7 @@ def rename_columns(df, args):
             final_columns = mapping.get("final_columns", default_final_columns)
             renamed_df = df.rename(applicable_renamed_columns).select(final_columns)
             return renamed_df
-    raise ValueError(f'We could not rename the columns because no valid column mappings for {city} match the data!')
+    raise ValueError(f'We could not rename the columns because no valid column mappings for {city} match the data! The headers we found are: {df.columns}')
 
 
 def format_and_concat_files(trip_files, args):
@@ -53,16 +53,26 @@ def format_and_concat_files(trip_files, args):
             "%m/%d/%Y %H:%M:%S",
             "%m/%d/%Y %H:%M",
             "%Y-%m-%d %H:%M", # Chicago - Divvy_Trips_2013
-            '%Y-%m-%dT%H:%M:%S' # Pittsburgh 
+            '%Y-%m-%dT%H:%M:%S', # Pittsburgh
+            '%a, %b %d, %Y, %I:%M %p' #Pittsburgh one file - 8e8a5cd9-943e-4d21-a7ed-05f865dd0038 (data-id), April 2023
         ]
         # TODO: Some columns like birth year have value \\N. Map \\N to correct values
         df = pl.read_csv(file, infer_schema_length=0)
+        
+        # For debugging columns that have missing data
+        # utils.assess_null_data(df)
+            
         df = rename_columns(df ,args)
         df = df.with_columns([
             # Replace . and everything that follows with empty string. Some Boston dates have milliseconds
             pl.coalesce([pl.col("start_time").str.replace(r"\.\d+", "").str.strptime(pl.Datetime, format, strict=False) for format in date_formats]),
             pl.coalesce([pl.col("end_time").str.replace(r"\.\d+", "").str.strptime(pl.Datetime, format, strict=False) for format in date_formats]),
         ])
+        
+        # For debugging and printing tables with null data for a particular column after formatting
+        # df_start_time = df.filter(pl.col("start_time").is_null())
+        # print(df_start_time)
+
         # TODO: This station name mapping should apply to all stations
         # May want to make this configuration based rather than explicit city checks here
         if (args.city == "philadelphia"):

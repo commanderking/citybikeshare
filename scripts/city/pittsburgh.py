@@ -30,11 +30,22 @@ def run(playwright):
     for resource in resources:
         data_id = resource.get_attribute('data-id')
         resource_ids.append(data_id)
-        print(f"Data ID: {data_id}")
-
-    browser.close()
+        
+    page.goto("https://data.wprdc.org/dataset/healthyride-trip-data")
+    healthy_ride_resources = page.query_selector_all('.resource-item')
     
+    for resource in healthy_ride_resources:
+        data_id = resource.get_attribute('data-id')
+        resource_ids.append(data_id)
+    browser.close()
+
+    # There's an extra resource that isn't trip data
+    trip_data_dictionary_id = "fe985614-775c-42e3-9647-59099806329d"
+    resource_ids = [item for item in resource_ids if item != trip_data_dictionary_id]
+    
+    print(resource_ids)
     return resource_ids
+
 
 
 def get_monthly_resource_ids():
