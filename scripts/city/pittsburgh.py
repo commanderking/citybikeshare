@@ -12,7 +12,7 @@ import scripts.utils as utils
 import urllib.request
 from playwright.sync_api import Page, expect
 
-STATIONS_CSV_PATH = utils.get_raw_files_directory("pittsburgh")
+CSV_PATH = utils.get_raw_files_directory("pittsburgh")
 
 
 def run(playwright):
@@ -65,9 +65,9 @@ def query_data(resource_ids):
             trips = (data['result']['records'])
             
             csv_file = f'{resource_id}.csv'
-            csv_path = os.path.join(STATIONS_CSV_PATH, csv_file)
+            csv_file_path = os.path.join(CSV_PATH, csv_file)
 
-            with open(csv_path, 'w', newline='') as csvfile:
+            with open(csv_file_path, 'w', newline='') as csvfile:
                 # Create a CSV writer object
                 writer = csv.writer(csvfile)
 

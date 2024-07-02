@@ -52,11 +52,6 @@ If the data has already been unzipped by running `pipenv run build`, you can ski
 ### Philadelphia
 Data can be found here: https://www.rideindego.com/about/data/
 
-### Pittsburgh
-
-https://data.wprdc.org/organization/pogoh
-
-
 ### Austin
 TODO: Austin updates monthly, but doesn't provide an easy way to download file (need to export) - https://data.austintexas.gov/Transportation-and-Mobility/Austin-MetroBike-Trips/tyfh-5r8s/about_data
 
@@ -100,11 +95,6 @@ https://data.gov.ie/dataset/dublinbikes-api
 
 https://opendata.emtmadrid.es/Datos-estaticos/Datos-generales-(1)
 
-
-### Issues
-
-Pittsburgh: 
-
 #### Null start and end stations - tested on 6/12/24. Includes 2024/04 bluebike data
 - Chicago - 4_102_485
 - Boston - 19_626
@@ -114,3 +104,8 @@ Pittsburgh:
 - SF - 3_205_547
 - Toronto - 16 
 - Taipei - 692
+
+
+### Personal Notes
+
+- Pittsburgh has one file that isn't accessible through the API
