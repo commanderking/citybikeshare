@@ -8,7 +8,7 @@ import city.toronto as toronto
 project_root = os.getenv('PROJECT_ROOT')
 sys.path.insert(0, project_root)
 
-us_cities = ["boston", "dc", "chicago", "nyc", "sf", "philadelphia", "pittsburgh"]
+us_cities = ["boston", "dc", "chicago", "nyc", "sf", "philadelphia", "pittsburgh", "los_angeles"]
 
 other_cities = ["taipei", "toronto"]
 

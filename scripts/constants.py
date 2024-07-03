@@ -123,7 +123,7 @@ sf_renamed_columns_pre_may_2020 = {
     "bike_share_for_all_trip": "birth_year",
 }
 
-philadelphia_renamed_columns = {
+bicycle_transit_systems_renamed_columns = {
     "trip_id": "ride_id",
     "duration" : "duration",
     "start_time": "start_time",
@@ -184,7 +184,7 @@ pittsburgh_healthy_ride_columns_two = {
 
 final_columns = ["start_time", "end_time", "start_station_name", "end_station_name"]
 
-philadelphia_final_columns = ["start_time", "end_time", "start_station_id", "end_station_id"]
+bicycle_transit_systems_final_columns = ["start_time", "end_time", "start_station_id", "end_station_id"]
 
 column_mapping = {
     "boston": [
@@ -248,8 +248,8 @@ column_mapping = {
     "philadelphia": [
         {
             "header_matcher": "trip_id",
-            "column_mapping": philadelphia_renamed_columns,
-            "final_columns": philadelphia_final_columns
+            "column_mapping": bicycle_transit_systems_renamed_columns,
+            "final_columns": bicycle_transit_systems_final_columns
         }
     ],
     "pittsburgh": [
@@ -265,5 +265,13 @@ column_mapping = {
             "header_matcher": "trip_id",
             "column_mapping": pittsburgh_healthy_ride_columns_two
         }
+    ],
+    "los_angeles": [
+        {
+            "header_matcher": "trip_id",
+            "column_mapping": bicycle_transit_systems_renamed_columns,
+            "final_columns": bicycle_transit_systems_final_columns
+        },
     ]
 }
+

@@ -3,7 +3,7 @@ import os
 import polars as pl
 import utils
 import constants
-import city.philadelphia as philadelphia
+import utils_bicycle_transit_systems
 default_final_columns = constants.final_columns
 
 city_file_matcher = {
@@ -12,6 +12,7 @@ city_file_matcher = {
     "dc": ["capitalbikeshare-tripdata"],
     "chicago": ["trip", "Trips"],
     "philadelphia": ["trips", "Trips"],
+    "los_angeles": ["trips"],
     "pittsburgh": [".csv"],
     "sf": ["tripdata"]
 }
@@ -75,9 +76,9 @@ def format_and_concat_files(trip_files, args):
 
         # TODO: This station name mapping should apply to all stations
         # May want to make this configuration based rather than explicit city checks here
-        if (args.city == "philadelphia"):
-            stations_df = philadelphia.get_stations_df()
-            df = philadelphia.append_station_names(df, stations_df).drop("start_station_id", "end_station_id")                      
+        if (args.city == "philadelphia" or args.city == "los_angeles"):
+            stations_df = utils_bicycle_transit_systems.stations_csv_to_df(args)
+            df = utils_bicycle_transit_systems.append_station_names(df, stations_df).drop("start_station_id", "end_station_id")                      
         file_dataframes.append(df)
 
     print("concatenating all csv files...")
