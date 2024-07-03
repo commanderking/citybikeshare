@@ -18,6 +18,7 @@ pylint = "*"
 
 [scripts]
 sync_boston = "aws s3 sync s3://hubway-data ./data/boston/zip"
+sync_columbus = "aws s3 sync s3://cogo-sys-data ./data/columbus/zip"
 sync_dc = "aws s3 sync s3://capitalbikeshare-data ./data/dc/zip"
 sync_chicago = "aws s3 sync s3://divvy-tripdata ./data/chicago/zip"
 sync_nyc = "aws s3 sync s3://tripdata ./data/nyc/zip"

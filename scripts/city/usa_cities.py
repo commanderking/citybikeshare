@@ -4,18 +4,8 @@ import polars as pl
 import utils
 import constants
 import utils_bicycle_transit_systems
-default_final_columns = constants.final_columns
 
-city_file_matcher = {
-    "boston": ["-tripdata"],
-    "nyc": ["citibike-tripdata"],
-    "dc": ["capitalbikeshare-tripdata"],
-    "chicago": ["trip", "Trips"],
-    "philadelphia": ["trips", "Trips"],
-    "los_angeles": ["trips"],
-    "pittsburgh": [".csv"],
-    "sf": ["tripdata"]
-}
+default_final_columns = constants.final_columns
 
 def get_applicable_columns_mapping(df, rename_dict):
     # Filter the rename dictionary to include only columns that exist in the DataFrame
@@ -26,7 +16,7 @@ def get_applicable_columns_mapping(df, rename_dict):
 
 def rename_columns(df, args):
     city = args.city
-    mappings = constants.column_mapping[city]
+    mappings = constants.config[city]['column_mappings']
     headers = df.columns
     applicable_renamed_columns = []
     
@@ -34,7 +24,7 @@ def rename_columns(df, args):
     # last match would be the mapping used
     for mapping in mappings:
         if (mapping["header_matcher"] in headers):
-            applicable_renamed_columns = get_applicable_columns_mapping(df, mapping["column_mapping"])
+            applicable_renamed_columns = get_applicable_columns_mapping(df, mapping["mapping"])
             final_columns = mapping.get("final_columns", default_final_columns)
             renamed_df = df.rename(applicable_renamed_columns).select(final_columns)
             return renamed_df
@@ -94,8 +84,8 @@ def extract_zip_files(city):
         if city == "nyc":
             # JC files are duplicates of other files, but contain a more limited set of columns
             return "JC" not in file_path
-        else: 
-            return any(word in file_path for word in city_file_matcher[city])        
+        else:
+            return any(word in file_path for word in constants.config[city]['file_matcher'])        
 
     for file in os.listdir(city_zip_directory):
         file_path = os.path.join(city_zip_directory, file)
@@ -116,7 +106,7 @@ def build_all_trips(args):
     else:
         print("skipping unzipping files")
     trip_files = utils.get_csv_files(source_directory)
-    filtered_files = filter_filenames(trip_files, city_file_matcher[args.city])
+    filtered_files = filter_filenames(trip_files, constants.config[args.city]['file_matcher'])
     all_trips_df = format_and_concat_files(filtered_files, args)
     
     utils.create_all_trips_file(all_trips_df, args)

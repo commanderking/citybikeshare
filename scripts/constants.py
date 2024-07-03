@@ -14,6 +14,41 @@ commonized_system_data_columns = {
     "member_casual": "member_casual" 
 }
 
+columbus_columns_one = {
+    "trip_id": "trip_id",
+    "start_time": "start_time",
+    "end_time": "end_time",
+    "bikeid": "bike_id",
+    "tripduration": "trip_duration",
+    "from_station_location": "start_station_location",
+    "from_station_id": "start_station_id",
+    "from_station_name": "start_station_name",
+    "to_station_location": "end_station_location",
+    "to_station_id": "end_station_id",
+    "to_station_name": "end_station_name",
+    "usertype": "usertype",
+    "gender": "gender",
+    "birthyear": "birth_year"
+}
+
+columbus_columns_two = {
+    'Start Time and Date': 'start_time',
+    'Stop Time and Date': 'end_time',
+    'Start Station ID': 'start_station_id',
+    'Start Station Name': 'start_station_name',
+    'Start Station Lat': 'start_station_latitude',
+    'Start Station Long': 'start_station_longitude',
+    'Stop Station ID': 'end_station_id',
+    'Stop Station Name': 'end_station_name',
+    'Stop Station Lat': 'end_station_latitude',
+    'Stop Station Long': 'end_station_longitude',
+    'Bike ID': 'bike_id',
+    'User Type': 'usertype',
+    'Gender': 'gender',
+    'Year of Birth': 'birth_year'
+}
+
+
 boston_renamed_columns_pre_march_2023 = {
     "starttime": "start_time",
     "stoptime": "end_time",
@@ -186,92 +221,152 @@ final_columns = ["start_time", "end_time", "start_station_name", "end_station_na
 
 bicycle_transit_systems_final_columns = ["start_time", "end_time", "start_station_id", "end_station_id"]
 
-column_mapping = {
-    "boston": [
-        {
-            "header_matcher": "ride_id",
-            "column_mapping": commonized_system_data_columns
-        },
-        {
-            "header_matcher": "bikeid",
-            "column_mapping": boston_renamed_columns_pre_march_2023
-        }
-    ],
-    "dc": [
-        {
-            "header_matcher": "ride_id",
-            "column_mapping": commonized_system_data_columns
-        },
-        {
-            "header_matcher": "Bike number",
-            "column_mapping": dc_renamed_columns_pre_may_2020
-        }
-    ],
-    "chicago": [
-        {
-            "header_matcher": "ride_id",
-            "column_mapping": commonized_system_data_columns
-        },
-        {
-            "header_matcher": "from_station_name",
-            "column_mapping": chicago_renamed_columns_pre_march_2023
-        },
-        {
-            "header_matcher": "01 - Rental Details Local Start Time",
-            "column_mapping": chicago_renamed_columns_oddball
-        }
-    ],
-    "nyc": [
-        {
-            "header_matcher": "ride_id",
-            "column_mapping": commonized_system_data_columns
-        },
-        {
-            "header_matcher": "bikeid",
-            "column_mapping": nyc_renamed_columns_initial
-        },
-        {
-            "header_matcher": "Trip Duration",
-            "column_mapping": nyc_renamed_columns_2017_03_to_2020_01
-        }
-    ],
-    "sf": [
-        {
-            "header_matcher": "ride_id",
-            "column_mapping": commonized_system_data_columns            
-        },
-        {
-            "header_matcher": "bike_id",
-            "column_mapping": sf_renamed_columns_pre_may_2020
-        }
-    ],
-    "philadelphia": [
-        {
-            "header_matcher": "trip_id",
-            "column_mapping": bicycle_transit_systems_renamed_columns,
-            "final_columns": bicycle_transit_systems_final_columns
-        }
-    ],
-    "pittsburgh": [
-        {
-            "header_matcher": "Start Date",
-            "column_mapping": pittsburgh_renamed_columns,
-        },
-        {
-            "header_matcher": "Trip id",
-            "column_mapping": pittsburgh_healthy_ride_columns
-        },
-        {
-            "header_matcher": "trip_id",
-            "column_mapping": pittsburgh_healthy_ride_columns_two
-        }
-    ],
-    "los_angeles": [
-        {
-            "header_matcher": "trip_id",
-            "column_mapping": bicycle_transit_systems_renamed_columns,
-            "final_columns": bicycle_transit_systems_final_columns
-        },
-    ]
+
+city_file_matcher = {
+    "boston": ["-tripdata"],
+    "dc": ["capitalbikeshare-tripdata"],
+    "chicago": ["trip", "Trips"],
+    "los_angeles": ["trips"],
+    "pittsburgh": [".csv"],
+    "sf": ["tripdata"]
 }
 
+
+config = {
+    "columbus": {
+        "name": "columbus",
+        "file_matcher": "cogo-tripdata",
+        "column_mappings": [
+            {
+                "header_matcher": "ride_id",
+                "mapping": commonized_system_data_columns 
+            },
+            {
+                "header_matcher": "trip_id",
+                "mapping": columbus_columns_one
+            },
+            {
+                "header_matcher": "Bike ID",
+                "mapping": columbus_columns_two
+            }
+        ]
+    },
+    "chicago": {
+        "name": "chicago",
+        "file_matcher": ["trip", "Trips"],
+        "column_mappings": [
+            {
+                "header_matcher": "ride_id",
+                "mapping": commonized_system_data_columns
+            },
+            {
+                "header_matcher": "from_station_name",
+                "mapping": chicago_renamed_columns_pre_march_2023
+            },
+            {
+                "header_matcher": "01 - Rental Details Local Start Time",
+                "mapping": chicago_renamed_columns_oddball
+            }
+        ]
+    },
+    "boston": {
+        "name": "boston",
+        "file_matcher": ["-tripdata"],
+        "column_mappings": [
+            {
+                "header_matcher": "ride_id",
+                "mapping": commonized_system_data_columns
+            },
+            {
+                "header_matcher": "bikeid",
+                "mapping": boston_renamed_columns_pre_march_2023
+            }
+        ]
+    },
+    "dc": {
+        "name": "dc",
+        "file_matcher": ["capitalbikeshare-tripdata"],
+        "column_mappings": [
+            {
+                "header_matcher": "ride_id",
+                "mapping": commonized_system_data_columns
+            },
+            {
+                "header_matcher": "Bike number",
+                "mapping": dc_renamed_columns_pre_may_2020
+            }
+        ]
+    },
+    "nyc": {
+        "name": "nyc",
+        "file_matcher": ["citibike-tripdata"],
+        "column_mappings": [
+            {
+                "header_matcher": "ride_id",
+                "mapping": commonized_system_data_columns
+            },
+            {
+                "header_matcher": "bikeid",
+                "mapping": nyc_renamed_columns_initial
+            },
+            {
+                "header_matcher": "Trip Duration",
+                "mapping": nyc_renamed_columns_2017_03_to_2020_01
+            }
+        ],
+    },
+    "sf": {
+        "name": "sf",
+        "file_matcher": ["tripdata"],
+        "column_mappings": [
+            {
+                "header_matcher": "ride_id",
+                "mapping": commonized_system_data_columns            
+            },
+            {
+                "header_matcher": "bike_id",
+                "mapping": sf_renamed_columns_pre_may_2020
+            }
+        ]
+    },
+    "philadelphia": {
+        "name": "philadelphia",
+        "file_matcher": ["trips", "Trips"],
+        "column_mappings": [
+            {
+                "header_matcher": "trip_id",
+                "mapping": bicycle_transit_systems_renamed_columns,
+                "final_columns": bicycle_transit_systems_final_columns
+            }
+        ]
+    },
+    "pittsburgh": {
+        "name": "pittsburgh",
+        "file_matcher": ["csv"],
+        "column_mappings": [
+            {
+                "header_matcher": "Start Date",
+                "mapping": pittsburgh_renamed_columns,
+            },
+            {
+                "header_matcher": "Trip id",
+                "mapping": pittsburgh_healthy_ride_columns
+            },
+            {
+                "header_matcher": "trip_id",
+                "mapping": pittsburgh_healthy_ride_columns_two
+            }
+        ]
+    },
+    "los_angeles": {
+        "name": "los_angeles",
+        "file_matcher": ["trips"],
+        "column_mappings": [
+            {
+                "header_matcher": "trip_id",
+                "mapping": bicycle_transit_systems_renamed_columns,
+                "final_columns": bicycle_transit_systems_final_columns
+            },
+        ]
+    }
+}

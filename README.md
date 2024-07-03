@@ -7,10 +7,12 @@ Currently, data is available for:
 | City          | Source |
 | -----------   | ----------- |
 | Boston        | <https://bluebikes.com/system-data>  |
+| Columbus      | <https://cogobikeshare.com/system-data> |
 | Chicago       | <https://divvybikes.com/system-data> |
+| Los Angeles   | <https://bikeshare.metro.net/about/data/> |
 | NYC           | <https://citibikenyc.com/system-data> |
-| Philadelphia  | https://www.rideindego.com/about/data/ |
-| Pittsburgh    | https://data.wprdc.org/dataset/pogoh-trip-data |
+| Philadelphia  | <https://www.rideindego.com/about/data/> |
+| Pittsburgh    | <https://data.wprdc.org/dataset/pogoh-trip-data> |
 | San Francisco | <https://www.lyft.com/bikes/bay-wheels/system-data> |
 | Taipei        | <https://data.gov.tw/dataset/150635> | 
 | Toronto       | <https://open.toronto.ca/dataset/bike-share-toronto-ridership-data/> |
@@ -48,23 +50,12 @@ If the data has already been unzipped by running `pipenv run build`, you can ski
 
 #### Potential Upcoming Cities in the Pipeline
 
-
-### Philadelphia
-Data can be found here: https://www.rideindego.com/about/data/
-
 ### Austin
 TODO: Austin updates monthly, but doesn't provide an easy way to download file (need to export) - https://data.austintexas.gov/Transportation-and-Mobility/Austin-MetroBike-Trips/tyfh-5r8s/about_data
-
-### Columbus
-
-https://cogobikeshare.com/system-data
-
 
 ### London 
 https://cycling.data.tfl.gov.uk/
 
-### Los Angeles
-https://bikeshare.metro.net/about/data/
 
 ### Montreal
 
@@ -104,7 +95,6 @@ https://opendata.emtmadrid.es/Datos-estaticos/Datos-generales-(1)
 - SF - 3_205_547
 - Toronto - 16 
 - Taipei - 692
-
 
 ### Personal Notes
 

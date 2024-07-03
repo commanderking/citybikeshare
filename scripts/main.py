@@ -4,14 +4,12 @@ import sys
 import city.usa_cities as usa_utils
 import city.taipei as taipei
 import city.toronto as toronto
-
+import constants
 project_root = os.getenv('PROJECT_ROOT')
 sys.path.insert(0, project_root)
 
-us_cities = ["boston", "dc", "chicago", "nyc", "sf", "philadelphia", "pittsburgh", "los_angeles"]
-
+us_cities = list(constants.config.keys())
 other_cities = ["taipei", "toronto"]
-
 all_cities = us_cities + other_cities
 
 def setup_argparse():
