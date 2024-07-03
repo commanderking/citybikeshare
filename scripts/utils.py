@@ -41,7 +41,6 @@ def get_csv_files(directory):
     trip_files = []
     for root, dirs, files in os.walk(directory):
         dirs[:] = [d for d in dirs if d != '__MACOSX']
-
         for file in files:
             if (file.endswith(".csv") and not file.startswith("__MACOSX/")):
                 csv_path = os.path.join(root, file)
