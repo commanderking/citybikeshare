@@ -1,11 +1,16 @@
 import os
 import sys
+import utils
 from playwright.sync_api import sync_playwright
 
-def run(playwright, url, zip_directory, stations_path):
+
+
+
+def run(playwright, url, city):
+    STATIONS_CSV_PATH = utils.get_raw_files_directory(city)
+    DOWNLOAD_PATH = utils.get_zip_directory(city)
     # Create a downloaded zip directory if it doesn't exist
-    download_path = zip_directory
-    os.makedirs(download_path, exist_ok=True)
+    os.makedirs(DOWNLOAD_PATH, exist_ok=True)
 
     browser = playwright.chromium.launch(headless=True)
     context = browser.new_context(accept_downloads=True)
@@ -18,7 +23,7 @@ def run(playwright, url, zip_directory, stations_path):
         with page.expect_download() as download_info:
             link.click()
         download = download_info.value
-        download.save_as(os.path.join(download_path, download.suggested_filename))
+        download.save_as(os.path.join(DOWNLOAD_PATH, download.suggested_filename))
         print(f'Downloaded { download.suggested_filename }')
 
     # Download stations csv directly into csv folder
@@ -26,11 +31,11 @@ def run(playwright, url, zip_directory, stations_path):
     with page.expect_download() as stations_download_info:
         stations_csv_link.click()
     stations_download = stations_download_info.value
-    stations_download.save_as(os.path.join(stations_path, "stations.csv"))
+    stations_download.save_as(os.path.join(STATIONS_CSV_PATH, "stations.csv"))
     print(f'Downloaded { stations_download.suggested_filename } as stations.csv')
 
     browser.close()
 
-def get_bicycle_transit_systems_zips(url, zip_directory, csv_path):
+def get_bicycle_transit_systems_zips(url, city):
     with sync_playwright() as playwright:
-        run(playwright, url, zip_directory, csv_path)
+        run(playwright, url, city)
