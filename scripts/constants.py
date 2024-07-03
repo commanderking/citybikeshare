@@ -265,5 +265,13 @@ column_mapping = {
             "header_matcher": "trip_id",
             "column_mapping": pittsburgh_healthy_ride_columns_two
         }
+    ],
+    "los_angeles": [
+        {
+            "header_matcher": "trip_id",
+            "column_mapping": philadelphia_renamed_columns,
+            "final_columns": philadelphia_final_columns
+        },
     ]
 }
+
