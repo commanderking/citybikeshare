@@ -9,11 +9,7 @@ project_root = os.getenv('PROJECT_ROOT')
 sys.path.insert(0, project_root)
 
 us_cities = list(constants.config.keys())
-
-# ["boston", "dc", "chicago", "nyc", "sf", "philadelphia", "pittsburgh", "los_angeles"]
-
 other_cities = ["taipei", "toronto"]
-
 all_cities = us_cities + other_cities
 
 def setup_argparse():
