@@ -5,16 +5,15 @@ import polars as pl
 
 project_root = os.getenv('PROJECT_ROOT')
 sys.path.insert(0, project_root)
-import definitions
 import scripts.utils as utils
 import scripts.utils_playwright as utils_playwright
 
-
+LA_BIKESHARE_URL = 'https://bikeshare.metro.net/about/data/'
 DOWNLOAD_PATH = utils.get_zip_directory("los_angeles")
 STATIONS_CSV_PATH = utils.get_raw_files_directory("los_angeles")
 
 def get_zip_files():
-    utils_playwright.get_bicycle_transit_systems_zips('https://bikeshare.metro.net/about/data/', DOWNLOAD_PATH, STATIONS_CSV_PATH )
+    utils_playwright.get_bicycle_transit_systems_zips(LA_BIKESHARE_URL, DOWNLOAD_PATH, STATIONS_CSV_PATH )
     
     
 if __name__ == "__main__":

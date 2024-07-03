@@ -13,7 +13,6 @@ RENAMED_STATION_COLUMNS = {
     "Status": "status"
 }
 
-
 def stations_csv_to_df(args):
     city = args.city
     CSV_PATH = utils.get_raw_files_directory(city)
@@ -22,6 +21,7 @@ def stations_csv_to_df(args):
     return df.rename(RENAMED_STATION_COLUMNS).with_columns([
         pl.col("station_id").cast(pl.String),
     ])
+
 def append_station_names(trips_df, stations_df):
     joined_df = trips_df.join(
         stations_df.select(['station_id', 'station_name']),
