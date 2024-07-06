@@ -1,0 +1,90 @@
+{
+    "philadelphia": {
+        "final_data": {
+            "total_rows": 6984241,
+            "null_rows": 51,
+            "percent_null": 0.0,
+            "updated_at": "2024-07-05 22:41:34"
+        }
+    },
+    "pittsburgh": {
+        "final_data": {
+            "total_rows": 999250,
+            "null_rows": 360,
+            "percent_null": 0.04,
+            "updated_at": "2024-07-05 22:39:05"
+        }
+    },
+    "boston": {
+        "final_data": {
+            "total_rows": 22196759,
+            "null_rows": 21255,
+            "percent_null": 0.1,
+            "updated_at": "2024-07-05 22:43:10"
+        }
+    },
+    "columbus": {
+        "final_data": {
+            "total_rows": 519075,
+            "null_rows": 40606,
+            "percent_null": 7.82,
+            "updated_at": "2024-07-05 22:43:53"
+        }
+    },
+    "chicago": {
+        "final_data": {
+            "total_rows": 44178477,
+            "null_rows": 4486646,
+            "percent_null": 10.16,
+            "updated_at": "2024-07-05 22:49:47"
+        }
+    },
+    "nyc": {
+        "final_data": {
+            "total_rows": 237960550,
+            "null_rows": 317262,
+            "percent_null": 0.13,
+            "updated_at": "2024-07-05 22:56:38"
+        }
+    },
+    "los_angeles": {
+        "final_data": {
+            "total_rows": 2212368,
+            "null_rows": 507,
+            "percent_null": 0.02,
+            "updated_at": "2024-07-05 22:57:29"
+        }
+    },
+    "sf": {
+        "final_data": {
+            "total_rows": 15680390,
+            "null_rows": 3267209,
+            "percent_null": 20.84,
+            "updated_at": "2024-07-05 22:58:19"
+        }
+    },
+    "dc": {
+        "final_data": {
+            "total_rows": 40587138,
+            "null_rows": 1704663,
+            "percent_null": 4.2,
+            "updated_at": "2024-07-05 23:00:28"
+        }
+    },
+    "toronto": {
+        "final_data": {
+            "total_rows": 22559332,
+            "null_rows": 16,
+            "percent_null": 0.0,
+            "updated_at": "2024-07-05 23:06:49"
+        }
+    },
+    "taipei": {
+        "final_data": {
+            "total_rows": 81103051,
+            "null_rows": 692,
+            "percent_null": 0.0,
+            "updated_at": "2024-07-05 23:21:28"
+        }
+    }
+}

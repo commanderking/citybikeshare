@@ -30,9 +30,9 @@ TAIPEI_CSVS_PATH = utils.get_raw_files_directory("taipei")
 
 def read_csv_file(file_path, has_header=True, columns=None):
     if has_header:
-        df = pl.read_csv(file_path)
+        df = pl.read_csv(file_path, encoding="utf8-lossy")
     else:
-        df = pl.read_csv(file_path, has_header=False, new_columns=columns, infer_schema_length=10000)
+        df = pl.read_csv(file_path, has_header=False, new_columns=columns, infer_schema_length=10000, encoding="utf8-lossy")
     return df
 
 def determine_has_header(file_path, expected_columns):
@@ -84,8 +84,10 @@ def extract_all_csvs():
     print(TAIPEI_CSVS_PATH)
     df = pl.read_csv("https://tcgbusfs.blob.core.windows.net/dotapp/youbike_second_ticket_opendata/YouBikeHis.csv")
     
-    for row in df.iterrows():
-        file_url = row['fileURL']  # Assume the column containing the URLs is named 'fileURL'
+    file_urls = df['fileURL'].to_list()
+
+    for file_url in file_urls:
+        print(file_url)
         
         print(file_url)
         # Make an HTTP GET request to fetch the content of the zip file
@@ -118,6 +120,6 @@ def create_all_trips_parquet(args):
         extract_all_csvs()
 
     all_trips_df = create_df_with_all_trips(TAIPEI_CSVS_PATH, RAW_TAIPEI_COLUMNS)
-    utils.print_null_rows(all_trips_df)
+    utils.log_final_results(all_trips_df, args)
     utils.create_all_trips_file(all_trips_df, args)
     utils.create_recent_year_file(all_trips_df, args)

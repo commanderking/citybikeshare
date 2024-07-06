@@ -221,17 +221,6 @@ final_columns = ["start_time", "end_time", "start_station_name", "end_station_na
 
 bicycle_transit_systems_final_columns = ["start_time", "end_time", "start_station_id", "end_station_id"]
 
-
-city_file_matcher = {
-    "boston": ["-tripdata"],
-    "dc": ["capitalbikeshare-tripdata"],
-    "chicago": ["trip", "Trips"],
-    "los_angeles": ["trips"],
-    "pittsburgh": [".csv"],
-    "sf": ["tripdata"]
-}
-
-
 config = {
     "columbus": {
         "name": "columbus",

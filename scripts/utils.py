@@ -1,6 +1,7 @@
 import os
 import sys
-from datetime import timedelta
+import json
+from datetime import timedelta, datetime
 import polars as pl
 
 project_root = os.getenv('PROJECT_ROOT')
@@ -26,15 +27,19 @@ def get_raw_files_directory(city):
 def get_output_format(is_csv):
     return "csv" if is_csv else "parquet"
 
+def get_output_directory():
+    path = definitions.OUTPUT_DIR
+    path.mkdir(parents=True, exist_ok=True)
+    return path
 
 def get_all_trips_path(args):
     file_format = get_output_format(args.csv)
-    path = definitions.DATA_DIR / f'{args.city}_all_trips.{file_format}'
+    path = get_output_directory() / f'{args.city}_all_trips.{file_format}'
     return path
 
 def get_recent_year_path(args):
     file_format = get_output_format(args.csv)
-    path = definitions.DATA_DIR / f'{args.city}_recent_year.{file_format}'
+    path = get_output_directory() / f'{args.city}_recent_year.{file_format}' 
     return path
 
 def get_csv_files(directory):
@@ -83,13 +88,27 @@ def create_recent_year_file(df, args):
         df.write_parquet(recent_year_path)
         print('parquet files created')
 
-def print_null_rows(df):
+def log_final_results(df, args):
     '''Print all rows that have NULL in at least one column'''
+
+    city = args.city
+    city_json = { "final_data": {} }
+    json_data = {}
+
+    output_directory = get_output_directory()
+    logged_path = output_directory / "logged.json"
+    try:
+        with open(logged_path, 'r') as f:
+            json_data = json.load(f)
+    except:
+        print("No logging file found, will create new one.")
+
 
     headers = df.columns
     for header in headers:
         null_count = df.select(pl.col(header).is_null().sum()).item()
         print(f'Column {header} has {null_count} rows with null values')
+        city_json["final_data"][header] = null_count
 
     df_null_rows = (
         df
@@ -97,9 +116,24 @@ def print_null_rows(df):
             pl.any_horizontal(pl.all().is_null())
         )
     )
+    
+    current_time =  datetime.now() 
+    formatted_time = current_time.strftime('%Y-%m-%d %H:%M:%S')
+    city_json["final_data"] = {
+        "total_rows": df.height,
+        "null_rows": df_null_rows.height,
+        "percent_null": round(((df_null_rows.height / df.height) * 100), 2),
+        "updated_at": formatted_time
+    }
+    
     print(f'{df_null_rows.height} rows have at least one column with a null value')
     print(f'There are {df.height} total rows')
     print(f'{round(((df_null_rows.height / df.height) * 100), 2)}% of trips have a null value)')
+    
+
+    json_data[city] = city_json
+    with open(logged_path, 'w') as f:
+        json.dump(json_data, f, indent=4)
     
 def assess_null_data(df):
     headers = df.columns

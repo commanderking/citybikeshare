@@ -1,6 +1,7 @@
 hubwayS3
 data
 build
+output
 __pycache__
 
 .DS_STORE

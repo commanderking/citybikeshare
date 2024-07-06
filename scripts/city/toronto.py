@@ -116,7 +116,7 @@ def build_trips(args):
         extract_csvs()
     all_trips_df = create_all_trips_df()
     
-    utils.print_null_rows(all_trips_df)
+    utils.log_final_results(all_trips_df, args)
     
     utils.create_all_trips_file(all_trips_df, args)
     utils.create_recent_year_file(all_trips_df, args)
