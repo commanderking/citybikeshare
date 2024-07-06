@@ -36,6 +36,8 @@ def format_and_concat_files(trip_files, args):
     
     print("adding files to polars df")
     file_dataframes = []
+    raw_rows = 0
+    formatted_rows = 0
     for file in trip_files:
         print(file)
 
@@ -50,8 +52,10 @@ def format_and_concat_files(trip_files, args):
         # TODO: Some columns like birth year have value \\N. Map \\N to correct values
         df = pl.read_csv(file, infer_schema_length=0)
         
+        raw_rows += df.height
+                
         # For debugging columns that have missing data
-        # utils.assess_null_data(df)
+        utils.assess_null_data(df)
             
         df = rename_columns(df ,args)
         df = df.with_columns([
@@ -68,7 +72,9 @@ def format_and_concat_files(trip_files, args):
         # May want to make this configuration based rather than explicit city checks here
         if (args.city == "philadelphia" or args.city == "los_angeles"):
             stations_df = utils_bicycle_transit_systems.stations_csv_to_df(args)
-            df = utils_bicycle_transit_systems.append_station_names(df, stations_df).drop("start_station_id", "end_station_id")                      
+            df = utils_bicycle_transit_systems.append_station_names(df, stations_df).drop("start_station_id", "end_station_id")      
+        
+        formatted_rows += df.height                
         file_dataframes.append(df)
 
     print("concatenating all csv files...")
@@ -112,4 +118,4 @@ def build_all_trips(args):
     utils.create_all_trips_file(all_trips_df, args)
     utils.create_recent_year_file(all_trips_df, args)
     
-    utils.print_null_rows(all_trips_df)
+    utils.log_final_results(all_trips_df, args)

@@ -86,6 +86,16 @@ https://data.gov.ie/dataset/dublinbikes-api
 
 https://opendata.emtmadrid.es/Datos-estaticos/Datos-generales-(1)
 
+### Hsinchu 
+
+https://data.gov.tw/dataset/67784
+
+### Taipei 
+
+- Supposedly contains all trips that were transfers for the month
+https://data.gov.tw/dataset/169174
+
+
 #### Null start and end stations - tested on 6/12/24. Includes 2024/04 bluebike data
 - Chicago - 4_102_485
 - Boston - 19_626
