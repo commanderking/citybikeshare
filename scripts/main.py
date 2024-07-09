@@ -8,9 +8,8 @@ import constants
 project_root = os.getenv('PROJECT_ROOT')
 sys.path.insert(0, project_root)
 
-us_cities = list(constants.config.keys())
 other_cities = ["taipei", "toronto"]
-all_cities = us_cities + other_cities
+all_cities = constants.US_CITIES + other_cities
 
 def setup_argparse():
     parser = argparse.ArgumentParser(description='Merging all bikeshare trip data into One CSV or parquet file')
