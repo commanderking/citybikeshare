@@ -8,23 +8,24 @@ import scripts.constants
 
 
 def get_trips_per_year(city):
-    print("reading parquet")
+    print(f'reading {city} parquet')
     parquet_file = f'./output/{city}_all_trips.parquet'
     
-    print("done reading")
     # Read the Parquet file into a Polars DataFrame
-    df = pl.read_parquet(parquet_file).with_columns([
+    lazy_frame = pl.scan_parquet(parquet_file).with_columns([
         (pl.col('end_time') - pl.col('start_time')).alias('duration_seconds'),
         pl.col('start_time').dt.year().alias('year')
     ])
     
-    df = df.select("*").group_by("year").agg([
+    query = lazy_frame.select("*").group_by("year").agg([
         pl.count('start_time').alias('count'),
         pl.mean('duration_seconds').alias('mean'),
+        pl.col('duration_seconds').quantile(0.25).alias('first_quantile'),
         pl.median('duration_seconds').alias('median'),
+        pl.col('duration_seconds').quantile(0.75).alias('third_quantile')
     ]).with_columns(pl.lit(city).alias("system"))
 
-    print(df)
+    df = query.collect()
     
     return df
 
