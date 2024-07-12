@@ -359,3 +359,5 @@ config = {
         ]
     }
 }
+
+US_CITIES = list(config.keys())

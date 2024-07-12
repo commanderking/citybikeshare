@@ -32,6 +32,12 @@ def get_output_directory():
     path.mkdir(parents=True, exist_ok=True)
     return path
 
+def get_analysis_directory():
+    path = get_output_directory() / 'analysis'
+    path.mkdir(parents=True, exist_ok=True)
+    return path
+        
+
 def get_all_trips_path(args):
     file_format = get_output_format(args.csv)
     path = get_output_directory() / f'{args.city}_all_trips.{file_format}'
