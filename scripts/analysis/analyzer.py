@@ -19,7 +19,7 @@ def get_trips_per_year(city):
     ])
     
     query = lazy_frame.select("*").group_by("year").agg([
-        pl.count('start_time').alias('count'),
+        pl.count('start_time').alias('trip_count'),
         pl.mean('duration_seconds').alias('mean_duration'),
         pl.col('duration_seconds').quantile(0.25).alias('first_quantile_duration'),
         pl.median('duration_seconds').alias('median_duration'),

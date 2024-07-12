@@ -36,7 +36,7 @@ def build_all_trips_file():
     
     city = args.city
         
-    if city in us_cities:
+    if city in constants.US_CITIES:
         usa_utils.build_all_trips(args)
 
     if city == "taipei":

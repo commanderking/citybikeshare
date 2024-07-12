@@ -36,8 +36,6 @@ def format_and_concat_files(trip_files, args):
     
     print("adding files to polars df")
     file_dataframes = []
-    raw_rows = 0
-    formatted_rows = 0
     for file in trip_files:
         print(file)
 
@@ -51,9 +49,7 @@ def format_and_concat_files(trip_files, args):
         ]
         # TODO: Some columns like birth year have value \\N. Map \\N to correct values
         df = pl.read_csv(file, infer_schema_length=0)
-        
-        raw_rows += df.height
-                
+                        
         # For debugging columns that have missing data
         utils.assess_null_data(df)
             
@@ -64,6 +60,17 @@ def format_and_concat_files(trip_files, args):
             pl.coalesce([pl.col("end_time").str.replace(r"\.\d+", "").str.strptime(pl.Datetime, format, strict=False) for format in date_formats]),
         ])
         
+        df = df.with_columns([
+            pl.when(pl.col('start_time').dt.year() < 100)
+                .then(pl.col('start_time').dt.offset_by('2000y'))
+                .otherwise(pl.col('start_time'))
+                .alias('start_time'),
+            pl.when(pl.col('end_time').dt.year() < 100)
+                .then(pl.col('end_time').dt.offset_by('2000y'))
+                .otherwise(pl.col('end_time'))
+                .alias('end_time'),
+        ])
+            
         # For debugging and printing tables with null data for a particular column after formatting
         # df_start_time = df.filter(pl.col("start_time").is_null())
         # print(df_start_time)
@@ -74,7 +81,6 @@ def format_and_concat_files(trip_files, args):
             stations_df = utils_bicycle_transit_systems.stations_csv_to_df(args)
             df = utils_bicycle_transit_systems.append_station_names(df, stations_df).drop("start_station_id", "end_station_id")      
         
-        formatted_rows += df.height                
         file_dataframes.append(df)
 
     print("concatenating all csv files...")
