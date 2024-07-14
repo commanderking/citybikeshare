@@ -105,9 +105,18 @@ def extract_zip_files(city):
             with zipfile.ZipFile(file_path, mode="r") as archive:
                 archive.extractall(utils.get_raw_files_directory(city))
 
-def filter_filenames(filenames, matching_words):
+def filter_filenames(filenames, args):
+    matching_words = constants.config[args.city]['file_matcher']
+    excluded_filenames = constants.config[args.city]['excluded_filenames']
+    print(excluded_filenames)
     # os.path.basename - Chicago files have a stations_and_trips folder, which creates a csv for stations. I don't want to include this stations csv in our checks, so filtering on just the filename not folder
-    return [filename for filename in filenames if any(word in os.path.basename(filename) for word in matching_words)]
+    files = [filename for filename in filenames 
+        if any(word in os.path.basename(filename) for word in matching_words)
+        ### NYC use case where csv files in 2018 can duplicated. We need to explicitly ignore the duplicates
+        ### By filtering out their files
+        and not any(partial_filename in filename for partial_filename in excluded_filenames)
+    ]    
+    return files
 
 
 def build_all_trips(args):
@@ -118,7 +127,7 @@ def build_all_trips(args):
     else:
         print("skipping unzipping files")
     trip_files = utils.get_csv_files(source_directory)
-    filtered_files = filter_filenames(trip_files, constants.config[args.city]['file_matcher'])
+    filtered_files = filter_filenames(trip_files, args)
     all_trips_df = format_and_concat_files(filtered_files, args)
     
     utils.create_all_trips_file(all_trips_df, args)

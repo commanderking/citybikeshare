@@ -53,6 +53,9 @@ If the data has already been unzipped by running `pipenv run build`, you can ski
 ### Austin
 TODO: Austin updates monthly, but doesn't provide an easy way to download file (need to export) - https://data.austintexas.gov/Transportation-and-Mobility/Austin-MetroBike-Trips/tyfh-5r8s/about_data
 
+### Chattanooga 
+https://internal.chattadata.org/Recreation/Bike-Chattanooga-Trip-Data/tdrg-39c4/about_data
+
 ### London 
 https://cycling.data.tfl.gov.uk/
 
@@ -112,3 +115,7 @@ https://data.gov.tw/dataset/169174
 
 
 - Philadelphia 2015 is in /15 format for year
+
+
+- Chicago bikeshare study - https://www.mdpi.com/2071-1050/16/5/2146
+https://www.sciencedirect.com/science/article/abs/pii/S0965856420306479
