@@ -289,6 +289,24 @@ config = {
     "nyc": {
         "name": "nyc",
         "file_matcher": ["citibike-tripdata"],
+        
+        ### NYC files produce two of the same data for 2018 :(
+        "excluded_filenames": [
+            "2018-citibike-tripdata/201801-citibike-tripdata.csv",
+            "2018-citibike-tripdata/201802-citibike-tripdata.csv",
+            "2018-citibike-tripdata/201803-citibike-tripdata.csv",
+            "2018-citibike-tripdata/201804-citibike-tripdata_1.csv",
+            "2018-citibike-tripdata/201804-citibike-tripdata_2.csv",
+            "2018-citibike-tripdata/201804-citibike-tripdata.csv",
+            "2018-citibike-tripdata/201805-citibike-tripdata.csv",
+            "2018-citibike-tripdata/201806-citibike-tripdata.csv",
+            "2018-citibike-tripdata/201807-citibike-tripdata.csv",
+            "2018-citibike-tripdata/201808-citibike-tripdata.csv",
+            "2018-citibike-tripdata/201809-citibike-tripdata.csv",
+            "2018-citibike-tripdata/201810-citibike-tripdata.csv",
+            "2018-citibike-tripdata/201811-citibike-tripdata.csv",
+            "2018-citibike-tripdata/201812-citibike-tripdata.csv"
+        ],
         "column_mappings": [
             {
                 "header_matcher": "ride_id",

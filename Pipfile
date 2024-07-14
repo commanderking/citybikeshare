@@ -25,6 +25,7 @@ sync_philadelphia = "python3 ./scripts/city/philadelphia.py"
 sync_sf = "aws s3 sync s3://baywheels-data ./data/sf/zip"
 build = "python3 ./scripts/main.py"
 build_boston = "bash -c 'pipenv run sync_boston && pipenv run build Boston'"
+analyze = "python3 ./scripts/analysis/analyzer.py"
 
 [requires]
 python_version = "3.9"
