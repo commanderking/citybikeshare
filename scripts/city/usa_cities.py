@@ -50,7 +50,7 @@ def format_and_concat_files(trip_files, args):
         ]
         # TODO: Some columns like birth year have value \\N. Map \\N to correct values
         df = pl.read_csv(file, infer_schema_length=0)
-        
+
         # For debugging columns that have missing data
         utils.assess_null_data(df)
             
@@ -71,7 +71,7 @@ def format_and_concat_files(trip_files, args):
                 .otherwise(pl.col('end_time'))
                 .alias('end_time'),
         ])
-                    
+          
         # For debugging and printing tables with null data for a particular column after formatting
         # df_start_time = df.filter(pl.col("start_time").is_null())
         # print(df_start_time)
@@ -81,7 +81,7 @@ def format_and_concat_files(trip_files, args):
         if (args.city == "philadelphia" or args.city == "los_angeles"):
             stations_df = utils_bicycle_transit_systems.stations_csv_to_df(args)
             df = utils_bicycle_transit_systems.append_station_names(df, stations_df).drop("start_station_id", "end_station_id")      
-        
+
         file_dataframes.append(df)
     print("concatenating all csv files...")
     
