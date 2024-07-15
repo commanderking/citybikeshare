@@ -126,7 +126,6 @@ def build_all_trips(args):
     else:
         print("skipping unzipping files")
     trip_files = utils.get_csv_files(source_directory)
-    print(len(trip_files))
     filtered_files = filter_filenames(trip_files, args)
     all_trips_df = format_and_concat_files(filtered_files, args)
     

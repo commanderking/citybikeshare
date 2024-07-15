@@ -57,7 +57,6 @@ def get_csv_files(directory):
                 csv_path = os.path.join(root, file)
                 trip_files.append(csv_path)
     
-    print("get_csv_files")
     return trip_files
 
 def get_recent_year_df(df):
