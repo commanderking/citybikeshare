@@ -288,7 +288,8 @@ config = {
     },
     "nyc": {
         "name": "nyc",
-        "file_matcher": ["citibike-tripdata"],
+        ### 2022 contains files that have citbike in filename
+        "file_matcher": ["citibike-tripdata", "citbike-tripdata"],
         
         ### NYC files produce two of the same data for 2018 :(
         "excluded_filenames": [
@@ -306,6 +307,15 @@ config = {
             "2018-citibike-tripdata/201810-citibike-tripdata.csv",
             "2018-citibike-tripdata/201811-citibike-tripdata.csv",
             "2018-citibike-tripdata/201812-citibike-tripdata.csv"
+            
+            ### 2016 - duplicates
+            "201306-citibike-tripdata.csv",
+            "201307-citibike-tripdata.csv",
+            "201308-citibike-tripdata.csv",
+            "201309-citibike-tripdata.csv",
+            "201310-citibike-tripdata.csv",
+            "201311-citibike-tripdata.csv",
+            "201312-citibike-tripdata.csv"
         ],
         "column_mappings": [
             {
