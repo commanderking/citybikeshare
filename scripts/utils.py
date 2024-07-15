@@ -55,8 +55,7 @@ def get_csv_files(directory):
         for file in files:
             if (file.endswith(".csv") and not file.startswith("__MACOSX/")):
                 csv_path = os.path.join(root, file)
-                trip_files.append(csv_path)
-
+                trip_files.append(csv_path) 
     return trip_files
 
 def get_recent_year_df(df):

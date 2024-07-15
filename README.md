@@ -109,13 +109,14 @@ https://data.gov.tw/dataset/169174
 - Toronto - 16 
 - Taipei - 692
 
-### Personal Notes
+### Data Cleaning Challenges
 
 - Pittsburgh has one file that isn't accessible through the API
 
 
 - Philadelphia 2015 is in /15 format for year
 
+- NYC has duplicate set of data for 2018 that needs proper filtering
 
 - Chicago bikeshare study - https://www.mdpi.com/2071-1050/16/5/2146
 https://www.sciencedirect.com/science/article/abs/pii/S0965856420306479

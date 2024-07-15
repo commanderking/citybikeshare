@@ -41,10 +41,10 @@
     },
     "nyc": {
         "final_data": {
-            "total_rows": 219104668,
-            "null_rows": 317262,
-            "percent_null": 0.14,
-            "updated_at": "2024-07-14 18:52:00"
+            "total_rows": 222014261,
+            "null_rows": 332987,
+            "percent_null": 0.15,
+            "updated_at": "2024-07-15 19:01:06"
         }
     },
     "los_angeles": {

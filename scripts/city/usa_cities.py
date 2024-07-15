@@ -36,6 +36,7 @@ def format_and_concat_files(trip_files, args):
     
     print("adding files to polars df")
     file_dataframes = []
+    
     for file in trip_files:
         print(file)
 
@@ -49,7 +50,7 @@ def format_and_concat_files(trip_files, args):
         ]
         # TODO: Some columns like birth year have value \\N. Map \\N to correct values
         df = pl.read_csv(file, infer_schema_length=0)
-                        
+
         # For debugging columns that have missing data
         utils.assess_null_data(df)
             
@@ -70,7 +71,7 @@ def format_and_concat_files(trip_files, args):
                 .otherwise(pl.col('end_time'))
                 .alias('end_time'),
         ])
-            
+          
         # For debugging and printing tables with null data for a particular column after formatting
         # df_start_time = df.filter(pl.col("start_time").is_null())
         # print(df_start_time)
@@ -80,9 +81,8 @@ def format_and_concat_files(trip_files, args):
         if (args.city == "philadelphia" or args.city == "los_angeles"):
             stations_df = utils_bicycle_transit_systems.stations_csv_to_df(args)
             df = utils_bicycle_transit_systems.append_station_names(df, stations_df).drop("start_station_id", "end_station_id")      
-        
-        file_dataframes.append(df)
 
+        file_dataframes.append(df)
     print("concatenating all csv files...")
     
     all_trips_df = pl.concat(file_dataframes)
@@ -108,7 +108,6 @@ def extract_zip_files(city):
 def filter_filenames(filenames, args):
     matching_words = constants.config[args.city]['file_matcher']
     excluded_filenames = constants.config[args.city]['excluded_filenames']
-    print(excluded_filenames)
     # os.path.basename - Chicago files have a stations_and_trips folder, which creates a csv for stations. I don't want to include this stations csv in our checks, so filtering on just the filename not folder
     files = [filename for filename in filenames 
         if any(word in os.path.basename(filename) for word in matching_words)
