@@ -1,9 +1,7 @@
 import os
 import sys
-import utils
+import scripts.utils as utils
 from playwright.sync_api import sync_playwright
-
-
 
 
 def run(playwright, url, city):
@@ -39,3 +37,23 @@ def run(playwright, url, city):
 def get_bicycle_transit_systems_zips(url, city):
     with sync_playwright() as playwright:
         run(playwright, url, city)
+
+
+def run_get_exports(playwright, url, file_path):
+    browser = playwright.chromium.launch(headless=True)
+    context = browser.new_context(accept_downloads=True)
+    page = context.new_page()
+        
+    page.goto(url)
+    page.click("text=Export")
+    
+    with page.expect_download(timeout=120000) as download_info:
+        # Click the "Download" button
+        page.click("button:has-text('Download')")   
+    download = download_info.value
+    download.save_as(file_path)
+
+def get_exports(url, file_path):
+    ''' Applies to Austin and Chattanooga so far '''
+    with sync_playwright() as playwright:
+        run_get_exports(playwright, url, file_path)

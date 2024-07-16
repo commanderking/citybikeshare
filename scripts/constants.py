@@ -216,6 +216,36 @@ pittsburgh_healthy_ride_columns_two = {
     "usertype": "usertype"
 }
 
+austin_bcycle = {
+    "Trip ID": "trip_id",
+    "Membership or Pass Type": "pass_type",
+    "Bicycle ID": "bicycle_id",
+    "Bike Type": "bike_type",
+    "Checkout Datetime": "start_time",
+    "checkout Date": "start_date",
+    "Checkout Kiosk ID": "start_station_id",
+    "Checkout Kiosk": "start_station_name",
+    "Return Kiosk ID": "end_station_id",
+    "Return Kiosk": "end_station_name",
+    "Trip Duration Minutes": "duration_minutes",
+    "Month": "month",
+    "Year": "year"
+}
+
+chattanooga_bicycle_transit_system = {
+    "Member Type": "member_type",
+    "BikeID": "bike_id",
+    "Start Time":"start_time",
+    "Start Station Name": "start_station_name",
+    "Start Station ID": "start_station_id",
+    "Start Location": "start_location",
+    "End Time": "end_time",
+    "End Station Name": "end_station_name",
+    "End Station ID": "end_station_id",
+    "End Location": "end_location",
+    "TripDurationMin": "duration_minutes"
+}
+
 
 final_columns = ["start_time", "end_time", "start_station_name", "end_station_name"]
 
@@ -385,6 +415,28 @@ config = {
                 "final_columns": bicycle_transit_systems_final_columns
             },
         ]
+    },
+
+
+    "austin": {
+        "name": "austin",
+        "file_matcher": ["austin_all_trips.csv"],
+        "column_mappings": [
+            {
+                "header_matcher": "Trip ID",
+                "mapping": austin_bcycle,
+                "final_columns": ["start_time", "duration_minutes", "start_station_name", "end_station_name"]
+
+            }
+        ]
+    },
+    "chattanooga": {
+        "name": "chattanooga",
+        "file_matcher": ["chattanooga_all_trips"],
+        "column_mappings": [{
+            "header_matcher": "TripDurationMin",
+            "mapping": chattanooga_bicycle_transit_system
+        }]
     }
 }
 
