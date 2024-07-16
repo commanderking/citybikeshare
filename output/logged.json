@@ -4,7 +4,7 @@
             "total_rows": 6984241,
             "null_rows": 51,
             "percent_null": 0.0,
-            "updated_at": "2024-07-12 16:17:21"
+            "updated_at": "2024-07-15 23:39:30"
         }
     },
     "pittsburgh": {
@@ -85,6 +85,22 @@
             "null_rows": 692,
             "percent_null": 0.0,
             "updated_at": "2024-07-05 23:21:28"
+        }
+    },
+    "austin": {
+        "final_data": {
+            "total_rows": 2145499,
+            "null_rows": 0,
+            "percent_null": 0.0,
+            "updated_at": "2024-07-15 23:11:39"
+        }
+    },
+    "chattanooga": {
+        "final_data": {
+            "total_rows": 623469,
+            "null_rows": 2134,
+            "percent_null": 0.34,
+            "updated_at": "2024-07-15 23:39:35"
         }
     }
 }

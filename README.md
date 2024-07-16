@@ -6,7 +6,9 @@ Currently, data is available for:
 
 | City          | Source |
 | -----------   | ----------- |
+| Austin        | https://data.austintexas.gov/Transportation-and-Mobility/Austin-MetroBike-Trips/tyfh-5r8s/about_data |
 | Boston        | <https://bluebikes.com/system-data>  |
+| Chattanooga   | <https://internal.chattadata.org/Recreation/Bike-Chattanooga-Trip-Data/tdrg-39c4/about_data> | 
 | Columbus      | <https://cogobikeshare.com/system-data> |
 | Chicago       | <https://divvybikes.com/system-data> |
 | Los Angeles   | <https://bikeshare.metro.net/about/data/> |
@@ -50,12 +52,6 @@ If the data has already been unzipped by running `pipenv run build`, you can ski
 
 #### Potential Upcoming Cities in the Pipeline
 
-### Austin
-TODO: Austin updates monthly, but doesn't provide an easy way to download file (need to export) - https://data.austintexas.gov/Transportation-and-Mobility/Austin-MetroBike-Trips/tyfh-5r8s/about_data
-
-### Chattanooga 
-https://internal.chattadata.org/Recreation/Bike-Chattanooga-Trip-Data/tdrg-39c4/about_data
-
 ### London 
 https://cycling.data.tfl.gov.uk/
 
@@ -69,7 +65,7 @@ https://bixi.com/en/open-data/
 https://oslobysykkel.no/en/open-data/historical
 
 ### Portland
-
+Micromobility contains recent day: https://public.ridereport.com/pdx?x=-122.6543855&y=45.6227107&z=9.70, but individual trip data is unavailable
 https://s3.amazonaws.com/biketown-tripdata-public/index.html
 
 ### Vancouver
