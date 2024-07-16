@@ -65,7 +65,7 @@ def format_and_concat_files(trip_files, args):
             ])
             df = df.with_columns(
                 (pl.col("start_time") + pl.duration(minutes=pl.col("duration_minutes"))).alias("end_time"))
-        print(df)
+
         df = df.with_columns([
             # Replace . and everything that follows with empty string. Some Boston dates have milliseconds
             pl.coalesce([pl.col("start_time").str.replace(r"\.\d+", "").str.strptime(pl.Datetime, format, strict=False) for format in date_formats]),
@@ -82,7 +82,11 @@ def format_and_concat_files(trip_files, args):
                 .otherwise(pl.col('end_time'))
                 .alias('end_time'),
         ])
-        print(df)
+
+        # For debugging and printing tables with null data for a particular column after formatting
+        # df_start_time = df.filter(pl.col("start_time").is_null())
+        # print(df_start_time)
+
         # TODO: This station name mapping should apply to all stations
         # May want to make this configuration based rather than explicit city checks here
         if (args.city == "philadelphia" or args.city == "los_angeles"):
@@ -90,10 +94,7 @@ def format_and_concat_files(trip_files, args):
             df = utils_bicycle_transit_systems.append_station_names(df, stations_df).drop("start_station_id", "end_station_id")      
 
         file_dataframes.append(df)
-          
-        # For debugging and printing tables with null data for a particular column after formatting
-        # df_start_time = df.filter(pl.col("start_time").is_null())
-        # print(df_start_time)
+
     print("concatenating all csv files...")
     
     all_trips_df = pl.concat(file_dataframes)
