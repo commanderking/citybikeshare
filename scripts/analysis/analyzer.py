@@ -1,6 +1,6 @@
 import sys
 import os
-
+import json
 import polars as pl
 project_root = os.getenv('PROJECT_ROOT')
 sys.path.insert(0, project_root)
@@ -43,8 +43,28 @@ def get_all_cities_trip_per_year():
     
     all_cities_df.write_json(output_path, row_oriented=True)
     
-    return all_cities_df
+    return all_cities_df    
+
+def output_recent_dates(cities):
+    
+    most_recent_dates = {}
+    for city in cities:
+        print(f'reading {city} parquet')
+        parquet_file = f'./output/{city}_all_trips.parquet'
+        
+        lazy_frame = pl.scan_parquet(parquet_file)
+        lazy_frame = lazy_frame.select(pl.max("end_time").dt.strftime('%Y-%m-%d'))
+        
+        most_recent_dates[city] = lazy_frame.collect().item()
+
+    output_path = utils.get_analysis_directory() / "latest_trips.json"
+
+    print(most_recent_dates)
+    
+    with open(output_path, 'w', encoding='utf-8') as file:
+        json.dump(most_recent_dates, file, indent=4)  # `indent=4` is optional, but it makes the JSON pretty-printed
 
 if __name__ == "__main__":
+    output_recent_dates(scripts.constants.US_CITIES)
     df = get_all_cities_trip_per_year()
     
