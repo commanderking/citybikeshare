@@ -1,10 +1,10 @@
 {
     "philadelphia": {
         "final_data": {
-            "total_rows": 6984241,
+            "total_rows": 7352332,
             "null_rows": 51,
             "percent_null": 0.0,
-            "updated_at": "2024-07-15 23:39:30"
+            "updated_at": "2024-07-18 01:22:31"
         }
     },
     "pittsburgh": {
@@ -49,10 +49,10 @@
     },
     "los_angeles": {
         "final_data": {
-            "total_rows": 2212368,
-            "null_rows": 507,
-            "percent_null": 0.02,
-            "updated_at": "2024-07-05 22:57:29"
+            "total_rows": 2355984,
+            "null_rows": 2101,
+            "percent_null": 0.09,
+            "updated_at": "2024-07-18 01:27:41"
         }
     },
     "sf": {

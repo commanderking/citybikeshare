@@ -80,7 +80,6 @@ https://ecobici.cdmx.gob.mx/en/open-data/
 
 https://data.gov.ie/dataset/dublinbikes-api
 
-
 ### Bicimad
 
 https://opendata.emtmadrid.es/Datos-estaticos/Datos-generales-(1)
