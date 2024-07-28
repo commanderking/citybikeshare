@@ -68,7 +68,6 @@ def extract_csvs():
         if not resource["datastore_active"]:
             url = base_url + "/api/3/action/resource_show?id=" + resource["id"]
             resource_metadata = requests.get(url).json()
-            # From here, you can use the "url" attribute to download this file
             response = requests.get(resource_metadata['result']['url'], timeout=10000)
             if response.status_code == 200:
                 with ZipFile(BytesIO(response.content)) as zip_file:

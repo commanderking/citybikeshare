@@ -4,12 +4,13 @@ import sys
 import city.usa_cities as usa_utils
 import city.taipei as taipei
 import city.toronto as toronto
+import city.mexico_city as mexico_city
 import constants
 project_root = os.getenv('PROJECT_ROOT')
 sys.path.insert(0, project_root)
 
-other_cities = ["taipei", "toronto"]
-all_cities = constants.US_CITIES + other_cities
+other_cities = constants.GLOBAL_CITIES
+all_cities = constants.ALL_CITIES
 
 def setup_argparse():
     parser = argparse.ArgumentParser(description='Merging all bikeshare trip data into One CSV or parquet file')
@@ -44,6 +45,9 @@ def build_all_trips_file():
     
     if city == "toronto":
         toronto.build_trips(args)
+    
+    if city == "mexico_city":
+        mexico_city.build_trips(args)
 
 
 if __name__ == "__main__":
