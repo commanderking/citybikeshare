@@ -13,7 +13,7 @@ def get_trips_per_year(city):
     parquet_file = f'./output/{city}_all_trips.parquet'
     
     # Read the Parquet file into a Polars DataFrame
-    lazy_frame = pl.scan_parquet(parquet_file).with_columns([
+    lazy_frame = pl.scan_parquet(parquet_file).drop_nulls(subset=['end_time', 'start_time']).with_columns([
         (pl.col('end_time') - pl.col('start_time')).dt.total_seconds().alias('duration_seconds'),
         pl.col('start_time').dt.year().alias('year')
     ])
