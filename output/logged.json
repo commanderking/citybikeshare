@@ -76,7 +76,7 @@
             "total_rows": 22559332,
             "null_rows": 16,
             "percent_null": 0.0,
-            "updated_at": "2024-07-05 23:06:49"
+            "updated_at": "2024-07-28 18:48:57"
         }
     },
     "taipei": {
@@ -101,6 +101,14 @@
             "null_rows": 2134,
             "percent_null": 0.34,
             "updated_at": "2024-07-15 23:39:35"
+        }
+    },
+    "mexico_city": {
+        "final_data": {
+            "total_rows": 99937448,
+            "null_rows": 838508,
+            "percent_null": 0.84,
+            "updated_at": "2024-07-28 17:20:48"
         }
     }
 }

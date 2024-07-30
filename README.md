@@ -12,6 +12,7 @@ Currently, data is available for:
 | Columbus      | <https://cogobikeshare.com/system-data> |
 | Chicago       | <https://divvybikes.com/system-data> |
 | Los Angeles   | <https://bikeshare.metro.net/about/data/> |
+| Mexico City   | <https://ecobici.cdmx.gob.mx/en/open-data/> |
 | NYC           | <https://citibikenyc.com/system-data> |
 | Philadelphia  | <https://www.rideindego.com/about/data/> |
 | Pittsburgh    | <https://data.wprdc.org/dataset/pogoh-trip-data> |
@@ -60,9 +61,17 @@ https://cycling.data.tfl.gov.uk/
 
 https://bixi.com/en/open-data/
 
+### Bergen
+
+https://bergenbysykkel.no/en/open-data/historical
+
 ### Oslo
 
 https://oslobysykkel.no/en/open-data/historical
+
+### Trondheim
+
+https://trondheimbysykkel.no/en/open-data/historical
 
 ### Portland
 Micromobility contains recent day: https://public.ridereport.com/pdx?x=-122.6543855&y=45.6227107&z=9.70, but individual trip data is unavailable
@@ -72,15 +81,13 @@ https://s3.amazonaws.com/biketown-tripdata-public/index.html
 
 https://www.mobibikes.ca/en/system-data
 
-### Mexico City
-
-https://ecobici.cdmx.gob.mx/en/open-data/
-
-### Dublin
+### Dublin 
+- Only station data at different times
 
 https://data.gov.ie/dataset/dublinbikes-api
 
 ### Bicimad
+- Stop around February 2023
 
 https://opendata.emtmadrid.es/Datos-estaticos/Datos-generales-(1)
 
@@ -115,3 +122,12 @@ https://data.gov.tw/dataset/169174
 
 - Chicago bikeshare study - https://www.mdpi.com/2071-1050/16/5/2146
 https://www.sciencedirect.com/science/article/abs/pii/S0965856420306479
+
+Mexico City Issues 
+-  ecobici_2022_12.csv has two misnamed headers Ciclo_EstacionArribo, Fech Arribo (no underscore)
+- 2010-10.csv has 3 null values
+
+
+### Resources 
+
+- https://bikeshare-research.org/#/

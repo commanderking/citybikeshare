@@ -30,7 +30,6 @@ def rename_columns(df, args):
             return renamed_df
     raise ValueError(f'We could not rename the columns because no valid column mappings for {city} match the data! The headers we found are: {df.columns}')
 
-
 def format_and_concat_files(trip_files, args):
     """Get correct column data structures"""
     

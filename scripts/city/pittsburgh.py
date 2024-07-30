@@ -3,14 +3,11 @@ import sys
 import json
 import csv
 from playwright.sync_api import sync_playwright
-import polars as pl
 
 project_root = os.getenv('PROJECT_ROOT')
 sys.path.insert(0, project_root)
-import definitions
 import scripts.utils as utils
 import urllib.request
-from playwright.sync_api import Page, expect
 
 CSV_PATH = utils.get_raw_files_directory("pittsburgh")
 

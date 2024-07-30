@@ -13,7 +13,7 @@ def get_trips_per_year(city):
     parquet_file = f'./output/{city}_all_trips.parquet'
     
     # Read the Parquet file into a Polars DataFrame
-    lazy_frame = pl.scan_parquet(parquet_file).with_columns([
+    lazy_frame = pl.scan_parquet(parquet_file).drop_nulls(subset=['end_time', 'start_time']).with_columns([
         (pl.col('end_time') - pl.col('start_time')).dt.total_seconds().alias('duration_seconds'),
         pl.col('start_time').dt.year().alias('year')
     ])
@@ -30,9 +30,9 @@ def get_trips_per_year(city):
     
     return df
 
-def get_all_cities_trip_per_year():
+def get_all_cities_trip_per_year(cities):
     all_cities_df = None
-    for city in scripts.constants.US_CITIES:
+    for city in cities:
         df = get_trips_per_year(city)
         if all_cities_df is None:
             all_cities_df = df
@@ -43,11 +43,11 @@ def get_all_cities_trip_per_year():
     
     all_cities_df.write_json(output_path, row_oriented=True)
     
-    return all_cities_df    
+    return all_cities_df
 
 def output_recent_dates(cities):
     
-    most_recent_dates = {}
+    most_recent_dates = []
     for city in cities:
         print(f'reading {city} parquet')
         parquet_file = f'./output/{city}_all_trips.parquet'
@@ -55,8 +55,11 @@ def output_recent_dates(cities):
         lazy_frame = pl.scan_parquet(parquet_file)
         lazy_frame = lazy_frame.select(pl.max("end_time").dt.strftime('%Y-%m-%d'))
         
-        most_recent_dates[city] = lazy_frame.collect().item()
-
+        most_recent_dates.append({
+            "system": city,
+            "latest_trip": lazy_frame.collect().item()
+        })
+        
     output_path = utils.get_analysis_directory() / "latest_trips.json"
 
     print(most_recent_dates)
@@ -65,6 +68,5 @@ def output_recent_dates(cities):
         json.dump(most_recent_dates, file, indent=4)  # `indent=4` is optional, but it makes the JSON pretty-printed
 
 if __name__ == "__main__":
-    output_recent_dates(scripts.constants.US_CITIES)
-    df = get_all_cities_trip_per_year()
-    
+    output_recent_dates(scripts.constants.ALL_CITIES)
+    df = get_all_cities_trip_per_year(scripts.constants.ALL_CITIES)

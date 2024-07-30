@@ -437,7 +437,11 @@ config = {
             "header_matcher": "TripDurationMin",
             "mapping": chattanooga_bicycle_transit_system
         }]
-    }
+    },
 }
 
 US_CITIES = list(config.keys())
+
+GLOBAL_CITIES = ["taipei", "toronto", "mexico_city"]
+
+ALL_CITIES = US_CITIES + GLOBAL_CITIES
