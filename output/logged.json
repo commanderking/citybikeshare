@@ -110,5 +110,13 @@
             "percent_null": 0.84,
             "updated_at": "2024-07-28 17:20:48"
         }
+    },
+    "montreal": {
+        "final_data": {
+            "total_rows": 62344580,
+            "null_rows": 181716,
+            "percent_null": 0.29,
+            "updated_at": "2024-09-27 20:31:33"
+        }
     }
 }
