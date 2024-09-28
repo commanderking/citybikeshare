@@ -9,15 +9,9 @@ project_root = os.getenv('PROJECT_ROOT')
 sys.path.insert(0, project_root)
 import scripts.utils as utils
 
-### 2022 - Montreal moved to new system
-
-# FILE_NAME = "mexico_city_all_trips.csv"
 CSV_PATH = utils.get_zip_directory("montreal")
-# FILE_PATH = os.path.join(CSV_PATH, FILE_NAME)
-
 OPEN_DATA_URL = "https://bixi.com/en/open-data/"
 MONTREAL_CSV_PATHS = utils.get_raw_files_directory("montreal")
-
 
 def run_get_exports(playwright, url, csv_path):
     browser = playwright.chromium.launch(headless=True)
@@ -51,8 +45,6 @@ def extract_csvs(city):
             with zipfile.ZipFile(file_path, mode="r") as archive:
                 archive.extractall(utils.get_raw_files_directory(city))
 
-["start_time", "end_time", "start_station_name", "end_station_name"]
-
 earliest_days_columns = {
     "start_date": "start_time",
     "end_date": "end_time",
@@ -78,25 +70,6 @@ recent_days_columns = {
 
 final_columns = ["start_station_name", "end_station_name", "start_time", "end_time"]
 
-
-
-# column_mappings = [
-#     {
-#         "header_matcher": "ride_id",
-#         "mapping": commonized_system_data_columns
-#     },
-#     {
-#         "header_matcher": "from_station_name",
-#         "mapping": chicago_renamed_columns_pre_march_2023
-#     },
-#     {
-#         "header_matcher": "01 - Rental Details Local Start Time",
-#         "mapping": chicago_renamed_columns_oddball
-#     }
-# ]
-
-
-
 def create_all_trips_df():
     files = utils.get_csv_files(MONTREAL_CSV_PATHS)
     all_dfs = []
@@ -107,6 +80,8 @@ def create_all_trips_df():
             
             headers = df.columns
             renamed_columns = {}
+            
+            ### Bixi has had three separate column names in its history
             if "start_station_code" in headers:
                 renamed_columns = earliest_days_columns
                 
@@ -127,7 +102,6 @@ def create_all_trips_df():
             
             date_formats = ["%Y-%m-%d %H:%M:%S", "%Y-%m-%d %H:%M"]
             df = df.with_columns([
-                # Replace . and everything that follows with empty string. Some Boston dates have milliseconds
                 pl.coalesce([pl.col("start_time").str.replace(r"\.\d+", "").str.strptime(pl.Datetime, format, strict=False) for format in date_formats]),
                 pl.coalesce([pl.col("end_time").str.replace(r"\.\d+", "").str.strptime(pl.Datetime, format, strict=False) for format in date_formats]),
             ])
@@ -151,22 +125,10 @@ def build_trips(args):
     utils.create_all_trips_file(all_trips_df, args)
     utils.create_recent_year_file(all_trips_df, args)
 
-### Latest column names
-
-
-### 05_2014
-# start_date	start_station_code	end_date	end_station_code	duration_sec	is_member
-
-### 2021
-# start_date	emplacement_pk_start	end_date	emplacement_pk_end	duration_sec	is_member
-
 def get_exports(url, csv_path):
     with sync_playwright() as playwright:
         run_get_exports(playwright, url, csv_path)
 
-
-
 if __name__ == "__main__":
-    # get_exports(OPEN_DATA_URL, CSV_PATH)
-    # build_trips("hello")
-          create_all_trips_df()
+    get_exports(OPEN_DATA_URL, CSV_PATH)
+    create_all_trips_df()
