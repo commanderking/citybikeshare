@@ -17,10 +17,10 @@
     },
     "boston": {
         "final_data": {
-            "total_rows": 22196759,
-            "null_rows": 21255,
+            "total_rows": 23271616,
+            "null_rows": 23411,
             "percent_null": 0.1,
-            "updated_at": "2024-09-28 21:19:07"
+            "updated_at": "2024-09-28 21:40:19"
         }
     },
     "columbus": {
