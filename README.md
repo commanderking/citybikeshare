@@ -13,6 +13,7 @@ Currently, data is available for:
 | Chicago       | <https://divvybikes.com/system-data> |
 | Los Angeles   | <https://bikeshare.metro.net/about/data/> |
 | Mexico City   | <https://ecobici.cdmx.gob.mx/en/open-data/> |
+| Montreal      | <https://bixi.com/en/open-data/> |
 | NYC           | <https://citibikenyc.com/system-data> |
 | Philadelphia  | <https://www.rideindego.com/about/data/> |
 | Pittsburgh    | <https://data.wprdc.org/dataset/pogoh-trip-data> |
@@ -56,10 +57,6 @@ If the data has already been unzipped by running `pipenv run build`, you can ski
 ### London 
 https://cycling.data.tfl.gov.uk/
 
-
-### Montreal
-
-https://bixi.com/en/open-data/
 
 ### Bergen
 
