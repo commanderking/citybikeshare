@@ -100,21 +100,15 @@ def format_and_concat_files(trip_files, args):
     return all_trips_df
 
 def extract_zip_files(city):
-    print(f'unzipping {city} trip files')
-    city_zip_directory = utils.get_zip_directory(city)
-    
+    print(f'unzipping {city} trip files')    
     def city_match(file_path, city):
         if city == "nyc":
             # JC files are duplicates of other files, but contain a more limited set of columns
             return "JC" not in file_path
         else:
-            return any(word in file_path for word in constants.config[city]['file_matcher'])        
-
-    for file in os.listdir(city_zip_directory):
-        file_path = os.path.join(city_zip_directory, file)
-        if (zipfile.is_zipfile(file_path) and city_match(file_path, city)):
-            with zipfile.ZipFile(file_path, mode="r") as archive:
-                archive.extractall(utils.get_raw_files_directory(city))
+            return any(word in file_path for word in constants.config[city]['file_matcher']) 
+        
+    utils.unzip_city_zips(city, city_match)       
 
 def filter_filenames(filenames, args):
     matching_words = constants.config[args.city]['file_matcher']

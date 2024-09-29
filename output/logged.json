@@ -17,10 +17,10 @@
     },
     "boston": {
         "final_data": {
-            "total_rows": 22196759,
-            "null_rows": 21255,
+            "total_rows": 23271616,
+            "null_rows": 23411,
             "percent_null": 0.1,
-            "updated_at": "2024-07-05 22:43:10"
+            "updated_at": "2024-09-28 21:40:19"
         }
     },
     "columbus": {
@@ -109,6 +109,14 @@
             "null_rows": 838508,
             "percent_null": 0.84,
             "updated_at": "2024-07-28 17:20:48"
+        }
+    },
+    "montreal": {
+        "final_data": {
+            "total_rows": 64445475,
+            "null_rows": 194392,
+            "percent_null": 0.3,
+            "updated_at": "2024-09-28 21:18:42"
         }
     }
 }
