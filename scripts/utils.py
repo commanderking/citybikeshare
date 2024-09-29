@@ -3,6 +3,8 @@ import sys
 import json
 from datetime import timedelta, datetime
 import polars as pl
+import zipfile
+
 
 project_root = os.getenv('PROJECT_ROOT')
 sys.path.insert(0, project_root)
@@ -57,6 +59,18 @@ def get_csv_files(directory):
                 csv_path = os.path.join(root, file)
                 trip_files.append(csv_path) 
     return trip_files
+
+def match_all_city_files(file_path, city):
+    return True
+
+def unzip_city_zips(city, city_matcher=match_all_city_files):
+    city_zip_directory = get_zip_directory(city)
+    for file in os.listdir(city_zip_directory):
+        file_path = os.path.join(city_zip_directory, file)
+        if (zipfile.is_zipfile(file_path) and city_matcher(file_path, city)):
+            with zipfile.ZipFile(file_path, mode="r") as archive:
+                print(file_path)
+                archive.extractall(get_raw_files_directory(city))
 
 def get_recent_year_df(df):
     """Returns all rows one year from the last date"""
