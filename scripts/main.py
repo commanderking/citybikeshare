@@ -35,14 +35,8 @@ def setup_argparse():
 
 def build_all_trips_file():
     args = setup_argparse()
-    
     city = args.city
     
-    ### Check zip files --> If not, tell user to sync zip files for city
-    ### Unzip files - filter files based on some function 
-    ### read files and compile into df - need to allow custom logic of how to handle columns
-    ### write files to final location - logging of relevant information 
-        
     if city in constants.US_CITIES:
         usa_utils.build_all_trips(args)
 
@@ -57,7 +51,6 @@ def build_all_trips_file():
     
     if city == "mexico_city":
         mexico_city.build_trips(args)
-
 
 if __name__ == "__main__":
     build_all_trips_file()

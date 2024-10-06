@@ -92,9 +92,7 @@ def create_all_trips_df():
             all_dfs.append(df.select(final_columns))
             
     all_trips = pl.concat(all_dfs, how="diagonal")
-    
     return all_trips
-
 
 def build_trips(args):
     if not args.skip_unzip:

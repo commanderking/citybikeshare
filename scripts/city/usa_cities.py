@@ -107,7 +107,7 @@ def format_and_concat_files(trip_files, args):
     return pl.concat(file_dataframes)
 
 def extract_zip_files(city):
-    print(f'unzipping {city} trip files')    
+    print(f'unzipping {city} trip files')
     def city_match(file_path, city):
         if city == "nyc":
             # JC files are duplicates of other files, but contain a more limited set of columns
