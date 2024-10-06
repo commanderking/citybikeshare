@@ -82,6 +82,19 @@ def get_recent_year_df(df):
     
     return last_year_df
 
+def convert_date_columns_to_datetime(date_column_names, date_formats):
+    def inner(df):
+        df = df.with_columns([
+            pl.coalesce([
+                # Replace . and everything that follows with empty string. Some Boston dates have milliseconds
+                df[date_column].str.replace(r"\.\d+", "").str.strptime(pl.Datetime, format, strict=False)
+                for format in date_formats
+            ]).alias(date_column) for date_column in date_column_names
+        ])
+        return df
+    return inner
+    
+
 def create_all_trips_file(df, args):
     all_trips_path = get_all_trips_path(args)
     if args.csv:
@@ -160,3 +173,4 @@ def assess_null_data(df):
         null_count = df.select(pl.col(header).is_null().sum()).item()
         if (null_count != 0):
             print(f'{header} has {null_count} rows with null values')
+    return df
