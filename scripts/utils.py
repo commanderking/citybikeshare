@@ -4,6 +4,7 @@ import json
 from datetime import timedelta, datetime
 import polars as pl
 import zipfile
+import constants
 
 
 project_root = os.getenv('PROJECT_ROOT')
@@ -71,6 +72,45 @@ def unzip_city_zips(city, city_matcher=match_all_city_files):
             with zipfile.ZipFile(file_path, mode="r") as archive:
                 print(file_path)
                 archive.extractall(get_raw_files_directory(city))
+
+def read_file(file_path):
+    try:
+        df = pl.read_csv(file_path)
+        return df
+    except Exception as e:
+        print(f"CSV read failed with error: {e}. Attempting to read as Excel...")
+        try:
+            df = pl.read_excel(file_path)
+        except Exception as e:
+            raise ValueError(f"Failed to read file as CSV or Excel: {e}")
+    print(df)
+    return df
+
+def get_applicable_columns_mapping(df, rename_dict):
+    # Filter the rename dictionary to include only columns that exist in the DataFrame
+    existing_columns = df.columns
+    filtered_rename_dict = {old: new for old, new in rename_dict.items() if old in existing_columns}
+
+    return filtered_rename_dict
+
+
+def rename_columns(args, mappings, final_column_headers=constants.final_columns):
+    def inner(df):
+        headers = df.columns
+        print(headers)
+        applicable_renamed_columns = []
+        
+        # TODO: This should be more robust - theoretically, multiple column mappings could match and the 
+        # last match would be the mapping used
+        for mapping in mappings:
+            if (mapping["header_matcher"] in headers):
+                applicable_renamed_columns = get_applicable_columns_mapping(df, mapping["mapping"])
+                final_columns = mapping.get("final_columns", final_column_headers)
+                renamed_df = df.rename(applicable_renamed_columns).select(final_columns)
+                return renamed_df
+        raise ValueError(f'We could not rename the columns because no valid column mappings for {args.city} match the data! The headers we found are: {df.columns}')
+    
+    return inner
 
 def get_recent_year_df(df):
     """Returns all rows one year from the last date"""
@@ -148,6 +188,8 @@ def log_final_results(df, args):
             pl.any_horizontal(pl.all().is_null())
         )
     )
+    
+    print(df_null_rows)
     
     current_time =  datetime.now() 
     formatted_time = current_time.strftime('%Y-%m-%d %H:%M:%S')

@@ -1,0 +1,101 @@
+import os
+import sys
+import datetime
+import polars as pl
+from playwright.sync_api import sync_playwright
+
+project_root = os.getenv('PROJECT_ROOT')
+sys.path.insert(0, project_root)
+import scripts.utils as utils
+
+renamed_columns_2024 = {
+    "Departure": "start_date",
+    "Return": "end_date",
+    "Bike": "bike_id",
+    "Electric bike": "is_electric_bike",
+    "Departure station": "start_station_name",
+    "Return station": "end_station_name",
+    "Membership type": "membership_type",
+    "Covered distance (m)": "covered_distance_meters",
+    "Duration (sec.)": "duration",
+    "Stopover duration (sec.)": "stopover_duration",
+    "Number of stopovers": "stopover_count"
+}
+
+date_columns = ["start_date", "end_date"]
+
+config = {
+    "name": "vancouver",
+    "file_matcher": ["Mobi_System_Data"],
+    "column_mappings": [{
+        "header_matcher": "Departure",
+        "mapping": renamed_columns_2024
+    }]
+}
+
+# ZIP_DIRECTORY = utils.get_zip_directory("vancouver")
+OPEN_DATA_URL = "https://www.mobibikes.ca/en/system-data"
+CSV_PATH = utils.get_raw_files_directory("vancouver")
+date_formats = ["%Y-%m-%d %H:%M:%S", "%Y-%m-%d %H:%M"]
+
+def run_get_exports(playwright, url, csv_path):
+    browser = playwright.chromium.launch(headless=True)
+    context = browser.new_context(accept_downloads=True)
+    page = context.new_page()
+
+    page.goto(url)
+    
+    links = page.query_selector_all("a")
+    page.locator("#axeptio_btn_dismiss").click()
+
+    for link in links:
+        href = link.get_attribute("href")
+        if href and "drive.google.com" in href:
+            print(f"Clicking on link with href: {href}")
+
+
+            # Create a new page manually
+            new_page = context.new_page()
+            new_page.goto(href)
+            new_page.wait_for_load_state()  # Wait for the new page to load
+            
+            with new_page.expect_download() as download_info:
+                # Perform the action that initiates download
+                new_page.get_by_label("Download", exact=True).click()
+            download = download_info.value
+            download.save_as(os.path.join(csv_path, download.suggested_filename))
+    browser.close()
+    
+    ### TODO: Convert 2017.xls file to csv
+
+def format_files(files, args):
+    mappings = config['column_mappings']
+
+    dfs = []
+    for file in files:
+        print(file)
+        df = (
+            pl.read_csv(file, infer_schema_length=0, dtypes={"Covered distance (m)": pl.Float64}, encoding="utf8-lossy")
+            .pipe(utils.rename_columns(args, mappings, final_column_headers=["start_date", "end_date", "duration", "start_station_name", "end_station_name"]))
+            .pipe(utils.assess_null_data)
+            .pipe(utils.convert_date_columns_to_datetime(date_columns, ["%Y-%m-%d %H:%M"]))
+        )
+        dfs.append(df)  
+    return pl.concat(dfs)
+
+def build_trips(args):
+    print("building trips")
+    # No unzipping needed - files already downloaded as csv
+    files = utils.get_csv_files(CSV_PATH)
+    df = format_files(files, args)
+    utils.create_all_trips_file(df, args)
+    # utils.create_recent_year_file(df, args)
+    utils.log_final_results(df, args)
+
+
+def get_exports(url, csv_path):
+    with sync_playwright() as playwright:
+        run_get_exports(playwright, url, csv_path)
+
+if __name__ == "__main__":
+    get_exports(OPEN_DATA_URL, CSV_PATH)

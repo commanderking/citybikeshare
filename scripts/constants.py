@@ -246,7 +246,6 @@ chattanooga_bicycle_transit_system = {
     "TripDurationMin": "duration_minutes"
 }
 
-
 final_columns = ["start_time", "end_time", "start_station_name", "end_station_name"]
 
 bicycle_transit_systems_final_columns = ["start_time", "end_time", "start_station_id", "end_station_id"]
@@ -442,6 +441,6 @@ config = {
 
 US_CITIES = list(config.keys())
 
-GLOBAL_CITIES = ["taipei", "toronto", "mexico_city", "montreal"]
+GLOBAL_CITIES = ["taipei", "toronto", "mexico_city", "montreal", "vancouver"]
 
 ALL_CITIES = US_CITIES + GLOBAL_CITIES

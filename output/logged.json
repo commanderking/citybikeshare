@@ -100,7 +100,7 @@
             "total_rows": 623469,
             "null_rows": 2134,
             "percent_null": 0.34,
-            "updated_at": "2024-10-05 20:38:20"
+            "updated_at": "2024-10-06 10:09:39"
         }
     },
     "mexico_city": {
@@ -117,6 +117,14 @@
             "null_rows": 194392,
             "percent_null": 0.3,
             "updated_at": "2024-10-05 20:49:17"
+        }
+    },
+    "vancouver": {
+        "final_data": {
+            "total_rows": 5797369,
+            "null_rows": 1126379,
+            "percent_null": 19.43,
+            "updated_at": "2024-10-06 11:51:20"
         }
     }
 }
