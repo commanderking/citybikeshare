@@ -35,9 +35,8 @@ def setup_argparse():
 
 def build_all_trips_file():
     args = setup_argparse()
-    
     city = args.city
-        
+    
     if city in constants.US_CITIES:
         usa_utils.build_all_trips(args)
 
@@ -52,7 +51,6 @@ def build_all_trips_file():
     
     if city == "mexico_city":
         mexico_city.build_trips(args)
-
 
 if __name__ == "__main__":
     build_all_trips_file()

@@ -11,6 +11,7 @@ import scripts.utils as utils
 CSV_PATH = utils.get_zip_directory("montreal")
 OPEN_DATA_URL = "https://bixi.com/en/open-data/"
 MONTREAL_CSV_PATHS = utils.get_raw_files_directory("montreal")
+date_formats = ["%Y-%m-%d %H:%M:%S", "%Y-%m-%d %H:%M"]
 
 def run_get_exports(playwright, url, csv_path):
     browser = playwright.chromium.launch(headless=True)
@@ -86,18 +87,12 @@ def create_all_trips_df():
             if "start_ms" in post_rename_headers:
                 df = df.with_columns([pl.from_epoch("start_ms", time_unit="ms").alias("start_time"), pl.from_epoch("end_ms", time_unit="ms").alias("end_time")])
             df = df.with_columns([pl.col("start_station_name").cast(pl.String), pl.col("end_station_name").cast(pl.String)])
-            date_formats = ["%Y-%m-%d %H:%M:%S", "%Y-%m-%d %H:%M"]
-            df = df.with_columns([
-                pl.coalesce([pl.col("start_time").str.replace(r"\.\d+", "").str.strptime(pl.Datetime, format, strict=False) for format in date_formats]),
-                pl.coalesce([pl.col("end_time").str.replace(r"\.\d+", "").str.strptime(pl.Datetime, format, strict=False) for format in date_formats]),
-            ])
-
+            
+            df = utils.convert_date_columns_to_datetime(["start_time", "end_time"], date_formats)(df)
             all_dfs.append(df.select(final_columns))
             
     all_trips = pl.concat(all_dfs, how="diagonal")
-    
     return all_trips
-
 
 def build_trips(args):
     if not args.skip_unzip:

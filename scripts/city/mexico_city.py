@@ -144,7 +144,6 @@ def build_trips(args):
     df = create_df_with_all_trips(MEXICO_CSVS_PATH)
     utils.create_all_trips_file(df, args)
     utils.log_final_results(df, args)
-    utils.create_all_trips_file(df, args)
     utils.create_recent_year_file(df, args)
 
 
