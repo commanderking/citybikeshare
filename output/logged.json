@@ -20,7 +20,7 @@
             "total_rows": 23271616,
             "null_rows": 23411,
             "percent_null": 0.1,
-            "updated_at": "2024-10-05 20:31:41"
+            "updated_at": "2024-10-06 13:26:20"
         }
     },
     "columbus": {
@@ -100,7 +100,7 @@
             "total_rows": 623469,
             "null_rows": 2134,
             "percent_null": 0.34,
-            "updated_at": "2024-10-06 10:09:39"
+            "updated_at": "2024-10-06 21:05:08"
         }
     },
     "mexico_city": {
@@ -121,10 +121,10 @@
     },
     "vancouver": {
         "final_data": {
-            "total_rows": 5797369,
-            "null_rows": 1126379,
-            "percent_null": 19.43,
-            "updated_at": "2024-10-06 11:51:20"
+            "total_rows": 6371075,
+            "null_rows": 241138,
+            "percent_null": 3.78,
+            "updated_at": "2024-10-06 21:07:17"
         }
     }
 }

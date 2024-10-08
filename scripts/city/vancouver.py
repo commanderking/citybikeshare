@@ -23,7 +23,7 @@ renamed_columns_2024 = {
 }
 
 date_columns = ["start_date", "end_date"]
-
+final_column_headers = ["start_date", "end_date", "duration", "start_station_name", "end_station_name"]
 config = {
     "name": "vancouver",
     "file_matcher": ["Mobi_System_Data"],
@@ -36,7 +36,7 @@ config = {
 # ZIP_DIRECTORY = utils.get_zip_directory("vancouver")
 OPEN_DATA_URL = "https://www.mobibikes.ca/en/system-data"
 CSV_PATH = utils.get_raw_files_directory("vancouver")
-date_formats = ["%Y-%m-%d %H:%M:%S", "%Y-%m-%d %H:%M"]
+date_formats = ["%Y-%m-%d %H:%M" , "%m/%d/%Y %H:%M"]
 
 def run_get_exports(playwright, url, csv_path):
     browser = playwright.chromium.launch(headless=True)
@@ -75,10 +75,19 @@ def format_files(files, args):
     for file in files:
         print(file)
         df = (
-            pl.read_csv(file, infer_schema_length=0, dtypes={"Covered distance (m)": pl.Float64}, encoding="utf8-lossy")
-            .pipe(utils.rename_columns(args, mappings, final_column_headers=["start_date", "end_date", "duration", "start_station_name", "end_station_name"]))
+            # There is a ascii encoding for: 0099 ax��YnYq Xwtl'e7�n5 Square - Vancouver Art Gallery, which requires encoding="utf8-lossy"
+            pl.read_csv(
+                file, 
+                infer_schema_length=0,
+                dtypes={"Covered distance (m)": pl.Float64},
+                encoding="utf8-lossy")
+            .pipe(utils.rename_columns(args, mappings, final_column_headers=final_column_headers))
+            ## Getting some null values because some dates are not zero-padded "2020-04-01 0:00"
+            .pipe(
+                utils.convert_date_columns_to_datetime(date_columns, date_formats)
+            )
             .pipe(utils.assess_null_data)
-            .pipe(utils.convert_date_columns_to_datetime(date_columns, ["%Y-%m-%d %H:%M"]))
+
         )
         dfs.append(df)  
     return pl.concat(dfs)
@@ -89,7 +98,7 @@ def build_trips(args):
     files = utils.get_csv_files(CSV_PATH)
     df = format_files(files, args)
     utils.create_all_trips_file(df, args)
-    # utils.create_recent_year_file(df, args)
+    utils.create_recent_year_file(df, args, date_column="start_date")
     utils.log_final_results(df, args)
 
 

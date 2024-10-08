@@ -112,15 +112,17 @@ def rename_columns(args, mappings, final_column_headers=constants.final_columns)
     
     return inner
 
-def get_recent_year_df(df):
+def get_recent_year_df(date_column):
     """Returns all rows one year from the last date"""
-    max_date = df.select(pl.max("start_time")).to_series()[0]
-    one_year_ago = max_date - timedelta(days=365)
+    def inner (df):
+        max_date = df.select(pl.max(date_column)).to_series()[0]
+        one_year_ago = max_date - timedelta(days=365)
 
-    # Filter the DataFrame for the last year of data
-    last_year_df = df.filter(pl.col("start_time") >= one_year_ago)
-    
-    return last_year_df
+        # Filter the DataFrame for the last year of data
+        last_year_df = df.filter(pl.col(date_column) >= one_year_ago)
+        
+        return last_year_df
+    return inner
 
 def convert_date_columns_to_datetime(date_column_names, date_formats):
     def inner(df):
@@ -147,8 +149,8 @@ def create_all_trips_file(df, args):
         df.write_parquet(all_trips_path)
         print('parquet files created')
 
-def create_recent_year_file(df, args):
-    df = get_recent_year_df(df)
+def create_recent_year_file(df, args, date_column="start_time"):
+    df = get_recent_year_df(date_column)(df)
     recent_year_path = get_recent_year_path(args)
     if args.csv:
         print ("generating recent year csv...this will take a bit...")
