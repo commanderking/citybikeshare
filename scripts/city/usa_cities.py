@@ -5,7 +5,6 @@ import utils
 import constants
 import utils_bicycle_transit_systems
 
-default_final_columns = constants.final_columns
 date_formats = [
     "%Y-%m-%d %H:%M:%S",
     "%m/%d/%Y %H:%M:%S",
@@ -16,31 +15,17 @@ date_formats = [
     "%m/%d/%Y %I:%M:%S %p" # Austin, TX BCycle
 ]
 
-def get_applicable_columns_mapping(df, rename_dict):
-    # Filter the rename dictionary to include only columns that exist in the DataFrame
-    existing_columns = df.columns
-    filtered_rename_dict = {old: new for old, new in rename_dict.items() if old in existing_columns}
-
-    return filtered_rename_dict
-
-def rename_columns(args):
-    def inner(df):
-        city = args.city
-        mappings = constants.config[city]['column_mappings']
-        headers = df.columns
-        applicable_renamed_columns = []
-        
-        # TODO: This should be more robust - theoretically, multiple column mappings could match and the 
-        # last match would be the mapping used
-        for mapping in mappings:
-            if (mapping["header_matcher"] in headers):
-                applicable_renamed_columns = get_applicable_columns_mapping(df, mapping["mapping"])
-                final_columns = mapping.get("final_columns", default_final_columns)
-                renamed_df = df.rename(applicable_renamed_columns).select(final_columns)
-                return renamed_df
-        raise ValueError(f'We could not rename the columns because no valid column mappings for {city} match the data! The headers we found are: {df.columns}')
-    
-    return inner
+def filter_filenames(filenames, args):
+    matching_words = constants.config[args.city]['file_matcher']
+    excluded_filenames = constants.config.get(args.city, {}).get('excluded_filenames', [])
+    # os.path.basename - Chicago files have a stations_and_trips folder, which creates a csv for stations. I don't want to include this stations csv in our checks, so filtering on just the filename not folder
+    files = [filename for filename in filenames 
+        if any(word in os.path.basename(filename) for word in matching_words)
+        ### NYC use case where csv files in 2018 can duplicated. We need to explicitly ignore the duplicates
+        ### By filtering out their files
+        and not any(partial_filename in filename for partial_filename in excluded_filenames)
+    ]
+    return files
 
 def austin_check(args):
     def inner(df):
@@ -80,7 +65,8 @@ def offset_two_digit_years(df):
 
 def format_and_concat_files(trip_files, args):
     """Get correct column data structures"""
-    
+    mappings = constants.config[args.city]['column_mappings']
+
     print("adding files to polars df")
     file_dataframes = []
     
@@ -92,7 +78,8 @@ def format_and_concat_files(trip_files, args):
         # print(df_start_time)
         df = (
             pl.read_csv(file, infer_schema_length=0)
-            .pipe(rename_columns(args)).pipe(utils.assess_null_data)
+            .pipe(utils.rename_columns(args, mappings))
+            .pipe(utils.assess_null_data)
             ### TODO - move this to configuration for preprocessing. Austin doesn't have end_time so we need to calculate before casting times
             .pipe(austin_check(args))
             .pipe(utils.convert_date_columns_to_datetime(["start_time", "end_time"], date_formats))
@@ -115,19 +102,6 @@ def extract_zip_files(city):
         else:
             return any(word in file_path for word in constants.config[city]['file_matcher'])
     utils.unzip_city_zips(city, city_match)       
-
-def filter_filenames(filenames, args):
-    matching_words = constants.config[args.city]['file_matcher']
-    excluded_filenames = constants.config.get(args.city, {}).get('excluded_filenames', [])
-    # os.path.basename - Chicago files have a stations_and_trips folder, which creates a csv for stations. I don't want to include this stations csv in our checks, so filtering on just the filename not folder
-    files = [filename for filename in filenames 
-        if any(word in os.path.basename(filename) for word in matching_words)
-        ### NYC use case where csv files in 2018 can duplicated. We need to explicitly ignore the duplicates
-        ### By filtering out their files
-        and not any(partial_filename in filename for partial_filename in excluded_filenames)
-    ]
-    return files
-
 
 def build_all_trips(args):
     source_directory = utils.get_raw_files_directory(args.city)

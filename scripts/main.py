@@ -6,6 +6,7 @@ import city.taipei as taipei
 import city.toronto as toronto
 import city.mexico_city as mexico_city
 import city.montreal as montreal
+import city.vancouver as vancouver
 import constants
 project_root = os.getenv('PROJECT_ROOT')
 sys.path.insert(0, project_root)
@@ -37,6 +38,9 @@ def build_all_trips_file():
     args = setup_argparse()
     city = args.city
     
+    if city == "vancouver":
+        vancouver.build_trips(args)
+        
     if city in constants.US_CITIES:
         usa_utils.build_all_trips(args)
 
@@ -51,6 +55,5 @@ def build_all_trips_file():
     
     if city == "mexico_city":
         mexico_city.build_trips(args)
-
 if __name__ == "__main__":
     build_all_trips_file()

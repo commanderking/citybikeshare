@@ -128,3 +128,15 @@ Mexico City Issues
 ### Resources 
 
 - https://bikeshare-research.org/#/
+
+## Tentative Ranking Rubric
+
+### Data Consistency
+- Consistent column headers naming throughout the years 
+
+### Data Variety 
+- How much data do they expose? Stop times? Membership type? 
+
+### Unique areas 
+- Do they do things that others don't? 
+- Make ride times anonymous (Taipei and Vancouver) 

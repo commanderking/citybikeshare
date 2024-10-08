@@ -4,6 +4,7 @@ import json
 from datetime import timedelta, datetime
 import polars as pl
 import zipfile
+import constants
 
 
 project_root = os.getenv('PROJECT_ROOT')
@@ -72,15 +73,42 @@ def unzip_city_zips(city, city_matcher=match_all_city_files):
                 print(file_path)
                 archive.extractall(get_raw_files_directory(city))
 
-def get_recent_year_df(df):
-    """Returns all rows one year from the last date"""
-    max_date = df.select(pl.max("start_time")).to_series()[0]
-    one_year_ago = max_date - timedelta(days=365)
+def get_applicable_columns_mapping(df, rename_dict):
+    # Filter the rename dictionary to include only columns that exist in the DataFrame
+    existing_columns = df.columns
+    filtered_rename_dict = {old: new for old, new in rename_dict.items() if old in existing_columns}
 
-    # Filter the DataFrame for the last year of data
-    last_year_df = df.filter(pl.col("start_time") >= one_year_ago)
+    return filtered_rename_dict
+
+
+def rename_columns(args, mappings, final_column_headers=constants.final_columns):
+    def inner(df):
+        headers = df.columns
+        applicable_renamed_columns = []
+        
+        # TODO: This should be more robust - theoretically, multiple column mappings could match and the 
+        # last match would be the mapping used
+        for mapping in mappings:
+            if (mapping["header_matcher"] in headers):
+                applicable_renamed_columns = get_applicable_columns_mapping(df, mapping["mapping"])
+                final_columns = mapping.get("final_columns", final_column_headers)
+                renamed_df = df.rename(applicable_renamed_columns).select(final_columns)
+                return renamed_df
+        raise ValueError(f'We could not rename the columns because no valid column mappings for {args.city} match the data! The headers we found are: {df.columns}')
     
-    return last_year_df
+    return inner
+
+def get_recent_year_df(date_column):
+    """Returns all rows one year from the last date"""
+    def inner (df):
+        max_date = df.select(pl.max(date_column)).to_series()[0]
+        one_year_ago = max_date - timedelta(days=365)
+
+        # Filter the DataFrame for the last year of data
+        last_year_df = df.filter(pl.col(date_column) >= one_year_ago)
+        
+        return last_year_df
+    return inner
 
 def convert_date_columns_to_datetime(date_column_names, date_formats):
     def inner(df):
@@ -107,8 +135,8 @@ def create_all_trips_file(df, args):
         df.write_parquet(all_trips_path)
         print('parquet files created')
 
-def create_recent_year_file(df, args):
-    df = get_recent_year_df(df)
+def create_recent_year_file(df, args, date_column="start_time"):
+    df = get_recent_year_df(date_column)(df)
     recent_year_path = get_recent_year_path(args)
     if args.csv:
         print ("generating recent year csv...this will take a bit...")
