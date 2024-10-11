@@ -86,6 +86,9 @@ def format_files(files, args):
             .pipe(
                 utils.convert_date_columns_to_datetime(date_columns, date_formats)
             )
+            .with_columns([
+                pl.col("duration_seconds").cast(pl.Int64)
+            ])
             .pipe(utils.assess_null_data)
 
         )

@@ -166,7 +166,6 @@ def log_final_results(df, args):
     except:
         print("No logging file found, will create new one.")
 
-
     headers = df.columns
     for header in headers:
         null_count = df.select(pl.col(header).is_null().sum()).item()
