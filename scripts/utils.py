@@ -38,8 +38,9 @@ def get_output_directory():
     path.mkdir(parents=True, exist_ok=True)
     return path
 
+
 def get_analysis_directory():
-    path = get_output_directory() / 'analysis'
+    path = definitions.ANALYSIS_DIR
     path.mkdir(parents=True, exist_ok=True)
     return path
         
