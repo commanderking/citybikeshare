@@ -89,6 +89,7 @@ def format_files(files, args):
             .with_columns([
                 pl.col("duration_seconds").cast(pl.Int64)
             ])
+            .pipe(utils.offset_two_digit_years)
             .pipe(utils.assess_null_data)
 
         )

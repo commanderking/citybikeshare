@@ -50,19 +50,6 @@ def process_bicycle_transit_system(args):
         return df 
     return inner
 
-# Know this applies to Philadelphia
-def offset_two_digit_years(df):
-    return df.with_columns([
-        pl.when(pl.col('start_time').dt.year() < 100)
-            .then(pl.col('start_time').dt.offset_by('2000y'))
-            .otherwise(pl.col('start_time'))
-            .alias('start_time'),
-        pl.when(pl.col('end_time').dt.year() < 100)
-            .then(pl.col('end_time').dt.offset_by('2000y'))
-            .otherwise(pl.col('end_time'))
-            .alias('end_time')
-    ])
-
 def format_and_concat_files(trip_files, args):
     """Get correct column data structures"""
     mappings = constants.config[args.city]['column_mappings']
@@ -83,7 +70,7 @@ def format_and_concat_files(trip_files, args):
             ### TODO - move this to configuration for preprocessing. Austin doesn't have end_time so we need to calculate before casting times
             .pipe(austin_check(args))
             .pipe(utils.convert_date_columns_to_datetime(["start_time", "end_time"], date_formats))
-            .pipe(offset_two_digit_years)
+            .pipe(utils.offset_two_digit_years)
             # TODO: This station name mapping should apply to all stations
             # May want to make this configuration based rather than explicit city checks here
             .pipe(process_bicycle_transit_system(args))

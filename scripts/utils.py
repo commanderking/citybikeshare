@@ -124,7 +124,20 @@ def convert_date_columns_to_datetime(date_column_names, date_formats):
         ])
         return df
     return inner
-    
+
+
+# Know this applies to Philadelphia, Mexico City, and Vancouver
+def offset_two_digit_years(df):
+    return df.with_columns([
+        pl.when(pl.col('start_time').dt.year() < 100)
+            .then(pl.col('start_time').dt.offset_by('2000y'))
+            .otherwise(pl.col('start_time'))
+            .alias('start_time'),
+        pl.when(pl.col('end_time').dt.year() < 100)
+            .then(pl.col('end_time').dt.offset_by('2000y'))
+            .otherwise(pl.col('end_time'))
+            .alias('end_time')
+    ])
 
 def create_all_trips_file(df, args):
     all_trips_path = get_all_trips_path(args)

@@ -131,7 +131,8 @@ def create_df_with_all_trips(folder_path):
         ]).with_columns([
             pl.col("start_date").dt.combine(pl.col("starting_time")).alias("start_time"),
             pl.col("end_date").dt.combine(pl.col("ending_time")).alias("end_time")
-        ])
+        ]).pipe(utils.offset_two_digit_years)
+
         df = df.select(["start_time", "end_time", "start_date", "end_date", "starting_time", "ending_time"])
         dataframes.append(df)
 
