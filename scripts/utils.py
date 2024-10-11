@@ -4,7 +4,10 @@ import json
 from datetime import timedelta, datetime
 import polars as pl
 import zipfile
-import constants
+project_root = os.getenv('PROJECT_ROOT')
+sys.path.insert(0, project_root)
+
+import scripts.constants as constants
 
 
 project_root = os.getenv('PROJECT_ROOT')

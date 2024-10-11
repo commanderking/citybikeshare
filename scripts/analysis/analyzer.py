@@ -46,7 +46,6 @@ def get_all_cities_trip_per_year(cities):
     return all_cities_df
 
 def output_recent_dates(cities):
-    
     most_recent_dates = []
     for city in cities:
         print(f'reading {city} parquet')

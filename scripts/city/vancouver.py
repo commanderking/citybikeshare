@@ -9,21 +9,21 @@ sys.path.insert(0, project_root)
 import scripts.utils as utils
 
 renamed_columns_2024 = {
-    "Departure": "start_date",
-    "Return": "end_date",
+    "Departure": "start_time",
+    "Return": "end_time",
     "Bike": "bike_id",
     "Electric bike": "is_electric_bike",
     "Departure station": "start_station_name",
     "Return station": "end_station_name",
     "Membership type": "membership_type",
     "Covered distance (m)": "covered_distance_meters",
-    "Duration (sec.)": "duration",
+    "Duration (sec.)": "duration_seconds",
     "Stopover duration (sec.)": "stopover_duration",
     "Number of stopovers": "stopover_count"
 }
 
-date_columns = ["start_date", "end_date"]
-final_column_headers = ["start_date", "end_date", "duration", "start_station_name", "end_station_name"]
+date_columns = ["start_time", "end_time"]
+final_column_headers = ["start_time", "end_time", "duration_seconds", "start_station_name", "end_station_name"]
 config = {
     "name": "vancouver",
     "file_matcher": ["Mobi_System_Data"],
@@ -98,7 +98,7 @@ def build_trips(args):
     files = utils.get_csv_files(CSV_PATH)
     df = format_files(files, args)
     utils.create_all_trips_file(df, args)
-    utils.create_recent_year_file(df, args, date_column="start_date")
+    utils.create_recent_year_file(df, args, date_column="start_time")
     utils.log_final_results(df, args)
 
 
