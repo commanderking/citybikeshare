@@ -64,13 +64,14 @@ def create_df_with_all_trips(folder_path, raw_columns):
             pl.col("end_time").str.to_datetime("%Y-%m-%d %H:%M:%S"),
             ### map_batches is not ideal, but using to_time is not an option because hours can go over 24. 
             ### This is more efficient than the previous approach of: str.split(":").apply(time_to_seconds, return_dtype=pl.Int32).alias("duration")
-            pl.col("rent").map_batches(toSeconds, return_dtype=pl.Int64)
+            pl.col("rent").map_batches(toSeconds, return_dtype=pl.Int64),
+        ]).with_columns([
+            pl.col("rent").alias("duration_seconds").cast(pl.Int64)
         ]).drop("rent", "info_date")
         dataframes.append(df)
 
     combined_df = pl.concat(dataframes)
     return combined_df
-
 
 ### CSV files often have non-ASCII characters (i.e. 202403_YouBike2.0≤º√“®Í•d∏ÍÆ∆.csv)
 def clean_filename(filename):
