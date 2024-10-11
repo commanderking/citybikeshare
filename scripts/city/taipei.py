@@ -69,8 +69,6 @@ def create_df_with_all_trips(folder_path, raw_columns):
             pl.col("rent").alias("duration_seconds").cast(pl.Int64)
         ]).drop("rent", "info_date")
         dataframes.append(df)
-        
-        print (df)
 
     combined_df = pl.concat(dataframes)
     return combined_df
