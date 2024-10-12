@@ -42,7 +42,7 @@ By default, a parquet file for your selected city wil lbe generated in the `data
 pipenv run build [city] --csv
 ```
 
-#### Steps in the script
+#### Steps in creating a parquet file for a city's bikeshare data
 
 The general procedure to clean the data in any city is:
 

@@ -40,14 +40,20 @@ def get_trips_per_year(city):
 def get_all_cities_trip_per_year(cities):
     print("grouping trips taken by year")
     city_dfs = [get_trips_per_year(city) for city in cities]
-    all_cities_df = pl.concat(city_dfs)
+    all_cities_df = (
+        pl.concat(city_dfs)
+        .sort("system", "year")
+    )
     
     # Write the result to a JSON file
-    output_path = utils.get_analysis_directory() / "trips_per_year.json"
-    all_cities_df.write_json(output_path, row_oriented=True)
-    
-    return all_cities_df
+    json_string = all_cities_df.write_json(row_oriented=True)
+    json_data = json.loads(json_string)
 
+    output_path = utils.get_analysis_directory() / "trips_per_year.json"
+    with open(output_path, 'w', encoding='utf-8') as file:
+        json.dump(json_data, file, indent=4)  
+
+    return all_cities_df
 
 def output_recent_dates(cities):
     print("determining most recent trip taken")

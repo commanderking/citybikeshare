@@ -1,0 +1,66 @@
+[
+    {
+        "system": "columbus",
+        "latest_trip": "2024-07-01"
+    },
+    {
+        "system": "chicago",
+        "latest_trip": "2024-07-02"
+    },
+    {
+        "system": "boston",
+        "latest_trip": "2024-08-31"
+    },
+    {
+        "system": "dc",
+        "latest_trip": "2024-06-30"
+    },
+    {
+        "system": "nyc",
+        "latest_trip": "2024-06-02"
+    },
+    {
+        "system": "sf",
+        "latest_trip": "2024-07-01"
+    },
+    {
+        "system": "philadelphia",
+        "latest_trip": "2024-07-09"
+    },
+    {
+        "system": "pittsburgh",
+        "latest_trip": "2024-07-01"
+    },
+    {
+        "system": "los_angeles",
+        "latest_trip": "2024-07-01"
+    },
+    {
+        "system": "austin",
+        "latest_trip": "2024-01-31"
+    },
+    {
+        "system": "chattanooga",
+        "latest_trip": "2022-06-06"
+    },
+    {
+        "system": "taipei",
+        "latest_trip": "2026-08-27"
+    },
+    {
+        "system": "toronto",
+        "latest_trip": "2024-02-05"
+    },
+    {
+        "system": "mexico_city",
+        "latest_trip": "2024-06-30"
+    },
+    {
+        "system": "montreal",
+        "latest_trip": "2024-09-17"
+    },
+    {
+        "system": "vancouver",
+        "latest_trip": "2024-10-01"
+    }
+]

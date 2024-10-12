@@ -4,7 +4,7 @@
             "total_rows": 7352332,
             "null_rows": 51,
             "percent_null": 0.0,
-            "updated_at": "2024-10-05 20:44:18"
+            "updated_at": "2024-10-11 14:35:06"
         }
     },
     "pittsburgh": {
@@ -105,10 +105,10 @@
     },
     "mexico_city": {
         "final_data": {
-            "total_rows": 99937448,
-            "null_rows": 838508,
-            "percent_null": 0.84,
-            "updated_at": "2024-07-28 17:20:48"
+            "total_rows": 100946389,
+            "null_rows": 838522,
+            "percent_null": 0.83,
+            "updated_at": "2024-10-11 14:39:07"
         }
     },
     "montreal": {
@@ -124,7 +124,7 @@
             "total_rows": 6371075,
             "null_rows": 241138,
             "percent_null": 3.78,
-            "updated_at": "2024-10-11 13:05:35"
+            "updated_at": "2024-10-11 14:35:48"
         }
     }
 }
