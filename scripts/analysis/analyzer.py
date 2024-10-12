@@ -48,15 +48,12 @@ def get_all_cities_trip_per_year(cities):
     # Write the result to a JSON file
     json_string = all_cities_df.write_json(row_oriented=True)
     json_data = json.loads(json_string)
-    print(json_data)
 
     output_path = utils.get_analysis_directory() / "trips_per_year.json"
-
     with open(output_path, 'w', encoding='utf-8') as file:
         json.dump(json_data, file, indent=4)  
 
     return all_cities_df
-
 
 def output_recent_dates(cities):
     print("determining most recent trip taken")
