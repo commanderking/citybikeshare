@@ -7,7 +7,7 @@ Currently, data is available for:
 | City          | Source |
 | -----------   | ----------- |
 | Austin        | <https://data.austintexas.gov/Transportation-and-Mobility/Austin-MetroBike-Trips/tyfh-5r8s/about_data> |
-| Bergen        | https://bergenbysykkel.no/en/open-data/historical |
+| Bergen        | <https://bergenbysykkel.no/en/open-data/historical> |
 | Boston        | <https://bluebikes.com/system-data>  |
 | Chattanooga   | <https://internal.chattadata.org/Recreation/Bike-Chattanooga-Trip-Data/tdrg-39c4/about_data> | 
 | Columbus      | <https://cogobikeshare.com/system-data> |

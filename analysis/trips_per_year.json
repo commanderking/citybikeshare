@@ -108,6 +108,69 @@
         "system": "austin"
     },
     {
+        "year": 2018,
+        "trip_count": 103744,
+        "mean_duration": 892.557179210364,
+        "first_quantile_duration": 330.0,
+        "median_duration": 505.0,
+        "third_quantile_duration": 773.0,
+        "system": "bergen"
+    },
+    {
+        "year": 2019,
+        "trip_count": 940004,
+        "mean_duration": 667.6166537589202,
+        "first_quantile_duration": 304.0,
+        "median_duration": 468.0,
+        "third_quantile_duration": 726.0,
+        "system": "bergen"
+    },
+    {
+        "year": 2020,
+        "trip_count": 1074590,
+        "mean_duration": 640.225871262528,
+        "first_quantile_duration": 305.0,
+        "median_duration": 476.0,
+        "third_quantile_duration": 732.0,
+        "system": "bergen"
+    },
+    {
+        "year": 2021,
+        "trip_count": 656883,
+        "mean_duration": 589.0062065847343,
+        "first_quantile_duration": 315.0,
+        "median_duration": 475.0,
+        "third_quantile_duration": 700.0,
+        "system": "bergen"
+    },
+    {
+        "year": 2022,
+        "trip_count": 535316,
+        "mean_duration": 592.3346789559812,
+        "first_quantile_duration": 319.0,
+        "median_duration": 477.0,
+        "third_quantile_duration": 694.0,
+        "system": "bergen"
+    },
+    {
+        "year": 2023,
+        "trip_count": 467861,
+        "mean_duration": 616.4877623909665,
+        "first_quantile_duration": 308.0,
+        "median_duration": 467.0,
+        "third_quantile_duration": 701.0,
+        "system": "bergen"
+    },
+    {
+        "year": 2024,
+        "trip_count": 341126,
+        "mean_duration": 642.565509518477,
+        "first_quantile_duration": 306.0,
+        "median_duration": 468.0,
+        "third_quantile_duration": 718.0,
+        "system": "bergen"
+    },
+    {
         "year": 2015,
         "trip_count": 1122558,
         "mean_duration": 1197.0652126660716,
@@ -1072,28 +1135,28 @@
     },
     {
         "year": 2016,
-        "trip_count": 1001218,
-        "mean_duration": 1799.7351066401122,
-        "first_quantile_duration": 330.0,
-        "median_duration": 544.0,
-        "third_quantile_duration": 978.0,
+        "trip_count": 991971,
+        "mean_duration": 1802.2958503827228,
+        "first_quantile_duration": 329.0,
+        "median_duration": 543.0,
+        "third_quantile_duration": 981.0,
         "system": "oslo"
     },
     {
         "year": 2017,
-        "trip_count": 1154864,
-        "mean_duration": 794.1013322780864,
-        "first_quantile_duration": 321.0,
-        "median_duration": 521.0,
-        "third_quantile_duration": 841.0,
+        "trip_count": 1126811,
+        "mean_duration": 793.7182730733016,
+        "first_quantile_duration": 320.0,
+        "median_duration": 519.0,
+        "third_quantile_duration": 843.0,
         "system": "oslo"
     },
     {
         "year": 2018,
-        "trip_count": 664520,
-        "mean_duration": 834.6882757479083,
-        "first_quantile_duration": 288.0,
-        "median_duration": 492.0,
+        "trip_count": 636090,
+        "mean_duration": 834.923006178371,
+        "first_quantile_duration": 286.0,
+        "median_duration": 491.0,
         "third_quantile_duration": 830.0,
         "system": "oslo"
     },
@@ -1144,8 +1207,8 @@
     },
     {
         "year": 2024,
-        "trip_count": 961882,
-        "mean_duration": 793.6921472696235,
+        "trip_count": 963438,
+        "mean_duration": 793.5192300905715,
         "first_quantile_duration": 363.0,
         "median_duration": 568.0,
         "third_quantile_duration": 883.0,
