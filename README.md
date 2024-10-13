@@ -7,6 +7,7 @@ Currently, data is available for:
 | City          | Source |
 | -----------   | ----------- |
 | Austin        | <https://data.austintexas.gov/Transportation-and-Mobility/Austin-MetroBike-Trips/tyfh-5r8s/about_data> |
+| Bergen        | https://bergenbysykkel.no/en/open-data/historical |
 | Boston        | <https://bluebikes.com/system-data>  |
 | Chattanooga   | <https://internal.chattadata.org/Recreation/Bike-Chattanooga-Trip-Data/tdrg-39c4/about_data> | 
 | Columbus      | <https://cogobikeshare.com/system-data> |
@@ -60,10 +61,6 @@ If the data has already been unzipped by running `pipenv run build`, you can ski
 https://cycling.data.tfl.gov.uk/
 
 
-### Bergen
-
-https://bergenbysykkel.no/en/open-data/historical
-
 ### Trondheim
 
 https://trondheimbysykkel.no/en/open-data/historical
@@ -105,7 +102,6 @@ https://data.gov.tw/dataset/169174
 ### Data Cleaning Challenges
 
 - Pittsburgh has one file that isn't accessible through the API
-
 
 - Philadelphia 2015 is in /15 format for year
 
