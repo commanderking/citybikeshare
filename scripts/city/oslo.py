@@ -1,9 +1,9 @@
 import os
 import sys
+import json
 import polars as pl
 from playwright.sync_api import sync_playwright
-import requests 
-import json
+import requests
 
 project_root = os.getenv('PROJECT_ROOT')
 sys.path.insert(0, project_root)
@@ -23,7 +23,6 @@ version_one_columns = {
     "ended_at": "end_time",
     "start_station_name": "start_station_name",
     "end_station_name": "end_station_name"
-    
 }
 
 legacy_columns = {
@@ -38,24 +37,19 @@ def get_stations_information():
 
     # Check if the request was successful
     if response.status_code == 200:
-        # Parse the JSON content
         json_data = response.json()
-
-        # Save the JSON data to a local file
         with open(METADATA_PATH / "station_information.json", "w") as json_file:
-            json.dump(json_data, json_file, indent=4)  # indent=4 for pretty formatting
-
+            json.dump(json_data, json_file, indent=4) 
         print(f"Downloaded JSON from url: {CURRENT_STATIONS_URL}")
     else:
         print(f"Failed to retrieve JSON. Status code: {response.status_code}")
 
-def run_get_exports(playwright, url, csv_path):
+def run_get_exports(playwright, url):
     browser = playwright.chromium.launch(headless=True)
     context = browser.new_context(accept_downloads=True)
     page = context.new_page()
         
     page.goto(url)
-    
     csv_buttons = page.locator('role=button[name="CSV"]')
     
     # Download old to new station id mapping
@@ -67,9 +61,9 @@ def run_get_exports(playwright, url, csv_path):
         download.save_as(os.path.join(METADATA_PATH, download.suggested_filename))
 
     for button in csv_buttons.all():
-        ### links are formatted as: 
-        # https://data.urbansharing.com/oslobysykkel.no/trips/v1/2019/06.csv
-        # https://data-legacy.urbansharing.com/oslobysykkel.no/2018/12.csv.zip
+        # links are formatted as: - to get unique names and not 06.csv for ever year, get text after .no/ domain
+        ## New - https://data.urbansharing.com/oslobysykkel.no/trips/v1/2019/06.csv
+        ## Legacy -  https://data-legacy.urbansharing.com/oslobysykkel.no/2018/06.csv.zip
         desired_filename = button.get_attribute("content").split(".no/")[1].replace("/", "-")
         target_folder = ZIP_PATH if desired_filename.endswith(".zip") else CSV_PATH
         with page.expect_download(timeout=120000) as download_info:
@@ -168,10 +162,10 @@ def create_all_trips_df(args):
     all_trips = pl.concat(all_dfs, how="diagonal")
     return all_trips
 
-def get_exports(url, csv_path):
+def get_exports(url):
     get_stations_information()
     with sync_playwright() as playwright:
-        run_get_exports(playwright, url, csv_path)
+        run_get_exports(playwright, url)
 
 def build_trips(args):
     if not args.skip_unzip:
@@ -184,4 +178,4 @@ def build_trips(args):
     return df
 
 if __name__ == "__main__":
-    get_exports(OPEN_DATA_URL, CSV_PATH)
+    get_exports(OPEN_DATA_URL)
