@@ -441,6 +441,6 @@ config = {
 
 US_CITIES = list(config.keys())
 
-GLOBAL_CITIES = ["taipei", "toronto", "mexico_city", "montreal", "vancouver"]
+GLOBAL_CITIES = ["taipei", "toronto", "mexico_city", "montreal", "vancouver", "oslo"]
 
 ALL_CITIES = US_CITIES + GLOBAL_CITIES

@@ -45,7 +45,6 @@ def get_all_cities_trip_per_year(cities):
         .sort("system", "year")
     )
     
-    # Write the result to a JSON file
     json_string = all_cities_df.write_json(row_oriented=True)
     json_data = json.loads(json_string)
 
@@ -62,8 +61,7 @@ def output_recent_dates(cities):
         print(f'reading {city}')
         parquet_file = f'./output/{city}_all_trips.parquet'
         
-        lazy_frame = pl.scan_parquet(parquet_file)
-        lazy_frame = lazy_frame.select(pl.max("end_time").dt.strftime('%Y-%m-%d'))
+        lazy_frame = pl.scan_parquet(parquet_file).select(pl.max("end_time").dt.strftime('%Y-%m-%d'))
         
         most_recent_dates.append({
             "system": city,
@@ -72,7 +70,7 @@ def output_recent_dates(cities):
         
     output_path = utils.get_analysis_directory() / "latest_trips.json"    
     with open(output_path, 'w', encoding='utf-8') as file:
-        json.dump(most_recent_dates, file, indent=4)  # `indent=4` is optional, but it makes the JSON pretty-printed
+        json.dump(most_recent_dates, file, indent=4)
 
 if __name__ == "__main__":
     output_recent_dates(scripts.constants.ALL_CITIES)

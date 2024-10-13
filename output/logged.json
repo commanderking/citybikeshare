@@ -126,5 +126,13 @@
             "percent_null": 3.78,
             "updated_at": "2024-10-11 14:35:48"
         }
+    },
+    "oslo": {
+        "final_data": {
+            "total_rows": 11550887,
+            "null_rows": 0,
+            "percent_null": 0.0,
+            "updated_at": "2024-10-13 00:10:52"
+        }
     }
 }
