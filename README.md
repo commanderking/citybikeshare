@@ -6,7 +6,7 @@ Currently, data is available for:
 
 | City          | Source |
 | -----------   | ----------- |
-| Austin        | https://data.austintexas.gov/Transportation-and-Mobility/Austin-MetroBike-Trips/tyfh-5r8s/about_data |
+| Austin        | <https://data.austintexas.gov/Transportation-and-Mobility/Austin-MetroBike-Trips/tyfh-5r8s/about_data> |
 | Boston        | <https://bluebikes.com/system-data>  |
 | Chattanooga   | <https://internal.chattadata.org/Recreation/Bike-Chattanooga-Trip-Data/tdrg-39c4/about_data> | 
 | Columbus      | <https://cogobikeshare.com/system-data> |
@@ -15,11 +15,13 @@ Currently, data is available for:
 | Mexico City   | <https://ecobici.cdmx.gob.mx/en/open-data/> |
 | Montreal      | <https://bixi.com/en/open-data/> |
 | NYC           | <https://citibikenyc.com/system-data> |
+| Oslo          | <https://oslobysykkel.no/en/open-data/historical> |
 | Philadelphia  | <https://www.rideindego.com/about/data/> |
 | Pittsburgh    | <https://data.wprdc.org/dataset/pogoh-trip-data> |
 | San Francisco | <https://www.lyft.com/bikes/bay-wheels/system-data> |
 | Taipei        | <https://data.gov.tw/dataset/150635> | 
 | Toronto       | <https://open.toronto.ca/dataset/bike-share-toronto-ridership-data/> |
+| Vancouver     | <https://www.mobibikes.ca/en/system-data> | 
 | Washington DC | <https://capitalbikeshare.com/system-data> | 
 
 Pittsburgh old data can be found at: https://data.wprdc.org/dataset/healthyride-trip-data
@@ -62,10 +64,6 @@ https://cycling.data.tfl.gov.uk/
 
 https://bergenbysykkel.no/en/open-data/historical
 
-### Oslo
-
-https://oslobysykkel.no/en/open-data/historical
-
 ### Trondheim
 
 https://trondheimbysykkel.no/en/open-data/historical
@@ -73,10 +71,6 @@ https://trondheimbysykkel.no/en/open-data/historical
 ### Portland
 Micromobility contains recent day: https://public.ridereport.com/pdx?x=-122.6543855&y=45.6227107&z=9.70, but individual trip data is unavailable
 https://s3.amazonaws.com/biketown-tripdata-public/index.html
-
-### Vancouver
-
-https://www.mobibikes.ca/en/system-data
 
 ### Dublin 
 - Only station data at different times

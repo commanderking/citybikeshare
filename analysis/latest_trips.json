@@ -62,5 +62,9 @@
     {
         "system": "vancouver",
         "latest_trip": "2024-10-01"
+    },
+    {
+        "system": "oslo",
+        "latest_trip": "2024-10-12"
     }
 ]

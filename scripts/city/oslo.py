@@ -136,10 +136,6 @@ def map_legacy_station_id_to_name(stations_df):
         return df
     return inner
 
-def log(df):
-    print(df)
-    return df
-
 def create_all_trips_df(args):
     files = utils.get_csv_files(CSV_PATH)
     stations_df = get_stations_df()
@@ -157,17 +153,17 @@ def create_all_trips_df(args):
                     .rename(renamed_columns)
                     .pipe(map_legacy_station_id_to_name(stations_df))
                     .select(final_columns)
-                    .pipe(log)
                     .with_columns([
                         pl.coalesce([
-                        # Replace . and everything that follows with empty string. Some Boston dates have milliseconds
                             pl.col("start_time").str.strptime(pl.Datetime, format, strict=False) for format in date_formats
+                        ]),
+                        pl.coalesce([
+                            pl.col("end_time").str.strptime(pl.Datetime, format, strict=False) for format in date_formats
                         ])
                     ])
                 
             )
             all_dfs.append(df)
-        print(df)
         
     all_trips = pl.concat(all_dfs, how="diagonal")
     return all_trips
