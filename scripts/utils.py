@@ -30,6 +30,11 @@ def get_raw_files_directory(city):
     path.mkdir(parents=True, exist_ok=True)   
     return path
 
+def get_metadata_directory(city):
+    path = definitions.DATA_DIR / city / 'metadata'  
+    path.mkdir(parents=True, exist_ok=True)   
+    return path
+
 def get_output_format(is_csv):
     return "csv" if is_csv else "parquet"
 
