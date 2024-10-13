@@ -65,6 +65,10 @@
     },
     {
         "system": "oslo",
-        "latest_trip": "2024-10-12"
+        "latest_trip": "2024-10-13"
+    },
+    {
+        "system": "bergen",
+        "latest_trip": "2024-10-13"
     }
 ]

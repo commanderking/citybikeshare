@@ -129,10 +129,18 @@
     },
     "oslo": {
         "final_data": {
-            "total_rows": 11550887,
+            "total_rows": 11486713,
             "null_rows": 0,
             "percent_null": 0.0,
-            "updated_at": "2024-10-13 00:10:52"
+            "updated_at": "2024-10-13 18:10:25"
+        }
+    },
+    "bergen": {
+        "final_data": {
+            "total_rows": 4119524,
+            "null_rows": 0,
+            "percent_null": 0.0,
+            "updated_at": "2024-10-13 10:34:35"
         }
     }
 }

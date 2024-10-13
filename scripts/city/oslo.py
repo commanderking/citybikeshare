@@ -15,7 +15,7 @@ ZIP_PATH = utils.get_zip_directory(OSLO)
 OPEN_DATA_URL = "https://oslobysykkel.no/en/open-data/historical"
 CSV_PATH = utils.get_raw_files_directory(OSLO)
 METADATA_PATH = utils.get_metadata_directory(OSLO)
-date_formats = ["%Y-%m-%d %H:%M:%S %z", "%Y-%m-%d %H:%M:%S.%f%:z"]
+date_formats = ["%Y-%m-%d %H:%M:%S %z", "%Y-%m-%d %H:%M:%S%.f%:z"]
 CURRENT_STATIONS_URL = "https://gbfs.urbansharing.com/oslobysykkel.no/station_information.json"
 
 version_one_columns = {
@@ -101,7 +101,6 @@ def map_legacy_station_id_to_name(stations_df):
 
         ### Older data does not contain duration column
         if "duration" not in headers:
-            print("remapping stations")
             station_mapping_df = (
                 pl.read_csv(METADATA_PATH / "legacy_new_station_id_mapping.csv")
             ) 
@@ -142,19 +141,17 @@ def create_all_trips_df(args):
         if not empty:
             renamed_columns = get_renamed_columns(df.columns)
             df = (
-                pl
-                    .read_csv(file)
-                    .rename(renamed_columns)
-                    .pipe(map_legacy_station_id_to_name(stations_df))
-                    .select(final_columns)
-                    .with_columns([
-                        pl.coalesce([
-                            pl.col("start_time").str.strptime(pl.Datetime, format, strict=False) for format in date_formats
-                        ]),
-                        pl.coalesce([
-                            pl.col("end_time").str.strptime(pl.Datetime, format, strict=False) for format in date_formats
-                        ])
+                df.rename(renamed_columns)
+                .pipe(map_legacy_station_id_to_name(stations_df))
+                .select(final_columns)
+                .with_columns([
+                    pl.coalesce([
+                        pl.col("start_time").str.strptime(pl.Datetime, format, strict=False) for format in date_formats
+                    ]),
+                    pl.coalesce([
+                        pl.col("end_time").str.strptime(pl.Datetime, format, strict=False) for format in date_formats
                     ])
+                ])
                 
             )
             all_dfs.append(df)
