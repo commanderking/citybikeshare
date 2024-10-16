@@ -21,7 +21,6 @@ def run(playwright):
     # Get resource ids
     
     resources = page.query_selector_all('.resource-item')
-    print(resources)
     
     resource_ids = []
     for resource in resources:
@@ -40,7 +39,6 @@ def run(playwright):
     trip_data_dictionary_id = "fe985614-775c-42e3-9647-59099806329d"
     resource_ids = [item for item in resource_ids if item != trip_data_dictionary_id]
     
-    print(resource_ids)
     return resource_ids
 
 
