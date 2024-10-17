@@ -197,7 +197,7 @@ def log_final_results(df, args):
             pl.any_horizontal(pl.all().is_null())
         )
     )
-    
+
     current_time =  datetime.now() 
     formatted_time = current_time.strftime('%Y-%m-%d %H:%M:%S')
     city_json["final_data"] = {
@@ -210,7 +210,6 @@ def log_final_results(df, args):
     print(f'{df_null_rows.height} rows have at least one column with a null value')
     print(f'There are {df.height} total rows')
     print(f'{round(((df_null_rows.height / df.height) * 100), 2)}% of trips have a null value)')
-    
 
     json_data[city] = city_json
     with open(logged_path, 'w') as f:

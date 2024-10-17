@@ -1,19 +1,8 @@
-import zipfile
 import os
 import polars as pl
 import utils
 import constants
 import utils_bicycle_transit_systems
-
-date_formats = [
-    "%Y-%m-%d %H:%M:%S",
-    "%m/%d/%Y %H:%M:%S",
-    "%m/%d/%Y %H:%M",
-    "%Y-%m-%d %H:%M", # Chicago - Divvy_Trips_2013
-    '%Y-%m-%dT%H:%M:%S', # Pittsburgh
-    '%a, %b %d, %Y, %I:%M %p', #Pittsburgh one file - 8e8a5cd9-943e-4d21-a7ed-05f865dd0038 (data-id), April 2023,
-    "%m/%d/%Y %I:%M:%S %p" # Austin, TX BCycle
-]
 
 def filter_filenames(filenames, args):
     matching_words = constants.config[args.city]['file_matcher']
@@ -53,6 +42,7 @@ def process_bicycle_transit_system(args):
 def format_and_concat_files(trip_files, args):
     """Get correct column data structures"""
     mappings = constants.config[args.city]['column_mappings']
+    date_formats = constants.config[args.city]["date_formats"]
 
     print("adding files to polars df")
     file_dataframes = []

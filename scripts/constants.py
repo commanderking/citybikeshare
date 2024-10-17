@@ -267,6 +267,10 @@ config = {
                 "header_matcher": "Bike ID",
                 "mapping": columbus_columns_two
             }
+        ],
+        "date_formats": [
+            "%Y-%m-%d %H:%M:%S",
+            "%m/%d/%Y %H:%M:%S",
         ]
     },
     "chicago": {
@@ -285,7 +289,14 @@ config = {
                 "header_matcher": "01 - Rental Details Local Start Time",
                 "mapping": chicago_renamed_columns_oddball
             }
+        ],
+        "date_formats": [
+            "%Y-%m-%d %H:%M:%S",
+            "%m/%d/%Y %H:%M:%S",
+            "%m/%d/%Y %H:%M",
+            "%Y-%m-%d %H:%M", # Chicago - Divvy_Trips_2013
         ]
+
     },
     "boston": {
         "name": "boston",
@@ -299,6 +310,9 @@ config = {
                 "header_matcher": "bikeid",
                 "mapping": boston_renamed_columns_pre_march_2023
             }
+        ],
+        "date_formats": [
+            "%Y-%m-%d %H:%M:%S",
         ]
     },
     "dc": {
@@ -313,6 +327,9 @@ config = {
                 "header_matcher": "Bike number",
                 "mapping": dc_renamed_columns_pre_may_2020
             }
+        ],
+        "date_formats": [
+            "%Y-%m-%d %H:%M:%S",
         ]
     },
     "nyc": {
@@ -360,6 +377,11 @@ config = {
                 "mapping": nyc_renamed_columns_2017_03_to_2020_01
             }
         ],
+        "date_formats": [
+            "%Y-%m-%d %H:%M:%S",
+            "%m/%d/%Y %H:%M:%S",
+            "%m/%d/%Y %H:%M",
+        ]
     },
     "sf": {
         "name": "sf",
@@ -373,6 +395,9 @@ config = {
                 "header_matcher": "bike_id",
                 "mapping": sf_renamed_columns_pre_may_2020
             }
+        ],
+        "date_formats": [
+            "%Y-%m-%d %H:%M:%S",
         ]
     },
     "philadelphia": {
@@ -384,6 +409,10 @@ config = {
                 "mapping": bicycle_transit_systems_renamed_columns,
                 "final_columns": bicycle_transit_systems_final_columns
             }
+        ],
+        "date_formats": [
+            "%Y-%m-%d %H:%M:%S",
+            "%m/%d/%Y %H:%M",
         ]
     },
     "pittsburgh": {
@@ -402,6 +431,11 @@ config = {
                 "header_matcher": "trip_id",
                 "mapping": pittsburgh_healthy_ride_columns_two
             }
+        ],
+        "date_formats": [
+            "%m/%d/%Y %H:%M",
+            '%Y-%m-%dT%H:%M:%S',
+            '%a, %b %d, %Y, %I:%M %p', #Pittsburgh one file - 8e8a5cd9-943e-4d21-a7ed-05f865dd0038 (data-id), April 2023,
         ]
     },
     "los_angeles": {
@@ -413,10 +447,12 @@ config = {
                 "mapping": bicycle_transit_systems_renamed_columns,
                 "final_columns": bicycle_transit_systems_final_columns
             },
+        ],
+        "date_formats": [
+            "%Y-%m-%d %H:%M:%S",
+            "%m/%d/%Y %H:%M",
         ]
     },
-
-
     "austin": {
         "name": "austin",
         "file_matcher": ["austin_all_trips.csv"],
@@ -427,6 +463,9 @@ config = {
                 "final_columns": ["start_time", "duration_minutes", "start_station_name", "end_station_name"]
 
             }
+        ],
+        "date_formats": [
+            "%Y-%m-%d %H:%M:%S",
         ]
     },
     "chattanooga": {
@@ -435,8 +474,12 @@ config = {
         "column_mappings": [{
             "header_matcher": "TripDurationMin",
             "mapping": chattanooga_bicycle_transit_system
-        }]
+        }],
+        "date_formats": [
+            "%m/%d/%Y %I:%M:%S %p"
+        ]
     },
+
 }
 
 US_CITIES = list(config.keys())

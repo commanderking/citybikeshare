@@ -47,11 +47,14 @@ def run_get_exports(playwright, url, file_path):
     page.goto(url)
     page.click("text=Export")
     
+    print(f'navigated to {url}')
+    
     with page.expect_download(timeout=120000) as download_info:
         # Click the "Download" button
-        page.click("button:has-text('Download')")   
+        page.click("button:has-text('Download')")
     download = download_info.value
     download.save_as(file_path)
+    print(f'Downloaded {download.suggested_filename}')
 
 def get_exports(url, file_path):
     ''' Applies to Austin and Chattanooga so far '''
