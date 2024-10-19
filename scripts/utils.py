@@ -1,18 +1,9 @@
 import os
-import sys
 import json
+import zipfile
 from datetime import timedelta, datetime
 import polars as pl
-import zipfile
-
-project_root = os.getenv("PROJECT_ROOT")
-sys.path.insert(0, project_root)
-
 import scripts.constants as constants
-
-
-project_root = os.getenv("PROJECT_ROOT")
-sys.path.insert(0, project_root)
 import definitions
 
 

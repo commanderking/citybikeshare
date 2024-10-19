@@ -1,13 +1,9 @@
 import os
-import sys
 import json
 import csv
-from playwright.sync_api import sync_playwright
-
-project_root = os.getenv("PROJECT_ROOT")
-sys.path.insert(0, project_root)
-import scripts.utils as utils
 import urllib.request
+from playwright.sync_api import sync_playwright
+import scripts.utils as utils
 
 CSV_PATH = utils.get_raw_files_directory("pittsburgh")
 

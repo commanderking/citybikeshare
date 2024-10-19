@@ -3,15 +3,9 @@ import sys
 import datetime
 import polars as pl
 from playwright.sync_api import sync_playwright
-
-project_root = os.getenv("PROJECT_ROOT")
-sys.path.insert(0, project_root)
 import scripts.utils as utils
 
-# FILE_NAME = "mexico_city_all_trips.csv"
 CSV_PATH = utils.get_raw_files_directory("mexico_city")
-# FILE_PATH = os.path.join(CSV_PATH, FILE_NAME)
-
 MEXICO_CITY_OPEN_DATA_URL = "https://ecobici.cdmx.gob.mx/en/open-data/"
 MEXICO_CSVS_PATH = utils.get_raw_files_directory("mexico_city")
 

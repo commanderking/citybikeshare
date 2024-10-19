@@ -1,12 +1,9 @@
 import os
 import sys
-import datetime
 import polars as pl
 from playwright.sync_api import sync_playwright
-
-project_root = os.getenv("PROJECT_ROOT")
-sys.path.insert(0, project_root)
 import scripts.utils as utils
+
 
 CSV_PATH = utils.get_zip_directory("montreal")
 OPEN_DATA_URL = "https://bixi.com/en/open-data/"

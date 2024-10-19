@@ -1,15 +1,10 @@
 from zipfile import ZipFile
 from io import BytesIO
 import os
-import sys
 import requests
 import polars as pl
 
 import utils
-
-project_root = os.getenv("PROJECT_ROOT")
-sys.path.insert(0, project_root)
-
 import definitions
 
 PARQUET_OUTPUT_PATH = definitions.DATA_DIR / "toronto_all_trips.parquet"

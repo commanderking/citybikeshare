@@ -1,9 +1,3 @@
-import os
-import sys
-import polars as pl
-
-project_root = os.getenv("PROJECT_ROOT")
-sys.path.insert(0, project_root)
 import scripts.utils_playwright as utils_playwright
 
 PHILADELPHIA_BIKESHARE_URL = "https://www.rideindego.com/about/data/"

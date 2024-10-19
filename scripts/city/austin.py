@@ -1,8 +1,4 @@
 import os
-import sys
-
-project_root = os.getenv("PROJECT_ROOT")
-sys.path.insert(0, project_root)
 import scripts.utils as utils
 import scripts.utils_playwright as utils_playwright
 

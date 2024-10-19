@@ -1,11 +1,6 @@
 import os
-import sys
-import json
 import polars as pl
 from playwright.sync_api import sync_playwright
-
-project_root = os.getenv("PROJECT_ROOT")
-sys.path.insert(0, project_root)
 import scripts.utils as utils
 
 BERGEN = "bergen"

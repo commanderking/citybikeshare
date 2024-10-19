@@ -1,12 +1,6 @@
 import argparse
-import os
-import sys
-
-project_root = os.getenv("PROJECT_ROOT")
-sys.path.insert(0, project_root)
 import scripts.constants as constants
 import scripts.analysis.analyzer as analyzer
-import scripts.utils as utils
 
 other_cities = constants.GLOBAL_CITIES
 all_cities = constants.ALL_CITIES

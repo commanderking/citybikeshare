@@ -1,14 +1,9 @@
 import os
-import sys
 from zipfile import ZipFile
 from io import BytesIO
 import requests
 import polars as pl
 import utils
-
-project_root = os.getenv("PROJECT_ROOT")
-sys.path.insert(0, project_root)
-
 import definitions
 
 renamed_columns = {

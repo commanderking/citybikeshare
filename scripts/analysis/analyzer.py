@@ -1,10 +1,5 @@
-import sys
-import os
 import json
 import polars as pl
-
-project_root = os.getenv("PROJECT_ROOT")
-sys.path.insert(0, project_root)
 import scripts.constants
 import scripts.utils as utils
 

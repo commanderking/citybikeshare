@@ -11,9 +11,6 @@ import city.oslo as oslo
 import city.bergen as bergen
 import constants
 
-project_root = os.getenv("PROJECT_ROOT")
-sys.path.insert(0, project_root)
-
 other_cities = constants.GLOBAL_CITIES
 all_cities = constants.ALL_CITIES
 

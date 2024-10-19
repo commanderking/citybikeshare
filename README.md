@@ -30,7 +30,7 @@ Pittsburgh old data can be found at: https://data.wprdc.org/dataset/healthyride-
 ### Configuration
 
 1. Copy the contents of .env.config to .env. 
-2. For PROJECT_ROOT, paste the path to this project. 
+2. For PROJECT_ROOT, paste the path to this project on your local machine
 
 ### Steps to building a parquet or csv file
 

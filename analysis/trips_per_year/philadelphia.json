@@ -1,11 +1,11 @@
 [
     {
-        "year": 2016,
-        "trip_count": 655058,
-        "mean_duration": 1425.4207413694664,
-        "first_quantile_duration": 480.0,
-        "median_duration": 720.0,
-        "third_quantile_duration": 1200.0,
+        "year": 2019,
+        "trip_count": 744260,
+        "mean_duration": 1484.3643914760971,
+        "first_quantile_duration": 420.0,
+        "median_duration": 660.0,
+        "third_quantile_duration": 1140.0,
         "system": "philadelphia"
     },
     {
@@ -18,12 +18,12 @@
         "system": "philadelphia"
     },
     {
-        "year": 2019,
-        "trip_count": 744260,
-        "mean_duration": 1484.3643914760971,
-        "first_quantile_duration": 420.0,
-        "median_duration": 660.0,
-        "third_quantile_duration": 1140.0,
+        "year": 2016,
+        "trip_count": 655058,
+        "mean_duration": 1425.4207413694664,
+        "first_quantile_duration": 480.0,
+        "median_duration": 720.0,
+        "third_quantile_duration": 1200.0,
         "system": "philadelphia"
     },
     {
@@ -36,15 +36,6 @@
         "system": "philadelphia"
     },
     {
-        "year": 2020,
-        "trip_count": 735162,
-        "mean_duration": 1915.9602373354444,
-        "first_quantile_duration": 480.0,
-        "median_duration": 840.0,
-        "third_quantile_duration": 1620.0,
-        "system": "philadelphia"
-    },
-    {
         "year": 2017,
         "trip_count": 604998,
         "mean_duration": 1321.630021917428,
@@ -54,12 +45,12 @@
         "system": "philadelphia"
     },
     {
-        "year": 2015,
-        "trip_count": 429710,
-        "mean_duration": 1695.7405226780852,
+        "year": 2020,
+        "trip_count": 735162,
+        "mean_duration": 1915.9602373354444,
         "first_quantile_duration": 480.0,
-        "median_duration": 780.0,
-        "third_quantile_duration": 1320.0,
+        "median_duration": 840.0,
+        "third_quantile_duration": 1620.0,
         "system": "philadelphia"
     },
     {
@@ -69,6 +60,15 @@
         "first_quantile_duration": 420.0,
         "median_duration": 660.0,
         "third_quantile_duration": 1080.0,
+        "system": "philadelphia"
+    },
+    {
+        "year": 2015,
+        "trip_count": 429710,
+        "mean_duration": 1695.7405226780852,
+        "first_quantile_duration": 480.0,
+        "median_duration": 780.0,
+        "third_quantile_duration": 1320.0,
         "system": "philadelphia"
     },
     {
