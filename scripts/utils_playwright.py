@@ -22,17 +22,18 @@ def run(playwright, url, city):
             link.click()
         download = download_info.value
         download.save_as(os.path.join(DOWNLOAD_PATH, download.suggested_filename))
-        print(f'Downloaded { download.suggested_filename }')
+        print(f"Downloaded { download.suggested_filename }")
 
     # Download stations csv directly into csv folder
-    stations_csv_link = page.get_by_role("link", name="Station Table")    
+    stations_csv_link = page.get_by_role("link", name="Station Table")
     with page.expect_download() as stations_download_info:
         stations_csv_link.click()
     stations_download = stations_download_info.value
     stations_download.save_as(os.path.join(STATIONS_CSV_PATH, "stations.csv"))
-    print(f'Downloaded { stations_download.suggested_filename } as stations.csv')
+    print(f"Downloaded { stations_download.suggested_filename } as stations.csv")
 
     browser.close()
+
 
 def get_bicycle_transit_systems_zips(url, city):
     with sync_playwright() as playwright:
@@ -43,20 +44,21 @@ def run_get_exports(playwright, url, file_path):
     browser = playwright.chromium.launch(headless=True)
     context = browser.new_context(accept_downloads=True)
     page = context.new_page()
-        
+
     page.goto(url)
     page.click("text=Export")
-    
-    print(f'navigated to {url}')
-    
+
+    print(f"navigated to {url}")
+
     with page.expect_download(timeout=120000) as download_info:
         # Click the "Download" button
         page.click("button:has-text('Download')")
     download = download_info.value
     download.save_as(file_path)
-    print(f'Downloaded {download.suggested_filename}')
+    print(f"Downloaded {download.suggested_filename}")
+
 
 def get_exports(url, file_path):
-    ''' Applies to Austin and Chattanooga so far '''
+    """Applies to Austin and Chattanooga so far"""
     with sync_playwright() as playwright:
         run_get_exports(playwright, url, file_path)

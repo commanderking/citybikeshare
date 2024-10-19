@@ -6,15 +6,19 @@ TEST_PATH = os.path.dirname(__file__)
 
 pre_march_2023_columns = usa_cities.renamed_columns_pre_march_2023.values()
 
-march_2023_and_beyond_columns = usa_cities.renamed_columns_march_2023_and_beyond.values()
+march_2023_and_beyond_columns = (
+    usa_cities.renamed_columns_march_2023_and_beyond.values()
+)
 
 all_headers = list(set(pre_march_2023_columns) | set(march_2023_and_beyond_columns))
+
 
 def test_csv_import():
     CSV_FILES_PATH = os.path.join(TEST_PATH, "tests/testdata")
     files = utils.get_csv_files(CSV_FILES_PATH)
 
     assert len(files) == 3
+
 
 def test_formats_df_correctly():
     CSV_FILES_PATH = os.path.join(TEST_PATH, "tests/testdata")
@@ -30,4 +34,3 @@ def test_formats_df_correctly():
 
     gender_check = df.loc[df["gender"] == 0]
     assert len(gender_check) == 1
-

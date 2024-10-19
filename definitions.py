@@ -5,6 +5,6 @@ from pathlib import Path
 BASE_DIR = Path(__file__).resolve().parent
 
 # Paths to various data directories
-DATA_DIR = BASE_DIR / 'data' 
-OUTPUT_DIR = BASE_DIR / 'output'
-ANALYSIS_DIR = BASE_DIR / 'analysis'
+DATA_DIR = BASE_DIR / "data"
+OUTPUT_DIR = BASE_DIR / "output"
+ANALYSIS_DIR = BASE_DIR / "analysis"
