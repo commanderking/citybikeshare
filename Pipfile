@@ -11,6 +11,7 @@ pyarrow = "*"
 requests = "~=2.31.0"
 polars = "~=0.20.25"
 playwright = "*"
+ruff = "*"
 
 [dev-packages]
 pylint = "*"
@@ -22,7 +23,6 @@ sync_dc = "aws s3 sync s3://capitalbikeshare-data ./data/dc/zip"
 sync_chicago = "aws s3 sync s3://divvy-tripdata ./data/chicago/zip"
 sync_nyc = "aws s3 sync s3://tripdata ./data/nyc/zip"
 sync_sf = "aws s3 sync s3://baywheels-data ./data/sf/zip"
-
 sync_austin = "python3 ./scripts/city/austin.py"
 sync_chattanooga = "python3 ./scripts/city/chattanooga.py"
 sync_philadelphia = "python3 ./scripts/city/philadelphia.py"
