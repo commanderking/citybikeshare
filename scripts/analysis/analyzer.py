@@ -68,7 +68,13 @@ def output_recent_dates(cities):
         json.dump(most_recent_dates, file, indent=4)
 
 def analyze_city(city):
+    output_recent_dates(scripts.constants.ALL_CITIES)
     df = get_all_cities_trip_per_year(city)
+
+def analyze_all_cities():
+    output_recent_dates(scripts.constants.ALL_CITIES)
+    for city in scripts.constants.ALL_CITIES:
+        get_all_cities_trip_per_year(city)
 
 if __name__ == "__main__":
     output_recent_dates(scripts.constants.ALL_CITIES)
