@@ -1,5 +1,4 @@
 import os
-import sys
 import polars as pl
 
 import scripts.utils as utils

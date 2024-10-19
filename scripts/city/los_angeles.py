@@ -1,4 +1,3 @@
-import os
 import scripts.utils_playwright as utils_playwright
 
 LA_BIKESHARE_URL = "https://bikeshare.metro.net/about/data/"

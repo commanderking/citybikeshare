@@ -67,8 +67,8 @@ def query_data(resource_ids):
                 # Write rows
                 for row in trips:
                     writer.writerow(row.values())
-        except:
-            print(f"{resource_id} returned with an error.")
+        except Exception as e:
+            print(f"{resource_id} returned with an error: {e}")
 
 
 if __name__ == "__main__":
