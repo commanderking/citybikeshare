@@ -27,21 +27,21 @@
         "system": "taipei"
     },
     {
-        "year": 2021,
-        "trip_count": 7274736,
-        "mean_duration": 1237.1474432886637,
-        "first_quantile_duration": 332.0,
-        "median_duration": 590.0,
-        "third_quantile_duration": 1242.0,
-        "system": "taipei"
-    },
-    {
         "year": 2024,
         "trip_count": 8809728,
         "mean_duration": 1079.7964588691048,
         "first_quantile_duration": 348.0,
         "median_duration": 607.0,
         "third_quantile_duration": 1140.0,
+        "system": "taipei"
+    },
+    {
+        "year": 2021,
+        "trip_count": 7274736,
+        "mean_duration": 1237.1474432886637,
+        "first_quantile_duration": 332.0,
+        "median_duration": 590.0,
+        "third_quantile_duration": 1242.0,
         "system": "taipei"
     }
 ]
