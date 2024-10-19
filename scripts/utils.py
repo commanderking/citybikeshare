@@ -131,16 +131,13 @@ def get_recent_year_df(date_column):
     return inner
 
 
-def convert_date_columns_to_datetime(date_column_names, date_formats):
+def convert_columns_to_datetime(date_column_names, date_formats):
     def inner(df):
         df = df.with_columns(
             [
                 pl.coalesce(
                     [
-                        # Replace . and everything that follows with empty string. Some Boston dates have milliseconds
-                        df[date_column]
-                        .str.replace(r"\.\d+", "")
-                        .str.strptime(pl.Datetime, format, strict=False)
+                        df[date_column].str.strptime(pl.Datetime, format, strict=False)
                         for format in date_formats
                     ]
                 ).alias(date_column)

@@ -86,7 +86,7 @@ def format_and_concat_files(trip_files, args):
             ### TODO - move this to configuration for preprocessing. Austin doesn't have end_time so we need to calculate before casting times
             .pipe(austin_check(args))
             .pipe(
-                utils.convert_date_columns_to_datetime(
+                utils.convert_columns_to_datetime(
                     ["start_time", "end_time"], date_formats
                 )
             )

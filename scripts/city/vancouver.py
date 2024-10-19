@@ -89,7 +89,7 @@ def format_files(files, args):
                 )
             )
             ## Getting some null values because some dates are not zero-padded "2020-04-01 0:00"
-            .pipe(utils.convert_date_columns_to_datetime(date_columns, date_formats))
+            .pipe(utils.convert_columns_to_datetime(date_columns, date_formats))
             .with_columns([pl.col("duration_seconds").cast(pl.Int64)])
             .pipe(utils.offset_two_digit_years)
             .pipe(utils.assess_null_data)

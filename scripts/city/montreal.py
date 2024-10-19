@@ -98,7 +98,7 @@ def create_all_trips_df():
                 ]
             )
 
-            df = utils.convert_date_columns_to_datetime(
+            df = utils.convert_columns_to_datetime(
                 ["start_time", "end_time"], date_formats
             )(df)
             all_dfs.append(df.select(final_columns))
