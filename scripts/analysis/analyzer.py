@@ -46,6 +46,7 @@ def get_all_cities_trip_per_year(city):
     output_path.parent.mkdir(parents=True, exist_ok=True)
     with open(output_path, 'w', encoding='utf-8') as file:
         json.dump(json_data, file, indent=4)  
+    print(f'Analysis created at {output_path}')
 
     return df
 
@@ -66,17 +67,12 @@ def output_recent_dates(cities):
     output_path = utils.get_analysis_directory() / "latest_trips.json"    
     with open(output_path, 'w', encoding='utf-8') as file:
         json.dump(most_recent_dates, file, indent=4)
-
+    
 def analyze_city(city):
     output_recent_dates(scripts.constants.ALL_CITIES)
     df = get_all_cities_trip_per_year(city)
 
 def analyze_all_cities():
-    output_recent_dates(scripts.constants.ALL_CITIES)
-    for city in scripts.constants.ALL_CITIES:
-        get_all_cities_trip_per_year(city)
-
-if __name__ == "__main__":
     output_recent_dates(scripts.constants.ALL_CITIES)
     for city in scripts.constants.ALL_CITIES:
         get_all_cities_trip_per_year(city)
