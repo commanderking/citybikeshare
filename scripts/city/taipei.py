@@ -14,9 +14,9 @@ import definitions
 renamed_columns = {
     "rent_time": "start_time",
     "rent_station": "start_station_name",
-    "return_station": "return_station_name",
+    "return_station": "end_station_name",
     "return_time": "end_time",
-    "rent": "rent",
+    "rent": "duration_seconds",
     "infodate": "info_date"
 }
 
@@ -63,11 +63,8 @@ def create_df_with_all_trips(folder_path, raw_columns):
             pl.col("start_time").str.to_datetime("%Y-%m-%d %H:%M:%S"),
             pl.col("end_time").str.to_datetime("%Y-%m-%d %H:%M:%S"),
             ### map_batches is not ideal, but using to_time is not an option because hours can go over 24. 
-            ### This is more efficient than the previous approach of: str.split(":").apply(time_to_seconds, return_dtype=pl.Int32).alias("duration")
-            pl.col("rent").map_batches(toSeconds, return_dtype=pl.Int64),
-        ]).with_columns([
-            pl.col("rent").alias("duration_seconds").cast(pl.Int64)
-        ]).drop("rent", "info_date")
+            pl.col("duration_seconds").map_batches(toSeconds, return_dtype=pl.Int64),
+        ]).drop("info_date")
         dataframes.append(df)
 
     combined_df = pl.concat(dataframes)
@@ -121,6 +118,7 @@ def create_all_trips_parquet(args):
         extract_all_csvs()
 
     all_trips_df = create_df_with_all_trips(TAIPEI_CSVS_PATH, RAW_TAIPEI_COLUMNS)
+    print(all_trips_df)
     utils.log_final_results(all_trips_df, args)
     utils.create_all_trips_file(all_trips_df, args)
     utils.create_recent_year_file(all_trips_df, args)
