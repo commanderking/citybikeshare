@@ -1,5 +1,4 @@
 import os
-import sys
 import scripts.utils as utils
 from playwright.sync_api import sync_playwright
 

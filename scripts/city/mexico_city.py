@@ -1,5 +1,4 @@
 import os
-import sys
 import datetime
 import polars as pl
 from playwright.sync_api import sync_playwright

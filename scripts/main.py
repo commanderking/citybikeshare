@@ -1,6 +1,4 @@
 import argparse
-import os
-import sys
 import city.usa_cities as usa_utils
 import city.taipei as taipei
 import city.toronto as toronto

@@ -207,8 +207,8 @@ def log_final_results(df, args):
     try:
         with open(logged_path, "r") as f:
             json_data = json.load(f)
-    except:
-        print("No logging file found, will create new one.")
+    except Exception as e:
+        print(f"No logging file found, will create new one. Error: {e}")
 
     headers = df.columns
     for header in headers:
