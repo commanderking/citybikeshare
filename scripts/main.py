@@ -7,6 +7,7 @@ import city.montreal as montreal
 import city.vancouver as vancouver
 import city.oslo as oslo
 import city.bergen as bergen
+import city.trondheim as trondheim
 import constants
 
 other_cities = constants.GLOBAL_CITIES
@@ -48,6 +49,9 @@ def build_all_trips_file():
 
     if city == "bergen":
         bergen.build_trips(args)
+
+    if city == "trondheim":
+        trondheim.build_trips(args)
 
     if city in constants.US_CITIES:
         usa_utils.build_all_trips(args)

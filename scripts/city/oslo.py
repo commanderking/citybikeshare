@@ -5,12 +5,12 @@ from playwright.sync_api import sync_playwright
 import requests
 import scripts.utils as utils
 
-OSLO = "oslo"
+CITY = "oslo"
 
-ZIP_PATH = utils.get_zip_directory(OSLO)
+ZIP_PATH = utils.get_zip_directory(CITY)
 OPEN_DATA_URL = "https://oslobysykkel.no/en/open-data/historical"
-CSV_PATH = utils.get_raw_files_directory(OSLO)
-METADATA_PATH = utils.get_metadata_directory(OSLO)
+CSV_PATH = utils.get_raw_files_directory(CITY)
+METADATA_PATH = utils.get_metadata_directory(CITY)
 date_formats = ["%Y-%m-%d %H:%M:%S %z", "%Y-%m-%d %H:%M:%S%.f%:z"]
 CURRENT_STATIONS_URL = (
     "https://gbfs.urbansharing.com/oslobysykkel.no/station_information.json"

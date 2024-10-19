@@ -140,7 +140,15 @@
             "total_rows": 4119524,
             "null_rows": 0,
             "percent_null": 0.0,
-            "updated_at": "2024-10-13 10:34:35"
+            "updated_at": "2024-10-18 22:27:12"
+        }
+    },
+    "trondheim": {
+        "final_data": {
+            "total_rows": 4127911,
+            "null_rows": 0,
+            "percent_null": 0.0,
+            "updated_at": "2024-10-18 22:27:50"
         }
     }
 }
