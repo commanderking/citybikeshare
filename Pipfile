@@ -29,7 +29,7 @@ sync_philadelphia = "python3 ./scripts/city/philadelphia.py"
 sync_los_angeles = "python3 ./scripts/city/los_angeles.py"
 build = "python3 ./scripts/main.py"
 build_boston = "bash -c 'pipenv run sync_boston && pipenv run build Boston'"
-analyze = "python3 ./scripts/analysis/analyzer.py"
+analyze_city = "python3 ./scripts/analysis/main.py"
 
 [requires]
 python_version = "3.9"

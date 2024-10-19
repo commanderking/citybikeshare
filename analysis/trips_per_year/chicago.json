@@ -1,0 +1,110 @@
+[
+    {
+        "year": 2013,
+        "trip_count": 759788,
+        "mean_duration": 1239.2987254339369,
+        "first_quantile_duration": 480.0,
+        "median_duration": 840.0,
+        "third_quantile_duration": 1380.0,
+        "system": "chicago"
+    },
+    {
+        "year": 2022,
+        "trip_count": 5667717,
+        "mean_duration": 1166.5971446704202,
+        "first_quantile_duration": 349.0,
+        "median_duration": 617.0,
+        "third_quantile_duration": 1108.0,
+        "system": "chicago"
+    },
+    {
+        "year": 2019,
+        "trip_count": 3818004,
+        "mean_duration": 1450.4513979031976,
+        "first_quantile_duration": 411.0,
+        "median_duration": 709.0,
+        "third_quantile_duration": 1284.0,
+        "system": "chicago"
+    },
+    {
+        "year": 2016,
+        "trip_count": 3595383,
+        "mean_duration": 993.1182388635648,
+        "first_quantile_duration": 420.0,
+        "median_duration": 710.0,
+        "third_quantile_duration": 1175.0,
+        "system": "chicago"
+    },
+    {
+        "year": 2014,
+        "trip_count": 2454634,
+        "mean_duration": 1024.941828394783,
+        "first_quantile_duration": 420.0,
+        "median_duration": 720.0,
+        "third_quantile_duration": 1200.0,
+        "system": "chicago"
+    },
+    {
+        "year": 2017,
+        "trip_count": 3829014,
+        "mean_duration": 955.6289002860789,
+        "first_quantile_duration": 406.0,
+        "median_duration": 685.0,
+        "third_quantile_duration": 1146.0,
+        "system": "chicago"
+    },
+    {
+        "year": 2020,
+        "trip_count": 3541683,
+        "mean_duration": 1490.0504466379402,
+        "first_quantile_duration": 458.0,
+        "median_duration": 844.0,
+        "third_quantile_duration": 1556.0,
+        "system": "chicago"
+    },
+    {
+        "year": 2023,
+        "trip_count": 5719877,
+        "mean_duration": 1090.1592515013872,
+        "first_quantile_duration": 325.0,
+        "median_duration": 572.0,
+        "third_quantile_duration": 1015.0,
+        "system": "chicago"
+    },
+    {
+        "year": 2015,
+        "trip_count": 3183439,
+        "mean_duration": 1024.045059446718,
+        "first_quantile_duration": 420.0,
+        "median_duration": 720.0,
+        "third_quantile_duration": 1200.0,
+        "system": "chicago"
+    },
+    {
+        "year": 2018,
+        "trip_count": 3603082,
+        "mean_duration": 1413.138314642853,
+        "first_quantile_duration": 395.0,
+        "median_duration": 673.0,
+        "third_quantile_duration": 1210.0,
+        "system": "chicago"
+    },
+    {
+        "year": 2021,
+        "trip_count": 5595063,
+        "mean_duration": 1316.1206896151125,
+        "first_quantile_duration": 405.0,
+        "median_duration": 720.0,
+        "third_quantile_duration": 1307.0,
+        "system": "chicago"
+    },
+    {
+        "year": 2024,
+        "trip_count": 4273659,
+        "mean_duration": 1070.4852303377504,
+        "first_quantile_duration": 338.0,
+        "median_duration": 595.0,
+        "third_quantile_duration": 1058.0,
+        "system": "chicago"
+    }
+]

@@ -1,0 +1,83 @@
+[
+    {
+        "year": 2019,
+        "trip_count": 2439517,
+        "mean_duration": 1045.5176905920312,
+        "first_quantile_duration": 420.0,
+        "median_duration": 660.0,
+        "third_quantile_duration": 1080.0,
+        "system": "toronto"
+    },
+    {
+        "year": 2022,
+        "trip_count": 4300240,
+        "mean_duration": 971.6014966606515,
+        "first_quantile_duration": 420.0,
+        "median_duration": 720.0,
+        "third_quantile_duration": 1140.0,
+        "system": "toronto"
+    },
+    {
+        "year": 2020,
+        "trip_count": 2911059,
+        "mean_duration": 1171.1169852620644,
+        "first_quantile_duration": 480.0,
+        "median_duration": 840.0,
+        "third_quantile_duration": 1260.0,
+        "system": "toronto"
+    },
+    {
+        "year": 2023,
+        "trip_count": 5713141,
+        "mean_duration": 1079.3681829312457,
+        "first_quantile_duration": 420.0,
+        "median_duration": 660.0,
+        "third_quantile_duration": 1140.0,
+        "system": "toronto"
+    },
+    {
+        "year": 2017,
+        "trip_count": 1128964,
+        "mean_duration": 346.22034006398786,
+        "first_quantile_duration": 420.0,
+        "median_duration": 660.0,
+        "third_quantile_duration": 1080.0,
+        "system": "toronto"
+    },
+    {
+        "year": 2018,
+        "trip_count": 1922955,
+        "mean_duration": 962.9627526385173,
+        "first_quantile_duration": 420.0,
+        "median_duration": 660.0,
+        "third_quantile_duration": 1080.0,
+        "system": "toronto"
+    },
+    {
+        "year": 17,
+        "trip_count": 363404,
+        "mean_duration": 807.9311317431839,
+        "first_quantile_duration": 377.0,
+        "median_duration": 583.0,
+        "third_quantile_duration": 889.0,
+        "system": "toronto"
+    },
+    {
+        "year": 2021,
+        "trip_count": 3575182,
+        "mean_duration": 1036.2823990498946,
+        "first_quantile_duration": 480.0,
+        "median_duration": 780.0,
+        "third_quantile_duration": 1200.0,
+        "system": "toronto"
+    },
+    {
+        "year": 2024,
+        "trip_count": 204870,
+        "mean_duration": 876.5552789573876,
+        "first_quantile_duration": 360.0,
+        "median_duration": 600.0,
+        "third_quantile_duration": 900.0,
+        "system": "toronto"
+    }
+]

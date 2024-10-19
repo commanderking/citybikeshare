@@ -33,26 +33,22 @@ def get_trips_per_year(city):
         ]).with_columns(pl.lit(city).alias("system"))
     )
     df = query.collect()
-    
-    
+
     return df
 
-def get_all_cities_trip_per_year(cities):
-    print("grouping trips taken by year")
-    city_dfs = [get_trips_per_year(city) for city in cities]
-    all_cities_df = (
-        pl.concat(city_dfs)
-        .sort("system", "year")
-    )
+def get_all_cities_trip_per_year(city):
+    df = get_trips_per_year(city)
     
-    json_string = all_cities_df.write_json(row_oriented=True)
+    json_string = df.write_json(row_oriented=True)
     json_data = json.loads(json_string)
 
-    output_path = utils.get_analysis_directory() / "trips_per_year.json"
+    output_path = utils.get_analysis_directory() / "trips_per_year" / f"{city}.json"
+    output_path.parent.mkdir(parents=True, exist_ok=True)
     with open(output_path, 'w', encoding='utf-8') as file:
         json.dump(json_data, file, indent=4)  
+    print(f'Analysis created at {output_path}')
 
-    return all_cities_df
+    return df
 
 def output_recent_dates(cities):
     print("determining most recent trip taken")
@@ -71,7 +67,12 @@ def output_recent_dates(cities):
     output_path = utils.get_analysis_directory() / "latest_trips.json"    
     with open(output_path, 'w', encoding='utf-8') as file:
         json.dump(most_recent_dates, file, indent=4)
-
-if __name__ == "__main__":
+    
+def analyze_city(city):
     output_recent_dates(scripts.constants.ALL_CITIES)
-    df = get_all_cities_trip_per_year(scripts.constants.ALL_CITIES)
+    df = get_all_cities_trip_per_year(city)
+
+def analyze_all_cities():
+    output_recent_dates(scripts.constants.ALL_CITIES)
+    for city in scripts.constants.ALL_CITIES:
+        get_all_cities_trip_per_year(city)
