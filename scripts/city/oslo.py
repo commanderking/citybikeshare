@@ -4,6 +4,12 @@ import polars as pl
 from playwright.sync_api import sync_playwright
 import requests
 import scripts.utils as utils
+from scripts.city.utils.norway_cities import (
+    final_columns,
+    date_columns,
+    date_formats,
+    click_buttons_to_download,
+)
 
 CITY = "oslo"
 
@@ -11,7 +17,6 @@ ZIP_PATH = utils.get_zip_directory(CITY)
 OPEN_DATA_URL = "https://oslobysykkel.no/en/open-data/historical"
 CSV_PATH = utils.get_raw_files_directory(CITY)
 METADATA_PATH = utils.get_metadata_directory(CITY)
-date_formats = ["%Y-%m-%d %H:%M:%S %z", "%Y-%m-%d %H:%M:%S%.f%:z"]
 CURRENT_STATIONS_URL = (
     "https://gbfs.urbansharing.com/oslobysykkel.no/station_information.json"
 )
@@ -60,24 +65,14 @@ def run_get_exports(playwright, url):
         print(f"Downloading {download.suggested_filename}")
         download.save_as(os.path.join(METADATA_PATH, download.suggested_filename))
 
-    for button in csv_buttons.all():
-        # links are formatted as: - to get unique names and not 06.csv for ever year, get text after .no/ domain
-        ## New - https://data.urbansharing.com/oslobysykkel.no/trips/v1/2019/06.csv
-        ## Legacy -  https://data-legacy.urbansharing.com/oslobysykkel.no/2018/06.csv.zip
-        desired_filename = (
-            button.get_attribute("content").split(".no/")[1].replace("/", "-")
-        )
-        target_folder = ZIP_PATH if desired_filename.endswith(".zip") else CSV_PATH
-        with page.expect_download(timeout=120000) as download_info:
-            button.click()
-            download = download_info.value
-            print(f"Downloading {desired_filename}")
-            download.save_as(os.path.join(target_folder, desired_filename))
-
+    click_buttons_to_download(page, csv_buttons, ZIP_PATH, CSV_PATH)
     browser.close()
 
 
-final_columns = ["start_station_name", "end_station_name", "start_time", "end_time"]
+def get_exports(url):
+    get_stations_information()
+    with sync_playwright() as playwright:
+        run_get_exports(playwright, url)
 
 
 def get_renamed_columns(headers):
@@ -157,37 +152,12 @@ def create_all_trips_df(args):
                 df.rename(renamed_columns)
                 .pipe(map_legacy_station_id_to_name(stations_df))
                 .select(final_columns)
-                .with_columns(
-                    [
-                        pl.coalesce(
-                            [
-                                pl.col("start_time").str.strptime(
-                                    pl.Datetime, format, strict=False
-                                )
-                                for format in date_formats
-                            ]
-                        ),
-                        pl.coalesce(
-                            [
-                                pl.col("end_time").str.strptime(
-                                    pl.Datetime, format, strict=False
-                                )
-                                for format in date_formats
-                            ]
-                        ),
-                    ]
-                )
+                .pipe(utils.convert_columns_to_datetime(date_columns, date_formats))
             )
             all_dfs.append(df)
 
     all_trips = pl.concat(all_dfs, how="diagonal")
     return all_trips
-
-
-def get_exports(url):
-    get_stations_information()
-    with sync_playwright() as playwright:
-        run_get_exports(playwright, url)
 
 
 def build_trips(args):

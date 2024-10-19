@@ -1,8 +1,12 @@
-import os
 import polars as pl
-from playwright.sync_api import sync_playwright
 import scripts.utils as utils
-import scripts.city.utils.norway_cities as norway_cities
+from scripts.city.utils.norway_cities import (
+    final_columns,
+    date_columns,
+    date_formats,
+    norway_renamed_columns,
+    get_exports,
+)
 
 CITY = "trondheim"
 
@@ -10,7 +14,6 @@ ZIP_PATH = utils.get_zip_directory(CITY)
 OPEN_DATA_URL = "https://trondheimbysykkel.no/en/open-data/historical"
 CSV_PATH = utils.get_raw_files_directory(CITY)
 METADATA_PATH = utils.get_metadata_directory(CITY)
-date_formats = ["%Y-%m-%d %H:%M:%S.%f%:z", "%Y-%m-%d %H:%M:%S%:z"]
 
 
 renamed_columns = {
@@ -19,29 +22,6 @@ renamed_columns = {
     "start_station_name": "start_station_name",
     "end_station_name": "end_station_name",
 }
-final_columns = ["start_station_name", "end_station_name", "start_time", "end_time"]
-
-
-def run_get_exports(playwright, url):
-    browser = playwright.chromium.launch(headless=False)
-    context = browser.new_context(accept_downloads=True)
-    page = context.new_page()
-
-    page.goto(url)
-    csv_buttons = page.locator('role=button[name="CSV"]')
-
-    for button in csv_buttons.all():
-        desired_filename = (
-            button.get_attribute("content").split(".no/")[1].replace("/", "-")
-        )
-        target_folder = ZIP_PATH if desired_filename.endswith(".zip") else CSV_PATH
-        with page.expect_download(timeout=120000) as download_info:
-            button.click()
-            download = download_info.value
-            print(f"Downloading {desired_filename}")
-            download.save_as(os.path.join(target_folder, desired_filename))
-
-    browser.close()
 
 
 def create_all_trips_df(args):
@@ -51,37 +31,14 @@ def create_all_trips_df(args):
         print(f"reading {file}")
         df = (
             pl.read_csv(file)
-            .rename(renamed_columns)
+            .rename(norway_renamed_columns)
             .select(final_columns)
-            .with_columns(
-                [
-                    pl.coalesce(
-                        [
-                            pl.col("start_time").str.strptime(
-                                pl.Datetime, format, strict=False
-                            )
-                            for format in date_formats
-                        ]
-                    ),
-                    pl.coalesce(
-                        [
-                            pl.col("end_time").str.strptime(
-                                pl.Datetime, format, strict=False
-                            )
-                            for format in date_formats
-                        ]
-                    ),
-                ]
-            )
+            .pipe(utils.convert_columns_to_datetime(date_columns, date_formats))
         )
         all_dfs.append(df)
 
     all_trips = pl.concat(all_dfs)
     return all_trips
-
-
-def get_exports(url):
-    norway_cities.get_exports(url, CITY)
 
 
 def build_trips(args):
@@ -93,4 +50,4 @@ def build_trips(args):
 
 
 if __name__ == "__main__":
-    get_exports(OPEN_DATA_URL)
+    get_exports(OPEN_DATA_URL, CITY)

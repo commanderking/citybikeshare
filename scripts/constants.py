@@ -299,9 +299,7 @@ config = {
                 "mapping": boston_renamed_columns_pre_march_2023,
             },
         ],
-        "date_formats": [
-            "%Y-%m-%d %H:%M:%S",
-        ],
+        "date_formats": ["%Y-%m-%d %H:%M:%S", "%Y-%m-%d %H:%M:%S.%f"],
     },
     "dc": {
         "name": "dc",

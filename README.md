@@ -62,8 +62,13 @@ https://cycling.data.tfl.gov.uk/
 
 
 ### Trondheim
-
 https://trondheimbysykkel.no/en/open-data/historical
+
+### Helsinki
+
+https://hri.fi/data/en_GB/dataset/helsingin-ja-espoon-kaupunkipyorilla-ajatut-matkat
+
+https://github.com/Geometrein/helsinki-city-bikes/blob/main/scraper.py
 
 ### Portland
 Micromobility contains recent day: https://public.ridereport.com/pdx?x=-122.6543855&y=45.6227107&z=9.70, but individual trip data is unavailable
