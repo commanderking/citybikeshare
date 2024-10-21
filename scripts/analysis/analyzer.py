@@ -89,5 +89,17 @@ def analyze_city(city):
 
 def analyze_all_cities():
     output_recent_dates(scripts.constants.ALL_CITIES)
+
+    all_cities_df = []
     for city in scripts.constants.ALL_CITIES:
-        get_all_cities_trip_per_year(city)
+        df = get_all_cities_trip_per_year(city)
+        all_cities_df.append(df)
+
+    all_trips = pl.concat(all_cities_df, how="diagonal")
+    json_string = all_trips.write_json(row_oriented=True)
+    json_data = json.loads(json_string)
+    output_path = utils.get_analysis_directory() / "all_cities_yearly_trips.json"
+
+    with open(output_path, "w", encoding="utf-8") as file:
+        json.dump(json_data, file, indent=4)
+        print(f"JSON for All Cities produced at {output_path}")

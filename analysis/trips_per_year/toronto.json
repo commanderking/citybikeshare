@@ -18,6 +18,15 @@
         "system": "toronto"
     },
     {
+        "year": 2017,
+        "trip_count": 1128964,
+        "mean_duration": 346.22034006398786,
+        "first_quantile_duration": 420.0,
+        "median_duration": 660.0,
+        "third_quantile_duration": 1080.0,
+        "system": "toronto"
+    },
+    {
         "year": 2020,
         "trip_count": 2911059,
         "mean_duration": 1171.1169852620644,
@@ -33,15 +42,6 @@
         "first_quantile_duration": 420.0,
         "median_duration": 660.0,
         "third_quantile_duration": 1140.0,
-        "system": "toronto"
-    },
-    {
-        "year": 2017,
-        "trip_count": 1128964,
-        "mean_duration": 346.22034006398786,
-        "first_quantile_duration": 420.0,
-        "median_duration": 660.0,
-        "third_quantile_duration": 1080.0,
         "system": "toronto"
     },
     {

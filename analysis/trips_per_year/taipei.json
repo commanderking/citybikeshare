@@ -9,15 +9,6 @@
         "system": "taipei"
     },
     {
-        "year": 2020,
-        "trip_count": 1879229,
-        "mean_duration": 704.725547019549,
-        "first_quantile_duration": 251.0,
-        "median_duration": 372.0,
-        "third_quantile_duration": 612.0,
-        "system": "taipei"
-    },
-    {
         "year": 2023,
         "trip_count": 36818842,
         "mean_duration": 1089.2990356676617,
@@ -27,12 +18,12 @@
         "system": "taipei"
     },
     {
-        "year": 2021,
-        "trip_count": 7274736,
-        "mean_duration": 1237.1474432886637,
-        "first_quantile_duration": 332.0,
-        "median_duration": 590.0,
-        "third_quantile_duration": 1242.0,
+        "year": 2020,
+        "trip_count": 1879229,
+        "mean_duration": 704.725547019549,
+        "first_quantile_duration": 251.0,
+        "median_duration": 372.0,
+        "third_quantile_duration": 612.0,
         "system": "taipei"
     },
     {
@@ -42,6 +33,15 @@
         "first_quantile_duration": 337.0,
         "median_duration": 583.0,
         "third_quantile_duration": 1082.0,
+        "system": "taipei"
+    },
+    {
+        "year": 2021,
+        "trip_count": 7274736,
+        "mean_duration": 1237.1474432886637,
+        "first_quantile_duration": 332.0,
+        "median_duration": 590.0,
+        "third_quantile_duration": 1242.0,
         "system": "taipei"
     }
 ]

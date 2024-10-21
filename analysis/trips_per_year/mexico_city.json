@@ -1,14 +1,5 @@
 [
     {
-        "year": 2016,
-        "trip_count": 8628693,
-        "mean_duration": 845.4479402616364,
-        "first_quantile_duration": 387.0,
-        "median_duration": 618.0,
-        "third_quantile_duration": 999.0,
-        "system": "mexico_city"
-    },
-    {
         "year": 2022,
         "trip_count": 5084268,
         "mean_duration": 6752.745910129049,
@@ -45,30 +36,12 @@
         "system": "mexico_city"
     },
     {
-        "year": 2020,
-        "trip_count": 3774962,
-        "mean_duration": 1228.611842715238,
-        "first_quantile_duration": 421.0,
-        "median_duration": 695.0,
-        "third_quantile_duration": 1164.0,
-        "system": "mexico_city"
-    },
-    {
-        "year": 2017,
-        "trip_count": 9498067,
-        "mean_duration": 959.959872677251,
-        "first_quantile_duration": 399.0,
-        "median_duration": 642.0,
-        "third_quantile_duration": 1038.0,
-        "system": "mexico_city"
-    },
-    {
-        "year": 2023,
-        "trip_count": 12177599,
-        "mean_duration": 989.8102690850635,
-        "first_quantile_duration": 444.0,
-        "median_duration": 739.0,
-        "third_quantile_duration": 1224.0,
+        "year": 2016,
+        "trip_count": 8628693,
+        "mean_duration": 845.4479402616364,
+        "first_quantile_duration": 387.0,
+        "median_duration": 618.0,
+        "third_quantile_duration": 999.0,
         "system": "mexico_city"
     },
     {
@@ -81,6 +54,15 @@
         "system": "mexico_city"
     },
     {
+        "year": 2023,
+        "trip_count": 12177599,
+        "mean_duration": 989.8102690850635,
+        "first_quantile_duration": 444.0,
+        "median_duration": 739.0,
+        "third_quantile_duration": 1224.0,
+        "system": "mexico_city"
+    },
+    {
         "year": 2014,
         "trip_count": 7952252,
         "mean_duration": 816.2090220480941,
@@ -90,12 +72,21 @@
         "system": "mexico_city"
     },
     {
-        "year": 2012,
-        "trip_count": 2737919,
-        "mean_duration": 851.0355759246347,
-        "first_quantile_duration": 338.0,
-        "median_duration": 519.0,
-        "third_quantile_duration": 844.0,
+        "year": 2017,
+        "trip_count": 9498067,
+        "mean_duration": 959.959872677251,
+        "first_quantile_duration": 399.0,
+        "median_duration": 642.0,
+        "third_quantile_duration": 1038.0,
+        "system": "mexico_city"
+    },
+    {
+        "year": 2020,
+        "trip_count": 3774962,
+        "mean_duration": 1228.611842715238,
+        "first_quantile_duration": 421.0,
+        "median_duration": 695.0,
+        "third_quantile_duration": 1164.0,
         "system": "mexico_city"
     },
     {
@@ -105,6 +96,15 @@
         "first_quantile_duration": 401.0,
         "median_duration": 648.0,
         "third_quantile_duration": 1055.0,
+        "system": "mexico_city"
+    },
+    {
+        "year": 2012,
+        "trip_count": 2737919,
+        "mean_duration": 851.0355759246347,
+        "first_quantile_duration": 338.0,
+        "median_duration": 519.0,
+        "third_quantile_duration": 844.0,
         "system": "mexico_city"
     },
     {

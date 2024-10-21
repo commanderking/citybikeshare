@@ -1,5 +1,14 @@
 [
     {
+        "year": 2013,
+        "trip_count": 1418,
+        "mean_duration": 2443.370944992948,
+        "first_quantile_duration": 600.0,
+        "median_duration": 1260.0,
+        "third_quantile_duration": 2940.0,
+        "system": "austin"
+    },
+    {
         "year": 2016,
         "trip_count": 194469,
         "mean_duration": 1830.9630840905234,
@@ -27,15 +36,6 @@
         "system": "austin"
     },
     {
-        "year": 2013,
-        "trip_count": 1418,
-        "mean_duration": 2443.370944992948,
-        "first_quantile_duration": 600.0,
-        "median_duration": 1260.0,
-        "third_quantile_duration": 2940.0,
-        "system": "austin"
-    },
-    {
         "year": 2017,
         "trip_count": 187868,
         "mean_duration": 1933.4226158792344,
@@ -54,21 +54,21 @@
         "system": "austin"
     },
     {
-        "year": 2020,
-        "trip_count": 101659,
-        "mean_duration": 2849.672139210498,
-        "first_quantile_duration": 540.0,
-        "median_duration": 1380.0,
-        "third_quantile_duration": 2700.0,
-        "system": "austin"
-    },
-    {
         "year": 2014,
         "trip_count": 150606,
         "mean_duration": 1747.0427473009042,
         "first_quantile_duration": 540.0,
         "median_duration": 900.0,
         "third_quantile_duration": 1620.0,
+        "system": "austin"
+    },
+    {
+        "year": 2020,
+        "trip_count": 101659,
+        "mean_duration": 2849.672139210498,
+        "first_quantile_duration": 540.0,
+        "median_duration": 1380.0,
+        "third_quantile_duration": 2700.0,
         "system": "austin"
     },
     {
@@ -90,21 +90,21 @@
         "system": "austin"
     },
     {
-        "year": 2024,
-        "trip_count": 141144,
-        "mean_duration": 1203.172929773848,
-        "first_quantile_duration": 300.0,
-        "median_duration": 480.0,
-        "third_quantile_duration": 1140.0,
-        "system": "austin"
-    },
-    {
         "year": 2021,
         "trip_count": 223995,
         "mean_duration": 1935.1835532043126,
         "first_quantile_duration": 360.0,
         "median_duration": 840.0,
         "third_quantile_duration": 2100.0,
+        "system": "austin"
+    },
+    {
+        "year": 2024,
+        "trip_count": 141144,
+        "mean_duration": 1203.172929773848,
+        "first_quantile_duration": 300.0,
+        "median_duration": 480.0,
+        "third_quantile_duration": 1140.0,
         "system": "austin"
     }
 ]

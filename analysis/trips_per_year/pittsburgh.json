@@ -1,5 +1,14 @@
 [
     {
+        "year": 2019,
+        "trip_count": 92668,
+        "mean_duration": 4158.218586782924,
+        "first_quantile_duration": 480.0,
+        "median_duration": 900.0,
+        "third_quantile_duration": 2160.0,
+        "system": "pittsburgh"
+    },
+    {
         "year": 2022,
         "trip_count": 83155,
         "mean_duration": 1949.2275870362575,
@@ -15,15 +24,6 @@
         "first_quantile_duration": 600.0,
         "median_duration": 1260.0,
         "third_quantile_duration": 3000.0,
-        "system": "pittsburgh"
-    },
-    {
-        "year": 2019,
-        "trip_count": 92668,
-        "mean_duration": 4158.218586782924,
-        "first_quantile_duration": 480.0,
-        "median_duration": 900.0,
-        "third_quantile_duration": 2160.0,
         "system": "pittsburgh"
     },
     {

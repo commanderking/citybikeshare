@@ -1,14 +1,5 @@
 [
     {
-        "year": 2016,
-        "trip_count": 98637,
-        "mean_duration": 1617.655646461267,
-        "first_quantile_duration": 360.0,
-        "median_duration": 660.0,
-        "third_quantile_duration": 1080.0,
-        "system": "los_angeles"
-    },
-    {
         "year": 2022,
         "trip_count": 290310,
         "mean_duration": 2680.9101994419757,
@@ -27,12 +18,12 @@
         "system": "los_angeles"
     },
     {
-        "year": 2020,
-        "trip_count": 209974,
-        "mean_duration": 3279.077409584044,
-        "first_quantile_duration": 420.0,
-        "median_duration": 900.0,
-        "third_quantile_duration": 1620.0,
+        "year": 2016,
+        "trip_count": 98637,
+        "mean_duration": 1617.655646461267,
+        "first_quantile_duration": 360.0,
+        "median_duration": 660.0,
+        "third_quantile_duration": 1080.0,
         "system": "los_angeles"
     },
     {
@@ -42,6 +33,15 @@
         "first_quantile_duration": 360.0,
         "median_duration": 660.0,
         "third_quantile_duration": 1260.0,
+        "system": "los_angeles"
+    },
+    {
+        "year": 2020,
+        "trip_count": 209974,
+        "mean_duration": 3279.077409584044,
+        "first_quantile_duration": 420.0,
+        "median_duration": 900.0,
+        "third_quantile_duration": 1620.0,
         "system": "los_angeles"
     },
     {
@@ -63,21 +63,21 @@
         "system": "los_angeles"
     },
     {
-        "year": 2024,
-        "trip_count": 263465,
-        "mean_duration": 1952.5441329967928,
-        "first_quantile_duration": 420.0,
-        "median_duration": 840.0,
-        "third_quantile_duration": 1620.0,
-        "system": "los_angeles"
-    },
-    {
         "year": 2021,
         "trip_count": 220997,
         "mean_duration": 3151.383412444513,
         "first_quantile_duration": 540.0,
         "median_duration": 1140.0,
         "third_quantile_duration": 2160.0,
+        "system": "los_angeles"
+    },
+    {
+        "year": 2024,
+        "trip_count": 263465,
+        "mean_duration": 1952.5441329967928,
+        "first_quantile_duration": 420.0,
+        "median_duration": 840.0,
+        "third_quantile_duration": 1620.0,
         "system": "los_angeles"
     }
 ]

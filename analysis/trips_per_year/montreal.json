@@ -1,14 +1,5 @@
 [
     {
-        "year": 2022,
-        "trip_count": 8927404,
-        "mean_duration": 1106.3660524380884,
-        "first_quantile_duration": 364.0,
-        "median_duration": 638.0,
-        "third_quantile_duration": 1088.0,
-        "system": "montreal"
-    },
-    {
         "year": 2016,
         "trip_count": 4000080,
         "mean_duration": 838.0558138837223,
@@ -27,12 +18,21 @@
         "system": "montreal"
     },
     {
-        "year": 2014,
-        "trip_count": 3136276,
-        "mean_duration": 790.2168941764054,
-        "first_quantile_duration": 360.0,
-        "median_duration": 600.0,
-        "third_quantile_duration": 1080.0,
+        "year": 2022,
+        "trip_count": 8927404,
+        "mean_duration": 1106.3660524380884,
+        "first_quantile_duration": 364.0,
+        "median_duration": 638.0,
+        "third_quantile_duration": 1088.0,
+        "system": "montreal"
+    },
+    {
+        "year": 2020,
+        "trip_count": 3264741,
+        "mean_duration": 936.8581124812044,
+        "first_quantile_duration": 422.0,
+        "median_duration": 753.0,
+        "third_quantile_duration": 1265.0,
         "system": "montreal"
     },
     {
@@ -45,21 +45,21 @@
         "system": "montreal"
     },
     {
+        "year": 2014,
+        "trip_count": 3136276,
+        "mean_duration": 790.2168941764054,
+        "first_quantile_duration": 360.0,
+        "median_duration": 600.0,
+        "third_quantile_duration": 1080.0,
+        "system": "montreal"
+    },
+    {
         "year": 2023,
         "trip_count": 11729664,
         "mean_duration": 1048.0808364161155,
         "first_quantile_duration": 358.0,
         "median_duration": 625.0,
         "third_quantile_duration": 1068.0,
-        "system": "montreal"
-    },
-    {
-        "year": 2020,
-        "trip_count": 3264741,
-        "mean_duration": 936.8581124812044,
-        "first_quantile_duration": 422.0,
-        "median_duration": 753.0,
-        "third_quantile_duration": 1265.0,
         "system": "montreal"
     },
     {

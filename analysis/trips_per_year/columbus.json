@@ -1,29 +1,11 @@
 [
     {
-        "year": 2022,
-        "trip_count": 53723,
-        "mean_duration": 1870.9721720678294,
-        "first_quantile_duration": 454.0,
-        "median_duration": 839.0,
-        "third_quantile_duration": 1673.0,
-        "system": "columbus"
-    },
-    {
         "year": 2013,
         "trip_count": 27908,
         "mean_duration": 1585.2058549519852,
         "first_quantile_duration": 495.0,
         "median_duration": 850.0,
         "third_quantile_duration": 1397.0,
-        "system": "columbus"
-    },
-    {
-        "year": 2019,
-        "trip_count": 21156,
-        "mean_duration": 3422.0493477027794,
-        "first_quantile_duration": 424.0,
-        "median_duration": 816.0,
-        "third_quantile_duration": 1574.0,
         "system": "columbus"
     },
     {
@@ -36,21 +18,21 @@
         "system": "columbus"
     },
     {
-        "year": 2023,
-        "trip_count": 65753,
-        "mean_duration": 1455.7369853846972,
-        "first_quantile_duration": 417.0,
-        "median_duration": 738.0,
-        "third_quantile_duration": 1432.0,
+        "year": 2022,
+        "trip_count": 53723,
+        "mean_duration": 1870.9721720678294,
+        "first_quantile_duration": 454.0,
+        "median_duration": 839.0,
+        "third_quantile_duration": 1673.0,
         "system": "columbus"
     },
     {
-        "year": 2017,
-        "trip_count": 52205,
-        "mean_duration": 1891.488650512403,
-        "first_quantile_duration": 500.0,
-        "median_duration": 926.0,
-        "third_quantile_duration": 1626.0,
+        "year": 2019,
+        "trip_count": 21156,
+        "mean_duration": 3422.0493477027794,
+        "first_quantile_duration": 424.0,
+        "median_duration": 816.0,
+        "third_quantile_duration": 1574.0,
         "system": "columbus"
     },
     {
@@ -63,12 +45,30 @@
         "system": "columbus"
     },
     {
+        "year": 2017,
+        "trip_count": 52205,
+        "mean_duration": 1891.488650512403,
+        "first_quantile_duration": 500.0,
+        "median_duration": 926.0,
+        "third_quantile_duration": 1626.0,
+        "system": "columbus"
+    },
+    {
         "year": 2014,
         "trip_count": 44839,
         "mean_duration": 1434.7515109614399,
         "first_quantile_duration": 441.0,
         "median_duration": 764.0,
         "third_quantile_duration": 1336.0,
+        "system": "columbus"
+    },
+    {
+        "year": 2023,
+        "trip_count": 65753,
+        "mean_duration": 1455.7369853846972,
+        "first_quantile_duration": 417.0,
+        "median_duration": 738.0,
+        "third_quantile_duration": 1432.0,
         "system": "columbus"
     },
     {

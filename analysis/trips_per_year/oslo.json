@@ -19,20 +19,11 @@
     },
     {
         "year": 2016,
-        "trip_count": 991971,
-        "mean_duration": 1802.2958503827228,
+        "trip_count": 1018594,
+        "mean_duration": 1789.0944920154645,
         "first_quantile_duration": 329.0,
-        "median_duration": 543.0,
-        "third_quantile_duration": 981.0,
-        "system": "oslo"
-    },
-    {
-        "year": 2020,
-        "trip_count": 1696054,
-        "mean_duration": 794.3420445339594,
-        "first_quantile_duration": 364.0,
-        "median_duration": 569.0,
-        "third_quantile_duration": 890.0,
+        "median_duration": 541.0,
+        "third_quantile_duration": 974.0,
         "system": "oslo"
     },
     {
@@ -46,29 +37,29 @@
     },
     {
         "year": 2017,
-        "trip_count": 1126811,
-        "mean_duration": 793.7182730733016,
-        "first_quantile_duration": 320.0,
+        "trip_count": 1128702,
+        "mean_duration": 793.4301011250091,
+        "first_quantile_duration": 319.0,
         "median_duration": 519.0,
         "third_quantile_duration": 843.0,
         "system": "oslo"
     },
     {
-        "year": 2018,
-        "trip_count": 636090,
-        "mean_duration": 834.923006178371,
-        "first_quantile_duration": 286.0,
-        "median_duration": 491.0,
-        "third_quantile_duration": 830.0,
+        "year": 2020,
+        "trip_count": 1696054,
+        "mean_duration": 794.3420445339594,
+        "first_quantile_duration": 364.0,
+        "median_duration": 569.0,
+        "third_quantile_duration": 890.0,
         "system": "oslo"
     },
     {
-        "year": 2024,
-        "trip_count": 963438,
-        "mean_duration": 793.5192300905715,
-        "first_quantile_duration": 363.0,
-        "median_duration": 568.0,
-        "third_quantile_duration": 883.0,
+        "year": 2018,
+        "trip_count": 643167,
+        "mean_duration": 835.3949907255814,
+        "first_quantile_duration": 286.0,
+        "median_duration": 491.0,
+        "third_quantile_duration": 832.0,
         "system": "oslo"
     },
     {
@@ -78,6 +69,15 @@
         "first_quantile_duration": 363.0,
         "median_duration": 559.0,
         "third_quantile_duration": 857.0,
+        "system": "oslo"
+    },
+    {
+        "year": 2024,
+        "trip_count": 986260,
+        "mean_duration": 789.3899712043477,
+        "first_quantile_duration": 362.0,
+        "median_duration": 566.0,
+        "third_quantile_duration": 879.0,
         "system": "oslo"
     }
 ]
