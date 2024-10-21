@@ -1,0 +1,11 @@
+[
+    {
+        "year": 2024,
+        "trip_count": 170979,
+        "mean_duration": 748.8960340158733,
+        "first_quantile_duration": 343.0,
+        "median_duration": 519.0,
+        "third_quantile_duration": 811.0,
+        "system": "trondheim"
+    }
+]

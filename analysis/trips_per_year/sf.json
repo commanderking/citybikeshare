@@ -1,14 +1,5 @@
 [
     {
-        "year": 2022,
-        "trip_count": 2614800,
-        "mean_duration": 991.137902707664,
-        "first_quantile_duration": 354.0,
-        "median_duration": 596.0,
-        "third_quantile_duration": 972.0,
-        "system": "sf"
-    },
-    {
         "year": 2019,
         "trip_count": 2506983,
         "mean_duration": 808.1420540147261,
@@ -18,12 +9,12 @@
         "system": "sf"
     },
     {
-        "year": 2017,
-        "trip_count": 519700,
-        "mean_duration": 1099.4409101404656,
-        "first_quantile_duration": 382.0,
-        "median_duration": 596.5,
-        "third_quantile_duration": 939.0,
+        "year": 2022,
+        "trip_count": 2614800,
+        "mean_duration": 991.137902707664,
+        "first_quantile_duration": 354.0,
+        "median_duration": 596.0,
+        "third_quantile_duration": 972.0,
         "system": "sf"
     },
     {
@@ -45,6 +36,15 @@
         "system": "sf"
     },
     {
+        "year": 2017,
+        "trip_count": 519700,
+        "mean_duration": 1099.4409101404656,
+        "first_quantile_duration": 382.0,
+        "median_duration": 596.5,
+        "third_quantile_duration": 939.0,
+        "system": "sf"
+    },
+    {
         "year": 2018,
         "trip_count": 1863721,
         "mean_duration": 857.7970200475286,
@@ -54,21 +54,21 @@
         "system": "sf"
     },
     {
-        "year": 2024,
-        "trip_count": 2494958,
-        "mean_duration": 787.2370568963486,
-        "first_quantile_duration": 326.0,
-        "median_duration": 549.0,
-        "third_quantile_duration": 888.0,
-        "system": "sf"
-    },
-    {
         "year": 2021,
         "trip_count": 2035163,
         "mean_duration": 1181.5111570915942,
         "first_quantile_duration": 383.0,
         "median_duration": 649.0,
         "third_quantile_duration": 1071.0,
+        "system": "sf"
+    },
+    {
+        "year": 2024,
+        "trip_count": 2494958,
+        "mean_duration": 787.2370568963486,
+        "first_quantile_duration": 326.0,
+        "median_duration": 549.0,
+        "third_quantile_duration": 888.0,
         "system": "sf"
     }
 ]

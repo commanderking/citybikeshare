@@ -18,12 +18,12 @@
         "system": "vancouver"
     },
     {
-        "year": 2023,
-        "trip_count": 1340197,
-        "mean_duration": 817.4301158710249,
-        "first_quantile_duration": 338.0,
-        "median_duration": 646.0,
-        "third_quantile_duration": 1208.0,
+        "year": 2020,
+        "trip_count": 500377,
+        "mean_duration": 1365.630078920494,
+        "first_quantile_duration": 400.0,
+        "median_duration": 719.0,
+        "third_quantile_duration": 1228.0,
         "system": "vancouver"
     },
     {
@@ -36,12 +36,12 @@
         "system": "vancouver"
     },
     {
-        "year": 2020,
-        "trip_count": 500377,
-        "mean_duration": 1365.630078920494,
-        "first_quantile_duration": 400.0,
-        "median_duration": 719.0,
-        "third_quantile_duration": 1228.0,
+        "year": 2023,
+        "trip_count": 1340197,
+        "mean_duration": 817.4301158710249,
+        "first_quantile_duration": 338.0,
+        "median_duration": 646.0,
+        "third_quantile_duration": 1208.0,
         "system": "vancouver"
     },
     {

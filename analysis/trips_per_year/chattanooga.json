@@ -9,21 +9,21 @@
         "system": "chattanooga"
     },
     {
-        "year": 2019,
-        "trip_count": 74397,
-        "mean_duration": 2468.3834025565548,
-        "first_quantile_duration": 540.0,
-        "median_duration": 1380.0,
-        "third_quantile_duration": 2580.0,
-        "system": "chattanooga"
-    },
-    {
         "year": 2016,
         "trip_count": 53744,
         "mean_duration": 2260.090056564454,
         "first_quantile_duration": 600.0,
         "median_duration": 1560.0,
         "third_quantile_duration": 2760.0,
+        "system": "chattanooga"
+    },
+    {
+        "year": 2019,
+        "trip_count": 74397,
+        "mean_duration": 2468.3834025565548,
+        "first_quantile_duration": 540.0,
+        "median_duration": 1380.0,
+        "third_quantile_duration": 2580.0,
         "system": "chattanooga"
     },
     {
@@ -45,21 +45,21 @@
         "system": "chattanooga"
     },
     {
-        "year": 2017,
-        "trip_count": 52566,
-        "mean_duration": 3178.1691587718296,
-        "first_quantile_duration": 840.0,
-        "median_duration": 1800.0,
-        "third_quantile_duration": 2940.0,
-        "system": "chattanooga"
-    },
-    {
         "year": 2020,
         "trip_count": 88793,
         "mean_duration": 2368.2265493901546,
         "first_quantile_duration": 780.0,
         "median_duration": 1800.0,
         "third_quantile_duration": 2820.0,
+        "system": "chattanooga"
+    },
+    {
+        "year": 2017,
+        "trip_count": 52566,
+        "mean_duration": 3178.1691587718296,
+        "first_quantile_duration": 840.0,
+        "median_duration": 1800.0,
+        "third_quantile_duration": 2940.0,
         "system": "chattanooga"
     },
     {
@@ -72,21 +72,21 @@
         "system": "chattanooga"
     },
     {
-        "year": 2018,
-        "trip_count": 53311,
-        "mean_duration": 2620.306503348277,
-        "first_quantile_duration": 540.0,
-        "median_duration": 1500.0,
-        "third_quantile_duration": 2700.0,
-        "system": "chattanooga"
-    },
-    {
         "year": 2012,
         "trip_count": 10932,
         "mean_duration": -119006.99231613611,
         "first_quantile_duration": 360.0,
         "median_duration": 900.0,
         "third_quantile_duration": 2280.0,
+        "system": "chattanooga"
+    },
+    {
+        "year": 2018,
+        "trip_count": 53311,
+        "mean_duration": 2620.306503348277,
+        "first_quantile_duration": 540.0,
+        "median_duration": 1500.0,
+        "third_quantile_duration": 2700.0,
         "system": "chattanooga"
     },
     {
