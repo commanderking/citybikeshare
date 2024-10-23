@@ -13,6 +13,17 @@ import constants
 other_cities = constants.GLOBAL_CITIES
 all_cities = constants.ALL_CITIES
 
+city_builders = {
+    "vancouver": vancouver.build_trips,
+    "oslo": oslo.build_trips,
+    "bergen": bergen.build_trips,
+    "trondheim": trondheim.build_trips,
+    "taipei": taipei.create_all_trips_parquet,
+    "toronto": toronto.build_trips,
+    "montreal": montreal.build_trips,
+    "mexico_city": mexico_city.build_trips,
+}
+
 
 def setup_argparse():
     parser = argparse.ArgumentParser(
@@ -31,43 +42,26 @@ def setup_argparse():
         action="store_true",
     )
 
-    parser.add_argument("city", choices=set(all_cities))
+    parser.add_argument("city", choices=set([*all_cities, "all"]))
 
     args = parser.parse_args()
     return args
 
 
-def build_all_trips_file():
-    args = setup_argparse()
+def build_city(args):
     city = args.city
-
-    if city == "vancouver":
-        vancouver.build_trips(args)
-
-    if city == "oslo":
-        oslo.build_trips(args)
-
-    if city == "bergen":
-        bergen.build_trips(args)
-
-    if city == "trondheim":
-        trondheim.build_trips(args)
-
     if city in constants.US_CITIES:
         usa_utils.build_all_trips(args)
-
-    if city == "taipei":
-        taipei.create_all_trips_parquet(args)
-
-    if city == "toronto":
-        toronto.build_trips(args)
-
-    if city == "montreal":
-        montreal.build_trips(args)
-
-    if city == "mexico_city":
-        mexico_city.build_trips(args)
+    else:
+        city_builders[city](args)
 
 
 if __name__ == "__main__":
-    build_all_trips_file()
+    args = setup_argparse()
+    city = args.city
+
+    if city == "all":
+        for city in all_cities:
+            setattr(args, "city", city)
+            build_city(args)
+    build_city(args)

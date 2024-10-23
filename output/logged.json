@@ -4,7 +4,7 @@
             "total_rows": 7352332,
             "null_rows": 51,
             "percent_null": 0.0,
-            "updated_at": "2024-10-18 21:48:31"
+            "updated_at": "2024-10-23 18:56:45"
         }
     },
     "pittsburgh": {
@@ -12,7 +12,7 @@
             "total_rows": 1095250,
             "null_rows": 408,
             "percent_null": 0.04,
-            "updated_at": "2024-10-15 20:22:00"
+            "updated_at": "2024-10-23 18:56:46"
         }
     },
     "boston": {
@@ -20,7 +20,7 @@
             "total_rows": 23854295,
             "null_rows": 24419,
             "percent_null": 0.1,
-            "updated_at": "2024-10-19 09:57:02"
+            "updated_at": "2024-10-23 18:50:27"
         }
     },
     "columbus": {
@@ -28,15 +28,15 @@
             "total_rows": 541083,
             "null_rows": 44714,
             "percent_null": 8.26,
-            "updated_at": "2024-10-15 19:19:10"
+            "updated_at": "2024-10-23 18:49:13"
         }
     },
     "chicago": {
         "final_data": {
-            "total_rows": 46041343,
-            "null_rows": 5078545,
-            "percent_null": 11.03,
-            "updated_at": "2024-10-15 19:26:41"
+            "total_rows": 46498524,
+            "null_rows": 5192702,
+            "percent_null": 11.17,
+            "updated_at": "2024-10-23 18:50:02"
         }
     },
     "nyc": {
@@ -44,7 +44,7 @@
             "total_rows": 246014252,
             "null_rows": 402138,
             "percent_null": 0.16,
-            "updated_at": "2024-10-15 21:01:03"
+            "updated_at": "2024-10-23 18:56:30"
         }
     },
     "los_angeles": {
@@ -52,7 +52,7 @@
             "total_rows": 2355984,
             "null_rows": 2101,
             "percent_null": 0.09,
-            "updated_at": "2024-10-15 20:26:36"
+            "updated_at": "2024-10-23 18:56:48"
         }
     },
     "sf": {
@@ -60,7 +60,7 @@
             "total_rows": 16651687,
             "null_rows": 3347986,
             "percent_null": 20.11,
-            "updated_at": "2024-10-15 20:04:52"
+            "updated_at": "2024-10-23 18:56:41"
         }
     },
     "dc": {
@@ -68,7 +68,7 @@
             "total_rows": 43026944,
             "null_rows": 2399969,
             "percent_null": 5.58,
-            "updated_at": "2024-10-15 19:33:33"
+            "updated_at": "2024-10-23 18:50:49"
         }
     },
     "toronto": {
@@ -76,7 +76,7 @@
             "total_rows": 22559332,
             "null_rows": 16,
             "percent_null": 0.0,
-            "updated_at": "2024-10-18 21:54:05"
+            "updated_at": "2024-10-23 18:58:06"
         }
     },
     "taipei": {
@@ -84,7 +84,7 @@
             "total_rows": 93013407,
             "null_rows": 702,
             "percent_null": 0.0,
-            "updated_at": "2024-10-18 20:33:25"
+            "updated_at": "2024-10-23 18:57:50"
         }
     },
     "austin": {
@@ -92,7 +92,7 @@
             "total_rows": 2271153,
             "null_rows": 0,
             "percent_null": 0.0,
-            "updated_at": "2024-10-15 20:36:09"
+            "updated_at": "2024-10-23 18:56:53"
         }
     },
     "chattanooga": {
@@ -100,7 +100,7 @@
             "total_rows": 623469,
             "null_rows": 2134,
             "percent_null": 0.34,
-            "updated_at": "2024-10-15 20:43:25"
+            "updated_at": "2024-10-23 18:56:54"
         }
     },
     "mexico_city": {
@@ -108,7 +108,7 @@
             "total_rows": 100946389,
             "null_rows": 838522,
             "percent_null": 0.83,
-            "updated_at": "2024-10-18 21:52:43"
+            "updated_at": "2024-10-23 18:58:52"
         }
     },
     "montreal": {
@@ -116,7 +116,7 @@
             "total_rows": 64445475,
             "null_rows": 194392,
             "percent_null": 0.3,
-            "updated_at": "2024-10-08 17:44:23"
+            "updated_at": "2024-10-23 19:00:12"
         }
     },
     "vancouver": {
@@ -124,23 +124,23 @@
             "total_rows": 6371075,
             "null_rows": 241138,
             "percent_null": 3.78,
-            "updated_at": "2024-10-11 14:35:48"
+            "updated_at": "2024-10-23 19:00:16"
         }
     },
     "oslo": {
         "final_data": {
-            "total_rows": 11545126,
+            "total_rows": 11546072,
             "null_rows": 0,
             "percent_null": 0.0,
-            "updated_at": "2024-10-19 11:17:18"
+            "updated_at": "2024-10-23 19:00:30"
         }
     },
     "bergen": {
         "final_data": {
-            "total_rows": 4127911,
+            "total_rows": 4128284,
             "null_rows": 0,
             "percent_null": 0.0,
-            "updated_at": "2024-10-19 10:09:29"
+            "updated_at": "2024-10-23 19:00:37"
         }
     },
     "trondheim": {
@@ -148,7 +148,7 @@
             "total_rows": 170979,
             "null_rows": 0,
             "percent_null": 0.0,
-            "updated_at": "2024-10-19 11:16:30"
+            "updated_at": "2024-10-23 19:00:39"
         }
     }
 }

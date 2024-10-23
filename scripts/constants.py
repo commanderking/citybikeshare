@@ -434,9 +434,7 @@ config = {
                 ],
             }
         ],
-        "date_formats": [
-            "%Y-%m-%d %H:%M:%S",
-        ],
+        "date_formats": ["%Y-%m-%d %H:%M:%S", "%Y-%m-%d %H:%M:%S%.6f"],
     },
     "chattanooga": {
         "name": "chattanooga",
