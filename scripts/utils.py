@@ -49,14 +49,17 @@ def get_analysis_directory():
 
 def get_all_trips_path(args):
     file_format = get_output_format(args.csv)
-    path = get_output_directory() / f"{args.city}_all_trips.{file_format}"
-    return path
+    path = get_output_directory() / "historical_trips"
+    path.mkdir(parents=True, exist_ok=True)
+
+    return path / f"{args.city}_all_trips.{file_format}"
 
 
 def get_recent_year_path(args):
     file_format = get_output_format(args.csv)
-    path = get_output_directory() / f"{args.city}_recent_year.{file_format}"
-    return path
+    path = get_output_directory() / "current_year"
+    path.mkdir(parents=True, exist_ok=True)
+    return path / f"{args.city}_current_year.{file_format}"
 
 
 def get_csv_files(directory):
@@ -137,7 +140,10 @@ def convert_columns_to_datetime(date_column_names, date_formats):
             [
                 pl.coalesce(
                     [
-                        df[date_column].str.strptime(pl.Datetime, format, strict=False)
+                        df[date_column]
+                        # Some data has milliseconds, and some even have a mix of milliseconds and microseconds. Just remove these to reduce the trouble of formatting different datetimes
+                        .str.replace(r"\.\d+", "")
+                        .str.strptime(pl.Datetime, format, strict=False)
                         for format in date_formats
                     ]
                 ).alias(date_column)
