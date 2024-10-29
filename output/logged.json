@@ -145,10 +145,10 @@
     },
     "trondheim": {
         "final_data": {
-            "total_rows": 170979,
-            "null_rows": 0,
-            "percent_null": 0.0,
-            "updated_at": "2024-10-23 19:00:39"
+            "total_rows": 1199715,
+            "null_rows": 983,
+            "percent_null": 0.08,
+            "updated_at": "2024-10-28 23:06:45"
         }
     }
 }
