@@ -1,5 +1,5 @@
 import os
-from playwright.sync_api import sync_playwright
+from playwright.sync_api import sync_playwright, TimeoutError as PlaywrightTimeoutError
 import scripts.utils as utils
 
 
@@ -12,11 +12,15 @@ def click_buttons_to_download(page, buttons, zip_path, csv_path):
             button.get_attribute("content").split(".no/")[1].replace("/", "-")
         )
         target_folder = zip_path if desired_filename.endswith(".zip") else csv_path
-        with page.expect_download(timeout=120000) as download_info:
-            button.click()
-            download = download_info.value
-            print(f"Downloading {desired_filename}")
-            download.save_as(os.path.join(target_folder, desired_filename))
+        try:
+            with page.expect_download(timeout=5000) as download_info:
+                button.click()
+                download = download_info.value
+                print(f"Downloading {desired_filename}")
+                download.save_as(os.path.join(target_folder, desired_filename))
+        # For Trondheim, certain months do not have trip data. Rather than not show these files, Trondheim has a link, but the link leads to nothing!
+        except PlaywrightTimeoutError:
+            print("No valid download found")
 
 
 def run_get_exports(playwright, url, zip_path, csv_path):
