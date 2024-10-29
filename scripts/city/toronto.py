@@ -111,31 +111,34 @@ def create_all_trips_df():
 
         df = map_columns(df)
         date_formats = ["%m/%d/%Y %H:%M", "%m/%d/%Y %H:%M:%S", "%d/%m/%Y %H:%M"]
-        df = df.with_columns(
-            [
-                pl.coalesce(
-                    [
-                        pl.col("start_time").str.strptime(
-                            pl.Datetime, format, strict=False
-                        )
-                        for format in date_formats
-                    ]
-                ),
-                pl.coalesce(
-                    [
-                        pl.col("end_time").str.strptime(
-                            pl.Datetime, format, strict=False
-                        )
-                        for format in date_formats
-                    ]
-                ),
-                pl.col("duration").cast(pl.Int32),
-            ]
-        )
-
-        # If the start time and end time are both null, assume it's an invalid entry
-        df = df.filter(
-            pl.col("start_time").is_not_null() & pl.col("end_time").is_not_null()
+        df = (
+            df.with_columns(
+                [
+                    pl.coalesce(
+                        [
+                            pl.col("start_time").str.strptime(
+                                pl.Datetime, format, strict=False
+                            )
+                            for format in date_formats
+                        ]
+                    ),
+                    pl.coalesce(
+                        [
+                            pl.col("end_time").str.strptime(
+                                pl.Datetime, format, strict=False
+                            )
+                            for format in date_formats
+                        ]
+                    ),
+                    pl.col("duration").cast(pl.Int32),
+                ]
+            )
+            # Toronto has a few data points in 2017 that have year as 17
+            .pipe(utils.offset_two_digit_years)
+            # 2020-10.csv has 249 rows where start and end date are null
+            .filter(
+                pl.col("start_time").is_not_null() & pl.col("end_time").is_not_null()
+            )
         )
         dfs.append(df)
     return pl.concat(dfs)
