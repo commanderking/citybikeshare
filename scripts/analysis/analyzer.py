@@ -19,7 +19,7 @@ def handle_duration(df):
 
 def get_trips_per_year(city):
     print(f"reading {city}")
-    parquet_file = f"./output/{city}_all_trips.parquet"
+    parquet_file = f"./output/historical_trips/{city}_all_trips.parquet"
 
     query = (
         pl.scan_parquet(parquet_file)
@@ -67,7 +67,7 @@ def output_recent_dates(cities):
     most_recent_dates = []
     for city in cities:
         print(f"reading {city}")
-        parquet_file = f"./output/{city}_all_trips.parquet"
+        parquet_file = f"./output/historical_trips/{city}_all_trips.parquet"
 
         lazy_frame = pl.scan_parquet(parquet_file).select(
             pl.max("end_time").dt.strftime("%Y-%m-%d")

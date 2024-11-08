@@ -112,6 +112,7 @@ def create_df_with_all_trips(folder_path):
             df = df.rename({"Hora_Arribo\r": "Hora_Arribo"})
         if "Hora Arribo" in headers:
             df = df.rename({"Hora Arribo": "Hora_Arribo"})
+        # In one file 2021-06, there are two headers for Hora Retiro. The duplicated one shoudl be Hora_Retiro
         if "Hora_Retiro_duplicated_0" in headers:
             df = df.rename({"Hora_Retiro_duplicated_0": "Hora_Arribo"})
 

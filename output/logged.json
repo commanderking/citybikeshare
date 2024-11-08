@@ -28,7 +28,7 @@
             "total_rows": 541083,
             "null_rows": 44714,
             "percent_null": 8.26,
-            "updated_at": "2024-10-23 18:49:13"
+            "updated_at": "2024-11-08 07:54:28"
         }
     },
     "chicago": {
@@ -36,7 +36,7 @@
             "total_rows": 46498524,
             "null_rows": 5192702,
             "percent_null": 11.17,
-            "updated_at": "2024-10-23 18:50:02"
+            "updated_at": "2024-11-08 09:12:18"
         }
     },
     "nyc": {
@@ -44,7 +44,7 @@
             "total_rows": 246014252,
             "null_rows": 402138,
             "percent_null": 0.16,
-            "updated_at": "2024-10-23 18:56:30"
+            "updated_at": "2024-11-08 15:56:16"
         }
     },
     "los_angeles": {
@@ -52,7 +52,7 @@
             "total_rows": 2355984,
             "null_rows": 2101,
             "percent_null": 0.09,
-            "updated_at": "2024-10-23 18:56:48"
+            "updated_at": "2024-11-08 09:51:41"
         }
     },
     "sf": {
@@ -108,7 +108,7 @@
             "total_rows": 100946389,
             "null_rows": 838522,
             "percent_null": 0.83,
-            "updated_at": "2024-10-23 18:58:52"
+            "updated_at": "2024-11-08 15:49:41"
         }
     },
     "montreal": {
@@ -116,7 +116,7 @@
             "total_rows": 64445475,
             "null_rows": 194392,
             "percent_null": 0.3,
-            "updated_at": "2024-10-23 19:00:12"
+            "updated_at": "2024-11-08 08:20:41"
         }
     },
     "vancouver": {
@@ -148,7 +148,7 @@
             "total_rows": 1199715,
             "null_rows": 983,
             "percent_null": 0.08,
-            "updated_at": "2024-10-28 23:06:45"
+            "updated_at": "2024-11-01 20:49:45"
         }
     }
 }

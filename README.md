@@ -135,3 +135,13 @@ Mexico City Issues
 ### Unique areas 
 - Do they do things that others don't? 
 - Make ride times anonymous (Taipei and Vancouver) 
+
+
+
+### Correspondance
+
+- Montreal Open Data says I need to contact Bixi (super fast response)
+- Taipei responded within a few days, and the data took a little time to update (two weeks?)
+- Chattanooga responded the day of - said data would be available in two weeks
+- Spain says there's no plan to returning to publish data. 
+- Portland moved to a dashboard, but does not provide granular data any more
