@@ -24,7 +24,7 @@ renamed_columns = {
 }
 
 
-def create_all_trips_df(args):
+def create_all_trips_df():
     files = utils.get_csv_files(CSV_PATH)
     all_dfs = []
     for file in files:
@@ -42,7 +42,7 @@ def create_all_trips_df(args):
 
 
 def build_trips(args):
-    df = create_all_trips_df(args)
+    df = create_all_trips_df()
     utils.log_final_results(df, args)
     utils.create_all_trips_file(df, args)
     utils.create_recent_year_file(df, args)

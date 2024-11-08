@@ -2,7 +2,7 @@ import os
 import polars as pl
 from playwright.sync_api import sync_playwright
 import scripts.utils as utils
-
+import scripts.logger as logger
 
 CSV_PATH = utils.get_zip_directory("montreal")
 OPEN_DATA_URL = "https://bixi.com/en/open-data/"
@@ -58,18 +58,33 @@ recent_days_columns = {
 final_columns = ["start_station_name", "end_station_name", "start_time", "end_time"]
 
 
-def get_renamed_columns(headers):
+def get_renamed_columns(df):
+    headers = df.columns
+    renamed_columns = {}
     ### Bixi has had three separate column names in its history
     if "start_station_code" in headers:
-        return earliest_days_columns
+        renamed_columns = earliest_days_columns
+    elif "emplacement_pk_start" in headers:
+        renamed_columns = emplacement_days_columns
+    elif "STARTSTATIONNAME" in headers:
+        renamed_columns = recent_days_columns
+    else:
+        raise Exception("Did not find matching set of headers to rename columns")
 
-    if "emplacement_pk_start" in headers:
-        return emplacement_days_columns
+    return df.rename(renamed_columns)
 
-    if "STARTSTATIONNAME" in headers:
-        return recent_days_columns
 
-    raise Exception("Did not find matching set of headers to rename columns")
+def convert_milliseconds_to_datetime(df):
+    headers = df.columns
+    ### most recent Montreal data notes start time and end time in ms whereas previous versions used a date.
+    if "start_ms" in headers:
+        df = df.with_columns(
+            [
+                pl.from_epoch("start_ms", time_unit="ms").alias("start_time"),
+                pl.from_epoch("end_ms", time_unit="ms").alias("end_time"),
+            ]
+        )
+    return df
 
 
 def create_all_trips_df():
@@ -78,30 +93,25 @@ def create_all_trips_df():
     for file in files:
         print(f"reading {file}")
         if "station" not in file.lower():
-            df = pl.read_csv(file, null_values="MTL-ECO5.1-01")
-            renamed_columns = get_renamed_columns(df.columns)
-            df = df.rename(renamed_columns)
-            post_rename_headers = df.columns
-
-            ### most recent Montreal data notes start time and end time in ms whereas previous versions used a date.
-            if "start_ms" in post_rename_headers:
-                df = df.with_columns(
+            df = (
+                pl.read_csv(file, null_values="MTL-ECO5.1-01")
+                .pipe(get_renamed_columns)
+                .pipe(convert_milliseconds_to_datetime)
+                .select(final_columns)
+                .pipe(logger.print_null_data_df)
+                .with_columns(
                     [
-                        pl.from_epoch("start_ms", time_unit="ms").alias("start_time"),
-                        pl.from_epoch("end_ms", time_unit="ms").alias("end_time"),
+                        pl.col("start_station_name").cast(pl.String),
+                        pl.col("end_station_name").cast(pl.String),
                     ]
                 )
-            df = df.with_columns(
-                [
-                    pl.col("start_station_name").cast(pl.String),
-                    pl.col("end_station_name").cast(pl.String),
-                ]
+                .pipe(
+                    utils.convert_columns_to_datetime(
+                        ["start_time", "end_time"], date_formats
+                    )
+                )
             )
-
-            df = utils.convert_columns_to_datetime(
-                ["start_time", "end_time"], date_formats
-            )(df)
-            all_dfs.append(df.select(final_columns))
+            all_dfs.append(df)
 
     all_trips = pl.concat(all_dfs, how="diagonal")
     return all_trips
@@ -110,11 +120,11 @@ def create_all_trips_df():
 def build_trips(args):
     if not args.skip_unzip:
         utils.unzip_city_zips("montreal")
-    all_trips_df = create_all_trips_df()
+    df = create_all_trips_df()
 
-    utils.create_all_trips_file(all_trips_df, args)
-    utils.create_recent_year_file(all_trips_df, args)
-    utils.log_final_results(all_trips_df, args)
+    utils.create_all_trips_file(df, args)
+    utils.create_recent_year_file(df, args)
+    utils.log_final_results(df, args)
 
 
 def get_exports(url, csv_path):

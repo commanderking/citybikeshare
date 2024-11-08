@@ -3,6 +3,7 @@ import polars as pl
 import utils
 import constants
 import utils_bicycle_transit_systems
+import logger
 
 
 def filter_filenames(filenames, args):
@@ -82,6 +83,7 @@ def format_and_concat_files(trip_files, args):
         df = (
             pl.read_csv(file, infer_schema_length=0)
             .pipe(utils.rename_columns(args, mappings))
+            .pipe(logger.print_null_data_df)
             .pipe(utils.assess_null_data)
             ### TODO - move this to configuration for preprocessing. Austin doesn't have end_time so we need to calculate before casting times
             .pipe(austin_check(args))
