@@ -150,5 +150,13 @@
             "percent_null": 0.08,
             "updated_at": "2024-11-01 20:49:45"
         }
+    },
+    "jersey_city": {
+        "final_data": {
+            "total_rows": 5132139,
+            "null_rows": 12848,
+            "percent_null": 0.25,
+            "updated_at": "2024-11-08 21:18:26"
+        }
     }
 }

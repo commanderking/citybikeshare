@@ -447,6 +447,22 @@ config = {
         ],
         "date_formats": ["%m/%d/%Y %I:%M:%S %p"],
     },
+    ## Jersey City follows NYC in terms of headers
+    "jersey_city": {
+        "name": "jersey_city",
+        "file_matcher": ["JC-"],
+        "column_mappings": [
+            {"header_matcher": "ride_id", "mapping": commonized_system_data_columns},
+            {"header_matcher": "bikeid", "mapping": nyc_renamed_columns_initial},
+            {
+                "header_matcher": "Trip Duration",
+                "mapping": nyc_renamed_columns_2017_03_to_2020_01,
+            },
+        ],
+        "date_formats": [
+            "%Y-%m-%d %H:%M:%S",
+        ],
+    },
 }
 
 US_CITIES = list(config.keys())
