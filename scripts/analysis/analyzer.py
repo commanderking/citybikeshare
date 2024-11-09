@@ -83,7 +83,6 @@ def output_recent_dates(cities):
 
 
 def analyze_city(city):
-    output_recent_dates(scripts.constants.ALL_CITIES)
     return get_all_cities_trip_per_year(city)
 
 

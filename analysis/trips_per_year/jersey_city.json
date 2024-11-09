@@ -1,0 +1,92 @@
+[
+    {
+        "year": 2019,
+        "trip_count": 404947,
+        "mean_duration": 726.3417237317476,
+        "first_quantile_duration": 234.0,
+        "median_duration": 345.0,
+        "third_quantile_duration": 580.0,
+        "system": "jersey_city"
+    },
+    {
+        "year": 2022,
+        "trip_count": 895485,
+        "mean_duration": 1052.5206050352601,
+        "first_quantile_duration": 271.0,
+        "median_duration": 432.0,
+        "third_quantile_duration": 735.0,
+        "system": "jersey_city"
+    },
+    {
+        "year": 2016,
+        "trip_count": 247584,
+        "mean_duration": 886.1297377859636,
+        "first_quantile_duration": 249.0,
+        "median_duration": 390.0,
+        "third_quantile_duration": 667.0,
+        "system": "jersey_city"
+    },
+    {
+        "year": 2017,
+        "trip_count": 294928,
+        "mean_duration": 740.1886358704497,
+        "first_quantile_duration": 233.0,
+        "median_duration": 345.0,
+        "third_quantile_duration": 588.0,
+        "system": "jersey_city"
+    },
+    {
+        "year": 2023,
+        "trip_count": 988851,
+        "mean_duration": 749.5697835164246,
+        "first_quantile_duration": 244.0,
+        "median_duration": 378.0,
+        "third_quantile_duration": 611.0,
+        "system": "jersey_city"
+    },
+    {
+        "year": 2020,
+        "trip_count": 336802,
+        "mean_duration": 1575.183407461951,
+        "first_quantile_duration": 327.0,
+        "median_duration": 615.0,
+        "third_quantile_duration": 1416.0,
+        "system": "jersey_city"
+    },
+    {
+        "year": 2015,
+        "trip_count": 52883,
+        "mean_duration": 1579.5147211769377,
+        "first_quantile_duration": 273.0,
+        "median_duration": 426.0,
+        "third_quantile_duration": 722.0,
+        "system": "jersey_city"
+    },
+    {
+        "year": 2018,
+        "trip_count": 353892,
+        "mean_duration": 673.8943886835532,
+        "first_quantile_duration": 229.0,
+        "median_duration": 335.0,
+        "third_quantile_duration": 550.0,
+        "system": "jersey_city"
+    },
+    {
+        "year": 2024,
+        "trip_count": 912324,
+        "mean_duration": 656.7650231715926,
+        "first_quantile_duration": 244.0,
+        "median_duration": 373.0,
+        "third_quantile_duration": 594.0,
+        "system": "jersey_city"
+    },
+    {
+        "year": 2021,
+        "trip_count": 644443,
+        "mean_duration": 1324.1062421346805,
+        "first_quantile_duration": 307.0,
+        "median_duration": 506.0,
+        "third_quantile_duration": 919.0,
+        "system": "jersey_city"
+    }
+]
