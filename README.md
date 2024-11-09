@@ -12,6 +12,7 @@ Currently, data is available for:
 | Chattanooga   | <https://internal.chattadata.org/Recreation/Bike-Chattanooga-Trip-Data/tdrg-39c4/about_data> | 
 | Columbus      | <https://cogobikeshare.com/system-data> |
 | Chicago       | <https://divvybikes.com/system-data> |
+| Jersey City   | <https://citibikenyc.com/system-data> |
 | Los Angeles   | <https://bikeshare.metro.net/about/data/> |
 | Mexico City   | <https://ecobici.cdmx.gob.mx/en/open-data/> |
 | Montreal      | <https://bixi.com/en/open-data/> |
