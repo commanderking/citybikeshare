@@ -198,46 +198,74 @@ def create_recent_year_file(df, args, date_column="start_time"):
         print("parquet files created")
 
 
+def get_bookend_dates(df):
+    df_sorted = df.sort("start_time")
+
+    return df_sorted.head(1).select("start_time").item().isoformat(), df_sorted.tail(
+        1
+    ).select("end_time").item().isoformat()
+
+
+def get_null_rows_by_year(df):
+    df_null_rows = df.filter(pl.any_horizontal(pl.all().is_null()))
+    result = (
+        df_null_rows.with_columns(
+            pl.col("start_time").dt.year().alias("year")  # Add a 'year' column
+        )
+        .groupby("year")
+        .agg(
+            pl.count().alias(
+                "total_null_rows"
+            )  # Count the rows with nulls for each year
+        )
+        .sort("year")
+    )
+
+    return result.to_dicts()
+
+
 def log_final_results(df, args):
     """Print all rows that have NULL in at least one column"""
 
     city = args.city
-    city_json = {"final_data": {}}
+    null_counts = {}
+    city_json = {}
     json_data = {}
 
     output_directory = get_output_directory()
-    logged_path = output_directory / "logged.json"
+    summary_path = output_directory / "system_statistics.json"
+
     try:
-        with open(logged_path, "r") as f:
+        with open(summary_path, "r") as f:
             json_data = json.load(f)
     except Exception as e:
         print(f"No logging file found, will create new one. Error: {e}")
 
+    null_rows_by_year = get_null_rows_by_year(df)
     headers = df.columns
     for header in headers:
         null_count = df.select(pl.col(header).is_null().sum()).item()
-        print(f"Column {header} has {null_count} rows with null values")
-        city_json["final_data"][header] = null_count
+        null_counts[header] = null_count
+    city_json["null_counts"] = null_counts
+    city_json["null_counts"]["by_year"] = null_rows_by_year
 
     df_null_rows = df.filter(pl.any_horizontal(pl.all().is_null()))
 
     current_time = datetime.now()
     formatted_time = current_time.strftime("%Y-%m-%d %H:%M:%S")
-    city_json["final_data"] = {
+    first_trip, last_trip = get_bookend_dates(df)
+
+    city_json = city_json | {
         "total_rows": df.height,
         "null_rows": df_null_rows.height,
-        "percent_null": round(((df_null_rows.height / df.height) * 100), 2),
+        "percent_complete": 100 - round(((df_null_rows.height / df.height) * 100), 2),
         "updated_at": formatted_time,
+        "first_trip": first_trip,
+        "last_trip": last_trip,
     }
 
-    print(f"{df_null_rows.height} rows have at least one column with a null value")
-    print(f"There are {df.height} total rows")
-    print(
-        f"{round(((df_null_rows.height / df.height) * 100), 2)}% of trips have a null value)"
-    )
-
     json_data[city] = city_json
-    with open(logged_path, "w") as f:
+    with open(summary_path, "w") as f:
         json.dump(json_data, f, indent=4)
 
 

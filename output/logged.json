@@ -56,12 +56,16 @@
         }
     },
     "sf": {
-        "final_data": {
-            "total_rows": 16651687,
-            "null_rows": 3347986,
-            "percent_null": 20.11,
-            "updated_at": "2024-10-23 18:56:41"
-        }
+        "null_counts": {
+            "start_time": 0,
+            "end_time": 0,
+            "start_station_name": 2234638,
+            "end_station_name": 2446391
+        },
+        "total_rows": 16651687,
+        "null_rows": 3347986,
+        "percent_complete": 79.89,
+        "updated_at": "2024-11-15 18:50:38"
     },
     "dc": {
         "final_data": {
@@ -96,12 +100,16 @@
         }
     },
     "chattanooga": {
-        "final_data": {
-            "total_rows": 623469,
-            "null_rows": 2134,
-            "percent_null": 0.34,
-            "updated_at": "2024-10-23 18:56:54"
-        }
+        "null_counts": {
+            "start_time": 0,
+            "end_time": 2,
+            "start_station_name": 0,
+            "end_station_name": 2134
+        },
+        "total_rows": 623469,
+        "null_rows": 2134,
+        "percent_complete": 99.658,
+        "updated_at": "2024-11-15 17:45:39"
     },
     "mexico_city": {
         "final_data": {
@@ -128,12 +136,16 @@
         }
     },
     "oslo": {
-        "final_data": {
-            "total_rows": 11546072,
-            "null_rows": 0,
-            "percent_null": 0.0,
-            "updated_at": "2024-10-23 19:00:30"
-        }
+        "null_counts": {
+            "start_station_name": 0,
+            "end_station_name": 0,
+            "start_time": 0,
+            "end_time": 0
+        },
+        "total_rows": 11546072,
+        "null_rows": 0,
+        "percent_complete": 100.0,
+        "updated_at": "2024-11-15 17:47:12"
     },
     "bergen": {
         "final_data": {
@@ -148,7 +160,7 @@
             "total_rows": 1199715,
             "null_rows": 983,
             "percent_null": 0.08,
-            "updated_at": "2024-11-01 20:49:45"
+            "updated_at": "2024-11-14 16:46:55"
         }
     },
     "jersey_city": {
