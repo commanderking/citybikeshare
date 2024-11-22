@@ -98,7 +98,7 @@ def get_applicable_columns_mapping(df, rename_dict):
     return filtered_rename_dict
 
 
-def rename_columns(args, mappings, final_column_headers=constants.final_columns):
+def rename_columns(mappings, final_column_headers=constants.final_columns):
     def inner(df):
         headers = df.columns
         applicable_renamed_columns = []
@@ -114,7 +114,7 @@ def rename_columns(args, mappings, final_column_headers=constants.final_columns)
                 renamed_df = df.rename(applicable_renamed_columns).select(final_columns)
                 return renamed_df
         raise ValueError(
-            f"We could not rename the columns because no valid column mappings for {args.city} match the data! The headers we found are: {df.columns}"
+            f"We could not rename the columns because no valid column mappings for the city matches the data! The headers we found were: {df.columns}"
         )
 
     return inner

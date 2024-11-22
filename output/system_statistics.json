@@ -1027,5 +1027,58 @@
         "percent_complete": 100.0,
         "first_trip": "2016-04-01T05:15:04+00:00",
         "last_trip": "2024-10-19T12:14:38+00:00"
+    },
+    "london": {
+        "null_start_station_name": 0,
+        "null_end_station_name": 170138,
+        "null_start_time": 464396,
+        "null_end_time": 633064,
+        "null_by_year": [
+            {
+                "year": 2015,
+                "has_null": 192
+            },
+            {
+                "year": 2016,
+                "has_null": 104011
+            },
+            {
+                "year": 2017,
+                "has_null": 65997
+            },
+            {
+                "year": 2018,
+                "has_null": 0
+            },
+            {
+                "year": 2019,
+                "has_null": 0
+            },
+            {
+                "year": 2020,
+                "has_null": 0
+            },
+            {
+                "year": 2021,
+                "has_null": 0
+            },
+            {
+                "year": 2022,
+                "has_null": 0
+            },
+            {
+                "year": 2023,
+                "has_null": 0
+            },
+            {
+                "year": 2024,
+                "has_null": 0
+            }
+        ],
+        "total_rows": 97402116,
+        "null_rows": 634596,
+        "percent_complete": 99.35,
+        "first_trip": "2015-01-04T00:00:00",
+        "last_trip": "2024-08-21T17:54:00"
     }
 }

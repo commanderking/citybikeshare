@@ -476,6 +476,7 @@ GLOBAL_CITIES = [
     "oslo",
     "bergen",
     "trondheim",
+    "london",
 ]
 
 ALL_CITIES = US_CITIES + GLOBAL_CITIES

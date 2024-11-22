@@ -85,7 +85,7 @@ def format_files(files, args):
             )
             .pipe(
                 utils.rename_columns(
-                    args, mappings, final_column_headers=final_column_headers
+                    mappings, final_column_headers=final_column_headers
                 )
             )
             ### In 2023, many files end in tens of thosuands of rows that have no data for any column
