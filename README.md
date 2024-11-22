@@ -23,6 +23,7 @@ Currently, data is available for:
 | San Francisco | <https://www.lyft.com/bikes/bay-wheels/system-data> |
 | Taipei        | <https://data.gov.tw/dataset/150635> | 
 | Toronto       | <https://open.toronto.ca/dataset/bike-share-toronto-ridership-data/> |
+| Trondheim     | https://trondheimbysykkel.no/en/open-data/historical | 
 | Vancouver     | <https://www.mobibikes.ca/en/system-data> | 
 | Washington DC | <https://capitalbikeshare.com/system-data> | 
 
@@ -61,10 +62,6 @@ If the data has already been unzipped by running `pipenv run build`, you can ski
 ### London 
 https://cycling.data.tfl.gov.uk/
 
-
-### Trondheim
-https://trondheimbysykkel.no/en/open-data/historical
-
 ### Helsinki
 
 https://hri.fi/data/en_GB/dataset/helsingin-ja-espoon-kaupunkipyorilla-ajatut-matkat
@@ -90,7 +87,6 @@ https://opendata.emtmadrid.es/Datos-estaticos/Datos-generales-(1)
 https://data.gov.tw/dataset/67784
 
 ### Taipei 
-
 - Supposedly contains all trips that were transfers for the month
 https://data.gov.tw/dataset/169174
 

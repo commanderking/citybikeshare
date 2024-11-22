@@ -335,7 +335,7 @@ config = {
             "2018-citibike-tripdata/201810-citibike-tripdata.csv",
             "2018-citibike-tripdata/201811-citibike-tripdata.csv",
             "2018-citibike-tripdata/201812-citibike-tripdata.csv"
-            ### 2016 - duplicates
+            ### 2013 - duplicates
             "201306-citibike-tripdata.csv",
             "201307-citibike-tripdata.csv",
             "201308-citibike-tripdata.csv",
