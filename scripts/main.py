@@ -8,6 +8,7 @@ import city.vancouver as vancouver
 import city.oslo as oslo
 import city.bergen as bergen
 import city.trondheim as trondheim
+import city.london as london
 import constants
 
 other_cities = constants.GLOBAL_CITIES
@@ -16,6 +17,7 @@ all_cities = constants.ALL_CITIES
 city_builders = {
     "vancouver": vancouver.build_trips,
     "oslo": oslo.build_trips,
+    "london": london.build_trips,
     "bergen": bergen.build_trips,
     "trondheim": trondheim.build_trips,
     "taipei": taipei.create_all_trips_parquet,

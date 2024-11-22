@@ -13,6 +13,7 @@ Currently, data is available for:
 | Columbus      | <https://cogobikeshare.com/system-data> |
 | Chicago       | <https://divvybikes.com/system-data> |
 | Jersey City   | <https://citibikenyc.com/system-data> |
+| London        | <https://cycling.data.tfl.gov.uk/> |
 | Los Angeles   | <https://bikeshare.metro.net/about/data/> |
 | Mexico City   | <https://ecobici.cdmx.gob.mx/en/open-data/> |
 | Montreal      | <https://bixi.com/en/open-data/> |
@@ -58,9 +59,6 @@ The general procedure to clean the data in any city is:
 If the data has already been unzipped by running `pipenv run build`, you can skip the unzipping step by adding `--skip_unzip` to
 
 #### Potential Upcoming Cities in the Pipeline
-
-### London 
-https://cycling.data.tfl.gov.uk/
 
 ### Helsinki
 
