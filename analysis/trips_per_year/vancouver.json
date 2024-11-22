@@ -1,11 +1,20 @@
 [
     {
-        "year": 2022,
-        "trip_count": 867487,
-        "mean_duration": 421.2263100196314,
-        "first_quantile_duration": 388.0,
-        "median_duration": 731.0,
-        "third_quantile_duration": 1285.0,
+        "year": 2017,
+        "trip_count": 573696,
+        "mean_duration": 1240.2717658829763,
+        "first_quantile_duration": 390.0,
+        "median_duration": 685.0,
+        "third_quantile_duration": 1195.0,
+        "system": "vancouver"
+    },
+    {
+        "year": 2018,
+        "trip_count": 238188,
+        "mean_duration": 1319.366252707945,
+        "first_quantile_duration": 384.0,
+        "median_duration": 676.0,
+        "third_quantile_duration": 1194.0,
         "system": "vancouver"
     },
     {
@@ -27,12 +36,21 @@
         "system": "vancouver"
     },
     {
-        "year": 2017,
-        "trip_count": 573696,
-        "mean_duration": 1240.2717658829763,
-        "first_quantile_duration": 390.0,
-        "median_duration": 685.0,
-        "third_quantile_duration": 1195.0,
+        "year": 2021,
+        "trip_count": 705712,
+        "mean_duration": 1326.821833835899,
+        "first_quantile_duration": 410.0,
+        "median_duration": 749.0,
+        "third_quantile_duration": 1281.0,
+        "system": "vancouver"
+    },
+    {
+        "year": 2022,
+        "trip_count": 867487,
+        "mean_duration": 421.2263100196314,
+        "first_quantile_duration": 388.0,
+        "median_duration": 731.0,
+        "third_quantile_duration": 1285.0,
         "system": "vancouver"
     },
     {
@@ -45,30 +63,12 @@
         "system": "vancouver"
     },
     {
-        "year": 2018,
-        "trip_count": 238188,
-        "mean_duration": 1319.366252707945,
-        "first_quantile_duration": 384.0,
-        "median_duration": 676.0,
-        "third_quantile_duration": 1194.0,
-        "system": "vancouver"
-    },
-    {
         "year": 2024,
         "trip_count": 1012871,
         "mean_duration": 1325.9252668898605,
         "first_quantile_duration": 333.0,
         "median_duration": 638.0,
         "third_quantile_duration": 1202.0,
-        "system": "vancouver"
-    },
-    {
-        "year": 2021,
-        "trip_count": 705712,
-        "mean_duration": 1326.821833835899,
-        "first_quantile_duration": 410.0,
-        "median_duration": 749.0,
-        "third_quantile_duration": 1281.0,
         "system": "vancouver"
     }
 ]

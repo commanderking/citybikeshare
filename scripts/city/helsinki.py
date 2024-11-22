@@ -8,8 +8,20 @@ import scripts.utils as utils
 ZIP_PATH = utils.get_zip_directory("helsinki")
 CSV_PATH = utils.get_raw_files_directory("helsinki")
 
+renamed_columns = {
+    "Departure": "start_time",
+    "Return": "end_time",
+    "Departure station name": "start_station_name",
+    "Return station name": "end_station_name",
+}
 
-### Download code based on https://github.com/Geometrein/helsinki-city-bikes/blob/main/scraper.py
+date_columns = ["start_time", "end_time"]
+date_formats = ["%Y-%m-%dT%H:%M:%S"]
+
+final_columns = ["start_station_name", "end_station_name", "start_time", "end_time"]
+
+
+### Referenced https://github.com/Geometrein/helsinki-city-bikes/blob/main/scraper.py
 def generate_link(year):
     url = f"http://dev.hsl.fi/citybikes/od-trips-{year}/od-trips-{year}.zip"
     return url
@@ -49,34 +61,15 @@ def download_and_unzip():
     unzip_files_in_directory(ZIP_PATH, CSV_PATH)
 
 
-renamed_columns = {
-    "Departure": "start_time",
-    "Return": "end_time",
-    "Departure station name": "start_station_name",
-    "Return station name": "end_station_name",
-}
-
-
-# Departure,Return,Departure station id,Departure station name,Return station id,Return station name,Covered distance (m),Duration (sec.)
-
-# 2024-04-30T23:59:23,2024-05-01T00:31:48,018,Porthania,103,Korppaantie,6115,1941
-
-date_columns = ["start_time", "end_time"]
-date_formats = ["%Y-%m-%dT%H:%M:%S"]
-
-final_columns = ["start_station_name", "end_station_name", "start_time", "end_time"]
-
-
 def create_all_trips_df():
     files = utils.get_csv_files(CSV_PATH)
     all_dfs = []
     for file in files:
         print(f"reading {file}")
 
-        df = pl.read_csv(file, infer_schema_length=0)
-
         df = (
-            df.rename(renamed_columns)
+            pl.read_csv(file, infer_schema_length=0)
+            .rename(renamed_columns)
             .select(final_columns)
             .pipe(utils.convert_columns_to_datetime(date_columns, date_formats))
         )

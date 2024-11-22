@@ -1,20 +1,11 @@
 [
     {
-        "year": 2019,
-        "trip_count": 744260,
-        "mean_duration": 1484.3643914760971,
-        "first_quantile_duration": 420.0,
-        "median_duration": 660.0,
-        "third_quantile_duration": 1140.0,
-        "system": "philadelphia"
-    },
-    {
-        "year": 2022,
-        "trip_count": 905790,
-        "mean_duration": 1089.1679528367501,
-        "first_quantile_duration": 360.0,
-        "median_duration": 600.0,
-        "third_quantile_duration": 1020.0,
+        "year": 2015,
+        "trip_count": 429710,
+        "mean_duration": 1695.7405226780852,
+        "first_quantile_duration": 480.0,
+        "median_duration": 780.0,
+        "third_quantile_duration": 1320.0,
         "system": "philadelphia"
     },
     {
@@ -24,24 +15,6 @@
         "first_quantile_duration": 480.0,
         "median_duration": 720.0,
         "third_quantile_duration": 1200.0,
-        "system": "philadelphia"
-    },
-    {
-        "year": 2023,
-        "trip_count": 1084547,
-        "mean_duration": 1023.46397159367,
-        "first_quantile_duration": 360.0,
-        "median_duration": 600.0,
-        "third_quantile_duration": 960.0,
-        "system": "philadelphia"
-    },
-    {
-        "year": 2020,
-        "trip_count": 735162,
-        "mean_duration": 1915.9602373354444,
-        "first_quantile_duration": 480.0,
-        "median_duration": 840.0,
-        "third_quantile_duration": 1620.0,
         "system": "philadelphia"
     },
     {
@@ -63,12 +36,21 @@
         "system": "philadelphia"
     },
     {
-        "year": 2015,
-        "trip_count": 429710,
-        "mean_duration": 1695.7405226780852,
+        "year": 2019,
+        "trip_count": 744260,
+        "mean_duration": 1484.3643914760971,
+        "first_quantile_duration": 420.0,
+        "median_duration": 660.0,
+        "third_quantile_duration": 1140.0,
+        "system": "philadelphia"
+    },
+    {
+        "year": 2020,
+        "trip_count": 735162,
+        "mean_duration": 1915.9602373354444,
         "first_quantile_duration": 480.0,
-        "median_duration": 780.0,
-        "third_quantile_duration": 1320.0,
+        "median_duration": 840.0,
+        "third_quantile_duration": 1620.0,
         "system": "philadelphia"
     },
     {
@@ -78,6 +60,24 @@
         "first_quantile_duration": 420.0,
         "median_duration": 660.0,
         "third_quantile_duration": 1140.0,
+        "system": "philadelphia"
+    },
+    {
+        "year": 2022,
+        "trip_count": 905790,
+        "mean_duration": 1089.1679528367501,
+        "first_quantile_duration": 360.0,
+        "median_duration": 600.0,
+        "third_quantile_duration": 1020.0,
+        "system": "philadelphia"
+    },
+    {
+        "year": 2023,
+        "trip_count": 1084547,
+        "mean_duration": 1023.46397159367,
+        "first_quantile_duration": 360.0,
+        "median_duration": 600.0,
+        "third_quantile_duration": 960.0,
         "system": "philadelphia"
     },
     {
