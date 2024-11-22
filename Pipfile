@@ -12,6 +12,7 @@ requests = "~=2.31.0"
 polars = "~=0.20.25"
 playwright = "*"
 ruff = "*"
+tqdm = "*"
 
 [dev-packages]
 pylint = "*"

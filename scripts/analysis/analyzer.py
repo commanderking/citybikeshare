@@ -40,6 +40,7 @@ def get_trips_per_year(city):
                 .alias("third_quantile_duration"),
             ]
         )
+        .sort("year")
         .with_columns(pl.lit(city).alias("system"))
     )
     df = query.collect()

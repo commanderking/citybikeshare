@@ -1080,5 +1080,54 @@
         "percent_complete": 99.35,
         "first_trip": "2015-01-04T00:00:00",
         "last_trip": "2024-08-21T17:54:00"
+    },
+    "helsinki": {
+        "null_start_station_name": 665,
+        "null_end_station_name": 360,
+        "null_start_time": 215,
+        "null_end_time": 172,
+        "null_by_year": [
+            {
+                "year": 2016,
+                "has_null": 132
+            },
+            {
+                "year": 2017,
+                "has_null": 73
+            },
+            {
+                "year": 2018,
+                "has_null": 798
+            },
+            {
+                "year": 2019,
+                "has_null": 82
+            },
+            {
+                "year": 2020,
+                "has_null": 108
+            },
+            {
+                "year": 2021,
+                "has_null": 0
+            },
+            {
+                "year": 2022,
+                "has_null": 0
+            },
+            {
+                "year": 2023,
+                "has_null": 2
+            },
+            {
+                "year": 2024,
+                "has_null": 1
+            }
+        ],
+        "total_rows": 22627294,
+        "null_rows": 1411,
+        "percent_complete": 99.99,
+        "first_trip": "2016-05-02T09:31:00",
+        "last_trip": "2024-11-05T11:55:44"
     }
 }
