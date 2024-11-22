@@ -88,6 +88,8 @@ def format_files(files, args):
                     args, mappings, final_column_headers=final_column_headers
                 )
             )
+            ### In 2023, many files end in tens of thosuands of rows that have no data for any column
+            .filter(~pl.all_horizontal(pl.all().is_null()))
             ## Getting some null values because some dates are not zero-padded "2020-04-01 0:00"
             .pipe(utils.convert_columns_to_datetime(date_columns, date_formats))
             .with_columns([pl.col("duration_seconds").cast(pl.Int64)])
