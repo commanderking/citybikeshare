@@ -1,38 +1,20 @@
 [
     {
+        "year": 2012,
+        "trip_count": 10932,
+        "mean_duration": -119006.99231613611,
+        "first_quantile_duration": 360.0,
+        "median_duration": 900.0,
+        "third_quantile_duration": 2280.0,
+        "system": "chattanooga"
+    },
+    {
         "year": 2013,
         "trip_count": 45149,
         "mean_duration": 1793.671620633901,
         "first_quantile_duration": 480.0,
         "median_duration": 1200.0,
         "third_quantile_duration": 2580.0,
-        "system": "chattanooga"
-    },
-    {
-        "year": 2016,
-        "trip_count": 53744,
-        "mean_duration": 2260.090056564454,
-        "first_quantile_duration": 600.0,
-        "median_duration": 1560.0,
-        "third_quantile_duration": 2760.0,
-        "system": "chattanooga"
-    },
-    {
-        "year": 2019,
-        "trip_count": 74397,
-        "mean_duration": 2468.3834025565548,
-        "first_quantile_duration": 540.0,
-        "median_duration": 1380.0,
-        "third_quantile_duration": 2580.0,
-        "system": "chattanooga"
-    },
-    {
-        "year": 2022,
-        "trip_count": 40014,
-        "mean_duration": 2295.2826510721247,
-        "first_quantile_duration": 660.0,
-        "median_duration": 1560.0,
-        "third_quantile_duration": 2760.0,
         "system": "chattanooga"
     },
     {
@@ -45,12 +27,21 @@
         "system": "chattanooga"
     },
     {
-        "year": 2020,
-        "trip_count": 88793,
-        "mean_duration": 2368.2265493901546,
-        "first_quantile_duration": 780.0,
-        "median_duration": 1800.0,
-        "third_quantile_duration": 2820.0,
+        "year": 2015,
+        "trip_count": 55883,
+        "mean_duration": 1550.2929334502442,
+        "first_quantile_duration": 540.0,
+        "median_duration": 1500.0,
+        "third_quantile_duration": 2760.0,
+        "system": "chattanooga"
+    },
+    {
+        "year": 2016,
+        "trip_count": 53744,
+        "mean_duration": 2260.090056564454,
+        "first_quantile_duration": 600.0,
+        "median_duration": 1560.0,
+        "third_quantile_duration": 2760.0,
         "system": "chattanooga"
     },
     {
@@ -63,24 +54,6 @@
         "system": "chattanooga"
     },
     {
-        "year": 2015,
-        "trip_count": 55883,
-        "mean_duration": 1550.2929334502442,
-        "first_quantile_duration": 540.0,
-        "median_duration": 1500.0,
-        "third_quantile_duration": 2760.0,
-        "system": "chattanooga"
-    },
-    {
-        "year": 2012,
-        "trip_count": 10932,
-        "mean_duration": -119006.99231613611,
-        "first_quantile_duration": 360.0,
-        "median_duration": 900.0,
-        "third_quantile_duration": 2280.0,
-        "system": "chattanooga"
-    },
-    {
         "year": 2018,
         "trip_count": 53311,
         "mean_duration": 2620.306503348277,
@@ -90,12 +63,39 @@
         "system": "chattanooga"
     },
     {
+        "year": 2019,
+        "trip_count": 74397,
+        "mean_duration": 2468.3834025565548,
+        "first_quantile_duration": 540.0,
+        "median_duration": 1380.0,
+        "third_quantile_duration": 2580.0,
+        "system": "chattanooga"
+    },
+    {
+        "year": 2020,
+        "trip_count": 88793,
+        "mean_duration": 2368.2265493901546,
+        "first_quantile_duration": 780.0,
+        "median_duration": 1800.0,
+        "third_quantile_duration": 2820.0,
+        "system": "chattanooga"
+    },
+    {
         "year": 2021,
         "trip_count": 97448,
         "mean_duration": 2255.647935309088,
         "first_quantile_duration": 720.0,
         "median_duration": 1620.0,
         "third_quantile_duration": 2700.0,
+        "system": "chattanooga"
+    },
+    {
+        "year": 2022,
+        "trip_count": 40014,
+        "mean_duration": 2295.2826510721247,
+        "first_quantile_duration": 660.0,
+        "median_duration": 1560.0,
+        "third_quantile_duration": 2760.0,
         "system": "chattanooga"
     }
 ]

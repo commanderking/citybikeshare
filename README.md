@@ -13,6 +13,7 @@ Currently, data is available for:
 | Columbus      | <https://cogobikeshare.com/system-data> |
 | Chicago       | <https://divvybikes.com/system-data> |
 | Jersey City   | <https://citibikenyc.com/system-data> |
+| Helsinki      | <https://hri.fi/data/en_GB/dataset/helsingin-ja-espoon-kaupunkipyorilla-ajatut-matkat> |
 | London        | <https://cycling.data.tfl.gov.uk/> |
 | Los Angeles   | <https://bikeshare.metro.net/about/data/> |
 | Mexico City   | <https://ecobici.cdmx.gob.mx/en/open-data/> |
@@ -59,12 +60,6 @@ The general procedure to clean the data in any city is:
 If the data has already been unzipped by running `pipenv run build`, you can skip the unzipping step by adding `--skip_unzip` to
 
 #### Potential Upcoming Cities in the Pipeline
-
-### Helsinki
-
-https://hri.fi/data/en_GB/dataset/helsingin-ja-espoon-kaupunkipyorilla-ajatut-matkat
-
-https://github.com/Geometrein/helsinki-city-bikes/blob/main/scraper.py
 
 ### Portland
 Micromobility contains recent day: https://public.ridereport.com/pdx?x=-122.6543855&y=45.6227107&z=9.70, but individual trip data is unavailable

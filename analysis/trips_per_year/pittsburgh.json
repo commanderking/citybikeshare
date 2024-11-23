@@ -1,20 +1,11 @@
 [
     {
-        "year": 2019,
-        "trip_count": 92668,
-        "mean_duration": 4158.218586782924,
-        "first_quantile_duration": 480.0,
-        "median_duration": 900.0,
-        "third_quantile_duration": 2160.0,
-        "system": "pittsburgh"
-    },
-    {
-        "year": 2022,
-        "trip_count": 83155,
-        "mean_duration": 1949.2275870362575,
-        "first_quantile_duration": 316.0,
-        "median_duration": 731.0,
-        "third_quantile_duration": 1726.0,
+        "year": 2015,
+        "trip_count": 56298,
+        "mean_duration": 3274.83107748055,
+        "first_quantile_duration": 600.0,
+        "median_duration": 1200.0,
+        "third_quantile_duration": 2760.0,
         "system": "pittsburgh"
     },
     {
@@ -36,12 +27,21 @@
         "system": "pittsburgh"
     },
     {
-        "year": 2023,
-        "trip_count": 200264,
-        "mean_duration": 1174.1618114089401,
-        "first_quantile_duration": 251.0,
-        "median_duration": 448.0,
-        "third_quantile_duration": 982.0,
+        "year": 2018,
+        "trip_count": 74607,
+        "mean_duration": 4746.831798624794,
+        "first_quantile_duration": 540.0,
+        "median_duration": 1080.0,
+        "third_quantile_duration": 2760.0,
+        "system": "pittsburgh"
+    },
+    {
+        "year": 2019,
+        "trip_count": 92668,
+        "mean_duration": 4158.218586782924,
+        "first_quantile_duration": 480.0,
+        "median_duration": 900.0,
+        "third_quantile_duration": 2160.0,
         "system": "pittsburgh"
     },
     {
@@ -54,21 +54,30 @@
         "system": "pittsburgh"
     },
     {
-        "year": 2018,
-        "trip_count": 74607,
-        "mean_duration": 4746.831798624794,
+        "year": 2021,
+        "trip_count": 104848,
+        "mean_duration": 4951.784297268427,
         "first_quantile_duration": 540.0,
         "median_duration": 1080.0,
-        "third_quantile_duration": 2760.0,
+        "third_quantile_duration": 2880.0,
         "system": "pittsburgh"
     },
     {
-        "year": 2015,
-        "trip_count": 56298,
-        "mean_duration": 3274.83107748055,
-        "first_quantile_duration": 600.0,
-        "median_duration": 1200.0,
-        "third_quantile_duration": 2760.0,
+        "year": 2022,
+        "trip_count": 83155,
+        "mean_duration": 1949.2275870362575,
+        "first_quantile_duration": 316.0,
+        "median_duration": 731.0,
+        "third_quantile_duration": 1726.0,
+        "system": "pittsburgh"
+    },
+    {
+        "year": 2023,
+        "trip_count": 200264,
+        "mean_duration": 1174.1618114089401,
+        "first_quantile_duration": 251.0,
+        "median_duration": 448.0,
+        "third_quantile_duration": 982.0,
         "system": "pittsburgh"
     },
     {
@@ -78,15 +87,6 @@
         "first_quantile_duration": 240.0,
         "median_duration": 445.0,
         "third_quantile_duration": 960.0,
-        "system": "pittsburgh"
-    },
-    {
-        "year": 2021,
-        "trip_count": 104848,
-        "mean_duration": 4951.784297268427,
-        "first_quantile_duration": 540.0,
-        "median_duration": 1080.0,
-        "third_quantile_duration": 2880.0,
         "system": "pittsburgh"
     }
 ]

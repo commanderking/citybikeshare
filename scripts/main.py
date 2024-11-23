@@ -9,6 +9,7 @@ import city.oslo as oslo
 import city.bergen as bergen
 import city.trondheim as trondheim
 import city.london as london
+import city.helsinki as helsinki
 import constants
 
 other_cities = constants.GLOBAL_CITIES
@@ -24,6 +25,7 @@ city_builders = {
     "toronto": toronto.build_trips,
     "montreal": montreal.build_trips,
     "mexico_city": mexico_city.build_trips,
+    "helsinki": helsinki.build_trips,
 }
 
 
