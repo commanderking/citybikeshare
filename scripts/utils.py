@@ -231,8 +231,6 @@ def fill_missing_years(data, start_year, end_year):
 def get_null_rows_by_year(df):
     start_time, end_time = get_bookend_dates(df)
 
-    print(start_time)
-
     start_year = parse(start_time).year
     end_year = parse(end_time).year
     lazy_df = df.lazy()
@@ -248,8 +246,6 @@ def get_null_rows_by_year(df):
         .agg(pl.col("has_null").sum())
         .sort("year")
     )
-
-    print(null_df.profile())
 
     collected_null_df = null_df.collect()
 
