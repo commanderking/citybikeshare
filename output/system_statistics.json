@@ -795,11 +795,11 @@
                 "has_null": 0
             }
         ],
-        "total_rows": 22559332,
+        "total_rows": 27696850,
         "null_rows": 16,
         "percent_complete": 100.0,
         "first_trip": "2017-01-01T00:00:00",
-        "last_trip": "2024-02-05T10:36:00"
+        "last_trip": "2024-10-01T00:45:00"
     },
     "mexico_city": {
         "null_start_time": 572979,
@@ -1129,5 +1129,144 @@
         "percent_complete": 99.99,
         "first_trip": "2016-05-02T09:31:00",
         "last_trip": "2024-11-05T11:55:44"
+    },
+    "trondheim": {
+        "null_start_station_name": 983,
+        "null_end_station_name": 983,
+        "null_start_time": 0,
+        "null_end_time": 0,
+        "null_by_year": [
+            {
+                "year": 2018,
+                "has_null": 983
+            },
+            {
+                "year": 2019,
+                "has_null": 0
+            },
+            {
+                "year": 2020,
+                "has_null": 0
+            },
+            {
+                "year": 2021,
+                "has_null": 0
+            },
+            {
+                "year": 2022,
+                "has_null": 0
+            },
+            {
+                "year": 2023,
+                "has_null": 0
+            },
+            {
+                "year": 2024,
+                "has_null": 0
+            }
+        ],
+        "total_rows": 1199715,
+        "null_rows": 983,
+        "percent_complete": 99.92,
+        "first_trip": "2018-05-15T09:07:43+00:00",
+        "last_trip": "2024-10-28T23:02:44+00:00"
+    },
+    "bergen": {
+        "null_start_station_name": 0,
+        "null_end_station_name": 0,
+        "null_start_time": 0,
+        "null_end_time": 0,
+        "null_by_year": [
+            {
+                "year": 2018,
+                "has_null": 0
+            },
+            {
+                "year": 2019,
+                "has_null": 0
+            },
+            {
+                "year": 2020,
+                "has_null": 0
+            },
+            {
+                "year": 2021,
+                "has_null": 0
+            },
+            {
+                "year": 2022,
+                "has_null": 0
+            },
+            {
+                "year": 2023,
+                "has_null": 0
+            },
+            {
+                "year": 2024,
+                "has_null": 0
+            }
+        ],
+        "total_rows": 4128284,
+        "null_rows": 0,
+        "percent_complete": 100.0,
+        "first_trip": "2018-06-29T10:45:12+00:00",
+        "last_trip": "2024-10-19T12:12:17+00:00"
+    },
+    "guadalajara": {
+        "null_start_station_name": 0,
+        "null_end_station_name": 0,
+        "null_start_time": 0,
+        "null_end_time": 0,
+        "null_by_year": [
+            {
+                "year": 2014,
+                "has_null": 0
+            },
+            {
+                "year": 2015,
+                "has_null": 0
+            },
+            {
+                "year": 2016,
+                "has_null": 0
+            },
+            {
+                "year": 2017,
+                "has_null": 0
+            },
+            {
+                "year": 2018,
+                "has_null": 0
+            },
+            {
+                "year": 2019,
+                "has_null": 0
+            },
+            {
+                "year": 2020,
+                "has_null": 0
+            },
+            {
+                "year": 2021,
+                "has_null": 0
+            },
+            {
+                "year": 2022,
+                "has_null": 0
+            },
+            {
+                "year": 2023,
+                "has_null": 0
+            },
+            {
+                "year": 2024,
+                "has_null": 0
+            }
+        ],
+        "total_rows": 30844612,
+        "null_rows": 0,
+        "percent_complete": 100.0,
+        "first_trip": "2014-12-01T00:33:47",
+        "last_trip": "2024-12-01T04:26:28"
     }
 }
