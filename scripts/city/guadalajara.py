@@ -1,10 +1,10 @@
 import os
 import requests
 import polars as pl
-from pathlib import Path
 from playwright.sync_api import sync_playwright
 import scripts.utils as utils
 
+CSV_EXTENSION = ".csv"
 CSV_PATH = utils.get_raw_files_directory("guadalajara")
 OPEN_DATA_ROOT = "https://www.mibici.net"
 OPEN_DATA_URL = "https://www.mibici.net/es/datos-abiertos"
@@ -13,6 +13,8 @@ OPEN_DATA_URL = "https://www.mibici.net/es/datos-abiertos"
 RENAMED_COLUMNS = {
     "Viaje_Id": "trip_id",
     "Usuario_Id": "user_id",
+    "A�o_de_nacimiento": "birth_year",
+    "Año_de_nacimiento": "birth_year",
     "Genero": "gender",
     "Inicio_del_viaje": "start_time",
     "Fin_del_viaje": "end_time",
@@ -20,6 +22,11 @@ RENAMED_COLUMNS = {
     "Destino_Id": "end_station_id",
 }
 DATE_FORMATS = ["%Y-%m-%d %H:%M:%S", "%d/%m/%Y %H:%M"]
+REQUEST_HEADERS = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",
+    "Accept": "text/csv,application/csv,application/vnd.ms-excel,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet;q=0.9,*/*;q=0.8",
+    "Referer": "https://www.mibici.net/",
+}
 
 
 def get_csv_links(playwright, url):
@@ -27,18 +34,28 @@ def get_csv_links(playwright, url):
     Fetch CSV file links from the given URL using Playwright.
     """
     browser = playwright.chromium.launch(headless=True)
-    context = browser.new_context(accept_downloads=True)
-    page = context.new_page()
+    try:
+        context = browser.new_context(accept_downloads=True)
+        page = context.new_page()
+        page.goto(url)
 
-    page.goto(url)
-    links = [
-        f"{OPEN_DATA_ROOT}{link.get_attribute('href')}"
-        for link in page.query_selector_all("a")
-        if link.get_attribute("href") and ".csv" in link.get_attribute("href")
-    ]
+        links = [
+            f"{OPEN_DATA_ROOT}{link.get_attribute('href')}"
+            for link in page.query_selector_all("a")
+            if link.get_attribute("href")
+            and CSV_EXTENSION in link.get_attribute("href")
+        ]
 
-    browser.close()
-    return links
+        if not links:
+            print(f"No CSV links found at {url}")
+        return links
+
+    except Exception as e:
+        print(f"Error fetching CSV links: {e}")
+        return []
+
+    finally:
+        browser.close()
 
 
 def download_csv(link, csv_path, headers):
@@ -58,16 +75,8 @@ def download_csv(link, csv_path, headers):
 
 
 def download_all_csvs(links, csv_path):
-    """
-    Download all CSV files from a list of links.
-    """
-    headers = {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",
-        "Accept": "text/csv,application/csv,application/vnd.ms-excel,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet;q=0.9,*/*;q=0.8",
-        "Referer": "https://www.mibici.net/",
-    }
     for link in links:
-        download_csv(link, csv_path, headers)
+        download_csv(link, csv_path, REQUEST_HEADERS)
 
 
 def get_exports(url, csv_path):
@@ -100,7 +109,7 @@ def create_df_with_all_trips(folder_path):
     csv_files = [
         os.path.join(folder_path, f)
         for f in os.listdir(folder_path)
-        if f.endswith(".csv") and "nomenclatura" not in f
+        if f.endswith(CSV_EXTENSION) and "nomenclatura" not in f
     ]
     dataframes = []
     stations_df = get_stations_df()
@@ -108,8 +117,14 @@ def create_df_with_all_trips(folder_path):
     for file_path in csv_files:
         print(f"Processing: {file_path}")
         df = pl.read_csv(file_path, encoding="utf8-lossy", null_values="NA")
+
+        headers = df.columns
+        relevant_columns = {
+            key: RENAMED_COLUMNS[key] for key in headers if key in RENAMED_COLUMNS
+        }
+
         df = (
-            df.rename(RENAMED_COLUMNS)
+            df.rename(relevant_columns)
             .join(stations_df, left_on="start_station_id", right_on="id")
             .rename({"name": "start_station_name"})
             .join(stations_df, left_on="end_station_id", right_on="id")

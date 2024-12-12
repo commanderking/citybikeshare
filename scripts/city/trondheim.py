@@ -16,14 +16,6 @@ CSV_PATH = utils.get_raw_files_directory(CITY)
 METADATA_PATH = utils.get_metadata_directory(CITY)
 
 
-renamed_columns = {
-    "started_at": "start_time",
-    "ended_at": "end_time",
-    "start_station_name": "start_station_name",
-    "end_station_name": "end_station_name",
-}
-
-
 def create_all_trips_df():
     files = utils.get_csv_files(CSV_PATH)
     all_dfs = []
