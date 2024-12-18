@@ -620,10 +620,9 @@
     },
     "austin": {
         "null_start_time": 0,
-        "null_duration_minutes": 0,
+        "null_end_time": 0,
         "null_start_station_name": 0,
         "null_end_station_name": 0,
-        "null_end_time": 0,
         "null_by_year": [
             {
                 "year": 2013,
@@ -935,10 +934,10 @@
     },
     "vancouver": {
         "null_start_time": 0,
-        "null_end_time": 749,
+        "null_end_time": 755,
         "null_duration_seconds": 0,
         "null_start_station_name": 30,
-        "null_end_station_name": 998,
+        "null_end_station_name": 1005,
         "null_by_year": [
             {
                 "year": 2017,
@@ -954,7 +953,7 @@
             },
             {
                 "year": 2020,
-                "has_null": 49
+                "has_null": 56
             },
             {
                 "year": 2021,
@@ -973,8 +972,8 @@
                 "has_null": 161
             }
         ],
-        "total_rows": 6130965,
-        "null_rows": 1028,
+        "total_rows": 6172003,
+        "null_rows": 1035,
         "percent_complete": 99.98,
         "first_trip": "2017-01-01T00:00:00",
         "last_trip": "2024-10-01T23:00:00"

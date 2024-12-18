@@ -2,7 +2,6 @@ import os
 import polars as pl
 from playwright.sync_api import sync_playwright
 import scripts.utils as utils
-import scripts.logger as logger
 
 CSV_PATH = utils.get_zip_directory("montreal")
 OPEN_DATA_URL = "https://bixi.com/en/open-data/"
@@ -98,7 +97,6 @@ def create_all_trips_df():
                 .pipe(get_renamed_columns)
                 .pipe(convert_milliseconds_to_datetime)
                 .select(final_columns)
-                .pipe(logger.print_null_data_df)
                 .with_columns(
                     [
                         pl.col("start_station_name").cast(pl.String),

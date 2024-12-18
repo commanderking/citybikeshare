@@ -1,9 +1,8 @@
 import os
 import polars as pl
 import utils
-import constants
+import scripts.constants as constants
 import utils_bicycle_transit_systems
-import logger
 
 
 def filter_filenames(filenames, args):
@@ -68,8 +67,11 @@ def process_bicycle_transit_system(args):
 
 def format_and_concat_files(trip_files, args):
     """Get correct column data structures"""
-    mappings = constants.config[args.city]["column_mappings"]
-    date_formats = constants.config[args.city]["date_formats"]
+
+    city_config = constants.config[args.city]
+    date_formats = city_config["date_formats"]
+    renamed_columns = city_config["renamed_columns"]
+    final_columns = city_config.get("final_columns", constants.final_columns)
 
     print("adding files to polars df")
     file_dataframes = []
@@ -82,8 +84,13 @@ def format_and_concat_files(trip_files, args):
         # print(df_start_time)
         df = (
             pl.read_csv(file, infer_schema_length=0)
-            .pipe(utils.rename_columns(mappings))
-            .pipe(utils.assess_null_data)
+            .pipe(utils.rename_columns_for_keys(renamed_columns))
+            # TODO: This station name mapping should apply to all stations
+            # May want to make this configuration based rather than explicit city checks here
+            .pipe(process_bicycle_transit_system(args))
+            # For debugging
+            # .pipe(utils.print_null_data)
+            # .pipe(utils.assess_null_data)
             ### TODO - move this to configuration for preprocessing. Austin doesn't have end_time so we need to calculate before casting times
             .pipe(austin_check(args))
             .pipe(
@@ -91,10 +98,8 @@ def format_and_concat_files(trip_files, args):
                     ["start_time", "end_time"], date_formats
                 )
             )
+            .select(final_columns)
             .pipe(utils.offset_two_digit_years)
-            # TODO: This station name mapping should apply to all stations
-            # May want to make this configuration based rather than explicit city checks here
-            .pipe(process_bicycle_transit_system(args))
         )
         file_dataframes.append(df)
 
