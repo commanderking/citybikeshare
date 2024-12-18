@@ -26,7 +26,6 @@ def filter_filenames(filenames, args):
 
 def austin_check(args):
     def inner(df):
-        print("in austin")
         if (args.city) == "austin":
             df = df.with_columns(
                 [

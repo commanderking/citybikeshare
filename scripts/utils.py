@@ -151,7 +151,6 @@ def convert_columns_to_datetime(date_column_names, date_formats):
 
 # Know this applies to Philadelphia, Mexico City, and Vancouver
 def offset_two_digit_years(df):
-    print("offsetting")
     return df.with_columns(
         [
             pl.when(pl.col("start_time").dt.year() < 100)
