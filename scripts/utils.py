@@ -98,24 +98,16 @@ def get_applicable_columns_mapping(df, rename_dict):
     return filtered_rename_dict
 
 
-def rename_columns(mappings, final_column_headers=constants.final_columns):
+def rename_columns_for_keys(renamed_columns_dict):
     def inner(df):
         headers = df.columns
-        applicable_renamed_columns = []
-
-        # TODO: This should be more robust - theoretically, multiple column mappings could match and the
-        # last match would be the mapping used
-        for mapping in mappings:
-            if mapping["header_matcher"] in headers:
-                applicable_renamed_columns = get_applicable_columns_mapping(
-                    df, mapping["mapping"]
-                )
-                final_columns = mapping.get("final_columns", final_column_headers)
-                renamed_df = df.rename(applicable_renamed_columns).select(final_columns)
-                return renamed_df
-        raise ValueError(
-            f"We could not rename the columns because no valid column mappings for the city matches the data! The headers we found were: {df.columns}"
-        )
+        relevant_columns = {
+            key: renamed_columns_dict[key]
+            for key in headers
+            if key in renamed_columns_dict
+        }
+        print("renaming")
+        return df.rename(relevant_columns)
 
     return inner
 
@@ -151,6 +143,7 @@ def convert_columns_to_datetime(date_column_names, date_formats):
                 for date_column in date_column_names
             ]
         )
+
         return df
 
     return inner
@@ -158,6 +151,7 @@ def convert_columns_to_datetime(date_column_names, date_formats):
 
 # Know this applies to Philadelphia, Mexico City, and Vancouver
 def offset_two_digit_years(df):
+    print("offsetting")
     return df.with_columns(
         [
             pl.when(pl.col("start_time").dt.year() < 100)
@@ -296,6 +290,12 @@ def log_final_results(df, args):
     json_data[city] = city_json
     with open(summary_path, "w") as f:
         json.dump(json_data, f, indent=4)
+
+
+def print_null_data(df):
+    df_null_rows = df.filter(pl.any_horizontal(pl.all().is_null()))
+    print(df_null_rows)
+    return df
 
 
 def assess_null_data(df):

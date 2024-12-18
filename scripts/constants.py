@@ -258,11 +258,11 @@ config = {
     "columbus": {
         "name": "columbus",
         "file_matcher": "cogo-tripdata",
-        "column_mappings": [
-            {"header_matcher": "ride_id", "mapping": commonized_system_data_columns},
-            {"header_matcher": "trip_id", "mapping": columbus_columns_one},
-            {"header_matcher": "Bike ID", "mapping": columbus_columns_two},
-        ],
+        "renamed_columns": {
+            **commonized_system_data_columns,
+            **columbus_columns_one,
+            **columbus_columns_two,
+        },
         "date_formats": [
             "%Y-%m-%d %H:%M:%S",
             "%m/%d/%Y %H:%M:%S",
@@ -271,17 +271,11 @@ config = {
     "chicago": {
         "name": "chicago",
         "file_matcher": ["trip", "Trips"],
-        "column_mappings": [
-            {"header_matcher": "ride_id", "mapping": commonized_system_data_columns},
-            {
-                "header_matcher": "from_station_name",
-                "mapping": chicago_renamed_columns_pre_march_2023,
-            },
-            {
-                "header_matcher": "01 - Rental Details Local Start Time",
-                "mapping": chicago_renamed_columns_oddball,
-            },
-        ],
+        "renamed_columns": {
+            **commonized_system_data_columns,
+            **chicago_renamed_columns_pre_march_2023,
+            **chicago_renamed_columns_oddball,
+        },
         "date_formats": [
             "%Y-%m-%d %H:%M:%S",
             "%m/%d/%Y %H:%M:%S",
@@ -292,25 +286,19 @@ config = {
     "boston": {
         "name": "boston",
         "file_matcher": ["-tripdata"],
-        "column_mappings": [
-            {"header_matcher": "ride_id", "mapping": commonized_system_data_columns},
-            {
-                "header_matcher": "bikeid",
-                "mapping": boston_renamed_columns_pre_march_2023,
-            },
-        ],
+        "renamed_columns": {
+            **commonized_system_data_columns,
+            **boston_renamed_columns_pre_march_2023,
+        },
         "date_formats": ["%Y-%m-%d %H:%M:%S", "%Y-%m-%d %H:%M:%S.%f"],
     },
     "dc": {
         "name": "dc",
         "file_matcher": ["capitalbikeshare-tripdata"],
-        "column_mappings": [
-            {"header_matcher": "ride_id", "mapping": commonized_system_data_columns},
-            {
-                "header_matcher": "Bike number",
-                "mapping": dc_renamed_columns_pre_may_2020,
-            },
-        ],
+        "renamed_columns": {
+            **commonized_system_data_columns,
+            **dc_renamed_columns_pre_may_2020,
+        },
         "date_formats": [
             "%Y-%m-%d %H:%M:%S",
         ],
@@ -344,14 +332,11 @@ config = {
             "201311-citibike-tripdata.csv",
             "201312-citibike-tripdata.csv",
         ],
-        "column_mappings": [
-            {"header_matcher": "ride_id", "mapping": commonized_system_data_columns},
-            {"header_matcher": "bikeid", "mapping": nyc_renamed_columns_initial},
-            {
-                "header_matcher": "Trip Duration",
-                "mapping": nyc_renamed_columns_2017_03_to_2020_01,
-            },
-        ],
+        "renamed_columns": {
+            **commonized_system_data_columns,
+            **nyc_renamed_columns_initial,
+            **nyc_renamed_columns_2017_03_to_2020_01,
+        },
         "date_formats": [
             "%Y-%m-%d %H:%M:%S",
             "%m/%d/%Y %H:%M:%S",
@@ -361,10 +346,10 @@ config = {
     "sf": {
         "name": "sf",
         "file_matcher": ["tripdata"],
-        "column_mappings": [
-            {"header_matcher": "ride_id", "mapping": commonized_system_data_columns},
-            {"header_matcher": "bike_id", "mapping": sf_renamed_columns_pre_may_2020},
-        ],
+        "renamed_columns": {
+            **commonized_system_data_columns,
+            **sf_renamed_columns_pre_may_2020,
+        },
         "date_formats": [
             "%Y-%m-%d %H:%M:%S",
         ],
@@ -372,13 +357,9 @@ config = {
     "philadelphia": {
         "name": "philadelphia",
         "file_matcher": ["trips", "Trips"],
-        "column_mappings": [
-            {
-                "header_matcher": "trip_id",
-                "mapping": bicycle_transit_systems_renamed_columns,
-                "final_columns": bicycle_transit_systems_final_columns,
-            }
-        ],
+        "renamed_columns": {
+            **bicycle_transit_systems_renamed_columns,
+        },
         "date_formats": [
             "%Y-%m-%d %H:%M:%S",
             "%m/%d/%Y %H:%M",
@@ -387,17 +368,11 @@ config = {
     "pittsburgh": {
         "name": "pittsburgh",
         "file_matcher": ["csv"],
-        "column_mappings": [
-            {
-                "header_matcher": "Start Date",
-                "mapping": pittsburgh_renamed_columns,
-            },
-            {"header_matcher": "Trip id", "mapping": pittsburgh_healthy_ride_columns},
-            {
-                "header_matcher": "trip_id",
-                "mapping": pittsburgh_healthy_ride_columns_two,
-            },
-        ],
+        "renamed_columns": {
+            **pittsburgh_renamed_columns,
+            **pittsburgh_healthy_ride_columns,
+            **pittsburgh_healthy_ride_columns_two,
+        },
         "date_formats": [
             "%m/%d/%Y %H:%M",
             "%Y-%m-%dT%H:%M:%S",
@@ -407,13 +382,9 @@ config = {
     "los_angeles": {
         "name": "los_angeles",
         "file_matcher": ["trips"],
-        "column_mappings": [
-            {
-                "header_matcher": "trip_id",
-                "mapping": bicycle_transit_systems_renamed_columns,
-                "final_columns": bicycle_transit_systems_final_columns,
-            },
-        ],
+        "renamed_columns": {
+            **bicycle_transit_systems_renamed_columns,
+        },
         "date_formats": [
             "%Y-%m-%d %H:%M:%S",
             "%m/%d/%Y %H:%M",
@@ -422,43 +393,28 @@ config = {
     "austin": {
         "name": "austin",
         "file_matcher": ["austin_all_trips.csv"],
-        "column_mappings": [
-            {
-                "header_matcher": "Trip ID",
-                "mapping": austin_bcycle,
-                "final_columns": [
-                    "start_time",
-                    "duration_minutes",
-                    "start_station_name",
-                    "end_station_name",
-                ],
-            }
-        ],
+        "renamed_columns": {
+            **austin_bcycle,
+        },
         "date_formats": ["%Y-%m-%d %H:%M:%S", "%Y-%m-%d %H:%M:%S%.6f"],
     },
     "chattanooga": {
         "name": "chattanooga",
         "file_matcher": ["chattanooga_all_trips"],
-        "column_mappings": [
-            {
-                "header_matcher": "TripDurationMin",
-                "mapping": chattanooga_bicycle_transit_system,
-            }
-        ],
+        "renamed_columns": {
+            **chattanooga_bicycle_transit_system,
+        },
         "date_formats": ["%m/%d/%Y %I:%M:%S %p"],
     },
     ## Jersey City follows NYC in terms of headers
     "jersey_city": {
         "name": "jersey_city",
         "file_matcher": ["JC-"],
-        "column_mappings": [
-            {"header_matcher": "ride_id", "mapping": commonized_system_data_columns},
-            {"header_matcher": "bikeid", "mapping": nyc_renamed_columns_initial},
-            {
-                "header_matcher": "Trip Duration",
-                "mapping": nyc_renamed_columns_2017_03_to_2020_01,
-            },
-        ],
+        "renamed_columns": {
+            **commonized_system_data_columns,
+            **nyc_renamed_columns_initial,
+            **nyc_renamed_columns_2017_03_to_2020_01,
+        },
         "date_formats": [
             "%Y-%m-%d %H:%M:%S",
         ],

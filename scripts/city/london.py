@@ -32,13 +32,11 @@ date_formats = ["%d/%m/%Y %H:%M", "%Y-%m-%d %H:%M"]
 final_columns = ["start_station_name", "end_station_name", "start_time", "end_time"]
 
 config = {
-    "name": "vancouver",
-    "column_mappings": [
-        {"header_matcher": "Start station", "mapping": version_one_columns},
-        {"header_matcher": "StartStation Name", "mapping": legacy_columns},
-        {"header_matcher": "Start Station Name", "mapping": legacy_columns_2},
-    ],
+    "name": "london",
+    "renamed_columns": {**version_one_columns, **legacy_columns, **legacy_columns_2},
 }
+
+renamed_columns = config["renamed_columns"]
 
 
 def create_all_trips_df(args):
@@ -50,7 +48,7 @@ def create_all_trips_df(args):
         df = pl.read_csv(file, infer_schema_length=0)
 
         df = (
-            df.pipe(utils.rename_columns(config["column_mappings"], final_columns))
+            df.pipe(utils.rename_columns_for_keys(renamed_columns))
             .select(final_columns)
             .pipe(utils.convert_columns_to_datetime(date_columns, date_formats))
         )

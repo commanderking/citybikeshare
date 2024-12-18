@@ -16,7 +16,6 @@ renamed_columns_2024 = {
     "Stopover duration (sec.)": "stopover_duration",
     "Number of stopovers": "stopover_count",
 }
-
 date_columns = ["start_time", "end_time"]
 final_column_headers = [
     "start_time",
@@ -28,9 +27,7 @@ final_column_headers = [
 config = {
     "name": "vancouver",
     "file_matcher": ["Mobi_System_Data"],
-    "column_mappings": [
-        {"header_matcher": "Departure", "mapping": renamed_columns_2024}
-    ],
+    "renamed_columns": {**renamed_columns_2024},
 }
 
 # ZIP_DIRECTORY = utils.get_zip_directory("vancouver")
@@ -70,7 +67,7 @@ def run_get_exports(playwright, url, csv_path):
 
 
 def format_files(files, args):
-    mappings = config["column_mappings"]
+    renamed_columns = config["renamed_columns"]
 
     dfs = []
     for file in files:
@@ -83,20 +80,23 @@ def format_files(files, args):
                 dtypes={"Covered distance (m)": pl.Float64},
                 encoding="utf8-lossy",
             )
+            ### In 2023, many files end in tens of thosuands of rows that have no data for any column, likely due to itts storage in Google Drive
+            .filter(~pl.all_horizontal(pl.all().is_null()))
             .pipe(
-                utils.rename_columns(
-                    mappings, final_column_headers=final_column_headers
+                utils.rename_columns_for_keys(
+                    renamed_columns,
                 )
             )
-            ### In 2023, many files end in tens of thosuands of rows that have no data for any column
-            .filter(~pl.all_horizontal(pl.all().is_null()))
             ## Getting some null values because some dates are not zero-padded "2020-04-01 0:00"
             .pipe(utils.convert_columns_to_datetime(date_columns, date_formats))
             .with_columns([pl.col("duration_seconds").cast(pl.Int64)])
             .pipe(utils.offset_two_digit_years)
+            .select(final_column_headers)
             .pipe(utils.assess_null_data)
         )
+
         dfs.append(df)
+
     return pl.concat(dfs)
 
 
