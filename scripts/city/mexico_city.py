@@ -123,6 +123,7 @@ def create_df_with_all_trips(folder_path):
 
     stations_df = get_stations_df()
     for file_path in csv_files:
+        print(file_path)
         df = pl.read_csv(
             file_path,
             schema_overrides={
@@ -162,6 +163,7 @@ def create_df_with_all_trips(folder_path):
 
         df = (
             df.rename(renamed_columns)
+            .pipe(utils.assess_null_data)
             .join(
                 stations_df,
                 left_on="start_station_id",
@@ -222,6 +224,7 @@ def create_df_with_all_trips(folder_path):
                 ]
             )
             .pipe(utils.offset_two_digit_years)
+            .pipe(utils.assess_null_data)
         )
 
         df = df.select(
@@ -229,9 +232,11 @@ def create_df_with_all_trips(folder_path):
                 "start_time",
                 "end_time",
                 "start_station_name",
+                "start_station_id",
                 "end_station_name",
+                "end_station_id",
             ]
-        )
+        ).pipe(utils.print_null_data)
         dataframes.append(df)
 
     combined_df = pl.concat(dataframes)
@@ -239,10 +244,11 @@ def create_df_with_all_trips(folder_path):
 
 
 def build_trips(args):
+    null_headers = ["start_station_id", "end_station_id", "end_time", "start_time"]
     get_stations_df()
     df = create_df_with_all_trips(MEXICO_CSVS_PATH)
     utils.create_all_trips_file(df, args)
-    utils.log_final_results(df, args)
+    utils.log_final_results(df, args, null_headers=null_headers)
     utils.create_recent_year_file(df, args)
 
 

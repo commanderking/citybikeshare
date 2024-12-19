@@ -221,14 +221,16 @@ def fill_missing_years(data, start_year, end_year):
     return filled_data
 
 
-def get_null_rows_by_year(df):
+def get_null_rows_by_year(df, **kwargs):
+    headers = kwargs.get("null_headers", df.headers)
     start_time, end_time = get_bookend_dates(df)
 
     start_year = parse(start_time).year
     end_year = parse(end_time).year
     lazy_df = df.lazy()
     null_df = (
-        lazy_df.filter(
+        lazy_df.select(headers)
+        .filter(
             pl.any_horizontal(pl.all().is_null())  # Keep rows with any NULL values
         )
         .with_columns(
@@ -254,7 +256,7 @@ def get_null_rows_by_year(df):
     return nulls_by_year, total_null_rows
 
 
-def log_final_results(df, args):
+def log_final_results(df, args, **kwargs):
     """Print all rows that have NULL in at least one column"""
 
     city = args.city
@@ -271,7 +273,7 @@ def log_final_results(df, args):
         print(f"No logging file found, will create new one. Error: {e}")
 
     null_rows_by_year, total_null_rows = get_null_rows_by_year(df)
-    headers = df.columns
+    headers = kwargs.get("null_headers", df.headers)
     for header in headers:
         null_count = df.select(pl.col(header).is_null().sum()).item()
         city_json[f"null_{header}"] = null_count

@@ -801,10 +801,10 @@
         "last_trip": "2024-10-01T00:45:00"
     },
     "mexico_city": {
-        "null_start_time": 572979,
+        "null_start_station_id": 11158,
+        "null_end_station_id": 11084,
         "null_end_time": 838063,
-        "null_start_station_name": 10406317,
-        "null_end_station_name": 10683112,
+        "null_start_time": 572979,
         "null_by_year": [
             {
                 "year": 2010,
