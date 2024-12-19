@@ -129,7 +129,6 @@ def create_df_with_all_trips(folder_path):
             .rename({"name": "start_station_name"})
             .join(stations_df, left_on="end_station_id", right_on="id")
             .rename({"name": "end_station_name"})
-            .pipe(utils.assess_null_data)
             .pipe(
                 utils.convert_columns_to_datetime(
                     ["start_time", "end_time"], DATE_FORMATS
@@ -148,8 +147,7 @@ def build_trips(args):
     """
     Orchestrates the process of downloading data, processing trips, and saving results.
     """
-    if not args.skip_unzip:
-        get_exports(OPEN_DATA_URL, CSV_PATH)
+
     df = create_df_with_all_trips(CSV_PATH)
     utils.create_all_trips_file(df, args)
     utils.log_final_results(df, args)

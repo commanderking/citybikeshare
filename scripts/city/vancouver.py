@@ -105,9 +105,7 @@ def build_trips(args):
     # No unzipping needed - files already downloaded as csv
     files = utils.get_csv_files(CSV_PATH)
     df = format_files(files, args)
-    utils.create_all_trips_file(df, args)
-    utils.create_recent_year_file(df, args, date_column="start_time")
-    utils.log_final_results(df, args)
+    utils.create_final_files_and_logs(df, args)
 
 
 def get_exports(url, csv_path):
