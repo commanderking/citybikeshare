@@ -109,7 +109,6 @@ def get_stations_df():
     with open(STATION_INFORMATION_FILE) as f:
         results = json.load(f)
         stations = results["data"]["stations"]
-    print(stations)
     stations_df = pl.DataFrame(stations).select(["station_id", "name"])
     return stations_df
 
@@ -124,7 +123,6 @@ def create_df_with_all_trips(folder_path):
 
     stations_df = get_stations_df()
     for file_path in csv_files:
-        print(file_path)
         df = pl.read_csv(
             file_path,
             schema_overrides={
@@ -164,9 +162,16 @@ def create_df_with_all_trips(folder_path):
 
         df = (
             df.rename(renamed_columns)
-            .join(stations_df, left_on="start_station_id", right_on="station_id")
+            .join(
+                stations_df,
+                left_on="start_station_id",
+                right_on="station_id",
+                how="left",
+            )
             .rename({"name": "start_station_name"})
-            .join(stations_df, left_on="end_station_id", right_on="station_id")
+            .join(
+                stations_df, left_on="end_station_id", right_on="station_id", how="left"
+            )
             .rename({"name": "end_station_name"})
             .with_columns(
                 [
@@ -227,7 +232,6 @@ def create_df_with_all_trips(folder_path):
                 "end_station_name",
             ]
         )
-        print(df)
         dataframes.append(df)
 
     combined_df = pl.concat(dataframes)

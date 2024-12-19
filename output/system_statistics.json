@@ -801,77 +801,77 @@
         "last_trip": "2024-10-01T00:45:00"
     },
     "mexico_city": {
-        "null_start_time": 529235,
-        "null_end_time": 782546,
-        "null_start_station_name": 0,
-        "null_end_station_name": 0,
+        "null_start_time": 572979,
+        "null_end_time": 838063,
+        "null_start_station_name": 10406317,
+        "null_end_station_name": 10683112,
         "null_by_year": [
             {
                 "year": 2010,
-                "has_null": 0
+                "has_null": 99408
             },
             {
                 "year": 2011,
-                "has_null": 0
+                "has_null": 293133
             },
             {
                 "year": 2012,
-                "has_null": 0
+                "has_null": 269022
             },
             {
                 "year": 2013,
-                "has_null": 0
+                "has_null": 356935
             },
             {
                 "year": 2014,
-                "has_null": 0
+                "has_null": 435662
             },
             {
                 "year": 2015,
-                "has_null": 0
+                "has_null": 484671
             },
             {
                 "year": 2016,
-                "has_null": 8118
+                "has_null": 468750
             },
             {
                 "year": 2017,
-                "has_null": 0
+                "has_null": 532799
             },
             {
                 "year": 2018,
-                "has_null": 0
+                "has_null": 425553
             },
             {
                 "year": 2019,
-                "has_null": 0
+                "has_null": 377475
             },
             {
                 "year": 2020,
-                "has_null": 245554
+                "has_null": 431257
             },
             {
                 "year": 2021,
-                "has_null": 0
+                "has_null": 192380
             },
             {
                 "year": 2022,
-                "has_null": 0
+                "has_null": 869129
             },
             {
                 "year": 2023,
-                "has_null": 0
+                "has_null": 6816542
             },
             {
                 "year": 2024,
-                "has_null": 0
+                "has_null": 4837332
             }
         ],
-        "total_rows": 84266269,
-        "null_rows": 782907,
-        "percent_complete": 99.07,
+        "total_rows": 100946389,
+        "null_rows": 17463027,
+        "percent_complete": 82.7,
         "first_trip": "2010-02-02T18:04:38",
-        "last_trip": "2024-06-30T23:59:33"
+        "last_trip": "2024-06-30T23:59:37"
     },
     "montreal": {
         "null_start_station_name": 16411,
