@@ -304,3 +304,11 @@ def assess_null_data(df):
         if null_count != 0:
             print(f"{header} has {null_count} rows with null values")
     return df
+
+
+def create_final_files_and_logs(df, args):
+    create_all_trips_file(df, args)
+    create_recent_year_file(df, args)
+    log_final_results(df, args)
+
+    return df

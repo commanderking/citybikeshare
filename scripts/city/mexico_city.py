@@ -1,5 +1,7 @@
 import os
 import datetime
+import requests
+import json
 import polars as pl
 from playwright.sync_api import sync_playwright
 import scripts.utils as utils
@@ -7,6 +9,9 @@ import scripts.utils as utils
 CSV_PATH = utils.get_raw_files_directory("mexico_city")
 MEXICO_CITY_OPEN_DATA_URL = "https://ecobici.cdmx.gob.mx/en/open-data/"
 MEXICO_CSVS_PATH = utils.get_raw_files_directory("mexico_city")
+STATION_INFORMATION_FILE = (
+    utils.get_metadata_directory("mexico_city") / "station_information.json"
+)
 
 
 def run_get_exports(playwright, url, csv_path):
@@ -38,7 +43,33 @@ def run_get_exports(playwright, url, csv_path):
     browser.close()
 
 
+def get_stations_info():
+    url = "https://gbfs.mex.lyftbikes.com/gbfs/es/station_information.json"
+
+    try:
+        # Make a GET request to fetch the data
+        response = requests.get(url)
+        response.raise_for_status()  # Raise an exception for HTTP errors
+
+        # Parse the JSON content
+        data = response.json()
+
+        # Save the JSON data to a file
+        with open(STATION_INFORMATION_FILE, "w", encoding="utf-8") as file:
+            json.dump(data, file, ensure_ascii=False, indent=4)
+
+        print(
+            f"Data successfully downloaded and saved to '{STATION_INFORMATION_FILE}'."
+        )
+    except requests.exceptions.RequestException as e:
+        print(f"An error occurred while fetching the data: {e}")
+    except Exception as e:
+        print(f"An unexpected error occurred: {e}")
+
+
 def get_exports(url, csv_path):
+    # Mexico City data only includes station ids, not names
+    get_stations_info()
     with sync_playwright() as playwright:
         run_get_exports(playwright, url, csv_path)
 
@@ -73,6 +104,16 @@ date_formats = ["%m-%d-%Y", "%d/%m/%Y", "%Y-%m-%d"]
 time_formats = ["%H:%M:%S", "%H:%M:%S %p"]
 
 
+def get_stations_df():
+    stations = []
+    with open(STATION_INFORMATION_FILE) as f:
+        results = json.load(f)
+        stations = results["data"]["stations"]
+    print(stations)
+    stations_df = pl.DataFrame(stations).select(["station_id", "name"])
+    return stations_df
+
+
 def create_df_with_all_trips(folder_path):
     csv_files = [
         os.path.join(folder_path, f)
@@ -81,6 +122,7 @@ def create_df_with_all_trips(folder_path):
     ]
     dataframes = []
 
+    stations_df = get_stations_df()
     for file_path in csv_files:
         print(file_path)
         df = pl.read_csv(
@@ -122,6 +164,10 @@ def create_df_with_all_trips(folder_path):
 
         df = (
             df.rename(renamed_columns)
+            .join(stations_df, left_on="start_station_id", right_on="station_id")
+            .rename({"name": "start_station_name"})
+            .join(stations_df, left_on="end_station_id", right_on="station_id")
+            .rename({"name": "end_station_name"})
             .with_columns(
                 [
                     pl.coalesce(
@@ -177,12 +223,11 @@ def create_df_with_all_trips(folder_path):
             [
                 "start_time",
                 "end_time",
-                "start_date",
-                "end_date",
-                "starting_time",
-                "ending_time",
+                "start_station_name",
+                "end_station_name",
             ]
         )
+        print(df)
         dataframes.append(df)
 
     combined_df = pl.concat(dataframes)
@@ -190,8 +235,7 @@ def create_df_with_all_trips(folder_path):
 
 
 def build_trips(args):
-    if not args.skip_unzip:
-        get_exports(MEXICO_CITY_OPEN_DATA_URL, CSV_PATH)
+    get_stations_df()
     df = create_df_with_all_trips(MEXICO_CSVS_PATH)
     utils.create_all_trips_file(df, args)
     utils.log_final_results(df, args)
@@ -199,5 +243,4 @@ def build_trips(args):
 
 
 if __name__ == "__main__":
-    # get_exports(MEXICO_CITY_OPEN_DATA_URL, CSV_PATH)
-    df = create_df_with_all_trips(MEXICO_CSVS_PATH)
+    get_exports(MEXICO_CITY_OPEN_DATA_URL, CSV_PATH)

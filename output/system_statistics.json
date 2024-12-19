@@ -801,12 +801,10 @@
         "last_trip": "2024-10-01T00:45:00"
     },
     "mexico_city": {
-        "null_start_time": 572979,
-        "null_end_time": 838063,
-        "null_start_date": 11158,
-        "null_end_date": 11085,
-        "null_starting_time": 572979,
-        "null_ending_time": 838062,
+        "null_start_time": 529235,
+        "null_end_time": 782546,
+        "null_start_station_name": 0,
+        "null_end_station_name": 0,
         "null_by_year": [
             {
                 "year": 2010,
@@ -834,7 +832,7 @@
             },
             {
                 "year": 2016,
-                "has_null": 8567
+                "has_null": 8118
             },
             {
                 "year": 2017,
@@ -846,11 +844,11 @@
             },
             {
                 "year": 2019,
-                "has_null": 1
+                "has_null": 0
             },
             {
                 "year": 2020,
-                "has_null": 256975
+                "has_null": 245554
             },
             {
                 "year": 2021,
@@ -869,11 +867,11 @@
                 "has_null": 0
             }
         ],
-        "total_rows": 100946389,
-        "null_rows": 838522,
-        "percent_complete": 99.17,
+        "total_rows": 84266269,
+        "null_rows": 782907,
+        "percent_complete": 99.07,
         "first_trip": "2010-02-02T18:04:38",
-        "last_trip": "2024-06-30T23:59:37"
+        "last_trip": "2024-06-30T23:59:33"
     },
     "montreal": {
         "null_start_station_name": 16411,
