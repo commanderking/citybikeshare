@@ -222,7 +222,8 @@ def fill_missing_years(data, start_year, end_year):
 
 
 def get_null_rows_by_year(df, **kwargs):
-    headers = kwargs.get("null_headers", df.headers)
+    headers = kwargs.get("null_headers", df.columns)
+    print(headers)
     start_time, end_time = get_bookend_dates(df)
 
     start_year = parse(start_time).year
@@ -271,10 +272,12 @@ def log_final_results(df, args, **kwargs):
             json_data = json.load(f)
     except Exception as e:
         print(f"No logging file found, will create new one. Error: {e}")
+    null_headers = kwargs.get("null_headers", df.columns)
 
-    null_rows_by_year, total_null_rows = get_null_rows_by_year(df)
-    headers = kwargs.get("null_headers", df.headers)
-    for header in headers:
+    null_rows_by_year, total_null_rows = get_null_rows_by_year(
+        df, null_headers=null_headers
+    )
+    for header in null_headers:
         null_count = df.select(pl.col(header).is_null().sum()).item()
         city_json[f"null_{header}"] = null_count
     city_json["null_by_year"] = null_rows_by_year
