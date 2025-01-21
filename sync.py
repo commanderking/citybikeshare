@@ -17,6 +17,7 @@ scripts = [
     "sync_guadalajara",
     # "sync_vancouver", // Vancouver has a 2017 file that won't download properly and is stored as an excel file
     "sync_london",
+    "sync_montreal",
 ]
 
 # Run each script concurrently

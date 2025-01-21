@@ -82,11 +82,11 @@
     },
     {
         "year": 2024,
-        "trip_count": 244515,
-        "mean_duration": 994.7380160726336,
-        "first_quantile_duration": 240.0,
-        "median_duration": 445.0,
-        "third_quantile_duration": 960.0,
+        "trip_count": 328254,
+        "mean_duration": 899.6856763360081,
+        "first_quantile_duration": 235.0,
+        "median_duration": 408.0,
+        "third_quantile_duration": 867.0,
         "system": "pittsburgh"
     }
 ]

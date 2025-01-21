@@ -131,5 +131,4 @@ def get_exports(url, csv_path):
 
 
 if __name__ == "__main__":
-    # get_exports(OPEN_DATA_URL, CSV_PATH)
-    create_all_trips_df()
+    get_exports(OPEN_DATA_URL, CSV_PATH)

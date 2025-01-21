@@ -520,7 +520,7 @@
         "null_start_time": 0,
         "null_end_time": 0,
         "null_start_station_name": 6,
-        "null_end_station_name": 402,
+        "null_end_station_name": 411,
         "null_by_year": [
             {
                 "year": 2015,
@@ -560,14 +560,18 @@
             },
             {
                 "year": 2024,
-                "has_null": 162
+                "has_null": 171
+            },
+            {
+                "year": 2025,
+                "has_null": 0
             }
         ],
-        "total_rows": 1095250,
-        "null_rows": 408,
+        "total_rows": 1178989,
+        "null_rows": 417,
         "percent_complete": 99.96,
         "first_trip": "2015-05-31T06:54:00",
-        "last_trip": "2024-10-01T08:27:22"
+        "last_trip": "2025-01-02T10:32:18"
     },
     "los_angeles": {
         "null_start_time": 0,
@@ -875,9 +879,9 @@
     },
     "montreal": {
         "null_start_station_name": 20265,
-        "null_end_station_name": 175656,
+        "null_end_station_name": 200120,
         "null_start_time": 0,
-        "null_end_time": 147982,
+        "null_end_time": 172446,
         "null_by_year": [
             {
                 "year": 2014,
@@ -921,14 +925,18 @@
             },
             {
                 "year": 2024,
-                "has_null": 49203
+                "has_null": 73660
+            },
+            {
+                "year": 2025,
+                "has_null": 7
             }
         ],
-        "total_rows": 64445475,
-        "null_rows": 194392,
-        "percent_complete": 99.7,
+        "total_rows": 69061167,
+        "null_rows": 218856,
+        "percent_complete": 99.68,
         "first_trip": "2014-04-15T00:01:00",
-        "last_trip": "2024-09-17T15:15:00"
+        "last_trip": "2025-01-13T21:10:31"
     },
     "vancouver": {
         "null_start_time": 0,
