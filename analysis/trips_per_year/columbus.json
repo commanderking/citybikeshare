@@ -100,11 +100,11 @@
     },
     {
         "year": 2024,
-        "trip_count": 51627,
-        "mean_duration": 1433.518875782052,
-        "first_quantile_duration": 418.0,
-        "median_duration": 723.0,
-        "third_quantile_duration": 1433.0,
+        "trip_count": 62722,
+        "mean_duration": 1412.7193329294346,
+        "first_quantile_duration": 408.0,
+        "median_duration": 708.0,
+        "third_quantile_duration": 1393.0,
         "system": "columbus"
     }
 ]

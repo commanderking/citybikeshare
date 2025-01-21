@@ -49,6 +49,13 @@ def get_stations_information():
         print(f"Failed to retrieve JSON. Status code: {response.status_code}")
 
 
+def get_file_size_from_url(url):
+    response = requests.head(url, allow_redirects=True)
+    if response.status_code == 200 and "Content-Length" in response.headers:
+        return int(response.headers["Content-Length"])
+    return None
+
+
 def run_get_exports(playwright, url):
     browser = playwright.chromium.launch(headless=True)
     context = browser.new_context(accept_downloads=True)

@@ -2,6 +2,7 @@ import os
 import polars as pl
 from playwright.sync_api import sync_playwright
 import scripts.utils as utils
+import scripts.utils_playwright as utils_playwright
 
 renamed_columns_2024 = {
     "Departure": "start_time",
@@ -59,8 +60,12 @@ def run_get_exports(playwright, url, csv_path):
             with new_page.expect_download() as download_info:
                 # Perform the action that initiates download
                 new_page.get_by_label("Download", exact=True).click()
-            download = download_info.value
-            download.save_as(os.path.join(csv_path, download.suggested_filename))
+            utils_playwright.download_if_new_data(
+                download_info,
+                csv_path,
+            )
+            # download = download_info.value
+            # download.save_as(os.path.join(csv_path, download.suggested_filename))
     browser.close()
 
     ### TODO: Convert 2017.xls file to csv

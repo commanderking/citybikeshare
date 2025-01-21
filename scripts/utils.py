@@ -1,9 +1,8 @@
 import os
 import json
 import zipfile
-from datetime import timedelta, datetime
+from datetime import timedelta
 import polars as pl
-import scripts.constants as constants
 import definitions
 from dateutil.parser import parse
 
@@ -74,6 +73,37 @@ def get_csv_files(directory):
     return trip_files
 
 
+def does_file_exist(file_name, file_size, folder):
+    # Construct the full path of the file in the folder
+    target_file_path = os.path.join(folder, file_name)
+
+    # Check if the file exists in the folder
+    if os.path.isfile(target_file_path):
+        # Compare sizes
+        target_file_size = os.path.getsize(target_file_path)
+        return file_size == target_file_size
+    return False
+
+
+def write_to_parquet(df, file_path, **kwargs):
+    """
+    Writes the DataFrame or LazyFrame to a Parquet file.
+
+    Parameters:
+    - df: polars.DataFrame or polars.LazyFrame
+    - file_path: str, Path to write the Parquet file.
+    - kwargs: Additional keyword arguments for write_parquet or sink_parquet.
+    """
+    if isinstance(df, pl.LazyFrame):
+        # Use sink_parquet for LazyFrame
+        df.sink_parquet(file_path, **kwargs)
+    elif isinstance(df, pl.DataFrame):
+        # Use write_parquet for DataFrame
+        df.write_parquet(file_path, **kwargs)
+    else:
+        raise TypeError("Input must be a polars.DataFrame or polars.LazyFrame")
+
+
 def match_all_city_files(file_path, city):
     return True
 
@@ -88,16 +118,6 @@ def unzip_city_zips(city, city_matcher=match_all_city_files):
                 archive.extractall(get_raw_files_directory(city))
 
 
-def get_applicable_columns_mapping(df, rename_dict):
-    # Filter the rename dictionary to include only columns that exist in the DataFrame
-    existing_columns = df.columns
-    filtered_rename_dict = {
-        old: new for old, new in rename_dict.items() if old in existing_columns
-    }
-
-    return filtered_rename_dict
-
-
 def rename_columns_for_keys(renamed_columns_dict):
     def inner(df):
         headers = df.columns
@@ -106,7 +126,6 @@ def rename_columns_for_keys(renamed_columns_dict):
             for key in headers
             if key in renamed_columns_dict
         }
-        print("renaming")
         return df.rename(relevant_columns)
 
     return inner
@@ -116,6 +135,8 @@ def get_recent_year_df(date_column):
     """Returns all rows one year from the last date"""
 
     def inner(df):
+        if isinstance(df, pl.LazyFrame):
+            df = df.collect()
         max_date = df.select(pl.max(date_column)).to_series()[0]
         one_year_ago = max_date - timedelta(days=365)
 
@@ -133,7 +154,7 @@ def convert_columns_to_datetime(date_column_names, date_formats):
             [
                 pl.coalesce(
                     [
-                        df[date_column]
+                        pl.col(date_column)
                         # Some data has milliseconds, and some even have a mix of milliseconds and microseconds. Just remove these to reduce the trouble of formatting different datetimes
                         .str.replace(r"\.\d+", "")
                         .str.strptime(pl.Datetime, format, strict=False)
@@ -173,8 +194,8 @@ def create_all_trips_file(df, args):
         print("csv files created")
     else:
         ### https://stackoverflow.com/questions/50604133/convert-csv-to-parquet-file-using-python
-        print("generating parquet... this will take a bit...")
-        df.write_parquet(all_trips_path)
+        print("generating all trips parquet... this will take a bit...")
+        write_to_parquet(df, all_trips_path)
         print("parquet file for all trips created")
 
 
@@ -188,12 +209,11 @@ def create_recent_year_file(df, args, date_column="start_time"):
     else:
         ### https://stackoverflow.com/questions/50604133/convert-csv-to-parquet-file-using-python
         print("generating recent year parquet... this will take a bit...")
-        df.write_parquet(recent_year_path)
+        write_to_parquet(df, recent_year_path)
         print("parquet file for recent year created")
 
 
 def get_bookend_dates(df):
-    print("bookend dates")
     # Use min and max to find the earliest start_time and latest end_time
     result = df.select(
         pl.col("start_time").min().alias("earliest_start_time"),
@@ -223,7 +243,6 @@ def fill_missing_years(data, start_year, end_year):
 
 def get_null_rows_by_year(df, **kwargs):
     headers = kwargs.get("null_headers", df.columns)
-    print(headers)
     start_time, end_time = get_bookend_dates(df)
 
     start_year = parse(start_time).year
@@ -266,6 +285,9 @@ def log_final_results(df, args, **kwargs):
 
     output_directory = get_output_directory()
     summary_path = output_directory / "system_statistics.json"
+
+    if isinstance(df, pl.LazyFrame):
+        df = df.collect()
 
     try:
         with open(summary_path, "r") as f:

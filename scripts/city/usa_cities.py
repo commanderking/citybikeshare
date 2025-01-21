@@ -83,7 +83,7 @@ def format_and_concat_files(trip_files, args):
         # df_start_time = df.filter(pl.col("start_time").is_null())
         # print(df_start_time)
         df = (
-            pl.read_csv(file, infer_schema_length=0)
+            pl.scan_csv(file, infer_schema_length=0)
             .pipe(utils.rename_columns_for_keys(renamed_columns))
             # TODO: This station name mapping should apply to all stations
             # May want to make this configuration based rather than explicit city checks here
@@ -101,9 +101,11 @@ def format_and_concat_files(trip_files, args):
             .select(final_columns)
             .pipe(utils.offset_two_digit_years)
         )
+
         file_dataframes.append(df)
 
     print("concatenating all csv files...")
+
     return pl.concat(file_dataframes)
 
 
@@ -133,6 +135,4 @@ def build_all_trips(args):
     filtered_files = filter_filenames(trip_files, args)
     all_trips_df = format_and_concat_files(filtered_files, args)
 
-    utils.create_all_trips_file(all_trips_df, args)
-    utils.create_recent_year_file(all_trips_df, args)
-    utils.log_final_results(all_trips_df, args)
+    utils.create_final_files_and_logs(all_trips_df, args)

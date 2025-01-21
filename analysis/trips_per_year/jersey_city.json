@@ -82,11 +82,11 @@
     },
     {
         "year": 2024,
-        "trip_count": 912324,
-        "mean_duration": 656.7650231715926,
-        "first_quantile_duration": 244.0,
-        "median_duration": 373.0,
-        "third_quantile_duration": 594.0,
+        "trip_count": 1052451,
+        "mean_duration": 638.4234657955573,
+        "first_quantile_duration": 242.0,
+        "median_duration": 368.0,
+        "third_quantile_duration": 583.0,
         "system": "jersey_city"
     }
 ]

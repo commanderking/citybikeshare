@@ -55,20 +55,20 @@
     },
     {
         "year": 2023,
-        "trip_count": 2555154,
-        "mean_duration": 861.7052776466702,
+        "trip_count": 2552947,
+        "mean_duration": 862.2519221903158,
         "first_quantile_duration": 327.0,
-        "median_duration": 558.0,
+        "median_duration": 559.0,
         "third_quantile_duration": 915.0,
         "system": "sf"
     },
     {
         "year": 2024,
-        "trip_count": 2494958,
-        "mean_duration": 787.2370568963486,
+        "trip_count": 3353269,
+        "mean_duration": 781.279047699424,
         "first_quantile_duration": 326.0,
-        "median_duration": 549.0,
-        "third_quantile_duration": 888.0,
+        "median_duration": 547.0,
+        "third_quantile_duration": 883.0,
         "system": "sf"
     }
 ]

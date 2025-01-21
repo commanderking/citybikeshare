@@ -73,11 +73,11 @@
     },
     {
         "year": 2024,
-        "trip_count": 263465,
-        "mean_duration": 1952.5441329967928,
+        "trip_count": 398383,
+        "mean_duration": 2093.8652502742334,
         "first_quantile_duration": 420.0,
-        "median_duration": 840.0,
-        "third_quantile_duration": 1620.0,
+        "median_duration": 900.0,
+        "third_quantile_duration": 1680.0,
         "system": "los_angeles"
     }
 ]
