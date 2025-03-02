@@ -55,11 +55,20 @@
     },
     {
         "year": 2024,
-        "trip_count": 349886,
-        "mean_duration": 640.9713335200609,
-        "first_quantile_duration": 306.0,
-        "median_duration": 467.0,
-        "third_quantile_duration": 717.0,
+        "trip_count": 401851,
+        "mean_duration": 628.5140537164273,
+        "first_quantile_duration": 303.0,
+        "median_duration": 462.0,
+        "third_quantile_duration": 706.0,
+        "system": "bergen"
+    },
+    {
+        "year": 2025,
+        "trip_count": 3915,
+        "mean_duration": 575.9312899106003,
+        "first_quantile_duration": 295.0,
+        "median_duration": 459.0,
+        "third_quantile_duration": 670.0,
         "system": "bergen"
     }
 ]

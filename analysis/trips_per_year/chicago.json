@@ -100,11 +100,11 @@
     },
     {
         "year": 2024,
-        "trip_count": 4730840,
-        "mean_duration": 1077.655744434392,
-        "first_quantile_duration": 342.0,
-        "median_duration": 602.0,
-        "third_quantile_duration": 1072.0,
+        "trip_count": 5860568,
+        "mean_duration": 1038.9353943167284,
+        "first_quantile_duration": 333.0,
+        "median_duration": 583.0,
+        "third_quantile_duration": 1035.0,
         "system": "chicago"
     }
 ]

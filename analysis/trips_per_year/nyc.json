@@ -100,11 +100,11 @@
     },
     {
         "year": 2024,
-        "trip_count": 38390384,
-        "mean_duration": 808.226971160278,
-        "first_quantile_duration": 306.0,
+        "trip_count": 54559641,
+        "mean_duration": 796.6294541600814,
+        "first_quantile_duration": 308.0,
         "median_duration": 533.0,
-        "third_quantile_duration": 935.0,
+        "third_quantile_duration": 929.0,
         "system": "nyc"
     }
 ]

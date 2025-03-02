@@ -82,11 +82,11 @@
     },
     {
         "year": 2024,
-        "trip_count": 3599617,
-        "mean_duration": 1068.7771060087782,
-        "first_quantile_duration": 409.0,
-        "median_duration": 683.0,
-        "third_quantile_duration": 1131.0,
+        "trip_count": 4751790,
+        "mean_duration": 1034.789071486745,
+        "first_quantile_duration": 401.0,
+        "median_duration": 667.0,
+        "third_quantile_duration": 1103.0,
         "system": "boston"
     }
 ]

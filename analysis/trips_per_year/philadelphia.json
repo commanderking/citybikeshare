@@ -82,8 +82,8 @@
     },
     {
         "year": 2024,
-        "trip_count": 561861,
-        "mean_duration": 1015.0281653291472,
+        "trip_count": 1269390,
+        "mean_duration": 1037.4310022924396,
         "first_quantile_duration": 360.0,
         "median_duration": 600.0,
         "third_quantile_duration": 960.0,

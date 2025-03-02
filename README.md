@@ -85,15 +85,6 @@ https://data.gov.tw/dataset/67784
 https://data.gov.tw/dataset/169174
 
 
-#### Null start and end stations - tested on 6/12/24. Includes 2024/04 bluebike data
-- Chicago - 4_102_485
-- Boston - 19_626
-- NYC - 308_238
-- Philadelphia - 0
-- DC - 1_563_414
-- SF - 3_205_547
-- Toronto - 16 
-- Taipei - 692
 
 ### Data Cleaning Challenges
 
@@ -114,20 +105,6 @@ Mexico City Issues
 ### Resources 
 
 - https://bikeshare-research.org/#/
-
-## Tentative Ranking Rubric
-
-### Data Consistency
-- Consistent column headers naming throughout the years 
-
-### Data Variety 
-- How much data do they expose? Stop times? Membership type? 
-
-### Unique areas 
-- Do they do things that others don't? 
-- Make ride times anonymous (Taipei and Vancouver) 
-
-
 
 ### Correspondance
 
