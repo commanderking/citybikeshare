@@ -1,4 +1,3 @@
-import os
 import polars as pl
 from playwright.sync_api import sync_playwright
 import scripts.utils as utils
@@ -64,14 +63,12 @@ def run_get_exports(playwright, url, csv_path):
                 download_info,
                 csv_path,
             )
-            # download = download_info.value
-            # download.save_as(os.path.join(csv_path, download.suggested_filename))
     browser.close()
 
     ### TODO: Convert 2017.xls file to csv
 
 
-def format_files(files, args):
+def format_files(files):
     renamed_columns = config["renamed_columns"]
 
     dfs = []
@@ -109,7 +106,7 @@ def build_trips(args):
     print("building trips")
     # No unzipping needed - files already downloaded as csv
     files = utils.get_csv_files(CSV_PATH)
-    df = format_files(files, args)
+    df = format_files(files)
     utils.create_final_files_and_logs(df, args)
 
 

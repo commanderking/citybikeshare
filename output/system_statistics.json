@@ -402,13 +402,17 @@
             {
                 "year": 2024,
                 "has_null": 0
+            },
+            {
+                "year": 2025,
+                "has_null": 0
             }
         ],
-        "total_rows": 7760740,
+        "total_rows": 8059861,
         "null_rows": 51,
         "percent_complete": 100.0,
         "first_trip": "2015-04-23T07:44:00",
-        "last_trip": "2024-10-11T07:22:00"
+        "last_trip": "2025-01-02T14:48:00"
     },
     "nyc": {
         "null_start_time": 0,
@@ -576,8 +580,8 @@
     "los_angeles": {
         "null_start_time": 0,
         "null_end_time": 0,
-        "null_start_station_name": 507,
-        "null_end_station_name": 507,
+        "null_start_station_name": 706,
+        "null_end_station_name": 706,
         "null_by_year": [
             {
                 "year": 2016,
@@ -613,14 +617,18 @@
             },
             {
                 "year": 2024,
+                "has_null": 199
+            },
+            {
+                "year": 2025,
                 "has_null": 0
             }
         ],
-        "total_rows": 2490902,
-        "null_rows": 507,
-        "percent_complete": 99.98,
+        "total_rows": 2611756,
+        "null_rows": 706,
+        "percent_complete": 99.97,
         "first_trip": "2016-07-07T04:17:00",
-        "last_trip": "2024-10-03T12:18:00"
+        "last_trip": "2025-01-03T15:18:00"
     },
     "austin": {
         "null_start_time": 0,

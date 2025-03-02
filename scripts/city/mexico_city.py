@@ -1,5 +1,4 @@
 import os
-import datetime
 import requests
 import json
 import polars as pl
@@ -21,7 +20,7 @@ def run_get_exports(playwright, url, csv_path):
 
     page.goto(url)
 
-    most_recent_year = datetime.date.today().year
+    most_recent_year = 2024
     initial_year = 2010
 
     for year in range(initial_year, most_recent_year):
@@ -69,7 +68,7 @@ def get_stations_info():
 
 def get_exports(url, csv_path):
     # Mexico City data only includes station ids, not names
-    get_stations_info()
+    # get_stations_info()
     with sync_playwright() as playwright:
         run_get_exports(playwright, url, csv_path)
 
