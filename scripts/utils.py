@@ -5,6 +5,7 @@ from datetime import timedelta
 import polars as pl
 import definitions
 from dateutil.parser import parse
+import utils_dolt
 
 
 def get_city_directory(city):
@@ -317,6 +318,8 @@ def log_final_results(df, args, **kwargs):
     with open(summary_path, "w") as f:
         json.dump(json_data, f, indent=4)
 
+    return df
+
 
 def print_null_data(df):
     df_null_rows = df.filter(pl.any_horizontal(pl.all().is_null()))
@@ -336,6 +339,9 @@ def assess_null_data(df):
 def create_final_files_and_logs(df, args):
     create_all_trips_file(df, args)
     create_recent_year_file(df, args)
-    log_final_results(df, args)
+    df = log_final_results(df, args)
+
+    path = get_output_directory() / "current_year"
+    utils_dolt.write_to_dolt_db(df, path)
 
     return df

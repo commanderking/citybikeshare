@@ -1,8 +1,19 @@
 import os
+import hashlib
 import polars as pl
 import utils
+import utils_dolt
 import scripts.constants as constants
 import utils_bicycle_transit_systems
+
+
+def compute_file_hash(filepath, chunk_size=8192):
+    """Compute SHA256 hash for file integrity checking."""
+    hasher = hashlib.sha256()
+    with open(filepath, "rb") as f:
+        while chunk := f.read(chunk_size):
+            hasher.update(chunk)
+    return hasher.hexdigest()
 
 
 def filter_filenames(filenames, args):
@@ -65,8 +76,28 @@ def process_bicycle_transit_system(args):
     return inner
 
 
+def get_file_metadata(filepath, city_config):
+    """Get file size and last modified timestamp."""
+    stat = os.stat(filepath)
+    print(stat)
+    size = stat.st_size
+    modified_at = stat.st_mtime
+    name = os.path.basename(filepath)
+    file_hash = compute_file_hash(filepath)
+
+    return {
+        "size": size,
+        "modified_at": modified_at,
+        "name": name,
+        "file_hash": file_hash,
+        "system_name": city_config["system_name"],
+    }
+
+
 def format_and_concat_files(trip_files, args):
     """Get correct column data structures"""
+
+    engine = utils_dolt.establish_engine()
 
     city_config = constants.config[args.city]
     date_formats = city_config["date_formats"]
@@ -78,35 +109,47 @@ def format_and_concat_files(trip_files, args):
 
     for file in trip_files:
         print(file)
-        # DEBUGGING TIPS
-        # For debugging and printing tables with null data for a particular column after formatting
-        # df_start_time = df.filter(pl.col("start_time").is_null())
-        # print(df_start_time)
-        df = (
-            pl.scan_csv(file, infer_schema_length=0)
-            .pipe(utils.rename_columns_for_keys(renamed_columns))
-            # TODO: This station name mapping should apply to all stations
-            # May want to make this configuration based rather than explicit city checks here
-            .pipe(process_bicycle_transit_system(args))
-            # For debugging
-            # .pipe(utils.print_null_data)
-            # .pipe(utils.assess_null_data)
-            ### TODO - move this to configuration for preprocessing. Austin doesn't have end_time so we need to calculate before casting times
-            .pipe(austin_check(args))
-            .pipe(
-                utils.convert_columns_to_datetime(
-                    ["start_time", "end_time"], date_formats
+        file_metadata = get_file_metadata(file, city_config)
+
+        file_processed = utils_dolt.is_file_processed(engine, file_metadata)
+        print(file_processed)
+        if file_processed:
+            print(f'File {file_metadata["name"]} has already been processed')
+        else:
+            # DEBUGGING TIPS
+            # For debugging and printing tables with null data for a particular column after formatting
+            # df_start_time = df.filter(pl.col("start_time").is_null())
+            # print(df_start_time)
+            df = (
+                pl.scan_csv(file, infer_schema_length=0)
+                .pipe(utils.rename_columns_for_keys(renamed_columns))
+                # TODO: This station name mapping should apply to all stations
+                # May want to make this configuration based rather than explicit city checks here
+                .pipe(process_bicycle_transit_system(args))
+                # For debugging
+                # .pipe(utils.print_null_data)
+                # .pipe(utils.assess_null_data)
+                ### TODO - move this to configuration for preprocessing. Austin doesn't have end_time so we need to calculate before casting times
+                .pipe(austin_check(args))
+                .pipe(
+                    utils.convert_columns_to_datetime(
+                        ["start_time", "end_time"], date_formats
+                    )
                 )
+                .select(final_columns)
+                .pipe(utils.offset_two_digit_years)
             )
-            .select(final_columns)
-            .pipe(utils.offset_two_digit_years)
-        )
 
-        file_dataframes.append(df)
+            utils_dolt.insert_trip_data(engine, df, file_metadata)
 
-    print("concatenating all csv files...")
+            file_dataframes.append(df)
 
-    return pl.concat(file_dataframes)
+            print("concatenating all csv files...")
+
+    if len(file_dataframes) > 0:
+        return pl.concat(file_dataframes)
+    else:
+        print("All files for the city have already been processed!")
 
 
 def extract_zip_files(city):
@@ -135,4 +178,4 @@ def build_all_trips(args):
     filtered_files = filter_filenames(trip_files, args)
     all_trips_df = format_and_concat_files(filtered_files, args)
 
-    utils.create_final_files_and_logs(all_trips_df, args)
+    # utils.create_final_files_and_logs(all_trips_df, args)

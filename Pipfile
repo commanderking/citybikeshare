@@ -12,6 +12,8 @@ requests = "~=2.31.0"
 polars = "~=0.20.25"
 playwright = "*"
 ruff = "*"
+pymysql = "*"
+sqlalchemy = "*"
 
 [dev-packages]
 pylint = "*"

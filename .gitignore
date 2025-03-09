@@ -9,3 +9,4 @@ __pycache__
 .vscode
 .pytest_cache
 .env
+.sqlhistory

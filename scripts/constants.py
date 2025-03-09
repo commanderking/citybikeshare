@@ -1,5 +1,5 @@
 commonized_system_data_columns = {
-    "ride_id": "ride_id",
+    "ride_id": "id",
     "rideable_type": "rideable_type",
     "started_at": "start_time",
     "ended_at": "end_time",
@@ -15,7 +15,7 @@ commonized_system_data_columns = {
 }
 
 columbus_columns_one = {
-    "trip_id": "trip_id",
+    "trip_id": "id",
     "start_time": "start_time",
     "end_time": "end_time",
     "bikeid": "bike_id",
@@ -158,7 +158,7 @@ sf_renamed_columns_pre_may_2020 = {
 }
 
 bicycle_transit_systems_renamed_columns = {
-    "trip_id": "ride_id",
+    "trip_id": "id",
     "duration": "duration",
     "start_time": "start_time",
     "end_time": "end_time",
@@ -189,7 +189,7 @@ pittsburgh_renamed_columns = {
 
 pittsburgh_healthy_ride_columns = {
     "_id": "id",
-    "Trip id": "trip_id",
+    "Trip id": "id",
     "Starttime": "start_time",
     "Stoptime": "end_time",
     "Bikeid": "bike_id",
@@ -203,7 +203,7 @@ pittsburgh_healthy_ride_columns = {
 
 pittsburgh_healthy_ride_columns_two = {
     "_id": "id",
-    "trip_id": "trip_id",
+    "trip_id": "id",
     "starttime": "start_time",
     "stoptime": "end_time",
     "bikeid": "bike_id",
@@ -257,6 +257,7 @@ bicycle_transit_systems_final_columns = [
 config = {
     "columbus": {
         "name": "columbus",
+        "system_name": "columbus_bikeshare",
         "file_matcher": "cogo-tripdata",
         "renamed_columns": {
             **commonized_system_data_columns,
@@ -270,6 +271,7 @@ config = {
     },
     "chicago": {
         "name": "chicago",
+        "system_name": "chicago_bikeshare",
         "file_matcher": ["trip", "Trips"],
         "renamed_columns": {
             **commonized_system_data_columns,
@@ -285,6 +287,7 @@ config = {
     },
     "boston": {
         "name": "boston",
+        "system_name": "boston_bikeshare",
         "file_matcher": ["-tripdata"],
         "renamed_columns": {
             **commonized_system_data_columns,
@@ -294,6 +297,7 @@ config = {
     },
     "dc": {
         "name": "dc",
+        "system_name": "dc_bikeshare",
         "file_matcher": ["capitalbikeshare-tripdata"],
         "renamed_columns": {
             **commonized_system_data_columns,
@@ -305,6 +309,7 @@ config = {
     },
     "nyc": {
         "name": "nyc",
+        "system_name": "nyc_bikeshare",
         ### 2022 contains files that have citbike in filename
         "file_matcher": ["citibike-tripdata", "citbike-tripdata"],
         ### NYC files produce two of the same data for 2018 :(
@@ -345,6 +350,7 @@ config = {
     },
     "sf": {
         "name": "sf",
+        "system_name": "sf_bikeshare",
         "file_matcher": ["tripdata"],
         "renamed_columns": {
             **commonized_system_data_columns,
@@ -356,6 +362,7 @@ config = {
     },
     "philadelphia": {
         "name": "philadelphia",
+        "system_name": "philadelphia_bikeshare",
         "file_matcher": ["trips", "Trips"],
         "renamed_columns": {
             **bicycle_transit_systems_renamed_columns,
@@ -367,6 +374,7 @@ config = {
     },
     "pittsburgh": {
         "name": "pittsburgh",
+        "system_name": "pittsburgh_bikeshare",
         "file_matcher": ["csv"],
         "renamed_columns": {
             **pittsburgh_renamed_columns,
@@ -381,6 +389,7 @@ config = {
     },
     "los_angeles": {
         "name": "los_angeles",
+        "system_name": "los_angeles_bikeshare",
         "file_matcher": ["trips"],
         "renamed_columns": {
             **bicycle_transit_systems_renamed_columns,
@@ -392,6 +401,7 @@ config = {
     },
     "austin": {
         "name": "austin",
+        "system_name": "austin_bikeshare",
         "file_matcher": ["austin_all_trips.csv"],
         "renamed_columns": {
             **austin_bcycle,
@@ -400,6 +410,7 @@ config = {
     },
     "chattanooga": {
         "name": "chattanooga",
+        "system_name": "chattanooga_bikeshare",
         "file_matcher": ["chattanooga_all_trips"],
         "renamed_columns": {
             **chattanooga_bicycle_transit_system,
@@ -409,6 +420,7 @@ config = {
     ## Jersey City follows NYC in terms of headers
     "jersey_city": {
         "name": "jersey_city",
+        "system_name": "jersey_city_bikeshare",
         "file_matcher": ["JC-"],
         "renamed_columns": {
             **commonized_system_data_columns,
