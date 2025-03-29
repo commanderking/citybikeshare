@@ -53,6 +53,7 @@ def insert_trip_data(engine, df, file_metadata):
         with engine.connect() as conn:
             # 🚀 BEGIN TRANSACTION
             trans = conn.begin()
+            conn = trans.connection
             try:
                 system_id = get_system_id(conn, file_metadata)
 
@@ -61,7 +62,8 @@ def insert_trip_data(engine, df, file_metadata):
                     INSERT INTO processed_trip_files (name, size, modified_at, hash, system_id) 
                     VALUES (:name, :size, FROM_UNIXTIME(:modified_at), :file_hash, :system_id)
                 """)
-                conn.execute(
+
+                trans.connection.execute(
                     query,
                     {
                         "name": name,
@@ -77,12 +79,16 @@ def insert_trip_data(engine, df, file_metadata):
                     raise Exception(f"Cannot find file_id for file {name}")
 
                 # Add processed_file_id to df before inserting into trips
-                df = df.with_columns(pl.lit(file_id).alias("processed_file_id"))
+                df = df.with_columns(
+                    [
+                        pl.lit(file_id).alias("processed_file_id"),
+                        pl.lit(system_id).alias("system_id"),
+                    ]
+                )
 
                 # Insert trip data into trips
                 df.collect().write_database("trips", conn, if_table_exists="append")
 
-                # 🚀 COMMIT TRANSACTION (If Everything Succeeded)
                 trans.commit()
                 print(f"✅ Successfully added {name} to trips and processed_files.")
 

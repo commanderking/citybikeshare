@@ -295,9 +295,9 @@ config = {
         },
         "date_formats": ["%Y-%m-%d %H:%M:%S", "%Y-%m-%d %H:%M:%S.%f"],
     },
-    "dc": {
-        "name": "dc",
-        "system_name": "dc_bikeshare",
+    "washington_dc": {
+        "name": "washington_dc",
+        "system_name": "washington_dc_bikeshare",
         "file_matcher": ["capitalbikeshare-tripdata"],
         "renamed_columns": {
             **commonized_system_data_columns,
@@ -307,9 +307,9 @@ config = {
             "%Y-%m-%d %H:%M:%S",
         ],
     },
-    "nyc": {
-        "name": "nyc",
-        "system_name": "nyc_bikeshare",
+    "new_york_city": {
+        "name": "new_york_city",
+        "system_name": "new_york_city_bikeshare",
         ### 2022 contains files that have citbike in filename
         "file_matcher": ["citibike-tripdata", "citbike-tripdata"],
         ### NYC files produce two of the same data for 2018 :(
@@ -348,9 +348,9 @@ config = {
             "%m/%d/%Y %H:%M",
         ],
     },
-    "sf": {
-        "name": "sf",
-        "system_name": "sf_bikeshare",
+    "san_francisco": {
+        "name": "san_francisco",
+        "system_name": "san_francisco_bikeshare",
         "file_matcher": ["tripdata"],
         "renamed_columns": {
             **commonized_system_data_columns,

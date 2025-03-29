@@ -4,8 +4,9 @@ import zipfile
 from datetime import timedelta
 import polars as pl
 import definitions
+import tempfile
+import shutil
 from dateutil.parser import parse
-import utils_dolt
 
 
 def get_city_directory(city):
@@ -111,12 +112,44 @@ def match_all_city_files(file_path, city):
 
 def unzip_city_zips(city, city_matcher=match_all_city_files):
     city_zip_directory = get_zip_directory(city)
-    for file in os.listdir(city_zip_directory):
-        file_path = os.path.join(city_zip_directory, file)
-        if zipfile.is_zipfile(file_path) and city_matcher(file_path, city):
-            with zipfile.ZipFile(file_path, mode="r") as archive:
-                print(file_path)
-                archive.extractall(get_raw_files_directory(city))
+    raw_output_dir = get_raw_files_directory(city)
+
+    to_process = [
+        os.path.join(city_zip_directory, f)
+        for f in os.listdir(city_zip_directory)
+        if zipfile.is_zipfile(os.path.join(city_zip_directory, f))
+        and city_matcher(f, city)
+    ]
+
+    while to_process:
+        zip_path = to_process.pop()
+        print(f"📂 Extracting: {zip_path}")
+
+        with zipfile.ZipFile(zip_path, "r") as archive:
+            with tempfile.TemporaryDirectory() as temp_dir:
+                archive.extractall(temp_dir)
+
+                for root, _, files in os.walk(temp_dir):
+                    for file in files:
+                        full_path = os.path.join(root, file)
+
+                        if zipfile.is_zipfile(full_path):
+                            # 🚨 Copy to a safe path before the temp dir is deleted
+                            copied_path = os.path.join(tempfile.gettempdir(), file)
+                            shutil.copy(full_path, copied_path)
+                            to_process.append(copied_path)
+                            print(f"📦 Found nested zip (copied): {copied_path}")
+
+                        elif file.lower().endswith(".csv"):
+                            target_path = os.path.join(raw_output_dir, file)
+                            shutil.move(full_path, target_path)
+                            print(f"✅ Extracted CSV: {target_path}")
+
+    for root, _, files in os.walk(raw_output_dir):
+        for file in files:
+            if file.startswith("._"):
+                os.remove(os.path.join(root, file))
+                print(f"🧹 Removed AppleDouble file: {file}")
 
 
 def rename_columns_for_keys(renamed_columns_dict):
@@ -340,8 +373,5 @@ def create_final_files_and_logs(df, args):
     create_all_trips_file(df, args)
     create_recent_year_file(df, args)
     df = log_final_results(df, args)
-
-    path = get_output_directory() / "current_year"
-    utils_dolt.write_to_dolt_db(df, path)
 
     return df

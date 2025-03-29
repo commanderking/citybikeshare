@@ -1,8 +1,7 @@
 hubwayS3
 data
 build
-output/current_year
-output/historical_trips
+output/trips
 __pycache__
 
 .DS_STORE
