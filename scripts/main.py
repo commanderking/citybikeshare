@@ -43,6 +43,10 @@ def setup_argparse():
     )
 
     parser.add_argument(
+        "--parquet", help="Generates a parquet file with all trips", action="store_true"
+    )
+
+    parser.add_argument(
         "--skip_unzip",
         help="Skips unzipping of files if files have already been unzipped",
         action="store_true",

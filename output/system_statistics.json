@@ -121,7 +121,7 @@
         "null_start_time": 0,
         "null_end_time": 0,
         "null_start_station_name": 199,
-        "null_end_station_name": 13084,
+        "null_end_station_name": 13297,
         "null_by_year": [
             {
                 "year": 2015,
@@ -162,13 +162,17 @@
             {
                 "year": 2024,
                 "has_null": 3119
+            },
+            {
+                "year": 2025,
+                "has_null": 213
             }
         ],
-        "total_rows": 5272266,
-        "null_rows": 13155,
+        "total_rows": 5368132,
+        "null_rows": 13368,
         "percent_complete": 99.75,
         "first_trip": "2015-09-21T14:53:16",
-        "last_trip": "2024-12-31T23:57:23"
+        "last_trip": "2025-02-28T23:58:21"
     },
     "dc": {
         "null_start_time": 0,

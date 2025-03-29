@@ -1,0 +1,24 @@
+system_name,metro_area,country,data_source
+columbus_bikeshare,Columbus,USA,https://cogobikeshare.com/system-data
+austin_bikeshare,Austin,USA,https://data.austintexas.gov/Transportation-and-Mobility/Austin-MetroBike-Trips/tyfh-5r8s/about_data
+bergen_bikeshare,Bergen,Norway,https://bergenbysykkel.no/en/open-data/historical
+boston_bikeshare,Boston ,USA,https://internal.chattadata.org/Recreation/Bike-Chattanooga-Trip-Data/tdrg-39c4/about_data
+chattanooga_bikeshare, Chattanooga, USA, https://internal.chattadata.org/Recreation/Bike-Chattanooga-Trip-Data/tdrg-39c4/about_data
+chicago_bikeshare,Chicago,USA,https://divvybikes.com/system-data
+guadalajara_bikeshare,Guadalajara,Mexico,https://www.mibici.net/es/datos-abiertos
+jersey_city_bikeshare,Jersey City,USA,https://citibikenyc.com/system-data
+helsinki_bikeshare,Helsinki,Finland,https://hri.fi/data/en_GB/dataset/helsingin-ja-espoon-kaupunkipyorilla-ajatut-matkat
+london_bikeshare,London,United Kingdom,https://cycling.data.tfl.gov.uk
+los_angeles_bikeshare,Los Angeles,USA,https://bikeshare.metro.net/about/data
+mexico_city_bikeshare,Mexico City,Mexico,https://ecobici.cdmx.gob.mx/en/open-data
+montreal_bikeshare,Montreal,Canada,https://bixi.com/en/open-data
+new_york_city_bikeshare,New York City,USA,https://citibikenyc.com/system-data
+oslo_bikeshare,Oslo,Norway,https://oslobysykkel.no/en/open-data/historical
+philadelphia_bikeshare,Philadelphia,USA,https://www.rideindego.com/about/data
+pittsburgh_bikeshare,Pittsburgh,USA,https://data.wprdc.org/dataset/pogoh-trip-data
+san_francisco_bikeshare,San Francisco,USA,https://www.lyft.com/bikes/bay-wheels/system-data
+taipei_bikeshare,Taipei,Taiwan,https://data.gov.tw/dataset/150635
+toronto_bikeshare,Toronto,Canada,https://open.toronto.ca/dataset/bike-share-toronto-ridership-data
+trondheim_bikeshare,Trondheim,Norway,https://trondheimbysykkel.no/en/open-data/historical
+vancouver_bikeshare,Vancouver,Canada,https://www.mobibikes.ca/en/system-data
+washington_dc,Washington DC,USA,https://capitalbikeshare.com/system-data

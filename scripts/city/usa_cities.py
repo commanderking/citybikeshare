@@ -1,8 +1,19 @@
 import os
+import hashlib
 import polars as pl
 import utils
+import utils_dolt
 import scripts.constants as constants
 import utils_bicycle_transit_systems
+
+
+def compute_file_hash(filepath, chunk_size=8192):
+    """Compute SHA256 hash for file integrity checking."""
+    hasher = hashlib.sha256()
+    with open(filepath, "rb") as f:
+        while chunk := f.read(chunk_size):
+            hasher.update(chunk)
+    return hasher.hexdigest()
 
 
 def filter_filenames(filenames, args):
@@ -65,46 +76,75 @@ def process_bicycle_transit_system(args):
     return inner
 
 
-def format_and_concat_files(trip_files, args):
-    """Get correct column data structures"""
+def get_file_metadata(filepath, city_config):
+    """Get file size and last modified timestamp."""
+    stat = os.stat(filepath)
+    size = stat.st_size
+    modified_at = stat.st_mtime
+    name = os.path.basename(filepath)
+    file_hash = compute_file_hash(filepath)
 
+    return {
+        "size": size,
+        "modified_at": modified_at,
+        "name": name,
+        "file_hash": file_hash,
+        "system_name": city_config["system_name"],
+    }
+
+
+def create_trip_df(file, args):
     city_config = constants.config[args.city]
     date_formats = city_config["date_formats"]
     renamed_columns = city_config["renamed_columns"]
     final_columns = city_config.get("final_columns", constants.final_columns)
 
-    print("adding files to polars df")
-    file_dataframes = []
-
-    for file in trip_files:
-        print(file)
-        # DEBUGGING TIPS
-        # For debugging and printing tables with null data for a particular column after formatting
-        # df_start_time = df.filter(pl.col("start_time").is_null())
-        # print(df_start_time)
-        df = (
-            pl.scan_csv(file, infer_schema_length=0)
-            .pipe(utils.rename_columns_for_keys(renamed_columns))
-            # TODO: This station name mapping should apply to all stations
-            # May want to make this configuration based rather than explicit city checks here
-            .pipe(process_bicycle_transit_system(args))
-            # For debugging
-            # .pipe(utils.print_null_data)
-            # .pipe(utils.assess_null_data)
-            ### TODO - move this to configuration for preprocessing. Austin doesn't have end_time so we need to calculate before casting times
-            .pipe(austin_check(args))
-            .pipe(
-                utils.convert_columns_to_datetime(
-                    ["start_time", "end_time"], date_formats
-                )
-            )
-            .select(final_columns)
-            .pipe(utils.offset_two_digit_years)
+    df_lazy = (
+        pl.scan_csv(file, infer_schema_length=0)
+        .pipe(utils.rename_columns_for_keys(renamed_columns))
+        # TODO: This station name mapping should apply to all stations
+        # May want to make this configuration based rather than explicit city checks here
+        .pipe(process_bicycle_transit_system(args))
+        # For debugging
+        # .pipe(utils.print_null_data)
+        # .pipe(utils.assess_null_data)
+        ### TODO - move this to configuration for preprocessing. Austin doesn't have end_time so we need to calculate before casting times
+        .pipe(austin_check(args))
+        .pipe(
+            utils.convert_columns_to_datetime(["start_time", "end_time"], date_formats)
         )
+        .select(final_columns)
+        .pipe(utils.offset_two_digit_years)
+    )
 
-        file_dataframes.append(df)
+    return df_lazy
 
-    print("concatenating all csv files...")
+
+def add_trips_to_db(files, args):
+    engine = utils_dolt.establish_engine()
+    for file in files:
+        print(f"processing {file}")
+        city_config = constants.config[args.city]
+        file_metadata = get_file_metadata(file, city_config)
+
+        file_processed = utils_dolt.is_file_processed(engine, file_metadata)
+        if file_processed:
+            print(f'File {file_metadata["name"]} has already been processed')
+        else:
+            # DEBUGGING TIPS
+            # For debugging and printing tables with null data for a particular column after formatting
+            # df_start_time = df.filter(pl.col("start_time").is_null())
+            # print(df_start_time)
+            df_lazy = create_trip_df(file, args)
+
+            utils_dolt.insert_trip_data(engine, df_lazy, file_metadata)
+
+
+def get_dfs_for_parquet(files, args):
+    file_dataframes = []
+    for file in files:
+        df_lazy = create_trip_df(file, args)
+        file_dataframes.append(df_lazy)
 
     return pl.concat(file_dataframes)
 
@@ -113,8 +153,8 @@ def extract_zip_files(city):
     print(f"unzipping {city} trip files")
 
     def city_match(file_path, city):
-        if city == "nyc":
-            # JC files are duplicates of other files, but contain a more limited set of columns
+        if city == "new_york_city":
+            # JC are for Jersey City, we don't wait to consume those for new york city
             return "JC" not in file_path
         else:
             return any(
@@ -133,6 +173,10 @@ def build_all_trips(args):
         print("skipping unzipping files")
     trip_files = utils.get_csv_files(source_directory)
     filtered_files = filter_filenames(trip_files, args)
-    all_trips_df = format_and_concat_files(filtered_files, args)
 
-    utils.create_final_files_and_logs(all_trips_df, args)
+    if args.parquet:
+        all_trips_df_lazy = get_dfs_for_parquet(filtered_files, args)
+        utils.create_final_files_and_logs(all_trips_df_lazy, args)
+
+    else:
+        add_trips_to_db(filtered_files, args)
