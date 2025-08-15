@@ -51,9 +51,6 @@ def insert_trip_data(engine, df, file_metadata):
 
     try:
         with engine.connect() as conn:
-            # 🚀 BEGIN TRANSACTION
-            trans = conn.begin()
-            conn = trans.connection
             try:
                 system_id = get_system_id(conn, file_metadata)
 
@@ -62,13 +59,12 @@ def insert_trip_data(engine, df, file_metadata):
                     INSERT INTO processed_trip_files (name, size, modified_at, hash, system_id) 
                     VALUES (:name, :size, FROM_UNIXTIME(:modified_at), :file_hash, :system_id)
                 """)
-
-                trans.connection.execute(
+                conn.execute(
                     query,
                     {
                         "name": name,
                         "size": size,
-                        "modified_at": modified_at,  # UNIX timestamp
+                        "modified_at": modified_at,
                         "file_hash": file_hash,
                         "system_id": system_id,
                     },
@@ -78,24 +74,27 @@ def insert_trip_data(engine, df, file_metadata):
                 if not file_id:
                     raise Exception(f"Cannot find file_id for file {name}")
 
-                # Add processed_file_id to df before inserting into trips
                 df = df.with_columns(
                     [
                         pl.lit(file_id).alias("processed_file_id"),
                         pl.lit(system_id).alias("system_id"),
                     ]
                 )
+                collected = df.collect()
+                print(collected)
+                collected.write_database("trips", conn, if_table_exists="append")
 
-                # Insert trip data into trips
-                df.collect().write_database("trips", conn, if_table_exists="append")
-
-                trans.commit()
-                print(f"✅ Successfully added {name} to trips and processed_files.")
+                print(
+                    f"✅ Successfully added {name} to trips and processed_trip_files."
+                )
+                print(
+                    "🕵️ Changes ready for manual review with `dolt diff` and `dolt commit`."
+                )
 
             except Exception as e:
-                trans.rollback()  # 🚨 ROLL BACK CHANGES IF ANY ERROR OCCURS
+                conn.execute(text("CALL DOLT_RESET('--hard')"))
                 print(f"❌ Error processing {name}: {e}")
-                print("⚠️ Rolling back transaction. No data was inserted.")
+                print("⚠️ Rolled back all Dolt changes via DOLT_RESET.")
 
     except Exception as e:
-        print(f"❌ Fatal error: {e}")
+        print(f"❌ Fatal DB error: {e}")

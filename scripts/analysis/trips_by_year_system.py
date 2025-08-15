@@ -1,7 +1,5 @@
-from datetime import datetime
 import json
 import os
-import polars as pl
 import duckdb
 import definitions
 from pathlib import Path
@@ -80,4 +78,4 @@ def output_partitioned_trips_by_system_and_year():
 
 if __name__ == "__main__":
     output_trip_counts_by_system_and_year()
-    # output_partitioned_trips_by_system_and_year()
+    output_partitioned_trips_by_system_and_year()

@@ -24,6 +24,7 @@ CITY_SYNC_MAP = {
     "oslo": "python3 ./scripts/city/oslo.py",
     "trondheim": "python3 ./scripts/city/trondheim.py",
     "vancouver": "python3 ./scripts/city/vancouver.py",
+    "toronto": "python3 ./scripts/city/toronto.py",
 }
 
 

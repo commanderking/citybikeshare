@@ -1,3 +1,5 @@
+import polars as pl
+
 commonized_system_data_columns = {
     "ride_id": "id",
     "rideable_type": "rideable_type",
@@ -254,6 +256,78 @@ bicycle_transit_systems_final_columns = [
     "end_station_id",
 ]
 
+norway_renamed_columns = {
+    "started_at": "start_time",
+    "ended_at": "end_time",
+    "start_station_name": "start_station_name",
+    "end_station_name": "end_station_name",
+}
+
+toronto_initial_columns = {
+    "trip_id": "trip_id",
+    "trip_start_time": "start_time",
+    "trip_stop_time": "end_time",
+    "trip_duration_seconds": "duration",
+    "from_station_name": "start_station_name",
+    "to_station_name": "end_station_name",
+    "user_type": "user_type",
+}
+
+toronto_renamed_columns = {
+    "Trip Id": "trip_id",
+    "Trip  Duration": "duration",
+    "Start Station Id": "start_station_id",
+    "Start Time": "start_time",
+    "Start Station Name": "start_station_name",
+    "End Station Id": "end_station_id",
+    "End Time": "end_time",
+    "End Station Name": "end_station_name",
+    "Bike Id": "bike_id",
+    "User Type": "user_type",
+}
+
+montreal_earliest_columns = {
+    "start_date": "start_time",
+    "end_date": "end_time",
+    "start_station_code": "start_station_name",
+    "end_station_code": "end_station_name",
+}
+
+montreal_emplacement_columns = {
+    "start_date": "start_time",
+    "end_date": "end_time",
+    "emplacement_pk_start": "start_station_name",
+    "emplacement_pk_end": "end_station_name",
+}
+
+montreal_recent_columns = {
+    "STARTSTATIONNAME": "start_station_name",
+    "ENDSTATIONNAME": "end_station_name",
+    "STARTTIMEMS": "start_ms",
+    "ENDTIMEMS": "end_ms",
+}
+
+vancouver_renamed_columns = {
+    "Departure": "start_time",
+    "Return": "end_time",
+    "Bike": "bike_id",
+    "Electric bike": "is_electric_bike",
+    "Departure station": "start_station_name",
+    "Return station": "end_station_name",
+    "Membership type": "membership_type",
+    "Covered distance (m)": "covered_distance_meters",
+    "Duration (sec.)": "duration_seconds",
+    "Stopover duration (sec.)": "stopover_duration",
+    "Number of stopovers": "stopover_count",
+}
+
+
+DEFAULT_PROCESSING_PIPELINE = [
+    "rename_columns",
+    "convert_to_datetime",
+    "select_final_columns",
+]
+
 config = {
     "columbus": {
         "name": "columbus",
@@ -268,6 +342,7 @@ config = {
             "%Y-%m-%d %H:%M:%S",
             "%m/%d/%Y %H:%M:%S",
         ],
+        "processing_pipeline": DEFAULT_PROCESSING_PIPELINE,
     },
     "chicago": {
         "name": "chicago",
@@ -284,6 +359,7 @@ config = {
             "%m/%d/%Y %H:%M",
             "%Y-%m-%d %H:%M",  # Chicago - Divvy_Trips_2013
         ],
+        "processing_pipeline": DEFAULT_PROCESSING_PIPELINE,
     },
     "boston": {
         "name": "boston",
@@ -371,6 +447,13 @@ config = {
             "%Y-%m-%d %H:%M:%S",
             "%m/%d/%Y %H:%M",
         ],
+        "processing_pipeline": [
+            "rename_columns",
+            "process_bicycle_transit_stations",
+            "convert_to_datetime",
+            "select_final_columns",
+            "offset_two_digit_years",
+        ],
     },
     "pittsburgh": {
         "name": "pittsburgh",
@@ -398,6 +481,12 @@ config = {
             "%Y-%m-%d %H:%M:%S",
             "%m/%d/%Y %H:%M",
         ],
+        "processing_pipeline": [
+            "rename_columns",
+            "process_bicycle_transit_stations",
+            "convert_to_datetime",
+            "select_final_columns",
+        ],
     },
     "austin": {
         "name": "austin",
@@ -407,6 +496,12 @@ config = {
             **austin_bcycle,
         },
         "date_formats": ["%Y-%m-%d %H:%M:%S", "%Y-%m-%d %H:%M:%S%.6f"],
+        "processing_pipeline": [
+            "rename_columns",
+            "austin_calculate_end_time",
+            "convert_to_datetime",
+            "select_final_columns",
+        ],
     },
     "chattanooga": {
         "name": "chattanooga",
@@ -431,18 +526,108 @@ config = {
             "%Y-%m-%d %H:%M:%S",
         ],
     },
+    "bergen": {
+        "name": "bergen",
+        "system_name": "bergen_bikeshare",
+        "file_matcher": ["trips"],
+        "renamed_columns": norway_renamed_columns,
+        "date_formats": ["%Y-%m-%d %H:%M:%S%.f%:z", "%Y-%m-%d %H:%M:%S%:z"],
+        "processing_pipeline": DEFAULT_PROCESSING_PIPELINE,
+    },
+    "toronto": {
+        "name": "toronto",
+        "system_name": "toronto_bikeshare",
+        "file_matcher": [".csv"],
+        "renamed_columns": {**toronto_initial_columns, **toronto_renamed_columns},
+        "date_formats": ["%m/%d/%Y %H:%M", "%m/%d/%Y %H:%M:%S", "%d/%m/%Y %H:%M"],
+        "read_csv_options": {"encoding": "utf8-lossy"},
+        "processing_pipeline": [
+            "rename_columns",
+            "convert_to_datetime",
+            "select_final_columns",
+            "offset_two_digit_years",
+        ],
+    },
+    "montreal": {
+        "name": "montreal",
+        "system_name": "montreal_bikeshare",
+        "file_matcher": [".csv"],
+        "excluded_filenames": ["Stations", "stations"],
+        "renamed_columns": {
+            **montreal_earliest_columns,
+            **montreal_emplacement_columns,
+            **montreal_recent_columns,
+        },
+        "date_formats": ["%Y-%m-%d %H:%M:%S", "%Y-%m-%d %H:%M"],
+        "read_csv_options": {"null_values": "MTL-ECO5.1-01"},
+        "processing_pipeline": [
+            "rename_columns",
+            "convert_milliseconds_to_datetime",
+            "select_final_columns",
+            "convert_to_datetime",
+        ],
+    },
+    "vancouver": {
+        "name": "vancouver",
+        "system_name": "vancouver_bikeshare",
+        "file_matcher": ["Mobi_System_Data"],
+        "renamed_columns": vancouver_renamed_columns,
+        "date_formats": ["%Y-%m-%d %H:%M", "%m/%d/%Y %H:%M"],
+        "read_csv_options": {
+            "encoding": "utf8-lossy",
+            "dtypes": {"Covered distance (m)": pl.Float64},
+        },
+        "processing_pipeline": {
+            "filter_null_rows",
+            "rename_columns",
+            "randomize_datetimes",
+            "offset_two_digit_years",
+            "select_final_columns",
+        },
+    },
 }
+
+# def format_files(files):
+#     renamed_columns = config["renamed_columns"]
+
+#     dfs = []
+#     for file in files:
+#         print(file)
+#         df = (
+#             # There is a ascii encoding for: 0099 ax��YnYq Xwtl'e7�n5 Square - Vancouver Art Gallery, which requires encoding="utf8-lossy"
+#             pl.read_csv(
+#                 file,
+#                 infer_schema_length=0,
+#                 dtypes={"Covered distance (m)": pl.Float64},
+#                 encoding="utf8-lossy",
+#             )
+#             ### In 2023, many files end in tens of thosuands of rows that have no data for any column, likely due to its storage in Google Drive
+#             .filter(~pl.all_horizontal(pl.all().is_null()))
+#             .pipe(
+#                 utils.rename_columns_for_keys(
+#                     renamed_columns,
+#                 )
+#             )
+#             ## Getting some null values because some dates are not zero-padded "2020-04-01 0:00"
+#             .pipe(utils.convert_columns_to_datetime(date_columns, date_formats))
+#             .with_columns([pl.col("duration_seconds").cast(pl.Int64)])
+#             .pipe(utils.offset_two_digit_years)
+#             .select(final_column_headers)
+#             .pipe(utils.assess_null_data)
+#         )
+
+#         dfs.append(df)
+
+#     return pl.concat(dfs)
+
 
 US_CITIES = list(config.keys())
 
 GLOBAL_CITIES = [
     "taipei",
-    "toronto",
     "mexico_city",
-    "montreal",
     "vancouver",
     "oslo",
-    "bergen",
     "trondheim",
     "london",
     "helsinki",

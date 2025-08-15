@@ -15,6 +15,7 @@ ruff = "*"
 pymysql = "*"
 sqlalchemy = "*"
 duckdb = "*"
+numpy = "*"
 
 [dev-packages]
 pylint = "*"

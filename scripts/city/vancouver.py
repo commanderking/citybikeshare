@@ -82,7 +82,7 @@ def format_files(files):
                 dtypes={"Covered distance (m)": pl.Float64},
                 encoding="utf8-lossy",
             )
-            ### In 2023, many files end in tens of thosuands of rows that have no data for any column, likely due to itts storage in Google Drive
+            ### In 2023, many files end in tens of thosuands of rows that have no data for any column, likely due to its storage in Google Drive
             .filter(~pl.all_horizontal(pl.all().is_null()))
             .pipe(
                 utils.rename_columns_for_keys(

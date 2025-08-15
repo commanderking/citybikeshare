@@ -1197,10 +1197,10 @@
         "last_trip": "2024-11-29T07:55:17"
     },
     "bergen": {
-        "null_start_station_name": 0,
-        "null_end_station_name": 0,
         "null_start_time": 0,
         "null_end_time": 0,
+        "null_start_station_name": 0,
+        "null_end_station_name": 0,
         "null_by_year": [
             {
                 "year": 2018,

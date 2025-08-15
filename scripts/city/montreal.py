@@ -86,6 +86,15 @@ def convert_milliseconds_to_datetime(df):
     return df
 
 
+def stringify_start_end_station_names(df):
+    return df.with_columns(
+        [
+            pl.col("start_station_name").cast(pl.String),
+            pl.col("end_station_name").cast(pl.String),
+        ]
+    )
+
+
 def create_all_trips_df():
     files = utils.get_csv_files(MONTREAL_CSV_PATHS)
     all_dfs = []
