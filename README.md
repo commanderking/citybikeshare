@@ -9,7 +9,7 @@ Currently, data is available for:
 | Austin        | <https://data.austintexas.gov/Transportation-and-Mobility/Austin-MetroBike-Trips/tyfh-5r8s/about_data> |
 | Bergen        | <https://bergenbysykkel.no/en/open-data/historical> |
 | Boston        | <https://bluebikes.com/system-data>  |
-| Chattanooga   | <https://internal.chattadata.org/Recreation/Bike-Chattanooga-Trip-Data/tdrg-39c4/about_data> | 
+| Chattanooga   | <https://www.chattadata.org/dataset/Historical-Bike-Chattanooga-Trip-Data/wq49-8xgg/about_data> | 
 | Columbus      | <https://cogobikeshare.com/system-data> |
 | Chicago       | <https://divvybikes.com/system-data> |
 | Guadalajara   | <https://www.mibici.net/es/datos-abiertos/> |
@@ -37,18 +37,29 @@ Pittsburgh old data can be found at: https://data.wprdc.org/dataset/healthyride-
 1. Copy the contents of .env.config to .env. 
 2. For PROJECT_ROOT, paste the path to this project on your local machine
 
+### Steps to syncing a city's data
+
+TODO: Insert 
+
 ### Steps to building a parquet or csv file
 
 1. Install pipenv (https://pipenv.pypa.io/en/latest/install/) if needed
 2. pipenv install
 3. pipenv shell
-4. pipenv run build [city] (ex pipenv run build boston)
+4. pipenv run build [city] --parquet (ex pipenv run build boston --parquet)
 
-By default, a parquet file for your selected city wil lbe generated in the `data` folder. If you'd like a csv file instead, you can run 
 
-```
-pipenv run build [city] --csv
-```
+By default, a parquet file for your selected city wil lbe generated in the `output` folder. There will be two files generated, one for just the current_year, and anotehr for all historical trips.
+
+### Long term building
+
+We can also insert the data into a dolt database for record keeping and to not have to re-run all the trips data on each execution. 
+
+1. pipenv shell
+2. Start up a doltdb instance at your desired location. `dolt sql-server`
+3. In your .env file, insert values for all dolt related variables. 
+2. pipenv run build [city] 
+
 
 #### Steps in creating a parquet file for a city's bikeshare data
 

@@ -50,51 +50,84 @@ def insert_trip_data(engine, df, file_metadata):
     modified_at = file_metadata["modified_at"]
 
     try:
-        with engine.connect() as conn:
-            try:
-                system_id = get_system_id(conn, file_metadata)
+        with engine.begin() as conn:
+            system_id = get_system_id(conn, file_metadata)
 
-                # Insert file metadata into processed_files
-                query = text("""
-                    INSERT INTO processed_trip_files (name, size, modified_at, hash, system_id) 
-                    VALUES (:name, :size, FROM_UNIXTIME(:modified_at), :file_hash, :system_id)
-                """)
+            ### Check if same file name already exists and compare file size
+            existing = conn.execute(
+                text("""
+                    SELECT id, size
+                    FROM processed_trip_files
+                    WHERE name = :name AND system_id = :system_id
+                    LIMIT 1
+                """),
+                {"name": name, "system_id": system_id},
+            ).fetchone()
+
+            if existing:
+                existing_id, existing_size = existing
+                if existing_size == size:
+                    print(f"Skipping {name}: same size ({size}) already recorded.")
+                    return
+                # DB should cascade to delete all rows in trips too
                 conn.execute(
-                    query,
-                    {
-                        "name": name,
-                        "size": size,
-                        "modified_at": modified_at,
-                        "file_hash": file_hash,
-                        "system_id": system_id,
-                    },
+                    text("DELETE FROM processed_trip_files WHERE id = :id"),
+                    {"id": existing_id},
                 )
+                print(f"Replacing {name}: size changed {existing_size} → {size}.")
 
-                file_id = get_processed_file_id(conn, name)
-                if not file_id:
-                    raise Exception(f"Cannot find file_id for file {name}")
+            ### Insert new file metadata
+            conn.execute(
+                text("""
+                    INSERT INTO processed_trip_files (name, size, modified_at, hash, system_id)
+                    VALUES (:name, :size, FROM_UNIXTIME(:modified_at), :file_hash, :system_id)
+                """),
+                {
+                    "name": name,
+                    "size": size,
+                    "modified_at": modified_at,
+                    "file_hash": file_hash,
+                    "system_id": system_id,
+                },
+            )
 
-                df = df.with_columns(
-                    [
-                        pl.lit(file_id).alias("processed_file_id"),
-                        pl.lit(system_id).alias("system_id"),
-                    ]
-                )
-                collected = df.collect()
-                print(collected)
-                collected.write_database("trips", conn, if_table_exists="append")
+            ### Pull the nely added file metadata from the database
+            file_id = conn.execute(
+                text("""
+                    SELECT id
+                    FROM processed_trip_files
+                    WHERE name = :name AND system_id = :system_id
+                    ORDER BY modified_at DESC, id DESC
+                    LIMIT 1
+                """),
+                {"name": name, "system_id": system_id},
+            ).scalar()
 
-                print(
-                    f"✅ Successfully added {name} to trips and processed_trip_files."
-                )
-                print(
-                    "🕵️ Changes ready for manual review with `dolt diff` and `dolt commit`."
-                )
+            if not file_id:
+                raise Exception(f"Cannot find file_id for file {name}")
 
-            except Exception as e:
-                conn.execute(text("CALL DOLT_RESET('--hard')"))
-                print(f"❌ Error processing {name}: {e}")
-                print("⚠️ Rolled back all Dolt changes via DOLT_RESET.")
+            ### Add foreign key/system columns and write trips
+            df_to_write = df.with_columns(
+                [
+                    pl.lit(file_id).alias("processed_file_id"),
+                    pl.lit(system_id).alias("system_id"),
+                ]
+            ).collect()
+
+            df_to_write.write_database("trips", conn, if_table_exists="append")
+
+        # Transaction auto-commits on success
+        print(f"✅ Successfully added {name} to trips and processed_trip_files.")
+        print("Changes ready for manual review with `dolt diff` and `dolt commit`.")
+        return "inserted_or_replaced"
 
     except Exception as e:
-        print(f"❌ Fatal DB error: {e}")
+        ### Reset dolt database on failure
+        try:
+            with engine.connect() as c:
+                c.execute(text("CALL DOLT_RESET('--hard')"))
+        except Exception as reset_err:
+            print(f"⚠️ DOLT_RESET failed: {reset_err}")
+        print(f"❌ Error processing {name}: {e}")
+        print("⚠️ Rolled back all Dolt changes via DOLT_RESET.")
+        return "error"

@@ -2,7 +2,7 @@ import os
 import scripts.utils as utils
 import scripts.utils_playwright as utils_playwright
 
-URL = "https://internal.chattadata.org/Recreation/Bike-Chattanooga-Trip-Data/tdrg-39c4/about_data"
+URL = "https://www.chattadata.org/dataset/Historical-Bike-Chattanooga-Trip-Data/wq49-8xgg/about_data"
 
 FILE_NAME = "chattanooga_all_trips.csv"
 CSV_PATH = utils.get_raw_files_directory("chattanooga")
