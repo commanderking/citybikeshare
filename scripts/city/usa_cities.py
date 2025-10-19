@@ -1,7 +1,6 @@
 import os
 import hashlib
 import polars as pl
-import numpy as np
 import utils
 import utils_dolt
 import utils_bicycle_transit_systems
@@ -102,32 +101,6 @@ def convert_milliseconds_to_datetime(df):
     return df
 
 
-def randomize_datetimes(df):
-    df = (
-        df.with_columns(
-            [
-                (
-                    pl.col("start_time").dt.truncate(
-                        "1h"
-                    )  # zero out minutes and seconds
-                    + pl.lit(np.random.randint(0, 60, df.height)).cast(pl.Duration("m"))
-                    + pl.lit(np.random.randint(0, 60, df.height)).cast(pl.Duration("s"))
-                ).alias("randomized_start_time"),
-                (
-                    pl.col("end_time").dt.truncate("1h")  # zero out minutes and seconds
-                    + pl.lit(np.random.randint(0, 60, df.height)).cast(pl.Duration("m"))
-                    + pl.lit(np.random.randint(0, 60, df.height)).cast(pl.Duration("s"))
-                ).alias("randomized_end_time"),
-            ]
-        )
-        .drop("start_time", "end_time")
-        .rename(
-            {"randomized_start_time": "start_time", "randomized_end_time": "end_time"}
-        )
-    )
-    return df
-
-
 def filter_null_rows(df):
     return df.filter(~pl.all_horizontal(pl.all().is_null()))
 
@@ -150,7 +123,6 @@ PROCESSING_FUNCTIONS = {
     "process_bicycle_transit_stations": lambda df, ctx: process_bicycle_transit_system(
         df, ctx["args"]
     ),
-    "randomize_datetimes": lambda df, ctx: randomize_datetimes(df),
     "filter_null_rows": lambda df, ctx: filter_null_rows(df),
 }
 
