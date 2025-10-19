@@ -963,11 +963,11 @@
         "last_trip": "2025-01-13T21:10:31"
     },
     "vancouver": {
-        "null_start_time": 0,
-        "null_end_time": 788,
-        "null_duration_seconds": 0,
-        "null_start_station_name": 30,
-        "null_end_station_name": 1048,
+        "null_start_time": 133643,
+        "null_end_time": 134544,
+        "null_duration_seconds": 285,
+        "null_start_station_name": 2293,
+        "null_end_station_name": 3925,
         "null_by_year": [
             {
                 "year": 2017,
@@ -1003,14 +1003,14 @@
             },
             {
                 "year": 2025,
-                "has_null": 0
+                "has_null": 3824
             }
         ],
-        "total_rows": 6313945,
-        "null_rows": 1078,
-        "percent_complete": 99.98,
+        "total_rows": 7195837,
+        "null_rows": 138545,
+        "percent_complete": 98.07,
         "first_trip": "2017-01-01T00:00:00",
-        "last_trip": "2025-01-01T12:00:00"
+        "last_trip": "2025-09-03T13:00:00"
     },
     "oslo": {
         "null_start_station_name": 0,
