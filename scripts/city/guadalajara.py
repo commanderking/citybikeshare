@@ -66,7 +66,9 @@ def download_csv(link, csv_path, headers):
     file_path = os.path.join(csv_path, filename)
 
     if os.path.exists(file_path):
-        print(f"Skipping Download for {file_path} - file already exists")
+        print(
+            f"🟡 Skipping Download for {os.path.exists(file_path)} - file already exists"
+        )
         return
 
     try:

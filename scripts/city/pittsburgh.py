@@ -47,28 +47,29 @@ def get_monthly_resource_ids():
 def query_data(resource_ids):
     for resource_id in resource_ids:
         url = f"https://data.wprdc.org/api/3/action/datastore_search?resource_id={resource_id}&limit=10000000"
-        print(url)
+        csv_file = f"{resource_id}.csv"
+        csv_file_path = os.path.join(CSV_PATH, csv_file)
+        if os.path.exists(csv_file_path):
+            print(f"🟡 Skipping Download for {csv_file_path} - file already exists")
+        else:
+            try:
+                fileobj = urllib.request.urlopen(url)
+                data = json.load(fileobj)
+                trips = data["result"]["records"]
 
-        try:
-            fileobj = urllib.request.urlopen(url)
-            data = json.load(fileobj)
-            trips = data["result"]["records"]
+                with open(csv_file_path, "w", newline="") as csvfile:
+                    # Create a CSV writer object
+                    writer = csv.writer(csvfile)
 
-            csv_file = f"{resource_id}.csv"
-            csv_file_path = os.path.join(CSV_PATH, csv_file)
+                    # Write header
+                    writer.writerow(trips[0].keys())
 
-            with open(csv_file_path, "w", newline="") as csvfile:
-                # Create a CSV writer object
-                writer = csv.writer(csvfile)
-
-                # Write header
-                writer.writerow(trips[0].keys())
-
-                # Write rows
-                for row in trips:
-                    writer.writerow(row.values())
-        except Exception as e:
-            print(f"{resource_id} returned with an error: {e}")
+                    # Write rows
+                    for row in trips:
+                        writer.writerow(row.values())
+                    print("✅ CSV written")
+            except Exception as e:
+                print(f"{resource_id} returned with an error: {e}")
 
 
 if __name__ == "__main__":

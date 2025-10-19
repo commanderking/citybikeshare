@@ -23,7 +23,7 @@ def run(playwright, url, city):
         filename = os.path.basename(url)
         target_file_path = os.path.join(DOWNLOAD_PATH, filename)
         if os.path.exists(target_file_path):
-            print(f"${filename} file already exists - Skipping Download")
+            print(f"🟡 Skipping Download - ${filename} file already exists")
 
         else:
             with page.expect_download() as download_info:
@@ -50,6 +50,7 @@ def get_file_size_from_url(url):
     return None
 
 
+# Applicable for cities that update existing files with new data
 def download_if_new_data(download_info, target_folder, **kwargs):
     download = download_info.value
     desired_filename = kwargs.get("desired_filename", download.suggested_filename)
@@ -60,7 +61,7 @@ def download_if_new_data(download_info, target_folder, **kwargs):
         print(f"Downloading {desired_filename}")
         download.save_as(os.path.join(target_folder, desired_filename))
     else:
-        print(f"{desired_filename} already downloaded")
+        print(f"🟡 Skipping download - {desired_filename} already downloaded")
 
 
 def get_bicycle_transit_systems_zips(url, city):
