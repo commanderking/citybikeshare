@@ -22,7 +22,7 @@ def run(playwright, url, city):
             link.click()
         download = download_info.value
         download.save_as(os.path.join(DOWNLOAD_PATH, download.suggested_filename))
-        print(f"Downloaded { download.suggested_filename }")
+        print(f"Downloaded {download.suggested_filename}")
 
     # Download stations csv directly into csv folder
     stations_csv_link = page.get_by_role("link", name="Station Table")
@@ -30,7 +30,7 @@ def run(playwright, url, city):
         stations_csv_link.click()
     stations_download = stations_download_info.value
     stations_download.save_as(os.path.join(STATIONS_CSV_PATH, "stations.csv"))
-    print(f"Downloaded { stations_download.suggested_filename } as stations.csv")
+    print(f"Downloaded {stations_download.suggested_filename} as stations.csv")
 
     browser.close()
 
@@ -72,7 +72,7 @@ def run_get_exports(playwright, url, file_path):
 
     with page.expect_download(timeout=120000) as download_info:
         # Click the "Download" button
-        page.click("button:has-text('Download')")
+        page.get_by_test_id("export-download-button").click()
     download = download_info.value
     download.save_as(file_path)
     print(f"Downloaded {download.suggested_filename}")

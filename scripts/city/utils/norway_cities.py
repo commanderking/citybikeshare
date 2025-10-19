@@ -45,7 +45,7 @@ def get_exports(url, city):
         run_get_exports(playwright, url, ZIP_PATH, CSV_PATH)
 
 
-date_formats = ["%Y-%m-%d %H:%M:%S.%f%:z", "%Y-%m-%d %H:%M:%S%:z"]
+date_formats = ["%Y-%m-%d %H:%M:%S%.f%:z", "%Y-%m-%d %H:%M:%S%:z"]
 date_columns = ["start_time", "end_time"]
 final_columns = ["start_station_name", "end_station_name", *date_columns]
 

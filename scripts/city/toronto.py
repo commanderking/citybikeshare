@@ -4,55 +4,12 @@ import os
 import requests
 import polars as pl
 
-import utils
+import scripts.utils as utils
 import definitions
 
 PARQUET_OUTPUT_PATH = definitions.DATA_DIR / "toronto_all_trips.parquet"
 
 TORONTO_CSV_PATH = utils.get_raw_files_directory("toronto")
-
-initial_renamed_columns = {
-    "trip_id": "trip_id",
-    "trip_start_time": "start_time",
-    "trip_stop_time": "end_time",
-    "trip_duration_seconds": "duration",
-    "from_station_name": "start_station_name",
-    "to_station_name": "end_station_name",
-    "user_type": "user_type",
-}
-
-current_renamed_columns = {
-    "Trip Id": "trip_id",
-    "Trip  Duration": "duration",
-    "Start Station Id": "start_station_id",
-    "Start Time": "start_time",
-    "Start Station Name": "start_station_name",
-    "End Station Id": "end_station_id",
-    "End Time": "end_time",
-    "End Station Name": "end_station_name",
-    "Bike Id": "bike_id",
-    "User Type": "user_type",
-}
-
-toronto_final_columns = [
-    "start_time",
-    "end_time",
-    "duration",
-    "start_station_name",
-    "end_station_name",
-    "user_type",
-]
-
-
-def map_columns(df):
-    headers = df.columns
-
-    if "trip_id" in headers:
-        df = df.rename(initial_renamed_columns)
-    else:
-        df = df.rename(current_renamed_columns)
-
-    return df.select(toronto_final_columns)
 
 
 def extract_csvs():
@@ -95,57 +52,55 @@ def extract_csvs():
                 )
 
 
-def create_all_trips_df():
-    csv_files = [
-        os.path.join(TORONTO_CSV_PATH, f)
-        for f in os.listdir(TORONTO_CSV_PATH)
-        if f.endswith(".csv")
-    ]
+### Keeping for reference
+# def create_all_trips_df():
+#     csv_files = [
+#         os.path.join(TORONTO_CSV_PATH, f)
+#         for f in os.listdir(TORONTO_CSV_PATH)
+#         if f.endswith(".csv")
+#     ]
 
-    dfs = []
-    for file in csv_files:
-        print(file)
-        # TODO: utf8-lossy needed because there are some special characters in csv
-        # Example: Gailbraith Rd / KingG��s College Cr. (U of T)
-        df = pl.read_csv(file, infer_schema_length=0, encoding="utf8-lossy")
+#     dfs = []
+#     for file in csv_files:
+#         print(file)
+#         # TODO: utf8-lossy needed because there are some special characters in csv
+#         # Example: Gailbraith Rd / KingG��s College Cr. (U of T)
+#         df = pl.read_csv(file, infer_schema_length=0, encoding="utf8-lossy")
 
-        df = map_columns(df)
-        date_formats = ["%m/%d/%Y %H:%M", "%m/%d/%Y %H:%M:%S", "%d/%m/%Y %H:%M"]
-        df = (
-            df.with_columns(
-                [
-                    pl.coalesce(
-                        [
-                            pl.col("start_time").str.strptime(
-                                pl.Datetime, format, strict=False
-                            )
-                            for format in date_formats
-                        ]
-                    ),
-                    pl.coalesce(
-                        [
-                            pl.col("end_time").str.strptime(
-                                pl.Datetime, format, strict=False
-                            )
-                            for format in date_formats
-                        ]
-                    ),
-                    pl.col("duration").cast(pl.Int32),
-                ]
-            )
-            # Toronto has a few data points in 2017 that have year as 17
-            .pipe(utils.offset_two_digit_years)
-            # 2020-10.csv has 249 rows where start and end date are null
-            .filter(
-                pl.col("start_time").is_not_null() & pl.col("end_time").is_not_null()
-            )
-        )
-        dfs.append(df)
-    return pl.concat(dfs)
+#         df = map_columns(df)
+#         date_formats = ["%m/%d/%Y %H:%M", "%m/%d/%Y %H:%M:%S", "%d/%m/%Y %H:%M"]
+#         df = (
+#             df.with_columns(
+#                 [
+#                     pl.coalesce(
+#                         [
+#                             pl.col("start_time").str.strptime(
+#                                 pl.Datetime, format, strict=False
+#                             )
+#                             for format in date_formats
+#                         ]
+#                     ),
+#                     pl.coalesce(
+#                         [
+#                             pl.col("end_time").str.strptime(
+#                                 pl.Datetime, format, strict=False
+#                             )
+#                             for format in date_formats
+#                         ]
+#                     ),
+#                     pl.col("duration").cast(pl.Int32),
+#                 ]
+#             )
+#             # Toronto has a fe  w data points in 2017 that have year as 17
+#             .pipe(utils.offset_two_digit_years)
+#             # 2020-10.csv has 249 rows where start and end date are null
+#             .filter(
+#                 pl.col("start_time").is_not_null() & pl.col("end_time").is_not_null()
+#             )
+#         )
+#         dfs.append(df)
+#     return pl.concat(dfs)
 
 
-def build_trips(args):
-    all_trips_df = create_all_trips_df()
-    utils.log_final_results(all_trips_df, args)
-    utils.create_all_trips_file(all_trips_df, args)
-    utils.create_recent_year_file(all_trips_df, args)
+if __name__ == "__main__":
+    extract_csvs()

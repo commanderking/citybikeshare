@@ -3,8 +3,8 @@ import hashlib
 import polars as pl
 import utils
 import utils_dolt
-import scripts.constants as constants
 import utils_bicycle_transit_systems
+import scripts.constants as constants
 
 
 def compute_file_hash(filepath, chunk_size=8192):
@@ -35,45 +35,36 @@ def filter_filenames(filenames, args):
     return files
 
 
-def austin_check(args):
-    def inner(df):
-        if (args.city) == "austin":
-            df = df.with_columns(
-                [
-                    pl.coalesce(
-                        [
-                            pl.col("start_time")
-                            .str.replace(r"\.\d+", "")
-                            .str.strptime(
-                                pl.Datetime, "%m/%d/%Y %I:%M:%S %p", strict=True
-                            )
-                        ]
-                    ),
-                    pl.col("duration_minutes").cast(pl.Int32),
-                ]
-            )
-            df = df.with_columns(
-                (
-                    pl.col("start_time")
-                    + pl.duration(minutes=pl.col("duration_minutes"))
-                ).alias("end_time")
-            )
-            return df
+def austin_check(df, args):
+    if (args.city) == "austin":
+        df = df.with_columns(
+            [
+                pl.coalesce(
+                    [
+                        pl.col("start_time")
+                        .str.replace(r"\.\d+", "")
+                        .str.strptime(pl.Datetime, "%m/%d/%Y %I:%M:%S %p", strict=True)
+                    ]
+                ),
+                pl.col("duration_minutes").cast(pl.Int32),
+            ]
+        )
+        df = df.with_columns(
+            (
+                pl.col("start_time") + pl.duration(minutes=pl.col("duration_minutes"))
+            ).alias("end_time")
+        )
         return df
+    return df
 
-    return inner
 
-
-def process_bicycle_transit_system(args):
-    def inner(df):
-        if args.city == "philadelphia" or args.city == "los_angeles":
-            stations_df = utils_bicycle_transit_systems.stations_csv_to_df(args)
-            df = utils_bicycle_transit_systems.append_station_names(
-                df, stations_df
-            ).drop("start_station_id", "end_station_id")
-        return df
-
-    return inner
+def process_bicycle_transit_system(df, args):
+    stations_df = utils_bicycle_transit_systems.stations_csv_to_df(args)
+    df = utils_bicycle_transit_systems.append_station_names(df, stations_df).drop(
+        "start_station_id", "end_station_id"
+    )
+    print(df)
+    return df
 
 
 def get_file_metadata(filepath, city_config):
@@ -93,31 +84,89 @@ def get_file_metadata(filepath, city_config):
     }
 
 
-def create_trip_df(file, args):
-    city_config = constants.config[args.city]
-    date_formats = city_config["date_formats"]
-    renamed_columns = city_config["renamed_columns"]
-    final_columns = city_config.get("final_columns", constants.final_columns)
-
-    df_lazy = (
-        pl.scan_csv(file, infer_schema_length=0)
-        .pipe(utils.rename_columns_for_keys(renamed_columns))
-        # TODO: This station name mapping should apply to all stations
-        # May want to make this configuration based rather than explicit city checks here
-        .pipe(process_bicycle_transit_system(args))
-        # For debugging
-        # .pipe(utils.print_null_data)
-        # .pipe(utils.assess_null_data)
-        ### TODO - move this to configuration for preprocessing. Austin doesn't have end_time so we need to calculate before casting times
-        .pipe(austin_check(args))
-        .pipe(
-            utils.convert_columns_to_datetime(["start_time", "end_time"], date_formats)
+def convert_milliseconds_to_datetime(df):
+    headers = df.columns
+    print(headers)
+    ### most recent Montreal data notes start time and end time in ms whereas previous versions used a date.
+    if "start_ms" in headers:
+        df = df.with_columns(
+            # start_ms auto converts to string instead of integer - cast before converting to datetime
+            [pl.col("start_ms").cast(pl.Int64), pl.col("end_ms").cast(pl.Int64)]
+        ).with_columns(
+            [
+                pl.from_epoch("start_ms", time_unit="ms").alias("start_time"),
+                pl.from_epoch("end_ms", time_unit="ms").alias("end_time"),
+            ]
         )
-        .select(final_columns)
-        .pipe(utils.offset_two_digit_years)
-    )
+    return df
 
-    return df_lazy
+
+def filter_null_rows(df):
+    return df.filter(~pl.all_horizontal(pl.all().is_null()))
+
+
+PROCESSING_FUNCTIONS = {
+    "rename_columns": lambda df, ctx: df.pipe(
+        utils.rename_columns_for_keys(ctx["renamed_columns"])
+    ),
+    "convert_to_datetime": lambda df, ctx: df.pipe(
+        utils.convert_columns_to_datetime(
+            ["start_time", "end_time"], ctx["date_formats"]
+        )
+    ),
+    "select_final_columns": lambda df, ctx: df.select(constants.final_columns),
+    "offset_two_digit_years": lambda df, ctx: utils.offset_two_digit_years(df),
+    "austin_calculate_end_time": lambda df, ctx: austin_check(df, ctx["args"]),
+    "convert_milliseconds_to_datetime": lambda df,
+    ctx: convert_milliseconds_to_datetime(df),
+    # Philadelphia and Los Angeles
+    "process_bicycle_transit_stations": lambda df, ctx: process_bicycle_transit_system(
+        df, ctx["args"]
+    ),
+    "filter_null_rows": lambda df, ctx: filter_null_rows(df),
+}
+
+
+# def create_trip_df(file, args):
+#     city_config = constants.config[args.city]
+#     date_formats = city_config["date_formats"]
+#     renamed_columns = city_config["renamed_columns"]
+#     final_columns = city_config.get("final_columns", constants.final_columns)
+
+#     df_lazy = (
+#         pl.scan_csv(file, infer_schema_length=0)
+#         .pipe(utils.rename_columns_for_keys(renamed_columns))
+#         # TODO: This station name mapping should apply to all stations
+#         # May want to make this configuration based rather than explicit city checks here
+#         .pipe(process_bicycle_transit_system(args))
+#         # For debugging
+#         # .pipe(utils.print_null_data)
+#         # .pipe(utils.assess_null_data)
+#         ### TODO - move this to configuration for preprocessing. Austin doesn't have end_time so we need to calculate before casting times
+#         .pipe(austin_check(args))
+#         .pipe(
+#             utils.convert_columns_to_datetime(["start_time", "end_time"], date_formats)
+#         )
+#         .select(final_columns)
+#         .pipe(utils.offset_two_digit_years)
+#     )
+
+#     return df_lazy
+
+
+def create_trip_df(file, args):
+    config = constants.config[args.city]
+    read_csv_options = config.get("read_csv_options", {})
+    df = pl.scan_csv(file, infer_schema_length=0, **read_csv_options)
+    context = {**config, "args": args}
+
+    for step in config.get(
+        "processing_pipeline", constants.DEFAULT_PROCESSING_PIPELINE
+    ):
+        fn = PROCESSING_FUNCTIONS[step]
+        df = fn(df, context)
+
+    return df
 
 
 def add_trips_to_db(files, args):
@@ -129,7 +178,7 @@ def add_trips_to_db(files, args):
 
         file_processed = utils_dolt.is_file_processed(engine, file_metadata)
         if file_processed:
-            print(f'File {file_metadata["name"]} has already been processed')
+            print(f"File {file_metadata['name']} has already been processed")
         else:
             # DEBUGGING TIPS
             # For debugging and printing tables with null data for a particular column after formatting

@@ -62,29 +62,29 @@
     },
     "chattanooga": {
         "null_start_time": 0,
-        "null_end_time": 2,
-        "null_start_station_name": 0,
-        "null_end_station_name": 2134,
+        "null_end_time": 35,
+        "null_start_station_name": 421,
+        "null_end_station_name": 719,
         "null_by_year": [
             {
                 "year": 2012,
-                "has_null": 660
+                "has_null": 45
             },
             {
                 "year": 2013,
-                "has_null": 0
+                "has_null": 103
             },
             {
                 "year": 2014,
-                "has_null": 0
+                "has_null": 175
             },
             {
                 "year": 2015,
-                "has_null": 2
+                "has_null": 5
             },
             {
                 "year": 2016,
-                "has_null": 1394
+                "has_null": 7
             },
             {
                 "year": 2017,
@@ -92,30 +92,42 @@
             },
             {
                 "year": 2018,
-                "has_null": 0
+                "has_null": 17
             },
             {
                 "year": 2019,
-                "has_null": 2
+                "has_null": 6
             },
             {
                 "year": 2020,
-                "has_null": 29
+                "has_null": 31
             },
             {
                 "year": 2021,
-                "has_null": 37
+                "has_null": 38
             },
             {
                 "year": 2022,
-                "has_null": 10
+                "has_null": 38
+            },
+            {
+                "year": 2023,
+                "has_null": 104
+            },
+            {
+                "year": 2024,
+                "has_null": 168
+            },
+            {
+                "year": 2025,
+                "has_null": 0
             }
         ],
-        "total_rows": 623469,
-        "null_rows": 2134,
-        "percent_complete": 99.66,
-        "first_trip": "2012-07-23T05:12:00",
-        "last_trip": "2022-06-06T14:19:00"
+        "total_rows": 1079796,
+        "null_rows": 737,
+        "percent_complete": 99.93,
+        "first_trip": "2012-06-04T01:37:15",
+        "last_trip": "2025-01-16T09:44:03"
     },
     "jersey_city": {
         "null_start_time": 0,
@@ -951,11 +963,11 @@
         "last_trip": "2025-01-13T21:10:31"
     },
     "vancouver": {
-        "null_start_time": 0,
-        "null_end_time": 788,
-        "null_duration_seconds": 0,
-        "null_start_station_name": 30,
-        "null_end_station_name": 1048,
+        "null_start_time": 133643,
+        "null_end_time": 134544,
+        "null_duration_seconds": 285,
+        "null_start_station_name": 2293,
+        "null_end_station_name": 3925,
         "null_by_year": [
             {
                 "year": 2017,
@@ -991,14 +1003,14 @@
             },
             {
                 "year": 2025,
-                "has_null": 0
+                "has_null": 3824
             }
         ],
-        "total_rows": 6313945,
-        "null_rows": 1078,
-        "percent_complete": 99.98,
+        "total_rows": 7195837,
+        "null_rows": 138545,
+        "percent_complete": 98.07,
         "first_trip": "2017-01-01T00:00:00",
-        "last_trip": "2025-01-01T12:00:00"
+        "last_trip": "2025-09-03T13:00:00"
     },
     "oslo": {
         "null_start_station_name": 0,
@@ -1197,10 +1209,10 @@
         "last_trip": "2024-11-29T07:55:17"
     },
     "bergen": {
-        "null_start_station_name": 0,
-        "null_end_station_name": 0,
         "null_start_time": 0,
         "null_end_time": 0,
+        "null_start_station_name": 0,
+        "null_end_station_name": 0,
         "null_by_year": [
             {
                 "year": 2018,
