@@ -18,11 +18,19 @@ def run(playwright, url, city):
     # Find all .zip file links and download them
     zip_links = page.query_selector_all('a[href$=".zip"]')
     for link in zip_links:
-        with page.expect_download() as download_info:
-            link.click()
-        download = download_info.value
-        download.save_as(os.path.join(DOWNLOAD_PATH, download.suggested_filename))
-        print(f"Downloaded {download.suggested_filename}")
+        # Skip download if already in folder
+        url = link.get_attribute("href")
+        filename = os.path.basename(url)
+        target_file_path = os.path.join(DOWNLOAD_PATH, filename)
+        if os.path.exists(target_file_path):
+            print(f"${filename} file already exists - Skipping Download")
+
+        else:
+            with page.expect_download() as download_info:
+                link.click()
+            download = download_info.value
+            download.save_as(os.path.join(DOWNLOAD_PATH, filename))
+            print(f"Downloaded {filename}")
 
     # Download stations csv directly into csv folder
     stations_csv_link = page.get_by_role("link", name="Station Table")

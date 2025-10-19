@@ -323,8 +323,8 @@
     "boston": {
         "null_start_time": 0,
         "null_end_time": 0,
-        "null_start_station_name": 1443,
-        "null_end_station_name": 25470,
+        "null_start_station_name": 2680,
+        "null_end_station_name": 31332,
         "null_by_year": [
             {
                 "year": 2015,
@@ -364,14 +364,18 @@
             },
             {
                 "year": 2024,
-                "has_null": 9154
+                "has_null": 9155
+            },
+            {
+                "year": 2025,
+                "has_null": 6881
             }
         ],
-        "total_rows": 25006468,
-        "null_rows": 26402,
-        "percent_complete": 99.89,
+        "total_rows": 28574580,
+        "null_rows": 33284,
+        "percent_complete": 99.88,
         "first_trip": "2015-01-01T00:21:44",
-        "last_trip": "2024-12-31T23:59:13"
+        "last_trip": "2025-09-30T23:59:14"
     },
     "philadelphia": {
         "null_start_time": 0,

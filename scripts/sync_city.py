@@ -30,8 +30,34 @@ CITY_SYNC_MAP = {
 
 def sync_city(city):
     """Sync a city's bikeshare data."""
+
+    if city == "all":
+        successes = []
+        failures = []
+
+        print("🚴 Syncing data for all cities...\n")
+
+        for name, command in CITY_SYNC_MAP.items():
+            print(f"🚀 Running sync for {name}: {command}")
+            try:
+                subprocess.run(command, shell=True, check=True)
+                print(f"✅ Successfully synced {name}\n")
+                successes.append(name)
+            except subprocess.CalledProcessError as e:
+                print(f"❌ Error syncing {name}: {e}\n")
+                failures.append(name)
+
+        print("\n📋 Sync Summary")
+        print("==============")
+        print(f"✅ Successes: {', '.join(successes) if successes else 'None'}")
+        print(f"❌ Failures: {', '.join(failures) if failures else 'None'}")
+
+        if failures:
+            sys.exit(1)
+        else:
+            sys.exit(0)
     if city not in CITY_SYNC_MAP:
-        print(f"❌ Unknown city: {city} - add city to CITY_SYNC_MAP ")
+        print(f"❌ Unknown city: {city} - add city to CITY_SYNC_MAP in sync_city.py")
         sys.exit(1)
 
     command = CITY_SYNC_MAP[city]
@@ -41,7 +67,7 @@ def sync_city(city):
 
 if __name__ == "__main__":
     if len(sys.argv) < 2:
-        print("❌ Please specify a city. Example: python sync_city.py boston")
+        print("❌ Please specify a city. Example: pipenv run sync_city boston")
         sys.exit(1)
 
     city_name = sys.argv[1].lower()
