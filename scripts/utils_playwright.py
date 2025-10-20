@@ -50,7 +50,7 @@ def get_file_size_from_url(url):
     return None
 
 
-# Applicable for cities that update existing files with new data
+# Applicable for cities that update existing files with new data (Norway cities)
 def download_if_new_data(download_info, target_folder, **kwargs):
     download = download_info.value
     desired_filename = kwargs.get("desired_filename", download.suggested_filename)

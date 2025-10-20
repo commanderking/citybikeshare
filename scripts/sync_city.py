@@ -11,7 +11,7 @@ CITY_SYNC_MAP = {
     "london": "aws s3 sync s3://cycling.data.tfl.gov.uk/usage-stats ./data/london/raw",
     "jersey_city": "aws s3 sync s3://tripdata ./data/jersey_city/zip --exclude '*' --include 'JC-*'",
     "san_francisco": "aws s3 sync s3://baywheels-data ./data/san_francisco/zip",
-    # Cities with custom scripts
+    ### Cities with custom scripts
     "guadalajara": "python3 ./scripts/city/guadalajara.py",
     "austin": "python3 ./scripts/city/austin.py",
     "bergen": "python3 ./scripts/city/bergen.py",
@@ -24,7 +24,8 @@ CITY_SYNC_MAP = {
     "los_angeles": "python3 ./scripts/city/los_angeles.py",
     "oslo": "python3 ./scripts/city/oslo.py",
     "trondheim": "python3 ./scripts/city/trondheim.py",
-    # "vancouver": "python3 ./scripts/city/vancouver.py",
+    # Vancouver is slow because of google drive - we have to open each google drive link before we can check if data can be downloaded
+    "vancouver": "python3 ./scripts/city/vancouver.py",
     "toronto": "python3 ./scripts/city/toronto.py",
 }
 

@@ -69,7 +69,8 @@ def insert_trip_data(engine, df, file_metadata):
                 if existing_size == size:
                     print(f"Skipping {name}: same size ({size}) already recorded.")
                     return
-                # DB should cascade to delete all rows in trips too
+
+                # Delete from processed_trip_files as we need to reinsert
                 conn.execute(
                     text("DELETE FROM processed_trip_files WHERE id = :id"),
                     {"id": existing_id},
@@ -118,7 +119,6 @@ def insert_trip_data(engine, df, file_metadata):
 
         # Transaction auto-commits on success
         print(f"✅ Successfully added {name} to trips and processed_trip_files.")
-        print("Changes ready for manual review with `dolt diff` and `dolt commit`.")
         return "inserted_or_replaced"
 
     except Exception as e:

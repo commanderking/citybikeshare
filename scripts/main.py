@@ -57,18 +57,28 @@ def setup_argparse():
 
 def build_city(args):
     city = args.city
-    if city in constants.US_CITIES:
-        usa_utils.build_all_trips(args)
+
+    print(city)
+
+    if city == "all":
+        print("Attempting to build all cities")
+
+        for name in constants.US_CITIES:
+            print(f"🚀 Running sync for {name}")
+            try:
+                args.city = name
+                usa_utils.build_all_trips(args)
+
+                print(f"✅ Successfully built {name}\n")
+            except Exception as e:
+                print(f"❌ Error building {name}: {e}\n")
     else:
-        city_builders[city](args)
+        if city in constants.US_CITIES:
+            usa_utils.build_all_trips(args)
+        else:
+            city_builders[city](args)
 
 
 if __name__ == "__main__":
     args = setup_argparse()
-    city = args.city
-
-    if city == "all":
-        for city in all_cities:
-            setattr(args, "city", city)
-            build_city(args)
     build_city(args)
