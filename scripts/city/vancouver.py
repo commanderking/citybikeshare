@@ -49,12 +49,10 @@ def run_get_exports(playwright, url, csv_path):
     for link in links:
         href = link.get_attribute("href")
         if href and "drive.google.com" in href:
-            print(f"Clicking on link with href: {href}")
-
             # Create a new page manually
             new_page = context.new_page()
             new_page.goto(href)
-            new_page.wait_for_load_state()  # Wait for the new page to load
+            new_page.wait_for_load_state()
 
             with new_page.expect_download() as download_info:
                 # Perform the action that initiates download

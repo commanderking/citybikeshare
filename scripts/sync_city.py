@@ -11,18 +11,20 @@ CITY_SYNC_MAP = {
     "london": "aws s3 sync s3://cycling.data.tfl.gov.uk/usage-stats ./data/london/raw",
     "jersey_city": "aws s3 sync s3://tripdata ./data/jersey_city/zip --exclude '*' --include 'JC-*'",
     "san_francisco": "aws s3 sync s3://baywheels-data ./data/san_francisco/zip",
-    # Cities with custom scripts
+    ### Cities with custom scripts
     "guadalajara": "python3 ./scripts/city/guadalajara.py",
     "austin": "python3 ./scripts/city/austin.py",
     "bergen": "python3 ./scripts/city/bergen.py",
     "chattanooga": "python3 ./scripts/city/chattanooga.py",
-    "mexico_city": "python3 ./scripts/city/mexico_city.py",
+    # Mexico City can't open dropdowns to view files right now
+    # "mexico_city": "python3 ./scripts/city/mexico_city.py",
     "montreal": "python3 ./scripts/city/montreal.py",
     "philadelphia": "python3 ./scripts/city/philadelphia.py",
     "pittsburgh": "python3 ./scripts/city/pittsburgh.py",
     "los_angeles": "python3 ./scripts/city/los_angeles.py",
     "oslo": "python3 ./scripts/city/oslo.py",
     "trondheim": "python3 ./scripts/city/trondheim.py",
+    # Vancouver is slow because of google drive - we have to open each google drive link before we can check if data can be downloaded
     "vancouver": "python3 ./scripts/city/vancouver.py",
     "toronto": "python3 ./scripts/city/toronto.py",
 }
@@ -30,8 +32,34 @@ CITY_SYNC_MAP = {
 
 def sync_city(city):
     """Sync a city's bikeshare data."""
+
+    if city == "all":
+        successes = []
+        failures = []
+
+        print("🚴 Syncing data for all cities...\n")
+
+        for name, command in CITY_SYNC_MAP.items():
+            print(f"🚀 Running sync for {name}: {command}")
+            try:
+                subprocess.run(command, shell=True, check=True)
+                print(f"✅ Successfully synced {name}\n")
+                successes.append(name)
+            except subprocess.CalledProcessError as e:
+                print(f"❌ Error syncing {name}: {e}\n")
+                failures.append(name)
+
+        print("\n📋 Sync Summary")
+        print("==============")
+        print(f"✅ Successes: {', '.join(successes) if successes else 'None'}")
+        print(f"❌ Failures: {', '.join(failures) if failures else 'None'}")
+
+        if failures:
+            sys.exit(1)
+        else:
+            sys.exit(0)
     if city not in CITY_SYNC_MAP:
-        print(f"❌ Unknown city: {city} - add city to CITY_SYNC_MAP ")
+        print(f"❌ Unknown city: {city} - add city to CITY_SYNC_MAP in sync_city.py")
         sys.exit(1)
 
     command = CITY_SYNC_MAP[city]
@@ -41,7 +69,7 @@ def sync_city(city):
 
 if __name__ == "__main__":
     if len(sys.argv) < 2:
-        print("❌ Please specify a city. Example: python sync_city.py boston")
+        print("❌ Please specify a city. Example: pipenv run sync_city boston")
         sys.exit(1)
 
     city_name = sys.argv[1].lower()

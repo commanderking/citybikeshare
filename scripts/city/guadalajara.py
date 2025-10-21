@@ -62,11 +62,18 @@ def download_csv(link, csv_path, headers):
     """
     Download a single CSV file from the given link.
     """
+    filename = os.path.basename(link)
+    file_path = os.path.join(csv_path, filename)
+
+    if os.path.exists(file_path):
+        print(
+            f"🟡 Skipping Download for {os.path.exists(file_path)} - file already exists"
+        )
+        return
+
     try:
         response = requests.get(link, headers=headers)
         response.raise_for_status()
-        filename = os.path.basename(link)
-        file_path = os.path.join(csv_path, filename)
         with open(file_path, "wb") as file:
             file.write(response.content)
         print(f"Downloaded: {filename}")
@@ -85,7 +92,6 @@ def get_exports(url, csv_path):
     """
     with sync_playwright() as playwright:
         csv_links = get_csv_links(playwright, url)
-    print(f"Found links: {csv_links}")
     download_all_csvs(csv_links, csv_path)
 
 

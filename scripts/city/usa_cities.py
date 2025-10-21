@@ -172,14 +172,15 @@ def create_trip_df(file, args):
 def add_trips_to_db(files, args):
     engine = utils_dolt.establish_engine()
     for file in files:
-        print(f"processing {file}")
         city_config = constants.config[args.city]
         file_metadata = get_file_metadata(file, city_config)
-
         file_processed = utils_dolt.is_file_processed(engine, file_metadata)
+        file_name = file_metadata["name"]
         if file_processed:
-            print(f"File {file_metadata['name']} has already been processed")
+            print(f"🟡 Skipping {file_name} - already processed")
         else:
+            print(f"🐢 processing {file_name}")
+
             # DEBUGGING TIPS
             # For debugging and printing tables with null data for a particular column after formatting
             # df_start_time = df.filter(pl.col("start_time").is_null())
@@ -223,9 +224,11 @@ def build_all_trips(args):
     trip_files = utils.get_csv_files(source_directory)
     filtered_files = filter_filenames(trip_files, args)
 
+    ## Adding to parquet path
     if args.parquet:
         all_trips_df_lazy = get_dfs_for_parquet(filtered_files, args)
         utils.create_final_files_and_logs(all_trips_df_lazy, args)
 
+    ## Adding to doltdb path
     else:
         add_trips_to_db(filtered_files, args)

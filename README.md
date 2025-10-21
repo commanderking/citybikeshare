@@ -63,6 +63,9 @@ We can also insert the data into a dolt database for record keeping and to not h
 
 #### Steps in creating a parquet file for a city's bikeshare data
 
+Example:
+`pipenv run build boston --parquet`
+
 The general procedure to clean the data in any city is:
 
 1. Unzip all bikeshare trip data into their csv files, storing them in `./src/data/[city]`

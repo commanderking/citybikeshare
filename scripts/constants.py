@@ -383,47 +383,47 @@ config = {
             "%Y-%m-%d %H:%M:%S",
         ],
     },
-    "new_york_city": {
-        "name": "new_york_city",
-        "system_name": "new_york_city_bikeshare",
-        ### 2022 contains files that have citbike in filename
-        "file_matcher": ["citibike-tripdata", "citbike-tripdata"],
-        ### NYC files produce two of the same data for 2018 :(
-        "excluded_filenames": [
-            "2018-citibike-tripdata/201801-citibike-tripdata.csv",
-            "2018-citibike-tripdata/201802-citibike-tripdata.csv",
-            "2018-citibike-tripdata/201803-citibike-tripdata.csv",
-            "2018-citibike-tripdata/201804-citibike-tripdata_1.csv",
-            "2018-citibike-tripdata/201804-citibike-tripdata_2.csv",
-            "2018-citibike-tripdata/201804-citibike-tripdata.csv",
-            "2018-citibike-tripdata/201805-citibike-tripdata.csv",
-            "2018-citibike-tripdata/201806-citibike-tripdata.csv",
-            "2018-citibike-tripdata/201807-citibike-tripdata.csv",
-            "2018-citibike-tripdata/201808-citibike-tripdata.csv",
-            "2018-citibike-tripdata/201809-citibike-tripdata.csv",
-            "2018-citibike-tripdata/201810-citibike-tripdata.csv",
-            "2018-citibike-tripdata/201811-citibike-tripdata.csv",
-            "2018-citibike-tripdata/201812-citibike-tripdata.csv"
-            ### 2013 - duplicates
-            "201306-citibike-tripdata.csv",
-            "201307-citibike-tripdata.csv",
-            "201308-citibike-tripdata.csv",
-            "201309-citibike-tripdata.csv",
-            "201310-citibike-tripdata.csv",
-            "201311-citibike-tripdata.csv",
-            "201312-citibike-tripdata.csv",
-        ],
-        "renamed_columns": {
-            **commonized_system_data_columns,
-            **nyc_renamed_columns_initial,
-            **nyc_renamed_columns_2017_03_to_2020_01,
-        },
-        "date_formats": [
-            "%Y-%m-%d %H:%M:%S",
-            "%m/%d/%Y %H:%M:%S",
-            "%m/%d/%Y %H:%M",
-        ],
-    },
+    # "new_york_city": {
+    #     "name": "new_york_city",
+    #     "system_name": "new_york_city_bikeshare",
+    #     ### 2022 contains files that have citbike in filename
+    #     "file_matcher": ["citibike-tripdata", "citbike-tripdata"],
+    #     ### NYC files produce two of the same data for 2018 :(
+    #     "excluded_filenames": [
+    #         "2018-citibike-tripdata/201801-citibike-tripdata.csv",
+    #         "2018-citibike-tripdata/201802-citibike-tripdata.csv",
+    #         "2018-citibike-tripdata/201803-citibike-tripdata.csv",
+    #         "2018-citibike-tripdata/201804-citibike-tripdata_1.csv",
+    #         "2018-citibike-tripdata/201804-citibike-tripdata_2.csv",
+    #         "2018-citibike-tripdata/201804-citibike-tripdata.csv",
+    #         "2018-citibike-tripdata/201805-citibike-tripdata.csv",
+    #         "2018-citibike-tripdata/201806-citibike-tripdata.csv",
+    #         "2018-citibike-tripdata/201807-citibike-tripdata.csv",
+    #         "2018-citibike-tripdata/201808-citibike-tripdata.csv",
+    #         "2018-citibike-tripdata/201809-citibike-tripdata.csv",
+    #         "2018-citibike-tripdata/201810-citibike-tripdata.csv",
+    #         "2018-citibike-tripdata/201811-citibike-tripdata.csv",
+    #         "2018-citibike-tripdata/201812-citibike-tripdata.csv"
+    #         ### 2013 - duplicates
+    #         "201306-citibike-tripdata.csv",
+    #         "201307-citibike-tripdata.csv",
+    #         "201308-citibike-tripdata.csv",
+    #         "201309-citibike-tripdata.csv",
+    #         "201310-citibike-tripdata.csv",
+    #         "201311-citibike-tripdata.csv",
+    #         "201312-citibike-tripdata.csv",
+    #     ],
+    #     "renamed_columns": {
+    #         **commonized_system_data_columns,
+    #         **nyc_renamed_columns_initial,
+    #         **nyc_renamed_columns_2017_03_to_2020_01,
+    #     },
+    #     "date_formats": [
+    #         "%Y-%m-%d %H:%M:%S",
+    #         "%m/%d/%Y %H:%M:%S",
+    #         "%m/%d/%Y %H:%M",
+    #     ],
+    # },
     "san_francisco": {
         "name": "san_francisco",
         "system_name": "san_francisco_bikeshare",
@@ -551,7 +551,7 @@ config = {
     "montreal": {
         "name": "montreal",
         "system_name": "montreal_bikeshare",
-        "file_matcher": [".csv"],
+        "file_matcher": [".zip", ".csv"],
         "excluded_filenames": ["Stations", "stations"],
         "renamed_columns": {
             **montreal_earliest_columns,
@@ -623,7 +623,7 @@ config = {
 #     return pl.concat(dfs)
 
 
-US_CITIES = list(config.keys())
+CONFIG_CITIES = list(config.keys())
 
 GLOBAL_CITIES = [
     "taipei",
@@ -636,4 +636,4 @@ GLOBAL_CITIES = [
     "guadalajara",
 ]
 
-ALL_CITIES = US_CITIES + GLOBAL_CITIES
+ALL_CITIES = CONFIG_CITIES + GLOBAL_CITIES

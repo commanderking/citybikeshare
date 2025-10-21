@@ -323,8 +323,8 @@
     "boston": {
         "null_start_time": 0,
         "null_end_time": 0,
-        "null_start_station_name": 1443,
-        "null_end_station_name": 25470,
+        "null_start_station_name": 2680,
+        "null_end_station_name": 31332,
         "null_by_year": [
             {
                 "year": 2015,
@@ -364,14 +364,18 @@
             },
             {
                 "year": 2024,
-                "has_null": 9154
+                "has_null": 9155
+            },
+            {
+                "year": 2025,
+                "has_null": 6881
             }
         ],
-        "total_rows": 25006468,
-        "null_rows": 26402,
-        "percent_complete": 99.89,
+        "total_rows": 28574580,
+        "null_rows": 33284,
+        "percent_complete": 99.88,
         "first_trip": "2015-01-01T00:21:44",
-        "last_trip": "2024-12-31T23:59:13"
+        "last_trip": "2025-09-30T23:59:14"
     },
     "philadelphia": {
         "null_start_time": 0,
@@ -1059,11 +1063,11 @@
                 "has_null": 0
             }
         ],
-        "total_rows": 11210392,
+        "total_rows": 12860928,
         "null_rows": 0,
         "percent_complete": 100.0,
-        "first_trip": "2016-04-01T07:03:43",
-        "last_trip": "2025-01-20T12:13:52"
+        "first_trip": "2016-04-01T05:15:04",
+        "last_trip": "2025-10-20T12:14:35"
     },
     "london": {
         "null_start_station_name": 0,
@@ -1200,13 +1204,17 @@
             {
                 "year": 2024,
                 "has_null": 0
+            },
+            {
+                "year": 2025,
+                "has_null": 0
             }
         ],
-        "total_rows": 1206796,
+        "total_rows": 1351471,
         "null_rows": 983,
-        "percent_complete": 99.92,
+        "percent_complete": 99.93,
         "first_trip": "2018-05-15T09:07:43",
-        "last_trip": "2024-11-29T07:55:17"
+        "last_trip": "2025-10-20T12:11:58"
     },
     "bergen": {
         "null_start_time": 0,
@@ -1247,11 +1255,11 @@
                 "has_null": 0
             }
         ],
-        "total_rows": 4184164,
+        "total_rows": 4440968,
         "null_rows": 0,
         "percent_complete": 100.0,
         "first_trip": "2018-06-29T10:45:12",
-        "last_trip": "2025-01-20T12:12:21"
+        "last_trip": "2025-10-19T18:13:28"
     },
     "guadalajara": {
         "null_start_station_name": 0,
@@ -1313,5 +1321,82 @@
         "percent_complete": 100.0,
         "first_trip": "2014-12-01T00:33:47",
         "last_trip": "2025-01-01T01:17:01"
+    },
+    "washington_dc": {
+        "null_start_time": 0,
+        "null_end_time": 0,
+        "null_start_station_name": 3261872,
+        "null_end_station_name": 3422456,
+        "null_by_year": [
+            {
+                "year": 2010,
+                "has_null": 0
+            },
+            {
+                "year": 2011,
+                "has_null": 0
+            },
+            {
+                "year": 2012,
+                "has_null": 0
+            },
+            {
+                "year": 2013,
+                "has_null": 0
+            },
+            {
+                "year": 2014,
+                "has_null": 0
+            },
+            {
+                "year": 2015,
+                "has_null": 0
+            },
+            {
+                "year": 2016,
+                "has_null": 0
+            },
+            {
+                "year": 2017,
+                "has_null": 0
+            },
+            {
+                "year": 2018,
+                "has_null": 0
+            },
+            {
+                "year": 2019,
+                "has_null": 0
+            },
+            {
+                "year": 2020,
+                "has_null": 128363
+            },
+            {
+                "year": 2021,
+                "has_null": 295376
+            },
+            {
+                "year": 2022,
+                "has_null": 223376
+            },
+            {
+                "year": 2023,
+                "has_null": 588492
+            },
+            {
+                "year": 2024,
+                "has_null": 1599740
+            },
+            {
+                "year": 2025,
+                "has_null": 1811024
+            }
+        ],
+        "total_rows": 49514787,
+        "null_rows": 4646371,
+        "percent_complete": 90.62,
+        "first_trip": "2010-09-20T11:27:04",
+        "last_trip": "2025-09-30T23:59:12"
     }
 }

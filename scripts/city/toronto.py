@@ -33,19 +33,27 @@ def extract_csvs():
                 with ZipFile(BytesIO(response.content)) as zip_file:
                     zip_contents = zip_file.namelist()
                     for file in zip_contents:
-                        if file.endswith(".csv"):
-                            source = zip_file.open(file)
-                            print(file)
-                            file_name = os.path.basename(file)
-                            target_path = (
-                                os.path.join(TORONTO_CSV_PATH, file_name)
-                                .lower()
-                                .replace(" ", "_")
+                        # Setup paths and names
+                        file_name = os.path.basename(file)
+                        file_path = os.path.join(TORONTO_CSV_PATH, file_name)
+                        target_path = file_path.lower().replace(" ", "_")
+
+                        # Skip if already downloaded
+                        if os.path.exists(target_path):
+                            print(
+                                f"🟡 Skipping Download - {os.path.basename(target_path)} exists"
                             )
 
-                            with open(target_path, "wb") as target_file:
-                                target_file.write(source.read())
-                                print(f"Extracted and cleaned file to {target_path}")
+                        # Download and Extract
+                        else:
+                            if file.endswith(".csv"):
+                                source = zip_file.open(file)
+                                print(file)
+                                with open(target_path, "wb") as target_file:
+                                    target_file.write(source.read())
+                                    print(
+                                        f"✅ Extracted and cleaned file to {target_path}"
+                                    )
             else:
                 print(
                     f"Failed to download file from {resource_metadata['result']['url']}"
