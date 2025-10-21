@@ -61,9 +61,9 @@ def build_city(args):
     print(city)
 
     if city == "all":
-        print("Attempting to build all cities")
+        print(f"Attempting to build all cities - {constants.CONFIG_CITIES} ")
 
-        for name in constants.US_CITIES:
+        for name in constants.CONFIG_CITIES:
             print(f"🚀 Running sync for {name}")
             try:
                 args.city = name
@@ -73,7 +73,7 @@ def build_city(args):
             except Exception as e:
                 print(f"❌ Error building {name}: {e}\n")
     else:
-        if city in constants.US_CITIES:
+        if city in constants.CONFIG_CITIES:
             usa_utils.build_all_trips(args)
         else:
             city_builders[city](args)

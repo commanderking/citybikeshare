@@ -224,9 +224,11 @@ def build_all_trips(args):
     trip_files = utils.get_csv_files(source_directory)
     filtered_files = filter_filenames(trip_files, args)
 
+    ## Adding to parquet path
     if args.parquet:
         all_trips_df_lazy = get_dfs_for_parquet(filtered_files, args)
         utils.create_final_files_and_logs(all_trips_df_lazy, args)
 
+    ## Adding to doltdb path
     else:
         add_trips_to_db(filtered_files, args)
