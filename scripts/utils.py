@@ -166,7 +166,7 @@ def unzip_city_zips(city, city_matcher=match_all_city_files):
 
 def rename_columns_for_keys(renamed_columns_dict):
     def inner(df):
-        headers = df.columns
+        headers = df.collect_schema().names()
         relevant_columns = {
             key: renamed_columns_dict[key]
             for key in headers
