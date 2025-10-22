@@ -170,7 +170,7 @@ def create_parquet(file, args):
     file_name = os.path.basename(file).replace(".csv", ".parquet")
     parquet_path = parquet_directory / file_name
     df.sink_parquet(parquet_path)
-    print(f"created {parquet_path}")
+    print(f"✅ Created {os.path.basename(parquet_path)}")
 
 
 def partition_parquet(args):
@@ -185,7 +185,7 @@ def partition_parquet(args):
         ]
     )
 
-    df = lf.collect()
+    df = lf.collect(engine="streaming")
     df.write_parquet(
         output_path,
         use_pyarrow=True,
@@ -265,6 +265,7 @@ def build_all_trips(args):
         extract_zip_files(args.city)
     else:
         print("skipping unzipping files")
+
     trip_files = utils.get_csv_files(source_directory)
     filtered_files = filter_filenames(trip_files, args)
 

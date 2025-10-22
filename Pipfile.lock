@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "a922684f245c256ca35775df7be4c19ac70cd56952e2c0e17a8f39b5983d15bc"
+            "sha256": "2e7a388f0fd8c69073905d5978ec27f3b52921fb6646df131cb000c755180a2d"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -416,15 +416,24 @@
         },
         "polars": {
             "hashes": [
-                "sha256:00f62dec6bf43a4e2a5db58b99bf0e79699fe761c80ae665868eaea5168f3bbb",
-                "sha256:24b82441f93409e0e8abd6f427b029db102f02b8de328cee9a680f84b84e3736",
-                "sha256:2d7567c9fd9d3b9aa93387ca9880d9e8f7acea3c0a0555c03d8c0c2f0715d43c",
-                "sha256:67f2fe842262b7e1b9371edad21b760f6734d28b74c78dda88dff1bf031b9499",
-                "sha256:86454ade5ed302bbf87f145cfcb1b14f7a5765a9440e448659e1f3dba6ac4e79",
-                "sha256:87f43bce4d41abf8c8c5658d881e4b8378e5c61010a696bfea8b4106b908e916"
+                "sha256:40d2f357b4d9e447ad28bd2c9923e4318791a7c18eb68f31f1fbf11180f41391",
+                "sha256:5de5f871027db4b11bcf39215a2d6b13b4a80baf8a55c5862d4ebedfd5cd4013"
             ],
             "index": "pypi",
-            "version": "==0.20.31"
+            "version": "==1.34.0"
+        },
+        "polars-runtime-32": {
+            "hashes": [
+                "sha256:2501d6b29d9001ea5ea2fd9b598787e10ddf45d8c4a87c2bead75159e8a15711",
+                "sha256:2878f9951e91121afe60c25433ef270b9a221e6ebf3de5f6642346b38cab3f03",
+                "sha256:79e4d696392c6d8d51f4347f0b167c52eef303c9d87093c0c68e8651198735b7",
+                "sha256:93fa51d88a2d12ea996a5747aad5647d22a86cce73c80f208e61f487b10bc448",
+                "sha256:ebe6f865128a0d833f53a3f6828360761ad86d1698bceb22bef9fd999500dc1c",
+                "sha256:f9ed1765378dfe0bcd1ac5ec570dd9eab27ea728bbc980cc9a76eebc55586559",
+                "sha256:fbc329c7d34a924228cc5dcdbbd4696d94411a3a5b15ad8bb868634c204e1951"
+            ],
+            "markers": "python_version >= '3.9'",
+            "version": "==1.34.0"
         },
         "pyarrow": {
             "hashes": [
