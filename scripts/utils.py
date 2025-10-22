@@ -27,6 +27,12 @@ def get_raw_files_directory(city):
     return path
 
 
+def get_parquet_directory(city):
+    path = definitions.DATA_DIR / city / "parquet"
+    path.mkdir(parents=True, exist_ok=True)
+    return path
+
+
 def get_metadata_directory(city):
     path = definitions.DATA_DIR / city / "metadata"
     path.mkdir(parents=True, exist_ok=True)
@@ -39,6 +45,12 @@ def get_output_format(is_csv):
 
 def get_output_directory():
     path = definitions.OUTPUT_DIR
+    path.mkdir(parents=True, exist_ok=True)
+    return path
+
+
+def get_city_output_directory(city):
+    path = definitions.OUTPUT_DIR / city
     path.mkdir(parents=True, exist_ok=True)
     return path
 
