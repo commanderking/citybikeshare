@@ -154,6 +154,45 @@ PROCESSING_FUNCTIONS = {
 #     return df_lazy
 
 
+def create_parquet(file, args):
+    config = constants.config[args.city]
+    read_csv_options = config.get("read_csv_options", {})
+    df = pl.scan_csv(file, infer_schema_length=0, **read_csv_options)
+    context = {**config, "args": args}
+
+    for step in config.get(
+        "processing_pipeline", constants.DEFAULT_PROCESSING_PIPELINE
+    ):
+        fn = PROCESSING_FUNCTIONS[step]
+        df = fn(df, context)
+
+    parquet_directory = utils.get_parquet_directory(args.city)
+    file_name = os.path.basename(file).replace(".csv", ".parquet")
+    parquet_path = parquet_directory / file_name
+    df.sink_parquet(parquet_path)
+    print(f"created {parquet_path}")
+
+
+def partition_parquet(args):
+    parquet_directory = utils.get_parquet_directory(args.city)
+    output_path = utils.get_city_output_directory(args.city)
+
+    print(f"Scanning all files in {parquet_directory}")
+    lf = pl.scan_parquet(parquet_directory / "*.parquet").with_columns(
+        [
+            pl.col("start_time").dt.year().alias("year"),
+            pl.col("start_time").dt.month().alias("month"),
+        ]
+    )
+
+    df = lf.collect()
+    df.write_parquet(
+        output_path,
+        use_pyarrow=True,
+        pyarrow_options={"partition_cols": ["year", "month"]},
+    )
+
+
 def create_trip_df(file, args):
     config = constants.config[args.city]
     read_csv_options = config.get("read_csv_options", {})
@@ -188,6 +227,11 @@ def add_trips_to_db(files, args):
             df_lazy = create_trip_df(file, args)
 
             utils_dolt.insert_trip_data(engine, df_lazy, file_metadata)
+
+
+def convert_csvs_to_parquet(files, args):
+    for file in files:
+        create_parquet(file, args)
 
 
 def get_dfs_for_parquet(files, args):
@@ -226,8 +270,10 @@ def build_all_trips(args):
 
     ## Adding to parquet path
     if args.parquet:
-        all_trips_df_lazy = get_dfs_for_parquet(filtered_files, args)
-        utils.create_final_files_and_logs(all_trips_df_lazy, args)
+        convert_csvs_to_parquet(filtered_files, args)
+        partition_parquet(args)
+        # all_trips_df_lazy = get_dfs_for_parquet(filtered_files, args)
+        # utils.create_final_files_and_logs(all_trips_df_lazy, args)
 
     ## Adding to doltdb path
     else:
