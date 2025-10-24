@@ -1,0 +1,26 @@
+name: oslo
+system_name: oslo_bikeshare
+file_matcher:
+  - ".csv"
+renamed_columns:
+  started_at: start_time
+  ended_at: end_time
+  start_station_name: start_station_name
+  end_station_name: end_station_name
+  Start station: start_station_id
+  End station: end_station_id
+  Start time: start_time
+  End time: end_time
+
+date_formats:
+  - "%Y-%m-%d %H:%M:%S%.f%:z"
+  - "%Y-%m-%d %H:%M:%S%:z"
+
+read_csv_options:
+  encoding: "utf8-lossy"
+processing_pipeline:
+  - rename_columns
+  - handle_oslo_legacy_stations
+  - select_final_columns
+  - convert_to_datetime
+

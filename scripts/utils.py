@@ -232,6 +232,60 @@ def offset_two_digit_years(df):
     )
 
 
+def get_stations_df(city):
+    METADATA_PATH = get_metadata_directory(city)
+
+    station_info_json = METADATA_PATH / "station_information.json"
+    stations = []
+    with open(station_info_json, "r") as file:
+        data = json.load(file)
+        stations = data["data"]["stations"]
+    df = pl.DataFrame(stations).select(["station_id", "name"])
+    return df.lazy()
+
+
+def handle_oslo_legacy_stations(df, args):
+    stations_df = get_stations_df(args.city)
+    METADATA_PATH = get_metadata_directory(args.city)
+
+    stations_df = stations_df.select(["station_id", "name"]).with_columns(
+        [pl.col("station_id").cast(pl.Int64)]
+    )
+
+    headers = df.columns
+    print(headers)
+    ### Older data does not contain duration column
+    if "duration" not in headers:
+        station_mapping_df = pl.scan_csv(
+            METADATA_PATH / "legacy_new_station_id_mapping.csv"
+        ).with_columns(pl.col("legacy_id").cast(pl.String))
+        df = (
+            df.rename(
+                {
+                    "start_station_id": "start_station_legacy_id",
+                    "end_station_id": "end_station_legacy_id",
+                }
+            )
+            .join(
+                station_mapping_df,
+                left_on="start_station_legacy_id",
+                right_on="legacy_id",
+            )
+            .rename({"new_id": "start_station_id"})
+            .join(
+                station_mapping_df,
+                left_on="end_station_legacy_id",
+                right_on="legacy_id",
+            )
+            .rename({"new_id": "end_station_id"})
+            .join(stations_df, left_on="start_station_id", right_on="station_id")
+            .rename({"name": "start_station_name"})
+            .join(stations_df, left_on="end_station_id", right_on="station_id")
+            .rename({"name": "end_station_name"})
+        )
+    return df
+
+
 def create_all_trips_file(df, args):
     all_trips_path = get_all_trips_path(args)
     if args.csv:

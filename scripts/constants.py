@@ -526,6 +526,7 @@ config = {
             "%Y-%m-%d %H:%M:%S",
         ],
     },
+    "oslo": {"file_matcher": [".csv"]},
     "bergen": {
         "name": "bergen",
         "system_name": "bergen_bikeshare",

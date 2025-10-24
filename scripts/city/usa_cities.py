@@ -5,6 +5,7 @@ import utils
 import utils_dolt
 import utils_bicycle_transit_systems
 import scripts.constants as constants
+from src.citybikeshare.config import load_city_config
 
 
 def compute_file_hash(filepath, chunk_size=8192):
@@ -124,6 +125,9 @@ PROCESSING_FUNCTIONS = {
         df, ctx["args"]
     ),
     "filter_null_rows": lambda df, ctx: filter_null_rows(df),
+    "handle_oslo_legacy_stations": lambda df, ctx: utils.handle_oslo_legacy_stations(
+        df, ctx["args"]
+    ),
 }
 
 
@@ -155,7 +159,7 @@ PROCESSING_FUNCTIONS = {
 
 
 def create_parquet(file, args):
-    config = constants.config[args.city]
+    config = load_city_config(args.city)
     read_csv_options = config.get("read_csv_options", {})
     df = pl.scan_csv(file, infer_schema_length=0, **read_csv_options)
     context = {**config, "args": args}
@@ -169,6 +173,8 @@ def create_parquet(file, args):
     parquet_directory = utils.get_parquet_directory(args.city)
     file_name = os.path.basename(file).replace(".csv", ".parquet")
     parquet_path = parquet_directory / file_name
+
+    print(df.fetch(5))
     df.sink_parquet(parquet_path)
     print(f"✅ Created {os.path.basename(parquet_path)}")
 
@@ -194,7 +200,7 @@ def partition_parquet(args):
 
 
 def create_trip_df(file, args):
-    config = constants.config[args.city]
+    config = load_city_config(args.city)
     read_csv_options = config.get("read_csv_options", {})
     df = pl.scan_csv(file, infer_schema_length=0, **read_csv_options)
     context = {**config, "args": args}
