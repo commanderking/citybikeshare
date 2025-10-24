@@ -50,9 +50,6 @@ def get_trips_per_year(city):
 
 def get_all_cities_trip_per_year(city):
     df = get_trips_per_year(city)
-
-    print(df)
-
     json_string = df.write_json()
     json_data = json.loads(json_string)
 

@@ -174,7 +174,6 @@ def create_parquet(file, args):
     file_name = os.path.basename(file).replace(".csv", ".parquet")
     parquet_path = parquet_directory / file_name
 
-    print(df.fetch(5))
     df.sink_parquet(parquet_path)
     print(f"✅ Created {os.path.basename(parquet_path)}")
 
@@ -197,6 +196,8 @@ def partition_parquet(args):
         use_pyarrow=True,
         pyarrow_options={"partition_cols": ["year", "month"]},
     )
+
+    print("All files created and partitioned!")
 
 
 def create_trip_df(file, args):

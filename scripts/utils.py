@@ -252,8 +252,7 @@ def handle_oslo_legacy_stations(df, args):
         [pl.col("station_id").cast(pl.Int64)]
     )
 
-    headers = df.columns
-    print(headers)
+    headers = df.collect_schema().names()
     ### Older data does not contain duration column
     if "duration" not in headers:
         station_mapping_df = pl.scan_csv(
