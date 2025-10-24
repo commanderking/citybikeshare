@@ -4,10 +4,8 @@ import city.taipei as taipei
 import city.mexico_city as mexico_city
 import city.montreal as montreal
 import city.vancouver as vancouver
-import city.oslo as oslo
 import city.bergen as bergen
 import city.trondheim as trondheim
-import city.london as london
 import city.helsinki as helsinki
 import constants
 
@@ -16,8 +14,6 @@ all_cities = constants.ALL_CITIES
 
 city_builders = {
     "vancouver": vancouver.build_trips,
-    "oslo": oslo.build_trips,
-    "london": london.build_trips,
     "bergen": bergen.build_trips,
     "trondheim": trondheim.build_trips,
     "taipei": taipei.create_all_trips_parquet,

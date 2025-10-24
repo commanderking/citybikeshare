@@ -570,6 +570,7 @@ config = {
             "convert_to_datetime",
         ],
     },
+    "london": {"file_matcher": [".csv"]},
     # Vancouver not working
     # For some reason, 2020-03 cannot be read properly when using this as csv, but when using vancouver's custom function it works
     # "vancouver": {
@@ -632,7 +633,6 @@ GLOBAL_CITIES = [
     "taipei",
     "mexico_city",
     "vancouver",
-    "london",
     "helsinki",
 ]
 
