@@ -527,6 +527,7 @@ config = {
         ],
     },
     "oslo": {"file_matcher": [".csv"]},
+    "trondheim": {"file_matcher": [".csv"]},
     "bergen": {
         "name": "bergen",
         "system_name": "bergen_bikeshare",
@@ -630,8 +631,6 @@ GLOBAL_CITIES = [
     "taipei",
     "mexico_city",
     "vancouver",
-    "oslo",
-    "trondheim",
     "london",
     "helsinki",
     "guadalajara",

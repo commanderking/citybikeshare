@@ -1,0 +1,19 @@
+name: trondheim
+system_name: trondheim_bikeshare
+file_matcher:
+  - "trips"
+renamed_columns:
+  started_at: start_time
+  ended_at: end_time
+  start_station_name: start_station_name
+  end_station_name: end_station_name
+
+date_formats:
+  - "%Y-%m-%d %H:%M:%S%.f%:z"
+  - "%Y-%m-%d %H:%M:%S%:z"
+
+processing_pipeline:
+  - rename_columns
+  - select_final_columns
+  - convert_to_datetime
+
