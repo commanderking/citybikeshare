@@ -1,0 +1,92 @@
+[
+    {
+        "year": 2014,
+        "trip_count": 6272552,
+        "mean_duration": 790.2168941764054,
+        "first_quantile_duration": 360.0,
+        "median_duration": 600.0,
+        "third_quantile_duration": 1080.0,
+        "system": "montreal"
+    },
+    {
+        "year": 2015,
+        "trip_count": 6887766,
+        "mean_duration": 824.0710790697593,
+        "first_quantile_duration": 360.0,
+        "median_duration": 660.0,
+        "third_quantile_duration": 1080.0,
+        "system": "montreal"
+    },
+    {
+        "year": 2016,
+        "trip_count": 8000160,
+        "mean_duration": 838.0558138837223,
+        "first_quantile_duration": 360.0,
+        "median_duration": 660.0,
+        "third_quantile_duration": 1140.0,
+        "system": "montreal"
+    },
+    {
+        "year": 2017,
+        "trip_count": 9480714,
+        "mean_duration": 818.618407854092,
+        "first_quantile_duration": 360.0,
+        "median_duration": 660.0,
+        "third_quantile_duration": 1080.0,
+        "system": "montreal"
+    },
+    {
+        "year": 2018,
+        "trip_count": 10555082,
+        "mean_duration": 801.1166753607409,
+        "first_quantile_duration": 360.0,
+        "median_duration": 660.0,
+        "third_quantile_duration": 1080.0,
+        "system": "montreal"
+    },
+    {
+        "year": 2019,
+        "trip_count": 11195690,
+        "mean_duration": 811.779629661057,
+        "first_quantile_duration": 370.0,
+        "median_duration": 648.0,
+        "third_quantile_duration": 1091.0,
+        "system": "montreal"
+    },
+    {
+        "year": 2020,
+        "trip_count": 6529482,
+        "mean_duration": 936.8581124812044,
+        "first_quantile_duration": 422.0,
+        "median_duration": 753.0,
+        "third_quantile_duration": 1265.0,
+        "system": "montreal"
+    },
+    {
+        "year": 2023,
+        "trip_count": 23459328,
+        "mean_duration": 1047.580886289667,
+        "first_quantile_duration": 357.0,
+        "median_duration": 625.0,
+        "third_quantile_duration": 1067.0,
+        "system": "montreal"
+    },
+    {
+        "year": 2024,
+        "trip_count": 26407540,
+        "mean_duration": 1009.9814788503586,
+        "first_quantile_duration": 358.0,
+        "median_duration": 620.0,
+        "third_quantile_duration": 1057.0,
+        "system": "montreal"
+    },
+    {
+        "year": 2025,
+        "trip_count": 19016492,
+        "mean_duration": 1001.3899943270294,
+        "first_quantile_duration": 371.0,
+        "median_duration": 647.0,
+        "third_quantile_duration": 1105.0,
+        "system": "montreal"
+    }
+]

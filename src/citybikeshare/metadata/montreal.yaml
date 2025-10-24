@@ -1,0 +1,33 @@
+name: montreal
+system_name: montreal_bikeshare
+file_matcher:
+  - "DonneesOuvertes"
+  - "OD"
+renamed_columns:
+  start_date: start_time
+  end_date: end_time
+  start_station_code: start_station_name
+  end_station_code: end_station_name
+
+  emplacement_pk_start: start_station_name
+  emplacement_pk_end: end_station_name
+
+  STARTSTATIONNAME: start_station_name
+  ENDSTATIONNAME: end_station_name
+  STARTTIMEMS: "start_ms"
+  ENDTIMEMS: "end_ms"
+
+date_formats:
+  - "%Y-%m-%d %H:%M:%S"
+  - "%Y-%m-%d %H:%M"
+
+read_csv_options:
+  encoding: "utf8-lossy"
+  null_values: MTL-ECO5.1-01
+
+processing_pipeline:
+  - rename_columns
+  - convert_milliseconds_to_datetime
+  - select_final_columns
+  - convert_to_datetime
+

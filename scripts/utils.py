@@ -172,7 +172,8 @@ def rename_columns_for_keys(renamed_columns_dict):
             for key in headers
             if key in renamed_columns_dict
         }
-        return df.rename(relevant_columns)
+        renamed_columns = df.rename(relevant_columns)
+        return renamed_columns
 
     return inner
 
@@ -194,24 +195,53 @@ def get_recent_year_df(date_column):
     return inner
 
 
-def convert_columns_to_datetime(date_column_names, date_formats):
+def convert_columns_to_datetime(date_column_names, date_formats, time_unit: str = "ms"):
+    """
+    Convert one or more columns to datetime
+
+    Parameters
+    ----------
+    date_column_names : list[str]
+        Names of columns to convert.
+    date_formats : list[str]
+        Possible date string formats (Polars-compatible strptime formats).
+    time_unit : str, default 'ms'
+        Target datetime precision ('us', 'ms', or 'ns').
+    """
+
     def inner(df):
-        df = df.with_columns(
+        schema = df.schema
+
+        # identify which columns still need parsing
+        columns_to_parse = [
+            c for c in date_column_names if schema.get(c) not in (pl.Datetime, pl.Date)
+        ]
+
+        if columns_to_parse:
+            print(f"🕒 Converting {columns_to_parse} to datetime")
+            df = df.with_columns(
+                [
+                    pl.coalesce(
+                        [
+                            pl.col(column)
+                            .str.replace(r"\.\d+", "")  # strip fractional seconds
+                            .str.strptime(pl.Datetime, fmt, strict=False)
+                            for fmt in date_formats
+                        ]
+                    ).alias(column)
+                    for column in columns_to_parse
+                ]
+            )
+        else:
+            print("✅ All datetime columns already parsed")
+
+        # make sure date times are the same time unit (default ms)
+        return df.with_columns(
             [
-                pl.coalesce(
-                    [
-                        pl.col(date_column)
-                        # Some data has milliseconds, and some even have a mix of milliseconds and microseconds. Just remove these to reduce the trouble of formatting different datetimes
-                        .str.replace(r"\.\d+", "")
-                        .str.strptime(pl.Datetime, format, strict=False)
-                        for format in date_formats
-                    ]
-                ).alias(date_column)
-                for date_column in date_column_names
+                pl.col(column).cast(pl.Datetime(time_unit)).alias(column)
+                for column in date_column_names
             ]
         )
-
-        return df
 
     return inner
 
@@ -313,6 +343,19 @@ def handle_guadalajara_stations(df):
         .join(stations_df, left_on="end_station_id", right_on="id")
         .rename({"name": "end_station_name"})
     )
+    return df
+
+
+def convert_milliseconds_to_datetime(df):
+    headers = df.collect_schema().names()
+    ### most recent Montreal data notes start time and end time in ms whereas previous versions used a date.
+    if "start_ms" in headers:
+        df = df.with_columns(
+            [
+                pl.from_epoch("start_ms", time_unit="ms").alias("start_time"),
+                pl.from_epoch("end_ms", time_unit="ms").alias("end_time"),
+            ]
+        )
     return df
 
 

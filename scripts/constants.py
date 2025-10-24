@@ -1,5 +1,3 @@
-import polars as pl
-
 commonized_system_data_columns = {
     "ride_id": "id",
     "rideable_type": "rideable_type",
@@ -286,27 +284,6 @@ toronto_renamed_columns = {
     "User Type": "user_type",
 }
 
-montreal_earliest_columns = {
-    "start_date": "start_time",
-    "end_date": "end_time",
-    "start_station_code": "start_station_name",
-    "end_station_code": "end_station_name",
-}
-
-montreal_emplacement_columns = {
-    "start_date": "start_time",
-    "end_date": "end_time",
-    "emplacement_pk_start": "start_station_name",
-    "emplacement_pk_end": "end_station_name",
-}
-
-montreal_recent_columns = {
-    "STARTSTATIONNAME": "start_station_name",
-    "ENDSTATIONNAME": "end_station_name",
-    "STARTTIMEMS": "start_ms",
-    "ENDTIMEMS": "end_ms",
-}
-
 vancouver_renamed_columns = {
     "Departure": "start_time",
     "Return": "end_time",
@@ -551,26 +528,8 @@ config = {
             "offset_two_digit_years",
         ],
     },
-    "montreal": {
-        "name": "montreal",
-        "system_name": "montreal_bikeshare",
-        "file_matcher": [".zip", ".csv"],
-        "excluded_filenames": ["Stations", "stations"],
-        "renamed_columns": {
-            **montreal_earliest_columns,
-            **montreal_emplacement_columns,
-            **montreal_recent_columns,
-        },
-        "date_formats": ["%Y-%m-%d %H:%M:%S", "%Y-%m-%d %H:%M"],
-        "read_csv_options": {"null_values": "MTL-ECO5.1-01"},
-        "processing_pipeline": [
-            "rename_columns",
-            "convert_milliseconds_to_datetime",
-            "select_final_columns",
-            "convert_to_datetime",
-        ],
-    },
     "london": {"file_matcher": [".csv"]},
+    "montreal": {"file_matcher": ["OD", "DonneesOuvertes"]},
     # Vancouver not working
     # For some reason, 2020-03 cannot be read properly when using this as csv, but when using vancouver's custom function it works
     # "vancouver": {
@@ -592,39 +551,6 @@ config = {
     #     ],
     # },
 }
-
-# def format_files(files):
-#     renamed_columns = config["renamed_columns"]
-
-#     dfs = []
-#     for file in files:
-#         print(file)
-#         df = (
-#             # There is a ascii encoding for: 0099 ax��YnYq Xwtl'e7�n5 Square - Vancouver Art Gallery, which requires encoding="utf8-lossy"
-#             pl.read_csv(
-#                 file,
-#                 infer_schema_length=0,
-#                 dtypes={"Covered distance (m)": pl.Float64},
-#                 encoding="utf8-lossy",
-#             )
-#             ### In 2023, many files end in tens of thosuands of rows that have no data for any column, likely due to its storage in Google Drive
-#             .filter(~pl.all_horizontal(pl.all().is_null()))
-#             .pipe(
-#                 utils.rename_columns_for_keys(
-#                     renamed_columns,
-#                 )
-#             )
-#             ## Getting some null values because some dates are not zero-padded "2020-04-01 0:00"
-#             .pipe(utils.convert_columns_to_datetime(date_columns, date_formats))
-#             .with_columns([pl.col("duration_seconds").cast(pl.Int64)])
-#             .pipe(utils.offset_two_digit_years)
-#             .select(final_column_headers)
-#             .pipe(utils.assess_null_data)
-#         )
-
-#         dfs.append(df)
-
-#     return pl.concat(dfs)
 
 
 CONFIG_CITIES = list(config.keys())
