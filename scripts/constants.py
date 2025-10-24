@@ -528,6 +528,7 @@ config = {
     },
     "oslo": {"file_matcher": [".csv"]},
     "trondheim": {"file_matcher": [".csv"]},
+    "guadalajara": {"file_matcher": ["datos_abiertos"]},
     "bergen": {
         "name": "bergen",
         "system_name": "bergen_bikeshare",
@@ -633,7 +634,6 @@ GLOBAL_CITIES = [
     "vancouver",
     "london",
     "helsinki",
-    "guadalajara",
 ]
 
 ALL_CITIES = CONFIG_CITIES + GLOBAL_CITIES

@@ -1,0 +1,110 @@
+[
+    {
+        "year": 2014,
+        "trip_count": 23967,
+        "mean_duration": 667.5914382275629,
+        "first_quantile_duration": 301.0,
+        "median_duration": 519.0,
+        "third_quantile_duration": 821.0,
+        "system": "guadalajara"
+    },
+    {
+        "year": 2015,
+        "trip_count": 469871,
+        "mean_duration": 609.3772971730539,
+        "first_quantile_duration": 313.0,
+        "median_duration": 491.0,
+        "third_quantile_duration": 747.0,
+        "system": "guadalajara"
+    },
+    {
+        "year": 2016,
+        "trip_count": 941895,
+        "mean_duration": 4493.906450294354,
+        "first_quantile_duration": 326.0,
+        "median_duration": 518.0,
+        "third_quantile_duration": 809.0,
+        "system": "guadalajara"
+    },
+    {
+        "year": 2017,
+        "trip_count": 2516510,
+        "mean_duration": 2314.1310871007863,
+        "first_quantile_duration": 350.0,
+        "median_duration": 565.0,
+        "third_quantile_duration": 878.0,
+        "system": "guadalajara"
+    },
+    {
+        "year": 2018,
+        "trip_count": 3403483,
+        "mean_duration": 687.1102329584135,
+        "first_quantile_duration": 349.0,
+        "median_duration": 566.0,
+        "third_quantile_duration": 876.0,
+        "system": "guadalajara"
+    },
+    {
+        "year": 2019,
+        "trip_count": 4636626,
+        "mean_duration": 691.7657162773103,
+        "first_quantile_duration": 351.0,
+        "median_duration": 573.0,
+        "third_quantile_duration": 888.0,
+        "system": "guadalajara"
+    },
+    {
+        "year": 2020,
+        "trip_count": 2866065,
+        "mean_duration": 679.9799917308226,
+        "first_quantile_duration": 349.0,
+        "median_duration": 578.0,
+        "third_quantile_duration": 892.0,
+        "system": "guadalajara"
+    },
+    {
+        "year": 2021,
+        "trip_count": 3184410,
+        "mean_duration": 661.1339491459956,
+        "first_quantile_duration": 342.0,
+        "median_duration": 569.0,
+        "third_quantile_duration": 883.0,
+        "system": "guadalajara"
+    },
+    {
+        "year": 2022,
+        "trip_count": 4202942,
+        "mean_duration": 646.1742148713925,
+        "first_quantile_duration": 334.0,
+        "median_duration": 558.0,
+        "third_quantile_duration": 873.0,
+        "system": "guadalajara"
+    },
+    {
+        "year": 2023,
+        "trip_count": 4292971,
+        "mean_duration": 652.0260532857081,
+        "first_quantile_duration": 338.0,
+        "median_duration": 561.0,
+        "third_quantile_duration": 879.0,
+        "system": "guadalajara"
+    },
+    {
+        "year": 2024,
+        "trip_count": 4645921,
+        "mean_duration": 662.8203479998906,
+        "first_quantile_duration": 348.0,
+        "median_duration": 570.0,
+        "third_quantile_duration": 895.0,
+        "system": "guadalajara"
+    },
+    {
+        "year": 2025,
+        "trip_count": 3389306,
+        "mean_duration": 668.1979231146436,
+        "first_quantile_duration": 352.0,
+        "median_duration": 575.0,
+        "third_quantile_duration": 895.0,
+        "system": "guadalajara"
+    }
+]

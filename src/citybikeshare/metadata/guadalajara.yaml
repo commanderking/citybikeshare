@@ -1,0 +1,26 @@
+name: guadalajara
+system_name: guadalajara_bikeshare
+file_matcher:
+  - "datos_abiertos"
+renamed_columns:
+  Viaje_Id: trip_id
+  Usario_Id: user_id
+  A�o_de_nacimiento: birth_year
+  Año_de_nacimiento: birth_year
+  Genero: gender
+  Inicio_del_viaje: start_time
+  Fin_del_viaje: end_time
+  Origen_Id: start_station_id
+  Destino_Id: end_station_id
+date_formats:
+  - "%Y-%m-%d %H:%M:%S"
+  - "%d/%m/%Y %H:%M"
+read_csv_options:
+  encoding: "utf8-lossy"
+processing_pipeline:
+  - rename_columns
+  - handle_guadalajara_stations
+  - select_final_columns
+  - convert_to_datetime
+
+
