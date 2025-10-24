@@ -5,7 +5,7 @@ import scripts.utils as utils
 
 
 def handle_duration(df):
-    headers = df.columns
+    headers = df.collect_schema().names()
     if "duration_seconds" not in headers:
         df = df.with_columns(
             [
@@ -19,7 +19,7 @@ def handle_duration(df):
 
 def get_trips_per_year(city):
     print(f"reading {city}")
-    parquet_file = f"./output/historical_trips/{city}_all_trips.parquet"
+    parquet_file = f"./output/{city}/**/**/*.parquet"
 
     query = (
         pl.scan_parquet(parquet_file)
@@ -51,7 +51,9 @@ def get_trips_per_year(city):
 def get_all_cities_trip_per_year(city):
     df = get_trips_per_year(city)
 
-    json_string = df.write_json(row_oriented=True)
+    print(df)
+
+    json_string = df.write_json()
     json_data = json.loads(json_string)
 
     output_path = utils.get_analysis_directory() / "trips_per_year" / f"{city}.json"
