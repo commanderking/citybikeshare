@@ -285,6 +285,37 @@ def handle_oslo_legacy_stations(df, args):
     return df
 
 
+def get_guadalajara_stations_df():
+    """
+    Load the stations DataFrame from a file starting with 'nomenclatura'.
+    """
+    CSV_PATH = get_raw_files_directory("guadalajara")
+
+    files = list(CSV_PATH.glob("nomenclatura*.csv"))
+    if not files:
+        raise FileNotFoundError(
+            "No file starting with 'nomenclatura' found in the directory."
+        )
+    station_info_csv = files[0]
+    return (
+        pl.scan_csv(station_info_csv, encoding="utf8-lossy")
+        .select(["id", "name"])
+        .with_columns(pl.col("id").cast(pl.String))
+    )
+
+
+def handle_guadalajara_stations(df):
+    stations_df = get_guadalajara_stations_df()
+
+    df = (
+        df.join(stations_df, left_on="start_station_id", right_on="id")
+        .rename({"name": "start_station_name"})
+        .join(stations_df, left_on="end_station_id", right_on="id")
+        .rename({"name": "end_station_name"})
+    )
+    return df
+
+
 def create_all_trips_file(df, args):
     all_trips_path = get_all_trips_path(args)
     if args.csv:

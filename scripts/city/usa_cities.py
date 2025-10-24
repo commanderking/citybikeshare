@@ -120,13 +120,19 @@ PROCESSING_FUNCTIONS = {
     "austin_calculate_end_time": lambda df, ctx: austin_check(df, ctx["args"]),
     "convert_milliseconds_to_datetime": lambda df,
     ctx: convert_milliseconds_to_datetime(df),
-    # Philadelphia and Los Angeles
+    "filter_null_rows": lambda df, ctx: filter_null_rows(df),
+    # City-centric functions
+    ### Oslo
+    "handle_oslo_legacy_stations": lambda df, ctx: utils.handle_oslo_legacy_stations(
+        df, ctx["args"]
+    ),
+    ### Philadelphia and Los Angeles
     "process_bicycle_transit_stations": lambda df, ctx: process_bicycle_transit_system(
         df, ctx["args"]
     ),
-    "filter_null_rows": lambda df, ctx: filter_null_rows(df),
-    "handle_oslo_legacy_stations": lambda df, ctx: utils.handle_oslo_legacy_stations(
-        df, ctx["args"]
+    ### Guadalajara
+    "handle_guadalajara_stations": lambda df, ctx: utils.handle_guadalajara_stations(
+        df
     ),
 }
 
