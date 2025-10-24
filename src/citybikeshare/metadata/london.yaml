@@ -1,0 +1,31 @@
+name: london
+system_name: london_bikeshare
+file_matcher:
+  - ".csv"
+
+renamed_columns:
+  # Latest columns
+  Start date: start_time
+  End date: end_time
+  Start station: start_station_name
+  End station: end_station_name
+  # Legacy Columns 1
+  Start Date: start_time
+  End Date: end_time
+  EndStation Name: end_station_name
+  StartStation Name: start_station_name
+  # Legacy Columns 2
+  End Station Name: end_station_name
+  Start Station Name: start_station_name
+
+date_formats:
+  - "%d/%m/%Y %H:%M"
+  - "%Y-%m-%d %H:%M"
+
+read_csv_options:
+  encoding: "utf8-lossy"
+processing_pipeline:
+  - rename_columns
+  - select_final_columns
+  - convert_to_datetime
+

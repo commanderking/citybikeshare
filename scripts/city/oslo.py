@@ -1,13 +1,9 @@
 import os
 import json
-import polars as pl
 from playwright.sync_api import sync_playwright
 import requests
 import scripts.utils as utils
 from scripts.city.utils.norway_cities import (
-    final_columns,
-    date_columns,
-    date_formats,
     click_buttons_to_download,
 )
 
@@ -80,102 +76,6 @@ def get_exports(url):
     get_stations_information()
     with sync_playwright() as playwright:
         run_get_exports(playwright, url)
-
-
-def get_renamed_columns(headers):
-    ### Bixi has had three separate column names in its history
-    if "started_at" in headers:
-        return version_one_columns
-
-    if "Start station" in headers:
-        return legacy_columns
-
-    raise Exception("Did not find matching set of headers to rename columns")
-
-
-def get_stations_df():
-    station_info_json = METADATA_PATH / "station_information.json"
-    stations = []
-    with open(station_info_json, "r") as file:
-        data = json.load(file)
-        stations = data["data"]["stations"]
-    return pl.DataFrame(stations).select(["station_id", "name"])
-
-
-def map_legacy_station_id_to_name(stations_df):
-    stations_df = stations_df.select(["station_id", "name"]).with_columns(
-        [pl.col("station_id").cast(pl.Int64)]
-    )
-
-    def inner(df):
-        headers = df.columns
-
-        ### Older data does not contain duration column
-        if "duration" not in headers:
-            station_mapping_df = pl.read_csv(
-                METADATA_PATH / "legacy_new_station_id_mapping.csv"
-            )
-            df = (
-                df.rename(
-                    {
-                        "start_station_id": "start_station_legacy_id",
-                        "end_station_id": "end_station_legacy_id",
-                    }
-                )
-                .join(
-                    station_mapping_df,
-                    left_on="start_station_legacy_id",
-                    right_on="legacy_id",
-                )
-                .rename({"new_id": "start_station_id"})
-                .join(
-                    station_mapping_df,
-                    left_on="end_station_legacy_id",
-                    right_on="legacy_id",
-                )
-                .rename({"new_id": "end_station_id"})
-                .join(stations_df, left_on="start_station_id", right_on="station_id")
-                .rename({"name": "start_station_name"})
-                .join(stations_df, left_on="end_station_id", right_on="station_id")
-                .rename({"name": "end_station_name"})
-            )
-        return df
-
-    return inner
-
-
-def create_all_trips_df(args):
-    files = utils.get_csv_files(CSV_PATH)
-    stations_df = get_stations_df()
-    all_dfs = []
-    for file in files:
-        print(f"reading {file}")
-
-        df = pl.read_csv(file)
-        empty = df.is_empty()
-        if not empty:
-            renamed_columns = get_renamed_columns(df.columns)
-            df = (
-                df.rename(renamed_columns)
-                .pipe(map_legacy_station_id_to_name(stations_df))
-                .select(final_columns)
-                .pipe(utils.convert_columns_to_datetime(date_columns, date_formats))
-            )
-            all_dfs.append(df)
-
-    all_trips = pl.concat(all_dfs, how="diagonal")
-    return all_trips
-
-
-def build_trips(args):
-    if not args.skip_unzip:
-        utils.unzip_city_zips(args.city)
-
-    df = create_all_trips_df(args)
-    utils.log_final_results(df, args)
-    utils.create_all_trips_file(df, args)
-    utils.create_recent_year_file(df, args)
-    return df
 
 
 if __name__ == "__main__":
