@@ -109,8 +109,6 @@ def filter_null_rows(df):
 
 def select_final_columns(df, custom_columns):
     final_columns = custom_columns or constants.final_columns
-    print(final_columns)
-
     return df.select(final_columns)
 
 

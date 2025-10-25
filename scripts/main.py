@@ -2,7 +2,6 @@ import argparse
 import city.usa_cities as usa_utils
 import city.taipei as taipei
 import city.mexico_city as mexico_city
-import city.vancouver as vancouver
 import city.bergen as bergen
 import city.trondheim as trondheim
 import city.helsinki as helsinki
@@ -12,7 +11,6 @@ other_cities = constants.GLOBAL_CITIES
 all_cities = constants.ALL_CITIES
 
 city_builders = {
-    "vancouver": vancouver.build_trips,
     "bergen": bergen.build_trips,
     "trondheim": trondheim.build_trips,
     "taipei": taipei.create_all_trips_parquet,
