@@ -242,12 +242,11 @@ def add_trips_to_db(files, args):
             utils_dolt.insert_trip_data(engine, df_lazy, file_metadata)
 
 
-def normalize_newlines(csv_path: str, backup: bool = False) -> None:
+### Vancouver data currently has hidden \r in files (probably from Google Doc or Windows save)
+def normalize_newlines(csv_path: str) -> None:
     """
     Normalize line endings in a CSV file:
     - Converts Windows (\r\n) and stray carriage returns (\r) to Unix (\n)
-    - Optionally creates a .bak backup before overwriting
-    - Overwrites the file in place by default
 
     Parameters
     ----------
@@ -258,13 +257,8 @@ def normalize_newlines(csv_path: str, backup: bool = False) -> None:
     """
     path = Path(csv_path)
 
-    # Read original content
     text = path.read_text(encoding="utf-8", errors="ignore")
-
-    # Normalize all line endings
     text_clean = text.replace("\r\n", "\n").replace("\r", "\n")
-
-    # Overwrite in place
     path.write_text(text_clean, encoding="utf-8")
 
 
