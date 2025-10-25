@@ -112,18 +112,6 @@ def select_final_columns(df, custom_columns):
     return df.select(final_columns)
 
 
-def toSeconds(rent_series):
-    rows_in_seconds = []
-    for rent_time in rent_series:
-        time_array = rent_time.split(":")
-
-        seconds = (
-            int(time_array[0]) * 3600 + int(time_array[1]) * 60 + int(time_array[2])
-        )
-        rows_in_seconds.append(seconds)
-    return pl.Series(rows_in_seconds)
-
-
 def handle_odd_hour_duration(df):
     ### HH:MM:SS - but hours can go over 24 for Taipei
     parts = pl.col("duration").str.split_exact(":", 3)
@@ -180,44 +168,44 @@ def determine_has_header(file_path, expected_columns):
         return all(item in expected_columns for item in first_line)
 
 
-def scan_csv_file(file_path, read_csv_options):
-    has_header = read_csv_options.get("has_header", True)
-    new_columns = read_csv_options.get("new_columns", None)
-    if has_header == "auto":
-        if new_columns is None:
-            print(
-                "If auto detecting headers, please provide new_columns for expected headers"
-            )
-        file_has_header = determine_has_header(file_path, new_columns)
-        read_csv_options["has_header"] = True
+def get_csv_scan_params(file_path, opts):
+    has_header = opts.get("has_header", True)
+    new_columns = opts.get("new_columns")
 
-        if file_has_header:
-            df = pl.scan_csv(file_path, infer_schema_length=0, **read_csv_options)
-        else:
-            df = pl.scan_csv(
-                file_path,
-                has_header=False,
-                new_columns=new_columns,
-                infer_schema_length=10000,
-                encoding="utf8-lossy",
-            )
-    elif has_header:
-        df = pl.scan_csv(file_path, infer_schema_length=0, **read_csv_options)
-    else:
-        df = pl.scan_csv(
-            file_path,
-            has_header=False,
-            new_columns=new_columns,
-            infer_schema_length=10000,
-            encoding="utf8-lossy",
+    base = {**opts, "encoding": "utf8-lossy", "infer_schema_length": 0}
+    base = opts | {"encoding": "utf8-lossy", "infer_schema_length": 0}
+    if has_header == "auto":
+        if not new_columns:
+            raise ValueError("has_header: auto requires new_columns.")
+        file_has_header = determine_has_header(file_path, new_columns)
+
+        return base | (
+            {"has_header": True}
+            if file_has_header
+            else {
+                "has_header": False,
+                "new_columns": new_columns,
+                "infer_schema_length": 10000,
+            }
         )
-    return df
+
+    return base | (
+        {"has_header": True}
+        if has_header
+        else {
+            "has_header": False,
+            "new_columns": new_columns,
+            "infer_schema_length": 10000,
+        }
+    )
 
 
 def create_parquet(file, args):
     config = load_city_config(args.city)
-    read_csv_options = config.get("read_csv_options", {})
-    df = scan_csv_file(file, read_csv_options)
+    csv_options = config.get("read_csv_options", {})
+    params = get_csv_scan_params(file, csv_options)
+
+    df = pl.scan_csv(file, **params)
     context = {**config, "args": args}
 
     for step in config.get(
@@ -244,7 +232,7 @@ def delete_folder(folder_path):
         return
 
     shutil.rmtree(path)
-    print(f"🗑️  Deleted folder and all contents: {path}")
+    print("🗑️  Clearing folder to write completely new parquets")
 
 
 def partition_parquet(args):

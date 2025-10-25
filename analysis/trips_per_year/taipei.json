@@ -1,0 +1,56 @@
+[
+    {
+        "year": 2020,
+        "trip_count": 1879229,
+        "mean_duration": 695.7440524810974,
+        "first_quantile_duration": 0.0,
+        "median_duration": 0.0,
+        "third_quantile_duration": 0.0,
+        "system": "taipei"
+    },
+    {
+        "year": 2021,
+        "trip_count": 7274736,
+        "mean_duration": 1212.6650369168035,
+        "first_quantile_duration": 0.0,
+        "median_duration": 0.0,
+        "third_quantile_duration": 3600.0,
+        "system": "taipei"
+    },
+    {
+        "year": 2022,
+        "trip_count": 26320516,
+        "mean_duration": 1107.7881451868193,
+        "first_quantile_duration": 0.0,
+        "median_duration": 0.0,
+        "third_quantile_duration": 3600.0,
+        "system": "taipei"
+    },
+    {
+        "year": 2023,
+        "trip_count": 36818842,
+        "mean_duration": 1062.8643997005663,
+        "first_quantile_duration": 0.0,
+        "median_duration": 0.0,
+        "third_quantile_duration": 3600.0,
+        "system": "taipei"
+    },
+    {
+        "year": 2024,
+        "trip_count": 55881184,
+        "mean_duration": 909.8739568581797,
+        "first_quantile_duration": 0.0,
+        "median_duration": 0.0,
+        "third_quantile_duration": 0.0,
+        "system": "taipei"
+    },
+    {
+        "year": 2025,
+        "trip_count": 17013873,
+        "mean_duration": 826.6930404382354,
+        "first_quantile_duration": 0.0,
+        "median_duration": 0.0,
+        "third_quantile_duration": 0.0,
+        "system": "taipei"
+    }
+]
