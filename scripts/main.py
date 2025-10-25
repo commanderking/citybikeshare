@@ -2,7 +2,6 @@ import argparse
 import city.usa_cities as usa_utils
 import city.taipei as taipei
 import city.mexico_city as mexico_city
-import city.montreal as montreal
 import city.vancouver as vancouver
 import city.bergen as bergen
 import city.trondheim as trondheim

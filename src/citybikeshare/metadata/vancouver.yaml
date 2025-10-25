@@ -1,0 +1,41 @@
+name: vancouver
+system_name: vancouver_bikeshare
+
+file_matcher:
+  - "System_Data"
+
+csv_to_parquet_pipeline: 
+  - normalize_newlines
+renamed_columns:
+  Departure: start_time
+  Return: end_time
+  Bike: bike_id
+  Electric bike: is_electric_bike
+  Departure station: start_station_name
+  Return station: end_station_name
+  Membership type: membership_type
+  Covered distance (m): covered_distance_meters
+  Duration (sec.): duration
+  Stopover duration (sec.): stopover_duration
+  Number of stopovers: stopover_count
+
+date_formats:
+  - "%Y-%m-%d %H:%M"
+  - "%m/%d/%Y %H:%M"
+
+final_columns: 
+- start_time
+- "end_time"
+- "start_station_name"
+- "end_station_name"
+- "duration"
+
+read_csv_options:
+  encoding: utf8-lossy
+
+processing_pipeline:
+  - filter_null_rows
+  - rename_columns
+  - convert_to_datetime
+  - offset_two_digit_years
+  - select_final_columns
