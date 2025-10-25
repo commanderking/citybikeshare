@@ -13,7 +13,6 @@ all_cities = constants.ALL_CITIES
 city_builders = {
     "bergen": bergen.build_trips,
     "trondheim": trondheim.build_trips,
-    "taipei": taipei.create_all_trips_parquet,
     "mexico_city": mexico_city.build_trips,
     "helsinki": helsinki.build_trips,
 }

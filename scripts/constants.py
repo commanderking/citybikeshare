@@ -533,13 +533,13 @@ config = {
     "vancouver": {
         "file_matcher": ["Mobi_System_Data"],
     },
+    "taipei": {"file_matcher": [".csv"]},
 }
 
 
 CONFIG_CITIES = list(config.keys())
 
 GLOBAL_CITIES = [
-    "taipei",
     "mexico_city",
     "helsinki",
 ]

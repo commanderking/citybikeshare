@@ -1,0 +1,44 @@
+name: taipei
+system_name: taipei_bikeshare
+file_matcher:
+  - ".csv"
+renamed_columns:
+  rent_time: start_time
+  rent_station: start_station_name
+  return_station: end_station_name
+  return_time: end_time
+  rent: duration
+  infodate: info_date
+
+date_formats:
+  - "%Y-%m-%d %H:%M:%S"
+
+final_columns:
+  - start_time
+  - end_time
+  - start_station_name
+  - end_station_name
+  - duration
+
+read_csv_options:
+  encoding: utf8-lossy
+  has_header: auto
+  # Only rendered if no header detected
+  new_columns: 
+    - "rent_time"
+    - "rent_station"
+    - "return_time"
+    - "return_station"
+    - "rent"
+    - "infodate"
+
+
+extraction_pipeline:
+  header: auto
+
+processing_pipeline:
+  - rename_columns
+  - select_final_columns
+  - convert_to_datetime
+  - handle_odd_hour_duration
+

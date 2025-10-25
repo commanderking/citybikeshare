@@ -112,6 +112,32 @@ def select_final_columns(df, custom_columns):
     return df.select(final_columns)
 
 
+def toSeconds(rent_series):
+    rows_in_seconds = []
+    for rent_time in rent_series:
+        time_array = rent_time.split(":")
+
+        seconds = (
+            int(time_array[0]) * 3600 + int(time_array[1]) * 60 + int(time_array[2])
+        )
+        rows_in_seconds.append(seconds)
+    return pl.Series(rows_in_seconds)
+
+
+def handle_odd_hour_duration(df):
+    ### HH:MM:SS - but hours can go over 24 for Taipei
+    parts = pl.col("duration").str.split_exact(":", 3)
+    return df.with_columns(
+        (
+            # hour to seconds
+            parts.struct.field("field_0").cast(pl.Int64) * 3600
+            # minutes to seconds
+            + parts.struct.field("field_1").cast(pl.Int64) * 60
+            + parts.struct.field("field_2").cast(pl.Int64)
+        ).alias("duration")
+    )
+
+
 PROCESSING_FUNCTIONS = {
     "rename_columns": lambda df, ctx: df.pipe(
         utils.rename_columns_for_keys(ctx["renamed_columns"])
@@ -142,13 +168,56 @@ PROCESSING_FUNCTIONS = {
     "handle_guadalajara_stations": lambda df, ctx: utils.handle_guadalajara_stations(
         df
     ),
+    ### Taipei
+    "handle_odd_hour_duration": lambda df, ctx: handle_odd_hour_duration(df),
 }
+
+
+def determine_has_header(file_path, expected_columns):
+    # Not all files have headers
+    with open(file_path, "r", encoding="utf-8", errors="replace") as file:
+        first_line = file.readline().strip().split(",")
+        return all(item in expected_columns for item in first_line)
+
+
+def scan_csv_file(file_path, read_csv_options):
+    has_header = read_csv_options.get("has_header", True)
+    new_columns = read_csv_options.get("new_columns", None)
+    if has_header == "auto":
+        if new_columns is None:
+            print(
+                "If auto detecting headers, please provide new_columns for expected headers"
+            )
+        file_has_header = determine_has_header(file_path, new_columns)
+        read_csv_options["has_header"] = True
+
+        if file_has_header:
+            df = pl.scan_csv(file_path, infer_schema_length=0, **read_csv_options)
+        else:
+            df = pl.scan_csv(
+                file_path,
+                has_header=False,
+                new_columns=new_columns,
+                infer_schema_length=10000,
+                encoding="utf8-lossy",
+            )
+    elif has_header:
+        df = pl.scan_csv(file_path, infer_schema_length=0, **read_csv_options)
+    else:
+        df = pl.scan_csv(
+            file_path,
+            has_header=False,
+            new_columns=new_columns,
+            infer_schema_length=10000,
+            encoding="utf8-lossy",
+        )
+    return df
 
 
 def create_parquet(file, args):
     config = load_city_config(args.city)
     read_csv_options = config.get("read_csv_options", {})
-    df = pl.scan_csv(file, infer_schema_length=0, **read_csv_options)
+    df = scan_csv_file(file, read_csv_options)
     context = {**config, "args": args}
 
     for step in config.get(

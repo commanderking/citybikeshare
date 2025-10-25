@@ -210,7 +210,7 @@ def convert_columns_to_datetime(date_column_names, date_formats, time_unit: str 
     """
 
     def inner(df):
-        schema = df.schema
+        schema = df.collect_schema()
 
         # identify which columns still need parsing
         columns_to_parse = [
