@@ -112,6 +112,20 @@ def select_final_columns(df, custom_columns):
     return df.select(final_columns)
 
 
+def handle_odd_hour_duration(df):
+    ### HH:MM:SS - but hours can go over 24 for Taipei
+    parts = pl.col("duration").str.split_exact(":", 3)
+    return df.with_columns(
+        (
+            # hour to seconds
+            parts.struct.field("field_0").cast(pl.Int64) * 3600
+            # minutes to seconds
+            + parts.struct.field("field_1").cast(pl.Int64) * 60
+            + parts.struct.field("field_2").cast(pl.Int64)
+        ).alias("duration")
+    )
+
+
 PROCESSING_FUNCTIONS = {
     "rename_columns": lambda df, ctx: df.pipe(
         utils.rename_columns_for_keys(ctx["renamed_columns"])
@@ -142,13 +156,56 @@ PROCESSING_FUNCTIONS = {
     "handle_guadalajara_stations": lambda df, ctx: utils.handle_guadalajara_stations(
         df
     ),
+    ### Taipei
+    "handle_odd_hour_duration": lambda df, ctx: handle_odd_hour_duration(df),
 }
+
+
+def determine_has_header(file_path, expected_columns):
+    # Not all files have headers
+    with open(file_path, "r", encoding="utf-8", errors="replace") as file:
+        first_line = file.readline().strip().split(",")
+        return all(item in expected_columns for item in first_line)
+
+
+def get_csv_scan_params(file_path, opts):
+    has_header = opts.get("has_header", True)
+    new_columns = opts.get("new_columns")
+
+    base = {**opts, "encoding": "utf8-lossy", "infer_schema_length": 0}
+    base = opts | {"encoding": "utf8-lossy", "infer_schema_length": 0}
+    if has_header == "auto":
+        if not new_columns:
+            raise ValueError("has_header: auto requires new_columns.")
+        file_has_header = determine_has_header(file_path, new_columns)
+
+        return base | (
+            {"has_header": True}
+            if file_has_header
+            else {
+                "has_header": False,
+                "new_columns": new_columns,
+                "infer_schema_length": 10000,
+            }
+        )
+
+    return base | (
+        {"has_header": True}
+        if has_header
+        else {
+            "has_header": False,
+            "new_columns": new_columns,
+            "infer_schema_length": 10000,
+        }
+    )
 
 
 def create_parquet(file, args):
     config = load_city_config(args.city)
-    read_csv_options = config.get("read_csv_options", {})
-    df = pl.scan_csv(file, infer_schema_length=0, **read_csv_options)
+    csv_options = config.get("read_csv_options", {})
+    params = get_csv_scan_params(file, csv_options)
+
+    df = pl.scan_csv(file, **params)
     context = {**config, "args": args}
 
     for step in config.get(
@@ -175,7 +232,7 @@ def delete_folder(folder_path):
         return
 
     shutil.rmtree(path)
-    print(f"🗑️  Deleted folder and all contents: {path}")
+    print("🗑️  Clearing folder to write completely new parquets")
 
 
 def partition_parquet(args):
