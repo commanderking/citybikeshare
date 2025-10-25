@@ -530,26 +530,9 @@ config = {
     },
     "london": {"file_matcher": [".csv"]},
     "montreal": {"file_matcher": ["OD", "DonneesOuvertes"]},
-    # Vancouver not working
-    # For some reason, 2020-03 cannot be read properly when using this as csv, but when using vancouver's custom function it works
-    # "vancouver": {
-    #     "name": "vancouver",
-    #     "system_name": "vancouver_bikeshare",
-    #     "file_matcher": ["Mobi_System_Data"],
-    #     "renamed_columns": vancouver_renamed_columns,
-    #     "date_formats": ["%Y-%m-%d %H:%M", "%m/%d/%Y %H:%M"],
-    #     "read_csv_options": {
-    #         "encoding": "utf8-lossy",
-    #         "dtypes": {"Covered distance (m)": pl.Float64},
-    #     },
-    #     "processing_pipeline": [
-    #         "filter_null_rows",
-    #         "rename_columns",
-    #         "randomize_datetimes",
-    #         "offset_two_digit_years",
-    #         "select_final_columns",
-    #     ],
-    # },
+    "vancouver": {
+        "file_matcher": ["Mobi_System_Data"],
+    },
 }
 
 
@@ -558,7 +541,6 @@ CONFIG_CITIES = list(config.keys())
 GLOBAL_CITIES = [
     "taipei",
     "mexico_city",
-    "vancouver",
     "helsinki",
 ]
 

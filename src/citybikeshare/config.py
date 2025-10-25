@@ -1,8 +1,19 @@
+import polars as pl
 from pathlib import Path
 from typing import Any, Dict
 import yaml
+from scripts import constants
 
 CONFIG_DIR = Path(__file__).parent / "metadata"
+
+DTYPE_MAP = {
+    "Utf8": pl.Utf8,
+    "Int64": pl.Int64,
+    "Float64": pl.Float64,
+    "Date": pl.Date,
+    "Datetime": pl.Datetime,  # You can add unit if needed
+    "Boolean": pl.Boolean,
+}
 
 
 def load_city_config(city: str) -> Dict[str, Any]:
@@ -10,11 +21,21 @@ def load_city_config(city: str) -> Dict[str, Any]:
     yaml_path = CONFIG_DIR / f"{city}.yaml"
 
     if yaml_path.exists():
-        return yaml.safe_load(yaml_path.read_text())
+        config = yaml.safe_load(yaml_path.read_text())
 
-    # fallback to old Python constants until migration is complete
-    from scripts import constants
+        # Convert schema overrides to actual Polars dtypes
+        read_csv_opts = config.get("read_csv_options", {})
+        overrides = read_csv_opts.get("schema_overrides", {})
 
+        # convert string → Polars dtype objects
+        read_csv_opts["schema_overrides"] = {
+            col: DTYPE_MAP.get(dtype_str, pl.Utf8)
+            for col, dtype_str in overrides.items()
+        }
+
+        return config
+
+    # fallback to old Python constants until yaml config is complete
     if city not in constants.config:
         raise KeyError(f"No config found for city: {city}")
     return constants.config[city]

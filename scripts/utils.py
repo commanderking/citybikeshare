@@ -218,7 +218,6 @@ def convert_columns_to_datetime(date_column_names, date_formats, time_unit: str 
         ]
 
         if columns_to_parse:
-            print(f"🕒 Converting {columns_to_parse} to datetime")
             df = df.with_columns(
                 [
                     pl.coalesce(

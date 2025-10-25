@@ -2,10 +2,12 @@ import os
 import hashlib
 import polars as pl
 import utils
+import shutil
 import utils_dolt
 import utils_bicycle_transit_systems
 import scripts.constants as constants
 from src.citybikeshare.config import load_city_config
+from pathlib import Path
 
 
 def compute_file_hash(filepath, chunk_size=8192):
@@ -86,8 +88,7 @@ def get_file_metadata(filepath, city_config):
 
 
 def convert_milliseconds_to_datetime(df):
-    headers = df.columns
-    print(headers)
+    headers = df.collect_schema().names()
     ### most recent Montreal data notes start time and end time in ms whereas previous versions used a date.
     if "start_ms" in headers:
         df = df.with_columns(
@@ -106,6 +107,11 @@ def filter_null_rows(df):
     return df.filter(~pl.all_horizontal(pl.all().is_null()))
 
 
+def select_final_columns(df, custom_columns):
+    final_columns = custom_columns or constants.final_columns
+    return df.select(final_columns)
+
+
 PROCESSING_FUNCTIONS = {
     "rename_columns": lambda df, ctx: df.pipe(
         utils.rename_columns_for_keys(ctx["renamed_columns"])
@@ -115,7 +121,9 @@ PROCESSING_FUNCTIONS = {
             ["start_time", "end_time"], ctx["date_formats"]
         )
     ),
-    "select_final_columns": lambda df, ctx: df.select(constants.final_columns),
+    "select_final_columns": lambda df, ctx: select_final_columns(
+        df, ctx["final_columns"]
+    ),
     "offset_two_digit_years": lambda df, ctx: utils.offset_two_digit_years(df),
     "austin_calculate_end_time": lambda df, ctx: austin_check(df, ctx["args"]),
     "convert_milliseconds_to_datetime": lambda df,
@@ -137,33 +145,6 @@ PROCESSING_FUNCTIONS = {
 }
 
 
-# def create_trip_df(file, args):
-#     city_config = constants.config[args.city]
-#     date_formats = city_config["date_formats"]
-#     renamed_columns = city_config["renamed_columns"]
-#     final_columns = city_config.get("final_columns", constants.final_columns)
-
-#     df_lazy = (
-#         pl.scan_csv(file, infer_schema_length=0)
-#         .pipe(utils.rename_columns_for_keys(renamed_columns))
-#         # TODO: This station name mapping should apply to all stations
-#         # May want to make this configuration based rather than explicit city checks here
-#         .pipe(process_bicycle_transit_system(args))
-#         # For debugging
-#         # .pipe(utils.print_null_data)
-#         # .pipe(utils.assess_null_data)
-#         ### TODO - move this to configuration for preprocessing. Austin doesn't have end_time so we need to calculate before casting times
-#         .pipe(austin_check(args))
-#         .pipe(
-#             utils.convert_columns_to_datetime(["start_time", "end_time"], date_formats)
-#         )
-#         .select(final_columns)
-#         .pipe(utils.offset_two_digit_years)
-#     )
-
-#     return df_lazy
-
-
 def create_parquet(file, args):
     config = load_city_config(args.city)
     read_csv_options = config.get("read_csv_options", {})
@@ -173,8 +154,8 @@ def create_parquet(file, args):
     for step in config.get(
         "processing_pipeline", constants.DEFAULT_PROCESSING_PIPELINE
     ):
-        fn = PROCESSING_FUNCTIONS[step]
-        df = fn(df, context)
+        execute_step = PROCESSING_FUNCTIONS[step]
+        df = execute_step(df, context)
 
     parquet_directory = utils.get_parquet_directory(args.city)
     file_name = os.path.basename(file).replace(".csv", ".parquet")
@@ -182,6 +163,19 @@ def create_parquet(file, args):
 
     df.sink_parquet(parquet_path)
     print(f"✅ Created {os.path.basename(parquet_path)}")
+
+
+def delete_folder(folder_path):
+    """
+    Delete a folder and all its contents (files + subdirectories).
+    """
+    path = Path(folder_path)
+    if not path.exists():
+        print(f"⚠️ Folder not found: {path}")
+        return
+
+    shutil.rmtree(path)
+    print(f"🗑️  Deleted folder and all contents: {path}")
 
 
 def partition_parquet(args):
@@ -197,6 +191,10 @@ def partition_parquet(args):
     )
 
     df = lf.collect(engine="streaming")
+
+    ### Clear out old parquets each time so we don't keep adding to the same folder on each run
+    delete_folder(output_path)
+
     df.write_parquet(
         output_path,
         use_pyarrow=True,
@@ -242,8 +240,36 @@ def add_trips_to_db(files, args):
             utils_dolt.insert_trip_data(engine, df_lazy, file_metadata)
 
 
+### Vancouver data currently has hidden \r in files (probably from Google Doc or Windows save)
+def normalize_newlines(csv_path: str) -> None:
+    """
+    Normalize line endings in a CSV file:
+    - Converts Windows (\r\n) and stray carriage returns (\r) to Unix (\n)
+
+    Parameters
+    ----------
+    csv_path : str
+        Path to the CSV file to clean.
+    backup : bool, default False
+        Whether to create a backup file (e.g., file.csv.bak) before overwriting.
+    """
+    path = Path(csv_path)
+
+    text = path.read_text(encoding="utf-8", errors="ignore")
+    text_clean = text.replace("\r\n", "\n").replace("\r", "\n")
+    path.write_text(text_clean, encoding="utf-8")
+
+
+CSV_TO_PARQUET_FUNCTIONS = {"normalize_newlines": normalize_newlines}
+
+
 def convert_csvs_to_parquet(files, args):
+    config = load_city_config(args.city)
     for file in files:
+        csv_to_parquet_pipeline = config.get("csv_to_parquet_pipeline", [])
+        for step in csv_to_parquet_pipeline:
+            CSV_TO_PARQUET_FUNCTIONS[step](file)
+
         create_parquet(file, args)
 
 
