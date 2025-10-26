@@ -125,7 +125,6 @@ def match_all_city_files(file_path, city):
 def unzip_city_zips(city, city_matcher=match_all_city_files):
     city_zip_directory = get_zip_directory(city)
     raw_output_dir = get_raw_files_directory(city)
-
     to_process = [
         os.path.join(city_zip_directory, f)
         for f in os.listdir(city_zip_directory)
