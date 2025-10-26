@@ -19,11 +19,10 @@ def compute_file_hash(filepath, chunk_size=8192):
     return hasher.hexdigest()
 
 
-def filter_filenames(filenames, args):
-    matching_words = constants.config[args.city]["file_matcher"]
-    excluded_filenames = constants.config.get(args.city, {}).get(
-        "excluded_filenames", []
-    )
+def filter_filenames(filenames, config):
+    matching_words = config.get("file_matcher")
+    excluded_filenames = config.get("excluded_filenames", [])
+
     # os.path.basename - Chicago files have a stations_and_trips folder, which creates a csv for stations. I don't want to include this stations csv in our checks, so filtering on just the filename not folder
     files = [
         filename
@@ -350,32 +349,17 @@ def get_dfs_for_parquet(files, args):
     return pl.concat(file_dataframes)
 
 
-def extract_zip_files(city):
-    print(f"unzipping {city} trip files")
-
-    def city_match(file_path, city):
-        if city == "new_york_city":
-            # JC are for Jersey City, we don't wait to consume those for new york city
-            return "JC" not in file_path
-        else:
-            return any(
-                word in file_path for word in constants.config[city]["file_matcher"]
-            )
-
-    print()
-    utils.unzip_city_zips(city, city_match)
-
-
 def build_all_trips(args):
     source_directory = utils.get_raw_files_directory(args.city)
 
     if args.skip_unzip is False:
-        extract_zip_files(args.city)
+        utils.unzip_city_zips(args.city)
     else:
         print("skipping unzipping files")
 
     trip_files = utils.get_csv_files(source_directory)
-    filtered_files = filter_filenames(trip_files, args)
+    config = load_city_config(args.city)
+    filtered_files = filter_filenames(trip_files, config)
 
     convert_csvs_to_parquet(filtered_files, args)
     partition_parquet(args)

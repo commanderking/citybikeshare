@@ -7,7 +7,7 @@ CITY_SYNC_MAP = {
     "columbus": "aws s3 sync s3://cogo-sys-data ./data/columbus/zip",
     "washington_dc": "aws s3 sync s3://capitalbikeshare-data ./data/washington_dc/zip",
     "chicago": "aws s3 sync s3://divvy-tripdata ./data/chicago/zip",
-    "new_york_city": "aws s3 sync s3://tripdata ./data/new_york_city/zip",
+    "new_york_city": "aws s3 sync s3://tripdata ./data/new_york_city/zip --exclude 'JC-*'",
     "london": "aws s3 sync s3://cycling.data.tfl.gov.uk/usage-stats ./data/london/raw",
     "jersey_city": "aws s3 sync s3://tripdata ./data/jersey_city/zip --exclude '*' --include 'JC-*'",
     "san_francisco": "aws s3 sync s3://baywheels-data ./data/san_francisco/zip",

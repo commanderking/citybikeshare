@@ -118,18 +118,13 @@ def write_to_parquet(df, file_path, **kwargs):
         raise TypeError("Input must be a polars.DataFrame or polars.LazyFrame")
 
 
-def match_all_city_files(file_path, city):
-    return True
-
-
-def unzip_city_zips(city, city_matcher=match_all_city_files):
+def unzip_city_zips(city):
     city_zip_directory = get_zip_directory(city)
     raw_output_dir = get_raw_files_directory(city)
     to_process = [
         os.path.join(city_zip_directory, f)
         for f in os.listdir(city_zip_directory)
         if zipfile.is_zipfile(os.path.join(city_zip_directory, f))
-        and city_matcher(f, city)
     ]
 
     while to_process:
