@@ -1,0 +1,34 @@
+name: toronto
+system_name: toronto_bikeshare
+file_matcher:
+  - .csv
+renamed_columns:
+  trip_id: trip_id
+  trip_start_time: start_time
+  trip_stop_time: end_time
+  trip_duration_seconds: duration
+  from_station_name: start_station_name
+  to_station_name: end_station_name
+  user_type: user_type
+
+  Trip Id: trip_id
+  Trip  Duration: duration
+  Start Station Id: start_station_id
+  Start Time: start_time
+  Start Station Name: start_station_name
+  End Station Id: end_station_id
+  End Time: end_time
+  End Station Name: end_station_name
+  Bike Id: bike_id
+  User Type: user_type
+date_formats:
+  - "%m/%d/%Y %H:%M"
+  - "%m/%d/%Y %H:%M:%S"
+  - "%d/%m/%Y %H:%M"
+read_csv_options:
+  encoding: utf8-lossy
+processing_pipeline:
+  - rename_columns
+  - convert_to_datetime
+  - select_final_columns
+  - offset_two_digit_years

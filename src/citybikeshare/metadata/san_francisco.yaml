@@ -1,0 +1,38 @@
+name: san_francisco
+system_name: san_francisco_bikeshare
+file_matcher:
+  - tripdata
+renamed_columns:
+  ride_id: id
+  rideable_type: rideable_type
+  started_at: start_time
+  ended_at: end_time
+  start_station_name: start_station_name
+  start_station_id: start_station_id
+  end_station_name: end_station_name
+  end_station_id: end_station_id
+  start_lat: start_station_latitude
+  start_lng: start_station_longitude
+  end_lat: end_station_latitude
+  end_lng: end_station_longitude
+  member_casual: member_casual
+
+  start_time: start_time
+  end_time: end_time
+  start_station_id: start_station_id
+  start_station_name: start_station_name
+  start_station_latitude: start_station_latitude
+  start_station_longitude: start_station_longitude
+  end_station_id: end_station_id
+  end_station_name: end_station_name
+  end_station_latitude: end_station_latitude
+  end_station_longitude: end_station_longitude
+  bike_id: bike_id
+  user_type: usertype
+  bike_share_for_all_trip: birth_year
+date_formats:
+  - "%Y-%m-%d %H:%M:%S"
+processing_pipeline:
+  - rename_columns
+  - convert_to_datetime
+  - select_final_columns

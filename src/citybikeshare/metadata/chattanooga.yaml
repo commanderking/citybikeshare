@@ -1,0 +1,22 @@
+name: chattanooga
+system_name: chattanooga_bikeshare
+file_matcher:
+  - chattanooga_all_trips
+renamed_columns:
+  Member Type: member_type
+  BikeID: bike_id
+  Start Time: start_time
+  Start Station Name: start_station_name
+  Start Station ID: start_station_id
+  Start Location: start_location
+  End Time: end_time
+  End Station Name: end_station_name
+  End Station ID: end_station_id
+  End Location: end_location
+  TripDurationMin: duration_minutes
+date_formats:
+  - "%m/%d/%Y %I:%M:%S %p"
+processing_pipeline:
+  - rename_columns
+  - convert_to_datetime
+  - select_final_columns

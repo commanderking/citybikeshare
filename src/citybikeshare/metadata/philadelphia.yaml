@@ -1,0 +1,29 @@
+name: philadelphia
+system_name: philadelphia_bikeshare
+file_matcher:
+  - trips
+  - Trips
+renamed_columns:
+  trip_id: id
+  duration: duration
+  start_time: start_time
+  end_time: end_time
+  start_station: start_station_id
+  start_lat: start_station_latiitude
+  start_lon: start_station_longitude
+  end_station: end_station_id
+  end_longitude: end_station_longitude
+  bike_id: bike_id
+  plan_duration: plan_duration
+  trip_route_category: trip_route_category
+  passholder_type: passholder_type
+  bike_type: bike_type
+date_formats:
+  - "%Y-%m-%d %H:%M:%S"
+  - "%m/%d/%Y %H:%M"
+processing_pipeline:
+  - rename_columns
+  - process_bicycle_transit_stations
+  - convert_to_datetime
+  - select_final_columns
+  - offset_two_digit_years

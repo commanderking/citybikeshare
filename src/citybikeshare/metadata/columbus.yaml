@@ -1,0 +1,60 @@
+name: columbus
+system_name: columbus_bikeshare
+file_matcher: cogo-tripdata
+
+renamed_columns:
+  # Commonized system data columns
+  ride_id: id
+  rideable_type: rideable_type
+  started_at: start_time
+  ended_at: end_time
+  start_station_name: start_station_name
+  start_station_id: start_station_id
+  end_station_name: end_station_name
+  end_station_id: end_station_id
+  start_lat: start_station_latitude
+  start_lng: start_station_longitude
+  end_lat: end_station_latitude
+  end_lng: end_station_longitude
+  member_casual: member_casual
+
+  # Columbus format 1
+  trip_id: id
+  start_time: start_time
+  end_time: end_time
+  bikeid: bike_id
+  tripduration: trip_duration
+  from_station_location: start_station_location
+  from_station_id: start_station_id
+  from_station_name: start_station_name
+  to_station_location: end_station_location
+  to_station_id: end_station_id
+  to_station_name: end_station_name
+  usertype: usertype
+  gender: gender
+  birthyear: birth_year
+
+  # Columbus format 2
+  "Start Time and Date": start_time
+  "Stop Time and Date": end_time
+  "Start Station ID": start_station_id
+  "Start Station Name": start_station_name
+  "Start Station Lat": start_station_latitude
+  "Start Station Long": start_station_longitude
+  "Stop Station ID": end_station_id
+  "Stop Station Name": end_station_name
+  "Stop Station Lat": end_station_latitude
+  "Stop Station Long": end_station_longitude
+  "Bike ID": bike_id
+  "User Type": usertype
+  Gender: gender
+  "Year of Birth": birth_year
+
+date_formats:
+  - "%Y-%m-%d %H:%M:%S"
+  - "%m/%d/%Y %H:%M:%S"
+
+processing_pipeline:
+  - rename_columns
+  - convert_to_datetime
+  - select_final_columns

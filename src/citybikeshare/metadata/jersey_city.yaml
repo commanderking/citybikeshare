@@ -1,0 +1,56 @@
+name: jersey_city
+system_name: jersey_city_bikeshare
+file_matcher:
+  - JC-
+renamed_columns:
+  ride_id: id
+  rideable_type: rideable_type
+  started_at: start_time
+  ended_at: end_time
+  start_station_name: start_station_name
+  start_station_id: start_station_id
+  end_station_name: end_station_name
+  end_station_id: end_station_id
+  start_lat: start_station_latitude
+  start_lng: start_station_longitude
+  end_lat: end_station_latitude
+  end_lng: end_station_longitude
+  member_casual: member_casual
+
+  starttime: start_time
+  stoptime: end_time
+  start station id: start_station_id
+  start station name: start_station_name
+  start station latitude: start_station_latitude
+  start station longitude: start_station_longitude
+  end station id: end_station_id
+  end station name: end_station_name
+  end station latitude: end_station_latitude
+  end station longitude: end_station_longitude
+  bikeid: bike_id
+  usertype: usertype
+  birth year: birth_year
+  Gender: gender
+  postal code: postal_code
+
+  Trip Duration: duration
+  Start Time: start_time
+  Stop Time: end_time
+  Start Station ID: start_station_id
+  Start Station Name: start_station_name
+  Start Station Latitude: start_station_latitude
+  Start Station Longitude: start_station_longitude
+  End Station ID: end_station_id
+  End Station Name: end_station_name
+  End Station Latitude: end_station_latitude
+  End Station Longitude: end_station_longitude
+  Bike ID: bike_id
+  User Type: usertype
+  Birth Year: birth_year
+  gender: gender
+date_formats:
+  - "%Y-%m-%d %H:%M:%S"
+processing_pipeline:
+  - rename_columns
+  - convert_to_datetime
+  - select_final_columns

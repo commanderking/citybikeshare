@@ -1,0 +1,45 @@
+name: pittsburgh
+system_name: pittsburgh_bikeshare
+file_matcher:
+  - csv
+renamed_columns:
+  _id: row_number
+  Closed Status: closed_status
+  Duration: duration
+  Start Station Id: start_station_id
+  Start Date: start_time
+  Start Station Name: start_station_name
+  End Date: end_time
+  End Station Id: end_station_id
+  End Station Name: end_station_name
+  Rider Type: rider_type
+
+  Trip id: id
+  Starttime: start_time
+  Stoptime: end_time
+  Bikeid: bike_id
+  Tripduration: duration
+  From station id: start_station_id
+  From station name: start_station_name
+  To station id: end_station_id
+  To station name: end_station_name
+  Usertype: usertype
+
+  trip_id: id
+  starttime: start_time
+  stoptime: end_time
+  bikeid: bike_id
+  tripduration: duration
+  from_station_id: start_station_id
+  from_station_name: start_station_name
+  to_station_id: end_station_id
+  to_station_name: end_station_name
+  usertype: usertype
+date_formats:
+  - "%m/%d/%Y %H:%M"
+  - "%Y-%m-%dT%H:%M:%S"
+  - "%a, %b %d, %Y, %I:%M %p"
+processing_pipeline:
+  - rename_columns
+  - convert_to_datetime
+  - select_final_columns

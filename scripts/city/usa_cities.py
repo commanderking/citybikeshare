@@ -38,26 +38,36 @@ def filter_filenames(filenames, args):
     return files
 
 
-def austin_check(df, args):
-    if (args.city) == "austin":
-        df = df.with_columns(
-            [
-                pl.coalesce(
-                    [
-                        pl.col("start_time")
-                        .str.replace(r"\.\d+", "")
-                        .str.strptime(pl.Datetime, "%m/%d/%Y %I:%M:%S %p", strict=True)
-                    ]
-                ),
-                pl.col("duration_minutes").cast(pl.Int32),
-            ]
+def austin_check(df, context):
+    """
+    Parse Austin start_time using all available date_formats,
+    ensure duration_minutes is numeric, and compute end_time.
+    """
+    date_formats = context.get("date_formats", ["%m/%d/%Y %I:%M:%S %p"])
+
+    # Have consistent start time
+    df = df.with_columns(
+        [
+            pl.coalesce(
+                [
+                    pl.col("start_time")
+                    .str.replace(r"\.\d+", "")  # strip decimals
+                    .str.strptime(pl.Datetime, fmt, strict=False)
+                    for fmt in date_formats
+                ]
+            ).alias("start_time"),
+            ## Austin has some numbers that have commas (1,027)
+            pl.col("duration_minutes").str.replace_all(",", "").cast(pl.Int32),
+        ]
+    )
+
+    # Compute end_time
+    df = df.with_columns(
+        (pl.col("start_time") + pl.duration(minutes=pl.col("duration_minutes"))).alias(
+            "end_time"
         )
-        df = df.with_columns(
-            (
-                pl.col("start_time") + pl.duration(minutes=pl.col("duration_minutes"))
-            ).alias("end_time")
-        )
-        return df
+    )
+
     return df
 
 
@@ -66,7 +76,6 @@ def process_bicycle_transit_system(df, args):
     df = utils_bicycle_transit_systems.append_station_names(df, stations_df).drop(
         "start_station_id", "end_station_id"
     )
-    print(df)
     return df
 
 
@@ -108,6 +117,8 @@ def filter_null_rows(df):
 
 
 def select_final_columns(df, final_columns):
+    print("no final columns?")
+    print(final_columns)
     return df.select(final_columns)
 
 
@@ -135,10 +146,10 @@ PROCESSING_FUNCTIONS = {
         )
     ),
     "select_final_columns": lambda df, ctx: select_final_columns(
-        df, ctx.get("final_columns", constants.final_columns)
+        df, ctx.get("final_columns", constants.DEFAULT_FINAL_COLUMNS)
     ),
     "offset_two_digit_years": lambda df, ctx: utils.offset_two_digit_years(df),
-    "austin_calculate_end_time": lambda df, ctx: austin_check(df, ctx["args"]),
+    "austin_calculate_end_time": lambda df, ctx: austin_check(df, ctx),
     "convert_milliseconds_to_datetime": lambda df,
     ctx: convert_milliseconds_to_datetime(df),
     "filter_null_rows": lambda df, ctx: filter_null_rows(df),
@@ -162,6 +173,7 @@ PROCESSING_FUNCTIONS = {
     ctx: utils.join_mexico_city_station_names(df),
     "clean_datetimes": lambda df, ctx: utils.clean_datetimes(df),
     "combine_datetimes": lambda df, ctx: utils.combine_datetimes(df),
+    "normalize_month_names": lambda df, ctx: normalize_month_names(df),
 }
 
 
@@ -211,11 +223,16 @@ def create_parquet(file, args):
 
     df = pl.scan_csv(file, **params)
     context = {**config, "args": args}
-
+    print(file)
     for step in config.get(
         "processing_pipeline", constants.DEFAULT_PROCESSING_PIPELINE
     ):
+        print(step)
         execute_step = PROCESSING_FUNCTIONS[step]
+        print(df.collect_schema().names())
+
+        # if "start_time" in df.collect_schema().names():
+        #     print(df.fetch(5).select(pl.col("start_time")))
         df = execute_step(df, context)
 
     parquet_directory = utils.get_parquet_directory(args.city)
@@ -256,10 +273,10 @@ def partition_parquet(args):
     ### Clear out old parquets each time so we don't keep adding to the same folder on each run
     delete_folder(output_path)
 
+    print(df)
     df.write_parquet(
         output_path,
-        use_pyarrow=True,
-        pyarrow_options={"partition_cols": ["year", "month"]},
+        partition_by=["year", "month"],
     )
 
     print("All files created and partitioned!")
