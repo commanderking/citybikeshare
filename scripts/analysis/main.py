@@ -2,7 +2,6 @@ import argparse
 import scripts.constants as constants
 import scripts.analysis.analyzer as analyzer
 
-other_cities = constants.GLOBAL_CITIES
 all_cities = constants.ALL_CITIES
 
 

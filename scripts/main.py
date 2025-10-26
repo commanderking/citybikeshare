@@ -1,14 +1,8 @@
 import argparse
 import city.usa_cities as usa_utils
-import city.mexico_city as mexico_city
 import constants
 
-other_cities = constants.GLOBAL_CITIES
 all_cities = constants.ALL_CITIES
-
-city_builders = {
-    "mexico_city": mexico_city.build_trips,
-}
 
 
 def setup_argparse():
@@ -34,8 +28,7 @@ def setup_argparse():
 
     parser.add_argument("city", choices=set([*all_cities, "all"]))
 
-    args = parser.parse_args()
-    return args
+    return parser.parse_args()
 
 
 def build_city(args):
@@ -56,10 +49,7 @@ def build_city(args):
             except Exception as e:
                 print(f"❌ Error building {name}: {e}\n")
     else:
-        if city in constants.CONFIG_CITIES:
-            usa_utils.build_all_trips(args)
-        else:
-            city_builders[city](args)
+        usa_utils.build_all_trips(args)
 
 
 if __name__ == "__main__":

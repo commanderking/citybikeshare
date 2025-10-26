@@ -535,13 +535,11 @@ config = {
     },
     "taipei": {"file_matcher": [".csv"]},
     "helsinki": {"file_matcher": [".zip", ".csv"]},
+    "mexico_city": {"file_matcher": [".zip", ".csv"]},
 }
 
 
 CONFIG_CITIES = list(config.keys())
 
-GLOBAL_CITIES = [
-    "mexico_city",
-]
 
-ALL_CITIES = CONFIG_CITIES + GLOBAL_CITIES
+ALL_CITIES = CONFIG_CITIES
