@@ -1,0 +1,81 @@
+name: new_york_city
+system_name: new_york_city_bikeshare
+file_matcher:
+  - citibike-tripdata
+  - citbike-tripdata
+excluded_filenames:
+  - "2018-citibike-tripdata/201801-citibike-tripdata.csv"
+  - "2018-citibike-tripdata/201802-citibike-tripdata.csv"
+  - "2018-citibike-tripdata/201803-citibike-tripdata.csv"
+  - "2018-citibike-tripdata/201804-citibike-tripdata_1.csv"
+  - "2018-citibike-tripdata/201804-citibike-tripdata_2.csv"
+  - "2018-citibike-tripdata/201804-citibike-tripdata.csv"
+  - "2018-citibike-tripdata/201805-citibike-tripdata.csv"
+  - "2018-citibike-tripdata/201806-citibike-tripdata.csv"
+  - "2018-citibike-tripdata/201807-citibike-tripdata.csv"
+  - "2018-citibike-tripdata/201808-citibike-tripdata.csv"
+  - "2018-citibike-tripdata/201809-citibike-tripdata.csv"
+  - "2018-citibike-tripdata/201810-citibike-tripdata.csv"
+  - "2018-citibike-tripdata/201811-citibike-tripdata.csv"
+  - "2018-citibike-tripdata/201812-citibike-tripdata.csv"
+  - "201306-citibike-tripdata.csv"
+  - "201307-citibike-tripdata.csv"
+  - "201308-citibike-tripdata.csv"
+  - "201309-citibike-tripdata.csv"
+  - "201310-citibike-tripdata.csv"
+  - "201311-citibike-tripdata.csv"
+  - "201312-citibike-tripdata.csv"
+renamed_columns:
+  ride_id: id
+  rideable_type: rideable_type
+  started_at: start_time
+  ended_at: end_time
+  start_station_name: start_station_name
+  start_station_id: start_station_id
+  end_station_name: end_station_name
+  end_station_id: end_station_id
+  start_lat: start_station_latitude
+  start_lng: start_station_longitude
+  end_lat: end_station_latitude
+  end_lng: end_station_longitude
+  member_casual: member_casual
+
+  starttime: start_time
+  stoptime: end_time
+  start station id: start_station_id
+  start station name: start_station_name
+  start station latitude: start_station_latitude
+  start station longitude: start_station_longitude
+  end station id: end_station_id
+  end station name: end_station_name
+  end station latitude: end_station_latitude
+  end station longitude: end_station_longitude
+  bikeid: bike_id
+  usertype: usertype
+  birth year: birth_year
+  Gender: gender
+  postal code: postal_code
+
+  Trip Duration: duration
+  Start Time: start_time
+  Stop Time: end_time
+  Start Station ID: start_station_id
+  Start Station Name: start_station_name
+  Start Station Latitude: start_station_latitude
+  Start Station Longitude: start_station_longitude
+  End Station ID: end_station_id
+  End Station Name: end_station_name
+  End Station Latitude: end_station_latitude
+  End Station Longitude: end_station_longitude
+  Bike ID: bike_id
+  User Type: usertype
+  Birth Year: birth_year
+  gender: gender
+date_formats:
+  - "%Y-%m-%d %H:%M:%S"
+  - "%m/%d/%Y %H:%M:%S"
+  - "%m/%d/%Y %H:%M"
+processing_pipeline:
+  - rename_columns
+  - convert_to_datetime
+  - select_final_columns

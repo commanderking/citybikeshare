@@ -1,0 +1,27 @@
+name: austin
+system_name: austin_bikeshare
+file_matcher:
+  - austin_all_trips.csv
+renamed_columns:
+  Trip ID: trip_id
+  Membership or Pass Type: pass_type
+  Bicycle ID: bicycle_id
+  Bike Type: bike_type
+  Checkout Datetime: start_time
+  checkout Date: start_date
+  Checkout Kiosk ID: start_station_id
+  Checkout Kiosk: start_station_name
+  Return Kiosk ID: end_station_id
+  Return Kiosk: end_station_name
+  Trip Duration Minutes: duration_minutes
+  Month: month
+  Year: year
+date_formats:
+  - "%Y-%m-%d %H:%M:%S"
+  - "%Y-%m-%d %H:%M:%S%.6f"
+  - "%Y %b %d %I:%M:%S %p"
+
+processing_pipeline:
+  - rename_columns
+  - austin_calculate_end_time
+  - select_final_columns

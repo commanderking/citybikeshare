@@ -1,5 +1,5 @@
-name: trondheim
-system_name: trondheim_bikeshare
+name: bergen
+system_name: bergen_bikeshare
 file_matcher:
   - "trips"
 renamed_columns:
@@ -16,3 +16,4 @@ processing_pipeline:
   - rename_columns
   - select_final_columns
   - convert_to_datetime
+

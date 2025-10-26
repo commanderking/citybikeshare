@@ -1,0 +1,57 @@
+name: chicago
+system_name: chicago_bikeshare
+file_matcher:
+  - trip
+  - Trips
+
+renamed_columns:
+  # Commonized system data columns (used by newer Divvy datasets)
+  ride_id: id
+  rideable_type: rideable_type
+  started_at: start_time
+  ended_at: end_time
+  start_station_name: start_station_name
+  start_station_id: start_station_id
+  end_station_name: end_station_name
+  end_station_id: end_station_id
+  start_lat: start_station_latitude
+  start_lng: start_station_longitude
+  end_lat: end_station_latitude
+  end_lng: end_station_longitude
+  member_casual: member_casual
+
+  # Pre-March 2023 (older Divvy files)
+  starttime: start_time
+  stoptime: end_time
+  from_station_id: start_station_id
+  from_station_name: start_station_name
+  to_station_id: end_station_id
+  to_station_name: end_station_name
+  usertype: usertype
+  birth year: birth_year
+  gender: gender
+
+  # Oddball format (2018_Q1–2019_Q2)
+  "01 - Rental Details Local Start Time": start_time
+  "01 - Rental Details Local End Time": end_time
+  "03 - Rental Start Station ID": start_station_id
+  "03 - Rental Start Station Name": start_station_name
+  "02 - Rental End Station ID": end_station_id
+  "02 - Rental End Station Name": end_station_name
+  "User Type": usertype
+  "Member Gender": gender
+  "05 - Member Details Member Birthday Year": birth_year
+
+date_formats:
+  - "%Y-%m-%d %H:%M:%S"
+  - "%m/%d/%Y %H:%M:%S"
+  - "%m/%d/%Y %H:%M"
+  - "%Y-%m-%d %H:%M"   # Divvy_Trips_2013 format
+
+read_csv_options:
+  encoding: utf8-lossy
+
+processing_pipeline:
+  - rename_columns
+  - convert_to_datetime
+  - select_final_columns

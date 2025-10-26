@@ -38,26 +38,36 @@ def filter_filenames(filenames, args):
     return files
 
 
-def austin_check(df, args):
-    if (args.city) == "austin":
-        df = df.with_columns(
-            [
-                pl.coalesce(
-                    [
-                        pl.col("start_time")
-                        .str.replace(r"\.\d+", "")
-                        .str.strptime(pl.Datetime, "%m/%d/%Y %I:%M:%S %p", strict=True)
-                    ]
-                ),
-                pl.col("duration_minutes").cast(pl.Int32),
-            ]
+def austin_check(df, context):
+    """
+    Parse Austin start_time using all available date_formats,
+    ensure duration_minutes is numeric, and compute end_time.
+    """
+    date_formats = context.get("date_formats", ["%m/%d/%Y %I:%M:%S %p"])
+
+    # Have consistent start time
+    df = df.with_columns(
+        [
+            pl.coalesce(
+                [
+                    pl.col("start_time")
+                    .str.replace(r"\.\d+", "")  # strip decimals
+                    .str.strptime(pl.Datetime, fmt, strict=False)
+                    for fmt in date_formats
+                ]
+            ).alias("start_time"),
+            ## Austin has some numbers that have commas (1,027)
+            pl.col("duration_minutes").str.replace_all(",", "").cast(pl.Int32),
+        ]
+    )
+
+    # Compute end_time
+    df = df.with_columns(
+        (pl.col("start_time") + pl.duration(minutes=pl.col("duration_minutes"))).alias(
+            "end_time"
         )
-        df = df.with_columns(
-            (
-                pl.col("start_time") + pl.duration(minutes=pl.col("duration_minutes"))
-            ).alias("end_time")
-        )
-        return df
+    )
+
     return df
 
 
@@ -66,7 +76,6 @@ def process_bicycle_transit_system(df, args):
     df = utils_bicycle_transit_systems.append_station_names(df, stations_df).drop(
         "start_station_id", "end_station_id"
     )
-    print(df)
     return df
 
 
@@ -135,10 +144,10 @@ PROCESSING_FUNCTIONS = {
         )
     ),
     "select_final_columns": lambda df, ctx: select_final_columns(
-        df, ctx.get("final_columns", constants.final_columns)
+        df, ctx.get("final_columns", constants.DEFAULT_FINAL_COLUMNS)
     ),
     "offset_two_digit_years": lambda df, ctx: utils.offset_two_digit_years(df),
-    "austin_calculate_end_time": lambda df, ctx: austin_check(df, ctx["args"]),
+    "austin_calculate_end_time": lambda df, ctx: austin_check(df, ctx),
     "convert_milliseconds_to_datetime": lambda df,
     ctx: convert_milliseconds_to_datetime(df),
     "filter_null_rows": lambda df, ctx: filter_null_rows(df),
@@ -211,7 +220,6 @@ def create_parquet(file, args):
 
     df = pl.scan_csv(file, **params)
     context = {**config, "args": args}
-
     for step in config.get(
         "processing_pipeline", constants.DEFAULT_PROCESSING_PIPELINE
     ):
@@ -258,8 +266,7 @@ def partition_parquet(args):
 
     df.write_parquet(
         output_path,
-        use_pyarrow=True,
-        pyarrow_options={"partition_cols": ["year", "month"]},
+        partition_by=["year", "month"],
     )
 
     print("All files created and partitioned!")
@@ -370,13 +377,7 @@ def build_all_trips(args):
     trip_files = utils.get_csv_files(source_directory)
     filtered_files = filter_filenames(trip_files, args)
 
-    ## Adding to parquet path
-    if args.parquet:
-        convert_csvs_to_parquet(filtered_files, args)
-        partition_parquet(args)
-        # all_trips_df_lazy = get_dfs_for_parquet(filtered_files, args)
-        # utils.create_final_files_and_logs(all_trips_df_lazy, args)
-
-    ## Adding to doltdb path
-    else:
-        add_trips_to_db(filtered_files, args)
+    convert_csvs_to_parquet(filtered_files, args)
+    partition_parquet(args)
+    # all_trips_df_lazy = get_dfs_for_parquet(filtered_files, args)
+    # utils.create_final_files_and_logs(all_trips_df_lazy, args)
