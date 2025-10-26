@@ -223,16 +223,10 @@ def create_parquet(file, args):
 
     df = pl.scan_csv(file, **params)
     context = {**config, "args": args}
-    print(file)
     for step in config.get(
         "processing_pipeline", constants.DEFAULT_PROCESSING_PIPELINE
     ):
-        print(step)
         execute_step = PROCESSING_FUNCTIONS[step]
-        print(df.collect_schema().names())
-
-        # if "start_time" in df.collect_schema().names():
-        #     print(df.fetch(5).select(pl.col("start_time")))
         df = execute_step(df, context)
 
     parquet_directory = utils.get_parquet_directory(args.city)
@@ -273,7 +267,6 @@ def partition_parquet(args):
     ### Clear out old parquets each time so we don't keep adding to the same folder on each run
     delete_folder(output_path)
 
-    print(df)
     df.write_parquet(
         output_path,
         partition_by=["year", "month"],
