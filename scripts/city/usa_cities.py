@@ -212,11 +212,9 @@ def create_parquet(file, args):
     df = pl.scan_csv(file, **params)
     context = {**config, "args": args}
 
-    print(file)
     for step in config.get(
         "processing_pipeline", constants.DEFAULT_PROCESSING_PIPELINE
     ):
-        print(step)
         execute_step = PROCESSING_FUNCTIONS[step]
         df = execute_step(df, context)
 

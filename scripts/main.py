@@ -28,8 +28,7 @@ def setup_argparse():
 
     parser.add_argument("city", choices=set([*all_cities, "all"]))
 
-    args = parser.parse_args()
-    return args
+    return parser.parse_args()
 
 
 def build_city(args):
