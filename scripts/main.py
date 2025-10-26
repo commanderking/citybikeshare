@@ -1,20 +1,13 @@
 import argparse
 import city.usa_cities as usa_utils
-import city.taipei as taipei
 import city.mexico_city as mexico_city
-import city.bergen as bergen
-import city.trondheim as trondheim
-import city.helsinki as helsinki
 import constants
 
 other_cities = constants.GLOBAL_CITIES
 all_cities = constants.ALL_CITIES
 
 city_builders = {
-    "bergen": bergen.build_trips,
-    "trondheim": trondheim.build_trips,
     "mexico_city": mexico_city.build_trips,
-    "helsinki": helsinki.build_trips,
 }
 
 

@@ -2,23 +2,10 @@ import os
 import zipfile
 import datetime
 import requests
-import polars as pl
 import scripts.utils as utils
 
 ZIP_PATH = utils.get_zip_directory("helsinki")
 CSV_PATH = utils.get_raw_files_directory("helsinki")
-
-renamed_columns = {
-    "Departure": "start_time",
-    "Return": "end_time",
-    "Departure station name": "start_station_name",
-    "Return station name": "end_station_name",
-}
-
-date_columns = ["start_time", "end_time"]
-date_formats = ["%Y-%m-%dT%H:%M:%S"]
-
-final_columns = ["start_station_name", "end_station_name", "start_time", "end_time"]
 
 
 ### Referenced https://github.com/Geometrein/helsinki-city-bikes/blob/main/scraper.py
@@ -58,34 +45,6 @@ def unzip_files_in_directory(zip_dir, output_dir):
 def download_and_unzip():
     for year in range(2016, datetime.datetime.now().year + 1):
         download_year(year, ZIP_PATH)
-    unzip_files_in_directory(ZIP_PATH, CSV_PATH)
-
-
-def create_all_trips_df():
-    files = utils.get_csv_files(CSV_PATH)
-    all_dfs = []
-    for file in files:
-        print(f"reading {file}")
-
-        df = (
-            pl.read_csv(file, infer_schema_length=0)
-            .rename(renamed_columns)
-            .select(final_columns)
-            .pipe(utils.convert_columns_to_datetime(date_columns, date_formats))
-        )
-
-        all_dfs.append(df)
-
-    all_trips = pl.concat(all_dfs, how="diagonal")
-    return all_trips
-
-
-def build_trips(args):
-    df = create_all_trips_df()
-    utils.log_final_results(df, args)
-    utils.create_all_trips_file(df, args)
-    utils.create_recent_year_file(df, args)
-    return df
 
 
 if __name__ == "__main__":

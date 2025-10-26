@@ -107,8 +107,7 @@ def filter_null_rows(df):
     return df.filter(~pl.all_horizontal(pl.all().is_null()))
 
 
-def select_final_columns(df, custom_columns):
-    final_columns = custom_columns or constants.final_columns
+def select_final_columns(df, final_columns):
     return df.select(final_columns)
 
 
@@ -136,7 +135,7 @@ PROCESSING_FUNCTIONS = {
         )
     ),
     "select_final_columns": lambda df, ctx: select_final_columns(
-        df, ctx["final_columns"]
+        df, ctx.get("final_columns", constants.final_columns)
     ),
     "offset_two_digit_years": lambda df, ctx: utils.offset_two_digit_years(df),
     "austin_calculate_end_time": lambda df, ctx: austin_check(df, ctx["args"]),
@@ -351,6 +350,7 @@ def extract_zip_files(city):
                 word in file_path for word in constants.config[city]["file_matcher"]
             )
 
+    print()
     utils.unzip_city_zips(city, city_match)
 
 

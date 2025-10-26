@@ -16,6 +16,7 @@ CITY_SYNC_MAP = {
     "austin": "python3 ./scripts/city/austin.py",
     "bergen": "python3 ./scripts/city/bergen.py",
     "chattanooga": "python3 ./scripts/city/chattanooga.py",
+    "helsinki": "python3 ./scripts/city/helsinki.py",
     # Mexico City can't open dropdowns to view files right now
     # "mexico_city": "python3 ./scripts/city/mexico_city.py",
     "montreal": "python3 ./scripts/city/montreal.py",
@@ -24,7 +25,6 @@ CITY_SYNC_MAP = {
     "los_angeles": "python3 ./scripts/city/los_angeles.py",
     "oslo": "python3 ./scripts/city/oslo.py",
     "trondheim": "python3 ./scripts/city/trondheim.py",
-    # Vancouver is slow because of google drive - we have to open each google drive link before we can check if data can be downloaded
     "vancouver": "python3 ./scripts/city/vancouver.py",
     "toronto": "python3 ./scripts/city/toronto.py",
 }

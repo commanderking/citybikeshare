@@ -1,0 +1,22 @@
+name: helsinki
+system_name: helsinki_bikeshare
+file_matcher:
+  - 2020
+  - .zip
+
+renamed_columns:
+  Departure: start_time
+  Return: end_time
+  Departure station name: start_station_name
+  Return station name: end_station_name
+
+date_formats:
+  - "%Y-%m-%dT%H:%M:%S"
+
+read_csv_options:
+  encoding: "utf8-lossy"
+processing_pipeline:
+  - rename_columns
+  - select_final_columns
+  - convert_to_datetime
+
