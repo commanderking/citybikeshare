@@ -2,16 +2,15 @@ import polars as pl
 from pathlib import Path
 from typing import Any, Dict
 import yaml
-from scripts import constants
 
-CONFIG_DIR = Path(__file__).parent / "metadata"
+CONFIG_DIR = Path(__file__).parent / "cities"
 
 DTYPE_MAP = {
     "Utf8": pl.Utf8,
     "Int64": pl.Int64,
     "Float64": pl.Float64,
     "Date": pl.Date,
-    "Datetime": pl.Datetime,  # You can add unit if needed
+    "Datetime": pl.Datetime,
     "Boolean": pl.Boolean,
 }
 
@@ -34,8 +33,5 @@ def load_city_config(city: str) -> Dict[str, Any]:
         }
 
         return config
-
-    # fallback to old Python constants until yaml config is complete
-    if city not in constants.config:
-        raise KeyError(f"No config found for city: {city}")
-    return constants.config[city]
+    else:
+        raise Exception(f"No YAML file found for {city}")
