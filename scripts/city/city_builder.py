@@ -171,7 +171,6 @@ PROCESSING_FUNCTIONS = {
     ctx: utils.join_mexico_city_station_names(df),
     "clean_datetimes": lambda df, ctx: utils.clean_datetimes(df),
     "combine_datetimes": lambda df, ctx: utils.combine_datetimes(df),
-    "normalize_month_names": lambda df, ctx: normalize_month_names(df),
 }
 
 
@@ -378,13 +377,7 @@ def build_all_trips(args):
     trip_files = utils.get_csv_files(source_directory)
     filtered_files = filter_filenames(trip_files, args)
 
-    ## Adding to parquet path
-    if args.parquet:
-        convert_csvs_to_parquet(filtered_files, args)
-        partition_parquet(args)
-        # all_trips_df_lazy = get_dfs_for_parquet(filtered_files, args)
-        # utils.create_final_files_and_logs(all_trips_df_lazy, args)
-
-    ## Adding to doltdb path
-    else:
-        add_trips_to_db(filtered_files, args)
+    convert_csvs_to_parquet(filtered_files, args)
+    partition_parquet(args)
+    # all_trips_df_lazy = get_dfs_for_parquet(filtered_files, args)
+    # utils.create_final_files_and_logs(all_trips_df_lazy, args)

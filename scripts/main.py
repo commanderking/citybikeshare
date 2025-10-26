@@ -1,5 +1,5 @@
 import argparse
-import city.usa_cities as usa_utils
+import city.city_builder as city_builder
 import constants
 
 all_cities = constants.ALL_CITIES
@@ -7,17 +7,7 @@ all_cities = constants.ALL_CITIES
 
 def setup_argparse():
     parser = argparse.ArgumentParser(
-        description="Merging all bikeshare trip data into One CSV or parquet file"
-    )
-
-    parser.add_argument(
-        "--csv",
-        help="Output merged bike trip data into csv file. Default output is parquet file",
-        action="store_true",
-    )
-
-    parser.add_argument(
-        "--parquet", help="Generates a parquet file with all trips", action="store_true"
+        description="Merging all bikeshare trip data into parquet files"
     )
 
     parser.add_argument(
@@ -43,13 +33,13 @@ def build_city(args):
             print(f"🚀 Running sync for {name}")
             try:
                 args.city = name
-                usa_utils.build_all_trips(args)
+                city_builder.build_all_trips(args)
 
                 print(f"✅ Successfully built {name}\n")
             except Exception as e:
                 print(f"❌ Error building {name}: {e}\n")
     else:
-        usa_utils.build_all_trips(args)
+        city_builder.build_all_trips(args)
 
 
 if __name__ == "__main__":
