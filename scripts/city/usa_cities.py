@@ -117,8 +117,6 @@ def filter_null_rows(df):
 
 
 def select_final_columns(df, final_columns):
-    print("no final columns?")
-    print(final_columns)
     return df.select(final_columns)
 
 
