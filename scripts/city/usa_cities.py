@@ -157,6 +157,11 @@ PROCESSING_FUNCTIONS = {
     ),
     ### Taipei
     "handle_odd_hour_duration": lambda df, ctx: handle_odd_hour_duration(df),
+    ### Mexico City
+    "join_mexico_city_station_names": lambda df,
+    ctx: utils.join_mexico_city_station_names(df),
+    "clean_datetimes": lambda df, ctx: utils.clean_datetimes(df),
+    "combine_datetimes": lambda df, ctx: utils.combine_datetimes(df),
 }
 
 
@@ -207,9 +212,11 @@ def create_parquet(file, args):
     df = pl.scan_csv(file, **params)
     context = {**config, "args": args}
 
+    print(file)
     for step in config.get(
         "processing_pipeline", constants.DEFAULT_PROCESSING_PIPELINE
     ):
+        print(step)
         execute_step = PROCESSING_FUNCTIONS[step]
         df = execute_step(df, context)
 

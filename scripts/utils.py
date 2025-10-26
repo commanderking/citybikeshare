@@ -344,6 +344,94 @@ def handle_guadalajara_stations(df):
     return df
 
 
+def get_mexico_city_stations_lf():
+    STATION_INFORMATION_FILE = (
+        get_metadata_directory("mexico_city") / "station_information.json"
+    )
+
+    stations = []
+    with open(STATION_INFORMATION_FILE) as f:
+        results = json.load(f)
+        stations = results["data"]["stations"]
+    stations_lf = pl.LazyFrame(stations).select(["station_id", "name"])
+    return stations_lf
+
+
+def join_mexico_city_station_names(df):
+    stations_lf = get_mexico_city_stations_lf()
+    return (
+        df.join(
+            stations_lf,
+            left_on="start_station_id",
+            right_on="station_id",
+            how="left",
+        )
+        .rename({"name": "start_station_name"})
+        .join(
+            stations_lf,
+            left_on="end_station_id",
+            right_on="station_id",
+            how="left",
+        )
+        .rename({"name": "end_station_name"})
+    )
+
+
+def clean_datetimes(df):
+    # Mexico City Specific For now
+    date_formats = ["%m-%d-%Y", "%d/%m/%Y", "%Y-%m-%d"]
+
+    time_formats = ["%H:%M:%S", "%H:%M:%S %p"]
+
+    return df.with_columns(
+        [
+            # Parse start/end dates
+            pl.coalesce(
+                [
+                    pl.col("start_date").str.strptime(pl.Datetime, fmt, strict=False)
+                    for fmt in date_formats
+                ]
+            ).alias("start_date"),
+            pl.coalesce(
+                [
+                    pl.col("end_date").str.strptime(pl.Datetime, fmt, strict=False)
+                    for fmt in date_formats
+                ]
+            ).alias("end_date"),
+            # Parse times (handling fractional seconds + padding)
+            pl.coalesce(
+                [
+                    pl.col("starting_time")
+                    .str.replace(r"\.\d+", "")
+                    .str.zfill(8)
+                    .str.strptime(pl.Time, fmt, strict=False)
+                    for fmt in time_formats
+                ]
+            ).alias("starting_time"),
+            pl.coalesce(
+                [
+                    pl.col("ending_time")
+                    .str.replace(r"\.\d+", "")
+                    .str.zfill(8)
+                    .str.strptime(pl.Time, fmt, strict=False)
+                    for fmt in time_formats
+                ]
+            ).alias("ending_time"),
+        ]
+    )
+
+
+def combine_datetimes(df):
+    return df.with_columns(
+        [
+            pl.col("start_date")
+            .dt.combine(pl.col("starting_time"))
+            .alias("start_time"),
+            pl.col("end_date").dt.combine(pl.col("ending_time")).alias("end_time"),
+        ]
+    )
+
+
 def convert_milliseconds_to_datetime(df):
     headers = df.collect_schema().names()
     ### most recent Montreal data notes start time and end time in ms whereas previous versions used a date.

@@ -1,0 +1,50 @@
+name: mexico_city
+system_name: mexico_city_bikeshare
+file_matcher:
+  - ".csv"
+  - ".zip"
+csv_to_parquet_pipeline: 
+  - normalize_newlines
+renamed_columns:
+  # Standard mappings
+  Genero_Usuario: gender
+  Edad_Usuario: age
+  Bici: bike_id
+  Ciclo_Estacion_Retiro: start_station_id
+  Fecha_Retiro: start_date
+  Hora_Retiro: starting_time
+  Ciclo_Estacion_Arribo: end_station_id
+  Fecha_Arribo: end_date
+  Hora_Arribo: ending_time
+
+  # Misaligned / lowercase variant (2022-09.csv)
+  Genero_usuario: gender
+  Edad_usuario: age
+  CE_retiro: start_station_id
+  Fecha_retiro: start_date
+  Hora_retiro: starting_time
+  CE_arribo: end_station_id
+  Fecha_arribo: end_date
+  Hora_arribo: ending_time
+
+  # Typos and irregular header corrections
+  Ciclo_EstacionArribo: end_station_id
+  Fecha Arribo: end_date
+  Hora Arribo: ending_time
+  Hora_Retiro_duplicated_0: ending_time
+
+date_formats:
+  - "%m-%d-%Y"
+  - "%d/%m/%Y"
+  - "%Y-%m-%d"
+
+read_csv_options:
+  encoding: "utf8-lossy"
+processing_pipeline:
+  - rename_columns
+  - join_mexico_city_station_names
+  - clean_datetimes
+  - combine_datetimes
+  - offset_two_digit_years
+  - select_final_columns
+
