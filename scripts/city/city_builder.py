@@ -6,7 +6,7 @@ import shutil
 import utils_dolt
 import utils_bicycle_transit_systems
 import scripts.constants as constants
-from src.citybikeshare.config import load_city_config
+from src.citybikeshare.config.loader import load_city_config
 from pathlib import Path
 
 
@@ -286,25 +286,26 @@ def create_trip_df(file, args):
     return df
 
 
-def add_trips_to_db(files, args):
-    engine = utils_dolt.establish_engine()
-    for file in files:
-        city_config = constants.config[args.city]
-        file_metadata = get_file_metadata(file, city_config)
-        file_processed = utils_dolt.is_file_processed(engine, file_metadata)
-        file_name = file_metadata["name"]
-        if file_processed:
-            print(f"🟡 Skipping {file_name} - already processed")
-        else:
-            print(f"🐢 processing {file_name}")
+# Old way of importing into doltdb
+# def add_trips_to_db(files, args):
+#     engine = utils_dolt.establish_engine()
+#     for file in files:
+#         city_config = constants.config[args.city]
+#         file_metadata = get_file_metadata(file, city_config)
+#         file_processed = utils_dolt.is_file_processed(engine, file_metadata)
+#         file_name = file_metadata["name"]
+#         if file_processed:
+#             print(f"🟡 Skipping {file_name} - already processed")
+#         else:
+#             print(f"🐢 processing {file_name}")
 
-            # DEBUGGING TIPS
-            # For debugging and printing tables with null data for a particular column after formatting
-            # df_start_time = df.filter(pl.col("start_time").is_null())
-            # print(df_start_time)
-            df_lazy = create_trip_df(file, args)
+#             # DEBUGGING TIPS
+#             # For debugging and printing tables with null data for a particular column after formatting
+#             # df_start_time = df.filter(pl.col("start_time").is_null())
+#             # print(df_start_time)
+#             df_lazy = create_trip_df(file, args)
 
-            utils_dolt.insert_trip_data(engine, df_lazy, file_metadata)
+#             utils_dolt.insert_trip_data(engine, df_lazy, file_metadata)
 
 
 ### Vancouver data currently has hidden \r in files (probably from Google Doc or Windows save)
