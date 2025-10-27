@@ -12,6 +12,20 @@ DEFAULT_PROCESSING_PIPELINE = [
     "select_final_columns",
 ]
 
+BICYCLE_TRANSIT_SYSTEMS_RENAMED_STATION_COLUMNS = {
+    ## Philadelphia
+    "Station_ID": "station_id",
+    "Station_Name": "station_name",
+    "Day of Go_live_date": "go_live_date",
+    ## Los Angeles
+    "Kiosk ID": "station_id",
+    "Kiosk Name": "station_name",
+    "Go Live Date": "go_live_date",
+    ## Both
+    "Status": "status",
+}
+
+
 ## TODO: Update to dynamically generate results
 ALL_CITIES = [
     "columbus",

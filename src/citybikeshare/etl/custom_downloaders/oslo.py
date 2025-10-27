@@ -2,17 +2,23 @@ import os
 import json
 from playwright.sync_api import sync_playwright
 import requests
-import scripts.utils as utils
-from scripts.city.utils.norway_cities import (
+from src.citybikeshare.etl.custom_downloaders.utils.norway_cities import (
     click_buttons_to_download,
 )
 
+from src.citybikeshare.utils.paths import (
+    get_zip_directory,
+    get_raw_files_directory,
+    get_metadata_directory,
+)
+
+
 CITY = "oslo"
 
-ZIP_PATH = utils.get_zip_directory(CITY)
+ZIP_PATH = get_zip_directory(CITY)
 OPEN_DATA_URL = "https://oslobysykkel.no/en/open-data/historical"
-CSV_PATH = utils.get_raw_files_directory(CITY)
-METADATA_PATH = utils.get_metadata_directory(CITY)
+CSV_PATH = get_raw_files_directory(CITY)
+METADATA_PATH = get_metadata_directory(CITY)
 CURRENT_STATIONS_URL = (
     "https://gbfs.urbansharing.com/oslobysykkel.no/station_information.json"
 )

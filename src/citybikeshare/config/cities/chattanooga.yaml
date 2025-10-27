@@ -1,7 +1,7 @@
 name: chattanooga
 system_name: chattanooga_bikeshare
 source_url: "https://www.chattadata.org/dataset/Historical-Bike-Chattanooga-Trip-Data/wq49-8xgg/about_data"
-aws_sync: true
+aws_sync: false
 
 file_matcher:
   - chattanooga_all_trips

@@ -6,8 +6,8 @@ import importlib
 import subprocess
 from pathlib import Path
 from typing import Optional
-from scripts.utils import get_sync_output_directory
 from src.citybikeshare.config.loader import load_city_config
+from src.citybikeshare.utils.paths import get_sync_output_directory
 
 
 def download_city_data(city: str, output_dir: Optional[Path] = None) -> Path:

@@ -3,12 +3,12 @@ from io import BytesIO
 import os
 import requests
 
-import scripts.utils as utils
+from src.citybikeshare.utils.paths import get_raw_files_directory
 
 
 def download(config):
     city = config.get("name")
-    csv_path = utils.get_raw_files_directory(city)
+    csv_path = get_raw_files_directory(city)
     # To hit our API, you'll be making requests to:
     base_url = "https://ckan0.cf.opendata.inter.prod-toronto.ca"
 
