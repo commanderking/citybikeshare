@@ -11,6 +11,7 @@ Examples:
 """
 
 import typer
+import traceback
 from src.citybikeshare.etl.transform import transform
 
 app = typer.Typer(help="Transform (clean and combine) bikeshare CSVs for a given city.")
@@ -32,21 +33,13 @@ def main(
     """
     Clean, standardize, and combine extracted CSV files for the given city.
     """
-    try:
-        ## Temporary - a remnant from moving over from argparse where args.city was used to access city
-        args = Args(city=city)
+    ## Temporary - a remnant from moving over from argparse where args.city was used to access city
+    args = Args(city=city)
 
-        typer.echo(f"🧼 Starting transform for city: {city}")
-        transform(args)
+    typer.echo(f"🧼 Starting transform for city: {city}")
+    transform(args)
 
-        typer.echo("✅ Success!")
-
-    except FileNotFoundError as e:
-        typer.secho(f"❌ No CSV files found for {city}: {e}", fg=typer.colors.RED)
-        raise typer.Exit(code=1)
-    except Exception as e:
-        typer.secho(f"❌ Transform failed for {city}: {e}", fg=typer.colors.RED)
-        raise typer.Exit(code=1)
+    typer.echo("✅ Success!")
 
 
 if __name__ == "__main__":

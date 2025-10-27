@@ -15,7 +15,8 @@ from typing import List
 import tempfile
 
 from src.citybikeshare.config.loader import load_city_config
-import scripts.utils as utils
+
+from src.citybikeshare.utils.paths import get_zip_directory, get_raw_files_directory
 
 
 def extract_city_data(city: str, overwrite: bool = False) -> List[Path]:
@@ -39,8 +40,8 @@ def extract_city_data(city: str, overwrite: bool = False) -> List[Path]:
     cfg = load_city_config(city)
     city_name = cfg["name"]
 
-    zip_dir = utils.get_zip_directory(city_name)
-    raw_dir = utils.get_raw_files_directory(city_name)
+    zip_dir = get_zip_directory(city_name)
+    raw_dir = get_raw_files_directory(city_name)
     raw_dir.mkdir(parents=True, exist_ok=True)
 
     if overwrite:

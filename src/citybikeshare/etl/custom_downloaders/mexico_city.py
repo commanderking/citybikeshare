@@ -2,13 +2,17 @@ import os
 import requests
 import json
 from playwright.sync_api import sync_playwright
-import scripts.utils as utils
+from src.citybikeshare.utils.paths import (
+    get_zip_directory,
+    get_raw_files_directory,
+    get_metadata_directory,
+)
 
-CSV_PATH = utils.get_raw_files_directory("mexico_city")
+CSV_PATH = get_raw_files_directory("mexico_city")
 MEXICO_CITY_OPEN_DATA_URL = "https://ecobici.cdmx.gob.mx/en/open-data/"
-MEXICO_CSVS_PATH = utils.get_raw_files_directory("mexico_city")
+MEXICO_CSVS_PATH = get_raw_files_directory("mexico_city")
 STATION_INFORMATION_FILE = (
-    utils.get_metadata_directory("mexico_city") / "station_information.json"
+    get_metadata_directory("mexico_city") / "station_information.json"
 )
 
 
@@ -68,7 +72,7 @@ def get_stations_info():
 def download(config):
     url = config.get("source_url")
     city = config.get("name")
-    csv_path = utils.get_raw_files_directory(city)
+    csv_path = get_raw_files_directory(city)
     # Mexico City data only includes station ids, not names
     # get_stations_info()
     with sync_playwright() as playwright:

@@ -1,9 +1,9 @@
 import os
 import shutil
 from playwright.sync_api import sync_playwright
-import scripts.utils as utils
+from src.citybikeshare.utils.paths import get_zip_directory
 
-ZIP_PATH = utils.get_zip_directory("montreal")
+ZIP_PATH = get_zip_directory("montreal")
 OPEN_DATA_URL = "https://bixi.com/en/open-data/"
 
 
@@ -28,7 +28,7 @@ def run_get_exports(playwright, url, csv_path):
 
 def download(config):
     """Standard entrypoint for ETL to call."""
-    zip_path = utils.get_zip_directory(config["name"])
+    zip_path = get_zip_directory(config["name"])
     url = config["source_url"]
     with sync_playwright() as playwright:
         shutil.rmtree(zip_path, ignore_errors=True)

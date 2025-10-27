@@ -1,12 +1,12 @@
 import os
 import requests
-import scripts.utils as utils
+from src.citybikeshare.utils.paths import get_zip_directory, get_raw_files_directory
 from playwright.sync_api import sync_playwright
 
 
 def run(playwright, url, city):
-    STATIONS_CSV_PATH = utils.get_raw_files_directory(city)
-    DOWNLOAD_PATH = utils.get_zip_directory(city)
+    STATIONS_CSV_PATH = get_raw_files_directory(city)
+    DOWNLOAD_PATH = get_zip_directory(city)
     # Create a downloaded zip directory if it doesn't exist
     os.makedirs(DOWNLOAD_PATH, exist_ok=True)
 

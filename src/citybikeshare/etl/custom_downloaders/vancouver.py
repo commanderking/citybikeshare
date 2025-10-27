@@ -3,9 +3,11 @@ import scripts.utils as utils
 from src.citybikeshare.etl.custom_downloaders.utils.download_helpers import (
     download_if_new_data,
 )
+from src.citybikeshare.utils.paths import get_raw_files_directory
+
 
 OPEN_DATA_URL = "https://www.mobibikes.ca/en/system-data"
-CSV_PATH = utils.get_raw_files_directory("vancouver")
+CSV_PATH = get_raw_files_directory("vancouver")
 date_formats = ["%Y-%m-%d %H:%M", "%m/%d/%Y %H:%M"]
 
 
@@ -40,6 +42,6 @@ def run_get_exports(playwright, url, csv_path):
 def download(config):
     url = config.get("source_url")
     city = config.get("name")
-    csv_path = utils.get_raw_files_directory(city)
+    csv_path = get_raw_files_directory(city)
     with sync_playwright() as playwright:
         run_get_exports(playwright, url, csv_path)

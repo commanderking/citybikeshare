@@ -3,9 +3,9 @@ import json
 import csv
 import urllib.request
 from playwright.sync_api import sync_playwright
-import scripts.utils as utils
+from src.citybikeshare.utils.paths import get_zip_directory, get_raw_files_directory
 
-CSV_PATH = utils.get_raw_files_directory("pittsburgh")
+CSV_PATH = get_raw_files_directory("pittsburgh")
 
 
 def run(playwright):

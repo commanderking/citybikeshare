@@ -1,8 +1,10 @@
-import os
 from playwright.sync_api import sync_playwright, TimeoutError as PlaywrightTimeoutError
-import scripts.utils as utils
 from src.citybikeshare.etl.custom_downloaders.utils.download_helpers import (
     download_if_new_data,
+)
+from src.citybikeshare.utils.paths import (
+    get_zip_directory,
+    get_raw_files_directory,
 )
 
 
@@ -40,8 +42,8 @@ def run_get_exports(playwright, url, zip_path, csv_path):
 
 
 def download_files(url, city):
-    zip_path = utils.get_zip_directory(city)
-    csv_path = utils.get_raw_files_directory(city)
+    zip_path = get_zip_directory(city)
+    csv_path = get_raw_files_directory(city)
 
     with sync_playwright() as playwright:
         run_get_exports(playwright, url, zip_path, csv_path)

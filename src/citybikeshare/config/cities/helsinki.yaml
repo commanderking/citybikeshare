@@ -4,7 +4,6 @@ source_url: "https://hri.fi/data/en_GB/dataset/helsingin-ja-espoon-kaupunkipyori
 aws_sync: false
 
 file_matcher:
-  - 2020
   - .zip
 
 renamed_columns:

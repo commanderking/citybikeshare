@@ -1,10 +1,10 @@
 import os
 import requests
 from playwright.sync_api import sync_playwright
-import scripts.utils as utils
+from src.citybikeshare.utils.paths import get_raw_files_directory
 
 CSV_EXTENSION = ".csv"
-CSV_PATH = utils.get_raw_files_directory("guadalajara")
+CSV_PATH = get_raw_files_directory("guadalajara")
 OPEN_DATA_ROOT = "https://www.mibici.net"
 OPEN_DATA_URL = "https://www.mibici.net/es/datos-abiertos"
 
@@ -79,7 +79,7 @@ def download(config):
     url = config.get("source_url", "")
     city = config.get("city", "")
 
-    csv_path = utils.get_raw_files_directory(city)
+    csv_path = get_raw_files_directory(city)
 
     with sync_playwright() as playwright:
         csv_links = get_csv_links(playwright, url)

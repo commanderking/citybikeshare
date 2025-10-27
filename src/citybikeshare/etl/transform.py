@@ -1,21 +1,21 @@
 import os
-import hashlib
 import polars as pl
-import scripts.utils as utils
-import shutil
-import scripts.utils_bicycle_transit_systems as utils_bicycle_transit_systems
-import scripts.constants as constants
-from src.citybikeshare.config.loader import load_city_config
 from pathlib import Path
+import scripts.utils as utils
+from src.citybikeshare.config.loader import load_city_config
+from src.citybikeshare.utils.io_transform import (
+    delete_folder,
+)
 
 
-def compute_file_hash(filepath, chunk_size=8192):
-    """Compute SHA256 hash for file integrity checking."""
-    hasher = hashlib.sha256()
-    with open(filepath, "rb") as f:
-        while chunk := f.read(chunk_size):
-            hasher.update(chunk)
-    return hasher.hexdigest()
+from src.citybikeshare.etl.pipelines.common import PROCESSING_FUNCTIONS
+from src.citybikeshare.etl.constants import DEFAULT_PROCESSING_PIPELINE
+from src.citybikeshare.utils.paths import (
+    get_parquet_directory,
+    get_city_output_directory,
+    get_raw_files_directory,
+    get_csv_files,
+)
 
 
 def filter_filenames(filenames, config):
@@ -34,142 +34,6 @@ def filter_filenames(filenames, config):
         )
     ]
     return files
-
-
-def austin_check(df, context):
-    """
-    Parse Austin start_time using all available date_formats,
-    ensure duration_minutes is numeric, and compute end_time.
-    """
-    date_formats = context.get("date_formats", ["%m/%d/%Y %I:%M:%S %p"])
-
-    # Have consistent start time
-    df = df.with_columns(
-        [
-            pl.coalesce(
-                [
-                    pl.col("start_time")
-                    .str.replace(r"\.\d+", "")  # strip decimals
-                    .str.strptime(pl.Datetime, fmt, strict=False)
-                    for fmt in date_formats
-                ]
-            ).alias("start_time"),
-            ## Austin has some numbers that have commas (1,027)
-            pl.col("duration_minutes").str.replace_all(",", "").cast(pl.Int32),
-        ]
-    )
-
-    # Compute end_time
-    df = df.with_columns(
-        (pl.col("start_time") + pl.duration(minutes=pl.col("duration_minutes"))).alias(
-            "end_time"
-        )
-    )
-
-    return df
-
-
-def process_bicycle_transit_system(df, args):
-    stations_df = utils_bicycle_transit_systems.stations_csv_to_df(args)
-    df = utils_bicycle_transit_systems.append_station_names(df, stations_df).drop(
-        "start_station_id", "end_station_id"
-    )
-    return df
-
-
-def get_file_metadata(filepath, city_config):
-    """Get file size and last modified timestamp."""
-    stat = os.stat(filepath)
-    size = stat.st_size
-    modified_at = stat.st_mtime
-    name = os.path.basename(filepath)
-    file_hash = compute_file_hash(filepath)
-
-    return {
-        "size": size,
-        "modified_at": modified_at,
-        "name": name,
-        "file_hash": file_hash,
-        "system_name": city_config["system_name"],
-    }
-
-
-def convert_milliseconds_to_datetime(df):
-    headers = df.collect_schema().names()
-    ### most recent Montreal data notes start time and end time in ms whereas previous versions used a date.
-    if "start_ms" in headers:
-        df = df.with_columns(
-            # start_ms auto converts to string instead of integer - cast before converting to datetime
-            [pl.col("start_ms").cast(pl.Int64), pl.col("end_ms").cast(pl.Int64)]
-        ).with_columns(
-            [
-                pl.from_epoch("start_ms", time_unit="ms").alias("start_time"),
-                pl.from_epoch("end_ms", time_unit="ms").alias("end_time"),
-            ]
-        )
-    return df
-
-
-def filter_null_rows(df):
-    return df.filter(~pl.all_horizontal(pl.all().is_null()))
-
-
-def select_final_columns(df, final_columns):
-    return df.select(final_columns)
-
-
-def handle_odd_hour_duration(df):
-    ### HH:MM:SS - but hours can go over 24 for Taipei
-    parts = pl.col("duration").str.split_exact(":", 3)
-    return df.with_columns(
-        (
-            # hour to seconds
-            parts.struct.field("field_0").cast(pl.Int64) * 3600
-            # minutes to seconds
-            + parts.struct.field("field_1").cast(pl.Int64) * 60
-            + parts.struct.field("field_2").cast(pl.Int64)
-        ).alias("duration")
-    )
-
-
-PROCESSING_FUNCTIONS = {
-    "rename_columns": lambda df, ctx: df.pipe(
-        utils.rename_columns_for_keys(ctx["renamed_columns"])
-    ),
-    "convert_to_datetime": lambda df, ctx: df.pipe(
-        utils.convert_columns_to_datetime(
-            ["start_time", "end_time"], ctx["date_formats"]
-        )
-    ),
-    "select_final_columns": lambda df, ctx: select_final_columns(
-        df, ctx.get("final_columns", constants.DEFAULT_FINAL_COLUMNS)
-    ),
-    "offset_two_digit_years": lambda df, ctx: utils.offset_two_digit_years(df),
-    "austin_calculate_end_time": lambda df, ctx: austin_check(df, ctx),
-    "convert_milliseconds_to_datetime": lambda df,
-    ctx: convert_milliseconds_to_datetime(df),
-    "filter_null_rows": lambda df, ctx: filter_null_rows(df),
-    # City-centric functions
-    ### Oslo
-    "handle_oslo_legacy_stations": lambda df, ctx: utils.handle_oslo_legacy_stations(
-        df, ctx["args"]
-    ),
-    ### Philadelphia and Los Angeles
-    "process_bicycle_transit_stations": lambda df, ctx: process_bicycle_transit_system(
-        df, ctx["args"]
-    ),
-    ### Guadalajara
-    "handle_guadalajara_stations": lambda df, ctx: utils.handle_guadalajara_stations(
-        df
-    ),
-    ### Taipei
-    "handle_odd_hour_duration": lambda df, ctx: handle_odd_hour_duration(df),
-    ### Mexico City
-    "join_mexico_city_station_names": lambda df,
-    ctx: utils.join_mexico_city_station_names(df),
-    "clean_datetimes": lambda df, ctx: utils.clean_datetimes(df),
-    "combine_datetimes": lambda df, ctx: utils.combine_datetimes(df),
-}
 
 
 def determine_has_header(file_path, expected_columns):
@@ -218,13 +82,11 @@ def create_parquet(file, args):
 
     df = pl.scan_csv(file, **params)
     context = {**config, "args": args}
-    for step in config.get(
-        "processing_pipeline", constants.DEFAULT_PROCESSING_PIPELINE
-    ):
+    for step in config.get("processing_pipeline", DEFAULT_PROCESSING_PIPELINE):
         execute_step = PROCESSING_FUNCTIONS[step]
         df = execute_step(df, context)
 
-    parquet_directory = utils.get_parquet_directory(args.city)
+    parquet_directory = get_parquet_directory(args.city)
     file_name = os.path.basename(file).replace(".csv", ".parquet")
     parquet_path = parquet_directory / file_name
 
@@ -233,8 +95,8 @@ def create_parquet(file, args):
 
 
 def partition_parquet(args):
-    parquet_directory = utils.get_parquet_directory(args.city)
-    output_path = utils.get_city_output_directory(args.city)
+    parquet_directory = get_parquet_directory(args.city)
+    output_path = get_city_output_directory(args.city)
 
     print(f"Scanning all files in {parquet_directory}")
     lf = pl.scan_parquet(parquet_directory / "*.parquet").with_columns(
@@ -263,9 +125,7 @@ def create_trip_df(file, args):
     df = pl.scan_csv(file, infer_schema_length=0, **read_csv_options)
     context = {**config, "args": args}
 
-    for step in config.get(
-        "processing_pipeline", constants.DEFAULT_PROCESSING_PIPELINE
-    ):
+    for step in config.get("processing_pipeline", DEFAULT_PROCESSING_PIPELINE):
         fn = PROCESSING_FUNCTIONS[step]
         df = fn(df, context)
 
@@ -315,10 +175,8 @@ def get_dfs_for_parquet(files, args):
 
 
 def transform(args):
-    print(args)
-    source_directory = utils.get_raw_files_directory(args.city)
-
-    trip_files = utils.get_csv_files(source_directory)
+    source_directory = get_raw_files_directory(args.city)
+    trip_files = get_csv_files(source_directory)
     config = load_city_config(args.city)
     filtered_files = filter_filenames(trip_files, config)
 

@@ -2,9 +2,7 @@ import os
 import zipfile
 import datetime
 import requests
-import scripts.utils as utils
-
-ZIP_PATH = utils.get_zip_directory("helsinki")
+from src.citybikeshare.utils.paths import get_zip_directory
 
 
 ### Referenced https://github.com/Geometrein/helsinki-city-bikes/blob/main/scraper.py
@@ -43,6 +41,6 @@ def unzip_files_in_directory(zip_dir, output_dir):
 
 def download(config):
     city = config.get("name")
-    zip_path = utils.get_zip_directory(city)
+    zip_path = get_zip_directory(city)
     for year in range(2016, datetime.datetime.now().year + 1):
         download_year(year, zip_path)
