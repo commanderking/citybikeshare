@@ -1,5 +1,7 @@
 name: mexico_city
 system_name: mexico_city_bikeshare
+source_url: "https://ecobici.cdmx.gob.mx/en/open-data/"
+aws_sync: false
 file_matcher:
   - ".csv"
   - ".zip"

@@ -1,5 +1,8 @@
 name: helsinki
 system_name: helsinki_bikeshare
+source_url: "https://hri.fi/data/en_GB/dataset/helsingin-ja-espoon-kaupunkipyorilla-ajatut-matkat"
+aws_sync: false
+
 file_matcher:
   - 2020
   - .zip

@@ -1,5 +1,10 @@
 name: jersey_city
 system_name: jersey_city_bikeshare
+source_url: "https://citibikenyc.com/system-data"
+aws_sync: true
+# Should have s3_sync_options, but tacking on to script for now
+s3_bucket: s3://tripdata
+s3_sync_options: --exclude '*' --include 'JC-*'
 file_matcher:
   - JC-
 renamed_columns:

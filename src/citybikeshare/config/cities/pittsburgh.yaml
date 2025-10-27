@@ -1,5 +1,7 @@
 name: pittsburgh
 system_name: pittsburgh_bikeshare
+source_url: "https://data.wprdc.org/dataset/pogoh-trip-data"
+aws_sync: false
 file_matcher:
   - csv
 renamed_columns:

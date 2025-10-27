@@ -72,11 +72,8 @@ def run_get_exports(playwright, url):
     browser.close()
 
 
-def get_exports(url):
+def download(config):
+    url = config.get("source_url")
     get_stations_information()
     with sync_playwright() as playwright:
         run_get_exports(playwright, url)
-
-
-if __name__ == "__main__":
-    get_exports(OPEN_DATA_URL)

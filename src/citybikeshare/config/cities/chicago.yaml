@@ -1,5 +1,9 @@
 name: chicago
 system_name: chicago_bikeshare
+source_url: "https://divvybikes.com/system-data"
+aws_sync: true
+s3_bucket: s3://divvy-tripdata
+
 file_matcher:
   - trip
   - Trips

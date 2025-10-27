@@ -1,5 +1,7 @@
 name: trondheim
 system_name: trondheim_bikeshare
+source_url: "https://trondheimbysykkel.no/en/open-data/historical"
+aws_sync: false
 file_matcher:
   - "trips"
 renamed_columns:

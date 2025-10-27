@@ -1,5 +1,9 @@
 name: boston
 system_name: boston_bikeshare
+source_url: "https://bluebikes.com/system-data"
+aws_sync: true
+s3_bucket: s3://hubway-data
+
 file_matcher:
   - "-tripdata"
 renamed_columns:

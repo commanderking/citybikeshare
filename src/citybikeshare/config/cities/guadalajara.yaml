@@ -1,5 +1,8 @@
 name: guadalajara
 system_name: guadalajara_bikeshare
+source_url: "https://www.mibici.net/es/datos-abiertos/"
+aws_sync: false
+
 file_matcher:
   - "datos_abiertos"
 renamed_columns:

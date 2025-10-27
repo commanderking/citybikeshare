@@ -1,5 +1,7 @@
 name: philadelphia
 system_name: philadelphia_bikeshare
+source_url: https://www.rideindego.com/about/data/
+aws_sync: false
 file_matcher:
   - trips
   - Trips

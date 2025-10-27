@@ -5,7 +5,6 @@ import requests
 import scripts.utils as utils
 
 ZIP_PATH = utils.get_zip_directory("helsinki")
-CSV_PATH = utils.get_raw_files_directory("helsinki")
 
 
 ### Referenced https://github.com/Geometrein/helsinki-city-bikes/blob/main/scraper.py
@@ -42,10 +41,8 @@ def unzip_files_in_directory(zip_dir, output_dir):
             print(f"Skipping non-zip file: {zip_file}")
 
 
-def download_and_unzip():
+def download(config):
+    city = config.get("name")
+    zip_path = utils.get_zip_directory(city)
     for year in range(2016, datetime.datetime.now().year + 1):
-        download_year(year, ZIP_PATH)
-
-
-if __name__ == "__main__":
-    download_and_unzip()
+        download_year(year, zip_path)

@@ -1,5 +1,7 @@
 name: vancouver
 system_name: vancouver_bikeshare
+source_url: "https://www.mobibikes.ca/en/system-data"
+aws_sync: false
 
 file_matcher:
   - "System_Data"

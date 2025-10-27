@@ -1,6 +1,9 @@
 name: columbus
 system_name: columbus_bikeshare
 file_matcher: cogo-tripdata
+source_url: "https://cogobikeshare.com/system-data"
+aws_sync: true
+s3_bucket: "s3://cogo-sys-data"
 
 renamed_columns:
   # Commonized system data columns

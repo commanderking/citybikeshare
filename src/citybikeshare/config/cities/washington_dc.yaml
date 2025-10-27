@@ -1,5 +1,9 @@
 name: washington_dc
 system_name: washington_dc_bikeshare
+source_url: "https://capitalbikeshare.com/system-data"
+s3_bucket: s3://capitalbikeshare-data
+
+aws_sync: true
 file_matcher:
   - capitalbikeshare-tripdata
 renamed_columns:

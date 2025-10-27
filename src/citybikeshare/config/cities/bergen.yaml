@@ -1,5 +1,8 @@
 name: bergen
 system_name: bergen_bikeshare
+source_url: "https://bergenbysykkel.no/en/open-data/historical"
+aws_sync: false
+
 file_matcher:
   - "trips"
 renamed_columns:

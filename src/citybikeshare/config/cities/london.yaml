@@ -1,5 +1,9 @@
 name: london
 system_name: london_bikeshare
+source_url: "https://cycling.data.tfl.gov.uk/"
+aws_sync: true
+s3_bucket: s3://cycling.data.tfl.gov.uk/usage-stats
+
 file_matcher:
   - ".csv"
 

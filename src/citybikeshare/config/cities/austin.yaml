@@ -1,5 +1,8 @@
 name: austin
 system_name: austin_bikeshare
+source_url: "https://data.austintexas.gov/Transportation-and-Mobility/Austin-MetroBike-Trips/tyfh-5r8s/about_data"
+aws_sync: false
+
 file_matcher:
   - austin_all_trips.csv
 renamed_columns:
