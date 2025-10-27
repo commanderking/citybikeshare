@@ -23,6 +23,7 @@ pylint = "*"
 
 [scripts]
 sync = "python3 -m src.citybikeshare.cli.sync"
+extract = "python3 -m src.citybikeshare.cli.extract"
 build = "python3 ./scripts/main.py"
 analyze_city = "python3 ./scripts/analysis/main.py"
 analyze_trips_by_system_year = "python3 ./scripts/analysis/trips_by_year_system.py"
