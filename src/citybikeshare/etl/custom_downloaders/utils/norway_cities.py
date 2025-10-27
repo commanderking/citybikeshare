@@ -1,7 +1,9 @@
 import os
 from playwright.sync_api import sync_playwright, TimeoutError as PlaywrightTimeoutError
 import scripts.utils as utils
-import scripts.utils_playwright as utils_playwright
+from src.citybikeshare.etl.custom_downloaders.utils.download_helpers import (
+    download_if_new_data,
+)
 
 
 def click_buttons_to_download(page, buttons, zip_path, csv_path):
@@ -16,7 +18,7 @@ def click_buttons_to_download(page, buttons, zip_path, csv_path):
         try:
             with page.expect_download(timeout=5000) as download_info:
                 button.click()
-                utils_playwright.download_if_new_data(
+                download_if_new_data(
                     download_info, target_folder, desired_filename=desired_filename
                 )
         # For Trondheim, certain months do not have trip data. Rather than not show these files, Trondheim has a link, but the link leads to nothing!

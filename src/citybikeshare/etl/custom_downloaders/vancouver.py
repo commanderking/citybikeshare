@@ -1,6 +1,8 @@
 from playwright.sync_api import sync_playwright
 import scripts.utils as utils
-import scripts.utils_playwright as utils_playwright
+from src.citybikeshare.etl.custom_downloaders.utils.download_helpers import (
+    download_if_new_data,
+)
 
 OPEN_DATA_URL = "https://www.mobibikes.ca/en/system-data"
 CSV_PATH = utils.get_raw_files_directory("vancouver")
@@ -28,7 +30,7 @@ def run_get_exports(playwright, url, csv_path):
             with new_page.expect_download() as download_info:
                 # Perform the action that initiates download
                 new_page.get_by_label("Download", exact=True).click()
-            utils_playwright.download_if_new_data(
+            download_if_new_data(
                 download_info,
                 csv_path,
             )
