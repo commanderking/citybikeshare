@@ -27,9 +27,9 @@ def build_city(args):
     print(city)
 
     if city == "all":
-        print(f"Attempting to build all cities - {constants.CONFIG_CITIES} ")
+        print(f"Attempting to build all cities - {constants.ALL_CITIES} ")
 
-        for name in constants.CONFIG_CITIES:
+        for name in constants.ALL_CITIES:
             print(f"🚀 Running sync for {name}")
             try:
                 args.city = name
