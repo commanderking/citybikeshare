@@ -37,6 +37,39 @@ Pittsburgh old data can be found at: https://data.wprdc.org/dataset/healthyride-
 1. Copy the contents of .env.config to .env. 
 2. For PROJECT_ROOT, paste the path to this project on your local machine
 
+### Prerequisites
+
+1. Install Requirements
+
+- **Python 3.10+**
+- **Poetry** (recommended installation)
+
+```
+curl -sSL https://install.python-poetry.org | python3 -
+```
+
+Then follow instructions to add Poetry to your `PATH`. 
+
+2. Clone the Repo
+```
+git clone https://github.com/commanderking/citybikeshare.git
+cd citybikeshare
+```
+
+3. Create a venv (if this is your first time using poetry)
+
+```
+poetry config virtualenvs.in-project true
+```
+
+4. Install 
+
+```
+poetry install
+```
+
+
+
 ### Steps to syncing a city's data
 
 TODO: Insert 
@@ -97,6 +130,10 @@ https://data.gov.tw/dataset/67784
 ### Taipei 
 - Supposedly contains all trips that were transfers for the month
 https://data.gov.tw/dataset/169174
+
+### Seoul
+
+| Seoul         | <https://data.seoul.go.kr/dataList/OA-15182/F/1/datasetView.do#> |
 
 
 
