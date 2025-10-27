@@ -16,7 +16,6 @@ def clean_filename(filename):
 # For all monthly zips, unzip all csv files to folder
 # Read all csvs and bundle into one large parquet file
 def download(config):
-    print("inside")
     city = config.get("name")
     csv_path = utils.get_raw_files_directory(city)
     df = pl.read_csv(
@@ -26,9 +25,6 @@ def download(config):
     file_urls = df["fileURL"].to_list()
 
     for file_url in file_urls:
-        print(file_url)
-
-        print(file_url)
         # Make an HTTP GET request to fetch the content of the zip file
         response = requests.get(file_url, timeout=10000)
 
