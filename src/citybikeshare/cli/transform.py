@@ -11,7 +11,6 @@ Examples:
 """
 
 import typer
-import traceback
 from src.citybikeshare.etl.transform import transform
 
 app = typer.Typer(help="Transform (clean and combine) bikeshare CSVs for a given city.")

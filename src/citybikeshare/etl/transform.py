@@ -1,12 +1,10 @@
 import os
-import polars as pl
 from pathlib import Path
-import scripts.utils as utils
+import polars as pl
 from src.citybikeshare.config.loader import load_city_config
 from src.citybikeshare.utils.io_transform import (
     delete_folder,
 )
-
 
 from src.citybikeshare.etl.pipelines.common import PROCESSING_FUNCTIONS
 from src.citybikeshare.etl.constants import DEFAULT_PROCESSING_PIPELINE
@@ -163,15 +161,6 @@ def convert_csvs_to_parquet(files, args):
             CSV_TO_PARQUET_FUNCTIONS[step](file)
 
         create_parquet(file, args)
-
-
-def get_dfs_for_parquet(files, args):
-    file_dataframes = []
-    for file in files:
-        df_lazy = create_trip_df(file, args)
-        file_dataframes.append(df_lazy)
-
-    return pl.concat(file_dataframes)
 
 
 def transform(args):

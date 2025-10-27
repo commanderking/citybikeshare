@@ -25,6 +25,7 @@ pylint = "*"
 sync = "python3 -m src.citybikeshare.cli.sync"
 extract = "python3 -m src.citybikeshare.cli.extract"
 transform = "python3 -m src.citybikeshare.cli.transform"
+transform_all = "python3 -m src.citybikeshare.cli.transform_all"
 analyze_city = "python3 ./scripts/analysis/main.py"
 analyze_trips_by_system_year = "python3 ./scripts/analysis/trips_by_year_system.py"
 
