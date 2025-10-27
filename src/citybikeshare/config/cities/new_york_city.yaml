@@ -1,5 +1,10 @@
 name: new_york_city
 system_name: new_york_city_bikeshare
+source_url: "https://citibikenyc.com/system-data"
+aws_sync: true
+s3_bucket: s3://tripdata
+s3_sync_options:  --exclude 'JC-*'
+
 file_matcher:
   - citibike-tripdata
   - citbike-tripdata

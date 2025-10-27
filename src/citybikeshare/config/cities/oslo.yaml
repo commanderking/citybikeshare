@@ -1,5 +1,7 @@
 name: oslo
 system_name: oslo_bikeshare
+source_url: "https://oslobysykkel.no/en/open-data/historical"
+aws_sync: false
 file_matcher:
   - ".csv"
 renamed_columns:

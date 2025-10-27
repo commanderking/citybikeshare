@@ -1,5 +1,8 @@
 name: taipei
 system_name: taipei_bikeshare
+source_url: "https://data.gov.tw/dataset/150635"
+
+aws_sync: false
 file_matcher:
   - ".csv"
 renamed_columns:

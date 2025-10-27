@@ -72,6 +72,6 @@ def query_data(resource_ids):
                 print(f"{resource_id} returned with an error: {e}")
 
 
-if __name__ == "__main__":
+def download(config):
     resource_ids = get_monthly_resource_ids()
     query_data(resource_ids)

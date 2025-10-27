@@ -9,9 +9,6 @@ CSV_PATH = utils.get_raw_files_directory("chattanooga")
 FILE_PATH = os.path.join(CSV_PATH, FILE_NAME)
 
 
-def get_trips_csv():
-    utils_playwright.get_exports(URL, FILE_PATH)
-
-
-if __name__ == "__main__":
-    get_trips_csv()
+def download(config):
+    source_url = config.get("source_url", "")
+    utils_playwright.get_exports(source_url, FILE_PATH)

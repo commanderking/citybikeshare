@@ -1,7 +1,6 @@
 import os
 import requests
 import json
-import polars as pl
 from playwright.sync_api import sync_playwright
 import scripts.utils as utils
 
@@ -66,38 +65,11 @@ def get_stations_info():
         print(f"An unexpected error occurred: {e}")
 
 
-def get_exports(url, csv_path):
+def download(config):
+    url = config.get("source_url")
+    city = config.get("name")
+    csv_path = utils.get_raw_files_directory(city)
     # Mexico City data only includes station ids, not names
     # get_stations_info()
     with sync_playwright() as playwright:
         run_get_exports(playwright, url, csv_path)
-
-
-mexico_city_renamed_columns = {
-    "Genero_Usuario": "gender",
-    "Edad_Usuario": "age",
-    "Bici": "bike_id",
-    "Ciclo_Estacion_Retiro": "start_station_id",
-    "Fecha_Retiro": "start_date",
-    "Hora_Retiro": "starting_time",
-    "Ciclo_Estacion_Arribo": "end_station_id",
-    "Fecha_Arribo": "end_date",
-    "Hora_Arribo": "ending_time",
-}
-
-# Problem CSV - 2022-09.csv
-mexico_city_misaligned_renamed_columns = {
-    "Genero_usuario": "gender",
-    "Edad_usuario": "age",
-    "Bici": "bike_id",
-    "CE_retiro": "start_station_id",
-    "Fecha_retiro": "start_date",
-    "Hora_retiro": "starting_time",
-    "CE_arribo": "end_station_id",
-    "Fecha_arribo": "end_date",
-    "Hora_arribo": "ending_time",
-}
-
-
-if __name__ == "__main__":
-    get_exports(MEXICO_CITY_OPEN_DATA_URL, CSV_PATH)

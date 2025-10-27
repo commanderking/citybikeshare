@@ -1,5 +1,7 @@
 name: toronto
 system_name: toronto_bikeshare
+source_url: "https://open.toronto.ca/dataset/bike-share-toronto-ridership-data/"
+aws_sync: false
 file_matcher:
   - .csv
 renamed_columns:

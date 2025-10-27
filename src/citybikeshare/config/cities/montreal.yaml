@@ -1,5 +1,7 @@
 name: montreal
 system_name: montreal_bikeshare
+source_url: "https://bixi.com/en/open-data/"
+aws_sync: false
 file_matcher:
   - "DonneesOuvertes"
   - "OD"

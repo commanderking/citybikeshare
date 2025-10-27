@@ -1,5 +1,7 @@
 name: los_angeles
 system_name: los_angeles_bikeshare
+source_url: "https://bikeshare.metro.net/about/data/"
+aws_sync: false
 file_matcher:
   - trips
 renamed_columns:

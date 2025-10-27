@@ -16,16 +16,15 @@ pymysql = "*"
 sqlalchemy = "*"
 duckdb = "*"
 pyyaml = "*"
+typer = "*"
 
 [dev-packages]
 pylint = "*"
 
 [scripts]
-sync = "python3 ./scripts/sync_city.py"
-sync_all = "python3 sync.py"
+sync = "python3 -m src.citybikeshare.cli.sync"
 build = "python3 ./scripts/main.py"
 analyze_city = "python3 ./scripts/analysis/main.py"
-sync_and_build = "python3 ./scripts/sync_and_build_city.py"
 analyze_trips_by_system_year = "python3 ./scripts/analysis/trips_by_year_system.py"
 
 [requires]

@@ -72,15 +72,15 @@ def download_all_csvs(links, csv_path):
         download_csv(link, csv_path, REQUEST_HEADERS)
 
 
-def get_exports(url, csv_path):
+def download(config):
     """
     Fetch CSV links and download them to the specified path.
     """
+    url = config.get("source_url", "")
+    city = config.get("city", "")
+
+    csv_path = utils.get_raw_files_directory(city)
+
     with sync_playwright() as playwright:
         csv_links = get_csv_links(playwright, url)
     download_all_csvs(csv_links, csv_path)
-
-
-if __name__ == "__main__":
-    # Example usage
-    get_exports(OPEN_DATA_URL, CSV_PATH)

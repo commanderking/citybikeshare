@@ -35,10 +35,9 @@ def run_get_exports(playwright, url, csv_path):
     browser.close()
 
 
-def get_exports(url, csv_path):
+def download(config):
+    url = config.get("source_url")
+    city = config.get("name")
+    csv_path = utils.get_raw_files_directory(city)
     with sync_playwright() as playwright:
         run_get_exports(playwright, url, csv_path)
-
-
-if __name__ == "__main__":
-    get_exports(OPEN_DATA_URL, CSV_PATH)

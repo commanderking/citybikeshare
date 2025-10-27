@@ -50,20 +50,8 @@ def get_file_size_from_url(url):
     return None
 
 
-# Applicable for cities that update existing files with new data (Norway cities)
-def download_if_new_data(download_info, target_folder, **kwargs):
-    download = download_info.value
-    desired_filename = kwargs.get("desired_filename", download.suggested_filename)
-
-    file_size = get_file_size_from_url(download.url)
-    file_exists = utils.does_file_exist(desired_filename, file_size, target_folder)
-    if not file_exists:
-        print(f"Downloading {desired_filename}")
-        download.save_as(os.path.join(target_folder, desired_filename))
-    else:
-        print(f"🟡 Skipping download - {desired_filename} already downloaded")
-
-
-def get_bicycle_transit_systems_zips(url, city):
+def download_files(config):
+    city = config.get("name")
+    url = config.get("source_url")
     with sync_playwright() as playwright:
         run(playwright, url, city)
