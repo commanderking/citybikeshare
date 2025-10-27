@@ -1,10 +1,9 @@
 import os
 import hashlib
 import polars as pl
-import utils
+import scripts.utils as utils
 import shutil
-import utils_dolt
-import utils_bicycle_transit_systems
+import scripts.utils_bicycle_transit_systems as utils_bicycle_transit_systems
 import scripts.constants as constants
 from src.citybikeshare.config.loader import load_city_config
 from pathlib import Path
@@ -233,19 +232,6 @@ def create_parquet(file, args):
     print(f"✅ Created {os.path.basename(parquet_path)}")
 
 
-def delete_folder(folder_path):
-    """
-    Delete a folder and all its contents (files + subdirectories).
-    """
-    path = Path(folder_path)
-    if not path.exists():
-        print(f"⚠️ Folder not found: {path}")
-        return
-
-    shutil.rmtree(path)
-    print("🗑️  Clearing folder to write completely new parquets")
-
-
 def partition_parquet(args):
     parquet_directory = utils.get_parquet_directory(args.city)
     output_path = utils.get_city_output_directory(args.city)
@@ -284,28 +270,6 @@ def create_trip_df(file, args):
         df = fn(df, context)
 
     return df
-
-
-# Old way of importing into doltdb
-# def add_trips_to_db(files, args):
-#     engine = utils_dolt.establish_engine()
-#     for file in files:
-#         city_config = constants.config[args.city]
-#         file_metadata = get_file_metadata(file, city_config)
-#         file_processed = utils_dolt.is_file_processed(engine, file_metadata)
-#         file_name = file_metadata["name"]
-#         if file_processed:
-#             print(f"🟡 Skipping {file_name} - already processed")
-#         else:
-#             print(f"🐢 processing {file_name}")
-
-#             # DEBUGGING TIPS
-#             # For debugging and printing tables with null data for a particular column after formatting
-#             # df_start_time = df.filter(pl.col("start_time").is_null())
-#             # print(df_start_time)
-#             df_lazy = create_trip_df(file, args)
-
-#             utils_dolt.insert_trip_data(engine, df_lazy, file_metadata)
 
 
 ### Vancouver data currently has hidden \r in files (probably from Google Doc or Windows save)
@@ -350,13 +314,9 @@ def get_dfs_for_parquet(files, args):
     return pl.concat(file_dataframes)
 
 
-def build_all_trips(args):
+def transform(args):
+    print(args)
     source_directory = utils.get_raw_files_directory(args.city)
-
-    if args.skip_unzip is False:
-        utils.unzip_city_zips(args.city)
-    else:
-        print("skipping unzipping files")
 
     trip_files = utils.get_csv_files(source_directory)
     config = load_city_config(args.city)
@@ -364,5 +324,3 @@ def build_all_trips(args):
 
     convert_csvs_to_parquet(filtered_files, args)
     partition_parquet(args)
-    # all_trips_df_lazy = get_dfs_for_parquet(filtered_files, args)
-    # utils.create_final_files_and_logs(all_trips_df_lazy, args)
