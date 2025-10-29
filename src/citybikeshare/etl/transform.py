@@ -15,6 +15,8 @@ from src.citybikeshare.utils.paths import (
     get_csv_files,
 )
 
+from src.citybikeshare.utils.io_clean import convert_folder_encoding, CLEAN_FUNCTIONS
+
 
 def filter_filenames(filenames, config):
     matching_words = config.get("file_matcher")
@@ -45,8 +47,8 @@ def get_csv_scan_params(file_path, opts):
     has_header = opts.get("has_header", True)
     new_columns = opts.get("new_columns")
 
-    base = {**opts, "encoding": "utf8-lossy", "infer_schema_length": 0}
-    base = opts | {"encoding": "utf8-lossy", "infer_schema_length": 0}
+    print(opts)
+    base = {"encoding": "utf8-lossy", "infer_schema_length": 0} | opts
     if has_header == "auto":
         if not new_columns:
             raise ValueError("has_header: auto requires new_columns.")
@@ -62,6 +64,7 @@ def get_csv_scan_params(file_path, opts):
             }
         )
 
+    print(base)
     return base | (
         {"has_header": True}
         if has_header
@@ -78,6 +81,7 @@ def create_parquet(file, args):
     csv_options = config.get("read_csv_options", {})
     params = get_csv_scan_params(file, csv_options)
 
+    print(params)
     df = pl.scan_csv(file, **params)
     context = {**config, "args": args}
     for step in config.get("processing_pipeline", DEFAULT_PROCESSING_PIPELINE):
@@ -117,48 +121,13 @@ def partition_parquet(args):
     print("All files created and partitioned!")
 
 
-def create_trip_df(file, args):
-    config = load_city_config(args.city)
-    read_csv_options = config.get("read_csv_options", {})
-    df = pl.scan_csv(file, infer_schema_length=0, **read_csv_options)
-    context = {**config, "args": args}
-
-    for step in config.get("processing_pipeline", DEFAULT_PROCESSING_PIPELINE):
-        fn = PROCESSING_FUNCTIONS[step]
-        df = fn(df, context)
-
-    return df
-
-
-### Vancouver data currently has hidden \r in files (probably from Google Doc or Windows save)
-def normalize_newlines(csv_path: str) -> None:
-    """
-    Normalize line endings in a CSV file:
-    - Converts Windows (\r\n) and stray carriage returns (\r) to Unix (\n)
-
-    Parameters
-    ----------
-    csv_path : str
-        Path to the CSV file to clean.
-    backup : bool, default False
-        Whether to create a backup file (e.g., file.csv.bak) before overwriting.
-    """
-    path = Path(csv_path)
-
-    text = path.read_text(encoding="utf-8", errors="ignore")
-    text_clean = text.replace("\r\n", "\n").replace("\r", "\n")
-    path.write_text(text_clean, encoding="utf-8")
-
-
-CSV_TO_PARQUET_FUNCTIONS = {"normalize_newlines": normalize_newlines}
-
-
 def convert_csvs_to_parquet(files, args):
     config = load_city_config(args.city)
     for file in files:
-        csv_to_parquet_pipeline = config.get("csv_to_parquet_pipeline", [])
-        for step in csv_to_parquet_pipeline:
-            CSV_TO_PARQUET_FUNCTIONS[step](file)
+        print(f"Processing {file}")
+        clean_pipeline = config.get("clean_pipeline", [])
+        for step in clean_pipeline:
+            CLEAN_FUNCTIONS[step](file)
 
         create_parquet(file, args)
 
@@ -168,6 +137,15 @@ def transform(args):
     trip_files = get_csv_files(source_directory)
     config = load_city_config(args.city)
     filtered_files = filter_filenames(trip_files, config)
+
+    csv_encoding = config.get("csv_encoding")
+
+    if (
+        csv_encoding
+        and csv_encoding.lower() != "utf8"
+        and csv_encoding.lower() != "utf-8"
+    ):
+        convert_folder_encoding(source_directory, csv_encoding)
 
     convert_csvs_to_parquet(filtered_files, args)
     partition_parquet(args)

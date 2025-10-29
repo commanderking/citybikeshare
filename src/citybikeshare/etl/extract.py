@@ -37,8 +37,8 @@ def extract_city_data(city: str, overwrite: bool = False) -> List[Path]:
     List[Path]
         List of extracted CSV file paths ready for transform stage.
     """
-    cfg = load_city_config(city)
-    city_name = cfg["name"]
+    config = load_city_config(city)
+    city_name = config["name"]
 
     zip_dir = get_zip_directory(city_name)
     raw_dir = get_raw_files_directory(city_name)

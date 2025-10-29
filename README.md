@@ -135,7 +135,27 @@ https://data.gov.tw/dataset/169174
 
 | Seoul         | <https://data.seoul.go.kr/dataList/OA-15182/F/1/datasetView.do#> |
 
+### Daejeon 
+https://www.data.go.kr/data/15137219/fileData.do
 
+But when I last tried to download, got an error saying:
+"We're sorry, the file you selected is currently in the process of being recovered and cannot be provided at this time."
+
+### Changwon
+
+https://www.data.go.kr/data/15126280/fileData.do?recommendDataYn=Y
+
+Same as Daejeon - button works, and says update, but the download never starts
+
+### Rosario, Argentina
+
+https://datosabiertos.rosario.gob.ar/dataset/0e487f13-7725-4bbf-afea-52e429fa92e5?utm_source=chatgpt.com
+
+### Buenos Aires, Argentina
+
+https://data.buenosaires.gob.ar/sk/dataset/bicicletas-publicas 
+
+No duration data, just time of pickup?
 
 ### Data Cleaning Challenges
 

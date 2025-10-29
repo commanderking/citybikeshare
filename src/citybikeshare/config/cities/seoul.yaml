@@ -1,0 +1,64 @@
+name: seoul
+system_name: seoul_bikeshare
+source_url: "https://data.seoul.go.kr/dataList/OA-15182/F/1/datasetView.do#"
+aws_sync: false
+file_matcher:
+  - ".csv"
+
+excluded_filenames:
+# All files contain one instance of ?湯?
+  - "2021"
+# No headers in this file
+  - "대여정보_201812"
+  - 대여정보_201905
+  - 공공자전거 대여정보_201904
+renamed_columns:
+  자전거번호: bike_id
+  대여일시: start_time
+  대여 대여소번호: start_station_number
+  대여 대여소명: start_station_name
+  대여거치대: start_dock_number
+  반납일시: end_time
+  반납대여소번호: end_station_number
+  반납대여소명: end_station_name
+  반납거치대: end_dock_number
+  이용시간: duration_minutes
+  이용거리: distance_meters
+  이용시간(분): duration_minutes
+  이용거리(M): distance_meters
+  생년: birth_year
+  성별: gender
+  이용자종류: user_type
+  대여대여소ID: start_station_id
+  반납대여소ID: end_station_id
+  자전거구분: bike_type
+
+  대여대여소번호: start_station_id
+  대여대여소명: start_station_name
+
+  ## 2017_02
+  대여대여소: start_station_name
+  반납대여소: end_station_name
+
+  ## 2015
+  대여소번: start_station_number
+  대여소명: start_station_name
+  거치대번호: start_station_dock_number
+  반납 거치대번호: end_station_dock_number
+
+date_formats:
+- "%Y-%m-%d %H:%M:%S"
+
+
+cleaning_pipeline:
+  - encode_utf8
+
+cleaning_options:
+  source_encoding: EUC-KR
+
+processing_pipeline:
+  - clean_header_quotes
+  - rename_columns
+  - select_final_columns
+  - convert_to_datetime
+

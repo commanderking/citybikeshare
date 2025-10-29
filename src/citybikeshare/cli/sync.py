@@ -25,13 +25,10 @@ def main(
     """
     Download raw bikeshare data for the specified city.
     """
-    try:
-        typer.echo(f"📦 Starting sync for city: {city}")
-        download_city_data(city)
-        typer.secho(f"✅ Successfully synced data for {city}", fg=typer.colors.GREEN)
-    except Exception as e:
-        typer.secho(f"❌ Failed to sync data for {city}: {e}", fg=typer.colors.RED)
-        raise typer.Exit(code=1)
+
+    typer.echo(f"📦 Starting sync for city: {city}")
+    download_city_data(city)
+    typer.secho(f"✅ Successfully synced data for {city}", fg=typer.colors.GREEN)
 
 
 if __name__ == "__main__":

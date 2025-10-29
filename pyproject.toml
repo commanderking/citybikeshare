@@ -27,6 +27,7 @@ duckdb = "^1.1.0"
 
 # Optional visualization / frontend
 rich = "^14.2.0"
+chardet = "^5.2.0"
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^8.3.0"
@@ -38,6 +39,7 @@ types-requests = "^2.32.0.20241016"
 [tool.poetry.scripts]
 sync = "src.citybikeshare.cli.sync:app"
 extract = "src.citybikeshare.cli.extract:app"
+clean = "src.citybikeshare.cli.clean:app"
 transform = "src.citybikeshare.cli.transform:app"
 transform_all = "src.citybikeshare.cli.transform_all:app"
 

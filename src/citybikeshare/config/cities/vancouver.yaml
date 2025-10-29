@@ -6,7 +6,7 @@ aws_sync: false
 file_matcher:
   - "System_Data"
 
-csv_to_parquet_pipeline: 
+clean_pipeline: 
   - normalize_newlines
 renamed_columns:
   Departure: start_time
