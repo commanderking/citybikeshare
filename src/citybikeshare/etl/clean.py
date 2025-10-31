@@ -15,7 +15,7 @@ def convert_csvs_to_parquet(files, args):
             CLEAN_FUNCTIONS[step](file)
 
 
-def clean(args):
+def clean_city_data(args):
     city = args.city
     path = get_raw_files_directory(city)
     config = load_city_config(city)

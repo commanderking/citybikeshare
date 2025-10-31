@@ -74,7 +74,7 @@ def run_get_exports(playwright, url):
         print(f"Downloading {download.suggested_filename}")
         download.save_as(os.path.join(METADATA_PATH, download.suggested_filename))
 
-    click_buttons_to_download(page, csv_buttons, ZIP_PATH, CSV_PATH)
+    click_buttons_to_download(page, csv_buttons, ZIP_PATH)
     browser.close()
 
 

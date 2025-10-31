@@ -121,7 +121,7 @@ def convert_csvs_to_parquet(files, args):
         create_parquet(file, args)
 
 
-def transform(args):
+def transform_city_data(args):
     source_directory = get_raw_files_directory(args.city)
     trip_files = get_csv_files(source_directory)
     config = load_city_config(args.city)

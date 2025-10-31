@@ -37,7 +37,7 @@ def run(playwright, url, city):
     with page.expect_download() as stations_download_info:
         stations_csv_link.click()
     stations_download = stations_download_info.value
-    stations_download.save_as(os.path.join(STATIONS_CSV_PATH, "stations.csv"))
+    stations_download.save_as(os.path.join(DOWNLOAD_PATH, "stations.csv"))
     print(f"Downloaded {stations_download.suggested_filename} as stations.csv")
 
     browser.close()
