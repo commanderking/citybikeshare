@@ -8,7 +8,6 @@ from src.citybikeshare.etl.constants import (
 )
 
 from src.citybikeshare.utils.paths import (
-    get_zip_directory,
     get_raw_files_directory,
     get_metadata_directory,
 )
@@ -178,9 +177,9 @@ def get_stations_df(city):
     return df.lazy()
 
 
-def handle_oslo_legacy_stations(df, args):
-    stations_df = get_stations_df(args.city)
-    METADATA_PATH = get_metadata_directory(args.city)
+def handle_oslo_legacy_stations(df, context):
+    stations_df = get_stations_df(context.city)
+    METADATA_PATH = get_metadata_directory(context.city)
 
     stations_df = stations_df.select(["station_id", "name"]).with_columns(
         [pl.col("station_id").cast(pl.Int64)]
@@ -338,8 +337,8 @@ def combine_datetimes(df):
     )
 
 
-def stations_csv_to_df(args):
-    city = args.city
+def stations_csv_to_df(context):
+    city = context.city
     CSV_PATH = get_raw_files_directory(city)
     # LA has station names with special characters: CicLAvia South LA � Exposition Hub
     df = pl.scan_csv(os.path.join(CSV_PATH, "stations.csv"), encoding="utf8-lossy")

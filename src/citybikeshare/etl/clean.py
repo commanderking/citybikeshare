@@ -6,8 +6,8 @@ from src.citybikeshare.config.loader import load_city_config
 from src.citybikeshare.utils.paths import get_raw_files_directory
 
 
-def convert_csvs_to_parquet(files, args):
-    config = load_city_config(args.city)
+def convert_csvs_to_parquet(files, context):
+    config = load_city_config(context.city)
     for file in files:
         print(f"Processing {file}")
         clean_pipeline = config.get("clean_pipeline", [])
@@ -15,8 +15,8 @@ def convert_csvs_to_parquet(files, args):
             CLEAN_FUNCTIONS[step](file)
 
 
-def clean_city_data(args):
-    city = args.city
+def clean_city_data(context):
+    city = context.city
     path = get_raw_files_directory(city)
     config = load_city_config(city)
     clean_pipeline = config.get("clean_pipeline", [])

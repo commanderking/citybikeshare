@@ -71,18 +71,19 @@ def get_csv_scan_params(file_path, opts):
     )
 
 
-def create_parquet(file, args):
-    config = load_city_config(args.city)
+def create_parquet(file, context):
+    config = load_city_config(context.city)
     csv_options = config.get("read_csv_options", {})
+    city = config.get("name")
     params = get_csv_scan_params(file, csv_options)
 
     df = pl.scan_csv(file, **params)
-    context = {**config, "args": args}
+    context = {**config}
     for step in config.get("processing_pipeline", DEFAULT_PROCESSING_PIPELINE):
         execute_step = PROCESSING_FUNCTIONS[step]
         df = execute_step(df, context)
 
-    parquet_directory = get_parquet_directory(args.city)
+    parquet_directory = get_parquet_directory(city)
     file_name = os.path.basename(file).replace(".csv", ".parquet")
     parquet_path = parquet_directory / file_name
 
@@ -90,9 +91,9 @@ def create_parquet(file, args):
     print(f"✅ Created {os.path.basename(parquet_path)}")
 
 
-def partition_parquet(args):
-    parquet_directory = get_parquet_directory(args.city)
-    output_path = get_city_output_directory(args.city)
+def partition_parquet(context):
+    parquet_directory = get_parquet_directory(context.city)
+    output_path = get_city_output_directory(context.city)
 
     print(f"Scanning all files in {parquet_directory}")
     lf = pl.scan_parquet(parquet_directory / "*.parquet").with_columns(
@@ -121,11 +122,11 @@ def convert_csvs_to_parquet(files, args):
         create_parquet(file, args)
 
 
-def transform_city_data(args):
-    source_directory = get_raw_files_directory(args.city)
+def transform_city_data(context):
+    source_directory = get_raw_files_directory(context.city)
     trip_files = get_csv_files(source_directory)
-    config = load_city_config(args.city)
+    config = load_city_config(context.city)
     filtered_files = filter_filenames(trip_files, config)
 
-    convert_csvs_to_parquet(filtered_files, args)
-    partition_parquet(args)
+    convert_csvs_to_parquet(filtered_files, context)
+    partition_parquet(context)
