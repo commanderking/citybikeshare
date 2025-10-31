@@ -87,7 +87,6 @@ def create_parquet(file, args):
     parquet_path = parquet_directory / file_name
 
     df.sink_parquet(parquet_path)
-    print(df.collect())
     print(f"✅ Created {os.path.basename(parquet_path)}")
 
 
