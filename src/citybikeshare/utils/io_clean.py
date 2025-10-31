@@ -71,11 +71,15 @@ def clean_seoul_files(csv_file: Path, config):
         print(f"Cleaned up poor encoding in {csv_file.name}")
 
 
+# Rosario has a 2021 file that unzips into a txt file with inconsistent tab separators
+# The tab separators is also different for parts of the file
 def clean_rosario_files(csv_file: Path, config):
     if "2021" in str(csv_file):
         text = csv_file.read_text(encoding="latin1", errors="ignore")
 
-        text_clean = text.replace('""\t""\t', ",").replace('\t""\t', ",")
+        text_clean = (
+            text.replace('""\t""\t', ",").replace('\t""\t', ",").replace("\t", ",")
+        )
         csv_file.write_text(text_clean, encoding="utf-8")
         print(f"🧹 Cleaned quotes, tabs, and normalized CSV format in {csv_file.name}")
 
