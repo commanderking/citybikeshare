@@ -6,7 +6,7 @@ Transform all city datasets in parallel.
 from pathlib import Path
 from concurrent.futures import ThreadPoolExecutor, as_completed
 import typer
-from src.citybikeshare.etl.transform import transform_city
+from src.citybikeshare.etl.transform import transform_city_data
 from src.citybikeshare.cli.transform import Args
 from src.citybikeshare.config.loader import CONFIG_DIR
 
@@ -23,7 +23,7 @@ def transform_single_city(city: str) -> tuple[str, bool, str]:
     """Run transform for one city. Returns (city, success, message)."""
     try:
         args = Args(city=city)
-        transform_city(args)
+        transform_city_data(args)
         return (city, True, "✅ Finished successfully")
 
     except Exception as e:

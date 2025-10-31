@@ -87,6 +87,7 @@ def create_parquet(file, args):
     parquet_path = parquet_directory / file_name
 
     df.sink_parquet(parquet_path)
+    print(df.collect())
     print(f"✅ Created {os.path.basename(parquet_path)}")
 
 
@@ -121,7 +122,7 @@ def convert_csvs_to_parquet(files, args):
         create_parquet(file, args)
 
 
-def transform_city(args):
+def transform_city_data(args):
     source_directory = get_raw_files_directory(args.city)
     trip_files = get_csv_files(source_directory)
     config = load_city_config(args.city)

@@ -11,7 +11,7 @@ import typer
 from src.citybikeshare.etl.download import download_city_data
 from src.citybikeshare.etl.extract import extract_city_data
 from src.citybikeshare.etl.clean import clean_city_data
-from src.citybikeshare.etl.transform import transform_city
+from src.citybikeshare.etl.transform import transform_city_data
 
 
 app = typer.Typer(help="Unified CLI for the CityBikeshare ETL pipeline")
@@ -37,7 +37,6 @@ def sync(
 ):
     """Download or update raw bikeshare data."""
     typer.echo(f"🌐 Syncing data for {city}")
-    print(city)
     download_city_data(city)
     typer.secho(f"✅ Successfully synced data for {city}", fg=typer.colors.GREEN)
 
@@ -75,7 +74,7 @@ def transform(
     """Combine and standardize all cleaned CSVs."""
     args = Args(city=city)
     typer.echo(f"🔧 Transforming data for {city}")
-    transform_city(args)
+    transform_city_data(args)
     typer.secho(f"✅ Transform complete for {city}", fg=typer.colors.GREEN)
 
 
@@ -94,18 +93,18 @@ def pipeline(
 
     if not skip_sync:
         typer.echo("Step 1: Sync")
-        sync(city)  # ✅ reuse the command
+        sync(city)
     else:
         print("Skipping sync")
 
     typer.echo("Step 2: Extract")
-    extract(city)  # ✅ reuse the command
+    extract(city)  #
 
     typer.echo("Step 3: Clean")
-    clean(city)  # ✅ reuse the command
+    clean(city)
 
     typer.echo("Step 4: Transform")
-    transform(city)  # ✅ reuse the command
+    transform(city)
 
     typer.secho(f"✅ Pipeline complete for {city}", fg=typer.colors.GREEN)
 

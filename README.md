@@ -1,6 +1,6 @@
 ### Purpose
 
-While city bikeshare data is often accessible, it requires significant processing before analysis can be done. The repo cleans and merges publicly available bikeshare trip data into a single csv or parquet file to allow anaylsis on the entire history of bike trips.
+This bikeshare etl pipeline cleans bikeshare data from around the world, and generates easy to analyze parquet folders. It also tries to produce data in a format that is consistent across bikeshare systems, enabling easy comparison of systems.
 
 Currently, data is available for:
 
@@ -32,17 +32,13 @@ Currently, data is available for:
 
 Pittsburgh old data can be found at: https://data.wprdc.org/dataset/healthyride-trip-data
 
-### Configuration
-
-1. Copy the contents of .env.config to .env. 
-2. For PROJECT_ROOT, paste the path to this project on your local machine
 
 ### Prerequisites
 
 1. Install Requirements
 
 - **Python 3.10+**
-- **Poetry** (recommended installation)
+- **Poetry** 
 
 ```
 curl -sSL https://install.python-poetry.org | python3 -
@@ -67,45 +63,35 @@ poetry config virtualenvs.in-project true
 ```
 poetry install
 ```
+### Steps to building a parquet or csv file for a city
+
+```
+poetry run citybikeshare pipeline [city]
+```
+
+For example:
+
+```
+poetry run citybikeshare pipeline boston
+```
+
+There are 5 main steps to the process:
+
+1. Sync - downloads the data from the bikeshare website, or syncs it from an amazon s3 bucket 
+2. Extract - unzips zip files or handles any other extraction needed from the originally downloaded files
+2. Clean - cleans any poorly formatted files, encodes to utf-8 from other languages if needed
+3.  Transform - reads the csv data for the city, and creates a corresponding parquet for each file. Then reads all the parquet files and generates an output folder with parquet files partitioned by year and month
 
 
+Each individual step can be run from the command line as well. For example:
 
-### Steps to syncing a city's data
+```
+poetry run citybikeshare sync oslo
+poetry run citybikeshare extract oslo
+poetry run citybikeshare clean oslo  
+poetry run citybikeshare transform oslo  
 
-TODO: Insert 
-
-### Steps to building a parquet or csv file
-
-1. Install pipenv (https://pipenv.pypa.io/en/latest/install/) if needed
-2. pipenv install
-3. pipenv shell
-4. pipenv run build [city] --parquet (ex pipenv run build boston --parquet)
-
-
-By default, a parquet file for your selected city wil lbe generated in the `output` folder. There will be two files generated, one for just the current_year, and anotehr for all historical trips.
-
-### Long term building
-
-We can also insert the data into a dolt database for record keeping and to not have to re-run all the trips data on each execution. 
-
-1. pipenv shell
-2. Start up a doltdb instance at your desired location. `dolt sql-server`
-3. In your .env file, insert values for all dolt related variables. 
-2. pipenv run build [city] 
-
-
-#### Steps in creating a parquet file for a city's bikeshare data
-
-Example:
-`pipenv run build boston --parquet`
-
-The general procedure to clean the data in any city is:
-
-1. Unzip all bikeshare trip data into their csv files, storing them in `./src/data/[city]`
-2. Commonize the column headers and merge all trips into one polars dataframe.
-3. Export a csv or parquet file for further analysis
-
-If the data has already been unzipped by running `pipenv run build`, you can skip the unzipping step by adding `--skip_unzip` to
+```
 
 #### Potential Upcoming Cities in the Pipeline
 
@@ -123,7 +109,7 @@ https://data.gov.ie/dataset/dublinbikes-api
 
 https://opendata.emtmadrid.es/Datos-estaticos/Datos-generales-(1)
 
-### Hsinchu 
+### Hsinchu (?)
 
 https://data.gov.tw/dataset/67784
 
@@ -146,10 +132,6 @@ But when I last tried to download, got an error saying:
 https://www.data.go.kr/data/15126280/fileData.do?recommendDataYn=Y
 
 Same as Daejeon - button works, and says update, but the download never starts
-
-### Rosario, Argentina
-
-https://datosabiertos.rosario.gob.ar/dataset/0e487f13-7725-4bbf-afea-52e429fa92e5?utm_source=chatgpt.com
 
 ### Buenos Aires, Argentina
 
@@ -183,4 +165,4 @@ Mexico City Issues
 - Taipei responded within a few days, and the data took a little time to update (two weeks?)
 - Chattanooga responded the day of - said data would be available in two weeks
 - Spain says there's no plan to returning to publish data. 
-- Portland moved to a dashboard, but does not provide granular data any more
+- Portland moved to a dashboard, but does not provide granular data any more    

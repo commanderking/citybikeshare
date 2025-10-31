@@ -49,14 +49,14 @@ def convert_columns_to_datetime(date_column_names, date_formats, time_unit: str 
         columns_to_parse = [
             c for c in date_column_names if schema.get(c) not in (pl.Datetime, pl.Date)
         ]
+
+        df.with_columns(
+            [pl.col(column).alias(f"{column}_pre_clean") for column in columns_to_parse]
+        )
         if columns_to_parse:
             df = df.with_columns(
-                ## Keep original date columns to enable logging origina date columns
+                ## Keep original date columns to enable logging original date columns
                 [
-                    pl.col(column).alias(f"{column}_pre_clean")
-                    for column in columns_to_parse
-                ]
-                + [
                     pl.coalesce(
                         [
                             pl.col(column)
