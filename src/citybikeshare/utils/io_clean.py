@@ -37,6 +37,14 @@ def convert_file_encoding(csv_file: Path, config):
     print(f"✅ Converted {csv_file.name} ({detected} → {dst_encoding})")
 
 
+### Older Rosario files contain ; and \t in header and content rows
+def normalize_delimiters(csv_file: Path, config):
+    text = csv_file.read_text(encoding="utf-8", errors="ignore")
+    text_clean = text.replace("\t", "").replace(";", ",").replace('"', "")
+    csv_file.write_text(text_clean, encoding="utf-8")
+    print(f"🧹 Normalized delimiters in {csv_file.name}")
+
+
 ### Vancouver data currently has hidden \r in files (probably from Google Doc or Windows save)
 def normalize_newlines(csv_file: Path):
     text = csv_file.read_text(encoding="utf-8", errors="ignore")
@@ -63,8 +71,19 @@ def clean_seoul_files(csv_file: Path, config):
         print(f"Cleaned up poor encoding in {csv_file.name}")
 
 
+def clean_rosario_files(csv_file: Path, config):
+    if "2021" in str(csv_file):
+        text = csv_file.read_text(encoding="latin1", errors="ignore")
+
+        text_clean = text.replace('""\t""\t', ",").replace('\t""\t', ",")
+        csv_file.write_text(text_clean, encoding="utf-8")
+        print(f"🧹 Cleaned quotes, tabs, and normalized CSV format in {csv_file.name}")
+
+
 CLEAN_FUNCTIONS = {
     "normalize_newlines": normalize_newlines,
+    "normalize_delimiters": normalize_delimiters,
     "encode_utf8": convert_file_encoding,
     "clean_seoul_files": clean_seoul_files,
+    "clean_rosario_files": clean_rosario_files,
 }

@@ -1,0 +1,41 @@
+name: rosario
+system_name: rosario_bikeshare
+source_url: "https://datosabiertos.rosario.gob.ar/dataset/0e487f13-7725-4bbf-afea-52e429fa92e5"
+aws_sync: false
+
+file_matcher:
+  - ".csv"
+
+renamed_columns:
+  Id;: "id"
+  Origen: start_station_name
+  Fecha Origen: start_time
+  Destino: end_station_name
+  Fecha Destino: end_time
+  Transbordo: transfer
+
+  id: "id"
+  origen: start_station_name
+  fecha_origen: start_time
+  destino: end_station_name
+  fecha_destino: end_time
+
+
+
+date_formats:
+  - "%Y-%m-%d %H:%M:%S"
+  - "%d/%m/%Y %H:%M"
+  - "%Y-%m-%d %H:%M:%S"
+
+clean_pipeline:
+  - clean_rosario_files
+  - normalize_delimiters
+
+
+read_csv_options:
+  encoding: "utf8-lossy"
+processing_pipeline:
+  - rename_columns
+  - select_final_columns
+  - convert_to_datetime
+

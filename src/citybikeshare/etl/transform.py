@@ -14,8 +14,6 @@ from src.citybikeshare.utils.paths import (
     get_csv_files,
 )
 
-from src.citybikeshare.utils.io_clean import CLEAN_FUNCTIONS
-
 
 def filter_filenames(filenames, config):
     matching_words = config.get("file_matcher")
