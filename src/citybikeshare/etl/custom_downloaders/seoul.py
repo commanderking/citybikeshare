@@ -1,12 +1,12 @@
 import os
 from playwright.sync_api import sync_playwright
-from src.citybikeshare.utils.paths import get_download_directory
+from src.citybikeshare.utils.paths import get_zip_directory
 
 
 def main(p, config):
     config.get("name")
     city = config.get("name")
-    raw_file_path = get_download_directory(city)
+    raw_file_path = get_zip_directory(city)
 
     browser = p.chromium.launch(headless=True)
     context = browser.new_context(accept_downloads=True)

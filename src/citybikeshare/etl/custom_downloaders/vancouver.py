@@ -1,5 +1,4 @@
 from playwright.sync_api import sync_playwright
-import scripts.utils as utils
 from src.citybikeshare.etl.custom_downloaders.utils.download_helpers import (
     download_if_new_data,
 )

@@ -19,17 +19,22 @@ def clean(args):
     city = args.city
     path = get_raw_files_directory(city)
     config = load_city_config(city)
-
     clean_pipeline = config.get("cleaning_pipeline", [])
 
-    if len(clean_pipeline) > 0:
-        for step in clean_pipeline:
-            CLEAN_FUNCTIONS[step](path, config)
+    csv_files = list(Path(path).glob("*.csv"))
+    if not csv_files:
+        print(f"⚠️ No CSV files found for {city}")
+        return
 
-        # 3. Strip header quotes
-        # (can also be done lazily in transform if you prefer)
-        print(f"✅ Cleaned raw CSVs for {city}")
-    else:
-        print(
-            f"No cleaning needed for {city}. If cleaning expected, please update cleaning_pipeline in the city's yaml file"
-        )
+    print(f"🧽 Cleaning {len(csv_files)} CSV files for {city}...")
+
+    for csv_file in csv_files:
+        print(f"\n📄 Cleaning {csv_file.name}")
+        for step in clean_pipeline:
+            fn = CLEAN_FUNCTIONS.get(step)
+            if fn:
+                fn(csv_file, config)
+            else:
+                print(f"⚠️ Unknown clean step: {step}")
+
+    print(f"✅ Finished cleaning all CSVs for {city}")

@@ -28,13 +28,6 @@ def get_raw_files_directory(city):
     return path
 
 
-## Right now applies to Seoul because files are combination of zip and encoding, so need multiple processing steps
-def get_download_directory(city):
-    path = definitions.DATA_DIR / city / "download"
-    path.mkdir(parents=True, exist_ok=True)
-    return path
-
-
 def get_parquet_directory(city):
     path = definitions.DATA_DIR / city / "parquet"
     path.mkdir(parents=True, exist_ok=True)
@@ -45,10 +38,6 @@ def get_metadata_directory(city):
     path = definitions.DATA_DIR / city / "metadata"
     path.mkdir(parents=True, exist_ok=True)
     return path
-
-
-def get_output_format(is_csv):
-    return "csv" if is_csv else "parquet"
 
 
 def get_output_directory():

@@ -6,9 +6,11 @@ file_matcher:
   - ".csv"
 
 excluded_filenames:
-# All files contain one instance of ?湯?
+# These files need special cleaning that hasn't been resolved yet
+# Attempts have been made (see clean_seoul_files), but there still are issues
+  - "2020"
   - "2021"
-# No headers in this file
+# No headers in these files
   - "대여정보_201812"
   - 대여정보_201905
   - 공공자전거 대여정보_201904
@@ -49,9 +51,9 @@ renamed_columns:
 date_formats:
 - "%Y-%m-%d %H:%M:%S"
 
-
 cleaning_pipeline:
   - encode_utf8
+  - clean_seoul_files
 
 cleaning_options:
   source_encoding: EUC-KR

@@ -1,5 +1,4 @@
 import os
-from pathlib import Path
 import polars as pl
 from src.citybikeshare.config.loader import load_city_config
 from src.citybikeshare.utils.io_transform import (
@@ -15,7 +14,7 @@ from src.citybikeshare.utils.paths import (
     get_csv_files,
 )
 
-from src.citybikeshare.utils.io_clean import convert_folder_encoding, CLEAN_FUNCTIONS
+from src.citybikeshare.utils.io_clean import CLEAN_FUNCTIONS
 
 
 def filter_filenames(filenames, config):
@@ -47,7 +46,6 @@ def get_csv_scan_params(file_path, opts):
     has_header = opts.get("has_header", True)
     new_columns = opts.get("new_columns")
 
-    print(opts)
     base = {"encoding": "utf8-lossy", "infer_schema_length": 0} | opts
     if has_header == "auto":
         if not new_columns:
@@ -64,7 +62,6 @@ def get_csv_scan_params(file_path, opts):
             }
         )
 
-    print(base)
     return base | (
         {"has_header": True}
         if has_header
@@ -81,7 +78,6 @@ def create_parquet(file, args):
     csv_options = config.get("read_csv_options", {})
     params = get_csv_scan_params(file, csv_options)
 
-    print(params)
     df = pl.scan_csv(file, **params)
     context = {**config, "args": args}
     for step in config.get("processing_pipeline", DEFAULT_PROCESSING_PIPELINE):
@@ -122,13 +118,8 @@ def partition_parquet(args):
 
 
 def convert_csvs_to_parquet(files, args):
-    config = load_city_config(args.city)
     for file in files:
         print(f"Processing {file}")
-        clean_pipeline = config.get("clean_pipeline", [])
-        for step in clean_pipeline:
-            CLEAN_FUNCTIONS[step](file)
-
         create_parquet(file, args)
 
 
@@ -137,15 +128,6 @@ def transform(args):
     trip_files = get_csv_files(source_directory)
     config = load_city_config(args.city)
     filtered_files = filter_filenames(trip_files, config)
-
-    csv_encoding = config.get("csv_encoding")
-
-    if (
-        csv_encoding
-        and csv_encoding.lower() != "utf8"
-        and csv_encoding.lower() != "utf-8"
-    ):
-        convert_folder_encoding(source_directory, csv_encoding)
 
     convert_csvs_to_parquet(filtered_files, args)
     partition_parquet(args)

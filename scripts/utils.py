@@ -2,8 +2,6 @@ import json
 from datetime import timedelta
 import polars as pl
 
-from dateutil.parser import parse
-
 
 def get_recent_year_df(date_column):
     """Returns all rows one year from the last date"""
