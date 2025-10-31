@@ -11,7 +11,7 @@ Examples:
 """
 
 import typer
-from src.citybikeshare.etl.transform import transform
+from src.citybikeshare.etl.transform import transform_city
 
 app = typer.Typer(help="Transform (clean and combine) bikeshare CSVs for a given city.")
 
@@ -36,7 +36,7 @@ def main(
     args = Args(city=city)
 
     typer.echo(f"🧼 Starting transform for city: {city}")
-    transform(args)
+    transform_city(args)
 
     typer.echo("✅ Success!")
 

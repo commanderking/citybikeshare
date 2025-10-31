@@ -37,11 +37,8 @@ mypy = "^1.11.2"
 types-requests = "^2.32.0.20241016"
 
 [tool.poetry.scripts]
-sync = "src.citybikeshare.cli.sync:app"
-extract = "src.citybikeshare.cli.extract:app"
-clean = "src.citybikeshare.cli.clean:app"
-transform = "src.citybikeshare.cli.transform:app"
-transform_all = "src.citybikeshare.cli.transform_all:app"
+citybikeshare = "src.citybikeshare.cli.main:app"
+
 
 [build-system]
 requires = ["poetry-core"]
