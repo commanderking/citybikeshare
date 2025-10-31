@@ -40,10 +40,6 @@ def get_metadata_directory(city):
     return path
 
 
-def get_output_format(is_csv):
-    return "csv" if is_csv else "parquet"
-
-
 def get_output_directory():
     path = definitions.OUTPUT_DIR
     path.mkdir(parents=True, exist_ok=True)

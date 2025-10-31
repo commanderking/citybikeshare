@@ -1,5 +1,4 @@
 import os
-from pathlib import Path
 import polars as pl
 from src.citybikeshare.config.loader import load_city_config
 from src.citybikeshare.utils.io_transform import (
@@ -14,6 +13,8 @@ from src.citybikeshare.utils.paths import (
     get_raw_files_directory,
     get_csv_files,
 )
+
+from src.citybikeshare.utils.io_clean import CLEAN_FUNCTIONS
 
 
 def filter_filenames(filenames, config):
@@ -45,8 +46,7 @@ def get_csv_scan_params(file_path, opts):
     has_header = opts.get("has_header", True)
     new_columns = opts.get("new_columns")
 
-    base = {**opts, "encoding": "utf8-lossy", "infer_schema_length": 0}
-    base = opts | {"encoding": "utf8-lossy", "infer_schema_length": 0}
+    base = {"encoding": "utf8-lossy", "infer_schema_length": 0} | opts
     if has_header == "auto":
         if not new_columns:
             raise ValueError("has_header: auto requires new_columns.")
@@ -117,49 +117,9 @@ def partition_parquet(args):
     print("All files created and partitioned!")
 
 
-def create_trip_df(file, args):
-    config = load_city_config(args.city)
-    read_csv_options = config.get("read_csv_options", {})
-    df = pl.scan_csv(file, infer_schema_length=0, **read_csv_options)
-    context = {**config, "args": args}
-
-    for step in config.get("processing_pipeline", DEFAULT_PROCESSING_PIPELINE):
-        fn = PROCESSING_FUNCTIONS[step]
-        df = fn(df, context)
-
-    return df
-
-
-### Vancouver data currently has hidden \r in files (probably from Google Doc or Windows save)
-def normalize_newlines(csv_path: str) -> None:
-    """
-    Normalize line endings in a CSV file:
-    - Converts Windows (\r\n) and stray carriage returns (\r) to Unix (\n)
-
-    Parameters
-    ----------
-    csv_path : str
-        Path to the CSV file to clean.
-    backup : bool, default False
-        Whether to create a backup file (e.g., file.csv.bak) before overwriting.
-    """
-    path = Path(csv_path)
-
-    text = path.read_text(encoding="utf-8", errors="ignore")
-    text_clean = text.replace("\r\n", "\n").replace("\r", "\n")
-    path.write_text(text_clean, encoding="utf-8")
-
-
-CSV_TO_PARQUET_FUNCTIONS = {"normalize_newlines": normalize_newlines}
-
-
 def convert_csvs_to_parquet(files, args):
-    config = load_city_config(args.city)
     for file in files:
-        csv_to_parquet_pipeline = config.get("csv_to_parquet_pipeline", [])
-        for step in csv_to_parquet_pipeline:
-            CSV_TO_PARQUET_FUNCTIONS[step](file)
-
+        print(f"Processing {file}")
         create_parquet(file, args)
 
 

@@ -3,7 +3,7 @@ import json
 import csv
 import urllib.request
 from playwright.sync_api import sync_playwright
-from src.citybikeshare.utils.paths import get_zip_directory, get_raw_files_directory
+from src.citybikeshare.utils.paths import get_raw_files_directory
 
 CSV_PATH = get_raw_files_directory("pittsburgh")
 

@@ -1,5 +1,6 @@
 import os
 import json
+import re
 import polars as pl
 from src.citybikeshare.etl.constants import (
     DEFAULT_FINAL_COLUMNS,
@@ -380,10 +381,29 @@ def handle_odd_hour_duration(df):
     )
 
 
+def clean_header_quotes(df: pl.DataFrame) -> pl.DataFrame:
+    """
+    Strip only leading/trailing single or double quotes from column names.
+
+    Examples:
+    ---------
+    '"자전거번호"'  →  '자전거번호'
+    "'대여일시"    →  '대여일시'
+    "Bob's Station" → "Bob's Station" (unchanged)
+    """
+    cleaned = {}
+    for col in df.columns:
+        # Remove a single pair of quotes at the beginning/end if both exist
+        new_col = re.sub(r"^['\"](.*)['\"]$", r"\1", col.strip())
+        cleaned[col] = new_col
+    return df.rename(cleaned)
+
+
 PROCESSING_FUNCTIONS = {
     "rename_columns": lambda df, ctx: df.pipe(
         rename_columns_for_keys(ctx["renamed_columns"])
     ),
+    "clean_header_quotes": lambda df, ctx: clean_header_quotes(df),
     "convert_to_datetime": lambda df, ctx: df.pipe(
         convert_columns_to_datetime(["start_time", "end_time"], ctx["date_formats"])
     ),
