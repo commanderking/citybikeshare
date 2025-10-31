@@ -31,16 +31,12 @@ def main(
     """
     Extract ZIP or CSV files for the given city into its /data/<city>/raw folder.
     """
-    try:
-        typer.echo(f"📦 Starting extract for city: {city}")
-        csv_files = extract_city_data(city, overwrite=overwrite)
-        typer.secho(
-            f"✅ Extract complete! {len(csv_files)} CSV files extracted.",
-            fg=typer.colors.GREEN,
-        )
-    except Exception as e:
-        typer.secho(f"❌ Extraction failed for {city}: {e}", fg=typer.colors.RED)
-        raise typer.Exit(code=1)
+    typer.echo(f"📦 Starting extract for city: {city}")
+    csv_files = extract_city_data(city, overwrite=overwrite)
+    typer.secho(
+        f"✅ Extract complete! {len(csv_files)} CSV files extracted.",
+        fg=typer.colors.GREEN,
+    )
 
 
 if __name__ == "__main__":

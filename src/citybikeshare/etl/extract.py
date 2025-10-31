@@ -13,6 +13,7 @@ import zipfile
 from pathlib import Path
 from typing import List
 import tempfile
+import polars as pl
 
 from src.citybikeshare.config.loader import load_city_config
 
@@ -23,7 +24,7 @@ def extract_city_data(city: str, overwrite: bool = False) -> List[Path]:
     """
     Extract all downloaded archives for a city into its raw folder.
 
-    Supports nested ZIPs and removes AppleDouble (._) metadata files.
+    Supports nested ZIPs, .txt-to-.csv conversion, and removes AppleDouble (._) metadata files.
 
     Parameters
     ----------
@@ -80,15 +81,31 @@ def extract_city_data(city: str, overwrite: bool = False) -> List[Path]:
                                 print(f"📦 Found nested zip (copied): {copied_path}")
 
                             elif file.lower().endswith(".csv"):
-                                target_path = os.path.join(raw_dir, file)
+                                target_path = raw_dir / file
                                 shutil.move(full_path, target_path)
-                                csv_files.append(Path(target_path))
+                                csv_files.append(target_path)
                                 print(f"✅ Extracted CSV: {target_path}")
+
+                            elif file.lower().endswith(".txt"):
+                                # Try to convert to CSV
+                                txt_path = Path(full_path)
+                                csv_path = raw_dir / (txt_path.stem + ".csv")
+                                try:
+                                    print(f"📝 Converting TXT → CSV: {txt_path.name}")
+                                    lf = pl.scan_csv(txt_path, encoding="utf8-lossy")
+                                    lf = lf.collect()
+                                    lf.write_csv(csv_path)
+                                    csv_files.append(csv_path)
+                                    print(f"✅ Converted and saved as: {csv_path.name}")
+                                except Exception as e:
+                                    print(
+                                        f"⚠️  Failed to convert {txt_path.name} → CSV ({e})"
+                                    )
 
         except zipfile.BadZipFile:
             print(f"⚠️  Skipping invalid ZIP file: {zip_path}")
 
-    # Copy any standalone CSVs (non-zipped) into raw dir
+    # Copy any standalone CSVs from zip_dir to raw_dir
     for file in Path(zip_dir).iterdir():
         if file.suffix.lower() == ".csv":
             dest = raw_dir / file.name
@@ -104,8 +121,10 @@ def extract_city_data(city: str, overwrite: bool = False) -> List[Path]:
                 print(f"🧹 Removed AppleDouble file: {file}")
 
     if not csv_files:
-        print(f"⚠️  No CSV files found for {city_name}. Did download succeed?")
+        print(
+            f"⚠️  No CSV files found or converted for {city_name}. Did download succeed?"
+        )
     else:
-        print(f"📂 Extracted {len(csv_files)} CSV files for {city_name}")
+        print(f"📂 Extracted and converted {len(csv_files)} CSV files for {city_name}")
 
     return csv_files

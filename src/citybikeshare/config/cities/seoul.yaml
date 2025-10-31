@@ -51,7 +51,7 @@ renamed_columns:
 date_formats:
 - "%Y-%m-%d %H:%M:%S"
 
-cleaning_pipeline:
+clean_pipeline:
   - encode_utf8
   - clean_seoul_files
 

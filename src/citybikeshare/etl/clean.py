@@ -3,7 +3,7 @@ from src.citybikeshare.utils.io_clean import (
     CLEAN_FUNCTIONS,
 )
 from src.citybikeshare.config.loader import load_city_config
-from src.citybikeshare.utils.paths import get_zip_directory, get_raw_files_directory
+from src.citybikeshare.utils.paths import get_raw_files_directory
 
 
 def convert_csvs_to_parquet(files, args):
@@ -19,7 +19,7 @@ def clean(args):
     city = args.city
     path = get_raw_files_directory(city)
     config = load_city_config(city)
-    clean_pipeline = config.get("cleaning_pipeline", [])
+    clean_pipeline = config.get("clean_pipeline", [])
 
     csv_files = list(Path(path).glob("*.csv"))
     if not csv_files:

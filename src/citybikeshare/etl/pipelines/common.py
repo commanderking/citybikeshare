@@ -49,10 +49,14 @@ def convert_columns_to_datetime(date_column_names, date_formats, time_unit: str 
         columns_to_parse = [
             c for c in date_column_names if schema.get(c) not in (pl.Datetime, pl.Date)
         ]
-
         if columns_to_parse:
             df = df.with_columns(
+                ## Keep original date columns to enable logging origina date columns
                 [
+                    pl.col(column).alias(f"{column}_pre_clean")
+                    for column in columns_to_parse
+                ]
+                + [
                     pl.coalesce(
                         [
                             pl.col(column)
@@ -62,10 +66,21 @@ def convert_columns_to_datetime(date_column_names, date_formats, time_unit: str 
                         ]
                     ).alias(column)
                     for column in columns_to_parse
-                ]
+                ],
             )
         else:
             print("✅ All datetime columns already parsed")
+
+        ## Log all the null columns
+        for column in columns_to_parse:
+            null_expr = pl.col(column).is_null().sum().alias("n_nulls")
+            null_count = df.select(null_expr).collect().item()
+
+            if null_count > 0:
+                print(f"⚠️  {null_count} null values found in '{column}' after parsing.")
+                # Collect only a few bad rows (with raw + parsed)
+                bad_rows = df.filter(pl.col(column).is_null()).head(5).collect()
+                print(bad_rows)
 
         # make sure date times are the same time unit (default ms)
         return df.with_columns(
