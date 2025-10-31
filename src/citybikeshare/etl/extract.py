@@ -105,7 +105,7 @@ def extract_city_data(city: str, overwrite: bool = False) -> List[Path]:
         except zipfile.BadZipFile:
             print(f"⚠️  Skipping invalid ZIP file: {zip_path}")
 
-    # Copy any standalone CSVs or TXTs from zip_dir to raw_dir
+    # Copy any standalone CSVs from zip_dir to raw_dir
     for file in Path(zip_dir).iterdir():
         if file.suffix.lower() == ".csv":
             dest = raw_dir / file.name
