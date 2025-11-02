@@ -46,9 +46,7 @@ def download(config, context: PipelineContext):
                                 print(file)
                                 with open(target_path, "wb") as target_file:
                                     target_file.write(source.read())
-                                    print(
-                                        f"✅ Extracted and cleaned file to {target_path}"
-                                    )
+                                    print(f"✅ Downloaded to {target_path}")
             else:
                 print(
                     f"Failed to download file from {resource_metadata['result']['url']}"

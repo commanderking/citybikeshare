@@ -427,7 +427,7 @@ PROCESSING_FUNCTIONS = {
     "convert_milliseconds_to_datetime": lambda df,
     config,
     context: convert_milliseconds_to_datetime(df),
-    "filter_null_rows": lambda df, config: filter_null_rows(df),
+    "filter_null_rows": lambda df, config, context: filter_null_rows(df),
     # City-centric functions
     ### Oslo
     "handle_oslo_legacy_stations": lambda df,

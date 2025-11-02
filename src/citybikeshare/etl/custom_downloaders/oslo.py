@@ -55,6 +55,7 @@ def run_get_exports(playwright, url, pipeline_context: PipelineContext):
     browser = playwright.chromium.launch(headless=True)
     context = browser.new_context(accept_downloads=True)
     download_path = pipeline_context.download_directory
+    metadata_path = pipeline_context.metadata_directory
 
     page = context.new_page()
     page.goto(url)
@@ -66,7 +67,7 @@ def run_get_exports(playwright, url, pipeline_context: PipelineContext):
         old_new_stations_button.click()
         download = download_info.value
         print(f"Downloading {download.suggested_filename}")
-        download.save_as(os.path.join(METADATA_PATH, download.suggested_filename))
+        download.save_as(os.path.join(metadata_path, download.suggested_filename))
 
     click_buttons_to_download(page, csv_buttons, download_path)
     browser.close()

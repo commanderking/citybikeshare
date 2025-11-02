@@ -27,8 +27,6 @@ def download_city_data(
 
     output_dir = context.download_directory
 
-    print(name)
-
     # --------------------------------------------------
     # 1️⃣ Try to import a custom script if it exists
     # --------------------------------------------------
@@ -36,7 +34,6 @@ def download_city_data(
         custom_module = importlib.import_module(
             f"src.citybikeshare.etl.custom_downloaders.{name}"
         )
-        print(custom_module)
         if hasattr(custom_module, "download"):
             custom_module.download(config, context)
             return output_dir

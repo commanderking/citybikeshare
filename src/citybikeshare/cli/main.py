@@ -26,7 +26,7 @@ app = typer.Typer(help="Unified CLI for the CityBikeshare ETL pipeline")
 def build_context(city: str) -> PipelineContext:
     data_root = Path("data")
     city_dir = data_root / city
-    for sub in ["download", "clean", "metadata", "parquet"]:
+    for sub in ["download", "raw", "metadata", "parquet"]:
         (city_dir / sub).mkdir(parents=True, exist_ok=True)
     return PipelineContext(city=city, data_root=Path("data"))
 
@@ -95,7 +95,7 @@ def pipeline(
     typer.echo(f"🚴 Starting full pipeline for {city}")
 
     if not skip_sync:
-        typer.echo("Step 1: Sync")
+        typer.echo("Syncing")
         sync(city)
     else:
         print("Skipping sync")
