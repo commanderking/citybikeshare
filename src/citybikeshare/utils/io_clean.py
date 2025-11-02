@@ -55,6 +55,13 @@ def normalize_newlines(csv_file: Path, config):
 
 def clean_seoul_files(csv_file: Path, config):
     file_name = str(csv_file)
+
+    if "2306" in file_name:
+        text = csv_file.read_text(encoding="utf-8", errors="ignore")
+        text_clean = text.replace("2323-06-23", "2023-06-23")
+        csv_file.write_text(text_clean, encoding="utf-8")
+        print(f"Replaced 2323-06-23 with 2023-06-23 in {csv_file.name}")
+
     if "2020" in file_name:
         text = csv_file.read_text(encoding="utf-8", errors="ignore")
         text_clean = (
