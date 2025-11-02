@@ -14,6 +14,8 @@ from src.citybikeshare.etl.extract import extract_city_data
 from src.citybikeshare.etl.clean import clean_city_data
 from src.citybikeshare.etl.transform import transform_city_data
 from src.citybikeshare.context import PipelineContext
+from src.citybikeshare.analysis.summarize import summarize_city
+from src.citybikeshare.analysis.merge_summaries import merge_city_summaries
 
 app = typer.Typer(help="Unified CLI for the CityBikeshare ETL pipeline")
 
@@ -28,7 +30,13 @@ def build_context(city: str) -> PipelineContext:
     city_dir = data_root / city
     for sub in ["download", "raw", "metadata", "parquet"]:
         (city_dir / sub).mkdir(parents=True, exist_ok=True)
-    return PipelineContext(city=city, data_root=Path("data"))
+
+    return PipelineContext(
+        city=city,
+        data_root=Path("data"),
+        transformed_root=Path("output"),
+        analysis_root=Path("analysis"),
+    )
 
 
 @app.command()
@@ -79,6 +87,32 @@ def transform(
     typer.echo(f"🔧 Transforming data for {city}")
     transform_city_data(context)
     typer.secho(f"✅ Transform complete for {city}", fg=typer.colors.GREEN)
+
+
+@app.command()
+def analyze(
+    city: str = typer.Argument(..., help="City name to summarize"),
+):
+    """
+    Analyze transformed Parquet data and generate per-year summary JSON.
+    """
+    context = build_context(city)
+    summarize_city(context)
+
+
+@app.command()
+def analyze_all():
+    for city_dir in (Path("output")).iterdir():
+        if not city_dir.is_dir():
+            continue
+        context = build_context(city_dir.name)
+        summarize_city(context)
+
+
+@app.command()
+def merge_summaries():
+    analysis_folder = Path("analysis")
+    merge_city_summaries(analysis_folder)
 
 
 # --------------------------------------------------

@@ -1,0 +1,130 @@
+[
+  {
+    "year": null,
+    "trip_count": 829962,
+    "median_duration": null,
+    "first_quantile_duration": null,
+    "third_quantile_duration": null,
+    "null_rows": 4719054
+  },
+  {
+    "year": 2010,
+    "trip_count": 841081,
+    "median_duration": 485.0,
+    "first_quantile_duration": 321.0,
+    "third_quantile_duration": 770.0,
+    "null_rows": 105571
+  },
+  {
+    "year": 2011,
+    "trip_count": 2542973,
+    "median_duration": 513.0,
+    "first_quantile_duration": 334.0,
+    "third_quantile_duration": 850.0,
+    "null_rows": 307364
+  },
+  {
+    "year": 2012,
+    "trip_count": 2737919,
+    "median_duration": 519.0,
+    "first_quantile_duration": 338.0,
+    "third_quantile_duration": 844.0,
+    "null_rows": 280416
+  },
+  {
+    "year": 2013,
+    "trip_count": 6515332,
+    "median_duration": 582.0,
+    "first_quantile_duration": 366.0,
+    "third_quantile_duration": 946.0,
+    "null_rows": 367751
+  },
+  {
+    "year": 2014,
+    "trip_count": 7952252,
+    "median_duration": 601.0,
+    "first_quantile_duration": 378.0,
+    "third_quantile_duration": 969.0,
+    "null_rows": 448136
+  },
+  {
+    "year": 2015,
+    "trip_count": 9192072,
+    "median_duration": 626.0,
+    "first_quantile_duration": 391.0,
+    "third_quantile_duration": 1011.0,
+    "null_rows": 499398
+  },
+  {
+    "year": 2016,
+    "trip_count": 8637260,
+    "median_duration": 618.0,
+    "first_quantile_duration": 387.0,
+    "third_quantile_duration": 999.0,
+    "null_rows": 490746
+  },
+  {
+    "year": 2017,
+    "trip_count": 9498067,
+    "median_duration": 642.0,
+    "first_quantile_duration": 399.0,
+    "third_quantile_duration": 1038.0,
+    "null_rows": 548907
+  },
+  {
+    "year": 2018,
+    "trip_count": 8540264,
+    "median_duration": 648.0,
+    "first_quantile_duration": 401.0,
+    "third_quantile_duration": 1055.0,
+    "null_rows": 438145
+  },
+  {
+    "year": 2019,
+    "trip_count": 8415438,
+    "median_duration": 659.0,
+    "first_quantile_duration": 407.0,
+    "third_quantile_duration": 1072.0,
+    "null_rows": 387921
+  },
+  {
+    "year": 2020,
+    "trip_count": 4031937,
+    "median_duration": 697.0,
+    "first_quantile_duration": 421.0,
+    "third_quantile_duration": 1170.0,
+    "null_rows": 192834
+  },
+  {
+    "year": 2021,
+    "trip_count": 4295438,
+    "median_duration": 732.0,
+    "first_quantile_duration": 439.0,
+    "third_quantile_duration": 1250.0,
+    "null_rows": 199818
+  },
+  {
+    "year": 2022,
+    "trip_count": 5084268,
+    "median_duration": 754.0,
+    "first_quantile_duration": 459.0,
+    "third_quantile_duration": 1269.0,
+    "null_rows": 1134625
+  },
+  {
+    "year": 2023,
+    "trip_count": 12177599,
+    "median_duration": 739.0,
+    "first_quantile_duration": 444.0,
+    "third_quantile_duration": 1224.0,
+    "null_rows": 9222632
+  },
+  {
+    "year": 2024,
+    "trip_count": 9911510,
+    "median_duration": 739.0,
+    "first_quantile_duration": 442.0,
+    "third_quantile_duration": 1217.0,
+    "null_rows": 6426557
+  }
+]

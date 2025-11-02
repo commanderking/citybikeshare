@@ -2,18 +2,6 @@ import os
 import definitions
 
 
-def get_parquet_directory(city):
-    path = definitions.DATA_DIR / city / "parquet"
-    path.mkdir(parents=True, exist_ok=True)
-    return path
-
-
-def get_city_output_directory(city):
-    path = definitions.OUTPUT_DIR / city
-    path.mkdir(parents=True, exist_ok=True)
-    return path
-
-
 def get_analysis_directory():
     path = definitions.ANALYSIS_DIR
     path.mkdir(parents=True, exist_ok=True)
