@@ -41,7 +41,7 @@
   },
   {
     "year": 2023,
-    "trip_count": 46388233,
+    "trip_count": 46388234,
     "median_duration": 685.0,
     "first_quantile_duration": 363.0,
     "third_quantile_duration": 1499.0,
@@ -61,14 +61,6 @@
     "median_duration": 697.0,
     "first_quantile_duration": 374.0,
     "third_quantile_duration": 1560.0,
-    "null_rows": 0
-  },
-  {
-    "year": 2323,
-    "trip_count": 1,
-    "median_duration": -9467017998.0,
-    "first_quantile_duration": -9467017998.0,
-    "third_quantile_duration": -9467017998.0,
     "null_rows": 0
   }
 ]
