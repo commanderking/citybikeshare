@@ -7,8 +7,6 @@ from src.citybikeshare.utils.io_transform import (
 from src.citybikeshare.etl.pipelines.common import PROCESSING_FUNCTIONS
 from src.citybikeshare.etl.constants import DEFAULT_PROCESSING_PIPELINE
 from src.citybikeshare.utils.paths import (
-    get_parquet_directory,
-    get_city_output_directory,
     get_csv_files,
 )
 from src.citybikeshare.context import PipelineContext
@@ -70,10 +68,9 @@ def get_csv_scan_params(file_path, opts):
     )
 
 
-def create_parquet(file, context, config):
+def create_parquet(file, context: PipelineContext, config):
     config = load_city_config(context.city)
     csv_options = config.get("read_csv_options", {})
-    city = context.city
     params = get_csv_scan_params(file, csv_options)
 
     df = pl.scan_csv(file, **params)
@@ -81,7 +78,7 @@ def create_parquet(file, context, config):
         execute_step = PROCESSING_FUNCTIONS[step]
         df = execute_step(df, config, context)
 
-    parquet_directory = get_parquet_directory(city)
+    parquet_directory = context.parquet_directory
     file_name = os.path.basename(file).replace(".csv", ".parquet")
     parquet_path = parquet_directory / file_name
 
@@ -89,9 +86,9 @@ def create_parquet(file, context, config):
     print(f"✅ Created {os.path.basename(parquet_path)}")
 
 
-def partition_parquet(context):
-    parquet_directory = get_parquet_directory(context.city)
-    output_path = get_city_output_directory(context.city)
+def partition_parquet(context: PipelineContext):
+    parquet_directory = context.parquet_directory
+    output_path = context.transformed_directory
 
     print(f"Scanning all files in {parquet_directory}")
     lf = pl.scan_parquet(parquet_directory / "*.parquet").with_columns(

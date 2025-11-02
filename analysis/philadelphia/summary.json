@@ -1,0 +1,90 @@
+[
+  {
+    "year": 2015,
+    "trip_count": 429710,
+    "median_duration": 780.0,
+    "first_quantile_duration": 480.0,
+    "third_quantile_duration": 1320.0,
+    "null_rows": 0
+  },
+  {
+    "year": 2016,
+    "trip_count": 655058,
+    "median_duration": 720.0,
+    "first_quantile_duration": 480.0,
+    "third_quantile_duration": 1200.0,
+    "null_rows": 20
+  },
+  {
+    "year": 2017,
+    "trip_count": 604998,
+    "median_duration": 720.0,
+    "first_quantile_duration": 420.0,
+    "third_quantile_duration": 1140.0,
+    "null_rows": 4
+  },
+  {
+    "year": 2018,
+    "trip_count": 671818,
+    "median_duration": 660.0,
+    "first_quantile_duration": 420.0,
+    "third_quantile_duration": 1080.0,
+    "null_rows": 36
+  },
+  {
+    "year": 2019,
+    "trip_count": 744260,
+    "median_duration": 660.0,
+    "first_quantile_duration": 420.0,
+    "third_quantile_duration": 1140.0,
+    "null_rows": 42
+  },
+  {
+    "year": 2020,
+    "trip_count": 735162,
+    "median_duration": 840.0,
+    "first_quantile_duration": 480.0,
+    "third_quantile_duration": 1620.0,
+    "null_rows": 0
+  },
+  {
+    "year": 2021,
+    "trip_count": 959128,
+    "median_duration": 660.0,
+    "first_quantile_duration": 420.0,
+    "third_quantile_duration": 1140.0,
+    "null_rows": 0
+  },
+  {
+    "year": 2022,
+    "trip_count": 905790,
+    "median_duration": 600.0,
+    "first_quantile_duration": 360.0,
+    "third_quantile_duration": 1020.0,
+    "null_rows": 0
+  },
+  {
+    "year": 2023,
+    "trip_count": 1084547,
+    "median_duration": 600.0,
+    "first_quantile_duration": 360.0,
+    "third_quantile_duration": 960.0,
+    "null_rows": 0
+  },
+  {
+    "year": 2024,
+    "trip_count": 1269390,
+    "median_duration": 600.0,
+    "first_quantile_duration": 360.0,
+    "third_quantile_duration": 960.0,
+    "null_rows": 0
+  },
+  {
+    "year": 2025,
+    "trip_count": 1032812,
+    "median_duration": 600.0,
+    "first_quantile_duration": 360.0,
+    "third_quantile_duration": 960.0,
+    "null_rows": 0
+  }
+]

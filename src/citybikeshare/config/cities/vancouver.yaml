@@ -34,6 +34,8 @@ final_columns:
 
 read_csv_options:
   encoding: utf8-lossy
+  schema_overrides: 
+    Duration (sec.): Int64 
 
 processing_pipeline:
   - filter_null_rows

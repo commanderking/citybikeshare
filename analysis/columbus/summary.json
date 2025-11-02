@@ -1,0 +1,106 @@
+[
+  {
+    "year": 2013,
+    "trip_count": 27908,
+    "median_duration": 850.0,
+    "first_quantile_duration": 495.0,
+    "third_quantile_duration": 1397.0,
+    "null_rows": 0
+  },
+  {
+    "year": 2014,
+    "trip_count": 44839,
+    "median_duration": 764.0,
+    "first_quantile_duration": 441.0,
+    "third_quantile_duration": 1336.0,
+    "null_rows": 0
+  },
+  {
+    "year": 2015,
+    "trip_count": 42617,
+    "median_duration": 911.0,
+    "first_quantile_duration": 494.0,
+    "third_quantile_duration": 1520.0,
+    "null_rows": 0
+  },
+  {
+    "year": 2016,
+    "trip_count": 46979,
+    "median_duration": 909.0,
+    "first_quantile_duration": 510.0,
+    "third_quantile_duration": 1564.0,
+    "null_rows": 0
+  },
+  {
+    "year": 2017,
+    "trip_count": 52205,
+    "median_duration": 926.0,
+    "first_quantile_duration": 500.0,
+    "third_quantile_duration": 1626.0,
+    "null_rows": 0
+  },
+  {
+    "year": 2018,
+    "trip_count": 40716,
+    "median_duration": 821.0,
+    "first_quantile_duration": 423.0,
+    "third_quantile_duration": 1628.0,
+    "null_rows": 0
+  },
+  {
+    "year": 2019,
+    "trip_count": 21156,
+    "median_duration": 816.0,
+    "first_quantile_duration": 424.0,
+    "third_quantile_duration": 1574.0,
+    "null_rows": 0
+  },
+  {
+    "year": 2020,
+    "trip_count": 49952,
+    "median_duration": 1539.0,
+    "first_quantile_duration": 727.0,
+    "third_quantile_duration": 2855.0,
+    "null_rows": 5649
+  },
+  {
+    "year": 2021,
+    "trip_count": 43608,
+    "median_duration": 996.0,
+    "first_quantile_duration": 504.0,
+    "third_quantile_duration": 1984.0,
+    "null_rows": 11340
+  },
+  {
+    "year": 2022,
+    "trip_count": 53723,
+    "median_duration": 839.0,
+    "first_quantile_duration": 454.0,
+    "third_quantile_duration": 1673.0,
+    "null_rows": 14772
+  },
+  {
+    "year": 2023,
+    "trip_count": 65753,
+    "median_duration": 738.0,
+    "first_quantile_duration": 417.0,
+    "third_quantile_duration": 1432.0,
+    "null_rows": 14304
+  },
+  {
+    "year": 2024,
+    "trip_count": 62722,
+    "median_duration": 708.0,
+    "first_quantile_duration": 408.0,
+    "third_quantile_duration": 1393.0,
+    "null_rows": 14125
+  },
+  {
+    "year": 2025,
+    "trip_count": 1971,
+    "median_duration": 502.0,
+    "first_quantile_duration": 326.0,
+    "third_quantile_duration": 887.0,
+    "null_rows": 571
+  }
+]
