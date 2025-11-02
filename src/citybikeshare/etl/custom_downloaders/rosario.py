@@ -5,8 +5,8 @@ from src.citybikeshare.context import PipelineContext
 
 def run(playwright, config, context: PipelineContext):
     browser = playwright.chromium.launch(headless=True)  # Set to True for silent mode
-    context = browser.new_context(accept_downloads=True)
-    page = context.new_page()
+    browser_context = browser.new_context(accept_downloads=True)
+    page = browser_context.new_page()
 
     url = "https://datosabiertos.rosario.gob.ar/dataset/0e487f13-7725-4bbf-afea-52e429fa92e5"
     page.goto(url)
@@ -26,7 +26,7 @@ def run(playwright, config, context: PipelineContext):
 
     print(f"Downloaded: {path}")
 
-    context.close()
+    browser_context.close()
     browser.close()
 
 

@@ -29,6 +29,8 @@ date_formats:
 read_csv_options:
   encoding: "utf8-lossy"
 processing_pipeline:
+  # Some files like 9a Journey Data Extract 17Aug14-31Aug14.csv, 13b. Journey Data Extract 22Dec14-03Jan15.csv contain rows with no data
+  - filter_null_rows
   - rename_columns
   - select_final_columns
   - convert_to_datetime

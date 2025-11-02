@@ -24,11 +24,14 @@ Currently, data is available for:
 | Philadelphia  | <https://www.rideindego.com/about/data/> |
 | Pittsburgh    | <https://data.wprdc.org/dataset/pogoh-trip-data> |
 | San Francisco | <https://www.lyft.com/bikes/bay-wheels/system-data> |
+| Seoul         | <https://data.seoul.go.kr/dataList/OA-15182/F/1/datasetView.do#> |
 | Taipei        | <https://data.gov.tw/dataset/150635> | 
 | Toronto       | <https://open.toronto.ca/dataset/bike-share-toronto-ridership-data/> |
 | Trondheim     | https://trondheimbysykkel.no/en/open-data/historical | 
 | Vancouver     | <https://www.mobibikes.ca/en/system-data> | 
 | Washington DC | <https://capitalbikeshare.com/system-data> | 
+
+Seoul - data is not processable for a few years because of cleaing challenges on ? and misencodeed characters.
 
 Pittsburgh old data can be found at: https://data.wprdc.org/dataset/healthyride-trip-data
 

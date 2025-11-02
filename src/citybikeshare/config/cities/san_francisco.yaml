@@ -1,7 +1,7 @@
 name: san_francisco
 system_name: san_francisco_bikeshare
 source_url: "https://www.lyft.com/bikes/bay-wheels/system-data"
-aws_sync: false
+aws_sync: true
 s3_bucket: s3://baywheels-data
 
 file_matcher:

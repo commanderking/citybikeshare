@@ -38,6 +38,6 @@ def download(config, context):
 
                     with open(target_path, "wb") as target_file:
                         target_file.write(source.read())
-                        print(f"Extracted and cleaned file to {target_path}")
+                        print(f"Downloaded file to {target_path}")
         else:
             print(f"Failed to download file from {file_url}")
