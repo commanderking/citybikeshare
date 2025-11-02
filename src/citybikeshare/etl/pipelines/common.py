@@ -7,10 +7,7 @@ from src.citybikeshare.etl.constants import (
     BICYCLE_TRANSIT_SYSTEMS_RENAMED_STATION_COLUMNS,
 )
 
-from src.citybikeshare.utils.paths import (
-    get_raw_files_directory,
-    get_metadata_directory,
-)
+from src.citybikeshare.context import PipelineContext
 
 
 def rename_columns_for_keys(renamed_columns_dict):
@@ -165,10 +162,10 @@ def filter_null_rows(df):
     return df.filter(~pl.all_horizontal(pl.all().is_null()))
 
 
-def get_stations_df(city):
-    METADATA_PATH = get_metadata_directory(city)
+def get_stations_df(context: PipelineContext):
+    metadata_path = context.metadata_directory
 
-    station_info_json = METADATA_PATH / "station_information.json"
+    station_info_json = metadata_path / "station_information.json"
     stations = []
     with open(station_info_json, "r") as file:
         data = json.load(file)
@@ -177,9 +174,9 @@ def get_stations_df(city):
     return df.lazy()
 
 
-def handle_oslo_legacy_stations(df, context):
-    stations_df = get_stations_df(context.city)
-    METADATA_PATH = get_metadata_directory(context.city)
+def handle_oslo_legacy_stations(df, config, context: PipelineContext):
+    stations_df = get_stations_df(context)
+    metadata_path = context.metadata_directory
 
     stations_df = stations_df.select(["station_id", "name"]).with_columns(
         [pl.col("station_id").cast(pl.Int64)]
@@ -189,7 +186,7 @@ def handle_oslo_legacy_stations(df, context):
     ### Older data does not contain duration column
     if "duration" not in headers:
         station_mapping_df = pl.scan_csv(
-            METADATA_PATH / "legacy_new_station_id_mapping.csv"
+            metadata_path / "legacy_new_station_id_mapping.csv"
         ).with_columns(pl.col("legacy_id").cast(pl.String))
         df = (
             df.rename(
@@ -218,13 +215,13 @@ def handle_oslo_legacy_stations(df, context):
     return df
 
 
-def get_guadalajara_stations_df():
+def get_guadalajara_stations_df(context: PipelineContext):
     """
     Load the stations DataFrame from a file starting with 'nomenclatura'.
     """
-    CSV_PATH = get_raw_files_directory("guadalajara")
+    download_path = context.download_directory
 
-    files = list(CSV_PATH.glob("nomenclatura*.csv"))
+    files = list(download_path.glob("nomenclatura*.csv"))
     if not files:
         raise FileNotFoundError(
             "No file starting with 'nomenclatura' found in the directory."
@@ -237,8 +234,8 @@ def get_guadalajara_stations_df():
     )
 
 
-def handle_guadalajara_stations(df):
-    stations_df = get_guadalajara_stations_df()
+def handle_guadalajara_stations(df, config, context):
+    stations_df = get_guadalajara_stations_df(context)
 
     df = (
         df.join(stations_df, left_on="start_station_id", right_on="id")
@@ -249,21 +246,20 @@ def handle_guadalajara_stations(df):
     return df
 
 
-def get_mexico_city_stations_lf():
-    STATION_INFORMATION_FILE = (
-        get_metadata_directory("mexico_city") / "station_information.json"
-    )
+def get_mexico_city_stations_lf(context: PipelineContext):
+    metadata_path = context.metadata_directory
+    station_file = metadata_path / "station_information.json"
 
     stations = []
-    with open(STATION_INFORMATION_FILE) as f:
+    with open(station_file) as f:
         results = json.load(f)
         stations = results["data"]["stations"]
     stations_lf = pl.LazyFrame(stations).select(["station_id", "name"])
     return stations_lf
 
 
-def join_mexico_city_station_names(df):
-    stations_lf = get_mexico_city_stations_lf()
+def join_mexico_city_station_names(df, config, context):
+    stations_lf = get_mexico_city_stations_lf(context)
     return (
         df.join(
             stations_lf,
@@ -339,9 +335,9 @@ def combine_datetimes(df):
 
 def stations_csv_to_df(context):
     city = context.city
-    CSV_PATH = get_raw_files_directory(city)
+    download_path = context.download_directory
     # LA has station names with special characters: CicLAvia South LA � Exposition Hub
-    df = pl.scan_csv(os.path.join(CSV_PATH, "stations.csv"), encoding="utf8-lossy")
+    df = pl.scan_csv(os.path.join(download_path, "stations.csv"), encoding="utf8-lossy")
     return df.pipe(
         rename_columns_for_keys(BICYCLE_TRANSIT_SYSTEMS_RENAMED_STATION_COLUMNS)
     ).with_columns(
@@ -373,8 +369,8 @@ def append_station_names(trips_df, stations_df):
     return joined_df
 
 
-def process_bicycle_transit_system(df, args):
-    stations_df = stations_csv_to_df(args)
+def process_bicycle_transit_system(df, context):
+    stations_df = stations_csv_to_df(context)
     df = append_station_names(df, stations_df).drop(
         "start_station_id", "end_station_id"
     )
@@ -414,38 +410,45 @@ def clean_header_quotes(df: pl.DataFrame) -> pl.DataFrame:
 
 
 PROCESSING_FUNCTIONS = {
-    "rename_columns": lambda df, ctx: df.pipe(
-        rename_columns_for_keys(ctx["renamed_columns"])
+    "rename_columns": lambda df, config, context: df.pipe(
+        rename_columns_for_keys(config["renamed_columns"])
     ),
-    "clean_header_quotes": lambda df, ctx: clean_header_quotes(df),
-    "convert_to_datetime": lambda df, ctx: df.pipe(
-        convert_columns_to_datetime(["start_time", "end_time"], ctx["date_formats"])
+    "clean_header_quotes": lambda df, config, context: clean_header_quotes(df),
+    "convert_to_datetime": lambda df, config, context: df.pipe(
+        convert_columns_to_datetime(["start_time", "end_time"], config["date_formats"])
     ),
-    "select_final_columns": lambda df, ctx: select_final_columns(
-        df, ctx.get("final_columns", DEFAULT_FINAL_COLUMNS)
+    "select_final_columns": lambda df, config, context: select_final_columns(
+        df, config.get("final_columns", DEFAULT_FINAL_COLUMNS)
     ),
-    "offset_two_digit_years": lambda df, ctx: offset_two_digit_years(df),
-    "austin_calculate_end_time": lambda df, ctx: calculate_end_time(df, ctx),
+    "offset_two_digit_years": lambda df, config, context: offset_two_digit_years(df),
+    "austin_calculate_end_time": lambda df, config, context: calculate_end_time(
+        df, config
+    ),
     "convert_milliseconds_to_datetime": lambda df,
-    ctx: convert_milliseconds_to_datetime(df),
-    "filter_null_rows": lambda df, ctx: filter_null_rows(df),
+    config,
+    context: convert_milliseconds_to_datetime(df),
+    "filter_null_rows": lambda df, config: filter_null_rows(df),
     # City-centric functions
     ### Oslo
-    "handle_oslo_legacy_stations": lambda df, ctx: handle_oslo_legacy_stations(
-        df, ctx["args"]
-    ),
+    "handle_oslo_legacy_stations": lambda df,
+    config,
+    context: handle_oslo_legacy_stations(df, context.city, context),
     ### Philadelphia and Los Angeles
-    "process_bicycle_transit_stations": lambda df, ctx: process_bicycle_transit_system(
-        df, ctx["args"]
-    ),
+    "process_bicycle_transit_stations": lambda df,
+    config,
+    context: process_bicycle_transit_system(df, context),
     ### Guadalajara
-    "handle_guadalajara_stations": lambda df, ctx: handle_guadalajara_stations(df),
+    "handle_guadalajara_stations": lambda df,
+    config,
+    context: handle_guadalajara_stations(df, config, context),
     ### Taipei
-    "handle_odd_hour_duration": lambda df, ctx: handle_odd_hour_duration(df),
-    ### Mexico City
-    "join_mexico_city_station_names": lambda df, ctx: join_mexico_city_station_names(
+    "handle_odd_hour_duration": lambda df, config, context: handle_odd_hour_duration(
         df
     ),
-    "clean_datetimes": lambda df, ctx: clean_datetimes(df),
-    "combine_datetimes": lambda df, ctx: combine_datetimes(df),
+    ### Mexico City
+    "join_mexico_city_station_names": lambda df,
+    config,
+    context: join_mexico_city_station_names(df, config, context),
+    "clean_datetimes": lambda df, config, context: clean_datetimes(df),
+    "combine_datetimes": lambda df, config, context: combine_datetimes(df),
 }

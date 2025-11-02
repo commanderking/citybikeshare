@@ -1,10 +1,15 @@
 from playwright.sync_api import sync_playwright
+from src.citybikeshare.context import PipelineContext
 
 
-def run_get_exports(playwright, url, file_path):
+def run_get_exports(playwright, url, context: PipelineContext):
+    download_path = context.download_directory
+
+    target_file_name = "austin_all_trips.csv"
+    file_path = download_path / target_file_name
     browser = playwright.chromium.launch(headless=True)
-    context = browser.new_context(accept_downloads=True)
-    page = context.new_page()
+    browser_context = browser.new_context(accept_downloads=True)
+    page = browser_context.new_page()
 
     page.goto(url)
     page.click("text=Export")
@@ -19,7 +24,7 @@ def run_get_exports(playwright, url, file_path):
     print(f"Downloaded {download.suggested_filename}")
 
 
-def get_exports(url, file_path):
+def get_exports(url, context: PipelineContext):
     """Applies to Austin and Chattanooga so far"""
     with sync_playwright() as playwright:
-        run_get_exports(playwright, url, file_path)
+        run_get_exports(playwright, url, context)

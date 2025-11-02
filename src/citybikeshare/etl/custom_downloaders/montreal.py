@@ -1,10 +1,7 @@
 import os
 import shutil
 from playwright.sync_api import sync_playwright
-from src.citybikeshare.utils.paths import get_zip_directory
-
-ZIP_PATH = get_zip_directory("montreal")
-OPEN_DATA_URL = "https://bixi.com/en/open-data/"
+from src.citybikeshare.context import PipelineContext
 
 
 def run_get_exports(playwright, url, csv_path):
@@ -26,11 +23,14 @@ def run_get_exports(playwright, url, csv_path):
     browser.close()
 
 
-def download(config):
+def download(config, context: PipelineContext):
     """Standard entrypoint for ETL to call."""
-    zip_path = get_zip_directory(config["name"])
+    download_path = context.download_directory
     url = config["source_url"]
     with sync_playwright() as playwright:
-        shutil.rmtree(zip_path, ignore_errors=True)
-        os.makedirs(zip_path, exist_ok=True)
-        run_get_exports(playwright, url, zip_path)
+        ## Montreal renames its files for the same year as it adds more months.
+        ## i.e. in January, it could be 2025_01
+        ## in June, it could be 2025_01_02_03_04
+        shutil.rmtree(download_path, ignore_errors=True)
+        os.makedirs(download_path, exist_ok=True)
+        run_get_exports(playwright, url, download_path)

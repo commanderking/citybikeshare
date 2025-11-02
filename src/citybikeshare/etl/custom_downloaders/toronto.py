@@ -2,13 +2,12 @@ from zipfile import ZipFile
 from io import BytesIO
 import os
 import requests
+from src.citybikeshare.context import PipelineContext
 
-from src.citybikeshare.utils.paths import get_raw_files_directory
 
-
-def download(config):
+def download(config, context: PipelineContext):
     city = config.get("name")
-    csv_path = get_raw_files_directory(city)
+    csv_path = context.download_directory
     # To hit our API, you'll be making requests to:
     base_url = "https://ckan0.cf.opendata.inter.prod-toronto.ca"
 

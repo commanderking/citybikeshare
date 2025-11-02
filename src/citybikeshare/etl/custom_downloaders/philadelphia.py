@@ -3,5 +3,5 @@ from src.citybikeshare.etl.custom_downloaders.utils.bicycle_transit_systems impo
 )
 
 
-def download(config):
-    download_files(config)
+def download(config, context):
+    download_files(config, context)

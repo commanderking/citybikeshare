@@ -1,14 +1,13 @@
 import os
 import requests
-from src.citybikeshare.utils.paths import get_zip_directory, get_raw_files_directory
 from playwright.sync_api import sync_playwright
+from src.citybikeshare.context import PipelineContext
 
 
-def run(playwright, url, city):
-    STATIONS_CSV_PATH = get_raw_files_directory(city)
-    DOWNLOAD_PATH = get_zip_directory(city)
+def run(playwright, url, context: PipelineContext):
+    download_path = context.download_directory
     # Create a downloaded zip directory if it doesn't exist
-    os.makedirs(DOWNLOAD_PATH, exist_ok=True)
+    os.makedirs(download_path, exist_ok=True)
 
     browser = playwright.chromium.launch(headless=True)
     context = browser.new_context(accept_downloads=True)
@@ -21,7 +20,7 @@ def run(playwright, url, city):
         # Skip download if already in folder
         url = link.get_attribute("href")
         filename = os.path.basename(url)
-        target_file_path = os.path.join(DOWNLOAD_PATH, filename)
+        target_file_path = os.path.join(download_path, filename)
         if os.path.exists(target_file_path):
             print(f"🟡 Skipping Download - ${filename} file already exists")
 
@@ -29,7 +28,7 @@ def run(playwright, url, city):
             with page.expect_download() as download_info:
                 link.click()
             download = download_info.value
-            download.save_as(os.path.join(DOWNLOAD_PATH, filename))
+            download.save_as(os.path.join(download_path, filename))
             print(f"Downloaded {filename}")
 
     # Download stations csv directly into csv folder
@@ -37,7 +36,7 @@ def run(playwright, url, city):
     with page.expect_download() as stations_download_info:
         stations_csv_link.click()
     stations_download = stations_download_info.value
-    stations_download.save_as(os.path.join(DOWNLOAD_PATH, "stations.csv"))
+    stations_download.save_as(os.path.join(download_path, "stations.csv"))
     print(f"Downloaded {stations_download.suggested_filename} as stations.csv")
 
     browser.close()
@@ -50,8 +49,7 @@ def get_file_size_from_url(url):
     return None
 
 
-def download_files(config):
-    city = config.get("name")
+def download_files(config, context):
     url = config.get("source_url")
     with sync_playwright() as playwright:
-        run(playwright, url, city)
+        run(playwright, url, context)

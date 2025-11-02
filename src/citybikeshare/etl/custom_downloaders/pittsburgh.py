@@ -3,9 +3,7 @@ import json
 import csv
 import urllib.request
 from playwright.sync_api import sync_playwright
-from src.citybikeshare.utils.paths import get_raw_files_directory
-
-CSV_PATH = get_raw_files_directory("pittsburgh")
+from src.citybikeshare.context import PipelineContext
 
 
 def run(playwright):
@@ -44,11 +42,12 @@ def get_monthly_resource_ids():
         return resource_ids
 
 
-def query_data(resource_ids):
+def query_data(resource_ids, context: PipelineContext):
     for resource_id in resource_ids:
         url = f"https://data.wprdc.org/api/3/action/datastore_search?resource_id={resource_id}&limit=10000000"
         csv_file = f"{resource_id}.csv"
-        csv_file_path = os.path.join(CSV_PATH, csv_file)
+        download_path = context.download_directory
+        csv_file_path = os.path.join(download_path, csv_file)
         if os.path.exists(csv_file_path):
             print(f"🟡 Skipping Download for {csv_file_path} - file already exists")
         else:
@@ -72,6 +71,6 @@ def query_data(resource_ids):
                 print(f"{resource_id} returned with an error: {e}")
 
 
-def download(config):
+def download(config, context: PipelineContext):
     resource_ids = get_monthly_resource_ids()
-    query_data(resource_ids)
+    query_data(resource_ids, context)

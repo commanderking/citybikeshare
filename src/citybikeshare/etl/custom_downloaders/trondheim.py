@@ -3,7 +3,6 @@ from src.citybikeshare.etl.custom_downloaders.utils.norway_cities import (
 )
 
 
-def download(config):
+def download(config, context):
     source_url = config.get("source_url", "")
-    city = config.get("name", "")
-    download_files(source_url, city)
+    download_files(source_url, context)

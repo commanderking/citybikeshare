@@ -1,6 +1,6 @@
-import polars as pl
 from pathlib import Path
 from typing import Any, Dict
+import polars as pl
 import yaml
 
 CONFIG_DIR = Path(__file__).parent / "cities"

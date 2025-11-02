@@ -3,10 +3,10 @@ from src.citybikeshare.utils.io_clean import (
     CLEAN_FUNCTIONS,
 )
 from src.citybikeshare.config.loader import load_city_config
-from src.citybikeshare.utils.paths import get_raw_files_directory
+from src.citybikeshare.context import PipelineContext
 
 
-def convert_csvs_to_parquet(files, context):
+def convert_csvs_to_parquet(files, context: PipelineContext):
     config = load_city_config(context.city)
     for file in files:
         print(f"Processing {file}")
@@ -15,12 +15,17 @@ def convert_csvs_to_parquet(files, context):
             CLEAN_FUNCTIONS[step](file)
 
 
-def clean_city_data(context):
+def clean_city_data(context: PipelineContext):
     city = context.city
-    path = get_raw_files_directory(city)
+    path = context.raw_directory
     config = load_city_config(city)
     clean_pipeline = config.get("clean_pipeline", [])
 
+    if not clean_pipeline:
+        print(
+            "No cleaning necessary! If this is a mistake, make sure the city's yaml file as a clean_pipeline configuration."
+        )
+        return
     csv_files = list(Path(path).glob("*.csv"))
     if not csv_files:
         print(f"⚠️ No CSV files found for {city}")

@@ -46,7 +46,7 @@ def normalize_delimiters(csv_file: Path, config):
 
 
 ### Vancouver data currently has hidden \r in files (probably from Google Doc or Windows save)
-def normalize_newlines(csv_file: Path):
+def normalize_newlines(csv_file: Path, config):
     text = csv_file.read_text(encoding="utf-8", errors="ignore")
     text_clean = text.replace("\r\n", "\n").replace("\r", "\n")
     csv_file.write_text(text_clean, encoding="utf-8")
