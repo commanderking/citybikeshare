@@ -1,9 +1,9 @@
 import os
 from playwright.sync_api import sync_playwright
-from src.citybikeshare.utils.paths import get_zip_directory, get_raw_files_directory
+from src.citybikeshare.context import PipelineContext
 
 
-def run(playwright, config):
+def run(playwright, config, context: PipelineContext):
     browser = playwright.chromium.launch(headless=True)  # Set to True for silent mode
     context = browser.new_context(accept_downloads=True)
     page = context.new_page()
@@ -11,9 +11,8 @@ def run(playwright, config):
     url = "https://datosabiertos.rosario.gob.ar/dataset/0e487f13-7725-4bbf-afea-52e429fa92e5"
     page.goto(url)
 
-    city = config.get("name")
-    downloadPath = get_zip_directory(city)
-    target_file_path = os.path.join(downloadPath)
+    download_directory = context.download_directory
+    target_file_path = os.path.join(download_directory)
 
     # Wait for the button to appear and click "Descargar todos"
     with page.expect_download(timeout=120000) as download_info:
@@ -31,6 +30,6 @@ def run(playwright, config):
     browser.close()
 
 
-def download(config):
+def download(config, context: PipelineContext):
     with sync_playwright() as playwright:
-        run(playwright, config)
+        run(playwright, config, context)

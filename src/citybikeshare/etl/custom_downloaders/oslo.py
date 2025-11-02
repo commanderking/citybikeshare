@@ -5,20 +5,12 @@ import requests
 from src.citybikeshare.etl.custom_downloaders.utils.norway_cities import (
     click_buttons_to_download,
 )
-
-from src.citybikeshare.utils.paths import (
-    get_zip_directory,
-    get_raw_files_directory,
-    get_metadata_directory,
-)
+from src.citybikeshare.context import PipelineContext
 
 
 CITY = "oslo"
 
-ZIP_PATH = get_zip_directory(CITY)
 OPEN_DATA_URL = "https://oslobysykkel.no/en/open-data/historical"
-CSV_PATH = get_raw_files_directory(CITY)
-METADATA_PATH = get_metadata_directory(CITY)
 CURRENT_STATIONS_URL = (
     "https://gbfs.urbansharing.com/oslobysykkel.no/station_information.json"
 )
@@ -38,13 +30,14 @@ legacy_columns = {
 }
 
 
-def get_stations_information():
+def get_stations_information(context: PipelineContext):
     response = requests.get(CURRENT_STATIONS_URL)
 
     # Check if the request was successful
     if response.status_code == 200:
         json_data = response.json()
-        with open(METADATA_PATH / "station_information.json", "w") as json_file:
+        meta_data_directory = context.metadata_directory
+        with open(meta_data_directory / "station_information.json", "w") as json_file:
             json.dump(json_data, json_file, indent=4)
         print(f"Downloaded JSON from url: {CURRENT_STATIONS_URL}")
     else:
@@ -58,11 +51,12 @@ def get_file_size_from_url(url):
     return None
 
 
-def run_get_exports(playwright, url):
+def run_get_exports(playwright, url, pipeline_context: PipelineContext):
     browser = playwright.chromium.launch(headless=True)
     context = browser.new_context(accept_downloads=True)
-    page = context.new_page()
+    download_path = pipeline_context.download_directory
 
+    page = context.new_page()
     page.goto(url)
     csv_buttons = page.locator('role=button[name="CSV"]')
 
@@ -74,12 +68,12 @@ def run_get_exports(playwright, url):
         print(f"Downloading {download.suggested_filename}")
         download.save_as(os.path.join(METADATA_PATH, download.suggested_filename))
 
-    click_buttons_to_download(page, csv_buttons, ZIP_PATH)
+    click_buttons_to_download(page, csv_buttons, download_path)
     browser.close()
 
 
-def download(config):
+def download(config, context):
     url = config.get("source_url")
-    get_stations_information()
+    get_stations_information(context)
     with sync_playwright() as playwright:
-        run_get_exports(playwright, url)
+        run_get_exports(playwright, url, context)

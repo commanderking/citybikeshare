@@ -1,10 +1,9 @@
 import os
 import requests
 from playwright.sync_api import sync_playwright
-from src.citybikeshare.utils.paths import get_raw_files_directory
+from src.citybikeshare.context import PipelineContext
 
 CSV_EXTENSION = ".csv"
-CSV_PATH = get_raw_files_directory("guadalajara")
 OPEN_DATA_ROOT = "https://www.mibici.net"
 OPEN_DATA_URL = "https://www.mibici.net/es/datos-abiertos"
 
@@ -72,15 +71,14 @@ def download_all_csvs(links, csv_path):
         download_csv(link, csv_path, REQUEST_HEADERS)
 
 
-def download(config):
+def download(config, context: PipelineContext):
     """
     Fetch CSV links and download them to the specified path.
     """
     url = config.get("source_url", "")
-    city = config.get("city", "")
 
-    csv_path = get_raw_files_directory(city)
+    download_path = context.download_directory
 
     with sync_playwright() as playwright:
         csv_links = get_csv_links(playwright, url)
-    download_all_csvs(csv_links, csv_path)
+    download_all_csvs(csv_links, download_path)

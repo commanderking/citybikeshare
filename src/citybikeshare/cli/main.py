@@ -7,20 +7,15 @@ Usage examples:
     pipenv run clean seoul
 """
 
+from pathlib import Path
 import typer
-from dataclasses import dataclass
 from src.citybikeshare.etl.download import download_city_data
 from src.citybikeshare.etl.extract import extract_city_data
 from src.citybikeshare.etl.clean import clean_city_data
 from src.citybikeshare.etl.transform import transform_city_data
-
+from src.citybikeshare.context import PipelineContext
 
 app = typer.Typer(help="Unified CLI for the CityBikeshare ETL pipeline")
-
-
-@dataclass(frozen=True)
-class PipelineContext:
-    city: str
 
 
 # --------------------------------------------------
@@ -28,13 +23,22 @@ class PipelineContext:
 # --------------------------------------------------
 
 
+def build_context(city: str) -> PipelineContext:
+    data_root = Path("data")
+    city_dir = data_root / city
+    for sub in ["download", "clean", "metadata", "parquet"]:
+        (city_dir / sub).mkdir(parents=True, exist_ok=True)
+    return PipelineContext(city=city, data_root=Path("data"))
+
+
 @app.command()
 def sync(
     city: str = typer.Argument(..., help="City name (e.g. montreal, boston, seoul)"),
 ):
     """Download or update raw bikeshare data."""
+    context = build_context(city)
     typer.echo(f"🌐 Syncing data for {city}")
-    download_city_data(city)
+    download_city_data(context)
     typer.secho(f"✅ Successfully synced data for {city}", fg=typer.colors.GREEN)
 
 
@@ -47,7 +51,9 @@ def extract(
 ):
     """Extract ZIP or CSV files for the given city."""
     typer.echo(f"📦 Extracting files for {city}")
-    csv_files = extract_city_data(city, overwrite=overwrite)
+    context = build_context(city)
+
+    csv_files = extract_city_data(context, overwrite=overwrite)
     typer.secho(
         f"✅ Extracted {len(csv_files)} CSV files for {city}", fg=typer.colors.GREEN
     )
@@ -58,7 +64,7 @@ def clean(
     city: str = typer.Argument(..., help="City name (e.g. montreal, taipei, boston)"),
 ):
     """Clean and normalize raw city data."""
-    context = PipelineContext(city=city)
+    context = build_context(city)
     typer.echo(f"🧼 Cleaning data for {city}")
     clean_city_data(context)
     typer.secho(f"✅ Cleaning complete for {city}", fg=typer.colors.GREEN)
@@ -69,7 +75,7 @@ def transform(
     city: str = typer.Argument(..., help="City name (e.g. montreal, taipei, boston)"),
 ):
     """Combine and standardize all cleaned CSVs."""
-    context = PipelineContext(city=city)
+    context = build_context(city)
     typer.echo(f"🔧 Transforming data for {city}")
     transform_city_data(context)
     typer.secho(f"✅ Transform complete for {city}", fg=typer.colors.GREEN)

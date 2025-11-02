@@ -2,9 +2,6 @@ from playwright.sync_api import sync_playwright, TimeoutError as PlaywrightTimeo
 from src.citybikeshare.etl.custom_downloaders.utils.download_helpers import (
     download_if_new_data,
 )
-from src.citybikeshare.utils.paths import (
-    get_zip_directory,
-)
 
 
 def click_buttons_to_download(page, buttons, zip_path):
@@ -39,8 +36,8 @@ def run_get_exports(playwright, url, zip_path):
     browser.close()
 
 
-def download_files(url, city):
-    zip_path = get_zip_directory(city)
+def download_files(url, context):
+    zip_path = context.download_directory
 
     with sync_playwright() as playwright:
         run_get_exports(playwright, url, zip_path)

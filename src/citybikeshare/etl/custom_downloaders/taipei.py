@@ -3,7 +3,6 @@ from zipfile import ZipFile
 from io import BytesIO
 import requests
 import polars as pl
-from src.citybikeshare.utils.paths import get_raw_files_directory
 
 
 ### CSV files often have non-ASCII characters (i.e. 202403_YouBike2.0≤º√“®Í•d∏ÍÆ∆.csv)
@@ -15,9 +14,8 @@ def clean_filename(filename):
 # Get main csv, which lists monthly csv data in zip form
 # For all monthly zips, unzip all csv files to folder
 # Read all csvs and bundle into one large parquet file
-def download(config):
-    city = config.get("name")
-    csv_path = get_raw_files_directory(city)
+def download(config, context):
+    download_path = context.download_directory
     df = pl.read_csv(
         "https://tcgbusfs.blob.core.windows.net/dotapp/youbike_second_ticket_opendata/YouBikeHis.csv"
     )
@@ -36,7 +34,7 @@ def download(config):
                     clean_file = clean_filename(file)
 
                     source = zip_file.open(file)
-                    target_path = os.path.join(csv_path, clean_file)
+                    target_path = os.path.join(download_path, clean_file)
 
                     with open(target_path, "wb") as target_file:
                         target_file.write(source.read())

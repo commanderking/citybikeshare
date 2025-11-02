@@ -1,12 +1,11 @@
 import os
 from playwright.sync_api import sync_playwright
-from src.citybikeshare.utils.paths import get_zip_directory
+from src.citybikeshare.context import PipelineContext
 
 
-def main(p, config):
+def main(p, config, context: PipelineContext):
     config.get("name")
-    city = config.get("name")
-    raw_file_path = get_zip_directory(city)
+    download_path = context.download_directory
 
     browser = p.chromium.launch(headless=True)
     context = browser.new_context(accept_downloads=True)
@@ -30,12 +29,12 @@ def main(p, config):
             print(f"Downloading file #{link}")
             download = download_info.value
 
-            download.save_as(os.path.join(raw_file_path, download.suggested_filename))
+            download.save_as(os.path.join(download_path, download.suggested_filename))
             print(f"✅ Downloaded {os.path.basename(download.suggested_filename)}")
 
     browser.close()
 
 
-def download(config):
+def download(config, context):
     with sync_playwright() as playwright:
-        main(playwright, config)
+        main(playwright, config, context)

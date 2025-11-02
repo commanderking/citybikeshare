@@ -14,13 +14,11 @@ from pathlib import Path
 from typing import List
 import tempfile
 import polars as pl
-
+from src.citybikeshare.context import PipelineContext
 from src.citybikeshare.config.loader import load_city_config
 
-from src.citybikeshare.utils.paths import get_zip_directory, get_raw_files_directory
 
-
-def extract_city_data(city: str, overwrite: bool = False) -> List[Path]:
+def extract_city_data(context: PipelineContext, overwrite: bool = False) -> List[Path]:
     """
     Extract all downloaded archives for a city into its raw folder.
 
@@ -38,11 +36,10 @@ def extract_city_data(city: str, overwrite: bool = False) -> List[Path]:
     List[Path]
         List of extracted CSV file paths ready for transform stage.
     """
-    config = load_city_config(city)
+    config = load_city_config(context.city)
     city_name = config["name"]
-
-    zip_dir = get_zip_directory(city_name)
-    raw_dir = get_raw_files_directory(city_name)
+    download_directory = context.download_directory
+    raw_dir = context.raw_directory
     raw_dir.mkdir(parents=True, exist_ok=True)
 
     if overwrite:
@@ -54,9 +51,9 @@ def extract_city_data(city: str, overwrite: bool = False) -> List[Path]:
 
     # Initialize queue of ZIPs to process (supports nested zips)
     to_process = [
-        os.path.join(zip_dir, f)
-        for f in os.listdir(zip_dir)
-        if zipfile.is_zipfile(os.path.join(zip_dir, f))
+        os.path.join(download_directory, f)
+        for f in os.listdir(download_directory)
+        if zipfile.is_zipfile(os.path.join(download_directory, f))
     ]
     csv_files: List[Path] = []
 
@@ -105,8 +102,8 @@ def extract_city_data(city: str, overwrite: bool = False) -> List[Path]:
         except zipfile.BadZipFile:
             print(f"⚠️  Skipping invalid ZIP file: {zip_path}")
 
-    # Copy any standalone CSVs from zip_dir to raw_dir
-    for file in Path(zip_dir).iterdir():
+    # Copy any standalone CSVs from download_directory to raw_dir
+    for file in Path(download_directory).iterdir():
         if file.suffix.lower() == ".csv":
             dest = raw_dir / file.name
             shutil.copy(file, dest)

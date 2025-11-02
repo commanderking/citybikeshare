@@ -4,15 +4,14 @@ from src.citybikeshare.config.loader import load_city_config
 from src.citybikeshare.utils.io_transform import (
     delete_folder,
 )
-
 from src.citybikeshare.etl.pipelines.common import PROCESSING_FUNCTIONS
 from src.citybikeshare.etl.constants import DEFAULT_PROCESSING_PIPELINE
 from src.citybikeshare.utils.paths import (
     get_parquet_directory,
     get_city_output_directory,
-    get_raw_files_directory,
     get_csv_files,
 )
+from src.citybikeshare.context import PipelineContext
 
 
 def filter_filenames(filenames, config):
@@ -71,17 +70,16 @@ def get_csv_scan_params(file_path, opts):
     )
 
 
-def create_parquet(file, context):
+def create_parquet(file, context, config):
     config = load_city_config(context.city)
     csv_options = config.get("read_csv_options", {})
-    city = config.get("name")
+    city = context.city
     params = get_csv_scan_params(file, csv_options)
 
     df = pl.scan_csv(file, **params)
-    context = {**config}
     for step in config.get("processing_pipeline", DEFAULT_PROCESSING_PIPELINE):
         execute_step = PROCESSING_FUNCTIONS[step]
-        df = execute_step(df, context)
+        df = execute_step(df, config, context)
 
     parquet_directory = get_parquet_directory(city)
     file_name = os.path.basename(file).replace(".csv", ".parquet")
@@ -116,17 +114,17 @@ def partition_parquet(context):
     print("All files created and partitioned!")
 
 
-def convert_csvs_to_parquet(files, args):
+def convert_csvs_to_parquet(files, context, config):
     for file in files:
         print(f"Processing {file}")
-        create_parquet(file, args)
+        create_parquet(file, context, config)
 
 
-def transform_city_data(context):
-    source_directory = get_raw_files_directory(context.city)
+def transform_city_data(context: PipelineContext):
+    source_directory = context.raw_directory
     trip_files = get_csv_files(source_directory)
     config = load_city_config(context.city)
     filtered_files = filter_filenames(trip_files, config)
 
-    convert_csvs_to_parquet(filtered_files, context)
+    convert_csvs_to_parquet(filtered_files, context, config)
     partition_parquet(context)

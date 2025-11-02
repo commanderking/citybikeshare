@@ -7,23 +7,25 @@ import subprocess
 from pathlib import Path
 from typing import Optional
 from src.citybikeshare.config.loader import load_city_config
-from src.citybikeshare.utils.paths import get_sync_output_directory
+from src.citybikeshare.context import PipelineContext
 
 
-def download_city_data(city: str, output_dir: Optional[Path] = None) -> Path:
+def download_city_data(
+    context: PipelineContext, output_dir: Optional[Path] = None
+) -> Path:
     """
     Downloads raw data for the given city based on its config.
 
     If a custom downloader exists under scripts/download_{city}.py,
     it will be used automatically.
     """
-    config = load_city_config(city)
+    config = load_city_config(context.city)
     name = config["name"]
     aws_sync = config.get("aws_sync")
     s3_bucket = config.get("s3_bucket")
     s3_sync_options = config.get("s3_sync_options", "")
 
-    output_dir = get_sync_output_directory(city)
+    output_dir = context.download_directory
 
     print(name)
 
@@ -36,7 +38,7 @@ def download_city_data(city: str, output_dir: Optional[Path] = None) -> Path:
         )
         print(custom_module)
         if hasattr(custom_module, "download"):
-            custom_module.download(config)
+            custom_module.download(config, context)
             return output_dir
     except ModuleNotFoundError:
         pass  # No custom script — continue

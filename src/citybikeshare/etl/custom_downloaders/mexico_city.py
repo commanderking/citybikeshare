@@ -1,19 +1,9 @@
 import os
-import requests
 import json
+import requests
 from playwright.sync_api import sync_playwright
-from src.citybikeshare.utils.paths import (
-    get_zip_directory,
-    get_raw_files_directory,
-    get_metadata_directory,
-)
 
-CSV_PATH = get_raw_files_directory("mexico_city")
-MEXICO_CITY_OPEN_DATA_URL = "https://ecobici.cdmx.gob.mx/en/open-data/"
-MEXICO_CSVS_PATH = get_raw_files_directory("mexico_city")
-STATION_INFORMATION_FILE = (
-    get_metadata_directory("mexico_city") / "station_information.json"
-)
+from src.citybikeshare.context import PipelineContext
 
 
 def run_get_exports(playwright, url, csv_path):
@@ -45,9 +35,9 @@ def run_get_exports(playwright, url, csv_path):
     browser.close()
 
 
-def get_stations_info():
+def get_stations_info(context: PipelineContext):
     url = "https://gbfs.mex.lyftbikes.com/gbfs/es/station_information.json"
-
+    metadata_file = context.metadata_directory
     try:
         # Make a GET request to fetch the data
         response = requests.get(url)
@@ -57,23 +47,20 @@ def get_stations_info():
         data = response.json()
 
         # Save the JSON data to a file
-        with open(STATION_INFORMATION_FILE, "w", encoding="utf-8") as file:
+        with open(metadata_file, "w", encoding="utf-8") as file:
             json.dump(data, file, ensure_ascii=False, indent=4)
 
-        print(
-            f"Data successfully downloaded and saved to '{STATION_INFORMATION_FILE}'."
-        )
+        print(f"Data successfully downloaded and saved to '{metadata_file}'.")
     except requests.exceptions.RequestException as e:
         print(f"An error occurred while fetching the data: {e}")
     except Exception as e:
         print(f"An unexpected error occurred: {e}")
 
 
-def download(config):
+def download(config, context):
     url = config.get("source_url")
-    city = config.get("name")
-    csv_path = get_raw_files_directory(city)
+    download_path = context.download_path
     # Mexico City data only includes station ids, not names
     # get_stations_info()
     with sync_playwright() as playwright:
-        run_get_exports(playwright, url, csv_path)
+        run_get_exports(playwright, url, download_path)

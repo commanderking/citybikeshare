@@ -2,15 +2,11 @@ from playwright.sync_api import sync_playwright
 from src.citybikeshare.etl.custom_downloaders.utils.download_helpers import (
     download_if_new_data,
 )
-from src.citybikeshare.utils.paths import get_raw_files_directory
+from src.citybikeshare.context import PipelineContext
 
 
-OPEN_DATA_URL = "https://www.mobibikes.ca/en/system-data"
-CSV_PATH = get_raw_files_directory("vancouver")
-date_formats = ["%Y-%m-%d %H:%M", "%m/%d/%Y %H:%M"]
-
-
-def run_get_exports(playwright, url, csv_path):
+def run_get_exports(playwright, url, context: PipelineContext):
+    download_path = context.download_directory
     browser = playwright.chromium.launch(headless=True)
     context = browser.new_context(accept_downloads=True)
     page = context.new_page()
@@ -33,14 +29,12 @@ def run_get_exports(playwright, url, csv_path):
                 new_page.get_by_label("Download", exact=True).click()
             download_if_new_data(
                 download_info,
-                csv_path,
+                download_path,
             )
     browser.close()
 
 
-def download(config):
+def download(config, context: PipelineContext):
     url = config.get("source_url")
-    city = config.get("name")
-    csv_path = get_raw_files_directory(city)
     with sync_playwright() as playwright:
-        run_get_exports(playwright, url, csv_path)
+        run_get_exports(playwright, url, context)
