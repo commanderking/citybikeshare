@@ -41,12 +41,17 @@ def summarize_city(context: PipelineContext):
         .agg(
             [
                 pl.count().alias("trip_count"),
-                pl.col(duration_col).median().alias("median_duration"),
-                pl.col(duration_col).quantile(0.25).alias("first_quantile_duration"),
-                pl.col(duration_col).quantile(0.75).alias("third_quantile_duration"),
+                pl.col(duration_col).median().alias("duration_median"),
+                pl.col(duration_col).quantile(0.05).alias("duration_5_percent"),
+                pl.col(duration_col).quantile(0.25).alias("duration_q1"),
+                pl.col(duration_col).quantile(0.75).alias("duration_q3"),
+                pl.col(duration_col).quantile(0.95).alias("duration_95_percent"),
                 # Counts if null is any column of row
                 pl.sum_horizontal(
-                    [pl.col(c).is_null().cast(pl.Int64) for c in lf.columns]
+                    [
+                        pl.col(c).is_null().cast(pl.Int64)
+                        for c in lf.collect_schema().names()
+                    ]
                 )
                 .sum()
                 .alias("null_rows"),

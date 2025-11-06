@@ -13,8 +13,11 @@ def merge_city_summaries(analysis_folder):
         if summary_file.exists():
             with open(summary_file, "r") as f:
                 city_data = json.load(f)
-                for record in city_data:
-                    record["city"] = city_dir.name  # add city name
+
+                ## All cities with null
+                filtered_data = [d for d in city_data if d.get("year") is not None]
+                for record in filtered_data:
+                    record["city"] = city_dir.name
                     all_records.append(record)
 
     output_path = analysis_folder / "summary_all_cities.json"
