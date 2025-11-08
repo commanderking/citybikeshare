@@ -1,0 +1,3692 @@
+[
+  {
+    "bucket": 0,
+    "count": 37641,
+    "year": 2010,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 180,
+    "count": 225472,
+    "year": 2010,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 360,
+    "count": 213543,
+    "year": 2010,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 540,
+    "count": 129938,
+    "year": 2010,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 720,
+    "count": 72369,
+    "year": 2010,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 900,
+    "count": 43436,
+    "year": 2010,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 1080,
+    "count": 28780,
+    "year": 2010,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 1260,
+    "count": 19616,
+    "year": 2010,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 1440,
+    "count": 14397,
+    "year": 2010,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 1620,
+    "count": 10614,
+    "year": 2010,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 1800,
+    "count": 6954,
+    "year": 2010,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 1980,
+    "count": 5023,
+    "year": 2010,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 2160,
+    "count": 3850,
+    "year": 2010,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 2340,
+    "count": 3072,
+    "year": 2010,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 2520,
+    "count": 2498,
+    "year": 2010,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 2700,
+    "count": 2010,
+    "year": 2010,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 2880,
+    "count": 1691,
+    "year": 2010,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 3060,
+    "count": 1559,
+    "year": 2010,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 3240,
+    "count": 1309,
+    "year": 2010,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 3420,
+    "count": 1116,
+    "year": 2010,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 3600,
+    "count": 966,
+    "year": 2010,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 3780,
+    "count": 809,
+    "year": 2010,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 3960,
+    "count": 731,
+    "year": 2010,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 4140,
+    "count": 629,
+    "year": 2010,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 4320,
+    "count": 608,
+    "year": 2010,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 4500,
+    "count": 513,
+    "year": 2010,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 4680,
+    "count": 468,
+    "year": 2010,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 4860,
+    "count": 484,
+    "year": 2010,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 5040,
+    "count": 431,
+    "year": 2010,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 5220,
+    "count": 357,
+    "year": 2010,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 5400,
+    "count": 363,
+    "year": 2010,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 5580,
+    "count": 359,
+    "year": 2010,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 5760,
+    "count": 334,
+    "year": 2010,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 5940,
+    "count": 283,
+    "year": 2010,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 6120,
+    "count": 298,
+    "year": 2010,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 6300,
+    "count": 270,
+    "year": 2010,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 6480,
+    "count": 243,
+    "year": 2010,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 6660,
+    "count": 274,
+    "year": 2010,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 6840,
+    "count": 248,
+    "year": 2010,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 7020,
+    "count": 224,
+    "year": 2010,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 7200,
+    "count": 7301,
+    "year": 2010,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 0,
+    "count": 105090,
+    "year": 2011,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 180,
+    "count": 629924,
+    "year": 2011,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 360,
+    "count": 613926,
+    "year": 2011,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 540,
+    "count": 383107,
+    "year": 2011,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 720,
+    "count": 227627,
+    "year": 2011,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 900,
+    "count": 147112,
+    "year": 2011,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 1080,
+    "count": 101602,
+    "year": 2011,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 1260,
+    "count": 71765,
+    "year": 2011,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 1440,
+    "count": 52830,
+    "year": 2011,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 1620,
+    "count": 40052,
+    "year": 2011,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 1800,
+    "count": 30879,
+    "year": 2011,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 1980,
+    "count": 23410,
+    "year": 2011,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 2160,
+    "count": 18708,
+    "year": 2011,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 2340,
+    "count": 14809,
+    "year": 2011,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 2520,
+    "count": 11801,
+    "year": 2011,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 2700,
+    "count": 8977,
+    "year": 2011,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 2880,
+    "count": 7028,
+    "year": 2011,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 3060,
+    "count": 5832,
+    "year": 2011,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 3240,
+    "count": 5070,
+    "year": 2011,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 3420,
+    "count": 4033,
+    "year": 2011,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 3600,
+    "count": 3411,
+    "year": 2011,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 3780,
+    "count": 2924,
+    "year": 2011,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 3960,
+    "count": 2475,
+    "year": 2011,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 4140,
+    "count": 2039,
+    "year": 2011,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 4320,
+    "count": 1833,
+    "year": 2011,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 4500,
+    "count": 1552,
+    "year": 2011,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 4680,
+    "count": 1405,
+    "year": 2011,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 4860,
+    "count": 1343,
+    "year": 2011,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 5040,
+    "count": 1258,
+    "year": 2011,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 5220,
+    "count": 1083,
+    "year": 2011,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 5400,
+    "count": 1041,
+    "year": 2011,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 5580,
+    "count": 937,
+    "year": 2011,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 5760,
+    "count": 802,
+    "year": 2011,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 5940,
+    "count": 836,
+    "year": 2011,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 6120,
+    "count": 781,
+    "year": 2011,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 6300,
+    "count": 688,
+    "year": 2011,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 6480,
+    "count": 692,
+    "year": 2011,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 6660,
+    "count": 603,
+    "year": 2011,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 6840,
+    "count": 589,
+    "year": 2011,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 7020,
+    "count": 546,
+    "year": 2011,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 7200,
+    "count": 12553,
+    "year": 2011,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 0,
+    "count": 112300,
+    "year": 2012,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 180,
+    "count": 662599,
+    "year": 2012,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 360,
+    "count": 656364,
+    "year": 2012,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 540,
+    "count": 427412,
+    "year": 2012,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 720,
+    "count": 263312,
+    "year": 2012,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 900,
+    "count": 170089,
+    "year": 2012,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 1080,
+    "count": 115156,
+    "year": 2012,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 1260,
+    "count": 81289,
+    "year": 2012,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 1440,
+    "count": 59700,
+    "year": 2012,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 1620,
+    "count": 44332,
+    "year": 2012,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 1800,
+    "count": 32838,
+    "year": 2012,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 1980,
+    "count": 25135,
+    "year": 2012,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 2160,
+    "count": 19319,
+    "year": 2012,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 2340,
+    "count": 14356,
+    "year": 2012,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 2520,
+    "count": 10128,
+    "year": 2012,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 2700,
+    "count": 6531,
+    "year": 2012,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 2880,
+    "count": 4621,
+    "year": 2012,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 3060,
+    "count": 3218,
+    "year": 2012,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 3240,
+    "count": 2608,
+    "year": 2012,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 3420,
+    "count": 2123,
+    "year": 2012,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 3600,
+    "count": 1745,
+    "year": 2012,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 3780,
+    "count": 1499,
+    "year": 2012,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 3960,
+    "count": 1287,
+    "year": 2012,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 4140,
+    "count": 1061,
+    "year": 2012,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 4320,
+    "count": 868,
+    "year": 2012,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 4500,
+    "count": 806,
+    "year": 2012,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 4680,
+    "count": 727,
+    "year": 2012,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 4860,
+    "count": 634,
+    "year": 2012,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 5040,
+    "count": 604,
+    "year": 2012,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 5220,
+    "count": 528,
+    "year": 2012,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 5400,
+    "count": 472,
+    "year": 2012,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 5580,
+    "count": 438,
+    "year": 2012,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 5760,
+    "count": 441,
+    "year": 2012,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 5940,
+    "count": 433,
+    "year": 2012,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 6120,
+    "count": 352,
+    "year": 2012,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 6300,
+    "count": 328,
+    "year": 2012,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 6480,
+    "count": 291,
+    "year": 2012,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 6660,
+    "count": 317,
+    "year": 2012,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 6840,
+    "count": 302,
+    "year": 2012,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 7020,
+    "count": 324,
+    "year": 2012,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 7200,
+    "count": 11032,
+    "year": 2012,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 0,
+    "count": 223950,
+    "year": 2013,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 180,
+    "count": 1350728,
+    "year": 2013,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 360,
+    "count": 1404766,
+    "year": 2013,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 540,
+    "count": 1042744,
+    "year": 2013,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 720,
+    "count": 718960,
+    "year": 2013,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 900,
+    "count": 498962,
+    "year": 2013,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 1080,
+    "count": 349722,
+    "year": 2013,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 1260,
+    "count": 249516,
+    "year": 2013,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 1440,
+    "count": 183012,
+    "year": 2013,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 1620,
+    "count": 135253,
+    "year": 2013,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 1800,
+    "count": 98010,
+    "year": 2013,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 1980,
+    "count": 71767,
+    "year": 2013,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 2160,
+    "count": 52020,
+    "year": 2013,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 2340,
+    "count": 36767,
+    "year": 2013,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 2520,
+    "count": 25093,
+    "year": 2013,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 2700,
+    "count": 15503,
+    "year": 2013,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 2880,
+    "count": 10097,
+    "year": 2013,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 3060,
+    "count": 6916,
+    "year": 2013,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 3240,
+    "count": 5057,
+    "year": 2013,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 3420,
+    "count": 3811,
+    "year": 2013,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 3600,
+    "count": 2916,
+    "year": 2013,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 3780,
+    "count": 2257,
+    "year": 2013,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 3960,
+    "count": 1787,
+    "year": 2013,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 4140,
+    "count": 1487,
+    "year": 2013,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 4320,
+    "count": 1327,
+    "year": 2013,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 4500,
+    "count": 1081,
+    "year": 2013,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 4680,
+    "count": 937,
+    "year": 2013,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 4860,
+    "count": 833,
+    "year": 2013,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 5040,
+    "count": 748,
+    "year": 2013,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 5220,
+    "count": 662,
+    "year": 2013,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 5400,
+    "count": 543,
+    "year": 2013,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 5580,
+    "count": 503,
+    "year": 2013,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 5760,
+    "count": 511,
+    "year": 2013,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 5940,
+    "count": 478,
+    "year": 2013,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 6120,
+    "count": 485,
+    "year": 2013,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 6300,
+    "count": 459,
+    "year": 2013,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 6480,
+    "count": 471,
+    "year": 2013,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 6660,
+    "count": 415,
+    "year": 2013,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 6840,
+    "count": 366,
+    "year": 2013,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 7020,
+    "count": 343,
+    "year": 2013,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 7200,
+    "count": 14069,
+    "year": 2013,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 0,
+    "count": 252184,
+    "year": 2014,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 180,
+    "count": 1555754,
+    "year": 2014,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 360,
+    "count": 1676422,
+    "year": 2014,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 540,
+    "count": 1291319,
+    "year": 2014,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 720,
+    "count": 913457,
+    "year": 2014,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 900,
+    "count": 647734,
+    "year": 2014,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 1080,
+    "count": 452264,
+    "year": 2014,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 1260,
+    "count": 322524,
+    "year": 2014,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 1440,
+    "count": 234650,
+    "year": 2014,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 1620,
+    "count": 172478,
+    "year": 2014,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 1800,
+    "count": 124791,
+    "year": 2014,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 1980,
+    "count": 89585,
+    "year": 2014,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 2160,
+    "count": 64241,
+    "year": 2014,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 2340,
+    "count": 44521,
+    "year": 2014,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 2520,
+    "count": 30210,
+    "year": 2014,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 2700,
+    "count": 18102,
+    "year": 2014,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 2880,
+    "count": 11738,
+    "year": 2014,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 3060,
+    "count": 7742,
+    "year": 2014,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 3240,
+    "count": 5668,
+    "year": 2014,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 3420,
+    "count": 4187,
+    "year": 2014,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 3600,
+    "count": 3164,
+    "year": 2014,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 3780,
+    "count": 2458,
+    "year": 2014,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 3960,
+    "count": 1954,
+    "year": 2014,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 4140,
+    "count": 1574,
+    "year": 2014,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 4320,
+    "count": 1350,
+    "year": 2014,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 4500,
+    "count": 1169,
+    "year": 2014,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 4680,
+    "count": 941,
+    "year": 2014,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 4860,
+    "count": 848,
+    "year": 2014,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 5040,
+    "count": 719,
+    "year": 2014,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 5220,
+    "count": 651,
+    "year": 2014,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 5400,
+    "count": 572,
+    "year": 2014,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 5580,
+    "count": 566,
+    "year": 2014,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 5760,
+    "count": 514,
+    "year": 2014,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 5940,
+    "count": 445,
+    "year": 2014,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 6120,
+    "count": 446,
+    "year": 2014,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 6300,
+    "count": 373,
+    "year": 2014,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 6480,
+    "count": 339,
+    "year": 2014,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 6660,
+    "count": 371,
+    "year": 2014,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 6840,
+    "count": 310,
+    "year": 2014,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 7020,
+    "count": 276,
+    "year": 2014,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 7200,
+    "count": 13641,
+    "year": 2014,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 0,
+    "count": 279563,
+    "year": 2015,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 180,
+    "count": 1677833,
+    "year": 2015,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 360,
+    "count": 1871368,
+    "year": 2015,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 540,
+    "count": 1482654,
+    "year": 2015,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 720,
+    "count": 1074577,
+    "year": 2015,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 900,
+    "count": 768308,
+    "year": 2015,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 1080,
+    "count": 547999,
+    "year": 2015,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 1260,
+    "count": 398222,
+    "year": 2015,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 1440,
+    "count": 293128,
+    "year": 2015,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 1620,
+    "count": 221787,
+    "year": 2015,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 1800,
+    "count": 164216,
+    "year": 2015,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 1980,
+    "count": 121044,
+    "year": 2015,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 2160,
+    "count": 87581,
+    "year": 2015,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 2340,
+    "count": 61326,
+    "year": 2015,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 2520,
+    "count": 40605,
+    "year": 2015,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 2700,
+    "count": 24277,
+    "year": 2015,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 2880,
+    "count": 15187,
+    "year": 2015,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 3060,
+    "count": 10309,
+    "year": 2015,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 3240,
+    "count": 7310,
+    "year": 2015,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 3420,
+    "count": 5410,
+    "year": 2015,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 3600,
+    "count": 3889,
+    "year": 2015,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 3780,
+    "count": 3060,
+    "year": 2015,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 3960,
+    "count": 2387,
+    "year": 2015,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 4140,
+    "count": 1951,
+    "year": 2015,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 4320,
+    "count": 1669,
+    "year": 2015,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 4500,
+    "count": 1396,
+    "year": 2015,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 4680,
+    "count": 1078,
+    "year": 2015,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 4860,
+    "count": 1032,
+    "year": 2015,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 5040,
+    "count": 864,
+    "year": 2015,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 5220,
+    "count": 736,
+    "year": 2015,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 5400,
+    "count": 698,
+    "year": 2015,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 5580,
+    "count": 629,
+    "year": 2015,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 5760,
+    "count": 582,
+    "year": 2015,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 5940,
+    "count": 480,
+    "year": 2015,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 6120,
+    "count": 543,
+    "year": 2015,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 6300,
+    "count": 435,
+    "year": 2015,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 6480,
+    "count": 397,
+    "year": 2015,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 6660,
+    "count": 399,
+    "year": 2015,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 6840,
+    "count": 354,
+    "year": 2015,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 7020,
+    "count": 352,
+    "year": 2015,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 7200,
+    "count": 16437,
+    "year": 2015,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 0,
+    "count": 275596,
+    "year": 2016,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 180,
+    "count": 1597577,
+    "year": 2016,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 360,
+    "count": 1778979,
+    "year": 2016,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 540,
+    "count": 1396472,
+    "year": 2016,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 720,
+    "count": 1002448,
+    "year": 2016,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 900,
+    "count": 706335,
+    "year": 2016,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 1080,
+    "count": 502900,
+    "year": 2016,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 1260,
+    "count": 366882,
+    "year": 2016,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 1440,
+    "count": 273703,
+    "year": 2016,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 1620,
+    "count": 204681,
+    "year": 2016,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 1800,
+    "count": 152005,
+    "year": 2016,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 1980,
+    "count": 110175,
+    "year": 2016,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 2160,
+    "count": 78111,
+    "year": 2016,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 2340,
+    "count": 53823,
+    "year": 2016,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 2520,
+    "count": 35392,
+    "year": 2016,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 2700,
+    "count": 21239,
+    "year": 2016,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 2880,
+    "count": 13770,
+    "year": 2016,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 3060,
+    "count": 8944,
+    "year": 2016,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 3240,
+    "count": 6598,
+    "year": 2016,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 3420,
+    "count": 4698,
+    "year": 2016,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 3600,
+    "count": 3712,
+    "year": 2016,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 3780,
+    "count": 2841,
+    "year": 2016,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 3960,
+    "count": 2204,
+    "year": 2016,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 4140,
+    "count": 1846,
+    "year": 2016,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 4320,
+    "count": 1648,
+    "year": 2016,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 4500,
+    "count": 1364,
+    "year": 2016,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 4680,
+    "count": 1166,
+    "year": 2016,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 4860,
+    "count": 1014,
+    "year": 2016,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 5040,
+    "count": 886,
+    "year": 2016,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 5220,
+    "count": 771,
+    "year": 2016,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 5400,
+    "count": 699,
+    "year": 2016,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 5580,
+    "count": 658,
+    "year": 2016,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 5760,
+    "count": 612,
+    "year": 2016,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 5940,
+    "count": 527,
+    "year": 2016,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 6120,
+    "count": 506,
+    "year": 2016,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 6300,
+    "count": 483,
+    "year": 2016,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 6480,
+    "count": 441,
+    "year": 2016,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 6660,
+    "count": 460,
+    "year": 2016,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 6840,
+    "count": 415,
+    "year": 2016,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 7020,
+    "count": 371,
+    "year": 2016,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 7200,
+    "count": 15738,
+    "year": 2016,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 0,
+    "count": 286204,
+    "year": 2017,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 180,
+    "count": 1658948,
+    "year": 2017,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 360,
+    "count": 1887464,
+    "year": 2017,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 540,
+    "count": 1519873,
+    "year": 2017,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 720,
+    "count": 1123488,
+    "year": 2017,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 900,
+    "count": 808781,
+    "year": 2017,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 1080,
+    "count": 581706,
+    "year": 2017,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 1260,
+    "count": 426874,
+    "year": 2017,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 1440,
+    "count": 322183,
+    "year": 2017,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 1620,
+    "count": 242891,
+    "year": 2017,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 1800,
+    "count": 178884,
+    "year": 2017,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 1980,
+    "count": 131663,
+    "year": 2017,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 2160,
+    "count": 93816,
+    "year": 2017,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 2340,
+    "count": 65030,
+    "year": 2017,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 2520,
+    "count": 42424,
+    "year": 2017,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 2700,
+    "count": 26110,
+    "year": 2017,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 2880,
+    "count": 16698,
+    "year": 2017,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 3060,
+    "count": 11325,
+    "year": 2017,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 3240,
+    "count": 8273,
+    "year": 2017,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 3420,
+    "count": 6203,
+    "year": 2017,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 3600,
+    "count": 4731,
+    "year": 2017,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 3780,
+    "count": 3770,
+    "year": 2017,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 3960,
+    "count": 3081,
+    "year": 2017,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 4140,
+    "count": 2591,
+    "year": 2017,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 4320,
+    "count": 2181,
+    "year": 2017,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 4500,
+    "count": 1819,
+    "year": 2017,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 4680,
+    "count": 1618,
+    "year": 2017,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 4860,
+    "count": 1499,
+    "year": 2017,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 5040,
+    "count": 1243,
+    "year": 2017,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 5220,
+    "count": 1126,
+    "year": 2017,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 5400,
+    "count": 1114,
+    "year": 2017,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 5580,
+    "count": 933,
+    "year": 2017,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 5760,
+    "count": 903,
+    "year": 2017,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 5940,
+    "count": 823,
+    "year": 2017,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 6120,
+    "count": 826,
+    "year": 2017,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 6300,
+    "count": 700,
+    "year": 2017,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 6480,
+    "count": 697,
+    "year": 2017,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 6660,
+    "count": 648,
+    "year": 2017,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 6840,
+    "count": 596,
+    "year": 2017,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 7020,
+    "count": 538,
+    "year": 2017,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 7200,
+    "count": 27792,
+    "year": 2017,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 0,
+    "count": 262526,
+    "year": 2018,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 180,
+    "count": 1477476,
+    "year": 2018,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 360,
+    "count": 1669851,
+    "year": 2018,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 540,
+    "count": 1346624,
+    "year": 2018,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 720,
+    "count": 999098,
+    "year": 2018,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 900,
+    "count": 736613,
+    "year": 2018,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 1080,
+    "count": 529894,
+    "year": 2018,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 1260,
+    "count": 392817,
+    "year": 2018,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 1440,
+    "count": 298498,
+    "year": 2018,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 1620,
+    "count": 226074,
+    "year": 2018,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 1800,
+    "count": 166116,
+    "year": 2018,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 1980,
+    "count": 120347,
+    "year": 2018,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 2160,
+    "count": 86597,
+    "year": 2018,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 2340,
+    "count": 60701,
+    "year": 2018,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 2520,
+    "count": 40978,
+    "year": 2018,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 2700,
+    "count": 24664,
+    "year": 2018,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 2880,
+    "count": 15929,
+    "year": 2018,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 3060,
+    "count": 11091,
+    "year": 2018,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 3240,
+    "count": 8097,
+    "year": 2018,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 3420,
+    "count": 6273,
+    "year": 2018,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 3600,
+    "count": 4733,
+    "year": 2018,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 3780,
+    "count": 3779,
+    "year": 2018,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 3960,
+    "count": 3088,
+    "year": 2018,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 4140,
+    "count": 2468,
+    "year": 2018,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 4320,
+    "count": 2240,
+    "year": 2018,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 4500,
+    "count": 2013,
+    "year": 2018,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 4680,
+    "count": 1601,
+    "year": 2018,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 4860,
+    "count": 1456,
+    "year": 2018,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 5040,
+    "count": 1387,
+    "year": 2018,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 5220,
+    "count": 1140,
+    "year": 2018,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 5400,
+    "count": 1087,
+    "year": 2018,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 5580,
+    "count": 1022,
+    "year": 2018,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 5760,
+    "count": 919,
+    "year": 2018,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 5940,
+    "count": 859,
+    "year": 2018,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 6120,
+    "count": 813,
+    "year": 2018,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 6300,
+    "count": 722,
+    "year": 2018,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 6480,
+    "count": 646,
+    "year": 2018,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 6660,
+    "count": 681,
+    "year": 2018,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 6840,
+    "count": 643,
+    "year": 2018,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 7020,
+    "count": 551,
+    "year": 2018,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 7200,
+    "count": 28142,
+    "year": 2018,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 0,
+    "count": 242622,
+    "year": 2019,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 180,
+    "count": 1419378,
+    "year": 2019,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 360,
+    "count": 1623488,
+    "year": 2019,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 540,
+    "count": 1326732,
+    "year": 2019,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 720,
+    "count": 992868,
+    "year": 2019,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 900,
+    "count": 733852,
+    "year": 2019,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 1080,
+    "count": 536855,
+    "year": 2019,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 1260,
+    "count": 400288,
+    "year": 2019,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 1440,
+    "count": 302115,
+    "year": 2019,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 1620,
+    "count": 227929,
+    "year": 2019,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 1800,
+    "count": 169001,
+    "year": 2019,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 1980,
+    "count": 122341,
+    "year": 2019,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 2160,
+    "count": 88708,
+    "year": 2019,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 2340,
+    "count": 61905,
+    "year": 2019,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 2520,
+    "count": 41180,
+    "year": 2019,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 2700,
+    "count": 25127,
+    "year": 2019,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 2880,
+    "count": 16126,
+    "year": 2019,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 3060,
+    "count": 11261,
+    "year": 2019,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 3240,
+    "count": 8149,
+    "year": 2019,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 3420,
+    "count": 6447,
+    "year": 2019,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 3600,
+    "count": 5020,
+    "year": 2019,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 3780,
+    "count": 3963,
+    "year": 2019,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 3960,
+    "count": 3343,
+    "year": 2019,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 4140,
+    "count": 2934,
+    "year": 2019,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 4320,
+    "count": 2488,
+    "year": 2019,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 4500,
+    "count": 2109,
+    "year": 2019,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 4680,
+    "count": 1812,
+    "year": 2019,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 4860,
+    "count": 1700,
+    "year": 2019,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 5040,
+    "count": 1497,
+    "year": 2019,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 5220,
+    "count": 1310,
+    "year": 2019,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 5400,
+    "count": 1090,
+    "year": 2019,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 5580,
+    "count": 970,
+    "year": 2019,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 5760,
+    "count": 916,
+    "year": 2019,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 5940,
+    "count": 773,
+    "year": 2019,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 6120,
+    "count": 700,
+    "year": 2019,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 6300,
+    "count": 655,
+    "year": 2019,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 6480,
+    "count": 591,
+    "year": 2019,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 6660,
+    "count": 562,
+    "year": 2019,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 6840,
+    "count": 517,
+    "year": 2019,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 7020,
+    "count": 472,
+    "year": 2019,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 7200,
+    "count": 25636,
+    "year": 2019,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 0,
+    "count": 101157,
+    "year": 2020,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 180,
+    "count": 649189,
+    "year": 2020,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 360,
+    "count": 730135,
+    "year": 2020,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 540,
+    "count": 603120,
+    "year": 2020,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 720,
+    "count": 455051,
+    "year": 2020,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 900,
+    "count": 345412,
+    "year": 2020,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 1080,
+    "count": 261163,
+    "year": 2020,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 1260,
+    "count": 200521,
+    "year": 2020,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 1440,
+    "count": 156996,
+    "year": 2020,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 1620,
+    "count": 124627,
+    "year": 2020,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 1800,
+    "count": 96173,
+    "year": 2020,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 1980,
+    "count": 73793,
+    "year": 2020,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 2160,
+    "count": 55825,
+    "year": 2020,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 2340,
+    "count": 41865,
+    "year": 2020,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 2520,
+    "count": 30109,
+    "year": 2020,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 2700,
+    "count": 19799,
+    "year": 2020,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 2880,
+    "count": 13874,
+    "year": 2020,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 3060,
+    "count": 10350,
+    "year": 2020,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 3240,
+    "count": 7906,
+    "year": 2020,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 3420,
+    "count": 5926,
+    "year": 2020,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 3600,
+    "count": 4634,
+    "year": 2020,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 3780,
+    "count": 3743,
+    "year": 2020,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 3960,
+    "count": 3018,
+    "year": 2020,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 4140,
+    "count": 2616,
+    "year": 2020,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 4320,
+    "count": 2232,
+    "year": 2020,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 4500,
+    "count": 1925,
+    "year": 2020,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 4680,
+    "count": 1652,
+    "year": 2020,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 4860,
+    "count": 1460,
+    "year": 2020,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 5040,
+    "count": 1252,
+    "year": 2020,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 5220,
+    "count": 964,
+    "year": 2020,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 5400,
+    "count": 842,
+    "year": 2020,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 5580,
+    "count": 716,
+    "year": 2020,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 5760,
+    "count": 604,
+    "year": 2020,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 5940,
+    "count": 566,
+    "year": 2020,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 6120,
+    "count": 511,
+    "year": 2020,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 6300,
+    "count": 443,
+    "year": 2020,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 6480,
+    "count": 427,
+    "year": 2020,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 6660,
+    "count": 419,
+    "year": 2020,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 6840,
+    "count": 389,
+    "year": 2020,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 7020,
+    "count": 360,
+    "year": 2020,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 7200,
+    "count": 20173,
+    "year": 2020,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 0,
+    "count": 87337,
+    "year": 2021,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 180,
+    "count": 633939,
+    "year": 2021,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 360,
+    "count": 741597,
+    "year": 2021,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 540,
+    "count": 626246,
+    "year": 2021,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 720,
+    "count": 478617,
+    "year": 2021,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 900,
+    "count": 366010,
+    "year": 2021,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 1080,
+    "count": 278819,
+    "year": 2021,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 1260,
+    "count": 218593,
+    "year": 2021,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 1440,
+    "count": 171458,
+    "year": 2021,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 1620,
+    "count": 134678,
+    "year": 2021,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 1800,
+    "count": 108442,
+    "year": 2021,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 1980,
+    "count": 85625,
+    "year": 2021,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 2160,
+    "count": 67816,
+    "year": 2021,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 2340,
+    "count": 53950,
+    "year": 2021,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 2520,
+    "count": 41743,
+    "year": 2021,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 2700,
+    "count": 31660,
+    "year": 2021,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 2880,
+    "count": 24363,
+    "year": 2021,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 3060,
+    "count": 19685,
+    "year": 2021,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 3240,
+    "count": 15443,
+    "year": 2021,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 3420,
+    "count": 11423,
+    "year": 2021,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 3600,
+    "count": 8197,
+    "year": 2021,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 3780,
+    "count": 6527,
+    "year": 2021,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 3960,
+    "count": 5397,
+    "year": 2021,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 4140,
+    "count": 4707,
+    "year": 2021,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 4320,
+    "count": 4110,
+    "year": 2021,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 4500,
+    "count": 3641,
+    "year": 2021,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 4680,
+    "count": 3044,
+    "year": 2021,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 4860,
+    "count": 2660,
+    "year": 2021,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 5040,
+    "count": 2435,
+    "year": 2021,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 5220,
+    "count": 2007,
+    "year": 2021,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 5400,
+    "count": 1455,
+    "year": 2021,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 5580,
+    "count": 1283,
+    "year": 2021,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 5760,
+    "count": 1112,
+    "year": 2021,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 5940,
+    "count": 967,
+    "year": 2021,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 6120,
+    "count": 882,
+    "year": 2021,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 6300,
+    "count": 818,
+    "year": 2021,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 6480,
+    "count": 719,
+    "year": 2021,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 6660,
+    "count": 709,
+    "year": 2021,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 6840,
+    "count": 617,
+    "year": 2021,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 7020,
+    "count": 609,
+    "year": 2021,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 7200,
+    "count": 24371,
+    "year": 2021,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 0,
+    "count": 93908,
+    "year": 2022,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 180,
+    "count": 699375,
+    "year": 2022,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 360,
+    "count": 864336,
+    "year": 2022,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 540,
+    "count": 757572,
+    "year": 2022,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 720,
+    "count": 590253,
+    "year": 2022,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 900,
+    "count": 451351,
+    "year": 2022,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 1080,
+    "count": 340376,
+    "year": 2022,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 1260,
+    "count": 262108,
+    "year": 2022,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 1440,
+    "count": 205435,
+    "year": 2022,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 1620,
+    "count": 162607,
+    "year": 2022,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 1800,
+    "count": 130764,
+    "year": 2022,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 1980,
+    "count": 104706,
+    "year": 2022,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 2160,
+    "count": 84313,
+    "year": 2022,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 2340,
+    "count": 65952,
+    "year": 2022,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 2520,
+    "count": 50309,
+    "year": 2022,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 2700,
+    "count": 34873,
+    "year": 2022,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 2880,
+    "count": 26104,
+    "year": 2022,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 3060,
+    "count": 21246,
+    "year": 2022,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 3240,
+    "count": 16412,
+    "year": 2022,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 3420,
+    "count": 12260,
+    "year": 2022,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 3600,
+    "count": 9453,
+    "year": 2022,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 3780,
+    "count": 7646,
+    "year": 2022,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 3960,
+    "count": 6466,
+    "year": 2022,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 4140,
+    "count": 5682,
+    "year": 2022,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 4320,
+    "count": 4873,
+    "year": 2022,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 4500,
+    "count": 4668,
+    "year": 2022,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 4680,
+    "count": 4107,
+    "year": 2022,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 4860,
+    "count": 3628,
+    "year": 2022,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 5040,
+    "count": 3221,
+    "year": 2022,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 5220,
+    "count": 2666,
+    "year": 2022,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 5400,
+    "count": 2267,
+    "year": 2022,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 5580,
+    "count": 2001,
+    "year": 2022,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 5760,
+    "count": 1877,
+    "year": 2022,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 5940,
+    "count": 1734,
+    "year": 2022,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 6120,
+    "count": 1487,
+    "year": 2022,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 6300,
+    "count": 1387,
+    "year": 2022,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 6480,
+    "count": 1340,
+    "year": 2022,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 6660,
+    "count": 1238,
+    "year": 2022,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 6840,
+    "count": 1110,
+    "year": 2022,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 7020,
+    "count": 1103,
+    "year": 2022,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 7200,
+    "count": 42054,
+    "year": 2022,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 0,
+    "count": 321489,
+    "year": 2023,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 180,
+    "count": 1734524,
+    "year": 2023,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 360,
+    "count": 2075956,
+    "year": 2023,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 540,
+    "count": 1784440,
+    "year": 2023,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 720,
+    "count": 1421872,
+    "year": 2023,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 900,
+    "count": 1103678,
+    "year": 2023,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 1080,
+    "count": 841522,
+    "year": 2023,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 1260,
+    "count": 652179,
+    "year": 2023,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 1440,
+    "count": 516223,
+    "year": 2023,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 1620,
+    "count": 412781,
+    "year": 2023,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 1800,
+    "count": 335452,
+    "year": 2023,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 1980,
+    "count": 270464,
+    "year": 2023,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 2160,
+    "count": 218908,
+    "year": 2023,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 2340,
+    "count": 169853,
+    "year": 2023,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 2520,
+    "count": 115279,
+    "year": 2023,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 2700,
+    "count": 53029,
+    "year": 2023,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 2880,
+    "count": 30365,
+    "year": 2023,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 3060,
+    "count": 20966,
+    "year": 2023,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 3240,
+    "count": 15406,
+    "year": 2023,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 3420,
+    "count": 11382,
+    "year": 2023,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 3600,
+    "count": 8438,
+    "year": 2023,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 3780,
+    "count": 6695,
+    "year": 2023,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 3960,
+    "count": 5421,
+    "year": 2023,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 4140,
+    "count": 4542,
+    "year": 2023,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 4320,
+    "count": 3979,
+    "year": 2023,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 4500,
+    "count": 3388,
+    "year": 2023,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 4680,
+    "count": 2856,
+    "year": 2023,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 4860,
+    "count": 2604,
+    "year": 2023,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 5040,
+    "count": 2376,
+    "year": 2023,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 5220,
+    "count": 2008,
+    "year": 2023,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 5400,
+    "count": 1811,
+    "year": 2023,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 5580,
+    "count": 1678,
+    "year": 2023,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 5760,
+    "count": 1433,
+    "year": 2023,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 5940,
+    "count": 1383,
+    "year": 2023,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 6120,
+    "count": 1280,
+    "year": 2023,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 6300,
+    "count": 1185,
+    "year": 2023,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 6480,
+    "count": 1115,
+    "year": 2023,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 6660,
+    "count": 1037,
+    "year": 2023,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 6840,
+    "count": 963,
+    "year": 2023,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 7020,
+    "count": 879,
+    "year": 2023,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 7200,
+    "count": 16760,
+    "year": 2023,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 0,
+    "count": 263845,
+    "year": 2024,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 180,
+    "count": 1432181,
+    "year": 2024,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 360,
+    "count": 1679855,
+    "year": 2024,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 540,
+    "count": 1444962,
+    "year": 2024,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 720,
+    "count": 1157000,
+    "year": 2024,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 900,
+    "count": 906372,
+    "year": 2024,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 1080,
+    "count": 699105,
+    "year": 2024,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 1260,
+    "count": 542256,
+    "year": 2024,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 1440,
+    "count": 426131,
+    "year": 2024,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 1620,
+    "count": 337079,
+    "year": 2024,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 1800,
+    "count": 271721,
+    "year": 2024,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 1980,
+    "count": 217506,
+    "year": 2024,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 2160,
+    "count": 173467,
+    "year": 2024,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 2340,
+    "count": 131530,
+    "year": 2024,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 2520,
+    "count": 88873,
+    "year": 2024,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 2700,
+    "count": 40568,
+    "year": 2024,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 2880,
+    "count": 22357,
+    "year": 2024,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 3060,
+    "count": 14651,
+    "year": 2024,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 3240,
+    "count": 10176,
+    "year": 2024,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 3420,
+    "count": 7547,
+    "year": 2024,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 3600,
+    "count": 5606,
+    "year": 2024,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 3780,
+    "count": 4521,
+    "year": 2024,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 3960,
+    "count": 3611,
+    "year": 2024,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 4140,
+    "count": 2943,
+    "year": 2024,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 4320,
+    "count": 2432,
+    "year": 2024,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 4500,
+    "count": 2139,
+    "year": 2024,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 4680,
+    "count": 1847,
+    "year": 2024,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 4860,
+    "count": 1574,
+    "year": 2024,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 5040,
+    "count": 1392,
+    "year": 2024,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 5220,
+    "count": 1219,
+    "year": 2024,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 5400,
+    "count": 1097,
+    "year": 2024,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 5580,
+    "count": 988,
+    "year": 2024,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 5760,
+    "count": 944,
+    "year": 2024,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 5940,
+    "count": 815,
+    "year": 2024,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 6120,
+    "count": 736,
+    "year": 2024,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 6300,
+    "count": 670,
+    "year": 2024,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 6480,
+    "count": 638,
+    "year": 2024,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 6660,
+    "count": 535,
+    "year": 2024,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 6840,
+    "count": 493,
+    "year": 2024,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 7020,
+    "count": 496,
+    "year": 2024,
+    "city": "mexico_city"
+  },
+  {
+    "bucket": 7200,
+    "count": 9632,
+    "year": 2024,
+    "city": "mexico_city"
+  }
+]

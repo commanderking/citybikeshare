@@ -1,0 +1,2462 @@
+[
+  {
+    "bucket": 0,
+    "count": 94797,
+    "year": 2016,
+    "city": "oslo"
+  },
+  {
+    "bucket": 180,
+    "count": 192375,
+    "year": 2016,
+    "city": "oslo"
+  },
+  {
+    "bucket": 360,
+    "count": 208714,
+    "year": 2016,
+    "city": "oslo"
+  },
+  {
+    "bucket": 540,
+    "count": 140034,
+    "year": 2016,
+    "city": "oslo"
+  },
+  {
+    "bucket": 720,
+    "count": 83257,
+    "year": 2016,
+    "city": "oslo"
+  },
+  {
+    "bucket": 900,
+    "count": 49668,
+    "year": 2016,
+    "city": "oslo"
+  },
+  {
+    "bucket": 1080,
+    "count": 31225,
+    "year": 2016,
+    "city": "oslo"
+  },
+  {
+    "bucket": 1260,
+    "count": 21018,
+    "year": 2016,
+    "city": "oslo"
+  },
+  {
+    "bucket": 1440,
+    "count": 15397,
+    "year": 2016,
+    "city": "oslo"
+  },
+  {
+    "bucket": 1620,
+    "count": 11561,
+    "year": 2016,
+    "city": "oslo"
+  },
+  {
+    "bucket": 1800,
+    "count": 9493,
+    "year": 2016,
+    "city": "oslo"
+  },
+  {
+    "bucket": 1980,
+    "count": 7794,
+    "year": 2016,
+    "city": "oslo"
+  },
+  {
+    "bucket": 2160,
+    "count": 6605,
+    "year": 2016,
+    "city": "oslo"
+  },
+  {
+    "bucket": 2340,
+    "count": 5733,
+    "year": 2016,
+    "city": "oslo"
+  },
+  {
+    "bucket": 2520,
+    "count": 5191,
+    "year": 2016,
+    "city": "oslo"
+  },
+  {
+    "bucket": 2700,
+    "count": 4629,
+    "year": 2016,
+    "city": "oslo"
+  },
+  {
+    "bucket": 2880,
+    "count": 4304,
+    "year": 2016,
+    "city": "oslo"
+  },
+  {
+    "bucket": 3060,
+    "count": 4027,
+    "year": 2016,
+    "city": "oslo"
+  },
+  {
+    "bucket": 3240,
+    "count": 3872,
+    "year": 2016,
+    "city": "oslo"
+  },
+  {
+    "bucket": 3420,
+    "count": 3517,
+    "year": 2016,
+    "city": "oslo"
+  },
+  {
+    "bucket": 3600,
+    "count": 3272,
+    "year": 2016,
+    "city": "oslo"
+  },
+  {
+    "bucket": 3780,
+    "count": 3244,
+    "year": 2016,
+    "city": "oslo"
+  },
+  {
+    "bucket": 3960,
+    "count": 3005,
+    "year": 2016,
+    "city": "oslo"
+  },
+  {
+    "bucket": 4140,
+    "count": 2840,
+    "year": 2016,
+    "city": "oslo"
+  },
+  {
+    "bucket": 4320,
+    "count": 2747,
+    "year": 2016,
+    "city": "oslo"
+  },
+  {
+    "bucket": 4500,
+    "count": 2680,
+    "year": 2016,
+    "city": "oslo"
+  },
+  {
+    "bucket": 4680,
+    "count": 2474,
+    "year": 2016,
+    "city": "oslo"
+  },
+  {
+    "bucket": 4860,
+    "count": 2452,
+    "year": 2016,
+    "city": "oslo"
+  },
+  {
+    "bucket": 5040,
+    "count": 2469,
+    "year": 2016,
+    "city": "oslo"
+  },
+  {
+    "bucket": 5220,
+    "count": 2267,
+    "year": 2016,
+    "city": "oslo"
+  },
+  {
+    "bucket": 5400,
+    "count": 2239,
+    "year": 2016,
+    "city": "oslo"
+  },
+  {
+    "bucket": 5580,
+    "count": 2107,
+    "year": 2016,
+    "city": "oslo"
+  },
+  {
+    "bucket": 5760,
+    "count": 2134,
+    "year": 2016,
+    "city": "oslo"
+  },
+  {
+    "bucket": 5940,
+    "count": 2013,
+    "year": 2016,
+    "city": "oslo"
+  },
+  {
+    "bucket": 6120,
+    "count": 1995,
+    "year": 2016,
+    "city": "oslo"
+  },
+  {
+    "bucket": 6300,
+    "count": 1881,
+    "year": 2016,
+    "city": "oslo"
+  },
+  {
+    "bucket": 6480,
+    "count": 1811,
+    "year": 2016,
+    "city": "oslo"
+  },
+  {
+    "bucket": 6660,
+    "count": 1845,
+    "year": 2016,
+    "city": "oslo"
+  },
+  {
+    "bucket": 6840,
+    "count": 1701,
+    "year": 2016,
+    "city": "oslo"
+  },
+  {
+    "bucket": 7020,
+    "count": 1753,
+    "year": 2016,
+    "city": "oslo"
+  },
+  {
+    "bucket": 7200,
+    "count": 36045,
+    "year": 2016,
+    "city": "oslo"
+  },
+  {
+    "bucket": 0,
+    "count": 107751,
+    "year": 2017,
+    "city": "oslo"
+  },
+  {
+    "bucket": 180,
+    "count": 227611,
+    "year": 2017,
+    "city": "oslo"
+  },
+  {
+    "bucket": 360,
+    "count": 246881,
+    "year": 2017,
+    "city": "oslo"
+  },
+  {
+    "bucket": 540,
+    "count": 174758,
+    "year": 2017,
+    "city": "oslo"
+  },
+  {
+    "bucket": 720,
+    "count": 108336,
+    "year": 2017,
+    "city": "oslo"
+  },
+  {
+    "bucket": 900,
+    "count": 67015,
+    "year": 2017,
+    "city": "oslo"
+  },
+  {
+    "bucket": 1080,
+    "count": 43031,
+    "year": 2017,
+    "city": "oslo"
+  },
+  {
+    "bucket": 1260,
+    "count": 29866,
+    "year": 2017,
+    "city": "oslo"
+  },
+  {
+    "bucket": 1440,
+    "count": 21808,
+    "year": 2017,
+    "city": "oslo"
+  },
+  {
+    "bucket": 1620,
+    "count": 16321,
+    "year": 2017,
+    "city": "oslo"
+  },
+  {
+    "bucket": 1800,
+    "count": 13460,
+    "year": 2017,
+    "city": "oslo"
+  },
+  {
+    "bucket": 1980,
+    "count": 11007,
+    "year": 2017,
+    "city": "oslo"
+  },
+  {
+    "bucket": 2160,
+    "count": 9885,
+    "year": 2017,
+    "city": "oslo"
+  },
+  {
+    "bucket": 2340,
+    "count": 8700,
+    "year": 2017,
+    "city": "oslo"
+  },
+  {
+    "bucket": 2520,
+    "count": 8952,
+    "year": 2017,
+    "city": "oslo"
+  },
+  {
+    "bucket": 2700,
+    "count": 4186,
+    "year": 2017,
+    "city": "oslo"
+  },
+  {
+    "bucket": 2880,
+    "count": 2207,
+    "year": 2017,
+    "city": "oslo"
+  },
+  {
+    "bucket": 3060,
+    "count": 1575,
+    "year": 2017,
+    "city": "oslo"
+  },
+  {
+    "bucket": 3240,
+    "count": 1252,
+    "year": 2017,
+    "city": "oslo"
+  },
+  {
+    "bucket": 3420,
+    "count": 946,
+    "year": 2017,
+    "city": "oslo"
+  },
+  {
+    "bucket": 3600,
+    "count": 813,
+    "year": 2017,
+    "city": "oslo"
+  },
+  {
+    "bucket": 3780,
+    "count": 593,
+    "year": 2017,
+    "city": "oslo"
+  },
+  {
+    "bucket": 3960,
+    "count": 528,
+    "year": 2017,
+    "city": "oslo"
+  },
+  {
+    "bucket": 4140,
+    "count": 438,
+    "year": 2017,
+    "city": "oslo"
+  },
+  {
+    "bucket": 4320,
+    "count": 420,
+    "year": 2017,
+    "city": "oslo"
+  },
+  {
+    "bucket": 4500,
+    "count": 329,
+    "year": 2017,
+    "city": "oslo"
+  },
+  {
+    "bucket": 4680,
+    "count": 336,
+    "year": 2017,
+    "city": "oslo"
+  },
+  {
+    "bucket": 4860,
+    "count": 273,
+    "year": 2017,
+    "city": "oslo"
+  },
+  {
+    "bucket": 5040,
+    "count": 239,
+    "year": 2017,
+    "city": "oslo"
+  },
+  {
+    "bucket": 5220,
+    "count": 253,
+    "year": 2017,
+    "city": "oslo"
+  },
+  {
+    "bucket": 5400,
+    "count": 227,
+    "year": 2017,
+    "city": "oslo"
+  },
+  {
+    "bucket": 5580,
+    "count": 214,
+    "year": 2017,
+    "city": "oslo"
+  },
+  {
+    "bucket": 5760,
+    "count": 211,
+    "year": 2017,
+    "city": "oslo"
+  },
+  {
+    "bucket": 5940,
+    "count": 182,
+    "year": 2017,
+    "city": "oslo"
+  },
+  {
+    "bucket": 6120,
+    "count": 153,
+    "year": 2017,
+    "city": "oslo"
+  },
+  {
+    "bucket": 6300,
+    "count": 156,
+    "year": 2017,
+    "city": "oslo"
+  },
+  {
+    "bucket": 6480,
+    "count": 155,
+    "year": 2017,
+    "city": "oslo"
+  },
+  {
+    "bucket": 6660,
+    "count": 139,
+    "year": 2017,
+    "city": "oslo"
+  },
+  {
+    "bucket": 6840,
+    "count": 123,
+    "year": 2017,
+    "city": "oslo"
+  },
+  {
+    "bucket": 7020,
+    "count": 114,
+    "year": 2017,
+    "city": "oslo"
+  },
+  {
+    "bucket": 7200,
+    "count": 3058,
+    "year": 2017,
+    "city": "oslo"
+  },
+  {
+    "bucket": 0,
+    "count": 87591,
+    "year": 2018,
+    "city": "oslo"
+  },
+  {
+    "bucket": 180,
+    "count": 134487,
+    "year": 2018,
+    "city": "oslo"
+  },
+  {
+    "bucket": 360,
+    "count": 133449,
+    "year": 2018,
+    "city": "oslo"
+  },
+  {
+    "bucket": 540,
+    "count": 92059,
+    "year": 2018,
+    "city": "oslo"
+  },
+  {
+    "bucket": 720,
+    "count": 56743,
+    "year": 2018,
+    "city": "oslo"
+  },
+  {
+    "bucket": 900,
+    "count": 35934,
+    "year": 2018,
+    "city": "oslo"
+  },
+  {
+    "bucket": 1080,
+    "count": 23969,
+    "year": 2018,
+    "city": "oslo"
+  },
+  {
+    "bucket": 1260,
+    "count": 16388,
+    "year": 2018,
+    "city": "oslo"
+  },
+  {
+    "bucket": 1440,
+    "count": 12533,
+    "year": 2018,
+    "city": "oslo"
+  },
+  {
+    "bucket": 1620,
+    "count": 9826,
+    "year": 2018,
+    "city": "oslo"
+  },
+  {
+    "bucket": 1800,
+    "count": 8009,
+    "year": 2018,
+    "city": "oslo"
+  },
+  {
+    "bucket": 1980,
+    "count": 6896,
+    "year": 2018,
+    "city": "oslo"
+  },
+  {
+    "bucket": 2160,
+    "count": 5850,
+    "year": 2018,
+    "city": "oslo"
+  },
+  {
+    "bucket": 2340,
+    "count": 5291,
+    "year": 2018,
+    "city": "oslo"
+  },
+  {
+    "bucket": 2520,
+    "count": 5444,
+    "year": 2018,
+    "city": "oslo"
+  },
+  {
+    "bucket": 2700,
+    "count": 2514,
+    "year": 2018,
+    "city": "oslo"
+  },
+  {
+    "bucket": 2880,
+    "count": 1409,
+    "year": 2018,
+    "city": "oslo"
+  },
+  {
+    "bucket": 3060,
+    "count": 1032,
+    "year": 2018,
+    "city": "oslo"
+  },
+  {
+    "bucket": 3240,
+    "count": 833,
+    "year": 2018,
+    "city": "oslo"
+  },
+  {
+    "bucket": 3420,
+    "count": 590,
+    "year": 2018,
+    "city": "oslo"
+  },
+  {
+    "bucket": 3600,
+    "count": 489,
+    "year": 2018,
+    "city": "oslo"
+  },
+  {
+    "bucket": 3780,
+    "count": 394,
+    "year": 2018,
+    "city": "oslo"
+  },
+  {
+    "bucket": 3960,
+    "count": 292,
+    "year": 2018,
+    "city": "oslo"
+  },
+  {
+    "bucket": 4140,
+    "count": 323,
+    "year": 2018,
+    "city": "oslo"
+  },
+  {
+    "bucket": 4320,
+    "count": 261,
+    "year": 2018,
+    "city": "oslo"
+  },
+  {
+    "bucket": 4500,
+    "count": 232,
+    "year": 2018,
+    "city": "oslo"
+  },
+  {
+    "bucket": 4680,
+    "count": 221,
+    "year": 2018,
+    "city": "oslo"
+  },
+  {
+    "bucket": 4860,
+    "count": 199,
+    "year": 2018,
+    "city": "oslo"
+  },
+  {
+    "bucket": 5040,
+    "count": 175,
+    "year": 2018,
+    "city": "oslo"
+  },
+  {
+    "bucket": 5220,
+    "count": 142,
+    "year": 2018,
+    "city": "oslo"
+  },
+  {
+    "bucket": 5400,
+    "count": 168,
+    "year": 2018,
+    "city": "oslo"
+  },
+  {
+    "bucket": 5580,
+    "count": 153,
+    "year": 2018,
+    "city": "oslo"
+  },
+  {
+    "bucket": 5760,
+    "count": 136,
+    "year": 2018,
+    "city": "oslo"
+  },
+  {
+    "bucket": 5940,
+    "count": 137,
+    "year": 2018,
+    "city": "oslo"
+  },
+  {
+    "bucket": 6120,
+    "count": 97,
+    "year": 2018,
+    "city": "oslo"
+  },
+  {
+    "bucket": 6300,
+    "count": 92,
+    "year": 2018,
+    "city": "oslo"
+  },
+  {
+    "bucket": 6480,
+    "count": 99,
+    "year": 2018,
+    "city": "oslo"
+  },
+  {
+    "bucket": 6660,
+    "count": 94,
+    "year": 2018,
+    "city": "oslo"
+  },
+  {
+    "bucket": 6840,
+    "count": 95,
+    "year": 2018,
+    "city": "oslo"
+  },
+  {
+    "bucket": 7020,
+    "count": 99,
+    "year": 2018,
+    "city": "oslo"
+  },
+  {
+    "bucket": 7200,
+    "count": 2841,
+    "year": 2018,
+    "city": "oslo"
+  },
+  {
+    "bucket": 0,
+    "count": 150694,
+    "year": 2019,
+    "city": "oslo"
+  },
+  {
+    "bucket": 180,
+    "count": 529322,
+    "year": 2019,
+    "city": "oslo"
+  },
+  {
+    "bucket": 360,
+    "count": 522768,
+    "year": 2019,
+    "city": "oslo"
+  },
+  {
+    "bucket": 540,
+    "count": 361186,
+    "year": 2019,
+    "city": "oslo"
+  },
+  {
+    "bucket": 720,
+    "count": 218025,
+    "year": 2019,
+    "city": "oslo"
+  },
+  {
+    "bucket": 900,
+    "count": 129951,
+    "year": 2019,
+    "city": "oslo"
+  },
+  {
+    "bucket": 1080,
+    "count": 80279,
+    "year": 2019,
+    "city": "oslo"
+  },
+  {
+    "bucket": 1260,
+    "count": 52380,
+    "year": 2019,
+    "city": "oslo"
+  },
+  {
+    "bucket": 1440,
+    "count": 36730,
+    "year": 2019,
+    "city": "oslo"
+  },
+  {
+    "bucket": 1620,
+    "count": 26651,
+    "year": 2019,
+    "city": "oslo"
+  },
+  {
+    "bucket": 1800,
+    "count": 20808,
+    "year": 2019,
+    "city": "oslo"
+  },
+  {
+    "bucket": 1980,
+    "count": 16886,
+    "year": 2019,
+    "city": "oslo"
+  },
+  {
+    "bucket": 2160,
+    "count": 13728,
+    "year": 2019,
+    "city": "oslo"
+  },
+  {
+    "bucket": 2340,
+    "count": 12104,
+    "year": 2019,
+    "city": "oslo"
+  },
+  {
+    "bucket": 2520,
+    "count": 10599,
+    "year": 2019,
+    "city": "oslo"
+  },
+  {
+    "bucket": 2700,
+    "count": 9394,
+    "year": 2019,
+    "city": "oslo"
+  },
+  {
+    "bucket": 2880,
+    "count": 8363,
+    "year": 2019,
+    "city": "oslo"
+  },
+  {
+    "bucket": 3060,
+    "count": 8652,
+    "year": 2019,
+    "city": "oslo"
+  },
+  {
+    "bucket": 3240,
+    "count": 8168,
+    "year": 2019,
+    "city": "oslo"
+  },
+  {
+    "bucket": 3420,
+    "count": 5923,
+    "year": 2019,
+    "city": "oslo"
+  },
+  {
+    "bucket": 3600,
+    "count": 3253,
+    "year": 2019,
+    "city": "oslo"
+  },
+  {
+    "bucket": 3780,
+    "count": 1997,
+    "year": 2019,
+    "city": "oslo"
+  },
+  {
+    "bucket": 3960,
+    "count": 1592,
+    "year": 2019,
+    "city": "oslo"
+  },
+  {
+    "bucket": 4140,
+    "count": 1277,
+    "year": 2019,
+    "city": "oslo"
+  },
+  {
+    "bucket": 4320,
+    "count": 1103,
+    "year": 2019,
+    "city": "oslo"
+  },
+  {
+    "bucket": 4500,
+    "count": 915,
+    "year": 2019,
+    "city": "oslo"
+  },
+  {
+    "bucket": 4680,
+    "count": 805,
+    "year": 2019,
+    "city": "oslo"
+  },
+  {
+    "bucket": 4860,
+    "count": 694,
+    "year": 2019,
+    "city": "oslo"
+  },
+  {
+    "bucket": 5040,
+    "count": 617,
+    "year": 2019,
+    "city": "oslo"
+  },
+  {
+    "bucket": 5220,
+    "count": 578,
+    "year": 2019,
+    "city": "oslo"
+  },
+  {
+    "bucket": 5400,
+    "count": 466,
+    "year": 2019,
+    "city": "oslo"
+  },
+  {
+    "bucket": 5580,
+    "count": 442,
+    "year": 2019,
+    "city": "oslo"
+  },
+  {
+    "bucket": 5760,
+    "count": 388,
+    "year": 2019,
+    "city": "oslo"
+  },
+  {
+    "bucket": 5940,
+    "count": 358,
+    "year": 2019,
+    "city": "oslo"
+  },
+  {
+    "bucket": 6120,
+    "count": 341,
+    "year": 2019,
+    "city": "oslo"
+  },
+  {
+    "bucket": 6300,
+    "count": 319,
+    "year": 2019,
+    "city": "oslo"
+  },
+  {
+    "bucket": 6480,
+    "count": 255,
+    "year": 2019,
+    "city": "oslo"
+  },
+  {
+    "bucket": 6660,
+    "count": 264,
+    "year": 2019,
+    "city": "oslo"
+  },
+  {
+    "bucket": 6840,
+    "count": 265,
+    "year": 2019,
+    "city": "oslo"
+  },
+  {
+    "bucket": 7020,
+    "count": 240,
+    "year": 2019,
+    "city": "oslo"
+  },
+  {
+    "bucket": 7200,
+    "count": 6467,
+    "year": 2019,
+    "city": "oslo"
+  },
+  {
+    "bucket": 0,
+    "count": 86531,
+    "year": 2020,
+    "city": "oslo"
+  },
+  {
+    "bucket": 180,
+    "count": 327456,
+    "year": 2020,
+    "city": "oslo"
+  },
+  {
+    "bucket": 360,
+    "count": 377354,
+    "year": 2020,
+    "city": "oslo"
+  },
+  {
+    "bucket": 540,
+    "count": 294279,
+    "year": 2020,
+    "city": "oslo"
+  },
+  {
+    "bucket": 720,
+    "count": 194413,
+    "year": 2020,
+    "city": "oslo"
+  },
+  {
+    "bucket": 900,
+    "count": 121826,
+    "year": 2020,
+    "city": "oslo"
+  },
+  {
+    "bucket": 1080,
+    "count": 76045,
+    "year": 2020,
+    "city": "oslo"
+  },
+  {
+    "bucket": 1260,
+    "count": 49275,
+    "year": 2020,
+    "city": "oslo"
+  },
+  {
+    "bucket": 1440,
+    "count": 33594,
+    "year": 2020,
+    "city": "oslo"
+  },
+  {
+    "bucket": 1620,
+    "count": 24443,
+    "year": 2020,
+    "city": "oslo"
+  },
+  {
+    "bucket": 1800,
+    "count": 17817,
+    "year": 2020,
+    "city": "oslo"
+  },
+  {
+    "bucket": 1980,
+    "count": 14126,
+    "year": 2020,
+    "city": "oslo"
+  },
+  {
+    "bucket": 2160,
+    "count": 11306,
+    "year": 2020,
+    "city": "oslo"
+  },
+  {
+    "bucket": 2340,
+    "count": 9592,
+    "year": 2020,
+    "city": "oslo"
+  },
+  {
+    "bucket": 2520,
+    "count": 8093,
+    "year": 2020,
+    "city": "oslo"
+  },
+  {
+    "bucket": 2700,
+    "count": 7085,
+    "year": 2020,
+    "city": "oslo"
+  },
+  {
+    "bucket": 2880,
+    "count": 6341,
+    "year": 2020,
+    "city": "oslo"
+  },
+  {
+    "bucket": 3060,
+    "count": 6367,
+    "year": 2020,
+    "city": "oslo"
+  },
+  {
+    "bucket": 3240,
+    "count": 5883,
+    "year": 2020,
+    "city": "oslo"
+  },
+  {
+    "bucket": 3420,
+    "count": 4500,
+    "year": 2020,
+    "city": "oslo"
+  },
+  {
+    "bucket": 3600,
+    "count": 2525,
+    "year": 2020,
+    "city": "oslo"
+  },
+  {
+    "bucket": 3780,
+    "count": 1754,
+    "year": 2020,
+    "city": "oslo"
+  },
+  {
+    "bucket": 3960,
+    "count": 1468,
+    "year": 2020,
+    "city": "oslo"
+  },
+  {
+    "bucket": 4140,
+    "count": 1191,
+    "year": 2020,
+    "city": "oslo"
+  },
+  {
+    "bucket": 4320,
+    "count": 1066,
+    "year": 2020,
+    "city": "oslo"
+  },
+  {
+    "bucket": 4500,
+    "count": 809,
+    "year": 2020,
+    "city": "oslo"
+  },
+  {
+    "bucket": 4680,
+    "count": 773,
+    "year": 2020,
+    "city": "oslo"
+  },
+  {
+    "bucket": 4860,
+    "count": 629,
+    "year": 2020,
+    "city": "oslo"
+  },
+  {
+    "bucket": 5040,
+    "count": 601,
+    "year": 2020,
+    "city": "oslo"
+  },
+  {
+    "bucket": 5220,
+    "count": 529,
+    "year": 2020,
+    "city": "oslo"
+  },
+  {
+    "bucket": 5400,
+    "count": 446,
+    "year": 2020,
+    "city": "oslo"
+  },
+  {
+    "bucket": 5580,
+    "count": 434,
+    "year": 2020,
+    "city": "oslo"
+  },
+  {
+    "bucket": 5760,
+    "count": 371,
+    "year": 2020,
+    "city": "oslo"
+  },
+  {
+    "bucket": 5940,
+    "count": 341,
+    "year": 2020,
+    "city": "oslo"
+  },
+  {
+    "bucket": 6120,
+    "count": 365,
+    "year": 2020,
+    "city": "oslo"
+  },
+  {
+    "bucket": 6300,
+    "count": 315,
+    "year": 2020,
+    "city": "oslo"
+  },
+  {
+    "bucket": 6480,
+    "count": 272,
+    "year": 2020,
+    "city": "oslo"
+  },
+  {
+    "bucket": 6660,
+    "count": 265,
+    "year": 2020,
+    "city": "oslo"
+  },
+  {
+    "bucket": 6840,
+    "count": 272,
+    "year": 2020,
+    "city": "oslo"
+  },
+  {
+    "bucket": 7020,
+    "count": 229,
+    "year": 2020,
+    "city": "oslo"
+  },
+  {
+    "bucket": 7200,
+    "count": 5073,
+    "year": 2020,
+    "city": "oslo"
+  },
+  {
+    "bucket": 0,
+    "count": 69762,
+    "year": 2021,
+    "city": "oslo"
+  },
+  {
+    "bucket": 180,
+    "count": 276937,
+    "year": 2021,
+    "city": "oslo"
+  },
+  {
+    "bucket": 360,
+    "count": 330634,
+    "year": 2021,
+    "city": "oslo"
+  },
+  {
+    "bucket": 540,
+    "count": 252797,
+    "year": 2021,
+    "city": "oslo"
+  },
+  {
+    "bucket": 720,
+    "count": 165779,
+    "year": 2021,
+    "city": "oslo"
+  },
+  {
+    "bucket": 900,
+    "count": 99792,
+    "year": 2021,
+    "city": "oslo"
+  },
+  {
+    "bucket": 1080,
+    "count": 59891,
+    "year": 2021,
+    "city": "oslo"
+  },
+  {
+    "bucket": 1260,
+    "count": 38021,
+    "year": 2021,
+    "city": "oslo"
+  },
+  {
+    "bucket": 1440,
+    "count": 25282,
+    "year": 2021,
+    "city": "oslo"
+  },
+  {
+    "bucket": 1620,
+    "count": 17406,
+    "year": 2021,
+    "city": "oslo"
+  },
+  {
+    "bucket": 1800,
+    "count": 13346,
+    "year": 2021,
+    "city": "oslo"
+  },
+  {
+    "bucket": 1980,
+    "count": 10350,
+    "year": 2021,
+    "city": "oslo"
+  },
+  {
+    "bucket": 2160,
+    "count": 8363,
+    "year": 2021,
+    "city": "oslo"
+  },
+  {
+    "bucket": 2340,
+    "count": 7187,
+    "year": 2021,
+    "city": "oslo"
+  },
+  {
+    "bucket": 2520,
+    "count": 6207,
+    "year": 2021,
+    "city": "oslo"
+  },
+  {
+    "bucket": 2700,
+    "count": 5226,
+    "year": 2021,
+    "city": "oslo"
+  },
+  {
+    "bucket": 2880,
+    "count": 4941,
+    "year": 2021,
+    "city": "oslo"
+  },
+  {
+    "bucket": 3060,
+    "count": 5033,
+    "year": 2021,
+    "city": "oslo"
+  },
+  {
+    "bucket": 3240,
+    "count": 5283,
+    "year": 2021,
+    "city": "oslo"
+  },
+  {
+    "bucket": 3420,
+    "count": 3666,
+    "year": 2021,
+    "city": "oslo"
+  },
+  {
+    "bucket": 3600,
+    "count": 2043,
+    "year": 2021,
+    "city": "oslo"
+  },
+  {
+    "bucket": 3780,
+    "count": 1384,
+    "year": 2021,
+    "city": "oslo"
+  },
+  {
+    "bucket": 3960,
+    "count": 1065,
+    "year": 2021,
+    "city": "oslo"
+  },
+  {
+    "bucket": 4140,
+    "count": 917,
+    "year": 2021,
+    "city": "oslo"
+  },
+  {
+    "bucket": 4320,
+    "count": 761,
+    "year": 2021,
+    "city": "oslo"
+  },
+  {
+    "bucket": 4500,
+    "count": 628,
+    "year": 2021,
+    "city": "oslo"
+  },
+  {
+    "bucket": 4680,
+    "count": 547,
+    "year": 2021,
+    "city": "oslo"
+  },
+  {
+    "bucket": 4860,
+    "count": 454,
+    "year": 2021,
+    "city": "oslo"
+  },
+  {
+    "bucket": 5040,
+    "count": 399,
+    "year": 2021,
+    "city": "oslo"
+  },
+  {
+    "bucket": 5220,
+    "count": 368,
+    "year": 2021,
+    "city": "oslo"
+  },
+  {
+    "bucket": 5400,
+    "count": 307,
+    "year": 2021,
+    "city": "oslo"
+  },
+  {
+    "bucket": 5580,
+    "count": 252,
+    "year": 2021,
+    "city": "oslo"
+  },
+  {
+    "bucket": 5760,
+    "count": 253,
+    "year": 2021,
+    "city": "oslo"
+  },
+  {
+    "bucket": 5940,
+    "count": 264,
+    "year": 2021,
+    "city": "oslo"
+  },
+  {
+    "bucket": 6120,
+    "count": 202,
+    "year": 2021,
+    "city": "oslo"
+  },
+  {
+    "bucket": 6300,
+    "count": 172,
+    "year": 2021,
+    "city": "oslo"
+  },
+  {
+    "bucket": 6480,
+    "count": 182,
+    "year": 2021,
+    "city": "oslo"
+  },
+  {
+    "bucket": 6660,
+    "count": 172,
+    "year": 2021,
+    "city": "oslo"
+  },
+  {
+    "bucket": 6840,
+    "count": 146,
+    "year": 2021,
+    "city": "oslo"
+  },
+  {
+    "bucket": 7020,
+    "count": 141,
+    "year": 2021,
+    "city": "oslo"
+  },
+  {
+    "bucket": 7200,
+    "count": 2724,
+    "year": 2021,
+    "city": "oslo"
+  },
+  {
+    "bucket": 0,
+    "count": 72879,
+    "year": 2022,
+    "city": "oslo"
+  },
+  {
+    "bucket": 180,
+    "count": 270156,
+    "year": 2022,
+    "city": "oslo"
+  },
+  {
+    "bucket": 360,
+    "count": 299354,
+    "year": 2022,
+    "city": "oslo"
+  },
+  {
+    "bucket": 540,
+    "count": 221223,
+    "year": 2022,
+    "city": "oslo"
+  },
+  {
+    "bucket": 720,
+    "count": 139973,
+    "year": 2022,
+    "city": "oslo"
+  },
+  {
+    "bucket": 900,
+    "count": 83291,
+    "year": 2022,
+    "city": "oslo"
+  },
+  {
+    "bucket": 1080,
+    "count": 49122,
+    "year": 2022,
+    "city": "oslo"
+  },
+  {
+    "bucket": 1260,
+    "count": 31512,
+    "year": 2022,
+    "city": "oslo"
+  },
+  {
+    "bucket": 1440,
+    "count": 21701,
+    "year": 2022,
+    "city": "oslo"
+  },
+  {
+    "bucket": 1620,
+    "count": 15734,
+    "year": 2022,
+    "city": "oslo"
+  },
+  {
+    "bucket": 1800,
+    "count": 11789,
+    "year": 2022,
+    "city": "oslo"
+  },
+  {
+    "bucket": 1980,
+    "count": 9483,
+    "year": 2022,
+    "city": "oslo"
+  },
+  {
+    "bucket": 2160,
+    "count": 7866,
+    "year": 2022,
+    "city": "oslo"
+  },
+  {
+    "bucket": 2340,
+    "count": 6907,
+    "year": 2022,
+    "city": "oslo"
+  },
+  {
+    "bucket": 2520,
+    "count": 6043,
+    "year": 2022,
+    "city": "oslo"
+  },
+  {
+    "bucket": 2700,
+    "count": 5554,
+    "year": 2022,
+    "city": "oslo"
+  },
+  {
+    "bucket": 2880,
+    "count": 5177,
+    "year": 2022,
+    "city": "oslo"
+  },
+  {
+    "bucket": 3060,
+    "count": 5327,
+    "year": 2022,
+    "city": "oslo"
+  },
+  {
+    "bucket": 3240,
+    "count": 5617,
+    "year": 2022,
+    "city": "oslo"
+  },
+  {
+    "bucket": 3420,
+    "count": 3929,
+    "year": 2022,
+    "city": "oslo"
+  },
+  {
+    "bucket": 3600,
+    "count": 2015,
+    "year": 2022,
+    "city": "oslo"
+  },
+  {
+    "bucket": 3780,
+    "count": 1449,
+    "year": 2022,
+    "city": "oslo"
+  },
+  {
+    "bucket": 3960,
+    "count": 1113,
+    "year": 2022,
+    "city": "oslo"
+  },
+  {
+    "bucket": 4140,
+    "count": 893,
+    "year": 2022,
+    "city": "oslo"
+  },
+  {
+    "bucket": 4320,
+    "count": 727,
+    "year": 2022,
+    "city": "oslo"
+  },
+  {
+    "bucket": 4500,
+    "count": 590,
+    "year": 2022,
+    "city": "oslo"
+  },
+  {
+    "bucket": 4680,
+    "count": 509,
+    "year": 2022,
+    "city": "oslo"
+  },
+  {
+    "bucket": 4860,
+    "count": 414,
+    "year": 2022,
+    "city": "oslo"
+  },
+  {
+    "bucket": 5040,
+    "count": 430,
+    "year": 2022,
+    "city": "oslo"
+  },
+  {
+    "bucket": 5220,
+    "count": 325,
+    "year": 2022,
+    "city": "oslo"
+  },
+  {
+    "bucket": 5400,
+    "count": 310,
+    "year": 2022,
+    "city": "oslo"
+  },
+  {
+    "bucket": 5580,
+    "count": 309,
+    "year": 2022,
+    "city": "oslo"
+  },
+  {
+    "bucket": 5760,
+    "count": 247,
+    "year": 2022,
+    "city": "oslo"
+  },
+  {
+    "bucket": 5940,
+    "count": 238,
+    "year": 2022,
+    "city": "oslo"
+  },
+  {
+    "bucket": 6120,
+    "count": 198,
+    "year": 2022,
+    "city": "oslo"
+  },
+  {
+    "bucket": 6300,
+    "count": 219,
+    "year": 2022,
+    "city": "oslo"
+  },
+  {
+    "bucket": 6480,
+    "count": 181,
+    "year": 2022,
+    "city": "oslo"
+  },
+  {
+    "bucket": 6660,
+    "count": 145,
+    "year": 2022,
+    "city": "oslo"
+  },
+  {
+    "bucket": 6840,
+    "count": 167,
+    "year": 2022,
+    "city": "oslo"
+  },
+  {
+    "bucket": 7020,
+    "count": 144,
+    "year": 2022,
+    "city": "oslo"
+  },
+  {
+    "bucket": 7200,
+    "count": 2898,
+    "year": 2022,
+    "city": "oslo"
+  },
+  {
+    "bucket": 0,
+    "count": 58982,
+    "year": 2023,
+    "city": "oslo"
+  },
+  {
+    "bucket": 180,
+    "count": 234641,
+    "year": 2023,
+    "city": "oslo"
+  },
+  {
+    "bucket": 360,
+    "count": 256911,
+    "year": 2023,
+    "city": "oslo"
+  },
+  {
+    "bucket": 540,
+    "count": 191708,
+    "year": 2023,
+    "city": "oslo"
+  },
+  {
+    "bucket": 720,
+    "count": 122547,
+    "year": 2023,
+    "city": "oslo"
+  },
+  {
+    "bucket": 900,
+    "count": 72933,
+    "year": 2023,
+    "city": "oslo"
+  },
+  {
+    "bucket": 1080,
+    "count": 45005,
+    "year": 2023,
+    "city": "oslo"
+  },
+  {
+    "bucket": 1260,
+    "count": 29002,
+    "year": 2023,
+    "city": "oslo"
+  },
+  {
+    "bucket": 1440,
+    "count": 20038,
+    "year": 2023,
+    "city": "oslo"
+  },
+  {
+    "bucket": 1620,
+    "count": 14871,
+    "year": 2023,
+    "city": "oslo"
+  },
+  {
+    "bucket": 1800,
+    "count": 11551,
+    "year": 2023,
+    "city": "oslo"
+  },
+  {
+    "bucket": 1980,
+    "count": 9077,
+    "year": 2023,
+    "city": "oslo"
+  },
+  {
+    "bucket": 2160,
+    "count": 7527,
+    "year": 2023,
+    "city": "oslo"
+  },
+  {
+    "bucket": 2340,
+    "count": 6449,
+    "year": 2023,
+    "city": "oslo"
+  },
+  {
+    "bucket": 2520,
+    "count": 5858,
+    "year": 2023,
+    "city": "oslo"
+  },
+  {
+    "bucket": 2700,
+    "count": 5291,
+    "year": 2023,
+    "city": "oslo"
+  },
+  {
+    "bucket": 2880,
+    "count": 4872,
+    "year": 2023,
+    "city": "oslo"
+  },
+  {
+    "bucket": 3060,
+    "count": 4916,
+    "year": 2023,
+    "city": "oslo"
+  },
+  {
+    "bucket": 3240,
+    "count": 4710,
+    "year": 2023,
+    "city": "oslo"
+  },
+  {
+    "bucket": 3420,
+    "count": 3621,
+    "year": 2023,
+    "city": "oslo"
+  },
+  {
+    "bucket": 3600,
+    "count": 1941,
+    "year": 2023,
+    "city": "oslo"
+  },
+  {
+    "bucket": 3780,
+    "count": 1230,
+    "year": 2023,
+    "city": "oslo"
+  },
+  {
+    "bucket": 3960,
+    "count": 963,
+    "year": 2023,
+    "city": "oslo"
+  },
+  {
+    "bucket": 4140,
+    "count": 780,
+    "year": 2023,
+    "city": "oslo"
+  },
+  {
+    "bucket": 4320,
+    "count": 683,
+    "year": 2023,
+    "city": "oslo"
+  },
+  {
+    "bucket": 4500,
+    "count": 539,
+    "year": 2023,
+    "city": "oslo"
+  },
+  {
+    "bucket": 4680,
+    "count": 466,
+    "year": 2023,
+    "city": "oslo"
+  },
+  {
+    "bucket": 4860,
+    "count": 410,
+    "year": 2023,
+    "city": "oslo"
+  },
+  {
+    "bucket": 5040,
+    "count": 384,
+    "year": 2023,
+    "city": "oslo"
+  },
+  {
+    "bucket": 5220,
+    "count": 333,
+    "year": 2023,
+    "city": "oslo"
+  },
+  {
+    "bucket": 5400,
+    "count": 310,
+    "year": 2023,
+    "city": "oslo"
+  },
+  {
+    "bucket": 5580,
+    "count": 282,
+    "year": 2023,
+    "city": "oslo"
+  },
+  {
+    "bucket": 5760,
+    "count": 206,
+    "year": 2023,
+    "city": "oslo"
+  },
+  {
+    "bucket": 5940,
+    "count": 199,
+    "year": 2023,
+    "city": "oslo"
+  },
+  {
+    "bucket": 6120,
+    "count": 183,
+    "year": 2023,
+    "city": "oslo"
+  },
+  {
+    "bucket": 6300,
+    "count": 171,
+    "year": 2023,
+    "city": "oslo"
+  },
+  {
+    "bucket": 6480,
+    "count": 162,
+    "year": 2023,
+    "city": "oslo"
+  },
+  {
+    "bucket": 6660,
+    "count": 153,
+    "year": 2023,
+    "city": "oslo"
+  },
+  {
+    "bucket": 6840,
+    "count": 130,
+    "year": 2023,
+    "city": "oslo"
+  },
+  {
+    "bucket": 7020,
+    "count": 122,
+    "year": 2023,
+    "city": "oslo"
+  },
+  {
+    "bucket": 7200,
+    "count": 1503,
+    "year": 2023,
+    "city": "oslo"
+  },
+  {
+    "bucket": 0,
+    "count": 61805,
+    "year": 2024,
+    "city": "oslo"
+  },
+  {
+    "bucket": 180,
+    "count": 229892,
+    "year": 2024,
+    "city": "oslo"
+  },
+  {
+    "bucket": 360,
+    "count": 261015,
+    "year": 2024,
+    "city": "oslo"
+  },
+  {
+    "bucket": 540,
+    "count": 201416,
+    "year": 2024,
+    "city": "oslo"
+  },
+  {
+    "bucket": 720,
+    "count": 128603,
+    "year": 2024,
+    "city": "oslo"
+  },
+  {
+    "bucket": 900,
+    "count": 78616,
+    "year": 2024,
+    "city": "oslo"
+  },
+  {
+    "bucket": 1080,
+    "count": 46634,
+    "year": 2024,
+    "city": "oslo"
+  },
+  {
+    "bucket": 1260,
+    "count": 29246,
+    "year": 2024,
+    "city": "oslo"
+  },
+  {
+    "bucket": 1440,
+    "count": 19638,
+    "year": 2024,
+    "city": "oslo"
+  },
+  {
+    "bucket": 1620,
+    "count": 14281,
+    "year": 2024,
+    "city": "oslo"
+  },
+  {
+    "bucket": 1800,
+    "count": 10570,
+    "year": 2024,
+    "city": "oslo"
+  },
+  {
+    "bucket": 1980,
+    "count": 8257,
+    "year": 2024,
+    "city": "oslo"
+  },
+  {
+    "bucket": 2160,
+    "count": 6470,
+    "year": 2024,
+    "city": "oslo"
+  },
+  {
+    "bucket": 2340,
+    "count": 5524,
+    "year": 2024,
+    "city": "oslo"
+  },
+  {
+    "bucket": 2520,
+    "count": 4848,
+    "year": 2024,
+    "city": "oslo"
+  },
+  {
+    "bucket": 2700,
+    "count": 4255,
+    "year": 2024,
+    "city": "oslo"
+  },
+  {
+    "bucket": 2880,
+    "count": 3841,
+    "year": 2024,
+    "city": "oslo"
+  },
+  {
+    "bucket": 3060,
+    "count": 3920,
+    "year": 2024,
+    "city": "oslo"
+  },
+  {
+    "bucket": 3240,
+    "count": 4164,
+    "year": 2024,
+    "city": "oslo"
+  },
+  {
+    "bucket": 3420,
+    "count": 3543,
+    "year": 2024,
+    "city": "oslo"
+  },
+  {
+    "bucket": 3600,
+    "count": 2167,
+    "year": 2024,
+    "city": "oslo"
+  },
+  {
+    "bucket": 3780,
+    "count": 1521,
+    "year": 2024,
+    "city": "oslo"
+  },
+  {
+    "bucket": 3960,
+    "count": 1262,
+    "year": 2024,
+    "city": "oslo"
+  },
+  {
+    "bucket": 4140,
+    "count": 1056,
+    "year": 2024,
+    "city": "oslo"
+  },
+  {
+    "bucket": 4320,
+    "count": 901,
+    "year": 2024,
+    "city": "oslo"
+  },
+  {
+    "bucket": 4500,
+    "count": 745,
+    "year": 2024,
+    "city": "oslo"
+  },
+  {
+    "bucket": 4680,
+    "count": 688,
+    "year": 2024,
+    "city": "oslo"
+  },
+  {
+    "bucket": 4860,
+    "count": 607,
+    "year": 2024,
+    "city": "oslo"
+  },
+  {
+    "bucket": 5040,
+    "count": 609,
+    "year": 2024,
+    "city": "oslo"
+  },
+  {
+    "bucket": 5220,
+    "count": 484,
+    "year": 2024,
+    "city": "oslo"
+  },
+  {
+    "bucket": 5400,
+    "count": 444,
+    "year": 2024,
+    "city": "oslo"
+  },
+  {
+    "bucket": 5580,
+    "count": 376,
+    "year": 2024,
+    "city": "oslo"
+  },
+  {
+    "bucket": 5760,
+    "count": 352,
+    "year": 2024,
+    "city": "oslo"
+  },
+  {
+    "bucket": 5940,
+    "count": 381,
+    "year": 2024,
+    "city": "oslo"
+  },
+  {
+    "bucket": 6120,
+    "count": 309,
+    "year": 2024,
+    "city": "oslo"
+  },
+  {
+    "bucket": 6300,
+    "count": 298,
+    "year": 2024,
+    "city": "oslo"
+  },
+  {
+    "bucket": 6480,
+    "count": 314,
+    "year": 2024,
+    "city": "oslo"
+  },
+  {
+    "bucket": 6660,
+    "count": 327,
+    "year": 2024,
+    "city": "oslo"
+  },
+  {
+    "bucket": 6840,
+    "count": 302,
+    "year": 2024,
+    "city": "oslo"
+  },
+  {
+    "bucket": 7020,
+    "count": 285,
+    "year": 2024,
+    "city": "oslo"
+  },
+  {
+    "bucket": 7200,
+    "count": 3413,
+    "year": 2024,
+    "city": "oslo"
+  },
+  {
+    "bucket": 0,
+    "count": 47909,
+    "year": 2025,
+    "city": "oslo"
+  },
+  {
+    "bucket": 180,
+    "count": 200045,
+    "year": 2025,
+    "city": "oslo"
+  },
+  {
+    "bucket": 360,
+    "count": 235892,
+    "year": 2025,
+    "city": "oslo"
+  },
+  {
+    "bucket": 540,
+    "count": 185234,
+    "year": 2025,
+    "city": "oslo"
+  },
+  {
+    "bucket": 720,
+    "count": 120532,
+    "year": 2025,
+    "city": "oslo"
+  },
+  {
+    "bucket": 900,
+    "count": 73966,
+    "year": 2025,
+    "city": "oslo"
+  },
+  {
+    "bucket": 1080,
+    "count": 44531,
+    "year": 2025,
+    "city": "oslo"
+  },
+  {
+    "bucket": 1260,
+    "count": 27693,
+    "year": 2025,
+    "city": "oslo"
+  },
+  {
+    "bucket": 1440,
+    "count": 18443,
+    "year": 2025,
+    "city": "oslo"
+  },
+  {
+    "bucket": 1620,
+    "count": 13004,
+    "year": 2025,
+    "city": "oslo"
+  },
+  {
+    "bucket": 1800,
+    "count": 9397,
+    "year": 2025,
+    "city": "oslo"
+  },
+  {
+    "bucket": 1980,
+    "count": 7073,
+    "year": 2025,
+    "city": "oslo"
+  },
+  {
+    "bucket": 2160,
+    "count": 5697,
+    "year": 2025,
+    "city": "oslo"
+  },
+  {
+    "bucket": 2340,
+    "count": 4551,
+    "year": 2025,
+    "city": "oslo"
+  },
+  {
+    "bucket": 2520,
+    "count": 4055,
+    "year": 2025,
+    "city": "oslo"
+  },
+  {
+    "bucket": 2700,
+    "count": 3524,
+    "year": 2025,
+    "city": "oslo"
+  },
+  {
+    "bucket": 2880,
+    "count": 2990,
+    "year": 2025,
+    "city": "oslo"
+  },
+  {
+    "bucket": 3060,
+    "count": 2871,
+    "year": 2025,
+    "city": "oslo"
+  },
+  {
+    "bucket": 3240,
+    "count": 2753,
+    "year": 2025,
+    "city": "oslo"
+  },
+  {
+    "bucket": 3420,
+    "count": 2239,
+    "year": 2025,
+    "city": "oslo"
+  },
+  {
+    "bucket": 3600,
+    "count": 1494,
+    "year": 2025,
+    "city": "oslo"
+  },
+  {
+    "bucket": 3780,
+    "count": 1152,
+    "year": 2025,
+    "city": "oslo"
+  },
+  {
+    "bucket": 3960,
+    "count": 1045,
+    "year": 2025,
+    "city": "oslo"
+  },
+  {
+    "bucket": 4140,
+    "count": 891,
+    "year": 2025,
+    "city": "oslo"
+  },
+  {
+    "bucket": 4320,
+    "count": 832,
+    "year": 2025,
+    "city": "oslo"
+  },
+  {
+    "bucket": 4500,
+    "count": 717,
+    "year": 2025,
+    "city": "oslo"
+  },
+  {
+    "bucket": 4680,
+    "count": 575,
+    "year": 2025,
+    "city": "oslo"
+  },
+  {
+    "bucket": 4860,
+    "count": 629,
+    "year": 2025,
+    "city": "oslo"
+  },
+  {
+    "bucket": 5040,
+    "count": 520,
+    "year": 2025,
+    "city": "oslo"
+  },
+  {
+    "bucket": 5220,
+    "count": 515,
+    "year": 2025,
+    "city": "oslo"
+  },
+  {
+    "bucket": 5400,
+    "count": 442,
+    "year": 2025,
+    "city": "oslo"
+  },
+  {
+    "bucket": 5580,
+    "count": 427,
+    "year": 2025,
+    "city": "oslo"
+  },
+  {
+    "bucket": 5760,
+    "count": 424,
+    "year": 2025,
+    "city": "oslo"
+  },
+  {
+    "bucket": 5940,
+    "count": 318,
+    "year": 2025,
+    "city": "oslo"
+  },
+  {
+    "bucket": 6120,
+    "count": 344,
+    "year": 2025,
+    "city": "oslo"
+  },
+  {
+    "bucket": 6300,
+    "count": 310,
+    "year": 2025,
+    "city": "oslo"
+  },
+  {
+    "bucket": 6480,
+    "count": 297,
+    "year": 2025,
+    "city": "oslo"
+  },
+  {
+    "bucket": 6660,
+    "count": 262,
+    "year": 2025,
+    "city": "oslo"
+  },
+  {
+    "bucket": 6840,
+    "count": 250,
+    "year": 2025,
+    "city": "oslo"
+  },
+  {
+    "bucket": 7020,
+    "count": 269,
+    "year": 2025,
+    "city": "oslo"
+  },
+  {
+    "bucket": 7200,
+    "count": 3486,
+    "year": 2025,
+    "city": "oslo"
+  }
+]

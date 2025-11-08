@@ -1,0 +1,1478 @@
+[
+  {
+    "bucket": 0,
+    "count": 247892,
+    "year": 2020,
+    "city": "taipei"
+  },
+  {
+    "bucket": 180,
+    "count": 832766,
+    "year": 2020,
+    "city": "taipei"
+  },
+  {
+    "bucket": 360,
+    "count": 510069,
+    "year": 2020,
+    "city": "taipei"
+  },
+  {
+    "bucket": 540,
+    "count": 215934,
+    "year": 2020,
+    "city": "taipei"
+  },
+  {
+    "bucket": 720,
+    "count": 107407,
+    "year": 2020,
+    "city": "taipei"
+  },
+  {
+    "bucket": 900,
+    "count": 65249,
+    "year": 2020,
+    "city": "taipei"
+  },
+  {
+    "bucket": 1080,
+    "count": 46197,
+    "year": 2020,
+    "city": "taipei"
+  },
+  {
+    "bucket": 1260,
+    "count": 35022,
+    "year": 2020,
+    "city": "taipei"
+  },
+  {
+    "bucket": 1440,
+    "count": 28051,
+    "year": 2020,
+    "city": "taipei"
+  },
+  {
+    "bucket": 1620,
+    "count": 22369,
+    "year": 2020,
+    "city": "taipei"
+  },
+  {
+    "bucket": 1800,
+    "count": 17053,
+    "year": 2020,
+    "city": "taipei"
+  },
+  {
+    "bucket": 1980,
+    "count": 13596,
+    "year": 2020,
+    "city": "taipei"
+  },
+  {
+    "bucket": 2160,
+    "count": 11605,
+    "year": 2020,
+    "city": "taipei"
+  },
+  {
+    "bucket": 2340,
+    "count": 9935,
+    "year": 2020,
+    "city": "taipei"
+  },
+  {
+    "bucket": 2520,
+    "count": 8787,
+    "year": 2020,
+    "city": "taipei"
+  },
+  {
+    "bucket": 2700,
+    "count": 7610,
+    "year": 2020,
+    "city": "taipei"
+  },
+  {
+    "bucket": 2880,
+    "count": 6973,
+    "year": 2020,
+    "city": "taipei"
+  },
+  {
+    "bucket": 3060,
+    "count": 6359,
+    "year": 2020,
+    "city": "taipei"
+  },
+  {
+    "bucket": 3240,
+    "count": 5876,
+    "year": 2020,
+    "city": "taipei"
+  },
+  {
+    "bucket": 3420,
+    "count": 5166,
+    "year": 2020,
+    "city": "taipei"
+  },
+  {
+    "bucket": 3600,
+    "count": 4417,
+    "year": 2020,
+    "city": "taipei"
+  },
+  {
+    "bucket": 3780,
+    "count": 3955,
+    "year": 2020,
+    "city": "taipei"
+  },
+  {
+    "bucket": 3960,
+    "count": 3495,
+    "year": 2020,
+    "city": "taipei"
+  },
+  {
+    "bucket": 4140,
+    "count": 3179,
+    "year": 2020,
+    "city": "taipei"
+  },
+  {
+    "bucket": 4320,
+    "count": 2910,
+    "year": 2020,
+    "city": "taipei"
+  },
+  {
+    "bucket": 4500,
+    "count": 2587,
+    "year": 2020,
+    "city": "taipei"
+  },
+  {
+    "bucket": 4680,
+    "count": 2249,
+    "year": 2020,
+    "city": "taipei"
+  },
+  {
+    "bucket": 4860,
+    "count": 2245,
+    "year": 2020,
+    "city": "taipei"
+  },
+  {
+    "bucket": 5040,
+    "count": 1989,
+    "year": 2020,
+    "city": "taipei"
+  },
+  {
+    "bucket": 5220,
+    "count": 1885,
+    "year": 2020,
+    "city": "taipei"
+  },
+  {
+    "bucket": 5400,
+    "count": 1703,
+    "year": 2020,
+    "city": "taipei"
+  },
+  {
+    "bucket": 5580,
+    "count": 1586,
+    "year": 2020,
+    "city": "taipei"
+  },
+  {
+    "bucket": 5760,
+    "count": 1479,
+    "year": 2020,
+    "city": "taipei"
+  },
+  {
+    "bucket": 5940,
+    "count": 1326,
+    "year": 2020,
+    "city": "taipei"
+  },
+  {
+    "bucket": 6120,
+    "count": 1194,
+    "year": 2020,
+    "city": "taipei"
+  },
+  {
+    "bucket": 6300,
+    "count": 1139,
+    "year": 2020,
+    "city": "taipei"
+  },
+  {
+    "bucket": 6480,
+    "count": 1024,
+    "year": 2020,
+    "city": "taipei"
+  },
+  {
+    "bucket": 6660,
+    "count": 946,
+    "year": 2020,
+    "city": "taipei"
+  },
+  {
+    "bucket": 6840,
+    "count": 902,
+    "year": 2020,
+    "city": "taipei"
+  },
+  {
+    "bucket": 7020,
+    "count": 852,
+    "year": 2020,
+    "city": "taipei"
+  },
+  {
+    "bucket": 7200,
+    "count": 15361,
+    "year": 2020,
+    "city": "taipei"
+  },
+  {
+    "bucket": 0,
+    "count": 406716,
+    "year": 2021,
+    "city": "taipei"
+  },
+  {
+    "bucket": 180,
+    "count": 1771105,
+    "year": 2021,
+    "city": "taipei"
+  },
+  {
+    "bucket": 360,
+    "count": 1345991,
+    "year": 2021,
+    "city": "taipei"
+  },
+  {
+    "bucket": 540,
+    "count": 841597,
+    "year": 2021,
+    "city": "taipei"
+  },
+  {
+    "bucket": 720,
+    "count": 578053,
+    "year": 2021,
+    "city": "taipei"
+  },
+  {
+    "bucket": 900,
+    "count": 426284,
+    "year": 2021,
+    "city": "taipei"
+  },
+  {
+    "bucket": 1080,
+    "count": 330570,
+    "year": 2021,
+    "city": "taipei"
+  },
+  {
+    "bucket": 1260,
+    "count": 263638,
+    "year": 2021,
+    "city": "taipei"
+  },
+  {
+    "bucket": 1440,
+    "count": 216332,
+    "year": 2021,
+    "city": "taipei"
+  },
+  {
+    "bucket": 1620,
+    "count": 173605,
+    "year": 2021,
+    "city": "taipei"
+  },
+  {
+    "bucket": 1800,
+    "count": 122708,
+    "year": 2021,
+    "city": "taipei"
+  },
+  {
+    "bucket": 1980,
+    "count": 95505,
+    "year": 2021,
+    "city": "taipei"
+  },
+  {
+    "bucket": 2160,
+    "count": 80745,
+    "year": 2021,
+    "city": "taipei"
+  },
+  {
+    "bucket": 2340,
+    "count": 70605,
+    "year": 2021,
+    "city": "taipei"
+  },
+  {
+    "bucket": 2520,
+    "count": 62852,
+    "year": 2021,
+    "city": "taipei"
+  },
+  {
+    "bucket": 2700,
+    "count": 56657,
+    "year": 2021,
+    "city": "taipei"
+  },
+  {
+    "bucket": 2880,
+    "count": 51899,
+    "year": 2021,
+    "city": "taipei"
+  },
+  {
+    "bucket": 3060,
+    "count": 48519,
+    "year": 2021,
+    "city": "taipei"
+  },
+  {
+    "bucket": 3240,
+    "count": 45365,
+    "year": 2021,
+    "city": "taipei"
+  },
+  {
+    "bucket": 3420,
+    "count": 41128,
+    "year": 2021,
+    "city": "taipei"
+  },
+  {
+    "bucket": 3600,
+    "count": 34003,
+    "year": 2021,
+    "city": "taipei"
+  },
+  {
+    "bucket": 3780,
+    "count": 30208,
+    "year": 2021,
+    "city": "taipei"
+  },
+  {
+    "bucket": 3960,
+    "count": 27763,
+    "year": 2021,
+    "city": "taipei"
+  },
+  {
+    "bucket": 4140,
+    "count": 25965,
+    "year": 2021,
+    "city": "taipei"
+  },
+  {
+    "bucket": 4320,
+    "count": 24124,
+    "year": 2021,
+    "city": "taipei"
+  },
+  {
+    "bucket": 4500,
+    "count": 22761,
+    "year": 2021,
+    "city": "taipei"
+  },
+  {
+    "bucket": 4680,
+    "count": 21578,
+    "year": 2021,
+    "city": "taipei"
+  },
+  {
+    "bucket": 4860,
+    "count": 20225,
+    "year": 2021,
+    "city": "taipei"
+  },
+  {
+    "bucket": 5040,
+    "count": 19336,
+    "year": 2021,
+    "city": "taipei"
+  },
+  {
+    "bucket": 5220,
+    "count": 17612,
+    "year": 2021,
+    "city": "taipei"
+  },
+  {
+    "bucket": 5400,
+    "count": 15714,
+    "year": 2021,
+    "city": "taipei"
+  },
+  {
+    "bucket": 5580,
+    "count": 14676,
+    "year": 2021,
+    "city": "taipei"
+  },
+  {
+    "bucket": 5760,
+    "count": 13819,
+    "year": 2021,
+    "city": "taipei"
+  },
+  {
+    "bucket": 5940,
+    "count": 13101,
+    "year": 2021,
+    "city": "taipei"
+  },
+  {
+    "bucket": 6120,
+    "count": 12012,
+    "year": 2021,
+    "city": "taipei"
+  },
+  {
+    "bucket": 6300,
+    "count": 11633,
+    "year": 2021,
+    "city": "taipei"
+  },
+  {
+    "bucket": 6480,
+    "count": 10982,
+    "year": 2021,
+    "city": "taipei"
+  },
+  {
+    "bucket": 6660,
+    "count": 10343,
+    "year": 2021,
+    "city": "taipei"
+  },
+  {
+    "bucket": 6840,
+    "count": 9912,
+    "year": 2021,
+    "city": "taipei"
+  },
+  {
+    "bucket": 7020,
+    "count": 8949,
+    "year": 2021,
+    "city": "taipei"
+  },
+  {
+    "bucket": 7200,
+    "count": 150121,
+    "year": 2021,
+    "city": "taipei"
+  },
+  {
+    "bucket": 0,
+    "count": 1753520,
+    "year": 2022,
+    "city": "taipei"
+  },
+  {
+    "bucket": 180,
+    "count": 7380532,
+    "year": 2022,
+    "city": "taipei"
+  },
+  {
+    "bucket": 360,
+    "count": 5818054,
+    "year": 2022,
+    "city": "taipei"
+  },
+  {
+    "bucket": 540,
+    "count": 3915620,
+    "year": 2022,
+    "city": "taipei"
+  },
+  {
+    "bucket": 720,
+    "count": 2755668,
+    "year": 2022,
+    "city": "taipei"
+  },
+  {
+    "bucket": 900,
+    "count": 2034555,
+    "year": 2022,
+    "city": "taipei"
+  },
+  {
+    "bucket": 1080,
+    "count": 1552825,
+    "year": 2022,
+    "city": "taipei"
+  },
+  {
+    "bucket": 1260,
+    "count": 1221867,
+    "year": 2022,
+    "city": "taipei"
+  },
+  {
+    "bucket": 1440,
+    "count": 987347,
+    "year": 2022,
+    "city": "taipei"
+  },
+  {
+    "bucket": 1620,
+    "count": 771897,
+    "year": 2022,
+    "city": "taipei"
+  },
+  {
+    "bucket": 1800,
+    "count": 541378,
+    "year": 2022,
+    "city": "taipei"
+  },
+  {
+    "bucket": 1980,
+    "count": 411890,
+    "year": 2022,
+    "city": "taipei"
+  },
+  {
+    "bucket": 2160,
+    "count": 343910,
+    "year": 2022,
+    "city": "taipei"
+  },
+  {
+    "bucket": 2340,
+    "count": 297643,
+    "year": 2022,
+    "city": "taipei"
+  },
+  {
+    "bucket": 2520,
+    "count": 259843,
+    "year": 2022,
+    "city": "taipei"
+  },
+  {
+    "bucket": 2700,
+    "count": 233145,
+    "year": 2022,
+    "city": "taipei"
+  },
+  {
+    "bucket": 2880,
+    "count": 211267,
+    "year": 2022,
+    "city": "taipei"
+  },
+  {
+    "bucket": 3060,
+    "count": 190509,
+    "year": 2022,
+    "city": "taipei"
+  },
+  {
+    "bucket": 3240,
+    "count": 176663,
+    "year": 2022,
+    "city": "taipei"
+  },
+  {
+    "bucket": 3420,
+    "count": 155708,
+    "year": 2022,
+    "city": "taipei"
+  },
+  {
+    "bucket": 3600,
+    "count": 130408,
+    "year": 2022,
+    "city": "taipei"
+  },
+  {
+    "bucket": 3780,
+    "count": 113746,
+    "year": 2022,
+    "city": "taipei"
+  },
+  {
+    "bucket": 3960,
+    "count": 103652,
+    "year": 2022,
+    "city": "taipei"
+  },
+  {
+    "bucket": 4140,
+    "count": 96444,
+    "year": 2022,
+    "city": "taipei"
+  },
+  {
+    "bucket": 4320,
+    "count": 88940,
+    "year": 2022,
+    "city": "taipei"
+  },
+  {
+    "bucket": 4500,
+    "count": 82733,
+    "year": 2022,
+    "city": "taipei"
+  },
+  {
+    "bucket": 4680,
+    "count": 77845,
+    "year": 2022,
+    "city": "taipei"
+  },
+  {
+    "bucket": 4860,
+    "count": 73066,
+    "year": 2022,
+    "city": "taipei"
+  },
+  {
+    "bucket": 5040,
+    "count": 67754,
+    "year": 2022,
+    "city": "taipei"
+  },
+  {
+    "bucket": 5220,
+    "count": 62622,
+    "year": 2022,
+    "city": "taipei"
+  },
+  {
+    "bucket": 5400,
+    "count": 56083,
+    "year": 2022,
+    "city": "taipei"
+  },
+  {
+    "bucket": 5580,
+    "count": 51336,
+    "year": 2022,
+    "city": "taipei"
+  },
+  {
+    "bucket": 5760,
+    "count": 47081,
+    "year": 2022,
+    "city": "taipei"
+  },
+  {
+    "bucket": 5940,
+    "count": 45052,
+    "year": 2022,
+    "city": "taipei"
+  },
+  {
+    "bucket": 6120,
+    "count": 42088,
+    "year": 2022,
+    "city": "taipei"
+  },
+  {
+    "bucket": 6300,
+    "count": 39087,
+    "year": 2022,
+    "city": "taipei"
+  },
+  {
+    "bucket": 6480,
+    "count": 37689,
+    "year": 2022,
+    "city": "taipei"
+  },
+  {
+    "bucket": 6660,
+    "count": 35105,
+    "year": 2022,
+    "city": "taipei"
+  },
+  {
+    "bucket": 6840,
+    "count": 32676,
+    "year": 2022,
+    "city": "taipei"
+  },
+  {
+    "bucket": 7020,
+    "count": 30613,
+    "year": 2022,
+    "city": "taipei"
+  },
+  {
+    "bucket": 7200,
+    "count": 475619,
+    "year": 2022,
+    "city": "taipei"
+  },
+  {
+    "bucket": 0,
+    "count": 2361579,
+    "year": 2023,
+    "city": "taipei"
+  },
+  {
+    "bucket": 180,
+    "count": 10241854,
+    "year": 2023,
+    "city": "taipei"
+  },
+  {
+    "bucket": 360,
+    "count": 8314969,
+    "year": 2023,
+    "city": "taipei"
+  },
+  {
+    "bucket": 540,
+    "count": 5623277,
+    "year": 2023,
+    "city": "taipei"
+  },
+  {
+    "bucket": 720,
+    "count": 3957298,
+    "year": 2023,
+    "city": "taipei"
+  },
+  {
+    "bucket": 900,
+    "count": 2880702,
+    "year": 2023,
+    "city": "taipei"
+  },
+  {
+    "bucket": 1080,
+    "count": 2178032,
+    "year": 2023,
+    "city": "taipei"
+  },
+  {
+    "bucket": 1260,
+    "count": 1701606,
+    "year": 2023,
+    "city": "taipei"
+  },
+  {
+    "bucket": 1440,
+    "count": 1350977,
+    "year": 2023,
+    "city": "taipei"
+  },
+  {
+    "bucket": 1620,
+    "count": 1056084,
+    "year": 2023,
+    "city": "taipei"
+  },
+  {
+    "bucket": 1800,
+    "count": 739749,
+    "year": 2023,
+    "city": "taipei"
+  },
+  {
+    "bucket": 1980,
+    "count": 561024,
+    "year": 2023,
+    "city": "taipei"
+  },
+  {
+    "bucket": 2160,
+    "count": 464241,
+    "year": 2023,
+    "city": "taipei"
+  },
+  {
+    "bucket": 2340,
+    "count": 397401,
+    "year": 2023,
+    "city": "taipei"
+  },
+  {
+    "bucket": 2520,
+    "count": 346462,
+    "year": 2023,
+    "city": "taipei"
+  },
+  {
+    "bucket": 2700,
+    "count": 309002,
+    "year": 2023,
+    "city": "taipei"
+  },
+  {
+    "bucket": 2880,
+    "count": 273877,
+    "year": 2023,
+    "city": "taipei"
+  },
+  {
+    "bucket": 3060,
+    "count": 248342,
+    "year": 2023,
+    "city": "taipei"
+  },
+  {
+    "bucket": 3240,
+    "count": 224331,
+    "year": 2023,
+    "city": "taipei"
+  },
+  {
+    "bucket": 3420,
+    "count": 201683,
+    "year": 2023,
+    "city": "taipei"
+  },
+  {
+    "bucket": 3600,
+    "count": 167199,
+    "year": 2023,
+    "city": "taipei"
+  },
+  {
+    "bucket": 3780,
+    "count": 146028,
+    "year": 2023,
+    "city": "taipei"
+  },
+  {
+    "bucket": 3960,
+    "count": 132562,
+    "year": 2023,
+    "city": "taipei"
+  },
+  {
+    "bucket": 4140,
+    "count": 121869,
+    "year": 2023,
+    "city": "taipei"
+  },
+  {
+    "bucket": 4320,
+    "count": 112113,
+    "year": 2023,
+    "city": "taipei"
+  },
+  {
+    "bucket": 4500,
+    "count": 104677,
+    "year": 2023,
+    "city": "taipei"
+  },
+  {
+    "bucket": 4680,
+    "count": 97225,
+    "year": 2023,
+    "city": "taipei"
+  },
+  {
+    "bucket": 4860,
+    "count": 90482,
+    "year": 2023,
+    "city": "taipei"
+  },
+  {
+    "bucket": 5040,
+    "count": 84649,
+    "year": 2023,
+    "city": "taipei"
+  },
+  {
+    "bucket": 5220,
+    "count": 77472,
+    "year": 2023,
+    "city": "taipei"
+  },
+  {
+    "bucket": 5400,
+    "count": 70210,
+    "year": 2023,
+    "city": "taipei"
+  },
+  {
+    "bucket": 5580,
+    "count": 63479,
+    "year": 2023,
+    "city": "taipei"
+  },
+  {
+    "bucket": 5760,
+    "count": 58374,
+    "year": 2023,
+    "city": "taipei"
+  },
+  {
+    "bucket": 5940,
+    "count": 54716,
+    "year": 2023,
+    "city": "taipei"
+  },
+  {
+    "bucket": 6120,
+    "count": 51973,
+    "year": 2023,
+    "city": "taipei"
+  },
+  {
+    "bucket": 6300,
+    "count": 48973,
+    "year": 2023,
+    "city": "taipei"
+  },
+  {
+    "bucket": 6480,
+    "count": 45060,
+    "year": 2023,
+    "city": "taipei"
+  },
+  {
+    "bucket": 6660,
+    "count": 42707,
+    "year": 2023,
+    "city": "taipei"
+  },
+  {
+    "bucket": 6840,
+    "count": 40363,
+    "year": 2023,
+    "city": "taipei"
+  },
+  {
+    "bucket": 7020,
+    "count": 37318,
+    "year": 2023,
+    "city": "taipei"
+  },
+  {
+    "bucket": 7200,
+    "count": 572832,
+    "year": 2023,
+    "city": "taipei"
+  },
+  {
+    "bucket": 0,
+    "count": 4379023,
+    "year": 2024,
+    "city": "taipei"
+  },
+  {
+    "bucket": 180,
+    "count": 15747428,
+    "year": 2024,
+    "city": "taipei"
+  },
+  {
+    "bucket": 360,
+    "count": 11757456,
+    "year": 2024,
+    "city": "taipei"
+  },
+  {
+    "bucket": 540,
+    "count": 7645776,
+    "year": 2024,
+    "city": "taipei"
+  },
+  {
+    "bucket": 720,
+    "count": 5245849,
+    "year": 2024,
+    "city": "taipei"
+  },
+  {
+    "bucket": 900,
+    "count": 3767948,
+    "year": 2024,
+    "city": "taipei"
+  },
+  {
+    "bucket": 1080,
+    "count": 2805648,
+    "year": 2024,
+    "city": "taipei"
+  },
+  {
+    "bucket": 1260,
+    "count": 2145926,
+    "year": 2024,
+    "city": "taipei"
+  },
+  {
+    "bucket": 1440,
+    "count": 1653833,
+    "year": 2024,
+    "city": "taipei"
+  },
+  {
+    "bucket": 1620,
+    "count": 1207591,
+    "year": 2024,
+    "city": "taipei"
+  },
+  {
+    "bucket": 1800,
+    "count": 784737,
+    "year": 2024,
+    "city": "taipei"
+  },
+  {
+    "bucket": 1980,
+    "count": 573089,
+    "year": 2024,
+    "city": "taipei"
+  },
+  {
+    "bucket": 2160,
+    "count": 464930,
+    "year": 2024,
+    "city": "taipei"
+  },
+  {
+    "bucket": 2340,
+    "count": 389455,
+    "year": 2024,
+    "city": "taipei"
+  },
+  {
+    "bucket": 2520,
+    "count": 333991,
+    "year": 2024,
+    "city": "taipei"
+  },
+  {
+    "bucket": 2700,
+    "count": 294701,
+    "year": 2024,
+    "city": "taipei"
+  },
+  {
+    "bucket": 2880,
+    "count": 257805,
+    "year": 2024,
+    "city": "taipei"
+  },
+  {
+    "bucket": 3060,
+    "count": 231317,
+    "year": 2024,
+    "city": "taipei"
+  },
+  {
+    "bucket": 3240,
+    "count": 208458,
+    "year": 2024,
+    "city": "taipei"
+  },
+  {
+    "bucket": 3420,
+    "count": 183343,
+    "year": 2024,
+    "city": "taipei"
+  },
+  {
+    "bucket": 3600,
+    "count": 153999,
+    "year": 2024,
+    "city": "taipei"
+  },
+  {
+    "bucket": 3780,
+    "count": 135020,
+    "year": 2024,
+    "city": "taipei"
+  },
+  {
+    "bucket": 3960,
+    "count": 121988,
+    "year": 2024,
+    "city": "taipei"
+  },
+  {
+    "bucket": 4140,
+    "count": 111854,
+    "year": 2024,
+    "city": "taipei"
+  },
+  {
+    "bucket": 4320,
+    "count": 103428,
+    "year": 2024,
+    "city": "taipei"
+  },
+  {
+    "bucket": 4500,
+    "count": 95278,
+    "year": 2024,
+    "city": "taipei"
+  },
+  {
+    "bucket": 4680,
+    "count": 87781,
+    "year": 2024,
+    "city": "taipei"
+  },
+  {
+    "bucket": 4860,
+    "count": 82591,
+    "year": 2024,
+    "city": "taipei"
+  },
+  {
+    "bucket": 5040,
+    "count": 75159,
+    "year": 2024,
+    "city": "taipei"
+  },
+  {
+    "bucket": 5220,
+    "count": 70211,
+    "year": 2024,
+    "city": "taipei"
+  },
+  {
+    "bucket": 5400,
+    "count": 62165,
+    "year": 2024,
+    "city": "taipei"
+  },
+  {
+    "bucket": 5580,
+    "count": 56752,
+    "year": 2024,
+    "city": "taipei"
+  },
+  {
+    "bucket": 5760,
+    "count": 52613,
+    "year": 2024,
+    "city": "taipei"
+  },
+  {
+    "bucket": 5940,
+    "count": 48520,
+    "year": 2024,
+    "city": "taipei"
+  },
+  {
+    "bucket": 6120,
+    "count": 45027,
+    "year": 2024,
+    "city": "taipei"
+  },
+  {
+    "bucket": 6300,
+    "count": 42215,
+    "year": 2024,
+    "city": "taipei"
+  },
+  {
+    "bucket": 6480,
+    "count": 39651,
+    "year": 2024,
+    "city": "taipei"
+  },
+  {
+    "bucket": 6660,
+    "count": 36882,
+    "year": 2024,
+    "city": "taipei"
+  },
+  {
+    "bucket": 6840,
+    "count": 35098,
+    "year": 2024,
+    "city": "taipei"
+  },
+  {
+    "bucket": 7020,
+    "count": 32352,
+    "year": 2024,
+    "city": "taipei"
+  },
+  {
+    "bucket": 7200,
+    "count": 494475,
+    "year": 2024,
+    "city": "taipei"
+  },
+  {
+    "bucket": 0,
+    "count": 1853216,
+    "year": 2025,
+    "city": "taipei"
+  },
+  {
+    "bucket": 180,
+    "count": 6114576,
+    "year": 2025,
+    "city": "taipei"
+  },
+  {
+    "bucket": 360,
+    "count": 4420156,
+    "year": 2025,
+    "city": "taipei"
+  },
+  {
+    "bucket": 540,
+    "count": 2859664,
+    "year": 2025,
+    "city": "taipei"
+  },
+  {
+    "bucket": 720,
+    "count": 1945629,
+    "year": 2025,
+    "city": "taipei"
+  },
+  {
+    "bucket": 900,
+    "count": 1386984,
+    "year": 2025,
+    "city": "taipei"
+  },
+  {
+    "bucket": 1080,
+    "count": 1025338,
+    "year": 2025,
+    "city": "taipei"
+  },
+  {
+    "bucket": 1260,
+    "count": 774131,
+    "year": 2025,
+    "city": "taipei"
+  },
+  {
+    "bucket": 1440,
+    "count": 586161,
+    "year": 2025,
+    "city": "taipei"
+  },
+  {
+    "bucket": 1620,
+    "count": 416838,
+    "year": 2025,
+    "city": "taipei"
+  },
+  {
+    "bucket": 1800,
+    "count": 265448,
+    "year": 2025,
+    "city": "taipei"
+  },
+  {
+    "bucket": 1980,
+    "count": 193459,
+    "year": 2025,
+    "city": "taipei"
+  },
+  {
+    "bucket": 2160,
+    "count": 153059,
+    "year": 2025,
+    "city": "taipei"
+  },
+  {
+    "bucket": 2340,
+    "count": 128353,
+    "year": 2025,
+    "city": "taipei"
+  },
+  {
+    "bucket": 2520,
+    "count": 109119,
+    "year": 2025,
+    "city": "taipei"
+  },
+  {
+    "bucket": 2700,
+    "count": 94631,
+    "year": 2025,
+    "city": "taipei"
+  },
+  {
+    "bucket": 2880,
+    "count": 83527,
+    "year": 2025,
+    "city": "taipei"
+  },
+  {
+    "bucket": 3060,
+    "count": 73620,
+    "year": 2025,
+    "city": "taipei"
+  },
+  {
+    "bucket": 3240,
+    "count": 66573,
+    "year": 2025,
+    "city": "taipei"
+  },
+  {
+    "bucket": 3420,
+    "count": 57587,
+    "year": 2025,
+    "city": "taipei"
+  },
+  {
+    "bucket": 3600,
+    "count": 48694,
+    "year": 2025,
+    "city": "taipei"
+  },
+  {
+    "bucket": 3780,
+    "count": 42938,
+    "year": 2025,
+    "city": "taipei"
+  },
+  {
+    "bucket": 3960,
+    "count": 38823,
+    "year": 2025,
+    "city": "taipei"
+  },
+  {
+    "bucket": 4140,
+    "count": 34810,
+    "year": 2025,
+    "city": "taipei"
+  },
+  {
+    "bucket": 4320,
+    "count": 31971,
+    "year": 2025,
+    "city": "taipei"
+  },
+  {
+    "bucket": 4500,
+    "count": 30127,
+    "year": 2025,
+    "city": "taipei"
+  },
+  {
+    "bucket": 4680,
+    "count": 27730,
+    "year": 2025,
+    "city": "taipei"
+  },
+  {
+    "bucket": 4860,
+    "count": 25419,
+    "year": 2025,
+    "city": "taipei"
+  },
+  {
+    "bucket": 5040,
+    "count": 23524,
+    "year": 2025,
+    "city": "taipei"
+  },
+  {
+    "bucket": 5220,
+    "count": 21566,
+    "year": 2025,
+    "city": "taipei"
+  },
+  {
+    "bucket": 5400,
+    "count": 19121,
+    "year": 2025,
+    "city": "taipei"
+  },
+  {
+    "bucket": 5580,
+    "count": 17903,
+    "year": 2025,
+    "city": "taipei"
+  },
+  {
+    "bucket": 5760,
+    "count": 16508,
+    "year": 2025,
+    "city": "taipei"
+  },
+  {
+    "bucket": 5940,
+    "count": 15008,
+    "year": 2025,
+    "city": "taipei"
+  },
+  {
+    "bucket": 6120,
+    "count": 14074,
+    "year": 2025,
+    "city": "taipei"
+  },
+  {
+    "bucket": 6300,
+    "count": 13151,
+    "year": 2025,
+    "city": "taipei"
+  },
+  {
+    "bucket": 6480,
+    "count": 12204,
+    "year": 2025,
+    "city": "taipei"
+  },
+  {
+    "bucket": 6660,
+    "count": 11669,
+    "year": 2025,
+    "city": "taipei"
+  },
+  {
+    "bucket": 6840,
+    "count": 10372,
+    "year": 2025,
+    "city": "taipei"
+  },
+  {
+    "bucket": 7020,
+    "count": 9807,
+    "year": 2025,
+    "city": "taipei"
+  },
+  {
+    "bucket": 7200,
+    "count": 149016,
+    "year": 2025,
+    "city": "taipei"
+  }
+]

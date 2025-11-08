@@ -1,0 +1,1724 @@
+[
+  {
+    "bucket": 0,
+    "count": 299322,
+    "year": 2019,
+    "city": "seoul"
+  },
+  {
+    "bucket": 180,
+    "count": 1831163,
+    "year": 2019,
+    "city": "seoul"
+  },
+  {
+    "bucket": 360,
+    "count": 2026505,
+    "year": 2019,
+    "city": "seoul"
+  },
+  {
+    "bucket": 540,
+    "count": 1674861,
+    "year": 2019,
+    "city": "seoul"
+  },
+  {
+    "bucket": 720,
+    "count": 1300155,
+    "year": 2019,
+    "city": "seoul"
+  },
+  {
+    "bucket": 900,
+    "count": 1002985,
+    "year": 2019,
+    "city": "seoul"
+  },
+  {
+    "bucket": 1080,
+    "count": 786523,
+    "year": 2019,
+    "city": "seoul"
+  },
+  {
+    "bucket": 1260,
+    "count": 637735,
+    "year": 2019,
+    "city": "seoul"
+  },
+  {
+    "bucket": 1440,
+    "count": 528055,
+    "year": 2019,
+    "city": "seoul"
+  },
+  {
+    "bucket": 1620,
+    "count": 445824,
+    "year": 2019,
+    "city": "seoul"
+  },
+  {
+    "bucket": 1800,
+    "count": 386825,
+    "year": 2019,
+    "city": "seoul"
+  },
+  {
+    "bucket": 1980,
+    "count": 341800,
+    "year": 2019,
+    "city": "seoul"
+  },
+  {
+    "bucket": 2160,
+    "count": 308895,
+    "year": 2019,
+    "city": "seoul"
+  },
+  {
+    "bucket": 2340,
+    "count": 284250,
+    "year": 2019,
+    "city": "seoul"
+  },
+  {
+    "bucket": 2520,
+    "count": 269206,
+    "year": 2019,
+    "city": "seoul"
+  },
+  {
+    "bucket": 2700,
+    "count": 261176,
+    "year": 2019,
+    "city": "seoul"
+  },
+  {
+    "bucket": 2880,
+    "count": 253386,
+    "year": 2019,
+    "city": "seoul"
+  },
+  {
+    "bucket": 3060,
+    "count": 245934,
+    "year": 2019,
+    "city": "seoul"
+  },
+  {
+    "bucket": 3240,
+    "count": 230666,
+    "year": 2019,
+    "city": "seoul"
+  },
+  {
+    "bucket": 3420,
+    "count": 196651,
+    "year": 2019,
+    "city": "seoul"
+  },
+  {
+    "bucket": 3600,
+    "count": 134529,
+    "year": 2019,
+    "city": "seoul"
+  },
+  {
+    "bucket": 3780,
+    "count": 102281,
+    "year": 2019,
+    "city": "seoul"
+  },
+  {
+    "bucket": 3960,
+    "count": 89265,
+    "year": 2019,
+    "city": "seoul"
+  },
+  {
+    "bucket": 4140,
+    "count": 81238,
+    "year": 2019,
+    "city": "seoul"
+  },
+  {
+    "bucket": 4320,
+    "count": 75851,
+    "year": 2019,
+    "city": "seoul"
+  },
+  {
+    "bucket": 4500,
+    "count": 72493,
+    "year": 2019,
+    "city": "seoul"
+  },
+  {
+    "bucket": 4680,
+    "count": 68849,
+    "year": 2019,
+    "city": "seoul"
+  },
+  {
+    "bucket": 4860,
+    "count": 66112,
+    "year": 2019,
+    "city": "seoul"
+  },
+  {
+    "bucket": 5040,
+    "count": 63730,
+    "year": 2019,
+    "city": "seoul"
+  },
+  {
+    "bucket": 5220,
+    "count": 61908,
+    "year": 2019,
+    "city": "seoul"
+  },
+  {
+    "bucket": 5400,
+    "count": 60199,
+    "year": 2019,
+    "city": "seoul"
+  },
+  {
+    "bucket": 5580,
+    "count": 58356,
+    "year": 2019,
+    "city": "seoul"
+  },
+  {
+    "bucket": 5760,
+    "count": 57512,
+    "year": 2019,
+    "city": "seoul"
+  },
+  {
+    "bucket": 5940,
+    "count": 55651,
+    "year": 2019,
+    "city": "seoul"
+  },
+  {
+    "bucket": 6120,
+    "count": 54974,
+    "year": 2019,
+    "city": "seoul"
+  },
+  {
+    "bucket": 6300,
+    "count": 54628,
+    "year": 2019,
+    "city": "seoul"
+  },
+  {
+    "bucket": 6480,
+    "count": 53302,
+    "year": 2019,
+    "city": "seoul"
+  },
+  {
+    "bucket": 6660,
+    "count": 51820,
+    "year": 2019,
+    "city": "seoul"
+  },
+  {
+    "bucket": 6840,
+    "count": 49977,
+    "year": 2019,
+    "city": "seoul"
+  },
+  {
+    "bucket": 7020,
+    "count": 42725,
+    "year": 2019,
+    "city": "seoul"
+  },
+  {
+    "bucket": 7200,
+    "count": 169061,
+    "year": 2019,
+    "city": "seoul"
+  },
+  {
+    "bucket": 0,
+    "count": 324736,
+    "year": 2020,
+    "city": "seoul"
+  },
+  {
+    "bucket": 180,
+    "count": 1544943,
+    "year": 2020,
+    "city": "seoul"
+  },
+  {
+    "bucket": 360,
+    "count": 1763647,
+    "year": 2020,
+    "city": "seoul"
+  },
+  {
+    "bucket": 540,
+    "count": 1522330,
+    "year": 2020,
+    "city": "seoul"
+  },
+  {
+    "bucket": 720,
+    "count": 1213187,
+    "year": 2020,
+    "city": "seoul"
+  },
+  {
+    "bucket": 900,
+    "count": 982650,
+    "year": 2020,
+    "city": "seoul"
+  },
+  {
+    "bucket": 1080,
+    "count": 813786,
+    "year": 2020,
+    "city": "seoul"
+  },
+  {
+    "bucket": 1260,
+    "count": 646270,
+    "year": 2020,
+    "city": "seoul"
+  },
+  {
+    "bucket": 1440,
+    "count": 561776,
+    "year": 2020,
+    "city": "seoul"
+  },
+  {
+    "bucket": 1620,
+    "count": 489185,
+    "year": 2020,
+    "city": "seoul"
+  },
+  {
+    "bucket": 1800,
+    "count": 437072,
+    "year": 2020,
+    "city": "seoul"
+  },
+  {
+    "bucket": 1980,
+    "count": 396827,
+    "year": 2020,
+    "city": "seoul"
+  },
+  {
+    "bucket": 2160,
+    "count": 367850,
+    "year": 2020,
+    "city": "seoul"
+  },
+  {
+    "bucket": 2340,
+    "count": 353181,
+    "year": 2020,
+    "city": "seoul"
+  },
+  {
+    "bucket": 2520,
+    "count": 324312,
+    "year": 2020,
+    "city": "seoul"
+  },
+  {
+    "bucket": 2700,
+    "count": 322343,
+    "year": 2020,
+    "city": "seoul"
+  },
+  {
+    "bucket": 2880,
+    "count": 313854,
+    "year": 2020,
+    "city": "seoul"
+  },
+  {
+    "bucket": 3060,
+    "count": 311262,
+    "year": 2020,
+    "city": "seoul"
+  },
+  {
+    "bucket": 3240,
+    "count": 297279,
+    "year": 2020,
+    "city": "seoul"
+  },
+  {
+    "bucket": 3420,
+    "count": 251915,
+    "year": 2020,
+    "city": "seoul"
+  },
+  {
+    "bucket": 3600,
+    "count": 176349,
+    "year": 2020,
+    "city": "seoul"
+  },
+  {
+    "bucket": 3780,
+    "count": 136644,
+    "year": 2020,
+    "city": "seoul"
+  },
+  {
+    "bucket": 3960,
+    "count": 122094,
+    "year": 2020,
+    "city": "seoul"
+  },
+  {
+    "bucket": 4140,
+    "count": 112111,
+    "year": 2020,
+    "city": "seoul"
+  },
+  {
+    "bucket": 4320,
+    "count": 106095,
+    "year": 2020,
+    "city": "seoul"
+  },
+  {
+    "bucket": 4500,
+    "count": 99775,
+    "year": 2020,
+    "city": "seoul"
+  },
+  {
+    "bucket": 4680,
+    "count": 96022,
+    "year": 2020,
+    "city": "seoul"
+  },
+  {
+    "bucket": 4860,
+    "count": 94445,
+    "year": 2020,
+    "city": "seoul"
+  },
+  {
+    "bucket": 5040,
+    "count": 89309,
+    "year": 2020,
+    "city": "seoul"
+  },
+  {
+    "bucket": 5220,
+    "count": 88255,
+    "year": 2020,
+    "city": "seoul"
+  },
+  {
+    "bucket": 5400,
+    "count": 86482,
+    "year": 2020,
+    "city": "seoul"
+  },
+  {
+    "bucket": 5580,
+    "count": 85297,
+    "year": 2020,
+    "city": "seoul"
+  },
+  {
+    "bucket": 5760,
+    "count": 82308,
+    "year": 2020,
+    "city": "seoul"
+  },
+  {
+    "bucket": 5940,
+    "count": 81442,
+    "year": 2020,
+    "city": "seoul"
+  },
+  {
+    "bucket": 6120,
+    "count": 80001,
+    "year": 2020,
+    "city": "seoul"
+  },
+  {
+    "bucket": 6300,
+    "count": 77168,
+    "year": 2020,
+    "city": "seoul"
+  },
+  {
+    "bucket": 6480,
+    "count": 75574,
+    "year": 2020,
+    "city": "seoul"
+  },
+  {
+    "bucket": 6660,
+    "count": 74389,
+    "year": 2020,
+    "city": "seoul"
+  },
+  {
+    "bucket": 6840,
+    "count": 72890,
+    "year": 2020,
+    "city": "seoul"
+  },
+  {
+    "bucket": 7020,
+    "count": 60513,
+    "year": 2020,
+    "city": "seoul"
+  },
+  {
+    "bucket": 7200,
+    "count": 240338,
+    "year": 2020,
+    "city": "seoul"
+  },
+  {
+    "bucket": 0,
+    "count": 617978,
+    "year": 2021,
+    "city": "seoul"
+  },
+  {
+    "bucket": 180,
+    "count": 2643324,
+    "year": 2021,
+    "city": "seoul"
+  },
+  {
+    "bucket": 360,
+    "count": 2596672,
+    "year": 2021,
+    "city": "seoul"
+  },
+  {
+    "bucket": 540,
+    "count": 1996052,
+    "year": 2021,
+    "city": "seoul"
+  },
+  {
+    "bucket": 720,
+    "count": 1479065,
+    "year": 2021,
+    "city": "seoul"
+  },
+  {
+    "bucket": 900,
+    "count": 1110708,
+    "year": 2021,
+    "city": "seoul"
+  },
+  {
+    "bucket": 1080,
+    "count": 861064,
+    "year": 2021,
+    "city": "seoul"
+  },
+  {
+    "bucket": 1260,
+    "count": 693669,
+    "year": 2021,
+    "city": "seoul"
+  },
+  {
+    "bucket": 1440,
+    "count": 575349,
+    "year": 2021,
+    "city": "seoul"
+  },
+  {
+    "bucket": 1620,
+    "count": 492180,
+    "year": 2021,
+    "city": "seoul"
+  },
+  {
+    "bucket": 1800,
+    "count": 430600,
+    "year": 2021,
+    "city": "seoul"
+  },
+  {
+    "bucket": 1980,
+    "count": 388758,
+    "year": 2021,
+    "city": "seoul"
+  },
+  {
+    "bucket": 2160,
+    "count": 356392,
+    "year": 2021,
+    "city": "seoul"
+  },
+  {
+    "bucket": 2340,
+    "count": 330256,
+    "year": 2021,
+    "city": "seoul"
+  },
+  {
+    "bucket": 2520,
+    "count": 312447,
+    "year": 2021,
+    "city": "seoul"
+  },
+  {
+    "bucket": 2700,
+    "count": 297979,
+    "year": 2021,
+    "city": "seoul"
+  },
+  {
+    "bucket": 2880,
+    "count": 284932,
+    "year": 2021,
+    "city": "seoul"
+  },
+  {
+    "bucket": 3060,
+    "count": 279317,
+    "year": 2021,
+    "city": "seoul"
+  },
+  {
+    "bucket": 3240,
+    "count": 269103,
+    "year": 2021,
+    "city": "seoul"
+  },
+  {
+    "bucket": 3420,
+    "count": 230152,
+    "year": 2021,
+    "city": "seoul"
+  },
+  {
+    "bucket": 3600,
+    "count": 157536,
+    "year": 2021,
+    "city": "seoul"
+  },
+  {
+    "bucket": 3780,
+    "count": 123865,
+    "year": 2021,
+    "city": "seoul"
+  },
+  {
+    "bucket": 3960,
+    "count": 108384,
+    "year": 2021,
+    "city": "seoul"
+  },
+  {
+    "bucket": 4140,
+    "count": 98080,
+    "year": 2021,
+    "city": "seoul"
+  },
+  {
+    "bucket": 4320,
+    "count": 90892,
+    "year": 2021,
+    "city": "seoul"
+  },
+  {
+    "bucket": 4500,
+    "count": 85800,
+    "year": 2021,
+    "city": "seoul"
+  },
+  {
+    "bucket": 4680,
+    "count": 81333,
+    "year": 2021,
+    "city": "seoul"
+  },
+  {
+    "bucket": 4860,
+    "count": 77988,
+    "year": 2021,
+    "city": "seoul"
+  },
+  {
+    "bucket": 5040,
+    "count": 74670,
+    "year": 2021,
+    "city": "seoul"
+  },
+  {
+    "bucket": 5220,
+    "count": 72161,
+    "year": 2021,
+    "city": "seoul"
+  },
+  {
+    "bucket": 5400,
+    "count": 69638,
+    "year": 2021,
+    "city": "seoul"
+  },
+  {
+    "bucket": 5580,
+    "count": 67639,
+    "year": 2021,
+    "city": "seoul"
+  },
+  {
+    "bucket": 5760,
+    "count": 65436,
+    "year": 2021,
+    "city": "seoul"
+  },
+  {
+    "bucket": 5940,
+    "count": 63734,
+    "year": 2021,
+    "city": "seoul"
+  },
+  {
+    "bucket": 6120,
+    "count": 61407,
+    "year": 2021,
+    "city": "seoul"
+  },
+  {
+    "bucket": 6300,
+    "count": 58139,
+    "year": 2021,
+    "city": "seoul"
+  },
+  {
+    "bucket": 6480,
+    "count": 55146,
+    "year": 2021,
+    "city": "seoul"
+  },
+  {
+    "bucket": 6660,
+    "count": 55457,
+    "year": 2021,
+    "city": "seoul"
+  },
+  {
+    "bucket": 6840,
+    "count": 55812,
+    "year": 2021,
+    "city": "seoul"
+  },
+  {
+    "bucket": 7020,
+    "count": 47297,
+    "year": 2021,
+    "city": "seoul"
+  },
+  {
+    "bucket": 7200,
+    "count": 165164,
+    "year": 2021,
+    "city": "seoul"
+  },
+  {
+    "bucket": 0,
+    "count": 2364953,
+    "year": 2022,
+    "city": "seoul"
+  },
+  {
+    "bucket": 180,
+    "count": 6671236,
+    "year": 2022,
+    "city": "seoul"
+  },
+  {
+    "bucket": 360,
+    "count": 6299758,
+    "year": 2022,
+    "city": "seoul"
+  },
+  {
+    "bucket": 540,
+    "count": 4739819,
+    "year": 2022,
+    "city": "seoul"
+  },
+  {
+    "bucket": 720,
+    "count": 3442117,
+    "year": 2022,
+    "city": "seoul"
+  },
+  {
+    "bucket": 900,
+    "count": 2552008,
+    "year": 2022,
+    "city": "seoul"
+  },
+  {
+    "bucket": 1080,
+    "count": 1954566,
+    "year": 2022,
+    "city": "seoul"
+  },
+  {
+    "bucket": 1260,
+    "count": 1546183,
+    "year": 2022,
+    "city": "seoul"
+  },
+  {
+    "bucket": 1440,
+    "count": 1265448,
+    "year": 2022,
+    "city": "seoul"
+  },
+  {
+    "bucket": 1620,
+    "count": 1062178,
+    "year": 2022,
+    "city": "seoul"
+  },
+  {
+    "bucket": 1800,
+    "count": 915882,
+    "year": 2022,
+    "city": "seoul"
+  },
+  {
+    "bucket": 1980,
+    "count": 807342,
+    "year": 2022,
+    "city": "seoul"
+  },
+  {
+    "bucket": 2160,
+    "count": 728602,
+    "year": 2022,
+    "city": "seoul"
+  },
+  {
+    "bucket": 2340,
+    "count": 667569,
+    "year": 2022,
+    "city": "seoul"
+  },
+  {
+    "bucket": 2520,
+    "count": 620171,
+    "year": 2022,
+    "city": "seoul"
+  },
+  {
+    "bucket": 2700,
+    "count": 581597,
+    "year": 2022,
+    "city": "seoul"
+  },
+  {
+    "bucket": 2880,
+    "count": 548548,
+    "year": 2022,
+    "city": "seoul"
+  },
+  {
+    "bucket": 3060,
+    "count": 537924,
+    "year": 2022,
+    "city": "seoul"
+  },
+  {
+    "bucket": 3240,
+    "count": 526391,
+    "year": 2022,
+    "city": "seoul"
+  },
+  {
+    "bucket": 3420,
+    "count": 446872,
+    "year": 2022,
+    "city": "seoul"
+  },
+  {
+    "bucket": 3600,
+    "count": 303103,
+    "year": 2022,
+    "city": "seoul"
+  },
+  {
+    "bucket": 3780,
+    "count": 237788,
+    "year": 2022,
+    "city": "seoul"
+  },
+  {
+    "bucket": 3960,
+    "count": 207071,
+    "year": 2022,
+    "city": "seoul"
+  },
+  {
+    "bucket": 4140,
+    "count": 187291,
+    "year": 2022,
+    "city": "seoul"
+  },
+  {
+    "bucket": 4320,
+    "count": 173096,
+    "year": 2022,
+    "city": "seoul"
+  },
+  {
+    "bucket": 4500,
+    "count": 162808,
+    "year": 2022,
+    "city": "seoul"
+  },
+  {
+    "bucket": 4680,
+    "count": 153986,
+    "year": 2022,
+    "city": "seoul"
+  },
+  {
+    "bucket": 4860,
+    "count": 146130,
+    "year": 2022,
+    "city": "seoul"
+  },
+  {
+    "bucket": 5040,
+    "count": 139598,
+    "year": 2022,
+    "city": "seoul"
+  },
+  {
+    "bucket": 5220,
+    "count": 134143,
+    "year": 2022,
+    "city": "seoul"
+  },
+  {
+    "bucket": 5400,
+    "count": 129189,
+    "year": 2022,
+    "city": "seoul"
+  },
+  {
+    "bucket": 5580,
+    "count": 126141,
+    "year": 2022,
+    "city": "seoul"
+  },
+  {
+    "bucket": 5760,
+    "count": 123587,
+    "year": 2022,
+    "city": "seoul"
+  },
+  {
+    "bucket": 5940,
+    "count": 118123,
+    "year": 2022,
+    "city": "seoul"
+  },
+  {
+    "bucket": 6120,
+    "count": 111879,
+    "year": 2022,
+    "city": "seoul"
+  },
+  {
+    "bucket": 6300,
+    "count": 107986,
+    "year": 2022,
+    "city": "seoul"
+  },
+  {
+    "bucket": 6480,
+    "count": 102941,
+    "year": 2022,
+    "city": "seoul"
+  },
+  {
+    "bucket": 6660,
+    "count": 103447,
+    "year": 2022,
+    "city": "seoul"
+  },
+  {
+    "bucket": 6840,
+    "count": 108270,
+    "year": 2022,
+    "city": "seoul"
+  },
+  {
+    "bucket": 7020,
+    "count": 92048,
+    "year": 2022,
+    "city": "seoul"
+  },
+  {
+    "bucket": 7200,
+    "count": 343494,
+    "year": 2022,
+    "city": "seoul"
+  },
+  {
+    "bucket": 0,
+    "count": 3429202,
+    "year": 2023,
+    "city": "seoul"
+  },
+  {
+    "bucket": 180,
+    "count": 7996833,
+    "year": 2023,
+    "city": "seoul"
+  },
+  {
+    "bucket": 360,
+    "count": 7307053,
+    "year": 2023,
+    "city": "seoul"
+  },
+  {
+    "bucket": 540,
+    "count": 5356359,
+    "year": 2023,
+    "city": "seoul"
+  },
+  {
+    "bucket": 720,
+    "count": 3804515,
+    "year": 2023,
+    "city": "seoul"
+  },
+  {
+    "bucket": 900,
+    "count": 2751982,
+    "year": 2023,
+    "city": "seoul"
+  },
+  {
+    "bucket": 1080,
+    "count": 2074556,
+    "year": 2023,
+    "city": "seoul"
+  },
+  {
+    "bucket": 1260,
+    "count": 1612184,
+    "year": 2023,
+    "city": "seoul"
+  },
+  {
+    "bucket": 1440,
+    "count": 1300639,
+    "year": 2023,
+    "city": "seoul"
+  },
+  {
+    "bucket": 1620,
+    "count": 1080733,
+    "year": 2023,
+    "city": "seoul"
+  },
+  {
+    "bucket": 1800,
+    "count": 924909,
+    "year": 2023,
+    "city": "seoul"
+  },
+  {
+    "bucket": 1980,
+    "count": 812575,
+    "year": 2023,
+    "city": "seoul"
+  },
+  {
+    "bucket": 2160,
+    "count": 727700,
+    "year": 2023,
+    "city": "seoul"
+  },
+  {
+    "bucket": 2340,
+    "count": 661372,
+    "year": 2023,
+    "city": "seoul"
+  },
+  {
+    "bucket": 2520,
+    "count": 607793,
+    "year": 2023,
+    "city": "seoul"
+  },
+  {
+    "bucket": 2700,
+    "count": 566901,
+    "year": 2023,
+    "city": "seoul"
+  },
+  {
+    "bucket": 2880,
+    "count": 531346,
+    "year": 2023,
+    "city": "seoul"
+  },
+  {
+    "bucket": 3060,
+    "count": 521021,
+    "year": 2023,
+    "city": "seoul"
+  },
+  {
+    "bucket": 3240,
+    "count": 516885,
+    "year": 2023,
+    "city": "seoul"
+  },
+  {
+    "bucket": 3420,
+    "count": 436463,
+    "year": 2023,
+    "city": "seoul"
+  },
+  {
+    "bucket": 3600,
+    "count": 297220,
+    "year": 2023,
+    "city": "seoul"
+  },
+  {
+    "bucket": 3780,
+    "count": 233739,
+    "year": 2023,
+    "city": "seoul"
+  },
+  {
+    "bucket": 3960,
+    "count": 203769,
+    "year": 2023,
+    "city": "seoul"
+  },
+  {
+    "bucket": 4140,
+    "count": 185115,
+    "year": 2023,
+    "city": "seoul"
+  },
+  {
+    "bucket": 4320,
+    "count": 172190,
+    "year": 2023,
+    "city": "seoul"
+  },
+  {
+    "bucket": 4500,
+    "count": 162025,
+    "year": 2023,
+    "city": "seoul"
+  },
+  {
+    "bucket": 4680,
+    "count": 153498,
+    "year": 2023,
+    "city": "seoul"
+  },
+  {
+    "bucket": 4860,
+    "count": 147287,
+    "year": 2023,
+    "city": "seoul"
+  },
+  {
+    "bucket": 5040,
+    "count": 141186,
+    "year": 2023,
+    "city": "seoul"
+  },
+  {
+    "bucket": 5220,
+    "count": 135009,
+    "year": 2023,
+    "city": "seoul"
+  },
+  {
+    "bucket": 5400,
+    "count": 130416,
+    "year": 2023,
+    "city": "seoul"
+  },
+  {
+    "bucket": 5580,
+    "count": 129537,
+    "year": 2023,
+    "city": "seoul"
+  },
+  {
+    "bucket": 5760,
+    "count": 126639,
+    "year": 2023,
+    "city": "seoul"
+  },
+  {
+    "bucket": 5940,
+    "count": 120555,
+    "year": 2023,
+    "city": "seoul"
+  },
+  {
+    "bucket": 6120,
+    "count": 114696,
+    "year": 2023,
+    "city": "seoul"
+  },
+  {
+    "bucket": 6300,
+    "count": 111069,
+    "year": 2023,
+    "city": "seoul"
+  },
+  {
+    "bucket": 6480,
+    "count": 106144,
+    "year": 2023,
+    "city": "seoul"
+  },
+  {
+    "bucket": 6660,
+    "count": 110178,
+    "year": 2023,
+    "city": "seoul"
+  },
+  {
+    "bucket": 6840,
+    "count": 117370,
+    "year": 2023,
+    "city": "seoul"
+  },
+  {
+    "bucket": 7020,
+    "count": 99567,
+    "year": 2023,
+    "city": "seoul"
+  },
+  {
+    "bucket": 7200,
+    "count": 368816,
+    "year": 2023,
+    "city": "seoul"
+  },
+  {
+    "bucket": 0,
+    "count": 2751094,
+    "year": 2024,
+    "city": "seoul"
+  },
+  {
+    "bucket": 180,
+    "count": 8192050,
+    "year": 2024,
+    "city": "seoul"
+  },
+  {
+    "bucket": 360,
+    "count": 7219198,
+    "year": 2024,
+    "city": "seoul"
+  },
+  {
+    "bucket": 540,
+    "count": 5148234,
+    "year": 2024,
+    "city": "seoul"
+  },
+  {
+    "bucket": 720,
+    "count": 3612219,
+    "year": 2024,
+    "city": "seoul"
+  },
+  {
+    "bucket": 900,
+    "count": 2583084,
+    "year": 2024,
+    "city": "seoul"
+  },
+  {
+    "bucket": 1080,
+    "count": 1923659,
+    "year": 2024,
+    "city": "seoul"
+  },
+  {
+    "bucket": 1260,
+    "count": 1501080,
+    "year": 2024,
+    "city": "seoul"
+  },
+  {
+    "bucket": 1440,
+    "count": 1210543,
+    "year": 2024,
+    "city": "seoul"
+  },
+  {
+    "bucket": 1620,
+    "count": 1008089,
+    "year": 2024,
+    "city": "seoul"
+  },
+  {
+    "bucket": 1800,
+    "count": 863908,
+    "year": 2024,
+    "city": "seoul"
+  },
+  {
+    "bucket": 1980,
+    "count": 761346,
+    "year": 2024,
+    "city": "seoul"
+  },
+  {
+    "bucket": 2160,
+    "count": 684169,
+    "year": 2024,
+    "city": "seoul"
+  },
+  {
+    "bucket": 2340,
+    "count": 624301,
+    "year": 2024,
+    "city": "seoul"
+  },
+  {
+    "bucket": 2520,
+    "count": 575655,
+    "year": 2024,
+    "city": "seoul"
+  },
+  {
+    "bucket": 2700,
+    "count": 543259,
+    "year": 2024,
+    "city": "seoul"
+  },
+  {
+    "bucket": 2880,
+    "count": 509573,
+    "year": 2024,
+    "city": "seoul"
+  },
+  {
+    "bucket": 3060,
+    "count": 498854,
+    "year": 2024,
+    "city": "seoul"
+  },
+  {
+    "bucket": 3240,
+    "count": 494338,
+    "year": 2024,
+    "city": "seoul"
+  },
+  {
+    "bucket": 3420,
+    "count": 419701,
+    "year": 2024,
+    "city": "seoul"
+  },
+  {
+    "bucket": 3600,
+    "count": 292047,
+    "year": 2024,
+    "city": "seoul"
+  },
+  {
+    "bucket": 3780,
+    "count": 231932,
+    "year": 2024,
+    "city": "seoul"
+  },
+  {
+    "bucket": 3960,
+    "count": 205094,
+    "year": 2024,
+    "city": "seoul"
+  },
+  {
+    "bucket": 4140,
+    "count": 186642,
+    "year": 2024,
+    "city": "seoul"
+  },
+  {
+    "bucket": 4320,
+    "count": 172769,
+    "year": 2024,
+    "city": "seoul"
+  },
+  {
+    "bucket": 4500,
+    "count": 164513,
+    "year": 2024,
+    "city": "seoul"
+  },
+  {
+    "bucket": 4680,
+    "count": 156033,
+    "year": 2024,
+    "city": "seoul"
+  },
+  {
+    "bucket": 4860,
+    "count": 148922,
+    "year": 2024,
+    "city": "seoul"
+  },
+  {
+    "bucket": 5040,
+    "count": 143087,
+    "year": 2024,
+    "city": "seoul"
+  },
+  {
+    "bucket": 5220,
+    "count": 136780,
+    "year": 2024,
+    "city": "seoul"
+  },
+  {
+    "bucket": 5400,
+    "count": 132125,
+    "year": 2024,
+    "city": "seoul"
+  },
+  {
+    "bucket": 5580,
+    "count": 128589,
+    "year": 2024,
+    "city": "seoul"
+  },
+  {
+    "bucket": 5760,
+    "count": 127779,
+    "year": 2024,
+    "city": "seoul"
+  },
+  {
+    "bucket": 5940,
+    "count": 122404,
+    "year": 2024,
+    "city": "seoul"
+  },
+  {
+    "bucket": 6120,
+    "count": 116841,
+    "year": 2024,
+    "city": "seoul"
+  },
+  {
+    "bucket": 6300,
+    "count": 113452,
+    "year": 2024,
+    "city": "seoul"
+  },
+  {
+    "bucket": 6480,
+    "count": 108953,
+    "year": 2024,
+    "city": "seoul"
+  },
+  {
+    "bucket": 6660,
+    "count": 111967,
+    "year": 2024,
+    "city": "seoul"
+  },
+  {
+    "bucket": 6840,
+    "count": 121075,
+    "year": 2024,
+    "city": "seoul"
+  },
+  {
+    "bucket": 7020,
+    "count": 102647,
+    "year": 2024,
+    "city": "seoul"
+  },
+  {
+    "bucket": 7200,
+    "count": 394832,
+    "year": 2024,
+    "city": "seoul"
+  },
+  {
+    "bucket": 0,
+    "count": 853377,
+    "year": 2025,
+    "city": "seoul"
+  },
+  {
+    "bucket": 180,
+    "count": 3307144,
+    "year": 2025,
+    "city": "seoul"
+  },
+  {
+    "bucket": 360,
+    "count": 2872364,
+    "year": 2025,
+    "city": "seoul"
+  },
+  {
+    "bucket": 540,
+    "count": 2051764,
+    "year": 2025,
+    "city": "seoul"
+  },
+  {
+    "bucket": 720,
+    "count": 1444010,
+    "year": 2025,
+    "city": "seoul"
+  },
+  {
+    "bucket": 900,
+    "count": 1039255,
+    "year": 2025,
+    "city": "seoul"
+  },
+  {
+    "bucket": 1080,
+    "count": 777817,
+    "year": 2025,
+    "city": "seoul"
+  },
+  {
+    "bucket": 1260,
+    "count": 608187,
+    "year": 2025,
+    "city": "seoul"
+  },
+  {
+    "bucket": 1440,
+    "count": 491558,
+    "year": 2025,
+    "city": "seoul"
+  },
+  {
+    "bucket": 1620,
+    "count": 411614,
+    "year": 2025,
+    "city": "seoul"
+  },
+  {
+    "bucket": 1800,
+    "count": 352844,
+    "year": 2025,
+    "city": "seoul"
+  },
+  {
+    "bucket": 1980,
+    "count": 313107,
+    "year": 2025,
+    "city": "seoul"
+  },
+  {
+    "bucket": 2160,
+    "count": 280755,
+    "year": 2025,
+    "city": "seoul"
+  },
+  {
+    "bucket": 2340,
+    "count": 255771,
+    "year": 2025,
+    "city": "seoul"
+  },
+  {
+    "bucket": 2520,
+    "count": 236904,
+    "year": 2025,
+    "city": "seoul"
+  },
+  {
+    "bucket": 2700,
+    "count": 221447,
+    "year": 2025,
+    "city": "seoul"
+  },
+  {
+    "bucket": 2880,
+    "count": 208191,
+    "year": 2025,
+    "city": "seoul"
+  },
+  {
+    "bucket": 3060,
+    "count": 202298,
+    "year": 2025,
+    "city": "seoul"
+  },
+  {
+    "bucket": 3240,
+    "count": 199915,
+    "year": 2025,
+    "city": "seoul"
+  },
+  {
+    "bucket": 3420,
+    "count": 171936,
+    "year": 2025,
+    "city": "seoul"
+  },
+  {
+    "bucket": 3600,
+    "count": 122249,
+    "year": 2025,
+    "city": "seoul"
+  },
+  {
+    "bucket": 3780,
+    "count": 98201,
+    "year": 2025,
+    "city": "seoul"
+  },
+  {
+    "bucket": 3960,
+    "count": 88806,
+    "year": 2025,
+    "city": "seoul"
+  },
+  {
+    "bucket": 4140,
+    "count": 81979,
+    "year": 2025,
+    "city": "seoul"
+  },
+  {
+    "bucket": 4320,
+    "count": 74821,
+    "year": 2025,
+    "city": "seoul"
+  },
+  {
+    "bucket": 4500,
+    "count": 69626,
+    "year": 2025,
+    "city": "seoul"
+  },
+  {
+    "bucket": 4680,
+    "count": 65469,
+    "year": 2025,
+    "city": "seoul"
+  },
+  {
+    "bucket": 4860,
+    "count": 62456,
+    "year": 2025,
+    "city": "seoul"
+  },
+  {
+    "bucket": 5040,
+    "count": 59926,
+    "year": 2025,
+    "city": "seoul"
+  },
+  {
+    "bucket": 5220,
+    "count": 57105,
+    "year": 2025,
+    "city": "seoul"
+  },
+  {
+    "bucket": 5400,
+    "count": 54468,
+    "year": 2025,
+    "city": "seoul"
+  },
+  {
+    "bucket": 5580,
+    "count": 52512,
+    "year": 2025,
+    "city": "seoul"
+  },
+  {
+    "bucket": 5760,
+    "count": 50420,
+    "year": 2025,
+    "city": "seoul"
+  },
+  {
+    "bucket": 5940,
+    "count": 48770,
+    "year": 2025,
+    "city": "seoul"
+  },
+  {
+    "bucket": 6120,
+    "count": 47051,
+    "year": 2025,
+    "city": "seoul"
+  },
+  {
+    "bucket": 6300,
+    "count": 45992,
+    "year": 2025,
+    "city": "seoul"
+  },
+  {
+    "bucket": 6480,
+    "count": 44144,
+    "year": 2025,
+    "city": "seoul"
+  },
+  {
+    "bucket": 6660,
+    "count": 45873,
+    "year": 2025,
+    "city": "seoul"
+  },
+  {
+    "bucket": 6840,
+    "count": 49723,
+    "year": 2025,
+    "city": "seoul"
+  },
+  {
+    "bucket": 7020,
+    "count": 43802,
+    "year": 2025,
+    "city": "seoul"
+  },
+  {
+    "bucket": 7200,
+    "count": 161670,
+    "year": 2025,
+    "city": "seoul"
+  }
+]

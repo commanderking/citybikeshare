@@ -1,0 +1,3200 @@
+[
+  {
+    "bucket": 0,
+    "count": 3533,
+    "year": 2012,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 180,
+    "count": 1938,
+    "year": 2012,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 360,
+    "count": 1577,
+    "year": 2012,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 540,
+    "count": 1385,
+    "year": 2012,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 720,
+    "count": 996,
+    "year": 2012,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 900,
+    "count": 757,
+    "year": 2012,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 1080,
+    "count": 523,
+    "year": 2012,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 1260,
+    "count": 470,
+    "year": 2012,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 1440,
+    "count": 443,
+    "year": 2012,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 1620,
+    "count": 381,
+    "year": 2012,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 1800,
+    "count": 361,
+    "year": 2012,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 1980,
+    "count": 294,
+    "year": 2012,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 2160,
+    "count": 364,
+    "year": 2012,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 2340,
+    "count": 300,
+    "year": 2012,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 2520,
+    "count": 299,
+    "year": 2012,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 2700,
+    "count": 280,
+    "year": 2012,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 2880,
+    "count": 301,
+    "year": 2012,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 3060,
+    "count": 255,
+    "year": 2012,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 3240,
+    "count": 215,
+    "year": 2012,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 3420,
+    "count": 156,
+    "year": 2012,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 3600,
+    "count": 121,
+    "year": 2012,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 3780,
+    "count": 90,
+    "year": 2012,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 3960,
+    "count": 68,
+    "year": 2012,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 4140,
+    "count": 67,
+    "year": 2012,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 4320,
+    "count": 67,
+    "year": 2012,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 4500,
+    "count": 51,
+    "year": 2012,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 4680,
+    "count": 40,
+    "year": 2012,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 4860,
+    "count": 44,
+    "year": 2012,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 5040,
+    "count": 44,
+    "year": 2012,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 5220,
+    "count": 56,
+    "year": 2012,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 5400,
+    "count": 54,
+    "year": 2012,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 5580,
+    "count": 41,
+    "year": 2012,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 5760,
+    "count": 31,
+    "year": 2012,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 5940,
+    "count": 39,
+    "year": 2012,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 6120,
+    "count": 34,
+    "year": 2012,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 6300,
+    "count": 23,
+    "year": 2012,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 6480,
+    "count": 31,
+    "year": 2012,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 6660,
+    "count": 31,
+    "year": 2012,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 6840,
+    "count": 41,
+    "year": 2012,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 7020,
+    "count": 32,
+    "year": 2012,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 7200,
+    "count": 1521,
+    "year": 2012,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 0,
+    "count": 7677,
+    "year": 2013,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 180,
+    "count": 5449,
+    "year": 2013,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 360,
+    "count": 5233,
+    "year": 2013,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 540,
+    "count": 4540,
+    "year": 2013,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 720,
+    "count": 3423,
+    "year": 2013,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 900,
+    "count": 2570,
+    "year": 2013,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 1080,
+    "count": 2152,
+    "year": 2013,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 1260,
+    "count": 1913,
+    "year": 2013,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 1440,
+    "count": 1711,
+    "year": 2013,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 1620,
+    "count": 1623,
+    "year": 2013,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 1800,
+    "count": 1506,
+    "year": 2013,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 1980,
+    "count": 1391,
+    "year": 2013,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 2160,
+    "count": 1515,
+    "year": 2013,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 2340,
+    "count": 1552,
+    "year": 2013,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 2520,
+    "count": 1565,
+    "year": 2013,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 2700,
+    "count": 1462,
+    "year": 2013,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 2880,
+    "count": 1449,
+    "year": 2013,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 3060,
+    "count": 1283,
+    "year": 2013,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 3240,
+    "count": 1056,
+    "year": 2013,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 3420,
+    "count": 794,
+    "year": 2013,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 3600,
+    "count": 523,
+    "year": 2013,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 3780,
+    "count": 357,
+    "year": 2013,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 3960,
+    "count": 298,
+    "year": 2013,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 4140,
+    "count": 229,
+    "year": 2013,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 4320,
+    "count": 210,
+    "year": 2013,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 4500,
+    "count": 221,
+    "year": 2013,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 4680,
+    "count": 173,
+    "year": 2013,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 4860,
+    "count": 163,
+    "year": 2013,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 5040,
+    "count": 168,
+    "year": 2013,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 5220,
+    "count": 134,
+    "year": 2013,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 5400,
+    "count": 148,
+    "year": 2013,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 5580,
+    "count": 121,
+    "year": 2013,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 5760,
+    "count": 121,
+    "year": 2013,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 5940,
+    "count": 125,
+    "year": 2013,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 6120,
+    "count": 107,
+    "year": 2013,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 6300,
+    "count": 104,
+    "year": 2013,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 6480,
+    "count": 107,
+    "year": 2013,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 6660,
+    "count": 83,
+    "year": 2013,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 6840,
+    "count": 79,
+    "year": 2013,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 7020,
+    "count": 95,
+    "year": 2013,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 7200,
+    "count": 3548,
+    "year": 2013,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 0,
+    "count": 6761,
+    "year": 2014,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 180,
+    "count": 4365,
+    "year": 2014,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 360,
+    "count": 4832,
+    "year": 2014,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 540,
+    "count": 4278,
+    "year": 2014,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 720,
+    "count": 3472,
+    "year": 2014,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 900,
+    "count": 2851,
+    "year": 2014,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 1080,
+    "count": 2464,
+    "year": 2014,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 1260,
+    "count": 2099,
+    "year": 2014,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 1440,
+    "count": 1911,
+    "year": 2014,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 1620,
+    "count": 1864,
+    "year": 2014,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 1800,
+    "count": 1841,
+    "year": 2014,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 1980,
+    "count": 1999,
+    "year": 2014,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 2160,
+    "count": 2098,
+    "year": 2014,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 2340,
+    "count": 2029,
+    "year": 2014,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 2520,
+    "count": 2176,
+    "year": 2014,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 2700,
+    "count": 2038,
+    "year": 2014,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 2880,
+    "count": 2052,
+    "year": 2014,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 3060,
+    "count": 1944,
+    "year": 2014,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 3240,
+    "count": 1513,
+    "year": 2014,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 3420,
+    "count": 1036,
+    "year": 2014,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 3600,
+    "count": 671,
+    "year": 2014,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 3780,
+    "count": 523,
+    "year": 2014,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 3960,
+    "count": 411,
+    "year": 2014,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 4140,
+    "count": 336,
+    "year": 2014,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 4320,
+    "count": 322,
+    "year": 2014,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 4500,
+    "count": 260,
+    "year": 2014,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 4680,
+    "count": 236,
+    "year": 2014,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 4860,
+    "count": 208,
+    "year": 2014,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 5040,
+    "count": 181,
+    "year": 2014,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 5220,
+    "count": 167,
+    "year": 2014,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 5400,
+    "count": 135,
+    "year": 2014,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 5580,
+    "count": 137,
+    "year": 2014,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 5760,
+    "count": 127,
+    "year": 2014,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 5940,
+    "count": 139,
+    "year": 2014,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 6120,
+    "count": 121,
+    "year": 2014,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 6300,
+    "count": 85,
+    "year": 2014,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 6480,
+    "count": 102,
+    "year": 2014,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 6660,
+    "count": 89,
+    "year": 2014,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 6840,
+    "count": 90,
+    "year": 2014,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 7020,
+    "count": 78,
+    "year": 2014,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 7200,
+    "count": 2418,
+    "year": 2014,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 0,
+    "count": 6042,
+    "year": 2015,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 180,
+    "count": 5231,
+    "year": 2015,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 360,
+    "count": 5162,
+    "year": 2015,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 540,
+    "count": 4428,
+    "year": 2015,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 720,
+    "count": 3553,
+    "year": 2015,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 900,
+    "count": 2736,
+    "year": 2015,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 1080,
+    "count": 2426,
+    "year": 2015,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 1260,
+    "count": 2152,
+    "year": 2015,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 1440,
+    "count": 2025,
+    "year": 2015,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 1620,
+    "count": 1897,
+    "year": 2015,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 1800,
+    "count": 2009,
+    "year": 2015,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 1980,
+    "count": 2109,
+    "year": 2015,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 2160,
+    "count": 2017,
+    "year": 2015,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 2340,
+    "count": 2181,
+    "year": 2015,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 2520,
+    "count": 2286,
+    "year": 2015,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 2700,
+    "count": 2242,
+    "year": 2015,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 2880,
+    "count": 2147,
+    "year": 2015,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 3060,
+    "count": 1841,
+    "year": 2015,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 3240,
+    "count": 1588,
+    "year": 2015,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 3420,
+    "count": 1167,
+    "year": 2015,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 3600,
+    "count": 753,
+    "year": 2015,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 3780,
+    "count": 550,
+    "year": 2015,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 3960,
+    "count": 448,
+    "year": 2015,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 4140,
+    "count": 339,
+    "year": 2015,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 4320,
+    "count": 310,
+    "year": 2015,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 4500,
+    "count": 259,
+    "year": 2015,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 4680,
+    "count": 235,
+    "year": 2015,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 4860,
+    "count": 212,
+    "year": 2015,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 5040,
+    "count": 209,
+    "year": 2015,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 5220,
+    "count": 192,
+    "year": 2015,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 5400,
+    "count": 167,
+    "year": 2015,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 5580,
+    "count": 162,
+    "year": 2015,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 5760,
+    "count": 163,
+    "year": 2015,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 5940,
+    "count": 137,
+    "year": 2015,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 6120,
+    "count": 131,
+    "year": 2015,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 6300,
+    "count": 113,
+    "year": 2015,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 6480,
+    "count": 118,
+    "year": 2015,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 6660,
+    "count": 102,
+    "year": 2015,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 6840,
+    "count": 89,
+    "year": 2015,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 7020,
+    "count": 82,
+    "year": 2015,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 7200,
+    "count": 2492,
+    "year": 2015,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 0,
+    "count": 7936,
+    "year": 2016,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 180,
+    "count": 5010,
+    "year": 2016,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 360,
+    "count": 5182,
+    "year": 2016,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 540,
+    "count": 4525,
+    "year": 2016,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 720,
+    "count": 3543,
+    "year": 2016,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 900,
+    "count": 2998,
+    "year": 2016,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 1080,
+    "count": 2607,
+    "year": 2016,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 1260,
+    "count": 2262,
+    "year": 2016,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 1440,
+    "count": 2129,
+    "year": 2016,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 1620,
+    "count": 2055,
+    "year": 2016,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 1800,
+    "count": 1995,
+    "year": 2016,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 1980,
+    "count": 2068,
+    "year": 2016,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 2160,
+    "count": 2171,
+    "year": 2016,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 2340,
+    "count": 2304,
+    "year": 2016,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 2520,
+    "count": 2253,
+    "year": 2016,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 2700,
+    "count": 2222,
+    "year": 2016,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 2880,
+    "count": 2190,
+    "year": 2016,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 3060,
+    "count": 1890,
+    "year": 2016,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 3240,
+    "count": 1593,
+    "year": 2016,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 3420,
+    "count": 1114,
+    "year": 2016,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 3600,
+    "count": 761,
+    "year": 2016,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 3780,
+    "count": 495,
+    "year": 2016,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 3960,
+    "count": 408,
+    "year": 2016,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 4140,
+    "count": 341,
+    "year": 2016,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 4320,
+    "count": 330,
+    "year": 2016,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 4500,
+    "count": 298,
+    "year": 2016,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 4680,
+    "count": 281,
+    "year": 2016,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 4860,
+    "count": 249,
+    "year": 2016,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 5040,
+    "count": 238,
+    "year": 2016,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 5220,
+    "count": 188,
+    "year": 2016,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 5400,
+    "count": 152,
+    "year": 2016,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 5580,
+    "count": 147,
+    "year": 2016,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 5760,
+    "count": 119,
+    "year": 2016,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 5940,
+    "count": 137,
+    "year": 2016,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 6120,
+    "count": 111,
+    "year": 2016,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 6300,
+    "count": 111,
+    "year": 2016,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 6480,
+    "count": 122,
+    "year": 2016,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 6660,
+    "count": 83,
+    "year": 2016,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 6840,
+    "count": 79,
+    "year": 2016,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 7020,
+    "count": 77,
+    "year": 2016,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 7200,
+    "count": 2399,
+    "year": 2016,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 0,
+    "count": 12211,
+    "year": 2017,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 180,
+    "count": 3598,
+    "year": 2017,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 360,
+    "count": 4270,
+    "year": 2017,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 540,
+    "count": 3852,
+    "year": 2017,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 720,
+    "count": 3217,
+    "year": 2017,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 900,
+    "count": 2858,
+    "year": 2017,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 1080,
+    "count": 2616,
+    "year": 2017,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 1260,
+    "count": 2647,
+    "year": 2017,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 1440,
+    "count": 2630,
+    "year": 2017,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 1620,
+    "count": 2433,
+    "year": 2017,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 1800,
+    "count": 2438,
+    "year": 2017,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 1980,
+    "count": 2313,
+    "year": 2017,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 2160,
+    "count": 2309,
+    "year": 2017,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 2340,
+    "count": 2223,
+    "year": 2017,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 2520,
+    "count": 2064,
+    "year": 2017,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 2700,
+    "count": 2009,
+    "year": 2017,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 2880,
+    "count": 1982,
+    "year": 2017,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 3060,
+    "count": 1743,
+    "year": 2017,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 3240,
+    "count": 1438,
+    "year": 2017,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 3420,
+    "count": 1045,
+    "year": 2017,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 3600,
+    "count": 810,
+    "year": 2017,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 3780,
+    "count": 622,
+    "year": 2017,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 3960,
+    "count": 502,
+    "year": 2017,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 4140,
+    "count": 465,
+    "year": 2017,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 4320,
+    "count": 388,
+    "year": 2017,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 4500,
+    "count": 350,
+    "year": 2017,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 4680,
+    "count": 361,
+    "year": 2017,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 4860,
+    "count": 283,
+    "year": 2017,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 5040,
+    "count": 282,
+    "year": 2017,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 5220,
+    "count": 236,
+    "year": 2017,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 5400,
+    "count": 238,
+    "year": 2017,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 5580,
+    "count": 204,
+    "year": 2017,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 5760,
+    "count": 197,
+    "year": 2017,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 5940,
+    "count": 161,
+    "year": 2017,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 6120,
+    "count": 160,
+    "year": 2017,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 6300,
+    "count": 132,
+    "year": 2017,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 6480,
+    "count": 140,
+    "year": 2017,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 6660,
+    "count": 111,
+    "year": 2017,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 6840,
+    "count": 103,
+    "year": 2017,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 7020,
+    "count": 124,
+    "year": 2017,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 7200,
+    "count": 2912,
+    "year": 2017,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 0,
+    "count": 14262,
+    "year": 2018,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 180,
+    "count": 4224,
+    "year": 2018,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 360,
+    "count": 4420,
+    "year": 2018,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 540,
+    "count": 3751,
+    "year": 2018,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 720,
+    "count": 3216,
+    "year": 2018,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 900,
+    "count": 2886,
+    "year": 2018,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 1080,
+    "count": 2823,
+    "year": 2018,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 1260,
+    "count": 2499,
+    "year": 2018,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 1440,
+    "count": 2391,
+    "year": 2018,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 1620,
+    "count": 2258,
+    "year": 2018,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 1800,
+    "count": 2119,
+    "year": 2018,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 1980,
+    "count": 2119,
+    "year": 2018,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 2160,
+    "count": 2066,
+    "year": 2018,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 2340,
+    "count": 1997,
+    "year": 2018,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 2520,
+    "count": 1957,
+    "year": 2018,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 2700,
+    "count": 1916,
+    "year": 2018,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 2880,
+    "count": 1582,
+    "year": 2018,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 3060,
+    "count": 1438,
+    "year": 2018,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 3240,
+    "count": 1224,
+    "year": 2018,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 3420,
+    "count": 1021,
+    "year": 2018,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 3600,
+    "count": 718,
+    "year": 2018,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 3780,
+    "count": 581,
+    "year": 2018,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 3960,
+    "count": 466,
+    "year": 2018,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 4140,
+    "count": 368,
+    "year": 2018,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 4320,
+    "count": 372,
+    "year": 2018,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 4500,
+    "count": 356,
+    "year": 2018,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 4680,
+    "count": 322,
+    "year": 2018,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 4860,
+    "count": 271,
+    "year": 2018,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 5040,
+    "count": 245,
+    "year": 2018,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 5220,
+    "count": 216,
+    "year": 2018,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 5400,
+    "count": 220,
+    "year": 2018,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 5580,
+    "count": 183,
+    "year": 2018,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 5760,
+    "count": 189,
+    "year": 2018,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 5940,
+    "count": 145,
+    "year": 2018,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 6120,
+    "count": 133,
+    "year": 2018,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 6300,
+    "count": 142,
+    "year": 2018,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 6480,
+    "count": 128,
+    "year": 2018,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 6660,
+    "count": 98,
+    "year": 2018,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 6840,
+    "count": 127,
+    "year": 2018,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 7020,
+    "count": 112,
+    "year": 2018,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 7200,
+    "count": 2774,
+    "year": 2018,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 0,
+    "count": 17578,
+    "year": 2019,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 180,
+    "count": 6110,
+    "year": 2019,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 360,
+    "count": 6709,
+    "year": 2019,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 540,
+    "count": 5910,
+    "year": 2019,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 720,
+    "count": 5238,
+    "year": 2019,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 900,
+    "count": 4385,
+    "year": 2019,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 1080,
+    "count": 4000,
+    "year": 2019,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 1260,
+    "count": 3726,
+    "year": 2019,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 1440,
+    "count": 3407,
+    "year": 2019,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 1620,
+    "count": 3263,
+    "year": 2019,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 1800,
+    "count": 2978,
+    "year": 2019,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 1980,
+    "count": 2907,
+    "year": 2019,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 2160,
+    "count": 2697,
+    "year": 2019,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 2340,
+    "count": 2624,
+    "year": 2019,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 2520,
+    "count": 2539,
+    "year": 2019,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 2700,
+    "count": 2461,
+    "year": 2019,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 2880,
+    "count": 2278,
+    "year": 2019,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 3060,
+    "count": 1980,
+    "year": 2019,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 3240,
+    "count": 1634,
+    "year": 2019,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 3420,
+    "count": 1244,
+    "year": 2019,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 3600,
+    "count": 938,
+    "year": 2019,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 3780,
+    "count": 754,
+    "year": 2019,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 3960,
+    "count": 598,
+    "year": 2019,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 4140,
+    "count": 529,
+    "year": 2019,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 4320,
+    "count": 428,
+    "year": 2019,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 4500,
+    "count": 409,
+    "year": 2019,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 4680,
+    "count": 399,
+    "year": 2019,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 4860,
+    "count": 344,
+    "year": 2019,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 5040,
+    "count": 300,
+    "year": 2019,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 5220,
+    "count": 311,
+    "year": 2019,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 5400,
+    "count": 240,
+    "year": 2019,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 5580,
+    "count": 245,
+    "year": 2019,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 5760,
+    "count": 214,
+    "year": 2019,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 5940,
+    "count": 179,
+    "year": 2019,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 6120,
+    "count": 170,
+    "year": 2019,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 6300,
+    "count": 159,
+    "year": 2019,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 6480,
+    "count": 148,
+    "year": 2019,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 6660,
+    "count": 155,
+    "year": 2019,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 6840,
+    "count": 146,
+    "year": 2019,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 7020,
+    "count": 143,
+    "year": 2019,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 7200,
+    "count": 3760,
+    "year": 2019,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 0,
+    "count": 21653,
+    "year": 2020,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 180,
+    "count": 4382,
+    "year": 2020,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 360,
+    "count": 5844,
+    "year": 2020,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 540,
+    "count": 5793,
+    "year": 2020,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 720,
+    "count": 5282,
+    "year": 2020,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 900,
+    "count": 4722,
+    "year": 2020,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 1080,
+    "count": 4552,
+    "year": 2020,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 1260,
+    "count": 4406,
+    "year": 2020,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 1440,
+    "count": 4248,
+    "year": 2020,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 1620,
+    "count": 4179,
+    "year": 2020,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 1800,
+    "count": 4094,
+    "year": 2020,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 1980,
+    "count": 4053,
+    "year": 2020,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 2160,
+    "count": 4154,
+    "year": 2020,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 2340,
+    "count": 3918,
+    "year": 2020,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 2520,
+    "count": 3902,
+    "year": 2020,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 2700,
+    "count": 3697,
+    "year": 2020,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 2880,
+    "count": 3425,
+    "year": 2020,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 3060,
+    "count": 3172,
+    "year": 2020,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 3240,
+    "count": 2595,
+    "year": 2020,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 3420,
+    "count": 2024,
+    "year": 2020,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 3600,
+    "count": 1316,
+    "year": 2020,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 3780,
+    "count": 1053,
+    "year": 2020,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 3960,
+    "count": 865,
+    "year": 2020,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 4140,
+    "count": 713,
+    "year": 2020,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 4320,
+    "count": 629,
+    "year": 2020,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 4500,
+    "count": 486,
+    "year": 2020,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 4680,
+    "count": 487,
+    "year": 2020,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 4860,
+    "count": 452,
+    "year": 2020,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 5040,
+    "count": 470,
+    "year": 2020,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 5220,
+    "count": 345,
+    "year": 2020,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 5400,
+    "count": 373,
+    "year": 2020,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 5580,
+    "count": 302,
+    "year": 2020,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 5760,
+    "count": 303,
+    "year": 2020,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 5940,
+    "count": 256,
+    "year": 2020,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 6120,
+    "count": 231,
+    "year": 2020,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 6300,
+    "count": 194,
+    "year": 2020,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 6480,
+    "count": 199,
+    "year": 2020,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 6660,
+    "count": 192,
+    "year": 2020,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 6840,
+    "count": 160,
+    "year": 2020,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 7020,
+    "count": 150,
+    "year": 2020,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 7200,
+    "count": 4016,
+    "year": 2020,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 0,
+    "count": 23211,
+    "year": 2021,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 180,
+    "count": 5765,
+    "year": 2021,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 360,
+    "count": 7269,
+    "year": 2021,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 540,
+    "count": 7444,
+    "year": 2021,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 720,
+    "count": 6504,
+    "year": 2021,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 900,
+    "count": 5688,
+    "year": 2021,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 1080,
+    "count": 5320,
+    "year": 2021,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 1260,
+    "count": 4847,
+    "year": 2021,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 1440,
+    "count": 4777,
+    "year": 2021,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 1620,
+    "count": 4735,
+    "year": 2021,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 1800,
+    "count": 4437,
+    "year": 2021,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 1980,
+    "count": 4207,
+    "year": 2021,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 2160,
+    "count": 4202,
+    "year": 2021,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 2340,
+    "count": 3967,
+    "year": 2021,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 2520,
+    "count": 3853,
+    "year": 2021,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 2700,
+    "count": 3806,
+    "year": 2021,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 2880,
+    "count": 3491,
+    "year": 2021,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 3060,
+    "count": 3101,
+    "year": 2021,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 3240,
+    "count": 2644,
+    "year": 2021,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 3420,
+    "count": 2021,
+    "year": 2021,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 3600,
+    "count": 1427,
+    "year": 2021,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 3780,
+    "count": 1049,
+    "year": 2021,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 3960,
+    "count": 910,
+    "year": 2021,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 4140,
+    "count": 765,
+    "year": 2021,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 4320,
+    "count": 657,
+    "year": 2021,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 4500,
+    "count": 583,
+    "year": 2021,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 4680,
+    "count": 498,
+    "year": 2021,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 4860,
+    "count": 465,
+    "year": 2021,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 5040,
+    "count": 422,
+    "year": 2021,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 5220,
+    "count": 343,
+    "year": 2021,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 5400,
+    "count": 319,
+    "year": 2021,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 5580,
+    "count": 286,
+    "year": 2021,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 5760,
+    "count": 285,
+    "year": 2021,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 5940,
+    "count": 250,
+    "year": 2021,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 6120,
+    "count": 234,
+    "year": 2021,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 6300,
+    "count": 216,
+    "year": 2021,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 6480,
+    "count": 240,
+    "year": 2021,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 6660,
+    "count": 181,
+    "year": 2021,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 6840,
+    "count": 159,
+    "year": 2021,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 7020,
+    "count": 137,
+    "year": 2021,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 7200,
+    "count": 4193,
+    "year": 2021,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 0,
+    "count": 21036,
+    "year": 2022,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 180,
+    "count": 6335,
+    "year": 2022,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 360,
+    "count": 8056,
+    "year": 2022,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 540,
+    "count": 7279,
+    "year": 2022,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 720,
+    "count": 6268,
+    "year": 2022,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 900,
+    "count": 5250,
+    "year": 2022,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 1080,
+    "count": 4773,
+    "year": 2022,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 1260,
+    "count": 4302,
+    "year": 2022,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 1440,
+    "count": 4203,
+    "year": 2022,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 1620,
+    "count": 3975,
+    "year": 2022,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 1800,
+    "count": 3919,
+    "year": 2022,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 1980,
+    "count": 3736,
+    "year": 2022,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 2160,
+    "count": 3598,
+    "year": 2022,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 2340,
+    "count": 3468,
+    "year": 2022,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 2520,
+    "count": 3497,
+    "year": 2022,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 2700,
+    "count": 3273,
+    "year": 2022,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 2880,
+    "count": 3104,
+    "year": 2022,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 3060,
+    "count": 2775,
+    "year": 2022,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 3240,
+    "count": 2306,
+    "year": 2022,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 3420,
+    "count": 1707,
+    "year": 2022,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 3600,
+    "count": 1276,
+    "year": 2022,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 3780,
+    "count": 941,
+    "year": 2022,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 3960,
+    "count": 785,
+    "year": 2022,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 4140,
+    "count": 724,
+    "year": 2022,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 4320,
+    "count": 568,
+    "year": 2022,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 4500,
+    "count": 478,
+    "year": 2022,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 4680,
+    "count": 445,
+    "year": 2022,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 4860,
+    "count": 382,
+    "year": 2022,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 5040,
+    "count": 388,
+    "year": 2022,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 5220,
+    "count": 346,
+    "year": 2022,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 5400,
+    "count": 290,
+    "year": 2022,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 5580,
+    "count": 275,
+    "year": 2022,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 5760,
+    "count": 265,
+    "year": 2022,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 5940,
+    "count": 247,
+    "year": 2022,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 6120,
+    "count": 213,
+    "year": 2022,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 6300,
+    "count": 202,
+    "year": 2022,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 6480,
+    "count": 170,
+    "year": 2022,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 6660,
+    "count": 168,
+    "year": 2022,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 6840,
+    "count": 135,
+    "year": 2022,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 7020,
+    "count": 141,
+    "year": 2022,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 7200,
+    "count": 3903,
+    "year": 2022,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 0,
+    "count": 16107,
+    "year": 2023,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 180,
+    "count": 6850,
+    "year": 2023,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 360,
+    "count": 8483,
+    "year": 2023,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 540,
+    "count": 7610,
+    "year": 2023,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 720,
+    "count": 6297,
+    "year": 2023,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 900,
+    "count": 5463,
+    "year": 2023,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 1080,
+    "count": 4944,
+    "year": 2023,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 1260,
+    "count": 4407,
+    "year": 2023,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 1440,
+    "count": 4127,
+    "year": 2023,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 1620,
+    "count": 3995,
+    "year": 2023,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 1800,
+    "count": 3750,
+    "year": 2023,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 1980,
+    "count": 3673,
+    "year": 2023,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 2160,
+    "count": 3530,
+    "year": 2023,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 2340,
+    "count": 3368,
+    "year": 2023,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 2520,
+    "count": 3270,
+    "year": 2023,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 2700,
+    "count": 3138,
+    "year": 2023,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 2880,
+    "count": 2757,
+    "year": 2023,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 3060,
+    "count": 2592,
+    "year": 2023,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 3240,
+    "count": 2170,
+    "year": 2023,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 3420,
+    "count": 1726,
+    "year": 2023,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 3600,
+    "count": 1232,
+    "year": 2023,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 3780,
+    "count": 951,
+    "year": 2023,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 3960,
+    "count": 826,
+    "year": 2023,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 4140,
+    "count": 673,
+    "year": 2023,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 4320,
+    "count": 620,
+    "year": 2023,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 4500,
+    "count": 531,
+    "year": 2023,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 4680,
+    "count": 445,
+    "year": 2023,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 4860,
+    "count": 460,
+    "year": 2023,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 5040,
+    "count": 387,
+    "year": 2023,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 5220,
+    "count": 299,
+    "year": 2023,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 5400,
+    "count": 326,
+    "year": 2023,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 5580,
+    "count": 281,
+    "year": 2023,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 5760,
+    "count": 251,
+    "year": 2023,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 5940,
+    "count": 234,
+    "year": 2023,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 6120,
+    "count": 225,
+    "year": 2023,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 6300,
+    "count": 204,
+    "year": 2023,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 6480,
+    "count": 183,
+    "year": 2023,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 6660,
+    "count": 175,
+    "year": 2023,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 6840,
+    "count": 158,
+    "year": 2023,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 7020,
+    "count": 138,
+    "year": 2023,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 7200,
+    "count": 4511,
+    "year": 2023,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 0,
+    "count": 21246,
+    "year": 2024,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 180,
+    "count": 9457,
+    "year": 2024,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 360,
+    "count": 9938,
+    "year": 2024,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 540,
+    "count": 8424,
+    "year": 2024,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 720,
+    "count": 6522,
+    "year": 2024,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 900,
+    "count": 5551,
+    "year": 2024,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 1080,
+    "count": 4891,
+    "year": 2024,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 1260,
+    "count": 4664,
+    "year": 2024,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 1440,
+    "count": 4106,
+    "year": 2024,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 1620,
+    "count": 3783,
+    "year": 2024,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 1800,
+    "count": 3725,
+    "year": 2024,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 1980,
+    "count": 3437,
+    "year": 2024,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 2160,
+    "count": 3283,
+    "year": 2024,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 2340,
+    "count": 3159,
+    "year": 2024,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 2520,
+    "count": 3051,
+    "year": 2024,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 2700,
+    "count": 2766,
+    "year": 2024,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 2880,
+    "count": 2572,
+    "year": 2024,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 3060,
+    "count": 2327,
+    "year": 2024,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 3240,
+    "count": 2015,
+    "year": 2024,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 3420,
+    "count": 1635,
+    "year": 2024,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 3600,
+    "count": 1259,
+    "year": 2024,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 3780,
+    "count": 998,
+    "year": 2024,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 3960,
+    "count": 798,
+    "year": 2024,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 4140,
+    "count": 687,
+    "year": 2024,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 4320,
+    "count": 705,
+    "year": 2024,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 4500,
+    "count": 562,
+    "year": 2024,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 4680,
+    "count": 493,
+    "year": 2024,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 4860,
+    "count": 413,
+    "year": 2024,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 5040,
+    "count": 405,
+    "year": 2024,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 5220,
+    "count": 337,
+    "year": 2024,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 5400,
+    "count": 340,
+    "year": 2024,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 5580,
+    "count": 311,
+    "year": 2024,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 5760,
+    "count": 286,
+    "year": 2024,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 5940,
+    "count": 276,
+    "year": 2024,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 6120,
+    "count": 254,
+    "year": 2024,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 6300,
+    "count": 239,
+    "year": 2024,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 6480,
+    "count": 188,
+    "year": 2024,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 6660,
+    "count": 169,
+    "year": 2024,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 6840,
+    "count": 177,
+    "year": 2024,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 7020,
+    "count": 124,
+    "year": 2024,
+    "city": "chattanooga"
+  },
+  {
+    "bucket": 7200,
+    "count": 4502,
+    "year": 2024,
+    "city": "chattanooga"
+  }
+]
