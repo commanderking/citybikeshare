@@ -16,6 +16,11 @@ from src.citybikeshare.etl.transform import transform_city_data
 from src.citybikeshare.context import PipelineContext
 from src.citybikeshare.analysis.summarize import summarize_city
 from src.citybikeshare.analysis.merge_summaries import merge_city_summaries
+from src.citybikeshare.analysis.generate_duration_buckets import (
+    generate_duration_buckets,
+)
+
+from src.citybikeshare.analysis.merge_duration_buckets import merge_duration_buckets
 
 app = typer.Typer(help="Unified CLI for the CityBikeshare ETL pipeline")
 
@@ -98,21 +103,36 @@ def analyze(
     """
     context = build_context(city)
     summarize_city(context)
+    generate_duration_buckets(context)
 
 
 @app.command()
-def analyze_all():
+def analyze_all(
+    duration_buckets: bool = typer.Option(
+        False,
+        "--duration_buckets",
+        help="Only generate duration bucket analysis",
+    ),
+):
     for city_dir in (Path("output")).iterdir():
         if not city_dir.is_dir():
             continue
         context = build_context(city_dir.name)
-        summarize_city(context)
+
+        if duration_buckets:
+            # Only run duration buckets if flag passed
+            generate_duration_buckets(context)
+        else:
+            # Default: run both
+            summarize_city(context)
+            generate_duration_buckets(context)
 
 
 @app.command()
 def merge_summaries():
     analysis_folder = Path("analysis")
     merge_city_summaries(analysis_folder)
+    merge_duration_buckets(analysis_folder)
 
 
 # --------------------------------------------------

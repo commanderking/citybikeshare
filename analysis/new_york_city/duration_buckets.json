@@ -1,0 +1,3200 @@
+[
+  {
+    "bucket": 0,
+    "count": 364496,
+    "year": 2013,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 180,
+    "count": 1783978,
+    "year": 2013,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 360,
+    "count": 2177056,
+    "year": 2013,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 540,
+    "count": 1751574,
+    "year": 2013,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 720,
+    "count": 1286172,
+    "year": 2013,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 900,
+    "count": 949214,
+    "year": 2013,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 1080,
+    "count": 726562,
+    "year": 2013,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 1260,
+    "count": 575782,
+    "year": 2013,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 1440,
+    "count": 446138,
+    "year": 2013,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 1620,
+    "count": 327956,
+    "year": 2013,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 1800,
+    "count": 224206,
+    "year": 2013,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 1980,
+    "count": 153080,
+    "year": 2013,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 2160,
+    "count": 106496,
+    "year": 2013,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 2340,
+    "count": 73764,
+    "year": 2013,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 2520,
+    "count": 48752,
+    "year": 2013,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 2700,
+    "count": 32674,
+    "year": 2013,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 2880,
+    "count": 24404,
+    "year": 2013,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 3060,
+    "count": 18690,
+    "year": 2013,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 3240,
+    "count": 15376,
+    "year": 2013,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 3420,
+    "count": 12466,
+    "year": 2013,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 3600,
+    "count": 10258,
+    "year": 2013,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 3780,
+    "count": 8628,
+    "year": 2013,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 3960,
+    "count": 7606,
+    "year": 2013,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 4140,
+    "count": 6552,
+    "year": 2013,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 4320,
+    "count": 6030,
+    "year": 2013,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 4500,
+    "count": 5518,
+    "year": 2013,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 4680,
+    "count": 4890,
+    "year": 2013,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 4860,
+    "count": 4356,
+    "year": 2013,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 5040,
+    "count": 4054,
+    "year": 2013,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 5220,
+    "count": 3542,
+    "year": 2013,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 5400,
+    "count": 3310,
+    "year": 2013,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 5580,
+    "count": 2924,
+    "year": 2013,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 5760,
+    "count": 2730,
+    "year": 2013,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 5940,
+    "count": 2742,
+    "year": 2013,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 6120,
+    "count": 2342,
+    "year": 2013,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 6300,
+    "count": 2244,
+    "year": 2013,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 6480,
+    "count": 1904,
+    "year": 2013,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 6660,
+    "count": 1992,
+    "year": 2013,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 6840,
+    "count": 1800,
+    "year": 2013,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 7020,
+    "count": 1682,
+    "year": 2013,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 7200,
+    "count": 45836,
+    "year": 2013,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 0,
+    "count": 284138,
+    "year": 2014,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 180,
+    "count": 1438539,
+    "year": 2014,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 360,
+    "count": 1706357,
+    "year": 2014,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 540,
+    "count": 1306667,
+    "year": 2014,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 720,
+    "count": 909513,
+    "year": 2014,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 900,
+    "count": 637453,
+    "year": 2014,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 1080,
+    "count": 467324,
+    "year": 2014,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 1260,
+    "count": 354243,
+    "year": 2014,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 1440,
+    "count": 267663,
+    "year": 2014,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 1620,
+    "count": 195682,
+    "year": 2014,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 1800,
+    "count": 134750,
+    "year": 2014,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 1980,
+    "count": 93537,
+    "year": 2014,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 2160,
+    "count": 64883,
+    "year": 2014,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 2340,
+    "count": 45017,
+    "year": 2014,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 2520,
+    "count": 30508,
+    "year": 2014,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 2700,
+    "count": 20740,
+    "year": 2014,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 2880,
+    "count": 15233,
+    "year": 2014,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 3060,
+    "count": 11834,
+    "year": 2014,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 3240,
+    "count": 9901,
+    "year": 2014,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 3420,
+    "count": 8136,
+    "year": 2014,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 3600,
+    "count": 6665,
+    "year": 2014,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 3780,
+    "count": 5614,
+    "year": 2014,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 3960,
+    "count": 4736,
+    "year": 2014,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 4140,
+    "count": 4174,
+    "year": 2014,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 4320,
+    "count": 3768,
+    "year": 2014,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 4500,
+    "count": 3277,
+    "year": 2014,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 4680,
+    "count": 3083,
+    "year": 2014,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 4860,
+    "count": 2895,
+    "year": 2014,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 5040,
+    "count": 2477,
+    "year": 2014,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 5220,
+    "count": 2327,
+    "year": 2014,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 5400,
+    "count": 2044,
+    "year": 2014,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 5580,
+    "count": 1911,
+    "year": 2014,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 5760,
+    "count": 1748,
+    "year": 2014,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 5940,
+    "count": 1678,
+    "year": 2014,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 6120,
+    "count": 1472,
+    "year": 2014,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 6300,
+    "count": 1396,
+    "year": 2014,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 6480,
+    "count": 1340,
+    "year": 2014,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 6660,
+    "count": 1183,
+    "year": 2014,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 6840,
+    "count": 1127,
+    "year": 2014,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 7020,
+    "count": 1081,
+    "year": 2014,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 7200,
+    "count": 25102,
+    "year": 2014,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 0,
+    "count": 349125,
+    "year": 2015,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 180,
+    "count": 1723772,
+    "year": 2015,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 360,
+    "count": 1999616,
+    "year": 2015,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 540,
+    "count": 1569078,
+    "year": 2015,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 720,
+    "count": 1112527,
+    "year": 2015,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 900,
+    "count": 796542,
+    "year": 2015,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 1080,
+    "count": 597609,
+    "year": 2015,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 1260,
+    "count": 460813,
+    "year": 2015,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 1440,
+    "count": 354469,
+    "year": 2015,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 1620,
+    "count": 260016,
+    "year": 2015,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 1800,
+    "count": 179841,
+    "year": 2015,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 1980,
+    "count": 123887,
+    "year": 2015,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 2160,
+    "count": 85756,
+    "year": 2015,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 2340,
+    "count": 59454,
+    "year": 2015,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 2520,
+    "count": 41503,
+    "year": 2015,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 2700,
+    "count": 27916,
+    "year": 2015,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 2880,
+    "count": 21059,
+    "year": 2015,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 3060,
+    "count": 17047,
+    "year": 2015,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 3240,
+    "count": 13961,
+    "year": 2015,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 3420,
+    "count": 11914,
+    "year": 2015,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 3600,
+    "count": 9802,
+    "year": 2015,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 3780,
+    "count": 8185,
+    "year": 2015,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 3960,
+    "count": 7241,
+    "year": 2015,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 4140,
+    "count": 6511,
+    "year": 2015,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 4320,
+    "count": 5630,
+    "year": 2015,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 4500,
+    "count": 5200,
+    "year": 2015,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 4680,
+    "count": 4627,
+    "year": 2015,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 4860,
+    "count": 4163,
+    "year": 2015,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 5040,
+    "count": 3889,
+    "year": 2015,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 5220,
+    "count": 3525,
+    "year": 2015,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 5400,
+    "count": 3171,
+    "year": 2015,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 5580,
+    "count": 2993,
+    "year": 2015,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 5760,
+    "count": 2721,
+    "year": 2015,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 5940,
+    "count": 2486,
+    "year": 2015,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 6120,
+    "count": 2345,
+    "year": 2015,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 6300,
+    "count": 2257,
+    "year": 2015,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 6480,
+    "count": 2060,
+    "year": 2015,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 6660,
+    "count": 1948,
+    "year": 2015,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 6840,
+    "count": 1732,
+    "year": 2015,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 7020,
+    "count": 1747,
+    "year": 2015,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 7200,
+    "count": 49761,
+    "year": 2015,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 0,
+    "count": 587273,
+    "year": 2016,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 180,
+    "count": 2517110,
+    "year": 2016,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 360,
+    "count": 2686903,
+    "year": 2016,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 540,
+    "count": 2051252,
+    "year": 2016,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 720,
+    "count": 1481348,
+    "year": 2016,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 900,
+    "count": 1091891,
+    "year": 2016,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 1080,
+    "count": 840974,
+    "year": 2016,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 1260,
+    "count": 662234,
+    "year": 2016,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 1440,
+    "count": 515032,
+    "year": 2016,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 1620,
+    "count": 388256,
+    "year": 2016,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 1800,
+    "count": 273839,
+    "year": 2016,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 1980,
+    "count": 194434,
+    "year": 2016,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 2160,
+    "count": 139215,
+    "year": 2016,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 2340,
+    "count": 96780,
+    "year": 2016,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 2520,
+    "count": 64356,
+    "year": 2016,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 2700,
+    "count": 40128,
+    "year": 2016,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 2880,
+    "count": 27687,
+    "year": 2016,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 3060,
+    "count": 20749,
+    "year": 2016,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 3240,
+    "count": 16493,
+    "year": 2016,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 3420,
+    "count": 13349,
+    "year": 2016,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 3600,
+    "count": 10827,
+    "year": 2016,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 3780,
+    "count": 8995,
+    "year": 2016,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 3960,
+    "count": 7680,
+    "year": 2016,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 4140,
+    "count": 6722,
+    "year": 2016,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 4320,
+    "count": 5980,
+    "year": 2016,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 4500,
+    "count": 5103,
+    "year": 2016,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 4680,
+    "count": 4711,
+    "year": 2016,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 4860,
+    "count": 4166,
+    "year": 2016,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 5040,
+    "count": 3820,
+    "year": 2016,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 5220,
+    "count": 3537,
+    "year": 2016,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 5400,
+    "count": 3144,
+    "year": 2016,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 5580,
+    "count": 2930,
+    "year": 2016,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 5760,
+    "count": 2722,
+    "year": 2016,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 5940,
+    "count": 2452,
+    "year": 2016,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 6120,
+    "count": 2416,
+    "year": 2016,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 6300,
+    "count": 2077,
+    "year": 2016,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 6480,
+    "count": 2024,
+    "year": 2016,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 6660,
+    "count": 1934,
+    "year": 2016,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 6840,
+    "count": 1822,
+    "year": 2016,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 7020,
+    "count": 1626,
+    "year": 2016,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 7200,
+    "count": 51581,
+    "year": 2016,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 0,
+    "count": 789025,
+    "year": 2017,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 180,
+    "count": 3058350,
+    "year": 2017,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 360,
+    "count": 3161113,
+    "year": 2017,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 540,
+    "count": 2361188,
+    "year": 2017,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 720,
+    "count": 1681956,
+    "year": 2017,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 900,
+    "count": 1242518,
+    "year": 2017,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 1080,
+    "count": 963495,
+    "year": 2017,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 1260,
+    "count": 773188,
+    "year": 2017,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 1440,
+    "count": 615736,
+    "year": 2017,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 1620,
+    "count": 470480,
+    "year": 2017,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 1800,
+    "count": 335032,
+    "year": 2017,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 1980,
+    "count": 239436,
+    "year": 2017,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 2160,
+    "count": 173849,
+    "year": 2017,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 2340,
+    "count": 124388,
+    "year": 2017,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 2520,
+    "count": 83634,
+    "year": 2017,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 2700,
+    "count": 49160,
+    "year": 2017,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 2880,
+    "count": 32617,
+    "year": 2017,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 3060,
+    "count": 24215,
+    "year": 2017,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 3240,
+    "count": 19038,
+    "year": 2017,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 3420,
+    "count": 15207,
+    "year": 2017,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 3600,
+    "count": 12362,
+    "year": 2017,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 3780,
+    "count": 10239,
+    "year": 2017,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 3960,
+    "count": 8778,
+    "year": 2017,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 4140,
+    "count": 7730,
+    "year": 2017,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 4320,
+    "count": 6603,
+    "year": 2017,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 4500,
+    "count": 6005,
+    "year": 2017,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 4680,
+    "count": 5313,
+    "year": 2017,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 4860,
+    "count": 4838,
+    "year": 2017,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 5040,
+    "count": 4359,
+    "year": 2017,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 5220,
+    "count": 4071,
+    "year": 2017,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 5400,
+    "count": 3662,
+    "year": 2017,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 5580,
+    "count": 3463,
+    "year": 2017,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 5760,
+    "count": 3087,
+    "year": 2017,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 5940,
+    "count": 3039,
+    "year": 2017,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 6120,
+    "count": 2748,
+    "year": 2017,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 6300,
+    "count": 2606,
+    "year": 2017,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 6480,
+    "count": 2406,
+    "year": 2017,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 6660,
+    "count": 2179,
+    "year": 2017,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 6840,
+    "count": 2109,
+    "year": 2017,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 7020,
+    "count": 1912,
+    "year": 2017,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 7200,
+    "count": 53474,
+    "year": 2017,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 0,
+    "count": 1972818,
+    "year": 2018,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 180,
+    "count": 6830200,
+    "year": 2018,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 360,
+    "count": 6728926,
+    "year": 2018,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 540,
+    "count": 4948094,
+    "year": 2018,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 720,
+    "count": 3504626,
+    "year": 2018,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 900,
+    "count": 2575420,
+    "year": 2018,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 1080,
+    "count": 1974680,
+    "year": 2018,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 1260,
+    "count": 1563950,
+    "year": 2018,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 1440,
+    "count": 1265306,
+    "year": 2018,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 1620,
+    "count": 982062,
+    "year": 2018,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 1800,
+    "count": 703346,
+    "year": 2018,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 1980,
+    "count": 515118,
+    "year": 2018,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 2160,
+    "count": 383644,
+    "year": 2018,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 2340,
+    "count": 283288,
+    "year": 2018,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 2520,
+    "count": 199380,
+    "year": 2018,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 2700,
+    "count": 113374,
+    "year": 2018,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 2880,
+    "count": 77034,
+    "year": 2018,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 3060,
+    "count": 58110,
+    "year": 2018,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 3240,
+    "count": 46722,
+    "year": 2018,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 3420,
+    "count": 37662,
+    "year": 2018,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 3600,
+    "count": 29432,
+    "year": 2018,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 3780,
+    "count": 24440,
+    "year": 2018,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 3960,
+    "count": 21488,
+    "year": 2018,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 4140,
+    "count": 18052,
+    "year": 2018,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 4320,
+    "count": 16186,
+    "year": 2018,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 4500,
+    "count": 14060,
+    "year": 2018,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 4680,
+    "count": 12940,
+    "year": 2018,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 4860,
+    "count": 11724,
+    "year": 2018,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 5040,
+    "count": 10838,
+    "year": 2018,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 5220,
+    "count": 9994,
+    "year": 2018,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 5400,
+    "count": 8534,
+    "year": 2018,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 5580,
+    "count": 7570,
+    "year": 2018,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 5760,
+    "count": 7048,
+    "year": 2018,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 5940,
+    "count": 6520,
+    "year": 2018,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 6120,
+    "count": 6148,
+    "year": 2018,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 6300,
+    "count": 5542,
+    "year": 2018,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 6480,
+    "count": 5128,
+    "year": 2018,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 6660,
+    "count": 4884,
+    "year": 2018,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 6840,
+    "count": 4546,
+    "year": 2018,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 7020,
+    "count": 4330,
+    "year": 2018,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 7200,
+    "count": 103514,
+    "year": 2018,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 0,
+    "count": 1142997,
+    "year": 2019,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 180,
+    "count": 3917486,
+    "year": 2019,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 360,
+    "count": 3876707,
+    "year": 2019,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 540,
+    "count": 2886912,
+    "year": 2019,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 720,
+    "count": 2071329,
+    "year": 2019,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 900,
+    "count": 1520594,
+    "year": 2019,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 1080,
+    "count": 1165786,
+    "year": 2019,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 1260,
+    "count": 935079,
+    "year": 2019,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 1440,
+    "count": 757518,
+    "year": 2019,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 1620,
+    "count": 601435,
+    "year": 2019,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 1800,
+    "count": 422997,
+    "year": 2019,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 1980,
+    "count": 308361,
+    "year": 2019,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 2160,
+    "count": 235470,
+    "year": 2019,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 2340,
+    "count": 177404,
+    "year": 2019,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 2520,
+    "count": 126122,
+    "year": 2019,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 2700,
+    "count": 71256,
+    "year": 2019,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 2880,
+    "count": 48598,
+    "year": 2019,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 3060,
+    "count": 37282,
+    "year": 2019,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 3240,
+    "count": 30377,
+    "year": 2019,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 3420,
+    "count": 24859,
+    "year": 2019,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 3600,
+    "count": 18794,
+    "year": 2019,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 3780,
+    "count": 15366,
+    "year": 2019,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 3960,
+    "count": 12990,
+    "year": 2019,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 4140,
+    "count": 11472,
+    "year": 2019,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 4320,
+    "count": 9875,
+    "year": 2019,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 4500,
+    "count": 8574,
+    "year": 2019,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 4680,
+    "count": 7696,
+    "year": 2019,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 4860,
+    "count": 6825,
+    "year": 2019,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 5040,
+    "count": 6237,
+    "year": 2019,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 5220,
+    "count": 5633,
+    "year": 2019,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 5400,
+    "count": 4716,
+    "year": 2019,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 5580,
+    "count": 4497,
+    "year": 2019,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 5760,
+    "count": 3918,
+    "year": 2019,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 5940,
+    "count": 3699,
+    "year": 2019,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 6120,
+    "count": 3381,
+    "year": 2019,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 6300,
+    "count": 3096,
+    "year": 2019,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 6480,
+    "count": 2930,
+    "year": 2019,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 6660,
+    "count": 2545,
+    "year": 2019,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 6840,
+    "count": 2481,
+    "year": 2019,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 7020,
+    "count": 2143,
+    "year": 2019,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 7200,
+    "count": 56791,
+    "year": 2019,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 0,
+    "count": 977664,
+    "year": 2020,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 180,
+    "count": 2810362,
+    "year": 2020,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 360,
+    "count": 2906226,
+    "year": 2020,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 540,
+    "count": 2383598,
+    "year": 2020,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 720,
+    "count": 1895223,
+    "year": 2020,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 900,
+    "count": 1532204,
+    "year": 2020,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 1080,
+    "count": 1268045,
+    "year": 2020,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 1260,
+    "count": 1073113,
+    "year": 2020,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 1440,
+    "count": 923650,
+    "year": 2020,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 1620,
+    "count": 785260,
+    "year": 2020,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 1800,
+    "count": 617026,
+    "year": 2020,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 1980,
+    "count": 486187,
+    "year": 2020,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 2160,
+    "count": 389791,
+    "year": 2020,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 2340,
+    "count": 313438,
+    "year": 2020,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 2520,
+    "count": 242280,
+    "year": 2020,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 2700,
+    "count": 161232,
+    "year": 2020,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 2880,
+    "count": 114268,
+    "year": 2020,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 3060,
+    "count": 87460,
+    "year": 2020,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 3240,
+    "count": 69094,
+    "year": 2020,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 3420,
+    "count": 55535,
+    "year": 2020,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 3600,
+    "count": 45642,
+    "year": 2020,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 3780,
+    "count": 38744,
+    "year": 2020,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 3960,
+    "count": 32167,
+    "year": 2020,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 4140,
+    "count": 27905,
+    "year": 2020,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 4320,
+    "count": 24187,
+    "year": 2020,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 4500,
+    "count": 20826,
+    "year": 2020,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 4680,
+    "count": 18781,
+    "year": 2020,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 4860,
+    "count": 16548,
+    "year": 2020,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 5040,
+    "count": 14829,
+    "year": 2020,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 5220,
+    "count": 13030,
+    "year": 2020,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 5400,
+    "count": 11974,
+    "year": 2020,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 5580,
+    "count": 10743,
+    "year": 2020,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 5760,
+    "count": 9707,
+    "year": 2020,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 5940,
+    "count": 9049,
+    "year": 2020,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 6120,
+    "count": 8075,
+    "year": 2020,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 6300,
+    "count": 7431,
+    "year": 2020,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 6480,
+    "count": 6850,
+    "year": 2020,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 6660,
+    "count": 6416,
+    "year": 2020,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 6840,
+    "count": 6009,
+    "year": 2020,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 7020,
+    "count": 5455,
+    "year": 2020,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 7200,
+    "count": 136768,
+    "year": 2020,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 0,
+    "count": 1630044,
+    "year": 2021,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 180,
+    "count": 4607019,
+    "year": 2021,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 360,
+    "count": 4665213,
+    "year": 2021,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 540,
+    "count": 3721464,
+    "year": 2021,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 720,
+    "count": 2803501,
+    "year": 2021,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 900,
+    "count": 2100554,
+    "year": 2021,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 1080,
+    "count": 1598313,
+    "year": 2021,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 1260,
+    "count": 1239838,
+    "year": 2021,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 1440,
+    "count": 978662,
+    "year": 2021,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 1620,
+    "count": 776779,
+    "year": 2021,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 1800,
+    "count": 597948,
+    "year": 2021,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 1980,
+    "count": 462144,
+    "year": 2021,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 2160,
+    "count": 363489,
+    "year": 2021,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 2340,
+    "count": 288025,
+    "year": 2021,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 2520,
+    "count": 222945,
+    "year": 2021,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 2700,
+    "count": 163354,
+    "year": 2021,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 2880,
+    "count": 122865,
+    "year": 2021,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 3060,
+    "count": 96897,
+    "year": 2021,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 3240,
+    "count": 78446,
+    "year": 2021,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 3420,
+    "count": 64814,
+    "year": 2021,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 3600,
+    "count": 53243,
+    "year": 2021,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 3780,
+    "count": 44976,
+    "year": 2021,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 3960,
+    "count": 38475,
+    "year": 2021,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 4140,
+    "count": 32913,
+    "year": 2021,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 4320,
+    "count": 28822,
+    "year": 2021,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 4500,
+    "count": 25229,
+    "year": 2021,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 4680,
+    "count": 22029,
+    "year": 2021,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 4860,
+    "count": 19611,
+    "year": 2021,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 5040,
+    "count": 17554,
+    "year": 2021,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 5220,
+    "count": 15725,
+    "year": 2021,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 5400,
+    "count": 13979,
+    "year": 2021,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 5580,
+    "count": 12719,
+    "year": 2021,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 5760,
+    "count": 11511,
+    "year": 2021,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 5940,
+    "count": 10326,
+    "year": 2021,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 6120,
+    "count": 9333,
+    "year": 2021,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 6300,
+    "count": 8676,
+    "year": 2021,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 6480,
+    "count": 7750,
+    "year": 2021,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 6660,
+    "count": 7089,
+    "year": 2021,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 6840,
+    "count": 6559,
+    "year": 2021,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 7020,
+    "count": 5993,
+    "year": 2021,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 7200,
+    "count": 154649,
+    "year": 2021,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 0,
+    "count": 2215840,
+    "year": 2022,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 180,
+    "count": 5624867,
+    "year": 2022,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 360,
+    "count": 5337109,
+    "year": 2022,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 540,
+    "count": 4077993,
+    "year": 2022,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 720,
+    "count": 2958560,
+    "year": 2022,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 900,
+    "count": 2159466,
+    "year": 2022,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 1080,
+    "count": 1609875,
+    "year": 2022,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 1260,
+    "count": 1227597,
+    "year": 2022,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 1440,
+    "count": 953924,
+    "year": 2022,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 1620,
+    "count": 742036,
+    "year": 2022,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 1800,
+    "count": 568461,
+    "year": 2022,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 1980,
+    "count": 439329,
+    "year": 2022,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 2160,
+    "count": 344395,
+    "year": 2022,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 2340,
+    "count": 275369,
+    "year": 2022,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 2520,
+    "count": 218179,
+    "year": 2022,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 2700,
+    "count": 161640,
+    "year": 2022,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 2880,
+    "count": 121328,
+    "year": 2022,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 3060,
+    "count": 96128,
+    "year": 2022,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 3240,
+    "count": 78176,
+    "year": 2022,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 3420,
+    "count": 64778,
+    "year": 2022,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 3600,
+    "count": 58762,
+    "year": 2022,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 3780,
+    "count": 45246,
+    "year": 2022,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 3960,
+    "count": 38813,
+    "year": 2022,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 4140,
+    "count": 33234,
+    "year": 2022,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 4320,
+    "count": 28871,
+    "year": 2022,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 4500,
+    "count": 25360,
+    "year": 2022,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 4680,
+    "count": 22025,
+    "year": 2022,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 4860,
+    "count": 19414,
+    "year": 2022,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 5040,
+    "count": 17061,
+    "year": 2022,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 5220,
+    "count": 15215,
+    "year": 2022,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 5400,
+    "count": 13481,
+    "year": 2022,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 5580,
+    "count": 12134,
+    "year": 2022,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 5760,
+    "count": 10962,
+    "year": 2022,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 5940,
+    "count": 9738,
+    "year": 2022,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 6120,
+    "count": 8921,
+    "year": 2022,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 6300,
+    "count": 8146,
+    "year": 2022,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 6480,
+    "count": 7506,
+    "year": 2022,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 6660,
+    "count": 6832,
+    "year": 2022,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 6840,
+    "count": 6166,
+    "year": 2022,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 7020,
+    "count": 5670,
+    "year": 2022,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 7200,
+    "count": 169478,
+    "year": 2022,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 0,
+    "count": 3110855,
+    "year": 2023,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 180,
+    "count": 7302480,
+    "year": 2023,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 360,
+    "count": 6487797,
+    "year": 2023,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 540,
+    "count": 4757078,
+    "year": 2023,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 720,
+    "count": 3352596,
+    "year": 2023,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 900,
+    "count": 2389023,
+    "year": 2023,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 1080,
+    "count": 1742774,
+    "year": 2023,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 1260,
+    "count": 1296572,
+    "year": 2023,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 1440,
+    "count": 983592,
+    "year": 2023,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 1620,
+    "count": 755542,
+    "year": 2023,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 1800,
+    "count": 576191,
+    "year": 2023,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 1980,
+    "count": 443115,
+    "year": 2023,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 2160,
+    "count": 349887,
+    "year": 2023,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 2340,
+    "count": 279540,
+    "year": 2023,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 2520,
+    "count": 222051,
+    "year": 2023,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 2700,
+    "count": 161418,
+    "year": 2023,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 2880,
+    "count": 119952,
+    "year": 2023,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 3060,
+    "count": 94077,
+    "year": 2023,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 3240,
+    "count": 76324,
+    "year": 2023,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 3420,
+    "count": 63152,
+    "year": 2023,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 3600,
+    "count": 61184,
+    "year": 2023,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 3780,
+    "count": 49968,
+    "year": 2023,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 3960,
+    "count": 42812,
+    "year": 2023,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 4140,
+    "count": 35838,
+    "year": 2023,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 4320,
+    "count": 30649,
+    "year": 2023,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 4500,
+    "count": 25774,
+    "year": 2023,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 4680,
+    "count": 22138,
+    "year": 2023,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 4860,
+    "count": 19513,
+    "year": 2023,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 5040,
+    "count": 17271,
+    "year": 2023,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 5220,
+    "count": 14911,
+    "year": 2023,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 5400,
+    "count": 13436,
+    "year": 2023,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 5580,
+    "count": 11843,
+    "year": 2023,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 5760,
+    "count": 10424,
+    "year": 2023,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 5940,
+    "count": 9427,
+    "year": 2023,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 6120,
+    "count": 8493,
+    "year": 2023,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 6300,
+    "count": 7796,
+    "year": 2023,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 6480,
+    "count": 6907,
+    "year": 2023,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 6660,
+    "count": 6229,
+    "year": 2023,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 6840,
+    "count": 5746,
+    "year": 2023,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 7020,
+    "count": 5314,
+    "year": 2023,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 7200,
+    "count": 137517,
+    "year": 2023,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 0,
+    "count": 4736427,
+    "year": 2024,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 180,
+    "count": 12058669,
+    "year": 2024,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 360,
+    "count": 10419948,
+    "year": 2024,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 540,
+    "count": 7439909,
+    "year": 2024,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 720,
+    "count": 5200723,
+    "year": 2024,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 900,
+    "count": 3665304,
+    "year": 2024,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 1080,
+    "count": 2636094,
+    "year": 2024,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 1260,
+    "count": 1917859,
+    "year": 2024,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 1440,
+    "count": 1422380,
+    "year": 2024,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 1620,
+    "count": 1060811,
+    "year": 2024,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 1800,
+    "count": 776480,
+    "year": 2024,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 1980,
+    "count": 578007,
+    "year": 2024,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 2160,
+    "count": 439724,
+    "year": 2024,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 2340,
+    "count": 337171,
+    "year": 2024,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 2520,
+    "count": 258853,
+    "year": 2024,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 2700,
+    "count": 191806,
+    "year": 2024,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 2880,
+    "count": 146777,
+    "year": 2024,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 3060,
+    "count": 114954,
+    "year": 2024,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 3240,
+    "count": 93951,
+    "year": 2024,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 3420,
+    "count": 77347,
+    "year": 2024,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 3600,
+    "count": 72196,
+    "year": 2024,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 3780,
+    "count": 58735,
+    "year": 2024,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 3960,
+    "count": 49879,
+    "year": 2024,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 4140,
+    "count": 41970,
+    "year": 2024,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 4320,
+    "count": 35238,
+    "year": 2024,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 4500,
+    "count": 29464,
+    "year": 2024,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 4680,
+    "count": 26089,
+    "year": 2024,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 4860,
+    "count": 22613,
+    "year": 2024,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 5040,
+    "count": 19645,
+    "year": 2024,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 5220,
+    "count": 17281,
+    "year": 2024,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 5400,
+    "count": 15369,
+    "year": 2024,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 5580,
+    "count": 13839,
+    "year": 2024,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 5760,
+    "count": 12013,
+    "year": 2024,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 5940,
+    "count": 10780,
+    "year": 2024,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 6120,
+    "count": 9840,
+    "year": 2024,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 6300,
+    "count": 8712,
+    "year": 2024,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 6480,
+    "count": 7969,
+    "year": 2024,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 6660,
+    "count": 7492,
+    "year": 2024,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 6840,
+    "count": 6604,
+    "year": 2024,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 7020,
+    "count": 6054,
+    "year": 2024,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 7200,
+    "count": 147245,
+    "year": 2024,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 0,
+    "count": 2966870,
+    "year": 2025,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 180,
+    "count": 7986539,
+    "year": 2025,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 360,
+    "count": 6896211,
+    "year": 2025,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 540,
+    "count": 4919286,
+    "year": 2025,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 720,
+    "count": 3424940,
+    "year": 2025,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 900,
+    "count": 2417325,
+    "year": 2025,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 1080,
+    "count": 1730197,
+    "year": 2025,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 1260,
+    "count": 1258262,
+    "year": 2025,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 1440,
+    "count": 929624,
+    "year": 2025,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 1620,
+    "count": 693496,
+    "year": 2025,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 1800,
+    "count": 507603,
+    "year": 2025,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 1980,
+    "count": 376787,
+    "year": 2025,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 2160,
+    "count": 283060,
+    "year": 2025,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 2340,
+    "count": 216343,
+    "year": 2025,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 2520,
+    "count": 167251,
+    "year": 2025,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 2700,
+    "count": 124442,
+    "year": 2025,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 2880,
+    "count": 94761,
+    "year": 2025,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 3060,
+    "count": 75127,
+    "year": 2025,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 3240,
+    "count": 60817,
+    "year": 2025,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 3420,
+    "count": 50163,
+    "year": 2025,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 3600,
+    "count": 40591,
+    "year": 2025,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 3780,
+    "count": 34813,
+    "year": 2025,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 3960,
+    "count": 29317,
+    "year": 2025,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 4140,
+    "count": 24725,
+    "year": 2025,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 4320,
+    "count": 20809,
+    "year": 2025,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 4500,
+    "count": 17656,
+    "year": 2025,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 4680,
+    "count": 15128,
+    "year": 2025,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 4860,
+    "count": 13100,
+    "year": 2025,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 5040,
+    "count": 11674,
+    "year": 2025,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 5220,
+    "count": 10127,
+    "year": 2025,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 5400,
+    "count": 8898,
+    "year": 2025,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 5580,
+    "count": 7851,
+    "year": 2025,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 5760,
+    "count": 7040,
+    "year": 2025,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 5940,
+    "count": 6253,
+    "year": 2025,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 6120,
+    "count": 5648,
+    "year": 2025,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 6300,
+    "count": 4970,
+    "year": 2025,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 6480,
+    "count": 4492,
+    "year": 2025,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 6660,
+    "count": 4023,
+    "year": 2025,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 6840,
+    "count": 3729,
+    "year": 2025,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 7020,
+    "count": 3304,
+    "year": 2025,
+    "city": "new_york_city"
+  },
+  {
+    "bucket": 7200,
+    "count": 77071,
+    "year": 2025,
+    "city": "new_york_city"
+  }
+]

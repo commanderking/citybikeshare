@@ -1,6 +1,7 @@
 import json
 import polars as pl
 from src.citybikeshare.context import PipelineContext
+from src.citybikeshare.analysis.utils import append_duration_column
 
 
 def summarize_city(context: PipelineContext):
@@ -23,29 +24,18 @@ def summarize_city(context: PipelineContext):
         )
 
     # Determine duration column
-    has_duration = "duration" in columns
-
-    # Add a duration_in_seconds column if needed
-    if not has_duration and {"start_time", "end_time"}.issubset(columns):
-        lf = lf.with_columns(
-            (pl.col("end_time") - pl.col("start_time"))
-            .dt.total_seconds()
-            .alias("duration_seconds")
-        )
-        duration_col = "duration_seconds"
-    else:
-        duration_col = "duration"  # assuming already in seconds
-
+    duration_column = "duration"
     summary = (
-        lf.group_by("year")
+        lf.pipe(append_duration_column)
+        .group_by("year")
         .agg(
             [
                 pl.count().alias("trip_count"),
-                pl.col(duration_col).median().alias("duration_median"),
-                pl.col(duration_col).quantile(0.05).alias("duration_5_percent"),
-                pl.col(duration_col).quantile(0.25).alias("duration_q1"),
-                pl.col(duration_col).quantile(0.75).alias("duration_q3"),
-                pl.col(duration_col).quantile(0.95).alias("duration_95_percent"),
+                pl.col(duration_column).median().alias("duration_median"),
+                pl.col(duration_column).quantile(0.05).alias("duration_5_percent"),
+                pl.col(duration_column).quantile(0.25).alias("duration_q1"),
+                pl.col(duration_column).quantile(0.75).alias("duration_q3"),
+                pl.col(duration_column).quantile(0.95).alias("duration_95_percent"),
                 # Counts if null is any column of row
                 pl.sum_horizontal(
                     [

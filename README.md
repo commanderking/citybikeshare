@@ -169,3 +169,7 @@ Mexico City Issues
 - Chattanooga responded the day of - said data would be available in two weeks
 - Spain says there's no plan to returning to publish data. 
 - Portland moved to a dashboard, but does not provide granular data any more    
+
+### Analysis Decisions
+
+1. Trips where end_time is before the start_time are filtered out.

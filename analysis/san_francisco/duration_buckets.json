@@ -1,0 +1,2216 @@
+[
+  {
+    "bucket": 0,
+    "count": 19492,
+    "year": 2017,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 180,
+    "count": 95248,
+    "year": 2017,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 360,
+    "count": 113623,
+    "year": 2017,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 540,
+    "count": 90189,
+    "year": 2017,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 720,
+    "count": 61157,
+    "year": 2017,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 900,
+    "count": 39075,
+    "year": 2017,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 1080,
+    "count": 26032,
+    "year": 2017,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 1260,
+    "count": 18041,
+    "year": 2017,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 1440,
+    "count": 12364,
+    "year": 2017,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 1620,
+    "count": 8533,
+    "year": 2017,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 1800,
+    "count": 5209,
+    "year": 2017,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 1980,
+    "count": 3509,
+    "year": 2017,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 2160,
+    "count": 2637,
+    "year": 2017,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 2340,
+    "count": 2109,
+    "year": 2017,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 2520,
+    "count": 1733,
+    "year": 2017,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 2700,
+    "count": 1193,
+    "year": 2017,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 2880,
+    "count": 992,
+    "year": 2017,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 3060,
+    "count": 898,
+    "year": 2017,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 3240,
+    "count": 776,
+    "year": 2017,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 3420,
+    "count": 703,
+    "year": 2017,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 3600,
+    "count": 616,
+    "year": 2017,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 3780,
+    "count": 591,
+    "year": 2017,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 3960,
+    "count": 619,
+    "year": 2017,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 4140,
+    "count": 554,
+    "year": 2017,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 4320,
+    "count": 532,
+    "year": 2017,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 4500,
+    "count": 492,
+    "year": 2017,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 4680,
+    "count": 425,
+    "year": 2017,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 4860,
+    "count": 438,
+    "year": 2017,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 5040,
+    "count": 426,
+    "year": 2017,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 5220,
+    "count": 358,
+    "year": 2017,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 5400,
+    "count": 389,
+    "year": 2017,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 5580,
+    "count": 324,
+    "year": 2017,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 5760,
+    "count": 312,
+    "year": 2017,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 5940,
+    "count": 296,
+    "year": 2017,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 6120,
+    "count": 272,
+    "year": 2017,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 6300,
+    "count": 262,
+    "year": 2017,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 6480,
+    "count": 230,
+    "year": 2017,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 6660,
+    "count": 211,
+    "year": 2017,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 6840,
+    "count": 232,
+    "year": 2017,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 7020,
+    "count": 210,
+    "year": 2017,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 7200,
+    "count": 8397,
+    "year": 2017,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 0,
+    "count": 95193,
+    "year": 2018,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 180,
+    "count": 392267,
+    "year": 2018,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 360,
+    "count": 410220,
+    "year": 2018,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 540,
+    "count": 315075,
+    "year": 2018,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 720,
+    "count": 212216,
+    "year": 2018,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 900,
+    "count": 137639,
+    "year": 2018,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 1080,
+    "count": 87417,
+    "year": 2018,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 1260,
+    "count": 55353,
+    "year": 2018,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 1440,
+    "count": 37093,
+    "year": 2018,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 1620,
+    "count": 25889,
+    "year": 2018,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 1800,
+    "count": 16523,
+    "year": 2018,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 1980,
+    "count": 11190,
+    "year": 2018,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 2160,
+    "count": 8919,
+    "year": 2018,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 2340,
+    "count": 7091,
+    "year": 2018,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 2520,
+    "count": 5782,
+    "year": 2018,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 2700,
+    "count": 3934,
+    "year": 2018,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 2880,
+    "count": 3147,
+    "year": 2018,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 3060,
+    "count": 2614,
+    "year": 2018,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 3240,
+    "count": 2452,
+    "year": 2018,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 3420,
+    "count": 2113,
+    "year": 2018,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 3600,
+    "count": 1701,
+    "year": 2018,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 3780,
+    "count": 1635,
+    "year": 2018,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 3960,
+    "count": 1471,
+    "year": 2018,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 4140,
+    "count": 1448,
+    "year": 2018,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 4320,
+    "count": 1208,
+    "year": 2018,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 4500,
+    "count": 1194,
+    "year": 2018,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 4680,
+    "count": 1056,
+    "year": 2018,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 4860,
+    "count": 968,
+    "year": 2018,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 5040,
+    "count": 864,
+    "year": 2018,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 5220,
+    "count": 857,
+    "year": 2018,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 5400,
+    "count": 736,
+    "year": 2018,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 5580,
+    "count": 758,
+    "year": 2018,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 5760,
+    "count": 712,
+    "year": 2018,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 5940,
+    "count": 628,
+    "year": 2018,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 6120,
+    "count": 515,
+    "year": 2018,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 6300,
+    "count": 501,
+    "year": 2018,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 6480,
+    "count": 479,
+    "year": 2018,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 6660,
+    "count": 494,
+    "year": 2018,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 6840,
+    "count": 464,
+    "year": 2018,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 7020,
+    "count": 435,
+    "year": 2018,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 7200,
+    "count": 13464,
+    "year": 2018,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 0,
+    "count": 119360,
+    "year": 2019,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 180,
+    "count": 507109,
+    "year": 2019,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 360,
+    "count": 541927,
+    "year": 2019,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 540,
+    "count": 429095,
+    "year": 2019,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 720,
+    "count": 298725,
+    "year": 2019,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 900,
+    "count": 197985,
+    "year": 2019,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 1080,
+    "count": 125996,
+    "year": 2019,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 1260,
+    "count": 79777,
+    "year": 2019,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 1440,
+    "count": 52162,
+    "year": 2019,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 1620,
+    "count": 36043,
+    "year": 2019,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 1800,
+    "count": 23100,
+    "year": 2019,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 1980,
+    "count": 16175,
+    "year": 2019,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 2160,
+    "count": 12558,
+    "year": 2019,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 2340,
+    "count": 9895,
+    "year": 2019,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 2520,
+    "count": 7916,
+    "year": 2019,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 2700,
+    "count": 5394,
+    "year": 2019,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 2880,
+    "count": 4223,
+    "year": 2019,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 3060,
+    "count": 3405,
+    "year": 2019,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 3240,
+    "count": 3063,
+    "year": 2019,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 3420,
+    "count": 2498,
+    "year": 2019,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 3600,
+    "count": 2053,
+    "year": 2019,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 3780,
+    "count": 1914,
+    "year": 2019,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 3960,
+    "count": 1625,
+    "year": 2019,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 4140,
+    "count": 1554,
+    "year": 2019,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 4320,
+    "count": 1365,
+    "year": 2019,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 4500,
+    "count": 1213,
+    "year": 2019,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 4680,
+    "count": 1083,
+    "year": 2019,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 4860,
+    "count": 959,
+    "year": 2019,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 5040,
+    "count": 864,
+    "year": 2019,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 5220,
+    "count": 861,
+    "year": 2019,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 5400,
+    "count": 821,
+    "year": 2019,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 5580,
+    "count": 762,
+    "year": 2019,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 5760,
+    "count": 674,
+    "year": 2019,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 5940,
+    "count": 638,
+    "year": 2019,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 6120,
+    "count": 581,
+    "year": 2019,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 6300,
+    "count": 543,
+    "year": 2019,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 6480,
+    "count": 505,
+    "year": 2019,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 6660,
+    "count": 462,
+    "year": 2019,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 6840,
+    "count": 408,
+    "year": 2019,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 7020,
+    "count": 435,
+    "year": 2019,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 7200,
+    "count": 11246,
+    "year": 2019,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 0,
+    "count": 130036,
+    "year": 2020,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 180,
+    "count": 315820,
+    "year": 2020,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 360,
+    "count": 360094,
+    "year": 2020,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 540,
+    "count": 308794,
+    "year": 2020,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 720,
+    "count": 235062,
+    "year": 2020,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 900,
+    "count": 169635,
+    "year": 2020,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 1080,
+    "count": 119970,
+    "year": 2020,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 1260,
+    "count": 86588,
+    "year": 2020,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 1440,
+    "count": 63357,
+    "year": 2020,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 1620,
+    "count": 48693,
+    "year": 2020,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 1800,
+    "count": 34786,
+    "year": 2020,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 1980,
+    "count": 26181,
+    "year": 2020,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 2160,
+    "count": 21576,
+    "year": 2020,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 2340,
+    "count": 17443,
+    "year": 2020,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 2520,
+    "count": 14379,
+    "year": 2020,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 2700,
+    "count": 11681,
+    "year": 2020,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 2880,
+    "count": 10204,
+    "year": 2020,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 3060,
+    "count": 9034,
+    "year": 2020,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 3240,
+    "count": 8170,
+    "year": 2020,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 3420,
+    "count": 7094,
+    "year": 2020,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 3600,
+    "count": 5402,
+    "year": 2020,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 3780,
+    "count": 7374,
+    "year": 2020,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 3960,
+    "count": 3928,
+    "year": 2020,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 4140,
+    "count": 3577,
+    "year": 2020,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 4320,
+    "count": 3319,
+    "year": 2020,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 4500,
+    "count": 3048,
+    "year": 2020,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 4680,
+    "count": 2701,
+    "year": 2020,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 4860,
+    "count": 2375,
+    "year": 2020,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 5040,
+    "count": 2122,
+    "year": 2020,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 5220,
+    "count": 1954,
+    "year": 2020,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 5400,
+    "count": 1793,
+    "year": 2020,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 5580,
+    "count": 1558,
+    "year": 2020,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 5760,
+    "count": 1524,
+    "year": 2020,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 5940,
+    "count": 1406,
+    "year": 2020,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 6120,
+    "count": 1240,
+    "year": 2020,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 6300,
+    "count": 1143,
+    "year": 2020,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 6480,
+    "count": 988,
+    "year": 2020,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 6660,
+    "count": 942,
+    "year": 2020,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 6840,
+    "count": 928,
+    "year": 2020,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 7020,
+    "count": 747,
+    "year": 2020,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 7200,
+    "count": 13401,
+    "year": 2020,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 0,
+    "count": 147145,
+    "year": 2021,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 180,
+    "count": 313285,
+    "year": 2021,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 360,
+    "count": 358996,
+    "year": 2021,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 540,
+    "count": 309035,
+    "year": 2021,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 720,
+    "count": 235509,
+    "year": 2021,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 900,
+    "count": 169011,
+    "year": 2021,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 1080,
+    "count": 116987,
+    "year": 2021,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 1260,
+    "count": 81833,
+    "year": 2021,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 1440,
+    "count": 59432,
+    "year": 2021,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 1620,
+    "count": 44070,
+    "year": 2021,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 1800,
+    "count": 32460,
+    "year": 2021,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 1980,
+    "count": 24827,
+    "year": 2021,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 2160,
+    "count": 19671,
+    "year": 2021,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 2340,
+    "count": 15855,
+    "year": 2021,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 2520,
+    "count": 12631,
+    "year": 2021,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 2700,
+    "count": 10476,
+    "year": 2021,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 2880,
+    "count": 8709,
+    "year": 2021,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 3060,
+    "count": 7893,
+    "year": 2021,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 3240,
+    "count": 7253,
+    "year": 2021,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 3420,
+    "count": 6835,
+    "year": 2021,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 3600,
+    "count": 4769,
+    "year": 2021,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 3780,
+    "count": 4556,
+    "year": 2021,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 3960,
+    "count": 3385,
+    "year": 2021,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 4140,
+    "count": 3074,
+    "year": 2021,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 4320,
+    "count": 2626,
+    "year": 2021,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 4500,
+    "count": 2431,
+    "year": 2021,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 4680,
+    "count": 2124,
+    "year": 2021,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 4860,
+    "count": 1968,
+    "year": 2021,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 5040,
+    "count": 1852,
+    "year": 2021,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 5220,
+    "count": 1677,
+    "year": 2021,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 5400,
+    "count": 1438,
+    "year": 2021,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 5580,
+    "count": 1293,
+    "year": 2021,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 5760,
+    "count": 1167,
+    "year": 2021,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 5940,
+    "count": 1088,
+    "year": 2021,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 6120,
+    "count": 1012,
+    "year": 2021,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 6300,
+    "count": 939,
+    "year": 2021,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 6480,
+    "count": 846,
+    "year": 2021,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 6660,
+    "count": 816,
+    "year": 2021,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 6840,
+    "count": 708,
+    "year": 2021,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 7020,
+    "count": 640,
+    "year": 2021,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 7200,
+    "count": 14484,
+    "year": 2021,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 0,
+    "count": 215318,
+    "year": 2022,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 180,
+    "count": 453043,
+    "year": 2022,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 360,
+    "count": 498576,
+    "year": 2022,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 540,
+    "count": 407380,
+    "year": 2022,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 720,
+    "count": 295902,
+    "year": 2022,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 900,
+    "count": 200905,
+    "year": 2022,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 1080,
+    "count": 135087,
+    "year": 2022,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 1260,
+    "count": 91780,
+    "year": 2022,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 1440,
+    "count": 64671,
+    "year": 2022,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 1620,
+    "count": 47935,
+    "year": 2022,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 1800,
+    "count": 35425,
+    "year": 2022,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 1980,
+    "count": 26409,
+    "year": 2022,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 2160,
+    "count": 20423,
+    "year": 2022,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 2340,
+    "count": 16134,
+    "year": 2022,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 2520,
+    "count": 13113,
+    "year": 2022,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 2700,
+    "count": 10470,
+    "year": 2022,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 2880,
+    "count": 8732,
+    "year": 2022,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 3060,
+    "count": 7353,
+    "year": 2022,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 3240,
+    "count": 6789,
+    "year": 2022,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 3420,
+    "count": 6428,
+    "year": 2022,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 3600,
+    "count": 5084,
+    "year": 2022,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 3780,
+    "count": 4232,
+    "year": 2022,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 3960,
+    "count": 3587,
+    "year": 2022,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 4140,
+    "count": 3079,
+    "year": 2022,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 4320,
+    "count": 2752,
+    "year": 2022,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 4500,
+    "count": 2478,
+    "year": 2022,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 4680,
+    "count": 2233,
+    "year": 2022,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 4860,
+    "count": 1941,
+    "year": 2022,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 5040,
+    "count": 1639,
+    "year": 2022,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 5220,
+    "count": 1581,
+    "year": 2022,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 5400,
+    "count": 1383,
+    "year": 2022,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 5580,
+    "count": 1363,
+    "year": 2022,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 5760,
+    "count": 1230,
+    "year": 2022,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 5940,
+    "count": 1123,
+    "year": 2022,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 6120,
+    "count": 946,
+    "year": 2022,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 6300,
+    "count": 886,
+    "year": 2022,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 6480,
+    "count": 821,
+    "year": 2022,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 6660,
+    "count": 748,
+    "year": 2022,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 6840,
+    "count": 681,
+    "year": 2022,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 7020,
+    "count": 555,
+    "year": 2022,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 7200,
+    "count": 14375,
+    "year": 2022,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 0,
+    "count": 242396,
+    "year": 2023,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 180,
+    "count": 491130,
+    "year": 2023,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 360,
+    "count": 495098,
+    "year": 2023,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 540,
+    "count": 388336,
+    "year": 2023,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 720,
+    "count": 278180,
+    "year": 2023,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 900,
+    "count": 185546,
+    "year": 2023,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 1080,
+    "count": 121289,
+    "year": 2023,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 1260,
+    "count": 81831,
+    "year": 2023,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 1440,
+    "count": 57368,
+    "year": 2023,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 1620,
+    "count": 41464,
+    "year": 2023,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 1800,
+    "count": 30512,
+    "year": 2023,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 1980,
+    "count": 22218,
+    "year": 2023,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 2160,
+    "count": 17432,
+    "year": 2023,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 2340,
+    "count": 14027,
+    "year": 2023,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 2520,
+    "count": 11121,
+    "year": 2023,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 2700,
+    "count": 8997,
+    "year": 2023,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 2880,
+    "count": 7387,
+    "year": 2023,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 3060,
+    "count": 6262,
+    "year": 2023,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 3240,
+    "count": 5740,
+    "year": 2023,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 3420,
+    "count": 5535,
+    "year": 2023,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 3600,
+    "count": 4224,
+    "year": 2023,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 3780,
+    "count": 3311,
+    "year": 2023,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 3960,
+    "count": 2851,
+    "year": 2023,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 4140,
+    "count": 2544,
+    "year": 2023,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 4320,
+    "count": 2287,
+    "year": 2023,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 4500,
+    "count": 2003,
+    "year": 2023,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 4680,
+    "count": 1855,
+    "year": 2023,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 4860,
+    "count": 1576,
+    "year": 2023,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 5040,
+    "count": 1433,
+    "year": 2023,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 5220,
+    "count": 1249,
+    "year": 2023,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 5400,
+    "count": 1143,
+    "year": 2023,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 5580,
+    "count": 1034,
+    "year": 2023,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 5760,
+    "count": 986,
+    "year": 2023,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 5940,
+    "count": 848,
+    "year": 2023,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 6120,
+    "count": 812,
+    "year": 2023,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 6300,
+    "count": 700,
+    "year": 2023,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 6480,
+    "count": 582,
+    "year": 2023,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 6660,
+    "count": 584,
+    "year": 2023,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 6840,
+    "count": 536,
+    "year": 2023,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 7020,
+    "count": 528,
+    "year": 2023,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 7200,
+    "count": 9627,
+    "year": 2023,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 0,
+    "count": 278547,
+    "year": 2024,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 180,
+    "count": 700346,
+    "year": 2024,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 360,
+    "count": 673277,
+    "year": 2024,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 540,
+    "count": 520611,
+    "year": 2024,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 720,
+    "count": 369248,
+    "year": 2024,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 900,
+    "count": 240425,
+    "year": 2024,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 1080,
+    "count": 153164,
+    "year": 2024,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 1260,
+    "count": 100903,
+    "year": 2024,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 1440,
+    "count": 69697,
+    "year": 2024,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 1620,
+    "count": 50552,
+    "year": 2024,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 1800,
+    "count": 36136,
+    "year": 2024,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 1980,
+    "count": 26319,
+    "year": 2024,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 2160,
+    "count": 20399,
+    "year": 2024,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 2340,
+    "count": 16170,
+    "year": 2024,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 2520,
+    "count": 12929,
+    "year": 2024,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 2700,
+    "count": 10372,
+    "year": 2024,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 2880,
+    "count": 8566,
+    "year": 2024,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 3060,
+    "count": 7555,
+    "year": 2024,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 3240,
+    "count": 6433,
+    "year": 2024,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 3420,
+    "count": 6218,
+    "year": 2024,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 3600,
+    "count": 4850,
+    "year": 2024,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 3780,
+    "count": 3848,
+    "year": 2024,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 3960,
+    "count": 3464,
+    "year": 2024,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 4140,
+    "count": 3111,
+    "year": 2024,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 4320,
+    "count": 2668,
+    "year": 2024,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 4500,
+    "count": 2428,
+    "year": 2024,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 4680,
+    "count": 2059,
+    "year": 2024,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 4860,
+    "count": 1880,
+    "year": 2024,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 5040,
+    "count": 1682,
+    "year": 2024,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 5220,
+    "count": 1556,
+    "year": 2024,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 5400,
+    "count": 1383,
+    "year": 2024,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 5580,
+    "count": 1229,
+    "year": 2024,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 5760,
+    "count": 1095,
+    "year": 2024,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 5940,
+    "count": 1047,
+    "year": 2024,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 6120,
+    "count": 967,
+    "year": 2024,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 6300,
+    "count": 846,
+    "year": 2024,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 6480,
+    "count": 679,
+    "year": 2024,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 6660,
+    "count": 697,
+    "year": 2024,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 6840,
+    "count": 623,
+    "year": 2024,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 7020,
+    "count": 551,
+    "year": 2024,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 7200,
+    "count": 8428,
+    "year": 2024,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 0,
+    "count": 256322,
+    "year": 2025,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 180,
+    "count": 675753,
+    "year": 2025,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 360,
+    "count": 649809,
+    "year": 2025,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 540,
+    "count": 507588,
+    "year": 2025,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 720,
+    "count": 363525,
+    "year": 2025,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 900,
+    "count": 240325,
+    "year": 2025,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 1080,
+    "count": 153745,
+    "year": 2025,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 1260,
+    "count": 98827,
+    "year": 2025,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 1440,
+    "count": 67203,
+    "year": 2025,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 1620,
+    "count": 47576,
+    "year": 2025,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 1800,
+    "count": 33321,
+    "year": 2025,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 1980,
+    "count": 24459,
+    "year": 2025,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 2160,
+    "count": 18535,
+    "year": 2025,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 2340,
+    "count": 14395,
+    "year": 2025,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 2520,
+    "count": 11792,
+    "year": 2025,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 2700,
+    "count": 9261,
+    "year": 2025,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 2880,
+    "count": 7579,
+    "year": 2025,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 3060,
+    "count": 6433,
+    "year": 2025,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 3240,
+    "count": 5731,
+    "year": 2025,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 3420,
+    "count": 5317,
+    "year": 2025,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 3600,
+    "count": 4349,
+    "year": 2025,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 3780,
+    "count": 3898,
+    "year": 2025,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 3960,
+    "count": 3413,
+    "year": 2025,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 4140,
+    "count": 2911,
+    "year": 2025,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 4320,
+    "count": 2695,
+    "year": 2025,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 4500,
+    "count": 2215,
+    "year": 2025,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 4680,
+    "count": 1995,
+    "year": 2025,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 4860,
+    "count": 1648,
+    "year": 2025,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 5040,
+    "count": 1555,
+    "year": 2025,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 5220,
+    "count": 1447,
+    "year": 2025,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 5400,
+    "count": 1319,
+    "year": 2025,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 5580,
+    "count": 1136,
+    "year": 2025,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 5760,
+    "count": 1003,
+    "year": 2025,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 5940,
+    "count": 915,
+    "year": 2025,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 6120,
+    "count": 857,
+    "year": 2025,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 6300,
+    "count": 815,
+    "year": 2025,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 6480,
+    "count": 665,
+    "year": 2025,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 6660,
+    "count": 586,
+    "year": 2025,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 6840,
+    "count": 575,
+    "year": 2025,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 7020,
+    "count": 508,
+    "year": 2025,
+    "city": "san_francisco"
+  },
+  {
+    "bucket": 7200,
+    "count": 8657,
+    "year": 2025,
+    "city": "san_francisco"
+  }
+]
