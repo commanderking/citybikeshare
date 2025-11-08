@@ -11,7 +11,7 @@
   },
   {
     "year": 2017,
-    "trip_count": 1114523,
+    "trip_count": 1114502,
     "duration_median": 519.0,
     "duration_5_percent": 107.0,
     "duration_q1": 321.0,
@@ -21,12 +21,12 @@
   },
   {
     "year": 2018,
-    "trip_count": 648060,
-    "duration_median": 491.0,
-    "duration_5_percent": 44.0,
-    "duration_q1": 287.0,
-    "duration_q3": 830.0,
-    "duration_95_percent": 2086.0,
+    "trip_count": 647586,
+    "duration_median": 492.0,
+    "duration_5_percent": 45.0,
+    "duration_q1": 288.0,
+    "duration_q3": 831.0,
+    "duration_95_percent": 2087.0,
     "null_rows": 0
   },
   {

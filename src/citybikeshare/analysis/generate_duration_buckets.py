@@ -10,17 +10,17 @@ def generate_duration_buckets(context: PipelineContext):
 
     lf = pl.scan_parquet(input_directory / "**/*.parquet")
 
-    bucket_size = 3 * 60  # seconds per bin
+    bucket_size = 3 * 60  # seconds per bucket
     max_duration = 120 * 60  # cap point in seconds
     lf_buckets = (
         lf.pipe(append_duration_column)
         .with_columns(
+            ### Capping duration at 120 minutes
             [
                 pl.when(pl.col("duration") > max_duration)
                 .then(max_duration)
                 .otherwise(pl.col("duration"))
                 .alias("duration_capped"),
-                # use capped duration for bucketing
                 (
                     (
                         pl.when(pl.col("duration") > max_duration)
@@ -34,7 +34,7 @@ def generate_duration_buckets(context: PipelineContext):
                 .cast(pl.Int32),
             ]
         )
-        .group_by(["bucket", "year"])
+        .group_by(["year", "bucket"])
         .agg(pl.count().alias("count"))
         .sort(["year", "bucket"])
         .with_columns(pl.lit(city).alias("city"))
@@ -45,10 +45,8 @@ def generate_duration_buckets(context: PipelineContext):
 
     analysis_directory = context.analysis_directory
     analysis_directory.mkdir(parents=True, exist_ok=True)
-
-    # Write JSON output
-
-    # Export JSON (bucket_label instead of bucket)
     output_file = analysis_directory / f"duration_buckets.json"
     with open(output_file, "w") as f:
         json.dump(lf_buckets, f, indent=2)
+
+    print(f"✅ Generated Duration Buckets for {city}!")
