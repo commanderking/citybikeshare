@@ -14,6 +14,6 @@ def append_duration_column(lf):
         )
 
     return lf.filter(
-        (pl.col("end_time") - pl.col("start_time") > 0)
+        (pl.col("end_time") - pl.col("start_time") >= 0)
         & (pl.col("duration").is_not_null())
     )
