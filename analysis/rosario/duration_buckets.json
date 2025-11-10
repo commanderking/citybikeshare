@@ -1,241 +1,721 @@
 [
   {
     "bucket": 0,
-    "count": 2279,
+    "count": 6,
+    "year": 2019,
+    "city": "rosario"
+  },
+  {
+    "bucket": 60,
+    "count": 216,
+    "year": 2019,
+    "city": "rosario"
+  },
+  {
+    "bucket": 120,
+    "count": 2057,
     "year": 2019,
     "city": "rosario"
   },
   {
     "bucket": 180,
-    "count": 53281,
+    "count": 8620,
+    "year": 2019,
+    "city": "rosario"
+  },
+  {
+    "bucket": 240,
+    "count": 17406,
+    "year": 2019,
+    "city": "rosario"
+  },
+  {
+    "bucket": 300,
+    "count": 27255,
     "year": 2019,
     "city": "rosario"
   },
   {
     "bucket": 360,
-    "count": 143604,
+    "count": 39132,
+    "year": 2019,
+    "city": "rosario"
+  },
+  {
+    "bucket": 420,
+    "count": 49106,
+    "year": 2019,
+    "city": "rosario"
+  },
+  {
+    "bucket": 480,
+    "count": 55366,
     "year": 2019,
     "city": "rosario"
   },
   {
     "bucket": 540,
-    "count": 178372,
+    "count": 59176,
+    "year": 2019,
+    "city": "rosario"
+  },
+  {
+    "bucket": 600,
+    "count": 59946,
+    "year": 2019,
+    "city": "rosario"
+  },
+  {
+    "bucket": 660,
+    "count": 59250,
     "year": 2019,
     "city": "rosario"
   },
   {
     "bucket": 720,
-    "count": 163569,
+    "count": 57324,
+    "year": 2019,
+    "city": "rosario"
+  },
+  {
+    "bucket": 780,
+    "count": 54992,
+    "year": 2019,
+    "city": "rosario"
+  },
+  {
+    "bucket": 840,
+    "count": 51253,
     "year": 2019,
     "city": "rosario"
   },
   {
     "bucket": 900,
-    "count": 130708,
+    "count": 47758,
+    "year": 2019,
+    "city": "rosario"
+  },
+  {
+    "bucket": 960,
+    "count": 43688,
+    "year": 2019,
+    "city": "rosario"
+  },
+  {
+    "bucket": 1020,
+    "count": 39262,
     "year": 2019,
     "city": "rosario"
   },
   {
     "bucket": 1080,
-    "count": 93745,
+    "count": 35000,
+    "year": 2019,
+    "city": "rosario"
+  },
+  {
+    "bucket": 1140,
+    "count": 31182,
+    "year": 2019,
+    "city": "rosario"
+  },
+  {
+    "bucket": 1200,
+    "count": 27563,
     "year": 2019,
     "city": "rosario"
   },
   {
     "bucket": 1260,
-    "count": 64159,
+    "count": 24273,
+    "year": 2019,
+    "city": "rosario"
+  },
+  {
+    "bucket": 1320,
+    "count": 21420,
+    "year": 2019,
+    "city": "rosario"
+  },
+  {
+    "bucket": 1380,
+    "count": 18466,
     "year": 2019,
     "city": "rosario"
   },
   {
     "bucket": 1440,
-    "count": 42155,
+    "count": 15846,
+    "year": 2019,
+    "city": "rosario"
+  },
+  {
+    "bucket": 1500,
+    "count": 14011,
+    "year": 2019,
+    "city": "rosario"
+  },
+  {
+    "bucket": 1560,
+    "count": 12298,
     "year": 2019,
     "city": "rosario"
   },
   {
     "bucket": 1620,
-    "count": 28428,
+    "count": 10659,
+    "year": 2019,
+    "city": "rosario"
+  },
+  {
+    "bucket": 1680,
+    "count": 9499,
+    "year": 2019,
+    "city": "rosario"
+  },
+  {
+    "bucket": 1740,
+    "count": 8270,
     "year": 2019,
     "city": "rosario"
   },
   {
     "bucket": 1800,
-    "count": 18943,
+    "count": 7128,
+    "year": 2019,
+    "city": "rosario"
+  },
+  {
+    "bucket": 1860,
+    "count": 6311,
+    "year": 2019,
+    "city": "rosario"
+  },
+  {
+    "bucket": 1920,
+    "count": 5504,
     "year": 2019,
     "city": "rosario"
   },
   {
     "bucket": 1980,
-    "count": 13173,
+    "count": 5010,
+    "year": 2019,
+    "city": "rosario"
+  },
+  {
+    "bucket": 2040,
+    "count": 4261,
+    "year": 2019,
+    "city": "rosario"
+  },
+  {
+    "bucket": 2100,
+    "count": 3902,
     "year": 2019,
     "city": "rosario"
   },
   {
     "bucket": 2160,
-    "count": 9290,
+    "count": 3424,
+    "year": 2019,
+    "city": "rosario"
+  },
+  {
+    "bucket": 2220,
+    "count": 3136,
+    "year": 2019,
+    "city": "rosario"
+  },
+  {
+    "bucket": 2280,
+    "count": 2730,
     "year": 2019,
     "city": "rosario"
   },
   {
     "bucket": 2340,
-    "count": 7256,
+    "count": 2581,
+    "year": 2019,
+    "city": "rosario"
+  },
+  {
+    "bucket": 2400,
+    "count": 2442,
+    "year": 2019,
+    "city": "rosario"
+  },
+  {
+    "bucket": 2460,
+    "count": 2233,
     "year": 2019,
     "city": "rosario"
   },
   {
     "bucket": 2520,
-    "count": 5720,
+    "count": 1979,
+    "year": 2019,
+    "city": "rosario"
+  },
+  {
+    "bucket": 2580,
+    "count": 1897,
+    "year": 2019,
+    "city": "rosario"
+  },
+  {
+    "bucket": 2640,
+    "count": 1844,
     "year": 2019,
     "city": "rosario"
   },
   {
     "bucket": 2700,
-    "count": 4835,
+    "count": 1791,
+    "year": 2019,
+    "city": "rosario"
+  },
+  {
+    "bucket": 2760,
+    "count": 1603,
+    "year": 2019,
+    "city": "rosario"
+  },
+  {
+    "bucket": 2820,
+    "count": 1441,
     "year": 2019,
     "city": "rosario"
   },
   {
     "bucket": 2880,
-    "count": 4012,
+    "count": 1399,
+    "year": 2019,
+    "city": "rosario"
+  },
+  {
+    "bucket": 2940,
+    "count": 1317,
+    "year": 2019,
+    "city": "rosario"
+  },
+  {
+    "bucket": 3000,
+    "count": 1296,
     "year": 2019,
     "city": "rosario"
   },
   {
     "bucket": 3060,
-    "count": 3392,
+    "count": 1207,
+    "year": 2019,
+    "city": "rosario"
+  },
+  {
+    "bucket": 3120,
+    "count": 1108,
+    "year": 2019,
+    "city": "rosario"
+  },
+  {
+    "bucket": 3180,
+    "count": 1077,
     "year": 2019,
     "city": "rosario"
   },
   {
     "bucket": 3240,
-    "count": 2866,
+    "count": 990,
+    "year": 2019,
+    "city": "rosario"
+  },
+  {
+    "bucket": 3300,
+    "count": 978,
+    "year": 2019,
+    "city": "rosario"
+  },
+  {
+    "bucket": 3360,
+    "count": 898,
     "year": 2019,
     "city": "rosario"
   },
   {
     "bucket": 3420,
-    "count": 2243,
+    "count": 801,
+    "year": 2019,
+    "city": "rosario"
+  },
+  {
+    "bucket": 3480,
+    "count": 786,
+    "year": 2019,
+    "city": "rosario"
+  },
+  {
+    "bucket": 3540,
+    "count": 656,
     "year": 2019,
     "city": "rosario"
   },
   {
     "bucket": 3600,
-    "count": 1781,
+    "count": 661,
+    "year": 2019,
+    "city": "rosario"
+  },
+  {
+    "bucket": 3660,
+    "count": 579,
+    "year": 2019,
+    "city": "rosario"
+  },
+  {
+    "bucket": 3720,
+    "count": 541,
     "year": 2019,
     "city": "rosario"
   },
   {
     "bucket": 3780,
-    "count": 1398,
+    "count": 473,
+    "year": 2019,
+    "city": "rosario"
+  },
+  {
+    "bucket": 3840,
+    "count": 521,
+    "year": 2019,
+    "city": "rosario"
+  },
+  {
+    "bucket": 3900,
+    "count": 404,
     "year": 2019,
     "city": "rosario"
   },
   {
     "bucket": 3960,
-    "count": 1208,
+    "count": 436,
+    "year": 2019,
+    "city": "rosario"
+  },
+  {
+    "bucket": 4020,
+    "count": 388,
+    "year": 2019,
+    "city": "rosario"
+  },
+  {
+    "bucket": 4080,
+    "count": 384,
     "year": 2019,
     "city": "rosario"
   },
   {
     "bucket": 4140,
-    "count": 1013,
+    "count": 370,
+    "year": 2019,
+    "city": "rosario"
+  },
+  {
+    "bucket": 4200,
+    "count": 314,
+    "year": 2019,
+    "city": "rosario"
+  },
+  {
+    "bucket": 4260,
+    "count": 329,
     "year": 2019,
     "city": "rosario"
   },
   {
     "bucket": 4320,
-    "count": 879,
+    "count": 322,
+    "year": 2019,
+    "city": "rosario"
+  },
+  {
+    "bucket": 4380,
+    "count": 308,
+    "year": 2019,
+    "city": "rosario"
+  },
+  {
+    "bucket": 4440,
+    "count": 249,
     "year": 2019,
     "city": "rosario"
   },
   {
     "bucket": 4500,
-    "count": 789,
+    "count": 263,
+    "year": 2019,
+    "city": "rosario"
+  },
+  {
+    "bucket": 4560,
+    "count": 276,
+    "year": 2019,
+    "city": "rosario"
+  },
+  {
+    "bucket": 4620,
+    "count": 250,
     "year": 2019,
     "city": "rosario"
   },
   {
     "bucket": 4680,
-    "count": 674,
+    "count": 223,
+    "year": 2019,
+    "city": "rosario"
+  },
+  {
+    "bucket": 4740,
+    "count": 234,
+    "year": 2019,
+    "city": "rosario"
+  },
+  {
+    "bucket": 4800,
+    "count": 217,
     "year": 2019,
     "city": "rosario"
   },
   {
     "bucket": 4860,
-    "count": 569,
+    "count": 217,
+    "year": 2019,
+    "city": "rosario"
+  },
+  {
+    "bucket": 4920,
+    "count": 174,
+    "year": 2019,
+    "city": "rosario"
+  },
+  {
+    "bucket": 4980,
+    "count": 178,
     "year": 2019,
     "city": "rosario"
   },
   {
     "bucket": 5040,
-    "count": 501,
+    "count": 171,
+    "year": 2019,
+    "city": "rosario"
+  },
+  {
+    "bucket": 5100,
+    "count": 175,
+    "year": 2019,
+    "city": "rosario"
+  },
+  {
+    "bucket": 5160,
+    "count": 155,
     "year": 2019,
     "city": "rosario"
   },
   {
     "bucket": 5220,
-    "count": 437,
+    "count": 140,
+    "year": 2019,
+    "city": "rosario"
+  },
+  {
+    "bucket": 5280,
+    "count": 151,
+    "year": 2019,
+    "city": "rosario"
+  },
+  {
+    "bucket": 5340,
+    "count": 146,
     "year": 2019,
     "city": "rosario"
   },
   {
     "bucket": 5400,
-    "count": 446,
+    "count": 140,
+    "year": 2019,
+    "city": "rosario"
+  },
+  {
+    "bucket": 5460,
+    "count": 160,
+    "year": 2019,
+    "city": "rosario"
+  },
+  {
+    "bucket": 5520,
+    "count": 146,
     "year": 2019,
     "city": "rosario"
   },
   {
     "bucket": 5580,
-    "count": 380,
+    "count": 134,
+    "year": 2019,
+    "city": "rosario"
+  },
+  {
+    "bucket": 5640,
+    "count": 108,
+    "year": 2019,
+    "city": "rosario"
+  },
+  {
+    "bucket": 5700,
+    "count": 138,
     "year": 2019,
     "city": "rosario"
   },
   {
     "bucket": 5760,
-    "count": 369,
+    "count": 129,
+    "year": 2019,
+    "city": "rosario"
+  },
+  {
+    "bucket": 5820,
+    "count": 112,
+    "year": 2019,
+    "city": "rosario"
+  },
+  {
+    "bucket": 5880,
+    "count": 128,
     "year": 2019,
     "city": "rosario"
   },
   {
     "bucket": 5940,
-    "count": 353,
+    "count": 127,
+    "year": 2019,
+    "city": "rosario"
+  },
+  {
+    "bucket": 6000,
+    "count": 108,
+    "year": 2019,
+    "city": "rosario"
+  },
+  {
+    "bucket": 6060,
+    "count": 118,
     "year": 2019,
     "city": "rosario"
   },
   {
     "bucket": 6120,
-    "count": 316,
+    "count": 132,
+    "year": 2019,
+    "city": "rosario"
+  },
+  {
+    "bucket": 6180,
+    "count": 92,
+    "year": 2019,
+    "city": "rosario"
+  },
+  {
+    "bucket": 6240,
+    "count": 92,
     "year": 2019,
     "city": "rosario"
   },
   {
     "bucket": 6300,
-    "count": 311,
+    "count": 113,
+    "year": 2019,
+    "city": "rosario"
+  },
+  {
+    "bucket": 6360,
+    "count": 85,
+    "year": 2019,
+    "city": "rosario"
+  },
+  {
+    "bucket": 6420,
+    "count": 113,
     "year": 2019,
     "city": "rosario"
   },
   {
     "bucket": 6480,
-    "count": 272,
+    "count": 104,
+    "year": 2019,
+    "city": "rosario"
+  },
+  {
+    "bucket": 6540,
+    "count": 89,
+    "year": 2019,
+    "city": "rosario"
+  },
+  {
+    "bucket": 6600,
+    "count": 79,
     "year": 2019,
     "city": "rosario"
   },
   {
     "bucket": 6660,
-    "count": 257,
+    "count": 91,
+    "year": 2019,
+    "city": "rosario"
+  },
+  {
+    "bucket": 6720,
+    "count": 76,
+    "year": 2019,
+    "city": "rosario"
+  },
+  {
+    "bucket": 6780,
+    "count": 90,
     "year": 2019,
     "city": "rosario"
   },
   {
     "bucket": 6840,
-    "count": 212,
+    "count": 75,
+    "year": 2019,
+    "city": "rosario"
+  },
+  {
+    "bucket": 6900,
+    "count": 74,
+    "year": 2019,
+    "city": "rosario"
+  },
+  {
+    "bucket": 6960,
+    "count": 63,
     "year": 2019,
     "city": "rosario"
   },
   {
     "bucket": 7020,
-    "count": 219,
+    "count": 77,
+    "year": 2019,
+    "city": "rosario"
+  },
+  {
+    "bucket": 7080,
+    "count": 67,
+    "year": 2019,
+    "city": "rosario"
+  },
+  {
+    "bucket": 7140,
+    "count": 75,
     "year": 2019,
     "city": "rosario"
   },
@@ -247,241 +727,721 @@
   },
   {
     "bucket": 0,
-    "count": 1381,
+    "count": 4,
+    "year": 2020,
+    "city": "rosario"
+  },
+  {
+    "bucket": 60,
+    "count": 189,
+    "year": 2020,
+    "city": "rosario"
+  },
+  {
+    "bucket": 120,
+    "count": 1188,
     "year": 2020,
     "city": "rosario"
   },
   {
     "bucket": 180,
-    "count": 33598,
+    "count": 5474,
+    "year": 2020,
+    "city": "rosario"
+  },
+  {
+    "bucket": 240,
+    "count": 10900,
+    "year": 2020,
+    "city": "rosario"
+  },
+  {
+    "bucket": 300,
+    "count": 17224,
     "year": 2020,
     "city": "rosario"
   },
   {
     "bucket": 360,
-    "count": 90736,
+    "count": 24227,
+    "year": 2020,
+    "city": "rosario"
+  },
+  {
+    "bucket": 420,
+    "count": 30788,
+    "year": 2020,
+    "city": "rosario"
+  },
+  {
+    "bucket": 480,
+    "count": 35721,
     "year": 2020,
     "city": "rosario"
   },
   {
     "bucket": 540,
-    "count": 121033,
+    "count": 38789,
+    "year": 2020,
+    "city": "rosario"
+  },
+  {
+    "bucket": 600,
+    "count": 41061,
+    "year": 2020,
+    "city": "rosario"
+  },
+  {
+    "bucket": 660,
+    "count": 41183,
     "year": 2020,
     "city": "rosario"
   },
   {
     "bucket": 720,
-    "count": 117862,
+    "count": 40522,
+    "year": 2020,
+    "city": "rosario"
+  },
+  {
+    "bucket": 780,
+    "count": 39642,
+    "year": 2020,
+    "city": "rosario"
+  },
+  {
+    "bucket": 840,
+    "count": 37698,
     "year": 2020,
     "city": "rosario"
   },
   {
     "bucket": 900,
-    "count": 99452,
+    "count": 35620,
+    "year": 2020,
+    "city": "rosario"
+  },
+  {
+    "bucket": 960,
+    "count": 33189,
+    "year": 2020,
+    "city": "rosario"
+  },
+  {
+    "bucket": 1020,
+    "count": 30643,
     "year": 2020,
     "city": "rosario"
   },
   {
     "bucket": 1080,
-    "count": 77007,
+    "count": 28293,
+    "year": 2020,
+    "city": "rosario"
+  },
+  {
+    "bucket": 1140,
+    "count": 25541,
+    "year": 2020,
+    "city": "rosario"
+  },
+  {
+    "bucket": 1200,
+    "count": 23173,
     "year": 2020,
     "city": "rosario"
   },
   {
     "bucket": 1260,
-    "count": 55650,
+    "count": 20628,
+    "year": 2020,
+    "city": "rosario"
+  },
+  {
+    "bucket": 1320,
+    "count": 18623,
+    "year": 2020,
+    "city": "rosario"
+  },
+  {
+    "bucket": 1380,
+    "count": 16399,
     "year": 2020,
     "city": "rosario"
   },
   {
     "bucket": 1440,
-    "count": 38464,
+    "count": 14339,
+    "year": 2020,
+    "city": "rosario"
+  },
+  {
+    "bucket": 1500,
+    "count": 12705,
+    "year": 2020,
+    "city": "rosario"
+  },
+  {
+    "bucket": 1560,
+    "count": 11420,
     "year": 2020,
     "city": "rosario"
   },
   {
     "bucket": 1620,
-    "count": 27224,
+    "count": 10230,
+    "year": 2020,
+    "city": "rosario"
+  },
+  {
+    "bucket": 1680,
+    "count": 8954,
+    "year": 2020,
+    "city": "rosario"
+  },
+  {
+    "bucket": 1740,
+    "count": 8040,
     "year": 2020,
     "city": "rosario"
   },
   {
     "bucket": 1800,
-    "count": 19201,
+    "count": 7163,
+    "year": 2020,
+    "city": "rosario"
+  },
+  {
+    "bucket": 1860,
+    "count": 6236,
+    "year": 2020,
+    "city": "rosario"
+  },
+  {
+    "bucket": 1920,
+    "count": 5802,
     "year": 2020,
     "city": "rosario"
   },
   {
     "bucket": 1980,
-    "count": 14362,
+    "count": 5201,
+    "year": 2020,
+    "city": "rosario"
+  },
+  {
+    "bucket": 2040,
+    "count": 4770,
+    "year": 2020,
+    "city": "rosario"
+  },
+  {
+    "bucket": 2100,
+    "count": 4391,
     "year": 2020,
     "city": "rosario"
   },
   {
     "bucket": 2160,
-    "count": 11576,
+    "count": 4074,
+    "year": 2020,
+    "city": "rosario"
+  },
+  {
+    "bucket": 2220,
+    "count": 3946,
+    "year": 2020,
+    "city": "rosario"
+  },
+  {
+    "bucket": 2280,
+    "count": 3556,
     "year": 2020,
     "city": "rosario"
   },
   {
     "bucket": 2340,
-    "count": 9698,
+    "count": 3371,
+    "year": 2020,
+    "city": "rosario"
+  },
+  {
+    "bucket": 2400,
+    "count": 3272,
+    "year": 2020,
+    "city": "rosario"
+  },
+  {
+    "bucket": 2460,
+    "count": 3055,
     "year": 2020,
     "city": "rosario"
   },
   {
     "bucket": 2520,
-    "count": 8336,
+    "count": 3029,
+    "year": 2020,
+    "city": "rosario"
+  },
+  {
+    "bucket": 2580,
+    "count": 2762,
+    "year": 2020,
+    "city": "rosario"
+  },
+  {
+    "bucket": 2640,
+    "count": 2545,
     "year": 2020,
     "city": "rosario"
   },
   {
     "bucket": 2700,
-    "count": 7065,
+    "count": 2438,
+    "year": 2020,
+    "city": "rosario"
+  },
+  {
+    "bucket": 2760,
+    "count": 2409,
+    "year": 2020,
+    "city": "rosario"
+  },
+  {
+    "bucket": 2820,
+    "count": 2218,
     "year": 2020,
     "city": "rosario"
   },
   {
     "bucket": 2880,
-    "count": 6377,
+    "count": 2089,
+    "year": 2020,
+    "city": "rosario"
+  },
+  {
+    "bucket": 2940,
+    "count": 2173,
+    "year": 2020,
+    "city": "rosario"
+  },
+  {
+    "bucket": 3000,
+    "count": 2115,
     "year": 2020,
     "city": "rosario"
   },
   {
     "bucket": 3060,
-    "count": 5780,
+    "count": 2009,
+    "year": 2020,
+    "city": "rosario"
+  },
+  {
+    "bucket": 3120,
+    "count": 1842,
+    "year": 2020,
+    "city": "rosario"
+  },
+  {
+    "bucket": 3180,
+    "count": 1929,
     "year": 2020,
     "city": "rosario"
   },
   {
     "bucket": 3240,
-    "count": 5104,
+    "count": 1761,
+    "year": 2020,
+    "city": "rosario"
+  },
+  {
+    "bucket": 3300,
+    "count": 1720,
+    "year": 2020,
+    "city": "rosario"
+  },
+  {
+    "bucket": 3360,
+    "count": 1623,
     "year": 2020,
     "city": "rosario"
   },
   {
     "bucket": 3420,
-    "count": 4490,
+    "count": 1644,
+    "year": 2020,
+    "city": "rosario"
+  },
+  {
+    "bucket": 3480,
+    "count": 1449,
+    "year": 2020,
+    "city": "rosario"
+  },
+  {
+    "bucket": 3540,
+    "count": 1397,
     "year": 2020,
     "city": "rosario"
   },
   {
     "bucket": 3600,
-    "count": 3713,
+    "count": 1367,
+    "year": 2020,
+    "city": "rosario"
+  },
+  {
+    "bucket": 3660,
+    "count": 1250,
+    "year": 2020,
+    "city": "rosario"
+  },
+  {
+    "bucket": 3720,
+    "count": 1096,
     "year": 2020,
     "city": "rosario"
   },
   {
     "bucket": 3780,
-    "count": 3067,
+    "count": 1079,
+    "year": 2020,
+    "city": "rosario"
+  },
+  {
+    "bucket": 3840,
+    "count": 1039,
+    "year": 2020,
+    "city": "rosario"
+  },
+  {
+    "bucket": 3900,
+    "count": 949,
     "year": 2020,
     "city": "rosario"
   },
   {
     "bucket": 3960,
-    "count": 2529,
+    "count": 902,
+    "year": 2020,
+    "city": "rosario"
+  },
+  {
+    "bucket": 4020,
+    "count": 827,
+    "year": 2020,
+    "city": "rosario"
+  },
+  {
+    "bucket": 4080,
+    "count": 800,
     "year": 2020,
     "city": "rosario"
   },
   {
     "bucket": 4140,
-    "count": 2221,
+    "count": 779,
+    "year": 2020,
+    "city": "rosario"
+  },
+  {
+    "bucket": 4200,
+    "count": 747,
+    "year": 2020,
+    "city": "rosario"
+  },
+  {
+    "bucket": 4260,
+    "count": 695,
     "year": 2020,
     "city": "rosario"
   },
   {
     "bucket": 4320,
-    "count": 1901,
+    "count": 690,
+    "year": 2020,
+    "city": "rosario"
+  },
+  {
+    "bucket": 4380,
+    "count": 650,
+    "year": 2020,
+    "city": "rosario"
+  },
+  {
+    "bucket": 4440,
+    "count": 561,
     "year": 2020,
     "city": "rosario"
   },
   {
     "bucket": 4500,
-    "count": 1682,
+    "count": 596,
+    "year": 2020,
+    "city": "rosario"
+  },
+  {
+    "bucket": 4560,
+    "count": 538,
+    "year": 2020,
+    "city": "rosario"
+  },
+  {
+    "bucket": 4620,
+    "count": 548,
     "year": 2020,
     "city": "rosario"
   },
   {
     "bucket": 4680,
-    "count": 1549,
+    "count": 503,
+    "year": 2020,
+    "city": "rosario"
+  },
+  {
+    "bucket": 4740,
+    "count": 529,
+    "year": 2020,
+    "city": "rosario"
+  },
+  {
+    "bucket": 4800,
+    "count": 517,
     "year": 2020,
     "city": "rosario"
   },
   {
     "bucket": 4860,
-    "count": 1347,
+    "count": 445,
+    "year": 2020,
+    "city": "rosario"
+  },
+  {
+    "bucket": 4920,
+    "count": 458,
+    "year": 2020,
+    "city": "rosario"
+  },
+  {
+    "bucket": 4980,
+    "count": 444,
     "year": 2020,
     "city": "rosario"
   },
   {
     "bucket": 5040,
-    "count": 1135,
-    "year": 2020,
-    "city": "rosario"
-  },
-  {
-    "bucket": 5220,
-    "count": 1023,
-    "year": 2020,
-    "city": "rosario"
-  },
-  {
-    "bucket": 5400,
-    "count": 874,
-    "year": 2020,
-    "city": "rosario"
-  },
-  {
-    "bucket": 5580,
-    "count": 809,
-    "year": 2020,
-    "city": "rosario"
-  },
-  {
-    "bucket": 5760,
-    "count": 752,
-    "year": 2020,
-    "city": "rosario"
-  },
-  {
-    "bucket": 5940,
-    "count": 605,
-    "year": 2020,
-    "city": "rosario"
-  },
-  {
-    "bucket": 6120,
-    "count": 610,
-    "year": 2020,
-    "city": "rosario"
-  },
-  {
-    "bucket": 6300,
-    "count": 546,
-    "year": 2020,
-    "city": "rosario"
-  },
-  {
-    "bucket": 6480,
-    "count": 502,
-    "year": 2020,
-    "city": "rosario"
-  },
-  {
-    "bucket": 6660,
-    "count": 481,
-    "year": 2020,
-    "city": "rosario"
-  },
-  {
-    "bucket": 6840,
     "count": 429,
     "year": 2020,
     "city": "rosario"
   },
   {
+    "bucket": 5100,
+    "count": 352,
+    "year": 2020,
+    "city": "rosario"
+  },
+  {
+    "bucket": 5160,
+    "count": 354,
+    "year": 2020,
+    "city": "rosario"
+  },
+  {
+    "bucket": 5220,
+    "count": 360,
+    "year": 2020,
+    "city": "rosario"
+  },
+  {
+    "bucket": 5280,
+    "count": 336,
+    "year": 2020,
+    "city": "rosario"
+  },
+  {
+    "bucket": 5340,
+    "count": 327,
+    "year": 2020,
+    "city": "rosario"
+  },
+  {
+    "bucket": 5400,
+    "count": 290,
+    "year": 2020,
+    "city": "rosario"
+  },
+  {
+    "bucket": 5460,
+    "count": 273,
+    "year": 2020,
+    "city": "rosario"
+  },
+  {
+    "bucket": 5520,
+    "count": 311,
+    "year": 2020,
+    "city": "rosario"
+  },
+  {
+    "bucket": 5580,
+    "count": 282,
+    "year": 2020,
+    "city": "rosario"
+  },
+  {
+    "bucket": 5640,
+    "count": 267,
+    "year": 2020,
+    "city": "rosario"
+  },
+  {
+    "bucket": 5700,
+    "count": 260,
+    "year": 2020,
+    "city": "rosario"
+  },
+  {
+    "bucket": 5760,
+    "count": 257,
+    "year": 2020,
+    "city": "rosario"
+  },
+  {
+    "bucket": 5820,
+    "count": 257,
+    "year": 2020,
+    "city": "rosario"
+  },
+  {
+    "bucket": 5880,
+    "count": 238,
+    "year": 2020,
+    "city": "rosario"
+  },
+  {
+    "bucket": 5940,
+    "count": 214,
+    "year": 2020,
+    "city": "rosario"
+  },
+  {
+    "bucket": 6000,
+    "count": 193,
+    "year": 2020,
+    "city": "rosario"
+  },
+  {
+    "bucket": 6060,
+    "count": 198,
+    "year": 2020,
+    "city": "rosario"
+  },
+  {
+    "bucket": 6120,
+    "count": 192,
+    "year": 2020,
+    "city": "rosario"
+  },
+  {
+    "bucket": 6180,
+    "count": 207,
+    "year": 2020,
+    "city": "rosario"
+  },
+  {
+    "bucket": 6240,
+    "count": 211,
+    "year": 2020,
+    "city": "rosario"
+  },
+  {
+    "bucket": 6300,
+    "count": 183,
+    "year": 2020,
+    "city": "rosario"
+  },
+  {
+    "bucket": 6360,
+    "count": 186,
+    "year": 2020,
+    "city": "rosario"
+  },
+  {
+    "bucket": 6420,
+    "count": 177,
+    "year": 2020,
+    "city": "rosario"
+  },
+  {
+    "bucket": 6480,
+    "count": 176,
+    "year": 2020,
+    "city": "rosario"
+  },
+  {
+    "bucket": 6540,
+    "count": 173,
+    "year": 2020,
+    "city": "rosario"
+  },
+  {
+    "bucket": 6600,
+    "count": 153,
+    "year": 2020,
+    "city": "rosario"
+  },
+  {
+    "bucket": 6660,
+    "count": 173,
+    "year": 2020,
+    "city": "rosario"
+  },
+  {
+    "bucket": 6720,
+    "count": 150,
+    "year": 2020,
+    "city": "rosario"
+  },
+  {
+    "bucket": 6780,
+    "count": 158,
+    "year": 2020,
+    "city": "rosario"
+  },
+  {
+    "bucket": 6840,
+    "count": 136,
+    "year": 2020,
+    "city": "rosario"
+  },
+  {
+    "bucket": 6900,
+    "count": 156,
+    "year": 2020,
+    "city": "rosario"
+  },
+  {
+    "bucket": 6960,
+    "count": 137,
+    "year": 2020,
+    "city": "rosario"
+  },
+  {
     "bucket": 7020,
-    "count": 384,
+    "count": 129,
+    "year": 2020,
+    "city": "rosario"
+  },
+  {
+    "bucket": 7080,
+    "count": 123,
+    "year": 2020,
+    "city": "rosario"
+  },
+  {
+    "bucket": 7140,
+    "count": 132,
     "year": 2020,
     "city": "rosario"
   },
@@ -493,241 +1453,721 @@
   },
   {
     "bucket": 0,
-    "count": 3151,
+    "count": 24,
+    "year": 2021,
+    "city": "rosario"
+  },
+  {
+    "bucket": 60,
+    "count": 781,
+    "year": 2021,
+    "city": "rosario"
+  },
+  {
+    "bucket": 120,
+    "count": 2346,
     "year": 2021,
     "city": "rosario"
   },
   {
     "bucket": 180,
-    "count": 54172,
+    "count": 8967,
+    "year": 2021,
+    "city": "rosario"
+  },
+  {
+    "bucket": 240,
+    "count": 17580,
+    "year": 2021,
+    "city": "rosario"
+  },
+  {
+    "bucket": 300,
+    "count": 27625,
     "year": 2021,
     "city": "rosario"
   },
   {
     "bucket": 360,
-    "count": 140812,
+    "count": 38436,
+    "year": 2021,
+    "city": "rosario"
+  },
+  {
+    "bucket": 420,
+    "count": 48068,
+    "year": 2021,
+    "city": "rosario"
+  },
+  {
+    "bucket": 480,
+    "count": 54308,
     "year": 2021,
     "city": "rosario"
   },
   {
     "bucket": 540,
-    "count": 177019,
+    "count": 58639,
+    "year": 2021,
+    "city": "rosario"
+  },
+  {
+    "bucket": 600,
+    "count": 59425,
+    "year": 2021,
+    "city": "rosario"
+  },
+  {
+    "bucket": 660,
+    "count": 58955,
     "year": 2021,
     "city": "rosario"
   },
   {
     "bucket": 720,
-    "count": 165673,
+    "count": 57194,
+    "year": 2021,
+    "city": "rosario"
+  },
+  {
+    "bucket": 780,
+    "count": 55168,
+    "year": 2021,
+    "city": "rosario"
+  },
+  {
+    "bucket": 840,
+    "count": 53311,
     "year": 2021,
     "city": "rosario"
   },
   {
     "bucket": 900,
-    "count": 137874,
+    "count": 49504,
+    "year": 2021,
+    "city": "rosario"
+  },
+  {
+    "bucket": 960,
+    "count": 46015,
+    "year": 2021,
+    "city": "rosario"
+  },
+  {
+    "bucket": 1020,
+    "count": 42355,
     "year": 2021,
     "city": "rosario"
   },
   {
     "bucket": 1080,
-    "count": 106246,
+    "count": 38729,
+    "year": 2021,
+    "city": "rosario"
+  },
+  {
+    "bucket": 1140,
+    "count": 35617,
+    "year": 2021,
+    "city": "rosario"
+  },
+  {
+    "bucket": 1200,
+    "count": 31900,
     "year": 2021,
     "city": "rosario"
   },
   {
     "bucket": 1260,
-    "count": 77516,
+    "count": 29012,
+    "year": 2021,
+    "city": "rosario"
+  },
+  {
+    "bucket": 1320,
+    "count": 25685,
+    "year": 2021,
+    "city": "rosario"
+  },
+  {
+    "bucket": 1380,
+    "count": 22819,
     "year": 2021,
     "city": "rosario"
   },
   {
     "bucket": 1440,
-    "count": 56518,
+    "count": 20644,
+    "year": 2021,
+    "city": "rosario"
+  },
+  {
+    "bucket": 1500,
+    "count": 18869,
+    "year": 2021,
+    "city": "rosario"
+  },
+  {
+    "bucket": 1560,
+    "count": 17005,
     "year": 2021,
     "city": "rosario"
   },
   {
     "bucket": 1620,
-    "count": 42028,
+    "count": 15474,
+    "year": 2021,
+    "city": "rosario"
+  },
+  {
+    "bucket": 1680,
+    "count": 13851,
+    "year": 2021,
+    "city": "rosario"
+  },
+  {
+    "bucket": 1740,
+    "count": 12703,
     "year": 2021,
     "city": "rosario"
   },
   {
     "bucket": 1800,
-    "count": 32296,
+    "count": 11595,
+    "year": 2021,
+    "city": "rosario"
+  },
+  {
+    "bucket": 1860,
+    "count": 10749,
+    "year": 2021,
+    "city": "rosario"
+  },
+  {
+    "bucket": 1920,
+    "count": 9952,
     "year": 2021,
     "city": "rosario"
   },
   {
     "bucket": 1980,
-    "count": 25157,
+    "count": 8930,
+    "year": 2021,
+    "city": "rosario"
+  },
+  {
+    "bucket": 2040,
+    "count": 8396,
+    "year": 2021,
+    "city": "rosario"
+  },
+  {
+    "bucket": 2100,
+    "count": 7831,
     "year": 2021,
     "city": "rosario"
   },
   {
     "bucket": 2160,
-    "count": 20894,
+    "count": 7458,
+    "year": 2021,
+    "city": "rosario"
+  },
+  {
+    "bucket": 2220,
+    "count": 6954,
+    "year": 2021,
+    "city": "rosario"
+  },
+  {
+    "bucket": 2280,
+    "count": 6482,
     "year": 2021,
     "city": "rosario"
   },
   {
     "bucket": 2340,
-    "count": 17818,
+    "count": 6286,
+    "year": 2021,
+    "city": "rosario"
+  },
+  {
+    "bucket": 2400,
+    "count": 5926,
+    "year": 2021,
+    "city": "rosario"
+  },
+  {
+    "bucket": 2460,
+    "count": 5606,
     "year": 2021,
     "city": "rosario"
   },
   {
     "bucket": 2520,
-    "count": 15749,
+    "count": 5511,
+    "year": 2021,
+    "city": "rosario"
+  },
+  {
+    "bucket": 2580,
+    "count": 5262,
+    "year": 2021,
+    "city": "rosario"
+  },
+  {
+    "bucket": 2640,
+    "count": 4976,
     "year": 2021,
     "city": "rosario"
   },
   {
     "bucket": 2700,
-    "count": 14042,
+    "count": 4842,
+    "year": 2021,
+    "city": "rosario"
+  },
+  {
+    "bucket": 2760,
+    "count": 4639,
+    "year": 2021,
+    "city": "rosario"
+  },
+  {
+    "bucket": 2820,
+    "count": 4561,
     "year": 2021,
     "city": "rosario"
   },
   {
     "bucket": 2880,
-    "count": 12713,
+    "count": 4382,
+    "year": 2021,
+    "city": "rosario"
+  },
+  {
+    "bucket": 2940,
+    "count": 4101,
+    "year": 2021,
+    "city": "rosario"
+  },
+  {
+    "bucket": 3000,
+    "count": 4230,
     "year": 2021,
     "city": "rosario"
   },
   {
     "bucket": 3060,
-    "count": 11178,
+    "count": 3820,
+    "year": 2021,
+    "city": "rosario"
+  },
+  {
+    "bucket": 3120,
+    "count": 3836,
+    "year": 2021,
+    "city": "rosario"
+  },
+  {
+    "bucket": 3180,
+    "count": 3522,
     "year": 2021,
     "city": "rosario"
   },
   {
     "bucket": 3240,
-    "count": 9783,
+    "count": 3394,
+    "year": 2021,
+    "city": "rosario"
+  },
+  {
+    "bucket": 3300,
+    "count": 3284,
+    "year": 2021,
+    "city": "rosario"
+  },
+  {
+    "bucket": 3360,
+    "count": 3105,
     "year": 2021,
     "city": "rosario"
   },
   {
     "bucket": 3420,
-    "count": 8858,
+    "count": 3088,
+    "year": 2021,
+    "city": "rosario"
+  },
+  {
+    "bucket": 3480,
+    "count": 2892,
+    "year": 2021,
+    "city": "rosario"
+  },
+  {
+    "bucket": 3540,
+    "count": 2878,
     "year": 2021,
     "city": "rosario"
   },
   {
     "bucket": 3600,
-    "count": 7434,
+    "count": 2568,
+    "year": 2021,
+    "city": "rosario"
+  },
+  {
+    "bucket": 3660,
+    "count": 2517,
+    "year": 2021,
+    "city": "rosario"
+  },
+  {
+    "bucket": 3720,
+    "count": 2349,
     "year": 2021,
     "city": "rosario"
   },
   {
     "bucket": 3780,
-    "count": 6196,
+    "count": 2216,
+    "year": 2021,
+    "city": "rosario"
+  },
+  {
+    "bucket": 3840,
+    "count": 2057,
+    "year": 2021,
+    "city": "rosario"
+  },
+  {
+    "bucket": 3900,
+    "count": 1923,
     "year": 2021,
     "city": "rosario"
   },
   {
     "bucket": 3960,
-    "count": 5260,
+    "count": 1859,
+    "year": 2021,
+    "city": "rosario"
+  },
+  {
+    "bucket": 4020,
+    "count": 1717,
+    "year": 2021,
+    "city": "rosario"
+  },
+  {
+    "bucket": 4080,
+    "count": 1684,
     "year": 2021,
     "city": "rosario"
   },
   {
     "bucket": 4140,
-    "count": 4568,
+    "count": 1593,
+    "year": 2021,
+    "city": "rosario"
+  },
+  {
+    "bucket": 4200,
+    "count": 1497,
+    "year": 2021,
+    "city": "rosario"
+  },
+  {
+    "bucket": 4260,
+    "count": 1478,
     "year": 2021,
     "city": "rosario"
   },
   {
     "bucket": 4320,
-    "count": 4005,
+    "count": 1419,
+    "year": 2021,
+    "city": "rosario"
+  },
+  {
+    "bucket": 4380,
+    "count": 1324,
+    "year": 2021,
+    "city": "rosario"
+  },
+  {
+    "bucket": 4440,
+    "count": 1262,
     "year": 2021,
     "city": "rosario"
   },
   {
     "bucket": 4500,
-    "count": 3568,
+    "count": 1219,
+    "year": 2021,
+    "city": "rosario"
+  },
+  {
+    "bucket": 4560,
+    "count": 1212,
+    "year": 2021,
+    "city": "rosario"
+  },
+  {
+    "bucket": 4620,
+    "count": 1137,
     "year": 2021,
     "city": "rosario"
   },
   {
     "bucket": 4680,
-    "count": 3014,
+    "count": 1086,
+    "year": 2021,
+    "city": "rosario"
+  },
+  {
+    "bucket": 4740,
+    "count": 977,
+    "year": 2021,
+    "city": "rosario"
+  },
+  {
+    "bucket": 4800,
+    "count": 951,
     "year": 2021,
     "city": "rosario"
   },
   {
     "bucket": 4860,
-    "count": 2740,
+    "count": 942,
+    "year": 2021,
+    "city": "rosario"
+  },
+  {
+    "bucket": 4920,
+    "count": 937,
+    "year": 2021,
+    "city": "rosario"
+  },
+  {
+    "bucket": 4980,
+    "count": 861,
     "year": 2021,
     "city": "rosario"
   },
   {
     "bucket": 5040,
-    "count": 2467,
+    "count": 837,
+    "year": 2021,
+    "city": "rosario"
+  },
+  {
+    "bucket": 5100,
+    "count": 811,
+    "year": 2021,
+    "city": "rosario"
+  },
+  {
+    "bucket": 5160,
+    "count": 819,
     "year": 2021,
     "city": "rosario"
   },
   {
     "bucket": 5220,
-    "count": 2020,
+    "count": 728,
+    "year": 2021,
+    "city": "rosario"
+  },
+  {
+    "bucket": 5280,
+    "count": 669,
+    "year": 2021,
+    "city": "rosario"
+  },
+  {
+    "bucket": 5340,
+    "count": 623,
     "year": 2021,
     "city": "rosario"
   },
   {
     "bucket": 5400,
-    "count": 1555,
+    "count": 530,
+    "year": 2021,
+    "city": "rosario"
+  },
+  {
+    "bucket": 5460,
+    "count": 523,
+    "year": 2021,
+    "city": "rosario"
+  },
+  {
+    "bucket": 5520,
+    "count": 502,
     "year": 2021,
     "city": "rosario"
   },
   {
     "bucket": 5580,
-    "count": 1300,
+    "count": 467,
+    "year": 2021,
+    "city": "rosario"
+  },
+  {
+    "bucket": 5640,
+    "count": 426,
+    "year": 2021,
+    "city": "rosario"
+  },
+  {
+    "bucket": 5700,
+    "count": 407,
     "year": 2021,
     "city": "rosario"
   },
   {
     "bucket": 5760,
-    "count": 1102,
+    "count": 381,
+    "year": 2021,
+    "city": "rosario"
+  },
+  {
+    "bucket": 5820,
+    "count": 346,
+    "year": 2021,
+    "city": "rosario"
+  },
+  {
+    "bucket": 5880,
+    "count": 375,
     "year": 2021,
     "city": "rosario"
   },
   {
     "bucket": 5940,
-    "count": 947,
+    "count": 348,
+    "year": 2021,
+    "city": "rosario"
+  },
+  {
+    "bucket": 6000,
+    "count": 292,
+    "year": 2021,
+    "city": "rosario"
+  },
+  {
+    "bucket": 6060,
+    "count": 307,
     "year": 2021,
     "city": "rosario"
   },
   {
     "bucket": 6120,
-    "count": 812,
+    "count": 284,
+    "year": 2021,
+    "city": "rosario"
+  },
+  {
+    "bucket": 6180,
+    "count": 276,
+    "year": 2021,
+    "city": "rosario"
+  },
+  {
+    "bucket": 6240,
+    "count": 252,
     "year": 2021,
     "city": "rosario"
   },
   {
     "bucket": 6300,
-    "count": 754,
+    "count": 269,
+    "year": 2021,
+    "city": "rosario"
+  },
+  {
+    "bucket": 6360,
+    "count": 242,
+    "year": 2021,
+    "city": "rosario"
+  },
+  {
+    "bucket": 6420,
+    "count": 243,
     "year": 2021,
     "city": "rosario"
   },
   {
     "bucket": 6480,
-    "count": 711,
+    "count": 226,
+    "year": 2021,
+    "city": "rosario"
+  },
+  {
+    "bucket": 6540,
+    "count": 235,
+    "year": 2021,
+    "city": "rosario"
+  },
+  {
+    "bucket": 6600,
+    "count": 250,
     "year": 2021,
     "city": "rosario"
   },
   {
     "bucket": 6660,
-    "count": 590,
+    "count": 210,
+    "year": 2021,
+    "city": "rosario"
+  },
+  {
+    "bucket": 6720,
+    "count": 200,
+    "year": 2021,
+    "city": "rosario"
+  },
+  {
+    "bucket": 6780,
+    "count": 180,
     "year": 2021,
     "city": "rosario"
   },
   {
     "bucket": 6840,
-    "count": 546,
+    "count": 208,
+    "year": 2021,
+    "city": "rosario"
+  },
+  {
+    "bucket": 6900,
+    "count": 156,
+    "year": 2021,
+    "city": "rosario"
+  },
+  {
+    "bucket": 6960,
+    "count": 182,
     "year": 2021,
     "city": "rosario"
   },
   {
     "bucket": 7020,
-    "count": 489,
+    "count": 172,
+    "year": 2021,
+    "city": "rosario"
+  },
+  {
+    "bucket": 7080,
+    "count": 165,
+    "year": 2021,
+    "city": "rosario"
+  },
+  {
+    "bucket": 7140,
+    "count": 152,
     "year": 2021,
     "city": "rosario"
   },
@@ -739,241 +2179,721 @@
   },
   {
     "bucket": 0,
-    "count": 5417,
+    "count": 25,
+    "year": 2022,
+    "city": "rosario"
+  },
+  {
+    "bucket": 60,
+    "count": 1634,
+    "year": 2022,
+    "city": "rosario"
+  },
+  {
+    "bucket": 120,
+    "count": 3758,
     "year": 2022,
     "city": "rosario"
   },
   {
     "bucket": 180,
-    "count": 74641,
+    "count": 13073,
+    "year": 2022,
+    "city": "rosario"
+  },
+  {
+    "bucket": 240,
+    "count": 24468,
+    "year": 2022,
+    "city": "rosario"
+  },
+  {
+    "bucket": 300,
+    "count": 37100,
     "year": 2022,
     "city": "rosario"
   },
   {
     "bucket": 360,
-    "count": 169747,
+    "count": 48067,
+    "year": 2022,
+    "city": "rosario"
+  },
+  {
+    "bucket": 420,
+    "count": 57986,
+    "year": 2022,
+    "city": "rosario"
+  },
+  {
+    "bucket": 480,
+    "count": 63694,
     "year": 2022,
     "city": "rosario"
   },
   {
     "bucket": 540,
-    "count": 193779,
+    "count": 65546,
+    "year": 2022,
+    "city": "rosario"
+  },
+  {
+    "bucket": 600,
+    "count": 64567,
+    "year": 2022,
+    "city": "rosario"
+  },
+  {
+    "bucket": 660,
+    "count": 63666,
     "year": 2022,
     "city": "rosario"
   },
   {
     "bucket": 720,
-    "count": 179687,
+    "count": 62095,
+    "year": 2022,
+    "city": "rosario"
+  },
+  {
+    "bucket": 780,
+    "count": 60175,
+    "year": 2022,
+    "city": "rosario"
+  },
+  {
+    "bucket": 840,
+    "count": 57417,
     "year": 2022,
     "city": "rosario"
   },
   {
     "bucket": 900,
-    "count": 149023,
+    "count": 53463,
+    "year": 2022,
+    "city": "rosario"
+  },
+  {
+    "bucket": 960,
+    "count": 49970,
+    "year": 2022,
+    "city": "rosario"
+  },
+  {
+    "bucket": 1020,
+    "count": 45590,
     "year": 2022,
     "city": "rosario"
   },
   {
     "bucket": 1080,
-    "count": 113065,
+    "count": 41685,
+    "year": 2022,
+    "city": "rosario"
+  },
+  {
+    "bucket": 1140,
+    "count": 37613,
+    "year": 2022,
+    "city": "rosario"
+  },
+  {
+    "bucket": 1200,
+    "count": 33767,
     "year": 2022,
     "city": "rosario"
   },
   {
     "bucket": 1260,
-    "count": 81857,
+    "count": 30029,
+    "year": 2022,
+    "city": "rosario"
+  },
+  {
+    "bucket": 1320,
+    "count": 27438,
+    "year": 2022,
+    "city": "rosario"
+  },
+  {
+    "bucket": 1380,
+    "count": 24390,
     "year": 2022,
     "city": "rosario"
   },
   {
     "bucket": 1440,
-    "count": 60140,
+    "count": 22022,
+    "year": 2022,
+    "city": "rosario"
+  },
+  {
+    "bucket": 1500,
+    "count": 20122,
+    "year": 2022,
+    "city": "rosario"
+  },
+  {
+    "bucket": 1560,
+    "count": 17996,
     "year": 2022,
     "city": "rosario"
   },
   {
     "bucket": 1620,
-    "count": 44869,
+    "count": 16438,
+    "year": 2022,
+    "city": "rosario"
+  },
+  {
+    "bucket": 1680,
+    "count": 14855,
+    "year": 2022,
+    "city": "rosario"
+  },
+  {
+    "bucket": 1740,
+    "count": 13576,
     "year": 2022,
     "city": "rosario"
   },
   {
     "bucket": 1800,
-    "count": 34833,
+    "count": 12590,
+    "year": 2022,
+    "city": "rosario"
+  },
+  {
+    "bucket": 1860,
+    "count": 11658,
+    "year": 2022,
+    "city": "rosario"
+  },
+  {
+    "bucket": 1920,
+    "count": 10585,
     "year": 2022,
     "city": "rosario"
   },
   {
     "bucket": 1980,
-    "count": 27766,
+    "count": 9886,
+    "year": 2022,
+    "city": "rosario"
+  },
+  {
+    "bucket": 2040,
+    "count": 9263,
+    "year": 2022,
+    "city": "rosario"
+  },
+  {
+    "bucket": 2100,
+    "count": 8617,
     "year": 2022,
     "city": "rosario"
   },
   {
     "bucket": 2160,
-    "count": 23163,
+    "count": 8015,
+    "year": 2022,
+    "city": "rosario"
+  },
+  {
+    "bucket": 2220,
+    "count": 7906,
+    "year": 2022,
+    "city": "rosario"
+  },
+  {
+    "bucket": 2280,
+    "count": 7242,
     "year": 2022,
     "city": "rosario"
   },
   {
     "bucket": 2340,
-    "count": 19570,
+    "count": 6910,
+    "year": 2022,
+    "city": "rosario"
+  },
+  {
+    "bucket": 2400,
+    "count": 6380,
+    "year": 2022,
+    "city": "rosario"
+  },
+  {
+    "bucket": 2460,
+    "count": 6280,
     "year": 2022,
     "city": "rosario"
   },
   {
     "bucket": 2520,
-    "count": 16745,
+    "count": 5858,
+    "year": 2022,
+    "city": "rosario"
+  },
+  {
+    "bucket": 2580,
+    "count": 5599,
+    "year": 2022,
+    "city": "rosario"
+  },
+  {
+    "bucket": 2640,
+    "count": 5288,
     "year": 2022,
     "city": "rosario"
   },
   {
     "bucket": 2700,
-    "count": 14989,
+    "count": 5205,
+    "year": 2022,
+    "city": "rosario"
+  },
+  {
+    "bucket": 2760,
+    "count": 5042,
+    "year": 2022,
+    "city": "rosario"
+  },
+  {
+    "bucket": 2820,
+    "count": 4742,
     "year": 2022,
     "city": "rosario"
   },
   {
     "bucket": 2880,
-    "count": 13105,
+    "count": 4594,
+    "year": 2022,
+    "city": "rosario"
+  },
+  {
+    "bucket": 2940,
+    "count": 4316,
+    "year": 2022,
+    "city": "rosario"
+  },
+  {
+    "bucket": 3000,
+    "count": 4195,
     "year": 2022,
     "city": "rosario"
   },
   {
     "bucket": 3060,
-    "count": 11749,
+    "count": 4087,
+    "year": 2022,
+    "city": "rosario"
+  },
+  {
+    "bucket": 3120,
+    "count": 3869,
+    "year": 2022,
+    "city": "rosario"
+  },
+  {
+    "bucket": 3180,
+    "count": 3793,
     "year": 2022,
     "city": "rosario"
   },
   {
     "bucket": 3240,
-    "count": 10502,
+    "count": 3604,
+    "year": 2022,
+    "city": "rosario"
+  },
+  {
+    "bucket": 3300,
+    "count": 3528,
+    "year": 2022,
+    "city": "rosario"
+  },
+  {
+    "bucket": 3360,
+    "count": 3370,
     "year": 2022,
     "city": "rosario"
   },
   {
     "bucket": 3420,
-    "count": 9246,
+    "count": 3272,
+    "year": 2022,
+    "city": "rosario"
+  },
+  {
+    "bucket": 3480,
+    "count": 3015,
+    "year": 2022,
+    "city": "rosario"
+  },
+  {
+    "bucket": 3540,
+    "count": 2959,
     "year": 2022,
     "city": "rosario"
   },
   {
     "bucket": 3600,
-    "count": 7938,
+    "count": 2746,
+    "year": 2022,
+    "city": "rosario"
+  },
+  {
+    "bucket": 3660,
+    "count": 2659,
+    "year": 2022,
+    "city": "rosario"
+  },
+  {
+    "bucket": 3720,
+    "count": 2533,
     "year": 2022,
     "city": "rosario"
   },
   {
     "bucket": 3780,
-    "count": 7014,
+    "count": 2450,
+    "year": 2022,
+    "city": "rosario"
+  },
+  {
+    "bucket": 3840,
+    "count": 2350,
+    "year": 2022,
+    "city": "rosario"
+  },
+  {
+    "bucket": 3900,
+    "count": 2214,
     "year": 2022,
     "city": "rosario"
   },
   {
     "bucket": 3960,
-    "count": 6029,
+    "count": 2103,
+    "year": 2022,
+    "city": "rosario"
+  },
+  {
+    "bucket": 4020,
+    "count": 2014,
+    "year": 2022,
+    "city": "rosario"
+  },
+  {
+    "bucket": 4080,
+    "count": 1912,
     "year": 2022,
     "city": "rosario"
   },
   {
     "bucket": 4140,
-    "count": 5226,
+    "count": 1771,
+    "year": 2022,
+    "city": "rosario"
+  },
+  {
+    "bucket": 4200,
+    "count": 1790,
+    "year": 2022,
+    "city": "rosario"
+  },
+  {
+    "bucket": 4260,
+    "count": 1665,
     "year": 2022,
     "city": "rosario"
   },
   {
     "bucket": 4320,
-    "count": 4733,
+    "count": 1635,
+    "year": 2022,
+    "city": "rosario"
+  },
+  {
+    "bucket": 4380,
+    "count": 1582,
+    "year": 2022,
+    "city": "rosario"
+  },
+  {
+    "bucket": 4440,
+    "count": 1516,
     "year": 2022,
     "city": "rosario"
   },
   {
     "bucket": 4500,
-    "count": 4083,
+    "count": 1446,
+    "year": 2022,
+    "city": "rosario"
+  },
+  {
+    "bucket": 4560,
+    "count": 1333,
+    "year": 2022,
+    "city": "rosario"
+  },
+  {
+    "bucket": 4620,
+    "count": 1304,
     "year": 2022,
     "city": "rosario"
   },
   {
     "bucket": 4680,
-    "count": 3632,
+    "count": 1283,
+    "year": 2022,
+    "city": "rosario"
+  },
+  {
+    "bucket": 4740,
+    "count": 1194,
+    "year": 2022,
+    "city": "rosario"
+  },
+  {
+    "bucket": 4800,
+    "count": 1155,
     "year": 2022,
     "city": "rosario"
   },
   {
     "bucket": 4860,
-    "count": 3148,
+    "count": 1047,
+    "year": 2022,
+    "city": "rosario"
+  },
+  {
+    "bucket": 4920,
+    "count": 1045,
+    "year": 2022,
+    "city": "rosario"
+  },
+  {
+    "bucket": 4980,
+    "count": 1056,
     "year": 2022,
     "city": "rosario"
   },
   {
     "bucket": 5040,
-    "count": 2795,
+    "count": 939,
+    "year": 2022,
+    "city": "rosario"
+  },
+  {
+    "bucket": 5100,
+    "count": 937,
+    "year": 2022,
+    "city": "rosario"
+  },
+  {
+    "bucket": 5160,
+    "count": 919,
     "year": 2022,
     "city": "rosario"
   },
   {
     "bucket": 5220,
-    "count": 2294,
+    "count": 798,
+    "year": 2022,
+    "city": "rosario"
+  },
+  {
+    "bucket": 5280,
+    "count": 793,
+    "year": 2022,
+    "city": "rosario"
+  },
+  {
+    "bucket": 5340,
+    "count": 703,
     "year": 2022,
     "city": "rosario"
   },
   {
     "bucket": 5400,
-    "count": 1773,
+    "count": 619,
+    "year": 2022,
+    "city": "rosario"
+  },
+  {
+    "bucket": 5460,
+    "count": 575,
+    "year": 2022,
+    "city": "rosario"
+  },
+  {
+    "bucket": 5520,
+    "count": 579,
     "year": 2022,
     "city": "rosario"
   },
   {
     "bucket": 5580,
-    "count": 1497,
+    "count": 530,
+    "year": 2022,
+    "city": "rosario"
+  },
+  {
+    "bucket": 5640,
+    "count": 480,
+    "year": 2022,
+    "city": "rosario"
+  },
+  {
+    "bucket": 5700,
+    "count": 487,
     "year": 2022,
     "city": "rosario"
   },
   {
     "bucket": 5760,
-    "count": 1254,
+    "count": 419,
+    "year": 2022,
+    "city": "rosario"
+  },
+  {
+    "bucket": 5820,
+    "count": 430,
+    "year": 2022,
+    "city": "rosario"
+  },
+  {
+    "bucket": 5880,
+    "count": 405,
     "year": 2022,
     "city": "rosario"
   },
   {
     "bucket": 5940,
-    "count": 1163,
+    "count": 393,
+    "year": 2022,
+    "city": "rosario"
+  },
+  {
+    "bucket": 6000,
+    "count": 370,
+    "year": 2022,
+    "city": "rosario"
+  },
+  {
+    "bucket": 6060,
+    "count": 400,
     "year": 2022,
     "city": "rosario"
   },
   {
     "bucket": 6120,
-    "count": 1071,
+    "count": 373,
+    "year": 2022,
+    "city": "rosario"
+  },
+  {
+    "bucket": 6180,
+    "count": 337,
+    "year": 2022,
+    "city": "rosario"
+  },
+  {
+    "bucket": 6240,
+    "count": 361,
     "year": 2022,
     "city": "rosario"
   },
   {
     "bucket": 6300,
-    "count": 888,
+    "count": 312,
+    "year": 2022,
+    "city": "rosario"
+  },
+  {
+    "bucket": 6360,
+    "count": 271,
+    "year": 2022,
+    "city": "rosario"
+  },
+  {
+    "bucket": 6420,
+    "count": 305,
     "year": 2022,
     "city": "rosario"
   },
   {
     "bucket": 6480,
-    "count": 851,
+    "count": 292,
+    "year": 2022,
+    "city": "rosario"
+  },
+  {
+    "bucket": 6540,
+    "count": 273,
+    "year": 2022,
+    "city": "rosario"
+  },
+  {
+    "bucket": 6600,
+    "count": 286,
     "year": 2022,
     "city": "rosario"
   },
   {
     "bucket": 6660,
-    "count": 728,
+    "count": 250,
+    "year": 2022,
+    "city": "rosario"
+  },
+  {
+    "bucket": 6720,
+    "count": 245,
+    "year": 2022,
+    "city": "rosario"
+  },
+  {
+    "bucket": 6780,
+    "count": 233,
     "year": 2022,
     "city": "rosario"
   },
   {
     "bucket": 6840,
-    "count": 629,
+    "count": 242,
+    "year": 2022,
+    "city": "rosario"
+  },
+  {
+    "bucket": 6900,
+    "count": 193,
+    "year": 2022,
+    "city": "rosario"
+  },
+  {
+    "bucket": 6960,
+    "count": 194,
     "year": 2022,
     "city": "rosario"
   },
   {
     "bucket": 7020,
-    "count": 654,
+    "count": 218,
+    "year": 2022,
+    "city": "rosario"
+  },
+  {
+    "bucket": 7080,
+    "count": 204,
+    "year": 2022,
+    "city": "rosario"
+  },
+  {
+    "bucket": 7140,
+    "count": 232,
     "year": 2022,
     "city": "rosario"
   },
@@ -985,241 +2905,721 @@
   },
   {
     "bucket": 0,
-    "count": 5223,
+    "count": 12,
+    "year": 2023,
+    "city": "rosario"
+  },
+  {
+    "bucket": 60,
+    "count": 1498,
+    "year": 2023,
+    "city": "rosario"
+  },
+  {
+    "bucket": 120,
+    "count": 3713,
     "year": 2023,
     "city": "rosario"
   },
   {
     "bucket": 180,
-    "count": 65835,
+    "count": 12819,
+    "year": 2023,
+    "city": "rosario"
+  },
+  {
+    "bucket": 240,
+    "count": 22232,
+    "year": 2023,
+    "city": "rosario"
+  },
+  {
+    "bucket": 300,
+    "count": 30784,
     "year": 2023,
     "city": "rosario"
   },
   {
     "bucket": 360,
-    "count": 136657,
+    "count": 39566,
+    "year": 2023,
+    "city": "rosario"
+  },
+  {
+    "bucket": 420,
+    "count": 46408,
+    "year": 2023,
+    "city": "rosario"
+  },
+  {
+    "bucket": 480,
+    "count": 50683,
     "year": 2023,
     "city": "rosario"
   },
   {
     "bucket": 540,
-    "count": 149735,
+    "count": 51453,
+    "year": 2023,
+    "city": "rosario"
+  },
+  {
+    "bucket": 600,
+    "count": 49408,
+    "year": 2023,
+    "city": "rosario"
+  },
+  {
+    "bucket": 660,
+    "count": 48874,
     "year": 2023,
     "city": "rosario"
   },
   {
     "bucket": 720,
-    "count": 134492,
+    "count": 46912,
+    "year": 2023,
+    "city": "rosario"
+  },
+  {
+    "bucket": 780,
+    "count": 44995,
+    "year": 2023,
+    "city": "rosario"
+  },
+  {
+    "bucket": 840,
+    "count": 42585,
     "year": 2023,
     "city": "rosario"
   },
   {
     "bucket": 900,
-    "count": 111137,
+    "count": 40031,
+    "year": 2023,
+    "city": "rosario"
+  },
+  {
+    "bucket": 960,
+    "count": 36776,
+    "year": 2023,
+    "city": "rosario"
+  },
+  {
+    "bucket": 1020,
+    "count": 34330,
     "year": 2023,
     "city": "rosario"
   },
   {
     "bucket": 1080,
-    "count": 85115,
+    "count": 31184,
+    "year": 2023,
+    "city": "rosario"
+  },
+  {
+    "bucket": 1140,
+    "count": 28401,
+    "year": 2023,
+    "city": "rosario"
+  },
+  {
+    "bucket": 1200,
+    "count": 25530,
     "year": 2023,
     "city": "rosario"
   },
   {
     "bucket": 1260,
-    "count": 63716,
+    "count": 23231,
+    "year": 2023,
+    "city": "rosario"
+  },
+  {
+    "bucket": 1320,
+    "count": 21275,
+    "year": 2023,
+    "city": "rosario"
+  },
+  {
+    "bucket": 1380,
+    "count": 19210,
     "year": 2023,
     "city": "rosario"
   },
   {
     "bucket": 1440,
-    "count": 47064,
+    "count": 17165,
+    "year": 2023,
+    "city": "rosario"
+  },
+  {
+    "bucket": 1500,
+    "count": 15657,
+    "year": 2023,
+    "city": "rosario"
+  },
+  {
+    "bucket": 1560,
+    "count": 14242,
     "year": 2023,
     "city": "rosario"
   },
   {
     "bucket": 1620,
-    "count": 36127,
+    "count": 13095,
+    "year": 2023,
+    "city": "rosario"
+  },
+  {
+    "bucket": 1680,
+    "count": 12066,
+    "year": 2023,
+    "city": "rosario"
+  },
+  {
+    "bucket": 1740,
+    "count": 10966,
     "year": 2023,
     "city": "rosario"
   },
   {
     "bucket": 1800,
-    "count": 28791,
+    "count": 10232,
+    "year": 2023,
+    "city": "rosario"
+  },
+  {
+    "bucket": 1860,
+    "count": 9783,
+    "year": 2023,
+    "city": "rosario"
+  },
+  {
+    "bucket": 1920,
+    "count": 8776,
     "year": 2023,
     "city": "rosario"
   },
   {
     "bucket": 1980,
-    "count": 23736,
+    "count": 8437,
+    "year": 2023,
+    "city": "rosario"
+  },
+  {
+    "bucket": 2040,
+    "count": 7884,
+    "year": 2023,
+    "city": "rosario"
+  },
+  {
+    "bucket": 2100,
+    "count": 7415,
     "year": 2023,
     "city": "rosario"
   },
   {
     "bucket": 2160,
-    "count": 20089,
+    "count": 6990,
+    "year": 2023,
+    "city": "rosario"
+  },
+  {
+    "bucket": 2220,
+    "count": 6639,
+    "year": 2023,
+    "city": "rosario"
+  },
+  {
+    "bucket": 2280,
+    "count": 6460,
     "year": 2023,
     "city": "rosario"
   },
   {
     "bucket": 2340,
-    "count": 17084,
+    "count": 5950,
+    "year": 2023,
+    "city": "rosario"
+  },
+  {
+    "bucket": 2400,
+    "count": 5676,
+    "year": 2023,
+    "city": "rosario"
+  },
+  {
+    "bucket": 2460,
+    "count": 5458,
     "year": 2023,
     "city": "rosario"
   },
   {
     "bucket": 2520,
-    "count": 15302,
+    "count": 5263,
+    "year": 2023,
+    "city": "rosario"
+  },
+  {
+    "bucket": 2580,
+    "count": 5128,
+    "year": 2023,
+    "city": "rosario"
+  },
+  {
+    "bucket": 2640,
+    "count": 4911,
     "year": 2023,
     "city": "rosario"
   },
   {
     "bucket": 2700,
-    "count": 13665,
+    "count": 4701,
+    "year": 2023,
+    "city": "rosario"
+  },
+  {
+    "bucket": 2760,
+    "count": 4598,
+    "year": 2023,
+    "city": "rosario"
+  },
+  {
+    "bucket": 2820,
+    "count": 4366,
     "year": 2023,
     "city": "rosario"
   },
   {
     "bucket": 2880,
-    "count": 12468,
+    "count": 4307,
+    "year": 2023,
+    "city": "rosario"
+  },
+  {
+    "bucket": 2940,
+    "count": 4089,
+    "year": 2023,
+    "city": "rosario"
+  },
+  {
+    "bucket": 3000,
+    "count": 4072,
     "year": 2023,
     "city": "rosario"
   },
   {
     "bucket": 3060,
-    "count": 11322,
+    "count": 3990,
+    "year": 2023,
+    "city": "rosario"
+  },
+  {
+    "bucket": 3120,
+    "count": 3672,
+    "year": 2023,
+    "city": "rosario"
+  },
+  {
+    "bucket": 3180,
+    "count": 3660,
     "year": 2023,
     "city": "rosario"
   },
   {
     "bucket": 3240,
-    "count": 10318,
+    "count": 3519,
+    "year": 2023,
+    "city": "rosario"
+  },
+  {
+    "bucket": 3300,
+    "count": 3474,
+    "year": 2023,
+    "city": "rosario"
+  },
+  {
+    "bucket": 3360,
+    "count": 3325,
     "year": 2023,
     "city": "rosario"
   },
   {
     "bucket": 3420,
-    "count": 9258,
+    "count": 3143,
+    "year": 2023,
+    "city": "rosario"
+  },
+  {
+    "bucket": 3480,
+    "count": 3137,
+    "year": 2023,
+    "city": "rosario"
+  },
+  {
+    "bucket": 3540,
+    "count": 2978,
     "year": 2023,
     "city": "rosario"
   },
   {
     "bucket": 3600,
-    "count": 8434,
+    "count": 2957,
+    "year": 2023,
+    "city": "rosario"
+  },
+  {
+    "bucket": 3660,
+    "count": 2761,
+    "year": 2023,
+    "city": "rosario"
+  },
+  {
+    "bucket": 3720,
+    "count": 2716,
     "year": 2023,
     "city": "rosario"
   },
   {
     "bucket": 3780,
-    "count": 7398,
+    "count": 2531,
+    "year": 2023,
+    "city": "rosario"
+  },
+  {
+    "bucket": 3840,
+    "count": 2503,
+    "year": 2023,
+    "city": "rosario"
+  },
+  {
+    "bucket": 3900,
+    "count": 2364,
     "year": 2023,
     "city": "rosario"
   },
   {
     "bucket": 3960,
-    "count": 6635,
+    "count": 2293,
+    "year": 2023,
+    "city": "rosario"
+  },
+  {
+    "bucket": 4020,
+    "count": 2183,
+    "year": 2023,
+    "city": "rosario"
+  },
+  {
+    "bucket": 4080,
+    "count": 2159,
     "year": 2023,
     "city": "rosario"
   },
   {
     "bucket": 4140,
-    "count": 5893,
+    "count": 2094,
+    "year": 2023,
+    "city": "rosario"
+  },
+  {
+    "bucket": 4200,
+    "count": 1974,
+    "year": 2023,
+    "city": "rosario"
+  },
+  {
+    "bucket": 4260,
+    "count": 1825,
     "year": 2023,
     "city": "rosario"
   },
   {
     "bucket": 4320,
-    "count": 5369,
+    "count": 1876,
+    "year": 2023,
+    "city": "rosario"
+  },
+  {
+    "bucket": 4380,
+    "count": 1795,
+    "year": 2023,
+    "city": "rosario"
+  },
+  {
+    "bucket": 4440,
+    "count": 1698,
     "year": 2023,
     "city": "rosario"
   },
   {
     "bucket": 4500,
-    "count": 4771,
+    "count": 1639,
     "year": 2023,
     "city": "rosario"
   },
   {
-    "bucket": 4680,
-    "count": 4133,
+    "bucket": 4560,
+    "count": 1606,
     "year": 2023,
     "city": "rosario"
   },
   {
-    "bucket": 4860,
-    "count": 3682,
-    "year": 2023,
-    "city": "rosario"
-  },
-  {
-    "bucket": 5040,
-    "count": 3232,
-    "year": 2023,
-    "city": "rosario"
-  },
-  {
-    "bucket": 5220,
-    "count": 2644,
-    "year": 2023,
-    "city": "rosario"
-  },
-  {
-    "bucket": 5400,
-    "count": 1961,
-    "year": 2023,
-    "city": "rosario"
-  },
-  {
-    "bucket": 5580,
+    "bucket": 4620,
     "count": 1526,
     "year": 2023,
     "city": "rosario"
   },
   {
+    "bucket": 4680,
+    "count": 1457,
+    "year": 2023,
+    "city": "rosario"
+  },
+  {
+    "bucket": 4740,
+    "count": 1387,
+    "year": 2023,
+    "city": "rosario"
+  },
+  {
+    "bucket": 4800,
+    "count": 1289,
+    "year": 2023,
+    "city": "rosario"
+  },
+  {
+    "bucket": 4860,
+    "count": 1340,
+    "year": 2023,
+    "city": "rosario"
+  },
+  {
+    "bucket": 4920,
+    "count": 1190,
+    "year": 2023,
+    "city": "rosario"
+  },
+  {
+    "bucket": 4980,
+    "count": 1152,
+    "year": 2023,
+    "city": "rosario"
+  },
+  {
+    "bucket": 5040,
+    "count": 1112,
+    "year": 2023,
+    "city": "rosario"
+  },
+  {
+    "bucket": 5100,
+    "count": 1073,
+    "year": 2023,
+    "city": "rosario"
+  },
+  {
+    "bucket": 5160,
+    "count": 1047,
+    "year": 2023,
+    "city": "rosario"
+  },
+  {
+    "bucket": 5220,
+    "count": 946,
+    "year": 2023,
+    "city": "rosario"
+  },
+  {
+    "bucket": 5280,
+    "count": 881,
+    "year": 2023,
+    "city": "rosario"
+  },
+  {
+    "bucket": 5340,
+    "count": 817,
+    "year": 2023,
+    "city": "rosario"
+  },
+  {
+    "bucket": 5400,
+    "count": 663,
+    "year": 2023,
+    "city": "rosario"
+  },
+  {
+    "bucket": 5460,
+    "count": 678,
+    "year": 2023,
+    "city": "rosario"
+  },
+  {
+    "bucket": 5520,
+    "count": 620,
+    "year": 2023,
+    "city": "rosario"
+  },
+  {
+    "bucket": 5580,
+    "count": 552,
+    "year": 2023,
+    "city": "rosario"
+  },
+  {
+    "bucket": 5640,
+    "count": 483,
+    "year": 2023,
+    "city": "rosario"
+  },
+  {
+    "bucket": 5700,
+    "count": 491,
+    "year": 2023,
+    "city": "rosario"
+  },
+  {
     "bucket": 5760,
-    "count": 1302,
+    "count": 441,
+    "year": 2023,
+    "city": "rosario"
+  },
+  {
+    "bucket": 5820,
+    "count": 433,
+    "year": 2023,
+    "city": "rosario"
+  },
+  {
+    "bucket": 5880,
+    "count": 428,
     "year": 2023,
     "city": "rosario"
   },
   {
     "bucket": 5940,
-    "count": 1227,
+    "count": 433,
+    "year": 2023,
+    "city": "rosario"
+  },
+  {
+    "bucket": 6000,
+    "count": 407,
+    "year": 2023,
+    "city": "rosario"
+  },
+  {
+    "bucket": 6060,
+    "count": 387,
     "year": 2023,
     "city": "rosario"
   },
   {
     "bucket": 6120,
-    "count": 1014,
+    "count": 351,
+    "year": 2023,
+    "city": "rosario"
+  },
+  {
+    "bucket": 6180,
+    "count": 352,
+    "year": 2023,
+    "city": "rosario"
+  },
+  {
+    "bucket": 6240,
+    "count": 311,
     "year": 2023,
     "city": "rosario"
   },
   {
     "bucket": 6300,
-    "count": 990,
+    "count": 349,
+    "year": 2023,
+    "city": "rosario"
+  },
+  {
+    "bucket": 6360,
+    "count": 315,
+    "year": 2023,
+    "city": "rosario"
+  },
+  {
+    "bucket": 6420,
+    "count": 326,
     "year": 2023,
     "city": "rosario"
   },
   {
     "bucket": 6480,
-    "count": 839,
+    "count": 284,
+    "year": 2023,
+    "city": "rosario"
+  },
+  {
+    "bucket": 6540,
+    "count": 274,
+    "year": 2023,
+    "city": "rosario"
+  },
+  {
+    "bucket": 6600,
+    "count": 281,
     "year": 2023,
     "city": "rosario"
   },
   {
     "bucket": 6660,
-    "count": 760,
+    "count": 270,
+    "year": 2023,
+    "city": "rosario"
+  },
+  {
+    "bucket": 6720,
+    "count": 236,
+    "year": 2023,
+    "city": "rosario"
+  },
+  {
+    "bucket": 6780,
+    "count": 254,
     "year": 2023,
     "city": "rosario"
   },
   {
     "bucket": 6840,
-    "count": 649,
+    "count": 206,
+    "year": 2023,
+    "city": "rosario"
+  },
+  {
+    "bucket": 6900,
+    "count": 239,
+    "year": 2023,
+    "city": "rosario"
+  },
+  {
+    "bucket": 6960,
+    "count": 204,
     "year": 2023,
     "city": "rosario"
   },
   {
     "bucket": 7020,
-    "count": 636,
+    "count": 207,
+    "year": 2023,
+    "city": "rosario"
+  },
+  {
+    "bucket": 7080,
+    "count": 212,
+    "year": 2023,
+    "city": "rosario"
+  },
+  {
+    "bucket": 7140,
+    "count": 217,
     "year": 2023,
     "city": "rosario"
   },
@@ -1230,242 +3630,716 @@
     "city": "rosario"
   },
   {
-    "bucket": 0,
-    "count": 952,
+    "bucket": 60,
+    "count": 170,
+    "year": 2024,
+    "city": "rosario"
+  },
+  {
+    "bucket": 120,
+    "count": 782,
     "year": 2024,
     "city": "rosario"
   },
   {
     "bucket": 180,
-    "count": 13808,
+    "count": 2211,
+    "year": 2024,
+    "city": "rosario"
+  },
+  {
+    "bucket": 240,
+    "count": 4651,
+    "year": 2024,
+    "city": "rosario"
+  },
+  {
+    "bucket": 300,
+    "count": 6946,
     "year": 2024,
     "city": "rosario"
   },
   {
     "bucket": 360,
-    "count": 30735,
+    "count": 8608,
+    "year": 2024,
+    "city": "rosario"
+  },
+  {
+    "bucket": 420,
+    "count": 10371,
+    "year": 2024,
+    "city": "rosario"
+  },
+  {
+    "bucket": 480,
+    "count": 11756,
     "year": 2024,
     "city": "rosario"
   },
   {
     "bucket": 540,
-    "count": 37297,
+    "count": 12595,
+    "year": 2024,
+    "city": "rosario"
+  },
+  {
+    "bucket": 600,
+    "count": 12457,
+    "year": 2024,
+    "city": "rosario"
+  },
+  {
+    "bucket": 660,
+    "count": 12245,
     "year": 2024,
     "city": "rosario"
   },
   {
     "bucket": 720,
-    "count": 34245,
+    "count": 12017,
+    "year": 2024,
+    "city": "rosario"
+  },
+  {
+    "bucket": 780,
+    "count": 11381,
+    "year": 2024,
+    "city": "rosario"
+  },
+  {
+    "bucket": 840,
+    "count": 10847,
     "year": 2024,
     "city": "rosario"
   },
   {
     "bucket": 900,
-    "count": 29696,
+    "count": 10483,
+    "year": 2024,
+    "city": "rosario"
+  },
+  {
+    "bucket": 960,
+    "count": 9812,
+    "year": 2024,
+    "city": "rosario"
+  },
+  {
+    "bucket": 1020,
+    "count": 9401,
     "year": 2024,
     "city": "rosario"
   },
   {
     "bucket": 1080,
-    "count": 23981,
+    "count": 8695,
+    "year": 2024,
+    "city": "rosario"
+  },
+  {
+    "bucket": 1140,
+    "count": 7945,
+    "year": 2024,
+    "city": "rosario"
+  },
+  {
+    "bucket": 1200,
+    "count": 7341,
     "year": 2024,
     "city": "rosario"
   },
   {
     "bucket": 1260,
-    "count": 18638,
+    "count": 6657,
+    "year": 2024,
+    "city": "rosario"
+  },
+  {
+    "bucket": 1320,
+    "count": 6187,
+    "year": 2024,
+    "city": "rosario"
+  },
+  {
+    "bucket": 1380,
+    "count": 5794,
     "year": 2024,
     "city": "rosario"
   },
   {
     "bucket": 1440,
-    "count": 14115,
+    "count": 5209,
+    "year": 2024,
+    "city": "rosario"
+  },
+  {
+    "bucket": 1500,
+    "count": 4671,
+    "year": 2024,
+    "city": "rosario"
+  },
+  {
+    "bucket": 1560,
+    "count": 4235,
     "year": 2024,
     "city": "rosario"
   },
   {
     "bucket": 1620,
-    "count": 10976,
+    "count": 3923,
+    "year": 2024,
+    "city": "rosario"
+  },
+  {
+    "bucket": 1680,
+    "count": 3714,
+    "year": 2024,
+    "city": "rosario"
+  },
+  {
+    "bucket": 1740,
+    "count": 3339,
     "year": 2024,
     "city": "rosario"
   },
   {
     "bucket": 1800,
-    "count": 9205,
+    "count": 3302,
+    "year": 2024,
+    "city": "rosario"
+  },
+  {
+    "bucket": 1860,
+    "count": 3096,
+    "year": 2024,
+    "city": "rosario"
+  },
+  {
+    "bucket": 1920,
+    "count": 2807,
     "year": 2024,
     "city": "rosario"
   },
   {
     "bucket": 1980,
-    "count": 7579,
+    "count": 2664,
+    "year": 2024,
+    "city": "rosario"
+  },
+  {
+    "bucket": 2040,
+    "count": 2518,
+    "year": 2024,
+    "city": "rosario"
+  },
+  {
+    "bucket": 2100,
+    "count": 2397,
     "year": 2024,
     "city": "rosario"
   },
   {
     "bucket": 2160,
-    "count": 6315,
+    "count": 2253,
+    "year": 2024,
+    "city": "rosario"
+  },
+  {
+    "bucket": 2220,
+    "count": 2103,
+    "year": 2024,
+    "city": "rosario"
+  },
+  {
+    "bucket": 2280,
+    "count": 1959,
     "year": 2024,
     "city": "rosario"
   },
   {
     "bucket": 2340,
-    "count": 5488,
+    "count": 1949,
+    "year": 2024,
+    "city": "rosario"
+  },
+  {
+    "bucket": 2400,
+    "count": 1767,
+    "year": 2024,
+    "city": "rosario"
+  },
+  {
+    "bucket": 2460,
+    "count": 1772,
     "year": 2024,
     "city": "rosario"
   },
   {
     "bucket": 2520,
-    "count": 4839,
+    "count": 1668,
+    "year": 2024,
+    "city": "rosario"
+  },
+  {
+    "bucket": 2580,
+    "count": 1625,
+    "year": 2024,
+    "city": "rosario"
+  },
+  {
+    "bucket": 2640,
+    "count": 1546,
     "year": 2024,
     "city": "rosario"
   },
   {
     "bucket": 2700,
-    "count": 4430,
-    "year": 2024,
-    "city": "rosario"
-  },
-  {
-    "bucket": 2880,
-    "count": 3940,
-    "year": 2024,
-    "city": "rosario"
-  },
-  {
-    "bucket": 3060,
-    "count": 3702,
-    "year": 2024,
-    "city": "rosario"
-  },
-  {
-    "bucket": 3240,
-    "count": 3390,
-    "year": 2024,
-    "city": "rosario"
-  },
-  {
-    "bucket": 3420,
-    "count": 3074,
-    "year": 2024,
-    "city": "rosario"
-  },
-  {
-    "bucket": 3600,
-    "count": 2759,
-    "year": 2024,
-    "city": "rosario"
-  },
-  {
-    "bucket": 3780,
-    "count": 2536,
-    "year": 2024,
-    "city": "rosario"
-  },
-  {
-    "bucket": 3960,
-    "count": 2169,
-    "year": 2024,
-    "city": "rosario"
-  },
-  {
-    "bucket": 4140,
-    "count": 2010,
-    "year": 2024,
-    "city": "rosario"
-  },
-  {
-    "bucket": 4320,
-    "count": 1747,
-    "year": 2024,
-    "city": "rosario"
-  },
-  {
-    "bucket": 4500,
-    "count": 1608,
-    "year": 2024,
-    "city": "rosario"
-  },
-  {
-    "bucket": 4680,
     "count": 1522,
     "year": 2024,
     "city": "rosario"
   },
   {
+    "bucket": 2760,
+    "count": 1477,
+    "year": 2024,
+    "city": "rosario"
+  },
+  {
+    "bucket": 2820,
+    "count": 1431,
+    "year": 2024,
+    "city": "rosario"
+  },
+  {
+    "bucket": 2880,
+    "count": 1353,
+    "year": 2024,
+    "city": "rosario"
+  },
+  {
+    "bucket": 2940,
+    "count": 1317,
+    "year": 2024,
+    "city": "rosario"
+  },
+  {
+    "bucket": 3000,
+    "count": 1270,
+    "year": 2024,
+    "city": "rosario"
+  },
+  {
+    "bucket": 3060,
+    "count": 1271,
+    "year": 2024,
+    "city": "rosario"
+  },
+  {
+    "bucket": 3120,
+    "count": 1284,
+    "year": 2024,
+    "city": "rosario"
+  },
+  {
+    "bucket": 3180,
+    "count": 1147,
+    "year": 2024,
+    "city": "rosario"
+  },
+  {
+    "bucket": 3240,
+    "count": 1173,
+    "year": 2024,
+    "city": "rosario"
+  },
+  {
+    "bucket": 3300,
+    "count": 1106,
+    "year": 2024,
+    "city": "rosario"
+  },
+  {
+    "bucket": 3360,
+    "count": 1111,
+    "year": 2024,
+    "city": "rosario"
+  },
+  {
+    "bucket": 3420,
+    "count": 1090,
+    "year": 2024,
+    "city": "rosario"
+  },
+  {
+    "bucket": 3480,
+    "count": 1025,
+    "year": 2024,
+    "city": "rosario"
+  },
+  {
+    "bucket": 3540,
+    "count": 959,
+    "year": 2024,
+    "city": "rosario"
+  },
+  {
+    "bucket": 3600,
+    "count": 984,
+    "year": 2024,
+    "city": "rosario"
+  },
+  {
+    "bucket": 3660,
+    "count": 887,
+    "year": 2024,
+    "city": "rosario"
+  },
+  {
+    "bucket": 3720,
+    "count": 888,
+    "year": 2024,
+    "city": "rosario"
+  },
+  {
+    "bucket": 3780,
+    "count": 880,
+    "year": 2024,
+    "city": "rosario"
+  },
+  {
+    "bucket": 3840,
+    "count": 828,
+    "year": 2024,
+    "city": "rosario"
+  },
+  {
+    "bucket": 3900,
+    "count": 828,
+    "year": 2024,
+    "city": "rosario"
+  },
+  {
+    "bucket": 3960,
+    "count": 754,
+    "year": 2024,
+    "city": "rosario"
+  },
+  {
+    "bucket": 4020,
+    "count": 712,
+    "year": 2024,
+    "city": "rosario"
+  },
+  {
+    "bucket": 4080,
+    "count": 703,
+    "year": 2024,
+    "city": "rosario"
+  },
+  {
+    "bucket": 4140,
+    "count": 738,
+    "year": 2024,
+    "city": "rosario"
+  },
+  {
+    "bucket": 4200,
+    "count": 668,
+    "year": 2024,
+    "city": "rosario"
+  },
+  {
+    "bucket": 4260,
+    "count": 604,
+    "year": 2024,
+    "city": "rosario"
+  },
+  {
+    "bucket": 4320,
+    "count": 600,
+    "year": 2024,
+    "city": "rosario"
+  },
+  {
+    "bucket": 4380,
+    "count": 560,
+    "year": 2024,
+    "city": "rosario"
+  },
+  {
+    "bucket": 4440,
+    "count": 587,
+    "year": 2024,
+    "city": "rosario"
+  },
+  {
+    "bucket": 4500,
+    "count": 529,
+    "year": 2024,
+    "city": "rosario"
+  },
+  {
+    "bucket": 4560,
+    "count": 530,
+    "year": 2024,
+    "city": "rosario"
+  },
+  {
+    "bucket": 4620,
+    "count": 549,
+    "year": 2024,
+    "city": "rosario"
+  },
+  {
+    "bucket": 4680,
+    "count": 504,
+    "year": 2024,
+    "city": "rosario"
+  },
+  {
+    "bucket": 4740,
+    "count": 503,
+    "year": 2024,
+    "city": "rosario"
+  },
+  {
+    "bucket": 4800,
+    "count": 515,
+    "year": 2024,
+    "city": "rosario"
+  },
+  {
     "bucket": 4860,
-    "count": 1339,
+    "count": 464,
+    "year": 2024,
+    "city": "rosario"
+  },
+  {
+    "bucket": 4920,
+    "count": 425,
+    "year": 2024,
+    "city": "rosario"
+  },
+  {
+    "bucket": 4980,
+    "count": 450,
     "year": 2024,
     "city": "rosario"
   },
   {
     "bucket": 5040,
-    "count": 1170,
+    "count": 416,
+    "year": 2024,
+    "city": "rosario"
+  },
+  {
+    "bucket": 5100,
+    "count": 377,
+    "year": 2024,
+    "city": "rosario"
+  },
+  {
+    "bucket": 5160,
+    "count": 377,
     "year": 2024,
     "city": "rosario"
   },
   {
     "bucket": 5220,
-    "count": 890,
+    "count": 333,
+    "year": 2024,
+    "city": "rosario"
+  },
+  {
+    "bucket": 5280,
+    "count": 299,
+    "year": 2024,
+    "city": "rosario"
+  },
+  {
+    "bucket": 5340,
+    "count": 258,
     "year": 2024,
     "city": "rosario"
   },
   {
     "bucket": 5400,
-    "count": 591,
+    "count": 256,
+    "year": 2024,
+    "city": "rosario"
+  },
+  {
+    "bucket": 5460,
+    "count": 180,
+    "year": 2024,
+    "city": "rosario"
+  },
+  {
+    "bucket": 5520,
+    "count": 155,
     "year": 2024,
     "city": "rosario"
   },
   {
     "bucket": 5580,
-    "count": 423,
+    "count": 165,
+    "year": 2024,
+    "city": "rosario"
+  },
+  {
+    "bucket": 5640,
+    "count": 128,
+    "year": 2024,
+    "city": "rosario"
+  },
+  {
+    "bucket": 5700,
+    "count": 130,
     "year": 2024,
     "city": "rosario"
   },
   {
     "bucket": 5760,
-    "count": 356,
+    "count": 121,
+    "year": 2024,
+    "city": "rosario"
+  },
+  {
+    "bucket": 5820,
+    "count": 125,
+    "year": 2024,
+    "city": "rosario"
+  },
+  {
+    "bucket": 5880,
+    "count": 110,
     "year": 2024,
     "city": "rosario"
   },
   {
     "bucket": 5940,
-    "count": 300,
+    "count": 96,
+    "year": 2024,
+    "city": "rosario"
+  },
+  {
+    "bucket": 6000,
+    "count": 98,
+    "year": 2024,
+    "city": "rosario"
+  },
+  {
+    "bucket": 6060,
+    "count": 106,
     "year": 2024,
     "city": "rosario"
   },
   {
     "bucket": 6120,
-    "count": 285,
+    "count": 119,
+    "year": 2024,
+    "city": "rosario"
+  },
+  {
+    "bucket": 6180,
+    "count": 88,
+    "year": 2024,
+    "city": "rosario"
+  },
+  {
+    "bucket": 6240,
+    "count": 78,
     "year": 2024,
     "city": "rosario"
   },
   {
     "bucket": 6300,
-    "count": 213,
+    "count": 82,
+    "year": 2024,
+    "city": "rosario"
+  },
+  {
+    "bucket": 6360,
+    "count": 71,
+    "year": 2024,
+    "city": "rosario"
+  },
+  {
+    "bucket": 6420,
+    "count": 60,
     "year": 2024,
     "city": "rosario"
   },
   {
     "bucket": 6480,
-    "count": 202,
+    "count": 64,
+    "year": 2024,
+    "city": "rosario"
+  },
+  {
+    "bucket": 6540,
+    "count": 75,
+    "year": 2024,
+    "city": "rosario"
+  },
+  {
+    "bucket": 6600,
+    "count": 63,
     "year": 2024,
     "city": "rosario"
   },
   {
     "bucket": 6660,
-    "count": 192,
+    "count": 70,
+    "year": 2024,
+    "city": "rosario"
+  },
+  {
+    "bucket": 6720,
+    "count": 62,
+    "year": 2024,
+    "city": "rosario"
+  },
+  {
+    "bucket": 6780,
+    "count": 60,
     "year": 2024,
     "city": "rosario"
   },
   {
     "bucket": 6840,
-    "count": 181,
+    "count": 62,
+    "year": 2024,
+    "city": "rosario"
+  },
+  {
+    "bucket": 6900,
+    "count": 61,
+    "year": 2024,
+    "city": "rosario"
+  },
+  {
+    "bucket": 6960,
+    "count": 58,
     "year": 2024,
     "city": "rosario"
   },
   {
     "bucket": 7020,
-    "count": 165,
+    "count": 51,
+    "year": 2024,
+    "city": "rosario"
+  },
+  {
+    "bucket": 7080,
+    "count": 57,
+    "year": 2024,
+    "city": "rosario"
+  },
+  {
+    "bucket": 7140,
+    "count": 57,
     "year": 2024,
     "city": "rosario"
   },

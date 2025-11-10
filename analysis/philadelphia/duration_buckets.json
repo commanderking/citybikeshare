@@ -1,241 +1,715 @@
 [
   {
-    "bucket": 0,
-    "count": 11008,
+    "bucket": 60,
+    "count": 7164,
+    "year": 2015,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 120,
+    "count": 3844,
     "year": 2015,
     "city": "philadelphia"
   },
   {
     "bucket": 180,
-    "count": 31571,
+    "count": 6496,
+    "year": 2015,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 240,
+    "count": 10366,
+    "year": 2015,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 300,
+    "count": 14709,
     "year": 2015,
     "city": "philadelphia"
   },
   {
     "bucket": 360,
-    "count": 65965,
+    "count": 19027,
+    "year": 2015,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 420,
+    "count": 22561,
+    "year": 2015,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 480,
+    "count": 24377,
     "year": 2015,
     "city": "philadelphia"
   },
   {
     "bucket": 540,
-    "count": 70490,
+    "count": 24526,
+    "year": 2015,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 600,
+    "count": 23578,
+    "year": 2015,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 660,
+    "count": 22386,
     "year": 2015,
     "city": "philadelphia"
   },
   {
     "bucket": 720,
-    "count": 56975,
+    "count": 20765,
+    "year": 2015,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 780,
+    "count": 18889,
+    "year": 2015,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 840,
+    "count": 17321,
     "year": 2015,
     "city": "philadelphia"
   },
   {
     "bucket": 900,
-    "count": 41548,
+    "count": 15448,
+    "year": 2015,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 960,
+    "count": 13693,
+    "year": 2015,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 1020,
+    "count": 12407,
     "year": 2015,
     "city": "philadelphia"
   },
   {
     "bucket": 1080,
-    "count": 29942,
+    "count": 11145,
+    "year": 2015,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 1140,
+    "count": 9995,
+    "year": 2015,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 1200,
+    "count": 8802,
     "year": 2015,
     "city": "philadelphia"
   },
   {
     "bucket": 1260,
-    "count": 21292,
+    "count": 7944,
+    "year": 2015,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 1320,
+    "count": 6984,
+    "year": 2015,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 1380,
+    "count": 6364,
     "year": 2015,
     "city": "philadelphia"
   },
   {
     "bucket": 1440,
-    "count": 15498,
+    "count": 5681,
+    "year": 2015,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 1500,
+    "count": 5062,
+    "year": 2015,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 1560,
+    "count": 4755,
     "year": 2015,
     "city": "philadelphia"
   },
   {
     "bucket": 1620,
-    "count": 12206,
+    "count": 4524,
+    "year": 2015,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 1680,
+    "count": 4028,
+    "year": 2015,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 1740,
+    "count": 3654,
     "year": 2015,
     "city": "philadelphia"
   },
   {
     "bucket": 1800,
-    "count": 9172,
+    "count": 3388,
+    "year": 2015,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 1860,
+    "count": 3052,
+    "year": 2015,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 1920,
+    "count": 2732,
     "year": 2015,
     "city": "philadelphia"
   },
   {
     "bucket": 1980,
-    "count": 6725,
+    "count": 2466,
+    "year": 2015,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 2040,
+    "count": 2179,
+    "year": 2015,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 2100,
+    "count": 2080,
     "year": 2015,
     "city": "philadelphia"
   },
   {
     "bucket": 2160,
-    "count": 5241,
+    "count": 1895,
+    "year": 2015,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 2220,
+    "count": 1723,
+    "year": 2015,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 2280,
+    "count": 1623,
     "year": 2015,
     "city": "philadelphia"
   },
   {
     "bucket": 2340,
-    "count": 4337,
+    "count": 1531,
+    "year": 2015,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 2400,
+    "count": 1434,
+    "year": 2015,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 2460,
+    "count": 1372,
     "year": 2015,
     "city": "philadelphia"
   },
   {
     "bucket": 2520,
-    "count": 3839,
+    "count": 1310,
+    "year": 2015,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 2580,
+    "count": 1254,
+    "year": 2015,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 2640,
+    "count": 1275,
     "year": 2015,
     "city": "philadelphia"
   },
   {
     "bucket": 2700,
-    "count": 3631,
+    "count": 1252,
+    "year": 2015,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 2760,
+    "count": 1190,
+    "year": 2015,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 2820,
+    "count": 1189,
     "year": 2015,
     "city": "philadelphia"
   },
   {
     "bucket": 2880,
-    "count": 3263,
+    "count": 1079,
+    "year": 2015,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 2940,
+    "count": 1098,
+    "year": 2015,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 3000,
+    "count": 1086,
     "year": 2015,
     "city": "philadelphia"
   },
   {
     "bucket": 3060,
-    "count": 3099,
+    "count": 1045,
+    "year": 2015,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 3120,
+    "count": 1023,
+    "year": 2015,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 3180,
+    "count": 1031,
     "year": 2015,
     "city": "philadelphia"
   },
   {
     "bucket": 3240,
-    "count": 2856,
+    "count": 1016,
+    "year": 2015,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 3300,
+    "count": 948,
+    "year": 2015,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 3360,
+    "count": 892,
     "year": 2015,
     "city": "philadelphia"
   },
   {
     "bucket": 3420,
-    "count": 2365,
+    "count": 807,
+    "year": 2015,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 3480,
+    "count": 810,
+    "year": 2015,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 3540,
+    "count": 748,
     "year": 2015,
     "city": "philadelphia"
   },
   {
     "bucket": 3600,
-    "count": 1905,
+    "count": 684,
+    "year": 2015,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 3660,
+    "count": 628,
+    "year": 2015,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 3720,
+    "count": 593,
     "year": 2015,
     "city": "philadelphia"
   },
   {
     "bucket": 3780,
-    "count": 1597,
+    "count": 568,
+    "year": 2015,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 3840,
+    "count": 528,
+    "year": 2015,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 3900,
+    "count": 501,
     "year": 2015,
     "city": "philadelphia"
   },
   {
     "bucket": 3960,
-    "count": 1369,
+    "count": 474,
+    "year": 2015,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 4020,
+    "count": 495,
+    "year": 2015,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 4080,
+    "count": 400,
     "year": 2015,
     "city": "philadelphia"
   },
   {
     "bucket": 4140,
-    "count": 1300,
+    "count": 436,
+    "year": 2015,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 4200,
+    "count": 446,
+    "year": 2015,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 4260,
+    "count": 418,
     "year": 2015,
     "city": "philadelphia"
   },
   {
     "bucket": 4320,
-    "count": 1179,
+    "count": 408,
+    "year": 2015,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 4380,
+    "count": 422,
+    "year": 2015,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 4440,
+    "count": 349,
     "year": 2015,
     "city": "philadelphia"
   },
   {
     "bucket": 4500,
-    "count": 1042,
+    "count": 369,
+    "year": 2015,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 4560,
+    "count": 336,
+    "year": 2015,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 4620,
+    "count": 337,
     "year": 2015,
     "city": "philadelphia"
   },
   {
     "bucket": 4680,
-    "count": 986,
+    "count": 341,
+    "year": 2015,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 4740,
+    "count": 314,
+    "year": 2015,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 4800,
+    "count": 331,
     "year": 2015,
     "city": "philadelphia"
   },
   {
     "bucket": 4860,
-    "count": 1004,
+    "count": 341,
+    "year": 2015,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 4920,
+    "count": 339,
+    "year": 2015,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 4980,
+    "count": 324,
     "year": 2015,
     "city": "philadelphia"
   },
   {
     "bucket": 5040,
-    "count": 944,
+    "count": 307,
+    "year": 2015,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 5100,
+    "count": 321,
+    "year": 2015,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 5160,
+    "count": 316,
     "year": 2015,
     "city": "philadelphia"
   },
   {
     "bucket": 5220,
-    "count": 830,
+    "count": 288,
+    "year": 2015,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 5280,
+    "count": 279,
+    "year": 2015,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 5340,
+    "count": 263,
     "year": 2015,
     "city": "philadelphia"
   },
   {
     "bucket": 5400,
-    "count": 752,
+    "count": 253,
+    "year": 2015,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 5460,
+    "count": 261,
+    "year": 2015,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 5520,
+    "count": 238,
     "year": 2015,
     "city": "philadelphia"
   },
   {
     "bucket": 5580,
-    "count": 642,
+    "count": 198,
+    "year": 2015,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 5640,
+    "count": 219,
+    "year": 2015,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 5700,
+    "count": 225,
     "year": 2015,
     "city": "philadelphia"
   },
   {
     "bucket": 5760,
-    "count": 606,
+    "count": 209,
+    "year": 2015,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 5820,
+    "count": 197,
+    "year": 2015,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 5880,
+    "count": 200,
     "year": 2015,
     "city": "philadelphia"
   },
   {
     "bucket": 5940,
-    "count": 587,
+    "count": 203,
+    "year": 2015,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 6000,
+    "count": 195,
+    "year": 2015,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 6060,
+    "count": 189,
     "year": 2015,
     "city": "philadelphia"
   },
   {
     "bucket": 6120,
-    "count": 554,
+    "count": 194,
+    "year": 2015,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 6180,
+    "count": 198,
+    "year": 2015,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 6240,
+    "count": 162,
     "year": 2015,
     "city": "philadelphia"
   },
   {
     "bucket": 6300,
-    "count": 542,
+    "count": 189,
+    "year": 2015,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 6360,
+    "count": 181,
+    "year": 2015,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 6420,
+    "count": 172,
     "year": 2015,
     "city": "philadelphia"
   },
   {
     "bucket": 6480,
-    "count": 480,
+    "count": 169,
+    "year": 2015,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 6540,
+    "count": 157,
+    "year": 2015,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 6600,
+    "count": 154,
     "year": 2015,
     "city": "philadelphia"
   },
   {
     "bucket": 6660,
-    "count": 464,
+    "count": 159,
+    "year": 2015,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 6720,
+    "count": 145,
+    "year": 2015,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 6780,
+    "count": 160,
     "year": 2015,
     "city": "philadelphia"
   },
   {
     "bucket": 6840,
-    "count": 435,
+    "count": 133,
+    "year": 2015,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 6900,
+    "count": 154,
+    "year": 2015,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 6960,
+    "count": 148,
     "year": 2015,
     "city": "philadelphia"
   },
   {
     "bucket": 7020,
-    "count": 418,
+    "count": 138,
+    "year": 2015,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 7080,
+    "count": 146,
+    "year": 2015,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 7140,
+    "count": 134,
     "year": 2015,
     "city": "philadelphia"
   },
@@ -246,242 +720,716 @@
     "city": "philadelphia"
   },
   {
-    "bucket": 0,
-    "count": 13939,
+    "bucket": 60,
+    "count": 8044,
+    "year": 2016,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 120,
+    "count": 5895,
     "year": 2016,
     "city": "philadelphia"
   },
   {
     "bucket": 180,
-    "count": 64245,
+    "count": 12186,
+    "year": 2016,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 240,
+    "count": 21873,
+    "year": 2016,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 300,
+    "count": 30186,
     "year": 2016,
     "city": "philadelphia"
   },
   {
     "bucket": 360,
-    "count": 119900,
+    "count": 37304,
+    "year": 2016,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 420,
+    "count": 40932,
+    "year": 2016,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 480,
+    "count": 41664,
     "year": 2016,
     "city": "philadelphia"
   },
   {
     "bucket": 540,
-    "count": 114648,
+    "count": 40863,
+    "year": 2016,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 600,
+    "count": 38416,
+    "year": 2016,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 660,
+    "count": 35369,
     "year": 2016,
     "city": "philadelphia"
   },
   {
     "bucket": 720,
-    "count": 84701,
+    "count": 31596,
+    "year": 2016,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 780,
+    "count": 28014,
+    "year": 2016,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 840,
+    "count": 25091,
     "year": 2016,
     "city": "philadelphia"
   },
   {
     "bucket": 900,
-    "count": 60365,
+    "count": 22569,
+    "year": 2016,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 960,
+    "count": 19860,
+    "year": 2016,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 1020,
+    "count": 17936,
     "year": 2016,
     "city": "philadelphia"
   },
   {
     "bucket": 1080,
-    "count": 41922,
+    "count": 15736,
+    "year": 2016,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 1140,
+    "count": 13797,
+    "year": 2016,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 1200,
+    "count": 12389,
     "year": 2016,
     "city": "philadelphia"
   },
   {
     "bucket": 1260,
-    "count": 29937,
+    "count": 10947,
+    "year": 2016,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 1320,
+    "count": 10082,
+    "year": 2016,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 1380,
+    "count": 8908,
     "year": 2016,
     "city": "philadelphia"
   },
   {
     "bucket": 1440,
-    "count": 21732,
+    "count": 7946,
+    "year": 2016,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 1500,
+    "count": 7183,
+    "year": 2016,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 1560,
+    "count": 6603,
     "year": 2016,
     "city": "philadelphia"
   },
   {
     "bucket": 1620,
-    "count": 16160,
+    "count": 5817,
+    "year": 2016,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 1680,
+    "count": 5457,
+    "year": 2016,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 1740,
+    "count": 4886,
     "year": 2016,
     "city": "philadelphia"
   },
   {
     "bucket": 1800,
-    "count": 11941,
+    "count": 4418,
+    "year": 2016,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 1860,
+    "count": 3998,
+    "year": 2016,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 1920,
+    "count": 3525,
     "year": 2016,
     "city": "philadelphia"
   },
   {
     "bucket": 1980,
-    "count": 8995,
+    "count": 3259,
+    "year": 2016,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 2040,
+    "count": 3033,
+    "year": 2016,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 2100,
+    "count": 2703,
     "year": 2016,
     "city": "philadelphia"
   },
   {
     "bucket": 2160,
-    "count": 6991,
+    "count": 2595,
+    "year": 2016,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 2220,
+    "count": 2334,
+    "year": 2016,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 2280,
+    "count": 2062,
     "year": 2016,
     "city": "philadelphia"
   },
   {
     "bucket": 2340,
-    "count": 5899,
+    "count": 2048,
+    "year": 2016,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 2400,
+    "count": 1994,
+    "year": 2016,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 2460,
+    "count": 1857,
     "year": 2016,
     "city": "philadelphia"
   },
   {
     "bucket": 2520,
-    "count": 4750,
+    "count": 1673,
+    "year": 2016,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 2580,
+    "count": 1550,
+    "year": 2016,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 2640,
+    "count": 1527,
     "year": 2016,
     "city": "philadelphia"
   },
   {
     "bucket": 2700,
-    "count": 4340,
+    "count": 1524,
+    "year": 2016,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 2760,
+    "count": 1436,
+    "year": 2016,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 2820,
+    "count": 1380,
     "year": 2016,
     "city": "philadelphia"
   },
   {
     "bucket": 2880,
-    "count": 3986,
+    "count": 1384,
+    "year": 2016,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 2940,
+    "count": 1324,
+    "year": 2016,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 3000,
+    "count": 1278,
     "year": 2016,
     "city": "philadelphia"
   },
   {
     "bucket": 3060,
-    "count": 3625,
+    "count": 1248,
+    "year": 2016,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 3120,
+    "count": 1244,
+    "year": 2016,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 3180,
+    "count": 1133,
     "year": 2016,
     "city": "philadelphia"
   },
   {
     "bucket": 3240,
-    "count": 3389,
+    "count": 1157,
+    "year": 2016,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 3300,
+    "count": 1162,
+    "year": 2016,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 3360,
+    "count": 1070,
     "year": 2016,
     "city": "philadelphia"
   },
   {
     "bucket": 3420,
-    "count": 2864,
+    "count": 1024,
+    "year": 2016,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 3480,
+    "count": 956,
+    "year": 2016,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 3540,
+    "count": 884,
     "year": 2016,
     "city": "philadelphia"
   },
   {
     "bucket": 3600,
-    "count": 2202,
+    "count": 830,
+    "year": 2016,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 3660,
+    "count": 727,
+    "year": 2016,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 3720,
+    "count": 645,
     "year": 2016,
     "city": "philadelphia"
   },
   {
     "bucket": 3780,
-    "count": 1740,
+    "count": 628,
+    "year": 2016,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 3840,
+    "count": 546,
+    "year": 2016,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 3900,
+    "count": 566,
     "year": 2016,
     "city": "philadelphia"
   },
   {
     "bucket": 3960,
-    "count": 1521,
+    "count": 509,
+    "year": 2016,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 4020,
+    "count": 528,
+    "year": 2016,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 4080,
+    "count": 484,
     "year": 2016,
     "city": "philadelphia"
   },
   {
     "bucket": 4140,
-    "count": 1327,
+    "count": 448,
+    "year": 2016,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 4200,
+    "count": 480,
+    "year": 2016,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 4260,
+    "count": 399,
     "year": 2016,
     "city": "philadelphia"
   },
   {
     "bucket": 4320,
-    "count": 1191,
+    "count": 411,
+    "year": 2016,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 4380,
+    "count": 376,
+    "year": 2016,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 4440,
+    "count": 404,
     "year": 2016,
     "city": "philadelphia"
   },
   {
     "bucket": 4500,
-    "count": 1093,
+    "count": 358,
+    "year": 2016,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 4560,
+    "count": 360,
+    "year": 2016,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 4620,
+    "count": 375,
     "year": 2016,
     "city": "philadelphia"
   },
   {
     "bucket": 4680,
-    "count": 1103,
+    "count": 356,
+    "year": 2016,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 4740,
+    "count": 354,
+    "year": 2016,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 4800,
+    "count": 393,
     "year": 2016,
     "city": "philadelphia"
   },
   {
     "bucket": 4860,
-    "count": 1111,
+    "count": 402,
+    "year": 2016,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 4920,
+    "count": 346,
+    "year": 2016,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 4980,
+    "count": 363,
     "year": 2016,
     "city": "philadelphia"
   },
   {
     "bucket": 5040,
-    "count": 954,
+    "count": 331,
+    "year": 2016,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 5100,
+    "count": 317,
+    "year": 2016,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 5160,
+    "count": 306,
     "year": 2016,
     "city": "philadelphia"
   },
   {
     "bucket": 5220,
-    "count": 864,
+    "count": 309,
+    "year": 2016,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 5280,
+    "count": 279,
+    "year": 2016,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 5340,
+    "count": 276,
     "year": 2016,
     "city": "philadelphia"
   },
   {
     "bucket": 5400,
-    "count": 736,
+    "count": 284,
+    "year": 2016,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 5460,
+    "count": 229,
+    "year": 2016,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 5520,
+    "count": 223,
     "year": 2016,
     "city": "philadelphia"
   },
   {
     "bucket": 5580,
-    "count": 738,
+    "count": 259,
+    "year": 2016,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 5640,
+    "count": 239,
+    "year": 2016,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 5700,
+    "count": 240,
     "year": 2016,
     "city": "philadelphia"
   },
   {
     "bucket": 5760,
-    "count": 665,
+    "count": 235,
+    "year": 2016,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 5820,
+    "count": 212,
+    "year": 2016,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 5880,
+    "count": 218,
     "year": 2016,
     "city": "philadelphia"
   },
   {
     "bucket": 5940,
-    "count": 632,
+    "count": 222,
+    "year": 2016,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 6000,
+    "count": 200,
+    "year": 2016,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 6060,
+    "count": 210,
     "year": 2016,
     "city": "philadelphia"
   },
   {
     "bucket": 6120,
-    "count": 570,
+    "count": 213,
+    "year": 2016,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 6180,
+    "count": 185,
+    "year": 2016,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 6240,
+    "count": 172,
     "year": 2016,
     "city": "philadelphia"
   },
   {
     "bucket": 6300,
-    "count": 484,
+    "count": 144,
+    "year": 2016,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 6360,
+    "count": 173,
+    "year": 2016,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 6420,
+    "count": 167,
     "year": 2016,
     "city": "philadelphia"
   },
   {
     "bucket": 6480,
-    "count": 484,
+    "count": 166,
+    "year": 2016,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 6540,
+    "count": 172,
+    "year": 2016,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 6600,
+    "count": 146,
     "year": 2016,
     "city": "philadelphia"
   },
   {
     "bucket": 6660,
-    "count": 494,
+    "count": 170,
+    "year": 2016,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 6720,
+    "count": 165,
+    "year": 2016,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 6780,
+    "count": 159,
     "year": 2016,
     "city": "philadelphia"
   },
   {
     "bucket": 6840,
-    "count": 432,
+    "count": 151,
+    "year": 2016,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 6900,
+    "count": 133,
+    "year": 2016,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 6960,
+    "count": 148,
     "year": 2016,
     "city": "philadelphia"
   },
   {
     "bucket": 7020,
-    "count": 361,
+    "count": 132,
+    "year": 2016,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 7080,
+    "count": 116,
+    "year": 2016,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 7140,
+    "count": 113,
     "year": 2016,
     "city": "philadelphia"
   },
@@ -492,242 +1440,716 @@
     "city": "philadelphia"
   },
   {
-    "bucket": 0,
-    "count": 13243,
+    "bucket": 60,
+    "count": 7758,
+    "year": 2017,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 120,
+    "count": 5485,
     "year": 2017,
     "city": "philadelphia"
   },
   {
     "bucket": 180,
-    "count": 64859,
+    "count": 12267,
+    "year": 2017,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 240,
+    "count": 22365,
+    "year": 2017,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 300,
+    "count": 30227,
     "year": 2017,
     "city": "philadelphia"
   },
   {
     "bucket": 360,
-    "count": 113709,
+    "count": 35746,
+    "year": 2017,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 420,
+    "count": 38648,
+    "year": 2017,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 480,
+    "count": 39315,
     "year": 2017,
     "city": "philadelphia"
   },
   {
     "bucket": 540,
-    "count": 108927,
+    "count": 38735,
+    "year": 2017,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 600,
+    "count": 36039,
+    "year": 2017,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 660,
+    "count": 34153,
     "year": 2017,
     "city": "philadelphia"
   },
   {
     "bucket": 720,
-    "count": 79768,
+    "count": 30195,
+    "year": 2017,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 780,
+    "count": 26536,
+    "year": 2017,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 840,
+    "count": 23037,
     "year": 2017,
     "city": "philadelphia"
   },
   {
     "bucket": 900,
-    "count": 53334,
+    "count": 20344,
+    "year": 2017,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 960,
+    "count": 17516,
+    "year": 2017,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 1020,
+    "count": 15474,
     "year": 2017,
     "city": "philadelphia"
   },
   {
     "bucket": 1080,
-    "count": 36311,
+    "count": 13780,
+    "year": 2017,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 1140,
+    "count": 11923,
+    "year": 2017,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 1200,
+    "count": 10608,
     "year": 2017,
     "city": "philadelphia"
   },
   {
     "bucket": 1260,
-    "count": 25606,
+    "count": 9469,
+    "year": 2017,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 1320,
+    "count": 8434,
+    "year": 2017,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 1380,
+    "count": 7703,
     "year": 2017,
     "city": "philadelphia"
   },
   {
     "bucket": 1440,
-    "count": 18534,
+    "count": 6854,
+    "year": 2017,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 1500,
+    "count": 6051,
+    "year": 2017,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 1560,
+    "count": 5629,
     "year": 2017,
     "city": "philadelphia"
   },
   {
     "bucket": 1620,
-    "count": 13380,
+    "count": 4932,
+    "year": 2017,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 1680,
+    "count": 4476,
+    "year": 2017,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 1740,
+    "count": 3972,
     "year": 2017,
     "city": "philadelphia"
   },
   {
     "bucket": 1800,
-    "count": 9864,
+    "count": 3634,
+    "year": 2017,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 1860,
+    "count": 3253,
+    "year": 2017,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 1920,
+    "count": 2977,
     "year": 2017,
     "city": "philadelphia"
   },
   {
     "bucket": 1980,
-    "count": 7613,
+    "count": 2827,
+    "year": 2017,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 2040,
+    "count": 2481,
+    "year": 2017,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 2100,
+    "count": 2305,
     "year": 2017,
     "city": "philadelphia"
   },
   {
     "bucket": 2160,
-    "count": 6021,
+    "count": 2119,
+    "year": 2017,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 2220,
+    "count": 2057,
+    "year": 2017,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 2280,
+    "count": 1845,
     "year": 2017,
     "city": "philadelphia"
   },
   {
     "bucket": 2340,
-    "count": 5263,
+    "count": 1838,
+    "year": 2017,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 2400,
+    "count": 1749,
+    "year": 2017,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 2460,
+    "count": 1676,
     "year": 2017,
     "city": "philadelphia"
   },
   {
     "bucket": 2520,
-    "count": 4459,
+    "count": 1547,
+    "year": 2017,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 2580,
+    "count": 1484,
+    "year": 2017,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 2640,
+    "count": 1428,
     "year": 2017,
     "city": "philadelphia"
   },
   {
     "bucket": 2700,
-    "count": 3966,
+    "count": 1355,
+    "year": 2017,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 2760,
+    "count": 1324,
+    "year": 2017,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 2820,
+    "count": 1287,
     "year": 2017,
     "city": "philadelphia"
   },
   {
     "bucket": 2880,
-    "count": 3756,
+    "count": 1254,
+    "year": 2017,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 2940,
+    "count": 1210,
+    "year": 2017,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 3000,
+    "count": 1292,
     "year": 2017,
     "city": "philadelphia"
   },
   {
     "bucket": 3060,
-    "count": 3484,
+    "count": 1182,
+    "year": 2017,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 3120,
+    "count": 1097,
+    "year": 2017,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 3180,
+    "count": 1205,
     "year": 2017,
     "city": "philadelphia"
   },
   {
     "bucket": 3240,
-    "count": 3187,
+    "count": 1104,
+    "year": 2017,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 3300,
+    "count": 1022,
+    "year": 2017,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 3360,
+    "count": 1061,
     "year": 2017,
     "city": "philadelphia"
   },
   {
     "bucket": 3420,
-    "count": 2755,
+    "count": 1004,
+    "year": 2017,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 3480,
+    "count": 900,
+    "year": 2017,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 3540,
+    "count": 851,
     "year": 2017,
     "city": "philadelphia"
   },
   {
     "bucket": 3600,
-    "count": 2153,
+    "count": 829,
+    "year": 2017,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 3660,
+    "count": 684,
+    "year": 2017,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 3720,
+    "count": 640,
     "year": 2017,
     "city": "philadelphia"
   },
   {
     "bucket": 3780,
-    "count": 1611,
+    "count": 539,
+    "year": 2017,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 3840,
+    "count": 525,
+    "year": 2017,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 3900,
+    "count": 547,
     "year": 2017,
     "city": "philadelphia"
   },
   {
     "bucket": 3960,
-    "count": 1433,
+    "count": 513,
+    "year": 2017,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 4020,
+    "count": 460,
+    "year": 2017,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 4080,
+    "count": 460,
     "year": 2017,
     "city": "philadelphia"
   },
   {
     "bucket": 4140,
-    "count": 1289,
+    "count": 473,
+    "year": 2017,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 4200,
+    "count": 410,
+    "year": 2017,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 4260,
+    "count": 406,
     "year": 2017,
     "city": "philadelphia"
   },
   {
     "bucket": 4320,
-    "count": 1150,
+    "count": 392,
+    "year": 2017,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 4380,
+    "count": 380,
+    "year": 2017,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 4440,
+    "count": 378,
     "year": 2017,
     "city": "philadelphia"
   },
   {
     "bucket": 4500,
-    "count": 1015,
+    "count": 349,
+    "year": 2017,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 4560,
+    "count": 321,
+    "year": 2017,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 4620,
+    "count": 345,
     "year": 2017,
     "city": "philadelphia"
   },
   {
     "bucket": 4680,
-    "count": 1051,
+    "count": 380,
+    "year": 2017,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 4740,
+    "count": 363,
+    "year": 2017,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 4800,
+    "count": 308,
     "year": 2017,
     "city": "philadelphia"
   },
   {
     "bucket": 4860,
-    "count": 923,
+    "count": 314,
+    "year": 2017,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 4920,
+    "count": 304,
+    "year": 2017,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 4980,
+    "count": 305,
     "year": 2017,
     "city": "philadelphia"
   },
   {
     "bucket": 5040,
-    "count": 836,
+    "count": 264,
+    "year": 2017,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 5100,
+    "count": 279,
+    "year": 2017,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 5160,
+    "count": 293,
     "year": 2017,
     "city": "philadelphia"
   },
   {
     "bucket": 5220,
-    "count": 746,
+    "count": 247,
+    "year": 2017,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 5280,
+    "count": 260,
+    "year": 2017,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 5340,
+    "count": 239,
     "year": 2017,
     "city": "philadelphia"
   },
   {
     "bucket": 5400,
-    "count": 691,
+    "count": 224,
+    "year": 2017,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 5460,
+    "count": 245,
+    "year": 2017,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 5520,
+    "count": 222,
     "year": 2017,
     "city": "philadelphia"
   },
   {
     "bucket": 5580,
-    "count": 651,
+    "count": 209,
+    "year": 2017,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 5640,
+    "count": 228,
+    "year": 2017,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 5700,
+    "count": 214,
     "year": 2017,
     "city": "philadelphia"
   },
   {
     "bucket": 5760,
-    "count": 585,
+    "count": 218,
+    "year": 2017,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 5820,
+    "count": 178,
+    "year": 2017,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 5880,
+    "count": 189,
     "year": 2017,
     "city": "philadelphia"
   },
   {
     "bucket": 5940,
-    "count": 521,
+    "count": 174,
+    "year": 2017,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 6000,
+    "count": 174,
+    "year": 2017,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 6060,
+    "count": 173,
     "year": 2017,
     "city": "philadelphia"
   },
   {
     "bucket": 6120,
-    "count": 468,
+    "count": 159,
+    "year": 2017,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 6180,
+    "count": 165,
+    "year": 2017,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 6240,
+    "count": 144,
     "year": 2017,
     "city": "philadelphia"
   },
   {
     "bucket": 6300,
-    "count": 427,
+    "count": 147,
+    "year": 2017,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 6360,
+    "count": 137,
+    "year": 2017,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 6420,
+    "count": 143,
     "year": 2017,
     "city": "philadelphia"
   },
   {
     "bucket": 6480,
-    "count": 423,
+    "count": 140,
+    "year": 2017,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 6540,
+    "count": 152,
+    "year": 2017,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 6600,
+    "count": 131,
     "year": 2017,
     "city": "philadelphia"
   },
   {
     "bucket": 6660,
-    "count": 464,
+    "count": 158,
+    "year": 2017,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 6720,
+    "count": 152,
+    "year": 2017,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 6780,
+    "count": 154,
     "year": 2017,
     "city": "philadelphia"
   },
   {
     "bucket": 6840,
-    "count": 377,
+    "count": 120,
+    "year": 2017,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 6900,
+    "count": 126,
+    "year": 2017,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 6960,
+    "count": 131,
     "year": 2017,
     "city": "philadelphia"
   },
   {
     "bucket": 7020,
-    "count": 337,
+    "count": 110,
+    "year": 2017,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 7080,
+    "count": 110,
+    "year": 2017,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 7140,
+    "count": 117,
     "year": 2017,
     "city": "philadelphia"
   },
@@ -738,242 +2160,716 @@
     "city": "philadelphia"
   },
   {
-    "bucket": 0,
-    "count": 19123,
+    "bucket": 60,
+    "count": 12196,
+    "year": 2018,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 120,
+    "count": 6927,
     "year": 2018,
     "city": "philadelphia"
   },
   {
     "bucket": 180,
-    "count": 75245,
+    "count": 15648,
+    "year": 2018,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 240,
+    "count": 25938,
+    "year": 2018,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 300,
+    "count": 33659,
     "year": 2018,
     "city": "philadelphia"
   },
   {
     "bucket": 360,
-    "count": 129252,
+    "count": 39593,
+    "year": 2018,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 420,
+    "count": 44320,
+    "year": 2018,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 480,
+    "count": 45339,
     "year": 2018,
     "city": "philadelphia"
   },
   {
     "bucket": 540,
-    "count": 121386,
+    "count": 43765,
+    "year": 2018,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 600,
+    "count": 40715,
+    "year": 2018,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 660,
+    "count": 36906,
     "year": 2018,
     "city": "philadelphia"
   },
   {
     "bucket": 720,
-    "count": 88511,
+    "count": 33380,
+    "year": 2018,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 780,
+    "count": 29194,
+    "year": 2018,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 840,
+    "count": 25937,
     "year": 2018,
     "city": "philadelphia"
   },
   {
     "bucket": 900,
-    "count": 59182,
+    "count": 22634,
+    "year": 2018,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 960,
+    "count": 19626,
+    "year": 2018,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 1020,
+    "count": 16922,
     "year": 2018,
     "city": "philadelphia"
   },
   {
     "bucket": 1080,
-    "count": 39373,
+    "count": 14803,
+    "year": 2018,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 1140,
+    "count": 12938,
+    "year": 2018,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 1200,
+    "count": 11632,
     "year": 2018,
     "city": "philadelphia"
   },
   {
     "bucket": 1260,
-    "count": 27160,
+    "count": 10129,
+    "year": 2018,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 1320,
+    "count": 9120,
+    "year": 2018,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 1380,
+    "count": 7911,
     "year": 2018,
     "city": "philadelphia"
   },
   {
     "bucket": 1440,
-    "count": 19784,
+    "count": 7299,
+    "year": 2018,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 1500,
+    "count": 6561,
+    "year": 2018,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 1560,
+    "count": 5924,
     "year": 2018,
     "city": "philadelphia"
   },
   {
     "bucket": 1620,
-    "count": 14127,
+    "count": 5101,
+    "year": 2018,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 1680,
+    "count": 4813,
+    "year": 2018,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 1740,
+    "count": 4213,
     "year": 2018,
     "city": "philadelphia"
   },
   {
     "bucket": 1800,
-    "count": 10588,
+    "count": 4200,
+    "year": 2018,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 1860,
+    "count": 3339,
+    "year": 2018,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 1920,
+    "count": 3049,
     "year": 2018,
     "city": "philadelphia"
   },
   {
     "bucket": 1980,
-    "count": 7734,
+    "count": 2790,
+    "year": 2018,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 2040,
+    "count": 2509,
+    "year": 2018,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 2100,
+    "count": 2435,
     "year": 2018,
     "city": "philadelphia"
   },
   {
     "bucket": 2160,
-    "count": 6115,
+    "count": 2226,
+    "year": 2018,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 2220,
+    "count": 2033,
+    "year": 2018,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 2280,
+    "count": 1856,
     "year": 2018,
     "city": "philadelphia"
   },
   {
     "bucket": 2340,
-    "count": 5186,
+    "count": 1848,
+    "year": 2018,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 2400,
+    "count": 1721,
+    "year": 2018,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 2460,
+    "count": 1617,
     "year": 2018,
     "city": "philadelphia"
   },
   {
     "bucket": 2520,
-    "count": 4447,
+    "count": 1534,
+    "year": 2018,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 2580,
+    "count": 1498,
+    "year": 2018,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 2640,
+    "count": 1415,
     "year": 2018,
     "city": "philadelphia"
   },
   {
     "bucket": 2700,
-    "count": 3968,
+    "count": 1386,
+    "year": 2018,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 2760,
+    "count": 1353,
+    "year": 2018,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 2820,
+    "count": 1229,
     "year": 2018,
     "city": "philadelphia"
   },
   {
     "bucket": 2880,
-    "count": 3582,
+    "count": 1210,
+    "year": 2018,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 2940,
+    "count": 1178,
+    "year": 2018,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 3000,
+    "count": 1194,
     "year": 2018,
     "city": "philadelphia"
   },
   {
     "bucket": 3060,
-    "count": 3432,
+    "count": 1127,
+    "year": 2018,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 3120,
+    "count": 1133,
+    "year": 2018,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 3180,
+    "count": 1172,
     "year": 2018,
     "city": "philadelphia"
   },
   {
     "bucket": 3240,
-    "count": 3207,
+    "count": 1075,
+    "year": 2018,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 3300,
+    "count": 1116,
+    "year": 2018,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 3360,
+    "count": 1016,
     "year": 2018,
     "city": "philadelphia"
   },
   {
     "bucket": 3420,
-    "count": 2649,
+    "count": 905,
+    "year": 2018,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 3480,
+    "count": 897,
+    "year": 2018,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 3540,
+    "count": 847,
     "year": 2018,
     "city": "philadelphia"
   },
   {
     "bucket": 3600,
-    "count": 2040,
+    "count": 809,
     "year": 2018,
     "city": "philadelphia"
   },
   {
-    "bucket": 3780,
-    "count": 1459,
+    "bucket": 3660,
+    "count": 642,
     "year": 2018,
     "city": "philadelphia"
   },
   {
-    "bucket": 3960,
-    "count": 1313,
-    "year": 2018,
-    "city": "philadelphia"
-  },
-  {
-    "bucket": 4140,
-    "count": 1110,
-    "year": 2018,
-    "city": "philadelphia"
-  },
-  {
-    "bucket": 4320,
-    "count": 1069,
-    "year": 2018,
-    "city": "philadelphia"
-  },
-  {
-    "bucket": 4500,
-    "count": 961,
-    "year": 2018,
-    "city": "philadelphia"
-  },
-  {
-    "bucket": 4680,
-    "count": 934,
-    "year": 2018,
-    "city": "philadelphia"
-  },
-  {
-    "bucket": 4860,
-    "count": 810,
-    "year": 2018,
-    "city": "philadelphia"
-  },
-  {
-    "bucket": 5040,
-    "count": 745,
-    "year": 2018,
-    "city": "philadelphia"
-  },
-  {
-    "bucket": 5220,
-    "count": 694,
-    "year": 2018,
-    "city": "philadelphia"
-  },
-  {
-    "bucket": 5400,
-    "count": 643,
-    "year": 2018,
-    "city": "philadelphia"
-  },
-  {
-    "bucket": 5580,
+    "bucket": 3720,
     "count": 589,
     "year": 2018,
     "city": "philadelphia"
   },
   {
-    "bucket": 5760,
-    "count": 572,
+    "bucket": 3780,
+    "count": 512,
     "year": 2018,
     "city": "philadelphia"
   },
   {
-    "bucket": 5940,
-    "count": 496,
+    "bucket": 3840,
+    "count": 507,
     "year": 2018,
     "city": "philadelphia"
   },
   {
-    "bucket": 6120,
-    "count": 444,
+    "bucket": 3900,
+    "count": 440,
     "year": 2018,
     "city": "philadelphia"
   },
   {
-    "bucket": 6300,
-    "count": 418,
+    "bucket": 3960,
+    "count": 442,
     "year": 2018,
     "city": "philadelphia"
   },
   {
-    "bucket": 6480,
-    "count": 400,
+    "bucket": 4020,
+    "count": 474,
     "year": 2018,
     "city": "philadelphia"
   },
   {
-    "bucket": 6660,
+    "bucket": 4080,
+    "count": 397,
+    "year": 2018,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 4140,
+    "count": 403,
+    "year": 2018,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 4200,
+    "count": 339,
+    "year": 2018,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 4260,
     "count": 368,
     "year": 2018,
     "city": "philadelphia"
   },
   {
+    "bucket": 4320,
+    "count": 357,
+    "year": 2018,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 4380,
+    "count": 384,
+    "year": 2018,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 4440,
+    "count": 328,
+    "year": 2018,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 4500,
+    "count": 327,
+    "year": 2018,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 4560,
+    "count": 299,
+    "year": 2018,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 4620,
+    "count": 335,
+    "year": 2018,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 4680,
+    "count": 322,
+    "year": 2018,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 4740,
+    "count": 324,
+    "year": 2018,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 4800,
+    "count": 288,
+    "year": 2018,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 4860,
+    "count": 275,
+    "year": 2018,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 4920,
+    "count": 276,
+    "year": 2018,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 4980,
+    "count": 259,
+    "year": 2018,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 5040,
+    "count": 256,
+    "year": 2018,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 5100,
+    "count": 230,
+    "year": 2018,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 5160,
+    "count": 259,
+    "year": 2018,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 5220,
+    "count": 212,
+    "year": 2018,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 5280,
+    "count": 248,
+    "year": 2018,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 5340,
+    "count": 234,
+    "year": 2018,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 5400,
+    "count": 241,
+    "year": 2018,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 5460,
+    "count": 204,
+    "year": 2018,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 5520,
+    "count": 198,
+    "year": 2018,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 5580,
+    "count": 191,
+    "year": 2018,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 5640,
+    "count": 195,
+    "year": 2018,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 5700,
+    "count": 203,
+    "year": 2018,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 5760,
+    "count": 213,
+    "year": 2018,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 5820,
+    "count": 188,
+    "year": 2018,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 5880,
+    "count": 171,
+    "year": 2018,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 5940,
+    "count": 179,
+    "year": 2018,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 6000,
+    "count": 174,
+    "year": 2018,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 6060,
+    "count": 143,
+    "year": 2018,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 6120,
+    "count": 147,
+    "year": 2018,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 6180,
+    "count": 151,
+    "year": 2018,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 6240,
+    "count": 146,
+    "year": 2018,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 6300,
+    "count": 136,
+    "year": 2018,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 6360,
+    "count": 154,
+    "year": 2018,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 6420,
+    "count": 128,
+    "year": 2018,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 6480,
+    "count": 130,
+    "year": 2018,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 6540,
+    "count": 152,
+    "year": 2018,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 6600,
+    "count": 118,
+    "year": 2018,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 6660,
+    "count": 124,
+    "year": 2018,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 6720,
+    "count": 113,
+    "year": 2018,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 6780,
+    "count": 131,
+    "year": 2018,
+    "city": "philadelphia"
+  },
+  {
     "bucket": 6840,
-    "count": 379,
+    "count": 132,
+    "year": 2018,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 6900,
+    "count": 129,
+    "year": 2018,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 6960,
+    "count": 118,
     "year": 2018,
     "city": "philadelphia"
   },
   {
     "bucket": 7020,
-    "count": 327,
+    "count": 102,
+    "year": 2018,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 7080,
+    "count": 127,
+    "year": 2018,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 7140,
+    "count": 98,
     "year": 2018,
     "city": "philadelphia"
   },
@@ -985,241 +2881,721 @@
   },
   {
     "bucket": 0,
-    "count": 26237,
+    "count": 2360,
+    "year": 2019,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 60,
+    "count": 13451,
+    "year": 2019,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 120,
+    "count": 10426,
     "year": 2019,
     "city": "philadelphia"
   },
   {
     "bucket": 180,
-    "count": 89790,
+    "count": 20000,
+    "year": 2019,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 240,
+    "count": 31007,
+    "year": 2019,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 300,
+    "count": 38783,
     "year": 2019,
     "city": "philadelphia"
   },
   {
     "bucket": 360,
-    "count": 140063,
+    "count": 44089,
+    "year": 2019,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 420,
+    "count": 47929,
+    "year": 2019,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 480,
+    "count": 48045,
     "year": 2019,
     "city": "philadelphia"
   },
   {
     "bucket": 540,
-    "count": 125757,
+    "count": 45071,
+    "year": 2019,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 600,
+    "count": 43564,
+    "year": 2019,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 660,
+    "count": 37122,
     "year": 2019,
     "city": "philadelphia"
   },
   {
     "bucket": 720,
-    "count": 90041,
+    "count": 33648,
+    "year": 2019,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 780,
+    "count": 29994,
+    "year": 2019,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 840,
+    "count": 26399,
     "year": 2019,
     "city": "philadelphia"
   },
   {
     "bucket": 900,
-    "count": 62018,
+    "count": 24256,
+    "year": 2019,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 960,
+    "count": 20102,
+    "year": 2019,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 1020,
+    "count": 17660,
     "year": 2019,
     "city": "philadelphia"
   },
   {
     "bucket": 1080,
-    "count": 41713,
+    "count": 15205,
+    "year": 2019,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 1140,
+    "count": 13317,
+    "year": 2019,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 1200,
+    "count": 13191,
     "year": 2019,
     "city": "philadelphia"
   },
   {
     "bucket": 1260,
-    "count": 28966,
+    "count": 10629,
+    "year": 2019,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 1320,
+    "count": 9694,
+    "year": 2019,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 1380,
+    "count": 8643,
     "year": 2019,
     "city": "philadelphia"
   },
   {
     "bucket": 1440,
-    "count": 21148,
+    "count": 7703,
+    "year": 2019,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 1500,
+    "count": 7112,
+    "year": 2019,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 1560,
+    "count": 6333,
     "year": 2019,
     "city": "philadelphia"
   },
   {
     "bucket": 1620,
-    "count": 15786,
+    "count": 5699,
+    "year": 2019,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 1680,
+    "count": 5273,
+    "year": 2019,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 1740,
+    "count": 4814,
     "year": 2019,
     "city": "philadelphia"
   },
   {
     "bucket": 1800,
-    "count": 13055,
+    "count": 5380,
+    "year": 2019,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 1860,
+    "count": 4010,
+    "year": 2019,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 1920,
+    "count": 3665,
     "year": 2019,
     "city": "philadelphia"
   },
   {
     "bucket": 1980,
-    "count": 9273,
+    "count": 3306,
+    "year": 2019,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 2040,
+    "count": 3103,
+    "year": 2019,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 2100,
+    "count": 2864,
     "year": 2019,
     "city": "philadelphia"
   },
   {
     "bucket": 2160,
-    "count": 7528,
+    "count": 2652,
+    "year": 2019,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 2220,
+    "count": 2460,
+    "year": 2019,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 2280,
+    "count": 2416,
     "year": 2019,
     "city": "philadelphia"
   },
   {
     "bucket": 2340,
-    "count": 6644,
+    "count": 2338,
+    "year": 2019,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 2400,
+    "count": 2230,
+    "year": 2019,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 2460,
+    "count": 2076,
     "year": 2019,
     "city": "philadelphia"
   },
   {
     "bucket": 2520,
-    "count": 5854,
+    "count": 1984,
+    "year": 2019,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 2580,
+    "count": 1987,
+    "year": 2019,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 2640,
+    "count": 1883,
     "year": 2019,
     "city": "philadelphia"
   },
   {
     "bucket": 2700,
-    "count": 5484,
+    "count": 1946,
+    "year": 2019,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 2760,
+    "count": 1804,
+    "year": 2019,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 2820,
+    "count": 1734,
     "year": 2019,
     "city": "philadelphia"
   },
   {
     "bucket": 2880,
-    "count": 5113,
+    "count": 1725,
+    "year": 2019,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 2940,
+    "count": 1690,
+    "year": 2019,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 3000,
+    "count": 1698,
     "year": 2019,
     "city": "philadelphia"
   },
   {
     "bucket": 3060,
-    "count": 4600,
+    "count": 1569,
+    "year": 2019,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 3120,
+    "count": 1551,
+    "year": 2019,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 3180,
+    "count": 1480,
     "year": 2019,
     "city": "philadelphia"
   },
   {
     "bucket": 3240,
-    "count": 4263,
+    "count": 1468,
     "year": 2019,
     "city": "philadelphia"
   },
   {
-    "bucket": 3420,
-    "count": 3829,
+    "bucket": 3300,
+    "count": 1390,
     "year": 2019,
     "city": "philadelphia"
   },
   {
-    "bucket": 3600,
-    "count": 3127,
-    "year": 2019,
-    "city": "philadelphia"
-  },
-  {
-    "bucket": 3780,
-    "count": 2172,
-    "year": 2019,
-    "city": "philadelphia"
-  },
-  {
-    "bucket": 3960,
-    "count": 1872,
-    "year": 2019,
-    "city": "philadelphia"
-  },
-  {
-    "bucket": 4140,
-    "count": 1712,
-    "year": 2019,
-    "city": "philadelphia"
-  },
-  {
-    "bucket": 4320,
-    "count": 1547,
-    "year": 2019,
-    "city": "philadelphia"
-  },
-  {
-    "bucket": 4500,
+    "bucket": 3360,
     "count": 1405,
     "year": 2019,
     "city": "philadelphia"
   },
   {
+    "bucket": 3420,
+    "count": 1316,
+    "year": 2019,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 3480,
+    "count": 1248,
+    "year": 2019,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 3540,
+    "count": 1265,
+    "year": 2019,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 3600,
+    "count": 1255,
+    "year": 2019,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 3660,
+    "count": 999,
+    "year": 2019,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 3720,
+    "count": 873,
+    "year": 2019,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 3780,
+    "count": 774,
+    "year": 2019,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 3840,
+    "count": 710,
+    "year": 2019,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 3900,
+    "count": 688,
+    "year": 2019,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 3960,
+    "count": 666,
+    "year": 2019,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 4020,
+    "count": 619,
+    "year": 2019,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 4080,
+    "count": 587,
+    "year": 2019,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 4140,
+    "count": 564,
+    "year": 2019,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 4200,
+    "count": 557,
+    "year": 2019,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 4260,
+    "count": 591,
+    "year": 2019,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 4320,
+    "count": 545,
+    "year": 2019,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 4380,
+    "count": 509,
+    "year": 2019,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 4440,
+    "count": 493,
+    "year": 2019,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 4500,
+    "count": 451,
+    "year": 2019,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 4560,
+    "count": 494,
+    "year": 2019,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 4620,
+    "count": 460,
+    "year": 2019,
+    "city": "philadelphia"
+  },
+  {
     "bucket": 4680,
-    "count": 1261,
+    "count": 438,
+    "year": 2019,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 4740,
+    "count": 405,
+    "year": 2019,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 4800,
+    "count": 418,
     "year": 2019,
     "city": "philadelphia"
   },
   {
     "bucket": 4860,
-    "count": 1141,
+    "count": 397,
+    "year": 2019,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 4920,
+    "count": 393,
+    "year": 2019,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 4980,
+    "count": 351,
     "year": 2019,
     "city": "philadelphia"
   },
   {
     "bucket": 5040,
-    "count": 1032,
+    "count": 326,
+    "year": 2019,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 5100,
+    "count": 349,
+    "year": 2019,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 5160,
+    "count": 357,
     "year": 2019,
     "city": "philadelphia"
   },
   {
     "bucket": 5220,
-    "count": 937,
+    "count": 324,
+    "year": 2019,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 5280,
+    "count": 320,
+    "year": 2019,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 5340,
+    "count": 293,
     "year": 2019,
     "city": "philadelphia"
   },
   {
     "bucket": 5400,
-    "count": 889,
+    "count": 311,
+    "year": 2019,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 5460,
+    "count": 289,
+    "year": 2019,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 5520,
+    "count": 289,
     "year": 2019,
     "city": "philadelphia"
   },
   {
     "bucket": 5580,
-    "count": 811,
+    "count": 273,
+    "year": 2019,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 5640,
+    "count": 253,
+    "year": 2019,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 5700,
+    "count": 285,
     "year": 2019,
     "city": "philadelphia"
   },
   {
     "bucket": 5760,
-    "count": 775,
+    "count": 257,
+    "year": 2019,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 5820,
+    "count": 266,
+    "year": 2019,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 5880,
+    "count": 252,
     "year": 2019,
     "city": "philadelphia"
   },
   {
     "bucket": 5940,
-    "count": 656,
+    "count": 232,
+    "year": 2019,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 6000,
+    "count": 209,
+    "year": 2019,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 6060,
+    "count": 215,
     "year": 2019,
     "city": "philadelphia"
   },
   {
     "bucket": 6120,
-    "count": 610,
+    "count": 219,
+    "year": 2019,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 6180,
+    "count": 207,
+    "year": 2019,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 6240,
+    "count": 184,
     "year": 2019,
     "city": "philadelphia"
   },
   {
     "bucket": 6300,
-    "count": 592,
+    "count": 190,
+    "year": 2019,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 6360,
+    "count": 206,
+    "year": 2019,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 6420,
+    "count": 196,
     "year": 2019,
     "city": "philadelphia"
   },
   {
     "bucket": 6480,
-    "count": 549,
+    "count": 195,
+    "year": 2019,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 6540,
+    "count": 188,
+    "year": 2019,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 6600,
+    "count": 166,
     "year": 2019,
     "city": "philadelphia"
   },
   {
     "bucket": 6660,
-    "count": 474,
+    "count": 170,
+    "year": 2019,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 6720,
+    "count": 138,
+    "year": 2019,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 6780,
+    "count": 166,
     "year": 2019,
     "city": "philadelphia"
   },
   {
     "bucket": 6840,
-    "count": 478,
+    "count": 149,
+    "year": 2019,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 6900,
+    "count": 168,
+    "year": 2019,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 6960,
+    "count": 161,
     "year": 2019,
     "city": "philadelphia"
   },
   {
     "bucket": 7020,
-    "count": 434,
+    "count": 146,
+    "year": 2019,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 7080,
+    "count": 143,
+    "year": 2019,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 7140,
+    "count": 145,
     "year": 2019,
     "city": "philadelphia"
   },
@@ -1230,242 +3606,716 @@
     "city": "philadelphia"
   },
   {
-    "bucket": 0,
-    "count": 27761,
+    "bucket": 60,
+    "count": 17678,
+    "year": 2020,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 120,
+    "count": 10083,
     "year": 2020,
     "city": "philadelphia"
   },
   {
     "bucket": 180,
-    "count": 74064,
+    "count": 16842,
+    "year": 2020,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 240,
+    "count": 25291,
+    "year": 2020,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 300,
+    "count": 31931,
     "year": 2020,
     "city": "philadelphia"
   },
   {
     "bucket": 360,
-    "count": 108919,
+    "count": 34983,
+    "year": 2020,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 420,
+    "count": 37377,
+    "year": 2020,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 480,
+    "count": 36559,
     "year": 2020,
     "city": "philadelphia"
   },
   {
     "bucket": 540,
-    "count": 102546,
+    "count": 35509,
+    "year": 2020,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 600,
+    "count": 35734,
+    "year": 2020,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 660,
+    "count": 31303,
     "year": 2020,
     "city": "philadelphia"
   },
   {
     "bucket": 720,
-    "count": 76057,
+    "count": 28182,
+    "year": 2020,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 780,
+    "count": 25266,
+    "year": 2020,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 840,
+    "count": 22609,
     "year": 2020,
     "city": "philadelphia"
   },
   {
     "bucket": 900,
-    "count": 56545,
+    "count": 21143,
+    "year": 2020,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 960,
+    "count": 18645,
+    "year": 2020,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 1020,
+    "count": 16757,
     "year": 2020,
     "city": "philadelphia"
   },
   {
     "bucket": 1080,
-    "count": 43803,
+    "count": 15231,
+    "year": 2020,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 1140,
+    "count": 14045,
+    "year": 2020,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 1200,
+    "count": 14527,
     "year": 2020,
     "city": "philadelphia"
   },
   {
     "bucket": 1260,
-    "count": 32096,
+    "count": 11549,
+    "year": 2020,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 1320,
+    "count": 10799,
+    "year": 2020,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 1380,
+    "count": 9748,
     "year": 2020,
     "city": "philadelphia"
   },
   {
     "bucket": 1440,
-    "count": 25172,
+    "count": 8859,
+    "year": 2020,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 1500,
+    "count": 8572,
+    "year": 2020,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 1560,
+    "count": 7741,
     "year": 2020,
     "city": "philadelphia"
   },
   {
     "bucket": 1620,
-    "count": 20587,
+    "count": 7254,
+    "year": 2020,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 1680,
+    "count": 6793,
+    "year": 2020,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 1740,
+    "count": 6540,
     "year": 2020,
     "city": "philadelphia"
   },
   {
     "bucket": 1800,
-    "count": 17587,
+    "count": 6703,
+    "year": 2020,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 1860,
+    "count": 5643,
+    "year": 2020,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 1920,
+    "count": 5241,
     "year": 2020,
     "city": "philadelphia"
   },
   {
     "bucket": 1980,
-    "count": 14005,
+    "count": 4934,
+    "year": 2020,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 2040,
+    "count": 4573,
+    "year": 2020,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 2100,
+    "count": 4498,
     "year": 2020,
     "city": "philadelphia"
   },
   {
     "bucket": 2160,
-    "count": 12057,
+    "count": 4076,
+    "year": 2020,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 2220,
+    "count": 4109,
+    "year": 2020,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 2280,
+    "count": 3872,
     "year": 2020,
     "city": "philadelphia"
   },
   {
     "bucket": 2340,
-    "count": 11211,
+    "count": 3874,
+    "year": 2020,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 2400,
+    "count": 3745,
+    "year": 2020,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 2460,
+    "count": 3592,
     "year": 2020,
     "city": "philadelphia"
   },
   {
     "bucket": 2520,
-    "count": 10540,
+    "count": 3542,
+    "year": 2020,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 2580,
+    "count": 3572,
+    "year": 2020,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 2640,
+    "count": 3426,
     "year": 2020,
     "city": "philadelphia"
   },
   {
     "bucket": 2700,
-    "count": 10307,
+    "count": 3525,
+    "year": 2020,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 2760,
+    "count": 3395,
+    "year": 2020,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 2820,
+    "count": 3387,
     "year": 2020,
     "city": "philadelphia"
   },
   {
     "bucket": 2880,
-    "count": 9632,
+    "count": 3294,
+    "year": 2020,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 2940,
+    "count": 3191,
+    "year": 2020,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 3000,
+    "count": 3147,
     "year": 2020,
     "city": "philadelphia"
   },
   {
     "bucket": 3060,
-    "count": 9095,
+    "count": 3052,
+    "year": 2020,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 3120,
+    "count": 3051,
+    "year": 2020,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 3180,
+    "count": 2992,
     "year": 2020,
     "city": "philadelphia"
   },
   {
     "bucket": 3240,
-    "count": 8384,
+    "count": 2846,
+    "year": 2020,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 3300,
+    "count": 2855,
+    "year": 2020,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 3360,
+    "count": 2683,
     "year": 2020,
     "city": "philadelphia"
   },
   {
     "bucket": 3420,
-    "count": 7604,
+    "count": 2719,
+    "year": 2020,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 3480,
+    "count": 2517,
+    "year": 2020,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 3540,
+    "count": 2368,
     "year": 2020,
     "city": "philadelphia"
   },
   {
     "bucket": 3600,
-    "count": 6104,
+    "count": 2332,
+    "year": 2020,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 3660,
+    "count": 1964,
+    "year": 2020,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 3720,
+    "count": 1808,
     "year": 2020,
     "city": "philadelphia"
   },
   {
     "bucket": 3780,
-    "count": 4542,
+    "count": 1644,
+    "year": 2020,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 3840,
+    "count": 1512,
+    "year": 2020,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 3900,
+    "count": 1386,
     "year": 2020,
     "city": "philadelphia"
   },
   {
     "bucket": 3960,
-    "count": 3777,
+    "count": 1359,
+    "year": 2020,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 4020,
+    "count": 1224,
+    "year": 2020,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 4080,
+    "count": 1194,
     "year": 2020,
     "city": "philadelphia"
   },
   {
     "bucket": 4140,
-    "count": 3434,
+    "count": 1159,
+    "year": 2020,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 4200,
+    "count": 1106,
+    "year": 2020,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 4260,
+    "count": 1169,
     "year": 2020,
     "city": "philadelphia"
   },
   {
     "bucket": 4320,
-    "count": 3292,
+    "count": 1148,
+    "year": 2020,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 4380,
+    "count": 1068,
+    "year": 2020,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 4440,
+    "count": 1076,
     "year": 2020,
     "city": "philadelphia"
   },
   {
     "bucket": 4500,
-    "count": 2793,
+    "count": 960,
+    "year": 2020,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 4560,
+    "count": 961,
+    "year": 2020,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 4620,
+    "count": 872,
     "year": 2020,
     "city": "philadelphia"
   },
   {
     "bucket": 4680,
-    "count": 2406,
+    "count": 808,
+    "year": 2020,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 4740,
+    "count": 796,
+    "year": 2020,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 4800,
+    "count": 802,
     "year": 2020,
     "city": "philadelphia"
   },
   {
     "bucket": 4860,
-    "count": 2046,
+    "count": 700,
+    "year": 2020,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 4920,
+    "count": 695,
+    "year": 2020,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 4980,
+    "count": 651,
     "year": 2020,
     "city": "philadelphia"
   },
   {
     "bucket": 5040,
-    "count": 1879,
+    "count": 630,
+    "year": 2020,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 5100,
+    "count": 607,
+    "year": 2020,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 5160,
+    "count": 642,
     "year": 2020,
     "city": "philadelphia"
   },
   {
     "bucket": 5220,
-    "count": 1621,
+    "count": 542,
+    "year": 2020,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 5280,
+    "count": 535,
+    "year": 2020,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 5340,
+    "count": 544,
     "year": 2020,
     "city": "philadelphia"
   },
   {
     "bucket": 5400,
-    "count": 1496,
+    "count": 533,
+    "year": 2020,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 5460,
+    "count": 490,
+    "year": 2020,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 5520,
+    "count": 473,
     "year": 2020,
     "city": "philadelphia"
   },
   {
     "bucket": 5580,
-    "count": 1294,
+    "count": 433,
+    "year": 2020,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 5640,
+    "count": 439,
+    "year": 2020,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 5700,
+    "count": 422,
     "year": 2020,
     "city": "philadelphia"
   },
   {
     "bucket": 5760,
-    "count": 1243,
+    "count": 425,
+    "year": 2020,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 5820,
+    "count": 407,
+    "year": 2020,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 5880,
+    "count": 411,
     "year": 2020,
     "city": "philadelphia"
   },
   {
     "bucket": 5940,
-    "count": 1151,
+    "count": 401,
+    "year": 2020,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 6000,
+    "count": 393,
+    "year": 2020,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 6060,
+    "count": 357,
     "year": 2020,
     "city": "philadelphia"
   },
   {
     "bucket": 6120,
-    "count": 949,
+    "count": 276,
+    "year": 2020,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 6180,
+    "count": 344,
+    "year": 2020,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 6240,
+    "count": 329,
     "year": 2020,
     "city": "philadelphia"
   },
   {
     "bucket": 6300,
-    "count": 873,
+    "count": 296,
+    "year": 2020,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 6360,
+    "count": 301,
+    "year": 2020,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 6420,
+    "count": 276,
     "year": 2020,
     "city": "philadelphia"
   },
   {
     "bucket": 6480,
-    "count": 782,
+    "count": 288,
+    "year": 2020,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 6540,
+    "count": 262,
+    "year": 2020,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 6600,
+    "count": 232,
     "year": 2020,
     "city": "philadelphia"
   },
   {
     "bucket": 6660,
-    "count": 754,
+    "count": 263,
+    "year": 2020,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 6720,
+    "count": 241,
+    "year": 2020,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 6780,
+    "count": 250,
     "year": 2020,
     "city": "philadelphia"
   },
   {
     "bucket": 6840,
-    "count": 724,
+    "count": 248,
+    "year": 2020,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 6900,
+    "count": 253,
+    "year": 2020,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 6960,
+    "count": 223,
     "year": 2020,
     "city": "philadelphia"
   },
   {
     "bucket": 7020,
-    "count": 636,
+    "count": 206,
+    "year": 2020,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 7080,
+    "count": 227,
+    "year": 2020,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 7140,
+    "count": 203,
     "year": 2020,
     "city": "philadelphia"
   },
@@ -1476,242 +4326,716 @@
     "city": "philadelphia"
   },
   {
-    "bucket": 0,
-    "count": 40614,
+    "bucket": 60,
+    "count": 23770,
+    "year": 2021,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 120,
+    "count": 16844,
     "year": 2021,
     "city": "philadelphia"
   },
   {
     "bucket": 180,
-    "count": 126066,
+    "count": 29549,
+    "year": 2021,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 240,
+    "count": 42919,
+    "year": 2021,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 300,
+    "count": 53598,
     "year": 2021,
     "city": "philadelphia"
   },
   {
     "bucket": 360,
-    "count": 178073,
+    "count": 58414,
+    "year": 2021,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 420,
+    "count": 60281,
+    "year": 2021,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 480,
+    "count": 59378,
     "year": 2021,
     "city": "philadelphia"
   },
   {
     "bucket": 540,
-    "count": 159400,
+    "count": 57108,
+    "year": 2021,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 600,
+    "count": 54541,
+    "year": 2021,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 660,
+    "count": 47751,
     "year": 2021,
     "city": "philadelphia"
   },
   {
     "bucket": 720,
-    "count": 111114,
+    "count": 42030,
+    "year": 2021,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 780,
+    "count": 36736,
+    "year": 2021,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 840,
+    "count": 32348,
     "year": 2021,
     "city": "philadelphia"
   },
   {
     "bucket": 900,
-    "count": 76581,
+    "count": 29567,
+    "year": 2021,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 960,
+    "count": 24728,
+    "year": 2021,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 1020,
+    "count": 22286,
     "year": 2021,
     "city": "philadelphia"
   },
   {
     "bucket": 1080,
-    "count": 53907,
+    "count": 19755,
+    "year": 2021,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 1140,
+    "count": 17261,
+    "year": 2021,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 1200,
+    "count": 16891,
     "year": 2021,
     "city": "philadelphia"
   },
   {
     "bucket": 1260,
-    "count": 38473,
+    "count": 14176,
+    "year": 2021,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 1320,
+    "count": 13025,
+    "year": 2021,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 1380,
+    "count": 11272,
     "year": 2021,
     "city": "philadelphia"
   },
   {
     "bucket": 1440,
-    "count": 28277,
+    "count": 10424,
+    "year": 2021,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 1500,
+    "count": 9631,
+    "year": 2021,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 1560,
+    "count": 8222,
     "year": 2021,
     "city": "philadelphia"
   },
   {
     "bucket": 1620,
-    "count": 21350,
+    "count": 7713,
+    "year": 2021,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 1680,
+    "count": 7205,
+    "year": 2021,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 1740,
+    "count": 6432,
     "year": 2021,
     "city": "philadelphia"
   },
   {
     "bucket": 1800,
-    "count": 16640,
+    "count": 6440,
+    "year": 2021,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 1860,
+    "count": 5296,
+    "year": 2021,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 1920,
+    "count": 4904,
     "year": 2021,
     "city": "philadelphia"
   },
   {
     "bucket": 1980,
-    "count": 12781,
+    "count": 4571,
+    "year": 2021,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 2040,
+    "count": 4245,
+    "year": 2021,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 2100,
+    "count": 3965,
     "year": 2021,
     "city": "philadelphia"
   },
   {
     "bucket": 2160,
-    "count": 10488,
+    "count": 3671,
+    "year": 2021,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 2220,
+    "count": 3559,
+    "year": 2021,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 2280,
+    "count": 3258,
     "year": 2021,
     "city": "philadelphia"
   },
   {
     "bucket": 2340,
-    "count": 9135,
+    "count": 3075,
+    "year": 2021,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 2400,
+    "count": 3202,
+    "year": 2021,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 2460,
+    "count": 2858,
     "year": 2021,
     "city": "philadelphia"
   },
   {
     "bucket": 2520,
-    "count": 8208,
+    "count": 2829,
+    "year": 2021,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 2580,
+    "count": 2711,
+    "year": 2021,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 2640,
+    "count": 2668,
     "year": 2021,
     "city": "philadelphia"
   },
   {
     "bucket": 2700,
-    "count": 7719,
+    "count": 2672,
+    "year": 2021,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 2760,
+    "count": 2455,
+    "year": 2021,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 2820,
+    "count": 2592,
     "year": 2021,
     "city": "philadelphia"
   },
   {
     "bucket": 2880,
-    "count": 7387,
+    "count": 2511,
+    "year": 2021,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 2940,
+    "count": 2400,
+    "year": 2021,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 3000,
+    "count": 2476,
     "year": 2021,
     "city": "philadelphia"
   },
   {
     "bucket": 3060,
-    "count": 6654,
+    "count": 2338,
+    "year": 2021,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 3120,
+    "count": 2179,
+    "year": 2021,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 3180,
+    "count": 2137,
     "year": 2021,
     "city": "philadelphia"
   },
   {
     "bucket": 3240,
-    "count": 5859,
+    "count": 1979,
+    "year": 2021,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 3300,
+    "count": 2036,
+    "year": 2021,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 3360,
+    "count": 1844,
     "year": 2021,
     "city": "philadelphia"
   },
   {
     "bucket": 3420,
-    "count": 5291,
+    "count": 1803,
+    "year": 2021,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 3480,
+    "count": 1840,
+    "year": 2021,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 3540,
+    "count": 1648,
     "year": 2021,
     "city": "philadelphia"
   },
   {
     "bucket": 3600,
-    "count": 4141,
+    "count": 1637,
+    "year": 2021,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 3660,
+    "count": 1366,
+    "year": 2021,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 3720,
+    "count": 1138,
     "year": 2021,
     "city": "philadelphia"
   },
   {
     "bucket": 3780,
-    "count": 3030,
+    "count": 1095,
+    "year": 2021,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 3840,
+    "count": 1014,
+    "year": 2021,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 3900,
+    "count": 921,
     "year": 2021,
     "city": "philadelphia"
   },
   {
     "bucket": 3960,
-    "count": 2475,
+    "count": 882,
+    "year": 2021,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 4020,
+    "count": 855,
+    "year": 2021,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 4080,
+    "count": 738,
     "year": 2021,
     "city": "philadelphia"
   },
   {
     "bucket": 4140,
-    "count": 2224,
+    "count": 753,
+    "year": 2021,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 4200,
+    "count": 755,
+    "year": 2021,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 4260,
+    "count": 716,
     "year": 2021,
     "city": "philadelphia"
   },
   {
     "bucket": 4320,
-    "count": 2090,
+    "count": 697,
+    "year": 2021,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 4380,
+    "count": 680,
+    "year": 2021,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 4440,
+    "count": 713,
     "year": 2021,
     "city": "philadelphia"
   },
   {
     "bucket": 4500,
-    "count": 1740,
+    "count": 604,
+    "year": 2021,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 4560,
+    "count": 598,
+    "year": 2021,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 4620,
+    "count": 538,
     "year": 2021,
     "city": "philadelphia"
   },
   {
     "bucket": 4680,
-    "count": 1520,
+    "count": 514,
+    "year": 2021,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 4740,
+    "count": 533,
+    "year": 2021,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 4800,
+    "count": 473,
     "year": 2021,
     "city": "philadelphia"
   },
   {
     "bucket": 4860,
-    "count": 1241,
+    "count": 426,
+    "year": 2021,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 4920,
+    "count": 433,
+    "year": 2021,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 4980,
+    "count": 382,
     "year": 2021,
     "city": "philadelphia"
   },
   {
     "bucket": 5040,
-    "count": 1069,
+    "count": 373,
+    "year": 2021,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 5100,
+    "count": 333,
+    "year": 2021,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 5160,
+    "count": 363,
     "year": 2021,
     "city": "philadelphia"
   },
   {
     "bucket": 5220,
-    "count": 940,
+    "count": 303,
+    "year": 2021,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 5280,
+    "count": 319,
+    "year": 2021,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 5340,
+    "count": 318,
     "year": 2021,
     "city": "philadelphia"
   },
   {
     "bucket": 5400,
-    "count": 896,
+    "count": 308,
+    "year": 2021,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 5460,
+    "count": 291,
+    "year": 2021,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 5520,
+    "count": 297,
     "year": 2021,
     "city": "philadelphia"
   },
   {
     "bucket": 5580,
-    "count": 727,
+    "count": 239,
+    "year": 2021,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 5640,
+    "count": 255,
+    "year": 2021,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 5700,
+    "count": 233,
     "year": 2021,
     "city": "philadelphia"
   },
   {
     "bucket": 5760,
-    "count": 659,
+    "count": 232,
+    "year": 2021,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 5820,
+    "count": 241,
+    "year": 2021,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 5880,
+    "count": 186,
     "year": 2021,
     "city": "philadelphia"
   },
   {
     "bucket": 5940,
-    "count": 639,
+    "count": 208,
+    "year": 2021,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 6000,
+    "count": 227,
+    "year": 2021,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 6060,
+    "count": 204,
     "year": 2021,
     "city": "philadelphia"
   },
   {
     "bucket": 6120,
-    "count": 569,
+    "count": 188,
+    "year": 2021,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 6180,
+    "count": 205,
+    "year": 2021,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 6240,
+    "count": 176,
     "year": 2021,
     "city": "philadelphia"
   },
   {
     "bucket": 6300,
-    "count": 541,
+    "count": 191,
+    "year": 2021,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 6360,
+    "count": 190,
+    "year": 2021,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 6420,
+    "count": 160,
     "year": 2021,
     "city": "philadelphia"
   },
   {
     "bucket": 6480,
-    "count": 466,
+    "count": 156,
+    "year": 2021,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 6540,
+    "count": 161,
+    "year": 2021,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 6600,
+    "count": 149,
     "year": 2021,
     "city": "philadelphia"
   },
   {
     "bucket": 6660,
-    "count": 440,
+    "count": 151,
+    "year": 2021,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 6720,
+    "count": 158,
+    "year": 2021,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 6780,
+    "count": 131,
     "year": 2021,
     "city": "philadelphia"
   },
   {
     "bucket": 6840,
-    "count": 371,
+    "count": 132,
+    "year": 2021,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 6900,
+    "count": 115,
+    "year": 2021,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 6960,
+    "count": 124,
     "year": 2021,
     "city": "philadelphia"
   },
   {
     "bucket": 7020,
-    "count": 351,
+    "count": 111,
+    "year": 2021,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 7080,
+    "count": 119,
+    "year": 2021,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 7140,
+    "count": 121,
     "year": 2021,
     "city": "philadelphia"
   },
@@ -1722,242 +5046,716 @@
     "city": "philadelphia"
   },
   {
-    "bucket": 0,
-    "count": 40812,
+    "bucket": 60,
+    "count": 24760,
+    "year": 2022,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 120,
+    "count": 16052,
     "year": 2022,
     "city": "philadelphia"
   },
   {
     "bucket": 180,
-    "count": 133051,
+    "count": 30989,
+    "year": 2022,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 240,
+    "count": 45367,
+    "year": 2022,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 300,
+    "count": 56695,
     "year": 2022,
     "city": "philadelphia"
   },
   {
     "bucket": 360,
-    "count": 183559,
+    "count": 61526,
+    "year": 2022,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 420,
+    "count": 61946,
+    "year": 2022,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 480,
+    "count": 60087,
     "year": 2022,
     "city": "philadelphia"
   },
   {
     "bucket": 540,
-    "count": 154585,
+    "count": 56025,
+    "year": 2022,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 600,
+    "count": 52926,
+    "year": 2022,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 660,
+    "count": 45634,
     "year": 2022,
     "city": "philadelphia"
   },
   {
     "bucket": 720,
-    "count": 104266,
+    "count": 39750,
+    "year": 2022,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 780,
+    "count": 34530,
+    "year": 2022,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 840,
+    "count": 29986,
     "year": 2022,
     "city": "philadelphia"
   },
   {
     "bucket": 900,
-    "count": 68613,
+    "count": 26308,
+    "year": 2022,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 960,
+    "count": 22646,
+    "year": 2022,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 1020,
+    "count": 19659,
     "year": 2022,
     "city": "philadelphia"
   },
   {
     "bucket": 1080,
-    "count": 45842,
+    "count": 17045,
+    "year": 2022,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 1140,
+    "count": 15029,
+    "year": 2022,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 1200,
+    "count": 13768,
     "year": 2022,
     "city": "philadelphia"
   },
   {
     "bucket": 1260,
-    "count": 30850,
+    "count": 11528,
+    "year": 2022,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 1320,
+    "count": 10365,
+    "year": 2022,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 1380,
+    "count": 8957,
     "year": 2022,
     "city": "philadelphia"
   },
   {
     "bucket": 1440,
-    "count": 22179,
+    "count": 8025,
+    "year": 2022,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 1500,
+    "count": 7353,
+    "year": 2022,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 1560,
+    "count": 6801,
     "year": 2022,
     "city": "philadelphia"
   },
   {
     "bucket": 1620,
-    "count": 16822,
+    "count": 6236,
+    "year": 2022,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 1680,
+    "count": 5476,
+    "year": 2022,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 1740,
+    "count": 5110,
     "year": 2022,
     "city": "philadelphia"
   },
   {
     "bucket": 1800,
-    "count": 13451,
+    "count": 4950,
+    "year": 2022,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 1860,
+    "count": 4390,
+    "year": 2022,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 1920,
+    "count": 4111,
     "year": 2022,
     "city": "philadelphia"
   },
   {
     "bucket": 1980,
-    "count": 10683,
+    "count": 3841,
+    "year": 2022,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 2040,
+    "count": 3457,
+    "year": 2022,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 2100,
+    "count": 3385,
     "year": 2022,
     "city": "philadelphia"
   },
   {
     "bucket": 2160,
-    "count": 9196,
+    "count": 3236,
+    "year": 2022,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 2220,
+    "count": 3005,
+    "year": 2022,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 2280,
+    "count": 2955,
     "year": 2022,
     "city": "philadelphia"
   },
   {
     "bucket": 2340,
-    "count": 8227,
+    "count": 2835,
+    "year": 2022,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 2400,
+    "count": 2774,
+    "year": 2022,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 2460,
+    "count": 2618,
     "year": 2022,
     "city": "philadelphia"
   },
   {
     "bucket": 2520,
-    "count": 7490,
+    "count": 2570,
+    "year": 2022,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 2580,
+    "count": 2456,
+    "year": 2022,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 2640,
+    "count": 2464,
     "year": 2022,
     "city": "philadelphia"
   },
   {
     "bucket": 2700,
-    "count": 6917,
+    "count": 2374,
+    "year": 2022,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 2760,
+    "count": 2324,
+    "year": 2022,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 2820,
+    "count": 2219,
     "year": 2022,
     "city": "philadelphia"
   },
   {
     "bucket": 2880,
-    "count": 6604,
+    "count": 2263,
+    "year": 2022,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 2940,
+    "count": 2206,
+    "year": 2022,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 3000,
+    "count": 2135,
     "year": 2022,
     "city": "philadelphia"
   },
   {
     "bucket": 3060,
-    "count": 6177,
+    "count": 1988,
+    "year": 2022,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 3120,
+    "count": 2164,
+    "year": 2022,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 3180,
+    "count": 2025,
     "year": 2022,
     "city": "philadelphia"
   },
   {
     "bucket": 3240,
-    "count": 5773,
+    "count": 1986,
+    "year": 2022,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 3300,
+    "count": 1967,
+    "year": 2022,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 3360,
+    "count": 1820,
     "year": 2022,
     "city": "philadelphia"
   },
   {
     "bucket": 3420,
-    "count": 4929,
+    "count": 1747,
+    "year": 2022,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 3480,
+    "count": 1661,
+    "year": 2022,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 3540,
+    "count": 1521,
     "year": 2022,
     "city": "philadelphia"
   },
   {
     "bucket": 3600,
-    "count": 3616,
+    "count": 1417,
+    "year": 2022,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 3660,
+    "count": 1139,
+    "year": 2022,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 3720,
+    "count": 1060,
     "year": 2022,
     "city": "philadelphia"
   },
   {
     "bucket": 3780,
-    "count": 2534,
+    "count": 913,
+    "year": 2022,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 3840,
+    "count": 841,
+    "year": 2022,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 3900,
+    "count": 780,
     "year": 2022,
     "city": "philadelphia"
   },
   {
     "bucket": 3960,
-    "count": 2039,
+    "count": 717,
+    "year": 2022,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 4020,
+    "count": 695,
+    "year": 2022,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 4080,
+    "count": 627,
     "year": 2022,
     "city": "philadelphia"
   },
   {
     "bucket": 4140,
-    "count": 1764,
+    "count": 623,
+    "year": 2022,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 4200,
+    "count": 562,
+    "year": 2022,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 4260,
+    "count": 579,
     "year": 2022,
     "city": "philadelphia"
   },
   {
     "bucket": 4320,
-    "count": 1481,
+    "count": 525,
+    "year": 2022,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 4380,
+    "count": 497,
+    "year": 2022,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 4440,
+    "count": 459,
     "year": 2022,
     "city": "philadelphia"
   },
   {
     "bucket": 4500,
-    "count": 1245,
+    "count": 474,
+    "year": 2022,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 4560,
+    "count": 380,
+    "year": 2022,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 4620,
+    "count": 391,
     "year": 2022,
     "city": "philadelphia"
   },
   {
     "bucket": 4680,
-    "count": 986,
+    "count": 344,
+    "year": 2022,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 4740,
+    "count": 318,
+    "year": 2022,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 4800,
+    "count": 324,
     "year": 2022,
     "city": "philadelphia"
   },
   {
     "bucket": 4860,
-    "count": 834,
+    "count": 310,
+    "year": 2022,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 4920,
+    "count": 257,
+    "year": 2022,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 4980,
+    "count": 267,
     "year": 2022,
     "city": "philadelphia"
   },
   {
     "bucket": 5040,
-    "count": 702,
+    "count": 235,
+    "year": 2022,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 5100,
+    "count": 219,
+    "year": 2022,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 5160,
+    "count": 248,
     "year": 2022,
     "city": "philadelphia"
   },
   {
     "bucket": 5220,
-    "count": 609,
+    "count": 201,
+    "year": 2022,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 5280,
+    "count": 227,
+    "year": 2022,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 5340,
+    "count": 181,
     "year": 2022,
     "city": "philadelphia"
   },
   {
     "bucket": 5400,
-    "count": 543,
+    "count": 199,
+    "year": 2022,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 5460,
+    "count": 166,
+    "year": 2022,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 5520,
+    "count": 178,
     "year": 2022,
     "city": "philadelphia"
   },
   {
     "bucket": 5580,
-    "count": 487,
+    "count": 144,
+    "year": 2022,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 5640,
+    "count": 170,
+    "year": 2022,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 5700,
+    "count": 173,
     "year": 2022,
     "city": "philadelphia"
   },
   {
     "bucket": 5760,
-    "count": 456,
+    "count": 163,
+    "year": 2022,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 5820,
+    "count": 147,
+    "year": 2022,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 5880,
+    "count": 146,
     "year": 2022,
     "city": "philadelphia"
   },
   {
     "bucket": 5940,
-    "count": 379,
+    "count": 133,
+    "year": 2022,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 6000,
+    "count": 134,
+    "year": 2022,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 6060,
+    "count": 112,
     "year": 2022,
     "city": "philadelphia"
   },
   {
     "bucket": 6120,
-    "count": 351,
+    "count": 126,
+    "year": 2022,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 6180,
+    "count": 109,
+    "year": 2022,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 6240,
+    "count": 116,
     "year": 2022,
     "city": "philadelphia"
   },
   {
     "bucket": 6300,
-    "count": 299,
+    "count": 130,
+    "year": 2022,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 6360,
+    "count": 85,
+    "year": 2022,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 6420,
+    "count": 84,
     "year": 2022,
     "city": "philadelphia"
   },
   {
     "bucket": 6480,
-    "count": 295,
+    "count": 104,
+    "year": 2022,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 6540,
+    "count": 99,
+    "year": 2022,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 6600,
+    "count": 92,
     "year": 2022,
     "city": "philadelphia"
   },
   {
     "bucket": 6660,
-    "count": 255,
+    "count": 86,
+    "year": 2022,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 6720,
+    "count": 83,
+    "year": 2022,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 6780,
+    "count": 86,
     "year": 2022,
     "city": "philadelphia"
   },
   {
     "bucket": 6840,
-    "count": 230,
+    "count": 69,
+    "year": 2022,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 6900,
+    "count": 76,
+    "year": 2022,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 6960,
+    "count": 85,
     "year": 2022,
     "city": "philadelphia"
   },
   {
     "bucket": 7020,
-    "count": 228,
+    "count": 88,
+    "year": 2022,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 7080,
+    "count": 73,
+    "year": 2022,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 7140,
+    "count": 67,
     "year": 2022,
     "city": "philadelphia"
   },
@@ -1968,242 +5766,716 @@
     "city": "philadelphia"
   },
   {
-    "bucket": 0,
-    "count": 48259,
+    "bucket": 60,
+    "count": 29124,
+    "year": 2023,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 120,
+    "count": 19135,
     "year": 2023,
     "city": "philadelphia"
   },
   {
     "bucket": 180,
-    "count": 173962,
+    "count": 40009,
+    "year": 2023,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 240,
+    "count": 60035,
+    "year": 2023,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 300,
+    "count": 73918,
     "year": 2023,
     "city": "philadelphia"
   },
   {
     "bucket": 360,
-    "count": 235537,
+    "count": 79681,
+    "year": 2023,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 420,
+    "count": 80364,
+    "year": 2023,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 480,
+    "count": 75492,
     "year": 2023,
     "city": "philadelphia"
   },
   {
     "bucket": 540,
-    "count": 186976,
+    "count": 68701,
+    "year": 2023,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 600,
+    "count": 63616,
+    "year": 2023,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 660,
+    "count": 54659,
     "year": 2023,
     "city": "philadelphia"
   },
   {
     "bucket": 720,
-    "count": 123523,
+    "count": 47569,
+    "year": 2023,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 780,
+    "count": 40826,
+    "year": 2023,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 840,
+    "count": 35128,
     "year": 2023,
     "city": "philadelphia"
   },
   {
     "bucket": 900,
-    "count": 78793,
+    "count": 30300,
+    "year": 2023,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 960,
+    "count": 25981,
+    "year": 2023,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 1020,
+    "count": 22512,
     "year": 2023,
     "city": "philadelphia"
   },
   {
     "bucket": 1080,
-    "count": 52084,
+    "count": 19290,
+    "year": 2023,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 1140,
+    "count": 16896,
+    "year": 2023,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 1200,
+    "count": 15898,
     "year": 2023,
     "city": "philadelphia"
   },
   {
     "bucket": 1260,
-    "count": 34469,
+    "count": 12869,
+    "year": 2023,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 1320,
+    "count": 11387,
+    "year": 2023,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 1380,
+    "count": 10213,
     "year": 2023,
     "city": "philadelphia"
   },
   {
     "bucket": 1440,
-    "count": 24475,
+    "count": 9111,
+    "year": 2023,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 1500,
+    "count": 8124,
+    "year": 2023,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 1560,
+    "count": 7240,
     "year": 2023,
     "city": "philadelphia"
   },
   {
     "bucket": 1620,
-    "count": 18074,
+    "count": 6599,
+    "year": 2023,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 1680,
+    "count": 5999,
+    "year": 2023,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 1740,
+    "count": 5476,
     "year": 2023,
     "city": "philadelphia"
   },
   {
     "bucket": 1800,
-    "count": 14544,
+    "count": 5430,
+    "year": 2023,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 1860,
+    "count": 4750,
+    "year": 2023,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 1920,
+    "count": 4364,
     "year": 2023,
     "city": "philadelphia"
   },
   {
     "bucket": 1980,
-    "count": 11567,
+    "count": 4101,
+    "year": 2023,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 2040,
+    "count": 3899,
+    "year": 2023,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 2100,
+    "count": 3567,
     "year": 2023,
     "city": "philadelphia"
   },
   {
     "bucket": 2160,
-    "count": 9705,
+    "count": 3443,
+    "year": 2023,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 2220,
+    "count": 3238,
+    "year": 2023,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 2280,
+    "count": 3024,
     "year": 2023,
     "city": "philadelphia"
   },
   {
     "bucket": 2340,
-    "count": 8597,
+    "count": 3000,
+    "year": 2023,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 2400,
+    "count": 2894,
+    "year": 2023,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 2460,
+    "count": 2703,
     "year": 2023,
     "city": "philadelphia"
   },
   {
     "bucket": 2520,
-    "count": 7825,
+    "count": 2717,
+    "year": 2023,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 2580,
+    "count": 2553,
+    "year": 2023,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 2640,
+    "count": 2555,
     "year": 2023,
     "city": "philadelphia"
   },
   {
     "bucket": 2700,
-    "count": 7150,
+    "count": 2560,
+    "year": 2023,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 2760,
+    "count": 2317,
+    "year": 2023,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 2820,
+    "count": 2273,
     "year": 2023,
     "city": "philadelphia"
   },
   {
     "bucket": 2880,
-    "count": 6649,
+    "count": 2267,
+    "year": 2023,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 2940,
+    "count": 2256,
+    "year": 2023,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 3000,
+    "count": 2126,
     "year": 2023,
     "city": "philadelphia"
   },
   {
     "bucket": 3060,
-    "count": 6166,
+    "count": 2075,
+    "year": 2023,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 3120,
+    "count": 2101,
+    "year": 2023,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 3180,
+    "count": 1990,
     "year": 2023,
     "city": "philadelphia"
   },
   {
     "bucket": 3240,
-    "count": 5961,
+    "count": 2084,
+    "year": 2023,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 3300,
+    "count": 1975,
+    "year": 2023,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 3360,
+    "count": 1902,
     "year": 2023,
     "city": "philadelphia"
   },
   {
     "bucket": 3420,
-    "count": 5003,
+    "count": 1736,
+    "year": 2023,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 3480,
+    "count": 1691,
+    "year": 2023,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 3540,
+    "count": 1576,
     "year": 2023,
     "city": "philadelphia"
   },
   {
     "bucket": 3600,
-    "count": 3665,
+    "count": 1514,
+    "year": 2023,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 3660,
+    "count": 1156,
+    "year": 2023,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 3720,
+    "count": 995,
     "year": 2023,
     "city": "philadelphia"
   },
   {
     "bucket": 3780,
-    "count": 2516,
+    "count": 978,
+    "year": 2023,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 3840,
+    "count": 804,
+    "year": 2023,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 3900,
+    "count": 734,
     "year": 2023,
     "city": "philadelphia"
   },
   {
     "bucket": 3960,
-    "count": 1925,
+    "count": 720,
+    "year": 2023,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 4020,
+    "count": 666,
+    "year": 2023,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 4080,
+    "count": 539,
     "year": 2023,
     "city": "philadelphia"
   },
   {
     "bucket": 4140,
-    "count": 1577,
+    "count": 559,
+    "year": 2023,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 4200,
+    "count": 482,
+    "year": 2023,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 4260,
+    "count": 536,
     "year": 2023,
     "city": "philadelphia"
   },
   {
     "bucket": 4320,
-    "count": 1460,
+    "count": 535,
+    "year": 2023,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 4380,
+    "count": 497,
+    "year": 2023,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 4440,
+    "count": 428,
     "year": 2023,
     "city": "philadelphia"
   },
   {
     "bucket": 4500,
-    "count": 1234,
+    "count": 419,
+    "year": 2023,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 4560,
+    "count": 436,
+    "year": 2023,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 4620,
+    "count": 379,
     "year": 2023,
     "city": "philadelphia"
   },
   {
     "bucket": 4680,
-    "count": 991,
+    "count": 342,
+    "year": 2023,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 4740,
+    "count": 328,
+    "year": 2023,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 4800,
+    "count": 321,
     "year": 2023,
     "city": "philadelphia"
   },
   {
     "bucket": 4860,
-    "count": 892,
+    "count": 302,
+    "year": 2023,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 4920,
+    "count": 310,
+    "year": 2023,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 4980,
+    "count": 280,
     "year": 2023,
     "city": "philadelphia"
   },
   {
     "bucket": 5040,
-    "count": 722,
+    "count": 234,
+    "year": 2023,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 5100,
+    "count": 245,
+    "year": 2023,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 5160,
+    "count": 243,
     "year": 2023,
     "city": "philadelphia"
   },
   {
     "bucket": 5220,
-    "count": 638,
+    "count": 231,
+    "year": 2023,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 5280,
+    "count": 218,
+    "year": 2023,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 5340,
+    "count": 189,
     "year": 2023,
     "city": "philadelphia"
   },
   {
     "bucket": 5400,
-    "count": 525,
+    "count": 199,
+    "year": 2023,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 5460,
+    "count": 174,
+    "year": 2023,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 5520,
+    "count": 152,
     "year": 2023,
     "city": "philadelphia"
   },
   {
     "bucket": 5580,
-    "count": 448,
+    "count": 161,
+    "year": 2023,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 5640,
+    "count": 132,
+    "year": 2023,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 5700,
+    "count": 155,
     "year": 2023,
     "city": "philadelphia"
   },
   {
     "bucket": 5760,
-    "count": 373,
+    "count": 130,
+    "year": 2023,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 5820,
+    "count": 117,
+    "year": 2023,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 5880,
+    "count": 126,
     "year": 2023,
     "city": "philadelphia"
   },
   {
     "bucket": 5940,
-    "count": 382,
+    "count": 121,
+    "year": 2023,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 6000,
+    "count": 135,
+    "year": 2023,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 6060,
+    "count": 126,
     "year": 2023,
     "city": "philadelphia"
   },
   {
     "bucket": 6120,
-    "count": 348,
+    "count": 110,
+    "year": 2023,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 6180,
+    "count": 121,
+    "year": 2023,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 6240,
+    "count": 117,
     "year": 2023,
     "city": "philadelphia"
   },
   {
     "bucket": 6300,
-    "count": 292,
+    "count": 98,
+    "year": 2023,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 6360,
+    "count": 110,
+    "year": 2023,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 6420,
+    "count": 84,
     "year": 2023,
     "city": "philadelphia"
   },
   {
     "bucket": 6480,
-    "count": 256,
+    "count": 87,
+    "year": 2023,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 6540,
+    "count": 94,
+    "year": 2023,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 6600,
+    "count": 75,
     "year": 2023,
     "city": "philadelphia"
   },
   {
     "bucket": 6660,
-    "count": 263,
+    "count": 87,
+    "year": 2023,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 6720,
+    "count": 86,
+    "year": 2023,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 6780,
+    "count": 90,
     "year": 2023,
     "city": "philadelphia"
   },
   {
     "bucket": 6840,
-    "count": 216,
+    "count": 77,
+    "year": 2023,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 6900,
+    "count": 62,
+    "year": 2023,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 6960,
+    "count": 77,
     "year": 2023,
     "city": "philadelphia"
   },
   {
     "bucket": 7020,
-    "count": 178,
+    "count": 49,
+    "year": 2023,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 7080,
+    "count": 69,
+    "year": 2023,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 7140,
+    "count": 60,
     "year": 2023,
     "city": "philadelphia"
   },
@@ -2214,242 +6486,716 @@
     "city": "philadelphia"
   },
   {
-    "bucket": 0,
-    "count": 55981,
+    "bucket": 60,
+    "count": 32785,
+    "year": 2024,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 120,
+    "count": 23196,
     "year": 2024,
     "city": "philadelphia"
   },
   {
     "bucket": 180,
-    "count": 208734,
+    "count": 47888,
+    "year": 2024,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 240,
+    "count": 72096,
+    "year": 2024,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 300,
+    "count": 88750,
     "year": 2024,
     "city": "philadelphia"
   },
   {
     "bucket": 360,
-    "count": 279117,
+    "count": 94376,
+    "year": 2024,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 420,
+    "count": 94730,
+    "year": 2024,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 480,
+    "count": 90011,
     "year": 2024,
     "city": "philadelphia"
   },
   {
     "bucket": 540,
-    "count": 222212,
+    "count": 82658,
+    "year": 2024,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 600,
+    "count": 74849,
+    "year": 2024,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 660,
+    "count": 64705,
     "year": 2024,
     "city": "philadelphia"
   },
   {
     "bucket": 720,
-    "count": 144141,
+    "count": 55656,
+    "year": 2024,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 780,
+    "count": 47287,
+    "year": 2024,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 840,
+    "count": 41198,
     "year": 2024,
     "city": "philadelphia"
   },
   {
     "bucket": 900,
-    "count": 92579,
+    "count": 36288,
+    "year": 2024,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 960,
+    "count": 30221,
+    "year": 2024,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 1020,
+    "count": 26070,
     "year": 2024,
     "city": "philadelphia"
   },
   {
     "bucket": 1080,
-    "count": 60135,
+    "count": 22622,
+    "year": 2024,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 1140,
+    "count": 19541,
+    "year": 2024,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 1200,
+    "count": 17972,
     "year": 2024,
     "city": "philadelphia"
   },
   {
     "bucket": 1260,
-    "count": 39733,
+    "count": 15036,
+    "year": 2024,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 1320,
+    "count": 13122,
+    "year": 2024,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 1380,
+    "count": 11575,
     "year": 2024,
     "city": "philadelphia"
   },
   {
     "bucket": 1440,
-    "count": 28438,
+    "count": 10441,
+    "year": 2024,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 1500,
+    "count": 9548,
+    "year": 2024,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 1560,
+    "count": 8449,
     "year": 2024,
     "city": "philadelphia"
   },
   {
     "bucket": 1620,
-    "count": 20977,
+    "count": 7813,
+    "year": 2024,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 1680,
+    "count": 6841,
+    "year": 2024,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 1740,
+    "count": 6323,
     "year": 2024,
     "city": "philadelphia"
   },
   {
     "bucket": 1800,
-    "count": 16176,
+    "count": 5954,
+    "year": 2024,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 1860,
+    "count": 5339,
+    "year": 2024,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 1920,
+    "count": 4883,
     "year": 2024,
     "city": "philadelphia"
   },
   {
     "bucket": 1980,
-    "count": 12769,
+    "count": 4519,
+    "year": 2024,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 2040,
+    "count": 4206,
+    "year": 2024,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 2100,
+    "count": 4044,
     "year": 2024,
     "city": "philadelphia"
   },
   {
     "bucket": 2160,
-    "count": 10947,
+    "count": 3816,
+    "year": 2024,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 2220,
+    "count": 3645,
+    "year": 2024,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 2280,
+    "count": 3486,
     "year": 2024,
     "city": "philadelphia"
   },
   {
     "bucket": 2340,
-    "count": 9314,
+    "count": 3177,
+    "year": 2024,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 2400,
+    "count": 3221,
+    "year": 2024,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 2460,
+    "count": 2916,
     "year": 2024,
     "city": "philadelphia"
   },
   {
     "bucket": 2520,
-    "count": 8141,
+    "count": 2844,
+    "year": 2024,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 2580,
+    "count": 2770,
+    "year": 2024,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 2640,
+    "count": 2527,
     "year": 2024,
     "city": "philadelphia"
   },
   {
     "bucket": 2700,
-    "count": 7674,
+    "count": 2693,
+    "year": 2024,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 2760,
+    "count": 2583,
+    "year": 2024,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 2820,
+    "count": 2398,
     "year": 2024,
     "city": "philadelphia"
   },
   {
     "bucket": 2880,
-    "count": 6876,
+    "count": 2268,
+    "year": 2024,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 2940,
+    "count": 2291,
+    "year": 2024,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 3000,
+    "count": 2317,
     "year": 2024,
     "city": "philadelphia"
   },
   {
     "bucket": 3060,
-    "count": 6464,
+    "count": 2199,
+    "year": 2024,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 3120,
+    "count": 2184,
+    "year": 2024,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 3180,
+    "count": 2081,
     "year": 2024,
     "city": "philadelphia"
   },
   {
     "bucket": 3240,
-    "count": 5802,
+    "count": 2006,
+    "year": 2024,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 3300,
+    "count": 2034,
+    "year": 2024,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 3360,
+    "count": 1762,
     "year": 2024,
     "city": "philadelphia"
   },
   {
     "bucket": 3420,
-    "count": 5029,
+    "count": 1779,
+    "year": 2024,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 3480,
+    "count": 1666,
+    "year": 2024,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 3540,
+    "count": 1584,
     "year": 2024,
     "city": "philadelphia"
   },
   {
     "bucket": 3600,
-    "count": 3791,
+    "count": 1488,
+    "year": 2024,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 3660,
+    "count": 1223,
+    "year": 2024,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 3720,
+    "count": 1080,
     "year": 2024,
     "city": "philadelphia"
   },
   {
     "bucket": 3780,
-    "count": 2565,
+    "count": 888,
+    "year": 2024,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 3840,
+    "count": 856,
+    "year": 2024,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 3900,
+    "count": 821,
     "year": 2024,
     "city": "philadelphia"
   },
   {
     "bucket": 3960,
-    "count": 2032,
+    "count": 732,
+    "year": 2024,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 4020,
+    "count": 670,
+    "year": 2024,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 4080,
+    "count": 630,
     "year": 2024,
     "city": "philadelphia"
   },
   {
     "bucket": 4140,
-    "count": 1775,
+    "count": 655,
+    "year": 2024,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 4200,
+    "count": 567,
+    "year": 2024,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 4260,
+    "count": 553,
     "year": 2024,
     "city": "philadelphia"
   },
   {
     "bucket": 4320,
-    "count": 1599,
+    "count": 525,
+    "year": 2024,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 4380,
+    "count": 551,
+    "year": 2024,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 4440,
+    "count": 523,
     "year": 2024,
     "city": "philadelphia"
   },
   {
     "bucket": 4500,
-    "count": 1357,
+    "count": 475,
+    "year": 2024,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 4560,
+    "count": 450,
+    "year": 2024,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 4620,
+    "count": 432,
     "year": 2024,
     "city": "philadelphia"
   },
   {
     "bucket": 4680,
-    "count": 1051,
+    "count": 387,
     "year": 2024,
     "city": "philadelphia"
   },
   {
-    "bucket": 4860,
-    "count": 945,
-    "year": 2024,
-    "city": "philadelphia"
-  },
-  {
-    "bucket": 5040,
-    "count": 799,
-    "year": 2024,
-    "city": "philadelphia"
-  },
-  {
-    "bucket": 5220,
-    "count": 652,
-    "year": 2024,
-    "city": "philadelphia"
-  },
-  {
-    "bucket": 5400,
-    "count": 636,
-    "year": 2024,
-    "city": "philadelphia"
-  },
-  {
-    "bucket": 5580,
-    "count": 521,
-    "year": 2024,
-    "city": "philadelphia"
-  },
-  {
-    "bucket": 5760,
-    "count": 496,
-    "year": 2024,
-    "city": "philadelphia"
-  },
-  {
-    "bucket": 5940,
-    "count": 378,
-    "year": 2024,
-    "city": "philadelphia"
-  },
-  {
-    "bucket": 6120,
-    "count": 369,
-    "year": 2024,
-    "city": "philadelphia"
-  },
-  {
-    "bucket": 6300,
-    "count": 339,
-    "year": 2024,
-    "city": "philadelphia"
-  },
-  {
-    "bucket": 6480,
+    "bucket": 4740,
     "count": 329,
     "year": 2024,
     "city": "philadelphia"
   },
   {
+    "bucket": 4800,
+    "count": 335,
+    "year": 2024,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 4860,
+    "count": 332,
+    "year": 2024,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 4920,
+    "count": 318,
+    "year": 2024,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 4980,
+    "count": 295,
+    "year": 2024,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 5040,
+    "count": 284,
+    "year": 2024,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 5100,
+    "count": 252,
+    "year": 2024,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 5160,
+    "count": 263,
+    "year": 2024,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 5220,
+    "count": 240,
+    "year": 2024,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 5280,
+    "count": 206,
+    "year": 2024,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 5340,
+    "count": 206,
+    "year": 2024,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 5400,
+    "count": 205,
+    "year": 2024,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 5460,
+    "count": 227,
+    "year": 2024,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 5520,
+    "count": 204,
+    "year": 2024,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 5580,
+    "count": 187,
+    "year": 2024,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 5640,
+    "count": 179,
+    "year": 2024,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 5700,
+    "count": 155,
+    "year": 2024,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 5760,
+    "count": 173,
+    "year": 2024,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 5820,
+    "count": 165,
+    "year": 2024,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 5880,
+    "count": 158,
+    "year": 2024,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 5940,
+    "count": 127,
+    "year": 2024,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 6000,
+    "count": 137,
+    "year": 2024,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 6060,
+    "count": 114,
+    "year": 2024,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 6120,
+    "count": 132,
+    "year": 2024,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 6180,
+    "count": 109,
+    "year": 2024,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 6240,
+    "count": 128,
+    "year": 2024,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 6300,
+    "count": 119,
+    "year": 2024,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 6360,
+    "count": 109,
+    "year": 2024,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 6420,
+    "count": 111,
+    "year": 2024,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 6480,
+    "count": 116,
+    "year": 2024,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 6540,
+    "count": 104,
+    "year": 2024,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 6600,
+    "count": 109,
+    "year": 2024,
+    "city": "philadelphia"
+  },
+  {
     "bucket": 6660,
-    "count": 279,
+    "count": 95,
+    "year": 2024,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 6720,
+    "count": 95,
+    "year": 2024,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 6780,
+    "count": 89,
     "year": 2024,
     "city": "philadelphia"
   },
   {
     "bucket": 6840,
-    "count": 258,
+    "count": 77,
+    "year": 2024,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 6900,
+    "count": 97,
+    "year": 2024,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 6960,
+    "count": 84,
     "year": 2024,
     "city": "philadelphia"
   },
   {
     "bucket": 7020,
-    "count": 239,
+    "count": 73,
+    "year": 2024,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 7080,
+    "count": 62,
+    "year": 2024,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 7140,
+    "count": 104,
     "year": 2024,
     "city": "philadelphia"
   },
@@ -2460,242 +7206,716 @@
     "city": "philadelphia"
   },
   {
-    "bucket": 0,
-    "count": 46274,
+    "bucket": 60,
+    "count": 28526,
+    "year": 2025,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 120,
+    "count": 17748,
     "year": 2025,
     "city": "philadelphia"
   },
   {
     "bucket": 180,
-    "count": 159608,
+    "count": 37032,
+    "year": 2025,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 240,
+    "count": 54869,
+    "year": 2025,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 300,
+    "count": 67707,
     "year": 2025,
     "city": "philadelphia"
   },
   {
     "bucket": 360,
-    "count": 215942,
+    "count": 72106,
+    "year": 2025,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 420,
+    "count": 73763,
+    "year": 2025,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 480,
+    "count": 70073,
     "year": 2025,
     "city": "philadelphia"
   },
   {
     "bucket": 540,
-    "count": 177585,
+    "count": 64574,
+    "year": 2025,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 600,
+    "count": 60632,
+    "year": 2025,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 660,
+    "count": 52379,
     "year": 2025,
     "city": "philadelphia"
   },
   {
     "bucket": 720,
-    "count": 119622,
+    "count": 45929,
+    "year": 2025,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 780,
+    "count": 39683,
+    "year": 2025,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 840,
+    "count": 34010,
     "year": 2025,
     "city": "philadelphia"
   },
   {
     "bucket": 900,
-    "count": 78813,
+    "count": 30811,
+    "year": 2025,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 960,
+    "count": 25900,
+    "year": 2025,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 1020,
+    "count": 22102,
     "year": 2025,
     "city": "philadelphia"
   },
   {
     "bucket": 1080,
-    "count": 52433,
+    "count": 19579,
+    "year": 2025,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 1140,
+    "count": 17025,
+    "year": 2025,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 1200,
+    "count": 15829,
     "year": 2025,
     "city": "philadelphia"
   },
   {
     "bucket": 1260,
-    "count": 34652,
+    "count": 12739,
+    "year": 2025,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 1320,
+    "count": 11552,
+    "year": 2025,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 1380,
+    "count": 10361,
     "year": 2025,
     "city": "philadelphia"
   },
   {
     "bucket": 1440,
-    "count": 26017,
+    "count": 9405,
+    "year": 2025,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 1500,
+    "count": 8726,
+    "year": 2025,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 1560,
+    "count": 7886,
     "year": 2025,
     "city": "philadelphia"
   },
   {
     "bucket": 1620,
-    "count": 19454,
+    "count": 7034,
+    "year": 2025,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 1680,
+    "count": 6498,
+    "year": 2025,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 1740,
+    "count": 5922,
     "year": 2025,
     "city": "philadelphia"
   },
   {
     "bucket": 1800,
-    "count": 15315,
+    "count": 5946,
+    "year": 2025,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 1860,
+    "count": 4890,
+    "year": 2025,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 1920,
+    "count": 4479,
     "year": 2025,
     "city": "philadelphia"
   },
   {
     "bucket": 1980,
-    "count": 11363,
+    "count": 3993,
+    "year": 2025,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 2040,
+    "count": 3823,
+    "year": 2025,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 2100,
+    "count": 3547,
     "year": 2025,
     "city": "philadelphia"
   },
   {
     "bucket": 2160,
-    "count": 9286,
+    "count": 3201,
+    "year": 2025,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 2220,
+    "count": 3124,
+    "year": 2025,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 2280,
+    "count": 2961,
     "year": 2025,
     "city": "philadelphia"
   },
   {
     "bucket": 2340,
-    "count": 8220,
+    "count": 2855,
+    "year": 2025,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 2400,
+    "count": 2740,
+    "year": 2025,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 2460,
+    "count": 2625,
     "year": 2025,
     "city": "philadelphia"
   },
   {
     "bucket": 2520,
-    "count": 7157,
+    "count": 2477,
+    "year": 2025,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 2580,
+    "count": 2341,
+    "year": 2025,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 2640,
+    "count": 2339,
     "year": 2025,
     "city": "philadelphia"
   },
   {
     "bucket": 2700,
-    "count": 6635,
+    "count": 2322,
+    "year": 2025,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 2760,
+    "count": 2182,
+    "year": 2025,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 2820,
+    "count": 2131,
     "year": 2025,
     "city": "philadelphia"
   },
   {
     "bucket": 2880,
-    "count": 5965,
+    "count": 1998,
+    "year": 2025,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 2940,
+    "count": 1981,
+    "year": 2025,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 3000,
+    "count": 1986,
     "year": 2025,
     "city": "philadelphia"
   },
   {
     "bucket": 3060,
-    "count": 5430,
+    "count": 1823,
+    "year": 2025,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 3120,
+    "count": 1813,
+    "year": 2025,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 3180,
+    "count": 1794,
     "year": 2025,
     "city": "philadelphia"
   },
   {
     "bucket": 3240,
-    "count": 4800,
+    "count": 1644,
+    "year": 2025,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 3300,
+    "count": 1573,
+    "year": 2025,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 3360,
+    "count": 1583,
     "year": 2025,
     "city": "philadelphia"
   },
   {
     "bucket": 3420,
-    "count": 4366,
+    "count": 1569,
+    "year": 2025,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 3480,
+    "count": 1430,
+    "year": 2025,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 3540,
+    "count": 1367,
     "year": 2025,
     "city": "philadelphia"
   },
   {
     "bucket": 3600,
-    "count": 3169,
+    "count": 1243,
+    "year": 2025,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 3660,
+    "count": 1022,
+    "year": 2025,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 3720,
+    "count": 904,
     "year": 2025,
     "city": "philadelphia"
   },
   {
     "bucket": 3780,
-    "count": 2190,
+    "count": 784,
+    "year": 2025,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 3840,
+    "count": 743,
+    "year": 2025,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 3900,
+    "count": 663,
     "year": 2025,
     "city": "philadelphia"
   },
   {
     "bucket": 3960,
-    "count": 1796,
+    "count": 613,
+    "year": 2025,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 4020,
+    "count": 600,
+    "year": 2025,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 4080,
+    "count": 583,
     "year": 2025,
     "city": "philadelphia"
   },
   {
     "bucket": 4140,
-    "count": 1539,
+    "count": 543,
+    "year": 2025,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 4200,
+    "count": 532,
+    "year": 2025,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 4260,
+    "count": 464,
     "year": 2025,
     "city": "philadelphia"
   },
   {
     "bucket": 4320,
-    "count": 1296,
+    "count": 459,
+    "year": 2025,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 4380,
+    "count": 430,
+    "year": 2025,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 4440,
+    "count": 407,
     "year": 2025,
     "city": "philadelphia"
   },
   {
     "bucket": 4500,
-    "count": 1054,
+    "count": 373,
+    "year": 2025,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 4560,
+    "count": 363,
+    "year": 2025,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 4620,
+    "count": 318,
     "year": 2025,
     "city": "philadelphia"
   },
   {
     "bucket": 4680,
-    "count": 837,
+    "count": 313,
+    "year": 2025,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 4740,
+    "count": 243,
+    "year": 2025,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 4800,
+    "count": 281,
     "year": 2025,
     "city": "philadelphia"
   },
   {
     "bucket": 4860,
-    "count": 722,
+    "count": 241,
+    "year": 2025,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 4920,
+    "count": 242,
+    "year": 2025,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 4980,
+    "count": 239,
     "year": 2025,
     "city": "philadelphia"
   },
   {
     "bucket": 5040,
-    "count": 642,
+    "count": 240,
+    "year": 2025,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 5100,
+    "count": 191,
+    "year": 2025,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 5160,
+    "count": 211,
     "year": 2025,
     "city": "philadelphia"
   },
   {
     "bucket": 5220,
-    "count": 547,
+    "count": 187,
+    "year": 2025,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 5280,
+    "count": 198,
+    "year": 2025,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 5340,
+    "count": 162,
     "year": 2025,
     "city": "philadelphia"
   },
   {
     "bucket": 5400,
-    "count": 469,
+    "count": 165,
+    "year": 2025,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 5460,
+    "count": 146,
+    "year": 2025,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 5520,
+    "count": 158,
     "year": 2025,
     "city": "philadelphia"
   },
   {
     "bucket": 5580,
-    "count": 444,
+    "count": 152,
+    "year": 2025,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 5640,
+    "count": 160,
+    "year": 2025,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 5700,
+    "count": 132,
     "year": 2025,
     "city": "philadelphia"
   },
   {
     "bucket": 5760,
-    "count": 369,
+    "count": 114,
+    "year": 2025,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 5820,
+    "count": 122,
+    "year": 2025,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 5880,
+    "count": 133,
     "year": 2025,
     "city": "philadelphia"
   },
   {
     "bucket": 5940,
-    "count": 347,
+    "count": 127,
+    "year": 2025,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 6000,
+    "count": 116,
+    "year": 2025,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 6060,
+    "count": 104,
     "year": 2025,
     "city": "philadelphia"
   },
   {
     "bucket": 6120,
-    "count": 303,
+    "count": 93,
+    "year": 2025,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 6180,
+    "count": 107,
+    "year": 2025,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 6240,
+    "count": 103,
     "year": 2025,
     "city": "philadelphia"
   },
   {
     "bucket": 6300,
-    "count": 272,
+    "count": 91,
+    "year": 2025,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 6360,
+    "count": 99,
+    "year": 2025,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 6420,
+    "count": 82,
     "year": 2025,
     "city": "philadelphia"
   },
   {
     "bucket": 6480,
-    "count": 248,
+    "count": 94,
+    "year": 2025,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 6540,
+    "count": 60,
+    "year": 2025,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 6600,
+    "count": 94,
     "year": 2025,
     "city": "philadelphia"
   },
   {
     "bucket": 6660,
-    "count": 236,
+    "count": 76,
+    "year": 2025,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 6720,
+    "count": 87,
+    "year": 2025,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 6780,
+    "count": 73,
     "year": 2025,
     "city": "philadelphia"
   },
   {
     "bucket": 6840,
-    "count": 225,
+    "count": 74,
+    "year": 2025,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 6900,
+    "count": 75,
+    "year": 2025,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 6960,
+    "count": 76,
     "year": 2025,
     "city": "philadelphia"
   },
   {
     "bucket": 7020,
-    "count": 184,
+    "count": 60,
+    "year": 2025,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 7080,
+    "count": 56,
+    "year": 2025,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 7140,
+    "count": 68,
     "year": 2025,
     "city": "philadelphia"
   },

@@ -17,7 +17,6 @@ def run_get_exports(playwright, url, csv_path):
     initial_year = 2010
 
     for year in range(initial_year, most_recent_year):
-        print(year)
         page.get_by_role("link", name=f"{year}", exact=True).click()
 
     links = page.query_selector_all("a")

@@ -1,169 +1,451 @@
 [
   {
     "bucket": 0,
-    "count": 3048,
+    "count": 1890,
+    "year": 2014,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 60,
+    "count": 404,
+    "year": 2014,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 120,
+    "count": 754,
     "year": 2014,
     "city": "guadalajara"
   },
   {
     "bucket": 180,
-    "count": 4601,
+    "count": 1273,
+    "year": 2014,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 240,
+    "count": 1611,
+    "year": 2014,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 300,
+    "count": 1717,
     "year": 2014,
     "city": "guadalajara"
   },
   {
     "bucket": 360,
-    "count": 4883,
+    "count": 1724,
+    "year": 2014,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 420,
+    "count": 1588,
+    "year": 2014,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 480,
+    "count": 1571,
     "year": 2014,
     "city": "guadalajara"
   },
   {
     "bucket": 540,
-    "count": 3826,
+    "count": 1401,
+    "year": 2014,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 600,
+    "count": 1311,
+    "year": 2014,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 660,
+    "count": 1114,
     "year": 2014,
     "city": "guadalajara"
   },
   {
     "bucket": 720,
-    "count": 2620,
+    "count": 1010,
+    "year": 2014,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 780,
+    "count": 861,
+    "year": 2014,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 840,
+    "count": 749,
     "year": 2014,
     "city": "guadalajara"
   },
   {
     "bucket": 900,
-    "count": 1839,
+    "count": 721,
+    "year": 2014,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 960,
+    "count": 625,
+    "year": 2014,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 1020,
+    "count": 493,
     "year": 2014,
     "city": "guadalajara"
   },
   {
     "bucket": 1080,
-    "count": 1203,
+    "count": 459,
+    "year": 2014,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 1140,
+    "count": 396,
+    "year": 2014,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 1200,
+    "count": 348,
     "year": 2014,
     "city": "guadalajara"
   },
   {
     "bucket": 1260,
-    "count": 782,
+    "count": 293,
+    "year": 2014,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 1320,
+    "count": 260,
+    "year": 2014,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 1380,
+    "count": 229,
     "year": 2014,
     "city": "guadalajara"
   },
   {
     "bucket": 1440,
-    "count": 462,
+    "count": 164,
+    "year": 2014,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 1500,
+    "count": 150,
+    "year": 2014,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 1560,
+    "count": 148,
     "year": 2014,
     "city": "guadalajara"
   },
   {
     "bucket": 1620,
-    "count": 295,
+    "count": 117,
     "year": 2014,
     "city": "guadalajara"
   },
   {
-    "bucket": 1800,
-    "count": 141,
+    "bucket": 1680,
+    "count": 110,
     "year": 2014,
     "city": "guadalajara"
   },
   {
-    "bucket": 1980,
+    "bucket": 1740,
     "count": 68,
     "year": 2014,
     "city": "guadalajara"
   },
   {
-    "bucket": 2160,
-    "count": 38,
+    "bucket": 1800,
+    "count": 60,
     "year": 2014,
     "city": "guadalajara"
   },
   {
-    "bucket": 2340,
-    "count": 18,
+    "bucket": 1860,
+    "count": 41,
     "year": 2014,
     "city": "guadalajara"
   },
   {
-    "bucket": 2520,
+    "bucket": 1920,
+    "count": 40,
+    "year": 2014,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 1980,
+    "count": 34,
+    "year": 2014,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 2040,
     "count": 12,
     "year": 2014,
     "city": "guadalajara"
   },
   {
+    "bucket": 2100,
+    "count": 22,
+    "year": 2014,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 2160,
+    "count": 14,
+    "year": 2014,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 2220,
+    "count": 11,
+    "year": 2014,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 2280,
+    "count": 13,
+    "year": 2014,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 2340,
+    "count": 7,
+    "year": 2014,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 2400,
+    "count": 5,
+    "year": 2014,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 2460,
+    "count": 6,
+    "year": 2014,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 2520,
+    "count": 3,
+    "year": 2014,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 2580,
+    "count": 4,
+    "year": 2014,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 2640,
+    "count": 5,
+    "year": 2014,
+    "city": "guadalajara"
+  },
+  {
     "bucket": 2700,
-    "count": 19,
+    "count": 7,
+    "year": 2014,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 2760,
+    "count": 8,
+    "year": 2014,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 2820,
+    "count": 4,
     "year": 2014,
     "city": "guadalajara"
   },
   {
     "bucket": 2880,
-    "count": 4,
+    "count": 2,
+    "year": 2014,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 2940,
+    "count": 2,
     "year": 2014,
     "city": "guadalajara"
   },
   {
     "bucket": 3060,
-    "count": 5,
+    "count": 2,
+    "year": 2014,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 3120,
+    "count": 3,
     "year": 2014,
     "city": "guadalajara"
   },
   {
     "bucket": 3240,
-    "count": 5,
+    "count": 2,
+    "year": 2014,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 3300,
+    "count": 2,
+    "year": 2014,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 3360,
+    "count": 1,
     "year": 2014,
     "city": "guadalajara"
   },
   {
     "bucket": 3420,
-    "count": 4,
+    "count": 1,
+    "year": 2014,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 3480,
+    "count": 2,
+    "year": 2014,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 3540,
+    "count": 1,
     "year": 2014,
     "city": "guadalajara"
   },
   {
     "bucket": 3600,
-    "count": 3,
+    "count": 2,
+    "year": 2014,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 3720,
+    "count": 1,
     "year": 2014,
     "city": "guadalajara"
   },
   {
     "bucket": 3780,
-    "count": 3,
+    "count": 2,
+    "year": 2014,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 3840,
+    "count": 1,
     "year": 2014,
     "city": "guadalajara"
   },
   {
     "bucket": 3960,
-    "count": 3,
+    "count": 1,
+    "year": 2014,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 4020,
+    "count": 2,
     "year": 2014,
     "city": "guadalajara"
   },
   {
     "bucket": 4140,
-    "count": 4,
+    "count": 2,
+    "year": 2014,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 4260,
+    "count": 2,
     "year": 2014,
     "city": "guadalajara"
   },
   {
     "bucket": 4320,
-    "count": 4,
+    "count": 1,
+    "year": 2014,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 4380,
+    "count": 2,
+    "year": 2014,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 4440,
+    "count": 1,
     "year": 2014,
     "city": "guadalajara"
   },
   {
     "bucket": 4500,
-    "count": 3,
+    "count": 1,
     "year": 2014,
     "city": "guadalajara"
   },
   {
-    "bucket": 4860,
-    "count": 4,
+    "bucket": 4620,
+    "count": 2,
+    "year": 2014,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 4920,
+    "count": 1,
+    "year": 2014,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 4980,
+    "count": 3,
     "year": 2014,
     "city": "guadalajara"
   },
   {
     "bucket": 5040,
-    "count": 3,
+    "count": 2,
+    "year": 2014,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5100,
+    "count": 1,
     "year": 2014,
     "city": "guadalajara"
   },
@@ -175,18 +457,36 @@
   },
   {
     "bucket": 5580,
-    "count": 4,
-    "year": 2014,
-    "city": "guadalajara"
-  },
-  {
-    "bucket": 5760,
     "count": 3,
     "year": 2014,
     "city": "guadalajara"
   },
   {
-    "bucket": 5940,
+    "bucket": 5700,
+    "count": 1,
+    "year": 2014,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5760,
+    "count": 1,
+    "year": 2014,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5820,
+    "count": 1,
+    "year": 2014,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5880,
+    "count": 1,
+    "year": 2014,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6000,
     "count": 1,
     "year": 2014,
     "city": "guadalajara"
@@ -198,8 +498,14 @@
     "city": "guadalajara"
   },
   {
-    "bucket": 6480,
-    "count": 2,
+    "bucket": 6540,
+    "count": 1,
+    "year": 2014,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6600,
+    "count": 1,
     "year": 2014,
     "city": "guadalajara"
   },
@@ -217,7 +523,13 @@
   },
   {
     "bucket": 7020,
-    "count": 5,
+    "count": 3,
+    "year": 2014,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 7140,
+    "count": 2,
     "year": 2014,
     "city": "guadalajara"
   },
@@ -229,241 +541,721 @@
   },
   {
     "bucket": 0,
-    "count": 40527,
+    "count": 17063,
+    "year": 2015,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 60,
+    "count": 6020,
+    "year": 2015,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 120,
+    "count": 17444,
     "year": 2015,
     "city": "guadalajara"
   },
   {
     "bucket": 180,
-    "count": 108811,
+    "count": 29690,
+    "year": 2015,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 240,
+    "count": 37872,
+    "year": 2015,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 300,
+    "count": 41249,
     "year": 2015,
     "city": "guadalajara"
   },
   {
     "bucket": 360,
-    "count": 113406,
+    "count": 40681,
+    "year": 2015,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 420,
+    "count": 38173,
+    "year": 2015,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 480,
+    "count": 34552,
     "year": 2015,
     "city": "guadalajara"
   },
   {
     "bucket": 540,
-    "count": 80258,
+    "count": 30777,
+    "year": 2015,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 600,
+    "count": 26366,
+    "year": 2015,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 660,
+    "count": 23115,
     "year": 2015,
     "city": "guadalajara"
   },
   {
     "bucket": 720,
-    "count": 51143,
+    "count": 19927,
+    "year": 2015,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 780,
+    "count": 16911,
+    "year": 2015,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 840,
+    "count": 14305,
     "year": 2015,
     "city": "guadalajara"
   },
   {
     "bucket": 900,
-    "count": 31016,
+    "count": 12075,
+    "year": 2015,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 960,
+    "count": 10238,
+    "year": 2015,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 1020,
+    "count": 8703,
     "year": 2015,
     "city": "guadalajara"
   },
   {
     "bucket": 1080,
-    "count": 18118,
+    "count": 7218,
+    "year": 2015,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 1140,
+    "count": 5963,
+    "year": 2015,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 1200,
+    "count": 4937,
     "year": 2015,
     "city": "guadalajara"
   },
   {
     "bucket": 1260,
-    "count": 10653,
+    "count": 4192,
+    "year": 2015,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 1320,
+    "count": 3498,
+    "year": 2015,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 1380,
+    "count": 2963,
     "year": 2015,
     "city": "guadalajara"
   },
   {
     "bucket": 1440,
-    "count": 6424,
+    "count": 2459,
+    "year": 2015,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 1500,
+    "count": 2113,
+    "year": 2015,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 1560,
+    "count": 1852,
     "year": 2015,
     "city": "guadalajara"
   },
   {
     "bucket": 1620,
-    "count": 3792,
+    "count": 1548,
+    "year": 2015,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 1680,
+    "count": 1282,
+    "year": 2015,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 1740,
+    "count": 962,
     "year": 2015,
     "city": "guadalajara"
   },
   {
     "bucket": 1800,
-    "count": 1825,
+    "count": 775,
+    "year": 2015,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 1860,
+    "count": 636,
+    "year": 2015,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 1920,
+    "count": 414,
     "year": 2015,
     "city": "guadalajara"
   },
   {
     "bucket": 1980,
-    "count": 916,
+    "count": 345,
+    "year": 2015,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 2040,
+    "count": 332,
+    "year": 2015,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 2100,
+    "count": 239,
     "year": 2015,
     "city": "guadalajara"
   },
   {
     "bucket": 2160,
-    "count": 598,
+    "count": 207,
+    "year": 2015,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 2220,
+    "count": 224,
+    "year": 2015,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 2280,
+    "count": 167,
     "year": 2015,
     "city": "guadalajara"
   },
   {
     "bucket": 2340,
-    "count": 355,
+    "count": 136,
+    "year": 2015,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 2400,
+    "count": 127,
+    "year": 2015,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 2460,
+    "count": 92,
     "year": 2015,
     "city": "guadalajara"
   },
   {
     "bucket": 2520,
-    "count": 259,
+    "count": 97,
+    "year": 2015,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 2580,
+    "count": 75,
+    "year": 2015,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 2640,
+    "count": 87,
     "year": 2015,
     "city": "guadalajara"
   },
   {
     "bucket": 2700,
-    "count": 196,
+    "count": 77,
     "year": 2015,
     "city": "guadalajara"
   },
   {
-    "bucket": 2880,
-    "count": 174,
+    "bucket": 2760,
+    "count": 66,
     "year": 2015,
     "city": "guadalajara"
   },
   {
-    "bucket": 3060,
-    "count": 100,
-    "year": 2015,
-    "city": "guadalajara"
-  },
-  {
-    "bucket": 3240,
-    "count": 103,
-    "year": 2015,
-    "city": "guadalajara"
-  },
-  {
-    "bucket": 3420,
-    "count": 90,
-    "year": 2015,
-    "city": "guadalajara"
-  },
-  {
-    "bucket": 3600,
-    "count": 70,
-    "year": 2015,
-    "city": "guadalajara"
-  },
-  {
-    "bucket": 3780,
+    "bucket": 2820,
     "count": 53,
     "year": 2015,
     "city": "guadalajara"
   },
   {
-    "bucket": 3960,
-    "count": 73,
+    "bucket": 2880,
+    "count": 61,
     "year": 2015,
     "city": "guadalajara"
   },
   {
-    "bucket": 4140,
-    "count": 41,
+    "bucket": 2940,
+    "count": 65,
     "year": 2015,
     "city": "guadalajara"
   },
   {
-    "bucket": 4320,
-    "count": 38,
-    "year": 2015,
-    "city": "guadalajara"
-  },
-  {
-    "bucket": 4500,
-    "count": 35,
-    "year": 2015,
-    "city": "guadalajara"
-  },
-  {
-    "bucket": 4680,
-    "count": 31,
-    "year": 2015,
-    "city": "guadalajara"
-  },
-  {
-    "bucket": 4860,
-    "count": 26,
-    "year": 2015,
-    "city": "guadalajara"
-  },
-  {
-    "bucket": 5040,
+    "bucket": 3000,
     "count": 48,
     "year": 2015,
     "city": "guadalajara"
   },
   {
-    "bucket": 5220,
-    "count": 39,
-    "year": 2015,
-    "city": "guadalajara"
-  },
-  {
-    "bucket": 5400,
-    "count": 32,
-    "year": 2015,
-    "city": "guadalajara"
-  },
-  {
-    "bucket": 5580,
+    "bucket": 3060,
     "count": 36,
     "year": 2015,
     "city": "guadalajara"
   },
   {
-    "bucket": 5760,
-    "count": 19,
+    "bucket": 3120,
+    "count": 34,
     "year": 2015,
     "city": "guadalajara"
   },
   {
-    "bucket": 5940,
+    "bucket": 3180,
+    "count": 30,
+    "year": 2015,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 3240,
+    "count": 42,
+    "year": 2015,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 3300,
+    "count": 32,
+    "year": 2015,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 3360,
     "count": 29,
     "year": 2015,
     "city": "guadalajara"
   },
   {
-    "bucket": 6120,
-    "count": 17,
+    "bucket": 3420,
+    "count": 36,
     "year": 2015,
     "city": "guadalajara"
   },
   {
-    "bucket": 6300,
+    "bucket": 3480,
+    "count": 27,
+    "year": 2015,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 3540,
+    "count": 27,
+    "year": 2015,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 3600,
+    "count": 23,
+    "year": 2015,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 3660,
     "count": 20,
     "year": 2015,
     "city": "guadalajara"
   },
   {
-    "bucket": 6480,
+    "bucket": 3720,
+    "count": 27,
+    "year": 2015,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 3780,
+    "count": 21,
+    "year": 2015,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 3840,
+    "count": 22,
+    "year": 2015,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 3900,
+    "count": 10,
+    "year": 2015,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 3960,
+    "count": 24,
+    "year": 2015,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 4020,
+    "count": 30,
+    "year": 2015,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 4080,
     "count": 19,
+    "year": 2015,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 4140,
+    "count": 22,
+    "year": 2015,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 4200,
+    "count": 11,
+    "year": 2015,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 4260,
+    "count": 8,
+    "year": 2015,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 4320,
+    "count": 14,
+    "year": 2015,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 4380,
+    "count": 16,
+    "year": 2015,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 4440,
+    "count": 8,
+    "year": 2015,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 4500,
+    "count": 13,
+    "year": 2015,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 4560,
+    "count": 9,
+    "year": 2015,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 4620,
+    "count": 13,
+    "year": 2015,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 4680,
+    "count": 9,
+    "year": 2015,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 4740,
+    "count": 11,
+    "year": 2015,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 4800,
+    "count": 11,
+    "year": 2015,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 4860,
+    "count": 10,
+    "year": 2015,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 4920,
+    "count": 10,
+    "year": 2015,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 4980,
+    "count": 6,
+    "year": 2015,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5040,
+    "count": 16,
+    "year": 2015,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5100,
+    "count": 19,
+    "year": 2015,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5160,
+    "count": 13,
+    "year": 2015,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5220,
+    "count": 13,
+    "year": 2015,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5280,
+    "count": 12,
+    "year": 2015,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5340,
+    "count": 14,
+    "year": 2015,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5400,
+    "count": 12,
+    "year": 2015,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5460,
+    "count": 12,
+    "year": 2015,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5520,
+    "count": 8,
+    "year": 2015,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5580,
+    "count": 14,
+    "year": 2015,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5640,
+    "count": 13,
+    "year": 2015,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5700,
+    "count": 9,
+    "year": 2015,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5760,
+    "count": 5,
+    "year": 2015,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5820,
+    "count": 5,
+    "year": 2015,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5880,
+    "count": 9,
+    "year": 2015,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5940,
+    "count": 7,
+    "year": 2015,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6000,
+    "count": 11,
+    "year": 2015,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6060,
+    "count": 11,
+    "year": 2015,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6120,
+    "count": 5,
+    "year": 2015,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6180,
+    "count": 7,
+    "year": 2015,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6240,
+    "count": 5,
+    "year": 2015,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6300,
+    "count": 5,
+    "year": 2015,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6360,
+    "count": 8,
+    "year": 2015,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6420,
+    "count": 7,
+    "year": 2015,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6480,
+    "count": 6,
+    "year": 2015,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6540,
+    "count": 6,
+    "year": 2015,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6600,
+    "count": 7,
     "year": 2015,
     "city": "guadalajara"
   },
   {
     "bucket": 6660,
-    "count": 17,
+    "count": 3,
+    "year": 2015,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6720,
+    "count": 7,
+    "year": 2015,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6780,
+    "count": 7,
     "year": 2015,
     "city": "guadalajara"
   },
   {
     "bucket": 6840,
-    "count": 19,
+    "count": 8,
+    "year": 2015,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6900,
+    "count": 4,
+    "year": 2015,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6960,
+    "count": 7,
     "year": 2015,
     "city": "guadalajara"
   },
   {
     "bucket": 7020,
-    "count": 15,
+    "count": 5,
+    "year": 2015,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 7080,
+    "count": 6,
+    "year": 2015,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 7140,
+    "count": 4,
     "year": 2015,
     "city": "guadalajara"
   },
@@ -475,241 +1267,721 @@
   },
   {
     "bucket": 0,
-    "count": 74404,
+    "count": 27262,
+    "year": 2016,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 60,
+    "count": 11889,
+    "year": 2016,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 120,
+    "count": 35253,
     "year": 2016,
     "city": "guadalajara"
   },
   {
     "bucket": 180,
-    "count": 204566,
+    "count": 55583,
+    "year": 2016,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 240,
+    "count": 71100,
+    "year": 2016,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 300,
+    "count": 77883,
     "year": 2016,
     "city": "guadalajara"
   },
   {
     "bucket": 360,
-    "count": 214400,
+    "count": 77322,
+    "year": 2016,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 420,
+    "count": 72027,
+    "year": 2016,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 480,
+    "count": 65051,
     "year": 2016,
     "city": "guadalajara"
   },
   {
     "bucket": 540,
-    "count": 154945,
+    "count": 57899,
+    "year": 2016,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 600,
+    "count": 51294,
+    "year": 2016,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 660,
+    "count": 45752,
     "year": 2016,
     "city": "guadalajara"
   },
   {
     "bucket": 720,
-    "count": 106840,
+    "count": 40340,
+    "year": 2016,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 780,
+    "count": 35373,
+    "year": 2016,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 840,
+    "count": 31127,
     "year": 2016,
     "city": "guadalajara"
   },
   {
     "bucket": 900,
-    "count": 70828,
+    "count": 27065,
+    "year": 2016,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 960,
+    "count": 23470,
+    "year": 2016,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 1020,
+    "count": 20293,
     "year": 2016,
     "city": "guadalajara"
   },
   {
     "bucket": 1080,
-    "count": 45664,
+    "count": 17375,
+    "year": 2016,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 1140,
+    "count": 15094,
+    "year": 2016,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 1200,
+    "count": 13195,
     "year": 2016,
     "city": "guadalajara"
   },
   {
     "bucket": 1260,
-    "count": 28616,
+    "count": 11006,
+    "year": 2016,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 1320,
+    "count": 9423,
+    "year": 2016,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 1380,
+    "count": 8187,
     "year": 2016,
     "city": "guadalajara"
   },
   {
     "bucket": 1440,
-    "count": 17458,
+    "count": 6895,
+    "year": 2016,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 1500,
+    "count": 5769,
+    "year": 2016,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 1560,
+    "count": 4794,
     "year": 2016,
     "city": "guadalajara"
   },
   {
     "bucket": 1620,
-    "count": 9496,
+    "count": 3915,
+    "year": 2016,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 1680,
+    "count": 3159,
+    "year": 2016,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 1740,
+    "count": 2422,
     "year": 2016,
     "city": "guadalajara"
   },
   {
     "bucket": 1800,
-    "count": 4547,
+    "count": 1954,
+    "year": 2016,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 1860,
+    "count": 1401,
+    "year": 2016,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 1920,
+    "count": 1192,
     "year": 2016,
     "city": "guadalajara"
   },
   {
     "bucket": 1980,
-    "count": 2355,
+    "count": 940,
+    "year": 2016,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 2040,
+    "count": 766,
+    "year": 2016,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 2100,
+    "count": 649,
     "year": 2016,
     "city": "guadalajara"
   },
   {
     "bucket": 2160,
-    "count": 1533,
+    "count": 583,
+    "year": 2016,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 2220,
+    "count": 523,
+    "year": 2016,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 2280,
+    "count": 427,
     "year": 2016,
     "city": "guadalajara"
   },
   {
     "bucket": 2340,
-    "count": 968,
+    "count": 371,
+    "year": 2016,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 2400,
+    "count": 329,
+    "year": 2016,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 2460,
+    "count": 268,
     "year": 2016,
     "city": "guadalajara"
   },
   {
     "bucket": 2520,
-    "count": 603,
+    "count": 220,
+    "year": 2016,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 2580,
+    "count": 197,
+    "year": 2016,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 2640,
+    "count": 186,
     "year": 2016,
     "city": "guadalajara"
   },
   {
     "bucket": 2700,
-    "count": 481,
+    "count": 163,
+    "year": 2016,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 2760,
+    "count": 174,
+    "year": 2016,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 2820,
+    "count": 144,
     "year": 2016,
     "city": "guadalajara"
   },
   {
     "bucket": 2880,
-    "count": 312,
+    "count": 124,
+    "year": 2016,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 2940,
+    "count": 111,
+    "year": 2016,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 3000,
+    "count": 77,
     "year": 2016,
     "city": "guadalajara"
   },
   {
     "bucket": 3060,
-    "count": 262,
+    "count": 98,
+    "year": 2016,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 3120,
+    "count": 91,
+    "year": 2016,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 3180,
+    "count": 73,
     "year": 2016,
     "city": "guadalajara"
   },
   {
     "bucket": 3240,
-    "count": 221,
+    "count": 87,
     "year": 2016,
     "city": "guadalajara"
   },
   {
-    "bucket": 3420,
-    "count": 161,
+    "bucket": 3300,
+    "count": 65,
     "year": 2016,
     "city": "guadalajara"
   },
   {
-    "bucket": 3600,
-    "count": 158,
-    "year": 2016,
-    "city": "guadalajara"
-  },
-  {
-    "bucket": 3780,
-    "count": 133,
-    "year": 2016,
-    "city": "guadalajara"
-  },
-  {
-    "bucket": 3960,
-    "count": 105,
-    "year": 2016,
-    "city": "guadalajara"
-  },
-  {
-    "bucket": 4140,
-    "count": 107,
-    "year": 2016,
-    "city": "guadalajara"
-  },
-  {
-    "bucket": 4320,
-    "count": 105,
-    "year": 2016,
-    "city": "guadalajara"
-  },
-  {
-    "bucket": 4500,
-    "count": 82,
-    "year": 2016,
-    "city": "guadalajara"
-  },
-  {
-    "bucket": 4680,
-    "count": 96,
-    "year": 2016,
-    "city": "guadalajara"
-  },
-  {
-    "bucket": 4860,
-    "count": 88,
-    "year": 2016,
-    "city": "guadalajara"
-  },
-  {
-    "bucket": 5040,
-    "count": 86,
-    "year": 2016,
-    "city": "guadalajara"
-  },
-  {
-    "bucket": 5220,
+    "bucket": 3360,
     "count": 69,
     "year": 2016,
     "city": "guadalajara"
   },
   {
-    "bucket": 5400,
-    "count": 55,
+    "bucket": 3420,
+    "count": 63,
     "year": 2016,
     "city": "guadalajara"
   },
   {
-    "bucket": 5580,
-    "count": 50,
-    "year": 2016,
-    "city": "guadalajara"
-  },
-  {
-    "bucket": 5760,
-    "count": 62,
-    "year": 2016,
-    "city": "guadalajara"
-  },
-  {
-    "bucket": 5940,
-    "count": 47,
-    "year": 2016,
-    "city": "guadalajara"
-  },
-  {
-    "bucket": 6120,
-    "count": 59,
-    "year": 2016,
-    "city": "guadalajara"
-  },
-  {
-    "bucket": 6300,
+    "bucket": 3480,
     "count": 53,
     "year": 2016,
     "city": "guadalajara"
   },
   {
-    "bucket": 6480,
+    "bucket": 3540,
+    "count": 45,
+    "year": 2016,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 3600,
+    "count": 60,
+    "year": 2016,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 3660,
+    "count": 41,
+    "year": 2016,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 3720,
+    "count": 57,
+    "year": 2016,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 3780,
+    "count": 33,
+    "year": 2016,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 3840,
+    "count": 49,
+    "year": 2016,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 3900,
+    "count": 51,
+    "year": 2016,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 3960,
+    "count": 32,
+    "year": 2016,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 4020,
+    "count": 34,
+    "year": 2016,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 4080,
+    "count": 39,
+    "year": 2016,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 4140,
+    "count": 32,
+    "year": 2016,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 4200,
     "count": 46,
     "year": 2016,
     "city": "guadalajara"
   },
   {
-    "bucket": 6660,
-    "count": 44,
+    "bucket": 4260,
+    "count": 29,
     "year": 2016,
     "city": "guadalajara"
   },
   {
-    "bucket": 6840,
+    "bucket": 4320,
+    "count": 41,
+    "year": 2016,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 4380,
+    "count": 37,
+    "year": 2016,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 4440,
+    "count": 27,
+    "year": 2016,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 4500,
+    "count": 32,
+    "year": 2016,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 4560,
+    "count": 27,
+    "year": 2016,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 4620,
+    "count": 23,
+    "year": 2016,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 4680,
+    "count": 38,
+    "year": 2016,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 4740,
+    "count": 27,
+    "year": 2016,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 4800,
     "count": 31,
     "year": 2016,
     "city": "guadalajara"
   },
   {
+    "bucket": 4860,
+    "count": 30,
+    "year": 2016,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 4920,
+    "count": 25,
+    "year": 2016,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 4980,
+    "count": 33,
+    "year": 2016,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5040,
+    "count": 33,
+    "year": 2016,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5100,
+    "count": 24,
+    "year": 2016,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5160,
+    "count": 29,
+    "year": 2016,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5220,
+    "count": 19,
+    "year": 2016,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5280,
+    "count": 26,
+    "year": 2016,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5340,
+    "count": 24,
+    "year": 2016,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5400,
+    "count": 22,
+    "year": 2016,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5460,
+    "count": 20,
+    "year": 2016,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5520,
+    "count": 13,
+    "year": 2016,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5580,
+    "count": 14,
+    "year": 2016,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5640,
+    "count": 19,
+    "year": 2016,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5700,
+    "count": 17,
+    "year": 2016,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5760,
+    "count": 21,
+    "year": 2016,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5820,
+    "count": 18,
+    "year": 2016,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5880,
+    "count": 23,
+    "year": 2016,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5940,
+    "count": 11,
+    "year": 2016,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6000,
+    "count": 14,
+    "year": 2016,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6060,
+    "count": 22,
+    "year": 2016,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6120,
+    "count": 28,
+    "year": 2016,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6180,
+    "count": 19,
+    "year": 2016,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6240,
+    "count": 12,
+    "year": 2016,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6300,
+    "count": 30,
+    "year": 2016,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6360,
+    "count": 11,
+    "year": 2016,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6420,
+    "count": 12,
+    "year": 2016,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6480,
+    "count": 14,
+    "year": 2016,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6540,
+    "count": 15,
+    "year": 2016,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6600,
+    "count": 17,
+    "year": 2016,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6660,
+    "count": 16,
+    "year": 2016,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6720,
+    "count": 14,
+    "year": 2016,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6780,
+    "count": 14,
+    "year": 2016,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6840,
+    "count": 8,
+    "year": 2016,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6900,
+    "count": 17,
+    "year": 2016,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6960,
+    "count": 6,
+    "year": 2016,
+    "city": "guadalajara"
+  },
+  {
     "bucket": 7020,
-    "count": 47,
+    "count": 17,
+    "year": 2016,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 7080,
+    "count": 17,
+    "year": 2016,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 7140,
+    "count": 13,
     "year": 2016,
     "city": "guadalajara"
   },
@@ -721,241 +1993,721 @@
   },
   {
     "bucket": 0,
-    "count": 168643,
+    "count": 58043,
+    "year": 2017,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 60,
+    "count": 27258,
+    "year": 2017,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 120,
+    "count": 83342,
     "year": 2017,
     "city": "guadalajara"
   },
   {
     "bucket": 180,
-    "count": 490867,
+    "count": 134988,
+    "year": 2017,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 240,
+    "count": 170739,
+    "year": 2017,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 300,
+    "count": 185140,
     "year": 2017,
     "city": "guadalajara"
   },
   {
     "bucket": 360,
-    "count": 532468,
+    "count": 186341,
+    "year": 2017,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 420,
+    "count": 178910,
+    "year": 2017,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 480,
+    "count": 167217,
     "year": 2017,
     "city": "guadalajara"
   },
   {
     "bucket": 540,
-    "count": 417853,
+    "count": 153090,
+    "year": 2017,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 600,
+    "count": 139193,
+    "year": 2017,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 660,
+    "count": 125570,
     "year": 2017,
     "city": "guadalajara"
   },
   {
     "bucket": 720,
-    "count": 309318,
+    "count": 113966,
+    "year": 2017,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 780,
+    "count": 103004,
+    "year": 2017,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 840,
+    "count": 92348,
     "year": 2017,
     "city": "guadalajara"
   },
   {
     "bucket": 900,
-    "count": 222250,
+    "count": 82923,
+    "year": 2017,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 960,
+    "count": 73955,
+    "year": 2017,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 1020,
+    "count": 65372,
     "year": 2017,
     "city": "guadalajara"
   },
   {
     "bucket": 1080,
-    "count": 151822,
+    "count": 57577,
+    "year": 2017,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 1140,
+    "count": 50804,
+    "year": 2017,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 1200,
+    "count": 43441,
     "year": 2017,
     "city": "guadalajara"
   },
   {
     "bucket": 1260,
-    "count": 95353,
+    "count": 37190,
+    "year": 2017,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 1320,
+    "count": 31697,
+    "year": 2017,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 1380,
+    "count": 26466,
     "year": 2017,
     "city": "guadalajara"
   },
   {
     "bucket": 1440,
-    "count": 55223,
+    "count": 22269,
+    "year": 2017,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 1500,
+    "count": 18103,
+    "year": 2017,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 1560,
+    "count": 14851,
     "year": 2017,
     "city": "guadalajara"
   },
   {
     "bucket": 1620,
-    "count": 28789,
+    "count": 12061,
+    "year": 2017,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 1680,
+    "count": 9494,
+    "year": 2017,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 1740,
+    "count": 7234,
     "year": 2017,
     "city": "guadalajara"
   },
   {
     "bucket": 1800,
-    "count": 13792,
+    "count": 5782,
+    "year": 2017,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 1860,
+    "count": 4384,
+    "year": 2017,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 1920,
+    "count": 3626,
     "year": 2017,
     "city": "guadalajara"
   },
   {
     "bucket": 1980,
-    "count": 7463,
+    "count": 2877,
+    "year": 2017,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 2040,
+    "count": 2511,
+    "year": 2017,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 2100,
+    "count": 2075,
     "year": 2017,
     "city": "guadalajara"
   },
   {
     "bucket": 2160,
-    "count": 4931,
+    "count": 1837,
+    "year": 2017,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 2220,
+    "count": 1672,
+    "year": 2017,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 2280,
+    "count": 1422,
     "year": 2017,
     "city": "guadalajara"
   },
   {
     "bucket": 2340,
-    "count": 3202,
+    "count": 1222,
+    "year": 2017,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 2400,
+    "count": 1049,
+    "year": 2017,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 2460,
+    "count": 931,
     "year": 2017,
     "city": "guadalajara"
   },
   {
     "bucket": 2520,
-    "count": 2097,
+    "count": 803,
+    "year": 2017,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 2580,
+    "count": 665,
+    "year": 2017,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 2640,
+    "count": 629,
     "year": 2017,
     "city": "guadalajara"
   },
   {
     "bucket": 2700,
-    "count": 1413,
+    "count": 522,
+    "year": 2017,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 2760,
+    "count": 463,
+    "year": 2017,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 2820,
+    "count": 428,
     "year": 2017,
     "city": "guadalajara"
   },
   {
     "bucket": 2880,
-    "count": 985,
+    "count": 362,
+    "year": 2017,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 2940,
+    "count": 337,
+    "year": 2017,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 3000,
+    "count": 286,
     "year": 2017,
     "city": "guadalajara"
   },
   {
     "bucket": 3060,
-    "count": 732,
+    "count": 238,
+    "year": 2017,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 3120,
+    "count": 258,
+    "year": 2017,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 3180,
+    "count": 236,
     "year": 2017,
     "city": "guadalajara"
   },
   {
     "bucket": 3240,
-    "count": 588,
+    "count": 206,
+    "year": 2017,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 3300,
+    "count": 196,
+    "year": 2017,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 3360,
+    "count": 186,
     "year": 2017,
     "city": "guadalajara"
   },
   {
     "bucket": 3420,
-    "count": 503,
+    "count": 171,
+    "year": 2017,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 3480,
+    "count": 181,
+    "year": 2017,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 3540,
+    "count": 151,
     "year": 2017,
     "city": "guadalajara"
   },
   {
     "bucket": 3600,
-    "count": 413,
+    "count": 143,
+    "year": 2017,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 3660,
+    "count": 149,
+    "year": 2017,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 3720,
+    "count": 121,
     "year": 2017,
     "city": "guadalajara"
   },
   {
     "bucket": 3780,
-    "count": 338,
+    "count": 131,
     "year": 2017,
     "city": "guadalajara"
   },
   {
-    "bucket": 3960,
-    "count": 318,
+    "bucket": 3840,
+    "count": 99,
     "year": 2017,
     "city": "guadalajara"
   },
   {
-    "bucket": 4140,
-    "count": 311,
-    "year": 2017,
-    "city": "guadalajara"
-  },
-  {
-    "bucket": 4320,
-    "count": 283,
-    "year": 2017,
-    "city": "guadalajara"
-  },
-  {
-    "bucket": 4500,
-    "count": 255,
-    "year": 2017,
-    "city": "guadalajara"
-  },
-  {
-    "bucket": 4680,
-    "count": 191,
-    "year": 2017,
-    "city": "guadalajara"
-  },
-  {
-    "bucket": 4860,
-    "count": 200,
-    "year": 2017,
-    "city": "guadalajara"
-  },
-  {
-    "bucket": 5040,
-    "count": 179,
-    "year": 2017,
-    "city": "guadalajara"
-  },
-  {
-    "bucket": 5220,
-    "count": 166,
-    "year": 2017,
-    "city": "guadalajara"
-  },
-  {
-    "bucket": 5400,
-    "count": 170,
-    "year": 2017,
-    "city": "guadalajara"
-  },
-  {
-    "bucket": 5580,
-    "count": 157,
-    "year": 2017,
-    "city": "guadalajara"
-  },
-  {
-    "bucket": 5760,
-    "count": 127,
-    "year": 2017,
-    "city": "guadalajara"
-  },
-  {
-    "bucket": 5940,
-    "count": 123,
-    "year": 2017,
-    "city": "guadalajara"
-  },
-  {
-    "bucket": 6120,
+    "bucket": 3900,
     "count": 108,
     "year": 2017,
     "city": "guadalajara"
   },
   {
-    "bucket": 6300,
-    "count": 117,
+    "bucket": 3960,
+    "count": 105,
     "year": 2017,
     "city": "guadalajara"
   },
   {
-    "bucket": 6480,
-    "count": 104,
+    "bucket": 4020,
+    "count": 115,
     "year": 2017,
     "city": "guadalajara"
   },
   {
-    "bucket": 6660,
+    "bucket": 4080,
+    "count": 98,
+    "year": 2017,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 4140,
+    "count": 115,
+    "year": 2017,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 4200,
+    "count": 100,
+    "year": 2017,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 4260,
+    "count": 96,
+    "year": 2017,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 4320,
+    "count": 105,
+    "year": 2017,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 4380,
+    "count": 92,
+    "year": 2017,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 4440,
     "count": 86,
     "year": 2017,
     "city": "guadalajara"
   },
   {
+    "bucket": 4500,
+    "count": 81,
+    "year": 2017,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 4560,
+    "count": 91,
+    "year": 2017,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 4620,
+    "count": 83,
+    "year": 2017,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 4680,
+    "count": 53,
+    "year": 2017,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 4740,
+    "count": 76,
+    "year": 2017,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 4800,
+    "count": 62,
+    "year": 2017,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 4860,
+    "count": 66,
+    "year": 2017,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 4920,
+    "count": 63,
+    "year": 2017,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 4980,
+    "count": 71,
+    "year": 2017,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5040,
+    "count": 70,
+    "year": 2017,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5100,
+    "count": 56,
+    "year": 2017,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5160,
+    "count": 53,
+    "year": 2017,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5220,
+    "count": 58,
+    "year": 2017,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5280,
+    "count": 56,
+    "year": 2017,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5340,
+    "count": 52,
+    "year": 2017,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5400,
+    "count": 54,
+    "year": 2017,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5460,
+    "count": 57,
+    "year": 2017,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5520,
+    "count": 59,
+    "year": 2017,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5580,
+    "count": 52,
+    "year": 2017,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5640,
+    "count": 49,
+    "year": 2017,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5700,
+    "count": 56,
+    "year": 2017,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5760,
+    "count": 42,
+    "year": 2017,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5820,
+    "count": 49,
+    "year": 2017,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5880,
+    "count": 36,
+    "year": 2017,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5940,
+    "count": 45,
+    "year": 2017,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6000,
+    "count": 44,
+    "year": 2017,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6060,
+    "count": 34,
+    "year": 2017,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6120,
+    "count": 30,
+    "year": 2017,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6180,
+    "count": 40,
+    "year": 2017,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6240,
+    "count": 38,
+    "year": 2017,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6300,
+    "count": 40,
+    "year": 2017,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6360,
+    "count": 30,
+    "year": 2017,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6420,
+    "count": 47,
+    "year": 2017,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6480,
+    "count": 32,
+    "year": 2017,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6540,
+    "count": 42,
+    "year": 2017,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6600,
+    "count": 30,
+    "year": 2017,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6660,
+    "count": 31,
+    "year": 2017,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6720,
+    "count": 30,
+    "year": 2017,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6780,
+    "count": 25,
+    "year": 2017,
+    "city": "guadalajara"
+  },
+  {
     "bucket": 6840,
-    "count": 90,
+    "count": 32,
+    "year": 2017,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6900,
+    "count": 22,
+    "year": 2017,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6960,
+    "count": 36,
     "year": 2017,
     "city": "guadalajara"
   },
   {
     "bucket": 7020,
-    "count": 96,
+    "count": 37,
+    "year": 2017,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 7080,
+    "count": 31,
+    "year": 2017,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 7140,
+    "count": 28,
     "year": 2017,
     "city": "guadalajara"
   },
@@ -967,241 +2719,721 @@
   },
   {
     "bucket": 0,
-    "count": 235614,
+    "count": 85009,
+    "year": 2018,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 60,
+    "count": 39142,
+    "year": 2018,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 120,
+    "count": 111463,
     "year": 2018,
     "city": "guadalajara"
   },
   {
     "bucket": 180,
-    "count": 657226,
+    "count": 179684,
+    "year": 2018,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 240,
+    "count": 228397,
+    "year": 2018,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 300,
+    "count": 249145,
     "year": 2018,
     "city": "guadalajara"
   },
   {
     "bucket": 360,
-    "count": 714087,
+    "count": 250000,
+    "year": 2018,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 420,
+    "count": 239753,
+    "year": 2018,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 480,
+    "count": 224334,
     "year": 2018,
     "city": "guadalajara"
   },
   {
     "bucket": 540,
-    "count": 573796,
+    "count": 209270,
+    "year": 2018,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 600,
+    "count": 190606,
+    "year": 2018,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 660,
+    "count": 173920,
     "year": 2018,
     "city": "guadalajara"
   },
   {
     "bucket": 720,
-    "count": 420217,
+    "count": 155575,
+    "year": 2018,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 780,
+    "count": 139825,
+    "year": 2018,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 840,
+    "count": 124817,
     "year": 2018,
     "city": "guadalajara"
   },
   {
     "bucket": 900,
-    "count": 298313,
+    "count": 111322,
+    "year": 2018,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 960,
+    "count": 99505,
+    "year": 2018,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 1020,
+    "count": 87486,
     "year": 2018,
     "city": "guadalajara"
   },
   {
     "bucket": 1080,
-    "count": 202865,
+    "count": 77101,
+    "year": 2018,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 1140,
+    "count": 67216,
+    "year": 2018,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 1200,
+    "count": 58548,
     "year": 2018,
     "city": "guadalajara"
   },
   {
     "bucket": 1260,
-    "count": 128792,
+    "count": 50085,
+    "year": 2018,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 1320,
+    "count": 42935,
+    "year": 2018,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 1380,
+    "count": 35772,
     "year": 2018,
     "city": "guadalajara"
   },
   {
     "bucket": 1440,
-    "count": 75711,
+    "count": 29987,
+    "year": 2018,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 1500,
+    "count": 24850,
+    "year": 2018,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 1560,
+    "count": 20874,
     "year": 2018,
     "city": "guadalajara"
   },
   {
     "bucket": 1620,
-    "count": 40603,
+    "count": 16768,
+    "year": 2018,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 1680,
+    "count": 13391,
+    "year": 2018,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 1740,
+    "count": 10444,
     "year": 2018,
     "city": "guadalajara"
   },
   {
     "bucket": 1800,
-    "count": 18916,
+    "count": 7901,
+    "year": 2018,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 1860,
+    "count": 6142,
+    "year": 2018,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 1920,
+    "count": 4873,
     "year": 2018,
     "city": "guadalajara"
   },
   {
     "bucket": 1980,
-    "count": 10568,
+    "count": 4070,
+    "year": 2018,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 2040,
+    "count": 3537,
+    "year": 2018,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 2100,
+    "count": 2961,
     "year": 2018,
     "city": "guadalajara"
   },
   {
     "bucket": 2160,
-    "count": 6637,
+    "count": 2524,
+    "year": 2018,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 2220,
+    "count": 2219,
+    "year": 2018,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 2280,
+    "count": 1894,
     "year": 2018,
     "city": "guadalajara"
   },
   {
     "bucket": 2340,
-    "count": 4445,
+    "count": 1727,
+    "year": 2018,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 2400,
+    "count": 1469,
+    "year": 2018,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 2460,
+    "count": 1249,
     "year": 2018,
     "city": "guadalajara"
   },
   {
     "bucket": 2520,
-    "count": 2889,
+    "count": 1154,
+    "year": 2018,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 2580,
+    "count": 928,
+    "year": 2018,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 2640,
+    "count": 807,
     "year": 2018,
     "city": "guadalajara"
   },
   {
     "bucket": 2700,
-    "count": 1876,
+    "count": 713,
+    "year": 2018,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 2760,
+    "count": 618,
+    "year": 2018,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 2820,
+    "count": 545,
     "year": 2018,
     "city": "guadalajara"
   },
   {
     "bucket": 2880,
-    "count": 1326,
+    "count": 484,
+    "year": 2018,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 2940,
+    "count": 439,
+    "year": 2018,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 3000,
+    "count": 403,
     "year": 2018,
     "city": "guadalajara"
   },
   {
     "bucket": 3060,
-    "count": 944,
+    "count": 349,
+    "year": 2018,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 3120,
+    "count": 313,
+    "year": 2018,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 3180,
+    "count": 282,
     "year": 2018,
     "city": "guadalajara"
   },
   {
     "bucket": 3240,
-    "count": 788,
+    "count": 304,
+    "year": 2018,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 3300,
+    "count": 255,
+    "year": 2018,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 3360,
+    "count": 229,
     "year": 2018,
     "city": "guadalajara"
   },
   {
     "bucket": 3420,
-    "count": 623,
+    "count": 228,
+    "year": 2018,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 3480,
+    "count": 203,
+    "year": 2018,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 3540,
+    "count": 192,
     "year": 2018,
     "city": "guadalajara"
   },
   {
     "bucket": 3600,
-    "count": 497,
+    "count": 169,
     "year": 2018,
     "city": "guadalajara"
   },
   {
-    "bucket": 3780,
-    "count": 365,
-    "year": 2018,
-    "city": "guadalajara"
-  },
-  {
-    "bucket": 3960,
-    "count": 359,
-    "year": 2018,
-    "city": "guadalajara"
-  },
-  {
-    "bucket": 4140,
-    "count": 301,
-    "year": 2018,
-    "city": "guadalajara"
-  },
-  {
-    "bucket": 4320,
-    "count": 286,
-    "year": 2018,
-    "city": "guadalajara"
-  },
-  {
-    "bucket": 4500,
-    "count": 246,
-    "year": 2018,
-    "city": "guadalajara"
-  },
-  {
-    "bucket": 4680,
-    "count": 225,
-    "year": 2018,
-    "city": "guadalajara"
-  },
-  {
-    "bucket": 4860,
-    "count": 236,
-    "year": 2018,
-    "city": "guadalajara"
-  },
-  {
-    "bucket": 5040,
-    "count": 167,
-    "year": 2018,
-    "city": "guadalajara"
-  },
-  {
-    "bucket": 5220,
-    "count": 191,
-    "year": 2018,
-    "city": "guadalajara"
-  },
-  {
-    "bucket": 5400,
-    "count": 153,
-    "year": 2018,
-    "city": "guadalajara"
-  },
-  {
-    "bucket": 5580,
+    "bucket": 3660,
     "count": 176,
     "year": 2018,
     "city": "guadalajara"
   },
   {
-    "bucket": 5760,
+    "bucket": 3720,
     "count": 152,
     "year": 2018,
     "city": "guadalajara"
   },
   {
-    "bucket": 5940,
-    "count": 139,
+    "bucket": 3780,
+    "count": 120,
     "year": 2018,
     "city": "guadalajara"
   },
   {
-    "bucket": 6120,
-    "count": 111,
+    "bucket": 3840,
+    "count": 125,
     "year": 2018,
     "city": "guadalajara"
   },
   {
-    "bucket": 6300,
-    "count": 118,
+    "bucket": 3900,
+    "count": 120,
     "year": 2018,
     "city": "guadalajara"
   },
   {
-    "bucket": 6480,
-    "count": 102,
+    "bucket": 3960,
+    "count": 126,
     "year": 2018,
     "city": "guadalajara"
   },
   {
-    "bucket": 6660,
+    "bucket": 4020,
+    "count": 126,
+    "year": 2018,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 4080,
+    "count": 107,
+    "year": 2018,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 4140,
+    "count": 116,
+    "year": 2018,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 4200,
+    "count": 100,
+    "year": 2018,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 4260,
+    "count": 85,
+    "year": 2018,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 4320,
     "count": 89,
     "year": 2018,
     "city": "guadalajara"
   },
   {
-    "bucket": 6840,
+    "bucket": 4380,
     "count": 108,
     "year": 2018,
     "city": "guadalajara"
   },
   {
+    "bucket": 4440,
+    "count": 89,
+    "year": 2018,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 4500,
+    "count": 82,
+    "year": 2018,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 4560,
+    "count": 101,
+    "year": 2018,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 4620,
+    "count": 63,
+    "year": 2018,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 4680,
+    "count": 76,
+    "year": 2018,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 4740,
+    "count": 88,
+    "year": 2018,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 4800,
+    "count": 61,
+    "year": 2018,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 4860,
+    "count": 76,
+    "year": 2018,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 4920,
+    "count": 74,
+    "year": 2018,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 4980,
+    "count": 86,
+    "year": 2018,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5040,
+    "count": 39,
+    "year": 2018,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5100,
+    "count": 57,
+    "year": 2018,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5160,
+    "count": 71,
+    "year": 2018,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5220,
+    "count": 73,
+    "year": 2018,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5280,
+    "count": 59,
+    "year": 2018,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5340,
+    "count": 59,
+    "year": 2018,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5400,
+    "count": 53,
+    "year": 2018,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5460,
+    "count": 50,
+    "year": 2018,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5520,
+    "count": 50,
+    "year": 2018,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5580,
+    "count": 68,
+    "year": 2018,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5640,
+    "count": 54,
+    "year": 2018,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5700,
+    "count": 54,
+    "year": 2018,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5760,
+    "count": 60,
+    "year": 2018,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5820,
+    "count": 47,
+    "year": 2018,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5880,
+    "count": 45,
+    "year": 2018,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5940,
+    "count": 54,
+    "year": 2018,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6000,
+    "count": 41,
+    "year": 2018,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6060,
+    "count": 44,
+    "year": 2018,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6120,
+    "count": 32,
+    "year": 2018,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6180,
+    "count": 41,
+    "year": 2018,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6240,
+    "count": 38,
+    "year": 2018,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6300,
+    "count": 38,
+    "year": 2018,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6360,
+    "count": 41,
+    "year": 2018,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6420,
+    "count": 39,
+    "year": 2018,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6480,
+    "count": 38,
+    "year": 2018,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6540,
+    "count": 34,
+    "year": 2018,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6600,
+    "count": 30,
+    "year": 2018,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6660,
+    "count": 23,
+    "year": 2018,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6720,
+    "count": 30,
+    "year": 2018,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6780,
+    "count": 36,
+    "year": 2018,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6840,
+    "count": 28,
+    "year": 2018,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6900,
+    "count": 52,
+    "year": 2018,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6960,
+    "count": 28,
+    "year": 2018,
+    "city": "guadalajara"
+  },
+  {
     "bucket": 7020,
-    "count": 84,
+    "count": 26,
+    "year": 2018,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 7080,
+    "count": 35,
+    "year": 2018,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 7140,
+    "count": 23,
     "year": 2018,
     "city": "guadalajara"
   },
@@ -1213,241 +3445,721 @@
   },
   {
     "bucket": 0,
-    "count": 340407,
+    "count": 127978,
+    "year": 2019,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 60,
+    "count": 60076,
+    "year": 2019,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 120,
+    "count": 152353,
     "year": 2019,
     "city": "guadalajara"
   },
   {
     "bucket": 180,
-    "count": 866902,
+    "count": 241089,
+    "year": 2019,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 240,
+    "count": 299673,
+    "year": 2019,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 300,
+    "count": 326140,
     "year": 2019,
     "city": "guadalajara"
   },
   {
     "bucket": 360,
-    "count": 950997,
+    "count": 331109,
+    "year": 2019,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 420,
+    "count": 319028,
+    "year": 2019,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 480,
+    "count": 300860,
     "year": 2019,
     "city": "guadalajara"
   },
   {
     "bucket": 540,
-    "count": 771446,
+    "count": 279518,
+    "year": 2019,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 600,
+    "count": 257756,
+    "year": 2019,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 660,
+    "count": 234172,
     "year": 2019,
     "city": "guadalajara"
   },
   {
     "bucket": 720,
-    "count": 578444,
+    "count": 213014,
+    "year": 2019,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 780,
+    "count": 191563,
+    "year": 2019,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 840,
+    "count": 173867,
     "year": 2019,
     "city": "guadalajara"
   },
   {
     "bucket": 900,
-    "count": 417850,
+    "count": 155504,
+    "year": 2019,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 960,
+    "count": 138965,
+    "year": 2019,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 1020,
+    "count": 123381,
     "year": 2019,
     "city": "guadalajara"
   },
   {
     "bucket": 1080,
-    "count": 284026,
+    "count": 107647,
+    "year": 2019,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 1140,
+    "count": 94554,
+    "year": 2019,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 1200,
+    "count": 81825,
     "year": 2019,
     "city": "guadalajara"
   },
   {
     "bucket": 1260,
-    "count": 182028,
+    "count": 70934,
+    "year": 2019,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 1320,
+    "count": 60574,
+    "year": 2019,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 1380,
+    "count": 50520,
     "year": 2019,
     "city": "guadalajara"
   },
   {
     "bucket": 1440,
-    "count": 107644,
+    "count": 42711,
+    "year": 2019,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 1500,
+    "count": 35584,
+    "year": 2019,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 1560,
+    "count": 29349,
     "year": 2019,
     "city": "guadalajara"
   },
   {
     "bucket": 1620,
-    "count": 58221,
+    "count": 23930,
+    "year": 2019,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 1680,
+    "count": 19423,
+    "year": 2019,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 1740,
+    "count": 14868,
     "year": 2019,
     "city": "guadalajara"
   },
   {
     "bucket": 1800,
-    "count": 27281,
+    "count": 11308,
+    "year": 2019,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 1860,
+    "count": 8855,
+    "year": 2019,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 1920,
+    "count": 7118,
     "year": 2019,
     "city": "guadalajara"
   },
   {
     "bucket": 1980,
-    "count": 15288,
+    "count": 5949,
+    "year": 2019,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 2040,
+    "count": 5145,
+    "year": 2019,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 2100,
+    "count": 4194,
     "year": 2019,
     "city": "guadalajara"
   },
   {
     "bucket": 2160,
-    "count": 9642,
+    "count": 3633,
+    "year": 2019,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 2220,
+    "count": 3206,
+    "year": 2019,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 2280,
+    "count": 2803,
     "year": 2019,
     "city": "guadalajara"
   },
   {
     "bucket": 2340,
-    "count": 6265,
+    "count": 2405,
+    "year": 2019,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 2400,
+    "count": 2028,
+    "year": 2019,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 2460,
+    "count": 1832,
     "year": 2019,
     "city": "guadalajara"
   },
   {
     "bucket": 2520,
-    "count": 4002,
+    "count": 1529,
+    "year": 2019,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 2580,
+    "count": 1334,
+    "year": 2019,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 2640,
+    "count": 1139,
     "year": 2019,
     "city": "guadalajara"
   },
   {
     "bucket": 2700,
-    "count": 2618,
+    "count": 977,
+    "year": 2019,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 2760,
+    "count": 844,
+    "year": 2019,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 2820,
+    "count": 797,
     "year": 2019,
     "city": "guadalajara"
   },
   {
     "bucket": 2880,
-    "count": 1709,
+    "count": 623,
+    "year": 2019,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 2940,
+    "count": 584,
+    "year": 2019,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 3000,
+    "count": 502,
     "year": 2019,
     "city": "guadalajara"
   },
   {
     "bucket": 3060,
-    "count": 1249,
+    "count": 432,
+    "year": 2019,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 3120,
+    "count": 448,
+    "year": 2019,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 3180,
+    "count": 369,
     "year": 2019,
     "city": "guadalajara"
   },
   {
     "bucket": 3240,
-    "count": 971,
+    "count": 360,
     "year": 2019,
     "city": "guadalajara"
   },
   {
-    "bucket": 3420,
-    "count": 724,
-    "year": 2019,
-    "city": "guadalajara"
-  },
-  {
-    "bucket": 3600,
-    "count": 590,
-    "year": 2019,
-    "city": "guadalajara"
-  },
-  {
-    "bucket": 3780,
-    "count": 526,
-    "year": 2019,
-    "city": "guadalajara"
-  },
-  {
-    "bucket": 3960,
-    "count": 441,
-    "year": 2019,
-    "city": "guadalajara"
-  },
-  {
-    "bucket": 4140,
-    "count": 406,
-    "year": 2019,
-    "city": "guadalajara"
-  },
-  {
-    "bucket": 4320,
-    "count": 323,
-    "year": 2019,
-    "city": "guadalajara"
-  },
-  {
-    "bucket": 4500,
+    "bucket": 3300,
     "count": 296,
     "year": 2019,
     "city": "guadalajara"
   },
   {
-    "bucket": 4680,
+    "bucket": 3360,
+    "count": 315,
+    "year": 2019,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 3420,
     "count": 260,
     "year": 2019,
     "city": "guadalajara"
   },
   {
-    "bucket": 4860,
-    "count": 234,
+    "bucket": 3480,
+    "count": 244,
     "year": 2019,
     "city": "guadalajara"
   },
   {
-    "bucket": 5040,
-    "count": 212,
+    "bucket": 3540,
+    "count": 220,
     "year": 2019,
     "city": "guadalajara"
   },
   {
-    "bucket": 5220,
-    "count": 190,
+    "bucket": 3600,
+    "count": 213,
     "year": 2019,
     "city": "guadalajara"
   },
   {
-    "bucket": 5400,
-    "count": 185,
+    "bucket": 3660,
+    "count": 171,
     "year": 2019,
     "city": "guadalajara"
   },
   {
-    "bucket": 5580,
+    "bucket": 3720,
+    "count": 206,
+    "year": 2019,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 3780,
+    "count": 195,
+    "year": 2019,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 3840,
+    "count": 177,
+    "year": 2019,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 3900,
     "count": 154,
     "year": 2019,
     "city": "guadalajara"
   },
   {
-    "bucket": 5760,
-    "count": 145,
+    "bucket": 3960,
+    "count": 137,
     "year": 2019,
     "city": "guadalajara"
   },
   {
-    "bucket": 5940,
+    "bucket": 4020,
+    "count": 163,
+    "year": 2019,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 4080,
+    "count": 141,
+    "year": 2019,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 4140,
+    "count": 151,
+    "year": 2019,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 4200,
+    "count": 130,
+    "year": 2019,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 4260,
     "count": 125,
     "year": 2019,
     "city": "guadalajara"
   },
   {
-    "bucket": 6120,
-    "count": 124,
-    "year": 2019,
-    "city": "guadalajara"
-  },
-  {
-    "bucket": 6300,
-    "count": 117,
-    "year": 2019,
-    "city": "guadalajara"
-  },
-  {
-    "bucket": 6480,
-    "count": 121,
-    "year": 2019,
-    "city": "guadalajara"
-  },
-  {
-    "bucket": 6660,
+    "bucket": 4320,
     "count": 103,
     "year": 2019,
     "city": "guadalajara"
   },
   {
+    "bucket": 4380,
+    "count": 101,
+    "year": 2019,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 4440,
+    "count": 119,
+    "year": 2019,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 4500,
+    "count": 99,
+    "year": 2019,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 4560,
+    "count": 103,
+    "year": 2019,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 4620,
+    "count": 94,
+    "year": 2019,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 4680,
+    "count": 83,
+    "year": 2019,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 4740,
+    "count": 87,
+    "year": 2019,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 4800,
+    "count": 90,
+    "year": 2019,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 4860,
+    "count": 75,
+    "year": 2019,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 4920,
+    "count": 83,
+    "year": 2019,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 4980,
+    "count": 76,
+    "year": 2019,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5040,
+    "count": 78,
+    "year": 2019,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5100,
+    "count": 56,
+    "year": 2019,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5160,
+    "count": 78,
+    "year": 2019,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5220,
+    "count": 58,
+    "year": 2019,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5280,
+    "count": 65,
+    "year": 2019,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5340,
+    "count": 67,
+    "year": 2019,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5400,
+    "count": 60,
+    "year": 2019,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5460,
+    "count": 59,
+    "year": 2019,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5520,
+    "count": 66,
+    "year": 2019,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5580,
+    "count": 51,
+    "year": 2019,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5640,
+    "count": 59,
+    "year": 2019,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5700,
+    "count": 44,
+    "year": 2019,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5760,
+    "count": 49,
+    "year": 2019,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5820,
+    "count": 53,
+    "year": 2019,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5880,
+    "count": 43,
+    "year": 2019,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5940,
+    "count": 43,
+    "year": 2019,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6000,
+    "count": 39,
+    "year": 2019,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6060,
+    "count": 43,
+    "year": 2019,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6120,
+    "count": 44,
+    "year": 2019,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6180,
+    "count": 52,
+    "year": 2019,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6240,
+    "count": 28,
+    "year": 2019,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6300,
+    "count": 45,
+    "year": 2019,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6360,
+    "count": 39,
+    "year": 2019,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6420,
+    "count": 33,
+    "year": 2019,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6480,
+    "count": 34,
+    "year": 2019,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6540,
+    "count": 52,
+    "year": 2019,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6600,
+    "count": 35,
+    "year": 2019,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6660,
+    "count": 31,
+    "year": 2019,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6720,
+    "count": 35,
+    "year": 2019,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6780,
+    "count": 37,
+    "year": 2019,
+    "city": "guadalajara"
+  },
+  {
     "bucket": 6840,
-    "count": 105,
+    "count": 36,
+    "year": 2019,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6900,
+    "count": 35,
+    "year": 2019,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6960,
+    "count": 34,
     "year": 2019,
     "city": "guadalajara"
   },
   {
     "bucket": 7020,
-    "count": 114,
+    "count": 31,
+    "year": 2019,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 7080,
+    "count": 44,
+    "year": 2019,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 7140,
+    "count": 39,
     "year": 2019,
     "city": "guadalajara"
   },
@@ -1459,241 +4171,721 @@
   },
   {
     "bucket": 0,
-    "count": 220751,
+    "count": 86989,
+    "year": 2020,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 60,
+    "count": 37805,
+    "year": 2020,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 120,
+    "count": 95957,
     "year": 2020,
     "city": "guadalajara"
   },
   {
     "bucket": 180,
-    "count": 527668,
+    "count": 148715,
+    "year": 2020,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 240,
+    "count": 182573,
+    "year": 2020,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 300,
+    "count": 196380,
     "year": 2020,
     "city": "guadalajara"
   },
   {
     "bucket": 360,
-    "count": 571734,
+    "count": 198819,
+    "year": 2020,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 420,
+    "count": 191332,
+    "year": 2020,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 480,
+    "count": 181583,
     "year": 2020,
     "city": "guadalajara"
   },
   {
     "bucket": 540,
-    "count": 476841,
+    "count": 171401,
+    "year": 2020,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 600,
+    "count": 159483,
+    "year": 2020,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 660,
+    "count": 145957,
     "year": 2020,
     "city": "guadalajara"
   },
   {
     "bucket": 720,
-    "count": 364340,
+    "count": 132882,
+    "year": 2020,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 780,
+    "count": 121814,
+    "year": 2020,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 840,
+    "count": 109644,
     "year": 2020,
     "city": "guadalajara"
   },
   {
     "bucket": 900,
-    "count": 260421,
+    "count": 97537,
+    "year": 2020,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 960,
+    "count": 86181,
+    "year": 2020,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 1020,
+    "count": 76703,
     "year": 2020,
     "city": "guadalajara"
   },
   {
     "bucket": 1080,
-    "count": 178542,
+    "count": 67717,
+    "year": 2020,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 1140,
+    "count": 59515,
+    "year": 2020,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 1200,
+    "count": 51310,
     "year": 2020,
     "city": "guadalajara"
   },
   {
     "bucket": 1260,
-    "count": 114471,
+    "count": 44823,
+    "year": 2020,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 1320,
+    "count": 37940,
+    "year": 2020,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 1380,
+    "count": 31708,
     "year": 2020,
     "city": "guadalajara"
   },
   {
     "bucket": 1440,
-    "count": 67540,
+    "count": 26580,
+    "year": 2020,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 1500,
+    "count": 22510,
+    "year": 2020,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 1560,
+    "count": 18450,
     "year": 2020,
     "city": "guadalajara"
   },
   {
     "bucket": 1620,
-    "count": 36319,
+    "count": 14927,
+    "year": 2020,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 1680,
+    "count": 12010,
+    "year": 2020,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 1740,
+    "count": 9382,
     "year": 2020,
     "city": "guadalajara"
   },
   {
     "bucket": 1800,
-    "count": 16931,
+    "count": 6949,
+    "year": 2020,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 1860,
+    "count": 5619,
+    "year": 2020,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 1920,
+    "count": 4363,
     "year": 2020,
     "city": "guadalajara"
   },
   {
     "bucket": 1980,
-    "count": 9048,
+    "count": 3613,
+    "year": 2020,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 2040,
+    "count": 2947,
+    "year": 2020,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 2100,
+    "count": 2488,
     "year": 2020,
     "city": "guadalajara"
   },
   {
     "bucket": 2160,
-    "count": 5477,
+    "count": 2122,
+    "year": 2020,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 2220,
+    "count": 1787,
+    "year": 2020,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 2280,
+    "count": 1568,
     "year": 2020,
     "city": "guadalajara"
   },
   {
     "bucket": 2340,
-    "count": 3656,
+    "count": 1379,
+    "year": 2020,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 2400,
+    "count": 1258,
+    "year": 2020,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 2460,
+    "count": 1019,
     "year": 2020,
     "city": "guadalajara"
   },
   {
     "bucket": 2520,
-    "count": 2206,
+    "count": 867,
+    "year": 2020,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 2580,
+    "count": 712,
+    "year": 2020,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 2640,
+    "count": 627,
     "year": 2020,
     "city": "guadalajara"
   },
   {
     "bucket": 2700,
-    "count": 1433,
+    "count": 539,
+    "year": 2020,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 2760,
+    "count": 449,
+    "year": 2020,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 2820,
+    "count": 445,
     "year": 2020,
     "city": "guadalajara"
   },
   {
     "bucket": 2880,
-    "count": 967,
+    "count": 356,
+    "year": 2020,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 2940,
+    "count": 304,
+    "year": 2020,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 3000,
+    "count": 307,
     "year": 2020,
     "city": "guadalajara"
   },
   {
     "bucket": 3060,
-    "count": 720,
+    "count": 273,
+    "year": 2020,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 3120,
+    "count": 234,
+    "year": 2020,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 3180,
+    "count": 213,
     "year": 2020,
     "city": "guadalajara"
   },
   {
     "bucket": 3240,
-    "count": 574,
+    "count": 189,
+    "year": 2020,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 3300,
+    "count": 187,
+    "year": 2020,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 3360,
+    "count": 198,
     "year": 2020,
     "city": "guadalajara"
   },
   {
     "bucket": 3420,
-    "count": 454,
-    "year": 2020,
-    "city": "guadalajara"
-  },
-  {
-    "bucket": 3600,
-    "count": 344,
-    "year": 2020,
-    "city": "guadalajara"
-  },
-  {
-    "bucket": 3780,
-    "count": 297,
-    "year": 2020,
-    "city": "guadalajara"
-  },
-  {
-    "bucket": 3960,
-    "count": 227,
-    "year": 2020,
-    "city": "guadalajara"
-  },
-  {
-    "bucket": 4140,
-    "count": 196,
-    "year": 2020,
-    "city": "guadalajara"
-  },
-  {
-    "bucket": 4320,
-    "count": 179,
-    "year": 2020,
-    "city": "guadalajara"
-  },
-  {
-    "bucket": 4500,
     "count": 147,
     "year": 2020,
     "city": "guadalajara"
   },
   {
-    "bucket": 4680,
-    "count": 165,
+    "bucket": 3480,
+    "count": 149,
     "year": 2020,
     "city": "guadalajara"
   },
   {
-    "bucket": 4860,
-    "count": 116,
+    "bucket": 3540,
+    "count": 158,
     "year": 2020,
     "city": "guadalajara"
   },
   {
-    "bucket": 5040,
-    "count": 109,
+    "bucket": 3600,
+    "count": 100,
     "year": 2020,
     "city": "guadalajara"
   },
   {
-    "bucket": 5220,
-    "count": 93,
+    "bucket": 3660,
+    "count": 131,
     "year": 2020,
     "city": "guadalajara"
   },
   {
-    "bucket": 5400,
-    "count": 86,
+    "bucket": 3720,
+    "count": 113,
     "year": 2020,
     "city": "guadalajara"
   },
   {
-    "bucket": 5580,
-    "count": 74,
+    "bucket": 3780,
+    "count": 108,
     "year": 2020,
     "city": "guadalajara"
   },
   {
-    "bucket": 5760,
+    "bucket": 3840,
+    "count": 106,
+    "year": 2020,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 3900,
+    "count": 83,
+    "year": 2020,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 3960,
+    "count": 81,
+    "year": 2020,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 4020,
+    "count": 78,
+    "year": 2020,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 4080,
+    "count": 68,
+    "year": 2020,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 4140,
+    "count": 69,
+    "year": 2020,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 4200,
     "count": 60,
     "year": 2020,
     "city": "guadalajara"
   },
   {
-    "bucket": 5940,
-    "count": 74,
+    "bucket": 4260,
+    "count": 67,
     "year": 2020,
     "city": "guadalajara"
   },
   {
-    "bucket": 6120,
-    "count": 59,
+    "bucket": 4320,
+    "count": 63,
     "year": 2020,
     "city": "guadalajara"
   },
   {
-    "bucket": 6300,
-    "count": 61,
+    "bucket": 4380,
+    "count": 58,
     "year": 2020,
     "city": "guadalajara"
   },
   {
-    "bucket": 6480,
-    "count": 44,
+    "bucket": 4440,
+    "count": 58,
     "year": 2020,
     "city": "guadalajara"
   },
   {
-    "bucket": 6660,
+    "bucket": 4500,
     "count": 52,
     "year": 2020,
     "city": "guadalajara"
   },
   {
+    "bucket": 4560,
+    "count": 41,
+    "year": 2020,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 4620,
+    "count": 54,
+    "year": 2020,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 4680,
+    "count": 57,
+    "year": 2020,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 4740,
+    "count": 52,
+    "year": 2020,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 4800,
+    "count": 56,
+    "year": 2020,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 4860,
+    "count": 44,
+    "year": 2020,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 4920,
+    "count": 45,
+    "year": 2020,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 4980,
+    "count": 27,
+    "year": 2020,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5040,
+    "count": 39,
+    "year": 2020,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5100,
+    "count": 31,
+    "year": 2020,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5160,
+    "count": 39,
+    "year": 2020,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5220,
+    "count": 35,
+    "year": 2020,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5280,
+    "count": 34,
+    "year": 2020,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5340,
+    "count": 24,
+    "year": 2020,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5400,
+    "count": 43,
+    "year": 2020,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5460,
+    "count": 18,
+    "year": 2020,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5520,
+    "count": 25,
+    "year": 2020,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5580,
+    "count": 27,
+    "year": 2020,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5640,
+    "count": 22,
+    "year": 2020,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5700,
+    "count": 25,
+    "year": 2020,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5760,
+    "count": 22,
+    "year": 2020,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5820,
+    "count": 20,
+    "year": 2020,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5880,
+    "count": 18,
+    "year": 2020,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5940,
+    "count": 28,
+    "year": 2020,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6000,
+    "count": 28,
+    "year": 2020,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6060,
+    "count": 18,
+    "year": 2020,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6120,
+    "count": 14,
+    "year": 2020,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6180,
+    "count": 22,
+    "year": 2020,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6240,
+    "count": 23,
+    "year": 2020,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6300,
+    "count": 25,
+    "year": 2020,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6360,
+    "count": 19,
+    "year": 2020,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6420,
+    "count": 17,
+    "year": 2020,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6480,
+    "count": 18,
+    "year": 2020,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6540,
+    "count": 13,
+    "year": 2020,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6600,
+    "count": 13,
+    "year": 2020,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6660,
+    "count": 16,
+    "year": 2020,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6720,
+    "count": 17,
+    "year": 2020,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6780,
+    "count": 19,
+    "year": 2020,
+    "city": "guadalajara"
+  },
+  {
     "bucket": 6840,
-    "count": 33,
+    "count": 8,
+    "year": 2020,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6900,
+    "count": 11,
+    "year": 2020,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6960,
+    "count": 14,
     "year": 2020,
     "city": "guadalajara"
   },
   {
     "bucket": 7020,
-    "count": 55,
+    "count": 24,
+    "year": 2020,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 7080,
+    "count": 16,
+    "year": 2020,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 7140,
+    "count": 15,
     "year": 2020,
     "city": "guadalajara"
   },
@@ -1705,241 +4897,721 @@
   },
   {
     "bucket": 0,
-    "count": 256570,
+    "count": 109188,
+    "year": 2021,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 60,
+    "count": 40344,
+    "year": 2021,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 120,
+    "count": 107038,
     "year": 2021,
     "city": "guadalajara"
   },
   {
     "bucket": 180,
-    "count": 600316,
+    "count": 169496,
+    "year": 2021,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 240,
+    "count": 207108,
+    "year": 2021,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 300,
+    "count": 223712,
     "year": 2021,
     "city": "guadalajara"
   },
   {
     "bucket": 360,
-    "count": 639543,
+    "count": 223222,
+    "year": 2021,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 420,
+    "count": 215265,
+    "year": 2021,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 480,
+    "count": 201056,
     "year": 2021,
     "city": "guadalajara"
   },
   {
     "bucket": 540,
-    "count": 522797,
+    "count": 188173,
+    "year": 2021,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 600,
+    "count": 174277,
+    "year": 2021,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 660,
+    "count": 160347,
     "year": 2021,
     "city": "guadalajara"
   },
   {
     "bucket": 720,
-    "count": 397843,
+    "count": 146293,
+    "year": 2021,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 780,
+    "count": 133000,
+    "year": 2021,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 840,
+    "count": 118550,
     "year": 2021,
     "city": "guadalajara"
   },
   {
     "bucket": 900,
-    "count": 284355,
+    "count": 106332,
+    "year": 2021,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 960,
+    "count": 94449,
+    "year": 2021,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 1020,
+    "count": 83574,
     "year": 2021,
     "city": "guadalajara"
   },
   {
     "bucket": 1080,
-    "count": 193980,
+    "count": 73770,
+    "year": 2021,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 1140,
+    "count": 64220,
+    "year": 2021,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 1200,
+    "count": 55990,
     "year": 2021,
     "city": "guadalajara"
   },
   {
     "bucket": 1260,
-    "count": 124993,
+    "count": 48189,
+    "year": 2021,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 1320,
+    "count": 41678,
+    "year": 2021,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 1380,
+    "count": 35126,
     "year": 2021,
     "city": "guadalajara"
   },
   {
     "bucket": 1440,
-    "count": 74409,
+    "count": 29704,
+    "year": 2021,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 1500,
+    "count": 24589,
+    "year": 2021,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 1560,
+    "count": 20116,
     "year": 2021,
     "city": "guadalajara"
   },
   {
     "bucket": 1620,
-    "count": 38683,
+    "count": 16297,
+    "year": 2021,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 1680,
+    "count": 12689,
+    "year": 2021,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 1740,
+    "count": 9697,
     "year": 2021,
     "city": "guadalajara"
   },
   {
     "bucket": 1800,
-    "count": 17862,
+    "count": 7313,
+    "year": 2021,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 1860,
+    "count": 5798,
+    "year": 2021,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 1920,
+    "count": 4751,
     "year": 2021,
     "city": "guadalajara"
   },
   {
     "bucket": 1980,
-    "count": 9993,
+    "count": 3844,
+    "year": 2021,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 2040,
+    "count": 3291,
+    "year": 2021,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 2100,
+    "count": 2858,
     "year": 2021,
     "city": "guadalajara"
   },
   {
     "bucket": 2160,
-    "count": 6243,
+    "count": 2400,
+    "year": 2021,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 2220,
+    "count": 2031,
+    "year": 2021,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 2280,
+    "count": 1812,
     "year": 2021,
     "city": "guadalajara"
   },
   {
     "bucket": 2340,
-    "count": 4132,
+    "count": 1566,
+    "year": 2021,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 2400,
+    "count": 1362,
+    "year": 2021,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 2460,
+    "count": 1204,
     "year": 2021,
     "city": "guadalajara"
   },
   {
     "bucket": 2520,
-    "count": 2544,
+    "count": 983,
+    "year": 2021,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 2580,
+    "count": 851,
+    "year": 2021,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 2640,
+    "count": 710,
     "year": 2021,
     "city": "guadalajara"
   },
   {
     "bucket": 2700,
-    "count": 1579,
+    "count": 610,
+    "year": 2021,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 2760,
+    "count": 507,
+    "year": 2021,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 2820,
+    "count": 462,
     "year": 2021,
     "city": "guadalajara"
   },
   {
     "bucket": 2880,
-    "count": 1072,
+    "count": 374,
+    "year": 2021,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 2940,
+    "count": 346,
+    "year": 2021,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 3000,
+    "count": 352,
     "year": 2021,
     "city": "guadalajara"
   },
   {
     "bucket": 3060,
-    "count": 750,
+    "count": 257,
+    "year": 2021,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 3120,
+    "count": 272,
+    "year": 2021,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 3180,
+    "count": 221,
     "year": 2021,
     "city": "guadalajara"
   },
   {
     "bucket": 3240,
-    "count": 550,
+    "count": 198,
+    "year": 2021,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 3300,
+    "count": 182,
+    "year": 2021,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 3360,
+    "count": 170,
     "year": 2021,
     "city": "guadalajara"
   },
   {
     "bucket": 3420,
-    "count": 416,
+    "count": 160,
+    "year": 2021,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 3480,
+    "count": 125,
+    "year": 2021,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 3540,
+    "count": 131,
     "year": 2021,
     "city": "guadalajara"
   },
   {
     "bucket": 3600,
-    "count": 307,
+    "count": 110,
+    "year": 2021,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 3660,
+    "count": 106,
+    "year": 2021,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 3720,
+    "count": 91,
     "year": 2021,
     "city": "guadalajara"
   },
   {
     "bucket": 3780,
-    "count": 271,
+    "count": 99,
+    "year": 2021,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 3840,
+    "count": 94,
+    "year": 2021,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 3900,
+    "count": 78,
     "year": 2021,
     "city": "guadalajara"
   },
   {
     "bucket": 3960,
-    "count": 202,
+    "count": 62,
     "year": 2021,
     "city": "guadalajara"
   },
   {
-    "bucket": 4140,
-    "count": 156,
+    "bucket": 4020,
+    "count": 71,
     "year": 2021,
     "city": "guadalajara"
   },
   {
-    "bucket": 4320,
-    "count": 163,
-    "year": 2021,
-    "city": "guadalajara"
-  },
-  {
-    "bucket": 4500,
-    "count": 136,
-    "year": 2021,
-    "city": "guadalajara"
-  },
-  {
-    "bucket": 4680,
-    "count": 109,
-    "year": 2021,
-    "city": "guadalajara"
-  },
-  {
-    "bucket": 4860,
-    "count": 121,
-    "year": 2021,
-    "city": "guadalajara"
-  },
-  {
-    "bucket": 5040,
-    "count": 96,
-    "year": 2021,
-    "city": "guadalajara"
-  },
-  {
-    "bucket": 5220,
-    "count": 74,
-    "year": 2021,
-    "city": "guadalajara"
-  },
-  {
-    "bucket": 5400,
+    "bucket": 4080,
     "count": 69,
     "year": 2021,
     "city": "guadalajara"
   },
   {
-    "bucket": 5580,
-    "count": 64,
-    "year": 2021,
-    "city": "guadalajara"
-  },
-  {
-    "bucket": 5760,
-    "count": 64,
-    "year": 2021,
-    "city": "guadalajara"
-  },
-  {
-    "bucket": 5940,
+    "bucket": 4140,
     "count": 52,
     "year": 2021,
     "city": "guadalajara"
   },
   {
+    "bucket": 4200,
+    "count": 62,
+    "year": 2021,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 4260,
+    "count": 42,
+    "year": 2021,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 4320,
+    "count": 59,
+    "year": 2021,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 4380,
+    "count": 50,
+    "year": 2021,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 4440,
+    "count": 54,
+    "year": 2021,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 4500,
+    "count": 55,
+    "year": 2021,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 4560,
+    "count": 45,
+    "year": 2021,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 4620,
+    "count": 36,
+    "year": 2021,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 4680,
+    "count": 42,
+    "year": 2021,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 4740,
+    "count": 36,
+    "year": 2021,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 4800,
+    "count": 31,
+    "year": 2021,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 4860,
+    "count": 35,
+    "year": 2021,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 4920,
+    "count": 50,
+    "year": 2021,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 4980,
+    "count": 36,
+    "year": 2021,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5040,
+    "count": 33,
+    "year": 2021,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5100,
+    "count": 26,
+    "year": 2021,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5160,
+    "count": 37,
+    "year": 2021,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5220,
+    "count": 33,
+    "year": 2021,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5280,
+    "count": 19,
+    "year": 2021,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5340,
+    "count": 22,
+    "year": 2021,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5400,
+    "count": 30,
+    "year": 2021,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5460,
+    "count": 19,
+    "year": 2021,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5520,
+    "count": 20,
+    "year": 2021,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5580,
+    "count": 21,
+    "year": 2021,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5640,
+    "count": 23,
+    "year": 2021,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5700,
+    "count": 20,
+    "year": 2021,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5760,
+    "count": 20,
+    "year": 2021,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5820,
+    "count": 25,
+    "year": 2021,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5880,
+    "count": 19,
+    "year": 2021,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5940,
+    "count": 14,
+    "year": 2021,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6000,
+    "count": 18,
+    "year": 2021,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6060,
+    "count": 20,
+    "year": 2021,
+    "city": "guadalajara"
+  },
+  {
     "bucket": 6120,
-    "count": 60,
+    "count": 17,
+    "year": 2021,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6180,
+    "count": 20,
+    "year": 2021,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6240,
+    "count": 23,
     "year": 2021,
     "city": "guadalajara"
   },
   {
     "bucket": 6300,
-    "count": 33,
+    "count": 10,
+    "year": 2021,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6360,
+    "count": 13,
+    "year": 2021,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6420,
+    "count": 10,
     "year": 2021,
     "city": "guadalajara"
   },
   {
     "bucket": 6480,
-    "count": 41,
+    "count": 13,
+    "year": 2021,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6540,
+    "count": 17,
+    "year": 2021,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6600,
+    "count": 11,
     "year": 2021,
     "city": "guadalajara"
   },
   {
     "bucket": 6660,
-    "count": 39,
+    "count": 13,
+    "year": 2021,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6720,
+    "count": 11,
+    "year": 2021,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6780,
+    "count": 15,
     "year": 2021,
     "city": "guadalajara"
   },
   {
     "bucket": 6840,
-    "count": 33,
+    "count": 15,
+    "year": 2021,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6900,
+    "count": 10,
+    "year": 2021,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6960,
+    "count": 8,
     "year": 2021,
     "city": "guadalajara"
   },
   {
     "bucket": 7020,
-    "count": 37,
+    "count": 17,
+    "year": 2021,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 7080,
+    "count": 11,
+    "year": 2021,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 7140,
+    "count": 9,
     "year": 2021,
     "city": "guadalajara"
   },
@@ -1951,241 +5623,721 @@
   },
   {
     "bucket": 0,
-    "count": 380848,
+    "count": 179454,
+    "year": 2022,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 60,
+    "count": 58162,
+    "year": 2022,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 120,
+    "count": 143232,
     "year": 2022,
     "city": "guadalajara"
   },
   {
     "bucket": 180,
-    "count": 790717,
+    "count": 224756,
+    "year": 2022,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 240,
+    "count": 272453,
+    "year": 2022,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 300,
+    "count": 293508,
     "year": 2022,
     "city": "guadalajara"
   },
   {
     "bucket": 360,
-    "count": 845205,
+    "count": 295507,
+    "year": 2022,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 420,
+    "count": 283621,
+    "year": 2022,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 480,
+    "count": 266077,
     "year": 2022,
     "city": "guadalajara"
   },
   {
     "bucket": 540,
-    "count": 683625,
+    "count": 247809,
+    "year": 2022,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 600,
+    "count": 227867,
+    "year": 2022,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 660,
+    "count": 207949,
     "year": 2022,
     "city": "guadalajara"
   },
   {
     "bucket": 720,
-    "count": 511219,
+    "count": 187544,
+    "year": 2022,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 780,
+    "count": 170327,
+    "year": 2022,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 840,
+    "count": 153348,
     "year": 2022,
     "city": "guadalajara"
   },
   {
     "bucket": 900,
-    "count": 368651,
+    "count": 137738,
+    "year": 2022,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 960,
+    "count": 122255,
+    "year": 2022,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 1020,
+    "count": 108658,
     "year": 2022,
     "city": "guadalajara"
   },
   {
     "bucket": 1080,
-    "count": 249740,
+    "count": 95271,
+    "year": 2022,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 1140,
+    "count": 82768,
+    "year": 2022,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 1200,
+    "count": 71701,
     "year": 2022,
     "city": "guadalajara"
   },
   {
     "bucket": 1260,
-    "count": 161099,
+    "count": 62125,
+    "year": 2022,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 1320,
+    "count": 53242,
+    "year": 2022,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 1380,
+    "count": 45732,
     "year": 2022,
     "city": "guadalajara"
   },
   {
     "bucket": 1440,
-    "count": 95586,
+    "count": 38218,
+    "year": 2022,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 1500,
+    "count": 31359,
+    "year": 2022,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 1560,
+    "count": 26009,
     "year": 2022,
     "city": "guadalajara"
   },
   {
     "bucket": 1620,
-    "count": 50110,
+    "count": 21257,
+    "year": 2022,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 1680,
+    "count": 16594,
+    "year": 2022,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 1740,
+    "count": 12259,
     "year": 2022,
     "city": "guadalajara"
   },
   {
     "bucket": 1800,
-    "count": 22673,
+    "count": 9389,
+    "year": 2022,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 1860,
+    "count": 7318,
+    "year": 2022,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 1920,
+    "count": 5966,
     "year": 2022,
     "city": "guadalajara"
   },
   {
     "bucket": 1980,
-    "count": 12374,
+    "count": 4885,
+    "year": 2022,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 2040,
+    "count": 4019,
+    "year": 2022,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 2100,
+    "count": 3470,
     "year": 2022,
     "city": "guadalajara"
   },
   {
     "bucket": 2160,
-    "count": 7967,
+    "count": 3022,
+    "year": 2022,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 2220,
+    "count": 2623,
+    "year": 2022,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 2280,
+    "count": 2322,
     "year": 2022,
     "city": "guadalajara"
   },
   {
     "bucket": 2340,
-    "count": 5318,
+    "count": 1993,
+    "year": 2022,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 2400,
+    "count": 1801,
+    "year": 2022,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 2460,
+    "count": 1524,
     "year": 2022,
     "city": "guadalajara"
   },
   {
     "bucket": 2520,
-    "count": 3290,
+    "count": 1283,
+    "year": 2022,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 2580,
+    "count": 1061,
+    "year": 2022,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 2640,
+    "count": 946,
     "year": 2022,
     "city": "guadalajara"
   },
   {
     "bucket": 2700,
-    "count": 1988,
+    "count": 791,
+    "year": 2022,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 2760,
+    "count": 633,
+    "year": 2022,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 2820,
+    "count": 564,
     "year": 2022,
     "city": "guadalajara"
   },
   {
     "bucket": 2880,
-    "count": 1274,
+    "count": 477,
+    "year": 2022,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 2940,
+    "count": 439,
+    "year": 2022,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 3000,
+    "count": 358,
     "year": 2022,
     "city": "guadalajara"
   },
   {
     "bucket": 3060,
-    "count": 944,
+    "count": 380,
+    "year": 2022,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 3120,
+    "count": 306,
+    "year": 2022,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 3180,
+    "count": 258,
     "year": 2022,
     "city": "guadalajara"
   },
   {
     "bucket": 3240,
-    "count": 668,
+    "count": 234,
+    "year": 2022,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 3300,
+    "count": 233,
+    "year": 2022,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 3360,
+    "count": 201,
     "year": 2022,
     "city": "guadalajara"
   },
   {
     "bucket": 3420,
-    "count": 485,
+    "count": 170,
+    "year": 2022,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 3480,
+    "count": 149,
+    "year": 2022,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 3540,
+    "count": 166,
     "year": 2022,
     "city": "guadalajara"
   },
   {
     "bucket": 3600,
-    "count": 366,
+    "count": 145,
+    "year": 2022,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 3660,
+    "count": 115,
+    "year": 2022,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 3720,
+    "count": 106,
     "year": 2022,
     "city": "guadalajara"
   },
   {
     "bucket": 3780,
-    "count": 311,
+    "count": 104,
+    "year": 2022,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 3840,
+    "count": 101,
+    "year": 2022,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 3900,
+    "count": 106,
     "year": 2022,
     "city": "guadalajara"
   },
   {
     "bucket": 3960,
-    "count": 252,
+    "count": 85,
     "year": 2022,
     "city": "guadalajara"
   },
   {
-    "bucket": 4140,
-    "count": 222,
-    "year": 2022,
-    "city": "guadalajara"
-  },
-  {
-    "bucket": 4320,
-    "count": 190,
-    "year": 2022,
-    "city": "guadalajara"
-  },
-  {
-    "bucket": 4500,
-    "count": 146,
-    "year": 2022,
-    "city": "guadalajara"
-  },
-  {
-    "bucket": 4680,
-    "count": 148,
-    "year": 2022,
-    "city": "guadalajara"
-  },
-  {
-    "bucket": 4860,
-    "count": 146,
-    "year": 2022,
-    "city": "guadalajara"
-  },
-  {
-    "bucket": 5040,
-    "count": 119,
-    "year": 2022,
-    "city": "guadalajara"
-  },
-  {
-    "bucket": 5220,
-    "count": 111,
-    "year": 2022,
-    "city": "guadalajara"
-  },
-  {
-    "bucket": 5400,
-    "count": 87,
-    "year": 2022,
-    "city": "guadalajara"
-  },
-  {
-    "bucket": 5580,
-    "count": 75,
-    "year": 2022,
-    "city": "guadalajara"
-  },
-  {
-    "bucket": 5760,
+    "bucket": 4020,
     "count": 80,
     "year": 2022,
     "city": "guadalajara"
   },
   {
-    "bucket": 5940,
+    "bucket": 4080,
+    "count": 87,
+    "year": 2022,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 4140,
+    "count": 82,
+    "year": 2022,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 4200,
+    "count": 74,
+    "year": 2022,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 4260,
+    "count": 66,
+    "year": 2022,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 4320,
+    "count": 63,
+    "year": 2022,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 4380,
     "count": 65,
     "year": 2022,
     "city": "guadalajara"
   },
   {
-    "bucket": 6120,
-    "count": 54,
+    "bucket": 4440,
+    "count": 62,
     "year": 2022,
     "city": "guadalajara"
   },
   {
-    "bucket": 6300,
-    "count": 54,
+    "bucket": 4500,
+    "count": 59,
     "year": 2022,
     "city": "guadalajara"
   },
   {
-    "bucket": 6480,
+    "bucket": 4560,
+    "count": 52,
+    "year": 2022,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 4620,
+    "count": 35,
+    "year": 2022,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 4680,
+    "count": 55,
+    "year": 2022,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 4740,
+    "count": 52,
+    "year": 2022,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 4800,
     "count": 41,
     "year": 2022,
     "city": "guadalajara"
   },
   {
-    "bucket": 6660,
-    "count": 40,
+    "bucket": 4860,
+    "count": 47,
     "year": 2022,
     "city": "guadalajara"
   },
   {
-    "bucket": 6840,
+    "bucket": 4920,
+    "count": 36,
+    "year": 2022,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 4980,
+    "count": 63,
+    "year": 2022,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5040,
+    "count": 41,
+    "year": 2022,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5100,
+    "count": 49,
+    "year": 2022,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5160,
+    "count": 29,
+    "year": 2022,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5220,
+    "count": 44,
+    "year": 2022,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5280,
     "count": 38,
     "year": 2022,
     "city": "guadalajara"
   },
   {
-    "bucket": 7020,
+    "bucket": 5340,
+    "count": 29,
+    "year": 2022,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5400,
+    "count": 29,
+    "year": 2022,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5460,
+    "count": 26,
+    "year": 2022,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5520,
+    "count": 32,
+    "year": 2022,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5580,
+    "count": 32,
+    "year": 2022,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5640,
+    "count": 19,
+    "year": 2022,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5700,
     "count": 24,
+    "year": 2022,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5760,
+    "count": 29,
+    "year": 2022,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5820,
+    "count": 26,
+    "year": 2022,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5880,
+    "count": 25,
+    "year": 2022,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5940,
+    "count": 16,
+    "year": 2022,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6000,
+    "count": 23,
+    "year": 2022,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6060,
+    "count": 26,
+    "year": 2022,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6120,
+    "count": 18,
+    "year": 2022,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6180,
+    "count": 22,
+    "year": 2022,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6240,
+    "count": 14,
+    "year": 2022,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6300,
+    "count": 15,
+    "year": 2022,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6360,
+    "count": 23,
+    "year": 2022,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6420,
+    "count": 16,
+    "year": 2022,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6480,
+    "count": 15,
+    "year": 2022,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6540,
+    "count": 16,
+    "year": 2022,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6600,
+    "count": 10,
+    "year": 2022,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6660,
+    "count": 11,
+    "year": 2022,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6720,
+    "count": 14,
+    "year": 2022,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6780,
+    "count": 15,
+    "year": 2022,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6840,
+    "count": 13,
+    "year": 2022,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6900,
+    "count": 12,
+    "year": 2022,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6960,
+    "count": 13,
+    "year": 2022,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 7020,
+    "count": 8,
+    "year": 2022,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 7080,
+    "count": 5,
+    "year": 2022,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 7140,
+    "count": 11,
     "year": 2022,
     "city": "guadalajara"
   },
@@ -2197,241 +6349,721 @@
   },
   {
     "bucket": 0,
-    "count": 356699,
+    "count": 158933,
+    "year": 2023,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 60,
+    "count": 59824,
+    "year": 2023,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 120,
+    "count": 137942,
     "year": 2023,
     "city": "guadalajara"
   },
   {
     "bucket": 180,
-    "count": 799072,
+    "count": 221525,
+    "year": 2023,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 240,
+    "count": 276243,
+    "year": 2023,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 300,
+    "count": 301304,
     "year": 2023,
     "city": "guadalajara"
   },
   {
     "bucket": 360,
-    "count": 862981,
+    "count": 301528,
+    "year": 2023,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 420,
+    "count": 289383,
+    "year": 2023,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 480,
+    "count": 272070,
     "year": 2023,
     "city": "guadalajara"
   },
   {
     "bucket": 540,
-    "count": 704289,
+    "count": 254095,
+    "year": 2023,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 600,
+    "count": 235806,
+    "year": 2023,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 660,
+    "count": 214388,
     "year": 2023,
     "city": "guadalajara"
   },
   {
     "bucket": 720,
-    "count": 525484,
+    "count": 193029,
+    "year": 2023,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 780,
+    "count": 174852,
+    "year": 2023,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 840,
+    "count": 157603,
     "year": 2023,
     "city": "guadalajara"
   },
   {
     "bucket": 900,
-    "count": 377507,
+    "count": 141035,
+    "year": 2023,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 960,
+    "count": 124652,
+    "year": 2023,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 1020,
+    "count": 111820,
     "year": 2023,
     "city": "guadalajara"
   },
   {
     "bucket": 1080,
-    "count": 260828,
+    "count": 98731,
+    "year": 2023,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 1140,
+    "count": 86670,
+    "year": 2023,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 1200,
+    "count": 75427,
     "year": 2023,
     "city": "guadalajara"
   },
   {
     "bucket": 1260,
-    "count": 170845,
+    "count": 66334,
+    "year": 2023,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 1320,
+    "count": 56772,
+    "year": 2023,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 1380,
+    "count": 47739,
     "year": 2023,
     "city": "guadalajara"
   },
   {
     "bucket": 1440,
-    "count": 100030,
+    "count": 39705,
+    "year": 2023,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 1500,
+    "count": 32871,
+    "year": 2023,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 1560,
+    "count": 27454,
     "year": 2023,
     "city": "guadalajara"
   },
   {
     "bucket": 1620,
-    "count": 53307,
+    "count": 22069,
+    "year": 2023,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 1680,
+    "count": 18129,
+    "year": 2023,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 1740,
+    "count": 13109,
     "year": 2023,
     "city": "guadalajara"
   },
   {
     "bucket": 1800,
-    "count": 23744,
+    "count": 9906,
+    "year": 2023,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 1860,
+    "count": 7672,
+    "year": 2023,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 1920,
+    "count": 6166,
     "year": 2023,
     "city": "guadalajara"
   },
   {
     "bucket": 1980,
-    "count": 13273,
+    "count": 5128,
+    "year": 2023,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 2040,
+    "count": 4362,
+    "year": 2023,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 2100,
+    "count": 3783,
     "year": 2023,
     "city": "guadalajara"
   },
   {
     "bucket": 2160,
-    "count": 8624,
+    "count": 3212,
+    "year": 2023,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 2220,
+    "count": 2903,
+    "year": 2023,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 2280,
+    "count": 2509,
     "year": 2023,
     "city": "guadalajara"
   },
   {
     "bucket": 2340,
-    "count": 5454,
+    "count": 2091,
+    "year": 2023,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 2400,
+    "count": 1867,
+    "year": 2023,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 2460,
+    "count": 1496,
     "year": 2023,
     "city": "guadalajara"
   },
   {
     "bucket": 2520,
-    "count": 3455,
+    "count": 1247,
+    "year": 2023,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 2580,
+    "count": 1216,
+    "year": 2023,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 2640,
+    "count": 992,
     "year": 2023,
     "city": "guadalajara"
   },
   {
     "bucket": 2700,
-    "count": 2186,
+    "count": 841,
+    "year": 2023,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 2760,
+    "count": 756,
+    "year": 2023,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 2820,
+    "count": 589,
     "year": 2023,
     "city": "guadalajara"
   },
   {
     "bucket": 2880,
-    "count": 1317,
+    "count": 475,
+    "year": 2023,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 2940,
+    "count": 459,
+    "year": 2023,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 3000,
+    "count": 383,
     "year": 2023,
     "city": "guadalajara"
   },
   {
     "bucket": 3060,
-    "count": 948,
+    "count": 336,
+    "year": 2023,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 3120,
+    "count": 311,
+    "year": 2023,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 3180,
+    "count": 301,
     "year": 2023,
     "city": "guadalajara"
   },
   {
     "bucket": 3240,
-    "count": 713,
+    "count": 249,
+    "year": 2023,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 3300,
+    "count": 237,
+    "year": 2023,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 3360,
+    "count": 227,
     "year": 2023,
     "city": "guadalajara"
   },
   {
     "bucket": 3420,
-    "count": 536,
+    "count": 204,
     "year": 2023,
     "city": "guadalajara"
   },
   {
-    "bucket": 3600,
-    "count": 371,
+    "bucket": 3480,
+    "count": 194,
     "year": 2023,
     "city": "guadalajara"
   },
   {
-    "bucket": 3780,
-    "count": 328,
-    "year": 2023,
-    "city": "guadalajara"
-  },
-  {
-    "bucket": 3960,
-    "count": 275,
-    "year": 2023,
-    "city": "guadalajara"
-  },
-  {
-    "bucket": 4140,
-    "count": 221,
-    "year": 2023,
-    "city": "guadalajara"
-  },
-  {
-    "bucket": 4320,
-    "count": 211,
-    "year": 2023,
-    "city": "guadalajara"
-  },
-  {
-    "bucket": 4500,
-    "count": 154,
-    "year": 2023,
-    "city": "guadalajara"
-  },
-  {
-    "bucket": 4680,
-    "count": 154,
-    "year": 2023,
-    "city": "guadalajara"
-  },
-  {
-    "bucket": 4860,
+    "bucket": 3540,
     "count": 138,
     "year": 2023,
     "city": "guadalajara"
   },
   {
-    "bucket": 5040,
-    "count": 115,
+    "bucket": 3600,
+    "count": 153,
     "year": 2023,
     "city": "guadalajara"
   },
   {
-    "bucket": 5220,
-    "count": 103,
+    "bucket": 3660,
+    "count": 111,
     "year": 2023,
     "city": "guadalajara"
   },
   {
-    "bucket": 5400,
-    "count": 89,
+    "bucket": 3720,
+    "count": 107,
     "year": 2023,
     "city": "guadalajara"
   },
   {
-    "bucket": 5580,
+    "bucket": 3780,
+    "count": 110,
+    "year": 2023,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 3840,
+    "count": 114,
+    "year": 2023,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 3900,
     "count": 104,
     "year": 2023,
     "city": "guadalajara"
   },
   {
+    "bucket": 3960,
+    "count": 95,
+    "year": 2023,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 4020,
+    "count": 90,
+    "year": 2023,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 4080,
+    "count": 90,
+    "year": 2023,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 4140,
+    "count": 71,
+    "year": 2023,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 4200,
+    "count": 76,
+    "year": 2023,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 4260,
+    "count": 74,
+    "year": 2023,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 4320,
+    "count": 83,
+    "year": 2023,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 4380,
+    "count": 63,
+    "year": 2023,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 4440,
+    "count": 65,
+    "year": 2023,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 4500,
+    "count": 50,
+    "year": 2023,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 4560,
+    "count": 56,
+    "year": 2023,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 4620,
+    "count": 48,
+    "year": 2023,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 4680,
+    "count": 56,
+    "year": 2023,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 4740,
+    "count": 55,
+    "year": 2023,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 4800,
+    "count": 43,
+    "year": 2023,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 4860,
+    "count": 40,
+    "year": 2023,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 4920,
+    "count": 44,
+    "year": 2023,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 4980,
+    "count": 54,
+    "year": 2023,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5040,
+    "count": 35,
+    "year": 2023,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5100,
+    "count": 41,
+    "year": 2023,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5160,
+    "count": 39,
+    "year": 2023,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5220,
+    "count": 40,
+    "year": 2023,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5280,
+    "count": 26,
+    "year": 2023,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5340,
+    "count": 37,
+    "year": 2023,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5400,
+    "count": 32,
+    "year": 2023,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5460,
+    "count": 28,
+    "year": 2023,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5520,
+    "count": 29,
+    "year": 2023,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5580,
+    "count": 36,
+    "year": 2023,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5640,
+    "count": 34,
+    "year": 2023,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5700,
+    "count": 34,
+    "year": 2023,
+    "city": "guadalajara"
+  },
+  {
     "bucket": 5760,
-    "count": 58,
+    "count": 21,
+    "year": 2023,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5820,
+    "count": 9,
+    "year": 2023,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5880,
+    "count": 28,
     "year": 2023,
     "city": "guadalajara"
   },
   {
     "bucket": 5940,
-    "count": 69,
+    "count": 24,
+    "year": 2023,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6000,
+    "count": 26,
+    "year": 2023,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6060,
+    "count": 19,
     "year": 2023,
     "city": "guadalajara"
   },
   {
     "bucket": 6120,
-    "count": 58,
+    "count": 14,
+    "year": 2023,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6180,
+    "count": 18,
+    "year": 2023,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6240,
+    "count": 26,
     "year": 2023,
     "city": "guadalajara"
   },
   {
     "bucket": 6300,
-    "count": 73,
+    "count": 30,
+    "year": 2023,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6360,
+    "count": 21,
+    "year": 2023,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6420,
+    "count": 22,
     "year": 2023,
     "city": "guadalajara"
   },
   {
     "bucket": 6480,
-    "count": 57,
+    "count": 13,
+    "year": 2023,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6540,
+    "count": 23,
+    "year": 2023,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6600,
+    "count": 21,
     "year": 2023,
     "city": "guadalajara"
   },
   {
     "bucket": 6660,
-    "count": 45,
+    "count": 16,
+    "year": 2023,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6720,
+    "count": 18,
+    "year": 2023,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6780,
+    "count": 11,
     "year": 2023,
     "city": "guadalajara"
   },
   {
     "bucket": 6840,
-    "count": 45,
+    "count": 12,
+    "year": 2023,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6900,
+    "count": 15,
+    "year": 2023,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6960,
+    "count": 18,
     "year": 2023,
     "city": "guadalajara"
   },
   {
     "bucket": 7020,
-    "count": 56,
+    "count": 21,
+    "year": 2023,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 7080,
+    "count": 17,
+    "year": 2023,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 7140,
+    "count": 18,
     "year": 2023,
     "city": "guadalajara"
   },
@@ -2443,241 +7075,721 @@
   },
   {
     "bucket": 0,
-    "count": 326141,
+    "count": 123029,
+    "year": 2024,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 60,
+    "count": 59563,
+    "year": 2024,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 120,
+    "count": 143549,
     "year": 2024,
     "city": "guadalajara"
   },
   {
     "bucket": 180,
-    "count": 866875,
+    "count": 240390,
+    "year": 2024,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 240,
+    "count": 300404,
+    "year": 2024,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 300,
+    "count": 326081,
     "year": 2024,
     "city": "guadalajara"
   },
   {
     "bucket": 360,
-    "count": 939018,
+    "count": 327165,
+    "year": 2024,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 420,
+    "count": 314578,
+    "year": 2024,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 480,
+    "count": 297275,
     "year": 2024,
     "city": "guadalajara"
   },
   {
     "bucket": 540,
-    "count": 765309,
+    "count": 278378,
+    "year": 2024,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 600,
+    "count": 255036,
+    "year": 2024,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 660,
+    "count": 231895,
     "year": 2024,
     "city": "guadalajara"
   },
   {
     "bucket": 720,
-    "count": 575462,
+    "count": 210681,
+    "year": 2024,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 780,
+    "count": 191648,
+    "year": 2024,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 840,
+    "count": 173133,
     "year": 2024,
     "city": "guadalajara"
   },
   {
     "bucket": 900,
-    "count": 418380,
+    "count": 155676,
+    "year": 2024,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 960,
+    "count": 138970,
+    "year": 2024,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 1020,
+    "count": 123734,
     "year": 2024,
     "city": "guadalajara"
   },
   {
     "bucket": 1080,
-    "count": 293596,
+    "count": 110523,
+    "year": 2024,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 1140,
+    "count": 97336,
+    "year": 2024,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 1200,
+    "count": 85737,
     "year": 2024,
     "city": "guadalajara"
   },
   {
     "bucket": 1260,
-    "count": 192147,
+    "count": 74731,
+    "year": 2024,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 1320,
+    "count": 63490,
+    "year": 2024,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 1380,
+    "count": 53926,
     "year": 2024,
     "city": "guadalajara"
   },
   {
     "bucket": 1440,
-    "count": 114332,
+    "count": 45649,
+    "year": 2024,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 1500,
+    "count": 37936,
+    "year": 2024,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 1560,
+    "count": 30747,
     "year": 2024,
     "city": "guadalajara"
   },
   {
     "bucket": 1620,
-    "count": 60330,
+    "count": 25279,
+    "year": 2024,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 1680,
+    "count": 19681,
+    "year": 2024,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 1740,
+    "count": 15370,
     "year": 2024,
     "city": "guadalajara"
   },
   {
     "bucket": 1800,
-    "count": 27253,
+    "count": 11294,
+    "year": 2024,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 1860,
+    "count": 8744,
+    "year": 2024,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 1920,
+    "count": 7215,
     "year": 2024,
     "city": "guadalajara"
   },
   {
     "bucket": 1980,
-    "count": 15314,
+    "count": 6008,
     "year": 2024,
     "city": "guadalajara"
   },
   {
-    "bucket": 2160,
-    "count": 9846,
+    "bucket": 2040,
+    "count": 5038,
     "year": 2024,
     "city": "guadalajara"
   },
   {
-    "bucket": 2340,
-    "count": 6341,
-    "year": 2024,
-    "city": "guadalajara"
-  },
-  {
-    "bucket": 2520,
+    "bucket": 2100,
     "count": 4268,
     "year": 2024,
     "city": "guadalajara"
   },
   {
+    "bucket": 2160,
+    "count": 3675,
+    "year": 2024,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 2220,
+    "count": 3294,
+    "year": 2024,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 2280,
+    "count": 2877,
+    "year": 2024,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 2340,
+    "count": 2329,
+    "year": 2024,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 2400,
+    "count": 2134,
+    "year": 2024,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 2460,
+    "count": 1878,
+    "year": 2024,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 2520,
+    "count": 1690,
+    "year": 2024,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 2580,
+    "count": 1451,
+    "year": 2024,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 2640,
+    "count": 1127,
+    "year": 2024,
+    "city": "guadalajara"
+  },
+  {
     "bucket": 2700,
-    "count": 2349,
+    "count": 933,
+    "year": 2024,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 2760,
+    "count": 782,
+    "year": 2024,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 2820,
+    "count": 634,
     "year": 2024,
     "city": "guadalajara"
   },
   {
     "bucket": 2880,
-    "count": 1480,
+    "count": 585,
+    "year": 2024,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 2940,
+    "count": 446,
+    "year": 2024,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 3000,
+    "count": 449,
     "year": 2024,
     "city": "guadalajara"
   },
   {
     "bucket": 3060,
-    "count": 1018,
+    "count": 372,
+    "year": 2024,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 3120,
+    "count": 333,
+    "year": 2024,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 3180,
+    "count": 313,
     "year": 2024,
     "city": "guadalajara"
   },
   {
     "bucket": 3240,
-    "count": 798,
+    "count": 294,
+    "year": 2024,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 3300,
+    "count": 284,
+    "year": 2024,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 3360,
+    "count": 220,
     "year": 2024,
     "city": "guadalajara"
   },
   {
     "bucket": 3420,
-    "count": 617,
+    "count": 226,
+    "year": 2024,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 3480,
+    "count": 225,
+    "year": 2024,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 3540,
+    "count": 166,
     "year": 2024,
     "city": "guadalajara"
   },
   {
     "bucket": 3600,
-    "count": 475,
+    "count": 161,
+    "year": 2024,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 3660,
+    "count": 146,
+    "year": 2024,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 3720,
+    "count": 168,
     "year": 2024,
     "city": "guadalajara"
   },
   {
     "bucket": 3780,
-    "count": 360,
+    "count": 117,
+    "year": 2024,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 3840,
+    "count": 135,
+    "year": 2024,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 3900,
+    "count": 108,
     "year": 2024,
     "city": "guadalajara"
   },
   {
     "bucket": 3960,
-    "count": 329,
+    "count": 97,
+    "year": 2024,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 4020,
+    "count": 114,
+    "year": 2024,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 4080,
+    "count": 118,
     "year": 2024,
     "city": "guadalajara"
   },
   {
     "bucket": 4140,
-    "count": 273,
+    "count": 91,
+    "year": 2024,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 4200,
+    "count": 84,
+    "year": 2024,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 4260,
+    "count": 98,
     "year": 2024,
     "city": "guadalajara"
   },
   {
     "bucket": 4320,
-    "count": 242,
+    "count": 75,
+    "year": 2024,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 4380,
+    "count": 84,
+    "year": 2024,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 4440,
+    "count": 83,
     "year": 2024,
     "city": "guadalajara"
   },
   {
     "bucket": 4500,
-    "count": 214,
+    "count": 72,
+    "year": 2024,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 4560,
+    "count": 79,
+    "year": 2024,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 4620,
+    "count": 63,
     "year": 2024,
     "city": "guadalajara"
   },
   {
     "bucket": 4680,
-    "count": 174,
+    "count": 63,
+    "year": 2024,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 4740,
+    "count": 52,
+    "year": 2024,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 4800,
+    "count": 59,
     "year": 2024,
     "city": "guadalajara"
   },
   {
     "bucket": 4860,
-    "count": 127,
+    "count": 38,
     "year": 2024,
     "city": "guadalajara"
   },
   {
-    "bucket": 5040,
-    "count": 126,
+    "bucket": 4920,
+    "count": 42,
     "year": 2024,
     "city": "guadalajara"
   },
   {
-    "bucket": 5220,
-    "count": 137,
-    "year": 2024,
-    "city": "guadalajara"
-  },
-  {
-    "bucket": 5400,
-    "count": 105,
-    "year": 2024,
-    "city": "guadalajara"
-  },
-  {
-    "bucket": 5580,
-    "count": 94,
-    "year": 2024,
-    "city": "guadalajara"
-  },
-  {
-    "bucket": 5760,
-    "count": 82,
-    "year": 2024,
-    "city": "guadalajara"
-  },
-  {
-    "bucket": 5940,
-    "count": 67,
-    "year": 2024,
-    "city": "guadalajara"
-  },
-  {
-    "bucket": 6120,
-    "count": 61,
-    "year": 2024,
-    "city": "guadalajara"
-  },
-  {
-    "bucket": 6300,
+    "bucket": 4980,
     "count": 47,
     "year": 2024,
     "city": "guadalajara"
   },
   {
+    "bucket": 5040,
+    "count": 40,
+    "year": 2024,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5100,
+    "count": 39,
+    "year": 2024,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5160,
+    "count": 47,
+    "year": 2024,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5220,
+    "count": 56,
+    "year": 2024,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5280,
+    "count": 43,
+    "year": 2024,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5340,
+    "count": 38,
+    "year": 2024,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5400,
+    "count": 46,
+    "year": 2024,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5460,
+    "count": 38,
+    "year": 2024,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5520,
+    "count": 21,
+    "year": 2024,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5580,
+    "count": 25,
+    "year": 2024,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5640,
+    "count": 39,
+    "year": 2024,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5700,
+    "count": 30,
+    "year": 2024,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5760,
+    "count": 23,
+    "year": 2024,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5820,
+    "count": 27,
+    "year": 2024,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5880,
+    "count": 32,
+    "year": 2024,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5940,
+    "count": 23,
+    "year": 2024,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6000,
+    "count": 22,
+    "year": 2024,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6060,
+    "count": 22,
+    "year": 2024,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6120,
+    "count": 28,
+    "year": 2024,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6180,
+    "count": 16,
+    "year": 2024,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6240,
+    "count": 17,
+    "year": 2024,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6300,
+    "count": 20,
+    "year": 2024,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6360,
+    "count": 11,
+    "year": 2024,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6420,
+    "count": 16,
+    "year": 2024,
+    "city": "guadalajara"
+  },
+  {
     "bucket": 6480,
-    "count": 58,
+    "count": 25,
+    "year": 2024,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6540,
+    "count": 19,
+    "year": 2024,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6600,
+    "count": 14,
     "year": 2024,
     "city": "guadalajara"
   },
   {
     "bucket": 6660,
-    "count": 69,
+    "count": 18,
+    "year": 2024,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6720,
+    "count": 23,
+    "year": 2024,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6780,
+    "count": 28,
     "year": 2024,
     "city": "guadalajara"
   },
   {
     "bucket": 6840,
-    "count": 50,
+    "count": 15,
+    "year": 2024,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6900,
+    "count": 23,
+    "year": 2024,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6960,
+    "count": 12,
     "year": 2024,
     "city": "guadalajara"
   },
   {
     "bucket": 7020,
-    "count": 50,
+    "count": 23,
+    "year": 2024,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 7080,
+    "count": 11,
+    "year": 2024,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 7140,
+    "count": 16,
     "year": 2024,
     "city": "guadalajara"
   },
@@ -2689,241 +7801,721 @@
   },
   {
     "bucket": 0,
-    "count": 261258,
+    "count": 95747,
+    "year": 2025,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 60,
+    "count": 45540,
+    "year": 2025,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 120,
+    "count": 119971,
     "year": 2025,
     "city": "guadalajara"
   },
   {
     "bucket": 180,
-    "count": 720481,
+    "count": 198602,
+    "year": 2025,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 240,
+    "count": 250552,
+    "year": 2025,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 300,
+    "count": 271327,
     "year": 2025,
     "city": "guadalajara"
   },
   {
     "bucket": 360,
-    "count": 780763,
+    "count": 272606,
+    "year": 2025,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 420,
+    "count": 262560,
+    "year": 2025,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 480,
+    "count": 245597,
     "year": 2025,
     "city": "guadalajara"
   },
   {
     "bucket": 540,
-    "count": 628852,
+    "count": 228092,
+    "year": 2025,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 600,
+    "count": 209720,
+    "year": 2025,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 660,
+    "count": 191040,
     "year": 2025,
     "city": "guadalajara"
   },
   {
     "bucket": 720,
-    "count": 470476,
+    "count": 172486,
+    "year": 2025,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 780,
+    "count": 156705,
+    "year": 2025,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 840,
+    "count": 141285,
     "year": 2025,
     "city": "guadalajara"
   },
   {
     "bucket": 900,
-    "count": 346177,
+    "count": 128056,
+    "year": 2025,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 960,
+    "count": 115360,
+    "year": 2025,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 1020,
+    "count": 102761,
     "year": 2025,
     "city": "guadalajara"
   },
   {
     "bucket": 1080,
-    "count": 240369,
+    "count": 90288,
+    "year": 2025,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 1140,
+    "count": 80145,
+    "year": 2025,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 1200,
+    "count": 69936,
     "year": 2025,
     "city": "guadalajara"
   },
   {
     "bucket": 1260,
-    "count": 156743,
+    "count": 60536,
+    "year": 2025,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 1320,
+    "count": 51822,
+    "year": 2025,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 1380,
+    "count": 44385,
     "year": 2025,
     "city": "guadalajara"
   },
   {
     "bucket": 1440,
-    "count": 93644,
+    "count": 37322,
+    "year": 2025,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 1500,
+    "count": 31040,
+    "year": 2025,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 1560,
+    "count": 25282,
     "year": 2025,
     "city": "guadalajara"
   },
   {
     "bucket": 1620,
-    "count": 47616,
+    "count": 19734,
+    "year": 2025,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 1680,
+    "count": 15905,
+    "year": 2025,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 1740,
+    "count": 11977,
     "year": 2025,
     "city": "guadalajara"
   },
   {
     "bucket": 1800,
-    "count": 21400,
+    "count": 8703,
+    "year": 2025,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 1860,
+    "count": 7003,
+    "year": 2025,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 1920,
+    "count": 5694,
     "year": 2025,
     "city": "guadalajara"
   },
   {
     "bucket": 1980,
-    "count": 12201,
+    "count": 4687,
+    "year": 2025,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 2040,
+    "count": 3985,
+    "year": 2025,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 2100,
+    "count": 3529,
     "year": 2025,
     "city": "guadalajara"
   },
   {
     "bucket": 2160,
-    "count": 7979,
+    "count": 2986,
+    "year": 2025,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 2220,
+    "count": 2665,
+    "year": 2025,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 2280,
+    "count": 2328,
     "year": 2025,
     "city": "guadalajara"
   },
   {
     "bucket": 2340,
-    "count": 5256,
+    "count": 2036,
+    "year": 2025,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 2400,
+    "count": 1758,
+    "year": 2025,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 2460,
+    "count": 1462,
     "year": 2025,
     "city": "guadalajara"
   },
   {
     "bucket": 2520,
-    "count": 3274,
+    "count": 1360,
+    "year": 2025,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 2580,
+    "count": 1036,
+    "year": 2025,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 2640,
+    "count": 878,
     "year": 2025,
     "city": "guadalajara"
   },
   {
     "bucket": 2700,
-    "count": 1845,
+    "count": 752,
+    "year": 2025,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 2760,
+    "count": 621,
+    "year": 2025,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 2820,
+    "count": 472,
     "year": 2025,
     "city": "guadalajara"
   },
   {
     "bucket": 2880,
-    "count": 1151,
+    "count": 433,
+    "year": 2025,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 2940,
+    "count": 382,
+    "year": 2025,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 3000,
+    "count": 336,
     "year": 2025,
     "city": "guadalajara"
   },
   {
     "bucket": 3060,
-    "count": 849,
+    "count": 312,
+    "year": 2025,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 3120,
+    "count": 292,
+    "year": 2025,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 3180,
+    "count": 245,
     "year": 2025,
     "city": "guadalajara"
   },
   {
     "bucket": 3240,
-    "count": 617,
+    "count": 242,
+    "year": 2025,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 3300,
+    "count": 196,
+    "year": 2025,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 3360,
+    "count": 179,
     "year": 2025,
     "city": "guadalajara"
   },
   {
     "bucket": 3420,
-    "count": 448,
+    "count": 160,
+    "year": 2025,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 3480,
+    "count": 160,
+    "year": 2025,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 3540,
+    "count": 128,
     "year": 2025,
     "city": "guadalajara"
   },
   {
     "bucket": 3600,
-    "count": 346,
+    "count": 126,
     "year": 2025,
     "city": "guadalajara"
   },
   {
-    "bucket": 3780,
-    "count": 303,
-    "year": 2025,
-    "city": "guadalajara"
-  },
-  {
-    "bucket": 3960,
-    "count": 227,
-    "year": 2025,
-    "city": "guadalajara"
-  },
-  {
-    "bucket": 4140,
-    "count": 227,
-    "year": 2025,
-    "city": "guadalajara"
-  },
-  {
-    "bucket": 4320,
-    "count": 201,
-    "year": 2025,
-    "city": "guadalajara"
-  },
-  {
-    "bucket": 4500,
-    "count": 178,
-    "year": 2025,
-    "city": "guadalajara"
-  },
-  {
-    "bucket": 4680,
-    "count": 132,
-    "year": 2025,
-    "city": "guadalajara"
-  },
-  {
-    "bucket": 4860,
+    "bucket": 3660,
     "count": 114,
     "year": 2025,
     "city": "guadalajara"
   },
   {
-    "bucket": 5040,
-    "count": 86,
+    "bucket": 3720,
+    "count": 106,
     "year": 2025,
     "city": "guadalajara"
   },
   {
-    "bucket": 5220,
-    "count": 76,
+    "bucket": 3780,
+    "count": 100,
     "year": 2025,
     "city": "guadalajara"
   },
   {
-    "bucket": 5400,
-    "count": 80,
+    "bucket": 3840,
+    "count": 101,
     "year": 2025,
     "city": "guadalajara"
   },
   {
-    "bucket": 5580,
-    "count": 84,
+    "bucket": 3900,
+    "count": 102,
     "year": 2025,
     "city": "guadalajara"
   },
   {
-    "bucket": 5760,
+    "bucket": 3960,
+    "count": 71,
+    "year": 2025,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 4020,
+    "count": 79,
+    "year": 2025,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 4080,
+    "count": 77,
+    "year": 2025,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 4140,
     "count": 74,
     "year": 2025,
     "city": "guadalajara"
   },
   {
+    "bucket": 4200,
+    "count": 82,
+    "year": 2025,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 4260,
+    "count": 71,
+    "year": 2025,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 4320,
+    "count": 71,
+    "year": 2025,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 4380,
+    "count": 74,
+    "year": 2025,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 4440,
+    "count": 56,
+    "year": 2025,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 4500,
+    "count": 58,
+    "year": 2025,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 4560,
+    "count": 64,
+    "year": 2025,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 4620,
+    "count": 56,
+    "year": 2025,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 4680,
+    "count": 47,
+    "year": 2025,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 4740,
+    "count": 37,
+    "year": 2025,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 4800,
+    "count": 48,
+    "year": 2025,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 4860,
+    "count": 40,
+    "year": 2025,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 4920,
+    "count": 40,
+    "year": 2025,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 4980,
+    "count": 34,
+    "year": 2025,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5040,
+    "count": 29,
+    "year": 2025,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5100,
+    "count": 30,
+    "year": 2025,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5160,
+    "count": 27,
+    "year": 2025,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5220,
+    "count": 30,
+    "year": 2025,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5280,
+    "count": 21,
+    "year": 2025,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5340,
+    "count": 25,
+    "year": 2025,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5400,
+    "count": 32,
+    "year": 2025,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5460,
+    "count": 21,
+    "year": 2025,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5520,
+    "count": 27,
+    "year": 2025,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5580,
+    "count": 33,
+    "year": 2025,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5640,
+    "count": 34,
+    "year": 2025,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5700,
+    "count": 17,
+    "year": 2025,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5760,
+    "count": 26,
+    "year": 2025,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5820,
+    "count": 23,
+    "year": 2025,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 5880,
+    "count": 25,
+    "year": 2025,
+    "city": "guadalajara"
+  },
+  {
     "bucket": 5940,
-    "count": 53,
+    "count": 15,
+    "year": 2025,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6000,
+    "count": 22,
+    "year": 2025,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6060,
+    "count": 16,
     "year": 2025,
     "city": "guadalajara"
   },
   {
     "bucket": 6120,
-    "count": 62,
+    "count": 19,
+    "year": 2025,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6180,
+    "count": 16,
+    "year": 2025,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6240,
+    "count": 27,
     "year": 2025,
     "city": "guadalajara"
   },
   {
     "bucket": 6300,
-    "count": 67,
+    "count": 25,
+    "year": 2025,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6360,
+    "count": 22,
+    "year": 2025,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6420,
+    "count": 20,
     "year": 2025,
     "city": "guadalajara"
   },
   {
     "bucket": 6480,
-    "count": 36,
+    "count": 8,
+    "year": 2025,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6540,
+    "count": 15,
+    "year": 2025,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6600,
+    "count": 13,
     "year": 2025,
     "city": "guadalajara"
   },
   {
     "bucket": 6660,
-    "count": 51,
+    "count": 24,
+    "year": 2025,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6720,
+    "count": 17,
+    "year": 2025,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6780,
+    "count": 10,
     "year": 2025,
     "city": "guadalajara"
   },
   {
     "bucket": 6840,
-    "count": 45,
+    "count": 18,
+    "year": 2025,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6900,
+    "count": 14,
+    "year": 2025,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 6960,
+    "count": 13,
     "year": 2025,
     "city": "guadalajara"
   },
   {
     "bucket": 7020,
-    "count": 39,
+    "count": 10,
+    "year": 2025,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 7080,
+    "count": 15,
+    "year": 2025,
+    "city": "guadalajara"
+  },
+  {
+    "bucket": 7140,
+    "count": 14,
     "year": 2025,
     "city": "guadalajara"
   },

@@ -1,241 +1,715 @@
 [
   {
-    "bucket": 0,
-    "count": 114693,
+    "bucket": 60,
+    "count": 20949,
+    "year": 2014,
+    "city": "montreal"
+  },
+  {
+    "bucket": 120,
+    "count": 93744,
     "year": 2014,
     "city": "montreal"
   },
   {
     "bucket": 180,
-    "count": 569213,
+    "count": 160916,
+    "year": 2014,
+    "city": "montreal"
+  },
+  {
+    "bucket": 240,
+    "count": 199144,
+    "year": 2014,
+    "city": "montreal"
+  },
+  {
+    "bucket": 300,
+    "count": 209153,
     "year": 2014,
     "city": "montreal"
   },
   {
     "bucket": 360,
-    "count": 575088,
+    "count": 203049,
+    "year": 2014,
+    "city": "montreal"
+  },
+  {
+    "bucket": 420,
+    "count": 192582,
+    "year": 2014,
+    "city": "montreal"
+  },
+  {
+    "bucket": 480,
+    "count": 179457,
     "year": 2014,
     "city": "montreal"
   },
   {
     "bucket": 540,
-    "count": 460847,
+    "count": 166406,
+    "year": 2014,
+    "city": "montreal"
+  },
+  {
+    "bucket": 600,
+    "count": 153293,
+    "year": 2014,
+    "city": "montreal"
+  },
+  {
+    "bucket": 660,
+    "count": 141148,
     "year": 2014,
     "city": "montreal"
   },
   {
     "bucket": 720,
-    "count": 356357,
+    "count": 129756,
+    "year": 2014,
+    "city": "montreal"
+  },
+  {
+    "bucket": 780,
+    "count": 118345,
+    "year": 2014,
+    "city": "montreal"
+  },
+  {
+    "bucket": 840,
+    "count": 108256,
     "year": 2014,
     "city": "montreal"
   },
   {
     "bucket": 900,
-    "count": 274827,
+    "count": 99566,
+    "year": 2014,
+    "city": "montreal"
+  },
+  {
+    "bucket": 960,
+    "count": 90867,
+    "year": 2014,
+    "city": "montreal"
+  },
+  {
+    "bucket": 1020,
+    "count": 84394,
     "year": 2014,
     "city": "montreal"
   },
   {
     "bucket": 1080,
-    "count": 214646,
+    "count": 77550,
+    "year": 2014,
+    "city": "montreal"
+  },
+  {
+    "bucket": 1140,
+    "count": 71385,
+    "year": 2014,
+    "city": "montreal"
+  },
+  {
+    "bucket": 1200,
+    "count": 65711,
     "year": 2014,
     "city": "montreal"
   },
   {
     "bucket": 1260,
-    "count": 163984,
+    "count": 59827,
+    "year": 2014,
+    "city": "montreal"
+  },
+  {
+    "bucket": 1320,
+    "count": 54544,
+    "year": 2014,
+    "city": "montreal"
+  },
+  {
+    "bucket": 1380,
+    "count": 49613,
     "year": 2014,
     "city": "montreal"
   },
   {
     "bucket": 1440,
-    "count": 121956,
+    "count": 44965,
+    "year": 2014,
+    "city": "montreal"
+  },
+  {
+    "bucket": 1500,
+    "count": 40449,
+    "year": 2014,
+    "city": "montreal"
+  },
+  {
+    "bucket": 1560,
+    "count": 36542,
     "year": 2014,
     "city": "montreal"
   },
   {
     "bucket": 1620,
-    "count": 86830,
+    "count": 32596,
+    "year": 2014,
+    "city": "montreal"
+  },
+  {
+    "bucket": 1680,
+    "count": 28814,
+    "year": 2014,
+    "city": "montreal"
+  },
+  {
+    "bucket": 1740,
+    "count": 25420,
     "year": 2014,
     "city": "montreal"
   },
   {
     "bucket": 1800,
-    "count": 59203,
+    "count": 22325,
+    "year": 2014,
+    "city": "montreal"
+  },
+  {
+    "bucket": 1860,
+    "count": 19766,
+    "year": 2014,
+    "city": "montreal"
+  },
+  {
+    "bucket": 1920,
+    "count": 17112,
     "year": 2014,
     "city": "montreal"
   },
   {
     "bucket": 1980,
-    "count": 39555,
+    "count": 14916,
+    "year": 2014,
+    "city": "montreal"
+  },
+  {
+    "bucket": 2040,
+    "count": 13311,
+    "year": 2014,
+    "city": "montreal"
+  },
+  {
+    "bucket": 2100,
+    "count": 11328,
     "year": 2014,
     "city": "montreal"
   },
   {
     "bucket": 2160,
-    "count": 27018,
+    "count": 10183,
+    "year": 2014,
+    "city": "montreal"
+  },
+  {
+    "bucket": 2220,
+    "count": 8956,
+    "year": 2014,
+    "city": "montreal"
+  },
+  {
+    "bucket": 2280,
+    "count": 7879,
     "year": 2014,
     "city": "montreal"
   },
   {
     "bucket": 2340,
-    "count": 18079,
+    "count": 6910,
+    "year": 2014,
+    "city": "montreal"
+  },
+  {
+    "bucket": 2400,
+    "count": 6056,
+    "year": 2014,
+    "city": "montreal"
+  },
+  {
+    "bucket": 2460,
+    "count": 5113,
     "year": 2014,
     "city": "montreal"
   },
   {
     "bucket": 2520,
-    "count": 12099,
+    "count": 4623,
+    "year": 2014,
+    "city": "montreal"
+  },
+  {
+    "bucket": 2580,
+    "count": 3899,
+    "year": 2014,
+    "city": "montreal"
+  },
+  {
+    "bucket": 2640,
+    "count": 3577,
     "year": 2014,
     "city": "montreal"
   },
   {
     "bucket": 2700,
-    "count": 8007,
+    "count": 3025,
+    "year": 2014,
+    "city": "montreal"
+  },
+  {
+    "bucket": 2760,
+    "count": 2730,
+    "year": 2014,
+    "city": "montreal"
+  },
+  {
+    "bucket": 2820,
+    "count": 2252,
     "year": 2014,
     "city": "montreal"
   },
   {
     "bucket": 2880,
-    "count": 5591,
+    "count": 2006,
+    "year": 2014,
+    "city": "montreal"
+  },
+  {
+    "bucket": 2940,
+    "count": 1909,
+    "year": 2014,
+    "city": "montreal"
+  },
+  {
+    "bucket": 3000,
+    "count": 1676,
     "year": 2014,
     "city": "montreal"
   },
   {
     "bucket": 3060,
-    "count": 4277,
+    "count": 1539,
+    "year": 2014,
+    "city": "montreal"
+  },
+  {
+    "bucket": 3120,
+    "count": 1381,
+    "year": 2014,
+    "city": "montreal"
+  },
+  {
+    "bucket": 3180,
+    "count": 1357,
     "year": 2014,
     "city": "montreal"
   },
   {
     "bucket": 3240,
-    "count": 3329,
+    "count": 1198,
+    "year": 2014,
+    "city": "montreal"
+  },
+  {
+    "bucket": 3300,
+    "count": 1096,
+    "year": 2014,
+    "city": "montreal"
+  },
+  {
+    "bucket": 3360,
+    "count": 1035,
     "year": 2014,
     "city": "montreal"
   },
   {
     "bucket": 3420,
-    "count": 2648,
+    "count": 936,
+    "year": 2014,
+    "city": "montreal"
+  },
+  {
+    "bucket": 3480,
+    "count": 873,
+    "year": 2014,
+    "city": "montreal"
+  },
+  {
+    "bucket": 3540,
+    "count": 839,
     "year": 2014,
     "city": "montreal"
   },
   {
     "bucket": 3600,
-    "count": 2199,
+    "count": 767,
+    "year": 2014,
+    "city": "montreal"
+  },
+  {
+    "bucket": 3660,
+    "count": 709,
+    "year": 2014,
+    "city": "montreal"
+  },
+  {
+    "bucket": 3720,
+    "count": 723,
     "year": 2014,
     "city": "montreal"
   },
   {
     "bucket": 3780,
-    "count": 1806,
+    "count": 620,
+    "year": 2014,
+    "city": "montreal"
+  },
+  {
+    "bucket": 3840,
+    "count": 610,
+    "year": 2014,
+    "city": "montreal"
+  },
+  {
+    "bucket": 3900,
+    "count": 576,
     "year": 2014,
     "city": "montreal"
   },
   {
     "bucket": 3960,
-    "count": 1495,
+    "count": 535,
+    "year": 2014,
+    "city": "montreal"
+  },
+  {
+    "bucket": 4020,
+    "count": 468,
+    "year": 2014,
+    "city": "montreal"
+  },
+  {
+    "bucket": 4080,
+    "count": 492,
     "year": 2014,
     "city": "montreal"
   },
   {
     "bucket": 4140,
-    "count": 1384,
+    "count": 469,
+    "year": 2014,
+    "city": "montreal"
+  },
+  {
+    "bucket": 4200,
+    "count": 453,
+    "year": 2014,
+    "city": "montreal"
+  },
+  {
+    "bucket": 4260,
+    "count": 462,
     "year": 2014,
     "city": "montreal"
   },
   {
     "bucket": 4320,
-    "count": 1177,
+    "count": 388,
+    "year": 2014,
+    "city": "montreal"
+  },
+  {
+    "bucket": 4380,
+    "count": 405,
+    "year": 2014,
+    "city": "montreal"
+  },
+  {
+    "bucket": 4440,
+    "count": 384,
     "year": 2014,
     "city": "montreal"
   },
   {
     "bucket": 4500,
-    "count": 1048,
+    "count": 367,
+    "year": 2014,
+    "city": "montreal"
+  },
+  {
+    "bucket": 4560,
+    "count": 344,
+    "year": 2014,
+    "city": "montreal"
+  },
+  {
+    "bucket": 4620,
+    "count": 337,
     "year": 2014,
     "city": "montreal"
   },
   {
     "bucket": 4680,
-    "count": 1029,
+    "count": 332,
+    "year": 2014,
+    "city": "montreal"
+  },
+  {
+    "bucket": 4740,
+    "count": 363,
+    "year": 2014,
+    "city": "montreal"
+  },
+  {
+    "bucket": 4800,
+    "count": 334,
     "year": 2014,
     "city": "montreal"
   },
   {
     "bucket": 4860,
-    "count": 927,
+    "count": 306,
+    "year": 2014,
+    "city": "montreal"
+  },
+  {
+    "bucket": 4920,
+    "count": 330,
+    "year": 2014,
+    "city": "montreal"
+  },
+  {
+    "bucket": 4980,
+    "count": 291,
     "year": 2014,
     "city": "montreal"
   },
   {
     "bucket": 5040,
-    "count": 872,
+    "count": 293,
+    "year": 2014,
+    "city": "montreal"
+  },
+  {
+    "bucket": 5100,
+    "count": 285,
+    "year": 2014,
+    "city": "montreal"
+  },
+  {
+    "bucket": 5160,
+    "count": 294,
     "year": 2014,
     "city": "montreal"
   },
   {
     "bucket": 5220,
-    "count": 803,
+    "count": 258,
+    "year": 2014,
+    "city": "montreal"
+  },
+  {
+    "bucket": 5280,
+    "count": 274,
+    "year": 2014,
+    "city": "montreal"
+  },
+  {
+    "bucket": 5340,
+    "count": 271,
     "year": 2014,
     "city": "montreal"
   },
   {
     "bucket": 5400,
-    "count": 696,
+    "count": 229,
+    "year": 2014,
+    "city": "montreal"
+  },
+  {
+    "bucket": 5460,
+    "count": 250,
+    "year": 2014,
+    "city": "montreal"
+  },
+  {
+    "bucket": 5520,
+    "count": 217,
     "year": 2014,
     "city": "montreal"
   },
   {
     "bucket": 5580,
-    "count": 682,
+    "count": 237,
+    "year": 2014,
+    "city": "montreal"
+  },
+  {
+    "bucket": 5640,
+    "count": 230,
+    "year": 2014,
+    "city": "montreal"
+  },
+  {
+    "bucket": 5700,
+    "count": 215,
     "year": 2014,
     "city": "montreal"
   },
   {
     "bucket": 5760,
-    "count": 612,
+    "count": 201,
+    "year": 2014,
+    "city": "montreal"
+  },
+  {
+    "bucket": 5820,
+    "count": 230,
+    "year": 2014,
+    "city": "montreal"
+  },
+  {
+    "bucket": 5880,
+    "count": 181,
     "year": 2014,
     "city": "montreal"
   },
   {
     "bucket": 5940,
-    "count": 595,
+    "count": 175,
+    "year": 2014,
+    "city": "montreal"
+  },
+  {
+    "bucket": 6000,
+    "count": 217,
+    "year": 2014,
+    "city": "montreal"
+  },
+  {
+    "bucket": 6060,
+    "count": 203,
     "year": 2014,
     "city": "montreal"
   },
   {
     "bucket": 6120,
-    "count": 527,
+    "count": 175,
+    "year": 2014,
+    "city": "montreal"
+  },
+  {
+    "bucket": 6180,
+    "count": 193,
+    "year": 2014,
+    "city": "montreal"
+  },
+  {
+    "bucket": 6240,
+    "count": 159,
     "year": 2014,
     "city": "montreal"
   },
   {
     "bucket": 6300,
-    "count": 458,
+    "count": 157,
+    "year": 2014,
+    "city": "montreal"
+  },
+  {
+    "bucket": 6360,
+    "count": 143,
+    "year": 2014,
+    "city": "montreal"
+  },
+  {
+    "bucket": 6420,
+    "count": 158,
     "year": 2014,
     "city": "montreal"
   },
   {
     "bucket": 6480,
-    "count": 483,
+    "count": 146,
+    "year": 2014,
+    "city": "montreal"
+  },
+  {
+    "bucket": 6540,
+    "count": 178,
+    "year": 2014,
+    "city": "montreal"
+  },
+  {
+    "bucket": 6600,
+    "count": 159,
     "year": 2014,
     "city": "montreal"
   },
   {
     "bucket": 6660,
-    "count": 373,
+    "count": 119,
+    "year": 2014,
+    "city": "montreal"
+  },
+  {
+    "bucket": 6720,
+    "count": 124,
+    "year": 2014,
+    "city": "montreal"
+  },
+  {
+    "bucket": 6780,
+    "count": 130,
     "year": 2014,
     "city": "montreal"
   },
   {
     "bucket": 6840,
-    "count": 373,
+    "count": 105,
+    "year": 2014,
+    "city": "montreal"
+  },
+  {
+    "bucket": 6900,
+    "count": 143,
+    "year": 2014,
+    "city": "montreal"
+  },
+  {
+    "bucket": 6960,
+    "count": 125,
     "year": 2014,
     "city": "montreal"
   },
   {
     "bucket": 7020,
-    "count": 417,
+    "count": 138,
+    "year": 2014,
+    "city": "montreal"
+  },
+  {
+    "bucket": 7080,
+    "count": 136,
+    "year": 2014,
+    "city": "montreal"
+  },
+  {
+    "bucket": 7140,
+    "count": 143,
     "year": 2014,
     "city": "montreal"
   },
@@ -246,242 +720,716 @@
     "city": "montreal"
   },
   {
-    "bucket": 0,
-    "count": 120764,
+    "bucket": 60,
+    "count": 22262,
+    "year": 2015,
+    "city": "montreal"
+  },
+  {
+    "bucket": 120,
+    "count": 98502,
     "year": 2015,
     "city": "montreal"
   },
   {
     "bucket": 180,
-    "count": 592742,
+    "count": 168219,
+    "year": 2015,
+    "city": "montreal"
+  },
+  {
+    "bucket": 240,
+    "count": 206519,
+    "year": 2015,
+    "city": "montreal"
+  },
+  {
+    "bucket": 300,
+    "count": 218004,
     "year": 2015,
     "city": "montreal"
   },
   {
     "bucket": 360,
-    "count": 609277,
+    "count": 214407,
+    "year": 2015,
+    "city": "montreal"
+  },
+  {
+    "bucket": 420,
+    "count": 203588,
+    "year": 2015,
+    "city": "montreal"
+  },
+  {
+    "bucket": 480,
+    "count": 191282,
     "year": 2015,
     "city": "montreal"
   },
   {
     "bucket": 540,
-    "count": 493409,
+    "count": 177571,
+    "year": 2015,
+    "city": "montreal"
+  },
+  {
+    "bucket": 600,
+    "count": 163935,
+    "year": 2015,
+    "city": "montreal"
+  },
+  {
+    "bucket": 660,
+    "count": 151903,
     "year": 2015,
     "city": "montreal"
   },
   {
     "bucket": 720,
-    "count": 391159,
+    "count": 141740,
+    "year": 2015,
+    "city": "montreal"
+  },
+  {
+    "bucket": 780,
+    "count": 130041,
+    "year": 2015,
+    "city": "montreal"
+  },
+  {
+    "bucket": 840,
+    "count": 119378,
     "year": 2015,
     "city": "montreal"
   },
   {
     "bucket": 900,
-    "count": 306006,
+    "count": 109508,
+    "year": 2015,
+    "city": "montreal"
+  },
+  {
+    "bucket": 960,
+    "count": 102064,
+    "year": 2015,
+    "city": "montreal"
+  },
+  {
+    "bucket": 1020,
+    "count": 94434,
     "year": 2015,
     "city": "montreal"
   },
   {
     "bucket": 1080,
-    "count": 243684,
+    "count": 87145,
+    "year": 2015,
+    "city": "montreal"
+  },
+  {
+    "bucket": 1140,
+    "count": 81064,
+    "year": 2015,
+    "city": "montreal"
+  },
+  {
+    "bucket": 1200,
+    "count": 75475,
     "year": 2015,
     "city": "montreal"
   },
   {
     "bucket": 1260,
-    "count": 191522,
+    "count": 69646,
+    "year": 2015,
+    "city": "montreal"
+  },
+  {
+    "bucket": 1320,
+    "count": 63946,
+    "year": 2015,
+    "city": "montreal"
+  },
+  {
+    "bucket": 1380,
+    "count": 57930,
     "year": 2015,
     "city": "montreal"
   },
   {
     "bucket": 1440,
-    "count": 145535,
+    "count": 53227,
+    "year": 2015,
+    "city": "montreal"
+  },
+  {
+    "bucket": 1500,
+    "count": 48670,
+    "year": 2015,
+    "city": "montreal"
+  },
+  {
+    "bucket": 1560,
+    "count": 43638,
     "year": 2015,
     "city": "montreal"
   },
   {
     "bucket": 1620,
-    "count": 104474,
+    "count": 39022,
+    "year": 2015,
+    "city": "montreal"
+  },
+  {
+    "bucket": 1680,
+    "count": 34884,
+    "year": 2015,
+    "city": "montreal"
+  },
+  {
+    "bucket": 1740,
+    "count": 30568,
     "year": 2015,
     "city": "montreal"
   },
   {
     "bucket": 1800,
-    "count": 71108,
+    "count": 26896,
+    "year": 2015,
+    "city": "montreal"
+  },
+  {
+    "bucket": 1860,
+    "count": 23568,
+    "year": 2015,
+    "city": "montreal"
+  },
+  {
+    "bucket": 1920,
+    "count": 20644,
     "year": 2015,
     "city": "montreal"
   },
   {
     "bucket": 1980,
-    "count": 48127,
+    "count": 18291,
+    "year": 2015,
+    "city": "montreal"
+  },
+  {
+    "bucket": 2040,
+    "count": 15884,
+    "year": 2015,
+    "city": "montreal"
+  },
+  {
+    "bucket": 2100,
+    "count": 13952,
     "year": 2015,
     "city": "montreal"
   },
   {
     "bucket": 2160,
-    "count": 32635,
+    "count": 12333,
+    "year": 2015,
+    "city": "montreal"
+  },
+  {
+    "bucket": 2220,
+    "count": 10824,
+    "year": 2015,
+    "city": "montreal"
+  },
+  {
+    "bucket": 2280,
+    "count": 9478,
     "year": 2015,
     "city": "montreal"
   },
   {
     "bucket": 2340,
-    "count": 22029,
+    "count": 8251,
+    "year": 2015,
+    "city": "montreal"
+  },
+  {
+    "bucket": 2400,
+    "count": 7450,
+    "year": 2015,
+    "city": "montreal"
+  },
+  {
+    "bucket": 2460,
+    "count": 6328,
     "year": 2015,
     "city": "montreal"
   },
   {
     "bucket": 2520,
-    "count": 14828,
+    "count": 5527,
+    "year": 2015,
+    "city": "montreal"
+  },
+  {
+    "bucket": 2580,
+    "count": 4952,
+    "year": 2015,
+    "city": "montreal"
+  },
+  {
+    "bucket": 2640,
+    "count": 4349,
     "year": 2015,
     "city": "montreal"
   },
   {
     "bucket": 2700,
-    "count": 9981,
+    "count": 3765,
+    "year": 2015,
+    "city": "montreal"
+  },
+  {
+    "bucket": 2760,
+    "count": 3334,
+    "year": 2015,
+    "city": "montreal"
+  },
+  {
+    "bucket": 2820,
+    "count": 2882,
     "year": 2015,
     "city": "montreal"
   },
   {
     "bucket": 2880,
-    "count": 7047,
+    "count": 2542,
+    "year": 2015,
+    "city": "montreal"
+  },
+  {
+    "bucket": 2940,
+    "count": 2282,
+    "year": 2015,
+    "city": "montreal"
+  },
+  {
+    "bucket": 3000,
+    "count": 2223,
     "year": 2015,
     "city": "montreal"
   },
   {
     "bucket": 3060,
-    "count": 5515,
+    "count": 2026,
+    "year": 2015,
+    "city": "montreal"
+  },
+  {
+    "bucket": 3120,
+    "count": 1842,
+    "year": 2015,
+    "city": "montreal"
+  },
+  {
+    "bucket": 3180,
+    "count": 1647,
     "year": 2015,
     "city": "montreal"
   },
   {
     "bucket": 3240,
-    "count": 4352,
+    "count": 1573,
+    "year": 2015,
+    "city": "montreal"
+  },
+  {
+    "bucket": 3300,
+    "count": 1415,
+    "year": 2015,
+    "city": "montreal"
+  },
+  {
+    "bucket": 3360,
+    "count": 1364,
     "year": 2015,
     "city": "montreal"
   },
   {
     "bucket": 3420,
-    "count": 3602,
+    "count": 1249,
+    "year": 2015,
+    "city": "montreal"
+  },
+  {
+    "bucket": 3480,
+    "count": 1213,
+    "year": 2015,
+    "city": "montreal"
+  },
+  {
+    "bucket": 3540,
+    "count": 1140,
     "year": 2015,
     "city": "montreal"
   },
   {
     "bucket": 3600,
-    "count": 2979,
+    "count": 1074,
+    "year": 2015,
+    "city": "montreal"
+  },
+  {
+    "bucket": 3660,
+    "count": 989,
+    "year": 2015,
+    "city": "montreal"
+  },
+  {
+    "bucket": 3720,
+    "count": 916,
     "year": 2015,
     "city": "montreal"
   },
   {
     "bucket": 3780,
-    "count": 2613,
+    "count": 919,
+    "year": 2015,
+    "city": "montreal"
+  },
+  {
+    "bucket": 3840,
+    "count": 879,
+    "year": 2015,
+    "city": "montreal"
+  },
+  {
+    "bucket": 3900,
+    "count": 815,
     "year": 2015,
     "city": "montreal"
   },
   {
     "bucket": 3960,
-    "count": 2209,
+    "count": 772,
+    "year": 2015,
+    "city": "montreal"
+  },
+  {
+    "bucket": 4020,
+    "count": 740,
+    "year": 2015,
+    "city": "montreal"
+  },
+  {
+    "bucket": 4080,
+    "count": 697,
     "year": 2015,
     "city": "montreal"
   },
   {
     "bucket": 4140,
-    "count": 2017,
+    "count": 655,
+    "year": 2015,
+    "city": "montreal"
+  },
+  {
+    "bucket": 4200,
+    "count": 677,
+    "year": 2015,
+    "city": "montreal"
+  },
+  {
+    "bucket": 4260,
+    "count": 685,
     "year": 2015,
     "city": "montreal"
   },
   {
     "bucket": 4320,
-    "count": 1716,
+    "count": 572,
+    "year": 2015,
+    "city": "montreal"
+  },
+  {
+    "bucket": 4380,
+    "count": 530,
+    "year": 2015,
+    "city": "montreal"
+  },
+  {
+    "bucket": 4440,
+    "count": 614,
     "year": 2015,
     "city": "montreal"
   },
   {
     "bucket": 4500,
-    "count": 1632,
+    "count": 567,
+    "year": 2015,
+    "city": "montreal"
+  },
+  {
+    "bucket": 4560,
+    "count": 517,
+    "year": 2015,
+    "city": "montreal"
+  },
+  {
+    "bucket": 4620,
+    "count": 548,
     "year": 2015,
     "city": "montreal"
   },
   {
     "bucket": 4680,
-    "count": 1400,
+    "count": 499,
+    "year": 2015,
+    "city": "montreal"
+  },
+  {
+    "bucket": 4740,
+    "count": 445,
+    "year": 2015,
+    "city": "montreal"
+  },
+  {
+    "bucket": 4800,
+    "count": 456,
     "year": 2015,
     "city": "montreal"
   },
   {
     "bucket": 4860,
-    "count": 1255,
+    "count": 410,
+    "year": 2015,
+    "city": "montreal"
+  },
+  {
+    "bucket": 4920,
+    "count": 454,
+    "year": 2015,
+    "city": "montreal"
+  },
+  {
+    "bucket": 4980,
+    "count": 391,
     "year": 2015,
     "city": "montreal"
   },
   {
     "bucket": 5040,
-    "count": 1218,
+    "count": 428,
+    "year": 2015,
+    "city": "montreal"
+  },
+  {
+    "bucket": 5100,
+    "count": 387,
+    "year": 2015,
+    "city": "montreal"
+  },
+  {
+    "bucket": 5160,
+    "count": 403,
     "year": 2015,
     "city": "montreal"
   },
   {
     "bucket": 5220,
-    "count": 1142,
+    "count": 392,
+    "year": 2015,
+    "city": "montreal"
+  },
+  {
+    "bucket": 5280,
+    "count": 398,
+    "year": 2015,
+    "city": "montreal"
+  },
+  {
+    "bucket": 5340,
+    "count": 352,
     "year": 2015,
     "city": "montreal"
   },
   {
     "bucket": 5400,
-    "count": 1056,
+    "count": 371,
+    "year": 2015,
+    "city": "montreal"
+  },
+  {
+    "bucket": 5460,
+    "count": 345,
+    "year": 2015,
+    "city": "montreal"
+  },
+  {
+    "bucket": 5520,
+    "count": 340,
     "year": 2015,
     "city": "montreal"
   },
   {
     "bucket": 5580,
-    "count": 980,
+    "count": 357,
+    "year": 2015,
+    "city": "montreal"
+  },
+  {
+    "bucket": 5640,
+    "count": 306,
+    "year": 2015,
+    "city": "montreal"
+  },
+  {
+    "bucket": 5700,
+    "count": 317,
     "year": 2015,
     "city": "montreal"
   },
   {
     "bucket": 5760,
-    "count": 909,
+    "count": 319,
+    "year": 2015,
+    "city": "montreal"
+  },
+  {
+    "bucket": 5820,
+    "count": 287,
+    "year": 2015,
+    "city": "montreal"
+  },
+  {
+    "bucket": 5880,
+    "count": 303,
     "year": 2015,
     "city": "montreal"
   },
   {
     "bucket": 5940,
-    "count": 761,
+    "count": 274,
+    "year": 2015,
+    "city": "montreal"
+  },
+  {
+    "bucket": 6000,
+    "count": 262,
+    "year": 2015,
+    "city": "montreal"
+  },
+  {
+    "bucket": 6060,
+    "count": 225,
     "year": 2015,
     "city": "montreal"
   },
   {
     "bucket": 6120,
-    "count": 787,
+    "count": 267,
+    "year": 2015,
+    "city": "montreal"
+  },
+  {
+    "bucket": 6180,
+    "count": 261,
+    "year": 2015,
+    "city": "montreal"
+  },
+  {
+    "bucket": 6240,
+    "count": 259,
     "year": 2015,
     "city": "montreal"
   },
   {
     "bucket": 6300,
-    "count": 741,
+    "count": 213,
+    "year": 2015,
+    "city": "montreal"
+  },
+  {
+    "bucket": 6360,
+    "count": 294,
+    "year": 2015,
+    "city": "montreal"
+  },
+  {
+    "bucket": 6420,
+    "count": 234,
     "year": 2015,
     "city": "montreal"
   },
   {
     "bucket": 6480,
-    "count": 679,
+    "count": 213,
+    "year": 2015,
+    "city": "montreal"
+  },
+  {
+    "bucket": 6540,
+    "count": 232,
+    "year": 2015,
+    "city": "montreal"
+  },
+  {
+    "bucket": 6600,
+    "count": 234,
     "year": 2015,
     "city": "montreal"
   },
   {
     "bucket": 6660,
-    "count": 683,
+    "count": 225,
+    "year": 2015,
+    "city": "montreal"
+  },
+  {
+    "bucket": 6720,
+    "count": 253,
+    "year": 2015,
+    "city": "montreal"
+  },
+  {
+    "bucket": 6780,
+    "count": 205,
     "year": 2015,
     "city": "montreal"
   },
   {
     "bucket": 6840,
-    "count": 597,
+    "count": 217,
+    "year": 2015,
+    "city": "montreal"
+  },
+  {
+    "bucket": 6900,
+    "count": 189,
+    "year": 2015,
+    "city": "montreal"
+  },
+  {
+    "bucket": 6960,
+    "count": 191,
     "year": 2015,
     "city": "montreal"
   },
   {
     "bucket": 7020,
-    "count": 564,
+    "count": 195,
+    "year": 2015,
+    "city": "montreal"
+  },
+  {
+    "bucket": 7080,
+    "count": 177,
+    "year": 2015,
+    "city": "montreal"
+  },
+  {
+    "bucket": 7140,
+    "count": 192,
     "year": 2015,
     "city": "montreal"
   },
@@ -492,242 +1440,716 @@
     "city": "montreal"
   },
   {
-    "bucket": 0,
-    "count": 130742,
+    "bucket": 60,
+    "count": 24757,
+    "year": 2016,
+    "city": "montreal"
+  },
+  {
+    "bucket": 120,
+    "count": 105985,
     "year": 2016,
     "city": "montreal"
   },
   {
     "bucket": 180,
-    "count": 660044,
+    "count": 183935,
+    "year": 2016,
+    "city": "montreal"
+  },
+  {
+    "bucket": 240,
+    "count": 231199,
+    "year": 2016,
+    "city": "montreal"
+  },
+  {
+    "bucket": 300,
+    "count": 244910,
     "year": 2016,
     "city": "montreal"
   },
   {
     "bucket": 360,
-    "count": 699442,
+    "count": 244262,
+    "year": 2016,
+    "city": "montreal"
+  },
+  {
+    "bucket": 420,
+    "count": 234503,
+    "year": 2016,
+    "city": "montreal"
+  },
+  {
+    "bucket": 480,
+    "count": 220677,
     "year": 2016,
     "city": "montreal"
   },
   {
     "bucket": 540,
-    "count": 574335,
+    "count": 205546,
+    "year": 2016,
+    "city": "montreal"
+  },
+  {
+    "bucket": 600,
+    "count": 191096,
+    "year": 2016,
+    "city": "montreal"
+  },
+  {
+    "bucket": 660,
+    "count": 177693,
     "year": 2016,
     "city": "montreal"
   },
   {
     "bucket": 720,
-    "count": 459702,
+    "count": 165569,
+    "year": 2016,
+    "city": "montreal"
+  },
+  {
+    "bucket": 780,
+    "count": 152709,
+    "year": 2016,
+    "city": "montreal"
+  },
+  {
+    "bucket": 840,
+    "count": 141424,
     "year": 2016,
     "city": "montreal"
   },
   {
     "bucket": 900,
-    "count": 362128,
+    "count": 130392,
+    "year": 2016,
+    "city": "montreal"
+  },
+  {
+    "bucket": 960,
+    "count": 120571,
+    "year": 2016,
+    "city": "montreal"
+  },
+  {
+    "bucket": 1020,
+    "count": 111165,
     "year": 2016,
     "city": "montreal"
   },
   {
     "bucket": 1080,
-    "count": 290106,
+    "count": 104370,
+    "year": 2016,
+    "city": "montreal"
+  },
+  {
+    "bucket": 1140,
+    "count": 96588,
+    "year": 2016,
+    "city": "montreal"
+  },
+  {
+    "bucket": 1200,
+    "count": 89148,
     "year": 2016,
     "city": "montreal"
   },
   {
     "bucket": 1260,
-    "count": 227013,
+    "count": 81791,
+    "year": 2016,
+    "city": "montreal"
+  },
+  {
+    "bucket": 1320,
+    "count": 75977,
+    "year": 2016,
+    "city": "montreal"
+  },
+  {
+    "bucket": 1380,
+    "count": 69245,
     "year": 2016,
     "city": "montreal"
   },
   {
     "bucket": 1440,
-    "count": 172525,
+    "count": 63016,
+    "year": 2016,
+    "city": "montreal"
+  },
+  {
+    "bucket": 1500,
+    "count": 57338,
+    "year": 2016,
+    "city": "montreal"
+  },
+  {
+    "bucket": 1560,
+    "count": 52171,
     "year": 2016,
     "city": "montreal"
   },
   {
     "bucket": 1620,
-    "count": 127011,
+    "count": 47240,
+    "year": 2016,
+    "city": "montreal"
+  },
+  {
+    "bucket": 1680,
+    "count": 42280,
+    "year": 2016,
+    "city": "montreal"
+  },
+  {
+    "bucket": 1740,
+    "count": 37491,
     "year": 2016,
     "city": "montreal"
   },
   {
     "bucket": 1800,
-    "count": 86933,
+    "count": 33173,
+    "year": 2016,
+    "city": "montreal"
+  },
+  {
+    "bucket": 1860,
+    "count": 28503,
+    "year": 2016,
+    "city": "montreal"
+  },
+  {
+    "bucket": 1920,
+    "count": 25257,
     "year": 2016,
     "city": "montreal"
   },
   {
     "bucket": 1980,
-    "count": 58149,
+    "count": 21835,
+    "year": 2016,
+    "city": "montreal"
+  },
+  {
+    "bucket": 2040,
+    "count": 19352,
+    "year": 2016,
+    "city": "montreal"
+  },
+  {
+    "bucket": 2100,
+    "count": 16962,
     "year": 2016,
     "city": "montreal"
   },
   {
     "bucket": 2160,
-    "count": 39850,
+    "count": 14903,
+    "year": 2016,
+    "city": "montreal"
+  },
+  {
+    "bucket": 2220,
+    "count": 13121,
+    "year": 2016,
+    "city": "montreal"
+  },
+  {
+    "bucket": 2280,
+    "count": 11826,
     "year": 2016,
     "city": "montreal"
   },
   {
     "bucket": 2340,
-    "count": 27095,
+    "count": 10337,
+    "year": 2016,
+    "city": "montreal"
+  },
+  {
+    "bucket": 2400,
+    "count": 8908,
+    "year": 2016,
+    "city": "montreal"
+  },
+  {
+    "bucket": 2460,
+    "count": 7850,
     "year": 2016,
     "city": "montreal"
   },
   {
     "bucket": 2520,
-    "count": 18202,
+    "count": 7026,
+    "year": 2016,
+    "city": "montreal"
+  },
+  {
+    "bucket": 2580,
+    "count": 6048,
+    "year": 2016,
+    "city": "montreal"
+  },
+  {
+    "bucket": 2640,
+    "count": 5128,
     "year": 2016,
     "city": "montreal"
   },
   {
     "bucket": 2700,
-    "count": 11778,
+    "count": 4465,
+    "year": 2016,
+    "city": "montreal"
+  },
+  {
+    "bucket": 2760,
+    "count": 3888,
+    "year": 2016,
+    "city": "montreal"
+  },
+  {
+    "bucket": 2820,
+    "count": 3425,
     "year": 2016,
     "city": "montreal"
   },
   {
     "bucket": 2880,
-    "count": 8649,
+    "count": 3243,
+    "year": 2016,
+    "city": "montreal"
+  },
+  {
+    "bucket": 2940,
+    "count": 2807,
+    "year": 2016,
+    "city": "montreal"
+  },
+  {
+    "bucket": 3000,
+    "count": 2599,
     "year": 2016,
     "city": "montreal"
   },
   {
     "bucket": 3060,
-    "count": 6636,
+    "count": 2360,
+    "year": 2016,
+    "city": "montreal"
+  },
+  {
+    "bucket": 3120,
+    "count": 2179,
+    "year": 2016,
+    "city": "montreal"
+  },
+  {
+    "bucket": 3180,
+    "count": 2097,
     "year": 2016,
     "city": "montreal"
   },
   {
     "bucket": 3240,
-    "count": 5236,
+    "count": 1875,
+    "year": 2016,
+    "city": "montreal"
+  },
+  {
+    "bucket": 3300,
+    "count": 1746,
+    "year": 2016,
+    "city": "montreal"
+  },
+  {
+    "bucket": 3360,
+    "count": 1615,
     "year": 2016,
     "city": "montreal"
   },
   {
     "bucket": 3420,
-    "count": 4294,
+    "count": 1517,
+    "year": 2016,
+    "city": "montreal"
+  },
+  {
+    "bucket": 3480,
+    "count": 1418,
+    "year": 2016,
+    "city": "montreal"
+  },
+  {
+    "bucket": 3540,
+    "count": 1359,
     "year": 2016,
     "city": "montreal"
   },
   {
     "bucket": 3600,
-    "count": 3538,
+    "count": 1328,
+    "year": 2016,
+    "city": "montreal"
+  },
+  {
+    "bucket": 3660,
+    "count": 1134,
+    "year": 2016,
+    "city": "montreal"
+  },
+  {
+    "bucket": 3720,
+    "count": 1076,
     "year": 2016,
     "city": "montreal"
   },
   {
     "bucket": 3780,
-    "count": 3052,
+    "count": 1034,
+    "year": 2016,
+    "city": "montreal"
+  },
+  {
+    "bucket": 3840,
+    "count": 990,
+    "year": 2016,
+    "city": "montreal"
+  },
+  {
+    "bucket": 3900,
+    "count": 1028,
     "year": 2016,
     "city": "montreal"
   },
   {
     "bucket": 3960,
-    "count": 2589,
+    "count": 888,
+    "year": 2016,
+    "city": "montreal"
+  },
+  {
+    "bucket": 4020,
+    "count": 910,
+    "year": 2016,
+    "city": "montreal"
+  },
+  {
+    "bucket": 4080,
+    "count": 791,
     "year": 2016,
     "city": "montreal"
   },
   {
     "bucket": 4140,
-    "count": 2119,
+    "count": 704,
+    "year": 2016,
+    "city": "montreal"
+  },
+  {
+    "bucket": 4200,
+    "count": 730,
+    "year": 2016,
+    "city": "montreal"
+  },
+  {
+    "bucket": 4260,
+    "count": 685,
     "year": 2016,
     "city": "montreal"
   },
   {
     "bucket": 4320,
-    "count": 2011,
+    "count": 679,
+    "year": 2016,
+    "city": "montreal"
+  },
+  {
+    "bucket": 4380,
+    "count": 699,
+    "year": 2016,
+    "city": "montreal"
+  },
+  {
+    "bucket": 4440,
+    "count": 633,
     "year": 2016,
     "city": "montreal"
   },
   {
     "bucket": 4500,
-    "count": 1810,
+    "count": 634,
+    "year": 2016,
+    "city": "montreal"
+  },
+  {
+    "bucket": 4560,
+    "count": 599,
+    "year": 2016,
+    "city": "montreal"
+  },
+  {
+    "bucket": 4620,
+    "count": 577,
     "year": 2016,
     "city": "montreal"
   },
   {
     "bucket": 4680,
-    "count": 1596,
+    "count": 566,
+    "year": 2016,
+    "city": "montreal"
+  },
+  {
+    "bucket": 4740,
+    "count": 539,
+    "year": 2016,
+    "city": "montreal"
+  },
+  {
+    "bucket": 4800,
+    "count": 491,
     "year": 2016,
     "city": "montreal"
   },
   {
     "bucket": 4860,
-    "count": 1553,
+    "count": 515,
+    "year": 2016,
+    "city": "montreal"
+  },
+  {
+    "bucket": 4920,
+    "count": 553,
+    "year": 2016,
+    "city": "montreal"
+  },
+  {
+    "bucket": 4980,
+    "count": 485,
     "year": 2016,
     "city": "montreal"
   },
   {
     "bucket": 5040,
-    "count": 1388,
+    "count": 471,
+    "year": 2016,
+    "city": "montreal"
+  },
+  {
+    "bucket": 5100,
+    "count": 468,
+    "year": 2016,
+    "city": "montreal"
+  },
+  {
+    "bucket": 5160,
+    "count": 449,
     "year": 2016,
     "city": "montreal"
   },
   {
     "bucket": 5220,
-    "count": 1292,
+    "count": 446,
+    "year": 2016,
+    "city": "montreal"
+  },
+  {
+    "bucket": 5280,
+    "count": 441,
+    "year": 2016,
+    "city": "montreal"
+  },
+  {
+    "bucket": 5340,
+    "count": 405,
     "year": 2016,
     "city": "montreal"
   },
   {
     "bucket": 5400,
-    "count": 1208,
+    "count": 413,
+    "year": 2016,
+    "city": "montreal"
+  },
+  {
+    "bucket": 5460,
+    "count": 404,
+    "year": 2016,
+    "city": "montreal"
+  },
+  {
+    "bucket": 5520,
+    "count": 391,
     "year": 2016,
     "city": "montreal"
   },
   {
     "bucket": 5580,
-    "count": 1077,
+    "count": 348,
+    "year": 2016,
+    "city": "montreal"
+  },
+  {
+    "bucket": 5640,
+    "count": 362,
+    "year": 2016,
+    "city": "montreal"
+  },
+  {
+    "bucket": 5700,
+    "count": 367,
     "year": 2016,
     "city": "montreal"
   },
   {
     "bucket": 5760,
-    "count": 1020,
+    "count": 357,
+    "year": 2016,
+    "city": "montreal"
+  },
+  {
+    "bucket": 5820,
+    "count": 318,
+    "year": 2016,
+    "city": "montreal"
+  },
+  {
+    "bucket": 5880,
+    "count": 345,
     "year": 2016,
     "city": "montreal"
   },
   {
     "bucket": 5940,
-    "count": 974,
+    "count": 324,
+    "year": 2016,
+    "city": "montreal"
+  },
+  {
+    "bucket": 6000,
+    "count": 335,
+    "year": 2016,
+    "city": "montreal"
+  },
+  {
+    "bucket": 6060,
+    "count": 315,
     "year": 2016,
     "city": "montreal"
   },
   {
     "bucket": 6120,
-    "count": 949,
+    "count": 338,
+    "year": 2016,
+    "city": "montreal"
+  },
+  {
+    "bucket": 6180,
+    "count": 290,
+    "year": 2016,
+    "city": "montreal"
+  },
+  {
+    "bucket": 6240,
+    "count": 321,
     "year": 2016,
     "city": "montreal"
   },
   {
     "bucket": 6300,
-    "count": 946,
+    "count": 315,
+    "year": 2016,
+    "city": "montreal"
+  },
+  {
+    "bucket": 6360,
+    "count": 320,
+    "year": 2016,
+    "city": "montreal"
+  },
+  {
+    "bucket": 6420,
+    "count": 311,
     "year": 2016,
     "city": "montreal"
   },
   {
     "bucket": 6480,
-    "count": 809,
+    "count": 283,
+    "year": 2016,
+    "city": "montreal"
+  },
+  {
+    "bucket": 6540,
+    "count": 288,
+    "year": 2016,
+    "city": "montreal"
+  },
+  {
+    "bucket": 6600,
+    "count": 238,
     "year": 2016,
     "city": "montreal"
   },
   {
     "bucket": 6660,
-    "count": 804,
+    "count": 293,
+    "year": 2016,
+    "city": "montreal"
+  },
+  {
+    "bucket": 6720,
+    "count": 258,
+    "year": 2016,
+    "city": "montreal"
+  },
+  {
+    "bucket": 6780,
+    "count": 253,
     "year": 2016,
     "city": "montreal"
   },
   {
     "bucket": 6840,
-    "count": 724,
+    "count": 249,
+    "year": 2016,
+    "city": "montreal"
+  },
+  {
+    "bucket": 6900,
+    "count": 253,
+    "year": 2016,
+    "city": "montreal"
+  },
+  {
+    "bucket": 6960,
+    "count": 222,
     "year": 2016,
     "city": "montreal"
   },
   {
     "bucket": 7020,
-    "count": 601,
+    "count": 224,
+    "year": 2016,
+    "city": "montreal"
+  },
+  {
+    "bucket": 7080,
+    "count": 185,
+    "year": 2016,
+    "city": "montreal"
+  },
+  {
+    "bucket": 7140,
+    "count": 192,
     "year": 2016,
     "city": "montreal"
   },
@@ -738,242 +2160,716 @@
     "city": "montreal"
   },
   {
-    "bucket": 0,
-    "count": 165104,
+    "bucket": 60,
+    "count": 30749,
+    "year": 2017,
+    "city": "montreal"
+  },
+  {
+    "bucket": 120,
+    "count": 134355,
     "year": 2017,
     "city": "montreal"
   },
   {
     "bucket": 180,
-    "count": 810699,
+    "count": 229416,
+    "year": 2017,
+    "city": "montreal"
+  },
+  {
+    "bucket": 240,
+    "count": 282331,
+    "year": 2017,
+    "city": "montreal"
+  },
+  {
+    "bucket": 300,
+    "count": 298952,
     "year": 2017,
     "city": "montreal"
   },
   {
     "bucket": 360,
-    "count": 841612,
+    "count": 295787,
+    "year": 2017,
+    "city": "montreal"
+  },
+  {
+    "bucket": 420,
+    "count": 281024,
+    "year": 2017,
+    "city": "montreal"
+  },
+  {
+    "bucket": 480,
+    "count": 264801,
     "year": 2017,
     "city": "montreal"
   },
   {
     "bucket": 540,
-    "count": 685722,
+    "count": 246334,
+    "year": 2017,
+    "city": "montreal"
+  },
+  {
+    "bucket": 600,
+    "count": 228106,
+    "year": 2017,
+    "city": "montreal"
+  },
+  {
+    "bucket": 660,
+    "count": 211282,
     "year": 2017,
     "city": "montreal"
   },
   {
     "bucket": 720,
-    "count": 540146,
+    "count": 194891,
+    "year": 2017,
+    "city": "montreal"
+  },
+  {
+    "bucket": 780,
+    "count": 180150,
+    "year": 2017,
+    "city": "montreal"
+  },
+  {
+    "bucket": 840,
+    "count": 165105,
     "year": 2017,
     "city": "montreal"
   },
   {
     "bucket": 900,
-    "count": 423045,
+    "count": 152493,
+    "year": 2017,
+    "city": "montreal"
+  },
+  {
+    "bucket": 960,
+    "count": 140346,
+    "year": 2017,
+    "city": "montreal"
+  },
+  {
+    "bucket": 1020,
+    "count": 130206,
     "year": 2017,
     "city": "montreal"
   },
   {
     "bucket": 1080,
-    "count": 333490,
+    "count": 119682,
+    "year": 2017,
+    "city": "montreal"
+  },
+  {
+    "bucket": 1140,
+    "count": 111061,
+    "year": 2017,
+    "city": "montreal"
+  },
+  {
+    "bucket": 1200,
+    "count": 102747,
     "year": 2017,
     "city": "montreal"
   },
   {
     "bucket": 1260,
-    "count": 262522,
+    "count": 95134,
+    "year": 2017,
+    "city": "montreal"
+  },
+  {
+    "bucket": 1320,
+    "count": 87556,
+    "year": 2017,
+    "city": "montreal"
+  },
+  {
+    "bucket": 1380,
+    "count": 79832,
     "year": 2017,
     "city": "montreal"
   },
   {
     "bucket": 1440,
-    "count": 199275,
+    "count": 73128,
+    "year": 2017,
+    "city": "montreal"
+  },
+  {
+    "bucket": 1500,
+    "count": 66392,
+    "year": 2017,
+    "city": "montreal"
+  },
+  {
+    "bucket": 1560,
+    "count": 59755,
     "year": 2017,
     "city": "montreal"
   },
   {
     "bucket": 1620,
-    "count": 145086,
+    "count": 53826,
+    "year": 2017,
+    "city": "montreal"
+  },
+  {
+    "bucket": 1680,
+    "count": 48304,
+    "year": 2017,
+    "city": "montreal"
+  },
+  {
+    "bucket": 1740,
+    "count": 42956,
     "year": 2017,
     "city": "montreal"
   },
   {
     "bucket": 1800,
-    "count": 100283,
+    "count": 37815,
+    "year": 2017,
+    "city": "montreal"
+  },
+  {
+    "bucket": 1860,
+    "count": 33153,
+    "year": 2017,
+    "city": "montreal"
+  },
+  {
+    "bucket": 1920,
+    "count": 29315,
     "year": 2017,
     "city": "montreal"
   },
   {
     "bucket": 1980,
-    "count": 67176,
+    "count": 25477,
+    "year": 2017,
+    "city": "montreal"
+  },
+  {
+    "bucket": 2040,
+    "count": 22117,
+    "year": 2017,
+    "city": "montreal"
+  },
+  {
+    "bucket": 2100,
+    "count": 19582,
     "year": 2017,
     "city": "montreal"
   },
   {
     "bucket": 2160,
-    "count": 45744,
+    "count": 17264,
+    "year": 2017,
+    "city": "montreal"
+  },
+  {
+    "bucket": 2220,
+    "count": 14998,
+    "year": 2017,
+    "city": "montreal"
+  },
+  {
+    "bucket": 2280,
+    "count": 13482,
     "year": 2017,
     "city": "montreal"
   },
   {
     "bucket": 2340,
-    "count": 31349,
+    "count": 11776,
+    "year": 2017,
+    "city": "montreal"
+  },
+  {
+    "bucket": 2400,
+    "count": 10419,
+    "year": 2017,
+    "city": "montreal"
+  },
+  {
+    "bucket": 2460,
+    "count": 9154,
     "year": 2017,
     "city": "montreal"
   },
   {
     "bucket": 2520,
-    "count": 20822,
+    "count": 7910,
+    "year": 2017,
+    "city": "montreal"
+  },
+  {
+    "bucket": 2580,
+    "count": 6831,
+    "year": 2017,
+    "city": "montreal"
+  },
+  {
+    "bucket": 2640,
+    "count": 6081,
     "year": 2017,
     "city": "montreal"
   },
   {
     "bucket": 2700,
-    "count": 13197,
+    "count": 5010,
+    "year": 2017,
+    "city": "montreal"
+  },
+  {
+    "bucket": 2760,
+    "count": 4290,
+    "year": 2017,
+    "city": "montreal"
+  },
+  {
+    "bucket": 2820,
+    "count": 3897,
     "year": 2017,
     "city": "montreal"
   },
   {
     "bucket": 2880,
-    "count": 9111,
+    "count": 3344,
+    "year": 2017,
+    "city": "montreal"
+  },
+  {
+    "bucket": 2940,
+    "count": 3014,
+    "year": 2017,
+    "city": "montreal"
+  },
+  {
+    "bucket": 3000,
+    "count": 2753,
     "year": 2017,
     "city": "montreal"
   },
   {
     "bucket": 3060,
-    "count": 6992,
+    "count": 2576,
+    "year": 2017,
+    "city": "montreal"
+  },
+  {
+    "bucket": 3120,
+    "count": 2304,
+    "year": 2017,
+    "city": "montreal"
+  },
+  {
+    "bucket": 3180,
+    "count": 2112,
     "year": 2017,
     "city": "montreal"
   },
   {
     "bucket": 3240,
-    "count": 5401,
+    "count": 1953,
+    "year": 2017,
+    "city": "montreal"
+  },
+  {
+    "bucket": 3300,
+    "count": 1753,
+    "year": 2017,
+    "city": "montreal"
+  },
+  {
+    "bucket": 3360,
+    "count": 1695,
     "year": 2017,
     "city": "montreal"
   },
   {
     "bucket": 3420,
-    "count": 4271,
+    "count": 1535,
+    "year": 2017,
+    "city": "montreal"
+  },
+  {
+    "bucket": 3480,
+    "count": 1352,
+    "year": 2017,
+    "city": "montreal"
+  },
+  {
+    "bucket": 3540,
+    "count": 1384,
     "year": 2017,
     "city": "montreal"
   },
   {
     "bucket": 3600,
-    "count": 3518,
+    "count": 1272,
+    "year": 2017,
+    "city": "montreal"
+  },
+  {
+    "bucket": 3660,
+    "count": 1141,
+    "year": 2017,
+    "city": "montreal"
+  },
+  {
+    "bucket": 3720,
+    "count": 1105,
     "year": 2017,
     "city": "montreal"
   },
   {
     "bucket": 3780,
-    "count": 2880,
+    "count": 964,
+    "year": 2017,
+    "city": "montreal"
+  },
+  {
+    "bucket": 3840,
+    "count": 987,
+    "year": 2017,
+    "city": "montreal"
+  },
+  {
+    "bucket": 3900,
+    "count": 929,
     "year": 2017,
     "city": "montreal"
   },
   {
     "bucket": 3960,
-    "count": 2483,
+    "count": 893,
+    "year": 2017,
+    "city": "montreal"
+  },
+  {
+    "bucket": 4020,
+    "count": 798,
+    "year": 2017,
+    "city": "montreal"
+  },
+  {
+    "bucket": 4080,
+    "count": 792,
     "year": 2017,
     "city": "montreal"
   },
   {
     "bucket": 4140,
-    "count": 2189,
+    "count": 769,
+    "year": 2017,
+    "city": "montreal"
+  },
+  {
+    "bucket": 4200,
+    "count": 698,
+    "year": 2017,
+    "city": "montreal"
+  },
+  {
+    "bucket": 4260,
+    "count": 722,
     "year": 2017,
     "city": "montreal"
   },
   {
     "bucket": 4320,
-    "count": 1974,
+    "count": 687,
+    "year": 2017,
+    "city": "montreal"
+  },
+  {
+    "bucket": 4380,
+    "count": 662,
+    "year": 2017,
+    "city": "montreal"
+  },
+  {
+    "bucket": 4440,
+    "count": 625,
     "year": 2017,
     "city": "montreal"
   },
   {
     "bucket": 4500,
-    "count": 1850,
+    "count": 654,
+    "year": 2017,
+    "city": "montreal"
+  },
+  {
+    "bucket": 4560,
+    "count": 598,
+    "year": 2017,
+    "city": "montreal"
+  },
+  {
+    "bucket": 4620,
+    "count": 598,
     "year": 2017,
     "city": "montreal"
   },
   {
     "bucket": 4680,
-    "count": 1617,
+    "count": 552,
+    "year": 2017,
+    "city": "montreal"
+  },
+  {
+    "bucket": 4740,
+    "count": 554,
+    "year": 2017,
+    "city": "montreal"
+  },
+  {
+    "bucket": 4800,
+    "count": 511,
     "year": 2017,
     "city": "montreal"
   },
   {
     "bucket": 4860,
-    "count": 1428,
+    "count": 478,
+    "year": 2017,
+    "city": "montreal"
+  },
+  {
+    "bucket": 4920,
+    "count": 486,
+    "year": 2017,
+    "city": "montreal"
+  },
+  {
+    "bucket": 4980,
+    "count": 464,
     "year": 2017,
     "city": "montreal"
   },
   {
     "bucket": 5040,
-    "count": 1322,
+    "count": 475,
+    "year": 2017,
+    "city": "montreal"
+  },
+  {
+    "bucket": 5100,
+    "count": 418,
+    "year": 2017,
+    "city": "montreal"
+  },
+  {
+    "bucket": 5160,
+    "count": 429,
     "year": 2017,
     "city": "montreal"
   },
   {
     "bucket": 5220,
-    "count": 1311,
+    "count": 444,
+    "year": 2017,
+    "city": "montreal"
+  },
+  {
+    "bucket": 5280,
+    "count": 431,
+    "year": 2017,
+    "city": "montreal"
+  },
+  {
+    "bucket": 5340,
+    "count": 436,
     "year": 2017,
     "city": "montreal"
   },
   {
     "bucket": 5400,
-    "count": 1152,
+    "count": 369,
+    "year": 2017,
+    "city": "montreal"
+  },
+  {
+    "bucket": 5460,
+    "count": 411,
+    "year": 2017,
+    "city": "montreal"
+  },
+  {
+    "bucket": 5520,
+    "count": 372,
     "year": 2017,
     "city": "montreal"
   },
   {
     "bucket": 5580,
-    "count": 1033,
+    "count": 363,
+    "year": 2017,
+    "city": "montreal"
+  },
+  {
+    "bucket": 5640,
+    "count": 329,
+    "year": 2017,
+    "city": "montreal"
+  },
+  {
+    "bucket": 5700,
+    "count": 341,
     "year": 2017,
     "city": "montreal"
   },
   {
     "bucket": 5760,
-    "count": 1000,
+    "count": 355,
+    "year": 2017,
+    "city": "montreal"
+  },
+  {
+    "bucket": 5820,
+    "count": 315,
+    "year": 2017,
+    "city": "montreal"
+  },
+  {
+    "bucket": 5880,
+    "count": 330,
     "year": 2017,
     "city": "montreal"
   },
   {
     "bucket": 5940,
-    "count": 892,
+    "count": 293,
+    "year": 2017,
+    "city": "montreal"
+  },
+  {
+    "bucket": 6000,
+    "count": 292,
+    "year": 2017,
+    "city": "montreal"
+  },
+  {
+    "bucket": 6060,
+    "count": 307,
     "year": 2017,
     "city": "montreal"
   },
   {
     "bucket": 6120,
-    "count": 862,
+    "count": 320,
+    "year": 2017,
+    "city": "montreal"
+  },
+  {
+    "bucket": 6180,
+    "count": 267,
+    "year": 2017,
+    "city": "montreal"
+  },
+  {
+    "bucket": 6240,
+    "count": 275,
     "year": 2017,
     "city": "montreal"
   },
   {
     "bucket": 6300,
-    "count": 801,
+    "count": 257,
+    "year": 2017,
+    "city": "montreal"
+  },
+  {
+    "bucket": 6360,
+    "count": 294,
+    "year": 2017,
+    "city": "montreal"
+  },
+  {
+    "bucket": 6420,
+    "count": 250,
     "year": 2017,
     "city": "montreal"
   },
   {
     "bucket": 6480,
-    "count": 772,
+    "count": 243,
+    "year": 2017,
+    "city": "montreal"
+  },
+  {
+    "bucket": 6540,
+    "count": 269,
+    "year": 2017,
+    "city": "montreal"
+  },
+  {
+    "bucket": 6600,
+    "count": 260,
     "year": 2017,
     "city": "montreal"
   },
   {
     "bucket": 6660,
-    "count": 713,
+    "count": 236,
+    "year": 2017,
+    "city": "montreal"
+  },
+  {
+    "bucket": 6720,
+    "count": 221,
+    "year": 2017,
+    "city": "montreal"
+  },
+  {
+    "bucket": 6780,
+    "count": 256,
     "year": 2017,
     "city": "montreal"
   },
   {
     "bucket": 6840,
-    "count": 716,
+    "count": 251,
+    "year": 2017,
+    "city": "montreal"
+  },
+  {
+    "bucket": 6900,
+    "count": 232,
+    "year": 2017,
+    "city": "montreal"
+  },
+  {
+    "bucket": 6960,
+    "count": 233,
     "year": 2017,
     "city": "montreal"
   },
   {
     "bucket": 7020,
-    "count": 643,
+    "count": 237,
+    "year": 2017,
+    "city": "montreal"
+  },
+  {
+    "bucket": 7080,
+    "count": 215,
+    "year": 2017,
+    "city": "montreal"
+  },
+  {
+    "bucket": 7140,
+    "count": 191,
     "year": 2017,
     "city": "montreal"
   },
@@ -984,242 +2880,716 @@
     "city": "montreal"
   },
   {
-    "bucket": 0,
-    "count": 178473,
+    "bucket": 60,
+    "count": 32826,
+    "year": 2018,
+    "city": "montreal"
+  },
+  {
+    "bucket": 120,
+    "count": 145647,
     "year": 2018,
     "city": "montreal"
   },
   {
     "bucket": 180,
-    "count": 915780,
+    "count": 254390,
+    "year": 2018,
+    "city": "montreal"
+  },
+  {
+    "bucket": 240,
+    "count": 319959,
+    "year": 2018,
+    "city": "montreal"
+  },
+  {
+    "bucket": 300,
+    "count": 341431,
     "year": 2018,
     "city": "montreal"
   },
   {
     "bucket": 360,
-    "count": 954572,
+    "count": 335656,
+    "year": 2018,
+    "city": "montreal"
+  },
+  {
+    "bucket": 420,
+    "count": 319575,
+    "year": 2018,
+    "city": "montreal"
+  },
+  {
+    "bucket": 480,
+    "count": 299341,
     "year": 2018,
     "city": "montreal"
   },
   {
     "bucket": 540,
-    "count": 771454,
+    "count": 277250,
+    "year": 2018,
+    "city": "montreal"
+  },
+  {
+    "bucket": 600,
+    "count": 256641,
+    "year": 2018,
+    "city": "montreal"
+  },
+  {
+    "bucket": 660,
+    "count": 237563,
     "year": 2018,
     "city": "montreal"
   },
   {
     "bucket": 720,
-    "count": 607630,
+    "count": 219491,
+    "year": 2018,
+    "city": "montreal"
+  },
+  {
+    "bucket": 780,
+    "count": 202228,
+    "year": 2018,
+    "city": "montreal"
+  },
+  {
+    "bucket": 840,
+    "count": 185911,
     "year": 2018,
     "city": "montreal"
   },
   {
     "bucket": 900,
-    "count": 472255,
+    "count": 170262,
+    "year": 2018,
+    "city": "montreal"
+  },
+  {
+    "bucket": 960,
+    "count": 156877,
+    "year": 2018,
+    "city": "montreal"
+  },
+  {
+    "bucket": 1020,
+    "count": 145116,
     "year": 2018,
     "city": "montreal"
   },
   {
     "bucket": 1080,
-    "count": 367813,
+    "count": 132583,
+    "year": 2018,
+    "city": "montreal"
+  },
+  {
+    "bucket": 1140,
+    "count": 122585,
+    "year": 2018,
+    "city": "montreal"
+  },
+  {
+    "bucket": 1200,
+    "count": 112645,
     "year": 2018,
     "city": "montreal"
   },
   {
     "bucket": 1260,
-    "count": 288258,
+    "count": 104444,
+    "year": 2018,
+    "city": "montreal"
+  },
+  {
+    "bucket": 1320,
+    "count": 95744,
+    "year": 2018,
+    "city": "montreal"
+  },
+  {
+    "bucket": 1380,
+    "count": 88070,
     "year": 2018,
     "city": "montreal"
   },
   {
     "bucket": 1440,
-    "count": 217959,
+    "count": 80017,
+    "year": 2018,
+    "city": "montreal"
+  },
+  {
+    "bucket": 1500,
+    "count": 72351,
+    "year": 2018,
+    "city": "montreal"
+  },
+  {
+    "bucket": 1560,
+    "count": 65591,
     "year": 2018,
     "city": "montreal"
   },
   {
     "bucket": 1620,
-    "count": 157982,
+    "count": 59040,
+    "year": 2018,
+    "city": "montreal"
+  },
+  {
+    "bucket": 1680,
+    "count": 52815,
+    "year": 2018,
+    "city": "montreal"
+  },
+  {
+    "bucket": 1740,
+    "count": 46127,
     "year": 2018,
     "city": "montreal"
   },
   {
     "bucket": 1800,
-    "count": 108177,
+    "count": 41010,
+    "year": 2018,
+    "city": "montreal"
+  },
+  {
+    "bucket": 1860,
+    "count": 35934,
+    "year": 2018,
+    "city": "montreal"
+  },
+  {
+    "bucket": 1920,
+    "count": 31233,
     "year": 2018,
     "city": "montreal"
   },
   {
     "bucket": 1980,
-    "count": 73123,
+    "count": 27449,
+    "year": 2018,
+    "city": "montreal"
+  },
+  {
+    "bucket": 2040,
+    "count": 24222,
+    "year": 2018,
+    "city": "montreal"
+  },
+  {
+    "bucket": 2100,
+    "count": 21452,
     "year": 2018,
     "city": "montreal"
   },
   {
     "bucket": 2160,
-    "count": 49481,
+    "count": 18742,
+    "year": 2018,
+    "city": "montreal"
+  },
+  {
+    "bucket": 2220,
+    "count": 16192,
+    "year": 2018,
+    "city": "montreal"
+  },
+  {
+    "bucket": 2280,
+    "count": 14547,
     "year": 2018,
     "city": "montreal"
   },
   {
     "bucket": 2340,
-    "count": 33646,
+    "count": 12730,
+    "year": 2018,
+    "city": "montreal"
+  },
+  {
+    "bucket": 2400,
+    "count": 11180,
+    "year": 2018,
+    "city": "montreal"
+  },
+  {
+    "bucket": 2460,
+    "count": 9736,
     "year": 2018,
     "city": "montreal"
   },
   {
     "bucket": 2520,
-    "count": 21816,
+    "count": 8301,
+    "year": 2018,
+    "city": "montreal"
+  },
+  {
+    "bucket": 2580,
+    "count": 7249,
+    "year": 2018,
+    "city": "montreal"
+  },
+  {
+    "bucket": 2640,
+    "count": 6266,
     "year": 2018,
     "city": "montreal"
   },
   {
     "bucket": 2700,
-    "count": 13071,
+    "count": 5084,
+    "year": 2018,
+    "city": "montreal"
+  },
+  {
+    "bucket": 2760,
+    "count": 4272,
+    "year": 2018,
+    "city": "montreal"
+  },
+  {
+    "bucket": 2820,
+    "count": 3715,
     "year": 2018,
     "city": "montreal"
   },
   {
     "bucket": 2880,
-    "count": 8835,
+    "count": 3259,
+    "year": 2018,
+    "city": "montreal"
+  },
+  {
+    "bucket": 2940,
+    "count": 2925,
+    "year": 2018,
+    "city": "montreal"
+  },
+  {
+    "bucket": 3000,
+    "count": 2651,
     "year": 2018,
     "city": "montreal"
   },
   {
     "bucket": 3060,
-    "count": 6428,
+    "count": 2383,
+    "year": 2018,
+    "city": "montreal"
+  },
+  {
+    "bucket": 3120,
+    "count": 2136,
+    "year": 2018,
+    "city": "montreal"
+  },
+  {
+    "bucket": 3180,
+    "count": 1909,
     "year": 2018,
     "city": "montreal"
   },
   {
     "bucket": 3240,
-    "count": 4797,
+    "count": 1763,
+    "year": 2018,
+    "city": "montreal"
+  },
+  {
+    "bucket": 3300,
+    "count": 1575,
+    "year": 2018,
+    "city": "montreal"
+  },
+  {
+    "bucket": 3360,
+    "count": 1459,
     "year": 2018,
     "city": "montreal"
   },
   {
     "bucket": 3420,
-    "count": 3798,
+    "count": 1370,
+    "year": 2018,
+    "city": "montreal"
+  },
+  {
+    "bucket": 3480,
+    "count": 1234,
+    "year": 2018,
+    "city": "montreal"
+  },
+  {
+    "bucket": 3540,
+    "count": 1194,
     "year": 2018,
     "city": "montreal"
   },
   {
     "bucket": 3600,
-    "count": 2983,
+    "count": 1110,
+    "year": 2018,
+    "city": "montreal"
+  },
+  {
+    "bucket": 3660,
+    "count": 968,
+    "year": 2018,
+    "city": "montreal"
+  },
+  {
+    "bucket": 3720,
+    "count": 905,
     "year": 2018,
     "city": "montreal"
   },
   {
     "bucket": 3780,
-    "count": 2468,
+    "count": 858,
+    "year": 2018,
+    "city": "montreal"
+  },
+  {
+    "bucket": 3840,
+    "count": 813,
+    "year": 2018,
+    "city": "montreal"
+  },
+  {
+    "bucket": 3900,
+    "count": 797,
     "year": 2018,
     "city": "montreal"
   },
   {
     "bucket": 3960,
-    "count": 2084,
+    "count": 748,
+    "year": 2018,
+    "city": "montreal"
+  },
+  {
+    "bucket": 4020,
+    "count": 689,
+    "year": 2018,
+    "city": "montreal"
+  },
+  {
+    "bucket": 4080,
+    "count": 647,
     "year": 2018,
     "city": "montreal"
   },
   {
     "bucket": 4140,
-    "count": 1945,
+    "count": 665,
+    "year": 2018,
+    "city": "montreal"
+  },
+  {
+    "bucket": 4200,
+    "count": 684,
+    "year": 2018,
+    "city": "montreal"
+  },
+  {
+    "bucket": 4260,
+    "count": 596,
     "year": 2018,
     "city": "montreal"
   },
   {
     "bucket": 4320,
-    "count": 1588,
+    "count": 613,
+    "year": 2018,
+    "city": "montreal"
+  },
+  {
+    "bucket": 4380,
+    "count": 481,
+    "year": 2018,
+    "city": "montreal"
+  },
+  {
+    "bucket": 4440,
+    "count": 494,
     "year": 2018,
     "city": "montreal"
   },
   {
     "bucket": 4500,
-    "count": 1279,
+    "count": 441,
+    "year": 2018,
+    "city": "montreal"
+  },
+  {
+    "bucket": 4560,
+    "count": 405,
+    "year": 2018,
+    "city": "montreal"
+  },
+  {
+    "bucket": 4620,
+    "count": 433,
     "year": 2018,
     "city": "montreal"
   },
   {
     "bucket": 4680,
-    "count": 1177,
+    "count": 403,
+    "year": 2018,
+    "city": "montreal"
+  },
+  {
+    "bucket": 4740,
+    "count": 401,
+    "year": 2018,
+    "city": "montreal"
+  },
+  {
+    "bucket": 4800,
+    "count": 373,
     "year": 2018,
     "city": "montreal"
   },
   {
     "bucket": 4860,
-    "count": 1082,
+    "count": 350,
+    "year": 2018,
+    "city": "montreal"
+  },
+  {
+    "bucket": 4920,
+    "count": 372,
+    "year": 2018,
+    "city": "montreal"
+  },
+  {
+    "bucket": 4980,
+    "count": 360,
     "year": 2018,
     "city": "montreal"
   },
   {
     "bucket": 5040,
-    "count": 987,
+    "count": 351,
+    "year": 2018,
+    "city": "montreal"
+  },
+  {
+    "bucket": 5100,
+    "count": 312,
+    "year": 2018,
+    "city": "montreal"
+  },
+  {
+    "bucket": 5160,
+    "count": 324,
     "year": 2018,
     "city": "montreal"
   },
   {
     "bucket": 5220,
-    "count": 873,
+    "count": 302,
+    "year": 2018,
+    "city": "montreal"
+  },
+  {
+    "bucket": 5280,
+    "count": 317,
+    "year": 2018,
+    "city": "montreal"
+  },
+  {
+    "bucket": 5340,
+    "count": 254,
     "year": 2018,
     "city": "montreal"
   },
   {
     "bucket": 5400,
-    "count": 740,
+    "count": 263,
+    "year": 2018,
+    "city": "montreal"
+  },
+  {
+    "bucket": 5460,
+    "count": 242,
+    "year": 2018,
+    "city": "montreal"
+  },
+  {
+    "bucket": 5520,
+    "count": 235,
     "year": 2018,
     "city": "montreal"
   },
   {
     "bucket": 5580,
-    "count": 716,
+    "count": 241,
+    "year": 2018,
+    "city": "montreal"
+  },
+  {
+    "bucket": 5640,
+    "count": 232,
+    "year": 2018,
+    "city": "montreal"
+  },
+  {
+    "bucket": 5700,
+    "count": 243,
     "year": 2018,
     "city": "montreal"
   },
   {
     "bucket": 5760,
-    "count": 623,
+    "count": 209,
+    "year": 2018,
+    "city": "montreal"
+  },
+  {
+    "bucket": 5820,
+    "count": 220,
+    "year": 2018,
+    "city": "montreal"
+  },
+  {
+    "bucket": 5880,
+    "count": 194,
     "year": 2018,
     "city": "montreal"
   },
   {
     "bucket": 5940,
-    "count": 616,
+    "count": 213,
+    "year": 2018,
+    "city": "montreal"
+  },
+  {
+    "bucket": 6000,
+    "count": 199,
+    "year": 2018,
+    "city": "montreal"
+  },
+  {
+    "bucket": 6060,
+    "count": 204,
     "year": 2018,
     "city": "montreal"
   },
   {
     "bucket": 6120,
-    "count": 631,
+    "count": 226,
+    "year": 2018,
+    "city": "montreal"
+  },
+  {
+    "bucket": 6180,
+    "count": 203,
+    "year": 2018,
+    "city": "montreal"
+  },
+  {
+    "bucket": 6240,
+    "count": 202,
     "year": 2018,
     "city": "montreal"
   },
   {
     "bucket": 6300,
-    "count": 482,
+    "count": 193,
+    "year": 2018,
+    "city": "montreal"
+  },
+  {
+    "bucket": 6360,
+    "count": 133,
+    "year": 2018,
+    "city": "montreal"
+  },
+  {
+    "bucket": 6420,
+    "count": 156,
     "year": 2018,
     "city": "montreal"
   },
   {
     "bucket": 6480,
-    "count": 527,
+    "count": 147,
+    "year": 2018,
+    "city": "montreal"
+  },
+  {
+    "bucket": 6540,
+    "count": 178,
+    "year": 2018,
+    "city": "montreal"
+  },
+  {
+    "bucket": 6600,
+    "count": 202,
     "year": 2018,
     "city": "montreal"
   },
   {
     "bucket": 6660,
-    "count": 464,
+    "count": 166,
+    "year": 2018,
+    "city": "montreal"
+  },
+  {
+    "bucket": 6720,
+    "count": 153,
+    "year": 2018,
+    "city": "montreal"
+  },
+  {
+    "bucket": 6780,
+    "count": 145,
     "year": 2018,
     "city": "montreal"
   },
   {
     "bucket": 6840,
-    "count": 446,
+    "count": 151,
+    "year": 2018,
+    "city": "montreal"
+  },
+  {
+    "bucket": 6900,
+    "count": 141,
+    "year": 2018,
+    "city": "montreal"
+  },
+  {
+    "bucket": 6960,
+    "count": 154,
     "year": 2018,
     "city": "montreal"
   },
   {
     "bucket": 7020,
-    "count": 391,
+    "count": 150,
+    "year": 2018,
+    "city": "montreal"
+  },
+  {
+    "bucket": 7080,
+    "count": 118,
+    "year": 2018,
+    "city": "montreal"
+  },
+  {
+    "bucket": 7140,
+    "count": 123,
     "year": 2018,
     "city": "montreal"
   },
@@ -1230,242 +3600,716 @@
     "city": "montreal"
   },
   {
-    "bucket": 0,
-    "count": 316040,
+    "bucket": 60,
+    "count": 94755,
+    "year": 2019,
+    "city": "montreal"
+  },
+  {
+    "bucket": 120,
+    "count": 221285,
     "year": 2019,
     "city": "montreal"
   },
   {
     "bucket": 180,
-    "count": 1024356,
+    "count": 315373,
+    "year": 2019,
+    "city": "montreal"
+  },
+  {
+    "bucket": 240,
+    "count": 353343,
+    "year": 2019,
+    "city": "montreal"
+  },
+  {
+    "bucket": 300,
+    "count": 355640,
     "year": 2019,
     "city": "montreal"
   },
   {
     "bucket": 360,
-    "count": 965625,
+    "count": 341084,
+    "year": 2019,
+    "city": "montreal"
+  },
+  {
+    "bucket": 420,
+    "count": 323886,
+    "year": 2019,
+    "city": "montreal"
+  },
+  {
+    "bucket": 480,
+    "count": 300655,
     "year": 2019,
     "city": "montreal"
   },
   {
     "bucket": 540,
-    "count": 779214,
+    "count": 279879,
+    "year": 2019,
+    "city": "montreal"
+  },
+  {
+    "bucket": 600,
+    "count": 259698,
+    "year": 2019,
+    "city": "montreal"
+  },
+  {
+    "bucket": 660,
+    "count": 239637,
     "year": 2019,
     "city": "montreal"
   },
   {
     "bucket": 720,
-    "count": 610008,
+    "count": 220153,
+    "year": 2019,
+    "city": "montreal"
+  },
+  {
+    "bucket": 780,
+    "count": 202684,
+    "year": 2019,
+    "city": "montreal"
+  },
+  {
+    "bucket": 840,
+    "count": 187171,
     "year": 2019,
     "city": "montreal"
   },
   {
     "bucket": 900,
-    "count": 476515,
+    "count": 172065,
+    "year": 2019,
+    "city": "montreal"
+  },
+  {
+    "bucket": 960,
+    "count": 158681,
+    "year": 2019,
+    "city": "montreal"
+  },
+  {
+    "bucket": 1020,
+    "count": 145769,
     "year": 2019,
     "city": "montreal"
   },
   {
     "bucket": 1080,
-    "count": 373498,
+    "count": 134361,
+    "year": 2019,
+    "city": "montreal"
+  },
+  {
+    "bucket": 1140,
+    "count": 124929,
+    "year": 2019,
+    "city": "montreal"
+  },
+  {
+    "bucket": 1200,
+    "count": 114208,
     "year": 2019,
     "city": "montreal"
   },
   {
     "bucket": 1260,
-    "count": 295860,
+    "count": 106246,
+    "year": 2019,
+    "city": "montreal"
+  },
+  {
+    "bucket": 1320,
+    "count": 98658,
+    "year": 2019,
+    "city": "montreal"
+  },
+  {
+    "bucket": 1380,
+    "count": 90956,
     "year": 2019,
     "city": "montreal"
   },
   {
     "bucket": 1440,
-    "count": 227620,
+    "count": 83064,
+    "year": 2019,
+    "city": "montreal"
+  },
+  {
+    "bucket": 1500,
+    "count": 75859,
+    "year": 2019,
+    "city": "montreal"
+  },
+  {
+    "bucket": 1560,
+    "count": 68697,
     "year": 2019,
     "city": "montreal"
   },
   {
     "bucket": 1620,
-    "count": 165435,
+    "count": 62483,
+    "year": 2019,
+    "city": "montreal"
+  },
+  {
+    "bucket": 1680,
+    "count": 54987,
+    "year": 2019,
+    "city": "montreal"
+  },
+  {
+    "bucket": 1740,
+    "count": 47965,
     "year": 2019,
     "city": "montreal"
   },
   {
     "bucket": 1800,
-    "count": 110384,
+    "count": 42141,
+    "year": 2019,
+    "city": "montreal"
+  },
+  {
+    "bucket": 1860,
+    "count": 36467,
+    "year": 2019,
+    "city": "montreal"
+  },
+  {
+    "bucket": 1920,
+    "count": 31776,
     "year": 2019,
     "city": "montreal"
   },
   {
     "bucket": 1980,
-    "count": 74438,
+    "count": 27759,
+    "year": 2019,
+    "city": "montreal"
+  },
+  {
+    "bucket": 2040,
+    "count": 24699,
+    "year": 2019,
+    "city": "montreal"
+  },
+  {
+    "bucket": 2100,
+    "count": 21980,
     "year": 2019,
     "city": "montreal"
   },
   {
     "bucket": 2160,
-    "count": 51946,
+    "count": 19552,
+    "year": 2019,
+    "city": "montreal"
+  },
+  {
+    "bucket": 2220,
+    "count": 17196,
+    "year": 2019,
+    "city": "montreal"
+  },
+  {
+    "bucket": 2280,
+    "count": 15198,
     "year": 2019,
     "city": "montreal"
   },
   {
     "bucket": 2340,
-    "count": 35593,
+    "count": 13174,
+    "year": 2019,
+    "city": "montreal"
+  },
+  {
+    "bucket": 2400,
+    "count": 11961,
+    "year": 2019,
+    "city": "montreal"
+  },
+  {
+    "bucket": 2460,
+    "count": 10458,
     "year": 2019,
     "city": "montreal"
   },
   {
     "bucket": 2520,
-    "count": 23731,
+    "count": 9176,
+    "year": 2019,
+    "city": "montreal"
+  },
+  {
+    "bucket": 2580,
+    "count": 7884,
+    "year": 2019,
+    "city": "montreal"
+  },
+  {
+    "bucket": 2640,
+    "count": 6671,
     "year": 2019,
     "city": "montreal"
   },
   {
     "bucket": 2700,
-    "count": 14011,
+    "count": 5391,
+    "year": 2019,
+    "city": "montreal"
+  },
+  {
+    "bucket": 2760,
+    "count": 4615,
+    "year": 2019,
+    "city": "montreal"
+  },
+  {
+    "bucket": 2820,
+    "count": 4005,
     "year": 2019,
     "city": "montreal"
   },
   {
     "bucket": 2880,
-    "count": 9801,
+    "count": 3608,
+    "year": 2019,
+    "city": "montreal"
+  },
+  {
+    "bucket": 2940,
+    "count": 3291,
+    "year": 2019,
+    "city": "montreal"
+  },
+  {
+    "bucket": 3000,
+    "count": 2902,
     "year": 2019,
     "city": "montreal"
   },
   {
     "bucket": 3060,
-    "count": 7192,
+    "count": 2596,
+    "year": 2019,
+    "city": "montreal"
+  },
+  {
+    "bucket": 3120,
+    "count": 2458,
+    "year": 2019,
+    "city": "montreal"
+  },
+  {
+    "bucket": 3180,
+    "count": 2138,
     "year": 2019,
     "city": "montreal"
   },
   {
     "bucket": 3240,
-    "count": 5655,
+    "count": 2023,
+    "year": 2019,
+    "city": "montreal"
+  },
+  {
+    "bucket": 3300,
+    "count": 1916,
+    "year": 2019,
+    "city": "montreal"
+  },
+  {
+    "bucket": 3360,
+    "count": 1716,
     "year": 2019,
     "city": "montreal"
   },
   {
     "bucket": 3420,
-    "count": 4236,
+    "count": 1535,
+    "year": 2019,
+    "city": "montreal"
+  },
+  {
+    "bucket": 3480,
+    "count": 1366,
+    "year": 2019,
+    "city": "montreal"
+  },
+  {
+    "bucket": 3540,
+    "count": 1335,
     "year": 2019,
     "city": "montreal"
   },
   {
     "bucket": 3600,
-    "count": 3582,
+    "count": 1260,
+    "year": 2019,
+    "city": "montreal"
+  },
+  {
+    "bucket": 3660,
+    "count": 1204,
+    "year": 2019,
+    "city": "montreal"
+  },
+  {
+    "bucket": 3720,
+    "count": 1118,
     "year": 2019,
     "city": "montreal"
   },
   {
     "bucket": 3780,
-    "count": 2781,
+    "count": 1009,
+    "year": 2019,
+    "city": "montreal"
+  },
+  {
+    "bucket": 3840,
+    "count": 925,
+    "year": 2019,
+    "city": "montreal"
+  },
+  {
+    "bucket": 3900,
+    "count": 847,
     "year": 2019,
     "city": "montreal"
   },
   {
     "bucket": 3960,
-    "count": 2282,
+    "count": 841,
+    "year": 2019,
+    "city": "montreal"
+  },
+  {
+    "bucket": 4020,
+    "count": 737,
+    "year": 2019,
+    "city": "montreal"
+  },
+  {
+    "bucket": 4080,
+    "count": 704,
     "year": 2019,
     "city": "montreal"
   },
   {
     "bucket": 4140,
-    "count": 2053,
+    "count": 732,
+    "year": 2019,
+    "city": "montreal"
+  },
+  {
+    "bucket": 4200,
+    "count": 694,
+    "year": 2019,
+    "city": "montreal"
+  },
+  {
+    "bucket": 4260,
+    "count": 627,
     "year": 2019,
     "city": "montreal"
   },
   {
     "bucket": 4320,
-    "count": 1867,
+    "count": 653,
+    "year": 2019,
+    "city": "montreal"
+  },
+  {
+    "bucket": 4380,
+    "count": 645,
+    "year": 2019,
+    "city": "montreal"
+  },
+  {
+    "bucket": 4440,
+    "count": 569,
     "year": 2019,
     "city": "montreal"
   },
   {
     "bucket": 4500,
-    "count": 1634,
+    "count": 605,
+    "year": 2019,
+    "city": "montreal"
+  },
+  {
+    "bucket": 4560,
+    "count": 546,
+    "year": 2019,
+    "city": "montreal"
+  },
+  {
+    "bucket": 4620,
+    "count": 483,
     "year": 2019,
     "city": "montreal"
   },
   {
     "bucket": 4680,
-    "count": 1442,
+    "count": 476,
+    "year": 2019,
+    "city": "montreal"
+  },
+  {
+    "bucket": 4740,
+    "count": 506,
+    "year": 2019,
+    "city": "montreal"
+  },
+  {
+    "bucket": 4800,
+    "count": 460,
     "year": 2019,
     "city": "montreal"
   },
   {
     "bucket": 4860,
-    "count": 1354,
+    "count": 478,
+    "year": 2019,
+    "city": "montreal"
+  },
+  {
+    "bucket": 4920,
+    "count": 442,
+    "year": 2019,
+    "city": "montreal"
+  },
+  {
+    "bucket": 4980,
+    "count": 434,
     "year": 2019,
     "city": "montreal"
   },
   {
     "bucket": 5040,
-    "count": 1139,
+    "count": 412,
+    "year": 2019,
+    "city": "montreal"
+  },
+  {
+    "bucket": 5100,
+    "count": 377,
+    "year": 2019,
+    "city": "montreal"
+  },
+  {
+    "bucket": 5160,
+    "count": 350,
     "year": 2019,
     "city": "montreal"
   },
   {
     "bucket": 5220,
-    "count": 1086,
+    "count": 398,
+    "year": 2019,
+    "city": "montreal"
+  },
+  {
+    "bucket": 5280,
+    "count": 356,
+    "year": 2019,
+    "city": "montreal"
+  },
+  {
+    "bucket": 5340,
+    "count": 332,
     "year": 2019,
     "city": "montreal"
   },
   {
     "bucket": 5400,
-    "count": 1045,
+    "count": 353,
+    "year": 2019,
+    "city": "montreal"
+  },
+  {
+    "bucket": 5460,
+    "count": 344,
+    "year": 2019,
+    "city": "montreal"
+  },
+  {
+    "bucket": 5520,
+    "count": 348,
     "year": 2019,
     "city": "montreal"
   },
   {
     "bucket": 5580,
-    "count": 897,
+    "count": 295,
+    "year": 2019,
+    "city": "montreal"
+  },
+  {
+    "bucket": 5640,
+    "count": 297,
+    "year": 2019,
+    "city": "montreal"
+  },
+  {
+    "bucket": 5700,
+    "count": 305,
     "year": 2019,
     "city": "montreal"
   },
   {
     "bucket": 5760,
-    "count": 834,
+    "count": 287,
+    "year": 2019,
+    "city": "montreal"
+  },
+  {
+    "bucket": 5820,
+    "count": 278,
+    "year": 2019,
+    "city": "montreal"
+  },
+  {
+    "bucket": 5880,
+    "count": 269,
     "year": 2019,
     "city": "montreal"
   },
   {
     "bucket": 5940,
-    "count": 869,
+    "count": 280,
+    "year": 2019,
+    "city": "montreal"
+  },
+  {
+    "bucket": 6000,
+    "count": 304,
+    "year": 2019,
+    "city": "montreal"
+  },
+  {
+    "bucket": 6060,
+    "count": 285,
     "year": 2019,
     "city": "montreal"
   },
   {
     "bucket": 6120,
-    "count": 775,
+    "count": 272,
+    "year": 2019,
+    "city": "montreal"
+  },
+  {
+    "bucket": 6180,
+    "count": 249,
+    "year": 2019,
+    "city": "montreal"
+  },
+  {
+    "bucket": 6240,
+    "count": 254,
     "year": 2019,
     "city": "montreal"
   },
   {
     "bucket": 6300,
-    "count": 687,
+    "count": 246,
+    "year": 2019,
+    "city": "montreal"
+  },
+  {
+    "bucket": 6360,
+    "count": 234,
+    "year": 2019,
+    "city": "montreal"
+  },
+  {
+    "bucket": 6420,
+    "count": 207,
     "year": 2019,
     "city": "montreal"
   },
   {
     "bucket": 6480,
-    "count": 656,
+    "count": 214,
+    "year": 2019,
+    "city": "montreal"
+  },
+  {
+    "bucket": 6540,
+    "count": 234,
+    "year": 2019,
+    "city": "montreal"
+  },
+  {
+    "bucket": 6600,
+    "count": 208,
     "year": 2019,
     "city": "montreal"
   },
   {
     "bucket": 6660,
-    "count": 621,
+    "count": 196,
+    "year": 2019,
+    "city": "montreal"
+  },
+  {
+    "bucket": 6720,
+    "count": 196,
+    "year": 2019,
+    "city": "montreal"
+  },
+  {
+    "bucket": 6780,
+    "count": 229,
     "year": 2019,
     "city": "montreal"
   },
   {
     "bucket": 6840,
-    "count": 570,
+    "count": 187,
+    "year": 2019,
+    "city": "montreal"
+  },
+  {
+    "bucket": 6900,
+    "count": 194,
+    "year": 2019,
+    "city": "montreal"
+  },
+  {
+    "bucket": 6960,
+    "count": 189,
     "year": 2019,
     "city": "montreal"
   },
   {
     "bucket": 7020,
-    "count": 511,
+    "count": 172,
+    "year": 2019,
+    "city": "montreal"
+  },
+  {
+    "bucket": 7080,
+    "count": 163,
+    "year": 2019,
+    "city": "montreal"
+  },
+  {
+    "bucket": 7140,
+    "count": 176,
     "year": 2019,
     "city": "montreal"
   },
@@ -1476,242 +4320,716 @@
     "city": "montreal"
   },
   {
-    "bucket": 0,
-    "count": 153200,
+    "bucket": 60,
+    "count": 48147,
+    "year": 2020,
+    "city": "montreal"
+  },
+  {
+    "bucket": 120,
+    "count": 105053,
     "year": 2020,
     "city": "montreal"
   },
   {
     "bucket": 180,
-    "count": 486479,
+    "count": 146379,
+    "year": 2020,
+    "city": "montreal"
+  },
+  {
+    "bucket": 240,
+    "count": 167028,
+    "year": 2020,
+    "city": "montreal"
+  },
+  {
+    "bucket": 300,
+    "count": 173072,
     "year": 2020,
     "city": "montreal"
   },
   {
     "bucket": 360,
-    "count": 495139,
+    "count": 170962,
+    "year": 2020,
+    "city": "montreal"
+  },
+  {
+    "bucket": 420,
+    "count": 165480,
+    "year": 2020,
+    "city": "montreal"
+  },
+  {
+    "bucket": 480,
+    "count": 158697,
     "year": 2020,
     "city": "montreal"
   },
   {
     "bucket": 540,
-    "count": 426086,
+    "count": 150015,
+    "year": 2020,
+    "city": "montreal"
+  },
+  {
+    "bucket": 600,
+    "count": 142852,
+    "year": 2020,
+    "city": "montreal"
+  },
+  {
+    "bucket": 660,
+    "count": 133219,
     "year": 2020,
     "city": "montreal"
   },
   {
     "bucket": 720,
-    "count": 353232,
+    "count": 125321,
+    "year": 2020,
+    "city": "montreal"
+  },
+  {
+    "bucket": 780,
+    "count": 117440,
+    "year": 2020,
+    "city": "montreal"
+  },
+  {
+    "bucket": 840,
+    "count": 110471,
     "year": 2020,
     "city": "montreal"
   },
   {
     "bucket": 900,
-    "count": 290671,
+    "count": 103444,
+    "year": 2020,
+    "city": "montreal"
+  },
+  {
+    "bucket": 960,
+    "count": 97099,
+    "year": 2020,
+    "city": "montreal"
+  },
+  {
+    "bucket": 1020,
+    "count": 90128,
     "year": 2020,
     "city": "montreal"
   },
   {
     "bucket": 1080,
-    "count": 237716,
+    "count": 85198,
+    "year": 2020,
+    "city": "montreal"
+  },
+  {
+    "bucket": 1140,
+    "count": 78977,
+    "year": 2020,
+    "city": "montreal"
+  },
+  {
+    "bucket": 1200,
+    "count": 73541,
     "year": 2020,
     "city": "montreal"
   },
   {
     "bucket": 1260,
-    "count": 195198,
+    "count": 69373,
+    "year": 2020,
+    "city": "montreal"
+  },
+  {
+    "bucket": 1320,
+    "count": 64661,
+    "year": 2020,
+    "city": "montreal"
+  },
+  {
+    "bucket": 1380,
+    "count": 61164,
     "year": 2020,
     "city": "montreal"
   },
   {
     "bucket": 1440,
-    "count": 159592,
+    "count": 57084,
+    "year": 2020,
+    "city": "montreal"
+  },
+  {
+    "bucket": 1500,
+    "count": 53120,
+    "year": 2020,
+    "city": "montreal"
+  },
+  {
+    "bucket": 1560,
+    "count": 49388,
     "year": 2020,
     "city": "montreal"
   },
   {
     "bucket": 1620,
-    "count": 124589,
+    "count": 45801,
+    "year": 2020,
+    "city": "montreal"
+  },
+  {
+    "bucket": 1680,
+    "count": 41386,
+    "year": 2020,
+    "city": "montreal"
+  },
+  {
+    "bucket": 1740,
+    "count": 37402,
     "year": 2020,
     "city": "montreal"
   },
   {
     "bucket": 1800,
-    "count": 88553,
+    "count": 33045,
+    "year": 2020,
+    "city": "montreal"
+  },
+  {
+    "bucket": 1860,
+    "count": 29501,
+    "year": 2020,
+    "city": "montreal"
+  },
+  {
+    "bucket": 1920,
+    "count": 26007,
     "year": 2020,
     "city": "montreal"
   },
   {
     "bucket": 1980,
-    "count": 64943,
+    "count": 23821,
+    "year": 2020,
+    "city": "montreal"
+  },
+  {
+    "bucket": 2040,
+    "count": 21512,
+    "year": 2020,
+    "city": "montreal"
+  },
+  {
+    "bucket": 2100,
+    "count": 19610,
     "year": 2020,
     "city": "montreal"
   },
   {
     "bucket": 2160,
-    "count": 50157,
+    "count": 18018,
+    "year": 2020,
+    "city": "montreal"
+  },
+  {
+    "bucket": 2220,
+    "count": 16582,
+    "year": 2020,
+    "city": "montreal"
+  },
+  {
+    "bucket": 2280,
+    "count": 15557,
     "year": 2020,
     "city": "montreal"
   },
   {
     "bucket": 2340,
-    "count": 39074,
+    "count": 14166,
+    "year": 2020,
+    "city": "montreal"
+  },
+  {
+    "bucket": 2400,
+    "count": 12942,
+    "year": 2020,
+    "city": "montreal"
+  },
+  {
+    "bucket": 2460,
+    "count": 11966,
     "year": 2020,
     "city": "montreal"
   },
   {
     "bucket": 2520,
-    "count": 28360,
+    "count": 10794,
+    "year": 2020,
+    "city": "montreal"
+  },
+  {
+    "bucket": 2580,
+    "count": 9594,
+    "year": 2020,
+    "city": "montreal"
+  },
+  {
+    "bucket": 2640,
+    "count": 7972,
     "year": 2020,
     "city": "montreal"
   },
   {
     "bucket": 2700,
-    "count": 15705,
+    "count": 6255,
+    "year": 2020,
+    "city": "montreal"
+  },
+  {
+    "bucket": 2760,
+    "count": 5040,
+    "year": 2020,
+    "city": "montreal"
+  },
+  {
+    "bucket": 2820,
+    "count": 4410,
     "year": 2020,
     "city": "montreal"
   },
   {
     "bucket": 2880,
-    "count": 10210,
+    "count": 3814,
+    "year": 2020,
+    "city": "montreal"
+  },
+  {
+    "bucket": 2940,
+    "count": 3393,
+    "year": 2020,
+    "city": "montreal"
+  },
+  {
+    "bucket": 3000,
+    "count": 3003,
     "year": 2020,
     "city": "montreal"
   },
   {
     "bucket": 3060,
-    "count": 7605,
+    "count": 2741,
+    "year": 2020,
+    "city": "montreal"
+  },
+  {
+    "bucket": 3120,
+    "count": 2482,
+    "year": 2020,
+    "city": "montreal"
+  },
+  {
+    "bucket": 3180,
+    "count": 2382,
     "year": 2020,
     "city": "montreal"
   },
   {
     "bucket": 3240,
-    "count": 5929,
+    "count": 2141,
+    "year": 2020,
+    "city": "montreal"
+  },
+  {
+    "bucket": 3300,
+    "count": 1958,
+    "year": 2020,
+    "city": "montreal"
+  },
+  {
+    "bucket": 3360,
+    "count": 1830,
     "year": 2020,
     "city": "montreal"
   },
   {
     "bucket": 3420,
-    "count": 4586,
+    "count": 1650,
+    "year": 2020,
+    "city": "montreal"
+  },
+  {
+    "bucket": 3480,
+    "count": 1532,
+    "year": 2020,
+    "city": "montreal"
+  },
+  {
+    "bucket": 3540,
+    "count": 1404,
     "year": 2020,
     "city": "montreal"
   },
   {
     "bucket": 3600,
-    "count": 3699,
+    "count": 1319,
+    "year": 2020,
+    "city": "montreal"
+  },
+  {
+    "bucket": 3660,
+    "count": 1239,
+    "year": 2020,
+    "city": "montreal"
+  },
+  {
+    "bucket": 3720,
+    "count": 1141,
     "year": 2020,
     "city": "montreal"
   },
   {
     "bucket": 3780,
-    "count": 3148,
+    "count": 1115,
+    "year": 2020,
+    "city": "montreal"
+  },
+  {
+    "bucket": 3840,
+    "count": 1077,
+    "year": 2020,
+    "city": "montreal"
+  },
+  {
+    "bucket": 3900,
+    "count": 956,
     "year": 2020,
     "city": "montreal"
   },
   {
     "bucket": 3960,
-    "count": 2611,
+    "count": 913,
+    "year": 2020,
+    "city": "montreal"
+  },
+  {
+    "bucket": 4020,
+    "count": 849,
+    "year": 2020,
+    "city": "montreal"
+  },
+  {
+    "bucket": 4080,
+    "count": 849,
     "year": 2020,
     "city": "montreal"
   },
   {
     "bucket": 4140,
-    "count": 2281,
+    "count": 845,
+    "year": 2020,
+    "city": "montreal"
+  },
+  {
+    "bucket": 4200,
+    "count": 773,
+    "year": 2020,
+    "city": "montreal"
+  },
+  {
+    "bucket": 4260,
+    "count": 663,
     "year": 2020,
     "city": "montreal"
   },
   {
     "bucket": 4320,
-    "count": 1916,
+    "count": 690,
+    "year": 2020,
+    "city": "montreal"
+  },
+  {
+    "bucket": 4380,
+    "count": 609,
+    "year": 2020,
+    "city": "montreal"
+  },
+  {
+    "bucket": 4440,
+    "count": 617,
     "year": 2020,
     "city": "montreal"
   },
   {
     "bucket": 4500,
-    "count": 1616,
+    "count": 553,
+    "year": 2020,
+    "city": "montreal"
+  },
+  {
+    "bucket": 4560,
+    "count": 555,
+    "year": 2020,
+    "city": "montreal"
+  },
+  {
+    "bucket": 4620,
+    "count": 508,
     "year": 2020,
     "city": "montreal"
   },
   {
     "bucket": 4680,
-    "count": 1557,
+    "count": 534,
+    "year": 2020,
+    "city": "montreal"
+  },
+  {
+    "bucket": 4740,
+    "count": 534,
+    "year": 2020,
+    "city": "montreal"
+  },
+  {
+    "bucket": 4800,
+    "count": 489,
     "year": 2020,
     "city": "montreal"
   },
   {
     "bucket": 4860,
-    "count": 1401,
+    "count": 465,
+    "year": 2020,
+    "city": "montreal"
+  },
+  {
+    "bucket": 4920,
+    "count": 467,
+    "year": 2020,
+    "city": "montreal"
+  },
+  {
+    "bucket": 4980,
+    "count": 469,
     "year": 2020,
     "city": "montreal"
   },
   {
     "bucket": 5040,
-    "count": 1138,
+    "count": 363,
+    "year": 2020,
+    "city": "montreal"
+  },
+  {
+    "bucket": 5100,
+    "count": 374,
+    "year": 2020,
+    "city": "montreal"
+  },
+  {
+    "bucket": 5160,
+    "count": 401,
     "year": 2020,
     "city": "montreal"
   },
   {
     "bucket": 5220,
-    "count": 1137,
+    "count": 386,
+    "year": 2020,
+    "city": "montreal"
+  },
+  {
+    "bucket": 5280,
+    "count": 372,
+    "year": 2020,
+    "city": "montreal"
+  },
+  {
+    "bucket": 5340,
+    "count": 379,
     "year": 2020,
     "city": "montreal"
   },
   {
     "bucket": 5400,
-    "count": 1055,
+    "count": 364,
+    "year": 2020,
+    "city": "montreal"
+  },
+  {
+    "bucket": 5460,
+    "count": 337,
+    "year": 2020,
+    "city": "montreal"
+  },
+  {
+    "bucket": 5520,
+    "count": 354,
     "year": 2020,
     "city": "montreal"
   },
   {
     "bucket": 5580,
-    "count": 926,
+    "count": 356,
+    "year": 2020,
+    "city": "montreal"
+  },
+  {
+    "bucket": 5640,
+    "count": 278,
+    "year": 2020,
+    "city": "montreal"
+  },
+  {
+    "bucket": 5700,
+    "count": 292,
     "year": 2020,
     "city": "montreal"
   },
   {
     "bucket": 5760,
-    "count": 820,
+    "count": 290,
+    "year": 2020,
+    "city": "montreal"
+  },
+  {
+    "bucket": 5820,
+    "count": 278,
+    "year": 2020,
+    "city": "montreal"
+  },
+  {
+    "bucket": 5880,
+    "count": 252,
     "year": 2020,
     "city": "montreal"
   },
   {
     "bucket": 5940,
-    "count": 785,
+    "count": 285,
+    "year": 2020,
+    "city": "montreal"
+  },
+  {
+    "bucket": 6000,
+    "count": 246,
+    "year": 2020,
+    "city": "montreal"
+  },
+  {
+    "bucket": 6060,
+    "count": 254,
     "year": 2020,
     "city": "montreal"
   },
   {
     "bucket": 6120,
-    "count": 682,
+    "count": 228,
+    "year": 2020,
+    "city": "montreal"
+  },
+  {
+    "bucket": 6180,
+    "count": 264,
+    "year": 2020,
+    "city": "montreal"
+  },
+  {
+    "bucket": 6240,
+    "count": 190,
     "year": 2020,
     "city": "montreal"
   },
   {
     "bucket": 6300,
-    "count": 641,
+    "count": 213,
+    "year": 2020,
+    "city": "montreal"
+  },
+  {
+    "bucket": 6360,
+    "count": 214,
+    "year": 2020,
+    "city": "montreal"
+  },
+  {
+    "bucket": 6420,
+    "count": 214,
     "year": 2020,
     "city": "montreal"
   },
   {
     "bucket": 6480,
-    "count": 650,
+    "count": 213,
+    "year": 2020,
+    "city": "montreal"
+  },
+  {
+    "bucket": 6540,
+    "count": 218,
+    "year": 2020,
+    "city": "montreal"
+  },
+  {
+    "bucket": 6600,
+    "count": 219,
     "year": 2020,
     "city": "montreal"
   },
   {
     "bucket": 6660,
-    "count": 635,
+    "count": 223,
+    "year": 2020,
+    "city": "montreal"
+  },
+  {
+    "bucket": 6720,
+    "count": 225,
+    "year": 2020,
+    "city": "montreal"
+  },
+  {
+    "bucket": 6780,
+    "count": 187,
     "year": 2020,
     "city": "montreal"
   },
   {
     "bucket": 6840,
-    "count": 519,
+    "count": 184,
+    "year": 2020,
+    "city": "montreal"
+  },
+  {
+    "bucket": 6900,
+    "count": 169,
+    "year": 2020,
+    "city": "montreal"
+  },
+  {
+    "bucket": 6960,
+    "count": 166,
     "year": 2020,
     "city": "montreal"
   },
   {
     "bucket": 7020,
-    "count": 499,
+    "count": 176,
+    "year": 2020,
+    "city": "montreal"
+  },
+  {
+    "bucket": 7080,
+    "count": 170,
+    "year": 2020,
+    "city": "montreal"
+  },
+  {
+    "bucket": 7140,
+    "count": 153,
     "year": 2020,
     "city": "montreal"
   },
@@ -1723,241 +5041,721 @@
   },
   {
     "bucket": 0,
-    "count": 867556,
+    "count": 220589,
+    "year": 2023,
+    "city": "montreal"
+  },
+  {
+    "bucket": 60,
+    "count": 205743,
+    "year": 2023,
+    "city": "montreal"
+  },
+  {
+    "bucket": 120,
+    "count": 441224,
     "year": 2023,
     "city": "montreal"
   },
   {
     "bucket": 180,
-    "count": 2091144,
+    "count": 628552,
+    "year": 2023,
+    "city": "montreal"
+  },
+  {
+    "bucket": 240,
+    "count": 721454,
+    "year": 2023,
+    "city": "montreal"
+  },
+  {
+    "bucket": 300,
+    "count": 741138,
     "year": 2023,
     "city": "montreal"
   },
   {
     "bucket": 360,
-    "count": 2069323,
+    "count": 728492,
+    "year": 2023,
+    "city": "montreal"
+  },
+  {
+    "bucket": 420,
+    "count": 693329,
+    "year": 2023,
+    "city": "montreal"
+  },
+  {
+    "bucket": 480,
+    "count": 647502,
     "year": 2023,
     "city": "montreal"
   },
   {
     "bucket": 540,
-    "count": 1648825,
+    "count": 597770,
+    "year": 2023,
+    "city": "montreal"
+  },
+  {
+    "bucket": 600,
+    "count": 549012,
+    "year": 2023,
+    "city": "montreal"
+  },
+  {
+    "bucket": 660,
+    "count": 502043,
     "year": 2023,
     "city": "montreal"
   },
   {
     "bucket": 720,
-    "count": 1248190,
+    "count": 457567,
+    "year": 2023,
+    "city": "montreal"
+  },
+  {
+    "bucket": 780,
+    "count": 415680,
+    "year": 2023,
+    "city": "montreal"
+  },
+  {
+    "bucket": 840,
+    "count": 374943,
     "year": 2023,
     "city": "montreal"
   },
   {
     "bucket": 900,
-    "count": 926776,
+    "count": 339880,
+    "year": 2023,
+    "city": "montreal"
+  },
+  {
+    "bucket": 960,
+    "count": 308608,
+    "year": 2023,
+    "city": "montreal"
+  },
+  {
+    "bucket": 1020,
+    "count": 278288,
     "year": 2023,
     "city": "montreal"
   },
   {
     "bucket": 1080,
-    "count": 686594,
+    "count": 251165,
+    "year": 2023,
+    "city": "montreal"
+  },
+  {
+    "bucket": 1140,
+    "count": 228131,
+    "year": 2023,
+    "city": "montreal"
+  },
+  {
+    "bucket": 1200,
+    "count": 207298,
     "year": 2023,
     "city": "montreal"
   },
   {
     "bucket": 1260,
-    "count": 513380,
+    "count": 186892,
+    "year": 2023,
+    "city": "montreal"
+  },
+  {
+    "bucket": 1320,
+    "count": 170838,
+    "year": 2023,
+    "city": "montreal"
+  },
+  {
+    "bucket": 1380,
+    "count": 155650,
     "year": 2023,
     "city": "montreal"
   },
   {
     "bucket": 1440,
-    "count": 383758,
+    "count": 139475,
+    "year": 2023,
+    "city": "montreal"
+  },
+  {
+    "bucket": 1500,
+    "count": 127626,
+    "year": 2023,
+    "city": "montreal"
+  },
+  {
+    "bucket": 1560,
+    "count": 116657,
     "year": 2023,
     "city": "montreal"
   },
   {
     "bucket": 1620,
-    "count": 288547,
+    "count": 105142,
+    "year": 2023,
+    "city": "montreal"
+  },
+  {
+    "bucket": 1680,
+    "count": 95858,
+    "year": 2023,
+    "city": "montreal"
+  },
+  {
+    "bucket": 1740,
+    "count": 87547,
     "year": 2023,
     "city": "montreal"
   },
   {
     "bucket": 1800,
-    "count": 221223,
+    "count": 79879,
+    "year": 2023,
+    "city": "montreal"
+  },
+  {
+    "bucket": 1860,
+    "count": 74005,
+    "year": 2023,
+    "city": "montreal"
+  },
+  {
+    "bucket": 1920,
+    "count": 67339,
     "year": 2023,
     "city": "montreal"
   },
   {
     "bucket": 1980,
-    "count": 169691,
+    "count": 61330,
+    "year": 2023,
+    "city": "montreal"
+  },
+  {
+    "bucket": 2040,
+    "count": 56544,
+    "year": 2023,
+    "city": "montreal"
+  },
+  {
+    "bucket": 2100,
+    "count": 51817,
     "year": 2023,
     "city": "montreal"
   },
   {
     "bucket": 2160,
-    "count": 132018,
+    "count": 47567,
+    "year": 2023,
+    "city": "montreal"
+  },
+  {
+    "bucket": 2220,
+    "count": 44060,
+    "year": 2023,
+    "city": "montreal"
+  },
+  {
+    "bucket": 2280,
+    "count": 40391,
     "year": 2023,
     "city": "montreal"
   },
   {
     "bucket": 2340,
-    "count": 102794,
+    "count": 37208,
+    "year": 2023,
+    "city": "montreal"
+  },
+  {
+    "bucket": 2400,
+    "count": 34355,
+    "year": 2023,
+    "city": "montreal"
+  },
+  {
+    "bucket": 2460,
+    "count": 31231,
     "year": 2023,
     "city": "montreal"
   },
   {
     "bucket": 2520,
-    "count": 78005,
+    "count": 28774,
+    "year": 2023,
+    "city": "montreal"
+  },
+  {
+    "bucket": 2580,
+    "count": 25930,
+    "year": 2023,
+    "city": "montreal"
+  },
+  {
+    "bucket": 2640,
+    "count": 23301,
     "year": 2023,
     "city": "montreal"
   },
   {
     "bucket": 2700,
-    "count": 52278,
+    "count": 19758,
+    "year": 2023,
+    "city": "montreal"
+  },
+  {
+    "bucket": 2760,
+    "count": 17247,
+    "year": 2023,
+    "city": "montreal"
+  },
+  {
+    "bucket": 2820,
+    "count": 15273,
     "year": 2023,
     "city": "montreal"
   },
   {
     "bucket": 2880,
-    "count": 36866,
+    "count": 13738,
+    "year": 2023,
+    "city": "montreal"
+  },
+  {
+    "bucket": 2940,
+    "count": 12059,
+    "year": 2023,
+    "city": "montreal"
+  },
+  {
+    "bucket": 3000,
+    "count": 11069,
     "year": 2023,
     "city": "montreal"
   },
   {
     "bucket": 3060,
-    "count": 27605,
+    "count": 10024,
+    "year": 2023,
+    "city": "montreal"
+  },
+  {
+    "bucket": 3120,
+    "count": 9236,
+    "year": 2023,
+    "city": "montreal"
+  },
+  {
+    "bucket": 3180,
+    "count": 8345,
     "year": 2023,
     "city": "montreal"
   },
   {
     "bucket": 3240,
-    "count": 21751,
+    "count": 7966,
+    "year": 2023,
+    "city": "montreal"
+  },
+  {
+    "bucket": 3300,
+    "count": 7137,
+    "year": 2023,
+    "city": "montreal"
+  },
+  {
+    "bucket": 3360,
+    "count": 6648,
     "year": 2023,
     "city": "montreal"
   },
   {
     "bucket": 3420,
-    "count": 17534,
+    "count": 6165,
+    "year": 2023,
+    "city": "montreal"
+  },
+  {
+    "bucket": 3480,
+    "count": 5859,
+    "year": 2023,
+    "city": "montreal"
+  },
+  {
+    "bucket": 3540,
+    "count": 5510,
     "year": 2023,
     "city": "montreal"
   },
   {
     "bucket": 3600,
-    "count": 14357,
+    "count": 5081,
+    "year": 2023,
+    "city": "montreal"
+  },
+  {
+    "bucket": 3660,
+    "count": 4742,
+    "year": 2023,
+    "city": "montreal"
+  },
+  {
+    "bucket": 3720,
+    "count": 4534,
     "year": 2023,
     "city": "montreal"
   },
   {
     "bucket": 3780,
-    "count": 11852,
+    "count": 4200,
+    "year": 2023,
+    "city": "montreal"
+  },
+  {
+    "bucket": 3840,
+    "count": 3912,
+    "year": 2023,
+    "city": "montreal"
+  },
+  {
+    "bucket": 3900,
+    "count": 3740,
     "year": 2023,
     "city": "montreal"
   },
   {
     "bucket": 3960,
-    "count": 10092,
+    "count": 3595,
+    "year": 2023,
+    "city": "montreal"
+  },
+  {
+    "bucket": 4020,
+    "count": 3355,
+    "year": 2023,
+    "city": "montreal"
+  },
+  {
+    "bucket": 4080,
+    "count": 3142,
     "year": 2023,
     "city": "montreal"
   },
   {
     "bucket": 4140,
-    "count": 8596,
+    "count": 3030,
+    "year": 2023,
+    "city": "montreal"
+  },
+  {
+    "bucket": 4200,
+    "count": 2842,
+    "year": 2023,
+    "city": "montreal"
+  },
+  {
+    "bucket": 4260,
+    "count": 2724,
     "year": 2023,
     "city": "montreal"
   },
   {
     "bucket": 4320,
-    "count": 7385,
+    "count": 2552,
+    "year": 2023,
+    "city": "montreal"
+  },
+  {
+    "bucket": 4380,
+    "count": 2418,
+    "year": 2023,
+    "city": "montreal"
+  },
+  {
+    "bucket": 4440,
+    "count": 2415,
     "year": 2023,
     "city": "montreal"
   },
   {
     "bucket": 4500,
-    "count": 6486,
+    "count": 2294,
+    "year": 2023,
+    "city": "montreal"
+  },
+  {
+    "bucket": 4560,
+    "count": 2186,
+    "year": 2023,
+    "city": "montreal"
+  },
+  {
+    "bucket": 4620,
+    "count": 2006,
     "year": 2023,
     "city": "montreal"
   },
   {
     "bucket": 4680,
-    "count": 5730,
+    "count": 1997,
+    "year": 2023,
+    "city": "montreal"
+  },
+  {
+    "bucket": 4740,
+    "count": 1949,
+    "year": 2023,
+    "city": "montreal"
+  },
+  {
+    "bucket": 4800,
+    "count": 1784,
     "year": 2023,
     "city": "montreal"
   },
   {
     "bucket": 4860,
-    "count": 5019,
+    "count": 1688,
+    "year": 2023,
+    "city": "montreal"
+  },
+  {
+    "bucket": 4920,
+    "count": 1693,
+    "year": 2023,
+    "city": "montreal"
+  },
+  {
+    "bucket": 4980,
+    "count": 1638,
     "year": 2023,
     "city": "montreal"
   },
   {
     "bucket": 5040,
-    "count": 4702,
+    "count": 1639,
+    "year": 2023,
+    "city": "montreal"
+  },
+  {
+    "bucket": 5100,
+    "count": 1561,
+    "year": 2023,
+    "city": "montreal"
+  },
+  {
+    "bucket": 5160,
+    "count": 1502,
     "year": 2023,
     "city": "montreal"
   },
   {
     "bucket": 5220,
-    "count": 4087,
+    "count": 1406,
+    "year": 2023,
+    "city": "montreal"
+  },
+  {
+    "bucket": 5280,
+    "count": 1417,
+    "year": 2023,
+    "city": "montreal"
+  },
+  {
+    "bucket": 5340,
+    "count": 1264,
     "year": 2023,
     "city": "montreal"
   },
   {
     "bucket": 5400,
-    "count": 3628,
+    "count": 1258,
+    "year": 2023,
+    "city": "montreal"
+  },
+  {
+    "bucket": 5460,
+    "count": 1209,
+    "year": 2023,
+    "city": "montreal"
+  },
+  {
+    "bucket": 5520,
+    "count": 1161,
     "year": 2023,
     "city": "montreal"
   },
   {
     "bucket": 5580,
-    "count": 3241,
+    "count": 1157,
+    "year": 2023,
+    "city": "montreal"
+  },
+  {
+    "bucket": 5640,
+    "count": 1064,
+    "year": 2023,
+    "city": "montreal"
+  },
+  {
+    "bucket": 5700,
+    "count": 1020,
     "year": 2023,
     "city": "montreal"
   },
   {
     "bucket": 5760,
-    "count": 2950,
+    "count": 966,
+    "year": 2023,
+    "city": "montreal"
+  },
+  {
+    "bucket": 5820,
+    "count": 972,
+    "year": 2023,
+    "city": "montreal"
+  },
+  {
+    "bucket": 5880,
+    "count": 1012,
     "year": 2023,
     "city": "montreal"
   },
   {
     "bucket": 5940,
-    "count": 2801,
+    "count": 1037,
+    "year": 2023,
+    "city": "montreal"
+  },
+  {
+    "bucket": 6000,
+    "count": 905,
+    "year": 2023,
+    "city": "montreal"
+  },
+  {
+    "bucket": 6060,
+    "count": 859,
     "year": 2023,
     "city": "montreal"
   },
   {
     "bucket": 6120,
-    "count": 2495,
+    "count": 879,
+    "year": 2023,
+    "city": "montreal"
+  },
+  {
+    "bucket": 6180,
+    "count": 825,
+    "year": 2023,
+    "city": "montreal"
+  },
+  {
+    "bucket": 6240,
+    "count": 791,
     "year": 2023,
     "city": "montreal"
   },
   {
     "bucket": 6300,
-    "count": 2240,
+    "count": 779,
+    "year": 2023,
+    "city": "montreal"
+  },
+  {
+    "bucket": 6360,
+    "count": 751,
+    "year": 2023,
+    "city": "montreal"
+  },
+  {
+    "bucket": 6420,
+    "count": 710,
     "year": 2023,
     "city": "montreal"
   },
   {
     "bucket": 6480,
-    "count": 2057,
+    "count": 691,
+    "year": 2023,
+    "city": "montreal"
+  },
+  {
+    "bucket": 6540,
+    "count": 678,
+    "year": 2023,
+    "city": "montreal"
+  },
+  {
+    "bucket": 6600,
+    "count": 688,
     "year": 2023,
     "city": "montreal"
   },
   {
     "bucket": 6660,
-    "count": 1975,
+    "count": 667,
+    "year": 2023,
+    "city": "montreal"
+  },
+  {
+    "bucket": 6720,
+    "count": 677,
+    "year": 2023,
+    "city": "montreal"
+  },
+  {
+    "bucket": 6780,
+    "count": 631,
     "year": 2023,
     "city": "montreal"
   },
   {
     "bucket": 6840,
-    "count": 1809,
+    "count": 594,
+    "year": 2023,
+    "city": "montreal"
+  },
+  {
+    "bucket": 6900,
+    "count": 613,
+    "year": 2023,
+    "city": "montreal"
+  },
+  {
+    "bucket": 6960,
+    "count": 602,
     "year": 2023,
     "city": "montreal"
   },
   {
     "bucket": 7020,
-    "count": 1635,
+    "count": 535,
+    "year": 2023,
+    "city": "montreal"
+  },
+  {
+    "bucket": 7080,
+    "count": 554,
+    "year": 2023,
+    "city": "montreal"
+  },
+  {
+    "bucket": 7140,
+    "count": 546,
     "year": 2023,
     "city": "montreal"
   },
@@ -1969,241 +5767,721 @@
   },
   {
     "bucket": 0,
-    "count": 907243,
+    "count": 205235,
+    "year": 2024,
+    "city": "montreal"
+  },
+  {
+    "bucket": 60,
+    "count": 211627,
+    "year": 2024,
+    "city": "montreal"
+  },
+  {
+    "bucket": 120,
+    "count": 490381,
     "year": 2024,
     "city": "montreal"
   },
   {
     "bucket": 180,
-    "count": 2420177,
+    "count": 723307,
+    "year": 2024,
+    "city": "montreal"
+  },
+  {
+    "bucket": 240,
+    "count": 838233,
+    "year": 2024,
+    "city": "montreal"
+  },
+  {
+    "bucket": 300,
+    "count": 858637,
     "year": 2024,
     "city": "montreal"
   },
   {
     "bucket": 360,
-    "count": 2370518,
+    "count": 837569,
+    "year": 2024,
+    "city": "montreal"
+  },
+  {
+    "bucket": 420,
+    "count": 794120,
+    "year": 2024,
+    "city": "montreal"
+  },
+  {
+    "bucket": 480,
+    "count": 738829,
     "year": 2024,
     "city": "montreal"
   },
   {
     "bucket": 540,
-    "count": 1871658,
+    "count": 680936,
+    "year": 2024,
+    "city": "montreal"
+  },
+  {
+    "bucket": 600,
+    "count": 623018,
+    "year": 2024,
+    "city": "montreal"
+  },
+  {
+    "bucket": 660,
+    "count": 567704,
     "year": 2024,
     "city": "montreal"
   },
   {
     "bucket": 720,
-    "count": 1408970,
+    "count": 517268,
+    "year": 2024,
+    "city": "montreal"
+  },
+  {
+    "bucket": 780,
+    "count": 467128,
+    "year": 2024,
+    "city": "montreal"
+  },
+  {
+    "bucket": 840,
+    "count": 424574,
     "year": 2024,
     "city": "montreal"
   },
   {
     "bucket": 900,
-    "count": 1039916,
+    "count": 382248,
+    "year": 2024,
+    "city": "montreal"
+  },
+  {
+    "bucket": 960,
+    "count": 345840,
+    "year": 2024,
+    "city": "montreal"
+  },
+  {
+    "bucket": 1020,
+    "count": 311828,
     "year": 2024,
     "city": "montreal"
   },
   {
     "bucket": 1080,
-    "count": 773872,
+    "count": 282586,
+    "year": 2024,
+    "city": "montreal"
+  },
+  {
+    "bucket": 1140,
+    "count": 257489,
+    "year": 2024,
+    "city": "montreal"
+  },
+  {
+    "bucket": 1200,
+    "count": 233797,
     "year": 2024,
     "city": "montreal"
   },
   {
     "bucket": 1260,
-    "count": 578479,
+    "count": 211810,
+    "year": 2024,
+    "city": "montreal"
+  },
+  {
+    "bucket": 1320,
+    "count": 192425,
+    "year": 2024,
+    "city": "montreal"
+  },
+  {
+    "bucket": 1380,
+    "count": 174244,
     "year": 2024,
     "city": "montreal"
   },
   {
     "bucket": 1440,
-    "count": 433146,
+    "count": 158653,
+    "year": 2024,
+    "city": "montreal"
+  },
+  {
+    "bucket": 1500,
+    "count": 143888,
+    "year": 2024,
+    "city": "montreal"
+  },
+  {
+    "bucket": 1560,
+    "count": 130605,
     "year": 2024,
     "city": "montreal"
   },
   {
     "bucket": 1620,
-    "count": 327043,
+    "count": 119076,
+    "year": 2024,
+    "city": "montreal"
+  },
+  {
+    "bucket": 1680,
+    "count": 108789,
+    "year": 2024,
+    "city": "montreal"
+  },
+  {
+    "bucket": 1740,
+    "count": 99178,
     "year": 2024,
     "city": "montreal"
   },
   {
     "bucket": 1800,
-    "count": 247892,
+    "count": 89928,
+    "year": 2024,
+    "city": "montreal"
+  },
+  {
+    "bucket": 1860,
+    "count": 82592,
+    "year": 2024,
+    "city": "montreal"
+  },
+  {
+    "bucket": 1920,
+    "count": 75372,
     "year": 2024,
     "city": "montreal"
   },
   {
     "bucket": 1980,
-    "count": 190026,
+    "count": 69210,
+    "year": 2024,
+    "city": "montreal"
+  },
+  {
+    "bucket": 2040,
+    "count": 62958,
+    "year": 2024,
+    "city": "montreal"
+  },
+  {
+    "bucket": 2100,
+    "count": 57858,
     "year": 2024,
     "city": "montreal"
   },
   {
     "bucket": 2160,
-    "count": 146420,
+    "count": 52813,
+    "year": 2024,
+    "city": "montreal"
+  },
+  {
+    "bucket": 2220,
+    "count": 48907,
+    "year": 2024,
+    "city": "montreal"
+  },
+  {
+    "bucket": 2280,
+    "count": 44700,
     "year": 2024,
     "city": "montreal"
   },
   {
     "bucket": 2340,
-    "count": 112362,
+    "count": 40952,
+    "year": 2024,
+    "city": "montreal"
+  },
+  {
+    "bucket": 2400,
+    "count": 37421,
+    "year": 2024,
+    "city": "montreal"
+  },
+  {
+    "bucket": 2460,
+    "count": 33989,
     "year": 2024,
     "city": "montreal"
   },
   {
     "bucket": 2520,
-    "count": 83602,
+    "count": 31091,
+    "year": 2024,
+    "city": "montreal"
+  },
+  {
+    "bucket": 2580,
+    "count": 27792,
+    "year": 2024,
+    "city": "montreal"
+  },
+  {
+    "bucket": 2640,
+    "count": 24719,
     "year": 2024,
     "city": "montreal"
   },
   {
     "bucket": 2700,
-    "count": 54389,
+    "count": 20901,
+    "year": 2024,
+    "city": "montreal"
+  },
+  {
+    "bucket": 2760,
+    "count": 17784,
+    "year": 2024,
+    "city": "montreal"
+  },
+  {
+    "bucket": 2820,
+    "count": 15704,
     "year": 2024,
     "city": "montreal"
   },
   {
     "bucket": 2880,
-    "count": 37226,
+    "count": 13799,
+    "year": 2024,
+    "city": "montreal"
+  },
+  {
+    "bucket": 2940,
+    "count": 12274,
+    "year": 2024,
+    "city": "montreal"
+  },
+  {
+    "bucket": 3000,
+    "count": 11153,
     "year": 2024,
     "city": "montreal"
   },
   {
     "bucket": 3060,
-    "count": 27516,
+    "count": 10122,
+    "year": 2024,
+    "city": "montreal"
+  },
+  {
+    "bucket": 3120,
+    "count": 9112,
+    "year": 2024,
+    "city": "montreal"
+  },
+  {
+    "bucket": 3180,
+    "count": 8282,
     "year": 2024,
     "city": "montreal"
   },
   {
     "bucket": 3240,
-    "count": 20794,
+    "count": 7616,
+    "year": 2024,
+    "city": "montreal"
+  },
+  {
+    "bucket": 3300,
+    "count": 6909,
+    "year": 2024,
+    "city": "montreal"
+  },
+  {
+    "bucket": 3360,
+    "count": 6269,
     "year": 2024,
     "city": "montreal"
   },
   {
     "bucket": 3420,
-    "count": 16865,
+    "count": 6009,
+    "year": 2024,
+    "city": "montreal"
+  },
+  {
+    "bucket": 3480,
+    "count": 5638,
+    "year": 2024,
+    "city": "montreal"
+  },
+  {
+    "bucket": 3540,
+    "count": 5218,
     "year": 2024,
     "city": "montreal"
   },
   {
     "bucket": 3600,
-    "count": 13526,
+    "count": 4893,
+    "year": 2024,
+    "city": "montreal"
+  },
+  {
+    "bucket": 3660,
+    "count": 4492,
+    "year": 2024,
+    "city": "montreal"
+  },
+  {
+    "bucket": 3720,
+    "count": 4141,
     "year": 2024,
     "city": "montreal"
   },
   {
     "bucket": 3780,
-    "count": 11312,
+    "count": 4098,
+    "year": 2024,
+    "city": "montreal"
+  },
+  {
+    "bucket": 3840,
+    "count": 3705,
+    "year": 2024,
+    "city": "montreal"
+  },
+  {
+    "bucket": 3900,
+    "count": 3509,
     "year": 2024,
     "city": "montreal"
   },
   {
     "bucket": 3960,
-    "count": 9303,
+    "count": 3389,
+    "year": 2024,
+    "city": "montreal"
+  },
+  {
+    "bucket": 4020,
+    "count": 3064,
+    "year": 2024,
+    "city": "montreal"
+  },
+  {
+    "bucket": 4080,
+    "count": 2850,
     "year": 2024,
     "city": "montreal"
   },
   {
     "bucket": 4140,
-    "count": 7822,
-    "year": 2024,
-    "city": "montreal"
-  },
-  {
-    "bucket": 4320,
-    "count": 6802,
-    "year": 2024,
-    "city": "montreal"
-  },
-  {
-    "bucket": 4500,
-    "count": 5884,
-    "year": 2024,
-    "city": "montreal"
-  },
-  {
-    "bucket": 4680,
-    "count": 5172,
-    "year": 2024,
-    "city": "montreal"
-  },
-  {
-    "bucket": 4860,
-    "count": 4599,
-    "year": 2024,
-    "city": "montreal"
-  },
-  {
-    "bucket": 5040,
-    "count": 4216,
-    "year": 2024,
-    "city": "montreal"
-  },
-  {
-    "bucket": 5220,
-    "count": 3678,
-    "year": 2024,
-    "city": "montreal"
-  },
-  {
-    "bucket": 5400,
-    "count": 3436,
-    "year": 2024,
-    "city": "montreal"
-  },
-  {
-    "bucket": 5580,
-    "count": 2976,
-    "year": 2024,
-    "city": "montreal"
-  },
-  {
-    "bucket": 5760,
     "count": 2698,
     "year": 2024,
     "city": "montreal"
   },
   {
+    "bucket": 4200,
+    "count": 2634,
+    "year": 2024,
+    "city": "montreal"
+  },
+  {
+    "bucket": 4260,
+    "count": 2490,
+    "year": 2024,
+    "city": "montreal"
+  },
+  {
+    "bucket": 4320,
+    "count": 2348,
+    "year": 2024,
+    "city": "montreal"
+  },
+  {
+    "bucket": 4380,
+    "count": 2296,
+    "year": 2024,
+    "city": "montreal"
+  },
+  {
+    "bucket": 4440,
+    "count": 2158,
+    "year": 2024,
+    "city": "montreal"
+  },
+  {
+    "bucket": 4500,
+    "count": 2050,
+    "year": 2024,
+    "city": "montreal"
+  },
+  {
+    "bucket": 4560,
+    "count": 1969,
+    "year": 2024,
+    "city": "montreal"
+  },
+  {
+    "bucket": 4620,
+    "count": 1865,
+    "year": 2024,
+    "city": "montreal"
+  },
+  {
+    "bucket": 4680,
+    "count": 1804,
+    "year": 2024,
+    "city": "montreal"
+  },
+  {
+    "bucket": 4740,
+    "count": 1692,
+    "year": 2024,
+    "city": "montreal"
+  },
+  {
+    "bucket": 4800,
+    "count": 1676,
+    "year": 2024,
+    "city": "montreal"
+  },
+  {
+    "bucket": 4860,
+    "count": 1548,
+    "year": 2024,
+    "city": "montreal"
+  },
+  {
+    "bucket": 4920,
+    "count": 1558,
+    "year": 2024,
+    "city": "montreal"
+  },
+  {
+    "bucket": 4980,
+    "count": 1493,
+    "year": 2024,
+    "city": "montreal"
+  },
+  {
+    "bucket": 5040,
+    "count": 1447,
+    "year": 2024,
+    "city": "montreal"
+  },
+  {
+    "bucket": 5100,
+    "count": 1385,
+    "year": 2024,
+    "city": "montreal"
+  },
+  {
+    "bucket": 5160,
+    "count": 1384,
+    "year": 2024,
+    "city": "montreal"
+  },
+  {
+    "bucket": 5220,
+    "count": 1235,
+    "year": 2024,
+    "city": "montreal"
+  },
+  {
+    "bucket": 5280,
+    "count": 1225,
+    "year": 2024,
+    "city": "montreal"
+  },
+  {
+    "bucket": 5340,
+    "count": 1218,
+    "year": 2024,
+    "city": "montreal"
+  },
+  {
+    "bucket": 5400,
+    "count": 1200,
+    "year": 2024,
+    "city": "montreal"
+  },
+  {
+    "bucket": 5460,
+    "count": 1112,
+    "year": 2024,
+    "city": "montreal"
+  },
+  {
+    "bucket": 5520,
+    "count": 1124,
+    "year": 2024,
+    "city": "montreal"
+  },
+  {
+    "bucket": 5580,
+    "count": 1003,
+    "year": 2024,
+    "city": "montreal"
+  },
+  {
+    "bucket": 5640,
+    "count": 1014,
+    "year": 2024,
+    "city": "montreal"
+  },
+  {
+    "bucket": 5700,
+    "count": 959,
+    "year": 2024,
+    "city": "montreal"
+  },
+  {
+    "bucket": 5760,
+    "count": 914,
+    "year": 2024,
+    "city": "montreal"
+  },
+  {
+    "bucket": 5820,
+    "count": 902,
+    "year": 2024,
+    "city": "montreal"
+  },
+  {
+    "bucket": 5880,
+    "count": 882,
+    "year": 2024,
+    "city": "montreal"
+  },
+  {
     "bucket": 5940,
-    "count": 2566,
+    "count": 938,
+    "year": 2024,
+    "city": "montreal"
+  },
+  {
+    "bucket": 6000,
+    "count": 827,
+    "year": 2024,
+    "city": "montreal"
+  },
+  {
+    "bucket": 6060,
+    "count": 801,
     "year": 2024,
     "city": "montreal"
   },
   {
     "bucket": 6120,
-    "count": 2295,
+    "count": 797,
+    "year": 2024,
+    "city": "montreal"
+  },
+  {
+    "bucket": 6180,
+    "count": 762,
+    "year": 2024,
+    "city": "montreal"
+  },
+  {
+    "bucket": 6240,
+    "count": 736,
     "year": 2024,
     "city": "montreal"
   },
   {
     "bucket": 6300,
-    "count": 2149,
+    "count": 748,
+    "year": 2024,
+    "city": "montreal"
+  },
+  {
+    "bucket": 6360,
+    "count": 714,
+    "year": 2024,
+    "city": "montreal"
+  },
+  {
+    "bucket": 6420,
+    "count": 687,
     "year": 2024,
     "city": "montreal"
   },
   {
     "bucket": 6480,
-    "count": 1834,
+    "count": 633,
+    "year": 2024,
+    "city": "montreal"
+  },
+  {
+    "bucket": 6540,
+    "count": 601,
+    "year": 2024,
+    "city": "montreal"
+  },
+  {
+    "bucket": 6600,
+    "count": 600,
     "year": 2024,
     "city": "montreal"
   },
   {
     "bucket": 6660,
-    "count": 1816,
+    "count": 651,
+    "year": 2024,
+    "city": "montreal"
+  },
+  {
+    "bucket": 6720,
+    "count": 598,
+    "year": 2024,
+    "city": "montreal"
+  },
+  {
+    "bucket": 6780,
+    "count": 567,
     "year": 2024,
     "city": "montreal"
   },
   {
     "bucket": 6840,
-    "count": 1690,
+    "count": 585,
+    "year": 2024,
+    "city": "montreal"
+  },
+  {
+    "bucket": 6900,
+    "count": 568,
+    "year": 2024,
+    "city": "montreal"
+  },
+  {
+    "bucket": 6960,
+    "count": 537,
     "year": 2024,
     "city": "montreal"
   },
   {
     "bucket": 7020,
-    "count": 1517,
+    "count": 538,
+    "year": 2024,
+    "city": "montreal"
+  },
+  {
+    "bucket": 7080,
+    "count": 513,
+    "year": 2024,
+    "city": "montreal"
+  },
+  {
+    "bucket": 7140,
+    "count": 466,
     "year": 2024,
     "city": "montreal"
   },
@@ -2215,241 +6493,721 @@
   },
   {
     "bucket": 0,
-    "count": 1354680,
+    "count": 295227,
+    "year": 2025,
+    "city": "montreal"
+  },
+  {
+    "bucket": 60,
+    "count": 322944,
+    "year": 2025,
+    "city": "montreal"
+  },
+  {
+    "bucket": 120,
+    "count": 736509,
     "year": 2025,
     "city": "montreal"
   },
   {
     "bucket": 180,
-    "count": 3710773,
+    "count": 1099407,
+    "year": 2025,
+    "city": "montreal"
+  },
+  {
+    "bucket": 240,
+    "count": 1285149,
+    "year": 2025,
+    "city": "montreal"
+  },
+  {
+    "bucket": 300,
+    "count": 1326217,
     "year": 2025,
     "city": "montreal"
   },
   {
     "bucket": 360,
-    "count": 3693912,
+    "count": 1301452,
+    "year": 2025,
+    "city": "montreal"
+  },
+  {
+    "bucket": 420,
+    "count": 1236744,
+    "year": 2025,
+    "city": "montreal"
+  },
+  {
+    "bucket": 480,
+    "count": 1155716,
     "year": 2025,
     "city": "montreal"
   },
   {
     "bucket": 540,
-    "count": 2954819,
+    "count": 1068063,
+    "year": 2025,
+    "city": "montreal"
+  },
+  {
+    "bucket": 600,
+    "count": 983755,
+    "year": 2025,
+    "city": "montreal"
+  },
+  {
+    "bucket": 660,
+    "count": 903001,
     "year": 2025,
     "city": "montreal"
   },
   {
     "bucket": 720,
-    "count": 2259286,
+    "count": 825446,
+    "year": 2025,
+    "city": "montreal"
+  },
+  {
+    "bucket": 780,
+    "count": 752505,
+    "year": 2025,
+    "city": "montreal"
+  },
+  {
+    "bucket": 840,
+    "count": 681335,
     "year": 2025,
     "city": "montreal"
   },
   {
     "bucket": 900,
-    "count": 1695800,
+    "count": 619999,
+    "year": 2025,
+    "city": "montreal"
+  },
+  {
+    "bucket": 960,
+    "count": 563811,
+    "year": 2025,
+    "city": "montreal"
+  },
+  {
+    "bucket": 1020,
+    "count": 511990,
     "year": 2025,
     "city": "montreal"
   },
   {
     "bucket": 1080,
-    "count": 1287121,
+    "count": 470005,
+    "year": 2025,
+    "city": "montreal"
+  },
+  {
+    "bucket": 1140,
+    "count": 426507,
+    "year": 2025,
+    "city": "montreal"
+  },
+  {
+    "bucket": 1200,
+    "count": 390609,
     "year": 2025,
     "city": "montreal"
   },
   {
     "bucket": 1260,
-    "count": 974378,
+    "count": 354661,
+    "year": 2025,
+    "city": "montreal"
+  },
+  {
+    "bucket": 1320,
+    "count": 323702,
+    "year": 2025,
+    "city": "montreal"
+  },
+  {
+    "bucket": 1380,
+    "count": 296015,
     "year": 2025,
     "city": "montreal"
   },
   {
     "bucket": 1440,
-    "count": 739634,
+    "count": 269112,
+    "year": 2025,
+    "city": "montreal"
+  },
+  {
+    "bucket": 1500,
+    "count": 246415,
+    "year": 2025,
+    "city": "montreal"
+  },
+  {
+    "bucket": 1560,
+    "count": 224107,
     "year": 2025,
     "city": "montreal"
   },
   {
     "bucket": 1620,
-    "count": 563534,
+    "count": 206528,
+    "year": 2025,
+    "city": "montreal"
+  },
+  {
+    "bucket": 1680,
+    "count": 186393,
+    "year": 2025,
+    "city": "montreal"
+  },
+  {
+    "bucket": 1740,
+    "count": 170613,
     "year": 2025,
     "city": "montreal"
   },
   {
     "bucket": 1800,
-    "count": 432384,
+    "count": 156988,
+    "year": 2025,
+    "city": "montreal"
+  },
+  {
+    "bucket": 1860,
+    "count": 144059,
+    "year": 2025,
+    "city": "montreal"
+  },
+  {
+    "bucket": 1920,
+    "count": 131337,
     "year": 2025,
     "city": "montreal"
   },
   {
     "bucket": 1980,
-    "count": 331069,
+    "count": 120084,
+    "year": 2025,
+    "city": "montreal"
+  },
+  {
+    "bucket": 2040,
+    "count": 110222,
+    "year": 2025,
+    "city": "montreal"
+  },
+  {
+    "bucket": 2100,
+    "count": 100763,
     "year": 2025,
     "city": "montreal"
   },
   {
     "bucket": 2160,
-    "count": 257228,
+    "count": 93162,
+    "year": 2025,
+    "city": "montreal"
+  },
+  {
+    "bucket": 2220,
+    "count": 85815,
+    "year": 2025,
+    "city": "montreal"
+  },
+  {
+    "bucket": 2280,
+    "count": 78251,
     "year": 2025,
     "city": "montreal"
   },
   {
     "bucket": 2340,
-    "count": 197531,
+    "count": 71699,
+    "year": 2025,
+    "city": "montreal"
+  },
+  {
+    "bucket": 2400,
+    "count": 66104,
+    "year": 2025,
+    "city": "montreal"
+  },
+  {
+    "bucket": 2460,
+    "count": 59728,
     "year": 2025,
     "city": "montreal"
   },
   {
     "bucket": 2520,
-    "count": 146647,
+    "count": 54403,
+    "year": 2025,
+    "city": "montreal"
+  },
+  {
+    "bucket": 2580,
+    "count": 49091,
+    "year": 2025,
+    "city": "montreal"
+  },
+  {
+    "bucket": 2640,
+    "count": 43153,
     "year": 2025,
     "city": "montreal"
   },
   {
     "bucket": 2700,
-    "count": 96086,
+    "count": 36576,
+    "year": 2025,
+    "city": "montreal"
+  },
+  {
+    "bucket": 2760,
+    "count": 31463,
+    "year": 2025,
+    "city": "montreal"
+  },
+  {
+    "bucket": 2820,
+    "count": 28047,
     "year": 2025,
     "city": "montreal"
   },
   {
     "bucket": 2880,
-    "count": 66432,
+    "count": 24331,
+    "year": 2025,
+    "city": "montreal"
+  },
+  {
+    "bucket": 2940,
+    "count": 22150,
+    "year": 2025,
+    "city": "montreal"
+  },
+  {
+    "bucket": 3000,
+    "count": 19951,
     "year": 2025,
     "city": "montreal"
   },
   {
     "bucket": 3060,
-    "count": 48964,
+    "count": 18068,
+    "year": 2025,
+    "city": "montreal"
+  },
+  {
+    "bucket": 3120,
+    "count": 16235,
+    "year": 2025,
+    "city": "montreal"
+  },
+  {
+    "bucket": 3180,
+    "count": 14661,
     "year": 2025,
     "city": "montreal"
   },
   {
     "bucket": 3240,
-    "count": 37585,
+    "count": 13481,
+    "year": 2025,
+    "city": "montreal"
+  },
+  {
+    "bucket": 3300,
+    "count": 12673,
+    "year": 2025,
+    "city": "montreal"
+  },
+  {
+    "bucket": 3360,
+    "count": 11431,
     "year": 2025,
     "city": "montreal"
   },
   {
     "bucket": 3420,
-    "count": 29925,
+    "count": 10788,
+    "year": 2025,
+    "city": "montreal"
+  },
+  {
+    "bucket": 3480,
+    "count": 9903,
+    "year": 2025,
+    "city": "montreal"
+  },
+  {
+    "bucket": 3540,
+    "count": 9234,
     "year": 2025,
     "city": "montreal"
   },
   {
     "bucket": 3600,
-    "count": 24013,
+    "count": 8633,
+    "year": 2025,
+    "city": "montreal"
+  },
+  {
+    "bucket": 3660,
+    "count": 7919,
+    "year": 2025,
+    "city": "montreal"
+  },
+  {
+    "bucket": 3720,
+    "count": 7461,
     "year": 2025,
     "city": "montreal"
   },
   {
     "bucket": 3780,
-    "count": 20080,
+    "count": 7093,
     "year": 2025,
     "city": "montreal"
   },
   {
-    "bucket": 3960,
-    "count": 16750,
-    "year": 2025,
-    "city": "montreal"
-  },
-  {
-    "bucket": 4140,
-    "count": 14233,
-    "year": 2025,
-    "city": "montreal"
-  },
-  {
-    "bucket": 4320,
-    "count": 12328,
-    "year": 2025,
-    "city": "montreal"
-  },
-  {
-    "bucket": 4500,
-    "count": 10432,
-    "year": 2025,
-    "city": "montreal"
-  },
-  {
-    "bucket": 4680,
-    "count": 9329,
-    "year": 2025,
-    "city": "montreal"
-  },
-  {
-    "bucket": 4860,
-    "count": 8169,
-    "year": 2025,
-    "city": "montreal"
-  },
-  {
-    "bucket": 5040,
-    "count": 7104,
-    "year": 2025,
-    "city": "montreal"
-  },
-  {
-    "bucket": 5220,
+    "bucket": 3840,
     "count": 6628,
     "year": 2025,
     "city": "montreal"
   },
   {
+    "bucket": 3900,
+    "count": 6359,
+    "year": 2025,
+    "city": "montreal"
+  },
+  {
+    "bucket": 3960,
+    "count": 5829,
+    "year": 2025,
+    "city": "montreal"
+  },
+  {
+    "bucket": 4020,
+    "count": 5635,
+    "year": 2025,
+    "city": "montreal"
+  },
+  {
+    "bucket": 4080,
+    "count": 5286,
+    "year": 2025,
+    "city": "montreal"
+  },
+  {
+    "bucket": 4140,
+    "count": 4934,
+    "year": 2025,
+    "city": "montreal"
+  },
+  {
+    "bucket": 4200,
+    "count": 4830,
+    "year": 2025,
+    "city": "montreal"
+  },
+  {
+    "bucket": 4260,
+    "count": 4469,
+    "year": 2025,
+    "city": "montreal"
+  },
+  {
+    "bucket": 4320,
+    "count": 4333,
+    "year": 2025,
+    "city": "montreal"
+  },
+  {
+    "bucket": 4380,
+    "count": 4122,
+    "year": 2025,
+    "city": "montreal"
+  },
+  {
+    "bucket": 4440,
+    "count": 3873,
+    "year": 2025,
+    "city": "montreal"
+  },
+  {
+    "bucket": 4500,
+    "count": 3580,
+    "year": 2025,
+    "city": "montreal"
+  },
+  {
+    "bucket": 4560,
+    "count": 3445,
+    "year": 2025,
+    "city": "montreal"
+  },
+  {
+    "bucket": 4620,
+    "count": 3407,
+    "year": 2025,
+    "city": "montreal"
+  },
+  {
+    "bucket": 4680,
+    "count": 3170,
+    "year": 2025,
+    "city": "montreal"
+  },
+  {
+    "bucket": 4740,
+    "count": 3105,
+    "year": 2025,
+    "city": "montreal"
+  },
+  {
+    "bucket": 4800,
+    "count": 3054,
+    "year": 2025,
+    "city": "montreal"
+  },
+  {
+    "bucket": 4860,
+    "count": 2917,
+    "year": 2025,
+    "city": "montreal"
+  },
+  {
+    "bucket": 4920,
+    "count": 2783,
+    "year": 2025,
+    "city": "montreal"
+  },
+  {
+    "bucket": 4980,
+    "count": 2469,
+    "year": 2025,
+    "city": "montreal"
+  },
+  {
+    "bucket": 5040,
+    "count": 2421,
+    "year": 2025,
+    "city": "montreal"
+  },
+  {
+    "bucket": 5100,
+    "count": 2339,
+    "year": 2025,
+    "city": "montreal"
+  },
+  {
+    "bucket": 5160,
+    "count": 2344,
+    "year": 2025,
+    "city": "montreal"
+  },
+  {
+    "bucket": 5220,
+    "count": 2259,
+    "year": 2025,
+    "city": "montreal"
+  },
+  {
+    "bucket": 5280,
+    "count": 2249,
+    "year": 2025,
+    "city": "montreal"
+  },
+  {
+    "bucket": 5340,
+    "count": 2120,
+    "year": 2025,
+    "city": "montreal"
+  },
+  {
     "bucket": 5400,
-    "count": 6107,
+    "count": 2088,
+    "year": 2025,
+    "city": "montreal"
+  },
+  {
+    "bucket": 5460,
+    "count": 2043,
+    "year": 2025,
+    "city": "montreal"
+  },
+  {
+    "bucket": 5520,
+    "count": 1976,
     "year": 2025,
     "city": "montreal"
   },
   {
     "bucket": 5580,
-    "count": 5528,
+    "count": 1845,
+    "year": 2025,
+    "city": "montreal"
+  },
+  {
+    "bucket": 5640,
+    "count": 1968,
+    "year": 2025,
+    "city": "montreal"
+  },
+  {
+    "bucket": 5700,
+    "count": 1715,
     "year": 2025,
     "city": "montreal"
   },
   {
     "bucket": 5760,
-    "count": 4629,
+    "count": 1710,
+    "year": 2025,
+    "city": "montreal"
+  },
+  {
+    "bucket": 5820,
+    "count": 1449,
+    "year": 2025,
+    "city": "montreal"
+  },
+  {
+    "bucket": 5880,
+    "count": 1470,
     "year": 2025,
     "city": "montreal"
   },
   {
     "bucket": 5940,
-    "count": 4443,
+    "count": 1601,
+    "year": 2025,
+    "city": "montreal"
+  },
+  {
+    "bucket": 6000,
+    "count": 1425,
+    "year": 2025,
+    "city": "montreal"
+  },
+  {
+    "bucket": 6060,
+    "count": 1417,
     "year": 2025,
     "city": "montreal"
   },
   {
     "bucket": 6120,
-    "count": 3968,
+    "count": 1431,
+    "year": 2025,
+    "city": "montreal"
+  },
+  {
+    "bucket": 6180,
+    "count": 1249,
+    "year": 2025,
+    "city": "montreal"
+  },
+  {
+    "bucket": 6240,
+    "count": 1288,
     "year": 2025,
     "city": "montreal"
   },
   {
     "bucket": 6300,
-    "count": 3743,
+    "count": 1264,
+    "year": 2025,
+    "city": "montreal"
+  },
+  {
+    "bucket": 6360,
+    "count": 1263,
+    "year": 2025,
+    "city": "montreal"
+  },
+  {
+    "bucket": 6420,
+    "count": 1216,
     "year": 2025,
     "city": "montreal"
   },
   {
     "bucket": 6480,
-    "count": 3104,
+    "count": 1015,
+    "year": 2025,
+    "city": "montreal"
+  },
+  {
+    "bucket": 6540,
+    "count": 1076,
+    "year": 2025,
+    "city": "montreal"
+  },
+  {
+    "bucket": 6600,
+    "count": 1013,
     "year": 2025,
     "city": "montreal"
   },
   {
     "bucket": 6660,
-    "count": 2997,
+    "count": 1045,
+    "year": 2025,
+    "city": "montreal"
+  },
+  {
+    "bucket": 6720,
+    "count": 1012,
+    "year": 2025,
+    "city": "montreal"
+  },
+  {
+    "bucket": 6780,
+    "count": 940,
     "year": 2025,
     "city": "montreal"
   },
   {
     "bucket": 6840,
-    "count": 2844,
+    "count": 976,
+    "year": 2025,
+    "city": "montreal"
+  },
+  {
+    "bucket": 6900,
+    "count": 903,
+    "year": 2025,
+    "city": "montreal"
+  },
+  {
+    "bucket": 6960,
+    "count": 965,
     "year": 2025,
     "city": "montreal"
   },
   {
     "bucket": 7020,
-    "count": 2625,
+    "count": 899,
+    "year": 2025,
+    "city": "montreal"
+  },
+  {
+    "bucket": 7080,
+    "count": 830,
+    "year": 2025,
+    "city": "montreal"
+  },
+  {
+    "bucket": 7140,
+    "count": 896,
     "year": 2025,
     "city": "montreal"
   },
