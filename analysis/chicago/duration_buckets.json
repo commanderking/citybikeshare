@@ -1,241 +1,715 @@
 [
   {
-    "bucket": 0,
-    "count": 12181,
+    "bucket": 60,
+    "count": 2346,
+    "year": 2013,
+    "city": "chicago"
+  },
+  {
+    "bucket": 120,
+    "count": 9835,
     "year": 2013,
     "city": "chicago"
   },
   {
     "bucket": 180,
-    "count": 85402,
+    "count": 20074,
+    "year": 2013,
+    "city": "chicago"
+  },
+  {
+    "bucket": 240,
+    "count": 29322,
+    "year": 2013,
+    "city": "chicago"
+  },
+  {
+    "bucket": 300,
+    "count": 36006,
     "year": 2013,
     "city": "chicago"
   },
   {
     "bucket": 360,
-    "count": 115966,
+    "count": 38708,
+    "year": 2013,
+    "city": "chicago"
+  },
+  {
+    "bucket": 420,
+    "count": 38810,
+    "year": 2013,
+    "city": "chicago"
+  },
+  {
+    "bucket": 480,
+    "count": 38448,
     "year": 2013,
     "city": "chicago"
   },
   {
     "bucket": 540,
-    "count": 103234,
+    "count": 36476,
+    "year": 2013,
+    "city": "chicago"
+  },
+  {
+    "bucket": 600,
+    "count": 34552,
+    "year": 2013,
+    "city": "chicago"
+  },
+  {
+    "bucket": 660,
+    "count": 32206,
     "year": 2013,
     "city": "chicago"
   },
   {
     "bucket": 720,
-    "count": 84358,
+    "count": 29848,
+    "year": 2013,
+    "city": "chicago"
+  },
+  {
+    "bucket": 780,
+    "count": 28059,
+    "year": 2013,
+    "city": "chicago"
+  },
+  {
+    "bucket": 840,
+    "count": 26451,
     "year": 2013,
     "city": "chicago"
   },
   {
     "bucket": 900,
-    "count": 70367,
+    "count": 24684,
+    "year": 2013,
+    "city": "chicago"
+  },
+  {
+    "bucket": 960,
+    "count": 23586,
+    "year": 2013,
+    "city": "chicago"
+  },
+  {
+    "bucket": 1020,
+    "count": 22097,
     "year": 2013,
     "city": "chicago"
   },
   {
     "bucket": 1080,
-    "count": 60628,
+    "count": 21285,
+    "year": 2013,
+    "city": "chicago"
+  },
+  {
+    "bucket": 1140,
+    "count": 20190,
+    "year": 2013,
+    "city": "chicago"
+  },
+  {
+    "bucket": 1200,
+    "count": 19153,
     "year": 2013,
     "city": "chicago"
   },
   {
     "bucket": 1260,
-    "count": 52172,
+    "count": 18073,
+    "year": 2013,
+    "city": "chicago"
+  },
+  {
+    "bucket": 1320,
+    "count": 17622,
+    "year": 2013,
+    "city": "chicago"
+  },
+  {
+    "bucket": 1380,
+    "count": 16477,
     "year": 2013,
     "city": "chicago"
   },
   {
     "bucket": 1440,
-    "count": 43244,
+    "count": 15276,
+    "year": 2013,
+    "city": "chicago"
+  },
+  {
+    "bucket": 1500,
+    "count": 14452,
+    "year": 2013,
+    "city": "chicago"
+  },
+  {
+    "bucket": 1560,
+    "count": 13516,
     "year": 2013,
     "city": "chicago"
   },
   {
     "bucket": 1620,
-    "count": 31770,
+    "count": 11841,
+    "year": 2013,
+    "city": "chicago"
+  },
+  {
+    "bucket": 1680,
+    "count": 10662,
+    "year": 2013,
+    "city": "chicago"
+  },
+  {
+    "bucket": 1740,
+    "count": 9267,
     "year": 2013,
     "city": "chicago"
   },
   {
     "bucket": 1800,
-    "count": 20216,
+    "count": 7866,
+    "year": 2013,
+    "city": "chicago"
+  },
+  {
+    "bucket": 1860,
+    "count": 6686,
+    "year": 2013,
+    "city": "chicago"
+  },
+  {
+    "bucket": 1920,
+    "count": 5664,
     "year": 2013,
     "city": "chicago"
   },
   {
     "bucket": 1980,
-    "count": 12749,
+    "count": 4849,
+    "year": 2013,
+    "city": "chicago"
+  },
+  {
+    "bucket": 2040,
+    "count": 4156,
+    "year": 2013,
+    "city": "chicago"
+  },
+  {
+    "bucket": 2100,
+    "count": 3744,
     "year": 2013,
     "city": "chicago"
   },
   {
     "bucket": 2160,
-    "count": 9076,
+    "count": 3325,
+    "year": 2013,
+    "city": "chicago"
+  },
+  {
+    "bucket": 2220,
+    "count": 3049,
+    "year": 2013,
+    "city": "chicago"
+  },
+  {
+    "bucket": 2280,
+    "count": 2702,
     "year": 2013,
     "city": "chicago"
   },
   {
     "bucket": 2340,
-    "count": 6909,
+    "count": 2427,
+    "year": 2013,
+    "city": "chicago"
+  },
+  {
+    "bucket": 2400,
+    "count": 2330,
+    "year": 2013,
+    "city": "chicago"
+  },
+  {
+    "bucket": 2460,
+    "count": 2152,
     "year": 2013,
     "city": "chicago"
   },
   {
     "bucket": 2520,
-    "count": 5671,
+    "count": 2027,
+    "year": 2013,
+    "city": "chicago"
+  },
+  {
+    "bucket": 2580,
+    "count": 1910,
+    "year": 2013,
+    "city": "chicago"
+  },
+  {
+    "bucket": 2640,
+    "count": 1734,
     "year": 2013,
     "city": "chicago"
   },
   {
     "bucket": 2700,
-    "count": 4726,
+    "count": 1642,
+    "year": 2013,
+    "city": "chicago"
+  },
+  {
+    "bucket": 2760,
+    "count": 1555,
+    "year": 2013,
+    "city": "chicago"
+  },
+  {
+    "bucket": 2820,
+    "count": 1529,
     "year": 2013,
     "city": "chicago"
   },
   {
     "bucket": 2880,
-    "count": 4030,
+    "count": 1429,
+    "year": 2013,
+    "city": "chicago"
+  },
+  {
+    "bucket": 2940,
+    "count": 1348,
+    "year": 2013,
+    "city": "chicago"
+  },
+  {
+    "bucket": 3000,
+    "count": 1253,
     "year": 2013,
     "city": "chicago"
   },
   {
     "bucket": 3060,
-    "count": 3652,
+    "count": 1294,
+    "year": 2013,
+    "city": "chicago"
+  },
+  {
+    "bucket": 3120,
+    "count": 1211,
+    "year": 2013,
+    "city": "chicago"
+  },
+  {
+    "bucket": 3180,
+    "count": 1147,
     "year": 2013,
     "city": "chicago"
   },
   {
     "bucket": 3240,
-    "count": 3118,
+    "count": 1098,
+    "year": 2013,
+    "city": "chicago"
+  },
+  {
+    "bucket": 3300,
+    "count": 1013,
+    "year": 2013,
+    "city": "chicago"
+  },
+  {
+    "bucket": 3360,
+    "count": 1007,
     "year": 2013,
     "city": "chicago"
   },
   {
     "bucket": 3420,
-    "count": 2585,
+    "count": 909,
+    "year": 2013,
+    "city": "chicago"
+  },
+  {
+    "bucket": 3480,
+    "count": 871,
+    "year": 2013,
+    "city": "chicago"
+  },
+  {
+    "bucket": 3540,
+    "count": 805,
     "year": 2013,
     "city": "chicago"
   },
   {
     "bucket": 3600,
-    "count": 2221,
+    "count": 771,
+    "year": 2013,
+    "city": "chicago"
+  },
+  {
+    "bucket": 3660,
+    "count": 770,
+    "year": 2013,
+    "city": "chicago"
+  },
+  {
+    "bucket": 3720,
+    "count": 680,
     "year": 2013,
     "city": "chicago"
   },
   {
     "bucket": 3780,
-    "count": 1829,
+    "count": 577,
+    "year": 2013,
+    "city": "chicago"
+  },
+  {
+    "bucket": 3840,
+    "count": 654,
+    "year": 2013,
+    "city": "chicago"
+  },
+  {
+    "bucket": 3900,
+    "count": 598,
     "year": 2013,
     "city": "chicago"
   },
   {
     "bucket": 3960,
-    "count": 1719,
+    "count": 584,
+    "year": 2013,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4020,
+    "count": 555,
+    "year": 2013,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4080,
+    "count": 580,
     "year": 2013,
     "city": "chicago"
   },
   {
     "bucket": 4140,
-    "count": 1412,
+    "count": 520,
+    "year": 2013,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4200,
+    "count": 436,
+    "year": 2013,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4260,
+    "count": 456,
     "year": 2013,
     "city": "chicago"
   },
   {
     "bucket": 4320,
-    "count": 1356,
+    "count": 448,
+    "year": 2013,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4380,
+    "count": 460,
+    "year": 2013,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4440,
+    "count": 448,
     "year": 2013,
     "city": "chicago"
   },
   {
     "bucket": 4500,
-    "count": 1213,
+    "count": 399,
+    "year": 2013,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4560,
+    "count": 390,
+    "year": 2013,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4620,
+    "count": 424,
     "year": 2013,
     "city": "chicago"
   },
   {
     "bucket": 4680,
-    "count": 1086,
+    "count": 375,
+    "year": 2013,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4740,
+    "count": 348,
+    "year": 2013,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4800,
+    "count": 363,
     "year": 2013,
     "city": "chicago"
   },
   {
     "bucket": 4860,
-    "count": 1028,
+    "count": 339,
+    "year": 2013,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4920,
+    "count": 362,
+    "year": 2013,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4980,
+    "count": 327,
     "year": 2013,
     "city": "chicago"
   },
   {
     "bucket": 5040,
-    "count": 908,
+    "count": 309,
+    "year": 2013,
+    "city": "chicago"
+  },
+  {
+    "bucket": 5100,
+    "count": 308,
+    "year": 2013,
+    "city": "chicago"
+  },
+  {
+    "bucket": 5160,
+    "count": 291,
     "year": 2013,
     "city": "chicago"
   },
   {
     "bucket": 5220,
-    "count": 784,
+    "count": 256,
+    "year": 2013,
+    "city": "chicago"
+  },
+  {
+    "bucket": 5280,
+    "count": 273,
+    "year": 2013,
+    "city": "chicago"
+  },
+  {
+    "bucket": 5340,
+    "count": 255,
     "year": 2013,
     "city": "chicago"
   },
   {
     "bucket": 5400,
-    "count": 784,
+    "count": 283,
+    "year": 2013,
+    "city": "chicago"
+  },
+  {
+    "bucket": 5460,
+    "count": 230,
+    "year": 2013,
+    "city": "chicago"
+  },
+  {
+    "bucket": 5520,
+    "count": 271,
     "year": 2013,
     "city": "chicago"
   },
   {
     "bucket": 5580,
-    "count": 707,
+    "count": 259,
+    "year": 2013,
+    "city": "chicago"
+  },
+  {
+    "bucket": 5640,
+    "count": 255,
+    "year": 2013,
+    "city": "chicago"
+  },
+  {
+    "bucket": 5700,
+    "count": 193,
     "year": 2013,
     "city": "chicago"
   },
   {
     "bucket": 5760,
-    "count": 623,
+    "count": 203,
+    "year": 2013,
+    "city": "chicago"
+  },
+  {
+    "bucket": 5820,
+    "count": 213,
+    "year": 2013,
+    "city": "chicago"
+  },
+  {
+    "bucket": 5880,
+    "count": 207,
     "year": 2013,
     "city": "chicago"
   },
   {
     "bucket": 5940,
-    "count": 603,
+    "count": 201,
+    "year": 2013,
+    "city": "chicago"
+  },
+  {
+    "bucket": 6000,
+    "count": 211,
+    "year": 2013,
+    "city": "chicago"
+  },
+  {
+    "bucket": 6060,
+    "count": 191,
     "year": 2013,
     "city": "chicago"
   },
   {
     "bucket": 6120,
-    "count": 549,
+    "count": 177,
+    "year": 2013,
+    "city": "chicago"
+  },
+  {
+    "bucket": 6180,
+    "count": 210,
+    "year": 2013,
+    "city": "chicago"
+  },
+  {
+    "bucket": 6240,
+    "count": 162,
     "year": 2013,
     "city": "chicago"
   },
   {
     "bucket": 6300,
-    "count": 507,
+    "count": 169,
+    "year": 2013,
+    "city": "chicago"
+  },
+  {
+    "bucket": 6360,
+    "count": 170,
+    "year": 2013,
+    "city": "chicago"
+  },
+  {
+    "bucket": 6420,
+    "count": 168,
     "year": 2013,
     "city": "chicago"
   },
   {
     "bucket": 6480,
-    "count": 504,
+    "count": 164,
+    "year": 2013,
+    "city": "chicago"
+  },
+  {
+    "bucket": 6540,
+    "count": 161,
+    "year": 2013,
+    "city": "chicago"
+  },
+  {
+    "bucket": 6600,
+    "count": 179,
     "year": 2013,
     "city": "chicago"
   },
   {
     "bucket": 6660,
-    "count": 422,
+    "count": 126,
+    "year": 2013,
+    "city": "chicago"
+  },
+  {
+    "bucket": 6720,
+    "count": 159,
+    "year": 2013,
+    "city": "chicago"
+  },
+  {
+    "bucket": 6780,
+    "count": 137,
     "year": 2013,
     "city": "chicago"
   },
   {
     "bucket": 6840,
-    "count": 475,
+    "count": 164,
+    "year": 2013,
+    "city": "chicago"
+  },
+  {
+    "bucket": 6900,
+    "count": 170,
+    "year": 2013,
+    "city": "chicago"
+  },
+  {
+    "bucket": 6960,
+    "count": 141,
     "year": 2013,
     "city": "chicago"
   },
   {
     "bucket": 7020,
-    "count": 411,
+    "count": 144,
+    "year": 2013,
+    "city": "chicago"
+  },
+  {
+    "bucket": 7080,
+    "count": 139,
+    "year": 2013,
+    "city": "chicago"
+  },
+  {
+    "bucket": 7140,
+    "count": 128,
     "year": 2013,
     "city": "chicago"
   },
@@ -246,242 +720,716 @@
     "city": "chicago"
   },
   {
-    "bucket": 0,
-    "count": 49222,
+    "bucket": 60,
+    "count": 8602,
+    "year": 2014,
+    "city": "chicago"
+  },
+  {
+    "bucket": 120,
+    "count": 40620,
     "year": 2014,
     "city": "chicago"
   },
   {
     "bucket": 180,
-    "count": 337005,
+    "count": 84522,
+    "year": 2014,
+    "city": "chicago"
+  },
+  {
+    "bucket": 240,
+    "count": 117097,
+    "year": 2014,
+    "city": "chicago"
+  },
+  {
+    "bucket": 300,
+    "count": 135386,
     "year": 2014,
     "city": "chicago"
   },
   {
     "bucket": 360,
-    "count": 410481,
+    "count": 140243,
+    "year": 2014,
+    "city": "chicago"
+  },
+  {
+    "bucket": 420,
+    "count": 137455,
+    "year": 2014,
+    "city": "chicago"
+  },
+  {
+    "bucket": 480,
+    "count": 132783,
     "year": 2014,
     "city": "chicago"
   },
   {
     "bucket": 540,
-    "count": 351003,
+    "count": 124952,
+    "year": 2014,
+    "city": "chicago"
+  },
+  {
+    "bucket": 600,
+    "count": 117238,
+    "year": 2014,
+    "city": "chicago"
+  },
+  {
+    "bucket": 660,
+    "count": 108813,
     "year": 2014,
     "city": "chicago"
   },
   {
     "bucket": 720,
-    "count": 281972,
+    "count": 101289,
+    "year": 2014,
+    "city": "chicago"
+  },
+  {
+    "bucket": 780,
+    "count": 93414,
+    "year": 2014,
+    "city": "chicago"
+  },
+  {
+    "bucket": 840,
+    "count": 87269,
     "year": 2014,
     "city": "chicago"
   },
   {
     "bucket": 900,
-    "count": 229611,
+    "count": 81965,
+    "year": 2014,
+    "city": "chicago"
+  },
+  {
+    "bucket": 960,
+    "count": 76280,
+    "year": 2014,
+    "city": "chicago"
+  },
+  {
+    "bucket": 1020,
+    "count": 71366,
     "year": 2014,
     "city": "chicago"
   },
   {
     "bucket": 1080,
-    "count": 190492,
+    "count": 66917,
+    "year": 2014,
+    "city": "chicago"
+  },
+  {
+    "bucket": 1140,
+    "count": 63671,
+    "year": 2014,
+    "city": "chicago"
+  },
+  {
+    "bucket": 1200,
+    "count": 59904,
     "year": 2014,
     "city": "chicago"
   },
   {
     "bucket": 1260,
-    "count": 160279,
+    "count": 56396,
+    "year": 2014,
+    "city": "chicago"
+  },
+  {
+    "bucket": 1320,
+    "count": 53706,
+    "year": 2014,
+    "city": "chicago"
+  },
+  {
+    "bucket": 1380,
+    "count": 50177,
     "year": 2014,
     "city": "chicago"
   },
   {
     "bucket": 1440,
-    "count": 125760,
+    "count": 46231,
+    "year": 2014,
+    "city": "chicago"
+  },
+  {
+    "bucket": 1500,
+    "count": 42029,
+    "year": 2014,
+    "city": "chicago"
+  },
+  {
+    "bucket": 1560,
+    "count": 37500,
     "year": 2014,
     "city": "chicago"
   },
   {
     "bucket": 1620,
-    "count": 88115,
+    "count": 33640,
+    "year": 2014,
+    "city": "chicago"
+  },
+  {
+    "bucket": 1680,
+    "count": 29572,
+    "year": 2014,
+    "city": "chicago"
+  },
+  {
+    "bucket": 1740,
+    "count": 24903,
     "year": 2014,
     "city": "chicago"
   },
   {
     "bucket": 1800,
-    "count": 52464,
+    "count": 20884,
+    "year": 2014,
+    "city": "chicago"
+  },
+  {
+    "bucket": 1860,
+    "count": 17086,
+    "year": 2014,
+    "city": "chicago"
+  },
+  {
+    "bucket": 1920,
+    "count": 14494,
     "year": 2014,
     "city": "chicago"
   },
   {
     "bucket": 1980,
-    "count": 32640,
+    "count": 12441,
+    "year": 2014,
+    "city": "chicago"
+  },
+  {
+    "bucket": 2040,
+    "count": 10664,
+    "year": 2014,
+    "city": "chicago"
+  },
+  {
+    "bucket": 2100,
+    "count": 9535,
     "year": 2014,
     "city": "chicago"
   },
   {
     "bucket": 2160,
-    "count": 22648,
+    "count": 8330,
+    "year": 2014,
+    "city": "chicago"
+  },
+  {
+    "bucket": 2220,
+    "count": 7452,
+    "year": 2014,
+    "city": "chicago"
+  },
+  {
+    "bucket": 2280,
+    "count": 6866,
     "year": 2014,
     "city": "chicago"
   },
   {
     "bucket": 2340,
-    "count": 16898,
+    "count": 6105,
+    "year": 2014,
+    "city": "chicago"
+  },
+  {
+    "bucket": 2400,
+    "count": 5589,
+    "year": 2014,
+    "city": "chicago"
+  },
+  {
+    "bucket": 2460,
+    "count": 5204,
     "year": 2014,
     "city": "chicago"
   },
   {
     "bucket": 2520,
-    "count": 13092,
+    "count": 4693,
+    "year": 2014,
+    "city": "chicago"
+  },
+  {
+    "bucket": 2580,
+    "count": 4367,
+    "year": 2014,
+    "city": "chicago"
+  },
+  {
+    "bucket": 2640,
+    "count": 4032,
     "year": 2014,
     "city": "chicago"
   },
   {
     "bucket": 2700,
-    "count": 10758,
+    "count": 3740,
+    "year": 2014,
+    "city": "chicago"
+  },
+  {
+    "bucket": 2760,
+    "count": 3653,
+    "year": 2014,
+    "city": "chicago"
+  },
+  {
+    "bucket": 2820,
+    "count": 3365,
     "year": 2014,
     "city": "chicago"
   },
   {
     "bucket": 2880,
-    "count": 9171,
+    "count": 3259,
+    "year": 2014,
+    "city": "chicago"
+  },
+  {
+    "bucket": 2940,
+    "count": 3043,
+    "year": 2014,
+    "city": "chicago"
+  },
+  {
+    "bucket": 3000,
+    "count": 2869,
     "year": 2014,
     "city": "chicago"
   },
   {
     "bucket": 3060,
-    "count": 7607,
+    "count": 2681,
+    "year": 2014,
+    "city": "chicago"
+  },
+  {
+    "bucket": 3120,
+    "count": 2591,
+    "year": 2014,
+    "city": "chicago"
+  },
+  {
+    "bucket": 3180,
+    "count": 2335,
     "year": 2014,
     "city": "chicago"
   },
   {
     "bucket": 3240,
-    "count": 6645,
+    "count": 2372,
+    "year": 2014,
+    "city": "chicago"
+  },
+  {
+    "bucket": 3300,
+    "count": 2246,
+    "year": 2014,
+    "city": "chicago"
+  },
+  {
+    "bucket": 3360,
+    "count": 2027,
     "year": 2014,
     "city": "chicago"
   },
   {
     "bucket": 3420,
-    "count": 5694,
+    "count": 2055,
+    "year": 2014,
+    "city": "chicago"
+  },
+  {
+    "bucket": 3480,
+    "count": 1855,
+    "year": 2014,
+    "city": "chicago"
+  },
+  {
+    "bucket": 3540,
+    "count": 1784,
     "year": 2014,
     "city": "chicago"
   },
   {
     "bucket": 3600,
-    "count": 4655,
+    "count": 1649,
+    "year": 2014,
+    "city": "chicago"
+  },
+  {
+    "bucket": 3660,
+    "count": 1562,
+    "year": 2014,
+    "city": "chicago"
+  },
+  {
+    "bucket": 3720,
+    "count": 1444,
     "year": 2014,
     "city": "chicago"
   },
   {
     "bucket": 3780,
-    "count": 3925,
+    "count": 1371,
+    "year": 2014,
+    "city": "chicago"
+  },
+  {
+    "bucket": 3840,
+    "count": 1303,
+    "year": 2014,
+    "city": "chicago"
+  },
+  {
+    "bucket": 3900,
+    "count": 1251,
     "year": 2014,
     "city": "chicago"
   },
   {
     "bucket": 3960,
-    "count": 3386,
+    "count": 1212,
+    "year": 2014,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4020,
+    "count": 1105,
+    "year": 2014,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4080,
+    "count": 1069,
     "year": 2014,
     "city": "chicago"
   },
   {
     "bucket": 4140,
-    "count": 3009,
+    "count": 1038,
+    "year": 2014,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4200,
+    "count": 1014,
+    "year": 2014,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4260,
+    "count": 957,
     "year": 2014,
     "city": "chicago"
   },
   {
     "bucket": 4320,
-    "count": 2663,
+    "count": 913,
+    "year": 2014,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4380,
+    "count": 889,
+    "year": 2014,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4440,
+    "count": 861,
     "year": 2014,
     "city": "chicago"
   },
   {
     "bucket": 4500,
-    "count": 2511,
+    "count": 851,
+    "year": 2014,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4560,
+    "count": 842,
+    "year": 2014,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4620,
+    "count": 818,
     "year": 2014,
     "city": "chicago"
   },
   {
     "bucket": 4680,
-    "count": 2199,
+    "count": 755,
+    "year": 2014,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4740,
+    "count": 716,
+    "year": 2014,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4800,
+    "count": 728,
     "year": 2014,
     "city": "chicago"
   },
   {
     "bucket": 4860,
-    "count": 1967,
+    "count": 666,
+    "year": 2014,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4920,
+    "count": 652,
+    "year": 2014,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4980,
+    "count": 649,
     "year": 2014,
     "city": "chicago"
   },
   {
     "bucket": 5040,
-    "count": 1754,
+    "count": 585,
+    "year": 2014,
+    "city": "chicago"
+  },
+  {
+    "bucket": 5100,
+    "count": 552,
+    "year": 2014,
+    "city": "chicago"
+  },
+  {
+    "bucket": 5160,
+    "count": 617,
     "year": 2014,
     "city": "chicago"
   },
   {
     "bucket": 5220,
-    "count": 1686,
+    "count": 559,
+    "year": 2014,
+    "city": "chicago"
+  },
+  {
+    "bucket": 5280,
+    "count": 574,
+    "year": 2014,
+    "city": "chicago"
+  },
+  {
+    "bucket": 5340,
+    "count": 553,
     "year": 2014,
     "city": "chicago"
   },
   {
     "bucket": 5400,
-    "count": 1458,
+    "count": 463,
+    "year": 2014,
+    "city": "chicago"
+  },
+  {
+    "bucket": 5460,
+    "count": 517,
+    "year": 2014,
+    "city": "chicago"
+  },
+  {
+    "bucket": 5520,
+    "count": 478,
     "year": 2014,
     "city": "chicago"
   },
   {
     "bucket": 5580,
-    "count": 1366,
+    "count": 491,
+    "year": 2014,
+    "city": "chicago"
+  },
+  {
+    "bucket": 5640,
+    "count": 443,
+    "year": 2014,
+    "city": "chicago"
+  },
+  {
+    "bucket": 5700,
+    "count": 432,
     "year": 2014,
     "city": "chicago"
   },
   {
     "bucket": 5760,
-    "count": 1287,
+    "count": 450,
+    "year": 2014,
+    "city": "chicago"
+  },
+  {
+    "bucket": 5820,
+    "count": 420,
+    "year": 2014,
+    "city": "chicago"
+  },
+  {
+    "bucket": 5880,
+    "count": 417,
     "year": 2014,
     "city": "chicago"
   },
   {
     "bucket": 5940,
-    "count": 1183,
+    "count": 403,
+    "year": 2014,
+    "city": "chicago"
+  },
+  {
+    "bucket": 6000,
+    "count": 387,
+    "year": 2014,
+    "city": "chicago"
+  },
+  {
+    "bucket": 6060,
+    "count": 393,
     "year": 2014,
     "city": "chicago"
   },
   {
     "bucket": 6120,
-    "count": 1133,
+    "count": 385,
+    "year": 2014,
+    "city": "chicago"
+  },
+  {
+    "bucket": 6180,
+    "count": 366,
+    "year": 2014,
+    "city": "chicago"
+  },
+  {
+    "bucket": 6240,
+    "count": 382,
     "year": 2014,
     "city": "chicago"
   },
   {
     "bucket": 6300,
-    "count": 960,
+    "count": 362,
+    "year": 2014,
+    "city": "chicago"
+  },
+  {
+    "bucket": 6360,
+    "count": 313,
+    "year": 2014,
+    "city": "chicago"
+  },
+  {
+    "bucket": 6420,
+    "count": 285,
     "year": 2014,
     "city": "chicago"
   },
   {
     "bucket": 6480,
-    "count": 944,
+    "count": 326,
+    "year": 2014,
+    "city": "chicago"
+  },
+  {
+    "bucket": 6540,
+    "count": 308,
+    "year": 2014,
+    "city": "chicago"
+  },
+  {
+    "bucket": 6600,
+    "count": 310,
     "year": 2014,
     "city": "chicago"
   },
   {
     "bucket": 6660,
-    "count": 894,
+    "count": 287,
+    "year": 2014,
+    "city": "chicago"
+  },
+  {
+    "bucket": 6720,
+    "count": 302,
+    "year": 2014,
+    "city": "chicago"
+  },
+  {
+    "bucket": 6780,
+    "count": 305,
     "year": 2014,
     "city": "chicago"
   },
   {
     "bucket": 6840,
-    "count": 806,
+    "count": 301,
+    "year": 2014,
+    "city": "chicago"
+  },
+  {
+    "bucket": 6900,
+    "count": 266,
+    "year": 2014,
+    "city": "chicago"
+  },
+  {
+    "bucket": 6960,
+    "count": 239,
     "year": 2014,
     "city": "chicago"
   },
   {
     "bucket": 7020,
-    "count": 737,
+    "count": 263,
+    "year": 2014,
+    "city": "chicago"
+  },
+  {
+    "bucket": 7080,
+    "count": 245,
+    "year": 2014,
+    "city": "chicago"
+  },
+  {
+    "bucket": 7140,
+    "count": 229,
     "year": 2014,
     "city": "chicago"
   },
@@ -492,242 +1440,716 @@
     "city": "chicago"
   },
   {
-    "bucket": 0,
-    "count": 64081,
+    "bucket": 60,
+    "count": 10998,
+    "year": 2015,
+    "city": "chicago"
+  },
+  {
+    "bucket": 120,
+    "count": 53083,
     "year": 2015,
     "city": "chicago"
   },
   {
     "bucket": 180,
-    "count": 456681,
+    "count": 115798,
+    "year": 2015,
+    "city": "chicago"
+  },
+  {
+    "bucket": 240,
+    "count": 160239,
+    "year": 2015,
+    "city": "chicago"
+  },
+  {
+    "bucket": 300,
+    "count": 180644,
     "year": 2015,
     "city": "chicago"
   },
   {
     "bucket": 360,
-    "count": 536439,
+    "count": 183908,
+    "year": 2015,
+    "city": "chicago"
+  },
+  {
+    "bucket": 420,
+    "count": 179834,
+    "year": 2015,
+    "city": "chicago"
+  },
+  {
+    "bucket": 480,
+    "count": 172697,
     "year": 2015,
     "city": "chicago"
   },
   {
     "bucket": 540,
-    "count": 452216,
+    "count": 162276,
+    "year": 2015,
+    "city": "chicago"
+  },
+  {
+    "bucket": 600,
+    "count": 150758,
+    "year": 2015,
+    "city": "chicago"
+  },
+  {
+    "bucket": 660,
+    "count": 139182,
     "year": 2015,
     "city": "chicago"
   },
   {
     "bucket": 720,
-    "count": 360391,
+    "count": 128977,
+    "year": 2015,
+    "city": "chicago"
+  },
+  {
+    "bucket": 780,
+    "count": 119625,
+    "year": 2015,
+    "city": "chicago"
+  },
+  {
+    "bucket": 840,
+    "count": 111789,
     "year": 2015,
     "city": "chicago"
   },
   {
     "bucket": 900,
-    "count": 295407,
+    "count": 104772,
+    "year": 2015,
+    "city": "chicago"
+  },
+  {
+    "bucket": 960,
+    "count": 98290,
+    "year": 2015,
+    "city": "chicago"
+  },
+  {
+    "bucket": 1020,
+    "count": 92345,
     "year": 2015,
     "city": "chicago"
   },
   {
     "bucket": 1080,
-    "count": 245353,
+    "count": 86862,
+    "year": 2015,
+    "city": "chicago"
+  },
+  {
+    "bucket": 1140,
+    "count": 82021,
+    "year": 2015,
+    "city": "chicago"
+  },
+  {
+    "bucket": 1200,
+    "count": 76470,
     "year": 2015,
     "city": "chicago"
   },
   {
     "bucket": 1260,
-    "count": 203153,
+    "count": 72260,
+    "year": 2015,
+    "city": "chicago"
+  },
+  {
+    "bucket": 1320,
+    "count": 67638,
+    "year": 2015,
+    "city": "chicago"
+  },
+  {
+    "bucket": 1380,
+    "count": 63255,
     "year": 2015,
     "city": "chicago"
   },
   {
     "bucket": 1440,
-    "count": 159567,
+    "count": 58414,
+    "year": 2015,
+    "city": "chicago"
+  },
+  {
+    "bucket": 1500,
+    "count": 53387,
+    "year": 2015,
+    "city": "chicago"
+  },
+  {
+    "bucket": 1560,
+    "count": 47766,
     "year": 2015,
     "city": "chicago"
   },
   {
     "bucket": 1620,
-    "count": 111872,
+    "count": 42646,
+    "year": 2015,
+    "city": "chicago"
+  },
+  {
+    "bucket": 1680,
+    "count": 37427,
+    "year": 2015,
+    "city": "chicago"
+  },
+  {
+    "bucket": 1740,
+    "count": 31799,
     "year": 2015,
     "city": "chicago"
   },
   {
     "bucket": 1800,
-    "count": 67360,
+    "count": 26571,
+    "year": 2015,
+    "city": "chicago"
+  },
+  {
+    "bucket": 1860,
+    "count": 22143,
+    "year": 2015,
+    "city": "chicago"
+  },
+  {
+    "bucket": 1920,
+    "count": 18646,
     "year": 2015,
     "city": "chicago"
   },
   {
     "bucket": 1980,
-    "count": 41603,
+    "count": 15758,
+    "year": 2015,
+    "city": "chicago"
+  },
+  {
+    "bucket": 2040,
+    "count": 13790,
+    "year": 2015,
+    "city": "chicago"
+  },
+  {
+    "bucket": 2100,
+    "count": 12055,
     "year": 2015,
     "city": "chicago"
   },
   {
     "bucket": 2160,
-    "count": 29512,
+    "count": 10957,
+    "year": 2015,
+    "city": "chicago"
+  },
+  {
+    "bucket": 2220,
+    "count": 9855,
+    "year": 2015,
+    "city": "chicago"
+  },
+  {
+    "bucket": 2280,
+    "count": 8700,
     "year": 2015,
     "city": "chicago"
   },
   {
     "bucket": 2340,
-    "count": 21685,
+    "count": 7839,
+    "year": 2015,
+    "city": "chicago"
+  },
+  {
+    "bucket": 2400,
+    "count": 7281,
+    "year": 2015,
+    "city": "chicago"
+  },
+  {
+    "bucket": 2460,
+    "count": 6565,
     "year": 2015,
     "city": "chicago"
   },
   {
     "bucket": 2520,
-    "count": 17318,
+    "count": 6123,
+    "year": 2015,
+    "city": "chicago"
+  },
+  {
+    "bucket": 2580,
+    "count": 5769,
+    "year": 2015,
+    "city": "chicago"
+  },
+  {
+    "bucket": 2640,
+    "count": 5426,
     "year": 2015,
     "city": "chicago"
   },
   {
     "bucket": 2700,
-    "count": 13896,
+    "count": 4931,
+    "year": 2015,
+    "city": "chicago"
+  },
+  {
+    "bucket": 2760,
+    "count": 4599,
+    "year": 2015,
+    "city": "chicago"
+  },
+  {
+    "bucket": 2820,
+    "count": 4366,
     "year": 2015,
     "city": "chicago"
   },
   {
     "bucket": 2880,
-    "count": 11672,
+    "count": 4119,
+    "year": 2015,
+    "city": "chicago"
+  },
+  {
+    "bucket": 2940,
+    "count": 3961,
+    "year": 2015,
+    "city": "chicago"
+  },
+  {
+    "bucket": 3000,
+    "count": 3592,
     "year": 2015,
     "city": "chicago"
   },
   {
     "bucket": 3060,
-    "count": 10034,
+    "count": 3516,
+    "year": 2015,
+    "city": "chicago"
+  },
+  {
+    "bucket": 3120,
+    "count": 3328,
+    "year": 2015,
+    "city": "chicago"
+  },
+  {
+    "bucket": 3180,
+    "count": 3190,
     "year": 2015,
     "city": "chicago"
   },
   {
     "bucket": 3240,
-    "count": 8613,
+    "count": 2963,
+    "year": 2015,
+    "city": "chicago"
+  },
+  {
+    "bucket": 3300,
+    "count": 2882,
+    "year": 2015,
+    "city": "chicago"
+  },
+  {
+    "bucket": 3360,
+    "count": 2768,
     "year": 2015,
     "city": "chicago"
   },
   {
     "bucket": 3420,
-    "count": 7320,
+    "count": 2606,
+    "year": 2015,
+    "city": "chicago"
+  },
+  {
+    "bucket": 3480,
+    "count": 2402,
+    "year": 2015,
+    "city": "chicago"
+  },
+  {
+    "bucket": 3540,
+    "count": 2312,
     "year": 2015,
     "city": "chicago"
   },
   {
     "bucket": 3600,
-    "count": 5974,
+    "count": 2087,
+    "year": 2015,
+    "city": "chicago"
+  },
+  {
+    "bucket": 3660,
+    "count": 2014,
+    "year": 2015,
+    "city": "chicago"
+  },
+  {
+    "bucket": 3720,
+    "count": 1873,
     "year": 2015,
     "city": "chicago"
   },
   {
     "bucket": 3780,
-    "count": 5040,
+    "count": 1752,
+    "year": 2015,
+    "city": "chicago"
+  },
+  {
+    "bucket": 3840,
+    "count": 1680,
+    "year": 2015,
+    "city": "chicago"
+  },
+  {
+    "bucket": 3900,
+    "count": 1608,
     "year": 2015,
     "city": "chicago"
   },
   {
     "bucket": 3960,
-    "count": 4575,
+    "count": 1561,
+    "year": 2015,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4020,
+    "count": 1537,
+    "year": 2015,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4080,
+    "count": 1477,
     "year": 2015,
     "city": "chicago"
   },
   {
     "bucket": 4140,
-    "count": 3967,
+    "count": 1354,
+    "year": 2015,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4200,
+    "count": 1289,
+    "year": 2015,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4260,
+    "count": 1324,
     "year": 2015,
     "city": "chicago"
   },
   {
     "bucket": 4320,
-    "count": 3511,
+    "count": 1208,
+    "year": 2015,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4380,
+    "count": 1170,
+    "year": 2015,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4440,
+    "count": 1133,
     "year": 2015,
     "city": "chicago"
   },
   {
     "bucket": 4500,
-    "count": 3215,
+    "count": 1102,
+    "year": 2015,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4560,
+    "count": 1049,
+    "year": 2015,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4620,
+    "count": 1064,
     "year": 2015,
     "city": "chicago"
   },
   {
     "bucket": 4680,
-    "count": 2979,
+    "count": 1031,
+    "year": 2015,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4740,
+    "count": 1022,
+    "year": 2015,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4800,
+    "count": 926,
     "year": 2015,
     "city": "chicago"
   },
   {
     "bucket": 4860,
-    "count": 2656,
+    "count": 924,
+    "year": 2015,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4920,
+    "count": 885,
+    "year": 2015,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4980,
+    "count": 847,
     "year": 2015,
     "city": "chicago"
   },
   {
     "bucket": 5040,
-    "count": 2302,
+    "count": 739,
+    "year": 2015,
+    "city": "chicago"
+  },
+  {
+    "bucket": 5100,
+    "count": 833,
+    "year": 2015,
+    "city": "chicago"
+  },
+  {
+    "bucket": 5160,
+    "count": 730,
     "year": 2015,
     "city": "chicago"
   },
   {
     "bucket": 5220,
-    "count": 2242,
+    "count": 820,
+    "year": 2015,
+    "city": "chicago"
+  },
+  {
+    "bucket": 5280,
+    "count": 722,
+    "year": 2015,
+    "city": "chicago"
+  },
+  {
+    "bucket": 5340,
+    "count": 700,
     "year": 2015,
     "city": "chicago"
   },
   {
     "bucket": 5400,
-    "count": 1998,
+    "count": 685,
+    "year": 2015,
+    "city": "chicago"
+  },
+  {
+    "bucket": 5460,
+    "count": 660,
+    "year": 2015,
+    "city": "chicago"
+  },
+  {
+    "bucket": 5520,
+    "count": 653,
     "year": 2015,
     "city": "chicago"
   },
   {
     "bucket": 5580,
-    "count": 1806,
+    "count": 630,
+    "year": 2015,
+    "city": "chicago"
+  },
+  {
+    "bucket": 5640,
+    "count": 574,
+    "year": 2015,
+    "city": "chicago"
+  },
+  {
+    "bucket": 5700,
+    "count": 602,
     "year": 2015,
     "city": "chicago"
   },
   {
     "bucket": 5760,
-    "count": 1675,
+    "count": 582,
+    "year": 2015,
+    "city": "chicago"
+  },
+  {
+    "bucket": 5820,
+    "count": 555,
+    "year": 2015,
+    "city": "chicago"
+  },
+  {
+    "bucket": 5880,
+    "count": 538,
     "year": 2015,
     "city": "chicago"
   },
   {
     "bucket": 5940,
-    "count": 1532,
+    "count": 524,
+    "year": 2015,
+    "city": "chicago"
+  },
+  {
+    "bucket": 6000,
+    "count": 529,
+    "year": 2015,
+    "city": "chicago"
+  },
+  {
+    "bucket": 6060,
+    "count": 479,
     "year": 2015,
     "city": "chicago"
   },
   {
     "bucket": 6120,
-    "count": 1503,
+    "count": 490,
+    "year": 2015,
+    "city": "chicago"
+  },
+  {
+    "bucket": 6180,
+    "count": 530,
+    "year": 2015,
+    "city": "chicago"
+  },
+  {
+    "bucket": 6240,
+    "count": 483,
     "year": 2015,
     "city": "chicago"
   },
   {
     "bucket": 6300,
-    "count": 1299,
+    "count": 436,
+    "year": 2015,
+    "city": "chicago"
+  },
+  {
+    "bucket": 6360,
+    "count": 429,
+    "year": 2015,
+    "city": "chicago"
+  },
+  {
+    "bucket": 6420,
+    "count": 434,
     "year": 2015,
     "city": "chicago"
   },
   {
     "bucket": 6480,
-    "count": 1195,
+    "count": 393,
+    "year": 2015,
+    "city": "chicago"
+  },
+  {
+    "bucket": 6540,
+    "count": 385,
+    "year": 2015,
+    "city": "chicago"
+  },
+  {
+    "bucket": 6600,
+    "count": 417,
     "year": 2015,
     "city": "chicago"
   },
   {
     "bucket": 6660,
-    "count": 1120,
+    "count": 379,
+    "year": 2015,
+    "city": "chicago"
+  },
+  {
+    "bucket": 6720,
+    "count": 364,
+    "year": 2015,
+    "city": "chicago"
+  },
+  {
+    "bucket": 6780,
+    "count": 377,
     "year": 2015,
     "city": "chicago"
   },
   {
     "bucket": 6840,
-    "count": 947,
+    "count": 312,
+    "year": 2015,
+    "city": "chicago"
+  },
+  {
+    "bucket": 6900,
+    "count": 324,
+    "year": 2015,
+    "city": "chicago"
+  },
+  {
+    "bucket": 6960,
+    "count": 311,
     "year": 2015,
     "city": "chicago"
   },
   {
     "bucket": 7020,
-    "count": 981,
+    "count": 348,
+    "year": 2015,
+    "city": "chicago"
+  },
+  {
+    "bucket": 7080,
+    "count": 322,
+    "year": 2015,
+    "city": "chicago"
+  },
+  {
+    "bucket": 7140,
+    "count": 311,
     "year": 2015,
     "city": "chicago"
   },
@@ -739,241 +2161,721 @@
   },
   {
     "bucket": 0,
-    "count": 105351,
+    "count": 58,
+    "year": 2016,
+    "city": "chicago"
+  },
+  {
+    "bucket": 60,
+    "count": 21374,
+    "year": 2016,
+    "city": "chicago"
+  },
+  {
+    "bucket": 120,
+    "count": 83919,
     "year": 2016,
     "city": "chicago"
   },
   {
     "bucket": 180,
-    "count": 577558,
+    "count": 158701,
+    "year": 2016,
+    "city": "chicago"
+  },
+  {
+    "bucket": 240,
+    "count": 202568,
+    "year": 2016,
+    "city": "chicago"
+  },
+  {
+    "bucket": 300,
+    "count": 216289,
     "year": 2016,
     "city": "chicago"
   },
   {
     "bucket": 360,
-    "count": 619300,
+    "count": 215360,
+    "year": 2016,
+    "city": "chicago"
+  },
+  {
+    "bucket": 420,
+    "count": 207307,
+    "year": 2016,
+    "city": "chicago"
+  },
+  {
+    "bucket": 480,
+    "count": 196633,
     "year": 2016,
     "city": "chicago"
   },
   {
     "bucket": 540,
-    "count": 509738,
+    "count": 182371,
+    "year": 2016,
+    "city": "chicago"
+  },
+  {
+    "bucket": 600,
+    "count": 169922,
+    "year": 2016,
+    "city": "chicago"
+  },
+  {
+    "bucket": 660,
+    "count": 157445,
     "year": 2016,
     "city": "chicago"
   },
   {
     "bucket": 720,
-    "count": 402514,
+    "count": 143932,
+    "year": 2016,
+    "city": "chicago"
+  },
+  {
+    "bucket": 780,
+    "count": 134077,
+    "year": 2016,
+    "city": "chicago"
+  },
+  {
+    "bucket": 840,
+    "count": 124505,
     "year": 2016,
     "city": "chicago"
   },
   {
     "bucket": 900,
-    "count": 322249,
+    "count": 115743,
+    "year": 2016,
+    "city": "chicago"
+  },
+  {
+    "bucket": 960,
+    "count": 106981,
+    "year": 2016,
+    "city": "chicago"
+  },
+  {
+    "bucket": 1020,
+    "count": 99525,
     "year": 2016,
     "city": "chicago"
   },
   {
     "bucket": 1080,
-    "count": 262142,
+    "count": 92871,
+    "year": 2016,
+    "city": "chicago"
+  },
+  {
+    "bucket": 1140,
+    "count": 87229,
+    "year": 2016,
+    "city": "chicago"
+  },
+  {
+    "bucket": 1200,
+    "count": 82042,
     "year": 2016,
     "city": "chicago"
   },
   {
     "bucket": 1260,
-    "count": 213532,
+    "count": 76273,
+    "year": 2016,
+    "city": "chicago"
+  },
+  {
+    "bucket": 1320,
+    "count": 71232,
+    "year": 2016,
+    "city": "chicago"
+  },
+  {
+    "bucket": 1380,
+    "count": 66027,
     "year": 2016,
     "city": "chicago"
   },
   {
     "bucket": 1440,
-    "count": 164202,
+    "count": 60648,
+    "year": 2016,
+    "city": "chicago"
+  },
+  {
+    "bucket": 1500,
+    "count": 55033,
+    "year": 2016,
+    "city": "chicago"
+  },
+  {
+    "bucket": 1560,
+    "count": 48521,
     "year": 2016,
     "city": "chicago"
   },
   {
     "bucket": 1620,
-    "count": 111218,
+    "count": 42948,
+    "year": 2016,
+    "city": "chicago"
+  },
+  {
+    "bucket": 1680,
+    "count": 37271,
+    "year": 2016,
+    "city": "chicago"
+  },
+  {
+    "bucket": 1740,
+    "count": 30999,
     "year": 2016,
     "city": "chicago"
   },
   {
     "bucket": 1800,
-    "count": 64840,
+    "count": 25731,
+    "year": 2016,
+    "city": "chicago"
+  },
+  {
+    "bucket": 1860,
+    "count": 21317,
+    "year": 2016,
+    "city": "chicago"
+  },
+  {
+    "bucket": 1920,
+    "count": 17792,
     "year": 2016,
     "city": "chicago"
   },
   {
     "bucket": 1980,
-    "count": 40947,
+    "count": 15481,
+    "year": 2016,
+    "city": "chicago"
+  },
+  {
+    "bucket": 2040,
+    "count": 13510,
+    "year": 2016,
+    "city": "chicago"
+  },
+  {
+    "bucket": 2100,
+    "count": 11956,
     "year": 2016,
     "city": "chicago"
   },
   {
     "bucket": 2160,
-    "count": 29117,
+    "count": 10719,
+    "year": 2016,
+    "city": "chicago"
+  },
+  {
+    "bucket": 2220,
+    "count": 9643,
+    "year": 2016,
+    "city": "chicago"
+  },
+  {
+    "bucket": 2280,
+    "count": 8755,
     "year": 2016,
     "city": "chicago"
   },
   {
     "bucket": 2340,
-    "count": 22126,
+    "count": 7968,
+    "year": 2016,
+    "city": "chicago"
+  },
+  {
+    "bucket": 2400,
+    "count": 7416,
+    "year": 2016,
+    "city": "chicago"
+  },
+  {
+    "bucket": 2460,
+    "count": 6742,
     "year": 2016,
     "city": "chicago"
   },
   {
     "bucket": 2520,
-    "count": 17431,
+    "count": 6240,
+    "year": 2016,
+    "city": "chicago"
+  },
+  {
+    "bucket": 2580,
+    "count": 5794,
+    "year": 2016,
+    "city": "chicago"
+  },
+  {
+    "bucket": 2640,
+    "count": 5397,
     "year": 2016,
     "city": "chicago"
   },
   {
     "bucket": 2700,
-    "count": 14874,
+    "count": 5341,
+    "year": 2016,
+    "city": "chicago"
+  },
+  {
+    "bucket": 2760,
+    "count": 4978,
+    "year": 2016,
+    "city": "chicago"
+  },
+  {
+    "bucket": 2820,
+    "count": 4555,
     "year": 2016,
     "city": "chicago"
   },
   {
     "bucket": 2880,
-    "count": 12503,
+    "count": 4382,
+    "year": 2016,
+    "city": "chicago"
+  },
+  {
+    "bucket": 2940,
+    "count": 4180,
+    "year": 2016,
+    "city": "chicago"
+  },
+  {
+    "bucket": 3000,
+    "count": 3941,
     "year": 2016,
     "city": "chicago"
   },
   {
     "bucket": 3060,
-    "count": 10807,
+    "count": 3877,
+    "year": 2016,
+    "city": "chicago"
+  },
+  {
+    "bucket": 3120,
+    "count": 3520,
+    "year": 2016,
+    "city": "chicago"
+  },
+  {
+    "bucket": 3180,
+    "count": 3410,
     "year": 2016,
     "city": "chicago"
   },
   {
     "bucket": 3240,
-    "count": 9187,
+    "count": 3138,
+    "year": 2016,
+    "city": "chicago"
+  },
+  {
+    "bucket": 3300,
+    "count": 3130,
+    "year": 2016,
+    "city": "chicago"
+  },
+  {
+    "bucket": 3360,
+    "count": 2919,
     "year": 2016,
     "city": "chicago"
   },
   {
     "bucket": 3420,
-    "count": 7739,
+    "count": 2784,
+    "year": 2016,
+    "city": "chicago"
+  },
+  {
+    "bucket": 3480,
+    "count": 2498,
+    "year": 2016,
+    "city": "chicago"
+  },
+  {
+    "bucket": 3540,
+    "count": 2457,
     "year": 2016,
     "city": "chicago"
   },
   {
     "bucket": 3600,
-    "count": 6577,
+    "count": 2273,
+    "year": 2016,
+    "city": "chicago"
+  },
+  {
+    "bucket": 3660,
+    "count": 2201,
+    "year": 2016,
+    "city": "chicago"
+  },
+  {
+    "bucket": 3720,
+    "count": 2103,
     "year": 2016,
     "city": "chicago"
   },
   {
     "bucket": 3780,
-    "count": 5654,
+    "count": 1969,
+    "year": 2016,
+    "city": "chicago"
+  },
+  {
+    "bucket": 3840,
+    "count": 1837,
+    "year": 2016,
+    "city": "chicago"
+  },
+  {
+    "bucket": 3900,
+    "count": 1848,
     "year": 2016,
     "city": "chicago"
   },
   {
     "bucket": 3960,
-    "count": 4970,
+    "count": 1692,
+    "year": 2016,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4020,
+    "count": 1684,
+    "year": 2016,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4080,
+    "count": 1594,
     "year": 2016,
     "city": "chicago"
   },
   {
     "bucket": 4140,
-    "count": 4433,
+    "count": 1551,
+    "year": 2016,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4200,
+    "count": 1423,
+    "year": 2016,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4260,
+    "count": 1459,
     "year": 2016,
     "city": "chicago"
   },
   {
     "bucket": 4320,
-    "count": 4199,
+    "count": 1445,
+    "year": 2016,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4380,
+    "count": 1379,
+    "year": 2016,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4440,
+    "count": 1375,
     "year": 2016,
     "city": "chicago"
   },
   {
     "bucket": 4500,
-    "count": 3725,
+    "count": 1292,
+    "year": 2016,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4560,
+    "count": 1215,
+    "year": 2016,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4620,
+    "count": 1218,
     "year": 2016,
     "city": "chicago"
   },
   {
     "bucket": 4680,
-    "count": 3407,
+    "count": 1134,
+    "year": 2016,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4740,
+    "count": 1129,
+    "year": 2016,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4800,
+    "count": 1144,
     "year": 2016,
     "city": "chicago"
   },
   {
     "bucket": 4860,
-    "count": 3172,
+    "count": 1088,
+    "year": 2016,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4920,
+    "count": 1093,
+    "year": 2016,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4980,
+    "count": 991,
     "year": 2016,
     "city": "chicago"
   },
   {
     "bucket": 5040,
-    "count": 2889,
+    "count": 988,
+    "year": 2016,
+    "city": "chicago"
+  },
+  {
+    "bucket": 5100,
+    "count": 948,
+    "year": 2016,
+    "city": "chicago"
+  },
+  {
+    "bucket": 5160,
+    "count": 953,
     "year": 2016,
     "city": "chicago"
   },
   {
     "bucket": 5220,
-    "count": 2482,
+    "count": 885,
+    "year": 2016,
+    "city": "chicago"
+  },
+  {
+    "bucket": 5280,
+    "count": 837,
+    "year": 2016,
+    "city": "chicago"
+  },
+  {
+    "bucket": 5340,
+    "count": 760,
     "year": 2016,
     "city": "chicago"
   },
   {
     "bucket": 5400,
-    "count": 2229,
+    "count": 719,
+    "year": 2016,
+    "city": "chicago"
+  },
+  {
+    "bucket": 5460,
+    "count": 791,
+    "year": 2016,
+    "city": "chicago"
+  },
+  {
+    "bucket": 5520,
+    "count": 719,
     "year": 2016,
     "city": "chicago"
   },
   {
     "bucket": 5580,
-    "count": 2087,
+    "count": 734,
+    "year": 2016,
+    "city": "chicago"
+  },
+  {
+    "bucket": 5640,
+    "count": 698,
+    "year": 2016,
+    "city": "chicago"
+  },
+  {
+    "bucket": 5700,
+    "count": 655,
     "year": 2016,
     "city": "chicago"
   },
   {
     "bucket": 5760,
-    "count": 1891,
+    "count": 682,
+    "year": 2016,
+    "city": "chicago"
+  },
+  {
+    "bucket": 5820,
+    "count": 624,
+    "year": 2016,
+    "city": "chicago"
+  },
+  {
+    "bucket": 5880,
+    "count": 585,
     "year": 2016,
     "city": "chicago"
   },
   {
     "bucket": 5940,
-    "count": 1695,
+    "count": 599,
+    "year": 2016,
+    "city": "chicago"
+  },
+  {
+    "bucket": 6000,
+    "count": 572,
+    "year": 2016,
+    "city": "chicago"
+  },
+  {
+    "bucket": 6060,
+    "count": 524,
     "year": 2016,
     "city": "chicago"
   },
   {
     "bucket": 6120,
-    "count": 1719,
+    "count": 568,
+    "year": 2016,
+    "city": "chicago"
+  },
+  {
+    "bucket": 6180,
+    "count": 584,
+    "year": 2016,
+    "city": "chicago"
+  },
+  {
+    "bucket": 6240,
+    "count": 567,
     "year": 2016,
     "city": "chicago"
   },
   {
     "bucket": 6300,
-    "count": 1526,
+    "count": 532,
+    "year": 2016,
+    "city": "chicago"
+  },
+  {
+    "bucket": 6360,
+    "count": 511,
+    "year": 2016,
+    "city": "chicago"
+  },
+  {
+    "bucket": 6420,
+    "count": 483,
     "year": 2016,
     "city": "chicago"
   },
   {
     "bucket": 6480,
-    "count": 1419,
+    "count": 478,
+    "year": 2016,
+    "city": "chicago"
+  },
+  {
+    "bucket": 6540,
+    "count": 497,
+    "year": 2016,
+    "city": "chicago"
+  },
+  {
+    "bucket": 6600,
+    "count": 444,
     "year": 2016,
     "city": "chicago"
   },
   {
     "bucket": 6660,
-    "count": 1208,
+    "count": 374,
+    "year": 2016,
+    "city": "chicago"
+  },
+  {
+    "bucket": 6720,
+    "count": 440,
+    "year": 2016,
+    "city": "chicago"
+  },
+  {
+    "bucket": 6780,
+    "count": 394,
     "year": 2016,
     "city": "chicago"
   },
   {
     "bucket": 6840,
-    "count": 1206,
+    "count": 400,
+    "year": 2016,
+    "city": "chicago"
+  },
+  {
+    "bucket": 6900,
+    "count": 404,
+    "year": 2016,
+    "city": "chicago"
+  },
+  {
+    "bucket": 6960,
+    "count": 402,
     "year": 2016,
     "city": "chicago"
   },
   {
     "bucket": 7020,
-    "count": 1050,
+    "count": 350,
+    "year": 2016,
+    "city": "chicago"
+  },
+  {
+    "bucket": 7080,
+    "count": 358,
+    "year": 2016,
+    "city": "chicago"
+  },
+  {
+    "bucket": 7140,
+    "count": 342,
     "year": 2016,
     "city": "chicago"
   },
@@ -984,242 +2886,716 @@
     "city": "chicago"
   },
   {
-    "bucket": 0,
-    "count": 123535,
+    "bucket": 60,
+    "count": 26021,
+    "year": 2017,
+    "city": "chicago"
+  },
+  {
+    "bucket": 120,
+    "count": 97514,
     "year": 2017,
     "city": "chicago"
   },
   {
     "bucket": 180,
-    "count": 639811,
+    "count": 177360,
+    "year": 2017,
+    "city": "chicago"
+  },
+  {
+    "bucket": 240,
+    "count": 223478,
+    "year": 2017,
+    "city": "chicago"
+  },
+  {
+    "bucket": 300,
+    "count": 238973,
     "year": 2017,
     "city": "chicago"
   },
   {
     "bucket": 360,
-    "count": 678852,
+    "count": 237285,
+    "year": 2017,
+    "city": "chicago"
+  },
+  {
+    "bucket": 420,
+    "count": 226978,
+    "year": 2017,
+    "city": "chicago"
+  },
+  {
+    "bucket": 480,
+    "count": 214589,
     "year": 2017,
     "city": "chicago"
   },
   {
     "bucket": 540,
-    "count": 548764,
+    "count": 198897,
+    "year": 2017,
+    "city": "chicago"
+  },
+  {
+    "bucket": 600,
+    "count": 182704,
+    "year": 2017,
+    "city": "chicago"
+  },
+  {
+    "bucket": 660,
+    "count": 167163,
     "year": 2017,
     "city": "chicago"
   },
   {
     "bucket": 720,
-    "count": 428652,
+    "count": 154709,
+    "year": 2017,
+    "city": "chicago"
+  },
+  {
+    "bucket": 780,
+    "count": 142127,
+    "year": 2017,
+    "city": "chicago"
+  },
+  {
+    "bucket": 840,
+    "count": 131816,
     "year": 2017,
     "city": "chicago"
   },
   {
     "bucket": 900,
-    "count": 336349,
+    "count": 120956,
+    "year": 2017,
+    "city": "chicago"
+  },
+  {
+    "bucket": 960,
+    "count": 111795,
+    "year": 2017,
+    "city": "chicago"
+  },
+  {
+    "bucket": 1020,
+    "count": 103598,
     "year": 2017,
     "city": "chicago"
   },
   {
     "bucket": 1080,
-    "count": 267460,
+    "count": 95193,
+    "year": 2017,
+    "city": "chicago"
+  },
+  {
+    "bucket": 1140,
+    "count": 88609,
+    "year": 2017,
+    "city": "chicago"
+  },
+  {
+    "bucket": 1200,
+    "count": 83658,
     "year": 2017,
     "city": "chicago"
   },
   {
     "bucket": 1260,
-    "count": 219392,
+    "count": 78286,
+    "year": 2017,
+    "city": "chicago"
+  },
+  {
+    "bucket": 1320,
+    "count": 73629,
+    "year": 2017,
+    "city": "chicago"
+  },
+  {
+    "bucket": 1380,
+    "count": 67477,
     "year": 2017,
     "city": "chicago"
   },
   {
     "bucket": 1440,
-    "count": 167781,
+    "count": 62016,
+    "year": 2017,
+    "city": "chicago"
+  },
+  {
+    "bucket": 1500,
+    "count": 56076,
+    "year": 2017,
+    "city": "chicago"
+  },
+  {
+    "bucket": 1560,
+    "count": 49689,
     "year": 2017,
     "city": "chicago"
   },
   {
     "bucket": 1620,
-    "count": 111369,
+    "count": 42916,
+    "year": 2017,
+    "city": "chicago"
+  },
+  {
+    "bucket": 1680,
+    "count": 37133,
+    "year": 2017,
+    "city": "chicago"
+  },
+  {
+    "bucket": 1740,
+    "count": 31320,
     "year": 2017,
     "city": "chicago"
   },
   {
     "bucket": 1800,
-    "count": 64319,
+    "count": 25660,
+    "year": 2017,
+    "city": "chicago"
+  },
+  {
+    "bucket": 1860,
+    "count": 20747,
+    "year": 2017,
+    "city": "chicago"
+  },
+  {
+    "bucket": 1920,
+    "count": 17912,
     "year": 2017,
     "city": "chicago"
   },
   {
     "bucket": 1980,
-    "count": 40199,
+    "count": 15163,
+    "year": 2017,
+    "city": "chicago"
+  },
+  {
+    "bucket": 2040,
+    "count": 13160,
+    "year": 2017,
+    "city": "chicago"
+  },
+  {
+    "bucket": 2100,
+    "count": 11876,
     "year": 2017,
     "city": "chicago"
   },
   {
     "bucket": 2160,
-    "count": 28499,
+    "count": 10532,
+    "year": 2017,
+    "city": "chicago"
+  },
+  {
+    "bucket": 2220,
+    "count": 9447,
+    "year": 2017,
+    "city": "chicago"
+  },
+  {
+    "bucket": 2280,
+    "count": 8520,
     "year": 2017,
     "city": "chicago"
   },
   {
     "bucket": 2340,
-    "count": 21894,
+    "count": 7943,
+    "year": 2017,
+    "city": "chicago"
+  },
+  {
+    "bucket": 2400,
+    "count": 7182,
+    "year": 2017,
+    "city": "chicago"
+  },
+  {
+    "bucket": 2460,
+    "count": 6769,
     "year": 2017,
     "city": "chicago"
   },
   {
     "bucket": 2520,
-    "count": 17518,
+    "count": 6224,
+    "year": 2017,
+    "city": "chicago"
+  },
+  {
+    "bucket": 2580,
+    "count": 5841,
+    "year": 2017,
+    "city": "chicago"
+  },
+  {
+    "bucket": 2640,
+    "count": 5453,
     "year": 2017,
     "city": "chicago"
   },
   {
     "bucket": 2700,
-    "count": 14722,
+    "count": 5203,
+    "year": 2017,
+    "city": "chicago"
+  },
+  {
+    "bucket": 2760,
+    "count": 4938,
+    "year": 2017,
+    "city": "chicago"
+  },
+  {
+    "bucket": 2820,
+    "count": 4581,
     "year": 2017,
     "city": "chicago"
   },
   {
     "bucket": 2880,
-    "count": 12683,
+    "count": 4415,
+    "year": 2017,
+    "city": "chicago"
+  },
+  {
+    "bucket": 2940,
+    "count": 4271,
+    "year": 2017,
+    "city": "chicago"
+  },
+  {
+    "bucket": 3000,
+    "count": 3997,
     "year": 2017,
     "city": "chicago"
   },
   {
     "bucket": 3060,
-    "count": 11122,
+    "count": 3936,
+    "year": 2017,
+    "city": "chicago"
+  },
+  {
+    "bucket": 3120,
+    "count": 3605,
+    "year": 2017,
+    "city": "chicago"
+  },
+  {
+    "bucket": 3180,
+    "count": 3581,
     "year": 2017,
     "city": "chicago"
   },
   {
     "bucket": 3240,
-    "count": 9384,
+    "count": 3387,
+    "year": 2017,
+    "city": "chicago"
+  },
+  {
+    "bucket": 3300,
+    "count": 3048,
+    "year": 2017,
+    "city": "chicago"
+  },
+  {
+    "bucket": 3360,
+    "count": 2949,
     "year": 2017,
     "city": "chicago"
   },
   {
     "bucket": 3420,
-    "count": 8160,
+    "count": 2834,
     "year": 2017,
     "city": "chicago"
   },
   {
-    "bucket": 3600,
-    "count": 6712,
-    "year": 2017,
-    "city": "chicago"
-  },
-  {
-    "bucket": 3780,
-    "count": 5947,
-    "year": 2017,
-    "city": "chicago"
-  },
-  {
-    "bucket": 3960,
-    "count": 5094,
-    "year": 2017,
-    "city": "chicago"
-  },
-  {
-    "bucket": 4140,
-    "count": 4751,
-    "year": 2017,
-    "city": "chicago"
-  },
-  {
-    "bucket": 4320,
-    "count": 4231,
-    "year": 2017,
-    "city": "chicago"
-  },
-  {
-    "bucket": 4500,
-    "count": 3830,
-    "year": 2017,
-    "city": "chicago"
-  },
-  {
-    "bucket": 4680,
-    "count": 3598,
-    "year": 2017,
-    "city": "chicago"
-  },
-  {
-    "bucket": 4860,
-    "count": 3191,
-    "year": 2017,
-    "city": "chicago"
-  },
-  {
-    "bucket": 5040,
-    "count": 2923,
-    "year": 2017,
-    "city": "chicago"
-  },
-  {
-    "bucket": 5220,
+    "bucket": 3480,
     "count": 2727,
     "year": 2017,
     "city": "chicago"
   },
   {
+    "bucket": 3540,
+    "count": 2599,
+    "year": 2017,
+    "city": "chicago"
+  },
+  {
+    "bucket": 3600,
+    "count": 2444,
+    "year": 2017,
+    "city": "chicago"
+  },
+  {
+    "bucket": 3660,
+    "count": 2174,
+    "year": 2017,
+    "city": "chicago"
+  },
+  {
+    "bucket": 3720,
+    "count": 2094,
+    "year": 2017,
+    "city": "chicago"
+  },
+  {
+    "bucket": 3780,
+    "count": 2139,
+    "year": 2017,
+    "city": "chicago"
+  },
+  {
+    "bucket": 3840,
+    "count": 1964,
+    "year": 2017,
+    "city": "chicago"
+  },
+  {
+    "bucket": 3900,
+    "count": 1844,
+    "year": 2017,
+    "city": "chicago"
+  },
+  {
+    "bucket": 3960,
+    "count": 1764,
+    "year": 2017,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4020,
+    "count": 1722,
+    "year": 2017,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4080,
+    "count": 1608,
+    "year": 2017,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4140,
+    "count": 1582,
+    "year": 2017,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4200,
+    "count": 1610,
+    "year": 2017,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4260,
+    "count": 1559,
+    "year": 2017,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4320,
+    "count": 1411,
+    "year": 2017,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4380,
+    "count": 1441,
+    "year": 2017,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4440,
+    "count": 1379,
+    "year": 2017,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4500,
+    "count": 1314,
+    "year": 2017,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4560,
+    "count": 1255,
+    "year": 2017,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4620,
+    "count": 1261,
+    "year": 2017,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4680,
+    "count": 1220,
+    "year": 2017,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4740,
+    "count": 1244,
+    "year": 2017,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4800,
+    "count": 1134,
+    "year": 2017,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4860,
+    "count": 1079,
+    "year": 2017,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4920,
+    "count": 1135,
+    "year": 2017,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4980,
+    "count": 977,
+    "year": 2017,
+    "city": "chicago"
+  },
+  {
+    "bucket": 5040,
+    "count": 995,
+    "year": 2017,
+    "city": "chicago"
+  },
+  {
+    "bucket": 5100,
+    "count": 991,
+    "year": 2017,
+    "city": "chicago"
+  },
+  {
+    "bucket": 5160,
+    "count": 937,
+    "year": 2017,
+    "city": "chicago"
+  },
+  {
+    "bucket": 5220,
+    "count": 971,
+    "year": 2017,
+    "city": "chicago"
+  },
+  {
+    "bucket": 5280,
+    "count": 878,
+    "year": 2017,
+    "city": "chicago"
+  },
+  {
+    "bucket": 5340,
+    "count": 878,
+    "year": 2017,
+    "city": "chicago"
+  },
+  {
     "bucket": 5400,
-    "count": 2333,
+    "count": 822,
+    "year": 2017,
+    "city": "chicago"
+  },
+  {
+    "bucket": 5460,
+    "count": 800,
+    "year": 2017,
+    "city": "chicago"
+  },
+  {
+    "bucket": 5520,
+    "count": 711,
     "year": 2017,
     "city": "chicago"
   },
   {
     "bucket": 5580,
-    "count": 2123,
+    "count": 719,
+    "year": 2017,
+    "city": "chicago"
+  },
+  {
+    "bucket": 5640,
+    "count": 713,
+    "year": 2017,
+    "city": "chicago"
+  },
+  {
+    "bucket": 5700,
+    "count": 691,
     "year": 2017,
     "city": "chicago"
   },
   {
     "bucket": 5760,
-    "count": 1982,
+    "count": 640,
+    "year": 2017,
+    "city": "chicago"
+  },
+  {
+    "bucket": 5820,
+    "count": 660,
+    "year": 2017,
+    "city": "chicago"
+  },
+  {
+    "bucket": 5880,
+    "count": 682,
     "year": 2017,
     "city": "chicago"
   },
   {
     "bucket": 5940,
-    "count": 1768,
+    "count": 614,
+    "year": 2017,
+    "city": "chicago"
+  },
+  {
+    "bucket": 6000,
+    "count": 554,
+    "year": 2017,
+    "city": "chicago"
+  },
+  {
+    "bucket": 6060,
+    "count": 600,
     "year": 2017,
     "city": "chicago"
   },
   {
     "bucket": 6120,
-    "count": 1612,
+    "count": 564,
+    "year": 2017,
+    "city": "chicago"
+  },
+  {
+    "bucket": 6180,
+    "count": 515,
+    "year": 2017,
+    "city": "chicago"
+  },
+  {
+    "bucket": 6240,
+    "count": 533,
     "year": 2017,
     "city": "chicago"
   },
   {
     "bucket": 6300,
-    "count": 1558,
+    "count": 530,
+    "year": 2017,
+    "city": "chicago"
+  },
+  {
+    "bucket": 6360,
+    "count": 536,
+    "year": 2017,
+    "city": "chicago"
+  },
+  {
+    "bucket": 6420,
+    "count": 492,
     "year": 2017,
     "city": "chicago"
   },
   {
     "bucket": 6480,
-    "count": 1437,
+    "count": 489,
+    "year": 2017,
+    "city": "chicago"
+  },
+  {
+    "bucket": 6540,
+    "count": 492,
+    "year": 2017,
+    "city": "chicago"
+  },
+  {
+    "bucket": 6600,
+    "count": 456,
     "year": 2017,
     "city": "chicago"
   },
   {
     "bucket": 6660,
-    "count": 1334,
+    "count": 454,
+    "year": 2017,
+    "city": "chicago"
+  },
+  {
+    "bucket": 6720,
+    "count": 463,
+    "year": 2017,
+    "city": "chicago"
+  },
+  {
+    "bucket": 6780,
+    "count": 417,
     "year": 2017,
     "city": "chicago"
   },
   {
     "bucket": 6840,
-    "count": 1269,
+    "count": 410,
+    "year": 2017,
+    "city": "chicago"
+  },
+  {
+    "bucket": 6900,
+    "count": 416,
+    "year": 2017,
+    "city": "chicago"
+  },
+  {
+    "bucket": 6960,
+    "count": 443,
     "year": 2017,
     "city": "chicago"
   },
   {
     "bucket": 7020,
-    "count": 1151,
+    "count": 409,
+    "year": 2017,
+    "city": "chicago"
+  },
+  {
+    "bucket": 7080,
+    "count": 377,
+    "year": 2017,
+    "city": "chicago"
+  },
+  {
+    "bucket": 7140,
+    "count": 365,
     "year": 2017,
     "city": "chicago"
   },
@@ -1230,242 +3606,716 @@
     "city": "chicago"
   },
   {
-    "bucket": 0,
-    "count": 130837,
+    "bucket": 60,
+    "count": 27090,
+    "year": 2018,
+    "city": "chicago"
+  },
+  {
+    "bucket": 120,
+    "count": 103747,
     "year": 2018,
     "city": "chicago"
   },
   {
     "bucket": 180,
-    "count": 635091,
+    "count": 177699,
+    "year": 2018,
+    "city": "chicago"
+  },
+  {
+    "bucket": 240,
+    "count": 224013,
+    "year": 2018,
+    "city": "chicago"
+  },
+  {
+    "bucket": 300,
+    "count": 233379,
     "year": 2018,
     "city": "chicago"
   },
   {
     "bucket": 360,
-    "count": 650937,
+    "count": 229609,
+    "year": 2018,
+    "city": "chicago"
+  },
+  {
+    "bucket": 420,
+    "count": 218421,
+    "year": 2018,
+    "city": "chicago"
+  },
+  {
+    "bucket": 480,
+    "count": 202907,
     "year": 2018,
     "city": "chicago"
   },
   {
     "bucket": 540,
-    "count": 500094,
+    "count": 184366,
+    "year": 2018,
+    "city": "chicago"
+  },
+  {
+    "bucket": 600,
+    "count": 166588,
+    "year": 2018,
+    "city": "chicago"
+  },
+  {
+    "bucket": 660,
+    "count": 149140,
     "year": 2018,
     "city": "chicago"
   },
   {
     "bucket": 720,
-    "count": 363514,
+    "count": 134008,
+    "year": 2018,
+    "city": "chicago"
+  },
+  {
+    "bucket": 780,
+    "count": 120855,
+    "year": 2018,
+    "city": "chicago"
+  },
+  {
+    "bucket": 840,
+    "count": 108651,
     "year": 2018,
     "city": "chicago"
   },
   {
     "bucket": 900,
-    "count": 268673,
+    "count": 98353,
+    "year": 2018,
+    "city": "chicago"
+  },
+  {
+    "bucket": 960,
+    "count": 89200,
+    "year": 2018,
+    "city": "chicago"
+  },
+  {
+    "bucket": 1020,
+    "count": 81120,
     "year": 2018,
     "city": "chicago"
   },
   {
     "bucket": 1080,
-    "count": 205212,
+    "count": 73968,
+    "year": 2018,
+    "city": "chicago"
+  },
+  {
+    "bucket": 1140,
+    "count": 68168,
+    "year": 2018,
+    "city": "chicago"
+  },
+  {
+    "bucket": 1200,
+    "count": 63076,
     "year": 2018,
     "city": "chicago"
   },
   {
     "bucket": 1260,
-    "count": 163600,
+    "count": 58262,
+    "year": 2018,
+    "city": "chicago"
+  },
+  {
+    "bucket": 1320,
+    "count": 54719,
+    "year": 2018,
+    "city": "chicago"
+  },
+  {
+    "bucket": 1380,
+    "count": 50619,
     "year": 2018,
     "city": "chicago"
   },
   {
     "bucket": 1440,
-    "count": 131200,
+    "count": 46865,
+    "year": 2018,
+    "city": "chicago"
+  },
+  {
+    "bucket": 1500,
+    "count": 43563,
+    "year": 2018,
+    "city": "chicago"
+  },
+  {
+    "bucket": 1560,
+    "count": 40772,
     "year": 2018,
     "city": "chicago"
   },
   {
     "bucket": 1620,
-    "count": 101040,
+    "count": 36916,
+    "year": 2018,
+    "city": "chicago"
+  },
+  {
+    "bucket": 1680,
+    "count": 33970,
+    "year": 2018,
+    "city": "chicago"
+  },
+  {
+    "bucket": 1740,
+    "count": 30154,
     "year": 2018,
     "city": "chicago"
   },
   {
     "bucket": 1800,
-    "count": 73743,
+    "count": 27319,
+    "year": 2018,
+    "city": "chicago"
+  },
+  {
+    "bucket": 1860,
+    "count": 24372,
+    "year": 2018,
+    "city": "chicago"
+  },
+  {
+    "bucket": 1920,
+    "count": 22052,
     "year": 2018,
     "city": "chicago"
   },
   {
     "bucket": 1980,
-    "count": 53599,
+    "count": 19524,
+    "year": 2018,
+    "city": "chicago"
+  },
+  {
+    "bucket": 2040,
+    "count": 17915,
+    "year": 2018,
+    "city": "chicago"
+  },
+  {
+    "bucket": 2100,
+    "count": 16160,
     "year": 2018,
     "city": "chicago"
   },
   {
     "bucket": 2160,
-    "count": 41508,
+    "count": 15069,
+    "year": 2018,
+    "city": "chicago"
+  },
+  {
+    "bucket": 2220,
+    "count": 13800,
+    "year": 2018,
+    "city": "chicago"
+  },
+  {
+    "bucket": 2280,
+    "count": 12639,
     "year": 2018,
     "city": "chicago"
   },
   {
     "bucket": 2340,
-    "count": 32443,
+    "count": 11674,
+    "year": 2018,
+    "city": "chicago"
+  },
+  {
+    "bucket": 2400,
+    "count": 10651,
+    "year": 2018,
+    "city": "chicago"
+  },
+  {
+    "bucket": 2460,
+    "count": 10118,
     "year": 2018,
     "city": "chicago"
   },
   {
     "bucket": 2520,
-    "count": 25683,
+    "count": 9232,
+    "year": 2018,
+    "city": "chicago"
+  },
+  {
+    "bucket": 2580,
+    "count": 8533,
+    "year": 2018,
+    "city": "chicago"
+  },
+  {
+    "bucket": 2640,
+    "count": 7918,
     "year": 2018,
     "city": "chicago"
   },
   {
     "bucket": 2700,
-    "count": 20500,
+    "count": 7272,
+    "year": 2018,
+    "city": "chicago"
+  },
+  {
+    "bucket": 2760,
+    "count": 6881,
+    "year": 2018,
+    "city": "chicago"
+  },
+  {
+    "bucket": 2820,
+    "count": 6347,
     "year": 2018,
     "city": "chicago"
   },
   {
     "bucket": 2880,
-    "count": 17511,
+    "count": 6140,
+    "year": 2018,
+    "city": "chicago"
+  },
+  {
+    "bucket": 2940,
+    "count": 5778,
+    "year": 2018,
+    "city": "chicago"
+  },
+  {
+    "bucket": 3000,
+    "count": 5593,
     "year": 2018,
     "city": "chicago"
   },
   {
     "bucket": 3060,
-    "count": 15929,
+    "count": 5461,
+    "year": 2018,
+    "city": "chicago"
+  },
+  {
+    "bucket": 3120,
+    "count": 5310,
+    "year": 2018,
+    "city": "chicago"
+  },
+  {
+    "bucket": 3180,
+    "count": 5158,
     "year": 2018,
     "city": "chicago"
   },
   {
     "bucket": 3240,
-    "count": 14379,
+    "count": 4972,
+    "year": 2018,
+    "city": "chicago"
+  },
+  {
+    "bucket": 3300,
+    "count": 4696,
+    "year": 2018,
+    "city": "chicago"
+  },
+  {
+    "bucket": 3360,
+    "count": 4711,
     "year": 2018,
     "city": "chicago"
   },
   {
     "bucket": 3420,
-    "count": 12599,
+    "count": 4443,
+    "year": 2018,
+    "city": "chicago"
+  },
+  {
+    "bucket": 3480,
+    "count": 4155,
+    "year": 2018,
+    "city": "chicago"
+  },
+  {
+    "bucket": 3540,
+    "count": 4001,
     "year": 2018,
     "city": "chicago"
   },
   {
     "bucket": 3600,
-    "count": 10672,
+    "count": 3763,
+    "year": 2018,
+    "city": "chicago"
+  },
+  {
+    "bucket": 3660,
+    "count": 3572,
+    "year": 2018,
+    "city": "chicago"
+  },
+  {
+    "bucket": 3720,
+    "count": 3337,
     "year": 2018,
     "city": "chicago"
   },
   {
     "bucket": 3780,
-    "count": 9364,
+    "count": 3226,
+    "year": 2018,
+    "city": "chicago"
+  },
+  {
+    "bucket": 3840,
+    "count": 3156,
+    "year": 2018,
+    "city": "chicago"
+  },
+  {
+    "bucket": 3900,
+    "count": 2982,
     "year": 2018,
     "city": "chicago"
   },
   {
     "bucket": 3960,
-    "count": 8536,
+    "count": 2851,
+    "year": 2018,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4020,
+    "count": 2943,
+    "year": 2018,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4080,
+    "count": 2742,
     "year": 2018,
     "city": "chicago"
   },
   {
     "bucket": 4140,
-    "count": 7825,
+    "count": 2697,
+    "year": 2018,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4200,
+    "count": 2569,
+    "year": 2018,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4260,
+    "count": 2559,
     "year": 2018,
     "city": "chicago"
   },
   {
     "bucket": 4320,
-    "count": 7293,
+    "count": 2466,
+    "year": 2018,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4380,
+    "count": 2438,
+    "year": 2018,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4440,
+    "count": 2389,
     "year": 2018,
     "city": "chicago"
   },
   {
     "bucket": 4500,
-    "count": 6583,
+    "count": 2239,
+    "year": 2018,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4560,
+    "count": 2215,
+    "year": 2018,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4620,
+    "count": 2129,
     "year": 2018,
     "city": "chicago"
   },
   {
     "bucket": 4680,
-    "count": 6396,
+    "count": 2164,
+    "year": 2018,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4740,
+    "count": 2116,
+    "year": 2018,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4800,
+    "count": 2116,
     "year": 2018,
     "city": "chicago"
   },
   {
     "bucket": 4860,
-    "count": 5764,
+    "count": 1972,
+    "year": 2018,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4920,
+    "count": 1928,
+    "year": 2018,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4980,
+    "count": 1864,
     "year": 2018,
     "city": "chicago"
   },
   {
     "bucket": 5040,
-    "count": 5580,
+    "count": 1923,
+    "year": 2018,
+    "city": "chicago"
+  },
+  {
+    "bucket": 5100,
+    "count": 1833,
+    "year": 2018,
+    "city": "chicago"
+  },
+  {
+    "bucket": 5160,
+    "count": 1824,
     "year": 2018,
     "city": "chicago"
   },
   {
     "bucket": 5220,
-    "count": 5156,
+    "count": 1825,
+    "year": 2018,
+    "city": "chicago"
+  },
+  {
+    "bucket": 5280,
+    "count": 1658,
+    "year": 2018,
+    "city": "chicago"
+  },
+  {
+    "bucket": 5340,
+    "count": 1673,
     "year": 2018,
     "city": "chicago"
   },
   {
     "bucket": 5400,
-    "count": 4467,
+    "count": 1544,
+    "year": 2018,
+    "city": "chicago"
+  },
+  {
+    "bucket": 5460,
+    "count": 1503,
+    "year": 2018,
+    "city": "chicago"
+  },
+  {
+    "bucket": 5520,
+    "count": 1420,
     "year": 2018,
     "city": "chicago"
   },
   {
     "bucket": 5580,
-    "count": 4061,
+    "count": 1409,
+    "year": 2018,
+    "city": "chicago"
+  },
+  {
+    "bucket": 5640,
+    "count": 1362,
+    "year": 2018,
+    "city": "chicago"
+  },
+  {
+    "bucket": 5700,
+    "count": 1290,
     "year": 2018,
     "city": "chicago"
   },
   {
     "bucket": 5760,
-    "count": 3892,
+    "count": 1374,
+    "year": 2018,
+    "city": "chicago"
+  },
+  {
+    "bucket": 5820,
+    "count": 1247,
+    "year": 2018,
+    "city": "chicago"
+  },
+  {
+    "bucket": 5880,
+    "count": 1271,
     "year": 2018,
     "city": "chicago"
   },
   {
     "bucket": 5940,
-    "count": 3555,
+    "count": 1202,
+    "year": 2018,
+    "city": "chicago"
+  },
+  {
+    "bucket": 6000,
+    "count": 1179,
+    "year": 2018,
+    "city": "chicago"
+  },
+  {
+    "bucket": 6060,
+    "count": 1174,
     "year": 2018,
     "city": "chicago"
   },
   {
     "bucket": 6120,
-    "count": 3355,
+    "count": 1095,
+    "year": 2018,
+    "city": "chicago"
+  },
+  {
+    "bucket": 6180,
+    "count": 1130,
+    "year": 2018,
+    "city": "chicago"
+  },
+  {
+    "bucket": 6240,
+    "count": 1130,
     "year": 2018,
     "city": "chicago"
   },
   {
     "bucket": 6300,
-    "count": 3157,
+    "count": 1121,
+    "year": 2018,
+    "city": "chicago"
+  },
+  {
+    "bucket": 6360,
+    "count": 969,
+    "year": 2018,
+    "city": "chicago"
+  },
+  {
+    "bucket": 6420,
+    "count": 1067,
     "year": 2018,
     "city": "chicago"
   },
   {
     "bucket": 6480,
-    "count": 3050,
+    "count": 1085,
+    "year": 2018,
+    "city": "chicago"
+  },
+  {
+    "bucket": 6540,
+    "count": 989,
+    "year": 2018,
+    "city": "chicago"
+  },
+  {
+    "bucket": 6600,
+    "count": 976,
     "year": 2018,
     "city": "chicago"
   },
   {
     "bucket": 6660,
-    "count": 2827,
+    "count": 961,
+    "year": 2018,
+    "city": "chicago"
+  },
+  {
+    "bucket": 6720,
+    "count": 968,
+    "year": 2018,
+    "city": "chicago"
+  },
+  {
+    "bucket": 6780,
+    "count": 898,
     "year": 2018,
     "city": "chicago"
   },
   {
     "bucket": 6840,
-    "count": 2771,
+    "count": 939,
+    "year": 2018,
+    "city": "chicago"
+  },
+  {
+    "bucket": 6900,
+    "count": 936,
+    "year": 2018,
+    "city": "chicago"
+  },
+  {
+    "bucket": 6960,
+    "count": 896,
     "year": 2018,
     "city": "chicago"
   },
   {
     "bucket": 7020,
-    "count": 2384,
+    "count": 841,
+    "year": 2018,
+    "city": "chicago"
+  },
+  {
+    "bucket": 7080,
+    "count": 759,
+    "year": 2018,
+    "city": "chicago"
+  },
+  {
+    "bucket": 7140,
+    "count": 784,
     "year": 2018,
     "city": "chicago"
   },
@@ -1476,242 +4326,716 @@
     "city": "chicago"
   },
   {
-    "bucket": 0,
-    "count": 129361,
+    "bucket": 60,
+    "count": 28596,
+    "year": 2019,
+    "city": "chicago"
+  },
+  {
+    "bucket": 120,
+    "count": 100765,
     "year": 2019,
     "city": "chicago"
   },
   {
     "bucket": 180,
-    "count": 626686,
+    "count": 173859,
+    "year": 2019,
+    "city": "chicago"
+  },
+  {
+    "bucket": 240,
+    "count": 219584,
+    "year": 2019,
+    "city": "chicago"
+  },
+  {
+    "bucket": 300,
+    "count": 233243,
     "year": 2019,
     "city": "chicago"
   },
   {
     "bucket": 360,
-    "count": 655789,
+    "count": 228748,
+    "year": 2019,
+    "city": "chicago"
+  },
+  {
+    "bucket": 420,
+    "count": 219733,
+    "year": 2019,
+    "city": "chicago"
+  },
+  {
+    "bucket": 480,
+    "count": 207308,
     "year": 2019,
     "city": "chicago"
   },
   {
     "bucket": 540,
-    "count": 522697,
+    "count": 190829,
+    "year": 2019,
+    "city": "chicago"
+  },
+  {
+    "bucket": 600,
+    "count": 173675,
+    "year": 2019,
+    "city": "chicago"
+  },
+  {
+    "bucket": 660,
+    "count": 158193,
     "year": 2019,
     "city": "chicago"
   },
   {
     "bucket": 720,
-    "count": 389046,
+    "count": 143275,
+    "year": 2019,
+    "city": "chicago"
+  },
+  {
+    "bucket": 780,
+    "count": 129174,
+    "year": 2019,
+    "city": "chicago"
+  },
+  {
+    "bucket": 840,
+    "count": 116597,
     "year": 2019,
     "city": "chicago"
   },
   {
     "bucket": 900,
-    "count": 289559,
+    "count": 105660,
+    "year": 2019,
+    "city": "chicago"
+  },
+  {
+    "bucket": 960,
+    "count": 96282,
+    "year": 2019,
+    "city": "chicago"
+  },
+  {
+    "bucket": 1020,
+    "count": 87617,
     "year": 2019,
     "city": "chicago"
   },
   {
     "bucket": 1080,
-    "count": 223928,
+    "count": 80899,
+    "year": 2019,
+    "city": "chicago"
+  },
+  {
+    "bucket": 1140,
+    "count": 74442,
+    "year": 2019,
+    "city": "chicago"
+  },
+  {
+    "bucket": 1200,
+    "count": 68587,
     "year": 2019,
     "city": "chicago"
   },
   {
     "bucket": 1260,
-    "count": 180567,
+    "count": 64646,
+    "year": 2019,
+    "city": "chicago"
+  },
+  {
+    "bucket": 1320,
+    "count": 60046,
+    "year": 2019,
+    "city": "chicago"
+  },
+  {
+    "bucket": 1380,
+    "count": 55875,
     "year": 2019,
     "city": "chicago"
   },
   {
     "bucket": 1440,
-    "count": 148482,
+    "count": 52322,
+    "year": 2019,
+    "city": "chicago"
+  },
+  {
+    "bucket": 1500,
+    "count": 49568,
+    "year": 2019,
+    "city": "chicago"
+  },
+  {
+    "bucket": 1560,
+    "count": 46592,
     "year": 2019,
     "city": "chicago"
   },
   {
     "bucket": 1620,
-    "count": 122413,
+    "count": 44368,
+    "year": 2019,
+    "city": "chicago"
+  },
+  {
+    "bucket": 1680,
+    "count": 40726,
+    "year": 2019,
+    "city": "chicago"
+  },
+  {
+    "bucket": 1740,
+    "count": 37319,
     "year": 2019,
     "city": "chicago"
   },
   {
     "bucket": 1800,
-    "count": 89872,
+    "count": 33411,
+    "year": 2019,
+    "city": "chicago"
+  },
+  {
+    "bucket": 1860,
+    "count": 29659,
+    "year": 2019,
+    "city": "chicago"
+  },
+  {
+    "bucket": 1920,
+    "count": 26802,
     "year": 2019,
     "city": "chicago"
   },
   {
     "bucket": 1980,
-    "count": 67392,
+    "count": 24540,
+    "year": 2019,
+    "city": "chicago"
+  },
+  {
+    "bucket": 2040,
+    "count": 22303,
+    "year": 2019,
+    "city": "chicago"
+  },
+  {
+    "bucket": 2100,
+    "count": 20549,
     "year": 2019,
     "city": "chicago"
   },
   {
     "bucket": 2160,
-    "count": 51510,
+    "count": 18804,
+    "year": 2019,
+    "city": "chicago"
+  },
+  {
+    "bucket": 2220,
+    "count": 16993,
+    "year": 2019,
+    "city": "chicago"
+  },
+  {
+    "bucket": 2280,
+    "count": 15713,
     "year": 2019,
     "city": "chicago"
   },
   {
     "bucket": 2340,
-    "count": 39466,
+    "count": 14205,
+    "year": 2019,
+    "city": "chicago"
+  },
+  {
+    "bucket": 2400,
+    "count": 13128,
+    "year": 2019,
+    "city": "chicago"
+  },
+  {
+    "bucket": 2460,
+    "count": 12133,
     "year": 2019,
     "city": "chicago"
   },
   {
     "bucket": 2520,
-    "count": 30852,
+    "count": 11164,
+    "year": 2019,
+    "city": "chicago"
+  },
+  {
+    "bucket": 2580,
+    "count": 10208,
+    "year": 2019,
+    "city": "chicago"
+  },
+  {
+    "bucket": 2640,
+    "count": 9480,
     "year": 2019,
     "city": "chicago"
   },
   {
     "bucket": 2700,
-    "count": 23658,
+    "count": 8448,
+    "year": 2019,
+    "city": "chicago"
+  },
+  {
+    "bucket": 2760,
+    "count": 7963,
+    "year": 2019,
+    "city": "chicago"
+  },
+  {
+    "bucket": 2820,
+    "count": 7247,
     "year": 2019,
     "city": "chicago"
   },
   {
     "bucket": 2880,
-    "count": 20168,
+    "count": 7112,
+    "year": 2019,
+    "city": "chicago"
+  },
+  {
+    "bucket": 2940,
+    "count": 6576,
+    "year": 2019,
+    "city": "chicago"
+  },
+  {
+    "bucket": 3000,
+    "count": 6480,
     "year": 2019,
     "city": "chicago"
   },
   {
     "bucket": 3060,
-    "count": 17956,
+    "count": 6233,
+    "year": 2019,
+    "city": "chicago"
+  },
+  {
+    "bucket": 3120,
+    "count": 6031,
+    "year": 2019,
+    "city": "chicago"
+  },
+  {
+    "bucket": 3180,
+    "count": 5692,
     "year": 2019,
     "city": "chicago"
   },
   {
     "bucket": 3240,
-    "count": 16415,
+    "count": 5529,
+    "year": 2019,
+    "city": "chicago"
+  },
+  {
+    "bucket": 3300,
+    "count": 5562,
+    "year": 2019,
+    "city": "chicago"
+  },
+  {
+    "bucket": 3360,
+    "count": 5324,
     "year": 2019,
     "city": "chicago"
   },
   {
     "bucket": 3420,
-    "count": 14344,
+    "count": 5134,
+    "year": 2019,
+    "city": "chicago"
+  },
+  {
+    "bucket": 3480,
+    "count": 4751,
+    "year": 2019,
+    "city": "chicago"
+  },
+  {
+    "bucket": 3540,
+    "count": 4459,
     "year": 2019,
     "city": "chicago"
   },
   {
     "bucket": 3600,
-    "count": 11778,
+    "count": 4227,
+    "year": 2019,
+    "city": "chicago"
+  },
+  {
+    "bucket": 3660,
+    "count": 3836,
+    "year": 2019,
+    "city": "chicago"
+  },
+  {
+    "bucket": 3720,
+    "count": 3715,
     "year": 2019,
     "city": "chicago"
   },
   {
     "bucket": 3780,
-    "count": 10054,
+    "count": 3463,
+    "year": 2019,
+    "city": "chicago"
+  },
+  {
+    "bucket": 3840,
+    "count": 3341,
+    "year": 2019,
+    "city": "chicago"
+  },
+  {
+    "bucket": 3900,
+    "count": 3250,
     "year": 2019,
     "city": "chicago"
   },
   {
     "bucket": 3960,
-    "count": 9399,
+    "count": 3197,
+    "year": 2019,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4020,
+    "count": 3203,
+    "year": 2019,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4080,
+    "count": 2999,
     "year": 2019,
     "city": "chicago"
   },
   {
     "bucket": 4140,
-    "count": 8564,
+    "count": 2923,
+    "year": 2019,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4200,
+    "count": 2882,
+    "year": 2019,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4260,
+    "count": 2759,
     "year": 2019,
     "city": "chicago"
   },
   {
     "bucket": 4320,
-    "count": 8024,
+    "count": 2685,
+    "year": 2019,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4380,
+    "count": 2698,
+    "year": 2019,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4440,
+    "count": 2641,
     "year": 2019,
     "city": "chicago"
   },
   {
     "bucket": 4500,
-    "count": 7626,
+    "count": 2582,
+    "year": 2019,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4560,
+    "count": 2533,
+    "year": 2019,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4620,
+    "count": 2511,
     "year": 2019,
     "city": "chicago"
   },
   {
     "bucket": 4680,
-    "count": 6835,
+    "count": 2377,
+    "year": 2019,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4740,
+    "count": 2293,
+    "year": 2019,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4800,
+    "count": 2165,
     "year": 2019,
     "city": "chicago"
   },
   {
     "bucket": 4860,
-    "count": 6157,
+    "count": 2055,
+    "year": 2019,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4920,
+    "count": 2100,
+    "year": 2019,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4980,
+    "count": 2002,
     "year": 2019,
     "city": "chicago"
   },
   {
     "bucket": 5040,
-    "count": 5949,
+    "count": 2055,
+    "year": 2019,
+    "city": "chicago"
+  },
+  {
+    "bucket": 5100,
+    "count": 2014,
+    "year": 2019,
+    "city": "chicago"
+  },
+  {
+    "bucket": 5160,
+    "count": 1880,
     "year": 2019,
     "city": "chicago"
   },
   {
     "bucket": 5220,
-    "count": 5366,
+    "count": 1850,
+    "year": 2019,
+    "city": "chicago"
+  },
+  {
+    "bucket": 5280,
+    "count": 1766,
+    "year": 2019,
+    "city": "chicago"
+  },
+  {
+    "bucket": 5340,
+    "count": 1750,
     "year": 2019,
     "city": "chicago"
   },
   {
     "bucket": 5400,
-    "count": 4832,
+    "count": 1637,
+    "year": 2019,
+    "city": "chicago"
+  },
+  {
+    "bucket": 5460,
+    "count": 1676,
+    "year": 2019,
+    "city": "chicago"
+  },
+  {
+    "bucket": 5520,
+    "count": 1519,
     "year": 2019,
     "city": "chicago"
   },
   {
     "bucket": 5580,
-    "count": 4323,
+    "count": 1482,
+    "year": 2019,
+    "city": "chicago"
+  },
+  {
+    "bucket": 5640,
+    "count": 1466,
+    "year": 2019,
+    "city": "chicago"
+  },
+  {
+    "bucket": 5700,
+    "count": 1375,
     "year": 2019,
     "city": "chicago"
   },
   {
     "bucket": 5760,
-    "count": 4115,
+    "count": 1372,
+    "year": 2019,
+    "city": "chicago"
+  },
+  {
+    "bucket": 5820,
+    "count": 1389,
+    "year": 2019,
+    "city": "chicago"
+  },
+  {
+    "bucket": 5880,
+    "count": 1354,
     "year": 2019,
     "city": "chicago"
   },
   {
     "bucket": 5940,
-    "count": 3855,
+    "count": 1320,
+    "year": 2019,
+    "city": "chicago"
+  },
+  {
+    "bucket": 6000,
+    "count": 1309,
+    "year": 2019,
+    "city": "chicago"
+  },
+  {
+    "bucket": 6060,
+    "count": 1226,
     "year": 2019,
     "city": "chicago"
   },
   {
     "bucket": 6120,
-    "count": 3593,
+    "count": 1267,
+    "year": 2019,
+    "city": "chicago"
+  },
+  {
+    "bucket": 6180,
+    "count": 1168,
+    "year": 2019,
+    "city": "chicago"
+  },
+  {
+    "bucket": 6240,
+    "count": 1158,
     "year": 2019,
     "city": "chicago"
   },
   {
     "bucket": 6300,
-    "count": 3455,
+    "count": 1139,
+    "year": 2019,
+    "city": "chicago"
+  },
+  {
+    "bucket": 6360,
+    "count": 1102,
+    "year": 2019,
+    "city": "chicago"
+  },
+  {
+    "bucket": 6420,
+    "count": 1214,
     "year": 2019,
     "city": "chicago"
   },
   {
     "bucket": 6480,
-    "count": 3136,
+    "count": 1097,
+    "year": 2019,
+    "city": "chicago"
+  },
+  {
+    "bucket": 6540,
+    "count": 1032,
+    "year": 2019,
+    "city": "chicago"
+  },
+  {
+    "bucket": 6600,
+    "count": 1007,
     "year": 2019,
     "city": "chicago"
   },
   {
     "bucket": 6660,
-    "count": 2948,
+    "count": 1008,
+    "year": 2019,
+    "city": "chicago"
+  },
+  {
+    "bucket": 6720,
+    "count": 926,
+    "year": 2019,
+    "city": "chicago"
+  },
+  {
+    "bucket": 6780,
+    "count": 1014,
     "year": 2019,
     "city": "chicago"
   },
   {
     "bucket": 6840,
-    "count": 2756,
+    "count": 908,
+    "year": 2019,
+    "city": "chicago"
+  },
+  {
+    "bucket": 6900,
+    "count": 944,
+    "year": 2019,
+    "city": "chicago"
+  },
+  {
+    "bucket": 6960,
+    "count": 904,
     "year": 2019,
     "city": "chicago"
   },
   {
     "bucket": 7020,
-    "count": 2508,
+    "count": 863,
+    "year": 2019,
+    "city": "chicago"
+  },
+  {
+    "bucket": 7080,
+    "count": 844,
+    "year": 2019,
+    "city": "chicago"
+  },
+  {
+    "bucket": 7140,
+    "count": 801,
     "year": 2019,
     "city": "chicago"
   },
@@ -1723,241 +5047,721 @@
   },
   {
     "bucket": 0,
-    "count": 161227,
+    "count": 51496,
+    "year": 2020,
+    "city": "chicago"
+  },
+  {
+    "bucket": 60,
+    "count": 32263,
+    "year": 2020,
+    "city": "chicago"
+  },
+  {
+    "bucket": 120,
+    "count": 77468,
     "year": 2020,
     "city": "chicago"
   },
   {
     "bucket": 180,
-    "count": 437808,
+    "count": 122005,
+    "year": 2020,
+    "city": "chicago"
+  },
+  {
+    "bucket": 240,
+    "count": 151264,
+    "year": 2020,
+    "city": "chicago"
+  },
+  {
+    "bucket": 300,
+    "count": 164539,
     "year": 2020,
     "city": "chicago"
   },
   {
     "bucket": 360,
-    "count": 491007,
+    "count": 168152,
+    "year": 2020,
+    "city": "chicago"
+  },
+  {
+    "bucket": 420,
+    "count": 164689,
+    "year": 2020,
+    "city": "chicago"
+  },
+  {
+    "bucket": 480,
+    "count": 158166,
     "year": 2020,
     "city": "chicago"
   },
   {
     "bucket": 540,
-    "count": 424609,
+    "count": 149553,
+    "year": 2020,
+    "city": "chicago"
+  },
+  {
+    "bucket": 600,
+    "count": 142042,
+    "year": 2020,
+    "city": "chicago"
+  },
+  {
+    "bucket": 660,
+    "count": 133014,
     "year": 2020,
     "city": "chicago"
   },
   {
     "bucket": 720,
-    "count": 344150,
+    "count": 123560,
+    "year": 2020,
+    "city": "chicago"
+  },
+  {
+    "bucket": 780,
+    "count": 113913,
+    "year": 2020,
+    "city": "chicago"
+  },
+  {
+    "bucket": 840,
+    "count": 106677,
     "year": 2020,
     "city": "chicago"
   },
   {
     "bucket": 900,
-    "count": 274680,
+    "count": 98549,
+    "year": 2020,
+    "city": "chicago"
+  },
+  {
+    "bucket": 960,
+    "count": 91142,
+    "year": 2020,
+    "city": "chicago"
+  },
+  {
+    "bucket": 1020,
+    "count": 84989,
     "year": 2020,
     "city": "chicago"
   },
   {
     "bucket": 1080,
-    "count": 222762,
+    "count": 79398,
+    "year": 2020,
+    "city": "chicago"
+  },
+  {
+    "bucket": 1140,
+    "count": 74040,
+    "year": 2020,
+    "city": "chicago"
+  },
+  {
+    "bucket": 1200,
+    "count": 69324,
     "year": 2020,
     "city": "chicago"
   },
   {
     "bucket": 1260,
-    "count": 185262,
+    "count": 65157,
+    "year": 2020,
+    "city": "chicago"
+  },
+  {
+    "bucket": 1320,
+    "count": 61746,
+    "year": 2020,
+    "city": "chicago"
+  },
+  {
+    "bucket": 1380,
+    "count": 58359,
     "year": 2020,
     "city": "chicago"
   },
   {
     "bucket": 1440,
-    "count": 155687,
+    "count": 54509,
+    "year": 2020,
+    "city": "chicago"
+  },
+  {
+    "bucket": 1500,
+    "count": 51963,
+    "year": 2020,
+    "city": "chicago"
+  },
+  {
+    "bucket": 1560,
+    "count": 49215,
     "year": 2020,
     "city": "chicago"
   },
   {
     "bucket": 1620,
-    "count": 131826,
+    "count": 46829,
+    "year": 2020,
+    "city": "chicago"
+  },
+  {
+    "bucket": 1680,
+    "count": 44029,
+    "year": 2020,
+    "city": "chicago"
+  },
+  {
+    "bucket": 1740,
+    "count": 40968,
     "year": 2020,
     "city": "chicago"
   },
   {
     "bucket": 1800,
-    "count": 102564,
+    "count": 37617,
+    "year": 2020,
+    "city": "chicago"
+  },
+  {
+    "bucket": 1860,
+    "count": 33930,
+    "year": 2020,
+    "city": "chicago"
+  },
+  {
+    "bucket": 1920,
+    "count": 31017,
     "year": 2020,
     "city": "chicago"
   },
   {
     "bucket": 1980,
-    "count": 81504,
+    "count": 28996,
+    "year": 2020,
+    "city": "chicago"
+  },
+  {
+    "bucket": 2040,
+    "count": 27251,
+    "year": 2020,
+    "city": "chicago"
+  },
+  {
+    "bucket": 2100,
+    "count": 25257,
     "year": 2020,
     "city": "chicago"
   },
   {
     "bucket": 2160,
-    "count": 67108,
+    "count": 23813,
+    "year": 2020,
+    "city": "chicago"
+  },
+  {
+    "bucket": 2220,
+    "count": 22236,
+    "year": 2020,
+    "city": "chicago"
+  },
+  {
+    "bucket": 2280,
+    "count": 21059,
     "year": 2020,
     "city": "chicago"
   },
   {
     "bucket": 2340,
-    "count": 55154,
+    "count": 19629,
+    "year": 2020,
+    "city": "chicago"
+  },
+  {
+    "bucket": 2400,
+    "count": 18137,
+    "year": 2020,
+    "city": "chicago"
+  },
+  {
+    "bucket": 2460,
+    "count": 17388,
     "year": 2020,
     "city": "chicago"
   },
   {
     "bucket": 2520,
-    "count": 44139,
+    "count": 16057,
+    "year": 2020,
+    "city": "chicago"
+  },
+  {
+    "bucket": 2580,
+    "count": 14793,
+    "year": 2020,
+    "city": "chicago"
+  },
+  {
+    "bucket": 2640,
+    "count": 13289,
     "year": 2020,
     "city": "chicago"
   },
   {
     "bucket": 2700,
-    "count": 32132,
+    "count": 11893,
+    "year": 2020,
+    "city": "chicago"
+  },
+  {
+    "bucket": 2760,
+    "count": 10420,
+    "year": 2020,
+    "city": "chicago"
+  },
+  {
+    "bucket": 2820,
+    "count": 9819,
     "year": 2020,
     "city": "chicago"
   },
   {
     "bucket": 2880,
-    "count": 26295,
+    "count": 9250,
+    "year": 2020,
+    "city": "chicago"
+  },
+  {
+    "bucket": 2940,
+    "count": 8701,
+    "year": 2020,
+    "city": "chicago"
+  },
+  {
+    "bucket": 3000,
+    "count": 8344,
     "year": 2020,
     "city": "chicago"
   },
   {
     "bucket": 3060,
-    "count": 22818,
+    "count": 7804,
+    "year": 2020,
+    "city": "chicago"
+  },
+  {
+    "bucket": 3120,
+    "count": 7639,
+    "year": 2020,
+    "city": "chicago"
+  },
+  {
+    "bucket": 3180,
+    "count": 7375,
     "year": 2020,
     "city": "chicago"
   },
   {
     "bucket": 3240,
-    "count": 20670,
+    "count": 7158,
+    "year": 2020,
+    "city": "chicago"
+  },
+  {
+    "bucket": 3300,
+    "count": 6914,
+    "year": 2020,
+    "city": "chicago"
+  },
+  {
+    "bucket": 3360,
+    "count": 6598,
     "year": 2020,
     "city": "chicago"
   },
   {
     "bucket": 3420,
-    "count": 18613,
+    "count": 6428,
+    "year": 2020,
+    "city": "chicago"
+  },
+  {
+    "bucket": 3480,
+    "count": 6203,
+    "year": 2020,
+    "city": "chicago"
+  },
+  {
+    "bucket": 3540,
+    "count": 5982,
     "year": 2020,
     "city": "chicago"
   },
   {
     "bucket": 3600,
-    "count": 16024,
+    "count": 5608,
+    "year": 2020,
+    "city": "chicago"
+  },
+  {
+    "bucket": 3660,
+    "count": 5236,
+    "year": 2020,
+    "city": "chicago"
+  },
+  {
+    "bucket": 3720,
+    "count": 5180,
     "year": 2020,
     "city": "chicago"
   },
   {
     "bucket": 3780,
-    "count": 15233,
+    "count": 4967,
+    "year": 2020,
+    "city": "chicago"
+  },
+  {
+    "bucket": 3840,
+    "count": 5376,
+    "year": 2020,
+    "city": "chicago"
+  },
+  {
+    "bucket": 3900,
+    "count": 4890,
     "year": 2020,
     "city": "chicago"
   },
   {
     "bucket": 3960,
-    "count": 13036,
+    "count": 4476,
+    "year": 2020,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4020,
+    "count": 4227,
+    "year": 2020,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4080,
+    "count": 4333,
     "year": 2020,
     "city": "chicago"
   },
   {
     "bucket": 4140,
-    "count": 12206,
+    "count": 4194,
+    "year": 2020,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4200,
+    "count": 4001,
+    "year": 2020,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4260,
+    "count": 4011,
     "year": 2020,
     "city": "chicago"
   },
   {
     "bucket": 4320,
-    "count": 11269,
+    "count": 3841,
+    "year": 2020,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4380,
+    "count": 3738,
+    "year": 2020,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4440,
+    "count": 3690,
     "year": 2020,
     "city": "chicago"
   },
   {
     "bucket": 4500,
-    "count": 10248,
+    "count": 3554,
+    "year": 2020,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4560,
+    "count": 3419,
+    "year": 2020,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4620,
+    "count": 3275,
     "year": 2020,
     "city": "chicago"
   },
   {
     "bucket": 4680,
-    "count": 9480,
+    "count": 3207,
+    "year": 2020,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4740,
+    "count": 3212,
+    "year": 2020,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4800,
+    "count": 3061,
     "year": 2020,
     "city": "chicago"
   },
   {
     "bucket": 4860,
-    "count": 8694,
+    "count": 2962,
+    "year": 2020,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4920,
+    "count": 2917,
+    "year": 2020,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4980,
+    "count": 2815,
     "year": 2020,
     "city": "chicago"
   },
   {
     "bucket": 5040,
-    "count": 8358,
+    "count": 2842,
+    "year": 2020,
+    "city": "chicago"
+  },
+  {
+    "bucket": 5100,
+    "count": 2783,
+    "year": 2020,
+    "city": "chicago"
+  },
+  {
+    "bucket": 5160,
+    "count": 2733,
     "year": 2020,
     "city": "chicago"
   },
   {
     "bucket": 5220,
-    "count": 7657,
+    "count": 2587,
+    "year": 2020,
+    "city": "chicago"
+  },
+  {
+    "bucket": 5280,
+    "count": 2606,
+    "year": 2020,
+    "city": "chicago"
+  },
+  {
+    "bucket": 5340,
+    "count": 2464,
     "year": 2020,
     "city": "chicago"
   },
   {
     "bucket": 5400,
-    "count": 7052,
+    "count": 2438,
+    "year": 2020,
+    "city": "chicago"
+  },
+  {
+    "bucket": 5460,
+    "count": 2330,
+    "year": 2020,
+    "city": "chicago"
+  },
+  {
+    "bucket": 5520,
+    "count": 2284,
     "year": 2020,
     "city": "chicago"
   },
   {
     "bucket": 5580,
-    "count": 6398,
+    "count": 2162,
+    "year": 2020,
+    "city": "chicago"
+  },
+  {
+    "bucket": 5640,
+    "count": 2194,
+    "year": 2020,
+    "city": "chicago"
+  },
+  {
+    "bucket": 5700,
+    "count": 2042,
     "year": 2020,
     "city": "chicago"
   },
   {
     "bucket": 5760,
-    "count": 5856,
+    "count": 1997,
+    "year": 2020,
+    "city": "chicago"
+  },
+  {
+    "bucket": 5820,
+    "count": 1910,
+    "year": 2020,
+    "city": "chicago"
+  },
+  {
+    "bucket": 5880,
+    "count": 1949,
     "year": 2020,
     "city": "chicago"
   },
   {
     "bucket": 5940,
-    "count": 5593,
+    "count": 1949,
+    "year": 2020,
+    "city": "chicago"
+  },
+  {
+    "bucket": 6000,
+    "count": 1832,
+    "year": 2020,
+    "city": "chicago"
+  },
+  {
+    "bucket": 6060,
+    "count": 1812,
     "year": 2020,
     "city": "chicago"
   },
   {
     "bucket": 6120,
-    "count": 5203,
+    "count": 1812,
+    "year": 2020,
+    "city": "chicago"
+  },
+  {
+    "bucket": 6180,
+    "count": 1712,
+    "year": 2020,
+    "city": "chicago"
+  },
+  {
+    "bucket": 6240,
+    "count": 1679,
     "year": 2020,
     "city": "chicago"
   },
   {
     "bucket": 6300,
-    "count": 4909,
+    "count": 1642,
+    "year": 2020,
+    "city": "chicago"
+  },
+  {
+    "bucket": 6360,
+    "count": 1630,
+    "year": 2020,
+    "city": "chicago"
+  },
+  {
+    "bucket": 6420,
+    "count": 1637,
     "year": 2020,
     "city": "chicago"
   },
   {
     "bucket": 6480,
-    "count": 4626,
+    "count": 1596,
+    "year": 2020,
+    "city": "chicago"
+  },
+  {
+    "bucket": 6540,
+    "count": 1509,
+    "year": 2020,
+    "city": "chicago"
+  },
+  {
+    "bucket": 6600,
+    "count": 1521,
     "year": 2020,
     "city": "chicago"
   },
   {
     "bucket": 6660,
-    "count": 4363,
+    "count": 1520,
+    "year": 2020,
+    "city": "chicago"
+  },
+  {
+    "bucket": 6720,
+    "count": 1419,
+    "year": 2020,
+    "city": "chicago"
+  },
+  {
+    "bucket": 6780,
+    "count": 1424,
     "year": 2020,
     "city": "chicago"
   },
   {
     "bucket": 6840,
-    "count": 3936,
+    "count": 1370,
+    "year": 2020,
+    "city": "chicago"
+  },
+  {
+    "bucket": 6900,
+    "count": 1230,
+    "year": 2020,
+    "city": "chicago"
+  },
+  {
+    "bucket": 6960,
+    "count": 1336,
     "year": 2020,
     "city": "chicago"
   },
   {
     "bucket": 7020,
-    "count": 3736,
+    "count": 1374,
+    "year": 2020,
+    "city": "chicago"
+  },
+  {
+    "bucket": 7080,
+    "count": 1215,
+    "year": 2020,
+    "city": "chicago"
+  },
+  {
+    "bucket": 7140,
+    "count": 1147,
     "year": 2020,
     "city": "chicago"
   },
@@ -1969,241 +5773,721 @@
   },
   {
     "bucket": 0,
-    "count": 317208,
+    "count": 84580,
+    "year": 2021,
+    "city": "chicago"
+  },
+  {
+    "bucket": 60,
+    "count": 74381,
+    "year": 2021,
+    "city": "chicago"
+  },
+  {
+    "bucket": 120,
+    "count": 158247,
     "year": 2021,
     "city": "chicago"
   },
   {
     "bucket": 180,
-    "count": 846403,
+    "count": 242884,
+    "year": 2021,
+    "city": "chicago"
+  },
+  {
+    "bucket": 240,
+    "count": 292876,
+    "year": 2021,
+    "city": "chicago"
+  },
+  {
+    "bucket": 300,
+    "count": 310643,
     "year": 2021,
     "city": "chicago"
   },
   {
     "bucket": 360,
-    "count": 894189,
+    "count": 311474,
+    "year": 2021,
+    "city": "chicago"
+  },
+  {
+    "bucket": 420,
+    "count": 299899,
+    "year": 2021,
+    "city": "chicago"
+  },
+  {
+    "bucket": 480,
+    "count": 282816,
     "year": 2021,
     "city": "chicago"
   },
   {
     "bucket": 540,
-    "count": 738590,
+    "count": 266340,
+    "year": 2021,
+    "city": "chicago"
+  },
+  {
+    "bucket": 600,
+    "count": 245878,
+    "year": 2021,
+    "city": "chicago"
+  },
+  {
+    "bucket": 660,
+    "count": 226372,
     "year": 2021,
     "city": "chicago"
   },
   {
     "bucket": 720,
-    "count": 566637,
+    "count": 206396,
+    "year": 2021,
+    "city": "chicago"
+  },
+  {
+    "bucket": 780,
+    "count": 188415,
+    "year": 2021,
+    "city": "chicago"
+  },
+  {
+    "bucket": 840,
+    "count": 171826,
     "year": 2021,
     "city": "chicago"
   },
   {
     "bucket": 900,
-    "count": 429830,
+    "count": 156519,
+    "year": 2021,
+    "city": "chicago"
+  },
+  {
+    "bucket": 960,
+    "count": 142686,
+    "year": 2021,
+    "city": "chicago"
+  },
+  {
+    "bucket": 1020,
+    "count": 130625,
     "year": 2021,
     "city": "chicago"
   },
   {
     "bucket": 1080,
-    "count": 329650,
+    "count": 119073,
+    "year": 2021,
+    "city": "chicago"
+  },
+  {
+    "bucket": 1140,
+    "count": 108967,
+    "year": 2021,
+    "city": "chicago"
+  },
+  {
+    "bucket": 1200,
+    "count": 101610,
     "year": 2021,
     "city": "chicago"
   },
   {
     "bucket": 1260,
-    "count": 256840,
+    "count": 92463,
+    "year": 2021,
+    "city": "chicago"
+  },
+  {
+    "bucket": 1320,
+    "count": 84840,
+    "year": 2021,
+    "city": "chicago"
+  },
+  {
+    "bucket": 1380,
+    "count": 79537,
     "year": 2021,
     "city": "chicago"
   },
   {
     "bucket": 1440,
-    "count": 206878,
+    "count": 73816,
+    "year": 2021,
+    "city": "chicago"
+  },
+  {
+    "bucket": 1500,
+    "count": 68831,
+    "year": 2021,
+    "city": "chicago"
+  },
+  {
+    "bucket": 1560,
+    "count": 64231,
     "year": 2021,
     "city": "chicago"
   },
   {
     "bucket": 1620,
-    "count": 166610,
+    "count": 59600,
+    "year": 2021,
+    "city": "chicago"
+  },
+  {
+    "bucket": 1680,
+    "count": 55641,
+    "year": 2021,
+    "city": "chicago"
+  },
+  {
+    "bucket": 1740,
+    "count": 51369,
     "year": 2021,
     "city": "chicago"
   },
   {
     "bucket": 1800,
-    "count": 130028,
+    "count": 47352,
+    "year": 2021,
+    "city": "chicago"
+  },
+  {
+    "bucket": 1860,
+    "count": 43213,
+    "year": 2021,
+    "city": "chicago"
+  },
+  {
+    "bucket": 1920,
+    "count": 39463,
     "year": 2021,
     "city": "chicago"
   },
   {
     "bucket": 1980,
-    "count": 102758,
+    "count": 36691,
+    "year": 2021,
+    "city": "chicago"
+  },
+  {
+    "bucket": 2040,
+    "count": 34002,
+    "year": 2021,
+    "city": "chicago"
+  },
+  {
+    "bucket": 2100,
+    "count": 32065,
     "year": 2021,
     "city": "chicago"
   },
   {
     "bucket": 2160,
-    "count": 82372,
+    "count": 29449,
+    "year": 2021,
+    "city": "chicago"
+  },
+  {
+    "bucket": 2220,
+    "count": 27245,
+    "year": 2021,
+    "city": "chicago"
+  },
+  {
+    "bucket": 2280,
+    "count": 25678,
     "year": 2021,
     "city": "chicago"
   },
   {
     "bucket": 2340,
-    "count": 67772,
+    "count": 24173,
+    "year": 2021,
+    "city": "chicago"
+  },
+  {
+    "bucket": 2400,
+    "count": 22722,
+    "year": 2021,
+    "city": "chicago"
+  },
+  {
+    "bucket": 2460,
+    "count": 20877,
     "year": 2021,
     "city": "chicago"
   },
   {
     "bucket": 2520,
-    "count": 55122,
+    "count": 19694,
+    "year": 2021,
+    "city": "chicago"
+  },
+  {
+    "bucket": 2580,
+    "count": 18463,
+    "year": 2021,
+    "city": "chicago"
+  },
+  {
+    "bucket": 2640,
+    "count": 16965,
     "year": 2021,
     "city": "chicago"
   },
   {
     "bucket": 2700,
-    "count": 42485,
+    "count": 15523,
+    "year": 2021,
+    "city": "chicago"
+  },
+  {
+    "bucket": 2760,
+    "count": 13982,
+    "year": 2021,
+    "city": "chicago"
+  },
+  {
+    "bucket": 2820,
+    "count": 12980,
     "year": 2021,
     "city": "chicago"
   },
   {
     "bucket": 2880,
-    "count": 35473,
+    "count": 12396,
+    "year": 2021,
+    "city": "chicago"
+  },
+  {
+    "bucket": 2940,
+    "count": 11898,
+    "year": 2021,
+    "city": "chicago"
+  },
+  {
+    "bucket": 3000,
+    "count": 11179,
     "year": 2021,
     "city": "chicago"
   },
   {
     "bucket": 3060,
-    "count": 29351,
+    "count": 10362,
+    "year": 2021,
+    "city": "chicago"
+  },
+  {
+    "bucket": 3120,
+    "count": 9682,
+    "year": 2021,
+    "city": "chicago"
+  },
+  {
+    "bucket": 3180,
+    "count": 9307,
     "year": 2021,
     "city": "chicago"
   },
   {
     "bucket": 3240,
-    "count": 25510,
+    "count": 8898,
+    "year": 2021,
+    "city": "chicago"
+  },
+  {
+    "bucket": 3300,
+    "count": 8553,
+    "year": 2021,
+    "city": "chicago"
+  },
+  {
+    "bucket": 3360,
+    "count": 8059,
     "year": 2021,
     "city": "chicago"
   },
   {
     "bucket": 3420,
-    "count": 22182,
+    "count": 7757,
+    "year": 2021,
+    "city": "chicago"
+  },
+  {
+    "bucket": 3480,
+    "count": 7341,
+    "year": 2021,
+    "city": "chicago"
+  },
+  {
+    "bucket": 3540,
+    "count": 7084,
     "year": 2021,
     "city": "chicago"
   },
   {
     "bucket": 3600,
-    "count": 20166,
+    "count": 7092,
+    "year": 2021,
+    "city": "chicago"
+  },
+  {
+    "bucket": 3660,
+    "count": 6513,
+    "year": 2021,
+    "city": "chicago"
+  },
+  {
+    "bucket": 3720,
+    "count": 6561,
     "year": 2021,
     "city": "chicago"
   },
   {
     "bucket": 3780,
-    "count": 17794,
+    "count": 6009,
+    "year": 2021,
+    "city": "chicago"
+  },
+  {
+    "bucket": 3840,
+    "count": 6052,
+    "year": 2021,
+    "city": "chicago"
+  },
+  {
+    "bucket": 3900,
+    "count": 5733,
     "year": 2021,
     "city": "chicago"
   },
   {
     "bucket": 3960,
-    "count": 15798,
+    "count": 5451,
+    "year": 2021,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4020,
+    "count": 5359,
+    "year": 2021,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4080,
+    "count": 4988,
     "year": 2021,
     "city": "chicago"
   },
   {
     "bucket": 4140,
-    "count": 14200,
+    "count": 4892,
+    "year": 2021,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4200,
+    "count": 4708,
+    "year": 2021,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4260,
+    "count": 4600,
     "year": 2021,
     "city": "chicago"
   },
   {
     "bucket": 4320,
-    "count": 12749,
+    "count": 4343,
+    "year": 2021,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4380,
+    "count": 4329,
+    "year": 2021,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4440,
+    "count": 4077,
     "year": 2021,
     "city": "chicago"
   },
   {
     "bucket": 4500,
-    "count": 11822,
+    "count": 4081,
+    "year": 2021,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4560,
+    "count": 3927,
+    "year": 2021,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4620,
+    "count": 3814,
     "year": 2021,
     "city": "chicago"
   },
   {
     "bucket": 4680,
-    "count": 10738,
+    "count": 3658,
+    "year": 2021,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4740,
+    "count": 3590,
+    "year": 2021,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4800,
+    "count": 3490,
     "year": 2021,
     "city": "chicago"
   },
   {
     "bucket": 4860,
-    "count": 9539,
+    "count": 3257,
+    "year": 2021,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4920,
+    "count": 3201,
+    "year": 2021,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4980,
+    "count": 3081,
     "year": 2021,
     "city": "chicago"
   },
   {
     "bucket": 5040,
-    "count": 8958,
+    "count": 2994,
+    "year": 2021,
+    "city": "chicago"
+  },
+  {
+    "bucket": 5100,
+    "count": 3062,
+    "year": 2021,
+    "city": "chicago"
+  },
+  {
+    "bucket": 5160,
+    "count": 2902,
     "year": 2021,
     "city": "chicago"
   },
   {
     "bucket": 5220,
-    "count": 8155,
+    "count": 2874,
+    "year": 2021,
+    "city": "chicago"
+  },
+  {
+    "bucket": 5280,
+    "count": 2782,
+    "year": 2021,
+    "city": "chicago"
+  },
+  {
+    "bucket": 5340,
+    "count": 2499,
     "year": 2021,
     "city": "chicago"
   },
   {
     "bucket": 5400,
-    "count": 7530,
+    "count": 2503,
+    "year": 2021,
+    "city": "chicago"
+  },
+  {
+    "bucket": 5460,
+    "count": 2560,
+    "year": 2021,
+    "city": "chicago"
+  },
+  {
+    "bucket": 5520,
+    "count": 2467,
     "year": 2021,
     "city": "chicago"
   },
   {
     "bucket": 5580,
-    "count": 6930,
+    "count": 2354,
+    "year": 2021,
+    "city": "chicago"
+  },
+  {
+    "bucket": 5640,
+    "count": 2287,
+    "year": 2021,
+    "city": "chicago"
+  },
+  {
+    "bucket": 5700,
+    "count": 2289,
     "year": 2021,
     "city": "chicago"
   },
   {
     "bucket": 5760,
-    "count": 6145,
+    "count": 2137,
+    "year": 2021,
+    "city": "chicago"
+  },
+  {
+    "bucket": 5820,
+    "count": 2037,
+    "year": 2021,
+    "city": "chicago"
+  },
+  {
+    "bucket": 5880,
+    "count": 1971,
     "year": 2021,
     "city": "chicago"
   },
   {
     "bucket": 5940,
-    "count": 5861,
+    "count": 2027,
+    "year": 2021,
+    "city": "chicago"
+  },
+  {
+    "bucket": 6000,
+    "count": 1945,
+    "year": 2021,
+    "city": "chicago"
+  },
+  {
+    "bucket": 6060,
+    "count": 1889,
     "year": 2021,
     "city": "chicago"
   },
   {
     "bucket": 6120,
-    "count": 5232,
+    "count": 1762,
+    "year": 2021,
+    "city": "chicago"
+  },
+  {
+    "bucket": 6180,
+    "count": 1726,
+    "year": 2021,
+    "city": "chicago"
+  },
+  {
+    "bucket": 6240,
+    "count": 1744,
     "year": 2021,
     "city": "chicago"
   },
   {
     "bucket": 6300,
-    "count": 4944,
+    "count": 1654,
+    "year": 2021,
+    "city": "chicago"
+  },
+  {
+    "bucket": 6360,
+    "count": 1641,
+    "year": 2021,
+    "city": "chicago"
+  },
+  {
+    "bucket": 6420,
+    "count": 1649,
     "year": 2021,
     "city": "chicago"
   },
   {
     "bucket": 6480,
-    "count": 4496,
+    "count": 1588,
+    "year": 2021,
+    "city": "chicago"
+  },
+  {
+    "bucket": 6540,
+    "count": 1470,
+    "year": 2021,
+    "city": "chicago"
+  },
+  {
+    "bucket": 6600,
+    "count": 1438,
     "year": 2021,
     "city": "chicago"
   },
   {
     "bucket": 6660,
-    "count": 4166,
+    "count": 1422,
+    "year": 2021,
+    "city": "chicago"
+  },
+  {
+    "bucket": 6720,
+    "count": 1333,
+    "year": 2021,
+    "city": "chicago"
+  },
+  {
+    "bucket": 6780,
+    "count": 1411,
     "year": 2021,
     "city": "chicago"
   },
   {
     "bucket": 6840,
-    "count": 4011,
+    "count": 1381,
+    "year": 2021,
+    "city": "chicago"
+  },
+  {
+    "bucket": 6900,
+    "count": 1300,
+    "year": 2021,
+    "city": "chicago"
+  },
+  {
+    "bucket": 6960,
+    "count": 1330,
     "year": 2021,
     "city": "chicago"
   },
   {
     "bucket": 7020,
-    "count": 3521,
+    "count": 1228,
+    "year": 2021,
+    "city": "chicago"
+  },
+  {
+    "bucket": 7080,
+    "count": 1135,
+    "year": 2021,
+    "city": "chicago"
+  },
+  {
+    "bucket": 7140,
+    "count": 1158,
     "year": 2021,
     "city": "chicago"
   },
@@ -2215,241 +6499,721 @@
   },
   {
     "bucket": 0,
-    "count": 435822,
+    "count": 120558,
+    "year": 2022,
+    "city": "chicago"
+  },
+  {
+    "bucket": 60,
+    "count": 101155,
+    "year": 2022,
+    "city": "chicago"
+  },
+  {
+    "bucket": 120,
+    "count": 214109,
     "year": 2022,
     "city": "chicago"
   },
   {
     "bucket": 180,
-    "count": 1043470,
+    "count": 314686,
+    "year": 2022,
+    "city": "chicago"
+  },
+  {
+    "bucket": 240,
+    "count": 361213,
+    "year": 2022,
+    "city": "chicago"
+  },
+  {
+    "bucket": 300,
+    "count": 367571,
     "year": 2022,
     "city": "chicago"
   },
   {
     "bucket": 360,
-    "count": 995490,
+    "count": 354807,
+    "year": 2022,
+    "city": "chicago"
+  },
+  {
+    "bucket": 420,
+    "count": 333417,
+    "year": 2022,
+    "city": "chicago"
+  },
+  {
+    "bucket": 480,
+    "count": 307266,
     "year": 2022,
     "city": "chicago"
   },
   {
     "bucket": 540,
-    "count": 765033,
+    "count": 281446,
+    "year": 2022,
+    "city": "chicago"
+  },
+  {
+    "bucket": 600,
+    "count": 255357,
+    "year": 2022,
+    "city": "chicago"
+  },
+  {
+    "bucket": 660,
+    "count": 228230,
     "year": 2022,
     "city": "chicago"
   },
   {
     "bucket": 720,
-    "count": 555098,
+    "count": 204615,
+    "year": 2022,
+    "city": "chicago"
+  },
+  {
+    "bucket": 780,
+    "count": 184581,
+    "year": 2022,
+    "city": "chicago"
+  },
+  {
+    "bucket": 840,
+    "count": 165902,
     "year": 2022,
     "city": "chicago"
   },
   {
     "bucket": 900,
-    "count": 402618,
+    "count": 148810,
+    "year": 2022,
+    "city": "chicago"
+  },
+  {
+    "bucket": 960,
+    "count": 133532,
+    "year": 2022,
+    "city": "chicago"
+  },
+  {
+    "bucket": 1020,
+    "count": 120276,
     "year": 2022,
     "city": "chicago"
   },
   {
     "bucket": 1080,
-    "count": 298544,
+    "count": 108913,
+    "year": 2022,
+    "city": "chicago"
+  },
+  {
+    "bucket": 1140,
+    "count": 98297,
+    "year": 2022,
+    "city": "chicago"
+  },
+  {
+    "bucket": 1200,
+    "count": 91334,
     "year": 2022,
     "city": "chicago"
   },
   {
     "bucket": 1260,
-    "count": 224401,
+    "count": 81731,
+    "year": 2022,
+    "city": "chicago"
+  },
+  {
+    "bucket": 1320,
+    "count": 74483,
+    "year": 2022,
+    "city": "chicago"
+  },
+  {
+    "bucket": 1380,
+    "count": 68187,
     "year": 2022,
     "city": "chicago"
   },
   {
     "bucket": 1440,
-    "count": 172853,
+    "count": 62488,
+    "year": 2022,
+    "city": "chicago"
+  },
+  {
+    "bucket": 1500,
+    "count": 57709,
+    "year": 2022,
+    "city": "chicago"
+  },
+  {
+    "bucket": 1560,
+    "count": 52656,
     "year": 2022,
     "city": "chicago"
   },
   {
     "bucket": 1620,
-    "count": 135684,
+    "count": 48996,
+    "year": 2022,
+    "city": "chicago"
+  },
+  {
+    "bucket": 1680,
+    "count": 45132,
+    "year": 2022,
+    "city": "chicago"
+  },
+  {
+    "bucket": 1740,
+    "count": 41556,
     "year": 2022,
     "city": "chicago"
   },
   {
     "bucket": 1800,
-    "count": 104502,
+    "count": 38016,
+    "year": 2022,
+    "city": "chicago"
+  },
+  {
+    "bucket": 1860,
+    "count": 34672,
+    "year": 2022,
+    "city": "chicago"
+  },
+  {
+    "bucket": 1920,
+    "count": 31814,
     "year": 2022,
     "city": "chicago"
   },
   {
     "bucket": 1980,
-    "count": 82639,
+    "count": 29805,
+    "year": 2022,
+    "city": "chicago"
+  },
+  {
+    "bucket": 2040,
+    "count": 27618,
+    "year": 2022,
+    "city": "chicago"
+  },
+  {
+    "bucket": 2100,
+    "count": 25216,
     "year": 2022,
     "city": "chicago"
   },
   {
     "bucket": 2160,
-    "count": 66359,
+    "count": 23723,
+    "year": 2022,
+    "city": "chicago"
+  },
+  {
+    "bucket": 2220,
+    "count": 22290,
+    "year": 2022,
+    "city": "chicago"
+  },
+  {
+    "bucket": 2280,
+    "count": 20346,
     "year": 2022,
     "city": "chicago"
   },
   {
     "bucket": 2340,
-    "count": 53670,
+    "count": 19287,
+    "year": 2022,
+    "city": "chicago"
+  },
+  {
+    "bucket": 2400,
+    "count": 17853,
+    "year": 2022,
+    "city": "chicago"
+  },
+  {
+    "bucket": 2460,
+    "count": 16530,
     "year": 2022,
     "city": "chicago"
   },
   {
     "bucket": 2520,
-    "count": 43077,
+    "count": 15611,
+    "year": 2022,
+    "city": "chicago"
+  },
+  {
+    "bucket": 2580,
+    "count": 14250,
+    "year": 2022,
+    "city": "chicago"
+  },
+  {
+    "bucket": 2640,
+    "count": 13216,
     "year": 2022,
     "city": "chicago"
   },
   {
     "bucket": 2700,
-    "count": 33255,
+    "count": 12103,
+    "year": 2022,
+    "city": "chicago"
+  },
+  {
+    "bucket": 2760,
+    "count": 11005,
+    "year": 2022,
+    "city": "chicago"
+  },
+  {
+    "bucket": 2820,
+    "count": 10147,
     "year": 2022,
     "city": "chicago"
   },
   {
     "bucket": 2880,
-    "count": 26445,
+    "count": 9256,
+    "year": 2022,
+    "city": "chicago"
+  },
+  {
+    "bucket": 2940,
+    "count": 8801,
+    "year": 2022,
+    "city": "chicago"
+  },
+  {
+    "bucket": 3000,
+    "count": 8388,
     "year": 2022,
     "city": "chicago"
   },
   {
     "bucket": 3060,
-    "count": 22165,
+    "count": 7785,
+    "year": 2022,
+    "city": "chicago"
+  },
+  {
+    "bucket": 3120,
+    "count": 7385,
+    "year": 2022,
+    "city": "chicago"
+  },
+  {
+    "bucket": 3180,
+    "count": 6995,
     "year": 2022,
     "city": "chicago"
   },
   {
     "bucket": 3240,
-    "count": 19163,
+    "count": 6796,
+    "year": 2022,
+    "city": "chicago"
+  },
+  {
+    "bucket": 3300,
+    "count": 6342,
+    "year": 2022,
+    "city": "chicago"
+  },
+  {
+    "bucket": 3360,
+    "count": 6025,
     "year": 2022,
     "city": "chicago"
   },
   {
     "bucket": 3420,
-    "count": 16438,
+    "count": 5821,
+    "year": 2022,
+    "city": "chicago"
+  },
+  {
+    "bucket": 3480,
+    "count": 5481,
+    "year": 2022,
+    "city": "chicago"
+  },
+  {
+    "bucket": 3540,
+    "count": 5136,
     "year": 2022,
     "city": "chicago"
   },
   {
     "bucket": 3600,
-    "count": 14381,
+    "count": 5079,
+    "year": 2022,
+    "city": "chicago"
+  },
+  {
+    "bucket": 3660,
+    "count": 4794,
+    "year": 2022,
+    "city": "chicago"
+  },
+  {
+    "bucket": 3720,
+    "count": 4508,
     "year": 2022,
     "city": "chicago"
   },
   {
     "bucket": 3780,
-    "count": 12788,
+    "count": 4364,
+    "year": 2022,
+    "city": "chicago"
+  },
+  {
+    "bucket": 3840,
+    "count": 4247,
+    "year": 2022,
+    "city": "chicago"
+  },
+  {
+    "bucket": 3900,
+    "count": 4177,
     "year": 2022,
     "city": "chicago"
   },
   {
     "bucket": 3960,
-    "count": 11427,
+    "count": 3971,
+    "year": 2022,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4020,
+    "count": 3753,
+    "year": 2022,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4080,
+    "count": 3703,
     "year": 2022,
     "city": "chicago"
   },
   {
     "bucket": 4140,
-    "count": 10046,
+    "count": 3526,
+    "year": 2022,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4200,
+    "count": 3313,
+    "year": 2022,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4260,
+    "count": 3207,
     "year": 2022,
     "city": "chicago"
   },
   {
     "bucket": 4320,
-    "count": 8838,
+    "count": 3019,
+    "year": 2022,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4380,
+    "count": 2890,
+    "year": 2022,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4440,
+    "count": 2929,
     "year": 2022,
     "city": "chicago"
   },
   {
     "bucket": 4500,
-    "count": 7956,
+    "count": 2777,
+    "year": 2022,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4560,
+    "count": 2689,
+    "year": 2022,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4620,
+    "count": 2490,
     "year": 2022,
     "city": "chicago"
   },
   {
     "bucket": 4680,
-    "count": 7407,
+    "count": 2556,
+    "year": 2022,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4740,
+    "count": 2460,
+    "year": 2022,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4800,
+    "count": 2391,
     "year": 2022,
     "city": "chicago"
   },
   {
     "bucket": 4860,
-    "count": 6698,
+    "count": 2293,
+    "year": 2022,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4920,
+    "count": 2260,
+    "year": 2022,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4980,
+    "count": 2145,
     "year": 2022,
     "city": "chicago"
   },
   {
     "bucket": 5040,
-    "count": 6047,
+    "count": 2111,
+    "year": 2022,
+    "city": "chicago"
+  },
+  {
+    "bucket": 5100,
+    "count": 1997,
+    "year": 2022,
+    "city": "chicago"
+  },
+  {
+    "bucket": 5160,
+    "count": 1939,
     "year": 2022,
     "city": "chicago"
   },
   {
     "bucket": 5220,
-    "count": 5378,
+    "count": 1798,
+    "year": 2022,
+    "city": "chicago"
+  },
+  {
+    "bucket": 5280,
+    "count": 1829,
+    "year": 2022,
+    "city": "chicago"
+  },
+  {
+    "bucket": 5340,
+    "count": 1751,
     "year": 2022,
     "city": "chicago"
   },
   {
     "bucket": 5400,
-    "count": 4911,
+    "count": 1693,
+    "year": 2022,
+    "city": "chicago"
+  },
+  {
+    "bucket": 5460,
+    "count": 1613,
+    "year": 2022,
+    "city": "chicago"
+  },
+  {
+    "bucket": 5520,
+    "count": 1605,
     "year": 2022,
     "city": "chicago"
   },
   {
     "bucket": 5580,
-    "count": 4543,
+    "count": 1591,
+    "year": 2022,
+    "city": "chicago"
+  },
+  {
+    "bucket": 5640,
+    "count": 1450,
+    "year": 2022,
+    "city": "chicago"
+  },
+  {
+    "bucket": 5700,
+    "count": 1502,
     "year": 2022,
     "city": "chicago"
   },
   {
     "bucket": 5760,
-    "count": 4229,
+    "count": 1402,
+    "year": 2022,
+    "city": "chicago"
+  },
+  {
+    "bucket": 5820,
+    "count": 1442,
+    "year": 2022,
+    "city": "chicago"
+  },
+  {
+    "bucket": 5880,
+    "count": 1385,
     "year": 2022,
     "city": "chicago"
   },
   {
     "bucket": 5940,
-    "count": 3741,
+    "count": 1305,
+    "year": 2022,
+    "city": "chicago"
+  },
+  {
+    "bucket": 6000,
+    "count": 1290,
+    "year": 2022,
+    "city": "chicago"
+  },
+  {
+    "bucket": 6060,
+    "count": 1146,
     "year": 2022,
     "city": "chicago"
   },
   {
     "bucket": 6120,
-    "count": 3430,
+    "count": 1184,
+    "year": 2022,
+    "city": "chicago"
+  },
+  {
+    "bucket": 6180,
+    "count": 1117,
+    "year": 2022,
+    "city": "chicago"
+  },
+  {
+    "bucket": 6240,
+    "count": 1129,
     "year": 2022,
     "city": "chicago"
   },
   {
     "bucket": 6300,
-    "count": 3198,
+    "count": 1103,
+    "year": 2022,
+    "city": "chicago"
+  },
+  {
+    "bucket": 6360,
+    "count": 1057,
+    "year": 2022,
+    "city": "chicago"
+  },
+  {
+    "bucket": 6420,
+    "count": 1038,
     "year": 2022,
     "city": "chicago"
   },
   {
     "bucket": 6480,
-    "count": 2887,
+    "count": 1008,
+    "year": 2022,
+    "city": "chicago"
+  },
+  {
+    "bucket": 6540,
+    "count": 958,
+    "year": 2022,
+    "city": "chicago"
+  },
+  {
+    "bucket": 6600,
+    "count": 921,
     "year": 2022,
     "city": "chicago"
   },
   {
     "bucket": 6660,
-    "count": 2707,
+    "count": 940,
+    "year": 2022,
+    "city": "chicago"
+  },
+  {
+    "bucket": 6720,
+    "count": 914,
+    "year": 2022,
+    "city": "chicago"
+  },
+  {
+    "bucket": 6780,
+    "count": 853,
     "year": 2022,
     "city": "chicago"
   },
   {
     "bucket": 6840,
-    "count": 2554,
+    "count": 859,
+    "year": 2022,
+    "city": "chicago"
+  },
+  {
+    "bucket": 6900,
+    "count": 856,
+    "year": 2022,
+    "city": "chicago"
+  },
+  {
+    "bucket": 6960,
+    "count": 839,
     "year": 2022,
     "city": "chicago"
   },
   {
     "bucket": 7020,
-    "count": 2271,
+    "count": 787,
+    "year": 2022,
+    "city": "chicago"
+  },
+  {
+    "bucket": 7080,
+    "count": 724,
+    "year": 2022,
+    "city": "chicago"
+  },
+  {
+    "bucket": 7140,
+    "count": 760,
     "year": 2022,
     "city": "chicago"
   },
@@ -2461,241 +7225,721 @@
   },
   {
     "bucket": 0,
-    "count": 504838,
+    "count": 148346,
+    "year": 2023,
+    "city": "chicago"
+  },
+  {
+    "bucket": 60,
+    "count": 113678,
+    "year": 2023,
+    "city": "chicago"
+  },
+  {
+    "bucket": 120,
+    "count": 242814,
     "year": 2023,
     "city": "chicago"
   },
   {
     "bucket": 180,
-    "count": 1149455,
+    "count": 353609,
+    "year": 2023,
+    "city": "chicago"
+  },
+  {
+    "bucket": 240,
+    "count": 398644,
+    "year": 2023,
+    "city": "chicago"
+  },
+  {
+    "bucket": 300,
+    "count": 397202,
     "year": 2023,
     "city": "chicago"
   },
   {
     "bucket": 360,
-    "count": 1045726,
+    "count": 377531,
+    "year": 2023,
+    "city": "chicago"
+  },
+  {
+    "bucket": 420,
+    "count": 350032,
+    "year": 2023,
+    "city": "chicago"
+  },
+  {
+    "bucket": 480,
+    "count": 318163,
     "year": 2023,
     "city": "chicago"
   },
   {
     "bucket": 540,
-    "count": 776096,
+    "count": 288343,
+    "year": 2023,
+    "city": "chicago"
+  },
+  {
+    "bucket": 600,
+    "count": 258499,
+    "year": 2023,
+    "city": "chicago"
+  },
+  {
+    "bucket": 660,
+    "count": 229254,
     "year": 2023,
     "city": "chicago"
   },
   {
     "bucket": 720,
-    "count": 548361,
+    "count": 203922,
+    "year": 2023,
+    "city": "chicago"
+  },
+  {
+    "bucket": 780,
+    "count": 182720,
+    "year": 2023,
+    "city": "chicago"
+  },
+  {
+    "bucket": 840,
+    "count": 161719,
     "year": 2023,
     "city": "chicago"
   },
   {
     "bucket": 900,
-    "count": 387959,
+    "count": 143813,
+    "year": 2023,
+    "city": "chicago"
+  },
+  {
+    "bucket": 960,
+    "count": 129240,
+    "year": 2023,
+    "city": "chicago"
+  },
+  {
+    "bucket": 1020,
+    "count": 114906,
     "year": 2023,
     "city": "chicago"
   },
   {
     "bucket": 1080,
-    "count": 280667,
+    "count": 103564,
+    "year": 2023,
+    "city": "chicago"
+  },
+  {
+    "bucket": 1140,
+    "count": 93223,
+    "year": 2023,
+    "city": "chicago"
+  },
+  {
+    "bucket": 1200,
+    "count": 83880,
     "year": 2023,
     "city": "chicago"
   },
   {
     "bucket": 1260,
-    "count": 208067,
+    "count": 76050,
+    "year": 2023,
+    "city": "chicago"
+  },
+  {
+    "bucket": 1320,
+    "count": 69354,
+    "year": 2023,
+    "city": "chicago"
+  },
+  {
+    "bucket": 1380,
+    "count": 62663,
     "year": 2023,
     "city": "chicago"
   },
   {
     "bucket": 1440,
-    "count": 156623,
+    "count": 57489,
+    "year": 2023,
+    "city": "chicago"
+  },
+  {
+    "bucket": 1500,
+    "count": 51921,
+    "year": 2023,
+    "city": "chicago"
+  },
+  {
+    "bucket": 1560,
+    "count": 47213,
     "year": 2023,
     "city": "chicago"
   },
   {
     "bucket": 1620,
-    "count": 118468,
+    "count": 43072,
+    "year": 2023,
+    "city": "chicago"
+  },
+  {
+    "bucket": 1680,
+    "count": 39251,
+    "year": 2023,
+    "city": "chicago"
+  },
+  {
+    "bucket": 1740,
+    "count": 36145,
     "year": 2023,
     "city": "chicago"
   },
   {
     "bucket": 1800,
-    "count": 91791,
+    "count": 33382,
+    "year": 2023,
+    "city": "chicago"
+  },
+  {
+    "bucket": 1860,
+    "count": 30445,
+    "year": 2023,
+    "city": "chicago"
+  },
+  {
+    "bucket": 1920,
+    "count": 27964,
     "year": 2023,
     "city": "chicago"
   },
   {
     "bucket": 1980,
-    "count": 71342,
+    "count": 25817,
+    "year": 2023,
+    "city": "chicago"
+  },
+  {
+    "bucket": 2040,
+    "count": 23600,
+    "year": 2023,
+    "city": "chicago"
+  },
+  {
+    "bucket": 2100,
+    "count": 21925,
     "year": 2023,
     "city": "chicago"
   },
   {
     "bucket": 2160,
-    "count": 56753,
+    "count": 20055,
+    "year": 2023,
+    "city": "chicago"
+  },
+  {
+    "bucket": 2220,
+    "count": 19081,
+    "year": 2023,
+    "city": "chicago"
+  },
+  {
+    "bucket": 2280,
+    "count": 17617,
     "year": 2023,
     "city": "chicago"
   },
   {
     "bucket": 2340,
-    "count": 45798,
+    "count": 16522,
+    "year": 2023,
+    "city": "chicago"
+  },
+  {
+    "bucket": 2400,
+    "count": 14985,
+    "year": 2023,
+    "city": "chicago"
+  },
+  {
+    "bucket": 2460,
+    "count": 14291,
     "year": 2023,
     "city": "chicago"
   },
   {
     "bucket": 2520,
-    "count": 36245,
+    "count": 13021,
+    "year": 2023,
+    "city": "chicago"
+  },
+  {
+    "bucket": 2580,
+    "count": 12131,
+    "year": 2023,
+    "city": "chicago"
+  },
+  {
+    "bucket": 2640,
+    "count": 11093,
     "year": 2023,
     "city": "chicago"
   },
   {
     "bucket": 2700,
-    "count": 27892,
+    "count": 10208,
     "year": 2023,
     "city": "chicago"
   },
   {
-    "bucket": 2880,
-    "count": 22719,
-    "year": 2023,
-    "city": "chicago"
-  },
-  {
-    "bucket": 3060,
-    "count": 18915,
-    "year": 2023,
-    "city": "chicago"
-  },
-  {
-    "bucket": 3240,
-    "count": 16112,
-    "year": 2023,
-    "city": "chicago"
-  },
-  {
-    "bucket": 3420,
-    "count": 13756,
-    "year": 2023,
-    "city": "chicago"
-  },
-  {
-    "bucket": 3600,
-    "count": 11870,
-    "year": 2023,
-    "city": "chicago"
-  },
-  {
-    "bucket": 3780,
-    "count": 10436,
-    "year": 2023,
-    "city": "chicago"
-  },
-  {
-    "bucket": 3960,
+    "bucket": 2760,
     "count": 9130,
     "year": 2023,
     "city": "chicago"
   },
   {
+    "bucket": 2820,
+    "count": 8554,
+    "year": 2023,
+    "city": "chicago"
+  },
+  {
+    "bucket": 2880,
+    "count": 8195,
+    "year": 2023,
+    "city": "chicago"
+  },
+  {
+    "bucket": 2940,
+    "count": 7543,
+    "year": 2023,
+    "city": "chicago"
+  },
+  {
+    "bucket": 3000,
+    "count": 6981,
+    "year": 2023,
+    "city": "chicago"
+  },
+  {
+    "bucket": 3060,
+    "count": 6592,
+    "year": 2023,
+    "city": "chicago"
+  },
+  {
+    "bucket": 3120,
+    "count": 6242,
+    "year": 2023,
+    "city": "chicago"
+  },
+  {
+    "bucket": 3180,
+    "count": 6081,
+    "year": 2023,
+    "city": "chicago"
+  },
+  {
+    "bucket": 3240,
+    "count": 5633,
+    "year": 2023,
+    "city": "chicago"
+  },
+  {
+    "bucket": 3300,
+    "count": 5424,
+    "year": 2023,
+    "city": "chicago"
+  },
+  {
+    "bucket": 3360,
+    "count": 5055,
+    "year": 2023,
+    "city": "chicago"
+  },
+  {
+    "bucket": 3420,
+    "count": 4851,
+    "year": 2023,
+    "city": "chicago"
+  },
+  {
+    "bucket": 3480,
+    "count": 4521,
+    "year": 2023,
+    "city": "chicago"
+  },
+  {
+    "bucket": 3540,
+    "count": 4384,
+    "year": 2023,
+    "city": "chicago"
+  },
+  {
+    "bucket": 3600,
+    "count": 4202,
+    "year": 2023,
+    "city": "chicago"
+  },
+  {
+    "bucket": 3660,
+    "count": 3969,
+    "year": 2023,
+    "city": "chicago"
+  },
+  {
+    "bucket": 3720,
+    "count": 3699,
+    "year": 2023,
+    "city": "chicago"
+  },
+  {
+    "bucket": 3780,
+    "count": 3723,
+    "year": 2023,
+    "city": "chicago"
+  },
+  {
+    "bucket": 3840,
+    "count": 3458,
+    "year": 2023,
+    "city": "chicago"
+  },
+  {
+    "bucket": 3900,
+    "count": 3255,
+    "year": 2023,
+    "city": "chicago"
+  },
+  {
+    "bucket": 3960,
+    "count": 3213,
+    "year": 2023,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4020,
+    "count": 3048,
+    "year": 2023,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4080,
+    "count": 2869,
+    "year": 2023,
+    "city": "chicago"
+  },
+  {
     "bucket": 4140,
-    "count": 8009,
+    "count": 2817,
+    "year": 2023,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4200,
+    "count": 2663,
+    "year": 2023,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4260,
+    "count": 2529,
     "year": 2023,
     "city": "chicago"
   },
   {
     "bucket": 4320,
-    "count": 7160,
+    "count": 2462,
+    "year": 2023,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4380,
+    "count": 2345,
+    "year": 2023,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4440,
+    "count": 2353,
     "year": 2023,
     "city": "chicago"
   },
   {
     "bucket": 4500,
-    "count": 6566,
+    "count": 2234,
+    "year": 2023,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4560,
+    "count": 2202,
+    "year": 2023,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4620,
+    "count": 2130,
     "year": 2023,
     "city": "chicago"
   },
   {
     "bucket": 4680,
-    "count": 5949,
+    "count": 2041,
+    "year": 2023,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4740,
+    "count": 1929,
+    "year": 2023,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4800,
+    "count": 1979,
     "year": 2023,
     "city": "chicago"
   },
   {
     "bucket": 4860,
-    "count": 5253,
+    "count": 1865,
+    "year": 2023,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4920,
+    "count": 1751,
+    "year": 2023,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4980,
+    "count": 1637,
     "year": 2023,
     "city": "chicago"
   },
   {
     "bucket": 5040,
-    "count": 4658,
+    "count": 1590,
+    "year": 2023,
+    "city": "chicago"
+  },
+  {
+    "bucket": 5100,
+    "count": 1582,
+    "year": 2023,
+    "city": "chicago"
+  },
+  {
+    "bucket": 5160,
+    "count": 1486,
     "year": 2023,
     "city": "chicago"
   },
   {
     "bucket": 5220,
-    "count": 4401,
+    "count": 1536,
+    "year": 2023,
+    "city": "chicago"
+  },
+  {
+    "bucket": 5280,
+    "count": 1444,
+    "year": 2023,
+    "city": "chicago"
+  },
+  {
+    "bucket": 5340,
+    "count": 1421,
     "year": 2023,
     "city": "chicago"
   },
   {
     "bucket": 5400,
-    "count": 3871,
+    "count": 1314,
+    "year": 2023,
+    "city": "chicago"
+  },
+  {
+    "bucket": 5460,
+    "count": 1262,
+    "year": 2023,
+    "city": "chicago"
+  },
+  {
+    "bucket": 5520,
+    "count": 1295,
     "year": 2023,
     "city": "chicago"
   },
   {
     "bucket": 5580,
-    "count": 3472,
+    "count": 1195,
+    "year": 2023,
+    "city": "chicago"
+  },
+  {
+    "bucket": 5640,
+    "count": 1185,
+    "year": 2023,
+    "city": "chicago"
+  },
+  {
+    "bucket": 5700,
+    "count": 1092,
     "year": 2023,
     "city": "chicago"
   },
   {
     "bucket": 5760,
-    "count": 3301,
+    "count": 1110,
+    "year": 2023,
+    "city": "chicago"
+  },
+  {
+    "bucket": 5820,
+    "count": 1133,
+    "year": 2023,
+    "city": "chicago"
+  },
+  {
+    "bucket": 5880,
+    "count": 1058,
     "year": 2023,
     "city": "chicago"
   },
   {
     "bucket": 5940,
-    "count": 3033,
+    "count": 1016,
+    "year": 2023,
+    "city": "chicago"
+  },
+  {
+    "bucket": 6000,
+    "count": 995,
+    "year": 2023,
+    "city": "chicago"
+  },
+  {
+    "bucket": 6060,
+    "count": 1022,
     "year": 2023,
     "city": "chicago"
   },
   {
     "bucket": 6120,
-    "count": 2774,
+    "count": 969,
+    "year": 2023,
+    "city": "chicago"
+  },
+  {
+    "bucket": 6180,
+    "count": 939,
+    "year": 2023,
+    "city": "chicago"
+  },
+  {
+    "bucket": 6240,
+    "count": 866,
     "year": 2023,
     "city": "chicago"
   },
   {
     "bucket": 6300,
-    "count": 2470,
+    "count": 813,
+    "year": 2023,
+    "city": "chicago"
+  },
+  {
+    "bucket": 6360,
+    "count": 844,
+    "year": 2023,
+    "city": "chicago"
+  },
+  {
+    "bucket": 6420,
+    "count": 813,
     "year": 2023,
     "city": "chicago"
   },
   {
     "bucket": 6480,
-    "count": 2237,
+    "count": 727,
+    "year": 2023,
+    "city": "chicago"
+  },
+  {
+    "bucket": 6540,
+    "count": 788,
+    "year": 2023,
+    "city": "chicago"
+  },
+  {
+    "bucket": 6600,
+    "count": 722,
     "year": 2023,
     "city": "chicago"
   },
   {
     "bucket": 6660,
-    "count": 2097,
+    "count": 703,
+    "year": 2023,
+    "city": "chicago"
+  },
+  {
+    "bucket": 6720,
+    "count": 679,
+    "year": 2023,
+    "city": "chicago"
+  },
+  {
+    "bucket": 6780,
+    "count": 715,
     "year": 2023,
     "city": "chicago"
   },
   {
     "bucket": 6840,
-    "count": 1999,
+    "count": 668,
+    "year": 2023,
+    "city": "chicago"
+  },
+  {
+    "bucket": 6900,
+    "count": 657,
+    "year": 2023,
+    "city": "chicago"
+  },
+  {
+    "bucket": 6960,
+    "count": 674,
     "year": 2023,
     "city": "chicago"
   },
   {
     "bucket": 7020,
-    "count": 1854,
+    "count": 666,
+    "year": 2023,
+    "city": "chicago"
+  },
+  {
+    "bucket": 7080,
+    "count": 609,
+    "year": 2023,
+    "city": "chicago"
+  },
+  {
+    "bucket": 7140,
+    "count": 579,
     "year": 2023,
     "city": "chicago"
   },
@@ -2707,241 +7951,721 @@
   },
   {
     "bucket": 0,
-    "count": 482849,
+    "count": 130533,
+    "year": 2024,
+    "city": "chicago"
+  },
+  {
+    "bucket": 60,
+    "count": 110415,
+    "year": 2024,
+    "city": "chicago"
+  },
+  {
+    "bucket": 120,
+    "count": 241901,
     "year": 2024,
     "city": "chicago"
   },
   {
     "bucket": 180,
-    "count": 1161632,
+    "count": 353528,
+    "year": 2024,
+    "city": "chicago"
+  },
+  {
+    "bucket": 240,
+    "count": 403462,
+    "year": 2024,
+    "city": "chicago"
+  },
+  {
+    "bucket": 300,
+    "count": 404642,
     "year": 2024,
     "city": "chicago"
   },
   {
     "bucket": 360,
-    "count": 1067747,
+    "count": 384268,
+    "year": 2024,
+    "city": "chicago"
+  },
+  {
+    "bucket": 420,
+    "count": 357008,
+    "year": 2024,
+    "city": "chicago"
+  },
+  {
+    "bucket": 480,
+    "count": 326471,
     "year": 2024,
     "city": "chicago"
   },
   {
     "bucket": 540,
-    "count": 801116,
+    "count": 296381,
+    "year": 2024,
+    "city": "chicago"
+  },
+  {
+    "bucket": 600,
+    "count": 266464,
+    "year": 2024,
+    "city": "chicago"
+  },
+  {
+    "bucket": 660,
+    "count": 238271,
     "year": 2024,
     "city": "chicago"
   },
   {
     "bucket": 720,
-    "count": 566968,
+    "count": 212508,
+    "year": 2024,
+    "city": "chicago"
+  },
+  {
+    "bucket": 780,
+    "count": 187773,
+    "year": 2024,
+    "city": "chicago"
+  },
+  {
+    "bucket": 840,
+    "count": 166687,
     "year": 2024,
     "city": "chicago"
   },
   {
     "bucket": 900,
-    "count": 401246,
+    "count": 148216,
+    "year": 2024,
+    "city": "chicago"
+  },
+  {
+    "bucket": 960,
+    "count": 133818,
+    "year": 2024,
+    "city": "chicago"
+  },
+  {
+    "bucket": 1020,
+    "count": 119212,
     "year": 2024,
     "city": "chicago"
   },
   {
     "bucket": 1080,
-    "count": 291589,
+    "count": 107425,
+    "year": 2024,
+    "city": "chicago"
+  },
+  {
+    "bucket": 1140,
+    "count": 96876,
+    "year": 2024,
+    "city": "chicago"
+  },
+  {
+    "bucket": 1200,
+    "count": 87288,
     "year": 2024,
     "city": "chicago"
   },
   {
     "bucket": 1260,
-    "count": 216123,
+    "count": 78961,
+    "year": 2024,
+    "city": "chicago"
+  },
+  {
+    "bucket": 1320,
+    "count": 71705,
+    "year": 2024,
+    "city": "chicago"
+  },
+  {
+    "bucket": 1380,
+    "count": 65457,
     "year": 2024,
     "city": "chicago"
   },
   {
     "bucket": 1440,
-    "count": 162437,
+    "count": 59225,
+    "year": 2024,
+    "city": "chicago"
+  },
+  {
+    "bucket": 1500,
+    "count": 54226,
+    "year": 2024,
+    "city": "chicago"
+  },
+  {
+    "bucket": 1560,
+    "count": 48986,
     "year": 2024,
     "city": "chicago"
   },
   {
     "bucket": 1620,
-    "count": 123175,
+    "count": 44745,
+    "year": 2024,
+    "city": "chicago"
+  },
+  {
+    "bucket": 1680,
+    "count": 41100,
+    "year": 2024,
+    "city": "chicago"
+  },
+  {
+    "bucket": 1740,
+    "count": 37330,
     "year": 2024,
     "city": "chicago"
   },
   {
     "bucket": 1800,
-    "count": 95617,
+    "count": 34261,
+    "year": 2024,
+    "city": "chicago"
+  },
+  {
+    "bucket": 1860,
+    "count": 31682,
+    "year": 2024,
+    "city": "chicago"
+  },
+  {
+    "bucket": 1920,
+    "count": 29674,
     "year": 2024,
     "city": "chicago"
   },
   {
     "bucket": 1980,
-    "count": 75465,
+    "count": 26826,
+    "year": 2024,
+    "city": "chicago"
+  },
+  {
+    "bucket": 2040,
+    "count": 24960,
+    "year": 2024,
+    "city": "chicago"
+  },
+  {
+    "bucket": 2100,
+    "count": 23679,
     "year": 2024,
     "city": "chicago"
   },
   {
     "bucket": 2160,
-    "count": 60720,
+    "count": 21862,
+    "year": 2024,
+    "city": "chicago"
+  },
+  {
+    "bucket": 2220,
+    "count": 20249,
+    "year": 2024,
+    "city": "chicago"
+  },
+  {
+    "bucket": 2280,
+    "count": 18609,
     "year": 2024,
     "city": "chicago"
   },
   {
     "bucket": 2340,
-    "count": 49401,
+    "count": 17571,
+    "year": 2024,
+    "city": "chicago"
+  },
+  {
+    "bucket": 2400,
+    "count": 16310,
+    "year": 2024,
+    "city": "chicago"
+  },
+  {
+    "bucket": 2460,
+    "count": 15520,
     "year": 2024,
     "city": "chicago"
   },
   {
     "bucket": 2520,
-    "count": 39473,
+    "count": 14020,
+    "year": 2024,
+    "city": "chicago"
+  },
+  {
+    "bucket": 2580,
+    "count": 13246,
+    "year": 2024,
+    "city": "chicago"
+  },
+  {
+    "bucket": 2640,
+    "count": 12207,
     "year": 2024,
     "city": "chicago"
   },
   {
     "bucket": 2700,
-    "count": 31584,
+    "count": 11292,
+    "year": 2024,
+    "city": "chicago"
+  },
+  {
+    "bucket": 2760,
+    "count": 10463,
+    "year": 2024,
+    "city": "chicago"
+  },
+  {
+    "bucket": 2820,
+    "count": 9829,
     "year": 2024,
     "city": "chicago"
   },
   {
     "bucket": 2880,
-    "count": 25333,
+    "count": 8978,
+    "year": 2024,
+    "city": "chicago"
+  },
+  {
+    "bucket": 2940,
+    "count": 8512,
+    "year": 2024,
+    "city": "chicago"
+  },
+  {
+    "bucket": 3000,
+    "count": 7843,
     "year": 2024,
     "city": "chicago"
   },
   {
     "bucket": 3060,
-    "count": 20733,
+    "count": 7377,
+    "year": 2024,
+    "city": "chicago"
+  },
+  {
+    "bucket": 3120,
+    "count": 6871,
+    "year": 2024,
+    "city": "chicago"
+  },
+  {
+    "bucket": 3180,
+    "count": 6485,
     "year": 2024,
     "city": "chicago"
   },
   {
     "bucket": 3240,
-    "count": 17863,
+    "count": 6394,
+    "year": 2024,
+    "city": "chicago"
+  },
+  {
+    "bucket": 3300,
+    "count": 5963,
+    "year": 2024,
+    "city": "chicago"
+  },
+  {
+    "bucket": 3360,
+    "count": 5506,
     "year": 2024,
     "city": "chicago"
   },
   {
     "bucket": 3420,
-    "count": 15156,
+    "count": 5318,
+    "year": 2024,
+    "city": "chicago"
+  },
+  {
+    "bucket": 3480,
+    "count": 5007,
+    "year": 2024,
+    "city": "chicago"
+  },
+  {
+    "bucket": 3540,
+    "count": 4831,
     "year": 2024,
     "city": "chicago"
   },
   {
     "bucket": 3600,
-    "count": 13239,
+    "count": 4711,
+    "year": 2024,
+    "city": "chicago"
+  },
+  {
+    "bucket": 3660,
+    "count": 4352,
+    "year": 2024,
+    "city": "chicago"
+  },
+  {
+    "bucket": 3720,
+    "count": 4176,
     "year": 2024,
     "city": "chicago"
   },
   {
     "bucket": 3780,
-    "count": 11332,
+    "count": 4003,
+    "year": 2024,
+    "city": "chicago"
+  },
+  {
+    "bucket": 3840,
+    "count": 3734,
+    "year": 2024,
+    "city": "chicago"
+  },
+  {
+    "bucket": 3900,
+    "count": 3595,
     "year": 2024,
     "city": "chicago"
   },
   {
     "bucket": 3960,
-    "count": 10025,
+    "count": 3462,
+    "year": 2024,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4020,
+    "count": 3357,
+    "year": 2024,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4080,
+    "count": 3206,
     "year": 2024,
     "city": "chicago"
   },
   {
     "bucket": 4140,
-    "count": 9094,
+    "count": 3261,
+    "year": 2024,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4200,
+    "count": 2963,
+    "year": 2024,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4260,
+    "count": 2870,
     "year": 2024,
     "city": "chicago"
   },
   {
     "bucket": 4320,
-    "count": 7938,
+    "count": 2752,
+    "year": 2024,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4380,
+    "count": 2654,
+    "year": 2024,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4440,
+    "count": 2532,
     "year": 2024,
     "city": "chicago"
   },
   {
     "bucket": 4500,
-    "count": 7301,
+    "count": 2534,
+    "year": 2024,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4560,
+    "count": 2458,
+    "year": 2024,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4620,
+    "count": 2309,
     "year": 2024,
     "city": "chicago"
   },
   {
     "bucket": 4680,
-    "count": 6303,
+    "count": 2170,
+    "year": 2024,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4740,
+    "count": 2170,
+    "year": 2024,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4800,
+    "count": 1963,
     "year": 2024,
     "city": "chicago"
   },
   {
     "bucket": 4860,
-    "count": 5762,
+    "count": 1986,
+    "year": 2024,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4920,
+    "count": 1914,
+    "year": 2024,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4980,
+    "count": 1862,
     "year": 2024,
     "city": "chicago"
   },
   {
     "bucket": 5040,
-    "count": 5095,
+    "count": 1740,
+    "year": 2024,
+    "city": "chicago"
+  },
+  {
+    "bucket": 5100,
+    "count": 1667,
+    "year": 2024,
+    "city": "chicago"
+  },
+  {
+    "bucket": 5160,
+    "count": 1688,
     "year": 2024,
     "city": "chicago"
   },
   {
     "bucket": 5220,
-    "count": 4773,
+    "count": 1694,
+    "year": 2024,
+    "city": "chicago"
+  },
+  {
+    "bucket": 5280,
+    "count": 1578,
+    "year": 2024,
+    "city": "chicago"
+  },
+  {
+    "bucket": 5340,
+    "count": 1501,
     "year": 2024,
     "city": "chicago"
   },
   {
     "bucket": 5400,
-    "count": 4348,
+    "count": 1472,
+    "year": 2024,
+    "city": "chicago"
+  },
+  {
+    "bucket": 5460,
+    "count": 1448,
+    "year": 2024,
+    "city": "chicago"
+  },
+  {
+    "bucket": 5520,
+    "count": 1428,
     "year": 2024,
     "city": "chicago"
   },
   {
     "bucket": 5580,
-    "count": 4050,
+    "count": 1401,
+    "year": 2024,
+    "city": "chicago"
+  },
+  {
+    "bucket": 5640,
+    "count": 1340,
+    "year": 2024,
+    "city": "chicago"
+  },
+  {
+    "bucket": 5700,
+    "count": 1309,
     "year": 2024,
     "city": "chicago"
   },
   {
     "bucket": 5760,
-    "count": 3620,
+    "count": 1246,
+    "year": 2024,
+    "city": "chicago"
+  },
+  {
+    "bucket": 5820,
+    "count": 1196,
+    "year": 2024,
+    "city": "chicago"
+  },
+  {
+    "bucket": 5880,
+    "count": 1178,
     "year": 2024,
     "city": "chicago"
   },
   {
     "bucket": 5940,
-    "count": 3336,
+    "count": 1081,
+    "year": 2024,
+    "city": "chicago"
+  },
+  {
+    "bucket": 6000,
+    "count": 1154,
+    "year": 2024,
+    "city": "chicago"
+  },
+  {
+    "bucket": 6060,
+    "count": 1101,
     "year": 2024,
     "city": "chicago"
   },
   {
     "bucket": 6120,
-    "count": 2982,
+    "count": 1050,
+    "year": 2024,
+    "city": "chicago"
+  },
+  {
+    "bucket": 6180,
+    "count": 1014,
+    "year": 2024,
+    "city": "chicago"
+  },
+  {
+    "bucket": 6240,
+    "count": 918,
     "year": 2024,
     "city": "chicago"
   },
   {
     "bucket": 6300,
-    "count": 2783,
+    "count": 949,
+    "year": 2024,
+    "city": "chicago"
+  },
+  {
+    "bucket": 6360,
+    "count": 888,
+    "year": 2024,
+    "city": "chicago"
+  },
+  {
+    "bucket": 6420,
+    "count": 946,
     "year": 2024,
     "city": "chicago"
   },
   {
     "bucket": 6480,
-    "count": 2557,
+    "count": 885,
+    "year": 2024,
+    "city": "chicago"
+  },
+  {
+    "bucket": 6540,
+    "count": 817,
+    "year": 2024,
+    "city": "chicago"
+  },
+  {
+    "bucket": 6600,
+    "count": 855,
     "year": 2024,
     "city": "chicago"
   },
   {
     "bucket": 6660,
-    "count": 2412,
+    "count": 830,
+    "year": 2024,
+    "city": "chicago"
+  },
+  {
+    "bucket": 6720,
+    "count": 803,
+    "year": 2024,
+    "city": "chicago"
+  },
+  {
+    "bucket": 6780,
+    "count": 779,
     "year": 2024,
     "city": "chicago"
   },
   {
     "bucket": 6840,
-    "count": 2151,
+    "count": 733,
+    "year": 2024,
+    "city": "chicago"
+  },
+  {
+    "bucket": 6900,
+    "count": 709,
+    "year": 2024,
+    "city": "chicago"
+  },
+  {
+    "bucket": 6960,
+    "count": 709,
     "year": 2024,
     "city": "chicago"
   },
   {
     "bucket": 7020,
-    "count": 2026,
+    "count": 730,
+    "year": 2024,
+    "city": "chicago"
+  },
+  {
+    "bucket": 7080,
+    "count": 657,
+    "year": 2024,
+    "city": "chicago"
+  },
+  {
+    "bucket": 7140,
+    "count": 639,
     "year": 2024,
     "city": "chicago"
   },
@@ -2953,241 +8677,721 @@
   },
   {
     "bucket": 0,
-    "count": 381473,
+    "count": 116508,
+    "year": 2025,
+    "city": "chicago"
+  },
+  {
+    "bucket": 60,
+    "count": 86750,
+    "year": 2025,
+    "city": "chicago"
+  },
+  {
+    "bucket": 120,
+    "count": 178215,
     "year": 2025,
     "city": "chicago"
   },
   {
     "bucket": 180,
-    "count": 856096,
+    "count": 260945,
+    "year": 2025,
+    "city": "chicago"
+  },
+  {
+    "bucket": 240,
+    "count": 296563,
+    "year": 2025,
+    "city": "chicago"
+  },
+  {
+    "bucket": 300,
+    "count": 298588,
     "year": 2025,
     "city": "chicago"
   },
   {
     "bucket": 360,
-    "count": 802715,
+    "count": 286778,
+    "year": 2025,
+    "city": "chicago"
+  },
+  {
+    "bucket": 420,
+    "count": 268193,
+    "year": 2025,
+    "city": "chicago"
+  },
+  {
+    "bucket": 480,
+    "count": 247744,
     "year": 2025,
     "city": "chicago"
   },
   {
     "bucket": 540,
-    "count": 606689,
+    "count": 224453,
+    "year": 2025,
+    "city": "chicago"
+  },
+  {
+    "bucket": 600,
+    "count": 202244,
+    "year": 2025,
+    "city": "chicago"
+  },
+  {
+    "bucket": 660,
+    "count": 179992,
     "year": 2025,
     "city": "chicago"
   },
   {
     "bucket": 720,
-    "count": 434576,
+    "count": 161650,
+    "year": 2025,
+    "city": "chicago"
+  },
+  {
+    "bucket": 780,
+    "count": 144421,
+    "year": 2025,
+    "city": "chicago"
+  },
+  {
+    "bucket": 840,
+    "count": 128505,
     "year": 2025,
     "city": "chicago"
   },
   {
     "bucket": 900,
-    "count": 308310,
+    "count": 113865,
+    "year": 2025,
+    "city": "chicago"
+  },
+  {
+    "bucket": 960,
+    "count": 102828,
+    "year": 2025,
+    "city": "chicago"
+  },
+  {
+    "bucket": 1020,
+    "count": 91617,
     "year": 2025,
     "city": "chicago"
   },
   {
     "bucket": 1080,
-    "count": 223797,
+    "count": 82428,
+    "year": 2025,
+    "city": "chicago"
+  },
+  {
+    "bucket": 1140,
+    "count": 74397,
+    "year": 2025,
+    "city": "chicago"
+  },
+  {
+    "bucket": 1200,
+    "count": 66972,
     "year": 2025,
     "city": "chicago"
   },
   {
     "bucket": 1260,
-    "count": 164019,
+    "count": 60242,
+    "year": 2025,
+    "city": "chicago"
+  },
+  {
+    "bucket": 1320,
+    "count": 54208,
+    "year": 2025,
+    "city": "chicago"
+  },
+  {
+    "bucket": 1380,
+    "count": 49569,
     "year": 2025,
     "city": "chicago"
   },
   {
     "bucket": 1440,
-    "count": 121896,
+    "count": 44990,
+    "year": 2025,
+    "city": "chicago"
+  },
+  {
+    "bucket": 1500,
+    "count": 40242,
+    "year": 2025,
+    "city": "chicago"
+  },
+  {
+    "bucket": 1560,
+    "count": 36664,
     "year": 2025,
     "city": "chicago"
   },
   {
     "bucket": 1620,
-    "count": 92453,
+    "count": 33577,
+    "year": 2025,
+    "city": "chicago"
+  },
+  {
+    "bucket": 1680,
+    "count": 30744,
+    "year": 2025,
+    "city": "chicago"
+  },
+  {
+    "bucket": 1740,
+    "count": 28132,
     "year": 2025,
     "city": "chicago"
   },
   {
     "bucket": 1800,
-    "count": 71250,
+    "count": 25549,
+    "year": 2025,
+    "city": "chicago"
+  },
+  {
+    "bucket": 1860,
+    "count": 23620,
+    "year": 2025,
+    "city": "chicago"
+  },
+  {
+    "bucket": 1920,
+    "count": 22081,
     "year": 2025,
     "city": "chicago"
   },
   {
     "bucket": 1980,
-    "count": 55788,
+    "count": 19944,
+    "year": 2025,
+    "city": "chicago"
+  },
+  {
+    "bucket": 2040,
+    "count": 18819,
+    "year": 2025,
+    "city": "chicago"
+  },
+  {
+    "bucket": 2100,
+    "count": 17025,
     "year": 2025,
     "city": "chicago"
   },
   {
     "bucket": 2160,
-    "count": 44639,
+    "count": 15984,
+    "year": 2025,
+    "city": "chicago"
+  },
+  {
+    "bucket": 2220,
+    "count": 14834,
+    "year": 2025,
+    "city": "chicago"
+  },
+  {
+    "bucket": 2280,
+    "count": 13821,
     "year": 2025,
     "city": "chicago"
   },
   {
     "bucket": 2340,
-    "count": 35769,
+    "count": 12905,
+    "year": 2025,
+    "city": "chicago"
+  },
+  {
+    "bucket": 2400,
+    "count": 11928,
+    "year": 2025,
+    "city": "chicago"
+  },
+  {
+    "bucket": 2460,
+    "count": 10936,
     "year": 2025,
     "city": "chicago"
   },
   {
     "bucket": 2520,
-    "count": 28628,
+    "count": 10249,
+    "year": 2025,
+    "city": "chicago"
+  },
+  {
+    "bucket": 2580,
+    "count": 9604,
+    "year": 2025,
+    "city": "chicago"
+  },
+  {
+    "bucket": 2640,
+    "count": 8775,
     "year": 2025,
     "city": "chicago"
   },
   {
     "bucket": 2700,
-    "count": 22412,
+    "count": 8060,
+    "year": 2025,
+    "city": "chicago"
+  },
+  {
+    "bucket": 2760,
+    "count": 7302,
+    "year": 2025,
+    "city": "chicago"
+  },
+  {
+    "bucket": 2820,
+    "count": 7050,
     "year": 2025,
     "city": "chicago"
   },
   {
     "bucket": 2880,
-    "count": 18012,
+    "count": 6399,
+    "year": 2025,
+    "city": "chicago"
+  },
+  {
+    "bucket": 2940,
+    "count": 5991,
+    "year": 2025,
+    "city": "chicago"
+  },
+  {
+    "bucket": 3000,
+    "count": 5622,
     "year": 2025,
     "city": "chicago"
   },
   {
     "bucket": 3060,
-    "count": 14845,
+    "count": 5185,
+    "year": 2025,
+    "city": "chicago"
+  },
+  {
+    "bucket": 3120,
+    "count": 4956,
+    "year": 2025,
+    "city": "chicago"
+  },
+  {
+    "bucket": 3180,
+    "count": 4704,
     "year": 2025,
     "city": "chicago"
   },
   {
     "bucket": 3240,
-    "count": 12788,
+    "count": 4471,
+    "year": 2025,
+    "city": "chicago"
+  },
+  {
+    "bucket": 3300,
+    "count": 4349,
+    "year": 2025,
+    "city": "chicago"
+  },
+  {
+    "bucket": 3360,
+    "count": 3968,
     "year": 2025,
     "city": "chicago"
   },
   {
     "bucket": 3420,
-    "count": 10929,
+    "count": 3809,
+    "year": 2025,
+    "city": "chicago"
+  },
+  {
+    "bucket": 3480,
+    "count": 3678,
+    "year": 2025,
+    "city": "chicago"
+  },
+  {
+    "bucket": 3540,
+    "count": 3442,
     "year": 2025,
     "city": "chicago"
   },
   {
     "bucket": 3600,
-    "count": 9436,
+    "count": 3344,
+    "year": 2025,
+    "city": "chicago"
+  },
+  {
+    "bucket": 3660,
+    "count": 3067,
+    "year": 2025,
+    "city": "chicago"
+  },
+  {
+    "bucket": 3720,
+    "count": 3025,
     "year": 2025,
     "city": "chicago"
   },
   {
     "bucket": 3780,
-    "count": 8195,
+    "count": 2920,
+    "year": 2025,
+    "city": "chicago"
+  },
+  {
+    "bucket": 3840,
+    "count": 2693,
+    "year": 2025,
+    "city": "chicago"
+  },
+  {
+    "bucket": 3900,
+    "count": 2582,
     "year": 2025,
     "city": "chicago"
   },
   {
     "bucket": 3960,
-    "count": 7265,
+    "count": 2639,
+    "year": 2025,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4020,
+    "count": 2280,
+    "year": 2025,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4080,
+    "count": 2346,
     "year": 2025,
     "city": "chicago"
   },
   {
     "bucket": 4140,
-    "count": 6131,
+    "count": 2115,
+    "year": 2025,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4200,
+    "count": 2031,
+    "year": 2025,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4260,
+    "count": 1985,
     "year": 2025,
     "city": "chicago"
   },
   {
     "bucket": 4320,
-    "count": 5519,
+    "count": 1918,
+    "year": 2025,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4380,
+    "count": 1808,
+    "year": 2025,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4440,
+    "count": 1793,
     "year": 2025,
     "city": "chicago"
   },
   {
     "bucket": 4500,
-    "count": 5028,
+    "count": 1770,
+    "year": 2025,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4560,
+    "count": 1675,
+    "year": 2025,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4620,
+    "count": 1583,
     "year": 2025,
     "city": "chicago"
   },
   {
     "bucket": 4680,
-    "count": 4480,
+    "count": 1567,
+    "year": 2025,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4740,
+    "count": 1508,
+    "year": 2025,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4800,
+    "count": 1405,
     "year": 2025,
     "city": "chicago"
   },
   {
     "bucket": 4860,
-    "count": 3992,
+    "count": 1442,
+    "year": 2025,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4920,
+    "count": 1287,
+    "year": 2025,
+    "city": "chicago"
+  },
+  {
+    "bucket": 4980,
+    "count": 1263,
     "year": 2025,
     "city": "chicago"
   },
   {
     "bucket": 5040,
-    "count": 3575,
+    "count": 1236,
+    "year": 2025,
+    "city": "chicago"
+  },
+  {
+    "bucket": 5100,
+    "count": 1208,
+    "year": 2025,
+    "city": "chicago"
+  },
+  {
+    "bucket": 5160,
+    "count": 1131,
     "year": 2025,
     "city": "chicago"
   },
   {
     "bucket": 5220,
-    "count": 3316,
+    "count": 1190,
+    "year": 2025,
+    "city": "chicago"
+  },
+  {
+    "bucket": 5280,
+    "count": 1072,
+    "year": 2025,
+    "city": "chicago"
+  },
+  {
+    "bucket": 5340,
+    "count": 1054,
     "year": 2025,
     "city": "chicago"
   },
   {
     "bucket": 5400,
-    "count": 2844,
+    "count": 1008,
+    "year": 2025,
+    "city": "chicago"
+  },
+  {
+    "bucket": 5460,
+    "count": 936,
+    "year": 2025,
+    "city": "chicago"
+  },
+  {
+    "bucket": 5520,
+    "count": 900,
     "year": 2025,
     "city": "chicago"
   },
   {
     "bucket": 5580,
-    "count": 2752,
+    "count": 958,
+    "year": 2025,
+    "city": "chicago"
+  },
+  {
+    "bucket": 5640,
+    "count": 898,
+    "year": 2025,
+    "city": "chicago"
+  },
+  {
+    "bucket": 5700,
+    "count": 896,
     "year": 2025,
     "city": "chicago"
   },
   {
     "bucket": 5760,
-    "count": 2296,
+    "count": 759,
+    "year": 2025,
+    "city": "chicago"
+  },
+  {
+    "bucket": 5820,
+    "count": 790,
+    "year": 2025,
+    "city": "chicago"
+  },
+  {
+    "bucket": 5880,
+    "count": 747,
     "year": 2025,
     "city": "chicago"
   },
   {
     "bucket": 5940,
-    "count": 2262,
+    "count": 801,
+    "year": 2025,
+    "city": "chicago"
+  },
+  {
+    "bucket": 6000,
+    "count": 763,
+    "year": 2025,
+    "city": "chicago"
+  },
+  {
+    "bucket": 6060,
+    "count": 698,
     "year": 2025,
     "city": "chicago"
   },
   {
     "bucket": 6120,
-    "count": 2001,
+    "count": 666,
+    "year": 2025,
+    "city": "chicago"
+  },
+  {
+    "bucket": 6180,
+    "count": 639,
+    "year": 2025,
+    "city": "chicago"
+  },
+  {
+    "bucket": 6240,
+    "count": 696,
     "year": 2025,
     "city": "chicago"
   },
   {
     "bucket": 6300,
-    "count": 1838,
+    "count": 637,
+    "year": 2025,
+    "city": "chicago"
+  },
+  {
+    "bucket": 6360,
+    "count": 625,
+    "year": 2025,
+    "city": "chicago"
+  },
+  {
+    "bucket": 6420,
+    "count": 576,
     "year": 2025,
     "city": "chicago"
   },
   {
     "bucket": 6480,
-    "count": 1710,
+    "count": 570,
+    "year": 2025,
+    "city": "chicago"
+  },
+  {
+    "bucket": 6540,
+    "count": 597,
+    "year": 2025,
+    "city": "chicago"
+  },
+  {
+    "bucket": 6600,
+    "count": 543,
     "year": 2025,
     "city": "chicago"
   },
   {
     "bucket": 6660,
-    "count": 1501,
+    "count": 499,
+    "year": 2025,
+    "city": "chicago"
+  },
+  {
+    "bucket": 6720,
+    "count": 531,
+    "year": 2025,
+    "city": "chicago"
+  },
+  {
+    "bucket": 6780,
+    "count": 471,
     "year": 2025,
     "city": "chicago"
   },
   {
     "bucket": 6840,
-    "count": 1383,
+    "count": 482,
+    "year": 2025,
+    "city": "chicago"
+  },
+  {
+    "bucket": 6900,
+    "count": 422,
+    "year": 2025,
+    "city": "chicago"
+  },
+  {
+    "bucket": 6960,
+    "count": 479,
     "year": 2025,
     "city": "chicago"
   },
   {
     "bucket": 7020,
-    "count": 1264,
+    "count": 431,
+    "year": 2025,
+    "city": "chicago"
+  },
+  {
+    "bucket": 7080,
+    "count": 439,
+    "year": 2025,
+    "city": "chicago"
+  },
+  {
+    "bucket": 7140,
+    "count": 394,
     "year": 2025,
     "city": "chicago"
   },

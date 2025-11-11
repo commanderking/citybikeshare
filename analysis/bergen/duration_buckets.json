@@ -1,241 +1,715 @@
 [
   {
-    "bucket": 0,
-    "count": 6481,
+    "bucket": 60,
+    "count": 2522,
+    "year": 2018,
+    "city": "bergen"
+  },
+  {
+    "bucket": 120,
+    "count": 3959,
     "year": 2018,
     "city": "bergen"
   },
   {
     "bucket": 180,
-    "count": 23699,
+    "count": 7008,
+    "year": 2018,
+    "city": "bergen"
+  },
+  {
+    "bucket": 240,
+    "count": 8170,
+    "year": 2018,
+    "city": "bergen"
+  },
+  {
+    "bucket": 300,
+    "count": 8521,
     "year": 2018,
     "city": "bergen"
   },
   {
     "bucket": 360,
-    "count": 26061,
+    "count": 9097,
+    "year": 2018,
+    "city": "bergen"
+  },
+  {
+    "bucket": 420,
+    "count": 8876,
+    "year": 2018,
+    "city": "bergen"
+  },
+  {
+    "bucket": 480,
+    "count": 8088,
     "year": 2018,
     "city": "bergen"
   },
   {
     "bucket": 540,
-    "count": 18033,
+    "count": 7123,
+    "year": 2018,
+    "city": "bergen"
+  },
+  {
+    "bucket": 600,
+    "count": 6031,
+    "year": 2018,
+    "city": "bergen"
+  },
+  {
+    "bucket": 660,
+    "count": 4879,
     "year": 2018,
     "city": "bergen"
   },
   {
     "bucket": 720,
-    "count": 9751,
+    "count": 3880,
+    "year": 2018,
+    "city": "bergen"
+  },
+  {
+    "bucket": 780,
+    "count": 3208,
+    "year": 2018,
+    "city": "bergen"
+  },
+  {
+    "bucket": 840,
+    "count": 2663,
     "year": 2018,
     "city": "bergen"
   },
   {
     "bucket": 900,
-    "count": 5495,
+    "count": 2142,
+    "year": 2018,
+    "city": "bergen"
+  },
+  {
+    "bucket": 960,
+    "count": 1841,
+    "year": 2018,
+    "city": "bergen"
+  },
+  {
+    "bucket": 1020,
+    "count": 1512,
     "year": 2018,
     "city": "bergen"
   },
   {
     "bucket": 1080,
-    "count": 3153,
+    "count": 1251,
+    "year": 2018,
+    "city": "bergen"
+  },
+  {
+    "bucket": 1140,
+    "count": 1048,
+    "year": 2018,
+    "city": "bergen"
+  },
+  {
+    "bucket": 1200,
+    "count": 854,
     "year": 2018,
     "city": "bergen"
   },
   {
     "bucket": 1260,
-    "count": 2062,
+    "count": 780,
+    "year": 2018,
+    "city": "bergen"
+  },
+  {
+    "bucket": 1320,
+    "count": 683,
+    "year": 2018,
+    "city": "bergen"
+  },
+  {
+    "bucket": 1380,
+    "count": 599,
     "year": 2018,
     "city": "bergen"
   },
   {
     "bucket": 1440,
-    "count": 1593,
+    "count": 581,
+    "year": 2018,
+    "city": "bergen"
+  },
+  {
+    "bucket": 1500,
+    "count": 545,
+    "year": 2018,
+    "city": "bergen"
+  },
+  {
+    "bucket": 1560,
+    "count": 467,
     "year": 2018,
     "city": "bergen"
   },
   {
     "bucket": 1620,
-    "count": 1205,
+    "count": 397,
+    "year": 2018,
+    "city": "bergen"
+  },
+  {
+    "bucket": 1680,
+    "count": 430,
+    "year": 2018,
+    "city": "bergen"
+  },
+  {
+    "bucket": 1740,
+    "count": 378,
     "year": 2018,
     "city": "bergen"
   },
   {
     "bucket": 1800,
-    "count": 1015,
+    "count": 344,
+    "year": 2018,
+    "city": "bergen"
+  },
+  {
+    "bucket": 1860,
+    "count": 338,
+    "year": 2018,
+    "city": "bergen"
+  },
+  {
+    "bucket": 1920,
+    "count": 333,
     "year": 2018,
     "city": "bergen"
   },
   {
     "bucket": 1980,
-    "count": 858,
+    "count": 311,
+    "year": 2018,
+    "city": "bergen"
+  },
+  {
+    "bucket": 2040,
+    "count": 264,
+    "year": 2018,
+    "city": "bergen"
+  },
+  {
+    "bucket": 2100,
+    "count": 283,
     "year": 2018,
     "city": "bergen"
   },
   {
     "bucket": 2160,
-    "count": 824,
+    "count": 286,
+    "year": 2018,
+    "city": "bergen"
+  },
+  {
+    "bucket": 2220,
+    "count": 280,
+    "year": 2018,
+    "city": "bergen"
+  },
+  {
+    "bucket": 2280,
+    "count": 258,
     "year": 2018,
     "city": "bergen"
   },
   {
     "bucket": 2340,
-    "count": 744,
+    "count": 250,
+    "year": 2018,
+    "city": "bergen"
+  },
+  {
+    "bucket": 2400,
+    "count": 235,
+    "year": 2018,
+    "city": "bergen"
+  },
+  {
+    "bucket": 2460,
+    "count": 259,
     "year": 2018,
     "city": "bergen"
   },
   {
     "bucket": 2520,
-    "count": 675,
+    "count": 241,
+    "year": 2018,
+    "city": "bergen"
+  },
+  {
+    "bucket": 2580,
+    "count": 230,
+    "year": 2018,
+    "city": "bergen"
+  },
+  {
+    "bucket": 2640,
+    "count": 204,
     "year": 2018,
     "city": "bergen"
   },
   {
     "bucket": 2700,
-    "count": 380,
+    "count": 147,
+    "year": 2018,
+    "city": "bergen"
+  },
+  {
+    "bucket": 2760,
+    "count": 130,
+    "year": 2018,
+    "city": "bergen"
+  },
+  {
+    "bucket": 2820,
+    "count": 103,
     "year": 2018,
     "city": "bergen"
   },
   {
     "bucket": 2880,
-    "count": 193,
+    "count": 87,
     "year": 2018,
     "city": "bergen"
   },
   {
-    "bucket": 3060,
-    "count": 169,
-    "year": 2018,
-    "city": "bergen"
-  },
-  {
-    "bucket": 3240,
-    "count": 127,
-    "year": 2018,
-    "city": "bergen"
-  },
-  {
-    "bucket": 3420,
-    "count": 91,
-    "year": 2018,
-    "city": "bergen"
-  },
-  {
-    "bucket": 3600,
-    "count": 94,
-    "year": 2018,
-    "city": "bergen"
-  },
-  {
-    "bucket": 3780,
-    "count": 66,
-    "year": 2018,
-    "city": "bergen"
-  },
-  {
-    "bucket": 3960,
-    "count": 62,
-    "year": 2018,
-    "city": "bergen"
-  },
-  {
-    "bucket": 4140,
-    "count": 53,
-    "year": 2018,
-    "city": "bergen"
-  },
-  {
-    "bucket": 4320,
+    "bucket": 2940,
     "count": 59,
     "year": 2018,
     "city": "bergen"
   },
   {
-    "bucket": 4500,
+    "bucket": 3000,
+    "count": 47,
+    "year": 2018,
+    "city": "bergen"
+  },
+  {
+    "bucket": 3060,
+    "count": 52,
+    "year": 2018,
+    "city": "bergen"
+  },
+  {
+    "bucket": 3120,
+    "count": 54,
+    "year": 2018,
+    "city": "bergen"
+  },
+  {
+    "bucket": 3180,
+    "count": 63,
+    "year": 2018,
+    "city": "bergen"
+  },
+  {
+    "bucket": 3240,
     "count": 39,
     "year": 2018,
     "city": "bergen"
   },
   {
-    "bucket": 4680,
+    "bucket": 3300,
+    "count": 42,
+    "year": 2018,
+    "city": "bergen"
+  },
+  {
+    "bucket": 3360,
+    "count": 46,
+    "year": 2018,
+    "city": "bergen"
+  },
+  {
+    "bucket": 3420,
     "count": 38,
     "year": 2018,
     "city": "bergen"
   },
   {
-    "bucket": 4860,
-    "count": 35,
+    "bucket": 3480,
+    "count": 19,
     "year": 2018,
     "city": "bergen"
   },
   {
-    "bucket": 5040,
+    "bucket": 3540,
+    "count": 34,
+    "year": 2018,
+    "city": "bergen"
+  },
+  {
+    "bucket": 3600,
     "count": 31,
     "year": 2018,
     "city": "bergen"
   },
   {
-    "bucket": 5220,
-    "count": 35,
+    "bucket": 3660,
+    "count": 37,
     "year": 2018,
     "city": "bergen"
   },
   {
-    "bucket": 5400,
-    "count": 19,
-    "year": 2018,
-    "city": "bergen"
-  },
-  {
-    "bucket": 5580,
+    "bucket": 3720,
     "count": 26,
     "year": 2018,
     "city": "bergen"
   },
   {
-    "bucket": 5760,
-    "count": 35,
+    "bucket": 3780,
+    "count": 21,
     "year": 2018,
     "city": "bergen"
   },
   {
-    "bucket": 5940,
+    "bucket": 3840,
+    "count": 27,
+    "year": 2018,
+    "city": "bergen"
+  },
+  {
+    "bucket": 3900,
     "count": 18,
     "year": 2018,
     "city": "bergen"
   },
   {
-    "bucket": 6120,
-    "count": 19,
+    "bucket": 3960,
+    "count": 18,
     "year": 2018,
     "city": "bergen"
   },
   {
-    "bucket": 6300,
-    "count": 13,
+    "bucket": 4020,
+    "count": 18,
     "year": 2018,
     "city": "bergen"
   },
   {
-    "bucket": 6480,
+    "bucket": 4080,
     "count": 26,
     "year": 2018,
     "city": "bergen"
   },
   {
-    "bucket": 6660,
+    "bucket": 4140,
+    "count": 23,
+    "year": 2018,
+    "city": "bergen"
+  },
+  {
+    "bucket": 4200,
     "count": 16,
     "year": 2018,
     "city": "bergen"
   },
   {
-    "bucket": 6840,
+    "bucket": 4260,
+    "count": 14,
+    "year": 2018,
+    "city": "bergen"
+  },
+  {
+    "bucket": 4320,
+    "count": 16,
+    "year": 2018,
+    "city": "bergen"
+  },
+  {
+    "bucket": 4380,
+    "count": 20,
+    "year": 2018,
+    "city": "bergen"
+  },
+  {
+    "bucket": 4440,
+    "count": 23,
+    "year": 2018,
+    "city": "bergen"
+  },
+  {
+    "bucket": 4500,
+    "count": 12,
+    "year": 2018,
+    "city": "bergen"
+  },
+  {
+    "bucket": 4560,
+    "count": 15,
+    "year": 2018,
+    "city": "bergen"
+  },
+  {
+    "bucket": 4620,
+    "count": 12,
+    "year": 2018,
+    "city": "bergen"
+  },
+  {
+    "bucket": 4680,
+    "count": 15,
+    "year": 2018,
+    "city": "bergen"
+  },
+  {
+    "bucket": 4740,
+    "count": 14,
+    "year": 2018,
+    "city": "bergen"
+  },
+  {
+    "bucket": 4800,
+    "count": 9,
+    "year": 2018,
+    "city": "bergen"
+  },
+  {
+    "bucket": 4860,
+    "count": 12,
+    "year": 2018,
+    "city": "bergen"
+  },
+  {
+    "bucket": 4920,
+    "count": 14,
+    "year": 2018,
+    "city": "bergen"
+  },
+  {
+    "bucket": 4980,
+    "count": 9,
+    "year": 2018,
+    "city": "bergen"
+  },
+  {
+    "bucket": 5040,
+    "count": 8,
+    "year": 2018,
+    "city": "bergen"
+  },
+  {
+    "bucket": 5100,
+    "count": 8,
+    "year": 2018,
+    "city": "bergen"
+  },
+  {
+    "bucket": 5160,
+    "count": 15,
+    "year": 2018,
+    "city": "bergen"
+  },
+  {
+    "bucket": 5220,
+    "count": 16,
+    "year": 2018,
+    "city": "bergen"
+  },
+  {
+    "bucket": 5280,
+    "count": 9,
+    "year": 2018,
+    "city": "bergen"
+  },
+  {
+    "bucket": 5340,
+    "count": 10,
+    "year": 2018,
+    "city": "bergen"
+  },
+  {
+    "bucket": 5400,
     "count": 11,
     "year": 2018,
     "city": "bergen"
   },
   {
-    "bucket": 7020,
+    "bucket": 5460,
+    "count": 4,
+    "year": 2018,
+    "city": "bergen"
+  },
+  {
+    "bucket": 5520,
+    "count": 4,
+    "year": 2018,
+    "city": "bergen"
+  },
+  {
+    "bucket": 5580,
+    "count": 7,
+    "year": 2018,
+    "city": "bergen"
+  },
+  {
+    "bucket": 5640,
+    "count": 14,
+    "year": 2018,
+    "city": "bergen"
+  },
+  {
+    "bucket": 5700,
+    "count": 5,
+    "year": 2018,
+    "city": "bergen"
+  },
+  {
+    "bucket": 5760,
+    "count": 14,
+    "year": 2018,
+    "city": "bergen"
+  },
+  {
+    "bucket": 5820,
+    "count": 11,
+    "year": 2018,
+    "city": "bergen"
+  },
+  {
+    "bucket": 5880,
+    "count": 10,
+    "year": 2018,
+    "city": "bergen"
+  },
+  {
+    "bucket": 5940,
     "count": 8,
+    "year": 2018,
+    "city": "bergen"
+  },
+  {
+    "bucket": 6000,
+    "count": 5,
+    "year": 2018,
+    "city": "bergen"
+  },
+  {
+    "bucket": 6060,
+    "count": 5,
+    "year": 2018,
+    "city": "bergen"
+  },
+  {
+    "bucket": 6120,
+    "count": 6,
+    "year": 2018,
+    "city": "bergen"
+  },
+  {
+    "bucket": 6180,
+    "count": 4,
+    "year": 2018,
+    "city": "bergen"
+  },
+  {
+    "bucket": 6240,
+    "count": 9,
+    "year": 2018,
+    "city": "bergen"
+  },
+  {
+    "bucket": 6300,
+    "count": 8,
+    "year": 2018,
+    "city": "bergen"
+  },
+  {
+    "bucket": 6360,
+    "count": 2,
+    "year": 2018,
+    "city": "bergen"
+  },
+  {
+    "bucket": 6420,
+    "count": 3,
+    "year": 2018,
+    "city": "bergen"
+  },
+  {
+    "bucket": 6480,
+    "count": 8,
+    "year": 2018,
+    "city": "bergen"
+  },
+  {
+    "bucket": 6540,
+    "count": 7,
+    "year": 2018,
+    "city": "bergen"
+  },
+  {
+    "bucket": 6600,
+    "count": 11,
+    "year": 2018,
+    "city": "bergen"
+  },
+  {
+    "bucket": 6660,
+    "count": 10,
+    "year": 2018,
+    "city": "bergen"
+  },
+  {
+    "bucket": 6720,
+    "count": 2,
+    "year": 2018,
+    "city": "bergen"
+  },
+  {
+    "bucket": 6780,
+    "count": 4,
+    "year": 2018,
+    "city": "bergen"
+  },
+  {
+    "bucket": 6840,
+    "count": 4,
+    "year": 2018,
+    "city": "bergen"
+  },
+  {
+    "bucket": 6900,
+    "count": 5,
+    "year": 2018,
+    "city": "bergen"
+  },
+  {
+    "bucket": 6960,
+    "count": 2,
+    "year": 2018,
+    "city": "bergen"
+  },
+  {
+    "bucket": 7020,
+    "count": 1,
+    "year": 2018,
+    "city": "bergen"
+  },
+  {
+    "bucket": 7080,
+    "count": 2,
+    "year": 2018,
+    "city": "bergen"
+  },
+  {
+    "bucket": 7140,
+    "count": 5,
     "year": 2018,
     "city": "bergen"
   },
@@ -246,242 +720,716 @@
     "city": "bergen"
   },
   {
-    "bucket": 0,
-    "count": 65347,
+    "bucket": 60,
+    "count": 17739,
+    "year": 2019,
+    "city": "bergen"
+  },
+  {
+    "bucket": 120,
+    "count": 47608,
     "year": 2019,
     "city": "bergen"
   },
   {
     "bucket": 180,
-    "count": 252449,
+    "count": 75466,
+    "year": 2019,
+    "city": "bergen"
+  },
+  {
+    "bucket": 240,
+    "count": 86098,
+    "year": 2019,
+    "city": "bergen"
+  },
+  {
+    "bucket": 300,
+    "count": 90885,
     "year": 2019,
     "city": "bergen"
   },
   {
     "bucket": 360,
-    "count": 234877,
+    "count": 87633,
+    "year": 2019,
+    "city": "bergen"
+  },
+  {
+    "bucket": 420,
+    "count": 78201,
+    "year": 2019,
+    "city": "bergen"
+  },
+  {
+    "bucket": 480,
+    "count": 69043,
     "year": 2019,
     "city": "bergen"
   },
   {
     "bucket": 540,
-    "count": 147757,
+    "count": 59127,
+    "year": 2019,
+    "city": "bergen"
+  },
+  {
+    "bucket": 600,
+    "count": 48609,
+    "year": 2019,
+    "city": "bergen"
+  },
+  {
+    "bucket": 660,
+    "count": 40021,
     "year": 2019,
     "city": "bergen"
   },
   {
     "bucket": 720,
-    "count": 81721,
+    "count": 33025,
+    "year": 2019,
+    "city": "bergen"
+  },
+  {
+    "bucket": 780,
+    "count": 26799,
+    "year": 2019,
+    "city": "bergen"
+  },
+  {
+    "bucket": 840,
+    "count": 21897,
     "year": 2019,
     "city": "bergen"
   },
   {
     "bucket": 900,
-    "count": 45226,
+    "count": 18140,
+    "year": 2019,
+    "city": "bergen"
+  },
+  {
+    "bucket": 960,
+    "count": 14681,
+    "year": 2019,
+    "city": "bergen"
+  },
+  {
+    "bucket": 1020,
+    "count": 12405,
     "year": 2019,
     "city": "bergen"
   },
   {
     "bucket": 1080,
-    "count": 27138,
+    "count": 10529,
+    "year": 2019,
+    "city": "bergen"
+  },
+  {
+    "bucket": 1140,
+    "count": 8863,
+    "year": 2019,
+    "city": "bergen"
+  },
+  {
+    "bucket": 1200,
+    "count": 7746,
     "year": 2019,
     "city": "bergen"
   },
   {
     "bucket": 1260,
-    "count": 17373,
+    "count": 6618,
+    "year": 2019,
+    "city": "bergen"
+  },
+  {
+    "bucket": 1320,
+    "count": 5797,
+    "year": 2019,
+    "city": "bergen"
+  },
+  {
+    "bucket": 1380,
+    "count": 4958,
     "year": 2019,
     "city": "bergen"
   },
   {
     "bucket": 1440,
-    "count": 12781,
+    "count": 4736,
+    "year": 2019,
+    "city": "bergen"
+  },
+  {
+    "bucket": 1500,
+    "count": 4189,
+    "year": 2019,
+    "city": "bergen"
+  },
+  {
+    "bucket": 1560,
+    "count": 3856,
     "year": 2019,
     "city": "bergen"
   },
   {
     "bucket": 1620,
-    "count": 9981,
+    "count": 3558,
+    "year": 2019,
+    "city": "bergen"
+  },
+  {
+    "bucket": 1680,
+    "count": 3358,
+    "year": 2019,
+    "city": "bergen"
+  },
+  {
+    "bucket": 1740,
+    "count": 3065,
     "year": 2019,
     "city": "bergen"
   },
   {
     "bucket": 1800,
-    "count": 8575,
+    "count": 3074,
+    "year": 2019,
+    "city": "bergen"
+  },
+  {
+    "bucket": 1860,
+    "count": 2888,
+    "year": 2019,
+    "city": "bergen"
+  },
+  {
+    "bucket": 1920,
+    "count": 2613,
     "year": 2019,
     "city": "bergen"
   },
   {
     "bucket": 1980,
-    "count": 7523,
+    "count": 2612,
+    "year": 2019,
+    "city": "bergen"
+  },
+  {
+    "bucket": 2040,
+    "count": 2515,
+    "year": 2019,
+    "city": "bergen"
+  },
+  {
+    "bucket": 2100,
+    "count": 2396,
     "year": 2019,
     "city": "bergen"
   },
   {
     "bucket": 2160,
-    "count": 7419,
+    "count": 2456,
+    "year": 2019,
+    "city": "bergen"
+  },
+  {
+    "bucket": 2220,
+    "count": 2538,
+    "year": 2019,
+    "city": "bergen"
+  },
+  {
+    "bucket": 2280,
+    "count": 2425,
     "year": 2019,
     "city": "bergen"
   },
   {
     "bucket": 2340,
-    "count": 6537,
+    "count": 2304,
+    "year": 2019,
+    "city": "bergen"
+  },
+  {
+    "bucket": 2400,
+    "count": 2183,
+    "year": 2019,
+    "city": "bergen"
+  },
+  {
+    "bucket": 2460,
+    "count": 2050,
     "year": 2019,
     "city": "bergen"
   },
   {
     "bucket": 2520,
-    "count": 4621,
+    "count": 1762,
+    "year": 2019,
+    "city": "bergen"
+  },
+  {
+    "bucket": 2580,
+    "count": 1565,
+    "year": 2019,
+    "city": "bergen"
+  },
+  {
+    "bucket": 2640,
+    "count": 1294,
     "year": 2019,
     "city": "bergen"
   },
   {
     "bucket": 2700,
-    "count": 2180,
+    "count": 960,
+    "year": 2019,
+    "city": "bergen"
+  },
+  {
+    "bucket": 2760,
+    "count": 677,
+    "year": 2019,
+    "city": "bergen"
+  },
+  {
+    "bucket": 2820,
+    "count": 543,
     "year": 2019,
     "city": "bergen"
   },
   {
     "bucket": 2880,
-    "count": 1173,
+    "count": 436,
+    "year": 2019,
+    "city": "bergen"
+  },
+  {
+    "bucket": 2940,
+    "count": 373,
+    "year": 2019,
+    "city": "bergen"
+  },
+  {
+    "bucket": 3000,
+    "count": 364,
     "year": 2019,
     "city": "bergen"
   },
   {
     "bucket": 3060,
-    "count": 893,
+    "count": 342,
+    "year": 2019,
+    "city": "bergen"
+  },
+  {
+    "bucket": 3120,
+    "count": 292,
+    "year": 2019,
+    "city": "bergen"
+  },
+  {
+    "bucket": 3180,
+    "count": 259,
     "year": 2019,
     "city": "bergen"
   },
   {
     "bucket": 3240,
-    "count": 657,
+    "count": 248,
+    "year": 2019,
+    "city": "bergen"
+  },
+  {
+    "bucket": 3300,
+    "count": 194,
+    "year": 2019,
+    "city": "bergen"
+  },
+  {
+    "bucket": 3360,
+    "count": 215,
     "year": 2019,
     "city": "bergen"
   },
   {
     "bucket": 3420,
-    "count": 519,
+    "count": 192,
     "year": 2019,
     "city": "bergen"
   },
   {
-    "bucket": 3600,
-    "count": 435,
+    "bucket": 3480,
+    "count": 167,
     "year": 2019,
     "city": "bergen"
   },
   {
-    "bucket": 3780,
-    "count": 410,
-    "year": 2019,
-    "city": "bergen"
-  },
-  {
-    "bucket": 3960,
-    "count": 295,
-    "year": 2019,
-    "city": "bergen"
-  },
-  {
-    "bucket": 4140,
-    "count": 275,
-    "year": 2019,
-    "city": "bergen"
-  },
-  {
-    "bucket": 4320,
-    "count": 240,
-    "year": 2019,
-    "city": "bergen"
-  },
-  {
-    "bucket": 4500,
-    "count": 225,
-    "year": 2019,
-    "city": "bergen"
-  },
-  {
-    "bucket": 4680,
-    "count": 208,
-    "year": 2019,
-    "city": "bergen"
-  },
-  {
-    "bucket": 4860,
-    "count": 168,
-    "year": 2019,
-    "city": "bergen"
-  },
-  {
-    "bucket": 5040,
+    "bucket": 3540,
     "count": 160,
     "year": 2019,
     "city": "bergen"
   },
   {
+    "bucket": 3600,
+    "count": 137,
+    "year": 2019,
+    "city": "bergen"
+  },
+  {
+    "bucket": 3660,
+    "count": 164,
+    "year": 2019,
+    "city": "bergen"
+  },
+  {
+    "bucket": 3720,
+    "count": 134,
+    "year": 2019,
+    "city": "bergen"
+  },
+  {
+    "bucket": 3780,
+    "count": 144,
+    "year": 2019,
+    "city": "bergen"
+  },
+  {
+    "bucket": 3840,
+    "count": 143,
+    "year": 2019,
+    "city": "bergen"
+  },
+  {
+    "bucket": 3900,
+    "count": 123,
+    "year": 2019,
+    "city": "bergen"
+  },
+  {
+    "bucket": 3960,
+    "count": 109,
+    "year": 2019,
+    "city": "bergen"
+  },
+  {
+    "bucket": 4020,
+    "count": 92,
+    "year": 2019,
+    "city": "bergen"
+  },
+  {
+    "bucket": 4080,
+    "count": 94,
+    "year": 2019,
+    "city": "bergen"
+  },
+  {
+    "bucket": 4140,
+    "count": 92,
+    "year": 2019,
+    "city": "bergen"
+  },
+  {
+    "bucket": 4200,
+    "count": 92,
+    "year": 2019,
+    "city": "bergen"
+  },
+  {
+    "bucket": 4260,
+    "count": 91,
+    "year": 2019,
+    "city": "bergen"
+  },
+  {
+    "bucket": 4320,
+    "count": 75,
+    "year": 2019,
+    "city": "bergen"
+  },
+  {
+    "bucket": 4380,
+    "count": 84,
+    "year": 2019,
+    "city": "bergen"
+  },
+  {
+    "bucket": 4440,
+    "count": 81,
+    "year": 2019,
+    "city": "bergen"
+  },
+  {
+    "bucket": 4500,
+    "count": 72,
+    "year": 2019,
+    "city": "bergen"
+  },
+  {
+    "bucket": 4560,
+    "count": 79,
+    "year": 2019,
+    "city": "bergen"
+  },
+  {
+    "bucket": 4620,
+    "count": 74,
+    "year": 2019,
+    "city": "bergen"
+  },
+  {
+    "bucket": 4680,
+    "count": 80,
+    "year": 2019,
+    "city": "bergen"
+  },
+  {
+    "bucket": 4740,
+    "count": 65,
+    "year": 2019,
+    "city": "bergen"
+  },
+  {
+    "bucket": 4800,
+    "count": 63,
+    "year": 2019,
+    "city": "bergen"
+  },
+  {
+    "bucket": 4860,
+    "count": 61,
+    "year": 2019,
+    "city": "bergen"
+  },
+  {
+    "bucket": 4920,
+    "count": 53,
+    "year": 2019,
+    "city": "bergen"
+  },
+  {
+    "bucket": 4980,
+    "count": 54,
+    "year": 2019,
+    "city": "bergen"
+  },
+  {
+    "bucket": 5040,
+    "count": 48,
+    "year": 2019,
+    "city": "bergen"
+  },
+  {
+    "bucket": 5100,
+    "count": 51,
+    "year": 2019,
+    "city": "bergen"
+  },
+  {
+    "bucket": 5160,
+    "count": 61,
+    "year": 2019,
+    "city": "bergen"
+  },
+  {
     "bucket": 5220,
-    "count": 148,
+    "count": 52,
+    "year": 2019,
+    "city": "bergen"
+  },
+  {
+    "bucket": 5280,
+    "count": 52,
+    "year": 2019,
+    "city": "bergen"
+  },
+  {
+    "bucket": 5340,
+    "count": 44,
     "year": 2019,
     "city": "bergen"
   },
   {
     "bucket": 5400,
-    "count": 166,
+    "count": 64,
+    "year": 2019,
+    "city": "bergen"
+  },
+  {
+    "bucket": 5460,
+    "count": 46,
+    "year": 2019,
+    "city": "bergen"
+  },
+  {
+    "bucket": 5520,
+    "count": 56,
     "year": 2019,
     "city": "bergen"
   },
   {
     "bucket": 5580,
-    "count": 119,
+    "count": 39,
+    "year": 2019,
+    "city": "bergen"
+  },
+  {
+    "bucket": 5640,
+    "count": 40,
+    "year": 2019,
+    "city": "bergen"
+  },
+  {
+    "bucket": 5700,
+    "count": 40,
     "year": 2019,
     "city": "bergen"
   },
   {
     "bucket": 5760,
-    "count": 120,
+    "count": 31,
+    "year": 2019,
+    "city": "bergen"
+  },
+  {
+    "bucket": 5820,
+    "count": 40,
+    "year": 2019,
+    "city": "bergen"
+  },
+  {
+    "bucket": 5880,
+    "count": 49,
     "year": 2019,
     "city": "bergen"
   },
   {
     "bucket": 5940,
-    "count": 121,
+    "count": 43,
+    "year": 2019,
+    "city": "bergen"
+  },
+  {
+    "bucket": 6000,
+    "count": 45,
+    "year": 2019,
+    "city": "bergen"
+  },
+  {
+    "bucket": 6060,
+    "count": 33,
     "year": 2019,
     "city": "bergen"
   },
   {
     "bucket": 6120,
-    "count": 110,
+    "count": 44,
+    "year": 2019,
+    "city": "bergen"
+  },
+  {
+    "bucket": 6180,
+    "count": 36,
+    "year": 2019,
+    "city": "bergen"
+  },
+  {
+    "bucket": 6240,
+    "count": 30,
     "year": 2019,
     "city": "bergen"
   },
   {
     "bucket": 6300,
-    "count": 77,
+    "count": 29,
+    "year": 2019,
+    "city": "bergen"
+  },
+  {
+    "bucket": 6360,
+    "count": 19,
+    "year": 2019,
+    "city": "bergen"
+  },
+  {
+    "bucket": 6420,
+    "count": 29,
     "year": 2019,
     "city": "bergen"
   },
   {
     "bucket": 6480,
-    "count": 101,
+    "count": 37,
+    "year": 2019,
+    "city": "bergen"
+  },
+  {
+    "bucket": 6540,
+    "count": 39,
+    "year": 2019,
+    "city": "bergen"
+  },
+  {
+    "bucket": 6600,
+    "count": 25,
     "year": 2019,
     "city": "bergen"
   },
   {
     "bucket": 6660,
-    "count": 85,
+    "count": 29,
+    "year": 2019,
+    "city": "bergen"
+  },
+  {
+    "bucket": 6720,
+    "count": 26,
+    "year": 2019,
+    "city": "bergen"
+  },
+  {
+    "bucket": 6780,
+    "count": 30,
     "year": 2019,
     "city": "bergen"
   },
   {
     "bucket": 6840,
-    "count": 76,
+    "count": 31,
+    "year": 2019,
+    "city": "bergen"
+  },
+  {
+    "bucket": 6900,
+    "count": 19,
+    "year": 2019,
+    "city": "bergen"
+  },
+  {
+    "bucket": 6960,
+    "count": 26,
     "year": 2019,
     "city": "bergen"
   },
   {
     "bucket": 7020,
-    "count": 65,
+    "count": 21,
+    "year": 2019,
+    "city": "bergen"
+  },
+  {
+    "bucket": 7080,
+    "count": 23,
+    "year": 2019,
+    "city": "bergen"
+  },
+  {
+    "bucket": 7140,
+    "count": 21,
     "year": 2019,
     "city": "bergen"
   },
@@ -492,242 +1440,716 @@
     "city": "bergen"
   },
   {
-    "bucket": 0,
-    "count": 82955,
+    "bucket": 60,
+    "count": 27106,
+    "year": 2020,
+    "city": "bergen"
+  },
+  {
+    "bucket": 120,
+    "count": 55849,
     "year": 2020,
     "city": "bergen"
   },
   {
     "bucket": 180,
-    "count": 274965,
+    "count": 83146,
+    "year": 2020,
+    "city": "bergen"
+  },
+  {
+    "bucket": 240,
+    "count": 93282,
+    "year": 2020,
+    "city": "bergen"
+  },
+  {
+    "bucket": 300,
+    "count": 98537,
     "year": 2020,
     "city": "bergen"
   },
   {
     "bucket": 360,
-    "count": 262866,
+    "count": 96086,
+    "year": 2020,
+    "city": "bergen"
+  },
+  {
+    "bucket": 420,
+    "count": 87503,
+    "year": 2020,
+    "city": "bergen"
+  },
+  {
+    "bucket": 480,
+    "count": 79277,
     "year": 2020,
     "city": "bergen"
   },
   {
     "bucket": 540,
-    "count": 175549,
+    "count": 69132,
+    "year": 2020,
+    "city": "bergen"
+  },
+  {
+    "bucket": 600,
+    "count": 57556,
+    "year": 2020,
+    "city": "bergen"
+  },
+  {
+    "bucket": 660,
+    "count": 48861,
     "year": 2020,
     "city": "bergen"
   },
   {
     "bucket": 720,
-    "count": 101410,
+    "count": 40921,
+    "year": 2020,
+    "city": "bergen"
+  },
+  {
+    "bucket": 780,
+    "count": 33173,
+    "year": 2020,
+    "city": "bergen"
+  },
+  {
+    "bucket": 840,
+    "count": 27316,
     "year": 2020,
     "city": "bergen"
   },
   {
     "bucket": 900,
-    "count": 56995,
+    "count": 22786,
+    "year": 2020,
+    "city": "bergen"
+  },
+  {
+    "bucket": 960,
+    "count": 18608,
+    "year": 2020,
+    "city": "bergen"
+  },
+  {
+    "bucket": 1020,
+    "count": 15601,
     "year": 2020,
     "city": "bergen"
   },
   {
     "bucket": 1080,
-    "count": 32999,
+    "count": 12968,
+    "year": 2020,
+    "city": "bergen"
+  },
+  {
+    "bucket": 1140,
+    "count": 10803,
+    "year": 2020,
+    "city": "bergen"
+  },
+  {
+    "bucket": 1200,
+    "count": 9228,
     "year": 2020,
     "city": "bergen"
   },
   {
     "bucket": 1260,
-    "count": 20843,
+    "count": 7883,
+    "year": 2020,
+    "city": "bergen"
+  },
+  {
+    "bucket": 1320,
+    "count": 6850,
+    "year": 2020,
+    "city": "bergen"
+  },
+  {
+    "bucket": 1380,
+    "count": 6110,
     "year": 2020,
     "city": "bergen"
   },
   {
     "bucket": 1440,
-    "count": 14256,
+    "count": 5408,
+    "year": 2020,
+    "city": "bergen"
+  },
+  {
+    "bucket": 1500,
+    "count": 4682,
+    "year": 2020,
+    "city": "bergen"
+  },
+  {
+    "bucket": 1560,
+    "count": 4166,
     "year": 2020,
     "city": "bergen"
   },
   {
     "bucket": 1620,
-    "count": 10335,
+    "count": 3793,
+    "year": 2020,
+    "city": "bergen"
+  },
+  {
+    "bucket": 1680,
+    "count": 3449,
+    "year": 2020,
+    "city": "bergen"
+  },
+  {
+    "bucket": 1740,
+    "count": 3093,
     "year": 2020,
     "city": "bergen"
   },
   {
     "bucket": 1800,
-    "count": 7888,
+    "count": 2823,
+    "year": 2020,
+    "city": "bergen"
+  },
+  {
+    "bucket": 1860,
+    "count": 2723,
+    "year": 2020,
+    "city": "bergen"
+  },
+  {
+    "bucket": 1920,
+    "count": 2342,
     "year": 2020,
     "city": "bergen"
   },
   {
     "bucket": 1980,
-    "count": 6673,
+    "count": 2314,
+    "year": 2020,
+    "city": "bergen"
+  },
+  {
+    "bucket": 2040,
+    "count": 2289,
+    "year": 2020,
+    "city": "bergen"
+  },
+  {
+    "bucket": 2100,
+    "count": 2070,
     "year": 2020,
     "city": "bergen"
   },
   {
     "bucket": 2160,
-    "count": 6015,
+    "count": 2093,
+    "year": 2020,
+    "city": "bergen"
+  },
+  {
+    "bucket": 2220,
+    "count": 1984,
+    "year": 2020,
+    "city": "bergen"
+  },
+  {
+    "bucket": 2280,
+    "count": 1938,
     "year": 2020,
     "city": "bergen"
   },
   {
     "bucket": 2340,
-    "count": 5275,
+    "count": 2032,
+    "year": 2020,
+    "city": "bergen"
+  },
+  {
+    "bucket": 2400,
+    "count": 1665,
+    "year": 2020,
+    "city": "bergen"
+  },
+  {
+    "bucket": 2460,
+    "count": 1578,
     "year": 2020,
     "city": "bergen"
   },
   {
     "bucket": 2520,
-    "count": 3596,
+    "count": 1364,
+    "year": 2020,
+    "city": "bergen"
+  },
+  {
+    "bucket": 2580,
+    "count": 1170,
+    "year": 2020,
+    "city": "bergen"
+  },
+  {
+    "bucket": 2640,
+    "count": 1062,
     "year": 2020,
     "city": "bergen"
   },
   {
     "bucket": 2700,
-    "count": 1989,
+    "count": 814,
+    "year": 2020,
+    "city": "bergen"
+  },
+  {
+    "bucket": 2760,
+    "count": 658,
+    "year": 2020,
+    "city": "bergen"
+  },
+  {
+    "bucket": 2820,
+    "count": 517,
     "year": 2020,
     "city": "bergen"
   },
   {
     "bucket": 2880,
-    "count": 1249,
+    "count": 470,
+    "year": 2020,
+    "city": "bergen"
+  },
+  {
+    "bucket": 2940,
+    "count": 411,
+    "year": 2020,
+    "city": "bergen"
+  },
+  {
+    "bucket": 3000,
+    "count": 368,
     "year": 2020,
     "city": "bergen"
   },
   {
     "bucket": 3060,
-    "count": 863,
+    "count": 351,
+    "year": 2020,
+    "city": "bergen"
+  },
+  {
+    "bucket": 3120,
+    "count": 254,
+    "year": 2020,
+    "city": "bergen"
+  },
+  {
+    "bucket": 3180,
+    "count": 258,
     "year": 2020,
     "city": "bergen"
   },
   {
     "bucket": 3240,
-    "count": 695,
+    "count": 257,
+    "year": 2020,
+    "city": "bergen"
+  },
+  {
+    "bucket": 3300,
+    "count": 229,
+    "year": 2020,
+    "city": "bergen"
+  },
+  {
+    "bucket": 3360,
+    "count": 209,
     "year": 2020,
     "city": "bergen"
   },
   {
     "bucket": 3420,
-    "count": 623,
+    "count": 249,
     "year": 2020,
     "city": "bergen"
   },
   {
-    "bucket": 3600,
-    "count": 459,
-    "year": 2020,
-    "city": "bergen"
-  },
-  {
-    "bucket": 3780,
-    "count": 392,
-    "year": 2020,
-    "city": "bergen"
-  },
-  {
-    "bucket": 3960,
-    "count": 403,
-    "year": 2020,
-    "city": "bergen"
-  },
-  {
-    "bucket": 4140,
-    "count": 348,
-    "year": 2020,
-    "city": "bergen"
-  },
-  {
-    "bucket": 4320,
-    "count": 392,
-    "year": 2020,
-    "city": "bergen"
-  },
-  {
-    "bucket": 4500,
-    "count": 426,
-    "year": 2020,
-    "city": "bergen"
-  },
-  {
-    "bucket": 4680,
-    "count": 420,
-    "year": 2020,
-    "city": "bergen"
-  },
-  {
-    "bucket": 4860,
-    "count": 366,
-    "year": 2020,
-    "city": "bergen"
-  },
-  {
-    "bucket": 5040,
-    "count": 293,
-    "year": 2020,
-    "city": "bergen"
-  },
-  {
-    "bucket": 5220,
-    "count": 232,
-    "year": 2020,
-    "city": "bergen"
-  },
-  {
-    "bucket": 5400,
+    "bucket": 3480,
     "count": 207,
     "year": 2020,
     "city": "bergen"
   },
   {
-    "bucket": 5580,
-    "count": 164,
+    "bucket": 3540,
+    "count": 167,
     "year": 2020,
     "city": "bergen"
   },
   {
-    "bucket": 5760,
-    "count": 160,
+    "bucket": 3600,
+    "count": 149,
     "year": 2020,
     "city": "bergen"
   },
   {
-    "bucket": 5940,
-    "count": 114,
+    "bucket": 3660,
+    "count": 170,
     "year": 2020,
     "city": "bergen"
   },
   {
-    "bucket": 6120,
-    "count": 115,
+    "bucket": 3720,
+    "count": 140,
     "year": 2020,
     "city": "bergen"
   },
   {
-    "bucket": 6300,
-    "count": 91,
+    "bucket": 3780,
+    "count": 137,
     "year": 2020,
     "city": "bergen"
   },
   {
-    "bucket": 6480,
-    "count": 93,
+    "bucket": 3840,
+    "count": 124,
     "year": 2020,
     "city": "bergen"
   },
   {
-    "bucket": 6660,
+    "bucket": 3900,
+    "count": 131,
+    "year": 2020,
+    "city": "bergen"
+  },
+  {
+    "bucket": 3960,
+    "count": 127,
+    "year": 2020,
+    "city": "bergen"
+  },
+  {
+    "bucket": 4020,
+    "count": 127,
+    "year": 2020,
+    "city": "bergen"
+  },
+  {
+    "bucket": 4080,
+    "count": 149,
+    "year": 2020,
+    "city": "bergen"
+  },
+  {
+    "bucket": 4140,
+    "count": 108,
+    "year": 2020,
+    "city": "bergen"
+  },
+  {
+    "bucket": 4200,
+    "count": 112,
+    "year": 2020,
+    "city": "bergen"
+  },
+  {
+    "bucket": 4260,
+    "count": 128,
+    "year": 2020,
+    "city": "bergen"
+  },
+  {
+    "bucket": 4320,
+    "count": 144,
+    "year": 2020,
+    "city": "bergen"
+  },
+  {
+    "bucket": 4380,
+    "count": 136,
+    "year": 2020,
+    "city": "bergen"
+  },
+  {
+    "bucket": 4440,
+    "count": 112,
+    "year": 2020,
+    "city": "bergen"
+  },
+  {
+    "bucket": 4500,
+    "count": 151,
+    "year": 2020,
+    "city": "bergen"
+  },
+  {
+    "bucket": 4560,
+    "count": 143,
+    "year": 2020,
+    "city": "bergen"
+  },
+  {
+    "bucket": 4620,
+    "count": 132,
+    "year": 2020,
+    "city": "bergen"
+  },
+  {
+    "bucket": 4680,
+    "count": 121,
+    "year": 2020,
+    "city": "bergen"
+  },
+  {
+    "bucket": 4740,
+    "count": 133,
+    "year": 2020,
+    "city": "bergen"
+  },
+  {
+    "bucket": 4800,
+    "count": 166,
+    "year": 2020,
+    "city": "bergen"
+  },
+  {
+    "bucket": 4860,
+    "count": 139,
+    "year": 2020,
+    "city": "bergen"
+  },
+  {
+    "bucket": 4920,
+    "count": 118,
+    "year": 2020,
+    "city": "bergen"
+  },
+  {
+    "bucket": 4980,
+    "count": 109,
+    "year": 2020,
+    "city": "bergen"
+  },
+  {
+    "bucket": 5040,
+    "count": 97,
+    "year": 2020,
+    "city": "bergen"
+  },
+  {
+    "bucket": 5100,
+    "count": 98,
+    "year": 2020,
+    "city": "bergen"
+  },
+  {
+    "bucket": 5160,
+    "count": 98,
+    "year": 2020,
+    "city": "bergen"
+  },
+  {
+    "bucket": 5220,
+    "count": 83,
+    "year": 2020,
+    "city": "bergen"
+  },
+  {
+    "bucket": 5280,
     "count": 82,
     "year": 2020,
     "city": "bergen"
   },
   {
+    "bucket": 5340,
+    "count": 67,
+    "year": 2020,
+    "city": "bergen"
+  },
+  {
+    "bucket": 5400,
+    "count": 58,
+    "year": 2020,
+    "city": "bergen"
+  },
+  {
+    "bucket": 5460,
+    "count": 79,
+    "year": 2020,
+    "city": "bergen"
+  },
+  {
+    "bucket": 5520,
+    "count": 70,
+    "year": 2020,
+    "city": "bergen"
+  },
+  {
+    "bucket": 5580,
+    "count": 61,
+    "year": 2020,
+    "city": "bergen"
+  },
+  {
+    "bucket": 5640,
+    "count": 45,
+    "year": 2020,
+    "city": "bergen"
+  },
+  {
+    "bucket": 5700,
+    "count": 58,
+    "year": 2020,
+    "city": "bergen"
+  },
+  {
+    "bucket": 5760,
+    "count": 59,
+    "year": 2020,
+    "city": "bergen"
+  },
+  {
+    "bucket": 5820,
+    "count": 48,
+    "year": 2020,
+    "city": "bergen"
+  },
+  {
+    "bucket": 5880,
+    "count": 53,
+    "year": 2020,
+    "city": "bergen"
+  },
+  {
+    "bucket": 5940,
+    "count": 36,
+    "year": 2020,
+    "city": "bergen"
+  },
+  {
+    "bucket": 6000,
+    "count": 35,
+    "year": 2020,
+    "city": "bergen"
+  },
+  {
+    "bucket": 6060,
+    "count": 43,
+    "year": 2020,
+    "city": "bergen"
+  },
+  {
+    "bucket": 6120,
+    "count": 46,
+    "year": 2020,
+    "city": "bergen"
+  },
+  {
+    "bucket": 6180,
+    "count": 34,
+    "year": 2020,
+    "city": "bergen"
+  },
+  {
+    "bucket": 6240,
+    "count": 35,
+    "year": 2020,
+    "city": "bergen"
+  },
+  {
+    "bucket": 6300,
+    "count": 31,
+    "year": 2020,
+    "city": "bergen"
+  },
+  {
+    "bucket": 6360,
+    "count": 34,
+    "year": 2020,
+    "city": "bergen"
+  },
+  {
+    "bucket": 6420,
+    "count": 26,
+    "year": 2020,
+    "city": "bergen"
+  },
+  {
+    "bucket": 6480,
+    "count": 35,
+    "year": 2020,
+    "city": "bergen"
+  },
+  {
+    "bucket": 6540,
+    "count": 33,
+    "year": 2020,
+    "city": "bergen"
+  },
+  {
+    "bucket": 6600,
+    "count": 25,
+    "year": 2020,
+    "city": "bergen"
+  },
+  {
+    "bucket": 6660,
+    "count": 26,
+    "year": 2020,
+    "city": "bergen"
+  },
+  {
+    "bucket": 6720,
+    "count": 34,
+    "year": 2020,
+    "city": "bergen"
+  },
+  {
+    "bucket": 6780,
+    "count": 22,
+    "year": 2020,
+    "city": "bergen"
+  },
+  {
     "bucket": 6840,
-    "count": 88,
+    "count": 25,
+    "year": 2020,
+    "city": "bergen"
+  },
+  {
+    "bucket": 6900,
+    "count": 36,
+    "year": 2020,
+    "city": "bergen"
+  },
+  {
+    "bucket": 6960,
+    "count": 27,
     "year": 2020,
     "city": "bergen"
   },
   {
     "bucket": 7020,
-    "count": 74,
+    "count": 24,
+    "year": 2020,
+    "city": "bergen"
+  },
+  {
+    "bucket": 7080,
+    "count": 26,
+    "year": 2020,
+    "city": "bergen"
+  },
+  {
+    "bucket": 7140,
+    "count": 24,
     "year": 2020,
     "city": "bergen"
   },
@@ -738,242 +2160,716 @@
     "city": "bergen"
   },
   {
-    "bucket": 0,
-    "count": 42719,
+    "bucket": 60,
+    "count": 13819,
+    "year": 2021,
+    "city": "bergen"
+  },
+  {
+    "bucket": 120,
+    "count": 28900,
     "year": 2021,
     "city": "bergen"
   },
   {
     "bucket": 180,
-    "count": 167544,
+    "count": 48539,
+    "year": 2021,
+    "city": "bergen"
+  },
+  {
+    "bucket": 240,
+    "count": 56466,
+    "year": 2021,
+    "city": "bergen"
+  },
+  {
+    "bucket": 300,
+    "count": 62539,
     "year": 2021,
     "city": "bergen"
   },
   {
     "bucket": 360,
-    "count": 175104,
+    "count": 63839,
+    "year": 2021,
+    "city": "bergen"
+  },
+  {
+    "bucket": 420,
+    "count": 58455,
+    "year": 2021,
+    "city": "bergen"
+  },
+  {
+    "bucket": 480,
+    "count": 52810,
     "year": 2021,
     "city": "bergen"
   },
   {
     "bucket": 540,
-    "count": 116692,
+    "count": 45938,
+    "year": 2021,
+    "city": "bergen"
+  },
+  {
+    "bucket": 600,
+    "count": 38632,
+    "year": 2021,
+    "city": "bergen"
+  },
+  {
+    "bucket": 660,
+    "count": 32122,
     "year": 2021,
     "city": "bergen"
   },
   {
     "bucket": 720,
-    "count": 64246,
+    "count": 26202,
+    "year": 2021,
+    "city": "bergen"
+  },
+  {
+    "bucket": 780,
+    "count": 21065,
+    "year": 2021,
+    "city": "bergen"
+  },
+  {
+    "bucket": 840,
+    "count": 16979,
     "year": 2021,
     "city": "bergen"
   },
   {
     "bucket": 900,
-    "count": 34361,
+    "count": 13990,
+    "year": 2021,
+    "city": "bergen"
+  },
+  {
+    "bucket": 960,
+    "count": 11305,
+    "year": 2021,
+    "city": "bergen"
+  },
+  {
+    "bucket": 1020,
+    "count": 9066,
     "year": 2021,
     "city": "bergen"
   },
   {
     "bucket": 1080,
-    "count": 18455,
+    "count": 7401,
+    "year": 2021,
+    "city": "bergen"
+  },
+  {
+    "bucket": 1140,
+    "count": 5997,
+    "year": 2021,
+    "city": "bergen"
+  },
+  {
+    "bucket": 1200,
+    "count": 5057,
     "year": 2021,
     "city": "bergen"
   },
   {
     "bucket": 1260,
-    "count": 10411,
+    "count": 4062,
+    "year": 2021,
+    "city": "bergen"
+  },
+  {
+    "bucket": 1320,
+    "count": 3415,
+    "year": 2021,
+    "city": "bergen"
+  },
+  {
+    "bucket": 1380,
+    "count": 2934,
     "year": 2021,
     "city": "bergen"
   },
   {
     "bucket": 1440,
-    "count": 6583,
+    "count": 2454,
+    "year": 2021,
+    "city": "bergen"
+  },
+  {
+    "bucket": 1500,
+    "count": 2209,
+    "year": 2021,
+    "city": "bergen"
+  },
+  {
+    "bucket": 1560,
+    "count": 1920,
     "year": 2021,
     "city": "bergen"
   },
   {
     "bucket": 1620,
-    "count": 4543,
+    "count": 1741,
+    "year": 2021,
+    "city": "bergen"
+  },
+  {
+    "bucket": 1680,
+    "count": 1455,
+    "year": 2021,
+    "city": "bergen"
+  },
+  {
+    "bucket": 1740,
+    "count": 1347,
     "year": 2021,
     "city": "bergen"
   },
   {
     "bucket": 1800,
-    "count": 3311,
+    "count": 1265,
+    "year": 2021,
+    "city": "bergen"
+  },
+  {
+    "bucket": 1860,
+    "count": 1044,
+    "year": 2021,
+    "city": "bergen"
+  },
+  {
+    "bucket": 1920,
+    "count": 1002,
     "year": 2021,
     "city": "bergen"
   },
   {
     "bucket": 1980,
-    "count": 2543,
+    "count": 907,
     "year": 2021,
     "city": "bergen"
   },
   {
-    "bucket": 2160,
-    "count": 2428,
+    "bucket": 2040,
+    "count": 865,
     "year": 2021,
     "city": "bergen"
   },
   {
-    "bucket": 2340,
-    "count": 2201,
-    "year": 2021,
-    "city": "bergen"
-  },
-  {
-    "bucket": 2520,
-    "count": 1516,
-    "year": 2021,
-    "city": "bergen"
-  },
-  {
-    "bucket": 2700,
+    "bucket": 2100,
     "count": 771,
     "year": 2021,
     "city": "bergen"
   },
   {
+    "bucket": 2160,
+    "count": 790,
+    "year": 2021,
+    "city": "bergen"
+  },
+  {
+    "bucket": 2220,
+    "count": 839,
+    "year": 2021,
+    "city": "bergen"
+  },
+  {
+    "bucket": 2280,
+    "count": 799,
+    "year": 2021,
+    "city": "bergen"
+  },
+  {
+    "bucket": 2340,
+    "count": 833,
+    "year": 2021,
+    "city": "bergen"
+  },
+  {
+    "bucket": 2400,
+    "count": 735,
+    "year": 2021,
+    "city": "bergen"
+  },
+  {
+    "bucket": 2460,
+    "count": 633,
+    "year": 2021,
+    "city": "bergen"
+  },
+  {
+    "bucket": 2520,
+    "count": 610,
+    "year": 2021,
+    "city": "bergen"
+  },
+  {
+    "bucket": 2580,
+    "count": 495,
+    "year": 2021,
+    "city": "bergen"
+  },
+  {
+    "bucket": 2640,
+    "count": 411,
+    "year": 2021,
+    "city": "bergen"
+  },
+  {
+    "bucket": 2700,
+    "count": 302,
+    "year": 2021,
+    "city": "bergen"
+  },
+  {
+    "bucket": 2760,
+    "count": 268,
+    "year": 2021,
+    "city": "bergen"
+  },
+  {
+    "bucket": 2820,
+    "count": 201,
+    "year": 2021,
+    "city": "bergen"
+  },
+  {
     "bucket": 2880,
-    "count": 482,
+    "count": 183,
+    "year": 2021,
+    "city": "bergen"
+  },
+  {
+    "bucket": 2940,
+    "count": 165,
+    "year": 2021,
+    "city": "bergen"
+  },
+  {
+    "bucket": 3000,
+    "count": 134,
     "year": 2021,
     "city": "bergen"
   },
   {
     "bucket": 3060,
-    "count": 335,
+    "count": 134,
+    "year": 2021,
+    "city": "bergen"
+  },
+  {
+    "bucket": 3120,
+    "count": 107,
+    "year": 2021,
+    "city": "bergen"
+  },
+  {
+    "bucket": 3180,
+    "count": 94,
     "year": 2021,
     "city": "bergen"
   },
   {
     "bucket": 3240,
-    "count": 303,
-    "year": 2021,
-    "city": "bergen"
-  },
-  {
-    "bucket": 3420,
-    "count": 230,
-    "year": 2021,
-    "city": "bergen"
-  },
-  {
-    "bucket": 3600,
-    "count": 188,
-    "year": 2021,
-    "city": "bergen"
-  },
-  {
-    "bucket": 3780,
-    "count": 136,
-    "year": 2021,
-    "city": "bergen"
-  },
-  {
-    "bucket": 3960,
-    "count": 133,
-    "year": 2021,
-    "city": "bergen"
-  },
-  {
-    "bucket": 4140,
-    "count": 116,
-    "year": 2021,
-    "city": "bergen"
-  },
-  {
-    "bucket": 4320,
     "count": 120,
     "year": 2021,
     "city": "bergen"
   },
   {
-    "bucket": 4500,
-    "count": 126,
+    "bucket": 3300,
+    "count": 103,
     "year": 2021,
     "city": "bergen"
   },
   {
-    "bucket": 4680,
-    "count": 129,
+    "bucket": 3360,
+    "count": 80,
     "year": 2021,
     "city": "bergen"
   },
   {
-    "bucket": 4860,
-    "count": 81,
+    "bucket": 3420,
+    "count": 76,
     "year": 2021,
     "city": "bergen"
   },
   {
-    "bucket": 5040,
-    "count": 79,
+    "bucket": 3480,
+    "count": 65,
     "year": 2021,
     "city": "bergen"
   },
   {
-    "bucket": 5220,
-    "count": 73,
+    "bucket": 3540,
+    "count": 89,
     "year": 2021,
     "city": "bergen"
   },
   {
-    "bucket": 5400,
-    "count": 74,
+    "bucket": 3600,
+    "count": 68,
     "year": 2021,
     "city": "bergen"
   },
   {
-    "bucket": 5580,
-    "count": 50,
+    "bucket": 3660,
+    "count": 57,
     "year": 2021,
     "city": "bergen"
   },
   {
-    "bucket": 5760,
+    "bucket": 3720,
+    "count": 63,
+    "year": 2021,
+    "city": "bergen"
+  },
+  {
+    "bucket": 3780,
     "count": 40,
     "year": 2021,
     "city": "bergen"
   },
   {
-    "bucket": 5940,
+    "bucket": 3840,
     "count": 56,
     "year": 2021,
     "city": "bergen"
   },
   {
-    "bucket": 6120,
+    "bucket": 3900,
+    "count": 40,
+    "year": 2021,
+    "city": "bergen"
+  },
+  {
+    "bucket": 3960,
+    "count": 45,
+    "year": 2021,
+    "city": "bergen"
+  },
+  {
+    "bucket": 4020,
+    "count": 47,
+    "year": 2021,
+    "city": "bergen"
+  },
+  {
+    "bucket": 4080,
     "count": 41,
     "year": 2021,
     "city": "bergen"
   },
   {
-    "bucket": 6300,
+    "bucket": 4140,
+    "count": 41,
+    "year": 2021,
+    "city": "bergen"
+  },
+  {
+    "bucket": 4200,
     "count": 36,
     "year": 2021,
     "city": "bergen"
   },
   {
-    "bucket": 6480,
-    "count": 44,
+    "bucket": 4260,
+    "count": 39,
     "year": 2021,
     "city": "bergen"
   },
   {
-    "bucket": 6660,
+    "bucket": 4320,
+    "count": 49,
+    "year": 2021,
+    "city": "bergen"
+  },
+  {
+    "bucket": 4380,
+    "count": 31,
+    "year": 2021,
+    "city": "bergen"
+  },
+  {
+    "bucket": 4440,
+    "count": 40,
+    "year": 2021,
+    "city": "bergen"
+  },
+  {
+    "bucket": 4500,
+    "count": 35,
+    "year": 2021,
+    "city": "bergen"
+  },
+  {
+    "bucket": 4560,
+    "count": 48,
+    "year": 2021,
+    "city": "bergen"
+  },
+  {
+    "bucket": 4620,
+    "count": 43,
+    "year": 2021,
+    "city": "bergen"
+  },
+  {
+    "bucket": 4680,
+    "count": 45,
+    "year": 2021,
+    "city": "bergen"
+  },
+  {
+    "bucket": 4740,
+    "count": 54,
+    "year": 2021,
+    "city": "bergen"
+  },
+  {
+    "bucket": 4800,
+    "count": 30,
+    "year": 2021,
+    "city": "bergen"
+  },
+  {
+    "bucket": 4860,
+    "count": 27,
+    "year": 2021,
+    "city": "bergen"
+  },
+  {
+    "bucket": 4920,
+    "count": 29,
+    "year": 2021,
+    "city": "bergen"
+  },
+  {
+    "bucket": 4980,
+    "count": 25,
+    "year": 2021,
+    "city": "bergen"
+  },
+  {
+    "bucket": 5040,
+    "count": 33,
+    "year": 2021,
+    "city": "bergen"
+  },
+  {
+    "bucket": 5100,
     "count": 26,
     "year": 2021,
     "city": "bergen"
   },
   {
-    "bucket": 6840,
+    "bucket": 5160,
+    "count": 20,
+    "year": 2021,
+    "city": "bergen"
+  },
+  {
+    "bucket": 5220,
+    "count": 27,
+    "year": 2021,
+    "city": "bergen"
+  },
+  {
+    "bucket": 5280,
+    "count": 21,
+    "year": 2021,
+    "city": "bergen"
+  },
+  {
+    "bucket": 5340,
+    "count": 25,
+    "year": 2021,
+    "city": "bergen"
+  },
+  {
+    "bucket": 5400,
+    "count": 19,
+    "year": 2021,
+    "city": "bergen"
+  },
+  {
+    "bucket": 5460,
+    "count": 27,
+    "year": 2021,
+    "city": "bergen"
+  },
+  {
+    "bucket": 5520,
+    "count": 28,
+    "year": 2021,
+    "city": "bergen"
+  },
+  {
+    "bucket": 5580,
+    "count": 14,
+    "year": 2021,
+    "city": "bergen"
+  },
+  {
+    "bucket": 5640,
+    "count": 17,
+    "year": 2021,
+    "city": "bergen"
+  },
+  {
+    "bucket": 5700,
+    "count": 19,
+    "year": 2021,
+    "city": "bergen"
+  },
+  {
+    "bucket": 5760,
+    "count": 13,
+    "year": 2021,
+    "city": "bergen"
+  },
+  {
+    "bucket": 5820,
+    "count": 13,
+    "year": 2021,
+    "city": "bergen"
+  },
+  {
+    "bucket": 5880,
+    "count": 14,
+    "year": 2021,
+    "city": "bergen"
+  },
+  {
+    "bucket": 5940,
+    "count": 22,
+    "year": 2021,
+    "city": "bergen"
+  },
+  {
+    "bucket": 6000,
+    "count": 15,
+    "year": 2021,
+    "city": "bergen"
+  },
+  {
+    "bucket": 6060,
+    "count": 19,
+    "year": 2021,
+    "city": "bergen"
+  },
+  {
+    "bucket": 6120,
+    "count": 13,
+    "year": 2021,
+    "city": "bergen"
+  },
+  {
+    "bucket": 6180,
     "count": 18,
     "year": 2021,
     "city": "bergen"
   },
   {
-    "bucket": 7020,
+    "bucket": 6240,
+    "count": 10,
+    "year": 2021,
+    "city": "bergen"
+  },
+  {
+    "bucket": 6300,
+    "count": 11,
+    "year": 2021,
+    "city": "bergen"
+  },
+  {
+    "bucket": 6360,
+    "count": 16,
+    "year": 2021,
+    "city": "bergen"
+  },
+  {
+    "bucket": 6420,
+    "count": 9,
+    "year": 2021,
+    "city": "bergen"
+  },
+  {
+    "bucket": 6480,
     "count": 21,
+    "year": 2021,
+    "city": "bergen"
+  },
+  {
+    "bucket": 6540,
+    "count": 9,
+    "year": 2021,
+    "city": "bergen"
+  },
+  {
+    "bucket": 6600,
+    "count": 14,
+    "year": 2021,
+    "city": "bergen"
+  },
+  {
+    "bucket": 6660,
+    "count": 9,
+    "year": 2021,
+    "city": "bergen"
+  },
+  {
+    "bucket": 6720,
+    "count": 7,
+    "year": 2021,
+    "city": "bergen"
+  },
+  {
+    "bucket": 6780,
+    "count": 10,
+    "year": 2021,
+    "city": "bergen"
+  },
+  {
+    "bucket": 6840,
+    "count": 6,
+    "year": 2021,
+    "city": "bergen"
+  },
+  {
+    "bucket": 6900,
+    "count": 5,
+    "year": 2021,
+    "city": "bergen"
+  },
+  {
+    "bucket": 6960,
+    "count": 7,
+    "year": 2021,
+    "city": "bergen"
+  },
+  {
+    "bucket": 7020,
+    "count": 5,
+    "year": 2021,
+    "city": "bergen"
+  },
+  {
+    "bucket": 7080,
+    "count": 8,
+    "year": 2021,
+    "city": "bergen"
+  },
+  {
+    "bucket": 7140,
+    "count": 8,
     "year": 2021,
     "city": "bergen"
   },
@@ -984,242 +2880,716 @@
     "city": "bergen"
   },
   {
-    "bucket": 0,
-    "count": 33898,
+    "bucket": 60,
+    "count": 9354,
+    "year": 2022,
+    "city": "bergen"
+  },
+  {
+    "bucket": 120,
+    "count": 24544,
     "year": 2022,
     "city": "bergen"
   },
   {
     "bucket": 180,
-    "count": 132642,
+    "count": 39490,
+    "year": 2022,
+    "city": "bergen"
+  },
+  {
+    "bucket": 240,
+    "count": 44848,
+    "year": 2022,
+    "city": "bergen"
+  },
+  {
+    "bucket": 300,
+    "count": 48304,
     "year": 2022,
     "city": "bergen"
   },
   {
     "bucket": 360,
-    "count": 147087,
+    "count": 50349,
+    "year": 2022,
+    "city": "bergen"
+  },
+  {
+    "bucket": 420,
+    "count": 52439,
+    "year": 2022,
+    "city": "bergen"
+  },
+  {
+    "bucket": 480,
+    "count": 44299,
     "year": 2022,
     "city": "bergen"
   },
   {
     "bucket": 540,
-    "count": 98059,
+    "count": 37108,
+    "year": 2022,
+    "city": "bergen"
+  },
+  {
+    "bucket": 600,
+    "count": 34821,
+    "year": 2022,
+    "city": "bergen"
+  },
+  {
+    "bucket": 660,
+    "count": 26130,
     "year": 2022,
     "city": "bergen"
   },
   {
     "bucket": 720,
-    "count": 53258,
+    "count": 21033,
+    "year": 2022,
+    "city": "bergen"
+  },
+  {
+    "bucket": 780,
+    "count": 18553,
+    "year": 2022,
+    "city": "bergen"
+  },
+  {
+    "bucket": 840,
+    "count": 13672,
     "year": 2022,
     "city": "bergen"
   },
   {
     "bucket": 900,
-    "count": 26851,
+    "count": 10585,
+    "year": 2022,
+    "city": "bergen"
+  },
+  {
+    "bucket": 960,
+    "count": 9301,
+    "year": 2022,
+    "city": "bergen"
+  },
+  {
+    "bucket": 1020,
+    "count": 6965,
     "year": 2022,
     "city": "bergen"
   },
   {
     "bucket": 1080,
-    "count": 13878,
+    "count": 5573,
+    "year": 2022,
+    "city": "bergen"
+  },
+  {
+    "bucket": 1140,
+    "count": 4647,
+    "year": 2022,
+    "city": "bergen"
+  },
+  {
+    "bucket": 1200,
+    "count": 3658,
     "year": 2022,
     "city": "bergen"
   },
   {
     "bucket": 1260,
-    "count": 7787,
+    "count": 2930,
+    "year": 2022,
+    "city": "bergen"
+  },
+  {
+    "bucket": 1320,
+    "count": 2693,
+    "year": 2022,
+    "city": "bergen"
+  },
+  {
+    "bucket": 1380,
+    "count": 2164,
     "year": 2022,
     "city": "bergen"
   },
   {
     "bucket": 1440,
-    "count": 4814,
+    "count": 1841,
+    "year": 2022,
+    "city": "bergen"
+  },
+  {
+    "bucket": 1500,
+    "count": 1543,
+    "year": 2022,
+    "city": "bergen"
+  },
+  {
+    "bucket": 1560,
+    "count": 1430,
     "year": 2022,
     "city": "bergen"
   },
   {
     "bucket": 1620,
-    "count": 3327,
+    "count": 1228,
+    "year": 2022,
+    "city": "bergen"
+  },
+  {
+    "bucket": 1680,
+    "count": 1115,
+    "year": 2022,
+    "city": "bergen"
+  },
+  {
+    "bucket": 1740,
+    "count": 984,
     "year": 2022,
     "city": "bergen"
   },
   {
     "bucket": 1800,
-    "count": 2366,
+    "count": 878,
+    "year": 2022,
+    "city": "bergen"
+  },
+  {
+    "bucket": 1860,
+    "count": 794,
+    "year": 2022,
+    "city": "bergen"
+  },
+  {
+    "bucket": 1920,
+    "count": 694,
     "year": 2022,
     "city": "bergen"
   },
   {
     "bucket": 1980,
-    "count": 1827,
+    "count": 636,
+    "year": 2022,
+    "city": "bergen"
+  },
+  {
+    "bucket": 2040,
+    "count": 631,
+    "year": 2022,
+    "city": "bergen"
+  },
+  {
+    "bucket": 2100,
+    "count": 560,
     "year": 2022,
     "city": "bergen"
   },
   {
     "bucket": 2160,
-    "count": 1638,
+    "count": 519,
+    "year": 2022,
+    "city": "bergen"
+  },
+  {
+    "bucket": 2220,
+    "count": 594,
+    "year": 2022,
+    "city": "bergen"
+  },
+  {
+    "bucket": 2280,
+    "count": 525,
     "year": 2022,
     "city": "bergen"
   },
   {
     "bucket": 2340,
-    "count": 1536,
+    "count": 536,
+    "year": 2022,
+    "city": "bergen"
+  },
+  {
+    "bucket": 2400,
+    "count": 521,
+    "year": 2022,
+    "city": "bergen"
+  },
+  {
+    "bucket": 2460,
+    "count": 479,
     "year": 2022,
     "city": "bergen"
   },
   {
     "bucket": 2520,
-    "count": 1305,
+    "count": 469,
+    "year": 2022,
+    "city": "bergen"
+  },
+  {
+    "bucket": 2580,
+    "count": 441,
+    "year": 2022,
+    "city": "bergen"
+  },
+  {
+    "bucket": 2640,
+    "count": 395,
     "year": 2022,
     "city": "bergen"
   },
   {
     "bucket": 2700,
-    "count": 960,
+    "count": 337,
+    "year": 2022,
+    "city": "bergen"
+  },
+  {
+    "bucket": 2760,
+    "count": 312,
+    "year": 2022,
+    "city": "bergen"
+  },
+  {
+    "bucket": 2820,
+    "count": 311,
     "year": 2022,
     "city": "bergen"
   },
   {
     "bucket": 2880,
-    "count": 687,
+    "count": 249,
+    "year": 2022,
+    "city": "bergen"
+  },
+  {
+    "bucket": 2940,
+    "count": 221,
+    "year": 2022,
+    "city": "bergen"
+  },
+  {
+    "bucket": 3000,
+    "count": 217,
     "year": 2022,
     "city": "bergen"
   },
   {
     "bucket": 3060,
-    "count": 624,
+    "count": 224,
+    "year": 2022,
+    "city": "bergen"
+  },
+  {
+    "bucket": 3120,
+    "count": 230,
+    "year": 2022,
+    "city": "bergen"
+  },
+  {
+    "bucket": 3180,
+    "count": 170,
     "year": 2022,
     "city": "bergen"
   },
   {
     "bucket": 3240,
-    "count": 480,
+    "count": 168,
     "year": 2022,
     "city": "bergen"
   },
   {
-    "bucket": 3420,
-    "count": 393,
-    "year": 2022,
-    "city": "bergen"
-  },
-  {
-    "bucket": 3600,
-    "count": 253,
-    "year": 2022,
-    "city": "bergen"
-  },
-  {
-    "bucket": 3780,
+    "bucket": 3300,
     "count": 162,
     "year": 2022,
     "city": "bergen"
   },
   {
+    "bucket": 3360,
+    "count": 150,
+    "year": 2022,
+    "city": "bergen"
+  },
+  {
+    "bucket": 3420,
+    "count": 156,
+    "year": 2022,
+    "city": "bergen"
+  },
+  {
+    "bucket": 3480,
+    "count": 141,
+    "year": 2022,
+    "city": "bergen"
+  },
+  {
+    "bucket": 3540,
+    "count": 96,
+    "year": 2022,
+    "city": "bergen"
+  },
+  {
+    "bucket": 3600,
+    "count": 96,
+    "year": 2022,
+    "city": "bergen"
+  },
+  {
+    "bucket": 3660,
+    "count": 87,
+    "year": 2022,
+    "city": "bergen"
+  },
+  {
+    "bucket": 3720,
+    "count": 70,
+    "year": 2022,
+    "city": "bergen"
+  },
+  {
+    "bucket": 3780,
+    "count": 58,
+    "year": 2022,
+    "city": "bergen"
+  },
+  {
+    "bucket": 3840,
+    "count": 53,
+    "year": 2022,
+    "city": "bergen"
+  },
+  {
+    "bucket": 3900,
+    "count": 51,
+    "year": 2022,
+    "city": "bergen"
+  },
+  {
     "bucket": 3960,
-    "count": 126,
+    "count": 49,
     "year": 2022,
     "city": "bergen"
   },
   {
-    "bucket": 4140,
-    "count": 114,
-    "year": 2022,
-    "city": "bergen"
-  },
-  {
-    "bucket": 4320,
-    "count": 108,
-    "year": 2022,
-    "city": "bergen"
-  },
-  {
-    "bucket": 4500,
-    "count": 88,
-    "year": 2022,
-    "city": "bergen"
-  },
-  {
-    "bucket": 4680,
-    "count": 72,
-    "year": 2022,
-    "city": "bergen"
-  },
-  {
-    "bucket": 4860,
-    "count": 73,
-    "year": 2022,
-    "city": "bergen"
-  },
-  {
-    "bucket": 5040,
-    "count": 69,
-    "year": 2022,
-    "city": "bergen"
-  },
-  {
-    "bucket": 5220,
-    "count": 50,
-    "year": 2022,
-    "city": "bergen"
-  },
-  {
-    "bucket": 5400,
-    "count": 55,
-    "year": 2022,
-    "city": "bergen"
-  },
-  {
-    "bucket": 5580,
-    "count": 41,
-    "year": 2022,
-    "city": "bergen"
-  },
-  {
-    "bucket": 5760,
+    "bucket": 4020,
     "count": 33,
     "year": 2022,
     "city": "bergen"
   },
   {
-    "bucket": 5940,
-    "count": 29,
+    "bucket": 4080,
+    "count": 44,
     "year": 2022,
     "city": "bergen"
   },
   {
-    "bucket": 6120,
-    "count": 34,
+    "bucket": 4140,
+    "count": 32,
     "year": 2022,
     "city": "bergen"
   },
   {
-    "bucket": 6300,
-    "count": 29,
+    "bucket": 4200,
+    "count": 44,
     "year": 2022,
     "city": "bergen"
   },
   {
-    "bucket": 6480,
-    "count": 22,
+    "bucket": 4260,
+    "count": 38,
     "year": 2022,
     "city": "bergen"
   },
   {
-    "bucket": 6660,
+    "bucket": 4320,
+    "count": 41,
+    "year": 2022,
+    "city": "bergen"
+  },
+  {
+    "bucket": 4380,
+    "count": 27,
+    "year": 2022,
+    "city": "bergen"
+  },
+  {
+    "bucket": 4440,
+    "count": 40,
+    "year": 2022,
+    "city": "bergen"
+  },
+  {
+    "bucket": 4500,
+    "count": 32,
+    "year": 2022,
+    "city": "bergen"
+  },
+  {
+    "bucket": 4560,
+    "count": 30,
+    "year": 2022,
+    "city": "bergen"
+  },
+  {
+    "bucket": 4620,
+    "count": 26,
+    "year": 2022,
+    "city": "bergen"
+  },
+  {
+    "bucket": 4680,
     "count": 25,
     "year": 2022,
     "city": "bergen"
   },
   {
-    "bucket": 6840,
+    "bucket": 4740,
+    "count": 22,
+    "year": 2022,
+    "city": "bergen"
+  },
+  {
+    "bucket": 4800,
+    "count": 25,
+    "year": 2022,
+    "city": "bergen"
+  },
+  {
+    "bucket": 4860,
     "count": 34,
     "year": 2022,
     "city": "bergen"
   },
   {
+    "bucket": 4920,
+    "count": 24,
+    "year": 2022,
+    "city": "bergen"
+  },
+  {
+    "bucket": 4980,
+    "count": 15,
+    "year": 2022,
+    "city": "bergen"
+  },
+  {
+    "bucket": 5040,
+    "count": 27,
+    "year": 2022,
+    "city": "bergen"
+  },
+  {
+    "bucket": 5100,
+    "count": 20,
+    "year": 2022,
+    "city": "bergen"
+  },
+  {
+    "bucket": 5160,
+    "count": 22,
+    "year": 2022,
+    "city": "bergen"
+  },
+  {
+    "bucket": 5220,
+    "count": 15,
+    "year": 2022,
+    "city": "bergen"
+  },
+  {
+    "bucket": 5280,
+    "count": 16,
+    "year": 2022,
+    "city": "bergen"
+  },
+  {
+    "bucket": 5340,
+    "count": 19,
+    "year": 2022,
+    "city": "bergen"
+  },
+  {
+    "bucket": 5400,
+    "count": 17,
+    "year": 2022,
+    "city": "bergen"
+  },
+  {
+    "bucket": 5460,
+    "count": 20,
+    "year": 2022,
+    "city": "bergen"
+  },
+  {
+    "bucket": 5520,
+    "count": 18,
+    "year": 2022,
+    "city": "bergen"
+  },
+  {
+    "bucket": 5580,
+    "count": 15,
+    "year": 2022,
+    "city": "bergen"
+  },
+  {
+    "bucket": 5640,
+    "count": 16,
+    "year": 2022,
+    "city": "bergen"
+  },
+  {
+    "bucket": 5700,
+    "count": 10,
+    "year": 2022,
+    "city": "bergen"
+  },
+  {
+    "bucket": 5760,
+    "count": 11,
+    "year": 2022,
+    "city": "bergen"
+  },
+  {
+    "bucket": 5820,
+    "count": 9,
+    "year": 2022,
+    "city": "bergen"
+  },
+  {
+    "bucket": 5880,
+    "count": 13,
+    "year": 2022,
+    "city": "bergen"
+  },
+  {
+    "bucket": 5940,
+    "count": 10,
+    "year": 2022,
+    "city": "bergen"
+  },
+  {
+    "bucket": 6000,
+    "count": 6,
+    "year": 2022,
+    "city": "bergen"
+  },
+  {
+    "bucket": 6060,
+    "count": 13,
+    "year": 2022,
+    "city": "bergen"
+  },
+  {
+    "bucket": 6120,
+    "count": 11,
+    "year": 2022,
+    "city": "bergen"
+  },
+  {
+    "bucket": 6180,
+    "count": 13,
+    "year": 2022,
+    "city": "bergen"
+  },
+  {
+    "bucket": 6240,
+    "count": 10,
+    "year": 2022,
+    "city": "bergen"
+  },
+  {
+    "bucket": 6300,
+    "count": 8,
+    "year": 2022,
+    "city": "bergen"
+  },
+  {
+    "bucket": 6360,
+    "count": 14,
+    "year": 2022,
+    "city": "bergen"
+  },
+  {
+    "bucket": 6420,
+    "count": 7,
+    "year": 2022,
+    "city": "bergen"
+  },
+  {
+    "bucket": 6480,
+    "count": 9,
+    "year": 2022,
+    "city": "bergen"
+  },
+  {
+    "bucket": 6540,
+    "count": 6,
+    "year": 2022,
+    "city": "bergen"
+  },
+  {
+    "bucket": 6600,
+    "count": 7,
+    "year": 2022,
+    "city": "bergen"
+  },
+  {
+    "bucket": 6660,
+    "count": 10,
+    "year": 2022,
+    "city": "bergen"
+  },
+  {
+    "bucket": 6720,
+    "count": 8,
+    "year": 2022,
+    "city": "bergen"
+  },
+  {
+    "bucket": 6780,
+    "count": 7,
+    "year": 2022,
+    "city": "bergen"
+  },
+  {
+    "bucket": 6840,
+    "count": 12,
+    "year": 2022,
+    "city": "bergen"
+  },
+  {
+    "bucket": 6900,
+    "count": 10,
+    "year": 2022,
+    "city": "bergen"
+  },
+  {
+    "bucket": 6960,
+    "count": 12,
+    "year": 2022,
+    "city": "bergen"
+  },
+  {
     "bucket": 7020,
-    "count": 21,
+    "count": 10,
+    "year": 2022,
+    "city": "bergen"
+  },
+  {
+    "bucket": 7080,
+    "count": 3,
+    "year": 2022,
+    "city": "bergen"
+  },
+  {
+    "bucket": 7140,
+    "count": 8,
     "year": 2022,
     "city": "bergen"
   },
@@ -1230,242 +3600,716 @@
     "city": "bergen"
   },
   {
-    "bucket": 0,
-    "count": 31191,
+    "bucket": 60,
+    "count": 8564,
+    "year": 2023,
+    "city": "bergen"
+  },
+  {
+    "bucket": 120,
+    "count": 22627,
     "year": 2023,
     "city": "bergen"
   },
   {
     "bucket": 180,
-    "count": 123179,
+    "count": 37611,
+    "year": 2023,
+    "city": "bergen"
+  },
+  {
+    "bucket": 240,
+    "count": 41662,
+    "year": 2023,
+    "city": "bergen"
+  },
+  {
+    "bucket": 300,
+    "count": 43906,
     "year": 2023,
     "city": "bergen"
   },
   {
     "bucket": 360,
-    "count": 123324,
+    "count": 44096,
+    "year": 2023,
+    "city": "bergen"
+  },
+  {
+    "bucket": 420,
+    "count": 43199,
+    "year": 2023,
+    "city": "bergen"
+  },
+  {
+    "bucket": 480,
+    "count": 36029,
     "year": 2023,
     "city": "bergen"
   },
   {
     "bucket": 540,
-    "count": 78966,
+    "count": 30639,
+    "year": 2023,
+    "city": "bergen"
+  },
+  {
+    "bucket": 600,
+    "count": 27286,
+    "year": 2023,
+    "city": "bergen"
+  },
+  {
+    "bucket": 660,
+    "count": 21041,
     "year": 2023,
     "city": "bergen"
   },
   {
     "bucket": 720,
-    "count": 42068,
+    "count": 16585,
+    "year": 2023,
+    "city": "bergen"
+  },
+  {
+    "bucket": 780,
+    "count": 14204,
+    "year": 2023,
+    "city": "bergen"
+  },
+  {
+    "bucket": 840,
+    "count": 11279,
     "year": 2023,
     "city": "bergen"
   },
   {
     "bucket": 900,
-    "count": 23071,
+    "count": 9013,
+    "year": 2023,
+    "city": "bergen"
+  },
+  {
+    "bucket": 960,
+    "count": 8018,
+    "year": 2023,
+    "city": "bergen"
+  },
+  {
+    "bucket": 1020,
+    "count": 6040,
     "year": 2023,
     "city": "bergen"
   },
   {
     "bucket": 1080,
-    "count": 12336,
+    "count": 4706,
+    "year": 2023,
+    "city": "bergen"
+  },
+  {
+    "bucket": 1140,
+    "count": 4217,
+    "year": 2023,
+    "city": "bergen"
+  },
+  {
+    "bucket": 1200,
+    "count": 3413,
     "year": 2023,
     "city": "bergen"
   },
   {
     "bucket": 1260,
-    "count": 7214,
+    "count": 2713,
+    "year": 2023,
+    "city": "bergen"
+  },
+  {
+    "bucket": 1320,
+    "count": 2434,
+    "year": 2023,
+    "city": "bergen"
+  },
+  {
+    "bucket": 1380,
+    "count": 2067,
     "year": 2023,
     "city": "bergen"
   },
   {
     "bucket": 1440,
-    "count": 4880,
+    "count": 1810,
+    "year": 2023,
+    "city": "bergen"
+  },
+  {
+    "bucket": 1500,
+    "count": 1646,
+    "year": 2023,
+    "city": "bergen"
+  },
+  {
+    "bucket": 1560,
+    "count": 1424,
     "year": 2023,
     "city": "bergen"
   },
   {
     "bucket": 1620,
-    "count": 3548,
+    "count": 1320,
+    "year": 2023,
+    "city": "bergen"
+  },
+  {
+    "bucket": 1680,
+    "count": 1197,
+    "year": 2023,
+    "city": "bergen"
+  },
+  {
+    "bucket": 1740,
+    "count": 1031,
     "year": 2023,
     "city": "bergen"
   },
   {
     "bucket": 1800,
-    "count": 2674,
+    "count": 1010,
+    "year": 2023,
+    "city": "bergen"
+  },
+  {
+    "bucket": 1860,
+    "count": 881,
+    "year": 2023,
+    "city": "bergen"
+  },
+  {
+    "bucket": 1920,
+    "count": 783,
     "year": 2023,
     "city": "bergen"
   },
   {
     "bucket": 1980,
-    "count": 2185,
+    "count": 766,
+    "year": 2023,
+    "city": "bergen"
+  },
+  {
+    "bucket": 2040,
+    "count": 743,
+    "year": 2023,
+    "city": "bergen"
+  },
+  {
+    "bucket": 2100,
+    "count": 676,
     "year": 2023,
     "city": "bergen"
   },
   {
     "bucket": 2160,
-    "count": 1882,
+    "count": 641,
+    "year": 2023,
+    "city": "bergen"
+  },
+  {
+    "bucket": 2220,
+    "count": 625,
+    "year": 2023,
+    "city": "bergen"
+  },
+  {
+    "bucket": 2280,
+    "count": 616,
     "year": 2023,
     "city": "bergen"
   },
   {
     "bucket": 2340,
-    "count": 1714,
+    "count": 598,
+    "year": 2023,
+    "city": "bergen"
+  },
+  {
+    "bucket": 2400,
+    "count": 544,
+    "year": 2023,
+    "city": "bergen"
+  },
+  {
+    "bucket": 2460,
+    "count": 572,
     "year": 2023,
     "city": "bergen"
   },
   {
     "bucket": 2520,
-    "count": 1512,
+    "count": 562,
+    "year": 2023,
+    "city": "bergen"
+  },
+  {
+    "bucket": 2580,
+    "count": 506,
+    "year": 2023,
+    "city": "bergen"
+  },
+  {
+    "bucket": 2640,
+    "count": 444,
     "year": 2023,
     "city": "bergen"
   },
   {
     "bucket": 2700,
-    "count": 1271,
+    "count": 445,
+    "year": 2023,
+    "city": "bergen"
+  },
+  {
+    "bucket": 2760,
+    "count": 411,
+    "year": 2023,
+    "city": "bergen"
+  },
+  {
+    "bucket": 2820,
+    "count": 415,
     "year": 2023,
     "city": "bergen"
   },
   {
     "bucket": 2880,
-    "count": 1152,
+    "count": 394,
+    "year": 2023,
+    "city": "bergen"
+  },
+  {
+    "bucket": 2940,
+    "count": 401,
+    "year": 2023,
+    "city": "bergen"
+  },
+  {
+    "bucket": 3000,
+    "count": 357,
     "year": 2023,
     "city": "bergen"
   },
   {
     "bucket": 3060,
-    "count": 1097,
+    "count": 337,
+    "year": 2023,
+    "city": "bergen"
+  },
+  {
+    "bucket": 3120,
+    "count": 370,
+    "year": 2023,
+    "city": "bergen"
+  },
+  {
+    "bucket": 3180,
+    "count": 390,
     "year": 2023,
     "city": "bergen"
   },
   {
     "bucket": 3240,
-    "count": 1067,
+    "count": 367,
+    "year": 2023,
+    "city": "bergen"
+  },
+  {
+    "bucket": 3300,
+    "count": 362,
+    "year": 2023,
+    "city": "bergen"
+  },
+  {
+    "bucket": 3360,
+    "count": 338,
     "year": 2023,
     "city": "bergen"
   },
   {
     "bucket": 3420,
-    "count": 868,
+    "count": 309,
+    "year": 2023,
+    "city": "bergen"
+  },
+  {
+    "bucket": 3480,
+    "count": 296,
+    "year": 2023,
+    "city": "bergen"
+  },
+  {
+    "bucket": 3540,
+    "count": 263,
     "year": 2023,
     "city": "bergen"
   },
   {
     "bucket": 3600,
-    "count": 453,
-    "year": 2023,
-    "city": "bergen"
-  },
-  {
-    "bucket": 3780,
-    "count": 292,
-    "year": 2023,
-    "city": "bergen"
-  },
-  {
-    "bucket": 3960,
-    "count": 209,
-    "year": 2023,
-    "city": "bergen"
-  },
-  {
-    "bucket": 4140,
     "count": 186,
     "year": 2023,
     "city": "bergen"
   },
   {
+    "bucket": 3660,
+    "count": 140,
+    "year": 2023,
+    "city": "bergen"
+  },
+  {
+    "bucket": 3720,
+    "count": 127,
+    "year": 2023,
+    "city": "bergen"
+  },
+  {
+    "bucket": 3780,
+    "count": 104,
+    "year": 2023,
+    "city": "bergen"
+  },
+  {
+    "bucket": 3840,
+    "count": 99,
+    "year": 2023,
+    "city": "bergen"
+  },
+  {
+    "bucket": 3900,
+    "count": 89,
+    "year": 2023,
+    "city": "bergen"
+  },
+  {
+    "bucket": 3960,
+    "count": 80,
+    "year": 2023,
+    "city": "bergen"
+  },
+  {
+    "bucket": 4020,
+    "count": 64,
+    "year": 2023,
+    "city": "bergen"
+  },
+  {
+    "bucket": 4080,
+    "count": 65,
+    "year": 2023,
+    "city": "bergen"
+  },
+  {
+    "bucket": 4140,
+    "count": 64,
+    "year": 2023,
+    "city": "bergen"
+  },
+  {
+    "bucket": 4200,
+    "count": 61,
+    "year": 2023,
+    "city": "bergen"
+  },
+  {
+    "bucket": 4260,
+    "count": 61,
+    "year": 2023,
+    "city": "bergen"
+  },
+  {
     "bucket": 4320,
-    "count": 157,
+    "count": 55,
+    "year": 2023,
+    "city": "bergen"
+  },
+  {
+    "bucket": 4380,
+    "count": 58,
+    "year": 2023,
+    "city": "bergen"
+  },
+  {
+    "bucket": 4440,
+    "count": 44,
     "year": 2023,
     "city": "bergen"
   },
   {
     "bucket": 4500,
-    "count": 139,
+    "count": 54,
     "year": 2023,
     "city": "bergen"
   },
   {
-    "bucket": 4680,
-    "count": 97,
+    "bucket": 4560,
+    "count": 43,
     "year": 2023,
     "city": "bergen"
   },
   {
-    "bucket": 4860,
-    "count": 105,
-    "year": 2023,
-    "city": "bergen"
-  },
-  {
-    "bucket": 5040,
-    "count": 91,
-    "year": 2023,
-    "city": "bergen"
-  },
-  {
-    "bucket": 5220,
-    "count": 84,
-    "year": 2023,
-    "city": "bergen"
-  },
-  {
-    "bucket": 5400,
-    "count": 83,
-    "year": 2023,
-    "city": "bergen"
-  },
-  {
-    "bucket": 5580,
-    "count": 61,
-    "year": 2023,
-    "city": "bergen"
-  },
-  {
-    "bucket": 5760,
-    "count": 45,
-    "year": 2023,
-    "city": "bergen"
-  },
-  {
-    "bucket": 5940,
-    "count": 61,
-    "year": 2023,
-    "city": "bergen"
-  },
-  {
-    "bucket": 6120,
-    "count": 41,
-    "year": 2023,
-    "city": "bergen"
-  },
-  {
-    "bucket": 6300,
-    "count": 53,
-    "year": 2023,
-    "city": "bergen"
-  },
-  {
-    "bucket": 6480,
+    "bucket": 4620,
     "count": 42,
     "year": 2023,
     "city": "bergen"
   },
   {
-    "bucket": 6660,
+    "bucket": 4680,
+    "count": 41,
+    "year": 2023,
+    "city": "bergen"
+  },
+  {
+    "bucket": 4740,
+    "count": 31,
+    "year": 2023,
+    "city": "bergen"
+  },
+  {
+    "bucket": 4800,
+    "count": 25,
+    "year": 2023,
+    "city": "bergen"
+  },
+  {
+    "bucket": 4860,
+    "count": 40,
+    "year": 2023,
+    "city": "bergen"
+  },
+  {
+    "bucket": 4920,
     "count": 29,
     "year": 2023,
     "city": "bergen"
   },
   {
-    "bucket": 6840,
+    "bucket": 4980,
+    "count": 36,
+    "year": 2023,
+    "city": "bergen"
+  },
+  {
+    "bucket": 5040,
+    "count": 35,
+    "year": 2023,
+    "city": "bergen"
+  },
+  {
+    "bucket": 5100,
+    "count": 33,
+    "year": 2023,
+    "city": "bergen"
+  },
+  {
+    "bucket": 5160,
+    "count": 23,
+    "year": 2023,
+    "city": "bergen"
+  },
+  {
+    "bucket": 5220,
     "count": 27,
     "year": 2023,
     "city": "bergen"
   },
   {
+    "bucket": 5280,
+    "count": 24,
+    "year": 2023,
+    "city": "bergen"
+  },
+  {
+    "bucket": 5340,
+    "count": 33,
+    "year": 2023,
+    "city": "bergen"
+  },
+  {
+    "bucket": 5400,
+    "count": 30,
+    "year": 2023,
+    "city": "bergen"
+  },
+  {
+    "bucket": 5460,
+    "count": 36,
+    "year": 2023,
+    "city": "bergen"
+  },
+  {
+    "bucket": 5520,
+    "count": 17,
+    "year": 2023,
+    "city": "bergen"
+  },
+  {
+    "bucket": 5580,
+    "count": 18,
+    "year": 2023,
+    "city": "bergen"
+  },
+  {
+    "bucket": 5640,
+    "count": 25,
+    "year": 2023,
+    "city": "bergen"
+  },
+  {
+    "bucket": 5700,
+    "count": 18,
+    "year": 2023,
+    "city": "bergen"
+  },
+  {
+    "bucket": 5760,
+    "count": 15,
+    "year": 2023,
+    "city": "bergen"
+  },
+  {
+    "bucket": 5820,
+    "count": 14,
+    "year": 2023,
+    "city": "bergen"
+  },
+  {
+    "bucket": 5880,
+    "count": 16,
+    "year": 2023,
+    "city": "bergen"
+  },
+  {
+    "bucket": 5940,
+    "count": 26,
+    "year": 2023,
+    "city": "bergen"
+  },
+  {
+    "bucket": 6000,
+    "count": 17,
+    "year": 2023,
+    "city": "bergen"
+  },
+  {
+    "bucket": 6060,
+    "count": 18,
+    "year": 2023,
+    "city": "bergen"
+  },
+  {
+    "bucket": 6120,
+    "count": 15,
+    "year": 2023,
+    "city": "bergen"
+  },
+  {
+    "bucket": 6180,
+    "count": 11,
+    "year": 2023,
+    "city": "bergen"
+  },
+  {
+    "bucket": 6240,
+    "count": 15,
+    "year": 2023,
+    "city": "bergen"
+  },
+  {
+    "bucket": 6300,
+    "count": 13,
+    "year": 2023,
+    "city": "bergen"
+  },
+  {
+    "bucket": 6360,
+    "count": 21,
+    "year": 2023,
+    "city": "bergen"
+  },
+  {
+    "bucket": 6420,
+    "count": 19,
+    "year": 2023,
+    "city": "bergen"
+  },
+  {
+    "bucket": 6480,
+    "count": 15,
+    "year": 2023,
+    "city": "bergen"
+  },
+  {
+    "bucket": 6540,
+    "count": 17,
+    "year": 2023,
+    "city": "bergen"
+  },
+  {
+    "bucket": 6600,
+    "count": 10,
+    "year": 2023,
+    "city": "bergen"
+  },
+  {
+    "bucket": 6660,
+    "count": 9,
+    "year": 2023,
+    "city": "bergen"
+  },
+  {
+    "bucket": 6720,
+    "count": 15,
+    "year": 2023,
+    "city": "bergen"
+  },
+  {
+    "bucket": 6780,
+    "count": 5,
+    "year": 2023,
+    "city": "bergen"
+  },
+  {
+    "bucket": 6840,
+    "count": 9,
+    "year": 2023,
+    "city": "bergen"
+  },
+  {
+    "bucket": 6900,
+    "count": 7,
+    "year": 2023,
+    "city": "bergen"
+  },
+  {
+    "bucket": 6960,
+    "count": 11,
+    "year": 2023,
+    "city": "bergen"
+  },
+  {
     "bucket": 7020,
-    "count": 35,
+    "count": 8,
+    "year": 2023,
+    "city": "bergen"
+  },
+  {
+    "bucket": 7080,
+    "count": 10,
+    "year": 2023,
+    "city": "bergen"
+  },
+  {
+    "bucket": 7140,
+    "count": 17,
     "year": 2023,
     "city": "bergen"
   },
@@ -1476,242 +4320,716 @@
     "city": "bergen"
   },
   {
-    "bucket": 0,
-    "count": 26061,
+    "bucket": 60,
+    "count": 6432,
+    "year": 2024,
+    "city": "bergen"
+  },
+  {
+    "bucket": 120,
+    "count": 19629,
     "year": 2024,
     "city": "bergen"
   },
   {
     "bucket": 180,
-    "count": 111609,
+    "count": 34353,
+    "year": 2024,
+    "city": "bergen"
+  },
+  {
+    "bucket": 240,
+    "count": 38059,
+    "year": 2024,
+    "city": "bergen"
+  },
+  {
+    "bucket": 300,
+    "count": 39197,
     "year": 2024,
     "city": "bergen"
   },
   {
     "bucket": 360,
-    "count": 103422,
+    "count": 38077,
+    "year": 2024,
+    "city": "bergen"
+  },
+  {
+    "bucket": 420,
+    "count": 35062,
+    "year": 2024,
+    "city": "bergen"
+  },
+  {
+    "bucket": 480,
+    "count": 30283,
     "year": 2024,
     "city": "bergen"
   },
   {
     "bucket": 540,
-    "count": 64020,
+    "count": 25246,
+    "year": 2024,
+    "city": "bergen"
+  },
+  {
+    "bucket": 600,
+    "count": 21224,
+    "year": 2024,
+    "city": "bergen"
+  },
+  {
+    "bucket": 660,
+    "count": 17550,
     "year": 2024,
     "city": "bergen"
   },
   {
     "bucket": 720,
-    "count": 36061,
+    "count": 14495,
+    "year": 2024,
+    "city": "bergen"
+  },
+  {
+    "bucket": 780,
+    "count": 11786,
+    "year": 2024,
+    "city": "bergen"
+  },
+  {
+    "bucket": 840,
+    "count": 9780,
     "year": 2024,
     "city": "bergen"
   },
   {
     "bucket": 900,
-    "count": 19841,
+    "count": 7998,
+    "year": 2024,
+    "city": "bergen"
+  },
+  {
+    "bucket": 960,
+    "count": 6476,
+    "year": 2024,
+    "city": "bergen"
+  },
+  {
+    "bucket": 1020,
+    "count": 5367,
     "year": 2024,
     "city": "bergen"
   },
   {
     "bucket": 1080,
-    "count": 10818,
+    "count": 4329,
+    "year": 2024,
+    "city": "bergen"
+  },
+  {
+    "bucket": 1140,
+    "count": 3569,
+    "year": 2024,
+    "city": "bergen"
+  },
+  {
+    "bucket": 1200,
+    "count": 2920,
     "year": 2024,
     "city": "bergen"
   },
   {
     "bucket": 1260,
-    "count": 6363,
+    "count": 2440,
+    "year": 2024,
+    "city": "bergen"
+  },
+  {
+    "bucket": 1320,
+    "count": 2087,
+    "year": 2024,
+    "city": "bergen"
+  },
+  {
+    "bucket": 1380,
+    "count": 1836,
     "year": 2024,
     "city": "bergen"
   },
   {
     "bucket": 1440,
-    "count": 4214,
+    "count": 1601,
+    "year": 2024,
+    "city": "bergen"
+  },
+  {
+    "bucket": 1500,
+    "count": 1375,
+    "year": 2024,
+    "city": "bergen"
+  },
+  {
+    "bucket": 1560,
+    "count": 1238,
     "year": 2024,
     "city": "bergen"
   },
   {
     "bucket": 1620,
-    "count": 2928,
+    "count": 1027,
+    "year": 2024,
+    "city": "bergen"
+  },
+  {
+    "bucket": 1680,
+    "count": 1007,
+    "year": 2024,
+    "city": "bergen"
+  },
+  {
+    "bucket": 1740,
+    "count": 894,
     "year": 2024,
     "city": "bergen"
   },
   {
     "bucket": 1800,
-    "count": 2252,
+    "count": 787,
+    "year": 2024,
+    "city": "bergen"
+  },
+  {
+    "bucket": 1860,
+    "count": 740,
+    "year": 2024,
+    "city": "bergen"
+  },
+  {
+    "bucket": 1920,
+    "count": 725,
     "year": 2024,
     "city": "bergen"
   },
   {
     "bucket": 1980,
-    "count": 1769,
+    "count": 627,
+    "year": 2024,
+    "city": "bergen"
+  },
+  {
+    "bucket": 2040,
+    "count": 579,
+    "year": 2024,
+    "city": "bergen"
+  },
+  {
+    "bucket": 2100,
+    "count": 563,
     "year": 2024,
     "city": "bergen"
   },
   {
     "bucket": 2160,
-    "count": 1540,
+    "count": 486,
+    "year": 2024,
+    "city": "bergen"
+  },
+  {
+    "bucket": 2220,
+    "count": 566,
+    "year": 2024,
+    "city": "bergen"
+  },
+  {
+    "bucket": 2280,
+    "count": 488,
     "year": 2024,
     "city": "bergen"
   },
   {
     "bucket": 2340,
-    "count": 1374,
+    "count": 506,
+    "year": 2024,
+    "city": "bergen"
+  },
+  {
+    "bucket": 2400,
+    "count": 451,
+    "year": 2024,
+    "city": "bergen"
+  },
+  {
+    "bucket": 2460,
+    "count": 417,
     "year": 2024,
     "city": "bergen"
   },
   {
     "bucket": 2520,
-    "count": 1233,
+    "count": 412,
+    "year": 2024,
+    "city": "bergen"
+  },
+  {
+    "bucket": 2580,
+    "count": 416,
+    "year": 2024,
+    "city": "bergen"
+  },
+  {
+    "bucket": 2640,
+    "count": 405,
     "year": 2024,
     "city": "bergen"
   },
   {
     "bucket": 2700,
-    "count": 1029,
+    "count": 340,
+    "year": 2024,
+    "city": "bergen"
+  },
+  {
+    "bucket": 2760,
+    "count": 360,
+    "year": 2024,
+    "city": "bergen"
+  },
+  {
+    "bucket": 2820,
+    "count": 329,
     "year": 2024,
     "city": "bergen"
   },
   {
     "bucket": 2880,
-    "count": 1060,
+    "count": 335,
+    "year": 2024,
+    "city": "bergen"
+  },
+  {
+    "bucket": 2940,
+    "count": 340,
+    "year": 2024,
+    "city": "bergen"
+  },
+  {
+    "bucket": 3000,
+    "count": 385,
     "year": 2024,
     "city": "bergen"
   },
   {
     "bucket": 3060,
-    "count": 1089,
+    "count": 362,
+    "year": 2024,
+    "city": "bergen"
+  },
+  {
+    "bucket": 3120,
+    "count": 355,
+    "year": 2024,
+    "city": "bergen"
+  },
+  {
+    "bucket": 3180,
+    "count": 372,
     "year": 2024,
     "city": "bergen"
   },
   {
     "bucket": 3240,
-    "count": 1046,
+    "count": 356,
+    "year": 2024,
+    "city": "bergen"
+  },
+  {
+    "bucket": 3300,
+    "count": 376,
+    "year": 2024,
+    "city": "bergen"
+  },
+  {
+    "bucket": 3360,
+    "count": 314,
     "year": 2024,
     "city": "bergen"
   },
   {
     "bucket": 3420,
-    "count": 790,
+    "count": 308,
+    "year": 2024,
+    "city": "bergen"
+  },
+  {
+    "bucket": 3480,
+    "count": 265,
+    "year": 2024,
+    "city": "bergen"
+  },
+  {
+    "bucket": 3540,
+    "count": 217,
     "year": 2024,
     "city": "bergen"
   },
   {
     "bucket": 3600,
-    "count": 489,
+    "count": 210,
+    "year": 2024,
+    "city": "bergen"
+  },
+  {
+    "bucket": 3660,
+    "count": 155,
+    "year": 2024,
+    "city": "bergen"
+  },
+  {
+    "bucket": 3720,
+    "count": 124,
     "year": 2024,
     "city": "bergen"
   },
   {
     "bucket": 3780,
-    "count": 291,
+    "count": 117,
+    "year": 2024,
+    "city": "bergen"
+  },
+  {
+    "bucket": 3840,
+    "count": 101,
+    "year": 2024,
+    "city": "bergen"
+  },
+  {
+    "bucket": 3900,
+    "count": 73,
     "year": 2024,
     "city": "bergen"
   },
   {
     "bucket": 3960,
-    "count": 267,
+    "count": 82,
+    "year": 2024,
+    "city": "bergen"
+  },
+  {
+    "bucket": 4020,
+    "count": 85,
+    "year": 2024,
+    "city": "bergen"
+  },
+  {
+    "bucket": 4080,
+    "count": 100,
     "year": 2024,
     "city": "bergen"
   },
   {
     "bucket": 4140,
-    "count": 244,
+    "count": 83,
+    "year": 2024,
+    "city": "bergen"
+  },
+  {
+    "bucket": 4200,
+    "count": 87,
+    "year": 2024,
+    "city": "bergen"
+  },
+  {
+    "bucket": 4260,
+    "count": 74,
     "year": 2024,
     "city": "bergen"
   },
   {
     "bucket": 4320,
-    "count": 221,
+    "count": 77,
+    "year": 2024,
+    "city": "bergen"
+  },
+  {
+    "bucket": 4380,
+    "count": 83,
+    "year": 2024,
+    "city": "bergen"
+  },
+  {
+    "bucket": 4440,
+    "count": 61,
     "year": 2024,
     "city": "bergen"
   },
   {
     "bucket": 4500,
-    "count": 164,
+    "count": 47,
     "year": 2024,
     "city": "bergen"
   },
   {
-    "bucket": 4680,
-    "count": 139,
-    "year": 2024,
-    "city": "bergen"
-  },
-  {
-    "bucket": 4860,
-    "count": 95,
-    "year": 2024,
-    "city": "bergen"
-  },
-  {
-    "bucket": 5040,
-    "count": 113,
-    "year": 2024,
-    "city": "bergen"
-  },
-  {
-    "bucket": 5220,
-    "count": 94,
-    "year": 2024,
-    "city": "bergen"
-  },
-  {
-    "bucket": 5400,
-    "count": 116,
-    "year": 2024,
-    "city": "bergen"
-  },
-  {
-    "bucket": 5580,
-    "count": 81,
-    "year": 2024,
-    "city": "bergen"
-  },
-  {
-    "bucket": 5760,
-    "count": 84,
-    "year": 2024,
-    "city": "bergen"
-  },
-  {
-    "bucket": 5940,
+    "bucket": 4560,
     "count": 63,
     "year": 2024,
     "city": "bergen"
   },
   {
-    "bucket": 6120,
-    "count": 40,
+    "bucket": 4620,
+    "count": 54,
     "year": 2024,
     "city": "bergen"
   },
   {
-    "bucket": 6300,
-    "count": 66,
-    "year": 2024,
-    "city": "bergen"
-  },
-  {
-    "bucket": 6480,
+    "bucket": 4680,
     "count": 50,
     "year": 2024,
     "city": "bergen"
   },
   {
+    "bucket": 4740,
+    "count": 41,
+    "year": 2024,
+    "city": "bergen"
+  },
+  {
+    "bucket": 4800,
+    "count": 48,
+    "year": 2024,
+    "city": "bergen"
+  },
+  {
+    "bucket": 4860,
+    "count": 34,
+    "year": 2024,
+    "city": "bergen"
+  },
+  {
+    "bucket": 4920,
+    "count": 28,
+    "year": 2024,
+    "city": "bergen"
+  },
+  {
+    "bucket": 4980,
+    "count": 33,
+    "year": 2024,
+    "city": "bergen"
+  },
+  {
+    "bucket": 5040,
+    "count": 41,
+    "year": 2024,
+    "city": "bergen"
+  },
+  {
+    "bucket": 5100,
+    "count": 36,
+    "year": 2024,
+    "city": "bergen"
+  },
+  {
+    "bucket": 5160,
+    "count": 36,
+    "year": 2024,
+    "city": "bergen"
+  },
+  {
+    "bucket": 5220,
+    "count": 33,
+    "year": 2024,
+    "city": "bergen"
+  },
+  {
+    "bucket": 5280,
+    "count": 31,
+    "year": 2024,
+    "city": "bergen"
+  },
+  {
+    "bucket": 5340,
+    "count": 30,
+    "year": 2024,
+    "city": "bergen"
+  },
+  {
+    "bucket": 5400,
+    "count": 45,
+    "year": 2024,
+    "city": "bergen"
+  },
+  {
+    "bucket": 5460,
+    "count": 37,
+    "year": 2024,
+    "city": "bergen"
+  },
+  {
+    "bucket": 5520,
+    "count": 34,
+    "year": 2024,
+    "city": "bergen"
+  },
+  {
+    "bucket": 5580,
+    "count": 21,
+    "year": 2024,
+    "city": "bergen"
+  },
+  {
+    "bucket": 5640,
+    "count": 32,
+    "year": 2024,
+    "city": "bergen"
+  },
+  {
+    "bucket": 5700,
+    "count": 28,
+    "year": 2024,
+    "city": "bergen"
+  },
+  {
+    "bucket": 5760,
+    "count": 25,
+    "year": 2024,
+    "city": "bergen"
+  },
+  {
+    "bucket": 5820,
+    "count": 27,
+    "year": 2024,
+    "city": "bergen"
+  },
+  {
+    "bucket": 5880,
+    "count": 32,
+    "year": 2024,
+    "city": "bergen"
+  },
+  {
+    "bucket": 5940,
+    "count": 21,
+    "year": 2024,
+    "city": "bergen"
+  },
+  {
+    "bucket": 6000,
+    "count": 25,
+    "year": 2024,
+    "city": "bergen"
+  },
+  {
+    "bucket": 6060,
+    "count": 17,
+    "year": 2024,
+    "city": "bergen"
+  },
+  {
+    "bucket": 6120,
+    "count": 13,
+    "year": 2024,
+    "city": "bergen"
+  },
+  {
+    "bucket": 6180,
+    "count": 17,
+    "year": 2024,
+    "city": "bergen"
+  },
+  {
+    "bucket": 6240,
+    "count": 10,
+    "year": 2024,
+    "city": "bergen"
+  },
+  {
+    "bucket": 6300,
+    "count": 22,
+    "year": 2024,
+    "city": "bergen"
+  },
+  {
+    "bucket": 6360,
+    "count": 20,
+    "year": 2024,
+    "city": "bergen"
+  },
+  {
+    "bucket": 6420,
+    "count": 24,
+    "year": 2024,
+    "city": "bergen"
+  },
+  {
+    "bucket": 6480,
+    "count": 12,
+    "year": 2024,
+    "city": "bergen"
+  },
+  {
+    "bucket": 6540,
+    "count": 19,
+    "year": 2024,
+    "city": "bergen"
+  },
+  {
+    "bucket": 6600,
+    "count": 19,
+    "year": 2024,
+    "city": "bergen"
+  },
+  {
     "bucket": 6660,
-    "count": 42,
+    "count": 15,
+    "year": 2024,
+    "city": "bergen"
+  },
+  {
+    "bucket": 6720,
+    "count": 12,
+    "year": 2024,
+    "city": "bergen"
+  },
+  {
+    "bucket": 6780,
+    "count": 15,
     "year": 2024,
     "city": "bergen"
   },
   {
     "bucket": 6840,
-    "count": 49,
+    "count": 14,
+    "year": 2024,
+    "city": "bergen"
+  },
+  {
+    "bucket": 6900,
+    "count": 16,
+    "year": 2024,
+    "city": "bergen"
+  },
+  {
+    "bucket": 6960,
+    "count": 19,
     "year": 2024,
     "city": "bergen"
   },
   {
     "bucket": 7020,
-    "count": 53,
+    "count": 19,
+    "year": 2024,
+    "city": "bergen"
+  },
+  {
+    "bucket": 7080,
+    "count": 15,
+    "year": 2024,
+    "city": "bergen"
+  },
+  {
+    "bucket": 7140,
+    "count": 19,
     "year": 2024,
     "city": "bergen"
   },
@@ -1722,242 +5040,716 @@
     "city": "bergen"
   },
   {
-    "bucket": 0,
-    "count": 16286,
+    "bucket": 60,
+    "count": 3870,
+    "year": 2025,
+    "city": "bergen"
+  },
+  {
+    "bucket": 120,
+    "count": 12416,
     "year": 2025,
     "city": "bergen"
   },
   {
     "bucket": 180,
-    "count": 71584,
+    "count": 21237,
+    "year": 2025,
+    "city": "bergen"
+  },
+  {
+    "bucket": 240,
+    "count": 24511,
+    "year": 2025,
+    "city": "bergen"
+  },
+  {
+    "bucket": 300,
+    "count": 25836,
     "year": 2025,
     "city": "bergen"
   },
   {
     "bucket": 360,
-    "count": 70911,
+    "count": 25573,
+    "year": 2025,
+    "city": "bergen"
+  },
+  {
+    "bucket": 420,
+    "count": 23705,
+    "year": 2025,
+    "city": "bergen"
+  },
+  {
+    "bucket": 480,
+    "count": 21633,
     "year": 2025,
     "city": "bergen"
   },
   {
     "bucket": 540,
-    "count": 45406,
+    "count": 18005,
+    "year": 2025,
+    "city": "bergen"
+  },
+  {
+    "bucket": 600,
+    "count": 14984,
+    "year": 2025,
+    "city": "bergen"
+  },
+  {
+    "bucket": 660,
+    "count": 12417,
     "year": 2025,
     "city": "bergen"
   },
   {
     "bucket": 720,
-    "count": 24510,
+    "count": 9683,
+    "year": 2025,
+    "city": "bergen"
+  },
+  {
+    "bucket": 780,
+    "count": 8165,
+    "year": 2025,
+    "city": "bergen"
+  },
+  {
+    "bucket": 840,
+    "count": 6662,
     "year": 2025,
     "city": "bergen"
   },
   {
     "bucket": 900,
-    "count": 13547,
+    "count": 5449,
+    "year": 2025,
+    "city": "bergen"
+  },
+  {
+    "bucket": 960,
+    "count": 4503,
+    "year": 2025,
+    "city": "bergen"
+  },
+  {
+    "bucket": 1020,
+    "count": 3595,
     "year": 2025,
     "city": "bergen"
   },
   {
     "bucket": 1080,
-    "count": 7688,
+    "count": 3097,
+    "year": 2025,
+    "city": "bergen"
+  },
+  {
+    "bucket": 1140,
+    "count": 2506,
+    "year": 2025,
+    "city": "bergen"
+  },
+  {
+    "bucket": 1200,
+    "count": 2085,
     "year": 2025,
     "city": "bergen"
   },
   {
     "bucket": 1260,
-    "count": 4512,
+    "count": 1787,
+    "year": 2025,
+    "city": "bergen"
+  },
+  {
+    "bucket": 1320,
+    "count": 1474,
+    "year": 2025,
+    "city": "bergen"
+  },
+  {
+    "bucket": 1380,
+    "count": 1251,
     "year": 2025,
     "city": "bergen"
   },
   {
     "bucket": 1440,
-    "count": 2926,
+    "count": 1059,
+    "year": 2025,
+    "city": "bergen"
+  },
+  {
+    "bucket": 1500,
+    "count": 970,
+    "year": 2025,
+    "city": "bergen"
+  },
+  {
+    "bucket": 1560,
+    "count": 897,
     "year": 2025,
     "city": "bergen"
   },
   {
     "bucket": 1620,
-    "count": 2117,
+    "count": 769,
+    "year": 2025,
+    "city": "bergen"
+  },
+  {
+    "bucket": 1680,
+    "count": 718,
+    "year": 2025,
+    "city": "bergen"
+  },
+  {
+    "bucket": 1740,
+    "count": 630,
     "year": 2025,
     "city": "bergen"
   },
   {
     "bucket": 1800,
-    "count": 1530,
+    "count": 525,
+    "year": 2025,
+    "city": "bergen"
+  },
+  {
+    "bucket": 1860,
+    "count": 532,
+    "year": 2025,
+    "city": "bergen"
+  },
+  {
+    "bucket": 1920,
+    "count": 473,
     "year": 2025,
     "city": "bergen"
   },
   {
     "bucket": 1980,
-    "count": 1216,
+    "count": 446,
+    "year": 2025,
+    "city": "bergen"
+  },
+  {
+    "bucket": 2040,
+    "count": 391,
+    "year": 2025,
+    "city": "bergen"
+  },
+  {
+    "bucket": 2100,
+    "count": 379,
     "year": 2025,
     "city": "bergen"
   },
   {
     "bucket": 2160,
-    "count": 983,
+    "count": 336,
+    "year": 2025,
+    "city": "bergen"
+  },
+  {
+    "bucket": 2220,
+    "count": 336,
+    "year": 2025,
+    "city": "bergen"
+  },
+  {
+    "bucket": 2280,
+    "count": 311,
     "year": 2025,
     "city": "bergen"
   },
   {
     "bucket": 2340,
-    "count": 886,
+    "count": 299,
+    "year": 2025,
+    "city": "bergen"
+  },
+  {
+    "bucket": 2400,
+    "count": 287,
+    "year": 2025,
+    "city": "bergen"
+  },
+  {
+    "bucket": 2460,
+    "count": 300,
     "year": 2025,
     "city": "bergen"
   },
   {
     "bucket": 2520,
-    "count": 864,
+    "count": 319,
+    "year": 2025,
+    "city": "bergen"
+  },
+  {
+    "bucket": 2580,
+    "count": 254,
+    "year": 2025,
+    "city": "bergen"
+  },
+  {
+    "bucket": 2640,
+    "count": 291,
     "year": 2025,
     "city": "bergen"
   },
   {
     "bucket": 2700,
-    "count": 751,
+    "count": 232,
+    "year": 2025,
+    "city": "bergen"
+  },
+  {
+    "bucket": 2760,
+    "count": 253,
+    "year": 2025,
+    "city": "bergen"
+  },
+  {
+    "bucket": 2820,
+    "count": 266,
     "year": 2025,
     "city": "bergen"
   },
   {
     "bucket": 2880,
-    "count": 667,
+    "count": 207,
+    "year": 2025,
+    "city": "bergen"
+  },
+  {
+    "bucket": 2940,
+    "count": 208,
+    "year": 2025,
+    "city": "bergen"
+  },
+  {
+    "bucket": 3000,
+    "count": 252,
     "year": 2025,
     "city": "bergen"
   },
   {
     "bucket": 3060,
-    "count": 693,
+    "count": 232,
+    "year": 2025,
+    "city": "bergen"
+  },
+  {
+    "bucket": 3120,
+    "count": 229,
+    "year": 2025,
+    "city": "bergen"
+  },
+  {
+    "bucket": 3180,
+    "count": 232,
     "year": 2025,
     "city": "bergen"
   },
   {
     "bucket": 3240,
-    "count": 660,
+    "count": 229,
+    "year": 2025,
+    "city": "bergen"
+  },
+  {
+    "bucket": 3300,
+    "count": 204,
+    "year": 2025,
+    "city": "bergen"
+  },
+  {
+    "bucket": 3360,
+    "count": 227,
     "year": 2025,
     "city": "bergen"
   },
   {
     "bucket": 3420,
-    "count": 576,
+    "count": 214,
+    "year": 2025,
+    "city": "bergen"
+  },
+  {
+    "bucket": 3480,
+    "count": 211,
+    "year": 2025,
+    "city": "bergen"
+  },
+  {
+    "bucket": 3540,
+    "count": 151,
     "year": 2025,
     "city": "bergen"
   },
   {
     "bucket": 3600,
-    "count": 330,
+    "count": 120,
+    "year": 2025,
+    "city": "bergen"
+  },
+  {
+    "bucket": 3660,
+    "count": 113,
+    "year": 2025,
+    "city": "bergen"
+  },
+  {
+    "bucket": 3720,
+    "count": 97,
     "year": 2025,
     "city": "bergen"
   },
   {
     "bucket": 3780,
-    "count": 247,
-    "year": 2025,
-    "city": "bergen"
-  },
-  {
-    "bucket": 3960,
-    "count": 241,
-    "year": 2025,
-    "city": "bergen"
-  },
-  {
-    "bucket": 4140,
-    "count": 206,
-    "year": 2025,
-    "city": "bergen"
-  },
-  {
-    "bucket": 4320,
-    "count": 188,
-    "year": 2025,
-    "city": "bergen"
-  },
-  {
-    "bucket": 4500,
-    "count": 172,
-    "year": 2025,
-    "city": "bergen"
-  },
-  {
-    "bucket": 4680,
-    "count": 148,
-    "year": 2025,
-    "city": "bergen"
-  },
-  {
-    "bucket": 4860,
-    "count": 119,
-    "year": 2025,
-    "city": "bergen"
-  },
-  {
-    "bucket": 5040,
-    "count": 109,
-    "year": 2025,
-    "city": "bergen"
-  },
-  {
-    "bucket": 5220,
-    "count": 105,
-    "year": 2025,
-    "city": "bergen"
-  },
-  {
-    "bucket": 5400,
-    "count": 104,
-    "year": 2025,
-    "city": "bergen"
-  },
-  {
-    "bucket": 5580,
-    "count": 70,
-    "year": 2025,
-    "city": "bergen"
-  },
-  {
-    "bucket": 5760,
-    "count": 90,
-    "year": 2025,
-    "city": "bergen"
-  },
-  {
-    "bucket": 5940,
-    "count": 66,
-    "year": 2025,
-    "city": "bergen"
-  },
-  {
-    "bucket": 6120,
-    "count": 68,
-    "year": 2025,
-    "city": "bergen"
-  },
-  {
-    "bucket": 6300,
-    "count": 56,
-    "year": 2025,
-    "city": "bergen"
-  },
-  {
-    "bucket": 6480,
     "count": 83,
     "year": 2025,
     "city": "bergen"
   },
   {
+    "bucket": 3840,
+    "count": 85,
+    "year": 2025,
+    "city": "bergen"
+  },
+  {
+    "bucket": 3900,
+    "count": 79,
+    "year": 2025,
+    "city": "bergen"
+  },
+  {
+    "bucket": 3960,
+    "count": 77,
+    "year": 2025,
+    "city": "bergen"
+  },
+  {
+    "bucket": 4020,
+    "count": 94,
+    "year": 2025,
+    "city": "bergen"
+  },
+  {
+    "bucket": 4080,
+    "count": 70,
+    "year": 2025,
+    "city": "bergen"
+  },
+  {
+    "bucket": 4140,
+    "count": 67,
+    "year": 2025,
+    "city": "bergen"
+  },
+  {
+    "bucket": 4200,
+    "count": 77,
+    "year": 2025,
+    "city": "bergen"
+  },
+  {
+    "bucket": 4260,
+    "count": 62,
+    "year": 2025,
+    "city": "bergen"
+  },
+  {
+    "bucket": 4320,
+    "count": 63,
+    "year": 2025,
+    "city": "bergen"
+  },
+  {
+    "bucket": 4380,
+    "count": 55,
+    "year": 2025,
+    "city": "bergen"
+  },
+  {
+    "bucket": 4440,
+    "count": 70,
+    "year": 2025,
+    "city": "bergen"
+  },
+  {
+    "bucket": 4500,
+    "count": 60,
+    "year": 2025,
+    "city": "bergen"
+  },
+  {
+    "bucket": 4560,
+    "count": 52,
+    "year": 2025,
+    "city": "bergen"
+  },
+  {
+    "bucket": 4620,
+    "count": 60,
+    "year": 2025,
+    "city": "bergen"
+  },
+  {
+    "bucket": 4680,
+    "count": 38,
+    "year": 2025,
+    "city": "bergen"
+  },
+  {
+    "bucket": 4740,
+    "count": 60,
+    "year": 2025,
+    "city": "bergen"
+  },
+  {
+    "bucket": 4800,
+    "count": 50,
+    "year": 2025,
+    "city": "bergen"
+  },
+  {
+    "bucket": 4860,
+    "count": 45,
+    "year": 2025,
+    "city": "bergen"
+  },
+  {
+    "bucket": 4920,
+    "count": 41,
+    "year": 2025,
+    "city": "bergen"
+  },
+  {
+    "bucket": 4980,
+    "count": 33,
+    "year": 2025,
+    "city": "bergen"
+  },
+  {
+    "bucket": 5040,
+    "count": 36,
+    "year": 2025,
+    "city": "bergen"
+  },
+  {
+    "bucket": 5100,
+    "count": 38,
+    "year": 2025,
+    "city": "bergen"
+  },
+  {
+    "bucket": 5160,
+    "count": 35,
+    "year": 2025,
+    "city": "bergen"
+  },
+  {
+    "bucket": 5220,
+    "count": 43,
+    "year": 2025,
+    "city": "bergen"
+  },
+  {
+    "bucket": 5280,
+    "count": 38,
+    "year": 2025,
+    "city": "bergen"
+  },
+  {
+    "bucket": 5340,
+    "count": 24,
+    "year": 2025,
+    "city": "bergen"
+  },
+  {
+    "bucket": 5400,
+    "count": 38,
+    "year": 2025,
+    "city": "bergen"
+  },
+  {
+    "bucket": 5460,
+    "count": 33,
+    "year": 2025,
+    "city": "bergen"
+  },
+  {
+    "bucket": 5520,
+    "count": 33,
+    "year": 2025,
+    "city": "bergen"
+  },
+  {
+    "bucket": 5580,
+    "count": 28,
+    "year": 2025,
+    "city": "bergen"
+  },
+  {
+    "bucket": 5640,
+    "count": 19,
+    "year": 2025,
+    "city": "bergen"
+  },
+  {
+    "bucket": 5700,
+    "count": 23,
+    "year": 2025,
+    "city": "bergen"
+  },
+  {
+    "bucket": 5760,
+    "count": 22,
+    "year": 2025,
+    "city": "bergen"
+  },
+  {
+    "bucket": 5820,
+    "count": 31,
+    "year": 2025,
+    "city": "bergen"
+  },
+  {
+    "bucket": 5880,
+    "count": 37,
+    "year": 2025,
+    "city": "bergen"
+  },
+  {
+    "bucket": 5940,
+    "count": 23,
+    "year": 2025,
+    "city": "bergen"
+  },
+  {
+    "bucket": 6000,
+    "count": 23,
+    "year": 2025,
+    "city": "bergen"
+  },
+  {
+    "bucket": 6060,
+    "count": 20,
+    "year": 2025,
+    "city": "bergen"
+  },
+  {
+    "bucket": 6120,
+    "count": 23,
+    "year": 2025,
+    "city": "bergen"
+  },
+  {
+    "bucket": 6180,
+    "count": 23,
+    "year": 2025,
+    "city": "bergen"
+  },
+  {
+    "bucket": 6240,
+    "count": 22,
+    "year": 2025,
+    "city": "bergen"
+  },
+  {
+    "bucket": 6300,
+    "count": 21,
+    "year": 2025,
+    "city": "bergen"
+  },
+  {
+    "bucket": 6360,
+    "count": 16,
+    "year": 2025,
+    "city": "bergen"
+  },
+  {
+    "bucket": 6420,
+    "count": 19,
+    "year": 2025,
+    "city": "bergen"
+  },
+  {
+    "bucket": 6480,
+    "count": 30,
+    "year": 2025,
+    "city": "bergen"
+  },
+  {
+    "bucket": 6540,
+    "count": 24,
+    "year": 2025,
+    "city": "bergen"
+  },
+  {
+    "bucket": 6600,
+    "count": 29,
+    "year": 2025,
+    "city": "bergen"
+  },
+  {
     "bucket": 6660,
-    "count": 54,
+    "count": 20,
+    "year": 2025,
+    "city": "bergen"
+  },
+  {
+    "bucket": 6720,
+    "count": 16,
+    "year": 2025,
+    "city": "bergen"
+  },
+  {
+    "bucket": 6780,
+    "count": 18,
     "year": 2025,
     "city": "bergen"
   },
   {
     "bucket": 6840,
-    "count": 61,
+    "count": 20,
+    "year": 2025,
+    "city": "bergen"
+  },
+  {
+    "bucket": 6900,
+    "count": 20,
+    "year": 2025,
+    "city": "bergen"
+  },
+  {
+    "bucket": 6960,
+    "count": 21,
     "year": 2025,
     "city": "bergen"
   },
   {
     "bucket": 7020,
-    "count": 62,
+    "count": 23,
+    "year": 2025,
+    "city": "bergen"
+  },
+  {
+    "bucket": 7080,
+    "count": 21,
+    "year": 2025,
+    "city": "bergen"
+  },
+  {
+    "bucket": 7140,
+    "count": 18,
     "year": 2025,
     "city": "bergen"
   },

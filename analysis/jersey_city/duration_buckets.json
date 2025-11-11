@@ -1,241 +1,703 @@
 [
   {
-    "bucket": 0,
-    "count": 5103,
+    "bucket": 60,
+    "count": 1324,
+    "year": 2015,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 120,
+    "count": 3779,
     "year": 2015,
     "city": "jersey_city"
   },
   {
     "bucket": 180,
-    "count": 16388,
+    "count": 4926,
+    "year": 2015,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 240,
+    "count": 5819,
+    "year": 2015,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 300,
+    "count": 5643,
     "year": 2015,
     "city": "jersey_city"
   },
   {
     "bucket": 360,
-    "count": 11295,
+    "count": 4507,
+    "year": 2015,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 420,
+    "count": 3609,
+    "year": 2015,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 480,
+    "count": 3179,
     "year": 2015,
     "city": "jersey_city"
   },
   {
     "bucket": 540,
-    "count": 6783,
+    "count": 2699,
+    "year": 2015,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 600,
+    "count": 2223,
+    "year": 2015,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 660,
+    "count": 1861,
     "year": 2015,
     "city": "jersey_city"
   },
   {
     "bucket": 720,
-    "count": 3477,
+    "count": 1374,
+    "year": 2015,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 780,
+    "count": 1148,
+    "year": 2015,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 840,
+    "count": 955,
     "year": 2015,
     "city": "jersey_city"
   },
   {
     "bucket": 900,
-    "count": 2312,
+    "count": 789,
+    "year": 2015,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 960,
+    "count": 821,
+    "year": 2015,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 1020,
+    "count": 702,
     "year": 2015,
     "city": "jersey_city"
   },
   {
     "bucket": 1080,
-    "count": 1575,
+    "count": 596,
+    "year": 2015,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 1140,
+    "count": 527,
+    "year": 2015,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 1200,
+    "count": 452,
     "year": 2015,
     "city": "jersey_city"
   },
   {
     "bucket": 1260,
-    "count": 1100,
+    "count": 420,
+    "year": 2015,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 1320,
+    "count": 360,
+    "year": 2015,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 1380,
+    "count": 320,
     "year": 2015,
     "city": "jersey_city"
   },
   {
     "bucket": 1440,
-    "count": 947,
+    "count": 323,
+    "year": 2015,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 1500,
+    "count": 331,
+    "year": 2015,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 1560,
+    "count": 293,
     "year": 2015,
     "city": "jersey_city"
   },
   {
     "bucket": 1620,
-    "count": 740,
+    "count": 262,
+    "year": 2015,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 1680,
+    "count": 259,
+    "year": 2015,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 1740,
+    "count": 219,
     "year": 2015,
     "city": "jersey_city"
   },
   {
     "bucket": 1800,
-    "count": 484,
+    "count": 173,
+    "year": 2015,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 1860,
+    "count": 143,
+    "year": 2015,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 1920,
+    "count": 168,
     "year": 2015,
     "city": "jersey_city"
   },
   {
     "bucket": 1980,
-    "count": 442,
+    "count": 154,
+    "year": 2015,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 2040,
+    "count": 151,
+    "year": 2015,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 2100,
+    "count": 137,
     "year": 2015,
     "city": "jersey_city"
   },
   {
     "bucket": 2160,
-    "count": 351,
+    "count": 131,
+    "year": 2015,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 2220,
+    "count": 102,
+    "year": 2015,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 2280,
+    "count": 118,
     "year": 2015,
     "city": "jersey_city"
   },
   {
     "bucket": 2340,
-    "count": 298,
+    "count": 103,
+    "year": 2015,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 2400,
+    "count": 106,
+    "year": 2015,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 2460,
+    "count": 89,
     "year": 2015,
     "city": "jersey_city"
   },
   {
     "bucket": 2520,
-    "count": 223,
+    "count": 80,
+    "year": 2015,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 2580,
+    "count": 76,
+    "year": 2015,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 2640,
+    "count": 67,
     "year": 2015,
     "city": "jersey_city"
   },
   {
     "bucket": 2700,
-    "count": 134,
+    "count": 55,
+    "year": 2015,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 2760,
+    "count": 39,
+    "year": 2015,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 2820,
+    "count": 40,
     "year": 2015,
     "city": "jersey_city"
   },
   {
     "bucket": 2880,
-    "count": 93,
+    "count": 36,
     "year": 2015,
     "city": "jersey_city"
   },
   {
-    "bucket": 3060,
-    "count": 74,
-    "year": 2015,
-    "city": "jersey_city"
-  },
-  {
-    "bucket": 3240,
-    "count": 88,
-    "year": 2015,
-    "city": "jersey_city"
-  },
-  {
-    "bucket": 3420,
-    "count": 53,
-    "year": 2015,
-    "city": "jersey_city"
-  },
-  {
-    "bucket": 3600,
+    "bucket": 2940,
     "count": 30,
     "year": 2015,
     "city": "jersey_city"
   },
   {
-    "bucket": 3780,
-    "count": 53,
-    "year": 2015,
-    "city": "jersey_city"
-  },
-  {
-    "bucket": 3960,
-    "count": 33,
-    "year": 2015,
-    "city": "jersey_city"
-  },
-  {
-    "bucket": 4140,
-    "count": 51,
-    "year": 2015,
-    "city": "jersey_city"
-  },
-  {
-    "bucket": 4320,
-    "count": 42,
-    "year": 2015,
-    "city": "jersey_city"
-  },
-  {
-    "bucket": 4500,
-    "count": 35,
-    "year": 2015,
-    "city": "jersey_city"
-  },
-  {
-    "bucket": 4680,
-    "count": 26,
-    "year": 2015,
-    "city": "jersey_city"
-  },
-  {
-    "bucket": 4860,
+    "bucket": 3000,
     "count": 27,
     "year": 2015,
     "city": "jersey_city"
   },
   {
-    "bucket": 5040,
+    "bucket": 3060,
+    "count": 25,
+    "year": 2015,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 3120,
     "count": 27,
     "year": 2015,
     "city": "jersey_city"
   },
   {
-    "bucket": 5220,
-    "count": 19,
+    "bucket": 3180,
+    "count": 22,
     "year": 2015,
     "city": "jersey_city"
   },
   {
-    "bucket": 5400,
+    "bucket": 3240,
     "count": 26,
     "year": 2015,
     "city": "jersey_city"
   },
   {
-    "bucket": 5580,
-    "count": 15,
+    "bucket": 3300,
+    "count": 34,
     "year": 2015,
     "city": "jersey_city"
   },
   {
-    "bucket": 5760,
-    "count": 19,
+    "bucket": 3360,
+    "count": 28,
     "year": 2015,
     "city": "jersey_city"
   },
   {
-    "bucket": 5940,
-    "count": 16,
+    "bucket": 3420,
+    "count": 24,
     "year": 2015,
     "city": "jersey_city"
   },
   {
-    "bucket": 6120,
-    "count": 8,
-    "year": 2015,
-    "city": "jersey_city"
-  },
-  {
-    "bucket": 6300,
+    "bucket": 3480,
     "count": 20,
     "year": 2015,
     "city": "jersey_city"
   },
   {
-    "bucket": 6480,
+    "bucket": 3540,
+    "count": 9,
+    "year": 2015,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 3600,
     "count": 12,
     "year": 2015,
     "city": "jersey_city"
   },
   {
-    "bucket": 6660,
-    "count": 3,
+    "bucket": 3660,
+    "count": 9,
     "year": 2015,
     "city": "jersey_city"
   },
   {
-    "bucket": 6840,
+    "bucket": 3720,
+    "count": 9,
+    "year": 2015,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 3780,
+    "count": 18,
+    "year": 2015,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 3840,
+    "count": 17,
+    "year": 2015,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 3900,
+    "count": 18,
+    "year": 2015,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 3960,
+    "count": 14,
+    "year": 2015,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 4020,
+    "count": 9,
+    "year": 2015,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 4080,
+    "count": 10,
+    "year": 2015,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 4140,
+    "count": 18,
+    "year": 2015,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 4200,
+    "count": 20,
+    "year": 2015,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 4260,
+    "count": 13,
+    "year": 2015,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 4320,
+    "count": 17,
+    "year": 2015,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 4380,
     "count": 8,
     "year": 2015,
     "city": "jersey_city"
   },
   {
-    "bucket": 7020,
+    "bucket": 4440,
     "count": 17,
+    "year": 2015,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 4500,
+    "count": 15,
+    "year": 2015,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 4560,
+    "count": 9,
+    "year": 2015,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 4620,
+    "count": 11,
+    "year": 2015,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 4680,
+    "count": 5,
+    "year": 2015,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 4740,
+    "count": 9,
+    "year": 2015,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 4800,
+    "count": 12,
+    "year": 2015,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 4860,
+    "count": 6,
+    "year": 2015,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 4920,
+    "count": 11,
+    "year": 2015,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 4980,
+    "count": 10,
+    "year": 2015,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5040,
+    "count": 11,
+    "year": 2015,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5100,
+    "count": 10,
+    "year": 2015,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5160,
+    "count": 6,
+    "year": 2015,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5220,
+    "count": 9,
+    "year": 2015,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5280,
+    "count": 6,
+    "year": 2015,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5340,
+    "count": 4,
+    "year": 2015,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5400,
+    "count": 13,
+    "year": 2015,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5460,
+    "count": 5,
+    "year": 2015,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5520,
+    "count": 8,
+    "year": 2015,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5580,
+    "count": 1,
+    "year": 2015,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5640,
+    "count": 11,
+    "year": 2015,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5700,
+    "count": 3,
+    "year": 2015,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5760,
+    "count": 8,
+    "year": 2015,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5820,
+    "count": 4,
+    "year": 2015,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5880,
+    "count": 7,
+    "year": 2015,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5940,
+    "count": 4,
+    "year": 2015,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6000,
+    "count": 4,
+    "year": 2015,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6060,
+    "count": 8,
+    "year": 2015,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6120,
+    "count": 5,
+    "year": 2015,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6180,
+    "count": 1,
+    "year": 2015,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6240,
+    "count": 2,
+    "year": 2015,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6300,
+    "count": 4,
+    "year": 2015,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6360,
+    "count": 6,
+    "year": 2015,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6420,
+    "count": 10,
+    "year": 2015,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6480,
+    "count": 5,
+    "year": 2015,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6540,
+    "count": 2,
+    "year": 2015,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6600,
+    "count": 5,
+    "year": 2015,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6720,
+    "count": 1,
+    "year": 2015,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6780,
+    "count": 2,
+    "year": 2015,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6900,
+    "count": 5,
+    "year": 2015,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6960,
+    "count": 3,
+    "year": 2015,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 7020,
+    "count": 6,
+    "year": 2015,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 7080,
+    "count": 7,
+    "year": 2015,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 7140,
+    "count": 4,
     "year": 2015,
     "city": "jersey_city"
   },
@@ -246,242 +708,716 @@
     "city": "jersey_city"
   },
   {
-    "bucket": 0,
-    "count": 26328,
+    "bucket": 60,
+    "count": 6349,
+    "year": 2016,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 120,
+    "count": 19979,
     "year": 2016,
     "city": "jersey_city"
   },
   {
     "bucket": 180,
-    "count": 87047,
+    "count": 30419,
+    "year": 2016,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 240,
+    "count": 31679,
+    "year": 2016,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 300,
+    "count": 24949,
     "year": 2016,
     "city": "jersey_city"
   },
   {
     "bucket": 360,
-    "count": 50000,
+    "count": 19316,
+    "year": 2016,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 420,
+    "count": 16411,
+    "year": 2016,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 480,
+    "count": 14273,
     "year": 2016,
     "city": "jersey_city"
   },
   {
     "bucket": 540,
-    "count": 29030,
+    "count": 11901,
+    "year": 2016,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 600,
+    "count": 9403,
+    "year": 2016,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 660,
+    "count": 7726,
     "year": 2016,
     "city": "jersey_city"
   },
   {
     "bucket": 720,
-    "count": 15248,
+    "count": 5906,
+    "year": 2016,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 780,
+    "count": 5035,
+    "year": 2016,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 840,
+    "count": 4307,
     "year": 2016,
     "city": "jersey_city"
   },
   {
     "bucket": 900,
-    "count": 9962,
+    "count": 3706,
+    "year": 2016,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 960,
+    "count": 3340,
+    "year": 2016,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 1020,
+    "count": 2916,
     "year": 2016,
     "city": "jersey_city"
   },
   {
     "bucket": 1080,
-    "count": 6692,
+    "count": 2528,
+    "year": 2016,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 1140,
+    "count": 2246,
+    "year": 2016,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 1200,
+    "count": 1918,
     "year": 2016,
     "city": "jersey_city"
   },
   {
     "bucket": 1260,
-    "count": 4863,
+    "count": 1784,
+    "year": 2016,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 1320,
+    "count": 1556,
+    "year": 2016,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 1380,
+    "count": 1523,
     "year": 2016,
     "city": "jersey_city"
   },
   {
     "bucket": 1440,
-    "count": 3797,
+    "count": 1358,
+    "year": 2016,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 1500,
+    "count": 1308,
+    "year": 2016,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 1560,
+    "count": 1131,
     "year": 2016,
     "city": "jersey_city"
   },
   {
     "bucket": 1620,
-    "count": 2721,
+    "count": 1046,
+    "year": 2016,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 1680,
+    "count": 911,
+    "year": 2016,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 1740,
+    "count": 764,
     "year": 2016,
     "city": "jersey_city"
   },
   {
     "bucket": 1800,
-    "count": 2017,
+    "count": 728,
+    "year": 2016,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 1860,
+    "count": 685,
+    "year": 2016,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 1920,
+    "count": 604,
     "year": 2016,
     "city": "jersey_city"
   },
   {
     "bucket": 1980,
-    "count": 1644,
+    "count": 556,
+    "year": 2016,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 2040,
+    "count": 556,
+    "year": 2016,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 2100,
+    "count": 532,
     "year": 2016,
     "city": "jersey_city"
   },
   {
     "bucket": 2160,
-    "count": 1425,
+    "count": 497,
+    "year": 2016,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 2220,
+    "count": 494,
+    "year": 2016,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 2280,
+    "count": 434,
     "year": 2016,
     "city": "jersey_city"
   },
   {
     "bucket": 2340,
-    "count": 1182,
+    "count": 408,
+    "year": 2016,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 2400,
+    "count": 384,
+    "year": 2016,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 2460,
+    "count": 390,
     "year": 2016,
     "city": "jersey_city"
   },
   {
     "bucket": 2520,
-    "count": 862,
+    "count": 325,
+    "year": 2016,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 2580,
+    "count": 276,
+    "year": 2016,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 2640,
+    "count": 261,
     "year": 2016,
     "city": "jersey_city"
   },
   {
     "bucket": 2700,
-    "count": 475,
+    "count": 179,
     "year": 2016,
     "city": "jersey_city"
   },
   {
-    "bucket": 2880,
-    "count": 343,
-    "year": 2016,
-    "city": "jersey_city"
-  },
-  {
-    "bucket": 3060,
-    "count": 296,
-    "year": 2016,
-    "city": "jersey_city"
-  },
-  {
-    "bucket": 3240,
-    "count": 240,
-    "year": 2016,
-    "city": "jersey_city"
-  },
-  {
-    "bucket": 3420,
-    "count": 240,
-    "year": 2016,
-    "city": "jersey_city"
-  },
-  {
-    "bucket": 3600,
-    "count": 161,
-    "year": 2016,
-    "city": "jersey_city"
-  },
-  {
-    "bucket": 3780,
+    "bucket": 2760,
     "count": 164,
     "year": 2016,
     "city": "jersey_city"
   },
   {
-    "bucket": 3960,
-    "count": 170,
+    "bucket": 2820,
+    "count": 132,
     "year": 2016,
     "city": "jersey_city"
   },
   {
-    "bucket": 4140,
-    "count": 149,
+    "bucket": 2880,
+    "count": 114,
     "year": 2016,
     "city": "jersey_city"
   },
   {
-    "bucket": 4320,
-    "count": 152,
+    "bucket": 2940,
+    "count": 126,
     "year": 2016,
     "city": "jersey_city"
   },
   {
-    "bucket": 4500,
-    "count": 129,
+    "bucket": 3000,
+    "count": 103,
     "year": 2016,
     "city": "jersey_city"
   },
   {
-    "bucket": 4680,
-    "count": 100,
+    "bucket": 3060,
+    "count": 120,
     "year": 2016,
     "city": "jersey_city"
   },
   {
-    "bucket": 4860,
-    "count": 113,
+    "bucket": 3120,
+    "count": 84,
     "year": 2016,
     "city": "jersey_city"
   },
   {
-    "bucket": 5040,
-    "count": 80,
+    "bucket": 3180,
+    "count": 92,
     "year": 2016,
     "city": "jersey_city"
   },
   {
-    "bucket": 5220,
+    "bucket": 3240,
     "count": 85,
     "year": 2016,
     "city": "jersey_city"
   },
   {
-    "bucket": 5400,
-    "count": 68,
+    "bucket": 3300,
+    "count": 82,
     "year": 2016,
     "city": "jersey_city"
   },
   {
-    "bucket": 5580,
-    "count": 67,
-    "year": 2016,
-    "city": "jersey_city"
-  },
-  {
-    "bucket": 5760,
-    "count": 56,
-    "year": 2016,
-    "city": "jersey_city"
-  },
-  {
-    "bucket": 5940,
+    "bucket": 3360,
     "count": 73,
     "year": 2016,
     "city": "jersey_city"
   },
   {
-    "bucket": 6120,
-    "count": 59,
+    "bucket": 3420,
+    "count": 87,
     "year": 2016,
     "city": "jersey_city"
   },
   {
-    "bucket": 6300,
-    "count": 46,
+    "bucket": 3480,
+    "count": 82,
     "year": 2016,
     "city": "jersey_city"
   },
   {
-    "bucket": 6480,
+    "bucket": 3540,
+    "count": 71,
+    "year": 2016,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 3600,
+    "count": 49,
+    "year": 2016,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 3660,
+    "count": 65,
+    "year": 2016,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 3720,
+    "count": 47,
+    "year": 2016,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 3780,
+    "count": 62,
+    "year": 2016,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 3840,
+    "count": 49,
+    "year": 2016,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 3900,
+    "count": 53,
+    "year": 2016,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 3960,
+    "count": 68,
+    "year": 2016,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 4020,
+    "count": 45,
+    "year": 2016,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 4080,
+    "count": 57,
+    "year": 2016,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 4140,
+    "count": 60,
+    "year": 2016,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 4200,
     "count": 37,
     "year": 2016,
     "city": "jersey_city"
   },
   {
+    "bucket": 4260,
+    "count": 52,
+    "year": 2016,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 4320,
+    "count": 57,
+    "year": 2016,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 4380,
+    "count": 49,
+    "year": 2016,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 4440,
+    "count": 46,
+    "year": 2016,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 4500,
+    "count": 43,
+    "year": 2016,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 4560,
+    "count": 47,
+    "year": 2016,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 4620,
+    "count": 39,
+    "year": 2016,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 4680,
+    "count": 21,
+    "year": 2016,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 4740,
+    "count": 36,
+    "year": 2016,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 4800,
+    "count": 43,
+    "year": 2016,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 4860,
+    "count": 42,
+    "year": 2016,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 4920,
+    "count": 37,
+    "year": 2016,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 4980,
+    "count": 34,
+    "year": 2016,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5040,
+    "count": 32,
+    "year": 2016,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5100,
+    "count": 25,
+    "year": 2016,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5160,
+    "count": 23,
+    "year": 2016,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5220,
+    "count": 31,
+    "year": 2016,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5280,
+    "count": 23,
+    "year": 2016,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5340,
+    "count": 31,
+    "year": 2016,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5400,
+    "count": 19,
+    "year": 2016,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5460,
+    "count": 26,
+    "year": 2016,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5520,
+    "count": 23,
+    "year": 2016,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5580,
+    "count": 23,
+    "year": 2016,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5640,
+    "count": 24,
+    "year": 2016,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5700,
+    "count": 20,
+    "year": 2016,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5760,
+    "count": 12,
+    "year": 2016,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5820,
+    "count": 15,
+    "year": 2016,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5880,
+    "count": 29,
+    "year": 2016,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5940,
+    "count": 32,
+    "year": 2016,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6000,
+    "count": 23,
+    "year": 2016,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6060,
+    "count": 18,
+    "year": 2016,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6120,
+    "count": 19,
+    "year": 2016,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6180,
+    "count": 20,
+    "year": 2016,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6240,
+    "count": 20,
+    "year": 2016,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6300,
+    "count": 12,
+    "year": 2016,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6360,
+    "count": 23,
+    "year": 2016,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6420,
+    "count": 11,
+    "year": 2016,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6480,
+    "count": 9,
+    "year": 2016,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6540,
+    "count": 16,
+    "year": 2016,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6600,
+    "count": 12,
+    "year": 2016,
+    "city": "jersey_city"
+  },
+  {
     "bucket": 6660,
-    "count": 50,
+    "count": 20,
+    "year": 2016,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6720,
+    "count": 16,
+    "year": 2016,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6780,
+    "count": 14,
     "year": 2016,
     "city": "jersey_city"
   },
   {
     "bucket": 6840,
-    "count": 38,
+    "count": 15,
+    "year": 2016,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6900,
+    "count": 11,
+    "year": 2016,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6960,
+    "count": 12,
     "year": 2016,
     "city": "jersey_city"
   },
   {
     "bucket": 7020,
-    "count": 33,
+    "count": 13,
+    "year": 2016,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 7080,
+    "count": 10,
+    "year": 2016,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 7140,
+    "count": 10,
     "year": 2016,
     "city": "jersey_city"
   },
@@ -492,242 +1428,716 @@
     "city": "jersey_city"
   },
   {
-    "bucket": 0,
-    "count": 35208,
+    "bucket": 60,
+    "count": 8651,
+    "year": 2017,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 120,
+    "count": 26557,
     "year": 2017,
     "city": "jersey_city"
   },
   {
     "bucket": 180,
-    "count": 118565,
+    "count": 43439,
+    "year": 2017,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 240,
+    "count": 43810,
+    "year": 2017,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 300,
+    "count": 31316,
     "year": 2017,
     "city": "jersey_city"
   },
   {
     "bucket": 360,
-    "count": 57423,
+    "count": 23325,
+    "year": 2017,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 420,
+    "count": 18999,
+    "year": 2017,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 480,
+    "count": 15099,
     "year": 2017,
     "city": "jersey_city"
   },
   {
     "bucket": 540,
-    "count": 29575,
+    "count": 12084,
+    "year": 2017,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 600,
+    "count": 9623,
+    "year": 2017,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 660,
+    "count": 7868,
     "year": 2017,
     "city": "jersey_city"
   },
   {
     "bucket": 720,
-    "count": 15609,
+    "count": 6150,
+    "year": 2017,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 780,
+    "count": 5145,
+    "year": 2017,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 840,
+    "count": 4314,
     "year": 2017,
     "city": "jersey_city"
   },
   {
     "bucket": 900,
-    "count": 9320,
+    "count": 3524,
+    "year": 2017,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 960,
+    "count": 3064,
+    "year": 2017,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 1020,
+    "count": 2732,
     "year": 2017,
     "city": "jersey_city"
   },
   {
     "bucket": 1080,
-    "count": 6295,
+    "count": 2355,
+    "year": 2017,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 1140,
+    "count": 2076,
+    "year": 2017,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 1200,
+    "count": 1864,
     "year": 2017,
     "city": "jersey_city"
   },
   {
     "bucket": 1260,
-    "count": 4487,
+    "count": 1672,
+    "year": 2017,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 1320,
+    "count": 1491,
+    "year": 2017,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 1380,
+    "count": 1324,
     "year": 2017,
     "city": "jersey_city"
   },
   {
     "bucket": 1440,
-    "count": 3607,
+    "count": 1319,
+    "year": 2017,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 1500,
+    "count": 1180,
+    "year": 2017,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 1560,
+    "count": 1108,
     "year": 2017,
     "city": "jersey_city"
   },
   {
     "bucket": 1620,
-    "count": 2738,
+    "count": 1053,
+    "year": 2017,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 1680,
+    "count": 915,
+    "year": 2017,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 1740,
+    "count": 770,
     "year": 2017,
     "city": "jersey_city"
   },
   {
     "bucket": 1800,
-    "count": 1973,
+    "count": 689,
+    "year": 2017,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 1860,
+    "count": 664,
+    "year": 2017,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 1920,
+    "count": 620,
     "year": 2017,
     "city": "jersey_city"
   },
   {
     "bucket": 1980,
-    "count": 1656,
+    "count": 574,
     "year": 2017,
     "city": "jersey_city"
   },
   {
-    "bucket": 2160,
-    "count": 1370,
+    "bucket": 2040,
+    "count": 536,
     "year": 2017,
     "city": "jersey_city"
   },
   {
-    "bucket": 2340,
-    "count": 1248,
-    "year": 2017,
-    "city": "jersey_city"
-  },
-  {
-    "bucket": 2520,
-    "count": 937,
-    "year": 2017,
-    "city": "jersey_city"
-  },
-  {
-    "bucket": 2700,
+    "bucket": 2100,
     "count": 546,
     "year": 2017,
     "city": "jersey_city"
   },
   {
+    "bucket": 2160,
+    "count": 477,
+    "year": 2017,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 2220,
+    "count": 436,
+    "year": 2017,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 2280,
+    "count": 457,
+    "year": 2017,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 2340,
+    "count": 433,
+    "year": 2017,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 2400,
+    "count": 434,
+    "year": 2017,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 2460,
+    "count": 381,
+    "year": 2017,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 2520,
+    "count": 357,
+    "year": 2017,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 2580,
+    "count": 338,
+    "year": 2017,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 2640,
+    "count": 242,
+    "year": 2017,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 2700,
+    "count": 226,
+    "year": 2017,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 2760,
+    "count": 178,
+    "year": 2017,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 2820,
+    "count": 142,
+    "year": 2017,
+    "city": "jersey_city"
+  },
+  {
     "bucket": 2880,
-    "count": 421,
+    "count": 141,
+    "year": 2017,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 2940,
+    "count": 143,
+    "year": 2017,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 3000,
+    "count": 137,
     "year": 2017,
     "city": "jersey_city"
   },
   {
     "bucket": 3060,
-    "count": 273,
+    "count": 102,
+    "year": 2017,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 3120,
+    "count": 88,
+    "year": 2017,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 3180,
+    "count": 83,
     "year": 2017,
     "city": "jersey_city"
   },
   {
     "bucket": 3240,
-    "count": 275,
-    "year": 2017,
-    "city": "jersey_city"
-  },
-  {
-    "bucket": 3420,
-    "count": 238,
-    "year": 2017,
-    "city": "jersey_city"
-  },
-  {
-    "bucket": 3600,
-    "count": 202,
-    "year": 2017,
-    "city": "jersey_city"
-  },
-  {
-    "bucket": 3780,
-    "count": 211,
-    "year": 2017,
-    "city": "jersey_city"
-  },
-  {
-    "bucket": 3960,
-    "count": 205,
-    "year": 2017,
-    "city": "jersey_city"
-  },
-  {
-    "bucket": 4140,
-    "count": 152,
-    "year": 2017,
-    "city": "jersey_city"
-  },
-  {
-    "bucket": 4320,
-    "count": 134,
-    "year": 2017,
-    "city": "jersey_city"
-  },
-  {
-    "bucket": 4500,
-    "count": 104,
-    "year": 2017,
-    "city": "jersey_city"
-  },
-  {
-    "bucket": 4680,
-    "count": 117,
-    "year": 2017,
-    "city": "jersey_city"
-  },
-  {
-    "bucket": 4860,
-    "count": 90,
-    "year": 2017,
-    "city": "jersey_city"
-  },
-  {
-    "bucket": 5040,
     "count": 92,
     "year": 2017,
     "city": "jersey_city"
   },
   {
-    "bucket": 5220,
-    "count": 91,
+    "bucket": 3300,
+    "count": 98,
     "year": 2017,
     "city": "jersey_city"
   },
   {
-    "bucket": 5400,
+    "bucket": 3360,
+    "count": 85,
+    "year": 2017,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 3420,
+    "count": 82,
+    "year": 2017,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 3480,
+    "count": 75,
+    "year": 2017,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 3540,
+    "count": 81,
+    "year": 2017,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 3600,
+    "count": 75,
+    "year": 2017,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 3660,
+    "count": 59,
+    "year": 2017,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 3720,
+    "count": 68,
+    "year": 2017,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 3780,
+    "count": 77,
+    "year": 2017,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 3840,
+    "count": 63,
+    "year": 2017,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 3900,
+    "count": 71,
+    "year": 2017,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 3960,
+    "count": 60,
+    "year": 2017,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 4020,
+    "count": 66,
+    "year": 2017,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 4080,
+    "count": 79,
+    "year": 2017,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 4140,
+    "count": 53,
+    "year": 2017,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 4200,
+    "count": 49,
+    "year": 2017,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 4260,
     "count": 50,
     "year": 2017,
     "city": "jersey_city"
   },
   {
-    "bucket": 5580,
-    "count": 50,
+    "bucket": 4320,
+    "count": 59,
     "year": 2017,
     "city": "jersey_city"
   },
   {
-    "bucket": 5760,
-    "count": 72,
-    "year": 2017,
-    "city": "jersey_city"
-  },
-  {
-    "bucket": 5940,
-    "count": 56,
-    "year": 2017,
-    "city": "jersey_city"
-  },
-  {
-    "bucket": 6120,
-    "count": 57,
-    "year": 2017,
-    "city": "jersey_city"
-  },
-  {
-    "bucket": 6300,
-    "count": 56,
-    "year": 2017,
-    "city": "jersey_city"
-  },
-  {
-    "bucket": 6480,
-    "count": 41,
-    "year": 2017,
-    "city": "jersey_city"
-  },
-  {
-    "bucket": 6660,
-    "count": 51,
-    "year": 2017,
-    "city": "jersey_city"
-  },
-  {
-    "bucket": 6840,
+    "bucket": 4380,
     "count": 39,
     "year": 2017,
     "city": "jersey_city"
   },
   {
+    "bucket": 4440,
+    "count": 36,
+    "year": 2017,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 4500,
+    "count": 44,
+    "year": 2017,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 4560,
+    "count": 29,
+    "year": 2017,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 4620,
+    "count": 31,
+    "year": 2017,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 4680,
+    "count": 40,
+    "year": 2017,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 4740,
+    "count": 44,
+    "year": 2017,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 4800,
+    "count": 33,
+    "year": 2017,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 4860,
+    "count": 27,
+    "year": 2017,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 4920,
+    "count": 35,
+    "year": 2017,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 4980,
+    "count": 28,
+    "year": 2017,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5040,
+    "count": 21,
+    "year": 2017,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5100,
+    "count": 43,
+    "year": 2017,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5160,
+    "count": 28,
+    "year": 2017,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5220,
+    "count": 35,
+    "year": 2017,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5280,
+    "count": 31,
+    "year": 2017,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5340,
+    "count": 25,
+    "year": 2017,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5400,
+    "count": 20,
+    "year": 2017,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5460,
+    "count": 16,
+    "year": 2017,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5520,
+    "count": 14,
+    "year": 2017,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5580,
+    "count": 20,
+    "year": 2017,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5640,
+    "count": 22,
+    "year": 2017,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5700,
+    "count": 8,
+    "year": 2017,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5760,
+    "count": 31,
+    "year": 2017,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5820,
+    "count": 18,
+    "year": 2017,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5880,
+    "count": 23,
+    "year": 2017,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5940,
+    "count": 15,
+    "year": 2017,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6000,
+    "count": 23,
+    "year": 2017,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6060,
+    "count": 18,
+    "year": 2017,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6120,
+    "count": 21,
+    "year": 2017,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6180,
+    "count": 18,
+    "year": 2017,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6240,
+    "count": 18,
+    "year": 2017,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6300,
+    "count": 20,
+    "year": 2017,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6360,
+    "count": 15,
+    "year": 2017,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6420,
+    "count": 21,
+    "year": 2017,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6480,
+    "count": 19,
+    "year": 2017,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6540,
+    "count": 6,
+    "year": 2017,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6600,
+    "count": 16,
+    "year": 2017,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6660,
+    "count": 19,
+    "year": 2017,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6720,
+    "count": 13,
+    "year": 2017,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6780,
+    "count": 19,
+    "year": 2017,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6840,
+    "count": 18,
+    "year": 2017,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6900,
+    "count": 9,
+    "year": 2017,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6960,
+    "count": 12,
+    "year": 2017,
+    "city": "jersey_city"
+  },
+  {
     "bucket": 7020,
-    "count": 45,
+    "count": 12,
+    "year": 2017,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 7080,
+    "count": 14,
+    "year": 2017,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 7140,
+    "count": 19,
     "year": 2017,
     "city": "jersey_city"
   },
@@ -738,242 +2148,716 @@
     "city": "jersey_city"
   },
   {
-    "bucket": 0,
-    "count": 46960,
+    "bucket": 60,
+    "count": 12830,
+    "year": 2018,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 120,
+    "count": 34130,
     "year": 2018,
     "city": "jersey_city"
   },
   {
     "bucket": 180,
-    "count": 144784,
+    "count": 51212,
+    "year": 2018,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 240,
+    "count": 53031,
+    "year": 2018,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 300,
+    "count": 40541,
     "year": 2018,
     "city": "jersey_city"
   },
   {
     "bucket": 360,
-    "count": 71055,
+    "count": 30224,
+    "year": 2018,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 420,
+    "count": 23134,
+    "year": 2018,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 480,
+    "count": 17697,
     "year": 2018,
     "city": "jersey_city"
   },
   {
     "bucket": 540,
-    "count": 33015,
+    "count": 13608,
+    "year": 2018,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 600,
+    "count": 10807,
+    "year": 2018,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 660,
+    "count": 8600,
     "year": 2018,
     "city": "jersey_city"
   },
   {
     "bucket": 720,
-    "count": 16781,
+    "count": 6681,
+    "year": 2018,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 780,
+    "count": 5582,
+    "year": 2018,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 840,
+    "count": 4518,
     "year": 2018,
     "city": "jersey_city"
   },
   {
     "bucket": 900,
-    "count": 10093,
+    "count": 3968,
+    "year": 2018,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 960,
+    "count": 3381,
+    "year": 2018,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 1020,
+    "count": 2744,
     "year": 2018,
     "city": "jersey_city"
   },
   {
     "bucket": 1080,
-    "count": 6694,
+    "count": 2453,
+    "year": 2018,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 1140,
+    "count": 2183,
+    "year": 2018,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 1200,
+    "count": 2058,
     "year": 2018,
     "city": "jersey_city"
   },
   {
     "bucket": 1260,
-    "count": 4699,
+    "count": 1757,
+    "year": 2018,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 1320,
+    "count": 1544,
+    "year": 2018,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 1380,
+    "count": 1398,
     "year": 2018,
     "city": "jersey_city"
   },
   {
     "bucket": 1440,
-    "count": 3718,
+    "count": 1326,
+    "year": 2018,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 1500,
+    "count": 1248,
+    "year": 2018,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 1560,
+    "count": 1144,
     "year": 2018,
     "city": "jersey_city"
   },
   {
     "bucket": 1620,
-    "count": 2785,
+    "count": 1049,
+    "year": 2018,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 1680,
+    "count": 891,
+    "year": 2018,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 1740,
+    "count": 845,
     "year": 2018,
     "city": "jersey_city"
   },
   {
     "bucket": 1800,
-    "count": 2101,
+    "count": 808,
+    "year": 2018,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 1860,
+    "count": 691,
+    "year": 2018,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 1920,
+    "count": 602,
     "year": 2018,
     "city": "jersey_city"
   },
   {
     "bucket": 1980,
-    "count": 1613,
+    "count": 528,
+    "year": 2018,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 2040,
+    "count": 552,
+    "year": 2018,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 2100,
+    "count": 533,
     "year": 2018,
     "city": "jersey_city"
   },
   {
     "bucket": 2160,
-    "count": 1495,
+    "count": 532,
+    "year": 2018,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 2220,
+    "count": 484,
+    "year": 2018,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 2280,
+    "count": 479,
     "year": 2018,
     "city": "jersey_city"
   },
   {
     "bucket": 2340,
-    "count": 1268,
+    "count": 429,
+    "year": 2018,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 2400,
+    "count": 435,
+    "year": 2018,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 2460,
+    "count": 404,
     "year": 2018,
     "city": "jersey_city"
   },
   {
     "bucket": 2520,
-    "count": 1023,
+    "count": 367,
+    "year": 2018,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 2580,
+    "count": 366,
+    "year": 2018,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 2640,
+    "count": 290,
     "year": 2018,
     "city": "jersey_city"
   },
   {
     "bucket": 2700,
-    "count": 622,
+    "count": 251,
+    "year": 2018,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 2760,
+    "count": 199,
+    "year": 2018,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 2820,
+    "count": 172,
     "year": 2018,
     "city": "jersey_city"
   },
   {
     "bucket": 2880,
-    "count": 447,
-    "year": 2018,
-    "city": "jersey_city"
-  },
-  {
-    "bucket": 3060,
-    "count": 381,
-    "year": 2018,
-    "city": "jersey_city"
-  },
-  {
-    "bucket": 3240,
-    "count": 374,
-    "year": 2018,
-    "city": "jersey_city"
-  },
-  {
-    "bucket": 3420,
-    "count": 281,
-    "year": 2018,
-    "city": "jersey_city"
-  },
-  {
-    "bucket": 3600,
-    "count": 247,
-    "year": 2018,
-    "city": "jersey_city"
-  },
-  {
-    "bucket": 3780,
-    "count": 211,
-    "year": 2018,
-    "city": "jersey_city"
-  },
-  {
-    "bucket": 3960,
-    "count": 194,
-    "year": 2018,
-    "city": "jersey_city"
-  },
-  {
-    "bucket": 4140,
     "count": 160,
     "year": 2018,
     "city": "jersey_city"
   },
   {
-    "bucket": 4320,
-    "count": 158,
+    "bucket": 2940,
+    "count": 150,
     "year": 2018,
     "city": "jersey_city"
   },
   {
-    "bucket": 4500,
-    "count": 146,
+    "bucket": 3000,
+    "count": 137,
     "year": 2018,
     "city": "jersey_city"
   },
   {
-    "bucket": 4680,
-    "count": 146,
+    "bucket": 3060,
+    "count": 134,
     "year": 2018,
     "city": "jersey_city"
   },
   {
-    "bucket": 4860,
-    "count": 129,
+    "bucket": 3120,
+    "count": 114,
     "year": 2018,
     "city": "jersey_city"
   },
   {
-    "bucket": 5040,
-    "count": 112,
+    "bucket": 3180,
+    "count": 133,
     "year": 2018,
     "city": "jersey_city"
   },
   {
-    "bucket": 5220,
-    "count": 119,
+    "bucket": 3240,
+    "count": 133,
     "year": 2018,
     "city": "jersey_city"
   },
   {
-    "bucket": 5400,
-    "count": 74,
+    "bucket": 3300,
+    "count": 117,
     "year": 2018,
     "city": "jersey_city"
   },
   {
-    "bucket": 5580,
+    "bucket": 3360,
+    "count": 124,
+    "year": 2018,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 3420,
+    "count": 97,
+    "year": 2018,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 3480,
+    "count": 113,
+    "year": 2018,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 3540,
     "count": 71,
     "year": 2018,
     "city": "jersey_city"
   },
   {
-    "bucket": 5760,
+    "bucket": 3600,
     "count": 91,
     "year": 2018,
     "city": "jersey_city"
   },
   {
-    "bucket": 5940,
-    "count": 79,
+    "bucket": 3660,
+    "count": 97,
     "year": 2018,
     "city": "jersey_city"
   },
   {
-    "bucket": 6120,
-    "count": 53,
+    "bucket": 3720,
+    "count": 59,
     "year": 2018,
     "city": "jersey_city"
   },
   {
-    "bucket": 6300,
-    "count": 66,
+    "bucket": 3780,
+    "count": 73,
     "year": 2018,
     "city": "jersey_city"
   },
   {
-    "bucket": 6480,
-    "count": 51,
+    "bucket": 3840,
+    "count": 81,
     "year": 2018,
     "city": "jersey_city"
   },
   {
-    "bucket": 6660,
+    "bucket": 3900,
+    "count": 57,
+    "year": 2018,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 3960,
+    "count": 59,
+    "year": 2018,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 4020,
+    "count": 70,
+    "year": 2018,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 4080,
+    "count": 65,
+    "year": 2018,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 4140,
     "count": 54,
     "year": 2018,
     "city": "jersey_city"
   },
   {
-    "bucket": 6840,
+    "bucket": 4200,
+    "count": 53,
+    "year": 2018,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 4260,
+    "count": 53,
+    "year": 2018,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 4320,
     "count": 48,
     "year": 2018,
     "city": "jersey_city"
   },
   {
+    "bucket": 4380,
+    "count": 44,
+    "year": 2018,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 4440,
+    "count": 66,
+    "year": 2018,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 4500,
+    "count": 57,
+    "year": 2018,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 4560,
+    "count": 41,
+    "year": 2018,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 4620,
+    "count": 48,
+    "year": 2018,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 4680,
+    "count": 49,
+    "year": 2018,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 4740,
+    "count": 43,
+    "year": 2018,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 4800,
+    "count": 54,
+    "year": 2018,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 4860,
+    "count": 51,
+    "year": 2018,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 4920,
+    "count": 45,
+    "year": 2018,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 4980,
+    "count": 33,
+    "year": 2018,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5040,
+    "count": 29,
+    "year": 2018,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5100,
+    "count": 33,
+    "year": 2018,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5160,
+    "count": 50,
+    "year": 2018,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5220,
+    "count": 46,
+    "year": 2018,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5280,
+    "count": 44,
+    "year": 2018,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5340,
+    "count": 29,
+    "year": 2018,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5400,
+    "count": 25,
+    "year": 2018,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5460,
+    "count": 30,
+    "year": 2018,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5520,
+    "count": 19,
+    "year": 2018,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5580,
+    "count": 21,
+    "year": 2018,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5640,
+    "count": 23,
+    "year": 2018,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5700,
+    "count": 27,
+    "year": 2018,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5760,
+    "count": 34,
+    "year": 2018,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5820,
+    "count": 29,
+    "year": 2018,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5880,
+    "count": 28,
+    "year": 2018,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5940,
+    "count": 31,
+    "year": 2018,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6000,
+    "count": 27,
+    "year": 2018,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6060,
+    "count": 21,
+    "year": 2018,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6120,
+    "count": 8,
+    "year": 2018,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6180,
+    "count": 23,
+    "year": 2018,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6240,
+    "count": 22,
+    "year": 2018,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6300,
+    "count": 28,
+    "year": 2018,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6360,
+    "count": 15,
+    "year": 2018,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6420,
+    "count": 23,
+    "year": 2018,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6480,
+    "count": 16,
+    "year": 2018,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6540,
+    "count": 16,
+    "year": 2018,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6600,
+    "count": 19,
+    "year": 2018,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6660,
+    "count": 22,
+    "year": 2018,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6720,
+    "count": 14,
+    "year": 2018,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6780,
+    "count": 18,
+    "year": 2018,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6840,
+    "count": 15,
+    "year": 2018,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6900,
+    "count": 22,
+    "year": 2018,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6960,
+    "count": 11,
+    "year": 2018,
+    "city": "jersey_city"
+  },
+  {
     "bucket": 7020,
-    "count": 59,
+    "count": 20,
+    "year": 2018,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 7080,
+    "count": 20,
+    "year": 2018,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 7140,
+    "count": 19,
     "year": 2018,
     "city": "jersey_city"
   },
@@ -984,242 +2868,716 @@
     "city": "jersey_city"
   },
   {
-    "bucket": 0,
-    "count": 51233,
+    "bucket": 60,
+    "count": 14644,
+    "year": 2019,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 120,
+    "count": 36589,
     "year": 2019,
     "city": "jersey_city"
   },
   {
     "bucket": 180,
-    "count": 160808,
+    "count": 56297,
+    "year": 2019,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 240,
+    "count": 59103,
+    "year": 2019,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 300,
+    "count": 45408,
     "year": 2019,
     "city": "jersey_city"
   },
   {
     "bucket": 360,
-    "count": 80335,
+    "count": 33649,
+    "year": 2019,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 420,
+    "count": 26125,
+    "year": 2019,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 480,
+    "count": 20561,
     "year": 2019,
     "city": "jersey_city"
   },
   {
     "bucket": 540,
-    "count": 38413,
+    "count": 15998,
+    "year": 2019,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 600,
+    "count": 12382,
+    "year": 2019,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 660,
+    "count": 10033,
     "year": 2019,
     "city": "jersey_city"
   },
   {
     "bucket": 720,
-    "count": 20523,
+    "count": 8179,
+    "year": 2019,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 780,
+    "count": 6686,
+    "year": 2019,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 840,
+    "count": 5658,
     "year": 2019,
     "city": "jersey_city"
   },
   {
     "bucket": 900,
-    "count": 12640,
+    "count": 4735,
+    "year": 2019,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 960,
+    "count": 4211,
+    "year": 2019,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 1020,
+    "count": 3694,
     "year": 2019,
     "city": "jersey_city"
   },
   {
     "bucket": 1080,
-    "count": 8497,
+    "count": 3229,
+    "year": 2019,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 1140,
+    "count": 2767,
+    "year": 2019,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 1200,
+    "count": 2501,
     "year": 2019,
     "city": "jersey_city"
   },
   {
     "bucket": 1260,
-    "count": 6152,
+    "count": 2301,
+    "year": 2019,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 1320,
+    "count": 1962,
+    "year": 2019,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 1380,
+    "count": 1889,
     "year": 2019,
     "city": "jersey_city"
   },
   {
     "bucket": 1440,
-    "count": 4715,
+    "count": 1664,
+    "year": 2019,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 1500,
+    "count": 1587,
+    "year": 2019,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 1560,
+    "count": 1464,
     "year": 2019,
     "city": "jersey_city"
   },
   {
     "bucket": 1620,
-    "count": 3930,
+    "count": 1399,
+    "year": 2019,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 1680,
+    "count": 1276,
+    "year": 2019,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 1740,
+    "count": 1255,
     "year": 2019,
     "city": "jersey_city"
   },
   {
     "bucket": 1800,
-    "count": 2789,
+    "count": 1053,
+    "year": 2019,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 1860,
+    "count": 909,
+    "year": 2019,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 1920,
+    "count": 827,
     "year": 2019,
     "city": "jersey_city"
   },
   {
     "bucket": 1980,
-    "count": 2115,
+    "count": 764,
+    "year": 2019,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 2040,
+    "count": 674,
+    "year": 2019,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 2100,
+    "count": 677,
     "year": 2019,
     "city": "jersey_city"
   },
   {
     "bucket": 2160,
-    "count": 1853,
+    "count": 655,
+    "year": 2019,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 2220,
+    "count": 618,
+    "year": 2019,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 2280,
+    "count": 580,
     "year": 2019,
     "city": "jersey_city"
   },
   {
     "bucket": 2340,
-    "count": 1693,
-    "year": 2019,
-    "city": "jersey_city"
-  },
-  {
-    "bucket": 2520,
-    "count": 1359,
-    "year": 2019,
-    "city": "jersey_city"
-  },
-  {
-    "bucket": 2700,
-    "count": 798,
-    "year": 2019,
-    "city": "jersey_city"
-  },
-  {
-    "bucket": 2880,
     "count": 592,
     "year": 2019,
     "city": "jersey_city"
   },
   {
-    "bucket": 3060,
-    "count": 535,
+    "bucket": 2400,
+    "count": 528,
     "year": 2019,
     "city": "jersey_city"
   },
   {
-    "bucket": 3240,
-    "count": 512,
+    "bucket": 2460,
+    "count": 573,
     "year": 2019,
     "city": "jersey_city"
   },
   {
-    "bucket": 3420,
-    "count": 473,
+    "bucket": 2520,
+    "count": 459,
     "year": 2019,
     "city": "jersey_city"
   },
   {
-    "bucket": 3600,
-    "count": 348,
+    "bucket": 2580,
+    "count": 471,
     "year": 2019,
     "city": "jersey_city"
   },
   {
-    "bucket": 3780,
-    "count": 297,
+    "bucket": 2640,
+    "count": 429,
     "year": 2019,
     "city": "jersey_city"
   },
   {
-    "bucket": 3960,
-    "count": 267,
+    "bucket": 2700,
+    "count": 317,
     "year": 2019,
     "city": "jersey_city"
   },
   {
-    "bucket": 4140,
-    "count": 276,
+    "bucket": 2760,
+    "count": 262,
     "year": 2019,
     "city": "jersey_city"
   },
   {
-    "bucket": 4320,
-    "count": 267,
+    "bucket": 2820,
+    "count": 219,
     "year": 2019,
     "city": "jersey_city"
   },
   {
-    "bucket": 4500,
-    "count": 221,
+    "bucket": 2880,
+    "count": 204,
     "year": 2019,
     "city": "jersey_city"
   },
   {
-    "bucket": 4680,
-    "count": 195,
+    "bucket": 2940,
+    "count": 199,
     "year": 2019,
     "city": "jersey_city"
   },
   {
-    "bucket": 4860,
+    "bucket": 3000,
     "count": 189,
     "year": 2019,
     "city": "jersey_city"
   },
   {
-    "bucket": 5040,
-    "count": 176,
+    "bucket": 3060,
+    "count": 172,
     "year": 2019,
     "city": "jersey_city"
   },
   {
-    "bucket": 5220,
-    "count": 146,
+    "bucket": 3120,
+    "count": 177,
     "year": 2019,
     "city": "jersey_city"
   },
   {
-    "bucket": 5400,
-    "count": 151,
+    "bucket": 3180,
+    "count": 186,
     "year": 2019,
     "city": "jersey_city"
   },
   {
-    "bucket": 5580,
-    "count": 118,
+    "bucket": 3240,
+    "count": 168,
     "year": 2019,
     "city": "jersey_city"
   },
   {
-    "bucket": 5760,
-    "count": 126,
+    "bucket": 3300,
+    "count": 165,
     "year": 2019,
     "city": "jersey_city"
   },
   {
-    "bucket": 5940,
-    "count": 91,
+    "bucket": 3360,
+    "count": 179,
     "year": 2019,
     "city": "jersey_city"
   },
   {
-    "bucket": 6120,
+    "bucket": 3420,
+    "count": 159,
+    "year": 2019,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 3480,
+    "count": 164,
+    "year": 2019,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 3540,
+    "count": 150,
+    "year": 2019,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 3600,
+    "count": 117,
+    "year": 2019,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 3660,
     "count": 109,
     "year": 2019,
     "city": "jersey_city"
   },
   {
-    "bucket": 6300,
+    "bucket": 3720,
+    "count": 122,
+    "year": 2019,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 3780,
+    "count": 102,
+    "year": 2019,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 3840,
+    "count": 102,
+    "year": 2019,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 3900,
+    "count": 93,
+    "year": 2019,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 3960,
+    "count": 88,
+    "year": 2019,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 4020,
+    "count": 91,
+    "year": 2019,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 4080,
+    "count": 88,
+    "year": 2019,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 4140,
+    "count": 100,
+    "year": 2019,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 4200,
     "count": 94,
     "year": 2019,
     "city": "jersey_city"
   },
   {
-    "bucket": 6480,
-    "count": 83,
+    "bucket": 4260,
+    "count": 82,
     "year": 2019,
     "city": "jersey_city"
   },
   {
-    "bucket": 6660,
+    "bucket": 4320,
+    "count": 94,
+    "year": 2019,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 4380,
+    "count": 86,
+    "year": 2019,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 4440,
+    "count": 87,
+    "year": 2019,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 4500,
     "count": 76,
     "year": 2019,
     "city": "jersey_city"
   },
   {
+    "bucket": 4560,
+    "count": 60,
+    "year": 2019,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 4620,
+    "count": 85,
+    "year": 2019,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 4680,
+    "count": 60,
+    "year": 2019,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 4740,
+    "count": 73,
+    "year": 2019,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 4800,
+    "count": 62,
+    "year": 2019,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 4860,
+    "count": 60,
+    "year": 2019,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 4920,
+    "count": 56,
+    "year": 2019,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 4980,
+    "count": 73,
+    "year": 2019,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5040,
+    "count": 66,
+    "year": 2019,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5100,
+    "count": 56,
+    "year": 2019,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5160,
+    "count": 54,
+    "year": 2019,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5220,
+    "count": 33,
+    "year": 2019,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5280,
+    "count": 55,
+    "year": 2019,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5340,
+    "count": 58,
+    "year": 2019,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5400,
+    "count": 66,
+    "year": 2019,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5460,
+    "count": 44,
+    "year": 2019,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5520,
+    "count": 41,
+    "year": 2019,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5580,
+    "count": 36,
+    "year": 2019,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5640,
+    "count": 30,
+    "year": 2019,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5700,
+    "count": 52,
+    "year": 2019,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5760,
+    "count": 40,
+    "year": 2019,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5820,
+    "count": 39,
+    "year": 2019,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5880,
+    "count": 47,
+    "year": 2019,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5940,
+    "count": 32,
+    "year": 2019,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6000,
+    "count": 30,
+    "year": 2019,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6060,
+    "count": 29,
+    "year": 2019,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6120,
+    "count": 27,
+    "year": 2019,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6180,
+    "count": 48,
+    "year": 2019,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6240,
+    "count": 34,
+    "year": 2019,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6300,
+    "count": 27,
+    "year": 2019,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6360,
+    "count": 38,
+    "year": 2019,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6420,
+    "count": 29,
+    "year": 2019,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6480,
+    "count": 28,
+    "year": 2019,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6540,
+    "count": 19,
+    "year": 2019,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6600,
+    "count": 36,
+    "year": 2019,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6660,
+    "count": 28,
+    "year": 2019,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6720,
+    "count": 25,
+    "year": 2019,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6780,
+    "count": 23,
+    "year": 2019,
+    "city": "jersey_city"
+  },
+  {
     "bucket": 6840,
-    "count": 65,
+    "count": 19,
+    "year": 2019,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6900,
+    "count": 27,
+    "year": 2019,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6960,
+    "count": 19,
     "year": 2019,
     "city": "jersey_city"
   },
   {
     "bucket": 7020,
-    "count": 80,
+    "count": 25,
+    "year": 2019,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 7080,
+    "count": 29,
+    "year": 2019,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 7140,
+    "count": 26,
     "year": 2019,
     "city": "jersey_city"
   },
@@ -1230,242 +3588,716 @@
     "city": "jersey_city"
   },
   {
-    "bucket": 0,
-    "count": 23697,
+    "bucket": 60,
+    "count": 7126,
+    "year": 2020,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 120,
+    "count": 16571,
     "year": 2020,
     "city": "jersey_city"
   },
   {
     "bucket": 180,
-    "count": 73126,
+    "count": 24253,
+    "year": 2020,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 240,
+    "count": 25164,
+    "year": 2020,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 300,
+    "count": 23709,
     "year": 2020,
     "city": "jersey_city"
   },
   {
     "bucket": 360,
-    "count": 54676,
+    "count": 20727,
+    "year": 2020,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 420,
+    "count": 18223,
+    "year": 2020,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 480,
+    "count": 15726,
     "year": 2020,
     "city": "jersey_city"
   },
   {
     "bucket": 540,
-    "count": 35969,
+    "count": 13555,
+    "year": 2020,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 600,
+    "count": 11956,
+    "year": 2020,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 660,
+    "count": 10458,
     "year": 2020,
     "city": "jersey_city"
   },
   {
     "bucket": 720,
-    "count": 24536,
+    "count": 9133,
+    "year": 2020,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 780,
+    "count": 8149,
+    "year": 2020,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 840,
+    "count": 7254,
     "year": 2020,
     "city": "jersey_city"
   },
   {
     "bucket": 900,
-    "count": 17700,
+    "count": 6449,
+    "year": 2020,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 960,
+    "count": 5840,
+    "year": 2020,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 1020,
+    "count": 5411,
     "year": 2020,
     "city": "jersey_city"
   },
   {
     "bucket": 1080,
-    "count": 13236,
+    "count": 4772,
+    "year": 2020,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 1140,
+    "count": 4405,
+    "year": 2020,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 1200,
+    "count": 4059,
     "year": 2020,
     "city": "jersey_city"
   },
   {
     "bucket": 1260,
-    "count": 11071,
+    "count": 3776,
+    "year": 2020,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 1320,
+    "count": 3714,
+    "year": 2020,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 1380,
+    "count": 3581,
     "year": 2020,
     "city": "jersey_city"
   },
   {
     "bucket": 1440,
-    "count": 9892,
+    "count": 3349,
+    "year": 2020,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 1500,
+    "count": 3369,
+    "year": 2020,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 1560,
+    "count": 3174,
     "year": 2020,
     "city": "jersey_city"
   },
   {
     "bucket": 1620,
-    "count": 10139,
+    "count": 3386,
+    "year": 2020,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 1680,
+    "count": 3499,
+    "year": 2020,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 1740,
+    "count": 3254,
     "year": 2020,
     "city": "jersey_city"
   },
   {
     "bucket": 1800,
-    "count": 7991,
+    "count": 3058,
+    "year": 2020,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 1860,
+    "count": 2535,
+    "year": 2020,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 1920,
+    "count": 2398,
     "year": 2020,
     "city": "jersey_city"
   },
   {
     "bucket": 1980,
-    "count": 6373,
+    "count": 2199,
+    "year": 2020,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 2040,
+    "count": 2119,
+    "year": 2020,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 2100,
+    "count": 2055,
     "year": 2020,
     "city": "jersey_city"
   },
   {
     "bucket": 2160,
-    "count": 5862,
+    "count": 1959,
+    "year": 2020,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 2220,
+    "count": 2014,
+    "year": 2020,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 2280,
+    "count": 1889,
     "year": 2020,
     "city": "jersey_city"
   },
   {
     "bucket": 2340,
-    "count": 5663,
+    "count": 1928,
+    "year": 2020,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 2400,
+    "count": 1902,
+    "year": 2020,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 2460,
+    "count": 1833,
     "year": 2020,
     "city": "jersey_city"
   },
   {
     "bucket": 2520,
-    "count": 4919,
+    "count": 1756,
+    "year": 2020,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 2580,
+    "count": 1596,
+    "year": 2020,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 2640,
+    "count": 1567,
     "year": 2020,
     "city": "jersey_city"
   },
   {
     "bucket": 2700,
-    "count": 3500,
+    "count": 1386,
+    "year": 2020,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 2760,
+    "count": 1149,
+    "year": 2020,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 2820,
+    "count": 965,
     "year": 2020,
     "city": "jersey_city"
   },
   {
     "bucket": 2880,
-    "count": 2465,
+    "count": 869,
+    "year": 2020,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 2940,
+    "count": 824,
+    "year": 2020,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 3000,
+    "count": 772,
     "year": 2020,
     "city": "jersey_city"
   },
   {
     "bucket": 3060,
-    "count": 2195,
+    "count": 779,
+    "year": 2020,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 3120,
+    "count": 758,
+    "year": 2020,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 3180,
+    "count": 658,
     "year": 2020,
     "city": "jersey_city"
   },
   {
     "bucket": 3240,
-    "count": 2028,
+    "count": 740,
+    "year": 2020,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 3300,
+    "count": 666,
+    "year": 2020,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 3360,
+    "count": 622,
     "year": 2020,
     "city": "jersey_city"
   },
   {
     "bucket": 3420,
-    "count": 1724,
+    "count": 590,
+    "year": 2020,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 3480,
+    "count": 559,
+    "year": 2020,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 3540,
+    "count": 575,
     "year": 2020,
     "city": "jersey_city"
   },
   {
     "bucket": 3600,
-    "count": 1562,
+    "count": 569,
+    "year": 2020,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 3660,
+    "count": 528,
+    "year": 2020,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 3720,
+    "count": 465,
     "year": 2020,
     "city": "jersey_city"
   },
   {
     "bucket": 3780,
-    "count": 1382,
+    "count": 497,
+    "year": 2020,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 3840,
+    "count": 435,
+    "year": 2020,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 3900,
+    "count": 450,
     "year": 2020,
     "city": "jersey_city"
   },
   {
     "bucket": 3960,
-    "count": 1305,
+    "count": 468,
+    "year": 2020,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 4020,
+    "count": 433,
+    "year": 2020,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 4080,
+    "count": 404,
     "year": 2020,
     "city": "jersey_city"
   },
   {
     "bucket": 4140,
-    "count": 1120,
+    "count": 401,
+    "year": 2020,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 4200,
+    "count": 350,
+    "year": 2020,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 4260,
+    "count": 369,
     "year": 2020,
     "city": "jersey_city"
   },
   {
     "bucket": 4320,
-    "count": 1040,
+    "count": 387,
+    "year": 2020,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 4380,
+    "count": 340,
+    "year": 2020,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 4440,
+    "count": 313,
     "year": 2020,
     "city": "jersey_city"
   },
   {
     "bucket": 4500,
-    "count": 951,
+    "count": 323,
+    "year": 2020,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 4560,
+    "count": 317,
+    "year": 2020,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 4620,
+    "count": 311,
     "year": 2020,
     "city": "jersey_city"
   },
   {
     "bucket": 4680,
-    "count": 897,
+    "count": 302,
+    "year": 2020,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 4740,
+    "count": 305,
+    "year": 2020,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 4800,
+    "count": 290,
     "year": 2020,
     "city": "jersey_city"
   },
   {
     "bucket": 4860,
-    "count": 841,
+    "count": 277,
+    "year": 2020,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 4920,
+    "count": 271,
+    "year": 2020,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 4980,
+    "count": 293,
     "year": 2020,
     "city": "jersey_city"
   },
   {
     "bucket": 5040,
-    "count": 724,
+    "count": 238,
+    "year": 2020,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5100,
+    "count": 245,
+    "year": 2020,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5160,
+    "count": 241,
     "year": 2020,
     "city": "jersey_city"
   },
   {
     "bucket": 5220,
-    "count": 664,
+    "count": 222,
+    "year": 2020,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5280,
+    "count": 207,
+    "year": 2020,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5340,
+    "count": 235,
     "year": 2020,
     "city": "jersey_city"
   },
   {
     "bucket": 5400,
-    "count": 620,
+    "count": 192,
+    "year": 2020,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5460,
+    "count": 191,
+    "year": 2020,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5520,
+    "count": 237,
     "year": 2020,
     "city": "jersey_city"
   },
   {
     "bucket": 5580,
-    "count": 555,
+    "count": 171,
+    "year": 2020,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5640,
+    "count": 209,
+    "year": 2020,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5700,
+    "count": 175,
     "year": 2020,
     "city": "jersey_city"
   },
   {
     "bucket": 5760,
-    "count": 541,
+    "count": 174,
+    "year": 2020,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5820,
+    "count": 196,
+    "year": 2020,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5880,
+    "count": 171,
     "year": 2020,
     "city": "jersey_city"
   },
   {
     "bucket": 5940,
-    "count": 454,
+    "count": 165,
+    "year": 2020,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6000,
+    "count": 136,
+    "year": 2020,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6060,
+    "count": 153,
     "year": 2020,
     "city": "jersey_city"
   },
   {
     "bucket": 6120,
-    "count": 456,
+    "count": 174,
+    "year": 2020,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6180,
+    "count": 145,
+    "year": 2020,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6240,
+    "count": 137,
     "year": 2020,
     "city": "jersey_city"
   },
   {
     "bucket": 6300,
-    "count": 418,
+    "count": 124,
+    "year": 2020,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6360,
+    "count": 141,
+    "year": 2020,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6420,
+    "count": 153,
     "year": 2020,
     "city": "jersey_city"
   },
   {
     "bucket": 6480,
-    "count": 402,
+    "count": 129,
+    "year": 2020,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6540,
+    "count": 145,
+    "year": 2020,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6600,
+    "count": 128,
     "year": 2020,
     "city": "jersey_city"
   },
   {
     "bucket": 6660,
-    "count": 355,
+    "count": 122,
+    "year": 2020,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6720,
+    "count": 124,
+    "year": 2020,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6780,
+    "count": 109,
     "year": 2020,
     "city": "jersey_city"
   },
   {
     "bucket": 6840,
-    "count": 328,
+    "count": 118,
+    "year": 2020,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6900,
+    "count": 108,
+    "year": 2020,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6960,
+    "count": 102,
     "year": 2020,
     "city": "jersey_city"
   },
   {
     "bucket": 7020,
-    "count": 303,
+    "count": 115,
+    "year": 2020,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 7080,
+    "count": 96,
+    "year": 2020,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 7140,
+    "count": 92,
     "year": 2020,
     "city": "jersey_city"
   },
@@ -1477,241 +4309,721 @@
   },
   {
     "bucket": 0,
-    "count": 59497,
+    "count": 13508,
+    "year": 2021,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 60,
+    "count": 16324,
+    "year": 2021,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 120,
+    "count": 29665,
     "year": 2021,
     "city": "jersey_city"
   },
   {
     "bucket": 180,
-    "count": 148027,
+    "count": 43433,
+    "year": 2021,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 240,
+    "count": 51622,
+    "year": 2021,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 300,
+    "count": 52972,
     "year": 2021,
     "city": "jersey_city"
   },
   {
     "bucket": 360,
-    "count": 135899,
+    "count": 50476,
+    "year": 2021,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 420,
+    "count": 45467,
+    "year": 2021,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 480,
+    "count": 39956,
     "year": 2021,
     "city": "jersey_city"
   },
   {
     "bucket": 540,
-    "count": 85506,
+    "count": 33835,
+    "year": 2021,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 600,
+    "count": 28195,
+    "year": 2021,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 660,
+    "count": 23476,
     "year": 2021,
     "city": "jersey_city"
   },
   {
     "bucket": 720,
-    "count": 50210,
+    "count": 19531,
+    "year": 2021,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 780,
+    "count": 16778,
+    "year": 2021,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 840,
+    "count": 13901,
     "year": 2021,
     "city": "jersey_city"
   },
   {
     "bucket": 900,
-    "count": 31943,
+    "count": 12221,
+    "year": 2021,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 960,
+    "count": 10487,
+    "year": 2021,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 1020,
+    "count": 9235,
     "year": 2021,
     "city": "jersey_city"
   },
   {
     "bucket": 1080,
-    "count": 21988,
+    "count": 8096,
+    "year": 2021,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 1140,
+    "count": 7287,
+    "year": 2021,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 1200,
+    "count": 6605,
     "year": 2021,
     "city": "jersey_city"
   },
   {
     "bucket": 1260,
-    "count": 16613,
+    "count": 6095,
+    "year": 2021,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 1320,
+    "count": 5497,
+    "year": 2021,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 1380,
+    "count": 5021,
     "year": 2021,
     "city": "jersey_city"
   },
   {
     "bucket": 1440,
-    "count": 13565,
+    "count": 4848,
+    "year": 2021,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 1500,
+    "count": 4460,
+    "year": 2021,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 1560,
+    "count": 4257,
     "year": 2021,
     "city": "jersey_city"
   },
   {
     "bucket": 1620,
-    "count": 11383,
+    "count": 4080,
+    "year": 2021,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 1680,
+    "count": 3798,
+    "year": 2021,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 1740,
+    "count": 3505,
     "year": 2021,
     "city": "jersey_city"
   },
   {
     "bucket": 1800,
-    "count": 9127,
+    "count": 3278,
+    "year": 2021,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 1860,
+    "count": 3069,
+    "year": 2021,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 1920,
+    "count": 2780,
     "year": 2021,
     "city": "jersey_city"
   },
   {
     "bucket": 1980,
-    "count": 7283,
+    "count": 2574,
+    "year": 2021,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 2040,
+    "count": 2431,
+    "year": 2021,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 2100,
+    "count": 2278,
     "year": 2021,
     "city": "jersey_city"
   },
   {
     "bucket": 2160,
-    "count": 6330,
+    "count": 2187,
+    "year": 2021,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 2220,
+    "count": 2083,
+    "year": 2021,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 2280,
+    "count": 2060,
     "year": 2021,
     "city": "jersey_city"
   },
   {
     "bucket": 2340,
-    "count": 5520,
+    "count": 1917,
+    "year": 2021,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 2400,
+    "count": 1847,
+    "year": 2021,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 2460,
+    "count": 1756,
     "year": 2021,
     "city": "jersey_city"
   },
   {
     "bucket": 2520,
-    "count": 4917,
+    "count": 1701,
+    "year": 2021,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 2580,
+    "count": 1621,
+    "year": 2021,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 2640,
+    "count": 1595,
     "year": 2021,
     "city": "jersey_city"
   },
   {
     "bucket": 2700,
-    "count": 3753,
+    "count": 1442,
+    "year": 2021,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 2760,
+    "count": 1240,
+    "year": 2021,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 2820,
+    "count": 1071,
     "year": 2021,
     "city": "jersey_city"
   },
   {
     "bucket": 2880,
-    "count": 2936,
+    "count": 1079,
+    "year": 2021,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 2940,
+    "count": 990,
+    "year": 2021,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 3000,
+    "count": 867,
     "year": 2021,
     "city": "jersey_city"
   },
   {
     "bucket": 3060,
-    "count": 2482,
+    "count": 864,
+    "year": 2021,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 3120,
+    "count": 827,
+    "year": 2021,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 3180,
+    "count": 791,
     "year": 2021,
     "city": "jersey_city"
   },
   {
     "bucket": 3240,
-    "count": 2296,
+    "count": 789,
+    "year": 2021,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 3300,
+    "count": 759,
+    "year": 2021,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 3360,
+    "count": 748,
     "year": 2021,
     "city": "jersey_city"
   },
   {
     "bucket": 3420,
-    "count": 2031,
+    "count": 707,
+    "year": 2021,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 3480,
+    "count": 649,
+    "year": 2021,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 3540,
+    "count": 675,
     "year": 2021,
     "city": "jersey_city"
   },
   {
     "bucket": 3600,
-    "count": 1734,
+    "count": 589,
     "year": 2021,
     "city": "jersey_city"
   },
   {
-    "bucket": 3780,
-    "count": 1586,
-    "year": 2021,
-    "city": "jersey_city"
-  },
-  {
-    "bucket": 3960,
-    "count": 1381,
-    "year": 2021,
-    "city": "jersey_city"
-  },
-  {
-    "bucket": 4140,
-    "count": 1320,
-    "year": 2021,
-    "city": "jersey_city"
-  },
-  {
-    "bucket": 4320,
-    "count": 1214,
-    "year": 2021,
-    "city": "jersey_city"
-  },
-  {
-    "bucket": 4500,
-    "count": 1045,
-    "year": 2021,
-    "city": "jersey_city"
-  },
-  {
-    "bucket": 4680,
-    "count": 894,
-    "year": 2021,
-    "city": "jersey_city"
-  },
-  {
-    "bucket": 4860,
-    "count": 874,
-    "year": 2021,
-    "city": "jersey_city"
-  },
-  {
-    "bucket": 5040,
-    "count": 720,
-    "year": 2021,
-    "city": "jersey_city"
-  },
-  {
-    "bucket": 5220,
-    "count": 690,
-    "year": 2021,
-    "city": "jersey_city"
-  },
-  {
-    "bucket": 5400,
-    "count": 654,
-    "year": 2021,
-    "city": "jersey_city"
-  },
-  {
-    "bucket": 5580,
+    "bucket": 3660,
     "count": 574,
     "year": 2021,
     "city": "jersey_city"
   },
   {
+    "bucket": 3720,
+    "count": 571,
+    "year": 2021,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 3780,
+    "count": 551,
+    "year": 2021,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 3840,
+    "count": 521,
+    "year": 2021,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 3900,
+    "count": 514,
+    "year": 2021,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 3960,
+    "count": 506,
+    "year": 2021,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 4020,
+    "count": 420,
+    "year": 2021,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 4080,
+    "count": 455,
+    "year": 2021,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 4140,
+    "count": 449,
+    "year": 2021,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 4200,
+    "count": 425,
+    "year": 2021,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 4260,
+    "count": 446,
+    "year": 2021,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 4320,
+    "count": 419,
+    "year": 2021,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 4380,
+    "count": 416,
+    "year": 2021,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 4440,
+    "count": 379,
+    "year": 2021,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 4500,
+    "count": 359,
+    "year": 2021,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 4560,
+    "count": 352,
+    "year": 2021,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 4620,
+    "count": 334,
+    "year": 2021,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 4680,
+    "count": 298,
+    "year": 2021,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 4740,
+    "count": 315,
+    "year": 2021,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 4800,
+    "count": 281,
+    "year": 2021,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 4860,
+    "count": 316,
+    "year": 2021,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 4920,
+    "count": 277,
+    "year": 2021,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 4980,
+    "count": 281,
+    "year": 2021,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5040,
+    "count": 261,
+    "year": 2021,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5100,
+    "count": 252,
+    "year": 2021,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5160,
+    "count": 207,
+    "year": 2021,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5220,
+    "count": 240,
+    "year": 2021,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5280,
+    "count": 232,
+    "year": 2021,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5340,
+    "count": 218,
+    "year": 2021,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5400,
+    "count": 244,
+    "year": 2021,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5460,
+    "count": 206,
+    "year": 2021,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5520,
+    "count": 204,
+    "year": 2021,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5580,
+    "count": 211,
+    "year": 2021,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5640,
+    "count": 187,
+    "year": 2021,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5700,
+    "count": 176,
+    "year": 2021,
+    "city": "jersey_city"
+  },
+  {
     "bucket": 5760,
-    "count": 520,
+    "count": 184,
+    "year": 2021,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5820,
+    "count": 167,
+    "year": 2021,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5880,
+    "count": 169,
     "year": 2021,
     "city": "jersey_city"
   },
   {
     "bucket": 5940,
-    "count": 490,
+    "count": 180,
+    "year": 2021,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6000,
+    "count": 163,
+    "year": 2021,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6060,
+    "count": 147,
     "year": 2021,
     "city": "jersey_city"
   },
   {
     "bucket": 6120,
-    "count": 424,
+    "count": 142,
+    "year": 2021,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6180,
+    "count": 153,
+    "year": 2021,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6240,
+    "count": 129,
     "year": 2021,
     "city": "jersey_city"
   },
   {
     "bucket": 6300,
-    "count": 430,
+    "count": 156,
+    "year": 2021,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6360,
+    "count": 133,
+    "year": 2021,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6420,
+    "count": 141,
     "year": 2021,
     "city": "jersey_city"
   },
   {
     "bucket": 6480,
-    "count": 391,
+    "count": 118,
+    "year": 2021,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6540,
+    "count": 134,
+    "year": 2021,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6600,
+    "count": 139,
     "year": 2021,
     "city": "jersey_city"
   },
   {
     "bucket": 6660,
-    "count": 341,
+    "count": 108,
+    "year": 2021,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6720,
+    "count": 124,
+    "year": 2021,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6780,
+    "count": 109,
     "year": 2021,
     "city": "jersey_city"
   },
   {
     "bucket": 6840,
-    "count": 268,
+    "count": 81,
+    "year": 2021,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6900,
+    "count": 97,
+    "year": 2021,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6960,
+    "count": 90,
     "year": 2021,
     "city": "jersey_city"
   },
   {
     "bucket": 7020,
-    "count": 270,
+    "count": 100,
+    "year": 2021,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 7080,
+    "count": 98,
+    "year": 2021,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 7140,
+    "count": 72,
     "year": 2021,
     "city": "jersey_city"
   },
@@ -1723,241 +5035,721 @@
   },
   {
     "bucket": 0,
-    "count": 96094,
+    "count": 18356,
+    "year": 2022,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 60,
+    "count": 25710,
+    "year": 2022,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 120,
+    "count": 52028,
     "year": 2022,
     "city": "jersey_city"
   },
   {
     "bucket": 180,
-    "count": 257958,
+    "count": 80676,
+    "year": 2022,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 240,
+    "count": 90275,
+    "year": 2022,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 300,
+    "count": 87007,
     "year": 2022,
     "city": "jersey_city"
   },
   {
     "bucket": 360,
-    "count": 201116,
+    "count": 78511,
+    "year": 2022,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 420,
+    "count": 66827,
+    "year": 2022,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 480,
+    "count": 55778,
     "year": 2022,
     "city": "jersey_city"
   },
   {
     "bucket": 540,
-    "count": 110116,
+    "count": 45216,
+    "year": 2022,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 600,
+    "count": 35831,
+    "year": 2022,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 660,
+    "count": 29069,
     "year": 2022,
     "city": "jersey_city"
   },
   {
     "bucket": 720,
-    "count": 60163,
+    "count": 23481,
+    "year": 2022,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 780,
+    "count": 19880,
+    "year": 2022,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 840,
+    "count": 16802,
     "year": 2022,
     "city": "jersey_city"
   },
   {
     "bucket": 900,
-    "count": 37241,
+    "count": 14279,
+    "year": 2022,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 960,
+    "count": 12228,
+    "year": 2022,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 1020,
+    "count": 10734,
     "year": 2022,
     "city": "jersey_city"
   },
   {
     "bucket": 1080,
-    "count": 24796,
+    "count": 9344,
+    "year": 2022,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 1140,
+    "count": 8301,
+    "year": 2022,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 1200,
+    "count": 7151,
     "year": 2022,
     "city": "jersey_city"
   },
   {
     "bucket": 1260,
-    "count": 17103,
+    "count": 6396,
+    "year": 2022,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 1320,
+    "count": 5644,
+    "year": 2022,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 1380,
+    "count": 5063,
     "year": 2022,
     "city": "jersey_city"
   },
   {
     "bucket": 1440,
-    "count": 13380,
+    "count": 4830,
+    "year": 2022,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 1500,
+    "count": 4468,
+    "year": 2022,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 1560,
+    "count": 4082,
     "year": 2022,
     "city": "jersey_city"
   },
   {
     "bucket": 1620,
-    "count": 10761,
+    "count": 3776,
+    "year": 2022,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 1680,
+    "count": 3483,
+    "year": 2022,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 1740,
+    "count": 3502,
     "year": 2022,
     "city": "jersey_city"
   },
   {
     "bucket": 1800,
-    "count": 8752,
+    "count": 3220,
+    "year": 2022,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 1860,
+    "count": 2828,
+    "year": 2022,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 1920,
+    "count": 2704,
     "year": 2022,
     "city": "jersey_city"
   },
   {
     "bucket": 1980,
-    "count": 7001,
+    "count": 2517,
+    "year": 2022,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 2040,
+    "count": 2242,
+    "year": 2022,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 2100,
+    "count": 2242,
     "year": 2022,
     "city": "jersey_city"
   },
   {
     "bucket": 2160,
-    "count": 6095,
+    "count": 2166,
+    "year": 2022,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 2220,
+    "count": 2003,
+    "year": 2022,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 2280,
+    "count": 1926,
     "year": 2022,
     "city": "jersey_city"
   },
   {
     "bucket": 2340,
-    "count": 5108,
+    "count": 1758,
+    "year": 2022,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 2400,
+    "count": 1757,
+    "year": 2022,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 2460,
+    "count": 1593,
     "year": 2022,
     "city": "jersey_city"
   },
   {
     "bucket": 2520,
-    "count": 4516,
+    "count": 1588,
+    "year": 2022,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 2580,
+    "count": 1533,
+    "year": 2022,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 2640,
+    "count": 1395,
     "year": 2022,
     "city": "jersey_city"
   },
   {
     "bucket": 2700,
-    "count": 3569,
+    "count": 1293,
+    "year": 2022,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 2760,
+    "count": 1179,
+    "year": 2022,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 2820,
+    "count": 1097,
     "year": 2022,
     "city": "jersey_city"
   },
   {
     "bucket": 2880,
-    "count": 2847,
+    "count": 1000,
+    "year": 2022,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 2940,
+    "count": 967,
+    "year": 2022,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 3000,
+    "count": 880,
     "year": 2022,
     "city": "jersey_city"
   },
   {
     "bucket": 3060,
-    "count": 2318,
+    "count": 781,
+    "year": 2022,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 3120,
+    "count": 784,
+    "year": 2022,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 3180,
+    "count": 753,
     "year": 2022,
     "city": "jersey_city"
   },
   {
     "bucket": 3240,
-    "count": 2117,
+    "count": 729,
+    "year": 2022,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 3300,
+    "count": 719,
+    "year": 2022,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 3360,
+    "count": 669,
     "year": 2022,
     "city": "jersey_city"
   },
   {
     "bucket": 3420,
-    "count": 1899,
+    "count": 620,
+    "year": 2022,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 3480,
+    "count": 633,
+    "year": 2022,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 3540,
+    "count": 646,
     "year": 2022,
     "city": "jersey_city"
   },
   {
     "bucket": 3600,
-    "count": 1754,
+    "count": 645,
+    "year": 2022,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 3660,
+    "count": 562,
+    "year": 2022,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 3720,
+    "count": 547,
     "year": 2022,
     "city": "jersey_city"
   },
   {
     "bucket": 3780,
-    "count": 1504,
+    "count": 501,
+    "year": 2022,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 3840,
+    "count": 503,
+    "year": 2022,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 3900,
+    "count": 500,
     "year": 2022,
     "city": "jersey_city"
   },
   {
     "bucket": 3960,
-    "count": 1352,
+    "count": 474,
+    "year": 2022,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 4020,
+    "count": 457,
+    "year": 2022,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 4080,
+    "count": 421,
     "year": 2022,
     "city": "jersey_city"
   },
   {
     "bucket": 4140,
-    "count": 1214,
+    "count": 408,
+    "year": 2022,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 4200,
+    "count": 404,
+    "year": 2022,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 4260,
+    "count": 402,
     "year": 2022,
     "city": "jersey_city"
   },
   {
     "bucket": 4320,
-    "count": 1070,
-    "year": 2022,
-    "city": "jersey_city"
-  },
-  {
-    "bucket": 4500,
-    "count": 930,
-    "year": 2022,
-    "city": "jersey_city"
-  },
-  {
-    "bucket": 4680,
-    "count": 899,
-    "year": 2022,
-    "city": "jersey_city"
-  },
-  {
-    "bucket": 4860,
-    "count": 856,
-    "year": 2022,
-    "city": "jersey_city"
-  },
-  {
-    "bucket": 5040,
-    "count": 709,
-    "year": 2022,
-    "city": "jersey_city"
-  },
-  {
-    "bucket": 5220,
-    "count": 564,
-    "year": 2022,
-    "city": "jersey_city"
-  },
-  {
-    "bucket": 5400,
-    "count": 550,
-    "year": 2022,
-    "city": "jersey_city"
-  },
-  {
-    "bucket": 5580,
-    "count": 520,
-    "year": 2022,
-    "city": "jersey_city"
-  },
-  {
-    "bucket": 5760,
-    "count": 473,
-    "year": 2022,
-    "city": "jersey_city"
-  },
-  {
-    "bucket": 5940,
-    "count": 415,
-    "year": 2022,
-    "city": "jersey_city"
-  },
-  {
-    "bucket": 6120,
     "count": 366,
     "year": 2022,
     "city": "jersey_city"
   },
   {
-    "bucket": 6300,
-    "count": 338,
+    "bucket": 4380,
+    "count": 369,
     "year": 2022,
     "city": "jersey_city"
   },
   {
-    "bucket": 6480,
-    "count": 330,
+    "bucket": 4440,
+    "count": 335,
     "year": 2022,
     "city": "jersey_city"
   },
   {
-    "bucket": 6660,
+    "bucket": 4500,
+    "count": 325,
+    "year": 2022,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 4560,
+    "count": 311,
+    "year": 2022,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 4620,
+    "count": 294,
+    "year": 2022,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 4680,
     "count": 316,
     "year": 2022,
     "city": "jersey_city"
   },
   {
+    "bucket": 4740,
+    "count": 280,
+    "year": 2022,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 4800,
+    "count": 303,
+    "year": 2022,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 4860,
+    "count": 308,
+    "year": 2022,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 4920,
+    "count": 286,
+    "year": 2022,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 4980,
+    "count": 262,
+    "year": 2022,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5040,
+    "count": 239,
+    "year": 2022,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5100,
+    "count": 229,
+    "year": 2022,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5160,
+    "count": 241,
+    "year": 2022,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5220,
+    "count": 188,
+    "year": 2022,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5280,
+    "count": 196,
+    "year": 2022,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5340,
+    "count": 180,
+    "year": 2022,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5400,
+    "count": 170,
+    "year": 2022,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5460,
+    "count": 210,
+    "year": 2022,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5520,
+    "count": 170,
+    "year": 2022,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5580,
+    "count": 182,
+    "year": 2022,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5640,
+    "count": 163,
+    "year": 2022,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5700,
+    "count": 175,
+    "year": 2022,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5760,
+    "count": 165,
+    "year": 2022,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5820,
+    "count": 160,
+    "year": 2022,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5880,
+    "count": 148,
+    "year": 2022,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5940,
+    "count": 135,
+    "year": 2022,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6000,
+    "count": 138,
+    "year": 2022,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6060,
+    "count": 142,
+    "year": 2022,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6120,
+    "count": 131,
+    "year": 2022,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6180,
+    "count": 124,
+    "year": 2022,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6240,
+    "count": 111,
+    "year": 2022,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6300,
+    "count": 108,
+    "year": 2022,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6360,
+    "count": 124,
+    "year": 2022,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6420,
+    "count": 106,
+    "year": 2022,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6480,
+    "count": 114,
+    "year": 2022,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6540,
+    "count": 98,
+    "year": 2022,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6600,
+    "count": 118,
+    "year": 2022,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6660,
+    "count": 103,
+    "year": 2022,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6720,
+    "count": 125,
+    "year": 2022,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6780,
+    "count": 88,
+    "year": 2022,
+    "city": "jersey_city"
+  },
+  {
     "bucket": 6840,
-    "count": 244,
+    "count": 90,
+    "year": 2022,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6900,
+    "count": 80,
+    "year": 2022,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6960,
+    "count": 74,
     "year": 2022,
     "city": "jersey_city"
   },
   {
     "bucket": 7020,
-    "count": 258,
+    "count": 85,
+    "year": 2022,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 7080,
+    "count": 90,
+    "year": 2022,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 7140,
+    "count": 83,
     "year": 2022,
     "city": "jersey_city"
   },
@@ -1969,241 +5761,721 @@
   },
   {
     "bucket": 0,
-    "count": 130945,
+    "count": 22532,
+    "year": 2023,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 60,
+    "count": 34305,
+    "year": 2023,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 120,
+    "count": 74108,
     "year": 2023,
     "city": "jersey_city"
   },
   {
     "bucket": 180,
-    "count": 333339,
+    "count": 108342,
+    "year": 2023,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 240,
+    "count": 117249,
+    "year": 2023,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 300,
+    "count": 107748,
     "year": 2023,
     "city": "jersey_city"
   },
   {
     "bucket": 360,
-    "count": 224480,
+    "count": 92029,
+    "year": 2023,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 420,
+    "count": 73792,
+    "year": 2023,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 480,
+    "count": 58659,
     "year": 2023,
     "city": "jersey_city"
   },
   {
     "bucket": 540,
-    "count": 108927,
+    "count": 45344,
+    "year": 2023,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 600,
+    "count": 35503,
+    "year": 2023,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 660,
+    "count": 28080,
     "year": 2023,
     "city": "jersey_city"
   },
   {
     "bucket": 720,
-    "count": 56433,
+    "count": 22838,
+    "year": 2023,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 780,
+    "count": 18506,
+    "year": 2023,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 840,
+    "count": 15089,
     "year": 2023,
     "city": "jersey_city"
   },
   {
     "bucket": 900,
-    "count": 32794,
+    "count": 12890,
+    "year": 2023,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 960,
+    "count": 10730,
+    "year": 2023,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 1020,
+    "count": 9174,
     "year": 2023,
     "city": "jersey_city"
   },
   {
     "bucket": 1080,
-    "count": 20240,
+    "count": 7789,
+    "year": 2023,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 1140,
+    "count": 6667,
+    "year": 2023,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 1200,
+    "count": 5784,
     "year": 2023,
     "city": "jersey_city"
   },
   {
     "bucket": 1260,
-    "count": 14042,
+    "count": 5253,
+    "year": 2023,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 1320,
+    "count": 4650,
+    "year": 2023,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 1380,
+    "count": 4139,
     "year": 2023,
     "city": "jersey_city"
   },
   {
     "bucket": 1440,
-    "count": 10362,
+    "count": 3741,
+    "year": 2023,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 1500,
+    "count": 3404,
+    "year": 2023,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 1560,
+    "count": 3217,
     "year": 2023,
     "city": "jersey_city"
   },
   {
     "bucket": 1620,
-    "count": 8161,
+    "count": 2910,
+    "year": 2023,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 1680,
+    "count": 2774,
+    "year": 2023,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 1740,
+    "count": 2477,
     "year": 2023,
     "city": "jersey_city"
   },
   {
     "bucket": 1800,
-    "count": 6437,
+    "count": 2314,
+    "year": 2023,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 1860,
+    "count": 2136,
+    "year": 2023,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 1920,
+    "count": 1987,
     "year": 2023,
     "city": "jersey_city"
   },
   {
     "bucket": 1980,
-    "count": 5067,
+    "count": 1808,
     "year": 2023,
     "city": "jersey_city"
   },
   {
-    "bucket": 2160,
-    "count": 4342,
+    "bucket": 2040,
+    "count": 1686,
     "year": 2023,
     "city": "jersey_city"
   },
   {
-    "bucket": 2340,
-    "count": 3788,
-    "year": 2023,
-    "city": "jersey_city"
-  },
-  {
-    "bucket": 2520,
-    "count": 3342,
-    "year": 2023,
-    "city": "jersey_city"
-  },
-  {
-    "bucket": 2700,
-    "count": 2664,
-    "year": 2023,
-    "city": "jersey_city"
-  },
-  {
-    "bucket": 2880,
-    "count": 2123,
-    "year": 2023,
-    "city": "jersey_city"
-  },
-  {
-    "bucket": 3060,
-    "count": 1826,
-    "year": 2023,
-    "city": "jersey_city"
-  },
-  {
-    "bucket": 3240,
+    "bucket": 2100,
     "count": 1573,
     "year": 2023,
     "city": "jersey_city"
   },
   {
+    "bucket": 2160,
+    "count": 1508,
+    "year": 2023,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 2220,
+    "count": 1458,
+    "year": 2023,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 2280,
+    "count": 1376,
+    "year": 2023,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 2340,
+    "count": 1310,
+    "year": 2023,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 2400,
+    "count": 1253,
+    "year": 2023,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 2460,
+    "count": 1225,
+    "year": 2023,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 2520,
+    "count": 1145,
+    "year": 2023,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 2580,
+    "count": 1124,
+    "year": 2023,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 2640,
+    "count": 1073,
+    "year": 2023,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 2700,
+    "count": 964,
+    "year": 2023,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 2760,
+    "count": 853,
+    "year": 2023,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 2820,
+    "count": 847,
+    "year": 2023,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 2880,
+    "count": 730,
+    "year": 2023,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 2940,
+    "count": 702,
+    "year": 2023,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 3000,
+    "count": 691,
+    "year": 2023,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 3060,
+    "count": 601,
+    "year": 2023,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 3120,
+    "count": 637,
+    "year": 2023,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 3180,
+    "count": 588,
+    "year": 2023,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 3240,
+    "count": 524,
+    "year": 2023,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 3300,
+    "count": 524,
+    "year": 2023,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 3360,
+    "count": 525,
+    "year": 2023,
+    "city": "jersey_city"
+  },
+  {
     "bucket": 3420,
-    "count": 1416,
+    "count": 502,
+    "year": 2023,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 3480,
+    "count": 445,
+    "year": 2023,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 3540,
+    "count": 469,
     "year": 2023,
     "city": "jersey_city"
   },
   {
     "bucket": 3600,
-    "count": 1360,
+    "count": 506,
+    "year": 2023,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 3660,
+    "count": 403,
+    "year": 2023,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 3720,
+    "count": 451,
     "year": 2023,
     "city": "jersey_city"
   },
   {
     "bucket": 3780,
-    "count": 1322,
+    "count": 479,
+    "year": 2023,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 3840,
+    "count": 429,
+    "year": 2023,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 3900,
+    "count": 414,
     "year": 2023,
     "city": "jersey_city"
   },
   {
     "bucket": 3960,
-    "count": 1183,
+    "count": 389,
+    "year": 2023,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 4020,
+    "count": 404,
+    "year": 2023,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 4080,
+    "count": 390,
     "year": 2023,
     "city": "jersey_city"
   },
   {
     "bucket": 4140,
-    "count": 992,
+    "count": 362,
+    "year": 2023,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 4200,
+    "count": 340,
+    "year": 2023,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 4260,
+    "count": 290,
     "year": 2023,
     "city": "jersey_city"
   },
   {
     "bucket": 4320,
-    "count": 822,
+    "count": 277,
+    "year": 2023,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 4380,
+    "count": 279,
+    "year": 2023,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 4440,
+    "count": 266,
     "year": 2023,
     "city": "jersey_city"
   },
   {
     "bucket": 4500,
-    "count": 737,
+    "count": 270,
+    "year": 2023,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 4560,
+    "count": 235,
+    "year": 2023,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 4620,
+    "count": 232,
     "year": 2023,
     "city": "jersey_city"
   },
   {
     "bucket": 4680,
-    "count": 646,
+    "count": 226,
+    "year": 2023,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 4740,
+    "count": 216,
+    "year": 2023,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 4800,
+    "count": 204,
     "year": 2023,
     "city": "jersey_city"
   },
   {
     "bucket": 4860,
-    "count": 610,
+    "count": 207,
+    "year": 2023,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 4920,
+    "count": 216,
+    "year": 2023,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 4980,
+    "count": 187,
     "year": 2023,
     "city": "jersey_city"
   },
   {
     "bucket": 5040,
-    "count": 531,
+    "count": 200,
+    "year": 2023,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5100,
+    "count": 165,
+    "year": 2023,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5160,
+    "count": 166,
     "year": 2023,
     "city": "jersey_city"
   },
   {
     "bucket": 5220,
-    "count": 485,
+    "count": 187,
+    "year": 2023,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5280,
+    "count": 150,
+    "year": 2023,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5340,
+    "count": 148,
     "year": 2023,
     "city": "jersey_city"
   },
   {
     "bucket": 5400,
-    "count": 444,
+    "count": 145,
+    "year": 2023,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5460,
+    "count": 143,
+    "year": 2023,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5520,
+    "count": 156,
     "year": 2023,
     "city": "jersey_city"
   },
   {
     "bucket": 5580,
-    "count": 345,
+    "count": 122,
+    "year": 2023,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5640,
+    "count": 101,
+    "year": 2023,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5700,
+    "count": 122,
     "year": 2023,
     "city": "jersey_city"
   },
   {
     "bucket": 5760,
-    "count": 326,
+    "count": 119,
+    "year": 2023,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5820,
+    "count": 108,
+    "year": 2023,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5880,
+    "count": 99,
     "year": 2023,
     "city": "jersey_city"
   },
   {
     "bucket": 5940,
-    "count": 309,
+    "count": 105,
+    "year": 2023,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6000,
+    "count": 91,
+    "year": 2023,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6060,
+    "count": 113,
     "year": 2023,
     "city": "jersey_city"
   },
   {
     "bucket": 6120,
-    "count": 250,
+    "count": 86,
+    "year": 2023,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6180,
+    "count": 83,
+    "year": 2023,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6240,
+    "count": 81,
     "year": 2023,
     "city": "jersey_city"
   },
   {
     "bucket": 6300,
-    "count": 253,
+    "count": 88,
+    "year": 2023,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6360,
+    "count": 85,
+    "year": 2023,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6420,
+    "count": 80,
     "year": 2023,
     "city": "jersey_city"
   },
   {
     "bucket": 6480,
-    "count": 228,
+    "count": 81,
+    "year": 2023,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6540,
+    "count": 65,
+    "year": 2023,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6600,
+    "count": 82,
     "year": 2023,
     "city": "jersey_city"
   },
   {
     "bucket": 6660,
-    "count": 192,
+    "count": 68,
+    "year": 2023,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6720,
+    "count": 70,
+    "year": 2023,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6780,
+    "count": 54,
     "year": 2023,
     "city": "jersey_city"
   },
   {
     "bucket": 6840,
-    "count": 188,
+    "count": 64,
+    "year": 2023,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6900,
+    "count": 69,
+    "year": 2023,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6960,
+    "count": 55,
     "year": 2023,
     "city": "jersey_city"
   },
   {
     "bucket": 7020,
-    "count": 172,
+    "count": 67,
+    "year": 2023,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 7080,
+    "count": 40,
+    "year": 2023,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 7140,
+    "count": 65,
     "year": 2023,
     "city": "jersey_city"
   },
@@ -2215,241 +6487,721 @@
   },
   {
     "bucket": 0,
-    "count": 131513,
+    "count": 7183,
+    "year": 2024,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 60,
+    "count": 36919,
+    "year": 2024,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 120,
+    "count": 87411,
     "year": 2024,
     "city": "jersey_city"
   },
   {
     "bucket": 180,
-    "count": 378752,
+    "count": 125491,
+    "year": 2024,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 240,
+    "count": 132551,
+    "year": 2024,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 300,
+    "count": 120710,
     "year": 2024,
     "city": "jersey_city"
   },
   {
     "bucket": 360,
-    "count": 243106,
+    "count": 100190,
+    "year": 2024,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 420,
+    "count": 80009,
+    "year": 2024,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 480,
+    "count": 62907,
     "year": 2024,
     "city": "jersey_city"
   },
   {
     "bucket": 540,
-    "count": 113533,
+    "count": 47961,
+    "year": 2024,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 600,
+    "count": 36937,
+    "year": 2024,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 660,
+    "count": 28635,
     "year": 2024,
     "city": "jersey_city"
   },
   {
     "bucket": 720,
-    "count": 57234,
+    "count": 22987,
+    "year": 2024,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 780,
+    "count": 18723,
+    "year": 2024,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 840,
+    "count": 15524,
     "year": 2024,
     "city": "jersey_city"
   },
   {
     "bucket": 900,
-    "count": 32594,
+    "count": 12706,
+    "year": 2024,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 960,
+    "count": 10824,
+    "year": 2024,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 1020,
+    "count": 9064,
     "year": 2024,
     "city": "jersey_city"
   },
   {
     "bucket": 1080,
-    "count": 20705,
+    "count": 7739,
+    "year": 2024,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 1140,
+    "count": 6991,
+    "year": 2024,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 1200,
+    "count": 5975,
     "year": 2024,
     "city": "jersey_city"
   },
   {
     "bucket": 1260,
-    "count": 13593,
+    "count": 4976,
+    "year": 2024,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 1320,
+    "count": 4496,
+    "year": 2024,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 1380,
+    "count": 4121,
     "year": 2024,
     "city": "jersey_city"
   },
   {
     "bucket": 1440,
-    "count": 9827,
+    "count": 3611,
+    "year": 2024,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 1500,
+    "count": 3266,
+    "year": 2024,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 1560,
+    "count": 2950,
     "year": 2024,
     "city": "jersey_city"
   },
   {
     "bucket": 1620,
-    "count": 7662,
+    "count": 2780,
     "year": 2024,
     "city": "jersey_city"
   },
   {
-    "bucket": 1800,
-    "count": 5832,
+    "bucket": 1680,
+    "count": 2510,
     "year": 2024,
     "city": "jersey_city"
   },
   {
-    "bucket": 1980,
-    "count": 4721,
-    "year": 2024,
-    "city": "jersey_city"
-  },
-  {
-    "bucket": 2160,
-    "count": 4080,
-    "year": 2024,
-    "city": "jersey_city"
-  },
-  {
-    "bucket": 2340,
-    "count": 3365,
-    "year": 2024,
-    "city": "jersey_city"
-  },
-  {
-    "bucket": 2520,
-    "count": 2998,
-    "year": 2024,
-    "city": "jersey_city"
-  },
-  {
-    "bucket": 2700,
+    "bucket": 1740,
     "count": 2372,
     "year": 2024,
     "city": "jersey_city"
   },
   {
+    "bucket": 1800,
+    "count": 2141,
+    "year": 2024,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 1860,
+    "count": 1895,
+    "year": 2024,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 1920,
+    "count": 1796,
+    "year": 2024,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 1980,
+    "count": 1639,
+    "year": 2024,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 2040,
+    "count": 1542,
+    "year": 2024,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 2100,
+    "count": 1540,
+    "year": 2024,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 2160,
+    "count": 1433,
+    "year": 2024,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 2220,
+    "count": 1393,
+    "year": 2024,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 2280,
+    "count": 1254,
+    "year": 2024,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 2340,
+    "count": 1143,
+    "year": 2024,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 2400,
+    "count": 1144,
+    "year": 2024,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 2460,
+    "count": 1078,
+    "year": 2024,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 2520,
+    "count": 1064,
+    "year": 2024,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 2580,
+    "count": 997,
+    "year": 2024,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 2640,
+    "count": 937,
+    "year": 2024,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 2700,
+    "count": 923,
+    "year": 2024,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 2760,
+    "count": 765,
+    "year": 2024,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 2820,
+    "count": 684,
+    "year": 2024,
+    "city": "jersey_city"
+  },
+  {
     "bucket": 2880,
-    "count": 2012,
+    "count": 707,
+    "year": 2024,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 2940,
+    "count": 666,
+    "year": 2024,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 3000,
+    "count": 639,
     "year": 2024,
     "city": "jersey_city"
   },
   {
     "bucket": 3060,
-    "count": 1701,
-    "year": 2024,
-    "city": "jersey_city"
-  },
-  {
-    "bucket": 3240,
-    "count": 1541,
-    "year": 2024,
-    "city": "jersey_city"
-  },
-  {
-    "bucket": 3420,
-    "count": 1304,
-    "year": 2024,
-    "city": "jersey_city"
-  },
-  {
-    "bucket": 3600,
-    "count": 1225,
-    "year": 2024,
-    "city": "jersey_city"
-  },
-  {
-    "bucket": 3780,
-    "count": 1096,
-    "year": 2024,
-    "city": "jersey_city"
-  },
-  {
-    "bucket": 3960,
-    "count": 1012,
-    "year": 2024,
-    "city": "jersey_city"
-  },
-  {
-    "bucket": 4140,
-    "count": 878,
-    "year": 2024,
-    "city": "jersey_city"
-  },
-  {
-    "bucket": 4320,
-    "count": 735,
-    "year": 2024,
-    "city": "jersey_city"
-  },
-  {
-    "bucket": 4500,
     "count": 591,
     "year": 2024,
     "city": "jersey_city"
   },
   {
-    "bucket": 4680,
-    "count": 584,
+    "bucket": 3120,
+    "count": 553,
     "year": 2024,
     "city": "jersey_city"
   },
   {
-    "bucket": 4860,
-    "count": 495,
+    "bucket": 3180,
+    "count": 557,
     "year": 2024,
     "city": "jersey_city"
   },
   {
-    "bucket": 5040,
-    "count": 427,
+    "bucket": 3240,
+    "count": 509,
     "year": 2024,
     "city": "jersey_city"
   },
   {
-    "bucket": 5220,
-    "count": 402,
+    "bucket": 3300,
+    "count": 533,
     "year": 2024,
     "city": "jersey_city"
   },
   {
-    "bucket": 5400,
-    "count": 360,
+    "bucket": 3360,
+    "count": 499,
     "year": 2024,
     "city": "jersey_city"
   },
   {
-    "bucket": 5580,
-    "count": 318,
+    "bucket": 3420,
+    "count": 443,
     "year": 2024,
     "city": "jersey_city"
   },
   {
-    "bucket": 5760,
-    "count": 320,
+    "bucket": 3480,
+    "count": 421,
     "year": 2024,
     "city": "jersey_city"
   },
   {
-    "bucket": 5940,
-    "count": 267,
+    "bucket": 3540,
+    "count": 440,
     "year": 2024,
     "city": "jersey_city"
   },
   {
-    "bucket": 6120,
-    "count": 248,
+    "bucket": 3600,
+    "count": 446,
     "year": 2024,
     "city": "jersey_city"
   },
   {
-    "bucket": 6300,
-    "count": 211,
+    "bucket": 3660,
+    "count": 416,
     "year": 2024,
     "city": "jersey_city"
   },
   {
-    "bucket": 6480,
-    "count": 207,
+    "bucket": 3720,
+    "count": 363,
     "year": 2024,
     "city": "jersey_city"
   },
   {
-    "bucket": 6660,
+    "bucket": 3780,
+    "count": 393,
+    "year": 2024,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 3840,
+    "count": 353,
+    "year": 2024,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 3900,
+    "count": 350,
+    "year": 2024,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 3960,
+    "count": 364,
+    "year": 2024,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 4020,
+    "count": 311,
+    "year": 2024,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 4080,
+    "count": 337,
+    "year": 2024,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 4140,
+    "count": 329,
+    "year": 2024,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 4200,
+    "count": 285,
+    "year": 2024,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 4260,
+    "count": 264,
+    "year": 2024,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 4320,
+    "count": 260,
+    "year": 2024,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 4380,
+    "count": 247,
+    "year": 2024,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 4440,
+    "count": 228,
+    "year": 2024,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 4500,
+    "count": 220,
+    "year": 2024,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 4560,
+    "count": 196,
+    "year": 2024,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 4620,
     "count": 175,
     "year": 2024,
     "city": "jersey_city"
   },
   {
-    "bucket": 6840,
+    "bucket": 4680,
+    "count": 195,
+    "year": 2024,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 4740,
+    "count": 195,
+    "year": 2024,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 4800,
+    "count": 194,
+    "year": 2024,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 4860,
+    "count": 169,
+    "year": 2024,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 4920,
+    "count": 171,
+    "year": 2024,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 4980,
+    "count": 155,
+    "year": 2024,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5040,
+    "count": 144,
+    "year": 2024,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5100,
     "count": 148,
     "year": 2024,
     "city": "jersey_city"
   },
   {
+    "bucket": 5160,
+    "count": 135,
+    "year": 2024,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5220,
+    "count": 124,
+    "year": 2024,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5280,
+    "count": 125,
+    "year": 2024,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5340,
+    "count": 153,
+    "year": 2024,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5400,
+    "count": 105,
+    "year": 2024,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5460,
+    "count": 128,
+    "year": 2024,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5520,
+    "count": 127,
+    "year": 2024,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5580,
+    "count": 107,
+    "year": 2024,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5640,
+    "count": 101,
+    "year": 2024,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5700,
+    "count": 110,
+    "year": 2024,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5760,
+    "count": 126,
+    "year": 2024,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5820,
+    "count": 98,
+    "year": 2024,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5880,
+    "count": 96,
+    "year": 2024,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5940,
+    "count": 95,
+    "year": 2024,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6000,
+    "count": 95,
+    "year": 2024,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6060,
+    "count": 77,
+    "year": 2024,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6120,
+    "count": 86,
+    "year": 2024,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6180,
+    "count": 83,
+    "year": 2024,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6240,
+    "count": 79,
+    "year": 2024,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6300,
+    "count": 74,
+    "year": 2024,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6360,
+    "count": 71,
+    "year": 2024,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6420,
+    "count": 66,
+    "year": 2024,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6480,
+    "count": 74,
+    "year": 2024,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6540,
+    "count": 65,
+    "year": 2024,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6600,
+    "count": 68,
+    "year": 2024,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6660,
+    "count": 66,
+    "year": 2024,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6720,
+    "count": 59,
+    "year": 2024,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6780,
+    "count": 50,
+    "year": 2024,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6840,
+    "count": 46,
+    "year": 2024,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6900,
+    "count": 47,
+    "year": 2024,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6960,
+    "count": 55,
+    "year": 2024,
+    "city": "jersey_city"
+  },
+  {
     "bucket": 7020,
-    "count": 159,
+    "count": 58,
+    "year": 2024,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 7080,
+    "count": 54,
+    "year": 2024,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 7140,
+    "count": 47,
     "year": 2024,
     "city": "jersey_city"
   },
@@ -2460,242 +7212,716 @@
     "city": "jersey_city"
   },
   {
-    "bucket": 0,
-    "count": 99224,
+    "bucket": 60,
+    "count": 30312,
+    "year": 2025,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 120,
+    "count": 68912,
     "year": 2025,
     "city": "jersey_city"
   },
   {
     "bucket": 180,
-    "count": 279641,
+    "count": 94825,
+    "year": 2025,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 240,
+    "count": 97507,
+    "year": 2025,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 300,
+    "count": 87309,
     "year": 2025,
     "city": "jersey_city"
   },
   {
     "bucket": 360,
-    "count": 175430,
+    "count": 72794,
+    "year": 2025,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 420,
+    "count": 58059,
+    "year": 2025,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 480,
+    "count": 44577,
     "year": 2025,
     "city": "jersey_city"
   },
   {
     "bucket": 540,
-    "count": 83021,
+    "count": 34722,
+    "year": 2025,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 600,
+    "count": 26927,
+    "year": 2025,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 660,
+    "count": 21372,
     "year": 2025,
     "city": "jersey_city"
   },
   {
     "bucket": 720,
-    "count": 43290,
+    "count": 17541,
+    "year": 2025,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 780,
+    "count": 14059,
+    "year": 2025,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 840,
+    "count": 11690,
     "year": 2025,
     "city": "jersey_city"
   },
   {
     "bucket": 900,
-    "count": 24526,
+    "count": 9614,
+    "year": 2025,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 960,
+    "count": 8152,
+    "year": 2025,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 1020,
+    "count": 6760,
     "year": 2025,
     "city": "jersey_city"
   },
   {
     "bucket": 1080,
-    "count": 15184,
+    "count": 5750,
+    "year": 2025,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 1140,
+    "count": 5039,
+    "year": 2025,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 1200,
+    "count": 4395,
     "year": 2025,
     "city": "jersey_city"
   },
   {
     "bucket": 1260,
-    "count": 9949,
+    "count": 3732,
+    "year": 2025,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 1320,
+    "count": 3302,
+    "year": 2025,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 1380,
+    "count": 2915,
     "year": 2025,
     "city": "jersey_city"
   },
   {
     "bucket": 1440,
-    "count": 7123,
+    "count": 2564,
+    "year": 2025,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 1500,
+    "count": 2352,
+    "year": 2025,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 1560,
+    "count": 2207,
     "year": 2025,
     "city": "jersey_city"
   },
   {
     "bucket": 1620,
-    "count": 5525,
+    "count": 2035,
+    "year": 2025,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 1680,
+    "count": 1784,
+    "year": 2025,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 1740,
+    "count": 1706,
     "year": 2025,
     "city": "jersey_city"
   },
   {
     "bucket": 1800,
-    "count": 4346,
+    "count": 1544,
+    "year": 2025,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 1860,
+    "count": 1473,
+    "year": 2025,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 1920,
+    "count": 1329,
     "year": 2025,
     "city": "jersey_city"
   },
   {
     "bucket": 1980,
-    "count": 3447,
+    "count": 1241,
+    "year": 2025,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 2040,
+    "count": 1139,
+    "year": 2025,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 2100,
+    "count": 1067,
     "year": 2025,
     "city": "jersey_city"
   },
   {
     "bucket": 2160,
-    "count": 2837,
+    "count": 997,
+    "year": 2025,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 2220,
+    "count": 959,
+    "year": 2025,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 2280,
+    "count": 881,
     "year": 2025,
     "city": "jersey_city"
   },
   {
     "bucket": 2340,
-    "count": 2583,
+    "count": 915,
+    "year": 2025,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 2400,
+    "count": 827,
+    "year": 2025,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 2460,
+    "count": 841,
     "year": 2025,
     "city": "jersey_city"
   },
   {
     "bucket": 2520,
-    "count": 2157,
+    "count": 770,
+    "year": 2025,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 2580,
+    "count": 700,
+    "year": 2025,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 2640,
+    "count": 687,
     "year": 2025,
     "city": "jersey_city"
   },
   {
     "bucket": 2700,
-    "count": 1712,
+    "count": 614,
+    "year": 2025,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 2760,
+    "count": 561,
+    "year": 2025,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 2820,
+    "count": 537,
     "year": 2025,
     "city": "jersey_city"
   },
   {
     "bucket": 2880,
-    "count": 1347,
+    "count": 497,
+    "year": 2025,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 2940,
+    "count": 447,
+    "year": 2025,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 3000,
+    "count": 403,
     "year": 2025,
     "city": "jersey_city"
   },
   {
     "bucket": 3060,
-    "count": 1167,
+    "count": 393,
+    "year": 2025,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 3120,
+    "count": 379,
+    "year": 2025,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 3180,
+    "count": 395,
     "year": 2025,
     "city": "jersey_city"
   },
   {
     "bucket": 3240,
-    "count": 1105,
+    "count": 404,
+    "year": 2025,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 3300,
+    "count": 369,
+    "year": 2025,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 3360,
+    "count": 332,
     "year": 2025,
     "city": "jersey_city"
   },
   {
     "bucket": 3420,
-    "count": 952,
+    "count": 347,
+    "year": 2025,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 3480,
+    "count": 318,
+    "year": 2025,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 3540,
+    "count": 287,
     "year": 2025,
     "city": "jersey_city"
   },
   {
     "bucket": 3600,
-    "count": 840,
+    "count": 300,
+    "year": 2025,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 3660,
+    "count": 275,
+    "year": 2025,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 3720,
+    "count": 265,
     "year": 2025,
     "city": "jersey_city"
   },
   {
     "bucket": 3780,
-    "count": 777,
+    "count": 263,
+    "year": 2025,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 3840,
+    "count": 244,
+    "year": 2025,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 3900,
+    "count": 270,
     "year": 2025,
     "city": "jersey_city"
   },
   {
     "bucket": 3960,
-    "count": 682,
+    "count": 229,
+    "year": 2025,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 4020,
+    "count": 227,
+    "year": 2025,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 4080,
+    "count": 226,
     "year": 2025,
     "city": "jersey_city"
   },
   {
     "bucket": 4140,
-    "count": 533,
+    "count": 207,
     "year": 2025,
     "city": "jersey_city"
   },
   {
-    "bucket": 4320,
-    "count": 490,
-    "year": 2025,
-    "city": "jersey_city"
-  },
-  {
-    "bucket": 4500,
-    "count": 442,
-    "year": 2025,
-    "city": "jersey_city"
-  },
-  {
-    "bucket": 4680,
-    "count": 374,
-    "year": 2025,
-    "city": "jersey_city"
-  },
-  {
-    "bucket": 4860,
-    "count": 311,
-    "year": 2025,
-    "city": "jersey_city"
-  },
-  {
-    "bucket": 5040,
-    "count": 312,
-    "year": 2025,
-    "city": "jersey_city"
-  },
-  {
-    "bucket": 5220,
-    "count": 243,
-    "year": 2025,
-    "city": "jersey_city"
-  },
-  {
-    "bucket": 5400,
-    "count": 224,
-    "year": 2025,
-    "city": "jersey_city"
-  },
-  {
-    "bucket": 5580,
-    "count": 218,
-    "year": 2025,
-    "city": "jersey_city"
-  },
-  {
-    "bucket": 5760,
-    "count": 175,
-    "year": 2025,
-    "city": "jersey_city"
-  },
-  {
-    "bucket": 5940,
-    "count": 178,
-    "year": 2025,
-    "city": "jersey_city"
-  },
-  {
-    "bucket": 6120,
+    "bucket": 4200,
     "count": 160,
     "year": 2025,
     "city": "jersey_city"
   },
   {
+    "bucket": 4260,
+    "count": 166,
+    "year": 2025,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 4320,
+    "count": 167,
+    "year": 2025,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 4380,
+    "count": 159,
+    "year": 2025,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 4440,
+    "count": 164,
+    "year": 2025,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 4500,
+    "count": 151,
+    "year": 2025,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 4560,
+    "count": 155,
+    "year": 2025,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 4620,
+    "count": 136,
+    "year": 2025,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 4680,
+    "count": 145,
+    "year": 2025,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 4740,
+    "count": 125,
+    "year": 2025,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 4800,
+    "count": 104,
+    "year": 2025,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 4860,
+    "count": 117,
+    "year": 2025,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 4920,
+    "count": 108,
+    "year": 2025,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 4980,
+    "count": 86,
+    "year": 2025,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5040,
+    "count": 113,
+    "year": 2025,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5100,
+    "count": 90,
+    "year": 2025,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5160,
+    "count": 109,
+    "year": 2025,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5220,
+    "count": 78,
+    "year": 2025,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5280,
+    "count": 92,
+    "year": 2025,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5340,
+    "count": 73,
+    "year": 2025,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5400,
+    "count": 70,
+    "year": 2025,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5460,
+    "count": 79,
+    "year": 2025,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5520,
+    "count": 75,
+    "year": 2025,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5580,
+    "count": 80,
+    "year": 2025,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5640,
+    "count": 77,
+    "year": 2025,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5700,
+    "count": 61,
+    "year": 2025,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5760,
+    "count": 68,
+    "year": 2025,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5820,
+    "count": 59,
+    "year": 2025,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5880,
+    "count": 48,
+    "year": 2025,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 5940,
+    "count": 61,
+    "year": 2025,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6000,
+    "count": 59,
+    "year": 2025,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6060,
+    "count": 58,
+    "year": 2025,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6120,
+    "count": 56,
+    "year": 2025,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6180,
+    "count": 44,
+    "year": 2025,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6240,
+    "count": 60,
+    "year": 2025,
+    "city": "jersey_city"
+  },
+  {
     "bucket": 6300,
-    "count": 150,
+    "count": 57,
+    "year": 2025,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6360,
+    "count": 54,
+    "year": 2025,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6420,
+    "count": 39,
     "year": 2025,
     "city": "jersey_city"
   },
   {
     "bucket": 6480,
-    "count": 127,
+    "count": 45,
+    "year": 2025,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6540,
+    "count": 47,
+    "year": 2025,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6600,
+    "count": 35,
     "year": 2025,
     "city": "jersey_city"
   },
   {
     "bucket": 6660,
-    "count": 111,
+    "count": 34,
+    "year": 2025,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6720,
+    "count": 42,
+    "year": 2025,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6780,
+    "count": 35,
     "year": 2025,
     "city": "jersey_city"
   },
   {
     "bucket": 6840,
-    "count": 95,
+    "count": 22,
+    "year": 2025,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6900,
+    "count": 39,
+    "year": 2025,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 6960,
+    "count": 34,
     "year": 2025,
     "city": "jersey_city"
   },
   {
     "bucket": 7020,
-    "count": 97,
+    "count": 38,
+    "year": 2025,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 7080,
+    "count": 33,
+    "year": 2025,
+    "city": "jersey_city"
+  },
+  {
+    "bucket": 7140,
+    "count": 26,
     "year": 2025,
     "city": "jersey_city"
   },

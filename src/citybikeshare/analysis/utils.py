@@ -11,6 +11,9 @@ def append_duration_column(lf):
             (pl.col("end_time") - pl.col("start_time"))
             .dt.total_seconds()
             .alias("duration")
-        ).filter(pl.col("end_time") - pl.col("start_time") > 0)
+        )
 
-    return lf
+    return lf.filter(
+        (pl.col("end_time") - pl.col("start_time") >= 0)
+        & (pl.col("duration").is_not_null())
+    )

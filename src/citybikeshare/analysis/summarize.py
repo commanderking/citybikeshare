@@ -16,7 +16,6 @@ def summarize_city(context: PipelineContext):
 
     # Read all parquet files
     lf = pl.scan_parquet(input_directory / "**/*.parquet")
-    columns = lf.collect_schema().names()
     # Ensure a datetime column exists
     if "start_time" not in lf.collect_schema().names():
         raise ValueError(

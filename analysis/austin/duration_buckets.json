@@ -1,241 +1,679 @@
 [
   {
-    "bucket": 0,
+    "bucket": 120,
     "count": 17,
     "year": 2013,
     "city": "austin"
   },
   {
     "bucket": 180,
-    "count": 136,
+    "count": 29,
+    "year": 2013,
+    "city": "austin"
+  },
+  {
+    "bucket": 240,
+    "count": 52,
+    "year": 2013,
+    "city": "austin"
+  },
+  {
+    "bucket": 300,
+    "count": 55,
     "year": 2013,
     "city": "austin"
   },
   {
     "bucket": 360,
-    "count": 123,
+    "count": 37,
+    "year": 2013,
+    "city": "austin"
+  },
+  {
+    "bucket": 420,
+    "count": 43,
+    "year": 2013,
+    "city": "austin"
+  },
+  {
+    "bucket": 480,
+    "count": 43,
     "year": 2013,
     "city": "austin"
   },
   {
     "bucket": 540,
-    "count": 133,
+    "count": 49,
+    "year": 2013,
+    "city": "austin"
+  },
+  {
+    "bucket": 600,
+    "count": 42,
+    "year": 2013,
+    "city": "austin"
+  },
+  {
+    "bucket": 660,
+    "count": 42,
     "year": 2013,
     "city": "austin"
   },
   {
     "bucket": 720,
-    "count": 124,
+    "count": 43,
     "year": 2013,
     "city": "austin"
   },
   {
-    "bucket": 900,
-    "count": 99,
+    "bucket": 780,
+    "count": 42,
     "year": 2013,
     "city": "austin"
   },
   {
-    "bucket": 1080,
-    "count": 74,
-    "year": 2013,
-    "city": "austin"
-  },
-  {
-    "bucket": 1260,
-    "count": 69,
-    "year": 2013,
-    "city": "austin"
-  },
-  {
-    "bucket": 1440,
-    "count": 58,
-    "year": 2013,
-    "city": "austin"
-  },
-  {
-    "bucket": 1620,
-    "count": 81,
-    "year": 2013,
-    "city": "austin"
-  },
-  {
-    "bucket": 1800,
+    "bucket": 840,
     "count": 39,
     "year": 2013,
     "city": "austin"
   },
   {
-    "bucket": 1980,
-    "count": 30,
+    "bucket": 900,
+    "count": 43,
     "year": 2013,
     "city": "austin"
   },
   {
-    "bucket": 2160,
-    "count": 20,
+    "bucket": 960,
+    "count": 34,
     "year": 2013,
     "city": "austin"
   },
   {
-    "bucket": 2340,
-    "count": 20,
+    "bucket": 1020,
+    "count": 22,
     "year": 2013,
     "city": "austin"
   },
   {
-    "bucket": 2520,
-    "count": 16,
+    "bucket": 1080,
+    "count": 24,
     "year": 2013,
     "city": "austin"
   },
   {
-    "bucket": 2700,
-    "count": 10,
+    "bucket": 1140,
+    "count": 22,
     "year": 2013,
     "city": "austin"
   },
   {
-    "bucket": 2880,
-    "count": 32,
+    "bucket": 1200,
+    "count": 28,
     "year": 2013,
     "city": "austin"
   },
   {
-    "bucket": 3060,
-    "count": 20,
+    "bucket": 1260,
+    "count": 23,
     "year": 2013,
     "city": "austin"
   },
   {
-    "bucket": 3240,
-    "count": 13,
+    "bucket": 1320,
+    "count": 25,
     "year": 2013,
     "city": "austin"
   },
   {
-    "bucket": 3420,
-    "count": 8,
+    "bucket": 1380,
+    "count": 21,
     "year": 2013,
     "city": "austin"
   },
   {
-    "bucket": 3600,
-    "count": 26,
-    "year": 2013,
-    "city": "austin"
-  },
-  {
-    "bucket": 3780,
-    "count": 11,
-    "year": 2013,
-    "city": "austin"
-  },
-  {
-    "bucket": 3960,
+    "bucket": 1440,
     "count": 19,
     "year": 2013,
     "city": "austin"
   },
   {
-    "bucket": 4140,
-    "count": 18,
-    "year": 2013,
-    "city": "austin"
-  },
-  {
-    "bucket": 4320,
-    "count": 8,
-    "year": 2013,
-    "city": "austin"
-  },
-  {
-    "bucket": 4500,
+    "bucket": 1500,
     "count": 14,
     "year": 2013,
     "city": "austin"
   },
   {
-    "bucket": 4680,
+    "bucket": 1560,
+    "count": 25,
+    "year": 2013,
+    "city": "austin"
+  },
+  {
+    "bucket": 1620,
+    "count": 17,
+    "year": 2013,
+    "city": "austin"
+  },
+  {
+    "bucket": 1680,
+    "count": 20,
+    "year": 2013,
+    "city": "austin"
+  },
+  {
+    "bucket": 1740,
+    "count": 44,
+    "year": 2013,
+    "city": "austin"
+  },
+  {
+    "bucket": 1800,
     "count": 11,
     "year": 2013,
     "city": "austin"
   },
   {
-    "bucket": 4860,
-    "count": 16,
-    "year": 2013,
-    "city": "austin"
-  },
-  {
-    "bucket": 5040,
-    "count": 4,
-    "year": 2013,
-    "city": "austin"
-  },
-  {
-    "bucket": 5220,
-    "count": 4,
-    "year": 2013,
-    "city": "austin"
-  },
-  {
-    "bucket": 5400,
+    "bucket": 1860,
     "count": 19,
     "year": 2013,
     "city": "austin"
   },
   {
-    "bucket": 5580,
+    "bucket": 1920,
     "count": 9,
     "year": 2013,
     "city": "austin"
   },
   {
-    "bucket": 5760,
-    "count": 6,
+    "bucket": 1980,
+    "count": 13,
     "year": 2013,
     "city": "austin"
   },
   {
-    "bucket": 5940,
+    "bucket": 2040,
+    "count": 7,
+    "year": 2013,
+    "city": "austin"
+  },
+  {
+    "bucket": 2100,
     "count": 10,
     "year": 2013,
     "city": "austin"
   },
   {
-    "bucket": 6120,
-    "count": 6,
+    "bucket": 2160,
+    "count": 12,
     "year": 2013,
     "city": "austin"
   },
   {
-    "bucket": 6300,
-    "count": 8,
+    "bucket": 2220,
+    "count": 3,
     "year": 2013,
     "city": "austin"
   },
   {
-    "bucket": 6480,
+    "bucket": 2280,
     "count": 5,
     "year": 2013,
     "city": "austin"
   },
   {
-    "bucket": 6660,
+    "bucket": 2340,
+    "count": 8,
+    "year": 2013,
+    "city": "austin"
+  },
+  {
+    "bucket": 2400,
     "count": 6,
     "year": 2013,
     "city": "austin"
   },
   {
-    "bucket": 6840,
+    "bucket": 2460,
+    "count": 6,
+    "year": 2013,
+    "city": "austin"
+  },
+  {
+    "bucket": 2520,
+    "count": 4,
+    "year": 2013,
+    "city": "austin"
+  },
+  {
+    "bucket": 2580,
+    "count": 7,
+    "year": 2013,
+    "city": "austin"
+  },
+  {
+    "bucket": 2640,
+    "count": 5,
+    "year": 2013,
+    "city": "austin"
+  },
+  {
+    "bucket": 2700,
+    "count": 3,
+    "year": 2013,
+    "city": "austin"
+  },
+  {
+    "bucket": 2760,
+    "count": 1,
+    "year": 2013,
+    "city": "austin"
+  },
+  {
+    "bucket": 2820,
+    "count": 6,
+    "year": 2013,
+    "city": "austin"
+  },
+  {
+    "bucket": 2880,
+    "count": 8,
+    "year": 2013,
+    "city": "austin"
+  },
+  {
+    "bucket": 2940,
+    "count": 11,
+    "year": 2013,
+    "city": "austin"
+  },
+  {
+    "bucket": 3000,
+    "count": 13,
+    "year": 2013,
+    "city": "austin"
+  },
+  {
+    "bucket": 3060,
+    "count": 9,
+    "year": 2013,
+    "city": "austin"
+  },
+  {
+    "bucket": 3120,
+    "count": 3,
+    "year": 2013,
+    "city": "austin"
+  },
+  {
+    "bucket": 3180,
+    "count": 8,
+    "year": 2013,
+    "city": "austin"
+  },
+  {
+    "bucket": 3240,
+    "count": 7,
+    "year": 2013,
+    "city": "austin"
+  },
+  {
+    "bucket": 3300,
+    "count": 3,
+    "year": 2013,
+    "city": "austin"
+  },
+  {
+    "bucket": 3360,
+    "count": 3,
+    "year": 2013,
+    "city": "austin"
+  },
+  {
+    "bucket": 3420,
+    "count": 4,
+    "year": 2013,
+    "city": "austin"
+  },
+  {
+    "bucket": 3480,
+    "count": 4,
+    "year": 2013,
+    "city": "austin"
+  },
+  {
+    "bucket": 3600,
+    "count": 12,
+    "year": 2013,
+    "city": "austin"
+  },
+  {
+    "bucket": 3660,
+    "count": 6,
+    "year": 2013,
+    "city": "austin"
+  },
+  {
+    "bucket": 3720,
+    "count": 8,
+    "year": 2013,
+    "city": "austin"
+  },
+  {
+    "bucket": 3780,
+    "count": 5,
+    "year": 2013,
+    "city": "austin"
+  },
+  {
+    "bucket": 3840,
+    "count": 4,
+    "year": 2013,
+    "city": "austin"
+  },
+  {
+    "bucket": 3900,
     "count": 2,
     "year": 2013,
     "city": "austin"
   },
   {
-    "bucket": 7020,
+    "bucket": 3960,
+    "count": 4,
+    "year": 2013,
+    "city": "austin"
+  },
+  {
+    "bucket": 4020,
+    "count": 8,
+    "year": 2013,
+    "city": "austin"
+  },
+  {
+    "bucket": 4080,
+    "count": 7,
+    "year": 2013,
+    "city": "austin"
+  },
+  {
+    "bucket": 4140,
+    "count": 5,
+    "year": 2013,
+    "city": "austin"
+  },
+  {
+    "bucket": 4200,
+    "count": 7,
+    "year": 2013,
+    "city": "austin"
+  },
+  {
+    "bucket": 4260,
+    "count": 6,
+    "year": 2013,
+    "city": "austin"
+  },
+  {
+    "bucket": 4320,
     "count": 3,
+    "year": 2013,
+    "city": "austin"
+  },
+  {
+    "bucket": 4380,
+    "count": 1,
+    "year": 2013,
+    "city": "austin"
+  },
+  {
+    "bucket": 4440,
+    "count": 4,
+    "year": 2013,
+    "city": "austin"
+  },
+  {
+    "bucket": 4500,
+    "count": 6,
+    "year": 2013,
+    "city": "austin"
+  },
+  {
+    "bucket": 4560,
+    "count": 5,
+    "year": 2013,
+    "city": "austin"
+  },
+  {
+    "bucket": 4620,
+    "count": 3,
+    "year": 2013,
+    "city": "austin"
+  },
+  {
+    "bucket": 4680,
+    "count": 2,
+    "year": 2013,
+    "city": "austin"
+  },
+  {
+    "bucket": 4740,
+    "count": 5,
+    "year": 2013,
+    "city": "austin"
+  },
+  {
+    "bucket": 4800,
+    "count": 4,
+    "year": 2013,
+    "city": "austin"
+  },
+  {
+    "bucket": 4860,
+    "count": 9,
+    "year": 2013,
+    "city": "austin"
+  },
+  {
+    "bucket": 4920,
+    "count": 2,
+    "year": 2013,
+    "city": "austin"
+  },
+  {
+    "bucket": 4980,
+    "count": 5,
+    "year": 2013,
+    "city": "austin"
+  },
+  {
+    "bucket": 5040,
+    "count": 1,
+    "year": 2013,
+    "city": "austin"
+  },
+  {
+    "bucket": 5100,
+    "count": 1,
+    "year": 2013,
+    "city": "austin"
+  },
+  {
+    "bucket": 5160,
+    "count": 2,
+    "year": 2013,
+    "city": "austin"
+  },
+  {
+    "bucket": 5220,
+    "count": 1,
+    "year": 2013,
+    "city": "austin"
+  },
+  {
+    "bucket": 5280,
+    "count": 1,
+    "year": 2013,
+    "city": "austin"
+  },
+  {
+    "bucket": 5340,
+    "count": 2,
+    "year": 2013,
+    "city": "austin"
+  },
+  {
+    "bucket": 5400,
+    "count": 18,
+    "year": 2013,
+    "city": "austin"
+  },
+  {
+    "bucket": 5520,
+    "count": 1,
+    "year": 2013,
+    "city": "austin"
+  },
+  {
+    "bucket": 5580,
+    "count": 6,
+    "year": 2013,
+    "city": "austin"
+  },
+  {
+    "bucket": 5640,
+    "count": 1,
+    "year": 2013,
+    "city": "austin"
+  },
+  {
+    "bucket": 5700,
+    "count": 2,
+    "year": 2013,
+    "city": "austin"
+  },
+  {
+    "bucket": 5760,
+    "count": 3,
+    "year": 2013,
+    "city": "austin"
+  },
+  {
+    "bucket": 5820,
+    "count": 2,
+    "year": 2013,
+    "city": "austin"
+  },
+  {
+    "bucket": 5880,
+    "count": 1,
+    "year": 2013,
+    "city": "austin"
+  },
+  {
+    "bucket": 5940,
+    "count": 3,
+    "year": 2013,
+    "city": "austin"
+  },
+  {
+    "bucket": 6000,
+    "count": 2,
+    "year": 2013,
+    "city": "austin"
+  },
+  {
+    "bucket": 6060,
+    "count": 5,
+    "year": 2013,
+    "city": "austin"
+  },
+  {
+    "bucket": 6120,
+    "count": 2,
+    "year": 2013,
+    "city": "austin"
+  },
+  {
+    "bucket": 6180,
+    "count": 2,
+    "year": 2013,
+    "city": "austin"
+  },
+  {
+    "bucket": 6240,
+    "count": 2,
+    "year": 2013,
+    "city": "austin"
+  },
+  {
+    "bucket": 6300,
+    "count": 1,
+    "year": 2013,
+    "city": "austin"
+  },
+  {
+    "bucket": 6360,
+    "count": 4,
+    "year": 2013,
+    "city": "austin"
+  },
+  {
+    "bucket": 6420,
+    "count": 3,
+    "year": 2013,
+    "city": "austin"
+  },
+  {
+    "bucket": 6480,
+    "count": 2,
+    "year": 2013,
+    "city": "austin"
+  },
+  {
+    "bucket": 6540,
+    "count": 1,
+    "year": 2013,
+    "city": "austin"
+  },
+  {
+    "bucket": 6600,
+    "count": 2,
+    "year": 2013,
+    "city": "austin"
+  },
+  {
+    "bucket": 6720,
+    "count": 5,
+    "year": 2013,
+    "city": "austin"
+  },
+  {
+    "bucket": 6780,
+    "count": 1,
+    "year": 2013,
+    "city": "austin"
+  },
+  {
+    "bucket": 6840,
+    "count": 1,
+    "year": 2013,
+    "city": "austin"
+  },
+  {
+    "bucket": 6900,
+    "count": 1,
+    "year": 2013,
+    "city": "austin"
+  },
+  {
+    "bucket": 7020,
+    "count": 2,
+    "year": 2013,
+    "city": "austin"
+  },
+  {
+    "bucket": 7080,
+    "count": 1,
     "year": 2013,
     "city": "austin"
   },
@@ -246,242 +684,710 @@
     "city": "austin"
   },
   {
-    "bucket": 0,
+    "bucket": 120,
     "count": 1698,
     "year": 2014,
     "city": "austin"
   },
   {
     "bucket": 180,
-    "count": 13893,
+    "count": 2734,
+    "year": 2014,
+    "city": "austin"
+  },
+  {
+    "bucket": 240,
+    "count": 4754,
+    "year": 2014,
+    "city": "austin"
+  },
+  {
+    "bucket": 300,
+    "count": 6405,
     "year": 2014,
     "city": "austin"
   },
   {
     "bucket": 360,
-    "count": 20031,
+    "count": 6559,
+    "year": 2014,
+    "city": "austin"
+  },
+  {
+    "bucket": 420,
+    "count": 6792,
+    "year": 2014,
+    "city": "austin"
+  },
+  {
+    "bucket": 480,
+    "count": 6680,
     "year": 2014,
     "city": "austin"
   },
   {
     "bucket": 540,
-    "count": 19057,
+    "count": 6473,
+    "year": 2014,
+    "city": "austin"
+  },
+  {
+    "bucket": 600,
+    "count": 6329,
+    "year": 2014,
+    "city": "austin"
+  },
+  {
+    "bucket": 660,
+    "count": 6255,
     "year": 2014,
     "city": "austin"
   },
   {
     "bucket": 720,
-    "count": 16194,
+    "count": 5764,
+    "year": 2014,
+    "city": "austin"
+  },
+  {
+    "bucket": 780,
+    "count": 5425,
+    "year": 2014,
+    "city": "austin"
+  },
+  {
+    "bucket": 840,
+    "count": 5005,
     "year": 2014,
     "city": "austin"
   },
   {
     "bucket": 900,
-    "count": 13450,
+    "count": 4772,
+    "year": 2014,
+    "city": "austin"
+  },
+  {
+    "bucket": 960,
+    "count": 4522,
+    "year": 2014,
+    "city": "austin"
+  },
+  {
+    "bucket": 1020,
+    "count": 4156,
     "year": 2014,
     "city": "austin"
   },
   {
     "bucket": 1080,
-    "count": 10853,
+    "count": 3834,
+    "year": 2014,
+    "city": "austin"
+  },
+  {
+    "bucket": 1140,
+    "count": 3550,
+    "year": 2014,
+    "city": "austin"
+  },
+  {
+    "bucket": 1200,
+    "count": 3469,
     "year": 2014,
     "city": "austin"
   },
   {
     "bucket": 1260,
-    "count": 9237,
+    "count": 3246,
+    "year": 2014,
+    "city": "austin"
+  },
+  {
+    "bucket": 1320,
+    "count": 3074,
+    "year": 2014,
+    "city": "austin"
+  },
+  {
+    "bucket": 1380,
+    "count": 2917,
     "year": 2014,
     "city": "austin"
   },
   {
     "bucket": 1440,
-    "count": 7453,
+    "count": 2647,
+    "year": 2014,
+    "city": "austin"
+  },
+  {
+    "bucket": 1500,
+    "count": 2486,
+    "year": 2014,
+    "city": "austin"
+  },
+  {
+    "bucket": 1560,
+    "count": 2320,
     "year": 2014,
     "city": "austin"
   },
   {
     "bucket": 1620,
-    "count": 6504,
+    "count": 2095,
+    "year": 2014,
+    "city": "austin"
+  },
+  {
+    "bucket": 1680,
+    "count": 1900,
+    "year": 2014,
+    "city": "austin"
+  },
+  {
+    "bucket": 1740,
+    "count": 2509,
     "year": 2014,
     "city": "austin"
   },
   {
     "bucket": 1800,
-    "count": 3814,
+    "count": 1421,
+    "year": 2014,
+    "city": "austin"
+  },
+  {
+    "bucket": 1860,
+    "count": 1278,
+    "year": 2014,
+    "city": "austin"
+  },
+  {
+    "bucket": 1920,
+    "count": 1115,
     "year": 2014,
     "city": "austin"
   },
   {
     "bucket": 1980,
-    "count": 2623,
+    "count": 950,
+    "year": 2014,
+    "city": "austin"
+  },
+  {
+    "bucket": 2040,
+    "count": 882,
+    "year": 2014,
+    "city": "austin"
+  },
+  {
+    "bucket": 2100,
+    "count": 791,
     "year": 2014,
     "city": "austin"
   },
   {
     "bucket": 2160,
-    "count": 1957,
+    "count": 702,
+    "year": 2014,
+    "city": "austin"
+  },
+  {
+    "bucket": 2220,
+    "count": 684,
+    "year": 2014,
+    "city": "austin"
+  },
+  {
+    "bucket": 2280,
+    "count": 571,
     "year": 2014,
     "city": "austin"
   },
   {
     "bucket": 2340,
-    "count": 1638,
+    "count": 542,
+    "year": 2014,
+    "city": "austin"
+  },
+  {
+    "bucket": 2400,
+    "count": 579,
+    "year": 2014,
+    "city": "austin"
+  },
+  {
+    "bucket": 2460,
+    "count": 517,
     "year": 2014,
     "city": "austin"
   },
   {
     "bucket": 2520,
-    "count": 1441,
+    "count": 521,
+    "year": 2014,
+    "city": "austin"
+  },
+  {
+    "bucket": 2580,
+    "count": 454,
+    "year": 2014,
+    "city": "austin"
+  },
+  {
+    "bucket": 2640,
+    "count": 466,
     "year": 2014,
     "city": "austin"
   },
   {
     "bucket": 2700,
-    "count": 1243,
+    "count": 414,
     "year": 2014,
     "city": "austin"
   },
   {
-    "bucket": 2880,
-    "count": 1200,
+    "bucket": 2760,
+    "count": 427,
     "year": 2014,
     "city": "austin"
   },
   {
-    "bucket": 3060,
-    "count": 1187,
-    "year": 2014,
-    "city": "austin"
-  },
-  {
-    "bucket": 3240,
-    "count": 1054,
-    "year": 2014,
-    "city": "austin"
-  },
-  {
-    "bucket": 3420,
-    "count": 1022,
-    "year": 2014,
-    "city": "austin"
-  },
-  {
-    "bucket": 3600,
-    "count": 923,
-    "year": 2014,
-    "city": "austin"
-  },
-  {
-    "bucket": 3780,
-    "count": 800,
-    "year": 2014,
-    "city": "austin"
-  },
-  {
-    "bucket": 3960,
-    "count": 736,
-    "year": 2014,
-    "city": "austin"
-  },
-  {
-    "bucket": 4140,
-    "count": 641,
-    "year": 2014,
-    "city": "austin"
-  },
-  {
-    "bucket": 4320,
-    "count": 643,
-    "year": 2014,
-    "city": "austin"
-  },
-  {
-    "bucket": 4500,
-    "count": 559,
-    "year": 2014,
-    "city": "austin"
-  },
-  {
-    "bucket": 4680,
-    "count": 590,
-    "year": 2014,
-    "city": "austin"
-  },
-  {
-    "bucket": 4860,
-    "count": 504,
-    "year": 2014,
-    "city": "austin"
-  },
-  {
-    "bucket": 5040,
-    "count": 499,
-    "year": 2014,
-    "city": "austin"
-  },
-  {
-    "bucket": 5220,
-    "count": 492,
-    "year": 2014,
-    "city": "austin"
-  },
-  {
-    "bucket": 5400,
-    "count": 686,
-    "year": 2014,
-    "city": "austin"
-  },
-  {
-    "bucket": 5580,
+    "bucket": 2820,
     "count": 402,
     "year": 2014,
     "city": "austin"
   },
   {
-    "bucket": 5760,
-    "count": 353,
+    "bucket": 2880,
+    "count": 399,
     "year": 2014,
     "city": "austin"
   },
   {
-    "bucket": 5940,
-    "count": 340,
+    "bucket": 2940,
+    "count": 411,
     "year": 2014,
     "city": "austin"
   },
   {
-    "bucket": 6120,
-    "count": 295,
+    "bucket": 3000,
+    "count": 390,
     "year": 2014,
     "city": "austin"
   },
   {
-    "bucket": 6300,
-    "count": 293,
+    "bucket": 3060,
+    "count": 402,
     "year": 2014,
     "city": "austin"
   },
   {
-    "bucket": 6480,
-    "count": 290,
+    "bucket": 3120,
+    "count": 380,
     "year": 2014,
     "city": "austin"
   },
   {
-    "bucket": 6660,
-    "count": 244,
+    "bucket": 3180,
+    "count": 405,
     "year": 2014,
     "city": "austin"
   },
   {
-    "bucket": 6840,
+    "bucket": 3240,
+    "count": 362,
+    "year": 2014,
+    "city": "austin"
+  },
+  {
+    "bucket": 3300,
+    "count": 351,
+    "year": 2014,
+    "city": "austin"
+  },
+  {
+    "bucket": 3360,
+    "count": 341,
+    "year": 2014,
+    "city": "austin"
+  },
+  {
+    "bucket": 3420,
+    "count": 333,
+    "year": 2014,
+    "city": "austin"
+  },
+  {
+    "bucket": 3480,
+    "count": 337,
+    "year": 2014,
+    "city": "austin"
+  },
+  {
+    "bucket": 3540,
+    "count": 352,
+    "year": 2014,
+    "city": "austin"
+  },
+  {
+    "bucket": 3600,
+    "count": 335,
+    "year": 2014,
+    "city": "austin"
+  },
+  {
+    "bucket": 3660,
+    "count": 315,
+    "year": 2014,
+    "city": "austin"
+  },
+  {
+    "bucket": 3720,
+    "count": 273,
+    "year": 2014,
+    "city": "austin"
+  },
+  {
+    "bucket": 3780,
+    "count": 256,
+    "year": 2014,
+    "city": "austin"
+  },
+  {
+    "bucket": 3840,
+    "count": 287,
+    "year": 2014,
+    "city": "austin"
+  },
+  {
+    "bucket": 3900,
+    "count": 257,
+    "year": 2014,
+    "city": "austin"
+  },
+  {
+    "bucket": 3960,
+    "count": 246,
+    "year": 2014,
+    "city": "austin"
+  },
+  {
+    "bucket": 4020,
+    "count": 255,
+    "year": 2014,
+    "city": "austin"
+  },
+  {
+    "bucket": 4080,
+    "count": 235,
+    "year": 2014,
+    "city": "austin"
+  },
+  {
+    "bucket": 4140,
+    "count": 204,
+    "year": 2014,
+    "city": "austin"
+  },
+  {
+    "bucket": 4200,
     "count": 219,
     "year": 2014,
     "city": "austin"
   },
   {
+    "bucket": 4260,
+    "count": 218,
+    "year": 2014,
+    "city": "austin"
+  },
+  {
+    "bucket": 4320,
+    "count": 223,
+    "year": 2014,
+    "city": "austin"
+  },
+  {
+    "bucket": 4380,
+    "count": 202,
+    "year": 2014,
+    "city": "austin"
+  },
+  {
+    "bucket": 4440,
+    "count": 218,
+    "year": 2014,
+    "city": "austin"
+  },
+  {
+    "bucket": 4500,
+    "count": 195,
+    "year": 2014,
+    "city": "austin"
+  },
+  {
+    "bucket": 4560,
+    "count": 188,
+    "year": 2014,
+    "city": "austin"
+  },
+  {
+    "bucket": 4620,
+    "count": 176,
+    "year": 2014,
+    "city": "austin"
+  },
+  {
+    "bucket": 4680,
+    "count": 197,
+    "year": 2014,
+    "city": "austin"
+  },
+  {
+    "bucket": 4740,
+    "count": 206,
+    "year": 2014,
+    "city": "austin"
+  },
+  {
+    "bucket": 4800,
+    "count": 187,
+    "year": 2014,
+    "city": "austin"
+  },
+  {
+    "bucket": 4860,
+    "count": 179,
+    "year": 2014,
+    "city": "austin"
+  },
+  {
+    "bucket": 4920,
+    "count": 155,
+    "year": 2014,
+    "city": "austin"
+  },
+  {
+    "bucket": 4980,
+    "count": 170,
+    "year": 2014,
+    "city": "austin"
+  },
+  {
+    "bucket": 5040,
+    "count": 147,
+    "year": 2014,
+    "city": "austin"
+  },
+  {
+    "bucket": 5100,
+    "count": 180,
+    "year": 2014,
+    "city": "austin"
+  },
+  {
+    "bucket": 5160,
+    "count": 172,
+    "year": 2014,
+    "city": "austin"
+  },
+  {
+    "bucket": 5220,
+    "count": 151,
+    "year": 2014,
+    "city": "austin"
+  },
+  {
+    "bucket": 5280,
+    "count": 149,
+    "year": 2014,
+    "city": "austin"
+  },
+  {
+    "bucket": 5340,
+    "count": 192,
+    "year": 2014,
+    "city": "austin"
+  },
+  {
+    "bucket": 5400,
+    "count": 374,
+    "year": 2014,
+    "city": "austin"
+  },
+  {
+    "bucket": 5460,
+    "count": 166,
+    "year": 2014,
+    "city": "austin"
+  },
+  {
+    "bucket": 5520,
+    "count": 146,
+    "year": 2014,
+    "city": "austin"
+  },
+  {
+    "bucket": 5580,
+    "count": 143,
+    "year": 2014,
+    "city": "austin"
+  },
+  {
+    "bucket": 5640,
+    "count": 131,
+    "year": 2014,
+    "city": "austin"
+  },
+  {
+    "bucket": 5700,
+    "count": 128,
+    "year": 2014,
+    "city": "austin"
+  },
+  {
+    "bucket": 5760,
+    "count": 125,
+    "year": 2014,
+    "city": "austin"
+  },
+  {
+    "bucket": 5820,
+    "count": 109,
+    "year": 2014,
+    "city": "austin"
+  },
+  {
+    "bucket": 5880,
+    "count": 119,
+    "year": 2014,
+    "city": "austin"
+  },
+  {
+    "bucket": 5940,
+    "count": 109,
+    "year": 2014,
+    "city": "austin"
+  },
+  {
+    "bucket": 6000,
+    "count": 119,
+    "year": 2014,
+    "city": "austin"
+  },
+  {
+    "bucket": 6060,
+    "count": 112,
+    "year": 2014,
+    "city": "austin"
+  },
+  {
+    "bucket": 6120,
+    "count": 98,
+    "year": 2014,
+    "city": "austin"
+  },
+  {
+    "bucket": 6180,
+    "count": 98,
+    "year": 2014,
+    "city": "austin"
+  },
+  {
+    "bucket": 6240,
+    "count": 99,
+    "year": 2014,
+    "city": "austin"
+  },
+  {
+    "bucket": 6300,
+    "count": 88,
+    "year": 2014,
+    "city": "austin"
+  },
+  {
+    "bucket": 6360,
+    "count": 110,
+    "year": 2014,
+    "city": "austin"
+  },
+  {
+    "bucket": 6420,
+    "count": 95,
+    "year": 2014,
+    "city": "austin"
+  },
+  {
+    "bucket": 6480,
+    "count": 92,
+    "year": 2014,
+    "city": "austin"
+  },
+  {
+    "bucket": 6540,
+    "count": 94,
+    "year": 2014,
+    "city": "austin"
+  },
+  {
+    "bucket": 6600,
+    "count": 104,
+    "year": 2014,
+    "city": "austin"
+  },
+  {
+    "bucket": 6660,
+    "count": 91,
+    "year": 2014,
+    "city": "austin"
+  },
+  {
+    "bucket": 6720,
+    "count": 72,
+    "year": 2014,
+    "city": "austin"
+  },
+  {
+    "bucket": 6780,
+    "count": 81,
+    "year": 2014,
+    "city": "austin"
+  },
+  {
+    "bucket": 6840,
+    "count": 71,
+    "year": 2014,
+    "city": "austin"
+  },
+  {
+    "bucket": 6900,
+    "count": 76,
+    "year": 2014,
+    "city": "austin"
+  },
+  {
+    "bucket": 6960,
+    "count": 72,
+    "year": 2014,
+    "city": "austin"
+  },
+  {
     "bucket": 7020,
-    "count": 226,
+    "count": 76,
+    "year": 2014,
+    "city": "austin"
+  },
+  {
+    "bucket": 7080,
+    "count": 63,
+    "year": 2014,
+    "city": "austin"
+  },
+  {
+    "bucket": 7140,
+    "count": 87,
     "year": 2014,
     "city": "austin"
   },
@@ -492,242 +1398,710 @@
     "city": "austin"
   },
   {
-    "bucket": 0,
+    "bucket": 120,
     "count": 2502,
     "year": 2015,
     "city": "austin"
   },
   {
     "bucket": 180,
-    "count": 17981,
+    "count": 4255,
+    "year": 2015,
+    "city": "austin"
+  },
+  {
+    "bucket": 240,
+    "count": 6113,
+    "year": 2015,
+    "city": "austin"
+  },
+  {
+    "bucket": 300,
+    "count": 7613,
     "year": 2015,
     "city": "austin"
   },
   {
     "bucket": 360,
-    "count": 26078,
+    "count": 8774,
+    "year": 2015,
+    "city": "austin"
+  },
+  {
+    "bucket": 420,
+    "count": 8650,
+    "year": 2015,
+    "city": "austin"
+  },
+  {
+    "bucket": 480,
+    "count": 8654,
     "year": 2015,
     "city": "austin"
   },
   {
     "bucket": 540,
-    "count": 23154,
+    "count": 8112,
+    "year": 2015,
+    "city": "austin"
+  },
+  {
+    "bucket": 600,
+    "count": 7665,
+    "year": 2015,
+    "city": "austin"
+  },
+  {
+    "bucket": 660,
+    "count": 7377,
     "year": 2015,
     "city": "austin"
   },
   {
     "bucket": 720,
-    "count": 19004,
+    "count": 6745,
+    "year": 2015,
+    "city": "austin"
+  },
+  {
+    "bucket": 780,
+    "count": 6271,
+    "year": 2015,
+    "city": "austin"
+  },
+  {
+    "bucket": 840,
+    "count": 5988,
     "year": 2015,
     "city": "austin"
   },
   {
     "bucket": 900,
-    "count": 15191,
+    "count": 5439,
+    "year": 2015,
+    "city": "austin"
+  },
+  {
+    "bucket": 960,
+    "count": 5139,
+    "year": 2015,
+    "city": "austin"
+  },
+  {
+    "bucket": 1020,
+    "count": 4613,
     "year": 2015,
     "city": "austin"
   },
   {
     "bucket": 1080,
-    "count": 12264,
+    "count": 4382,
+    "year": 2015,
+    "city": "austin"
+  },
+  {
+    "bucket": 1140,
+    "count": 4111,
+    "year": 2015,
+    "city": "austin"
+  },
+  {
+    "bucket": 1200,
+    "count": 3771,
     "year": 2015,
     "city": "austin"
   },
   {
     "bucket": 1260,
-    "count": 10094,
+    "count": 3574,
+    "year": 2015,
+    "city": "austin"
+  },
+  {
+    "bucket": 1320,
+    "count": 3439,
+    "year": 2015,
+    "city": "austin"
+  },
+  {
+    "bucket": 1380,
+    "count": 3081,
     "year": 2015,
     "city": "austin"
   },
   {
     "bucket": 1440,
-    "count": 8333,
+    "count": 2902,
+    "year": 2015,
+    "city": "austin"
+  },
+  {
+    "bucket": 1500,
+    "count": 2803,
+    "year": 2015,
+    "city": "austin"
+  },
+  {
+    "bucket": 1560,
+    "count": 2628,
     "year": 2015,
     "city": "austin"
   },
   {
     "bucket": 1620,
-    "count": 7673,
+    "count": 2410,
+    "year": 2015,
+    "city": "austin"
+  },
+  {
+    "bucket": 1680,
+    "count": 2219,
+    "year": 2015,
+    "city": "austin"
+  },
+  {
+    "bucket": 1740,
+    "count": 3044,
     "year": 2015,
     "city": "austin"
   },
   {
     "bucket": 1800,
-    "count": 4432,
+    "count": 1803,
+    "year": 2015,
+    "city": "austin"
+  },
+  {
+    "bucket": 1860,
+    "count": 1346,
+    "year": 2015,
+    "city": "austin"
+  },
+  {
+    "bucket": 1920,
+    "count": 1283,
     "year": 2015,
     "city": "austin"
   },
   {
     "bucket": 1980,
-    "count": 3161,
+    "count": 1154,
+    "year": 2015,
+    "city": "austin"
+  },
+  {
+    "bucket": 2040,
+    "count": 1077,
+    "year": 2015,
+    "city": "austin"
+  },
+  {
+    "bucket": 2100,
+    "count": 930,
     "year": 2015,
     "city": "austin"
   },
   {
     "bucket": 2160,
-    "count": 2236,
+    "count": 819,
+    "year": 2015,
+    "city": "austin"
+  },
+  {
+    "bucket": 2220,
+    "count": 725,
+    "year": 2015,
+    "city": "austin"
+  },
+  {
+    "bucket": 2280,
+    "count": 692,
     "year": 2015,
     "city": "austin"
   },
   {
     "bucket": 2340,
-    "count": 1731,
+    "count": 603,
+    "year": 2015,
+    "city": "austin"
+  },
+  {
+    "bucket": 2400,
+    "count": 578,
+    "year": 2015,
+    "city": "austin"
+  },
+  {
+    "bucket": 2460,
+    "count": 550,
     "year": 2015,
     "city": "austin"
   },
   {
     "bucket": 2520,
-    "count": 1603,
+    "count": 584,
+    "year": 2015,
+    "city": "austin"
+  },
+  {
+    "bucket": 2580,
+    "count": 526,
+    "year": 2015,
+    "city": "austin"
+  },
+  {
+    "bucket": 2640,
+    "count": 493,
     "year": 2015,
     "city": "austin"
   },
   {
     "bucket": 2700,
-    "count": 1475,
+    "count": 533,
+    "year": 2015,
+    "city": "austin"
+  },
+  {
+    "bucket": 2760,
+    "count": 490,
+    "year": 2015,
+    "city": "austin"
+  },
+  {
+    "bucket": 2820,
+    "count": 452,
     "year": 2015,
     "city": "austin"
   },
   {
     "bucket": 2880,
-    "count": 1325,
+    "count": 422,
+    "year": 2015,
+    "city": "austin"
+  },
+  {
+    "bucket": 2940,
+    "count": 461,
+    "year": 2015,
+    "city": "austin"
+  },
+  {
+    "bucket": 3000,
+    "count": 442,
     "year": 2015,
     "city": "austin"
   },
   {
     "bucket": 3060,
-    "count": 1300,
+    "count": 454,
+    "year": 2015,
+    "city": "austin"
+  },
+  {
+    "bucket": 3120,
+    "count": 441,
+    "year": 2015,
+    "city": "austin"
+  },
+  {
+    "bucket": 3180,
+    "count": 405,
     "year": 2015,
     "city": "austin"
   },
   {
     "bucket": 3240,
-    "count": 1212,
+    "count": 417,
+    "year": 2015,
+    "city": "austin"
+  },
+  {
+    "bucket": 3300,
+    "count": 394,
+    "year": 2015,
+    "city": "austin"
+  },
+  {
+    "bucket": 3360,
+    "count": 401,
     "year": 2015,
     "city": "austin"
   },
   {
     "bucket": 3420,
-    "count": 1146,
+    "count": 422,
+    "year": 2015,
+    "city": "austin"
+  },
+  {
+    "bucket": 3480,
+    "count": 390,
+    "year": 2015,
+    "city": "austin"
+  },
+  {
+    "bucket": 3540,
+    "count": 334,
     "year": 2015,
     "city": "austin"
   },
   {
     "bucket": 3600,
-    "count": 951,
+    "count": 358,
     "year": 2015,
     "city": "austin"
   },
   {
-    "bucket": 3780,
-    "count": 804,
+    "bucket": 3660,
+    "count": 295,
     "year": 2015,
     "city": "austin"
   },
   {
-    "bucket": 3960,
-    "count": 792,
-    "year": 2015,
-    "city": "austin"
-  },
-  {
-    "bucket": 4140,
-    "count": 788,
-    "year": 2015,
-    "city": "austin"
-  },
-  {
-    "bucket": 4320,
-    "count": 661,
-    "year": 2015,
-    "city": "austin"
-  },
-  {
-    "bucket": 4500,
-    "count": 685,
-    "year": 2015,
-    "city": "austin"
-  },
-  {
-    "bucket": 4680,
-    "count": 572,
-    "year": 2015,
-    "city": "austin"
-  },
-  {
-    "bucket": 4860,
-    "count": 566,
-    "year": 2015,
-    "city": "austin"
-  },
-  {
-    "bucket": 5040,
-    "count": 497,
-    "year": 2015,
-    "city": "austin"
-  },
-  {
-    "bucket": 5220,
-    "count": 449,
-    "year": 2015,
-    "city": "austin"
-  },
-  {
-    "bucket": 5400,
-    "count": 581,
-    "year": 2015,
-    "city": "austin"
-  },
-  {
-    "bucket": 5580,
-    "count": 412,
-    "year": 2015,
-    "city": "austin"
-  },
-  {
-    "bucket": 5760,
-    "count": 399,
-    "year": 2015,
-    "city": "austin"
-  },
-  {
-    "bucket": 5940,
-    "count": 316,
-    "year": 2015,
-    "city": "austin"
-  },
-  {
-    "bucket": 6120,
-    "count": 316,
-    "year": 2015,
-    "city": "austin"
-  },
-  {
-    "bucket": 6300,
+    "bucket": 3720,
     "count": 298,
     "year": 2015,
     "city": "austin"
   },
   {
+    "bucket": 3780,
+    "count": 293,
+    "year": 2015,
+    "city": "austin"
+  },
+  {
+    "bucket": 3840,
+    "count": 246,
+    "year": 2015,
+    "city": "austin"
+  },
+  {
+    "bucket": 3900,
+    "count": 265,
+    "year": 2015,
+    "city": "austin"
+  },
+  {
+    "bucket": 3960,
+    "count": 275,
+    "year": 2015,
+    "city": "austin"
+  },
+  {
+    "bucket": 4020,
+    "count": 267,
+    "year": 2015,
+    "city": "austin"
+  },
+  {
+    "bucket": 4080,
+    "count": 250,
+    "year": 2015,
+    "city": "austin"
+  },
+  {
+    "bucket": 4140,
+    "count": 270,
+    "year": 2015,
+    "city": "austin"
+  },
+  {
+    "bucket": 4200,
+    "count": 254,
+    "year": 2015,
+    "city": "austin"
+  },
+  {
+    "bucket": 4260,
+    "count": 264,
+    "year": 2015,
+    "city": "austin"
+  },
+  {
+    "bucket": 4320,
+    "count": 235,
+    "year": 2015,
+    "city": "austin"
+  },
+  {
+    "bucket": 4380,
+    "count": 213,
+    "year": 2015,
+    "city": "austin"
+  },
+  {
+    "bucket": 4440,
+    "count": 213,
+    "year": 2015,
+    "city": "austin"
+  },
+  {
+    "bucket": 4500,
+    "count": 263,
+    "year": 2015,
+    "city": "austin"
+  },
+  {
+    "bucket": 4560,
+    "count": 208,
+    "year": 2015,
+    "city": "austin"
+  },
+  {
+    "bucket": 4620,
+    "count": 214,
+    "year": 2015,
+    "city": "austin"
+  },
+  {
+    "bucket": 4680,
+    "count": 209,
+    "year": 2015,
+    "city": "austin"
+  },
+  {
+    "bucket": 4740,
+    "count": 181,
+    "year": 2015,
+    "city": "austin"
+  },
+  {
+    "bucket": 4800,
+    "count": 182,
+    "year": 2015,
+    "city": "austin"
+  },
+  {
+    "bucket": 4860,
+    "count": 200,
+    "year": 2015,
+    "city": "austin"
+  },
+  {
+    "bucket": 4920,
+    "count": 192,
+    "year": 2015,
+    "city": "austin"
+  },
+  {
+    "bucket": 4980,
+    "count": 174,
+    "year": 2015,
+    "city": "austin"
+  },
+  {
+    "bucket": 5040,
+    "count": 161,
+    "year": 2015,
+    "city": "austin"
+  },
+  {
+    "bucket": 5100,
+    "count": 171,
+    "year": 2015,
+    "city": "austin"
+  },
+  {
+    "bucket": 5160,
+    "count": 165,
+    "year": 2015,
+    "city": "austin"
+  },
+  {
+    "bucket": 5220,
+    "count": 148,
+    "year": 2015,
+    "city": "austin"
+  },
+  {
+    "bucket": 5280,
+    "count": 141,
+    "year": 2015,
+    "city": "austin"
+  },
+  {
+    "bucket": 5340,
+    "count": 160,
+    "year": 2015,
+    "city": "austin"
+  },
+  {
+    "bucket": 5400,
+    "count": 316,
+    "year": 2015,
+    "city": "austin"
+  },
+  {
+    "bucket": 5460,
+    "count": 124,
+    "year": 2015,
+    "city": "austin"
+  },
+  {
+    "bucket": 5520,
+    "count": 141,
+    "year": 2015,
+    "city": "austin"
+  },
+  {
+    "bucket": 5580,
+    "count": 139,
+    "year": 2015,
+    "city": "austin"
+  },
+  {
+    "bucket": 5640,
+    "count": 131,
+    "year": 2015,
+    "city": "austin"
+  },
+  {
+    "bucket": 5700,
+    "count": 142,
+    "year": 2015,
+    "city": "austin"
+  },
+  {
+    "bucket": 5760,
+    "count": 148,
+    "year": 2015,
+    "city": "austin"
+  },
+  {
+    "bucket": 5820,
+    "count": 120,
+    "year": 2015,
+    "city": "austin"
+  },
+  {
+    "bucket": 5880,
+    "count": 131,
+    "year": 2015,
+    "city": "austin"
+  },
+  {
+    "bucket": 5940,
+    "count": 107,
+    "year": 2015,
+    "city": "austin"
+  },
+  {
+    "bucket": 6000,
+    "count": 112,
+    "year": 2015,
+    "city": "austin"
+  },
+  {
+    "bucket": 6060,
+    "count": 97,
+    "year": 2015,
+    "city": "austin"
+  },
+  {
+    "bucket": 6120,
+    "count": 102,
+    "year": 2015,
+    "city": "austin"
+  },
+  {
+    "bucket": 6180,
+    "count": 108,
+    "year": 2015,
+    "city": "austin"
+  },
+  {
+    "bucket": 6240,
+    "count": 106,
+    "year": 2015,
+    "city": "austin"
+  },
+  {
+    "bucket": 6300,
+    "count": 110,
+    "year": 2015,
+    "city": "austin"
+  },
+  {
+    "bucket": 6360,
+    "count": 95,
+    "year": 2015,
+    "city": "austin"
+  },
+  {
+    "bucket": 6420,
+    "count": 93,
+    "year": 2015,
+    "city": "austin"
+  },
+  {
     "bucket": 6480,
-    "count": 315,
+    "count": 104,
+    "year": 2015,
+    "city": "austin"
+  },
+  {
+    "bucket": 6540,
+    "count": 107,
+    "year": 2015,
+    "city": "austin"
+  },
+  {
+    "bucket": 6600,
+    "count": 104,
     "year": 2015,
     "city": "austin"
   },
   {
     "bucket": 6660,
-    "count": 258,
+    "count": 102,
+    "year": 2015,
+    "city": "austin"
+  },
+  {
+    "bucket": 6720,
+    "count": 87,
+    "year": 2015,
+    "city": "austin"
+  },
+  {
+    "bucket": 6780,
+    "count": 69,
     "year": 2015,
     "city": "austin"
   },
   {
     "bucket": 6840,
-    "count": 251,
+    "count": 98,
+    "year": 2015,
+    "city": "austin"
+  },
+  {
+    "bucket": 6900,
+    "count": 87,
+    "year": 2015,
+    "city": "austin"
+  },
+  {
+    "bucket": 6960,
+    "count": 66,
     "year": 2015,
     "city": "austin"
   },
   {
     "bucket": 7020,
-    "count": 228,
+    "count": 84,
+    "year": 2015,
+    "city": "austin"
+  },
+  {
+    "bucket": 7080,
+    "count": 67,
+    "year": 2015,
+    "city": "austin"
+  },
+  {
+    "bucket": 7140,
+    "count": 77,
     "year": 2015,
     "city": "austin"
   },
@@ -738,242 +2112,710 @@
     "city": "austin"
   },
   {
-    "bucket": 0,
+    "bucket": 120,
     "count": 2843,
     "year": 2016,
     "city": "austin"
   },
   {
     "bucket": 180,
-    "count": 18773,
+    "count": 4588,
+    "year": 2016,
+    "city": "austin"
+  },
+  {
+    "bucket": 240,
+    "count": 6301,
+    "year": 2016,
+    "city": "austin"
+  },
+  {
+    "bucket": 300,
+    "count": 7884,
     "year": 2016,
     "city": "austin"
   },
   {
     "bucket": 360,
-    "count": 28125,
+    "count": 9212,
+    "year": 2016,
+    "city": "austin"
+  },
+  {
+    "bucket": 420,
+    "count": 9536,
+    "year": 2016,
+    "city": "austin"
+  },
+  {
+    "bucket": 480,
+    "count": 9377,
     "year": 2016,
     "city": "austin"
   },
   {
     "bucket": 540,
-    "count": 23912,
+    "count": 8599,
+    "year": 2016,
+    "city": "austin"
+  },
+  {
+    "bucket": 600,
+    "count": 7988,
+    "year": 2016,
+    "city": "austin"
+  },
+  {
+    "bucket": 660,
+    "count": 7325,
     "year": 2016,
     "city": "austin"
   },
   {
     "bucket": 720,
-    "count": 19970,
+    "count": 7003,
+    "year": 2016,
+    "city": "austin"
+  },
+  {
+    "bucket": 780,
+    "count": 6658,
+    "year": 2016,
+    "city": "austin"
+  },
+  {
+    "bucket": 840,
+    "count": 6309,
     "year": 2016,
     "city": "austin"
   },
   {
     "bucket": 900,
-    "count": 16320,
+    "count": 5795,
+    "year": 2016,
+    "city": "austin"
+  },
+  {
+    "bucket": 960,
+    "count": 5419,
+    "year": 2016,
+    "city": "austin"
+  },
+  {
+    "bucket": 1020,
+    "count": 5106,
     "year": 2016,
     "city": "austin"
   },
   {
     "bucket": 1080,
-    "count": 13564,
+    "count": 4705,
+    "year": 2016,
+    "city": "austin"
+  },
+  {
+    "bucket": 1140,
+    "count": 4524,
+    "year": 2016,
+    "city": "austin"
+  },
+  {
+    "bucket": 1200,
+    "count": 4335,
     "year": 2016,
     "city": "austin"
   },
   {
     "bucket": 1260,
-    "count": 11568,
+    "count": 4162,
+    "year": 2016,
+    "city": "austin"
+  },
+  {
+    "bucket": 1320,
+    "count": 3854,
+    "year": 2016,
+    "city": "austin"
+  },
+  {
+    "bucket": 1380,
+    "count": 3552,
     "year": 2016,
     "city": "austin"
   },
   {
     "bucket": 1440,
-    "count": 9463,
+    "count": 3447,
+    "year": 2016,
+    "city": "austin"
+  },
+  {
+    "bucket": 1500,
+    "count": 3070,
+    "year": 2016,
+    "city": "austin"
+  },
+  {
+    "bucket": 1560,
+    "count": 2946,
     "year": 2016,
     "city": "austin"
   },
   {
     "bucket": 1620,
-    "count": 7387,
+    "count": 2734,
+    "year": 2016,
+    "city": "austin"
+  },
+  {
+    "bucket": 1680,
+    "count": 2482,
+    "year": 2016,
+    "city": "austin"
+  },
+  {
+    "bucket": 1740,
+    "count": 2171,
     "year": 2016,
     "city": "austin"
   },
   {
     "bucket": 1800,
-    "count": 5147,
+    "count": 1982,
+    "year": 2016,
+    "city": "austin"
+  },
+  {
+    "bucket": 1860,
+    "count": 1699,
+    "year": 2016,
+    "city": "austin"
+  },
+  {
+    "bucket": 1920,
+    "count": 1466,
     "year": 2016,
     "city": "austin"
   },
   {
     "bucket": 1980,
-    "count": 3550,
+    "count": 1296,
+    "year": 2016,
+    "city": "austin"
+  },
+  {
+    "bucket": 2040,
+    "count": 1214,
+    "year": 2016,
+    "city": "austin"
+  },
+  {
+    "bucket": 2100,
+    "count": 1040,
     "year": 2016,
     "city": "austin"
   },
   {
     "bucket": 2160,
-    "count": 2575,
+    "count": 895,
+    "year": 2016,
+    "city": "austin"
+  },
+  {
+    "bucket": 2220,
+    "count": 879,
+    "year": 2016,
+    "city": "austin"
+  },
+  {
+    "bucket": 2280,
+    "count": 801,
     "year": 2016,
     "city": "austin"
   },
   {
     "bucket": 2340,
-    "count": 2125,
+    "count": 711,
+    "year": 2016,
+    "city": "austin"
+  },
+  {
+    "bucket": 2400,
+    "count": 715,
+    "year": 2016,
+    "city": "austin"
+  },
+  {
+    "bucket": 2460,
+    "count": 699,
     "year": 2016,
     "city": "austin"
   },
   {
     "bucket": 2520,
-    "count": 1965,
+    "count": 664,
+    "year": 2016,
+    "city": "austin"
+  },
+  {
+    "bucket": 2580,
+    "count": 656,
+    "year": 2016,
+    "city": "austin"
+  },
+  {
+    "bucket": 2640,
+    "count": 645,
     "year": 2016,
     "city": "austin"
   },
   {
     "bucket": 2700,
-    "count": 1716,
+    "count": 604,
+    "year": 2016,
+    "city": "austin"
+  },
+  {
+    "bucket": 2760,
+    "count": 544,
+    "year": 2016,
+    "city": "austin"
+  },
+  {
+    "bucket": 2820,
+    "count": 568,
     "year": 2016,
     "city": "austin"
   },
   {
     "bucket": 2880,
-    "count": 1595,
+    "count": 513,
+    "year": 2016,
+    "city": "austin"
+  },
+  {
+    "bucket": 2940,
+    "count": 540,
+    "year": 2016,
+    "city": "austin"
+  },
+  {
+    "bucket": 3000,
+    "count": 542,
     "year": 2016,
     "city": "austin"
   },
   {
     "bucket": 3060,
-    "count": 1513,
+    "count": 515,
+    "year": 2016,
+    "city": "austin"
+  },
+  {
+    "bucket": 3120,
+    "count": 525,
+    "year": 2016,
+    "city": "austin"
+  },
+  {
+    "bucket": 3180,
+    "count": 473,
     "year": 2016,
     "city": "austin"
   },
   {
     "bucket": 3240,
-    "count": 1478,
+    "count": 512,
+    "year": 2016,
+    "city": "austin"
+  },
+  {
+    "bucket": 3300,
+    "count": 500,
+    "year": 2016,
+    "city": "austin"
+  },
+  {
+    "bucket": 3360,
+    "count": 466,
     "year": 2016,
     "city": "austin"
   },
   {
     "bucket": 3420,
-    "count": 1373,
+    "count": 477,
+    "year": 2016,
+    "city": "austin"
+  },
+  {
+    "bucket": 3480,
+    "count": 456,
+    "year": 2016,
+    "city": "austin"
+  },
+  {
+    "bucket": 3540,
+    "count": 440,
     "year": 2016,
     "city": "austin"
   },
   {
     "bucket": 3600,
-    "count": 1235,
+    "count": 437,
+    "year": 2016,
+    "city": "austin"
+  },
+  {
+    "bucket": 3660,
+    "count": 404,
+    "year": 2016,
+    "city": "austin"
+  },
+  {
+    "bucket": 3720,
+    "count": 394,
     "year": 2016,
     "city": "austin"
   },
   {
     "bucket": 3780,
-    "count": 1025,
+    "count": 361,
+    "year": 2016,
+    "city": "austin"
+  },
+  {
+    "bucket": 3840,
+    "count": 338,
+    "year": 2016,
+    "city": "austin"
+  },
+  {
+    "bucket": 3900,
+    "count": 326,
     "year": 2016,
     "city": "austin"
   },
   {
     "bucket": 3960,
-    "count": 901,
+    "count": 305,
+    "year": 2016,
+    "city": "austin"
+  },
+  {
+    "bucket": 4020,
+    "count": 310,
+    "year": 2016,
+    "city": "austin"
+  },
+  {
+    "bucket": 4080,
+    "count": 286,
     "year": 2016,
     "city": "austin"
   },
   {
     "bucket": 4140,
-    "count": 946,
+    "count": 287,
+    "year": 2016,
+    "city": "austin"
+  },
+  {
+    "bucket": 4200,
+    "count": 325,
+    "year": 2016,
+    "city": "austin"
+  },
+  {
+    "bucket": 4260,
+    "count": 334,
     "year": 2016,
     "city": "austin"
   },
   {
     "bucket": 4320,
-    "count": 834,
+    "count": 276,
+    "year": 2016,
+    "city": "austin"
+  },
+  {
+    "bucket": 4380,
+    "count": 301,
+    "year": 2016,
+    "city": "austin"
+  },
+  {
+    "bucket": 4440,
+    "count": 257,
     "year": 2016,
     "city": "austin"
   },
   {
     "bucket": 4500,
-    "count": 792,
+    "count": 267,
+    "year": 2016,
+    "city": "austin"
+  },
+  {
+    "bucket": 4560,
+    "count": 267,
+    "year": 2016,
+    "city": "austin"
+  },
+  {
+    "bucket": 4620,
+    "count": 258,
     "year": 2016,
     "city": "austin"
   },
   {
     "bucket": 4680,
-    "count": 713,
+    "count": 256,
+    "year": 2016,
+    "city": "austin"
+  },
+  {
+    "bucket": 4740,
+    "count": 232,
+    "year": 2016,
+    "city": "austin"
+  },
+  {
+    "bucket": 4800,
+    "count": 225,
     "year": 2016,
     "city": "austin"
   },
   {
     "bucket": 4860,
-    "count": 661,
+    "count": 240,
+    "year": 2016,
+    "city": "austin"
+  },
+  {
+    "bucket": 4920,
+    "count": 218,
+    "year": 2016,
+    "city": "austin"
+  },
+  {
+    "bucket": 4980,
+    "count": 203,
     "year": 2016,
     "city": "austin"
   },
   {
     "bucket": 5040,
-    "count": 621,
+    "count": 221,
+    "year": 2016,
+    "city": "austin"
+  },
+  {
+    "bucket": 5100,
+    "count": 184,
+    "year": 2016,
+    "city": "austin"
+  },
+  {
+    "bucket": 5160,
+    "count": 216,
     "year": 2016,
     "city": "austin"
   },
   {
     "bucket": 5220,
-    "count": 596,
+    "count": 204,
+    "year": 2016,
+    "city": "austin"
+  },
+  {
+    "bucket": 5280,
+    "count": 199,
+    "year": 2016,
+    "city": "austin"
+  },
+  {
+    "bucket": 5340,
+    "count": 193,
     "year": 2016,
     "city": "austin"
   },
   {
     "bucket": 5400,
-    "count": 548,
+    "count": 191,
+    "year": 2016,
+    "city": "austin"
+  },
+  {
+    "bucket": 5460,
+    "count": 173,
+    "year": 2016,
+    "city": "austin"
+  },
+  {
+    "bucket": 5520,
+    "count": 184,
     "year": 2016,
     "city": "austin"
   },
   {
     "bucket": 5580,
-    "count": 503,
+    "count": 181,
+    "year": 2016,
+    "city": "austin"
+  },
+  {
+    "bucket": 5640,
+    "count": 181,
+    "year": 2016,
+    "city": "austin"
+  },
+  {
+    "bucket": 5700,
+    "count": 141,
     "year": 2016,
     "city": "austin"
   },
   {
     "bucket": 5760,
-    "count": 478,
+    "count": 156,
+    "year": 2016,
+    "city": "austin"
+  },
+  {
+    "bucket": 5820,
+    "count": 143,
+    "year": 2016,
+    "city": "austin"
+  },
+  {
+    "bucket": 5880,
+    "count": 179,
     "year": 2016,
     "city": "austin"
   },
   {
     "bucket": 5940,
-    "count": 418,
+    "count": 164,
+    "year": 2016,
+    "city": "austin"
+  },
+  {
+    "bucket": 6000,
+    "count": 137,
+    "year": 2016,
+    "city": "austin"
+  },
+  {
+    "bucket": 6060,
+    "count": 117,
     "year": 2016,
     "city": "austin"
   },
   {
     "bucket": 6120,
-    "count": 353,
+    "count": 121,
+    "year": 2016,
+    "city": "austin"
+  },
+  {
+    "bucket": 6180,
+    "count": 113,
+    "year": 2016,
+    "city": "austin"
+  },
+  {
+    "bucket": 6240,
+    "count": 119,
     "year": 2016,
     "city": "austin"
   },
   {
     "bucket": 6300,
-    "count": 397,
+    "count": 122,
+    "year": 2016,
+    "city": "austin"
+  },
+  {
+    "bucket": 6360,
+    "count": 134,
+    "year": 2016,
+    "city": "austin"
+  },
+  {
+    "bucket": 6420,
+    "count": 141,
     "year": 2016,
     "city": "austin"
   },
   {
     "bucket": 6480,
-    "count": 371,
+    "count": 124,
+    "year": 2016,
+    "city": "austin"
+  },
+  {
+    "bucket": 6540,
+    "count": 120,
+    "year": 2016,
+    "city": "austin"
+  },
+  {
+    "bucket": 6600,
+    "count": 127,
     "year": 2016,
     "city": "austin"
   },
   {
     "bucket": 6660,
-    "count": 350,
+    "count": 115,
+    "year": 2016,
+    "city": "austin"
+  },
+  {
+    "bucket": 6720,
+    "count": 120,
+    "year": 2016,
+    "city": "austin"
+  },
+  {
+    "bucket": 6780,
+    "count": 115,
     "year": 2016,
     "city": "austin"
   },
   {
     "bucket": 6840,
-    "count": 308,
+    "count": 113,
+    "year": 2016,
+    "city": "austin"
+  },
+  {
+    "bucket": 6900,
+    "count": 96,
+    "year": 2016,
+    "city": "austin"
+  },
+  {
+    "bucket": 6960,
+    "count": 99,
     "year": 2016,
     "city": "austin"
   },
   {
     "bucket": 7020,
-    "count": 280,
+    "count": 99,
+    "year": 2016,
+    "city": "austin"
+  },
+  {
+    "bucket": 7080,
+    "count": 104,
+    "year": 2016,
+    "city": "austin"
+  },
+  {
+    "bucket": 7140,
+    "count": 77,
     "year": 2016,
     "city": "austin"
   },
@@ -984,242 +2826,710 @@
     "city": "austin"
   },
   {
-    "bucket": 0,
+    "bucket": 120,
     "count": 2880,
     "year": 2017,
     "city": "austin"
   },
   {
     "bucket": 180,
-    "count": 19493,
+    "count": 4619,
+    "year": 2017,
+    "city": "austin"
+  },
+  {
+    "bucket": 240,
+    "count": 6511,
+    "year": 2017,
+    "city": "austin"
+  },
+  {
+    "bucket": 300,
+    "count": 8363,
     "year": 2017,
     "city": "austin"
   },
   {
     "bucket": 360,
-    "count": 27040,
+    "count": 9172,
+    "year": 2017,
+    "city": "austin"
+  },
+  {
+    "bucket": 420,
+    "count": 9244,
+    "year": 2017,
+    "city": "austin"
+  },
+  {
+    "bucket": 480,
+    "count": 8624,
     "year": 2017,
     "city": "austin"
   },
   {
     "bucket": 540,
-    "count": 20480,
+    "count": 7732,
+    "year": 2017,
+    "city": "austin"
+  },
+  {
+    "bucket": 600,
+    "count": 6746,
+    "year": 2017,
+    "city": "austin"
+  },
+  {
+    "bucket": 660,
+    "count": 6002,
     "year": 2017,
     "city": "austin"
   },
   {
     "bucket": 720,
-    "count": 15108,
+    "count": 5424,
+    "year": 2017,
+    "city": "austin"
+  },
+  {
+    "bucket": 780,
+    "count": 4974,
+    "year": 2017,
+    "city": "austin"
+  },
+  {
+    "bucket": 840,
+    "count": 4710,
     "year": 2017,
     "city": "austin"
   },
   {
     "bucket": 900,
-    "count": 11622,
+    "count": 4223,
+    "year": 2017,
+    "city": "austin"
+  },
+  {
+    "bucket": 960,
+    "count": 3845,
+    "year": 2017,
+    "city": "austin"
+  },
+  {
+    "bucket": 1020,
+    "count": 3554,
     "year": 2017,
     "city": "austin"
   },
   {
     "bucket": 1080,
-    "count": 9280,
+    "count": 3353,
+    "year": 2017,
+    "city": "austin"
+  },
+  {
+    "bucket": 1140,
+    "count": 3051,
+    "year": 2017,
+    "city": "austin"
+  },
+  {
+    "bucket": 1200,
+    "count": 2876,
     "year": 2017,
     "city": "austin"
   },
   {
     "bucket": 1260,
-    "count": 7434,
+    "count": 2632,
+    "year": 2017,
+    "city": "austin"
+  },
+  {
+    "bucket": 1320,
+    "count": 2465,
+    "year": 2017,
+    "city": "austin"
+  },
+  {
+    "bucket": 1380,
+    "count": 2337,
     "year": 2017,
     "city": "austin"
   },
   {
     "bucket": 1440,
-    "count": 6430,
+    "count": 2215,
+    "year": 2017,
+    "city": "austin"
+  },
+  {
+    "bucket": 1500,
+    "count": 2167,
+    "year": 2017,
+    "city": "austin"
+  },
+  {
+    "bucket": 1560,
+    "count": 2048,
     "year": 2017,
     "city": "austin"
   },
   {
     "bucket": 1620,
-    "count": 5672,
+    "count": 1890,
+    "year": 2017,
+    "city": "austin"
+  },
+  {
+    "bucket": 1680,
+    "count": 1902,
+    "year": 2017,
+    "city": "austin"
+  },
+  {
+    "bucket": 1740,
+    "count": 1880,
     "year": 2017,
     "city": "austin"
   },
   {
     "bucket": 1800,
-    "count": 5100,
+    "count": 1759,
+    "year": 2017,
+    "city": "austin"
+  },
+  {
+    "bucket": 1860,
+    "count": 1705,
+    "year": 2017,
+    "city": "austin"
+  },
+  {
+    "bucket": 1920,
+    "count": 1636,
     "year": 2017,
     "city": "austin"
   },
   {
     "bucket": 1980,
-    "count": 4782,
+    "count": 1579,
+    "year": 2017,
+    "city": "austin"
+  },
+  {
+    "bucket": 2040,
+    "count": 1557,
+    "year": 2017,
+    "city": "austin"
+  },
+  {
+    "bucket": 2100,
+    "count": 1646,
     "year": 2017,
     "city": "austin"
   },
   {
     "bucket": 2160,
-    "count": 4645,
+    "count": 1578,
+    "year": 2017,
+    "city": "austin"
+  },
+  {
+    "bucket": 2220,
+    "count": 1565,
+    "year": 2017,
+    "city": "austin"
+  },
+  {
+    "bucket": 2280,
+    "count": 1502,
     "year": 2017,
     "city": "austin"
   },
   {
     "bucket": 2340,
-    "count": 4394,
+    "count": 1449,
+    "year": 2017,
+    "city": "austin"
+  },
+  {
+    "bucket": 2400,
+    "count": 1470,
+    "year": 2017,
+    "city": "austin"
+  },
+  {
+    "bucket": 2460,
+    "count": 1475,
     "year": 2017,
     "city": "austin"
   },
   {
     "bucket": 2520,
-    "count": 4462,
+    "count": 1439,
+    "year": 2017,
+    "city": "austin"
+  },
+  {
+    "bucket": 2580,
+    "count": 1553,
+    "year": 2017,
+    "city": "austin"
+  },
+  {
+    "bucket": 2640,
+    "count": 1470,
     "year": 2017,
     "city": "austin"
   },
   {
     "bucket": 2700,
-    "count": 4354,
+    "count": 1446,
+    "year": 2017,
+    "city": "austin"
+  },
+  {
+    "bucket": 2760,
+    "count": 1486,
+    "year": 2017,
+    "city": "austin"
+  },
+  {
+    "bucket": 2820,
+    "count": 1422,
     "year": 2017,
     "city": "austin"
   },
   {
     "bucket": 2880,
-    "count": 4063,
+    "count": 1341,
+    "year": 2017,
+    "city": "austin"
+  },
+  {
+    "bucket": 2940,
+    "count": 1383,
+    "year": 2017,
+    "city": "austin"
+  },
+  {
+    "bucket": 3000,
+    "count": 1339,
     "year": 2017,
     "city": "austin"
   },
   {
     "bucket": 3060,
-    "count": 3938,
+    "count": 1324,
+    "year": 2017,
+    "city": "austin"
+  },
+  {
+    "bucket": 3120,
+    "count": 1288,
+    "year": 2017,
+    "city": "austin"
+  },
+  {
+    "bucket": 3180,
+    "count": 1326,
     "year": 2017,
     "city": "austin"
   },
   {
     "bucket": 3240,
-    "count": 3380,
+    "count": 1252,
+    "year": 2017,
+    "city": "austin"
+  },
+  {
+    "bucket": 3300,
+    "count": 1124,
+    "year": 2017,
+    "city": "austin"
+  },
+  {
+    "bucket": 3360,
+    "count": 1004,
     "year": 2017,
     "city": "austin"
   },
   {
     "bucket": 3420,
-    "count": 2812,
+    "count": 986,
+    "year": 2017,
+    "city": "austin"
+  },
+  {
+    "bucket": 3480,
+    "count": 976,
+    "year": 2017,
+    "city": "austin"
+  },
+  {
+    "bucket": 3540,
+    "count": 850,
     "year": 2017,
     "city": "austin"
   },
   {
     "bucket": 3600,
-    "count": 2064,
+    "count": 816,
+    "year": 2017,
+    "city": "austin"
+  },
+  {
+    "bucket": 3660,
+    "count": 651,
+    "year": 2017,
+    "city": "austin"
+  },
+  {
+    "bucket": 3720,
+    "count": 597,
     "year": 2017,
     "city": "austin"
   },
   {
     "bucket": 3780,
-    "count": 1514,
+    "count": 540,
+    "year": 2017,
+    "city": "austin"
+  },
+  {
+    "bucket": 3840,
+    "count": 478,
+    "year": 2017,
+    "city": "austin"
+  },
+  {
+    "bucket": 3900,
+    "count": 496,
     "year": 2017,
     "city": "austin"
   },
   {
     "bucket": 3960,
-    "count": 1285,
+    "count": 451,
+    "year": 2017,
+    "city": "austin"
+  },
+  {
+    "bucket": 4020,
+    "count": 427,
+    "year": 2017,
+    "city": "austin"
+  },
+  {
+    "bucket": 4080,
+    "count": 407,
     "year": 2017,
     "city": "austin"
   },
   {
     "bucket": 4140,
-    "count": 1095,
+    "count": 379,
+    "year": 2017,
+    "city": "austin"
+  },
+  {
+    "bucket": 4200,
+    "count": 369,
+    "year": 2017,
+    "city": "austin"
+  },
+  {
+    "bucket": 4260,
+    "count": 347,
     "year": 2017,
     "city": "austin"
   },
   {
     "bucket": 4320,
-    "count": 953,
+    "count": 338,
+    "year": 2017,
+    "city": "austin"
+  },
+  {
+    "bucket": 4380,
+    "count": 337,
+    "year": 2017,
+    "city": "austin"
+  },
+  {
+    "bucket": 4440,
+    "count": 278,
     "year": 2017,
     "city": "austin"
   },
   {
     "bucket": 4500,
-    "count": 797,
+    "count": 292,
+    "year": 2017,
+    "city": "austin"
+  },
+  {
+    "bucket": 4560,
+    "count": 248,
+    "year": 2017,
+    "city": "austin"
+  },
+  {
+    "bucket": 4620,
+    "count": 257,
     "year": 2017,
     "city": "austin"
   },
   {
     "bucket": 4680,
-    "count": 815,
+    "count": 283,
+    "year": 2017,
+    "city": "austin"
+  },
+  {
+    "bucket": 4740,
+    "count": 272,
+    "year": 2017,
+    "city": "austin"
+  },
+  {
+    "bucket": 4800,
+    "count": 260,
     "year": 2017,
     "city": "austin"
   },
   {
     "bucket": 4860,
-    "count": 759,
+    "count": 260,
+    "year": 2017,
+    "city": "austin"
+  },
+  {
+    "bucket": 4920,
+    "count": 257,
+    "year": 2017,
+    "city": "austin"
+  },
+  {
+    "bucket": 4980,
+    "count": 242,
     "year": 2017,
     "city": "austin"
   },
   {
     "bucket": 5040,
-    "count": 733,
+    "count": 258,
+    "year": 2017,
+    "city": "austin"
+  },
+  {
+    "bucket": 5100,
+    "count": 262,
+    "year": 2017,
+    "city": "austin"
+  },
+  {
+    "bucket": 5160,
+    "count": 213,
     "year": 2017,
     "city": "austin"
   },
   {
     "bucket": 5220,
-    "count": 612,
+    "count": 193,
+    "year": 2017,
+    "city": "austin"
+  },
+  {
+    "bucket": 5280,
+    "count": 217,
+    "year": 2017,
+    "city": "austin"
+  },
+  {
+    "bucket": 5340,
+    "count": 202,
     "year": 2017,
     "city": "austin"
   },
   {
     "bucket": 5400,
-    "count": 557,
+    "count": 201,
+    "year": 2017,
+    "city": "austin"
+  },
+  {
+    "bucket": 5460,
+    "count": 190,
+    "year": 2017,
+    "city": "austin"
+  },
+  {
+    "bucket": 5520,
+    "count": 166,
     "year": 2017,
     "city": "austin"
   },
   {
     "bucket": 5580,
-    "count": 484,
+    "count": 179,
+    "year": 2017,
+    "city": "austin"
+  },
+  {
+    "bucket": 5640,
+    "count": 152,
+    "year": 2017,
+    "city": "austin"
+  },
+  {
+    "bucket": 5700,
+    "count": 153,
     "year": 2017,
     "city": "austin"
   },
   {
     "bucket": 5760,
-    "count": 510,
+    "count": 157,
+    "year": 2017,
+    "city": "austin"
+  },
+  {
+    "bucket": 5820,
+    "count": 189,
+    "year": 2017,
+    "city": "austin"
+  },
+  {
+    "bucket": 5880,
+    "count": 164,
     "year": 2017,
     "city": "austin"
   },
   {
     "bucket": 5940,
-    "count": 419,
+    "count": 149,
+    "year": 2017,
+    "city": "austin"
+  },
+  {
+    "bucket": 6000,
+    "count": 138,
+    "year": 2017,
+    "city": "austin"
+  },
+  {
+    "bucket": 6060,
+    "count": 132,
     "year": 2017,
     "city": "austin"
   },
   {
     "bucket": 6120,
-    "count": 348,
+    "count": 92,
+    "year": 2017,
+    "city": "austin"
+  },
+  {
+    "bucket": 6180,
+    "count": 129,
+    "year": 2017,
+    "city": "austin"
+  },
+  {
+    "bucket": 6240,
+    "count": 127,
     "year": 2017,
     "city": "austin"
   },
   {
     "bucket": 6300,
-    "count": 329,
+    "count": 128,
+    "year": 2017,
+    "city": "austin"
+  },
+  {
+    "bucket": 6360,
+    "count": 101,
+    "year": 2017,
+    "city": "austin"
+  },
+  {
+    "bucket": 6420,
+    "count": 100,
     "year": 2017,
     "city": "austin"
   },
   {
     "bucket": 6480,
-    "count": 307,
+    "count": 101,
+    "year": 2017,
+    "city": "austin"
+  },
+  {
+    "bucket": 6540,
+    "count": 98,
+    "year": 2017,
+    "city": "austin"
+  },
+  {
+    "bucket": 6600,
+    "count": 108,
     "year": 2017,
     "city": "austin"
   },
   {
     "bucket": 6660,
-    "count": 304,
+    "count": 98,
+    "year": 2017,
+    "city": "austin"
+  },
+  {
+    "bucket": 6720,
+    "count": 102,
+    "year": 2017,
+    "city": "austin"
+  },
+  {
+    "bucket": 6780,
+    "count": 104,
     "year": 2017,
     "city": "austin"
   },
   {
     "bucket": 6840,
-    "count": 346,
+    "count": 111,
+    "year": 2017,
+    "city": "austin"
+  },
+  {
+    "bucket": 6900,
+    "count": 117,
+    "year": 2017,
+    "city": "austin"
+  },
+  {
+    "bucket": 6960,
+    "count": 118,
     "year": 2017,
     "city": "austin"
   },
   {
     "bucket": 7020,
-    "count": 259,
+    "count": 88,
+    "year": 2017,
+    "city": "austin"
+  },
+  {
+    "bucket": 7080,
+    "count": 79,
+    "year": 2017,
+    "city": "austin"
+  },
+  {
+    "bucket": 7140,
+    "count": 92,
     "year": 2017,
     "city": "austin"
   },
@@ -1230,242 +3540,710 @@
     "city": "austin"
   },
   {
-    "bucket": 0,
+    "bucket": 120,
     "count": 12400,
     "year": 2018,
     "city": "austin"
   },
   {
     "bucket": 180,
-    "count": 108722,
+    "count": 28330,
+    "year": 2018,
+    "city": "austin"
+  },
+  {
+    "bucket": 240,
+    "count": 39494,
+    "year": 2018,
+    "city": "austin"
+  },
+  {
+    "bucket": 300,
+    "count": 40898,
     "year": 2018,
     "city": "austin"
   },
   {
     "bucket": 360,
-    "count": 80547,
+    "count": 34994,
+    "year": 2018,
+    "city": "austin"
+  },
+  {
+    "bucket": 420,
+    "count": 25828,
+    "year": 2018,
+    "city": "austin"
+  },
+  {
+    "bucket": 480,
+    "count": 19725,
     "year": 2018,
     "city": "austin"
   },
   {
     "bucket": 540,
-    "count": 37261,
+    "count": 15476,
+    "year": 2018,
+    "city": "austin"
+  },
+  {
+    "bucket": 600,
+    "count": 11944,
+    "year": 2018,
+    "city": "austin"
+  },
+  {
+    "bucket": 660,
+    "count": 9841,
     "year": 2018,
     "city": "austin"
   },
   {
     "bucket": 720,
-    "count": 21764,
+    "count": 8265,
+    "year": 2018,
+    "city": "austin"
+  },
+  {
+    "bucket": 780,
+    "count": 7097,
+    "year": 2018,
+    "city": "austin"
+  },
+  {
+    "bucket": 840,
+    "count": 6402,
     "year": 2018,
     "city": "austin"
   },
   {
     "bucket": 900,
-    "count": 15813,
+    "count": 5775,
+    "year": 2018,
+    "city": "austin"
+  },
+  {
+    "bucket": 960,
+    "count": 5276,
+    "year": 2018,
+    "city": "austin"
+  },
+  {
+    "bucket": 1020,
+    "count": 4762,
     "year": 2018,
     "city": "austin"
   },
   {
     "bucket": 1080,
-    "count": 12390,
+    "count": 4372,
+    "year": 2018,
+    "city": "austin"
+  },
+  {
+    "bucket": 1140,
+    "count": 4094,
+    "year": 2018,
+    "city": "austin"
+  },
+  {
+    "bucket": 1200,
+    "count": 3924,
     "year": 2018,
     "city": "austin"
   },
   {
     "bucket": 1260,
-    "count": 9918,
+    "count": 3550,
+    "year": 2018,
+    "city": "austin"
+  },
+  {
+    "bucket": 1320,
+    "count": 3244,
+    "year": 2018,
+    "city": "austin"
+  },
+  {
+    "bucket": 1380,
+    "count": 3124,
     "year": 2018,
     "city": "austin"
   },
   {
     "bucket": 1440,
-    "count": 8385,
+    "count": 2948,
+    "year": 2018,
+    "city": "austin"
+  },
+  {
+    "bucket": 1500,
+    "count": 2855,
+    "year": 2018,
+    "city": "austin"
+  },
+  {
+    "bucket": 1560,
+    "count": 2582,
     "year": 2018,
     "city": "austin"
   },
   {
     "bucket": 1620,
-    "count": 7322,
+    "count": 2589,
+    "year": 2018,
+    "city": "austin"
+  },
+  {
+    "bucket": 1680,
+    "count": 2490,
+    "year": 2018,
+    "city": "austin"
+  },
+  {
+    "bucket": 1740,
+    "count": 2243,
     "year": 2018,
     "city": "austin"
   },
   {
     "bucket": 1800,
-    "count": 6385,
+    "count": 2188,
+    "year": 2018,
+    "city": "austin"
+  },
+  {
+    "bucket": 1860,
+    "count": 2114,
+    "year": 2018,
+    "city": "austin"
+  },
+  {
+    "bucket": 1920,
+    "count": 2083,
     "year": 2018,
     "city": "austin"
   },
   {
     "bucket": 1980,
-    "count": 5912,
+    "count": 2012,
+    "year": 2018,
+    "city": "austin"
+  },
+  {
+    "bucket": 2040,
+    "count": 1996,
+    "year": 2018,
+    "city": "austin"
+  },
+  {
+    "bucket": 2100,
+    "count": 1904,
     "year": 2018,
     "city": "austin"
   },
   {
     "bucket": 2160,
-    "count": 5357,
+    "count": 1837,
+    "year": 2018,
+    "city": "austin"
+  },
+  {
+    "bucket": 2220,
+    "count": 1840,
+    "year": 2018,
+    "city": "austin"
+  },
+  {
+    "bucket": 2280,
+    "count": 1680,
     "year": 2018,
     "city": "austin"
   },
   {
     "bucket": 2340,
-    "count": 5168,
+    "count": 1663,
+    "year": 2018,
+    "city": "austin"
+  },
+  {
+    "bucket": 2400,
+    "count": 1795,
+    "year": 2018,
+    "city": "austin"
+  },
+  {
+    "bucket": 2460,
+    "count": 1710,
     "year": 2018,
     "city": "austin"
   },
   {
     "bucket": 2520,
-    "count": 4995,
+    "count": 1699,
+    "year": 2018,
+    "city": "austin"
+  },
+  {
+    "bucket": 2580,
+    "count": 1667,
+    "year": 2018,
+    "city": "austin"
+  },
+  {
+    "bucket": 2640,
+    "count": 1629,
     "year": 2018,
     "city": "austin"
   },
   {
     "bucket": 2700,
-    "count": 4589,
+    "count": 1541,
+    "year": 2018,
+    "city": "austin"
+  },
+  {
+    "bucket": 2760,
+    "count": 1512,
+    "year": 2018,
+    "city": "austin"
+  },
+  {
+    "bucket": 2820,
+    "count": 1536,
     "year": 2018,
     "city": "austin"
   },
   {
     "bucket": 2880,
-    "count": 4555,
+    "count": 1565,
+    "year": 2018,
+    "city": "austin"
+  },
+  {
+    "bucket": 2940,
+    "count": 1511,
+    "year": 2018,
+    "city": "austin"
+  },
+  {
+    "bucket": 3000,
+    "count": 1479,
     "year": 2018,
     "city": "austin"
   },
   {
     "bucket": 3060,
-    "count": 4190,
+    "count": 1507,
+    "year": 2018,
+    "city": "austin"
+  },
+  {
+    "bucket": 3120,
+    "count": 1368,
+    "year": 2018,
+    "city": "austin"
+  },
+  {
+    "bucket": 3180,
+    "count": 1315,
     "year": 2018,
     "city": "austin"
   },
   {
     "bucket": 3240,
-    "count": 3593,
+    "count": 1269,
+    "year": 2018,
+    "city": "austin"
+  },
+  {
+    "bucket": 3300,
+    "count": 1205,
+    "year": 2018,
+    "city": "austin"
+  },
+  {
+    "bucket": 3360,
+    "count": 1119,
     "year": 2018,
     "city": "austin"
   },
   {
     "bucket": 3420,
-    "count": 3031,
+    "count": 1075,
+    "year": 2018,
+    "city": "austin"
+  },
+  {
+    "bucket": 3480,
+    "count": 1082,
+    "year": 2018,
+    "city": "austin"
+  },
+  {
+    "bucket": 3540,
+    "count": 874,
     "year": 2018,
     "city": "austin"
   },
   {
     "bucket": 3600,
-    "count": 2121,
+    "count": 777,
+    "year": 2018,
+    "city": "austin"
+  },
+  {
+    "bucket": 3660,
+    "count": 697,
+    "year": 2018,
+    "city": "austin"
+  },
+  {
+    "bucket": 3720,
+    "count": 647,
     "year": 2018,
     "city": "austin"
   },
   {
     "bucket": 3780,
-    "count": 1537,
+    "count": 564,
+    "year": 2018,
+    "city": "austin"
+  },
+  {
+    "bucket": 3840,
+    "count": 512,
+    "year": 2018,
+    "city": "austin"
+  },
+  {
+    "bucket": 3900,
+    "count": 461,
     "year": 2018,
     "city": "austin"
   },
   {
     "bucket": 3960,
-    "count": 1286,
+    "count": 458,
+    "year": 2018,
+    "city": "austin"
+  },
+  {
+    "bucket": 4020,
+    "count": 419,
+    "year": 2018,
+    "city": "austin"
+  },
+  {
+    "bucket": 4080,
+    "count": 409,
     "year": 2018,
     "city": "austin"
   },
   {
     "bucket": 4140,
-    "count": 1098,
+    "count": 378,
+    "year": 2018,
+    "city": "austin"
+  },
+  {
+    "bucket": 4200,
+    "count": 365,
+    "year": 2018,
+    "city": "austin"
+  },
+  {
+    "bucket": 4260,
+    "count": 355,
     "year": 2018,
     "city": "austin"
   },
   {
     "bucket": 4320,
-    "count": 952,
+    "count": 335,
+    "year": 2018,
+    "city": "austin"
+  },
+  {
+    "bucket": 4380,
+    "count": 309,
+    "year": 2018,
+    "city": "austin"
+  },
+  {
+    "bucket": 4440,
+    "count": 308,
     "year": 2018,
     "city": "austin"
   },
   {
     "bucket": 4500,
-    "count": 912,
+    "count": 312,
+    "year": 2018,
+    "city": "austin"
+  },
+  {
+    "bucket": 4560,
+    "count": 296,
+    "year": 2018,
+    "city": "austin"
+  },
+  {
+    "bucket": 4620,
+    "count": 304,
     "year": 2018,
     "city": "austin"
   },
   {
     "bucket": 4680,
-    "count": 819,
+    "count": 281,
+    "year": 2018,
+    "city": "austin"
+  },
+  {
+    "bucket": 4740,
+    "count": 258,
+    "year": 2018,
+    "city": "austin"
+  },
+  {
+    "bucket": 4800,
+    "count": 280,
     "year": 2018,
     "city": "austin"
   },
   {
     "bucket": 4860,
-    "count": 731,
+    "count": 249,
+    "year": 2018,
+    "city": "austin"
+  },
+  {
+    "bucket": 4920,
+    "count": 248,
+    "year": 2018,
+    "city": "austin"
+  },
+  {
+    "bucket": 4980,
+    "count": 234,
     "year": 2018,
     "city": "austin"
   },
   {
     "bucket": 5040,
-    "count": 662,
+    "count": 222,
+    "year": 2018,
+    "city": "austin"
+  },
+  {
+    "bucket": 5100,
+    "count": 245,
+    "year": 2018,
+    "city": "austin"
+  },
+  {
+    "bucket": 5160,
+    "count": 195,
     "year": 2018,
     "city": "austin"
   },
   {
     "bucket": 5220,
-    "count": 561,
+    "count": 199,
+    "year": 2018,
+    "city": "austin"
+  },
+  {
+    "bucket": 5280,
+    "count": 188,
+    "year": 2018,
+    "city": "austin"
+  },
+  {
+    "bucket": 5340,
+    "count": 174,
     "year": 2018,
     "city": "austin"
   },
   {
     "bucket": 5400,
-    "count": 541,
+    "count": 182,
+    "year": 2018,
+    "city": "austin"
+  },
+  {
+    "bucket": 5460,
+    "count": 176,
+    "year": 2018,
+    "city": "austin"
+  },
+  {
+    "bucket": 5520,
+    "count": 183,
     "year": 2018,
     "city": "austin"
   },
   {
     "bucket": 5580,
-    "count": 482,
+    "count": 163,
+    "year": 2018,
+    "city": "austin"
+  },
+  {
+    "bucket": 5640,
+    "count": 155,
+    "year": 2018,
+    "city": "austin"
+  },
+  {
+    "bucket": 5700,
+    "count": 164,
     "year": 2018,
     "city": "austin"
   },
   {
     "bucket": 5760,
-    "count": 437,
+    "count": 153,
+    "year": 2018,
+    "city": "austin"
+  },
+  {
+    "bucket": 5820,
+    "count": 137,
+    "year": 2018,
+    "city": "austin"
+  },
+  {
+    "bucket": 5880,
+    "count": 147,
     "year": 2018,
     "city": "austin"
   },
   {
     "bucket": 5940,
-    "count": 423,
+    "count": 136,
+    "year": 2018,
+    "city": "austin"
+  },
+  {
+    "bucket": 6000,
+    "count": 145,
+    "year": 2018,
+    "city": "austin"
+  },
+  {
+    "bucket": 6060,
+    "count": 142,
     "year": 2018,
     "city": "austin"
   },
   {
     "bucket": 6120,
-    "count": 363,
+    "count": 120,
+    "year": 2018,
+    "city": "austin"
+  },
+  {
+    "bucket": 6180,
+    "count": 126,
+    "year": 2018,
+    "city": "austin"
+  },
+  {
+    "bucket": 6240,
+    "count": 117,
     "year": 2018,
     "city": "austin"
   },
   {
     "bucket": 6300,
-    "count": 326,
+    "count": 129,
+    "year": 2018,
+    "city": "austin"
+  },
+  {
+    "bucket": 6360,
+    "count": 98,
+    "year": 2018,
+    "city": "austin"
+  },
+  {
+    "bucket": 6420,
+    "count": 99,
     "year": 2018,
     "city": "austin"
   },
   {
     "bucket": 6480,
-    "count": 278,
+    "count": 96,
+    "year": 2018,
+    "city": "austin"
+  },
+  {
+    "bucket": 6540,
+    "count": 96,
+    "year": 2018,
+    "city": "austin"
+  },
+  {
+    "bucket": 6600,
+    "count": 86,
     "year": 2018,
     "city": "austin"
   },
   {
     "bucket": 6660,
-    "count": 300,
+    "count": 104,
+    "year": 2018,
+    "city": "austin"
+  },
+  {
+    "bucket": 6720,
+    "count": 100,
+    "year": 2018,
+    "city": "austin"
+  },
+  {
+    "bucket": 6780,
+    "count": 96,
     "year": 2018,
     "city": "austin"
   },
   {
     "bucket": 6840,
-    "count": 261,
+    "count": 90,
+    "year": 2018,
+    "city": "austin"
+  },
+  {
+    "bucket": 6900,
+    "count": 99,
+    "year": 2018,
+    "city": "austin"
+  },
+  {
+    "bucket": 6960,
+    "count": 72,
     "year": 2018,
     "city": "austin"
   },
   {
     "bucket": 7020,
-    "count": 272,
+    "count": 83,
+    "year": 2018,
+    "city": "austin"
+  },
+  {
+    "bucket": 7080,
+    "count": 88,
+    "year": 2018,
+    "city": "austin"
+  },
+  {
+    "bucket": 7140,
+    "count": 101,
     "year": 2018,
     "city": "austin"
   },
@@ -1476,242 +4254,710 @@
     "city": "austin"
   },
   {
-    "bucket": 0,
+    "bucket": 120,
     "count": 3015,
     "year": 2019,
     "city": "austin"
   },
   {
     "bucket": 180,
-    "count": 23139,
+    "count": 6505,
+    "year": 2019,
+    "city": "austin"
+  },
+  {
+    "bucket": 240,
+    "count": 8194,
+    "year": 2019,
+    "city": "austin"
+  },
+  {
+    "bucket": 300,
+    "count": 8440,
     "year": 2019,
     "city": "austin"
   },
   {
     "bucket": 360,
-    "count": 17584,
+    "count": 7478,
+    "year": 2019,
+    "city": "austin"
+  },
+  {
+    "bucket": 420,
+    "count": 5467,
+    "year": 2019,
+    "city": "austin"
+  },
+  {
+    "bucket": 480,
+    "count": 4639,
     "year": 2019,
     "city": "austin"
   },
   {
     "bucket": 540,
-    "count": 9751,
+    "count": 3839,
+    "year": 2019,
+    "city": "austin"
+  },
+  {
+    "bucket": 600,
+    "count": 3261,
+    "year": 2019,
+    "city": "austin"
+  },
+  {
+    "bucket": 660,
+    "count": 2651,
     "year": 2019,
     "city": "austin"
   },
   {
     "bucket": 720,
-    "count": 6289,
+    "count": 2315,
+    "year": 2019,
+    "city": "austin"
+  },
+  {
+    "bucket": 780,
+    "count": 2032,
+    "year": 2019,
+    "city": "austin"
+  },
+  {
+    "bucket": 840,
+    "count": 1942,
     "year": 2019,
     "city": "austin"
   },
   {
     "bucket": 900,
-    "count": 4946,
+    "count": 1797,
+    "year": 2019,
+    "city": "austin"
+  },
+  {
+    "bucket": 960,
+    "count": 1605,
+    "year": 2019,
+    "city": "austin"
+  },
+  {
+    "bucket": 1020,
+    "count": 1544,
     "year": 2019,
     "city": "austin"
   },
   {
     "bucket": 1080,
-    "count": 4339,
+    "count": 1565,
+    "year": 2019,
+    "city": "austin"
+  },
+  {
+    "bucket": 1140,
+    "count": 1423,
+    "year": 2019,
+    "city": "austin"
+  },
+  {
+    "bucket": 1200,
+    "count": 1351,
     "year": 2019,
     "city": "austin"
   },
   {
     "bucket": 1260,
-    "count": 3593,
+    "count": 1244,
+    "year": 2019,
+    "city": "austin"
+  },
+  {
+    "bucket": 1320,
+    "count": 1186,
+    "year": 2019,
+    "city": "austin"
+  },
+  {
+    "bucket": 1380,
+    "count": 1163,
     "year": 2019,
     "city": "austin"
   },
   {
     "bucket": 1440,
-    "count": 2987,
+    "count": 1028,
+    "year": 2019,
+    "city": "austin"
+  },
+  {
+    "bucket": 1500,
+    "count": 1005,
+    "year": 2019,
+    "city": "austin"
+  },
+  {
+    "bucket": 1560,
+    "count": 954,
     "year": 2019,
     "city": "austin"
   },
   {
     "bucket": 1620,
-    "count": 2983,
+    "count": 1035,
+    "year": 2019,
+    "city": "austin"
+  },
+  {
+    "bucket": 1680,
+    "count": 1015,
+    "year": 2019,
+    "city": "austin"
+  },
+  {
+    "bucket": 1740,
+    "count": 933,
     "year": 2019,
     "city": "austin"
   },
   {
     "bucket": 1800,
-    "count": 2482,
+    "count": 948,
+    "year": 2019,
+    "city": "austin"
+  },
+  {
+    "bucket": 1860,
+    "count": 797,
+    "year": 2019,
+    "city": "austin"
+  },
+  {
+    "bucket": 1920,
+    "count": 737,
     "year": 2019,
     "city": "austin"
   },
   {
     "bucket": 1980,
-    "count": 2145,
+    "count": 721,
+    "year": 2019,
+    "city": "austin"
+  },
+  {
+    "bucket": 2040,
+    "count": 752,
+    "year": 2019,
+    "city": "austin"
+  },
+  {
+    "bucket": 2100,
+    "count": 672,
     "year": 2019,
     "city": "austin"
   },
   {
     "bucket": 2160,
-    "count": 1927,
+    "count": 659,
+    "year": 2019,
+    "city": "austin"
+  },
+  {
+    "bucket": 2220,
+    "count": 652,
+    "year": 2019,
+    "city": "austin"
+  },
+  {
+    "bucket": 2280,
+    "count": 616,
     "year": 2019,
     "city": "austin"
   },
   {
     "bucket": 2340,
-    "count": 1827,
+    "count": 635,
+    "year": 2019,
+    "city": "austin"
+  },
+  {
+    "bucket": 2400,
+    "count": 584,
+    "year": 2019,
+    "city": "austin"
+  },
+  {
+    "bucket": 2460,
+    "count": 608,
     "year": 2019,
     "city": "austin"
   },
   {
     "bucket": 2520,
-    "count": 1696,
+    "count": 583,
+    "year": 2019,
+    "city": "austin"
+  },
+  {
+    "bucket": 2580,
+    "count": 560,
+    "year": 2019,
+    "city": "austin"
+  },
+  {
+    "bucket": 2640,
+    "count": 553,
     "year": 2019,
     "city": "austin"
   },
   {
     "bucket": 2700,
-    "count": 1623,
+    "count": 552,
+    "year": 2019,
+    "city": "austin"
+  },
+  {
+    "bucket": 2760,
+    "count": 545,
+    "year": 2019,
+    "city": "austin"
+  },
+  {
+    "bucket": 2820,
+    "count": 526,
     "year": 2019,
     "city": "austin"
   },
   {
     "bucket": 2880,
-    "count": 1512,
+    "count": 466,
+    "year": 2019,
+    "city": "austin"
+  },
+  {
+    "bucket": 2940,
+    "count": 516,
+    "year": 2019,
+    "city": "austin"
+  },
+  {
+    "bucket": 3000,
+    "count": 530,
     "year": 2019,
     "city": "austin"
   },
   {
     "bucket": 3060,
-    "count": 1440,
+    "count": 476,
+    "year": 2019,
+    "city": "austin"
+  },
+  {
+    "bucket": 3120,
+    "count": 481,
+    "year": 2019,
+    "city": "austin"
+  },
+  {
+    "bucket": 3180,
+    "count": 483,
     "year": 2019,
     "city": "austin"
   },
   {
     "bucket": 3240,
-    "count": 1308,
+    "count": 454,
+    "year": 2019,
+    "city": "austin"
+  },
+  {
+    "bucket": 3300,
+    "count": 420,
+    "year": 2019,
+    "city": "austin"
+  },
+  {
+    "bucket": 3360,
+    "count": 434,
     "year": 2019,
     "city": "austin"
   },
   {
     "bucket": 3420,
-    "count": 1117,
+    "count": 417,
+    "year": 2019,
+    "city": "austin"
+  },
+  {
+    "bucket": 3480,
+    "count": 389,
+    "year": 2019,
+    "city": "austin"
+  },
+  {
+    "bucket": 3540,
+    "count": 311,
     "year": 2019,
     "city": "austin"
   },
   {
     "bucket": 3600,
-    "count": 830,
+    "count": 310,
+    "year": 2019,
+    "city": "austin"
+  },
+  {
+    "bucket": 3660,
+    "count": 271,
+    "year": 2019,
+    "city": "austin"
+  },
+  {
+    "bucket": 3720,
+    "count": 249,
     "year": 2019,
     "city": "austin"
   },
   {
     "bucket": 3780,
-    "count": 642,
+    "count": 226,
+    "year": 2019,
+    "city": "austin"
+  },
+  {
+    "bucket": 3840,
+    "count": 214,
+    "year": 2019,
+    "city": "austin"
+  },
+  {
+    "bucket": 3900,
+    "count": 202,
     "year": 2019,
     "city": "austin"
   },
   {
     "bucket": 3960,
-    "count": 591,
+    "count": 186,
+    "year": 2019,
+    "city": "austin"
+  },
+  {
+    "bucket": 4020,
+    "count": 198,
+    "year": 2019,
+    "city": "austin"
+  },
+  {
+    "bucket": 4080,
+    "count": 207,
     "year": 2019,
     "city": "austin"
   },
   {
     "bucket": 4140,
-    "count": 518,
+    "count": 188,
+    "year": 2019,
+    "city": "austin"
+  },
+  {
+    "bucket": 4200,
+    "count": 174,
+    "year": 2019,
+    "city": "austin"
+  },
+  {
+    "bucket": 4260,
+    "count": 156,
     "year": 2019,
     "city": "austin"
   },
   {
     "bucket": 4320,
-    "count": 495,
+    "count": 191,
+    "year": 2019,
+    "city": "austin"
+  },
+  {
+    "bucket": 4380,
+    "count": 154,
+    "year": 2019,
+    "city": "austin"
+  },
+  {
+    "bucket": 4440,
+    "count": 150,
     "year": 2019,
     "city": "austin"
   },
   {
     "bucket": 4500,
-    "count": 447,
+    "count": 167,
     "year": 2019,
     "city": "austin"
   },
   {
-    "bucket": 4680,
-    "count": 371,
-    "year": 2019,
-    "city": "austin"
-  },
-  {
-    "bucket": 4860,
-    "count": 305,
-    "year": 2019,
-    "city": "austin"
-  },
-  {
-    "bucket": 5040,
-    "count": 346,
-    "year": 2019,
-    "city": "austin"
-  },
-  {
-    "bucket": 5220,
-    "count": 287,
-    "year": 2019,
-    "city": "austin"
-  },
-  {
-    "bucket": 5400,
-    "count": 240,
-    "year": 2019,
-    "city": "austin"
-  },
-  {
-    "bucket": 5580,
-    "count": 229,
-    "year": 2019,
-    "city": "austin"
-  },
-  {
-    "bucket": 5760,
-    "count": 233,
-    "year": 2019,
-    "city": "austin"
-  },
-  {
-    "bucket": 5940,
-    "count": 187,
-    "year": 2019,
-    "city": "austin"
-  },
-  {
-    "bucket": 6120,
-    "count": 173,
-    "year": 2019,
-    "city": "austin"
-  },
-  {
-    "bucket": 6300,
-    "count": 132,
-    "year": 2019,
-    "city": "austin"
-  },
-  {
-    "bucket": 6480,
+    "bucket": 4560,
     "count": 148,
     "year": 2019,
     "city": "austin"
   },
   {
+    "bucket": 4620,
+    "count": 132,
+    "year": 2019,
+    "city": "austin"
+  },
+  {
+    "bucket": 4680,
+    "count": 143,
+    "year": 2019,
+    "city": "austin"
+  },
+  {
+    "bucket": 4740,
+    "count": 113,
+    "year": 2019,
+    "city": "austin"
+  },
+  {
+    "bucket": 4800,
+    "count": 115,
+    "year": 2019,
+    "city": "austin"
+  },
+  {
+    "bucket": 4860,
+    "count": 106,
+    "year": 2019,
+    "city": "austin"
+  },
+  {
+    "bucket": 4920,
+    "count": 95,
+    "year": 2019,
+    "city": "austin"
+  },
+  {
+    "bucket": 4980,
+    "count": 104,
+    "year": 2019,
+    "city": "austin"
+  },
+  {
+    "bucket": 5040,
+    "count": 112,
+    "year": 2019,
+    "city": "austin"
+  },
+  {
+    "bucket": 5100,
+    "count": 108,
+    "year": 2019,
+    "city": "austin"
+  },
+  {
+    "bucket": 5160,
+    "count": 126,
+    "year": 2019,
+    "city": "austin"
+  },
+  {
+    "bucket": 5220,
+    "count": 112,
+    "year": 2019,
+    "city": "austin"
+  },
+  {
+    "bucket": 5280,
+    "count": 83,
+    "year": 2019,
+    "city": "austin"
+  },
+  {
+    "bucket": 5340,
+    "count": 92,
+    "year": 2019,
+    "city": "austin"
+  },
+  {
+    "bucket": 5400,
+    "count": 91,
+    "year": 2019,
+    "city": "austin"
+  },
+  {
+    "bucket": 5460,
+    "count": 72,
+    "year": 2019,
+    "city": "austin"
+  },
+  {
+    "bucket": 5520,
+    "count": 77,
+    "year": 2019,
+    "city": "austin"
+  },
+  {
+    "bucket": 5580,
+    "count": 76,
+    "year": 2019,
+    "city": "austin"
+  },
+  {
+    "bucket": 5640,
+    "count": 76,
+    "year": 2019,
+    "city": "austin"
+  },
+  {
+    "bucket": 5700,
+    "count": 77,
+    "year": 2019,
+    "city": "austin"
+  },
+  {
+    "bucket": 5760,
+    "count": 79,
+    "year": 2019,
+    "city": "austin"
+  },
+  {
+    "bucket": 5820,
+    "count": 79,
+    "year": 2019,
+    "city": "austin"
+  },
+  {
+    "bucket": 5880,
+    "count": 75,
+    "year": 2019,
+    "city": "austin"
+  },
+  {
+    "bucket": 5940,
+    "count": 57,
+    "year": 2019,
+    "city": "austin"
+  },
+  {
+    "bucket": 6000,
+    "count": 63,
+    "year": 2019,
+    "city": "austin"
+  },
+  {
+    "bucket": 6060,
+    "count": 67,
+    "year": 2019,
+    "city": "austin"
+  },
+  {
+    "bucket": 6120,
+    "count": 63,
+    "year": 2019,
+    "city": "austin"
+  },
+  {
+    "bucket": 6180,
+    "count": 62,
+    "year": 2019,
+    "city": "austin"
+  },
+  {
+    "bucket": 6240,
+    "count": 48,
+    "year": 2019,
+    "city": "austin"
+  },
+  {
+    "bucket": 6300,
+    "count": 47,
+    "year": 2019,
+    "city": "austin"
+  },
+  {
+    "bucket": 6360,
+    "count": 42,
+    "year": 2019,
+    "city": "austin"
+  },
+  {
+    "bucket": 6420,
+    "count": 43,
+    "year": 2019,
+    "city": "austin"
+  },
+  {
+    "bucket": 6480,
+    "count": 51,
+    "year": 2019,
+    "city": "austin"
+  },
+  {
+    "bucket": 6540,
+    "count": 50,
+    "year": 2019,
+    "city": "austin"
+  },
+  {
+    "bucket": 6600,
+    "count": 47,
+    "year": 2019,
+    "city": "austin"
+  },
+  {
     "bucket": 6660,
-    "count": 155,
+    "count": 49,
+    "year": 2019,
+    "city": "austin"
+  },
+  {
+    "bucket": 6720,
+    "count": 50,
+    "year": 2019,
+    "city": "austin"
+  },
+  {
+    "bucket": 6780,
+    "count": 56,
     "year": 2019,
     "city": "austin"
   },
   {
     "bucket": 6840,
-    "count": 130,
+    "count": 41,
+    "year": 2019,
+    "city": "austin"
+  },
+  {
+    "bucket": 6900,
+    "count": 49,
+    "year": 2019,
+    "city": "austin"
+  },
+  {
+    "bucket": 6960,
+    "count": 40,
     "year": 2019,
     "city": "austin"
   },
   {
     "bucket": 7020,
-    "count": 103,
+    "count": 32,
+    "year": 2019,
+    "city": "austin"
+  },
+  {
+    "bucket": 7080,
+    "count": 34,
+    "year": 2019,
+    "city": "austin"
+  },
+  {
+    "bucket": 7140,
+    "count": 37,
     "year": 2019,
     "city": "austin"
   },
@@ -1722,242 +4968,710 @@
     "city": "austin"
   },
   {
-    "bucket": 0,
+    "bucket": 120,
     "count": 2685,
     "year": 2020,
     "city": "austin"
   },
   {
     "bucket": 180,
-    "count": 11153,
+    "count": 3317,
+    "year": 2020,
+    "city": "austin"
+  },
+  {
+    "bucket": 240,
+    "count": 3949,
+    "year": 2020,
+    "city": "austin"
+  },
+  {
+    "bucket": 300,
+    "count": 3887,
     "year": 2020,
     "city": "austin"
   },
   {
     "bucket": 360,
-    "count": 10115,
+    "count": 3761,
+    "year": 2020,
+    "city": "austin"
+  },
+  {
+    "bucket": 420,
+    "count": 3461,
+    "year": 2020,
+    "city": "austin"
+  },
+  {
+    "bucket": 480,
+    "count": 2893,
     "year": 2020,
     "city": "austin"
   },
   {
     "bucket": 540,
-    "count": 7289,
+    "count": 2599,
+    "year": 2020,
+    "city": "austin"
+  },
+  {
+    "bucket": 600,
+    "count": 2416,
+    "year": 2020,
+    "city": "austin"
+  },
+  {
+    "bucket": 660,
+    "count": 2274,
     "year": 2020,
     "city": "austin"
   },
   {
     "bucket": 720,
-    "count": 6009,
+    "count": 2067,
+    "year": 2020,
+    "city": "austin"
+  },
+  {
+    "bucket": 780,
+    "count": 2042,
+    "year": 2020,
+    "city": "austin"
+  },
+  {
+    "bucket": 840,
+    "count": 1900,
     "year": 2020,
     "city": "austin"
   },
   {
     "bucket": 900,
-    "count": 5063,
+    "count": 1722,
+    "year": 2020,
+    "city": "austin"
+  },
+  {
+    "bucket": 960,
+    "count": 1669,
+    "year": 2020,
+    "city": "austin"
+  },
+  {
+    "bucket": 1020,
+    "count": 1672,
     "year": 2020,
     "city": "austin"
   },
   {
     "bucket": 1080,
-    "count": 4699,
+    "count": 1607,
+    "year": 2020,
+    "city": "austin"
+  },
+  {
+    "bucket": 1140,
+    "count": 1515,
+    "year": 2020,
+    "city": "austin"
+  },
+  {
+    "bucket": 1200,
+    "count": 1577,
     "year": 2020,
     "city": "austin"
   },
   {
     "bucket": 1260,
-    "count": 4204,
+    "count": 1409,
+    "year": 2020,
+    "city": "austin"
+  },
+  {
+    "bucket": 1320,
+    "count": 1435,
+    "year": 2020,
+    "city": "austin"
+  },
+  {
+    "bucket": 1380,
+    "count": 1360,
     "year": 2020,
     "city": "austin"
   },
   {
     "bucket": 1440,
-    "count": 3940,
+    "count": 1294,
+    "year": 2020,
+    "city": "austin"
+  },
+  {
+    "bucket": 1500,
+    "count": 1345,
+    "year": 2020,
+    "city": "austin"
+  },
+  {
+    "bucket": 1560,
+    "count": 1301,
     "year": 2020,
     "city": "austin"
   },
   {
     "bucket": 1620,
-    "count": 3691,
+    "count": 1296,
+    "year": 2020,
+    "city": "austin"
+  },
+  {
+    "bucket": 1680,
+    "count": 1191,
+    "year": 2020,
+    "city": "austin"
+  },
+  {
+    "bucket": 1740,
+    "count": 1204,
     "year": 2020,
     "city": "austin"
   },
   {
     "bucket": 1800,
-    "count": 3575,
+    "count": 1238,
+    "year": 2020,
+    "city": "austin"
+  },
+  {
+    "bucket": 1860,
+    "count": 1212,
+    "year": 2020,
+    "city": "austin"
+  },
+  {
+    "bucket": 1920,
+    "count": 1125,
     "year": 2020,
     "city": "austin"
   },
   {
     "bucket": 1980,
-    "count": 3467,
+    "count": 1155,
+    "year": 2020,
+    "city": "austin"
+  },
+  {
+    "bucket": 2040,
+    "count": 1103,
+    "year": 2020,
+    "city": "austin"
+  },
+  {
+    "bucket": 2100,
+    "count": 1209,
     "year": 2020,
     "city": "austin"
   },
   {
     "bucket": 2160,
-    "count": 3340,
+    "count": 1116,
+    "year": 2020,
+    "city": "austin"
+  },
+  {
+    "bucket": 2220,
+    "count": 1152,
+    "year": 2020,
+    "city": "austin"
+  },
+  {
+    "bucket": 2280,
+    "count": 1072,
     "year": 2020,
     "city": "austin"
   },
   {
     "bucket": 2340,
-    "count": 3259,
+    "count": 1073,
+    "year": 2020,
+    "city": "austin"
+  },
+  {
+    "bucket": 2400,
+    "count": 1112,
+    "year": 2020,
+    "city": "austin"
+  },
+  {
+    "bucket": 2460,
+    "count": 1074,
     "year": 2020,
     "city": "austin"
   },
   {
     "bucket": 2520,
-    "count": 3038,
+    "count": 999,
+    "year": 2020,
+    "city": "austin"
+  },
+  {
+    "bucket": 2580,
+    "count": 1066,
+    "year": 2020,
+    "city": "austin"
+  },
+  {
+    "bucket": 2640,
+    "count": 973,
     "year": 2020,
     "city": "austin"
   },
   {
     "bucket": 2700,
-    "count": 2888,
+    "count": 979,
+    "year": 2020,
+    "city": "austin"
+  },
+  {
+    "bucket": 2760,
+    "count": 957,
+    "year": 2020,
+    "city": "austin"
+  },
+  {
+    "bucket": 2820,
+    "count": 952,
     "year": 2020,
     "city": "austin"
   },
   {
     "bucket": 2880,
-    "count": 2812,
+    "count": 921,
+    "year": 2020,
+    "city": "austin"
+  },
+  {
+    "bucket": 2940,
+    "count": 919,
+    "year": 2020,
+    "city": "austin"
+  },
+  {
+    "bucket": 3000,
+    "count": 972,
     "year": 2020,
     "city": "austin"
   },
   {
     "bucket": 3060,
-    "count": 2523,
+    "count": 852,
+    "year": 2020,
+    "city": "austin"
+  },
+  {
+    "bucket": 3120,
+    "count": 857,
+    "year": 2020,
+    "city": "austin"
+  },
+  {
+    "bucket": 3180,
+    "count": 814,
     "year": 2020,
     "city": "austin"
   },
   {
     "bucket": 3240,
-    "count": 2328,
+    "count": 797,
+    "year": 2020,
+    "city": "austin"
+  },
+  {
+    "bucket": 3300,
+    "count": 759,
+    "year": 2020,
+    "city": "austin"
+  },
+  {
+    "bucket": 3360,
+    "count": 772,
     "year": 2020,
     "city": "austin"
   },
   {
     "bucket": 3420,
-    "count": 1978,
+    "count": 698,
+    "year": 2020,
+    "city": "austin"
+  },
+  {
+    "bucket": 3480,
+    "count": 659,
+    "year": 2020,
+    "city": "austin"
+  },
+  {
+    "bucket": 3540,
+    "count": 621,
     "year": 2020,
     "city": "austin"
   },
   {
     "bucket": 3600,
-    "count": 1391,
+    "count": 506,
+    "year": 2020,
+    "city": "austin"
+  },
+  {
+    "bucket": 3660,
+    "count": 462,
+    "year": 2020,
+    "city": "austin"
+  },
+  {
+    "bucket": 3720,
+    "count": 423,
     "year": 2020,
     "city": "austin"
   },
   {
     "bucket": 3780,
-    "count": 1051,
+    "count": 391,
+    "year": 2020,
+    "city": "austin"
+  },
+  {
+    "bucket": 3840,
+    "count": 332,
+    "year": 2020,
+    "city": "austin"
+  },
+  {
+    "bucket": 3900,
+    "count": 328,
     "year": 2020,
     "city": "austin"
   },
   {
     "bucket": 3960,
-    "count": 859,
+    "count": 294,
+    "year": 2020,
+    "city": "austin"
+  },
+  {
+    "bucket": 4020,
+    "count": 289,
+    "year": 2020,
+    "city": "austin"
+  },
+  {
+    "bucket": 4080,
+    "count": 276,
     "year": 2020,
     "city": "austin"
   },
   {
     "bucket": 4140,
-    "count": 798,
+    "count": 272,
+    "year": 2020,
+    "city": "austin"
+  },
+  {
+    "bucket": 4200,
+    "count": 245,
+    "year": 2020,
+    "city": "austin"
+  },
+  {
+    "bucket": 4260,
+    "count": 281,
     "year": 2020,
     "city": "austin"
   },
   {
     "bucket": 4320,
-    "count": 660,
+    "count": 250,
+    "year": 2020,
+    "city": "austin"
+  },
+  {
+    "bucket": 4380,
+    "count": 193,
+    "year": 2020,
+    "city": "austin"
+  },
+  {
+    "bucket": 4440,
+    "count": 217,
     "year": 2020,
     "city": "austin"
   },
   {
     "bucket": 4500,
-    "count": 622,
+    "count": 231,
+    "year": 2020,
+    "city": "austin"
+  },
+  {
+    "bucket": 4560,
+    "count": 198,
+    "year": 2020,
+    "city": "austin"
+  },
+  {
+    "bucket": 4620,
+    "count": 193,
     "year": 2020,
     "city": "austin"
   },
   {
     "bucket": 4680,
-    "count": 578,
+    "count": 221,
+    "year": 2020,
+    "city": "austin"
+  },
+  {
+    "bucket": 4740,
+    "count": 179,
+    "year": 2020,
+    "city": "austin"
+  },
+  {
+    "bucket": 4800,
+    "count": 178,
     "year": 2020,
     "city": "austin"
   },
   {
     "bucket": 4860,
-    "count": 491,
+    "count": 157,
+    "year": 2020,
+    "city": "austin"
+  },
+  {
+    "bucket": 4920,
+    "count": 167,
+    "year": 2020,
+    "city": "austin"
+  },
+  {
+    "bucket": 4980,
+    "count": 167,
     "year": 2020,
     "city": "austin"
   },
   {
     "bucket": 5040,
-    "count": 472,
+    "count": 165,
+    "year": 2020,
+    "city": "austin"
+  },
+  {
+    "bucket": 5100,
+    "count": 160,
+    "year": 2020,
+    "city": "austin"
+  },
+  {
+    "bucket": 5160,
+    "count": 147,
     "year": 2020,
     "city": "austin"
   },
   {
     "bucket": 5220,
-    "count": 393,
+    "count": 129,
+    "year": 2020,
+    "city": "austin"
+  },
+  {
+    "bucket": 5280,
+    "count": 147,
+    "year": 2020,
+    "city": "austin"
+  },
+  {
+    "bucket": 5340,
+    "count": 117,
     "year": 2020,
     "city": "austin"
   },
   {
     "bucket": 5400,
-    "count": 404,
+    "count": 133,
+    "year": 2020,
+    "city": "austin"
+  },
+  {
+    "bucket": 5460,
+    "count": 118,
+    "year": 2020,
+    "city": "austin"
+  },
+  {
+    "bucket": 5520,
+    "count": 153,
     "year": 2020,
     "city": "austin"
   },
   {
     "bucket": 5580,
-    "count": 363,
+    "count": 119,
+    "year": 2020,
+    "city": "austin"
+  },
+  {
+    "bucket": 5640,
+    "count": 126,
+    "year": 2020,
+    "city": "austin"
+  },
+  {
+    "bucket": 5700,
+    "count": 118,
     "year": 2020,
     "city": "austin"
   },
   {
     "bucket": 5760,
-    "count": 321,
+    "count": 102,
+    "year": 2020,
+    "city": "austin"
+  },
+  {
+    "bucket": 5820,
+    "count": 125,
+    "year": 2020,
+    "city": "austin"
+  },
+  {
+    "bucket": 5880,
+    "count": 94,
     "year": 2020,
     "city": "austin"
   },
   {
     "bucket": 5940,
-    "count": 293,
+    "count": 108,
+    "year": 2020,
+    "city": "austin"
+  },
+  {
+    "bucket": 6000,
+    "count": 91,
+    "year": 2020,
+    "city": "austin"
+  },
+  {
+    "bucket": 6060,
+    "count": 94,
     "year": 2020,
     "city": "austin"
   },
   {
     "bucket": 6120,
-    "count": 262,
+    "count": 92,
+    "year": 2020,
+    "city": "austin"
+  },
+  {
+    "bucket": 6180,
+    "count": 81,
+    "year": 2020,
+    "city": "austin"
+  },
+  {
+    "bucket": 6240,
+    "count": 89,
     "year": 2020,
     "city": "austin"
   },
   {
     "bucket": 6300,
-    "count": 247,
+    "count": 86,
+    "year": 2020,
+    "city": "austin"
+  },
+  {
+    "bucket": 6360,
+    "count": 81,
+    "year": 2020,
+    "city": "austin"
+  },
+  {
+    "bucket": 6420,
+    "count": 80,
     "year": 2020,
     "city": "austin"
   },
   {
     "bucket": 6480,
-    "count": 206,
+    "count": 72,
+    "year": 2020,
+    "city": "austin"
+  },
+  {
+    "bucket": 6540,
+    "count": 73,
+    "year": 2020,
+    "city": "austin"
+  },
+  {
+    "bucket": 6600,
+    "count": 61,
     "year": 2020,
     "city": "austin"
   },
   {
     "bucket": 6660,
-    "count": 184,
+    "count": 67,
+    "year": 2020,
+    "city": "austin"
+  },
+  {
+    "bucket": 6720,
+    "count": 61,
+    "year": 2020,
+    "city": "austin"
+  },
+  {
+    "bucket": 6780,
+    "count": 56,
     "year": 2020,
     "city": "austin"
   },
   {
     "bucket": 6840,
-    "count": 188,
+    "count": 57,
+    "year": 2020,
+    "city": "austin"
+  },
+  {
+    "bucket": 6900,
+    "count": 63,
+    "year": 2020,
+    "city": "austin"
+  },
+  {
+    "bucket": 6960,
+    "count": 68,
     "year": 2020,
     "city": "austin"
   },
   {
     "bucket": 7020,
-    "count": 164,
+    "count": 63,
+    "year": 2020,
+    "city": "austin"
+  },
+  {
+    "bucket": 7080,
+    "count": 55,
+    "year": 2020,
+    "city": "austin"
+  },
+  {
+    "bucket": 7140,
+    "count": 46,
     "year": 2020,
     "city": "austin"
   },
@@ -1968,242 +5682,710 @@
     "city": "austin"
   },
   {
-    "bucket": 0,
+    "bucket": 120,
     "count": 7355,
     "year": 2021,
     "city": "austin"
   },
   {
     "bucket": 180,
-    "count": 42889,
+    "count": 12322,
+    "year": 2021,
+    "city": "austin"
+  },
+  {
+    "bucket": 240,
+    "count": 15282,
+    "year": 2021,
+    "city": "austin"
+  },
+  {
+    "bucket": 300,
+    "count": 15285,
     "year": 2021,
     "city": "austin"
   },
   {
     "bucket": 360,
-    "count": 31734,
+    "count": 12655,
+    "year": 2021,
+    "city": "austin"
+  },
+  {
+    "bucket": 420,
+    "count": 10551,
+    "year": 2021,
+    "city": "austin"
+  },
+  {
+    "bucket": 480,
+    "count": 8528,
     "year": 2021,
     "city": "austin"
   },
   {
     "bucket": 540,
-    "count": 18466,
+    "count": 6886,
+    "year": 2021,
+    "city": "austin"
+  },
+  {
+    "bucket": 600,
+    "count": 6087,
+    "year": 2021,
+    "city": "austin"
+  },
+  {
+    "bucket": 660,
+    "count": 5493,
     "year": 2021,
     "city": "austin"
   },
   {
     "bucket": 720,
-    "count": 14374,
+    "count": 5119,
+    "year": 2021,
+    "city": "austin"
+  },
+  {
+    "bucket": 780,
+    "count": 4728,
+    "year": 2021,
+    "city": "austin"
+  },
+  {
+    "bucket": 840,
+    "count": 4527,
     "year": 2021,
     "city": "austin"
   },
   {
     "bucket": 900,
-    "count": 11552,
+    "count": 4116,
+    "year": 2021,
+    "city": "austin"
+  },
+  {
+    "bucket": 960,
+    "count": 3780,
+    "year": 2021,
+    "city": "austin"
+  },
+  {
+    "bucket": 1020,
+    "count": 3656,
     "year": 2021,
     "city": "austin"
   },
   {
     "bucket": 1080,
-    "count": 9684,
+    "count": 3395,
+    "year": 2021,
+    "city": "austin"
+  },
+  {
+    "bucket": 1140,
+    "count": 3225,
+    "year": 2021,
+    "city": "austin"
+  },
+  {
+    "bucket": 1200,
+    "count": 3064,
     "year": 2021,
     "city": "austin"
   },
   {
     "bucket": 1260,
-    "count": 8168,
+    "count": 2782,
+    "year": 2021,
+    "city": "austin"
+  },
+  {
+    "bucket": 1320,
+    "count": 2786,
+    "year": 2021,
+    "city": "austin"
+  },
+  {
+    "bucket": 1380,
+    "count": 2600,
     "year": 2021,
     "city": "austin"
   },
   {
     "bucket": 1440,
-    "count": 7378,
+    "count": 2624,
+    "year": 2021,
+    "city": "austin"
+  },
+  {
+    "bucket": 1500,
+    "count": 2374,
+    "year": 2021,
+    "city": "austin"
+  },
+  {
+    "bucket": 1560,
+    "count": 2380,
     "year": 2021,
     "city": "austin"
   },
   {
     "bucket": 1620,
-    "count": 6693,
+    "count": 2323,
+    "year": 2021,
+    "city": "austin"
+  },
+  {
+    "bucket": 1680,
+    "count": 2227,
+    "year": 2021,
+    "city": "austin"
+  },
+  {
+    "bucket": 1740,
+    "count": 2143,
     "year": 2021,
     "city": "austin"
   },
   {
     "bucket": 1800,
-    "count": 5789,
+    "count": 1996,
+    "year": 2021,
+    "city": "austin"
+  },
+  {
+    "bucket": 1860,
+    "count": 1906,
+    "year": 2021,
+    "city": "austin"
+  },
+  {
+    "bucket": 1920,
+    "count": 1887,
     "year": 2021,
     "city": "austin"
   },
   {
     "bucket": 1980,
-    "count": 5548,
+    "count": 1894,
+    "year": 2021,
+    "city": "austin"
+  },
+  {
+    "bucket": 2040,
+    "count": 1821,
+    "year": 2021,
+    "city": "austin"
+  },
+  {
+    "bucket": 2100,
+    "count": 1833,
     "year": 2021,
     "city": "austin"
   },
   {
     "bucket": 2160,
-    "count": 5134,
+    "count": 1765,
+    "year": 2021,
+    "city": "austin"
+  },
+  {
+    "bucket": 2220,
+    "count": 1734,
+    "year": 2021,
+    "city": "austin"
+  },
+  {
+    "bucket": 2280,
+    "count": 1635,
     "year": 2021,
     "city": "austin"
   },
   {
     "bucket": 2340,
-    "count": 5028,
+    "count": 1761,
+    "year": 2021,
+    "city": "austin"
+  },
+  {
+    "bucket": 2400,
+    "count": 1642,
+    "year": 2021,
+    "city": "austin"
+  },
+  {
+    "bucket": 2460,
+    "count": 1625,
     "year": 2021,
     "city": "austin"
   },
   {
     "bucket": 2520,
-    "count": 4942,
+    "count": 1656,
+    "year": 2021,
+    "city": "austin"
+  },
+  {
+    "bucket": 2580,
+    "count": 1727,
+    "year": 2021,
+    "city": "austin"
+  },
+  {
+    "bucket": 2640,
+    "count": 1559,
     "year": 2021,
     "city": "austin"
   },
   {
     "bucket": 2700,
-    "count": 4674,
+    "count": 1606,
     "year": 2021,
     "city": "austin"
   },
   {
-    "bucket": 2880,
-    "count": 4352,
+    "bucket": 2760,
+    "count": 1541,
     "year": 2021,
     "city": "austin"
   },
   {
-    "bucket": 3060,
-    "count": 3818,
-    "year": 2021,
-    "city": "austin"
-  },
-  {
-    "bucket": 3240,
-    "count": 3463,
-    "year": 2021,
-    "city": "austin"
-  },
-  {
-    "bucket": 3420,
-    "count": 2860,
-    "year": 2021,
-    "city": "austin"
-  },
-  {
-    "bucket": 3600,
-    "count": 1972,
-    "year": 2021,
-    "city": "austin"
-  },
-  {
-    "bucket": 3780,
+    "bucket": 2820,
     "count": 1527,
     "year": 2021,
     "city": "austin"
   },
   {
+    "bucket": 2880,
+    "count": 1445,
+    "year": 2021,
+    "city": "austin"
+  },
+  {
+    "bucket": 2940,
+    "count": 1457,
+    "year": 2021,
+    "city": "austin"
+  },
+  {
+    "bucket": 3000,
+    "count": 1450,
+    "year": 2021,
+    "city": "austin"
+  },
+  {
+    "bucket": 3060,
+    "count": 1259,
+    "year": 2021,
+    "city": "austin"
+  },
+  {
+    "bucket": 3120,
+    "count": 1362,
+    "year": 2021,
+    "city": "austin"
+  },
+  {
+    "bucket": 3180,
+    "count": 1197,
+    "year": 2021,
+    "city": "austin"
+  },
+  {
+    "bucket": 3240,
+    "count": 1221,
+    "year": 2021,
+    "city": "austin"
+  },
+  {
+    "bucket": 3300,
+    "count": 1184,
+    "year": 2021,
+    "city": "austin"
+  },
+  {
+    "bucket": 3360,
+    "count": 1058,
+    "year": 2021,
+    "city": "austin"
+  },
+  {
+    "bucket": 3420,
+    "count": 1069,
+    "year": 2021,
+    "city": "austin"
+  },
+  {
+    "bucket": 3480,
+    "count": 956,
+    "year": 2021,
+    "city": "austin"
+  },
+  {
+    "bucket": 3540,
+    "count": 835,
+    "year": 2021,
+    "city": "austin"
+  },
+  {
+    "bucket": 3600,
+    "count": 706,
+    "year": 2021,
+    "city": "austin"
+  },
+  {
+    "bucket": 3660,
+    "count": 681,
+    "year": 2021,
+    "city": "austin"
+  },
+  {
+    "bucket": 3720,
+    "count": 585,
+    "year": 2021,
+    "city": "austin"
+  },
+  {
+    "bucket": 3780,
+    "count": 543,
+    "year": 2021,
+    "city": "austin"
+  },
+  {
+    "bucket": 3840,
+    "count": 489,
+    "year": 2021,
+    "city": "austin"
+  },
+  {
+    "bucket": 3900,
+    "count": 495,
+    "year": 2021,
+    "city": "austin"
+  },
+  {
     "bucket": 3960,
-    "count": 1314,
+    "count": 454,
+    "year": 2021,
+    "city": "austin"
+  },
+  {
+    "bucket": 4020,
+    "count": 435,
+    "year": 2021,
+    "city": "austin"
+  },
+  {
+    "bucket": 4080,
+    "count": 425,
     "year": 2021,
     "city": "austin"
   },
   {
     "bucket": 4140,
-    "count": 1076,
+    "count": 367,
+    "year": 2021,
+    "city": "austin"
+  },
+  {
+    "bucket": 4200,
+    "count": 387,
+    "year": 2021,
+    "city": "austin"
+  },
+  {
+    "bucket": 4260,
+    "count": 322,
     "year": 2021,
     "city": "austin"
   },
   {
     "bucket": 4320,
-    "count": 1006,
+    "count": 363,
+    "year": 2021,
+    "city": "austin"
+  },
+  {
+    "bucket": 4380,
+    "count": 308,
+    "year": 2021,
+    "city": "austin"
+  },
+  {
+    "bucket": 4440,
+    "count": 335,
     "year": 2021,
     "city": "austin"
   },
   {
     "bucket": 4500,
-    "count": 853,
-    "year": 2021,
-    "city": "austin"
-  },
-  {
-    "bucket": 4680,
-    "count": 787,
-    "year": 2021,
-    "city": "austin"
-  },
-  {
-    "bucket": 4860,
-    "count": 726,
-    "year": 2021,
-    "city": "austin"
-  },
-  {
-    "bucket": 5040,
-    "count": 661,
-    "year": 2021,
-    "city": "austin"
-  },
-  {
-    "bucket": 5220,
-    "count": 562,
-    "year": 2021,
-    "city": "austin"
-  },
-  {
-    "bucket": 5400,
-    "count": 569,
-    "year": 2021,
-    "city": "austin"
-  },
-  {
-    "bucket": 5580,
-    "count": 519,
-    "year": 2021,
-    "city": "austin"
-  },
-  {
-    "bucket": 5760,
-    "count": 466,
-    "year": 2021,
-    "city": "austin"
-  },
-  {
-    "bucket": 5940,
-    "count": 442,
-    "year": 2021,
-    "city": "austin"
-  },
-  {
-    "bucket": 6120,
-    "count": 412,
-    "year": 2021,
-    "city": "austin"
-  },
-  {
-    "bucket": 6300,
-    "count": 330,
-    "year": 2021,
-    "city": "austin"
-  },
-  {
-    "bucket": 6480,
-    "count": 342,
-    "year": 2021,
-    "city": "austin"
-  },
-  {
-    "bucket": 6660,
-    "count": 288,
-    "year": 2021,
-    "city": "austin"
-  },
-  {
-    "bucket": 6840,
     "count": 281,
     "year": 2021,
     "city": "austin"
   },
   {
+    "bucket": 4560,
+    "count": 302,
+    "year": 2021,
+    "city": "austin"
+  },
+  {
+    "bucket": 4620,
+    "count": 270,
+    "year": 2021,
+    "city": "austin"
+  },
+  {
+    "bucket": 4680,
+    "count": 287,
+    "year": 2021,
+    "city": "austin"
+  },
+  {
+    "bucket": 4740,
+    "count": 254,
+    "year": 2021,
+    "city": "austin"
+  },
+  {
+    "bucket": 4800,
+    "count": 246,
+    "year": 2021,
+    "city": "austin"
+  },
+  {
+    "bucket": 4860,
+    "count": 249,
+    "year": 2021,
+    "city": "austin"
+  },
+  {
+    "bucket": 4920,
+    "count": 250,
+    "year": 2021,
+    "city": "austin"
+  },
+  {
+    "bucket": 4980,
+    "count": 227,
+    "year": 2021,
+    "city": "austin"
+  },
+  {
+    "bucket": 5040,
+    "count": 232,
+    "year": 2021,
+    "city": "austin"
+  },
+  {
+    "bucket": 5100,
+    "count": 202,
+    "year": 2021,
+    "city": "austin"
+  },
+  {
+    "bucket": 5160,
+    "count": 227,
+    "year": 2021,
+    "city": "austin"
+  },
+  {
+    "bucket": 5220,
+    "count": 203,
+    "year": 2021,
+    "city": "austin"
+  },
+  {
+    "bucket": 5280,
+    "count": 184,
+    "year": 2021,
+    "city": "austin"
+  },
+  {
+    "bucket": 5340,
+    "count": 175,
+    "year": 2021,
+    "city": "austin"
+  },
+  {
+    "bucket": 5400,
+    "count": 201,
+    "year": 2021,
+    "city": "austin"
+  },
+  {
+    "bucket": 5460,
+    "count": 183,
+    "year": 2021,
+    "city": "austin"
+  },
+  {
+    "bucket": 5520,
+    "count": 185,
+    "year": 2021,
+    "city": "austin"
+  },
+  {
+    "bucket": 5580,
+    "count": 176,
+    "year": 2021,
+    "city": "austin"
+  },
+  {
+    "bucket": 5640,
+    "count": 182,
+    "year": 2021,
+    "city": "austin"
+  },
+  {
+    "bucket": 5700,
+    "count": 161,
+    "year": 2021,
+    "city": "austin"
+  },
+  {
+    "bucket": 5760,
+    "count": 157,
+    "year": 2021,
+    "city": "austin"
+  },
+  {
+    "bucket": 5820,
+    "count": 151,
+    "year": 2021,
+    "city": "austin"
+  },
+  {
+    "bucket": 5880,
+    "count": 158,
+    "year": 2021,
+    "city": "austin"
+  },
+  {
+    "bucket": 5940,
+    "count": 151,
+    "year": 2021,
+    "city": "austin"
+  },
+  {
+    "bucket": 6000,
+    "count": 122,
+    "year": 2021,
+    "city": "austin"
+  },
+  {
+    "bucket": 6060,
+    "count": 169,
+    "year": 2021,
+    "city": "austin"
+  },
+  {
+    "bucket": 6120,
+    "count": 150,
+    "year": 2021,
+    "city": "austin"
+  },
+  {
+    "bucket": 6180,
+    "count": 127,
+    "year": 2021,
+    "city": "austin"
+  },
+  {
+    "bucket": 6240,
+    "count": 135,
+    "year": 2021,
+    "city": "austin"
+  },
+  {
+    "bucket": 6300,
+    "count": 129,
+    "year": 2021,
+    "city": "austin"
+  },
+  {
+    "bucket": 6360,
+    "count": 105,
+    "year": 2021,
+    "city": "austin"
+  },
+  {
+    "bucket": 6420,
+    "count": 96,
+    "year": 2021,
+    "city": "austin"
+  },
+  {
+    "bucket": 6480,
+    "count": 113,
+    "year": 2021,
+    "city": "austin"
+  },
+  {
+    "bucket": 6540,
+    "count": 113,
+    "year": 2021,
+    "city": "austin"
+  },
+  {
+    "bucket": 6600,
+    "count": 116,
+    "year": 2021,
+    "city": "austin"
+  },
+  {
+    "bucket": 6660,
+    "count": 98,
+    "year": 2021,
+    "city": "austin"
+  },
+  {
+    "bucket": 6720,
+    "count": 101,
+    "year": 2021,
+    "city": "austin"
+  },
+  {
+    "bucket": 6780,
+    "count": 89,
+    "year": 2021,
+    "city": "austin"
+  },
+  {
+    "bucket": 6840,
+    "count": 114,
+    "year": 2021,
+    "city": "austin"
+  },
+  {
+    "bucket": 6900,
+    "count": 96,
+    "year": 2021,
+    "city": "austin"
+  },
+  {
+    "bucket": 6960,
+    "count": 71,
+    "year": 2021,
+    "city": "austin"
+  },
+  {
     "bucket": 7020,
-    "count": 238,
+    "count": 93,
+    "year": 2021,
+    "city": "austin"
+  },
+  {
+    "bucket": 7080,
+    "count": 73,
+    "year": 2021,
+    "city": "austin"
+  },
+  {
+    "bucket": 7140,
+    "count": 72,
     "year": 2021,
     "city": "austin"
   },
@@ -2214,242 +6396,710 @@
     "city": "austin"
   },
   {
-    "bucket": 0,
+    "bucket": 120,
     "count": 13514,
     "year": 2022,
     "city": "austin"
   },
   {
     "bucket": 180,
-    "count": 86821,
+    "count": 25131,
+    "year": 2022,
+    "city": "austin"
+  },
+  {
+    "bucket": 240,
+    "count": 31415,
+    "year": 2022,
+    "city": "austin"
+  },
+  {
+    "bucket": 300,
+    "count": 30275,
     "year": 2022,
     "city": "austin"
   },
   {
     "bucket": 360,
-    "count": 55979,
+    "count": 24094,
+    "year": 2022,
+    "city": "austin"
+  },
+  {
+    "bucket": 420,
+    "count": 18173,
+    "year": 2022,
+    "city": "austin"
+  },
+  {
+    "bucket": 480,
+    "count": 13712,
     "year": 2022,
     "city": "austin"
   },
   {
     "bucket": 540,
-    "count": 27084,
+    "count": 10675,
+    "year": 2022,
+    "city": "austin"
+  },
+  {
+    "bucket": 600,
+    "count": 8812,
+    "year": 2022,
+    "city": "austin"
+  },
+  {
+    "bucket": 660,
+    "count": 7597,
     "year": 2022,
     "city": "austin"
   },
   {
     "bucket": 720,
-    "count": 18563,
+    "count": 6939,
+    "year": 2022,
+    "city": "austin"
+  },
+  {
+    "bucket": 780,
+    "count": 6064,
+    "year": 2022,
+    "city": "austin"
+  },
+  {
+    "bucket": 840,
+    "count": 5560,
     "year": 2022,
     "city": "austin"
   },
   {
     "bucket": 900,
-    "count": 14298,
+    "count": 5180,
+    "year": 2022,
+    "city": "austin"
+  },
+  {
+    "bucket": 960,
+    "count": 4652,
+    "year": 2022,
+    "city": "austin"
+  },
+  {
+    "bucket": 1020,
+    "count": 4466,
     "year": 2022,
     "city": "austin"
   },
   {
     "bucket": 1080,
-    "count": 11587,
+    "count": 4125,
+    "year": 2022,
+    "city": "austin"
+  },
+  {
+    "bucket": 1140,
+    "count": 3798,
+    "year": 2022,
+    "city": "austin"
+  },
+  {
+    "bucket": 1200,
+    "count": 3664,
     "year": 2022,
     "city": "austin"
   },
   {
     "bucket": 1260,
-    "count": 9077,
+    "count": 3134,
+    "year": 2022,
+    "city": "austin"
+  },
+  {
+    "bucket": 1320,
+    "count": 3042,
+    "year": 2022,
+    "city": "austin"
+  },
+  {
+    "bucket": 1380,
+    "count": 2901,
     "year": 2022,
     "city": "austin"
   },
   {
     "bucket": 1440,
-    "count": 7967,
+    "count": 2866,
+    "year": 2022,
+    "city": "austin"
+  },
+  {
+    "bucket": 1500,
+    "count": 2577,
+    "year": 2022,
+    "city": "austin"
+  },
+  {
+    "bucket": 1560,
+    "count": 2524,
     "year": 2022,
     "city": "austin"
   },
   {
     "bucket": 1620,
-    "count": 7226,
+    "count": 2512,
+    "year": 2022,
+    "city": "austin"
+  },
+  {
+    "bucket": 1680,
+    "count": 2400,
+    "year": 2022,
+    "city": "austin"
+  },
+  {
+    "bucket": 1740,
+    "count": 2314,
     "year": 2022,
     "city": "austin"
   },
   {
     "bucket": 1800,
-    "count": 6558,
+    "count": 2188,
+    "year": 2022,
+    "city": "austin"
+  },
+  {
+    "bucket": 1860,
+    "count": 2317,
+    "year": 2022,
+    "city": "austin"
+  },
+  {
+    "bucket": 1920,
+    "count": 2053,
     "year": 2022,
     "city": "austin"
   },
   {
     "bucket": 1980,
-    "count": 6087,
+    "count": 2118,
+    "year": 2022,
+    "city": "austin"
+  },
+  {
+    "bucket": 2040,
+    "count": 2018,
+    "year": 2022,
+    "city": "austin"
+  },
+  {
+    "bucket": 2100,
+    "count": 1951,
     "year": 2022,
     "city": "austin"
   },
   {
     "bucket": 2160,
-    "count": 5554,
+    "count": 1892,
+    "year": 2022,
+    "city": "austin"
+  },
+  {
+    "bucket": 2220,
+    "count": 1950,
+    "year": 2022,
+    "city": "austin"
+  },
+  {
+    "bucket": 2280,
+    "count": 1712,
     "year": 2022,
     "city": "austin"
   },
   {
     "bucket": 2340,
-    "count": 4987,
+    "count": 1678,
+    "year": 2022,
+    "city": "austin"
+  },
+  {
+    "bucket": 2400,
+    "count": 1652,
+    "year": 2022,
+    "city": "austin"
+  },
+  {
+    "bucket": 2460,
+    "count": 1657,
     "year": 2022,
     "city": "austin"
   },
   {
     "bucket": 2520,
-    "count": 4770,
+    "count": 1599,
+    "year": 2022,
+    "city": "austin"
+  },
+  {
+    "bucket": 2580,
+    "count": 1615,
+    "year": 2022,
+    "city": "austin"
+  },
+  {
+    "bucket": 2640,
+    "count": 1556,
     "year": 2022,
     "city": "austin"
   },
   {
     "bucket": 2700,
-    "count": 4648,
+    "count": 1592,
+    "year": 2022,
+    "city": "austin"
+  },
+  {
+    "bucket": 2760,
+    "count": 1510,
+    "year": 2022,
+    "city": "austin"
+  },
+  {
+    "bucket": 2820,
+    "count": 1546,
     "year": 2022,
     "city": "austin"
   },
   {
     "bucket": 2880,
-    "count": 4395,
+    "count": 1533,
+    "year": 2022,
+    "city": "austin"
+  },
+  {
+    "bucket": 2940,
+    "count": 1435,
+    "year": 2022,
+    "city": "austin"
+  },
+  {
+    "bucket": 3000,
+    "count": 1427,
     "year": 2022,
     "city": "austin"
   },
   {
     "bucket": 3060,
-    "count": 4090,
+    "count": 1411,
+    "year": 2022,
+    "city": "austin"
+  },
+  {
+    "bucket": 3120,
+    "count": 1338,
+    "year": 2022,
+    "city": "austin"
+  },
+  {
+    "bucket": 3180,
+    "count": 1341,
     "year": 2022,
     "city": "austin"
   },
   {
     "bucket": 3240,
-    "count": 3624,
+    "count": 1262,
+    "year": 2022,
+    "city": "austin"
+  },
+  {
+    "bucket": 3300,
+    "count": 1214,
+    "year": 2022,
+    "city": "austin"
+  },
+  {
+    "bucket": 3360,
+    "count": 1148,
     "year": 2022,
     "city": "austin"
   },
   {
     "bucket": 3420,
-    "count": 2743,
+    "count": 984,
+    "year": 2022,
+    "city": "austin"
+  },
+  {
+    "bucket": 3480,
+    "count": 936,
+    "year": 2022,
+    "city": "austin"
+  },
+  {
+    "bucket": 3540,
+    "count": 823,
     "year": 2022,
     "city": "austin"
   },
   {
     "bucket": 3600,
-    "count": 1873,
+    "count": 672,
+    "year": 2022,
+    "city": "austin"
+  },
+  {
+    "bucket": 3660,
+    "count": 595,
+    "year": 2022,
+    "city": "austin"
+  },
+  {
+    "bucket": 3720,
+    "count": 606,
     "year": 2022,
     "city": "austin"
   },
   {
     "bucket": 3780,
-    "count": 1354,
+    "count": 525,
+    "year": 2022,
+    "city": "austin"
+  },
+  {
+    "bucket": 3840,
+    "count": 460,
+    "year": 2022,
+    "city": "austin"
+  },
+  {
+    "bucket": 3900,
+    "count": 369,
     "year": 2022,
     "city": "austin"
   },
   {
     "bucket": 3960,
-    "count": 1057,
+    "count": 369,
+    "year": 2022,
+    "city": "austin"
+  },
+  {
+    "bucket": 4020,
+    "count": 353,
+    "year": 2022,
+    "city": "austin"
+  },
+  {
+    "bucket": 4080,
+    "count": 335,
     "year": 2022,
     "city": "austin"
   },
   {
     "bucket": 4140,
-    "count": 949,
+    "count": 336,
+    "year": 2022,
+    "city": "austin"
+  },
+  {
+    "bucket": 4200,
+    "count": 318,
+    "year": 2022,
+    "city": "austin"
+  },
+  {
+    "bucket": 4260,
+    "count": 295,
     "year": 2022,
     "city": "austin"
   },
   {
     "bucket": 4320,
-    "count": 728,
+    "count": 284,
+    "year": 2022,
+    "city": "austin"
+  },
+  {
+    "bucket": 4380,
+    "count": 254,
+    "year": 2022,
+    "city": "austin"
+  },
+  {
+    "bucket": 4440,
+    "count": 190,
     "year": 2022,
     "city": "austin"
   },
   {
     "bucket": 4500,
-    "count": 741,
+    "count": 287,
     "year": 2022,
     "city": "austin"
   },
   {
-    "bucket": 4680,
-    "count": 685,
-    "year": 2022,
-    "city": "austin"
-  },
-  {
-    "bucket": 4860,
-    "count": 596,
-    "year": 2022,
-    "city": "austin"
-  },
-  {
-    "bucket": 5040,
-    "count": 571,
-    "year": 2022,
-    "city": "austin"
-  },
-  {
-    "bucket": 5220,
-    "count": 475,
-    "year": 2022,
-    "city": "austin"
-  },
-  {
-    "bucket": 5400,
-    "count": 461,
-    "year": 2022,
-    "city": "austin"
-  },
-  {
-    "bucket": 5580,
-    "count": 420,
-    "year": 2022,
-    "city": "austin"
-  },
-  {
-    "bucket": 5760,
-    "count": 373,
-    "year": 2022,
-    "city": "austin"
-  },
-  {
-    "bucket": 5940,
-    "count": 333,
-    "year": 2022,
-    "city": "austin"
-  },
-  {
-    "bucket": 6120,
-    "count": 322,
-    "year": 2022,
-    "city": "austin"
-  },
-  {
-    "bucket": 6300,
-    "count": 299,
-    "year": 2022,
-    "city": "austin"
-  },
-  {
-    "bucket": 6480,
+    "bucket": 4560,
     "count": 230,
     "year": 2022,
     "city": "austin"
   },
   {
+    "bucket": 4620,
+    "count": 224,
+    "year": 2022,
+    "city": "austin"
+  },
+  {
+    "bucket": 4680,
+    "count": 224,
+    "year": 2022,
+    "city": "austin"
+  },
+  {
+    "bucket": 4740,
+    "count": 248,
+    "year": 2022,
+    "city": "austin"
+  },
+  {
+    "bucket": 4800,
+    "count": 213,
+    "year": 2022,
+    "city": "austin"
+  },
+  {
+    "bucket": 4860,
+    "count": 181,
+    "year": 2022,
+    "city": "austin"
+  },
+  {
+    "bucket": 4920,
+    "count": 208,
+    "year": 2022,
+    "city": "austin"
+  },
+  {
+    "bucket": 4980,
+    "count": 207,
+    "year": 2022,
+    "city": "austin"
+  },
+  {
+    "bucket": 5040,
+    "count": 190,
+    "year": 2022,
+    "city": "austin"
+  },
+  {
+    "bucket": 5100,
+    "count": 195,
+    "year": 2022,
+    "city": "austin"
+  },
+  {
+    "bucket": 5160,
+    "count": 186,
+    "year": 2022,
+    "city": "austin"
+  },
+  {
+    "bucket": 5220,
+    "count": 170,
+    "year": 2022,
+    "city": "austin"
+  },
+  {
+    "bucket": 5280,
+    "count": 144,
+    "year": 2022,
+    "city": "austin"
+  },
+  {
+    "bucket": 5340,
+    "count": 161,
+    "year": 2022,
+    "city": "austin"
+  },
+  {
+    "bucket": 5400,
+    "count": 148,
+    "year": 2022,
+    "city": "austin"
+  },
+  {
+    "bucket": 5460,
+    "count": 140,
+    "year": 2022,
+    "city": "austin"
+  },
+  {
+    "bucket": 5520,
+    "count": 173,
+    "year": 2022,
+    "city": "austin"
+  },
+  {
+    "bucket": 5580,
+    "count": 145,
+    "year": 2022,
+    "city": "austin"
+  },
+  {
+    "bucket": 5640,
+    "count": 152,
+    "year": 2022,
+    "city": "austin"
+  },
+  {
+    "bucket": 5700,
+    "count": 123,
+    "year": 2022,
+    "city": "austin"
+  },
+  {
+    "bucket": 5760,
+    "count": 117,
+    "year": 2022,
+    "city": "austin"
+  },
+  {
+    "bucket": 5820,
+    "count": 138,
+    "year": 2022,
+    "city": "austin"
+  },
+  {
+    "bucket": 5880,
+    "count": 118,
+    "year": 2022,
+    "city": "austin"
+  },
+  {
+    "bucket": 5940,
+    "count": 119,
+    "year": 2022,
+    "city": "austin"
+  },
+  {
+    "bucket": 6000,
+    "count": 114,
+    "year": 2022,
+    "city": "austin"
+  },
+  {
+    "bucket": 6060,
+    "count": 100,
+    "year": 2022,
+    "city": "austin"
+  },
+  {
+    "bucket": 6120,
+    "count": 121,
+    "year": 2022,
+    "city": "austin"
+  },
+  {
+    "bucket": 6180,
+    "count": 92,
+    "year": 2022,
+    "city": "austin"
+  },
+  {
+    "bucket": 6240,
+    "count": 109,
+    "year": 2022,
+    "city": "austin"
+  },
+  {
+    "bucket": 6300,
+    "count": 125,
+    "year": 2022,
+    "city": "austin"
+  },
+  {
+    "bucket": 6360,
+    "count": 82,
+    "year": 2022,
+    "city": "austin"
+  },
+  {
+    "bucket": 6420,
+    "count": 92,
+    "year": 2022,
+    "city": "austin"
+  },
+  {
+    "bucket": 6480,
+    "count": 83,
+    "year": 2022,
+    "city": "austin"
+  },
+  {
+    "bucket": 6540,
+    "count": 66,
+    "year": 2022,
+    "city": "austin"
+  },
+  {
+    "bucket": 6600,
+    "count": 81,
+    "year": 2022,
+    "city": "austin"
+  },
+  {
     "bucket": 6660,
-    "count": 256,
+    "count": 85,
+    "year": 2022,
+    "city": "austin"
+  },
+  {
+    "bucket": 6720,
+    "count": 90,
+    "year": 2022,
+    "city": "austin"
+  },
+  {
+    "bucket": 6780,
+    "count": 81,
     "year": 2022,
     "city": "austin"
   },
   {
     "bucket": 6840,
-    "count": 234,
+    "count": 79,
+    "year": 2022,
+    "city": "austin"
+  },
+  {
+    "bucket": 6900,
+    "count": 87,
+    "year": 2022,
+    "city": "austin"
+  },
+  {
+    "bucket": 6960,
+    "count": 68,
     "year": 2022,
     "city": "austin"
   },
   {
     "bucket": 7020,
-    "count": 177,
+    "count": 56,
+    "year": 2022,
+    "city": "austin"
+  },
+  {
+    "bucket": 7080,
+    "count": 50,
+    "year": 2022,
+    "city": "austin"
+  },
+  {
+    "bucket": 7140,
+    "count": 71,
     "year": 2022,
     "city": "austin"
   },
@@ -2460,242 +7110,710 @@
     "city": "austin"
   },
   {
-    "bucket": 0,
+    "bucket": 120,
     "count": 12209,
     "year": 2023,
     "city": "austin"
   },
   {
     "bucket": 180,
-    "count": 80866,
+    "count": 22934,
+    "year": 2023,
+    "city": "austin"
+  },
+  {
+    "bucket": 240,
+    "count": 29678,
+    "year": 2023,
+    "city": "austin"
+  },
+  {
+    "bucket": 300,
+    "count": 28254,
     "year": 2023,
     "city": "austin"
   },
   {
     "bucket": 360,
-    "count": 53754,
+    "count": 22974,
+    "year": 2023,
+    "city": "austin"
+  },
+  {
+    "bucket": 420,
+    "count": 17724,
+    "year": 2023,
+    "city": "austin"
+  },
+  {
+    "bucket": 480,
+    "count": 13056,
     "year": 2023,
     "city": "austin"
   },
   {
     "bucket": 540,
-    "count": 25021,
+    "count": 9900,
+    "year": 2023,
+    "city": "austin"
+  },
+  {
+    "bucket": 600,
+    "count": 8054,
+    "year": 2023,
+    "city": "austin"
+  },
+  {
+    "bucket": 660,
+    "count": 7067,
     "year": 2023,
     "city": "austin"
   },
   {
     "bucket": 720,
-    "count": 17200,
+    "count": 6331,
+    "year": 2023,
+    "city": "austin"
+  },
+  {
+    "bucket": 780,
+    "count": 5644,
+    "year": 2023,
+    "city": "austin"
+  },
+  {
+    "bucket": 840,
+    "count": 5225,
     "year": 2023,
     "city": "austin"
   },
   {
     "bucket": 900,
-    "count": 13076,
+    "count": 4779,
+    "year": 2023,
+    "city": "austin"
+  },
+  {
+    "bucket": 960,
+    "count": 4362,
+    "year": 2023,
+    "city": "austin"
+  },
+  {
+    "bucket": 1020,
+    "count": 3935,
     "year": 2023,
     "city": "austin"
   },
   {
     "bucket": 1080,
-    "count": 10226,
+    "count": 3682,
+    "year": 2023,
+    "city": "austin"
+  },
+  {
+    "bucket": 1140,
+    "count": 3379,
+    "year": 2023,
+    "city": "austin"
+  },
+  {
+    "bucket": 1200,
+    "count": 3165,
     "year": 2023,
     "city": "austin"
   },
   {
     "bucket": 1260,
-    "count": 8152,
+    "count": 2855,
+    "year": 2023,
+    "city": "austin"
+  },
+  {
+    "bucket": 1320,
+    "count": 2711,
+    "year": 2023,
+    "city": "austin"
+  },
+  {
+    "bucket": 1380,
+    "count": 2586,
     "year": 2023,
     "city": "austin"
   },
   {
     "bucket": 1440,
-    "count": 6630,
+    "count": 2364,
+    "year": 2023,
+    "city": "austin"
+  },
+  {
+    "bucket": 1500,
+    "count": 2257,
+    "year": 2023,
+    "city": "austin"
+  },
+  {
+    "bucket": 1560,
+    "count": 2009,
     "year": 2023,
     "city": "austin"
   },
   {
     "bucket": 1620,
-    "count": 5647,
+    "count": 1935,
+    "year": 2023,
+    "city": "austin"
+  },
+  {
+    "bucket": 1680,
+    "count": 1912,
+    "year": 2023,
+    "city": "austin"
+  },
+  {
+    "bucket": 1740,
+    "count": 1800,
     "year": 2023,
     "city": "austin"
   },
   {
     "bucket": 1800,
-    "count": 5010,
+    "count": 1762,
+    "year": 2023,
+    "city": "austin"
+  },
+  {
+    "bucket": 1860,
+    "count": 1640,
+    "year": 2023,
+    "city": "austin"
+  },
+  {
+    "bucket": 1920,
+    "count": 1608,
     "year": 2023,
     "city": "austin"
   },
   {
     "bucket": 1980,
-    "count": 4596,
+    "count": 1630,
+    "year": 2023,
+    "city": "austin"
+  },
+  {
+    "bucket": 2040,
+    "count": 1429,
+    "year": 2023,
+    "city": "austin"
+  },
+  {
+    "bucket": 2100,
+    "count": 1537,
     "year": 2023,
     "city": "austin"
   },
   {
     "bucket": 2160,
-    "count": 4168,
+    "count": 1385,
+    "year": 2023,
+    "city": "austin"
+  },
+  {
+    "bucket": 2220,
+    "count": 1417,
+    "year": 2023,
+    "city": "austin"
+  },
+  {
+    "bucket": 2280,
+    "count": 1366,
     "year": 2023,
     "city": "austin"
   },
   {
     "bucket": 2340,
-    "count": 3964,
+    "count": 1328,
+    "year": 2023,
+    "city": "austin"
+  },
+  {
+    "bucket": 2400,
+    "count": 1312,
+    "year": 2023,
+    "city": "austin"
+  },
+  {
+    "bucket": 2460,
+    "count": 1324,
     "year": 2023,
     "city": "austin"
   },
   {
     "bucket": 2520,
-    "count": 3831,
+    "count": 1287,
+    "year": 2023,
+    "city": "austin"
+  },
+  {
+    "bucket": 2580,
+    "count": 1277,
+    "year": 2023,
+    "city": "austin"
+  },
+  {
+    "bucket": 2640,
+    "count": 1267,
     "year": 2023,
     "city": "austin"
   },
   {
     "bucket": 2700,
-    "count": 3547,
+    "count": 1196,
+    "year": 2023,
+    "city": "austin"
+  },
+  {
+    "bucket": 2760,
+    "count": 1223,
+    "year": 2023,
+    "city": "austin"
+  },
+  {
+    "bucket": 2820,
+    "count": 1128,
     "year": 2023,
     "city": "austin"
   },
   {
     "bucket": 2880,
-    "count": 3434,
+    "count": 1211,
+    "year": 2023,
+    "city": "austin"
+  },
+  {
+    "bucket": 2940,
+    "count": 1143,
+    "year": 2023,
+    "city": "austin"
+  },
+  {
+    "bucket": 3000,
+    "count": 1080,
     "year": 2023,
     "city": "austin"
   },
   {
     "bucket": 3060,
-    "count": 3307,
+    "count": 1117,
+    "year": 2023,
+    "city": "austin"
+  },
+  {
+    "bucket": 3120,
+    "count": 1079,
+    "year": 2023,
+    "city": "austin"
+  },
+  {
+    "bucket": 3180,
+    "count": 1111,
     "year": 2023,
     "city": "austin"
   },
   {
     "bucket": 3240,
-    "count": 3102,
+    "count": 1079,
+    "year": 2023,
+    "city": "austin"
+  },
+  {
+    "bucket": 3300,
+    "count": 1009,
+    "year": 2023,
+    "city": "austin"
+  },
+  {
+    "bucket": 3360,
+    "count": 1014,
     "year": 2023,
     "city": "austin"
   },
   {
     "bucket": 3420,
-    "count": 2366,
+    "count": 877,
+    "year": 2023,
+    "city": "austin"
+  },
+  {
+    "bucket": 3480,
+    "count": 791,
+    "year": 2023,
+    "city": "austin"
+  },
+  {
+    "bucket": 3540,
+    "count": 698,
     "year": 2023,
     "city": "austin"
   },
   {
     "bucket": 3600,
-    "count": 1502,
+    "count": 579,
+    "year": 2023,
+    "city": "austin"
+  },
+  {
+    "bucket": 3660,
+    "count": 498,
+    "year": 2023,
+    "city": "austin"
+  },
+  {
+    "bucket": 3720,
+    "count": 425,
     "year": 2023,
     "city": "austin"
   },
   {
     "bucket": 3780,
-    "count": 1071,
+    "count": 354,
+    "year": 2023,
+    "city": "austin"
+  },
+  {
+    "bucket": 3840,
+    "count": 370,
+    "year": 2023,
+    "city": "austin"
+  },
+  {
+    "bucket": 3900,
+    "count": 347,
     "year": 2023,
     "city": "austin"
   },
   {
     "bucket": 3960,
-    "count": 863,
+    "count": 322,
+    "year": 2023,
+    "city": "austin"
+  },
+  {
+    "bucket": 4020,
+    "count": 291,
+    "year": 2023,
+    "city": "austin"
+  },
+  {
+    "bucket": 4080,
+    "count": 250,
     "year": 2023,
     "city": "austin"
   },
   {
     "bucket": 4140,
-    "count": 751,
+    "count": 244,
+    "year": 2023,
+    "city": "austin"
+  },
+  {
+    "bucket": 4200,
+    "count": 265,
+    "year": 2023,
+    "city": "austin"
+  },
+  {
+    "bucket": 4260,
+    "count": 242,
     "year": 2023,
     "city": "austin"
   },
   {
     "bucket": 4320,
-    "count": 647,
+    "count": 231,
+    "year": 2023,
+    "city": "austin"
+  },
+  {
+    "bucket": 4380,
+    "count": 213,
+    "year": 2023,
+    "city": "austin"
+  },
+  {
+    "bucket": 4440,
+    "count": 203,
     "year": 2023,
     "city": "austin"
   },
   {
     "bucket": 4500,
-    "count": 626,
+    "count": 238,
+    "year": 2023,
+    "city": "austin"
+  },
+  {
+    "bucket": 4560,
+    "count": 204,
+    "year": 2023,
+    "city": "austin"
+  },
+  {
+    "bucket": 4620,
+    "count": 184,
     "year": 2023,
     "city": "austin"
   },
   {
     "bucket": 4680,
-    "count": 509,
+    "count": 164,
+    "year": 2023,
+    "city": "austin"
+  },
+  {
+    "bucket": 4740,
+    "count": 180,
+    "year": 2023,
+    "city": "austin"
+  },
+  {
+    "bucket": 4800,
+    "count": 165,
     "year": 2023,
     "city": "austin"
   },
   {
     "bucket": 4860,
-    "count": 408,
+    "count": 139,
+    "year": 2023,
+    "city": "austin"
+  },
+  {
+    "bucket": 4920,
+    "count": 135,
+    "year": 2023,
+    "city": "austin"
+  },
+  {
+    "bucket": 4980,
+    "count": 134,
     "year": 2023,
     "city": "austin"
   },
   {
     "bucket": 5040,
-    "count": 403,
+    "count": 120,
+    "year": 2023,
+    "city": "austin"
+  },
+  {
+    "bucket": 5100,
+    "count": 145,
+    "year": 2023,
+    "city": "austin"
+  },
+  {
+    "bucket": 5160,
+    "count": 138,
     "year": 2023,
     "city": "austin"
   },
   {
     "bucket": 5220,
-    "count": 387,
+    "count": 137,
+    "year": 2023,
+    "city": "austin"
+  },
+  {
+    "bucket": 5280,
+    "count": 132,
+    "year": 2023,
+    "city": "austin"
+  },
+  {
+    "bucket": 5340,
+    "count": 118,
     "year": 2023,
     "city": "austin"
   },
   {
     "bucket": 5400,
-    "count": 376,
+    "count": 130,
+    "year": 2023,
+    "city": "austin"
+  },
+  {
+    "bucket": 5460,
+    "count": 124,
+    "year": 2023,
+    "city": "austin"
+  },
+  {
+    "bucket": 5520,
+    "count": 122,
     "year": 2023,
     "city": "austin"
   },
   {
     "bucket": 5580,
-    "count": 344,
+    "count": 124,
+    "year": 2023,
+    "city": "austin"
+  },
+  {
+    "bucket": 5640,
+    "count": 116,
+    "year": 2023,
+    "city": "austin"
+  },
+  {
+    "bucket": 5700,
+    "count": 104,
     "year": 2023,
     "city": "austin"
   },
   {
     "bucket": 5760,
-    "count": 325,
+    "count": 119,
+    "year": 2023,
+    "city": "austin"
+  },
+  {
+    "bucket": 5820,
+    "count": 95,
+    "year": 2023,
+    "city": "austin"
+  },
+  {
+    "bucket": 5880,
+    "count": 111,
     "year": 2023,
     "city": "austin"
   },
   {
     "bucket": 5940,
-    "count": 264,
+    "count": 85,
+    "year": 2023,
+    "city": "austin"
+  },
+  {
+    "bucket": 6000,
+    "count": 94,
+    "year": 2023,
+    "city": "austin"
+  },
+  {
+    "bucket": 6060,
+    "count": 85,
     "year": 2023,
     "city": "austin"
   },
   {
     "bucket": 6120,
-    "count": 249,
+    "count": 94,
+    "year": 2023,
+    "city": "austin"
+  },
+  {
+    "bucket": 6180,
+    "count": 77,
+    "year": 2023,
+    "city": "austin"
+  },
+  {
+    "bucket": 6240,
+    "count": 78,
     "year": 2023,
     "city": "austin"
   },
   {
     "bucket": 6300,
-    "count": 233,
+    "count": 94,
+    "year": 2023,
+    "city": "austin"
+  },
+  {
+    "bucket": 6360,
+    "count": 69,
+    "year": 2023,
+    "city": "austin"
+  },
+  {
+    "bucket": 6420,
+    "count": 70,
     "year": 2023,
     "city": "austin"
   },
   {
     "bucket": 6480,
-    "count": 202,
+    "count": 54,
+    "year": 2023,
+    "city": "austin"
+  },
+  {
+    "bucket": 6540,
+    "count": 61,
+    "year": 2023,
+    "city": "austin"
+  },
+  {
+    "bucket": 6600,
+    "count": 87,
     "year": 2023,
     "city": "austin"
   },
   {
     "bucket": 6660,
-    "count": 177,
+    "count": 50,
+    "year": 2023,
+    "city": "austin"
+  },
+  {
+    "bucket": 6720,
+    "count": 68,
+    "year": 2023,
+    "city": "austin"
+  },
+  {
+    "bucket": 6780,
+    "count": 59,
     "year": 2023,
     "city": "austin"
   },
   {
     "bucket": 6840,
-    "count": 179,
+    "count": 60,
+    "year": 2023,
+    "city": "austin"
+  },
+  {
+    "bucket": 6900,
+    "count": 61,
+    "year": 2023,
+    "city": "austin"
+  },
+  {
+    "bucket": 6960,
+    "count": 58,
     "year": 2023,
     "city": "austin"
   },
   {
     "bucket": 7020,
-    "count": 142,
+    "count": 57,
+    "year": 2023,
+    "city": "austin"
+  },
+  {
+    "bucket": 7080,
+    "count": 48,
+    "year": 2023,
+    "city": "austin"
+  },
+  {
+    "bucket": 7140,
+    "count": 37,
     "year": 2023,
     "city": "austin"
   },
@@ -2706,242 +7824,710 @@
     "city": "austin"
   },
   {
-    "bucket": 0,
+    "bucket": 120,
     "count": 6501,
     "year": 2024,
     "city": "austin"
   },
   {
     "bucket": 180,
-    "count": 42651,
+    "count": 12534,
+    "year": 2024,
+    "city": "austin"
+  },
+  {
+    "bucket": 240,
+    "count": 15770,
+    "year": 2024,
+    "city": "austin"
+  },
+  {
+    "bucket": 300,
+    "count": 14347,
     "year": 2024,
     "city": "austin"
   },
   {
     "bucket": 360,
-    "count": 26192,
+    "count": 11432,
+    "year": 2024,
+    "city": "austin"
+  },
+  {
+    "bucket": 420,
+    "count": 8421,
+    "year": 2024,
+    "city": "austin"
+  },
+  {
+    "bucket": 480,
+    "count": 6339,
     "year": 2024,
     "city": "austin"
   },
   {
     "bucket": 540,
-    "count": 12761,
+    "count": 4934,
+    "year": 2024,
+    "city": "austin"
+  },
+  {
+    "bucket": 600,
+    "count": 4154,
+    "year": 2024,
+    "city": "austin"
+  },
+  {
+    "bucket": 660,
+    "count": 3673,
     "year": 2024,
     "city": "austin"
   },
   {
     "bucket": 720,
-    "count": 9039,
+    "count": 3272,
+    "year": 2024,
+    "city": "austin"
+  },
+  {
+    "bucket": 780,
+    "count": 3042,
+    "year": 2024,
+    "city": "austin"
+  },
+  {
+    "bucket": 840,
+    "count": 2725,
     "year": 2024,
     "city": "austin"
   },
   {
     "bucket": 900,
-    "count": 6642,
+    "count": 2438,
+    "year": 2024,
+    "city": "austin"
+  },
+  {
+    "bucket": 960,
+    "count": 2190,
+    "year": 2024,
+    "city": "austin"
+  },
+  {
+    "bucket": 1020,
+    "count": 2014,
     "year": 2024,
     "city": "austin"
   },
   {
     "bucket": 1080,
-    "count": 5061,
+    "count": 1828,
+    "year": 2024,
+    "city": "austin"
+  },
+  {
+    "bucket": 1140,
+    "count": 1720,
+    "year": 2024,
+    "city": "austin"
+  },
+  {
+    "bucket": 1200,
+    "count": 1513,
     "year": 2024,
     "city": "austin"
   },
   {
     "bucket": 1260,
-    "count": 3955,
+    "count": 1448,
+    "year": 2024,
+    "city": "austin"
+  },
+  {
+    "bucket": 1320,
+    "count": 1279,
+    "year": 2024,
+    "city": "austin"
+  },
+  {
+    "bucket": 1380,
+    "count": 1228,
     "year": 2024,
     "city": "austin"
   },
   {
     "bucket": 1440,
-    "count": 3187,
+    "count": 1197,
+    "year": 2024,
+    "city": "austin"
+  },
+  {
+    "bucket": 1500,
+    "count": 1044,
+    "year": 2024,
+    "city": "austin"
+  },
+  {
+    "bucket": 1560,
+    "count": 946,
     "year": 2024,
     "city": "austin"
   },
   {
     "bucket": 1620,
-    "count": 2713,
-    "year": 2024,
-    "city": "austin"
-  },
-  {
-    "bucket": 1800,
-    "count": 2310,
-    "year": 2024,
-    "city": "austin"
-  },
-  {
-    "bucket": 1980,
-    "count": 1971,
-    "year": 2024,
-    "city": "austin"
-  },
-  {
-    "bucket": 2160,
-    "count": 1887,
-    "year": 2024,
-    "city": "austin"
-  },
-  {
-    "bucket": 2340,
-    "count": 1788,
-    "year": 2024,
-    "city": "austin"
-  },
-  {
-    "bucket": 2520,
-    "count": 1571,
-    "year": 2024,
-    "city": "austin"
-  },
-  {
-    "bucket": 2700,
-    "count": 1565,
-    "year": 2024,
-    "city": "austin"
-  },
-  {
-    "bucket": 2880,
-    "count": 1432,
-    "year": 2024,
-    "city": "austin"
-  },
-  {
-    "bucket": 3060,
-    "count": 1292,
-    "year": 2024,
-    "city": "austin"
-  },
-  {
-    "bucket": 3240,
-    "count": 1179,
-    "year": 2024,
-    "city": "austin"
-  },
-  {
-    "bucket": 3420,
     "count": 982,
     "year": 2024,
     "city": "austin"
   },
   {
-    "bucket": 3600,
-    "count": 663,
+    "bucket": 1680,
+    "count": 884,
     "year": 2024,
     "city": "austin"
   },
   {
-    "bucket": 3780,
-    "count": 482,
+    "bucket": 1740,
+    "count": 847,
     "year": 2024,
     "city": "austin"
   },
   {
-    "bucket": 3960,
-    "count": 453,
+    "bucket": 1800,
+    "count": 808,
     "year": 2024,
     "city": "austin"
   },
   {
-    "bucket": 4140,
-    "count": 353,
+    "bucket": 1860,
+    "count": 750,
     "year": 2024,
     "city": "austin"
   },
   {
-    "bucket": 4320,
-    "count": 326,
+    "bucket": 1920,
+    "count": 752,
     "year": 2024,
     "city": "austin"
   },
   {
-    "bucket": 4500,
+    "bucket": 1980,
+    "count": 673,
+    "year": 2024,
+    "city": "austin"
+  },
+  {
+    "bucket": 2040,
+    "count": 678,
+    "year": 2024,
+    "city": "austin"
+  },
+  {
+    "bucket": 2100,
+    "count": 620,
+    "year": 2024,
+    "city": "austin"
+  },
+  {
+    "bucket": 2160,
+    "count": 642,
+    "year": 2024,
+    "city": "austin"
+  },
+  {
+    "bucket": 2220,
+    "count": 628,
+    "year": 2024,
+    "city": "austin"
+  },
+  {
+    "bucket": 2280,
+    "count": 617,
+    "year": 2024,
+    "city": "austin"
+  },
+  {
+    "bucket": 2340,
+    "count": 567,
+    "year": 2024,
+    "city": "austin"
+  },
+  {
+    "bucket": 2400,
+    "count": 606,
+    "year": 2024,
+    "city": "austin"
+  },
+  {
+    "bucket": 2460,
+    "count": 615,
+    "year": 2024,
+    "city": "austin"
+  },
+  {
+    "bucket": 2520,
+    "count": 527,
+    "year": 2024,
+    "city": "austin"
+  },
+  {
+    "bucket": 2580,
+    "count": 532,
+    "year": 2024,
+    "city": "austin"
+  },
+  {
+    "bucket": 2640,
+    "count": 512,
+    "year": 2024,
+    "city": "austin"
+  },
+  {
+    "bucket": 2700,
+    "count": 484,
+    "year": 2024,
+    "city": "austin"
+  },
+  {
+    "bucket": 2760,
+    "count": 567,
+    "year": 2024,
+    "city": "austin"
+  },
+  {
+    "bucket": 2820,
+    "count": 514,
+    "year": 2024,
+    "city": "austin"
+  },
+  {
+    "bucket": 2880,
+    "count": 506,
+    "year": 2024,
+    "city": "austin"
+  },
+  {
+    "bucket": 2940,
+    "count": 447,
+    "year": 2024,
+    "city": "austin"
+  },
+  {
+    "bucket": 3000,
+    "count": 479,
+    "year": 2024,
+    "city": "austin"
+  },
+  {
+    "bucket": 3060,
+    "count": 456,
+    "year": 2024,
+    "city": "austin"
+  },
+  {
+    "bucket": 3120,
+    "count": 418,
+    "year": 2024,
+    "city": "austin"
+  },
+  {
+    "bucket": 3180,
+    "count": 418,
+    "year": 2024,
+    "city": "austin"
+  },
+  {
+    "bucket": 3240,
+    "count": 398,
+    "year": 2024,
+    "city": "austin"
+  },
+  {
+    "bucket": 3300,
+    "count": 400,
+    "year": 2024,
+    "city": "austin"
+  },
+  {
+    "bucket": 3360,
+    "count": 381,
+    "year": 2024,
+    "city": "austin"
+  },
+  {
+    "bucket": 3420,
+    "count": 388,
+    "year": 2024,
+    "city": "austin"
+  },
+  {
+    "bucket": 3480,
+    "count": 320,
+    "year": 2024,
+    "city": "austin"
+  },
+  {
+    "bucket": 3540,
     "count": 274,
     "year": 2024,
     "city": "austin"
   },
   {
-    "bucket": 4680,
-    "count": 233,
+    "bucket": 3600,
+    "count": 277,
     "year": 2024,
     "city": "austin"
   },
   {
-    "bucket": 4860,
-    "count": 217,
+    "bucket": 3660,
+    "count": 177,
     "year": 2024,
     "city": "austin"
   },
   {
-    "bucket": 5040,
-    "count": 186,
+    "bucket": 3720,
+    "count": 209,
     "year": 2024,
     "city": "austin"
   },
   {
-    "bucket": 5220,
-    "count": 198,
+    "bucket": 3780,
+    "count": 174,
     "year": 2024,
     "city": "austin"
   },
   {
-    "bucket": 5400,
-    "count": 165,
+    "bucket": 3840,
+    "count": 127,
     "year": 2024,
     "city": "austin"
   },
   {
-    "bucket": 5580,
-    "count": 173,
+    "bucket": 3900,
+    "count": 181,
     "year": 2024,
     "city": "austin"
   },
   {
-    "bucket": 5760,
-    "count": 163,
+    "bucket": 3960,
+    "count": 168,
     "year": 2024,
     "city": "austin"
   },
   {
-    "bucket": 5940,
-    "count": 157,
+    "bucket": 4020,
+    "count": 164,
     "year": 2024,
     "city": "austin"
   },
   {
-    "bucket": 6120,
-    "count": 145,
+    "bucket": 4080,
+    "count": 121,
     "year": 2024,
     "city": "austin"
   },
   {
-    "bucket": 6300,
-    "count": 139,
+    "bucket": 4140,
+    "count": 140,
     "year": 2024,
     "city": "austin"
   },
   {
-    "bucket": 6480,
-    "count": 124,
+    "bucket": 4200,
+    "count": 125,
     "year": 2024,
     "city": "austin"
   },
   {
-    "bucket": 6660,
+    "bucket": 4260,
+    "count": 88,
+    "year": 2024,
+    "city": "austin"
+  },
+  {
+    "bucket": 4320,
+    "count": 92,
+    "year": 2024,
+    "city": "austin"
+  },
+  {
+    "bucket": 4380,
+    "count": 122,
+    "year": 2024,
+    "city": "austin"
+  },
+  {
+    "bucket": 4440,
     "count": 112,
     "year": 2024,
     "city": "austin"
   },
   {
-    "bucket": 6840,
+    "bucket": 4500,
+    "count": 91,
+    "year": 2024,
+    "city": "austin"
+  },
+  {
+    "bucket": 4560,
+    "count": 94,
+    "year": 2024,
+    "city": "austin"
+  },
+  {
+    "bucket": 4620,
+    "count": 89,
+    "year": 2024,
+    "city": "austin"
+  },
+  {
+    "bucket": 4680,
     "count": 75,
     "year": 2024,
     "city": "austin"
   },
   {
+    "bucket": 4740,
+    "count": 90,
+    "year": 2024,
+    "city": "austin"
+  },
+  {
+    "bucket": 4800,
+    "count": 68,
+    "year": 2024,
+    "city": "austin"
+  },
+  {
+    "bucket": 4860,
+    "count": 75,
+    "year": 2024,
+    "city": "austin"
+  },
+  {
+    "bucket": 4920,
+    "count": 72,
+    "year": 2024,
+    "city": "austin"
+  },
+  {
+    "bucket": 4980,
+    "count": 70,
+    "year": 2024,
+    "city": "austin"
+  },
+  {
+    "bucket": 5040,
+    "count": 64,
+    "year": 2024,
+    "city": "austin"
+  },
+  {
+    "bucket": 5100,
+    "count": 55,
+    "year": 2024,
+    "city": "austin"
+  },
+  {
+    "bucket": 5160,
+    "count": 67,
+    "year": 2024,
+    "city": "austin"
+  },
+  {
+    "bucket": 5220,
+    "count": 70,
+    "year": 2024,
+    "city": "austin"
+  },
+  {
+    "bucket": 5280,
+    "count": 67,
+    "year": 2024,
+    "city": "austin"
+  },
+  {
+    "bucket": 5340,
+    "count": 61,
+    "year": 2024,
+    "city": "austin"
+  },
+  {
+    "bucket": 5400,
+    "count": 54,
+    "year": 2024,
+    "city": "austin"
+  },
+  {
+    "bucket": 5460,
+    "count": 54,
+    "year": 2024,
+    "city": "austin"
+  },
+  {
+    "bucket": 5520,
+    "count": 57,
+    "year": 2024,
+    "city": "austin"
+  },
+  {
+    "bucket": 5580,
+    "count": 66,
+    "year": 2024,
+    "city": "austin"
+  },
+  {
+    "bucket": 5640,
+    "count": 59,
+    "year": 2024,
+    "city": "austin"
+  },
+  {
+    "bucket": 5700,
+    "count": 48,
+    "year": 2024,
+    "city": "austin"
+  },
+  {
+    "bucket": 5760,
+    "count": 61,
+    "year": 2024,
+    "city": "austin"
+  },
+  {
+    "bucket": 5820,
+    "count": 47,
+    "year": 2024,
+    "city": "austin"
+  },
+  {
+    "bucket": 5880,
+    "count": 55,
+    "year": 2024,
+    "city": "austin"
+  },
+  {
+    "bucket": 5940,
+    "count": 59,
+    "year": 2024,
+    "city": "austin"
+  },
+  {
+    "bucket": 6000,
+    "count": 43,
+    "year": 2024,
+    "city": "austin"
+  },
+  {
+    "bucket": 6060,
+    "count": 55,
+    "year": 2024,
+    "city": "austin"
+  },
+  {
+    "bucket": 6120,
+    "count": 41,
+    "year": 2024,
+    "city": "austin"
+  },
+  {
+    "bucket": 6180,
+    "count": 46,
+    "year": 2024,
+    "city": "austin"
+  },
+  {
+    "bucket": 6240,
+    "count": 58,
+    "year": 2024,
+    "city": "austin"
+  },
+  {
+    "bucket": 6300,
+    "count": 48,
+    "year": 2024,
+    "city": "austin"
+  },
+  {
+    "bucket": 6360,
+    "count": 49,
+    "year": 2024,
+    "city": "austin"
+  },
+  {
+    "bucket": 6420,
+    "count": 42,
+    "year": 2024,
+    "city": "austin"
+  },
+  {
+    "bucket": 6480,
+    "count": 36,
+    "year": 2024,
+    "city": "austin"
+  },
+  {
+    "bucket": 6540,
+    "count": 47,
+    "year": 2024,
+    "city": "austin"
+  },
+  {
+    "bucket": 6600,
+    "count": 41,
+    "year": 2024,
+    "city": "austin"
+  },
+  {
+    "bucket": 6660,
+    "count": 36,
+    "year": 2024,
+    "city": "austin"
+  },
+  {
+    "bucket": 6720,
+    "count": 33,
+    "year": 2024,
+    "city": "austin"
+  },
+  {
+    "bucket": 6780,
+    "count": 43,
+    "year": 2024,
+    "city": "austin"
+  },
+  {
+    "bucket": 6840,
+    "count": 29,
+    "year": 2024,
+    "city": "austin"
+  },
+  {
+    "bucket": 6900,
+    "count": 29,
+    "year": 2024,
+    "city": "austin"
+  },
+  {
+    "bucket": 6960,
+    "count": 17,
+    "year": 2024,
+    "city": "austin"
+  },
+  {
     "bucket": 7020,
-    "count": 82,
+    "count": 28,
+    "year": 2024,
+    "city": "austin"
+  },
+  {
+    "bucket": 7080,
+    "count": 21,
+    "year": 2024,
+    "city": "austin"
+  },
+  {
+    "bucket": 7140,
+    "count": 33,
     "year": 2024,
     "city": "austin"
   },
