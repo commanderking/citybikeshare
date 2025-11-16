@@ -19,8 +19,8 @@ from src.citybikeshare.analysis.merge_summaries import merge_city_summaries
 from src.citybikeshare.analysis.generate_duration_buckets import (
     generate_duration_buckets,
 )
-
 from src.citybikeshare.analysis.merge_duration_buckets import merge_duration_buckets
+from src.citybikeshare.etl.inspect import analyze_headers
 
 app = typer.Typer(help="Unified CLI for the CityBikeshare ETL pipeline")
 
@@ -80,6 +80,17 @@ def clean(
     context = build_context(city)
     typer.echo(f"🧼 Cleaning data for {city}")
     clean_city_data(context)
+    typer.secho(f"✅ Cleaning complete for {city}", fg=typer.colors.GREEN)
+
+
+@app.command()
+def inspect(
+    city: str = typer.Argument(..., help="City name (e.g. montreal, taipei, boston)"),
+):
+    """Inspect csv files for headers"""
+    context = build_context(city)
+    typer.echo(f"🧼 Inspecting {city} files for headers")
+    analyze_headers(context)
     typer.secho(f"✅ Cleaning complete for {city}", fg=typer.colors.GREEN)
 
 

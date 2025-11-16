@@ -12,6 +12,7 @@ DTYPE_MAP = {
     "Date": pl.Date,
     "Datetime": pl.Datetime,
     "Boolean": pl.Boolean,
+    "String": pl.String,
 }
 
 
