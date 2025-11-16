@@ -11,7 +11,8 @@ file_matcher:
 renamed_columns:
   # Commonized system data columns (used by newer Divvy datasets)
   ride_id: id
-  rideable_type: rideable_type
+  bikeid: bike_id
+  rideable_type: bike_type
   started_at: start_time
   ended_at: end_time
   start_station_name: start_station_name
@@ -31,8 +32,9 @@ renamed_columns:
   from_station_name: start_station_name
   to_station_id: end_station_id
   to_station_name: end_station_name
-  usertype: usertype
+  usertype: membership_type
   birth year: birth_year
+  birthyear: birth_year
   gender: gender
 
   # Oddball format (2018_Q1–2019_Q2)
@@ -42,9 +44,24 @@ renamed_columns:
   "03 - Rental Start Station Name": start_station_name
   "02 - Rental End Station ID": end_station_id
   "02 - Rental End Station Name": end_station_name
-  "User Type": usertype
+  "User Type": membership_type
   "Member Gender": gender
   "05 - Member Details Member Birthday Year": birth_year
+
+  "User Type": membership_type
+  "member_casual": membership_type
+  "Member Gender": gender
+
+
+final_columns:
+  - start_time
+  - end_time
+  - start_station_name
+  - end_station_name
+  - membership_type
+  - gender
+  - birth_year
+
 
 date_formats:
   - "%Y-%m-%d %H:%M:%S"
@@ -54,8 +71,13 @@ date_formats:
 
 read_csv_options:
   encoding: utf8-lossy
+  schema_overrides: 
+    gender: String 
+
+
 
 processing_pipeline:
   - rename_columns
   - convert_to_datetime
   - select_final_columns
+  - cast_gender_birthyear
