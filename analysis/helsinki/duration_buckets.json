@@ -1,5 +1,11 @@
 [
   {
+    "bucket": 0,
+    "count": 4227,
+    "year": 2016,
+    "city": "helsinki"
+  },
+  {
     "bucket": 60,
     "count": 6392,
     "year": 2016,
@@ -721,7 +727,7 @@
   },
   {
     "bucket": 0,
-    "count": 12115,
+    "count": 26933,
     "year": 2017,
     "city": "helsinki"
   },
@@ -1447,7 +1453,7 @@
   },
   {
     "bucket": 0,
-    "count": 110821,
+    "count": 148526,
     "year": 2018,
     "city": "helsinki"
   },
@@ -2173,7 +2179,7 @@
   },
   {
     "bucket": 0,
-    "count": 106556,
+    "count": 106557,
     "year": 2019,
     "city": "helsinki"
   },
@@ -3625,7 +3631,7 @@
   },
   {
     "bucket": 0,
-    "count": 79056,
+    "count": 79057,
     "year": 2021,
     "city": "helsinki"
   },
@@ -4351,7 +4357,7 @@
   },
   {
     "bucket": 0,
-    "count": 56553,
+    "count": 56585,
     "year": 2022,
     "city": "helsinki"
   },
@@ -5077,7 +5083,7 @@
   },
   {
     "bucket": 0,
-    "count": 56799,
+    "count": 56802,
     "year": 2023,
     "city": "helsinki"
   },
@@ -5803,7 +5809,7 @@
   },
   {
     "bucket": 0,
-    "count": 62983,
+    "count": 62987,
     "year": 2024,
     "city": "helsinki"
   },

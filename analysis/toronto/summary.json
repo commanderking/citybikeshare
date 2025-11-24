@@ -1,27 +1,17 @@
 [
   {
-    "year": null,
-    "trip_count": 249,
-    "duration_median": null,
-    "duration_5_percent": null,
-    "duration_q1": null,
-    "duration_q3": null,
-    "duration_95_percent": null,
-    "null_rows": 1245
-  },
-  {
     "year": 2017,
-    "trip_count": 1492369,
+    "trip_count": 1491951,
     "duration_median": 660.0,
     "duration_5_percent": 180.0,
     "duration_q1": 420.0,
     "duration_q3": 1020.0,
     "duration_95_percent": 2100.0,
-    "null_rows": 2
+    "null_rows": 0
   },
   {
     "year": 2018,
-    "trip_count": 1922955,
+    "trip_count": 1922951,
     "duration_median": 660.0,
     "duration_5_percent": 240.0,
     "duration_q1": 420.0,
@@ -31,7 +21,7 @@
   },
   {
     "year": 2019,
-    "trip_count": 2439517,
+    "trip_count": 2439511,
     "duration_median": 660.0,
     "duration_5_percent": 180.0,
     "duration_q1": 420.0,
@@ -41,7 +31,7 @@
   },
   {
     "year": 2020,
-    "trip_count": 2911059,
+    "trip_count": 2911041,
     "duration_median": 840.0,
     "duration_5_percent": 240.0,
     "duration_q1": 480.0,
@@ -51,7 +41,7 @@
   },
   {
     "year": 2021,
-    "trip_count": 3575182,
+    "trip_count": 3575143,
     "duration_median": 780.0,
     "duration_5_percent": 180.0,
     "duration_q1": 480.0,
@@ -71,7 +61,7 @@
   },
   {
     "year": 2023,
-    "trip_count": 5713141,
+    "trip_count": 5713092,
     "duration_median": 660.0,
     "duration_5_percent": 180.0,
     "duration_q1": 420.0,

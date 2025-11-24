@@ -2881,7 +2881,7 @@
   },
   {
     "bucket": 0,
-    "count": 2360,
+    "count": 2400,
     "year": 2019,
     "city": "philadelphia"
   },
@@ -3606,6 +3606,12 @@
     "city": "philadelphia"
   },
   {
+    "bucket": 0,
+    "count": 248,
+    "year": 2020,
+    "city": "philadelphia"
+  },
+  {
     "bucket": 60,
     "count": 17678,
     "year": 2020,
@@ -4323,6 +4329,12 @@
     "bucket": 7200,
     "count": 15139,
     "year": 2020,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 0,
+    "count": 300,
+    "year": 2021,
     "city": "philadelphia"
   },
   {
@@ -5046,6 +5058,12 @@
     "city": "philadelphia"
   },
   {
+    "bucket": 0,
+    "count": 277,
+    "year": 2022,
+    "city": "philadelphia"
+  },
+  {
     "bucket": 60,
     "count": 24760,
     "year": 2022,
@@ -5763,6 +5781,12 @@
     "bucket": 7200,
     "count": 6147,
     "year": 2022,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 0,
+    "count": 337,
+    "year": 2023,
     "city": "philadelphia"
   },
   {
@@ -6486,6 +6510,12 @@
     "city": "philadelphia"
   },
   {
+    "bucket": 0,
+    "count": 460,
+    "year": 2024,
+    "city": "philadelphia"
+  },
+  {
     "bucket": 60,
     "count": 32785,
     "year": 2024,
@@ -7203,6 +7233,12 @@
     "bucket": 7200,
     "count": 7273,
     "year": 2024,
+    "city": "philadelphia"
+  },
+  {
+    "bucket": 0,
+    "count": 382,
+    "year": 2025,
     "city": "philadelphia"
   },
   {

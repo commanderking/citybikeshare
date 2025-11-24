@@ -1,15 +1,5 @@
 [
   {
-    "year": null,
-    "trip_count": 48,
-    "duration_median": null,
-    "duration_5_percent": null,
-    "duration_q1": null,
-    "duration_q3": null,
-    "duration_95_percent": null,
-    "null_rows": 336
-  },
-  {
     "year": 2019,
     "trip_count": 990798,
     "duration_median": 846.0,
