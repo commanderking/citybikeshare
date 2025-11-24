@@ -47,13 +47,14 @@ renamed_columns:
 
 
 final_columns: 
-- start_time
-- end_time
-- start_station_name
-- end_station_name
-- membership_type
-- gender
-- birth_year
+  - start_time
+  - end_time
+  - start_station_name
+  - end_station_name
+  - membership_type
+  - gender
+  - birth_year
+  - bike_type
 
 date_formats:
   - "%Y-%m-%d %H:%M:%S"
@@ -62,3 +63,4 @@ processing_pipeline:
   - rename_columns
   - convert_to_datetime
   - select_final_columns
+  - cast_optional_columns

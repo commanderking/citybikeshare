@@ -18,8 +18,18 @@ renamed_columns:
   bike_id: bike_id
   plan_duration: plan_duration
   trip_route_category: trip_route_category
-  passholder_type: passholder_type
+  passholder_type: membership_type
   bike_type: bike_type
+
+final_columns: 
+  - start_time
+  - end_time
+  - start_station_name
+  - end_station_name
+  - membership_type
+  - bike_type
+
+
 date_formats:
   - "%Y-%m-%d %H:%M:%S"
   - "%m/%d/%Y %H:%M"
@@ -27,5 +37,6 @@ processing_pipeline:
   - rename_columns
   - process_bicycle_transit_stations
   - convert_to_datetime
-  - select_final_columns
   - offset_two_digit_years
+  - select_final_columns
+  - cast_optional_columns

@@ -8,7 +8,7 @@ file_matcher:
   - capitalbikeshare-tripdata
 renamed_columns:
   ride_id: id
-  rideable_type: rideable_type
+  rideable_type: bike_type
   started_at: start_time
   ended_at: end_time
   start_station_name: start_station_name
@@ -19,7 +19,7 @@ renamed_columns:
   start_lng: start_station_longitude
   end_lat: end_station_latitude
   end_lng: end_station_longitude
-  member_casual: member_casual
+  member_casual: membership_type
 
   Duration: duration
   Start date: start_time
@@ -28,11 +28,21 @@ renamed_columns:
   Start station: start_station_name
   End station number: end_station_id
   End station: end_station_name
-  Bike number: bike_number
-  Member type: member_type
+  Bike number: bike_id
+  Member type: membership_type
+
+final_columns: 
+  - start_time
+  - end_time
+  - start_station_name
+  - end_station_name
+  - membership_type
+  - bike_type
+
 date_formats:
   - "%Y-%m-%d %H:%M:%S"
 processing_pipeline:
   - rename_columns
   - convert_to_datetime
   - select_final_columns
+  - cast_optional_columns

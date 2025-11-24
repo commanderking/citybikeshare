@@ -22,16 +22,31 @@ renamed_columns:
   End Station Name: end_station_name
   Start Station Name: start_station_name
 
+  Bike Id: bike_id
+  Bike model: bike_type
+
+
 date_formats:
   - "%d/%m/%Y %H:%M"
   - "%Y-%m-%d %H:%M"
 
+final_columns:
+  - start_time
+  - end_time
+  - start_station_name
+  - end_station_name
+  - bike_id
+  - bike_type
+
 read_csv_options:
+  ## Encoding may actually be: windows-1252 (but increases inspect and transform time greatly)
   encoding: "utf8-lossy"
 processing_pipeline:
   # Some files like 9a Journey Data Extract 17Aug14-31Aug14.csv, 13b. Journey Data Extract 22Dec14-03Jan15.csv contain rows with no data
   - filter_null_rows
   - rename_columns
   - select_final_columns
-  - convert_to_datetime
+  - convert_to_datetime 
+  - cast_optional_columns
+
 

@@ -97,10 +97,14 @@ def select_final_columns(df, final_columns):
         column for column in final_columns if column not in current_headers
     ]
 
+    print(current_headers)
+
     add_headers = [pl.lit(None).alias(col) for col in missing_headers]
 
     if add_headers:
-        print(f"⚠️ file does not headers {missing_headers}. Adding with default to null")
+        print(
+            f"⚠️ file does not have headers {missing_headers}. Adding with default to null"
+        )
         df = df.with_columns(add_headers)
     return df.select(final_columns)
 
@@ -423,15 +427,24 @@ def clean_header_quotes(df: pl.DataFrame) -> pl.DataFrame:
 
 ## In Lyft bikeshares, gender and birthyears are often fully null in later years
 ## To avoid polars reading these as a column of only nulls, cast to Utf-8
-def cast_gender_birthyear(df: pl.LazyFrame) -> pl.LazyFrame:
+def cast_optional_columns(df: pl.LazyFrame) -> pl.LazyFrame:
     headers = df.collect_schema().names()
     exprs = []
+
+    if "bike_id" in headers:
+        exprs.append(pl.col("bike_id").cast(pl.Utf8))
 
     if "gender" in headers:
         exprs.append(pl.col("gender").cast(pl.Utf8))
 
     if "birth_year" in headers:
         exprs.append(pl.col("birth_year").cast(pl.Utf8))
+
+    if "bike_type" in headers:
+        exprs.append(pl.col("bike_type").cast(pl.Utf8))
+
+    if "membership_type" in headers:
+        exprs.append(pl.col("membership_type").cast(pl.Utf8))
 
     if exprs:
         df = df.with_columns(exprs)
@@ -481,5 +494,5 @@ PROCESSING_FUNCTIONS = {
     context: join_mexico_city_station_names(df, config, context),
     "clean_datetimes": lambda df, config, context: clean_datetimes(df),
     "combine_datetimes": lambda df, config, context: combine_datetimes(df),
-    "cast_gender_birthyear": lambda df, config, context: cast_gender_birthyear(df),
+    "cast_optional_columns": lambda df, config, context: cast_optional_columns(df),
 }

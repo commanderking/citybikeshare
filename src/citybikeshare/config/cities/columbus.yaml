@@ -8,7 +8,7 @@ s3_bucket: "s3://cogo-sys-data"
 renamed_columns:
   # Commonized system data columns
   ride_id: id
-  rideable_type: rideable_type
+  rideable_type: bike_type
   started_at: start_time
   ended_at: end_time
   start_station_name: start_station_name
@@ -19,7 +19,7 @@ renamed_columns:
   start_lng: start_station_longitude
   end_lat: end_station_latitude
   end_lng: end_station_longitude
-  member_casual: member_casual
+  member_casual: membership_type
 
   # Columbus format 1
   trip_id: id
@@ -33,7 +33,7 @@ renamed_columns:
   to_station_location: end_station_location
   to_station_id: end_station_id
   to_station_name: end_station_name
-  usertype: usertype
+  usertype: membership_type
   gender: gender
   birthyear: birth_year
 
@@ -49,9 +49,22 @@ renamed_columns:
   "Stop Station Lat": end_station_latitude
   "Stop Station Long": end_station_longitude
   "Bike ID": bike_id
-  "User Type": usertype
+  "User Type": membership_type
   Gender: gender
+  gender: gender,
+
   "Year of Birth": birth_year
+
+final_columns:
+  - start_time
+  - end_time
+  - start_station_name
+  - end_station_name
+  - membership_type
+  - gender
+  - birth_year
+  - bike_type
+
 
 date_formats:
   - "%Y-%m-%d %H:%M:%S"

@@ -61,6 +61,7 @@ final_columns:
   - membership_type
   - gender
   - birth_year
+  - bike_type
 
 
 date_formats:
@@ -80,4 +81,4 @@ processing_pipeline:
   - rename_columns
   - convert_to_datetime
   - select_final_columns
-  - cast_gender_birthyear
+  - cast_optional_columns

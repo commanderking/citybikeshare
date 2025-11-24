@@ -89,9 +89,10 @@ def inspect(
 ):
     """Inspect csv files for headers"""
     context = build_context(city)
+
     typer.echo(f"🧼 Inspecting {city} files for headers")
     analyze_headers(context)
-    typer.secho(f"✅ Cleaning complete for {city}", fg=typer.colors.GREEN)
+    typer.secho(f"✅ Finished inspecting headers for {city}", fg=typer.colors.GREEN)
 
 
 @app.command()
