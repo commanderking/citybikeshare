@@ -1,7 +1,7 @@
 [
   {
     "bucket": 0,
-    "count": 7313,
+    "count": 20382,
     "year": 2017,
     "city": "toronto"
   },
@@ -1446,6 +1446,12 @@
     "city": "toronto"
   },
   {
+    "bucket": 0,
+    "count": 11303,
+    "year": 2019,
+    "city": "toronto"
+  },
+  {
     "bucket": 60,
     "count": 13808,
     "year": 2019,
@@ -2163,6 +2169,12 @@
     "bucket": 7200,
     "count": 15942,
     "year": 2019,
+    "city": "toronto"
+  },
+  {
+    "bucket": 0,
+    "count": 4794,
+    "year": 2020,
     "city": "toronto"
   },
   {
@@ -2886,6 +2898,12 @@
     "city": "toronto"
   },
   {
+    "bucket": 0,
+    "count": 10323,
+    "year": 2021,
+    "city": "toronto"
+  },
+  {
     "bucket": 60,
     "count": 16398,
     "year": 2021,
@@ -3603,6 +3621,12 @@
     "bucket": 7200,
     "count": 23837,
     "year": 2021,
+    "city": "toronto"
+  },
+  {
+    "bucket": 0,
+    "count": 8180,
+    "year": 2022,
     "city": "toronto"
   },
   {
@@ -4326,6 +4350,12 @@
     "city": "toronto"
   },
   {
+    "bucket": 0,
+    "count": 10354,
+    "year": 2023,
+    "city": "toronto"
+  },
+  {
     "bucket": 60,
     "count": 26815,
     "year": 2023,
@@ -5043,6 +5073,12 @@
     "bucket": 7200,
     "count": 32274,
     "year": 2023,
+    "city": "toronto"
+  },
+  {
+    "bucket": 0,
+    "count": 5880,
+    "year": 2024,
     "city": "toronto"
   },
   {

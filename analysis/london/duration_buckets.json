@@ -1,5 +1,11 @@
 [
   {
+    "bucket": 0,
+    "count": 9156,
+    "year": 2012,
+    "city": "london"
+  },
+  {
     "bucket": 60,
     "count": 16719,
     "year": 2012,
@@ -717,6 +723,12 @@
     "bucket": 7200,
     "count": 41304,
     "year": 2012,
+    "city": "london"
+  },
+  {
+    "bucket": 0,
+    "count": 6847,
+    "year": 2013,
     "city": "london"
   },
   {
@@ -1440,6 +1452,12 @@
     "city": "london"
   },
   {
+    "bucket": 0,
+    "count": 30972,
+    "year": 2014,
+    "city": "london"
+  },
+  {
     "bucket": 60,
     "count": 17834,
     "year": 2014,
@@ -2157,6 +2175,12 @@
     "bucket": 7200,
     "count": 121362,
     "year": 2014,
+    "city": "london"
+  },
+  {
+    "bucket": 0,
+    "count": 37000,
+    "year": 2015,
     "city": "london"
   },
   {
@@ -2880,6 +2904,12 @@
     "city": "london"
   },
   {
+    "bucket": 0,
+    "count": 6159,
+    "year": 2016,
+    "city": "london"
+  },
+  {
     "bucket": 60,
     "count": 20859,
     "year": 2016,
@@ -3597,6 +3627,12 @@
     "bucket": 7200,
     "count": 120190,
     "year": 2016,
+    "city": "london"
+  },
+  {
+    "bucket": 0,
+    "count": 8130,
+    "year": 2017,
     "city": "london"
   },
   {
@@ -7200,6 +7236,12 @@
     "city": "london"
   },
   {
+    "bucket": 0,
+    "count": 10431,
+    "year": 2022,
+    "city": "london"
+  },
+  {
     "bucket": 60,
     "count": 59581,
     "year": 2022,
@@ -7917,6 +7959,12 @@
     "bucket": 7200,
     "count": 106651,
     "year": 2022,
+    "city": "london"
+  },
+  {
+    "bucket": 0,
+    "count": 34455,
+    "year": 2023,
     "city": "london"
   },
   {
@@ -8640,6 +8688,12 @@
     "city": "london"
   },
   {
+    "bucket": 0,
+    "count": 43210,
+    "year": 2024,
+    "city": "london"
+  },
+  {
     "bucket": 60,
     "count": 58929,
     "year": 2024,
@@ -9357,6 +9411,12 @@
     "bucket": 7200,
     "count": 53300,
     "year": 2024,
+    "city": "london"
+  },
+  {
+    "bucket": 0,
+    "count": 17161,
+    "year": 2025,
     "city": "london"
   },
   {

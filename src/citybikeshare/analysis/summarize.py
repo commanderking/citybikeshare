@@ -22,6 +22,13 @@ def summarize_city(context: PipelineContext):
             f"{context.city}: missing 'start_time' column in transformed data"
         )
 
+    # These are the columns we expect for every iteration of the data
+    columns_for_null_check = [
+        "start_time",
+        "end_time",
+        "start_station_name",
+        "end_station_name",
+    ]
     # Determine duration column
     duration_column = "duration"
     summary = (
@@ -37,10 +44,7 @@ def summarize_city(context: PipelineContext):
                 pl.col(duration_column).quantile(0.95).alias("duration_95_percent"),
                 # Counts if null is any column of row
                 pl.sum_horizontal(
-                    [
-                        pl.col(c).is_null().cast(pl.Int64)
-                        for c in lf.collect_schema().names()
-                    ]
+                    [pl.col(c).is_null().cast(pl.Int64) for c in columns_for_null_check]
                 )
                 .sum()
                 .alias("null_rows"),

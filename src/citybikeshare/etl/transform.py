@@ -91,7 +91,9 @@ def partition_parquet(context: PipelineContext):
     output_path = context.transformed_directory
 
     print(f"Scanning all files in {parquet_directory}")
-    lf = pl.scan_parquet(parquet_directory / "*.parquet").with_columns(
+    lf = pl.scan_parquet(
+        parquet_directory / "*.parquet", extra_columns="ignore"
+    ).with_columns(
         [
             pl.col("start_time").dt.year().alias("year"),
             pl.col("start_time").dt.month().alias("month"),

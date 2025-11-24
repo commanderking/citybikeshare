@@ -23,6 +23,8 @@ def merge_city_summaries(analysis_folder):
 
     output_path = analysis_folder / "summary_all_cities.json"
     with open(output_path, "w") as f:
-        json.dump(all_records, f, indent=2)
+        # Need to ensure_ascii false because polars will read in weird characters
+        # and need to map the characters to proper header
+        json.dump(all_records, f, indent=2, ensure_ascii=False)
 
     print(f"✅ Merged {len(all_records)} records into {output_path}")

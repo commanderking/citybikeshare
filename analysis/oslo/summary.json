@@ -21,12 +21,12 @@
   },
   {
     "year": 2018,
-    "trip_count": 647586,
+    "trip_count": 647610,
     "duration_median": 492.0,
     "duration_5_percent": 45.0,
     "duration_q1": 288.0,
     "duration_q3": 831.0,
-    "duration_95_percent": 2087.0,
+    "duration_95_percent": 2086.0,
     "null_rows": 0
   },
   {

@@ -35,6 +35,16 @@ renamed_columns:
   Hora Arribo: ending_time
   Hora_Retiro_duplicated_0: ending_time
 
+final_columns:
+  - start_time
+  - end_time
+  - start_station_name
+  - end_station_name
+  - bike_id
+  - age
+  - gender
+
+
 date_formats:
   - "%m-%d-%Y"
   - "%d/%m/%Y"

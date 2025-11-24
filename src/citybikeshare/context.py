@@ -34,7 +34,7 @@ class PipelineContext:
 
     @property
     def transformed_directory(self) -> Path:
-        """Path to the city's output folder."""
+        """Path to the city's transformed data folder (parquet)."""
         return self.transformed_root / self.city
 
     @property

@@ -8,6 +8,7 @@ s3_sync_options:  --exclude 'JC-*'
 file_matcher:
   - citibike-tripdata
   - citbike-tripdata
+  
 excluded_filenames:
   - "2018-citibike-tripdata/201801-citibike-tripdata.csv"
   - "2018-citibike-tripdata/201802-citibike-tripdata.csv"
@@ -30,9 +31,10 @@ excluded_filenames:
   - "201310-citibike-tripdata.csv"
   - "201311-citibike-tripdata.csv"
   - "201312-citibike-tripdata.csv"
+  
 renamed_columns:
   ride_id: id
-  rideable_type: rideable_type
+  rideable_type: bike_type
   started_at: start_time
   ended_at: end_time
   start_station_name: start_station_name
@@ -43,7 +45,7 @@ renamed_columns:
   start_lng: start_station_longitude
   end_lat: end_station_latitude
   end_lng: end_station_longitude
-  member_casual: member_casual
+  member_casual: membership_type
 
   starttime: start_time
   stoptime: end_time
@@ -56,7 +58,7 @@ renamed_columns:
   end station latitude: end_station_latitude
   end station longitude: end_station_longitude
   bikeid: bike_id
-  usertype: usertype
+  usertype: membership_type
   birth year: birth_year
   Gender: gender
   postal code: postal_code
@@ -73,9 +75,21 @@ renamed_columns:
   End Station Latitude: end_station_latitude
   End Station Longitude: end_station_longitude
   Bike ID: bike_id
-  User Type: usertype
+  User Type: membership_type
   Birth Year: birth_year
   gender: gender
+
+final_columns: 
+  - start_time
+  - end_time
+  - start_station_name
+  - end_station_name
+  - membership_type
+  - gender
+  - birth_year
+  - bike_type
+
+
 date_formats:
   - "%Y-%m-%d %H:%M:%S"
   - "%m/%d/%Y %H:%M:%S"
@@ -84,3 +98,4 @@ processing_pipeline:
   - rename_columns
   - convert_to_datetime
   - select_final_columns
+  - cast_optional_columns

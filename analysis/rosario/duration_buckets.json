@@ -1453,7 +1453,7 @@
   },
   {
     "bucket": 0,
-    "count": 24,
+    "count": 28,
     "year": 2021,
     "city": "rosario"
   },
@@ -3627,6 +3627,12 @@
     "bucket": 7200,
     "count": 10594,
     "year": 2023,
+    "city": "rosario"
+  },
+  {
+    "bucket": 0,
+    "count": 3,
+    "year": 2024,
     "city": "rosario"
   },
   {
