@@ -1,11 +1,4 @@
 import os
-import definitions
-
-
-def get_analysis_directory():
-    path = definitions.ANALYSIS_DIR
-    path.mkdir(parents=True, exist_ok=True)
-    return path
 
 
 def get_csv_files(directory):

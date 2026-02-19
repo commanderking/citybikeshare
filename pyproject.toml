@@ -8,7 +8,7 @@ readme = "README.md"
 homepage = "https://github.com/commanderking/citybikeshare"
 repository = "https://github.com/commanderking/citybikeshare"
 keywords = ["bikeshare"]
-packages = [{ include = "src/citybikeshare" }]
+packages = [{ include = "citybikeshare", from = "src" }]
 
 [tool.poetry.dependencies]
 python = ">=3.9,<3.13"
@@ -37,7 +37,7 @@ mypy = "^1.11.2"
 types-requests = "^2.32.0.20241016"
 
 [tool.poetry.scripts]
-citybikeshare = "src.citybikeshare.cli.main:app"
+citybikeshare = "citybikeshare.cli.main:app"
 
 
 [build-system]

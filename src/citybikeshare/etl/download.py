@@ -6,8 +6,8 @@ import importlib
 import subprocess
 from pathlib import Path
 from typing import Optional
-from src.citybikeshare.config.loader import load_city_config
-from src.citybikeshare.context import PipelineContext
+from citybikeshare.config.loader import load_city_config
+from citybikeshare.context import PipelineContext
 
 
 def download_city_data(
@@ -32,7 +32,7 @@ def download_city_data(
     # --------------------------------------------------
     try:
         custom_module = importlib.import_module(
-            f"src.citybikeshare.etl.custom_downloaders.{name}"
+            f"citybikeshare.etl.custom_downloaders.{name}"
         )
         if hasattr(custom_module, "download"):
             custom_module.download(config, context)

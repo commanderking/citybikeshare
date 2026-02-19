@@ -2,10 +2,10 @@ import os
 import json
 from playwright.sync_api import sync_playwright
 import requests
-from src.citybikeshare.etl.custom_downloaders.utils.norway_cities import (
+from citybikeshare.etl.custom_downloaders.utils.norway_cities import (
     click_buttons_to_download,
 )
-from src.citybikeshare.context import PipelineContext
+from citybikeshare.context import PipelineContext
 
 
 CITY = "oslo"

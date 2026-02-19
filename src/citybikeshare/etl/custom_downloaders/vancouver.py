@@ -1,8 +1,8 @@
 from playwright.sync_api import sync_playwright
-from src.citybikeshare.etl.custom_downloaders.utils.download_helpers import (
+from citybikeshare.etl.custom_downloaders.utils.download_helpers import (
     download_if_new_data,
 )
-from src.citybikeshare.context import PipelineContext
+from citybikeshare.context import PipelineContext
 
 
 def run_get_exports(playwright, url, context: PipelineContext):

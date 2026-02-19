@@ -1,4 +1,4 @@
-from src.citybikeshare.etl.custom_downloaders.utils.bicycle_transit_systems import (
+from citybikeshare.etl.custom_downloaders.utils.bicycle_transit_systems import (
     download_files,
 )
 

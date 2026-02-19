@@ -14,8 +14,8 @@ from pathlib import Path
 from typing import List
 import tempfile
 import polars as pl
-from src.citybikeshare.context import PipelineContext
-from src.citybikeshare.config.loader import load_city_config
+from citybikeshare.context import PipelineContext
+from citybikeshare.config.loader import load_city_config
 
 
 def extract_city_data(context: PipelineContext, overwrite: bool = False) -> List[Path]:

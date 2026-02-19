@@ -1,7 +1,7 @@
 import os
 import requests
 from playwright.sync_api import sync_playwright
-from src.citybikeshare.context import PipelineContext
+from citybikeshare.context import PipelineContext
 
 CSV_EXTENSION = ".csv"
 OPEN_DATA_ROOT = "https://www.mibici.net"

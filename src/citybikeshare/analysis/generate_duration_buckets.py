@@ -1,7 +1,7 @@
 import polars as pl
 import json
-from src.citybikeshare.context import PipelineContext
-from src.citybikeshare.analysis.utils import append_duration_column
+from citybikeshare.context import PipelineContext
+from citybikeshare.analysis.utils import append_duration_column
 
 
 def generate_duration_buckets(context: PipelineContext):

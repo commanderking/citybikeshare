@@ -1,9 +1,9 @@
 from pathlib import Path
-from src.citybikeshare.utils.io_clean import (
+from citybikeshare.utils.io_clean import (
     CLEAN_FUNCTIONS,
 )
-from src.citybikeshare.config.loader import load_city_config
-from src.citybikeshare.context import PipelineContext
+from citybikeshare.config.loader import load_city_config
+from citybikeshare.context import PipelineContext
 
 
 def convert_csvs_to_parquet(files, context: PipelineContext):

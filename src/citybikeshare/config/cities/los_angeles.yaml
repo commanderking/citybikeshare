@@ -39,3 +39,4 @@ processing_pipeline:
   - process_bicycle_transit_stations
   - convert_to_datetime
   - select_final_columns
+  - cast_optional_columns

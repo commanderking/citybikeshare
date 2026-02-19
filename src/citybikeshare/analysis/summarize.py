@@ -1,7 +1,7 @@
 import json
 import polars as pl
-from src.citybikeshare.context import PipelineContext
-from src.citybikeshare.analysis.utils import append_duration_column
+from citybikeshare.context import PipelineContext
+from citybikeshare.analysis.utils import append_duration_column
 
 
 def summarize_city(context: PipelineContext):

@@ -3,7 +3,7 @@ import json
 import requests
 from playwright.sync_api import sync_playwright
 
-from src.citybikeshare.context import PipelineContext
+from citybikeshare.context import PipelineContext
 
 
 def run_get_exports(playwright, url, csv_path):

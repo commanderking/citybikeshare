@@ -1,6 +1,6 @@
 import os
 from playwright.sync_api import sync_playwright
-from src.citybikeshare.context import PipelineContext
+from citybikeshare.context import PipelineContext
 
 
 def main(p, config, context: PipelineContext):
