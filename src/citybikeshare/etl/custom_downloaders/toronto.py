@@ -2,7 +2,7 @@ from zipfile import ZipFile
 from io import BytesIO
 import os
 import requests
-from src.citybikeshare.context import PipelineContext
+from citybikeshare.context import PipelineContext
 
 
 def download(config, context: PipelineContext):

@@ -1,4 +1,4 @@
-from src.citybikeshare.etl.custom_downloaders.utils.get_single_csv_export import (
+from citybikeshare.etl.custom_downloaders.utils.get_single_csv_export import (
     get_exports,
 )
 

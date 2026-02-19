@@ -1,4 +1,4 @@
-from src.citybikeshare.etl.custom_downloaders.utils.norway_cities import (
+from citybikeshare.etl.custom_downloaders.utils.norway_cities import (
     download_files,
 )
 

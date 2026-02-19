@@ -9,18 +9,18 @@ Usage examples:
 
 from pathlib import Path
 import typer
-from src.citybikeshare.etl.download import download_city_data
-from src.citybikeshare.etl.extract import extract_city_data
-from src.citybikeshare.etl.clean import clean_city_data
-from src.citybikeshare.etl.transform import transform_city_data
-from src.citybikeshare.context import PipelineContext
-from src.citybikeshare.analysis.summarize import summarize_city
-from src.citybikeshare.analysis.merge_summaries import merge_city_summaries
-from src.citybikeshare.analysis.generate_duration_buckets import (
+from citybikeshare.etl.download import download_city_data
+from citybikeshare.etl.extract import extract_city_data
+from citybikeshare.etl.clean import clean_city_data
+from citybikeshare.etl.transform import transform_city_data
+from citybikeshare.context import PipelineContext
+from citybikeshare.analysis.summarize import summarize_city
+from citybikeshare.analysis.merge_summaries import merge_city_summaries
+from citybikeshare.analysis.generate_duration_buckets import (
     generate_duration_buckets,
 )
-from src.citybikeshare.analysis.merge_duration_buckets import merge_duration_buckets
-from src.citybikeshare.etl.inspect import analyze_headers
+from citybikeshare.analysis.merge_duration_buckets import merge_duration_buckets
+from citybikeshare.etl.inspect import analyze_headers
 
 app = typer.Typer(help="Unified CLI for the CityBikeshare ETL pipeline")
 

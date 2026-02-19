@@ -2,12 +2,12 @@ import os
 import json
 import re
 import polars as pl
-from src.citybikeshare.etl.constants import (
+from citybikeshare.etl.constants import (
     DEFAULT_FINAL_COLUMNS,
     BICYCLE_TRANSIT_SYSTEMS_RENAMED_STATION_COLUMNS,
 )
 
-from src.citybikeshare.context import PipelineContext
+from citybikeshare.context import PipelineContext
 
 
 def rename_columns_for_keys(renamed_columns_dict):

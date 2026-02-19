@@ -1,10 +1,10 @@
 import json
-from src.citybikeshare.context import PipelineContext
+from citybikeshare.context import PipelineContext
 import polars as pl
 from collections import Counter
-from src.citybikeshare.etl.transform import filter_filenames
-from src.citybikeshare.config.loader import load_city_config
-from src.citybikeshare.utils.paths import get_csv_files
+from citybikeshare.etl.transform import filter_filenames
+from citybikeshare.config.loader import load_city_config
+from citybikeshare.utils.paths import get_csv_files
 
 
 def analyze_headers(context: PipelineContext):

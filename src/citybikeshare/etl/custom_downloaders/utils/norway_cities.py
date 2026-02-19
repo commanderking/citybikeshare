@@ -1,5 +1,5 @@
 from playwright.sync_api import sync_playwright, TimeoutError as PlaywrightTimeoutError
-from src.citybikeshare.etl.custom_downloaders.utils.download_helpers import (
+from citybikeshare.etl.custom_downloaders.utils.download_helpers import (
     download_if_new_data,
 )
 

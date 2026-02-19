@@ -7213,722 +7213,1442 @@
   },
   {
     "bucket": 60,
-    "count": 54233,
+    "count": 71919,
     "year": 2025,
     "city": "boston"
   },
   {
     "bucket": 120,
-    "count": 112473,
+    "count": 151822,
     "year": 2025,
     "city": "boston"
   },
   {
     "bucket": 180,
-    "count": 169270,
+    "count": 229280,
     "year": 2025,
     "city": "boston"
   },
   {
     "bucket": 240,
-    "count": 210327,
+    "count": 283019,
     "year": 2025,
     "city": "boston"
   },
   {
     "bucket": 300,
-    "count": 228824,
+    "count": 306415,
     "year": 2025,
     "city": "boston"
   },
   {
     "bucket": 360,
-    "count": 231637,
+    "count": 308134,
     "year": 2025,
     "city": "boston"
   },
   {
     "bucket": 420,
-    "count": 223691,
+    "count": 295098,
     "year": 2025,
     "city": "boston"
   },
   {
     "bucket": 480,
-    "count": 210320,
+    "count": 274856,
     "year": 2025,
     "city": "boston"
   },
   {
     "bucket": 540,
-    "count": 192657,
+    "count": 251468,
     "year": 2025,
     "city": "boston"
   },
   {
     "bucket": 600,
-    "count": 176758,
+    "count": 228973,
     "year": 2025,
     "city": "boston"
   },
   {
     "bucket": 660,
-    "count": 161572,
+    "count": 208479,
     "year": 2025,
     "city": "boston"
   },
   {
     "bucket": 720,
-    "count": 147821,
+    "count": 190518,
     "year": 2025,
     "city": "boston"
   },
   {
     "bucket": 780,
-    "count": 133713,
+    "count": 171544,
     "year": 2025,
     "city": "boston"
   },
   {
     "bucket": 840,
-    "count": 120918,
+    "count": 154591,
     "year": 2025,
     "city": "boston"
   },
   {
     "bucket": 900,
-    "count": 108973,
+    "count": 138854,
     "year": 2025,
     "city": "boston"
   },
   {
     "bucket": 960,
-    "count": 96922,
+    "count": 123377,
     "year": 2025,
     "city": "boston"
   },
   {
     "bucket": 1020,
-    "count": 86830,
+    "count": 110242,
     "year": 2025,
     "city": "boston"
   },
   {
     "bucket": 1080,
-    "count": 77772,
+    "count": 98363,
     "year": 2025,
     "city": "boston"
   },
   {
     "bucket": 1140,
-    "count": 69887,
+    "count": 88120,
     "year": 2025,
     "city": "boston"
   },
   {
     "bucket": 1200,
-    "count": 63320,
+    "count": 79784,
     "year": 2025,
     "city": "boston"
   },
   {
     "bucket": 1260,
-    "count": 56637,
+    "count": 71379,
     "year": 2025,
     "city": "boston"
   },
   {
     "bucket": 1320,
-    "count": 50784,
+    "count": 63949,
     "year": 2025,
     "city": "boston"
   },
   {
     "bucket": 1380,
-    "count": 46068,
+    "count": 57743,
     "year": 2025,
     "city": "boston"
   },
   {
     "bucket": 1440,
-    "count": 41920,
+    "count": 52315,
     "year": 2025,
     "city": "boston"
   },
   {
     "bucket": 1500,
-    "count": 37960,
+    "count": 47254,
     "year": 2025,
     "city": "boston"
   },
   {
     "bucket": 1560,
-    "count": 34379,
+    "count": 42870,
     "year": 2025,
     "city": "boston"
   },
   {
     "bucket": 1620,
-    "count": 31188,
+    "count": 38592,
     "year": 2025,
     "city": "boston"
   },
   {
     "bucket": 1680,
-    "count": 28782,
+    "count": 35538,
     "year": 2025,
     "city": "boston"
   },
   {
     "bucket": 1740,
-    "count": 26606,
+    "count": 32565,
     "year": 2025,
     "city": "boston"
   },
   {
     "bucket": 1800,
-    "count": 23514,
+    "count": 28944,
     "year": 2025,
     "city": "boston"
   },
   {
     "bucket": 1860,
-    "count": 20866,
+    "count": 25713,
     "year": 2025,
     "city": "boston"
   },
   {
     "bucket": 1920,
-    "count": 18962,
+    "count": 23279,
     "year": 2025,
     "city": "boston"
   },
   {
     "bucket": 1980,
-    "count": 16893,
+    "count": 20728,
     "year": 2025,
     "city": "boston"
   },
   {
     "bucket": 2040,
-    "count": 15756,
+    "count": 19201,
     "year": 2025,
     "city": "boston"
   },
   {
     "bucket": 2100,
-    "count": 14322,
+    "count": 17465,
     "year": 2025,
     "city": "boston"
   },
   {
     "bucket": 2160,
-    "count": 13119,
+    "count": 16096,
     "year": 2025,
     "city": "boston"
   },
   {
     "bucket": 2220,
-    "count": 12078,
+    "count": 14752,
     "year": 2025,
     "city": "boston"
   },
   {
     "bucket": 2280,
-    "count": 10822,
+    "count": 13153,
     "year": 2025,
     "city": "boston"
   },
   {
     "bucket": 2340,
-    "count": 10148,
+    "count": 12297,
     "year": 2025,
     "city": "boston"
   },
   {
     "bucket": 2400,
-    "count": 9651,
+    "count": 11666,
     "year": 2025,
     "city": "boston"
   },
   {
     "bucket": 2460,
-    "count": 8659,
+    "count": 10514,
     "year": 2025,
     "city": "boston"
   },
   {
     "bucket": 2520,
-    "count": 8065,
+    "count": 9805,
     "year": 2025,
     "city": "boston"
   },
   {
     "bucket": 2580,
-    "count": 7367,
+    "count": 8862,
     "year": 2025,
     "city": "boston"
   },
   {
     "bucket": 2640,
-    "count": 6618,
+    "count": 8057,
     "year": 2025,
     "city": "boston"
   },
   {
     "bucket": 2700,
-    "count": 5965,
+    "count": 7280,
     "year": 2025,
     "city": "boston"
   },
   {
     "bucket": 2760,
-    "count": 5612,
+    "count": 6724,
     "year": 2025,
     "city": "boston"
   },
   {
     "bucket": 2820,
-    "count": 5050,
+    "count": 6145,
     "year": 2025,
     "city": "boston"
   },
   {
     "bucket": 2880,
-    "count": 4843,
+    "count": 5846,
     "year": 2025,
     "city": "boston"
   },
   {
     "bucket": 2940,
-    "count": 4470,
+    "count": 5413,
     "year": 2025,
     "city": "boston"
   },
   {
     "bucket": 3000,
-    "count": 4270,
+    "count": 5140,
     "year": 2025,
     "city": "boston"
   },
   {
     "bucket": 3060,
-    "count": 4003,
+    "count": 4788,
     "year": 2025,
     "city": "boston"
   },
   {
     "bucket": 3120,
-    "count": 3719,
+    "count": 4524,
     "year": 2025,
     "city": "boston"
   },
   {
     "bucket": 3180,
-    "count": 3538,
+    "count": 4333,
     "year": 2025,
     "city": "boston"
   },
   {
     "bucket": 3240,
-    "count": 3332,
+    "count": 3988,
     "year": 2025,
     "city": "boston"
   },
   {
     "bucket": 3300,
-    "count": 3379,
+    "count": 4046,
     "year": 2025,
     "city": "boston"
   },
   {
     "bucket": 3360,
-    "count": 3129,
+    "count": 3751,
     "year": 2025,
     "city": "boston"
   },
   {
     "bucket": 3420,
-    "count": 3038,
+    "count": 3598,
     "year": 2025,
     "city": "boston"
   },
   {
     "bucket": 3480,
-    "count": 2767,
+    "count": 3295,
     "year": 2025,
     "city": "boston"
   },
   {
     "bucket": 3540,
-    "count": 2659,
+    "count": 3178,
     "year": 2025,
     "city": "boston"
   },
   {
     "bucket": 3600,
-    "count": 2550,
+    "count": 3036,
     "year": 2025,
     "city": "boston"
   },
   {
     "bucket": 3660,
-    "count": 2340,
+    "count": 2760,
     "year": 2025,
     "city": "boston"
   },
   {
     "bucket": 3720,
-    "count": 2329,
+    "count": 2734,
     "year": 2025,
     "city": "boston"
   },
   {
     "bucket": 3780,
-    "count": 2143,
+    "count": 2574,
     "year": 2025,
     "city": "boston"
   },
   {
     "bucket": 3840,
-    "count": 2056,
+    "count": 2430,
     "year": 2025,
     "city": "boston"
   },
   {
     "bucket": 3900,
-    "count": 1988,
+    "count": 2349,
     "year": 2025,
     "city": "boston"
   },
   {
     "bucket": 3960,
-    "count": 1785,
+    "count": 2122,
     "year": 2025,
     "city": "boston"
   },
   {
     "bucket": 4020,
-    "count": 1834,
+    "count": 2169,
     "year": 2025,
     "city": "boston"
   },
   {
     "bucket": 4080,
-    "count": 1726,
+    "count": 2081,
     "year": 2025,
     "city": "boston"
   },
   {
     "bucket": 4140,
-    "count": 1574,
+    "count": 1908,
     "year": 2025,
     "city": "boston"
   },
   {
     "bucket": 4200,
-    "count": 1569,
+    "count": 1891,
     "year": 2025,
     "city": "boston"
   },
   {
     "bucket": 4260,
-    "count": 1553,
+    "count": 1827,
     "year": 2025,
     "city": "boston"
   },
   {
     "bucket": 4320,
-    "count": 1513,
+    "count": 1783,
     "year": 2025,
     "city": "boston"
   },
   {
     "bucket": 4380,
-    "count": 1447,
+    "count": 1716,
     "year": 2025,
     "city": "boston"
   },
   {
     "bucket": 4440,
-    "count": 1425,
+    "count": 1707,
     "year": 2025,
     "city": "boston"
   },
   {
     "bucket": 4500,
-    "count": 1247,
+    "count": 1497,
     "year": 2025,
     "city": "boston"
   },
   {
     "bucket": 4560,
-    "count": 1293,
+    "count": 1549,
     "year": 2025,
     "city": "boston"
   },
   {
     "bucket": 4620,
-    "count": 1219,
+    "count": 1460,
     "year": 2025,
     "city": "boston"
   },
   {
     "bucket": 4680,
-    "count": 1210,
+    "count": 1420,
     "year": 2025,
     "city": "boston"
   },
   {
     "bucket": 4740,
-    "count": 1149,
+    "count": 1361,
     "year": 2025,
     "city": "boston"
   },
   {
     "bucket": 4800,
-    "count": 1079,
+    "count": 1284,
     "year": 2025,
     "city": "boston"
   },
   {
     "bucket": 4860,
-    "count": 1035,
+    "count": 1247,
     "year": 2025,
     "city": "boston"
   },
   {
     "bucket": 4920,
-    "count": 994,
+    "count": 1179,
     "year": 2025,
     "city": "boston"
   },
   {
     "bucket": 4980,
-    "count": 954,
+    "count": 1150,
     "year": 2025,
     "city": "boston"
   },
   {
     "bucket": 5040,
-    "count": 980,
+    "count": 1158,
     "year": 2025,
     "city": "boston"
   },
   {
     "bucket": 5100,
-    "count": 901,
+    "count": 1071,
     "year": 2025,
     "city": "boston"
   },
   {
     "bucket": 5160,
-    "count": 870,
+    "count": 1026,
     "year": 2025,
     "city": "boston"
   },
   {
     "bucket": 5220,
-    "count": 872,
+    "count": 1024,
     "year": 2025,
     "city": "boston"
   },
   {
     "bucket": 5280,
-    "count": 826,
+    "count": 974,
     "year": 2025,
     "city": "boston"
   },
   {
     "bucket": 5340,
-    "count": 793,
+    "count": 938,
     "year": 2025,
     "city": "boston"
   },
   {
     "bucket": 5400,
-    "count": 788,
+    "count": 955,
     "year": 2025,
     "city": "boston"
   },
   {
     "bucket": 5460,
-    "count": 751,
+    "count": 900,
     "year": 2025,
     "city": "boston"
   },
   {
     "bucket": 5520,
-    "count": 761,
+    "count": 891,
     "year": 2025,
     "city": "boston"
   },
   {
     "bucket": 5580,
-    "count": 744,
+    "count": 888,
     "year": 2025,
     "city": "boston"
   },
   {
     "bucket": 5640,
-    "count": 721,
+    "count": 824,
     "year": 2025,
     "city": "boston"
   },
   {
     "bucket": 5700,
-    "count": 704,
+    "count": 830,
     "year": 2025,
     "city": "boston"
   },
   {
     "bucket": 5760,
-    "count": 690,
+    "count": 796,
     "year": 2025,
     "city": "boston"
   },
   {
     "bucket": 5820,
-    "count": 690,
+    "count": 793,
     "year": 2025,
     "city": "boston"
   },
   {
     "bucket": 5880,
-    "count": 634,
+    "count": 722,
     "year": 2025,
     "city": "boston"
   },
   {
     "bucket": 5940,
-    "count": 633,
+    "count": 753,
     "year": 2025,
     "city": "boston"
   },
   {
     "bucket": 6000,
-    "count": 621,
+    "count": 738,
     "year": 2025,
     "city": "boston"
   },
   {
     "bucket": 6060,
-    "count": 578,
+    "count": 695,
     "year": 2025,
     "city": "boston"
   },
   {
     "bucket": 6120,
-    "count": 568,
+    "count": 675,
     "year": 2025,
     "city": "boston"
   },
   {
     "bucket": 6180,
-    "count": 535,
+    "count": 645,
     "year": 2025,
     "city": "boston"
   },
   {
     "bucket": 6240,
-    "count": 567,
+    "count": 665,
     "year": 2025,
     "city": "boston"
   },
   {
     "bucket": 6300,
-    "count": 544,
+    "count": 649,
     "year": 2025,
     "city": "boston"
   },
   {
     "bucket": 6360,
-    "count": 510,
+    "count": 594,
     "year": 2025,
     "city": "boston"
   },
   {
     "bucket": 6420,
-    "count": 492,
+    "count": 602,
     "year": 2025,
     "city": "boston"
   },
   {
     "bucket": 6480,
-    "count": 505,
+    "count": 586,
     "year": 2025,
     "city": "boston"
   },
   {
     "bucket": 6540,
-    "count": 502,
+    "count": 597,
     "year": 2025,
     "city": "boston"
   },
   {
     "bucket": 6600,
-    "count": 450,
+    "count": 523,
     "year": 2025,
     "city": "boston"
   },
   {
     "bucket": 6660,
-    "count": 478,
+    "count": 545,
     "year": 2025,
     "city": "boston"
   },
   {
     "bucket": 6720,
-    "count": 451,
+    "count": 531,
     "year": 2025,
     "city": "boston"
   },
   {
     "bucket": 6780,
-    "count": 432,
+    "count": 517,
     "year": 2025,
     "city": "boston"
   },
   {
     "bucket": 6840,
-    "count": 421,
+    "count": 508,
     "year": 2025,
     "city": "boston"
   },
   {
     "bucket": 6900,
-    "count": 396,
+    "count": 477,
     "year": 2025,
     "city": "boston"
   },
   {
     "bucket": 6960,
-    "count": 367,
+    "count": 458,
     "year": 2025,
     "city": "boston"
   },
   {
     "bucket": 7020,
-    "count": 343,
+    "count": 423,
     "year": 2025,
     "city": "boston"
   },
   {
     "bucket": 7080,
-    "count": 378,
+    "count": 451,
     "year": 2025,
     "city": "boston"
   },
   {
     "bucket": 7140,
-    "count": 330,
+    "count": 385,
     "year": 2025,
     "city": "boston"
   },
   {
     "bucket": 7200,
-    "count": 19385,
+    "count": 23563,
     "year": 2025,
+    "city": "boston"
+  },
+  {
+    "bucket": 60,
+    "count": 3254,
+    "year": 2026,
+    "city": "boston"
+  },
+  {
+    "bucket": 120,
+    "count": 6379,
+    "year": 2026,
+    "city": "boston"
+  },
+  {
+    "bucket": 180,
+    "count": 9681,
+    "year": 2026,
+    "city": "boston"
+  },
+  {
+    "bucket": 240,
+    "count": 11797,
+    "year": 2026,
+    "city": "boston"
+  },
+  {
+    "bucket": 300,
+    "count": 12502,
+    "year": 2026,
+    "city": "boston"
+  },
+  {
+    "bucket": 360,
+    "count": 11799,
+    "year": 2026,
+    "city": "boston"
+  },
+  {
+    "bucket": 420,
+    "count": 11024,
+    "year": 2026,
+    "city": "boston"
+  },
+  {
+    "bucket": 480,
+    "count": 9739,
+    "year": 2026,
+    "city": "boston"
+  },
+  {
+    "bucket": 540,
+    "count": 8714,
+    "year": 2026,
+    "city": "boston"
+  },
+  {
+    "bucket": 600,
+    "count": 7665,
+    "year": 2026,
+    "city": "boston"
+  },
+  {
+    "bucket": 660,
+    "count": 6822,
+    "year": 2026,
+    "city": "boston"
+  },
+  {
+    "bucket": 720,
+    "count": 6200,
+    "year": 2026,
+    "city": "boston"
+  },
+  {
+    "bucket": 780,
+    "count": 5293,
+    "year": 2026,
+    "city": "boston"
+  },
+  {
+    "bucket": 840,
+    "count": 4723,
+    "year": 2026,
+    "city": "boston"
+  },
+  {
+    "bucket": 900,
+    "count": 4197,
+    "year": 2026,
+    "city": "boston"
+  },
+  {
+    "bucket": 960,
+    "count": 3661,
+    "year": 2026,
+    "city": "boston"
+  },
+  {
+    "bucket": 1020,
+    "count": 3148,
+    "year": 2026,
+    "city": "boston"
+  },
+  {
+    "bucket": 1080,
+    "count": 2768,
+    "year": 2026,
+    "city": "boston"
+  },
+  {
+    "bucket": 1140,
+    "count": 2438,
+    "year": 2026,
+    "city": "boston"
+  },
+  {
+    "bucket": 1200,
+    "count": 2111,
+    "year": 2026,
+    "city": "boston"
+  },
+  {
+    "bucket": 1260,
+    "count": 1773,
+    "year": 2026,
+    "city": "boston"
+  },
+  {
+    "bucket": 1320,
+    "count": 1577,
+    "year": 2026,
+    "city": "boston"
+  },
+  {
+    "bucket": 1380,
+    "count": 1485,
+    "year": 2026,
+    "city": "boston"
+  },
+  {
+    "bucket": 1440,
+    "count": 1230,
+    "year": 2026,
+    "city": "boston"
+  },
+  {
+    "bucket": 1500,
+    "count": 1100,
+    "year": 2026,
+    "city": "boston"
+  },
+  {
+    "bucket": 1560,
+    "count": 1023,
+    "year": 2026,
+    "city": "boston"
+  },
+  {
+    "bucket": 1620,
+    "count": 854,
+    "year": 2026,
+    "city": "boston"
+  },
+  {
+    "bucket": 1680,
+    "count": 755,
+    "year": 2026,
+    "city": "boston"
+  },
+  {
+    "bucket": 1740,
+    "count": 701,
+    "year": 2026,
+    "city": "boston"
+  },
+  {
+    "bucket": 1800,
+    "count": 563,
+    "year": 2026,
+    "city": "boston"
+  },
+  {
+    "bucket": 1860,
+    "count": 561,
+    "year": 2026,
+    "city": "boston"
+  },
+  {
+    "bucket": 1920,
+    "count": 481,
+    "year": 2026,
+    "city": "boston"
+  },
+  {
+    "bucket": 1980,
+    "count": 417,
+    "year": 2026,
+    "city": "boston"
+  },
+  {
+    "bucket": 2040,
+    "count": 368,
+    "year": 2026,
+    "city": "boston"
+  },
+  {
+    "bucket": 2100,
+    "count": 362,
+    "year": 2026,
+    "city": "boston"
+  },
+  {
+    "bucket": 2160,
+    "count": 351,
+    "year": 2026,
+    "city": "boston"
+  },
+  {
+    "bucket": 2220,
+    "count": 294,
+    "year": 2026,
+    "city": "boston"
+  },
+  {
+    "bucket": 2280,
+    "count": 261,
+    "year": 2026,
+    "city": "boston"
+  },
+  {
+    "bucket": 2340,
+    "count": 231,
+    "year": 2026,
+    "city": "boston"
+  },
+  {
+    "bucket": 2400,
+    "count": 242,
+    "year": 2026,
+    "city": "boston"
+  },
+  {
+    "bucket": 2460,
+    "count": 166,
+    "year": 2026,
+    "city": "boston"
+  },
+  {
+    "bucket": 2520,
+    "count": 156,
+    "year": 2026,
+    "city": "boston"
+  },
+  {
+    "bucket": 2580,
+    "count": 161,
+    "year": 2026,
+    "city": "boston"
+  },
+  {
+    "bucket": 2640,
+    "count": 147,
+    "year": 2026,
+    "city": "boston"
+  },
+  {
+    "bucket": 2700,
+    "count": 130,
+    "year": 2026,
+    "city": "boston"
+  },
+  {
+    "bucket": 2760,
+    "count": 120,
+    "year": 2026,
+    "city": "boston"
+  },
+  {
+    "bucket": 2820,
+    "count": 99,
+    "year": 2026,
+    "city": "boston"
+  },
+  {
+    "bucket": 2880,
+    "count": 90,
+    "year": 2026,
+    "city": "boston"
+  },
+  {
+    "bucket": 2940,
+    "count": 81,
+    "year": 2026,
+    "city": "boston"
+  },
+  {
+    "bucket": 3000,
+    "count": 74,
+    "year": 2026,
+    "city": "boston"
+  },
+  {
+    "bucket": 3060,
+    "count": 85,
+    "year": 2026,
+    "city": "boston"
+  },
+  {
+    "bucket": 3120,
+    "count": 69,
+    "year": 2026,
+    "city": "boston"
+  },
+  {
+    "bucket": 3180,
+    "count": 64,
+    "year": 2026,
+    "city": "boston"
+  },
+  {
+    "bucket": 3240,
+    "count": 69,
+    "year": 2026,
+    "city": "boston"
+  },
+  {
+    "bucket": 3300,
+    "count": 77,
+    "year": 2026,
+    "city": "boston"
+  },
+  {
+    "bucket": 3360,
+    "count": 57,
+    "year": 2026,
+    "city": "boston"
+  },
+  {
+    "bucket": 3420,
+    "count": 62,
+    "year": 2026,
+    "city": "boston"
+  },
+  {
+    "bucket": 3480,
+    "count": 51,
+    "year": 2026,
+    "city": "boston"
+  },
+  {
+    "bucket": 3540,
+    "count": 45,
+    "year": 2026,
+    "city": "boston"
+  },
+  {
+    "bucket": 3600,
+    "count": 41,
+    "year": 2026,
+    "city": "boston"
+  },
+  {
+    "bucket": 3660,
+    "count": 34,
+    "year": 2026,
+    "city": "boston"
+  },
+  {
+    "bucket": 3720,
+    "count": 37,
+    "year": 2026,
+    "city": "boston"
+  },
+  {
+    "bucket": 3780,
+    "count": 44,
+    "year": 2026,
+    "city": "boston"
+  },
+  {
+    "bucket": 3840,
+    "count": 44,
+    "year": 2026,
+    "city": "boston"
+  },
+  {
+    "bucket": 3900,
+    "count": 48,
+    "year": 2026,
+    "city": "boston"
+  },
+  {
+    "bucket": 3960,
+    "count": 36,
+    "year": 2026,
+    "city": "boston"
+  },
+  {
+    "bucket": 4020,
+    "count": 47,
+    "year": 2026,
+    "city": "boston"
+  },
+  {
+    "bucket": 4080,
+    "count": 39,
+    "year": 2026,
+    "city": "boston"
+  },
+  {
+    "bucket": 4140,
+    "count": 32,
+    "year": 2026,
+    "city": "boston"
+  },
+  {
+    "bucket": 4200,
+    "count": 32,
+    "year": 2026,
+    "city": "boston"
+  },
+  {
+    "bucket": 4260,
+    "count": 33,
+    "year": 2026,
+    "city": "boston"
+  },
+  {
+    "bucket": 4320,
+    "count": 27,
+    "year": 2026,
+    "city": "boston"
+  },
+  {
+    "bucket": 4380,
+    "count": 25,
+    "year": 2026,
+    "city": "boston"
+  },
+  {
+    "bucket": 4440,
+    "count": 21,
+    "year": 2026,
+    "city": "boston"
+  },
+  {
+    "bucket": 4500,
+    "count": 23,
+    "year": 2026,
+    "city": "boston"
+  },
+  {
+    "bucket": 4560,
+    "count": 22,
+    "year": 2026,
+    "city": "boston"
+  },
+  {
+    "bucket": 4620,
+    "count": 17,
+    "year": 2026,
+    "city": "boston"
+  },
+  {
+    "bucket": 4680,
+    "count": 16,
+    "year": 2026,
+    "city": "boston"
+  },
+  {
+    "bucket": 4740,
+    "count": 33,
+    "year": 2026,
+    "city": "boston"
+  },
+  {
+    "bucket": 4800,
+    "count": 18,
+    "year": 2026,
+    "city": "boston"
+  },
+  {
+    "bucket": 4860,
+    "count": 16,
+    "year": 2026,
+    "city": "boston"
+  },
+  {
+    "bucket": 4920,
+    "count": 18,
+    "year": 2026,
+    "city": "boston"
+  },
+  {
+    "bucket": 4980,
+    "count": 15,
+    "year": 2026,
+    "city": "boston"
+  },
+  {
+    "bucket": 5040,
+    "count": 16,
+    "year": 2026,
+    "city": "boston"
+  },
+  {
+    "bucket": 5100,
+    "count": 11,
+    "year": 2026,
+    "city": "boston"
+  },
+  {
+    "bucket": 5160,
+    "count": 11,
+    "year": 2026,
+    "city": "boston"
+  },
+  {
+    "bucket": 5220,
+    "count": 13,
+    "year": 2026,
+    "city": "boston"
+  },
+  {
+    "bucket": 5280,
+    "count": 12,
+    "year": 2026,
+    "city": "boston"
+  },
+  {
+    "bucket": 5340,
+    "count": 10,
+    "year": 2026,
+    "city": "boston"
+  },
+  {
+    "bucket": 5400,
+    "count": 22,
+    "year": 2026,
+    "city": "boston"
+  },
+  {
+    "bucket": 5460,
+    "count": 3,
+    "year": 2026,
+    "city": "boston"
+  },
+  {
+    "bucket": 5520,
+    "count": 8,
+    "year": 2026,
+    "city": "boston"
+  },
+  {
+    "bucket": 5580,
+    "count": 11,
+    "year": 2026,
+    "city": "boston"
+  },
+  {
+    "bucket": 5640,
+    "count": 11,
+    "year": 2026,
+    "city": "boston"
+  },
+  {
+    "bucket": 5700,
+    "count": 9,
+    "year": 2026,
+    "city": "boston"
+  },
+  {
+    "bucket": 5760,
+    "count": 10,
+    "year": 2026,
+    "city": "boston"
+  },
+  {
+    "bucket": 5820,
+    "count": 6,
+    "year": 2026,
+    "city": "boston"
+  },
+  {
+    "bucket": 5880,
+    "count": 7,
+    "year": 2026,
+    "city": "boston"
+  },
+  {
+    "bucket": 5940,
+    "count": 10,
+    "year": 2026,
+    "city": "boston"
+  },
+  {
+    "bucket": 6000,
+    "count": 11,
+    "year": 2026,
+    "city": "boston"
+  },
+  {
+    "bucket": 6060,
+    "count": 7,
+    "year": 2026,
+    "city": "boston"
+  },
+  {
+    "bucket": 6120,
+    "count": 17,
+    "year": 2026,
+    "city": "boston"
+  },
+  {
+    "bucket": 6180,
+    "count": 2,
+    "year": 2026,
+    "city": "boston"
+  },
+  {
+    "bucket": 6240,
+    "count": 7,
+    "year": 2026,
+    "city": "boston"
+  },
+  {
+    "bucket": 6300,
+    "count": 7,
+    "year": 2026,
+    "city": "boston"
+  },
+  {
+    "bucket": 6360,
+    "count": 13,
+    "year": 2026,
+    "city": "boston"
+  },
+  {
+    "bucket": 6420,
+    "count": 9,
+    "year": 2026,
+    "city": "boston"
+  },
+  {
+    "bucket": 6480,
+    "count": 10,
+    "year": 2026,
+    "city": "boston"
+  },
+  {
+    "bucket": 6540,
+    "count": 6,
+    "year": 2026,
+    "city": "boston"
+  },
+  {
+    "bucket": 6600,
+    "count": 5,
+    "year": 2026,
+    "city": "boston"
+  },
+  {
+    "bucket": 6660,
+    "count": 8,
+    "year": 2026,
+    "city": "boston"
+  },
+  {
+    "bucket": 6720,
+    "count": 6,
+    "year": 2026,
+    "city": "boston"
+  },
+  {
+    "bucket": 6780,
+    "count": 3,
+    "year": 2026,
+    "city": "boston"
+  },
+  {
+    "bucket": 6840,
+    "count": 2,
+    "year": 2026,
+    "city": "boston"
+  },
+  {
+    "bucket": 6900,
+    "count": 5,
+    "year": 2026,
+    "city": "boston"
+  },
+  {
+    "bucket": 6960,
+    "count": 3,
+    "year": 2026,
+    "city": "boston"
+  },
+  {
+    "bucket": 7020,
+    "count": 8,
+    "year": 2026,
+    "city": "boston"
+  },
+  {
+    "bucket": 7080,
+    "count": 6,
+    "year": 2026,
+    "city": "boston"
+  },
+  {
+    "bucket": 7140,
+    "count": 4,
+    "year": 2026,
+    "city": "boston"
+  },
+  {
+    "bucket": 7200,
+    "count": 670,
+    "year": 2026,
     "city": "boston"
   }
 ]

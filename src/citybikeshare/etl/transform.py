@@ -1,15 +1,15 @@
 import os
 import polars as pl
-from src.citybikeshare.config.loader import load_city_config
-from src.citybikeshare.utils.io_transform import (
+from citybikeshare.config.loader import load_city_config
+from citybikeshare.utils.io_transform import (
     delete_folder,
 )
-from src.citybikeshare.etl.pipelines.common import PROCESSING_FUNCTIONS
-from src.citybikeshare.etl.constants import DEFAULT_PROCESSING_PIPELINE
-from src.citybikeshare.utils.paths import (
+from citybikeshare.etl.pipelines.common import PROCESSING_FUNCTIONS
+from citybikeshare.etl.constants import DEFAULT_PROCESSING_PIPELINE
+from citybikeshare.utils.paths import (
     get_csv_files,
 )
-from src.citybikeshare.context import PipelineContext
+from citybikeshare.context import PipelineContext
 
 
 def filter_filenames(filenames, config):
