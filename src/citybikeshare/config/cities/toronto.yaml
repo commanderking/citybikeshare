@@ -24,6 +24,19 @@ renamed_columns:
   Bike Id: bike_id
   User Type: membership_type
 
+  # Late-2025 format switched to underscore Title-Case headers
+  Trip_Id: trip_id
+  Trip_Duration: duration
+  Start_Station_Id: start_station_id
+  Start_Time: start_time
+  Start_Station_Name: start_station_name
+  End_Station_Id: end_station_id
+  End_Time: end_time
+  End_Station_Name: end_station_name
+  Bike_Id: bike_id
+  User_Type: membership_type
+  Bike_Model: bike_type
+
 final_columns:
   - start_time
   - end_time
@@ -36,6 +49,7 @@ date_formats:
   - "%m/%d/%Y %H:%M"
   - "%m/%d/%Y %H:%M:%S"
   - "%d/%m/%Y %H:%M"
+  - "%Y-%m-%d %H:%M:%S"
 read_csv_options:
   encoding: utf8-lossy
 processing_pipeline:

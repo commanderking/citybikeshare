@@ -1,6 +1,7 @@
 import os
 from playwright.sync_api import sync_playwright
 from citybikeshare.context import PipelineContext
+from citybikeshare.etl.custom_downloaders.utils.download_helpers import should_download
 
 
 def run(playwright, config, context: PipelineContext):
@@ -22,9 +23,9 @@ def run(playwright, config, context: PipelineContext):
     download = download_info.value
     path = f"{target_file_path}/{download.suggested_filename}"
 
-    download.save_as(path)
-
-    print(f"Downloaded: {path}")
+    if should_download(path):
+        download.save_as(path)
+        print(f"Downloaded: {path}")
 
     browser_context.close()
     browser.close()

@@ -1,7 +1,7 @@
 import os
-import requests
 from playwright.sync_api import sync_playwright
 from citybikeshare.context import PipelineContext
+from citybikeshare.etl.custom_downloaders.utils.download_helpers import should_download
 
 
 def run(playwright, url, context: PipelineContext):
@@ -21,10 +21,7 @@ def run(playwright, url, context: PipelineContext):
         url = link.get_attribute("href")
         filename = os.path.basename(url)
         target_file_path = os.path.join(download_path, filename)
-        if os.path.exists(target_file_path):
-            print(f"🟡 Skipping Download - ${filename} file already exists")
-
-        else:
+        if should_download(target_file_path):
             with page.expect_download() as download_info:
                 link.click()
             download = download_info.value
@@ -40,13 +37,6 @@ def run(playwright, url, context: PipelineContext):
     print(f"Downloaded {stations_download.suggested_filename} as stations.csv")
 
     browser.close()
-
-
-def get_file_size_from_url(url):
-    response = requests.head(url, allow_redirects=True)
-    if response.status_code == 200 and "Content-Length" in response.headers:
-        return int(response.headers["Content-Length"])
-    return None
 
 
 def download_files(config, context):

@@ -2,6 +2,7 @@ import os
 import requests
 from playwright.sync_api import sync_playwright
 from citybikeshare.context import PipelineContext
+from citybikeshare.etl.custom_downloaders.utils.download_helpers import should_download
 
 CSV_EXTENSION = ".csv"
 OPEN_DATA_ROOT = "https://www.mibici.net"
@@ -50,10 +51,7 @@ def download_csv(link, csv_path, headers):
     filename = os.path.basename(link)
     file_path = os.path.join(csv_path, filename)
 
-    if os.path.exists(file_path):
-        print(
-            f"🟡 Skipping Download for {os.path.exists(file_path)} - file already exists"
-        )
+    if not should_download(file_path):
         return
 
     try:
