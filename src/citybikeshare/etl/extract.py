@@ -60,9 +60,19 @@ def _extract_archive(zip_path, raw_dir: Path) -> List[Path]:
 
                             elif file.lower().endswith(".csv"):
                                 target_path = raw_dir / file
-                                shutil.move(full_path, target_path)
+                                # Cumulative archives (e.g. Daejeon) re-bundle every month.
+                                # Only rewrite a member when it's new or its size changed, so
+                                # unchanged files keep their mtime and transform skips them.
+                                src_size = os.path.getsize(full_path)
+                                if (
+                                    target_path.exists()
+                                    and target_path.stat().st_size == src_size
+                                ):
+                                    print(f"🟡 Unchanged member, keeping {file}")
+                                else:
+                                    shutil.move(full_path, target_path)
+                                    print(f"✅ Extracted CSV: {target_path}")
                                 produced.append(target_path)
-                                print(f"✅ Extracted CSV: {target_path}")
 
                             elif file.lower().endswith(".txt"):
                                 txt_path = Path(full_path)

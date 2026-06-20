@@ -183,3 +183,31 @@ class TestExtractIncremental:
         # Second run: archive unchanged + output present → skip (no re-extract).
         extract_city_data(extract_context)
         assert extracted.stat().st_mtime_ns == first_mtime
+
+    def test_cumulative_archive_only_rewrites_changed_members(self, extract_context):
+        # A cumulative archive (like Daejeon) re-bundles every month each release.
+        zip_path = extract_context.download_directory / "trips.zip"
+        _make_zip(
+            zip_path,
+            {"a.csv": "x,y\n1,2\n", "b.csv": "x,y\n1,2\n"},
+        )
+        extract_city_data(extract_context)
+        raw = extract_context.raw_directory
+        a_mtime = (raw / "a.csv").stat().st_mtime_ns
+
+        # New release: a unchanged, b grew, c is new. Overwrite the same archive.
+        _make_zip(
+            zip_path,
+            {
+                "a.csv": "x,y\n1,2\n",  # identical
+                "b.csv": "x,y\n1,2\n3,4\n5,6\n",  # larger
+                "c.csv": "x,y\n9,9\n",  # new
+            },
+        )
+        b_mtime_before = (raw / "b.csv").stat().st_mtime_ns
+        extract_city_data(extract_context)
+
+        # Unchanged member keeps its mtime (so transform skips it); changed/new are written.
+        assert (raw / "a.csv").stat().st_mtime_ns == a_mtime
+        assert (raw / "b.csv").stat().st_mtime_ns != b_mtime_before
+        assert (raw / "c.csv").exists()

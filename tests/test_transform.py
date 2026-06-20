@@ -4,6 +4,7 @@ from pathlib import Path
 
 from citybikeshare.context import PipelineContext
 from citybikeshare.config.loader import load_city_config
+from citybikeshare.etl.pipelines.common import convert_columns_to_datetime
 from citybikeshare.etl.transform import (
     create_parquet,
     determine_has_header,
@@ -166,3 +167,36 @@ class TestDetermineHasHeader:
         csv.write_text("start_time,end_time,station_name\n")
         # expected_columns is missing station_name, so not all first-row items are in the set
         assert determine_has_header(str(csv), ["start_time", "end_time"]) is False
+
+
+class TestDatetimeGuard:
+    FMT = ["%Y-%m-%d %H:%M:%S"]
+
+    def test_unparseable_present_value_raises(self):
+        # A real value in a format we didn't declare must fail loudly, not become null.
+        lf = pl.LazyFrame({"start_time": ["2024-01-01 00:00:00", "2025-03-24 18:04"]})
+        fn = convert_columns_to_datetime(["start_time"], self.FMT)
+        with pytest.raises(ValueError, match="matched none of"):
+            fn(lf)
+
+    def test_error_names_column_and_examples(self):
+        lf = pl.LazyFrame({"start_time": ["2025-03-25 8:18"]})
+        fn = convert_columns_to_datetime(["start_time"], self.FMT)
+        with pytest.raises(ValueError, match=r"start_time.*2025-03-25 8:18"):
+            fn(lf)
+
+    def test_empty_and_null_values_are_allowed(self):
+        # Genuinely missing dates are fine — they pass through as null without raising.
+        lf = pl.LazyFrame(
+            {"start_time": ["2024-01-01 00:00:00", "", None]},
+            schema={"start_time": pl.Utf8},
+        )
+        fn = convert_columns_to_datetime(["start_time"], self.FMT)
+        out = fn(lf).collect()
+        assert out["start_time"].null_count() == 2
+
+    def test_all_parseable_passes(self):
+        lf = pl.LazyFrame({"start_time": ["2024-01-01 00:00:00", "2025-03-24 18:04"]})
+        fn = convert_columns_to_datetime(["start_time"], ["%Y-%m-%d %H:%M:%S", "%Y-%m-%d %H:%M"])
+        out = fn(lf).collect()
+        assert out["start_time"].null_count() == 0

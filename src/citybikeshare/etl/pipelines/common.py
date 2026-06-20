@@ -67,16 +67,37 @@ def convert_columns_to_datetime(date_column_names, date_formats, time_unit: str 
         else:
             print("✅ All datetime columns already parsed")
 
-        ## Log all the null columns
+        ## Fail on values that were present in the source but matched none of the
+        ## configured date_formats — i.e. a format the city's YAML doesn't account for.
+        ## Genuinely empty/missing values are allowed through as null.
         for column in columns_to_parse:
-            null_expr = pl.col(column).is_null().sum().alias("n_nulls")
-            null_count = df.select(null_expr).collect().item()
+            null_count = df.select(pl.col(column).is_null().sum()).collect().item()
+            if not null_count:
+                continue
 
-            if null_count > 0:
-                print(f"⚠️  {null_count} null values found in '{column}' after parsing.")
-                # Collect only a few bad rows (with raw + parsed)
-                bad_rows = df.filter(pl.col(column).is_null()).head(5).collect()
-                print(bad_rows)
+            pre_clean = f"{column}_pre_clean"
+            unparsed = df.filter(
+                pl.col(column).is_null()
+                & pl.col(pre_clean).is_not_null()
+                & (pl.col(pre_clean).str.strip_chars() != "")
+            )
+            examples = (
+                unparsed.select(pl.col(pre_clean))
+                .unique()
+                .limit(5)
+                .collect()
+                .to_series()
+                .to_list()
+            )
+            if examples:
+                count = unparsed.select(pl.len()).collect().item()
+                raise ValueError(
+                    f"{count} value(s) in column '{column}' matched none of "
+                    f"date_formats={date_formats}. Examples: {examples}. "
+                    f"Add the matching format(s) to the city's date_formats in its YAML."
+                )
+
+            print(f"ℹ️  {column}: {null_count} row(s) had no value (left null).")
 
         # make sure date times are the same time unit (default ms)
         return df.with_columns(
