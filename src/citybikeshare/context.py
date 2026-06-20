@@ -29,9 +29,37 @@ class PipelineContext:
         return self.data_root / self.city / "metadata"
 
     @property
+    def cleaned_directory(self) -> Path:
+        """Path to the city's cleaned data folder (cleaned copies of raw CSVs)."""
+        return self.data_root / self.city / "cleaned"
+
+    @property
     def parquet_directory(self) -> Path:
         """Path to the city's parquet data folder."""
         return self.data_root / self.city / "parquet"
+
+    @property
+    def extract_state_path(self) -> Path:
+        """Path to the extract stage's state file."""
+        return self.data_root / self.city / "extract.state.json"
+
+    @property
+    def clean_state_path(self) -> Path:
+        """Path to the clean stage's state file."""
+        return self.data_root / self.city / "clean.state.json"
+
+    @property
+    def transform_state_path(self) -> Path:
+        """Path to the transform stage's state file."""
+        return self.data_root / self.city / "transform.state.json"
+
+    @property
+    def transform_input_directory(self) -> Path:
+        """Directory transform reads from: cleaned/ when it has CSVs, else raw/."""
+        cleaned = self.cleaned_directory
+        if cleaned.exists() and any(cleaned.glob("*.csv")):
+            return cleaned
+        return self.raw_directory
 
     @property
     def transformed_directory(self) -> Path:
@@ -57,6 +85,7 @@ def build_context(city: str) -> "PipelineContext":
     city_dir = data_root / city
     for sub in ["download", "raw", "metadata", "parquet"]:
         (city_dir / sub).mkdir(parents=True, exist_ok=True)
+    # cleaned/ is created on demand by the clean stage (only clean_pipeline cities)
 
     return PipelineContext(
         city=city,

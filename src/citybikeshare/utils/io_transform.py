@@ -12,4 +12,4 @@ def delete_folder(folder_path):
         return
 
     shutil.rmtree(path)
-    print("🗑️  Clearing folder to write completely new parquets")
+    print(f"🗑️  Removed {path}")

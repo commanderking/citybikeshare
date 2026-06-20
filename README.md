@@ -13,7 +13,7 @@ flowchart TD
         WEB(["City website · Playwright scrape"])
     end
 
-    SYNC["sync\nDownload raw files"]
+    SYNC["sync\nDownload new/changed files"]
     EXTRACT["extract\nUnzip / copy CSVs"]
     CLEAN["clean — optional\nFix encodings & delimiters"]
     TRANSFORM["transform\nCSV → partitioned Parquet"]
@@ -24,17 +24,21 @@ flowchart TD
 analysis/duration_buckets_all_cities.json"/]
 
     SOURCES --> SYNC
-    SYNC     -->|"data/&lt;city&gt;/download/"| EXTRACT
-    EXTRACT  -->|"data/&lt;city&gt;/raw/*.csv"| CLEAN
-    CLEAN    -->|"cleaned in place"| TRANSFORM
+    SYNC      -->|"data/&lt;city&gt;/download/"| EXTRACT
+    EXTRACT   -->|"data/&lt;city&gt;/raw/*.csv"| CLEAN
+    CLEAN     -->|"data/&lt;city&gt;/cleaned/*.csv\n(raw/ if no cleaning needed)"| TRANSFORM
     TRANSFORM -->|"output/&lt;city&gt;/year=YYYY/month=MM/"| ANALYZE
-    ANALYZE  -->|"analysis/&lt;city&gt;/summary.json\nanalysis/&lt;city&gt;/duration_buckets.json"| MERGE
-    MERGE    --> RESULT
+    ANALYZE   -->|"analysis/&lt;city&gt;/summary.json\nanalysis/&lt;city&gt;/duration_buckets.json"| MERGE
+    MERGE     --> RESULT
 ```
 
 > **Shortcuts**
 > - `citybikeshare pipeline <city>` runs sync → extract → clean → transform in one command.
 > - `citybikeshare transform-all` runs the transform step for every configured city in parallel.
+>
+> **Each stage is incremental** — sync, extract, clean, and transform skip files that haven't
+> changed since the last run, tracked in per-stage `*.state.json` files under `data/<city>/`.
+> See [Incremental processing](#incremental-processing).
 
 ---
 
@@ -90,7 +94,7 @@ poetry run citybikeshare pipeline boston
 
 Output lands in:
 
-- **`data/<city>/`** – raw and cleaned data (download, raw, parquet)
+- **`data/<city>/`** – working data: `download/` (raw archives), `raw/` (extracted CSVs), `cleaned/` (cleaned copies, only for cities that need it), `parquet/` (per-file Parquet cache), and `*.state.json` (incremental state)
 - **`output/<city>/`** – final Parquet files partitioned by year/month
 - **`analysis/<city>/`** – summary JSON and duration buckets (after you run the analyze commands)
 
@@ -120,10 +124,16 @@ Run one step at a time (useful when debugging or re-running a single stage).
 | **clean** | Normalize encodings, fix formatting | `poetry run citybikeshare clean boston` |
 | **transform** | Build Parquet files partitioned by year/month | `poetry run citybikeshare transform boston` |
 
-**Extract** supports overwriting existing extracted files:
+**Extract** supports overwriting existing extracted files (forces a full re-extract and resets its state):
 
 ```bash
 poetry run citybikeshare extract boston --overwrite
+```
+
+**Transform** is incremental by default — it only re-converts CSVs whose size or modified-time changed since the last run. Force a full rebuild with `--no-incremental`:
+
+```bash
+poetry run citybikeshare transform boston --no-incremental
 ```
 
 ### Inspect headers
@@ -167,6 +177,28 @@ poetry run citybikeshare merge-summaries
 Produces `analysis/summary_all_cities.json` and `analysis/duration_buckets_all_cities.json`.
 
 For options on any command: `poetry run citybikeshare <command> --help`.
+
+---
+
+## Incremental processing
+
+Every stage is incremental: re-running it skips work whose inputs haven't changed, so a periodic `sync` + `pipeline` only processes new or updated files.
+
+**How it works**
+
+- **sync** only downloads files that are new or changed at the source (by size, or by HTTP `Content-Length` for scraped sites), so unchanged archives keep their on-disk timestamps.
+- **extract**, **clean**, and **transform** each keep a small JSON **state file** under `data/<city>/` recording a `size + mtime` signature for every input they processed, plus the outputs it produced:
+  - `data/<city>/extract.state.json`
+  - `data/<city>/clean.state.json` _(only cities that need cleaning)_
+  - `data/<city>/transform.state.json`
+- On the next run, each stage compares an input's current signature against its state file and skips the input when it's unchanged and its output still exists.
+
+**Good to know**
+
+- **State files are safe to delete** — doing so just forces a full rebuild of that stage on the next run. `transform --no-incremental` does the same for a single run.
+- **`clean` never mutates `raw/`.** It writes cleaned copies to `data/<city>/cleaned/` and leaves the extracted `raw/` files intact, so re-running is safe and the originals are preserved. Cities without a `clean_pipeline` skip this step and transform reads directly from `raw/`.
+- **The partitioned `output/<city>/` is always rebuilt** from the per-file Parquet cache in `data/<city>/parquet/` (partitioning needs all files together). The expensive CSV→Parquet conversion is what incremental skips, not the final partition.
+- **Change detection uses `size + mtime`.** This catches the common cases (a file growing or being re-downloaded). A change that preserves the exact byte size would not be detected — a content-hash check could cover that in the future.
 
 ---
 

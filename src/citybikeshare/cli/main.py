@@ -86,11 +86,16 @@ def inspect(
 @app.command()
 def transform(
     city: str = typer.Argument(..., help="City name (e.g. montreal, taipei, boston)"),
+    incremental: bool = typer.Option(
+        True,
+        "--incremental/--no-incremental",
+        help="Skip inputs unchanged since the last run (default). Use --no-incremental to rebuild every file.",
+    ),
 ):
     """Combine and standardize all cleaned CSVs."""
     context = build_context(city)
     typer.echo(f"🔧 Transforming data for {city}")
-    transform_city_data(context)
+    transform_city_data(context, incremental=incremental)
     typer.secho(f"✅ Transform complete for {city}", fg=typer.colors.GREEN)
 
 
@@ -148,20 +153,22 @@ def pipeline(
     """Run the full pipeline: sync → extract → clean → transform."""
     typer.echo(f"🚴 Starting full pipeline for {city}")
 
+    context = build_context(city)
+
     if not skip_sync:
-        typer.echo("Syncing")
-        sync(city)
+        typer.echo("Step 1: Sync")
+        download_city_data(context)
     else:
         print("Skipping sync")
 
     typer.echo("Step 2: Extract")
-    extract(city)  #
+    extract_city_data(context)
 
     typer.echo("Step 3: Clean")
-    clean(city)
+    clean_city_data(context)
 
     typer.echo("Step 4: Transform")
-    transform(city)
+    transform_city_data(context)
 
     typer.secho(f"✅ Pipeline complete for {city}", fg=typer.colors.GREEN)
 
