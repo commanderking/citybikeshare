@@ -33,6 +33,14 @@ app.add_typer(transform_all_app, name="transform-all")
 
 
 def build_context(city: str) -> PipelineContext:
+    if not Path("pyproject.toml").exists():
+        typer.secho(
+            "Error: must be run from the project root (no pyproject.toml found here).",
+            fg=typer.colors.RED,
+            err=True,
+        )
+        raise typer.Exit(code=1)
+
     data_root = Path("data")
     city_dir = data_root / city
     for sub in ["download", "raw", "metadata", "parquet"]:

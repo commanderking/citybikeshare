@@ -16,7 +16,6 @@ def analyze_headers(context: PipelineContext):
     filtered_files = filter_filenames(csv_files, config)
 
     for file in filtered_files:
-        config = load_city_config(context.city)
         print(file)
         df = pl.read_csv(file, n_rows=1, ignore_errors=True, **read_csv_opts)
         file_headers[str(file)] = df.columns

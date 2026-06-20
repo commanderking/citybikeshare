@@ -58,7 +58,7 @@ final_columns:
 
 date_formats:
   - "%Y-%m-%d %H:%M:%S"
-  - "%Y-%m-%d %H:%M:%S.%f"
+  - "%Y-%m-%d %H:%M:%S%.f"
 processing_pipeline:
   - rename_columns
   - convert_to_datetime
