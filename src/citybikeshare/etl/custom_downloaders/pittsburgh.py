@@ -4,6 +4,7 @@ import csv
 import urllib.request
 from playwright.sync_api import sync_playwright
 from citybikeshare.context import PipelineContext
+from citybikeshare.etl.custom_downloaders.utils.download_helpers import should_download
 
 
 def run(playwright):
@@ -48,9 +49,7 @@ def query_data(resource_ids, context: PipelineContext):
         csv_file = f"{resource_id}.csv"
         download_path = context.download_directory
         csv_file_path = os.path.join(download_path, csv_file)
-        if os.path.exists(csv_file_path):
-            print(f"🟡 Skipping Download for {csv_file_path} - file already exists")
-        else:
+        if should_download(csv_file_path):
             try:
                 fileobj = urllib.request.urlopen(url)
                 data = json.load(fileobj)

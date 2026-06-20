@@ -13,6 +13,14 @@ def generate_link(year):
 def download_year(year, download_path, chunk_size=128):
     url = generate_link(year)
     path = os.path.join(download_path, f"{year}.zip")
+
+    # Past years are complete and immutable; only the current year's archive still
+    # grows as new months are published, so re-fetch only that one.
+    current_year = datetime.datetime.now().year
+    if year < current_year and os.path.exists(path):
+        print(f"🟡 Skipping Download - {year}.zip already exists")
+        return
+
     try:
         r = requests.get(url, stream=True)
         with open(path, "wb") as fd:

@@ -3,6 +3,7 @@ from io import BytesIO
 import os
 import requests
 from citybikeshare.context import PipelineContext
+from citybikeshare.etl.custom_downloaders.utils.download_helpers import should_download
 
 
 def download(config, context: PipelineContext):
@@ -34,19 +35,12 @@ def download(config, context: PipelineContext):
                         target_path = file_path.lower().replace(" ", "_")
 
                         # Skip if already downloaded
-                        if os.path.exists(target_path):
-                            print(
-                                f"🟡 Skipping Download - {os.path.basename(target_path)} exists"
-                            )
-
-                        # Download and Extract
-                        else:
-                            if file.endswith(".csv"):
-                                source = zip_file.open(file)
-                                print(file)
-                                with open(target_path, "wb") as target_file:
-                                    target_file.write(source.read())
-                                    print(f"✅ Downloaded to {target_path}")
+                        if should_download(target_path) and file.endswith(".csv"):
+                            source = zip_file.open(file)
+                            print(file)
+                            with open(target_path, "wb") as target_file:
+                                target_file.write(source.read())
+                                print(f"✅ Downloaded to {target_path}")
             else:
                 print(
                     f"Failed to download file from {resource_metadata['result']['url']}"

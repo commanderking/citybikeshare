@@ -4,6 +4,7 @@ import requests
 from playwright.sync_api import sync_playwright
 
 from citybikeshare.context import PipelineContext
+from citybikeshare.etl.custom_downloaders.utils.download_helpers import should_download
 
 
 def run_get_exports(playwright, url, csv_path):
@@ -29,7 +30,11 @@ def run_get_exports(playwright, url, csv_path):
             with page.expect_download(timeout=120000) as download_info:
                 link.click()
             download = download_info.value
-            download.save_as(os.path.join(csv_path, download.suggested_filename))
+            target_path = os.path.join(csv_path, download.suggested_filename)
+            # Monthly files are immutable once published — don't re-write
+            if not should_download(target_path):
+                continue
+            download.save_as(target_path)
 
     browser.close()
 
@@ -58,7 +63,7 @@ def get_stations_info(context: PipelineContext):
 
 def download(config, context):
     url = config.get("source_url")
-    download_path = context.download_path
+    download_path = context.download_directory
     # Mexico City data only includes station ids, not names
     # get_stations_info()
     with sync_playwright() as playwright:

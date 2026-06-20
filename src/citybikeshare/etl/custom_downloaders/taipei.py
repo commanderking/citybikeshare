@@ -3,6 +3,7 @@ from zipfile import ZipFile
 from io import BytesIO
 import requests
 import polars as pl
+from citybikeshare.etl.custom_downloaders.utils.download_helpers import should_download
 
 
 ### CSV files often have non-ASCII characters (i.e. 202403_YouBike2.0≤º√“®Í•d∏ÍÆ∆.csv)
@@ -32,10 +33,13 @@ def download(config, context):
 
                 for file in zip_contents:
                     clean_file = clean_filename(file)
-
-                    source = zip_file.open(file)
                     target_path = os.path.join(download_path, clean_file)
 
+                    # Monthly files are immutable once published — don't re-write
+                    if not should_download(target_path):
+                        continue
+
+                    source = zip_file.open(file)
                     with open(target_path, "wb") as target_file:
                         target_file.write(source.read())
                         print(f"Downloaded file to {target_path}")

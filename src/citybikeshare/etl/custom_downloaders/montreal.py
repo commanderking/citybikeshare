@@ -31,6 +31,10 @@ def download(config, context: PipelineContext):
         ## Montreal renames its files for the same year as it adds more months.
         ## i.e. in January, it could be 2025_01
         ## in June, it could be 2025_01_02_03_04
+        ## Because of this renaming, the download is intentionally NOT idempotent:
+        ## we clear and refetch every run rather than skip-if-present (a stale
+        ## 2025_01 would otherwise linger alongside 2025_01_02_03_04). Revisit when
+        ## the pipeline gains content-aware manifests.
         shutil.rmtree(download_path, ignore_errors=True)
         os.makedirs(download_path, exist_ok=True)
         run_get_exports(playwright, url, download_path)
