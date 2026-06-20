@@ -21,8 +21,10 @@ from citybikeshare.analysis.generate_duration_buckets import (
 )
 from citybikeshare.analysis.merge_duration_buckets import merge_duration_buckets
 from citybikeshare.etl.inspect import analyze_headers
+from citybikeshare.cli.transform_all import app as transform_all_app
 
 app = typer.Typer(help="Unified CLI for the CityBikeshare ETL pipeline")
+app.add_typer(transform_all_app, name="transform-all")
 
 
 # --------------------------------------------------

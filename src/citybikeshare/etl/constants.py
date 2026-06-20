@@ -26,29 +26,3 @@ BICYCLE_TRANSIT_SYSTEMS_RENAMED_STATION_COLUMNS = {
 }
 
 
-## TODO: Update to dynamically generate results
-ALL_CITIES = [
-    "columbus",
-    "chicago",
-    "boston",
-    "washington_dc",
-    "new_york_city",
-    "san_francisco",
-    "philadelphia",
-    "pittsburgh",
-    "los_angeles",
-    "austin",
-    "chattanooga",
-    "jersey_city",
-    "oslo",
-    "trondheim",
-    "guadalajara",
-    "toronto",
-    "london",
-    "montreal",
-    "vancouver",
-    "taipei",
-    "helsinki",
-    "mexico_city",
-    "bergen",
-]
