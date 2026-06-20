@@ -10,6 +10,12 @@ from citybikeshare.utils.paths import (
     get_csv_files,
 )
 from citybikeshare.context import PipelineContext
+from citybikeshare.etl.state import (
+    file_signature,
+    is_unchanged,
+    load_state,
+    write_state,
+)
 
 
 def filter_filenames(filenames, config):
@@ -89,6 +95,11 @@ def partition_parquet(context: PipelineContext):
     parquet_directory = context.parquet_directory
     output_path = context.transformed_directory
 
+    if not list(parquet_directory.glob("*.parquet")):
+        print("⚠️ No parquet files to partition; clearing output")
+        delete_folder(output_path)
+        return
+
     print(f"Scanning all files in {parquet_directory}")
     lf = pl.scan_parquet(
         parquet_directory / "*.parquet", extra_columns="ignore"
@@ -101,7 +112,9 @@ def partition_parquet(context: PipelineContext):
 
     df = lf.collect(engine="streaming")
 
-    ### Clear out old parquets each time so we don't keep adding to the same folder on each run
+    # Rebuild the partitioned output from scratch so stale partitions don't linger
+    # alongside new ones. The per-file parquet cache in parquet/ is untouched.
+    print(f"🗑️  Rebuilding partitioned output at {output_path}")
     delete_folder(output_path)
 
     df.write_parquet(
@@ -112,17 +125,45 @@ def partition_parquet(context: PipelineContext):
     print("All files created and partitioned!")
 
 
-def convert_csvs_to_parquet(files, context, config):
-    for file in files:
-        print(f"Processing {file}")
-        create_parquet(file, context, config)
+def _parquet_name(csv_file):
+    return os.path.basename(csv_file).replace(".csv", ".parquet")
 
 
-def transform_city_data(context: PipelineContext):
-    source_directory = context.raw_directory
+def _remove_orphan_parquets(context: PipelineContext, expected_names):
+    """Delete parquet files whose source CSV is no longer in the input set, so
+    removed/renamed inputs don't linger in the partitioned output."""
+    for pq in context.parquet_directory.glob("*.parquet"):
+        if pq.name not in expected_names:
+            pq.unlink()
+            print(f"🗑️  Removed orphan parquet: {pq.name}")
+
+
+def transform_city_data(context: PipelineContext, incremental: bool = True):
+    source_directory = context.transform_input_directory
     trip_files = get_csv_files(source_directory)
     config = load_city_config(context.city)
     filtered_files = filter_filenames(trip_files, config)
 
-    convert_csvs_to_parquet(filtered_files, context, config)
+    state = load_state(context.transform_state_path) if incremental else {}
+    new_state: dict = {}
+    expected_parquets = set()
+
+    for file in filtered_files:
+        name = os.path.basename(file)
+        parquet_name = _parquet_name(file)
+        expected_parquets.add(parquet_name)
+        parquet_path = context.parquet_directory / parquet_name
+        recorded = state.get(name)
+
+        if incremental and is_unchanged(file, recorded) and parquet_path.exists():
+            print(f"🟡 Skipping transform - {name} unchanged")
+            new_state[name] = recorded
+            continue
+
+        print(f"Processing {file}")
+        create_parquet(file, context, config)
+        new_state[name] = {**file_signature(file), "outputs": [parquet_name]}
+
+    _remove_orphan_parquets(context, expected_parquets)
+    write_state(context.transform_state_path, new_state)
     partition_parquet(context)

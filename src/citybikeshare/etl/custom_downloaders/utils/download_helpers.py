@@ -7,8 +7,8 @@ def should_download(target_path, *, label=None):
     exists, else True.
 
     Centralizes the name-based "skip if already downloaded" check used by the
-    downloaders for immutable files. When the pipeline gains content-aware
-    manifests, this is the single place that decision needs to change.
+    downloaders for immutable files. When the pipeline gains content-aware state
+    tracking, this is the single place that decision needs to change.
     """
     name = label or os.path.basename(target_path)
     if os.path.exists(target_path):
