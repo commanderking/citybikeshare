@@ -23,10 +23,6 @@ requests = "^2.32.3"
 
 # Data and I/O
 pyarrow = "^21.0.0"
-duckdb = "^1.1.0"
-
-# Optional visualization / frontend
-rich = "^14.2.0"
 chardet = "^5.2.0"
 
 [tool.poetry.group.dev.dependencies]

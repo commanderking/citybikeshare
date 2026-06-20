@@ -5,7 +5,7 @@ from pathlib import Path
 def merge_duration_buckets(analysis_folder):
     all_records = []
 
-    analysis_folder = Path("analysis")
+    analysis_folder = Path(analysis_folder)
     for city_dir in analysis_folder.iterdir():
         if not city_dir.is_dir():
             continue

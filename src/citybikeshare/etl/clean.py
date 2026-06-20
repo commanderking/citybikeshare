@@ -6,15 +6,6 @@ from citybikeshare.config.loader import load_city_config
 from citybikeshare.context import PipelineContext
 
 
-def convert_csvs_to_parquet(files, context: PipelineContext):
-    config = load_city_config(context.city)
-    for file in files:
-        print(f"Processing {file}")
-        clean_pipeline = config.get("clean_pipeline", [])
-        for step in clean_pipeline:
-            CLEAN_FUNCTIONS[step](file)
-
-
 def clean_city_data(context: PipelineContext):
     city = context.city
     path = context.raw_directory

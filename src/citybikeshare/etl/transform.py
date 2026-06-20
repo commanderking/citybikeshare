@@ -69,7 +69,6 @@ def get_csv_scan_params(file_path, opts):
 
 
 def create_parquet(file, context: PipelineContext, config):
-    config = load_city_config(context.city)
     csv_options = config.get("read_csv_options", {})
     params = get_csv_scan_params(file, csv_options)
 
