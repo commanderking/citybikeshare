@@ -153,10 +153,6 @@ def pipeline(
     """Run the full pipeline: sync → extract → clean → transform."""
     typer.echo(f"🚴 Starting full pipeline for {city}")
 
-    # Call the core stage functions directly (not the typer command wrappers): when a
-    # @app.command() function is invoked as a plain function, its Option defaults are
-    # truthy OptionInfo sentinels, not their real values — e.g. extract's `overwrite`
-    # would be truthy and wipe raw/ + the state file on every run.
     context = build_context(city)
 
     if not skip_sync:
