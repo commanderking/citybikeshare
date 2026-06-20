@@ -1,0 +1,10 @@
+repos:
+  - repo: local
+    hooks:
+      - id: generate-supported-cities
+        name: Generate supported cities table
+        entry: poetry run python scripts/generate_cities_table.py
+        language: system
+        pass_filenames: false
+        files: ^src/citybikeshare/config/cities/|^scripts/generate_cities_table\.py$
+

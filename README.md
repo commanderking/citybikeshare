@@ -1,8 +1,144 @@
-### Purpose
+## Purpose
 
-This bikeshare etl pipeline cleans bikeshare data from around the world, and generates easy to analyze parquet folders. It also tries to produce data in a format that is consistent across bikeshare systems, enabling easy comparison of systems.
+This bikeshare ETL pipeline cleans bikeshare data from around the world and produces Parquet datasets that are consistent across systems, so you can compare and analyze them easily.
 
-Currently, data is available for:
+---
+
+## Setup
+
+**Prerequisites**
+
+- **Python 3.9–3.12**
+- **Poetry** (install and add to your `PATH`):
+
+  ```bash
+  curl -sSL https://install.python-poetry.org | python3 -
+  ```
+
+**Install**
+
+1. Clone the repo and go into the project directory:
+
+   ```bash
+   git clone https://github.com/commanderking/citybikeshare.git
+   cd citybikeshare
+   ```
+
+2. (Optional) Use a virtualenv inside the project:
+
+   ```bash
+   poetry config virtualenvs.in-project true
+   ```
+
+3. Install dependencies and the CLI:
+
+   ```bash
+   poetry install
+   ```
+
+4. Run the CLI with:
+
+   ```bash
+   poetry run citybikeshare --help
+   ```
+
+All commands below assume you run them from the **project root** (`citybikeshare/`).
+
+---
+
+## Getting started
+
+Run the full pipeline for one city (sync → extract → clean → transform):
+
+```bash
+poetry run citybikeshare pipeline boston
+```
+
+Output lands in:
+
+- **`data/<city>/`** – raw and cleaned data (download, raw, parquet)
+- **`output/<city>/`** – final Parquet files partitioned by year/month
+- **`analysis/<city>/`** – summary JSON and duration buckets (after you run the analyze commands)
+
+---
+
+## Commands and examples
+
+### Full pipeline
+
+Run all ETL steps for a city. Use `--skip-sync` if you already have raw data.
+
+```bash
+poetry run citybikeshare pipeline boston
+poetry run citybikeshare pipeline vancouver --skip-sync
+```
+
+Pipeline steps: **1. Sync** → **2. Extract** → **3. Clean** → **4. Transform**.
+
+### Individual ETL steps
+
+Run one step at a time (useful when debugging or re-running a single stage).
+
+| Step      | What it does | Example |
+| --------- | ------------- | ------- |
+| **sync**  | Download or sync raw data (web or S3) | `poetry run citybikeshare sync boston` |
+| **extract** | Unzip and extract files into raw CSVs | `poetry run citybikeshare extract boston` |
+| **clean** | Normalize encodings, fix formatting | `poetry run citybikeshare clean boston` |
+| **transform** | Build Parquet files partitioned by year/month | `poetry run citybikeshare transform boston` |
+
+**Extract** supports overwriting existing extracted files:
+
+```bash
+poetry run citybikeshare extract boston --overwrite
+```
+
+### Inspect headers
+
+Inspect CSV headers for a city (e.g. to configure or debug):
+
+```bash
+poetry run citybikeshare inspect boston
+```
+
+### Analysis (after transform)
+
+Generate per-city summary JSON and duration-bucket analysis from the Parquet in `output/<city>/`.
+
+**One city:**
+
+```bash
+poetry run citybikeshare analyze boston
+```
+
+**All cities** that have output in `output/`:
+
+```bash
+poetry run citybikeshare analyze-all
+```
+
+Only duration buckets (skip summary):
+
+```bash
+poetry run citybikeshare analyze-all --duration_buckets
+```
+
+### Merge summaries
+
+Combine per-city summary and duration-bucket files into single JSON files in `analysis/`:
+
+```bash
+poetry run citybikeshare merge-summaries
+```
+
+Produces `analysis/summary_all_cities.json` and `analysis/duration_buckets_all_cities.json`.
+
+For options on any command: `poetry run citybikeshare <command> --help`.
+
+---
+
+## Supported cities and data sources
+
+Data is available for:
 
 | City          | Source |
 | -----------   | ----------- |
@@ -31,7 +167,7 @@ Currently, data is available for:
 | Vancouver     | <https://www.mobibikes.ca/en/system-data> | 
 | Washington DC | <https://capitalbikeshare.com/system-data> | 
 
-Seoul - data is not processable for a few years because of cleaing challenges on ? and misencodeed characters.
+Seoul – data is not processable for a few years because of cleaning challenges (encoding and special characters).
 
 Pittsburgh old data can be found at: https://data.wprdc.org/dataset/healthyride-trip-data
 
@@ -66,37 +202,7 @@ poetry config virtualenvs.in-project true
 ```
 poetry install
 ```
-### Steps to building a parquet or csv file for a city
-
-```
-poetry run citybikeshare pipeline [city]
-```
-
-For example:
-
-```
-poetry run citybikeshare pipeline boston
-```
-
-There are 5 main steps to the process:
-
-1. Sync - downloads the data from the bikeshare website, or syncs it from an amazon s3 bucket 
-2. Extract - unzips zip files or handles any other extraction needed from the originally downloaded files
-2. Clean - cleans any poorly formatted files, encodes to utf-8 from other languages if needed
-3.  Transform - reads the csv data for the city, and creates a corresponding parquet for each file. Then reads all the parquet files and generates an output folder with parquet files partitioned by year and month
-
-
-Each individual step can be run from the command line as well. For example:
-
-```
-poetry run citybikeshare sync oslo
-poetry run citybikeshare extract oslo
-poetry run citybikeshare clean oslo  
-poetry run citybikeshare transform oslo  
-
-```
-
-#### Potential Upcoming Cities in the Pipeline
+### Potential upcoming cities
 
 ### Portland
 Micromobility contains recent day: https://public.ridereport.com/pdx?x=-122.6543855&y=45.6227107&z=9.70, but individual trip data is unavailable
