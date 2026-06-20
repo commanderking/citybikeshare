@@ -8,22 +8,9 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 import typer
 from citybikeshare.etl.transform import transform_city_data
 from citybikeshare.config.loader import CONFIG_DIR
-from citybikeshare.context import PipelineContext
+from citybikeshare.context import build_context
 
 app = typer.Typer(help="Run transformations for all configured cities.")
-
-
-def build_context(city: str) -> PipelineContext:
-    data_root = Path("data")
-    city_dir = data_root / city
-    for sub in ["download", "raw", "metadata", "parquet"]:
-        (city_dir / sub).mkdir(parents=True, exist_ok=True)
-    return PipelineContext(
-        city=city,
-        data_root=data_root,
-        transformed_root=Path("output"),
-        analysis_root=Path("analysis"),
-    )
 
 
 def get_all_cities() -> list[str]:

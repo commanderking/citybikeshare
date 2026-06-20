@@ -13,7 +13,7 @@ from citybikeshare.etl.download import download_city_data
 from citybikeshare.etl.extract import extract_city_data
 from citybikeshare.etl.clean import clean_city_data
 from citybikeshare.etl.transform import transform_city_data
-from citybikeshare.context import PipelineContext
+from citybikeshare.context import build_context
 from citybikeshare.analysis.summarize import summarize_city
 from citybikeshare.analysis.merge_summaries import merge_city_summaries
 from citybikeshare.analysis.generate_duration_buckets import (
@@ -30,28 +30,6 @@ app.add_typer(transform_all_app, name="transform-all")
 # --------------------------------------------------
 # Individual commands (same behavior as before)
 # --------------------------------------------------
-
-
-def build_context(city: str) -> PipelineContext:
-    if not Path("pyproject.toml").exists():
-        typer.secho(
-            "Error: must be run from the project root (no pyproject.toml found here).",
-            fg=typer.colors.RED,
-            err=True,
-        )
-        raise typer.Exit(code=1)
-
-    data_root = Path("data")
-    city_dir = data_root / city
-    for sub in ["download", "raw", "metadata", "parquet"]:
-        (city_dir / sub).mkdir(parents=True, exist_ok=True)
-
-    return PipelineContext(
-        city=city,
-        data_root=Path("data"),
-        transformed_root=Path("output"),
-        analysis_root=Path("analysis"),
-    )
 
 
 @app.command()

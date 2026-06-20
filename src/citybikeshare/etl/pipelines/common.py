@@ -475,7 +475,7 @@ PROCESSING_FUNCTIONS = {
     ### Oslo
     "handle_oslo_legacy_stations": lambda df,
     config,
-    context: handle_oslo_legacy_stations(df, context.city, context),
+    context: handle_oslo_legacy_stations(df, config, context),
     ### Philadelphia and Los Angeles
     "process_bicycle_transit_stations": lambda df,
     config,

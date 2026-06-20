@@ -4,6 +4,40 @@ This bikeshare ETL pipeline cleans bikeshare data from around the world and prod
 
 ---
 
+## Pipeline overview
+
+```mermaid
+flowchart TD
+    subgraph SOURCES["Data Sources"]
+        S3[("AWS S3 bucket")]
+        WEB(["City website · Playwright scrape"])
+    end
+
+    SYNC["sync\nDownload raw files"]
+    EXTRACT["extract\nUnzip / copy CSVs"]
+    CLEAN["clean — optional\nFix encodings & delimiters"]
+    TRANSFORM["transform\nCSV → partitioned Parquet"]
+    ANALYZE["analyze\nGenerate per-city stats"]
+    MERGE["merge-summaries\nCombine all cities"]
+
+    RESULT[/"analysis/summary_all_cities.json
+analysis/duration_buckets_all_cities.json"/]
+
+    SOURCES --> SYNC
+    SYNC     -->|"data/&lt;city&gt;/download/"| EXTRACT
+    EXTRACT  -->|"data/&lt;city&gt;/raw/*.csv"| CLEAN
+    CLEAN    -->|"cleaned in place"| TRANSFORM
+    TRANSFORM -->|"output/&lt;city&gt;/year=YYYY/month=MM/"| ANALYZE
+    ANALYZE  -->|"analysis/&lt;city&gt;/summary.json\nanalysis/&lt;city&gt;/duration_buckets.json"| MERGE
+    MERGE    --> RESULT
+```
+
+> **Shortcuts**
+> - `citybikeshare pipeline <city>` runs sync → extract → clean → transform in one command.
+> - `citybikeshare transform-all` runs the transform step for every configured city in parallel.
+
+---
+
 ## Setup
 
 **Prerequisites**
