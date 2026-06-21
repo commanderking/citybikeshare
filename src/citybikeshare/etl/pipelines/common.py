@@ -45,30 +45,45 @@ def _parse_date_columns(df, columns, date_formats):
     )
 
 
+def _assert_column_parsed(frame, column, guidance, pre_clean=None):
+    """Raise if a value was present in the source but failed to parse — the parsed
+    `column` is null while its `<column>_pre_clean` original was present and non-blank.
+    Genuinely empty/missing values pass through as null. `guidance` is appended to the
+    error so the caller can say how to resolve it (add a date format, exclude a value…).
+
+    Shared by the date and duration validators so the loud-on-unexpected-data behavior
+    stays identical: parse leniently (strict=False), then assert here.
+    """
+    pre_clean = pre_clean or f"{column}_pre_clean"
+    null_count = frame[column].is_null().sum()
+    if not null_count:
+        return
+
+    bad = frame.filter(
+        pl.col(column).is_null()
+        & pl.col(pre_clean).is_not_null()
+        & (pl.col(pre_clean).str.strip_chars() != "")
+    )
+    if len(bad):
+        examples = bad[pre_clean].unique().head(5).to_list()
+        raise ValueError(
+            f"{len(bad)} value(s) in column '{column}' could not be parsed. "
+            f"Examples: {examples}. {guidance}"
+        )
+
+    print(f"ℹ️  {column}: {null_count} row(s) had no value (left null).")
+
+
 def _assert_all_dates_parsed(frame, columns, date_formats):
     """Raise if a column has a value that was present in the source but matched none of
     date_formats — a format the city's YAML doesn't account for. Genuinely empty/missing
     values are allowed through as null."""
+    guidance = (
+        f"They matched none of date_formats={date_formats}. Add the matching "
+        f"format(s) to the city's date_formats in its YAML."
+    )
     for column in columns:
-        null_count = frame[column].is_null().sum()
-        if not null_count:
-            continue
-
-        pre_clean = f"{column}_pre_clean"
-        bad = frame.filter(
-            pl.col(column).is_null()
-            & pl.col(pre_clean).is_not_null()
-            & (pl.col(pre_clean).str.strip_chars() != "")
-        )
-        if len(bad):
-            examples = bad[pre_clean].unique().head(5).to_list()
-            raise ValueError(
-                f"{len(bad)} value(s) in column '{column}' matched none of "
-                f"date_formats={date_formats}. Examples: {examples}. "
-                f"Add the matching format(s) to the city's date_formats in its YAML."
-            )
-
-        print(f"ℹ️  {column}: {null_count} row(s) had no value (left null).")
+        _assert_column_parsed(frame, column, guidance)
 
 
 def convert_columns_to_datetime(date_column_names, date_formats, time_unit: str = "ms"):
@@ -421,27 +436,14 @@ def process_bicycle_transit_system(df, context):
 def _assert_durations_parsed(frame):
     """Raise if a non-empty duration value failed to parse to seconds — i.e. it
     didn't match HH:MM:SS. Genuinely empty/missing values are allowed through as
-    null. Mirrors _assert_all_dates_parsed so a source format change surfaces loudly
-    instead of silently nulling the column."""
-    null_count = frame["duration"].is_null().sum()
-    if not null_count:
-        return
-
-    bad = frame.filter(
-        pl.col("duration").is_null()
-        & pl.col("duration_pre_clean").is_not_null()
-        & (pl.col("duration_pre_clean").str.strip_chars() != "")
+    null. Delegates to _assert_column_parsed so the loud-error behavior matches dates."""
+    _assert_column_parsed(
+        frame,
+        "duration",
+        "They did not match HH:MM:SS. The source format may have changed, or these "
+        "rows are corrupt. Fix the source, or add the value(s) to "
+        "'excluded_duration_values' in the city's YAML to drop those rows.",
     )
-    if len(bad):
-        examples = bad["duration_pre_clean"].unique().head(5).to_list()
-        raise ValueError(
-            f"{len(bad)} value(s) in column 'duration' did not match HH:MM:SS. "
-            f"Examples: {examples}. The source format may have changed, or these rows "
-            f"are corrupt. Fix the source, or add the value(s) to "
-            f"'excluded_duration_values' in the city's YAML to drop those rows."
-        )
-
-    print(f"ℹ️  duration: {null_count} row(s) had no value (left null).")
 
 
 def handle_odd_hour_duration(df, excluded_durations=()):
