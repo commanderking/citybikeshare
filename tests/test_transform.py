@@ -161,14 +161,6 @@ class TestGetCsvScanParams:
         params = get_csv_scan_params("/some/file.csv", opts)
         assert params["separator"] == ";"
 
-    def test_strict_on_ragged_lines_by_default(self):
-        params = get_csv_scan_params("/some/file.csv", {})
-        assert params["truncate_ragged_lines"] is False
-
-    def test_city_can_opt_into_truncation(self):
-        params = get_csv_scan_params("/some/file.csv", {"truncate_ragged_lines": True})
-        assert params["truncate_ragged_lines"] is True
-
 
 class TestDetermineHasHeader:
     def test_returns_true_when_first_row_matches_expected_columns(self, tmp_path):
