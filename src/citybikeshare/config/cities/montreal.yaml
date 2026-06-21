@@ -2,6 +2,9 @@ name: montreal
 system_name: montreal_bikeshare
 source_url: "https://bixi.com/en/open-data/"
 aws_sync: false
+# Montreal renames the current-year archive as months are appended and the
+# downloader prunes the old one; auto-delete the raw CSVs it left behind.
+prune_renamed_archives: true
 file_matcher:
   - "DonneesOuvertes"
   - "OD"
