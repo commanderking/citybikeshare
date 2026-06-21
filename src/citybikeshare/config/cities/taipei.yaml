@@ -45,3 +45,9 @@ processing_pipeline:
   - convert_to_datetime
   - handle_odd_hour_duration
 
+# Known-corrupt raw duration values to drop (rows are removed entirely).
+# Any other value that isn't HH:MM:SS hard-errors instead of being nulled.
+excluded_duration_values:
+  - "17520:06:"   # 2025-09: corrupt row, 17520h duration + bogus 2027 end_time
+  - "87648:04:" # data/taipei/raw/202512.csv
+

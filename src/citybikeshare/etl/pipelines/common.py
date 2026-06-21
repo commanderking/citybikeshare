@@ -418,18 +418,61 @@ def process_bicycle_transit_system(df, context):
     return df
 
 
-def handle_odd_hour_duration(df):
-    ### HH:MM:SS - but hours can go over 24 for Taipei
+def _assert_durations_parsed(frame):
+    """Raise if a non-empty duration value failed to parse to seconds — i.e. it
+    didn't match HH:MM:SS. Genuinely empty/missing values are allowed through as
+    null. Mirrors _assert_all_dates_parsed so a source format change surfaces loudly
+    instead of silently nulling the column."""
+    null_count = frame["duration"].is_null().sum()
+    if not null_count:
+        return
+
+    bad = frame.filter(
+        pl.col("duration").is_null()
+        & pl.col("duration_pre_clean").is_not_null()
+        & (pl.col("duration_pre_clean").str.strip_chars() != "")
+    )
+    if len(bad):
+        examples = bad["duration_pre_clean"].unique().head(5).to_list()
+        raise ValueError(
+            f"{len(bad)} value(s) in column 'duration' did not match HH:MM:SS. "
+            f"Examples: {examples}. The source format may have changed, or these rows "
+            f"are corrupt. Fix the source, or add the value(s) to "
+            f"'excluded_duration_values' in the city's YAML to drop those rows."
+        )
+
+    print(f"ℹ️  duration: {null_count} row(s) had no value (left null).")
+
+
+def handle_odd_hour_duration(df, excluded_durations=()):
+    ### HH:MM:SS - but hours can go over 24 for Taipei.
+    ### Rows whose raw duration is explicitly excluded (known-corrupt values) are
+    ### dropped first; any remaining value that isn't HH:MM:SS raises in
+    ### _assert_durations_parsed rather than being silently nulled.
+    if excluded_durations:
+        df = df.filter(~pl.col("duration").is_in(list(excluded_durations)))
+
+    # strict=False is intentional: a malformed component becomes null *here* so
+    # _assert_durations_parsed can flag it with a descriptive error (and tell an
+    # empty-but-valid value apart from a corrupt one). With strict=True the cast
+    # would throw a cryptic InvalidOperationError before validation runs. This is
+    # the same parse-leniently-then-assert pattern the date parsing uses.
     parts = pl.col("duration").str.split_exact(":", 3)
-    return df.with_columns(
+    df = df.with_columns(
+        pl.col("duration").alias("duration_pre_clean"),
         (
             # hour to seconds
-            parts.struct.field("field_0").cast(pl.Int64) * 3600
+            parts.struct.field("field_0").cast(pl.Int64, strict=False) * 3600
             # minutes to seconds
-            + parts.struct.field("field_1").cast(pl.Int64) * 60
-            + parts.struct.field("field_2").cast(pl.Int64)
-        ).alias("duration")
+            + parts.struct.field("field_1").cast(pl.Int64, strict=False) * 60
+            + parts.struct.field("field_2").cast(pl.Int64, strict=False)
+        ).alias("duration"),
     )
+
+    # Materialize once to validate, then hand downstream a memory-backed lazy frame.
+    frame = df.collect(engine="streaming")
+    _assert_durations_parsed(frame)
+    return frame.drop("duration_pre_clean").lazy()
 
 
 def clean_header_quotes(df: pl.DataFrame) -> pl.DataFrame:
@@ -511,7 +554,7 @@ PROCESSING_FUNCTIONS = {
     context: handle_guadalajara_stations(df, config, context),
     ### Taipei
     "handle_odd_hour_duration": lambda df, config, context: handle_odd_hour_duration(
-        df
+        df, config.get("excluded_duration_values", [])
     ),
     ### Mexico City
     "join_mexico_city_station_names": lambda df,
