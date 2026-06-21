@@ -1,0 +1,46 @@
+name: daejeon
+system_name: daejeon_tashu
+source_url: "https://www.data.go.kr/data/15137219/fileData.do"
+aws_sync: false
+file_matcher:
+  - ".csv"
+renamed_columns:
+  자전거번호: bike_id
+  대여일시: start_time
+  대여_대여소ID: start_station_id
+  대여_대여소명: start_station_name
+  대여_X좌표: start_station_longitude
+  대여_Y좌표: start_station_latitude
+  반납일시: end_time
+  반납_대여소ID: end_station_id
+  반납_대여소명: end_station_name
+  반납_X좌표: end_station_longitude
+  반납_Y좌표: end_station_latitude
+  "이용시간(분)": duration_minutes
+  "이용거리(km)": distance_km
+
+final_columns:
+  - start_time
+  - end_time
+  - start_station_name
+  - end_station_name
+  - bike_id
+
+date_formats:
+  - "%Y-%m-%d %H:%M:%S"
+  # Some months use minute precision (no seconds), with zero-padded or single-digit hours
+  # (e.g. "2025-03-24 18:04", "2025-03-25 8:18"). Without this ~4% of rows fail to parse.
+  - "%Y-%m-%d %H:%M"
+
+clean_pipeline:
+  - encode_utf8
+
+cleaning_options:
+  source_encoding: EUC-KR
+
+processing_pipeline:
+  - clean_header_quotes
+  - rename_columns
+  - select_final_columns
+  - convert_to_datetime
+  - cast_optional_columns

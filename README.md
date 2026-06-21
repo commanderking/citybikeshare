@@ -214,6 +214,7 @@ Data is available for:
 | Chattanooga   | <https://www.chattadata.org/dataset/Historical-Bike-Chattanooga-Trip-Data/wq49-8xgg/about_data> | 
 | Columbus      | <https://cogobikeshare.com/system-data> |
 | Chicago       | <https://divvybikes.com/system-data> |
+| Daejeon       | <https://www.data.go.kr/data/15137219/fileData.do> |
 | Guadalajara   | <https://www.mibici.net/es/datos-abiertos/> |
 | Jersey City   | <https://citibikenyc.com/system-data> |
 | Helsinki      | <https://hri.fi/data/en_GB/dataset/helsingin-ja-espoon-kaupunkipyorilla-ajatut-matkat> |
@@ -295,12 +296,6 @@ https://data.gov.tw/dataset/169174
 ### Seoul
 
 | Seoul         | <https://data.seoul.go.kr/dataList/OA-15182/F/1/datasetView.do#> |
-
-### Daejeon 
-https://www.data.go.kr/data/15137219/fileData.do
-
-But when I last tried to download, got an error saying:
-"We're sorry, the file you selected is currently in the process of being recovered and cannot be provided at this time."
 
 ### Changwon
 

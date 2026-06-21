@@ -10,6 +10,7 @@ Generated from `src/citybikeshare/config/cities/`. Use the **CLI name** with com
 | chattanooga   | `chattanooga`   | [link](https://www.chattadata.org/dataset/Historical-Bike-Chattanooga-Trip-Data/wq49-8xgg/about_data)        | Custom |
 | chicago       | `chicago`       | [link](https://divvybikes.com/system-data)                                                                   | AWS S3 |
 | columbus      | `columbus`      | [link](https://cogobikeshare.com/system-data)                                                                | AWS S3 |
+| daejeon       | `daejeon`       | [link](https://www.data.go.kr/data/15137219/fileData.do)                                                     | Custom |
 | guadalajara   | `guadalajara`   | [link](https://www.mibici.net/es/datos-abiertos/)                                                            | Custom |
 | helsinki      | `helsinki`      | [link](https://hri.fi/data/en_GB/dataset/helsingin-ja-espoon-kaupunkipyorilla-ajatut-matkat)                 | Custom |
 | jersey_city   | `jersey_city`   | [link](https://citibikenyc.com/system-data)                                                                  | AWS S3 |
