@@ -47,7 +47,21 @@ def get_csv_scan_params(file_path, opts):
     has_header = opts.get("has_header", True)
     new_columns = opts.get("new_columns")
 
-    base = {"encoding": "utf8-lossy", "infer_schema_length": 0} | opts
+    # Keep truncate_ragged_lines FALSE so ragged rows fail loudly instead of being silently
+    # mangled. A "ragged" row has more fields than the header declares, e.g. for a 3-column
+    # header "start_time,end_time,station":
+    #   "2024-01-01 00:00,2024-01-01 00:10,Elm St,EXTRA,42.3"  -> 5 fields, 2 trailing extras
+    # Causes: an unquoted comma inside a value ("Main St, Suite 100" splits in two), a stray
+    # trailing comma, schema drift, or files concatenated without a separating newline.
+    # Truncating would only be safe for *trailing* extras; an unquoted comma in an early column
+    # shifts later values and silently mis-aligns the row — so we'd rather error and inspect.
+    # A city whose raggedness is understood and benign can opt in via its read_csv_options:
+    #   read_csv_options: { truncate_ragged_lines: true }   (it overrides this default below).
+    base = {
+        "encoding": "utf8-lossy",
+        "infer_schema_length": 0,
+        "truncate_ragged_lines": False,
+    } | opts
     if has_header == "auto":
         if not new_columns:
             raise ValueError("has_header: auto requires new_columns.")

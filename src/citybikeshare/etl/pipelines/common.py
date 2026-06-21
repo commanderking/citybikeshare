@@ -46,66 +46,74 @@ def convert_columns_to_datetime(date_column_names, date_formats, time_unit: str 
             c for c in date_column_names if schema.get(c) not in (pl.Datetime, pl.Date)
         ]
 
-        df = df.with_columns(
-            [pl.col(column).alias(f"{column}_pre_clean") for column in columns_to_parse]
-        )
-        if columns_to_parse:
-            df = df.with_columns(
-                ## Keep original date columns to enable logging original date columns
+        # Nothing to parse: stay fully lazy/streaming, just normalize the time unit.
+        if not columns_to_parse:
+            print("✅ All datetime columns already parsed")
+            return df.with_columns(
+                [
+                    pl.col(c).cast(pl.Datetime(time_unit)).alias(c)
+                    for c in date_column_names
+                ]
+            )
+
+        # Build the parse lazily. Keep the original strings (_pre_clean) so we can tell a
+        # genuinely-empty value from one that matched no format, then normalize the unit.
+        df = (
+            df.with_columns(
+                [pl.col(c).alias(f"{c}_pre_clean") for c in columns_to_parse]
+            )
+            .with_columns(
                 [
                     pl.coalesce(
                         [
-                            pl.col(column)
+                            pl.col(c)
                             .str.replace(r"\.\d+", "")  # strip fractional seconds
                             .str.strptime(pl.Datetime, fmt, strict=False)
                             for fmt in date_formats
                         ]
-                    ).alias(column)
-                    for column in columns_to_parse
-                ],
+                    ).alias(c)
+                    for c in columns_to_parse
+                ]
             )
-        else:
-            print("✅ All datetime columns already parsed")
+            .with_columns(
+                [
+                    pl.col(c).cast(pl.Datetime(time_unit)).alias(c)
+                    for c in date_column_names
+                ]
+            )
+        )
 
-        ## Fail on values that were present in the source but matched none of the
-        ## configured date_formats — i.e. a format the city's YAML doesn't account for.
-        ## Genuinely empty/missing values are allowed through as null.
+        # Materialize ONCE — this is the single CSV scan+parse. The guard and the
+        # remaining pipeline steps then run on this in-memory frame, so the eventual
+        # sink_parquet won't re-read and re-parse the source CSV.
+        frame = df.collect(engine="streaming")
+
+        ## Fail on values present in the source but matching none of date_formats — a
+        ## format the city's YAML doesn't account for. Empty/missing values stay null.
         for column in columns_to_parse:
-            null_count = df.select(pl.col(column).is_null().sum()).collect().item()
+            null_count = frame[column].is_null().sum()
             if not null_count:
                 continue
 
             pre_clean = f"{column}_pre_clean"
-            unparsed = df.filter(
+            bad = frame.filter(
                 pl.col(column).is_null()
                 & pl.col(pre_clean).is_not_null()
                 & (pl.col(pre_clean).str.strip_chars() != "")
             )
-            examples = (
-                unparsed.select(pl.col(pre_clean))
-                .unique()
-                .limit(5)
-                .collect()
-                .to_series()
-                .to_list()
-            )
-            if examples:
-                count = unparsed.select(pl.len()).collect().item()
+            if len(bad):
+                examples = bad[pre_clean].unique().head(5).to_list()
                 raise ValueError(
-                    f"{count} value(s) in column '{column}' matched none of "
+                    f"{len(bad)} value(s) in column '{column}' matched none of "
                     f"date_formats={date_formats}. Examples: {examples}. "
                     f"Add the matching format(s) to the city's date_formats in its YAML."
                 )
 
             print(f"ℹ️  {column}: {null_count} row(s) had no value (left null).")
 
-        # make sure date times are the same time unit (default ms)
-        return df.with_columns(
-            [
-                pl.col(column).cast(pl.Datetime(time_unit)).alias(column)
-                for column in date_column_names
-            ]
-        )
+        # Drop bookkeeping columns and return a memory-backed lazy frame so downstream
+        # steps (select/cast) and sink_parquet don't trigger another scan of the CSV.
+        return frame.drop([f"{c}_pre_clean" for c in columns_to_parse]).lazy()
 
     return inner
 
