@@ -95,14 +95,19 @@ class TestTransformIncremental:
         state_before = load_state(boston_context.transform_state_path)
         recorded_bytes = state_before[BOSTON_2024.name]["bytes"]
 
-        # Append a row so the size (and thus signature) changes.
+        # Append a well-formed row so the size (and thus signature) changes. Ensure the
+        # file ends with a newline first, otherwise the new row merges onto the last line
+        # and (correctly, now) fails as a ragged line.
         raw_file = boston_context.raw_directory / BOSTON_2024.name
-        with open(raw_file, "a") as f:
-            f.write(
-                '"EXTRA123","classic_bike","2024-01-15 10:00:00","2024-01-15 10:05:00",'
-                '"Ames St at Main St","M32037","Central Square","M32011",'
-                "42.36,-71.08,42.36,-71.10,\"member\"\n"
-            )
+        content = raw_file.read_text()
+        if not content.endswith("\n"):
+            content += "\n"
+        content += (
+            '"EXTRA123","classic_bike","2024-01-15 10:00:00","2024-01-15 10:05:00",'
+            '"Ames St at Main St","M32037","Central Square","M32011",'
+            '42.36,-71.08,42.36,-71.10,"member"\n'
+        )
+        raw_file.write_text(content)
 
         transform_city_data(boston_context)
         state_after = load_state(boston_context.transform_state_path)
