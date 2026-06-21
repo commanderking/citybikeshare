@@ -110,16 +110,16 @@ def partition_parquet(context: PipelineContext):
         ]
     )
 
-    df = lf.collect(engine="streaming")
-
     # Rebuild the partitioned output from scratch so stale partitions don't linger
     # alongside new ones. The per-file parquet cache in parquet/ is untouched.
     print(f"🗑️  Rebuilding partitioned output at {output_path}")
     delete_folder(output_path)
 
-    df.write_parquet(
-        output_path,
-        partition_by=["year", "month"],
+    # Stream straight to the partitioned dataset (year=YYYY/month=MM) rather than collecting
+    # the whole city into memory first — bounded memory, single streaming pass.
+    lf.sink_parquet(
+        pl.PartitionByKey(output_path, by=["year", "month"]),
+        mkdir=True,
     )
 
     print("All files created and partitioned!")
