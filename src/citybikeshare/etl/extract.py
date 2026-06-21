@@ -98,12 +98,72 @@ def _all_outputs_exist(raw_dir: Path, outputs: List[str]) -> bool:
     return all((raw_dir / name).exists() for name in outputs)
 
 
+def _orphan_raw_files(
+    raw_dir: Path, previous_state: dict, new_state: dict
+) -> dict:
+    """Detect raw files left behind by archives no longer present in download/.
+
+    Returns {vanished_archive: [orphaned output names]}. When a source archive
+    disappears (e.g. Montreal renames its cumulative zip and the old one is
+    pruned from download/), the CSVs it extracted would otherwise linger in raw/
+    and be re-counted downstream.
+
+    A previously-recorded output counts as an orphan only when it still exists on
+    disk AND no archive present this run produces a file of the same name — this
+    protects cumulative archives whose member names are stable across re-bundles
+    (e.g. Daejeon) and never flags untracked legacy files (anything not recorded
+    in the prior state).
+    """
+    current_outputs = {
+        name for entry in new_state.values() for name in entry.get("outputs", [])
+    }
+    vanished = set(previous_state) - set(new_state)
+    orphans: dict = {}
+    for source_name in sorted(vanished):
+        names = [
+            output
+            for output in previous_state[source_name].get("outputs", [])
+            if output not in current_outputs and (raw_dir / output).exists()
+        ]
+        if names:
+            orphans[source_name] = names
+    return orphans
+
+
+def _apply_orphan_cleanup(raw_dir: Path, orphans: dict, prune: bool) -> List[str]:
+    """Delete orphaned raw files when prune is enabled; otherwise warn and keep.
+
+    Deletion is opt-in per city (`prune_renamed_archives: true`) because raw/ is
+    the local source of truth after download — a wrong delete may be
+    unrecoverable if the source no longer serves the file. Detection/warning is
+    global so a newly cumulative city can't silently duplicate data for long.
+    """
+    removed: List[str] = []
+    for source_name, names in orphans.items():
+        if prune:
+            for output in names:
+                (raw_dir / output).unlink()
+                removed.append(output)
+                print(
+                    f"🗑️  Removed orphaned raw file (source {source_name} gone): {output}"
+                )
+        else:
+            print(
+                f"⚠️  Archive {source_name} is gone from download/; its raw outputs "
+                f"may now be duplicates: {names}. "
+                f"Set 'prune_renamed_archives: true' for this city to auto-clean."
+            )
+    return removed
+
+
 def extract_city_data(context: PipelineContext, overwrite: bool = False) -> List[Path]:
     """
     Extract all downloaded archives for a city into its raw folder.
 
     Supports nested ZIPs, .txt-to-.csv conversion, and removes AppleDouble (._) metadata files.
-    Skips downloads whose size+mtime signature is unchanged since the last run.
+    Skips downloads whose size+mtime signature is unchanged since the last run. Raw files left
+    behind by archives no longer present in download/ are warned about, and deleted when the
+    city sets `prune_renamed_archives: true`.
     """
     config = load_city_config(context.city)
     city_name = config["name"]
@@ -165,6 +225,11 @@ def extract_city_data(context: PipelineContext, overwrite: bool = False) -> List
             **file_signature(entry),
             "outputs": [p.name for p in produced],
         }
+
+    orphans = _orphan_raw_files(raw_dir, state, new_state)
+    _apply_orphan_cleanup(
+        raw_dir, orphans, prune=config.get("prune_renamed_archives", False)
+    )
 
     write_state(context.extract_state_path, new_state)
 
