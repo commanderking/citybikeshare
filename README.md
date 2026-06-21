@@ -34,6 +34,7 @@ analysis/duration_buckets_all_cities.json"/]
 
 > **Shortcuts**
 > - `citybikeshare pipeline <city>` runs sync → extract → clean → transform in one command.
+> - `citybikeshare pipeline-all` runs the full pipeline for every configured city in parallel.
 > - `citybikeshare transform-all` runs the transform step for every configured city in parallel.
 >
 > **Each stage is incremental** — sync, extract, clean, and transform skip files that haven't
@@ -112,6 +113,17 @@ poetry run citybikeshare pipeline vancouver --skip-sync
 ```
 
 Pipeline steps: **1. Sync** → **2. Extract** → **3. Clean** → **4. Transform**.
+
+Run the full pipeline for **every configured city** in parallel:
+
+```bash
+poetry run citybikeshare pipeline-all
+poetry run citybikeshare pipeline-all --skip-sync      # reuse already-synced data
+poetry run citybikeshare pipeline-all --max-workers 8  # tune parallelism (default 4)
+```
+
+Each city runs independently — a failure in one city is reported in the final
+summary and does not stop the others.
 
 ### Individual ETL steps
 

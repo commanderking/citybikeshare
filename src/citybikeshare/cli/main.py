@@ -22,6 +22,7 @@ from citybikeshare.analysis.generate_duration_buckets import (
 from citybikeshare.analysis.merge_duration_buckets import merge_duration_buckets
 from citybikeshare.etl.inspect import analyze_headers
 from citybikeshare.cli.transform_all import app as transform_all_app
+from citybikeshare.cli.pipeline_all import run_pipeline_all
 
 app = typer.Typer(help="Unified CLI for the CityBikeshare ETL pipeline")
 app.add_typer(transform_all_app, name="transform-all")
@@ -171,6 +172,20 @@ def pipeline(
     transform_city_data(context)
 
     typer.secho(f"✅ Pipeline complete for {city}", fg=typer.colors.GREEN)
+
+
+@app.command(name="pipeline-all")
+def pipeline_all(
+    skip_sync: bool = typer.Option(False, help="Skip the sync step for every city."),
+    max_workers: int = typer.Option(
+        4,
+        "--max-workers",
+        "-w",
+        help="Number of cities to process in parallel.",
+    ),
+):
+    """Run the full pipeline (sync → extract → clean → transform) for every city."""
+    run_pipeline_all(skip_sync=skip_sync, max_workers=max_workers)
 
 
 if __name__ == "__main__":
