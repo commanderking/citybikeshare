@@ -43,5 +43,13 @@ processing_pipeline:
   - rename_columns
   - select_final_columns
   - convert_to_datetime
+  - remove_invalid_rows
   - handle_odd_hour_duration
+
+# Curated known-corrupt values to drop (whole rows removed), keyed by column.
+# Any other value that doesn't parse hard-errors instead of being nulled.
+invalid_values:
+  duration:
+    - "17520:06:"   # 2025-09: corrupt row, 17520h duration + bogus 2027 end_time
+    - "87648:04:"   # 2025-12
 

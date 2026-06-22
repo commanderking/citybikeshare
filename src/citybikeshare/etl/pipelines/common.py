@@ -45,30 +45,42 @@ def _parse_date_columns(df, columns, date_formats):
     )
 
 
+def _assert_column_parsed(frame, column, guidance, pre_clean=None):
+    """Raise if a value was present in the source but failed to parse — the parsed
+    `column` is null while its `<column>_pre_clean` original was present and non-blank.
+    Genuinely empty/missing values pass through as null.
+
+    """
+    pre_clean = pre_clean or f"{column}_pre_clean"
+    null_count = frame[column].is_null().sum()
+    if not null_count:
+        return
+
+    bad = frame.filter(
+        pl.col(column).is_null()
+        & pl.col(pre_clean).is_not_null()
+        & (pl.col(pre_clean).str.strip_chars() != "")
+    )
+    if len(bad):
+        examples = bad[pre_clean].unique().head(5).to_list()
+        raise ValueError(
+            f"{len(bad)} value(s) in column '{column}' could not be parsed. "
+            f"Examples: {examples}. {guidance}"
+        )
+
+    print(f"ℹ️  {column}: {null_count} row(s) had no value (left null).")
+
+
 def _assert_all_dates_parsed(frame, columns, date_formats):
     """Raise if a column has a value that was present in the source but matched none of
     date_formats — a format the city's YAML doesn't account for. Genuinely empty/missing
     values are allowed through as null."""
+    guidance = (
+        f"They matched none of date_formats={date_formats}. Add the matching "
+        f"format(s) to the city's date_formats in its YAML."
+    )
     for column in columns:
-        null_count = frame[column].is_null().sum()
-        if not null_count:
-            continue
-
-        pre_clean = f"{column}_pre_clean"
-        bad = frame.filter(
-            pl.col(column).is_null()
-            & pl.col(pre_clean).is_not_null()
-            & (pl.col(pre_clean).str.strip_chars() != "")
-        )
-        if len(bad):
-            examples = bad[pre_clean].unique().head(5).to_list()
-            raise ValueError(
-                f"{len(bad)} value(s) in column '{column}' matched none of "
-                f"date_formats={date_formats}. Examples: {examples}. "
-                f"Add the matching format(s) to the city's date_formats in its YAML."
-            )
-
-        print(f"ℹ️  {column}: {null_count} row(s) had no value (left null).")
+        _assert_column_parsed(frame, column, guidance)
 
 
 def convert_columns_to_datetime(date_column_names, date_formats, time_unit: str = "ms"):
@@ -418,18 +430,70 @@ def process_bicycle_transit_system(df, context):
     return df
 
 
+def _assert_durations_parsed(frame):
+    """Raise if a non-empty duration value failed to parse to seconds — i.e. it
+    didn't match HH:MM:SS. Genuinely empty/missing values are allowed through as
+    null. Delegates to _assert_column_parsed so the loud-error behavior matches dates."""
+    _assert_column_parsed(
+        frame,
+        "duration",
+        "They did not match HH:MM:SS. The source format may have changed, or these "
+        "rows are corrupt. Fix the source, or add the value(s) under "
+        "'invalid_values: duration' in the city's YAML to drop those rows.",
+    )
+
+
+def remove_invalid_rows(df, invalid_values):
+    """Drop rows whose value in a column matches a curated list of known-invalid
+    values, logging what's removed so it stays visible.
+
+    `invalid_values` maps column -> exact raw values to drop. This handles KNOWN
+    garbage explicitly; anything *not* listed that still fails to parse trips the loud
+    validators downstream (the safety net). Runs after the data is materialized
+    (e.g. by convert_to_datetime) so the audit collect hits the in-memory frame
+    rather than re-scanning the CSV.
+    """
+    for column, bad_values in invalid_values.items():
+        if not bad_values:
+            continue
+        bad_mask = pl.col(column).is_in(list(bad_values))
+        dropped = df.filter(bad_mask).select(column).collect()  # tiny: only matches
+        if dropped.height:
+            breakdown = dropped[column].value_counts().to_dicts()
+            print(
+                f"🧹 remove_invalid_rows: dropped {dropped.height} row(s) on "
+                f"'{column}': {breakdown}"
+            )
+        df = df.filter(~bad_mask)
+    return df
+
+
 def handle_odd_hour_duration(df):
-    ### HH:MM:SS - but hours can go over 24 for Taipei
+    ### HH:MM:SS - but hours can go over 24 for Taipei. Known-corrupt values are
+    ### removed upstream by remove_invalid_rows; anything left that isn't HH:MM:SS
+    ### raises in _assert_durations_parsed rather than being silently nulled.
+
+    # strict=False is intentional: a malformed component becomes null *here* so
+    # _assert_durations_parsed can flag it with a descriptive error (and tell an
+    # empty-but-valid value apart from a corrupt one). With strict=True the cast
+    # would throw a cryptic InvalidOperationError before validation runs. This is
+    # the same parse-leniently-then-assert pattern the date parsing uses.
     parts = pl.col("duration").str.split_exact(":", 3)
-    return df.with_columns(
+    df = df.with_columns(
+        pl.col("duration").alias("duration_pre_clean"),
         (
             # hour to seconds
-            parts.struct.field("field_0").cast(pl.Int64) * 3600
+            parts.struct.field("field_0").cast(pl.Int64, strict=False) * 3600
             # minutes to seconds
-            + parts.struct.field("field_1").cast(pl.Int64) * 60
-            + parts.struct.field("field_2").cast(pl.Int64)
-        ).alias("duration")
+            + parts.struct.field("field_1").cast(pl.Int64, strict=False) * 60
+            + parts.struct.field("field_2").cast(pl.Int64, strict=False)
+        ).alias("duration"),
     )
+
+    # Materialize once to validate, then hand downstream a memory-backed lazy frame.
+    frame = df.collect(engine="streaming")
+    _assert_durations_parsed(frame)
+    return frame.drop("duration_pre_clean").lazy()
 
 
 def clean_header_quotes(df: pl.DataFrame) -> pl.DataFrame:
@@ -510,6 +574,9 @@ PROCESSING_FUNCTIONS = {
     config,
     context: handle_guadalajara_stations(df, config, context),
     ### Taipei
+    "remove_invalid_rows": lambda df, config, context: remove_invalid_rows(
+        df, config.get("invalid_values", {})
+    ),
     "handle_odd_hour_duration": lambda df, config, context: handle_odd_hour_duration(
         df
     ),
