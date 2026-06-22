@@ -48,11 +48,8 @@ def _parse_date_columns(df, columns, date_formats):
 def _assert_column_parsed(frame, column, guidance, pre_clean=None):
     """Raise if a value was present in the source but failed to parse — the parsed
     `column` is null while its `<column>_pre_clean` original was present and non-blank.
-    Genuinely empty/missing values pass through as null. `guidance` is appended to the
-    error so the caller can say how to resolve it (add a date format, exclude a value…).
+    Genuinely empty/missing values pass through as null.
 
-    Shared by the date and duration validators so the loud-on-unexpected-data behavior
-    stays identical: parse leniently (strict=False), then assert here.
     """
     pre_clean = pre_clean or f"{column}_pre_clean"
     null_count = frame[column].is_null().sum()
@@ -441,18 +438,40 @@ def _assert_durations_parsed(frame):
         frame,
         "duration",
         "They did not match HH:MM:SS. The source format may have changed, or these "
-        "rows are corrupt. Fix the source, or add the value(s) to "
-        "'excluded_duration_values' in the city's YAML to drop those rows.",
+        "rows are corrupt. Fix the source, or add the value(s) under "
+        "'invalid_values: duration' in the city's YAML to drop those rows.",
     )
 
 
-def handle_odd_hour_duration(df, excluded_durations=()):
-    ### HH:MM:SS - but hours can go over 24 for Taipei.
-    ### Rows whose raw duration is explicitly excluded (known-corrupt values) are
-    ### dropped first; any remaining value that isn't HH:MM:SS raises in
-    ### _assert_durations_parsed rather than being silently nulled.
-    if excluded_durations:
-        df = df.filter(~pl.col("duration").is_in(list(excluded_durations)))
+def remove_invalid_rows(df, invalid_values):
+    """Drop rows whose value in a column matches a curated list of known-invalid
+    values, logging what's removed so it stays visible.
+
+    `invalid_values` maps column -> exact raw values to drop. This handles KNOWN
+    garbage explicitly; anything *not* listed that still fails to parse trips the loud
+    validators downstream (the safety net). Runs after the data is materialized
+    (e.g. by convert_to_datetime) so the audit collect hits the in-memory frame
+    rather than re-scanning the CSV.
+    """
+    for column, bad_values in invalid_values.items():
+        if not bad_values:
+            continue
+        bad_mask = pl.col(column).is_in(list(bad_values))
+        dropped = df.filter(bad_mask).select(column).collect()  # tiny: only matches
+        if dropped.height:
+            breakdown = dropped[column].value_counts().to_dicts()
+            print(
+                f"🧹 remove_invalid_rows: dropped {dropped.height} row(s) on "
+                f"'{column}': {breakdown}"
+            )
+        df = df.filter(~bad_mask)
+    return df
+
+
+def handle_odd_hour_duration(df):
+    ### HH:MM:SS - but hours can go over 24 for Taipei. Known-corrupt values are
+    ### removed upstream by remove_invalid_rows; anything left that isn't HH:MM:SS
+    ### raises in _assert_durations_parsed rather than being silently nulled.
 
     # strict=False is intentional: a malformed component becomes null *here* so
     # _assert_durations_parsed can flag it with a descriptive error (and tell an
@@ -555,8 +574,11 @@ PROCESSING_FUNCTIONS = {
     config,
     context: handle_guadalajara_stations(df, config, context),
     ### Taipei
+    "remove_invalid_rows": lambda df, config, context: remove_invalid_rows(
+        df, config.get("invalid_values", {})
+    ),
     "handle_odd_hour_duration": lambda df, config, context: handle_odd_hour_duration(
-        df, config.get("excluded_duration_values", [])
+        df
     ),
     ### Mexico City
     "join_mexico_city_station_names": lambda df,

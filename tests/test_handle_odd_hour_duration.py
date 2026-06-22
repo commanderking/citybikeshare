@@ -4,9 +4,9 @@ import pytest
 from citybikeshare.etl.pipelines.common import handle_odd_hour_duration
 
 
-def _durations(values, excluded=()):
+def _durations(values):
     lf = pl.LazyFrame({"duration": values})
-    return handle_odd_hour_duration(lf, excluded).collect()["duration"].to_list()
+    return handle_odd_hour_duration(lf).collect()["duration"].to_list()
 
 
 def test_parses_hms_to_seconds():
@@ -24,17 +24,7 @@ def test_empty_or_whitespace_duration_is_null_not_error():
 
 
 def test_malformed_duration_hard_errors():
-    # Real corrupt value from 202509.csv: empty seconds field. Must surface, not null.
+    # Known-corrupt values are removed upstream by remove_invalid_rows;
+    # anything malformed that reaches here must surface, not be nulled.
     with pytest.raises(ValueError, match="did not match HH:MM:SS"):
         _durations(["17520:06:", "00:05:00"])
-
-
-def test_excluded_value_is_dropped_and_does_not_raise():
-    # The known-corrupt row is excluded -> dropped; the good row survives.
-    assert _durations(["17520:06:", "00:05:00"], excluded=["17520:06:"]) == [300]
-
-
-def test_excluding_one_bad_value_does_not_mask_another():
-    # Excluding the known value must not suppress a *different* unparseable value.
-    with pytest.raises(ValueError, match="did not match HH:MM:SS"):
-        _durations(["17520:06:", "99:99:"], excluded=["17520:06:"])
