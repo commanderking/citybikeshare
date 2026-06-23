@@ -2,6 +2,7 @@ import shutil
 from pathlib import Path
 from citybikeshare.utils.io_clean import (
     CLEAN_FUNCTIONS,
+    stream_clean_to_gzip,
 )
 from citybikeshare.config.loader import load_city_config
 from citybikeshare.context import PipelineContext
@@ -31,6 +32,10 @@ def clean_city_data(context: PipelineContext):
         print(f"⚠️ No CSV files found for {city}")
         return
 
+    # Large cities can opt into a streaming, gzip-compressed cleaned copy instead of an
+    # uncompressed full duplicate (e.g. Seoul: ~40G raw). The output is `<name>.csv.gz`.
+    compress = config.get("compress_cleaned", False)
+
     print(f"🧽 Cleaning {len(csv_files)} CSV files for {city}...")
     cleaned_dir.mkdir(parents=True, exist_ok=True)
 
@@ -38,7 +43,8 @@ def clean_city_data(context: PipelineContext):
     new_state: dict = {}
 
     for raw_file in csv_files:
-        cleaned_file = cleaned_dir / raw_file.name
+        cleaned_name = raw_file.name + ".gz" if compress else raw_file.name
+        cleaned_file = cleaned_dir / cleaned_name
         recorded = state.get(raw_file.name)
 
         # Skip when the raw input is unchanged and its cleaned output still exists.
@@ -47,15 +53,20 @@ def clean_city_data(context: PipelineContext):
             new_state[raw_file.name] = recorded
             continue
 
-        # Copy raw -> cleaned and mutate the COPY, leaving raw/ immutable.
-        print(f"\n📄 Cleaning {raw_file.name}")
-        shutil.copy2(raw_file, cleaned_file)
-        for step in clean_pipeline:
-            fn = CLEAN_FUNCTIONS.get(step)
-            if fn:
-                fn(cleaned_file, config)
-            else:
-                print(f"⚠️ Unknown clean step: {step}")
+        if compress:
+            # Single streaming pass: raw -> gzipped cleaned, bounded memory, no copy.
+            print(f"\n📄 Cleaning (stream+gzip) {raw_file.name}")
+            stream_clean_to_gzip(raw_file, cleaned_file, clean_pipeline, config)
+        else:
+            # Copy raw -> cleaned and mutate the COPY, leaving raw/ immutable.
+            print(f"\n📄 Cleaning {raw_file.name}")
+            shutil.copy2(raw_file, cleaned_file)
+            for step in clean_pipeline:
+                fn = CLEAN_FUNCTIONS.get(step)
+                if fn:
+                    fn(cleaned_file, config)
+                else:
+                    print(f"⚠️ Unknown clean step: {step}")
 
         new_state[raw_file.name] = {
             **file_signature(raw_file),

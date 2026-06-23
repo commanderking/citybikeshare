@@ -5,15 +5,6 @@ aws_sync: false
 file_matcher:
   - ".csv"
 
-excluded_filenames:
-# These files need special cleaning that hasn't been resolved yet
-# Attempts have been made (see clean_seoul_files), but there still are issues
-  - "2020"
-  - "2021"
-# No headers in these files
-  - "대여정보_201812"
-  - 대여정보_201905
-  - 공공자전거 대여정보_201904
 renamed_columns:
   자전거번호: bike_id
   대여일시: start_time
@@ -49,14 +40,29 @@ renamed_columns:
   반납 거치대번호: end_station_dock_number
 
 date_formats:
+# 2017년_3분기_2.csv.gz
 - "%Y-%m-%d %H:%M:%S"
+# Some 2017 files wrap the timestamp in literal single quotes ('2017-09-16 19:55:07')
+- "'%Y-%m-%d %H:%M:%S'"
+# Some 2017 files omit seconds, with a non-padded hour (e.g. 2017-01-29 1:39)
+- "%Y-%m-%d %H:%M"
+
+read_csv_options:
+  null_values:
+    - "0000-00-00 00:00:00"   # zero-date sentinel = missing end time -> null
 
 clean_pipeline:
   - encode_utf8
   - clean_seoul_files
+  - drop_unbalanced_quote_lines   # a few corrupt rows have a stray quote
+  - seoul_prepend_header          # 201812/201904/201905 ship without a header
 
 cleaning_options:
   source_encoding: EUC-KR
+
+# Seoul's raw data is ~40G; stream the clean to gzip-compressed cleaned/*.csv.gz
+# instead of writing an uncompressed full duplicate.
+compress_cleaned: true
 
 processing_pipeline:
   - clean_header_quotes
