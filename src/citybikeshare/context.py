@@ -57,7 +57,9 @@ class PipelineContext:
     def transform_input_directory(self) -> Path:
         """Directory transform reads from: cleaned/ when it has CSVs, else raw/."""
         cleaned = self.cleaned_directory
-        if cleaned.exists() and any(cleaned.glob("*.csv")):
+        if cleaned.exists() and (
+            any(cleaned.glob("*.csv")) or any(cleaned.glob("*.csv.gz"))
+        ):
             return cleaned
         return self.raw_directory
 

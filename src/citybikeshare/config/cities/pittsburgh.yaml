@@ -49,6 +49,7 @@ final_columns:
 date_formats:
   - "%m/%d/%Y %H:%M"
   - "%Y-%m-%dT%H:%M:%S"
+  - "%Y-%m-%d %H:%M:%S"   # space separator (2026-05+ exports); same as the T variant above
   - "%a, %b %d, %Y, %I:%M %p"
 processing_pipeline:
   - rename_columns

@@ -1,3 +1,4 @@
+import gzip
 import os
 import polars as pl
 from citybikeshare.config.loader import load_city_config
@@ -38,7 +39,8 @@ def filter_filenames(filenames, config):
 
 def determine_has_header(file_path, expected_columns):
     # Not all files have headers
-    with open(file_path, "r", encoding="utf-8", errors="replace") as file:
+    opener = gzip.open if str(file_path).endswith(".gz") else open
+    with opener(file_path, "rt", encoding="utf-8", errors="replace") as file:
         first_line = file.readline().strip().split(",")
         return all(item in expected_columns for item in first_line)
 
@@ -84,7 +86,7 @@ def create_parquet(file, context: PipelineContext, config):
         df = execute_step(df, config, context)
 
     parquet_directory = context.parquet_directory
-    file_name = os.path.basename(file).replace(".csv", ".parquet")
+    file_name = _parquet_name(file)
     parquet_path = parquet_directory / file_name
 
     df.sink_parquet(parquet_path)
@@ -126,7 +128,11 @@ def partition_parquet(context: PipelineContext):
 
 
 def _parquet_name(csv_file):
-    return os.path.basename(csv_file).replace(".csv", ".parquet")
+    base = os.path.basename(csv_file)
+    for suffix in (".csv.gz", ".csv"):
+        if base.endswith(suffix):
+            return base[: -len(suffix)] + ".parquet"
+    return base + ".parquet"
 
 
 def _remove_orphan_parquets(context: PipelineContext, expected_names):
