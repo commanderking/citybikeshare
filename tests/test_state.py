@@ -169,12 +169,13 @@ class TestExtractIncremental:
         extract_city_data(extract_context)
 
         raw = extract_context.raw_directory
-        assert (raw / "202603-tripdata.csv").exists()
+        # Raw is stored gzipped (`<name>.csv.gz`).
+        assert (raw / "202603-tripdata.csv.gz").exists()
         assert not (raw / "._202603-tripdata.csv").exists()
         # AppleDouble names must not be recorded as outputs (this is what broke skips).
         state = load_state(extract_context.extract_state_path)
         outputs = state["202603-tripdata.zip"]["outputs"]
-        assert outputs == ["202603-tripdata.csv"]
+        assert outputs == ["202603-tripdata.csv.gz"]
 
     def test_unchanged_archive_is_skipped(self, extract_context):
         _make_zip(
@@ -182,7 +183,7 @@ class TestExtractIncremental:
             {"202603-tripdata.csv": "a,b\n1,2\n", "._202603-tripdata.csv": "junk"},
         )
         extract_city_data(extract_context)
-        extracted = extract_context.raw_directory / "202603-tripdata.csv"
+        extracted = extract_context.raw_directory / "202603-tripdata.csv.gz"
         first_mtime = extracted.stat().st_mtime_ns
 
         # Second run: archive unchanged + output present → skip (no re-extract).
@@ -198,7 +199,7 @@ class TestExtractIncremental:
         )
         extract_city_data(extract_context)
         raw = extract_context.raw_directory
-        a_mtime = (raw / "a.csv").stat().st_mtime_ns
+        a_mtime = (raw / "a.csv.gz").stat().st_mtime_ns
 
         # New release: a unchanged, b grew, c is new. Overwrite the same archive.
         _make_zip(
@@ -209,10 +210,11 @@ class TestExtractIncremental:
                 "c.csv": "x,y\n9,9\n",  # new
             },
         )
-        b_mtime_before = (raw / "b.csv").stat().st_mtime_ns
+        b_mtime_before = (raw / "b.csv.gz").stat().st_mtime_ns
         extract_city_data(extract_context)
 
         # Unchanged member keeps its mtime (so transform skips it); changed/new are written.
-        assert (raw / "a.csv").stat().st_mtime_ns == a_mtime
-        assert (raw / "b.csv").stat().st_mtime_ns != b_mtime_before
-        assert (raw / "c.csv").exists()
+        # The unchanged check compares uncompressed sizes via the gzip ISIZE trailer.
+        assert (raw / "a.csv.gz").stat().st_mtime_ns == a_mtime
+        assert (raw / "b.csv.gz").stat().st_mtime_ns != b_mtime_before
+        assert (raw / "c.csv.gz").exists()
