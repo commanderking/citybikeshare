@@ -11,6 +11,7 @@ size+mtime signature plus the raw files it produced. On a re-run an archive whos
 signature is unchanged (and whose outputs still exist) is skipped.
 """
 
+import gzip
 import os
 import shutil
 import zipfile
@@ -26,6 +27,28 @@ from citybikeshare.etl.state import (
     load_state,
     write_state,
 )
+
+
+_GZIP_LEVEL = 6
+_COPY_CHUNK = 1024 * 1024
+
+
+def _gzip_file(src_path, dst_path: Path) -> None:
+    """Stream-compress src_path -> dst_path (gzip). Bounded memory, no full read."""
+    with open(src_path, "rb") as fin, gzip.open(
+        dst_path, "wb", compresslevel=_GZIP_LEVEL
+    ) as fout:
+        shutil.copyfileobj(fin, fout, length=_COPY_CHUNK)
+
+
+def _gzip_uncompressed_size(gz_path: Path) -> int:
+    """Uncompressed size of a gzip file from its ISIZE trailer (the last 4 bytes,
+    little-endian). Cheap — no full decompress. Valid for members < 4 GiB, which
+    covers monthly bikeshare CSVs; this is only used for the cumulative-archive
+    "unchanged member" check, so a rare >4 GiB false-miss just rewrites the file."""
+    with open(gz_path, "rb") as f:
+        f.seek(-4, os.SEEK_END)
+        return int.from_bytes(f.read(4), "little")
 
 
 def _extract_archive(zip_path, raw_dir: Path) -> List[Path]:
@@ -59,30 +82,42 @@ def _extract_archive(zip_path, raw_dir: Path) -> List[Path]:
                                 print(f"📦 Found nested zip (copied): {copied_path}")
 
                             elif file.lower().endswith(".csv"):
-                                target_path = raw_dir / file
+                                # Store raw as gzip (`<name>.csv.gz`); the read path
+                                # (transform/clean) handles `.gz` transparently.
+                                target_path = raw_dir / (file + ".gz")
                                 # Cumulative archives (e.g. Daejeon) re-bundle every month.
-                                # Only rewrite a member when it's new or its size changed, so
-                                # unchanged files keep their mtime and transform skips them.
+                                # Only rewrite a member when it's new or its (uncompressed)
+                                # size changed, so unchanged files keep their mtime and
+                                # transform skips them.
                                 src_size = os.path.getsize(full_path)
                                 if (
                                     target_path.exists()
-                                    and target_path.stat().st_size == src_size
+                                    and _gzip_uncompressed_size(target_path) == src_size
                                 ):
-                                    print(f"🟡 Unchanged member, keeping {file}")
+                                    print(f"🟡 Unchanged member, keeping {target_path.name}")
                                 else:
-                                    shutil.move(full_path, target_path)
-                                    print(f"✅ Extracted CSV: {target_path}")
+                                    _gzip_file(full_path, target_path)
+                                    print(f"✅ Extracted CSV (gzip): {target_path.name}")
+                                # Drop any stale uncompressed sibling from a pre-gzip run.
+                                (raw_dir / file).unlink(missing_ok=True)
                                 produced.append(target_path)
 
                             elif file.lower().endswith(".txt"):
                                 txt_path = Path(full_path)
-                                csv_path = raw_dir / (txt_path.stem + ".csv")
+                                csv_path = raw_dir / (txt_path.stem + ".csv.gz")
                                 try:
-                                    print(f"📝 Converting TXT → CSV: {txt_path.name}")
-                                    lf = pl.scan_csv(txt_path, encoding="utf8-lossy")
-                                    lf = lf.collect()
-                                    lf.write_csv(csv_path)
+                                    print(f"📝 Converting TXT → CSV (gzip): {txt_path.name}")
+                                    df = pl.scan_csv(
+                                        txt_path, encoding="utf8-lossy"
+                                    ).collect()
+                                    with gzip.open(
+                                        csv_path, "wt", encoding="utf-8", newline=""
+                                    ) as f:
+                                        df.write_csv(f)
                                     produced.append(csv_path)
+                                    (raw_dir / (txt_path.stem + ".csv")).unlink(
+                                        missing_ok=True
+                                    )
                                     print(f"✅ Converted and saved as: {csv_path.name}")
                                 except Exception as e:
                                     print(
@@ -215,10 +250,11 @@ def extract_city_data(context: PipelineContext, overwrite: bool = False) -> List
         if is_zip:
             produced = _extract_archive(entry, raw_dir)
         else:
-            dest = raw_dir / source_name
-            shutil.copy(entry, dest)
+            dest = raw_dir / (source_name + ".gz")
+            _gzip_file(entry, dest)
+            (raw_dir / source_name).unlink(missing_ok=True)
             produced = [dest]
-            print(f"✅ Copied CSV: {dest.name}")
+            print(f"✅ Copied CSV (gzip): {dest.name}")
 
         csv_files.extend(produced)
         new_state[source_name] = {

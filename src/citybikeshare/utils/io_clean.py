@@ -4,11 +4,30 @@ from pathlib import Path
 import tempfile
 import chardet
 
+_CHUNK = 64 * 1024 * 1024
+
+
+def _is_gzip(path) -> bool:
+    return str(path).endswith(".gz")
+
+
+def materialize_cleaned_source(raw_file: Path, dest: Path) -> None:
+    """Place a plain-text working copy of ``raw_file`` at ``dest``, decompressing
+    when raw is gzipped so the in-place CLEAN_FUNCTIONS can read/write it as text.
+    For uncompressed raw this is a byte-identical copy (preserving prior behavior)."""
+    if _is_gzip(raw_file):
+        with gzip.open(raw_file, "rb") as fin, open(dest, "wb") as fout:
+            shutil.copyfileobj(fin, fout, length=_CHUNK)
+    else:
+        shutil.copy2(raw_file, dest)
+
 
 def detect_file_encoding(file_path: Path, sample_size: int = 100_000) -> str:
-    """Detect probable encoding of a file using chardet."""
+    """Detect probable encoding of a file using chardet. Reads the decompressed
+    bytes when the file is gzipped, so detection sees real content, not gzip framing."""
     try:
-        with open(file_path, "rb") as f:
+        opener = gzip.open if _is_gzip(file_path) else open
+        with opener(file_path, "rb") as f:
             raw = f.read(sample_size)
         result = chardet.detect(raw)
         return (result["encoding"] or "unknown").lower()
@@ -153,6 +172,12 @@ LINE_CLEAN_FUNCTIONS = {
 # Some Seoul monthly files ship without a header row. Prepend the matching header so the
 # rest of the pipeline (rename_columns → select_final_columns → …) treats them like any
 # other file. The 3 known headerless files share this 11-column schema.
+#
+# English equivalents (these map to the target names in seoul.yaml's renamed_columns):
+#   자전거번호=bike_id, 대여일시=start_time, 대여 대여소번호=start_station_number,
+#   대여 대여소명=start_station_name, 대여거치대=start_dock_number, 반납일시=end_time,
+#   반납대여소번호=end_station_number, 반납대여소명=end_station_name,
+#   반납거치대=end_dock_number, 이용시간=duration_minutes, 이용거리=distance_meters
 _SEOUL_11COL_HEADER = (
     "자전거번호,대여일시,대여 대여소번호,대여 대여소명,대여거치대,"
     "반납일시,반납대여소번호,반납대여소명,반납거치대,이용시간,이용거리\n"
@@ -201,8 +226,13 @@ def stream_clean_to_gzip(raw_file: Path, cleaned_file: Path, clean_pipeline, con
     ]
     name = raw_file.name
 
+    # Read transparently whether raw is plain or gzipped (`.csv` or `.csv.gz`).
+    read_opener = gzip.open if _is_gzip(raw_file) else open
+
     with (
-        open(raw_file, "r", encoding=src_encoding, errors="replace", newline="") as src,
+        read_opener(
+            raw_file, "rt", encoding=src_encoding, errors="replace", newline=""
+        ) as src,
         gzip.open(
             cleaned_file, "wt", encoding="utf-8", newline="", compresslevel=compress_level
         ) as dst,
