@@ -1,7 +1,7 @@
 import json
 import polars as pl
 from citybikeshare.context import PipelineContext
-from citybikeshare.analysis.utils import append_duration_column
+from citybikeshare.analysis.utils import derive_duration_column
 
 
 def summarize_city(context: PipelineContext):
@@ -29,22 +29,33 @@ def summarize_city(context: PipelineContext):
         "start_station_name",
         "end_station_name",
     ]
-    # Determine duration column
-    duration_column = "duration"
+
+    # Derive `duration` but DO NOT filter: the quality metrics (trip_count, null_rows)
+    # must be computed over the full data, or they can't see the very rows (null or
+    # negative times) they exist to surface — and `null_rows` would always read ~0 for
+    # start_time/end_time because those rows would already be gone. Duration stats are
+    # restricted to valid trips via a per-aggregation mask, and the count of valid trips
+    # is reported alongside the total so dropped rows are visible, not silently removed.
+    lf = derive_duration_column(lf)
+    valid_duration = (pl.col("end_time") - pl.col("start_time") >= 0) & pl.col(
+        "duration"
+    ).is_not_null()
+    duration = pl.col("duration").filter(valid_duration)
+
     summary = (
-        lf.pipe(append_duration_column)
-        .group_by("year")
+        lf.group_by("year")
         .agg(
             [
-                pl.count().alias("trip_count"),
-                pl.col(duration_column).median().alias("duration_median"),
-                pl.col(duration_column).quantile(0.05).alias("duration_5_percent"),
-                pl.col(duration_column).quantile(0.25).alias("duration_q1"),
-                pl.col(duration_column).quantile(0.75).alias("duration_q3"),
-                pl.col(duration_column).quantile(0.95).alias("duration_95_percent"),
-                # Counts if null is any column of row
-                pl.sum_horizontal(
-                    [pl.col(c).is_null().cast(pl.Int64) for c in columns_for_null_check]
+                pl.len().alias("trip_count"),  # total trips (unfiltered)
+                duration.len().alias("valid_duration_count"),
+                duration.median().alias("duration_median"),
+                duration.quantile(0.05).alias("duration_5_percent"),
+                duration.quantile(0.25).alias("duration_q1"),
+                duration.quantile(0.75).alias("duration_q3"),
+                duration.quantile(0.95).alias("duration_95_percent"),
+                # Number of rows with at least one null among the key columns.
+                pl.any_horizontal(
+                    [pl.col(c).is_null() for c in columns_for_null_check]
                 )
                 .sum()
                 .alias("null_rows"),
@@ -59,7 +70,7 @@ def summarize_city(context: PipelineContext):
     analysis_directory.mkdir(parents=True, exist_ok=True)
 
     # Write JSON output
-    output_file = analysis_directory / f"summary.json"
+    output_file = analysis_directory / "summary.json"
     with open(output_file, "w") as f:
         json.dump(summary, f, indent=2)
 

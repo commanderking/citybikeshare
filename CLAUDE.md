@@ -60,6 +60,16 @@ Derived artifacts (`parquet/`, `output/`) are safe to delete — `transform` reg
 them. This asymmetry is why raw-file deletion is opt-in (`prune_renamed_archives`) while
 parquet orphan-cleanup runs automatically.
 
+## `raw/` is stored gzipped (`.csv.gz`)
+
+Raw inputs are gzip-compressed on disk (~5× smaller). The parse path reads `.csv.gz`
+transparently (`scan_csv`, plus the gzip-aware helpers in `io_clean.py`), but **any code
+that enumerates or opens raw files must handle both `.csv` and `.csv.gz`** — glob `*.csv`
+*and* `*.csv.gz`, not just `*.csv`. Globbing only `*.csv` silently skips every input (a
+real bug we hit in the clean stage). `extract` writes `.csv.gz`; its cumulative-archive
+"unchanged member" check compares the source's uncompressed size against the stored file's
+gzip ISIZE trailer rather than a raw byte size.
+
 ## Custom downloaders should be thin
 
 A downloader's job is to **fetch bytes and skip cheaply** — derive the skip key from the
