@@ -255,10 +255,10 @@
   },
   {
     "name": "1301 McCormick Dr / Wayne K. Curry Admin Bldg",
-    "lat": 38.88961,
-    "lng": -77.067193,
-    "first_seen": "2024-05-15",
-    "last_seen": "2024-05-15",
+    "lat": 38.908378,
+    "lng": -76.843418,
+    "first_seen": "2020-04-07",
+    "last_seen": "2026-05-31",
     "aliases": []
   },
   {
@@ -4540,6 +4540,22 @@
     ]
   },
   {
+    "name": "Largo Rd & Campus Way / Prince Georges's Comm Col",
+    "lat": 38.889938,
+    "lng": -76.82554,
+    "first_seen": "2020-03-14",
+    "last_seen": "2026-05-29",
+    "aliases": []
+  },
+  {
+    "name": "Largo Town Center Metro",
+    "lat": 38.899809,
+    "lng": -76.844602,
+    "first_seen": "2020-03-14",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
     "name": "Layton Hall Dr & University Dr",
     "lat": 38.850933,
     "lng": -77.302734,
@@ -5626,7 +5642,7 @@
   {
     "name": "Park Rd & Holmead Pl NW",
     "lat": 38.930802,
-    "lng": -77.031473,
+    "lng": -77.031472,
     "first_seen": "2020-03-29",
     "last_seen": "2026-05-31",
     "aliases": []
