@@ -9,29 +9,45 @@ file_matcher:
   - citibike-tripdata
   - citbike-tripdata
   
+# Citibike ships 2013 (Jun-Dec) and 2018 twice: a full-month base file
+# (`YYYYMM-citibike-tripdata.csv.gz`) AND the same trips split at 1,000,000 rows into
+# `_1`/`_2` parts. Verified identical trip sets (differ only in coordinate precision), so
+# reading both double-counts the month. We keep the single base file and exclude the parts.
+# Entries are flat (no folder prefix) so they match the raw layout; matching is substring,
+# and `_1`/`_2` never appear in a base filename.
 excluded_filenames:
-  - "2018-citibike-tripdata/201801-citibike-tripdata.csv"
-  - "2018-citibike-tripdata/201802-citibike-tripdata.csv"
-  - "2018-citibike-tripdata/201803-citibike-tripdata.csv"
-  - "2018-citibike-tripdata/201804-citibike-tripdata_1.csv"
-  - "2018-citibike-tripdata/201804-citibike-tripdata_2.csv"
-  - "2018-citibike-tripdata/201804-citibike-tripdata.csv"
-  - "2018-citibike-tripdata/201805-citibike-tripdata.csv"
-  - "2018-citibike-tripdata/201806-citibike-tripdata.csv"
-  - "2018-citibike-tripdata/201807-citibike-tripdata.csv"
-  - "2018-citibike-tripdata/201808-citibike-tripdata.csv"
-  - "2018-citibike-tripdata/201809-citibike-tripdata.csv"
-  - "2018-citibike-tripdata/201810-citibike-tripdata.csv"
-  - "2018-citibike-tripdata/201811-citibike-tripdata.csv"
-  - "2018-citibike-tripdata/201812-citibike-tripdata.csv"
-  - "201306-citibike-tripdata.csv"
-  - "201307-citibike-tripdata.csv"
-  - "201308-citibike-tripdata.csv"
-  - "201309-citibike-tripdata.csv"
-  - "201310-citibike-tripdata.csv"
-  - "201311-citibike-tripdata.csv"
-  - "201312-citibike-tripdata.csv"
-  
+  - "201306-citibike-tripdata_1.csv"
+  - "201307-citibike-tripdata_1.csv"
+  - "201308-citibike-tripdata_1.csv"
+  - "201308-citibike-tripdata_2.csv"
+  - "201309-citibike-tripdata_1.csv"
+  - "201309-citibike-tripdata_2.csv"
+  - "201310-citibike-tripdata_1.csv"
+  - "201310-citibike-tripdata_2.csv"
+  - "201311-citibike-tripdata_1.csv"
+  - "201312-citibike-tripdata_1.csv"
+  - "201801-citibike-tripdata_1.csv"
+  - "201802-citibike-tripdata_1.csv"
+  - "201803-citibike-tripdata_1.csv"
+  - "201804-citibike-tripdata_1.csv"
+  - "201804-citibike-tripdata_2.csv"
+  - "201805-citibike-tripdata_1.csv"
+  - "201805-citibike-tripdata_2.csv"
+  - "201806-citibike-tripdata_1.csv"
+  - "201806-citibike-tripdata_2.csv"
+  - "201807-citibike-tripdata_1.csv"
+  - "201807-citibike-tripdata_2.csv"
+  - "201808-citibike-tripdata_1.csv"
+  - "201808-citibike-tripdata_2.csv"
+  - "201809-citibike-tripdata_1.csv"
+  - "201809-citibike-tripdata_2.csv"
+  - "201810-citibike-tripdata_1.csv"
+  - "201810-citibike-tripdata_2.csv"
+  - "201811-citibike-tripdata_1.csv"
+  - "201811-citibike-tripdata_2.csv"
+  - "201812-citibike-tripdata_1.csv"
+  - "201812-citibike-tripdata_2.csv"
+
 renamed_columns:
   ride_id: id
   rideable_type: bike_type
