@@ -64,3 +64,21 @@ processing_pipeline:
   - convert_to_datetime
   - select_final_columns
   - cast_optional_columns
+
+# Station-coordinate extraction. Read straight from raw/ (final_columns drops lat/lng).
+# Column candidates are lists so one block spans Boston's schema eras.
+coordinates:
+  strategy: inline
+  bounding_box: [41.9, 42.7, -71.5, -70.7]   # lat_min, lat_max, lng_min, lng_max
+  min_coverage: 0.95
+  date_column: [started_at, starttime]
+  start:
+    name: [start_station_name, "start station name"]
+    id:   [start_station_id, "start station id"]
+    lat:  [start_lat, "start station latitude"]
+    lng:  [start_lng, "start station longitude"]
+  end:
+    name: [end_station_name, "end station name"]
+    id:   [end_station_id, "end station id"]
+    lat:  [end_lat, "end station latitude"]
+    lng:  [end_lng, "end station longitude"]
