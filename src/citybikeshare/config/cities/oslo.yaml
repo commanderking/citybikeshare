@@ -26,3 +26,21 @@ processing_pipeline:
   - select_final_columns
   - convert_to_datetime
 
+coordinates:
+  strategy: inline
+  bounding_box: [59.8, 60.05, 10.5, 11.0]   # lat_min, lat_max, lng_min, lng_max
+  min_coverage: 0.95
+  # Raw header names; coords exist only in the 2019+ (v1) files — the 2016-18 era has
+  # station names but no lat/lng and Stage 1 skips it.
+  date_column: [started_at]
+  start:
+    name: [start_station_name]
+    id:   [start_station_id]
+    lat:  [start_station_latitude]
+    lng:  [start_station_longitude]
+  end:
+    name: [end_station_name]
+    id:   [end_station_id]
+    lat:  [end_station_latitude]
+    lng:  [end_station_longitude]
+

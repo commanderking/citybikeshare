@@ -115,3 +115,21 @@ processing_pipeline:
   - convert_to_datetime
   - select_final_columns
   - cast_optional_columns
+
+coordinates:
+  strategy: inline
+  bounding_box: [40.5, 41.0, -74.2, -73.65]   # lat_min, lat_max, lng_min, lng_max
+  min_coverage: 0.95
+  # Raw header names span three eras: snake_case (2020+), spaced-lowercase (2013), and
+  # Title Case (2016-19). _resolve_column picks whichever exists per file.
+  date_column: [started_at, starttime, "Start Time"]
+  start:
+    name: [start_station_name, "start station name", "Start Station Name"]
+    id:   [start_station_id, "start station id", "Start Station ID"]
+    lat:  [start_lat, "start station latitude", "Start Station Latitude"]
+    lng:  [start_lng, "start station longitude", "Start Station Longitude"]
+  end:
+    name: [end_station_name, "end station name", "End Station Name"]
+    id:   [end_station_id, "end station id", "End Station ID"]
+    lat:  [end_lat, "end station latitude", "End Station Latitude"]
+    lng:  [end_lng, "end station longitude", "End Station Longitude"]

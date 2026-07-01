@@ -1,0 +1,2459 @@
+[
+  {
+    "name": "7 Juni Plassen",
+    "lat": 59.91506,
+    "lng": 10.731272,
+    "first_seen": "2019-04-03",
+    "last_seen": "2022-05-11",
+    "aliases": []
+  },
+  {
+    "name": "7. juni-plassen",
+    "lat": 59.915068,
+    "lng": 10.730972,
+    "first_seen": "2022-05-11",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "AHO",
+    "lat": 59.925265,
+    "lng": 10.750462,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Adamstuen",
+    "lat": 59.932792,
+    "lng": 10.734457,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Aker Brygge 1 mot Nasjonalmuseet",
+    "lat": 59.911189,
+    "lng": 10.730055,
+    "first_seen": "2019-11-27",
+    "last_seen": "2026-06-23",
+    "aliases": [
+      "Aker Brygge",
+      "Aker Brygge 1",
+      "Aker Brygge 1 Nasjonalmuseet"
+    ]
+  },
+  {
+    "name": "Aker Brygge 2 mot Rådhusplassen",
+    "lat": 59.911122,
+    "lng": 10.730401,
+    "first_seen": "2023-04-28",
+    "last_seen": "2026-06-23",
+    "aliases": []
+  },
+  {
+    "name": "Aker Brygge 3 mot Fergene",
+    "lat": 59.910862,
+    "lng": 10.729793,
+    "first_seen": "2023-05-05",
+    "last_seen": "2026-06-23",
+    "aliases": []
+  },
+  {
+    "name": "Akerselvallmenningen",
+    "lat": 59.907259,
+    "lng": 10.754885,
+    "first_seen": "2022-03-21",
+    "last_seen": "2026-06-23",
+    "aliases": []
+  },
+  {
+    "name": "Akersgata",
+    "lat": 59.914197,
+    "lng": 10.742883,
+    "first_seen": "2019-04-03",
+    "last_seen": "2022-09-28",
+    "aliases": []
+  },
+  {
+    "name": "Alexander Kiellands Plass",
+    "lat": 59.928065,
+    "lng": 10.751245,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-23",
+    "aliases": []
+  },
+  {
+    "name": "Anker Hotel",
+    "lat": 59.917279,
+    "lng": 10.758155,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-22",
+    "aliases": [
+      "Anker Hostel"
+    ]
+  },
+  {
+    "name": "Annette Thommessens Plass",
+    "lat": 59.910739,
+    "lng": 10.761,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-23",
+    "aliases": []
+  },
+  {
+    "name": "Arendalsgata",
+    "lat": 59.9378,
+    "lng": 10.7541,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Arkaden Nord",
+    "lat": 59.912147,
+    "lng": 10.748053,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Arkaden Sør",
+    "lat": 59.911966,
+    "lng": 10.747855,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Arkitekt Rivertz Plass",
+    "lat": 59.934936,
+    "lng": 10.749466,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "BI Nydalen",
+    "lat": 59.949239,
+    "lng": 10.768576,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Badebakken",
+    "lat": 59.945582,
+    "lng": 10.760342,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Bak Niels Treschows hus nord",
+    "lat": 59.942775,
+    "lng": 10.723009,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Bak Niels Treschows hus sør",
+    "lat": 59.942466,
+    "lng": 10.723745,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Bankplassen",
+    "lat": 59.908454,
+    "lng": 10.741869,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-23",
+    "aliases": []
+  },
+  {
+    "name": "Bentsebrugata",
+    "lat": 59.93923,
+    "lng": 10.75917,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Bernt Ankers gate",
+    "lat": 59.914789,
+    "lng": 10.753707,
+    "first_seen": "2019-04-03",
+    "last_seen": "2019-09-02",
+    "aliases": []
+  },
+  {
+    "name": "Birkelunden",
+    "lat": 59.925611,
+    "lng": 10.760926,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-23",
+    "aliases": []
+  },
+  {
+    "name": "Biskop Gunnerus' gate",
+    "lat": 59.912334,
+    "lng": 10.752292,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-18",
+    "aliases": []
+  },
+  {
+    "name": "Bislett Stadion",
+    "lat": 59.925476,
+    "lng": 10.731237,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-23",
+    "aliases": []
+  },
+  {
+    "name": "Bislettgata",
+    "lat": 59.923785,
+    "lng": 10.734699,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-23",
+    "aliases": []
+  },
+  {
+    "name": "Bjerregaards gate",
+    "lat": 59.925488,
+    "lng": 10.746058,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-23",
+    "aliases": []
+  },
+  {
+    "name": "Bjerregaardsgate Øst",
+    "lat": 59.927179,
+    "lng": 10.74976,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-23",
+    "aliases": []
+  },
+  {
+    "name": "Bjølsen Studentby",
+    "lat": 59.943772,
+    "lng": 10.760156,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-23",
+    "aliases": []
+  },
+  {
+    "name": "Bjølsen mølle",
+    "lat": 59.939232,
+    "lng": 10.768772,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-23",
+    "aliases": []
+  },
+  {
+    "name": "Bjølsendumpa",
+    "lat": 59.940331,
+    "lng": 10.766128,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Bjørvika",
+    "lat": 59.909006,
+    "lng": 10.75618,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Blindern Studenthus",
+    "lat": 59.93522,
+    "lng": 10.726477,
+    "first_seen": "2022-01-31",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Blindern T-Bane",
+    "lat": 59.94024,
+    "lng": 10.716663,
+    "first_seen": "2022-08-31",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Blindern studentparkering",
+    "lat": 59.940891,
+    "lng": 10.720797,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Blindern vgs",
+    "lat": 59.949902,
+    "lng": 10.730178,
+    "first_seen": "2024-08-27",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Bogstadveien",
+    "lat": 59.924732,
+    "lng": 10.724628,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Borgenveien",
+    "lat": 59.942742,
+    "lng": 10.703833,
+    "first_seen": "2019-07-10",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Botanisk Hage sør",
+    "lat": 59.915388,
+    "lng": 10.769393,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-23",
+    "aliases": []
+  },
+  {
+    "name": "Botanisk Hage vest",
+    "lat": 59.920113,
+    "lng": 10.768918,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-23",
+    "aliases": []
+  },
+  {
+    "name": "Botanisk hage sør-vest",
+    "lat": 59.917826,
+    "lng": 10.766351,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Briskeby",
+    "lat": 59.920218,
+    "lng": 10.717978,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Brugata",
+    "lat": 59.91366,
+    "lng": 10.757295,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-22",
+    "aliases": [
+      "Vaterlandsparken II"
+    ]
+  },
+  {
+    "name": "Bryn Brannstasjon",
+    "lat": 59.912708,
+    "lng": 10.813792,
+    "first_seen": "2023-12-16",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Bryn T-bane",
+    "lat": 59.909238,
+    "lng": 10.814199,
+    "first_seen": "2019-04-03",
+    "last_seen": "2019-08-21",
+    "aliases": [
+      "Bryn T-Bane"
+    ]
+  },
+  {
+    "name": "Brynseng T-bane",
+    "lat": 59.909188,
+    "lng": 10.814307,
+    "first_seen": "2019-08-21",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Bygdøy allé",
+    "lat": 59.919001,
+    "lng": 10.692321,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Bøkkerveien",
+    "lat": 59.927375,
+    "lng": 10.796015,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Carl Berners plass nord",
+    "lat": 59.926929,
+    "lng": 10.776971,
+    "first_seen": "2020-07-27",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Carl Berners plass sør",
+    "lat": 59.92507,
+    "lng": 10.775996,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-23",
+    "aliases": []
+  },
+  {
+    "name": "Chr. Michelsens Gate",
+    "lat": 59.927292,
+    "lng": 10.773185,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Colbjørnsens gate",
+    "lat": 59.917314,
+    "lng": 10.716886,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-23",
+    "aliases": []
+  },
+  {
+    "name": "Colletts gate",
+    "lat": 59.930695,
+    "lng": 10.74629,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-22",
+    "aliases": [
+      "Diriks gate"
+    ]
+  },
+  {
+    "name": "Colletts gate 31",
+    "lat": 59.926835,
+    "lng": 10.738352,
+    "first_seen": "2024-08-15",
+    "last_seen": "2026-06-23",
+    "aliases": []
+  },
+  {
+    "name": "Colosseum Kino",
+    "lat": 59.929846,
+    "lng": 10.711345,
+    "first_seen": "2019-04-03",
+    "last_seen": "2025-04-13",
+    "aliases": []
+  },
+  {
+    "name": "Det Teologiske fakultet",
+    "lat": 59.935342,
+    "lng": 10.726472,
+    "first_seen": "2019-04-03",
+    "last_seen": "2021-09-29",
+    "aliases": []
+  },
+  {
+    "name": "Diakonhjemmet",
+    "lat": 59.936324,
+    "lng": 10.705436,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Dokkveien",
+    "lat": 59.910974,
+    "lng": 10.7277,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Domus Athletica",
+    "lat": 59.946219,
+    "lng": 10.724626,
+    "first_seen": "2021-06-14",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Drammensveien",
+    "lat": 59.920404,
+    "lng": 10.691147,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Dronningens gate",
+    "lat": 59.911391,
+    "lng": 10.747288,
+    "first_seen": "2019-07-05",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Dyvekes bru",
+    "lat": 59.905323,
+    "lng": 10.768958,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Dælenenggata",
+    "lat": 59.928743,
+    "lng": 10.767549,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Edvard Storms gate",
+    "lat": 59.919111,
+    "lng": 10.736179,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-23",
+    "aliases": []
+  },
+  {
+    "name": "Egertorget",
+    "lat": 59.912674,
+    "lng": 10.742025,
+    "first_seen": "2024-08-21",
+    "last_seen": "2026-06-23",
+    "aliases": []
+  },
+  {
+    "name": "Elgsletta",
+    "lat": 59.915649,
+    "lng": 10.761725,
+    "first_seen": "2022-05-20",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Elisenberg",
+    "lat": 59.919524,
+    "lng": 10.70884,
+    "first_seen": "2019-05-21",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Enerhaugen",
+    "lat": 59.913202,
+    "lng": 10.767579,
+    "first_seen": "2019-06-20",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Ensjø T-bane",
+    "lat": 59.913189,
+    "lng": 10.789761,
+    "first_seen": "2019-04-15",
+    "last_seen": "2026-06-22",
+    "aliases": [
+      "Ensjø T-Bane"
+    ]
+  },
+  {
+    "name": "Ensjøveien",
+    "lat": 59.916639,
+    "lng": 10.78332,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-23",
+    "aliases": []
+  },
+  {
+    "name": "Fagerheimgata",
+    "lat": 59.927573,
+    "lng": 10.76593,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Filipstadveien",
+    "lat": 59.910228,
+    "lng": 10.720891,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Finnmarksgata",
+    "lat": 59.922839,
+    "lng": 10.775658,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Forskningsveien",
+    "lat": 59.945454,
+    "lng": 10.713865,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Fram-gården",
+    "lat": 59.915424,
+    "lng": 10.714577,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-23",
+    "aliases": []
+  },
+  {
+    "name": "Fred Olsens gate",
+    "lat": 59.911056,
+    "lng": 10.749378,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Fredensborg",
+    "lat": 59.920995,
+    "lng": 10.750358,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Friggfeltet",
+    "lat": 59.932773,
+    "lng": 10.711466,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Frogner Stadion",
+    "lat": 59.92755,
+    "lng": 10.710214,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Frogner Tennisklubb",
+    "lat": 59.926183,
+    "lng": 10.709833,
+    "first_seen": "2019-04-17",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Frogner plass",
+    "lat": 59.922539,
+    "lng": 10.704541,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Frognerbadet",
+    "lat": 59.92808,
+    "lng": 10.708767,
+    "first_seen": "2019-04-03",
+    "last_seen": "2025-11-03",
+    "aliases": []
+  },
+  {
+    "name": "Frognerstranda",
+    "lat": 59.910356,
+    "lng": 10.705106,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Frognerveien",
+    "lat": 59.917085,
+    "lng": 10.71288,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Frøen T-bane",
+    "lat": 59.934735,
+    "lng": 10.709699,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Furulund",
+    "lat": 59.91981,
+    "lng": 10.651118,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Fyrstikktorget",
+    "lat": 59.913819,
+    "lng": 10.798097,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Fysikkbygningen",
+    "lat": 59.937954,
+    "lng": 10.719508,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Galgeberg",
+    "lat": 59.90708,
+    "lng": 10.779172,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-23",
+    "aliases": []
+  },
+  {
+    "name": "Gaustad T-bane",
+    "lat": 59.945955,
+    "lng": 10.710397,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Georg Morgenstiernes hus",
+    "lat": 59.939028,
+    "lng": 10.722989,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Gimle Kino",
+    "lat": 59.917261,
+    "lng": 10.708367,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Goethe Institut",
+    "lat": 59.913179,
+    "lng": 10.76078,
+    "first_seen": "2019-04-03",
+    "last_seen": "2020-08-14",
+    "aliases": []
+  },
+  {
+    "name": "Grenseveien",
+    "lat": 59.92464,
+    "lng": 10.781698,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Griffenfeldts gate",
+    "lat": 59.933703,
+    "lng": 10.75193,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Grønlands torg",
+    "lat": 59.91252,
+    "lng": 10.76224,
+    "first_seen": "2019-04-02",
+    "last_seen": "2026-06-23",
+    "aliases": []
+  },
+  {
+    "name": "Grünerhagen Nord",
+    "lat": 59.922426,
+    "lng": 10.755427,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Gunerius",
+    "lat": 59.9146,
+    "lng": 10.7534,
+    "first_seen": "2021-09-06",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Hallings gate",
+    "lat": 59.922777,
+    "lng": 10.738655,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-23",
+    "aliases": []
+  },
+  {
+    "name": "Hallénparken",
+    "lat": 59.93153,
+    "lng": 10.762169,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-23",
+    "aliases": []
+  },
+  {
+    "name": "Hammersborg Torg",
+    "lat": 59.916526,
+    "lng": 10.749188,
+    "first_seen": "2019-04-03",
+    "last_seen": "2023-11-17",
+    "aliases": []
+  },
+  {
+    "name": "Hans Nielsen Hauges plass",
+    "lat": 59.939244,
+    "lng": 10.774319,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Hasle",
+    "lat": 59.924342,
+    "lng": 10.79285,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Hasle Torg",
+    "lat": 59.923237,
+    "lng": 10.792842,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "HasleLinje",
+    "lat": 59.927631,
+    "lng": 10.799232,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Hausmanns bru",
+    "lat": 59.914651,
+    "lng": 10.759872,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-23",
+    "aliases": []
+  },
+  {
+    "name": "Hausmanns gate",
+    "lat": 59.915451,
+    "lng": 10.758328,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-23",
+    "aliases": []
+  },
+  {
+    "name": "Hedmarksgata",
+    "lat": 59.911784,
+    "lng": 10.783884,
+    "first_seen": "2021-04-09",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Helga Helgesens plass",
+    "lat": 59.912111,
+    "lng": 10.766194,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Henrik Ibsens gate",
+    "lat": 59.915088,
+    "lng": 10.72228,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-23",
+    "aliases": []
+  },
+  {
+    "name": "Henrik Wergelands allé",
+    "lat": 59.926894,
+    "lng": 10.720789,
+    "first_seen": "2019-05-23",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Hesselbergs Gate",
+    "lat": 59.927762,
+    "lng": 10.761261,
+    "first_seen": "2021-05-31",
+    "last_seen": "2026-06-23",
+    "aliases": []
+  },
+  {
+    "name": "Hoff terrasse holdeplass",
+    "lat": 59.927313,
+    "lng": 10.675516,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Hoffsveien",
+    "lat": 59.923892,
+    "lng": 10.676034,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Holbergs plass",
+    "lat": 59.91931,
+    "lng": 10.734305,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-23",
+    "aliases": [
+      "Holbergs Plass"
+    ]
+  },
+  {
+    "name": "Huitfeldts gate",
+    "lat": 59.912684,
+    "lng": 10.7229,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Huk",
+    "lat": 59.898126,
+    "lng": 10.675096,
+    "first_seen": "2019-04-03",
+    "last_seen": "2021-10-27",
+    "aliases": []
+  },
+  {
+    "name": "Huk 1",
+    "lat": 59.898527,
+    "lng": 10.674405,
+    "first_seen": "2022-06-17",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Huk 2",
+    "lat": 59.898436,
+    "lng": 10.674398,
+    "first_seen": "2022-06-17",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Hydroparken",
+    "lat": 59.914145,
+    "lng": 10.715505,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Idioten",
+    "lat": 59.931033,
+    "lng": 10.73603,
+    "first_seen": "2019-04-12",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Ila",
+    "lat": 59.931828,
+    "lng": 10.748745,
+    "first_seen": "2019-04-11",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Jakob kirke",
+    "lat": 59.917866,
+    "lng": 10.754898,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Jarlsborgveien",
+    "lat": 59.930462,
+    "lng": 10.675785,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Jenny Braatens Plass",
+    "lat": 59.928349,
+    "lng": 10.77837,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-23",
+    "aliases": []
+  },
+  {
+    "name": "Jens Bjelkes Gate",
+    "lat": 59.919151,
+    "lng": 10.764133,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-23",
+    "aliases": [
+      "Jens Bjelkes gate"
+    ]
+  },
+  {
+    "name": "Jernbanetorget",
+    "lat": 59.911899,
+    "lng": 10.749932,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-23",
+    "aliases": []
+  },
+  {
+    "name": "Jess Carlsens gate",
+    "lat": 59.918636,
+    "lng": 10.752394,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-23",
+    "aliases": []
+  },
+  {
+    "name": "John Colletts plass",
+    "lat": 59.940398,
+    "lng": 10.730036,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Jordalgata",
+    "lat": 59.908227,
+    "lng": 10.781088,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Kampen park Øst",
+    "lat": 59.915182,
+    "lng": 10.782129,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Karenslyst allé",
+    "lat": 59.92033,
+    "lng": 10.683814,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-22",
+    "aliases": [
+      "Karenlyst allé"
+    ]
+  },
+  {
+    "name": "Kirkegata 15",
+    "lat": 59.910156,
+    "lng": 10.743457,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-23",
+    "aliases": []
+  },
+  {
+    "name": "Kirkeristen",
+    "lat": 59.913005,
+    "lng": 10.746748,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-23",
+    "aliases": []
+  },
+  {
+    "name": "Kirkeveien",
+    "lat": 59.933491,
+    "lng": 10.726313,
+    "first_seen": "2019-04-02",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Kjeld Stubs gate",
+    "lat": 59.912711,
+    "lng": 10.735595,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Klingenberggata",
+    "lat": 59.913151,
+    "lng": 10.732281,
+    "first_seen": "2020-11-30",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Kon-Tiki Museet",
+    "lat": 59.903474,
+    "lng": 10.69847,
+    "first_seen": "2023-06-03",
+    "last_seen": "2023-06-03",
+    "aliases": []
+  },
+  {
+    "name": "Kontraskjæret",
+    "lat": 59.910242,
+    "lng": 10.73857,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Krebs' gate",
+    "lat": 59.935995,
+    "lng": 10.765413,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-23",
+    "aliases": []
+  },
+  {
+    "name": "Krohgstøtten hospital",
+    "lat": 59.916296,
+    "lng": 10.757377,
+    "first_seen": "2022-01-26",
+    "last_seen": "2026-06-23",
+    "aliases": [
+      "Legevakten"
+    ]
+  },
+  {
+    "name": "Kværnerbyen",
+    "lat": 59.904473,
+    "lng": 10.786167,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Kværnerveien",
+    "lat": 59.905911,
+    "lng": 10.778609,
+    "first_seen": "2020-06-25",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Københavngata busstopp",
+    "lat": 59.92946,
+    "lng": 10.769127,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-23",
+    "aliases": []
+  },
+  {
+    "name": "Lakkegata",
+    "lat": 59.917209,
+    "lng": 10.762214,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Landstads gate",
+    "lat": 59.929005,
+    "lng": 10.749676,
+    "first_seen": "2019-04-08",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Langkaia",
+    "lat": 59.908055,
+    "lng": 10.747998,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Leirfallsgata",
+    "lat": 59.919115,
+    "lng": 10.757831,
+    "first_seen": "2024-07-08",
+    "last_seen": "2026-06-23",
+    "aliases": []
+  },
+  {
+    "name": "Lille Grensen",
+    "lat": 59.913897,
+    "lng": 10.74231,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Lille Schous plass",
+    "lat": 59.920259,
+    "lng": 10.760629,
+    "first_seen": "2020-10-16",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Lilleborgbanen",
+    "lat": 59.933649,
+    "lng": 10.769114,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Linaaes gate",
+    "lat": 59.913826,
+    "lng": 10.745704,
+    "first_seen": "2019-04-03",
+    "last_seen": "2024-01-03",
+    "aliases": []
+  },
+  {
+    "name": "Lindern",
+    "lat": 59.935888,
+    "lng": 10.735006,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Lodalen busstopp",
+    "lat": 59.903453,
+    "lng": 10.777958,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Lørenporten",
+    "lat": 59.928738,
+    "lng": 10.799883,
+    "first_seen": "2020-11-06",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Lørenveien",
+    "lat": 59.930893,
+    "lng": 10.791772,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-23",
+    "aliases": []
+  },
+  {
+    "name": "Mailundveien",
+    "lat": 59.930918,
+    "lng": 10.77282,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Majorstua skole",
+    "lat": 59.929435,
+    "lng": 10.713682,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Majorstuen",
+    "lat": 59.929045,
+    "lng": 10.716926,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-23",
+    "aliases": []
+  },
+  {
+    "name": "Majorstuen T-bane",
+    "lat": 59.929846,
+    "lng": 10.714584,
+    "first_seen": "2019-08-02",
+    "last_seen": "2024-02-27",
+    "aliases": []
+  },
+  {
+    "name": "Majorstuen t-bane",
+    "lat": 59.9297,
+    "lng": 10.714813,
+    "first_seen": "2019-04-03",
+    "last_seen": "2019-08-02",
+    "aliases": []
+  },
+  {
+    "name": "Majorstuveien",
+    "lat": 59.926697,
+    "lng": 10.716195,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Makrellbekken T",
+    "lat": 59.941903,
+    "lng": 10.674101,
+    "first_seen": "2025-04-03",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Mandalls gate",
+    "lat": 59.912347,
+    "lng": 10.763815,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-23",
+    "aliases": []
+  },
+  {
+    "name": "Marcus Thranes gate",
+    "lat": 59.93277,
+    "lng": 10.758593,
+    "first_seen": "2019-06-25",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Marienlyst",
+    "lat": 59.932439,
+    "lng": 10.721764,
+    "first_seen": "2019-04-02",
+    "last_seen": "2024-04-11",
+    "aliases": []
+  },
+  {
+    "name": "Marienlystparken",
+    "lat": 59.932143,
+    "lng": 10.723464,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-23",
+    "aliases": []
+  },
+  {
+    "name": "Maritimt Museum",
+    "lat": 59.902932,
+    "lng": 10.698038,
+    "first_seen": "2022-09-02",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Meltzers gate",
+    "lat": 59.918014,
+    "lng": 10.718435,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-23",
+    "aliases": []
+  },
+  {
+    "name": "Monolittveien",
+    "lat": 59.935937,
+    "lng": 10.681137,
+    "first_seen": "2019-04-15",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Munkedamsveien",
+    "lat": 59.913523,
+    "lng": 10.730106,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Munkegata",
+    "lat": 59.908255,
+    "lng": 10.7678,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-23",
+    "aliases": [
+      "Munkegata trikkestopp"
+    ]
+  },
+  {
+    "name": "Myraløkka Øst",
+    "lat": 59.937205,
+    "lng": 10.760581,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Mølleparken",
+    "lat": 59.928393,
+    "lng": 10.755969,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Møllergata",
+    "lat": 59.915401,
+    "lng": 10.748532,
+    "first_seen": "2019-04-03",
+    "last_seen": "2021-11-05",
+    "aliases": []
+  },
+  {
+    "name": "NRK",
+    "lat": 59.93335,
+    "lng": 10.719603,
+    "first_seen": "2025-04-04",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Nedre Slottsgate",
+    "lat": 59.913245,
+    "lng": 10.743669,
+    "first_seen": "2019-04-08",
+    "last_seen": "2025-11-21",
+    "aliases": []
+  },
+  {
+    "name": "Nordre gate",
+    "lat": 59.921166,
+    "lng": 10.754733,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Norsk Folkemuseum",
+    "lat": 59.907678,
+    "lng": 10.686837,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Nybrua holdeplass",
+    "lat": 59.916545,
+    "lng": 10.757429,
+    "first_seen": "2022-03-22",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Nydalen",
+    "lat": 59.952868,
+    "lng": 10.766483,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Nylandsveien",
+    "lat": 59.91566,
+    "lng": 10.762281,
+    "first_seen": "2019-04-03",
+    "last_seen": "2021-04-29",
+    "aliases": []
+  },
+  {
+    "name": "Olaf Ryes plass",
+    "lat": 59.922425,
+    "lng": 10.758182,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-23",
+    "aliases": []
+  },
+  {
+    "name": "Olav Kyrres plass",
+    "lat": 59.919334,
+    "lng": 10.696895,
+    "first_seen": "2020-07-01",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Olav Vs gate",
+    "lat": 59.912918,
+    "lng": 10.732121,
+    "first_seen": "2019-04-03",
+    "last_seen": "2019-08-29",
+    "aliases": []
+  },
+  {
+    "name": "Oscars gate",
+    "lat": 59.922422,
+    "lng": 10.727239,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-23",
+    "aliases": []
+  },
+  {
+    "name": "Oslo Handelsgymnasium",
+    "lat": 59.914306,
+    "lng": 10.720202,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Oslo Hospital",
+    "lat": 59.903195,
+    "lng": 10.767342,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Oslo Plaza",
+    "lat": 59.912184,
+    "lng": 10.754454,
+    "first_seen": "2019-04-03",
+    "last_seen": "2025-04-24",
+    "aliases": []
+  },
+  {
+    "name": "OsloMet",
+    "lat": 59.919927,
+    "lng": 10.735428,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-22",
+    "aliases": [
+      "HiOA"
+    ]
+  },
+  {
+    "name": "Over Rådhusgata",
+    "lat": 59.910121,
+    "lng": 10.740713,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Paléhaven",
+    "lat": 59.910331,
+    "lng": 10.750106,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Parkveien",
+    "lat": 59.921768,
+    "lng": 10.730476,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-23",
+    "aliases": []
+  },
+  {
+    "name": "Pilestredet",
+    "lat": 59.926224,
+    "lng": 10.729625,
+    "first_seen": "2019-04-02",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Pilestredet 63",
+    "lat": 59.923883,
+    "lng": 10.731363,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Pilestredet Studenthus",
+    "lat": 59.920553,
+    "lng": 10.734285,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-23",
+    "aliases": []
+  },
+  {
+    "name": "Professor Aschehougs plass",
+    "lat": 59.914767,
+    "lng": 10.740971,
+    "first_seen": "2019-09-12",
+    "last_seen": "2026-06-23",
+    "aliases": []
+  },
+  {
+    "name": "Riddervoldplass",
+    "lat": 59.919142,
+    "lng": 10.719641,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Ringnes Park",
+    "lat": 59.928441,
+    "lng": 10.759508,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Rolf Wickstrøms vei",
+    "lat": 59.953411,
+    "lng": 10.757724,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Rostockgata",
+    "lat": 59.906919,
+    "lng": 10.760312,
+    "first_seen": "2021-08-25",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Ruseløkkgården",
+    "lat": 59.913558,
+    "lng": 10.726306,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-23",
+    "aliases": []
+  },
+  {
+    "name": "Rådhusbrygge 4",
+    "lat": 59.910847,
+    "lng": 10.730375,
+    "first_seen": "2019-04-03",
+    "last_seen": "2021-09-10",
+    "aliases": []
+  },
+  {
+    "name": "Rådhusgata",
+    "lat": 59.910924,
+    "lng": 10.736215,
+    "first_seen": "2019-04-04",
+    "last_seen": "2026-06-23",
+    "aliases": []
+  },
+  {
+    "name": "Saga Kino",
+    "lat": 59.914201,
+    "lng": 10.732788,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-23",
+    "aliases": []
+  },
+  {
+    "name": "Sagene bussholdeplass",
+    "lat": 59.937743,
+    "lng": 10.751648,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Salt",
+    "lat": 59.906918,
+    "lng": 10.746553,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-23",
+    "aliases": []
+  },
+  {
+    "name": "Schives gate",
+    "lat": 59.920916,
+    "lng": 10.714055,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Schous plass",
+    "lat": 59.920327,
+    "lng": 10.760785,
+    "first_seen": "2019-04-02",
+    "last_seen": "2026-06-23",
+    "aliases": []
+  },
+  {
+    "name": "Schous plass trikkestopp",
+    "lat": 59.920728,
+    "lng": 10.759486,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-23",
+    "aliases": []
+  },
+  {
+    "name": "Schwensens gate",
+    "lat": 59.924815,
+    "lng": 10.739356,
+    "first_seen": "2024-08-14",
+    "last_seen": "2026-06-23",
+    "aliases": []
+  },
+  {
+    "name": "Sentrum Scene",
+    "lat": 59.91547,
+    "lng": 10.751131,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-23",
+    "aliases": []
+  },
+  {
+    "name": "Sinsen T-bane",
+    "lat": 59.938855,
+    "lng": 10.78058,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Sinsenveien",
+    "lat": 59.929542,
+    "lng": 10.781053,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Sirkustomta",
+    "lat": 59.919252,
+    "lng": 10.774712,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Sjølyst",
+    "lat": 59.921673,
+    "lng": 10.67666,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Sjøsiden",
+    "lat": 59.910181,
+    "lng": 10.751699,
+    "first_seen": "2019-08-02",
+    "last_seen": "2026-06-22",
+    "aliases": [
+      "Sjøsiden 2 ved fontenen",
+      "Sjøsiden ved fontenen"
+    ]
+  },
+  {
+    "name": "Sjøsiden 1 ved trappen",
+    "lat": 59.910143,
+    "lng": 10.752004,
+    "first_seen": "2019-08-02",
+    "last_seen": "2026-03-23",
+    "aliases": [
+      "Sjøsiden ved trappen"
+    ]
+  },
+  {
+    "name": "Sjøsiden vest",
+    "lat": 59.910179,
+    "lng": 10.751347,
+    "first_seen": "2019-04-03",
+    "last_seen": "2019-08-02",
+    "aliases": []
+  },
+  {
+    "name": "Sjøsiden øst",
+    "lat": 59.910178,
+    "lng": 10.751824,
+    "first_seen": "2019-04-03",
+    "last_seen": "2019-08-02",
+    "aliases": []
+  },
+  {
+    "name": "Skarpsnoparken",
+    "lat": 59.914871,
+    "lng": 10.701037,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Skillebekk",
+    "lat": 59.912782,
+    "lng": 10.71011,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-23",
+    "aliases": []
+  },
+  {
+    "name": "Skippergata",
+    "lat": 59.911223,
+    "lng": 10.748198,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Skovveien",
+    "lat": 59.916331,
+    "lng": 10.716349,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Skråninga",
+    "lat": 59.913979,
+    "lng": 10.747467,
+    "first_seen": "2019-04-03",
+    "last_seen": "2022-08-01",
+    "aliases": []
+  },
+  {
+    "name": "Skøyen",
+    "lat": 59.922264,
+    "lng": 10.679611,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Skøyen Stasjon",
+    "lat": 59.922711,
+    "lng": 10.678675,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-23",
+    "aliases": []
+  },
+  {
+    "name": "Slemdalsveien",
+    "lat": 59.930596,
+    "lng": 10.714778,
+    "first_seen": "2019-04-03",
+    "last_seen": "2020-10-23",
+    "aliases": []
+  },
+  {
+    "name": "Slottsparken Øst",
+    "lat": 59.917485,
+    "lng": 10.732128,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-23",
+    "aliases": []
+  },
+  {
+    "name": "Sofienberggata",
+    "lat": 59.921206,
+    "lng": 10.769989,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-23",
+    "aliases": []
+  },
+  {
+    "name": "Sofienbergparken nord",
+    "lat": 59.923229,
+    "lng": 10.766171,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-23",
+    "aliases": []
+  },
+  {
+    "name": "Sofienbergparken nordvest",
+    "lat": 59.924364,
+    "lng": 10.761586,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Sofienbergparken sør",
+    "lat": 59.922337,
+    "lng": 10.76175,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Sogn Studentby",
+    "lat": 59.952084,
+    "lng": 10.727853,
+    "first_seen": "2022-09-09",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Sognsveien",
+    "lat": 59.947442,
+    "lng": 10.732545,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Sommerfrydhagen",
+    "lat": 59.911453,
+    "lng": 10.776072,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Sotahjørnet",
+    "lat": 59.909982,
+    "lng": 10.791448,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Spikersuppa Vest",
+    "lat": 59.913744,
+    "lng": 10.73586,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-23",
+    "aliases": []
+  },
+  {
+    "name": "Spikersuppa Øst",
+    "lat": 59.91336,
+    "lng": 10.737663,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-23",
+    "aliases": []
+  },
+  {
+    "name": "St. Hanshaugen",
+    "lat": 59.923703,
+    "lng": 10.740542,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-23",
+    "aliases": []
+  },
+  {
+    "name": "St. Hanshaugen park nord",
+    "lat": 59.929791,
+    "lng": 10.74354,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-23",
+    "aliases": []
+  },
+  {
+    "name": "St. Hanshaugen park sør",
+    "lat": 59.924821,
+    "lng": 10.739909,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "St. Hanshaugen park vest",
+    "lat": 59.926871,
+    "lng": 10.738463,
+    "first_seen": "2019-04-03",
+    "last_seen": "2023-06-06",
+    "aliases": []
+  },
+  {
+    "name": "St. Olavs gate",
+    "lat": 59.917951,
+    "lng": 10.738621,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-23",
+    "aliases": []
+  },
+  {
+    "name": "Stavangergata",
+    "lat": 59.94114,
+    "lng": 10.750742,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Stensgata",
+    "lat": 59.929597,
+    "lng": 10.732839,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Stensparken",
+    "lat": 59.92714,
+    "lng": 10.730981,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Stjerneplassen",
+    "lat": 59.913233,
+    "lng": 10.749959,
+    "first_seen": "2021-12-16",
+    "last_seen": "2026-06-23",
+    "aliases": []
+  },
+  {
+    "name": "Stockfleths gate",
+    "lat": 59.933975,
+    "lng": 10.752103,
+    "first_seen": "2019-04-12",
+    "last_seen": "2022-08-29",
+    "aliases": []
+  },
+  {
+    "name": "Storgata",
+    "lat": 59.914125,
+    "lng": 10.751824,
+    "first_seen": "2019-04-03",
+    "last_seen": "2019-10-02",
+    "aliases": []
+  },
+  {
+    "name": "Storo Storsenter",
+    "lat": 59.946707,
+    "lng": 10.773818,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Stortingstunnelen",
+    "lat": 59.910653,
+    "lng": 10.737365,
+    "first_seen": "2019-10-01",
+    "last_seen": "2026-06-23",
+    "aliases": [
+      "Stortingstunellen"
+    ]
+  },
+  {
+    "name": "Studenterlunden",
+    "lat": 59.914586,
+    "lng": 10.735453,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-23",
+    "aliases": []
+  },
+  {
+    "name": "Studentparlamentet",
+    "lat": 59.920852,
+    "lng": 10.733357,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Suhms gate",
+    "lat": 59.929419,
+    "lng": 10.726195,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-23",
+    "aliases": []
+  },
+  {
+    "name": "Sukkerbiten",
+    "lat": 59.905339,
+    "lng": 10.75373,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-23",
+    "aliases": []
+  },
+  {
+    "name": "Søndre gate",
+    "lat": 59.918632,
+    "lng": 10.757867,
+    "first_seen": "2019-04-03",
+    "last_seen": "2023-04-25",
+    "aliases": []
+  },
+  {
+    "name": "Sørvest for Slottsparken",
+    "lat": 59.915262,
+    "lng": 10.725316,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Tannlegehøyskolen",
+    "lat": 59.932383,
+    "lng": 10.741475,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "The Hub",
+    "lat": 59.912506,
+    "lng": 10.75089,
+    "first_seen": "2021-11-26",
+    "last_seen": "2026-06-23",
+    "aliases": []
+  },
+  {
+    "name": "Thereses gate",
+    "lat": 59.926146,
+    "lng": 10.731036,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Thomas Heftyes plass",
+    "lat": 59.918568,
+    "lng": 10.703903,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Thune",
+    "lat": 59.92208,
+    "lng": 10.68588,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Tiedemannsparken",
+    "lat": 59.920248,
+    "lng": 10.793541,
+    "first_seen": "2022-05-19",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Tjuvholmen",
+    "lat": 59.909467,
+    "lng": 10.722509,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Tordenskiolds gate",
+    "lat": 59.911781,
+    "lng": 10.735132,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Torggata",
+    "lat": 59.91599,
+    "lng": 10.751576,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Torshovdalen øst",
+    "lat": 59.932847,
+    "lng": 10.777597,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Torshovparken vest",
+    "lat": 59.93507,
+    "lng": 10.76915,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-23",
+    "aliases": []
+  },
+  {
+    "name": "Trelastgata",
+    "lat": 59.907987,
+    "lng": 10.762593,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Trondheimsveien",
+    "lat": 59.923058,
+    "lng": 10.771719,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Tåsen Senter",
+    "lat": 59.952653,
+    "lng": 10.751173,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Tåsenløkka",
+    "lat": 59.943394,
+    "lng": 10.748285,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-23",
+    "aliases": []
+  },
+  {
+    "name": "Tøyen skole",
+    "lat": 59.914943,
+    "lng": 10.773977,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-23",
+    "aliases": []
+  },
+  {
+    "name": "Tøyenbekken",
+    "lat": 59.911595,
+    "lng": 10.761774,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Tøyenparken",
+    "lat": 59.915667,
+    "lng": 10.777567,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Uelands gate",
+    "lat": 59.929545,
+    "lng": 10.748986,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Ullevål sykehus",
+    "lat": 59.936031,
+    "lng": 10.736452,
+    "first_seen": "2019-04-03",
+    "last_seen": "2023-09-28",
+    "aliases": []
+  },
+  {
+    "name": "Ullevålsalléen",
+    "lat": 59.937913,
+    "lng": 10.73048,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Ullevålsveien",
+    "lat": 59.924685,
+    "lng": 10.739505,
+    "first_seen": "2019-04-03",
+    "last_seen": "2023-11-06",
+    "aliases": []
+  },
+  {
+    "name": "Ulven Torg",
+    "lat": 59.924778,
+    "lng": 10.811007,
+    "first_seen": "2021-06-22",
+    "last_seen": "2024-12-12",
+    "aliases": []
+  },
+  {
+    "name": "Universitetsgata",
+    "lat": 59.915915,
+    "lng": 10.737835,
+    "first_seen": "2022-04-22",
+    "last_seen": "2026-06-23",
+    "aliases": []
+  },
+  {
+    "name": "Uranienborgparken",
+    "lat": 59.922485,
+    "lng": 10.720896,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-23",
+    "aliases": []
+  },
+  {
+    "name": "Uranienborgveien",
+    "lat": 59.920042,
+    "lng": 10.726634,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Valkyrieplassen",
+    "lat": 59.928132,
+    "lng": 10.71842,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-23",
+    "aliases": []
+  },
+  {
+    "name": "Valle Vision",
+    "lat": 59.916065,
+    "lng": 10.807178,
+    "first_seen": "2024-02-07",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Vaterlandsparken",
+    "lat": 59.913519,
+    "lng": 10.757335,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Vestkanttorvet",
+    "lat": 59.924403,
+    "lng": 10.713069,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Vestre Aker Kirke",
+    "lat": 59.936006,
+    "lng": 10.731909,
+    "first_seen": "2023-07-28",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Via Vika",
+    "lat": 59.912713,
+    "lng": 10.727171,
+    "first_seen": "2021-12-15",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Vippetangen vest",
+    "lat": 59.903989,
+    "lng": 10.740627,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-23",
+    "aliases": []
+  },
+  {
+    "name": "Vippetangen øst",
+    "lat": 59.903989,
+    "lng": 10.741077,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-23",
+    "aliases": []
+  },
+  {
+    "name": "Volvat",
+    "lat": 59.933084,
+    "lng": 10.703977,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Vulkan",
+    "lat": 59.92251,
+    "lng": 10.75101,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Vålerenga",
+    "lat": 59.908576,
+    "lng": 10.786856,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Vår Frelsers gravlund",
+    "lat": 59.91944,
+    "lng": 10.743765,
+    "first_seen": "2022-05-24",
+    "last_seen": "2026-06-23",
+    "aliases": []
+  },
+  {
+    "name": "Vår Frelsers gravlund sør",
+    "lat": 59.919463,
+    "lng": 10.743829,
+    "first_seen": "2019-04-03",
+    "last_seen": "2022-05-24",
+    "aliases": []
+  },
+  {
+    "name": "kv5",
+    "lat": 59.905621,
+    "lng": 10.779593,
+    "first_seen": "2026-04-29",
+    "last_seen": "2026-04-29",
+    "aliases": []
+  },
+  {
+    "name": "Økern Portal",
+    "lat": 59.93091,
+    "lng": 10.80193,
+    "first_seen": "2021-06-01",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Økern T-bane",
+    "lat": 59.928895,
+    "lng": 10.806235,
+    "first_seen": "2022-12-22",
+    "last_seen": "2026-06-23",
+    "aliases": []
+  },
+  {
+    "name": "Økernveien",
+    "lat": 59.916823,
+    "lng": 10.779905,
+    "first_seen": "2019-04-03",
+    "last_seen": "2026-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Østbanehallen",
+    "lat": 59.910499,
+    "lng": 10.750506,
+    "first_seen": "2025-12-15",
+    "last_seen": "2026-06-23",
+    "aliases": []
+  }
+]
