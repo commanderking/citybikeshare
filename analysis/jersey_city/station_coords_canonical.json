@@ -1,0 +1,6574 @@
+[
+  {
+    "name": "1 Ave & E 16 St",
+    "lat": 40.732219,
+    "lng": -73.981656,
+    "first_seen": "2019-06-02",
+    "last_seen": "2024-08-17",
+    "aliases": []
+  },
+  {
+    "name": "1 Ave & E 18 St",
+    "lat": 40.733812,
+    "lng": -73.980544,
+    "first_seen": "2026-02-05",
+    "last_seen": "2026-02-05",
+    "aliases": []
+  },
+  {
+    "name": "1 Ave & E 30 St",
+    "lat": 40.739301,
+    "lng": -73.99277,
+    "first_seen": "2022-07-10",
+    "last_seen": "2023-09-12",
+    "aliases": []
+  },
+  {
+    "name": "1 Ave & E 38 St",
+    "lat": 40.746202,
+    "lng": -73.971822,
+    "first_seen": "2024-06-20",
+    "last_seen": "2025-04-21",
+    "aliases": []
+  },
+  {
+    "name": "1 Ave & E 39 St",
+    "lat": 40.74714,
+    "lng": -73.97113,
+    "first_seen": "2024-01-04",
+    "last_seen": "2024-02-29",
+    "aliases": []
+  },
+  {
+    "name": "1 Ave & E 5 St",
+    "lat": 40.725864,
+    "lng": -73.986389,
+    "first_seen": "2020-07-15",
+    "last_seen": "2020-07-15",
+    "aliases": []
+  },
+  {
+    "name": "1 Ave & E 6 St",
+    "lat": 40.725384,
+    "lng": -73.99145,
+    "first_seen": "2021-06-10",
+    "last_seen": "2026-03-14",
+    "aliases": []
+  },
+  {
+    "name": "1 Ave & E 62 St",
+    "lat": 40.74885,
+    "lng": -73.999221,
+    "first_seen": "2022-05-04",
+    "last_seen": "2024-05-22",
+    "aliases": []
+  },
+  {
+    "name": "1 Ave & E 68 St",
+    "lat": 40.746747,
+    "lng": -73.997145,
+    "first_seen": "2022-05-05",
+    "last_seen": "2024-06-04",
+    "aliases": []
+  },
+  {
+    "name": "1 Pl & Clinton St",
+    "lat": 40.680959,
+    "lng": -73.999057,
+    "first_seen": "2024-04-12",
+    "last_seen": "2025-08-27",
+    "aliases": []
+  },
+  {
+    "name": "10 Ave & W 14 St",
+    "lat": 40.741966,
+    "lng": -74.008534,
+    "first_seen": "2021-07-30",
+    "last_seen": "2026-05-19",
+    "aliases": []
+  },
+  {
+    "name": "10 Ave & W 28 St",
+    "lat": 40.750703,
+    "lng": -74.004811,
+    "first_seen": "2020-06-23",
+    "last_seen": "2026-05-19",
+    "aliases": []
+  },
+  {
+    "name": "10 Ave & W 34 St",
+    "lat": 40.75477,
+    "lng": -73.999146,
+    "first_seen": "2026-04-16",
+    "last_seen": "2026-04-16",
+    "aliases": []
+  },
+  {
+    "name": "10 St & 7 Ave",
+    "lat": 40.666208,
+    "lng": -73.981999,
+    "first_seen": "2025-04-26",
+    "last_seen": "2025-04-26",
+    "aliases": []
+  },
+  {
+    "name": "11 Ave & W 27 St",
+    "lat": 40.749755,
+    "lng": -74.007901,
+    "first_seen": "2021-08-04",
+    "last_seen": "2025-11-04",
+    "aliases": []
+  },
+  {
+    "name": "11 Ave & W 41 St",
+    "lat": 40.758663,
+    "lng": -74.003188,
+    "first_seen": "2017-10-20",
+    "last_seen": "2026-05-22",
+    "aliases": []
+  },
+  {
+    "name": "11 Ave & W 59 St",
+    "lat": 40.772473,
+    "lng": -73.992599,
+    "first_seen": "2021-05-10",
+    "last_seen": "2025-11-26",
+    "aliases": []
+  },
+  {
+    "name": "11 St & Washington St",
+    "lat": 40.749978,
+    "lng": -74.027171,
+    "first_seen": "2021-05-03",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "12 Ave & W 40 St",
+    "lat": 40.760875,
+    "lng": -74.002777,
+    "first_seen": "2015-10-06",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "12 St & Sinatra Dr N",
+    "lat": 40.750597,
+    "lng": -74.024045,
+    "first_seen": "2021-08-15",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "14 St Ferry - 14 St & Shipyard Ln",
+    "lat": 40.752935,
+    "lng": -74.024345,
+    "first_seen": "2021-06-18",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "2 Ave & E 29 St",
+    "lat": 40.738605,
+    "lng": -73.989348,
+    "first_seen": "2023-12-01",
+    "last_seen": "2026-01-07",
+    "aliases": []
+  },
+  {
+    "name": "2 Ave & E 72 St",
+    "lat": 40.762553,
+    "lng": -73.980151,
+    "first_seen": "2021-06-13",
+    "last_seen": "2025-09-22",
+    "aliases": []
+  },
+  {
+    "name": "2 St & Park Ave",
+    "lat": 40.739151,
+    "lng": -74.033081,
+    "first_seen": "2023-02-16",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "2 St HBLR - 2 St & Marshall St",
+    "lat": 40.740802,
+    "lng": -74.042435,
+    "first_seen": "2021-05-13",
+    "last_seen": "2021-11-04",
+    "aliases": []
+  },
+  {
+    "name": "3 Ave & Carroll St",
+    "lat": 40.693394,
+    "lng": -74.002456,
+    "first_seen": "2023-12-04",
+    "last_seen": "2024-05-24",
+    "aliases": []
+  },
+  {
+    "name": "3 Ave & E 100 St",
+    "lat": 40.690745,
+    "lng": -74.093095,
+    "first_seen": "2024-06-04",
+    "last_seen": "2024-06-05",
+    "aliases": [
+      "48 Ave & 41 St",
+      "E 103 St & Lexington Ave",
+      "E 81 St & York Ave"
+    ]
+  },
+  {
+    "name": "3 Ave & E 62 St",
+    "lat": 40.745033,
+    "lng": -73.997226,
+    "first_seen": "2024-06-04",
+    "last_seen": "2026-05-21",
+    "aliases": []
+  },
+  {
+    "name": "3 Ave & E 71 St",
+    "lat": 40.763321,
+    "lng": -73.972628,
+    "first_seen": "2023-07-18",
+    "last_seen": "2025-09-04",
+    "aliases": []
+  },
+  {
+    "name": "3 Ave & E 72 St",
+    "lat": 40.769943,
+    "lng": -73.960607,
+    "first_seen": "2024-09-12",
+    "last_seen": "2024-09-12",
+    "aliases": []
+  },
+  {
+    "name": "3 Ave & E 81 St",
+    "lat": 40.745828,
+    "lng": -74.000317,
+    "first_seen": "2024-06-19",
+    "last_seen": "2024-06-19",
+    "aliases": []
+  },
+  {
+    "name": "3 Ave & E 82 St",
+    "lat": 40.775744,
+    "lng": -73.956375,
+    "first_seen": "2025-08-11",
+    "last_seen": "2025-10-29",
+    "aliases": []
+  },
+  {
+    "name": "3 St & 3 Ave",
+    "lat": 40.67507,
+    "lng": -73.987752,
+    "first_seen": "2024-06-03",
+    "last_seen": "2024-09-26",
+    "aliases": []
+  },
+  {
+    "name": "3 St & 7 Ave",
+    "lat": 40.670384,
+    "lng": -73.978397,
+    "first_seen": "2025-06-09",
+    "last_seen": "2025-06-16",
+    "aliases": []
+  },
+  {
+    "name": "3 St & Prospect Park West",
+    "lat": 40.668132,
+    "lng": -73.973638,
+    "first_seen": "2025-06-16",
+    "last_seen": "2025-09-08",
+    "aliases": []
+  },
+  {
+    "name": "31 Ave & Crescent St",
+    "lat": 40.731036,
+    "lng": -74.064649,
+    "first_seen": "2023-11-09",
+    "last_seen": "2023-11-10",
+    "aliases": [
+      "23 St & 31 Ave",
+      "39 Dr & 52 St",
+      "46 St & Queens Blvd",
+      "53 St & Roosevelt Ave",
+      "Crescent St & 35 Ave",
+      "Crescent St & Broadway"
+    ]
+  },
+  {
+    "name": "31 St & Northern Blvd",
+    "lat": 40.735354,
+    "lng": -74.046973,
+    "first_seen": "2023-05-23",
+    "last_seen": "2023-05-26",
+    "aliases": [
+      "Bushwick Ave & Furman Ave",
+      "Central Ave & Covert St",
+      "George St & Wilson Ave",
+      "Greene Av & Myrtle Av",
+      "Halsey St & Broadway",
+      "Halsey St & Evergreen Ave",
+      "Halsey St & Tompkins Ave",
+      "Kingsland Ave & Nassau Ave",
+      "Kosciuszko St & Tompkins Ave",
+      "Myrtle Ave & Grove St",
+      "White St & Moore St",
+      "Willoughby Ave & Tompkins Ave",
+      "Wilson Ave & Moffat St"
+    ]
+  },
+  {
+    "name": "4 Ave & 3 St",
+    "lat": 40.673746,
+    "lng": -73.985649,
+    "first_seen": "2023-12-10",
+    "last_seen": "2023-12-10",
+    "aliases": []
+  },
+  {
+    "name": "4 Ave & E 12 St",
+    "lat": 40.731343,
+    "lng": -73.998962,
+    "first_seen": "2023-12-01",
+    "last_seen": "2025-07-06",
+    "aliases": []
+  },
+  {
+    "name": "4 St & Grand St",
+    "lat": 40.742258,
+    "lng": -74.035104,
+    "first_seen": "2021-05-20",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "4 St & River St",
+    "lat": 40.740813,
+    "lng": -74.027414,
+    "first_seen": "2023-09-13",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "48 Ave & 5 St",
+    "lat": 40.739858,
+    "lng": -74.001423,
+    "first_seen": "2023-05-26",
+    "last_seen": "2023-05-26",
+    "aliases": []
+  },
+  {
+    "name": "5 Ave & E 29 St",
+    "lat": 40.745168,
+    "lng": -73.986831,
+    "first_seen": "2022-03-18",
+    "last_seen": "2022-03-18",
+    "aliases": []
+  },
+  {
+    "name": "5 Ave & E 30 St",
+    "lat": 40.745985,
+    "lng": -73.986295,
+    "first_seen": "2023-12-27",
+    "last_seen": "2025-09-24",
+    "aliases": []
+  },
+  {
+    "name": "5 Ave & E 63 St",
+    "lat": 40.766368,
+    "lng": -73.971518,
+    "first_seen": "2022-09-19",
+    "last_seen": "2025-08-21",
+    "aliases": []
+  },
+  {
+    "name": "5 Ave & E 72 St",
+    "lat": 40.769317,
+    "lng": -73.97688,
+    "first_seen": "2021-07-10",
+    "last_seen": "2025-07-02",
+    "aliases": []
+  },
+  {
+    "name": "5 Ave & E 78 St",
+    "lat": 40.776321,
+    "lng": -73.964274,
+    "first_seen": "2024-08-08",
+    "last_seen": "2025-06-04",
+    "aliases": []
+  },
+  {
+    "name": "5 Ave & E 87 St",
+    "lat": 40.766929,
+    "lng": -73.98912,
+    "first_seen": "2023-05-23",
+    "last_seen": "2024-11-19",
+    "aliases": []
+  },
+  {
+    "name": "5 Ave & E 88 St",
+    "lat": 40.78307,
+    "lng": -73.95939,
+    "first_seen": "2021-01-30",
+    "last_seen": "2021-01-30",
+    "aliases": []
+  },
+  {
+    "name": "5 Ave & E 93 St",
+    "lat": 40.785785,
+    "lng": -73.957481,
+    "first_seen": "2023-06-25",
+    "last_seen": "2023-06-25",
+    "aliases": []
+  },
+  {
+    "name": "5 Corners Library",
+    "lat": 40.734961,
+    "lng": -74.059505,
+    "first_seen": "2015-09-21",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "50 St & Northern Blvd",
+    "lat": 40.762577,
+    "lng": -74.052482,
+    "first_seen": "2023-08-13",
+    "last_seen": "2023-08-13",
+    "aliases": []
+  },
+  {
+    "name": "53 St & Flushing Ave",
+    "lat": 40.731268,
+    "lng": -74.063678,
+    "first_seen": "2024-06-14",
+    "last_seen": "2024-06-15",
+    "aliases": [
+      "60 Pl & Flushing Ave",
+      "65 St & Otto Rd",
+      "Grand Ave & 55 St",
+      "Grand Ave & Remsen Pl",
+      "Manhattan Ave & Devoe St",
+      "Powers St & Olive St"
+    ]
+  },
+  {
+    "name": "6 Ave & 12 St",
+    "lat": 40.666318,
+    "lng": -73.985462,
+    "first_seen": "2023-09-27",
+    "last_seen": "2023-09-27",
+    "aliases": []
+  },
+  {
+    "name": "6 Ave & Broome St",
+    "lat": 40.724638,
+    "lng": -74.00562,
+    "first_seen": "2016-11-02",
+    "last_seen": "2026-05-13",
+    "aliases": []
+  },
+  {
+    "name": "6 Ave & Canal St",
+    "lat": 40.722462,
+    "lng": -74.009585,
+    "first_seen": "2017-09-12",
+    "last_seen": "2025-02-07",
+    "aliases": []
+  },
+  {
+    "name": "6 Ave & Spring St",
+    "lat": 40.725256,
+    "lng": -74.004121,
+    "first_seen": "2017-07-06",
+    "last_seen": "2017-07-13",
+    "aliases": []
+  },
+  {
+    "name": "6 Ave & W 33 St",
+    "lat": 40.74851,
+    "lng": -73.99008,
+    "first_seen": "2015-12-03",
+    "last_seen": "2026-05-13",
+    "aliases": []
+  },
+  {
+    "name": "6 Ave & W 34 St",
+    "lat": 40.747397,
+    "lng": -73.992949,
+    "first_seen": "2021-06-27",
+    "last_seen": "2026-05-30",
+    "aliases": []
+  },
+  {
+    "name": "6 Ave & W 45 St",
+    "lat": 40.756951,
+    "lng": -73.982631,
+    "first_seen": "2021-09-14",
+    "last_seen": "2026-05-14",
+    "aliases": []
+  },
+  {
+    "name": "6 Ave & Walker St",
+    "lat": 40.720008,
+    "lng": -74.005804,
+    "first_seen": "2022-02-24",
+    "last_seen": "2026-05-14",
+    "aliases": []
+  },
+  {
+    "name": "6 St & Grand St",
+    "lat": 40.744385,
+    "lng": -74.034493,
+    "first_seen": "2021-05-14",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "7 Ave & Central Park South",
+    "lat": 40.766205,
+    "lng": -73.984173,
+    "first_seen": "2023-05-23",
+    "last_seen": "2026-04-28",
+    "aliases": []
+  },
+  {
+    "name": "7 Ave & Park Pl",
+    "lat": 40.677615,
+    "lng": -73.973243,
+    "first_seen": "2024-05-28",
+    "last_seen": "2024-05-28",
+    "aliases": []
+  },
+  {
+    "name": "7 Ave & W 55 St",
+    "lat": 40.764711,
+    "lng": -73.996787,
+    "first_seen": "2023-08-13",
+    "last_seen": "2024-07-10",
+    "aliases": []
+  },
+  {
+    "name": "7 Ave S & Bleecker St",
+    "lat": 40.732139,
+    "lng": -74.003638,
+    "first_seen": "2023-09-19",
+    "last_seen": "2025-10-23",
+    "aliases": []
+  },
+  {
+    "name": "7 St & 3 Ave",
+    "lat": 40.672603,
+    "lng": -73.98983,
+    "first_seen": "2024-06-04",
+    "last_seen": "2024-07-10",
+    "aliases": []
+  },
+  {
+    "name": "7 St & 5 Ave",
+    "lat": 40.689038,
+    "lng": -74.001734,
+    "first_seen": "2023-08-31",
+    "last_seen": "2023-12-02",
+    "aliases": []
+  },
+  {
+    "name": "7 St & Monroe St",
+    "lat": 40.746409,
+    "lng": -74.037993,
+    "first_seen": "2021-05-21",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "77 St & 31 Ave",
+    "lat": 40.766242,
+    "lng": -74.055622,
+    "first_seen": "2023-08-13",
+    "last_seen": "2023-08-13",
+    "aliases": []
+  },
+  {
+    "name": "8 Ave & W 16 St",
+    "lat": 40.740944,
+    "lng": -74.002019,
+    "first_seen": "2017-06-23",
+    "last_seen": "2026-05-21",
+    "aliases": []
+  },
+  {
+    "name": "8 Ave & W 24 St",
+    "lat": 40.743054,
+    "lng": -74.003419,
+    "first_seen": "2023-03-17",
+    "last_seen": "2024-06-17",
+    "aliases": []
+  },
+  {
+    "name": "8 Ave & W 27 St",
+    "lat": 40.747968,
+    "lng": -73.996637,
+    "first_seen": "2024-03-15",
+    "last_seen": "2024-06-14",
+    "aliases": []
+  },
+  {
+    "name": "8 Ave & W 31 St",
+    "lat": 40.751779,
+    "lng": -73.99781,
+    "first_seen": "2023-02-24",
+    "last_seen": "2026-05-26",
+    "aliases": []
+  },
+  {
+    "name": "8 Ave & W 33 St",
+    "lat": 40.752271,
+    "lng": -73.997039,
+    "first_seen": "2021-08-13",
+    "last_seen": "2026-03-06",
+    "aliases": []
+  },
+  {
+    "name": "8 Ave & W 38 St",
+    "lat": 40.75461,
+    "lng": -73.99177,
+    "first_seen": "2021-05-20",
+    "last_seen": "2026-01-14",
+    "aliases": []
+  },
+  {
+    "name": "8 Ave & W 49 St",
+    "lat": 40.756629,
+    "lng": -73.993658,
+    "first_seen": "2022-05-26",
+    "last_seen": "2025-11-18",
+    "aliases": []
+  },
+  {
+    "name": "8 Ave & W 52 St",
+    "lat": 40.763707,
+    "lng": -73.985162,
+    "first_seen": "2017-06-13",
+    "last_seen": "2026-05-26",
+    "aliases": []
+  },
+  {
+    "name": "8 St & Washington St",
+    "lat": 40.745976,
+    "lng": -74.028195,
+    "first_seen": "2021-05-13",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "81 St & 35 Ave",
+    "lat": 40.736137,
+    "lng": -74.029368,
+    "first_seen": "2023-10-16",
+    "last_seen": "2023-10-16",
+    "aliases": [
+      "Adam Clayton Powell Blvd & W 123 St",
+      "E 167 St & Bryant Ave",
+      "Freeman St & Southern Blvd",
+      "Fulton Ave & E 168 St",
+      "Prospect Ave & E 167 St",
+      "St Ann's Ave & Bruckner Blvd"
+    ]
+  },
+  {
+    "name": "9 Ave & W 18 St",
+    "lat": 40.743174,
+    "lng": -74.003664,
+    "first_seen": "2021-05-28",
+    "last_seen": "2026-03-31",
+    "aliases": []
+  },
+  {
+    "name": "9 Ave & W 22 St",
+    "lat": 40.734043,
+    "lng": -74.009853,
+    "first_seen": "2023-08-18",
+    "last_seen": "2025-01-17",
+    "aliases": []
+  },
+  {
+    "name": "9 Ave & W 33 St",
+    "lat": 40.752702,
+    "lng": -73.996875,
+    "first_seen": "2024-04-12",
+    "last_seen": "2026-05-29",
+    "aliases": []
+  },
+  {
+    "name": "9 Ave & W 39 St",
+    "lat": 40.752895,
+    "lng": -74.002913,
+    "first_seen": "2023-05-25",
+    "last_seen": "2025-11-14",
+    "aliases": []
+  },
+  {
+    "name": "9 Ave & W 45 St",
+    "lat": 40.755225,
+    "lng": -74.002399,
+    "first_seen": "2015-09-28",
+    "last_seen": "2025-08-26",
+    "aliases": []
+  },
+  {
+    "name": "9 St HBLR - Jackson St & 8 St",
+    "lat": 40.747911,
+    "lng": -74.038412,
+    "first_seen": "2021-05-21",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Adam Clayton Powell Blvd & W 130 St",
+    "lat": 40.715912,
+    "lng": -74.044259,
+    "first_seen": "2024-06-19",
+    "last_seen": "2024-06-20",
+    "aliases": [
+      "3 Ave & E 172 St",
+      "E 118 St & Park Ave",
+      "E 132 St & Madison Ave",
+      "Lenox Ave & W 144 St",
+      "Wilkins Ave & Crotona Park E"
+    ]
+  },
+  {
+    "name": "Adams St & 11 St",
+    "lat": 40.750884,
+    "lng": -74.033553,
+    "first_seen": "2021-05-14",
+    "last_seen": "2023-09-13",
+    "aliases": []
+  },
+  {
+    "name": "Adams St & 12 St",
+    "lat": 40.751879,
+    "lng": -74.033292,
+    "first_seen": "2023-09-13",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Adams St & 2 St",
+    "lat": 40.739803,
+    "lng": -74.036899,
+    "first_seen": "2021-10-29",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Albany St & Greenwich St",
+    "lat": 40.709267,
+    "lng": -74.013247,
+    "first_seen": "2021-07-07",
+    "last_seen": "2025-07-15",
+    "aliases": []
+  },
+  {
+    "name": "Allen St & Rivington St",
+    "lat": 40.71966,
+    "lng": -73.996763,
+    "first_seen": "2016-11-19",
+    "last_seen": "2026-04-24",
+    "aliases": []
+  },
+  {
+    "name": "Allen St & Stanton St",
+    "lat": 40.722055,
+    "lng": -73.989111,
+    "first_seen": "2024-05-17",
+    "last_seen": "2025-10-24",
+    "aliases": []
+  },
+  {
+    "name": "Amity St & Court St",
+    "lat": 40.688419,
+    "lng": -73.993142,
+    "first_seen": "2026-04-17",
+    "last_seen": "2026-04-17",
+    "aliases": []
+  },
+  {
+    "name": "Amsterdam Ave & W 66 St",
+    "lat": 40.774667,
+    "lng": -73.984706,
+    "first_seen": "2018-08-06",
+    "last_seen": "2026-04-30",
+    "aliases": []
+  },
+  {
+    "name": "Amsterdam Ave & W 73 St",
+    "lat": 40.775062,
+    "lng": -73.994751,
+    "first_seen": "2017-09-29",
+    "last_seen": "2024-08-06",
+    "aliases": []
+  },
+  {
+    "name": "Amsterdam Ave & W 79 St",
+    "lat": 40.779781,
+    "lng": -73.989431,
+    "first_seen": "2019-06-11",
+    "last_seen": "2025-10-23",
+    "aliases": []
+  },
+  {
+    "name": "Amsterdam Ave & W 82 St",
+    "lat": 40.768196,
+    "lng": -74.006017,
+    "first_seen": "2022-08-30",
+    "last_seen": "2024-10-20",
+    "aliases": []
+  },
+  {
+    "name": "Arlington Ave & Bramhall Ave",
+    "lat": 40.713225,
+    "lng": -74.070645,
+    "first_seen": "2025-08-29",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Arlington Ave & Wilkinson Ave",
+    "lat": 40.704503,
+    "lng": -74.07721,
+    "first_seen": "2025-09-12",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Astor Place",
+    "lat": 40.719283,
+    "lng": -74.071258,
+    "first_seen": "2016-10-29",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Atlantic Ave & Fort Greene Pl",
+    "lat": 40.683826,
+    "lng": -73.976323,
+    "first_seen": "2020-02-06",
+    "last_seen": "2025-07-17",
+    "aliases": []
+  },
+  {
+    "name": "Atlantic Ave & Furman St",
+    "lat": 40.691677,
+    "lng": -74.005891,
+    "first_seen": "2018-07-16",
+    "last_seen": "2026-05-28",
+    "aliases": []
+  },
+  {
+    "name": "Ave A & E 11 St",
+    "lat": 40.727741,
+    "lng": -73.999296,
+    "first_seen": "2022-10-11",
+    "last_seen": "2023-12-02",
+    "aliases": []
+  },
+  {
+    "name": "Ave A & E 14 St",
+    "lat": 40.730311,
+    "lng": -73.980472,
+    "first_seen": "2023-11-04",
+    "last_seen": "2025-06-18",
+    "aliases": []
+  },
+  {
+    "name": "Ave C & E 16 St",
+    "lat": 40.729848,
+    "lng": -73.974552,
+    "first_seen": "2023-06-11",
+    "last_seen": "2023-06-11",
+    "aliases": []
+  },
+  {
+    "name": "Avenue D & E 10 St",
+    "lat": 40.731392,
+    "lng": -74.02114,
+    "first_seen": "2023-06-21",
+    "last_seen": "2023-06-21",
+    "aliases": []
+  },
+  {
+    "name": "Avenue D & E 12 St",
+    "lat": 40.725806,
+    "lng": -73.974225,
+    "first_seen": "2023-09-29",
+    "last_seen": "2023-09-29",
+    "aliases": []
+  },
+  {
+    "name": "Avenue D & E 3 St",
+    "lat": 40.718663,
+    "lng": -73.996332,
+    "first_seen": "2023-06-25",
+    "last_seen": "2023-09-23",
+    "aliases": []
+  },
+  {
+    "name": "Baldwin at Montgomery",
+    "lat": 40.723651,
+    "lng": -74.064194,
+    "first_seen": "2015-09-21",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Bank St & Hudson St",
+    "lat": 40.736529,
+    "lng": -74.00618,
+    "first_seen": "2021-11-06",
+    "last_seen": "2026-03-10",
+    "aliases": []
+  },
+  {
+    "name": "Bank St & Washington St",
+    "lat": 40.736197,
+    "lng": -74.008592,
+    "first_seen": "2017-08-06",
+    "last_seen": "2026-03-14",
+    "aliases": []
+  },
+  {
+    "name": "Banker St & Meserole Ave",
+    "lat": 40.72606,
+    "lng": -73.95621,
+    "first_seen": "2025-05-28",
+    "last_seen": "2026-04-16",
+    "aliases": []
+  },
+  {
+    "name": "Barclay St & Church St",
+    "lat": 40.712912,
+    "lng": -74.010202,
+    "first_seen": "2017-08-26",
+    "last_seen": "2026-05-19",
+    "aliases": []
+  },
+  {
+    "name": "Barrow St & Hudson St",
+    "lat": 40.731065,
+    "lng": -74.008307,
+    "first_seen": "2017-10-10",
+    "last_seen": "2026-01-05",
+    "aliases": []
+  },
+  {
+    "name": "Bay St & Washington St",
+    "lat": 40.720216,
+    "lng": -74.03656,
+    "first_seen": "2026-04-03",
+    "last_seen": "2026-05-19",
+    "aliases": []
+  },
+  {
+    "name": "Bayard St & Baxter St",
+    "lat": 40.716012,
+    "lng": -74.003453,
+    "first_seen": "2019-10-19",
+    "last_seen": "2025-11-06",
+    "aliases": []
+  },
+  {
+    "name": "Bayside Park",
+    "lat": 40.698651,
+    "lng": -74.08208,
+    "first_seen": "2015-09-21",
+    "last_seen": "2018-04-26",
+    "aliases": []
+  },
+  {
+    "name": "Bedford Ave & Bergen St",
+    "lat": 40.676368,
+    "lng": -73.952918,
+    "first_seen": "2021-09-11",
+    "last_seen": "2021-09-11",
+    "aliases": []
+  },
+  {
+    "name": "Bedford Ave & Montgomery St",
+    "lat": 40.665816,
+    "lng": -73.956934,
+    "first_seen": "2023-10-03",
+    "last_seen": "2023-10-03",
+    "aliases": []
+  },
+  {
+    "name": "Bedford Ave & Nassau Ave",
+    "lat": 40.723117,
+    "lng": -73.952123,
+    "first_seen": "2024-07-05",
+    "last_seen": "2025-04-01",
+    "aliases": []
+  },
+  {
+    "name": "Bergen Ave",
+    "lat": 40.722105,
+    "lng": -74.071442,
+    "first_seen": "2018-04-20",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Bergen Ave & Sip Ave",
+    "lat": 40.73102,
+    "lng": -74.064423,
+    "first_seen": "2022-07-12",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Bergen Ave & Stegman St",
+    "lat": 40.706609,
+    "lng": -74.086679,
+    "first_seen": "2021-06-06",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Bergen St & 4 Ave",
+    "lat": 40.682564,
+    "lng": -73.979898,
+    "first_seen": "2024-07-18",
+    "last_seen": "2024-07-18",
+    "aliases": []
+  },
+  {
+    "name": "Bergen St & Flatbush Ave",
+    "lat": 40.699081,
+    "lng": -73.99944,
+    "first_seen": "2023-05-23",
+    "last_seen": "2024-04-16",
+    "aliases": []
+  },
+  {
+    "name": "Bergen St & Kingston Ave",
+    "lat": 40.736267,
+    "lng": -74.029004,
+    "first_seen": "2023-09-20",
+    "last_seen": "2023-09-20",
+    "aliases": [
+      "Lefferts Ave & Schenectady Ave"
+    ]
+  },
+  {
+    "name": "Bergen St & Smith St",
+    "lat": 40.686744,
+    "lng": -73.990632,
+    "first_seen": "2024-11-13",
+    "last_seen": "2026-05-22",
+    "aliases": []
+  },
+  {
+    "name": "Berkeley Pl & 7 Ave",
+    "lat": 40.675147,
+    "lng": -73.975232,
+    "first_seen": "2024-06-15",
+    "last_seen": "2024-06-15",
+    "aliases": []
+  },
+  {
+    "name": "Berry St & N 8 St",
+    "lat": 40.71901,
+    "lng": -73.958525,
+    "first_seen": "2024-08-17",
+    "last_seen": "2026-04-21",
+    "aliases": []
+  },
+  {
+    "name": "Bethune Center",
+    "lat": 40.704958,
+    "lng": -74.085931,
+    "first_seen": "2016-07-29",
+    "last_seen": "2018-04-26",
+    "aliases": []
+  },
+  {
+    "name": "Beverley Rd & Nostrand Ave",
+    "lat": 40.735284,
+    "lng": -74.027415,
+    "first_seen": "2023-12-19",
+    "last_seen": "2023-12-19",
+    "aliases": []
+  },
+  {
+    "name": "Bleecker St & Crosby St",
+    "lat": 40.726559,
+    "lng": -73.995672,
+    "first_seen": "2021-11-24",
+    "last_seen": "2026-05-27",
+    "aliases": []
+  },
+  {
+    "name": "Bloomfield St & 15 St",
+    "lat": 40.754505,
+    "lng": -74.026586,
+    "first_seen": "2021-02-06",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Bond St & Bergen St",
+    "lat": 40.71016,
+    "lng": -74.016591,
+    "first_seen": "2023-05-23",
+    "last_seen": "2023-05-23",
+    "aliases": []
+  },
+  {
+    "name": "Bridge St & Front St",
+    "lat": 40.702969,
+    "lng": -73.984691,
+    "first_seen": "2025-09-19",
+    "last_seen": "2025-09-19",
+    "aliases": []
+  },
+  {
+    "name": "Broad St & Bridge St",
+    "lat": 40.703652,
+    "lng": -74.011678,
+    "first_seen": "2022-08-06",
+    "last_seen": "2026-02-17",
+    "aliases": []
+  },
+  {
+    "name": "Broad St & Water St",
+    "lat": 40.702938,
+    "lng": -74.011494,
+    "first_seen": "2021-09-15",
+    "last_seen": "2021-09-15",
+    "aliases": []
+  },
+  {
+    "name": "Broadway & Battery Pl",
+    "lat": 40.704633,
+    "lng": -74.013617,
+    "first_seen": "2016-07-17",
+    "last_seen": "2026-04-28",
+    "aliases": []
+  },
+  {
+    "name": "Broadway & Berry St",
+    "lat": 40.718245,
+    "lng": -73.999837,
+    "first_seen": "2023-12-02",
+    "last_seen": "2023-12-02",
+    "aliases": []
+  },
+  {
+    "name": "Broadway & E 14 St",
+    "lat": 40.732925,
+    "lng": -73.995395,
+    "first_seen": "2019-08-15",
+    "last_seen": "2025-08-09",
+    "aliases": []
+  },
+  {
+    "name": "Broadway & E 19 St",
+    "lat": 40.73383,
+    "lng": -73.998948,
+    "first_seen": "2022-06-24",
+    "last_seen": "2025-10-14",
+    "aliases": []
+  },
+  {
+    "name": "Broadway & E 21 St",
+    "lat": 40.734081,
+    "lng": -74.003402,
+    "first_seen": "2022-07-13",
+    "last_seen": "2026-04-26",
+    "aliases": []
+  },
+  {
+    "name": "Broadway & Kent Ave",
+    "lat": 40.719178,
+    "lng": -73.996486,
+    "first_seen": "2023-08-04",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Broadway & Madison St",
+    "lat": 40.735759,
+    "lng": -74.052801,
+    "first_seen": "2023-08-04",
+    "last_seen": "2023-08-04",
+    "aliases": [
+      "Greene Ave & Throop Ave"
+    ]
+  },
+  {
+    "name": "Broadway & Morris St",
+    "lat": 40.707232,
+    "lng": -74.014747,
+    "first_seen": "2022-02-17",
+    "last_seen": "2025-10-31",
+    "aliases": []
+  },
+  {
+    "name": "Broadway & W 168 St",
+    "lat": 40.758945,
+    "lng": -74.015353,
+    "first_seen": "2023-06-23",
+    "last_seen": "2023-06-23",
+    "aliases": [
+      "W 171 St & St. Nicholas Ave"
+    ]
+  },
+  {
+    "name": "Broadway & W 24 St",
+    "lat": 40.742354,
+    "lng": -73.989151,
+    "first_seen": "2017-08-11",
+    "last_seen": "2017-08-11",
+    "aliases": []
+  },
+  {
+    "name": "Broadway & W 25 St",
+    "lat": 40.742869,
+    "lng": -73.989186,
+    "first_seen": "2023-04-24",
+    "last_seen": "2025-09-25",
+    "aliases": []
+  },
+  {
+    "name": "Broadway & W 29 St",
+    "lat": 40.74586,
+    "lng": -73.992567,
+    "first_seen": "2017-07-18",
+    "last_seen": "2025-07-03",
+    "aliases": []
+  },
+  {
+    "name": "Broadway & W 32 St",
+    "lat": 40.748549,
+    "lng": -73.988084,
+    "first_seen": "2016-08-13",
+    "last_seen": "2018-07-20",
+    "aliases": []
+  },
+  {
+    "name": "Broadway & W 36 St",
+    "lat": 40.75144,
+    "lng": -73.991129,
+    "first_seen": "2017-03-20",
+    "last_seen": "2023-11-27",
+    "aliases": []
+  },
+  {
+    "name": "Broadway & W 37 St",
+    "lat": 40.751726,
+    "lng": -73.987535,
+    "first_seen": "2023-11-07",
+    "last_seen": "2025-10-09",
+    "aliases": []
+  },
+  {
+    "name": "Broadway & W 38 St",
+    "lat": 40.754027,
+    "lng": -73.990085,
+    "first_seen": "2017-10-05",
+    "last_seen": "2025-10-16",
+    "aliases": []
+  },
+  {
+    "name": "Broadway & W 41 St",
+    "lat": 40.751851,
+    "lng": -73.994434,
+    "first_seen": "2021-05-23",
+    "last_seen": "2025-05-16",
+    "aliases": []
+  },
+  {
+    "name": "Broadway & W 48 St",
+    "lat": 40.760177,
+    "lng": -73.984868,
+    "first_seen": "2022-03-16",
+    "last_seen": "2026-04-24",
+    "aliases": [
+      "Broadway\\t& W 48 St"
+    ]
+  },
+  {
+    "name": "Broadway & W 49 St",
+    "lat": 40.760683,
+    "lng": -73.984527,
+    "first_seen": "2016-04-18",
+    "last_seen": "2020-10-21",
+    "aliases": []
+  },
+  {
+    "name": "Broadway & W 51 St",
+    "lat": 40.762288,
+    "lng": -73.983362,
+    "first_seen": "2020-07-17",
+    "last_seen": "2024-08-01",
+    "aliases": []
+  },
+  {
+    "name": "Broadway & W 53 St",
+    "lat": 40.762104,
+    "lng": -73.986158,
+    "first_seen": "2022-07-19",
+    "last_seen": "2026-05-07",
+    "aliases": []
+  },
+  {
+    "name": "Broadway & W 56 St",
+    "lat": 40.752565,
+    "lng": -74.004322,
+    "first_seen": "2019-04-12",
+    "last_seen": "2024-11-25",
+    "aliases": []
+  },
+  {
+    "name": "Broadway & W 58 St",
+    "lat": 40.765069,
+    "lng": -73.989119,
+    "first_seen": "2015-10-21",
+    "last_seen": "2026-05-04",
+    "aliases": []
+  },
+  {
+    "name": "Broadway & W 61 St",
+    "lat": 40.758704,
+    "lng": -73.997844,
+    "first_seen": "2022-07-05",
+    "last_seen": "2025-07-24",
+    "aliases": []
+  },
+  {
+    "name": "Brooklyn Bridge Park - Pier 2",
+    "lat": 40.717363,
+    "lng": -74.013091,
+    "first_seen": "2023-09-20",
+    "last_seen": "2023-09-20",
+    "aliases": []
+  },
+  {
+    "name": "Brunswick & 6th",
+    "lat": 40.726016,
+    "lng": -74.050389,
+    "first_seen": "2016-10-27",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Brunswick St",
+    "lat": 40.724171,
+    "lng": -74.050656,
+    "first_seen": "2015-09-21",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Bus Slip & State St",
+    "lat": 40.701907,
+    "lng": -74.013942,
+    "first_seen": "2016-09-06",
+    "last_seen": "2025-12-01",
+    "aliases": []
+  },
+  {
+    "name": "Butler St & Court St",
+    "lat": 40.684989,
+    "lng": -73.994403,
+    "first_seen": "2024-01-18",
+    "last_seen": "2024-12-15",
+    "aliases": []
+  },
+  {
+    "name": "Cadman Plaza E & Red Cross Pl",
+    "lat": 40.699918,
+    "lng": -73.989718,
+    "first_seen": "2021-06-15",
+    "last_seen": "2021-06-15",
+    "aliases": []
+  },
+  {
+    "name": "Cadman Plaza E & Tillary St",
+    "lat": 40.695977,
+    "lng": -73.990149,
+    "first_seen": "2024-08-24",
+    "last_seen": "2025-05-11",
+    "aliases": []
+  },
+  {
+    "name": "Canal St & Rutgers St",
+    "lat": 40.71568,
+    "lng": -73.993705,
+    "first_seen": "2021-06-06",
+    "last_seen": "2026-05-16",
+    "aliases": []
+  },
+  {
+    "name": "Carlton Ave & Dean St",
+    "lat": 40.680974,
+    "lng": -73.97101,
+    "first_seen": "2021-08-28",
+    "last_seen": "2021-08-28",
+    "aliases": []
+  },
+  {
+    "name": "Carmine St & 6 Ave",
+    "lat": 40.730386,
+    "lng": -74.00215,
+    "first_seen": "2021-08-29",
+    "last_seen": "2026-02-15",
+    "aliases": []
+  },
+  {
+    "name": "Carroll St & 5 Ave",
+    "lat": 40.69021,
+    "lng": -73.997856,
+    "first_seen": "2023-05-23",
+    "last_seen": "2024-08-12",
+    "aliases": []
+  },
+  {
+    "name": "Carroll St & Bond St",
+    "lat": 40.678612,
+    "lng": -73.990373,
+    "first_seen": "2023-10-15",
+    "last_seen": "2023-10-15",
+    "aliases": []
+  },
+  {
+    "name": "Carroll St & Franklin Ave",
+    "lat": 40.667941,
+    "lng": -73.9588,
+    "first_seen": "2023-09-14",
+    "last_seen": "2023-09-14",
+    "aliases": []
+  },
+  {
+    "name": "Carroll St & Smith St",
+    "lat": 40.680611,
+    "lng": -73.994758,
+    "first_seen": "2025-04-30",
+    "last_seen": "2025-04-30",
+    "aliases": []
+  },
+  {
+    "name": "Carteret Ave & Arlington Ave",
+    "lat": 40.709142,
+    "lng": -74.074553,
+    "first_seen": "2025-09-05",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Catherine St & Monroe St",
+    "lat": 40.718174,
+    "lng": -74.025302,
+    "first_seen": "2023-06-23",
+    "last_seen": "2023-07-19",
+    "aliases": []
+  },
+  {
+    "name": "Caven Point Recreation Fields",
+    "lat": 40.69222,
+    "lng": -74.08025,
+    "first_seen": "2025-12-06",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Central Ave",
+    "lat": 40.74673,
+    "lng": -74.049251,
+    "first_seen": "2015-09-21",
+    "last_seen": "2017-07-31",
+    "aliases": []
+  },
+  {
+    "name": "Central Park North & Adam Clayton Powell Blvd",
+    "lat": 40.799484,
+    "lng": -73.955613,
+    "first_seen": "2022-09-17",
+    "last_seen": "2022-09-20",
+    "aliases": []
+  },
+  {
+    "name": "Central Park S & 6 Ave",
+    "lat": 40.767269,
+    "lng": -73.977612,
+    "first_seen": "2018-06-16",
+    "last_seen": "2026-03-25",
+    "aliases": []
+  },
+  {
+    "name": "Central Park S & Grand Army Plaza",
+    "lat": 40.764555,
+    "lng": -73.973473,
+    "first_seen": "2024-07-29",
+    "last_seen": "2025-01-16",
+    "aliases": []
+  },
+  {
+    "name": "Central Park W & W 103 St",
+    "lat": 40.79559,
+    "lng": -73.961884,
+    "first_seen": "2024-05-19",
+    "last_seen": "2024-05-19",
+    "aliases": []
+  },
+  {
+    "name": "Central Park W & W 76 St",
+    "lat": 40.778968,
+    "lng": -73.973747,
+    "first_seen": "2025-04-19",
+    "last_seen": "2025-08-19",
+    "aliases": []
+  },
+  {
+    "name": "Central Park W & W 91 St",
+    "lat": 40.771156,
+    "lng": -73.987656,
+    "first_seen": "2023-08-13",
+    "last_seen": "2023-10-16",
+    "aliases": []
+  },
+  {
+    "name": "Central Park West & W 68 St",
+    "lat": 40.773407,
+    "lng": -73.977825,
+    "first_seen": "2018-06-24",
+    "last_seen": "2023-10-03",
+    "aliases": []
+  },
+  {
+    "name": "Central Park West & W 72 St",
+    "lat": 40.763435,
+    "lng": -73.999616,
+    "first_seen": "2018-10-23",
+    "last_seen": "2024-03-14",
+    "aliases": []
+  },
+  {
+    "name": "Central Park West & W 76 St",
+    "lat": 40.74744,
+    "lng": -74.009003,
+    "first_seen": "2024-06-20",
+    "last_seen": "2024-06-20",
+    "aliases": []
+  },
+  {
+    "name": "Central Park West & W 85 St",
+    "lat": 40.784743,
+    "lng": -73.96974,
+    "first_seen": "2019-05-18",
+    "last_seen": "2024-06-05",
+    "aliases": []
+  },
+  {
+    "name": "Centre St & Chambers St",
+    "lat": 40.712346,
+    "lng": -74.005244,
+    "first_seen": "2023-01-10",
+    "last_seen": "2026-05-15",
+    "aliases": []
+  },
+  {
+    "name": "Centre St & Worth St",
+    "lat": 40.715875,
+    "lng": -74.003504,
+    "first_seen": "2016-08-22",
+    "last_seen": "2025-10-02",
+    "aliases": []
+  },
+  {
+    "name": "Cherry St",
+    "lat": 40.712199,
+    "lng": -73.979481,
+    "first_seen": "2024-07-20",
+    "last_seen": "2024-07-20",
+    "aliases": []
+  },
+  {
+    "name": "Christ Hospital",
+    "lat": 40.734783,
+    "lng": -74.050441,
+    "first_seen": "2015-09-21",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Christopher St & Greenwich St",
+    "lat": 40.732523,
+    "lng": -74.009082,
+    "first_seen": "2016-04-28",
+    "last_seen": "2026-05-04",
+    "aliases": []
+  },
+  {
+    "name": "Church Sq Park - 5 St & Park Ave",
+    "lat": 40.742656,
+    "lng": -74.032242,
+    "first_seen": "2021-05-06",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Church St & Worth St",
+    "lat": 40.716885,
+    "lng": -74.006501,
+    "first_seen": "2024-03-16",
+    "last_seen": "2026-05-12",
+    "aliases": []
+  },
+  {
+    "name": "City Hall",
+    "lat": 40.717733,
+    "lng": -74.043846,
+    "first_seen": "2015-09-21",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "City Hall - Washington St & 1 St",
+    "lat": 40.737345,
+    "lng": -74.030983,
+    "first_seen": "2021-10-08",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Claremont Ave & JFK Blvd",
+    "lat": 40.71189,
+    "lng": -74.08385,
+    "first_seen": "2025-09-05",
+    "last_seen": "2025-12-04",
+    "aliases": []
+  },
+  {
+    "name": "Classon Ave & St Marks Ave",
+    "lat": 40.7611,
+    "lng": -74.014684,
+    "first_seen": "2024-02-14",
+    "last_seen": "2024-02-14",
+    "aliases": []
+  },
+  {
+    "name": "Clermont Ave & Lafayette Ave",
+    "lat": 40.687645,
+    "lng": -73.969689,
+    "first_seen": "2025-04-20",
+    "last_seen": "2025-04-20",
+    "aliases": []
+  },
+  {
+    "name": "Clermont Ave & Park Ave",
+    "lat": 40.695734,
+    "lng": -73.971297,
+    "first_seen": "2026-05-26",
+    "last_seen": "2026-05-26",
+    "aliases": []
+  },
+  {
+    "name": "Cleveland Pl & Spring St",
+    "lat": 40.723208,
+    "lng": -74.001393,
+    "first_seen": "2021-02-17",
+    "last_seen": "2026-05-02",
+    "aliases": []
+  },
+  {
+    "name": "Cliff St & Fulton St",
+    "lat": 40.70873,
+    "lng": -74.006608,
+    "first_seen": "2022-06-14",
+    "last_seen": "2025-11-03",
+    "aliases": []
+  },
+  {
+    "name": "Cliff St & Fulton St_1",
+    "lat": 40.708235,
+    "lng": -74.005301,
+    "first_seen": "2018-08-10",
+    "last_seen": "2018-08-10",
+    "aliases": []
+  },
+  {
+    "name": "Clinton Ave & Myrtle Ave",
+    "lat": 40.699835,
+    "lng": -73.981991,
+    "first_seen": "2017-05-04",
+    "last_seen": "2023-12-01",
+    "aliases": []
+  },
+  {
+    "name": "Clinton St & 7 St",
+    "lat": 40.745411,
+    "lng": -74.03333,
+    "first_seen": "2021-05-20",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Clinton St & Cherry St",
+    "lat": 40.711471,
+    "lng": -73.986726,
+    "first_seen": "2021-08-05",
+    "last_seen": "2023-07-08",
+    "aliases": [
+      "Clinton St\\t& Cherry St"
+    ]
+  },
+  {
+    "name": "Clinton St & Grand St",
+    "lat": 40.719547,
+    "lng": -73.999018,
+    "first_seen": "2023-05-26",
+    "last_seen": "2025-04-05",
+    "aliases": []
+  },
+  {
+    "name": "Clinton St & Joralemon St",
+    "lat": 40.692395,
+    "lng": -73.993379,
+    "first_seen": "2020-06-26",
+    "last_seen": "2024-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Clinton St & Newark St",
+    "lat": 40.737435,
+    "lng": -74.035707,
+    "first_seen": "2021-10-08",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Clinton St & Tillary St",
+    "lat": 40.696233,
+    "lng": -73.991421,
+    "first_seen": "2024-08-02",
+    "last_seen": "2025-08-22",
+    "aliases": []
+  },
+  {
+    "name": "Coffey St & Conover St",
+    "lat": 40.677236,
+    "lng": -74.015665,
+    "first_seen": "2025-06-16",
+    "last_seen": "2025-06-16",
+    "aliases": []
+  },
+  {
+    "name": "Coffey St & Ferris St",
+    "lat": 40.678184,
+    "lng": -74.017017,
+    "first_seen": "2025-08-24",
+    "last_seen": "2025-08-24",
+    "aliases": []
+  },
+  {
+    "name": "Columbia Heights & Cranberry St",
+    "lat": 40.700379,
+    "lng": -73.995481,
+    "first_seen": "2024-07-02",
+    "last_seen": "2024-07-02",
+    "aliases": []
+  },
+  {
+    "name": "Columbia Park",
+    "lat": 40.69703,
+    "lng": -74.096937,
+    "first_seen": "2015-09-21",
+    "last_seen": "2018-04-12",
+    "aliases": []
+  },
+  {
+    "name": "Columbia St & Kane St",
+    "lat": 40.687632,
+    "lng": -74.001626,
+    "first_seen": "2018-06-15",
+    "last_seen": "2023-11-16",
+    "aliases": []
+  },
+  {
+    "name": "Columbus Ave & W 103 St",
+    "lat": 40.752155,
+    "lng": -74.011846,
+    "first_seen": "2023-12-17",
+    "last_seen": "2023-12-17",
+    "aliases": []
+  },
+  {
+    "name": "Columbus Ave & W 59 St",
+    "lat": 40.76931,
+    "lng": -73.98464,
+    "first_seen": "2025-07-02",
+    "last_seen": "2025-07-02",
+    "aliases": []
+  },
+  {
+    "name": "Columbus Ave & W 72 St",
+    "lat": 40.777058,
+    "lng": -73.978985,
+    "first_seen": "2021-10-02",
+    "last_seen": "2026-05-22",
+    "aliases": []
+  },
+  {
+    "name": "Columbus Ave & W 95 St",
+    "lat": 40.791956,
+    "lng": -73.968087,
+    "first_seen": "2022-09-16",
+    "last_seen": "2022-09-16",
+    "aliases": []
+  },
+  {
+    "name": "Columbus Dr at Exchange Pl",
+    "lat": 40.716871,
+    "lng": -74.032812,
+    "first_seen": "2019-07-11",
+    "last_seen": "2023-01-23",
+    "aliases": []
+  },
+  {
+    "name": "Columbus Drive",
+    "lat": 40.718373,
+    "lng": -74.038907,
+    "first_seen": "2016-07-29",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Columbus Park - Clinton St & 9 St",
+    "lat": 40.74816,
+    "lng": -74.032457,
+    "first_seen": "2021-05-12",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Commerce St & Van Brunt St",
+    "lat": 40.690235,
+    "lng": -74.015003,
+    "first_seen": "2022-05-14",
+    "last_seen": "2025-10-14",
+    "aliases": []
+  },
+  {
+    "name": "Communipaw & Berry Lane",
+    "lat": 40.714368,
+    "lng": -74.066607,
+    "first_seen": "2016-11-11",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Congress St & Clinton St",
+    "lat": 40.688255,
+    "lng": -73.995452,
+    "first_seen": "2023-09-22",
+    "last_seen": "2023-09-22",
+    "aliases": []
+  },
+  {
+    "name": "Congress St & Hicks St",
+    "lat": 40.689395,
+    "lng": -73.999513,
+    "first_seen": "2023-10-18",
+    "last_seen": "2023-10-18",
+    "aliases": []
+  },
+  {
+    "name": "Cooper Square & Astor Pl",
+    "lat": 40.731461,
+    "lng": -74.009493,
+    "first_seen": "2022-07-11",
+    "last_seen": "2023-05-23",
+    "aliases": []
+  },
+  {
+    "name": "Court St & State St",
+    "lat": 40.690238,
+    "lng": -73.992031,
+    "first_seen": "2021-07-30",
+    "last_seen": "2024-10-11",
+    "aliases": []
+  },
+  {
+    "name": "Culver Ave & JFK Blvd",
+    "lat": 40.71005,
+    "lng": -74.08576,
+    "first_seen": "2025-12-05",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Danforth Ave & JFK Blvd",
+    "lat": 40.70056,
+    "lng": -74.09474,
+    "first_seen": "2025-12-23",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Danforth Ave & Sullivan Dr",
+    "lat": 40.70436,
+    "lng": -74.09811,
+    "first_seen": "2025-12-06",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Danforth Light Rail",
+    "lat": 40.692699,
+    "lng": -74.087917,
+    "first_seen": "2016-07-28",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "DeKalb Ave & Franklin Ave",
+    "lat": 40.690648,
+    "lng": -73.957462,
+    "first_seen": "2025-07-30",
+    "last_seen": "2025-07-30",
+    "aliases": []
+  },
+  {
+    "name": "DeKalb Ave & Hudson Ave",
+    "lat": 40.689888,
+    "lng": -73.981013,
+    "first_seen": "2020-08-21",
+    "last_seen": "2020-08-21",
+    "aliases": []
+  },
+  {
+    "name": "Dean St & Hoyt St",
+    "lat": 40.686444,
+    "lng": -73.987591,
+    "first_seen": "2026-05-16",
+    "last_seen": "2026-05-16",
+    "aliases": []
+  },
+  {
+    "name": "Degraw St & Smith St",
+    "lat": 40.698613,
+    "lng": -74.008608,
+    "first_seen": "2024-06-15",
+    "last_seen": "2026-05-17",
+    "aliases": []
+  },
+  {
+    "name": "Delancey St & Eldridge St",
+    "lat": 40.723376,
+    "lng": -74.005353,
+    "first_seen": "2023-05-24",
+    "last_seen": "2025-07-19",
+    "aliases": []
+  },
+  {
+    "name": "Devoe St & Morgan Ave",
+    "lat": 40.689048,
+    "lng": -74.0856,
+    "first_seen": "2024-04-16",
+    "last_seen": "2024-04-16",
+    "aliases": []
+  },
+  {
+    "name": "Dey St",
+    "lat": 40.73771,
+    "lng": -74.066919,
+    "first_seen": "2015-09-21",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Division Ave & Hooper St",
+    "lat": 40.719275,
+    "lng": -74.04311,
+    "first_seen": "2023-06-23",
+    "last_seen": "2023-06-23",
+    "aliases": [
+      "Putnam Ave & Knickerbocker Ave"
+    ]
+  },
+  {
+    "name": "Division St & Bowery",
+    "lat": 40.715209,
+    "lng": -74.006007,
+    "first_seen": "2021-10-31",
+    "last_seen": "2025-09-21",
+    "aliases": []
+  },
+  {
+    "name": "Dixon Mills",
+    "lat": 40.721633,
+    "lng": -74.049971,
+    "first_seen": "2016-07-26",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Dr. Lena Edwards Park",
+    "lat": 40.713203,
+    "lng": -74.058261,
+    "first_seen": "2025-08-29",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Driggs Ave & Lorimer St",
+    "lat": 40.721791,
+    "lng": -73.950415,
+    "first_seen": "2025-03-25",
+    "last_seen": "2025-03-25",
+    "aliases": []
+  },
+  {
+    "name": "Driggs Ave & N 9 St",
+    "lat": 40.721606,
+    "lng": -73.973556,
+    "first_seen": "2020-10-10",
+    "last_seen": "2025-07-02",
+    "aliases": []
+  },
+  {
+    "name": "Driggs Ave & S 2 St",
+    "lat": 40.712628,
+    "lng": -73.960575,
+    "first_seen": "2024-04-15",
+    "last_seen": "2024-05-07",
+    "aliases": []
+  },
+  {
+    "name": "Duane St & Greenwich St",
+    "lat": 40.717488,
+    "lng": -74.010455,
+    "first_seen": "2016-02-18",
+    "last_seen": "2021-10-25",
+    "aliases": []
+  },
+  {
+    "name": "Duane St & Hudson St",
+    "lat": 40.71703,
+    "lng": -74.00925,
+    "first_seen": "2022-11-13",
+    "last_seen": "2026-04-23",
+    "aliases": []
+  },
+  {
+    "name": "Duffield St & Willoughby St",
+    "lat": 40.692216,
+    "lng": -73.984284,
+    "first_seen": "2016-06-08",
+    "last_seen": "2024-12-04",
+    "aliases": []
+  },
+  {
+    "name": "E 1 St & 1 Ave",
+    "lat": 40.723356,
+    "lng": -73.98865,
+    "first_seen": "2024-09-19",
+    "last_seen": "2025-09-24",
+    "aliases": []
+  },
+  {
+    "name": "E 1 St & Bowery",
+    "lat": 40.724861,
+    "lng": -73.992131,
+    "first_seen": "2023-01-09",
+    "last_seen": "2026-03-09",
+    "aliases": []
+  },
+  {
+    "name": "E 10 St & 2 Ave",
+    "lat": 40.726949,
+    "lng": -73.99813,
+    "first_seen": "2023-08-17",
+    "last_seen": "2026-04-03",
+    "aliases": []
+  },
+  {
+    "name": "E 10 St & Ave A",
+    "lat": 40.727408,
+    "lng": -73.98142,
+    "first_seen": "2023-06-19",
+    "last_seen": "2025-10-03",
+    "aliases": [
+      "E 10 St & Avenue A"
+    ]
+  },
+  {
+    "name": "E 11 St & 1 Ave",
+    "lat": 40.731857,
+    "lng": -73.997853,
+    "first_seen": "2021-09-04",
+    "last_seen": "2024-11-17",
+    "aliases": []
+  },
+  {
+    "name": "E 11 St & 3 Ave",
+    "lat": 40.732631,
+    "lng": -74.007984,
+    "first_seen": "2023-05-23",
+    "last_seen": "2025-04-20",
+    "aliases": []
+  },
+  {
+    "name": "E 11 St & Ave B",
+    "lat": 40.727464,
+    "lng": -73.979504,
+    "first_seen": "2023-07-28",
+    "last_seen": "2025-08-07",
+    "aliases": [
+      "E 11 St & Avenue B"
+    ]
+  },
+  {
+    "name": "E 12 St & 3 Ave",
+    "lat": 40.732679,
+    "lng": -73.997196,
+    "first_seen": "2023-05-26",
+    "last_seen": "2026-05-29",
+    "aliases": []
+  },
+  {
+    "name": "E 13 St & 2 Ave",
+    "lat": 40.72819,
+    "lng": -74.004625,
+    "first_seen": "2022-11-09",
+    "last_seen": "2024-10-06",
+    "aliases": []
+  },
+  {
+    "name": "E 13 St & Ave A",
+    "lat": 40.729667,
+    "lng": -73.98068,
+    "first_seen": "2023-12-16",
+    "last_seen": "2023-12-16",
+    "aliases": []
+  },
+  {
+    "name": "E 14 St & 1 Ave",
+    "lat": 40.731393,
+    "lng": -73.982867,
+    "first_seen": "2023-07-18",
+    "last_seen": "2024-07-21",
+    "aliases": []
+  },
+  {
+    "name": "E 15 St & 3 Ave",
+    "lat": 40.732611,
+    "lng": -73.996412,
+    "first_seen": "2017-02-25",
+    "last_seen": "2025-06-03",
+    "aliases": []
+  },
+  {
+    "name": "E 15 St & 5 Ave",
+    "lat": 40.736592,
+    "lng": -73.992949,
+    "first_seen": "2025-07-17",
+    "last_seen": "2025-09-16",
+    "aliases": []
+  },
+  {
+    "name": "E 16 St & 5 Ave",
+    "lat": 40.737281,
+    "lng": -73.995124,
+    "first_seen": "2019-09-21",
+    "last_seen": "2026-05-29",
+    "aliases": []
+  },
+  {
+    "name": "E 16 St & Irving Pl",
+    "lat": 40.733827,
+    "lng": -73.995706,
+    "first_seen": "2023-12-01",
+    "last_seen": "2025-09-08",
+    "aliases": []
+  },
+  {
+    "name": "E 17 St & Broadway",
+    "lat": 40.737041,
+    "lng": -73.990102,
+    "first_seen": "2022-08-17",
+    "last_seen": "2026-01-12",
+    "aliases": []
+  },
+  {
+    "name": "E 18 St & Church Ave",
+    "lat": 40.726129,
+    "lng": -74.034369,
+    "first_seen": "2023-12-01",
+    "last_seen": "2023-12-04",
+    "aliases": [
+      "Buffalo Ave & E New York Ave",
+      "New York Ave & St Marks Ave"
+    ]
+  },
+  {
+    "name": "E 19 St & 3 Ave",
+    "lat": 40.736245,
+    "lng": -73.984738,
+    "first_seen": "2025-09-27",
+    "last_seen": "2025-09-27",
+    "aliases": []
+  },
+  {
+    "name": "E 2 St & 2 Ave",
+    "lat": 40.725889,
+    "lng": -73.995386,
+    "first_seen": "2016-02-22",
+    "last_seen": "2026-03-25",
+    "aliases": []
+  },
+  {
+    "name": "E 2 St & 2 Ave E",
+    "lat": 40.724563,
+    "lng": -73.989444,
+    "first_seen": "2016-07-12",
+    "last_seen": "2016-07-12",
+    "aliases": []
+  },
+  {
+    "name": "E 2 St & Ave A",
+    "lat": 40.723077,
+    "lng": -73.985836,
+    "first_seen": "2024-07-09",
+    "last_seen": "2024-07-09",
+    "aliases": []
+  },
+  {
+    "name": "E 2 St & Avenue A",
+    "lat": 40.727958,
+    "lng": -74.012931,
+    "first_seen": "2022-04-13",
+    "last_seen": "2023-06-21",
+    "aliases": []
+  },
+  {
+    "name": "E 20 St & 2 Ave",
+    "lat": 40.735877,
+    "lng": -73.98205,
+    "first_seen": "2021-09-17",
+    "last_seen": "2025-08-16",
+    "aliases": []
+  },
+  {
+    "name": "E 20 St & FDR Dr",
+    "lat": 40.733924,
+    "lng": -73.999445,
+    "first_seen": "2023-05-25",
+    "last_seen": "2025-10-22",
+    "aliases": []
+  },
+  {
+    "name": "E 20 St & FDR Drive",
+    "lat": 40.72967,
+    "lng": -73.990363,
+    "first_seen": "2019-05-27",
+    "last_seen": "2021-10-26",
+    "aliases": []
+  },
+  {
+    "name": "E 20 St & Park Ave",
+    "lat": 40.738274,
+    "lng": -73.98752,
+    "first_seen": "2022-08-04",
+    "last_seen": "2022-08-04",
+    "aliases": []
+  },
+  {
+    "name": "E 22 St & 2 Ave",
+    "lat": 40.734918,
+    "lng": -73.992082,
+    "first_seen": "2022-12-07",
+    "last_seen": "2024-09-17",
+    "aliases": []
+  },
+  {
+    "name": "E 23 St & 1 Ave",
+    "lat": 40.736502,
+    "lng": -73.978095,
+    "first_seen": "2023-08-31",
+    "last_seen": "2023-08-31",
+    "aliases": []
+  },
+  {
+    "name": "E 23 St & FDR Dr",
+    "lat": 40.736,
+    "lng": -73.97605,
+    "first_seen": "2025-06-06",
+    "last_seen": "2025-06-06",
+    "aliases": []
+  },
+  {
+    "name": "E 25 St & 1 Ave",
+    "lat": 40.738176,
+    "lng": -73.977387,
+    "first_seen": "2025-10-22",
+    "last_seen": "2025-10-22",
+    "aliases": []
+  },
+  {
+    "name": "E 25 St & 2 Ave",
+    "lat": 40.738423,
+    "lng": -74.02343,
+    "first_seen": "2023-06-21",
+    "last_seen": "2023-06-21",
+    "aliases": []
+  },
+  {
+    "name": "E 26 St & 3 Ave",
+    "lat": 40.740693,
+    "lng": -73.981606,
+    "first_seen": "2023-12-18",
+    "last_seen": "2025-10-20",
+    "aliases": []
+  },
+  {
+    "name": "E 27 St & 1 Ave",
+    "lat": 40.739073,
+    "lng": -73.983185,
+    "first_seen": "2023-05-25",
+    "last_seen": "2026-01-13",
+    "aliases": []
+  },
+  {
+    "name": "E 27 St & Park Ave S",
+    "lat": 40.739981,
+    "lng": -73.992991,
+    "first_seen": "2021-10-08",
+    "last_seen": "2025-05-08",
+    "aliases": []
+  },
+  {
+    "name": "E 3 St & 1 Ave",
+    "lat": 40.724677,
+    "lng": -73.987834,
+    "first_seen": "2016-05-26",
+    "last_seen": "2025-09-12",
+    "aliases": []
+  },
+  {
+    "name": "E 30 St & Park Ave S",
+    "lat": 40.744449,
+    "lng": -73.983035,
+    "first_seen": "2022-04-02",
+    "last_seen": "2026-05-16",
+    "aliases": []
+  },
+  {
+    "name": "E 31 St & 3 Ave",
+    "lat": 40.739271,
+    "lng": -73.990427,
+    "first_seen": "2020-05-25",
+    "last_seen": "2026-04-18",
+    "aliases": []
+  },
+  {
+    "name": "E 32 St & Park Ave",
+    "lat": 40.745712,
+    "lng": -73.981948,
+    "first_seen": "2018-04-30",
+    "last_seen": "2026-04-04",
+    "aliases": []
+  },
+  {
+    "name": "E 33 St & 1 Ave",
+    "lat": 40.739807,
+    "lng": -73.986472,
+    "first_seen": "2023-05-09",
+    "last_seen": "2024-08-18",
+    "aliases": []
+  },
+  {
+    "name": "E 33 St & 5 Ave",
+    "lat": 40.748517,
+    "lng": -73.991655,
+    "first_seen": "2018-07-27",
+    "last_seen": "2025-10-02",
+    "aliases": []
+  },
+  {
+    "name": "E 35 St & Madison Ave",
+    "lat": 40.74848,
+    "lng": -73.982556,
+    "first_seen": "2024-01-17",
+    "last_seen": "2026-01-12",
+    "aliases": []
+  },
+  {
+    "name": "E 39 St & 2 Ave",
+    "lat": 40.747976,
+    "lng": -73.973731,
+    "first_seen": "2020-06-30",
+    "last_seen": "2023-08-29",
+    "aliases": []
+  },
+  {
+    "name": "E 39 St & 3 Ave",
+    "lat": 40.748901,
+    "lng": -73.976049,
+    "first_seen": "2018-08-07",
+    "last_seen": "2018-08-07",
+    "aliases": []
+  },
+  {
+    "name": "E 39 St & Lexington Ave",
+    "lat": 40.750395,
+    "lng": -73.984466,
+    "first_seen": "2022-12-29",
+    "last_seen": "2026-05-20",
+    "aliases": []
+  },
+  {
+    "name": "E 4 St & 2 Ave",
+    "lat": 40.726096,
+    "lng": -74.000447,
+    "first_seen": "2017-05-23",
+    "last_seen": "2025-12-09",
+    "aliases": []
+  },
+  {
+    "name": "E 40 St & 5 Ave",
+    "lat": 40.752062,
+    "lng": -73.981632,
+    "first_seen": "2023-12-13",
+    "last_seen": "2026-01-15",
+    "aliases": []
+  },
+  {
+    "name": "E 40 St & Park Ave",
+    "lat": 40.750258,
+    "lng": -73.979422,
+    "first_seen": "2023-06-09",
+    "last_seen": "2025-09-17",
+    "aliases": []
+  },
+  {
+    "name": "E 41 St & Madison Ave (SE corner)",
+    "lat": 40.75368,
+    "lng": -73.980436,
+    "first_seen": "2021-12-13",
+    "last_seen": "2024-11-11",
+    "aliases": []
+  },
+  {
+    "name": "E 43 St & 2 Ave",
+    "lat": 40.750224,
+    "lng": -73.971214,
+    "first_seen": "2021-07-15",
+    "last_seen": "2021-07-15",
+    "aliases": []
+  },
+  {
+    "name": "E 43 St & Madison Ave",
+    "lat": 40.752523,
+    "lng": -73.984467,
+    "first_seen": "2023-06-25",
+    "last_seen": "2025-10-06",
+    "aliases": []
+  },
+  {
+    "name": "E 44 St & 2 Ave",
+    "lat": 40.751184,
+    "lng": -73.971387,
+    "first_seen": "2024-02-23",
+    "last_seen": "2024-02-23",
+    "aliases": []
+  },
+  {
+    "name": "E 44 St & Lexington Ave",
+    "lat": 40.752643,
+    "lng": -73.974996,
+    "first_seen": "2023-05-27",
+    "last_seen": "2025-09-22",
+    "aliases": []
+  },
+  {
+    "name": "E 46 St & Madison Ave",
+    "lat": 40.755393,
+    "lng": -73.977601,
+    "first_seen": "2025-05-30",
+    "last_seen": "2025-12-01",
+    "aliases": []
+  },
+  {
+    "name": "E 47 St & 1 Ave",
+    "lat": 40.757378,
+    "lng": -74.045816,
+    "first_seen": "2023-08-24",
+    "last_seen": "2023-09-12",
+    "aliases": []
+  },
+  {
+    "name": "E 47 St & 2 Ave",
+    "lat": 40.753231,
+    "lng": -73.970325,
+    "first_seen": "2022-05-30",
+    "last_seen": "2026-05-12",
+    "aliases": []
+  },
+  {
+    "name": "E 47 St & Park Ave",
+    "lat": 40.754022,
+    "lng": -73.977228,
+    "first_seen": "2016-09-16",
+    "last_seen": "2026-04-15",
+    "aliases": []
+  },
+  {
+    "name": "E 48 St & 3 Ave",
+    "lat": 40.749705,
+    "lng": -73.985806,
+    "first_seen": "2023-05-25",
+    "last_seen": "2026-05-07",
+    "aliases": []
+  },
+  {
+    "name": "E 48 St & 5 Ave",
+    "lat": 40.758693,
+    "lng": -73.982949,
+    "first_seen": "2017-05-27",
+    "last_seen": "2026-05-20",
+    "aliases": []
+  },
+  {
+    "name": "E 5 St & Avenue C",
+    "lat": 40.722992,
+    "lng": -73.979955,
+    "first_seen": "2016-11-06",
+    "last_seen": "2022-03-20",
+    "aliases": []
+  },
+  {
+    "name": "E 5 St & Cooper Sq",
+    "lat": 40.727729,
+    "lng": -73.991792,
+    "first_seen": "2021-09-13",
+    "last_seen": "2025-10-31",
+    "aliases": []
+  },
+  {
+    "name": "E 50 St & Park Ave",
+    "lat": 40.757334,
+    "lng": -73.974235,
+    "first_seen": "2022-05-03",
+    "last_seen": "2025-10-03",
+    "aliases": []
+  },
+  {
+    "name": "E 51 St & 2 Ave",
+    "lat": 40.749667,
+    "lng": -73.978586,
+    "first_seen": "2022-09-15",
+    "last_seen": "2024-06-18",
+    "aliases": []
+  },
+  {
+    "name": "E 51 St & Lexington Ave",
+    "lat": 40.752351,
+    "lng": -73.982711,
+    "first_seen": "2021-06-17",
+    "last_seen": "2025-05-27",
+    "aliases": []
+  },
+  {
+    "name": "E 53 St & 3 Ave",
+    "lat": 40.757632,
+    "lng": -73.969306,
+    "first_seen": "2023-12-04",
+    "last_seen": "2026-02-18",
+    "aliases": []
+  },
+  {
+    "name": "E 53 St & Lexington Ave",
+    "lat": 40.758281,
+    "lng": -73.970694,
+    "first_seen": "2023-06-26",
+    "last_seen": "2026-05-29",
+    "aliases": []
+  },
+  {
+    "name": "E 53 St & Madison Ave",
+    "lat": 40.752849,
+    "lng": -73.986136,
+    "first_seen": "2019-08-15",
+    "last_seen": "2026-04-21",
+    "aliases": []
+  },
+  {
+    "name": "E 54 St & 1 Ave",
+    "lat": 40.756265,
+    "lng": -73.964179,
+    "first_seen": "2023-09-19",
+    "last_seen": "2023-09-19",
+    "aliases": []
+  },
+  {
+    "name": "E 55 St & 2 Ave",
+    "lat": 40.757973,
+    "lng": -73.966033,
+    "first_seen": "2024-11-19",
+    "last_seen": "2026-05-27",
+    "aliases": []
+  },
+  {
+    "name": "E 55 St & Lexington Ave",
+    "lat": 40.759681,
+    "lng": -73.970314,
+    "first_seen": "2018-09-21",
+    "last_seen": "2018-09-21",
+    "aliases": []
+  },
+  {
+    "name": "E 56 St & 3 Ave",
+    "lat": 40.759345,
+    "lng": -73.967597,
+    "first_seen": "2019-08-22",
+    "last_seen": "2026-05-28",
+    "aliases": []
+  },
+  {
+    "name": "E 56 St & Madison Ave",
+    "lat": 40.761573,
+    "lng": -73.972628,
+    "first_seen": "2023-07-27",
+    "last_seen": "2025-12-10",
+    "aliases": []
+  },
+  {
+    "name": "E 58 St & 1 Ave (NE Corner)",
+    "lat": 40.758924,
+    "lng": -73.962262,
+    "first_seen": "2025-08-10",
+    "last_seen": "2025-08-10",
+    "aliases": []
+  },
+  {
+    "name": "E 58 St & 3 Ave",
+    "lat": 40.759838,
+    "lng": -73.97229,
+    "first_seen": "2022-05-05",
+    "last_seen": "2025-02-10",
+    "aliases": []
+  },
+  {
+    "name": "E 58 St & Madison Ave",
+    "lat": 40.763026,
+    "lng": -73.972095,
+    "first_seen": "2024-09-10",
+    "last_seen": "2025-07-09",
+    "aliases": []
+  },
+  {
+    "name": "E 59 St & Madison Ave",
+    "lat": 40.753987,
+    "lng": -73.985726,
+    "first_seen": "2022-06-30",
+    "last_seen": "2024-06-20",
+    "aliases": []
+  },
+  {
+    "name": "E 6 St & Ave B",
+    "lat": 40.724537,
+    "lng": -73.981854,
+    "first_seen": "2024-03-18",
+    "last_seen": "2024-05-21",
+    "aliases": []
+  },
+  {
+    "name": "E 6 St & Ave D",
+    "lat": 40.722281,
+    "lng": -73.976687,
+    "first_seen": "2025-05-10",
+    "last_seen": "2025-06-28",
+    "aliases": []
+  },
+  {
+    "name": "E 6 St & Avenue B",
+    "lat": 40.73843,
+    "lng": -74.023004,
+    "first_seen": "2023-05-25",
+    "last_seen": "2023-07-18",
+    "aliases": []
+  },
+  {
+    "name": "E 60 St & York Ave",
+    "lat": 40.759107,
+    "lng": -73.959223,
+    "first_seen": "2024-06-13",
+    "last_seen": "2024-06-13",
+    "aliases": []
+  },
+  {
+    "name": "E 61 St & Madison Ave",
+    "lat": 40.764753,
+    "lng": -73.970378,
+    "first_seen": "2025-10-29",
+    "last_seen": "2025-10-29",
+    "aliases": []
+  },
+  {
+    "name": "E 63 St & 3 Ave",
+    "lat": 40.763954,
+    "lng": -73.9646,
+    "first_seen": "2024-08-22",
+    "last_seen": "2025-02-14",
+    "aliases": []
+  },
+  {
+    "name": "E 65 St & 2 Ave",
+    "lat": 40.764719,
+    "lng": -73.962221,
+    "first_seen": "2023-06-17",
+    "last_seen": "2023-06-17",
+    "aliases": []
+  },
+  {
+    "name": "E 67 St & Park Ave",
+    "lat": 40.767801,
+    "lng": -73.965921,
+    "first_seen": "2024-10-29",
+    "last_seen": "2024-11-20",
+    "aliases": []
+  },
+  {
+    "name": "E 68 St & 3 Ave",
+    "lat": 40.760259,
+    "lng": -73.974456,
+    "first_seen": "2023-08-14",
+    "last_seen": "2024-09-30",
+    "aliases": []
+  },
+  {
+    "name": "E 68 St & Madison Ave",
+    "lat": 40.752255,
+    "lng": -74.007004,
+    "first_seen": "2023-05-23",
+    "last_seen": "2023-05-25",
+    "aliases": []
+  },
+  {
+    "name": "E 7 St & Ave A",
+    "lat": 40.726218,
+    "lng": -73.983799,
+    "first_seen": "2024-04-22",
+    "last_seen": "2024-04-22",
+    "aliases": []
+  },
+  {
+    "name": "E 7 St & Ave C",
+    "lat": 40.724129,
+    "lng": -73.979013,
+    "first_seen": "2025-09-05",
+    "last_seen": "2025-09-05",
+    "aliases": []
+  },
+  {
+    "name": "E 7 St & Avenue A",
+    "lat": 40.72774,
+    "lng": -73.994328,
+    "first_seen": "2017-06-24",
+    "last_seen": "2023-05-25",
+    "aliases": []
+  },
+  {
+    "name": "E 72 St & York Ave",
+    "lat": 40.752631,
+    "lng": -73.987555,
+    "first_seen": "2023-07-19",
+    "last_seen": "2025-07-15",
+    "aliases": []
+  },
+  {
+    "name": "E 74 St & 1 Ave",
+    "lat": 40.751995,
+    "lng": -73.991206,
+    "first_seen": "2023-09-12",
+    "last_seen": "2023-09-12",
+    "aliases": []
+  },
+  {
+    "name": "E 75 St & 3 Ave",
+    "lat": 40.771129,
+    "lng": -73.957723,
+    "first_seen": "2024-11-08",
+    "last_seen": "2025-10-28",
+    "aliases": []
+  },
+  {
+    "name": "E 76 St & Park Ave",
+    "lat": 40.773763,
+    "lng": -73.962221,
+    "first_seen": "2024-06-07",
+    "last_seen": "2026-04-29",
+    "aliases": []
+  },
+  {
+    "name": "E 77 St & 1 Ave",
+    "lat": 40.770956,
+    "lng": -73.953562,
+    "first_seen": "2023-09-08",
+    "last_seen": "2024-10-04",
+    "aliases": []
+  },
+  {
+    "name": "E 77 St & 3 Ave",
+    "lat": 40.773142,
+    "lng": -73.958562,
+    "first_seen": "2024-09-24",
+    "last_seen": "2024-09-24",
+    "aliases": []
+  },
+  {
+    "name": "E 80 St & 2 Ave",
+    "lat": 40.773914,
+    "lng": -73.954395,
+    "first_seen": "2025-03-14",
+    "last_seen": "2025-03-14",
+    "aliases": []
+  },
+  {
+    "name": "E 81 St & 1 Ave",
+    "lat": 40.773778,
+    "lng": -73.951973,
+    "first_seen": "2023-11-17",
+    "last_seen": "2023-11-17",
+    "aliases": []
+  },
+  {
+    "name": "E 81 St & Park Ave",
+    "lat": 40.776777,
+    "lng": -73.95901,
+    "first_seen": "2024-11-02",
+    "last_seen": "2025-06-20",
+    "aliases": []
+  },
+  {
+    "name": "E 82 St & East End Ave",
+    "lat": 40.737719,
+    "lng": -74.067121,
+    "first_seen": "2023-06-22",
+    "last_seen": "2023-06-25",
+    "aliases": [
+      "35 St & 34 Ave",
+      "E 97 St & 3 Ave",
+      "Queens Plaza North & Crescent St"
+    ]
+  },
+  {
+    "name": "E 84 St & 1 Ave",
+    "lat": 40.756687,
+    "lng": -74.008904,
+    "first_seen": "2023-06-25",
+    "last_seen": "2023-06-25",
+    "aliases": []
+  },
+  {
+    "name": "E 84 St & Park Ave",
+    "lat": 40.778627,
+    "lng": -73.957721,
+    "first_seen": "2023-09-12",
+    "last_seen": "2026-04-28",
+    "aliases": []
+  },
+  {
+    "name": "E 85 St & 3 Ave",
+    "lat": 40.757866,
+    "lng": -74.010596,
+    "first_seen": "2023-06-25",
+    "last_seen": "2023-06-25",
+    "aliases": []
+  },
+  {
+    "name": "E 88 St & 1 Ave",
+    "lat": 40.714232,
+    "lng": -74.080108,
+    "first_seen": "2023-06-25",
+    "last_seen": "2024-06-04",
+    "aliases": []
+  },
+  {
+    "name": "E 88 St & Park Ave",
+    "lat": 40.781411,
+    "lng": -73.955959,
+    "first_seen": "2021-07-24",
+    "last_seen": "2021-07-24",
+    "aliases": []
+  },
+  {
+    "name": "E 89 St & York Ave",
+    "lat": 40.735016,
+    "lng": -74.027589,
+    "first_seen": "2023-09-12",
+    "last_seen": "2023-09-12",
+    "aliases": [
+      "Jerome Ave & E Mosholu Parkway S"
+    ]
+  },
+  {
+    "name": "E 9 St & 5 Ave",
+    "lat": 40.732759,
+    "lng": -73.995817,
+    "first_seen": "2022-04-26",
+    "last_seen": "2024-05-29",
+    "aliases": []
+  },
+  {
+    "name": "E 9 St & Ave C",
+    "lat": 40.723353,
+    "lng": -73.991002,
+    "first_seen": "2024-06-18",
+    "last_seen": "2026-05-02",
+    "aliases": []
+  },
+  {
+    "name": "E 9 St & Avenue C",
+    "lat": 40.742079,
+    "lng": -73.99652,
+    "first_seen": "2023-06-23",
+    "last_seen": "2023-06-23",
+    "aliases": []
+  },
+  {
+    "name": "E 91 St & 2 Ave",
+    "lat": 40.752471,
+    "lng": -74.021096,
+    "first_seen": "2023-09-09",
+    "last_seen": "2024-06-19",
+    "aliases": []
+  },
+  {
+    "name": "E 91 St & Park Ave",
+    "lat": 40.783502,
+    "lng": -73.955327,
+    "first_seen": "2024-08-11",
+    "last_seen": "2024-08-11",
+    "aliases": []
+  },
+  {
+    "name": "E 95 St & 3 Ave",
+    "lat": 40.768648,
+    "lng": -73.976791,
+    "first_seen": "2023-07-17",
+    "last_seen": "2023-10-16",
+    "aliases": []
+  },
+  {
+    "name": "E 97 St & Madison Ave",
+    "lat": 40.787801,
+    "lng": -73.953559,
+    "first_seen": "2024-06-18",
+    "last_seen": "2024-08-25",
+    "aliases": []
+  },
+  {
+    "name": "E Houston St & Columbia St",
+    "lat": 40.719786,
+    "lng": -73.978716,
+    "first_seen": "2025-03-15",
+    "last_seen": "2025-03-15",
+    "aliases": []
+  },
+  {
+    "name": "Eastern Pkwy & Nostrand Ave",
+    "lat": 40.66967,
+    "lng": -73.9503,
+    "first_seen": "2023-08-25",
+    "last_seen": "2023-08-25",
+    "aliases": []
+  },
+  {
+    "name": "Eastern Pkwy & Washington Ave",
+    "lat": 40.671649,
+    "lng": -73.963114,
+    "first_seen": "2025-04-18",
+    "last_seen": "2025-04-18",
+    "aliases": []
+  },
+  {
+    "name": "Emerson Pl & Myrtle Ave",
+    "lat": 40.704062,
+    "lng": -73.98342,
+    "first_seen": "2023-05-24",
+    "last_seen": "2024-11-14",
+    "aliases": []
+  },
+  {
+    "name": "Essex Light Rail",
+    "lat": 40.712775,
+    "lng": -74.036486,
+    "first_seen": "2015-09-21",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Exchange Pl",
+    "lat": 40.716376,
+    "lng": -74.034358,
+    "first_seen": "2023-03-02",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Exchange Place",
+    "lat": 40.716247,
+    "lng": -74.033459,
+    "first_seen": "2015-09-21",
+    "last_seen": "2019-05-20",
+    "aliases": []
+  },
+  {
+    "name": "FDR Drive & E 35 St",
+    "lat": 40.744219,
+    "lng": -73.971212,
+    "first_seen": "2015-09-24",
+    "last_seen": "2024-11-04",
+    "aliases": []
+  },
+  {
+    "name": "Fairmount Ave",
+    "lat": 40.725731,
+    "lng": -74.071948,
+    "first_seen": "2018-04-13",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Ferris Triangle Park",
+    "lat": 40.69877,
+    "lng": -74.09216,
+    "first_seen": "2025-12-07",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Flushing Ave & Vanderbilt Ave",
+    "lat": 40.714609,
+    "lng": -74.017227,
+    "first_seen": "2024-06-14",
+    "last_seen": "2024-06-14",
+    "aliases": []
+  },
+  {
+    "name": "Forsyth St & Broome St",
+    "lat": 40.718939,
+    "lng": -73.992663,
+    "first_seen": "2025-08-22",
+    "last_seen": "2025-08-22",
+    "aliases": []
+  },
+  {
+    "name": "Forsyth St & Canal St",
+    "lat": 40.715816,
+    "lng": -73.994224,
+    "first_seen": "2025-05-28",
+    "last_seen": "2025-05-28",
+    "aliases": []
+  },
+  {
+    "name": "Forsyth St & Grand St",
+    "lat": 40.717798,
+    "lng": -73.993161,
+    "first_seen": "2023-04-13",
+    "last_seen": "2025-08-21",
+    "aliases": []
+  },
+  {
+    "name": "Franklin Ave & Quincy St",
+    "lat": 40.68636,
+    "lng": -73.95678,
+    "first_seen": "2025-07-04",
+    "last_seen": "2025-07-04",
+    "aliases": []
+  },
+  {
+    "name": "Franklin St & Dupont St",
+    "lat": 40.73564,
+    "lng": -73.95866,
+    "first_seen": "2022-10-09",
+    "last_seen": "2022-10-09",
+    "aliases": []
+  },
+  {
+    "name": "Franklin St & W Broadway",
+    "lat": 40.720287,
+    "lng": -74.007106,
+    "first_seen": "2017-08-03",
+    "last_seen": "2026-05-13",
+    "aliases": []
+  },
+  {
+    "name": "Front St & Gold St",
+    "lat": 40.70224,
+    "lng": -73.982578,
+    "first_seen": "2024-04-04",
+    "last_seen": "2024-04-04",
+    "aliases": []
+  },
+  {
+    "name": "Front St & Jay St",
+    "lat": 40.702461,
+    "lng": -73.986842,
+    "first_seen": "2020-09-14",
+    "last_seen": "2024-10-17",
+    "aliases": []
+  },
+  {
+    "name": "Front St & Pine St",
+    "lat": 40.70531,
+    "lng": -74.00613,
+    "first_seen": "2016-06-19",
+    "last_seen": "2025-06-15",
+    "aliases": [
+      "Front St & Maiden Ln"
+    ]
+  },
+  {
+    "name": "Fulton St & Adams St",
+    "lat": 40.704612,
+    "lng": -74.00875,
+    "first_seen": "2023-09-20",
+    "last_seen": "2024-10-24",
+    "aliases": []
+  },
+  {
+    "name": "Fulton St & Broadway",
+    "lat": 40.711066,
+    "lng": -74.009447,
+    "first_seen": "2017-01-16",
+    "last_seen": "2026-05-29",
+    "aliases": []
+  },
+  {
+    "name": "Fulton St & Clermont Ave",
+    "lat": 40.684157,
+    "lng": -73.969223,
+    "first_seen": "2025-04-03",
+    "last_seen": "2025-04-03",
+    "aliases": []
+  },
+  {
+    "name": "Fulton St & Irving Pl",
+    "lat": 40.68186,
+    "lng": -73.959432,
+    "first_seen": "2023-08-29",
+    "last_seen": "2023-10-01",
+    "aliases": []
+  },
+  {
+    "name": "Fulton St & William St",
+    "lat": 40.709601,
+    "lng": -74.006551,
+    "first_seen": "2022-03-30",
+    "last_seen": "2026-05-19",
+    "aliases": []
+  },
+  {
+    "name": "Gansevoort St & Hudson St",
+    "lat": 40.739426,
+    "lng": -74.005113,
+    "first_seen": "2019-06-17",
+    "last_seen": "2026-05-14",
+    "aliases": [
+      "Lexington Ave & E 36 St"
+    ]
+  },
+  {
+    "name": "Garfield Ave Station",
+    "lat": 40.710467,
+    "lng": -74.070039,
+    "first_seen": "2015-09-22",
+    "last_seen": "2018-04-23",
+    "aliases": []
+  },
+  {
+    "name": "Garfield Light Rail",
+    "lat": 40.710526,
+    "lng": -74.070112,
+    "first_seen": "2025-09-12",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Glenwood Ave",
+    "lat": 40.727561,
+    "lng": -74.07105,
+    "first_seen": "2018-04-13",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Graham Ave & Grand St",
+    "lat": 40.777378,
+    "lng": -74.064765,
+    "first_seen": "2023-08-21",
+    "last_seen": "2023-08-21",
+    "aliases": []
+  },
+  {
+    "name": "Gramercy Park N & Gramercy Park E",
+    "lat": 40.73795,
+    "lng": -73.98509,
+    "first_seen": "2024-06-27",
+    "last_seen": "2024-06-27",
+    "aliases": []
+  },
+  {
+    "name": "Grand Army Plaza & Central Park S",
+    "lat": 40.756648,
+    "lng": -73.992719,
+    "first_seen": "2021-06-11",
+    "last_seen": "2024-05-20",
+    "aliases": []
+  },
+  {
+    "name": "Grand Army Plaza & Plaza St West",
+    "lat": 40.699548,
+    "lng": -74.002625,
+    "first_seen": "2023-12-02",
+    "last_seen": "2023-12-02",
+    "aliases": []
+  },
+  {
+    "name": "Grand Ave & Bergen St",
+    "lat": 40.678045,
+    "lng": -73.962408,
+    "first_seen": "2023-09-20",
+    "last_seen": "2023-09-20",
+    "aliases": []
+  },
+  {
+    "name": "Grand St",
+    "lat": 40.715175,
+    "lng": -74.037684,
+    "first_seen": "2018-04-20",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Grand St & 14 St",
+    "lat": 40.75407,
+    "lng": -74.031601,
+    "first_seen": "2021-05-14",
+    "last_seen": "2026-05-07",
+    "aliases": []
+  },
+  {
+    "name": "Grand St & 2 St",
+    "lat": 40.73913,
+    "lng": -74.03618,
+    "first_seen": "2021-05-13",
+    "last_seen": "2021-10-29",
+    "aliases": []
+  },
+  {
+    "name": "Grand St & Elizabeth St",
+    "lat": 40.718822,
+    "lng": -73.99596,
+    "first_seen": "2019-08-17",
+    "last_seen": "2026-05-01",
+    "aliases": []
+  },
+  {
+    "name": "Grand St & Greene St",
+    "lat": 40.7217,
+    "lng": -74.002381,
+    "first_seen": "2021-10-12",
+    "last_seen": "2026-04-22",
+    "aliases": []
+  },
+  {
+    "name": "Grand St & Havemeyer St",
+    "lat": 40.720363,
+    "lng": -73.986979,
+    "first_seen": "2023-05-24",
+    "last_seen": "2024-06-24",
+    "aliases": []
+  },
+  {
+    "name": "Grand St & Wythe Ave",
+    "lat": 40.71575,
+    "lng": -73.96433,
+    "first_seen": "2026-05-06",
+    "last_seen": "2026-05-06",
+    "aliases": []
+  },
+  {
+    "name": "Grant Ave & MLK Dr",
+    "lat": 40.709216,
+    "lng": -74.080796,
+    "first_seen": "2021-07-09",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Great Jones St",
+    "lat": 40.727434,
+    "lng": -73.99379,
+    "first_seen": "2021-08-31",
+    "last_seen": "2025-12-30",
+    "aliases": []
+  },
+  {
+    "name": "Greene Ave & Nostrand Ave",
+    "lat": 40.720516,
+    "lng": -73.987304,
+    "first_seen": "2023-06-30",
+    "last_seen": "2023-11-07",
+    "aliases": []
+  },
+  {
+    "name": "Greene St & Prince St",
+    "lat": 40.724981,
+    "lng": -74.000324,
+    "first_seen": "2022-03-25",
+    "last_seen": "2025-10-09",
+    "aliases": []
+  },
+  {
+    "name": "Greenpoint Ave & Manhattan Ave",
+    "lat": 40.710502,
+    "lng": -74.023518,
+    "first_seen": "2024-06-04",
+    "last_seen": "2024-06-04",
+    "aliases": []
+  },
+  {
+    "name": "Greenpoint Ave & West St",
+    "lat": 40.730913,
+    "lng": -73.976674,
+    "first_seen": "2023-05-24",
+    "last_seen": "2024-10-10",
+    "aliases": []
+  },
+  {
+    "name": "Greenwich Ave & 8 Ave",
+    "lat": 40.738842,
+    "lng": -74.004749,
+    "first_seen": "2016-07-19",
+    "last_seen": "2026-03-09",
+    "aliases": []
+  },
+  {
+    "name": "Greenwich Ave & Charles St",
+    "lat": 40.732428,
+    "lng": -74.007452,
+    "first_seen": "2017-05-12",
+    "last_seen": "2026-03-14",
+    "aliases": []
+  },
+  {
+    "name": "Greenwich St & Hubert St",
+    "lat": 40.721447,
+    "lng": -74.010485,
+    "first_seen": "2017-06-25",
+    "last_seen": "2026-05-20",
+    "aliases": []
+  },
+  {
+    "name": "Greenwich St & North Moore St",
+    "lat": 40.720152,
+    "lng": -74.010365,
+    "first_seen": "2016-04-27",
+    "last_seen": "2016-05-04",
+    "aliases": []
+  },
+  {
+    "name": "Greenwich St & Perry St",
+    "lat": 40.731539,
+    "lng": -74.01133,
+    "first_seen": "2023-06-25",
+    "last_seen": "2026-05-15",
+    "aliases": []
+  },
+  {
+    "name": "Greenwich St & Rector St",
+    "lat": 40.707849,
+    "lng": -74.014427,
+    "first_seen": "2023-06-07",
+    "last_seen": "2026-05-13",
+    "aliases": []
+  },
+  {
+    "name": "Greenwich St & W Houston St",
+    "lat": 40.728741,
+    "lng": -74.009805,
+    "first_seen": "2016-09-07",
+    "last_seen": "2026-05-27",
+    "aliases": []
+  },
+  {
+    "name": "Greenwich St & Warren St",
+    "lat": 40.715422,
+    "lng": -74.01122,
+    "first_seen": "2016-03-30",
+    "last_seen": "2016-03-30",
+    "aliases": []
+  },
+  {
+    "name": "Grove St - PATH",
+    "lat": 40.71941,
+    "lng": -74.04309,
+    "first_seen": "2022-12-29",
+    "last_seen": "2022-12-29",
+    "aliases": []
+  },
+  {
+    "name": "Grove St PATH",
+    "lat": 40.719518,
+    "lng": -74.043112,
+    "first_seen": "2015-09-21",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Hamilton Park",
+    "lat": 40.727593,
+    "lng": -74.044247,
+    "first_seen": "2015-09-21",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Hanson Pl & Ashland Pl",
+    "lat": 40.710211,
+    "lng": -74.01244,
+    "first_seen": "2023-05-23",
+    "last_seen": "2023-05-23",
+    "aliases": []
+  },
+  {
+    "name": "Harborside",
+    "lat": 40.719255,
+    "lng": -74.034236,
+    "first_seen": "2017-08-01",
+    "last_seen": "2026-04-03",
+    "aliases": [
+      "Hs Don't Use"
+    ]
+  },
+  {
+    "name": "Harrison St & 4 St",
+    "lat": 40.74313,
+    "lng": -74.040734,
+    "first_seen": "2026-04-03",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Harrison St & Hudson St",
+    "lat": 40.71871,
+    "lng": -74.009001,
+    "first_seen": "2016-02-04",
+    "last_seen": "2025-09-17",
+    "aliases": []
+  },
+  {
+    "name": "Heights Elevator",
+    "lat": 40.748716,
+    "lng": -74.040448,
+    "first_seen": "2015-09-21",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Henry St & Atlantic Ave",
+    "lat": 40.694598,
+    "lng": -74.000361,
+    "first_seen": "2018-06-14",
+    "last_seen": "2025-07-05",
+    "aliases": []
+  },
+  {
+    "name": "Henry St & Degraw St",
+    "lat": 40.710052,
+    "lng": -74.023073,
+    "first_seen": "2023-05-24",
+    "last_seen": "2023-05-24",
+    "aliases": []
+  },
+  {
+    "name": "Henry St & Grand St",
+    "lat": 40.726259,
+    "lng": -74.010102,
+    "first_seen": "2023-06-20",
+    "last_seen": "2024-06-04",
+    "aliases": []
+  },
+  {
+    "name": "Hicks St & Montague St",
+    "lat": 40.695128,
+    "lng": -73.995951,
+    "first_seen": "2020-07-02",
+    "last_seen": "2023-05-26",
+    "aliases": []
+  },
+  {
+    "name": "Hilltop",
+    "lat": 40.731166,
+    "lng": -74.057563,
+    "first_seen": "2015-09-21",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Hoboken Ave at Monmouth St",
+    "lat": 40.735213,
+    "lng": -74.04695,
+    "first_seen": "2019-05-31",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Hoboken Terminal - Hudson St & Hudson Pl",
+    "lat": 40.735936,
+    "lng": -74.030313,
+    "first_seen": "2021-06-03",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Hoboken Terminal - River St & Hudson Pl",
+    "lat": 40.736075,
+    "lng": -74.029136,
+    "first_seen": "2021-05-04",
+    "last_seen": "2025-06-02",
+    "aliases": []
+  },
+  {
+    "name": "Hope St & Union Ave",
+    "lat": 40.700361,
+    "lng": -74.018507,
+    "first_seen": "2024-04-16",
+    "last_seen": "2024-04-16",
+    "aliases": []
+  },
+  {
+    "name": "Howard St & Lafayette St",
+    "lat": 40.719105,
+    "lng": -73.999733,
+    "first_seen": "2019-10-26",
+    "last_seen": "2025-02-04",
+    "aliases": [
+      "Howard St & Centre St"
+    ]
+  },
+  {
+    "name": "Hudson Blvd W & W 36 St",
+    "lat": 40.756765,
+    "lng": -73.999714,
+    "first_seen": "2023-07-10",
+    "last_seen": "2026-05-28",
+    "aliases": []
+  },
+  {
+    "name": "Hudson St & 4 St",
+    "lat": 40.740958,
+    "lng": -74.028608,
+    "first_seen": "2021-10-08",
+    "last_seen": "2023-09-13",
+    "aliases": []
+  },
+  {
+    "name": "Hudson St & N Moore St",
+    "lat": 40.719888,
+    "lng": -74.008627,
+    "first_seen": "2022-04-07",
+    "last_seen": "2026-04-20",
+    "aliases": []
+  },
+  {
+    "name": "Hudson St & Reade St",
+    "lat": 40.71625,
+    "lng": -74.009106,
+    "first_seen": "2017-10-13",
+    "last_seen": "2026-03-30",
+    "aliases": []
+  },
+  {
+    "name": "Hudson St & W 13 St",
+    "lat": 40.736384,
+    "lng": -74.011614,
+    "first_seen": "2022-09-15",
+    "last_seen": "2026-05-28",
+    "aliases": []
+  },
+  {
+    "name": "Huron St & Franklin St",
+    "lat": 40.724286,
+    "lng": -74.001259,
+    "first_seen": "2024-06-20",
+    "last_seen": "2024-06-20",
+    "aliases": []
+  },
+  {
+    "name": "JC Medical Center",
+    "lat": 40.716066,
+    "lng": -74.049657,
+    "first_seen": "2015-09-21",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "JCBS Depot",
+    "lat": 40.709651,
+    "lng": -74.068601,
+    "first_seen": "2016-08-23",
+    "last_seen": "2022-06-08",
+    "aliases": []
+  },
+  {
+    "name": "Jackson Square",
+    "lat": 40.711137,
+    "lng": -74.078892,
+    "first_seen": "2015-09-21",
+    "last_seen": "2026-05-31",
+    "aliases": [
+      "MLK Light Rail"
+    ]
+  },
+  {
+    "name": "Jay St & Tech Pl",
+    "lat": 40.695065,
+    "lng": -73.987167,
+    "first_seen": "2019-10-06",
+    "last_seen": "2026-03-31",
+    "aliases": []
+  },
+  {
+    "name": "Jay St & York St",
+    "lat": 40.701403,
+    "lng": -73.986727,
+    "first_seen": "2019-09-11",
+    "last_seen": "2019-10-16",
+    "aliases": []
+  },
+  {
+    "name": "Jersey & 3rd",
+    "lat": 40.72333,
+    "lng": -74.045944,
+    "first_seen": "2016-07-22",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Jersey & 6th St",
+    "lat": 40.725289,
+    "lng": -74.045568,
+    "first_seen": "2016-07-20",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "John St & William St",
+    "lat": 40.711375,
+    "lng": -74.010855,
+    "first_seen": "2016-11-26",
+    "last_seen": "2026-03-27",
+    "aliases": []
+  },
+  {
+    "name": "Johnson St & Brooklyn Bridge Blvd",
+    "lat": 40.695,
+    "lng": -73.98917,
+    "first_seen": "2023-08-29",
+    "last_seen": "2023-08-29",
+    "aliases": []
+  },
+  {
+    "name": "Journal Square",
+    "lat": 40.733674,
+    "lng": -74.062494,
+    "first_seen": "2017-10-02",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Kenmare St & Elizabeth St",
+    "lat": 40.72054,
+    "lng": -73.9949,
+    "first_seen": "2023-02-10",
+    "last_seen": "2026-04-27",
+    "aliases": []
+  },
+  {
+    "name": "Kent Ave & N 7 St",
+    "lat": 40.720368,
+    "lng": -73.961651,
+    "first_seen": "2023-08-27",
+    "last_seen": "2023-08-27",
+    "aliases": []
+  },
+  {
+    "name": "King St & Varick St",
+    "lat": 40.727897,
+    "lng": -74.005363,
+    "first_seen": "2022-07-15",
+    "last_seen": "2026-04-03",
+    "aliases": []
+  },
+  {
+    "name": "LaGuardia Pl & W 3 St",
+    "lat": 40.72917,
+    "lng": -73.998102,
+    "first_seen": "2017-06-20",
+    "last_seen": "2026-04-06",
+    "aliases": []
+  },
+  {
+    "name": "Lafayette Ave & Ft Greene Pl",
+    "lat": 40.687002,
+    "lng": -73.97665,
+    "first_seen": "2025-08-30",
+    "last_seen": "2025-08-30",
+    "aliases": []
+  },
+  {
+    "name": "Lafayette Park",
+    "lat": 40.713473,
+    "lng": -74.062847,
+    "first_seen": "2016-07-22",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Lafayette St & E 8 St",
+    "lat": 40.730207,
+    "lng": -73.991026,
+    "first_seen": "2021-10-15",
+    "last_seen": "2025-09-07",
+    "aliases": []
+  },
+  {
+    "name": "Lafayette St & Grand St",
+    "lat": 40.717819,
+    "lng": -74.006649,
+    "first_seen": "2023-04-13",
+    "last_seen": "2026-04-14",
+    "aliases": []
+  },
+  {
+    "name": "Lafayette St & Jersey St",
+    "lat": 40.724561,
+    "lng": -73.995653,
+    "first_seen": "2021-09-14",
+    "last_seen": "2026-05-28",
+    "aliases": []
+  },
+  {
+    "name": "Laight St & Hudson St",
+    "lat": 40.721854,
+    "lng": -74.007718,
+    "first_seen": "2021-09-21",
+    "last_seen": "2026-05-07",
+    "aliases": []
+  },
+  {
+    "name": "Lawrence St & Willoughby St",
+    "lat": 40.692362,
+    "lng": -73.986317,
+    "first_seen": "2023-05-22",
+    "last_seen": "2025-09-29",
+    "aliases": []
+  },
+  {
+    "name": "Lenox Ave & W 111 St",
+    "lat": 40.798786,
+    "lng": -73.9523,
+    "first_seen": "2020-07-13",
+    "last_seen": "2020-07-13",
+    "aliases": []
+  },
+  {
+    "name": "Leonard Gordon Park",
+    "lat": 40.745899,
+    "lng": -74.057258,
+    "first_seen": "2016-07-29",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Leonard St & Church St",
+    "lat": 40.717973,
+    "lng": -74.006846,
+    "first_seen": "2022-06-21",
+    "last_seen": "2026-05-14",
+    "aliases": []
+  },
+  {
+    "name": "Lewis Ave & Kosciuszko St",
+    "lat": 40.714331,
+    "lng": -74.033133,
+    "first_seen": "2023-06-26",
+    "last_seen": "2023-06-26",
+    "aliases": [
+      "Tompkins Ave & Hopkins St"
+    ]
+  },
+  {
+    "name": "Lexington Ave & Classon Ave",
+    "lat": 40.686768,
+    "lng": -73.959282,
+    "first_seen": "2021-06-13",
+    "last_seen": "2021-06-13",
+    "aliases": []
+  },
+  {
+    "name": "Lexington Ave & E 111 St",
+    "lat": 40.759151,
+    "lng": -74.061417,
+    "first_seen": "2024-07-11",
+    "last_seen": "2024-07-11",
+    "aliases": []
+  },
+  {
+    "name": "Lexington Ave & E 24 St",
+    "lat": 40.740259,
+    "lng": -73.984092,
+    "first_seen": "2018-03-24",
+    "last_seen": "2024-06-11",
+    "aliases": []
+  },
+  {
+    "name": "Lexington Ave & E 29 St",
+    "lat": 40.724301,
+    "lng": -74.015325,
+    "first_seen": "2020-07-30",
+    "last_seen": "2023-09-12",
+    "aliases": []
+  },
+  {
+    "name": "Liberty Light Rail",
+    "lat": 40.711247,
+    "lng": -74.055698,
+    "first_seen": "2015-09-21",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Liberty St & Broadway",
+    "lat": 40.709206,
+    "lng": -74.010663,
+    "first_seen": "2017-05-19",
+    "last_seen": "2026-05-28",
+    "aliases": []
+  },
+  {
+    "name": "Liberty St & Nassau St",
+    "lat": 40.708716,
+    "lng": -74.011879,
+    "first_seen": "2021-06-16",
+    "last_seen": "2025-12-17",
+    "aliases": []
+  },
+  {
+    "name": "Lincoln Park",
+    "lat": 40.724608,
+    "lng": -74.078402,
+    "first_seen": "2015-09-21",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Lispenard St & Broadway",
+    "lat": 40.722022,
+    "lng": -74.002408,
+    "first_seen": "2022-09-21",
+    "last_seen": "2026-05-20",
+    "aliases": []
+  },
+  {
+    "name": "Little West St & 1 Pl",
+    "lat": 40.705693,
+    "lng": -74.016777,
+    "first_seen": "2016-03-19",
+    "last_seen": "2026-05-30",
+    "aliases": []
+  },
+  {
+    "name": "MLK Dr & Bayview Ave",
+    "lat": 40.7071,
+    "lng": -74.08335,
+    "first_seen": "2025-12-11",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "MLK Dr & Bramhall Ave",
+    "lat": 40.71647,
+    "lng": -74.07413,
+    "first_seen": "2025-08-29",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "MTL-ECO5-LAB",
+    "lat": 40.747166,
+    "lng": -74.088964,
+    "first_seen": "2022-10-03",
+    "last_seen": "2022-10-03",
+    "aliases": []
+  },
+  {
+    "name": "MacDougal St & Prince St",
+    "lat": 40.727103,
+    "lng": -74.002971,
+    "first_seen": "2017-08-01",
+    "last_seen": "2026-05-26",
+    "aliases": []
+  },
+  {
+    "name": "MacDougal St & Washington Sq",
+    "lat": 40.732264,
+    "lng": -73.998522,
+    "first_seen": "2016-04-18",
+    "last_seen": "2026-03-16",
+    "aliases": []
+  },
+  {
+    "name": "Madison Av & E 51 St",
+    "lat": 40.753708,
+    "lng": -73.981575,
+    "first_seen": "2022-07-29",
+    "last_seen": "2023-08-07",
+    "aliases": []
+  },
+  {
+    "name": "Madison Ave & E 26 St",
+    "lat": 40.739894,
+    "lng": -74.000871,
+    "first_seen": "2021-09-28",
+    "last_seen": "2025-04-18",
+    "aliases": []
+  },
+  {
+    "name": "Madison Ave & E 51 St",
+    "lat": 40.75863,
+    "lng": -73.97513,
+    "first_seen": "2023-12-01",
+    "last_seen": "2026-05-05",
+    "aliases": []
+  },
+  {
+    "name": "Madison Ave & E 82 St",
+    "lat": 40.778131,
+    "lng": -73.960694,
+    "first_seen": "2022-08-05",
+    "last_seen": "2026-05-17",
+    "aliases": []
+  },
+  {
+    "name": "Madison Ave & E 99 St",
+    "lat": 40.763602,
+    "lng": -74.009775,
+    "first_seen": "2023-06-25",
+    "last_seen": "2023-06-25",
+    "aliases": []
+  },
+  {
+    "name": "Madison St & 1 St",
+    "lat": 40.738786,
+    "lng": -74.039289,
+    "first_seen": "2021-05-06",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Madison St & 10 St",
+    "lat": 40.749948,
+    "lng": -74.035868,
+    "first_seen": "2021-05-14",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Madison St & Clinton St",
+    "lat": 40.71269,
+    "lng": -73.987763,
+    "first_seen": "2021-11-21",
+    "last_seen": "2021-11-21",
+    "aliases": []
+  },
+  {
+    "name": "Madison St & Montgomery St",
+    "lat": 40.713126,
+    "lng": -73.984844,
+    "first_seen": "2025-08-13",
+    "last_seen": "2026-05-20",
+    "aliases": []
+  },
+  {
+    "name": "Maiden Ln & Pearl St",
+    "lat": 40.707593,
+    "lng": -74.008088,
+    "first_seen": "2018-08-17",
+    "last_seen": "2026-04-24",
+    "aliases": []
+  },
+  {
+    "name": "Main St & Plymouth St",
+    "lat": 40.714306,
+    "lng": -74.00948,
+    "first_seen": "2023-05-24",
+    "last_seen": "2023-06-12",
+    "aliases": []
+  },
+  {
+    "name": "Mallory Ave & Roosevelt Ave",
+    "lat": 40.72203,
+    "lng": -74.08596,
+    "first_seen": "2025-12-16",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Mama Johnson Field - 4 St & Jackson St",
+    "lat": 40.743136,
+    "lng": -74.040046,
+    "first_seen": "2021-05-04",
+    "last_seen": "2026-01-23",
+    "aliases": []
+  },
+  {
+    "name": "Manila & 1st",
+    "lat": 40.721654,
+    "lng": -74.042884,
+    "first_seen": "2016-07-28",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Marin Light Rail",
+    "lat": 40.714587,
+    "lng": -74.042816,
+    "first_seen": "2016-07-28",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Market St & Cherry St",
+    "lat": 40.712465,
+    "lng": -74.003825,
+    "first_seen": "2022-07-06",
+    "last_seen": "2025-01-18",
+    "aliases": []
+  },
+  {
+    "name": "Market St & Henry St",
+    "lat": 40.713107,
+    "lng": -73.994464,
+    "first_seen": "2025-10-10",
+    "last_seen": "2025-10-25",
+    "aliases": []
+  },
+  {
+    "name": "Marshall St & 2 St",
+    "lat": 40.740783,
+    "lng": -74.04253,
+    "first_seen": "2021-10-29",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "McGinley Square",
+    "lat": 40.725345,
+    "lng": -74.067613,
+    "first_seen": "2015-09-21",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Mercer St & Bleecker St",
+    "lat": 40.727064,
+    "lng": -73.996621,
+    "first_seen": "2022-10-30",
+    "last_seen": "2026-05-11",
+    "aliases": []
+  },
+  {
+    "name": "Mercer St & Spring St",
+    "lat": 40.724076,
+    "lng": -74.000081,
+    "first_seen": "2018-02-15",
+    "last_seen": "2026-04-21",
+    "aliases": []
+  },
+  {
+    "name": "Metropolitan Ave & Bedford Ave",
+    "lat": 40.719328,
+    "lng": -73.9861,
+    "first_seen": "2024-06-14",
+    "last_seen": "2024-10-11",
+    "aliases": []
+  },
+  {
+    "name": "Metropolitan Ave & Meeker Ave",
+    "lat": 40.714133,
+    "lng": -73.952344,
+    "first_seen": "2024-09-07",
+    "last_seen": "2024-09-07",
+    "aliases": []
+  },
+  {
+    "name": "Milton St & Franklin St",
+    "lat": 40.72906,
+    "lng": -73.95779,
+    "first_seen": "2025-09-27",
+    "last_seen": "2025-09-27",
+    "aliases": []
+  },
+  {
+    "name": "Monmouth & 6th",
+    "lat": 40.725686,
+    "lng": -74.04879,
+    "first_seen": "2016-07-26",
+    "last_seen": "2026-05-31",
+    "aliases": [
+      "Monmouth and 6th"
+    ]
+  },
+  {
+    "name": "Monroe St & 11 St",
+    "lat": 40.750109,
+    "lng": -74.036637,
+    "first_seen": "2025-01-14",
+    "last_seen": "2026-03-11",
+    "aliases": []
+  },
+  {
+    "name": "Monroe St & Bedford Ave",
+    "lat": 40.710249,
+    "lng": -74.000391,
+    "first_seen": "2023-05-25",
+    "last_seen": "2023-05-25",
+    "aliases": []
+  },
+  {
+    "name": "Montague St & Clinton St",
+    "lat": 40.694272,
+    "lng": -73.992327,
+    "first_seen": "2023-07-10",
+    "last_seen": "2023-07-10",
+    "aliases": []
+  },
+  {
+    "name": "Montgomery St",
+    "lat": 40.719422,
+    "lng": -74.050988,
+    "first_seen": "2018-04-27",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Morris Canal",
+    "lat": 40.712416,
+    "lng": -74.038517,
+    "first_seen": "2016-03-22",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Morton St & Greenwich St",
+    "lat": 40.731148,
+    "lng": -74.008794,
+    "first_seen": "2024-10-28",
+    "last_seen": "2026-04-15",
+    "aliases": []
+  },
+  {
+    "name": "Morton St & Washington St",
+    "lat": 40.729458,
+    "lng": -74.010184,
+    "first_seen": "2021-07-09",
+    "last_seen": "2024-08-13",
+    "aliases": []
+  },
+  {
+    "name": "Motorgate",
+    "lat": 40.748325,
+    "lng": -74.032212,
+    "first_seen": "2024-01-12",
+    "last_seen": "2024-01-12",
+    "aliases": []
+  },
+  {
+    "name": "Mott St & Prince St",
+    "lat": 40.72318,
+    "lng": -73.9948,
+    "first_seen": "2020-07-02",
+    "last_seen": "2026-05-18",
+    "aliases": []
+  },
+  {
+    "name": "Murray St & Greenwich St",
+    "lat": 40.714852,
+    "lng": -74.011223,
+    "first_seen": "2017-07-26",
+    "last_seen": "2026-05-27",
+    "aliases": []
+  },
+  {
+    "name": "Murray St & West St",
+    "lat": 40.71539,
+    "lng": -74.013119,
+    "first_seen": "2015-12-12",
+    "last_seen": "2026-04-27",
+    "aliases": []
+  },
+  {
+    "name": "Murray St\\t& West St",
+    "lat": 40.71503,
+    "lng": -74.01246,
+    "first_seen": "2022-08-09",
+    "last_seen": "2022-08-25",
+    "aliases": []
+  },
+  {
+    "name": "Myrtle Ave & Fleet Pl",
+    "lat": 40.693534,
+    "lng": -73.981909,
+    "first_seen": "2025-06-17",
+    "last_seen": "2025-06-17",
+    "aliases": []
+  },
+  {
+    "name": "Myrtle Ave & St Edwards St",
+    "lat": 40.69327,
+    "lng": -73.977039,
+    "first_seen": "2021-07-10",
+    "last_seen": "2026-05-16",
+    "aliases": []
+  },
+  {
+    "name": "N 10 St & Berry St",
+    "lat": 40.720253,
+    "lng": -73.957082,
+    "first_seen": "2024-06-05",
+    "last_seen": "2026-03-25",
+    "aliases": []
+  },
+  {
+    "name": "N 11 St & Kent Ave",
+    "lat": 40.722482,
+    "lng": -73.959219,
+    "first_seen": "2024-06-01",
+    "last_seen": "2024-06-01",
+    "aliases": []
+  },
+  {
+    "name": "N 12 St & Bedford Ave",
+    "lat": 40.720798,
+    "lng": -73.954847,
+    "first_seen": "2023-07-11",
+    "last_seen": "2026-05-28",
+    "aliases": []
+  },
+  {
+    "name": "N 15 St & Wythe Ave",
+    "lat": 40.724055,
+    "lng": -73.955736,
+    "first_seen": "2024-09-03",
+    "last_seen": "2026-04-06",
+    "aliases": []
+  },
+  {
+    "name": "N 5 St & Northside Piers",
+    "lat": 40.719876,
+    "lng": -73.963865,
+    "first_seen": "2024-08-16",
+    "last_seen": "2024-08-16",
+    "aliases": []
+  },
+  {
+    "name": "N 5 St & Wythe Ave",
+    "lat": 40.722732,
+    "lng": -73.984326,
+    "first_seen": "2023-08-04",
+    "last_seen": "2025-05-07",
+    "aliases": []
+  },
+  {
+    "name": "N 6 St & Bedford Ave",
+    "lat": 40.717452,
+    "lng": -73.958509,
+    "first_seen": "2025-04-25",
+    "last_seen": "2025-04-25",
+    "aliases": []
+  },
+  {
+    "name": "N 7 St & Driggs Ave",
+    "lat": 40.7154,
+    "lng": -74.001847,
+    "first_seen": "2023-05-26",
+    "last_seen": "2026-04-23",
+    "aliases": []
+  },
+  {
+    "name": "N 9 St & Wythe Ave",
+    "lat": 40.72054,
+    "lng": -73.959,
+    "first_seen": "2024-02-03",
+    "last_seen": "2024-02-03",
+    "aliases": []
+  },
+  {
+    "name": "N Moore St & Hudson St",
+    "lat": 40.719961,
+    "lng": -74.008443,
+    "first_seen": "2022-09-13",
+    "last_seen": "2024-09-16",
+    "aliases": []
+  },
+  {
+    "name": "NJCU",
+    "lat": 40.710109,
+    "lng": -74.085849,
+    "first_seen": "2015-09-21",
+    "last_seen": "2018-04-13",
+    "aliases": []
+  },
+  {
+    "name": "NYCBS DEPOT - DELANCEY",
+    "lat": 40.716444,
+    "lng": -73.982331,
+    "first_seen": "2020-07-02",
+    "last_seen": "2021-05-21",
+    "aliases": []
+  },
+  {
+    "name": "Nassau St & Navy St",
+    "lat": 40.698399,
+    "lng": -73.980689,
+    "first_seen": "2025-10-24",
+    "last_seen": "2025-10-24",
+    "aliases": []
+  },
+  {
+    "name": "Nevins St & Schermerhorn St",
+    "lat": 40.711363,
+    "lng": -74.014367,
+    "first_seen": "2023-05-23",
+    "last_seen": "2023-05-23",
+    "aliases": []
+  },
+  {
+    "name": "Newark Ave",
+    "lat": 40.721525,
+    "lng": -74.046302,
+    "first_seen": "2015-09-21",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Newark St & Washington St",
+    "lat": 40.73681,
+    "lng": -74.0309,
+    "first_seen": "2025-05-23",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Newport PATH",
+    "lat": 40.727224,
+    "lng": -74.033759,
+    "first_seen": "2015-09-21",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Newport Pkwy",
+    "lat": 40.728746,
+    "lng": -74.032108,
+    "first_seen": "2015-09-21",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Norfolk St & Broome St",
+    "lat": 40.720378,
+    "lng": -73.998381,
+    "first_seen": "2019-05-10",
+    "last_seen": "2026-01-07",
+    "aliases": []
+  },
+  {
+    "name": "North Moore St & Greenwich St",
+    "lat": 40.720217,
+    "lng": -74.010358,
+    "first_seen": "2019-06-29",
+    "last_seen": "2026-05-28",
+    "aliases": []
+  },
+  {
+    "name": "North St",
+    "lat": 40.752559,
+    "lng": -74.044725,
+    "first_seen": "2015-09-21",
+    "last_seen": "2017-07-31",
+    "aliases": []
+  },
+  {
+    "name": "Oakland Ave",
+    "lat": 40.737598,
+    "lng": -74.052469,
+    "first_seen": "2015-09-21",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Ocean Ave & New St",
+    "lat": 40.6968,
+    "lng": -74.08862,
+    "first_seen": "2025-12-06",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Old Fulton St",
+    "lat": 40.702772,
+    "lng": -73.993836,
+    "first_seen": "2017-08-14",
+    "last_seen": "2025-09-19",
+    "aliases": []
+  },
+  {
+    "name": "Old Slip & Front St",
+    "lat": 40.703799,
+    "lng": -74.008387,
+    "first_seen": "2019-06-18",
+    "last_seen": "2019-06-28",
+    "aliases": []
+  },
+  {
+    "name": "Old Slip & South St",
+    "lat": 40.703367,
+    "lng": -74.007868,
+    "first_seen": "2021-09-22",
+    "last_seen": "2026-05-27",
+    "aliases": []
+  },
+  {
+    "name": "Orchard St & Grand St",
+    "lat": 40.717318,
+    "lng": -73.990678,
+    "first_seen": "2023-04-12",
+    "last_seen": "2025-01-11",
+    "aliases": []
+  },
+  {
+    "name": "Pacific Ave & Communipaw Ave",
+    "lat": 40.711354,
+    "lng": -74.062446,
+    "first_seen": "2025-09-05",
+    "last_seen": "2026-05-31",
+    "aliases": [
+      "Communipaw Ave & Pacific Ave"
+    ]
+  },
+  {
+    "name": "Pacific St & Nevins St",
+    "lat": 40.685376,
+    "lng": -73.983021,
+    "first_seen": "2023-09-21",
+    "last_seen": "2023-09-21",
+    "aliases": []
+  },
+  {
+    "name": "Pacific St & Smith St",
+    "lat": 40.711617,
+    "lng": -74.018183,
+    "first_seen": "2023-05-23",
+    "last_seen": "2023-05-23",
+    "aliases": []
+  },
+  {
+    "name": "Park Ave & E 40 St",
+    "lat": 40.75112,
+    "lng": -73.97851,
+    "first_seen": "2025-07-24",
+    "last_seen": "2025-10-09",
+    "aliases": []
+  },
+  {
+    "name": "Park Ave & E 41 St",
+    "lat": 40.751581,
+    "lng": -73.97791,
+    "first_seen": "2017-07-18",
+    "last_seen": "2026-05-27",
+    "aliases": [
+      "Pershing Square South"
+    ]
+  },
+  {
+    "name": "Park Ave & E 42 St",
+    "lat": 40.751873,
+    "lng": -73.977706,
+    "first_seen": "2019-11-14",
+    "last_seen": "2026-05-30",
+    "aliases": [
+      "Pershing Square North"
+    ]
+  },
+  {
+    "name": "Park Ave & St Edwards St",
+    "lat": 40.696089,
+    "lng": -73.978034,
+    "first_seen": "2022-09-27",
+    "last_seen": "2022-09-27",
+    "aliases": []
+  },
+  {
+    "name": "Park Circle & East Dr",
+    "lat": 40.651566,
+    "lng": -73.972212,
+    "first_seen": "2025-04-13",
+    "last_seen": "2025-04-13",
+    "aliases": []
+  },
+  {
+    "name": "Park Pl & Church St",
+    "lat": 40.713342,
+    "lng": -74.009355,
+    "first_seen": "2021-10-27",
+    "last_seen": "2026-04-29",
+    "aliases": []
+  },
+  {
+    "name": "Park Pl & Franklin Ave",
+    "lat": 40.674181,
+    "lng": -73.956495,
+    "first_seen": "2020-06-06",
+    "last_seen": "2020-06-06",
+    "aliases": []
+  },
+  {
+    "name": "Parkside Ave & Flatbush Ave",
+    "lat": 40.65563,
+    "lng": -73.95968,
+    "first_seen": "2025-04-25",
+    "last_seen": "2025-04-25",
+    "aliases": []
+  },
+  {
+    "name": "Paulus Hook",
+    "lat": 40.714148,
+    "lng": -74.033554,
+    "first_seen": "2015-09-21",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Pearl St & Hanover Square",
+    "lat": 40.705554,
+    "lng": -74.010095,
+    "first_seen": "2021-08-10",
+    "last_seen": "2026-04-10",
+    "aliases": []
+  },
+  {
+    "name": "Pearl St & Peck Slip",
+    "lat": 40.708485,
+    "lng": -74.002751,
+    "first_seen": "2022-05-23",
+    "last_seen": "2022-05-23",
+    "aliases": []
+  },
+  {
+    "name": "Pearl St & Whitehall St",
+    "lat": 40.703144,
+    "lng": -74.013178,
+    "first_seen": "2024-10-15",
+    "last_seen": "2025-12-16",
+    "aliases": []
+  },
+  {
+    "name": "Pearl St & York St",
+    "lat": 40.701405,
+    "lng": -73.98768,
+    "first_seen": "2023-11-11",
+    "last_seen": "2023-11-11",
+    "aliases": []
+  },
+  {
+    "name": "Peck Slip & Front St",
+    "lat": 40.707873,
+    "lng": -74.00167,
+    "first_seen": "2019-08-07",
+    "last_seen": "2019-08-07",
+    "aliases": []
+  },
+  {
+    "name": "Peck Slip & South St",
+    "lat": 40.707519,
+    "lng": -74.001081,
+    "first_seen": "2023-02-16",
+    "last_seen": "2025-11-26",
+    "aliases": []
+  },
+  {
+    "name": "Perry St & Bleecker St",
+    "lat": 40.734431,
+    "lng": -74.007785,
+    "first_seen": "2015-12-05",
+    "last_seen": "2025-11-16",
+    "aliases": []
+  },
+  {
+    "name": "Perry St & Greenwich Ave",
+    "lat": 40.727418,
+    "lng": -74.02345,
+    "first_seen": "2023-06-23",
+    "last_seen": "2023-12-02",
+    "aliases": []
+  },
+  {
+    "name": "Pershing Field",
+    "lat": 40.742661,
+    "lng": -74.051796,
+    "first_seen": "2015-09-21",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Pier 40 - Hudson River Park",
+    "lat": 40.727714,
+    "lng": -74.011296,
+    "first_seen": "2017-04-02",
+    "last_seen": "2026-05-28",
+    "aliases": []
+  },
+  {
+    "name": "Pier 40 Dock Station",
+    "lat": 40.72866,
+    "lng": -74.01198,
+    "first_seen": "2020-12-28",
+    "last_seen": "2023-02-08",
+    "aliases": []
+  },
+  {
+    "name": "Pier 40 X2",
+    "lat": 40.728487,
+    "lng": -74.011693,
+    "first_seen": "2020-08-19",
+    "last_seen": "2020-08-19",
+    "aliases": []
+  },
+  {
+    "name": "Pier 61 at Chelsea Piers",
+    "lat": 40.746872,
+    "lng": -74.00821,
+    "first_seen": "2024-05-04",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Pike St & E Broadway",
+    "lat": 40.714067,
+    "lng": -73.992939,
+    "first_seen": "2016-03-06",
+    "last_seen": "2025-12-15",
+    "aliases": []
+  },
+  {
+    "name": "Pike St & Monroe St",
+    "lat": 40.711731,
+    "lng": -73.99193,
+    "first_seen": "2018-06-14",
+    "last_seen": "2023-10-12",
+    "aliases": []
+  },
+  {
+    "name": "Pioneer St & Richards St",
+    "lat": 40.707021,
+    "lng": -74.019233,
+    "first_seen": "2023-09-20",
+    "last_seen": "2023-09-20",
+    "aliases": []
+  },
+  {
+    "name": "Pioneer St & Van Brunt St",
+    "lat": 40.679043,
+    "lng": -74.011169,
+    "first_seen": "2024-07-15",
+    "last_seen": "2024-07-16",
+    "aliases": []
+  },
+  {
+    "name": "President St & Henry St",
+    "lat": 40.6828,
+    "lng": -73.999904,
+    "first_seen": "2025-08-28",
+    "last_seen": "2025-08-28",
+    "aliases": []
+  },
+  {
+    "name": "Prospect Pl & 6 Ave",
+    "lat": 40.679331,
+    "lng": -73.975195,
+    "first_seen": "2018-04-29",
+    "last_seen": "2018-04-29",
+    "aliases": []
+  },
+  {
+    "name": "Prospect Pl & Nostrand Ave",
+    "lat": 40.700204,
+    "lng": -73.992335,
+    "first_seen": "2023-12-01",
+    "last_seen": "2023-12-01",
+    "aliases": []
+  },
+  {
+    "name": "Reade St & Broadway",
+    "lat": 40.714989,
+    "lng": -74.006825,
+    "first_seen": "2021-05-21",
+    "last_seen": "2026-05-05",
+    "aliases": []
+  },
+  {
+    "name": "Richard St Light Rail",
+    "lat": 40.699069,
+    "lng": -74.07915,
+    "first_seen": "2025-12-19",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "River St & 1 St",
+    "lat": 40.737215,
+    "lng": -74.028866,
+    "first_seen": "2023-08-17",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "River St & Newark St",
+    "lat": 40.736722,
+    "lng": -74.029007,
+    "first_seen": "2025-06-02",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "River Ter & Warren St",
+    "lat": 40.71759,
+    "lng": -74.015931,
+    "first_seen": "2022-06-15",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Riverside Blvd & W 67 St",
+    "lat": 40.777507,
+    "lng": -73.988886,
+    "first_seen": "2015-10-17",
+    "last_seen": "2024-08-22",
+    "aliases": []
+  },
+  {
+    "name": "Riverside Dr & W 72 St",
+    "lat": 40.780578,
+    "lng": -73.985624,
+    "first_seen": "2021-08-03",
+    "last_seen": "2024-09-08",
+    "aliases": []
+  },
+  {
+    "name": "Riverside Dr & W 78 St",
+    "lat": 40.784145,
+    "lng": -73.983625,
+    "first_seen": "2016-04-17",
+    "last_seen": "2024-07-16",
+    "aliases": []
+  },
+  {
+    "name": "Riverside Dr & W 82 St",
+    "lat": 40.787209,
+    "lng": -73.981281,
+    "first_seen": "2015-10-17",
+    "last_seen": "2026-04-06",
+    "aliases": []
+  },
+  {
+    "name": "Riverside Dr & W 91 St",
+    "lat": 40.793135,
+    "lng": -73.977004,
+    "first_seen": "2023-04-19",
+    "last_seen": "2026-04-29",
+    "aliases": []
+  },
+  {
+    "name": "Riverview Park",
+    "lat": 40.744348,
+    "lng": -74.043969,
+    "first_seen": "2015-09-21",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Rivington St & Chrystie St",
+    "lat": 40.721101,
+    "lng": -73.991925,
+    "first_seen": "2022-07-13",
+    "last_seen": "2026-05-01",
+    "aliases": []
+  },
+  {
+    "name": "Roebling St & N 4 St",
+    "lat": 40.71469,
+    "lng": -73.95739,
+    "first_seen": "2016-09-26",
+    "last_seen": "2016-09-26",
+    "aliases": []
+  },
+  {
+    "name": "Rogers Ave & Sterling St",
+    "lat": 40.663062,
+    "lng": -73.953875,
+    "first_seen": "2022-08-02",
+    "last_seen": "2022-08-22",
+    "aliases": []
+  },
+  {
+    "name": "Roosevelt Island Tramway",
+    "lat": 40.752805,
+    "lng": -73.992906,
+    "first_seen": "2024-01-12",
+    "last_seen": "2024-01-12",
+    "aliases": []
+  },
+  {
+    "name": "S 2 St & Kent Ave",
+    "lat": 40.721605,
+    "lng": -73.993399,
+    "first_seen": "2023-05-24",
+    "last_seen": "2023-09-02",
+    "aliases": []
+  },
+  {
+    "name": "S 3 St & Bedford Ave",
+    "lat": 40.718824,
+    "lng": -73.993942,
+    "first_seen": "2023-09-14",
+    "last_seen": "2025-07-05",
+    "aliases": []
+  },
+  {
+    "name": "S 4 St & Rodney St",
+    "lat": 40.70934,
+    "lng": -73.95608,
+    "first_seen": "2021-11-19",
+    "last_seen": "2026-04-01",
+    "aliases": []
+  },
+  {
+    "name": "S 4 St & Roebling St",
+    "lat": 40.71285,
+    "lng": -73.980571,
+    "first_seen": "2023-06-23",
+    "last_seen": "2023-07-14",
+    "aliases": []
+  },
+  {
+    "name": "S 4 St & Wythe Ave",
+    "lat": 40.712859,
+    "lng": -73.965903,
+    "first_seen": "2025-03-28",
+    "last_seen": "2025-03-28",
+    "aliases": []
+  },
+  {
+    "name": "S Portland Ave & Hanson Pl",
+    "lat": 40.685396,
+    "lng": -73.974315,
+    "first_seen": "2018-08-16",
+    "last_seen": "2018-08-16",
+    "aliases": []
+  },
+  {
+    "name": "Sands St & Jay St",
+    "lat": 40.700119,
+    "lng": -73.9862,
+    "first_seen": "2025-05-24",
+    "last_seen": "2025-05-24",
+    "aliases": []
+  },
+  {
+    "name": "Sands St Gate",
+    "lat": 40.710752,
+    "lng": -73.98209,
+    "first_seen": "2021-06-17",
+    "last_seen": "2025-10-16",
+    "aliases": []
+  },
+  {
+    "name": "Schermerhorn St & Court St",
+    "lat": 40.691034,
+    "lng": -73.991952,
+    "first_seen": "2021-08-02",
+    "last_seen": "2025-11-08",
+    "aliases": []
+  },
+  {
+    "name": "Sigourney St & Columbia St",
+    "lat": 40.672672,
+    "lng": -74.008795,
+    "first_seen": "2025-09-05",
+    "last_seen": "2025-09-05",
+    "aliases": []
+  },
+  {
+    "name": "Sip Ave",
+    "lat": 40.730822,
+    "lng": -74.06385,
+    "first_seen": "2015-09-21",
+    "last_seen": "2022-06-29",
+    "aliases": []
+  },
+  {
+    "name": "Soissons Landing",
+    "lat": 40.692317,
+    "lng": -74.014866,
+    "first_seen": "2022-05-15",
+    "last_seen": "2024-09-27",
+    "aliases": []
+  },
+  {
+    "name": "South End Ave & Albany St",
+    "lat": 40.709957,
+    "lng": -74.016538,
+    "first_seen": "2023-07-05",
+    "last_seen": "2026-01-14",
+    "aliases": []
+  },
+  {
+    "name": "South End Ave & Liberty St",
+    "lat": 40.711512,
+    "lng": -74.015756,
+    "first_seen": "2016-05-29",
+    "last_seen": "2019-11-09",
+    "aliases": []
+  },
+  {
+    "name": "South St & Broad St",
+    "lat": 40.701889,
+    "lng": -74.010899,
+    "first_seen": "2022-05-11",
+    "last_seen": "2025-06-21",
+    "aliases": []
+  },
+  {
+    "name": "South St & Gouverneur Ln",
+    "lat": 40.703554,
+    "lng": -74.006702,
+    "first_seen": "2016-05-05",
+    "last_seen": "2026-05-05",
+    "aliases": []
+  },
+  {
+    "name": "South St & Pike St",
+    "lat": 40.709918,
+    "lng": -73.991611,
+    "first_seen": "2022-09-04",
+    "last_seen": "2024-08-24",
+    "aliases": []
+  },
+  {
+    "name": "South St & Whitehall St",
+    "lat": 40.701221,
+    "lng": -74.012342,
+    "first_seen": "2017-07-28",
+    "last_seen": "2026-05-13",
+    "aliases": []
+  },
+  {
+    "name": "South Waterfront Walkway - Sinatra Dr & 1 St",
+    "lat": 40.736991,
+    "lng": -74.027783,
+    "first_seen": "2021-05-03",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Southpoint Park",
+    "lat": 40.750476,
+    "lng": -74.002788,
+    "first_seen": "2024-01-10",
+    "last_seen": "2024-01-12",
+    "aliases": []
+  },
+  {
+    "name": "Southwest Park - Jackson St & Observer Hwy",
+    "lat": 40.737557,
+    "lng": -74.04166,
+    "first_seen": "2021-05-12",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Spring St & Hudson St",
+    "lat": 40.72591,
+    "lng": -74.008214,
+    "first_seen": "2021-07-01",
+    "last_seen": "2026-05-27",
+    "aliases": []
+  },
+  {
+    "name": "Spruce St & Gold St",
+    "lat": 40.710323,
+    "lng": -74.004323,
+    "first_seen": "2023-09-19",
+    "last_seen": "2023-09-19",
+    "aliases": []
+  },
+  {
+    "name": "Spruce St & Nassau St",
+    "lat": 40.711464,
+    "lng": -74.005524,
+    "first_seen": "2016-12-09",
+    "last_seen": "2026-05-27",
+    "aliases": []
+  },
+  {
+    "name": "St James Pl & Oliver St",
+    "lat": 40.713079,
+    "lng": -73.998512,
+    "first_seen": "2020-06-09",
+    "last_seen": "2026-05-21",
+    "aliases": []
+  },
+  {
+    "name": "St James Pl & Pearl St",
+    "lat": 40.711174,
+    "lng": -74.000165,
+    "first_seen": "2020-08-08",
+    "last_seen": "2024-10-19",
+    "aliases": []
+  },
+  {
+    "name": "St Marks Pl & 1 Ave",
+    "lat": 40.726109,
+    "lng": -73.991585,
+    "first_seen": "2021-06-15",
+    "last_seen": "2024-08-01",
+    "aliases": []
+  },
+  {
+    "name": "St Marks Pl & 2 Ave",
+    "lat": 40.728419,
+    "lng": -73.98714,
+    "first_seen": "2021-06-13",
+    "last_seen": "2024-11-06",
+    "aliases": []
+  },
+  {
+    "name": "St Marks Pl & 4 Ave",
+    "lat": 40.708566,
+    "lng": -74.013432,
+    "first_seen": "2023-05-23",
+    "last_seen": "2023-05-23",
+    "aliases": []
+  },
+  {
+    "name": "Stagg St & Union Ave",
+    "lat": 40.725923,
+    "lng": -73.979406,
+    "first_seen": "2023-07-03",
+    "last_seen": "2023-08-21",
+    "aliases": []
+  },
+  {
+    "name": "Stanton St & Chrystie St",
+    "lat": 40.722293,
+    "lng": -73.991475,
+    "first_seen": "2021-09-19",
+    "last_seen": "2024-10-15",
+    "aliases": []
+  },
+  {
+    "name": "Stanton St & Mangin St",
+    "lat": 40.717821,
+    "lng": -73.976289,
+    "first_seen": "2023-08-01",
+    "last_seen": "2024-11-05",
+    "aliases": []
+  },
+  {
+    "name": "Stanton St & Norfolk St",
+    "lat": 40.720747,
+    "lng": -73.986274,
+    "first_seen": "2023-07-17",
+    "last_seen": "2026-05-16",
+    "aliases": []
+  },
+  {
+    "name": "Stevens - River Ter & 6 St",
+    "lat": 40.743132,
+    "lng": -74.026994,
+    "first_seen": "2021-05-21",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Stockholm St & Wilson Ave",
+    "lat": 40.724842,
+    "lng": -74.040053,
+    "first_seen": "2023-05-24",
+    "last_seen": "2023-06-26",
+    "aliases": []
+  },
+  {
+    "name": "Suffolk St & Stanton St",
+    "lat": 40.720807,
+    "lng": -74.006833,
+    "first_seen": "2022-09-25",
+    "last_seen": "2024-06-18",
+    "aliases": []
+  },
+  {
+    "name": "Sullivan St & Washington Sq",
+    "lat": 40.731512,
+    "lng": -74.008784,
+    "first_seen": "2018-09-05",
+    "last_seen": "2025-10-17",
+    "aliases": []
+  },
+  {
+    "name": "Thompson St & Bleecker St",
+    "lat": 40.728401,
+    "lng": -73.999688,
+    "first_seen": "2023-09-13",
+    "last_seen": "2026-04-28",
+    "aliases": []
+  },
+  {
+    "name": "Underhill Ave & Pacific St",
+    "lat": 40.680484,
+    "lng": -73.96468,
+    "first_seen": "2025-01-16",
+    "last_seen": "2025-01-16",
+    "aliases": []
+  },
+  {
+    "name": "Union Ave & N 12 St",
+    "lat": 40.724611,
+    "lng": -73.983938,
+    "first_seen": "2023-05-24",
+    "last_seen": "2026-04-15",
+    "aliases": []
+  },
+  {
+    "name": "Union St",
+    "lat": 40.718204,
+    "lng": -74.083608,
+    "first_seen": "2015-09-23",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Union St & Bergen Ave",
+    "lat": 40.71575,
+    "lng": -74.07887,
+    "first_seen": "2025-08-29",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "University Pl & E 14 St",
+    "lat": 40.733483,
+    "lng": -74.00035,
+    "first_seen": "2022-07-12",
+    "last_seen": "2026-03-31",
+    "aliases": []
+  },
+  {
+    "name": "University Pl & E 8 St",
+    "lat": 40.731437,
+    "lng": -73.994903,
+    "first_seen": "2022-07-28",
+    "last_seen": "2025-11-03",
+    "aliases": []
+  },
+  {
+    "name": "Van Brunt St & Van Dyke St",
+    "lat": 40.675833,
+    "lng": -74.014726,
+    "first_seen": "2024-04-25",
+    "last_seen": "2024-04-29",
+    "aliases": []
+  },
+  {
+    "name": "Van Brunt St & Wolcott St",
+    "lat": 40.677343,
+    "lng": -74.012751,
+    "first_seen": "2020-11-08",
+    "last_seen": "2020-11-08",
+    "aliases": []
+  },
+  {
+    "name": "Van Nostrand Ave & Ocean Ave",
+    "lat": 40.69983,
+    "lng": -74.08416,
+    "first_seen": "2025-12-17",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Van Vorst Park",
+    "lat": 40.718488,
+    "lng": -74.047727,
+    "first_seen": "2015-09-21",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Varick St & Watts St",
+    "lat": 40.723636,
+    "lng": -74.00602,
+    "first_seen": "2025-08-28",
+    "last_seen": "2026-05-24",
+    "aliases": []
+  },
+  {
+    "name": "Vernon Blvd & 47 Rd",
+    "lat": 40.744907,
+    "lng": -73.953457,
+    "first_seen": "2022-09-04",
+    "last_seen": "2022-09-04",
+    "aliases": []
+  },
+  {
+    "name": "Vesey Pl & River Terrace",
+    "lat": 40.715392,
+    "lng": -74.016648,
+    "first_seen": "2015-12-09",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Vesey St & Church St",
+    "lat": 40.71217,
+    "lng": -74.011043,
+    "first_seen": "2021-10-13",
+    "last_seen": "2026-01-08",
+    "aliases": []
+  },
+  {
+    "name": "Vesey St & Greenwich St",
+    "lat": 40.712547,
+    "lng": -74.011131,
+    "first_seen": "2024-11-14",
+    "last_seen": "2025-12-26",
+    "aliases": []
+  },
+  {
+    "name": "Vesey St & West St",
+    "lat": 40.714063,
+    "lng": -74.014432,
+    "first_seen": "2026-03-05",
+    "last_seen": "2026-05-15",
+    "aliases": []
+  },
+  {
+    "name": "W 10 St & Washington St",
+    "lat": 40.733424,
+    "lng": -74.008515,
+    "first_seen": "2021-07-19",
+    "last_seen": "2023-10-08",
+    "aliases": []
+  },
+  {
+    "name": "W 100 St & Broadway",
+    "lat": 40.797372,
+    "lng": -73.970412,
+    "first_seen": "2024-02-29",
+    "last_seen": "2024-02-29",
+    "aliases": []
+  },
+  {
+    "name": "W 100 St & Manhattan Ave",
+    "lat": 40.795,
+    "lng": -73.9645,
+    "first_seen": "2017-06-03",
+    "last_seen": "2022-11-05",
+    "aliases": []
+  },
+  {
+    "name": "W 104 St & Amsterdam Ave",
+    "lat": 40.799041,
+    "lng": -73.966495,
+    "first_seen": "2022-09-14",
+    "last_seen": "2022-09-14",
+    "aliases": []
+  },
+  {
+    "name": "W 106 St & Central Park West",
+    "lat": 40.798186,
+    "lng": -73.960591,
+    "first_seen": "2022-06-26",
+    "last_seen": "2022-06-26",
+    "aliases": []
+  },
+  {
+    "name": "W 107 St & Columbus Ave",
+    "lat": 40.799757,
+    "lng": -73.962113,
+    "first_seen": "2023-08-13",
+    "last_seen": "2023-08-13",
+    "aliases": []
+  },
+  {
+    "name": "W 11 St & 6 Ave",
+    "lat": 40.735324,
+    "lng": -73.998004,
+    "first_seen": "2018-12-27",
+    "last_seen": "2025-12-04",
+    "aliases": []
+  },
+  {
+    "name": "W 110 St & Amsterdam Ave",
+    "lat": 40.714002,
+    "lng": -74.093255,
+    "first_seen": "2024-03-14",
+    "last_seen": "2024-03-14",
+    "aliases": []
+  },
+  {
+    "name": "W 116 St & Broadway",
+    "lat": 40.782082,
+    "lng": -74.000006,
+    "first_seen": "2024-05-21",
+    "last_seen": "2024-05-21",
+    "aliases": []
+  },
+  {
+    "name": "W 12 St & Hudson St",
+    "lat": 40.73753,
+    "lng": -74.005589,
+    "first_seen": "2023-05-12",
+    "last_seen": "2025-12-03",
+    "aliases": []
+  },
+  {
+    "name": "W 13 St & 5 Ave",
+    "lat": 40.740537,
+    "lng": -74.011322,
+    "first_seen": "2017-05-10",
+    "last_seen": "2024-10-10",
+    "aliases": []
+  },
+  {
+    "name": "W 13 St & 6 Ave",
+    "lat": 40.736494,
+    "lng": -73.997044,
+    "first_seen": "2017-04-16",
+    "last_seen": "2018-07-15",
+    "aliases": []
+  },
+  {
+    "name": "W 13 St & 7 Ave",
+    "lat": 40.736529,
+    "lng": -74.007351,
+    "first_seen": "2020-07-01",
+    "last_seen": "2026-05-04",
+    "aliases": []
+  },
+  {
+    "name": "W 13 St & Hudson St",
+    "lat": 40.739974,
+    "lng": -74.005139,
+    "first_seen": "2017-07-03",
+    "last_seen": "2017-07-03",
+    "aliases": []
+  },
+  {
+    "name": "W 14 St & The High Line",
+    "lat": 40.741951,
+    "lng": -74.00803,
+    "first_seen": "2016-02-18",
+    "last_seen": "2017-04-02",
+    "aliases": []
+  },
+  {
+    "name": "W 15 St & 10 Ave",
+    "lat": 40.742754,
+    "lng": -74.007474,
+    "first_seen": "2017-07-19",
+    "last_seen": "2026-05-21",
+    "aliases": []
+  },
+  {
+    "name": "W 15 St & 6 Ave",
+    "lat": 40.737747,
+    "lng": -74.002046,
+    "first_seen": "2019-02-27",
+    "last_seen": "2025-07-05",
+    "aliases": []
+  },
+  {
+    "name": "W 15 St & 7 Ave",
+    "lat": 40.738291,
+    "lng": -74.001816,
+    "first_seen": "2017-05-06",
+    "last_seen": "2026-04-18",
+    "aliases": []
+  },
+  {
+    "name": "W 16 St & The High Line",
+    "lat": 40.743333,
+    "lng": -74.007,
+    "first_seen": "2017-06-25",
+    "last_seen": "2026-04-23",
+    "aliases": []
+  },
+  {
+    "name": "W 17 St & 7 Ave",
+    "lat": 40.740564,
+    "lng": -73.998526,
+    "first_seen": "2024-07-31",
+    "last_seen": "2025-11-05",
+    "aliases": []
+  },
+  {
+    "name": "W 17 St & 8 Ave",
+    "lat": 40.741776,
+    "lng": -74.001497,
+    "first_seen": "2019-09-09",
+    "last_seen": "2025-06-08",
+    "aliases": []
+  },
+  {
+    "name": "W 18 St & 6 Ave",
+    "lat": 40.75374,
+    "lng": -74.001064,
+    "first_seen": "2023-08-30",
+    "last_seen": "2026-04-12",
+    "aliases": []
+  },
+  {
+    "name": "W 18 St & 9 Ave",
+    "lat": 40.743534,
+    "lng": -74.003676,
+    "first_seen": "2021-10-17",
+    "last_seen": "2026-05-05",
+    "aliases": []
+  },
+  {
+    "name": "W 20 St & 10 Ave",
+    "lat": 40.745686,
+    "lng": -74.005141,
+    "first_seen": "2021-10-15",
+    "last_seen": "2026-05-18",
+    "aliases": []
+  },
+  {
+    "name": "W 20 St & 11 Ave",
+    "lat": 40.746745,
+    "lng": -74.007756,
+    "first_seen": "2017-05-29",
+    "last_seen": "2026-03-21",
+    "aliases": []
+  },
+  {
+    "name": "W 20 St & 5 Ave",
+    "lat": 40.737463,
+    "lng": -73.998261,
+    "first_seen": "2023-07-10",
+    "last_seen": "2025-09-09",
+    "aliases": []
+  },
+  {
+    "name": "W 20 St & 7 Ave",
+    "lat": 40.742388,
+    "lng": -73.997262,
+    "first_seen": "2022-03-26",
+    "last_seen": "2025-06-14",
+    "aliases": []
+  },
+  {
+    "name": "W 20 St & 8 Ave",
+    "lat": 40.737909,
+    "lng": -74.00928,
+    "first_seen": "2017-05-19",
+    "last_seen": "2025-09-26",
+    "aliases": []
+  },
+  {
+    "name": "W 21 St & 6 Ave",
+    "lat": 40.740515,
+    "lng": -73.99882,
+    "first_seen": "2017-09-26",
+    "last_seen": "2026-04-03",
+    "aliases": []
+  },
+  {
+    "name": "W 22 St & 10 Ave",
+    "lat": 40.745729,
+    "lng": -74.008401,
+    "first_seen": "2017-04-27",
+    "last_seen": "2026-05-13",
+    "aliases": []
+  },
+  {
+    "name": "W 22 St & 8 Ave",
+    "lat": 40.744751,
+    "lng": -73.999154,
+    "first_seen": "2018-08-05",
+    "last_seen": "2025-10-28",
+    "aliases": []
+  },
+  {
+    "name": "W 24 St & 7 Ave",
+    "lat": 40.744524,
+    "lng": -73.997213,
+    "first_seen": "2016-10-29",
+    "last_seen": "2025-06-30",
+    "aliases": []
+  },
+  {
+    "name": "W 25 St & 6 Ave",
+    "lat": 40.743954,
+    "lng": -73.991449,
+    "first_seen": "2015-10-22",
+    "last_seen": "2026-05-06",
+    "aliases": []
+  },
+  {
+    "name": "W 25 St & 8 Ave",
+    "lat": 40.7465,
+    "lng": -73.997326,
+    "first_seen": "2024-06-19",
+    "last_seen": "2024-10-04",
+    "aliases": []
+  },
+  {
+    "name": "W 25 St & 9 Ave",
+    "lat": 40.747833,
+    "lng": -74.000572,
+    "first_seen": "2023-06-10",
+    "last_seen": "2023-06-10",
+    "aliases": []
+  },
+  {
+    "name": "W 26 St & 10 Ave",
+    "lat": 40.749718,
+    "lng": -74.00295,
+    "first_seen": "2021-06-25",
+    "last_seen": "2025-11-05",
+    "aliases": []
+  },
+  {
+    "name": "W 27 St & 10 Ave",
+    "lat": 40.750182,
+    "lng": -74.002184,
+    "first_seen": "2019-04-14",
+    "last_seen": "2019-04-14",
+    "aliases": []
+  },
+  {
+    "name": "W 27 St & 6 Ave",
+    "lat": 40.74268,
+    "lng": -73.995818,
+    "first_seen": "2024-06-11",
+    "last_seen": "2026-04-24",
+    "aliases": []
+  },
+  {
+    "name": "W 27 St & 7 Ave",
+    "lat": 40.746648,
+    "lng": -73.993916,
+    "first_seen": "2019-11-01",
+    "last_seen": "2025-12-21",
+    "aliases": []
+  },
+  {
+    "name": "W 29 St & 9 Ave",
+    "lat": 40.750073,
+    "lng": -73.998393,
+    "first_seen": "2024-10-10",
+    "last_seen": "2025-07-26",
+    "aliases": []
+  },
+  {
+    "name": "W 30 St & 10 Ave",
+    "lat": 40.75242,
+    "lng": -74.00284,
+    "first_seen": "2020-12-26",
+    "last_seen": "2026-05-26",
+    "aliases": []
+  },
+  {
+    "name": "W 30 St & 8 Ave",
+    "lat": 40.748056,
+    "lng": -73.998786,
+    "first_seen": "2023-12-19",
+    "last_seen": "2025-06-07",
+    "aliases": []
+  },
+  {
+    "name": "W 31 St & 7 Ave",
+    "lat": 40.737078,
+    "lng": -74.005251,
+    "first_seen": "2017-04-15",
+    "last_seen": "2024-05-20",
+    "aliases": []
+  },
+  {
+    "name": "W 33 St & 10 Ave",
+    "lat": 40.753773,
+    "lng": -73.999376,
+    "first_seen": "2022-10-19",
+    "last_seen": "2026-04-16",
+    "aliases": []
+  },
+  {
+    "name": "W 33 St & 7 Ave",
+    "lat": 40.7502,
+    "lng": -73.990931,
+    "first_seen": "2021-09-06",
+    "last_seen": "2021-11-22",
+    "aliases": []
+  },
+  {
+    "name": "W 34 St & 11 Ave",
+    "lat": 40.755755,
+    "lng": -74.002585,
+    "first_seen": "2017-06-28",
+    "last_seen": "2026-05-29",
+    "aliases": []
+  },
+  {
+    "name": "W 34 St & Hudson Blvd E",
+    "lat": 40.755019,
+    "lng": -74.000945,
+    "first_seen": "2022-11-26",
+    "last_seen": "2026-05-28",
+    "aliases": []
+  },
+  {
+    "name": "W 34 St &\\tHudson Blvd E",
+    "lat": 40.755167,
+    "lng": -74.000599,
+    "first_seen": "2022-05-25",
+    "last_seen": "2022-09-25",
+    "aliases": []
+  },
+  {
+    "name": "W 35 St & 8 Ave",
+    "lat": 40.752762,
+    "lng": -73.992805,
+    "first_seen": "2022-10-28",
+    "last_seen": "2026-05-10",
+    "aliases": []
+  },
+  {
+    "name": "W 35 St & 9 Ave",
+    "lat": 40.754145,
+    "lng": -73.996089,
+    "first_seen": "2023-07-18",
+    "last_seen": "2025-09-30",
+    "aliases": []
+  },
+  {
+    "name": "W 35 St & Dyer Ave",
+    "lat": 40.754692,
+    "lng": -73.997402,
+    "first_seen": "2021-07-27",
+    "last_seen": "2024-12-03",
+    "aliases": []
+  },
+  {
+    "name": "W 36 St & 7 Ave",
+    "lat": 40.752149,
+    "lng": -73.989539,
+    "first_seen": "2023-01-05",
+    "last_seen": "2024-11-20",
+    "aliases": []
+  },
+  {
+    "name": "W 36 St & 9 Ave",
+    "lat": 40.749549,
+    "lng": -74.000684,
+    "first_seen": "2023-08-30",
+    "last_seen": "2025-11-25",
+    "aliases": []
+  },
+  {
+    "name": "W 37 St & 10 Ave",
+    "lat": 40.756604,
+    "lng": -73.997901,
+    "first_seen": "2015-10-24",
+    "last_seen": "2026-05-05",
+    "aliases": []
+  },
+  {
+    "name": "W 37 St & 5 Ave",
+    "lat": 40.750719,
+    "lng": -73.983592,
+    "first_seen": "2021-07-30",
+    "last_seen": "2026-04-24",
+    "aliases": []
+  },
+  {
+    "name": "W 37 St & Broadway",
+    "lat": 40.752271,
+    "lng": -73.987706,
+    "first_seen": "2022-02-28",
+    "last_seen": "2026-04-15",
+    "aliases": []
+  },
+  {
+    "name": "W 38 St & 8 Ave",
+    "lat": 40.754666,
+    "lng": -73.991382,
+    "first_seen": "2019-03-24",
+    "last_seen": "2019-03-24",
+    "aliases": []
+  },
+  {
+    "name": "W 39 St & 9 Ave",
+    "lat": 40.756458,
+    "lng": -73.993722,
+    "first_seen": "2026-04-11",
+    "last_seen": "2026-04-11",
+    "aliases": []
+  },
+  {
+    "name": "W 4 St & 7 Ave S",
+    "lat": 40.734011,
+    "lng": -74.002939,
+    "first_seen": "2016-08-21",
+    "last_seen": "2026-02-13",
+    "aliases": []
+  },
+  {
+    "name": "W 40 St & 5 Ave",
+    "lat": 40.752269,
+    "lng": -73.982079,
+    "first_seen": "2020-07-01",
+    "last_seen": "2022-11-17",
+    "aliases": []
+  },
+  {
+    "name": "W 40 St & 7 Ave",
+    "lat": 40.754818,
+    "lng": -73.988154,
+    "first_seen": "2022-07-23",
+    "last_seen": "2026-01-23",
+    "aliases": []
+  },
+  {
+    "name": "W 41 St & 8 Ave",
+    "lat": 40.754029,
+    "lng": -74.002382,
+    "first_seen": "2016-05-20",
+    "last_seen": "2025-11-11",
+    "aliases": []
+  },
+  {
+    "name": "W 42 St & 6 Ave",
+    "lat": 40.75492,
+    "lng": -73.98455,
+    "first_seen": "2021-07-03",
+    "last_seen": "2025-07-22",
+    "aliases": []
+  },
+  {
+    "name": "W 42 St & 8 Ave",
+    "lat": 40.75757,
+    "lng": -73.990985,
+    "first_seen": "2022-05-02",
+    "last_seen": "2026-01-19",
+    "aliases": []
+  },
+  {
+    "name": "W 42 St & Dyer Ave",
+    "lat": 40.758985,
+    "lng": -73.9938,
+    "first_seen": "2017-07-08",
+    "last_seen": "2025-12-09",
+    "aliases": []
+  },
+  {
+    "name": "W 43 St & 10 Ave",
+    "lat": 40.760094,
+    "lng": -73.994618,
+    "first_seen": "2017-07-07",
+    "last_seen": "2025-05-17",
+    "aliases": []
+  },
+  {
+    "name": "W 43 St & 6 Ave",
+    "lat": 40.755273,
+    "lng": -73.983169,
+    "first_seen": "2019-06-10",
+    "last_seen": "2024-09-23",
+    "aliases": []
+  },
+  {
+    "name": "W 44 St & 11 Ave",
+    "lat": 40.758909,
+    "lng": -74.002666,
+    "first_seen": "2021-07-30",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "W 44 St & 5 Ave",
+    "lat": 40.754931,
+    "lng": -73.980941,
+    "first_seen": "2016-04-19",
+    "last_seen": "2026-05-13",
+    "aliases": []
+  },
+  {
+    "name": "W 45 St & 8 Ave",
+    "lat": 40.758543,
+    "lng": -73.990421,
+    "first_seen": "2017-01-25",
+    "last_seen": "2026-04-24",
+    "aliases": []
+  },
+  {
+    "name": "W 46 St & 11 Ave",
+    "lat": 40.763414,
+    "lng": -73.996674,
+    "first_seen": "2017-09-07",
+    "last_seen": "2025-05-21",
+    "aliases": []
+  },
+  {
+    "name": "W 47 St & 10 Ave",
+    "lat": 40.762699,
+    "lng": -73.993012,
+    "first_seen": "2020-07-16",
+    "last_seen": "2025-04-01",
+    "aliases": []
+  },
+  {
+    "name": "W 47 St & 6 Ave",
+    "lat": 40.762551,
+    "lng": -73.996694,
+    "first_seen": "2022-07-12",
+    "last_seen": "2025-07-31",
+    "aliases": []
+  },
+  {
+    "name": "W 47 St & 9 Ave",
+    "lat": 40.749244,
+    "lng": -74.027171,
+    "first_seen": "2024-02-28",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "W 48 St &  Rockefeller Plaza",
+    "lat": 40.757769,
+    "lng": -73.979294,
+    "first_seen": "2022-07-12",
+    "last_seen": "2026-03-19",
+    "aliases": []
+  },
+  {
+    "name": "W 48 St & Rockefeller Plaza",
+    "lat": 40.757936,
+    "lng": -73.979603,
+    "first_seen": "2021-09-15",
+    "last_seen": "2021-09-15",
+    "aliases": []
+  },
+  {
+    "name": "W 49 St & 8 Ave",
+    "lat": 40.758775,
+    "lng": -73.998849,
+    "first_seen": "2021-07-07",
+    "last_seen": "2025-11-26",
+    "aliases": []
+  },
+  {
+    "name": "W 50 St & 10 Ave",
+    "lat": 40.764734,
+    "lng": -73.991944,
+    "first_seen": "2021-06-03",
+    "last_seen": "2024-06-23",
+    "aliases": []
+  },
+  {
+    "name": "W 50 St & 9 Ave",
+    "lat": 40.763605,
+    "lng": -73.98918,
+    "first_seen": "2022-08-24",
+    "last_seen": "2026-05-19",
+    "aliases": []
+  },
+  {
+    "name": "W 51 St & 6 Ave",
+    "lat": 40.761564,
+    "lng": -73.986466,
+    "first_seen": "2021-11-17",
+    "last_seen": "2026-05-27",
+    "aliases": []
+  },
+  {
+    "name": "W 51 St & 7 Ave",
+    "lat": 40.76167,
+    "lng": -73.98256,
+    "first_seen": "2025-09-29",
+    "last_seen": "2025-09-29",
+    "aliases": []
+  },
+  {
+    "name": "W 51 St & Rockefeller Plaza",
+    "lat": 40.74837,
+    "lng": -74.00427,
+    "first_seen": "2023-07-26",
+    "last_seen": "2024-07-02",
+    "aliases": []
+  },
+  {
+    "name": "W 52 St & 11 Ave",
+    "lat": 40.765971,
+    "lng": -73.996695,
+    "first_seen": "2021-09-14",
+    "last_seen": "2026-04-30",
+    "aliases": []
+  },
+  {
+    "name": "W 52 St & 5 Ave",
+    "lat": 40.759923,
+    "lng": -73.976485,
+    "first_seen": "2016-11-01",
+    "last_seen": "2026-01-06",
+    "aliases": []
+  },
+  {
+    "name": "W 52 St & 6 Ave",
+    "lat": 40.759422,
+    "lng": -73.982882,
+    "first_seen": "2017-04-25",
+    "last_seen": "2026-05-14",
+    "aliases": []
+  },
+  {
+    "name": "W 53 St & 10 Ave",
+    "lat": 40.757467,
+    "lng": -73.998414,
+    "first_seen": "2020-05-27",
+    "last_seen": "2025-10-10",
+    "aliases": []
+  },
+  {
+    "name": "W 54 St & 11 Ave",
+    "lat": 40.764937,
+    "lng": -73.998866,
+    "first_seen": "2021-11-04",
+    "last_seen": "2026-05-26",
+    "aliases": []
+  },
+  {
+    "name": "W 54 St & 6 Ave",
+    "lat": 40.758143,
+    "lng": -73.98592,
+    "first_seen": "2023-05-25",
+    "last_seen": "2025-10-07",
+    "aliases": []
+  },
+  {
+    "name": "W 54 St & 9 Ave",
+    "lat": 40.765964,
+    "lng": -73.987184,
+    "first_seen": "2017-08-01",
+    "last_seen": "2026-04-24",
+    "aliases": []
+  },
+  {
+    "name": "W 55 St & 6 Ave",
+    "lat": 40.759236,
+    "lng": -73.986009,
+    "first_seen": "2021-07-09",
+    "last_seen": "2026-04-21",
+    "aliases": []
+  },
+  {
+    "name": "W 56 St & 10 Ave",
+    "lat": 40.761232,
+    "lng": -73.995088,
+    "first_seen": "2018-07-29",
+    "last_seen": "2025-11-24",
+    "aliases": []
+  },
+  {
+    "name": "W 56 St & 6 Ave",
+    "lat": 40.763406,
+    "lng": -73.977225,
+    "first_seen": "2022-11-12",
+    "last_seen": "2025-09-12",
+    "aliases": []
+  },
+  {
+    "name": "W 56 St & 8 Ave",
+    "lat": 40.765959,
+    "lng": -73.983135,
+    "first_seen": "2022-06-28",
+    "last_seen": "2025-04-25",
+    "aliases": []
+  },
+  {
+    "name": "W 59 St & 10 Ave",
+    "lat": 40.770513,
+    "lng": -73.988038,
+    "first_seen": "2018-08-10",
+    "last_seen": "2026-05-04",
+    "aliases": []
+  },
+  {
+    "name": "W 63 St & Broadway",
+    "lat": 40.770171,
+    "lng": -73.990275,
+    "first_seen": "2023-07-11",
+    "last_seen": "2026-04-16",
+    "aliases": []
+  },
+  {
+    "name": "W 64 St & Thelonious Monk Circle",
+    "lat": 40.771692,
+    "lng": -73.995929,
+    "first_seen": "2023-07-13",
+    "last_seen": "2025-07-17",
+    "aliases": []
+  },
+  {
+    "name": "W 67 St & Broadway",
+    "lat": 40.773549,
+    "lng": -73.986942,
+    "first_seen": "2022-08-27",
+    "last_seen": "2024-09-09",
+    "aliases": []
+  },
+  {
+    "name": "W 70 St & Amsterdam Ave",
+    "lat": 40.769962,
+    "lng": -73.995412,
+    "first_seen": "2017-04-11",
+    "last_seen": "2026-03-22",
+    "aliases": []
+  },
+  {
+    "name": "W 74 St & Columbus Ave",
+    "lat": 40.778567,
+    "lng": -73.97755,
+    "first_seen": "2024-07-29",
+    "last_seen": "2025-08-29",
+    "aliases": []
+  },
+  {
+    "name": "W 76 St & Columbus Ave",
+    "lat": 40.777748,
+    "lng": -73.986941,
+    "first_seen": "2017-08-15",
+    "last_seen": "2024-04-09",
+    "aliases": []
+  },
+  {
+    "name": "W 78 St & Broadway",
+    "lat": 40.768262,
+    "lng": -73.997239,
+    "first_seen": "2024-05-22",
+    "last_seen": "2024-09-15",
+    "aliases": []
+  },
+  {
+    "name": "W 82 St & Central Park W",
+    "lat": 40.78275,
+    "lng": -73.97137,
+    "first_seen": "2025-07-27",
+    "last_seen": "2025-07-27",
+    "aliases": []
+  },
+  {
+    "name": "W 82 St & Central Park West",
+    "lat": 40.71461,
+    "lng": -74.06747,
+    "first_seen": "2023-11-17",
+    "last_seen": "2023-11-17",
+    "aliases": []
+  },
+  {
+    "name": "W 84 St & Broadway",
+    "lat": 40.786795,
+    "lng": -73.977112,
+    "first_seen": "2022-12-04",
+    "last_seen": "2022-12-04",
+    "aliases": []
+  },
+  {
+    "name": "W 84 St & Columbus Ave",
+    "lat": 40.780074,
+    "lng": -73.982776,
+    "first_seen": "2019-04-13",
+    "last_seen": "2023-08-13",
+    "aliases": []
+  },
+  {
+    "name": "W 87 St & West End Ave",
+    "lat": 40.789622,
+    "lng": -73.97757,
+    "first_seen": "2023-08-28",
+    "last_seen": "2024-05-19",
+    "aliases": []
+  },
+  {
+    "name": "W 89 St & Columbus Ave",
+    "lat": 40.751227,
+    "lng": -74.025262,
+    "first_seen": "2023-06-25",
+    "last_seen": "2024-06-05",
+    "aliases": []
+  },
+  {
+    "name": "W 92 St & Broadway",
+    "lat": 40.783165,
+    "lng": -73.9868,
+    "first_seen": "2023-08-13",
+    "last_seen": "2023-10-20",
+    "aliases": []
+  },
+  {
+    "name": "W 94 St & Central Park W",
+    "lat": 40.790431,
+    "lng": -73.965894,
+    "first_seen": "2025-10-31",
+    "last_seen": "2025-10-31",
+    "aliases": []
+  },
+  {
+    "name": "W 95 St & Broadway",
+    "lat": 40.779586,
+    "lng": -73.986743,
+    "first_seen": "2016-08-06",
+    "last_seen": "2024-05-22",
+    "aliases": []
+  },
+  {
+    "name": "W Broadway & Spring St",
+    "lat": 40.725859,
+    "lng": -74.006334,
+    "first_seen": "2021-01-17",
+    "last_seen": "2026-05-19",
+    "aliases": []
+  },
+  {
+    "name": "W Broadway & Spring Street",
+    "lat": 40.724947,
+    "lng": -74.001659,
+    "first_seen": "2018-06-24",
+    "last_seen": "2019-09-13",
+    "aliases": []
+  },
+  {
+    "name": "W Broadway & W Houston St",
+    "lat": 40.726378,
+    "lng": -74.000472,
+    "first_seen": "2021-08-23",
+    "last_seen": "2025-11-11",
+    "aliases": []
+  },
+  {
+    "name": "W Broadway & Watts St",
+    "lat": 40.72323,
+    "lng": -74.00314,
+    "first_seen": "2023-08-19",
+    "last_seen": "2026-03-17",
+    "aliases": [
+      "West Broadway & Watts St"
+    ]
+  },
+  {
+    "name": "Wade St & MLK Dr",
+    "lat": 40.7017,
+    "lng": -74.08952,
+    "first_seen": "2025-12-11",
+    "last_seen": "2026-05-30",
+    "aliases": []
+  },
+  {
+    "name": "Walker St & Baxter St",
+    "lat": 40.718777,
+    "lng": -74.00606,
+    "first_seen": "2023-07-19",
+    "last_seen": "2026-03-30",
+    "aliases": []
+  },
+  {
+    "name": "Wall St & South St",
+    "lat": 40.70437,
+    "lng": -74.00637,
+    "first_seen": "2020-07-07",
+    "last_seen": "2020-11-24",
+    "aliases": []
+  },
+  {
+    "name": "Warren St",
+    "lat": 40.721125,
+    "lng": -74.038049,
+    "first_seen": "2015-09-21",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Warren St & Church St",
+    "lat": 40.71474,
+    "lng": -74.009106,
+    "first_seen": "2017-02-23",
+    "last_seen": "2017-10-18",
+    "aliases": []
+  },
+  {
+    "name": "Warren St & Court St",
+    "lat": 40.686371,
+    "lng": -73.993833,
+    "first_seen": "2024-10-02",
+    "last_seen": "2026-05-13",
+    "aliases": []
+  },
+  {
+    "name": "Warren St & Smith St",
+    "lat": 40.685424,
+    "lng": -73.991278,
+    "first_seen": "2026-04-15",
+    "last_seen": "2026-04-15",
+    "aliases": []
+  },
+  {
+    "name": "Warren St & W Broadway",
+    "lat": 40.715111,
+    "lng": -74.010364,
+    "first_seen": "2021-10-25",
+    "last_seen": "2025-11-18",
+    "aliases": []
+  },
+  {
+    "name": "Washington Ave & Greene Ave",
+    "lat": 40.686501,
+    "lng": -73.965633,
+    "first_seen": "2025-08-15",
+    "last_seen": "2025-08-15",
+    "aliases": []
+  },
+  {
+    "name": "Washington Ave & Park Ave",
+    "lat": 40.696102,
+    "lng": -73.96751,
+    "first_seen": "2017-07-22",
+    "last_seen": "2017-07-22",
+    "aliases": []
+  },
+  {
+    "name": "Washington Park",
+    "lat": 40.691782,
+    "lng": -73.97373,
+    "first_seen": "2025-06-03",
+    "last_seen": "2025-06-03",
+    "aliases": []
+  },
+  {
+    "name": "Washington Pl & 6 Ave",
+    "lat": 40.732686,
+    "lng": -74.006937,
+    "first_seen": "2021-06-06",
+    "last_seen": "2025-09-30",
+    "aliases": []
+  },
+  {
+    "name": "Washington Pl & Broadway",
+    "lat": 40.730618,
+    "lng": -74.007278,
+    "first_seen": "2017-04-11",
+    "last_seen": "2023-05-24",
+    "aliases": []
+  },
+  {
+    "name": "Washington Pl & Greene St",
+    "lat": 40.729806,
+    "lng": -73.995464,
+    "first_seen": "2024-07-31",
+    "last_seen": "2026-04-22",
+    "aliases": []
+  },
+  {
+    "name": "Washington Square E",
+    "lat": 40.732519,
+    "lng": -74.017388,
+    "first_seen": "2023-05-23",
+    "last_seen": "2023-10-16",
+    "aliases": []
+  },
+  {
+    "name": "Washington St",
+    "lat": 40.724294,
+    "lng": -74.035486,
+    "first_seen": "2017-10-02",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Washington St & Barrow St",
+    "lat": 40.739051,
+    "lng": -74.007415,
+    "first_seen": "2021-04-24",
+    "last_seen": "2024-10-01",
+    "aliases": []
+  },
+  {
+    "name": "Washington St & Gansevoort St",
+    "lat": 40.738773,
+    "lng": -74.009213,
+    "first_seen": "2015-10-10",
+    "last_seen": "2026-05-19",
+    "aliases": []
+  },
+  {
+    "name": "Washington St & Laight St",
+    "lat": 40.72231,
+    "lng": -74.0106,
+    "first_seen": "2022-04-05",
+    "last_seen": "2026-05-22",
+    "aliases": []
+  },
+  {
+    "name": "Washington St & Morgan St",
+    "lat": 40.719446,
+    "lng": -74.036892,
+    "first_seen": "2026-05-19",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Washington St & W 10 St",
+    "lat": 40.7333,
+    "lng": -74.00858,
+    "first_seen": "2026-03-11",
+    "last_seen": "2026-03-11",
+    "aliases": []
+  },
+  {
+    "name": "Water - Whitehall Plaza",
+    "lat": 40.702551,
+    "lng": -74.012723,
+    "first_seen": "2016-01-06",
+    "last_seen": "2020-06-25",
+    "aliases": []
+  },
+  {
+    "name": "Water St &  Fletcher St",
+    "lat": 40.71034,
+    "lng": -74.009723,
+    "first_seen": "2022-06-13",
+    "last_seen": "2023-08-02",
+    "aliases": []
+  },
+  {
+    "name": "Water St & Fletcher St",
+    "lat": 40.705489,
+    "lng": -74.010744,
+    "first_seen": "2023-12-05",
+    "last_seen": "2026-05-16",
+    "aliases": []
+  },
+  {
+    "name": "Water St & Gouverneur Ln",
+    "lat": 40.705562,
+    "lng": -74.009076,
+    "first_seen": "2022-02-08",
+    "last_seen": "2026-05-26",
+    "aliases": []
+  },
+  {
+    "name": "Watts St & Greenwich St",
+    "lat": 40.724356,
+    "lng": -74.011326,
+    "first_seen": "2016-10-14",
+    "last_seen": "2026-05-28",
+    "aliases": []
+  },
+  {
+    "name": "Waverly Ave & Lafayette Ave",
+    "lat": 40.70975,
+    "lng": -74.015241,
+    "first_seen": "2024-06-14",
+    "last_seen": "2024-06-14",
+    "aliases": []
+  },
+  {
+    "name": "West End Ave & W 60 St",
+    "lat": 40.773411,
+    "lng": -73.990543,
+    "first_seen": "2021-07-24",
+    "last_seen": "2025-12-19",
+    "aliases": []
+  },
+  {
+    "name": "West End Ave & W 94 St",
+    "lat": 40.785251,
+    "lng": -73.983129,
+    "first_seen": "2017-04-29",
+    "last_seen": "2026-01-13",
+    "aliases": []
+  },
+  {
+    "name": "West Side Ave & Stegman Pkwy",
+    "lat": 40.71087,
+    "lng": -74.09368,
+    "first_seen": "2025-09-12",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "West Side Ave Light Rail",
+    "lat": 40.714964,
+    "lng": -74.08829,
+    "first_seen": "2025-09-05",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "West Side Light Rail",
+    "lat": 40.714402,
+    "lng": -74.088772,
+    "first_seen": "2015-09-21",
+    "last_seen": "2018-04-21",
+    "aliases": []
+  },
+  {
+    "name": "West St & Chambers St",
+    "lat": 40.717548,
+    "lng": -74.013221,
+    "first_seen": "2015-10-08",
+    "last_seen": "2025-12-11",
+    "aliases": []
+  },
+  {
+    "name": "West St & Liberty St",
+    "lat": 40.713379,
+    "lng": -74.015824,
+    "first_seen": "2020-10-05",
+    "last_seen": "2026-05-26",
+    "aliases": []
+  },
+  {
+    "name": "West Thames St",
+    "lat": 40.708967,
+    "lng": -74.017945,
+    "first_seen": "2015-12-04",
+    "last_seen": "2026-05-13",
+    "aliases": []
+  },
+  {
+    "name": "Whitehall St & Bridge St",
+    "lat": 40.703662,
+    "lng": -74.013181,
+    "first_seen": "2023-01-03",
+    "last_seen": "2023-01-03",
+    "aliases": []
+  },
+  {
+    "name": "William St & Pine St",
+    "lat": 40.707798,
+    "lng": -74.009301,
+    "first_seen": "2016-10-07",
+    "last_seen": "2026-04-12",
+    "aliases": []
+  },
+  {
+    "name": "Willoughby Ave & Hall St",
+    "lat": 40.69196,
+    "lng": -73.965369,
+    "first_seen": "2020-05-02",
+    "last_seen": "2020-05-02",
+    "aliases": []
+  },
+  {
+    "name": "Willoughby St & Ashland Pl",
+    "lat": 40.69178,
+    "lng": -73.97877,
+    "first_seen": "2024-06-27",
+    "last_seen": "2024-06-27",
+    "aliases": []
+  },
+  {
+    "name": "Willow Ave & 12 St",
+    "lat": 40.751865,
+    "lng": -74.030379,
+    "first_seen": "2021-07-02",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Windsor Pl & Howard Pl",
+    "lat": 40.659491,
+    "lng": -73.980139,
+    "first_seen": "2025-04-13",
+    "last_seen": "2025-04-13",
+    "aliases": []
+  },
+  {
+    "name": "Woodlawn Ave & Sterling Ave",
+    "lat": 40.7073,
+    "lng": -74.09243,
+    "first_seen": "2025-12-11",
+    "last_seen": "2026-05-30",
+    "aliases": []
+  },
+  {
+    "name": "Wythe Ave & Metropolitan Ave",
+    "lat": 40.721504,
+    "lng": -73.984142,
+    "first_seen": "2021-12-05",
+    "last_seen": "2024-07-08",
+    "aliases": []
+  },
+  {
+    "name": "Wythe Ave & N 13 St",
+    "lat": 40.722767,
+    "lng": -73.957021,
+    "first_seen": "2024-08-22",
+    "last_seen": "2026-03-31",
+    "aliases": []
+  },
+  {
+    "name": "York St",
+    "lat": 40.71649,
+    "lng": -74.04105,
+    "first_seen": "2017-08-09",
+    "last_seen": "2022-09-21",
+    "aliases": []
+  },
+  {
+    "name": "York St & Jay St",
+    "lat": 40.701485,
+    "lng": -73.986569,
+    "first_seen": "2016-03-13",
+    "last_seen": "2016-03-13",
+    "aliases": []
+  },
+  {
+    "name": "York St & Marin Blvd",
+    "lat": 40.716624,
+    "lng": -74.042405,
+    "first_seen": "2022-09-21",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  }
+]

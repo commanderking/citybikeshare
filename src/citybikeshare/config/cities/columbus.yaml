@@ -68,9 +68,30 @@ final_columns:
 
 date_formats:
   - "%Y-%m-%d %H:%M:%S"
+  - "%Y-%m-%d %H:%M:%S%.f"   # 2024+ files carry fractional seconds
   - "%m/%d/%Y %H:%M:%S"
 
 processing_pipeline:
   - rename_columns
   - convert_to_datetime
   - select_final_columns
+
+# Station-coordinate extraction. Two coord-bearing eras: the early "Start Station Lat/Long"
+# schema and the modern start_lat/lng schema. The middle `from_station_location` era packs
+# coords into a single combined string (no separate lat/lng cols), so Stage 1 skips it and it
+# stays out of the coverage denominator. Raw header names below (lists span the two eras).
+coordinates:
+  strategy: inline
+  bounding_box: [39.8, 40.2, -83.2, -82.8]   # lat_min, lat_max, lng_min, lng_max — Columbus OH
+  min_coverage: 0.95
+  date_column: [started_at, "Start Time and Date"]
+  start:
+    name: [start_station_name, "Start Station Name"]
+    id:   [start_station_id, "Start Station ID"]
+    lat:  [start_lat, "Start Station Lat"]
+    lng:  [start_lng, "Start Station Long"]
+  end:
+    name: [end_station_name, "Stop Station Name"]
+    id:   [end_station_id, "Stop Station ID"]
+    lat:  [end_lat, "Stop Station Lat"]
+    lng:  [end_lng, "Stop Station Long"]
