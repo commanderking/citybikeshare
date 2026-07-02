@@ -1,0 +1,759 @@
+[
+  {
+    "name": "Abels gate",
+    "lat": 63.416159,
+    "lng": 10.39631,
+    "first_seen": "2018-05-31",
+    "last_seen": "2026-06-21",
+    "aliases": []
+  },
+  {
+    "name": "Anders Buens gate",
+    "lat": 63.437007,
+    "lng": 10.431193,
+    "first_seen": "2026-06-01",
+    "last_seen": "2026-06-21",
+    "aliases": []
+  },
+  {
+    "name": "Bakke bru",
+    "lat": 63.432211,
+    "lng": 10.407149,
+    "first_seen": "2018-05-31",
+    "last_seen": "2026-06-21",
+    "aliases": []
+  },
+  {
+    "name": "Bakklandet",
+    "lat": 63.427919,
+    "lng": 10.403252,
+    "first_seen": "2018-05-31",
+    "last_seen": "2024-11-26",
+    "aliases": []
+  },
+  {
+    "name": "Baldershage",
+    "lat": 63.430355,
+    "lng": 10.453881,
+    "first_seen": "2020-05-27",
+    "last_seen": "2026-06-21",
+    "aliases": []
+  },
+  {
+    "name": "Bassengbakken",
+    "lat": 63.43592,
+    "lng": 10.414788,
+    "first_seen": "2018-06-06",
+    "last_seen": "2026-06-21",
+    "aliases": []
+  },
+  {
+    "name": "Berg Studentby",
+    "lat": 63.413642,
+    "lng": 10.414856,
+    "first_seen": "2018-11-02",
+    "last_seen": "2026-06-21",
+    "aliases": []
+  },
+  {
+    "name": "Bersvendveita",
+    "lat": 63.430706,
+    "lng": 10.393205,
+    "first_seen": "2025-04-08",
+    "last_seen": "2026-06-21",
+    "aliases": []
+  },
+  {
+    "name": "Brattørkaia",
+    "lat": 63.437403,
+    "lng": 10.397294,
+    "first_seen": "2018-06-03",
+    "last_seen": "2026-06-21",
+    "aliases": []
+  },
+  {
+    "name": "Cicignons plass",
+    "lat": 63.432504,
+    "lng": 10.400387,
+    "first_seen": "2018-05-30",
+    "last_seen": "2019-08-19",
+    "aliases": []
+  },
+  {
+    "name": "Clara Holsts veg",
+    "lat": 63.429041,
+    "lng": 10.436178,
+    "first_seen": "2023-04-20",
+    "last_seen": "2023-08-22",
+    "aliases": []
+  },
+  {
+    "name": "Dalen hageby",
+    "lat": 63.437575,
+    "lng": 10.448728,
+    "first_seen": "2018-11-14",
+    "last_seen": "2026-06-21",
+    "aliases": []
+  },
+  {
+    "name": "Dokkparken",
+    "lat": 63.433509,
+    "lng": 10.411413,
+    "first_seen": "2018-05-31",
+    "last_seen": "2026-06-21",
+    "aliases": []
+  },
+  {
+    "name": "Dora I",
+    "lat": 63.438537,
+    "lng": 10.419105,
+    "first_seen": "2018-05-31",
+    "last_seen": "2026-06-21",
+    "aliases": []
+  },
+  {
+    "name": "Erling Skakkes gate",
+    "lat": 63.428897,
+    "lng": 10.399289,
+    "first_seen": "2018-06-05",
+    "last_seen": "2026-06-21",
+    "aliases": []
+  },
+  {
+    "name": "Falkenborg",
+    "lat": 63.436278,
+    "lng": 10.456973,
+    "first_seen": "2018-08-28",
+    "last_seen": "2026-06-20",
+    "aliases": []
+  },
+  {
+    "name": "Fernanda Nissens veg",
+    "lat": 63.433189,
+    "lng": 10.446715,
+    "first_seen": "2023-04-20",
+    "last_seen": "2023-08-19",
+    "aliases": []
+  },
+  {
+    "name": "Festningen 2025 Virtuell stasjon",
+    "lat": 63.426159,
+    "lng": 10.416208,
+    "first_seen": "2025-08-28",
+    "last_seen": "2025-08-28",
+    "aliases": []
+  },
+  {
+    "name": "Finalebanen",
+    "lat": 63.419785,
+    "lng": 10.392211,
+    "first_seen": "2018-05-31",
+    "last_seen": "2026-06-21",
+    "aliases": []
+  },
+  {
+    "name": "Fjordgata",
+    "lat": 63.434839,
+    "lng": 10.403397,
+    "first_seen": "2018-10-30",
+    "last_seen": "2026-06-21",
+    "aliases": []
+  },
+  {
+    "name": "Gløshaugen",
+    "lat": 63.419394,
+    "lng": 10.403602,
+    "first_seen": "2018-06-01",
+    "last_seen": "2026-06-20",
+    "aliases": []
+  },
+  {
+    "name": "Hesthagen",
+    "lat": 63.41543,
+    "lng": 10.39955,
+    "first_seen": "2018-05-31",
+    "last_seen": "2026-06-21",
+    "aliases": []
+  },
+  {
+    "name": "Holtermanns veg 1",
+    "lat": 63.414583,
+    "lng": 10.397712,
+    "first_seen": "2021-04-16",
+    "last_seen": "2026-06-20",
+    "aliases": []
+  },
+  {
+    "name": "Håkon VIIs gate 8-10",
+    "lat": 63.440751,
+    "lng": 10.459437,
+    "first_seen": "2018-11-12",
+    "last_seen": "2026-06-20",
+    "aliases": []
+  },
+  {
+    "name": "Høyskoleringen",
+    "lat": 63.416905,
+    "lng": 10.406882,
+    "first_seen": "2019-05-23",
+    "last_seen": "2026-06-21",
+    "aliases": []
+  },
+  {
+    "name": "Idrettsbygget Gløshaugen",
+    "lat": 63.420782,
+    "lng": 10.404758,
+    "first_seen": "2020-05-27",
+    "last_seen": "2026-06-21",
+    "aliases": []
+  },
+  {
+    "name": "Ilabekken",
+    "lat": 63.431106,
+    "lng": 10.36456,
+    "first_seen": "2018-10-24",
+    "last_seen": "2026-06-21",
+    "aliases": []
+  },
+  {
+    "name": "Ilaparken",
+    "lat": 63.429315,
+    "lng": 10.369323,
+    "first_seen": "2018-09-18",
+    "last_seen": "2026-06-21",
+    "aliases": []
+  },
+  {
+    "name": "Ilevollen",
+    "lat": 63.42907,
+    "lng": 10.371811,
+    "first_seen": "2018-09-07",
+    "last_seen": "2026-06-21",
+    "aliases": [
+      "Ilevollen, Osloveien"
+    ]
+  },
+  {
+    "name": "Ilsvika",
+    "lat": 63.431331,
+    "lng": 10.357477,
+    "first_seen": "2020-05-27",
+    "last_seen": "2026-06-21",
+    "aliases": []
+  },
+  {
+    "name": "Jernbanebrua",
+    "lat": 63.435906,
+    "lng": 10.399037,
+    "first_seen": "2025-04-04",
+    "last_seen": "2026-04-22",
+    "aliases": []
+  },
+  {
+    "name": "Jomfrugateallmenningen",
+    "lat": 63.434423,
+    "lng": 10.395468,
+    "first_seen": "2018-05-30",
+    "last_seen": "2026-06-21",
+    "aliases": []
+  },
+  {
+    "name": "Kalvskinnet",
+    "lat": 63.427923,
+    "lng": 10.389504,
+    "first_seen": "2018-10-16",
+    "last_seen": "2026-06-21",
+    "aliases": []
+  },
+  {
+    "name": "Klostergata",
+    "lat": 63.423175,
+    "lng": 10.389383,
+    "first_seen": "2019-05-15",
+    "last_seen": "2026-06-21",
+    "aliases": []
+  },
+  {
+    "name": "Kong Øysteins veg",
+    "lat": 63.420663,
+    "lng": 10.437348,
+    "first_seen": "2019-06-17",
+    "last_seen": "2026-06-21",
+    "aliases": []
+  },
+  {
+    "name": "Kongens gate",
+    "lat": 63.430457,
+    "lng": 10.398101,
+    "first_seen": "2018-05-31",
+    "last_seen": "2026-06-21",
+    "aliases": []
+  },
+  {
+    "name": "Kristiansten",
+    "lat": 63.425933,
+    "lng": 10.416602,
+    "first_seen": "2018-10-25",
+    "last_seen": "2026-06-21",
+    "aliases": []
+  },
+  {
+    "name": "Lade Idrettsanlegg øst",
+    "lat": 63.44392,
+    "lng": 10.450039,
+    "first_seen": "2020-05-27",
+    "last_seen": "2026-06-21",
+    "aliases": []
+  },
+  {
+    "name": "Lade idrettsanlegg vest",
+    "lat": 63.446011,
+    "lng": 10.44412,
+    "first_seen": "2018-11-12",
+    "last_seen": "2026-06-21",
+    "aliases": []
+  },
+  {
+    "name": "Lademoparken",
+    "lat": 63.436666,
+    "lng": 10.426771,
+    "first_seen": "2018-06-05",
+    "last_seen": "2026-06-21",
+    "aliases": []
+  },
+  {
+    "name": "Ladeveien",
+    "lat": 63.44331,
+    "lng": 10.435408,
+    "first_seen": "2025-04-24",
+    "last_seen": "2026-06-21",
+    "aliases": []
+  },
+  {
+    "name": "Lerkendal",
+    "lat": 63.412525,
+    "lng": 10.400688,
+    "first_seen": "2018-06-05",
+    "last_seen": "2026-06-21",
+    "aliases": []
+  },
+  {
+    "name": "Leutenhaven",
+    "lat": 63.429961,
+    "lng": 10.391652,
+    "first_seen": "2018-05-31",
+    "last_seen": "2026-06-21",
+    "aliases": []
+  },
+  {
+    "name": "Lilleby",
+    "lat": 63.44175,
+    "lng": 10.439461,
+    "first_seen": "2020-05-27",
+    "last_seen": "2026-06-21",
+    "aliases": []
+  },
+  {
+    "name": "Lillegårdsbakken",
+    "lat": 63.426373,
+    "lng": 10.403961,
+    "first_seen": "2018-05-31",
+    "last_seen": "2026-06-21",
+    "aliases": []
+  },
+  {
+    "name": "Munkegata",
+    "lat": 63.432418,
+    "lng": 10.393798,
+    "first_seen": "2025-04-03",
+    "last_seen": "2026-06-21",
+    "aliases": []
+  },
+  {
+    "name": "Møllenberg",
+    "lat": 63.435894,
+    "lng": 10.419416,
+    "first_seen": "2018-10-26",
+    "last_seen": "2026-06-21",
+    "aliases": []
+  },
+  {
+    "name": "NEON Festival - Hovedinngang",
+    "lat": 63.439486,
+    "lng": 10.424144,
+    "first_seen": "2022-06-10",
+    "last_seen": "2023-06-11",
+    "aliases": []
+  },
+  {
+    "name": "NEON Festival - Inngang Nord",
+    "lat": 63.44184,
+    "lng": 10.427477,
+    "first_seen": "2022-06-11",
+    "last_seen": "2023-06-12",
+    "aliases": []
+  },
+  {
+    "name": "NEON Festival - Inngang Sør",
+    "lat": 63.439503,
+    "lng": 10.424303,
+    "first_seen": "2022-06-09",
+    "last_seen": "2022-06-09",
+    "aliases": []
+  },
+  {
+    "name": "Nedre Bakklandet",
+    "lat": 63.430888,
+    "lng": 10.406228,
+    "first_seen": "2025-05-08",
+    "last_seen": "2026-06-21",
+    "aliases": []
+  },
+  {
+    "name": "Nidarosdomen",
+    "lat": 63.427636,
+    "lng": 10.394568,
+    "first_seen": "2018-10-24",
+    "last_seen": "2026-06-21",
+    "aliases": []
+  },
+  {
+    "name": "Nidarø",
+    "lat": 63.426462,
+    "lng": 10.378188,
+    "first_seen": "2019-08-13",
+    "last_seen": "2026-06-21",
+    "aliases": []
+  },
+  {
+    "name": "Nordre gate",
+    "lat": 63.433086,
+    "lng": 10.397391,
+    "first_seen": "2018-05-31",
+    "last_seen": "2026-06-21",
+    "aliases": []
+  },
+  {
+    "name": "Nova Kino",
+    "lat": 63.433411,
+    "lng": 10.401053,
+    "first_seen": "2020-05-27",
+    "last_seen": "2026-06-21",
+    "aliases": []
+  },
+  {
+    "name": "Pirbadet",
+    "lat": 63.440758,
+    "lng": 10.40217,
+    "first_seen": "2018-05-31",
+    "last_seen": "2026-06-21",
+    "aliases": []
+  },
+  {
+    "name": "Prinsen kinosenter",
+    "lat": 63.426632,
+    "lng": 10.392794,
+    "first_seen": "2018-06-06",
+    "last_seen": "2026-06-21",
+    "aliases": []
+  },
+  {
+    "name": "Pstereo festival 2024 Virtual",
+    "lat": 63.426057,
+    "lng": 10.394102,
+    "first_seen": "2024-08-16",
+    "last_seen": "2024-08-18",
+    "aliases": []
+  },
+  {
+    "name": "Rosenborg skole",
+    "lat": 63.428725,
+    "lng": 10.416182,
+    "first_seen": "2018-11-08",
+    "last_seen": "2026-06-21",
+    "aliases": []
+  },
+  {
+    "name": "Rosendal",
+    "lat": 63.436026,
+    "lng": 10.430998,
+    "first_seen": "2021-04-08",
+    "last_seen": "2026-06-09",
+    "aliases": []
+  },
+  {
+    "name": "Rådhuset",
+    "lat": 63.428253,
+    "lng": 10.396625,
+    "first_seen": "2024-05-23",
+    "last_seen": "2026-06-21",
+    "aliases": []
+  },
+  {
+    "name": "S. P. Andersens vei",
+    "lat": 63.409888,
+    "lng": 10.405213,
+    "first_seen": "2018-11-08",
+    "last_seen": "2026-06-21",
+    "aliases": []
+  },
+  {
+    "name": "SLUPPEN TEST",
+    "lat": 63.399958,
+    "lng": 10.397095,
+    "first_seen": "2021-09-30",
+    "last_seen": "2021-09-30",
+    "aliases": []
+  },
+  {
+    "name": "Sammen for havet",
+    "lat": 63.415926,
+    "lng": 10.40763,
+    "first_seen": "2021-10-02",
+    "last_seen": "2021-10-02",
+    "aliases": []
+  },
+  {
+    "name": "Singsaker",
+    "lat": 63.423121,
+    "lng": 10.412453,
+    "first_seen": "2018-09-18",
+    "last_seen": "2026-06-21",
+    "aliases": []
+  },
+  {
+    "name": "Skansen",
+    "lat": 63.430403,
+    "lng": 10.37477,
+    "first_seen": "2018-05-31",
+    "last_seen": "2026-06-21",
+    "aliases": []
+  },
+  {
+    "name": "Skansen bru",
+    "lat": 63.431242,
+    "lng": 10.378317,
+    "first_seen": "2025-05-09",
+    "last_seen": "2026-06-21",
+    "aliases": []
+  },
+  {
+    "name": "Sluppen",
+    "lat": 63.398407,
+    "lng": 10.397327,
+    "first_seen": "2020-05-27",
+    "last_seen": "2026-06-20",
+    "aliases": []
+  },
+  {
+    "name": "Sorgenfri",
+    "lat": 63.405037,
+    "lng": 10.399522,
+    "first_seen": "2018-09-18",
+    "last_seen": "2026-06-21",
+    "aliases": []
+  },
+  {
+    "name": "St Olavs gate",
+    "lat": 63.431171,
+    "lng": 10.390284,
+    "first_seen": "2018-05-31",
+    "last_seen": "2022-06-09",
+    "aliases": []
+  },
+  {
+    "name": "St. Olavs Hospital",
+    "lat": 63.421263,
+    "lng": 10.386516,
+    "first_seen": "2020-08-28",
+    "last_seen": "2026-06-21",
+    "aliases": [
+      "St Olavs Hospital"
+    ]
+  },
+  {
+    "name": "St. Olavs gate",
+    "lat": 63.431229,
+    "lng": 10.390252,
+    "first_seen": "2022-06-09",
+    "last_seen": "2026-06-21",
+    "aliases": []
+  },
+  {
+    "name": "Strandveikaia",
+    "lat": 63.44209,
+    "lng": 10.427939,
+    "first_seen": "2018-08-30",
+    "last_seen": "2026-06-21",
+    "aliases": [
+      "E.C Dahls"
+    ]
+  },
+  {
+    "name": "Studentersamfundet",
+    "lat": 63.421859,
+    "lng": 10.394516,
+    "first_seen": "2018-06-06",
+    "last_seen": "2026-06-21",
+    "aliases": []
+  },
+  {
+    "name": "TMV-odden",
+    "lat": 63.435438,
+    "lng": 10.410277,
+    "first_seen": "2018-05-30",
+    "last_seen": "2026-06-21",
+    "aliases": []
+  },
+  {
+    "name": "Tempe",
+    "lat": 63.407728,
+    "lng": 10.397053,
+    "first_seen": "2021-04-14",
+    "last_seen": "2026-06-21",
+    "aliases": []
+  },
+  {
+    "name": "Thornesparken",
+    "lat": 63.4329,
+    "lng": 10.412773,
+    "first_seen": "2018-05-31",
+    "last_seen": "2026-06-21",
+    "aliases": []
+  },
+  {
+    "name": "Tollboden",
+    "lat": 63.439286,
+    "lng": 10.404793,
+    "first_seen": "2018-06-01",
+    "last_seen": "2026-06-21",
+    "aliases": []
+  },
+  {
+    "name": "Tordenskiolds gate",
+    "lat": 63.431763,
+    "lng": 10.387527,
+    "first_seen": "2026-04-24",
+    "last_seen": "2026-06-21",
+    "aliases": []
+  },
+  {
+    "name": "Torvet I",
+    "lat": 63.430489,
+    "lng": 10.392758,
+    "first_seen": "2018-08-31",
+    "last_seen": "2026-06-21",
+    "aliases": []
+  },
+  {
+    "name": "Torvet II",
+    "lat": 63.430471,
+    "lng": 10.393931,
+    "first_seen": "2019-08-13",
+    "last_seen": "2024-11-28",
+    "aliases": []
+  },
+  {
+    "name": "Trikkestallen på Lademoen",
+    "lat": 63.438732,
+    "lng": 10.430733,
+    "first_seen": "2018-08-28",
+    "last_seen": "2026-06-21",
+    "aliases": [
+      "Trikkestallen"
+    ]
+  },
+  {
+    "name": "Trondheim S",
+    "lat": 63.436124,
+    "lng": 10.399602,
+    "first_seen": "2018-09-25",
+    "last_seen": "2026-06-21",
+    "aliases": []
+  },
+  {
+    "name": "Tyholt busstopp",
+    "lat": 63.427617,
+    "lng": 10.432516,
+    "first_seen": "2023-04-20",
+    "last_seen": "2023-08-17",
+    "aliases": []
+  },
+  {
+    "name": "Tyholttårnet",
+    "lat": 63.422238,
+    "lng": 10.427824,
+    "first_seen": "2018-10-25",
+    "last_seen": "2026-06-21",
+    "aliases": []
+  },
+  {
+    "name": "Valentinlyst",
+    "lat": 63.425454,
+    "lng": 10.441065,
+    "first_seen": "2018-11-04",
+    "last_seen": "2026-06-21",
+    "aliases": [
+      "Valentinlyst senter"
+    ]
+  },
+  {
+    "name": "Verftsbrua",
+    "lat": 63.435277,
+    "lng": 10.405814,
+    "first_seen": "2018-05-31",
+    "last_seen": "2026-06-10",
+    "aliases": []
+  },
+  {
+    "name": "Virtuell stasjon Olavsfest 24",
+    "lat": 63.425586,
+    "lng": 10.394218,
+    "first_seen": "2024-07-28",
+    "last_seen": "2024-08-04",
+    "aliases": []
+  },
+  {
+    "name": "Virtuell stasjon Olavsfest 25",
+    "lat": 63.425514,
+    "lng": 10.394478,
+    "first_seen": "2025-07-29",
+    "last_seen": "2025-08-02",
+    "aliases": []
+  },
+  {
+    "name": "Voll Studentby",
+    "lat": 63.409333,
+    "lng": 10.446321,
+    "first_seen": "2023-10-05",
+    "last_seen": "2024-03-24",
+    "aliases": []
+  },
+  {
+    "name": "Vollabakken",
+    "lat": 63.421892,
+    "lng": 10.399256,
+    "first_seen": "2018-05-31",
+    "last_seen": "2026-06-21",
+    "aliases": []
+  },
+  {
+    "name": "fossengrenda flexpin",
+    "lat": 63.388839,
+    "lng": 10.398023,
+    "first_seen": "2018-06-18",
+    "last_seen": "2018-08-10",
+    "aliases": []
+  },
+  {
+    "name": "Øvre Nyhavna",
+    "lat": 63.443416,
+    "lng": 10.427416,
+    "first_seen": "2024-09-04",
+    "last_seen": "2026-06-21",
+    "aliases": [
+      "Øvre Nyhavna - Virtuell stasjon",
+      "Øvre Nyhavna/Virituell"
+    ]
+  }
+]

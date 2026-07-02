@@ -1,0 +1,6758 @@
+[
+  {
+    "name": "*Howard St at Grace St",
+    "lat": 37.774496,
+    "lng": -122.4139,
+    "first_seen": "2023-05-25",
+    "last_seen": "2024-05-22",
+    "aliases": []
+  },
+  {
+    "name": "10th Ave at E 15th St",
+    "lat": 37.792711,
+    "lng": -122.248782,
+    "first_seen": "2017-07-27",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "10th Ave at Irving St",
+    "lat": 37.76422,
+    "lng": -122.467377,
+    "first_seen": "2020-01-09",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "10th St at Chestnut St",
+    "lat": 37.806444,
+    "lng": -122.286115,
+    "first_seen": "2023-02-05",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "10th St at Empire St",
+    "lat": 37.349458,
+    "lng": -121.887649,
+    "first_seen": "2019-03-14",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "10th St at Fallon St",
+    "lat": 37.797672,
+    "lng": -122.262997,
+    "first_seen": "2017-07-11",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "10th St at Mission St",
+    "lat": 37.3556,
+    "lng": -121.892193,
+    "first_seen": "2019-03-24",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "10th St at University Ave",
+    "lat": 37.869063,
+    "lng": -122.293403,
+    "first_seen": "2018-07-17",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "11th Ave at 19th St",
+    "lat": 37.794566,
+    "lng": -122.244428,
+    "first_seen": "2025-08-26",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "11th St at Bryant St",
+    "lat": 37.770033,
+    "lng": -122.411745,
+    "first_seen": "2017-08-14",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "11th St at Natoma St",
+    "lat": 37.773502,
+    "lng": -122.416029,
+    "first_seen": "2017-08-10",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "13th St at Franklin St",
+    "lat": 37.803167,
+    "lng": -122.270568,
+    "first_seen": "2017-12-14",
+    "last_seen": "2024-02-27",
+    "aliases": []
+  },
+  {
+    "name": "13th St at Webster St",
+    "lat": 37.802687,
+    "lng": -122.269143,
+    "first_seen": "2020-12-19",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "14th Ave at Fulton St (Temp for Funston/Fulton)",
+    "lat": 37.773293,
+    "lng": -122.472315,
+    "first_seen": "2023-01-27",
+    "last_seen": "2023-07-16",
+    "aliases": []
+  },
+  {
+    "name": "14th Ave at Geary Blvd",
+    "lat": 37.780372,
+    "lng": -122.472814,
+    "first_seen": "2019-10-25",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "14th St at Filbert St",
+    "lat": 37.808751,
+    "lng": -122.283283,
+    "first_seen": "2017-09-18",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "14th St at Mandela Pkwy",
+    "lat": 37.810742,
+    "lng": -122.291417,
+    "first_seen": "2017-07-25",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "14th St at Mission St",
+    "lat": 37.768244,
+    "lng": -122.420289,
+    "first_seen": "2017-07-18",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "15th St at Potrero Ave",
+    "lat": 37.767086,
+    "lng": -122.40737,
+    "first_seen": "2019-01-01",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "15th St at Valencia St",
+    "lat": 37.766608,
+    "lng": -122.421859,
+    "first_seen": "2025-04-02",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "16th Ave at E 21st St",
+    "lat": 37.793439,
+    "lng": -122.239728,
+    "first_seen": "2026-02-19",
+    "last_seen": "2026-05-30",
+    "aliases": []
+  },
+  {
+    "name": "16th Depot Bike Fleet Station",
+    "lat": 37.740854,
+    "lng": -122.389169,
+    "first_seen": "2020-06-12",
+    "last_seen": "2020-07-08",
+    "aliases": []
+  },
+  {
+    "name": "16th St Depot",
+    "lat": 37.766178,
+    "lng": -122.396192,
+    "first_seen": "2018-04-09",
+    "last_seen": "2020-07-28",
+    "aliases": []
+  },
+  {
+    "name": "16th St Mission BART North",
+    "lat": 37.764837,
+    "lng": -122.420138,
+    "first_seen": "2017-09-27",
+    "last_seen": "2026-05-31",
+    "aliases": [
+      "16th St Mission BART Station 2"
+    ]
+  },
+  {
+    "name": "16th St Mission BART South",
+    "lat": 37.764685,
+    "lng": -122.419925,
+    "first_seen": "2017-09-22",
+    "last_seen": "2026-05-31",
+    "aliases": [
+      "16th St Mission BART"
+    ]
+  },
+  {
+    "name": "16th St at Prosper St",
+    "lat": 37.764287,
+    "lng": -122.431829,
+    "first_seen": "2017-08-16",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "17th & Folsom Street Park (17th St at Folsom St)",
+    "lat": 37.763725,
+    "lng": -122.415396,
+    "first_seen": "2017-08-02",
+    "last_seen": "2024-05-22",
+    "aliases": []
+  },
+  {
+    "name": "17th Ave at Geary Blvd",
+    "lat": 37.780727,
+    "lng": -122.47611,
+    "first_seen": "2019-11-08",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "17th St at Dolores St",
+    "lat": 37.763026,
+    "lng": -122.426514,
+    "first_seen": "2017-07-14",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "17th St at Santa Clara St",
+    "lat": 37.344006,
+    "lng": -121.87441,
+    "first_seen": "2019-04-19",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "17th St at Valencia St",
+    "lat": 37.763329,
+    "lng": -122.42202,
+    "first_seen": "2017-07-14",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "18th Ave at California St",
+    "lat": 37.785115,
+    "lng": -122.477643,
+    "first_seen": "2020-03-05",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "18th St at Noe St",
+    "lat": 37.76106,
+    "lng": -122.432592,
+    "first_seen": "2017-07-28",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "19th St at Florida St",
+    "lat": 37.760448,
+    "lng": -122.410801,
+    "first_seen": "2017-08-16",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "19th St at Mission St",
+    "lat": 37.760286,
+    "lng": -122.419017,
+    "first_seen": "2017-07-19",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "19th St at William St",
+    "lat": 37.338515,
+    "lng": -121.866547,
+    "first_seen": "2019-10-26",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "19th Street BART",
+    "lat": 37.809373,
+    "lng": -122.26795,
+    "first_seen": "2024-05-22",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "19th Street BART Station",
+    "lat": 37.809131,
+    "lng": -122.268149,
+    "first_seen": "2017-07-11",
+    "last_seen": "2024-05-22",
+    "aliases": []
+  },
+  {
+    "name": "1st St at Folsom St",
+    "lat": 37.787247,
+    "lng": -122.394423,
+    "first_seen": "2017-06-28",
+    "last_seen": "2025-11-21",
+    "aliases": []
+  },
+  {
+    "name": "1st St at San Carlos St",
+    "lat": 37.331147,
+    "lng": -121.886909,
+    "first_seen": "2019-05-01",
+    "last_seen": "2026-05-31",
+    "aliases": [
+      "1st St at San Carlos Ave"
+    ]
+  },
+  {
+    "name": "1st St at Younger Ave",
+    "lat": 37.355027,
+    "lng": -121.904438,
+    "first_seen": "2019-03-17",
+    "last_seen": "2026-05-27",
+    "aliases": []
+  },
+  {
+    "name": "20th St at Bryant St",
+    "lat": 37.759176,
+    "lng": -122.410002,
+    "first_seen": "2017-07-27",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "20th St at Dolores St",
+    "lat": 37.758243,
+    "lng": -122.4261,
+    "first_seen": "2018-11-13",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "2100 Powell St",
+    "lat": 37.839544,
+    "lng": -122.298719,
+    "first_seen": "2019-04-10",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "21st Ave at Geary Blvd",
+    "lat": 37.779939,
+    "lng": -122.480406,
+    "first_seen": "2020-06-04",
+    "last_seen": "2023-09-18",
+    "aliases": []
+  },
+  {
+    "name": "21st Ave at International Blvd",
+    "lat": 37.785019,
+    "lng": -122.239092,
+    "first_seen": "2017-07-28",
+    "last_seen": "2019-12-18",
+    "aliases": []
+  },
+  {
+    "name": "21st Ave at Noriega St",
+    "lat": 37.754156,
+    "lng": -122.478647,
+    "first_seen": "2023-02-02",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "21st St at 5th Ave",
+    "lat": 37.800461,
+    "lng": -122.24746,
+    "first_seen": "2020-01-19",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "21st St at Santa Clara St",
+    "lat": 37.345797,
+    "lng": -121.870705,
+    "first_seen": "2019-05-18",
+    "last_seen": "2023-04-06",
+    "aliases": []
+  },
+  {
+    "name": "21st St at Valencia St",
+    "lat": 37.756883,
+    "lng": -122.420904,
+    "first_seen": "2025-03-31",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "22nd St Caltrain Station",
+    "lat": 37.757676,
+    "lng": -122.391904,
+    "first_seen": "2017-10-11",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "22nd St at Dolores St",
+    "lat": 37.754997,
+    "lng": -122.425785,
+    "first_seen": "2019-01-18",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "22nd St at Potrero Ave",
+    "lat": 37.756821,
+    "lng": -122.405965,
+    "first_seen": "2020-03-19",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "22nd St at Valencia St",
+    "lat": 37.755282,
+    "lng": -122.42114,
+    "first_seen": "2025-04-02",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "22nd St at William St",
+    "lat": 37.339937,
+    "lng": -121.863699,
+    "first_seen": "2019-10-24",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "23rd Ave at Clement St",
+    "lat": 37.781933,
+    "lng": -122.482772,
+    "first_seen": "2020-03-19",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "23rd Ave at Foothill Blvd",
+    "lat": 37.785196,
+    "lng": -122.234382,
+    "first_seen": "2018-01-20",
+    "last_seen": "2026-05-30",
+    "aliases": []
+  },
+  {
+    "name": "23rd St and San Bruno Ave",
+    "lat": 37.754436,
+    "lng": -122.404364,
+    "first_seen": "2018-07-19",
+    "last_seen": "2018-09-10",
+    "aliases": []
+  },
+  {
+    "name": "23rd St at San Bruno Ave",
+    "lat": 37.754504,
+    "lng": -122.404111,
+    "first_seen": "2018-09-10",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "23rd St at Santa Clara St",
+    "lat": 37.346462,
+    "lng": -121.868553,
+    "first_seen": "2023-04-29",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "23rd St at Taylor St",
+    "lat": 37.360037,
+    "lng": -121.878805,
+    "first_seen": "2019-05-12",
+    "last_seen": "2026-05-30",
+    "aliases": []
+  },
+  {
+    "name": "23rd St at Telegraph Ave",
+    "lat": 37.812579,
+    "lng": -122.268574,
+    "first_seen": "2022-08-15",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "23rd St at Tennessee St",
+    "lat": 37.755383,
+    "lng": -122.388774,
+    "first_seen": "2018-06-26",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "24th Ave at Quintara St",
+    "lat": 37.748628,
+    "lng": -122.481541,
+    "first_seen": "2024-10-17",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "24th St BART",
+    "lat": 37.75199,
+    "lng": -122.418981,
+    "first_seen": "2023-06-22",
+    "last_seen": "2026-05-31",
+    "aliases": [
+      "24th St BART Station"
+    ]
+  },
+  {
+    "name": "24th St at Bartlett St",
+    "lat": 37.752109,
+    "lng": -122.419852,
+    "first_seen": "2019-02-07",
+    "last_seen": "2023-02-07",
+    "aliases": []
+  },
+  {
+    "name": "24th St at Chattanooga St",
+    "lat": 37.751799,
+    "lng": -122.426559,
+    "first_seen": "2017-08-03",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "24th St at Market St",
+    "lat": 37.81606,
+    "lng": -122.278245,
+    "first_seen": "2017-07-11",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "25th Ave at Irving St",
+    "lat": 37.763449,
+    "lng": -122.483556,
+    "first_seen": "2022-03-25",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "26th Ave at Clement St",
+    "lat": 37.781763,
+    "lng": -122.48602,
+    "first_seen": "2023-09-20",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "26th Ave at International Blvd",
+    "lat": 37.781123,
+    "lng": -122.23299,
+    "first_seen": "2017-08-12",
+    "last_seen": "2026-05-28",
+    "aliases": []
+  },
+  {
+    "name": "26th Ave at Noriega St",
+    "lat": 37.753918,
+    "lng": -122.483907,
+    "first_seen": "2023-02-05",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "26th St at Broadway",
+    "lat": 37.814819,
+    "lng": -122.264239,
+    "first_seen": "2025-06-18",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "27th St at MLK Jr Way",
+    "lat": 37.817015,
+    "lng": -122.271761,
+    "first_seen": "2018-01-31",
+    "last_seen": "2024-02-21",
+    "aliases": []
+  },
+  {
+    "name": "27th St at San Pablo Ave",
+    "lat": 37.817888,
+    "lng": -122.27596,
+    "first_seen": "2024-02-20",
+    "last_seen": "2026-05-30",
+    "aliases": []
+  },
+  {
+    "name": "28th Ave at Geary Blvd",
+    "lat": 37.779604,
+    "lng": -122.487864,
+    "first_seen": "2020-06-26",
+    "last_seen": "2023-09-19",
+    "aliases": []
+  },
+  {
+    "name": "29th St at Church St",
+    "lat": 37.743694,
+    "lng": -122.426826,
+    "first_seen": "2017-08-07",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "29th St at San Jose Ave",
+    "lat": 37.744024,
+    "lng": -122.422363,
+    "first_seen": "2025-08-08",
+    "last_seen": "2025-08-08",
+    "aliases": []
+  },
+  {
+    "name": "29th St at Tiffany Ave",
+    "lat": 37.744059,
+    "lng": -122.42162,
+    "first_seen": "2017-08-04",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "2nd Ave at E 18th St",
+    "lat": 37.800211,
+    "lng": -122.253812,
+    "first_seen": "2017-07-24",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "2nd St at Folsom St",
+    "lat": 37.785157,
+    "lng": -122.396216,
+    "first_seen": "2017-06-28",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "2nd St at Julian St",
+    "lat": 37.341137,
+    "lng": -121.892853,
+    "first_seen": "2018-07-12",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "2nd St at S Park St",
+    "lat": 37.782411,
+    "lng": -122.392706,
+    "first_seen": "2017-06-28",
+    "last_seen": "2018-01-02",
+    "aliases": []
+  },
+  {
+    "name": "2nd St at Townsend St",
+    "lat": 37.78052,
+    "lng": -122.390295,
+    "first_seen": "2017-06-28",
+    "last_seen": "2026-05-31",
+    "aliases": [
+      "2nd St at Townsend St - Coming Soon"
+    ]
+  },
+  {
+    "name": "30th Ave",
+    "lat": 37.77086,
+    "lng": -122.489987,
+    "first_seen": "2023-11-18",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "30th Ave at Noriega St",
+    "lat": 37.75382,
+    "lng": -122.488392,
+    "first_seen": "2023-02-10",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "30th St at San Jose Ave",
+    "lat": 37.742327,
+    "lng": -122.423132,
+    "first_seen": "2017-08-30",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "32nd St at Adeline St",
+    "lat": 37.823847,
+    "lng": -122.281193,
+    "first_seen": "2017-09-11",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "34th Ave at Balboa St",
+    "lat": 37.775684,
+    "lng": -122.494047,
+    "first_seen": "2020-06-04",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "34th St at Telegraph Ave",
+    "lat": 37.822513,
+    "lng": -122.266171,
+    "first_seen": "2017-10-05",
+    "last_seen": "2026-05-30",
+    "aliases": []
+  },
+  {
+    "name": "36th Ave at Irving St",
+    "lat": 37.762775,
+    "lng": -122.495609,
+    "first_seen": "2023-02-09",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "36th Ave at Kirkham St",
+    "lat": 37.758941,
+    "lng": -122.495335,
+    "first_seen": "2023-02-17",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "36th Ave at Spreckels Lake Dr",
+    "lat": 37.771576,
+    "lng": -122.495772,
+    "first_seen": "2023-08-23",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "37th Ave at Ortega St",
+    "lat": 37.751687,
+    "lng": -122.495707,
+    "first_seen": "2023-04-06",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "37th Ave at Rivera St",
+    "lat": 37.746119,
+    "lng": -122.495207,
+    "first_seen": "2024-10-16",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "37th St at West St",
+    "lat": 37.826696,
+    "lng": -122.271795,
+    "first_seen": "2017-07-12",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "38th Ave at Balboa St",
+    "lat": 37.775507,
+    "lng": -122.498468,
+    "first_seen": "2020-06-29",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "3rd St at Keyes St",
+    "lat": 37.3209,
+    "lng": -121.876304,
+    "first_seen": "2019-06-28",
+    "last_seen": "2025-07-23",
+    "aliases": []
+  },
+  {
+    "name": "3rd St at King St",
+    "lat": 37.777894,
+    "lng": -122.391414,
+    "first_seen": "2024-03-22",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "3rd St at Townsend St",
+    "lat": 37.778698,
+    "lng": -122.392653,
+    "first_seen": "2017-06-28",
+    "last_seen": "2024-03-22",
+    "aliases": []
+  },
+  {
+    "name": "4040 3rd St Depot Station",
+    "lat": 37.740787,
+    "lng": -122.389237,
+    "first_seen": "2022-07-15",
+    "last_seen": "2022-10-01",
+    "aliases": []
+  },
+  {
+    "name": "40th St at Piedmont Ave",
+    "lat": 37.825789,
+    "lng": -122.253469,
+    "first_seen": "2022-04-05",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "41st Ave at Irving St",
+    "lat": 37.762546,
+    "lng": -122.500739,
+    "first_seen": "2023-02-14",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "43rd Ave at Lawton St",
+    "lat": 37.757047,
+    "lng": -122.502453,
+    "first_seen": "2023-03-02",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "45th Ave at Noriega St",
+    "lat": 37.752727,
+    "lng": -122.504139,
+    "first_seen": "2023-03-01",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "45th St at MLK Jr Way",
+    "lat": 37.833556,
+    "lng": -122.267417,
+    "first_seen": "2017-07-11",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "45th St at Manila",
+    "lat": 37.833292,
+    "lng": -122.256223,
+    "first_seen": "2017-07-18",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "47th St at San Pablo Ave",
+    "lat": 37.835651,
+    "lng": -122.281081,
+    "first_seen": "2017-10-25",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "48th Ave at Cabrillo St",
+    "lat": 37.772933,
+    "lng": -122.509041,
+    "first_seen": "2020-03-19",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "49th St at Telegraph Ave",
+    "lat": 37.835945,
+    "lng": -122.262366,
+    "first_seen": "2017-07-11",
+    "last_seen": "2020-11-04",
+    "aliases": []
+  },
+  {
+    "name": "4th Ave at E 12th St",
+    "lat": 37.79592,
+    "lng": -122.255548,
+    "first_seen": "2018-09-01",
+    "last_seen": "2026-05-31",
+    "aliases": [
+      "4th Ave at E 12th St (Temporary Location)"
+    ]
+  },
+  {
+    "name": "4th St at 16th St",
+    "lat": 37.767048,
+    "lng": -122.390852,
+    "first_seen": "2018-06-07",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "4th St at Gene Friend Way",
+    "lat": 37.768865,
+    "lng": -122.391097,
+    "first_seen": "2022-01-21",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "4th St at Harrison St",
+    "lat": 37.781153,
+    "lng": -122.399962,
+    "first_seen": "2017-08-15",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "4th St at Long Bridge St",
+    "lat": 37.773746,
+    "lng": -122.391455,
+    "first_seen": "2022-01-19",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "4th St at Mission Bay Blvd S",
+    "lat": 37.770356,
+    "lng": -122.391223,
+    "first_seen": "2017-09-25",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "4th St at San Carlos St",
+    "lat": 37.3328,
+    "lng": -121.883854,
+    "first_seen": "2019-07-10",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "52nd St at MLK Jr Way",
+    "lat": 37.837368,
+    "lng": -122.267655,
+    "first_seen": "2021-02-19",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "53rd St at Hollis St",
+    "lat": 37.836183,
+    "lng": -122.287178,
+    "first_seen": "2017-09-05",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "55th St at Telegraph Ave",
+    "lat": 37.840185,
+    "lng": -122.261821,
+    "first_seen": "2017-09-06",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "59th St at Horton St",
+    "lat": 37.840945,
+    "lng": -122.291359,
+    "first_seen": "2017-10-06",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "5th Ave at Anza St",
+    "lat": 37.779505,
+    "lng": -122.463144,
+    "first_seen": "2019-10-03",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "5th St at Brannan St",
+    "lat": 37.776754,
+    "lng": -122.399018,
+    "first_seen": "2017-07-21",
+    "last_seen": "2019-11-25",
+    "aliases": []
+  },
+  {
+    "name": "5th St at Folsom",
+    "lat": 37.780146,
+    "lng": -122.403072,
+    "first_seen": "2017-06-28",
+    "last_seen": "2019-09-30",
+    "aliases": [
+      "5th at Folsom"
+    ]
+  },
+  {
+    "name": "5th St at Howard St",
+    "lat": 37.781443,
+    "lng": -122.404904,
+    "first_seen": "2017-06-28",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "5th St at San Salvador St",
+    "lat": 37.332035,
+    "lng": -121.881751,
+    "first_seen": "2017-07-18",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "5th St at Taylor St",
+    "lat": 37.350939,
+    "lng": -121.895883,
+    "first_seen": "2017-09-16",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "5th St at Virginia St",
+    "lat": 37.325985,
+    "lng": -121.877119,
+    "first_seen": "2017-09-15",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "62nd St at Claremont Ave",
+    "lat": 37.849436,
+    "lng": -122.252542,
+    "first_seen": "2021-06-24",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "65th St at Hollis St",
+    "lat": 37.846785,
+    "lng": -122.291375,
+    "first_seen": "2017-08-31",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "65th St at San Pablo Ave",
+    "lat": 37.848146,
+    "lng": -122.285153,
+    "first_seen": "2025-08-15",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "6th Ave at E 12th St",
+    "lat": 37.794389,
+    "lng": -122.253834,
+    "first_seen": "2018-09-01",
+    "last_seen": "2026-05-31",
+    "aliases": [
+      "6th Ave at E 12th St (Temporary Location)"
+    ]
+  },
+  {
+    "name": "6th St at San Fernando St (Temporary Location)",
+    "lat": 37.337038,
+    "lng": -121.884125,
+    "first_seen": "2018-08-01",
+    "last_seen": "2018-12-31",
+    "aliases": []
+  },
+  {
+    "name": "7th Ave at Cabrillo St",
+    "lat": 37.775129,
+    "lng": -122.46499,
+    "first_seen": "2019-09-20",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "7th Ave at Clement St",
+    "lat": 37.7824,
+    "lng": -122.465405,
+    "first_seen": "2020-01-30",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "7th Ave at Irving St",
+    "lat": 37.76349,
+    "lng": -122.464076,
+    "first_seen": "2020-01-09",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "7th Ave at Lawton St",
+    "lat": 37.758774,
+    "lng": -122.463765,
+    "first_seen": "2020-11-24",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "7th St at Brannan St",
+    "lat": 37.773485,
+    "lng": -122.403664,
+    "first_seen": "2017-07-26",
+    "last_seen": "2021-04-16",
+    "aliases": []
+  },
+  {
+    "name": "7th St at Empire St",
+    "lat": 37.34766,
+    "lng": -121.890537,
+    "first_seen": "2019-08-01",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "7th St at King St",
+    "lat": 37.771244,
+    "lng": -122.400899,
+    "first_seen": "2019-11-02",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "8th Ave at JFK Dr",
+    "lat": 37.772908,
+    "lng": -122.465931,
+    "first_seen": "2023-08-06",
+    "last_seen": "2026-05-31",
+    "aliases": [
+      "8th Ave at John F Kennedy Dr"
+    ]
+  },
+  {
+    "name": "8th St at Brannan St",
+    "lat": 37.771439,
+    "lng": -122.405789,
+    "first_seen": "2018-05-17",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "8th St at Hooper St",
+    "lat": 37.767252,
+    "lng": -122.400315,
+    "first_seen": "2022-01-12",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "8th St at Ringold St",
+    "lat": 37.774505,
+    "lng": -122.409452,
+    "first_seen": "2017-08-11",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "9th Ave at Geary Blvd",
+    "lat": 37.781815,
+    "lng": -122.467633,
+    "first_seen": "2019-11-18",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "9th St at San Fernando St",
+    "lat": 37.338404,
+    "lng": -121.880808,
+    "first_seen": "2017-07-18",
+    "last_seen": "2026-05-31",
+    "aliases": [
+      "9th St at San Fernando"
+    ]
+  },
+  {
+    "name": "Addison St at California St",
+    "lat": 37.869727,
+    "lng": -122.279385,
+    "first_seen": "2024-04-29",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Addison St at Fourth St",
+    "lat": 37.86625,
+    "lng": -122.29937,
+    "first_seen": "2017-11-17",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Adeline St at 40th St",
+    "lat": 37.831275,
+    "lng": -122.278268,
+    "first_seen": "2017-07-11",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Alameda St at Henry Adams St",
+    "lat": 37.768557,
+    "lng": -122.404215,
+    "first_seen": "2020-03-06",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Alamo Square",
+    "lat": 37.77756,
+    "lng": -122.433269,
+    "first_seen": "2024-05-22",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Alamo Square (Steiner St at Fulton St)",
+    "lat": 37.777613,
+    "lng": -122.433241,
+    "first_seen": "2019-01-31",
+    "last_seen": "2024-05-22",
+    "aliases": []
+  },
+  {
+    "name": "Alcatraz Ave at Shattuck Ave",
+    "lat": 37.849593,
+    "lng": -122.265573,
+    "first_seen": "2018-03-28",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Alemany Blvd at Francis St",
+    "lat": 37.727368,
+    "lng": -122.435504,
+    "first_seen": "2022-02-23",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Alemany Blvd at Ocean Ave",
+    "lat": 37.723272,
+    "lng": -122.43782,
+    "first_seen": "2023-09-07",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Alemany Blvd at Silver Ave",
+    "lat": 37.730169,
+    "lng": -122.432902,
+    "first_seen": "2020-07-26",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Allyne Park",
+    "lat": 37.797246,
+    "lng": -122.427461,
+    "first_seen": "2020-10-16",
+    "last_seen": "2026-05-31",
+    "aliases": [
+      "Allyne Park (Green St at Gough St)"
+    ]
+  },
+  {
+    "name": "Almaden Blvd at Balbach St",
+    "lat": 37.326793,
+    "lng": -121.889241,
+    "first_seen": "2017-07-19",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Almaden Blvd at San Fernando St",
+    "lat": 37.331425,
+    "lng": -121.893204,
+    "first_seen": "2017-07-19",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Anza Ave at Lincoln Blvd",
+    "lat": 37.801667,
+    "lng": -122.456545,
+    "first_seen": "2022-02-11",
+    "last_seen": "2022-07-15",
+    "aliases": []
+  },
+  {
+    "name": "Anza St at 19th Ave",
+    "lat": 37.778555,
+    "lng": -122.477988,
+    "first_seen": "2023-09-18",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Anza St at Collins St",
+    "lat": 37.780676,
+    "lng": -122.450124,
+    "first_seen": "2020-02-05",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Arguello Blvd at Edward St",
+    "lat": 37.778524,
+    "lng": -122.458636,
+    "first_seen": "2019-11-15",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Arguello Blvd at Geary Blvd",
+    "lat": 37.781484,
+    "lng": -122.458791,
+    "first_seen": "2019-09-21",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Arlington St at Roanoke St",
+    "lat": 37.73496,
+    "lng": -122.429796,
+    "first_seen": "2020-07-02",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Asbury St at The Alameda",
+    "lat": 37.33803,
+    "lng": -121.919453,
+    "first_seen": "2019-03-24",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Ashby BART",
+    "lat": 37.852477,
+    "lng": -122.270213,
+    "first_seen": "2017-08-02",
+    "last_seen": "2026-05-31",
+    "aliases": [
+      "Ashby BART Station"
+    ]
+  },
+  {
+    "name": "Ashton Ave at Holloway Ave",
+    "lat": 37.721616,
+    "lng": -122.46233,
+    "first_seen": "2025-01-02",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Autumn Parkway at Coleman Ave",
+    "lat": 37.34132,
+    "lng": -121.903209,
+    "first_seen": "2017-09-20",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Auzerais Ave at Lincoln Ave",
+    "lat": 37.320985,
+    "lng": -121.908237,
+    "first_seen": "2019-05-27",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Auzerais Ave at Los Gatos Creek Trail",
+    "lat": 37.321197,
+    "lng": -121.903138,
+    "first_seen": "2019-04-22",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Backesto Park",
+    "lat": 37.352888,
+    "lng": -121.886047,
+    "first_seen": "2019-02-17",
+    "last_seen": "2026-05-31",
+    "aliases": [
+      "Backesto Park (Jackson St at 13th St)"
+    ]
+  },
+  {
+    "name": "Balboa Park",
+    "lat": 37.724888,
+    "lng": -122.443245,
+    "first_seen": "2022-02-16",
+    "last_seen": "2026-05-29",
+    "aliases": [
+      "Balboa Park (San Jose Ave at Sgt. John V. Young Ln)"
+    ]
+  },
+  {
+    "name": "Balboa Park BART",
+    "lat": 37.722818,
+    "lng": -122.447239,
+    "first_seen": "2024-05-22",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Balboa Park BART 2",
+    "lat": 37.720626,
+    "lng": -122.447552,
+    "first_seen": "2023-10-11",
+    "last_seen": "2026-05-31",
+    "aliases": [
+      "Balboa Park BART 2 (Gevena Ave)",
+      "Balboa Park BART Station 2"
+    ]
+  },
+  {
+    "name": "Balboa Park BART Station",
+    "lat": 37.721855,
+    "lng": -122.447442,
+    "first_seen": "2019-05-04",
+    "last_seen": "2024-05-22",
+    "aliases": []
+  },
+  {
+    "name": "Bancroft Way at College Ave",
+    "lat": 37.869372,
+    "lng": -122.254333,
+    "first_seen": "2017-07-12",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Bancroft Way at Telegraph Ave",
+    "lat": 37.868862,
+    "lng": -122.258775,
+    "first_seen": "2017-08-29",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Bartlett St at 24th St",
+    "lat": 37.752342,
+    "lng": -122.419624,
+    "first_seen": "2023-02-07",
+    "last_seen": "2023-06-22",
+    "aliases": []
+  },
+  {
+    "name": "Battery St at California St",
+    "lat": 37.793457,
+    "lng": -122.400065,
+    "first_seen": "2022-03-15",
+    "last_seen": "2022-10-20",
+    "aliases": [
+      "Battery Street at California St"
+    ]
+  },
+  {
+    "name": "Battery St at Filbert St",
+    "lat": 37.802048,
+    "lng": -122.401723,
+    "first_seen": "2020-01-10",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Bay Pl at Vernon St",
+    "lat": 37.812197,
+    "lng": -122.260728,
+    "first_seen": "2017-07-20",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Bay St at Fillmore St",
+    "lat": 37.802654,
+    "lng": -122.43609,
+    "first_seen": "2019-03-07",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Bay Street Plaza",
+    "lat": 37.834572,
+    "lng": -122.29206,
+    "first_seen": "2024-07-30",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Bayshore Caltrain Virtual Station",
+    "lat": 37.708774,
+    "lng": -122.4016,
+    "first_seen": "2026-03-12",
+    "last_seen": "2026-05-27",
+    "aliases": []
+  },
+  {
+    "name": "Beale St at Harrison St",
+    "lat": 37.788016,
+    "lng": -122.391857,
+    "first_seen": "2017-08-10",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Berkeley Civic Center",
+    "lat": 37.86906,
+    "lng": -122.270557,
+    "first_seen": "2017-07-11",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Berry HQ",
+    "lat": 37.776471,
+    "lng": -122.392402,
+    "first_seen": "2025-03-14",
+    "last_seen": "2025-03-18",
+    "aliases": []
+  },
+  {
+    "name": "Berry St at 4th St",
+    "lat": 37.775933,
+    "lng": -122.393111,
+    "first_seen": "2017-06-28",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Berry St at 4th St Station 2",
+    "lat": 37.779917,
+    "lng": -122.390167,
+    "first_seen": "2022-09-28",
+    "last_seen": "2023-02-21",
+    "aliases": []
+  },
+  {
+    "name": "Berry St at 4th St Station 2*",
+    "lat": 37.78,
+    "lng": -122.39,
+    "first_seen": "2023-02-21",
+    "last_seen": "2023-03-21",
+    "aliases": []
+  },
+  {
+    "name": "Berry St at 4th St*",
+    "lat": 37.775,
+    "lng": -122.4,
+    "first_seen": "2022-09-28",
+    "last_seen": "2022-09-28",
+    "aliases": []
+  },
+  {
+    "name": "Berry St at King St",
+    "lat": 37.771789,
+    "lng": -122.398414,
+    "first_seen": "2018-06-26",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Berryessa BART",
+    "lat": 37.365882,
+    "lng": -121.872471,
+    "first_seen": "2024-05-23",
+    "last_seen": "2026-05-30",
+    "aliases": []
+  },
+  {
+    "name": "Bestor Art Park",
+    "lat": 37.323638,
+    "lng": -121.874197,
+    "first_seen": "2017-11-11",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Bird Ave at Coe Ave",
+    "lat": 37.315129,
+    "lng": -121.897806,
+    "first_seen": "2019-03-29",
+    "last_seen": "2026-05-29",
+    "aliases": []
+  },
+  {
+    "name": "Bird Ave at Willow St",
+    "lat": 37.311276,
+    "lng": -121.896311,
+    "first_seen": "2019-05-23",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Blue Heron Lake",
+    "lat": 37.770937,
+    "lng": -122.477117,
+    "first_seen": "2023-08-08",
+    "last_seen": "2026-05-31",
+    "aliases": [
+      "Stowe Lake"
+    ]
+  },
+  {
+    "name": "Bond St at High St",
+    "lat": 37.774141,
+    "lng": -122.212394,
+    "first_seen": "2020-02-01",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Bowling Green",
+    "lat": 37.76874,
+    "lng": -122.459429,
+    "first_seen": "2023-08-07",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Brannan St at 4th St",
+    "lat": 37.777942,
+    "lng": -122.39697,
+    "first_seen": "2019-09-07",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Brannan St at 7th St",
+    "lat": 37.772505,
+    "lng": -122.403849,
+    "first_seen": "2019-10-31",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Brannan St at Colin P Kelly Jr St",
+    "lat": 37.782271,
+    "lng": -122.391505,
+    "first_seen": "2019-10-15",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Brannan St at Harriet St",
+    "lat": 37.774193,
+    "lng": -122.401816,
+    "first_seen": "2022-03-22",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Brazil Ave at La Grande Ave",
+    "lat": 37.720233,
+    "lng": -122.425295,
+    "first_seen": "2023-09-15",
+    "last_seen": "2026-05-30",
+    "aliases": []
+  },
+  {
+    "name": "Brighton Ave at Ocean Ave",
+    "lat": 37.723426,
+    "lng": -122.455111,
+    "first_seen": "2022-02-20",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Broadway at 30th St",
+    "lat": 37.819377,
+    "lng": -122.261931,
+    "first_seen": "2017-07-11",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Broadway at 40th St",
+    "lat": 37.827758,
+    "lng": -122.256715,
+    "first_seen": "2017-07-12",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Broadway at Battery St",
+    "lat": 37.798578,
+    "lng": -122.400872,
+    "first_seen": "2017-06-28",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Broadway at Coronado Ave",
+    "lat": 37.835792,
+    "lng": -122.25162,
+    "first_seen": "2017-09-07",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Broadway at Kearny St",
+    "lat": 37.797991,
+    "lng": -122.405943,
+    "first_seen": "2017-06-28",
+    "last_seen": "2026-05-31",
+    "aliases": [
+      "Broadway at Kearny"
+    ]
+  },
+  {
+    "name": "Brockhurst St at San Pablo Ave",
+    "lat": 37.823524,
+    "lng": -122.277188,
+    "first_seen": "2022-06-25",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Broderick St at Oak St",
+    "lat": 37.773083,
+    "lng": -122.439094,
+    "first_seen": "2017-08-10",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Brookdale Ave at 35th Ave",
+    "lat": 37.788436,
+    "lng": -122.210008,
+    "first_seen": "2026-02-21",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Brooklyn Ave at Lakeshore Ave",
+    "lat": 37.805133,
+    "lng": -122.250367,
+    "first_seen": "2025-08-20",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Brooklyn Basin",
+    "lat": 37.787442,
+    "lng": -122.255556,
+    "first_seen": "2025-04-10",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Bryant St at 15th St",
+    "lat": 37.767106,
+    "lng": -122.410664,
+    "first_seen": "2017-07-18",
+    "last_seen": "2022-11-10",
+    "aliases": []
+  },
+  {
+    "name": "Bryant St at 2nd St",
+    "lat": 37.783199,
+    "lng": -122.39344,
+    "first_seen": "2018-03-08",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Bryant St at 6th St",
+    "lat": 37.77586,
+    "lng": -122.40266,
+    "first_seen": "2017-06-28",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Buchanan St at Lombard St",
+    "lat": 37.800498,
+    "lng": -122.432762,
+    "first_seen": "2023-12-01",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Buchanan St at North Point St",
+    "lat": 37.804411,
+    "lng": -122.433528,
+    "first_seen": "2019-03-09",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Bush St at Leavenworth St",
+    "lat": 37.789423,
+    "lng": -122.415172,
+    "first_seen": "2025-06-10",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Bush St at Polk St",
+    "lat": 37.788668,
+    "lng": -122.420544,
+    "first_seen": "2021-06-04",
+    "last_seen": "2022-01-13",
+    "aliases": []
+  },
+  {
+    "name": "Bushrod Park",
+    "lat": 37.846515,
+    "lng": -122.265304,
+    "first_seen": "2017-07-11",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Byxbee St at Shields St",
+    "lat": 37.717791,
+    "lng": -122.469903,
+    "first_seen": "2025-01-01",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Cahill Park",
+    "lat": 37.329113,
+    "lng": -121.904606,
+    "first_seen": "2017-07-18",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "California St at University Ave",
+    "lat": 37.870555,
+    "lng": -122.27972,
+    "first_seen": "2017-10-19",
+    "last_seen": "2024-04-29",
+    "aliases": []
+  },
+  {
+    "name": "Cambon Dr at Castelo Ave",
+    "lat": 37.717686,
+    "lng": -122.474319,
+    "first_seen": "2024-04-25",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Carl St at Cole St",
+    "lat": 37.765945,
+    "lng": -122.449239,
+    "first_seen": "2019-06-18",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Carroll Ave at 3rd St",
+    "lat": 37.725404,
+    "lng": -122.394008,
+    "first_seen": "2019-09-21",
+    "last_seen": "2026-05-30",
+    "aliases": []
+  },
+  {
+    "name": "Castro St at Jersey St",
+    "lat": 37.750727,
+    "lng": -122.434021,
+    "first_seen": "2024-12-05",
+    "last_seen": "2025-08-27",
+    "aliases": []
+  },
+  {
+    "name": "Central Ave at Fell St",
+    "lat": 37.773388,
+    "lng": -122.443923,
+    "first_seen": "2017-08-12",
+    "last_seen": "2021-12-25",
+    "aliases": []
+  },
+  {
+    "name": "Cesar Chavez St at Dolores St",
+    "lat": 37.747848,
+    "lng": -122.425006,
+    "first_seen": "2017-08-03",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Cesar Chavez St at Michigan St",
+    "lat": 37.750351,
+    "lng": -122.38587,
+    "first_seen": "2021-04-09",
+    "last_seen": "2022-07-12",
+    "aliases": []
+  },
+  {
+    "name": "Chain O' Lakes",
+    "lat": 37.767821,
+    "lng": -122.501871,
+    "first_seen": "2023-08-12",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Channing Way at San Pablo Ave",
+    "lat": 37.862823,
+    "lng": -122.290253,
+    "first_seen": "2017-12-08",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Channing Way at Shattuck Ave",
+    "lat": 37.865847,
+    "lng": -122.26744,
+    "first_seen": "2018-03-07",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Chestnut St at Van Ness Ave",
+    "lat": 37.802298,
+    "lng": -122.424418,
+    "first_seen": "2019-09-24",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "China Basin Park",
+    "lat": 37.775975,
+    "lng": -122.387808,
+    "first_seen": "2025-07-28",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "China Basin St at 3rd St",
+    "lat": 37.772004,
+    "lng": -122.389993,
+    "first_seen": "2019-01-01",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Church St at Duboce Ave",
+    "lat": 37.769861,
+    "lng": -122.42915,
+    "first_seen": "2017-07-12",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Civic Center BART",
+    "lat": 37.781073,
+    "lng": -122.411734,
+    "first_seen": "2017-06-28",
+    "last_seen": "2026-05-31",
+    "aliases": [
+      "Civic Center/UN Plaza BART Station (Market St at McAllister St)"
+    ]
+  },
+  {
+    "name": "Clara St at 4th St",
+    "lat": 37.780765,
+    "lng": -122.400746,
+    "first_seen": "2020-03-01",
+    "last_seen": "2021-01-15",
+    "aliases": []
+  },
+  {
+    "name": "Clark Kerr Campus",
+    "lat": 37.864634,
+    "lng": -122.250284,
+    "first_seen": "2026-05-06",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Clay St at Battery St",
+    "lat": 37.795007,
+    "lng": -122.399979,
+    "first_seen": "2017-06-28",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Clay St at Lyon St",
+    "lat": 37.789287,
+    "lng": -122.445074,
+    "first_seen": "2022-10-26",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Clement St at 32nd Ave",
+    "lat": 37.781723,
+    "lng": -122.492831,
+    "first_seen": "2020-03-05",
+    "last_seen": "2026-05-31",
+    "aliases": [
+      "Clement St at 32nd Avenue"
+    ]
+  },
+  {
+    "name": "Clement St at Funston Ave",
+    "lat": 37.782592,
+    "lng": -122.471769,
+    "first_seen": "2023-01-26",
+    "last_seen": "2023-07-18",
+    "aliases": []
+  },
+  {
+    "name": "Colin P Kelly Jr St at Townsend St (Temporary Site)",
+    "lat": 37.781383,
+    "lng": -122.389841,
+    "first_seen": "2018-01-30",
+    "last_seen": "2018-04-12",
+    "aliases": []
+  },
+  {
+    "name": "College Ave at Alcatraz Ave",
+    "lat": 37.851376,
+    "lng": -122.252523,
+    "first_seen": "2018-02-06",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "College Ave at Bryant Ave",
+    "lat": 37.838133,
+    "lng": -122.251271,
+    "first_seen": "2017-11-11",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "College Ave at Harwood Ave",
+    "lat": 37.848152,
+    "lng": -122.25216,
+    "first_seen": "2017-09-06",
+    "last_seen": "2021-04-22",
+    "aliases": []
+  },
+  {
+    "name": "College Ave at Taft Ave",
+    "lat": 37.8418,
+    "lng": -122.251536,
+    "first_seen": "2017-07-11",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Columbia Ave at Bird Ave",
+    "lat": 37.324151,
+    "lng": -121.899695,
+    "first_seen": "2019-10-18",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Commercial St at Montgomery St",
+    "lat": 37.794208,
+    "lng": -122.402885,
+    "first_seen": "2017-06-28",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Cortland Ave at Wool St",
+    "lat": 37.739088,
+    "lng": -122.417316,
+    "first_seen": "2024-04-26",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Crissy Field Overlook",
+    "lat": 37.804335,
+    "lng": -122.469752,
+    "first_seen": "2024-11-01",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Crocker-Amazon Playground",
+    "lat": 37.713183,
+    "lng": -122.433405,
+    "first_seen": "2023-09-16",
+    "last_seen": "2026-05-31",
+    "aliases": [
+      "Crocker-Amazon Playground (Geneva Ave at Moscow St)"
+    ]
+  },
+  {
+    "name": "Cruise Terminal at Pier 27",
+    "lat": 37.804605,
+    "lng": -122.402038,
+    "first_seen": "2019-09-12",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Curtis St at Gilman St",
+    "lat": 37.881231,
+    "lng": -122.290045,
+    "first_seen": "2026-04-27",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Cyril Magnin St at Ellis St",
+    "lat": 37.785862,
+    "lng": -122.408896,
+    "first_seen": "2017-06-28",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Daly City BART",
+    "lat": 37.707821,
+    "lng": -122.468035,
+    "first_seen": "2024-03-19",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Davis St at Jackson St",
+    "lat": 37.797281,
+    "lng": -122.398441,
+    "first_seen": "2017-06-28",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "De Rome Dr at Sierra Rd",
+    "lat": 37.37027,
+    "lng": -121.880125,
+    "first_seen": "2025-10-18",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "DeFremery Park",
+    "lat": 37.81233,
+    "lng": -122.285175,
+    "first_seen": "2017-07-24",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Delancey St at Brannan St",
+    "lat": 37.783775,
+    "lng": -122.390033,
+    "first_seen": "2023-04-12",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Delano Ave at Oneida Ave",
+    "lat": 37.722416,
+    "lng": -122.443779,
+    "first_seen": "2020-07-25",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Delmas Ave and San Fernando St",
+    "lat": 37.33025,
+    "lng": -121.897688,
+    "first_seen": "2017-11-08",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Delmas Ave at Virginia St",
+    "lat": 37.319816,
+    "lng": -121.893045,
+    "first_seen": "2019-04-24",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Derby St at College Ave",
+    "lat": 37.861791,
+    "lng": -122.253605,
+    "first_seen": "2017-12-23",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Detroit St at Hearst Ave",
+    "lat": 37.730638,
+    "lng": -122.444303,
+    "first_seen": "2022-07-09",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Devine St at San Pedro St",
+    "lat": 37.338658,
+    "lng": -121.895676,
+    "first_seen": "2019-11-25",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Divisadero St at Clay St",
+    "lat": 37.789589,
+    "lng": -122.440685,
+    "first_seen": "2020-02-28",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Divisadero St at Lombard St",
+    "lat": 37.799193,
+    "lng": -122.442739,
+    "first_seen": "2022-04-27",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Division St at Potrero Ave",
+    "lat": 37.769249,
+    "lng": -122.407216,
+    "first_seen": "2017-08-15",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Dolores St at 15th St",
+    "lat": 37.766131,
+    "lng": -122.426644,
+    "first_seen": "2017-07-21",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Dolores St at 22nd St",
+    "lat": 37.754882,
+    "lng": -122.425638,
+    "first_seen": "2017-08-08",
+    "last_seen": "2024-07-22",
+    "aliases": []
+  },
+  {
+    "name": "Dover St at 57th St",
+    "lat": 37.842629,
+    "lng": -122.267739,
+    "first_seen": "2017-07-20",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Downtown Berkeley BART",
+    "lat": 37.870171,
+    "lng": -122.268324,
+    "first_seen": "2017-07-11",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Doyle St at 59th St",
+    "lat": 37.841923,
+    "lng": -122.288046,
+    "first_seen": "2017-08-31",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Drumm St at Market St",
+    "lat": 37.793529,
+    "lng": -122.396473,
+    "first_seen": "2025-02-19",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Duboce Park",
+    "lat": 37.769178,
+    "lng": -122.433899,
+    "first_seen": "2017-07-12",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "E 12th St at 4th Ave",
+    "lat": 37.795812,
+    "lng": -122.255555,
+    "first_seen": "2017-07-11",
+    "last_seen": "2018-08-31",
+    "aliases": [
+      "12th St at 4th Ave"
+    ]
+  },
+  {
+    "name": "E 12th St at 6th Ave",
+    "lat": 37.794353,
+    "lng": -122.253874,
+    "first_seen": "2017-07-12",
+    "last_seen": "2018-08-31",
+    "aliases": [
+      "12th St at 6th Ave"
+    ]
+  },
+  {
+    "name": "E 18th St at 4th Ave",
+    "lat": 37.799207,
+    "lng": -122.251291,
+    "first_seen": "2025-12-17",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "E 21st St at 23rd Ave",
+    "lat": 37.78856,
+    "lng": -122.23158,
+    "first_seen": "2025-10-23",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "E Ocean Avenue: Fairfield Way to Plymouth Ave East",
+    "lat": 37.7244,
+    "lng": -122.459085,
+    "first_seen": "2023-11-16",
+    "last_seen": "2023-11-16",
+    "aliases": []
+  },
+  {
+    "name": "E Virginia St at S 2nd St",
+    "lat": 37.324427,
+    "lng": -121.880754,
+    "first_seen": "2021-02-27",
+    "last_seen": "2025-03-20",
+    "aliases": [
+      "Virginia St at 2nd St"
+    ]
+  },
+  {
+    "name": "Edgeworth Ave at 91st St",
+    "lat": 37.690175,
+    "lng": -122.474463,
+    "first_seen": "2025-09-16",
+    "last_seen": "2026-05-30",
+    "aliases": []
+  },
+  {
+    "name": "Egbert Ave at Jennings St",
+    "lat": 37.72262,
+    "lng": -122.392348,
+    "first_seen": "2019-11-22",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "El Embarcadero at Grand Ave",
+    "lat": 37.808791,
+    "lng": -122.249496,
+    "first_seen": "2017-07-24",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Ellis St at Pierce St",
+    "lat": 37.78199,
+    "lng": -122.435731,
+    "first_seen": "2019-10-05",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Ellsworth St at Russell St",
+    "lat": 37.857535,
+    "lng": -122.261589,
+    "first_seen": "2017-12-27",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Embarcadero BART",
+    "lat": 37.792241,
+    "lng": -122.397095,
+    "first_seen": "2017-06-28",
+    "last_seen": "2025-09-02",
+    "aliases": [
+      "Embarcadero BART Station (Beale St at Market St)"
+    ]
+  },
+  {
+    "name": "Emeryville Depot",
+    "lat": 37.830296,
+    "lng": -122.28943,
+    "first_seen": "2019-07-10",
+    "last_seen": "2026-01-30",
+    "aliases": []
+  },
+  {
+    "name": "Emeryville Depot (Pillar)",
+    "lat": 37.830278,
+    "lng": -122.28914,
+    "first_seen": "2025-09-21",
+    "last_seen": "2025-09-21",
+    "aliases": []
+  },
+  {
+    "name": "Emeryville Public Market",
+    "lat": 37.840518,
+    "lng": -122.29353,
+    "first_seen": "2018-03-15",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Emeryville Town Hall",
+    "lat": 37.831266,
+    "lng": -122.285639,
+    "first_seen": "2017-07-11",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Emory St at The Alameda",
+    "lat": 37.338636,
+    "lng": -121.920991,
+    "first_seen": "2019-08-01",
+    "last_seen": "2019-09-30",
+    "aliases": []
+  },
+  {
+    "name": "Empire St at 1st St",
+    "lat": 37.3449,
+    "lng": -121.89695,
+    "first_seen": "2017-12-22",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Empire St at 7th St",
+    "lat": 37.347742,
+    "lng": -121.890801,
+    "first_seen": "2018-10-23",
+    "last_seen": "2019-07-31",
+    "aliases": []
+  },
+  {
+    "name": "Esprit Park",
+    "lat": 37.761639,
+    "lng": -122.390687,
+    "first_seen": "2017-08-18",
+    "last_seen": "2026-05-31",
+    "aliases": [
+      "Esprit Park (19th St at Minnesota St)"
+    ]
+  },
+  {
+    "name": "Eucalyptus Dr at 20th Ave",
+    "lat": 37.731086,
+    "lng": -122.476189,
+    "first_seen": "2020-09-24",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Euclid Ave at Hearst Ave",
+    "lat": 37.875323,
+    "lng": -122.260157,
+    "first_seen": "2023-10-19",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Eureka Valley Recreation Center",
+    "lat": 37.759215,
+    "lng": -122.436814,
+    "first_seen": "2017-10-27",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Evans Ave at Mendell St",
+    "lat": 37.740069,
+    "lng": -122.383459,
+    "first_seen": "2019-10-04",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Evans Ave at Newhall St",
+    "lat": 37.742113,
+    "lng": -122.386699,
+    "first_seen": "2020-02-07",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Farnam St at Fruitvale Ave",
+    "lat": 37.778058,
+    "lng": -122.225399,
+    "first_seen": "2018-11-01",
+    "last_seen": "2026-05-31",
+    "aliases": [
+      "Farnham St at Fruitvale Ave"
+    ]
+  },
+  {
+    "name": "Father Alfred E Boeddeker Park",
+    "lat": 37.784042,
+    "lng": -122.412096,
+    "first_seen": "2017-07-19",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Fell St at Clayton St",
+    "lat": 37.772565,
+    "lng": -122.448897,
+    "first_seen": "2024-01-24",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Fell St at Stanyan St",
+    "lat": 37.771952,
+    "lng": -122.453699,
+    "first_seen": "2018-11-08",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Fern St at Polk St",
+    "lat": 37.788188,
+    "lng": -122.420429,
+    "first_seen": "2019-05-01",
+    "last_seen": "2021-06-04",
+    "aliases": []
+  },
+  {
+    "name": "Ferry Plaza Virtual Station",
+    "lat": 37.794367,
+    "lng": -122.392953,
+    "first_seen": "2026-04-14",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Fifth St at Delaware St",
+    "lat": 37.870409,
+    "lng": -122.299677,
+    "first_seen": "2018-06-20",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Filbert St at Powell Street",
+    "lat": 37.801155,
+    "lng": -122.410809,
+    "first_seen": "2025-10-10",
+    "last_seen": "2025-11-07",
+    "aliases": []
+  },
+  {
+    "name": "Fillmore St at Jefferson St",
+    "lat": 37.805359,
+    "lng": -122.437259,
+    "first_seen": "2020-10-16",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Firmware Test Charging Internal Howard",
+    "lat": 37.772434,
+    "lng": -122.412961,
+    "first_seen": "2023-11-06",
+    "last_seen": "2026-03-31",
+    "aliases": []
+  },
+  {
+    "name": "Firmware Test Internal Howard",
+    "lat": 37.77176,
+    "lng": -122.412656,
+    "first_seen": "2023-07-13",
+    "last_seen": "2023-10-31",
+    "aliases": []
+  },
+  {
+    "name": "Folsom St at 13th St",
+    "lat": 37.770153,
+    "lng": -122.41551,
+    "first_seen": "2018-06-14",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Folsom St at 15th St",
+    "lat": 37.767049,
+    "lng": -122.415447,
+    "first_seen": "2017-07-18",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Folsom St at 19th St",
+    "lat": 37.760607,
+    "lng": -122.414817,
+    "first_seen": "2017-07-31",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Folsom St at 1st St",
+    "lat": 37.787113,
+    "lng": -122.394851,
+    "first_seen": "2025-11-21",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Folsom St at 21st St",
+    "lat": 37.757458,
+    "lng": -122.414647,
+    "first_seen": "2025-07-11",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Folsom St at 2nd St",
+    "lat": 37.785366,
+    "lng": -122.396923,
+    "first_seen": "2019-08-01",
+    "last_seen": "2021-01-10",
+    "aliases": []
+  },
+  {
+    "name": "Folsom St at 3rd St",
+    "lat": 37.783856,
+    "lng": -122.398845,
+    "first_seen": "2017-06-28",
+    "last_seen": "2024-07-19",
+    "aliases": []
+  },
+  {
+    "name": "Folsom St at 5th St",
+    "lat": 37.780765,
+    "lng": -122.40271,
+    "first_seen": "2019-10-01",
+    "last_seen": "2024-08-07",
+    "aliases": []
+  },
+  {
+    "name": "Folsom St at 7th St",
+    "lat": 37.776612,
+    "lng": -122.407973,
+    "first_seen": "2019-11-27",
+    "last_seen": "2024-10-22",
+    "aliases": []
+  },
+  {
+    "name": "Folsom St at 9th St",
+    "lat": 37.773675,
+    "lng": -122.411703,
+    "first_seen": "2017-09-29",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Folsom St at Main St",
+    "lat": 37.78905,
+    "lng": -122.392223,
+    "first_seen": "2022-09-01",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Font Blvd at Arballo Dr",
+    "lat": 37.722017,
+    "lng": -122.482751,
+    "first_seen": "2020-09-18",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Foothill Blvd at 42nd Ave",
+    "lat": 37.775651,
+    "lng": -122.213003,
+    "first_seen": "2017-08-04",
+    "last_seen": "2020-01-31",
+    "aliases": []
+  },
+  {
+    "name": "Foothill Blvd at Fruitvale Ave",
+    "lat": 37.783755,
+    "lng": -122.222602,
+    "first_seen": "2017-07-31",
+    "last_seen": "2026-05-28",
+    "aliases": []
+  },
+  {
+    "name": "Foothill Blvd at Harrington Ave",
+    "lat": 37.77993,
+    "lng": -122.217729,
+    "first_seen": "2017-09-11",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Forest Hill Muni Station",
+    "lat": 37.748187,
+    "lng": -122.459195,
+    "first_seen": "2023-11-02",
+    "last_seen": "2026-05-30",
+    "aliases": []
+  },
+  {
+    "name": "Fountain Alley at S 2nd St",
+    "lat": 37.336178,
+    "lng": -121.889294,
+    "first_seen": "2018-01-23",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Francisco St at Columbus Ave",
+    "lat": 37.80423,
+    "lng": -122.416002,
+    "first_seen": "2023-03-10",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Frank H Ogawa Plaza",
+    "lat": 37.80456,
+    "lng": -122.271736,
+    "first_seen": "2017-07-11",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Franklin Square",
+    "lat": 37.764542,
+    "lng": -122.410353,
+    "first_seen": "2017-08-04",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Franklin St at 13th St",
+    "lat": 37.803027,
+    "lng": -122.270497,
+    "first_seen": "2024-02-27",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Franklin St at 14th St",
+    "lat": 37.803765,
+    "lng": -122.269988,
+    "first_seen": "2017-07-11",
+    "last_seen": "2017-10-26",
+    "aliases": []
+  },
+  {
+    "name": "Franklin St at 9th St",
+    "lat": 37.800517,
+    "lng": -122.272077,
+    "first_seen": "2017-07-11",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Frederick St at Arguello Blvd",
+    "lat": 37.765798,
+    "lng": -122.457604,
+    "first_seen": "2019-12-12",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Frida Kahlo Way at Cloud Cir",
+    "lat": 37.725752,
+    "lng": -122.452384,
+    "first_seen": "2019-12-20",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Front St at California St",
+    "lat": 37.793103,
+    "lng": -122.398777,
+    "first_seen": "2020-07-23",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Fruitvale Ave at International Blvd",
+    "lat": 37.777836,
+    "lng": -122.225619,
+    "first_seen": "2017-10-20",
+    "last_seen": "2020-10-19",
+    "aliases": []
+  },
+  {
+    "name": "Fruitvale Ave at MacArthur Blvd",
+    "lat": 37.800626,
+    "lng": -122.216111,
+    "first_seen": "2025-10-15",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Fruitvale BART",
+    "lat": 37.775247,
+    "lng": -122.224526,
+    "first_seen": "2017-12-18",
+    "last_seen": "2026-05-31",
+    "aliases": [
+      "Fruitvale BART Station"
+    ]
+  },
+  {
+    "name": "Fulton St at Ashby Ave",
+    "lat": 37.855573,
+    "lng": -122.263565,
+    "first_seen": "2018-03-29",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Fulton St at Bancroft Way",
+    "lat": 37.86788,
+    "lng": -122.265907,
+    "first_seen": "2017-07-11",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Fulton St at Laguna St",
+    "lat": 37.778338,
+    "lng": -122.426399,
+    "first_seen": "2020-07-23",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Funston Ave at Clement St",
+    "lat": 37.782447,
+    "lng": -122.471971,
+    "first_seen": "2019-11-15",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Funston Ave at Fulton St",
+    "lat": 37.773531,
+    "lng": -122.471336,
+    "first_seen": "2019-11-21",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Funston Ave at Irving St",
+    "lat": 37.763978,
+    "lng": -122.470653,
+    "first_seen": "2020-01-10",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Garfield Square",
+    "lat": 37.750946,
+    "lng": -122.412082,
+    "first_seen": "2024-05-22",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Garfield Square (25th St at Harrison St)",
+    "lat": 37.750985,
+    "lng": -122.412016,
+    "first_seen": "2017-09-26",
+    "last_seen": "2024-05-22",
+    "aliases": []
+  },
+  {
+    "name": "Gennessee St at Monterey Blvd",
+    "lat": 37.731686,
+    "lng": -122.45112,
+    "first_seen": "2019-06-06",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Genoa St at 55th St",
+    "lat": 37.83965,
+    "lng": -122.271756,
+    "first_seen": "2017-07-11",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "George St at 1st St",
+    "lat": 37.347654,
+    "lng": -121.899574,
+    "first_seen": "2017-09-17",
+    "last_seen": "2026-05-29",
+    "aliases": []
+  },
+  {
+    "name": "Gish Rd at 1st St",
+    "lat": 37.361945,
+    "lng": -121.909171,
+    "first_seen": "2019-03-13",
+    "last_seen": "2026-05-29",
+    "aliases": []
+  },
+  {
+    "name": "Glen Park BART",
+    "lat": 37.732807,
+    "lng": -122.434128,
+    "first_seen": "2024-05-22",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Glen Park BART Station",
+    "lat": 37.732862,
+    "lng": -122.434161,
+    "first_seen": "2019-04-08",
+    "last_seen": "2024-05-22",
+    "aliases": []
+  },
+  {
+    "name": "Goettingen St at Bacon St",
+    "lat": 37.727035,
+    "lng": -122.406637,
+    "first_seen": "2019-03-07",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Golden Gate Ave at Baker St",
+    "lat": 37.778222,
+    "lng": -122.442204,
+    "first_seen": "2024-11-20",
+    "last_seen": "2025-02-12",
+    "aliases": []
+  },
+  {
+    "name": "Golden Gate Ave at Franklin St",
+    "lat": 37.780829,
+    "lng": -122.421884,
+    "first_seen": "2019-01-03",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Golden Gate Ave at Hyde St",
+    "lat": 37.78165,
+    "lng": -122.415408,
+    "first_seen": "2017-07-14",
+    "last_seen": "2020-05-11",
+    "aliases": []
+  },
+  {
+    "name": "Golden Gate Ave at Polk St",
+    "lat": 37.78135,
+    "lng": -122.418566,
+    "first_seen": "2017-06-28",
+    "last_seen": "2026-05-08",
+    "aliases": []
+  },
+  {
+    "name": "Grand Ave at Perkins St",
+    "lat": 37.808894,
+    "lng": -122.256462,
+    "first_seen": "2017-07-24",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Grand Ave at Santa Clara Ave",
+    "lat": 37.812744,
+    "lng": -122.247219,
+    "first_seen": "2017-07-25",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Grand Ave at Webster St",
+    "lat": 37.811376,
+    "lng": -122.265194,
+    "first_seen": "2017-07-11",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Grant Ave at Sutter St",
+    "lat": 37.789722,
+    "lng": -122.405476,
+    "first_seen": "2022-05-24",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Great Highway at Balboa St",
+    "lat": 37.775215,
+    "lng": -122.511207,
+    "first_seen": "2020-09-30",
+    "last_seen": "2026-05-31",
+    "aliases": [
+      "Great Hwy at Balboa St"
+    ]
+  },
+  {
+    "name": "Great Highway at Judah St",
+    "lat": 37.760523,
+    "lng": -122.509509,
+    "first_seen": "2024-10-25",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Great Highway at Noriega St",
+    "lat": 37.753006,
+    "lng": -122.508541,
+    "first_seen": "2024-05-22",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Great Highway at Taraval St",
+    "lat": 37.74185,
+    "lng": -122.507059,
+    "first_seen": "2024-10-14",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Great Hwy At Rivera St",
+    "lat": 37.745615,
+    "lng": -122.507432,
+    "first_seen": "2023-11-16",
+    "last_seen": "2024-10-13",
+    "aliases": []
+  },
+  {
+    "name": "Great Hwy at Taraval St",
+    "lat": 37.741855,
+    "lng": -122.506887,
+    "first_seen": "2023-11-15",
+    "last_seen": "2024-10-14",
+    "aliases": []
+  },
+  {
+    "name": "Green St at Van Ness Ave",
+    "lat": 37.797644,
+    "lng": -122.423495,
+    "first_seen": "2020-03-06",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Green St at Van Ness St",
+    "lat": 37.797704,
+    "lng": -122.423419,
+    "first_seen": "2020-03-06",
+    "last_seen": "2020-04-01",
+    "aliases": []
+  },
+  {
+    "name": "Greenwich St at Franklin St",
+    "lat": 37.800277,
+    "lng": -122.425798,
+    "first_seen": "2019-11-08",
+    "last_seen": "2026-05-07",
+    "aliases": []
+  },
+  {
+    "name": "Greenwich St at Gough St",
+    "lat": 37.80005,
+    "lng": -122.427498,
+    "first_seen": "2021-03-31",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Greenwich St at Webster St",
+    "lat": 37.799196,
+    "lng": -122.434098,
+    "first_seen": "2019-05-08",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Grove Park",
+    "lat": 37.856067,
+    "lng": -122.272779,
+    "first_seen": "2026-05-04",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Grove St at Divisadero",
+    "lat": 37.775948,
+    "lng": -122.437752,
+    "first_seen": "2017-08-14",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Grove St at Gough St",
+    "lat": 37.777876,
+    "lng": -122.422934,
+    "first_seen": "2019-10-09",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Grove St at Masonic Ave",
+    "lat": 37.774813,
+    "lng": -122.446629,
+    "first_seen": "2018-10-19",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Guerrero Park",
+    "lat": 37.745762,
+    "lng": -122.422146,
+    "first_seen": "2018-11-06",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Haight St at Lyon St",
+    "lat": 37.770524,
+    "lng": -122.442336,
+    "first_seen": "2020-08-20",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Hardly Strictly Bluegrass",
+    "lat": 37.770836,
+    "lng": -122.478843,
+    "first_seen": "2022-09-30",
+    "last_seen": "2025-10-09",
+    "aliases": []
+  },
+  {
+    "name": "Hardly Strictly Bluegrass(Temporary Station)",
+    "lat": 37.770714,
+    "lng": -122.479272,
+    "first_seen": "2022-09-30",
+    "last_seen": "2022-09-30",
+    "aliases": []
+  },
+  {
+    "name": "Harmon St at Adeline St",
+    "lat": 37.849735,
+    "lng": -122.270583,
+    "first_seen": "2017-12-29",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Harrison St at 14th St",
+    "lat": 37.768812,
+    "lng": -122.413507,
+    "first_seen": "2022-11-10",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Harrison St at 17th St",
+    "lat": 37.763823,
+    "lng": -122.413012,
+    "first_seen": "2017-07-18",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Harrison St at 20th St",
+    "lat": 37.758868,
+    "lng": -122.412551,
+    "first_seen": "2017-08-04",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Haste St at College Ave",
+    "lat": 37.866426,
+    "lng": -122.253802,
+    "first_seen": "2018-06-21",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Haste St at Telegraph Ave",
+    "lat": 37.866043,
+    "lng": -122.258807,
+    "first_seen": "2017-07-11",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Hearst Ave at Detroit St",
+    "lat": 37.730754,
+    "lng": -122.444178,
+    "first_seen": "2022-04-28",
+    "last_seen": "2022-07-09",
+    "aliases": []
+  },
+  {
+    "name": "Hearst Ave at Euclid Ave",
+    "lat": 37.875151,
+    "lng": -122.260478,
+    "first_seen": "2018-02-21",
+    "last_seen": "2023-10-18",
+    "aliases": []
+  },
+  {
+    "name": "Hearst Ave at Gayley Rd",
+    "lat": 37.875411,
+    "lng": -122.257284,
+    "first_seen": "2026-05-05",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Hellman Hollow",
+    "lat": 37.769919,
+    "lng": -122.484602,
+    "first_seen": "2023-11-18",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Heron's Head Park",
+    "lat": 37.740371,
+    "lng": -122.376714,
+    "first_seen": "2019-09-19",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Holloway Ave at Arellano Ave",
+    "lat": 37.720958,
+    "lng": -122.478835,
+    "first_seen": "2020-09-17",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Horton St at 40th St",
+    "lat": 37.829705,
+    "lng": -122.28761,
+    "first_seen": "2017-07-11",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Hospital St at Mariposa St",
+    "lat": 37.764775,
+    "lng": -122.390897,
+    "first_seen": "2022-01-28",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Howard Internal Monolith",
+    "lat": 37.773334,
+    "lng": -122.413135,
+    "first_seen": "2022-09-23",
+    "last_seen": "2026-05-12",
+    "aliases": []
+  },
+  {
+    "name": "Howard Internal Monolith - IoT",
+    "lat": 37.773574,
+    "lng": -122.413151,
+    "first_seen": "2023-05-15",
+    "last_seen": "2023-07-11",
+    "aliases": []
+  },
+  {
+    "name": "Howard St at 2nd St",
+    "lat": 37.786787,
+    "lng": -122.398285,
+    "first_seen": "2017-06-28",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Howard St at 6th St",
+    "lat": 37.780258,
+    "lng": -122.40664,
+    "first_seen": "2020-02-26",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Howard St at 8th St",
+    "lat": 37.776535,
+    "lng": -122.41129,
+    "first_seen": "2017-08-11",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Howard St at Beale St",
+    "lat": 37.790051,
+    "lng": -122.394224,
+    "first_seen": "2017-06-28",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Howard St at Beale St Virtual Station",
+    "lat": 37.790305,
+    "lng": -122.393893,
+    "first_seen": "2026-03-12",
+    "last_seen": "2026-05-30",
+    "aliases": [
+      "Howard St at Beale St Overflow\\n"
+    ]
+  },
+  {
+    "name": "Howard St at Grace St",
+    "lat": 37.773949,
+    "lng": -122.413444,
+    "first_seen": "2022-03-17",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Howard St at Grace St*",
+    "lat": 37.77,
+    "lng": -122.41,
+    "first_seen": "2022-09-06",
+    "last_seen": "2023-03-27",
+    "aliases": [
+      "Howard Grace #2",
+      "Lab - NYC - Monolith"
+    ]
+  },
+  {
+    "name": "Howard St at Hawthorne St",
+    "lat": 37.785715,
+    "lng": -122.399748,
+    "first_seen": "2025-08-04",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Howard St at Mary St",
+    "lat": 37.78101,
+    "lng": -122.405666,
+    "first_seen": "2018-05-11",
+    "last_seen": "2020-01-31",
+    "aliases": []
+  },
+  {
+    "name": "Howard workshop - Station in a Box",
+    "lat": 37.774661,
+    "lng": -122.416308,
+    "first_seen": "2019-07-17",
+    "last_seen": "2019-07-28",
+    "aliases": []
+  },
+  {
+    "name": "Hubbell St at 16th St",
+    "lat": 37.766566,
+    "lng": -122.398227,
+    "first_seen": "2018-04-17",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Huchiun Park",
+    "lat": 37.831595,
+    "lng": -122.290338,
+    "first_seen": "2025-10-30",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Hudson Ave at 3rd St",
+    "lat": 37.740556,
+    "lng": -122.389115,
+    "first_seen": "2023-03-15",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Hyde St at Post St",
+    "lat": 37.787122,
+    "lng": -122.416671,
+    "first_seen": "2018-10-31",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Illinois St at 16th St",
+    "lat": 37.766675,
+    "lng": -122.388186,
+    "first_seen": "2025-06-02",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Illinois St at 20th St",
+    "lat": 37.76036,
+    "lng": -122.387461,
+    "first_seen": "2019-04-17",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Illinois St at Cesar Chavez St",
+    "lat": 37.750165,
+    "lng": -122.386541,
+    "first_seen": "2019-04-12",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "In Chan Kaajal Park",
+    "lat": 37.763734,
+    "lng": -122.415526,
+    "first_seen": "2024-05-22",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Indiana St at Cesar Chavez St",
+    "lat": 37.750434,
+    "lng": -122.390459,
+    "first_seen": "2019-03-07",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Irving St at 17th Ave",
+    "lat": 37.763563,
+    "lng": -122.475557,
+    "first_seen": "2023-02-16",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Irving St at 18th Ave",
+    "lat": 37.763518,
+    "lng": -122.476408,
+    "first_seen": "2022-03-23",
+    "last_seen": "2023-02-16",
+    "aliases": []
+  },
+  {
+    "name": "Irving St at 21st Ave",
+    "lat": 37.763527,
+    "lng": -122.479506,
+    "first_seen": "2022-03-24",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Irwin St at 8th St",
+    "lat": 37.766883,
+    "lng": -122.399578,
+    "first_seen": "2017-08-09",
+    "last_seen": "2021-03-23",
+    "aliases": []
+  },
+  {
+    "name": "Isabella St at San Pablo Ave",
+    "lat": 37.814988,
+    "lng": -122.274844,
+    "first_seen": "2017-07-29",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "JFK Dr at Great Highway",
+    "lat": 37.770479,
+    "lng": -122.510594,
+    "first_seen": "2023-08-06",
+    "last_seen": "2026-05-31",
+    "aliases": [
+      "JFK Dr at Great Hwy",
+      "John F Kennedy Dr at Great Hwy"
+    ]
+  },
+  {
+    "name": "Jack London Square",
+    "lat": 37.79625,
+    "lng": -122.279355,
+    "first_seen": "2018-03-14",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Jackson Playground",
+    "lat": 37.765016,
+    "lng": -122.398963,
+    "first_seen": "2017-08-15",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Jackson St at 11th St",
+    "lat": 37.800003,
+    "lng": -122.266439,
+    "first_seen": "2017-12-29",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Jackson St at 14th St",
+    "lat": 37.801858,
+    "lng": -122.265368,
+    "first_seen": "2017-07-11",
+    "last_seen": "2017-10-26",
+    "aliases": []
+  },
+  {
+    "name": "Jackson St at 5th St",
+    "lat": 37.348755,
+    "lng": -121.894798,
+    "first_seen": "2017-07-19",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Jackson St at N 1st St",
+    "lat": 37.347046,
+    "lng": -121.898322,
+    "first_seen": "2019-08-02",
+    "last_seen": "2019-12-09",
+    "aliases": []
+  },
+  {
+    "name": "Jackson St at Polk St",
+    "lat": 37.794144,
+    "lng": -122.421606,
+    "first_seen": "2019-03-20",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Jackson St at Sansome St",
+    "lat": 37.796716,
+    "lng": -122.40165,
+    "first_seen": "2023-11-02",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "James Kenney Park",
+    "lat": 37.872664,
+    "lng": -122.297168,
+    "first_seen": "2026-04-28",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Jefferson St at 14th St",
+    "lat": 37.805206,
+    "lng": -122.27515,
+    "first_seen": "2024-03-25",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Jennings St at Egbert Ave",
+    "lat": 37.722515,
+    "lng": -122.392809,
+    "first_seen": "2021-03-31",
+    "last_seen": "2021-05-25",
+    "aliases": []
+  },
+  {
+    "name": "Jennings St at Revere Ave",
+    "lat": 37.729398,
+    "lng": -122.386549,
+    "first_seen": "2019-09-18",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Jerrold Ave at 3rd St",
+    "lat": 37.738946,
+    "lng": -122.389541,
+    "first_seen": "2020-05-25",
+    "last_seen": "2026-05-31",
+    "aliases": [
+      "Jerrold St at 3rd St"
+    ]
+  },
+  {
+    "name": "Jersey St at Castro St",
+    "lat": 37.750533,
+    "lng": -122.433869,
+    "first_seen": "2017-08-03",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Jersey St at Church St",
+    "lat": 37.750912,
+    "lng": -122.42749,
+    "first_seen": "2017-08-03",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Jones St at Post St",
+    "lat": 37.787309,
+    "lng": -122.413303,
+    "first_seen": "2018-10-24",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Josephine St at Sonoma Ave",
+    "lat": 37.885343,
+    "lng": -122.275643,
+    "first_seen": "2026-05-02",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Judson Ave at Foerster St",
+    "lat": 37.728434,
+    "lng": -122.448552,
+    "first_seen": "2024-06-11",
+    "last_seen": "2024-08-21",
+    "aliases": []
+  },
+  {
+    "name": "Judson Ave at Gennessee St",
+    "lat": 37.728295,
+    "lng": -122.451156,
+    "first_seen": "2019-06-06",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Julian St at 6th St",
+    "lat": 37.343024,
+    "lng": -121.888929,
+    "first_seen": "2017-07-18",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Julian St at The Alameda",
+    "lat": 37.332238,
+    "lng": -121.912485,
+    "first_seen": "2017-07-18",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Junipero Serra Blvd at Ocean Ave",
+    "lat": 37.731401,
+    "lng": -122.472201,
+    "first_seen": "2024-04-09",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Kearny St at Bush St",
+    "lat": 37.790964,
+    "lng": -122.404197,
+    "first_seen": "2025-04-23",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Kearny St at California St",
+    "lat": 37.792836,
+    "lng": -122.404558,
+    "first_seen": "2026-05-15",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Kerley Dr at Rosemary St",
+    "lat": 37.360902,
+    "lng": -121.906897,
+    "first_seen": "2019-03-18",
+    "last_seen": "2026-05-29",
+    "aliases": []
+  },
+  {
+    "name": "Koshland Park",
+    "lat": 37.773443,
+    "lng": -122.427189,
+    "first_seen": "2017-08-12",
+    "last_seen": "2026-05-31",
+    "aliases": [
+      "Koshland Park (Page St at Buchanan St)"
+    ]
+  },
+  {
+    "name": "LH1",
+    "lat": 37.74886,
+    "lng": -122.45709,
+    "first_seen": "2023-11-02",
+    "last_seen": "2023-11-02",
+    "aliases": []
+  },
+  {
+    "name": "La Playa St at Judah St",
+    "lat": 37.760558,
+    "lng": -122.509251,
+    "first_seen": "2024-05-27",
+    "last_seen": "2024-10-24",
+    "aliases": []
+  },
+  {
+    "name": "La Playa St at Lincoln Way",
+    "lat": 37.763703,
+    "lng": -122.509543,
+    "first_seen": "2023-02-21",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Lab - Howard",
+    "lat": 37.775694,
+    "lng": -122.415048,
+    "first_seen": "2021-05-19",
+    "last_seen": "2022-11-09",
+    "aliases": []
+  },
+  {
+    "name": "Lab - NYC - M",
+    "lat": 37.774618,
+    "lng": -122.414095,
+    "first_seen": "2024-01-25",
+    "last_seen": "2024-01-25",
+    "aliases": []
+  },
+  {
+    "name": "Lafayette Park",
+    "lat": 37.791957,
+    "lng": -122.42931,
+    "first_seen": "2022-01-31",
+    "last_seen": "2026-05-31",
+    "aliases": [
+      "Lafayette Park (Laguna St at Washington St)"
+    ]
+  },
+  {
+    "name": "Laguna Honda Hospital",
+    "lat": 37.748955,
+    "lng": -122.457096,
+    "first_seen": "2023-11-04",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Laguna St at Grove St",
+    "lat": 37.777578,
+    "lng": -122.426565,
+    "first_seen": "2022-07-12",
+    "last_seen": "2024-12-06",
+    "aliases": [
+      "Laguna St at Grove St (Fulton St at Laguna St)"
+    ]
+  },
+  {
+    "name": "Laguna St at Hayes St",
+    "lat": 37.776296,
+    "lng": -122.426217,
+    "first_seen": "2017-08-07",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Laguna St at McAllister St",
+    "lat": 37.779208,
+    "lng": -122.426829,
+    "first_seen": "2017-08-03",
+    "last_seen": "2018-01-25",
+    "aliases": []
+  },
+  {
+    "name": "Lake Merritt BART",
+    "lat": 37.797323,
+    "lng": -122.265325,
+    "first_seen": "2017-08-02",
+    "last_seen": "2026-05-31",
+    "aliases": [
+      "Lake Merritt BART Station"
+    ]
+  },
+  {
+    "name": "Lakeshore Ave",
+    "lat": 37.798897,
+    "lng": -122.258695,
+    "first_seen": "2025-10-31",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Lakeshore Ave at Trestle Glen Rd",
+    "lat": 37.811081,
+    "lng": -122.243268,
+    "first_seen": "2017-07-26",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Lakeside Dr at 14th St",
+    "lat": 37.801319,
+    "lng": -122.262642,
+    "first_seen": "2017-07-11",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Lakewood Ave at Ocean Ave",
+    "lat": 37.726302,
+    "lng": -122.464414,
+    "first_seen": "2024-04-18",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Lane St at Revere Ave",
+    "lat": 37.731817,
+    "lng": -122.389985,
+    "first_seen": "2018-09-20",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Lane St at Van Dyke Ave",
+    "lat": 37.729252,
+    "lng": -122.392378,
+    "first_seen": "2018-09-20",
+    "last_seen": "2018-10-10",
+    "aliases": []
+  },
+  {
+    "name": "Larkin St at California St",
+    "lat": 37.790586,
+    "lng": -122.418945,
+    "first_seen": "2023-10-19",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Laurel St at California St",
+    "lat": 37.786622,
+    "lng": -122.450048,
+    "first_seen": "2020-03-06",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Leavenworth St at Broadway",
+    "lat": 37.796449,
+    "lng": -122.416858,
+    "first_seen": "2019-02-27",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Lenfest Rd at Mabury Rd",
+    "lat": 37.365088,
+    "lng": -121.871614,
+    "first_seen": "2022-05-14",
+    "last_seen": "2026-05-31",
+    "aliases": [
+      "Berryessa BART Station (Mabury Rd at Lenfest Rd)"
+    ]
+  },
+  {
+    "name": "Lincoln Blvd at Bowley St",
+    "lat": 37.792066,
+    "lng": -122.481209,
+    "first_seen": "2025-06-16",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Lincoln Blvd at Graham St",
+    "lat": 37.801752,
+    "lng": -122.456361,
+    "first_seen": "2022-07-15",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Lincoln Blvd at Hoffman St",
+    "lat": 37.806067,
+    "lng": -122.470287,
+    "first_seen": "2024-10-31",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Lloyd Lake",
+    "lat": 37.769952,
+    "lng": -122.481659,
+    "first_seen": "2023-11-17",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Locust St at Grant St",
+    "lat": 37.323013,
+    "lng": -121.887954,
+    "first_seen": "2017-09-17",
+    "last_seen": "2026-05-30",
+    "aliases": []
+  },
+  {
+    "name": "Lombard St at Columbus Ave",
+    "lat": 37.802767,
+    "lng": -122.41336,
+    "first_seen": "2018-10-11",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "London St at Geneva Ave",
+    "lat": 37.716184,
+    "lng": -122.440104,
+    "first_seen": "2020-10-02",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Lowell St at Stanford Ave",
+    "lat": 37.843252,
+    "lng": -122.276981,
+    "first_seen": "2025-08-22",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Lower Great Hwy at Noriega St",
+    "lat": 37.752581,
+    "lng": -122.50875,
+    "first_seen": "2023-03-08",
+    "last_seen": "2024-05-22",
+    "aliases": []
+  },
+  {
+    "name": "Lynde St at Fruitvale Ave",
+    "lat": 37.791142,
+    "lng": -122.219512,
+    "first_seen": "2026-01-06",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Lyon St at Fell St",
+    "lat": 37.773582,
+    "lng": -122.442575,
+    "first_seen": "2021-12-25",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Lyon St at Lombard St",
+    "lat": 37.798191,
+    "lng": -122.447408,
+    "first_seen": "2022-02-02",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "MLK Dr at 7th Ave",
+    "lat": 37.766613,
+    "lng": -122.464206,
+    "first_seen": "2023-08-07",
+    "last_seen": "2026-05-31",
+    "aliases": [
+      "Martin Luther King Dr at 7th Ave"
+    ]
+  },
+  {
+    "name": "MLK Jr Way at 14th St",
+    "lat": 37.806163,
+    "lng": -122.27604,
+    "first_seen": "2017-07-11",
+    "last_seen": "2024-03-25",
+    "aliases": []
+  },
+  {
+    "name": "MLK Jr Way at 27th St",
+    "lat": 37.817351,
+    "lng": -122.271478,
+    "first_seen": "2024-02-21",
+    "last_seen": "2026-05-31",
+    "aliases": [
+      "MLK Jr Way 27th St"
+    ]
+  },
+  {
+    "name": "MLK Jr Way at 36th St (Temporary Location)",
+    "lat": 37.825794,
+    "lng": -122.269399,
+    "first_seen": "2018-08-01",
+    "last_seen": "2018-09-30",
+    "aliases": []
+  },
+  {
+    "name": "MLK Jr Way at University Ave",
+    "lat": 37.87172,
+    "lng": -122.273067,
+    "first_seen": "2017-10-11",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "MTL-ECO5-01",
+    "lat": 37.718237,
+    "lng": -122.38808,
+    "first_seen": "2019-10-16",
+    "last_seen": "2020-02-27",
+    "aliases": []
+  },
+  {
+    "name": "Mabini St at Folsom St",
+    "lat": 37.782409,
+    "lng": -122.400202,
+    "first_seen": "2023-04-19",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "MacArthur Ave at Fernandez St",
+    "lat": 37.796594,
+    "lng": -122.455687,
+    "first_seen": "2022-02-10",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "MacArthur BART",
+    "lat": 37.828597,
+    "lng": -122.26635,
+    "first_seen": "2024-05-22",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "MacArthur BART Station",
+    "lat": 37.82846,
+    "lng": -122.266323,
+    "first_seen": "2017-08-19",
+    "last_seen": "2024-05-22",
+    "aliases": []
+  },
+  {
+    "name": "MacArthur Blvd at Hopkins Pl",
+    "lat": 37.798567,
+    "lng": -122.208086,
+    "first_seen": "2025-12-18",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "MacArthur Blvd at Telegraph Ave",
+    "lat": 37.826286,
+    "lng": -122.2651,
+    "first_seen": "2017-07-11",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Madison St at 17th St",
+    "lat": 37.804037,
+    "lng": -122.262409,
+    "first_seen": "2018-09-06",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Magee Ave at MacArthur Blvd",
+    "lat": 37.793444,
+    "lng": -122.199507,
+    "first_seen": "2026-01-17",
+    "last_seen": "2026-05-30",
+    "aliases": []
+  },
+  {
+    "name": "Main St at Market St",
+    "lat": 37.792842,
+    "lng": -122.396324,
+    "first_seen": "2025-03-04",
+    "last_seen": "2026-02-20",
+    "aliases": []
+  },
+  {
+    "name": "Mandela Parkway at W Grand Ave",
+    "lat": 37.815779,
+    "lng": -122.289474,
+    "first_seen": "2025-01-20",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Market St at 10th St",
+    "lat": 37.776655,
+    "lng": -122.417383,
+    "first_seen": "2017-06-28",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Market St at 40th St",
+    "lat": 37.830544,
+    "lng": -122.273937,
+    "first_seen": "2017-07-12",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Market St at 45th St",
+    "lat": 37.834174,
+    "lng": -122.272968,
+    "first_seen": "2018-03-29",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Market St at 8th St",
+    "lat": 37.803686,
+    "lng": -122.282497,
+    "first_seen": "2017-09-06",
+    "last_seen": "2023-01-07",
+    "aliases": []
+  },
+  {
+    "name": "Market St at Brockhurst St",
+    "lat": 37.823321,
+    "lng": -122.275732,
+    "first_seen": "2017-07-21",
+    "last_seen": "2022-04-04",
+    "aliases": []
+  },
+  {
+    "name": "Market St at Dolores St",
+    "lat": 37.769263,
+    "lng": -122.426932,
+    "first_seen": "2017-07-14",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Market St at Franklin St",
+    "lat": 37.773807,
+    "lng": -122.421186,
+    "first_seen": "2017-08-14",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Market St at Park St",
+    "lat": 37.332426,
+    "lng": -121.89035,
+    "first_seen": "2017-07-19",
+    "last_seen": "2020-07-14",
+    "aliases": []
+  },
+  {
+    "name": "Market St at Steuart St",
+    "lat": 37.794524,
+    "lng": -122.394886,
+    "first_seen": "2020-01-01",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Marston Campbell Park",
+    "lat": 37.809825,
+    "lng": -122.280191,
+    "first_seen": "2017-09-13",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Mason St at Bay St",
+    "lat": 37.805445,
+    "lng": -122.413653,
+    "first_seen": "2023-07-24",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Mason St at Halleck St",
+    "lat": 37.803968,
+    "lng": -122.455082,
+    "first_seen": "2022-07-14",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Masonic Ave at Turk St",
+    "lat": 37.779103,
+    "lng": -122.447309,
+    "first_seen": "2018-12-13",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "McAllister St at Arguello Blvd",
+    "lat": 37.775325,
+    "lng": -122.458114,
+    "first_seen": "2019-09-19",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "McAllister St at Baker St",
+    "lat": 37.777399,
+    "lng": -122.441912,
+    "first_seen": "2017-08-16",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "McAllister St at Franklin St",
+    "lat": 37.779851,
+    "lng": -122.422531,
+    "first_seen": "2022-11-11",
+    "last_seen": "2023-05-17",
+    "aliases": []
+  },
+  {
+    "name": "McCoppin St at Valencia St",
+    "lat": 37.771675,
+    "lng": -122.422341,
+    "first_seen": "2017-07-18",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "McKinnon Ave at 3rd St",
+    "lat": 37.736301,
+    "lng": -122.389942,
+    "first_seen": "2019-09-26",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Mechanics Monument Plaza",
+    "lat": 37.791301,
+    "lng": -122.399052,
+    "first_seen": "2017-06-29",
+    "last_seen": "2026-05-31",
+    "aliases": [
+      "Mechanics Monument Plaza (Market St at Bush St)"
+    ]
+  },
+  {
+    "name": "Mechanics Monument Plaza Virtual Station",
+    "lat": 37.791209,
+    "lng": -122.399301,
+    "first_seen": "2026-02-25",
+    "last_seen": "2026-05-29",
+    "aliases": [
+      "Mechanics Monument Plaza Overflow",
+      "VIRTUAL STATION - Bush St Racks"
+    ]
+  },
+  {
+    "name": "Mendell St at Fairfax Ave",
+    "lat": 37.739843,
+    "lng": -122.385661,
+    "first_seen": "2018-09-21",
+    "last_seen": "2022-11-15",
+    "aliases": [
+      "Mendall St at Fairfax Ave"
+    ]
+  },
+  {
+    "name": "Mercado Way at Sierra Rd",
+    "lat": 37.371131,
+    "lng": -121.881321,
+    "first_seen": "2019-12-02",
+    "last_seen": "2025-10-15",
+    "aliases": []
+  },
+  {
+    "name": "Metro Dr at Technology Dr",
+    "lat": 37.367766,
+    "lng": -121.91876,
+    "first_seen": "2019-03-28",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Miles Ave at Cavour St",
+    "lat": 37.838801,
+    "lng": -122.258732,
+    "first_seen": "2018-07-01",
+    "last_seen": "2026-05-31",
+    "aliases": [
+      "Miles Ave at Cavour St (Temporary Location)"
+    ]
+  },
+  {
+    "name": "Milvia St at Derby St",
+    "lat": 37.860127,
+    "lng": -122.269385,
+    "first_seen": "2018-03-14",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Minna St at 1st St",
+    "lat": 37.789077,
+    "lng": -122.39739,
+    "first_seen": "2025-10-23",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Minnesota St Depot",
+    "lat": 37.755699,
+    "lng": -122.391386,
+    "first_seen": "2020-05-02",
+    "last_seen": "2023-02-22",
+    "aliases": []
+  },
+  {
+    "name": "Minnesota St Depot (Outgoing)",
+    "lat": 37.754853,
+    "lng": -122.389733,
+    "first_seen": "2023-08-26",
+    "last_seen": "2026-05-31",
+    "aliases": [
+      "SF Depot-2 (Minnesota St Incoming)"
+    ]
+  },
+  {
+    "name": "Minnesota St Depot - Monolith*",
+    "lat": 37.75,
+    "lng": -122.39,
+    "first_seen": "2023-02-27",
+    "last_seen": "2023-03-23",
+    "aliases": []
+  },
+  {
+    "name": "Mint St at Mission St",
+    "lat": 37.782309,
+    "lng": -122.407345,
+    "first_seen": "2019-08-10",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Mission Bay Kids Park",
+    "lat": 37.772326,
+    "lng": -122.392991,
+    "first_seen": "2018-06-08",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Mission Dolores Park",
+    "lat": 37.76142,
+    "lng": -122.426461,
+    "first_seen": "2017-07-28",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Mission Playground",
+    "lat": 37.759162,
+    "lng": -122.421384,
+    "first_seen": "2017-07-27",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Mission Rock St at 3rd St",
+    "lat": 37.772886,
+    "lng": -122.38994,
+    "first_seen": "2018-08-09",
+    "last_seen": "2018-12-31",
+    "aliases": []
+  },
+  {
+    "name": "Mission St at 1st St",
+    "lat": 37.350938,
+    "lng": -121.902037,
+    "first_seen": "2017-11-08",
+    "last_seen": "2026-05-30",
+    "aliases": []
+  },
+  {
+    "name": "Mission St at Beale St",
+    "lat": 37.791255,
+    "lng": -122.395632,
+    "first_seen": "2025-09-02",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Mission St at John Daly Blvd",
+    "lat": 37.705224,
+    "lng": -122.462392,
+    "first_seen": "2025-09-16",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Mississippi St at 17th St",
+    "lat": 37.764796,
+    "lng": -122.394775,
+    "first_seen": "2017-08-15",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Montgomery St BART",
+    "lat": 37.789629,
+    "lng": -122.400816,
+    "first_seen": "2024-05-22",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Montgomery St BART Station",
+    "lat": 37.791033,
+    "lng": -122.40297,
+    "first_seen": "2024-05-22",
+    "last_seen": "2024-05-22",
+    "aliases": []
+  },
+  {
+    "name": "Montgomery St BART Station (Market St at 2nd St)",
+    "lat": 37.789675,
+    "lng": -122.400876,
+    "first_seen": "2017-06-28",
+    "last_seen": "2024-05-22",
+    "aliases": []
+  },
+  {
+    "name": "Montgomery St at Pacific Ave",
+    "lat": 37.797178,
+    "lng": -122.40363,
+    "first_seen": "2022-01-25",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Mosswood Park",
+    "lat": 37.824901,
+    "lng": -122.260446,
+    "first_seen": "2017-07-11",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Myrtle St at Polk St",
+    "lat": 37.785471,
+    "lng": -122.419414,
+    "first_seen": "2018-10-27",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "N 14th St at E Santa Clara St",
+    "lat": 37.342691,
+    "lng": -121.877314,
+    "first_seen": "2019-09-27",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "N 3rd St at E Taylor St",
+    "lat": 37.349997,
+    "lng": -121.898009,
+    "first_seen": "2019-09-01",
+    "last_seen": "2019-12-02",
+    "aliases": []
+  },
+  {
+    "name": "N Morrison Ave at W Julian St",
+    "lat": 37.333689,
+    "lng": -121.908632,
+    "first_seen": "2017-07-18",
+    "last_seen": "2026-05-31",
+    "aliases": [
+      "Morrison Ave at Julian St",
+      "W Julian St at N Morrison St"
+    ]
+  },
+  {
+    "name": "NULL",
+    "lat": 37.404202,
+    "lng": -121.939903,
+    "first_seen": "2018-06-07",
+    "last_seen": "2019-05-27",
+    "aliases": []
+  },
+  {
+    "name": "Natoma St at 1st St",
+    "lat": 37.788827,
+    "lng": -122.396839,
+    "first_seen": "2025-10-22",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Natoma St at New Montgomery St",
+    "lat": 37.786535,
+    "lng": -122.399768,
+    "first_seen": "2019-08-01",
+    "last_seen": "2025-08-04",
+    "aliases": []
+  },
+  {
+    "name": "Newbury Park Dr at King Rd",
+    "lat": 37.365572,
+    "lng": -121.86793,
+    "first_seen": "2019-10-18",
+    "last_seen": "2026-03-22",
+    "aliases": []
+  },
+  {
+    "name": "Newhall St at 3rd St",
+    "lat": 37.73856,
+    "lng": -122.389627,
+    "first_seen": "2018-09-20",
+    "last_seen": "2020-07-27",
+    "aliases": []
+  },
+  {
+    "name": "Ninth St at Heinz Ave",
+    "lat": 37.853502,
+    "lng": -122.289522,
+    "first_seen": "2017-11-17",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Ninth St at Parker St",
+    "lat": 37.858868,
+    "lng": -122.291208,
+    "first_seen": "2017-11-24",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Ninth St at University Ave",
+    "lat": 37.868457,
+    "lng": -122.29431,
+    "first_seen": "2024-10-04",
+    "last_seen": "2025-02-20",
+    "aliases": []
+  },
+  {
+    "name": "North Berkeley BART",
+    "lat": 37.873855,
+    "lng": -122.282987,
+    "first_seen": "2024-05-22",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "North Berkeley BART Station",
+    "lat": 37.87365,
+    "lng": -122.283072,
+    "first_seen": "2017-11-16",
+    "last_seen": "2024-05-22",
+    "aliases": []
+  },
+  {
+    "name": "North Point St at Grant Ave",
+    "lat": 37.807168,
+    "lng": -122.409246,
+    "first_seen": "2021-03-26",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "North Point St at Polk St",
+    "lat": 37.805432,
+    "lng": -122.423104,
+    "first_seen": "2021-03-24",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "North Point St at Powell St",
+    "lat": 37.806924,
+    "lng": -122.41152,
+    "first_seen": "2021-05-05",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "O'Farrell St at Divisadero St",
+    "lat": 37.782405,
+    "lng": -122.439481,
+    "first_seen": "2017-08-03",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "O'Farrell St at Masonic Ave",
+    "lat": 37.781136,
+    "lng": -122.447346,
+    "first_seen": "2019-11-07",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Oak St at 1st St",
+    "lat": 37.322128,
+    "lng": -121.881097,
+    "first_seen": "2018-02-23",
+    "last_seen": "2026-05-29",
+    "aliases": []
+  },
+  {
+    "name": "Oakdale Ave at Phelps St",
+    "lat": 37.737036,
+    "lng": -122.394475,
+    "first_seen": "2019-09-27",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Ocean Ave West: To Fairfield Way",
+    "lat": 37.72493,
+    "lng": -122.461508,
+    "first_seen": "2023-11-15",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Ocean Avenue East: to Plymouth Ave",
+    "lat": 37.724419,
+    "lng": -122.45881,
+    "first_seen": "2023-11-15",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Ocean Avenue at Fairfield Way to Plymouth Ave East",
+    "lat": 37.724419,
+    "lng": -122.458897,
+    "first_seen": "2023-11-02",
+    "last_seen": "2023-11-10",
+    "aliases": [
+      "Ocean-2E"
+    ]
+  },
+  {
+    "name": "Ocean Avenue at Fairfield Way to Plymouth Ave West",
+    "lat": 37.725186,
+    "lng": -122.462107,
+    "first_seen": "2023-11-04",
+    "last_seen": "2023-11-14",
+    "aliases": []
+  },
+  {
+    "name": "Ocean Blvd at Lagunitas Dr to Junipero Sera Blvd",
+    "lat": 37.731665,
+    "lng": -122.472969,
+    "first_seen": "2023-11-03",
+    "last_seen": "2023-11-11",
+    "aliases": []
+  },
+  {
+    "name": "Ocean Blvd: Lagunitas Dr to Junipero Sera Blvd",
+    "lat": 37.731658,
+    "lng": -122.47332,
+    "first_seen": "2023-11-15",
+    "last_seen": "2024-04-21",
+    "aliases": []
+  },
+  {
+    "name": "Ocean-2W",
+    "lat": 37.725187,
+    "lng": -122.461989,
+    "first_seen": "2023-11-02",
+    "last_seen": "2023-11-02",
+    "aliases": []
+  },
+  {
+    "name": "Octavia Blvd at Page St",
+    "lat": 37.774054,
+    "lng": -122.423816,
+    "first_seen": "2019-04-09",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Octavia St at Hayes St",
+    "lat": 37.779125,
+    "lng": -122.421316,
+    "first_seen": "2023-02-23",
+    "last_seen": "2023-06-12",
+    "aliases": []
+  },
+  {
+    "name": "Old Hastings Monolith",
+    "lat": 37.774576,
+    "lng": -122.414074,
+    "first_seen": "2023-05-23",
+    "last_seen": "2023-05-23",
+    "aliases": []
+  },
+  {
+    "name": "Oregon St at Adeline St",
+    "lat": 37.857568,
+    "lng": -122.267557,
+    "first_seen": "2017-10-12",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Ortega St at 40th Ave",
+    "lat": 37.751408,
+    "lng": -122.498601,
+    "first_seen": "2023-03-08",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Otis St at Brady St",
+    "lat": 37.772214,
+    "lng": -122.419943,
+    "first_seen": "2020-01-16",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Outside Lands",
+    "lat": 37.770781,
+    "lng": -122.47919,
+    "first_seen": "2023-08-11",
+    "last_seen": "2025-08-18",
+    "aliases": []
+  },
+  {
+    "name": "Outside Lands (Temporary Station)",
+    "lat": 37.770745,
+    "lng": -122.478865,
+    "first_seen": "2019-08-09",
+    "last_seen": "2022-08-08",
+    "aliases": []
+  },
+  {
+    "name": "Outside Lands 2018 (Temporary Station)",
+    "lat": 37.771104,
+    "lng": -122.473658,
+    "first_seen": "2018-08-10",
+    "last_seen": "2018-08-12",
+    "aliases": []
+  },
+  {
+    "name": "Outside Lands-Temp (John F Kennedy Dr at Transverse Dr)",
+    "lat": 37.77079,
+    "lng": -122.479298,
+    "first_seen": "2023-08-10",
+    "last_seen": "2023-08-11",
+    "aliases": []
+  },
+  {
+    "name": "Page St at Masonic Ave",
+    "lat": 37.771148,
+    "lng": -122.445342,
+    "first_seen": "2022-01-11",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Page St at Scott St",
+    "lat": 37.772365,
+    "lng": -122.435825,
+    "first_seen": "2017-08-08",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Palm St at Willow St",
+    "lat": 37.317261,
+    "lng": -121.884957,
+    "first_seen": "2017-09-22",
+    "last_seen": "2026-05-30",
+    "aliases": []
+  },
+  {
+    "name": "Park Ave at Laurel Grove Ln",
+    "lat": 37.326283,
+    "lng": -121.904968,
+    "first_seen": "2019-12-13",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Park Ave at Race St",
+    "lat": 37.326014,
+    "lng": -121.912337,
+    "first_seen": "2019-04-21",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Parker Ave at McAllister St",
+    "lat": 37.776127,
+    "lng": -122.4531,
+    "first_seen": "2019-02-27",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Parker St at Fulton St",
+    "lat": 37.862464,
+    "lng": -122.264789,
+    "first_seen": "2017-11-24",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Parkmoor Ave at Race St",
+    "lat": 37.316751,
+    "lng": -121.909956,
+    "first_seen": "2019-04-11",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Parque Ninos Unidos",
+    "lat": 37.754358,
+    "lng": -122.413244,
+    "first_seen": "2024-10-10",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Paseo De San Antonio at 2nd St",
+    "lat": 37.333804,
+    "lng": -121.886952,
+    "first_seen": "2017-07-18",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Piedmont Ave at MacArthur Blvd",
+    "lat": 37.823143,
+    "lng": -122.256951,
+    "first_seen": "2025-06-19",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Pier 1/2 at The Embarcadero",
+    "lat": 37.796395,
+    "lng": -122.394587,
+    "first_seen": "2019-09-11",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Pier 1/2 at The Embarcadero Virtual Station",
+    "lat": 37.796362,
+    "lng": -122.394632,
+    "first_seen": "2026-03-13",
+    "last_seen": "2026-05-31",
+    "aliases": [
+      "Pier 1/2 at The Embarcadero Overflow"
+    ]
+  },
+  {
+    "name": "Pier 27 Virtual Station",
+    "lat": 37.804904,
+    "lng": -122.402487,
+    "first_seen": "2026-04-15",
+    "last_seen": "2026-05-21",
+    "aliases": []
+  },
+  {
+    "name": "Pierce Ave at Market St",
+    "lat": 37.327567,
+    "lng": -121.884587,
+    "first_seen": "2017-12-20",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Pierce St at Haight St",
+    "lat": 37.77182,
+    "lng": -122.433724,
+    "first_seen": "2018-03-07",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Pine St at Market St",
+    "lat": 37.79246,
+    "lng": -122.397929,
+    "first_seen": "2025-02-26",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Polk St at Bush St",
+    "lat": 37.788472,
+    "lng": -122.420322,
+    "first_seen": "2023-10-12",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Polk St at Golden Gate Ave",
+    "lat": 37.781433,
+    "lng": -122.418878,
+    "first_seen": "2023-09-06",
+    "last_seen": "2026-05-29",
+    "aliases": []
+  },
+  {
+    "name": "Polk St at Post St",
+    "lat": 37.786999,
+    "lng": -122.420029,
+    "first_seen": "2022-01-13",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Pompei Circle at JFK Dr",
+    "lat": 37.77169,
+    "lng": -122.458284,
+    "first_seen": "2024-05-22",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Pompei Circle at John F Kennedy Dr",
+    "lat": 37.77163,
+    "lng": -122.458296,
+    "first_seen": "2023-08-06",
+    "last_seen": "2024-05-22",
+    "aliases": []
+  },
+  {
+    "name": "Post St at Baker St",
+    "lat": 37.783977,
+    "lng": -122.442847,
+    "first_seen": "2020-06-25",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Post St at Divisadero St",
+    "lat": 37.784401,
+    "lng": -122.439367,
+    "first_seen": "2019-10-02",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Post St at Kearny St",
+    "lat": 37.78896,
+    "lng": -122.403461,
+    "first_seen": "2017-06-28",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Post St at Laguna St",
+    "lat": 37.78658,
+    "lng": -122.428296,
+    "first_seen": "2023-04-06",
+    "last_seen": "2026-04-17",
+    "aliases": []
+  },
+  {
+    "name": "Post St at Laguna St (Temporary for Post St at Webster)",
+    "lat": 37.785854,
+    "lng": -122.428,
+    "first_seen": "2022-04-07",
+    "last_seen": "2022-04-19",
+    "aliases": []
+  },
+  {
+    "name": "Post St at Webster St",
+    "lat": 37.785387,
+    "lng": -122.431744,
+    "first_seen": "2020-02-06",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Potrero Ave at 15th St (Temporary Location)",
+    "lat": 37.766629,
+    "lng": -122.407706,
+    "first_seen": "2018-08-01",
+    "last_seen": "2018-12-31",
+    "aliases": []
+  },
+  {
+    "name": "Potrero Ave at Mariposa St",
+    "lat": 37.763332,
+    "lng": -122.407395,
+    "first_seen": "2018-01-25",
+    "last_seen": "2026-05-31",
+    "aliases": [
+      "Potrero Ave and Mariposa St"
+    ]
+  },
+  {
+    "name": "Potrero del Sol Park",
+    "lat": 37.751741,
+    "lng": -122.405251,
+    "first_seen": "2024-05-22",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Potrero del Sol Park (25th St at Utah St)",
+    "lat": 37.75181,
+    "lng": -122.40532,
+    "first_seen": "2018-10-18",
+    "last_seen": "2024-05-22",
+    "aliases": []
+  },
+  {
+    "name": "Powell St BART North",
+    "lat": 37.786142,
+    "lng": -122.405237,
+    "first_seen": "2024-05-22",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Powell St BART South",
+    "lat": 37.783894,
+    "lng": -122.408446,
+    "first_seen": "2017-06-28",
+    "last_seen": "2026-05-31",
+    "aliases": [
+      "Powell St BART Station (Market St at 5th St)"
+    ]
+  },
+  {
+    "name": "Powell St BART Station (Market St at 4th St)",
+    "lat": 37.786282,
+    "lng": -122.405058,
+    "first_seen": "2017-06-29",
+    "last_seen": "2024-05-22",
+    "aliases": []
+  },
+  {
+    "name": "Powell St at Admiral Dr",
+    "lat": 37.837069,
+    "lng": -122.306564,
+    "first_seen": "2025-11-05",
+    "last_seen": "2025-12-08",
+    "aliases": []
+  },
+  {
+    "name": "Powell St at Bay St",
+    "lat": 37.80607,
+    "lng": -122.412017,
+    "first_seen": "2021-03-25",
+    "last_seen": "2021-05-07",
+    "aliases": []
+  },
+  {
+    "name": "Powell St at Columbus Ave",
+    "lat": 37.80047,
+    "lng": -122.410886,
+    "first_seen": "2019-11-15",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Powell St at Commodore Dr",
+    "lat": 37.837025,
+    "lng": -122.304827,
+    "first_seen": "2025-12-11",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Powell St at Green St",
+    "lat": 37.799141,
+    "lng": -122.410687,
+    "first_seen": "2025-06-11",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Precita Park",
+    "lat": 37.747279,
+    "lng": -122.41132,
+    "first_seen": "2017-08-02",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Prototype Lab",
+    "lat": 37.720035,
+    "lng": -122.495241,
+    "first_seen": "2019-10-22",
+    "last_seen": "2019-10-24",
+    "aliases": []
+  },
+  {
+    "name": "Quesada Ave at 3rd St",
+    "lat": 37.733128,
+    "lng": -122.390974,
+    "first_seen": "2019-10-03",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Quintara St at 22nd Ave to 21st Ave",
+    "lat": 37.748572,
+    "lng": -122.479091,
+    "first_seen": "2023-11-03",
+    "last_seen": "2023-11-14",
+    "aliases": []
+  },
+  {
+    "name": "Quintara St at Great Highway",
+    "lat": 37.74733,
+    "lng": -122.507533,
+    "first_seen": "2024-10-16",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Quintara at 21st",
+    "lat": 37.748518,
+    "lng": -122.47841,
+    "first_seen": "2023-11-20",
+    "last_seen": "2024-10-11",
+    "aliases": []
+  },
+  {
+    "name": "Raimondi Park",
+    "lat": 37.81493,
+    "lng": -122.292953,
+    "first_seen": "2024-06-06",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Randall St at Chenery St",
+    "lat": 37.739828,
+    "lng": -122.425532,
+    "first_seen": "2019-03-18",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Raymond Bernal Jr Memorial Park",
+    "lat": 37.356829,
+    "lng": -121.895933,
+    "first_seen": "2024-05-23",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Raymond Bernal Jr Memorial Park (8th St at Hedding St)",
+    "lat": 37.35673,
+    "lng": -121.89587,
+    "first_seen": "2019-03-23",
+    "last_seen": "2024-05-20",
+    "aliases": []
+  },
+  {
+    "name": "Raymond Kimbell Playground",
+    "lat": 37.783793,
+    "lng": -122.434551,
+    "first_seen": "2017-08-10",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Rhode Island St at 16th St",
+    "lat": 37.765684,
+    "lng": -122.402583,
+    "first_seen": "2026-04-14",
+    "last_seen": "2026-05-22",
+    "aliases": []
+  },
+  {
+    "name": "Rhode Island St at 17th St",
+    "lat": 37.764461,
+    "lng": -122.402571,
+    "first_seen": "2017-08-08",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Rio Verde St at Geneva Ave",
+    "lat": 37.707293,
+    "lng": -122.415672,
+    "first_seen": "2025-10-26",
+    "last_seen": "2026-05-30",
+    "aliases": []
+  },
+  {
+    "name": "Rivera St at The Great Highway",
+    "lat": 37.745534,
+    "lng": -122.5074,
+    "first_seen": "2023-11-03",
+    "last_seen": "2023-11-12",
+    "aliases": [
+      "Rivera-1"
+    ]
+  },
+  {
+    "name": "Rockridge BART",
+    "lat": 37.844276,
+    "lng": -122.251899,
+    "first_seen": "2018-01-11",
+    "last_seen": "2026-05-31",
+    "aliases": [
+      "Rockridge BART Station"
+    ]
+  },
+  {
+    "name": "Russell St at College Ave",
+    "lat": 37.858473,
+    "lng": -122.253254,
+    "first_seen": "2017-10-20",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Russell St at Ellsworth St",
+    "lat": 37.857372,
+    "lng": -122.261771,
+    "first_seen": "2022-09-23",
+    "last_seen": "2022-10-31",
+    "aliases": []
+  },
+  {
+    "name": "Russia Ave at Madrid St",
+    "lat": 37.720035,
+    "lng": -122.433815,
+    "first_seen": "2023-09-14",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Ryland Park",
+    "lat": 37.342723,
+    "lng": -121.895623,
+    "first_seen": "2017-07-18",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "S Outer Mission - Point 1",
+    "lat": 37.710755,
+    "lng": -122.447692,
+    "first_seen": "2025-10-11",
+    "last_seen": "2026-03-12",
+    "aliases": []
+  },
+  {
+    "name": "S Park St at 2nd St",
+    "lat": 37.782201,
+    "lng": -122.392945,
+    "first_seen": "2023-04-20",
+    "last_seen": "2024-05-22",
+    "aliases": []
+  },
+  {
+    "name": "S Van Ness Ave at Market St",
+    "lat": 37.774803,
+    "lng": -122.418982,
+    "first_seen": "2017-06-28",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "S. 4th St at San Carlos St",
+    "lat": 37.332683,
+    "lng": -121.883798,
+    "first_seen": "2017-07-12",
+    "last_seen": "2018-07-31",
+    "aliases": []
+  },
+  {
+    "name": "SAP Center",
+    "lat": 37.332717,
+    "lng": -121.900096,
+    "first_seen": "2017-07-18",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "SF Depot-2 (Minnesota St Outbound)",
+    "lat": 37.758711,
+    "lng": -122.400356,
+    "first_seen": "2020-05-30",
+    "last_seen": "2023-08-15",
+    "aliases": []
+  },
+  {
+    "name": "SF STATION IN A BOX 1",
+    "lat": 37.775781,
+    "lng": -122.392794,
+    "first_seen": "2021-06-02",
+    "last_seen": "2021-06-10",
+    "aliases": []
+  },
+  {
+    "name": "SFSU Park East",
+    "lat": 37.725604,
+    "lng": -122.476561,
+    "first_seen": "2022-02-19",
+    "last_seen": "2026-05-31",
+    "aliases": [
+      "SFSU University Park North - East"
+    ]
+  },
+  {
+    "name": "SFSU Park West",
+    "lat": 37.726271,
+    "lng": -122.479463,
+    "first_seen": "2022-02-18",
+    "last_seen": "2026-05-30",
+    "aliases": [
+      "SFSU University Park North - West"
+    ]
+  },
+  {
+    "name": "Saint James Park",
+    "lat": 37.339298,
+    "lng": -121.889933,
+    "first_seen": "2017-09-27",
+    "last_seen": "2026-05-30",
+    "aliases": []
+  },
+  {
+    "name": "Saint James St at 9th St",
+    "lat": 37.343204,
+    "lng": -121.884392,
+    "first_seen": "2024-05-23",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Saint Joseph's Ave at Geary Blvd",
+    "lat": 37.782564,
+    "lng": -122.442185,
+    "first_seen": "2024-05-22",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Salesforce Tower Virtual Station",
+    "lat": 37.789445,
+    "lng": -122.396931,
+    "first_seen": "2026-04-07",
+    "last_seen": "2026-05-30",
+    "aliases": []
+  },
+  {
+    "name": "Salesforce Transit Center",
+    "lat": 37.787493,
+    "lng": -122.398286,
+    "first_seen": "2018-08-10",
+    "last_seen": "2026-05-31",
+    "aliases": [
+      "Salesforce Transit Center (Natoma St at 2nd St)"
+    ]
+  },
+  {
+    "name": "Salesforce Transit Center Virtual Station",
+    "lat": 37.787645,
+    "lng": -122.398097,
+    "first_seen": "2026-02-24",
+    "last_seen": "2026-05-28",
+    "aliases": [
+      "Salesforce Transit Center Overflow",
+      "VIRTUAL STATION - Transbay Terminal"
+    ]
+  },
+  {
+    "name": "San Antonio Park",
+    "lat": 37.79014,
+    "lng": -122.242374,
+    "first_seen": "2017-07-29",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "San Bruno Ave at 16th St",
+    "lat": 37.766008,
+    "lng": -122.405677,
+    "first_seen": "2017-08-08",
+    "last_seen": "2018-07-31",
+    "aliases": []
+  },
+  {
+    "name": "San Carlos St at 11th St",
+    "lat": 37.336463,
+    "lng": -121.876623,
+    "first_seen": "2017-07-18",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "San Carlos St at Market St",
+    "lat": 37.330711,
+    "lng": -121.888968,
+    "first_seen": "2017-07-18",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "San Carlos St at Meridian Ave",
+    "lat": 37.323351,
+    "lng": -121.913486,
+    "first_seen": "2019-05-18",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "San Fernando St at 4th St",
+    "lat": 37.335888,
+    "lng": -121.885656,
+    "first_seen": "2017-07-18",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "San Fernando St at 7th St",
+    "lat": 37.337119,
+    "lng": -121.883223,
+    "first_seen": "2019-01-01",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "San Fernando at 7th St",
+    "lat": 37.337246,
+    "lng": -121.883074,
+    "first_seen": "2017-07-18",
+    "last_seen": "2018-07-31",
+    "aliases": []
+  },
+  {
+    "name": "San Francisco Caltrain Station - 4th St",
+    "lat": 37.776455,
+    "lng": -122.394379,
+    "first_seen": "2024-07-01",
+    "last_seen": "2026-05-31",
+    "aliases": [
+      "San Francisco Caltrain North"
+    ]
+  },
+  {
+    "name": "San Francisco Caltrain Station - King St",
+    "lat": 37.776324,
+    "lng": -122.394481,
+    "first_seen": "2019-09-05",
+    "last_seen": "2026-05-31",
+    "aliases": [
+      "San Francisco Caltrain East",
+      "San Francisco Caltrain Station (King St at 4th St)",
+      "San Francisco Caltrain Station East"
+    ]
+  },
+  {
+    "name": "San Francisco Caltrain Station - Townsend St",
+    "lat": 37.776602,
+    "lng": -122.395286,
+    "first_seen": "2017-06-28",
+    "last_seen": "2026-05-31",
+    "aliases": [
+      "San Francisco Caltrain (Townsend St at 4th St)",
+      "San Francisco Caltrain West",
+      "San Francsico Caltrain Station - Townsend St"
+    ]
+  },
+  {
+    "name": "San Francisco Caltrain Station 2  (Townsend St at 4th St)",
+    "lat": 37.776639,
+    "lng": -122.395526,
+    "first_seen": "2017-06-29",
+    "last_seen": "2019-09-05",
+    "aliases": []
+  },
+  {
+    "name": "San Francisco City Hall",
+    "lat": 37.778833,
+    "lng": -122.41816,
+    "first_seen": "2024-05-22",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "San Francisco City Hall (Polk St at Grove St)",
+    "lat": 37.778741,
+    "lng": -122.418195,
+    "first_seen": "2017-06-28",
+    "last_seen": "2024-05-22",
+    "aliases": []
+  },
+  {
+    "name": "San Francisco Ferry Building",
+    "lat": 37.795392,
+    "lng": -122.394203,
+    "first_seen": "2017-06-28",
+    "last_seen": "2026-05-31",
+    "aliases": [
+      "San Francisco Ferry Building (Harry Bridges Plaza)"
+    ]
+  },
+  {
+    "name": "San Francisco Public Library",
+    "lat": 37.778798,
+    "lng": -122.415975,
+    "first_seen": "2017-07-27",
+    "last_seen": "2026-05-31",
+    "aliases": [
+      "San Francisco Public Library (Grove St at Hyde St)"
+    ]
+  },
+  {
+    "name": "San Jose City Hall",
+    "lat": 37.337394,
+    "lng": -121.887002,
+    "first_seen": "2017-07-18",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "San Jose City Hall Temporary",
+    "lat": 37.337591,
+    "lng": -121.887088,
+    "first_seen": "2026-03-19",
+    "last_seen": "2026-03-25",
+    "aliases": []
+  },
+  {
+    "name": "San Jose Depot",
+    "lat": 37.343818,
+    "lng": -121.914963,
+    "first_seen": "2019-06-10",
+    "last_seen": "2023-11-03",
+    "aliases": []
+  },
+  {
+    "name": "San Jose Diridon Station",
+    "lat": 37.329733,
+    "lng": -121.901779,
+    "first_seen": "2017-07-18",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "San Pablo Ave at 27th St",
+    "lat": 37.817827,
+    "lng": -122.275698,
+    "first_seen": "2017-11-11",
+    "last_seen": "2024-02-18",
+    "aliases": []
+  },
+  {
+    "name": "San Pablo Ave at MLK Jr Way",
+    "lat": 37.811349,
+    "lng": -122.27342,
+    "first_seen": "2017-07-11",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "San Pablo Park",
+    "lat": 37.855784,
+    "lng": -122.283127,
+    "first_seen": "2018-04-17",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "San Pedro Square",
+    "lat": 37.336816,
+    "lng": -121.894099,
+    "first_seen": "2017-10-19",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "San Pedro St at Hedding St",
+    "lat": 37.352549,
+    "lng": -121.905669,
+    "first_seen": "2018-03-24",
+    "last_seen": "2026-05-29",
+    "aliases": []
+  },
+  {
+    "name": "San Salvador St at 1st St",
+    "lat": 37.330165,
+    "lng": -121.885831,
+    "first_seen": "2017-07-18",
+    "last_seen": "2019-04-30",
+    "aliases": []
+  },
+  {
+    "name": "San Salvador St at 9th St",
+    "lat": 37.333955,
+    "lng": -121.877357,
+    "first_seen": "2017-07-18",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Sanchez St at 15th St",
+    "lat": 37.766234,
+    "lng": -122.431067,
+    "first_seen": "2017-08-28",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Sanchez St at 17th St",
+    "lat": 37.763255,
+    "lng": -122.430681,
+    "first_seen": "2017-07-20",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Sanchez St at 24th St",
+    "lat": 37.751715,
+    "lng": -122.429649,
+    "first_seen": "2024-12-24",
+    "last_seen": "2025-08-26",
+    "aliases": []
+  },
+  {
+    "name": "Sansome St at Sutter St",
+    "lat": 37.790548,
+    "lng": -122.400604,
+    "first_seen": "2024-12-27",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Santa Clara St at 7th St",
+    "lat": 37.339136,
+    "lng": -121.884097,
+    "first_seen": "2017-07-19",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Santa Clara St at Almaden Blvd",
+    "lat": 37.33399,
+    "lng": -121.894902,
+    "first_seen": "2017-07-18",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "School St at Bruno Ave",
+    "lat": 37.69343,
+    "lng": -122.46573,
+    "first_seen": "2025-10-23",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Scott St at California St",
+    "lat": 37.788055,
+    "lng": -122.43881,
+    "first_seen": "2022-02-03",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Scott St at Golden Gate Ave",
+    "lat": 37.779083,
+    "lng": -122.436889,
+    "first_seen": "2017-08-15",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Scott St at Turk St",
+    "lat": 37.779725,
+    "lng": -122.437023,
+    "first_seen": "2023-05-12",
+    "last_seen": "2023-09-11",
+    "aliases": []
+  },
+  {
+    "name": "Second St at Oak St",
+    "lat": 37.792832,
+    "lng": -122.268278,
+    "first_seen": "2025-06-18",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Shafter Ave at Cavour St",
+    "lat": 37.837947,
+    "lng": -122.257243,
+    "first_seen": "2017-10-27",
+    "last_seen": "2018-06-30",
+    "aliases": []
+  },
+  {
+    "name": "Shattuck Ave at 51st St",
+    "lat": 37.836766,
+    "lng": -122.26398,
+    "first_seen": "2017-07-11",
+    "last_seen": "2021-02-09",
+    "aliases": []
+  },
+  {
+    "name": "Shattuck Ave at 55th St",
+    "lat": 37.840363,
+    "lng": -122.264487,
+    "first_seen": "2017-07-11",
+    "last_seen": "2026-05-31",
+    "aliases": [
+      "Shattuck Ave at 55th Ave"
+    ]
+  },
+  {
+    "name": "Shattuck Ave at Hearst Ave",
+    "lat": 37.87369,
+    "lng": -122.268505,
+    "first_seen": "2017-07-11",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Shattuck Ave at Telegraph Ave",
+    "lat": 37.833393,
+    "lng": -122.26358,
+    "first_seen": "2017-07-11",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Skyport Dr at Technology Dr",
+    "lat": 37.365257,
+    "lng": -121.916753,
+    "first_seen": "2019-03-28",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Sloat Blvd at The Great Highway to 46th Ave",
+    "lat": 37.735323,
+    "lng": -122.505317,
+    "first_seen": "2023-11-04",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Snow Park",
+    "lat": 37.807812,
+    "lng": -122.264497,
+    "first_seen": "2017-07-11",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Sonora Ave at 1st St",
+    "lat": 37.364049,
+    "lng": -121.911777,
+    "first_seen": "2019-03-21",
+    "last_seen": "2026-05-29",
+    "aliases": []
+  },
+  {
+    "name": "South Lake",
+    "lat": 37.764879,
+    "lng": -122.500505,
+    "first_seen": "2023-08-20",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "South Park St at 2nd St",
+    "lat": 37.782355,
+    "lng": -122.393129,
+    "first_seen": "2024-05-22",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "South Park St at 3rd St",
+    "lat": 37.780762,
+    "lng": -122.394985,
+    "first_seen": "2017-07-31",
+    "last_seen": "2026-05-31",
+    "aliases": [
+      "S Park St at 3rd St"
+    ]
+  },
+  {
+    "name": "South San Jose State",
+    "lat": 37.320316,
+    "lng": -121.870098,
+    "first_seen": "2019-05-14",
+    "last_seen": "2026-05-31",
+    "aliases": [
+      "South San Jose State (7th St at Humboldt St)"
+    ]
+  },
+  {
+    "name": "Spear St at Folsom St",
+    "lat": 37.789628,
+    "lng": -122.3904,
+    "first_seen": "2017-06-28",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Spruce St at California St",
+    "lat": 37.786607,
+    "lng": -122.453407,
+    "first_seen": "2020-03-13",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "St James St at 9th St",
+    "lat": 37.343122,
+    "lng": -121.884441,
+    "first_seen": "2019-12-13",
+    "last_seen": "2024-05-22",
+    "aliases": []
+  },
+  {
+    "name": "St Joseph's Ave at Geary Blvd",
+    "lat": 37.782527,
+    "lng": -122.442137,
+    "first_seen": "2020-02-06",
+    "last_seen": "2024-05-22",
+    "aliases": [
+      "St. Joseph's Ave at Geary Blvd"
+    ]
+  },
+  {
+    "name": "Stanford Ave at Hollis St",
+    "lat": 37.838444,
+    "lng": -122.288661,
+    "first_seen": "2017-09-02",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Stanyan St at Geary Blvd",
+    "lat": 37.780937,
+    "lng": -122.456294,
+    "first_seen": "2020-06-29",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Steiner St at California St",
+    "lat": 37.78854,
+    "lng": -122.435396,
+    "first_seen": "2019-11-01",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Steuart St at Market St",
+    "lat": 37.79413,
+    "lng": -122.39443,
+    "first_seen": "2017-07-10",
+    "last_seen": "2020-01-29",
+    "aliases": []
+  },
+  {
+    "name": "Stockton Ave at Lenzen Ave",
+    "lat": 37.336762,
+    "lng": -121.909126,
+    "first_seen": "2019-05-12",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Strawberry Creek Park",
+    "lat": 37.865242,
+    "lng": -122.286322,
+    "first_seen": "2026-04-29",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Sunol St at San Carlos St",
+    "lat": 37.323438,
+    "lng": -121.905978,
+    "first_seen": "2019-03-30",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Sutter St at Montgomery St",
+    "lat": 37.790042,
+    "lng": -122.401991,
+    "first_seen": "2025-03-13",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Sutter St at Taylor St",
+    "lat": 37.788737,
+    "lng": -122.41215,
+    "first_seen": "2025-06-09",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Tamien Station",
+    "lat": 37.313809,
+    "lng": -121.883158,
+    "first_seen": "2018-03-01",
+    "last_seen": "2018-10-16",
+    "aliases": []
+  },
+  {
+    "name": "Taraval St at 22nd St",
+    "lat": 37.743007,
+    "lng": -122.479352,
+    "first_seen": "2023-11-19",
+    "last_seen": "2026-05-30",
+    "aliases": []
+  },
+  {
+    "name": "Taraval St at 23rd Ave to 21st Ave",
+    "lat": 37.742906,
+    "lng": -122.479108,
+    "first_seen": "2023-11-04",
+    "last_seen": "2023-11-14",
+    "aliases": []
+  },
+  {
+    "name": "Taraval St at 27th Ave to 25th Ave",
+    "lat": 37.742674,
+    "lng": -122.483423,
+    "first_seen": "2023-11-02",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Taraval St at 41st Ave to 40th Ave",
+    "lat": 37.742064,
+    "lng": -122.498768,
+    "first_seen": "2023-11-02",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Taraval St at The Great Highway to 45th Ave",
+    "lat": 37.741764,
+    "lng": -122.506766,
+    "first_seen": "2023-11-03",
+    "last_seen": "2023-11-15",
+    "aliases": []
+  },
+  {
+    "name": "Taraval St: 41st St to 40th St",
+    "lat": 37.742095,
+    "lng": -122.498534,
+    "first_seen": "2023-11-15",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Taraval-4",
+    "lat": 37.742134,
+    "lng": -122.498403,
+    "first_seen": "2023-11-02",
+    "last_seen": "2023-11-02",
+    "aliases": []
+  },
+  {
+    "name": "Taylor St at 9th St",
+    "lat": 37.353058,
+    "lng": -121.891943,
+    "first_seen": "2019-02-14",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Taylor St at Columbus Ave",
+    "lat": 37.803297,
+    "lng": -122.414868,
+    "first_seen": "2023-05-25",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Taylor St at Pacific Ave",
+    "lat": 37.796209,
+    "lng": -122.413371,
+    "first_seen": "2025-07-23",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Tehama St at 1st St",
+    "lat": 37.788022,
+    "lng": -122.39564,
+    "first_seen": "2020-06-27",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Telegraph Ave at 19th St",
+    "lat": 37.808702,
+    "lng": -122.269928,
+    "first_seen": "2017-07-11",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Telegraph Ave at 23rd St",
+    "lat": 37.812678,
+    "lng": -122.268773,
+    "first_seen": "2017-07-11",
+    "last_seen": "2022-08-14",
+    "aliases": []
+  },
+  {
+    "name": "Telegraph Ave at 27th St",
+    "lat": 37.816071,
+    "lng": -122.267887,
+    "first_seen": "2017-07-11",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Telegraph Ave at 49th St",
+    "lat": 37.835751,
+    "lng": -122.262654,
+    "first_seen": "2020-07-29",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Telegraph Ave at 58th St",
+    "lat": 37.844494,
+    "lng": -122.261352,
+    "first_seen": "2017-07-11",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Telegraph Ave at Alcatraz Ave",
+    "lat": 37.850218,
+    "lng": -122.260175,
+    "first_seen": "2017-07-11",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Telegraph Ave at Ashby Ave",
+    "lat": 37.855955,
+    "lng": -122.259796,
+    "first_seen": "2017-07-11",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Telegraph Ave at Carleton St",
+    "lat": 37.862313,
+    "lng": -122.258801,
+    "first_seen": "2017-12-05",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Templeton Ave at Mission St",
+    "lat": 37.707854,
+    "lng": -122.454939,
+    "first_seen": "2025-09-17",
+    "last_seen": "2026-05-30",
+    "aliases": []
+  },
+  {
+    "name": "Tenth St at Gilman St",
+    "lat": 37.880858,
+    "lng": -122.297229,
+    "first_seen": "2026-04-24",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Terry Francois Blvd at Mission Bay Blvd N",
+    "lat": 37.771706,
+    "lng": -122.386687,
+    "first_seen": "2019-09-04",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Terry Francois Blvd at Warriors Way",
+    "lat": 37.769121,
+    "lng": -122.386327,
+    "first_seen": "2019-09-03",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Test",
+    "lat": 37.750815,
+    "lng": -122.402663,
+    "first_seen": "2026-05-01",
+    "last_seen": "2026-05-01",
+    "aliases": [
+      "Long Beach City Hall"
+    ]
+  },
+  {
+    "name": "The Alameda at Bush St",
+    "lat": 37.331932,
+    "lng": -121.904902,
+    "first_seen": "2017-07-25",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "The Embarcadero at Bryant St",
+    "lat": 37.787261,
+    "lng": -122.388111,
+    "first_seen": "2017-06-28",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "The Embarcadero at Pier 38",
+    "lat": 37.782956,
+    "lng": -122.387935,
+    "first_seen": "2019-09-20",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "The Embarcadero at Sansome St",
+    "lat": 37.80477,
+    "lng": -122.403239,
+    "first_seen": "2017-06-28",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "The Embarcadero at Steuart St",
+    "lat": 37.79143,
+    "lng": -122.391036,
+    "first_seen": "2017-06-28",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "The Embarcadero at Vallejo St",
+    "lat": 37.79995,
+    "lng": -122.398525,
+    "first_seen": "2017-06-28",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Toland St at Jerrold Ave",
+    "lat": 37.743869,
+    "lng": -122.398875,
+    "first_seen": "2024-05-30",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Tom Bates Sports Complex",
+    "lat": 37.87777,
+    "lng": -122.308899,
+    "first_seen": "2026-04-22",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Torney Ave at Lincoln Blvd",
+    "lat": 37.799679,
+    "lng": -122.452595,
+    "first_seen": "2022-02-10",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Townsend St at 5th St",
+    "lat": 37.775241,
+    "lng": -122.39744,
+    "first_seen": "2017-08-18",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Townsend St at 6th St",
+    "lat": 37.773233,
+    "lng": -122.400009,
+    "first_seen": "2020-08-20",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Townsend St at 7th St",
+    "lat": 37.771059,
+    "lng": -122.402716,
+    "first_seen": "2017-06-28",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Turk Blvd at Stanyan St",
+    "lat": 37.777615,
+    "lng": -122.454615,
+    "first_seen": "2019-10-12",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Turk St at Fillmore St",
+    "lat": 37.780475,
+    "lng": -122.431932,
+    "first_seen": "2018-08-13",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Union Square",
+    "lat": 37.788309,
+    "lng": -122.408524,
+    "first_seen": "2024-05-22",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Union Square (Powell St at Post St)",
+    "lat": 37.788346,
+    "lng": -122.408489,
+    "first_seen": "2017-06-28",
+    "last_seen": "2024-05-22",
+    "aliases": []
+  },
+  {
+    "name": "Union St at 10th St",
+    "lat": 37.80724,
+    "lng": -122.28937,
+    "first_seen": "2017-07-26",
+    "last_seen": "2024-08-03",
+    "aliases": []
+  },
+  {
+    "name": "University Ave at Oxford St",
+    "lat": 37.872355,
+    "lng": -122.266448,
+    "first_seen": "2017-12-16",
+    "last_seen": "2025-10-03",
+    "aliases": []
+  },
+  {
+    "name": "Utah St at 24th St",
+    "lat": 37.753231,
+    "lng": -122.40549,
+    "first_seen": "2019-08-30",
+    "last_seen": "2023-09-28",
+    "aliases": []
+  },
+  {
+    "name": "Valencia St at 16th St",
+    "lat": 37.765282,
+    "lng": -122.421892,
+    "first_seen": "2017-07-13",
+    "last_seen": "2025-04-02",
+    "aliases": []
+  },
+  {
+    "name": "Valencia St at 21st St",
+    "lat": 37.756713,
+    "lng": -122.421049,
+    "first_seen": "2017-08-04",
+    "last_seen": "2025-03-31",
+    "aliases": []
+  },
+  {
+    "name": "Valencia St at 22nd St",
+    "lat": 37.755197,
+    "lng": -122.420979,
+    "first_seen": "2017-08-09",
+    "last_seen": "2025-04-02",
+    "aliases": []
+  },
+  {
+    "name": "Valencia St at 24th St",
+    "lat": 37.752435,
+    "lng": -122.420637,
+    "first_seen": "2017-08-09",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Valencia St at Cesar Chavez St",
+    "lat": 37.747834,
+    "lng": -122.420212,
+    "first_seen": "2017-08-04",
+    "last_seen": "2024-02-15",
+    "aliases": []
+  },
+  {
+    "name": "Valencia St at Clinton Park",
+    "lat": 37.769043,
+    "lng": -122.422257,
+    "first_seen": "2018-06-14",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Valencia St at Duncan St",
+    "lat": 37.746908,
+    "lng": -122.4201,
+    "first_seen": "2024-02-15",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Vallejo St at 66th St",
+    "lat": 37.848359,
+    "lng": -122.288612,
+    "first_seen": "2025-10-28",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Vicente St at 26th Ave",
+    "lat": 37.73893,
+    "lng": -122.48315,
+    "first_seen": "2024-10-18",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Vicente St at 27th Ave",
+    "lat": 37.738906,
+    "lng": -122.484184,
+    "first_seen": "2025-08-07",
+    "last_seen": "2025-09-04",
+    "aliases": []
+  },
+  {
+    "name": "Vicksburg St at 24th St",
+    "lat": 37.751501,
+    "lng": -122.428524,
+    "first_seen": "2024-12-05",
+    "last_seen": "2024-12-05",
+    "aliases": []
+  },
+  {
+    "name": "Victoria Manalo Draves Park",
+    "lat": 37.77772,
+    "lng": -122.406341,
+    "first_seen": "2017-06-28",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Vincente St at Great Hwy",
+    "lat": 37.737998,
+    "lng": -122.506299,
+    "first_seen": "2023-11-24",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Vincente St at The Great Highway",
+    "lat": 37.738843,
+    "lng": -122.506547,
+    "first_seen": "2023-11-04",
+    "last_seen": "2023-11-12",
+    "aliases": []
+  },
+  {
+    "name": "Vine St at Shattuck Ave",
+    "lat": 37.880222,
+    "lng": -122.269594,
+    "first_seen": "2017-12-11",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Virginia St at Shattuck Ave",
+    "lat": 37.876573,
+    "lng": -122.269528,
+    "first_seen": "2018-03-16",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Viva Calle SJ",
+    "lat": 37.26331,
+    "lng": -121.833332,
+    "first_seen": "2018-09-23",
+    "last_seen": "2018-09-23",
+    "aliases": []
+  },
+  {
+    "name": "W Bayview - Point 1",
+    "lat": 37.739678,
+    "lng": -122.399146,
+    "first_seen": "2025-10-10",
+    "last_seen": "2025-10-26",
+    "aliases": []
+  },
+  {
+    "name": "W St John St at Guadalupe River Trail",
+    "lat": 37.335388,
+    "lng": -121.89792,
+    "first_seen": "2017-12-21",
+    "last_seen": "2018-03-21",
+    "aliases": []
+  },
+  {
+    "name": "Waller St at Shrader St",
+    "lat": 37.768389,
+    "lng": -122.451959,
+    "first_seen": "2023-06-29",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Waller St at Stanyan St",
+    "lat": 37.768343,
+    "lng": -122.452866,
+    "first_seen": "2022-02-01",
+    "last_seen": "2023-06-19",
+    "aliases": []
+  },
+  {
+    "name": "Washington St at 8th St",
+    "lat": 37.800755,
+    "lng": -122.274894,
+    "first_seen": "2017-08-28",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Washington St at Kearny St",
+    "lat": 37.795378,
+    "lng": -122.404718,
+    "first_seen": "2017-06-28",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Washington St at Van Ness Ave",
+    "lat": 37.792989,
+    "lng": -122.423339,
+    "first_seen": "2021-07-23",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Webster St at 17th St",
+    "lat": 37.80583,
+    "lng": -122.267308,
+    "first_seen": "2017-07-11",
+    "last_seen": "2017-10-26",
+    "aliases": []
+  },
+  {
+    "name": "Webster St at 19th St",
+    "lat": 37.806973,
+    "lng": -122.266587,
+    "first_seen": "2017-12-13",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Webster St at 2nd St",
+    "lat": 37.795198,
+    "lng": -122.273968,
+    "first_seen": "2018-03-14",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Webster St at 40th St",
+    "lat": 37.828764,
+    "lng": -122.260759,
+    "first_seen": "2025-10-14",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Webster St at Clay St",
+    "lat": 37.790722,
+    "lng": -122.432557,
+    "first_seen": "2019-11-28",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Webster St at Grove St",
+    "lat": 37.777083,
+    "lng": -122.429567,
+    "first_seen": "2017-09-05",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Webster St at MacArthur Blvd (Temporary Location)",
+    "lat": 37.825008,
+    "lng": -122.261649,
+    "first_seen": "2018-09-01",
+    "last_seen": "2018-11-30",
+    "aliases": []
+  },
+  {
+    "name": "Webster St at O'Farrell St",
+    "lat": 37.78348,
+    "lng": -122.431144,
+    "first_seen": "2017-08-30",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Webster St at Union St",
+    "lat": 37.797444,
+    "lng": -122.433981,
+    "first_seen": "2022-09-20",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "West Crissy Field",
+    "lat": 37.80383,
+    "lng": -122.467714,
+    "first_seen": "2024-04-10",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "West Oakland BART",
+    "lat": 37.805192,
+    "lng": -122.294617,
+    "first_seen": "2024-05-22",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "West Oakland BART Station",
+    "lat": 37.805285,
+    "lng": -122.29478,
+    "first_seen": "2017-09-27",
+    "last_seen": "2024-05-22",
+    "aliases": []
+  },
+  {
+    "name": "West Portal Ave at 15th Ave to Ulloa St East",
+    "lat": 37.739901,
+    "lng": -122.466765,
+    "first_seen": "2023-11-03",
+    "last_seen": "2023-11-14",
+    "aliases": []
+  },
+  {
+    "name": "West Portal MUNI",
+    "lat": 37.740984,
+    "lng": -122.465699,
+    "first_seen": "2025-08-14",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "West Portal at 15th Ave to Ulloa Street",
+    "lat": 37.738093,
+    "lng": -122.468875,
+    "first_seen": "2023-11-04",
+    "last_seen": "2023-11-11",
+    "aliases": []
+  },
+  {
+    "name": "West Portal: 15th to Ulloa East",
+    "lat": 37.740569,
+    "lng": -122.466306,
+    "first_seen": "2023-11-15",
+    "last_seen": "2025-08-14",
+    "aliases": []
+  },
+  {
+    "name": "West Portal: 15th to Ulloa West",
+    "lat": 37.737547,
+    "lng": -122.469477,
+    "first_seen": "2023-11-16",
+    "last_seen": "2025-01-31",
+    "aliases": []
+  },
+  {
+    "name": "West St at 40th St",
+    "lat": 37.830225,
+    "lng": -122.270949,
+    "first_seen": "2017-07-21",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "West St at Brockhurst St",
+    "lat": 37.822687,
+    "lng": -122.272926,
+    "first_seen": "2022-04-06",
+    "last_seen": "2026-05-31",
+    "aliases": [
+      "West at Brockhurst"
+    ]
+  },
+  {
+    "name": "West St at University Ave",
+    "lat": 37.869967,
+    "lng": -122.286533,
+    "first_seen": "2018-07-30",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Westlake Ave at Miriam St",
+    "lat": 37.699515,
+    "lng": -122.465131,
+    "first_seen": "2025-10-26",
+    "last_seen": "2026-05-30",
+    "aliases": []
+  },
+  {
+    "name": "Westlake Library",
+    "lat": 37.697297,
+    "lng": -122.485449,
+    "first_seen": "2025-09-15",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Westlake Shopping Center",
+    "lat": 37.699569,
+    "lng": -122.481031,
+    "first_seen": "2025-09-15",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "William St at 10th St",
+    "lat": 37.332807,
+    "lng": -121.875894,
+    "first_seen": "2017-09-20",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "William St at 4th St (Temporary Location)",
+    "lat": 37.329964,
+    "lng": -121.881922,
+    "first_seen": "2018-08-01",
+    "last_seen": "2018-09-11",
+    "aliases": []
+  },
+  {
+    "name": "Williams Ave at 3rd St",
+    "lat": 37.729273,
+    "lng": -122.392929,
+    "first_seen": "2018-11-22",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Williams Ave at Apollo St",
+    "lat": 37.7301,
+    "lng": -122.398857,
+    "first_seen": "2018-09-20",
+    "last_seen": "2026-05-30",
+    "aliases": []
+  },
+  {
+    "name": "Willow Park",
+    "lat": 37.812363,
+    "lng": -122.296098,
+    "first_seen": "2025-06-22",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Willow St at Blewett Ave",
+    "lat": 37.309016,
+    "lng": -121.899996,
+    "first_seen": "2019-10-19",
+    "last_seen": "2026-05-31",
+    "aliases": []
+  },
+  {
+    "name": "Willow St at Vine St",
+    "lat": 37.318454,
+    "lng": -121.883162,
+    "first_seen": "2017-09-21",
+    "last_seen": "2026-05-29",
+    "aliases": []
+  },
+  {
+    "name": "Woolsey St at Sacramento St",
+    "lat": 37.850578,
+    "lng": -122.278175,
+    "first_seen": "2018-02-06",
+    "last_seen": "2026-05-31",
+    "aliases": [
+      "Woolsey St at Sacramento St1"
+    ]
+  },
+  {
+    "name": "X-DEV-MTL-01",
+    "lat": 37.775686,
+    "lng": -122.388296,
+    "first_seen": "2022-02-22",
+    "last_seen": "2022-02-25",
+    "aliases": []
+  },
+  {
+    "name": "Yerba Buena Center for the Arts",
+    "lat": 37.784872,
+    "lng": -122.400878,
+    "first_seen": "2017-08-17",
+    "last_seen": "2026-05-31",
+    "aliases": [
+      "Yerba Buena Center for the Arts (Howard St at 3rd St)"
+    ]
+  }
+]
