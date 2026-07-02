@@ -158,13 +158,6 @@ def generate_station_coords(context: PipelineContext):
         else pl.col("dt_raw").str.to_datetime(strict=False)
     )
 
-    # Stack every file/endpoint frame into one long table of station observations.
-    # `vertical_relaxed` tolerates the minor schema differences across eras (e.g. id is a
-    # string in newer files, absent in older ones) instead of erroring on the mismatch.
-    raw = pl.concat(frames, how="vertical_relaxed").with_columns(
-        parse_dt.dt.date().alias("dt")
-    )
-
     # named = observations that name a station — the universe we expect to geolocate, and
     # the coverage denominator. Nameless rows are dockless endpoints (a bike parked away
     # from any dock): they often carry a (privacy-rounded) coordinate but no station, so
@@ -174,90 +167,139 @@ def generate_station_coords(context: PipelineContext):
     # a source change that nulls coordinates for real stations still drops coverage loudly.
     has_name = pl.col("station").is_not_null() & (pl.col("station").str.len_chars() > 0)
     has_coord = pl.col("lat").is_not_null() & pl.col("lng").is_not_null()
-    named = raw.filter(has_name)
-    nameless_with_coord = raw.filter(has_coord & ~has_name)
-
-    # clean = named observations on a usable point inside the plausibility box (kept);
-    # rejected = named points that fell outside the box. We surface rejected to a sidecar
-    # so a dropped point is always auditable, never silently discarded.
-    located = named.filter(has_coord)
-    clean = located
-    rejected = located.filter(
-        pl.lit(False)
-    )  # nothing rejected when no bounding_box is configured
     bounding_box = coords_cfg.get("bounding_box")
     if bounding_box:
         lat_min, lat_max, lng_min, lng_max = bounding_box
         inside = pl.col("lat").is_between(lat_min, lat_max) & pl.col("lng").is_between(
             lng_min, lng_max
         )
-        clean = located.filter(inside)
-        rejected = located.filter(~inside)
+    else:
+        inside = pl.lit(True)  # no box configured → nothing is out-of-box
 
-    # Collapse all observations of a station name into one row. The point is the mean of
-    # every coordinate seen for that name — trip-count-weighted, since each trip is a row,
-    # so busy stations' points are dominated by their many sightings. n_obs records how
-    # many observations back the point (a confidence signal); first/last_seen give the
-    # active date range; pl.first("id") keeps a representative id (ids vary across eras).
-    # Note this keys by exact name — merging near-identical names is canonicalize's job.
-    station_agg = (
-        clean.group_by("station")
-        .agg(
-            pl.col("lat").mean().round(6).alias("lat"),
-            pl.col("lng").mean().round(6).alias("lng"),
-            pl.first("id").alias("id"),
-            pl.len().alias("n_obs"),
-            pl.col("dt").min().alias("first_seen"),
-            pl.col("dt").max().alias("last_seen"),
+    # Aggregate one file/endpoint at a time and merge the (tiny) partials, rather than
+    # concatenating every row into one frame. Peak memory is then bounded by a single
+    # file's size, not the whole city's row count — the one-shot streaming collect OOMs on
+    # the largest cities (NYC ~600M endpoint-observations). Partials carry SUMS (sum_lat,
+    # sum_lng, cnt) so the final mean = Σlat/Σcnt is identical to a single-pass mean.
+    station_parts: list[pl.DataFrame] = []  # station, sum_lat, sum_lng, cnt, id, dt_min, dt_max
+    rejected_parts: list[pl.DataFrame] = []  # station, lat, lng, cnt, dt_min, dt_max
+    named_total = 0  # coverage denominator
+    dockless_total = 0  # nameless-but-coordinate rows, excluded + reported
+    bad_dates: set[str] = set()  # distinct unparseable date strings (fail loud below)
+
+    for lf in frames:
+        base = lf.with_columns(parse_dt.dt.date().alias("dt"))
+        named_lf = base.filter(has_name)
+        located_lf = named_lf.filter(has_coord)
+        clean_lf = located_lf.filter(inside)
+        rejected_lf = located_lf.filter(~inside)
+
+        # Per-station partial over kept rows: sums (not means) so partials are mergeable;
+        # first non-null id is a representative (ids vary across eras).
+        station_part = clean_lf.group_by("station").agg(
+            pl.col("lat").sum().alias("sum_lat"),
+            pl.col("lng").sum().alias("sum_lng"),
+            pl.len().alias("cnt"),
+            pl.col("id").drop_nulls().first().alias("id"),
+            pl.col("dt").min().alias("dt_min"),
+            pl.col("dt").max().alias("dt_max"),
         )
-        .sort("n_obs", descending=True)
-    )
-
-    # Out-of-box rows, grouped to the distinct bad (name, point) with a count and date
-    # range — compact even when many rows share one garbage coordinate (e.g. 0,0).
-    rejected_agg = (
-        rejected.group_by("station", "lat", "lng")
-        .agg(
-            pl.len().alias("n_obs"),
-            pl.col("dt").min().alias("first_seen"),
-            pl.col("dt").max().alias("last_seen"),
+        # Out-of-box rows grouped to the distinct bad (name, point) — compact even when
+        # many rows share one garbage coordinate (e.g. 0,0).
+        rejected_part = rejected_lf.group_by("station", "lat", "lng").agg(
+            pl.len().alias("cnt"),
+            pl.col("dt").min().alias("dt_min"),
+            pl.col("dt").max().alias("dt_max"),
         )
-        .sort("n_obs", descending=True)
-    )
-
-    # Date validation (parse-then-assert, mirroring _assert_all_dates_parsed): a row whose
-    # dt_raw was present and non-blank but parsed to null matched none of date_formats — a
-    # format the YAML doesn't account for. Collect just the distinct offending strings
-    # (cheap) so we can fail loud with examples instead of silently nulling the date.
-    bad_dates = (
-        clean.filter(
-            pl.col("dt").is_null()
-            & pl.col("dt_raw").is_not_null()
-            & (pl.col("dt_raw").str.strip_chars() != "")
+        # Parse-then-assert: a row whose dt_raw was present but parsed to null matched none
+        # of date_formats. Collect the distinct offenders (capped) to fail loud below.
+        bad_part = (
+            clean_lf.filter(
+                pl.col("dt").is_null()
+                & pl.col("dt_raw").is_not_null()
+                & (pl.col("dt_raw").str.strip_chars() != "")
+            )
+            .select("dt_raw")
+            .unique()
+            .head(5)
         )
-        .select("dt_raw")
-        .unique()
-        .head(5)
-    )
+        sp, rp, named_df, dockless_df, bad_df = pl.collect_all(
+            [
+                station_part,
+                rejected_part,
+                named_lf.select(pl.len()),
+                base.filter(has_coord & ~has_name).select(pl.len()),
+                bad_part,
+            ],
+            engine="streaming",
+        )
+        if sp.height:
+            station_parts.append(sp)
+        if rp.height:
+            rejected_parts.append(rp)
+        named_total += named_df.item()
+        dockless_total += dockless_df.item()
+        for v in bad_df["dt_raw"].to_list():
+            if len(bad_dates) < 5:
+                bad_dates.add(v)
 
-    # One scan over the raw rows: collect the aggregate, coverage denominator (named
-    # observations), dockless count, rejected rows, and bad-date examples together so
-    # polars shares it
-    agg, total_df, dockless_df, rejected_df, bad_dates_df = pl.collect_all(
-        [
-            station_agg,
-            named.select(pl.len()),
-            nameless_with_coord.select(pl.len()),
-            rejected_agg,
-            bad_dates,
-        ],
-        engine="streaming",
-    )
-    if len(bad_dates_df):
-        examples = bad_dates_df["dt_raw"].to_list()
+    if bad_dates:
         raise ValueError(
             f"{city}: date value(s) matched none of date_formats={date_formats}: "
-            f"{examples}. Add the matching format(s) to the city's date_formats in its YAML."
+            f"{sorted(bad_dates)}. Add the matching format(s) to the city's date_formats "
+            f"in its YAML."
+        )
+
+    # Merge the per-file partials: sum the sums/counts per station, then the point is the
+    # trip-count-weighted mean Σlat/Σcnt (busy stations dominated by their many sightings).
+    if station_parts:
+        merged = (
+            pl.concat(station_parts, how="vertical_relaxed")
+            .group_by("station")
+            .agg(
+                pl.col("sum_lat").sum(),
+                pl.col("sum_lng").sum(),
+                pl.col("cnt").sum(),
+                pl.col("id").drop_nulls().first().alias("id"),
+                pl.col("dt_min").min(),
+                pl.col("dt_max").max(),
+            )
+        )
+        agg = merged.select(
+            pl.col("station"),
+            (pl.col("sum_lat") / pl.col("cnt")).round(6).alias("lat"),
+            (pl.col("sum_lng") / pl.col("cnt")).round(6).alias("lng"),
+            pl.col("id"),
+            pl.col("cnt").alias("n_obs"),
+            pl.col("dt_min").alias("first_seen"),
+            pl.col("dt_max").alias("last_seen"),
+        ).sort("n_obs", descending=True)
+    else:
+        agg = pl.DataFrame(
+            schema={
+                "station": pl.String, "lat": pl.Float64, "lng": pl.Float64,
+                "id": pl.String, "n_obs": pl.UInt32,
+                "first_seen": pl.Date, "last_seen": pl.Date,
+            }
+        )
+
+    if rejected_parts:
+        rejected_df = (
+            pl.concat(rejected_parts, how="vertical_relaxed")
+            .group_by("station", "lat", "lng")
+            .agg(
+                pl.col("cnt").sum().alias("n_obs"),
+                pl.col("dt_min").min().alias("first_seen"),
+                pl.col("dt_max").max().alias("last_seen"),
+            )
+            .sort("n_obs", descending=True)
+        )
+    else:
+        rejected_df = pl.DataFrame(
+            schema={
+                "station": pl.String, "lat": pl.Float64, "lng": pl.Float64,
+                "n_obs": pl.UInt32, "first_seen": pl.Date, "last_seen": pl.Date,
+            }
         )
 
     # Coverage guard: a wholesale source change would null the coordinate columns and
@@ -265,9 +307,9 @@ def generate_station_coords(context: PipelineContext):
     # Denominator is named observations; numerator is those that landed on a usable in-box
     # point. Dockless (nameless) rows are excluded from both, so they can't mask a real
     # coordinate regression.
-    total = total_df.item()
-    dockless = dockless_df.item()
-    kept = int(agg["n_obs"].sum())
+    total = named_total
+    dockless = dockless_total
+    kept = int(agg["n_obs"].sum()) if agg.height else 0
     coverage = (kept / total) if total else 0.0
     min_coverage = coords_cfg.get("min_coverage", 0.0)
     if coverage < min_coverage:
