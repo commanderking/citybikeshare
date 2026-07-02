@@ -19,7 +19,12 @@ from citybikeshare.analysis.merge_summaries import merge_city_summaries
 from citybikeshare.analysis.generate_duration_buckets import (
     generate_duration_buckets,
 )
+from citybikeshare.analysis.generate_visuals import generate_visuals
 from citybikeshare.analysis.merge_duration_buckets import merge_duration_buckets
+from citybikeshare.analysis.generate_station_coords import generate_station_coords
+from citybikeshare.analysis.canonicalize_station_coords import (
+    canonicalize_station_coords,
+)
 from citybikeshare.etl.inspect import analyze_headers
 from citybikeshare.cli.transform_all import app as transform_all_app
 from citybikeshare.cli.pipeline_all import run_pipeline_all
@@ -110,6 +115,9 @@ def analyze(
     context = build_context(city)
     summarize_city(context)
     generate_duration_buckets(context)
+    generate_visuals(context)
+    generate_station_coords(context)
+    canonicalize_station_coords(context)
 
 
 @app.command()
@@ -129,9 +137,12 @@ def analyze_all(
             # Only run duration buckets if flag passed
             generate_duration_buckets(context)
         else:
-            # Default: run both
+            # Default: run all per-city analyses
             summarize_city(context)
             generate_duration_buckets(context)
+            generate_visuals(context)
+            generate_station_coords(context)
+            canonicalize_station_coords(context)
 
 
 @app.command()

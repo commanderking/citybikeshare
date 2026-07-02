@@ -2,6 +2,12 @@ data
 output
 __pycache__
 
+# Station-coord intermediates: the as-observed dump feeds canonicalization (like
+# output/ parquet) and churns every run; rejected is a local audit sidecar. Only the
+# deduplicated station_coords_canonical.json (the deliverable) is tracked.
+analysis/*/station_coords.json
+analysis/*/station_coords_rejected.json
+
 .DS_STORE
 .vscode
 .pytest_cache

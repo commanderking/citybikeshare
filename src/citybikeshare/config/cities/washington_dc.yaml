@@ -41,8 +41,27 @@ final_columns:
 
 date_formats:
   - "%Y-%m-%d %H:%M:%S"
+  - "%Y-%m-%d %H:%M:%S%.f"   # modern (2020+) Lyft files use millisecond timestamps
 processing_pipeline:
   - rename_columns
   - convert_to_datetime
   - select_final_columns
   - cast_optional_columns
+
+coordinates:
+  strategy: inline
+  bounding_box: [38.7, 39.2, -77.45, -76.80]   # lat_min, lat_max, lng_min, lng_max; west edge covers Reston/Herndon (VA), east edge covers Largo/Prince George's County (MD) while excluding stray -76.784 bad coords
+  min_coverage: 0.95
+  # Raw header names; coords only exist in the modern (2020+) Lyft-format files —
+  # pre-2020 Capital Bikeshare files carry no lat/lng and Stage 1 skips them.
+  date_column: [started_at]
+  start:
+    name: [start_station_name]
+    id:   [start_station_id]
+    lat:  [start_lat]
+    lng:  [start_lng]
+  end:
+    name: [end_station_name]
+    id:   [end_station_id]
+    lat:  [end_lat]
+    lng:  [end_lng]
