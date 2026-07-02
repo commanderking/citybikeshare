@@ -108,6 +108,7 @@ final_columns:
 
 date_formats:
   - "%Y-%m-%d %H:%M:%S"
+  - "%Y-%m-%d %H:%M:%S%.f"   # 2018 raw files use fractional-second timestamps
   - "%m/%d/%Y %H:%M:%S"
   - "%m/%d/%Y %H:%M"
 processing_pipeline:
