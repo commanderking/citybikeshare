@@ -66,6 +66,7 @@ final_columns:
 
 date_formats:
   - "%Y-%m-%d %H:%M:%S"
+  - "%Y-%m-%d %H:%M:%S%.f"   # 2024+ files carry fractional seconds
   - "%m/%d/%Y %H:%M:%S"
   - "%m/%d/%Y %H:%M"
   - "%Y-%m-%d %H:%M"   # Divvy_Trips_2013 format
@@ -82,3 +83,22 @@ processing_pipeline:
   - convert_to_datetime
   - select_final_columns
   - cast_optional_columns
+
+# Station-coordinate extraction. Coords are inline only in the 2020+ (start_lat/lng) era;
+# the older Divvy_Trips files carry station names but no lat/lng, so Stage 1 skips them
+# (they produce no frame and stay out of the coverage denominator). Raw header names below.
+coordinates:
+  strategy: inline
+  bounding_box: [41.6, 42.15, -88.0, -87.5]   # lat_min, lat_max, lng_min, lng_max — Chicagoland
+  min_coverage: 0.95
+  date_column: [started_at]
+  start:
+    name: [start_station_name]
+    id:   [start_station_id]
+    lat:  [start_lat]
+    lng:  [start_lng]
+  end:
+    name: [end_station_name]
+    id:   [end_station_id]
+    lat:  [end_lat]
+    lng:  [end_lng]

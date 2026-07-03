@@ -66,8 +66,30 @@ final_columns:
 
 date_formats:
   - "%Y-%m-%d %H:%M:%S"
+  - "%Y-%m-%d %H:%M:%S%.f"   # 2018 era carries fractional seconds
 processing_pipeline:
   - rename_columns
   - convert_to_datetime
   - select_final_columns
   - cast_optional_columns
+
+# Station-coordinate extraction. Coords are inline across all three schema eras (Citi Bike
+# JC): "Start Station Latitude" → "start station latitude" → start_lat. Raw header names
+# below (lists span the eras).
+coordinates:
+  strategy: inline
+  bounding_box: [40.65, 40.80, -74.12, -73.95]   # lat_min, lat_max, lng_min, lng_max — Jersey City / Hoboken
+  # Rejects (0,0) "Don't Use" test docks and stray upper-Manhattan NYC stations that appear
+  # in cross-river trips — those belong to the separate new_york_city dataset.
+  min_coverage: 0.95
+  date_column: [started_at, starttime, "Start Time"]
+  start:
+    name: [start_station_name, "start station name", "Start Station Name"]
+    id:   [start_station_id, "start station id", "Start Station ID"]
+    lat:  [start_lat, "start station latitude", "Start Station Latitude"]
+    lng:  [start_lng, "start station longitude", "Start Station Longitude"]
+  end:
+    name: [end_station_name, "end station name", "End Station Name"]
+    id:   [end_station_id, "end station id", "End Station ID"]
+    lat:  [end_lat, "end station latitude", "End Station Latitude"]
+    lng:  [end_lng, "end station longitude", "End Station Longitude"]

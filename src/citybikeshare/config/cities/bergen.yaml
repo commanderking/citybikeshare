@@ -20,3 +20,21 @@ processing_pipeline:
   - select_final_columns
   - convert_to_datetime
 
+# Station-coordinate extraction. Same schema as oslo/trondheim (Urban Sharing v1);
+# coords are inline on every trip row across all eras. Raw header names below.
+coordinates:
+  strategy: inline
+  bounding_box: [60.2, 60.5, 5.2, 5.5]   # lat_min, lat_max, lng_min, lng_max — Bergen metro
+  min_coverage: 0.95
+  date_column: [started_at]
+  start:
+    name: [start_station_name]
+    id:   [start_station_id]
+    lat:  [start_station_latitude]
+    lng:  [start_station_longitude]
+  end:
+    name: [end_station_name]
+    id:   [end_station_id]
+    lat:  [end_station_latitude]
+    lng:  [end_station_longitude]
+

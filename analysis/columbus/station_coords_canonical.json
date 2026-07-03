@@ -1,0 +1,894 @@
+[
+  {
+    "name": "3rd St & Gay St",
+    "lat": 39.963966,
+    "lng": -82.99866,
+    "first_seen": "2013-07-28",
+    "last_seen": "2025-02-28",
+    "aliases": []
+  },
+  {
+    "name": "3rd St & Sycamore St",
+    "lat": 39.949382,
+    "lng": -82.99531,
+    "first_seen": "2013-07-28",
+    "last_seen": "2025-02-28",
+    "aliases": []
+  },
+  {
+    "name": "4th St & 1st Ave - Jeffrey Park",
+    "lat": 39.980567,
+    "lng": -82.998133,
+    "first_seen": "2015-07-03",
+    "last_seen": "2018-02-28",
+    "aliases": []
+  },
+  {
+    "name": "4th St & Rich St",
+    "lat": 39.957706,
+    "lng": -82.995411,
+    "first_seen": "2016-08-05",
+    "last_seen": "2025-02-26",
+    "aliases": []
+  },
+  {
+    "name": "Bank St & Frankfort St",
+    "lat": 39.946582,
+    "lng": -83.000323,
+    "first_seen": "2013-07-28",
+    "last_seen": "2025-02-25",
+    "aliases": []
+  },
+  {
+    "name": "Bexley City Hall at Main St",
+    "lat": 39.957389,
+    "lng": -82.940239,
+    "first_seen": "2020-04-02",
+    "last_seen": "2025-02-05",
+    "aliases": []
+  },
+  {
+    "name": "Bicentennial Park",
+    "lat": 39.955892,
+    "lng": -83.00315,
+    "first_seen": "2013-07-28",
+    "last_seen": "2025-02-27",
+    "aliases": []
+  },
+  {
+    "name": "Bicentennial Public Rack",
+    "lat": 39.957649,
+    "lng": -83.003032,
+    "first_seen": "2021-07-19",
+    "last_seen": "2024-11-30",
+    "aliases": []
+  },
+  {
+    "name": "Brighton Rose & Worth Ave",
+    "lat": 40.05353,
+    "lng": -82.911698,
+    "first_seen": "2021-11-06",
+    "last_seen": "2025-02-26",
+    "aliases": []
+  },
+  {
+    "name": "Broad St & Martin Ave",
+    "lat": 39.958954,
+    "lng": -83.024593,
+    "first_seen": "2020-09-14",
+    "last_seen": "2025-01-31",
+    "aliases": []
+  },
+  {
+    "name": "Broad St & Mc Dowell St",
+    "lat": 39.960885,
+    "lng": -83.012563,
+    "first_seen": "2022-06-16",
+    "last_seen": "2025-02-25",
+    "aliases": [
+      "W. Broad St & Mc Dowell St"
+    ]
+  },
+  {
+    "name": "COSI",
+    "lat": 39.961208,
+    "lng": -83.006531,
+    "first_seen": "2013-07-28",
+    "last_seen": "2025-02-28",
+    "aliases": []
+  },
+  {
+    "name": "Champion Ave & Main St",
+    "lat": 39.957749,
+    "lng": -82.969191,
+    "first_seen": "2015-07-03",
+    "last_seen": "2025-02-22",
+    "aliases": []
+  },
+  {
+    "name": "City Hall",
+    "lat": 39.963283,
+    "lng": -83.003488,
+    "first_seen": "2013-07-28",
+    "last_seen": "2025-02-26",
+    "aliases": []
+  },
+  {
+    "name": "Cleveland Ave & 4th Ave",
+    "lat": 39.985914,
+    "lng": -82.9894,
+    "first_seen": "2020-04-28",
+    "last_seen": "2025-02-11",
+    "aliases": []
+  },
+  {
+    "name": "Cleveland Ave & Mt Vernon Ave",
+    "lat": 39.969192,
+    "lng": -82.990751,
+    "first_seen": "2013-07-29",
+    "last_seen": "2025-02-26",
+    "aliases": []
+  },
+  {
+    "name": "Cogo warehouse",
+    "lat": 39.991184,
+    "lng": -82.952547,
+    "first_seen": "2020-04-13",
+    "last_seen": "2024-09-29",
+    "aliases": []
+  },
+  {
+    "name": "Columbus College of Art & Design",
+    "lat": 39.965142,
+    "lng": -82.990468,
+    "first_seen": "2013-07-29",
+    "last_seen": "2025-02-28",
+    "aliases": []
+  },
+  {
+    "name": "Columbus Commons - Rich St",
+    "lat": 39.957605,
+    "lng": -82.998034,
+    "first_seen": "2013-07-28",
+    "last_seen": "2025-02-27",
+    "aliases": []
+  },
+  {
+    "name": "Columbus Museum of Art",
+    "lat": 39.964138,
+    "lng": -82.987838,
+    "first_seen": "2013-07-29",
+    "last_seen": "2025-02-28",
+    "aliases": []
+  },
+  {
+    "name": "Convention Center",
+    "lat": 39.970737,
+    "lng": -83.002336,
+    "first_seen": "2013-07-29",
+    "last_seen": "2025-02-28",
+    "aliases": []
+  },
+  {
+    "name": "Crew Home Game Valet",
+    "lat": 39.967023,
+    "lng": -83.018666,
+    "first_seen": "2021-07-17",
+    "last_seen": "2021-10-06",
+    "aliases": []
+  },
+  {
+    "name": "Crew Home Game Valet 5-10p",
+    "lat": 39.967228,
+    "lng": -83.01882,
+    "first_seen": "2021-07-17",
+    "last_seen": "2021-07-17",
+    "aliases": []
+  },
+  {
+    "name": "Crew Home Game Valet, 1-8p",
+    "lat": 39.967112,
+    "lng": -83.019042,
+    "first_seen": "2021-07-03",
+    "last_seen": "2021-07-03",
+    "aliases": []
+  },
+  {
+    "name": "DEV-ECO5-1",
+    "lat": 39.953596,
+    "lng": -83.008455,
+    "first_seen": "2021-04-14",
+    "last_seen": "2022-03-21",
+    "aliases": []
+  },
+  {
+    "name": "DEV-ECO5-3",
+    "lat": 39.948719,
+    "lng": -83.005743,
+    "first_seen": "2022-02-14",
+    "last_seen": "2022-03-14",
+    "aliases": []
+  },
+  {
+    "name": "DEV-SIM-1",
+    "lat": 39.951614,
+    "lng": -83.009777,
+    "first_seen": "2023-03-09",
+    "last_seen": "2023-03-09",
+    "aliases": []
+  },
+  {
+    "name": "Dorrian Commons - Mound St",
+    "lat": 39.954676,
+    "lng": -82.998928,
+    "first_seen": "2013-08-16",
+    "last_seen": "2025-02-27",
+    "aliases": []
+  },
+  {
+    "name": "Easton Oval",
+    "lat": 40.044543,
+    "lng": -82.906334,
+    "first_seen": "2020-05-02",
+    "last_seen": "2025-02-14",
+    "aliases": []
+  },
+  {
+    "name": "Easton Square Pl & Loyalty Circle",
+    "lat": 40.037327,
+    "lng": -82.914349,
+    "first_seen": "2020-05-01",
+    "last_seen": "2024-11-05",
+    "aliases": []
+  },
+  {
+    "name": "Easton Square Pl & Townsfair Way",
+    "lat": 40.048789,
+    "lng": -82.915266,
+    "first_seen": "2020-04-02",
+    "last_seen": "2025-02-27",
+    "aliases": []
+  },
+  {
+    "name": "Easton Transit Center",
+    "lat": 40.060841,
+    "lng": -82.909837,
+    "first_seen": "2020-04-11",
+    "last_seen": "2025-02-26",
+    "aliases": []
+  },
+  {
+    "name": "Fenlon St & Gramercy St",
+    "lat": 40.051765,
+    "lng": -82.914446,
+    "first_seen": "2020-04-12",
+    "last_seen": "2021-10-23",
+    "aliases": []
+  },
+  {
+    "name": "Franklin Park at Fairwood Ave",
+    "lat": 39.963272,
+    "lng": -82.953252,
+    "first_seen": "2020-04-02",
+    "last_seen": "2025-02-26",
+    "aliases": []
+  },
+  {
+    "name": "Front St & Beck St",
+    "lat": 39.950137,
+    "lng": -83.000237,
+    "first_seen": "2013-07-28",
+    "last_seen": "2025-02-27",
+    "aliases": []
+  },
+  {
+    "name": "Front St & Town St",
+    "lat": 39.959068,
+    "lng": -83.001951,
+    "first_seen": "2020-04-04",
+    "last_seen": "2025-02-27",
+    "aliases": []
+  },
+  {
+    "name": "GO FITNESS IV (Italian Village) 4th/1st",
+    "lat": 39.980571,
+    "lng": -82.998035,
+    "first_seen": "2020-04-03",
+    "last_seen": "2025-02-28",
+    "aliases": []
+  },
+  {
+    "name": "Grandon Ave & Main St",
+    "lat": 39.956974,
+    "lng": -82.926168,
+    "first_seen": "2020-04-06",
+    "last_seen": "2025-02-25",
+    "aliases": []
+  },
+  {
+    "name": "Grandview Ave & 3rd Ave",
+    "lat": 39.985165,
+    "lng": -83.044514,
+    "first_seen": "2020-04-03",
+    "last_seen": "2025-02-25",
+    "aliases": []
+  },
+  {
+    "name": "Grandview Library at Oakland Ave",
+    "lat": 39.981934,
+    "lng": -83.048984,
+    "first_seen": "2020-04-04",
+    "last_seen": "2025-02-18",
+    "aliases": []
+  },
+  {
+    "name": "Grant Ave & Main St",
+    "lat": 39.957499,
+    "lng": -82.990064,
+    "first_seen": "2013-07-29",
+    "last_seen": "2025-02-27",
+    "aliases": []
+  },
+  {
+    "name": "High & Hubbard",
+    "lat": 39.979976,
+    "lng": -83.000099,
+    "first_seen": "2021-07-18",
+    "last_seen": "2023-05-31",
+    "aliases": [
+      "High & Prescott"
+    ]
+  },
+  {
+    "name": "High & Lincoln",
+    "lat": 39.98,
+    "lng": -83.0,
+    "first_seen": "2021-07-25",
+    "last_seen": "2023-05-17",
+    "aliases": []
+  },
+  {
+    "name": "High & Price/First",
+    "lat": 39.980057,
+    "lng": -83.000257,
+    "first_seen": "2021-07-24",
+    "last_seen": "2023-06-01",
+    "aliases": []
+  },
+  {
+    "name": "High & Russell",
+    "lat": 39.979856,
+    "lng": -83.000104,
+    "first_seen": "2021-07-17",
+    "last_seen": "2023-05-24",
+    "aliases": []
+  },
+  {
+    "name": "High St & 11th Ave",
+    "lat": 39.994759,
+    "lng": -83.007093,
+    "first_seen": "2015-07-01",
+    "last_seen": "2025-02-26",
+    "aliases": []
+  },
+  {
+    "name": "High St & 17th Ave",
+    "lat": 40.001216,
+    "lng": -83.008423,
+    "first_seen": "2015-09-12",
+    "last_seen": "2025-02-28",
+    "aliases": []
+  },
+  {
+    "name": "High St & 2nd Ave",
+    "lat": 39.982737,
+    "lng": -83.003821,
+    "first_seen": "2013-07-28",
+    "last_seen": "2025-02-27",
+    "aliases": []
+  },
+  {
+    "name": "High St & 4th Ave",
+    "lat": 39.985211,
+    "lng": -83.005449,
+    "first_seen": "2015-07-01",
+    "last_seen": "2025-02-27",
+    "aliases": []
+  },
+  {
+    "name": "High St & Broad St",
+    "lat": 39.962035,
+    "lng": -83.001097,
+    "first_seen": "2013-07-29",
+    "last_seen": "2025-02-28",
+    "aliases": []
+  },
+  {
+    "name": "High St & Crestview Rd",
+    "lat": 40.022516,
+    "lng": -83.013635,
+    "first_seen": "2020-04-01",
+    "last_seen": "2025-02-26",
+    "aliases": []
+  },
+  {
+    "name": "High St & Hudson St",
+    "lat": 40.014592,
+    "lng": -83.011088,
+    "first_seen": "2020-04-03",
+    "last_seen": "2025-02-27",
+    "aliases": []
+  },
+  {
+    "name": "High St & King Ave",
+    "lat": 39.990149,
+    "lng": -83.005868,
+    "first_seen": "2015-07-01",
+    "last_seen": "2025-02-27",
+    "aliases": []
+  },
+  {
+    "name": "High St & Lane Ave",
+    "lat": 40.006388,
+    "lng": -83.009202,
+    "first_seen": "2020-04-03",
+    "last_seen": "2025-02-27",
+    "aliases": []
+  },
+  {
+    "name": "High St & Spring St",
+    "lat": 39.965877,
+    "lng": -83.001507,
+    "first_seen": "2013-07-28",
+    "last_seen": "2025-02-27",
+    "aliases": []
+  },
+  {
+    "name": "High St & Warren",
+    "lat": 39.977753,
+    "lng": -83.003571,
+    "first_seen": "2013-07-28",
+    "last_seen": "2025-02-28",
+    "aliases": []
+  },
+  {
+    "name": "Jaeger St & Whittier St",
+    "lat": 39.94459,
+    "lng": -82.989551,
+    "first_seen": "2016-08-06",
+    "last_seen": "2025-02-23",
+    "aliases": []
+  },
+  {
+    "name": "Jeffrey Park on Clifton Ave",
+    "lat": 39.971336,
+    "lng": -82.944524,
+    "first_seen": "2020-04-04",
+    "last_seen": "2025-02-08",
+    "aliases": []
+  },
+  {
+    "name": "Kilbourne St & Vine St",
+    "lat": 39.971799,
+    "lng": -83.007343,
+    "first_seen": "2013-07-28",
+    "last_seen": "2025-02-20",
+    "aliases": []
+  },
+  {
+    "name": "King Arts Complex",
+    "lat": 39.971033,
+    "lng": -82.979143,
+    "first_seen": "2020-10-07",
+    "last_seen": "2025-02-23",
+    "aliases": []
+  },
+  {
+    "name": "Lane Ave at Olentangy Trail",
+    "lat": 40.006562,
+    "lng": -83.020462,
+    "first_seen": "2016-08-05",
+    "last_seen": "2025-02-28",
+    "aliases": []
+  },
+  {
+    "name": "Library - Linden Branch",
+    "lat": 40.012739,
+    "lng": -82.96827,
+    "first_seen": "2020-05-10",
+    "last_seen": "2025-02-22",
+    "aliases": []
+  },
+  {
+    "name": "Library - Main Branch",
+    "lat": 39.961528,
+    "lng": -82.990422,
+    "first_seen": "2013-07-29",
+    "last_seen": "2025-02-25",
+    "aliases": []
+  },
+  {
+    "name": "Library - Parsons Branch",
+    "lat": 39.940432,
+    "lng": -82.983393,
+    "first_seen": "2020-09-18",
+    "last_seen": "2025-02-24",
+    "aliases": []
+  },
+  {
+    "name": "Library - Whetstone Branch",
+    "lat": 40.041221,
+    "lng": -83.019058,
+    "first_seen": "2020-09-12",
+    "last_seen": "2025-02-25",
+    "aliases": []
+  },
+  {
+    "name": "Linden Transit Center",
+    "lat": 39.993558,
+    "lng": -82.981114,
+    "first_seen": "2020-04-04",
+    "last_seen": "2025-02-27",
+    "aliases": []
+  },
+  {
+    "name": "Livingston Park",
+    "lat": 39.95141,
+    "lng": -82.979133,
+    "first_seen": "2013-07-28",
+    "last_seen": "2025-02-28",
+    "aliases": []
+  },
+  {
+    "name": "Lucas St & Town St",
+    "lat": 39.957418,
+    "lng": -83.011368,
+    "first_seen": "2015-07-28",
+    "last_seen": "2025-02-26",
+    "aliases": []
+  },
+  {
+    "name": "MTL lab CMH station 1",
+    "lat": 39.950151,
+    "lng": -83.009918,
+    "first_seen": "2022-08-25",
+    "last_seen": "2023-08-21",
+    "aliases": []
+  },
+  {
+    "name": "MTL lab CMH station 2",
+    "lat": 39.95,
+    "lng": -83.01,
+    "first_seen": "2022-11-30",
+    "last_seen": "2022-11-30",
+    "aliases": []
+  },
+  {
+    "name": "MTL-ECO5-1-LAB",
+    "lat": 39.961333,
+    "lng": -82.991409,
+    "first_seen": "2022-03-14",
+    "last_seen": "2022-03-14",
+    "aliases": []
+  },
+  {
+    "name": "Mallway Park at Arlington Ave",
+    "lat": 39.998859,
+    "lng": -83.061732,
+    "first_seen": "2020-04-21",
+    "last_seen": "2025-02-04",
+    "aliases": []
+  },
+  {
+    "name": "Market District & 3rd Ave",
+    "lat": 39.985816,
+    "lng": -83.027383,
+    "first_seen": "2016-11-20",
+    "last_seen": "2025-02-25",
+    "aliases": []
+  },
+  {
+    "name": "McKinley Ave COTA Facility",
+    "lat": 39.964181,
+    "lng": -83.043778,
+    "first_seen": "2023-11-16",
+    "last_seen": "2024-10-18",
+    "aliases": []
+  },
+  {
+    "name": "Michigan Ave & 3rd Ave",
+    "lat": 39.984073,
+    "lng": -83.016899,
+    "first_seen": "2015-07-01",
+    "last_seen": "2025-02-27",
+    "aliases": []
+  },
+  {
+    "name": "Moeller Park at Bruck St",
+    "lat": 39.935896,
+    "lng": -82.988843,
+    "first_seen": "2020-09-11",
+    "last_seen": "2025-02-27",
+    "aliases": []
+  },
+  {
+    "name": "Nationwide Arena - Front St",
+    "lat": 39.969126,
+    "lng": -83.003984,
+    "first_seen": "2013-07-30",
+    "last_seen": "2025-02-28",
+    "aliases": []
+  },
+  {
+    "name": "Neil Ave & 10th Ave",
+    "lat": 39.99405,
+    "lng": -83.014305,
+    "first_seen": "2020-04-02",
+    "last_seen": "2025-02-27",
+    "aliases": []
+  },
+  {
+    "name": "Neil Ave & 11th Ave",
+    "lat": 39.99543,
+    "lng": -83.014548,
+    "first_seen": "2015-07-01",
+    "last_seen": "2018-02-28",
+    "aliases": []
+  },
+  {
+    "name": "Neil Ave & Buttles Ave",
+    "lat": 39.977408,
+    "lng": -83.011556,
+    "first_seen": "2013-07-28",
+    "last_seen": "2025-02-28",
+    "aliases": []
+  },
+  {
+    "name": "Neil Ave & King Ave",
+    "lat": 39.99027,
+    "lng": -83.013602,
+    "first_seen": "2015-06-30",
+    "last_seen": "2025-02-27",
+    "aliases": []
+  },
+  {
+    "name": "Neil Ave & Nationwide Blvd",
+    "lat": 39.968076,
+    "lng": -83.008694,
+    "first_seen": "2013-07-31",
+    "last_seen": "2025-02-26",
+    "aliases": []
+  },
+  {
+    "name": "Neiland and Nationwide",
+    "lat": 39.967334,
+    "lng": -83.019157,
+    "first_seen": "2021-10-07",
+    "last_seen": "2025-02-22",
+    "aliases": []
+  },
+  {
+    "name": "North  Market",
+    "lat": 39.972977,
+    "lng": -83.004125,
+    "first_seen": "2022-11-16",
+    "last_seen": "2025-02-27",
+    "aliases": []
+  },
+  {
+    "name": "North Bank Park",
+    "lat": 39.965,
+    "lng": -83.008763,
+    "first_seen": "2020-04-02",
+    "last_seen": "2025-02-26",
+    "aliases": []
+  },
+  {
+    "name": "North Market",
+    "lat": 39.972193,
+    "lng": -83.003563,
+    "first_seen": "2013-07-28",
+    "last_seen": "2022-11-13",
+    "aliases": []
+  },
+  {
+    "name": "North Star Rd & Northwest Blvd",
+    "lat": 39.99676,
+    "lng": -83.048979,
+    "first_seen": "2020-04-04",
+    "last_seen": "2025-02-10",
+    "aliases": []
+  },
+  {
+    "name": "Northwest Blvd & 1st Ave",
+    "lat": 39.979961,
+    "lng": -83.032704,
+    "first_seen": "2020-04-01",
+    "last_seen": "2025-02-26",
+    "aliases": []
+  },
+  {
+    "name": "Northwest Blvd & 3rd Ave",
+    "lat": 39.984733,
+    "lng": -83.039978,
+    "first_seen": "2020-04-04",
+    "last_seen": "2025-02-28",
+    "aliases": []
+  },
+  {
+    "name": "Northwest Blvd & Chambers Rd",
+    "lat": 39.993573,
+    "lng": -83.042212,
+    "first_seen": "2020-04-03",
+    "last_seen": "2025-02-27",
+    "aliases": []
+  },
+  {
+    "name": "Northwest Blvd and Zollinger Rd",
+    "lat": 40.018966,
+    "lng": -83.057499,
+    "first_seen": "2020-04-04",
+    "last_seen": "2024-12-28",
+    "aliases": []
+  },
+  {
+    "name": "Ohio State Student Union",
+    "lat": 40.0,
+    "lng": -83.01,
+    "first_seen": "2021-07-25",
+    "last_seen": "2022-11-16",
+    "aliases": []
+  },
+  {
+    "name": "Parsons Ave & Oak St",
+    "lat": 39.963221,
+    "lng": -82.981343,
+    "first_seen": "2013-07-28",
+    "last_seen": "2025-02-28",
+    "aliases": []
+  },
+  {
+    "name": "Pleasant Ridge Ave & Mound St",
+    "lat": 39.955352,
+    "lng": -82.936287,
+    "first_seen": "2020-04-04",
+    "last_seen": "2025-02-20",
+    "aliases": []
+  },
+  {
+    "name": "Schiller Park - Stewart Ave",
+    "lat": 39.942014,
+    "lng": -82.995018,
+    "first_seen": "2013-07-28",
+    "last_seen": "2025-02-28",
+    "aliases": []
+  },
+  {
+    "name": "Scioto Audubon Center",
+    "lat": 39.945893,
+    "lng": -83.00906,
+    "first_seen": "2013-07-28",
+    "last_seen": "2025-02-25",
+    "aliases": []
+  },
+  {
+    "name": "Sensenbrenner Park",
+    "lat": 39.96858,
+    "lng": -83.001621,
+    "first_seen": "2013-07-29",
+    "last_seen": "2025-02-22",
+    "aliases": []
+  },
+  {
+    "name": "Seward St & Worth Ave",
+    "lat": 40.055069,
+    "lng": -82.908162,
+    "first_seen": "2020-05-13",
+    "last_seen": "2025-02-27",
+    "aliases": []
+  },
+  {
+    "name": "St. Stephen's Community House",
+    "lat": 40.000754,
+    "lng": -82.968286,
+    "first_seen": "2020-04-22",
+    "last_seen": "2024-12-07",
+    "aliases": []
+  },
+  {
+    "name": "Stelzer & Easton Way",
+    "lat": 40.047494,
+    "lng": -82.910469,
+    "first_seen": "2020-04-18",
+    "last_seen": "2025-02-14",
+    "aliases": []
+  },
+  {
+    "name": "Stelzer Rd & Morse Rd",
+    "lat": 40.056682,
+    "lng": -82.910216,
+    "first_seen": "2020-04-25",
+    "last_seen": "2025-02-25",
+    "aliases": []
+  },
+  {
+    "name": "Summit St & 17th Ave",
+    "lat": 40.001965,
+    "lng": -83.001148,
+    "first_seen": "2020-04-01",
+    "last_seen": "2025-02-28",
+    "aliases": []
+  },
+  {
+    "name": "Summit St & Hudson St",
+    "lat": 40.014673,
+    "lng": -83.00023,
+    "first_seen": "2020-04-03",
+    "last_seen": "2025-02-27",
+    "aliases": []
+  },
+  {
+    "name": "Taylor Ave & Long St",
+    "lat": 39.968065,
+    "lng": -82.961769,
+    "first_seen": "2020-04-03",
+    "last_seen": "2025-02-28",
+    "aliases": []
+  },
+  {
+    "name": "Thompson Park at Hunter Ave",
+    "lat": 39.986912,
+    "lng": -83.009459,
+    "first_seen": "2020-04-01",
+    "last_seen": "2025-02-27",
+    "aliases": []
+  },
+  {
+    "name": "Thurman Ave & Bruck St",
+    "lat": 39.939636,
+    "lng": -82.987663,
+    "first_seen": "2016-11-28",
+    "last_seen": "2025-02-12",
+    "aliases": []
+  },
+  {
+    "name": "Topiary Park - Town St",
+    "lat": 39.960264,
+    "lng": -82.986869,
+    "first_seen": "2013-07-29",
+    "last_seen": "2025-02-28",
+    "aliases": []
+  },
+  {
+    "name": "Tremont Center at Tremont Rd",
+    "lat": 40.013522,
+    "lng": -83.067847,
+    "first_seen": "2020-04-13",
+    "last_seen": "2024-12-31",
+    "aliases": []
+  },
+  {
+    "name": "Weinland Park - 6th Ave",
+    "lat": 39.988668,
+    "lng": -82.99956,
+    "first_seen": "2015-07-01",
+    "last_seen": "2025-02-26",
+    "aliases": []
+  },
+  {
+    "name": "Wellesley Dr & Lane Ave",
+    "lat": 40.007167,
+    "lng": -83.051671,
+    "first_seen": "2020-04-02",
+    "last_seen": "2025-02-25",
+    "aliases": []
+  },
+  {
+    "name": "Yard St & Burr Ave",
+    "lat": 39.977015,
+    "lng": -83.025894,
+    "first_seen": "2020-04-01",
+    "last_seen": "2025-02-27",
+    "aliases": []
+  }
+]
