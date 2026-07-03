@@ -1,7 +1,6 @@
 import csv
 import gzip
 import io
-import json
 from enum import StrEnum
 from pathlib import Path
 from typing import NamedTuple, Optional
@@ -11,6 +10,7 @@ import polars as pl
 from citybikeshare.context import PipelineContext
 from citybikeshare.config.loader import load_city_config
 from citybikeshare.etl.transform import filter_filenames
+from citybikeshare.utils.io import write_json
 
 
 class StationKey(StrEnum):
@@ -395,16 +395,13 @@ def generate_station_coords(context: PipelineContext):
         pl.col("first_seen").cast(pl.String), pl.col("last_seen").cast(pl.String)
     ).to_dicts()
 
-    context.analysis_directory.mkdir(parents=True, exist_ok=True)
     output_file = context.analysis_directory / "station_coords.json"
-    with open(output_file, "w") as f:
-        json.dump(out, f, indent=2, ensure_ascii=False, sort_keys=True)
+    write_json(output_file, out, sort_keys=True)
 
     # Always written (an empty list when nothing was rejected) so the audit file is a
     # predictable place to look, not something that appears only on failure.
     rejected_file = context.analysis_directory / "station_coords_rejected.json"
-    with open(rejected_file, "w") as f:
-        json.dump(rejected_records, f, indent=2, ensure_ascii=False)
+    write_json(rejected_file, rejected_records)
 
     rejected_rows = sum(r["n_obs"] for r in rejected_records)
     print(

@@ -1,7 +1,7 @@
-import json
 import polars as pl
 from citybikeshare.context import PipelineContext
 from citybikeshare.analysis.utils import derive_duration_column
+from citybikeshare.utils.io import write_json
 
 # Duration band edges (seconds) and labels. Edges are right-closed by polars `cut`
 # (default), so e.g. exactly 300s falls in "<5".
@@ -141,11 +141,9 @@ def generate_visuals(context: PipelineContext):
         key=lambda r: (r["year"], band_order.get(r["band"], 99))
     )
 
-    analysis_directory.mkdir(parents=True, exist_ok=True)
+    # sort_keys for stable diffs in the committed snapshot; write_json keeps non-ASCII
+    # station names (Korean, accented Spanish) as readable UTF-8.
     output_file = analysis_directory / "visuals.json"
-    with open(output_file, "w") as f:
-        # ensure_ascii=False: station names carry non-ASCII (Korean, accented Spanish).
-        # sort_keys for stable diffs in the committed snapshot.
-        json.dump(sections, f, indent=2, ensure_ascii=False, sort_keys=True)
+    write_json(output_file, sections, sort_keys=True)
 
     print(f"✅ Wrote visuals for {context.city} to {output_file}")

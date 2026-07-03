@@ -1,6 +1,8 @@
 import json
 from pathlib import Path
 
+from citybikeshare.utils.io import write_json
+
 
 def merge_city_summaries(analysis_folder):
     all_records = []
@@ -22,9 +24,6 @@ def merge_city_summaries(analysis_folder):
                     all_records.append(record)
 
     output_path = analysis_folder / "summary_all_cities.json"
-    with open(output_path, "w") as f:
-        # Need to ensure_ascii false because polars will read in weird characters
-        # and need to map the characters to proper header
-        json.dump(all_records, f, indent=2, ensure_ascii=False)
+    write_json(output_path, all_records)
 
     print(f"✅ Merged {len(all_records)} records into {output_path}")

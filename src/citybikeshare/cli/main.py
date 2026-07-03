@@ -22,7 +22,7 @@ from citybikeshare.analysis.generate_duration_buckets import (
 from citybikeshare.analysis.generate_visuals import generate_visuals
 from citybikeshare.analysis.merge_duration_buckets import merge_duration_buckets
 from citybikeshare.analysis.generate_station_coords import generate_station_coords
-from citybikeshare.analysis.station_trip_counts import station_trip_counts
+from citybikeshare.analysis.station_trip_counts import count_station_trips
 from citybikeshare.analysis.canonicalize_station_coords import (
     canonicalize_station_coords,
 )
@@ -119,7 +119,7 @@ def analyze(
     generate_visuals(context)
     generate_station_coords(context)
     canonicalize_station_coords(context)
-    station_trip_counts(context)
+    count_station_trips(context)
 
 
 @app.command()
@@ -145,7 +145,7 @@ def analyze_all(
             generate_visuals(context)
             generate_station_coords(context)
             canonicalize_station_coords(context)
-            station_trip_counts(context)
+            count_station_trips(context)
 
 
 @app.command()

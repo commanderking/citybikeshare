@@ -3,6 +3,7 @@ import math
 
 from citybikeshare.context import PipelineContext
 from citybikeshare.config.loader import load_city_config
+from citybikeshare.utils.io import write_json
 
 # Stage-2 defaults; any can be overridden under `coordinates.canonicalize` per city.
 _DEFAULTS = {
@@ -147,8 +148,7 @@ def canonicalize_station_coords(context: PipelineContext):
     canonical.sort(key=lambda record: record["name"])
 
     out_canon = context.analysis_directory / "station_coords_canonical.json"
-    with open(out_canon, "w") as f:
-        json.dump(canonical, f, indent=2, ensure_ascii=False)
+    write_json(out_canon, canonical)
 
     merged = sum(len(record["aliases"]) for record in canonical)
     print(

@@ -1,6 +1,8 @@
 import json
 from pathlib import Path
 
+from citybikeshare.utils.io import write_json
+
 
 def merge_duration_buckets(analysis_folder):
     all_records = []
@@ -19,7 +21,6 @@ def merge_duration_buckets(analysis_folder):
                     all_records.append(record)
 
     output_path = analysis_folder / "duration_buckets_all_cities.json"
-    with open(output_path, "w") as f:
-        json.dump(all_records, f, indent=2)
+    write_json(output_path, all_records)
 
     print(f"✅ Merged {len(all_records)} records into {output_path}")
