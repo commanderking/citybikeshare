@@ -49,7 +49,11 @@ def _cluster_points(points, radius_m):
         for di in (-1, 0, 1):
             for dj in (-1, 0, 1):
                 for j in grid.get((ci + di, cj + dj), ()):
-                    if j > i and _compute_distance_m(lat, lng, points[j][1], points[j][2]) < radius_m:
+                    if (
+                        j > i
+                        and _compute_distance_m(lat, lng, points[j][1], points[j][2])
+                        < radius_m
+                    ):
                         union(i, j)
 
     clusters: dict[int, list[int]] = {}
@@ -76,16 +80,22 @@ def canonicalize_station_coords(context: PipelineContext):
         return
     observed = json.loads(src.read_text())
 
-    # Id-keyed cities (BTS: philadelphia, los_angeles) key each record by station id and
+    # Id-keyed cities (philadelphia, los_angeles) key each record by station id and
     # carry the human name under `name`; that name is the display label here, the id the key.
-    id_keyed = (config.get("coordinates") or {}).get("key", "name") == "id"
-
+    #
     # points: (key, lat, lng, n_obs, first_seen, last_seen, display_name).
     # display_name is the record's `name` when present (id-keyed), else the key itself — so
     # name-keyed cities behave exactly as before (display == key).
     points = [
-        (key, v["lat"], v["lng"], v["n_obs"], v.get("first_seen"), v.get("last_seen"),
-         v.get("name") or key)
+        (
+            key,
+            v["lat"],
+            v["lng"],
+            v["n_obs"],
+            v.get("first_seen"),
+            v.get("last_seen"),
+            v.get("name") or key,
+        )
         for key, v in observed.items()
     ]
 
@@ -93,19 +103,25 @@ def canonicalize_station_coords(context: PipelineContext):
         low = name.lower()
         return any(m in low for m in markers)
 
+    is_id_keyed = (config.get("coordinates") or {}).get("key", "name") == "id"
+
     canonical = []
     for idx in _cluster_points(points, cfg["merge_radius_m"]):
         members = [points[i] for i in idx]
 
-        eligible = [m for m in members if not has_marker(m[6]) and m[3] >= cfg["n_obs_floor"]]
+        eligible = [
+            member
+            for member in members
+            if not has_marker(member[6]) and member[3] >= cfg["n_obs_floor"]
+        ]
         pool = eligible or members  # fall back to all if every name is "ineligible"
         # canonical = most-recent last_seen; n_obs breaks ties / handles missing dates.
-        canon = max(pool, key=lambda m: (m[5] or "", m[3]))
+        canon = max(pool, key=lambda member: (member[5] or "", member[3]))
 
         display = canon[6]
-        aliases = sorted({m[6] for m in members if m[6] != display})
-        firsts = [m[4] for m in members if m[4]]
-        lasts = [m[5] for m in members if m[5]]
+        aliases = sorted({member[6] for member in members if member[6] != display})
+        firsts = [member[4] for member in members if member[4]]
+        lasts = [member[5] for member in members if member[5]]
         record = {
             "name": display,
             "lat": canon[1],
@@ -116,17 +132,17 @@ def canonicalize_station_coords(context: PipelineContext):
         }
         # For id-keyed cities the key isn't the display name — keep the station id(s) that
         # merged into this point so the record still joins back to the id-keyed trip data.
-        if id_keyed:
-            record["ids"] = sorted({m[0] for m in members})
+        if is_id_keyed:
+            record["ids"] = sorted({member[0] for member in members})
         canonical.append(record)
 
-    canonical.sort(key=lambda r: r["name"])
+    canonical.sort(key=lambda record: record["name"])
 
     out_canon = context.analysis_directory / "station_coords_canonical.json"
     with open(out_canon, "w") as f:
         json.dump(canonical, f, indent=2, ensure_ascii=False)
 
-    merged = sum(len(r["aliases"]) for r in canonical)
+    merged = sum(len(record["aliases"]) for record in canonical)
     print(
         f"✅ {city}: {len(observed)} observed → {len(canonical)} canonical "
         f"({merged} names merged)\n   → {out_canon}"

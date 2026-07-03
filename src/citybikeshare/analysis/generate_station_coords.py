@@ -229,13 +229,6 @@ def generate_station_coords(context: PipelineContext):
         else pl.col("dt_raw").str.to_datetime(strict=False)
     )
 
-    # named = observations that name a station — the universe we expect to geolocate, and
-    # the coverage denominator. Nameless rows are dockless endpoints (a bike parked away
-    # from any dock): they often carry a (privacy-rounded) coordinate but no station, so
-    # they can't become a station record or alias and are excluded from the station set.
-    # Keeping them out of *both* the numerator and denominator stops them from distorting
-    # coverage; defining the denominator as "named" (rather than "has a coordinate") means
-    # a source change that nulls coordinates for real stations still drops coverage loudly.
     has_name = pl.col("station").is_not_null() & (pl.col("station").str.len_chars() > 0)
     has_coord = pl.col("lat").is_not_null() & pl.col("lng").is_not_null()
     bounding_box = coords_cfg.get("bounding_box")
