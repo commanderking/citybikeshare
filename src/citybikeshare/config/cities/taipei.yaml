@@ -2,6 +2,21 @@ name: taipei
 system_name: taipei_bikeshare
 source_url: "https://data.gov.tw/dataset/150635"
 
+# DATA COVERAGE — asymmetric origin/destination scope (verified 2026-02 data + raw source):
+# This feed records trips *originating* from a core of Taipei City (臺北市) stations, but
+# captures those trips *ending* at any station across the metro, including New Taipei City
+# (新北市). The two station columns are therefore NOT interchangeable:
+#   - start_station_name ⊆ end_station_name  exactly (every start is also seen as an end).
+#   - Latest month: ~1,724 distinct starts vs ~2,928 distinct ends; ~1,204 stations are
+#     END-ONLY (never appear as a start). The gap opened ~mid-2020 and grows as the system
+#     expands — it is in the SOURCE, not introduced by our ETL.
+#   - The both-columns core is effectively all Taipei City (~0% New Taipei). New Taipei
+#     stations appear almost exclusively as END stations (~186 end-only vs ~0 genuine
+#     starts; the handful of "start" matches are Taipei City roads named 金山/中和/林口).
+# Implication: station-level / geographic analysis keyed on start_station barely sees New
+# Taipei; it surfaces only in end_station. Origin↔destination flows are asymmetric by
+# construction — net-flow / round-trip balance is not computable for New Taipei stations.
+
 aws_sync: false
 file_matcher:
   - ".csv"

@@ -76,10 +76,17 @@ def canonicalize_station_coords(context: PipelineContext):
         return
     observed = json.loads(src.read_text())
 
-    # points: (name, lat, lng, n_obs, first_seen, last_seen)
+    # Id-keyed cities (BTS: philadelphia, los_angeles) key each record by station id and
+    # carry the human name under `name`; that name is the display label here, the id the key.
+    id_keyed = (config.get("coordinates") or {}).get("key", "name") == "id"
+
+    # points: (key, lat, lng, n_obs, first_seen, last_seen, display_name).
+    # display_name is the record's `name` when present (id-keyed), else the key itself — so
+    # name-keyed cities behave exactly as before (display == key).
     points = [
-        (name, v["lat"], v["lng"], v["n_obs"], v.get("first_seen"), v.get("last_seen"))
-        for name, v in observed.items()
+        (key, v["lat"], v["lng"], v["n_obs"], v.get("first_seen"), v.get("last_seen"),
+         v.get("name") or key)
+        for key, v in observed.items()
     ]
 
     def has_marker(name):
@@ -90,24 +97,28 @@ def canonicalize_station_coords(context: PipelineContext):
     for idx in _cluster_points(points, cfg["merge_radius_m"]):
         members = [points[i] for i in idx]
 
-        eligible = [m for m in members if not has_marker(m[0]) and m[3] >= cfg["n_obs_floor"]]
+        eligible = [m for m in members if not has_marker(m[6]) and m[3] >= cfg["n_obs_floor"]]
         pool = eligible or members  # fall back to all if every name is "ineligible"
         # canonical = most-recent last_seen; n_obs breaks ties / handles missing dates.
         canon = max(pool, key=lambda m: (m[5] or "", m[3]))
 
-        aliases = sorted(m[0] for m in members if m[0] != canon[0])
+        display = canon[6]
+        aliases = sorted({m[6] for m in members if m[6] != display})
         firsts = [m[4] for m in members if m[4]]
         lasts = [m[5] for m in members if m[5]]
-        canonical.append(
-            {
-                "name": canon[0],
-                "lat": canon[1],
-                "lng": canon[2],
-                "first_seen": min(firsts) if firsts else None,
-                "last_seen": max(lasts) if lasts else None,
-                "aliases": aliases,
-            }
-        )
+        record = {
+            "name": display,
+            "lat": canon[1],
+            "lng": canon[2],
+            "first_seen": min(firsts) if firsts else None,
+            "last_seen": max(lasts) if lasts else None,
+            "aliases": aliases,
+        }
+        # For id-keyed cities the key isn't the display name — keep the station id(s) that
+        # merged into this point so the record still joins back to the id-keyed trip data.
+        if id_keyed:
+            record["ids"] = sorted({m[0] for m in members})
+        canonical.append(record)
 
     canonical.sort(key=lambda r: r["name"])
 
