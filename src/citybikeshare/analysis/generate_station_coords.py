@@ -210,16 +210,12 @@ def generate_station_coords(context: PipelineContext):
         )
 
     # Parse dates with the city's configured formats (coalesce = try each in turn), not
-    # polars' single-format inference. Inference picks ONE format from the data and
-    # silently nulls every row in another era's format — Boston mixes "%Y-%m-%d %H:%M:%S"
-    # with a fractional-seconds variant, and inference dropped ~80 stations' dates. A
-    # no-match parses to null here only as an intermediate step; it's validated below
-    # (parse-then-assert) so a genuinely new format fails loud rather than nulling silently.
-    #
+    # polars' single-format inference.
     # `coordinates.date_formats` overrides the top-level list for THIS stage only. Needed when
     # a city's main pipeline parses a 2-digit year as year 00YY and fixes it in a later step
     # (philadelphia's offset_two_digit_years) — that step doesn't run here, so we parse the
     # 2-digit year correctly with an explicit "%m/%d/%y" instead of inheriting the 00YY wart.
+
     date_formats = coords_cfg.get("date_formats") or config.get("date_formats") or []
     parse_dt = (
         pl.coalesce(

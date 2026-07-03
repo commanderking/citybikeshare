@@ -11,7 +11,15 @@ _DEFAULTS = {
     # Substrings marking a name as operational / non-primary (test rigs, seasonal or temp
     # sites, vendor labels). Such names are deprioritized when picking a cluster's canonical
     # name, but are still kept as aliases.
-    "markers": ["former", "temp", "temporary", "winter", "pbsc", "warehouse", "test"],
+    "deprioritized_name_substrings": [
+        "former",
+        "temp",
+        "temporary",
+        "winter",
+        "pbsc",
+        "warehouse",
+        "test",
+    ],
 }
 
 
@@ -72,7 +80,7 @@ def canonicalize_station_coords(context: PipelineContext):
     city = context.city
     config = load_city_config(city)
     cfg = {**_DEFAULTS, **(config.get("coordinates", {}).get("canonicalize") or {})}
-    markers = [m.lower() for m in cfg["markers"]]
+    deprioritized_substrings = [s.lower() for s in cfg["deprioritized_name_substrings"]]
 
     src = context.analysis_directory / "station_coords.json"
     if not src.exists():
@@ -99,9 +107,9 @@ def canonicalize_station_coords(context: PipelineContext):
         for key, v in observed.items()
     ]
 
-    def has_marker(name):
+    def is_deprioritized(name):
         low = name.lower()
-        return any(m in low for m in markers)
+        return any(s in low for s in deprioritized_substrings)
 
     is_id_keyed = (config.get("coordinates") or {}).get("key", "name") == "id"
 
@@ -112,7 +120,7 @@ def canonicalize_station_coords(context: PipelineContext):
         eligible = [
             member
             for member in members
-            if not has_marker(member[6]) and member[3] >= cfg["n_obs_floor"]
+            if not is_deprioritized(member[6]) and member[3] >= cfg["n_obs_floor"]
         ]
         pool = eligible or members  # fall back to all if every name is "ineligible"
         # canonical = most-recent last_seen; n_obs breaks ties / handles missing dates.
