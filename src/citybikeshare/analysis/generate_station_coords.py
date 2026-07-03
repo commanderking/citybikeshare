@@ -2,8 +2,9 @@ import csv
 import gzip
 import io
 import json
+from enum import StrEnum
 from pathlib import Path
-from typing import Optional
+from typing import NamedTuple, Optional
 
 import polars as pl
 
@@ -12,17 +13,15 @@ from citybikeshare.config.loader import load_city_config
 from citybikeshare.etl.transform import filter_filenames
 
 
+class StationKey(StrEnum):
+    NAME = "name"
+    ID = "id"
+
+
 def _list_raw_files(raw_directory: Path, config: dict):
-    """Every raw input, gzipped or not, that the city's ``file_matcher`` accepts and
-    ``excluded_filenames`` rejects — the SAME filtering the transform stage applies via
-    ``filter_filenames``. Reusing it keeps the analysis stage reading exactly what the
-    pipeline reads: it skips a city's excluded duplicate/cumulative archives (e.g. NYC's
-    2013/2018 dupes, which would otherwise inflate n_obs) and non-trip files like a
-    separate station-list CSV that happens to carry lat/lng. Globbing only ``*.csv``
-    silently skips the gzipped inputs (a real bug class in this repo), so glob both."""
+    """Only use files that are used in the actual transform. Stations.csv file are excluded. Certain cities like NYC also have duplicated data in their s3 bucket that need to be filtered out"""
     files = [
-        str(p)
-        for p in (*raw_directory.glob("*.csv.gz"), *raw_directory.glob("*.csv"))
+        str(p) for p in (*raw_directory.glob("*.csv.gz"), *raw_directory.glob("*.csv"))
     ]
     return sorted(filter_filenames(files, config))
 
@@ -47,33 +46,55 @@ def _resolve_column(header: set[str], candidates) -> Optional[str]:
     return None
 
 
-def _select_station_coords(
-    path: Path, header: set[str], columns: dict, date_cands
-) -> Optional[pl.LazyFrame]:
-    """Project one endpoint's (start or end) columns in one file into the normalized
-    station-observation schema [station, id, lat, lng, dt_raw]. ``columns`` maps each
-    role (name/id/lat/lng) to its candidate source headers. Returns None when this file
-    lacks the coordinate columns for that endpoint (schema drift across eras is expected)."""
-    name_c = _resolve_column(header, columns.get("name"))
+class _EndpointColumns(NamedTuple):
+    key: str
+    id: Optional[str]
+    lat: str
+    lng: str
+    date: Optional[str]
+
+
+def _resolve_endpoint_columns(
+    header: set[str], columns: dict, key_role: StationKey, date_cands
+) -> Optional[_EndpointColumns]:
+    """Map one endpoint's role → actual header name for this file, selecting the station-key
+    column by ``key_role``. Returns None when the required key/lat/lng aren't all present —
+    schema drift across a city's eras is expected, and that file/endpoint is simply skipped."""
+    key_c = _resolve_column(header, columns.get(key_role))
     lat_c = _resolve_column(header, columns.get("lat"))
     lng_c = _resolve_column(header, columns.get("lng"))
-    if not (name_c and lat_c and lng_c):
+    if not (key_c and lat_c and lng_c):
         return None
-    id_c = _resolve_column(header, columns.get("id"))
-    date_c = _resolve_column(header, date_cands)
+    return _EndpointColumns(
+        key=key_c,
+        id=_resolve_column(header, columns.get("id")),
+        lat=lat_c,
+        lng=lng_c,
+        date=_resolve_column(header, date_cands),
+    )
 
-    lf = pl.scan_csv(path, infer_schema_length=0)  # all-Utf8: robust to messy raw
+
+def _select_station_coords(path: Path, cols: _EndpointColumns) -> pl.LazyFrame:
+    """Project a file's resolved columns into the normalized station-observation schema
+    [station, id, lat, lng, dt_raw]. All-Utf8 scan is robust to messy raw values."""
+    lf = pl.scan_csv(path, infer_schema_length=0)
     return lf.select(
-        pl.col(name_c).str.strip_chars().alias("station"),
-        (pl.col(id_c) if id_c else pl.lit(None)).cast(pl.String).alias("id"),
-        pl.col(lat_c).cast(pl.Float64, strict=False).alias("lat"),
-        pl.col(lng_c).cast(pl.Float64, strict=False).alias("lng"),
-        (pl.col(date_c) if date_c else pl.lit(None)).cast(pl.String).alias("dt_raw"),
+        pl.col(cols.key).str.strip_chars().alias("station"),
+        (pl.col(cols.id) if cols.id else pl.lit(None)).cast(pl.String).alias("id"),
+        pl.col(cols.lat).cast(pl.Float64, strict=False).alias("lat"),
+        pl.col(cols.lng).cast(pl.Float64, strict=False).alias("lng"),
+        (pl.col(cols.date) if cols.date else pl.lit(None))
+        .cast(pl.String)
+        .alias("dt_raw"),
     )
 
 
 def _collect_coordinate_frames(
-    coords_cfg: dict, raw_directory: Path, date_cands, config: dict
+    coords_cfg: dict,
+    raw_directory: Path,
+    date_cands,
+    config: dict,
+    key_role: StationKey,
 ) -> list[pl.LazyFrame]:
     """Project every raw file's start/end coordinate columns into the normalized
     station-observation schema. Files lacking coords for an endpoint are skipped
@@ -85,17 +106,54 @@ def _collect_coordinate_frames(
             columns = coords_cfg.get(start_or_end)
             if not columns:
                 continue
-            f = _select_station_coords(path, header, columns, date_cands)
-            if f is not None:
-                frames.append(f)
+            cols = _resolve_endpoint_columns(header, columns, key_role, date_cands)
+            if cols is not None:
+                frames.append(_select_station_coords(path, cols))
     return frames
 
 
-def _format_station_records(agg: pl.DataFrame) -> dict[str, dict]:
-    """One JSON-ready record per station; dates as ISO strings (or null)."""
+def _load_station_names(raw_directory: Path, names_cfg: dict) -> dict[str, str]:
+    """id → human name from a source station-list file (e.g. Bicycle Transit Systems'
+    ``stations.csv``), used to label id-keyed station records. Read straight from ``raw/``
+    (gzip-transparent) so it tracks the same source of truth as the trip files. The id/name
+    header candidates span a city's schema (Philadelphia's Station_ID / LA's "Kiosk ID")."""
+    fname = names_cfg["file"]
+    path = raw_directory / fname
+    if not path.exists() and (raw_directory / f"{fname}.gz").exists():
+        path = raw_directory / f"{fname}.gz"
+    if not path.exists():
+        raise ValueError(
+            f"coordinates.station_names.file '{fname}' (or .gz) not found in {raw_directory}"
+        )
+    df = pl.read_csv(path, infer_schema_length=0, encoding="utf8-lossy")
+    header = set(df.columns)
+    id_c = _resolve_column(header, names_cfg.get("id"))
+    name_c = _resolve_column(header, names_cfg.get("name"))
+    if not (id_c and name_c):
+        raise ValueError(
+            f"station-names file {path.name} lacks the configured id/name columns "
+            f"(id={names_cfg.get('id')}, name={names_cfg.get('name')}); has {sorted(header)}"
+        )
+    rows = (
+        df.select(
+            pl.col(id_c).cast(pl.String).str.strip_chars().alias("id"),
+            pl.col(name_c).cast(pl.String).str.strip_chars().alias("name"),
+        )
+        .drop_nulls()
+        .unique(subset="id", keep="last")
+    )
+    return dict(zip(rows["id"].to_list(), rows["name"].to_list()))
+
+
+def _format_station_records(
+    agg: pl.DataFrame, names: Optional[dict[str, str]] = None
+) -> dict[str, dict]:
+    """One JSON-ready record per station; dates as ISO strings (or null). When ``names`` is
+    provided (id-keyed cities), each record also carries the human ``name`` looked up by its
+    id key — null if the station-names file has no entry for that id."""
     out: dict[str, dict] = {}
     for r in agg.iter_rows(named=True):
-        out[r["station"]] = {
+        rec = {
             "lat": r["lat"],
             "lng": r["lng"],
             "id": r["id"],
@@ -103,6 +161,9 @@ def _format_station_records(agg: pl.DataFrame) -> dict[str, dict]:
             "first_seen": r["first_seen"].isoformat() if r["first_seen"] else None,
             "last_seen": r["last_seen"].isoformat() if r["last_seen"] else None,
         }
+        if names is not None:
+            rec["name"] = names.get(r["station"])
+        out[r["station"]] = rec
     return out
 
 
@@ -133,9 +194,14 @@ def generate_station_coords(context: PipelineContext):
         return
 
     print(f"Generating station coords for: {city}")
+    # Which role identifies a station (see StationKey). Constructing from the config value
+    # validates it — an unknown `key:` raises here rather than silently mis-keying.
+    key_role = StationKey(coords_cfg.get("key", StationKey.NAME))
+    names_cfg = coords_cfg.get("station_names")
+    names = _load_station_names(context.raw_directory, names_cfg) if names_cfg else None
     date_cands = coords_cfg.get("date_column")
     frames = _collect_coordinate_frames(
-        coords_cfg, context.raw_directory, date_cands, config
+        coords_cfg, context.raw_directory, date_cands, config, key_role
     )
     if not frames:
         raise ValueError(
@@ -144,12 +210,13 @@ def generate_station_coords(context: PipelineContext):
         )
 
     # Parse dates with the city's configured formats (coalesce = try each in turn), not
-    # polars' single-format inference. Inference picks ONE format from the data and
-    # silently nulls every row in another era's format — Boston mixes "%Y-%m-%d %H:%M:%S"
-    # with a fractional-seconds variant, and inference dropped ~80 stations' dates. A
-    # no-match parses to null here only as an intermediate step; it's validated below
-    # (parse-then-assert) so a genuinely new format fails loud rather than nulling silently.
-    date_formats = config.get("date_formats") or []
+    # polars' single-format inference.
+    # `coordinates.date_formats` overrides the top-level list for THIS stage only. Needed when
+    # a city's main pipeline parses a 2-digit year as year 00YY and fixes it in a later step
+    # (philadelphia's offset_two_digit_years) — that step doesn't run here, so we parse the
+    # 2-digit year correctly with an explicit "%m/%d/%y" instead of inheriting the 00YY wart.
+
+    date_formats = coords_cfg.get("date_formats") or config.get("date_formats") or []
     parse_dt = (
         pl.coalesce(
             [pl.col("dt_raw").str.to_datetime(f, strict=False) for f in date_formats]
@@ -158,13 +225,6 @@ def generate_station_coords(context: PipelineContext):
         else pl.col("dt_raw").str.to_datetime(strict=False)
     )
 
-    # named = observations that name a station — the universe we expect to geolocate, and
-    # the coverage denominator. Nameless rows are dockless endpoints (a bike parked away
-    # from any dock): they often carry a (privacy-rounded) coordinate but no station, so
-    # they can't become a station record or alias and are excluded from the station set.
-    # Keeping them out of *both* the numerator and denominator stops them from distorting
-    # coverage; defining the denominator as "named" (rather than "has a coordinate") means
-    # a source change that nulls coordinates for real stations still drops coverage loudly.
     has_name = pl.col("station").is_not_null() & (pl.col("station").str.len_chars() > 0)
     has_coord = pl.col("lat").is_not_null() & pl.col("lng").is_not_null()
     bounding_box = coords_cfg.get("bounding_box")
@@ -181,7 +241,9 @@ def generate_station_coords(context: PipelineContext):
     # file's size, not the whole city's row count — the one-shot streaming collect OOMs on
     # the largest cities (NYC ~600M endpoint-observations). Partials carry SUMS (sum_lat,
     # sum_lng, cnt) so the final mean = Σlat/Σcnt is identical to a single-pass mean.
-    station_parts: list[pl.DataFrame] = []  # station, sum_lat, sum_lng, cnt, id, dt_min, dt_max
+    station_parts: list[
+        pl.DataFrame
+    ] = []  # station, sum_lat, sum_lng, cnt, id, dt_min, dt_max
     rejected_parts: list[pl.DataFrame] = []  # station, lat, lng, cnt, dt_min, dt_max
     named_total = 0  # coverage denominator
     dockless_total = 0  # nameless-but-coordinate rows, excluded + reported
@@ -277,9 +339,13 @@ def generate_station_coords(context: PipelineContext):
     else:
         agg = pl.DataFrame(
             schema={
-                "station": pl.String, "lat": pl.Float64, "lng": pl.Float64,
-                "id": pl.String, "n_obs": pl.UInt32,
-                "first_seen": pl.Date, "last_seen": pl.Date,
+                "station": pl.String,
+                "lat": pl.Float64,
+                "lng": pl.Float64,
+                "id": pl.String,
+                "n_obs": pl.UInt32,
+                "first_seen": pl.Date,
+                "last_seen": pl.Date,
             }
         )
 
@@ -297,8 +363,12 @@ def generate_station_coords(context: PipelineContext):
     else:
         rejected_df = pl.DataFrame(
             schema={
-                "station": pl.String, "lat": pl.Float64, "lng": pl.Float64,
-                "n_obs": pl.UInt32, "first_seen": pl.Date, "last_seen": pl.Date,
+                "station": pl.String,
+                "lat": pl.Float64,
+                "lng": pl.Float64,
+                "n_obs": pl.UInt32,
+                "first_seen": pl.Date,
+                "last_seen": pl.Date,
             }
         )
 
@@ -315,11 +385,11 @@ def generate_station_coords(context: PipelineContext):
     if coverage < min_coverage:
         raise ValueError(
             f"{city}: coordinate coverage {coverage:.1%} < required {min_coverage:.1%} "
-            f"({kept:,}/{total:,} named station-observations on a usable in-box point). "
+            f"({kept:,}/{total:,} {key_role}-keyed station-observations on a usable in-box point). "
             f"Source format may have changed."
         )
 
-    out = _format_station_records(agg)
+    out = _format_station_records(agg, names)
     # Dates serialize as ISO strings (or null); to_dicts would otherwise emit date objects.
     rejected_records = rejected_df.with_columns(
         pl.col("first_seen").cast(pl.String), pl.col("last_seen").cast(pl.String)
@@ -339,8 +409,8 @@ def generate_station_coords(context: PipelineContext):
     rejected_rows = sum(r["n_obs"] for r in rejected_records)
     print(
         f"✅ {city}: {len(out)} stations, {coverage:.1%} coverage "
-        f"({kept:,}/{total:,} named station-observations) → {output_file}\n"
+        f"({kept:,}/{total:,} {key_role}-keyed station-observations) → {output_file}\n"
         f"   {rejected_rows:,} out-of-box rows ({len(rejected_records)} distinct points) "
         f"→ {rejected_file}\n"
-        f"   {dockless:,} dockless (nameless) rows excluded from the station set"
+        f"   {dockless:,} dockless (no {key_role}) rows excluded from the station set"
     )

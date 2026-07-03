@@ -40,3 +40,35 @@ processing_pipeline:
   - offset_two_digit_years
   - select_final_columns
   - cast_optional_columns
+
+# Station-coordinate extraction. Bicycle Transit Systems (Indego): trip rows carry a numeric
+# station id + inline lat/lon but NO name, so we key records by id (`key: id`) and attach the
+# human name from the station list (`station_names`, the same stations.csv the transform's
+# process_bicycle_transit_stations step joins). `start_station`/`end_station` are the raw id
+# columns (renamed to *_station_id in older files). Downstream trips are name-keyed, so the
+# id→name attachment is what makes these coords joinable.
+coordinates:
+  strategy: inline
+  key: id
+  bounding_box: [39.85, 40.05, -75.30, -75.05]   # lat_min, lat_max, lng_min, lng_max — Philadelphia
+  min_coverage: 0.95
+  date_column: [start_time]
+  # Override the top-level date_formats for this stage: parse the 2015 "%m/%d/%y" files with an
+  # explicit 2-digit year (before "%m/%d/%Y") so first_seen isn't the year-0015 the main pipeline
+  # later corrects via offset_two_digit_years. Order matters — %y must precede %Y.
+  date_formats:
+    - "%Y-%m-%d %H:%M:%S"
+    - "%m/%d/%y %H:%M"
+    - "%m/%d/%Y %H:%M"
+  start:
+    id:  [start_station, start_station_id]
+    lat: [start_lat]
+    lng: [start_lon]
+  end:
+    id:  [end_station, end_station_id]
+    lat: [end_lat]
+    lng: [end_lon]
+  station_names:
+    file: stations.csv          # read from raw/ (gzip-aware)
+    id:   [Station_ID]
+    name: [Station_Name]

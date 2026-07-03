@@ -40,3 +40,33 @@ processing_pipeline:
   - convert_to_datetime
   - select_final_columns
   - cast_optional_columns
+
+# Station-coordinate extraction. Bicycle Transit Systems (Metro Bike Share): trip rows carry a
+# numeric station id + inline lat/lon but NO name, so we key records by id (`key: id`) and
+# attach the human name from the station list (`station_names`, the same stations.csv the
+# transform's process_bicycle_transit_stations step joins — it also carries coords, but we take
+# coords from the per-trip inline lat/lon uniformly). Downstream trips are id-keyed, so id→coords
+# joins directly. `start_station` is the raw id column (renamed to start_station_id in some files).
+coordinates:
+  strategy: inline
+  key: id
+  # Spans Metro Bike Share's real extent: San Pedro / Port of LA (~33.71) and Dockweiler Beach
+  # (~-118.44) in the SW, up to North Hollywood (~34.18), east to the Pasadena cluster (~-118.12).
+  # lng_max -118.10 sits in the gap between real Pasadena stations and a (34.0,-118.0) placeholder,
+  # so it keeps Pasadena while rejecting that placeholder, (0,0), positive-longitude sign errors,
+  # and a Moscow-coord leak (55.7, 37.6).
+  bounding_box: [33.70, 34.22, -118.52, -118.10]   # lat_min, lat_max, lng_min, lng_max — Metro LA
+  min_coverage: 0.95
+  date_column: [start_time]
+  start:
+    id:  [start_station, start_station_id]
+    lat: [start_lat]
+    lng: [start_lon]
+  end:
+    id:  [end_station, end_station_id]
+    lat: [end_lat]
+    lng: [end_lon]
+  station_names:
+    file: stations.csv          # read from raw/ (gzip-aware)
+    id:   [Kiosk ID]
+    name: [Kiosk Name]

@@ -87,6 +87,17 @@ processing_pipeline:
 # Station-coordinate extraction. Coords are inline only in the 2020+ (start_lat/lng) era;
 # the older Divvy_Trips files carry station names but no lat/lng, so Stage 1 skips them
 # (they produce no frame and stay out of the coverage denominator). Raw header names below.
+#
+# NUANCE — coverage/counts are 2020+ only, not all-time:
+#   * A station's point is the mean of its 2020+ endpoints only; pre-2020 trips carry no
+#     coordinate and never enter the mean. `n_obs` here is a 2020+ endpoint count, NOT the
+#     station's all-time trip count. `min_coverage` measures the coord-era, not all Chicago trips.
+#   * Stations that operated both before and after 2020 ARE located (via their 2020+ data).
+#     ~123 station names appear ONLY in the pre-2020 trip files and get NO coordinate here.
+#   * Those older coords aren't lost: the `Divvy_Stations_*` files in raw/ hold name→lat/lng
+#     for ~105 of the 123 (the rest are name-string variants / absent). The inline strategy
+#     doesn't read them (file_matcher excludes non-"trip" files). Backfilling them needs the
+#     station-file join (the deferred `station_file` coord strategy) — not this inline block.
 coordinates:
   strategy: inline
   bounding_box: [41.6, 42.15, -88.0, -87.5]   # lat_min, lat_max, lng_min, lng_max — Chicagoland
