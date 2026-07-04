@@ -1,7 +1,7 @@
 import polars as pl
-import json
 from citybikeshare.context import PipelineContext
 from citybikeshare.analysis.utils import append_duration_column
+from citybikeshare.utils.io import write_json
 
 
 def generate_duration_buckets(context: PipelineContext):
@@ -46,9 +46,7 @@ def generate_duration_buckets(context: PipelineContext):
     )
 
     analysis_directory = context.analysis_directory
-    analysis_directory.mkdir(parents=True, exist_ok=True)
-    output_file = analysis_directory / f"duration_buckets.json"
-    with open(output_file, "w") as f:
-        json.dump(buckets, f, indent=2)
+    output_file = analysis_directory / "duration_buckets.json"
+    write_json(output_file, buckets)
 
     print(f"✅ Generated Duration Buckets for {city}!")

@@ -1,7 +1,7 @@
-import json
 import polars as pl
 from citybikeshare.context import PipelineContext
 from citybikeshare.analysis.utils import derive_duration_column
+from citybikeshare.utils.io import write_json
 
 
 def summarize_city(context: PipelineContext):
@@ -12,7 +12,6 @@ def summarize_city(context: PipelineContext):
     print(f"Preparing summary for: {context.city}")
 
     input_directory = context.transformed_directory
-    analysis_directory = context.analysis_directory
 
     # Read all parquet files
     lf = pl.scan_parquet(input_directory / "**/*.parquet")
@@ -66,12 +65,7 @@ def summarize_city(context: PipelineContext):
         .to_dicts()
     )
 
-    analysis_directory = context.analysis_directory
-    analysis_directory.mkdir(parents=True, exist_ok=True)
-
-    # Write JSON output
-    output_file = analysis_directory / "summary.json"
-    with open(output_file, "w") as f:
-        json.dump(summary, f, indent=2)
+    output_file = context.analysis_directory / "summary.json"
+    write_json(output_file, summary)
 
     print(f"✅ Wrote summary for {context.city} to {output_file}")

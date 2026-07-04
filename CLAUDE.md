@@ -85,3 +85,9 @@ A city's handling lives in its YAML (`config/cities/<city>.yaml`): the
 `invalid_values`, `prune_renamed_archives`, etc. Adding handling means adding a step +
 config keys and reusing shared functions in `etl/pipelines/common.py` (registered in
 `PROCESSING_FUNCTIONS`) — not city-specific branching in the core ETL code.
+
+## Naming: functions are verbs, data is nouns
+
+Name functions for the **action they perform**, using an imperative verb phrase —
+`generate_station_coords`, `summarize_city`, `canonicalize_station_coords`,
+`count_station_trips`, `_build_canonical_name_map`. 

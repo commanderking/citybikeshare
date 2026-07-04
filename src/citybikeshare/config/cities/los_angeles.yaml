@@ -23,10 +23,12 @@ renamed_columns:
   bike_type: bike_type
 
 final_columns:
+  # process_bicycle_transit_stations joins id→name from stations.csv and drops the id
+  # columns
   - start_time
   - end_time
-  - start_station_id
-  - end_station_id
+  - start_station_name
+  - end_station_name
   - bike_id
   - membership_type
   - bike_type
