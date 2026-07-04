@@ -5,18 +5,38 @@ aws_sync: false
 # Montreal renames the current-year archive as months are appended and the
 # downloader prunes the old one; auto-delete the raw CSVs it left behind.
 prune_renamed_archives: true
+# ─── Data eras ────────────────────────────────────────────────────────────────────
+# Montreal's open data comes in three schema eras. Comments throughout this file and in
+# resolve_montreal_station_names refer to them by letter; THIS is their single definition.
+#
+#   era A  2014-2020  files: OD_YYYY-MM + OD_2020        (matcher word "OD")
+#                     station key: numeric start_station_code / end_station_code
+#                     timestamps: date strings   |  inline lat/lng: NO
+#   era B  2021       file:  2021_donnees_ouvertes       (matcher word "donnees_ouvertes")
+#                     station key: emplacement_pk_start / _end  (its own id namespace)
+#                     timestamps: date strings   |  inline lat/lng: NO
+#   era C  2022+      files: DonneesOuverte2022 (singular) + DonneesOuvertesYYYY (plural)
+#                                                        (matcher word "DonneesOuverte")
+#                     station key: STARTSTATIONNAME / ENDSTATIONNAME (already real names)
+#                     timestamps: epoch-ms (STARTTIMEMS)  |  inline lat/lng: YES
+#
+# A & B carry only a numeric station key → resolve_montreal_station_names maps it to a real
+# name via the per-year `station_files` below. C already has names + coordinates inline.
+# ──────────────────────────────────────────────────────────────────────────────────
+
+# The matcher must catch all three eras (see above) or a whole era's file is silently
+# dropped. The Stations_<year>.csv / stations.csv station files are NOT matched, so they're
+# excluded from the trip transform automatically.
 file_matcher:
-  - "DonneesOuvertes"
+  - "DonneesOuverte"
+  - "donnees_ouvertes"
   - "OD"
 renamed_columns:
   start_date: start_time
   end_date: end_time
-  start_station_code: start_station_name
-  end_station_code: end_station_name
 
-  emplacement_pk_start: start_station_name
-  emplacement_pk_end: end_station_name
-
+  # era A / era B keep their numeric station keys (start_station_code / emplacement_pk_*)
+  # AS-IS here — resolve_montreal_station_names maps them to real names via `station_files`.
   STARTSTATIONNAME: start_station_name
   ENDSTATIONNAME: end_station_name
   STARTTIMEMS: "start_ms"
@@ -30,10 +50,58 @@ read_csv_options:
   encoding: "utf8-lossy"
   null_values: MTL-ECO5.1-01
 
+# Per-year station files used by resolve_montreal_station_names to turn the numeric
+# station code/pk in the older trip files into a real station name.
+station_files:
+  # era A: per-YEAR station files on purpose — Montreal reuses a code for a DIFFERENT
+  # physical station across years (e.g. 6068 = "2e avenue / Jean-Rivard" early,
+  # "Mansfield / Sherbrooke" later; ~130 codes even changed name between 2019 and 2020), so
+  # a latest-wins union would silently mislabel old trips. Each trip joins to its own year's
+  # file; the rare code missing from its year falls back to the latest name any year gave it.
+  code_years:
+    2014: Stations_2014.csv
+    2015: Stations_2015.csv
+    2016: Stations_2016.csv
+    2017: Stations_2017.csv
+    2018: Stations_2018.csv
+    2019: Stations_2019.csv        # this file capitalizes the id header ("Code")
+    2020: stations.csv             # 2020's roster ships un-suffixed as stations.csv (extracted
+                                    # from Historique-BIXI-2020.zip). Era C ships inline coords
+                                    # and no roster, so this is the newest standalone one.
+  # era B: emplacement_pk keys into its own single station file.
+  pk_file: 2021_stations.csv
+
+# Station coordinates (analysis stage). Strategy is name-keyed inline: coordinates come
+# ONLY from era C, the one era with inline lat/lng per endpoint. Era A/B trips have no
+# inline coords — resolve_montreal_station_names gives them names, so a station still
+# active in era C inherits its coordinate by name.
+#
+# COVERAGE TRADEOFF (measured 2026-07): stations retired before era C get a name but NO
+# coordinate — their lat/lng live only in the era A/B station files, which this inline
+# strategy does not read. This affects ~7.6% of era-A and ~4.9% of era-B trip endpoints
+# (~5M, ~3-4% of the whole dataset). The gap is an upper bound (some are the same station
+# whose name string merely drifted across eras). Closing it fully would mean ingesting the
+# station files as name-keyed coordinate observations (a deferred backfill); intentionally
+# out of scope here to reuse the existing inline machinery.
+coordinates:
+  strategy: inline
+  bounding_box: [45.35, 45.75, -73.95, -73.45]   # lat_min, lat_max, lng_min, lng_max — Montréal
+  min_coverage: 0.99                              
+  # No date_column: era C timestamps are epoch-ms (STARTTIMEMS), not a string the date
+  # parser can read — feeding it in would null every value and trip the parse guard.
+  # first_seen/last_seen stay null for Montreal, which generate_station_coords allows.
+  start:
+    name: [STARTSTATIONNAME]
+    lat:  [STARTSTATIONLATITUDE]
+    lng:  [STARTSTATIONLONGITUDE]
+  end:
+    name: [ENDSTATIONNAME]
+    lat:  [ENDSTATIONLATITUDE]
+    lng:  [ENDSTATIONLONGITUDE]
 
 processing_pipeline:
   - rename_columns
-  - convert_milliseconds_to_datetime
+  - convert_milliseconds_to_datetime   # era C: epoch-ms -> start_time / end_time
+  - convert_to_datetime                # era A/B: parse string timestamps (no-op on era C)
+  - resolve_montreal_station_names     # era A/B: numeric code/pk -> real station name
   - select_final_columns
-  - convert_to_datetime
-

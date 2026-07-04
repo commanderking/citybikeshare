@@ -433,7 +433,8 @@ def process_bicycle_transit_system(df, context):
 def _assert_durations_parsed(frame):
     """Raise if a non-empty duration value failed to parse to seconds — i.e. it
     didn't match HH:MM:SS. Genuinely empty/missing values are allowed through as
-    null. Delegates to _assert_column_parsed so the loud-error behavior matches dates."""
+    null. Delegates to _assert_column_parsed so the loud-error behavior matches dates.
+    """
     _assert_column_parsed(
         frame,
         "duration",
@@ -541,6 +542,184 @@ def cast_optional_columns(df: pl.LazyFrame) -> pl.LazyFrame:
     return df
 
 
+def _resolve_montreal_station_file_path(raw_dir, fname):
+    """Locate a station file under raw/, tolerating the gzip suffix (raw is stored .csv.gz)."""
+    path = raw_dir / fname
+    if path.exists():
+        return path
+    gz = raw_dir / f"{fname}.gz"
+    if gz.exists():
+        return gz
+    raise ValueError(
+        f"Montreal station file '{fname}' (or .gz) not found in {raw_dir}. Check "
+        f"`station_files` in montreal.yaml."
+    )
+
+
+def _read_montreal_station_file(raw_dir, fname):
+    """Read one Montreal station file into a [code, name] frame. The id header varies by
+    file — code (most), Code (Stations_2019), pk (2021_stations) — so take whichever is
+    present. (polars reads the .csv.gz transparently.)"""
+    path = _resolve_montreal_station_file_path(raw_dir, fname)
+    df = pl.read_csv(path, infer_schema_length=0, encoding="utf8-lossy")
+    id_col = next((c for c in ("code", "Code", "pk") if c in df.columns), None)
+    if id_col is None:
+        raise ValueError(
+            f"Montreal station file {path.name} has no code/Code/pk column; has {df.columns}"
+        )
+    return (
+        df.select(
+            pl.col(id_col).cast(pl.String).str.strip_chars().alias("code"),
+            pl.col("name").cast(pl.String).str.strip_chars().alias("name"),
+        )
+        .filter(
+            pl.col("code").is_not_null()
+            & (pl.col("code") != "")
+            & pl.col("name").is_not_null()
+            & (pl.col("name") != "")
+        )
+        .unique(subset="code", keep="last")
+    )
+
+
+def _build_montreal_code_maps(station_files, raw_dir):
+    """Build the two lookup frames for the era-A numeric-code join (see montreal.yaml eras):
+
+    * year_map [year, code, name] — the per-year station files, so a code that was reused
+      for a different physical station in a later year resolves to the RIGHT name for the
+      trip's own year (the reason this can't be a latest-wins union).
+    * last_known_name_map [code, name] — the most recent name any year ever gave each code.
+      Consulted ONLY when a code is absent from its own trip year's file. As of 2026-07 this
+      rescues exactly two codes, both referenced by 2019 trips but missing from
+      Stations_2019.csv: 6708 (→ "de Bleury / de Maisonneuve", its 2020 name) and 6034
+      (→ "St-Urbain / René-Lévesque", last listed 2018). ~25k endpoints.
+    """
+    per_year = {
+        int(year): _read_montreal_station_file(raw_dir, fname)
+        for year, fname in station_files.get("code_years", {}).items()
+    }
+    year_map = pl.concat(
+        [
+            frame.with_columns(pl.lit(year, dtype=pl.Int64).alias("year"))
+            for year, frame in per_year.items()
+        ],
+        how="vertical_relaxed",
+    ).select("year", "code", "name")
+
+    # Latest name any year gave each code (files concatenated in ascending year → keep last).
+    last_known_name_map = pl.concat(
+        [per_year[y] for y in sorted(per_year)], how="vertical_relaxed"
+    ).unique(subset="code", keep="last")
+
+    return year_map.lazy(), last_known_name_map.lazy()
+
+
+def _resolve_code_endpoints(df, year_map, last_known_name_map):
+    """Attach start/end station names by joining each endpoint's numeric code on the trip's
+    own year (exact station file), then filling any miss from last_known_name_map — the
+    latest name any year gave that code (only two 2019 codes need it; see
+    _build_montreal_code_maps)."""
+    df = df.with_columns(pl.col("start_time").dt.year().cast(pl.Int64).alias("_year"))
+    for prefix in ("start", "end"):
+        key = f"{prefix}_station_code"
+        df = (
+            df.join(
+                year_map, left_on=["_year", key], right_on=["year", "code"], how="left"
+            )
+            .rename({"name": "_name_exact_year"})
+            .join(last_known_name_map, left_on=key, right_on="code", how="left")
+            .rename({"name": "_name_last_known"})
+            .with_columns(
+                pl.coalesce(["_name_exact_year", "_name_last_known"]).alias(
+                    f"{prefix}_station_name"
+                )
+            )
+            .drop("_name_exact_year", "_name_last_known")
+        )
+    return df.drop("_year")
+
+
+def _resolve_pk_endpoints(df, pk_map):
+    """Attach start/end station names for era B, whose stations are keyed by emplacement_pk
+    in their own namespace (a single station file, no per-year reuse issue)."""
+    for prefix, key in (
+        ("start", "emplacement_pk_start"),
+        ("end", "emplacement_pk_end"),
+    ):
+        df = df.join(pk_map, left_on=key, right_on="code", how="left").rename(
+            {"name": f"{prefix}_station_name"}
+        )
+    return df
+
+
+def _assert_montreal_names_resolved(df, pairs):
+    """Raise if a station code/pk was present in the source but no station
+    file mapped it to a name (it would otherwise pass through as a silent null). `pairs` is a
+    list of (key_column, name_column). This is what fires when a new year's station file
+    wasn't added"""
+    audits = [
+        df.filter(
+            pl.col(key).is_not_null()
+            & (pl.col(key).str.strip_chars() != "")
+            & pl.col(name).is_null()
+        )
+        .select(pl.col(key).alias("key"))
+        .unique()
+        .head(25)
+        for key, name in pairs
+    ]
+    unresolved = sorted(set(pl.concat(pl.collect_all(audits))["key"].to_list()))
+    if unresolved:
+        raise ValueError(
+            f"Montreal: {len(unresolved)} station code/pk value(s) had no station-file match "
+            f"and would be left nameless. Examples: {unresolved[:25]}. Add/fix the matching "
+            f"station file under `station_files` in montreal.yaml."
+        )
+
+
+def resolve_montreal_station_names(df, config, context: PipelineContext):
+    """Turn Montreal's numeric station keys into real names using the per-year station files.
+
+    Era A/B trips carry only a numeric station key (era A code / era B emplacement_pk); the
+    human name lives in the station files. Era C already carries the name inline and passes
+    straight through. Runs after the timestamps are parsed so the code join can key on each
+    trip's own year. See the eras block in montreal.yaml for what A/B/C mean."""
+    headers = df.collect_schema().names()
+    station_files = config.get("station_files", {})
+    raw_dir = context.raw_directory
+
+    # era A: numeric station code — join on the trip's own year.
+    if "start_station_code" in headers:
+        year_map, last_known_name_map = _build_montreal_code_maps(
+            station_files, raw_dir
+        )
+        df = _resolve_code_endpoints(df, year_map, last_known_name_map)
+        _assert_montreal_names_resolved(
+            df,
+            [
+                ("start_station_code", "start_station_name"),
+                ("end_station_code", "end_station_name"),
+            ],
+        )
+        return df
+
+    # era B: emplacement_pk — single station file.
+    if "emplacement_pk_start" in headers:
+        pk_map = _read_montreal_station_file(raw_dir, station_files["pk_file"]).lazy()
+        df = _resolve_pk_endpoints(df, pk_map)
+        _assert_montreal_names_resolved(
+            df,
+            [
+                ("emplacement_pk_start", "start_station_name"),
+                ("emplacement_pk_end", "end_station_name"),
+            ],
+        )
+        return df
+
+    # era C: trips already carry real station names — nothing to do.
+    return df
+
+
 PROCESSING_FUNCTIONS = {
     "rename_columns": lambda df, config, context: df.pipe(
         rename_columns_for_keys(config["renamed_columns"])
@@ -559,6 +738,10 @@ PROCESSING_FUNCTIONS = {
     "convert_milliseconds_to_datetime": lambda df,
     config,
     context: convert_milliseconds_to_datetime(df),
+    ### Montreal
+    "resolve_montreal_station_names": lambda df,
+    config,
+    context: resolve_montreal_station_names(df, config, context),
     "filter_null_rows": lambda df, config, context: filter_null_rows(df),
     # City-centric functions
     ### Oslo
