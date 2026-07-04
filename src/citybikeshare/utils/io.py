@@ -8,8 +8,7 @@ def write_json(
 ) -> None:
     """Write ``data`` as JSON to ``path``, creating parent directories as needed.
 
-    Human-readable (``indent=2``) by default; pass ``minified=True`` for the compact,
-    web-friendly form (no whitespace). ``ensure_ascii`` is always False and the file is
+    ``ensure_ascii`` is always False and the file is
     opened as UTF-8, so non-ASCII station names (CJK, accented Latin, …) are written as
     readable raw UTF-8 rather than ``\\uXXXX`` escapes — and correctly regardless of the
     host's locale (a plain ``open(path, "w")`` would use the platform default encoding and

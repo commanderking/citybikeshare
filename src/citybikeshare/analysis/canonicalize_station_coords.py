@@ -1,9 +1,26 @@
 import json
 import math
+from typing import NotRequired, Optional, TypedDict
 
 from citybikeshare.context import PipelineContext
 from citybikeshare.config.loader import load_city_config
 from citybikeshare.utils.io import write_json
+
+
+class CanonicalStation(TypedDict):
+    """One physical station in ``station_coords_canonical.json``: a canonical display
+    ``name`` at a merged coordinate, with every other observed name under ``aliases``.
+    ``ids`` is present only for id-keyed cities (philadelphia, los_angeles), listing the
+    station ids that merged into this point."""
+
+    name: str
+    lat: float
+    lng: float
+    first_seen: Optional[str]
+    last_seen: Optional[str]
+    aliases: list[str]
+    ids: NotRequired[list[str]]
+
 
 # Stage-2 defaults; any can be overridden under `coordinates.canonicalize` per city.
 _DEFAULTS = {
@@ -114,7 +131,7 @@ def canonicalize_station_coords(context: PipelineContext):
 
     is_id_keyed = (config.get("coordinates") or {}).get("key", "name") == "id"
 
-    canonical = []
+    canonical: list[CanonicalStation] = []
     for idx in _cluster_points(points, cfg["merge_radius_m"]):
         members = [points[i] for i in idx]
 
@@ -131,7 +148,7 @@ def canonicalize_station_coords(context: PipelineContext):
         aliases = sorted({member[6] for member in members if member[6] != display})
         firsts = [member[4] for member in members if member[4]]
         lasts = [member[5] for member in members if member[5]]
-        record = {
+        record: CanonicalStation = {
             "name": display,
             "lat": canon[1],
             "lng": canon[2],
