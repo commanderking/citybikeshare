@@ -279,7 +279,7 @@ def get_guadalajara_stations_df(context: PipelineContext):
     return load_station_map(context.city)
 
 
-def _assert_stations_cover_trips(df, stations_df, allowed_ids=frozenset()):
+def _assert_stations_cover_trips(df, stations_df, allowed_ids=frozenset(), city=""):
     """Raise on trip station ids missing from the map.
 
     The natural inner join drops those trips with no error, so a source that adds
@@ -301,12 +301,12 @@ def _assert_stations_cover_trips(df, stations_df, allowed_ids=frozenset()):
     unexpected = [i for i in missing["id"].to_list() if i not in allowed_ids]
     if unexpected:
         ids = sorted(unexpected, key=lambda s: (0, int(s)) if s.isdigit() else (1, s))
+        where = f" {city}" if city else ""
         raise ValueError(
-            f"{len(ids)} station id(s) used by trips are absent from the station map: "
-            f"{ids[:30]}{' …' if len(ids) > 30 else ''}. Either refresh the map "
-            f"(`citybikeshare sync guadalajara` then `citybikeshare build-station-map "
-            f"guadalajara`), or — if the source can no longer supply their names — add "
-            f"them to `unmapped_station_ids` in the city's YAML."
+            f"{len(ids)} station id(s) used by{where} trips are absent from the station "
+            f"map: {ids[:30]}{' …' if len(ids) > 30 else ''}. Either refresh the map, "
+            f"or — if the source can no longer supply their names — add them to "
+            f"`unmapped_station_ids` in the city's YAML."
         )
 
 
@@ -361,7 +361,7 @@ def handle_guadalajara_stations(df, config, context):
         pl.col("end_station_id").cast(pl.String),
     )
     _assert_allowlist_still_needed(stations_df, allowed_ids)
-    _assert_stations_cover_trips(df, stations_df, allowed_ids)
+    _assert_stations_cover_trips(df, stations_df, allowed_ids, city="guadalajara")
 
     df = (
         df.join(stations_df, left_on="start_station_id", right_on="id", how="left")
@@ -407,24 +407,55 @@ def get_mexico_city_stations_lf(context: PipelineContext):
     return stations_lf
 
 
-def join_mexico_city_station_names(df, config, context):
-    stations_lf = get_mexico_city_stations_lf(context)
+def _normalize_mexico_station_id(col):
+    """Canonicalize a raw ecobici station id to the map's key form.
+
+    Post-2022 exports zero-pad ids (``017``) while the GBFS map keys on the unpadded
+    form (``17``); left as-is they silently miss the join and null the station column —
+    the bulk of the city's missing names. Only single numeric ids are stripped here.
+    Hyphenated pairs (``271-272``) are deliberately left intact: both halves are real,
+    *distinct* stations (different neighborhoods), so the pair is an ambiguous reference
+    to one of two — kept as its own key and surfaced as an ``Unknown (id 271-272)``
+    bucket via ``unmapped_station_ids`` rather than guessing a half. Garbage / leaked
+    names also pass through untouched so they trip the coverage assert or are dropped
+    upstream by ``remove_invalid_rows``.
+    """
+    stripped = col.str.strip_chars()
+    # strict=False: `then` is evaluated over the whole column, so non-numeric values
+    # (pairs, garbage) would error the cast — they're discarded by `when` regardless.
     return (
-        df.join(
-            stations_lf,
-            left_on="start_station_id",
-            right_on="station_id",
-            how="left",
-        )
+        pl.when(stripped.str.contains(r"^\d+$"))
+        .then(stripped.cast(pl.Int64, strict=False).cast(pl.String))
+        .otherwise(stripped)
+    )
+
+
+def join_mexico_city_station_names(df, config, context):
+    stations_df = get_mexico_city_stations_lf(context).rename({"station_id": "id"})
+    allowed_ids = {str(x) for x in config.get("unmapped_station_ids", [])}
+
+    df = df.with_columns(
+        _normalize_mexico_station_id(pl.col("start_station_id")).alias(
+            "start_station_id"
+        ),
+        _normalize_mexico_station_id(pl.col("end_station_id")).alias("end_station_id"),
+    )
+    stations_df = stations_df.with_columns(
+        _normalize_mexico_station_id(pl.col("id")).alias("id")
+    )
+
+    _assert_allowlist_still_needed(stations_df, allowed_ids)
+    _assert_stations_cover_trips(df, stations_df, allowed_ids, city="mexico_city")
+
+    df = (
+        df.join(stations_df, left_on="start_station_id", right_on="id", how="left")
         .rename({"name": "start_station_name"})
-        .join(
-            stations_lf,
-            left_on="end_station_id",
-            right_on="station_id",
-            how="left",
-        )
+        .join(stations_df, left_on="end_station_id", right_on="id", how="left")
         .rename({"name": "end_station_name"})
     )
+    if allowed_ids:
+        df = _fill_unmapped_station_names(df)
+    return df
 
 
 def clean_datetimes(df):
