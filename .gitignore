@@ -12,3 +12,6 @@ analysis/*/station_coords_rejected.json
 .vscode
 .pytest_cache
 .env
+
+# Claude session artifacts (memory lives in ~/.claude; never commit it into the repo)
+.claude/

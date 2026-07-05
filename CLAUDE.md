@@ -90,4 +90,10 @@ config keys and reusing shared functions in `etl/pipelines/common.py` (registere
 
 Name functions for the **action they perform**, using an imperative verb phrase —
 `generate_station_coords`, `summarize_city`, `canonicalize_station_coords`,
-`count_station_trips`, `_build_canonical_name_map`. 
+`count_station_trips`, `_build_canonical_name_map`.
+
+## Comments explain *why*, not *what*
+
+A comment should carry context the code doesn't — a source quirk, a historical reason,
+cross-file coupling. Don't restate the line below it, and don't repeat repo-wide
+principles (e.g. re-tagging every validator "fail loud"); those are understood.
