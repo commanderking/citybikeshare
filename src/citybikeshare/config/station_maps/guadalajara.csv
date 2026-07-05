@@ -1,0 +1,387 @@
+id,name
+2,(GDL-001) C. Epigmenio Glez./ Av. 16 de Sept.
+3,(GDL-002) C. Colonias  / Av.  Niños héroes
+4,(GDL-003) C. Vidrio / Av. Chapultepec
+5,(GDL-004) C. Ghilardi /C. Miraflores
+6,(GDL-005) C. San Diego /Calzada Independencia
+8,(GDL-006) C. Venustiano Carranza /C. Reforma
+9,(GDL-007) C. Epigmenio Glez./Av. Cristobal C.
+10,(GDL-008) C. Ignacio Zaragoza / C. J. Angulo
+11,(GDL-009) Calz. Federalismo/ C. J. Angulo
+12,(GDL-010) C. Cruz verde / C. Joaquin Angulo
+13,(GDL-011) C. Garibaldi / C. Frías
+14,(GDL-012) C. Joaquín Angulo / C. Ghilardi
+15,(GDL-013) C. Vidrio  / C. Marsella
+16,(GDL-014) C. J. Angulo/C José Clemente Orozco
+17,(GDL-015) C. Herrera y Cairo /C. Pedro Buzeta
+18,(GDL-016) C. Bernardo de Balbuena/C J. Angulo
+19,(GDL-017) Av. México /C. Bernardo de Balbuena
+20,(GDL-018) Av. México / C. Manuel M. Diéguez
+21,(GDL-019)  C. Juan Manuel / C. Andrés Terán
+22,Ex-GDL-020 Juan Manuel / C.General Coronado
+23,(GDL-021) C. Nicolás Romero / C. Reforma
+24,(GDL-022) C. San Felipe /C Enrique D. de León
+25,(GDL-023) C. Jesús / C. San Felipe
+26,(GDL-024) Av.  Federalismo / C. Juan Manuel
+27,(GDL-025) C. Reforma / C. González Ortega
+28,(GDL-026) C. Pedro Loza / C. Reforma
+29,(GDL-027) C. Belén / C. San Felipe
+30,(GDL-028) C. Gregorio Dávila /C. Manuel Acuña
+31,(GDL-029) Calz. Indep. /C. Juan Manuel
+32,(GDL-030) C. Pedro Moreno/ C. Progreso
+33,(GDL-031) C. Hospital / C. Andrés Terán
+34,(GDL-032) C. Degollado / Av. Miguel Hidalgo
+35,(GDL-033) Av. Hidalgo / C. Pedro Loza
+36,(GDL-034) C. Morelos / C. Donato Guerra
+37,(GDL-035) C. Mezquitán / Av. Hidalgo
+38,(GDL-036) C. Marcos Castellanos/ C. Morelos
+39,(GDL-037) C.Juan N. Cumplido /C. Independenci
+40,(GDL-038) C. Nicolás Romero / Av. Hidalgo
+41,(GDL-039) C. General Coronado / Av. Hidalgo
+42,(GDL-040) C. Morelos / C. Progreso
+43,(GDL-041) C. Manuel M. Diéguez / Av. Hidalgo
+44,(GDL-042) C. Bernardo de Balbuena /Av Hidalgo
+45,(GDL-043) C. Simón Bolivar / C. López Cotilla
+46,(GDL-044) C. Gral. San Martín /Av.  Vallarta
+47,(GDL-045) C. Pedro Moreno / C. Marsella
+48,(GDL-046) C. Emerson / Av. Vallarta
+49,(GDL-047) C. Robles Gil / Av. Vallarta
+50,(GDL-048) C. Constancio Hernández/ Av. Juaréz
+51,(GDL-049) Lopez Cotilla / Penitenciaría
+52,(GDL-050) C.Pedro Moreno /Federalismo
+53,(GDL-051) C. 8 de Julio / Av. Juárez
+54,(GDL-052) Av. Juarez /16 de Septiembre
+55,(GDL-053) C. Maestranza / Av. Juárez
+56,(GDL-054) Av. Juárez / Calz. Independencia
+57,(GDL-055) C. Degollado /C.Prisciliano Sánchez
+58,(GDL-056) Av. 16 de Sept. / C. Miguel Blanco
+59,(GDL-057) C. Ocampo / C. Prisciliano Sánchez
+60,(GDL-058) C. Pavo / C. Prisciliano Sánchez
+61,(GDL-059) C. Miguel Blanco / C. Penitenciaria
+62,(GDL-060) C. Madero/ C. Camarena
+63,(GDL-061) C. Libertad /  C. Argentina
+64,(GDL-062) C. Libertad / C. Moscú
+65,(GDL-063) C. Colonias  / C. López Cotilla
+66,(GDL-064) C. Marsella / C. López Cotilla
+67,(GDL-065) C. Simón Bolivar / Av. La Paz
+68,(GDL-066) C Lerdo de Tejada/C Gral. Sn Martín
+69,(GDL-067) Calzada Federalismo / C. Vidrio
+70,(GDL-068) C. Guadalupe Zuno / Av. Chapultepec
+71,(GDL-069) C. Colonias / C. Guadalupe Zuno
+72,(GDL-070) Av. La  Paz / C. Juan de Ojeda
+73,(GDL-071) Av. La Paz /Av.Enrique Díaz de León
+74,(GDL-072) Av. La Paz / C. Camarena
+75,(GDL-073) Av. La Paz / Av. Federalismo
+76,(GDL-074) C. Enrique González / C. Libertad
+77,(GDL-075) C. Pedro Rioseco /C. Nueva Galicia
+78,(GDL-076) Calz. Revolución / C. San Fernando
+79,(GDL-077) C. Argentina / C. Pedro Moreno
+80,(GDL-078) C. Comercio / C. La Paz
+81,(GDL-079)  C. Donato Guerra /Av. La Paz
+82,(GDL-080) C. Manuel Acuña / Av. Américas
+83,(GDL-081) C. Venezuela / Av. Niños Héroes
+84,(GDL-082) C. Gpe. Montenegro/C.Nuño de Guzman
+85,(GDL-083) C. Vidrio / Av. Enrique Díaz
+86,(GDL-084) C. Montenegro / Av. Chapultepec
+87,(GDL-085) C. Gdpe. Zuno/ Av.  Unión
+88,(GDL-086) C. Simón Bolivar / Av. Niños Héroes
+89,PBSCTEST2
+90,(MIBICI)  E. González Martínez/ Av. La Paz
+91,(ZPN-001) Emilio Carranza /Carretera Tesistán
+92,(ZPN-002) C. Emilio Carranza /C. Independenci
+93,(ZPN-003) C. Emilio Carranza / Av. Hidalgo
+94,(GDL-220) Av. Científicos / C. Filósofos
+95,(ZPN-005) C. Del Corral / C. Anáhuac
+96,(ZPN-006) C. Sta. Rita / Av. Avila Camacho
+97,Ex-ZPN-007 C. Libertad / Nicolás Bravo
+98,(ZPN-008) C. Vicente Guerrero / Av. Hidalgo
+99,Ex-ZPN-009 C. Del Corral / C. Nicolás Bravo
+100,(ZPN-010) C. Ramón Corona / C. Cuauhtémoc
+101,(ZPN-011) C. Pino Suárez / C. López Cotilla
+102,(ZPN-012) C. Pino Suárez / Av. Juan Pablo II
+103,(ZPN-013) C. Eva Briseño / C. Javier Mina
+104,(exZPN-014) C. Plata / Av. Laureles
+105,(ZPN-015) Blvr. de la Espuela / Blvr. Charros
+106,(ZPN-016) Av. Hidalgo/ C. Emiliano Zapata
+107,(ZPN-017) C. Juan Manuel / C. Pedro Moreno
+108,(ZPN-018) Av. Laureles / Blvrd. Panamericano
+109,Ex-ZPN-019 C. Cabecera Mpal. Juan Manuel / C.
+110,(ZPN-020) Av. Aurelio Ortega / Av. Laureles
+111,(ZPN-021) Blvrd. Panamericano/ C.Santa Mónica
+112,(ZPN-022) Av. Aurelio Ortega / C. Morelos
+113,EX-ZPN-023 C. Juan Diego / C. Sarcófago
+114,EX-ZPN-024 Manuel H. Alatorre / C. Industria
+115,(ZPN-025) Av. V. Carranza / Av. Jose Simeon
+116,Ex-ZPN-026 C. 16 Sep. / C. Fray A. de Segovia
+117,(ZPN-027) C. 5 de Mayo / C. Noviembre
+118,(ZPN-028) Av. F. Aranguren / Av. Laureles
+119,(ZPN-029) C. La Villa / C. Cuauhtémoc
+120,(ZPN-030) Av.Juan Pablo II / Lázaro Cárdenas
+124,Demo GDL
+125,(ZPN-031) C. Niño Obrero/Calz Lázaro Cárdenas
+126,(ZPN-032) Calz Lázaro Cárdenas / Av San Fco
+127,(ZPN-033) Av Lázaro Cárdenas / Av San Ignacio
+128,(ZPN-034) C. San Demetrio / C. Niño Obrero
+129,(ZPN-035) C. San Juan Bosco / Av. San Ignacio
+130,(ZPN-036) C. Niño Obrero /C José María Robles
+131,(ZPN-037) Av. San Ignacio / Av. Guadalupe
+132,(ZPN-038) C. Santa Rita / Av. Guadalupe
+133,(ZPN-039) Av. Niño Obrero / C. Juan Diego
+134,(ZPN-040) C. Santa María / C. Árbol
+135,(ZPN-041) C. 12 de Diciembre / C. Juan Diego
+136,(ZPN-042) C. Tonatiuh / Av. Netzahualcóyotl
+137,(ZPN-043) C. Ermita / C. Del Árbol
+138,Ex-ZPN-044
+139,(ZPN-045) Av. Tizoc / C. Iztaccíhuatl
+140,(ZPN-046) Av. Cubilete / Av. López Mateos
+141,(ZPN-047) Av. Tizoc / Av. López Mateos
+142,(TLQ-001) BlvrdGarcía Barragán/C. Río Tajo
+143,(TLQ-002) C. Juárez / Av. Niños Héroes
+144,(TLQ-003) C. Contreras Medellín/Donato Guerra
+145,(TLQ-004) C. Donato Guerra / C. Obregón
+146,(TLQ-005) C. Zalatitán / C. Jalisco
+147,Ex-TLQ-006 C. Zalatitán / Av. Francisco Silva
+148,(TLQ-007) Blvrd.García Barragán/Donato Guerra
+149,Ex-TLQ-008 C. Juárez / C.Francisco de Miranda
+150,(TLQ-009) C. Progreso / C. Juárez
+151,(TLQ-010) C. Zaragoza / C. Emilio Carranza
+152,(TLQ-011) C. Jalisco / C. Hidalgo
+153,(TLQ-012) C. Paseo Don Bosco / C. Tonalá
+154,(GDL-087) Av. Américas / Av. López Mateos
+155,(GDL-088) Av.Plan de San Luis/C. Andrés Teran
+156,(GDL-089) C. Juan Álvarez / C. Cruz Verde
+157,(GDL-090) Calz. Federalismo / C. Durango
+158,(GDL-091) C. Magisterio /Av. M. Ávila Camacho
+159,(GDL-092) Calz Federalismo / Av Plan San Luis
+160,(GDL-093) C. H Colegio Militar / Av. Américas
+161,(GDL-094) C. Manuel Cambre / C. Andrés Teran
+162,(GDL-095)  C. Mariano Bárcena / Maestros
+163,(GDL-096) C. Jesús García / C. González Orte
+164,(GDL-097) C.Jesús García / C. Juan N Cumplido
+165,(GDL-098) Calz. Federalismo / Av. Maestros
+166,(GDL-099) C. Eulogio Parra /C.González Ortega
+167,(GDL-100) C. Ayuntamiento/C. A. R. Plasencia
+168,(GDL-101) C. Amado Nervo /C. José María Vigil
+169,(GDL-102) C. María Vigil/C. Manuel M. Dieguez
+170,(GDL-103) J. Clemente Orozco /C. Jesús García
+171,(GDL-104) C. Pedro Loza / Av. Manuel Acuña
+172,(GDL-105) C. Pino Suárez / C. Joaquin Angulo
+173,(GDL-106) C. Juan Álvarez / C. Belén
+174,(GDL-107) Calz. Federalismo/C. J. María Vigil
+175,(GDL-108) C. Hospital / C. Alameda
+176,(GDL-109) C. Eulogio Parra / Av. Américas
+177,(GDL-110) C. Manuel Diéguez/Av. Eulogio Parra
+178,(GDL-111) C. José Palomar / C. Hospital
+179,(GDL-112) C. C. Orozco/C. Gral. Eulogio Parra
+180,(GDL-113) C. Ghilardi / C. Arista
+181,(GDL-114) C. Monte Cáucaso / C. Alameda
+182,(GDL-115) Calz. Federalismo / C. Fco. Zarco
+183,(GDL-116) Av Manuel Acuña/C. Pablo Villaseñor
+184,(GDL-117) Av Manuel Acuña / C Fray Fco Frejes
+185,(GDL-118) C. Antonio de León / C. Garibaldi
+186,(GDL-119) C. Fco Rojas González /C. Garibaldi
+187,(GDL-120) C. Agustín de la Rosa /C. Garibaldi
+188,(GDL-121) C. Tomás V. Gómez / Av. México
+189,(GDL-122) C. Fray Luis DePalacio/ Av. México
+190,(GDL-123) C. Aurelio L. Gallardo / Av. México
+191,(GDL-124) C. Severo Díaz / C. Justo Sierra
+192,(GDL-125) C. Pablo Villaseñor / Av. Hidalgo
+193,(GDL-126) C. Aurelio L. Gallardo / Av Hidalgo
+194,(GDL-127) Av. Vallarta / Av. de Los Arcos
+195,(GDL-128) Av. Morelos / C. Emilio Castelar
+196,(GDL-129) C. Lope de Vega / Av. Vallarta
+197,(GDL-130) C. J. Ruíz de Alarcón / Av Vallarta
+198,(GDL-131) C. Emilio Castelar / Av. La Paz
+199,(GDL-132) C. Lope de Vega / Av. La Paz
+200,(GDL-133) C. J. Ruíz de Alarcón / Av. La Paz
+201,(GDL-134) C. Agustín Yáñez / C. Fco Ugarte
+202,(GDL-135) C. Victoriano Agüeros / Av. Unión
+203,(GDL-136) C. Lope de Vega/C. Efraín Glez Luna
+204,(GDL-137) C. Ruíz de Alarcón/C. Efraín G Luna
+205,(GDL-138) C. de la Nebulosa / C. Placeres
+206,(GDL-139) C. Firmamento / Av. Niños Héroes
+207,(GDL-140) C. Constelación / Av. de los Arcos
+208,(GDL-141) C. Ruíz de Alarcón/C. Agustín Yáñez
+209,(GDL-142) C. De la Nebulosa / C. Firmamento
+210,(GDL-143) C. Eclipse / Av. de Los Arcos
+211,(GDL-144) C. Primo Feliciano / C. San Gabriel
+212,(GDL-145) C. San Miguel / Av. San Francisco
+213,(GDL-146) Av. Guadalupe / C. Boturini
+214,(GDL-147) Calz. Lázaro Cárdenas/Av. Guadalupe
+215,(GDL-148) C. San Rafael / Av. Tepeyac
+216,(GDL-149) Calz. Lázaro Cárdenas/López Mateos
+217,(GDL-150) C. Asunción / Av. Chapalita
+218,(GDL-151) C. Capuchinas / Av. Chapalita
+219,(GDL-152) Parque de las Estrellas/C. Orión
+220,(GDL-153) C. Crepúsculo / Av. Tonantzin
+221,(GDL-154) C. Capuchinas / Av. Las Rosas
+222,(GDL-155) Parque de las Estrellas/Mariano Ote
+223,Ex-GDL-156 C. Crepúsculo / Av. Mariano Otero
+224,(GDL-157) Av. Mariano Otero/ Av. De las Rosas
+225,(GDL-158) Av. Faro / Av. Las Rosas
+226,(GDL-159) C. Guadalupe Victoria /Del Ejercito
+227,(GDL-160) C.Silverio Garcia/Blvrd. García Ba
+228,(GDL-161) C. Rio Usumacinta/Blvrd García Barr
+229,(GDL-162) C. Rio Tuxpan / C. Salvador Lopez C
+230,(GDL-163) C. Corregidora / Blvrd. García B.
+231,(GDL-164) Av. Olímpica /C. José Rolon
+232,(GDL-165) C. Rio Panuco/ Blvrd. García B.
+233,(GDL-166) C. Rio Principal / Blvrd. García B.
+234,(GDL-167) C. Rio San Juan de Dios/Blvrd. Garc
+235,(GDL-168) Av. Rio Nilo / C. Ramón Pacheco
+236,(GDL-169) Blvrd. García Barragán/ C. Rio Zapo
+237,(GDL-170)  C. Relojeros/ C. Chamizal
+238,(GDL-171) C. Maquinistas / C. San Rafael
+239,(GDL-172) C. Chamizal / Av. Rio Nilo
+240,EX-GDL-173 C. Caballerango / C. Caporales
+241,(GDL-174) C. Juan de Zumárraga / Av. Tepeyac
+242,(GDL-175) C. Ermita / C. San Uriel
+243,(GDL-176) C. San Bonifacio/ Paseo Benedictino
+244,(GDL-177) C. Fray Fco Frejes / C. Fco Zarco
+246,(GDL-178) Salvador Quevedo/López Portillo
+247,(GDL-179) C. Monte Cáucaso / C. Sierra Nevada
+248,(GDL-180) C. Montes Pirineos/Salvador Quevedo
+249,(GDL-181) C.Ignacio Rmrz / Av Plan de San Lui
+250,Ex-GDL-182 Av. Plan de San Luis / Av. Enríque
+251,(TLQ-006) C. Miguel Hidalgo / Calz. Revolució
+253,(GDL-156) C. Duque de Rivas/ C. López Cotilla
+254,(GDL-020) C. General Coronado / C.Juan Manuel
+255,(GDL-182) C. General Coronado / C. Manuel Acu
+256,(GDL-183) Calz. Independencia / Av. Niños Hér
+257,(GDL-184) Ingreso Cucei / Revolución
+258,(GDL-185) Dr. Silverio García /Av. Revolución
+259,(GDL-186) C. Argentina / C. Francia
+260,(GDL-187) Av. 16 de Septiembre / C. Priscilia
+261,(GDL-188) Av. de la Presa / Av. Manuel A. Cam
+262,(GDL-189) C. 5 de Mayo/ Av. Revolución
+263,(GDL-190) C. Anahuac / Av. Revolución
+264,(GDL-191) Plaza de los Mariachis
+265,(GDL-192) Calle A1 / Av. Manuel A. Camacho
+266,(GDL-193) C. Hawai / C. Nicolás Romero
+267,(GDL-194) Av. Revolución / C. Ramón López Ve
+268,(GDL-195) C. Ramón Corona / Av. Juárez
+269,(GDL-196) C. Esmeralda / C. Manuel Acuña
+270,(GDL-197) Av. Río Nilo / Av. Revolución
+271,(GDL-198) Av. Alcalde / C. Hospital
+272,(GDL-199) C. Jesús García/Av. Alcalde
+273,(GDL-200) Av. Alcalde /Av. Manuel A. Camacho
+274,(GDL-201) Av. de los Normalistas / C. M. Guti
+275,(GDL-202) C. Magisterio / C. Durango
+276,(GDL-203) Av. Federalismo / C. Tamaulipas
+277,(GDL-204) C. España/ Av. Chapultepec
+278,(GDL-205) Av. Agustín Yáñez /C. Venezuela
+279,(GDL-206) C. Suiza / Av. Enrique Díaz de león
+280,(GDL-207) C. Lázaro Pérez / C. Escorza
+281,(GDL-208) Av. España / Av. Federalismo
+282,(GDL-209) Calz. del Campesino / Calz. Indepen
+283,(GDL-210) Av. Washington / Calz. Independenci
+284,(GDL-211) Av. Washington / C. Rusia
+285,(GDL-212) C. Nicolás Romero / C. Jaime Nunó
+286,(ZPN-023) Blvrd. de la Espuela / C. Silvano B
+287,(ZPN-024) C. Francisco Sarabia / Av. Laureles
+288,(ZPN-048) Av. J. Parres Arias / Prol. López C
+289,(ZPN-049) Ávila Camacho/ Lábaro Patrio
+290,(ZPN-050) C. el Mediero / Prol. Laureles
+291,(ZPN-051) Av. Periférico G. Morín / Av. J. Pa
+292,(ZPN-052) C. del Pial / C. del Vigía
+293,(ZPN-053) Prol. Laureles / Av. Periférico G.
+294,(ZPN-054) Av. J. Parres Arias / C. Ignacio Ja
+295,(ZPN-055) Prol. Laureles / Av. J. Parres Aria
+296,(ZPN-056) Av. M. Ávila Camacho / C. San Jorge
+302,(TLQ-008) C. Independencia / C. Allende
+303,(GDL-217) C. Ontario / Av. Manuel Acuña
+304,(GDL-214) C. Chihuahua / C. Miguel Galindo
+305,(GDL-223) C. Dr. Pérez Arce/ C. Gómez Farias
+306,(ZPN-066) C. Cuauhtémoc / Av. Tepeyac
+307,(GDL-215) C. Durango / C. Gregorio Davila
+308,(ZPN-065) C. Del Carmen / Av. Guadalupe
+309,(ZPN-064) C. Sto de Aquino / Av. Sta Teresa
+310,(exZPN-063) C. San Felipe Neri / Av. Guadalu
+311,(GDL-216) C. Tepic / C. Frías.
+312,(ZPN-067) C. Chimalhuacán / Av. López Mateos
+313,(ZPN-057) C. Escultores / Av. Guadalupe
+314,(ZPN-062) C. Loyola / C. Organización
+315,(ZPN-061) C. Organización / Av. Guadalupe
+316,(ZPN-060) C. De Los Leones / Av. Tepeyac
+317,(GDL-224) C. Reyes Flores/ C.Federico Medrano
+318,(GDL-222) C. Aldama / C. Dr. Leonardo Oliva
+319,(ZPN-058) Av. Labna / Av. Tepeyac
+320,(ZPN-059) C. Prados los Pinos/ Av. Tepeyac
+321,(GDL-218) C.Hércules / Av. De la Arboleda
+322,(GDL-225) C. Gral Carlos Fuero/Av. Revolución
+323,(GDL-213) C. Palavicini / Av. Circunvalación
+324,(GDL-221) De los científicos/ J. J. Tablada
+325,(GDL-226) C. Luis G. Cuevas /Av. Revolución
+326,(GDL-219) C. D. Rivera / C. Filósofos
+327,(GDL-227) C. Artistas / C. Carlos Pereira
+328,(GDL-233) S .Juan de Ulúa /Andrés Q.R.
+329,(GDL-235) Félix Palavicini / División del Nte
+330,(GDL-236) Félix Palavicini / Antonio Alcalde
+331,(GDL-259) C. Dionisio Rodriguez  / C. Cabañas
+332,(GDL-234) C. Chihuahua / C. Francisco Tejeda
+333,(GDL-239) Silvestre Revueltas Fray Antonio A
+334,"(GDL-261)C. Jarauta, Javier Mina"
+335,(GDL-242) C. Sevilla / Av. de los Maestros
+336,(GDL-243)Av. De los Maestros / C. Mil Cumbres
+337,(GDL-245)C. Alejandrina / C. Torres Quintero
+338,(GDL-258) Manuel Doblado / Dionisio Rodriguez
+339,(ZPN-068)Francisco Mora / Aurelio Ortega
+340,(ZPN-069)Jesús María Romo /Av. Aurelio Ortega
+341,(ZPN-070)Av. Avila Camacho / Av. Patria
+342,(ZPN-073)C. Pintores/ Av. Jose Luis Gonzaga
+343,(ZPN-074) C. Doctores / Av. San Luis Gonzaga
+344,(ZPN-076)C. Pintores / Av. Guadalupe
+345,(ZPN-075) C. Arquitectos / Av. Guadalupe
+346,(GDL-248)C. Hospital / C. Humboldt
+347,(GDL-249)C. Agustín Rivera / C. Manuel Acuña
+348,(GDL-250) Clemente Aguirre / Roque Abarca
+349,(GDL-244)C. Paricutin / Calz. Independencia
+350,(GDL-228)C. La Soledad / Av. Ávila Camacho
+351,(ZPN-071)Av. San Ignacio / Av. Vallarta
+352,(ZPN-072) Av. San Francisco / Av. San Ignacio
+353,(GDL-263)C. Aldama / C. 5 de Mayo
+354,(GDL-247) C. Tenerías / C. Belén
+355,(GDL-257)C. Dionisio Rodr./ C. José Fernando
+356,(GDL-270)C.Gómez Farías  / Calz. del Ejército
+357,(GDL-268)Heroico Colegio Militar/Revolución
+358,(GDL-269)Valentín Gómez Farías/Riva Palacio
+359,(GDL-230)Francisco Marquez/Federalismo
+360,(GDL-255) C. Cabañas / C. Industria
+361,(GDL-275)C. Antonio Tello / C. Lindavista
+362,(TLQ-015) Contreras Medellín / Niños Héroes
+363,(GDL-229)C. Guanajuato / C. Miguel Galindo
+364,(GDL-265)C. Clavel / Av. Gigantes
+365,(GDL-274) Corregidora/Pensador Mexicano
+366,(GDL-271) Román Morales / Álvaro Obregón
+368,(GDL-256)Josefa Ortíz/Juan Díaz Covarrubias
+369,(GDL-262) Av. Gigantes / C. Aquiles Serdán
+370,(GDL-273) C. Aldama / C. Orozco Berra
+371,(GDL-237)Av. Ramón Corona / C. Leandro Valle
+372,(GDL-238)José Juan Tablada / José Vasconcelos
+373,(GDL-251)C. Pablo Valdez / C. Mariano Jiménez
+374,(GDL-260) Churubusco / Álvaro Obregón
+375,(GDL-264) Federico Medrano / Antonio Rosales
+376,(GDL-266) C. Matamoros / Calz. Revolución
+377,(GDL-232)Tamaulipas/Andrés Quintana Roo
+378,(TLQ-014) C. Hornos / C. Francisco I. Madero
+379,(GDL-241)Junípero Serra/José Encarnación
+380,(TLQ-013)Zalatitan/Francisco Silva Romero
+381,(GDL-231) C. Tabasco / C. Juan de la Barrera
+382,(GDL-272)C. Jaime Nunó / C. De la Costa
+383,(GDL-240)Hilarion Romero Gil/Gabriela Mistral
+384,(GDL-252) C. Calpulalpan / C. Independencia
+385,(GDL-246)Juan José Baz/Silvestre Revueltas
+386,(GDL-254)Porfirio Díaz/Francisco Javier Mina
+387,(GDL-267) C. Diego Rivera / C. Sanganguey
+388,(GDL-253) C. General Salazar / C. Federación
+389,(ZPN-014) Av. D / San Jorge
+390,(ZPN-063) Paulino Navarro/Ma del Refugio Puga
+391,(ZPN-078) Lago Constanza / San Jorge
+392,(GDL-278) Ignacio Ramirez / Del Istmo
+393,(GDL-277) Av. 8 de julio / Alemania
+394,(ZPN-077) Helios / Av. Tepeyac
+395,(GDL-276) Francisco de Quevedo / Miguel Lerdo
+396,(GDL-280) Golfo de Cortes/ Fernando de Celada
+397,(GDL-279) Belen / Av. de los Maestros
+398,(GDL-281) Nevado Toluca / Av de los Maestros
+401,(ZPN-079) Av. Coyoacan / C. Chimalpopoca

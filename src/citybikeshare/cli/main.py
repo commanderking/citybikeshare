@@ -27,6 +27,7 @@ from citybikeshare.analysis.canonicalize_station_coords import (
     canonicalize_station_coords,
 )
 from citybikeshare.etl.inspect import analyze_headers
+from citybikeshare.etl.station_maps import STATION_MAP_BUILDERS
 from citybikeshare.cli.transform_all import app as transform_all_app
 from citybikeshare.cli.pipeline_all import run_pipeline_all
 
@@ -104,6 +105,18 @@ def transform(
     typer.echo(f"🔧 Transforming data for {city}")
     transform_city_data(context, incremental=incremental)
     typer.secho(f"✅ Transform complete for {city}", fg=typer.colors.GREEN)
+
+
+@app.command(name="build-station-map")
+def build_station_map(
+    city: str = typer.Argument(..., help="City name (currently only guadalajara)"),
+):
+    """Harvest nomenclatura files into the committed, cumulative id→name station map."""
+    context = build_context(city)
+    builder = STATION_MAP_BUILDERS.get(city)
+    if builder is None:
+        raise typer.BadParameter(f"No station-map builder for '{city}'")
+    builder(context)
 
 
 @app.command()

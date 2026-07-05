@@ -8,6 +8,7 @@ from citybikeshare.etl.constants import (
 )
 
 from citybikeshare.context import PipelineContext
+from citybikeshare.etl.station_maps import load_station_map
 
 
 def rename_columns_for_keys(renamed_columns_dict):
@@ -269,34 +270,129 @@ def handle_oslo_legacy_stations(df, config, context: PipelineContext):
 
 
 def get_guadalajara_stations_df(context: PipelineContext):
-    """
-    Load the stations DataFrame from a file starting with 'nomenclatura'.
-    """
-    download_path = context.download_directory
+    """id → name from the committed, cumulative station map (see etl/station_maps).
 
-    files = list(download_path.glob("nomenclatura*.csv"))
-    if not files:
-        raise FileNotFoundError(
-            "No file starting with 'nomenclatura' found in the directory."
+    Reads the version-controlled map rather than a nomenclatura file on disk: no single
+    monthly file covers the full id history, and picking one arbitrarily silently drops
+    trips for stations it omits.
+    """
+    return load_station_map(context.city)
+
+
+def _assert_stations_cover_trips(df, stations_df, allowed_ids=frozenset()):
+    """Raise on trip station ids missing from the map.
+
+    The natural inner join drops those trips with no error, so a source that adds
+    stations faster than the committed map is refreshed would quietly shrink the dataset.
+    ``allowed_ids`` (the city's ``unmapped_station_ids``) are stations the source never
+    names; they're exempt and flow through with a fallback.
+    """
+    used = (
+        pl.concat(
+            [
+                df.select(pl.col("start_station_id").alias("id")),
+                df.select(pl.col("end_station_id").alias("id")),
+            ]
         )
-    station_info_csv = files[0]
-    return (
-        pl.scan_csv(station_info_csv, encoding="utf8-lossy")
-        .select(["id", "name"])
-        .with_columns(pl.col("id").cast(pl.String))
+        .drop_nulls()
+        .unique()
+    )
+    missing = used.join(stations_df.select("id"), on="id", how="anti").collect()
+    unexpected = [i for i in missing["id"].to_list() if i not in allowed_ids]
+    if unexpected:
+        ids = sorted(unexpected, key=lambda s: (0, int(s)) if s.isdigit() else (1, s))
+        raise ValueError(
+            f"{len(ids)} station id(s) used by trips are absent from the station map: "
+            f"{ids[:30]}{' …' if len(ids) > 30 else ''}. Either refresh the map "
+            f"(`citybikeshare sync guadalajara` then `citybikeshare build-station-map "
+            f"guadalajara`), or — if the source can no longer supply their names — add "
+            f"them to `unmapped_station_ids` in the city's YAML."
+        )
+
+
+def _assert_allowlist_still_needed(stations_df, allowed_ids):
+    """Raise once an ``unmapped_station_ids`` id is named by the map.
+
+    The entry asserts the source has no name for that id; once a later nomenclatura
+    supplies one, the claim is false and the line should be pruned rather than left to
+    rot into a lie about the data.
+    """
+    if not allowed_ids:
+        return
+    redundant = (
+        stations_df.select("id")
+        .filter(pl.col("id").is_in(list(allowed_ids)))
+        .collect()["id"]
+        .to_list()
+    )
+    if redundant:
+        ids = sorted(redundant, key=lambda s: (0, int(s)) if s.isdigit() else (1, s))
+        raise ValueError(
+            f"{len(ids)} id(s) in unmapped_station_ids are now named by the station "
+            f"map: {ids}. Remove them from `unmapped_station_ids` in the city's YAML."
+        )
+
+
+def _fill_unmapped_station_names(df):
+    """Name the ``unmapped_station_ids`` stations the source never lists.
+
+    The coverage assert guarantees any null name here is one of those ids, so filling
+    every null is safe. The id keeps each unknown station distinct downstream instead of
+    collapsing them into one bucket.
+    """
+    return df.with_columns(
+        pl.col("start_station_name").fill_null(
+            pl.concat_str(
+                pl.lit("Unknown (id "), pl.col("start_station_id"), pl.lit(")")
+            )
+        ),
+        pl.col("end_station_name").fill_null(
+            pl.concat_str(pl.lit("Unknown (id "), pl.col("end_station_id"), pl.lit(")"))
+        ),
     )
 
 
 def handle_guadalajara_stations(df, config, context):
     stations_df = get_guadalajara_stations_df(context)
+    allowed_ids = {str(x) for x in config.get("unmapped_station_ids", [])}
+    # Cast to String so the join key matches the map's String ids (trip ids scan as int).
+    df = df.with_columns(
+        pl.col("start_station_id").cast(pl.String),
+        pl.col("end_station_id").cast(pl.String),
+    )
+    _assert_allowlist_still_needed(stations_df, allowed_ids)
+    _assert_stations_cover_trips(df, stations_df, allowed_ids)
 
     df = (
-        df.join(stations_df, left_on="start_station_id", right_on="id")
+        df.join(stations_df, left_on="start_station_id", right_on="id", how="left")
         .rename({"name": "start_station_name"})
-        .join(stations_df, left_on="end_station_id", right_on="id")
+        .join(stations_df, left_on="end_station_id", right_on="id", how="left")
         .rename({"name": "end_station_name"})
     )
+    if allowed_ids:
+        df = _fill_unmapped_station_names(df)
     return df
+
+
+def normalize_birth_year(df, config, context):
+    """Coerce birth_year to a nullable integer, nulling implausibly-low years.
+
+    Guadalajara's source wrote the year as a float string (`1994.0`) until mid-2021 and a
+    plain integer since, so the same value has two representations in the column. Missing
+    markers (`NA`, empty) are the source's own, and stay null. Values below
+    `birth_year_min` (`1`, `199`, `200`) are corruption and are nulled; everything from
+    that year up is kept as-is — including implausibly-young "infant" years
+    """
+    min_year = config["birth_year_min"]
+    missing = ["", *config.get("birth_year_missing", ["NA"])]
+
+    year = (
+        pl.when(pl.col("birth_year").is_in(missing))
+        .then(None)
+        .otherwise(pl.col("birth_year").str.strip_chars().str.replace(r"\.0$", ""))
+        .cast(pl.Int64)
+    )
+    return df.with_columns(pl.when(year >= min_year).then(year).alias("birth_year"))
 
 
 def get_mexico_city_stations_lf(context: PipelineContext):
@@ -756,6 +852,9 @@ PROCESSING_FUNCTIONS = {
     "handle_guadalajara_stations": lambda df,
     config,
     context: handle_guadalajara_stations(df, config, context),
+    "normalize_birth_year": lambda df, config, context: normalize_birth_year(
+        df, config, context
+    ),
     ### Taipei
     "remove_invalid_rows": lambda df, config, context: remove_invalid_rows(
         df, config.get("invalid_values", {})

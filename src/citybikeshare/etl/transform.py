@@ -6,6 +6,7 @@ from citybikeshare.utils.io_transform import (
     delete_folder,
 )
 from citybikeshare.etl.pipelines.common import PROCESSING_FUNCTIONS
+from citybikeshare.etl.station_maps import PRE_TRANSFORM_FUNCTIONS
 from citybikeshare.etl.constants import DEFAULT_PROCESSING_PIPELINE
 from citybikeshare.utils.paths import (
     get_csv_files,
@@ -144,10 +145,17 @@ def _remove_orphan_parquets(context: PipelineContext, expected_names):
             print(f"🗑️  Removed orphan parquet: {pq.name}")
 
 
+def run_pre_transform_steps(context: PipelineContext, config: dict):
+    """Run a city's configured `pre_transform_pipeline` once, before the file loop."""
+    for step in config.get("pre_transform_pipeline", []):
+        PRE_TRANSFORM_FUNCTIONS[step](context, config)
+
+
 def transform_city_data(context: PipelineContext, incremental: bool = True):
     source_directory = context.transform_input_directory
     trip_files = get_csv_files(source_directory)
     config = load_city_config(context.city)
+    run_pre_transform_steps(context, config)
     filtered_files = filter_filenames(trip_files, config)
 
     state = load_state(context.transform_state_path) if incremental else {}
