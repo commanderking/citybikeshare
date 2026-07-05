@@ -142,3 +142,16 @@ class TestHandleGuadalajaraStations:
         config = {"unmapped_station_ids": [408]}  # 999 not exempt
         with pytest.raises(ValueError, match="999"):
             handle_guadalajara_stations(trips, config, ctx).collect()
+
+    def test_raises_when_allowlisted_id_is_now_named(self, tmp_path, isolated_map):
+        # a later nomenclatura names 408, so the stale allow-list entry must be pruned
+        ctx = _context(tmp_path)
+        _write_nomenclatura(
+            ctx.download_directory, "2026_08", [(2, "Station Two"), (408, "Named Now")]
+        )
+        station_maps.update_guadalajara_station_map(ctx)
+
+        trips = pl.LazyFrame({"start_station_id": [2], "end_station_id": [408]})
+        config = {"unmapped_station_ids": [408]}
+        with pytest.raises(ValueError, match="now named"):
+            handle_guadalajara_stations(trips, config, ctx).collect()

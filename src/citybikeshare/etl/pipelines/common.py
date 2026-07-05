@@ -310,6 +310,29 @@ def _assert_stations_cover_trips(df, stations_df, allowed_ids=frozenset()):
         )
 
 
+def _assert_allowlist_still_needed(stations_df, allowed_ids):
+    """Raise once an ``unmapped_station_ids`` id is named by the map.
+
+    The entry asserts the source has no name for that id; once a later nomenclatura
+    supplies one, the claim is false and the line should be pruned rather than left to
+    rot into a lie about the data.
+    """
+    if not allowed_ids:
+        return
+    redundant = (
+        stations_df.select("id")
+        .filter(pl.col("id").is_in(list(allowed_ids)))
+        .collect()["id"]
+        .to_list()
+    )
+    if redundant:
+        ids = sorted(redundant, key=lambda s: (0, int(s)) if s.isdigit() else (1, s))
+        raise ValueError(
+            f"{len(ids)} id(s) in unmapped_station_ids are now named by the station "
+            f"map: {ids}. Remove them from `unmapped_station_ids` in the city's YAML."
+        )
+
+
 def _fill_unmapped_station_names(df):
     """Name the ``unmapped_station_ids`` stations the source never lists.
 
@@ -337,6 +360,7 @@ def handle_guadalajara_stations(df, config, context):
         pl.col("start_station_id").cast(pl.String),
         pl.col("end_station_id").cast(pl.String),
     )
+    _assert_allowlist_still_needed(stations_df, allowed_ids)
     _assert_stations_cover_trips(df, stations_df, allowed_ids)
 
     df = (
