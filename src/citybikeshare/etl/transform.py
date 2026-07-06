@@ -1,5 +1,6 @@
 import gzip
 import os
+from dataclasses import replace
 import polars as pl
 from citybikeshare.config.loader import load_city_config
 from citybikeshare.utils.io_transform import (
@@ -82,6 +83,8 @@ def create_parquet(file, context: PipelineContext, config):
     params = get_csv_scan_params(file, csv_options)
 
     df = pl.scan_csv(file, **params)
+    # Expose the current input file so file-scoped steps can target it by name.
+    context = replace(context, source_file=file)
     for step in config.get("processing_pipeline", DEFAULT_PROCESSING_PIPELINE):
         execute_step = PROCESSING_FUNCTIONS[step]
         df = execute_step(df, config, context)

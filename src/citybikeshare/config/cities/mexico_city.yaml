@@ -45,21 +45,37 @@ final_columns:
   - gender
 
 
+# Date and time are separate columns here (parsed by clean_datetimes, merged by
+# combine_datetimes). %I with %p because Dec 2016 logs 12-hour times ("11:20:43 PM").
 date_formats:
   - "%m-%d-%Y"
   - "%d/%m/%Y"
   - "%Y-%m-%d"
+
+time_formats:
+  - "%H:%M:%S"
+  - "%I:%M:%S %p"
 
 read_csv_options:
   encoding: "utf8-lossy"
 processing_pipeline:
   - rename_columns
   - remove_invalid_rows
+  # Before the station join: recover_corrupt_times relies on the source's arrival order,
+  # which a join can reshuffle.
+  - recover_corrupt_times
   - join_mexico_city_station_names
   - clean_datetimes
   - combine_datetimes
   - offset_two_digit_years
   - select_final_columns
+
+# Files whose source shipped Excel-mangled time cells (MM:SS.s, hour dropped from the
+# text). recover_corrupt_times rebuilds the arrival hour from the arrival-sorted order
+# for these files only (departures nulled — not sorted); any OTHER file with the pattern
+# is left to fail loud in clean_datetimes so a new occurrence is noticed.
+corrupt_time_files:
+  - "2022-09.csv"
 
 # Malformed station ids (leaked names, tag-reader errors, placeholder labels) that
 # appear in the id columns. Dropped before the station join so the coverage assert
@@ -83,6 +99,10 @@ invalid_values:
     - "tag 2"
     - "32:11.8"
   end_station_id: *bad_station_ids
+  # Lone malformed time (missing minutes/seconds) that clean_datetimes can't parse;
+  # dropping the row keeps the datetime validator focused on well-formed data.
+  starting_time:
+    - "18::"
 
 # Real stations used by trips but absent from the GBFS station_information.json,
 # which only lists *currently active* stations — early ids (2, 3, 4 …) that were

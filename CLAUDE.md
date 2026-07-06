@@ -92,6 +92,16 @@ Name functions for the **action they perform**, using an imperative verb phrase 
 `generate_station_coords`, `summarize_city`, `canonicalize_station_coords`,
 `count_station_trips`, `_build_canonical_name_map`.
 
+## Extract self-contained logic into named helpers
+
+Keep a pipeline step readable as a short sequence of named calls; push the *how* down a
+level. When a step contains a self-contained sub-task — especially a **validation** or a
+**parse/normalize** block — lift it into its own small function instead of leaving it
+inline. Validators use the `_assert_<condition>` convention (`_assert_column_parsed`,
+`_assert_stations_cover_trips`, `_assert_arrival_sorted`); a reusable transform reads as a
+verb (`_normalize_mexico_station_id`). This makes the guardrails reusable and independently testable, and
+leaves the top-level step describing what happens in order.
+
 ## Comments explain *why*, not *what*
 
 A comment should carry context the code doesn't — a source quirk, a historical reason,

@@ -11,6 +11,9 @@ class PipelineContext:
     data_root: Path
     transformed_root: Path
     analysis_root: Path
+    # The specific input file currently being transformed, set per-file by the
+    # transform stage so steps can target file-scoped fixes (e.g. null_corrupt_times).
+    source_file: Path | str | None = None
 
     @property
     def download_directory(self) -> Path:

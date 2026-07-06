@@ -72,6 +72,12 @@ def _assert_column_parsed(frame, column, guidance, pre_clean=None):
     print(f"ℹ️  {column}: {null_count} row(s) had no value (left null).")
 
 
+def _assert_columns_parsed(frame, columns, guidance):
+    """Run `_assert_column_parsed` over several columns with a shared guidance message."""
+    for column in columns:
+        _assert_column_parsed(frame, column, guidance)
+
+
 def _assert_all_dates_parsed(frame, columns, date_formats):
     """Raise if a column has a value that was present in the source but matched none of
     date_formats — a format the city's YAML doesn't account for. Genuinely empty/missing
@@ -80,8 +86,7 @@ def _assert_all_dates_parsed(frame, columns, date_formats):
         f"They matched none of date_formats={date_formats}. Add the matching "
         f"format(s) to the city's date_formats in its YAML."
     )
-    for column in columns:
-        _assert_column_parsed(frame, column, guidance)
+    _assert_columns_parsed(frame, columns, guidance)
 
 
 def convert_columns_to_datetime(date_column_names, date_formats, time_unit: str = "ms"):
@@ -407,12 +412,16 @@ def get_mexico_city_stations_lf(context: PipelineContext):
     return stations_lf
 
 
+# A bare, all-digits station id (``17``, ``017``) — no hyphen pair, no leaked name or
+# tag-reader annotation. Only these get zero-padding stripped to match the map.
+_SINGLE_NUMERIC_STATION_ID = r"^\d+$"
+
+
 def _normalize_mexico_station_id(col):
     """Canonicalize a raw ecobici station id to the map's key form.
 
     Post-2022 exports zero-pad ids (``017``) while the GBFS map keys on the unpadded
-    form (``17``); left as-is they silently miss the join and null the station column —
-    the bulk of the city's missing names. Only single numeric ids are stripped here.
+    form (``17``); Only single numeric ids are stripped here.
     Hyphenated pairs (``271-272``) are deliberately left intact: both halves are real,
     *distinct* stations (different neighborhoods), so the pair is an ambiguous reference
     to one of two — kept as its own key and surfaced as an ``Unknown (id 271-272)``
@@ -421,11 +430,10 @@ def _normalize_mexico_station_id(col):
     upstream by ``remove_invalid_rows``.
     """
     stripped = col.str.strip_chars()
-    # strict=False: `then` is evaluated over the whole column, so non-numeric values
-    # (pairs, garbage) would error the cast — they're discarded by `when` regardless.
+    # Drop leading zeros in examples like 017
     return (
-        pl.when(stripped.str.contains(r"^\d+$"))
-        .then(stripped.cast(pl.Int64, strict=False).cast(pl.String))
+        pl.when(stripped.str.contains(_SINGLE_NUMERIC_STATION_ID))
+        .then(stripped.str.replace(r"^0+(\d)", r"$1"))
         .otherwise(stripped)
     )
 
@@ -458,48 +466,175 @@ def join_mexico_city_station_names(df, config, context):
     return df
 
 
-def clean_datetimes(df):
-    # Mexico City Specific For now
-    date_formats = ["%m-%d-%Y", "%d/%m/%Y", "%Y-%m-%d"]
+# Excel-mangled time cell: "[m]:ss.s" — minutes:seconds with tenths and NO hour. The
+# text lost its hour, but the trip still happened at a real hour. See corrupt_time_files.
+_MANGLED_TIME_RE = r"^\d{1,2}:\d{2}\.\d+$"
 
-    time_formats = ["%H:%M:%S", "%H:%M:%S %p"]
 
+def _assert_arrival_sorted(frame, source):
+    """Raise unless ``frame``'s clean rows are ordered by arrival datetime.
+
+    recover_corrupt_times rebuilds a mangled arrival's hour from its neighbours, which is
+    only sound if the file is arrival-sorted. Verifying it on the clean (``H:MM:SS``) rows
+    means a future file that isn't sorted fails loud here instead of fabricating hours.
+    """
+    valid_dt = (
+        pl.col("end_date")
+        .str.strptime(pl.Date, "%d/%m/%y", strict=False)
+        .cast(pl.Datetime)
+        .dt.combine(
+            pl.col("ending_time")
+            .str.zfill(8)
+            .str.strptime(pl.Time, "%H:%M:%S", strict=False)
+        )
+    )
+    vdt = (
+        frame.filter(~pl.col("_arr_bad"))
+        .select(valid_dt.alias("dt"))
+        .drop_nulls()["dt"]
+    )
+    diffs = vdt.diff().drop_nulls().dt.total_seconds()
+    mono = (diffs >= 0).mean() if len(diffs) else 1.0
+    if mono < 0.999:
+        raise ValueError(
+            f"recover_corrupt_times: {source} is not sorted by arrival (monotonic "
+            f"fraction {mono:.3f}); cannot bracket the mangled arrival hours — refusing "
+            f"to fabricate times. Investigate before adding to corrupt_time_files."
+        )
+
+
+def _recover_arrival_hours(frame, source):
+    """Rebuild each mangled arrival's dropped hour from its sorted neighbours and null the
+    mangled departures (arrivals-only). Expects the `_arr_bad`/`_dep_bad` marker columns
+    and the frame in arrival-sorted order; logs and returns it with the temps dropped.
+
+    The clean rows' arrival hour is forward/back-filled over the order; where the
+    neighbours on both sides agree, the sandwiched mangled row is that hour. Boundary rows
+    (hours disagree) stay unrecovered → null.
+    """
+    frame = frame.with_columns(
+        pl.when(~pl.col("_arr_bad"))
+        .then(pl.col("ending_time").str.extract(r"^(\d{1,2}):", 1).cast(pl.Int32))
+        .alias("_vhour")
+    ).with_columns(
+        pl.col("_vhour").forward_fill().alias("_fh"),
+        pl.col("_vhour").backward_fill().alias("_bh"),
+    )
+    agree = pl.col("_fh") == pl.col("_bh")
+    mm = pl.col("ending_time").str.extract(r"^(\d{1,2}):", 1).str.zfill(2)
+    ss = pl.col("ending_time").str.extract(r":(\d{2})\.", 1)
+    recovered = pl.col("_fh").cast(pl.Utf8).str.zfill(2) + ":" + mm + ":" + ss
+
+    frame = frame.with_columns(
+        pl.when(pl.col("_arr_bad") & agree)
+        .then(recovered)
+        .when(pl.col("_arr_bad"))
+        .then(pl.lit(None))
+        .otherwise(pl.col("ending_time"))
+        .alias("ending_time"),
+        # Arrivals-only: mangled departures can't be bracketed (file isn't retiro-sorted).
+        pl.when(pl.col("_dep_bad"))
+        .then(pl.lit(None))
+        .otherwise(pl.col("starting_time"))
+        .alias("starting_time"),
+    )
+
+    n_arr = int(frame.select(pl.col("_arr_bad").sum()).item())
+    n_rec = int(frame.select((pl.col("_arr_bad") & agree).sum()).item())
+    n_dep = int(frame.select(pl.col("_dep_bad").sum()).item())
+    print(
+        f"🩹 recover_corrupt_times [{source}]: recovered {n_rec}/{n_arr} arrival times "
+        f"from sort order ({n_arr - n_rec} left null at hour boundaries); "
+        f"nulled {n_dep} departure times (arrivals-only)."
+    )
+    return frame.drop(["_arr_bad", "_dep_bad", "_vhour", "_fh", "_bh"])
+
+
+def recover_corrupt_times(df, config, context):
+    """Repair Excel-mangled ``MM:SS.s`` times, only in files listed in the config
+    ``corrupt_time_files``
+
+    ecobici's Sept-2022 export (2022-09.csv) merges the legacy fleet (small bike
+    ids, clean ``H:MM:SS`` times) with the new Lyft fleet (7-digit bike ids), whose ~39%
+    of rows arrive Excel-mangled to ``MM:SS.s`` The file
+    is sorted by *arrival*, so a mangled arrival wedged between two valid rows of the same
+    hour must be that hour. Departures are not sorted, so they can't be bracketed and are nulled
+
+    Must run before any row-reordering step (e.g. the station join), since it relies on
+    the source's arrival order.
+    """
+    source = os.path.basename(str(context.source_file or ""))
+    if source not in set(config.get("corrupt_time_files", [])):
+        return df
+
+    # Collect once: the scan preserves the source's (arrival-sorted) row order, which the
+    # recovery below depends on.
+    frame = df.collect(engine="streaming").with_columns(
+        pl.col("ending_time").str.contains(_MANGLED_TIME_RE).alias("_arr_bad"),
+        pl.col("starting_time").str.contains(_MANGLED_TIME_RE).alias("_dep_bad"),
+    )
+    _assert_arrival_sorted(frame, source)
+    return _recover_arrival_hours(frame, source).lazy()
+
+
+def _parse_split_datetimes(df, date_cols, time_cols, date_formats, time_formats):
+    """Parse separate date and time string columns, stashing each original as
+    `<col>_pre_clean` so a genuinely-empty value can later be told apart from one that
+    matched no format. First matching format wins; null if none match."""
     return df.with_columns(
+        [pl.col(c).alias(f"{c}_pre_clean") for c in date_cols + time_cols]
+    ).with_columns(
         [
-            # Parse start/end dates
             pl.coalesce(
                 [
-                    pl.col("start_date").str.strptime(pl.Datetime, fmt, strict=False)
+                    pl.col(c).str.strptime(pl.Datetime, fmt, strict=False)
                     for fmt in date_formats
                 ]
-            ).alias("start_date"),
+            ).alias(c)
+            for c in date_cols
+        ]
+        + [
+            # strip fractional seconds + left-pad unpadded hours ("9:55:08" -> "09:55:08")
             pl.coalesce(
                 [
-                    pl.col("end_date").str.strptime(pl.Datetime, fmt, strict=False)
-                    for fmt in date_formats
-                ]
-            ).alias("end_date"),
-            # Parse times (handling fractional seconds + padding)
-            pl.coalesce(
-                [
-                    pl.col("starting_time")
+                    pl.col(c)
                     .str.replace(r"\.\d+", "")
                     .str.zfill(8)
                     .str.strptime(pl.Time, fmt, strict=False)
                     for fmt in time_formats
                 ]
-            ).alias("starting_time"),
-            pl.coalesce(
-                [
-                    pl.col("ending_time")
-                    .str.replace(r"\.\d+", "")
-                    .str.zfill(8)
-                    .str.strptime(pl.Time, fmt, strict=False)
-                    for fmt in time_formats
-                ]
-            ).alias("ending_time"),
+            ).alias(c)
+            for c in time_cols
         ]
     )
+
+
+def clean_datetimes(df, config):
+    # Mexico City specific: date and time live in separate columns (parsed here,
+    # merged by combine_datetimes). Formats come from the city's YAML so they're not
+    # duplicated between here and config.
+    date_formats = config["date_formats"]
+    time_formats = config["time_formats"]
+    date_cols = ["start_date", "end_date"]
+    time_cols = ["starting_time", "ending_time"]
+
+    df = _parse_split_datetimes(df, date_cols, time_cols, date_formats, time_formats)
+
+    # Materialize once, then fail loud on any non-empty value that matched no format —
+    # silent nulls here are exactly what hid Dec 2016's AM/PM times. NULL-string rows
+    # are already dropped upstream by remove_invalid_rows.
+    frame = df.collect(engine="streaming")
+    _assert_columns_parsed(
+        frame,
+        date_cols,
+        f"They matched none of date_formats={date_formats}. Add the format to the city's date_formats in its YAML.",
+    )
+    _assert_columns_parsed(
+        frame,
+        time_cols,
+        f"They matched none of time_formats={time_formats}. Add the format to the city's time_formats in its YAML.",
+    )
+    return frame.drop([f"{c}_pre_clean" for c in date_cols + time_cols]).lazy()
 
 
 def combine_datetimes(df):
@@ -897,7 +1032,10 @@ PROCESSING_FUNCTIONS = {
     "join_mexico_city_station_names": lambda df,
     config,
     context: join_mexico_city_station_names(df, config, context),
-    "clean_datetimes": lambda df, config, context: clean_datetimes(df),
+    "recover_corrupt_times": lambda df, config, context: recover_corrupt_times(
+        df, config, context
+    ),
+    "clean_datetimes": lambda df, config, context: clean_datetimes(df, config),
     "combine_datetimes": lambda df, config, context: combine_datetimes(df),
     "cast_optional_columns": lambda df, config, context: cast_optional_columns(df),
 }
