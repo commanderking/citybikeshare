@@ -46,43 +46,83 @@ def _resolve_column(header: set[str], candidates) -> Optional[str]:
     return None
 
 
+# --- Coordinate representations -------------------------------------------------------
+# A source encodes each endpoint's lng/lat coordinates in one of a few shapes.
+# Parsing is lenient (bad value → null); the coverage guard catches a wholesale format change.
+
+# Pulls "lng lat" out of an OGC WKT (Well-Known Text) point, e.g. "POINT (-85.31 35.05)".
+# WKT axis order is (longitude latitude).
+_WKT_POINT = r"POINT ?\(\s*(-?[0-9.]+)\s+(-?[0-9.]+)\s*\)"
+
+
+def _coords_from_lat_lng(cols: dict[str, str]) -> tuple[pl.Expr, pl.Expr]:
+    """Separate numeric latitude / longitude columns (the common case)."""
+    return (
+        pl.col(cols["lat"]).cast(pl.Float64, strict=False),
+        pl.col(cols["lng"]).cast(pl.Float64, strict=False),
+    )
+
+
+def _coords_from_wkt_point(cols: dict[str, str]) -> tuple[pl.Expr, pl.Expr]:
+    """One WKT point column, "POINT (lng lat)" (Chattanooga's Start/End Location)."""
+    point = pl.col(cols["point"])
+    return (
+        point.str.extract(_WKT_POINT, 2).cast(pl.Float64, strict=False),
+        point.str.extract(_WKT_POINT, 1).cast(pl.Float64, strict=False),
+    )
+
+
+# format name → (coordinate-column roles it requires, expr builder). The required roles drive
+# both config resolution (which start/end keys to look up) and the skip-if-missing check.
+COORD_FORMATS = {
+    "lat_lng": (("lat", "lng"), _coords_from_lat_lng),
+    "wkt_point": (("point",), _coords_from_wkt_point),
+}
+
+
 class _EndpointColumns(NamedTuple):
     key: str
     id: Optional[str]
-    lat: str
-    lng: str
+    coords: dict[str, str]  # coordinate-role → resolved header, per the active format
     date: Optional[str]
 
 
 def _resolve_endpoint_columns(
-    header: set[str], columns: dict, key_role: StationKey, date_cands
+    header: set[str],
+    columns: dict,
+    key_role: StationKey,
+    coord_roles: tuple[str, ...],
+    date_cands,
 ) -> Optional[_EndpointColumns]:
     """Map one endpoint's role → actual header name for this file, selecting the station-key
-    column by ``key_role``. Returns None when the required key/lat/lng aren't all present —
-    schema drift across a city's eras is expected, and that file/endpoint is simply skipped."""
+    column by ``key_role`` and the coordinate columns the active format requires. Returns None
+    when the key or any required coordinate column is absent — schema drift across a city's
+    eras is expected, and that file/endpoint is simply skipped."""
     key_c = _resolve_column(header, columns.get(key_role))
-    lat_c = _resolve_column(header, columns.get("lat"))
-    lng_c = _resolve_column(header, columns.get("lng"))
-    if not (key_c and lat_c and lng_c):
+    coords = {role: _resolve_column(header, columns.get(role)) for role in coord_roles}
+    if not key_c or any(c is None for c in coords.values()):
         return None
     return _EndpointColumns(
         key=key_c,
         id=_resolve_column(header, columns.get("id")),
-        lat=lat_c,
-        lng=lng_c,
+        coords=coords,
         date=_resolve_column(header, date_cands),
     )
 
 
-def _select_station_coords(path: Path, cols: _EndpointColumns) -> pl.LazyFrame:
+def _select_station_coords(
+    path: Path, cols: _EndpointColumns, build_coords
+) -> pl.LazyFrame:
     """Project a file's resolved columns into the normalized station-observation schema
-    [station, id, lat, lng, dt_raw]. All-Utf8 scan is robust to messy raw values."""
+    [station, id, lat, lng, dt_raw]. ``build_coords`` is the active format's expr builder.
+    All-Utf8 scan is robust to messy raw values."""
     lf = pl.scan_csv(path, infer_schema_length=0)
+    lat_expr, lng_expr = build_coords(cols.coords)
     return lf.select(
         pl.col(cols.key).str.strip_chars().alias("station"),
         (pl.col(cols.id) if cols.id else pl.lit(None)).cast(pl.String).alias("id"),
-        pl.col(cols.lat).cast(pl.Float64, strict=False).alias("lat"),
-        pl.col(cols.lng).cast(pl.Float64, strict=False).alias("lng"),
+        lat_expr.alias("lat"),
+        lng_expr.alias("lng"),
         (pl.col(cols.date) if cols.date else pl.lit(None))
         .cast(pl.String)
         .alias("dt_raw"),
@@ -95,10 +135,12 @@ def _collect_coordinate_frames(
     date_cands,
     config: dict,
     key_role: StationKey,
+    coord_format: str,
 ) -> list[pl.LazyFrame]:
     """Project every raw file's start/end coordinate columns into the normalized
     station-observation schema. Files lacking coords for an endpoint are skipped
     (schema drift across eras is expected)."""
+    coord_roles, build_coords = COORD_FORMATS[coord_format]
     frames: list[pl.LazyFrame] = []
     for path in _list_raw_files(raw_directory, config):
         header = set(_get_header(path))
@@ -106,9 +148,11 @@ def _collect_coordinate_frames(
             columns = coords_cfg.get(start_or_end)
             if not columns:
                 continue
-            cols = _resolve_endpoint_columns(header, columns, key_role, date_cands)
+            cols = _resolve_endpoint_columns(
+                header, columns, key_role, coord_roles, date_cands
+            )
             if cols is not None:
-                frames.append(_select_station_coords(path, cols))
+                frames.append(_select_station_coords(path, cols, build_coords))
     return frames
 
 
@@ -197,11 +241,28 @@ def generate_station_coords(context: PipelineContext):
     # Which role identifies a station (see StationKey). Constructing from the config value
     # validates it — an unknown `key:` raises here rather than silently mis-keying.
     key_role = StationKey(coords_cfg.get("key", StationKey.NAME))
+    # Which coordinate representation the source uses (see COORD_FORMATS). Validate here so an
+    # unknown `format:` fails loud rather than silently skipping every file for a missing role.
+    coord_format = coords_cfg.get("format", "lat_lng")
+    if coord_format not in COORD_FORMATS:
+        raise ValueError(
+            f"{city}: unknown coordinates.format '{coord_format}'; "
+            f"expected one of {sorted(COORD_FORMATS)}"
+        )
     names_cfg = coords_cfg.get("station_names")
     names = _load_station_names(context.raw_directory, names_cfg) if names_cfg else None
     date_cands = coords_cfg.get("date_column")
+    # Read the same input transform does: cleaned/ when it exists, else raw/. Matters for
+    # cities whose raw/ is a non-UTF-8 encoding polars can't scan (daejeon/seoul are EUC-KR);
+    # their clean stage re-encodes to UTF-8 without touching columns, so the coord columns
+    # survive. A no-op for cities with no cleaned/ dir (falls straight back to raw/).
     frames = _collect_coordinate_frames(
-        coords_cfg, context.raw_directory, date_cands, config, key_role
+        coords_cfg,
+        context.transform_input_directory,
+        date_cands,
+        config,
+        key_role,
+        coord_format,
     )
     if not frames:
         raise ValueError(

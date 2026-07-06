@@ -86,6 +86,16 @@ A city's handling lives in its YAML (`config/cities/<city>.yaml`): the
 config keys and reusing shared functions in `etl/pipelines/common.py` (registered in
 `PROCESSING_FUNCTIONS`) — not city-specific branching in the core ETL code.
 
+**Dispatch on a named config key, not on input shape.** When a step gains a *second* way of
+handling something (a new coordinate encoding, date layout, station-key source), add an
+explicit discriminator in the city's YAML and dispatch through a small registry (as
+`PROCESSING_FUNCTIONS` / `COORD_FORMATS` do) — one named handler per variant. Do **not** infer
+the variant from which columns/keys happen to be present; implicit dispatch silently takes the
+wrong branch on a typo or an overlapping schema, and still reports success. Validate the key up
+front so an unknown value fails loud. This applies from the *second* variant on — don't build
+the registry for a single case. Treat introducing that second variant as a design fork worth
+surfacing, not a local parsing detail to fold in with the minimal diff.
+
 ## Naming: functions are verbs, data is nouns
 
 Name functions for the **action they perform**, using an imperative verb phrase —
