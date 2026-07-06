@@ -45,18 +45,135 @@ final_columns:
   - gender
 
 
+# Date and time are separate columns here (parsed by clean_datetimes, merged by
+# combine_datetimes). %I with %p because Dec 2016 logs 12-hour times ("11:20:43 PM").
 date_formats:
   - "%m-%d-%Y"
   - "%d/%m/%Y"
   - "%Y-%m-%d"
 
+time_formats:
+  - "%H:%M:%S"
+  - "%I:%M:%S %p"
+
 read_csv_options:
   encoding: "utf8-lossy"
 processing_pipeline:
   - rename_columns
+  - remove_invalid_rows
+  # Before the station join: recover_corrupt_times relies on the source's arrival order,
+  # which a join can reshuffle.
+  - recover_corrupt_times
   - join_mexico_city_station_names
   - clean_datetimes
   - combine_datetimes
   - offset_two_digit_years
   - select_final_columns
+
+# Files whose source shipped Excel-mangled time cells (MM:SS.s, hour dropped from the
+# text). recover_corrupt_times rebuilds the arrival hour from the arrival-sorted order
+# for these files only (departures nulled — not sorted); any OTHER file with the pattern
+# is left to fail loud in clean_datetimes so a new occurrence is noticed.
+corrupt_time_files:
+  - "2022-09.csv"
+
+# Malformed station ids (leaked names, tag-reader errors, placeholder labels) that
+# appear in the id columns. Dropped before the station join so the coverage assert
+# only sees genuine ids; everything else numeric is a real station (see
+# unmapped_station_ids). Listed per column since either endpoint can carry them.
+invalid_values:
+  start_station_id: &bad_station_ids
+    - "NULL"
+    - "Temporal 1"
+    - "Temporal 2"
+    - "Temporal 3"
+    - "Temporal 4"
+    - "Temporal - 2da Sección Bosque Chapultepec"
+    - "CE-622"
+    - "CE-642"
+    - "Kiosco 150177"
+    - "Kiosco Reciclar Fue CE-008"
+    - "kiosco Buscar (tal vez CE-009)"
+    - "kiosco100-FallaRTC"
+    - "Tag ID defectuosa NS 1649 (Kiosco478)"
+    - "tag 2"
+    - "32:11.8"
+  end_station_id: *bad_station_ids
+  # Lone malformed time (missing minutes/seconds) that clean_datetimes can't parse;
+  # dropping the row keeps the datetime validator focused on well-formed data.
+  starting_time:
+    - "18::"
+
+# Real stations used by trips but absent from the GBFS station_information.json,
+# which only lists *currently active* stations — early ids (2, 3, 4 …) that were
+# decommissioned/renumbered in the Lyft era, and newer ones the committed snapshot
+# predates. The source can't name them, so they flow through as "Unknown (id N)"
+# rather than being dropped. Refreshing GBFS does not recover these (verified).
+unmapped_station_ids:
+  - 2
+  - 3
+  - 4
+  - 13
+  - 54
+  - 248
+  - 274
+  - 308
+  - 310
+  - 351
+  - 661
+  - 675
+  - 676
+  - 677
+  - 679
+  - 680
+  - 687
+  - 688
+  - 689
+  - 690
+  - 691
+  - 692
+  - 693
+  - 696
+  - 701
+  - 703
+  - 704
+  - 705
+  - 706
+  - 707
+  - 708
+  - 709
+  - 710
+  - 1000
+  - 1001
+  - 1002
+  - 1003
+  - 1006
+  - 2007
+  - 2081
+  - 2082
+  - 2083
+  - 2084
+  - 3000
+  - 3001
+  - 3002
+  - 3003
+  - 4000
+  - 4422222
+  # Ambiguous station pairs (2022+ Lyft-era exports): a fixed set of 12 consecutive
+  # id pairs where BOTH halves are real, distinct stations in different neighborhoods
+  # (likely a duplicate/twin station record from the migration that the trip→station
+  # join matches to both). The source doesn't say which, so they flow through as
+  # "Unknown (id N-M)" rather than guessing a half. Quoted to stay strings, not math.
+  - "107-108"
+  - "158-159"
+  - "192-193"
+  - "235-236"
+  - "237-238"
+  - "264-275"
+  - "266-267"
+  - "268-269"
+  - "271-272"
+  - "273-274"
+  - "390-391"
+  - "445-446"
 
