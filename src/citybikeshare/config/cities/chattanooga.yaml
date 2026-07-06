@@ -32,3 +32,24 @@ processing_pipeline:
   - convert_to_datetime
   - select_final_columns
 
+# Station-coordinate extraction. Trip rows carry an inline WKT point per endpoint
+# ("Start Location" = "POINT (lng lat)") plus a station name + numeric id. Downstream trips
+# are name-keyed (final_columns keeps only *_station_name), so coords are keyed by name and
+# carry the id as a representative. Candidates use the RAW header names (this stage reads
+# raw/, before rename_columns).
+coordinates:
+  strategy: inline
+  format: wkt_point           # each endpoint's coords are one WKT "POINT (lng lat)" column
+  key: name
+  bounding_box: [34.9, 35.2, -85.5, -85.0]   # lat_min, lat_max, lng_min, lng_max — Chattanooga
+  min_coverage: 0.90
+  date_column: ["Start Time"]
+  start:
+    name:  ["Start Station Name"]
+    id:    ["Start Station ID"]
+    point: ["Start Location"]
+  end:
+    name:  ["End Station Name"]
+    id:    ["End Station ID"]
+    point: ["End Location"]
+

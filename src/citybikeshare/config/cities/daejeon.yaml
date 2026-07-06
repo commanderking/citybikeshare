@@ -9,13 +9,14 @@ renamed_columns:
   대여일시: start_time
   대여_대여소ID: start_station_id
   대여_대여소명: start_station_name
-  대여_X좌표: start_station_longitude
-  대여_Y좌표: start_station_latitude
+  # Source mislabels its axes: X좌표 holds latitude (~36.3), Y좌표 longitude (~127.4).
+  대여_X좌표: start_station_latitude
+  대여_Y좌표: start_station_longitude
   반납일시: end_time
   반납_대여소ID: end_station_id
   반납_대여소명: end_station_name
-  반납_X좌표: end_station_longitude
-  반납_Y좌표: end_station_latitude
+  반납_X좌표: end_station_latitude
+  반납_Y좌표: end_station_longitude
   "이용시간(분)": duration_minutes
   "이용거리(km)": distance_km
 
@@ -44,3 +45,26 @@ processing_pipeline:
   - select_final_columns
   - convert_to_datetime
   - cast_optional_columns
+
+# Station-coordinate extraction. Trip rows carry inline coords per endpoint, but only ~9 of
+# 20 monthly files do; files lacking the columns are skipped and those stations pick up their
+# point from the coord-bearing months. Coordinates read from cleaned/ (UTF-8) because raw/ is
+# EUC-KR, which polars can't scan. Candidates use the RAW Korean header names (unchanged by
+# the clean stage).
+coordinates:
+  strategy: inline
+  format: lat_lng             # X좌표 = latitude, Y좌표 = longitude (source swaps its labels)
+  key: name
+  bounding_box: [36.0, 36.6, 127.2, 127.7]   # lat_min, lat_max, lng_min, lng_max — Daejeon
+  min_coverage: 0.90
+  date_column: ["대여일시"]
+  start:
+    name: ["대여_대여소명"]
+    id:   ["대여_대여소ID"]
+    lat:  ["대여_X좌표"]
+    lng:  ["대여_Y좌표"]
+  end:
+    name: ["반납_대여소명"]
+    id:   ["반납_대여소ID"]
+    lat:  ["반납_X좌표"]
+    lng:  ["반납_Y좌표"]
