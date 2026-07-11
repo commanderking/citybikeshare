@@ -40,18 +40,25 @@ analysis/duration_buckets_all_cities.json"/]
 
     STATIONSRC -->|"build-station-coordinates · build-station-map\n(cumulative, never-drop)"| STATIONS
     STATIONS -.->|"name id-only trips"| TRANSFORM
-    STATIONS -.->|"station_coords_canonical.json\nstation_trip_counts.json"| ANALYZE
+    STATIONS -.->|"committed coords\nid → name + lat/lng"| ANALYZE
+    CLEAN -.->|"inline coords\nlat/lng or WKT point on trip rows"| ANALYZE
 ```
 
-> **Station reference (cities without inline coordinates).** Some systems put lat/lng on
-> every trip row (used directly). Others give only a station **id** or **name** in the trips
-> and publish the details separately — a live **GBFS** feed (e.g. Mexico City, Vancouver) or a
-> **station file** shipped with the data (e.g. Guadalajara's `nomenclatura`). For those, a
-> per-city step harvests a committed, cumulative reference that never drops a station once seen
-> (so retirements from a live feed don't lose history): `build-station-coordinates` stores
-> `id → name + lat/lng` (GBFS), `build-station-map` stores `id → name` (the coordinates are read
-> from the station file at analyze time). **transform** uses it to name id-only trips;
-> **analyze** uses it to build canonical station coordinates and per-station trip counts.
+> **Where station coordinates come from.** Each city draws its station points from one of three
+> sources, all resolved at **analyze** into the same per-station coordinates + trip counts:
+>
+> - **inline** — lat/lng (or a WKT `POINT`, e.g. Chattanooga) on every trip row, read straight
+>   from the trip CSVs; no separate source (`coordinates.strategy: inline`).
+> - **station file** — coordinates shipped alongside the data (e.g. Guadalajara's `nomenclatura`),
+>   joined by station id.
+> - **GBFS** — fetched from a live feed (e.g. Mexico City, Vancouver) during `sync`.
+>
+> For the file/GBFS cases the trips carry only a station **id** or **name**, so a per-city step
+> harvests a committed, cumulative reference that never drops a station once seen (so retirements
+> from a live feed don't lose history): `build-station-coordinates` stores `id → name + lat/lng`
+> (GBFS), `build-station-map` stores `id → name` (coordinates read from the station file at
+> analyze). **transform** uses it to name id-only trips; **analyze** turns it — or the inline
+> points — into canonical station coordinates and per-station trip counts.
 
 > **Shortcuts**
 > - `citybikeshare pipeline <city>` runs sync → extract → clean → transform in one command.
