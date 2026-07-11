@@ -49,4 +49,24 @@ processing_pipeline:
   - convert_to_datetime
   - normalize_birth_year
 
+# Station coordinates come from the monthly `nomenclatura` roster (trips carry no inline
+# coords), keyed by name — the same name the transform assigns via the committed station map,
+# so it joins to the trip data. Newest month wins per id. n_obs is a placeholder (roster
+# snapshot, no trip counts), so drop the canonicalize n_obs floor.
+coordinates:
+  strategy: station_file
+  key: name
+  bounding_box: [20.4, 20.9, -103.5, -103.2]   # lat_min, lat_max, lng_min, lng_max — Guadalajara
+  min_coverage: 0.90
+  canonicalize:
+    n_obs_floor: 0
+  station_file:
+    format: csv
+    dir: raw
+    glob: "nomenclatura*.csv*"
+    id:   ["id"]
+    name: ["name"]
+    lat:  ["latitude"]
+    lng:  ["longitude"]
+
 

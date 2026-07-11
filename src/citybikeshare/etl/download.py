@@ -8,6 +8,7 @@ from pathlib import Path
 from typing import Optional
 from citybikeshare.config.loader import load_city_config
 from citybikeshare.context import PipelineContext
+from citybikeshare.etl.custom_downloaders.utils.gbfs import download_station_information
 
 
 def download_city_data(
@@ -26,6 +27,13 @@ def download_city_data(
     s3_sync_options = config.get("s3_sync_options", "")
 
     output_dir = context.download_directory
+
+    # A city with a `gbfs_url` gets its station coordinates refreshed here regardless of how
+    # its trips are downloaded (custom script or S3) — the pre-transform harvest merges it into
+    # the committed coordinates. Config-driven, so a new GBFS city needs no downloader code.
+    gbfs_url = config.get("gbfs_url")
+    if gbfs_url:
+        download_station_information(context, gbfs_url)
 
     # --------------------------------------------------
     # 1️⃣ Try to import a custom script if it exists

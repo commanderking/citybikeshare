@@ -1,6 +1,7 @@
 import csv
 import gzip
 import io
+import json
 from enum import StrEnum
 from pathlib import Path
 from typing import NamedTuple, Optional
@@ -211,6 +212,177 @@ def _format_station_records(
     return out
 
 
+# --- station_file strategy ------------------------------------------------------------
+# Some cities carry NO per-trip coordinates; their points live in a separate station file
+# (Guadalajara's monthly `nomenclatura` CSV, Mexico City's GBFS `station_information.json`).
+# It is keyed by id + name + point, and — critically — the transform names those cities' trips
+# from the SAME source (or a map built from it), so keying coords by its `name` matches the
+# trip station names downstream. Each `format` is a small reader returning the station file as a
+# DataFrame (raw columns); a new source format = a new reader + one STATION_FILE_READERS line,
+# mirroring COORD_FORMATS above.
+
+
+def _station_file_dir(context: PipelineContext, sf_cfg: dict) -> Path:
+    dir_name = sf_cfg.get("dir", "raw")
+    directory = getattr(context, f"{dir_name}_directory", None)
+    if directory is None:
+        raise ValueError(
+            f"station_file.dir '{dir_name}' is not a known context directory"
+        )
+    return directory
+
+
+def _read_station_file_csv(context: PipelineContext, sf_cfg: dict) -> pl.DataFrame:
+    """Concat every CSV matching ``glob`` (``.csv`` and ``.csv.gz``), oldest file first so a
+    later dedup keeps the newest row per station. A ``YYYY_MM`` in the filename sorts
+    chronologically under a plain lexicographic sort (guadalajara nomenclatura)."""
+    directory = _station_file_dir(context, sf_cfg)
+    pattern = sf_cfg["glob"]
+    paths = sorted(directory.glob(pattern))
+    if not paths:
+        raise ValueError(f"no station files matching {pattern!r} in {directory}")
+    frames = [
+        pl.read_csv(p, infer_schema_length=0, encoding="utf8-lossy") for p in paths
+    ]
+    return pl.concat(frames, how="diagonal_relaxed")
+
+
+def _read_station_file_gbfs(context: PipelineContext, sf_cfg: dict) -> pl.DataFrame:
+    """GBFS ``station_information.json`` — the stations live under ``data.stations`` (one dict
+    per station: station_id, name, lat, lon, …)."""
+    path = _station_file_dir(context, sf_cfg) / sf_cfg["file"]
+    if not path.exists():
+        raise ValueError(f"GBFS station file not found: {path}")
+    stations = json.loads(path.read_text())["data"]["stations"]
+    return pl.DataFrame(stations)
+
+
+def _read_committed_coordinates(context: PipelineContext, sf_cfg: dict) -> pl.DataFrame:
+    """The committed, cumulative GBFS coordinates (see etl/station_coordinates) — the durable,
+    version-controlled coord source for GBFS cities, so a station retired from the live feed
+    keeps its last-known point. Columns: id, name, lat, lng."""
+    from citybikeshare.etl.station_coordinates import load_station_coordinates
+
+    return load_station_coordinates(context.city).collect()
+
+
+STATION_FILE_READERS = {
+    "csv": _read_station_file_csv,
+    "gbfs_json": _read_station_file_gbfs,
+    "station_coordinates": _read_committed_coordinates,
+}
+
+
+def _generate_from_station_file(
+    context: PipelineContext, config: dict, coords_cfg: dict
+) -> None:
+    """Stage 1 for cities whose coordinates come from a station file, not per-trip columns.
+
+    Reads the station file, projects it to the normalized [station, id, lat, lng] schema keyed
+    by ``key`` (name for these cities), dedupes to the newest row per id, and writes the same
+    ``station_coords.json`` shape the inline path does — so ``canonicalize_station_coords``
+    and the downstream join are unchanged. There are no trip observations, so ``n_obs`` is a
+    placeholder 1 and first/last-seen are null (a station file is a point-in-time snapshot)."""
+    city = context.city
+    key_role = StationKey(coords_cfg.get("key", StationKey.NAME))
+    sf_cfg = coords_cfg["station_file"]
+
+    fmt = sf_cfg.get("format", "csv")
+    if fmt not in STATION_FILE_READERS:
+        raise ValueError(
+            f"{city}: unknown station_file.format '{fmt}'; "
+            f"expected one of {sorted(STATION_FILE_READERS)}"
+        )
+
+    print(f"Generating station coords for: {city} (station_file/{fmt})")
+    stations_df = STATION_FILE_READERS[fmt](context, sf_cfg)
+
+    header = set(stations_df.columns)
+    key_c = _resolve_column(header, sf_cfg.get(key_role))
+    id_c = _resolve_column(header, sf_cfg.get("id"))
+    lat_c = _resolve_column(header, sf_cfg.get("lat"))
+    lng_c = _resolve_column(header, sf_cfg.get("lng"))
+    if not (key_c and lat_c and lng_c):
+        raise ValueError(
+            f"{city}: station file lacks configured columns "
+            f"({key_role}={sf_cfg.get(key_role)}, lat={sf_cfg.get('lat')}, "
+            f"lng={sf_cfg.get('lng')}); has {sorted(header)}"
+        )
+
+    proj = stations_df.select(
+        pl.col(key_c).cast(pl.String).str.strip_chars().alias("station"),
+        (pl.col(id_c).cast(pl.String).str.strip_chars() if id_c else pl.lit(None))
+        .cast(pl.String)
+        .alias("id"),
+        pl.col(lat_c).cast(pl.Float64, strict=False).alias("lat"),
+        pl.col(lng_c).cast(pl.Float64, strict=False).alias("lng"),
+    )
+    # Newest row per id wins (the source re-serves the file; ids can be re-pointed/renamed).
+    if id_c:
+        proj = proj.unique(subset="id", keep="last", maintain_order=True)
+
+    has_name = pl.col("station").is_not_null() & (pl.col("station").str.len_chars() > 0)
+    has_coord = pl.col("lat").is_not_null() & pl.col("lng").is_not_null()
+    bounding_box = coords_cfg.get("bounding_box")
+    if bounding_box:
+        lat_min, lat_max, lng_min, lng_max = bounding_box
+        inside = pl.col("lat").is_between(lat_min, lat_max) & pl.col("lng").is_between(
+            lng_min, lng_max
+        )
+    else:
+        inside = pl.lit(True)
+
+    named = proj.filter(has_name)
+    located = named.filter(has_coord)
+    kept = located.filter(inside).unique(subset="station", keep="first")
+    rejected = located.filter(~inside)
+
+    # Coverage here is the station file's own coordinate fill (rows with a usable in-box point),
+    # not trip coverage — its job is to fail loud if a source format change nulls the coord column.
+    total = named.height
+    coverage = (kept.height / total) if total else 0.0
+    min_coverage = coords_cfg.get("min_coverage", 0.0)
+    if coverage < min_coverage:
+        raise ValueError(
+            f"{city}: station-file coordinate coverage {coverage:.1%} < required "
+            f"{min_coverage:.1%} ({kept.height:,}/{total:,} stations on a usable in-box "
+            f"point). Source format may have changed."
+        )
+
+    agg = kept.select(
+        pl.col("station"),
+        pl.col("lat").round(6),
+        pl.col("lng").round(6),
+        pl.col("id"),
+        pl.lit(1, dtype=pl.UInt32).alias("n_obs"),
+        pl.lit(None, dtype=pl.Date).alias("first_seen"),
+        pl.lit(None, dtype=pl.Date).alias("last_seen"),
+    )
+    out = _format_station_records(agg)
+
+    rejected_records = (
+        rejected.group_by("station", "lat", "lng")
+        .agg(pl.len().alias("n_obs"))
+        .with_columns(
+            pl.lit(None, dtype=pl.String).alias("first_seen"),
+            pl.lit(None, dtype=pl.String).alias("last_seen"),
+        )
+        .sort("n_obs", descending=True)
+        .to_dicts()
+    )
+
+    output_file = context.analysis_directory / "station_coords.json"
+    write_json(output_file, out, sort_keys=True)
+    rejected_file = context.analysis_directory / "station_coords_rejected.json"
+    write_json(rejected_file, rejected_records)
+
+    print(
+        f"✅ {city}: {len(out)} stations, {coverage:.1%} station-file coverage "
+        f"({kept.height:,}/{total:,} stations on a usable in-box point) → {output_file}\n"
+        f"   {len(rejected_records)} out-of-box station(s) → {rejected_file}"
+    )
+
+
 def generate_station_coords(context: PipelineContext):
     """Stage 1 — as-observed station coordinates, keyed by exact source name.
 
@@ -223,16 +395,18 @@ def generate_station_coords(context: PipelineContext):
     config = load_city_config(city)
 
     # Resolve config, bailing harmlessly (skip, not error) for cities this step can't
-    # serve: those with no `coordinates` block, or a non-inline strategy (Tier B reads a
-    # separate station file; external has no local coords). Inline is all we handle here.
+    # serve: those with no `coordinates` block or an unsupported strategy. `inline` reads
+    # coords from the trip files (below); `station_file` reads a separate station file.
     coords_cfg = config.get("coordinates")
     if not coords_cfg:
         print(f"⏭️  {city}: no `coordinates` config; skipping station coords")
         return
 
     strategy = coords_cfg.get("strategy")
+    if strategy == "station_file":
+        _generate_from_station_file(context, config, coords_cfg)
+        return
     if strategy != "inline":
-        # station_file / external strategies are handled elsewhere / not yet wired.
         reason = coords_cfg.get("reason", f"strategy '{strategy}' not yet supported")
         print(f"⏭️  {city}: coordinate strategy '{strategy}' — {reason}")
         return

@@ -1,12 +1,10 @@
 import os
-import json
 from concurrent.futures import ThreadPoolExecutor
 from urllib.parse import urljoin, urlparse
 
 import requests
 from playwright.sync_api import sync_playwright
 
-from citybikeshare.context import PipelineContext
 from citybikeshare.etl.custom_downloaders.utils.download_helpers import should_download
 
 
@@ -75,32 +73,8 @@ def run_get_exports(playwright, url, csv_path):
             future.result()
 
 
-def get_stations_info(context: PipelineContext):
-    url = "https://gbfs.mex.lyftbikes.com/gbfs/es/station_information.json"
-    metadata_file = context.metadata_directory
-    try:
-        # Make a GET request to fetch the data
-        response = requests.get(url)
-        response.raise_for_status()  # Raise an exception for HTTP errors
-
-        # Parse the JSON content
-        data = response.json()
-
-        # Save the JSON data to a file
-        with open(metadata_file, "w", encoding="utf-8") as file:
-            json.dump(data, file, ensure_ascii=False, indent=4)
-
-        print(f"Data successfully downloaded and saved to '{metadata_file}'.")
-    except requests.exceptions.RequestException as e:
-        print(f"An error occurred while fetching the data: {e}")
-    except Exception as e:
-        print(f"An unexpected error occurred: {e}")
-
-
 def download(config, context):
     url = config.get("source_url")
     download_path = context.download_directory
-    # Mexico City data only includes station ids, not names
-    # get_stations_info()
     with sync_playwright() as playwright:
         run_get_exports(playwright, url, download_path)

@@ -7,8 +7,15 @@ from citybikeshare.utils.io_transform import (
     delete_folder,
 )
 from citybikeshare.etl.pipelines.common import PROCESSING_FUNCTIONS
-from citybikeshare.etl.station_maps import PRE_TRANSFORM_FUNCTIONS
+from citybikeshare.etl.station_maps import PRE_TRANSFORM_FUNCTIONS as _MAP_PRE_TRANSFORM
+from citybikeshare.etl.station_coordinates import (
+    PRE_TRANSFORM_FUNCTIONS as _COORD_PRE_TRANSFORM,
+)
 from citybikeshare.etl.constants import DEFAULT_PROCESSING_PIPELINE
+
+# Names-only station maps (nomenclatura) + coord-bearing station coordinates (GBFS) register
+# their pre-transform hooks separately; a city references either by step name in its config.
+PRE_TRANSFORM_FUNCTIONS = {**_MAP_PRE_TRANSFORM, **_COORD_PRE_TRANSFORM}
 from citybikeshare.utils.paths import (
     get_csv_files,
 )
