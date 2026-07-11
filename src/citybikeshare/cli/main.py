@@ -122,7 +122,9 @@ def build_station_map(
 
 @app.command(name="build-station-coordinates")
 def build_station_coordinates(
-    city: str = typer.Argument(..., help="City name (GBFS coordinate cities, e.g. mexico_city)"),
+    city: str = typer.Argument(
+        ..., help="City name (GBFS coordinate cities, e.g. mexico_city)"
+    ),
 ):
     """Merge the fetched GBFS station_information.json into the committed, cumulative coordinates."""
     context = build_context(city)

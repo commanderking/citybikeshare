@@ -17,6 +17,10 @@ renamed_columns:
   ended_at: end_time
   start_station_name: start_station_name
   start_station_id: start_station_id
+
+  # Starting in 2020, it seems Chicago e-bikes can be docked anywhere and don't have an end station name
+  # They do have an end_lat and end_lng to show where they were docked though
+
   end_station_name: end_station_name
   end_station_id: end_station_id
   start_lat: start_station_latitude

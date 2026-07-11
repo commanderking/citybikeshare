@@ -212,37 +212,37 @@
     },
     {
       "dow": 1,
-      "trips": 1435164,
+      "trips": 1501664,
       "year": 2016
     },
     {
       "dow": 2,
-      "trips": 1563508,
+      "trips": 1636028,
       "year": 2016
     },
     {
       "dow": 3,
-      "trips": 1500014,
+      "trips": 1572478,
       "year": 2016
     },
     {
       "dow": 4,
-      "trips": 1513716,
+      "trips": 1598556,
       "year": 2016
     },
     {
       "dow": 5,
-      "trips": 1420843,
+      "trips": 1498540,
       "year": 2016
     },
     {
       "dow": 6,
-      "trips": 654413,
+      "trips": 689631,
       "year": 2016
     },
     {
       "dow": 7,
-      "trips": 549602,
+      "trips": 572642,
       "year": 2016
     },
     {
@@ -1229,7 +1229,7 @@
     },
     {
       "hour": 0,
-      "trips": 29396,
+      "trips": 32169,
       "year": 2016
     },
     {
@@ -1279,57 +1279,57 @@
     },
     {
       "hour": 13,
-      "trips": 487621,
+      "trips": 528352,
       "year": 2016
     },
     {
       "hour": 14,
-      "trips": 610847,
+      "trips": 662870,
       "year": 2016
     },
     {
       "hour": 15,
-      "trips": 594022,
+      "trips": 644559,
       "year": 2016
     },
     {
       "hour": 16,
-      "trips": 486485,
+      "trips": 529202,
       "year": 2016
     },
     {
       "hour": 17,
-      "trips": 547157,
+      "trips": 595120,
       "year": 2016
     },
     {
       "hour": 18,
-      "trips": 804722,
+      "trips": 870565,
       "year": 2016
     },
     {
       "hour": 19,
-      "trips": 647945,
+      "trips": 701398,
       "year": 2016
     },
     {
       "hour": 20,
-      "trips": 415612,
+      "trips": 449133,
       "year": 2016
     },
     {
       "hour": 21,
-      "trips": 276322,
+      "trips": 297470,
       "year": 2016
     },
     {
       "hour": 22,
-      "trips": 172934,
+      "trips": 186469,
       "year": 2016
     },
     {
       "hour": 23,
-      "trips": 94228,
+      "trips": 102263,
       "year": 2016
     },
     {
@@ -2631,32 +2631,32 @@
     },
     {
       "band": "<5",
-      "share": 0.1481,
-      "trips": 1277486,
+      "share": 0.1473,
+      "trips": 1336088,
       "year": 2016
     },
     {
       "band": "5-15",
-      "share": 0.5538,
-      "trips": 4778331,
+      "share": 0.5529,
+      "trips": 5014405,
       "year": 2016
     },
     {
       "band": "15-30",
-      "share": 0.2377,
-      "trips": 2050729,
+      "share": 0.2386,
+      "trips": 2164248,
       "year": 2016
     },
     {
       "band": "30-60",
-      "share": 0.0561,
-      "trips": 483813,
+      "share": 0.0566,
+      "trips": 513507,
       "year": 2016
     },
     {
       "band": "60+",
-      "share": 0.0044,
-      "trips": 38331,
+      "share": 0.0046,
+      "trips": 41288,
       "year": 2016
     },
     {
@@ -8004,7 +8004,7 @@
     {
       "dow": 1,
       "hour": 0,
-      "trips": 2370,
+      "trips": 2553,
       "year": 2016
     },
     {
@@ -8058,73 +8058,73 @@
     {
       "dow": 1,
       "hour": 13,
-      "trips": 71173,
+      "trips": 76651,
       "year": 2016
     },
     {
       "dow": 1,
       "hour": 14,
-      "trips": 97721,
+      "trips": 105285,
       "year": 2016
     },
     {
       "dow": 1,
       "hour": 15,
-      "trips": 97138,
+      "trips": 104588,
       "year": 2016
     },
     {
       "dow": 1,
       "hour": 16,
-      "trips": 75658,
+      "trips": 81873,
       "year": 2016
     },
     {
       "dow": 1,
       "hour": 17,
-      "trips": 92656,
+      "trips": 100206,
       "year": 2016
     },
     {
       "dow": 1,
       "hour": 18,
-      "trips": 153397,
+      "trips": 164930,
       "year": 2016
     },
     {
       "dow": 1,
       "hour": 19,
-      "trips": 123663,
+      "trips": 132718,
       "year": 2016
     },
     {
       "dow": 1,
       "hour": 20,
-      "trips": 73320,
+      "trips": 78611,
       "year": 2016
     },
     {
       "dow": 1,
       "hour": 21,
-      "trips": 47566,
+      "trips": 50803,
       "year": 2016
     },
     {
       "dow": 1,
       "hour": 22,
-      "trips": 27648,
+      "trips": 29680,
       "year": 2016
     },
     {
       "dow": 1,
       "hour": 23,
-      "trips": 12547,
+      "trips": 13459,
       "year": 2016
     },
     {
       "dow": 2,
       "hour": 0,
-      "trips": 3239,
+      "trips": 3531,
       "year": 2016
     },
     {
@@ -8178,73 +8178,73 @@
     {
       "dow": 2,
       "hour": 13,
-      "trips": 78434,
+      "trips": 84265,
       "year": 2016
     },
     {
       "dow": 2,
       "hour": 14,
-      "trips": 105420,
+      "trips": 113258,
       "year": 2016
     },
     {
       "dow": 2,
       "hour": 15,
-      "trips": 101917,
+      "trips": 109676,
       "year": 2016
     },
     {
       "dow": 2,
       "hour": 16,
-      "trips": 82288,
+      "trips": 88835,
       "year": 2016
     },
     {
       "dow": 2,
       "hour": 17,
-      "trips": 99543,
+      "trips": 107759,
       "year": 2016
     },
     {
       "dow": 2,
       "hour": 18,
-      "trips": 160825,
+      "trips": 173448,
       "year": 2016
     },
     {
       "dow": 2,
       "hour": 19,
-      "trips": 125218,
+      "trips": 135432,
       "year": 2016
     },
     {
       "dow": 2,
       "hour": 20,
-      "trips": 76873,
+      "trips": 82899,
       "year": 2016
     },
     {
       "dow": 2,
       "hour": 21,
-      "trips": 50521,
+      "trips": 54293,
       "year": 2016
     },
     {
       "dow": 2,
       "hour": 22,
-      "trips": 30579,
+      "trips": 32806,
       "year": 2016
     },
     {
       "dow": 2,
       "hour": 23,
-      "trips": 14686,
+      "trips": 15861,
       "year": 2016
     },
     {
       "dow": 3,
       "hour": 0,
-      "trips": 4135,
+      "trips": 4516,
       "year": 2016
     },
     {
@@ -8298,73 +8298,73 @@
     {
       "dow": 3,
       "hour": 13,
-      "trips": 75104,
+      "trips": 80962,
       "year": 2016
     },
     {
       "dow": 3,
       "hour": 14,
-      "trips": 99296,
+      "trips": 107372,
       "year": 2016
     },
     {
       "dow": 3,
       "hour": 15,
-      "trips": 93290,
+      "trips": 100882,
       "year": 2016
     },
     {
       "dow": 3,
       "hour": 16,
-      "trips": 77217,
+      "trips": 83659,
       "year": 2016
     },
     {
       "dow": 3,
       "hour": 17,
-      "trips": 92486,
+      "trips": 100555,
       "year": 2016
     },
     {
       "dow": 3,
       "hour": 18,
-      "trips": 148974,
+      "trips": 161522,
       "year": 2016
     },
     {
       "dow": 3,
       "hour": 19,
-      "trips": 125370,
+      "trips": 135428,
       "year": 2016
     },
     {
       "dow": 3,
       "hour": 20,
-      "trips": 77649,
+      "trips": 83726,
       "year": 2016
     },
     {
       "dow": 3,
       "hour": 21,
-      "trips": 48969,
+      "trips": 52665,
       "year": 2016
     },
     {
       "dow": 3,
       "hour": 22,
-      "trips": 29382,
+      "trips": 31611,
       "year": 2016
     },
     {
       "dow": 3,
       "hour": 23,
-      "trips": 14939,
+      "trips": 16377,
       "year": 2016
     },
     {
       "dow": 4,
       "hour": 0,
-      "trips": 4372,
+      "trips": 4871,
       "year": 2016
     },
     {
@@ -8424,73 +8424,73 @@
     {
       "dow": 4,
       "hour": 13,
-      "trips": 75132,
+      "trips": 82472,
       "year": 2016
     },
     {
       "dow": 4,
       "hour": 14,
-      "trips": 100919,
+      "trips": 110801,
       "year": 2016
     },
     {
       "dow": 4,
       "hour": 15,
-      "trips": 95077,
+      "trips": 104689,
       "year": 2016
     },
     {
       "dow": 4,
       "hour": 16,
-      "trips": 77998,
+      "trips": 86151,
       "year": 2016
     },
     {
       "dow": 4,
       "hour": 17,
-      "trips": 95489,
+      "trips": 104429,
       "year": 2016
     },
     {
       "dow": 4,
       "hour": 18,
-      "trips": 154512,
+      "trips": 167877,
       "year": 2016
     },
     {
       "dow": 4,
       "hour": 19,
-      "trips": 123396,
+      "trips": 135095,
       "year": 2016
     },
     {
       "dow": 4,
       "hour": 20,
-      "trips": 80353,
+      "trips": 87425,
       "year": 2016
     },
     {
       "dow": 4,
       "hour": 21,
-      "trips": 50213,
+      "trips": 54374,
       "year": 2016
     },
     {
       "dow": 4,
       "hour": 22,
-      "trips": 30855,
+      "trips": 33375,
       "year": 2016
     },
     {
       "dow": 4,
       "hour": 23,
-      "trips": 16652,
+      "trips": 18249,
       "year": 2016
     },
     {
       "dow": 5,
       "hour": 0,
-      "trips": 5170,
+      "trips": 5688,
       "year": 2016
     },
     {
@@ -8544,73 +8544,73 @@
     {
       "dow": 5,
       "hour": 13,
-      "trips": 73567,
+      "trips": 81010,
       "year": 2016
     },
     {
       "dow": 5,
       "hour": 14,
-      "trips": 101883,
+      "trips": 112107,
       "year": 2016
     },
     {
       "dow": 5,
       "hour": 15,
-      "trips": 114287,
+      "trips": 124970,
       "year": 2016
     },
     {
       "dow": 5,
       "hour": 16,
-      "trips": 92432,
+      "trips": 101216,
       "year": 2016
     },
     {
       "dow": 5,
       "hour": 17,
-      "trips": 94770,
+      "trips": 104027,
       "year": 2016
     },
     {
       "dow": 5,
       "hour": 18,
-      "trips": 121861,
+      "trips": 132335,
       "year": 2016
     },
     {
       "dow": 5,
       "hour": 19,
-      "trips": 93566,
+      "trips": 101362,
       "year": 2016
     },
     {
       "dow": 5,
       "hour": 20,
-      "trips": 58960,
+      "trips": 64289,
       "year": 2016
     },
     {
       "dow": 5,
       "hour": 21,
-      "trips": 40512,
+      "trips": 43898,
       "year": 2016
     },
     {
       "dow": 5,
       "hour": 22,
-      "trips": 25414,
+      "trips": 27667,
       "year": 2016
     },
     {
       "dow": 5,
       "hour": 23,
-      "trips": 15972,
+      "trips": 17522,
       "year": 2016
     },
     {
       "dow": 6,
       "hour": 0,
-      "trips": 5677,
+      "trips": 6249,
       "year": 2016
     },
     {
@@ -8664,73 +8664,73 @@
     {
       "dow": 6,
       "hour": 13,
-      "trips": 58816,
+      "trips": 63982,
       "year": 2016
     },
     {
       "dow": 6,
       "hour": 14,
-      "trips": 60845,
+      "trips": 66169,
       "year": 2016
     },
     {
       "dow": 6,
       "hour": 15,
-      "trips": 52945,
+      "trips": 57604,
       "year": 2016
     },
     {
       "dow": 6,
       "hour": 16,
-      "trips": 45066,
+      "trips": 48979,
       "year": 2016
     },
     {
       "dow": 6,
       "hour": 17,
-      "trips": 39201,
+      "trips": 42760,
       "year": 2016
     },
     {
       "dow": 6,
       "hour": 18,
-      "trips": 35024,
+      "trips": 38094,
       "year": 2016
     },
     {
       "dow": 6,
       "hour": 19,
-      "trips": 30810,
+      "trips": 33619,
       "year": 2016
     },
     {
       "dow": 6,
       "hour": 20,
-      "trips": 27134,
+      "trips": 29396,
       "year": 2016
     },
     {
       "dow": 6,
       "hour": 21,
-      "trips": 22022,
+      "trips": 23771,
       "year": 2016
     },
     {
       "dow": 6,
       "hour": 22,
-      "trips": 16614,
+      "trips": 17929,
       "year": 2016
     },
     {
       "dow": 6,
       "hour": 23,
-      "trips": 11805,
+      "trips": 12625,
       "year": 2016
     },
     {
       "dow": 7,
       "hour": 0,
-      "trips": 4433,
+      "trips": 4761,
       "year": 2016
     },
     {
@@ -8784,67 +8784,67 @@
     {
       "dow": 7,
       "hour": 13,
-      "trips": 55395,
+      "trips": 59010,
       "year": 2016
     },
     {
       "dow": 7,
       "hour": 14,
-      "trips": 44763,
+      "trips": 47878,
       "year": 2016
     },
     {
       "dow": 7,
       "hour": 15,
-      "trips": 39368,
+      "trips": 42150,
       "year": 2016
     },
     {
       "dow": 7,
       "hour": 16,
-      "trips": 35826,
+      "trips": 38489,
       "year": 2016
     },
     {
       "dow": 7,
       "hour": 17,
-      "trips": 33012,
+      "trips": 35384,
       "year": 2016
     },
     {
       "dow": 7,
       "hour": 18,
-      "trips": 30129,
+      "trips": 32359,
       "year": 2016
     },
     {
       "dow": 7,
       "hour": 19,
-      "trips": 25922,
+      "trips": 27744,
       "year": 2016
     },
     {
       "dow": 7,
       "hour": 20,
-      "trips": 21323,
+      "trips": 22787,
       "year": 2016
     },
     {
       "dow": 7,
       "hour": 21,
-      "trips": 16519,
+      "trips": 17666,
       "year": 2016
     },
     {
       "dow": 7,
       "hour": 22,
-      "trips": 12442,
+      "trips": 13401,
       "year": 2016
     },
     {
       "dow": 7,
       "hour": 23,
-      "trips": 7627,
+      "trips": 8170,
       "year": 2016
     },
     {
@@ -17958,9 +17958,9 @@
       "year": 2015
     },
     {
-      "round_trip_share": 0.0262,
-      "round_trips": 226681,
-      "trips": 8637260,
+      "round_trip_share": 0.0264,
+      "round_trips": 239025,
+      "trips": 9069539,
       "year": 2016
     },
     {
@@ -21164,7 +21164,14 @@
     {
       "end_trips": 1,
       "start_trips": 1,
-      "station": "CE-595 Yacatas - Diagonal de San Antonio",
+      "station": "Unknown (id 1000)",
+      "total_trips": 2,
+      "year": 2012
+    },
+    {
+      "end_trips": 1,
+      "start_trips": 1,
+      "station": "Unknown (id 2082)",
       "total_trips": 2,
       "year": 2012
     },
@@ -21178,14 +21185,7 @@
     {
       "end_trips": 1,
       "start_trips": 1,
-      "station": "Unknown (id 1000)",
-      "total_trips": 2,
-      "year": 2012
-    },
-    {
-      "end_trips": 1,
-      "start_trips": 1,
-      "station": "Unknown (id 2082)",
+      "station": "CE-595 Yacatas - Diagonal de San Antonio",
       "total_trips": 2,
       "year": 2012
     },
@@ -26104,16 +26104,16 @@
       "year": 2015
     },
     {
-      "end_trips": 24666,
-      "start_trips": 22702,
-      "station": "CE-139 Tonalá-Guanajuato",
+      "end_trips": 24004,
+      "start_trips": 23364,
+      "station": "CE-282 La Morena-Eje 2 Poniente Gabriel Mancera",
       "total_trips": 47368,
       "year": 2015
     },
     {
-      "end_trips": 24004,
-      "start_trips": 23364,
-      "station": "CE-282 La Morena-Eje 2 Poniente Gabriel Mancera",
+      "end_trips": 24666,
+      "start_trips": 22702,
+      "station": "CE-139 Tonalá-Guanajuato",
       "total_trips": 47368,
       "year": 2015
     },
@@ -28169,521 +28169,584 @@
       "year": 2015
     },
     {
-      "end_trips": 97539,
-      "start_trips": 96584,
+      "end_trips": 102810,
+      "start_trips": 103172,
       "station": "CE-365 Holbein-Avenida Revolución",
-      "total_trips": 194123,
+      "total_trips": 205982,
       "year": 2016
     },
     {
-      "end_trips": 70799,
-      "start_trips": 70687,
+      "end_trips": 73501,
+      "start_trips": 75085,
       "station": "CE-394 Dr. Roberto Gayol-Félix Cuevas",
-      "total_trips": 141486,
+      "total_trips": 148586,
       "year": 2016
     },
     {
-      "end_trips": 72176,
-      "start_trips": 68311,
+      "end_trips": 75688,
+      "start_trips": 71611,
       "station": "CE-710 Molino del Rey - Glorieta de la Lealtad",
-      "total_trips": 140487,
+      "total_trips": 147299,
       "year": 2016
     },
     {
-      "end_trips": 57923,
-      "start_trips": 77051,
+      "end_trips": 61876,
+      "start_trips": 78648,
       "station": "CE-141 Zacatecas-Luis Cabrera",
-      "total_trips": 134974,
+      "total_trips": 140524,
       "year": 2016
     },
     {
-      "end_trips": 57008,
-      "start_trips": 63786,
+      "end_trips": 59443,
+      "start_trips": 67570,
       "station": "CE-381 San Lorenzo-Manzanas",
-      "total_trips": 120794,
+      "total_trips": 127013,
       "year": 2016
     },
     {
-      "end_trips": 69017,
-      "start_trips": 49139,
+      "end_trips": 74228,
+      "start_trips": 49711,
       "station": "CE-085 Rosas Moreno - Sullivan",
-      "total_trips": 118156,
+      "total_trips": 123939,
       "year": 2016
     },
     {
-      "end_trips": 54355,
-      "start_trips": 59074,
+      "end_trips": 56684,
+      "start_trips": 61741,
       "station": "CE-437 Moras-Comunal",
-      "total_trips": 113429,
+      "total_trips": 118425,
       "year": 2016
     },
     {
-      "end_trips": 59369,
-      "start_trips": 49543,
+      "end_trips": 62629,
+      "start_trips": 52023,
       "station": "CE-367 Boston -Augusto Rodin",
-      "total_trips": 108912,
+      "total_trips": 114652,
       "year": 2016
     },
     {
-      "end_trips": 57607,
-      "start_trips": 47304,
+      "end_trips": 60514,
+      "start_trips": 50671,
       "station": "CE-318 Luz Saviñón-Amores",
-      "total_trips": 104911,
+      "total_trips": 111185,
       "year": 2016
     },
     {
-      "end_trips": 45583,
-      "start_trips": 59231,
+      "end_trips": 48276,
+      "start_trips": 61827,
       "station": "CE-353 Carolina-Holbein",
-      "total_trips": 104814,
+      "total_trips": 110103,
       "year": 2016
     },
     {
-      "end_trips": 52885,
-      "start_trips": 47618,
+      "end_trips": 55660,
+      "start_trips": 50543,
       "station": "CE-354 Boston-Av. Insurgentes",
-      "total_trips": 100503,
+      "total_trips": 106203,
       "year": 2016
     },
     {
-      "end_trips": 55172,
-      "start_trips": 43942,
+      "end_trips": 57877,
+      "start_trips": 46515,
       "station": "CE-288 11 de Abril-Avenida 2",
-      "total_trips": 99114,
+      "total_trips": 104392,
       "year": 2016
     },
     {
-      "end_trips": 49974,
-      "start_trips": 47376,
+      "end_trips": 52397,
+      "start_trips": 49713,
       "station": "CE-285 12 de Octubre-Minería",
-      "total_trips": 97350,
+      "total_trips": 102110,
       "year": 2016
     },
     {
-      "end_trips": 49424,
-      "start_trips": 46806,
-      "station": "CE-284 Dakota-Vermont",
-      "total_trips": 96230,
-      "year": 2016
-    },
-    {
-      "end_trips": 49824,
-      "start_trips": 45557,
+      "end_trips": 51304,
+      "start_trips": 48473,
       "station": "CE-405 División Del Norte-Municipio Libre",
-      "total_trips": 95381,
+      "total_trips": 99777,
       "year": 2016
     },
     {
-      "end_trips": 46596,
-      "start_trips": 46439,
+      "end_trips": 48622,
+      "start_trips": 49649,
       "station": "CE-360 Heriberto Frías-Matias Romero",
-      "total_trips": 93035,
+      "total_trips": 98271,
       "year": 2016
     },
     {
-      "end_trips": 39065,
-      "start_trips": 51196,
-      "station": "CE-081 Aguascalientes - Insurgentes",
-      "total_trips": 90261,
+      "end_trips": 49597,
+      "start_trips": 46971,
+      "station": "CE-284 Dakota-Vermont",
+      "total_trips": 96568,
       "year": 2016
     },
     {
-      "end_trips": 44817,
-      "start_trips": 45200,
-      "station": "CE-372 Dr. Roberto Gayol-Tlacoquemécatl",
-      "total_trips": 90017,
-      "year": 2016
-    },
-    {
-      "end_trips": 44671,
-      "start_trips": 45215,
-      "station": "CE-337 San Borja-Martín Mendalde",
-      "total_trips": 89886,
-      "year": 2016
-    },
-    {
-      "end_trips": 46085,
-      "start_trips": 43731,
+      "end_trips": 48874,
+      "start_trips": 46708,
       "station": "CE-343 Enrique Rébsamen-División Del Norte",
-      "total_trips": 89816,
+      "total_trips": 95582,
       "year": 2016
     },
     {
-      "end_trips": 45624,
-      "start_trips": 44001,
+      "end_trips": 41255,
+      "start_trips": 53351,
+      "station": "CE-081 Aguascalientes - Insurgentes",
+      "total_trips": 94606,
+      "year": 2016
+    },
+    {
+      "end_trips": 46517,
+      "start_trips": 47844,
+      "station": "CE-337 San Borja-Martín Mendalde",
+      "total_trips": 94361,
+      "year": 2016
+    },
+    {
+      "end_trips": 48479,
+      "start_trips": 45738,
       "station": "CE-118 Liverpool-Dinamarca",
-      "total_trips": 89625,
+      "total_trips": 94217,
       "year": 2016
     },
     {
-      "end_trips": 48495,
-      "start_trips": 41027,
+      "end_trips": 50849,
+      "start_trips": 43359,
       "station": "CE-273-274 Luis Donaldo Colosio - Av. Jesús García",
-      "total_trips": 89522,
+      "total_trips": 94208,
       "year": 2016
     },
     {
-      "end_trips": 44882,
-      "start_trips": 44202,
+      "end_trips": 46469,
+      "start_trips": 47652,
       "station": "CE-399 Heriberto Frías-San Lorenzo",
-      "total_trips": 89084,
+      "total_trips": 94121,
       "year": 2016
     },
     {
-      "end_trips": 43021,
-      "start_trips": 45164,
+      "end_trips": 46488,
+      "start_trips": 47218,
+      "station": "CE-372 Dr. Roberto Gayol-Tlacoquemécatl",
+      "total_trips": 93706,
+      "year": 2016
+    },
+    {
+      "end_trips": 44792,
+      "start_trips": 48211,
       "station": "CE-377 Heriberto Frías-Miguel Laurent",
-      "total_trips": 88185,
+      "total_trips": 93003,
       "year": 2016
     },
     {
-      "end_trips": 41231,
-      "start_trips": 44964,
+      "end_trips": 43634,
+      "start_trips": 46908,
       "station": "CE-457 Av. Prado Norte-Explanada",
-      "total_trips": 86195,
+      "total_trips": 90542,
       "year": 2016
     },
     {
-      "end_trips": 44336,
-      "start_trips": 41410,
+      "end_trips": 46426,
+      "start_trips": 43699,
       "station": "CE-384 Empresa-Poussin",
-      "total_trips": 85746,
+      "total_trips": 90125,
       "year": 2016
     },
     {
-      "end_trips": 41752,
-      "start_trips": 43976,
+      "end_trips": 43620,
+      "start_trips": 46399,
       "station": "CE-424 Amores-José María Rico (Eje 8)",
-      "total_trips": 85728,
+      "total_trips": 90019,
       "year": 2016
     },
     {
-      "end_trips": 43370,
-      "start_trips": 42155,
+      "end_trips": 44972,
+      "start_trips": 44995,
       "station": "CE-375 Tenayuca-División Del Norte",
-      "total_trips": 85525,
+      "total_trips": 89967,
       "year": 2016
     },
     {
-      "end_trips": 41773,
-      "start_trips": 43470,
-      "station": "CE-036 Puebla - Veracruz",
-      "total_trips": 85243,
-      "year": 2016
-    },
-    {
-      "end_trips": 40140,
-      "start_trips": 44591,
-      "station": "CE-438 Adolfo Prieto-José María Olloqui",
-      "total_trips": 84731,
-      "year": 2016
-    },
-    {
-      "end_trips": 41965,
-      "start_trips": 42186,
+      "end_trips": 44092,
+      "start_trips": 45556,
       "station": "CE-094 Lic. Verdad-Moneda",
-      "total_trips": 84151,
+      "total_trips": 89648,
       "year": 2016
     },
     {
-      "end_trips": 39619,
-      "start_trips": 44284,
-      "station": "CE-071 Amsterdam - Michoacan",
-      "total_trips": 83903,
+      "end_trips": 43356,
+      "start_trips": 45386,
+      "station": "CE-036 Puebla - Veracruz",
+      "total_trips": 88742,
       "year": 2016
     },
     {
-      "end_trips": 44407,
-      "start_trips": 38764,
+      "end_trips": 41813,
+      "start_trips": 46872,
+      "station": "CE-438 Adolfo Prieto-José María Olloqui",
+      "total_trips": 88685,
+      "year": 2016
+    },
+    {
+      "end_trips": 46814,
+      "start_trips": 41548,
       "station": "CE-414 Parroquia-José Ignacio Bartolache",
-      "total_trips": 83171,
+      "total_trips": 88362,
       "year": 2016
     },
     {
-      "end_trips": 40981,
-      "start_trips": 41818,
+      "end_trips": 41481,
+      "start_trips": 46180,
+      "station": "CE-071 Amsterdam - Michoacan",
+      "total_trips": 87661,
+      "year": 2016
+    },
+    {
+      "end_trips": 42436,
+      "start_trips": 44319,
       "station": "CE-015 Reforma - Río Mississippi",
-      "total_trips": 82799,
+      "total_trips": 86755,
       "year": 2016
     },
     {
-      "end_trips": 43368,
-      "start_trips": 37309,
-      "station": "CE-307 Minnesota-Dakota",
-      "total_trips": 80677,
-      "year": 2016
-    },
-    {
-      "end_trips": 41044,
-      "start_trips": 39019,
-      "station": "CE-012 Río Lerma - Villalongín",
-      "total_trips": 80063,
-      "year": 2016
-    },
-    {
-      "end_trips": 35525,
-      "start_trips": 43705,
-      "station": "CE-278 Mier Y Pesado-Obrero Mundial",
-      "total_trips": 79230,
-      "year": 2016
-    },
-    {
-      "end_trips": 40519,
-      "start_trips": 38485,
-      "station": "CE-185 General Antonio Léon-General Pedro Antonio de los Santos",
-      "total_trips": 79004,
-      "year": 2016
-    },
-    {
-      "end_trips": 38778,
-      "start_trips": 39756,
-      "station": "CE-358 Nicolás San Juan-Matias Romero",
-      "total_trips": 78534,
-      "year": 2016
-    },
-    {
-      "end_trips": 40151,
-      "start_trips": 38370,
+      "end_trips": 42989,
+      "start_trips": 41328,
       "station": "CE-370 Tlacoquemécatl-Av. Insurgentes",
-      "total_trips": 78521,
+      "total_trips": 84317,
       "year": 2016
     },
     {
-      "end_trips": 41961,
-      "start_trips": 36076,
-      "station": "CE-271-272 Jesús García - Carlos J. Meneses",
-      "total_trips": 78037,
+      "end_trips": 42926,
+      "start_trips": 41072,
+      "station": "CE-012 Río Lerma - Villalongín",
+      "total_trips": 83998,
       "year": 2016
     },
     {
-      "end_trips": 36708,
-      "start_trips": 40593,
-      "station": "Unknown (id 13)",
-      "total_trips": 77301,
+      "end_trips": 42903,
+      "start_trips": 40564,
+      "station": "CE-185 General Antonio Léon-General Pedro Antonio de los Santos",
+      "total_trips": 83467,
       "year": 2016
     },
     {
-      "end_trips": 38385,
-      "start_trips": 38765,
-      "station": "CE-229 Carlos Dickens-Séneca",
-      "total_trips": 77150,
+      "end_trips": 37542,
+      "start_trips": 45345,
+      "station": "CE-278 Mier Y Pesado-Obrero Mundial",
+      "total_trips": 82887,
       "year": 2016
     },
     {
-      "end_trips": 40492,
-      "start_trips": 35911,
+      "end_trips": 40922,
+      "start_trips": 41804,
+      "station": "CE-358 Nicolás San Juan-Matias Romero",
+      "total_trips": 82726,
+      "year": 2016
+    },
+    {
+      "end_trips": 43686,
+      "start_trips": 38925,
       "station": "CE-393 Adolfo Prieto-Félix Cuevas",
-      "total_trips": 76403,
+      "total_trips": 82611,
       "year": 2016
     },
     {
-      "end_trips": 37418,
-      "start_trips": 38745,
-      "station": "CE-412 Parroquia-Avenida Universidad",
-      "total_trips": 76163,
+      "end_trips": 43860,
+      "start_trips": 37797,
+      "station": "CE-271-272 Jesús García - Carlos J. Meneses",
+      "total_trips": 81657,
       "year": 2016
     },
     {
-      "end_trips": 38867,
-      "start_trips": 37028,
-      "station": "CE-133 Colima-Morelia",
-      "total_trips": 75895,
+      "end_trips": 43650,
+      "start_trips": 37557,
+      "station": "CE-307 Minnesota-Dakota",
+      "total_trips": 81207,
       "year": 2016
     },
     {
-      "end_trips": 39410,
-      "start_trips": 36166,
+      "end_trips": 40526,
+      "start_trips": 40565,
+      "station": "CE-229 Carlos Dickens-Séneca",
+      "total_trips": 81091,
+      "year": 2016
+    },
+    {
+      "end_trips": 37763,
+      "start_trips": 42939,
+      "station": "Unknown (id 13)",
+      "total_trips": 80702,
+      "year": 2016
+    },
+    {
+      "end_trips": 41524,
+      "start_trips": 38565,
       "station": "CE-413 Parroquia-Avenida Coyoacán",
-      "total_trips": 75576,
+      "total_trips": 80089,
       "year": 2016
     },
     {
-      "end_trips": 38705,
-      "start_trips": 36242,
+      "end_trips": 41301,
+      "start_trips": 38689,
+      "station": "CE-133 Colima-Morelia",
+      "total_trips": 79990,
+      "year": 2016
+    },
+    {
+      "end_trips": 41360,
+      "start_trips": 38390,
       "station": "CE-432 Carrillo Puerto-Avenida México-Coyoacan",
-      "total_trips": 74947,
+      "total_trips": 79750,
       "year": 2016
     },
     {
-      "end_trips": 40974,
-      "start_trips": 33859,
+      "end_trips": 38886,
+      "start_trips": 40660,
+      "station": "CE-412 Parroquia-Avenida Universidad",
+      "total_trips": 79546,
+      "year": 2016
+    },
+    {
+      "end_trips": 43223,
+      "start_trips": 35613,
       "station": "CE-123 Claudio Bernard-Dr. Lavista",
-      "total_trips": 74833,
+      "total_trips": 78836,
       "year": 2016
     },
     {
-      "end_trips": 43970,
-      "start_trips": 30144,
+      "end_trips": 46293,
+      "start_trips": 31347,
       "station": "CE-421 María Luz Bringas-Oso",
-      "total_trips": 74114,
+      "total_trips": 77640,
+      "year": 2016
+    },
+    {
+      "end_trips": 38848,
+      "start_trips": 38674,
+      "station": "CE-362 Augusto Rodin-Alberto Balderas",
+      "total_trips": 77522,
+      "year": 2016
+    },
+    {
+      "end_trips": 39348,
+      "start_trips": 38052,
+      "station": "CE-349 Augusto Rodin-Avenida San Antonio",
+      "total_trips": 77400,
+      "year": 2016
+    },
+    {
+      "end_trips": 38625,
+      "start_trips": 38675,
+      "station": "CE-312 Avenida 2-Calle 7",
+      "total_trips": 77300,
+      "year": 2016
+    },
+    {
+      "end_trips": 38541,
+      "start_trips": 38355,
+      "station": "CE-022 Reforma - Manchester",
+      "total_trips": 76896,
+      "year": 2016
+    },
+    {
+      "end_trips": 35785,
+      "start_trips": 40708,
+      "station": "CE-083 Alfonso Reyes - Nuevo León",
+      "total_trips": 76493,
+      "year": 2016
+    },
+    {
+      "end_trips": 41261,
+      "start_trips": 34427,
+      "station": "CE-018 Reforma - Río Rhin",
+      "total_trips": 75688,
+      "year": 2016
+    },
+    {
+      "end_trips": 39465,
+      "start_trips": 36131,
+      "station": "CE-427 Avenida México-Coyoacán-Av. Popocatépetl (Eje 8)",
+      "total_trips": 75596,
+      "year": 2016
+    },
+    {
+      "end_trips": 37627,
+      "start_trips": 37823,
+      "station": "Unknown (id 54)",
+      "total_trips": 75450,
+      "year": 2016
+    },
+    {
+      "end_trips": 37714,
+      "start_trips": 36550,
+      "station": "CE-428  Prolongación Uxmal-Av. Popocatépetl (Eje 8)",
+      "total_trips": 74264,
       "year": 2016
     },
     {
       "end_trips": 36256,
-      "start_trips": 37479,
+      "start_trips": 37482,
       "station": "CE-303 Montecito-Av. Insurgentes",
-      "total_trips": 73735,
+      "total_trips": 73738,
       "year": 2016
     },
     {
-      "end_trips": 36792,
-      "start_trips": 36844,
-      "station": "CE-312 Avenida 2-Calle 7",
-      "total_trips": 73636,
-      "year": 2016
-    },
-    {
-      "end_trips": 37004,
-      "start_trips": 36447,
-      "station": "CE-362 Augusto Rodin-Alberto Balderas",
-      "total_trips": 73451,
-      "year": 2016
-    },
-    {
-      "end_trips": 37328,
-      "start_trips": 36077,
-      "station": "CE-022 Reforma - Manchester",
-      "total_trips": 73405,
-      "year": 2016
-    },
-    {
-      "end_trips": 34190,
-      "start_trips": 38959,
-      "station": "CE-083 Alfonso Reyes - Nuevo León",
-      "total_trips": 73149,
-      "year": 2016
-    },
-    {
-      "end_trips": 37181,
-      "start_trips": 35740,
-      "station": "CE-349 Augusto Rodin-Avenida San Antonio",
-      "total_trips": 72921,
-      "year": 2016
-    },
-    {
-      "end_trips": 39113,
-      "start_trips": 33049,
-      "station": "CE-018 Reforma - Río Rhin",
-      "total_trips": 72162,
-      "year": 2016
-    },
-    {
-      "end_trips": 37904,
-      "start_trips": 34209,
-      "station": "CE-427 Avenida México-Coyoacán-Av. Popocatépetl (Eje 8)",
-      "total_trips": 72113,
-      "year": 2016
-    },
-    {
-      "end_trips": 36196,
-      "start_trips": 34942,
-      "station": "CE-428  Prolongación Uxmal-Av. Popocatépetl (Eje 8)",
-      "total_trips": 71138,
-      "year": 2016
-    },
-    {
-      "end_trips": 35420,
-      "start_trips": 35339,
-      "station": "Unknown (id 54)",
-      "total_trips": 70759,
-      "year": 2016
-    },
-    {
-      "end_trips": 33630,
-      "start_trips": 35400,
-      "station": "CE-127 Puebla-Merida",
-      "total_trips": 69030,
-      "year": 2016
-    },
-    {
-      "end_trips": 36487,
-      "start_trips": 32345,
+      "end_trips": 38755,
+      "start_trips": 34405,
       "station": "CE-002 Río Guadalquivir - Río Nazas",
-      "total_trips": 68832,
+      "total_trips": 73160,
       "year": 2016
     },
     {
-      "end_trips": 34355,
-      "start_trips": 34064,
+      "end_trips": 35011,
+      "start_trips": 37175,
+      "station": "CE-127 Puebla-Merida",
+      "total_trips": 72186,
+      "year": 2016
+    },
+    {
+      "end_trips": 35837,
+      "start_trips": 36333,
       "station": "CE-167 General Salvador Alvarado-Progreso",
-      "total_trips": 68419,
+      "total_trips": 72170,
       "year": 2016
     },
     {
-      "end_trips": 33081,
-      "start_trips": 35142,
+      "end_trips": 34318,
+      "start_trips": 36944,
       "station": "Unknown (id 3)",
-      "total_trips": 68223,
+      "total_trips": 71262,
       "year": 2016
     },
     {
-      "end_trips": 31169,
-      "start_trips": 35322,
+      "end_trips": 32809,
+      "start_trips": 36918,
       "station": "CE-439 Amores-Avenida Coyoacán",
-      "total_trips": 66491,
+      "total_trips": 69727,
       "year": 2016
     },
     {
-      "end_trips": 32961,
-      "start_trips": 33477,
+      "end_trips": 34440,
+      "start_trips": 34890,
       "station": "CE-072 Mazatlán - Alfonso Reyes",
-      "total_trips": 66438,
+      "total_trips": 69330,
       "year": 2016
     },
     {
-      "end_trips": 35753,
-      "start_trips": 29266,
-      "station": "CE-327 Georgia -Pensilvania",
-      "total_trips": 65019,
-      "year": 2016
-    },
-    {
-      "end_trips": 40619,
-      "start_trips": 23897,
+      "end_trips": 44435,
+      "start_trips": 24042,
       "station": "CE-014 Reforma - Río de Plata",
-      "total_trips": 64516,
+      "total_trips": 68477,
       "year": 2016
     },
     {
-      "end_trips": 33427,
-      "start_trips": 30567,
+      "end_trips": 37598,
+      "start_trips": 30818,
+      "station": "CE-327 Georgia -Pensilvania",
+      "total_trips": 68416,
+      "year": 2016
+    },
+    {
+      "end_trips": 35907,
+      "start_trips": 32346,
       "station": "CE-020 Reforma- Río Támesis",
-      "total_trips": 63994,
+      "total_trips": 68253,
       "year": 2016
     },
     {
-      "end_trips": 29833,
-      "start_trips": 34157,
-      "station": "CE-378 Miguel Laurent-Amores",
-      "total_trips": 63990,
+      "end_trips": 35446,
+      "start_trips": 32335,
+      "station": "CE-335 Magdalena-Ameyalco",
+      "total_trips": 67781,
       "year": 2016
     },
     {
-      "end_trips": 31006,
-      "start_trips": 32898,
-      "station": "CE-255 José Rosas Moreno-Guillermo Prieto",
-      "total_trips": 63904,
-      "year": 2016
-    },
-    {
-      "end_trips": 32917,
-      "start_trips": 30854,
-      "station": "CE-144 Frontera-San Luis Potosí",
-      "total_trips": 63771,
-      "year": 2016
-    },
-    {
-      "end_trips": 31521,
-      "start_trips": 32068,
+      "end_trips": 33198,
+      "start_trips": 33906,
       "station": "CE-374 Pitágoras-Pilares",
-      "total_trips": 63589,
+      "total_trips": 67104,
       "year": 2016
     },
     {
-      "end_trips": 31596,
-      "start_trips": 31852,
+      "end_trips": 34486,
+      "start_trips": 32414,
+      "station": "CE-144 Frontera-San Luis Potosí",
+      "total_trips": 66900,
+      "year": 2016
+    },
+    {
+      "end_trips": 32336,
+      "start_trips": 34562,
+      "station": "CE-255 José Rosas Moreno-Guillermo Prieto",
+      "total_trips": 66898,
+      "year": 2016
+    },
+    {
+      "end_trips": 31356,
+      "start_trips": 35406,
+      "station": "CE-378 Miguel Laurent-Amores",
+      "total_trips": 66762,
+      "year": 2016
+    },
+    {
+      "end_trips": 32373,
+      "start_trips": 34197,
+      "station": "CE-166 Progreso-Cda. Antonio Maceo",
+      "total_trips": 66570,
+      "year": 2016
+    },
+    {
+      "end_trips": 37660,
+      "start_trips": 28698,
+      "station": "CE-302 Luz Saviñón-Magdalena",
+      "total_trips": 66358,
+      "year": 2016
+    },
+    {
+      "end_trips": 33027,
+      "start_trips": 33307,
       "station": "CE-042 Sinaloa - Valladolid",
-      "total_trips": 63448,
+      "total_trips": 66334,
+      "year": 2016
+    },
+    {
+      "end_trips": 31261,
+      "start_trips": 34762,
+      "station": "CE-445-446 Riff-Avenida Río Churubusco",
+      "total_trips": 66023,
+      "year": 2016
+    },
+    {
+      "end_trips": 32562,
+      "start_trips": 32831,
+      "station": "CE-016 Reforma - Río Tiber",
+      "total_trips": 65393,
+      "year": 2016
+    },
+    {
+      "end_trips": 31255,
+      "start_trips": 34103,
+      "station": "CE-555 Ribera de San Cosme - Insurgentes Centro",
+      "total_trips": 65358,
+      "year": 2016
+    },
+    {
+      "end_trips": 32088,
+      "start_trips": 32592,
+      "station": "CE-074 Nuevo León - Ozulama",
+      "total_trips": 64680,
+      "year": 2016
+    },
+    {
+      "end_trips": 33712,
+      "start_trips": 30746,
+      "station": "CE-199 Anatole France-Av. Ejército Nacional",
+      "total_trips": 64458,
+      "year": 2016
+    },
+    {
+      "end_trips": 31641,
+      "start_trips": 31761,
+      "station": "CE-456 Alpes-Montes Escandinavos",
+      "total_trips": 63402,
       "year": 2016
     },
     {
@@ -28694,612 +28757,626 @@
       "year": 2016
     },
     {
-      "end_trips": 32877,
-      "start_trips": 30038,
-      "station": "CE-335 Magdalena-Ameyalco",
-      "total_trips": 62915,
-      "year": 2016
-    },
-    {
-      "end_trips": 31200,
-      "start_trips": 31701,
-      "station": "CE-016 Reforma - Río Tiber",
-      "total_trips": 62901,
-      "year": 2016
-    },
-    {
-      "end_trips": 30445,
-      "start_trips": 32400,
-      "station": "CE-166 Progreso-Cda. Antonio Maceo",
-      "total_trips": 62845,
-      "year": 2016
-    },
-    {
-      "end_trips": 29502,
-      "start_trips": 32899,
-      "station": "CE-445-446 Riff-Avenida Río Churubusco",
-      "total_trips": 62401,
-      "year": 2016
-    },
-    {
-      "end_trips": 30737,
-      "start_trips": 31341,
-      "station": "CE-074 Nuevo León - Ozulama",
-      "total_trips": 62078,
-      "year": 2016
-    },
-    {
-      "end_trips": 29857,
-      "start_trips": 32180,
-      "station": "CE-555 Ribera de San Cosme - Insurgentes Centro",
-      "total_trips": 62037,
-      "year": 2016
-    },
-    {
-      "end_trips": 35204,
-      "start_trips": 26808,
-      "station": "CE-302 Luz Saviñón-Magdalena",
-      "total_trips": 62012,
-      "year": 2016
-    },
-    {
-      "end_trips": 31844,
-      "start_trips": 29204,
-      "station": "CE-199 Anatole France-Av. Ejército Nacional",
-      "total_trips": 61048,
-      "year": 2016
-    },
-    {
-      "end_trips": 30074,
-      "start_trips": 29657,
-      "station": "CE-456 Alpes-Montes Escandinavos",
-      "total_trips": 59731,
-      "year": 2016
-    },
-    {
-      "end_trips": 30057,
-      "start_trips": 29155,
+      "end_trips": 31375,
+      "start_trips": 30790,
       "station": "CE-415 San Francisco-Parroquia",
-      "total_trips": 59212,
+      "total_trips": 62165,
       "year": 2016
     },
     {
-      "end_trips": 30912,
-      "start_trips": 28100,
+      "end_trips": 32627,
+      "start_trips": 29417,
       "station": "CE-190 Gobernador Ignacio Esteva-Maestro José Vasconcelos",
-      "total_trips": 59012,
+      "total_trips": 62044,
       "year": 2016
     },
     {
-      "end_trips": 29435,
-      "start_trips": 28849,
+      "end_trips": 31361,
+      "start_trips": 30350,
       "station": "CE-247 Herschel-Rousseau",
-      "total_trips": 58284,
+      "total_trips": 61711,
       "year": 2016
     },
     {
-      "end_trips": 27484,
-      "start_trips": 30730,
+      "end_trips": 28984,
+      "start_trips": 32214,
       "station": "CE-341 San Borja-Avenida Cuauhtémoc",
-      "total_trips": 58214,
+      "total_trips": 61198,
       "year": 2016
     },
     {
-      "end_trips": 27129,
-      "start_trips": 30610,
-      "station": "CE-131 Colima-Jalapa",
-      "total_trips": 57739,
-      "year": 2016
-    },
-    {
-      "end_trips": 23884,
-      "start_trips": 33707,
+      "end_trips": 26292,
+      "start_trips": 34512,
       "station": "CE-092 San Ildefonso-República de Argentina",
-      "total_trips": 57591,
+      "total_trips": 60804,
       "year": 2016
     },
     {
-      "end_trips": 30376,
-      "start_trips": 27047,
-      "station": "CE-176 Av. Jesús García-Luis Donaldo Colosio",
-      "total_trips": 57423,
+      "end_trips": 28650,
+      "start_trips": 31715,
+      "station": "CE-131 Colima-Jalapa",
+      "total_trips": 60365,
       "year": 2016
     },
     {
-      "end_trips": 28132,
-      "start_trips": 29153,
+      "end_trips": 29615,
+      "start_trips": 30630,
       "station": "CE-067 Vicente Suárez - Michoacán",
-      "total_trips": 57285,
+      "total_trips": 60245,
       "year": 2016
     },
     {
-      "end_trips": 25122,
-      "start_trips": 32052,
+      "end_trips": 26032,
+      "start_trips": 34136,
       "station": "CE-332 Calle 27-Avenida 3",
-      "total_trips": 57174,
+      "total_trips": 60168,
       "year": 2016
     },
     {
-      "end_trips": 27487,
-      "start_trips": 29507,
-      "station": "CE-113 General Prim-Versalles",
-      "total_trips": 56994,
+      "end_trips": 31530,
+      "start_trips": 28553,
+      "station": "CE-176 Av. Jesús García-Luis Donaldo Colosio",
+      "total_trips": 60083,
       "year": 2016
     },
     {
-      "end_trips": 29132,
-      "start_trips": 27754,
-      "station": "CE-064 Sonora - Ámsterdam",
-      "total_trips": 56886,
-      "year": 2016
-    },
-    {
-      "end_trips": 29226,
-      "start_trips": 27643,
-      "station": "CE-261 Paseo de la Reforma-Río de la Plata",
-      "total_trips": 56869,
-      "year": 2016
-    },
-    {
-      "end_trips": 27957,
-      "start_trips": 28800,
-      "station": "CE-361 Porfirio Díaz-Capulín",
-      "total_trips": 56757,
-      "year": 2016
-    },
-    {
-      "end_trips": 29861,
-      "start_trips": 26572,
-      "station": "CE-423 Moras-José María Rico (Eje 8)",
-      "total_trips": 56433,
-      "year": 2016
-    },
-    {
-      "end_trips": 26404,
-      "start_trips": 29948,
-      "station": "CE-468 Lago Xochimilco-Av. Ejército Nacional",
-      "total_trips": 56352,
-      "year": 2016
-    },
-    {
-      "end_trips": 25683,
-      "start_trips": 30495,
+      "end_trips": 27345,
+      "start_trips": 32392,
       "station": "CE-319 Diagonal San Antonio-Luz Saviñón",
-      "total_trips": 56178,
+      "total_trips": 59737,
       "year": 2016
     },
     {
-      "end_trips": 27782,
-      "start_trips": 27865,
-      "station": "CE-315 Alabama-Montana",
-      "total_trips": 55647,
+      "end_trips": 30570,
+      "start_trips": 29167,
+      "station": "CE-064 Sonora - Ámsterdam",
+      "total_trips": 59737,
       "year": 2016
     },
     {
-      "end_trips": 29552,
-      "start_trips": 26062,
+      "end_trips": 29431,
+      "start_trips": 30115,
+      "station": "CE-361 Porfirio Díaz-Capulín",
+      "total_trips": 59546,
+      "year": 2016
+    },
+    {
+      "end_trips": 30718,
+      "start_trips": 28708,
+      "station": "CE-261 Paseo de la Reforma-Río de la Plata",
+      "total_trips": 59426,
+      "year": 2016
+    },
+    {
+      "end_trips": 31208,
+      "start_trips": 27953,
       "station": "CE-111 Guillermo Prieto - Joaquín Velázquez de León",
-      "total_trips": 55614,
+      "total_trips": 59161,
       "year": 2016
     },
     {
-      "end_trips": 23693,
-      "start_trips": 31681,
-      "station": "CE-173 Minería-José Martí",
-      "total_trips": 55374,
+      "end_trips": 30967,
+      "start_trips": 27957,
+      "station": "CE-423 Moras-José María Rico (Eje 8)",
+      "total_trips": 58924,
       "year": 2016
     },
     {
-      "end_trips": 28397,
-      "start_trips": 26964,
+      "end_trips": 26940,
+      "start_trips": 31658,
+      "station": "CE-468 Lago Xochimilco-Av. Ejército Nacional",
+      "total_trips": 58598,
+      "year": 2016
+    },
+    {
+      "end_trips": 30198,
+      "start_trips": 28324,
       "station": "CE-035 Liverpool - Génova",
-      "total_trips": 55361,
+      "total_trips": 58522,
       "year": 2016
     },
     {
-      "end_trips": 28375,
-      "start_trips": 26896,
+      "end_trips": 29195,
+      "start_trips": 29085,
+      "station": "CE-315 Alabama-Montana",
+      "total_trips": 58280,
+      "year": 2016
+    },
+    {
+      "end_trips": 29853,
+      "start_trips": 28181,
       "station": "CE-325 Providencia -Avenida Del Valle",
-      "total_trips": 55271,
+      "total_trips": 58034,
       "year": 2016
     },
     {
-      "end_trips": 27087,
-      "start_trips": 27320,
-      "station": "CE-157 Tepic-Tlacotalpan",
-      "total_trips": 54407,
+      "end_trips": 24790,
+      "start_trips": 33134,
+      "station": "CE-173 Minería-José Martí",
+      "total_trips": 57924,
       "year": 2016
     },
     {
-      "end_trips": 30771,
-      "start_trips": 23566,
+      "end_trips": 32347,
+      "start_trips": 25153,
       "station": "CE-434 Jose María Olloqui-Amores",
-      "total_trips": 54337,
+      "total_trips": 57500,
       "year": 2016
     },
     {
-      "end_trips": 29226,
-      "start_trips": 24857,
+      "end_trips": 27647,
+      "start_trips": 29733,
+      "station": "CE-113 General Prim-Versalles",
+      "total_trips": 57380,
+      "year": 2016
+    },
+    {
+      "end_trips": 28310,
+      "start_trips": 28808,
+      "station": "CE-157 Tepic-Tlacotalpan",
+      "total_trips": 57118,
+      "year": 2016
+    },
+    {
+      "end_trips": 30650,
+      "start_trips": 26240,
       "station": "Unknown (id 4)",
-      "total_trips": 54083,
+      "total_trips": 56890,
       "year": 2016
     },
     {
-      "end_trips": 26255,
-      "start_trips": 26997,
+      "end_trips": 27848,
+      "start_trips": 28403,
       "station": "CE-006 Río Pánuco - Río Sena",
-      "total_trips": 53252,
+      "total_trips": 56251,
       "year": 2016
     },
     {
-      "end_trips": 26010,
-      "start_trips": 26774,
-      "station": "CE-348 Indiana-Avenida San Antonio",
-      "total_trips": 52784,
-      "year": 2016
-    },
-    {
-      "end_trips": 25435,
-      "start_trips": 27334,
+      "end_trips": 26701,
+      "start_trips": 28480,
       "station": "CE-095 20 de Noviembre-Venustiano Carranza",
-      "total_trips": 52769,
+      "total_trips": 55181,
       "year": 2016
     },
     {
-      "end_trips": 25427,
-      "start_trips": 27138,
-      "station": "CE-093 Palma Norte-República de Cuba",
-      "total_trips": 52565,
+      "end_trips": 27012,
+      "start_trips": 28126,
+      "station": "CE-348 Indiana-Avenida San Antonio",
+      "total_trips": 55138,
       "year": 2016
     },
     {
-      "end_trips": 25789,
-      "start_trips": 26623,
+      "end_trips": 27109,
+      "start_trips": 27988,
       "station": "CE-265 Mina - Jesús García",
-      "total_trips": 52412,
+      "total_trips": 55097,
       "year": 2016
     },
     {
-      "end_trips": 30642,
-      "start_trips": 21506,
+      "end_trips": 26982,
+      "start_trips": 28038,
+      "station": "CE-093 Palma Norte-República de Cuba",
+      "total_trips": 55020,
+      "year": 2016
+    },
+    {
+      "end_trips": 32078,
+      "start_trips": 22826,
       "station": "CE-287 13 de Septiembre-Puente de la Morena",
-      "total_trips": 52148,
+      "total_trips": 54904,
       "year": 2016
     },
     {
-      "end_trips": 27515,
-      "start_trips": 24175,
+      "end_trips": 29026,
+      "start_trips": 25620,
       "station": "CE-204 Temístocles-Homero",
-      "total_trips": 51690,
+      "total_trips": 54646,
       "year": 2016
     },
     {
-      "end_trips": 24589,
-      "start_trips": 26852,
+      "end_trips": 25781,
+      "start_trips": 28009,
       "station": "CE-037 Guadalajara - Puebla",
-      "total_trips": 51441,
+      "total_trips": 53790,
       "year": 2016
     },
     {
-      "end_trips": 26105,
-      "start_trips": 24640,
+      "end_trips": 27337,
+      "start_trips": 26289,
       "station": "CE-298 Romero de Terreros-Gabriel Mancera",
-      "total_trips": 50745,
+      "total_trips": 53626,
       "year": 2016
     },
     {
-      "end_trips": 25714,
-      "start_trips": 24785,
-      "station": "CE-057 Cuernavaca - Juan Escutia",
-      "total_trips": 50499,
-      "year": 2016
-    },
-    {
-      "end_trips": 22927,
-      "start_trips": 27401,
-      "station": "CE-460 Juan Vázquez De Mella-Homero",
-      "total_trips": 50328,
-      "year": 2016
-    },
-    {
-      "end_trips": 28106,
-      "start_trips": 22100,
+      "end_trips": 29774,
+      "start_trips": 23585,
       "station": "CE-079 Saltillo - Alfonso Reyes",
-      "total_trips": 50206,
+      "total_trips": 53359,
       "year": 2016
     },
     {
-      "end_trips": 25435,
-      "start_trips": 24728,
+      "end_trips": 26939,
+      "start_trips": 25932,
+      "station": "CE-057 Cuernavaca - Juan Escutia",
+      "total_trips": 52871,
+      "year": 2016
+    },
+    {
+      "end_trips": 24377,
+      "start_trips": 28307,
+      "station": "CE-460 Juan Vázquez De Mella-Homero",
+      "total_trips": 52684,
+      "year": 2016
+    },
+    {
+      "end_trips": 26640,
+      "start_trips": 25875,
       "station": "CE-397 San Lorenzo-Gabriel Mancera",
-      "total_trips": 50163,
+      "total_trips": 52515,
       "year": 2016
     },
     {
-      "end_trips": 22901,
-      "start_trips": 26634,
-      "station": "CE-116 Londres-Roma",
-      "total_trips": 49535,
-      "year": 2016
-    },
-    {
-      "end_trips": 23825,
-      "start_trips": 25544,
+      "end_trips": 25284,
+      "start_trips": 26888,
       "station": "CE-005 Río Pánuco Río Tiber",
-      "total_trips": 49369,
+      "total_trips": 52172,
       "year": 2016
     },
     {
-      "end_trips": 23429,
-      "start_trips": 25915,
-      "station": "CE-110 Dr. Valenzuela-Dr. Río de la loza",
-      "total_trips": 49344,
+      "end_trips": 24053,
+      "start_trips": 27910,
+      "station": "CE-116 Londres-Roma",
+      "total_trips": 51963,
       "year": 2016
     },
     {
-      "end_trips": 23769,
-      "start_trips": 25568,
+      "end_trips": 24963,
+      "start_trips": 26708,
       "station": "Unknown (id 2)",
-      "total_trips": 49337,
+      "total_trips": 51671,
       "year": 2016
     },
     {
-      "end_trips": 23870,
-      "start_trips": 25412,
-      "station": "CE-330 Calle 15-Avenida Patriotismo",
-      "total_trips": 49282,
+      "end_trips": 24634,
+      "start_trips": 27004,
+      "station": "CE-110 Dr. Valenzuela-Dr. Río de la loza",
+      "total_trips": 51638,
       "year": 2016
     },
     {
-      "end_trips": 24513,
-      "start_trips": 24477,
-      "station": "CE-293 Mier y Pesado-Eje 4 Sur Xola",
-      "total_trips": 48990,
-      "year": 2016
-    },
-    {
-      "end_trips": 25120,
-      "start_trips": 23809,
+      "end_trips": 26839,
+      "start_trips": 24768,
       "station": "CE-136 Álvaro Obregón-Tonalá",
-      "total_trips": 48929,
+      "total_trips": 51607,
       "year": 2016
     },
     {
-      "end_trips": 23324,
-      "start_trips": 25372,
-      "station": "CE-134 Álvaro Obregón-Orizaba",
-      "total_trips": 48696,
-      "year": 2016
-    },
-    {
-      "end_trips": 26255,
-      "start_trips": 22361,
+      "end_trips": 28091,
+      "start_trips": 23479,
       "station": "CE-243 Lago Filt-Miguel de Cervantes Saavedra",
-      "total_trips": 48616,
+      "total_trips": 51570,
       "year": 2016
     },
     {
-      "end_trips": 23402,
-      "start_trips": 24910,
-      "station": "CE-417 Goya-Augusto Rodin",
-      "total_trips": 48312,
+      "end_trips": 25799,
+      "start_trips": 25755,
+      "station": "CE-293 Mier y Pesado-Eje 4 Sur Xola",
+      "total_trips": 51554,
       "year": 2016
     },
     {
-      "end_trips": 24824,
-      "start_trips": 23107,
-      "station": "CE-407  Prolongación Xochicalco-General Emiliano Zapata",
-      "total_trips": 47931,
+      "end_trips": 24765,
+      "start_trips": 26723,
+      "station": "CE-134 Álvaro Obregón-Orizaba",
+      "total_trips": 51488,
       "year": 2016
     },
     {
-      "end_trips": 24119,
-      "start_trips": 23796,
-      "station": "CE-226 Wallon-Presidente Masaryk",
-      "total_trips": 47915,
+      "end_trips": 24956,
+      "start_trips": 26476,
+      "station": "CE-330 Calle 15-Avenida Patriotismo",
+      "total_trips": 51432,
       "year": 2016
     },
     {
-      "end_trips": 20935,
-      "start_trips": 26921,
+      "end_trips": 22125,
+      "start_trips": 28315,
       "station": "CE-222 Alejandro Dumas-Presidente Masarik",
-      "total_trips": 47856,
+      "total_trips": 50440,
       "year": 2016
     },
     {
-      "end_trips": 24164,
-      "start_trips": 23477,
+      "end_trips": 24395,
+      "start_trips": 25968,
+      "station": "CE-417 Goya-Augusto Rodin",
+      "total_trips": 50363,
+      "year": 2016
+    },
+    {
+      "end_trips": 25988,
+      "start_trips": 24359,
+      "station": "CE-407  Prolongación Xochicalco-General Emiliano Zapata",
+      "total_trips": 50347,
+      "year": 2016
+    },
+    {
+      "end_trips": 24831,
+      "start_trips": 25437,
+      "station": "CE-226 Wallon-Presidente Masaryk",
+      "total_trips": 50268,
+      "year": 2016
+    },
+    {
+      "end_trips": 25074,
+      "start_trips": 24604,
       "station": "CE-104 San Jerónimo-Isabel la Católica",
-      "total_trips": 47641,
+      "total_trips": 49678,
       "year": 2016
     },
     {
-      "end_trips": 23988,
-      "start_trips": 23471,
+      "end_trips": 24889,
+      "start_trips": 24654,
       "station": "CE-003 Reforma - Insurgentes",
-      "total_trips": 47459,
+      "total_trips": 49543,
       "year": 2016
     },
     {
-      "end_trips": 22844,
-      "start_trips": 24520,
-      "station": "CE-282 La Morena-Eje 2 Poniente Gabriel Mancera",
-      "total_trips": 47364,
-      "year": 2016
-    },
-    {
-      "end_trips": 23165,
-      "start_trips": 23539,
+      "end_trips": 24544,
+      "start_trips": 24812,
       "station": "CE-669 Los Juarez - Sagredo",
-      "total_trips": 46704,
+      "total_trips": 49356,
       "year": 2016
     },
     {
-      "end_trips": 24830,
-      "start_trips": 21205,
+      "end_trips": 23916,
+      "start_trips": 25394,
+      "station": "CE-282 La Morena-Eje 2 Poniente Gabriel Mancera",
+      "total_trips": 49310,
+      "year": 2016
+    },
+    {
+      "end_trips": 26221,
+      "start_trips": 22364,
       "station": "CE-268-269 Luis Donaldo Colosio - Av. Jesús García",
-      "total_trips": 46035,
+      "total_trips": 48585,
       "year": 2016
     },
     {
-      "end_trips": 22142,
-      "start_trips": 23469,
+      "end_trips": 23371,
+      "start_trips": 24973,
       "station": "CE-443 Bruno Traven-Golondrinas",
-      "total_trips": 45611,
+      "total_trips": 48344,
       "year": 2016
     },
     {
-      "end_trips": 23449,
-      "start_trips": 21800,
+      "end_trips": 24921,
+      "start_trips": 22883,
       "station": "CE-139 Tonalá-Guanajuato",
-      "total_trips": 45249,
+      "total_trips": 47804,
       "year": 2016
     },
     {
-      "end_trips": 21630,
-      "start_trips": 23354,
+      "end_trips": 22524,
+      "start_trips": 24422,
       "station": "CE-387 Cadiz-Empresa",
-      "total_trips": 44984,
+      "total_trips": 46946,
       "year": 2016
     },
     {
-      "end_trips": 23285,
-      "start_trips": 21657,
-      "station": "CE-283 Av. Coyoacán-Rafael Dondé",
-      "total_trips": 44942,
-      "year": 2016
-    },
-    {
-      "end_trips": 22670,
-      "start_trips": 21942,
-      "station": "CE-216 Alejandro Dumas-Horacio",
-      "total_trips": 44612,
-      "year": 2016
-    },
-    {
-      "end_trips": 20172,
-      "start_trips": 24208,
-      "station": "CE-450 Ramos Arizpe- Av México Tenochtitlan",
-      "total_trips": 44380,
-      "year": 2016
-    },
-    {
-      "end_trips": 22027,
-      "start_trips": 21961,
-      "station": "CE-260 Av. Juárez-Balderas",
-      "total_trips": 43988,
-      "year": 2016
-    },
-    {
-      "end_trips": 22169,
-      "start_trips": 21369,
-      "station": "CE-088 2a Cerrada de 5 de Mayo - Palma",
-      "total_trips": 43538,
-      "year": 2016
-    },
-    {
-      "end_trips": 21484,
-      "start_trips": 22041,
-      "station": "CE-056 Alvaro Obregón - Medellin",
-      "total_trips": 43525,
-      "year": 2016
-    },
-    {
-      "end_trips": 20890,
-      "start_trips": 22510,
-      "station": "CE-300 Providencia -Luz Saviñón",
-      "total_trips": 43400,
-      "year": 2016
-    },
-    {
-      "end_trips": 20474,
-      "start_trips": 22538,
-      "station": "CE-156 Tepic-Ario",
-      "total_trips": 43012,
-      "year": 2016
-    },
-    {
-      "end_trips": 20895,
-      "start_trips": 21965,
-      "station": "Unknown (id 248)",
-      "total_trips": 42860,
-      "year": 2016
-    },
-    {
-      "end_trips": 22220,
-      "start_trips": 20528,
-      "station": "CE-469 Bahía de la Concepción-Bahía de Todos Los Santos",
-      "total_trips": 42748,
-      "year": 2016
-    },
-    {
-      "end_trips": 23314,
-      "start_trips": 19404,
-      "station": "CE-211 Isaac Newton-Horacio",
-      "total_trips": 42718,
-      "year": 2016
-    },
-    {
-      "end_trips": 19360,
-      "start_trips": 23278,
-      "station": "CE-063 Nuevo León - Laredo",
-      "total_trips": 42638,
-      "year": 2016
-    },
-    {
-      "end_trips": 22826,
-      "start_trips": 19729,
-      "station": "CE-082 Independencia - Marroquí",
-      "total_trips": 42555,
-      "year": 2016
-    },
-    {
-      "end_trips": 22354,
-      "start_trips": 20048,
-      "station": "CE-459 Volcán-Montes Urales",
-      "total_trips": 42402,
-      "year": 2016
-    },
-    {
-      "end_trips": 20730,
-      "start_trips": 21622,
-      "station": "CE-419 Actipan-Cadiz",
-      "total_trips": 42352,
-      "year": 2016
-    },
-    {
-      "end_trips": 19263,
+      "end_trips": 24108,
       "start_trips": 22832,
-      "station": "CE-058 Parque España - Juan de la Barrera",
-      "total_trips": 42095,
+      "station": "CE-283 Av. Coyoacán-Rafael Dondé",
+      "total_trips": 46940,
       "year": 2016
     },
     {
-      "end_trips": 20076,
-      "start_trips": 21964,
-      "station": "CE-263 Sadi Carnot - Gómez Farias",
-      "total_trips": 42040,
+      "end_trips": 23767,
+      "start_trips": 22666,
+      "station": "CE-216 Alejandro Dumas-Horacio",
+      "total_trips": 46433,
       "year": 2016
     },
     {
-      "end_trips": 20730,
-      "start_trips": 21178,
-      "station": "CE-025 Reforma - Estocolmo",
-      "total_trips": 41908,
+      "end_trips": 20953,
+      "start_trips": 25469,
+      "station": "CE-450 Ramos Arizpe- Av México Tenochtitlan",
+      "total_trips": 46422,
       "year": 2016
     },
     {
-      "end_trips": 21219,
-      "start_trips": 20413,
-      "station": "CE-179 Nuevo León-Quintana Roo",
-      "total_trips": 41632,
+      "end_trips": 23227,
+      "start_trips": 23114,
+      "station": "CE-260 Av. Juárez-Balderas",
+      "total_trips": 46341,
       "year": 2016
     },
     {
-      "end_trips": 18313,
-      "start_trips": 23307,
+      "end_trips": 23522,
+      "start_trips": 22477,
+      "station": "CE-088 2a Cerrada de 5 de Mayo - Palma",
+      "total_trips": 45999,
+      "year": 2016
+    },
+    {
+      "end_trips": 22161,
+      "start_trips": 23568,
+      "station": "CE-300 Providencia -Luz Saviñón",
+      "total_trips": 45729,
+      "year": 2016
+    },
+    {
+      "end_trips": 22413,
+      "start_trips": 23105,
+      "station": "CE-056 Alvaro Obregón - Medellin",
+      "total_trips": 45518,
+      "year": 2016
+    },
+    {
+      "end_trips": 21633,
+      "start_trips": 23631,
+      "station": "CE-156 Tepic-Ario",
+      "total_trips": 45264,
+      "year": 2016
+    },
+    {
+      "end_trips": 23011,
+      "start_trips": 21854,
+      "station": "CE-469 Bahía de la Concepción-Bahía de Todos Los Santos",
+      "total_trips": 44865,
+      "year": 2016
+    },
+    {
+      "end_trips": 24145,
+      "start_trips": 20707,
+      "station": "CE-211 Isaac Newton-Horacio",
+      "total_trips": 44852,
+      "year": 2016
+    },
+    {
+      "end_trips": 21670,
+      "start_trips": 23166,
+      "station": "Unknown (id 248)",
+      "total_trips": 44836,
+      "year": 2016
+    },
+    {
+      "end_trips": 23373,
+      "start_trips": 21328,
+      "station": "CE-459 Volcán-Montes Urales",
+      "total_trips": 44701,
+      "year": 2016
+    },
+    {
+      "end_trips": 23590,
+      "start_trips": 20901,
+      "station": "CE-082 Independencia - Marroquí",
+      "total_trips": 44491,
+      "year": 2016
+    },
+    {
+      "end_trips": 20240,
+      "start_trips": 24236,
+      "station": "CE-063 Nuevo León - Laredo",
+      "total_trips": 44476,
+      "year": 2016
+    },
+    {
+      "end_trips": 21747,
+      "start_trips": 22706,
+      "station": "CE-419 Actipan-Cadiz",
+      "total_trips": 44453,
+      "year": 2016
+    },
+    {
+      "end_trips": 19434,
+      "start_trips": 24670,
       "station": "CE-189 Gobernador Rafael Rebollar-Gobernador José Ceballos",
-      "total_trips": 41620,
+      "total_trips": 44104,
+      "year": 2016
+    },
+    {
+      "end_trips": 20241,
+      "start_trips": 23844,
+      "station": "CE-058 Parque España - Juan de la Barrera",
+      "total_trips": 44085,
+      "year": 2016
+    },
+    {
+      "end_trips": 21639,
+      "start_trips": 22265,
+      "station": "CE-025 Reforma - Estocolmo",
+      "total_trips": 43904,
+      "year": 2016
+    },
+    {
+      "end_trips": 21890,
+      "start_trips": 21658,
+      "station": "CE-259 Tómas Alva Edison-Ponciano Arriaga",
+      "total_trips": 43548,
+      "year": 2016
+    },
+    {
+      "end_trips": 24015,
+      "start_trips": 19488,
+      "station": "CE-115 Roma-Dinamarca",
+      "total_trips": 43503,
+      "year": 2016
+    },
+    {
+      "end_trips": 22112,
+      "start_trips": 21018,
+      "station": "CE-179 Nuevo León-Quintana Roo",
+      "total_trips": 43130,
+      "year": 2016
+    },
+    {
+      "end_trips": 21156,
+      "start_trips": 21786,
+      "station": "CE-210 Eugenio Sue-Horacio",
+      "total_trips": 42942,
+      "year": 2016
+    },
+    {
+      "end_trips": 22397,
+      "start_trips": 20525,
+      "station": "CE-192-193 Rubén Darío.Reforma",
+      "total_trips": 42922,
+      "year": 2016
+    },
+    {
+      "end_trips": 21254,
+      "start_trips": 21326,
+      "station": "CE-129 Tonalá-Durango",
+      "total_trips": 42580,
+      "year": 2016
+    },
+    {
+      "end_trips": 22289,
+      "start_trips": 20124,
+      "station": "CE-007 Río Elba - Río Lerma",
+      "total_trips": 42413,
+      "year": 2016
+    },
+    {
+      "end_trips": 23894,
+      "start_trips": 18352,
+      "station": "CE-100 20 de Noviembre-Mesones",
+      "total_trips": 42246,
+      "year": 2016
+    },
+    {
+      "end_trips": 20087,
+      "start_trips": 21979,
+      "station": "CE-263 Sadi Carnot - Gómez Farias",
+      "total_trips": 42066,
+      "year": 2016
+    },
+    {
+      "end_trips": 20015,
+      "start_trips": 21980,
+      "station": "CE-345 Patricio Sanz - Miraflores",
+      "total_trips": 41995,
+      "year": 2016
+    },
+    {
+      "end_trips": 20783,
+      "start_trips": 21022,
+      "station": "CE-398 Juan Sánchez Azcona-Félix Cuevas",
+      "total_trips": 41805,
+      "year": 2016
+    },
+    {
+      "end_trips": 20551,
+      "start_trips": 21091,
+      "station": "CE-306 Dakota-Minnesota",
+      "total_trips": 41642,
+      "year": 2016
+    },
+    {
+      "end_trips": 19687,
+      "start_trips": 21905,
+      "station": "CE-158-159 Huatabampo-Eje 1 Pte. Av. Cuauhtémoc",
+      "total_trips": 41592,
       "year": 2016
     },
     {
@@ -29310,129 +29387,122 @@
       "year": 2016
     },
     {
-      "end_trips": 20905,
-      "start_trips": 20452,
-      "station": "CE-259 Tómas Alva Edison-Ponciano Arriaga",
-      "total_trips": 41357,
-      "year": 2016
-    },
-    {
-      "end_trips": 20165,
-      "start_trips": 20845,
-      "station": "CE-210 Eugenio Sue-Horacio",
-      "total_trips": 41010,
-      "year": 2016
-    },
-    {
-      "end_trips": 22408,
-      "start_trips": 18420,
-      "station": "CE-115 Roma-Dinamarca",
-      "total_trips": 40828,
-      "year": 2016
-    },
-    {
-      "end_trips": 20196,
-      "start_trips": 20456,
-      "station": "CE-129 Tonalá-Durango",
-      "total_trips": 40652,
-      "year": 2016
-    },
-    {
-      "end_trips": 21027,
-      "start_trips": 19536,
-      "station": "CE-192-193 Rubén Darío.Reforma",
-      "total_trips": 40563,
-      "year": 2016
-    },
-    {
-      "end_trips": 19136,
-      "start_trips": 21104,
-      "station": "CE-345 Patricio Sanz - Miraflores",
-      "total_trips": 40240,
-      "year": 2016
-    },
-    {
-      "end_trips": 21205,
-      "start_trips": 18961,
-      "station": "CE-007 Río Elba - Río Lerma",
-      "total_trips": 40166,
-      "year": 2016
-    },
-    {
-      "end_trips": 22529,
-      "start_trips": 17513,
-      "station": "CE-100 20 de Noviembre-Mesones",
-      "total_trips": 40042,
-      "year": 2016
-    },
-    {
-      "end_trips": 19685,
-      "start_trips": 20197,
-      "station": "CE-306 Dakota-Minnesota",
-      "total_trips": 39882,
-      "year": 2016
-    },
-    {
-      "end_trips": 17826,
-      "start_trips": 21955,
-      "station": "CE-390-391 Oso-Félix Cuevas",
-      "total_trips": 39781,
-      "year": 2016
-    },
-    {
-      "end_trips": 19223,
-      "start_trips": 20462,
-      "station": "CE-174 Joaquín Garcia Icazbalceta-Ignacio Manuel Altamirano",
-      "total_trips": 39685,
-      "year": 2016
-    },
-    {
-      "end_trips": 19579,
-      "start_trips": 19641,
-      "station": "CE-398 Juan Sánchez Azcona-Félix Cuevas",
-      "total_trips": 39220,
-      "year": 2016
-    },
-    {
-      "end_trips": 18525,
-      "start_trips": 20636,
-      "station": "CE-158-159 Huatabampo-Eje 1 Pte. Av. Cuauhtémoc",
-      "total_trips": 39161,
-      "year": 2016
-    },
-    {
-      "end_trips": 20516,
-      "start_trips": 18540,
+      "end_trips": 21855,
+      "start_trips": 19494,
       "station": "CE-029 Reforma - Bucareli",
-      "total_trips": 39056,
+      "total_trips": 41349,
       "year": 2016
     },
     {
-      "end_trips": 19319,
-      "start_trips": 19151,
-      "station": "CE-333 Georgia-Carolina",
-      "total_trips": 38470,
+      "end_trips": 19903,
+      "start_trips": 21404,
+      "station": "CE-174 Joaquín Garcia Icazbalceta-Ignacio Manuel Altamirano",
+      "total_trips": 41307,
       "year": 2016
     },
     {
-      "end_trips": 17047,
-      "start_trips": 21221,
+      "end_trips": 23935,
+      "start_trips": 16266,
+      "station": "CE-409 Azores - División Del Norte",
+      "total_trips": 40201,
+      "year": 2016
+    },
+    {
+      "end_trips": 17985,
+      "start_trips": 22213,
       "station": "CE-120 Marsella-Nápoles",
-      "total_trips": 38268,
+      "total_trips": 40198,
       "year": 2016
     },
     {
-      "end_trips": 17001,
-      "start_trips": 21192,
-      "station": "CE-213 Solón-Cicerón",
-      "total_trips": 38193,
-      "year": 2016
-    },
-    {
-      "end_trips": 18503,
-      "start_trips": 19553,
+      "end_trips": 19550,
+      "start_trips": 20438,
       "station": "CE-147 Coahuila-Orizaba",
-      "total_trips": 38056,
+      "total_trips": 39988,
+      "year": 2016
+    },
+    {
+      "end_trips": 17900,
+      "start_trips": 21922,
+      "station": "CE-213 Solón-Cicerón",
+      "total_trips": 39822,
+      "year": 2016
+    },
+    {
+      "end_trips": 20303,
+      "start_trips": 19495,
+      "station": "CE-150 Campeche-Medellín",
+      "total_trips": 39798,
+      "year": 2016
+    },
+    {
+      "end_trips": 17828,
+      "start_trips": 21956,
+      "station": "CE-390-391 Oso-Félix Cuevas",
+      "total_trips": 39784,
+      "year": 2016
+    },
+    {
+      "end_trips": 19953,
+      "start_trips": 19739,
+      "station": "CE-333 Georgia-Carolina",
+      "total_trips": 39692,
+      "year": 2016
+    },
+    {
+      "end_trips": 18692,
+      "start_trips": 20804,
+      "station": "CE-234 Tres Picos-Arquímides",
+      "total_trips": 39496,
+      "year": 2016
+    },
+    {
+      "end_trips": 19096,
+      "start_trips": 20207,
+      "station": "CE-011 Río Amazonas - Río Lerma",
+      "total_trips": 39303,
+      "year": 2016
+    },
+    {
+      "end_trips": 19458,
+      "start_trips": 19632,
+      "station": "CE-137 Álvaro Obregón-Mérida",
+      "total_trips": 39090,
+      "year": 2016
+    },
+    {
+      "end_trips": 25452,
+      "start_trips": 13449,
+      "station": "CE-033 Londres - Florencia",
+      "total_trips": 38901,
+      "year": 2016
+    },
+    {
+      "end_trips": 15867,
+      "start_trips": 22809,
+      "station": "CE-320 Enrique Rébsamen-Luz Saviñón",
+      "total_trips": 38676,
+      "year": 2016
+    },
+    {
+      "end_trips": 16024,
+      "start_trips": 22178,
+      "station": "CE-294 Nicolás San Juan-Eje 4 Sur Xola",
+      "total_trips": 38202,
+      "year": 2016
+    },
+    {
+      "end_trips": 17346,
+      "start_trips": 20817,
+      "station": "CE-194 Circuito Mahatma Gandhi-Reforma",
+      "total_trips": 38163,
+      "year": 2016
+    },
+    {
+      "end_trips": 17636,
+      "start_trips": 20503,
+      "station": "CE-429 Pirineos-Av. Popocatépetl (Eje 8)",
+      "total_trips": 38139,
       "year": 2016
     },
     {
@@ -29443,1900 +29513,1830 @@
       "year": 2016
     },
     {
-      "end_trips": 22691,
-      "start_trips": 15280,
-      "station": "CE-409 Azores - División Del Norte",
-      "total_trips": 37971,
-      "year": 2016
-    },
-    {
-      "end_trips": 18155,
-      "start_trips": 19701,
-      "station": "CE-234 Tres Picos-Arquímides",
-      "total_trips": 37856,
-      "year": 2016
-    },
-    {
-      "end_trips": 19010,
-      "start_trips": 18705,
-      "station": "CE-150 Campeche-Medellín",
-      "total_trips": 37715,
-      "year": 2016
-    },
-    {
-      "end_trips": 18213,
-      "start_trips": 19126,
-      "station": "CE-011 Río Amazonas - Río Lerma",
-      "total_trips": 37339,
-      "year": 2016
-    },
-    {
-      "end_trips": 18419,
-      "start_trips": 18793,
-      "station": "CE-137 Álvaro Obregón-Mérida",
-      "total_trips": 37212,
-      "year": 2016
-    },
-    {
-      "end_trips": 15410,
-      "start_trips": 21762,
-      "station": "CE-320 Enrique Rébsamen-Luz Saviñón",
-      "total_trips": 37172,
-      "year": 2016
-    },
-    {
-      "end_trips": 15305,
-      "start_trips": 21482,
-      "station": "CE-294 Nicolás San Juan-Eje 4 Sur Xola",
-      "total_trips": 36787,
-      "year": 2016
-    },
-    {
-      "end_trips": 16562,
-      "start_trips": 20035,
-      "station": "CE-194 Circuito Mahatma Gandhi-Reforma",
-      "total_trips": 36597,
-      "year": 2016
-    },
-    {
-      "end_trips": 16677,
-      "start_trips": 19359,
-      "station": "CE-429 Pirineos-Av. Popocatépetl (Eje 8)",
-      "total_trips": 36036,
-      "year": 2016
-    },
-    {
-      "end_trips": 18327,
-      "start_trips": 17634,
+      "end_trips": 19037,
+      "start_trips": 18692,
       "station": "CE-479 Lago Muritz-Av.Marina Nacional",
-      "total_trips": 35961,
+      "total_trips": 37729,
       "year": 2016
     },
     {
-      "end_trips": 22851,
-      "start_trips": 13059,
-      "station": "CE-033 Londres - Florencia",
-      "total_trips": 35910,
-      "year": 2016
-    },
-    {
-      "end_trips": 17420,
-      "start_trips": 18346,
-      "station": "CE-175 Mutualismo-José Martí",
-      "total_trips": 35766,
-      "year": 2016
-    },
-    {
-      "end_trips": 16959,
-      "start_trips": 18779,
+      "end_trips": 18075,
+      "start_trips": 19632,
       "station": "CE-464 Mateo Alemán-Prolongación Moliere",
-      "total_trips": 35738,
+      "total_trips": 37707,
       "year": 2016
     },
     {
-      "end_trips": 17162,
-      "start_trips": 18478,
+      "end_trips": 18321,
+      "start_trips": 19198,
+      "station": "CE-175 Mutualismo-José Martí",
+      "total_trips": 37519,
+      "year": 2016
+    },
+    {
+      "end_trips": 18126,
+      "start_trips": 19348,
       "station": "CE-228 Campos Elíseos-La Fontaine",
-      "total_trips": 35640,
+      "total_trips": 37474,
       "year": 2016
     },
     {
-      "end_trips": 19236,
-      "start_trips": 16296,
+      "end_trips": 20455,
+      "start_trips": 16935,
       "station": "CE-231 Isaac Newton-Aristóteles",
-      "total_trips": 35532,
+      "total_trips": 37390,
       "year": 2016
     },
     {
-      "end_trips": 18312,
-      "start_trips": 16956,
+      "end_trips": 19320,
+      "start_trips": 17752,
       "station": "CE-077 Choapan - Tamaulipas",
-      "total_trips": 35268,
+      "total_trips": 37072,
       "year": 2016
     },
     {
-      "end_trips": 17297,
-      "start_trips": 17881,
+      "end_trips": 18379,
+      "start_trips": 18628,
       "station": "CE-218 Hegel-Ibarbourou",
-      "total_trips": 35178,
+      "total_trips": 37007,
       "year": 2016
     },
     {
-      "end_trips": 12393,
-      "start_trips": 22663,
-      "station": "CE-126 Jalapa-Puebla",
-      "total_trips": 35056,
-      "year": 2016
-    },
-    {
-      "end_trips": 17129,
-      "start_trips": 17517,
-      "station": "CE-132 Colima-Frontera",
-      "total_trips": 34646,
-      "year": 2016
-    },
-    {
-      "end_trips": 19431,
-      "start_trips": 15201,
+      "end_trips": 20788,
+      "start_trips": 16087,
       "station": "CE-233 Julio Verne-Luis G. Urbina",
-      "total_trips": 34632,
+      "total_trips": 36875,
       "year": 2016
     },
     {
-      "end_trips": 16504,
-      "start_trips": 17720,
-      "station": "CE-161 Quintana Roo-Manzanillo",
-      "total_trips": 34224,
+      "end_trips": 13009,
+      "start_trips": 23675,
+      "station": "CE-126 Jalapa-Puebla",
+      "total_trips": 36684,
       "year": 2016
     },
     {
-      "end_trips": 13755,
-      "start_trips": 20353,
-      "station": "CE-256 Gómez Farías-Sadi Carnot",
-      "total_trips": 34108,
+      "end_trips": 18084,
+      "start_trips": 18216,
+      "station": "CE-132 Colima-Frontera",
+      "total_trips": 36300,
       "year": 2016
     },
     {
-      "end_trips": 16930,
-      "start_trips": 16942,
-      "station": "CE-480 Lago Iseo-Av. Marina Nacional",
-      "total_trips": 33872,
-      "year": 2016
-    },
-    {
-      "end_trips": 15869,
-      "start_trips": 17919,
-      "station": "CE-326 Eugenia-Nebraska",
-      "total_trips": 33788,
-      "year": 2016
-    },
-    {
-      "end_trips": 17095,
-      "start_trips": 16580,
-      "station": "CE-475 Lago Muritz-Lago Alberto",
-      "total_trips": 33675,
-      "year": 2016
-    },
-    {
-      "end_trips": 14779,
-      "start_trips": 18768,
-      "station": "CE-032 Londres - Sevilla",
-      "total_trips": 33547,
-      "year": 2016
-    },
-    {
-      "end_trips": 15358,
-      "start_trips": 17798,
-      "station": "CE-180 Quintana Roo-Villahermosa",
-      "total_trips": 33156,
-      "year": 2016
-    },
-    {
-      "end_trips": 17750,
-      "start_trips": 15317,
+      "end_trips": 19495,
+      "start_trips": 16656,
       "station": "CE-656 Ignacio Allende - Paris",
-      "total_trips": 33067,
+      "total_trips": 36151,
       "year": 2016
     },
     {
-      "end_trips": 17325,
-      "start_trips": 15690,
-      "station": "CE-237-238 Andrés Bello-George Eliot",
-      "total_trips": 33015,
+      "end_trips": 17490,
+      "start_trips": 18607,
+      "station": "CE-161 Quintana Roo-Manzanillo",
+      "total_trips": 36097,
       "year": 2016
     },
     {
-      "end_trips": 17060,
-      "start_trips": 15785,
-      "station": "CE-281 Pitágoras-La Morena",
-      "total_trips": 32845,
+      "end_trips": 17797,
+      "start_trips": 18092,
+      "station": "CE-480 Lago Iseo-Av. Marina Nacional",
+      "total_trips": 35889,
       "year": 2016
     },
     {
-      "end_trips": 14208,
-      "start_trips": 18493,
-      "station": "CE-220 Plinio-Presidente Masaryk",
-      "total_trips": 32701,
+      "end_trips": 16729,
+      "start_trips": 19066,
+      "station": "CE-326 Eugenia-Nebraska",
+      "total_trips": 35795,
       "year": 2016
     },
     {
-      "end_trips": 15850,
-      "start_trips": 16840,
+      "end_trips": 14371,
+      "start_trips": 21194,
+      "station": "CE-256 Gómez Farías-Sadi Carnot",
+      "total_trips": 35565,
+      "year": 2016
+    },
+    {
+      "end_trips": 15768,
+      "start_trips": 19600,
+      "station": "CE-032 Londres - Sevilla",
+      "total_trips": 35368,
+      "year": 2016
+    },
+    {
+      "end_trips": 17630,
+      "start_trips": 17480,
+      "station": "CE-475 Lago Muritz-Lago Alberto",
+      "total_trips": 35110,
+      "year": 2016
+    },
+    {
+      "end_trips": 16038,
+      "start_trips": 18927,
+      "station": "CE-180 Quintana Roo-Villahermosa",
+      "total_trips": 34965,
+      "year": 2016
+    },
+    {
+      "end_trips": 17100,
+      "start_trips": 17771,
       "station": "CE-065 Marconi - Tacuba",
-      "total_trips": 32690,
+      "total_trips": 34871,
       "year": 2016
     },
     {
-      "end_trips": 15746,
-      "start_trips": 16869,
+      "end_trips": 20429,
+      "start_trips": 14420,
+      "station": "CE-252 Víctor Hugo-Shakespeare",
+      "total_trips": 34849,
+      "year": 2016
+    },
+    {
+      "end_trips": 17831,
+      "start_trips": 16649,
+      "station": "CE-237-238 Andrés Bello-George Eliot",
+      "total_trips": 34480,
+      "year": 2016
+    },
+    {
+      "end_trips": 16667,
+      "start_trips": 17778,
       "station": "Unknown (id 310)",
+      "total_trips": 34445,
+      "year": 2016
+    },
+    {
+      "end_trips": 14187,
+      "start_trips": 20229,
+      "station": "CE-119 Turín-Abraham González",
+      "total_trips": 34416,
+      "year": 2016
+    },
+    {
+      "end_trips": 14958,
+      "start_trips": 19326,
+      "station": "CE-220 Plinio-Presidente Masaryk",
+      "total_trips": 34284,
+      "year": 2016
+    },
+    {
+      "end_trips": 17471,
+      "start_trips": 16641,
+      "station": "CE-281 Pitágoras-La Morena",
+      "total_trips": 34112,
+      "year": 2016
+    },
+    {
+      "end_trips": 16474,
+      "start_trips": 17406,
+      "station": "CE-291 Magdalena-División Del Norte",
+      "total_trips": 33880,
+      "year": 2016
+    },
+    {
+      "end_trips": 16709,
+      "start_trips": 17012,
+      "station": "CE-188 Gobernador Melchor Múzquiz-Gobernador Ignacio Esteva",
+      "total_trips": 33721,
+      "year": 2016
+    },
+    {
+      "end_trips": 15088,
+      "start_trips": 18609,
+      "station": "CE-215 Edgar Alan Poe-Horacio",
+      "total_trips": 33697,
+      "year": 2016
+    },
+    {
+      "end_trips": 14705,
+      "start_trips": 18947,
+      "station": "CE-241 Ejército Nacional-Juan Vázquez de la Mella",
+      "total_trips": 33652,
+      "year": 2016
+    },
+    {
+      "end_trips": 15754,
+      "start_trips": 17842,
+      "station": "CE-143 Córdoba-San Luis Potosí",
+      "total_trips": 33596,
+      "year": 2016
+    },
+    {
+      "end_trips": 14855,
+      "start_trips": 18622,
+      "station": "CE-195 Reforma-Circuito Mahatma Gandhi",
+      "total_trips": 33477,
+      "year": 2016
+    },
+    {
+      "end_trips": 19801,
+      "start_trips": 13646,
+      "station": "Unknown (id 274)",
+      "total_trips": 33447,
+      "year": 2016
+    },
+    {
+      "end_trips": 19473,
+      "start_trips": 13745,
+      "station": "CE-112 Av. Morelos-Abraham González",
+      "total_trips": 33218,
+      "year": 2016
+    },
+    {
+      "end_trips": 17408,
+      "start_trips": 15557,
+      "station": "CE-087 Gante - Venustiano Carranza",
+      "total_trips": 32965,
+      "year": 2016
+    },
+    {
+      "end_trips": 15418,
+      "start_trips": 17523,
+      "station": "CE-183 Gabino Barreda-Guillermo Prieto",
+      "total_trips": 32941,
+      "year": 2016
+    },
+    {
+      "end_trips": 15886,
+      "start_trips": 16742,
+      "station": "CE-076 Chilpancingo - Campeche",
+      "total_trips": 32628,
+      "year": 2016
+    },
+    {
+      "end_trips": 16224,
+      "start_trips": 16391,
+      "station": "CE-099 Ernesto Pugibet-Luis Moya",
       "total_trips": 32615,
       "year": 2016
     },
     {
-      "end_trips": 13405,
-      "start_trips": 19142,
-      "station": "CE-119 Turín-Abraham González",
-      "total_trips": 32547,
-      "year": 2016
-    },
-    {
-      "end_trips": 18798,
-      "start_trips": 13592,
-      "station": "CE-252 Víctor Hugo-Shakespeare",
-      "total_trips": 32390,
-      "year": 2016
-    },
-    {
-      "end_trips": 15575,
-      "start_trips": 16699,
-      "station": "CE-291 Magdalena-División Del Norte",
-      "total_trips": 32274,
-      "year": 2016
-    },
-    {
-      "end_trips": 13986,
-      "start_trips": 18107,
-      "station": "CE-241 Ejército Nacional-Juan Vázquez de la Mella",
-      "total_trips": 32093,
-      "year": 2016
-    },
-    {
-      "end_trips": 16117,
-      "start_trips": 15946,
-      "station": "CE-188 Gobernador Melchor Múzquiz-Gobernador Ignacio Esteva",
-      "total_trips": 32063,
-      "year": 2016
-    },
-    {
-      "end_trips": 18706,
-      "start_trips": 13319,
-      "station": "Unknown (id 274)",
-      "total_trips": 32025,
-      "year": 2016
-    },
-    {
-      "end_trips": 14880,
-      "start_trips": 17045,
-      "station": "CE-143 Córdoba-San Luis Potosí",
-      "total_trips": 31925,
-      "year": 2016
-    },
-    {
-      "end_trips": 13995,
-      "start_trips": 17766,
-      "station": "CE-195 Reforma-Circuito Mahatma Gandhi",
-      "total_trips": 31761,
-      "year": 2016
-    },
-    {
-      "end_trips": 14151,
-      "start_trips": 17573,
-      "station": "CE-215 Edgar Alan Poe-Horacio",
-      "total_trips": 31724,
-      "year": 2016
-    },
-    {
-      "end_trips": 18431,
-      "start_trips": 13218,
-      "station": "CE-112 Av. Morelos-Abraham González",
-      "total_trips": 31649,
-      "year": 2016
-    },
-    {
-      "end_trips": 14547,
-      "start_trips": 16966,
-      "station": "CE-183 Gabino Barreda-Guillermo Prieto",
-      "total_trips": 31513,
-      "year": 2016
-    },
-    {
-      "end_trips": 19568,
-      "start_trips": 11657,
+      "end_trips": 20130,
+      "start_trips": 12484,
       "station": "CE-242 Pról. Moliere-Miguel de Cervantes Saavedra",
-      "total_trips": 31225,
+      "total_trips": 32614,
       "year": 2016
     },
     {
-      "end_trips": 16228,
-      "start_trips": 14938,
-      "station": "CE-087 Gante - Venustiano Carranza",
-      "total_trips": 31166,
-      "year": 2016
-    },
-    {
-      "end_trips": 15176,
-      "start_trips": 15917,
-      "station": "CE-076 Chilpancingo - Campeche",
-      "total_trips": 31093,
-      "year": 2016
-    },
-    {
-      "end_trips": 15148,
-      "start_trips": 15649,
-      "station": "CE-246 Leibnitz-Thiers",
-      "total_trips": 30797,
-      "year": 2016
-    },
-    {
-      "end_trips": 17688,
-      "start_trips": 13039,
+      "end_trips": 18734,
+      "start_trips": 13787,
       "station": "CE-308 Nueva York-Arizona",
-      "total_trips": 30727,
+      "total_trips": 32521,
       "year": 2016
     },
     {
-      "end_trips": 15277,
-      "start_trips": 15243,
+      "end_trips": 15782,
+      "start_trips": 16667,
+      "station": "CE-246 Leibnitz-Thiers",
+      "total_trips": 32449,
+      "year": 2016
+    },
+    {
+      "end_trips": 15952,
+      "start_trips": 15952,
       "station": "CE-052 Hidalgo - Trujano",
-      "total_trips": 30520,
+      "total_trips": 31904,
       "year": 2016
     },
     {
-      "end_trips": 14853,
-      "start_trips": 15561,
-      "station": "CE-099 Ernesto Pugibet-Luis Moya",
-      "total_trips": 30414,
-      "year": 2016
-    },
-    {
-      "end_trips": 15085,
-      "start_trips": 15198,
+      "end_trips": 15670,
+      "start_trips": 16160,
       "station": "CE-043 Revillagigedo - Juárez",
-      "total_trips": 30283,
+      "total_trips": 31830,
       "year": 2016
     },
     {
-      "end_trips": 13553,
-      "start_trips": 16650,
-      "station": "CE-041 Reforma - Av. de la República",
-      "total_trips": 30203,
-      "year": 2016
-    },
-    {
-      "end_trips": 14813,
-      "start_trips": 15238,
+      "end_trips": 15550,
+      "start_trips": 16084,
       "station": "CE-050 Cuernavaca - Veracruz",
-      "total_trips": 30051,
+      "total_trips": 31634,
       "year": 2016
     },
     {
-      "end_trips": 14498,
-      "start_trips": 15471,
-      "station": "CE-165 Bajío-Eje 2 Pte. Monterrey",
-      "total_trips": 29969,
+      "end_trips": 14040,
+      "start_trips": 17502,
+      "station": "CE-041 Reforma - Av. de la República",
+      "total_trips": 31542,
       "year": 2016
     },
     {
-      "end_trips": 14260,
-      "start_trips": 15544,
+      "end_trips": 15013,
+      "start_trips": 16333,
       "station": "CE-232 Taine - Rubén Darío",
-      "total_trips": 29804,
+      "total_trips": 31346,
       "year": 2016
     },
     {
-      "end_trips": 15464,
-      "start_trips": 14327,
-      "station": "CE-164 Bajío-Tlacotalpan",
-      "total_trips": 29791,
-      "year": 2016
-    },
-    {
-      "end_trips": 15151,
-      "start_trips": 14636,
+      "end_trips": 15707,
+      "start_trips": 15600,
       "station": "CE-227 Campos Elíseos-Periférico",
-      "total_trips": 29787,
+      "total_trips": 31307,
       "year": 2016
     },
     {
-      "end_trips": 14992,
-      "start_trips": 14759,
+      "end_trips": 15863,
+      "start_trips": 15390,
       "station": "CE-280 Anaxágoras-Obrero Mundial",
-      "total_trips": 29751,
+      "total_trips": 31253,
       "year": 2016
     },
     {
-      "end_trips": 14353,
-      "start_trips": 15279,
+      "end_trips": 15060,
+      "start_trips": 16114,
+      "station": "CE-165 Bajío-Eje 2 Pte. Monterrey",
+      "total_trips": 31174,
+      "year": 2016
+    },
+    {
+      "end_trips": 15110,
+      "start_trips": 16004,
       "station": "CE-323 Concepción Beistegui-Gabriel Mancera",
-      "total_trips": 29632,
+      "total_trips": 31114,
       "year": 2016
     },
     {
-      "end_trips": 15427,
-      "start_trips": 14058,
+      "end_trips": 16094,
+      "start_trips": 15014,
+      "station": "CE-164 Bajío-Tlacotalpan",
+      "total_trips": 31108,
+      "year": 2016
+    },
+    {
+      "end_trips": 16351,
+      "start_trips": 14667,
       "station": "CE-254 Alfonso Herrera-Miguel Shultz",
-      "total_trips": 29485,
+      "total_trips": 31018,
       "year": 2016
     },
     {
-      "end_trips": 14684,
-      "start_trips": 14790,
-      "station": "CE-235-236 Campos Elíseos-Moliere",
-      "total_trips": 29474,
-      "year": 2016
-    },
-    {
-      "end_trips": 14607,
-      "start_trips": 14819,
-      "station": "CE-461 Presa Don Martín-Boulevard Miguel De Cervantes Saavedra",
-      "total_trips": 29426,
-      "year": 2016
-    },
-    {
-      "end_trips": 16532,
-      "start_trips": 12863,
-      "station": "CE-023 Reforma - Praga",
-      "total_trips": 29395,
-      "year": 2016
-    },
-    {
-      "end_trips": 14148,
-      "start_trips": 15110,
+      "end_trips": 15110,
+      "start_trips": 15737,
       "station": "CE-031 Hamburgo - Insurgentes",
-      "total_trips": 29258,
+      "total_trips": 30847,
       "year": 2016
     },
     {
-      "end_trips": 13676,
-      "start_trips": 14907,
-      "station": "CE-472 Bahía de Santa Bárbara-Bahía de Ballenas",
-      "total_trips": 28583,
+      "end_trips": 15204,
+      "start_trips": 15572,
+      "station": "CE-235-236 Campos Elíseos-Moliere",
+      "total_trips": 30776,
       "year": 2016
     },
     {
-      "end_trips": 15476,
-      "start_trips": 13055,
+      "end_trips": 15096,
+      "start_trips": 15625,
+      "station": "CE-461 Presa Don Martín-Boulevard Miguel De Cervantes Saavedra",
+      "total_trips": 30721,
+      "year": 2016
+    },
+    {
+      "end_trips": 17181,
+      "start_trips": 13060,
+      "station": "CE-023 Reforma - Praga",
+      "total_trips": 30241,
+      "year": 2016
+    },
+    {
+      "end_trips": 16260,
+      "start_trips": 13736,
       "station": "CE-091 Republica de Cuba-Allende",
-      "total_trips": 28531,
+      "total_trips": 29996,
       "year": 2016
     },
     {
-      "end_trips": 13794,
-      "start_trips": 14573,
-      "station": "CE-351 Calle 27-Avenida Revolución",
-      "total_trips": 28367,
-      "year": 2016
-    },
-    {
-      "end_trips": 13024,
-      "start_trips": 15207,
-      "station": "CE-142 San Luis Potosí-Eje 2 Pte. Monterrey",
-      "total_trips": 28231,
-      "year": 2016
-    },
-    {
-      "end_trips": 14663,
-      "start_trips": 13553,
-      "station": "CE-244 Lago Victoria-Miguel de Cervantes Saavedra",
-      "total_trips": 28216,
-      "year": 2016
-    },
-    {
-      "end_trips": 15306,
-      "start_trips": 12709,
+      "end_trips": 16363,
+      "start_trips": 13630,
       "station": "CE-066 Mazatlán - Francisco Márquez",
-      "total_trips": 28015,
+      "total_trips": 29993,
       "year": 2016
     },
     {
-      "end_trips": 14965,
-      "start_trips": 12834,
+      "end_trips": 14580,
+      "start_trips": 15406,
+      "station": "CE-351 Calle 27-Avenida Revolución",
+      "total_trips": 29986,
+      "year": 2016
+    },
+    {
+      "end_trips": 13999,
+      "start_trips": 15630,
+      "station": "CE-472 Bahía de Santa Bárbara-Bahía de Ballenas",
+      "total_trips": 29629,
+      "year": 2016
+    },
+    {
+      "end_trips": 15214,
+      "start_trips": 14388,
+      "station": "CE-244 Lago Victoria-Miguel de Cervantes Saavedra",
+      "total_trips": 29602,
+      "year": 2016
+    },
+    {
+      "end_trips": 13720,
+      "start_trips": 15787,
+      "station": "CE-142 San Luis Potosí-Eje 2 Pte. Monterrey",
+      "total_trips": 29507,
+      "year": 2016
+    },
+    {
+      "end_trips": 15627,
+      "start_trips": 13622,
       "station": "CE-053 Fernando Montes de Oca - Tula",
-      "total_trips": 27799,
+      "total_trips": 29249,
       "year": 2016
     },
     {
-      "end_trips": 13875,
-      "start_trips": 13862,
-      "station": "CE-030 Hamburgo - Amberes",
-      "total_trips": 27737,
-      "year": 2016
-    },
-    {
-      "end_trips": 13563,
-      "start_trips": 14151,
+      "end_trips": 14283,
+      "start_trips": 14864,
       "station": "CE-295 Anaxágoras-Eje 4 Sur Xola",
-      "total_trips": 27714,
+      "total_trips": 29147,
       "year": 2016
     },
     {
-      "end_trips": 11994,
-      "start_trips": 15677,
+      "end_trips": 12724,
+      "start_trips": 16365,
       "station": "CE-214 Platón-Horacio",
-      "total_trips": 27671,
+      "total_trips": 29089,
       "year": 2016
     },
     {
-      "end_trips": 15226,
-      "start_trips": 12278,
-      "station": "CE-140 Mérida-Zacatecas",
-      "total_trips": 27504,
+      "end_trips": 14467,
+      "start_trips": 14524,
+      "station": "CE-030 Hamburgo - Amberes",
+      "total_trips": 28991,
       "year": 2016
     },
     {
-      "end_trips": 14908,
-      "start_trips": 12342,
+      "end_trips": 15723,
+      "start_trips": 13088,
       "station": "CE-001 Río Sena-Río Balsas",
-      "total_trips": 27250,
+      "total_trips": 28811,
       "year": 2016
     },
     {
-      "end_trips": 13149,
-      "start_trips": 14068,
-      "station": "CE-249 Shakespeare-Darwin",
-      "total_trips": 27217,
+      "end_trips": 15871,
+      "start_trips": 12915,
+      "station": "CE-140 Mérida-Zacatecas",
+      "total_trips": 28786,
       "year": 2016
     },
     {
-      "end_trips": 12460,
-      "start_trips": 14519,
+      "end_trips": 13255,
+      "start_trips": 15386,
       "station": "CE-084 Chilpancingo - Tlaxcala",
-      "total_trips": 26979,
+      "total_trips": 28641,
       "year": 2016
     },
     {
-      "end_trips": 12213,
-      "start_trips": 14709,
+      "end_trips": 13639,
+      "start_trips": 14913,
+      "station": "CE-249 Shakespeare-Darwin",
+      "total_trips": 28552,
+      "year": 2016
+    },
+    {
+      "end_trips": 12940,
+      "start_trips": 15484,
       "station": "CE-336 San Borja-Cda. Dr. J. Bartolache",
-      "total_trips": 26922,
+      "total_trips": 28424,
       "year": 2016
     },
     {
-      "end_trips": 12616,
-      "start_trips": 13703,
+      "end_trips": 13332,
+      "start_trips": 14384,
       "station": "CE-109 Nezahualcóyotl-Isabel la Católica",
-      "total_trips": 26319,
+      "total_trips": 27716,
       "year": 2016
     },
     {
-      "end_trips": 12326,
-      "start_trips": 13959,
+      "end_trips": 13057,
+      "start_trips": 14631,
       "station": "CE-207 Torquato Tasso-Homero",
-      "total_trips": 26285,
+      "total_trips": 27688,
       "year": 2016
     },
     {
-      "end_trips": 12925,
-      "start_trips": 13232,
+      "end_trips": 13823,
+      "start_trips": 13839,
       "station": "Unknown (id 351)",
-      "total_trips": 26157,
+      "total_trips": 27662,
       "year": 2016
     },
     {
-      "end_trips": 14785,
-      "start_trips": 11337,
+      "end_trips": 15376,
+      "start_trips": 12105,
       "station": "CE-478 Laguna de Mayrán-Lago Chalco",
-      "total_trips": 26122,
+      "total_trips": 27481,
       "year": 2016
     },
     {
-      "end_trips": 13254,
-      "start_trips": 12789,
-      "station": "CE-352 Tintoreto-Giorgione",
-      "total_trips": 26043,
-      "year": 2016
-    },
-    {
-      "end_trips": 12574,
-      "start_trips": 13316,
-      "station": "CE-138 Guanajuato-Frontera",
-      "total_trips": 25890,
-      "year": 2016
-    },
-    {
-      "end_trips": 13314,
-      "start_trips": 12378,
-      "station": "CE-017 Reforma - Río Tiber",
-      "total_trips": 25692,
-      "year": 2016
-    },
-    {
-      "end_trips": 11481,
-      "start_trips": 14138,
+      "end_trips": 12435,
+      "start_trips": 14945,
       "station": "CE-187 General Cano-Gobernador Gregorio V. Gelati",
-      "total_trips": 25619,
+      "total_trips": 27380,
       "year": 2016
     },
     {
-      "end_trips": 10892,
-      "start_trips": 14541,
+      "end_trips": 14053,
+      "start_trips": 13275,
+      "station": "CE-352 Tintoreto-Giorgione",
+      "total_trips": 27328,
+      "year": 2016
+    },
+    {
+      "end_trips": 13304,
+      "start_trips": 13999,
+      "station": "CE-138 Guanajuato-Frontera",
+      "total_trips": 27303,
+      "year": 2016
+    },
+    {
+      "end_trips": 11471,
+      "start_trips": 15406,
       "station": "CE-322 Heriberto Frías-Concepción Beistegui",
-      "total_trips": 25433,
+      "total_trips": 26877,
       "year": 2016
     },
     {
-      "end_trips": 11681,
-      "start_trips": 13674,
-      "station": "CE-114 Lucerna-Abraham González",
-      "total_trips": 25355,
-      "year": 2016
-    },
-    {
-      "end_trips": 11965,
-      "start_trips": 13345,
-      "station": "CE-181 Benjamín Franklin - Ometusco",
-      "total_trips": 25310,
-      "year": 2016
-    },
-    {
-      "end_trips": 14383,
-      "start_trips": 10720,
-      "station": "CE-385 Poussin-Empresa",
-      "total_trips": 25103,
-      "year": 2016
-    },
-    {
-      "end_trips": 12773,
-      "start_trips": 12302,
-      "station": "CE-657 Madrid - Centenario",
-      "total_trips": 25075,
-      "year": 2016
-    },
-    {
-      "end_trips": 12706,
-      "start_trips": 12323,
+      "end_trips": 13641,
+      "start_trips": 13105,
       "station": "CE-125 Morelia-Circular de Morelia",
-      "total_trips": 25029,
+      "total_trips": 26746,
       "year": 2016
     },
     {
-      "end_trips": 13139,
-      "start_trips": 11879,
+      "end_trips": 12133,
+      "start_trips": 14555,
+      "station": "CE-114 Lucerna-Abraham González",
+      "total_trips": 26688,
+      "year": 2016
+    },
+    {
+      "end_trips": 13947,
+      "start_trips": 12720,
+      "station": "CE-017 Reforma - Río Tiber",
+      "total_trips": 26667,
+      "year": 2016
+    },
+    {
+      "end_trips": 15263,
+      "start_trips": 11338,
+      "station": "CE-385 Poussin-Empresa",
+      "total_trips": 26601,
+      "year": 2016
+    },
+    {
+      "end_trips": 12410,
+      "start_trips": 14107,
+      "station": "CE-181 Benjamín Franklin - Ometusco",
+      "total_trips": 26517,
+      "year": 2016
+    },
+    {
+      "end_trips": 13334,
+      "start_trips": 12999,
+      "station": "CE-657 Madrid - Centenario",
+      "total_trips": 26333,
+      "year": 2016
+    },
+    {
+      "end_trips": 13916,
+      "start_trips": 12383,
       "station": "CE-251 Goethe-Darwin",
-      "total_trips": 25018,
+      "total_trips": 26299,
       "year": 2016
     },
     {
-      "end_trips": 12663,
-      "start_trips": 12346,
+      "end_trips": 13031,
+      "start_trips": 13059,
       "station": "CE-196 Lago Tanganica- Av. Ejército Nacional",
-      "total_trips": 25009,
+      "total_trips": 26090,
       "year": 2016
     },
     {
-      "end_trips": 12963,
-      "start_trips": 11807,
+      "end_trips": 13625,
+      "start_trips": 12355,
       "station": "CE-034 Liverpool - Génova",
-      "total_trips": 24770,
+      "total_trips": 25980,
       "year": 2016
     },
     {
-      "end_trips": 12137,
-      "start_trips": 12589,
+      "end_trips": 12713,
+      "start_trips": 13193,
       "station": "CE-668 Plateros - Capuchinas",
-      "total_trips": 24726,
+      "total_trips": 25906,
       "year": 2016
     },
     {
-      "end_trips": 10410,
-      "start_trips": 14011,
+      "end_trips": 10869,
+      "start_trips": 14657,
       "station": "CE-148 Coahuila-Av. Cuauhtémoc",
-      "total_trips": 24421,
+      "total_trips": 25526,
       "year": 2016
     },
     {
-      "end_trips": 12142,
-      "start_trips": 12217,
+      "end_trips": 12635,
+      "start_trips": 12868,
       "station": "CE-221 Emilio Castelar-Presidente Masaryk",
-      "total_trips": 24359,
+      "total_trips": 25503,
       "year": 2016
     },
     {
-      "end_trips": 10065,
-      "start_trips": 14043,
+      "end_trips": 10679,
+      "start_trips": 14633,
       "station": "CE-177 Benjamín Hill - Carlos Zetina",
-      "total_trips": 24108,
+      "total_trips": 25312,
       "year": 2016
     },
     {
-      "end_trips": 9965,
-      "start_trips": 13943,
-      "station": "CE-262 República de Cuba-República de Brasil",
-      "total_trips": 23908,
-      "year": 2016
-    },
-    {
-      "end_trips": 14131,
-      "start_trips": 9764,
-      "station": "CE-470 Bahía de Las Palmas-Bahía de Todos Los Santos",
-      "total_trips": 23895,
-      "year": 2016
-    },
-    {
-      "end_trips": 11408,
-      "start_trips": 12362,
-      "station": "CE-124 Claudio Bernard-Dr. Liceaga",
-      "total_trips": 23770,
-      "year": 2016
-    },
-    {
-      "end_trips": 12449,
-      "start_trips": 11315,
-      "station": "CE-080 Nuevo León - Aguascalientes",
-      "total_trips": 23764,
-      "year": 2016
-    },
-    {
-      "end_trips": 11184,
-      "start_trips": 12544,
-      "station": "CE-212 Hegel-Horacio",
-      "total_trips": 23728,
-      "year": 2016
-    },
-    {
-      "end_trips": 12247,
-      "start_trips": 11470,
-      "station": "CE-153 Manzanillo-Tlaxcala",
-      "total_trips": 23717,
-      "year": 2016
-    },
-    {
-      "end_trips": 11272,
-      "start_trips": 12437,
+      "end_trips": 11823,
+      "start_trips": 13191,
       "station": "CE-476 Lago Como-Laguna de Mayrán",
-      "total_trips": 23709,
+      "total_trips": 25014,
       "year": 2016
     },
     {
-      "end_trips": 11323,
-      "start_trips": 11761,
-      "station": "CE-048 Independencia - Azueta",
-      "total_trips": 23084,
+      "end_trips": 11912,
+      "start_trips": 13093,
+      "station": "CE-212 Hegel-Horacio",
+      "total_trips": 25005,
       "year": 2016
     },
     {
-      "end_trips": 10417,
-      "start_trips": 12649,
+      "end_trips": 10405,
+      "start_trips": 14585,
+      "station": "CE-262 República de Cuba-República de Brasil",
+      "total_trips": 24990,
+      "year": 2016
+    },
+    {
+      "end_trips": 12820,
+      "start_trips": 12113,
+      "station": "CE-153 Manzanillo-Tlaxcala",
+      "total_trips": 24933,
+      "year": 2016
+    },
+    {
+      "end_trips": 11826,
+      "start_trips": 13019,
+      "station": "CE-124 Claudio Bernard-Dr. Liceaga",
+      "total_trips": 24845,
+      "year": 2016
+    },
+    {
+      "end_trips": 14917,
+      "start_trips": 9893,
+      "station": "CE-470 Bahía de Las Palmas-Bahía de Todos Los Santos",
+      "total_trips": 24810,
+      "year": 2016
+    },
+    {
+      "end_trips": 13076,
+      "start_trips": 11500,
+      "station": "CE-080 Nuevo León - Aguascalientes",
+      "total_trips": 24576,
+      "year": 2016
+    },
+    {
+      "end_trips": 11043,
+      "start_trips": 13232,
       "station": "CE-224 Hegel-Presidente Masaryk",
-      "total_trips": 23066,
+      "total_trips": 24275,
       "year": 2016
     },
     {
-      "end_trips": 9721,
-      "start_trips": 13074,
-      "station": "CE-297 Diagonal San Antonio-Enrique Rébsamen",
-      "total_trips": 22795,
+      "end_trips": 13412,
+      "start_trips": 10737,
+      "station": "CE-060 Mazatlán - Fernando Montes de Oca",
+      "total_trips": 24149,
       "year": 2016
     },
     {
-      "end_trips": 10544,
-      "start_trips": 12146,
-      "station": "CE-200 Emerson-Av. Ejército Nacional",
-      "total_trips": 22690,
+      "end_trips": 11647,
+      "start_trips": 12489,
+      "station": "CE-048 Independencia - Azueta",
+      "total_trips": 24136,
       "year": 2016
     },
     {
-      "end_trips": 12445,
-      "start_trips": 10226,
+      "end_trips": 13216,
+      "start_trips": 10781,
       "station": "CE-038 Cozumel - Puebla",
+      "total_trips": 23997,
+      "year": 2016
+    },
+    {
+      "end_trips": 10238,
+      "start_trips": 13589,
+      "station": "CE-297 Diagonal San Antonio-Enrique Rébsamen",
+      "total_trips": 23827,
+      "year": 2016
+    },
+    {
+      "end_trips": 10968,
+      "start_trips": 12800,
+      "station": "CE-200 Emerson-Av. Ejército Nacional",
+      "total_trips": 23768,
+      "year": 2016
+    },
+    {
+      "end_trips": 9886,
+      "start_trips": 13791,
+      "station": "CE-024 Reforma- Varsovia",
+      "total_trips": 23677,
+      "year": 2016
+    },
+    {
+      "end_trips": 12432,
+      "start_trips": 11205,
+      "station": "CE-170 Observatorio Oriente-Revolución",
+      "total_trips": 23637,
+      "year": 2016
+    },
+    {
+      "end_trips": 12316,
+      "start_trips": 11176,
+      "station": "CE-474 Bahía de San Hipólito-Bahía del Espíritu Santo",
+      "total_trips": 23492,
+      "year": 2016
+    },
+    {
+      "end_trips": 12642,
+      "start_trips": 10765,
+      "station": "CE-172 General Francisco Murguía-José Martí",
+      "total_trips": 23407,
+      "year": 2016
+    },
+    {
+      "end_trips": 12555,
+      "start_trips": 10840,
+      "station": "CE-305 Avenida del Parque-Arizona",
+      "total_trips": 23395,
+      "year": 2016
+    },
+    {
+      "end_trips": 10003,
+      "start_trips": 13198,
+      "station": "CE-248 Shakespeare-Lafayette",
+      "total_trips": 23201,
+      "year": 2016
+    },
+    {
+      "end_trips": 10219,
+      "start_trips": 12856,
+      "station": "CE-145 Yucatán-Chiapas",
+      "total_trips": 23075,
+      "year": 2016
+    },
+    {
+      "end_trips": 12007,
+      "start_trips": 11005,
+      "station": "CE-107-108 Tolsa-Balderas",
+      "total_trips": 23012,
+      "year": 2016
+    },
+    {
+      "end_trips": 11271,
+      "start_trips": 11562,
+      "station": "CE-455 Pedregal-Ferrocarril De Cuernavaca",
+      "total_trips": 22833,
+      "year": 2016
+    },
+    {
+      "end_trips": 10897,
+      "start_trips": 11934,
+      "station": "CE-465 Lago Ginebra-Lago Wetter",
+      "total_trips": 22831,
+      "year": 2016
+    },
+    {
+      "end_trips": 11522,
+      "start_trips": 11266,
+      "station": "CE-117 Londres-Nápoles",
+      "total_trips": 22788,
+      "year": 2016
+    },
+    {
+      "end_trips": 11194,
+      "start_trips": 11477,
+      "station": "CE-467 Lago Mayor-Lago Alberto",
       "total_trips": 22671,
       "year": 2016
     },
     {
-      "end_trips": 12044,
-      "start_trips": 10583,
-      "station": "CE-170 Observatorio Oriente-Revolución",
-      "total_trips": 22627,
+      "end_trips": 12587,
+      "start_trips": 9932,
+      "station": "CE-070 Parque México - Michoacán",
+      "total_trips": 22519,
       "year": 2016
     },
     {
-      "end_trips": 9348,
-      "start_trips": 13262,
-      "station": "CE-024 Reforma- Varsovia",
-      "total_trips": 22610,
-      "year": 2016
-    },
-    {
-      "end_trips": 11958,
-      "start_trips": 10540,
-      "station": "CE-474 Bahía de San Hipólito-Bahía del Espíritu Santo",
-      "total_trips": 22498,
-      "year": 2016
-    },
-    {
-      "end_trips": 12246,
-      "start_trips": 10240,
-      "station": "CE-172 General Francisco Murguía-José Martí",
-      "total_trips": 22486,
-      "year": 2016
-    },
-    {
-      "end_trips": 12544,
-      "start_trips": 9883,
-      "station": "CE-060 Mazatlán - Fernando Montes de Oca",
-      "total_trips": 22427,
-      "year": 2016
-    },
-    {
-      "end_trips": 9578,
-      "start_trips": 12760,
-      "station": "CE-248 Shakespeare-Lafayette",
-      "total_trips": 22338,
-      "year": 2016
-    },
-    {
-      "end_trips": 11880,
-      "start_trips": 10432,
-      "station": "CE-305 Avenida del Parque-Arizona",
-      "total_trips": 22312,
-      "year": 2016
-    },
-    {
-      "end_trips": 9677,
-      "start_trips": 12272,
-      "station": "CE-145 Yucatán-Chiapas",
-      "total_trips": 21949,
-      "year": 2016
-    },
-    {
-      "end_trips": 10707,
-      "start_trips": 11102,
-      "station": "CE-455 Pedregal-Ferrocarril De Cuernavaca",
-      "total_trips": 21809,
-      "year": 2016
-    },
-    {
-      "end_trips": 11351,
-      "start_trips": 10421,
-      "station": "CE-107-108 Tolsa-Balderas",
-      "total_trips": 21772,
-      "year": 2016
-    },
-    {
-      "end_trips": 10307,
-      "start_trips": 11337,
-      "station": "CE-465 Lago Ginebra-Lago Wetter",
-      "total_trips": 21644,
-      "year": 2016
-    },
-    {
-      "end_trips": 10867,
-      "start_trips": 10759,
-      "station": "CE-117 Londres-Nápoles",
-      "total_trips": 21626,
-      "year": 2016
-    },
-    {
-      "end_trips": 10720,
-      "start_trips": 10835,
-      "station": "CE-467 Lago Mayor-Lago Alberto",
-      "total_trips": 21555,
-      "year": 2016
-    },
-    {
-      "end_trips": 10880,
-      "start_trips": 10658,
+      "end_trips": 11325,
+      "start_trips": 11096,
       "station": "CE-286 13 de Septiembre-Avenida Patriotismo",
-      "total_trips": 21538,
+      "total_trips": 22421,
       "year": 2016
     },
     {
-      "end_trips": 10926,
-      "start_trips": 10540,
+      "end_trips": 11411,
+      "start_trips": 10964,
       "station": "CE-019 Reforma - Río Rhin",
-      "total_trips": 21466,
+      "total_trips": 22375,
+      "year": 2016
+    },
+    {
+      "end_trips": 10554,
+      "start_trips": 11755,
+      "station": "CE-550 Sor Juana Ines de la Cruz - Fresno",
+      "total_trips": 22309,
+      "year": 2016
+    },
+    {
+      "end_trips": 10878,
+      "start_trips": 11119,
+      "station": "CE-454 Montes Urales-Monte Pelvoux",
+      "total_trips": 21997,
+      "year": 2016
+    },
+    {
+      "end_trips": 9799,
+      "start_trips": 12052,
+      "station": "CE-044 Durango - Veracruz",
+      "total_trips": 21851,
+      "year": 2016
+    },
+    {
+      "end_trips": 10891,
+      "start_trips": 10562,
+      "station": "CE-096 López-Ayuntamiento",
+      "total_trips": 21453,
+      "year": 2016
+    },
+    {
+      "end_trips": 9269,
+      "start_trips": 12146,
+      "station": "CE-462 Presa Falcón-Presa Danxhó",
+      "total_trips": 21415,
+      "year": 2016
+    },
+    {
+      "end_trips": 11818,
+      "start_trips": 9548,
+      "station": "CE-304 Montecito-Dakota",
+      "total_trips": 21366,
       "year": 2016
     },
     {
       "end_trips": 10042,
-      "start_trips": 11128,
-      "station": "CE-550 Sor Juana Ines de la Cruz - Fresno",
-      "total_trips": 21170,
-      "year": 2016
-    },
-    {
-      "end_trips": 11845,
-      "start_trips": 9302,
-      "station": "CE-070 Parque México - Michoacán",
-      "total_trips": 21147,
-      "year": 2016
-    },
-    {
-      "end_trips": 10594,
-      "start_trips": 10540,
-      "station": "CE-454 Montes Urales-Monte Pelvoux",
-      "total_trips": 21134,
-      "year": 2016
-    },
-    {
-      "end_trips": 9457,
-      "start_trips": 11321,
-      "station": "CE-044 Durango - Veracruz",
-      "total_trips": 20778,
-      "year": 2016
-    },
-    {
-      "end_trips": 10481,
-      "start_trips": 9978,
-      "station": "CE-096 López-Ayuntamiento",
-      "total_trips": 20459,
-      "year": 2016
-    },
-    {
-      "end_trips": 8780,
-      "start_trips": 11519,
-      "station": "CE-462 Presa Falcón-Presa Danxhó",
-      "total_trips": 20299,
-      "year": 2016
-    },
-    {
-      "end_trips": 11048,
-      "start_trips": 9161,
-      "station": "CE-304 Montecito-Dakota",
-      "total_trips": 20209,
-      "year": 2016
-    },
-    {
-      "end_trips": 9527,
-      "start_trips": 10586,
+      "start_trips": 11095,
       "station": "CE-276 Anaxágoras-Obrero Mundial",
-      "total_trips": 20113,
+      "total_trips": 21137,
       "year": 2016
     },
     {
-      "end_trips": 10691,
-      "start_trips": 9056,
+      "end_trips": 11223,
+      "start_trips": 9590,
       "station": "CE-049 Mazatlán - Juan de la Barrera",
-      "total_trips": 19747,
+      "total_trips": 20813,
       "year": 2016
     },
     {
-      "end_trips": 9893,
-      "start_trips": 9658,
-      "station": "CE-473 Bahía del Espíritu Santo-Bahía de Banderas",
-      "total_trips": 19551,
-      "year": 2016
-    },
-    {
-      "end_trips": 10226,
-      "start_trips": 9226,
+      "end_trips": 10846,
+      "start_trips": 9693,
       "station": "CE-078 Benjamín Hill - Tamaulipas",
-      "total_trips": 19452,
+      "total_trips": 20539,
       "year": 2016
     },
     {
-      "end_trips": 9243,
-      "start_trips": 10192,
-      "station": "Unknown (id 308)",
-      "total_trips": 19435,
+      "end_trips": 10365,
+      "start_trips": 10095,
+      "station": "CE-473 Bahía del Espíritu Santo-Bahía de Banderas",
+      "total_trips": 20460,
       "year": 2016
     },
     {
-      "end_trips": 9622,
-      "start_trips": 9811,
+      "end_trips": 10137,
+      "start_trips": 10259,
       "station": "CE-008 Reforma - General Prim",
-      "total_trips": 19433,
+      "total_trips": 20396,
       "year": 2016
     },
     {
-      "end_trips": 10136,
-      "start_trips": 9058,
+      "end_trips": 9643,
+      "start_trips": 10692,
+      "station": "Unknown (id 308)",
+      "total_trips": 20335,
+      "year": 2016
+    },
+    {
+      "end_trips": 10488,
+      "start_trips": 9612,
       "station": "CE-452 Leibnitz-Av. Ejercito Nacional",
-      "total_trips": 19194,
+      "total_trips": 20100,
       "year": 2016
     },
     {
-      "end_trips": 8946,
-      "start_trips": 10137,
+      "end_trips": 9472,
+      "start_trips": 10550,
       "station": "CE-130 Mérida-Durango",
-      "total_trips": 19083,
-      "year": 2016
-    },
-    {
-      "end_trips": 10769,
-      "start_trips": 8205,
-      "station": "CE-208 Hesiodo-Lamartine",
-      "total_trips": 18974,
-      "year": 2016
-    },
-    {
-      "end_trips": 9696,
-      "start_trips": 9249,
-      "station": "CE-073 Campeche - Tamaulipas",
-      "total_trips": 18945,
-      "year": 2016
-    },
-    {
-      "end_trips": 7854,
-      "start_trips": 11033,
-      "station": "CE-010 Reforma - Ramírez",
-      "total_trips": 18887,
-      "year": 2016
-    },
-    {
-      "end_trips": 7663,
-      "start_trips": 11138,
-      "station": "CE-225 Petrarca-Presidente Masaryk",
-      "total_trips": 18801,
-      "year": 2016
-    },
-    {
-      "end_trips": 8530,
-      "start_trips": 10261,
-      "station": "CE-670 Felix Parra - Flamencos",
-      "total_trips": 18791,
-      "year": 2016
-    },
-    {
-      "end_trips": 9425,
-      "start_trips": 9203,
-      "station": "CE-103 Joaquín Velázquez de León - García Icazbalceta",
-      "total_trips": 18628,
-      "year": 2016
-    },
-    {
-      "end_trips": 10200,
-      "start_trips": 8225,
-      "station": "CE-040 Oaxaca - Puebla",
-      "total_trips": 18425,
+      "total_trips": 20022,
       "year": 2016
     },
     {
       "end_trips": 8162,
-      "start_trips": 10157,
-      "station": "CE-009 Río Guadalquivir - Río Lerma",
-      "total_trips": 18319,
+      "start_trips": 11817,
+      "station": "CE-010 Reforma - Ramírez",
+      "total_trips": 19979,
       "year": 2016
     },
     {
-      "end_trips": 9368,
-      "start_trips": 8849,
+      "end_trips": 11102,
+      "start_trips": 8681,
+      "station": "CE-208 Hesiodo-Lamartine",
+      "total_trips": 19783,
+      "year": 2016
+    },
+    {
+      "end_trips": 10382,
+      "start_trips": 9394,
       "station": "CE-178 Tamaulipas-Francisco Murguía",
-      "total_trips": 18217,
+      "total_trips": 19776,
       "year": 2016
     },
     {
-      "end_trips": 8842,
-      "start_trips": 9328,
+      "end_trips": 10168,
+      "start_trips": 9601,
+      "station": "CE-073 Campeche - Tamaulipas",
+      "total_trips": 19769,
+      "year": 2016
+    },
+    {
+      "end_trips": 8917,
+      "start_trips": 10725,
+      "station": "CE-670 Felix Parra - Flamencos",
+      "total_trips": 19642,
+      "year": 2016
+    },
+    {
+      "end_trips": 8060,
+      "start_trips": 11513,
+      "station": "CE-225 Petrarca-Presidente Masaryk",
+      "total_trips": 19573,
+      "year": 2016
+    },
+    {
+      "end_trips": 10841,
+      "start_trips": 8662,
+      "station": "CE-040 Oaxaca - Puebla",
+      "total_trips": 19503,
+      "year": 2016
+    },
+    {
+      "end_trips": 9876,
+      "start_trips": 9614,
+      "station": "CE-103 Joaquín Velázquez de León - García Icazbalceta",
+      "total_trips": 19490,
+      "year": 2016
+    },
+    {
+      "end_trips": 9430,
+      "start_trips": 9750,
       "station": "CE-086 Sullivan-Insurgentes",
-      "total_trips": 18170,
+      "total_trips": 19180,
       "year": 2016
     },
     {
-      "end_trips": 8972,
-      "start_trips": 9148,
-      "station": "CE-062 Fernando Montes de Oca - Amatlan",
-      "total_trips": 18120,
+      "end_trips": 8551,
+      "start_trips": 10589,
+      "station": "CE-009 Río Guadalquivir - Río Lerma",
+      "total_trips": 19140,
       "year": 2016
     },
     {
-      "end_trips": 8036,
-      "start_trips": 10041,
+      "end_trips": 8572,
+      "start_trips": 10545,
       "station": "CE-206 Homero-Moliere",
-      "total_trips": 18077,
+      "total_trips": 19117,
       "year": 2016
     },
     {
-      "end_trips": 7270,
-      "start_trips": 10732,
+      "end_trips": 9358,
+      "start_trips": 9557,
+      "station": "CE-062 Fernando Montes de Oca - Amatlan",
+      "total_trips": 18915,
+      "year": 2016
+    },
+    {
+      "end_trips": 7563,
+      "start_trips": 11266,
       "station": "CE-466 Lago Onega-Lago Ladoga",
-      "total_trips": 18002,
+      "total_trips": 18829,
       "year": 2016
     },
     {
-      "end_trips": 9247,
-      "start_trips": 8567,
-      "station": "CE-135 Álvaro Obregón-Morelia",
-      "total_trips": 17814,
-      "year": 2016
-    },
-    {
-      "end_trips": 8072,
-      "start_trips": 9545,
+      "end_trips": 8622,
+      "start_trips": 9989,
       "station": "CE-202 Calderón de la Barca-Av. Homero",
-      "total_trips": 17617,
+      "total_trips": 18611,
       "year": 2016
     },
     {
-      "end_trips": 9374,
-      "start_trips": 8243,
+      "end_trips": 9908,
+      "start_trips": 8684,
       "station": "CE-169 Prosperidad-Progreso",
-      "total_trips": 17617,
+      "total_trips": 18592,
       "year": 2016
     },
     {
-      "end_trips": 9172,
-      "start_trips": 8445,
+      "end_trips": 9749,
+      "start_trips": 8799,
       "station": "CE-068 Tamaulipas - Michoacán",
-      "total_trips": 17617,
+      "total_trips": 18548,
       "year": 2016
     },
     {
-      "end_trips": 9958,
-      "start_trips": 7514,
-      "station": "CE-258 Circuito Interior-Juan Escutia",
-      "total_trips": 17472,
+      "end_trips": 9802,
+      "start_trips": 8657,
+      "station": "CE-135 Álvaro Obregón-Morelia",
+      "total_trips": 18459,
       "year": 2016
     },
     {
-      "end_trips": 9248,
-      "start_trips": 8221,
+      "end_trips": 9787,
+      "start_trips": 8555,
       "station": "CE-121 Niza-Chapultepec",
-      "total_trips": 17469,
+      "total_trips": 18342,
       "year": 2016
     },
     {
-      "end_trips": 8448,
-      "start_trips": 8821,
-      "station": "CE-223 Isaac Newton-Presidente Masaryk",
-      "total_trips": 17269,
+      "end_trips": 10290,
+      "start_trips": 7968,
+      "station": "CE-258 Circuito Interior-Juan Escutia",
+      "total_trips": 18258,
       "year": 2016
     },
     {
-      "end_trips": 8249,
-      "start_trips": 8963,
+      "end_trips": 8829,
+      "start_trips": 9396,
       "station": "CE-240 Ejército Nacional-F.C. de Cuernavaca",
-      "total_trips": 17212,
+      "total_trips": 18225,
       "year": 2016
     },
     {
-      "end_trips": 8045,
-      "start_trips": 9094,
-      "station": "CE-152 Tlacotalpan-Campeche",
-      "total_trips": 17139,
-      "year": 2016
-    },
-    {
-      "end_trips": 8930,
-      "start_trips": 8174,
+      "end_trips": 9481,
+      "start_trips": 8567,
       "station": "CE-097 República de Salvador-Pino Suárez",
-      "total_trips": 17104,
+      "total_trips": 18048,
       "year": 2016
     },
     {
-      "end_trips": 8199,
-      "start_trips": 8840,
-      "station": "CE-373 Pilares-Gabriel Mancera",
-      "total_trips": 17039,
+      "end_trips": 8836,
+      "start_trips": 9194,
+      "station": "CE-223 Isaac Newton-Presidente Masaryk",
+      "total_trips": 18030,
       "year": 2016
     },
     {
-      "end_trips": 9218,
-      "start_trips": 7724,
+      "end_trips": 8333,
+      "start_trips": 9630,
+      "station": "CE-152 Tlacotalpan-Campeche",
+      "total_trips": 17963,
+      "year": 2016
+    },
+    {
+      "end_trips": 9767,
+      "start_trips": 8134,
       "station": "CE-075 Alfonso Reyes - Atlixco",
-      "total_trips": 16942,
+      "total_trips": 17901,
       "year": 2016
     },
     {
-      "end_trips": 8317,
-      "start_trips": 8587,
+      "end_trips": 8716,
+      "start_trips": 8995,
       "station": "CE-217 Euler-Horacio",
-      "total_trips": 16904,
+      "total_trips": 17711,
       "year": 2016
     },
     {
-      "end_trips": 8670,
-      "start_trips": 8176,
-      "station": "CE-363 Holbein-Paulo Ucello",
-      "total_trips": 16846,
-      "year": 2016
-    },
-    {
-      "end_trips": 9347,
-      "start_trips": 7444,
-      "station": "CE-184 General Gómez Pedraza-Gobernador Tiburcio Montiel",
-      "total_trips": 16791,
-      "year": 2016
-    },
-    {
-      "end_trips": 7164,
-      "start_trips": 9570,
-      "station": "CE-266-267 Jesús García - Carlos J. Meneses",
-      "total_trips": 16734,
-      "year": 2016
-    },
-    {
-      "end_trips": 8864,
-      "start_trips": 7856,
-      "station": "CE-317 Avenida Coyoacán-Torres Adalid",
-      "total_trips": 16720,
-      "year": 2016
-    },
-    {
-      "end_trips": 8342,
-      "start_trips": 8302,
-      "station": "CE-552 Fresno - Ribera de San Cosme",
-      "total_trips": 16644,
-      "year": 2016
-    },
-    {
-      "end_trips": 8226,
-      "start_trips": 8282,
-      "station": "CE-340 Anaxágoras-Avenida Eugenia",
-      "total_trips": 16508,
-      "year": 2016
-    },
-    {
-      "end_trips": 8271,
-      "start_trips": 8200,
-      "station": "CE-416 Recreo-Parroquia",
-      "total_trips": 16471,
-      "year": 2016
-    },
-    {
-      "end_trips": 7867,
-      "start_trips": 8529,
-      "station": "CE-449 Acapulco-Puebla",
-      "total_trips": 16396,
-      "year": 2016
-    },
-    {
-      "end_trips": 7424,
-      "start_trips": 8922,
-      "station": "CE-339 Enrique Rébsamen-Avenida Eugenia",
-      "total_trips": 16346,
-      "year": 2016
-    },
-    {
-      "end_trips": 10381,
-      "start_trips": 5926,
-      "station": "CE-290 Yosemite-Colorado",
-      "total_trips": 16307,
-      "year": 2016
-    },
-    {
-      "end_trips": 7127,
-      "start_trips": 9136,
-      "station": "CE-201 Lope de Vega-Av. Ejército Nacional",
-      "total_trips": 16263,
-      "year": 2016
-    },
-    {
-      "end_trips": 8068,
-      "start_trips": 8047,
-      "station": "CE-296 Diagonal San Antonio-Enrique Rébsamen",
-      "total_trips": 16115,
-      "year": 2016
-    },
-    {
-      "end_trips": 8335,
-      "start_trips": 7620,
-      "station": "CE-389 Santander-Félix Cuevas",
-      "total_trips": 15955,
-      "year": 2016
-    },
-    {
-      "end_trips": 7696,
-      "start_trips": 8217,
-      "station": "CE-191 Gobernador Rafael Rebollar-Gobernador Vicente Eguía",
-      "total_trips": 15913,
-      "year": 2016
-    },
-    {
-      "end_trips": 8548,
-      "start_trips": 7330,
-      "station": "CE-168 Comercio-Progreso",
-      "total_trips": 15878,
-      "year": 2016
-    },
-    {
-      "end_trips": 7227,
-      "start_trips": 8514,
-      "station": "CE-310 Calle 1-Av. Patriotismo",
-      "total_trips": 15741,
-      "year": 2016
-    },
-    {
-      "end_trips": 8964,
-      "start_trips": 6694,
-      "station": "CE-420 María Luz Bringas-Oso",
-      "total_trips": 15658,
-      "year": 2016
-    },
-    {
-      "end_trips": 8380,
-      "start_trips": 7205,
-      "station": "CE-046 Durango - Salamanca",
-      "total_trips": 15585,
-      "year": 2016
-    },
-    {
-      "end_trips": 6339,
-      "start_trips": 9208,
-      "station": "CE-270 De la República-Ponciano Arriaga",
-      "total_trips": 15547,
-      "year": 2016
-    },
-    {
-      "end_trips": 7734,
-      "start_trips": 7808,
-      "station": "CE-219 Esopo-FC de Cuernavaca",
-      "total_trips": 15542,
-      "year": 2016
-    },
-    {
-      "end_trips": 8558,
-      "start_trips": 6737,
-      "station": "CE-198 Sócrates-Ejército Nacional",
-      "total_trips": 15295,
+      "end_trips": 8483,
+      "start_trips": 9207,
+      "station": "CE-373 Pilares-Gabriel Mancera",
+      "total_trips": 17690,
       "year": 2016
     },
     {
       "end_trips": 7598,
-      "start_trips": 7615,
+      "start_trips": 10091,
+      "station": "CE-266-267 Jesús García - Carlos J. Meneses",
+      "total_trips": 17689,
+      "year": 2016
+    },
+    {
+      "end_trips": 9118,
+      "start_trips": 8532,
+      "station": "CE-363 Holbein-Paulo Ucello",
+      "total_trips": 17650,
+      "year": 2016
+    },
+    {
+      "end_trips": 9371,
+      "start_trips": 8271,
+      "station": "CE-317 Avenida Coyoacán-Torres Adalid",
+      "total_trips": 17642,
+      "year": 2016
+    },
+    {
+      "end_trips": 9660,
+      "start_trips": 7920,
+      "station": "CE-184 General Gómez Pedraza-Gobernador Tiburcio Montiel",
+      "total_trips": 17580,
+      "year": 2016
+    },
+    {
+      "end_trips": 8757,
+      "start_trips": 8667,
+      "station": "CE-552 Fresno - Ribera de San Cosme",
+      "total_trips": 17424,
+      "year": 2016
+    },
+    {
+      "end_trips": 8685,
+      "start_trips": 8579,
+      "station": "CE-416 Recreo-Parroquia",
+      "total_trips": 17264,
+      "year": 2016
+    },
+    {
+      "end_trips": 11053,
+      "start_trips": 6155,
+      "station": "CE-290 Yosemite-Colorado",
+      "total_trips": 17208,
+      "year": 2016
+    },
+    {
+      "end_trips": 8345,
+      "start_trips": 8861,
+      "station": "CE-449 Acapulco-Puebla",
+      "total_trips": 17206,
+      "year": 2016
+    },
+    {
+      "end_trips": 8569,
+      "start_trips": 8611,
+      "station": "CE-340 Anaxágoras-Avenida Eugenia",
+      "total_trips": 17180,
+      "year": 2016
+    },
+    {
+      "end_trips": 7476,
+      "start_trips": 9579,
+      "station": "CE-201 Lope de Vega-Av. Ejército Nacional",
+      "total_trips": 17055,
+      "year": 2016
+    },
+    {
+      "end_trips": 7610,
+      "start_trips": 9427,
+      "station": "CE-339 Enrique Rébsamen-Avenida Eugenia",
+      "total_trips": 17037,
+      "year": 2016
+    },
+    {
+      "end_trips": 9643,
+      "start_trips": 7282,
+      "station": "CE-420 María Luz Bringas-Oso",
+      "total_trips": 16925,
+      "year": 2016
+    },
+    {
+      "end_trips": 8470,
+      "start_trips": 8399,
+      "station": "CE-296 Diagonal San Antonio-Enrique Rébsamen",
+      "total_trips": 16869,
+      "year": 2016
+    },
+    {
+      "end_trips": 8635,
+      "start_trips": 8152,
+      "station": "CE-389 Santander-Félix Cuevas",
+      "total_trips": 16787,
+      "year": 2016
+    },
+    {
+      "end_trips": 7552,
+      "start_trips": 8911,
+      "station": "CE-310 Calle 1-Av. Patriotismo",
+      "total_trips": 16463,
+      "year": 2016
+    },
+    {
+      "end_trips": 6641,
+      "start_trips": 9814,
+      "station": "CE-270 De la República-Ponciano Arriaga",
+      "total_trips": 16455,
+      "year": 2016
+    },
+    {
+      "end_trips": 8867,
+      "start_trips": 7576,
+      "station": "CE-046 Durango - Salamanca",
+      "total_trips": 16443,
+      "year": 2016
+    },
+    {
+      "end_trips": 7841,
+      "start_trips": 8429,
+      "station": "CE-191 Gobernador Rafael Rebollar-Gobernador Vicente Eguía",
+      "total_trips": 16270,
+      "year": 2016
+    },
+    {
+      "end_trips": 8009,
+      "start_trips": 8261,
+      "station": "CE-219 Esopo-FC de Cuernavaca",
+      "total_trips": 16270,
+      "year": 2016
+    },
+    {
+      "end_trips": 8718,
+      "start_trips": 7415,
+      "station": "CE-198 Sócrates-Ejército Nacional",
+      "total_trips": 16133,
+      "year": 2016
+    },
+    {
+      "end_trips": 8634,
+      "start_trips": 7389,
+      "station": "CE-168 Comercio-Progreso",
+      "total_trips": 16023,
+      "year": 2016
+    },
+    {
+      "end_trips": 8003,
+      "start_trips": 7704,
       "station": "CE-239 Rincón del Bosque-Ruben Darío",
-      "total_trips": 15213,
+      "total_trips": 15707,
       "year": 2016
     },
     {
-      "end_trips": 7329,
-      "start_trips": 7476,
-      "station": "CE-045 Durango - Sonora",
-      "total_trips": 14805,
-      "year": 2016
-    },
-    {
-      "end_trips": 7153,
-      "start_trips": 7560,
+      "end_trips": 7526,
+      "start_trips": 7919,
       "station": "CE-021 Reforma - Dublín",
-      "total_trips": 14713,
+      "total_trips": 15445,
       "year": 2016
     },
     {
-      "end_trips": 7367,
-      "start_trips": 7317,
-      "station": "CE-089 República de Guatemala - Monte de Piedad",
-      "total_trips": 14684,
+      "end_trips": 7598,
+      "start_trips": 7793,
+      "station": "CE-045 Durango - Sonora",
+      "total_trips": 15391,
       "year": 2016
     },
     {
-      "end_trips": 6773,
-      "start_trips": 7842,
+      "end_trips": 7719,
+      "start_trips": 7594,
+      "station": "CE-209 Solón-Horacio",
+      "total_trips": 15313,
+      "year": 2016
+    },
+    {
+      "end_trips": 7073,
+      "start_trips": 8157,
       "station": "CE-047 Plaza Madrid-Medellín",
+      "total_trips": 15230,
+      "year": 2016
+    },
+    {
+      "end_trips": 7818,
+      "start_trips": 7370,
+      "station": "CE-089 República de Guatemala - Monte de Piedad",
+      "total_trips": 15188,
+      "year": 2016
+    },
+    {
+      "end_trips": 8929,
+      "start_trips": 6157,
+      "station": "CE-448 Dr. Andrade-Arcos De Belén",
+      "total_trips": 15086,
+      "year": 2016
+    },
+    {
+      "end_trips": 6659,
+      "start_trips": 8104,
+      "station": "CE-182 Progreso-Astrónomos",
+      "total_trips": 14763,
+      "year": 2016
+    },
+    {
+      "end_trips": 7007,
+      "start_trips": 7707,
+      "station": "CE-659  Madrid - Avenida Mexico",
+      "total_trips": 14714,
+      "year": 2016
+    },
+    {
+      "end_trips": 7883,
+      "start_trips": 6826,
+      "station": "CE-151 Campeche-Tonalá",
+      "total_trips": 14709,
+      "year": 2016
+    },
+    {
+      "end_trips": 6456,
+      "start_trips": 8219,
+      "station": "CE-549 Sor Juana Ines de la Cruz - Dr. Atl",
+      "total_trips": 14675,
+      "year": 2016
+    },
+    {
+      "end_trips": 7305,
+      "start_trips": 7310,
+      "station": "CE-027 Reforma- Havre",
       "total_trips": 14615,
       "year": 2016
     },
     {
-      "end_trips": 7263,
-      "start_trips": 7276,
-      "station": "CE-209 Solón-Horacio",
-      "total_trips": 14539,
-      "year": 2016
-    },
-    {
-      "end_trips": 8459,
-      "start_trips": 5885,
-      "station": "CE-448 Dr. Andrade-Arcos De Belén",
-      "total_trips": 14344,
-      "year": 2016
-    },
-    {
-      "end_trips": 7689,
-      "start_trips": 6477,
-      "station": "CE-151 Campeche-Tonalá",
-      "total_trips": 14166,
-      "year": 2016
-    },
-    {
-      "end_trips": 6696,
-      "start_trips": 7448,
-      "station": "CE-659  Madrid - Avenida Mexico",
-      "total_trips": 14144,
-      "year": 2016
-    },
-    {
-      "end_trips": 6392,
-      "start_trips": 7721,
-      "station": "CE-182 Progreso-Astrónomos",
-      "total_trips": 14113,
-      "year": 2016
-    },
-    {
-      "end_trips": 7409,
-      "start_trips": 6590,
+      "end_trips": 7735,
+      "start_trips": 6879,
       "station": "CE-401 San Lorenzo-Avenida Cuauhtémoc",
-      "total_trips": 13999,
+      "total_trips": 14614,
       "year": 2016
     },
     {
-      "end_trips": 6110,
-      "start_trips": 7866,
-      "station": "CE-549 Sor Juana Ines de la Cruz - Dr. Atl",
-      "total_trips": 13976,
-      "year": 2016
-    },
-    {
-      "end_trips": 6897,
-      "start_trips": 6965,
+      "end_trips": 7295,
+      "start_trips": 7301,
       "station": "CE-028 Toledo- Tokio",
-      "total_trips": 13862,
+      "total_trips": 14596,
       "year": 2016
     },
     {
-      "end_trips": 6881,
-      "start_trips": 6933,
-      "station": "CE-027 Reforma- Havre",
-      "total_trips": 13814,
-      "year": 2016
-    },
-    {
-      "end_trips": 6762,
-      "start_trips": 6755,
-      "station": "CE-160 Alfonso Herrera-Gabino Barreda",
-      "total_trips": 13517,
-      "year": 2016
-    },
-    {
-      "end_trips": 6424,
-      "start_trips": 6967,
-      "station": "CE-309 Pensilvania-Arizona",
-      "total_trips": 13391,
-      "year": 2016
-    },
-    {
-      "end_trips": 7320,
-      "start_trips": 6011,
+      "end_trips": 7846,
+      "start_trips": 6482,
       "station": "CE-471 Bahía de Chachalacas-Bahía de Santa Bárbara",
-      "total_trips": 13331,
+      "total_trips": 14328,
       "year": 2016
     },
     {
-      "end_trips": 7080,
-      "start_trips": 6199,
+      "end_trips": 7049,
+      "start_trips": 7012,
+      "station": "CE-160 Alfonso Herrera-Gabino Barreda",
+      "total_trips": 14061,
+      "year": 2016
+    },
+    {
+      "end_trips": 6698,
+      "start_trips": 7296,
+      "station": "CE-309 Pensilvania-Arizona",
+      "total_trips": 13994,
+      "year": 2016
+    },
+    {
+      "end_trips": 7443,
+      "start_trips": 6428,
       "station": "CE-122 José María Vértiz-Av. Dr. Río de la Loza",
-      "total_trips": 13279,
+      "total_trips": 13871,
       "year": 2016
     },
     {
-      "end_trips": 5595,
-      "start_trips": 7637,
-      "station": "CE-342 Pitágoras-Av. División del Norte",
-      "total_trips": 13232,
-      "year": 2016
-    },
-    {
-      "end_trips": 6114,
-      "start_trips": 7049,
-      "station": "CE-026 Reforma - Versalles",
-      "total_trips": 13163,
-      "year": 2016
-    },
-    {
-      "end_trips": 6533,
-      "start_trips": 6615,
+      "end_trips": 6893,
+      "start_trips": 6895,
       "station": "CE-013 Reforma - Río Mississippi",
-      "total_trips": 13148,
+      "total_trips": 13788,
       "year": 2016
     },
     {
-      "end_trips": 7132,
-      "start_trips": 5508,
-      "station": "CE-316 San Francisco-Concepción Beistegui",
-      "total_trips": 12640,
+      "end_trips": 6405,
+      "start_trips": 7376,
+      "station": "CE-026 Reforma - Versalles",
+      "total_trips": 13781,
       "year": 2016
     },
     {
-      "end_trips": 5850,
-      "start_trips": 6633,
-      "station": "CE-554 Heroes Ferrocarrileros - Mariano Azuela",
-      "total_trips": 12483,
+      "end_trips": 5785,
+      "start_trips": 7840,
+      "station": "CE-342 Pitágoras-Av. División del Norte",
+      "total_trips": 13625,
       "year": 2016
     },
     {
-      "end_trips": 7440,
-      "start_trips": 4873,
+      "end_trips": 8059,
+      "start_trips": 5427,
       "station": "CE-128 Orizaba-Río de Janeiro",
-      "total_trips": 12313,
+      "total_trips": 13486,
       "year": 2016
     },
     {
-      "end_trips": 6501,
-      "start_trips": 5799,
+      "end_trips": 7557,
+      "start_trips": 5697,
+      "station": "CE-316 San Francisco-Concepción Beistegui",
+      "total_trips": 13254,
+      "year": 2016
+    },
+    {
+      "end_trips": 6210,
+      "start_trips": 7026,
+      "station": "CE-554 Heroes Ferrocarrileros - Mariano Azuela",
+      "total_trips": 13236,
+      "year": 2016
+    },
+    {
+      "end_trips": 6898,
+      "start_trips": 6082,
       "station": "CE-163 Toluca-Bajío",
-      "total_trips": 12300,
+      "total_trips": 12980,
       "year": 2016
     },
     {
-      "end_trips": 6366,
-      "start_trips": 5797,
-      "station": "CE-299 Romero de Terreros-Mier Y Pesado",
-      "total_trips": 12163,
-      "year": 2016
-    },
-    {
-      "end_trips": 5744,
-      "start_trips": 6413,
-      "station": "CE-658 Vicente Guerrero - Berlín",
-      "total_trips": 12157,
-      "year": 2016
-    },
-    {
-      "end_trips": 6097,
-      "start_trips": 6059,
+      "end_trips": 6405,
+      "start_trips": 6364,
       "station": "CE-356 Matías Romero -Adolfo Prieto",
-      "total_trips": 12156,
+      "total_trips": 12769,
       "year": 2016
     },
     {
-      "end_trips": 5258,
-      "start_trips": 6656,
-      "station": "CE-551 Nogal - Ribera de San Cosme",
-      "total_trips": 11914,
+      "end_trips": 5998,
+      "start_trips": 6752,
+      "station": "CE-658 Vicente Guerrero - Berlín",
+      "total_trips": 12750,
       "year": 2016
     },
     {
-      "end_trips": 5095,
-      "start_trips": 6795,
-      "station": "CE-553  Jaime Torres Bodet - Ribera de San Cosme",
-      "total_trips": 11890,
+      "end_trips": 6621,
+      "start_trips": 6115,
+      "station": "CE-299 Romero de Terreros-Mier Y Pesado",
+      "total_trips": 12736,
       "year": 2016
     },
     {
-      "end_trips": 5571,
-      "start_trips": 6065,
-      "station": "CE-171 Comercio-Jose Martí",
-      "total_trips": 11636,
-      "year": 2016
-    },
-    {
-      "end_trips": 5426,
-      "start_trips": 6182,
+      "end_trips": 5928,
+      "start_trips": 6566,
       "station": "CE-359 Matías Romero -Pestalozzi",
-      "total_trips": 11608,
+      "total_trips": 12494,
+      "year": 2016
+    },
+    {
+      "end_trips": 5521,
+      "start_trips": 6955,
+      "station": "CE-551 Nogal - Ribera de San Cosme",
+      "total_trips": 12476,
+      "year": 2016
+    },
+    {
+      "end_trips": 5427,
+      "start_trips": 6999,
+      "station": "CE-553  Jaime Torres Bodet - Ribera de San Cosme",
+      "total_trips": 12426,
+      "year": 2016
+    },
+    {
+      "end_trips": 6175,
+      "start_trips": 6143,
+      "station": "CE-250 Darwin-Mariano Escobedo",
+      "total_trips": 12318,
+      "year": 2016
+    },
+    {
+      "end_trips": 6509,
+      "start_trips": 5806,
+      "station": "CE-102 Echeveste-Bolivar",
+      "total_trips": 12315,
       "year": 2016
     },
     {
       "end_trips": 5779,
-      "start_trips": 5811,
-      "station": "CE-250 Darwin-Mariano Escobedo",
-      "total_trips": 11590,
+      "start_trips": 6334,
+      "station": "CE-171 Comercio-Jose Martí",
+      "total_trips": 12113,
       "year": 2016
     },
     {
-      "end_trips": 6088,
-      "start_trips": 5483,
-      "station": "CE-102 Echeveste-Bolivar",
-      "total_trips": 11571,
-      "year": 2016
-    },
-    {
-      "end_trips": 5138,
-      "start_trips": 6342,
+      "end_trips": 5348,
+      "start_trips": 6667,
       "station": "CE-203 Tennyson-Av. Homero",
+      "total_trips": 12015,
+      "year": 2016
+    },
+    {
+      "end_trips": 6038,
+      "start_trips": 5821,
+      "station": "CE-257 Manuel Maria Contreras-Villalongin",
+      "total_trips": 11859,
+      "year": 2016
+    },
+    {
+      "end_trips": 6257,
+      "start_trips": 5588,
+      "station": "CE-451 Campos Elíseos-Goldsmith",
+      "total_trips": 11845,
+      "year": 2016
+    },
+    {
+      "end_trips": 6184,
+      "start_trips": 5655,
+      "station": "CE-447 Agustín Melgar-Zamora",
+      "total_trips": 11839,
+      "year": 2016
+    },
+    {
+      "end_trips": 5761,
+      "start_trips": 5971,
+      "station": "CE-404 Miguel Laurent-Avenida División Del Norte",
+      "total_trips": 11732,
+      "year": 2016
+    },
+    {
+      "end_trips": 5094,
+      "start_trips": 6577,
+      "station": "CE-667 Hermes - Mosqueta",
+      "total_trips": 11671,
+      "year": 2016
+    },
+    {
+      "end_trips": 4659,
+      "start_trips": 6951,
+      "station": "CE-331 Avenida 2-Calle 17",
+      "total_trips": 11610,
+      "year": 2016
+    },
+    {
+      "end_trips": 5121,
+      "start_trips": 6449,
+      "station": "CE-347 Pensilvania-Maximino Avila Camacho",
+      "total_trips": 11570,
+      "year": 2016
+    },
+    {
+      "end_trips": 4531,
+      "start_trips": 6949,
+      "station": "CE-051 Colima - Oaxaca",
       "total_trips": 11480,
       "year": 2016
     },
     {
-      "end_trips": 5701,
-      "start_trips": 5594,
-      "station": "CE-257 Manuel Maria Contreras-Villalongin",
-      "total_trips": 11295,
-      "year": 2016
-    },
-    {
-      "end_trips": 5934,
-      "start_trips": 5330,
-      "station": "CE-451 Campos Elíseos-Goldsmith",
-      "total_trips": 11264,
-      "year": 2016
-    },
-    {
-      "end_trips": 5583,
-      "start_trips": 5587,
-      "station": "CE-404 Miguel Laurent-Avenida División Del Norte",
-      "total_trips": 11170,
-      "year": 2016
-    },
-    {
-      "end_trips": 4834,
-      "start_trips": 6292,
-      "station": "CE-667 Hermes - Mosqueta",
-      "total_trips": 11126,
-      "year": 2016
-    },
-    {
-      "end_trips": 5853,
-      "start_trips": 5230,
-      "station": "CE-447 Agustín Melgar-Zamora",
-      "total_trips": 11083,
-      "year": 2016
-    },
-    {
-      "end_trips": 4319,
-      "start_trips": 6746,
-      "station": "CE-051 Colima - Oaxaca",
-      "total_trips": 11065,
-      "year": 2016
-    },
-    {
-      "end_trips": 4432,
-      "start_trips": 6539,
-      "station": "CE-331 Avenida 2-Calle 17",
-      "total_trips": 10971,
-      "year": 2016
-    },
-    {
-      "end_trips": 4842,
-      "start_trips": 6092,
-      "station": "CE-347 Pensilvania-Maximino Avila Camacho",
-      "total_trips": 10934,
-      "year": 2016
-    },
-    {
-      "end_trips": 5287,
-      "start_trips": 5441,
+      "end_trips": 5492,
+      "start_trips": 5629,
       "station": "CE-430 Tripoli-Av. Popocatépetl (Eje 8)",
-      "total_trips": 10728,
+      "total_trips": 11121,
       "year": 2016
     },
     {
-      "end_trips": 5055,
-      "start_trips": 5381,
-      "station": "CE-328 Avenida 1-Calle 7",
-      "total_trips": 10436,
-      "year": 2016
-    },
-    {
-      "end_trips": 5867,
-      "start_trips": 4563,
+      "end_trips": 6206,
+      "start_trips": 4727,
       "station": "CE-371 Tlacoquemécatl-Capulín",
-      "total_trips": 10430,
+      "total_trips": 10933,
       "year": 2016
     },
     {
-      "end_trips": 5326,
-      "start_trips": 4955,
-      "station": "CE-277 Prolongación Tonalá-Obrero Mundial",
-      "total_trips": 10281,
-      "year": 2016
-    },
-    {
-      "end_trips": 5368,
-      "start_trips": 4875,
+      "end_trips": 5701,
+      "start_trips": 5116,
       "station": "CE-386 Poussin-Donatello",
-      "total_trips": 10243,
+      "total_trips": 10817,
       "year": 2016
     },
     {
-      "end_trips": 4902,
-      "start_trips": 5156,
-      "station": "CE-205 Taine-Homero",
-      "total_trips": 10058,
+      "end_trips": 5240,
+      "start_trips": 5559,
+      "station": "CE-328 Avenida 1-Calle 7",
+      "total_trips": 10799,
       "year": 2016
     },
     {
-      "end_trips": 4466,
-      "start_trips": 5553,
-      "station": "CE-061 Avenida México - Sonora",
-      "total_trips": 10019,
+      "end_trips": 5517,
+      "start_trips": 5206,
+      "station": "CE-277 Prolongación Tonalá-Obrero Mundial",
+      "total_trips": 10723,
       "year": 2016
     },
     {
-      "end_trips": 4334,
-      "start_trips": 5667,
+      "end_trips": 4563,
+      "start_trips": 5933,
       "station": "CE-162 Tehuantepec-Medellín",
-      "total_trips": 10001,
+      "total_trips": 10496,
       "year": 2016
     },
     {
-      "end_trips": 4354,
-      "start_trips": 5608,
+      "end_trips": 4655,
+      "start_trips": 5809,
+      "station": "CE-061 Avenida México - Sonora",
+      "total_trips": 10464,
+      "year": 2016
+    },
+    {
+      "end_trips": 5040,
+      "start_trips": 5416,
+      "station": "CE-205 Taine-Homero",
+      "total_trips": 10456,
+      "year": 2016
+    },
+    {
+      "end_trips": 4577,
+      "start_trips": 5844,
       "station": "CE-279 La Morena-Providencia",
+      "total_trips": 10421,
+      "year": 2016
+    },
+    {
+      "end_trips": 4122,
+      "start_trips": 5950,
+      "station": "CE-660 Josefa Ortiz de Dominguez - Circuito Interior",
+      "total_trips": 10072,
+      "year": 2016
+    },
+    {
+      "end_trips": 5426,
+      "start_trips": 4536,
+      "station": "CE-355 California-Sacramento",
       "total_trips": 9962,
       "year": 2016
     },
     {
-      "end_trips": 4880,
-      "start_trips": 4653,
+      "end_trips": 5109,
+      "start_trips": 4842,
       "station": "CE-334 Nueva York-Av. Insurgentes",
-      "total_trips": 9533,
+      "total_trips": 9951,
       "year": 2016
     },
     {
-      "end_trips": 5126,
-      "start_trips": 4393,
-      "station": "CE-355 California-Sacramento",
-      "total_trips": 9519,
-      "year": 2016
-    },
-    {
-      "end_trips": 5006,
-      "start_trips": 4461,
-      "station": "CE-395 San Lorenzo-Martín Mendalde",
-      "total_trips": 9467,
-      "year": 2016
-    },
-    {
-      "end_trips": 3752,
-      "start_trips": 5654,
-      "station": "CE-660 Josefa Ortiz de Dominguez - Circuito Interior",
-      "total_trips": 9406,
-      "year": 2016
-    },
-    {
-      "end_trips": 3436,
-      "start_trips": 5939,
+      "end_trips": 3706,
+      "start_trips": 6225,
       "station": "CE-155 Jalapa-Tlaxcala",
-      "total_trips": 9375,
+      "total_trips": 9931,
       "year": 2016
     },
     {
-      "end_trips": 4981,
-      "start_trips": 3990,
+      "end_trips": 5278,
+      "start_trips": 4652,
+      "station": "CE-395 San Lorenzo-Martín Mendalde",
+      "total_trips": 9930,
+      "year": 2016
+    },
+    {
+      "end_trips": 5245,
+      "start_trips": 4143,
       "station": "CE-055  5 De Mayo - Bolívar",
-      "total_trips": 8971,
+      "total_trips": 9388,
       "year": 2016
     },
     {
-      "end_trips": 2655,
-      "start_trips": 5994,
+      "end_trips": 2820,
+      "start_trips": 6329,
       "station": "CE-329 Calle 13-Avenida 1",
-      "total_trips": 8649,
+      "total_trips": 9149,
       "year": 2016
     },
     {
-      "end_trips": 4040,
-      "start_trips": 4284,
-      "station": "CE-253 Dante-Tolstoi",
-      "total_trips": 8324,
-      "year": 2016
-    },
-    {
-      "end_trips": 4354,
-      "start_trips": 3968,
-      "station": "CE-444 General Manuel Rincón-Agustín Gutierrez",
-      "total_trips": 8322,
-      "year": 2016
-    },
-    {
-      "end_trips": 4408,
-      "start_trips": 3908,
+      "end_trips": 4718,
+      "start_trips": 4173,
       "station": "CE-105 San Jerónimo-5 de Febrero",
-      "total_trips": 8316,
+      "total_trips": 8891,
       "year": 2016
     },
     {
-      "end_trips": 3744,
-      "start_trips": 4491,
+      "end_trips": 4269,
+      "start_trips": 4495,
+      "station": "CE-253 Dante-Tolstoi",
+      "total_trips": 8764,
+      "year": 2016
+    },
+    {
+      "end_trips": 4589,
+      "start_trips": 4164,
+      "station": "CE-444 General Manuel Rincón-Agustín Gutierrez",
+      "total_trips": 8753,
+      "year": 2016
+    },
+    {
+      "end_trips": 3916,
+      "start_trips": 4713,
       "station": "CE-369 Porfirio Díaz-Av. Insurgentes",
-      "total_trips": 8235,
+      "total_trips": 8629,
       "year": 2016
     },
     {
-      "end_trips": 4370,
-      "start_trips": 3626,
-      "station": "CE-321 Torres Adalid-Anaxágoras",
-      "total_trips": 7996,
-      "year": 2016
-    },
-    {
-      "end_trips": 4031,
-      "start_trips": 3853,
+      "end_trips": 4335,
+      "start_trips": 4118,
       "station": "CE-422 Búfalo-José María Rico (Eje 8)",
-      "total_trips": 7884,
+      "total_trips": 8453,
       "year": 2016
     },
     {
-      "end_trips": 3553,
-      "start_trips": 4183,
+      "end_trips": 4582,
+      "start_trips": 3820,
+      "station": "CE-321 Torres Adalid-Anaxágoras",
+      "total_trips": 8402,
+      "year": 2016
+    },
+    {
+      "end_trips": 3758,
+      "start_trips": 4436,
       "station": "CE-436 Rodríguez Saro-Búfalo",
-      "total_trips": 7736,
+      "total_trips": 8194,
       "year": 2016
     },
     {
-      "end_trips": 4601,
-      "start_trips": 2901,
+      "end_trips": 4955,
+      "start_trips": 3060,
       "station": "CE-292 Adolfo Prieto-Eje 4 Sur Xola",
-      "total_trips": 7502,
+      "total_trips": 8015,
       "year": 2016
     },
     {
-      "end_trips": 3316,
-      "start_trips": 3776,
+      "end_trips": 3519,
+      "start_trips": 3921,
       "station": "CE-433 Jose María Olloqui-Lopéz Cotilla",
-      "total_trips": 7092,
+      "total_trips": 7440,
       "year": 2016
     },
     {
-      "end_trips": 3561,
-      "start_trips": 3465,
+      "end_trips": 3743,
+      "start_trips": 3609,
       "station": "CE-346 San Francisco-Santa Margarita",
-      "total_trips": 7026,
+      "total_trips": 7352,
       "year": 2016
     },
     {
-      "end_trips": 3414,
-      "start_trips": 3467,
+      "end_trips": 3606,
+      "start_trips": 3614,
       "station": "CE-366 Porfirio Díaz-Augusto Rodin",
-      "total_trips": 6881,
+      "total_trips": 7220,
       "year": 2016
     },
     {
-      "end_trips": 3075,
-      "start_trips": 3664,
-      "station": "CE-314 Nueva York-Louisiana",
-      "total_trips": 6739,
-      "year": 2016
-    },
-    {
-      "end_trips": 3375,
-      "start_trips": 3337,
-      "station": "CE-487 Nopaltzin - Quetzalcoatl",
-      "total_trips": 6712,
-      "year": 2016
-    },
-    {
-      "end_trips": 3448,
-      "start_trips": 3244,
+      "end_trips": 3670,
+      "start_trips": 3445,
       "station": "CE-054 Parque España - Sonora",
-      "total_trips": 6692,
+      "total_trips": 7115,
       "year": 2016
     },
     {
-      "end_trips": 2795,
-      "start_trips": 3798,
+      "end_trips": 3540,
+      "start_trips": 3512,
+      "station": "CE-487 Nopaltzin - Quetzalcoatl",
+      "total_trips": 7052,
+      "year": 2016
+    },
+    {
+      "end_trips": 3179,
+      "start_trips": 3788,
+      "station": "CE-314 Nueva York-Louisiana",
+      "total_trips": 6967,
+      "year": 2016
+    },
+    {
+      "end_trips": 2926,
+      "start_trips": 4015,
       "station": "CE-154 Tuxpan-Tlaxcala",
-      "total_trips": 6593,
+      "total_trips": 6941,
       "year": 2016
     },
     {
-      "end_trips": 2298,
-      "start_trips": 3684,
+      "end_trips": 2395,
+      "start_trips": 3905,
       "station": "CE-396 Martin Mendalde-Felix Cuevas",
-      "total_trips": 5982,
+      "total_trips": 6300,
       "year": 2016
     },
     {
-      "end_trips": 3340,
-      "start_trips": 2616,
+      "end_trips": 3464,
+      "start_trips": 2689,
       "station": "CE-441 Puente Xoco-Real de Mayorazgo",
-      "total_trips": 5956,
+      "total_trips": 6153,
       "year": 2016
     },
     {
-      "end_trips": 1799,
-      "start_trips": 2825,
+      "end_trips": 1884,
+      "start_trips": 2904,
       "station": "CE-090 José María Pino Suárez - Corregidora",
-      "total_trips": 4624,
+      "total_trips": 4788,
       "year": 2016
     },
     {
-      "end_trips": 2040,
-      "start_trips": 1768,
-      "station": "CE-380 Moras-San Lorenzo",
-      "total_trips": 3808,
-      "year": 2016
-    },
-    {
-      "end_trips": 1696,
-      "start_trips": 2105,
+      "end_trips": 1786,
+      "start_trips": 2207,
       "station": "CE-477 Lago Iseo-Laguna de Mayrán",
-      "total_trips": 3801,
+      "total_trips": 3993,
       "year": 2016
     },
     {
-      "end_trips": 1360,
-      "start_trips": 1850,
+      "end_trips": 2099,
+      "start_trips": 1853,
+      "station": "CE-380 Moras-San Lorenzo",
+      "total_trips": 3952,
+      "year": 2016
+    },
+    {
+      "end_trips": 1455,
+      "start_trips": 1949,
       "station": "CE-338 Nicolás San Juan-San Borja",
-      "total_trips": 3210,
+      "total_trips": 3404,
       "year": 2016
     },
     {
-      "end_trips": 655,
+      "end_trips": 678,
       "start_trips": 62,
       "station": "Unknown (id 1002)",
-      "total_trips": 717,
+      "total_trips": 740,
       "year": 2016
     },
     {
@@ -34590,7 +34590,14 @@
     {
       "end_trips": 2,
       "start_trips": 3,
-      "station": "CE-492 Lago Cuitzeo - Felipe Carrillo Puerto",
+      "station": "CE-485 Lago de Pátzcuaro - Marina Nacional",
+      "total_trips": 5,
+      "year": 2017
+    },
+    {
+      "end_trips": 3,
+      "start_trips": 2,
+      "station": "CE-497 Manuel Carpio - Plan de Ayala",
       "total_trips": 5,
       "year": 2017
     },
@@ -34604,14 +34611,7 @@
     {
       "end_trips": 2,
       "start_trips": 3,
-      "station": "CE-485 Lago de Pátzcuaro - Marina Nacional",
-      "total_trips": 5,
-      "year": 2017
-    },
-    {
-      "end_trips": 3,
-      "start_trips": 2,
-      "station": "CE-497 Manuel Carpio - Plan de Ayala",
+      "station": "CE-492 Lago Cuitzeo - Felipe Carrillo Puerto",
       "total_trips": 5,
       "year": 2017
     },
@@ -34623,16 +34623,9 @@
       "year": 2017
     },
     {
-      "end_trips": 2,
-      "start_trips": 1,
-      "station": "CE-498 de los Maestros - Plan de Agua Prieta",
-      "total_trips": 3,
-      "year": 2017
-    },
-    {
-      "end_trips": 2,
-      "start_trips": 1,
-      "station": "CE-301 Luz Saviñón-Magdalena",
+      "end_trips": 1,
+      "start_trips": 2,
+      "station": "CE-537 Fresno - Clavel",
       "total_trips": 3,
       "year": 2017
     },
@@ -34646,28 +34639,35 @@
     {
       "end_trips": 2,
       "start_trips": 1,
+      "station": "CE-301 Luz Saviñón-Magdalena",
+      "total_trips": 3,
+      "year": 2017
+    },
+    {
+      "end_trips": 2,
+      "start_trips": 1,
+      "station": "CE-498 de los Maestros - Plan de Agua Prieta",
+      "total_trips": 3,
+      "year": 2017
+    },
+    {
+      "end_trips": 2,
+      "start_trips": 1,
       "station": "CE-546 Salvador Díaz Mirón - Santa María la Ribera",
       "total_trips": 3,
       "year": 2017
     },
     {
       "end_trips": 1,
-      "start_trips": 2,
-      "station": "CE-537 Fresno - Clavel",
-      "total_trips": 3,
-      "year": 2017
-    },
-    {
-      "end_trips": 1,
       "start_trips": 1,
-      "station": "CE-392 Patricio Sanz-Félix Cuevas",
+      "station": "CE-453 Pedregal-Teapa",
       "total_trips": 2,
       "year": 2017
     },
     {
       "end_trips": 1,
       "start_trips": 1,
-      "station": "CE-230 Edgar Allan Poe - Carlos Dickens",
+      "station": "CE-146 Coahuila-Manzanillo",
       "total_trips": 2,
       "year": 2017
     },
@@ -34681,7 +34681,7 @@
     {
       "end_trips": 1,
       "start_trips": 1,
-      "station": "CE-453 Pedregal-Teapa",
+      "station": "CE-502 Mar Mediterráneo - Callejón de la Zanja",
       "total_trips": 2,
       "year": 2017
     },
@@ -34695,21 +34695,7 @@
     {
       "end_trips": 1,
       "start_trips": 1,
-      "station": "CE-536 Fresno - Eulalia Guzmán (Eje 2 Norte)",
-      "total_trips": 2,
-      "year": 2017
-    },
-    {
-      "end_trips": 1,
-      "start_trips": 1,
-      "station": "CE-502 Mar Mediterráneo - Callejón de la Zanja",
-      "total_trips": 2,
-      "year": 2017
-    },
-    {
-      "end_trips": 1,
-      "start_trips": 1,
-      "station": "CE-146 Coahuila-Manzanillo",
+      "station": "CE-230 Edgar Allan Poe - Carlos Dickens",
       "total_trips": 2,
       "year": 2017
     },
@@ -34728,10 +34714,17 @@
       "year": 2017
     },
     {
-      "end_trips": 0,
+      "end_trips": 1,
       "start_trips": 1,
-      "station": "CE-622 Fernando Montes de Oca - Eje 6 Sur",
-      "total_trips": 1,
+      "station": "CE-536 Fresno - Eulalia Guzmán (Eje 2 Norte)",
+      "total_trips": 2,
+      "year": 2017
+    },
+    {
+      "end_trips": 1,
+      "start_trips": 1,
+      "station": "CE-392 Patricio Sanz-Félix Cuevas",
+      "total_trips": 2,
       "year": 2017
     },
     {
@@ -34745,6 +34738,13 @@
       "end_trips": 0,
       "start_trips": 1,
       "station": "CE-495 Amado Nervo - de los Maestros",
+      "total_trips": 1,
+      "year": 2017
+    },
+    {
+      "end_trips": 0,
+      "start_trips": 1,
+      "station": "CE-622 Fernando Montes de Oca - Eje 6 Sur",
       "total_trips": 1,
       "year": 2017
     },
@@ -37115,16 +37115,16 @@
       "year": 2018
     },
     {
-      "end_trips": 9150,
-      "start_trips": 9357,
-      "station": "CE-062 Fernando Montes de Oca - Amatlan",
+      "end_trips": 10884,
+      "start_trips": 7623,
+      "station": "CE-112 Av. Morelos-Abraham González",
       "total_trips": 18507,
       "year": 2018
     },
     {
-      "end_trips": 10884,
-      "start_trips": 7623,
-      "station": "CE-112 Av. Morelos-Abraham González",
+      "end_trips": 9150,
+      "start_trips": 9357,
+      "station": "CE-062 Fernando Montes de Oca - Amatlan",
       "total_trips": 18507,
       "year": 2018
     },
@@ -43499,16 +43499,16 @@
       "year": 2020
     },
     {
-      "end_trips": 6102,
-      "start_trips": 5559,
-      "station": "CE-046 Durango - Salamanca",
+      "end_trips": 5735,
+      "start_trips": 5926,
+      "station": "CE-298 Romero de Terreros-Gabriel Mancera",
       "total_trips": 11661,
       "year": 2020
     },
     {
-      "end_trips": 5735,
-      "start_trips": 5926,
-      "station": "CE-298 Romero de Terreros-Gabriel Mancera",
+      "end_trips": 6102,
+      "start_trips": 5559,
+      "station": "CE-046 Durango - Salamanca",
       "total_trips": 11661,
       "year": 2020
     },
@@ -44066,16 +44066,16 @@
       "year": 2020
     },
     {
-      "end_trips": 5505,
-      "start_trips": 2951,
-      "station": "CE-470 Bahía de Las Palmas-Bahía de Todos Los Santos",
+      "end_trips": 3745,
+      "start_trips": 4711,
+      "station": "CE-010 Reforma - Ramírez",
       "total_trips": 8456,
       "year": 2020
     },
     {
-      "end_trips": 3745,
-      "start_trips": 4711,
-      "station": "CE-010 Reforma - Ramírez",
+      "end_trips": 5505,
+      "start_trips": 2951,
+      "station": "CE-470 Bahía de Las Palmas-Bahía de Todos Los Santos",
       "total_trips": 8456,
       "year": 2020
     },
@@ -46376,16 +46376,16 @@
       "year": 2021
     },
     {
-      "end_trips": 11140,
-      "start_trips": 6075,
-      "station": "CE-014 Reforma - Río de Plata",
+      "end_trips": 8435,
+      "start_trips": 8780,
+      "station": "CE-481 Lago Garda - Mariano Escobedo",
       "total_trips": 17215,
       "year": 2021
     },
     {
-      "end_trips": 8435,
-      "start_trips": 8780,
-      "station": "CE-481 Lago Garda - Mariano Escobedo",
+      "end_trips": 11140,
+      "start_trips": 6075,
+      "station": "CE-014 Reforma - Río de Plata",
       "total_trips": 17215,
       "year": 2021
     },
@@ -47006,16 +47006,16 @@
       "year": 2021
     },
     {
-      "end_trips": 5528,
-      "start_trips": 5806,
-      "station": "CE-336 San Borja-Cda. Dr. J. Bartolache",
+      "end_trips": 5242,
+      "start_trips": 6092,
+      "station": "CE-276 Anaxágoras-Obrero Mundial",
       "total_trips": 11334,
       "year": 2021
     },
     {
-      "end_trips": 5242,
-      "start_trips": 6092,
-      "station": "CE-276 Anaxágoras-Obrero Mundial",
+      "end_trips": 5528,
+      "start_trips": 5806,
+      "station": "CE-336 San Borja-Cda. Dr. J. Bartolache",
       "total_trips": 11334,
       "year": 2021
     },
@@ -48273,13 +48273,6 @@
       "year": 2021
     },
     {
-      "end_trips": 61797,
-      "start_trips": 52605,
-      "station": "CE-141 Zacatecas-Luis Cabrera",
-      "total_trips": 114402,
-      "year": 2022
-    },
-    {
       "end_trips": 41869,
       "start_trips": 40324,
       "station": "CE-284 Dakota-Vermont",
@@ -48291,6 +48284,13 @@
       "start_trips": 35630,
       "station": "CE-710 Molino del Rey - Glorieta de la Lealtad",
       "total_trips": 72021,
+      "year": 2022
+    },
+    {
+      "end_trips": 35261,
+      "start_trips": 33765,
+      "station": "CE-141 Zacatecas-Luis Cabrera",
+      "total_trips": 69026,
       "year": 2022
     },
     {
@@ -48382,13 +48382,6 @@
       "start_trips": 25037,
       "station": "CE-370 Tlacoquemécatl-Av. Insurgentes",
       "total_trips": 52021,
-      "year": 2022
-    },
-    {
-      "end_trips": 25678,
-      "start_trips": 25821,
-      "station": "CE-110 Dr. Valenzuela-Dr. Río de la loza",
-      "total_trips": 51499,
       "year": 2022
     },
     {
@@ -48497,10 +48490,10 @@
       "year": 2022
     },
     {
-      "end_trips": 22363,
-      "start_trips": 23257,
-      "station": "CE-319 Diagonal San Antonio-Luz Saviñón",
-      "total_trips": 45620,
+      "end_trips": 26536,
+      "start_trips": 18840,
+      "station": "Unknown (id 271-272)",
+      "total_trips": 45376,
       "year": 2022
     },
     {
@@ -48529,13 +48522,6 @@
       "start_trips": 21414,
       "station": "CE-424 Amores-José María Rico (Eje 8)",
       "total_trips": 43903,
-      "year": 2022
-    },
-    {
-      "end_trips": 22099,
-      "start_trips": 21735,
-      "station": "CE-229 Carlos Dickens-Séneca",
-      "total_trips": 43834,
       "year": 2022
     },
     {
@@ -48791,6 +48777,13 @@
       "year": 2022
     },
     {
+      "end_trips": 17490,
+      "start_trips": 17405,
+      "station": "CE-110 Dr. Valenzuela-Dr. Río de la loza",
+      "total_trips": 34895,
+      "year": 2022
+    },
+    {
       "end_trips": 17311,
       "start_trips": 17570,
       "station": "CE-003 Reforma - Insurgentes",
@@ -48980,6 +48973,13 @@
       "year": 2022
     },
     {
+      "end_trips": 15235,
+      "start_trips": 15587,
+      "station": "CE-229 Carlos Dickens-Séneca",
+      "total_trips": 30822,
+      "year": 2022
+    },
+    {
       "end_trips": 15607,
       "start_trips": 15162,
       "station": "CE-439 Amores-Avenida Coyoacán",
@@ -49085,13 +49085,6 @@
       "year": 2022
     },
     {
-      "end_trips": 14206,
-      "start_trips": 14887,
-      "station": "CE-173 Minería-José Martí",
-      "total_trips": 29093,
-      "year": 2022
-    },
-    {
       "end_trips": 14902,
       "start_trips": 14144,
       "station": "CE-255 José Rosas Moreno-Guillermo Prieto",
@@ -49159,6 +49152,13 @@
       "start_trips": 13780,
       "station": "CE-144 Frontera-San Luis Potosí",
       "total_trips": 27961,
+      "year": 2022
+    },
+    {
+      "end_trips": 13733,
+      "start_trips": 14188,
+      "station": "CE-319 Diagonal San Antonio-Luz Saviñón",
+      "total_trips": 27921,
       "year": 2022
     },
     {
@@ -49631,13 +49631,6 @@
       "year": 2022
     },
     {
-      "end_trips": 11193,
-      "start_trips": 9407,
-      "station": "CE-470 Bahía de Las Palmas-Bahía de Todos Los Santos",
-      "total_trips": 20600,
-      "year": 2022
-    },
-    {
       "end_trips": 10224,
       "start_trips": 10355,
       "station": "CE-161 Quintana Roo-Manzanillo",
@@ -49701,10 +49694,10 @@
       "year": 2022
     },
     {
-      "end_trips": 8961,
-      "start_trips": 10521,
+      "end_trips": 8868,
+      "start_trips": 10398,
       "station": "CE-256 Gómez Farías-Sadi Carnot",
-      "total_trips": 19482,
+      "total_trips": 19266,
       "year": 2022
     },
     {
@@ -49747,6 +49740,13 @@
       "start_trips": 9698,
       "station": "CE-058 Parque España - Juan de la Barrera",
       "total_trips": 18923,
+      "year": 2022
+    },
+    {
+      "end_trips": 9312,
+      "start_trips": 9543,
+      "station": "CE-173 Minería-José Martí",
+      "total_trips": 18855,
       "year": 2022
     },
     {
@@ -49918,6 +49918,13 @@
       "year": 2022
     },
     {
+      "end_trips": 8630,
+      "start_trips": 9069,
+      "station": "Unknown (id 390-391)",
+      "total_trips": 17699,
+      "year": 2022
+    },
+    {
       "end_trips": 9346,
       "start_trips": 8259,
       "station": "CE-369 Porfirio Díaz-Av. Insurgentes",
@@ -50048,6 +50055,13 @@
       "start_trips": 8139,
       "station": "CE-097 República de Salvador-Pino Suárez",
       "total_trips": 16621,
+      "year": 2022
+    },
+    {
+      "end_trips": 8188,
+      "start_trips": 8416,
+      "station": "Unknown (id 107-108)",
+      "total_trips": 16604,
       "year": 2022
     },
     {
@@ -50450,13 +50464,6 @@
       "year": 2022
     },
     {
-      "end_trips": 6937,
-      "start_trips": 6230,
-      "station": "CE-441 Puente Xoco-Real de Mayorazgo",
-      "total_trips": 13167,
-      "year": 2022
-    },
-    {
       "end_trips": 6850,
       "start_trips": 6305,
       "station": "CE-237-238 Andrés Bello-George Eliot",
@@ -50468,6 +50475,13 @@
       "start_trips": 6809,
       "station": "CE-234 Tres Picos-Arquímides",
       "total_trips": 13019,
+      "year": 2022
+    },
+    {
+      "end_trips": 6864,
+      "start_trips": 6148,
+      "station": "Unknown (id 158-159)",
+      "total_trips": 13012,
       "year": 2022
     },
     {
@@ -50702,13 +50716,6 @@
       "year": 2022
     },
     {
-      "end_trips": 5971,
-      "start_trips": 5845,
-      "station": "CE-135 Álvaro Obregón-Morelia",
-      "total_trips": 11816,
-      "year": 2022
-    },
-    {
       "end_trips": 5826,
       "start_trips": 5966,
       "station": "CE-452 Leibnitz-Av. Ejercito Nacional",
@@ -50786,13 +50793,6 @@
       "year": 2022
     },
     {
-      "end_trips": 5732,
-      "start_trips": 5536,
-      "station": "CE-080 Nuevo León - Aguascalientes",
-      "total_trips": 11268,
-      "year": 2022
-    },
-    {
       "end_trips": 5584,
       "start_trips": 5593,
       "station": "CE-172 General Francisco Murguía-José Martí",
@@ -50804,6 +50804,13 @@
       "start_trips": 5074,
       "station": "CE-292 Adolfo Prieto-Eje 4 Sur Xola",
       "total_trips": 11175,
+      "year": 2022
+    },
+    {
+      "end_trips": 5780,
+      "start_trips": 5287,
+      "station": "CE-470 Bahía de Las Palmas-Bahía de Todos Los Santos",
+      "total_trips": 11067,
       "year": 2022
     },
     {
@@ -50863,16 +50870,16 @@
       "year": 2022
     },
     {
-      "end_trips": 5344,
-      "start_trips": 5342,
-      "station": "CE-448 Dr. Andrade-Arcos De Belén",
+      "end_trips": 5837,
+      "start_trips": 4849,
+      "station": "CE-401 San Lorenzo-Avenida Cuauhtémoc",
       "total_trips": 10686,
       "year": 2022
     },
     {
-      "end_trips": 5837,
-      "start_trips": 4849,
-      "station": "CE-401 San Lorenzo-Avenida Cuauhtémoc",
+      "end_trips": 5344,
+      "start_trips": 5342,
+      "station": "CE-448 Dr. Andrade-Arcos De Belén",
       "total_trips": 10686,
       "year": 2022
     },
@@ -50933,6 +50940,13 @@
       "year": 2022
     },
     {
+      "end_trips": 4894,
+      "start_trips": 5344,
+      "station": "Unknown (id 192-193)",
+      "total_trips": 10238,
+      "year": 2022
+    },
+    {
       "end_trips": 4985,
       "start_trips": 5218,
       "station": "CE-153 Manzanillo-Tlaxcala",
@@ -50989,6 +51003,13 @@
       "year": 2022
     },
     {
+      "end_trips": 5180,
+      "start_trips": 4485,
+      "station": "Unknown (id 445-446)",
+      "total_trips": 9665,
+      "year": 2022
+    },
+    {
       "end_trips": 5079,
       "start_trips": 4499,
       "station": "CE-321 Torres Adalid-Anaxágoras",
@@ -51007,6 +51028,13 @@
       "start_trips": 4958,
       "station": "CE-149 Mérida-Antonio M. Anza",
       "total_trips": 9572,
+      "year": 2022
+    },
+    {
+      "end_trips": 5413,
+      "start_trips": 4120,
+      "station": "Unknown (id 273-274)",
+      "total_trips": 9533,
       "year": 2022
     },
     {
@@ -51059,17 +51087,17 @@
       "year": 2022
     },
     {
-      "end_trips": 4087,
-      "start_trips": 5118,
-      "station": "CE-226 Wallon-Presidente Masaryk",
-      "total_trips": 9205,
-      "year": 2022
-    },
-    {
       "end_trips": 4301,
       "start_trips": 4866,
       "station": "CE-496 Maestro Rural - José Parres",
       "total_trips": 9167,
+      "year": 2022
+    },
+    {
+      "end_trips": 4064,
+      "start_trips": 5070,
+      "station": "CE-226 Wallon-Presidente Masaryk",
+      "total_trips": 9134,
       "year": 2022
     },
     {
@@ -51098,6 +51126,13 @@
       "start_trips": 4547,
       "station": "CE-670 Felix Parra - Flamencos",
       "total_trips": 8829,
+      "year": 2022
+    },
+    {
+      "end_trips": 4451,
+      "start_trips": 4317,
+      "station": "CE-135 Álvaro Obregón-Morelia",
+      "total_trips": 8768,
       "year": 2022
     },
     {
@@ -51231,6 +51266,13 @@
       "start_trips": 4185,
       "station": "CE-467 Lago Mayor-Lago Alberto",
       "total_trips": 7850,
+      "year": 2022
+    },
+    {
+      "end_trips": 3935,
+      "start_trips": 3595,
+      "station": "CE-080 Nuevo León - Aguascalientes",
+      "total_trips": 7530,
       "year": 2022
     },
     {
@@ -51535,6 +51577,13 @@
       "year": 2022
     },
     {
+      "end_trips": 1797,
+      "start_trips": 1941,
+      "station": "Unknown (id 264-275)",
+      "total_trips": 3738,
+      "year": 2022
+    },
+    {
       "end_trips": 1728,
       "start_trips": 1966,
       "station": "CE-279 La Morena-Providencia",
@@ -51556,6 +51605,13 @@
       "year": 2022
     },
     {
+      "end_trips": 1757,
+      "start_trips": 1745,
+      "station": "CE-441 Puente Xoco-Real de Mayorazgo",
+      "total_trips": 3502,
+      "year": 2022
+    },
+    {
       "end_trips": 1569,
       "start_trips": 1681,
       "station": "CE-314 Nueva York-Louisiana",
@@ -51574,6 +51630,13 @@
       "start_trips": 1782,
       "station": "CE-660 Josefa Ortiz de Dominguez - Circuito Interior",
       "total_trips": 3051,
+      "year": 2022
+    },
+    {
+      "end_trips": 1520,
+      "start_trips": 1528,
+      "station": "Unknown (id 268-269)",
+      "total_trips": 3048,
       "year": 2022
     },
     {
@@ -51619,10 +51682,24 @@
       "year": 2022
     },
     {
+      "end_trips": 93,
+      "start_trips": 123,
+      "station": "Unknown (id 237-238)",
+      "total_trips": 216,
+      "year": 2022
+    },
+    {
       "end_trips": 82,
       "start_trips": 13,
       "station": "Unknown (id 1000)",
       "total_trips": 95,
+      "year": 2022
+    },
+    {
+      "end_trips": 23,
+      "start_trips": 48,
+      "station": "Unknown (id 235-236)",
+      "total_trips": 71,
       "year": 2022
     },
     {
@@ -51642,7 +51719,7 @@
     {
       "end_trips": 253357,
       "start_trips": 159771,
-      "station": "CE-141 Zacatecas-Luis Cabrera",
+      "station": "Unknown (id 271-272)",
       "total_trips": 413128,
       "year": 2023
     },
@@ -51691,14 +51768,14 @@
     {
       "end_trips": 65693,
       "start_trips": 67066,
-      "station": "CE-110 Dr. Valenzuela-Dr. Río de la loza",
+      "station": "Unknown (id 107-108)",
       "total_trips": 132759,
       "year": 2023
     },
     {
       "end_trips": 66811,
       "start_trips": 64118,
-      "station": "CE-229 Carlos Dickens-Séneca",
+      "station": "Unknown (id 158-159)",
       "total_trips": 130929,
       "year": 2023
     },
@@ -51852,14 +51929,14 @@
     {
       "end_trips": 60203,
       "start_trips": 46030,
-      "station": "CE-085 Rosas Moreno - Sullivan",
+      "station": "Unknown (id 266-267)",
       "total_trips": 106233,
       "year": 2023
     },
     {
       "end_trips": 47850,
       "start_trips": 57711,
-      "station": "CE-173 Minería-José Martí",
+      "station": "Unknown (id 192-193)",
       "total_trips": 105561,
       "year": 2023
     },
@@ -51894,7 +51971,7 @@
     {
       "end_trips": 45127,
       "start_trips": 58515,
-      "station": "CE-256 Gómez Farías-Sadi Carnot",
+      "station": "Unknown (id 237-238)",
       "total_trips": 103642,
       "year": 2023
     },
@@ -51985,7 +52062,7 @@
     {
       "end_trips": 43860,
       "start_trips": 46618,
-      "station": "CE-319 Diagonal San Antonio-Luz Saviñón",
+      "station": "Unknown (id 390-391)",
       "total_trips": 90478,
       "year": 2023
     },
@@ -52076,7 +52153,7 @@
     {
       "end_trips": 43676,
       "start_trips": 37381,
-      "station": "CE-470 Bahía de Las Palmas-Bahía de Todos Los Santos",
+      "station": "Unknown (id 273-274)",
       "total_trips": 81057,
       "year": 2023
     },
@@ -52986,7 +53063,7 @@
     {
       "end_trips": 22831,
       "start_trips": 25222,
-      "station": "CE-226 Wallon-Presidente Masaryk",
+      "station": "Unknown (id 235-236)",
       "total_trips": 48053,
       "year": 2023
     },
@@ -53427,7 +53504,7 @@
     {
       "end_trips": 18429,
       "start_trips": 19442,
-      "station": "CE-135 Álvaro Obregón-Morelia",
+      "station": "Unknown (id 268-269)",
       "total_trips": 37871,
       "year": 2023
     },
@@ -53462,7 +53539,7 @@
     {
       "end_trips": 19346,
       "start_trips": 17741,
-      "station": "CE-441 Puente Xoco-Real de Mayorazgo",
+      "station": "Unknown (id 445-446)",
       "total_trips": 37087,
       "year": 2023
     },
@@ -53693,7 +53770,7 @@
     {
       "end_trips": 15210,
       "start_trips": 18455,
-      "station": "CE-080 Nuevo León - Aguascalientes",
+      "station": "Unknown (id 264-275)",
       "total_trips": 33665,
       "year": 2023
     },
@@ -53733,16 +53810,16 @@
       "year": 2023
     },
     {
-      "end_trips": 16976,
-      "start_trips": 16190,
-      "station": "CE-049 Mazatlán - Juan de la Barrera",
+      "end_trips": 16101,
+      "start_trips": 17065,
+      "station": "CE-031 Hamburgo - Insurgentes",
       "total_trips": 33166,
       "year": 2023
     },
     {
-      "end_trips": 16101,
-      "start_trips": 17065,
-      "station": "CE-031 Hamburgo - Insurgentes",
+      "end_trips": 16976,
+      "start_trips": 16190,
+      "station": "CE-049 Mazatlán - Juan de la Barrera",
       "total_trips": 33166,
       "year": 2023
     },
@@ -54713,16 +54790,16 @@
       "year": 2023
     },
     {
-      "end_trips": 8566,
-      "start_trips": 9582,
-      "station": "CE-508 Libertad-C. José Sánchez Trujillo",
+      "end_trips": 9006,
+      "start_trips": 9142,
+      "station": "CE-299 Romero de Terreros-Mier Y Pesado",
       "total_trips": 18148,
       "year": 2023
     },
     {
-      "end_trips": 9006,
-      "start_trips": 9142,
-      "station": "CE-299 Romero de Terreros-Mier Y Pesado",
+      "end_trips": 8566,
+      "start_trips": 9582,
+      "station": "CE-508 Libertad-C. José Sánchez Trujillo",
       "total_trips": 18148,
       "year": 2023
     },
@@ -55126,16 +55203,16 @@
       "year": 2023
     },
     {
-      "end_trips": 4795,
-      "start_trips": 4373,
-      "station": "CE-510 Egipto - Calle Norte 79 A",
+      "end_trips": 4704,
+      "start_trips": 4464,
+      "station": "CE-648 Rafael Olivia - 20 de agosto",
       "total_trips": 9168,
       "year": 2023
     },
     {
-      "end_trips": 4704,
-      "start_trips": 4464,
-      "station": "CE-648 Rafael Olivia - 20 de agosto",
+      "end_trips": 4795,
+      "start_trips": 4373,
+      "station": "CE-510 Egipto - Calle Norte 79 A",
       "total_trips": 9168,
       "year": 2023
     },
@@ -55686,16 +55763,16 @@
       "year": 2023
     },
     {
-      "end_trips": 649,
-      "start_trips": 633,
-      "station": "CE-029 Reforma - Bucareli",
+      "end_trips": 526,
+      "start_trips": 756,
+      "station": "CE-587 Jose Toribio Medina - Marcelino Davalos",
       "total_trips": 1282,
       "year": 2023
     },
     {
-      "end_trips": 526,
-      "start_trips": 756,
-      "station": "CE-587 Jose Toribio Medina - Marcelino Davalos",
+      "end_trips": 649,
+      "start_trips": 633,
+      "station": "CE-029 Reforma - Bucareli",
       "total_trips": 1282,
       "year": 2023
     },
@@ -56073,7 +56150,7 @@
     {
       "end_trips": 363352,
       "start_trips": 232104,
-      "station": "CE-141 Zacatecas-Luis Cabrera",
+      "station": "Unknown (id 271-272)",
       "total_trips": 595456,
       "year": 2024
     },
@@ -56136,7 +56213,7 @@
     {
       "end_trips": 93411,
       "start_trips": 99649,
-      "station": "CE-110 Dr. Valenzuela-Dr. Río de la loza",
+      "station": "Unknown (id 107-108)",
       "total_trips": 193060,
       "year": 2024
     },
@@ -56150,7 +56227,7 @@
     {
       "end_trips": 77228,
       "start_trips": 107628,
-      "station": "CE-256 Gómez Farías-Sadi Carnot",
+      "station": "Unknown (id 237-238)",
       "total_trips": 184856,
       "year": 2024
     },
@@ -56164,7 +56241,7 @@
     {
       "end_trips": 91136,
       "start_trips": 92418,
-      "station": "CE-229 Carlos Dickens-Séneca",
+      "station": "Unknown (id 158-159)",
       "total_trips": 183554,
       "year": 2024
     },
@@ -56199,7 +56276,7 @@
     {
       "end_trips": 78044,
       "start_trips": 97587,
-      "station": "CE-173 Minería-José Martí",
+      "station": "Unknown (id 192-193)",
       "total_trips": 175631,
       "year": 2024
     },
@@ -56220,7 +56297,7 @@
     {
       "end_trips": 92896,
       "start_trips": 78842,
-      "station": "CE-085 Rosas Moreno - Sullivan",
+      "station": "Unknown (id 266-267)",
       "total_trips": 171738,
       "year": 2024
     },
@@ -56402,7 +56479,7 @@
     {
       "end_trips": 60457,
       "start_trips": 69915,
-      "station": "CE-319 Diagonal San Antonio-Luz Saviñón",
+      "station": "Unknown (id 390-391)",
       "total_trips": 130372,
       "year": 2024
     },
@@ -56787,7 +56864,7 @@
     {
       "end_trips": 54914,
       "start_trips": 44624,
-      "station": "CE-470 Bahía de Las Palmas-Bahía de Todos Los Santos",
+      "station": "Unknown (id 273-274)",
       "total_trips": 99538,
       "year": 2024
     },
@@ -57256,7 +57333,7 @@
     {
       "end_trips": 32323,
       "start_trips": 46811,
-      "station": "CE-226 Wallon-Presidente Masaryk",
+      "station": "Unknown (id 235-236)",
       "total_trips": 79134,
       "year": 2024
     },
@@ -58033,7 +58110,7 @@
     {
       "end_trips": 29107,
       "start_trips": 29092,
-      "station": "CE-135 Álvaro Obregón-Morelia",
+      "station": "Unknown (id 268-269)",
       "total_trips": 58199,
       "year": 2024
     },
@@ -58430,16 +58507,16 @@
       "year": 2024
     },
     {
-      "end_trips": 25131,
-      "start_trips": 24545,
-      "station": "CE-043 Revillagigedo - Juárez",
+      "end_trips": 25848,
+      "start_trips": 23828,
+      "station": "CE-558 Chimalpopoca - Simón Bolívar",
       "total_trips": 49676,
       "year": 2024
     },
     {
-      "end_trips": 25848,
-      "start_trips": 23828,
-      "station": "CE-558 Chimalpopoca - Simón Bolívar",
+      "end_trips": 25131,
+      "start_trips": 24545,
+      "station": "CE-043 Revillagigedo - Juárez",
       "total_trips": 49676,
       "year": 2024
     },
@@ -58824,7 +58901,7 @@
     {
       "end_trips": 22088,
       "start_trips": 21885,
-      "station": "CE-080 Nuevo León - Aguascalientes",
+      "station": "Unknown (id 264-275)",
       "total_trips": 43973,
       "year": 2024
     },
@@ -59587,7 +59664,7 @@
     {
       "end_trips": 17092,
       "start_trips": 16584,
-      "station": "CE-441 Puente Xoco-Real de Mayorazgo",
+      "station": "Unknown (id 445-446)",
       "total_trips": 33676,
       "year": 2024
     },
@@ -60826,7 +60903,7 @@
     {
       "end_trips": 219129,
       "start_trips": 121886,
-      "station": "CE-141 Zacatecas-Luis Cabrera",
+      "station": "Unknown (id 271-272)",
       "total_trips": 341015,
       "year": 2025
     },
@@ -60924,7 +61001,7 @@
     {
       "end_trips": 65902,
       "start_trips": 85399,
-      "station": "CE-256 Gómez Farías-Sadi Carnot",
+      "station": "Unknown (id 237-238)",
       "total_trips": 151301,
       "year": 2025
     },
@@ -60938,14 +61015,14 @@
     {
       "end_trips": 74168,
       "start_trips": 75059,
-      "station": "CE-229 Carlos Dickens-Séneca",
+      "station": "Unknown (id 158-159)",
       "total_trips": 149227,
       "year": 2025
     },
     {
       "end_trips": 66848,
       "start_trips": 81236,
-      "station": "CE-173 Minería-José Martí",
+      "station": "Unknown (id 192-193)",
       "total_trips": 148084,
       "year": 2025
     },
@@ -60959,7 +61036,7 @@
     {
       "end_trips": 73784,
       "start_trips": 73286,
-      "station": "CE-110 Dr. Valenzuela-Dr. Río de la loza",
+      "station": "Unknown (id 107-108)",
       "total_trips": 147070,
       "year": 2025
     },
@@ -60980,7 +61057,7 @@
     {
       "end_trips": 74803,
       "start_trips": 68521,
-      "station": "CE-470 Bahía de Las Palmas-Bahía de Todos Los Santos",
+      "station": "Unknown (id 273-274)",
       "total_trips": 143324,
       "year": 2025
     },
@@ -61001,7 +61078,7 @@
     {
       "end_trips": 87228,
       "start_trips": 52745,
-      "station": "CE-085 Rosas Moreno - Sullivan",
+      "station": "Unknown (id 266-267)",
       "total_trips": 139973,
       "year": 2025
     },
@@ -61218,7 +61295,7 @@
     {
       "end_trips": 50361,
       "start_trips": 56809,
-      "station": "CE-319 Diagonal San Antonio-Luz Saviñón",
+      "station": "Unknown (id 390-391)",
       "total_trips": 107170,
       "year": 2025
     },
@@ -62051,7 +62128,7 @@
     {
       "end_trips": 29171,
       "start_trips": 37708,
-      "station": "CE-226 Wallon-Presidente Masaryk",
+      "station": "Unknown (id 235-236)",
       "total_trips": 66879,
       "year": 2025
     },
@@ -63283,7 +63360,7 @@
     {
       "end_trips": 21987,
       "start_trips": 21537,
-      "station": "CE-135 Álvaro Obregón-Morelia",
+      "station": "Unknown (id 268-269)",
       "total_trips": 43524,
       "year": 2025
     },
@@ -64270,7 +64347,7 @@
     {
       "end_trips": 15199,
       "start_trips": 15361,
-      "station": "CE-441 Puente Xoco-Real de Mayorazgo",
+      "station": "Unknown (id 445-446)",
       "total_trips": 30560,
       "year": 2025
     },
@@ -64375,7 +64452,7 @@
     {
       "end_trips": 13974,
       "start_trips": 15033,
-      "station": "CE-080 Nuevo León - Aguascalientes",
+      "station": "Unknown (id 264-275)",
       "total_trips": 29007,
       "year": 2025
     },
@@ -65572,7 +65649,7 @@
     {
       "end_trips": 101337,
       "start_trips": 57787,
-      "station": "CE-141 Zacatecas-Luis Cabrera",
+      "station": "Unknown (id 271-272)",
       "total_trips": 159124,
       "year": 2026
     },
@@ -65691,7 +65768,7 @@
     {
       "end_trips": 36296,
       "start_trips": 36523,
-      "station": "CE-229 Carlos Dickens-Séneca",
+      "station": "Unknown (id 158-159)",
       "total_trips": 72819,
       "year": 2026
     },
@@ -65705,14 +65782,14 @@
     {
       "end_trips": 30382,
       "start_trips": 38973,
-      "station": "CE-256 Gómez Farías-Sadi Carnot",
+      "station": "Unknown (id 237-238)",
       "total_trips": 69355,
       "year": 2026
     },
     {
       "end_trips": 39572,
       "start_trips": 28645,
-      "station": "CE-470 Bahía de Las Palmas-Bahía de Todos Los Santos",
+      "station": "Unknown (id 273-274)",
       "total_trips": 68217,
       "year": 2026
     },
@@ -65754,7 +65831,7 @@
     {
       "end_trips": 40218,
       "start_trips": 25055,
-      "station": "CE-085 Rosas Moreno - Sullivan",
+      "station": "Unknown (id 266-267)",
       "total_trips": 65273,
       "year": 2026
     },
@@ -65894,7 +65971,7 @@
     {
       "end_trips": 27982,
       "start_trips": 28809,
-      "station": "CE-110 Dr. Valenzuela-Dr. Río de la loza",
+      "station": "Unknown (id 107-108)",
       "total_trips": 56791,
       "year": 2026
     },
@@ -65964,7 +66041,7 @@
     {
       "end_trips": 24676,
       "start_trips": 28139,
-      "station": "CE-319 Diagonal San Antonio-Luz Saviñón",
+      "station": "Unknown (id 390-391)",
       "total_trips": 52815,
       "year": 2026
     },
@@ -66020,7 +66097,7 @@
     {
       "end_trips": 24003,
       "start_trips": 27118,
-      "station": "CE-173 Minería-José Martí",
+      "station": "Unknown (id 192-193)",
       "total_trips": 51121,
       "year": 2026
     },
@@ -66958,7 +67035,7 @@
     {
       "end_trips": 15808,
       "start_trips": 16841,
-      "station": "CE-226 Wallon-Presidente Masaryk",
+      "station": "Unknown (id 235-236)",
       "total_trips": 32649,
       "year": 2026
     },
@@ -67644,7 +67721,7 @@
     {
       "end_trips": 12922,
       "start_trips": 12970,
-      "station": "CE-135 Álvaro Obregón-Morelia",
+      "station": "Unknown (id 268-269)",
       "total_trips": 25892,
       "year": 2026
     },
@@ -67740,16 +67817,16 @@
       "year": 2026
     },
     {
-      "end_trips": 12300,
-      "start_trips": 12744,
-      "station": "CE-686 Vito Alessio Robles - Universidad",
+      "end_trips": 12459,
+      "start_trips": 12585,
+      "station": "CE-306 Dakota-Minnesota",
       "total_trips": 25044,
       "year": 2026
     },
     {
-      "end_trips": 12459,
-      "start_trips": 12585,
-      "station": "CE-306 Dakota-Minnesota",
+      "end_trips": 12300,
+      "start_trips": 12744,
+      "station": "CE-686 Vito Alessio Robles - Universidad",
       "total_trips": 25044,
       "year": 2026
     },
@@ -68762,9 +68839,9 @@
       "year": 2026
     },
     {
-      "end_trips": 8110,
-      "start_trips": 9422,
-      "station": "CE-597 Diagonal San Antonio - Icacos",
+      "end_trips": 8668,
+      "start_trips": 8864,
+      "station": "CE-550 Sor Juana Ines de la Cruz - Fresno",
       "total_trips": 17532,
       "year": 2026
     },
@@ -68776,9 +68853,9 @@
       "year": 2026
     },
     {
-      "end_trips": 8668,
-      "start_trips": 8864,
-      "station": "CE-550 Sor Juana Ines de la Cruz - Fresno",
+      "end_trips": 8110,
+      "start_trips": 9422,
+      "station": "CE-597 Diagonal San Antonio - Icacos",
       "total_trips": 17532,
       "year": 2026
     },
@@ -68932,7 +69009,7 @@
     {
       "end_trips": 8206,
       "start_trips": 8162,
-      "station": "CE-441 Puente Xoco-Real de Mayorazgo",
+      "station": "Unknown (id 445-446)",
       "total_trips": 16368,
       "year": 2026
     },
@@ -69338,7 +69415,7 @@
     {
       "end_trips": 8643,
       "start_trips": 5295,
-      "station": "CE-080 Nuevo León - Aguascalientes",
+      "station": "Unknown (id 264-275)",
       "total_trips": 13938,
       "year": 2026
     },
@@ -70684,7 +70761,7 @@
     },
     {
       "month": 3,
-      "trips": 713850,
+      "trips": 713851,
       "year": 2016
     },
     {
@@ -70724,12 +70801,12 @@
     },
     {
       "month": 11,
-      "trips": 744585,
+      "trips": 744700,
       "year": 2016
     },
     {
       "month": 12,
-      "trips": 256388,
+      "trips": 688551,
       "year": 2016
     },
     {

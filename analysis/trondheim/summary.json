@@ -2,16 +2,18 @@
   {
     "year": 2018,
     "trip_count": 103620,
+    "valid_duration_count": 103620,
     "duration_median": 446.0,
     "duration_5_percent": 153.0,
     "duration_q1": 298.0,
     "duration_q3": 691.0,
     "duration_95_percent": 2103.0,
-    "null_rows": 1966
+    "null_rows": 983
   },
   {
     "year": 2019,
     "trip_count": 357352,
+    "valid_duration_count": 357352,
     "duration_median": 466.0,
     "duration_5_percent": 164.0,
     "duration_q1": 313.0,
@@ -22,6 +24,7 @@
   {
     "year": 2020,
     "trip_count": 138556,
+    "valid_duration_count": 138556,
     "duration_median": 501.5,
     "duration_5_percent": 180.0,
     "duration_q1": 334.0,
@@ -32,6 +35,7 @@
   {
     "year": 2021,
     "trip_count": 137139,
+    "valid_duration_count": 137139,
     "duration_median": 501.0,
     "duration_5_percent": 187.0,
     "duration_q1": 340.0,
@@ -42,6 +46,7 @@
   {
     "year": 2022,
     "trip_count": 149315,
+    "valid_duration_count": 149315,
     "duration_median": 500.0,
     "duration_5_percent": 178.0,
     "duration_q1": 330.0,
@@ -52,6 +57,7 @@
   {
     "year": 2023,
     "trip_count": 137518,
+    "valid_duration_count": 137518,
     "duration_median": 515.0,
     "duration_5_percent": 186.0,
     "duration_q1": 344.0,
@@ -62,6 +68,7 @@
   {
     "year": 2024,
     "trip_count": 183296,
+    "valid_duration_count": 183296,
     "duration_median": 516.0,
     "duration_5_percent": 185.0,
     "duration_q1": 341.0,
@@ -71,12 +78,24 @@
   },
   {
     "year": 2025,
-    "trip_count": 151416,
-    "duration_median": 505.0,
+    "trip_count": 156674,
+    "valid_duration_count": 156674,
+    "duration_median": 503.0,
     "duration_5_percent": 178.0,
-    "duration_q1": 335.0,
-    "duration_q3": 779.0,
-    "duration_95_percent": 1707.0,
+    "duration_q1": 334.0,
+    "duration_q3": 774.0,
+    "duration_95_percent": 1692.0,
+    "null_rows": 0
+  },
+  {
+    "year": 2026,
+    "trip_count": 56930,
+    "valid_duration_count": 56930,
+    "duration_median": 496.0,
+    "duration_5_percent": 173.0,
+    "duration_q1": 329.0,
+    "duration_q3": 755.0,
+    "duration_95_percent": 1545.0,
     "null_rows": 0
   }
 ]
