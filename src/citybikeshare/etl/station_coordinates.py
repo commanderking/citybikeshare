@@ -173,19 +173,10 @@ def _id_sort_key(i: str) -> tuple[int, object]:
     return (0, int(i)) if i.isdigit() else (1, i)
 
 
-# GBFS coordinate cities, for the CLI's `build-station-coordinates`. Adding a city is one line
-# here plus the `refresh_station_coordinates` pre-transform step + a `station_coordinates`
-# coord source in its YAML — no new harvest code (the harvester is city-agnostic).
+# GBFS coordinate cities, for the CLI's `build-station-coordinates`. A city opts in with one
+# `coordinates.source: {type: gbfs, url: …}` block (drives the sync fetch + the transform
+# auto-refresh) plus a `station_coordinates` read source — no new harvest code (city-agnostic).
 STATION_COORDINATES_BUILDERS = {
     "mexico_city": update_gbfs_station_coordinates,
     "vancouver": update_gbfs_station_coordinates,
-}
-
-# Pre-transform steps (see station_maps.PRE_TRANSFORM_FUNCTIONS); best-effort (required=False)
-# so the committed coordinates are the durable fallback when no fresh GBFS is on disk. One
-# generic step for every GBFS city — the city is taken from the context.
-PRE_TRANSFORM_FUNCTIONS = {
-    "refresh_station_coordinates": lambda context, config: (
-        update_gbfs_station_coordinates(context, required=False)
-    ),
 }

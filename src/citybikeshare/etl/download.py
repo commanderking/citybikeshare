@@ -28,12 +28,13 @@ def download_city_data(
 
     output_dir = context.download_directory
 
-    # A city with a `gbfs_url` gets its station coordinates refreshed here regardless of how
-    # its trips are downloaded (custom script or S3) — the pre-transform harvest merges it into
-    # the committed coordinates. Config-driven, so a new GBFS city needs no downloader code.
-    gbfs_url = config.get("gbfs_url")
-    if gbfs_url:
-        download_station_information(context, gbfs_url)
+    # A GBFS `coordinates.source` fetches its station list here regardless of how the trips are
+    # downloaded (custom script or S3); the pre-transform step then merges it into the committed
+    # coordinates. Declared once under `coordinates.source`, so a new GBFS city needs no
+    # downloader code and no separate refresh entry to keep in sync.
+    source = (config.get("coordinates") or {}).get("source") or {}
+    if source.get("type") == "gbfs":
+        download_station_information(context, source["url"])
 
     # --------------------------------------------------
     # 1️⃣ Try to import a custom script if it exists

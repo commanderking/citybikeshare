@@ -1,8 +1,6 @@
 name: mexico_city
 system_name: mexico_city_bikeshare
 source_url: "https://ecobici.cdmx.gob.mx/en/open-data/"
-# GBFS discovery doc; download stage fetches station_information into metadata/ for coordinates.
-gbfs_url: "https://gbfs.mex.lyftbikes.com/gbfs/gbfs.json"
 aws_sync: false
 file_matcher:
   - ".csv"
@@ -60,10 +58,6 @@ time_formats:
 
 read_csv_options:
   encoding: "utf8-lossy"
-# Merge any freshly-downloaded GBFS station_information.json into the committed cumulative
-# coordinates before transform reads them (best-effort; committed table is the durable fallback).
-pre_transform_pipeline:
-  - refresh_station_coordinates
 processing_pipeline:
   - rename_columns
   - remove_invalid_rows
@@ -94,6 +88,12 @@ corrupt_time_files:
 # point. GBFS never listed the already-gone `unmapped_station_ids`, so those still get no coord;
 # that's expected. n_obs is a placeholder (point-in-time snapshot), so drop the canonicalize floor.
 coordinates:
+  # source = where coords come from + how to keep them: the GBFS feed is fetched during sync and
+  # merged into config/station_coordinates/mexico_city.csv during transform (auto — declared once
+  # here, no separate gbfs_url / pre-transform step). strategy/station_file below is the read path.
+  source:
+    type: gbfs
+    url: "https://gbfs.mex.lyftbikes.com/gbfs/gbfs.json"
   strategy: station_file
   key: name
   bounding_box: [19.2, 19.6, -99.3, -98.9]   # lat_min, lat_max, lng_min, lng_max — CDMX

@@ -24,9 +24,9 @@ def _resolve_feed_url(gbfs_url: str, feed_name: str) -> str:
 def download_station_information(context: PipelineContext, gbfs_url: str) -> None:
     """Fetch the live station list into ``metadata/station_information.json``.
 
-    ``gbfs_url`` is the system's ``gbfs.json`` discovery document. The pre-transform
-    ``refresh_station_coordinates`` step merges the saved snapshot into the committed,
-    cumulative coordinates (never-drop), so stations survive after they leave this live feed.
+    ``gbfs_url`` is the system's ``gbfs.json`` discovery document. Transform then merges the
+    saved snapshot into the committed, cumulative coordinates (never-drop, auto-triggered by the
+    city's ``coordinates.source``), so stations survive after they leave this live feed.
     """
     info_url = _resolve_feed_url(gbfs_url, "station_information")
     dest = context.metadata_directory / "station_information.json"

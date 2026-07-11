@@ -406,6 +406,11 @@ def generate_station_coords(context: PipelineContext):
     if strategy == "station_file":
         _generate_from_station_file(context, config, coords_cfg)
         return
+    if not strategy:
+        # A source-only block (e.g. `coordinates.source` for GBFS fetch/refresh) with the read
+        # path not yet wired — the committed table still builds; analysis just skips for now.
+        print(f"⏭️  {city}: `coordinates` has a source but no read `strategy`; skipping analysis")
+        return
     if strategy != "inline":
         reason = coords_cfg.get("reason", f"strategy '{strategy}' not yet supported")
         print(f"⏭️  {city}: coordinate strategy '{strategy}' — {reason}")
