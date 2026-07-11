@@ -21,7 +21,6 @@ def generate_visuals(context: PipelineContext):
       - volume_by_month   : (year, month) -> trips
       - by_hour           : (year, hour 0-23) -> trips
       - by_dow            : (year, dow 1=Mon..7=Sun) -> trips
-      - heatmap           : (year, dow, hour) -> trips
       - stations          : (year, station) -> start_trips, end_trips, total_trips
                             (subsumes top-N and the active-station count)
       - round_trip_share  : (year) -> trips, round_trips, round_trip_share
@@ -59,17 +58,16 @@ def generate_visuals(context: PipelineContext):
     volume_by_month = (
         lf.group_by("year", "month").agg(pl.len().alias("trips")).sort("year", "month")
     )
-    by_hour = lf.group_by("year", "hour").agg(pl.len().alias("trips")).sort("year", "hour")
-    by_dow = lf.group_by("year", "dow").agg(pl.len().alias("trips")).sort("year", "dow")
-    heatmap = (
-        lf.group_by("year", "dow", "hour")
-        .agg(pl.len().alias("trips"))
-        .sort("year", "dow", "hour")
+    by_hour = (
+        lf.group_by("year", "hour").agg(pl.len().alias("trips")).sort("year", "hour")
     )
+    by_dow = lf.group_by("year", "dow").agg(pl.len().alias("trips")).sort("year", "dow")
 
     # Per-station departures and arrivals. Full join keeps stations that only ever
     # appear on one side; total_trips = "either start or end" appearances.
-    starts = lf.group_by("year", "start_station_name").agg(pl.len().alias("start_trips"))
+    starts = lf.group_by("year", "start_station_name").agg(
+        pl.len().alias("start_trips")
+    )
     ends = lf.group_by("year", "end_station_name").agg(pl.len().alias("end_trips"))
     stations = (
         starts.join(
@@ -83,7 +81,9 @@ def generate_visuals(context: PipelineContext):
         .with_columns(
             [pl.col("start_trips").fill_null(0), pl.col("end_trips").fill_null(0)]
         )
-        .with_columns((pl.col("start_trips") + pl.col("end_trips")).alias("total_trips"))
+        .with_columns(
+            (pl.col("start_trips") + pl.col("end_trips")).alias("total_trips")
+        )
         .filter(pl.col("station").is_not_null())
         .sort(["year", "total_trips"], descending=[False, True])
     )
@@ -109,12 +109,16 @@ def generate_visuals(context: PipelineContext):
     duration_bands = (
         lf.filter(valid_dur)
         .with_columns(
-            pl.col("duration").cut(_DURATION_BREAKS, labels=_DURATION_LABELS).alias("band")
+            pl.col("duration")
+            .cut(_DURATION_BREAKS, labels=_DURATION_LABELS)
+            .alias("band")
         )
         .group_by("year", "band")
         .agg(pl.len().alias("trips"))
         .with_columns(
-            (pl.col("trips") / pl.col("trips").sum().over("year")).round(4).alias("share")
+            (pl.col("trips") / pl.col("trips").sum().over("year"))
+            .round(4)
+            .alias("share")
         )
         .with_columns(pl.col("band").cast(pl.String))
         .sort("year")
@@ -124,7 +128,6 @@ def generate_visuals(context: PipelineContext):
         "volume_by_month": volume_by_month,
         "by_hour": by_hour,
         "by_dow": by_dow,
-        "heatmap": heatmap,
         "stations": stations,
         "round_trip_share": round_trip_share,
         "duration_bands": duration_bands,

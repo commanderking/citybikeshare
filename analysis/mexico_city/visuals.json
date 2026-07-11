@@ -20868,16 +20868,16 @@
       "year": 2012
     },
     {
-      "end_trips": 853,
-      "start_trips": 969,
-      "station": "CE-063 Nuevo León - Laredo",
+      "end_trips": 966,
+      "start_trips": 856,
+      "station": "CE-029 Reforma - Bucareli",
       "total_trips": 1822,
       "year": 2012
     },
     {
-      "end_trips": 966,
-      "start_trips": 856,
-      "station": "CE-029 Reforma - Bucareli",
+      "end_trips": 853,
+      "start_trips": 969,
+      "station": "CE-063 Nuevo León - Laredo",
       "total_trips": 1822,
       "year": 2012
     },
@@ -21162,9 +21162,9 @@
       "year": 2012
     },
     {
-      "end_trips": 1,
-      "start_trips": 1,
-      "station": "Unknown (id 1000)",
+      "end_trips": 2,
+      "start_trips": 0,
+      "station": "Unknown (id 1002)",
       "total_trips": 2,
       "year": 2012
     },
@@ -21176,9 +21176,9 @@
       "year": 2012
     },
     {
-      "end_trips": 2,
-      "start_trips": 0,
-      "station": "Unknown (id 1002)",
+      "end_trips": 1,
+      "start_trips": 1,
+      "station": "Unknown (id 1000)",
       "total_trips": 2,
       "year": 2012
     },
@@ -22275,16 +22275,16 @@
       "year": 2013
     },
     {
-      "end_trips": 20283,
-      "start_trips": 17587,
-      "station": "CE-100 20 de Noviembre-Mesones",
+      "end_trips": 20303,
+      "start_trips": 17567,
+      "station": "CE-110 Dr. Valenzuela-Dr. Río de la loza",
       "total_trips": 37870,
       "year": 2013
     },
     {
-      "end_trips": 20303,
-      "start_trips": 17567,
-      "station": "CE-110 Dr. Valenzuela-Dr. Río de la loza",
+      "end_trips": 20283,
+      "start_trips": 17587,
+      "station": "CE-100 20 de Noviembre-Mesones",
       "total_trips": 37870,
       "year": 2013
     },
@@ -28820,16 +28820,16 @@
       "year": 2016
     },
     {
-      "end_trips": 27345,
-      "start_trips": 32392,
-      "station": "CE-319 Diagonal San Antonio-Luz Saviñón",
+      "end_trips": 30570,
+      "start_trips": 29167,
+      "station": "CE-064 Sonora - Ámsterdam",
       "total_trips": 59737,
       "year": 2016
     },
     {
-      "end_trips": 30570,
-      "start_trips": 29167,
-      "station": "CE-064 Sonora - Ámsterdam",
+      "end_trips": 27345,
+      "start_trips": 32392,
+      "station": "CE-319 Diagonal San Antonio-Luz Saviñón",
       "total_trips": 59737,
       "year": 2016
     },
@@ -30745,16 +30745,16 @@
       "year": 2016
     },
     {
-      "end_trips": 7841,
-      "start_trips": 8429,
-      "station": "CE-191 Gobernador Rafael Rebollar-Gobernador Vicente Eguía",
+      "end_trips": 8009,
+      "start_trips": 8261,
+      "station": "CE-219 Esopo-FC de Cuernavaca",
       "total_trips": 16270,
       "year": 2016
     },
     {
-      "end_trips": 8009,
-      "start_trips": 8261,
-      "station": "CE-219 Esopo-FC de Cuernavaca",
+      "end_trips": 7841,
+      "start_trips": 8429,
+      "station": "CE-191 Gobernador Rafael Rebollar-Gobernador Vicente Eguía",
       "total_trips": 16270,
       "year": 2016
     },
@@ -34588,6 +34588,20 @@
       "year": 2017
     },
     {
+      "end_trips": 3,
+      "start_trips": 2,
+      "station": "CE-497 Manuel Carpio - Plan de Ayala",
+      "total_trips": 5,
+      "year": 2017
+    },
+    {
+      "end_trips": 2,
+      "start_trips": 3,
+      "station": "CE-492 Lago Cuitzeo - Felipe Carrillo Puerto",
+      "total_trips": 5,
+      "year": 2017
+    },
+    {
       "end_trips": 2,
       "start_trips": 3,
       "station": "CE-485 Lago de Pátzcuaro - Marina Nacional",
@@ -34597,21 +34611,7 @@
     {
       "end_trips": 3,
       "start_trips": 2,
-      "station": "CE-497 Manuel Carpio - Plan de Ayala",
-      "total_trips": 5,
-      "year": 2017
-    },
-    {
-      "end_trips": 3,
-      "start_trips": 2,
       "station": "CE-481 Lago Garda - Mariano Escobedo",
-      "total_trips": 5,
-      "year": 2017
-    },
-    {
-      "end_trips": 2,
-      "start_trips": 3,
-      "station": "CE-492 Lago Cuitzeo - Felipe Carrillo Puerto",
       "total_trips": 5,
       "year": 2017
     },
@@ -34625,14 +34625,14 @@
     {
       "end_trips": 1,
       "start_trips": 2,
-      "station": "CE-537 Fresno - Clavel",
+      "station": "CE-004 Río Nilo - Río Panuco",
       "total_trips": 3,
       "year": 2017
     },
     {
-      "end_trips": 1,
-      "start_trips": 2,
-      "station": "CE-004 Río Nilo - Río Panuco",
+      "end_trips": 2,
+      "start_trips": 1,
+      "station": "CE-546 Salvador Díaz Mirón - Santa María la Ribera",
       "total_trips": 3,
       "year": 2017
     },
@@ -34644,16 +34644,16 @@
       "year": 2017
     },
     {
-      "end_trips": 2,
-      "start_trips": 1,
-      "station": "CE-498 de los Maestros - Plan de Agua Prieta",
+      "end_trips": 1,
+      "start_trips": 2,
+      "station": "CE-537 Fresno - Clavel",
       "total_trips": 3,
       "year": 2017
     },
     {
       "end_trips": 2,
       "start_trips": 1,
-      "station": "CE-546 Salvador Díaz Mirón - Santa María la Ribera",
+      "station": "CE-498 de los Maestros - Plan de Agua Prieta",
       "total_trips": 3,
       "year": 2017
     },
@@ -34674,35 +34674,7 @@
     {
       "end_trips": 1,
       "start_trips": 1,
-      "station": "CE-496 Maestro Rural - José Parres",
-      "total_trips": 2,
-      "year": 2017
-    },
-    {
-      "end_trips": 1,
-      "start_trips": 1,
-      "station": "CE-502 Mar Mediterráneo - Callejón de la Zanja",
-      "total_trips": 2,
-      "year": 2017
-    },
-    {
-      "end_trips": 1,
-      "start_trips": 1,
-      "station": "CE-483 Colegio Salesiano - Marina Nacional",
-      "total_trips": 2,
-      "year": 2017
-    },
-    {
-      "end_trips": 1,
-      "start_trips": 1,
-      "station": "CE-230 Edgar Allan Poe - Carlos Dickens",
-      "total_trips": 2,
-      "year": 2017
-    },
-    {
-      "end_trips": 1,
-      "start_trips": 1,
-      "station": "CE-069 Michoacán - Ámsterdam",
+      "station": "CE-536 Fresno - Eulalia Guzmán (Eje 2 Norte)",
       "total_trips": 2,
       "year": 2017
     },
@@ -34716,7 +34688,35 @@
     {
       "end_trips": 1,
       "start_trips": 1,
-      "station": "CE-536 Fresno - Eulalia Guzmán (Eje 2 Norte)",
+      "station": "CE-496 Maestro Rural - José Parres",
+      "total_trips": 2,
+      "year": 2017
+    },
+    {
+      "end_trips": 1,
+      "start_trips": 1,
+      "station": "CE-230 Edgar Allan Poe - Carlos Dickens",
+      "total_trips": 2,
+      "year": 2017
+    },
+    {
+      "end_trips": 1,
+      "start_trips": 1,
+      "station": "CE-483 Colegio Salesiano - Marina Nacional",
+      "total_trips": 2,
+      "year": 2017
+    },
+    {
+      "end_trips": 1,
+      "start_trips": 1,
+      "station": "CE-069 Michoacán - Ámsterdam",
+      "total_trips": 2,
+      "year": 2017
+    },
+    {
+      "end_trips": 1,
+      "start_trips": 1,
+      "station": "CE-502 Mar Mediterráneo - Callejón de la Zanja",
       "total_trips": 2,
       "year": 2017
     },
@@ -34737,14 +34737,14 @@
     {
       "end_trips": 0,
       "start_trips": 1,
-      "station": "CE-495 Amado Nervo - de los Maestros",
+      "station": "CE-622 Fernando Montes de Oca - Eje 6 Sur",
       "total_trips": 1,
       "year": 2017
     },
     {
       "end_trips": 0,
       "start_trips": 1,
-      "station": "CE-622 Fernando Montes de Oca - Eje 6 Sur",
+      "station": "CE-495 Amado Nervo - de los Maestros",
       "total_trips": 1,
       "year": 2017
     },
@@ -40489,16 +40489,16 @@
       "year": 2019
     },
     {
-      "end_trips": 8848,
-      "start_trips": 10419,
-      "station": "CE-202 Calderón de la Barca-Av. Homero",
+      "end_trips": 10041,
+      "start_trips": 9226,
+      "station": "CE-080 Nuevo León - Aguascalientes",
       "total_trips": 19267,
       "year": 2019
     },
     {
-      "end_trips": 10041,
-      "start_trips": 9226,
-      "station": "CE-080 Nuevo León - Aguascalientes",
+      "end_trips": 8848,
+      "start_trips": 10419,
+      "station": "CE-202 Calderón de la Barca-Av. Homero",
       "total_trips": 19267,
       "year": 2019
     },
@@ -43499,16 +43499,16 @@
       "year": 2020
     },
     {
-      "end_trips": 5735,
-      "start_trips": 5926,
-      "station": "CE-298 Romero de Terreros-Gabriel Mancera",
+      "end_trips": 6102,
+      "start_trips": 5559,
+      "station": "CE-046 Durango - Salamanca",
       "total_trips": 11661,
       "year": 2020
     },
     {
-      "end_trips": 6102,
-      "start_trips": 5559,
-      "station": "CE-046 Durango - Salamanca",
+      "end_trips": 5735,
+      "start_trips": 5926,
+      "station": "CE-298 Romero de Terreros-Gabriel Mancera",
       "total_trips": 11661,
       "year": 2020
     },
@@ -44283,16 +44283,16 @@
       "year": 2020
     },
     {
-      "end_trips": 3130,
-      "start_trips": 4096,
-      "station": "CE-114 Lucerna-Abraham González",
+      "end_trips": 3231,
+      "start_trips": 3995,
+      "station": "CE-248 Shakespeare-Lafayette",
       "total_trips": 7226,
       "year": 2020
     },
     {
-      "end_trips": 3231,
-      "start_trips": 3995,
-      "station": "CE-248 Shakespeare-Lafayette",
+      "end_trips": 3130,
+      "start_trips": 4096,
+      "station": "CE-114 Lucerna-Abraham González",
       "total_trips": 7226,
       "year": 2020
     },
@@ -44325,16 +44325,16 @@
       "year": 2020
     },
     {
-      "end_trips": 3371,
-      "start_trips": 3611,
-      "station": "CE-181 Benjamín Franklin - Ometusco",
+      "end_trips": 3016,
+      "start_trips": 3966,
+      "station": "CE-182 Progreso-Astrónomos",
       "total_trips": 6982,
       "year": 2020
     },
     {
-      "end_trips": 3016,
-      "start_trips": 3966,
-      "station": "CE-182 Progreso-Astrónomos",
+      "end_trips": 3371,
+      "start_trips": 3611,
+      "station": "CE-181 Benjamín Franklin - Ometusco",
       "total_trips": 6982,
       "year": 2020
     },
@@ -47965,16 +47965,16 @@
       "year": 2021
     },
     {
-      "end_trips": 1798,
-      "start_trips": 3859,
-      "station": "CE-483 Colegio Salesiano - Marina Nacional",
+      "end_trips": 2713,
+      "start_trips": 2944,
+      "station": "CE-154 Tuxpan-Tlaxcala",
       "total_trips": 5657,
       "year": 2021
     },
     {
-      "end_trips": 2713,
-      "start_trips": 2944,
-      "station": "CE-154 Tuxpan-Tlaxcala",
+      "end_trips": 1798,
+      "start_trips": 3859,
+      "station": "CE-483 Colegio Salesiano - Marina Nacional",
       "total_trips": 5657,
       "year": 2021
     },
@@ -53810,16 +53810,16 @@
       "year": 2023
     },
     {
-      "end_trips": 16101,
-      "start_trips": 17065,
-      "station": "CE-031 Hamburgo - Insurgentes",
+      "end_trips": 16976,
+      "start_trips": 16190,
+      "station": "CE-049 Mazatlán - Juan de la Barrera",
       "total_trips": 33166,
       "year": 2023
     },
     {
-      "end_trips": 16976,
-      "start_trips": 16190,
-      "station": "CE-049 Mazatlán - Juan de la Barrera",
+      "end_trips": 16101,
+      "start_trips": 17065,
+      "station": "CE-031 Hamburgo - Insurgentes",
       "total_trips": 33166,
       "year": 2023
     },
@@ -55805,16 +55805,16 @@
       "year": 2023
     },
     {
-      "end_trips": 504,
-      "start_trips": 492,
-      "station": "CE-692 Presidente Carranza - Francisco Sosa",
+      "end_trips": 517,
+      "start_trips": 479,
+      "station": "CE-647 Antillas - Nevado",
       "total_trips": 996,
       "year": 2023
     },
     {
-      "end_trips": 517,
-      "start_trips": 479,
-      "station": "CE-647 Antillas - Nevado",
+      "end_trips": 504,
+      "start_trips": 492,
+      "station": "CE-692 Presidente Carranza - Francisco Sosa",
       "total_trips": 996,
       "year": 2023
     },
@@ -67817,16 +67817,16 @@
       "year": 2026
     },
     {
-      "end_trips": 12459,
-      "start_trips": 12585,
-      "station": "CE-306 Dakota-Minnesota",
+      "end_trips": 12300,
+      "start_trips": 12744,
+      "station": "CE-686 Vito Alessio Robles - Universidad",
       "total_trips": 25044,
       "year": 2026
     },
     {
-      "end_trips": 12300,
-      "start_trips": 12744,
-      "station": "CE-686 Vito Alessio Robles - Universidad",
+      "end_trips": 12459,
+      "start_trips": 12585,
+      "station": "CE-306 Dakota-Minnesota",
       "total_trips": 25044,
       "year": 2026
     },
@@ -68839,13 +68839,6 @@
       "year": 2026
     },
     {
-      "end_trips": 8668,
-      "start_trips": 8864,
-      "station": "CE-550 Sor Juana Ines de la Cruz - Fresno",
-      "total_trips": 17532,
-      "year": 2026
-    },
-    {
       "end_trips": 8471,
       "start_trips": 9061,
       "station": "CE-323 Concepción Beistegui-Gabriel Mancera",
@@ -68856,6 +68849,13 @@
       "end_trips": 8110,
       "start_trips": 9422,
       "station": "CE-597 Diagonal San Antonio - Icacos",
+      "total_trips": 17532,
+      "year": 2026
+    },
+    {
+      "end_trips": 8668,
+      "start_trips": 8864,
+      "station": "CE-550 Sor Juana Ines de la Cruz - Fresno",
       "total_trips": 17532,
       "year": 2026
     },

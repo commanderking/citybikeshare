@@ -8,6 +8,7 @@ Usage examples:
 """
 
 from pathlib import Path
+from concurrent.futures import ThreadPoolExecutor, as_completed
 import typer
 from citybikeshare.etl.download import download_city_data
 from citybikeshare.etl.extract import extract_city_data
@@ -134,6 +135,32 @@ def build_station_coordinates(
     builder(context)
 
 
+def run_city_analysis(context, duration_buckets_only: bool = False) -> None:
+    """Run the per-city analysis steps in order. ``duration_buckets_only`` limits the run to the
+    duration-bucket step (the analyze-all ``--duration_buckets`` fast path)."""
+    if duration_buckets_only:
+        generate_duration_buckets(context)
+        return
+    summarize_city(context)
+    generate_duration_buckets(context)
+    generate_visuals(context)
+    generate_station_coords(context)
+    canonicalize_station_coords(context)
+    count_station_trips(context)
+
+
+def analyze_single_city(
+    city: str, duration_buckets_only: bool
+) -> tuple[str, bool, str]:
+    """Analyze one city, isolating failures so one bad city can't abort the whole run.
+    Returns (city, success, message)."""
+    try:
+        run_city_analysis(build_context(city), duration_buckets_only)
+        return (city, True, "✅ Finished successfully")
+    except Exception as e:
+        return (city, False, f"❌ Failed: {e}")
+
+
 @app.command()
 def analyze(
     city: str = typer.Argument(..., help="City name to summarize"),
@@ -141,13 +168,7 @@ def analyze(
     """
     Analyze transformed Parquet data and generate per-year summary JSON.
     """
-    context = build_context(city)
-    summarize_city(context)
-    generate_duration_buckets(context)
-    generate_visuals(context)
-    generate_station_coords(context)
-    canonicalize_station_coords(context)
-    count_station_trips(context)
+    run_city_analysis(build_context(city))
 
 
 @app.command()
@@ -157,23 +178,47 @@ def analyze_all(
         "--duration_buckets",
         help="Only generate duration bucket analysis",
     ),
+    max_workers: int = typer.Option(
+        4,
+        "--max-workers",
+        "-w",
+        help="Number of cities to analyze in parallel.",
+    ),
 ):
-    for city_dir in (Path("output")).iterdir():
-        if not city_dir.is_dir():
-            continue
-        context = build_context(city_dir.name)
+    """Analyze every transformed city (a dir under output/) in parallel."""
+    cities = sorted(d.name for d in Path("output").iterdir() if d.is_dir())
+    typer.echo(f"🌍 Found {len(cities)} transformed cities: {', '.join(cities)}\n")
 
-        if duration_buckets:
-            # Only run duration buckets if flag passed
-            generate_duration_buckets(context)
-        else:
-            # Default: run all per-city analyses
-            summarize_city(context)
-            generate_duration_buckets(context)
-            generate_visuals(context)
-            generate_station_coords(context)
-            canonicalize_station_coords(context)
-            count_station_trips(context)
+    results = []
+    with ThreadPoolExecutor(max_workers=max_workers) as executor:
+        future_to_city = {
+            executor.submit(analyze_single_city, city, duration_buckets): city
+            for city in cities
+        }
+        for future in as_completed(future_to_city):
+            city = future_to_city[future]
+            try:
+                city, success, message = future.result()
+                color = typer.colors.GREEN if success else typer.colors.RED
+                typer.secho(f"{city}: {message}", fg=color)
+                results.append((city, success))
+            except Exception as e:
+                typer.secho(
+                    f"{city}: ❌ Unexpected failure: {e}", fg=typer.colors.RED
+                )
+                results.append((city, False))
+
+    # 🧾 Summary
+    total = len(results)
+    failed = [c for c, ok in results if not ok]
+    typer.echo("\n🧮 Summary:")
+    typer.echo(f"  Total: {total}")
+    typer.echo(f"  Successful: {total - len(failed)}")
+    typer.echo(f"  Failed: {len(failed)}")
+    if failed:
+        typer.echo(f"  ❌ Failed cities: {', '.join(failed)}")
+    else:
+        typer.echo("  ✅ All cities analyzed successfully!")
 
 
 @app.command()
