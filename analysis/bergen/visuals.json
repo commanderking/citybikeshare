@@ -1,0 +1,8868 @@
+{
+  "by_dow": [
+    {
+      "dow": 1,
+      "trips": 16918,
+      "year": 2018
+    },
+    {
+      "dow": 2,
+      "trips": 17686,
+      "year": 2018
+    },
+    {
+      "dow": 3,
+      "trips": 16480,
+      "year": 2018
+    },
+    {
+      "dow": 4,
+      "trips": 16268,
+      "year": 2018
+    },
+    {
+      "dow": 5,
+      "trips": 15850,
+      "year": 2018
+    },
+    {
+      "dow": 6,
+      "trips": 10716,
+      "year": 2018
+    },
+    {
+      "dow": 7,
+      "trips": 9826,
+      "year": 2018
+    },
+    {
+      "dow": 1,
+      "trips": 149290,
+      "year": 2019
+    },
+    {
+      "dow": 2,
+      "trips": 156953,
+      "year": 2019
+    },
+    {
+      "dow": 3,
+      "trips": 150485,
+      "year": 2019
+    },
+    {
+      "dow": 4,
+      "trips": 150365,
+      "year": 2019
+    },
+    {
+      "dow": 5,
+      "trips": 143011,
+      "year": 2019
+    },
+    {
+      "dow": 6,
+      "trips": 102463,
+      "year": 2019
+    },
+    {
+      "dow": 7,
+      "trips": 87437,
+      "year": 2019
+    },
+    {
+      "dow": 1,
+      "trips": 151500,
+      "year": 2020
+    },
+    {
+      "dow": 2,
+      "trips": 170183,
+      "year": 2020
+    },
+    {
+      "dow": 3,
+      "trips": 181241,
+      "year": 2020
+    },
+    {
+      "dow": 4,
+      "trips": 163821,
+      "year": 2020
+    },
+    {
+      "dow": 5,
+      "trips": 158148,
+      "year": 2020
+    },
+    {
+      "dow": 6,
+      "trips": 114703,
+      "year": 2020
+    },
+    {
+      "dow": 7,
+      "trips": 80637,
+      "year": 2020
+    },
+    {
+      "dow": 1,
+      "trips": 102285,
+      "year": 2021
+    },
+    {
+      "dow": 2,
+      "trips": 111251,
+      "year": 2021
+    },
+    {
+      "dow": 3,
+      "trips": 112633,
+      "year": 2021
+    },
+    {
+      "dow": 4,
+      "trips": 105664,
+      "year": 2021
+    },
+    {
+      "dow": 5,
+      "trips": 99087,
+      "year": 2021
+    },
+    {
+      "dow": 6,
+      "trips": 69472,
+      "year": 2021
+    },
+    {
+      "dow": 7,
+      "trips": 56491,
+      "year": 2021
+    },
+    {
+      "dow": 1,
+      "trips": 89804,
+      "year": 2022
+    },
+    {
+      "dow": 2,
+      "trips": 89722,
+      "year": 2022
+    },
+    {
+      "dow": 3,
+      "trips": 93649,
+      "year": 2022
+    },
+    {
+      "dow": 4,
+      "trips": 88874,
+      "year": 2022
+    },
+    {
+      "dow": 5,
+      "trips": 81202,
+      "year": 2022
+    },
+    {
+      "dow": 6,
+      "trips": 52013,
+      "year": 2022
+    },
+    {
+      "dow": 7,
+      "trips": 40052,
+      "year": 2022
+    },
+    {
+      "dow": 1,
+      "trips": 73375,
+      "year": 2023
+    },
+    {
+      "dow": 2,
+      "trips": 78956,
+      "year": 2023
+    },
+    {
+      "dow": 3,
+      "trips": 78856,
+      "year": 2023
+    },
+    {
+      "dow": 4,
+      "trips": 79827,
+      "year": 2023
+    },
+    {
+      "dow": 5,
+      "trips": 73968,
+      "year": 2023
+    },
+    {
+      "dow": 6,
+      "trips": 45737,
+      "year": 2023
+    },
+    {
+      "dow": 7,
+      "trips": 37142,
+      "year": 2023
+    },
+    {
+      "dow": 1,
+      "trips": 68205,
+      "year": 2024
+    },
+    {
+      "dow": 2,
+      "trips": 71595,
+      "year": 2024
+    },
+    {
+      "dow": 3,
+      "trips": 70811,
+      "year": 2024
+    },
+    {
+      "dow": 4,
+      "trips": 66891,
+      "year": 2024
+    },
+    {
+      "dow": 5,
+      "trips": 59086,
+      "year": 2024
+    },
+    {
+      "dow": 6,
+      "trips": 35977,
+      "year": 2024
+    },
+    {
+      "dow": 7,
+      "trips": 29286,
+      "year": 2024
+    },
+    {
+      "dow": 1,
+      "trips": 47439,
+      "year": 2025
+    },
+    {
+      "dow": 2,
+      "trips": 51450,
+      "year": 2025
+    },
+    {
+      "dow": 3,
+      "trips": 54659,
+      "year": 2025
+    },
+    {
+      "dow": 4,
+      "trips": 50335,
+      "year": 2025
+    },
+    {
+      "dow": 5,
+      "trips": 45579,
+      "year": 2025
+    },
+    {
+      "dow": 6,
+      "trips": 27958,
+      "year": 2025
+    },
+    {
+      "dow": 7,
+      "trips": 22676,
+      "year": 2025
+    },
+    {
+      "dow": 1,
+      "trips": 16583,
+      "year": 2026
+    },
+    {
+      "dow": 2,
+      "trips": 19359,
+      "year": 2026
+    },
+    {
+      "dow": 3,
+      "trips": 19332,
+      "year": 2026
+    },
+    {
+      "dow": 4,
+      "trips": 18571,
+      "year": 2026
+    },
+    {
+      "dow": 5,
+      "trips": 15614,
+      "year": 2026
+    },
+    {
+      "dow": 6,
+      "trips": 9342,
+      "year": 2026
+    },
+    {
+      "dow": 7,
+      "trips": 7469,
+      "year": 2026
+    }
+  ],
+  "by_hour": [
+    {
+      "hour": 2,
+      "trips": 1,
+      "year": 2018
+    },
+    {
+      "hour": 4,
+      "trips": 896,
+      "year": 2018
+    },
+    {
+      "hour": 5,
+      "trips": 4365,
+      "year": 2018
+    },
+    {
+      "hour": 6,
+      "trips": 7101,
+      "year": 2018
+    },
+    {
+      "hour": 7,
+      "trips": 5658,
+      "year": 2018
+    },
+    {
+      "hour": 8,
+      "trips": 4214,
+      "year": 2018
+    },
+    {
+      "hour": 9,
+      "trips": 4526,
+      "year": 2018
+    },
+    {
+      "hour": 10,
+      "trips": 5113,
+      "year": 2018
+    },
+    {
+      "hour": 11,
+      "trips": 5778,
+      "year": 2018
+    },
+    {
+      "hour": 12,
+      "trips": 7031,
+      "year": 2018
+    },
+    {
+      "hour": 13,
+      "trips": 9605,
+      "year": 2018
+    },
+    {
+      "hour": 14,
+      "trips": 11044,
+      "year": 2018
+    },
+    {
+      "hour": 15,
+      "trips": 9034,
+      "year": 2018
+    },
+    {
+      "hour": 16,
+      "trips": 7369,
+      "year": 2018
+    },
+    {
+      "hour": 17,
+      "trips": 6214,
+      "year": 2018
+    },
+    {
+      "hour": 18,
+      "trips": 5441,
+      "year": 2018
+    },
+    {
+      "hour": 19,
+      "trips": 4022,
+      "year": 2018
+    },
+    {
+      "hour": 20,
+      "trips": 3494,
+      "year": 2018
+    },
+    {
+      "hour": 21,
+      "trips": 2388,
+      "year": 2018
+    },
+    {
+      "hour": 22,
+      "trips": 450,
+      "year": 2018
+    },
+    {
+      "hour": 0,
+      "trips": 534,
+      "year": 2019
+    },
+    {
+      "hour": 1,
+      "trips": 398,
+      "year": 2019
+    },
+    {
+      "hour": 2,
+      "trips": 227,
+      "year": 2019
+    },
+    {
+      "hour": 3,
+      "trips": 236,
+      "year": 2019
+    },
+    {
+      "hour": 4,
+      "trips": 11386,
+      "year": 2019
+    },
+    {
+      "hour": 5,
+      "trips": 43745,
+      "year": 2019
+    },
+    {
+      "hour": 6,
+      "trips": 62887,
+      "year": 2019
+    },
+    {
+      "hour": 7,
+      "trips": 48561,
+      "year": 2019
+    },
+    {
+      "hour": 8,
+      "trips": 37828,
+      "year": 2019
+    },
+    {
+      "hour": 9,
+      "trips": 41218,
+      "year": 2019
+    },
+    {
+      "hour": 10,
+      "trips": 45706,
+      "year": 2019
+    },
+    {
+      "hour": 11,
+      "trips": 50888,
+      "year": 2019
+    },
+    {
+      "hour": 12,
+      "trips": 62976,
+      "year": 2019
+    },
+    {
+      "hour": 13,
+      "trips": 85610,
+      "year": 2019
+    },
+    {
+      "hour": 14,
+      "trips": 92958,
+      "year": 2019
+    },
+    {
+      "hour": 15,
+      "trips": 79383,
+      "year": 2019
+    },
+    {
+      "hour": 16,
+      "trips": 66587,
+      "year": 2019
+    },
+    {
+      "hour": 17,
+      "trips": 58386,
+      "year": 2019
+    },
+    {
+      "hour": 18,
+      "trips": 50832,
+      "year": 2019
+    },
+    {
+      "hour": 19,
+      "trips": 39715,
+      "year": 2019
+    },
+    {
+      "hour": 20,
+      "trips": 31244,
+      "year": 2019
+    },
+    {
+      "hour": 21,
+      "trips": 23255,
+      "year": 2019
+    },
+    {
+      "hour": 22,
+      "trips": 4691,
+      "year": 2019
+    },
+    {
+      "hour": 23,
+      "trips": 753,
+      "year": 2019
+    },
+    {
+      "hour": 0,
+      "trips": 22,
+      "year": 2020
+    },
+    {
+      "hour": 1,
+      "trips": 6,
+      "year": 2020
+    },
+    {
+      "hour": 2,
+      "trips": 8,
+      "year": 2020
+    },
+    {
+      "hour": 3,
+      "trips": 530,
+      "year": 2020
+    },
+    {
+      "hour": 4,
+      "trips": 12707,
+      "year": 2020
+    },
+    {
+      "hour": 5,
+      "trips": 43113,
+      "year": 2020
+    },
+    {
+      "hour": 6,
+      "trips": 60320,
+      "year": 2020
+    },
+    {
+      "hour": 7,
+      "trips": 50809,
+      "year": 2020
+    },
+    {
+      "hour": 8,
+      "trips": 39294,
+      "year": 2020
+    },
+    {
+      "hour": 9,
+      "trips": 44002,
+      "year": 2020
+    },
+    {
+      "hour": 10,
+      "trips": 50142,
+      "year": 2020
+    },
+    {
+      "hour": 11,
+      "trips": 57112,
+      "year": 2020
+    },
+    {
+      "hour": 12,
+      "trips": 70320,
+      "year": 2020
+    },
+    {
+      "hour": 13,
+      "trips": 92051,
+      "year": 2020
+    },
+    {
+      "hour": 14,
+      "trips": 102124,
+      "year": 2020
+    },
+    {
+      "hour": 15,
+      "trips": 89990,
+      "year": 2020
+    },
+    {
+      "hour": 16,
+      "trips": 76559,
+      "year": 2020
+    },
+    {
+      "hour": 17,
+      "trips": 64807,
+      "year": 2020
+    },
+    {
+      "hour": 18,
+      "trips": 53610,
+      "year": 2020
+    },
+    {
+      "hour": 19,
+      "trips": 43325,
+      "year": 2020
+    },
+    {
+      "hour": 20,
+      "trips": 33350,
+      "year": 2020
+    },
+    {
+      "hour": 21,
+      "trips": 24379,
+      "year": 2020
+    },
+    {
+      "hour": 22,
+      "trips": 8897,
+      "year": 2020
+    },
+    {
+      "hour": 23,
+      "trips": 2756,
+      "year": 2020
+    },
+    {
+      "hour": 0,
+      "trips": 3,
+      "year": 2021
+    },
+    {
+      "hour": 1,
+      "trips": 4,
+      "year": 2021
+    },
+    {
+      "hour": 3,
+      "trips": 1723,
+      "year": 2021
+    },
+    {
+      "hour": 4,
+      "trips": 8232,
+      "year": 2021
+    },
+    {
+      "hour": 5,
+      "trips": 32052,
+      "year": 2021
+    },
+    {
+      "hour": 6,
+      "trips": 47363,
+      "year": 2021
+    },
+    {
+      "hour": 7,
+      "trips": 36876,
+      "year": 2021
+    },
+    {
+      "hour": 8,
+      "trips": 29140,
+      "year": 2021
+    },
+    {
+      "hour": 9,
+      "trips": 29819,
+      "year": 2021
+    },
+    {
+      "hour": 10,
+      "trips": 32671,
+      "year": 2021
+    },
+    {
+      "hour": 11,
+      "trips": 35946,
+      "year": 2021
+    },
+    {
+      "hour": 12,
+      "trips": 43716,
+      "year": 2021
+    },
+    {
+      "hour": 13,
+      "trips": 60255,
+      "year": 2021
+    },
+    {
+      "hour": 14,
+      "trips": 67120,
+      "year": 2021
+    },
+    {
+      "hour": 15,
+      "trips": 57570,
+      "year": 2021
+    },
+    {
+      "hour": 16,
+      "trips": 47714,
+      "year": 2021
+    },
+    {
+      "hour": 17,
+      "trips": 38639,
+      "year": 2021
+    },
+    {
+      "hour": 18,
+      "trips": 30995,
+      "year": 2021
+    },
+    {
+      "hour": 19,
+      "trips": 23362,
+      "year": 2021
+    },
+    {
+      "hour": 20,
+      "trips": 18186,
+      "year": 2021
+    },
+    {
+      "hour": 21,
+      "trips": 12936,
+      "year": 2021
+    },
+    {
+      "hour": 22,
+      "trips": 2534,
+      "year": 2021
+    },
+    {
+      "hour": 23,
+      "trips": 27,
+      "year": 2021
+    },
+    {
+      "hour": 0,
+      "trips": 9,
+      "year": 2022
+    },
+    {
+      "hour": 1,
+      "trips": 9,
+      "year": 2022
+    },
+    {
+      "hour": 2,
+      "trips": 4,
+      "year": 2022
+    },
+    {
+      "hour": 3,
+      "trips": 1476,
+      "year": 2022
+    },
+    {
+      "hour": 4,
+      "trips": 7292,
+      "year": 2022
+    },
+    {
+      "hour": 5,
+      "trips": 28726,
+      "year": 2022
+    },
+    {
+      "hour": 6,
+      "trips": 45400,
+      "year": 2022
+    },
+    {
+      "hour": 7,
+      "trips": 34517,
+      "year": 2022
+    },
+    {
+      "hour": 8,
+      "trips": 24007,
+      "year": 2022
+    },
+    {
+      "hour": 9,
+      "trips": 23480,
+      "year": 2022
+    },
+    {
+      "hour": 10,
+      "trips": 25255,
+      "year": 2022
+    },
+    {
+      "hour": 11,
+      "trips": 27055,
+      "year": 2022
+    },
+    {
+      "hour": 12,
+      "trips": 32479,
+      "year": 2022
+    },
+    {
+      "hour": 13,
+      "trips": 47580,
+      "year": 2022
+    },
+    {
+      "hour": 14,
+      "trips": 55098,
+      "year": 2022
+    },
+    {
+      "hour": 15,
+      "trips": 46905,
+      "year": 2022
+    },
+    {
+      "hour": 16,
+      "trips": 37607,
+      "year": 2022
+    },
+    {
+      "hour": 17,
+      "trips": 29764,
+      "year": 2022
+    },
+    {
+      "hour": 18,
+      "trips": 23694,
+      "year": 2022
+    },
+    {
+      "hour": 19,
+      "trips": 17925,
+      "year": 2022
+    },
+    {
+      "hour": 20,
+      "trips": 13966,
+      "year": 2022
+    },
+    {
+      "hour": 21,
+      "trips": 10676,
+      "year": 2022
+    },
+    {
+      "hour": 22,
+      "trips": 2367,
+      "year": 2022
+    },
+    {
+      "hour": 23,
+      "trips": 25,
+      "year": 2022
+    },
+    {
+      "hour": 0,
+      "trips": 8,
+      "year": 2023
+    },
+    {
+      "hour": 1,
+      "trips": 6,
+      "year": 2023
+    },
+    {
+      "hour": 2,
+      "trips": 10,
+      "year": 2023
+    },
+    {
+      "hour": 3,
+      "trips": 1338,
+      "year": 2023
+    },
+    {
+      "hour": 4,
+      "trips": 6498,
+      "year": 2023
+    },
+    {
+      "hour": 5,
+      "trips": 25310,
+      "year": 2023
+    },
+    {
+      "hour": 6,
+      "trips": 40221,
+      "year": 2023
+    },
+    {
+      "hour": 7,
+      "trips": 30916,
+      "year": 2023
+    },
+    {
+      "hour": 8,
+      "trips": 20982,
+      "year": 2023
+    },
+    {
+      "hour": 9,
+      "trips": 20647,
+      "year": 2023
+    },
+    {
+      "hour": 10,
+      "trips": 21992,
+      "year": 2023
+    },
+    {
+      "hour": 11,
+      "trips": 23607,
+      "year": 2023
+    },
+    {
+      "hour": 12,
+      "trips": 28495,
+      "year": 2023
+    },
+    {
+      "hour": 13,
+      "trips": 44087,
+      "year": 2023
+    },
+    {
+      "hour": 14,
+      "trips": 50345,
+      "year": 2023
+    },
+    {
+      "hour": 15,
+      "trips": 40148,
+      "year": 2023
+    },
+    {
+      "hour": 16,
+      "trips": 30969,
+      "year": 2023
+    },
+    {
+      "hour": 17,
+      "trips": 24973,
+      "year": 2023
+    },
+    {
+      "hour": 18,
+      "trips": 20084,
+      "year": 2023
+    },
+    {
+      "hour": 19,
+      "trips": 15439,
+      "year": 2023
+    },
+    {
+      "hour": 20,
+      "trips": 11723,
+      "year": 2023
+    },
+    {
+      "hour": 21,
+      "trips": 8226,
+      "year": 2023
+    },
+    {
+      "hour": 22,
+      "trips": 1825,
+      "year": 2023
+    },
+    {
+      "hour": 23,
+      "trips": 12,
+      "year": 2023
+    },
+    {
+      "hour": 0,
+      "trips": 7,
+      "year": 2024
+    },
+    {
+      "hour": 1,
+      "trips": 3,
+      "year": 2024
+    },
+    {
+      "hour": 2,
+      "trips": 5,
+      "year": 2024
+    },
+    {
+      "hour": 3,
+      "trips": 1242,
+      "year": 2024
+    },
+    {
+      "hour": 4,
+      "trips": 6614,
+      "year": 2024
+    },
+    {
+      "hour": 5,
+      "trips": 22827,
+      "year": 2024
+    },
+    {
+      "hour": 6,
+      "trips": 36654,
+      "year": 2024
+    },
+    {
+      "hour": 7,
+      "trips": 26461,
+      "year": 2024
+    },
+    {
+      "hour": 8,
+      "trips": 17622,
+      "year": 2024
+    },
+    {
+      "hour": 9,
+      "trips": 17309,
+      "year": 2024
+    },
+    {
+      "hour": 10,
+      "trips": 18256,
+      "year": 2024
+    },
+    {
+      "hour": 11,
+      "trips": 19611,
+      "year": 2024
+    },
+    {
+      "hour": 12,
+      "trips": 25146,
+      "year": 2024
+    },
+    {
+      "hour": 13,
+      "trips": 39008,
+      "year": 2024
+    },
+    {
+      "hour": 14,
+      "trips": 43087,
+      "year": 2024
+    },
+    {
+      "hour": 15,
+      "trips": 34417,
+      "year": 2024
+    },
+    {
+      "hour": 16,
+      "trips": 26329,
+      "year": 2024
+    },
+    {
+      "hour": 17,
+      "trips": 20614,
+      "year": 2024
+    },
+    {
+      "hour": 18,
+      "trips": 16635,
+      "year": 2024
+    },
+    {
+      "hour": 19,
+      "trips": 12825,
+      "year": 2024
+    },
+    {
+      "hour": 20,
+      "trips": 9298,
+      "year": 2024
+    },
+    {
+      "hour": 21,
+      "trips": 6461,
+      "year": 2024
+    },
+    {
+      "hour": 22,
+      "trips": 1404,
+      "year": 2024
+    },
+    {
+      "hour": 23,
+      "trips": 16,
+      "year": 2024
+    },
+    {
+      "hour": 0,
+      "trips": 4,
+      "year": 2025
+    },
+    {
+      "hour": 1,
+      "trips": 1,
+      "year": 2025
+    },
+    {
+      "hour": 2,
+      "trips": 2,
+      "year": 2025
+    },
+    {
+      "hour": 3,
+      "trips": 733,
+      "year": 2025
+    },
+    {
+      "hour": 4,
+      "trips": 4981,
+      "year": 2025
+    },
+    {
+      "hour": 5,
+      "trips": 17052,
+      "year": 2025
+    },
+    {
+      "hour": 6,
+      "trips": 27296,
+      "year": 2025
+    },
+    {
+      "hour": 7,
+      "trips": 20010,
+      "year": 2025
+    },
+    {
+      "hour": 8,
+      "trips": 13401,
+      "year": 2025
+    },
+    {
+      "hour": 9,
+      "trips": 13456,
+      "year": 2025
+    },
+    {
+      "hour": 10,
+      "trips": 13814,
+      "year": 2025
+    },
+    {
+      "hour": 11,
+      "trips": 14871,
+      "year": 2025
+    },
+    {
+      "hour": 12,
+      "trips": 18295,
+      "year": 2025
+    },
+    {
+      "hour": 13,
+      "trips": 29141,
+      "year": 2025
+    },
+    {
+      "hour": 14,
+      "trips": 32454,
+      "year": 2025
+    },
+    {
+      "hour": 15,
+      "trips": 26009,
+      "year": 2025
+    },
+    {
+      "hour": 16,
+      "trips": 19608,
+      "year": 2025
+    },
+    {
+      "hour": 17,
+      "trips": 15182,
+      "year": 2025
+    },
+    {
+      "hour": 18,
+      "trips": 11997,
+      "year": 2025
+    },
+    {
+      "hour": 19,
+      "trips": 9591,
+      "year": 2025
+    },
+    {
+      "hour": 20,
+      "trips": 6694,
+      "year": 2025
+    },
+    {
+      "hour": 21,
+      "trips": 4583,
+      "year": 2025
+    },
+    {
+      "hour": 22,
+      "trips": 912,
+      "year": 2025
+    },
+    {
+      "hour": 23,
+      "trips": 9,
+      "year": 2025
+    },
+    {
+      "hour": 0,
+      "trips": 1,
+      "year": 2026
+    },
+    {
+      "hour": 1,
+      "trips": 2,
+      "year": 2026
+    },
+    {
+      "hour": 3,
+      "trips": 350,
+      "year": 2026
+    },
+    {
+      "hour": 4,
+      "trips": 1764,
+      "year": 2026
+    },
+    {
+      "hour": 5,
+      "trips": 6216,
+      "year": 2026
+    },
+    {
+      "hour": 6,
+      "trips": 10445,
+      "year": 2026
+    },
+    {
+      "hour": 7,
+      "trips": 7823,
+      "year": 2026
+    },
+    {
+      "hour": 8,
+      "trips": 4819,
+      "year": 2026
+    },
+    {
+      "hour": 9,
+      "trips": 4708,
+      "year": 2026
+    },
+    {
+      "hour": 10,
+      "trips": 4515,
+      "year": 2026
+    },
+    {
+      "hour": 11,
+      "trips": 4809,
+      "year": 2026
+    },
+    {
+      "hour": 12,
+      "trips": 6021,
+      "year": 2026
+    },
+    {
+      "hour": 13,
+      "trips": 9784,
+      "year": 2026
+    },
+    {
+      "hour": 14,
+      "trips": 11354,
+      "year": 2026
+    },
+    {
+      "hour": 15,
+      "trips": 9178,
+      "year": 2026
+    },
+    {
+      "hour": 16,
+      "trips": 6795,
+      "year": 2026
+    },
+    {
+      "hour": 17,
+      "trips": 5455,
+      "year": 2026
+    },
+    {
+      "hour": 18,
+      "trips": 4209,
+      "year": 2026
+    },
+    {
+      "hour": 19,
+      "trips": 3482,
+      "year": 2026
+    },
+    {
+      "hour": 20,
+      "trips": 2569,
+      "year": 2026
+    },
+    {
+      "hour": 21,
+      "trips": 1615,
+      "year": 2026
+    },
+    {
+      "hour": 22,
+      "trips": 352,
+      "year": 2026
+    },
+    {
+      "hour": 23,
+      "trips": 4,
+      "year": 2026
+    }
+  ],
+  "duration_bands": [
+    {
+      "band": "<5",
+      "share": 0.2102,
+      "trips": 21802,
+      "year": 2018
+    },
+    {
+      "band": "5-15",
+      "share": 0.6001,
+      "trips": 62252,
+      "year": 2018
+    },
+    {
+      "band": "15-30",
+      "share": 0.13,
+      "trips": 13485,
+      "year": 2018
+    },
+    {
+      "band": "30-60",
+      "share": 0.0489,
+      "trips": 5071,
+      "year": 2018
+    },
+    {
+      "band": "60+",
+      "share": 0.0109,
+      "trips": 1134,
+      "year": 2018
+    },
+    {
+      "band": "<5",
+      "share": 0.243,
+      "trips": 228431,
+      "year": 2019
+    },
+    {
+      "band": "5-15",
+      "share": 0.5894,
+      "trips": 554066,
+      "year": 2019
+    },
+    {
+      "band": "15-30",
+      "share": 0.1194,
+      "trips": 112212,
+      "year": 2019
+    },
+    {
+      "band": "30-60",
+      "share": 0.0426,
+      "trips": 40040,
+      "year": 2019
+    },
+    {
+      "band": "60+",
+      "share": 0.0056,
+      "trips": 5255,
+      "year": 2019
+    },
+    {
+      "band": "<5",
+      "share": 0.2478,
+      "trips": 252773,
+      "year": 2020
+    },
+    {
+      "band": "5-15",
+      "share": 0.5926,
+      "trips": 604560,
+      "year": 2020
+    },
+    {
+      "band": "15-30",
+      "share": 0.122,
+      "trips": 124451,
+      "year": 2020
+    },
+    {
+      "band": "30-60",
+      "share": 0.0315,
+      "trips": 32183,
+      "year": 2020
+    },
+    {
+      "band": "60+",
+      "share": 0.0061,
+      "trips": 6266,
+      "year": 2020
+    },
+    {
+      "band": "<5",
+      "share": 0.2264,
+      "trips": 148688,
+      "year": 2021
+    },
+    {
+      "band": "5-15",
+      "share": 0.6361,
+      "trips": 417846,
+      "year": 2021
+    },
+    {
+      "band": "15-30",
+      "share": 0.1129,
+      "trips": 74151,
+      "year": 2021
+    },
+    {
+      "band": "30-60",
+      "share": 0.0215,
+      "trips": 14093,
+      "year": 2021
+    },
+    {
+      "band": "60+",
+      "share": 0.0032,
+      "trips": 2105,
+      "year": 2021
+    },
+    {
+      "band": "<5",
+      "share": 0.2224,
+      "trips": 119049,
+      "year": 2022
+    },
+    {
+      "band": "5-15",
+      "share": 0.6466,
+      "trips": 346126,
+      "year": 2022
+    },
+    {
+      "band": "15-30",
+      "share": 0.1054,
+      "trips": 56438,
+      "year": 2022
+    },
+    {
+      "band": "30-60",
+      "share": 0.0221,
+      "trips": 11809,
+      "year": 2022
+    },
+    {
+      "band": "60+",
+      "share": 0.0035,
+      "trips": 1894,
+      "year": 2022
+    },
+    {
+      "band": "<5",
+      "share": 0.2375,
+      "trips": 111136,
+      "year": 2023
+    },
+    {
+      "band": "5-15",
+      "share": 0.6151,
+      "trips": 287761,
+      "year": 2023
+    },
+    {
+      "band": "15-30",
+      "share": 0.1088,
+      "trips": 50904,
+      "year": 2023
+    },
+    {
+      "band": "30-60",
+      "share": 0.0329,
+      "trips": 15402,
+      "year": 2023
+    },
+    {
+      "band": "60+",
+      "share": 0.0057,
+      "trips": 2658,
+      "year": 2023
+    },
+    {
+      "band": "<5",
+      "share": 0.2466,
+      "trips": 99080,
+      "year": 2024
+    },
+    {
+      "band": "5-15",
+      "share": 0.6028,
+      "trips": 242250,
+      "year": 2024
+    },
+    {
+      "band": "15-30",
+      "share": 0.1095,
+      "trips": 44014,
+      "year": 2024
+    },
+    {
+      "band": "30-60",
+      "share": 0.0328,
+      "trips": 13179,
+      "year": 2024
+    },
+    {
+      "band": "60+",
+      "share": 0.0083,
+      "trips": 3328,
+      "year": 2024
+    },
+    {
+      "band": "<5",
+      "share": 0.233,
+      "trips": 69913,
+      "year": 2025
+    },
+    {
+      "band": "5-15",
+      "share": 0.614,
+      "trips": 184245,
+      "year": 2025
+    },
+    {
+      "band": "15-30",
+      "share": 0.1111,
+      "trips": 33327,
+      "year": 2025
+    },
+    {
+      "band": "30-60",
+      "share": 0.031,
+      "trips": 9292,
+      "year": 2025
+    },
+    {
+      "band": "60+",
+      "share": 0.0111,
+      "trips": 3319,
+      "year": 2025
+    },
+    {
+      "band": "<5",
+      "share": 0.2473,
+      "trips": 26280,
+      "year": 2026
+    },
+    {
+      "band": "5-15",
+      "share": 0.6199,
+      "trips": 65880,
+      "year": 2026
+    },
+    {
+      "band": "15-30",
+      "share": 0.0996,
+      "trips": 10587,
+      "year": 2026
+    },
+    {
+      "band": "30-60",
+      "share": 0.0237,
+      "trips": 2521,
+      "year": 2026
+    },
+    {
+      "band": "60+",
+      "share": 0.0094,
+      "trips": 1002,
+      "year": 2026
+    }
+  ],
+  "round_trip_share": [
+    {
+      "round_trip_share": 0.0497,
+      "round_trips": 5154,
+      "trips": 103744,
+      "year": 2018
+    },
+    {
+      "round_trip_share": 0.0299,
+      "round_trips": 28079,
+      "trips": 940004,
+      "year": 2019
+    },
+    {
+      "round_trip_share": 0.0334,
+      "round_trips": 34052,
+      "trips": 1020233,
+      "year": 2020
+    },
+    {
+      "round_trip_share": 0.0265,
+      "round_trips": 17432,
+      "trips": 656883,
+      "year": 2021
+    },
+    {
+      "round_trip_share": 0.0175,
+      "round_trips": 9358,
+      "trips": 535316,
+      "year": 2022
+    },
+    {
+      "round_trip_share": 0.02,
+      "round_trips": 9334,
+      "trips": 467861,
+      "year": 2023
+    },
+    {
+      "round_trip_share": 0.02,
+      "round_trips": 8045,
+      "trips": 401851,
+      "year": 2024
+    },
+    {
+      "round_trip_share": 0.0229,
+      "round_trips": 6875,
+      "trips": 300096,
+      "year": 2025
+    },
+    {
+      "round_trip_share": 0.019,
+      "round_trips": 2021,
+      "trips": 106270,
+      "year": 2026
+    }
+  ],
+  "stations": [
+    {
+      "end_trips": 7005,
+      "start_trips": 6641,
+      "station": "Småstrandgaten",
+      "total_trips": 13646,
+      "year": 2018
+    },
+    {
+      "end_trips": 6677,
+      "start_trips": 6841,
+      "station": "Møllendalsplass",
+      "total_trips": 13518,
+      "year": 2018
+    },
+    {
+      "end_trips": 6635,
+      "start_trips": 6319,
+      "station": "Cornerteateret",
+      "total_trips": 12954,
+      "year": 2018
+    },
+    {
+      "end_trips": 6418,
+      "start_trips": 6459,
+      "station": "Solheimsviken",
+      "total_trips": 12877,
+      "year": 2018
+    },
+    {
+      "end_trips": 6405,
+      "start_trips": 6349,
+      "station": "Tårnplass",
+      "total_trips": 12754,
+      "year": 2018
+    },
+    {
+      "end_trips": 5421,
+      "start_trips": 5484,
+      "station": "Nykirken",
+      "total_trips": 10905,
+      "year": 2018
+    },
+    {
+      "end_trips": 5165,
+      "start_trips": 5113,
+      "station": "Bergen jernbanestasjon",
+      "total_trips": 10278,
+      "year": 2018
+    },
+    {
+      "end_trips": 4576,
+      "start_trips": 4455,
+      "station": "Gulating",
+      "total_trips": 9031,
+      "year": 2018
+    },
+    {
+      "end_trips": 4579,
+      "start_trips": 4447,
+      "station": "Høyteknologisenteret",
+      "total_trips": 9026,
+      "year": 2018
+    },
+    {
+      "end_trips": 4603,
+      "start_trips": 4232,
+      "station": "Lysverket",
+      "total_trips": 8835,
+      "year": 2018
+    },
+    {
+      "end_trips": 4546,
+      "start_trips": 4286,
+      "station": "Nonneseterplass",
+      "total_trips": 8832,
+      "year": 2018
+    },
+    {
+      "end_trips": 4298,
+      "start_trips": 4325,
+      "station": "Neumannsgate",
+      "total_trips": 8623,
+      "year": 2018
+    },
+    {
+      "end_trips": 4318,
+      "start_trips": 3972,
+      "station": "Media City",
+      "total_trips": 8290,
+      "year": 2018
+    },
+    {
+      "end_trips": 3053,
+      "start_trips": 2905,
+      "station": "Akvariet",
+      "total_trips": 5958,
+      "year": 2018
+    },
+    {
+      "end_trips": 2287,
+      "start_trips": 3167,
+      "station": "Studentsenteret UIB",
+      "total_trips": 5454,
+      "year": 2018
+    },
+    {
+      "end_trips": 2478,
+      "start_trips": 2503,
+      "station": "Grieghallen",
+      "total_trips": 4981,
+      "year": 2018
+    },
+    {
+      "end_trips": 2360,
+      "start_trips": 2586,
+      "station": "Studentboligene",
+      "total_trips": 4946,
+      "year": 2018
+    },
+    {
+      "end_trips": 2498,
+      "start_trips": 2368,
+      "station": "ADO arena",
+      "total_trips": 4866,
+      "year": 2018
+    },
+    {
+      "end_trips": 2224,
+      "start_trips": 2198,
+      "station": "Jonsvollkvartalet",
+      "total_trips": 4422,
+      "year": 2018
+    },
+    {
+      "end_trips": 2131,
+      "start_trips": 2126,
+      "station": "Nøstetorget",
+      "total_trips": 4257,
+      "year": 2018
+    },
+    {
+      "end_trips": 2123,
+      "start_trips": 2103,
+      "station": "Sandvikstorget",
+      "total_trips": 4226,
+      "year": 2018
+    },
+    {
+      "end_trips": 2062,
+      "start_trips": 1887,
+      "station": "Verftet",
+      "total_trips": 3949,
+      "year": 2018
+    },
+    {
+      "end_trips": 1437,
+      "start_trips": 1919,
+      "station": "Klosteret",
+      "total_trips": 3356,
+      "year": 2018
+    },
+    {
+      "end_trips": 1601,
+      "start_trips": 1649,
+      "station": "Høgskulen på Vestlandet",
+      "total_trips": 3250,
+      "year": 2018
+    },
+    {
+      "end_trips": 1291,
+      "start_trips": 1811,
+      "station": "Johanneskirken",
+      "total_trips": 3102,
+      "year": 2018
+    },
+    {
+      "end_trips": 1549,
+      "start_trips": 1512,
+      "station": "Allehelgens plass",
+      "total_trips": 3061,
+      "year": 2018
+    },
+    {
+      "end_trips": 1353,
+      "start_trips": 1198,
+      "station": "Rådhuset",
+      "total_trips": 2551,
+      "year": 2018
+    },
+    {
+      "end_trips": 1052,
+      "start_trips": 1030,
+      "station": "Sandviken Brygge",
+      "total_trips": 2082,
+      "year": 2018
+    },
+    {
+      "end_trips": 930,
+      "start_trips": 972,
+      "station": "Den Nationale Scene",
+      "total_trips": 1902,
+      "year": 2018
+    },
+    {
+      "end_trips": 596,
+      "start_trips": 628,
+      "station": "Studentboligene ved Grønneviken",
+      "total_trips": 1224,
+      "year": 2018
+    },
+    {
+      "end_trips": 498,
+      "start_trips": 637,
+      "station": "Haukeland sykehus",
+      "total_trips": 1135,
+      "year": 2018
+    },
+    {
+      "end_trips": 509,
+      "start_trips": 493,
+      "station": "Den nationale scene 1 ",
+      "total_trips": 1002,
+      "year": 2018
+    },
+    {
+      "end_trips": 498,
+      "start_trips": 504,
+      "station": "Høyskolen på Vestlandet",
+      "total_trips": 1002,
+      "year": 2018
+    },
+    {
+      "end_trips": 261,
+      "start_trips": 266,
+      "station": "Den Nationale Scene ",
+      "total_trips": 527,
+      "year": 2018
+    },
+    {
+      "end_trips": 174,
+      "start_trips": 179,
+      "station": "Lars Hilles",
+      "total_trips": 353,
+      "year": 2018
+    },
+    {
+      "end_trips": 44,
+      "start_trips": 105,
+      "station": "Østre Murallmeningen",
+      "total_trips": 149,
+      "year": 2018
+    },
+    {
+      "end_trips": 37,
+      "start_trips": 36,
+      "station": "Sandviksbodene",
+      "total_trips": 73,
+      "year": 2018
+    },
+    {
+      "end_trips": 31,
+      "start_trips": 31,
+      "station": "Klostertet",
+      "total_trips": 62,
+      "year": 2018
+    },
+    {
+      "end_trips": 8,
+      "start_trips": 8,
+      "station": "Media Bergen",
+      "total_trips": 16,
+      "year": 2018
+    },
+    {
+      "end_trips": 11,
+      "start_trips": 0,
+      "station": "UIP",
+      "total_trips": 11,
+      "year": 2018
+    },
+    {
+      "end_trips": 2,
+      "start_trips": 0,
+      "station": "workshop",
+      "total_trips": 2,
+      "year": 2018
+    },
+    {
+      "end_trips": 33207,
+      "start_trips": 33545,
+      "station": "Nykirken",
+      "total_trips": 66752,
+      "year": 2019
+    },
+    {
+      "end_trips": 31857,
+      "start_trips": 32090,
+      "station": "Møllendalsplass",
+      "total_trips": 63947,
+      "year": 2019
+    },
+    {
+      "end_trips": 32768,
+      "start_trips": 30349,
+      "station": "Festplassen",
+      "total_trips": 63117,
+      "year": 2019
+    },
+    {
+      "end_trips": 30191,
+      "start_trips": 25900,
+      "station": "Høyteknologisenteret",
+      "total_trips": 56091,
+      "year": 2019
+    },
+    {
+      "end_trips": 27398,
+      "start_trips": 27229,
+      "station": "Bergen jernbanestasjon",
+      "total_trips": 54627,
+      "year": 2019
+    },
+    {
+      "end_trips": 23822,
+      "start_trips": 23729,
+      "station": "Tårnplass",
+      "total_trips": 47551,
+      "year": 2019
+    },
+    {
+      "end_trips": 24351,
+      "start_trips": 22861,
+      "station": "Cornerteateret",
+      "total_trips": 47212,
+      "year": 2019
+    },
+    {
+      "end_trips": 23167,
+      "start_trips": 22802,
+      "station": "St. Jakobs Plass",
+      "total_trips": 45969,
+      "year": 2019
+    },
+    {
+      "end_trips": 22558,
+      "start_trips": 21977,
+      "station": "Småstrandgaten",
+      "total_trips": 44535,
+      "year": 2019
+    },
+    {
+      "end_trips": 21625,
+      "start_trips": 21279,
+      "station": "Neumannsgate",
+      "total_trips": 42904,
+      "year": 2019
+    },
+    {
+      "end_trips": 21040,
+      "start_trips": 20899,
+      "station": "Krohnviken",
+      "total_trips": 41939,
+      "year": 2019
+    },
+    {
+      "end_trips": 20014,
+      "start_trips": 19924,
+      "station": "Torget",
+      "total_trips": 39938,
+      "year": 2019
+    },
+    {
+      "end_trips": 18669,
+      "start_trips": 18472,
+      "station": "Grieghallen",
+      "total_trips": 37141,
+      "year": 2019
+    },
+    {
+      "end_trips": 18237,
+      "start_trips": 18086,
+      "station": "Jonsvollkvartalet",
+      "total_trips": 36323,
+      "year": 2019
+    },
+    {
+      "end_trips": 18081,
+      "start_trips": 18100,
+      "station": "Gågaten",
+      "total_trips": 36181,
+      "year": 2019
+    },
+    {
+      "end_trips": 17466,
+      "start_trips": 17437,
+      "station": "Thormøhlens gate 30",
+      "total_trips": 34903,
+      "year": 2019
+    },
+    {
+      "end_trips": 17166,
+      "start_trips": 16686,
+      "station": "Nedre Korskirkeallmenning",
+      "total_trips": 33852,
+      "year": 2019
+    },
+    {
+      "end_trips": 16056,
+      "start_trips": 15252,
+      "station": "Dreggsallmenningen Sør",
+      "total_trips": 31308,
+      "year": 2019
+    },
+    {
+      "end_trips": 15282,
+      "start_trips": 15335,
+      "station": "Solheimsviken",
+      "total_trips": 30617,
+      "year": 2019
+    },
+    {
+      "end_trips": 18345,
+      "start_trips": 11849,
+      "station": "Nonneseterplass",
+      "total_trips": 30194,
+      "year": 2019
+    },
+    {
+      "end_trips": 15258,
+      "start_trips": 14886,
+      "station": "Lars Hilles",
+      "total_trips": 30144,
+      "year": 2019
+    },
+    {
+      "end_trips": 14779,
+      "start_trips": 14974,
+      "station": "Solheimsgaten COOP Extra",
+      "total_trips": 29753,
+      "year": 2019
+    },
+    {
+      "end_trips": 14628,
+      "start_trips": 14905,
+      "station": "Studentboligene",
+      "total_trips": 29533,
+      "year": 2019
+    },
+    {
+      "end_trips": 14676,
+      "start_trips": 14524,
+      "station": "Akvariet",
+      "total_trips": 29200,
+      "year": 2019
+    },
+    {
+      "end_trips": 14194,
+      "start_trips": 14030,
+      "station": "Busstasjonen 1 Nord",
+      "total_trips": 28224,
+      "year": 2019
+    },
+    {
+      "end_trips": 14124,
+      "start_trips": 14050,
+      "station": "Damsgårdsveien",
+      "total_trips": 28174,
+      "year": 2019
+    },
+    {
+      "end_trips": 14891,
+      "start_trips": 13059,
+      "station": "Nøstetorget",
+      "total_trips": 27950,
+      "year": 2019
+    },
+    {
+      "end_trips": 14434,
+      "start_trips": 11639,
+      "station": "Kode 2",
+      "total_trips": 26073,
+      "year": 2019
+    },
+    {
+      "end_trips": 8721,
+      "start_trips": 17181,
+      "station": "Studentsenteret UIB",
+      "total_trips": 25902,
+      "year": 2019
+    },
+    {
+      "end_trips": 12355,
+      "start_trips": 12388,
+      "station": "Østre Murallmenningen nedre",
+      "total_trips": 24743,
+      "year": 2019
+    },
+    {
+      "end_trips": 12093,
+      "start_trips": 11722,
+      "station": "ADO arena",
+      "total_trips": 23815,
+      "year": 2019
+    },
+    {
+      "end_trips": 11864,
+      "start_trips": 11498,
+      "station": "Gulating",
+      "total_trips": 23362,
+      "year": 2019
+    },
+    {
+      "end_trips": 11269,
+      "start_trips": 11483,
+      "station": "Nykirkekaien",
+      "total_trips": 22752,
+      "year": 2019
+    },
+    {
+      "end_trips": 11336,
+      "start_trips": 11355,
+      "station": "John Lunds plass",
+      "total_trips": 22691,
+      "year": 2019
+    },
+    {
+      "end_trips": 11630,
+      "start_trips": 10766,
+      "station": "Lysverket",
+      "total_trips": 22396,
+      "year": 2019
+    },
+    {
+      "end_trips": 11172,
+      "start_trips": 11069,
+      "station": "Allehelgens plass",
+      "total_trips": 22241,
+      "year": 2019
+    },
+    {
+      "end_trips": 11325,
+      "start_trips": 10660,
+      "station": "Kode 1",
+      "total_trips": 21985,
+      "year": 2019
+    },
+    {
+      "end_trips": 10752,
+      "start_trips": 10750,
+      "station": "Dreggsallmenningen Nord",
+      "total_trips": 21502,
+      "year": 2019
+    },
+    {
+      "end_trips": 10898,
+      "start_trips": 9851,
+      "station": "Media City",
+      "total_trips": 20749,
+      "year": 2019
+    },
+    {
+      "end_trips": 10099,
+      "start_trips": 10070,
+      "station": "Skur 11",
+      "total_trips": 20169,
+      "year": 2019
+    },
+    {
+      "end_trips": 9875,
+      "start_trips": 9745,
+      "station": "Sandvikstorget",
+      "total_trips": 19620,
+      "year": 2019
+    },
+    {
+      "end_trips": 9109,
+      "start_trips": 10208,
+      "station": "Danmarksplass",
+      "total_trips": 19317,
+      "year": 2019
+    },
+    {
+      "end_trips": 8851,
+      "start_trips": 9978,
+      "station": "Høgskulen på Vestlandet",
+      "total_trips": 18829,
+      "year": 2019
+    },
+    {
+      "end_trips": 9253,
+      "start_trips": 9016,
+      "station": "Verftet",
+      "total_trips": 18269,
+      "year": 2019
+    },
+    {
+      "end_trips": 9124,
+      "start_trips": 8960,
+      "station": "Fløttmannsplassen",
+      "total_trips": 18084,
+      "year": 2019
+    },
+    {
+      "end_trips": 8591,
+      "start_trips": 8621,
+      "station": "Den Nationale Scene",
+      "total_trips": 17212,
+      "year": 2019
+    },
+    {
+      "end_trips": 8696,
+      "start_trips": 8509,
+      "station": "Vågsallmenningen",
+      "total_trips": 17205,
+      "year": 2019
+    },
+    {
+      "end_trips": 8403,
+      "start_trips": 8476,
+      "station": "Skutevikstorget",
+      "total_trips": 16879,
+      "year": 2019
+    },
+    {
+      "end_trips": 7652,
+      "start_trips": 7644,
+      "station": "Busstasjonen 3  Øst",
+      "total_trips": 15296,
+      "year": 2019
+    },
+    {
+      "end_trips": 7419,
+      "start_trips": 7448,
+      "station": "Fosswinckels gate",
+      "total_trips": 14867,
+      "year": 2019
+    },
+    {
+      "end_trips": 7318,
+      "start_trips": 7355,
+      "station": "Hans Hauges gate",
+      "total_trips": 14673,
+      "year": 2019
+    },
+    {
+      "end_trips": 7171,
+      "start_trips": 7192,
+      "station": "Håkonsgaten",
+      "total_trips": 14363,
+      "year": 2019
+    },
+    {
+      "end_trips": 6890,
+      "start_trips": 6860,
+      "station": "Frydenbø Marina",
+      "total_trips": 13750,
+      "year": 2019
+    },
+    {
+      "end_trips": 6679,
+      "start_trips": 6728,
+      "station": "Sandviken Brygge",
+      "total_trips": 13407,
+      "year": 2019
+    },
+    {
+      "end_trips": 6404,
+      "start_trips": 6607,
+      "station": "Bjørnsonsgate",
+      "total_trips": 13011,
+      "year": 2019
+    },
+    {
+      "end_trips": 6310,
+      "start_trips": 6282,
+      "station": "Busstasjonen 4 Sør",
+      "total_trips": 12592,
+      "year": 2019
+    },
+    {
+      "end_trips": 6110,
+      "start_trips": 6139,
+      "station": "Zander Kaas gate",
+      "total_trips": 12249,
+      "year": 2019
+    },
+    {
+      "end_trips": 5834,
+      "start_trips": 5794,
+      "station": "Sandviksbodene",
+      "total_trips": 11628,
+      "year": 2019
+    },
+    {
+      "end_trips": 5072,
+      "start_trips": 6144,
+      "station": "Klosteret",
+      "total_trips": 11216,
+      "year": 2019
+    },
+    {
+      "end_trips": 5364,
+      "start_trips": 5369,
+      "station": "Busstasjonen 2 Vest",
+      "total_trips": 10733,
+      "year": 2019
+    },
+    {
+      "end_trips": 4720,
+      "start_trips": 5685,
+      "station": "Amalie Skrams vei Sør",
+      "total_trips": 10405,
+      "year": 2019
+    },
+    {
+      "end_trips": 5332,
+      "start_trips": 4885,
+      "station": "Rådhuset",
+      "total_trips": 10217,
+      "year": 2019
+    },
+    {
+      "end_trips": 4007,
+      "start_trips": 5780,
+      "station": "Johanneskirken",
+      "total_trips": 9787,
+      "year": 2019
+    },
+    {
+      "end_trips": 5020,
+      "start_trips": 4396,
+      "station": "Laksevåg v/Kirkebukten",
+      "total_trips": 9416,
+      "year": 2019
+    },
+    {
+      "end_trips": 3389,
+      "start_trips": 5851,
+      "station": "HF-Bygget",
+      "total_trips": 9240,
+      "year": 2019
+    },
+    {
+      "end_trips": 4451,
+      "start_trips": 4537,
+      "station": "Bøhmergaten",
+      "total_trips": 8988,
+      "year": 2019
+    },
+    {
+      "end_trips": 2823,
+      "start_trips": 6160,
+      "station": "Haukeland sykehus",
+      "total_trips": 8983,
+      "year": 2019
+    },
+    {
+      "end_trips": 4136,
+      "start_trips": 4808,
+      "station": "Brann Stadion",
+      "total_trips": 8944,
+      "year": 2019
+    },
+    {
+      "end_trips": 4166,
+      "start_trips": 4136,
+      "station": "Damsgårdsallmenningen",
+      "total_trips": 8302,
+      "year": 2019
+    },
+    {
+      "end_trips": 3890,
+      "start_trips": 3901,
+      "station": "Magnus Lagabøtes Plass",
+      "total_trips": 7791,
+      "year": 2019
+    },
+    {
+      "end_trips": 3427,
+      "start_trips": 3454,
+      "station": "Welhavens gate 64",
+      "total_trips": 6881,
+      "year": 2019
+    },
+    {
+      "end_trips": 3401,
+      "start_trips": 3391,
+      "station": "Øvre Korskirkeallmenning",
+      "total_trips": 6792,
+      "year": 2019
+    },
+    {
+      "end_trips": 3455,
+      "start_trips": 3241,
+      "station": "Nygårdsporten",
+      "total_trips": 6696,
+      "year": 2019
+    },
+    {
+      "end_trips": 3176,
+      "start_trips": 3245,
+      "station": "Strømgaten",
+      "total_trips": 6421,
+      "year": 2019
+    },
+    {
+      "end_trips": 3200,
+      "start_trips": 3144,
+      "station": "Rådstuplassen",
+      "total_trips": 6344,
+      "year": 2019
+    },
+    {
+      "end_trips": 2954,
+      "start_trips": 3351,
+      "station": "Østre Murallmenningen øvre",
+      "total_trips": 6305,
+      "year": 2019
+    },
+    {
+      "end_trips": 3083,
+      "start_trips": 3124,
+      "station": "Møllestranden",
+      "total_trips": 6207,
+      "year": 2019
+    },
+    {
+      "end_trips": 1774,
+      "start_trips": 4343,
+      "station": "Årstad kirke",
+      "total_trips": 6117,
+      "year": 2019
+    },
+    {
+      "end_trips": 2876,
+      "start_trips": 2872,
+      "station": "Festningskaien",
+      "total_trips": 5748,
+      "year": 2019
+    },
+    {
+      "end_trips": 2705,
+      "start_trips": 2719,
+      "station": "Ole Vigs gate",
+      "total_trips": 5424,
+      "year": 2019
+    },
+    {
+      "end_trips": 2609,
+      "start_trips": 2615,
+      "station": "Lille Øvregate",
+      "total_trips": 5224,
+      "year": 2019
+    },
+    {
+      "end_trips": 2587,
+      "start_trips": 2635,
+      "station": "Comfort Hotel Holberg",
+      "total_trips": 5222,
+      "year": 2019
+    },
+    {
+      "end_trips": 1549,
+      "start_trips": 2520,
+      "station": "Haraldsplass",
+      "total_trips": 4069,
+      "year": 2019
+    },
+    {
+      "end_trips": 1877,
+      "start_trips": 2143,
+      "station": "Amalie Skrams vei Nord",
+      "total_trips": 4020,
+      "year": 2019
+    },
+    {
+      "end_trips": 1409,
+      "start_trips": 1424,
+      "station": "Dragefjellsbakken",
+      "total_trips": 2833,
+      "year": 2019
+    },
+    {
+      "end_trips": 1213,
+      "start_trips": 1457,
+      "station": "Edvards Grieg vei",
+      "total_trips": 2670,
+      "year": 2019
+    },
+    {
+      "end_trips": 1284,
+      "start_trips": 1331,
+      "station": "Autogården",
+      "total_trips": 2615,
+      "year": 2019
+    },
+    {
+      "end_trips": 1182,
+      "start_trips": 1197,
+      "station": "Krohnsminde Parkering",
+      "total_trips": 2379,
+      "year": 2019
+    },
+    {
+      "end_trips": 834,
+      "start_trips": 1530,
+      "station": "H.M. Pinnsvinet",
+      "total_trips": 2364,
+      "year": 2019
+    },
+    {
+      "end_trips": 457,
+      "start_trips": 999,
+      "station": "Odontologen",
+      "total_trips": 1456,
+      "year": 2019
+    },
+    {
+      "end_trips": 164,
+      "start_trips": 380,
+      "station": "Østre Murallmeningen",
+      "total_trips": 544,
+      "year": 2019
+    },
+    {
+      "end_trips": 214,
+      "start_trips": 226,
+      "station": "Holberg",
+      "total_trips": 440,
+      "year": 2019
+    },
+    {
+      "end_trips": 215,
+      "start_trips": 221,
+      "station": "Nykirken 2",
+      "total_trips": 436,
+      "year": 2019
+    },
+    {
+      "end_trips": 155,
+      "start_trips": 158,
+      "station": "Comfort Hotel Bergen",
+      "total_trips": 313,
+      "year": 2019
+    },
+    {
+      "end_trips": 101,
+      "start_trips": 125,
+      "station": "Haakon Sheteligs plass",
+      "total_trips": 226,
+      "year": 2019
+    },
+    {
+      "end_trips": 98,
+      "start_trips": 100,
+      "station": "Solheimsgaten langs Solheimsviken",
+      "total_trips": 198,
+      "year": 2019
+    },
+    {
+      "end_trips": 35,
+      "start_trips": 85,
+      "station": "Østre Murallmenningen",
+      "total_trips": 120,
+      "year": 2019
+    },
+    {
+      "end_trips": 44,
+      "start_trips": 45,
+      "station": "Dragefjellet I Sør",
+      "total_trips": 89,
+      "year": 2019
+    },
+    {
+      "end_trips": 27,
+      "start_trips": 27,
+      "station": "Dragefjellet II Nord",
+      "total_trips": 54,
+      "year": 2019
+    },
+    {
+      "end_trips": 28,
+      "start_trips": 18,
+      "station": "Strandgaten v/Holdeplass",
+      "total_trips": 46,
+      "year": 2019
+    },
+    {
+      "end_trips": 6,
+      "start_trips": 3,
+      "station": "Østre Muralmenning nedre",
+      "total_trips": 9,
+      "year": 2019
+    },
+    {
+      "end_trips": 3,
+      "start_trips": 3,
+      "station": "Bergen Bysykkel Workshop",
+      "total_trips": 6,
+      "year": 2019
+    },
+    {
+      "end_trips": 2,
+      "start_trips": 2,
+      "station": "UIP",
+      "total_trips": 4,
+      "year": 2019
+    },
+    {
+      "end_trips": 2,
+      "start_trips": 1,
+      "station": "Dragefjellet 1 Sør",
+      "total_trips": 3,
+      "year": 2019
+    },
+    {
+      "end_trips": 1,
+      "start_trips": 0,
+      "station": "Dragefjellet 2 Nord",
+      "total_trips": 1,
+      "year": 2019
+    },
+    {
+      "end_trips": 42015,
+      "start_trips": 40043,
+      "station": "Festplassen",
+      "total_trips": 82058,
+      "year": 2020
+    },
+    {
+      "end_trips": 35917,
+      "start_trips": 35958,
+      "station": "Møllendalsplass",
+      "total_trips": 71875,
+      "year": 2020
+    },
+    {
+      "end_trips": 33956,
+      "start_trips": 31608,
+      "station": "Høyteknologisenteret",
+      "total_trips": 65564,
+      "year": 2020
+    },
+    {
+      "end_trips": 31971,
+      "start_trips": 32092,
+      "station": "Fløttmannsplassen",
+      "total_trips": 64063,
+      "year": 2020
+    },
+    {
+      "end_trips": 29235,
+      "start_trips": 29483,
+      "station": "Nykirken",
+      "total_trips": 58718,
+      "year": 2020
+    },
+    {
+      "end_trips": 24723,
+      "start_trips": 24705,
+      "station": "Torget",
+      "total_trips": 49428,
+      "year": 2020
+    },
+    {
+      "end_trips": 24124,
+      "start_trips": 23718,
+      "station": "St. Jakobs Plass",
+      "total_trips": 47842,
+      "year": 2020
+    },
+    {
+      "end_trips": 21896,
+      "start_trips": 21408,
+      "station": "Busstasjonen 1 Nord",
+      "total_trips": 43304,
+      "year": 2020
+    },
+    {
+      "end_trips": 20396,
+      "start_trips": 20285,
+      "station": "Bergen jernbanestasjon",
+      "total_trips": 40681,
+      "year": 2020
+    },
+    {
+      "end_trips": 20267,
+      "start_trips": 20078,
+      "station": "Krohnviken",
+      "total_trips": 40345,
+      "year": 2020
+    },
+    {
+      "end_trips": 19790,
+      "start_trips": 20345,
+      "station": "Solheimsgaten COOP Extra",
+      "total_trips": 40135,
+      "year": 2020
+    },
+    {
+      "end_trips": 20140,
+      "start_trips": 19840,
+      "station": "Torgallmenningen",
+      "total_trips": 39980,
+      "year": 2020
+    },
+    {
+      "end_trips": 20347,
+      "start_trips": 19475,
+      "station": "Dreggsallmenningen Sør",
+      "total_trips": 39822,
+      "year": 2020
+    },
+    {
+      "end_trips": 18449,
+      "start_trips": 18328,
+      "station": "Solheimsviken",
+      "total_trips": 36777,
+      "year": 2020
+    },
+    {
+      "end_trips": 18083,
+      "start_trips": 18073,
+      "station": "Grieghallen",
+      "total_trips": 36156,
+      "year": 2020
+    },
+    {
+      "end_trips": 17584,
+      "start_trips": 17356,
+      "station": "Småstrandgaten",
+      "total_trips": 34940,
+      "year": 2020
+    },
+    {
+      "end_trips": 17370,
+      "start_trips": 17336,
+      "station": "Gågaten",
+      "total_trips": 34706,
+      "year": 2020
+    },
+    {
+      "end_trips": 16311,
+      "start_trips": 16061,
+      "station": "Thormøhlens gate",
+      "total_trips": 32372,
+      "year": 2020
+    },
+    {
+      "end_trips": 16041,
+      "start_trips": 15709,
+      "station": "Nygårdsporten",
+      "total_trips": 31750,
+      "year": 2020
+    },
+    {
+      "end_trips": 15921,
+      "start_trips": 15799,
+      "station": "Jonsvollkvartalet",
+      "total_trips": 31720,
+      "year": 2020
+    },
+    {
+      "end_trips": 15951,
+      "start_trips": 15753,
+      "station": "Tårnplass",
+      "total_trips": 31704,
+      "year": 2020
+    },
+    {
+      "end_trips": 15416,
+      "start_trips": 15380,
+      "station": "Østre Murallmenningen nedre",
+      "total_trips": 30796,
+      "year": 2020
+    },
+    {
+      "end_trips": 15903,
+      "start_trips": 14816,
+      "station": "Nøstetorget",
+      "total_trips": 30719,
+      "year": 2020
+    },
+    {
+      "end_trips": 15312,
+      "start_trips": 15081,
+      "station": "Cornerteateret",
+      "total_trips": 30393,
+      "year": 2020
+    },
+    {
+      "end_trips": 14647,
+      "start_trips": 14924,
+      "station": "Studentboligene",
+      "total_trips": 29571,
+      "year": 2020
+    },
+    {
+      "end_trips": 12940,
+      "start_trips": 14534,
+      "station": "Danmarksplass",
+      "total_trips": 27474,
+      "year": 2020
+    },
+    {
+      "end_trips": 13889,
+      "start_trips": 13537,
+      "station": "Nedre Korskirkeallmenning",
+      "total_trips": 27426,
+      "year": 2020
+    },
+    {
+      "end_trips": 13170,
+      "start_trips": 13234,
+      "station": "Damsgårdsveien",
+      "total_trips": 26404,
+      "year": 2020
+    },
+    {
+      "end_trips": 13123,
+      "start_trips": 13070,
+      "station": "Neumannsgate",
+      "total_trips": 26193,
+      "year": 2020
+    },
+    {
+      "end_trips": 13138,
+      "start_trips": 13054,
+      "station": "Lars Hilles",
+      "total_trips": 26192,
+      "year": 2020
+    },
+    {
+      "end_trips": 12202,
+      "start_trips": 11737,
+      "station": "ADO arena",
+      "total_trips": 23939,
+      "year": 2020
+    },
+    {
+      "end_trips": 11870,
+      "start_trips": 11907,
+      "station": "Skutevikstorget",
+      "total_trips": 23777,
+      "year": 2020
+    },
+    {
+      "end_trips": 12030,
+      "start_trips": 11510,
+      "station": "Sandvikstorget",
+      "total_trips": 23540,
+      "year": 2020
+    },
+    {
+      "end_trips": 12129,
+      "start_trips": 11369,
+      "station": "Lysverket",
+      "total_trips": 23498,
+      "year": 2020
+    },
+    {
+      "end_trips": 13262,
+      "start_trips": 10031,
+      "station": "Nonneseterplass",
+      "total_trips": 23293,
+      "year": 2020
+    },
+    {
+      "end_trips": 11169,
+      "start_trips": 11248,
+      "station": "Dreggsallmenningen Nord",
+      "total_trips": 22417,
+      "year": 2020
+    },
+    {
+      "end_trips": 11105,
+      "start_trips": 11004,
+      "station": "Sandviken Brygge",
+      "total_trips": 22109,
+      "year": 2020
+    },
+    {
+      "end_trips": 11084,
+      "start_trips": 11021,
+      "station": "C. Sundts gate",
+      "total_trips": 22105,
+      "year": 2020
+    },
+    {
+      "end_trips": 10509,
+      "start_trips": 10476,
+      "station": "Øvre Korskirkeallmenning",
+      "total_trips": 20985,
+      "year": 2020
+    },
+    {
+      "end_trips": 10286,
+      "start_trips": 10306,
+      "station": "Akvariet",
+      "total_trips": 20592,
+      "year": 2020
+    },
+    {
+      "end_trips": 10919,
+      "start_trips": 9511,
+      "station": "Kode 2",
+      "total_trips": 20430,
+      "year": 2020
+    },
+    {
+      "end_trips": 9775,
+      "start_trips": 9581,
+      "station": "Allehelgens plass",
+      "total_trips": 19356,
+      "year": 2020
+    },
+    {
+      "end_trips": 9285,
+      "start_trips": 9237,
+      "station": "Skur 11",
+      "total_trips": 18522,
+      "year": 2020
+    },
+    {
+      "end_trips": 9084,
+      "start_trips": 9031,
+      "station": "Neumanns gate II",
+      "total_trips": 18115,
+      "year": 2020
+    },
+    {
+      "end_trips": 8871,
+      "start_trips": 8896,
+      "station": "Welhavens gate 64",
+      "total_trips": 17767,
+      "year": 2020
+    },
+    {
+      "end_trips": 8759,
+      "start_trips": 8813,
+      "station": "Comfort Hotel Bergen",
+      "total_trips": 17572,
+      "year": 2020
+    },
+    {
+      "end_trips": 8731,
+      "start_trips": 8699,
+      "station": "Frydenbø Marina",
+      "total_trips": 17430,
+      "year": 2020
+    },
+    {
+      "end_trips": 8657,
+      "start_trips": 8673,
+      "station": "Nykirkekaien",
+      "total_trips": 17330,
+      "year": 2020
+    },
+    {
+      "end_trips": 7838,
+      "start_trips": 8523,
+      "station": "Brann Stadion",
+      "total_trips": 16361,
+      "year": 2020
+    },
+    {
+      "end_trips": 7908,
+      "start_trips": 7922,
+      "station": "John Lunds plass",
+      "total_trips": 15830,
+      "year": 2020
+    },
+    {
+      "end_trips": 8376,
+      "start_trips": 7169,
+      "station": "Kode 1",
+      "total_trips": 15545,
+      "year": 2020
+    },
+    {
+      "end_trips": 7731,
+      "start_trips": 7780,
+      "station": "Bjørnsonsgate",
+      "total_trips": 15511,
+      "year": 2020
+    },
+    {
+      "end_trips": 7520,
+      "start_trips": 7416,
+      "station": "Busstasjonen 3  Øst",
+      "total_trips": 14936,
+      "year": 2020
+    },
+    {
+      "end_trips": 7481,
+      "start_trips": 7345,
+      "station": "Vågsallmenningen",
+      "total_trips": 14826,
+      "year": 2020
+    },
+    {
+      "end_trips": 5293,
+      "start_trips": 9526,
+      "station": "Studentsenteret UIB",
+      "total_trips": 14819,
+      "year": 2020
+    },
+    {
+      "end_trips": 7637,
+      "start_trips": 7147,
+      "station": "Verftet",
+      "total_trips": 14784,
+      "year": 2020
+    },
+    {
+      "end_trips": 7363,
+      "start_trips": 7168,
+      "station": "Busstasjonen 4 Sør",
+      "total_trips": 14531,
+      "year": 2020
+    },
+    {
+      "end_trips": 7490,
+      "start_trips": 6890,
+      "station": "Laksevåg v/Kirkebukten",
+      "total_trips": 14380,
+      "year": 2020
+    },
+    {
+      "end_trips": 6902,
+      "start_trips": 6889,
+      "station": "Damsgårdsallmenningen",
+      "total_trips": 13791,
+      "year": 2020
+    },
+    {
+      "end_trips": 7028,
+      "start_trips": 6740,
+      "station": "Sandviksbodene",
+      "total_trips": 13768,
+      "year": 2020
+    },
+    {
+      "end_trips": 6430,
+      "start_trips": 6455,
+      "station": "Hans Hauges gate",
+      "total_trips": 12885,
+      "year": 2020
+    },
+    {
+      "end_trips": 6328,
+      "start_trips": 6361,
+      "station": "Ole Vigs gate",
+      "total_trips": 12689,
+      "year": 2020
+    },
+    {
+      "end_trips": 6317,
+      "start_trips": 6294,
+      "station": "Kong Oscars gate",
+      "total_trips": 12611,
+      "year": 2020
+    },
+    {
+      "end_trips": 6211,
+      "start_trips": 6205,
+      "station": "Camilla Collets gate",
+      "total_trips": 12416,
+      "year": 2020
+    },
+    {
+      "end_trips": 4811,
+      "start_trips": 7027,
+      "station": "Amalie Skrams vei Sør",
+      "total_trips": 11838,
+      "year": 2020
+    },
+    {
+      "end_trips": 5670,
+      "start_trips": 5665,
+      "station": "Fosswinckels gate",
+      "total_trips": 11335,
+      "year": 2020
+    },
+    {
+      "end_trips": 5409,
+      "start_trips": 5425,
+      "station": "Zander Kaas gate",
+      "total_trips": 10834,
+      "year": 2020
+    },
+    {
+      "end_trips": 5019,
+      "start_trips": 5018,
+      "station": "Thormøhlens gate 30",
+      "total_trips": 10037,
+      "year": 2020
+    },
+    {
+      "end_trips": 4855,
+      "start_trips": 4837,
+      "station": "Laksevåg senter",
+      "total_trips": 9692,
+      "year": 2020
+    },
+    {
+      "end_trips": 4674,
+      "start_trips": 4680,
+      "station": "Håkonsgaten",
+      "total_trips": 9354,
+      "year": 2020
+    },
+    {
+      "end_trips": 4448,
+      "start_trips": 4419,
+      "station": "Bergen Jernbanestasjon II",
+      "total_trips": 8867,
+      "year": 2020
+    },
+    {
+      "end_trips": 4108,
+      "start_trips": 4490,
+      "station": "Høgskulen på Vestlandet",
+      "total_trips": 8598,
+      "year": 2020
+    },
+    {
+      "end_trips": 4290,
+      "start_trips": 4286,
+      "station": "Busstasjonen 2 Vest",
+      "total_trips": 8576,
+      "year": 2020
+    },
+    {
+      "end_trips": 4274,
+      "start_trips": 4272,
+      "station": "Den Nationale Scene",
+      "total_trips": 8546,
+      "year": 2020
+    },
+    {
+      "end_trips": 3513,
+      "start_trips": 3553,
+      "station": "Bøhmergaten",
+      "total_trips": 7066,
+      "year": 2020
+    },
+    {
+      "end_trips": 3090,
+      "start_trips": 3735,
+      "station": "Klosteret",
+      "total_trips": 6825,
+      "year": 2020
+    },
+    {
+      "end_trips": 3015,
+      "start_trips": 3008,
+      "station": "Gulating",
+      "total_trips": 6023,
+      "year": 2020
+    },
+    {
+      "end_trips": 2998,
+      "start_trips": 3015,
+      "station": "Rosenbergsgaten",
+      "total_trips": 6013,
+      "year": 2020
+    },
+    {
+      "end_trips": 2926,
+      "start_trips": 2953,
+      "station": "Møllestranden",
+      "total_trips": 5879,
+      "year": 2020
+    },
+    {
+      "end_trips": 2940,
+      "start_trips": 2873,
+      "station": "Damsgårdsveien 2",
+      "total_trips": 5813,
+      "year": 2020
+    },
+    {
+      "end_trips": 1728,
+      "start_trips": 3938,
+      "station": "Haukeland sykehus",
+      "total_trips": 5666,
+      "year": 2020
+    },
+    {
+      "end_trips": 2664,
+      "start_trips": 2752,
+      "station": "Østre Murallmenningen øvre",
+      "total_trips": 5416,
+      "year": 2020
+    },
+    {
+      "end_trips": 2438,
+      "start_trips": 2881,
+      "station": "Hansaparken",
+      "total_trips": 5319,
+      "year": 2020
+    },
+    {
+      "end_trips": 1828,
+      "start_trips": 3475,
+      "station": "HF-Bygget",
+      "total_trips": 5303,
+      "year": 2020
+    },
+    {
+      "end_trips": 2362,
+      "start_trips": 2613,
+      "station": "Haukelandshallen",
+      "total_trips": 4975,
+      "year": 2020
+    },
+    {
+      "end_trips": 2354,
+      "start_trips": 2384,
+      "station": "Autogården",
+      "total_trips": 4738,
+      "year": 2020
+    },
+    {
+      "end_trips": 2298,
+      "start_trips": 2290,
+      "station": "Magnus Lagabøtes Plass",
+      "total_trips": 4588,
+      "year": 2020
+    },
+    {
+      "end_trips": 2208,
+      "start_trips": 2373,
+      "station": "Amalie Skrams vei Nord",
+      "total_trips": 4581,
+      "year": 2020
+    },
+    {
+      "end_trips": 1746,
+      "start_trips": 2681,
+      "station": "Odontologen",
+      "total_trips": 4427,
+      "year": 2020
+    },
+    {
+      "end_trips": 2124,
+      "start_trips": 2132,
+      "station": "Tonningneset",
+      "total_trips": 4256,
+      "year": 2020
+    },
+    {
+      "end_trips": 1667,
+      "start_trips": 2402,
+      "station": "Johanneskirken",
+      "total_trips": 4069,
+      "year": 2020
+    },
+    {
+      "end_trips": 1909,
+      "start_trips": 1904,
+      "station": "Kirkegaten",
+      "total_trips": 3813,
+      "year": 2020
+    },
+    {
+      "end_trips": 1910,
+      "start_trips": 1876,
+      "station": "Nordnes Sjøbad",
+      "total_trips": 3786,
+      "year": 2020
+    },
+    {
+      "end_trips": 1450,
+      "start_trips": 2318,
+      "station": "Årstad kirke",
+      "total_trips": 3768,
+      "year": 2020
+    },
+    {
+      "end_trips": 1879,
+      "start_trips": 1866,
+      "station": "Puddefjordsbroen",
+      "total_trips": 3745,
+      "year": 2020
+    },
+    {
+      "end_trips": 1872,
+      "start_trips": 1870,
+      "station": "Møllendalsbrua",
+      "total_trips": 3742,
+      "year": 2020
+    },
+    {
+      "end_trips": 1353,
+      "start_trips": 2288,
+      "station": "Haraldsplass",
+      "total_trips": 3641,
+      "year": 2020
+    },
+    {
+      "end_trips": 1783,
+      "start_trips": 1770,
+      "station": "Christian Michelsens institutt",
+      "total_trips": 3553,
+      "year": 2020
+    },
+    {
+      "end_trips": 1539,
+      "start_trips": 1553,
+      "station": "Strømgaten",
+      "total_trips": 3092,
+      "year": 2020
+    },
+    {
+      "end_trips": 1463,
+      "start_trips": 1542,
+      "station": "Kronstad",
+      "total_trips": 3005,
+      "year": 2020
+    },
+    {
+      "end_trips": 1103,
+      "start_trips": 1103,
+      "station": "Takhagen på Nordnes",
+      "total_trips": 2206,
+      "year": 2020
+    },
+    {
+      "end_trips": 856,
+      "start_trips": 851,
+      "station": "Rådstuplassen",
+      "total_trips": 1707,
+      "year": 2020
+    },
+    {
+      "end_trips": 642,
+      "start_trips": 791,
+      "station": "H.M. Pinnsvinet",
+      "total_trips": 1433,
+      "year": 2020
+    },
+    {
+      "end_trips": 437,
+      "start_trips": 406,
+      "station": "Rådhuset",
+      "total_trips": 843,
+      "year": 2020
+    },
+    {
+      "end_trips": 250,
+      "start_trips": 245,
+      "station": "Torgalmenningen",
+      "total_trips": 495,
+      "year": 2020
+    },
+    {
+      "end_trips": 201,
+      "start_trips": 201,
+      "station": "Neumanns gate / Sigurds gate",
+      "total_trips": 402,
+      "year": 2020
+    },
+    {
+      "end_trips": 143,
+      "start_trips": 152,
+      "station": "Bergen jernbanestasjon 2",
+      "total_trips": 295,
+      "year": 2020
+    },
+    {
+      "end_trips": 127,
+      "start_trips": 117,
+      "station": "Strankaien / C.Sunds gate",
+      "total_trips": 244,
+      "year": 2020
+    },
+    {
+      "end_trips": 84,
+      "start_trips": 83,
+      "station": "Neumanns gate",
+      "total_trips": 167,
+      "year": 2020
+    },
+    {
+      "end_trips": 35,
+      "start_trips": 35,
+      "station": "Edvards Grieg vei",
+      "total_trips": 70,
+      "year": 2020
+    },
+    {
+      "end_trips": 33,
+      "start_trips": 32,
+      "station": "Fredriksbergsgaten",
+      "total_trips": 65,
+      "year": 2020
+    },
+    {
+      "end_trips": 34,
+      "start_trips": 30,
+      "station": "C. Sundts gate/Nagelgården",
+      "total_trips": 64,
+      "year": 2020
+    },
+    {
+      "end_trips": 26,
+      "start_trips": 27,
+      "station": "Dragefjellsbakken",
+      "total_trips": 53,
+      "year": 2020
+    },
+    {
+      "end_trips": 16,
+      "start_trips": 16,
+      "station": "Festningskaien",
+      "total_trips": 32,
+      "year": 2020
+    },
+    {
+      "end_trips": 11,
+      "start_trips": 11,
+      "station": "Kirkegaten 1",
+      "total_trips": 22,
+      "year": 2020
+    },
+    {
+      "end_trips": 10,
+      "start_trips": 0,
+      "station": "Måseskjæret",
+      "total_trips": 10,
+      "year": 2020
+    },
+    {
+      "end_trips": 5,
+      "start_trips": 5,
+      "station": "Chr. Michelsens institutt",
+      "total_trips": 10,
+      "year": 2020
+    },
+    {
+      "end_trips": 0,
+      "start_trips": 1,
+      "station": "Neumannsgate / Vestre torggaten",
+      "total_trips": 1,
+      "year": 2020
+    },
+    {
+      "end_trips": 29255,
+      "start_trips": 28988,
+      "station": "Møllendalsplass",
+      "total_trips": 58243,
+      "year": 2021
+    },
+    {
+      "end_trips": 25007,
+      "start_trips": 23142,
+      "station": "Festplassen",
+      "total_trips": 48149,
+      "year": 2021
+    },
+    {
+      "end_trips": 22021,
+      "start_trips": 19554,
+      "station": "Høyteknologisenteret",
+      "total_trips": 41575,
+      "year": 2021
+    },
+    {
+      "end_trips": 18939,
+      "start_trips": 18050,
+      "station": "Torgallmenningen",
+      "total_trips": 36989,
+      "year": 2021
+    },
+    {
+      "end_trips": 17430,
+      "start_trips": 17468,
+      "station": "Nykirken",
+      "total_trips": 34898,
+      "year": 2021
+    },
+    {
+      "end_trips": 17114,
+      "start_trips": 17300,
+      "station": "Fløttmannsplassen",
+      "total_trips": 34414,
+      "year": 2021
+    },
+    {
+      "end_trips": 16887,
+      "start_trips": 16259,
+      "station": "St. Jakobs Plass",
+      "total_trips": 33146,
+      "year": 2021
+    },
+    {
+      "end_trips": 15093,
+      "start_trips": 15061,
+      "station": "Torget",
+      "total_trips": 30154,
+      "year": 2021
+    },
+    {
+      "end_trips": 13934,
+      "start_trips": 13563,
+      "station": "Thormøhlens gate",
+      "total_trips": 27497,
+      "year": 2021
+    },
+    {
+      "end_trips": 13882,
+      "start_trips": 13352,
+      "station": "Busstasjonen 1 Nord",
+      "total_trips": 27234,
+      "year": 2021
+    },
+    {
+      "end_trips": 13462,
+      "start_trips": 12954,
+      "station": "Dreggsallmenningen Sør",
+      "total_trips": 26416,
+      "year": 2021
+    },
+    {
+      "end_trips": 12690,
+      "start_trips": 13364,
+      "station": "Solheimsgaten COOP Extra",
+      "total_trips": 26054,
+      "year": 2021
+    },
+    {
+      "end_trips": 14007,
+      "start_trips": 11173,
+      "station": "Nonneseterplass",
+      "total_trips": 25180,
+      "year": 2021
+    },
+    {
+      "end_trips": 12656,
+      "start_trips": 12113,
+      "station": "C. Sundts gate",
+      "total_trips": 24769,
+      "year": 2021
+    },
+    {
+      "end_trips": 12326,
+      "start_trips": 11932,
+      "station": "Solheimsviken",
+      "total_trips": 24258,
+      "year": 2021
+    },
+    {
+      "end_trips": 11779,
+      "start_trips": 11508,
+      "station": "Krohnviken",
+      "total_trips": 23287,
+      "year": 2021
+    },
+    {
+      "end_trips": 11286,
+      "start_trips": 10830,
+      "station": "Studentboligene",
+      "total_trips": 22116,
+      "year": 2021
+    },
+    {
+      "end_trips": 10860,
+      "start_trips": 10743,
+      "station": "Grieghallen",
+      "total_trips": 21603,
+      "year": 2021
+    },
+    {
+      "end_trips": 10798,
+      "start_trips": 10501,
+      "station": "Lars Hilles",
+      "total_trips": 21299,
+      "year": 2021
+    },
+    {
+      "end_trips": 10339,
+      "start_trips": 10082,
+      "station": "Østre Murallmenningen nedre",
+      "total_trips": 20421,
+      "year": 2021
+    },
+    {
+      "end_trips": 9995,
+      "start_trips": 10003,
+      "station": "Gågaten",
+      "total_trips": 19998,
+      "year": 2021
+    },
+    {
+      "end_trips": 10362,
+      "start_trips": 9424,
+      "station": "Nøstetorget",
+      "total_trips": 19786,
+      "year": 2021
+    },
+    {
+      "end_trips": 9724,
+      "start_trips": 9278,
+      "station": "Cornerteateret",
+      "total_trips": 19002,
+      "year": 2021
+    },
+    {
+      "end_trips": 9655,
+      "start_trips": 8544,
+      "station": "Lysverket",
+      "total_trips": 18199,
+      "year": 2021
+    },
+    {
+      "end_trips": 9134,
+      "start_trips": 9035,
+      "station": "Jonsvollkvartalet",
+      "total_trips": 18169,
+      "year": 2021
+    },
+    {
+      "end_trips": 9028,
+      "start_trips": 8788,
+      "station": "AdO arena",
+      "total_trips": 17816,
+      "year": 2021
+    },
+    {
+      "end_trips": 8016,
+      "start_trips": 9690,
+      "station": "Danmarksplass",
+      "total_trips": 17706,
+      "year": 2021
+    },
+    {
+      "end_trips": 9283,
+      "start_trips": 8224,
+      "station": "Nygårdsporten",
+      "total_trips": 17507,
+      "year": 2021
+    },
+    {
+      "end_trips": 8710,
+      "start_trips": 8751,
+      "station": "Damsgårdsveien",
+      "total_trips": 17461,
+      "year": 2021
+    },
+    {
+      "end_trips": 8491,
+      "start_trips": 8413,
+      "station": "Sandviken Brygge",
+      "total_trips": 16904,
+      "year": 2021
+    },
+    {
+      "end_trips": 8207,
+      "start_trips": 7824,
+      "station": "Sandvikstorget",
+      "total_trips": 16031,
+      "year": 2021
+    },
+    {
+      "end_trips": 7597,
+      "start_trips": 8005,
+      "station": "Damsgårdsveien 2",
+      "total_trips": 15602,
+      "year": 2021
+    },
+    {
+      "end_trips": 7892,
+      "start_trips": 7241,
+      "station": "Tårnplass",
+      "total_trips": 15133,
+      "year": 2021
+    },
+    {
+      "end_trips": 7295,
+      "start_trips": 7242,
+      "station": "Skutevikstorget",
+      "total_trips": 14537,
+      "year": 2021
+    },
+    {
+      "end_trips": 7571,
+      "start_trips": 6698,
+      "station": "Nedre Korskirkeallmenning",
+      "total_trips": 14269,
+      "year": 2021
+    },
+    {
+      "end_trips": 7107,
+      "start_trips": 7126,
+      "station": "Dreggsallmenningen Nord",
+      "total_trips": 14233,
+      "year": 2021
+    },
+    {
+      "end_trips": 6704,
+      "start_trips": 6644,
+      "station": "Neumanns gate II",
+      "total_trips": 13348,
+      "year": 2021
+    },
+    {
+      "end_trips": 6339,
+      "start_trips": 6700,
+      "station": "Frydenbø Marina",
+      "total_trips": 13039,
+      "year": 2021
+    },
+    {
+      "end_trips": 6380,
+      "start_trips": 6375,
+      "station": "Kong Oscars gate",
+      "total_trips": 12755,
+      "year": 2021
+    },
+    {
+      "end_trips": 6344,
+      "start_trips": 6190,
+      "station": "Nykirkekaien",
+      "total_trips": 12534,
+      "year": 2021
+    },
+    {
+      "end_trips": 6255,
+      "start_trips": 6215,
+      "station": "Øvre Korskirkeallmenning",
+      "total_trips": 12470,
+      "year": 2021
+    },
+    {
+      "end_trips": 7281,
+      "start_trips": 5150,
+      "station": "Kode 2",
+      "total_trips": 12431,
+      "year": 2021
+    },
+    {
+      "end_trips": 6204,
+      "start_trips": 5855,
+      "station": "Småstrandgaten",
+      "total_trips": 12059,
+      "year": 2021
+    },
+    {
+      "end_trips": 5966,
+      "start_trips": 5881,
+      "station": "Neumannsgate",
+      "total_trips": 11847,
+      "year": 2021
+    },
+    {
+      "end_trips": 5662,
+      "start_trips": 5442,
+      "station": "Allehelgens plass",
+      "total_trips": 11104,
+      "year": 2021
+    },
+    {
+      "end_trips": 4997,
+      "start_trips": 5998,
+      "station": "Brann Stadion",
+      "total_trips": 10995,
+      "year": 2021
+    },
+    {
+      "end_trips": 5415,
+      "start_trips": 5381,
+      "station": "Skur 11",
+      "total_trips": 10796,
+      "year": 2021
+    },
+    {
+      "end_trips": 4579,
+      "start_trips": 5751,
+      "station": "Høgskulen på Vestlandet",
+      "total_trips": 10330,
+      "year": 2021
+    },
+    {
+      "end_trips": 4894,
+      "start_trips": 4860,
+      "station": "Akvariet",
+      "total_trips": 9754,
+      "year": 2021
+    },
+    {
+      "end_trips": 4626,
+      "start_trips": 4729,
+      "station": "Welhavens gate 64",
+      "total_trips": 9355,
+      "year": 2021
+    },
+    {
+      "end_trips": 2669,
+      "start_trips": 6585,
+      "station": "Studentsenteret UiB",
+      "total_trips": 9254,
+      "year": 2021
+    },
+    {
+      "end_trips": 4948,
+      "start_trips": 4176,
+      "station": "Kode 1",
+      "total_trips": 9124,
+      "year": 2021
+    },
+    {
+      "end_trips": 4447,
+      "start_trips": 4441,
+      "station": "Laksevåg senter",
+      "total_trips": 8888,
+      "year": 2021
+    },
+    {
+      "end_trips": 4532,
+      "start_trips": 4345,
+      "station": "Vågsallmenningen",
+      "total_trips": 8877,
+      "year": 2021
+    },
+    {
+      "end_trips": 4431,
+      "start_trips": 4364,
+      "station": "Busstasjonen 3  Øst",
+      "total_trips": 8795,
+      "year": 2021
+    },
+    {
+      "end_trips": 4341,
+      "start_trips": 4356,
+      "station": "Bjørnsonsgate",
+      "total_trips": 8697,
+      "year": 2021
+    },
+    {
+      "end_trips": 4317,
+      "start_trips": 4219,
+      "station": "Sandviksbodene",
+      "total_trips": 8536,
+      "year": 2021
+    },
+    {
+      "end_trips": 4168,
+      "start_trips": 4145,
+      "station": "Damsgårdsallmenningen",
+      "total_trips": 8313,
+      "year": 2021
+    },
+    {
+      "end_trips": 4246,
+      "start_trips": 3914,
+      "station": "Verftet",
+      "total_trips": 8160,
+      "year": 2021
+    },
+    {
+      "end_trips": 3833,
+      "start_trips": 3821,
+      "station": "Hans Hauges gate",
+      "total_trips": 7654,
+      "year": 2021
+    },
+    {
+      "end_trips": 3773,
+      "start_trips": 3780,
+      "station": "Zander Kaaes gate",
+      "total_trips": 7553,
+      "year": 2021
+    },
+    {
+      "end_trips": 3809,
+      "start_trips": 3662,
+      "station": "Busstasjonen 4 Sør",
+      "total_trips": 7471,
+      "year": 2021
+    },
+    {
+      "end_trips": 3991,
+      "start_trips": 3463,
+      "station": "Laksevåg v/Kirkebukten",
+      "total_trips": 7454,
+      "year": 2021
+    },
+    {
+      "end_trips": 3676,
+      "start_trips": 3637,
+      "station": "Håkonsgaten",
+      "total_trips": 7313,
+      "year": 2021
+    },
+    {
+      "end_trips": 3612,
+      "start_trips": 3672,
+      "station": "John Lunds plass",
+      "total_trips": 7284,
+      "year": 2021
+    },
+    {
+      "end_trips": 2526,
+      "start_trips": 4583,
+      "station": "Amalie Skrams vei Sør",
+      "total_trips": 7109,
+      "year": 2021
+    },
+    {
+      "end_trips": 3360,
+      "start_trips": 3351,
+      "station": "Fosswinckels gate",
+      "total_trips": 6711,
+      "year": 2021
+    },
+    {
+      "end_trips": 3157,
+      "start_trips": 3163,
+      "station": "Ole Vigs gate",
+      "total_trips": 6320,
+      "year": 2021
+    },
+    {
+      "end_trips": 3320,
+      "start_trips": 2892,
+      "station": "Florida Bybanestopp",
+      "total_trips": 6212,
+      "year": 2021
+    },
+    {
+      "end_trips": 2966,
+      "start_trips": 2953,
+      "station": "Den Nationale Scene",
+      "total_trips": 5919,
+      "year": 2021
+    },
+    {
+      "end_trips": 2985,
+      "start_trips": 2932,
+      "station": "Camilla Collets gate",
+      "total_trips": 5917,
+      "year": 2021
+    },
+    {
+      "end_trips": 1635,
+      "start_trips": 4164,
+      "station": "Haukeland sykehus",
+      "total_trips": 5799,
+      "year": 2021
+    },
+    {
+      "end_trips": 2531,
+      "start_trips": 2590,
+      "station": "Comfort Hotel Bergen",
+      "total_trips": 5121,
+      "year": 2021
+    },
+    {
+      "end_trips": 2454,
+      "start_trips": 2453,
+      "station": "Rosenbergsgaten",
+      "total_trips": 4907,
+      "year": 2021
+    },
+    {
+      "end_trips": 2217,
+      "start_trips": 2475,
+      "station": "Hansaparken",
+      "total_trips": 4692,
+      "year": 2021
+    },
+    {
+      "end_trips": 1334,
+      "start_trips": 3180,
+      "station": "Odontologen",
+      "total_trips": 4514,
+      "year": 2021
+    },
+    {
+      "end_trips": 2245,
+      "start_trips": 2243,
+      "station": "Tonningneset",
+      "total_trips": 4488,
+      "year": 2021
+    },
+    {
+      "end_trips": 2255,
+      "start_trips": 2156,
+      "station": "Bergen jernbanestasjon",
+      "total_trips": 4411,
+      "year": 2021
+    },
+    {
+      "end_trips": 1012,
+      "start_trips": 3344,
+      "station": "HF-Bygget",
+      "total_trips": 4356,
+      "year": 2021
+    },
+    {
+      "end_trips": 1235,
+      "start_trips": 2879,
+      "station": "Johanneskirken",
+      "total_trips": 4114,
+      "year": 2021
+    },
+    {
+      "end_trips": 1952,
+      "start_trips": 1950,
+      "station": "Christian Michelsens institutt",
+      "total_trips": 3902,
+      "year": 2021
+    },
+    {
+      "end_trips": 1861,
+      "start_trips": 1774,
+      "station": "Busstasjonen 2 Vest",
+      "total_trips": 3635,
+      "year": 2021
+    },
+    {
+      "end_trips": 1772,
+      "start_trips": 1770,
+      "station": "Magnus Lagabøtes Plass",
+      "total_trips": 3542,
+      "year": 2021
+    },
+    {
+      "end_trips": 1744,
+      "start_trips": 1734,
+      "station": "Gulating",
+      "total_trips": 3478,
+      "year": 2021
+    },
+    {
+      "end_trips": 1585,
+      "start_trips": 1873,
+      "station": "Amalie Skrams vei Nord",
+      "total_trips": 3458,
+      "year": 2021
+    },
+    {
+      "end_trips": 1714,
+      "start_trips": 1728,
+      "station": "Puddefjordsbroen",
+      "total_trips": 3442,
+      "year": 2021
+    },
+    {
+      "end_trips": 1582,
+      "start_trips": 1859,
+      "station": "Klosteret",
+      "total_trips": 3441,
+      "year": 2021
+    },
+    {
+      "end_trips": 1647,
+      "start_trips": 1590,
+      "station": "Moxy Hotellet",
+      "total_trips": 3237,
+      "year": 2021
+    },
+    {
+      "end_trips": 988,
+      "start_trips": 2209,
+      "station": "Haraldsplass",
+      "total_trips": 3197,
+      "year": 2021
+    },
+    {
+      "end_trips": 1556,
+      "start_trips": 1556,
+      "station": "Bøhmergaten",
+      "total_trips": 3112,
+      "year": 2021
+    },
+    {
+      "end_trips": 1492,
+      "start_trips": 1491,
+      "station": "Nordnes Sjøbad",
+      "total_trips": 2983,
+      "year": 2021
+    },
+    {
+      "end_trips": 850,
+      "start_trips": 1788,
+      "station": "Studentsenteret UIB",
+      "total_trips": 2638,
+      "year": 2021
+    },
+    {
+      "end_trips": 1296,
+      "start_trips": 1337,
+      "station": "Haukelandshallen",
+      "total_trips": 2633,
+      "year": 2021
+    },
+    {
+      "end_trips": 1227,
+      "start_trips": 1288,
+      "station": "Østre Murallmenningen øvre",
+      "total_trips": 2515,
+      "year": 2021
+    },
+    {
+      "end_trips": 1194,
+      "start_trips": 1231,
+      "station": "Strømgaten",
+      "total_trips": 2425,
+      "year": 2021
+    },
+    {
+      "end_trips": 1197,
+      "start_trips": 1213,
+      "station": "Kronstad",
+      "total_trips": 2410,
+      "year": 2021
+    },
+    {
+      "end_trips": 1175,
+      "start_trips": 1184,
+      "station": "Kirkegaten",
+      "total_trips": 2359,
+      "year": 2021
+    },
+    {
+      "end_trips": 775,
+      "start_trips": 1443,
+      "station": "Årstad kirke",
+      "total_trips": 2218,
+      "year": 2021
+    },
+    {
+      "end_trips": 1064,
+      "start_trips": 1092,
+      "station": "Takhagen på Nordnes",
+      "total_trips": 2156,
+      "year": 2021
+    },
+    {
+      "end_trips": 1000,
+      "start_trips": 1015,
+      "station": "Geofysen",
+      "total_trips": 2015,
+      "year": 2021
+    },
+    {
+      "end_trips": 795,
+      "start_trips": 792,
+      "station": "Zander Kaas gate",
+      "total_trips": 1587,
+      "year": 2021
+    },
+    {
+      "end_trips": 791,
+      "start_trips": 758,
+      "station": "Bergen Jernbanestasjon II",
+      "total_trips": 1549,
+      "year": 2021
+    },
+    {
+      "end_trips": 435,
+      "start_trips": 824,
+      "station": "NHH",
+      "total_trips": 1259,
+      "year": 2021
+    },
+    {
+      "end_trips": 433,
+      "start_trips": 784,
+      "station": "H.M. Pinnsvinet",
+      "total_trips": 1217,
+      "year": 2021
+    },
+    {
+      "end_trips": 478,
+      "start_trips": 460,
+      "station": "Rådhuset",
+      "total_trips": 938,
+      "year": 2021
+    },
+    {
+      "end_trips": 248,
+      "start_trips": 246,
+      "station": "ADO arena",
+      "total_trips": 494,
+      "year": 2021
+    },
+    {
+      "end_trips": 223,
+      "start_trips": 246,
+      "station": "Kalfarveien 31",
+      "total_trips": 469,
+      "year": 2021
+    },
+    {
+      "end_trips": 149,
+      "start_trips": 167,
+      "station": "Autogården",
+      "total_trips": 316,
+      "year": 2021
+    },
+    {
+      "end_trips": 95,
+      "start_trips": 89,
+      "station": "Damsgårdsveien 125",
+      "total_trips": 184,
+      "year": 2021
+    },
+    {
+      "end_trips": 62,
+      "start_trips": 60,
+      "station": "Møllendalsbrua",
+      "total_trips": 122,
+      "year": 2021
+    },
+    {
+      "end_trips": 20538,
+      "start_trips": 20414,
+      "station": "Møllendalsplass",
+      "total_trips": 40952,
+      "year": 2022
+    },
+    {
+      "end_trips": 15618,
+      "start_trips": 14616,
+      "station": "Torgallmenningen",
+      "total_trips": 30234,
+      "year": 2022
+    },
+    {
+      "end_trips": 14770,
+      "start_trips": 14708,
+      "station": "Nykirken",
+      "total_trips": 29478,
+      "year": 2022
+    },
+    {
+      "end_trips": 15283,
+      "start_trips": 14183,
+      "station": "St. Jakobs Plass",
+      "total_trips": 29466,
+      "year": 2022
+    },
+    {
+      "end_trips": 14552,
+      "start_trips": 13509,
+      "station": "Festplassen",
+      "total_trips": 28061,
+      "year": 2022
+    },
+    {
+      "end_trips": 12518,
+      "start_trips": 11430,
+      "station": "C. Sundts gate",
+      "total_trips": 23948,
+      "year": 2022
+    },
+    {
+      "end_trips": 11883,
+      "start_trips": 10990,
+      "station": "Florida Bybanestopp",
+      "total_trips": 22873,
+      "year": 2022
+    },
+    {
+      "end_trips": 10675,
+      "start_trips": 10461,
+      "station": "Torget",
+      "total_trips": 21136,
+      "year": 2022
+    },
+    {
+      "end_trips": 10737,
+      "start_trips": 10044,
+      "station": "Thormøhlens gate",
+      "total_trips": 20781,
+      "year": 2022
+    },
+    {
+      "end_trips": 10521,
+      "start_trips": 10154,
+      "station": "Busstasjonen 1 Nord",
+      "total_trips": 20675,
+      "year": 2022
+    },
+    {
+      "end_trips": 11651,
+      "start_trips": 8935,
+      "station": "Nonneseterplass",
+      "total_trips": 20586,
+      "year": 2022
+    },
+    {
+      "end_trips": 10261,
+      "start_trips": 9433,
+      "station": "Dreggsallmenningen Sør",
+      "total_trips": 19694,
+      "year": 2022
+    },
+    {
+      "end_trips": 9460,
+      "start_trips": 9906,
+      "station": "Damsgårdsveien 2",
+      "total_trips": 19366,
+      "year": 2022
+    },
+    {
+      "end_trips": 9446,
+      "start_trips": 9204,
+      "station": "Studentboligene",
+      "total_trips": 18650,
+      "year": 2022
+    },
+    {
+      "end_trips": 9194,
+      "start_trips": 8493,
+      "station": "Solheimsviken",
+      "total_trips": 17687,
+      "year": 2022
+    },
+    {
+      "end_trips": 9177,
+      "start_trips": 8109,
+      "station": "Krohnviken",
+      "total_trips": 17286,
+      "year": 2022
+    },
+    {
+      "end_trips": 8441,
+      "start_trips": 8052,
+      "station": "Grieghallen",
+      "total_trips": 16493,
+      "year": 2022
+    },
+    {
+      "end_trips": 8146,
+      "start_trips": 8125,
+      "station": "Damsgårdsveien",
+      "total_trips": 16271,
+      "year": 2022
+    },
+    {
+      "end_trips": 9680,
+      "start_trips": 6520,
+      "station": "Høyteknologisenteret",
+      "total_trips": 16200,
+      "year": 2022
+    },
+    {
+      "end_trips": 8210,
+      "start_trips": 7918,
+      "station": "Cornerteateret",
+      "total_trips": 16128,
+      "year": 2022
+    },
+    {
+      "end_trips": 7891,
+      "start_trips": 7901,
+      "station": "Damsgårdsveien 71",
+      "total_trips": 15792,
+      "year": 2022
+    },
+    {
+      "end_trips": 7906,
+      "start_trips": 7730,
+      "station": "Østre Murallmenningen nedre",
+      "total_trips": 15636,
+      "year": 2022
+    },
+    {
+      "end_trips": 8047,
+      "start_trips": 7515,
+      "station": "Nygårdsporten",
+      "total_trips": 15562,
+      "year": 2022
+    },
+    {
+      "end_trips": 7769,
+      "start_trips": 7242,
+      "station": "Lars Hilles",
+      "total_trips": 15011,
+      "year": 2022
+    },
+    {
+      "end_trips": 7889,
+      "start_trips": 7001,
+      "station": "AdO arena",
+      "total_trips": 14890,
+      "year": 2022
+    },
+    {
+      "end_trips": 7451,
+      "start_trips": 7398,
+      "station": "Gågaten",
+      "total_trips": 14849,
+      "year": 2022
+    },
+    {
+      "end_trips": 6054,
+      "start_trips": 8783,
+      "station": "Danmarksplass",
+      "total_trips": 14837,
+      "year": 2022
+    },
+    {
+      "end_trips": 7727,
+      "start_trips": 6803,
+      "station": "Nøstetorget",
+      "total_trips": 14530,
+      "year": 2022
+    },
+    {
+      "end_trips": 7287,
+      "start_trips": 7103,
+      "station": "Jonsvollkvartalet",
+      "total_trips": 14390,
+      "year": 2022
+    },
+    {
+      "end_trips": 6416,
+      "start_trips": 6371,
+      "station": "Dreggsallmenningen Nord",
+      "total_trips": 12787,
+      "year": 2022
+    },
+    {
+      "end_trips": 6649,
+      "start_trips": 5823,
+      "station": "Lysverket",
+      "total_trips": 12472,
+      "year": 2022
+    },
+    {
+      "end_trips": 6363,
+      "start_trips": 5997,
+      "station": "Tårnplass",
+      "total_trips": 12360,
+      "year": 2022
+    },
+    {
+      "end_trips": 6197,
+      "start_trips": 5719,
+      "station": "Moxy Hotellet",
+      "total_trips": 11916,
+      "year": 2022
+    },
+    {
+      "end_trips": 3107,
+      "start_trips": 8588,
+      "station": "Studentsenteret UiB",
+      "total_trips": 11695,
+      "year": 2022
+    },
+    {
+      "end_trips": 6790,
+      "start_trips": 4891,
+      "station": "Kode 2",
+      "total_trips": 11681,
+      "year": 2022
+    },
+    {
+      "end_trips": 5936,
+      "start_trips": 5310,
+      "station": "Sandvikstorget",
+      "total_trips": 11246,
+      "year": 2022
+    },
+    {
+      "end_trips": 5259,
+      "start_trips": 5933,
+      "station": "Frydenbø Marina",
+      "total_trips": 11192,
+      "year": 2022
+    },
+    {
+      "end_trips": 5666,
+      "start_trips": 5457,
+      "station": "Sandviken Brygge",
+      "total_trips": 11123,
+      "year": 2022
+    },
+    {
+      "end_trips": 5660,
+      "start_trips": 5258,
+      "station": "Småstrandgaten",
+      "total_trips": 10918,
+      "year": 2022
+    },
+    {
+      "end_trips": 5539,
+      "start_trips": 5319,
+      "station": "Nykirkekaien",
+      "total_trips": 10858,
+      "year": 2022
+    },
+    {
+      "end_trips": 6164,
+      "start_trips": 4413,
+      "station": "Nedre Korskirkeallmenning",
+      "total_trips": 10577,
+      "year": 2022
+    },
+    {
+      "end_trips": 4996,
+      "start_trips": 5496,
+      "station": "Solheimsgaten (ved Extra)",
+      "total_trips": 10492,
+      "year": 2022
+    },
+    {
+      "end_trips": 5313,
+      "start_trips": 4993,
+      "station": "Neumanns gate II",
+      "total_trips": 10306,
+      "year": 2022
+    },
+    {
+      "end_trips": 4930,
+      "start_trips": 4948,
+      "station": "Kong Oscars gate",
+      "total_trips": 9878,
+      "year": 2022
+    },
+    {
+      "end_trips": 4871,
+      "start_trips": 4803,
+      "station": "Øvre Korskirkeallmenning",
+      "total_trips": 9674,
+      "year": 2022
+    },
+    {
+      "end_trips": 4816,
+      "start_trips": 4764,
+      "station": "Møllestranden",
+      "total_trips": 9580,
+      "year": 2022
+    },
+    {
+      "end_trips": 4759,
+      "start_trips": 4721,
+      "station": "Skutevikstorget",
+      "total_trips": 9480,
+      "year": 2022
+    },
+    {
+      "end_trips": 4600,
+      "start_trips": 4270,
+      "station": "Allehelgens plass",
+      "total_trips": 8870,
+      "year": 2022
+    },
+    {
+      "end_trips": 4276,
+      "start_trips": 4191,
+      "station": "Skur 11",
+      "total_trips": 8467,
+      "year": 2022
+    },
+    {
+      "end_trips": 3863,
+      "start_trips": 4603,
+      "station": "Solheimsgaten COOP Extra",
+      "total_trips": 8466,
+      "year": 2022
+    },
+    {
+      "end_trips": 4178,
+      "start_trips": 3983,
+      "station": "Gulating",
+      "total_trips": 8161,
+      "year": 2022
+    },
+    {
+      "end_trips": 4037,
+      "start_trips": 4029,
+      "station": "Comfort Hotel Bergen",
+      "total_trips": 8066,
+      "year": 2022
+    },
+    {
+      "end_trips": 4223,
+      "start_trips": 3698,
+      "station": "Kode 1",
+      "total_trips": 7921,
+      "year": 2022
+    },
+    {
+      "end_trips": 3829,
+      "start_trips": 3863,
+      "station": "Akvariet",
+      "total_trips": 7692,
+      "year": 2022
+    },
+    {
+      "end_trips": 4044,
+      "start_trips": 3384,
+      "station": "Verftet",
+      "total_trips": 7428,
+      "year": 2022
+    },
+    {
+      "end_trips": 3910,
+      "start_trips": 3449,
+      "station": "Vågsallmenningen",
+      "total_trips": 7359,
+      "year": 2022
+    },
+    {
+      "end_trips": 3344,
+      "start_trips": 3954,
+      "station": "Høgskulen på Vestlandet",
+      "total_trips": 7298,
+      "year": 2022
+    },
+    {
+      "end_trips": 2285,
+      "start_trips": 4817,
+      "station": "Amalie Skrams vei Sør",
+      "total_trips": 7102,
+      "year": 2022
+    },
+    {
+      "end_trips": 3531,
+      "start_trips": 3498,
+      "station": "Damsgårdsallmenningen",
+      "total_trips": 7029,
+      "year": 2022
+    },
+    {
+      "end_trips": 3503,
+      "start_trips": 3521,
+      "station": "John Lunds plass",
+      "total_trips": 7024,
+      "year": 2022
+    },
+    {
+      "end_trips": 3444,
+      "start_trips": 3499,
+      "station": "Welhavens gate 64",
+      "total_trips": 6943,
+      "year": 2022
+    },
+    {
+      "end_trips": 3383,
+      "start_trips": 3356,
+      "station": "Bjørnsonsgate",
+      "total_trips": 6739,
+      "year": 2022
+    },
+    {
+      "end_trips": 3367,
+      "start_trips": 3354,
+      "station": "Busstasjonen 3  Øst",
+      "total_trips": 6721,
+      "year": 2022
+    },
+    {
+      "end_trips": 3345,
+      "start_trips": 3319,
+      "station": "Zander Kaaes gate",
+      "total_trips": 6664,
+      "year": 2022
+    },
+    {
+      "end_trips": 3226,
+      "start_trips": 3062,
+      "station": "Bergen jernbanestasjon",
+      "total_trips": 6288,
+      "year": 2022
+    },
+    {
+      "end_trips": 3073,
+      "start_trips": 3037,
+      "station": "Håkonsgaten",
+      "total_trips": 6110,
+      "year": 2022
+    },
+    {
+      "end_trips": 2545,
+      "start_trips": 3503,
+      "station": "Brann Stadion",
+      "total_trips": 6048,
+      "year": 2022
+    },
+    {
+      "end_trips": 2958,
+      "start_trips": 2993,
+      "station": "Laksevåg senter",
+      "total_trips": 5951,
+      "year": 2022
+    },
+    {
+      "end_trips": 2964,
+      "start_trips": 2940,
+      "station": "Ole Vigs gate",
+      "total_trips": 5904,
+      "year": 2022
+    },
+    {
+      "end_trips": 2935,
+      "start_trips": 2891,
+      "station": "Sandviksbodene",
+      "total_trips": 5826,
+      "year": 2022
+    },
+    {
+      "end_trips": 2486,
+      "start_trips": 3137,
+      "station": "Hansaparken",
+      "total_trips": 5623,
+      "year": 2022
+    },
+    {
+      "end_trips": 3037,
+      "start_trips": 2540,
+      "station": "Laksevåg v/Kirkebukten",
+      "total_trips": 5577,
+      "year": 2022
+    },
+    {
+      "end_trips": 2793,
+      "start_trips": 2732,
+      "station": "Busstasjonen 4 Sør",
+      "total_trips": 5525,
+      "year": 2022
+    },
+    {
+      "end_trips": 2862,
+      "start_trips": 2633,
+      "station": "Neumanns gate",
+      "total_trips": 5495,
+      "year": 2022
+    },
+    {
+      "end_trips": 1034,
+      "start_trips": 4420,
+      "station": "HF-Bygget",
+      "total_trips": 5454,
+      "year": 2022
+    },
+    {
+      "end_trips": 2712,
+      "start_trips": 2675,
+      "station": "Den Nationale Scene",
+      "total_trips": 5387,
+      "year": 2022
+    },
+    {
+      "end_trips": 2592,
+      "start_trips": 2618,
+      "station": "Fosswinckels gate",
+      "total_trips": 5210,
+      "year": 2022
+    },
+    {
+      "end_trips": 2542,
+      "start_trips": 2548,
+      "station": "Rosenbergsgaten",
+      "total_trips": 5090,
+      "year": 2022
+    },
+    {
+      "end_trips": 2538,
+      "start_trips": 2534,
+      "station": "Hans Hauges gate",
+      "total_trips": 5072,
+      "year": 2022
+    },
+    {
+      "end_trips": 1414,
+      "start_trips": 3561,
+      "station": "Haukeland sykehus",
+      "total_trips": 4975,
+      "year": 2022
+    },
+    {
+      "end_trips": 1268,
+      "start_trips": 3145,
+      "station": "Østre Murallmenningen øvre",
+      "total_trips": 4413,
+      "year": 2022
+    },
+    {
+      "end_trips": 1548,
+      "start_trips": 2854,
+      "station": "Klosteret",
+      "total_trips": 4402,
+      "year": 2022
+    },
+    {
+      "end_trips": 1359,
+      "start_trips": 3025,
+      "station": "Odontologen",
+      "total_trips": 4384,
+      "year": 2022
+    },
+    {
+      "end_trips": 2138,
+      "start_trips": 1945,
+      "station": "Neumannsgate",
+      "total_trips": 4083,
+      "year": 2022
+    },
+    {
+      "end_trips": 1296,
+      "start_trips": 2513,
+      "station": "Johanneskirken",
+      "total_trips": 3809,
+      "year": 2022
+    },
+    {
+      "end_trips": 1887,
+      "start_trips": 1894,
+      "station": "Christian Michelsens institutt",
+      "total_trips": 3781,
+      "year": 2022
+    },
+    {
+      "end_trips": 1915,
+      "start_trips": 1861,
+      "station": "Tonningneset",
+      "total_trips": 3776,
+      "year": 2022
+    },
+    {
+      "end_trips": 1639,
+      "start_trips": 1640,
+      "station": "Magnus Lagabøtes Plass",
+      "total_trips": 3279,
+      "year": 2022
+    },
+    {
+      "end_trips": 839,
+      "start_trips": 2149,
+      "station": "Haraldsplass",
+      "total_trips": 2988,
+      "year": 2022
+    },
+    {
+      "end_trips": 1536,
+      "start_trips": 1435,
+      "station": "Busstasjonen 2 Vest",
+      "total_trips": 2971,
+      "year": 2022
+    },
+    {
+      "end_trips": 1418,
+      "start_trips": 1427,
+      "station": "Geofysen",
+      "total_trips": 2845,
+      "year": 2022
+    },
+    {
+      "end_trips": 1236,
+      "start_trips": 1324,
+      "station": "Gamle Bergen",
+      "total_trips": 2560,
+      "year": 2022
+    },
+    {
+      "end_trips": 1059,
+      "start_trips": 1230,
+      "station": "Amalie Skrams vei Nord",
+      "total_trips": 2289,
+      "year": 2022
+    },
+    {
+      "end_trips": 849,
+      "start_trips": 1420,
+      "station": "Haukelandshallen",
+      "total_trips": 2269,
+      "year": 2022
+    },
+    {
+      "end_trips": 1105,
+      "start_trips": 1109,
+      "station": "Bontelabo",
+      "total_trips": 2214,
+      "year": 2022
+    },
+    {
+      "end_trips": 1108,
+      "start_trips": 1082,
+      "station": "Nordnes Sjøbad",
+      "total_trips": 2190,
+      "year": 2022
+    },
+    {
+      "end_trips": 1079,
+      "start_trips": 1032,
+      "station": "Bergen Jernbanestasjon II",
+      "total_trips": 2111,
+      "year": 2022
+    },
+    {
+      "end_trips": 888,
+      "start_trips": 1168,
+      "station": "Kirkegaten",
+      "total_trips": 2056,
+      "year": 2022
+    },
+    {
+      "end_trips": 987,
+      "start_trips": 1005,
+      "station": "Bøhmergaten",
+      "total_trips": 1992,
+      "year": 2022
+    },
+    {
+      "end_trips": 935,
+      "start_trips": 950,
+      "station": "Camilla Colletts gate",
+      "total_trips": 1885,
+      "year": 2022
+    },
+    {
+      "end_trips": 900,
+      "start_trips": 888,
+      "station": "Takhagen på Nordnes",
+      "total_trips": 1788,
+      "year": 2022
+    },
+    {
+      "end_trips": 805,
+      "start_trips": 808,
+      "station": "Camilla Collets gate",
+      "total_trips": 1613,
+      "year": 2022
+    },
+    {
+      "end_trips": 458,
+      "start_trips": 1061,
+      "station": "H.M. Pinnsvinet",
+      "total_trips": 1519,
+      "year": 2022
+    },
+    {
+      "end_trips": 751,
+      "start_trips": 749,
+      "station": "Kalfarveien 31",
+      "total_trips": 1500,
+      "year": 2022
+    },
+    {
+      "end_trips": 734,
+      "start_trips": 731,
+      "station": "Strømgaten",
+      "total_trips": 1465,
+      "year": 2022
+    },
+    {
+      "end_trips": 629,
+      "start_trips": 768,
+      "station": "Kronstad",
+      "total_trips": 1397,
+      "year": 2022
+    },
+    {
+      "end_trips": 560,
+      "start_trips": 719,
+      "station": "NHH",
+      "total_trips": 1279,
+      "year": 2022
+    },
+    {
+      "end_trips": 589,
+      "start_trips": 587,
+      "station": "Damsgårdsveien 125",
+      "total_trips": 1176,
+      "year": 2022
+    },
+    {
+      "end_trips": 355,
+      "start_trips": 349,
+      "station": "Rådhuset",
+      "total_trips": 704,
+      "year": 2022
+    },
+    {
+      "end_trips": 184,
+      "start_trips": 178,
+      "station": "Bontelabo 8",
+      "total_trips": 362,
+      "year": 2022
+    },
+    {
+      "end_trips": 176,
+      "start_trips": 174,
+      "station": "Puddefjordsbroen",
+      "total_trips": 350,
+      "year": 2022
+    },
+    {
+      "end_trips": 14945,
+      "start_trips": 14688,
+      "station": "Møllendalsplass",
+      "total_trips": 29633,
+      "year": 2023
+    },
+    {
+      "end_trips": 12870,
+      "start_trips": 12211,
+      "station": "St. Jakobs Plass",
+      "total_trips": 25081,
+      "year": 2023
+    },
+    {
+      "end_trips": 12354,
+      "start_trips": 12306,
+      "station": "Nykirken",
+      "total_trips": 24660,
+      "year": 2023
+    },
+    {
+      "end_trips": 12611,
+      "start_trips": 11983,
+      "station": "Torgallmenningen",
+      "total_trips": 24594,
+      "year": 2023
+    },
+    {
+      "end_trips": 11957,
+      "start_trips": 10010,
+      "station": "C. Sundts gate",
+      "total_trips": 21967,
+      "year": 2023
+    },
+    {
+      "end_trips": 9930,
+      "start_trips": 9430,
+      "station": "Busstasjonen 1 Nord",
+      "total_trips": 19360,
+      "year": 2023
+    },
+    {
+      "end_trips": 9853,
+      "start_trips": 9402,
+      "station": "Festplassen",
+      "total_trips": 19255,
+      "year": 2023
+    },
+    {
+      "end_trips": 9126,
+      "start_trips": 8647,
+      "station": "Thormøhlens gate",
+      "total_trips": 17773,
+      "year": 2023
+    },
+    {
+      "end_trips": 8872,
+      "start_trips": 8471,
+      "station": "Florida Bybanestopp",
+      "total_trips": 17343,
+      "year": 2023
+    },
+    {
+      "end_trips": 8702,
+      "start_trips": 8463,
+      "station": "Torget",
+      "total_trips": 17165,
+      "year": 2023
+    },
+    {
+      "end_trips": 8434,
+      "start_trips": 8285,
+      "station": "Damsgårdsveien 71",
+      "total_trips": 16719,
+      "year": 2023
+    },
+    {
+      "end_trips": 7984,
+      "start_trips": 7920,
+      "station": "Damsgårdsveien 2",
+      "total_trips": 15904,
+      "year": 2023
+    },
+    {
+      "end_trips": 7188,
+      "start_trips": 8669,
+      "station": "Solheimsgaten (ved Extra)",
+      "total_trips": 15857,
+      "year": 2023
+    },
+    {
+      "end_trips": 8287,
+      "start_trips": 7528,
+      "station": "Krohnviken",
+      "total_trips": 15815,
+      "year": 2023
+    },
+    {
+      "end_trips": 7861,
+      "start_trips": 7350,
+      "station": "Bergen jernbanestasjon",
+      "total_trips": 15211,
+      "year": 2023
+    },
+    {
+      "end_trips": 7650,
+      "start_trips": 6674,
+      "station": "Nygårdsporten",
+      "total_trips": 14324,
+      "year": 2023
+    },
+    {
+      "end_trips": 7227,
+      "start_trips": 6959,
+      "station": "Jonsvollkvartalet",
+      "total_trips": 14186,
+      "year": 2023
+    },
+    {
+      "end_trips": 7831,
+      "start_trips": 6315,
+      "station": "AdO arena",
+      "total_trips": 14146,
+      "year": 2023
+    },
+    {
+      "end_trips": 7339,
+      "start_trips": 6778,
+      "station": "Solheimsviken",
+      "total_trips": 14117,
+      "year": 2023
+    },
+    {
+      "end_trips": 7331,
+      "start_trips": 6761,
+      "station": "Dreggsallmenningen Sør",
+      "total_trips": 14092,
+      "year": 2023
+    },
+    {
+      "end_trips": 6998,
+      "start_trips": 6647,
+      "station": "Østre Murallmenningen nedre",
+      "total_trips": 13645,
+      "year": 2023
+    },
+    {
+      "end_trips": 6894,
+      "start_trips": 6725,
+      "station": "Damsgårdsveien",
+      "total_trips": 13619,
+      "year": 2023
+    },
+    {
+      "end_trips": 8161,
+      "start_trips": 5369,
+      "station": "Høyteknologisenteret",
+      "total_trips": 13530,
+      "year": 2023
+    },
+    {
+      "end_trips": 6928,
+      "start_trips": 6375,
+      "station": "Grieghallen",
+      "total_trips": 13303,
+      "year": 2023
+    },
+    {
+      "end_trips": 6604,
+      "start_trips": 6175,
+      "station": "Lars Hilles",
+      "total_trips": 12779,
+      "year": 2023
+    },
+    {
+      "end_trips": 6396,
+      "start_trips": 6194,
+      "station": "Studentboligene",
+      "total_trips": 12590,
+      "year": 2023
+    },
+    {
+      "end_trips": 7347,
+      "start_trips": 5033,
+      "station": "Nonneseterplass",
+      "total_trips": 12380,
+      "year": 2023
+    },
+    {
+      "end_trips": 6232,
+      "start_trips": 6030,
+      "station": "Cornerteateret",
+      "total_trips": 12262,
+      "year": 2023
+    },
+    {
+      "end_trips": 6082,
+      "start_trips": 6088,
+      "station": "Gågaten",
+      "total_trips": 12170,
+      "year": 2023
+    },
+    {
+      "end_trips": 6081,
+      "start_trips": 6014,
+      "station": "Dreggsallmenningen Nord",
+      "total_trips": 12095,
+      "year": 2023
+    },
+    {
+      "end_trips": 5344,
+      "start_trips": 6516,
+      "station": "Kronstad bybanestopp",
+      "total_trips": 11860,
+      "year": 2023
+    },
+    {
+      "end_trips": 6360,
+      "start_trips": 5483,
+      "station": "Moxy Hotellet",
+      "total_trips": 11843,
+      "year": 2023
+    },
+    {
+      "end_trips": 4335,
+      "start_trips": 7135,
+      "station": "Danmarksplass",
+      "total_trips": 11470,
+      "year": 2023
+    },
+    {
+      "end_trips": 5834,
+      "start_trips": 5607,
+      "station": "Tårnplass",
+      "total_trips": 11441,
+      "year": 2023
+    },
+    {
+      "end_trips": 5800,
+      "start_trips": 5396,
+      "station": "Gulating",
+      "total_trips": 11196,
+      "year": 2023
+    },
+    {
+      "end_trips": 5786,
+      "start_trips": 4833,
+      "station": "Nøstetorget",
+      "total_trips": 10619,
+      "year": 2023
+    },
+    {
+      "end_trips": 5791,
+      "start_trips": 4633,
+      "station": "Stenersen",
+      "total_trips": 10424,
+      "year": 2023
+    },
+    {
+      "end_trips": 5374,
+      "start_trips": 4760,
+      "station": "Småstrandgaten",
+      "total_trips": 10134,
+      "year": 2023
+    },
+    {
+      "end_trips": 5135,
+      "start_trips": 4962,
+      "station": "Nykirkekaien",
+      "total_trips": 10097,
+      "year": 2023
+    },
+    {
+      "end_trips": 2325,
+      "start_trips": 7223,
+      "station": "Studentsenteret UiB",
+      "total_trips": 9548,
+      "year": 2023
+    },
+    {
+      "end_trips": 5289,
+      "start_trips": 4243,
+      "station": "Nedre Korskirkeallmenning",
+      "total_trips": 9532,
+      "year": 2023
+    },
+    {
+      "end_trips": 4552,
+      "start_trips": 4950,
+      "station": "Frydenbø Marina",
+      "total_trips": 9502,
+      "year": 2023
+    },
+    {
+      "end_trips": 4802,
+      "start_trips": 4564,
+      "station": "Neumanns gate II",
+      "total_trips": 9366,
+      "year": 2023
+    },
+    {
+      "end_trips": 4857,
+      "start_trips": 4295,
+      "station": "Sandvikstorget",
+      "total_trips": 9152,
+      "year": 2023
+    },
+    {
+      "end_trips": 4505,
+      "start_trips": 4361,
+      "station": "Øvre Korskirkeallmenning",
+      "total_trips": 8866,
+      "year": 2023
+    },
+    {
+      "end_trips": 4267,
+      "start_trips": 4111,
+      "station": "Skutevikstorget",
+      "total_trips": 8378,
+      "year": 2023
+    },
+    {
+      "end_trips": 4189,
+      "start_trips": 4188,
+      "station": "Comfort Hotel Bergen",
+      "total_trips": 8377,
+      "year": 2023
+    },
+    {
+      "end_trips": 4262,
+      "start_trips": 3916,
+      "station": "Lysverket",
+      "total_trips": 8178,
+      "year": 2023
+    },
+    {
+      "end_trips": 3744,
+      "start_trips": 3730,
+      "station": "Sandviken Brygge",
+      "total_trips": 7474,
+      "year": 2023
+    },
+    {
+      "end_trips": 3958,
+      "start_trips": 3504,
+      "station": "Verftet",
+      "total_trips": 7462,
+      "year": 2023
+    },
+    {
+      "end_trips": 3692,
+      "start_trips": 3732,
+      "station": "Akvariet",
+      "total_trips": 7424,
+      "year": 2023
+    },
+    {
+      "end_trips": 3991,
+      "start_trips": 3367,
+      "station": "Permanenten",
+      "total_trips": 7358,
+      "year": 2023
+    },
+    {
+      "end_trips": 3679,
+      "start_trips": 3671,
+      "station": "Kong Oscars gate",
+      "total_trips": 7350,
+      "year": 2023
+    },
+    {
+      "end_trips": 3617,
+      "start_trips": 3366,
+      "station": "Neumanns gate",
+      "total_trips": 6983,
+      "year": 2023
+    },
+    {
+      "end_trips": 3494,
+      "start_trips": 3374,
+      "station": "Skur 11",
+      "total_trips": 6868,
+      "year": 2023
+    },
+    {
+      "end_trips": 3429,
+      "start_trips": 3333,
+      "station": "Busstasjonen 3  Øst",
+      "total_trips": 6762,
+      "year": 2023
+    },
+    {
+      "end_trips": 3603,
+      "start_trips": 3004,
+      "station": "Vågsallmenningen",
+      "total_trips": 6607,
+      "year": 2023
+    },
+    {
+      "end_trips": 2876,
+      "start_trips": 3693,
+      "station": "Brann Stadion",
+      "total_trips": 6569,
+      "year": 2023
+    },
+    {
+      "end_trips": 3353,
+      "start_trips": 3191,
+      "station": "Allehelgens plass",
+      "total_trips": 6544,
+      "year": 2023
+    },
+    {
+      "end_trips": 2038,
+      "start_trips": 4244,
+      "station": "Amalie Skrams vei Sør",
+      "total_trips": 6282,
+      "year": 2023
+    },
+    {
+      "end_trips": 2531,
+      "start_trips": 3406,
+      "station": "Hansaparken",
+      "total_trips": 5937,
+      "year": 2023
+    },
+    {
+      "end_trips": 2912,
+      "start_trips": 2906,
+      "station": "Welhavens gate 64",
+      "total_trips": 5818,
+      "year": 2023
+    },
+    {
+      "end_trips": 2867,
+      "start_trips": 2895,
+      "station": "Bjørnsonsgate",
+      "total_trips": 5762,
+      "year": 2023
+    },
+    {
+      "end_trips": 2619,
+      "start_trips": 3110,
+      "station": "Høgskulen på Vestlandet",
+      "total_trips": 5729,
+      "year": 2023
+    },
+    {
+      "end_trips": 2837,
+      "start_trips": 2824,
+      "station": "Damsgårdsallmenningen",
+      "total_trips": 5661,
+      "year": 2023
+    },
+    {
+      "end_trips": 2804,
+      "start_trips": 2704,
+      "station": "Møllestranden",
+      "total_trips": 5508,
+      "year": 2023
+    },
+    {
+      "end_trips": 1014,
+      "start_trips": 4322,
+      "station": "HF-Bygget",
+      "total_trips": 5336,
+      "year": 2023
+    },
+    {
+      "end_trips": 2584,
+      "start_trips": 2573,
+      "station": "Ole Vigs gate",
+      "total_trips": 5157,
+      "year": 2023
+    },
+    {
+      "end_trips": 2676,
+      "start_trips": 2474,
+      "station": "Laksevåg v/Kirkebukten",
+      "total_trips": 5150,
+      "year": 2023
+    },
+    {
+      "end_trips": 2551,
+      "start_trips": 2545,
+      "station": "John Lunds plass",
+      "total_trips": 5096,
+      "year": 2023
+    },
+    {
+      "end_trips": 2558,
+      "start_trips": 2450,
+      "station": "Busstasjonen 4 Sør",
+      "total_trips": 5008,
+      "year": 2023
+    },
+    {
+      "end_trips": 2524,
+      "start_trips": 2472,
+      "station": "Sandviksbodene",
+      "total_trips": 4996,
+      "year": 2023
+    },
+    {
+      "end_trips": 2540,
+      "start_trips": 2390,
+      "station": "Bergen Jernbanestasjon II",
+      "total_trips": 4930,
+      "year": 2023
+    },
+    {
+      "end_trips": 2403,
+      "start_trips": 2370,
+      "station": "Håkonsgaten",
+      "total_trips": 4773,
+      "year": 2023
+    },
+    {
+      "end_trips": 1288,
+      "start_trips": 3428,
+      "station": "Haukeland sykehus",
+      "total_trips": 4716,
+      "year": 2023
+    },
+    {
+      "end_trips": 2341,
+      "start_trips": 2266,
+      "station": "Den Nationale Scene",
+      "total_trips": 4607,
+      "year": 2023
+    },
+    {
+      "end_trips": 2302,
+      "start_trips": 2222,
+      "station": "Zander Kaaes gate",
+      "total_trips": 4524,
+      "year": 2023
+    },
+    {
+      "end_trips": 2185,
+      "start_trips": 2189,
+      "station": "Fosswinckels gate",
+      "total_trips": 4374,
+      "year": 2023
+    },
+    {
+      "end_trips": 1045,
+      "start_trips": 3153,
+      "station": "Østre Murallmenningen øvre",
+      "total_trips": 4198,
+      "year": 2023
+    },
+    {
+      "end_trips": 2024,
+      "start_trips": 2046,
+      "station": "Rosenbergsgaten",
+      "total_trips": 4070,
+      "year": 2023
+    },
+    {
+      "end_trips": 1982,
+      "start_trips": 1990,
+      "station": "Laksevåg senter",
+      "total_trips": 3972,
+      "year": 2023
+    },
+    {
+      "end_trips": 1361,
+      "start_trips": 2555,
+      "station": "Klosteret",
+      "total_trips": 3916,
+      "year": 2023
+    },
+    {
+      "end_trips": 1113,
+      "start_trips": 2702,
+      "station": "Odontologen",
+      "total_trips": 3815,
+      "year": 2023
+    },
+    {
+      "end_trips": 1654,
+      "start_trips": 2159,
+      "station": "Oasen",
+      "total_trips": 3813,
+      "year": 2023
+    },
+    {
+      "end_trips": 1890,
+      "start_trips": 1923,
+      "station": "Hans Hauges gate",
+      "total_trips": 3813,
+      "year": 2023
+    },
+    {
+      "end_trips": 1789,
+      "start_trips": 1748,
+      "station": "Tonningneset",
+      "total_trips": 3537,
+      "year": 2023
+    },
+    {
+      "end_trips": 1615,
+      "start_trips": 1622,
+      "station": "Gamle Bergen",
+      "total_trips": 3237,
+      "year": 2023
+    },
+    {
+      "end_trips": 1111,
+      "start_trips": 2067,
+      "station": "Johanneskirken",
+      "total_trips": 3178,
+      "year": 2023
+    },
+    {
+      "end_trips": 1531,
+      "start_trips": 1507,
+      "station": "Bontelabo",
+      "total_trips": 3038,
+      "year": 2023
+    },
+    {
+      "end_trips": 1420,
+      "start_trips": 1395,
+      "station": "Nordnes Sjøbad",
+      "total_trips": 2815,
+      "year": 2023
+    },
+    {
+      "end_trips": 1406,
+      "start_trips": 1347,
+      "station": "Christian Michelsens institutt",
+      "total_trips": 2753,
+      "year": 2023
+    },
+    {
+      "end_trips": 1299,
+      "start_trips": 1371,
+      "station": "Fyllingsdalen bussterminal",
+      "total_trips": 2670,
+      "year": 2023
+    },
+    {
+      "end_trips": 1344,
+      "start_trips": 1231,
+      "station": "Busstasjonen 2 Vest",
+      "total_trips": 2575,
+      "year": 2023
+    },
+    {
+      "end_trips": 1107,
+      "start_trips": 1107,
+      "station": "Magnus Lagabøtes Plass",
+      "total_trips": 2214,
+      "year": 2023
+    },
+    {
+      "end_trips": 1093,
+      "start_trips": 1080,
+      "station": "Rådhuset",
+      "total_trips": 2173,
+      "year": 2023
+    },
+    {
+      "end_trips": 1017,
+      "start_trips": 1148,
+      "station": "Haukelandshallen",
+      "total_trips": 2165,
+      "year": 2023
+    },
+    {
+      "end_trips": 1015,
+      "start_trips": 1035,
+      "station": "Geofysen",
+      "total_trips": 2050,
+      "year": 2023
+    },
+    {
+      "end_trips": 1006,
+      "start_trips": 985,
+      "station": "Kristianborg bybanestopp",
+      "total_trips": 1991,
+      "year": 2023
+    },
+    {
+      "end_trips": 893,
+      "start_trips": 1003,
+      "station": "Kirkegaten",
+      "total_trips": 1896,
+      "year": 2023
+    },
+    {
+      "end_trips": 853,
+      "start_trips": 853,
+      "station": "Takhagen på Nordnes",
+      "total_trips": 1706,
+      "year": 2023
+    },
+    {
+      "end_trips": 848,
+      "start_trips": 856,
+      "station": "Camilla Colletts gate",
+      "total_trips": 1704,
+      "year": 2023
+    },
+    {
+      "end_trips": 746,
+      "start_trips": 769,
+      "station": "Bøhmergaten",
+      "total_trips": 1515,
+      "year": 2023
+    },
+    {
+      "end_trips": 668,
+      "start_trips": 802,
+      "station": "Amalie Skrams vei Nord",
+      "total_trips": 1470,
+      "year": 2023
+    },
+    {
+      "end_trips": 697,
+      "start_trips": 662,
+      "station": "Bontelabo 8",
+      "total_trips": 1359,
+      "year": 2023
+    },
+    {
+      "end_trips": 451,
+      "start_trips": 820,
+      "station": "Haraldsplass",
+      "total_trips": 1271,
+      "year": 2023
+    },
+    {
+      "end_trips": 612,
+      "start_trips": 603,
+      "station": "Strømgaten",
+      "total_trips": 1215,
+      "year": 2023
+    },
+    {
+      "end_trips": 570,
+      "start_trips": 571,
+      "station": "Damsgårdsveien 125",
+      "total_trips": 1141,
+      "year": 2023
+    },
+    {
+      "end_trips": 543,
+      "start_trips": 547,
+      "station": "Puddefjordsbroen",
+      "total_trips": 1090,
+      "year": 2023
+    },
+    {
+      "end_trips": 524,
+      "start_trips": 523,
+      "station": "Kalfarveien 31",
+      "total_trips": 1047,
+      "year": 2023
+    },
+    {
+      "end_trips": 466,
+      "start_trips": 580,
+      "station": "NHH",
+      "total_trips": 1046,
+      "year": 2023
+    },
+    {
+      "end_trips": 437,
+      "start_trips": 464,
+      "station": "Kronstad",
+      "total_trips": 901,
+      "year": 2023
+    },
+    {
+      "end_trips": 366,
+      "start_trips": 356,
+      "station": "Sælen",
+      "total_trips": 722,
+      "year": 2023
+    },
+    {
+      "end_trips": 352,
+      "start_trips": 368,
+      "station": "Lynghaugparken",
+      "total_trips": 720,
+      "year": 2023
+    },
+    {
+      "end_trips": 299,
+      "start_trips": 262,
+      "station": "Spelhaugen",
+      "total_trips": 561,
+      "year": 2023
+    },
+    {
+      "end_trips": 175,
+      "start_trips": 304,
+      "station": "Sælemyr busstopp",
+      "total_trips": 479,
+      "year": 2023
+    },
+    {
+      "end_trips": 197,
+      "start_trips": 199,
+      "station": "Ortustranden",
+      "total_trips": 396,
+      "year": 2023
+    },
+    {
+      "end_trips": 91,
+      "start_trips": 191,
+      "station": "H.M. Pinnsvinet",
+      "total_trips": 282,
+      "year": 2023
+    },
+    {
+      "end_trips": 109,
+      "start_trips": 120,
+      "station": "Lynghaug Borettslag",
+      "total_trips": 229,
+      "year": 2023
+    },
+    {
+      "end_trips": 87,
+      "start_trips": 120,
+      "station": "Dag Hammarskjöldsvei 73",
+      "total_trips": 207,
+      "year": 2023
+    },
+    {
+      "end_trips": 51,
+      "start_trips": 119,
+      "station": "Folke Bernadottesvei 38",
+      "total_trips": 170,
+      "year": 2023
+    },
+    {
+      "end_trips": 65,
+      "start_trips": 97,
+      "station": "Ortun Svømmehall",
+      "total_trips": 162,
+      "year": 2023
+    },
+    {
+      "end_trips": 15,
+      "start_trips": 45,
+      "station": "Vestlund Borettslag",
+      "total_trips": 60,
+      "year": 2023
+    },
+    {
+      "end_trips": 16,
+      "start_trips": 17,
+      "station": "Kode 2",
+      "total_trips": 33,
+      "year": 2023
+    },
+    {
+      "end_trips": 9,
+      "start_trips": 7,
+      "station": "Kode 1",
+      "total_trips": 16,
+      "year": 2023
+    },
+    {
+      "end_trips": 7,
+      "start_trips": 1,
+      "station": "Holtet Borettslag",
+      "total_trips": 8,
+      "year": 2023
+    },
+    {
+      "end_trips": 12375,
+      "start_trips": 11363,
+      "station": "Torgallmenningen",
+      "total_trips": 23738,
+      "year": 2024
+    },
+    {
+      "end_trips": 11867,
+      "start_trips": 11645,
+      "station": "Møllendalsplass",
+      "total_trips": 23512,
+      "year": 2024
+    },
+    {
+      "end_trips": 11408,
+      "start_trips": 11377,
+      "station": "Nykirken",
+      "total_trips": 22785,
+      "year": 2024
+    },
+    {
+      "end_trips": 10227,
+      "start_trips": 9273,
+      "station": "St. Jakobs Plass",
+      "total_trips": 19500,
+      "year": 2024
+    },
+    {
+      "end_trips": 10732,
+      "start_trips": 8433,
+      "station": "C. Sundts gate",
+      "total_trips": 19165,
+      "year": 2024
+    },
+    {
+      "end_trips": 9692,
+      "start_trips": 8724,
+      "station": "Busstasjonen 1 Nord",
+      "total_trips": 18416,
+      "year": 2024
+    },
+    {
+      "end_trips": 8343,
+      "start_trips": 8280,
+      "station": "Damsgårdsveien 71",
+      "total_trips": 16623,
+      "year": 2024
+    },
+    {
+      "end_trips": 8160,
+      "start_trips": 7895,
+      "station": "Bergen jernbanestasjon",
+      "total_trips": 16055,
+      "year": 2024
+    },
+    {
+      "end_trips": 6406,
+      "start_trips": 8978,
+      "station": "Kronstad bybanestopp",
+      "total_trips": 15384,
+      "year": 2024
+    },
+    {
+      "end_trips": 7899,
+      "start_trips": 7372,
+      "station": "Florida Bybanestopp",
+      "total_trips": 15271,
+      "year": 2024
+    },
+    {
+      "end_trips": 7687,
+      "start_trips": 7337,
+      "station": "Thormøhlens gate",
+      "total_trips": 15024,
+      "year": 2024
+    },
+    {
+      "end_trips": 7657,
+      "start_trips": 7169,
+      "station": "Nygårdsporten",
+      "total_trips": 14826,
+      "year": 2024
+    },
+    {
+      "end_trips": 7623,
+      "start_trips": 7202,
+      "station": "Torget",
+      "total_trips": 14825,
+      "year": 2024
+    },
+    {
+      "end_trips": 7415,
+      "start_trips": 7098,
+      "station": "Krohnviken",
+      "total_trips": 14513,
+      "year": 2024
+    },
+    {
+      "end_trips": 6504,
+      "start_trips": 7902,
+      "station": "Solheimsgaten (ved Extra)",
+      "total_trips": 14406,
+      "year": 2024
+    },
+    {
+      "end_trips": 6634,
+      "start_trips": 6593,
+      "station": "Damsgårdsveien 2",
+      "total_trips": 13227,
+      "year": 2024
+    },
+    {
+      "end_trips": 6715,
+      "start_trips": 6467,
+      "station": "Festplassen",
+      "total_trips": 13182,
+      "year": 2024
+    },
+    {
+      "end_trips": 6297,
+      "start_trips": 6128,
+      "station": "Østre Murallmenningen nedre",
+      "total_trips": 12425,
+      "year": 2024
+    },
+    {
+      "end_trips": 6308,
+      "start_trips": 5909,
+      "station": "Solheimsviken",
+      "total_trips": 12217,
+      "year": 2024
+    },
+    {
+      "end_trips": 6451,
+      "start_trips": 5734,
+      "station": "Dreggsallmenningen Sør",
+      "total_trips": 12185,
+      "year": 2024
+    },
+    {
+      "end_trips": 6362,
+      "start_trips": 5766,
+      "station": "Studentboligene",
+      "total_trips": 12128,
+      "year": 2024
+    },
+    {
+      "end_trips": 6037,
+      "start_trips": 5856,
+      "station": "Gulating",
+      "total_trips": 11893,
+      "year": 2024
+    },
+    {
+      "end_trips": 6278,
+      "start_trips": 5441,
+      "station": "AdO arena",
+      "total_trips": 11719,
+      "year": 2024
+    },
+    {
+      "end_trips": 6613,
+      "start_trips": 5098,
+      "station": "Høyteknologisenteret",
+      "total_trips": 11711,
+      "year": 2024
+    },
+    {
+      "end_trips": 5685,
+      "start_trips": 5666,
+      "station": "Gågaten",
+      "total_trips": 11351,
+      "year": 2024
+    },
+    {
+      "end_trips": 5827,
+      "start_trips": 5501,
+      "station": "Jonsvollkvartalet",
+      "total_trips": 11328,
+      "year": 2024
+    },
+    {
+      "end_trips": 5453,
+      "start_trips": 5469,
+      "station": "Dreggsallmenningen Nord",
+      "total_trips": 10922,
+      "year": 2024
+    },
+    {
+      "end_trips": 5364,
+      "start_trips": 5349,
+      "station": "Damsgårdsveien",
+      "total_trips": 10713,
+      "year": 2024
+    },
+    {
+      "end_trips": 5397,
+      "start_trips": 5263,
+      "station": "Grieghallen",
+      "total_trips": 10660,
+      "year": 2024
+    },
+    {
+      "end_trips": 5433,
+      "start_trips": 5163,
+      "station": "Lars Hilles",
+      "total_trips": 10596,
+      "year": 2024
+    },
+    {
+      "end_trips": 5241,
+      "start_trips": 4989,
+      "station": "Moxy Hotellet",
+      "total_trips": 10230,
+      "year": 2024
+    },
+    {
+      "end_trips": 5433,
+      "start_trips": 4433,
+      "station": "Nedre Korskirkeallmenning",
+      "total_trips": 9866,
+      "year": 2024
+    },
+    {
+      "end_trips": 5066,
+      "start_trips": 4798,
+      "station": "Cornerteateret",
+      "total_trips": 9864,
+      "year": 2024
+    },
+    {
+      "end_trips": 5007,
+      "start_trips": 4107,
+      "station": "Småstrandgaten",
+      "total_trips": 9114,
+      "year": 2024
+    },
+    {
+      "end_trips": 5286,
+      "start_trips": 3756,
+      "station": "Stenersen",
+      "total_trips": 9042,
+      "year": 2024
+    },
+    {
+      "end_trips": 4354,
+      "start_trips": 4311,
+      "station": "Nykirkekaien",
+      "total_trips": 8665,
+      "year": 2024
+    },
+    {
+      "end_trips": 4187,
+      "start_trips": 4219,
+      "station": "Frydenbø Marina",
+      "total_trips": 8406,
+      "year": 2024
+    },
+    {
+      "end_trips": 4166,
+      "start_trips": 4154,
+      "station": "Comfort Hotel Bergen",
+      "total_trips": 8320,
+      "year": 2024
+    },
+    {
+      "end_trips": 4553,
+      "start_trips": 3733,
+      "station": "Nøstetorget",
+      "total_trips": 8286,
+      "year": 2024
+    },
+    {
+      "end_trips": 4117,
+      "start_trips": 3944,
+      "station": "Skur 11",
+      "total_trips": 8061,
+      "year": 2024
+    },
+    {
+      "end_trips": 3118,
+      "start_trips": 4940,
+      "station": "Danmarksplass",
+      "total_trips": 8058,
+      "year": 2024
+    },
+    {
+      "end_trips": 4000,
+      "start_trips": 3550,
+      "station": "Sandvikstorget",
+      "total_trips": 7550,
+      "year": 2024
+    },
+    {
+      "end_trips": 3734,
+      "start_trips": 3725,
+      "station": "Kong Oscars gate",
+      "total_trips": 7459,
+      "year": 2024
+    },
+    {
+      "end_trips": 3662,
+      "start_trips": 3606,
+      "station": "Akvariet",
+      "total_trips": 7268,
+      "year": 2024
+    },
+    {
+      "end_trips": 1851,
+      "start_trips": 5398,
+      "station": "Studentsenteret UiB",
+      "total_trips": 7249,
+      "year": 2024
+    },
+    {
+      "end_trips": 3685,
+      "start_trips": 3378,
+      "station": "Allehelgens plass",
+      "total_trips": 7063,
+      "year": 2024
+    },
+    {
+      "end_trips": 3491,
+      "start_trips": 3457,
+      "station": "Damsgårdsallmenningen",
+      "total_trips": 6948,
+      "year": 2024
+    },
+    {
+      "end_trips": 3554,
+      "start_trips": 3381,
+      "station": "Neumanns gate II",
+      "total_trips": 6935,
+      "year": 2024
+    },
+    {
+      "end_trips": 3638,
+      "start_trips": 3273,
+      "station": "Verftet",
+      "total_trips": 6911,
+      "year": 2024
+    },
+    {
+      "end_trips": 3835,
+      "start_trips": 3061,
+      "station": "Lysverket",
+      "total_trips": 6896,
+      "year": 2024
+    },
+    {
+      "end_trips": 3412,
+      "start_trips": 3113,
+      "station": "Permanenten",
+      "total_trips": 6525,
+      "year": 2024
+    },
+    {
+      "end_trips": 3229,
+      "start_trips": 3131,
+      "station": "Sandviken Brygge",
+      "total_trips": 6360,
+      "year": 2024
+    },
+    {
+      "end_trips": 3282,
+      "start_trips": 2913,
+      "station": "Neumanns gate",
+      "total_trips": 6195,
+      "year": 2024
+    },
+    {
+      "end_trips": 2267,
+      "start_trips": 3677,
+      "station": "Hansaparken",
+      "total_trips": 5944,
+      "year": 2024
+    },
+    {
+      "end_trips": 2568,
+      "start_trips": 3193,
+      "station": "Brann Stadion",
+      "total_trips": 5761,
+      "year": 2024
+    },
+    {
+      "end_trips": 1875,
+      "start_trips": 3874,
+      "station": "Amalie Skrams vei Sør",
+      "total_trips": 5749,
+      "year": 2024
+    },
+    {
+      "end_trips": 2757,
+      "start_trips": 2766,
+      "station": "John Lunds plass",
+      "total_trips": 5523,
+      "year": 2024
+    },
+    {
+      "end_trips": 2765,
+      "start_trips": 2405,
+      "station": "Vågsallmenningen",
+      "total_trips": 5170,
+      "year": 2024
+    },
+    {
+      "end_trips": 2538,
+      "start_trips": 2521,
+      "station": "Welhavens gate 64",
+      "total_trips": 5059,
+      "year": 2024
+    },
+    {
+      "end_trips": 2592,
+      "start_trips": 2450,
+      "station": "Tårnplass",
+      "total_trips": 5042,
+      "year": 2024
+    },
+    {
+      "end_trips": 2498,
+      "start_trips": 2423,
+      "station": "Busstasjonen 3  Øst",
+      "total_trips": 4921,
+      "year": 2024
+    },
+    {
+      "end_trips": 2470,
+      "start_trips": 2429,
+      "station": "Møllestranden",
+      "total_trips": 4899,
+      "year": 2024
+    },
+    {
+      "end_trips": 2300,
+      "start_trips": 2257,
+      "station": "Sandviksbodene",
+      "total_trips": 4557,
+      "year": 2024
+    },
+    {
+      "end_trips": 2296,
+      "start_trips": 2214,
+      "station": "Kristianborg bybanestopp",
+      "total_trips": 4510,
+      "year": 2024
+    },
+    {
+      "end_trips": 627,
+      "start_trips": 3826,
+      "station": "HF-Bygget",
+      "total_trips": 4453,
+      "year": 2024
+    },
+    {
+      "end_trips": 2198,
+      "start_trips": 2192,
+      "station": "Håkonsgaten",
+      "total_trips": 4390,
+      "year": 2024
+    },
+    {
+      "end_trips": 2416,
+      "start_trips": 1965,
+      "station": "Laksevåg v/Kirkebukten",
+      "total_trips": 4381,
+      "year": 2024
+    },
+    {
+      "end_trips": 2153,
+      "start_trips": 2163,
+      "station": "Ole Vigs gate",
+      "total_trips": 4316,
+      "year": 2024
+    },
+    {
+      "end_trips": 1062,
+      "start_trips": 3242,
+      "station": "Østre Murallmenningen øvre",
+      "total_trips": 4304,
+      "year": 2024
+    },
+    {
+      "end_trips": 1977,
+      "start_trips": 1981,
+      "station": "Fosswinckels gate",
+      "total_trips": 3958,
+      "year": 2024
+    },
+    {
+      "end_trips": 2014,
+      "start_trips": 1938,
+      "station": "Bergen Jernbanestasjon II",
+      "total_trips": 3952,
+      "year": 2024
+    },
+    {
+      "end_trips": 1983,
+      "start_trips": 1948,
+      "station": "Den Nationale Scene",
+      "total_trips": 3931,
+      "year": 2024
+    },
+    {
+      "end_trips": 2403,
+      "start_trips": 1403,
+      "station": "Nonneseterplass",
+      "total_trips": 3806,
+      "year": 2024
+    },
+    {
+      "end_trips": 1014,
+      "start_trips": 2724,
+      "station": "Haukeland sykehus",
+      "total_trips": 3738,
+      "year": 2024
+    },
+    {
+      "end_trips": 1857,
+      "start_trips": 1847,
+      "station": "Bjørnsonsgate",
+      "total_trips": 3704,
+      "year": 2024
+    },
+    {
+      "end_trips": 1668,
+      "start_trips": 1979,
+      "station": "Høgskulen på Vestlandet",
+      "total_trips": 3647,
+      "year": 2024
+    },
+    {
+      "end_trips": 1767,
+      "start_trips": 1713,
+      "station": "Busstasjonen 4 Sør",
+      "total_trips": 3480,
+      "year": 2024
+    },
+    {
+      "end_trips": 1697,
+      "start_trips": 1721,
+      "station": "Hans Hauges gate",
+      "total_trips": 3418,
+      "year": 2024
+    },
+    {
+      "end_trips": 1609,
+      "start_trips": 1610,
+      "station": "Rosenbergsgaten",
+      "total_trips": 3219,
+      "year": 2024
+    },
+    {
+      "end_trips": 1623,
+      "start_trips": 1575,
+      "station": "Zander Kaaes gate",
+      "total_trips": 3198,
+      "year": 2024
+    },
+    {
+      "end_trips": 1583,
+      "start_trips": 1571,
+      "station": "Laksevåg senter",
+      "total_trips": 3154,
+      "year": 2024
+    },
+    {
+      "end_trips": 858,
+      "start_trips": 2199,
+      "station": "Odontologen",
+      "total_trips": 3057,
+      "year": 2024
+    },
+    {
+      "end_trips": 1526,
+      "start_trips": 1476,
+      "station": "Skutevikstorget",
+      "total_trips": 3002,
+      "year": 2024
+    },
+    {
+      "end_trips": 1288,
+      "start_trips": 1682,
+      "station": "Klosteret",
+      "total_trips": 2970,
+      "year": 2024
+    },
+    {
+      "end_trips": 1426,
+      "start_trips": 1421,
+      "station": "Nordnes Sjøbad",
+      "total_trips": 2847,
+      "year": 2024
+    },
+    {
+      "end_trips": 1353,
+      "start_trips": 1290,
+      "station": "Tonningneset",
+      "total_trips": 2643,
+      "year": 2024
+    },
+    {
+      "end_trips": 1305,
+      "start_trips": 1287,
+      "station": "Øvre Korskirkeallmenning",
+      "total_trips": 2592,
+      "year": 2024
+    },
+    {
+      "end_trips": 1262,
+      "start_trips": 1255,
+      "station": "Bontelabo",
+      "total_trips": 2517,
+      "year": 2024
+    },
+    {
+      "end_trips": 1240,
+      "start_trips": 1276,
+      "station": "Gamle Bergen",
+      "total_trips": 2516,
+      "year": 2024
+    },
+    {
+      "end_trips": 1137,
+      "start_trips": 1181,
+      "station": "Fyllingsdalen bussterminal",
+      "total_trips": 2318,
+      "year": 2024
+    },
+    {
+      "end_trips": 1078,
+      "start_trips": 1065,
+      "station": "Christian Michelsens institutt",
+      "total_trips": 2143,
+      "year": 2024
+    },
+    {
+      "end_trips": 943,
+      "start_trips": 1010,
+      "station": "Haukelandshallen",
+      "total_trips": 1953,
+      "year": 2024
+    },
+    {
+      "end_trips": 994,
+      "start_trips": 950,
+      "station": "Rådhuset",
+      "total_trips": 1944,
+      "year": 2024
+    },
+    {
+      "end_trips": 872,
+      "start_trips": 1071,
+      "station": "Johanneskirken",
+      "total_trips": 1943,
+      "year": 2024
+    },
+    {
+      "end_trips": 946,
+      "start_trips": 971,
+      "station": "Kirkegaten",
+      "total_trips": 1917,
+      "year": 2024
+    },
+    {
+      "end_trips": 953,
+      "start_trips": 953,
+      "station": "Puddefjordsbroen",
+      "total_trips": 1906,
+      "year": 2024
+    },
+    {
+      "end_trips": 966,
+      "start_trips": 919,
+      "station": "Busstasjonen 2 Vest",
+      "total_trips": 1885,
+      "year": 2024
+    },
+    {
+      "end_trips": 918,
+      "start_trips": 912,
+      "station": "Mindemyren bybanestopp",
+      "total_trips": 1830,
+      "year": 2024
+    },
+    {
+      "end_trips": 886,
+      "start_trips": 856,
+      "station": "Bontelabo 8",
+      "total_trips": 1742,
+      "year": 2024
+    },
+    {
+      "end_trips": 737,
+      "start_trips": 963,
+      "station": "Oasen",
+      "total_trips": 1700,
+      "year": 2024
+    },
+    {
+      "end_trips": 817,
+      "start_trips": 818,
+      "station": "Magnus Lagabøtes Plass",
+      "total_trips": 1635,
+      "year": 2024
+    },
+    {
+      "end_trips": 814,
+      "start_trips": 793,
+      "station": "Tollbodalmenningen",
+      "total_trips": 1607,
+      "year": 2024
+    },
+    {
+      "end_trips": 757,
+      "start_trips": 758,
+      "station": "Kronstad Allmenning",
+      "total_trips": 1515,
+      "year": 2024
+    },
+    {
+      "end_trips": 673,
+      "start_trips": 790,
+      "station": "Amalie Skrams vei Nord",
+      "total_trips": 1463,
+      "year": 2024
+    },
+    {
+      "end_trips": 709,
+      "start_trips": 701,
+      "station": "Bøhmergaten",
+      "total_trips": 1410,
+      "year": 2024
+    },
+    {
+      "end_trips": 674,
+      "start_trips": 675,
+      "station": "Takhagen på Nordnes",
+      "total_trips": 1349,
+      "year": 2024
+    },
+    {
+      "end_trips": 580,
+      "start_trips": 582,
+      "station": "Strømgaten",
+      "total_trips": 1162,
+      "year": 2024
+    },
+    {
+      "end_trips": 387,
+      "start_trips": 721,
+      "station": "Haraldsplass",
+      "total_trips": 1108,
+      "year": 2024
+    },
+    {
+      "end_trips": 326,
+      "start_trips": 483,
+      "station": "NHH",
+      "total_trips": 809,
+      "year": 2024
+    },
+    {
+      "end_trips": 404,
+      "start_trips": 399,
+      "station": "Damsgårdsveien 125",
+      "total_trips": 803,
+      "year": 2024
+    },
+    {
+      "end_trips": 276,
+      "start_trips": 303,
+      "station": "Kronstad",
+      "total_trips": 579,
+      "year": 2024
+    },
+    {
+      "end_trips": 274,
+      "start_trips": 270,
+      "station": "Kalfarveien 31",
+      "total_trips": 544,
+      "year": 2024
+    },
+    {
+      "end_trips": 217,
+      "start_trips": 222,
+      "station": "Spelhaugen",
+      "total_trips": 439,
+      "year": 2024
+    },
+    {
+      "end_trips": 200,
+      "start_trips": 224,
+      "station": "Holtet Borettslag",
+      "total_trips": 424,
+      "year": 2024
+    },
+    {
+      "end_trips": 161,
+      "start_trips": 247,
+      "station": "Sælemyr busstopp",
+      "total_trips": 408,
+      "year": 2024
+    },
+    {
+      "end_trips": 150,
+      "start_trips": 144,
+      "station": "Lynghaugparken",
+      "total_trips": 294,
+      "year": 2024
+    },
+    {
+      "end_trips": 146,
+      "start_trips": 139,
+      "station": "Sælen",
+      "total_trips": 285,
+      "year": 2024
+    },
+    {
+      "end_trips": 91,
+      "start_trips": 83,
+      "station": "Ortustranden",
+      "total_trips": 174,
+      "year": 2024
+    },
+    {
+      "end_trips": 61,
+      "start_trips": 82,
+      "station": "Lynghaug Borettslag",
+      "total_trips": 143,
+      "year": 2024
+    },
+    {
+      "end_trips": 19,
+      "start_trips": 116,
+      "station": "Vestlund Borettslag",
+      "total_trips": 135,
+      "year": 2024
+    },
+    {
+      "end_trips": 47,
+      "start_trips": 76,
+      "station": "Dag Hammarskjöldsvei 73",
+      "total_trips": 123,
+      "year": 2024
+    },
+    {
+      "end_trips": 30,
+      "start_trips": 37,
+      "station": "Ortun Svømmehall",
+      "total_trips": 67,
+      "year": 2024
+    },
+    {
+      "end_trips": 23,
+      "start_trips": 23,
+      "station": "Folke Bernadottesvei 38",
+      "total_trips": 46,
+      "year": 2024
+    },
+    {
+      "end_trips": 10277,
+      "start_trips": 10124,
+      "station": "Torgallmenningen",
+      "total_trips": 20401,
+      "year": 2025
+    },
+    {
+      "end_trips": 8505,
+      "start_trips": 8075,
+      "station": "St. Jakobs Plass",
+      "total_trips": 16580,
+      "year": 2025
+    },
+    {
+      "end_trips": 7712,
+      "start_trips": 7713,
+      "station": "Nykirken",
+      "total_trips": 15425,
+      "year": 2025
+    },
+    {
+      "end_trips": 7076,
+      "start_trips": 7037,
+      "station": "Møllendalsplass",
+      "total_trips": 14113,
+      "year": 2025
+    },
+    {
+      "end_trips": 6751,
+      "start_trips": 6652,
+      "station": "Damsgårdsveien 71",
+      "total_trips": 13403,
+      "year": 2025
+    },
+    {
+      "end_trips": 6163,
+      "start_trips": 6140,
+      "station": "Busstasjonen 1 Nord",
+      "total_trips": 12303,
+      "year": 2025
+    },
+    {
+      "end_trips": 6110,
+      "start_trips": 6072,
+      "station": "Bergen jernbanestasjon",
+      "total_trips": 12182,
+      "year": 2025
+    },
+    {
+      "end_trips": 6124,
+      "start_trips": 6006,
+      "station": "Thormøhlens gate",
+      "total_trips": 12130,
+      "year": 2025
+    },
+    {
+      "end_trips": 6334,
+      "start_trips": 5698,
+      "station": "C. Sundts gate",
+      "total_trips": 12032,
+      "year": 2025
+    },
+    {
+      "end_trips": 5761,
+      "start_trips": 5713,
+      "station": "Damsgårdsveien 2",
+      "total_trips": 11474,
+      "year": 2025
+    },
+    {
+      "end_trips": 5612,
+      "start_trips": 5500,
+      "station": "Torget",
+      "total_trips": 11112,
+      "year": 2025
+    },
+    {
+      "end_trips": 5579,
+      "start_trips": 5370,
+      "station": "Solheimsviken",
+      "total_trips": 10949,
+      "year": 2025
+    },
+    {
+      "end_trips": 5733,
+      "start_trips": 5120,
+      "station": "Florida Bybanestopp",
+      "total_trips": 10853,
+      "year": 2025
+    },
+    {
+      "end_trips": 4738,
+      "start_trips": 5988,
+      "station": "Kronstad bybanestopp",
+      "total_trips": 10726,
+      "year": 2025
+    },
+    {
+      "end_trips": 5365,
+      "start_trips": 5354,
+      "station": "Nygårdsporten",
+      "total_trips": 10719,
+      "year": 2025
+    },
+    {
+      "end_trips": 5355,
+      "start_trips": 5242,
+      "station": "Østre Murallmenningen nedre",
+      "total_trips": 10597,
+      "year": 2025
+    },
+    {
+      "end_trips": 5421,
+      "start_trips": 5176,
+      "station": "Festplassen",
+      "total_trips": 10597,
+      "year": 2025
+    },
+    {
+      "end_trips": 4683,
+      "start_trips": 5302,
+      "station": "Solheimsgaten (ved Extra)",
+      "total_trips": 9985,
+      "year": 2025
+    },
+    {
+      "end_trips": 5230,
+      "start_trips": 4586,
+      "station": "Dreggsallmenningen Sør",
+      "total_trips": 9816,
+      "year": 2025
+    },
+    {
+      "end_trips": 4658,
+      "start_trips": 4642,
+      "station": "Dreggsallmenningen Nord",
+      "total_trips": 9300,
+      "year": 2025
+    },
+    {
+      "end_trips": 4569,
+      "start_trips": 4596,
+      "station": "Studentboligene",
+      "total_trips": 9165,
+      "year": 2025
+    },
+    {
+      "end_trips": 4555,
+      "start_trips": 4548,
+      "station": "Damsgårdsveien",
+      "total_trips": 9103,
+      "year": 2025
+    },
+    {
+      "end_trips": 4661,
+      "start_trips": 4295,
+      "station": "Høyteknologisenteret",
+      "total_trips": 8956,
+      "year": 2025
+    },
+    {
+      "end_trips": 4491,
+      "start_trips": 4455,
+      "station": "Gulating",
+      "total_trips": 8946,
+      "year": 2025
+    },
+    {
+      "end_trips": 4312,
+      "start_trips": 4260,
+      "station": "Fløen Bybanestopp",
+      "total_trips": 8572,
+      "year": 2025
+    },
+    {
+      "end_trips": 4275,
+      "start_trips": 4274,
+      "station": "Jonsvollkvartalet",
+      "total_trips": 8549,
+      "year": 2025
+    },
+    {
+      "end_trips": 4230,
+      "start_trips": 4102,
+      "station": "Krohnviken",
+      "total_trips": 8332,
+      "year": 2025
+    },
+    {
+      "end_trips": 4152,
+      "start_trips": 4174,
+      "station": "Gågaten",
+      "total_trips": 8326,
+      "year": 2025
+    },
+    {
+      "end_trips": 4205,
+      "start_trips": 4006,
+      "station": "Nedre Korskirkeallmenning",
+      "total_trips": 8211,
+      "year": 2025
+    },
+    {
+      "end_trips": 3943,
+      "start_trips": 3913,
+      "station": "Lars Hilles",
+      "total_trips": 7856,
+      "year": 2025
+    },
+    {
+      "end_trips": 3887,
+      "start_trips": 3867,
+      "station": "Moxy Hotellet",
+      "total_trips": 7754,
+      "year": 2025
+    },
+    {
+      "end_trips": 3881,
+      "start_trips": 3857,
+      "station": "Grieghallen",
+      "total_trips": 7738,
+      "year": 2025
+    },
+    {
+      "end_trips": 3898,
+      "start_trips": 3740,
+      "station": "AdO arena",
+      "total_trips": 7638,
+      "year": 2025
+    },
+    {
+      "end_trips": 3656,
+      "start_trips": 3606,
+      "station": "Neumanns gate",
+      "total_trips": 7262,
+      "year": 2025
+    },
+    {
+      "end_trips": 4011,
+      "start_trips": 3062,
+      "station": "Stenersen",
+      "total_trips": 7073,
+      "year": 2025
+    },
+    {
+      "end_trips": 3507,
+      "start_trips": 3463,
+      "station": "Nykirkekaien",
+      "total_trips": 6970,
+      "year": 2025
+    },
+    {
+      "end_trips": 3436,
+      "start_trips": 3455,
+      "station": "Frydenbø Marina",
+      "total_trips": 6891,
+      "year": 2025
+    },
+    {
+      "end_trips": 3390,
+      "start_trips": 3353,
+      "station": "Småstrandgaten",
+      "total_trips": 6743,
+      "year": 2025
+    },
+    {
+      "end_trips": 3442,
+      "start_trips": 3289,
+      "station": "Skur 11",
+      "total_trips": 6731,
+      "year": 2025
+    },
+    {
+      "end_trips": 3262,
+      "start_trips": 3254,
+      "station": "Comfort Hotel Bergen",
+      "total_trips": 6516,
+      "year": 2025
+    },
+    {
+      "end_trips": 3089,
+      "start_trips": 2947,
+      "station": "Cornerteateret",
+      "total_trips": 6036,
+      "year": 2025
+    },
+    {
+      "end_trips": 3100,
+      "start_trips": 2916,
+      "station": "Sandvikstorget",
+      "total_trips": 6016,
+      "year": 2025
+    },
+    {
+      "end_trips": 3012,
+      "start_trips": 2896,
+      "station": "Tollbodalmenningen",
+      "total_trips": 5908,
+      "year": 2025
+    },
+    {
+      "end_trips": 3748,
+      "start_trips": 2107,
+      "station": "Nonneseterplass",
+      "total_trips": 5855,
+      "year": 2025
+    },
+    {
+      "end_trips": 2932,
+      "start_trips": 2905,
+      "station": "Kong Oscars gate",
+      "total_trips": 5837,
+      "year": 2025
+    },
+    {
+      "end_trips": 2915,
+      "start_trips": 2858,
+      "station": "Permanenten",
+      "total_trips": 5773,
+      "year": 2025
+    },
+    {
+      "end_trips": 2886,
+      "start_trips": 2863,
+      "station": "Skutevikstorget",
+      "total_trips": 5749,
+      "year": 2025
+    },
+    {
+      "end_trips": 2959,
+      "start_trips": 2708,
+      "station": "Verftet",
+      "total_trips": 5667,
+      "year": 2025
+    },
+    {
+      "end_trips": 2763,
+      "start_trips": 2743,
+      "station": "Damsgårdsallmenningen",
+      "total_trips": 5506,
+      "year": 2025
+    },
+    {
+      "end_trips": 2800,
+      "start_trips": 2492,
+      "station": "Nøstetorget",
+      "total_trips": 5292,
+      "year": 2025
+    },
+    {
+      "end_trips": 2516,
+      "start_trips": 2511,
+      "station": "Akvariet",
+      "total_trips": 5027,
+      "year": 2025
+    },
+    {
+      "end_trips": 2510,
+      "start_trips": 2480,
+      "station": "Allehelgens plass",
+      "total_trips": 4990,
+      "year": 2025
+    },
+    {
+      "end_trips": 2507,
+      "start_trips": 2307,
+      "station": "Lysverket",
+      "total_trips": 4814,
+      "year": 2025
+    },
+    {
+      "end_trips": 2599,
+      "start_trips": 2186,
+      "station": "Vågsallmenningen",
+      "total_trips": 4785,
+      "year": 2025
+    },
+    {
+      "end_trips": 2026,
+      "start_trips": 2729,
+      "station": "Danmarksplass",
+      "total_trips": 4755,
+      "year": 2025
+    },
+    {
+      "end_trips": 2357,
+      "start_trips": 2370,
+      "station": "Sandviken Brygge",
+      "total_trips": 4727,
+      "year": 2025
+    },
+    {
+      "end_trips": 2165,
+      "start_trips": 2108,
+      "station": "Møllestranden",
+      "total_trips": 4273,
+      "year": 2025
+    },
+    {
+      "end_trips": 2127,
+      "start_trips": 2122,
+      "station": "Kristianborg bybanestopp",
+      "total_trips": 4249,
+      "year": 2025
+    },
+    {
+      "end_trips": 2077,
+      "start_trips": 2081,
+      "station": "Busstasjonen 3  Øst",
+      "total_trips": 4158,
+      "year": 2025
+    },
+    {
+      "end_trips": 1792,
+      "start_trips": 1988,
+      "station": "Brann Stadion",
+      "total_trips": 3780,
+      "year": 2025
+    },
+    {
+      "end_trips": 1878,
+      "start_trips": 1882,
+      "station": "Welhavens gate 64",
+      "total_trips": 3760,
+      "year": 2025
+    },
+    {
+      "end_trips": 1039,
+      "start_trips": 2679,
+      "station": "Haukeland sykehus",
+      "total_trips": 3718,
+      "year": 2025
+    },
+    {
+      "end_trips": 1710,
+      "start_trips": 1719,
+      "station": "John Lunds plass",
+      "total_trips": 3429,
+      "year": 2025
+    },
+    {
+      "end_trips": 1265,
+      "start_trips": 2160,
+      "station": "Amalie Skrams vei Sør",
+      "total_trips": 3425,
+      "year": 2025
+    },
+    {
+      "end_trips": 1186,
+      "start_trips": 2170,
+      "station": "Studentsenteret UiB",
+      "total_trips": 3356,
+      "year": 2025
+    },
+    {
+      "end_trips": 1349,
+      "start_trips": 1865,
+      "station": "Hansaparken",
+      "total_trips": 3214,
+      "year": 2025
+    },
+    {
+      "end_trips": 1570,
+      "start_trips": 1561,
+      "station": "Håkonsgaten",
+      "total_trips": 3131,
+      "year": 2025
+    },
+    {
+      "end_trips": 1179,
+      "start_trips": 1834,
+      "station": "Høgskulen på Vestlandet",
+      "total_trips": 3013,
+      "year": 2025
+    },
+    {
+      "end_trips": 1536,
+      "start_trips": 1457,
+      "station": "Laksevåg v/Kirkebukten",
+      "total_trips": 2993,
+      "year": 2025
+    },
+    {
+      "end_trips": 1459,
+      "start_trips": 1460,
+      "station": "Ole Vigs gate",
+      "total_trips": 2919,
+      "year": 2025
+    },
+    {
+      "end_trips": 1420,
+      "start_trips": 1422,
+      "station": "Bergen Jernbanestasjon II",
+      "total_trips": 2842,
+      "year": 2025
+    },
+    {
+      "end_trips": 1348,
+      "start_trips": 1341,
+      "station": "Bjørnsonsgate",
+      "total_trips": 2689,
+      "year": 2025
+    },
+    {
+      "end_trips": 1285,
+      "start_trips": 1275,
+      "station": "Busstasjonen 4 Sør",
+      "total_trips": 2560,
+      "year": 2025
+    },
+    {
+      "end_trips": 1256,
+      "start_trips": 1282,
+      "station": "Laksevåg senter",
+      "total_trips": 2538,
+      "year": 2025
+    },
+    {
+      "end_trips": 1168,
+      "start_trips": 1165,
+      "station": "Hans Hauges gate",
+      "total_trips": 2333,
+      "year": 2025
+    },
+    {
+      "end_trips": 1156,
+      "start_trips": 1159,
+      "station": "Nordnes Sjøbad",
+      "total_trips": 2315,
+      "year": 2025
+    },
+    {
+      "end_trips": 1149,
+      "start_trips": 1131,
+      "station": "Sandviksbodene",
+      "total_trips": 2280,
+      "year": 2025
+    },
+    {
+      "end_trips": 1114,
+      "start_trips": 1114,
+      "station": "Rosenbergsgaten",
+      "total_trips": 2228,
+      "year": 2025
+    },
+    {
+      "end_trips": 1101,
+      "start_trips": 1112,
+      "station": "Fosswinckels gate",
+      "total_trips": 2213,
+      "year": 2025
+    },
+    {
+      "end_trips": 1097,
+      "start_trips": 1080,
+      "station": "Christian Michelsens institutt",
+      "total_trips": 2177,
+      "year": 2025
+    },
+    {
+      "end_trips": 1045,
+      "start_trips": 1037,
+      "station": "Zander Kaaes gate",
+      "total_trips": 2082,
+      "year": 2025
+    },
+    {
+      "end_trips": 1020,
+      "start_trips": 1005,
+      "station": "Den Nationale Scene",
+      "total_trips": 2025,
+      "year": 2025
+    },
+    {
+      "end_trips": 534,
+      "start_trips": 1482,
+      "station": "HF-Bygget",
+      "total_trips": 2016,
+      "year": 2025
+    },
+    {
+      "end_trips": 696,
+      "start_trips": 1188,
+      "station": "Odontologen",
+      "total_trips": 1884,
+      "year": 2025
+    },
+    {
+      "end_trips": 884,
+      "start_trips": 988,
+      "station": "Østre Murallmenningen øvre",
+      "total_trips": 1872,
+      "year": 2025
+    },
+    {
+      "end_trips": 947,
+      "start_trips": 902,
+      "station": "Rådhuset",
+      "total_trips": 1849,
+      "year": 2025
+    },
+    {
+      "end_trips": 909,
+      "start_trips": 902,
+      "station": "Gamle Bergen",
+      "total_trips": 1811,
+      "year": 2025
+    },
+    {
+      "end_trips": 896,
+      "start_trips": 895,
+      "station": "Tonningneset",
+      "total_trips": 1791,
+      "year": 2025
+    },
+    {
+      "end_trips": 890,
+      "start_trips": 884,
+      "station": "Mindemyren bybanestopp",
+      "total_trips": 1774,
+      "year": 2025
+    },
+    {
+      "end_trips": 821,
+      "start_trips": 818,
+      "station": "Busstasjonen 2 Vest",
+      "total_trips": 1639,
+      "year": 2025
+    },
+    {
+      "end_trips": 784,
+      "start_trips": 812,
+      "station": "Klosteret",
+      "total_trips": 1596,
+      "year": 2025
+    },
+    {
+      "end_trips": 781,
+      "start_trips": 777,
+      "station": "Bontelabo",
+      "total_trips": 1558,
+      "year": 2025
+    },
+    {
+      "end_trips": 745,
+      "start_trips": 763,
+      "station": "Haukelandshallen",
+      "total_trips": 1508,
+      "year": 2025
+    },
+    {
+      "end_trips": 688,
+      "start_trips": 696,
+      "station": "Kirkegaten",
+      "total_trips": 1384,
+      "year": 2025
+    },
+    {
+      "end_trips": 645,
+      "start_trips": 631,
+      "station": "Puddefjordsbroen",
+      "total_trips": 1276,
+      "year": 2025
+    },
+    {
+      "end_trips": 631,
+      "start_trips": 636,
+      "station": "Kronstad Allmenning",
+      "total_trips": 1267,
+      "year": 2025
+    },
+    {
+      "end_trips": 592,
+      "start_trips": 595,
+      "station": "Johanneskirken",
+      "total_trips": 1187,
+      "year": 2025
+    },
+    {
+      "end_trips": 576,
+      "start_trips": 575,
+      "station": "Takhagen på Nordnes",
+      "total_trips": 1151,
+      "year": 2025
+    },
+    {
+      "end_trips": 488,
+      "start_trips": 483,
+      "station": "Magnus Lagabøtes Plass",
+      "total_trips": 971,
+      "year": 2025
+    },
+    {
+      "end_trips": 452,
+      "start_trips": 507,
+      "station": "Amalie Skrams vei Nord",
+      "total_trips": 959,
+      "year": 2025
+    },
+    {
+      "end_trips": 469,
+      "start_trips": 477,
+      "station": "Bøhmergaten",
+      "total_trips": 946,
+      "year": 2025
+    },
+    {
+      "end_trips": 436,
+      "start_trips": 444,
+      "station": "Strømgaten",
+      "total_trips": 880,
+      "year": 2025
+    },
+    {
+      "end_trips": 433,
+      "start_trips": 437,
+      "station": "Bontelabo 8",
+      "total_trips": 870,
+      "year": 2025
+    },
+    {
+      "end_trips": 374,
+      "start_trips": 408,
+      "station": "Haraldsplass",
+      "total_trips": 782,
+      "year": 2025
+    },
+    {
+      "end_trips": 262,
+      "start_trips": 475,
+      "station": "NHH",
+      "total_trips": 737,
+      "year": 2025
+    },
+    {
+      "end_trips": 291,
+      "start_trips": 300,
+      "station": "Carl Konows gate 49",
+      "total_trips": 591,
+      "year": 2025
+    },
+    {
+      "end_trips": 270,
+      "start_trips": 267,
+      "station": "Kalfarveien 31",
+      "total_trips": 537,
+      "year": 2025
+    },
+    {
+      "end_trips": 197,
+      "start_trips": 191,
+      "station": "Kringsjåveien 31",
+      "total_trips": 388,
+      "year": 2025
+    },
+    {
+      "end_trips": 181,
+      "start_trips": 191,
+      "station": "Kronstad",
+      "total_trips": 372,
+      "year": 2025
+    },
+    {
+      "end_trips": 37,
+      "start_trips": 38,
+      "station": "Tinghuset",
+      "total_trips": 75,
+      "year": 2025
+    },
+    {
+      "end_trips": 13,
+      "start_trips": 14,
+      "station": "Damsgårdsveien 125",
+      "total_trips": 27,
+      "year": 2025
+    },
+    {
+      "end_trips": 13,
+      "start_trips": 13,
+      "station": "Thormøhlens gate 41",
+      "total_trips": 26,
+      "year": 2025
+    },
+    {
+      "end_trips": 1,
+      "start_trips": 1,
+      "station": "Bysykkel verksted",
+      "total_trips": 2,
+      "year": 2025
+    },
+    {
+      "end_trips": 3779,
+      "start_trips": 3725,
+      "station": "Torgallmenningen",
+      "total_trips": 7504,
+      "year": 2026
+    },
+    {
+      "end_trips": 3345,
+      "start_trips": 3068,
+      "station": "St. Jakobs Plass",
+      "total_trips": 6413,
+      "year": 2026
+    },
+    {
+      "end_trips": 2904,
+      "start_trips": 2887,
+      "station": "Nykirken",
+      "total_trips": 5791,
+      "year": 2026
+    },
+    {
+      "end_trips": 2638,
+      "start_trips": 2544,
+      "station": "Møllendalsplass",
+      "total_trips": 5182,
+      "year": 2026
+    },
+    {
+      "end_trips": 2675,
+      "start_trips": 2478,
+      "station": "Bergen jernbanestasjon",
+      "total_trips": 5153,
+      "year": 2026
+    },
+    {
+      "end_trips": 2538,
+      "start_trips": 2535,
+      "station": "Thormøhlens gate",
+      "total_trips": 5073,
+      "year": 2026
+    },
+    {
+      "end_trips": 2589,
+      "start_trips": 2472,
+      "station": "C. Sundts gate",
+      "total_trips": 5061,
+      "year": 2026
+    },
+    {
+      "end_trips": 2314,
+      "start_trips": 2278,
+      "station": "Busstasjonen 1 Nord",
+      "total_trips": 4592,
+      "year": 2026
+    },
+    {
+      "end_trips": 2177,
+      "start_trips": 2136,
+      "station": "Damsgårdsveien 2",
+      "total_trips": 4313,
+      "year": 2026
+    },
+    {
+      "end_trips": 2188,
+      "start_trips": 2109,
+      "station": "Damsgårdsveien 71",
+      "total_trips": 4297,
+      "year": 2026
+    },
+    {
+      "end_trips": 2078,
+      "start_trips": 1963,
+      "station": "Krohnviken",
+      "total_trips": 4041,
+      "year": 2026
+    },
+    {
+      "end_trips": 1980,
+      "start_trips": 1993,
+      "station": "Solheimsviken",
+      "total_trips": 3973,
+      "year": 2026
+    },
+    {
+      "end_trips": 1981,
+      "start_trips": 1917,
+      "station": "Florida Bybanestopp",
+      "total_trips": 3898,
+      "year": 2026
+    },
+    {
+      "end_trips": 1929,
+      "start_trips": 1924,
+      "station": "Torget",
+      "total_trips": 3853,
+      "year": 2026
+    },
+    {
+      "end_trips": 1910,
+      "start_trips": 1899,
+      "station": "Østre Murallmenningen nedre",
+      "total_trips": 3809,
+      "year": 2026
+    },
+    {
+      "end_trips": 1514,
+      "start_trips": 2140,
+      "station": "Kronstad bybanestopp",
+      "total_trips": 3654,
+      "year": 2026
+    },
+    {
+      "end_trips": 1807,
+      "start_trips": 1816,
+      "station": "Nygårdsporten",
+      "total_trips": 3623,
+      "year": 2026
+    },
+    {
+      "end_trips": 1781,
+      "start_trips": 1718,
+      "station": "Festplassen",
+      "total_trips": 3499,
+      "year": 2026
+    },
+    {
+      "end_trips": 1763,
+      "start_trips": 1649,
+      "station": "Dreggsallmenningen Sør",
+      "total_trips": 3412,
+      "year": 2026
+    },
+    {
+      "end_trips": 1682,
+      "start_trips": 1688,
+      "station": "Dreggsallmenningen Nord",
+      "total_trips": 3370,
+      "year": 2026
+    },
+    {
+      "end_trips": 1683,
+      "start_trips": 1685,
+      "station": "Høyteknologisenteret",
+      "total_trips": 3368,
+      "year": 2026
+    },
+    {
+      "end_trips": 1653,
+      "start_trips": 1620,
+      "station": "Gulating",
+      "total_trips": 3273,
+      "year": 2026
+    },
+    {
+      "end_trips": 1610,
+      "start_trips": 1596,
+      "station": "Fløen Bybanestopp",
+      "total_trips": 3206,
+      "year": 2026
+    },
+    {
+      "end_trips": 1643,
+      "start_trips": 1504,
+      "station": "Nedre Korskirkeallmenning",
+      "total_trips": 3147,
+      "year": 2026
+    },
+    {
+      "end_trips": 1576,
+      "start_trips": 1570,
+      "station": "Lars Hilles",
+      "total_trips": 3146,
+      "year": 2026
+    },
+    {
+      "end_trips": 1514,
+      "start_trips": 1630,
+      "station": "Solheimsgaten (ved Extra)",
+      "total_trips": 3144,
+      "year": 2026
+    },
+    {
+      "end_trips": 1566,
+      "start_trips": 1570,
+      "station": "Frydenbø Marina",
+      "total_trips": 3136,
+      "year": 2026
+    },
+    {
+      "end_trips": 1532,
+      "start_trips": 1520,
+      "station": "Studentboligene",
+      "total_trips": 3052,
+      "year": 2026
+    },
+    {
+      "end_trips": 1548,
+      "start_trips": 1500,
+      "station": "Moxy Hotellet",
+      "total_trips": 3048,
+      "year": 2026
+    },
+    {
+      "end_trips": 1541,
+      "start_trips": 1384,
+      "station": "AdO arena",
+      "total_trips": 2925,
+      "year": 2026
+    },
+    {
+      "end_trips": 1385,
+      "start_trips": 1379,
+      "station": "Jonsvollkvartalet",
+      "total_trips": 2764,
+      "year": 2026
+    },
+    {
+      "end_trips": 1380,
+      "start_trips": 1382,
+      "station": "Damsgårdsveien",
+      "total_trips": 2762,
+      "year": 2026
+    },
+    {
+      "end_trips": 1351,
+      "start_trips": 1356,
+      "station": "Gågaten",
+      "total_trips": 2707,
+      "year": 2026
+    },
+    {
+      "end_trips": 1336,
+      "start_trips": 1295,
+      "station": "Tollbodalmenningen",
+      "total_trips": 2631,
+      "year": 2026
+    },
+    {
+      "end_trips": 1419,
+      "start_trips": 1171,
+      "station": "Stenersen",
+      "total_trips": 2590,
+      "year": 2026
+    },
+    {
+      "end_trips": 1265,
+      "start_trips": 1248,
+      "station": "Nykirkekaien",
+      "total_trips": 2513,
+      "year": 2026
+    },
+    {
+      "end_trips": 1221,
+      "start_trips": 1218,
+      "station": "Småstrandgaten",
+      "total_trips": 2439,
+      "year": 2026
+    },
+    {
+      "end_trips": 1205,
+      "start_trips": 1209,
+      "station": "Neumanns gate",
+      "total_trips": 2414,
+      "year": 2026
+    },
+    {
+      "end_trips": 1206,
+      "start_trips": 1202,
+      "station": "Kong Oscars gate",
+      "total_trips": 2408,
+      "year": 2026
+    },
+    {
+      "end_trips": 1227,
+      "start_trips": 1176,
+      "station": "Sandvikstorget",
+      "total_trips": 2403,
+      "year": 2026
+    },
+    {
+      "end_trips": 1182,
+      "start_trips": 1174,
+      "station": "Grieghallen",
+      "total_trips": 2356,
+      "year": 2026
+    },
+    {
+      "end_trips": 1143,
+      "start_trips": 1139,
+      "station": "Comfort Hotel Bergen",
+      "total_trips": 2282,
+      "year": 2026
+    },
+    {
+      "end_trips": 1136,
+      "start_trips": 1128,
+      "station": "Akvariet",
+      "total_trips": 2264,
+      "year": 2026
+    },
+    {
+      "end_trips": 1135,
+      "start_trips": 1111,
+      "station": "Skutevikstorget",
+      "total_trips": 2246,
+      "year": 2026
+    },
+    {
+      "end_trips": 1131,
+      "start_trips": 1105,
+      "station": "Sandviken Brygge",
+      "total_trips": 2236,
+      "year": 2026
+    },
+    {
+      "end_trips": 1066,
+      "start_trips": 1013,
+      "station": "Verftet",
+      "total_trips": 2079,
+      "year": 2026
+    },
+    {
+      "end_trips": 1060,
+      "start_trips": 982,
+      "station": "Permanenten",
+      "total_trips": 2042,
+      "year": 2026
+    },
+    {
+      "end_trips": 1017,
+      "start_trips": 1013,
+      "station": "Damsgårdsallmenningen",
+      "total_trips": 2030,
+      "year": 2026
+    },
+    {
+      "end_trips": 1009,
+      "start_trips": 981,
+      "station": "Allehelgens plass",
+      "total_trips": 1990,
+      "year": 2026
+    },
+    {
+      "end_trips": 906,
+      "start_trips": 885,
+      "station": "Skur 11",
+      "total_trips": 1791,
+      "year": 2026
+    },
+    {
+      "end_trips": 988,
+      "start_trips": 745,
+      "station": "Vågsallmenningen",
+      "total_trips": 1733,
+      "year": 2026
+    },
+    {
+      "end_trips": 955,
+      "start_trips": 742,
+      "station": "Lysverket",
+      "total_trips": 1697,
+      "year": 2026
+    },
+    {
+      "end_trips": 668,
+      "start_trips": 1007,
+      "station": "Danmarksplass",
+      "total_trips": 1675,
+      "year": 2026
+    },
+    {
+      "end_trips": 850,
+      "start_trips": 811,
+      "station": "Thormøhlens gate 41",
+      "total_trips": 1661,
+      "year": 2026
+    },
+    {
+      "end_trips": 777,
+      "start_trips": 722,
+      "station": "Nøstetorget",
+      "total_trips": 1499,
+      "year": 2026
+    },
+    {
+      "end_trips": 727,
+      "start_trips": 715,
+      "station": "Busstasjonen 3  Øst",
+      "total_trips": 1442,
+      "year": 2026
+    },
+    {
+      "end_trips": 693,
+      "start_trips": 692,
+      "station": "Møllestranden",
+      "total_trips": 1385,
+      "year": 2026
+    },
+    {
+      "end_trips": 678,
+      "start_trips": 679,
+      "station": "Welhavens gate 64",
+      "total_trips": 1357,
+      "year": 2026
+    },
+    {
+      "end_trips": 667,
+      "start_trips": 664,
+      "station": "Kristianborg bybanestopp",
+      "total_trips": 1331,
+      "year": 2026
+    },
+    {
+      "end_trips": 655,
+      "start_trips": 658,
+      "station": "John Lunds plass",
+      "total_trips": 1313,
+      "year": 2026
+    },
+    {
+      "end_trips": 686,
+      "start_trips": 613,
+      "station": "Bergen Jernbanestasjon II",
+      "total_trips": 1299,
+      "year": 2026
+    },
+    {
+      "end_trips": 405,
+      "start_trips": 848,
+      "station": "Høgskulen på Vestlandet",
+      "total_trips": 1253,
+      "year": 2026
+    },
+    {
+      "end_trips": 611,
+      "start_trips": 612,
+      "station": "Ole Vigs gate",
+      "total_trips": 1223,
+      "year": 2026
+    },
+    {
+      "end_trips": 586,
+      "start_trips": 598,
+      "station": "Brann Stadion",
+      "total_trips": 1184,
+      "year": 2026
+    },
+    {
+      "end_trips": 580,
+      "start_trips": 583,
+      "station": "Håkonsgaten",
+      "total_trips": 1163,
+      "year": 2026
+    },
+    {
+      "end_trips": 370,
+      "start_trips": 637,
+      "station": "Amalie Skrams vei Sør",
+      "total_trips": 1007,
+      "year": 2026
+    },
+    {
+      "end_trips": 485,
+      "start_trips": 485,
+      "station": "Rosenbergsgaten",
+      "total_trips": 970,
+      "year": 2026
+    },
+    {
+      "end_trips": 256,
+      "start_trips": 665,
+      "station": "Haukeland sykehus",
+      "total_trips": 921,
+      "year": 2026
+    },
+    {
+      "end_trips": 451,
+      "start_trips": 452,
+      "station": "Laksevåg senter",
+      "total_trips": 903,
+      "year": 2026
+    },
+    {
+      "end_trips": 448,
+      "start_trips": 440,
+      "station": "Sandviksbodene",
+      "total_trips": 888,
+      "year": 2026
+    },
+    {
+      "end_trips": 444,
+      "start_trips": 442,
+      "station": "Laksevåg v/Kirkebukten",
+      "total_trips": 886,
+      "year": 2026
+    },
+    {
+      "end_trips": 447,
+      "start_trips": 430,
+      "station": "Zander Kaaes gate",
+      "total_trips": 877,
+      "year": 2026
+    },
+    {
+      "end_trips": 387,
+      "start_trips": 473,
+      "station": "Studentsenteret UiB",
+      "total_trips": 860,
+      "year": 2026
+    },
+    {
+      "end_trips": 344,
+      "start_trips": 512,
+      "station": "HF-Bygget",
+      "total_trips": 856,
+      "year": 2026
+    },
+    {
+      "end_trips": 437,
+      "start_trips": 409,
+      "station": "Busstasjonen 4 Sør",
+      "total_trips": 846,
+      "year": 2026
+    },
+    {
+      "end_trips": 421,
+      "start_trips": 422,
+      "station": "Bjørnsonsgate",
+      "total_trips": 843,
+      "year": 2026
+    },
+    {
+      "end_trips": 311,
+      "start_trips": 465,
+      "station": "Hansaparken",
+      "total_trips": 776,
+      "year": 2026
+    },
+    {
+      "end_trips": 199,
+      "start_trips": 576,
+      "station": "Odontologen",
+      "total_trips": 775,
+      "year": 2026
+    },
+    {
+      "end_trips": 387,
+      "start_trips": 385,
+      "station": "Fosswinckels gate",
+      "total_trips": 772,
+      "year": 2026
+    },
+    {
+      "end_trips": 376,
+      "start_trips": 368,
+      "station": "Kirkegaten",
+      "total_trips": 744,
+      "year": 2026
+    },
+    {
+      "end_trips": 362,
+      "start_trips": 356,
+      "station": "Christian Michelsens institutt",
+      "total_trips": 718,
+      "year": 2026
+    },
+    {
+      "end_trips": 389,
+      "start_trips": 324,
+      "station": "Rådhuset",
+      "total_trips": 713,
+      "year": 2026
+    },
+    {
+      "end_trips": 364,
+      "start_trips": 337,
+      "station": "Busstasjonen 2 Vest",
+      "total_trips": 701,
+      "year": 2026
+    },
+    {
+      "end_trips": 341,
+      "start_trips": 330,
+      "station": "Tonningneset",
+      "total_trips": 671,
+      "year": 2026
+    },
+    {
+      "end_trips": 328,
+      "start_trips": 333,
+      "station": "Østre Murallmenningen øvre",
+      "total_trips": 661,
+      "year": 2026
+    },
+    {
+      "end_trips": 281,
+      "start_trips": 323,
+      "station": "Haukelandshallen",
+      "total_trips": 604,
+      "year": 2026
+    },
+    {
+      "end_trips": 292,
+      "start_trips": 287,
+      "station": "Nordnes Sjøbad",
+      "total_trips": 579,
+      "year": 2026
+    },
+    {
+      "end_trips": 287,
+      "start_trips": 289,
+      "station": "Hans Hauges gate",
+      "total_trips": 576,
+      "year": 2026
+    },
+    {
+      "end_trips": 264,
+      "start_trips": 258,
+      "station": "Bontelabo",
+      "total_trips": 522,
+      "year": 2026
+    },
+    {
+      "end_trips": 258,
+      "start_trips": 258,
+      "station": "Klosteret",
+      "total_trips": 516,
+      "year": 2026
+    },
+    {
+      "end_trips": 219,
+      "start_trips": 223,
+      "station": "Mindemyren bybanestopp",
+      "total_trips": 442,
+      "year": 2026
+    },
+    {
+      "end_trips": 189,
+      "start_trips": 194,
+      "station": "Den Nationale Scene",
+      "total_trips": 383,
+      "year": 2026
+    },
+    {
+      "end_trips": 149,
+      "start_trips": 207,
+      "station": "Kronstad Allmenning",
+      "total_trips": 356,
+      "year": 2026
+    },
+    {
+      "end_trips": 159,
+      "start_trips": 158,
+      "station": "Bontelabo 8",
+      "total_trips": 317,
+      "year": 2026
+    },
+    {
+      "end_trips": 151,
+      "start_trips": 147,
+      "station": "Magnus Lagabøtes Plass",
+      "total_trips": 298,
+      "year": 2026
+    },
+    {
+      "end_trips": 150,
+      "start_trips": 137,
+      "station": "Nonneseterplass",
+      "total_trips": 287,
+      "year": 2026
+    },
+    {
+      "end_trips": 141,
+      "start_trips": 141,
+      "station": "Strømgaten",
+      "total_trips": 282,
+      "year": 2026
+    },
+    {
+      "end_trips": 114,
+      "start_trips": 114,
+      "station": "Haraldsplass",
+      "total_trips": 228,
+      "year": 2026
+    },
+    {
+      "end_trips": 111,
+      "start_trips": 109,
+      "station": "Kalfarveien 31",
+      "total_trips": 220,
+      "year": 2026
+    },
+    {
+      "end_trips": 41,
+      "start_trips": 42,
+      "station": "Puddefjordsbroen",
+      "total_trips": 83,
+      "year": 2026
+    },
+    {
+      "end_trips": 40,
+      "start_trips": 36,
+      "station": "Johanneskirken",
+      "total_trips": 76,
+      "year": 2026
+    },
+    {
+      "end_trips": 36,
+      "start_trips": 32,
+      "station": "Gamle Bergen",
+      "total_trips": 68,
+      "year": 2026
+    },
+    {
+      "end_trips": 25,
+      "start_trips": 25,
+      "station": "Takhagen på Nordnes",
+      "total_trips": 50,
+      "year": 2026
+    },
+    {
+      "end_trips": 24,
+      "start_trips": 25,
+      "station": "Bøhmergaten",
+      "total_trips": 49,
+      "year": 2026
+    },
+    {
+      "end_trips": 17,
+      "start_trips": 19,
+      "station": "Carl Konows gate 49",
+      "total_trips": 36,
+      "year": 2026
+    },
+    {
+      "end_trips": 17,
+      "start_trips": 16,
+      "station": "Amalie Skrams vei Nord",
+      "total_trips": 33,
+      "year": 2026
+    },
+    {
+      "end_trips": 12,
+      "start_trips": 13,
+      "station": "NHH",
+      "total_trips": 25,
+      "year": 2026
+    },
+    {
+      "end_trips": 1,
+      "start_trips": 1,
+      "station": "Bysykkel verksted",
+      "total_trips": 2,
+      "year": 2026
+    },
+    {
+      "end_trips": 1,
+      "start_trips": 1,
+      "station": "Kronstad",
+      "total_trips": 2,
+      "year": 2026
+    }
+  ],
+  "volume_by_month": [
+    {
+      "month": 6,
+      "trips": 642,
+      "year": 2018
+    },
+    {
+      "month": 7,
+      "trips": 19823,
+      "year": 2018
+    },
+    {
+      "month": 8,
+      "trips": 23919,
+      "year": 2018
+    },
+    {
+      "month": 9,
+      "trips": 18618,
+      "year": 2018
+    },
+    {
+      "month": 10,
+      "trips": 17131,
+      "year": 2018
+    },
+    {
+      "month": 11,
+      "trips": 14608,
+      "year": 2018
+    },
+    {
+      "month": 12,
+      "trips": 9003,
+      "year": 2018
+    },
+    {
+      "month": 1,
+      "trips": 10722,
+      "year": 2019
+    },
+    {
+      "month": 2,
+      "trips": 13000,
+      "year": 2019
+    },
+    {
+      "month": 3,
+      "trips": 22047,
+      "year": 2019
+    },
+    {
+      "month": 4,
+      "trips": 94039,
+      "year": 2019
+    },
+    {
+      "month": 5,
+      "trips": 105488,
+      "year": 2019
+    },
+    {
+      "month": 6,
+      "trips": 106791,
+      "year": 2019
+    },
+    {
+      "month": 7,
+      "trips": 87990,
+      "year": 2019
+    },
+    {
+      "month": 8,
+      "trips": 125507,
+      "year": 2019
+    },
+    {
+      "month": 9,
+      "trips": 130696,
+      "year": 2019
+    },
+    {
+      "month": 10,
+      "trips": 113575,
+      "year": 2019
+    },
+    {
+      "month": 11,
+      "trips": 87595,
+      "year": 2019
+    },
+    {
+      "month": 12,
+      "trips": 42554,
+      "year": 2019
+    },
+    {
+      "month": 1,
+      "trips": 60927,
+      "year": 2020
+    },
+    {
+      "month": 2,
+      "trips": 59734,
+      "year": 2020
+    },
+    {
+      "month": 3,
+      "trips": 48998,
+      "year": 2020
+    },
+    {
+      "month": 4,
+      "trips": 51231,
+      "year": 2020
+    },
+    {
+      "month": 5,
+      "trips": 79057,
+      "year": 2020
+    },
+    {
+      "month": 6,
+      "trips": 178197,
+      "year": 2020
+    },
+    {
+      "month": 7,
+      "trips": 101309,
+      "year": 2020
+    },
+    {
+      "month": 9,
+      "trips": 228894,
+      "year": 2020
+    },
+    {
+      "month": 10,
+      "trips": 116058,
+      "year": 2020
+    },
+    {
+      "month": 11,
+      "trips": 53874,
+      "year": 2020
+    },
+    {
+      "month": 12,
+      "trips": 41954,
+      "year": 2020
+    },
+    {
+      "month": 1,
+      "trips": 27225,
+      "year": 2021
+    },
+    {
+      "month": 2,
+      "trips": 25199,
+      "year": 2021
+    },
+    {
+      "month": 3,
+      "trips": 55118,
+      "year": 2021
+    },
+    {
+      "month": 4,
+      "trips": 64424,
+      "year": 2021
+    },
+    {
+      "month": 5,
+      "trips": 83423,
+      "year": 2021
+    },
+    {
+      "month": 6,
+      "trips": 77943,
+      "year": 2021
+    },
+    {
+      "month": 7,
+      "trips": 51304,
+      "year": 2021
+    },
+    {
+      "month": 8,
+      "trips": 82683,
+      "year": 2021
+    },
+    {
+      "month": 9,
+      "trips": 81334,
+      "year": 2021
+    },
+    {
+      "month": 10,
+      "trips": 47849,
+      "year": 2021
+    },
+    {
+      "month": 11,
+      "trips": 41271,
+      "year": 2021
+    },
+    {
+      "month": 12,
+      "trips": 19110,
+      "year": 2021
+    },
+    {
+      "month": 1,
+      "trips": 26375,
+      "year": 2022
+    },
+    {
+      "month": 2,
+      "trips": 28389,
+      "year": 2022
+    },
+    {
+      "month": 3,
+      "trips": 50234,
+      "year": 2022
+    },
+    {
+      "month": 4,
+      "trips": 49972,
+      "year": 2022
+    },
+    {
+      "month": 5,
+      "trips": 56259,
+      "year": 2022
+    },
+    {
+      "month": 6,
+      "trips": 57102,
+      "year": 2022
+    },
+    {
+      "month": 7,
+      "trips": 30356,
+      "year": 2022
+    },
+    {
+      "month": 8,
+      "trips": 60298,
+      "year": 2022
+    },
+    {
+      "month": 9,
+      "trips": 68783,
+      "year": 2022
+    },
+    {
+      "month": 10,
+      "trips": 47233,
+      "year": 2022
+    },
+    {
+      "month": 11,
+      "trips": 42542,
+      "year": 2022
+    },
+    {
+      "month": 12,
+      "trips": 17773,
+      "year": 2022
+    },
+    {
+      "month": 1,
+      "trips": 24829,
+      "year": 2023
+    },
+    {
+      "month": 2,
+      "trips": 30060,
+      "year": 2023
+    },
+    {
+      "month": 3,
+      "trips": 30451,
+      "year": 2023
+    },
+    {
+      "month": 4,
+      "trips": 41145,
+      "year": 2023
+    },
+    {
+      "month": 5,
+      "trips": 49749,
+      "year": 2023
+    },
+    {
+      "month": 6,
+      "trips": 58606,
+      "year": 2023
+    },
+    {
+      "month": 7,
+      "trips": 35019,
+      "year": 2023
+    },
+    {
+      "month": 8,
+      "trips": 52498,
+      "year": 2023
+    },
+    {
+      "month": 9,
+      "trips": 49709,
+      "year": 2023
+    },
+    {
+      "month": 10,
+      "trips": 42989,
+      "year": 2023
+    },
+    {
+      "month": 11,
+      "trips": 36744,
+      "year": 2023
+    },
+    {
+      "month": 12,
+      "trips": 16062,
+      "year": 2023
+    },
+    {
+      "month": 1,
+      "trips": 20408,
+      "year": 2024
+    },
+    {
+      "month": 2,
+      "trips": 19706,
+      "year": 2024
+    },
+    {
+      "month": 3,
+      "trips": 29804,
+      "year": 2024
+    },
+    {
+      "month": 4,
+      "trips": 43104,
+      "year": 2024
+    },
+    {
+      "month": 5,
+      "trips": 56799,
+      "year": 2024
+    },
+    {
+      "month": 6,
+      "trips": 42879,
+      "year": 2024
+    },
+    {
+      "month": 7,
+      "trips": 29754,
+      "year": 2024
+    },
+    {
+      "month": 8,
+      "trips": 39269,
+      "year": 2024
+    },
+    {
+      "month": 9,
+      "trips": 44742,
+      "year": 2024
+    },
+    {
+      "month": 10,
+      "trips": 36830,
+      "year": 2024
+    },
+    {
+      "month": 11,
+      "trips": 25825,
+      "year": 2024
+    },
+    {
+      "month": 12,
+      "trips": 12731,
+      "year": 2024
+    },
+    {
+      "month": 1,
+      "trips": 11193,
+      "year": 2025
+    },
+    {
+      "month": 2,
+      "trips": 14890,
+      "year": 2025
+    },
+    {
+      "month": 3,
+      "trips": 23090,
+      "year": 2025
+    },
+    {
+      "month": 4,
+      "trips": 32465,
+      "year": 2025
+    },
+    {
+      "month": 5,
+      "trips": 39222,
+      "year": 2025
+    },
+    {
+      "month": 6,
+      "trips": 31457,
+      "year": 2025
+    },
+    {
+      "month": 7,
+      "trips": 28903,
+      "year": 2025
+    },
+    {
+      "month": 8,
+      "trips": 33846,
+      "year": 2025
+    },
+    {
+      "month": 9,
+      "trips": 31713,
+      "year": 2025
+    },
+    {
+      "month": 10,
+      "trips": 24380,
+      "year": 2025
+    },
+    {
+      "month": 11,
+      "trips": 17274,
+      "year": 2025
+    },
+    {
+      "month": 12,
+      "trips": 11663,
+      "year": 2025
+    },
+    {
+      "month": 1,
+      "trips": 10209,
+      "year": 2026
+    },
+    {
+      "month": 2,
+      "trips": 11837,
+      "year": 2026
+    },
+    {
+      "month": 3,
+      "trips": 15356,
+      "year": 2026
+    },
+    {
+      "month": 4,
+      "trips": 25572,
+      "year": 2026
+    },
+    {
+      "month": 5,
+      "trips": 26010,
+      "year": 2026
+    },
+    {
+      "month": 6,
+      "trips": 17286,
+      "year": 2026
+    }
+  ]
+}

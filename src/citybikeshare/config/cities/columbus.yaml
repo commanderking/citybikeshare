@@ -51,7 +51,6 @@ renamed_columns:
   "Bike ID": bike_id
   "User Type": membership_type
   Gender: gender
-  gender: gender,
 
   "Year of Birth": birth_year
 
@@ -75,6 +74,7 @@ processing_pipeline:
   - rename_columns
   - convert_to_datetime
   - select_final_columns
+  - cast_optional_columns
 
 # Station-coordinate extraction. Two coord-bearing eras: the early "Start Station Lat/Long"
 # schema and the modern start_lat/lng schema. The middle `from_station_location` era packs

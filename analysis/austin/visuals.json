@@ -1,0 +1,9205 @@
+{
+  "by_dow": [
+    {
+      "dow": 1,
+      "trips": 176,
+      "year": 2013
+    },
+    {
+      "dow": 2,
+      "trips": 243,
+      "year": 2013
+    },
+    {
+      "dow": 3,
+      "trips": 140,
+      "year": 2013
+    },
+    {
+      "dow": 4,
+      "trips": 95,
+      "year": 2013
+    },
+    {
+      "dow": 5,
+      "trips": 118,
+      "year": 2013
+    },
+    {
+      "dow": 6,
+      "trips": 286,
+      "year": 2013
+    },
+    {
+      "dow": 7,
+      "trips": 360,
+      "year": 2013
+    },
+    {
+      "dow": 1,
+      "trips": 16778,
+      "year": 2014
+    },
+    {
+      "dow": 2,
+      "trips": 15184,
+      "year": 2014
+    },
+    {
+      "dow": 3,
+      "trips": 15281,
+      "year": 2014
+    },
+    {
+      "dow": 4,
+      "trips": 16174,
+      "year": 2014
+    },
+    {
+      "dow": 5,
+      "trips": 25408,
+      "year": 2014
+    },
+    {
+      "dow": 6,
+      "trips": 34952,
+      "year": 2014
+    },
+    {
+      "dow": 7,
+      "trips": 26829,
+      "year": 2014
+    },
+    {
+      "dow": 1,
+      "trips": 20410,
+      "year": 2015
+    },
+    {
+      "dow": 2,
+      "trips": 18511,
+      "year": 2015
+    },
+    {
+      "dow": 3,
+      "trips": 19739,
+      "year": 2015
+    },
+    {
+      "dow": 4,
+      "trips": 21165,
+      "year": 2015
+    },
+    {
+      "dow": 5,
+      "trips": 25806,
+      "year": 2015
+    },
+    {
+      "dow": 6,
+      "trips": 38947,
+      "year": 2015
+    },
+    {
+      "dow": 7,
+      "trips": 31950,
+      "year": 2015
+    },
+    {
+      "dow": 1,
+      "trips": 23388,
+      "year": 2016
+    },
+    {
+      "dow": 2,
+      "trips": 20348,
+      "year": 2016
+    },
+    {
+      "dow": 3,
+      "trips": 20739,
+      "year": 2016
+    },
+    {
+      "dow": 4,
+      "trips": 23101,
+      "year": 2016
+    },
+    {
+      "dow": 5,
+      "trips": 31162,
+      "year": 2016
+    },
+    {
+      "dow": 6,
+      "trips": 42305,
+      "year": 2016
+    },
+    {
+      "dow": 7,
+      "trips": 33426,
+      "year": 2016
+    },
+    {
+      "dow": 1,
+      "trips": 24069,
+      "year": 2017
+    },
+    {
+      "dow": 2,
+      "trips": 20405,
+      "year": 2017
+    },
+    {
+      "dow": 3,
+      "trips": 20816,
+      "year": 2017
+    },
+    {
+      "dow": 4,
+      "trips": 22838,
+      "year": 2017
+    },
+    {
+      "dow": 5,
+      "trips": 29753,
+      "year": 2017
+    },
+    {
+      "dow": 6,
+      "trips": 39016,
+      "year": 2017
+    },
+    {
+      "dow": 7,
+      "trips": 30971,
+      "year": 2017
+    },
+    {
+      "dow": 1,
+      "trips": 54876,
+      "year": 2018
+    },
+    {
+      "dow": 2,
+      "trips": 52827,
+      "year": 2018
+    },
+    {
+      "dow": 3,
+      "trips": 53367,
+      "year": 2018
+    },
+    {
+      "dow": 4,
+      "trips": 57441,
+      "year": 2018
+    },
+    {
+      "dow": 5,
+      "trips": 59147,
+      "year": 2018
+    },
+    {
+      "dow": 6,
+      "trips": 57327,
+      "year": 2018
+    },
+    {
+      "dow": 7,
+      "trips": 50772,
+      "year": 2018
+    },
+    {
+      "dow": 1,
+      "trips": 15314,
+      "year": 2019
+    },
+    {
+      "dow": 2,
+      "trips": 14162,
+      "year": 2019
+    },
+    {
+      "dow": 3,
+      "trips": 13658,
+      "year": 2019
+    },
+    {
+      "dow": 4,
+      "trips": 14818,
+      "year": 2019
+    },
+    {
+      "dow": 5,
+      "trips": 16136,
+      "year": 2019
+    },
+    {
+      "dow": 6,
+      "trips": 17102,
+      "year": 2019
+    },
+    {
+      "dow": 7,
+      "trips": 15574,
+      "year": 2019
+    },
+    {
+      "dow": 1,
+      "trips": 12345,
+      "year": 2020
+    },
+    {
+      "dow": 2,
+      "trips": 11723,
+      "year": 2020
+    },
+    {
+      "dow": 3,
+      "trips": 11872,
+      "year": 2020
+    },
+    {
+      "dow": 4,
+      "trips": 12206,
+      "year": 2020
+    },
+    {
+      "dow": 5,
+      "trips": 14258,
+      "year": 2020
+    },
+    {
+      "dow": 6,
+      "trips": 20630,
+      "year": 2020
+    },
+    {
+      "dow": 7,
+      "trips": 18625,
+      "year": 2020
+    },
+    {
+      "dow": 1,
+      "trips": 31114,
+      "year": 2021
+    },
+    {
+      "dow": 2,
+      "trips": 28742,
+      "year": 2021
+    },
+    {
+      "dow": 3,
+      "trips": 27789,
+      "year": 2021
+    },
+    {
+      "dow": 4,
+      "trips": 28875,
+      "year": 2021
+    },
+    {
+      "dow": 5,
+      "trips": 34380,
+      "year": 2021
+    },
+    {
+      "dow": 6,
+      "trips": 38954,
+      "year": 2021
+    },
+    {
+      "dow": 7,
+      "trips": 34141,
+      "year": 2021
+    },
+    {
+      "dow": 1,
+      "trips": 43167,
+      "year": 2022
+    },
+    {
+      "dow": 2,
+      "trips": 45945,
+      "year": 2022
+    },
+    {
+      "dow": 3,
+      "trips": 46115,
+      "year": 2022
+    },
+    {
+      "dow": 4,
+      "trips": 45463,
+      "year": 2022
+    },
+    {
+      "dow": 5,
+      "trips": 45711,
+      "year": 2022
+    },
+    {
+      "dow": 6,
+      "trips": 46629,
+      "year": 2022
+    },
+    {
+      "dow": 7,
+      "trips": 43950,
+      "year": 2022
+    },
+    {
+      "dow": 1,
+      "trips": 41929,
+      "year": 2023
+    },
+    {
+      "dow": 2,
+      "trips": 39928,
+      "year": 2023
+    },
+    {
+      "dow": 3,
+      "trips": 40137,
+      "year": 2023
+    },
+    {
+      "dow": 4,
+      "trips": 38012,
+      "year": 2023
+    },
+    {
+      "dow": 5,
+      "trips": 41195,
+      "year": 2023
+    },
+    {
+      "dow": 6,
+      "trips": 43011,
+      "year": 2023
+    },
+    {
+      "dow": 7,
+      "trips": 39753,
+      "year": 2023
+    },
+    {
+      "dow": 1,
+      "trips": 20575,
+      "year": 2024
+    },
+    {
+      "dow": 2,
+      "trips": 19511,
+      "year": 2024
+    },
+    {
+      "dow": 3,
+      "trips": 18853,
+      "year": 2024
+    },
+    {
+      "dow": 4,
+      "trips": 20358,
+      "year": 2024
+    },
+    {
+      "dow": 5,
+      "trips": 21190,
+      "year": 2024
+    },
+    {
+      "dow": 6,
+      "trips": 21073,
+      "year": 2024
+    },
+    {
+      "dow": 7,
+      "trips": 19584,
+      "year": 2024
+    }
+  ],
+  "by_hour": [
+    {
+      "hour": 0,
+      "trips": 6,
+      "year": 2013
+    },
+    {
+      "hour": 1,
+      "trips": 1,
+      "year": 2013
+    },
+    {
+      "hour": 2,
+      "trips": 2,
+      "year": 2013
+    },
+    {
+      "hour": 6,
+      "trips": 2,
+      "year": 2013
+    },
+    {
+      "hour": 7,
+      "trips": 3,
+      "year": 2013
+    },
+    {
+      "hour": 8,
+      "trips": 17,
+      "year": 2013
+    },
+    {
+      "hour": 9,
+      "trips": 38,
+      "year": 2013
+    },
+    {
+      "hour": 10,
+      "trips": 62,
+      "year": 2013
+    },
+    {
+      "hour": 11,
+      "trips": 108,
+      "year": 2013
+    },
+    {
+      "hour": 12,
+      "trips": 142,
+      "year": 2013
+    },
+    {
+      "hour": 13,
+      "trips": 184,
+      "year": 2013
+    },
+    {
+      "hour": 14,
+      "trips": 200,
+      "year": 2013
+    },
+    {
+      "hour": 15,
+      "trips": 191,
+      "year": 2013
+    },
+    {
+      "hour": 16,
+      "trips": 165,
+      "year": 2013
+    },
+    {
+      "hour": 17,
+      "trips": 99,
+      "year": 2013
+    },
+    {
+      "hour": 18,
+      "trips": 55,
+      "year": 2013
+    },
+    {
+      "hour": 19,
+      "trips": 54,
+      "year": 2013
+    },
+    {
+      "hour": 20,
+      "trips": 33,
+      "year": 2013
+    },
+    {
+      "hour": 21,
+      "trips": 28,
+      "year": 2013
+    },
+    {
+      "hour": 22,
+      "trips": 19,
+      "year": 2013
+    },
+    {
+      "hour": 23,
+      "trips": 9,
+      "year": 2013
+    },
+    {
+      "hour": 0,
+      "trips": 2193,
+      "year": 2014
+    },
+    {
+      "hour": 1,
+      "trips": 1487,
+      "year": 2014
+    },
+    {
+      "hour": 2,
+      "trips": 1501,
+      "year": 2014
+    },
+    {
+      "hour": 3,
+      "trips": 325,
+      "year": 2014
+    },
+    {
+      "hour": 4,
+      "trips": 143,
+      "year": 2014
+    },
+    {
+      "hour": 5,
+      "trips": 138,
+      "year": 2014
+    },
+    {
+      "hour": 6,
+      "trips": 651,
+      "year": 2014
+    },
+    {
+      "hour": 7,
+      "trips": 1943,
+      "year": 2014
+    },
+    {
+      "hour": 8,
+      "trips": 4101,
+      "year": 2014
+    },
+    {
+      "hour": 9,
+      "trips": 5376,
+      "year": 2014
+    },
+    {
+      "hour": 10,
+      "trips": 6977,
+      "year": 2014
+    },
+    {
+      "hour": 11,
+      "trips": 9541,
+      "year": 2014
+    },
+    {
+      "hour": 12,
+      "trips": 11858,
+      "year": 2014
+    },
+    {
+      "hour": 13,
+      "trips": 13295,
+      "year": 2014
+    },
+    {
+      "hour": 14,
+      "trips": 13005,
+      "year": 2014
+    },
+    {
+      "hour": 15,
+      "trips": 13093,
+      "year": 2014
+    },
+    {
+      "hour": 16,
+      "trips": 13160,
+      "year": 2014
+    },
+    {
+      "hour": 17,
+      "trips": 12558,
+      "year": 2014
+    },
+    {
+      "hour": 18,
+      "trips": 10636,
+      "year": 2014
+    },
+    {
+      "hour": 19,
+      "trips": 9072,
+      "year": 2014
+    },
+    {
+      "hour": 20,
+      "trips": 6571,
+      "year": 2014
+    },
+    {
+      "hour": 21,
+      "trips": 5721,
+      "year": 2014
+    },
+    {
+      "hour": 22,
+      "trips": 4196,
+      "year": 2014
+    },
+    {
+      "hour": 23,
+      "trips": 3065,
+      "year": 2014
+    },
+    {
+      "hour": 0,
+      "trips": 2114,
+      "year": 2015
+    },
+    {
+      "hour": 1,
+      "trips": 1411,
+      "year": 2015
+    },
+    {
+      "hour": 2,
+      "trips": 1316,
+      "year": 2015
+    },
+    {
+      "hour": 3,
+      "trips": 267,
+      "year": 2015
+    },
+    {
+      "hour": 4,
+      "trips": 173,
+      "year": 2015
+    },
+    {
+      "hour": 5,
+      "trips": 245,
+      "year": 2015
+    },
+    {
+      "hour": 6,
+      "trips": 680,
+      "year": 2015
+    },
+    {
+      "hour": 7,
+      "trips": 2559,
+      "year": 2015
+    },
+    {
+      "hour": 8,
+      "trips": 5621,
+      "year": 2015
+    },
+    {
+      "hour": 9,
+      "trips": 6803,
+      "year": 2015
+    },
+    {
+      "hour": 10,
+      "trips": 8711,
+      "year": 2015
+    },
+    {
+      "hour": 11,
+      "trips": 11271,
+      "year": 2015
+    },
+    {
+      "hour": 12,
+      "trips": 14076,
+      "year": 2015
+    },
+    {
+      "hour": 13,
+      "trips": 14964,
+      "year": 2015
+    },
+    {
+      "hour": 14,
+      "trips": 14804,
+      "year": 2015
+    },
+    {
+      "hour": 15,
+      "trips": 15329,
+      "year": 2015
+    },
+    {
+      "hour": 16,
+      "trips": 15259,
+      "year": 2015
+    },
+    {
+      "hour": 17,
+      "trips": 15191,
+      "year": 2015
+    },
+    {
+      "hour": 18,
+      "trips": 13372,
+      "year": 2015
+    },
+    {
+      "hour": 19,
+      "trips": 10415,
+      "year": 2015
+    },
+    {
+      "hour": 20,
+      "trips": 7852,
+      "year": 2015
+    },
+    {
+      "hour": 21,
+      "trips": 6525,
+      "year": 2015
+    },
+    {
+      "hour": 22,
+      "trips": 4745,
+      "year": 2015
+    },
+    {
+      "hour": 23,
+      "trips": 2825,
+      "year": 2015
+    },
+    {
+      "hour": 0,
+      "trips": 2007,
+      "year": 2016
+    },
+    {
+      "hour": 1,
+      "trips": 1496,
+      "year": 2016
+    },
+    {
+      "hour": 2,
+      "trips": 1686,
+      "year": 2016
+    },
+    {
+      "hour": 3,
+      "trips": 373,
+      "year": 2016
+    },
+    {
+      "hour": 4,
+      "trips": 301,
+      "year": 2016
+    },
+    {
+      "hour": 5,
+      "trips": 333,
+      "year": 2016
+    },
+    {
+      "hour": 6,
+      "trips": 1092,
+      "year": 2016
+    },
+    {
+      "hour": 7,
+      "trips": 3658,
+      "year": 2016
+    },
+    {
+      "hour": 8,
+      "trips": 6549,
+      "year": 2016
+    },
+    {
+      "hour": 9,
+      "trips": 8206,
+      "year": 2016
+    },
+    {
+      "hour": 10,
+      "trips": 9555,
+      "year": 2016
+    },
+    {
+      "hour": 11,
+      "trips": 13045,
+      "year": 2016
+    },
+    {
+      "hour": 12,
+      "trips": 15623,
+      "year": 2016
+    },
+    {
+      "hour": 13,
+      "trips": 17218,
+      "year": 2016
+    },
+    {
+      "hour": 14,
+      "trips": 16732,
+      "year": 2016
+    },
+    {
+      "hour": 15,
+      "trips": 16973,
+      "year": 2016
+    },
+    {
+      "hour": 16,
+      "trips": 16764,
+      "year": 2016
+    },
+    {
+      "hour": 17,
+      "trips": 17617,
+      "year": 2016
+    },
+    {
+      "hour": 18,
+      "trips": 14395,
+      "year": 2016
+    },
+    {
+      "hour": 19,
+      "trips": 10489,
+      "year": 2016
+    },
+    {
+      "hour": 20,
+      "trips": 7653,
+      "year": 2016
+    },
+    {
+      "hour": 21,
+      "trips": 5511,
+      "year": 2016
+    },
+    {
+      "hour": 22,
+      "trips": 4389,
+      "year": 2016
+    },
+    {
+      "hour": 23,
+      "trips": 2804,
+      "year": 2016
+    },
+    {
+      "hour": 0,
+      "trips": 1610,
+      "year": 2017
+    },
+    {
+      "hour": 1,
+      "trips": 1201,
+      "year": 2017
+    },
+    {
+      "hour": 2,
+      "trips": 1030,
+      "year": 2017
+    },
+    {
+      "hour": 3,
+      "trips": 204,
+      "year": 2017
+    },
+    {
+      "hour": 4,
+      "trips": 148,
+      "year": 2017
+    },
+    {
+      "hour": 5,
+      "trips": 256,
+      "year": 2017
+    },
+    {
+      "hour": 6,
+      "trips": 1433,
+      "year": 2017
+    },
+    {
+      "hour": 7,
+      "trips": 3771,
+      "year": 2017
+    },
+    {
+      "hour": 8,
+      "trips": 7934,
+      "year": 2017
+    },
+    {
+      "hour": 9,
+      "trips": 8218,
+      "year": 2017
+    },
+    {
+      "hour": 10,
+      "trips": 10031,
+      "year": 2017
+    },
+    {
+      "hour": 11,
+      "trips": 13524,
+      "year": 2017
+    },
+    {
+      "hour": 12,
+      "trips": 15468,
+      "year": 2017
+    },
+    {
+      "hour": 13,
+      "trips": 16460,
+      "year": 2017
+    },
+    {
+      "hour": 14,
+      "trips": 16385,
+      "year": 2017
+    },
+    {
+      "hour": 15,
+      "trips": 16338,
+      "year": 2017
+    },
+    {
+      "hour": 16,
+      "trips": 16669,
+      "year": 2017
+    },
+    {
+      "hour": 17,
+      "trips": 16865,
+      "year": 2017
+    },
+    {
+      "hour": 18,
+      "trips": 13001,
+      "year": 2017
+    },
+    {
+      "hour": 19,
+      "trips": 9532,
+      "year": 2017
+    },
+    {
+      "hour": 20,
+      "trips": 6767,
+      "year": 2017
+    },
+    {
+      "hour": 21,
+      "trips": 4858,
+      "year": 2017
+    },
+    {
+      "hour": 22,
+      "trips": 3783,
+      "year": 2017
+    },
+    {
+      "hour": 23,
+      "trips": 2382,
+      "year": 2017
+    },
+    {
+      "hour": 0,
+      "trips": 7504,
+      "year": 2018
+    },
+    {
+      "hour": 1,
+      "trips": 5826,
+      "year": 2018
+    },
+    {
+      "hour": 2,
+      "trips": 3963,
+      "year": 2018
+    },
+    {
+      "hour": 3,
+      "trips": 1967,
+      "year": 2018
+    },
+    {
+      "hour": 4,
+      "trips": 924,
+      "year": 2018
+    },
+    {
+      "hour": 5,
+      "trips": 1238,
+      "year": 2018
+    },
+    {
+      "hour": 6,
+      "trips": 2353,
+      "year": 2018
+    },
+    {
+      "hour": 7,
+      "trips": 6933,
+      "year": 2018
+    },
+    {
+      "hour": 8,
+      "trips": 12426,
+      "year": 2018
+    },
+    {
+      "hour": 9,
+      "trips": 15157,
+      "year": 2018
+    },
+    {
+      "hour": 10,
+      "trips": 18040,
+      "year": 2018
+    },
+    {
+      "hour": 11,
+      "trips": 22259,
+      "year": 2018
+    },
+    {
+      "hour": 12,
+      "trips": 27174,
+      "year": 2018
+    },
+    {
+      "hour": 13,
+      "trips": 27720,
+      "year": 2018
+    },
+    {
+      "hour": 14,
+      "trips": 27306,
+      "year": 2018
+    },
+    {
+      "hour": 15,
+      "trips": 29380,
+      "year": 2018
+    },
+    {
+      "hour": 16,
+      "trips": 29121,
+      "year": 2018
+    },
+    {
+      "hour": 17,
+      "trips": 30148,
+      "year": 2018
+    },
+    {
+      "hour": 18,
+      "trips": 27832,
+      "year": 2018
+    },
+    {
+      "hour": 19,
+      "trips": 24303,
+      "year": 2018
+    },
+    {
+      "hour": 20,
+      "trips": 20539,
+      "year": 2018
+    },
+    {
+      "hour": 21,
+      "trips": 17863,
+      "year": 2018
+    },
+    {
+      "hour": 22,
+      "trips": 15032,
+      "year": 2018
+    },
+    {
+      "hour": 23,
+      "trips": 10749,
+      "year": 2018
+    },
+    {
+      "hour": 0,
+      "trips": 1092,
+      "year": 2019
+    },
+    {
+      "hour": 1,
+      "trips": 712,
+      "year": 2019
+    },
+    {
+      "hour": 2,
+      "trips": 549,
+      "year": 2019
+    },
+    {
+      "hour": 3,
+      "trips": 196,
+      "year": 2019
+    },
+    {
+      "hour": 4,
+      "trips": 95,
+      "year": 2019
+    },
+    {
+      "hour": 5,
+      "trips": 169,
+      "year": 2019
+    },
+    {
+      "hour": 6,
+      "trips": 749,
+      "year": 2019
+    },
+    {
+      "hour": 7,
+      "trips": 2374,
+      "year": 2019
+    },
+    {
+      "hour": 8,
+      "trips": 3981,
+      "year": 2019
+    },
+    {
+      "hour": 9,
+      "trips": 4861,
+      "year": 2019
+    },
+    {
+      "hour": 10,
+      "trips": 5679,
+      "year": 2019
+    },
+    {
+      "hour": 11,
+      "trips": 7372,
+      "year": 2019
+    },
+    {
+      "hour": 12,
+      "trips": 8798,
+      "year": 2019
+    },
+    {
+      "hour": 13,
+      "trips": 8859,
+      "year": 2019
+    },
+    {
+      "hour": 14,
+      "trips": 8049,
+      "year": 2019
+    },
+    {
+      "hour": 15,
+      "trips": 8610,
+      "year": 2019
+    },
+    {
+      "hour": 16,
+      "trips": 9069,
+      "year": 2019
+    },
+    {
+      "hour": 17,
+      "trips": 9095,
+      "year": 2019
+    },
+    {
+      "hour": 18,
+      "trips": 8077,
+      "year": 2019
+    },
+    {
+      "hour": 19,
+      "trips": 6207,
+      "year": 2019
+    },
+    {
+      "hour": 20,
+      "trips": 4629,
+      "year": 2019
+    },
+    {
+      "hour": 21,
+      "trips": 3382,
+      "year": 2019
+    },
+    {
+      "hour": 22,
+      "trips": 2543,
+      "year": 2019
+    },
+    {
+      "hour": 23,
+      "trips": 1617,
+      "year": 2019
+    },
+    {
+      "hour": 0,
+      "trips": 914,
+      "year": 2020
+    },
+    {
+      "hour": 1,
+      "trips": 571,
+      "year": 2020
+    },
+    {
+      "hour": 2,
+      "trips": 423,
+      "year": 2020
+    },
+    {
+      "hour": 3,
+      "trips": 151,
+      "year": 2020
+    },
+    {
+      "hour": 4,
+      "trips": 93,
+      "year": 2020
+    },
+    {
+      "hour": 5,
+      "trips": 259,
+      "year": 2020
+    },
+    {
+      "hour": 6,
+      "trips": 436,
+      "year": 2020
+    },
+    {
+      "hour": 7,
+      "trips": 1714,
+      "year": 2020
+    },
+    {
+      "hour": 8,
+      "trips": 2514,
+      "year": 2020
+    },
+    {
+      "hour": 9,
+      "trips": 3497,
+      "year": 2020
+    },
+    {
+      "hour": 10,
+      "trips": 5010,
+      "year": 2020
+    },
+    {
+      "hour": 11,
+      "trips": 6715,
+      "year": 2020
+    },
+    {
+      "hour": 12,
+      "trips": 7842,
+      "year": 2020
+    },
+    {
+      "hour": 13,
+      "trips": 8237,
+      "year": 2020
+    },
+    {
+      "hour": 14,
+      "trips": 8021,
+      "year": 2020
+    },
+    {
+      "hour": 15,
+      "trips": 8441,
+      "year": 2020
+    },
+    {
+      "hour": 16,
+      "trips": 8327,
+      "year": 2020
+    },
+    {
+      "hour": 17,
+      "trips": 8858,
+      "year": 2020
+    },
+    {
+      "hour": 18,
+      "trips": 8813,
+      "year": 2020
+    },
+    {
+      "hour": 19,
+      "trips": 8159,
+      "year": 2020
+    },
+    {
+      "hour": 20,
+      "trips": 5824,
+      "year": 2020
+    },
+    {
+      "hour": 21,
+      "trips": 3314,
+      "year": 2020
+    },
+    {
+      "hour": 22,
+      "trips": 2121,
+      "year": 2020
+    },
+    {
+      "hour": 23,
+      "trips": 1405,
+      "year": 2020
+    },
+    {
+      "hour": 0,
+      "trips": 2606,
+      "year": 2021
+    },
+    {
+      "hour": 1,
+      "trips": 1881,
+      "year": 2021
+    },
+    {
+      "hour": 2,
+      "trips": 1555,
+      "year": 2021
+    },
+    {
+      "hour": 3,
+      "trips": 530,
+      "year": 2021
+    },
+    {
+      "hour": 4,
+      "trips": 328,
+      "year": 2021
+    },
+    {
+      "hour": 5,
+      "trips": 346,
+      "year": 2021
+    },
+    {
+      "hour": 6,
+      "trips": 926,
+      "year": 2021
+    },
+    {
+      "hour": 7,
+      "trips": 3322,
+      "year": 2021
+    },
+    {
+      "hour": 8,
+      "trips": 5335,
+      "year": 2021
+    },
+    {
+      "hour": 9,
+      "trips": 8091,
+      "year": 2021
+    },
+    {
+      "hour": 10,
+      "trips": 11120,
+      "year": 2021
+    },
+    {
+      "hour": 11,
+      "trips": 14194,
+      "year": 2021
+    },
+    {
+      "hour": 12,
+      "trips": 16722,
+      "year": 2021
+    },
+    {
+      "hour": 13,
+      "trips": 17678,
+      "year": 2021
+    },
+    {
+      "hour": 14,
+      "trips": 17217,
+      "year": 2021
+    },
+    {
+      "hour": 15,
+      "trips": 18176,
+      "year": 2021
+    },
+    {
+      "hour": 16,
+      "trips": 18242,
+      "year": 2021
+    },
+    {
+      "hour": 17,
+      "trips": 19098,
+      "year": 2021
+    },
+    {
+      "hour": 18,
+      "trips": 17852,
+      "year": 2021
+    },
+    {
+      "hour": 19,
+      "trips": 15652,
+      "year": 2021
+    },
+    {
+      "hour": 20,
+      "trips": 12296,
+      "year": 2021
+    },
+    {
+      "hour": 21,
+      "trips": 9356,
+      "year": 2021
+    },
+    {
+      "hour": 22,
+      "trips": 6911,
+      "year": 2021
+    },
+    {
+      "hour": 23,
+      "trips": 4561,
+      "year": 2021
+    },
+    {
+      "hour": 0,
+      "trips": 3852,
+      "year": 2022
+    },
+    {
+      "hour": 1,
+      "trips": 2590,
+      "year": 2022
+    },
+    {
+      "hour": 2,
+      "trips": 2029,
+      "year": 2022
+    },
+    {
+      "hour": 3,
+      "trips": 920,
+      "year": 2022
+    },
+    {
+      "hour": 4,
+      "trips": 464,
+      "year": 2022
+    },
+    {
+      "hour": 5,
+      "trips": 748,
+      "year": 2022
+    },
+    {
+      "hour": 6,
+      "trips": 2110,
+      "year": 2022
+    },
+    {
+      "hour": 7,
+      "trips": 6463,
+      "year": 2022
+    },
+    {
+      "hour": 8,
+      "trips": 9261,
+      "year": 2022
+    },
+    {
+      "hour": 9,
+      "trips": 13903,
+      "year": 2022
+    },
+    {
+      "hour": 10,
+      "trips": 17238,
+      "year": 2022
+    },
+    {
+      "hour": 11,
+      "trips": 20342,
+      "year": 2022
+    },
+    {
+      "hour": 12,
+      "trips": 24490,
+      "year": 2022
+    },
+    {
+      "hour": 13,
+      "trips": 24207,
+      "year": 2022
+    },
+    {
+      "hour": 14,
+      "trips": 22646,
+      "year": 2022
+    },
+    {
+      "hour": 15,
+      "trips": 23894,
+      "year": 2022
+    },
+    {
+      "hour": 16,
+      "trips": 24791,
+      "year": 2022
+    },
+    {
+      "hour": 17,
+      "trips": 25757,
+      "year": 2022
+    },
+    {
+      "hour": 18,
+      "trips": 24784,
+      "year": 2022
+    },
+    {
+      "hour": 19,
+      "trips": 20985,
+      "year": 2022
+    },
+    {
+      "hour": 20,
+      "trips": 17053,
+      "year": 2022
+    },
+    {
+      "hour": 21,
+      "trips": 12618,
+      "year": 2022
+    },
+    {
+      "hour": 22,
+      "trips": 9483,
+      "year": 2022
+    },
+    {
+      "hour": 23,
+      "trips": 6352,
+      "year": 2022
+    },
+    {
+      "hour": 0,
+      "trips": 3678,
+      "year": 2023
+    },
+    {
+      "hour": 1,
+      "trips": 2405,
+      "year": 2023
+    },
+    {
+      "hour": 2,
+      "trips": 1845,
+      "year": 2023
+    },
+    {
+      "hour": 3,
+      "trips": 757,
+      "year": 2023
+    },
+    {
+      "hour": 4,
+      "trips": 432,
+      "year": 2023
+    },
+    {
+      "hour": 5,
+      "trips": 927,
+      "year": 2023
+    },
+    {
+      "hour": 6,
+      "trips": 1639,
+      "year": 2023
+    },
+    {
+      "hour": 7,
+      "trips": 6191,
+      "year": 2023
+    },
+    {
+      "hour": 8,
+      "trips": 9366,
+      "year": 2023
+    },
+    {
+      "hour": 9,
+      "trips": 12158,
+      "year": 2023
+    },
+    {
+      "hour": 10,
+      "trips": 14505,
+      "year": 2023
+    },
+    {
+      "hour": 11,
+      "trips": 17244,
+      "year": 2023
+    },
+    {
+      "hour": 12,
+      "trips": 20848,
+      "year": 2023
+    },
+    {
+      "hour": 13,
+      "trips": 21549,
+      "year": 2023
+    },
+    {
+      "hour": 14,
+      "trips": 20717,
+      "year": 2023
+    },
+    {
+      "hour": 15,
+      "trips": 21977,
+      "year": 2023
+    },
+    {
+      "hour": 16,
+      "trips": 22261,
+      "year": 2023
+    },
+    {
+      "hour": 17,
+      "trips": 23520,
+      "year": 2023
+    },
+    {
+      "hour": 18,
+      "trips": 21921,
+      "year": 2023
+    },
+    {
+      "hour": 19,
+      "trips": 19121,
+      "year": 2023
+    },
+    {
+      "hour": 20,
+      "trips": 15601,
+      "year": 2023
+    },
+    {
+      "hour": 21,
+      "trips": 11313,
+      "year": 2023
+    },
+    {
+      "hour": 22,
+      "trips": 8224,
+      "year": 2023
+    },
+    {
+      "hour": 23,
+      "trips": 5766,
+      "year": 2023
+    },
+    {
+      "hour": 0,
+      "trips": 1971,
+      "year": 2024
+    },
+    {
+      "hour": 1,
+      "trips": 1209,
+      "year": 2024
+    },
+    {
+      "hour": 2,
+      "trips": 887,
+      "year": 2024
+    },
+    {
+      "hour": 3,
+      "trips": 340,
+      "year": 2024
+    },
+    {
+      "hour": 4,
+      "trips": 209,
+      "year": 2024
+    },
+    {
+      "hour": 5,
+      "trips": 422,
+      "year": 2024
+    },
+    {
+      "hour": 6,
+      "trips": 835,
+      "year": 2024
+    },
+    {
+      "hour": 7,
+      "trips": 2964,
+      "year": 2024
+    },
+    {
+      "hour": 8,
+      "trips": 4670,
+      "year": 2024
+    },
+    {
+      "hour": 9,
+      "trips": 5826,
+      "year": 2024
+    },
+    {
+      "hour": 10,
+      "trips": 6976,
+      "year": 2024
+    },
+    {
+      "hour": 11,
+      "trips": 8357,
+      "year": 2024
+    },
+    {
+      "hour": 12,
+      "trips": 10432,
+      "year": 2024
+    },
+    {
+      "hour": 13,
+      "trips": 10394,
+      "year": 2024
+    },
+    {
+      "hour": 14,
+      "trips": 10148,
+      "year": 2024
+    },
+    {
+      "hour": 15,
+      "trips": 11315,
+      "year": 2024
+    },
+    {
+      "hour": 16,
+      "trips": 11129,
+      "year": 2024
+    },
+    {
+      "hour": 17,
+      "trips": 12004,
+      "year": 2024
+    },
+    {
+      "hour": 18,
+      "trips": 11559,
+      "year": 2024
+    },
+    {
+      "hour": 19,
+      "trips": 9522,
+      "year": 2024
+    },
+    {
+      "hour": 20,
+      "trips": 7489,
+      "year": 2024
+    },
+    {
+      "hour": 21,
+      "trips": 5528,
+      "year": 2024
+    },
+    {
+      "hour": 22,
+      "trips": 4191,
+      "year": 2024
+    },
+    {
+      "hour": 23,
+      "trips": 2767,
+      "year": 2024
+    }
+  ],
+  "duration_bands": [
+    {
+      "band": "<5",
+      "share": 0.1079,
+      "trips": 153,
+      "year": 2013
+    },
+    {
+      "band": "5-15",
+      "share": 0.2983,
+      "trips": 423,
+      "year": 2013
+    },
+    {
+      "band": "15-30",
+      "share": 0.2461,
+      "trips": 349,
+      "year": 2013
+    },
+    {
+      "band": "30-60",
+      "share": 0.1474,
+      "trips": 209,
+      "year": 2013
+    },
+    {
+      "band": "60+",
+      "share": 0.2003,
+      "trips": 284,
+      "year": 2013
+    },
+    {
+      "band": "<5",
+      "share": 0.1035,
+      "trips": 15591,
+      "year": 2014
+    },
+    {
+      "band": "5-15",
+      "share": 0.3987,
+      "trips": 60054,
+      "year": 2014
+    },
+    {
+      "band": "15-30",
+      "share": 0.2931,
+      "trips": 44146,
+      "year": 2014
+    },
+    {
+      "band": "30-60",
+      "share": 0.1069,
+      "trips": 16093,
+      "year": 2014
+    },
+    {
+      "band": "60+",
+      "share": 0.0978,
+      "trips": 14722,
+      "year": 2014
+    },
+    {
+      "band": "<5",
+      "share": 0.116,
+      "trips": 20483,
+      "year": 2015
+    },
+    {
+      "band": "5-15",
+      "share": 0.4174,
+      "trips": 73675,
+      "year": 2015
+    },
+    {
+      "band": "15-30",
+      "share": 0.2828,
+      "trips": 49919,
+      "year": 2015
+    },
+    {
+      "band": "30-60",
+      "share": 0.103,
+      "trips": 18176,
+      "year": 2015
+    },
+    {
+      "band": "60+",
+      "share": 0.0809,
+      "trips": 14275,
+      "year": 2015
+    },
+    {
+      "band": "<5",
+      "share": 0.1112,
+      "trips": 21616,
+      "year": 2016
+    },
+    {
+      "band": "5-15",
+      "share": 0.4001,
+      "trips": 77802,
+      "year": 2016
+    },
+    {
+      "band": "15-30",
+      "share": 0.2802,
+      "trips": 54489,
+      "year": 2016
+    },
+    {
+      "band": "30-60",
+      "share": 0.1105,
+      "trips": 21492,
+      "year": 2016
+    },
+    {
+      "band": "60+",
+      "share": 0.0981,
+      "trips": 19070,
+      "year": 2016
+    },
+    {
+      "band": "<5",
+      "share": 0.1191,
+      "trips": 22373,
+      "year": 2017
+    },
+    {
+      "band": "5-15",
+      "share": 0.3558,
+      "trips": 66851,
+      "year": 2017
+    },
+    {
+      "band": "15-30",
+      "share": 0.2021,
+      "trips": 37974,
+      "year": 2017
+    },
+    {
+      "band": "30-60",
+      "share": 0.2182,
+      "trips": 40987,
+      "year": 2017
+    },
+    {
+      "band": "60+",
+      "share": 0.1048,
+      "trips": 19683,
+      "year": 2017
+    },
+    {
+      "band": "<5",
+      "share": 0.314,
+      "trips": 121122,
+      "year": 2018
+    },
+    {
+      "band": "5-15",
+      "share": 0.3768,
+      "trips": 145347,
+      "year": 2018
+    },
+    {
+      "band": "15-30",
+      "share": 0.1302,
+      "trips": 50241,
+      "year": 2018
+    },
+    {
+      "band": "30-60",
+      "share": 0.1202,
+      "trips": 46364,
+      "year": 2018
+    },
+    {
+      "band": "60+",
+      "share": 0.0588,
+      "trips": 22683,
+      "year": 2018
+    },
+    {
+      "band": "<5",
+      "share": 0.245,
+      "trips": 26154,
+      "year": 2019
+    },
+    {
+      "band": "5-15",
+      "share": 0.3318,
+      "trips": 35421,
+      "year": 2019
+    },
+    {
+      "band": "15-30",
+      "share": 0.1686,
+      "trips": 17999,
+      "year": 2019
+    },
+    {
+      "band": "30-60",
+      "share": 0.154,
+      "trips": 16439,
+      "year": 2019
+    },
+    {
+      "band": "60+",
+      "share": 0.1007,
+      "trips": 10751,
+      "year": 2019
+    },
+    {
+      "band": "<5",
+      "share": 0.1361,
+      "trips": 13838,
+      "year": 2020
+    },
+    {
+      "band": "5-15",
+      "share": 0.2472,
+      "trips": 25135,
+      "year": 2020
+    },
+    {
+      "band": "15-30",
+      "share": 0.2077,
+      "trips": 21113,
+      "year": 2020
+    },
+    {
+      "band": "30-60",
+      "share": 0.2801,
+      "trips": 28476,
+      "year": 2020
+    },
+    {
+      "band": "60+",
+      "share": 0.1288,
+      "trips": 13097,
+      "year": 2020
+    },
+    {
+      "band": "<5",
+      "share": 0.2243,
+      "trips": 50244,
+      "year": 2021
+    },
+    {
+      "band": "5-15",
+      "share": 0.3067,
+      "trips": 68690,
+      "year": 2021
+    },
+    {
+      "band": "15-30",
+      "share": 0.1846,
+      "trips": 41355,
+      "year": 2021
+    },
+    {
+      "band": "30-60",
+      "share": 0.1979,
+      "trips": 44318,
+      "year": 2021
+    },
+    {
+      "band": "60+",
+      "share": 0.0866,
+      "trips": 19388,
+      "year": 2021
+    },
+    {
+      "band": "<5",
+      "share": 0.3165,
+      "trips": 100335,
+      "year": 2022
+    },
+    {
+      "band": "5-15",
+      "share": 0.3369,
+      "trips": 106806,
+      "year": 2022
+    },
+    {
+      "band": "15-30",
+      "share": 0.1488,
+      "trips": 47163,
+      "year": 2022
+    },
+    {
+      "band": "30-60",
+      "share": 0.1449,
+      "trips": 45940,
+      "year": 2022
+    },
+    {
+      "band": "60+",
+      "share": 0.0528,
+      "trips": 16736,
+      "year": 2022
+    },
+    {
+      "band": "<5",
+      "share": 0.3278,
+      "trips": 93075,
+      "year": 2023
+    },
+    {
+      "band": "5-15",
+      "share": 0.3548,
+      "trips": 100754,
+      "year": 2023
+    },
+    {
+      "band": "15-30",
+      "share": 0.1434,
+      "trips": 40714,
+      "year": 2023
+    },
+    {
+      "band": "30-60",
+      "share": 0.1273,
+      "trips": 36142,
+      "year": 2023
+    },
+    {
+      "band": "60+",
+      "share": 0.0468,
+      "trips": 13280,
+      "year": 2023
+    },
+    {
+      "band": "<5",
+      "share": 0.3482,
+      "trips": 49152,
+      "year": 2024
+    },
+    {
+      "band": "5-15",
+      "share": 0.3573,
+      "trips": 50430,
+      "year": 2024
+    },
+    {
+      "band": "15-30",
+      "share": 0.1412,
+      "trips": 19928,
+      "year": 2024
+    },
+    {
+      "band": "30-60",
+      "share": 0.1094,
+      "trips": 15446,
+      "year": 2024
+    },
+    {
+      "band": "60+",
+      "share": 0.0438,
+      "trips": 6188,
+      "year": 2024
+    }
+  ],
+  "round_trip_share": [
+    {
+      "round_trip_share": 0.3209,
+      "round_trips": 455,
+      "trips": 1418,
+      "year": 2013
+    },
+    {
+      "round_trip_share": 0.1333,
+      "round_trips": 20074,
+      "trips": 150606,
+      "year": 2014
+    },
+    {
+      "round_trip_share": 0.1248,
+      "round_trips": 22025,
+      "trips": 176528,
+      "year": 2015
+    },
+    {
+      "round_trip_share": 0.1306,
+      "round_trips": 25391,
+      "trips": 194469,
+      "year": 2016
+    },
+    {
+      "round_trip_share": 0.1271,
+      "round_trips": 23878,
+      "trips": 187868,
+      "year": 2017
+    },
+    {
+      "round_trip_share": 0.1005,
+      "round_trips": 38754,
+      "trips": 385757,
+      "year": 2018
+    },
+    {
+      "round_trip_share": 0.1567,
+      "round_trips": 16729,
+      "trips": 106764,
+      "year": 2019
+    },
+    {
+      "round_trip_share": 0.2333,
+      "round_trips": 23720,
+      "trips": 101659,
+      "year": 2020
+    },
+    {
+      "round_trip_share": 0.1459,
+      "round_trips": 32677,
+      "trips": 223995,
+      "year": 2021
+    },
+    {
+      "round_trip_share": 0.0934,
+      "round_trips": 29608,
+      "trips": 316980,
+      "year": 2022
+    },
+    {
+      "round_trip_share": 0.0851,
+      "round_trips": 24159,
+      "trips": 283965,
+      "year": 2023
+    },
+    {
+      "round_trip_share": 0.0708,
+      "round_trips": 10000,
+      "trips": 141144,
+      "year": 2024
+    }
+  ],
+  "stations": [
+    {
+      "end_trips": 232,
+      "start_trips": 248,
+      "station": "11th/Congress @ The Texas Capitol",
+      "total_trips": 480,
+      "year": 2013
+    },
+    {
+      "end_trips": 177,
+      "start_trips": 177,
+      "station": "5th/Bowie",
+      "total_trips": 354,
+      "year": 2013
+    },
+    {
+      "end_trips": 161,
+      "start_trips": 151,
+      "station": "South Congress/James",
+      "total_trips": 312,
+      "year": 2013
+    },
+    {
+      "end_trips": 160,
+      "start_trips": 149,
+      "station": "2nd/Lavaca @ City Hall",
+      "total_trips": 309,
+      "year": 2013
+    },
+    {
+      "end_trips": 118,
+      "start_trips": 127,
+      "station": "4th/Congress",
+      "total_trips": 245,
+      "year": 2013
+    },
+    {
+      "end_trips": 123,
+      "start_trips": 112,
+      "station": "8th/Congress",
+      "total_trips": 235,
+      "year": 2013
+    },
+    {
+      "end_trips": 117,
+      "start_trips": 117,
+      "station": "Barton Springs/Riverside",
+      "total_trips": 234,
+      "year": 2013
+    },
+    {
+      "end_trips": 103,
+      "start_trips": 109,
+      "station": "2nd/Congress",
+      "total_trips": 212,
+      "year": 2013
+    },
+    {
+      "end_trips": 79,
+      "start_trips": 89,
+      "station": "Republic Square ",
+      "total_trips": 168,
+      "year": 2013
+    },
+    {
+      "end_trips": 94,
+      "start_trips": 67,
+      "station": "Dean Keeton/Speedway",
+      "total_trips": 161,
+      "year": 2013
+    },
+    {
+      "end_trips": 54,
+      "start_trips": 72,
+      "station": "South Congress/Elizabeth",
+      "total_trips": 126,
+      "year": 2013
+    },
+    {
+      "end_trips": 9767,
+      "start_trips": 8347,
+      "station": "2nd/Lavaca @ City Hall",
+      "total_trips": 18114,
+      "year": 2014
+    },
+    {
+      "end_trips": 8604,
+      "start_trips": 7443,
+      "station": "Dean Keeton/Speedway",
+      "total_trips": 16047,
+      "year": 2014
+    },
+    {
+      "end_trips": 7994,
+      "start_trips": 6756,
+      "station": "Zilker Park",
+      "total_trips": 14750,
+      "year": 2014
+    },
+    {
+      "end_trips": 7468,
+      "start_trips": 6729,
+      "station": "4th/Congress",
+      "total_trips": 14197,
+      "year": 2014
+    },
+    {
+      "end_trips": 6767,
+      "start_trips": 7145,
+      "station": "5th/Bowie",
+      "total_trips": 13912,
+      "year": 2014
+    },
+    {
+      "end_trips": 6192,
+      "start_trips": 6356,
+      "station": "Riverside/South Lamar",
+      "total_trips": 12548,
+      "year": 2014
+    },
+    {
+      "end_trips": 6267,
+      "start_trips": 5475,
+      "station": "2nd/Congress",
+      "total_trips": 11742,
+      "year": 2014
+    },
+    {
+      "end_trips": 5644,
+      "start_trips": 5698,
+      "station": "Rainey/Davis",
+      "total_trips": 11342,
+      "year": 2014
+    },
+    {
+      "end_trips": 5372,
+      "start_trips": 5189,
+      "station": "Barton Springs/Riverside",
+      "total_trips": 10561,
+      "year": 2014
+    },
+    {
+      "end_trips": 4800,
+      "start_trips": 5632,
+      "station": "11th/Congress @ The Texas Capitol",
+      "total_trips": 10432,
+      "year": 2014
+    },
+    {
+      "end_trips": 5245,
+      "start_trips": 4935,
+      "station": "Republic Square @ Guadalupe & 4th St.",
+      "total_trips": 10180,
+      "year": 2014
+    },
+    {
+      "end_trips": 4812,
+      "start_trips": 4375,
+      "station": "8th/Congress",
+      "total_trips": 9187,
+      "year": 2014
+    },
+    {
+      "end_trips": 4411,
+      "start_trips": 4334,
+      "station": "South Congress/James",
+      "total_trips": 8745,
+      "year": 2014
+    },
+    {
+      "end_trips": 3943,
+      "start_trips": 3816,
+      "station": "South 1st/Riverside @ Long Center",
+      "total_trips": 7759,
+      "year": 2014
+    },
+    {
+      "end_trips": 3572,
+      "start_trips": 4020,
+      "station": "South Congress/Academy",
+      "total_trips": 7592,
+      "year": 2014
+    },
+    {
+      "end_trips": 3476,
+      "start_trips": 3915,
+      "station": "Electric Drive/Sandra Muraida Way @ Pfluger Ped Bridge",
+      "total_trips": 7391,
+      "year": 2014
+    },
+    {
+      "end_trips": 3961,
+      "start_trips": 3305,
+      "station": "6th/Trinity",
+      "total_trips": 7266,
+      "year": 2014
+    },
+    {
+      "end_trips": 3371,
+      "start_trips": 3830,
+      "station": "Barton Springs/Bouldin @ Palmer Auditorium",
+      "total_trips": 7201,
+      "year": 2014
+    },
+    {
+      "end_trips": 3750,
+      "start_trips": 3361,
+      "station": "6th/West",
+      "total_trips": 7111,
+      "year": 2014
+    },
+    {
+      "end_trips": 3304,
+      "start_trips": 3357,
+      "station": "Rainey/Cummings",
+      "total_trips": 6661,
+      "year": 2014
+    },
+    {
+      "end_trips": 2740,
+      "start_trips": 3318,
+      "station": "South Congress/Elizabeth",
+      "total_trips": 6058,
+      "year": 2014
+    },
+    {
+      "end_trips": 2626,
+      "start_trips": 3067,
+      "station": "Guadalupe/West Mall @ University Co-op",
+      "total_trips": 5693,
+      "year": 2014
+    },
+    {
+      "end_trips": 2603,
+      "start_trips": 2907,
+      "station": "Barton Springs Pool",
+      "total_trips": 5510,
+      "year": 2014
+    },
+    {
+      "end_trips": 2363,
+      "start_trips": 2736,
+      "station": "8th/San Jacinto",
+      "total_trips": 5099,
+      "year": 2014
+    },
+    {
+      "end_trips": 2265,
+      "start_trips": 2708,
+      "station": "Bullock Museum @ Congress & MLK",
+      "total_trips": 4973,
+      "year": 2014
+    },
+    {
+      "end_trips": 2427,
+      "start_trips": 2433,
+      "station": "8th/Red River",
+      "total_trips": 4860,
+      "year": 2014
+    },
+    {
+      "end_trips": 2395,
+      "start_trips": 2334,
+      "station": "Barton Springs/Kinney",
+      "total_trips": 4729,
+      "year": 2014
+    },
+    {
+      "end_trips": 2214,
+      "start_trips": 2126,
+      "station": "3rd/Trinity @ The Convention Center",
+      "total_trips": 4340,
+      "year": 2014
+    },
+    {
+      "end_trips": 2290,
+      "start_trips": 1986,
+      "station": "21st/Guadalupe",
+      "total_trips": 4276,
+      "year": 2014
+    },
+    {
+      "end_trips": 2087,
+      "start_trips": 2130,
+      "station": "Waller & 6th St.",
+      "total_trips": 4217,
+      "year": 2014
+    },
+    {
+      "end_trips": 2278,
+      "start_trips": 1919,
+      "station": "Plaza Saltillo",
+      "total_trips": 4197,
+      "year": 2014
+    },
+    {
+      "end_trips": 1798,
+      "start_trips": 2249,
+      "station": "3rd/West",
+      "total_trips": 4047,
+      "year": 2014
+    },
+    {
+      "end_trips": 1595,
+      "start_trips": 1926,
+      "station": "East 11th/San Marcos",
+      "total_trips": 3521,
+      "year": 2014
+    },
+    {
+      "end_trips": 1484,
+      "start_trips": 1906,
+      "station": "17th/Guadalupe",
+      "total_trips": 3390,
+      "year": 2014
+    },
+    {
+      "end_trips": 1496,
+      "start_trips": 1872,
+      "station": "East 6th/Pedernales",
+      "total_trips": 3368,
+      "year": 2014
+    },
+    {
+      "end_trips": 1188,
+      "start_trips": 1390,
+      "station": "ACC - West & 12th Street",
+      "total_trips": 2578,
+      "year": 2014
+    },
+    {
+      "end_trips": 1153,
+      "start_trips": 1385,
+      "station": "State Capitol @ 14th & Colorado",
+      "total_trips": 2538,
+      "year": 2014
+    },
+    {
+      "end_trips": 1083,
+      "start_trips": 1235,
+      "station": "12th/San Jacinto @ State Capitol Visitors Garage",
+      "total_trips": 2318,
+      "year": 2014
+    },
+    {
+      "end_trips": 1099,
+      "start_trips": 1051,
+      "station": "5th & San Marcos",
+      "total_trips": 2150,
+      "year": 2014
+    },
+    {
+      "end_trips": 897,
+      "start_trips": 1063,
+      "station": "Toomey Rd @ South Lamar",
+      "total_trips": 1960,
+      "year": 2014
+    },
+    {
+      "end_trips": 807,
+      "start_trips": 1132,
+      "station": "East 11th/Victory Grill",
+      "total_trips": 1939,
+      "year": 2014
+    },
+    {
+      "end_trips": 648,
+      "start_trips": 940,
+      "station": "ACC - Rio Grande & 12th",
+      "total_trips": 1588,
+      "year": 2014
+    },
+    {
+      "end_trips": 668,
+      "start_trips": 670,
+      "station": "Nueces @ 3rd",
+      "total_trips": 1338,
+      "year": 2014
+    },
+    {
+      "end_trips": 536,
+      "start_trips": 634,
+      "station": "East 6th/Robert T. Martinez",
+      "total_trips": 1170,
+      "year": 2014
+    },
+    {
+      "end_trips": 317,
+      "start_trips": 753,
+      "station": "Rainey @ River St",
+      "total_trips": 1070,
+      "year": 2014
+    },
+    {
+      "end_trips": 248,
+      "start_trips": 279,
+      "station": "East 5th/Broadway @ Capital Metro HQ",
+      "total_trips": 527,
+      "year": 2014
+    },
+    {
+      "end_trips": 242,
+      "start_trips": 255,
+      "station": "Republic Square ",
+      "total_trips": 497,
+      "year": 2014
+    },
+    {
+      "end_trips": 141,
+      "start_trips": 140,
+      "station": "Ready for deployment",
+      "total_trips": 281,
+      "year": 2014
+    },
+    {
+      "end_trips": 86,
+      "start_trips": 10,
+      "station": "Repair Shop",
+      "total_trips": 96,
+      "year": 2014
+    },
+    {
+      "end_trips": 61,
+      "start_trips": 3,
+      "station": "Customer Service",
+      "total_trips": 64,
+      "year": 2014
+    },
+    {
+      "end_trips": 24,
+      "start_trips": 17,
+      "station": "MapJam at Hops & Grain Brewery",
+      "total_trips": 41,
+      "year": 2014
+    },
+    {
+      "end_trips": 13,
+      "start_trips": 4,
+      "station": "Mobile Station @ Unplugged",
+      "total_trips": 17,
+      "year": 2014
+    },
+    {
+      "end_trips": 4,
+      "start_trips": 9,
+      "station": "Mobile Station @ Boardwalk Opening Ceremony",
+      "total_trips": 13,
+      "year": 2014
+    },
+    {
+      "end_trips": 8,
+      "start_trips": 1,
+      "station": "Mobile Station",
+      "total_trips": 9,
+      "year": 2014
+    },
+    {
+      "end_trips": 1,
+      "start_trips": 0,
+      "station": "Marketing Event",
+      "total_trips": 1,
+      "year": 2014
+    },
+    {
+      "end_trips": 1,
+      "start_trips": 0,
+      "station": "Stolen",
+      "total_trips": 1,
+      "year": 2014
+    },
+    {
+      "end_trips": 9455,
+      "start_trips": 8247,
+      "station": "2nd/Congress",
+      "total_trips": 17702,
+      "year": 2015
+    },
+    {
+      "end_trips": 9155,
+      "start_trips": 7691,
+      "station": "2nd/Lavaca @ City Hall",
+      "total_trips": 16846,
+      "year": 2015
+    },
+    {
+      "end_trips": 8303,
+      "start_trips": 7379,
+      "station": "4th/Congress",
+      "total_trips": 15682,
+      "year": 2015
+    },
+    {
+      "end_trips": 7401,
+      "start_trips": 7915,
+      "station": "5th/Bowie",
+      "total_trips": 15316,
+      "year": 2015
+    },
+    {
+      "end_trips": 7359,
+      "start_trips": 7606,
+      "station": "Riverside/South Lamar",
+      "total_trips": 14965,
+      "year": 2015
+    },
+    {
+      "end_trips": 7623,
+      "start_trips": 6983,
+      "station": "Zilker Park",
+      "total_trips": 14606,
+      "year": 2015
+    },
+    {
+      "end_trips": 6354,
+      "start_trips": 6669,
+      "station": "Rainey/Cummings",
+      "total_trips": 13023,
+      "year": 2015
+    },
+    {
+      "end_trips": 6609,
+      "start_trips": 5898,
+      "station": "Dean Keeton/Speedway",
+      "total_trips": 12507,
+      "year": 2015
+    },
+    {
+      "end_trips": 5698,
+      "start_trips": 5953,
+      "station": "Electric Drive/Sandra Muraida Way @ Pfluger Ped Bridge",
+      "total_trips": 11651,
+      "year": 2015
+    },
+    {
+      "end_trips": 5365,
+      "start_trips": 5044,
+      "station": "Barton Springs/Kinney",
+      "total_trips": 10409,
+      "year": 2015
+    },
+    {
+      "end_trips": 4720,
+      "start_trips": 5502,
+      "station": "11th/Congress @ The Texas Capitol",
+      "total_trips": 10222,
+      "year": 2015
+    },
+    {
+      "end_trips": 4996,
+      "start_trips": 4716,
+      "station": "Barton Springs/Riverside",
+      "total_trips": 9712,
+      "year": 2015
+    },
+    {
+      "end_trips": 4848,
+      "start_trips": 4473,
+      "station": "South 1st/Riverside @ Long Center",
+      "total_trips": 9321,
+      "year": 2015
+    },
+    {
+      "end_trips": 4587,
+      "start_trips": 4081,
+      "station": "3rd/Trinity @ The Convention Center",
+      "total_trips": 8668,
+      "year": 2015
+    },
+    {
+      "end_trips": 4021,
+      "start_trips": 4405,
+      "station": "Rainey/Davis",
+      "total_trips": 8426,
+      "year": 2015
+    },
+    {
+      "end_trips": 3971,
+      "start_trips": 4319,
+      "station": "South Congress/Academy",
+      "total_trips": 8290,
+      "year": 2015
+    },
+    {
+      "end_trips": 4467,
+      "start_trips": 3808,
+      "station": "8th/Congress",
+      "total_trips": 8275,
+      "year": 2015
+    },
+    {
+      "end_trips": 4090,
+      "start_trips": 3843,
+      "station": "Republic Square @ Guadalupe & 4th St.",
+      "total_trips": 7933,
+      "year": 2015
+    },
+    {
+      "end_trips": 4223,
+      "start_trips": 3348,
+      "station": "6th/Trinity",
+      "total_trips": 7571,
+      "year": 2015
+    },
+    {
+      "end_trips": 3392,
+      "start_trips": 4141,
+      "station": "3rd/West",
+      "total_trips": 7533,
+      "year": 2015
+    },
+    {
+      "end_trips": 3535,
+      "start_trips": 3987,
+      "station": "Barton Springs/Bouldin @ Palmer Auditorium",
+      "total_trips": 7522,
+      "year": 2015
+    },
+    {
+      "end_trips": 3772,
+      "start_trips": 3656,
+      "station": "South Congress/James",
+      "total_trips": 7428,
+      "year": 2015
+    },
+    {
+      "end_trips": 4014,
+      "start_trips": 3390,
+      "station": "6th/West",
+      "total_trips": 7404,
+      "year": 2015
+    },
+    {
+      "end_trips": 3567,
+      "start_trips": 3672,
+      "station": "Nueces @ 3rd",
+      "total_trips": 7239,
+      "year": 2015
+    },
+    {
+      "end_trips": 2909,
+      "start_trips": 3123,
+      "station": "Barton Springs Pool",
+      "total_trips": 6032,
+      "year": 2015
+    },
+    {
+      "end_trips": 2817,
+      "start_trips": 3213,
+      "station": "Rainey @ River St",
+      "total_trips": 6030,
+      "year": 2015
+    },
+    {
+      "end_trips": 2819,
+      "start_trips": 3201,
+      "station": "South Congress/Elizabeth",
+      "total_trips": 6020,
+      "year": 2015
+    },
+    {
+      "end_trips": 2576,
+      "start_trips": 3124,
+      "station": "Bullock Museum @ Congress & MLK",
+      "total_trips": 5700,
+      "year": 2015
+    },
+    {
+      "end_trips": 2473,
+      "start_trips": 2918,
+      "station": "Guadalupe/West Mall @ University Co-op",
+      "total_trips": 5391,
+      "year": 2015
+    },
+    {
+      "end_trips": 2733,
+      "start_trips": 2285,
+      "station": "Plaza Saltillo",
+      "total_trips": 5018,
+      "year": 2015
+    },
+    {
+      "end_trips": 2475,
+      "start_trips": 2413,
+      "station": "5th & San Marcos",
+      "total_trips": 4888,
+      "year": 2015
+    },
+    {
+      "end_trips": 2320,
+      "start_trips": 2551,
+      "station": "8th/San Jacinto",
+      "total_trips": 4871,
+      "year": 2015
+    },
+    {
+      "end_trips": 2416,
+      "start_trips": 2399,
+      "station": "Toomey Rd @ South Lamar",
+      "total_trips": 4815,
+      "year": 2015
+    },
+    {
+      "end_trips": 2419,
+      "start_trips": 2348,
+      "station": "Waller & 6th St.",
+      "total_trips": 4767,
+      "year": 2015
+    },
+    {
+      "end_trips": 2382,
+      "start_trips": 2299,
+      "station": "8th/Red River",
+      "total_trips": 4681,
+      "year": 2015
+    },
+    {
+      "end_trips": 1783,
+      "start_trips": 2419,
+      "station": "East 11th/San Marcos",
+      "total_trips": 4202,
+      "year": 2015
+    },
+    {
+      "end_trips": 2067,
+      "start_trips": 1822,
+      "station": "21st/Guadalupe",
+      "total_trips": 3889,
+      "year": 2015
+    },
+    {
+      "end_trips": 1877,
+      "start_trips": 1949,
+      "station": "East 6th/Robert T. Martinez",
+      "total_trips": 3826,
+      "year": 2015
+    },
+    {
+      "end_trips": 1602,
+      "start_trips": 2142,
+      "station": "17th/Guadalupe",
+      "total_trips": 3744,
+      "year": 2015
+    },
+    {
+      "end_trips": 1383,
+      "start_trips": 1416,
+      "station": "East 6th/Pedernales",
+      "total_trips": 2799,
+      "year": 2015
+    },
+    {
+      "end_trips": 1232,
+      "start_trips": 1286,
+      "station": "ACC - West & 12th Street",
+      "total_trips": 2518,
+      "year": 2015
+    },
+    {
+      "end_trips": 1026,
+      "start_trips": 1321,
+      "station": "12th/San Jacinto @ State Capitol Visitors Garage",
+      "total_trips": 2347,
+      "year": 2015
+    },
+    {
+      "end_trips": 938,
+      "start_trips": 1332,
+      "station": "East 11th/Victory Grill",
+      "total_trips": 2270,
+      "year": 2015
+    },
+    {
+      "end_trips": 940,
+      "start_trips": 1295,
+      "station": "State Capitol @ 14th & Colorado",
+      "total_trips": 2235,
+      "year": 2015
+    },
+    {
+      "end_trips": 835,
+      "start_trips": 881,
+      "station": "East 5th/Broadway @ Capital Metro HQ",
+      "total_trips": 1716,
+      "year": 2015
+    },
+    {
+      "end_trips": 780,
+      "start_trips": 818,
+      "station": "Zilker Park West",
+      "total_trips": 1598,
+      "year": 2015
+    },
+    {
+      "end_trips": 626,
+      "start_trips": 765,
+      "station": "ACC - Rio Grande & 12th",
+      "total_trips": 1391,
+      "year": 2015
+    },
+    {
+      "end_trips": 376,
+      "start_trips": 544,
+      "station": "11th/San Jacinto",
+      "total_trips": 920,
+      "year": 2015
+    },
+    {
+      "end_trips": 194,
+      "start_trips": 691,
+      "station": "6th/Lavaca",
+      "total_trips": 885,
+      "year": 2015
+    },
+    {
+      "end_trips": 374,
+      "start_trips": 409,
+      "station": "East 2nd/Pedernales",
+      "total_trips": 783,
+      "year": 2015
+    },
+    {
+      "end_trips": 130,
+      "start_trips": 458,
+      "station": "East 4th/Chicon",
+      "total_trips": 588,
+      "year": 2015
+    },
+    {
+      "end_trips": 138,
+      "start_trips": 158,
+      "station": "Veterans/Atlanta @ MoPac Ped Bridge",
+      "total_trips": 296,
+      "year": 2015
+    },
+    {
+      "end_trips": 142,
+      "start_trips": 139,
+      "station": "Ready for deployment",
+      "total_trips": 281,
+      "year": 2015
+    },
+    {
+      "end_trips": 73,
+      "start_trips": 1,
+      "station": "Customer Service",
+      "total_trips": 74,
+      "year": 2015
+    },
+    {
+      "end_trips": 39,
+      "start_trips": 32,
+      "station": "MapJam at Pan Am Park",
+      "total_trips": 71,
+      "year": 2015
+    },
+    {
+      "end_trips": 28,
+      "start_trips": 26,
+      "station": "MapJam at French Legation",
+      "total_trips": 54,
+      "year": 2015
+    },
+    {
+      "end_trips": 38,
+      "start_trips": 3,
+      "station": "Repair Shop",
+      "total_trips": 41,
+      "year": 2015
+    },
+    {
+      "end_trips": 19,
+      "start_trips": 11,
+      "station": "MapJam at Scoot Inn",
+      "total_trips": 30,
+      "year": 2015
+    },
+    {
+      "end_trips": 10,
+      "start_trips": 4,
+      "station": "Marketing Event",
+      "total_trips": 14,
+      "year": 2015
+    },
+    {
+      "end_trips": 13,
+      "start_trips": 0,
+      "station": "Stolen",
+      "total_trips": 13,
+      "year": 2015
+    },
+    {
+      "end_trips": 0,
+      "start_trips": 4,
+      "station": "Re-branding",
+      "total_trips": 4,
+      "year": 2015
+    },
+    {
+      "end_trips": 1,
+      "start_trips": 2,
+      "station": "East 7th & Pleasant Valley",
+      "total_trips": 3,
+      "year": 2015
+    },
+    {
+      "end_trips": 9285,
+      "start_trips": 9473,
+      "station": "Riverside @ S. Lamar",
+      "total_trips": 18758,
+      "year": 2016
+    },
+    {
+      "end_trips": 9000,
+      "start_trips": 7734,
+      "station": "City Hall / Lavaca & 2nd",
+      "total_trips": 16734,
+      "year": 2016
+    },
+    {
+      "end_trips": 8374,
+      "start_trips": 7802,
+      "station": "2nd & Congress",
+      "total_trips": 16176,
+      "year": 2016
+    },
+    {
+      "end_trips": 7944,
+      "start_trips": 8068,
+      "station": "Rainey St @ Cummings",
+      "total_trips": 16012,
+      "year": 2016
+    },
+    {
+      "end_trips": 8127,
+      "start_trips": 6744,
+      "station": "Zilker Park",
+      "total_trips": 14871,
+      "year": 2016
+    },
+    {
+      "end_trips": 7158,
+      "start_trips": 7134,
+      "station": "Davis at Rainey Street",
+      "total_trips": 14292,
+      "year": 2016
+    },
+    {
+      "end_trips": 7573,
+      "start_trips": 6574,
+      "station": "4th & Congress",
+      "total_trips": 14147,
+      "year": 2016
+    },
+    {
+      "end_trips": 6451,
+      "start_trips": 7101,
+      "station": "5th & Bowie",
+      "total_trips": 13552,
+      "year": 2016
+    },
+    {
+      "end_trips": 6922,
+      "start_trips": 6487,
+      "station": "Convention Center / 4th St. @ MetroRail",
+      "total_trips": 13409,
+      "year": 2016
+    },
+    {
+      "end_trips": 6333,
+      "start_trips": 6447,
+      "station": "Pfluger Bridge @ W 2nd Street",
+      "total_trips": 12780,
+      "year": 2016
+    },
+    {
+      "end_trips": 5759,
+      "start_trips": 5437,
+      "station": "Barton Springs @ Kinney Ave",
+      "total_trips": 11196,
+      "year": 2016
+    },
+    {
+      "end_trips": 5823,
+      "start_trips": 5020,
+      "station": "Convention Center / 3rd & Trinity",
+      "total_trips": 10843,
+      "year": 2016
+    },
+    {
+      "end_trips": 5011,
+      "start_trips": 5637,
+      "station": "3rd & West",
+      "total_trips": 10648,
+      "year": 2016
+    },
+    {
+      "end_trips": 5472,
+      "start_trips": 5052,
+      "station": "Brazos & 6th",
+      "total_trips": 10524,
+      "year": 2016
+    },
+    {
+      "end_trips": 5312,
+      "start_trips": 5038,
+      "station": "Long Center @ South 1st & Riverside",
+      "total_trips": 10350,
+      "year": 2016
+    },
+    {
+      "end_trips": 4529,
+      "start_trips": 5419,
+      "station": "Capitol Station / Congress & 11th",
+      "total_trips": 9948,
+      "year": 2016
+    },
+    {
+      "end_trips": 4727,
+      "start_trips": 5137,
+      "station": "MoPac Pedestrian Bridge @ Veterans Drive",
+      "total_trips": 9864,
+      "year": 2016
+    },
+    {
+      "end_trips": 4400,
+      "start_trips": 4601,
+      "station": "Palmer Auditorium",
+      "total_trips": 9001,
+      "year": 2016
+    },
+    {
+      "end_trips": 4142,
+      "start_trips": 4159,
+      "station": "South Congress & Academy",
+      "total_trips": 8301,
+      "year": 2016
+    },
+    {
+      "end_trips": 3897,
+      "start_trips": 3854,
+      "station": "Barton Springs & Riverside",
+      "total_trips": 7751,
+      "year": 2016
+    },
+    {
+      "end_trips": 3905,
+      "start_trips": 3843,
+      "station": "South Congress & James",
+      "total_trips": 7748,
+      "year": 2016
+    },
+    {
+      "end_trips": 3459,
+      "start_trips": 3641,
+      "station": "Barton Springs Pool",
+      "total_trips": 7100,
+      "year": 2016
+    },
+    {
+      "end_trips": 3806,
+      "start_trips": 3286,
+      "station": "West & 6th St.",
+      "total_trips": 7092,
+      "year": 2016
+    },
+    {
+      "end_trips": 3204,
+      "start_trips": 3589,
+      "station": "South Congress & Elizabeth",
+      "total_trips": 6793,
+      "year": 2016
+    },
+    {
+      "end_trips": 3121,
+      "start_trips": 3322,
+      "station": "5th & San Marcos",
+      "total_trips": 6443,
+      "year": 2016
+    },
+    {
+      "end_trips": 2938,
+      "start_trips": 3280,
+      "station": "Bullock Museum @ Congress & MLK",
+      "total_trips": 6218,
+      "year": 2016
+    },
+    {
+      "end_trips": 3264,
+      "start_trips": 2949,
+      "station": "Plaza Saltillo",
+      "total_trips": 6213,
+      "year": 2016
+    },
+    {
+      "end_trips": 3043,
+      "start_trips": 2889,
+      "station": "8th & Congress",
+      "total_trips": 5932,
+      "year": 2016
+    },
+    {
+      "end_trips": 2977,
+      "start_trips": 2599,
+      "station": "Trinity & 6th Street",
+      "total_trips": 5576,
+      "year": 2016
+    },
+    {
+      "end_trips": 2408,
+      "start_trips": 2945,
+      "station": "UT West Mall @ Guadalupe",
+      "total_trips": 5353,
+      "year": 2016
+    },
+    {
+      "end_trips": 2569,
+      "start_trips": 2576,
+      "station": "Red River & 8th Street",
+      "total_trips": 5145,
+      "year": 2016
+    },
+    {
+      "end_trips": 2519,
+      "start_trips": 2526,
+      "station": "Lavaca & 6th",
+      "total_trips": 5045,
+      "year": 2016
+    },
+    {
+      "end_trips": 2440,
+      "start_trips": 2461,
+      "station": "South Congress & Barton Springs at the Austin American-Statesman",
+      "total_trips": 4901,
+      "year": 2016
+    },
+    {
+      "end_trips": 2015,
+      "start_trips": 2823,
+      "station": "East 11th St. & San Marcos",
+      "total_trips": 4838,
+      "year": 2016
+    },
+    {
+      "end_trips": 2218,
+      "start_trips": 2410,
+      "station": "Republic Square @ Federal Courthouse Plaza",
+      "total_trips": 4628,
+      "year": 2016
+    },
+    {
+      "end_trips": 2186,
+      "start_trips": 2022,
+      "station": "Republic Square @ Guadalupe & 4th St.",
+      "total_trips": 4208,
+      "year": 2016
+    },
+    {
+      "end_trips": 1904,
+      "start_trips": 1997,
+      "station": "East 6th at Robert Martinez",
+      "total_trips": 3901,
+      "year": 2016
+    },
+    {
+      "end_trips": 1956,
+      "start_trips": 1937,
+      "station": "Guadalupe & 21st",
+      "total_trips": 3893,
+      "year": 2016
+    },
+    {
+      "end_trips": 1699,
+      "start_trips": 2060,
+      "station": "San Jacinto & 8th Street",
+      "total_trips": 3759,
+      "year": 2016
+    },
+    {
+      "end_trips": 1508,
+      "start_trips": 2137,
+      "station": "17th & Guadalupe",
+      "total_trips": 3645,
+      "year": 2016
+    },
+    {
+      "end_trips": 1783,
+      "start_trips": 1678,
+      "station": "East 4th & Chicon",
+      "total_trips": 3461,
+      "year": 2016
+    },
+    {
+      "end_trips": 1673,
+      "start_trips": 1663,
+      "station": "ACC - West & 12th Street",
+      "total_trips": 3336,
+      "year": 2016
+    },
+    {
+      "end_trips": 1257,
+      "start_trips": 1596,
+      "station": "East 11th St. at Victory Grill",
+      "total_trips": 2853,
+      "year": 2016
+    },
+    {
+      "end_trips": 1367,
+      "start_trips": 1396,
+      "station": "East 2nd & Pedernales",
+      "total_trips": 2763,
+      "year": 2016
+    },
+    {
+      "end_trips": 1082,
+      "start_trips": 1613,
+      "station": "11th & San Jacinto",
+      "total_trips": 2695,
+      "year": 2016
+    },
+    {
+      "end_trips": 1045,
+      "start_trips": 1404,
+      "station": "State Capitol @ 14th & Colorado",
+      "total_trips": 2449,
+      "year": 2016
+    },
+    {
+      "end_trips": 1020,
+      "start_trips": 1363,
+      "station": "State Capitol Visitors Garage @ San Jacinto & 12th",
+      "total_trips": 2383,
+      "year": 2016
+    },
+    {
+      "end_trips": 1075,
+      "start_trips": 1162,
+      "station": "East 6th & Pedernales St.",
+      "total_trips": 2237,
+      "year": 2016
+    },
+    {
+      "end_trips": 1099,
+      "start_trips": 1066,
+      "station": "Waller & 6th St.",
+      "total_trips": 2165,
+      "year": 2016
+    },
+    {
+      "end_trips": 814,
+      "start_trips": 766,
+      "station": "Capital Metro HQ - East 5th at Broadway",
+      "total_trips": 1580,
+      "year": 2016
+    },
+    {
+      "end_trips": 832,
+      "start_trips": 476,
+      "station": "Zilker Park West",
+      "total_trips": 1308,
+      "year": 2016
+    },
+    {
+      "end_trips": 516,
+      "start_trips": 549,
+      "station": "East 7th & Pleasant Valley",
+      "total_trips": 1065,
+      "year": 2016
+    },
+    {
+      "end_trips": 453,
+      "start_trips": 411,
+      "station": "Rainey @ River St",
+      "total_trips": 864,
+      "year": 2016
+    },
+    {
+      "end_trips": 305,
+      "start_trips": 362,
+      "station": "Pease Park",
+      "total_trips": 667,
+      "year": 2016
+    },
+    {
+      "end_trips": 257,
+      "start_trips": 303,
+      "station": "Nueces @ 3rd",
+      "total_trips": 560,
+      "year": 2016
+    },
+    {
+      "end_trips": 193,
+      "start_trips": 168,
+      "station": "6th & Congress",
+      "total_trips": 361,
+      "year": 2016
+    },
+    {
+      "end_trips": 143,
+      "start_trips": 141,
+      "station": "Nueces & 3rd",
+      "total_trips": 284,
+      "year": 2016
+    },
+    {
+      "end_trips": 97,
+      "start_trips": 96,
+      "station": "Republic Square",
+      "total_trips": 193,
+      "year": 2016
+    },
+    {
+      "end_trips": 60,
+      "start_trips": 46,
+      "station": "Guadalupe & 6th",
+      "total_trips": 106,
+      "year": 2016
+    },
+    {
+      "end_trips": 9,
+      "start_trips": 0,
+      "station": "Main Office",
+      "total_trips": 9,
+      "year": 2016
+    },
+    {
+      "end_trips": 7,
+      "start_trips": 0,
+      "station": "Repair Shop",
+      "total_trips": 7,
+      "year": 2016
+    },
+    {
+      "end_trips": 2,
+      "start_trips": 0,
+      "station": "Customer Service",
+      "total_trips": 2,
+      "year": 2016
+    },
+    {
+      "end_trips": 2,
+      "start_trips": 0,
+      "station": "Stolen",
+      "total_trips": 2,
+      "year": 2016
+    },
+    {
+      "end_trips": 8245,
+      "start_trips": 8441,
+      "station": "Rainey St @ Cummings",
+      "total_trips": 16686,
+      "year": 2017
+    },
+    {
+      "end_trips": 8114,
+      "start_trips": 8313,
+      "station": "Riverside @ S. Lamar",
+      "total_trips": 16427,
+      "year": 2017
+    },
+    {
+      "end_trips": 8014,
+      "start_trips": 7497,
+      "station": "2nd & Congress",
+      "total_trips": 15511,
+      "year": 2017
+    },
+    {
+      "end_trips": 7502,
+      "start_trips": 7442,
+      "station": "Davis at Rainey Street",
+      "total_trips": 14944,
+      "year": 2017
+    },
+    {
+      "end_trips": 7374,
+      "start_trips": 6598,
+      "station": "City Hall / Lavaca & 2nd",
+      "total_trips": 13972,
+      "year": 2017
+    },
+    {
+      "end_trips": 6413,
+      "start_trips": 6101,
+      "station": "Zilker Park",
+      "total_trips": 12514,
+      "year": 2017
+    },
+    {
+      "end_trips": 6359,
+      "start_trips": 6092,
+      "station": "Convention Center / 4th St. @ MetroRail",
+      "total_trips": 12451,
+      "year": 2017
+    },
+    {
+      "end_trips": 6426,
+      "start_trips": 5845,
+      "station": "4th & Congress",
+      "total_trips": 12271,
+      "year": 2017
+    },
+    {
+      "end_trips": 6103,
+      "start_trips": 6140,
+      "station": "5th & Bowie",
+      "total_trips": 12243,
+      "year": 2017
+    },
+    {
+      "end_trips": 4970,
+      "start_trips": 5425,
+      "station": "3rd & West",
+      "total_trips": 10395,
+      "year": 2017
+    },
+    {
+      "end_trips": 4989,
+      "start_trips": 5172,
+      "station": "MoPac Pedestrian Bridge @ Veterans Drive",
+      "total_trips": 10161,
+      "year": 2017
+    },
+    {
+      "end_trips": 5291,
+      "start_trips": 4729,
+      "station": "Convention Center / 3rd & Trinity",
+      "total_trips": 10020,
+      "year": 2017
+    },
+    {
+      "end_trips": 4894,
+      "start_trips": 4993,
+      "station": "Pfluger Bridge @ W 2nd Street",
+      "total_trips": 9887,
+      "year": 2017
+    },
+    {
+      "end_trips": 5264,
+      "start_trips": 4402,
+      "station": "Barton Springs @ Kinney Ave",
+      "total_trips": 9666,
+      "year": 2017
+    },
+    {
+      "end_trips": 4881,
+      "start_trips": 4715,
+      "station": "South Congress & Barton Springs at the Austin American-Statesman",
+      "total_trips": 9596,
+      "year": 2017
+    },
+    {
+      "end_trips": 4742,
+      "start_trips": 4659,
+      "station": "Brazos & 6th",
+      "total_trips": 9401,
+      "year": 2017
+    },
+    {
+      "end_trips": 4669,
+      "start_trips": 4485,
+      "station": "Long Center @ South 1st & Riverside",
+      "total_trips": 9154,
+      "year": 2017
+    },
+    {
+      "end_trips": 4185,
+      "start_trips": 4564,
+      "station": "Capitol Station / Congress & 11th",
+      "total_trips": 8749,
+      "year": 2017
+    },
+    {
+      "end_trips": 4092,
+      "start_trips": 4297,
+      "station": "Palmer Auditorium",
+      "total_trips": 8389,
+      "year": 2017
+    },
+    {
+      "end_trips": 4031,
+      "start_trips": 4063,
+      "station": "Plaza Saltillo",
+      "total_trips": 8094,
+      "year": 2017
+    },
+    {
+      "end_trips": 4114,
+      "start_trips": 3906,
+      "station": "6th & Congress",
+      "total_trips": 8020,
+      "year": 2017
+    },
+    {
+      "end_trips": 3536,
+      "start_trips": 3792,
+      "station": "Barton Springs Pool",
+      "total_trips": 7328,
+      "year": 2017
+    },
+    {
+      "end_trips": 3879,
+      "start_trips": 3329,
+      "station": "South Congress & Academy",
+      "total_trips": 7208,
+      "year": 2017
+    },
+    {
+      "end_trips": 3382,
+      "start_trips": 3709,
+      "station": "South Congress & James",
+      "total_trips": 7091,
+      "year": 2017
+    },
+    {
+      "end_trips": 3387,
+      "start_trips": 3625,
+      "station": "Nueces & 3rd",
+      "total_trips": 7012,
+      "year": 2017
+    },
+    {
+      "end_trips": 3041,
+      "start_trips": 3141,
+      "station": "Barton Springs & Riverside",
+      "total_trips": 6182,
+      "year": 2017
+    },
+    {
+      "end_trips": 2913,
+      "start_trips": 3258,
+      "station": "South Congress & Elizabeth",
+      "total_trips": 6171,
+      "year": 2017
+    },
+    {
+      "end_trips": 2997,
+      "start_trips": 2465,
+      "station": "West & 6th St.",
+      "total_trips": 5462,
+      "year": 2017
+    },
+    {
+      "end_trips": 2634,
+      "start_trips": 2701,
+      "station": "Red River & 8th Street",
+      "total_trips": 5335,
+      "year": 2017
+    },
+    {
+      "end_trips": 2285,
+      "start_trips": 2672,
+      "station": "UT West Mall @ Guadalupe",
+      "total_trips": 4957,
+      "year": 2017
+    },
+    {
+      "end_trips": 2278,
+      "start_trips": 2604,
+      "station": "8th & Congress",
+      "total_trips": 4882,
+      "year": 2017
+    },
+    {
+      "end_trips": 2389,
+      "start_trips": 2344,
+      "station": "Boardwalk West",
+      "total_trips": 4733,
+      "year": 2017
+    },
+    {
+      "end_trips": 2262,
+      "start_trips": 2407,
+      "station": "Medina & East 6th",
+      "total_trips": 4669,
+      "year": 2017
+    },
+    {
+      "end_trips": 2136,
+      "start_trips": 2518,
+      "station": "Bullock Museum @ Congress & MLK",
+      "total_trips": 4654,
+      "year": 2017
+    },
+    {
+      "end_trips": 2052,
+      "start_trips": 2234,
+      "station": "East 6th at Robert Martinez",
+      "total_trips": 4286,
+      "year": 2017
+    },
+    {
+      "end_trips": 2248,
+      "start_trips": 1967,
+      "station": "Trinity & 6th Street",
+      "total_trips": 4215,
+      "year": 2017
+    },
+    {
+      "end_trips": 1791,
+      "start_trips": 2341,
+      "station": "East 11th St. & San Marcos",
+      "total_trips": 4132,
+      "year": 2017
+    },
+    {
+      "end_trips": 2142,
+      "start_trips": 1905,
+      "station": "East 4th & Chicon",
+      "total_trips": 4047,
+      "year": 2017
+    },
+    {
+      "end_trips": 2174,
+      "start_trips": 1614,
+      "station": "Sterzing at Barton Springs",
+      "total_trips": 3788,
+      "year": 2017
+    },
+    {
+      "end_trips": 1551,
+      "start_trips": 1618,
+      "station": "Republic Square @ Federal Courthouse Plaza",
+      "total_trips": 3169,
+      "year": 2017
+    },
+    {
+      "end_trips": 1565,
+      "start_trips": 1597,
+      "station": "Lavaca & 6th",
+      "total_trips": 3162,
+      "year": 2017
+    },
+    {
+      "end_trips": 1496,
+      "start_trips": 1532,
+      "station": "Guadalupe & 21st",
+      "total_trips": 3028,
+      "year": 2017
+    },
+    {
+      "end_trips": 1445,
+      "start_trips": 1533,
+      "station": "San Jacinto & 8th Street",
+      "total_trips": 2978,
+      "year": 2017
+    },
+    {
+      "end_trips": 1439,
+      "start_trips": 1502,
+      "station": "East 6th & Pedernales St.",
+      "total_trips": 2941,
+      "year": 2017
+    },
+    {
+      "end_trips": 1499,
+      "start_trips": 1430,
+      "station": "Congress & Cesar Chavez",
+      "total_trips": 2929,
+      "year": 2017
+    },
+    {
+      "end_trips": 1374,
+      "start_trips": 1278,
+      "station": "East 2nd & Pedernales",
+      "total_trips": 2652,
+      "year": 2017
+    },
+    {
+      "end_trips": 1101,
+      "start_trips": 1464,
+      "station": "17th & Guadalupe",
+      "total_trips": 2565,
+      "year": 2017
+    },
+    {
+      "end_trips": 977,
+      "start_trips": 1276,
+      "station": "East 11th St. at Victory Grill",
+      "total_trips": 2253,
+      "year": 2017
+    },
+    {
+      "end_trips": 1029,
+      "start_trips": 1190,
+      "station": "State Capitol Visitors Garage @ San Jacinto & 12th",
+      "total_trips": 2219,
+      "year": 2017
+    },
+    {
+      "end_trips": 793,
+      "start_trips": 1333,
+      "station": "11th & San Jacinto",
+      "total_trips": 2126,
+      "year": 2017
+    },
+    {
+      "end_trips": 901,
+      "start_trips": 906,
+      "station": "Guadalupe & 6th",
+      "total_trips": 1807,
+      "year": 2017
+    },
+    {
+      "end_trips": 900,
+      "start_trips": 815,
+      "station": "Capital Metro HQ - East 5th at Broadway",
+      "total_trips": 1715,
+      "year": 2017
+    },
+    {
+      "end_trips": 683,
+      "start_trips": 993,
+      "station": "State Capitol @ 14th & Colorado",
+      "total_trips": 1676,
+      "year": 2017
+    },
+    {
+      "end_trips": 778,
+      "start_trips": 718,
+      "station": "Henderson & 9th",
+      "total_trips": 1496,
+      "year": 2017
+    },
+    {
+      "end_trips": 732,
+      "start_trips": 742,
+      "station": "13th & San Antonio",
+      "total_trips": 1474,
+      "year": 2017
+    },
+    {
+      "end_trips": 593,
+      "start_trips": 582,
+      "station": "Republic Square @ 5th & Guadalupe",
+      "total_trips": 1175,
+      "year": 2017
+    },
+    {
+      "end_trips": 468,
+      "start_trips": 504,
+      "station": "5th & San Marcos",
+      "total_trips": 972,
+      "year": 2017
+    },
+    {
+      "end_trips": 289,
+      "start_trips": 323,
+      "station": "Pease Park",
+      "total_trips": 612,
+      "year": 2017
+    },
+    {
+      "end_trips": 30,
+      "start_trips": 25,
+      "station": "Main Office",
+      "total_trips": 55,
+      "year": 2017
+    },
+    {
+      "end_trips": 12,
+      "start_trips": 0,
+      "station": "Customer Service",
+      "total_trips": 12,
+      "year": 2017
+    },
+    {
+      "end_trips": 11,
+      "start_trips": 0,
+      "station": "Repair Shop",
+      "total_trips": 11,
+      "year": 2017
+    },
+    {
+      "end_trips": 3,
+      "start_trips": 1,
+      "station": "Stolen",
+      "total_trips": 4,
+      "year": 2017
+    },
+    {
+      "end_trips": 1,
+      "start_trips": 1,
+      "station": "Re-branding",
+      "total_trips": 2,
+      "year": 2017
+    },
+    {
+      "end_trips": 66549,
+      "start_trips": 64767,
+      "station": "21st & Speedway @PCL",
+      "total_trips": 131316,
+      "year": 2018
+    },
+    {
+      "end_trips": 26297,
+      "start_trips": 24214,
+      "station": "Dean Keeton & Speedway ",
+      "total_trips": 50511,
+      "year": 2018
+    },
+    {
+      "end_trips": 20050,
+      "start_trips": 22016,
+      "station": "23rd & Rio Grande",
+      "total_trips": 42066,
+      "year": 2018
+    },
+    {
+      "end_trips": 17406,
+      "start_trips": 20278,
+      "station": "22nd & Pearl",
+      "total_trips": 37684,
+      "year": 2018
+    },
+    {
+      "end_trips": 16217,
+      "start_trips": 18311,
+      "station": "Rio Grande & 28th",
+      "total_trips": 34528,
+      "year": 2018
+    },
+    {
+      "end_trips": 16255,
+      "start_trips": 16897,
+      "station": "Dean Keeton & Whitis",
+      "total_trips": 33152,
+      "year": 2018
+    },
+    {
+      "end_trips": 15011,
+      "start_trips": 15530,
+      "station": "Guadalupe & 21st",
+      "total_trips": 30541,
+      "year": 2018
+    },
+    {
+      "end_trips": 13872,
+      "start_trips": 16206,
+      "station": "Nueces & 26th",
+      "total_trips": 30078,
+      "year": 2018
+    },
+    {
+      "end_trips": 13639,
+      "start_trips": 13911,
+      "station": "UT West Mall @ Guadalupe",
+      "total_trips": 27550,
+      "year": 2018
+    },
+    {
+      "end_trips": 13095,
+      "start_trips": 12247,
+      "station": "21st & University",
+      "total_trips": 25342,
+      "year": 2018
+    },
+    {
+      "end_trips": 11875,
+      "start_trips": 8146,
+      "station": "23rd & San Jacinto @ DKR Stadium",
+      "total_trips": 20021,
+      "year": 2018
+    },
+    {
+      "end_trips": 6735,
+      "start_trips": 6875,
+      "station": "Riverside @ S. Lamar",
+      "total_trips": 13610,
+      "year": 2018
+    },
+    {
+      "end_trips": 6194,
+      "start_trips": 6307,
+      "station": "Rainey St @ Cummings",
+      "total_trips": 12501,
+      "year": 2018
+    },
+    {
+      "end_trips": 5587,
+      "start_trips": 5602,
+      "station": "Davis at Rainey Street",
+      "total_trips": 11189,
+      "year": 2018
+    },
+    {
+      "end_trips": 5590,
+      "start_trips": 5087,
+      "station": "2nd & Congress",
+      "total_trips": 10677,
+      "year": 2018
+    },
+    {
+      "end_trips": 5086,
+      "start_trips": 4979,
+      "station": "Zilker Park",
+      "total_trips": 10065,
+      "year": 2018
+    },
+    {
+      "end_trips": 5227,
+      "start_trips": 4599,
+      "station": "City Hall / Lavaca & 2nd",
+      "total_trips": 9826,
+      "year": 2018
+    },
+    {
+      "end_trips": 4826,
+      "start_trips": 4750,
+      "station": "3rd & West",
+      "total_trips": 9576,
+      "year": 2018
+    },
+    {
+      "end_trips": 4553,
+      "start_trips": 4372,
+      "station": "Pfluger Bridge @ W 2nd Street",
+      "total_trips": 8925,
+      "year": 2018
+    },
+    {
+      "end_trips": 4369,
+      "start_trips": 4383,
+      "station": "5th & Bowie",
+      "total_trips": 8752,
+      "year": 2018
+    },
+    {
+      "end_trips": 4126,
+      "start_trips": 4043,
+      "station": "MoPac Pedestrian Bridge @ Veterans Drive",
+      "total_trips": 8169,
+      "year": 2018
+    },
+    {
+      "end_trips": 4322,
+      "start_trips": 3846,
+      "station": "4th & Congress",
+      "total_trips": 8168,
+      "year": 2018
+    },
+    {
+      "end_trips": 4121,
+      "start_trips": 4044,
+      "station": "Convention Center / 4th St. @ MetroRail",
+      "total_trips": 8165,
+      "year": 2018
+    },
+    {
+      "end_trips": 3802,
+      "start_trips": 4234,
+      "station": "Capitol Station / Congress & 11th",
+      "total_trips": 8036,
+      "year": 2018
+    },
+    {
+      "end_trips": 3705,
+      "start_trips": 3724,
+      "station": "South Congress & Barton Springs at the Austin American-Statesman",
+      "total_trips": 7429,
+      "year": 2018
+    },
+    {
+      "end_trips": 3931,
+      "start_trips": 3443,
+      "station": "Convention Center / 3rd & Trinity",
+      "total_trips": 7374,
+      "year": 2018
+    },
+    {
+      "end_trips": 3631,
+      "start_trips": 3441,
+      "station": "Nueces & 3rd",
+      "total_trips": 7072,
+      "year": 2018
+    },
+    {
+      "end_trips": 3591,
+      "start_trips": 3470,
+      "station": "6th & Congress",
+      "total_trips": 7061,
+      "year": 2018
+    },
+    {
+      "end_trips": 3469,
+      "start_trips": 3399,
+      "station": "Brazos & 6th",
+      "total_trips": 6868,
+      "year": 2018
+    },
+    {
+      "end_trips": 3674,
+      "start_trips": 3192,
+      "station": "Sterzing at Barton Springs",
+      "total_trips": 6866,
+      "year": 2018
+    },
+    {
+      "end_trips": 3389,
+      "start_trips": 3394,
+      "station": "Palmer Auditorium",
+      "total_trips": 6783,
+      "year": 2018
+    },
+    {
+      "end_trips": 3413,
+      "start_trips": 3327,
+      "station": "Long Center @ South 1st & Riverside",
+      "total_trips": 6740,
+      "year": 2018
+    },
+    {
+      "end_trips": 3406,
+      "start_trips": 3301,
+      "station": "Congress & Cesar Chavez",
+      "total_trips": 6707,
+      "year": 2018
+    },
+    {
+      "end_trips": 3301,
+      "start_trips": 3305,
+      "station": "Boardwalk West",
+      "total_trips": 6606,
+      "year": 2018
+    },
+    {
+      "end_trips": 3045,
+      "start_trips": 3072,
+      "station": "Barton Springs Pool",
+      "total_trips": 6117,
+      "year": 2018
+    },
+    {
+      "end_trips": 3021,
+      "start_trips": 2828,
+      "station": "Plaza Saltillo",
+      "total_trips": 5849,
+      "year": 2018
+    },
+    {
+      "end_trips": 2707,
+      "start_trips": 2955,
+      "station": "17th & Guadalupe",
+      "total_trips": 5662,
+      "year": 2018
+    },
+    {
+      "end_trips": 2918,
+      "start_trips": 2682,
+      "station": "Barton Springs @ Kinney Ave",
+      "total_trips": 5600,
+      "year": 2018
+    },
+    {
+      "end_trips": 2690,
+      "start_trips": 2849,
+      "station": "South Congress & James",
+      "total_trips": 5539,
+      "year": 2018
+    },
+    {
+      "end_trips": 2330,
+      "start_trips": 2739,
+      "station": "South Congress & Elizabeth",
+      "total_trips": 5069,
+      "year": 2018
+    },
+    {
+      "end_trips": 2638,
+      "start_trips": 2212,
+      "station": "South Congress & Academy",
+      "total_trips": 4850,
+      "year": 2018
+    },
+    {
+      "end_trips": 2367,
+      "start_trips": 2338,
+      "station": "Barton Springs & Riverside",
+      "total_trips": 4705,
+      "year": 2018
+    },
+    {
+      "end_trips": 2180,
+      "start_trips": 2163,
+      "station": "Red River & 8th Street",
+      "total_trips": 4343,
+      "year": 2018
+    },
+    {
+      "end_trips": 2159,
+      "start_trips": 2100,
+      "station": "Republic Square @ 5th & Guadalupe",
+      "total_trips": 4259,
+      "year": 2018
+    },
+    {
+      "end_trips": 1923,
+      "start_trips": 2117,
+      "station": "8th & Congress",
+      "total_trips": 4040,
+      "year": 2018
+    },
+    {
+      "end_trips": 2068,
+      "start_trips": 1863,
+      "station": "Henderson & 9th",
+      "total_trips": 3931,
+      "year": 2018
+    },
+    {
+      "end_trips": 2008,
+      "start_trips": 1868,
+      "station": "Trinity & 6th Street",
+      "total_trips": 3876,
+      "year": 2018
+    },
+    {
+      "end_trips": 2111,
+      "start_trips": 1668,
+      "station": "West & 6th St.",
+      "total_trips": 3779,
+      "year": 2018
+    },
+    {
+      "end_trips": 1541,
+      "start_trips": 1679,
+      "station": "Medina & East 6th",
+      "total_trips": 3220,
+      "year": 2018
+    },
+    {
+      "end_trips": 1656,
+      "start_trips": 1538,
+      "station": "East 4th & Chicon",
+      "total_trips": 3194,
+      "year": 2018
+    },
+    {
+      "end_trips": 1542,
+      "start_trips": 1650,
+      "station": "East 6th at Robert Martinez",
+      "total_trips": 3192,
+      "year": 2018
+    },
+    {
+      "end_trips": 1548,
+      "start_trips": 1580,
+      "station": "Lavaca & 6th",
+      "total_trips": 3128,
+      "year": 2018
+    },
+    {
+      "end_trips": 1293,
+      "start_trips": 1537,
+      "station": "East 11th St. & San Marcos",
+      "total_trips": 2830,
+      "year": 2018
+    },
+    {
+      "end_trips": 1318,
+      "start_trips": 1428,
+      "station": "San Jacinto & 8th Street",
+      "total_trips": 2746,
+      "year": 2018
+    },
+    {
+      "end_trips": 1185,
+      "start_trips": 1265,
+      "station": "State Capitol Visitors Garage @ San Jacinto & 12th",
+      "total_trips": 2450,
+      "year": 2018
+    },
+    {
+      "end_trips": 1235,
+      "start_trips": 1174,
+      "station": "East 2nd & Pedernales",
+      "total_trips": 2409,
+      "year": 2018
+    },
+    {
+      "end_trips": 1095,
+      "start_trips": 1119,
+      "station": "East 6th & Pedernales St.",
+      "total_trips": 2214,
+      "year": 2018
+    },
+    {
+      "end_trips": 922,
+      "start_trips": 1127,
+      "station": "13th & San Antonio",
+      "total_trips": 2049,
+      "year": 2018
+    },
+    {
+      "end_trips": 765,
+      "start_trips": 1172,
+      "station": "11th & San Jacinto",
+      "total_trips": 1937,
+      "year": 2018
+    },
+    {
+      "end_trips": 809,
+      "start_trips": 832,
+      "station": "Lake Austin Blvd @ Deep Eddy",
+      "total_trips": 1641,
+      "year": 2018
+    },
+    {
+      "end_trips": 700,
+      "start_trips": 908,
+      "station": "East 11th St. at Victory Grill",
+      "total_trips": 1608,
+      "year": 2018
+    },
+    {
+      "end_trips": 788,
+      "start_trips": 803,
+      "station": "11th & Salina ",
+      "total_trips": 1591,
+      "year": 2018
+    },
+    {
+      "end_trips": 777,
+      "start_trips": 796,
+      "station": "Lakeshore @ Austin Hostel",
+      "total_trips": 1573,
+      "year": 2018
+    },
+    {
+      "end_trips": 603,
+      "start_trips": 593,
+      "station": "Capital Metro HQ - East 5th at Broadway",
+      "total_trips": 1196,
+      "year": 2018
+    },
+    {
+      "end_trips": 501,
+      "start_trips": 516,
+      "station": "Lakeshore & Pleasant Valley",
+      "total_trips": 1017,
+      "year": 2018
+    },
+    {
+      "end_trips": 485,
+      "start_trips": 461,
+      "station": "Nash Hernandez @ RBJ South",
+      "total_trips": 946,
+      "year": 2018
+    },
+    {
+      "end_trips": 469,
+      "start_trips": 465,
+      "station": "Lake Austin & Enfield",
+      "total_trips": 934,
+      "year": 2018
+    },
+    {
+      "end_trips": 367,
+      "start_trips": 354,
+      "station": "Red River/Cesar Chavez @ The Fairmont",
+      "total_trips": 721,
+      "year": 2018
+    },
+    {
+      "end_trips": 271,
+      "start_trips": 265,
+      "station": "6th & Chalmers ",
+      "total_trips": 536,
+      "year": 2018
+    },
+    {
+      "end_trips": 259,
+      "start_trips": 222,
+      "station": "5th & Campbell",
+      "total_trips": 481,
+      "year": 2018
+    },
+    {
+      "end_trips": 167,
+      "start_trips": 174,
+      "station": "Hollow Creek & Barton Hills",
+      "total_trips": 341,
+      "year": 2018
+    },
+    {
+      "end_trips": 189,
+      "start_trips": 145,
+      "station": "South Congress @ Bouldin Creek",
+      "total_trips": 334,
+      "year": 2018
+    },
+    {
+      "end_trips": 163,
+      "start_trips": 167,
+      "station": "Bullock Museum @ Congress & MLK",
+      "total_trips": 330,
+      "year": 2018
+    },
+    {
+      "end_trips": 146,
+      "start_trips": 165,
+      "station": "10th & Red River",
+      "total_trips": 311,
+      "year": 2018
+    },
+    {
+      "end_trips": 141,
+      "start_trips": 145,
+      "station": "Rosewood & Chicon",
+      "total_trips": 286,
+      "year": 2018
+    },
+    {
+      "end_trips": 102,
+      "start_trips": 168,
+      "station": "8th & Lavaca",
+      "total_trips": 270,
+      "year": 2018
+    },
+    {
+      "end_trips": 101,
+      "start_trips": 106,
+      "station": "State Capitol @ 14th & Colorado",
+      "total_trips": 207,
+      "year": 2018
+    },
+    {
+      "end_trips": 71,
+      "start_trips": 104,
+      "station": "Rosewood & Angelina",
+      "total_trips": 175,
+      "year": 2018
+    },
+    {
+      "end_trips": 23,
+      "start_trips": 0,
+      "station": "Fantasy Zilker",
+      "total_trips": 23,
+      "year": 2018
+    },
+    {
+      "end_trips": 16,
+      "start_trips": 2,
+      "station": "Repair Shop",
+      "total_trips": 18,
+      "year": 2018
+    },
+    {
+      "end_trips": 16,
+      "start_trips": 0,
+      "station": "Main Office",
+      "total_trips": 16,
+      "year": 2018
+    },
+    {
+      "end_trips": 8,
+      "start_trips": 0,
+      "station": "Stolen",
+      "total_trips": 8,
+      "year": 2018
+    },
+    {
+      "end_trips": 4,
+      "start_trips": 1,
+      "station": "Eeyore's 2017",
+      "total_trips": 5,
+      "year": 2018
+    },
+    {
+      "end_trips": 2,
+      "start_trips": 0,
+      "station": "Earth Day ATX 2017",
+      "total_trips": 2,
+      "year": 2018
+    },
+    {
+      "end_trips": 0,
+      "start_trips": 2,
+      "station": "Eeyore's 2018",
+      "total_trips": 2,
+      "year": 2018
+    },
+    {
+      "end_trips": 6763,
+      "start_trips": 6378,
+      "station": "21st & Speedway @PCL",
+      "total_trips": 13141,
+      "year": 2019
+    },
+    {
+      "end_trips": 4177,
+      "start_trips": 3696,
+      "station": "21st/Speedway @ PCL",
+      "total_trips": 7873,
+      "year": 2019
+    },
+    {
+      "end_trips": 3834,
+      "start_trips": 3584,
+      "station": "Dean Keeton & Speedway ",
+      "total_trips": 7418,
+      "year": 2019
+    },
+    {
+      "end_trips": 2668,
+      "start_trips": 2742,
+      "station": "Zilker Park",
+      "total_trips": 5410,
+      "year": 2019
+    },
+    {
+      "end_trips": 2350,
+      "start_trips": 2271,
+      "station": "Dean Keeton/Speedway ",
+      "total_trips": 4621,
+      "year": 2019
+    },
+    {
+      "end_trips": 1838,
+      "start_trips": 2286,
+      "station": "Rio Grande & 28th",
+      "total_trips": 4124,
+      "year": 2019
+    },
+    {
+      "end_trips": 1912,
+      "start_trips": 1984,
+      "station": "Riverside/South Lamar",
+      "total_trips": 3896,
+      "year": 2019
+    },
+    {
+      "end_trips": 1832,
+      "start_trips": 1849,
+      "station": "Riverside @ S. Lamar",
+      "total_trips": 3681,
+      "year": 2019
+    },
+    {
+      "end_trips": 1444,
+      "start_trips": 1953,
+      "station": "22nd & Pearl",
+      "total_trips": 3397,
+      "year": 2019
+    },
+    {
+      "end_trips": 1588,
+      "start_trips": 1759,
+      "station": "Guadalupe & 21st",
+      "total_trips": 3347,
+      "year": 2019
+    },
+    {
+      "end_trips": 1544,
+      "start_trips": 1637,
+      "station": "Rainey St @ Cummings",
+      "total_trips": 3181,
+      "year": 2019
+    },
+    {
+      "end_trips": 1406,
+      "start_trips": 1730,
+      "station": "28th/Rio Grande",
+      "total_trips": 3136,
+      "year": 2019
+    },
+    {
+      "end_trips": 1536,
+      "start_trips": 1562,
+      "station": "Barton Springs Pool",
+      "total_trips": 3098,
+      "year": 2019
+    },
+    {
+      "end_trips": 1488,
+      "start_trips": 1590,
+      "station": "Rainey/Cummings",
+      "total_trips": 3078,
+      "year": 2019
+    },
+    {
+      "end_trips": 1633,
+      "start_trips": 1325,
+      "station": "21st & University",
+      "total_trips": 2958,
+      "year": 2019
+    },
+    {
+      "end_trips": 1280,
+      "start_trips": 1654,
+      "station": "22nd/Pearl",
+      "total_trips": 2934,
+      "year": 2019
+    },
+    {
+      "end_trips": 1292,
+      "start_trips": 1623,
+      "station": "23rd & Rio Grande",
+      "total_trips": 2915,
+      "year": 2019
+    },
+    {
+      "end_trips": 1469,
+      "start_trips": 1414,
+      "station": "Electric Drive/Sandra Muraida Way @ Pfluger Ped Bridge",
+      "total_trips": 2883,
+      "year": 2019
+    },
+    {
+      "end_trips": 1390,
+      "start_trips": 1490,
+      "station": "UT West Mall @ Guadalupe",
+      "total_trips": 2880,
+      "year": 2019
+    },
+    {
+      "end_trips": 1409,
+      "start_trips": 1366,
+      "station": "Veterans/Atlanta @ MoPac Ped Bridge",
+      "total_trips": 2775,
+      "year": 2019
+    },
+    {
+      "end_trips": 1420,
+      "start_trips": 1281,
+      "station": "Pfluger Bridge @ W 2nd Street",
+      "total_trips": 2701,
+      "year": 2019
+    },
+    {
+      "end_trips": 1324,
+      "start_trips": 1239,
+      "station": "Boardwalk West",
+      "total_trips": 2563,
+      "year": 2019
+    },
+    {
+      "end_trips": 1021,
+      "start_trips": 1509,
+      "station": "Nueces & 26th",
+      "total_trips": 2530,
+      "year": 2019
+    },
+    {
+      "end_trips": 1252,
+      "start_trips": 1218,
+      "station": "3rd/West",
+      "total_trips": 2470,
+      "year": 2019
+    },
+    {
+      "end_trips": 1187,
+      "start_trips": 1265,
+      "station": "21st/Guadalupe",
+      "total_trips": 2452,
+      "year": 2019
+    },
+    {
+      "end_trips": 1241,
+      "start_trips": 1151,
+      "station": "21st/University",
+      "total_trips": 2392,
+      "year": 2019
+    },
+    {
+      "end_trips": 1159,
+      "start_trips": 1194,
+      "station": "23rd/Rio Grande",
+      "total_trips": 2353,
+      "year": 2019
+    },
+    {
+      "end_trips": 1132,
+      "start_trips": 1176,
+      "station": "Lakeshore/Austin Hostel",
+      "total_trips": 2308,
+      "year": 2019
+    },
+    {
+      "end_trips": 1450,
+      "start_trips": 824,
+      "station": "23rd & San Jacinto @ DKR Stadium",
+      "total_trips": 2274,
+      "year": 2019
+    },
+    {
+      "end_trips": 1165,
+      "start_trips": 1102,
+      "station": "MoPac Pedestrian Bridge @ Veterans Drive",
+      "total_trips": 2267,
+      "year": 2019
+    },
+    {
+      "end_trips": 949,
+      "start_trips": 1219,
+      "station": "26th/Nueces",
+      "total_trips": 2168,
+      "year": 2019
+    },
+    {
+      "end_trips": 1154,
+      "start_trips": 1014,
+      "station": "Plaza Saltillo",
+      "total_trips": 2168,
+      "year": 2019
+    },
+    {
+      "end_trips": 1030,
+      "start_trips": 1055,
+      "station": "Lakeshore @ Austin Hostel",
+      "total_trips": 2085,
+      "year": 2019
+    },
+    {
+      "end_trips": 1026,
+      "start_trips": 975,
+      "station": "3rd & West",
+      "total_trips": 2001,
+      "year": 2019
+    },
+    {
+      "end_trips": 941,
+      "start_trips": 1052,
+      "station": "Guadalupe/West Mall @ University Co-op",
+      "total_trips": 1993,
+      "year": 2019
+    },
+    {
+      "end_trips": 961,
+      "start_trips": 856,
+      "station": "2nd & Congress",
+      "total_trips": 1817,
+      "year": 2019
+    },
+    {
+      "end_trips": 943,
+      "start_trips": 873,
+      "station": "City Hall / Lavaca & 2nd",
+      "total_trips": 1816,
+      "year": 2019
+    },
+    {
+      "end_trips": 913,
+      "start_trips": 871,
+      "station": "2nd/Congress",
+      "total_trips": 1784,
+      "year": 2019
+    },
+    {
+      "end_trips": 886,
+      "start_trips": 895,
+      "station": "Palmer Auditorium",
+      "total_trips": 1781,
+      "year": 2019
+    },
+    {
+      "end_trips": 905,
+      "start_trips": 859,
+      "station": "Long Center @ South 1st & Riverside",
+      "total_trips": 1764,
+      "year": 2019
+    },
+    {
+      "end_trips": 895,
+      "start_trips": 845,
+      "station": "South 1st/Riverside @ Long Center",
+      "total_trips": 1740,
+      "year": 2019
+    },
+    {
+      "end_trips": 832,
+      "start_trips": 897,
+      "station": "Barton Springs/Bouldin @ Palmer Auditorium",
+      "total_trips": 1729,
+      "year": 2019
+    },
+    {
+      "end_trips": 843,
+      "start_trips": 875,
+      "station": "Davis at Rainey Street",
+      "total_trips": 1718,
+      "year": 2019
+    },
+    {
+      "end_trips": 880,
+      "start_trips": 816,
+      "station": "South Congress/Barton Springs @ The Austin American-Statesman",
+      "total_trips": 1696,
+      "year": 2019
+    },
+    {
+      "end_trips": 1028,
+      "start_trips": 661,
+      "station": "23rd/San Jacinto @ DKR Stadium",
+      "total_trips": 1689,
+      "year": 2019
+    },
+    {
+      "end_trips": 829,
+      "start_trips": 849,
+      "station": "South Congress & Barton Springs at the Austin American-Statesman",
+      "total_trips": 1678,
+      "year": 2019
+    },
+    {
+      "end_trips": 798,
+      "start_trips": 877,
+      "station": "Red River/Cesar Chavez @ The Fairmont",
+      "total_trips": 1675,
+      "year": 2019
+    },
+    {
+      "end_trips": 887,
+      "start_trips": 765,
+      "station": "Nueces & 3rd",
+      "total_trips": 1652,
+      "year": 2019
+    },
+    {
+      "end_trips": 810,
+      "start_trips": 812,
+      "station": "Congress & Cesar Chavez",
+      "total_trips": 1622,
+      "year": 2019
+    },
+    {
+      "end_trips": 824,
+      "start_trips": 777,
+      "station": "Cesar Chavez/Congress",
+      "total_trips": 1601,
+      "year": 2019
+    },
+    {
+      "end_trips": 731,
+      "start_trips": 867,
+      "station": "Dean Keeton/Whitis",
+      "total_trips": 1598,
+      "year": 2019
+    },
+    {
+      "end_trips": 731,
+      "start_trips": 849,
+      "station": "Capitol Station / Congress & 11th",
+      "total_trips": 1580,
+      "year": 2019
+    },
+    {
+      "end_trips": 756,
+      "start_trips": 799,
+      "station": "5th & Bowie",
+      "total_trips": 1555,
+      "year": 2019
+    },
+    {
+      "end_trips": 794,
+      "start_trips": 716,
+      "station": "Convention Center / 4th St. @ MetroRail",
+      "total_trips": 1510,
+      "year": 2019
+    },
+    {
+      "end_trips": 735,
+      "start_trips": 744,
+      "station": "Sterzing at Barton Springs",
+      "total_trips": 1479,
+      "year": 2019
+    },
+    {
+      "end_trips": 677,
+      "start_trips": 754,
+      "station": "6th/Congress",
+      "total_trips": 1431,
+      "year": 2019
+    },
+    {
+      "end_trips": 723,
+      "start_trips": 705,
+      "station": "Sterzing/Barton Springs",
+      "total_trips": 1428,
+      "year": 2019
+    },
+    {
+      "end_trips": 714,
+      "start_trips": 698,
+      "station": "6th & Congress",
+      "total_trips": 1412,
+      "year": 2019
+    },
+    {
+      "end_trips": 761,
+      "start_trips": 622,
+      "station": "2nd/Lavaca @ City Hall",
+      "total_trips": 1383,
+      "year": 2019
+    },
+    {
+      "end_trips": 735,
+      "start_trips": 621,
+      "station": "3rd/Nueces",
+      "total_trips": 1356,
+      "year": 2019
+    },
+    {
+      "end_trips": 637,
+      "start_trips": 643,
+      "station": "Rainey/Davis",
+      "total_trips": 1280,
+      "year": 2019
+    },
+    {
+      "end_trips": 680,
+      "start_trips": 595,
+      "station": "3rd/Trinity @ The Convention Center",
+      "total_trips": 1275,
+      "year": 2019
+    },
+    {
+      "end_trips": 617,
+      "start_trips": 649,
+      "station": "11th/Congress @ The Texas Capitol",
+      "total_trips": 1266,
+      "year": 2019
+    },
+    {
+      "end_trips": 676,
+      "start_trips": 573,
+      "station": "Convention Center / 3rd & Trinity",
+      "total_trips": 1249,
+      "year": 2019
+    },
+    {
+      "end_trips": 602,
+      "start_trips": 621,
+      "station": "Nash Hernandez @ RBJ South",
+      "total_trips": 1223,
+      "year": 2019
+    },
+    {
+      "end_trips": 605,
+      "start_trips": 609,
+      "station": "Nash Hernandez/East @ RBJ South",
+      "total_trips": 1214,
+      "year": 2019
+    },
+    {
+      "end_trips": 617,
+      "start_trips": 594,
+      "station": "Lakeshore & Pleasant Valley",
+      "total_trips": 1211,
+      "year": 2019
+    },
+    {
+      "end_trips": 698,
+      "start_trips": 488,
+      "station": "4th/Congress",
+      "total_trips": 1186,
+      "year": 2019
+    },
+    {
+      "end_trips": 666,
+      "start_trips": 504,
+      "station": "4th & Congress",
+      "total_trips": 1170,
+      "year": 2019
+    },
+    {
+      "end_trips": 530,
+      "start_trips": 630,
+      "station": "11th & Salina ",
+      "total_trips": 1160,
+      "year": 2019
+    },
+    {
+      "end_trips": 524,
+      "start_trips": 635,
+      "station": "8th/Congress",
+      "total_trips": 1159,
+      "year": 2019
+    },
+    {
+      "end_trips": 532,
+      "start_trips": 560,
+      "station": "South Congress & Elizabeth",
+      "total_trips": 1092,
+      "year": 2019
+    },
+    {
+      "end_trips": 505,
+      "start_trips": 536,
+      "station": "South Congress & James",
+      "total_trips": 1041,
+      "year": 2019
+    },
+    {
+      "end_trips": 540,
+      "start_trips": 494,
+      "station": "Barton Springs/Kinney",
+      "total_trips": 1034,
+      "year": 2019
+    },
+    {
+      "end_trips": 564,
+      "start_trips": 433,
+      "station": "Brazos & 6th",
+      "total_trips": 997,
+      "year": 2019
+    },
+    {
+      "end_trips": 478,
+      "start_trips": 508,
+      "station": "Lakeshore/Pleasant Valley",
+      "total_trips": 986,
+      "year": 2019
+    },
+    {
+      "end_trips": 466,
+      "start_trips": 476,
+      "station": "South Congress @ Bouldin Creek",
+      "total_trips": 942,
+      "year": 2019
+    },
+    {
+      "end_trips": 548,
+      "start_trips": 385,
+      "station": "Barton Springs @ Kinney Ave",
+      "total_trips": 933,
+      "year": 2019
+    },
+    {
+      "end_trips": 424,
+      "start_trips": 489,
+      "station": "Dean Keeton & Whitis",
+      "total_trips": 913,
+      "year": 2019
+    },
+    {
+      "end_trips": 363,
+      "start_trips": 474,
+      "station": "8th & Congress",
+      "total_trips": 837,
+      "year": 2019
+    },
+    {
+      "end_trips": 378,
+      "start_trips": 434,
+      "station": "17th & Guadalupe",
+      "total_trips": 812,
+      "year": 2019
+    },
+    {
+      "end_trips": 403,
+      "start_trips": 398,
+      "station": "Republic Square @ 5th & Guadalupe",
+      "total_trips": 801,
+      "year": 2019
+    },
+    {
+      "end_trips": 415,
+      "start_trips": 359,
+      "station": "South Congress/James",
+      "total_trips": 774,
+      "year": 2019
+    },
+    {
+      "end_trips": 389,
+      "start_trips": 380,
+      "station": "Red River & 8th Street",
+      "total_trips": 769,
+      "year": 2019
+    },
+    {
+      "end_trips": 336,
+      "start_trips": 428,
+      "station": "East 11th St. & San Marcos",
+      "total_trips": 764,
+      "year": 2019
+    },
+    {
+      "end_trips": 396,
+      "start_trips": 368,
+      "station": "6th/Brazos",
+      "total_trips": 764,
+      "year": 2019
+    },
+    {
+      "end_trips": 377,
+      "start_trips": 371,
+      "station": "5th/Bowie",
+      "total_trips": 748,
+      "year": 2019
+    },
+    {
+      "end_trips": 360,
+      "start_trips": 356,
+      "station": "East 4th & Chicon",
+      "total_trips": 716,
+      "year": 2019
+    },
+    {
+      "end_trips": 341,
+      "start_trips": 369,
+      "station": "6th & Chalmers ",
+      "total_trips": 710,
+      "year": 2019
+    },
+    {
+      "end_trips": 384,
+      "start_trips": 325,
+      "station": "Henderson & 9th",
+      "total_trips": 709,
+      "year": 2019
+    },
+    {
+      "end_trips": 384,
+      "start_trips": 301,
+      "station": "South Congress & Academy",
+      "total_trips": 685,
+      "year": 2019
+    },
+    {
+      "end_trips": 310,
+      "start_trips": 354,
+      "station": "5th/Guadalupe @ Republic Square",
+      "total_trips": 664,
+      "year": 2019
+    },
+    {
+      "end_trips": 358,
+      "start_trips": 302,
+      "station": "9th/Henderson",
+      "total_trips": 660,
+      "year": 2019
+    },
+    {
+      "end_trips": 364,
+      "start_trips": 268,
+      "station": "Trinity & 6th Street",
+      "total_trips": 632,
+      "year": 2019
+    },
+    {
+      "end_trips": 277,
+      "start_trips": 344,
+      "station": "East 11th/San Marcos",
+      "total_trips": 621,
+      "year": 2019
+    },
+    {
+      "end_trips": 320,
+      "start_trips": 275,
+      "station": "6th/Trinity",
+      "total_trips": 595,
+      "year": 2019
+    },
+    {
+      "end_trips": 275,
+      "start_trips": 319,
+      "station": "8th/Red River",
+      "total_trips": 594,
+      "year": 2019
+    },
+    {
+      "end_trips": 289,
+      "start_trips": 298,
+      "station": "6th/Chalmers ",
+      "total_trips": 587,
+      "year": 2019
+    },
+    {
+      "end_trips": 277,
+      "start_trips": 282,
+      "station": "East 6th at Robert Martinez",
+      "total_trips": 559,
+      "year": 2019
+    },
+    {
+      "end_trips": 272,
+      "start_trips": 284,
+      "station": "Medina & East 6th",
+      "total_trips": 556,
+      "year": 2019
+    },
+    {
+      "end_trips": 302,
+      "start_trips": 251,
+      "station": "San Jacinto & 8th Street",
+      "total_trips": 553,
+      "year": 2019
+    },
+    {
+      "end_trips": 253,
+      "start_trips": 294,
+      "station": "East 6th & Pedernales St.",
+      "total_trips": 547,
+      "year": 2019
+    },
+    {
+      "end_trips": 308,
+      "start_trips": 234,
+      "station": "South Congress/Academy",
+      "total_trips": 542,
+      "year": 2019
+    },
+    {
+      "end_trips": 270,
+      "start_trips": 238,
+      "station": "8th/San Jacinto",
+      "total_trips": 508,
+      "year": 2019
+    },
+    {
+      "end_trips": 223,
+      "start_trips": 269,
+      "station": "17th/Guadalupe",
+      "total_trips": 492,
+      "year": 2019
+    },
+    {
+      "end_trips": 239,
+      "start_trips": 248,
+      "station": "Lake Austin Blvd @ Deep Eddy",
+      "total_trips": 487,
+      "year": 2019
+    },
+    {
+      "end_trips": 228,
+      "start_trips": 249,
+      "station": "East 6th/Medina",
+      "total_trips": 477,
+      "year": 2019
+    },
+    {
+      "end_trips": 220,
+      "start_trips": 247,
+      "station": "Hollow Creek & Barton Hills",
+      "total_trips": 467,
+      "year": 2019
+    },
+    {
+      "end_trips": 225,
+      "start_trips": 222,
+      "station": "5th & Campbell",
+      "total_trips": 447,
+      "year": 2019
+    },
+    {
+      "end_trips": 204,
+      "start_trips": 236,
+      "station": "East 4th/Chicon",
+      "total_trips": 440,
+      "year": 2019
+    },
+    {
+      "end_trips": 247,
+      "start_trips": 190,
+      "station": "Hollow Creek/Barton Hills",
+      "total_trips": 437,
+      "year": 2019
+    },
+    {
+      "end_trips": 231,
+      "start_trips": 198,
+      "station": "East 2nd & Pedernales",
+      "total_trips": 429,
+      "year": 2019
+    },
+    {
+      "end_trips": 209,
+      "start_trips": 214,
+      "station": "5th/Campbell",
+      "total_trips": 423,
+      "year": 2019
+    },
+    {
+      "end_trips": 165,
+      "start_trips": 253,
+      "station": "12th/San Jacinto @ State Capitol Visitors Garage",
+      "total_trips": 418,
+      "year": 2019
+    },
+    {
+      "end_trips": 194,
+      "start_trips": 206,
+      "station": "Lavaca & 6th",
+      "total_trips": 400,
+      "year": 2019
+    },
+    {
+      "end_trips": 262,
+      "start_trips": 137,
+      "station": "West & 6th St.",
+      "total_trips": 399,
+      "year": 2019
+    },
+    {
+      "end_trips": 167,
+      "start_trips": 224,
+      "station": "State Capitol Visitors Garage @ San Jacinto & 12th",
+      "total_trips": 391,
+      "year": 2019
+    },
+    {
+      "end_trips": 235,
+      "start_trips": 155,
+      "station": "6th/West",
+      "total_trips": 390,
+      "year": 2019
+    },
+    {
+      "end_trips": 189,
+      "start_trips": 199,
+      "station": "6th/Lavaca",
+      "total_trips": 388,
+      "year": 2019
+    },
+    {
+      "end_trips": 194,
+      "start_trips": 189,
+      "station": "Capital Metro HQ - East 5th at Broadway",
+      "total_trips": 383,
+      "year": 2019
+    },
+    {
+      "end_trips": 135,
+      "start_trips": 233,
+      "station": "11th & San Jacinto",
+      "total_trips": 368,
+      "year": 2019
+    },
+    {
+      "end_trips": 187,
+      "start_trips": 178,
+      "station": "South Congress/Elizabeth",
+      "total_trips": 365,
+      "year": 2019
+    },
+    {
+      "end_trips": 208,
+      "start_trips": 156,
+      "station": "East 2nd/Pedernales",
+      "total_trips": 364,
+      "year": 2019
+    },
+    {
+      "end_trips": 159,
+      "start_trips": 204,
+      "station": "13th & San Antonio",
+      "total_trips": 363,
+      "year": 2019
+    },
+    {
+      "end_trips": 177,
+      "start_trips": 155,
+      "station": "10th & Red River",
+      "total_trips": 332,
+      "year": 2019
+    },
+    {
+      "end_trips": 136,
+      "start_trips": 179,
+      "station": "Lake Austin Blvd/Deep Eddy",
+      "total_trips": 315,
+      "year": 2019
+    },
+    {
+      "end_trips": 118,
+      "start_trips": 197,
+      "station": "East 11th St. at Victory Grill",
+      "total_trips": 315,
+      "year": 2019
+    },
+    {
+      "end_trips": 141,
+      "start_trips": 159,
+      "station": "Rosewood & Chicon",
+      "total_trips": 300,
+      "year": 2019
+    },
+    {
+      "end_trips": 136,
+      "start_trips": 160,
+      "station": "Rosewood & Angelina",
+      "total_trips": 296,
+      "year": 2019
+    },
+    {
+      "end_trips": 113,
+      "start_trips": 178,
+      "station": "11th/San Jacinto",
+      "total_trips": 291,
+      "year": 2019
+    },
+    {
+      "end_trips": 115,
+      "start_trips": 174,
+      "station": "8th & Lavaca",
+      "total_trips": 289,
+      "year": 2019
+    },
+    {
+      "end_trips": 128,
+      "start_trips": 155,
+      "station": "East 6th/Pedernales",
+      "total_trips": 283,
+      "year": 2019
+    },
+    {
+      "end_trips": 114,
+      "start_trips": 166,
+      "station": "13th/San Antonio",
+      "total_trips": 280,
+      "year": 2019
+    },
+    {
+      "end_trips": 135,
+      "start_trips": 132,
+      "station": "East 6th/Robert T. Martinez",
+      "total_trips": 267,
+      "year": 2019
+    },
+    {
+      "end_trips": 128,
+      "start_trips": 115,
+      "station": "East 5th/Broadway @ Capital Metro HQ",
+      "total_trips": 243,
+      "year": 2019
+    },
+    {
+      "end_trips": 115,
+      "start_trips": 127,
+      "station": "10th/Red River",
+      "total_trips": 242,
+      "year": 2019
+    },
+    {
+      "end_trips": 82,
+      "start_trips": 157,
+      "station": "East 11th/Victory Grill",
+      "total_trips": 239,
+      "year": 2019
+    },
+    {
+      "end_trips": 85,
+      "start_trips": 132,
+      "station": "8th/Lavaca",
+      "total_trips": 217,
+      "year": 2019
+    },
+    {
+      "end_trips": 129,
+      "start_trips": 81,
+      "station": "Lake Austin & Enfield",
+      "total_trips": 210,
+      "year": 2019
+    },
+    {
+      "end_trips": 82,
+      "start_trips": 128,
+      "station": "11th/Salina ",
+      "total_trips": 210,
+      "year": 2019
+    },
+    {
+      "end_trips": 82,
+      "start_trips": 92,
+      "station": "4th/Guadalupe @ Republic Square",
+      "total_trips": 174,
+      "year": 2019
+    },
+    {
+      "end_trips": 98,
+      "start_trips": 75,
+      "station": "Barton Springs & Riverside",
+      "total_trips": 173,
+      "year": 2019
+    },
+    {
+      "end_trips": 81,
+      "start_trips": 80,
+      "station": "Lake Austin/Enfield",
+      "total_trips": 161,
+      "year": 2019
+    },
+    {
+      "end_trips": 119,
+      "start_trips": 0,
+      "station": "ACL 2019 Drop Off",
+      "total_trips": 119,
+      "year": 2019
+    },
+    {
+      "end_trips": 46,
+      "start_trips": 37,
+      "station": "4th/Neches @ MetroRail Downtown",
+      "total_trips": 83,
+      "year": 2019
+    },
+    {
+      "end_trips": 35,
+      "start_trips": 44,
+      "station": "Rosewood/Angelina",
+      "total_trips": 79,
+      "year": 2019
+    },
+    {
+      "end_trips": 33,
+      "start_trips": 35,
+      "station": "Rosewood/Chicon",
+      "total_trips": 68,
+      "year": 2019
+    },
+    {
+      "end_trips": 10,
+      "start_trips": 0,
+      "station": "Fantasy Zilker",
+      "total_trips": 10,
+      "year": 2019
+    },
+    {
+      "end_trips": 0,
+      "start_trips": 1,
+      "station": "cesar Chavez/Congress",
+      "total_trips": 1,
+      "year": 2019
+    },
+    {
+      "end_trips": 3958,
+      "start_trips": 4013,
+      "station": "Riverside/South Lamar",
+      "total_trips": 7971,
+      "year": 2020
+    },
+    {
+      "end_trips": 3860,
+      "start_trips": 3953,
+      "station": "Rainey/Cummings",
+      "total_trips": 7813,
+      "year": 2020
+    },
+    {
+      "end_trips": 3468,
+      "start_trips": 3461,
+      "station": "Lakeshore/Austin Hostel",
+      "total_trips": 6929,
+      "year": 2020
+    },
+    {
+      "end_trips": 3035,
+      "start_trips": 3046,
+      "station": "Zilker Park",
+      "total_trips": 6081,
+      "year": 2020
+    },
+    {
+      "end_trips": 3013,
+      "start_trips": 3029,
+      "station": "Electric Drive/Sandra Muraida Way @ Pfluger Ped Bridge",
+      "total_trips": 6042,
+      "year": 2020
+    },
+    {
+      "end_trips": 2887,
+      "start_trips": 2771,
+      "station": "21st/Speedway @ PCL",
+      "total_trips": 5658,
+      "year": 2020
+    },
+    {
+      "end_trips": 2813,
+      "start_trips": 2784,
+      "station": "3rd/West",
+      "total_trips": 5597,
+      "year": 2020
+    },
+    {
+      "end_trips": 2738,
+      "start_trips": 2710,
+      "station": "Veterans/Atlanta @ MoPac Ped Bridge",
+      "total_trips": 5448,
+      "year": 2020
+    },
+    {
+      "end_trips": 2456,
+      "start_trips": 2537,
+      "station": "28th/Rio Grande",
+      "total_trips": 4993,
+      "year": 2020
+    },
+    {
+      "end_trips": 2436,
+      "start_trips": 2427,
+      "station": "Lakeshore/Pleasant Valley",
+      "total_trips": 4863,
+      "year": 2020
+    },
+    {
+      "end_trips": 2319,
+      "start_trips": 2316,
+      "station": "5th/Bowie",
+      "total_trips": 4635,
+      "year": 2020
+    },
+    {
+      "end_trips": 2274,
+      "start_trips": 2195,
+      "station": "South 1st/Riverside @ Long Center",
+      "total_trips": 4469,
+      "year": 2020
+    },
+    {
+      "end_trips": 2100,
+      "start_trips": 2173,
+      "station": "21st/Guadalupe",
+      "total_trips": 4273,
+      "year": 2020
+    },
+    {
+      "end_trips": 2063,
+      "start_trips": 2210,
+      "station": "Boardwalk West",
+      "total_trips": 4273,
+      "year": 2020
+    },
+    {
+      "end_trips": 2217,
+      "start_trips": 2011,
+      "station": "3rd/Nueces",
+      "total_trips": 4228,
+      "year": 2020
+    },
+    {
+      "end_trips": 2057,
+      "start_trips": 2080,
+      "station": "23rd/Rio Grande",
+      "total_trips": 4137,
+      "year": 2020
+    },
+    {
+      "end_trips": 1984,
+      "start_trips": 2051,
+      "station": "Nash Hernandez/East @ RBJ South",
+      "total_trips": 4035,
+      "year": 2020
+    },
+    {
+      "end_trips": 2025,
+      "start_trips": 1959,
+      "station": "Sterzing/Barton Springs",
+      "total_trips": 3984,
+      "year": 2020
+    },
+    {
+      "end_trips": 2013,
+      "start_trips": 1942,
+      "station": "3rd/Trinity @ The Convention Center",
+      "total_trips": 3955,
+      "year": 2020
+    },
+    {
+      "end_trips": 1931,
+      "start_trips": 1842,
+      "station": "2nd/Lavaca @ City Hall",
+      "total_trips": 3773,
+      "year": 2020
+    },
+    {
+      "end_trips": 1905,
+      "start_trips": 1862,
+      "station": "Rainey/Davis",
+      "total_trips": 3767,
+      "year": 2020
+    },
+    {
+      "end_trips": 1775,
+      "start_trips": 1755,
+      "station": "2nd/Congress",
+      "total_trips": 3530,
+      "year": 2020
+    },
+    {
+      "end_trips": 1720,
+      "start_trips": 1721,
+      "station": "South Congress/Barton Springs @ The Austin American-Statesman",
+      "total_trips": 3441,
+      "year": 2020
+    },
+    {
+      "end_trips": 1718,
+      "start_trips": 1691,
+      "station": "Barton Springs/Bouldin @ Palmer Auditorium",
+      "total_trips": 3409,
+      "year": 2020
+    },
+    {
+      "end_trips": 1534,
+      "start_trips": 1732,
+      "station": "26th/Nueces",
+      "total_trips": 3266,
+      "year": 2020
+    },
+    {
+      "end_trips": 1505,
+      "start_trips": 1560,
+      "station": "22nd/Pearl",
+      "total_trips": 3065,
+      "year": 2020
+    },
+    {
+      "end_trips": 1458,
+      "start_trips": 1488,
+      "station": "Guadalupe/West Mall @ University Co-op",
+      "total_trips": 2946,
+      "year": 2020
+    },
+    {
+      "end_trips": 1439,
+      "start_trips": 1478,
+      "station": "6th/Congress",
+      "total_trips": 2917,
+      "year": 2020
+    },
+    {
+      "end_trips": 1359,
+      "start_trips": 1538,
+      "station": "11th/Congress @ The Texas Capitol",
+      "total_trips": 2897,
+      "year": 2020
+    },
+    {
+      "end_trips": 1408,
+      "start_trips": 1414,
+      "station": "4th/Congress",
+      "total_trips": 2822,
+      "year": 2020
+    },
+    {
+      "end_trips": 1427,
+      "start_trips": 1383,
+      "station": "East 6th/Medina",
+      "total_trips": 2810,
+      "year": 2020
+    },
+    {
+      "end_trips": 1432,
+      "start_trips": 1329,
+      "station": "Barton Springs/Kinney",
+      "total_trips": 2761,
+      "year": 2020
+    },
+    {
+      "end_trips": 1300,
+      "start_trips": 1365,
+      "station": "Dean Keeton/Whitis",
+      "total_trips": 2665,
+      "year": 2020
+    },
+    {
+      "end_trips": 1260,
+      "start_trips": 1221,
+      "station": "Plaza Saltillo",
+      "total_trips": 2481,
+      "year": 2020
+    },
+    {
+      "end_trips": 1200,
+      "start_trips": 1255,
+      "station": "Barton Springs Pool",
+      "total_trips": 2455,
+      "year": 2020
+    },
+    {
+      "end_trips": 1264,
+      "start_trips": 1164,
+      "station": "4th/Guadalupe @ Republic Square",
+      "total_trips": 2428,
+      "year": 2020
+    },
+    {
+      "end_trips": 1110,
+      "start_trips": 1151,
+      "station": "South Congress @ Bouldin Creek",
+      "total_trips": 2261,
+      "year": 2020
+    },
+    {
+      "end_trips": 1193,
+      "start_trips": 1055,
+      "station": "23rd/San Jacinto @ DKR Stadium",
+      "total_trips": 2248,
+      "year": 2020
+    },
+    {
+      "end_trips": 1109,
+      "start_trips": 1089,
+      "station": "21st/University",
+      "total_trips": 2198,
+      "year": 2020
+    },
+    {
+      "end_trips": 1084,
+      "start_trips": 960,
+      "station": "6th/Brazos",
+      "total_trips": 2044,
+      "year": 2020
+    },
+    {
+      "end_trips": 1003,
+      "start_trips": 1030,
+      "station": "11th/San Jacinto",
+      "total_trips": 2033,
+      "year": 2020
+    },
+    {
+      "end_trips": 1046,
+      "start_trips": 977,
+      "station": "South Congress/Elizabeth",
+      "total_trips": 2023,
+      "year": 2020
+    },
+    {
+      "end_trips": 971,
+      "start_trips": 1012,
+      "station": "Red River/Cesar Chavez @ The Fairmont",
+      "total_trips": 1983,
+      "year": 2020
+    },
+    {
+      "end_trips": 940,
+      "start_trips": 961,
+      "station": "Dean Keeton/Speedway",
+      "total_trips": 1901,
+      "year": 2020
+    },
+    {
+      "end_trips": 912,
+      "start_trips": 934,
+      "station": "East 6th/Pedernales",
+      "total_trips": 1846,
+      "year": 2020
+    },
+    {
+      "end_trips": 887,
+      "start_trips": 899,
+      "station": "5th/Campbell",
+      "total_trips": 1786,
+      "year": 2020
+    },
+    {
+      "end_trips": 854,
+      "start_trips": 835,
+      "station": "Cesar Chavez/Congress",
+      "total_trips": 1689,
+      "year": 2020
+    },
+    {
+      "end_trips": 809,
+      "start_trips": 829,
+      "station": "9th/Henderson",
+      "total_trips": 1638,
+      "year": 2020
+    },
+    {
+      "end_trips": 798,
+      "start_trips": 816,
+      "station": "4th/Sabine",
+      "total_trips": 1614,
+      "year": 2020
+    },
+    {
+      "end_trips": 749,
+      "start_trips": 805,
+      "station": "6th/Chalmers ",
+      "total_trips": 1554,
+      "year": 2020
+    },
+    {
+      "end_trips": 758,
+      "start_trips": 740,
+      "station": "Lake Austin/Enfield",
+      "total_trips": 1498,
+      "year": 2020
+    },
+    {
+      "end_trips": 716,
+      "start_trips": 776,
+      "station": "Hollow Creek/Barton Hills",
+      "total_trips": 1492,
+      "year": 2020
+    },
+    {
+      "end_trips": 706,
+      "start_trips": 770,
+      "station": "Lake Austin Blvd/Deep Eddy",
+      "total_trips": 1476,
+      "year": 2020
+    },
+    {
+      "end_trips": 671,
+      "start_trips": 761,
+      "station": "12th/San Jacinto @ State Capitol Visitors Garage",
+      "total_trips": 1432,
+      "year": 2020
+    },
+    {
+      "end_trips": 743,
+      "start_trips": 675,
+      "station": "South Congress/James",
+      "total_trips": 1418,
+      "year": 2020
+    },
+    {
+      "end_trips": 677,
+      "start_trips": 738,
+      "station": "8th/Congress",
+      "total_trips": 1415,
+      "year": 2020
+    },
+    {
+      "end_trips": 731,
+      "start_trips": 637,
+      "station": "South Congress/Academy",
+      "total_trips": 1368,
+      "year": 2020
+    },
+    {
+      "end_trips": 723,
+      "start_trips": 622,
+      "station": "6th/West",
+      "total_trips": 1345,
+      "year": 2020
+    },
+    {
+      "end_trips": 622,
+      "start_trips": 647,
+      "station": "8th/Red River",
+      "total_trips": 1269,
+      "year": 2020
+    },
+    {
+      "end_trips": 653,
+      "start_trips": 613,
+      "station": "East 4th/Chicon",
+      "total_trips": 1266,
+      "year": 2020
+    },
+    {
+      "end_trips": 560,
+      "start_trips": 593,
+      "station": "East 6th/Robert T. Martinez",
+      "total_trips": 1153,
+      "year": 2020
+    },
+    {
+      "end_trips": 552,
+      "start_trips": 505,
+      "station": "East 2nd/Pedernales",
+      "total_trips": 1057,
+      "year": 2020
+    },
+    {
+      "end_trips": 510,
+      "start_trips": 492,
+      "station": "East 5th/Broadway @ Capital Metro HQ",
+      "total_trips": 1002,
+      "year": 2020
+    },
+    {
+      "end_trips": 464,
+      "start_trips": 499,
+      "station": "8th/Lavaca",
+      "total_trips": 963,
+      "year": 2020
+    },
+    {
+      "end_trips": 468,
+      "start_trips": 483,
+      "station": "East 11th/San Marcos",
+      "total_trips": 951,
+      "year": 2020
+    },
+    {
+      "end_trips": 471,
+      "start_trips": 458,
+      "station": "13th/San Antonio",
+      "total_trips": 929,
+      "year": 2020
+    },
+    {
+      "end_trips": 446,
+      "start_trips": 379,
+      "station": "6th/Trinity",
+      "total_trips": 825,
+      "year": 2020
+    },
+    {
+      "end_trips": 362,
+      "start_trips": 396,
+      "station": "8th/San Jacinto",
+      "total_trips": 758,
+      "year": 2020
+    },
+    {
+      "end_trips": 389,
+      "start_trips": 349,
+      "station": "6th/Lavaca",
+      "total_trips": 738,
+      "year": 2020
+    },
+    {
+      "end_trips": 303,
+      "start_trips": 287,
+      "station": "Rosewood/Angelina",
+      "total_trips": 590,
+      "year": 2020
+    },
+    {
+      "end_trips": 277,
+      "start_trips": 283,
+      "station": "Rosewood/Chicon",
+      "total_trips": 560,
+      "year": 2020
+    },
+    {
+      "end_trips": 247,
+      "start_trips": 275,
+      "station": "11th/Salina ",
+      "total_trips": 522,
+      "year": 2020
+    },
+    {
+      "end_trips": 233,
+      "start_trips": 277,
+      "station": "East 11th/Victory Grill",
+      "total_trips": 510,
+      "year": 2020
+    },
+    {
+      "end_trips": 220,
+      "start_trips": 219,
+      "station": "Dean Keeton/Speedway ",
+      "total_trips": 439,
+      "year": 2020
+    },
+    {
+      "end_trips": 164,
+      "start_trips": 179,
+      "station": "17th/Guadalupe",
+      "total_trips": 343,
+      "year": 2020
+    },
+    {
+      "end_trips": 153,
+      "start_trips": 170,
+      "station": "10th/Red River",
+      "total_trips": 323,
+      "year": 2020
+    },
+    {
+      "end_trips": 19,
+      "start_trips": 17,
+      "station": "East 5th/Shady Ln",
+      "total_trips": 36,
+      "year": 2020
+    },
+    {
+      "end_trips": 5,
+      "start_trips": 0,
+      "station": "Stolen",
+      "total_trips": 5,
+      "year": 2020
+    },
+    {
+      "end_trips": 17834,
+      "start_trips": 17665,
+      "station": "21st/Speedway @ PCL",
+      "total_trips": 35499,
+      "year": 2021
+    },
+    {
+      "end_trips": 9520,
+      "start_trips": 9795,
+      "station": "28th/Rio Grande",
+      "total_trips": 19315,
+      "year": 2021
+    },
+    {
+      "end_trips": 8507,
+      "start_trips": 8430,
+      "station": "Dean Keeton/Whitis",
+      "total_trips": 16937,
+      "year": 2021
+    },
+    {
+      "end_trips": 7521,
+      "start_trips": 7606,
+      "station": "Guadalupe/West Mall @ University Co-op",
+      "total_trips": 15127,
+      "year": 2021
+    },
+    {
+      "end_trips": 7677,
+      "start_trips": 7445,
+      "station": "Dean Keeton/Speedway",
+      "total_trips": 15122,
+      "year": 2021
+    },
+    {
+      "end_trips": 7251,
+      "start_trips": 7479,
+      "station": "21st/Guadalupe",
+      "total_trips": 14730,
+      "year": 2021
+    },
+    {
+      "end_trips": 7158,
+      "start_trips": 7532,
+      "station": "22nd/Pearl",
+      "total_trips": 14690,
+      "year": 2021
+    },
+    {
+      "end_trips": 6464,
+      "start_trips": 6808,
+      "station": "26th/Nueces",
+      "total_trips": 13272,
+      "year": 2021
+    },
+    {
+      "end_trips": 5386,
+      "start_trips": 5440,
+      "station": "Rainey/Cummings",
+      "total_trips": 10826,
+      "year": 2021
+    },
+    {
+      "end_trips": 5092,
+      "start_trips": 4966,
+      "station": "3rd/West",
+      "total_trips": 10058,
+      "year": 2021
+    },
+    {
+      "end_trips": 4838,
+      "start_trips": 4916,
+      "station": "Riverside/South Lamar",
+      "total_trips": 9754,
+      "year": 2021
+    },
+    {
+      "end_trips": 5078,
+      "start_trips": 4637,
+      "station": "23rd/San Jacinto @ DKR Stadium",
+      "total_trips": 9715,
+      "year": 2021
+    },
+    {
+      "end_trips": 4747,
+      "start_trips": 4798,
+      "station": "Lakeshore/Austin Hostel",
+      "total_trips": 9545,
+      "year": 2021
+    },
+    {
+      "end_trips": 4670,
+      "start_trips": 4747,
+      "station": "21st/University",
+      "total_trips": 9417,
+      "year": 2021
+    },
+    {
+      "end_trips": 4468,
+      "start_trips": 4325,
+      "station": "Zilker Park",
+      "total_trips": 8793,
+      "year": 2021
+    },
+    {
+      "end_trips": 3716,
+      "start_trips": 3792,
+      "station": "23rd/Rio Grande",
+      "total_trips": 7508,
+      "year": 2021
+    },
+    {
+      "end_trips": 3621,
+      "start_trips": 3695,
+      "station": "Veterans/Atlanta @ MoPac Ped Bridge",
+      "total_trips": 7316,
+      "year": 2021
+    },
+    {
+      "end_trips": 3612,
+      "start_trips": 3526,
+      "station": "6th/Congress",
+      "total_trips": 7138,
+      "year": 2021
+    },
+    {
+      "end_trips": 3482,
+      "start_trips": 3570,
+      "station": "Electric Drive/Sandra Muraida Way @ Pfluger Ped Bridge",
+      "total_trips": 7052,
+      "year": 2021
+    },
+    {
+      "end_trips": 3425,
+      "start_trips": 3488,
+      "station": "3rd/Trinity @ The Convention Center",
+      "total_trips": 6913,
+      "year": 2021
+    },
+    {
+      "end_trips": 3345,
+      "start_trips": 3349,
+      "station": "Lakeshore/Pleasant Valley",
+      "total_trips": 6694,
+      "year": 2021
+    },
+    {
+      "end_trips": 3190,
+      "start_trips": 3362,
+      "station": "Boardwalk West",
+      "total_trips": 6552,
+      "year": 2021
+    },
+    {
+      "end_trips": 3304,
+      "start_trips": 2999,
+      "station": "Rainey/Davis",
+      "total_trips": 6303,
+      "year": 2021
+    },
+    {
+      "end_trips": 3020,
+      "start_trips": 3222,
+      "station": "Nash Hernandez/East @ RBJ South",
+      "total_trips": 6242,
+      "year": 2021
+    },
+    {
+      "end_trips": 3079,
+      "start_trips": 3073,
+      "station": "5th/Bowie",
+      "total_trips": 6152,
+      "year": 2021
+    },
+    {
+      "end_trips": 2996,
+      "start_trips": 3056,
+      "station": "2nd/Congress",
+      "total_trips": 6052,
+      "year": 2021
+    },
+    {
+      "end_trips": 2996,
+      "start_trips": 2835,
+      "station": "3rd/Nueces",
+      "total_trips": 5831,
+      "year": 2021
+    },
+    {
+      "end_trips": 2982,
+      "start_trips": 2755,
+      "station": "Sterzing/Barton Springs",
+      "total_trips": 5737,
+      "year": 2021
+    },
+    {
+      "end_trips": 2756,
+      "start_trips": 2867,
+      "station": "Barton Springs/Bouldin @ Palmer Auditorium",
+      "total_trips": 5623,
+      "year": 2021
+    },
+    {
+      "end_trips": 2746,
+      "start_trips": 2770,
+      "station": "South 1st/Riverside @ Long Center",
+      "total_trips": 5516,
+      "year": 2021
+    },
+    {
+      "end_trips": 2703,
+      "start_trips": 2612,
+      "station": "East 6th/Medina",
+      "total_trips": 5315,
+      "year": 2021
+    },
+    {
+      "end_trips": 2715,
+      "start_trips": 2579,
+      "station": "2nd/Lavaca @ City Hall",
+      "total_trips": 5294,
+      "year": 2021
+    },
+    {
+      "end_trips": 2721,
+      "start_trips": 2570,
+      "station": "South Congress/Barton Springs @ The Austin American-Statesman",
+      "total_trips": 5291,
+      "year": 2021
+    },
+    {
+      "end_trips": 2422,
+      "start_trips": 2828,
+      "station": "11th/Congress @ The Texas Capitol",
+      "total_trips": 5250,
+      "year": 2021
+    },
+    {
+      "end_trips": 2618,
+      "start_trips": 2542,
+      "station": "4th/Congress",
+      "total_trips": 5160,
+      "year": 2021
+    },
+    {
+      "end_trips": 2325,
+      "start_trips": 2336,
+      "station": "16th/San Antonio",
+      "total_trips": 4661,
+      "year": 2021
+    },
+    {
+      "end_trips": 2136,
+      "start_trips": 2117,
+      "station": "Plaza Saltillo",
+      "total_trips": 4253,
+      "year": 2021
+    },
+    {
+      "end_trips": 2069,
+      "start_trips": 2167,
+      "station": "Barton Springs Pool",
+      "total_trips": 4236,
+      "year": 2021
+    },
+    {
+      "end_trips": 2119,
+      "start_trips": 2021,
+      "station": "Barton Springs/Kinney",
+      "total_trips": 4140,
+      "year": 2021
+    },
+    {
+      "end_trips": 1958,
+      "start_trips": 2130,
+      "station": "23rd/San Gabriel",
+      "total_trips": 4088,
+      "year": 2021
+    },
+    {
+      "end_trips": 2116,
+      "start_trips": 1845,
+      "station": "South Congress/Elizabeth",
+      "total_trips": 3961,
+      "year": 2021
+    },
+    {
+      "end_trips": 1870,
+      "start_trips": 2002,
+      "station": "South Congress @ Bouldin Creek",
+      "total_trips": 3872,
+      "year": 2021
+    },
+    {
+      "end_trips": 1880,
+      "start_trips": 1874,
+      "station": "Red River/Cesar Chavez @ The Fairmont",
+      "total_trips": 3754,
+      "year": 2021
+    },
+    {
+      "end_trips": 1874,
+      "start_trips": 1879,
+      "station": "Cesar Chavez/Congress",
+      "total_trips": 3753,
+      "year": 2021
+    },
+    {
+      "end_trips": 1865,
+      "start_trips": 1800,
+      "station": "4th/Guadalupe @ Republic Square",
+      "total_trips": 3665,
+      "year": 2021
+    },
+    {
+      "end_trips": 1855,
+      "start_trips": 1751,
+      "station": "6th/Brazos",
+      "total_trips": 3606,
+      "year": 2021
+    },
+    {
+      "end_trips": 1767,
+      "start_trips": 1838,
+      "station": "22.5/Rio Grande",
+      "total_trips": 3605,
+      "year": 2021
+    },
+    {
+      "end_trips": 1811,
+      "start_trips": 1792,
+      "station": "9th/Henderson",
+      "total_trips": 3603,
+      "year": 2021
+    },
+    {
+      "end_trips": 1764,
+      "start_trips": 1729,
+      "station": "6th/Chalmers ",
+      "total_trips": 3493,
+      "year": 2021
+    },
+    {
+      "end_trips": 1661,
+      "start_trips": 1665,
+      "station": "East 4th/Chicon",
+      "total_trips": 3326,
+      "year": 2021
+    },
+    {
+      "end_trips": 1508,
+      "start_trips": 1496,
+      "station": "Lake Austin Blvd/Deep Eddy",
+      "total_trips": 3004,
+      "year": 2021
+    },
+    {
+      "end_trips": 1523,
+      "start_trips": 1460,
+      "station": "11th/San Jacinto",
+      "total_trips": 2983,
+      "year": 2021
+    },
+    {
+      "end_trips": 1627,
+      "start_trips": 1305,
+      "station": "South Congress/Academy",
+      "total_trips": 2932,
+      "year": 2021
+    },
+    {
+      "end_trips": 1415,
+      "start_trips": 1512,
+      "station": "8th/Red River",
+      "total_trips": 2927,
+      "year": 2021
+    },
+    {
+      "end_trips": 1499,
+      "start_trips": 1396,
+      "station": "6th/West",
+      "total_trips": 2895,
+      "year": 2021
+    },
+    {
+      "end_trips": 1442,
+      "start_trips": 1333,
+      "station": "South Congress/James",
+      "total_trips": 2775,
+      "year": 2021
+    },
+    {
+      "end_trips": 1258,
+      "start_trips": 1293,
+      "station": "8th/Congress",
+      "total_trips": 2551,
+      "year": 2021
+    },
+    {
+      "end_trips": 1198,
+      "start_trips": 1300,
+      "station": "8th/Lavaca",
+      "total_trips": 2498,
+      "year": 2021
+    },
+    {
+      "end_trips": 1251,
+      "start_trips": 1230,
+      "station": "4th/Sabine",
+      "total_trips": 2481,
+      "year": 2021
+    },
+    {
+      "end_trips": 1262,
+      "start_trips": 1177,
+      "station": "5th/Campbell",
+      "total_trips": 2439,
+      "year": 2021
+    },
+    {
+      "end_trips": 1114,
+      "start_trips": 1113,
+      "station": "Hollow Creek/Barton Hills",
+      "total_trips": 2227,
+      "year": 2021
+    },
+    {
+      "end_trips": 1126,
+      "start_trips": 1032,
+      "station": "East 2nd/Pedernales",
+      "total_trips": 2158,
+      "year": 2021
+    },
+    {
+      "end_trips": 1019,
+      "start_trips": 1001,
+      "station": "Lake Austin/Enfield",
+      "total_trips": 2020,
+      "year": 2021
+    },
+    {
+      "end_trips": 1016,
+      "start_trips": 971,
+      "station": "12th/San Jacinto @ State Capitol Visitors Garage",
+      "total_trips": 1987,
+      "year": 2021
+    },
+    {
+      "end_trips": 951,
+      "start_trips": 1009,
+      "station": "East 6th/Pedernales",
+      "total_trips": 1960,
+      "year": 2021
+    },
+    {
+      "end_trips": 976,
+      "start_trips": 947,
+      "station": "6th/Trinity",
+      "total_trips": 1923,
+      "year": 2021
+    },
+    {
+      "end_trips": 891,
+      "start_trips": 1015,
+      "station": "East 11th/San Marcos",
+      "total_trips": 1906,
+      "year": 2021
+    },
+    {
+      "end_trips": 918,
+      "start_trips": 912,
+      "station": "East 5th/Broadway @ Capital Metro HQ",
+      "total_trips": 1830,
+      "year": 2021
+    },
+    {
+      "end_trips": 742,
+      "start_trips": 684,
+      "station": "6th/Lavaca",
+      "total_trips": 1426,
+      "year": 2021
+    },
+    {
+      "end_trips": 677,
+      "start_trips": 706,
+      "station": "East 6th/Robert T. Martinez",
+      "total_trips": 1383,
+      "year": 2021
+    },
+    {
+      "end_trips": 609,
+      "start_trips": 708,
+      "station": "East 11th/Victory Grill",
+      "total_trips": 1317,
+      "year": 2021
+    },
+    {
+      "end_trips": 657,
+      "start_trips": 637,
+      "station": "East 5th/Shady @ Eastside Bus Plaza",
+      "total_trips": 1294,
+      "year": 2021
+    },
+    {
+      "end_trips": 571,
+      "start_trips": 593,
+      "station": "8th/San Jacinto",
+      "total_trips": 1164,
+      "year": 2021
+    },
+    {
+      "end_trips": 474,
+      "start_trips": 547,
+      "station": "10th/Red River",
+      "total_trips": 1021,
+      "year": 2021
+    },
+    {
+      "end_trips": 481,
+      "start_trips": 493,
+      "station": "Rosewood/Angelina",
+      "total_trips": 974,
+      "year": 2021
+    },
+    {
+      "end_trips": 408,
+      "start_trips": 434,
+      "station": "Rosewood/Chicon",
+      "total_trips": 842,
+      "year": 2021
+    },
+    {
+      "end_trips": 366,
+      "start_trips": 386,
+      "station": "11th/Salina ",
+      "total_trips": 752,
+      "year": 2021
+    },
+    {
+      "end_trips": 286,
+      "start_trips": 280,
+      "station": "13th/Trinity",
+      "total_trips": 566,
+      "year": 2021
+    },
+    {
+      "end_trips": 35707,
+      "start_trips": 35325,
+      "station": "21st/Speedway @ PCL",
+      "total_trips": 71032,
+      "year": 2022
+    },
+    {
+      "end_trips": 19933,
+      "start_trips": 18686,
+      "station": "Dean Keeton/Speedway",
+      "total_trips": 38619,
+      "year": 2022
+    },
+    {
+      "end_trips": 15414,
+      "start_trips": 16007,
+      "station": "26th/Nueces",
+      "total_trips": 31421,
+      "year": 2022
+    },
+    {
+      "end_trips": 13682,
+      "start_trips": 13854,
+      "station": "Dean Keeton/Whitis",
+      "total_trips": 27536,
+      "year": 2022
+    },
+    {
+      "end_trips": 12447,
+      "start_trips": 12741,
+      "station": "21st/Guadalupe",
+      "total_trips": 25188,
+      "year": 2022
+    },
+    {
+      "end_trips": 11822,
+      "start_trips": 11746,
+      "station": "Guadalupe/West Mall @ University Co-op",
+      "total_trips": 23568,
+      "year": 2022
+    },
+    {
+      "end_trips": 10843,
+      "start_trips": 11636,
+      "station": "22nd/Pearl",
+      "total_trips": 22479,
+      "year": 2022
+    },
+    {
+      "end_trips": 9217,
+      "start_trips": 9463,
+      "station": "28th/Rio",
+      "total_trips": 18680,
+      "year": 2022
+    },
+    {
+      "end_trips": 8565,
+      "start_trips": 7658,
+      "station": "23rd/San Jacinto @ DKR Stadium",
+      "total_trips": 16223,
+      "year": 2022
+    },
+    {
+      "end_trips": 7414,
+      "start_trips": 7482,
+      "station": "21st/University",
+      "total_trips": 14896,
+      "year": 2022
+    },
+    {
+      "end_trips": 6142,
+      "start_trips": 6366,
+      "station": "Rainey/Cummings",
+      "total_trips": 12508,
+      "year": 2022
+    },
+    {
+      "end_trips": 5837,
+      "start_trips": 6050,
+      "station": "23rd/Pearl",
+      "total_trips": 11887,
+      "year": 2022
+    },
+    {
+      "end_trips": 5597,
+      "start_trips": 5289,
+      "station": "3rd/West",
+      "total_trips": 10886,
+      "year": 2022
+    },
+    {
+      "end_trips": 5063,
+      "start_trips": 5138,
+      "station": "22.5/Rio Grande",
+      "total_trips": 10201,
+      "year": 2022
+    },
+    {
+      "end_trips": 5058,
+      "start_trips": 4911,
+      "station": "Lakeshore/Austin Hostel",
+      "total_trips": 9969,
+      "year": 2022
+    },
+    {
+      "end_trips": 4671,
+      "start_trips": 4631,
+      "station": "Riverside/South Lamar",
+      "total_trips": 9302,
+      "year": 2022
+    },
+    {
+      "end_trips": 4603,
+      "start_trips": 4561,
+      "station": "6th/Congress",
+      "total_trips": 9164,
+      "year": 2022
+    },
+    {
+      "end_trips": 4497,
+      "start_trips": 4387,
+      "station": "Plaza Saltillo",
+      "total_trips": 8884,
+      "year": 2022
+    },
+    {
+      "end_trips": 4392,
+      "start_trips": 4344,
+      "station": "3rd/Nueces",
+      "total_trips": 8736,
+      "year": 2022
+    },
+    {
+      "end_trips": 3584,
+      "start_trips": 3951,
+      "station": "23rd/San Gabriel",
+      "total_trips": 7535,
+      "year": 2022
+    },
+    {
+      "end_trips": 3693,
+      "start_trips": 3705,
+      "station": "Electric Drive/Sandra Muraida Way @ Pfluger Ped Bridge",
+      "total_trips": 7398,
+      "year": 2022
+    },
+    {
+      "end_trips": 3659,
+      "start_trips": 3614,
+      "station": "2nd/Lavaca @ City Hall",
+      "total_trips": 7273,
+      "year": 2022
+    },
+    {
+      "end_trips": 3611,
+      "start_trips": 3556,
+      "station": "East 6th/Medina",
+      "total_trips": 7167,
+      "year": 2022
+    },
+    {
+      "end_trips": 3549,
+      "start_trips": 3549,
+      "station": "4th/Congress",
+      "total_trips": 7098,
+      "year": 2022
+    },
+    {
+      "end_trips": 3378,
+      "start_trips": 3521,
+      "station": "5th/Bowie",
+      "total_trips": 6899,
+      "year": 2022
+    },
+    {
+      "end_trips": 3474,
+      "start_trips": 3302,
+      "station": "Zilker Park",
+      "total_trips": 6776,
+      "year": 2022
+    },
+    {
+      "end_trips": 3396,
+      "start_trips": 3338,
+      "station": "3rd/Trinity @ The Convention Center",
+      "total_trips": 6734,
+      "year": 2022
+    },
+    {
+      "end_trips": 3379,
+      "start_trips": 3333,
+      "station": "2nd/Congress",
+      "total_trips": 6712,
+      "year": 2022
+    },
+    {
+      "end_trips": 3252,
+      "start_trips": 3416,
+      "station": "Boardwalk West",
+      "total_trips": 6668,
+      "year": 2022
+    },
+    {
+      "end_trips": 3126,
+      "start_trips": 2975,
+      "station": "Veterans/Atlanta @ MoPac Ped Bridge",
+      "total_trips": 6101,
+      "year": 2022
+    },
+    {
+      "end_trips": 2966,
+      "start_trips": 3118,
+      "station": "Lakeshore/Pleasant Valley",
+      "total_trips": 6084,
+      "year": 2022
+    },
+    {
+      "end_trips": 2988,
+      "start_trips": 3005,
+      "station": "South Congress/Barton Springs @ The Austin American-Statesman",
+      "total_trips": 5993,
+      "year": 2022
+    },
+    {
+      "end_trips": 3015,
+      "start_trips": 2949,
+      "station": "Barton Springs/Bouldin @ Palmer Auditorium",
+      "total_trips": 5964,
+      "year": 2022
+    },
+    {
+      "end_trips": 2937,
+      "start_trips": 3012,
+      "station": "Nash Hernandez/East @ RBJ South",
+      "total_trips": 5949,
+      "year": 2022
+    },
+    {
+      "end_trips": 2831,
+      "start_trips": 3115,
+      "station": "11th/Congress @ The Texas Capitol",
+      "total_trips": 5946,
+      "year": 2022
+    },
+    {
+      "end_trips": 2916,
+      "start_trips": 3021,
+      "station": "16th/San Antonio",
+      "total_trips": 5937,
+      "year": 2022
+    },
+    {
+      "end_trips": 3049,
+      "start_trips": 2638,
+      "station": "Sterzing/Barton Springs",
+      "total_trips": 5687,
+      "year": 2022
+    },
+    {
+      "end_trips": 2769,
+      "start_trips": 2764,
+      "station": "Cesar Chavez/Congress",
+      "total_trips": 5533,
+      "year": 2022
+    },
+    {
+      "end_trips": 2565,
+      "start_trips": 2576,
+      "station": "28th/Rio Grande",
+      "total_trips": 5141,
+      "year": 2022
+    },
+    {
+      "end_trips": 2389,
+      "start_trips": 2440,
+      "station": "Barton Springs Pool",
+      "total_trips": 4829,
+      "year": 2022
+    },
+    {
+      "end_trips": 2357,
+      "start_trips": 2380,
+      "station": "Rainey/Driskill",
+      "total_trips": 4737,
+      "year": 2022
+    },
+    {
+      "end_trips": 2331,
+      "start_trips": 2346,
+      "station": "4th/Guadalupe @ Republic Square",
+      "total_trips": 4677,
+      "year": 2022
+    },
+    {
+      "end_trips": 2330,
+      "start_trips": 2224,
+      "station": "Barton Springs/Kinney",
+      "total_trips": 4554,
+      "year": 2022
+    },
+    {
+      "end_trips": 2203,
+      "start_trips": 2306,
+      "station": "Red River/Cesar Chavez @ The Fairmont",
+      "total_trips": 4509,
+      "year": 2022
+    },
+    {
+      "end_trips": 2297,
+      "start_trips": 2204,
+      "station": "South 1st/Riverside @ Long Center",
+      "total_trips": 4501,
+      "year": 2022
+    },
+    {
+      "end_trips": 2145,
+      "start_trips": 2284,
+      "station": "South Congress @ Bouldin Creek",
+      "total_trips": 4429,
+      "year": 2022
+    },
+    {
+      "end_trips": 2138,
+      "start_trips": 2059,
+      "station": "6th/West",
+      "total_trips": 4197,
+      "year": 2022
+    },
+    {
+      "end_trips": 2010,
+      "start_trips": 2095,
+      "station": "Lake Austin Blvd/Deep Eddy",
+      "total_trips": 4105,
+      "year": 2022
+    },
+    {
+      "end_trips": 2007,
+      "start_trips": 2053,
+      "station": "Hollow Creek/Barton Hills",
+      "total_trips": 4060,
+      "year": 2022
+    },
+    {
+      "end_trips": 1980,
+      "start_trips": 1991,
+      "station": "9th/Henderson",
+      "total_trips": 3971,
+      "year": 2022
+    },
+    {
+      "end_trips": 2104,
+      "start_trips": 1690,
+      "station": "6th/Brazos",
+      "total_trips": 3794,
+      "year": 2022
+    },
+    {
+      "end_trips": 1756,
+      "start_trips": 1852,
+      "station": "5th/Campbell",
+      "total_trips": 3608,
+      "year": 2022
+    },
+    {
+      "end_trips": 1904,
+      "start_trips": 1610,
+      "station": "South Congress/Academy",
+      "total_trips": 3514,
+      "year": 2022
+    },
+    {
+      "end_trips": 1600,
+      "start_trips": 1852,
+      "station": "8th/Congress",
+      "total_trips": 3452,
+      "year": 2022
+    },
+    {
+      "end_trips": 1723,
+      "start_trips": 1517,
+      "station": "South Congress/Mary",
+      "total_trips": 3240,
+      "year": 2022
+    },
+    {
+      "end_trips": 1625,
+      "start_trips": 1579,
+      "station": "6th/Trinity",
+      "total_trips": 3204,
+      "year": 2022
+    },
+    {
+      "end_trips": 1576,
+      "start_trips": 1606,
+      "station": "6th/Chalmers",
+      "total_trips": 3182,
+      "year": 2022
+    },
+    {
+      "end_trips": 1538,
+      "start_trips": 1586,
+      "station": "4th/Sabine",
+      "total_trips": 3124,
+      "year": 2022
+    },
+    {
+      "end_trips": 1560,
+      "start_trips": 1421,
+      "station": "South Congress/Elizabeth",
+      "total_trips": 2981,
+      "year": 2022
+    },
+    {
+      "end_trips": 1497,
+      "start_trips": 1464,
+      "station": "East 4th/Chicon",
+      "total_trips": 2961,
+      "year": 2022
+    },
+    {
+      "end_trips": 1348,
+      "start_trips": 1385,
+      "station": "8th/Red River",
+      "total_trips": 2733,
+      "year": 2022
+    },
+    {
+      "end_trips": 1323,
+      "start_trips": 1374,
+      "station": "South Congress/James",
+      "total_trips": 2697,
+      "year": 2022
+    },
+    {
+      "end_trips": 1159,
+      "start_trips": 1260,
+      "station": "East 6th/Pedernales",
+      "total_trips": 2419,
+      "year": 2022
+    },
+    {
+      "end_trips": 1123,
+      "start_trips": 1277,
+      "station": "8th/Lavaca",
+      "total_trips": 2400,
+      "year": 2022
+    },
+    {
+      "end_trips": 1216,
+      "start_trips": 1149,
+      "station": "Rio Grande/12th",
+      "total_trips": 2365,
+      "year": 2022
+    },
+    {
+      "end_trips": 1149,
+      "start_trips": 1206,
+      "station": "East 5th/Broadway @ Capital Metro HQ",
+      "total_trips": 2355,
+      "year": 2022
+    },
+    {
+      "end_trips": 1108,
+      "start_trips": 1239,
+      "station": "East 11th/San Marcos",
+      "total_trips": 2347,
+      "year": 2022
+    },
+    {
+      "end_trips": 1061,
+      "start_trips": 1086,
+      "station": "12th/San Jacinto @ State Capitol Visitors Garage",
+      "total_trips": 2147,
+      "year": 2022
+    },
+    {
+      "end_trips": 1093,
+      "start_trips": 1050,
+      "station": "6th/Lavaca",
+      "total_trips": 2143,
+      "year": 2022
+    },
+    {
+      "end_trips": 1098,
+      "start_trips": 995,
+      "station": "East 2nd/Pedernales",
+      "total_trips": 2093,
+      "year": 2022
+    },
+    {
+      "end_trips": 949,
+      "start_trips": 952,
+      "station": "East 5th/Shady @ Eastside Bus Plaza",
+      "total_trips": 1901,
+      "year": 2022
+    },
+    {
+      "end_trips": 948,
+      "start_trips": 926,
+      "station": "Lake Austin/Enfield",
+      "total_trips": 1874,
+      "year": 2022
+    },
+    {
+      "end_trips": 748,
+      "start_trips": 823,
+      "station": "8th/San Jacinto",
+      "total_trips": 1571,
+      "year": 2022
+    },
+    {
+      "end_trips": 773,
+      "start_trips": 795,
+      "station": "13th/Trinity @ Waterloo Greenway",
+      "total_trips": 1568,
+      "year": 2022
+    },
+    {
+      "end_trips": 733,
+      "start_trips": 833,
+      "station": "11th/San Jacinto",
+      "total_trips": 1566,
+      "year": 2022
+    },
+    {
+      "end_trips": 663,
+      "start_trips": 765,
+      "station": "East 11th/Victory Grill",
+      "total_trips": 1428,
+      "year": 2022
+    },
+    {
+      "end_trips": 659,
+      "start_trips": 677,
+      "station": "East 6th/Robert T. Martinez",
+      "total_trips": 1336,
+      "year": 2022
+    },
+    {
+      "end_trips": 628,
+      "start_trips": 633,
+      "station": "Rosewood/Angelina",
+      "total_trips": 1261,
+      "year": 2022
+    },
+    {
+      "end_trips": 602,
+      "start_trips": 644,
+      "station": "10th/Red River",
+      "total_trips": 1246,
+      "year": 2022
+    },
+    {
+      "end_trips": 520,
+      "start_trips": 562,
+      "station": "11th/Salina ",
+      "total_trips": 1082,
+      "year": 2022
+    },
+    {
+      "end_trips": 503,
+      "start_trips": 574,
+      "station": "One Texas Center",
+      "total_trips": 1077,
+      "year": 2022
+    },
+    {
+      "end_trips": 483,
+      "start_trips": 485,
+      "station": "Rosewood/Chicon",
+      "total_trips": 968,
+      "year": 2022
+    },
+    {
+      "end_trips": 297,
+      "start_trips": 338,
+      "station": "Barton Springs/Riverside",
+      "total_trips": 635,
+      "year": 2022
+    },
+    {
+      "end_trips": 249,
+      "start_trips": 215,
+      "station": "13th/Trinity",
+      "total_trips": 464,
+      "year": 2022
+    },
+    {
+      "end_trips": 194,
+      "start_trips": 198,
+      "station": "6th/Chalmers ",
+      "total_trips": 392,
+      "year": 2022
+    },
+    {
+      "end_trips": 145,
+      "start_trips": 142,
+      "station": "Rainey/Davis",
+      "total_trips": 287,
+      "year": 2022
+    },
+    {
+      "end_trips": 64,
+      "start_trips": 64,
+      "station": "11th/Salina",
+      "total_trips": 128,
+      "year": 2022
+    },
+    {
+      "end_trips": 25,
+      "start_trips": 32,
+      "station": "Springfest 2022",
+      "total_trips": 57,
+      "year": 2022
+    },
+    {
+      "end_trips": 8,
+      "start_trips": 9,
+      "station": "Dean Keeton/Park Place",
+      "total_trips": 17,
+      "year": 2022
+    },
+    {
+      "end_trips": 32932,
+      "start_trips": 32639,
+      "station": "21st/Speedway @ PCL",
+      "total_trips": 65571,
+      "year": 2023
+    },
+    {
+      "end_trips": 18594,
+      "start_trips": 17166,
+      "station": "Dean Keeton/Speedway",
+      "total_trips": 35760,
+      "year": 2023
+    },
+    {
+      "end_trips": 12104,
+      "start_trips": 12671,
+      "station": "26th/Nueces",
+      "total_trips": 24775,
+      "year": 2023
+    },
+    {
+      "end_trips": 12212,
+      "start_trips": 12537,
+      "station": "28th/Rio Grande",
+      "total_trips": 24749,
+      "year": 2023
+    },
+    {
+      "end_trips": 11913,
+      "start_trips": 11999,
+      "station": "Dean Keeton/Whitis",
+      "total_trips": 23912,
+      "year": 2023
+    },
+    {
+      "end_trips": 11144,
+      "start_trips": 11295,
+      "station": "21st/Guadalupe",
+      "total_trips": 22439,
+      "year": 2023
+    },
+    {
+      "end_trips": 9245,
+      "start_trips": 9502,
+      "station": "23rd/Pearl",
+      "total_trips": 18747,
+      "year": 2023
+    },
+    {
+      "end_trips": 7976,
+      "start_trips": 7172,
+      "station": "23rd/San Jacinto @ DKR Stadium",
+      "total_trips": 15148,
+      "year": 2023
+    },
+    {
+      "end_trips": 7229,
+      "start_trips": 7914,
+      "station": "22nd/Pearl",
+      "total_trips": 15143,
+      "year": 2023
+    },
+    {
+      "end_trips": 6577,
+      "start_trips": 6523,
+      "station": "Guadalupe/West Mall @ University Co-op",
+      "total_trips": 13100,
+      "year": 2023
+    },
+    {
+      "end_trips": 6475,
+      "start_trips": 6542,
+      "station": "21st/University",
+      "total_trips": 13017,
+      "year": 2023
+    },
+    {
+      "end_trips": 6294,
+      "start_trips": 6492,
+      "station": "Rainey/Cummings",
+      "total_trips": 12786,
+      "year": 2023
+    },
+    {
+      "end_trips": 5950,
+      "start_trips": 6066,
+      "station": "22.5/Rio Grande",
+      "total_trips": 12016,
+      "year": 2023
+    },
+    {
+      "end_trips": 5683,
+      "start_trips": 5444,
+      "station": "3rd/West",
+      "total_trips": 11127,
+      "year": 2023
+    },
+    {
+      "end_trips": 4717,
+      "start_trips": 4732,
+      "station": "Riverside/South Lamar",
+      "total_trips": 9449,
+      "year": 2023
+    },
+    {
+      "end_trips": 4806,
+      "start_trips": 4587,
+      "station": "Lakeshore/Austin Hostel",
+      "total_trips": 9393,
+      "year": 2023
+    },
+    {
+      "end_trips": 4244,
+      "start_trips": 4242,
+      "station": "6th/Congress",
+      "total_trips": 8486,
+      "year": 2023
+    },
+    {
+      "end_trips": 3416,
+      "start_trips": 3565,
+      "station": "Electric Drive/Sandra Muraida Way @ Pfluger Ped Bridge",
+      "total_trips": 6981,
+      "year": 2023
+    },
+    {
+      "end_trips": 3528,
+      "start_trips": 3332,
+      "station": "Plaza Saltillo",
+      "total_trips": 6860,
+      "year": 2023
+    },
+    {
+      "end_trips": 3263,
+      "start_trips": 3324,
+      "station": "3rd/Nueces",
+      "total_trips": 6587,
+      "year": 2023
+    },
+    {
+      "end_trips": 3251,
+      "start_trips": 3227,
+      "station": "East 6th/Medina",
+      "total_trips": 6478,
+      "year": 2023
+    },
+    {
+      "end_trips": 3266,
+      "start_trips": 3104,
+      "station": "Barton Springs/Bouldin @ Palmer Auditorium",
+      "total_trips": 6370,
+      "year": 2023
+    },
+    {
+      "end_trips": 3092,
+      "start_trips": 3223,
+      "station": "Boardwalk West",
+      "total_trips": 6315,
+      "year": 2023
+    },
+    {
+      "end_trips": 3096,
+      "start_trips": 3101,
+      "station": "3rd/Trinity @ The Convention Center",
+      "total_trips": 6197,
+      "year": 2023
+    },
+    {
+      "end_trips": 3092,
+      "start_trips": 3065,
+      "station": "Lakeshore/Pleasant Valley",
+      "total_trips": 6157,
+      "year": 2023
+    },
+    {
+      "end_trips": 2912,
+      "start_trips": 2921,
+      "station": "2nd/Congress",
+      "total_trips": 5833,
+      "year": 2023
+    },
+    {
+      "end_trips": 2907,
+      "start_trips": 2924,
+      "station": "4th/Congress",
+      "total_trips": 5831,
+      "year": 2023
+    },
+    {
+      "end_trips": 2758,
+      "start_trips": 2939,
+      "station": "5th/Bowie",
+      "total_trips": 5697,
+      "year": 2023
+    },
+    {
+      "end_trips": 2819,
+      "start_trips": 2878,
+      "station": "Nash Hernandez/East @ RBJ South",
+      "total_trips": 5697,
+      "year": 2023
+    },
+    {
+      "end_trips": 2852,
+      "start_trips": 2836,
+      "station": "Cesar Chavez/Congress",
+      "total_trips": 5688,
+      "year": 2023
+    },
+    {
+      "end_trips": 2883,
+      "start_trips": 2735,
+      "station": "Zilker Park",
+      "total_trips": 5618,
+      "year": 2023
+    },
+    {
+      "end_trips": 2458,
+      "start_trips": 2843,
+      "station": "11th/Congress @ The Texas Capitol",
+      "total_trips": 5301,
+      "year": 2023
+    },
+    {
+      "end_trips": 2682,
+      "start_trips": 2613,
+      "station": "Sterzing/Barton Springs",
+      "total_trips": 5295,
+      "year": 2023
+    },
+    {
+      "end_trips": 2600,
+      "start_trips": 2574,
+      "station": "2nd/Lavaca @ City Hall",
+      "total_trips": 5174,
+      "year": 2023
+    },
+    {
+      "end_trips": 2641,
+      "start_trips": 2518,
+      "station": "Veterans/Atlanta @ MoPac Ped Bridge",
+      "total_trips": 5159,
+      "year": 2023
+    },
+    {
+      "end_trips": 2568,
+      "start_trips": 2558,
+      "station": "Barton Springs Pool",
+      "total_trips": 5126,
+      "year": 2023
+    },
+    {
+      "end_trips": 2453,
+      "start_trips": 2587,
+      "station": "16th/San Antonio",
+      "total_trips": 5040,
+      "year": 2023
+    },
+    {
+      "end_trips": 2310,
+      "start_trips": 2390,
+      "station": "South Congress/Barton Springs @ The Austin American-Statesman",
+      "total_trips": 4700,
+      "year": 2023
+    },
+    {
+      "end_trips": 2359,
+      "start_trips": 2306,
+      "station": "Lake Austin Blvd/Deep Eddy",
+      "total_trips": 4665,
+      "year": 2023
+    },
+    {
+      "end_trips": 2188,
+      "start_trips": 2417,
+      "station": "South Congress @ Bouldin Creek",
+      "total_trips": 4605,
+      "year": 2023
+    },
+    {
+      "end_trips": 2198,
+      "start_trips": 1977,
+      "station": "Dean Keeton/Park Place",
+      "total_trips": 4175,
+      "year": 2023
+    },
+    {
+      "end_trips": 2017,
+      "start_trips": 2097,
+      "station": "4th/Guadalupe @ Republic Square",
+      "total_trips": 4114,
+      "year": 2023
+    },
+    {
+      "end_trips": 1865,
+      "start_trips": 1988,
+      "station": "South 1st/Riverside @ Long Center",
+      "total_trips": 3853,
+      "year": 2023
+    },
+    {
+      "end_trips": 1923,
+      "start_trips": 1822,
+      "station": "6th/Trinity",
+      "total_trips": 3745,
+      "year": 2023
+    },
+    {
+      "end_trips": 1772,
+      "start_trips": 1863,
+      "station": "East 6th/Robert T. Martinez",
+      "total_trips": 3635,
+      "year": 2023
+    },
+    {
+      "end_trips": 1735,
+      "start_trips": 1837,
+      "station": "Rainey/Driskill",
+      "total_trips": 3572,
+      "year": 2023
+    },
+    {
+      "end_trips": 1928,
+      "start_trips": 1643,
+      "station": "South Congress/Mary",
+      "total_trips": 3571,
+      "year": 2023
+    },
+    {
+      "end_trips": 1738,
+      "start_trips": 1779,
+      "station": "6th/Chalmers",
+      "total_trips": 3517,
+      "year": 2023
+    },
+    {
+      "end_trips": 1800,
+      "start_trips": 1647,
+      "station": "Rio Grande/12th",
+      "total_trips": 3447,
+      "year": 2023
+    },
+    {
+      "end_trips": 1694,
+      "start_trips": 1742,
+      "station": "9th/Henderson",
+      "total_trips": 3436,
+      "year": 2023
+    },
+    {
+      "end_trips": 1703,
+      "start_trips": 1665,
+      "station": "Barton Springs/Kinney",
+      "total_trips": 3368,
+      "year": 2023
+    },
+    {
+      "end_trips": 1597,
+      "start_trips": 1687,
+      "station": "Red River/Cesar Chavez @ The Fairmont",
+      "total_trips": 3284,
+      "year": 2023
+    },
+    {
+      "end_trips": 1560,
+      "start_trips": 1688,
+      "station": "4th/Sabine",
+      "total_trips": 3248,
+      "year": 2023
+    },
+    {
+      "end_trips": 1680,
+      "start_trips": 1560,
+      "station": "5th/Campbell",
+      "total_trips": 3240,
+      "year": 2023
+    },
+    {
+      "end_trips": 1612,
+      "start_trips": 1603,
+      "station": "6th/West",
+      "total_trips": 3215,
+      "year": 2023
+    },
+    {
+      "end_trips": 1696,
+      "start_trips": 1372,
+      "station": "South Congress/Academy",
+      "total_trips": 3068,
+      "year": 2023
+    },
+    {
+      "end_trips": 1401,
+      "start_trips": 1630,
+      "station": "8th/Congress",
+      "total_trips": 3031,
+      "year": 2023
+    },
+    {
+      "end_trips": 1401,
+      "start_trips": 1402,
+      "station": "Hollow Creek/Barton Hills",
+      "total_trips": 2803,
+      "year": 2023
+    },
+    {
+      "end_trips": 1240,
+      "start_trips": 1269,
+      "station": "8th/Red River",
+      "total_trips": 2509,
+      "year": 2023
+    },
+    {
+      "end_trips": 1258,
+      "start_trips": 1212,
+      "station": "East 4th/Chicon",
+      "total_trips": 2470,
+      "year": 2023
+    },
+    {
+      "end_trips": 1257,
+      "start_trips": 1186,
+      "station": "East 5th/Broadway @ Capital Metro HQ",
+      "total_trips": 2443,
+      "year": 2023
+    },
+    {
+      "end_trips": 1103,
+      "start_trips": 1208,
+      "station": "8th/San Jacinto",
+      "total_trips": 2311,
+      "year": 2023
+    },
+    {
+      "end_trips": 1123,
+      "start_trips": 1072,
+      "station": "Barton Springs/Riverside",
+      "total_trips": 2195,
+      "year": 2023
+    },
+    {
+      "end_trips": 1070,
+      "start_trips": 1113,
+      "station": "South Congress/James",
+      "total_trips": 2183,
+      "year": 2023
+    },
+    {
+      "end_trips": 1083,
+      "start_trips": 1077,
+      "station": "East 6th/Pedernales",
+      "total_trips": 2160,
+      "year": 2023
+    },
+    {
+      "end_trips": 1128,
+      "start_trips": 999,
+      "station": "South Congress/Elizabeth",
+      "total_trips": 2127,
+      "year": 2023
+    },
+    {
+      "end_trips": 1119,
+      "start_trips": 967,
+      "station": "East 2nd/Pedernales",
+      "total_trips": 2086,
+      "year": 2023
+    },
+    {
+      "end_trips": 840,
+      "start_trips": 894,
+      "station": "East 11th/San Marcos",
+      "total_trips": 1734,
+      "year": 2023
+    },
+    {
+      "end_trips": 791,
+      "start_trips": 909,
+      "station": "8th/Lavaca",
+      "total_trips": 1700,
+      "year": 2023
+    },
+    {
+      "end_trips": 795,
+      "start_trips": 884,
+      "station": "12th/San Jacinto @ State Capitol Visitors Garage",
+      "total_trips": 1679,
+      "year": 2023
+    },
+    {
+      "end_trips": 853,
+      "start_trips": 795,
+      "station": "Lake Austin/Enfield",
+      "total_trips": 1648,
+      "year": 2023
+    },
+    {
+      "end_trips": 804,
+      "start_trips": 843,
+      "station": "13th/Trinity @ Waterloo Greenway",
+      "total_trips": 1647,
+      "year": 2023
+    },
+    {
+      "end_trips": 709,
+      "start_trips": 778,
+      "station": "6th/Lavaca",
+      "total_trips": 1487,
+      "year": 2023
+    },
+    {
+      "end_trips": 761,
+      "start_trips": 704,
+      "station": "East 5th/Shady @ Eastside Bus Plaza",
+      "total_trips": 1465,
+      "year": 2023
+    },
+    {
+      "end_trips": 705,
+      "start_trips": 741,
+      "station": "10th/Red River",
+      "total_trips": 1446,
+      "year": 2023
+    },
+    {
+      "end_trips": 510,
+      "start_trips": 592,
+      "station": "One Texas Center",
+      "total_trips": 1102,
+      "year": 2023
+    },
+    {
+      "end_trips": 495,
+      "start_trips": 570,
+      "station": "Rosewood/Angelina",
+      "total_trips": 1065,
+      "year": 2023
+    },
+    {
+      "end_trips": 442,
+      "start_trips": 528,
+      "station": "East 11th/Victory Grill",
+      "total_trips": 970,
+      "year": 2023
+    },
+    {
+      "end_trips": 282,
+      "start_trips": 276,
+      "station": "Rosewood/Chicon",
+      "total_trips": 558,
+      "year": 2023
+    },
+    {
+      "end_trips": 284,
+      "start_trips": 270,
+      "station": "11th/Salina ",
+      "total_trips": 554,
+      "year": 2023
+    },
+    {
+      "end_trips": 251,
+      "start_trips": 234,
+      "station": "6th/Brazos",
+      "total_trips": 485,
+      "year": 2023
+    },
+    {
+      "end_trips": 120,
+      "start_trips": 182,
+      "station": "1701 Barton Springs Road",
+      "total_trips": 302,
+      "year": 2023
+    },
+    {
+      "end_trips": 129,
+      "start_trips": 157,
+      "station": "11th/Salina",
+      "total_trips": 286,
+      "year": 2023
+    },
+    {
+      "end_trips": 4,
+      "start_trips": 0,
+      "station": "Ready for deployment",
+      "total_trips": 4,
+      "year": 2023
+    },
+    {
+      "end_trips": 16496,
+      "start_trips": 16463,
+      "station": "21st/Speedway @ PCL",
+      "total_trips": 32959,
+      "year": 2024
+    },
+    {
+      "end_trips": 8134,
+      "start_trips": 7400,
+      "station": "Dean Keeton/Speedway",
+      "total_trips": 15534,
+      "year": 2024
+    },
+    {
+      "end_trips": 6689,
+      "start_trips": 6700,
+      "station": "Dean Keeton/Whitis",
+      "total_trips": 13389,
+      "year": 2024
+    },
+    {
+      "end_trips": 5890,
+      "start_trips": 6109,
+      "station": "28th/Rio Grande",
+      "total_trips": 11999,
+      "year": 2024
+    },
+    {
+      "end_trips": 5484,
+      "start_trips": 5742,
+      "station": "26th/Nueces",
+      "total_trips": 11226,
+      "year": 2024
+    },
+    {
+      "end_trips": 4836,
+      "start_trips": 4955,
+      "station": "21st/Guadalupe",
+      "total_trips": 9791,
+      "year": 2024
+    },
+    {
+      "end_trips": 4679,
+      "start_trips": 4502,
+      "station": "23rd/Pearl",
+      "total_trips": 9181,
+      "year": 2024
+    },
+    {
+      "end_trips": 4293,
+      "start_trips": 4308,
+      "station": "Guadalupe/West Mall @ University Co-op",
+      "total_trips": 8601,
+      "year": 2024
+    },
+    {
+      "end_trips": 3809,
+      "start_trips": 3375,
+      "station": "23rd/San Jacinto @ DKR Stadium",
+      "total_trips": 7184,
+      "year": 2024
+    },
+    {
+      "end_trips": 3206,
+      "start_trips": 3251,
+      "station": "22nd/Pearl",
+      "total_trips": 6457,
+      "year": 2024
+    },
+    {
+      "end_trips": 3143,
+      "start_trips": 3173,
+      "station": "Rainey/Cummings",
+      "total_trips": 6316,
+      "year": 2024
+    },
+    {
+      "end_trips": 2996,
+      "start_trips": 2977,
+      "station": "3rd/West",
+      "total_trips": 5973,
+      "year": 2024
+    },
+    {
+      "end_trips": 2911,
+      "start_trips": 3038,
+      "station": "22.5/Rio Grande",
+      "total_trips": 5949,
+      "year": 2024
+    },
+    {
+      "end_trips": 2739,
+      "start_trips": 2831,
+      "station": "21st/University",
+      "total_trips": 5570,
+      "year": 2024
+    },
+    {
+      "end_trips": 2370,
+      "start_trips": 2415,
+      "station": "Riverside/South Lamar",
+      "total_trips": 4785,
+      "year": 2024
+    },
+    {
+      "end_trips": 2346,
+      "start_trips": 2225,
+      "station": "Lakeshore/Austin Hostel",
+      "total_trips": 4571,
+      "year": 2024
+    },
+    {
+      "end_trips": 2079,
+      "start_trips": 2099,
+      "station": "6th/Congress",
+      "total_trips": 4178,
+      "year": 2024
+    },
+    {
+      "end_trips": 2113,
+      "start_trips": 1983,
+      "station": "Plaza Saltillo",
+      "total_trips": 4096,
+      "year": 2024
+    },
+    {
+      "end_trips": 1785,
+      "start_trips": 1789,
+      "station": "East 6th/Medina",
+      "total_trips": 3574,
+      "year": 2024
+    },
+    {
+      "end_trips": 1773,
+      "start_trips": 1791,
+      "station": "Lakeshore/Pleasant Valley",
+      "total_trips": 3564,
+      "year": 2024
+    },
+    {
+      "end_trips": 1774,
+      "start_trips": 1658,
+      "station": "3rd/Trinity @ The Convention Center",
+      "total_trips": 3432,
+      "year": 2024
+    },
+    {
+      "end_trips": 1706,
+      "start_trips": 1703,
+      "station": "Nash Hernandez/East @ RBJ South",
+      "total_trips": 3409,
+      "year": 2024
+    },
+    {
+      "end_trips": 1771,
+      "start_trips": 1617,
+      "station": "Barton Springs/Bouldin @ Palmer Auditorium",
+      "total_trips": 3388,
+      "year": 2024
+    },
+    {
+      "end_trips": 1716,
+      "start_trips": 1581,
+      "station": "Zilker Park",
+      "total_trips": 3297,
+      "year": 2024
+    },
+    {
+      "end_trips": 1609,
+      "start_trips": 1611,
+      "station": "Electric Drive/Sandra Muraida Way @ Pfluger Ped Bridge",
+      "total_trips": 3220,
+      "year": 2024
+    },
+    {
+      "end_trips": 1576,
+      "start_trips": 1629,
+      "station": "Boardwalk West",
+      "total_trips": 3205,
+      "year": 2024
+    },
+    {
+      "end_trips": 1527,
+      "start_trips": 1514,
+      "station": "4th/Congress",
+      "total_trips": 3041,
+      "year": 2024
+    },
+    {
+      "end_trips": 1429,
+      "start_trips": 1374,
+      "station": "3rd/Nueces",
+      "total_trips": 2803,
+      "year": 2024
+    },
+    {
+      "end_trips": 1385,
+      "start_trips": 1415,
+      "station": "Sterzing/Barton Springs",
+      "total_trips": 2800,
+      "year": 2024
+    },
+    {
+      "end_trips": 1369,
+      "start_trips": 1429,
+      "station": "5th/Bowie",
+      "total_trips": 2798,
+      "year": 2024
+    },
+    {
+      "end_trips": 1299,
+      "start_trips": 1381,
+      "station": "Cesar Chavez/Congress",
+      "total_trips": 2680,
+      "year": 2024
+    },
+    {
+      "end_trips": 1308,
+      "start_trips": 1338,
+      "station": "16th/San Antonio",
+      "total_trips": 2646,
+      "year": 2024
+    },
+    {
+      "end_trips": 1266,
+      "start_trips": 1330,
+      "station": "2nd/Lavaca @ City Hall",
+      "total_trips": 2596,
+      "year": 2024
+    },
+    {
+      "end_trips": 1218,
+      "start_trips": 1331,
+      "station": "2nd/Congress",
+      "total_trips": 2549,
+      "year": 2024
+    },
+    {
+      "end_trips": 1214,
+      "start_trips": 1181,
+      "station": "Lake Austin Blvd/Deep Eddy",
+      "total_trips": 2395,
+      "year": 2024
+    },
+    {
+      "end_trips": 1161,
+      "start_trips": 1178,
+      "station": "Barton Springs Pool",
+      "total_trips": 2339,
+      "year": 2024
+    },
+    {
+      "end_trips": 1193,
+      "start_trips": 1091,
+      "station": "Dean Keeton/Park Place",
+      "total_trips": 2284,
+      "year": 2024
+    },
+    {
+      "end_trips": 1116,
+      "start_trips": 1131,
+      "station": "Barton Springs/Kinney",
+      "total_trips": 2247,
+      "year": 2024
+    },
+    {
+      "end_trips": 1110,
+      "start_trips": 1097,
+      "station": "South 1st/Riverside @ Long Center",
+      "total_trips": 2207,
+      "year": 2024
+    },
+    {
+      "end_trips": 1084,
+      "start_trips": 1115,
+      "station": "South Congress/Barton Springs @ The Austin American-Statesman",
+      "total_trips": 2199,
+      "year": 2024
+    },
+    {
+      "end_trips": 1161,
+      "start_trips": 1022,
+      "station": "South Congress/Mary",
+      "total_trips": 2183,
+      "year": 2024
+    },
+    {
+      "end_trips": 998,
+      "start_trips": 1123,
+      "station": "South Congress @ Bouldin Creek",
+      "total_trips": 2121,
+      "year": 2024
+    },
+    {
+      "end_trips": 1026,
+      "start_trips": 1063,
+      "station": "Rio Grande/12th",
+      "total_trips": 2089,
+      "year": 2024
+    },
+    {
+      "end_trips": 990,
+      "start_trips": 1093,
+      "station": "11th/Congress @ The Texas Capitol",
+      "total_trips": 2083,
+      "year": 2024
+    },
+    {
+      "end_trips": 1033,
+      "start_trips": 994,
+      "station": "Veterans/Atlanta @ MoPac Ped Bridge",
+      "total_trips": 2027,
+      "year": 2024
+    },
+    {
+      "end_trips": 923,
+      "start_trips": 995,
+      "station": "Red River/Cesar Chavez @ The Fairmont",
+      "total_trips": 1918,
+      "year": 2024
+    },
+    {
+      "end_trips": 894,
+      "start_trips": 931,
+      "station": "4th/Guadalupe @ Republic Square",
+      "total_trips": 1825,
+      "year": 2024
+    },
+    {
+      "end_trips": 869,
+      "start_trips": 904,
+      "station": "6th/Chalmers",
+      "total_trips": 1773,
+      "year": 2024
+    },
+    {
+      "end_trips": 896,
+      "start_trips": 844,
+      "station": "6th/Trinity",
+      "total_trips": 1740,
+      "year": 2024
+    },
+    {
+      "end_trips": 848,
+      "start_trips": 875,
+      "station": "4th/Sabine",
+      "total_trips": 1723,
+      "year": 2024
+    },
+    {
+      "end_trips": 767,
+      "start_trips": 874,
+      "station": "Rainey/Driskill",
+      "total_trips": 1641,
+      "year": 2024
+    },
+    {
+      "end_trips": 753,
+      "start_trips": 869,
+      "station": "8th/Congress",
+      "total_trips": 1622,
+      "year": 2024
+    },
+    {
+      "end_trips": 826,
+      "start_trips": 783,
+      "station": "5th/Campbell",
+      "total_trips": 1609,
+      "year": 2024
+    },
+    {
+      "end_trips": 896,
+      "start_trips": 696,
+      "station": "South Congress/Academy",
+      "total_trips": 1592,
+      "year": 2024
+    },
+    {
+      "end_trips": 767,
+      "start_trips": 820,
+      "station": "9th/Henderson",
+      "total_trips": 1587,
+      "year": 2024
+    },
+    {
+      "end_trips": 773,
+      "start_trips": 784,
+      "station": "East 6th/Pedernales",
+      "total_trips": 1557,
+      "year": 2024
+    },
+    {
+      "end_trips": 735,
+      "start_trips": 743,
+      "station": "East 6th/Robert T. Martinez",
+      "total_trips": 1478,
+      "year": 2024
+    },
+    {
+      "end_trips": 739,
+      "start_trips": 735,
+      "station": "Hollow Creek/Barton Hills",
+      "total_trips": 1474,
+      "year": 2024
+    },
+    {
+      "end_trips": 690,
+      "start_trips": 705,
+      "station": "East 4th/Chicon",
+      "total_trips": 1395,
+      "year": 2024
+    },
+    {
+      "end_trips": 630,
+      "start_trips": 607,
+      "station": "8th/Red River",
+      "total_trips": 1237,
+      "year": 2024
+    },
+    {
+      "end_trips": 587,
+      "start_trips": 638,
+      "station": "6th/West",
+      "total_trips": 1225,
+      "year": 2024
+    },
+    {
+      "end_trips": 584,
+      "start_trips": 629,
+      "station": "South Congress/James",
+      "total_trips": 1213,
+      "year": 2024
+    },
+    {
+      "end_trips": 650,
+      "start_trips": 557,
+      "station": "East 2nd/Pedernales",
+      "total_trips": 1207,
+      "year": 2024
+    },
+    {
+      "end_trips": 576,
+      "start_trips": 610,
+      "station": "8th/San Jacinto",
+      "total_trips": 1186,
+      "year": 2024
+    },
+    {
+      "end_trips": 597,
+      "start_trips": 574,
+      "station": "South Congress/Elizabeth",
+      "total_trips": 1171,
+      "year": 2024
+    },
+    {
+      "end_trips": 537,
+      "start_trips": 578,
+      "station": "East 5th/Broadway @ Capital Metro HQ",
+      "total_trips": 1115,
+      "year": 2024
+    },
+    {
+      "end_trips": 510,
+      "start_trips": 518,
+      "station": "East 11th/San Marcos",
+      "total_trips": 1028,
+      "year": 2024
+    },
+    {
+      "end_trips": 473,
+      "start_trips": 531,
+      "station": "13th/Trinity @ Waterloo Greenway",
+      "total_trips": 1004,
+      "year": 2024
+    },
+    {
+      "end_trips": 398,
+      "start_trips": 426,
+      "station": "Lake Austin/Enfield",
+      "total_trips": 824,
+      "year": 2024
+    },
+    {
+      "end_trips": 391,
+      "start_trips": 426,
+      "station": "12th/San Jacinto @ State Capitol Visitors Garage",
+      "total_trips": 817,
+      "year": 2024
+    },
+    {
+      "end_trips": 434,
+      "start_trips": 378,
+      "station": "East 5th/Shady @ Eastside Bus Plaza",
+      "total_trips": 812,
+      "year": 2024
+    },
+    {
+      "end_trips": 358,
+      "start_trips": 436,
+      "station": "Barton Springs/Riverside",
+      "total_trips": 794,
+      "year": 2024
+    },
+    {
+      "end_trips": 376,
+      "start_trips": 400,
+      "station": "6th/Lavaca",
+      "total_trips": 776,
+      "year": 2024
+    },
+    {
+      "end_trips": 343,
+      "start_trips": 400,
+      "station": "10th/Red River",
+      "total_trips": 743,
+      "year": 2024
+    },
+    {
+      "end_trips": 339,
+      "start_trips": 349,
+      "station": "11th/Salina ",
+      "total_trips": 688,
+      "year": 2024
+    },
+    {
+      "end_trips": 266,
+      "start_trips": 404,
+      "station": "8th/Lavaca",
+      "total_trips": 670,
+      "year": 2024
+    },
+    {
+      "end_trips": 345,
+      "start_trips": 323,
+      "station": "Rosewood/Angelina",
+      "total_trips": 668,
+      "year": 2024
+    },
+    {
+      "end_trips": 283,
+      "start_trips": 364,
+      "station": "One Texas Center",
+      "total_trips": 647,
+      "year": 2024
+    },
+    {
+      "end_trips": 281,
+      "start_trips": 313,
+      "station": "East 11th/Victory Grill",
+      "total_trips": 594,
+      "year": 2024
+    }
+  ],
+  "volume_by_month": [
+    {
+      "month": 12,
+      "trips": 1418,
+      "year": 2013
+    },
+    {
+      "month": 1,
+      "trips": 3240,
+      "year": 2014
+    },
+    {
+      "month": 2,
+      "trips": 5225,
+      "year": 2014
+    },
+    {
+      "month": 3,
+      "trips": 24581,
+      "year": 2014
+    },
+    {
+      "month": 4,
+      "trips": 13856,
+      "year": 2014
+    },
+    {
+      "month": 5,
+      "trips": 14544,
+      "year": 2014
+    },
+    {
+      "month": 6,
+      "trips": 13216,
+      "year": 2014
+    },
+    {
+      "month": 7,
+      "trips": 13891,
+      "year": 2014
+    },
+    {
+      "month": 8,
+      "trips": 11410,
+      "year": 2014
+    },
+    {
+      "month": 9,
+      "trips": 11112,
+      "year": 2014
+    },
+    {
+      "month": 10,
+      "trips": 22056,
+      "year": 2014
+    },
+    {
+      "month": 11,
+      "trips": 10434,
+      "year": 2014
+    },
+    {
+      "month": 12,
+      "trips": 7041,
+      "year": 2014
+    },
+    {
+      "month": 1,
+      "trips": 7567,
+      "year": 2015
+    },
+    {
+      "month": 2,
+      "trips": 9263,
+      "year": 2015
+    },
+    {
+      "month": 3,
+      "trips": 29054,
+      "year": 2015
+    },
+    {
+      "month": 4,
+      "trips": 16063,
+      "year": 2015
+    },
+    {
+      "month": 5,
+      "trips": 15363,
+      "year": 2015
+    },
+    {
+      "month": 6,
+      "trips": 13526,
+      "year": 2015
+    },
+    {
+      "month": 7,
+      "trips": 15751,
+      "year": 2015
+    },
+    {
+      "month": 8,
+      "trips": 13635,
+      "year": 2015
+    },
+    {
+      "month": 9,
+      "trips": 14270,
+      "year": 2015
+    },
+    {
+      "month": 10,
+      "trips": 21361,
+      "year": 2015
+    },
+    {
+      "month": 11,
+      "trips": 11040,
+      "year": 2015
+    },
+    {
+      "month": 12,
+      "trips": 9635,
+      "year": 2015
+    },
+    {
+      "month": 1,
+      "trips": 10741,
+      "year": 2016
+    },
+    {
+      "month": 2,
+      "trips": 13026,
+      "year": 2016
+    },
+    {
+      "month": 3,
+      "trips": 28692,
+      "year": 2016
+    },
+    {
+      "month": 4,
+      "trips": 17426,
+      "year": 2016
+    },
+    {
+      "month": 5,
+      "trips": 19029,
+      "year": 2016
+    },
+    {
+      "month": 6,
+      "trips": 16010,
+      "year": 2016
+    },
+    {
+      "month": 7,
+      "trips": 15803,
+      "year": 2016
+    },
+    {
+      "month": 8,
+      "trips": 12050,
+      "year": 2016
+    },
+    {
+      "month": 9,
+      "trips": 15558,
+      "year": 2016
+    },
+    {
+      "month": 10,
+      "trips": 23678,
+      "year": 2016
+    },
+    {
+      "month": 11,
+      "trips": 14281,
+      "year": 2016
+    },
+    {
+      "month": 12,
+      "trips": 8175,
+      "year": 2016
+    },
+    {
+      "month": 1,
+      "trips": 10195,
+      "year": 2017
+    },
+    {
+      "month": 2,
+      "trips": 13262,
+      "year": 2017
+    },
+    {
+      "month": 3,
+      "trips": 26000,
+      "year": 2017
+    },
+    {
+      "month": 4,
+      "trips": 21534,
+      "year": 2017
+    },
+    {
+      "month": 5,
+      "trips": 18645,
+      "year": 2017
+    },
+    {
+      "month": 6,
+      "trips": 15632,
+      "year": 2017
+    },
+    {
+      "month": 7,
+      "trips": 14195,
+      "year": 2017
+    },
+    {
+      "month": 8,
+      "trips": 10775,
+      "year": 2017
+    },
+    {
+      "month": 9,
+      "trips": 14408,
+      "year": 2017
+    },
+    {
+      "month": 10,
+      "trips": 19889,
+      "year": 2017
+    },
+    {
+      "month": 11,
+      "trips": 14694,
+      "year": 2017
+    },
+    {
+      "month": 12,
+      "trips": 8639,
+      "year": 2017
+    },
+    {
+      "month": 1,
+      "trips": 11165,
+      "year": 2018
+    },
+    {
+      "month": 2,
+      "trips": 29053,
+      "year": 2018
+    },
+    {
+      "month": 3,
+      "trips": 70619,
+      "year": 2018
+    },
+    {
+      "month": 4,
+      "trips": 62095,
+      "year": 2018
+    },
+    {
+      "month": 5,
+      "trips": 40898,
+      "year": 2018
+    },
+    {
+      "month": 6,
+      "trips": 23941,
+      "year": 2018
+    },
+    {
+      "month": 7,
+      "trips": 20747,
+      "year": 2018
+    },
+    {
+      "month": 8,
+      "trips": 22544,
+      "year": 2018
+    },
+    {
+      "month": 9,
+      "trips": 42206,
+      "year": 2018
+    },
+    {
+      "month": 10,
+      "trips": 31509,
+      "year": 2018
+    },
+    {
+      "month": 11,
+      "trips": 19401,
+      "year": 2018
+    },
+    {
+      "month": 12,
+      "trips": 11579,
+      "year": 2018
+    },
+    {
+      "month": 1,
+      "trips": 9095,
+      "year": 2019
+    },
+    {
+      "month": 2,
+      "trips": 10532,
+      "year": 2019
+    },
+    {
+      "month": 3,
+      "trips": 15431,
+      "year": 2019
+    },
+    {
+      "month": 4,
+      "trips": 13099,
+      "year": 2019
+    },
+    {
+      "month": 5,
+      "trips": 10386,
+      "year": 2019
+    },
+    {
+      "month": 6,
+      "trips": 7537,
+      "year": 2019
+    },
+    {
+      "month": 7,
+      "trips": 7981,
+      "year": 2019
+    },
+    {
+      "month": 8,
+      "trips": 5891,
+      "year": 2019
+    },
+    {
+      "month": 9,
+      "trips": 8247,
+      "year": 2019
+    },
+    {
+      "month": 10,
+      "trips": 8339,
+      "year": 2019
+    },
+    {
+      "month": 11,
+      "trips": 5464,
+      "year": 2019
+    },
+    {
+      "month": 12,
+      "trips": 4762,
+      "year": 2019
+    },
+    {
+      "month": 1,
+      "trips": 4529,
+      "year": 2020
+    },
+    {
+      "month": 2,
+      "trips": 5867,
+      "year": 2020
+    },
+    {
+      "month": 3,
+      "trips": 6756,
+      "year": 2020
+    },
+    {
+      "month": 4,
+      "trips": 5047,
+      "year": 2020
+    },
+    {
+      "month": 5,
+      "trips": 9586,
+      "year": 2020
+    },
+    {
+      "month": 6,
+      "trips": 9903,
+      "year": 2020
+    },
+    {
+      "month": 7,
+      "trips": 8552,
+      "year": 2020
+    },
+    {
+      "month": 8,
+      "trips": 9843,
+      "year": 2020
+    },
+    {
+      "month": 9,
+      "trips": 11309,
+      "year": 2020
+    },
+    {
+      "month": 10,
+      "trips": 11758,
+      "year": 2020
+    },
+    {
+      "month": 11,
+      "trips": 10769,
+      "year": 2020
+    },
+    {
+      "month": 12,
+      "trips": 7740,
+      "year": 2020
+    },
+    {
+      "month": 1,
+      "trips": 10587,
+      "year": 2021
+    },
+    {
+      "month": 2,
+      "trips": 7395,
+      "year": 2021
+    },
+    {
+      "month": 3,
+      "trips": 16805,
+      "year": 2021
+    },
+    {
+      "month": 4,
+      "trips": 16980,
+      "year": 2021
+    },
+    {
+      "month": 5,
+      "trips": 17427,
+      "year": 2021
+    },
+    {
+      "month": 6,
+      "trips": 15739,
+      "year": 2021
+    },
+    {
+      "month": 7,
+      "trips": 15769,
+      "year": 2021
+    },
+    {
+      "month": 8,
+      "trips": 16913,
+      "year": 2021
+    },
+    {
+      "month": 9,
+      "trips": 28509,
+      "year": 2021
+    },
+    {
+      "month": 10,
+      "trips": 34256,
+      "year": 2021
+    },
+    {
+      "month": 11,
+      "trips": 24978,
+      "year": 2021
+    },
+    {
+      "month": 12,
+      "trips": 18637,
+      "year": 2021
+    },
+    {
+      "month": 1,
+      "trips": 14513,
+      "year": 2022
+    },
+    {
+      "month": 2,
+      "trips": 21251,
+      "year": 2022
+    },
+    {
+      "month": 3,
+      "trips": 27573,
+      "year": 2022
+    },
+    {
+      "month": 4,
+      "trips": 36790,
+      "year": 2022
+    },
+    {
+      "month": 5,
+      "trips": 26351,
+      "year": 2022
+    },
+    {
+      "month": 6,
+      "trips": 19530,
+      "year": 2022
+    },
+    {
+      "month": 7,
+      "trips": 19486,
+      "year": 2022
+    },
+    {
+      "month": 8,
+      "trips": 24159,
+      "year": 2022
+    },
+    {
+      "month": 9,
+      "trips": 40256,
+      "year": 2022
+    },
+    {
+      "month": 10,
+      "trips": 43211,
+      "year": 2022
+    },
+    {
+      "month": 11,
+      "trips": 26547,
+      "year": 2022
+    },
+    {
+      "month": 12,
+      "trips": 17313,
+      "year": 2022
+    },
+    {
+      "month": 1,
+      "trips": 22052,
+      "year": 2023
+    },
+    {
+      "month": 2,
+      "trips": 18739,
+      "year": 2023
+    },
+    {
+      "month": 3,
+      "trips": 27205,
+      "year": 2023
+    },
+    {
+      "month": 4,
+      "trips": 27621,
+      "year": 2023
+    },
+    {
+      "month": 5,
+      "trips": 17461,
+      "year": 2023
+    },
+    {
+      "month": 6,
+      "trips": 16144,
+      "year": 2023
+    },
+    {
+      "month": 7,
+      "trips": 16460,
+      "year": 2023
+    },
+    {
+      "month": 8,
+      "trips": 20189,
+      "year": 2023
+    },
+    {
+      "month": 9,
+      "trips": 35320,
+      "year": 2023
+    },
+    {
+      "month": 10,
+      "trips": 38728,
+      "year": 2023
+    },
+    {
+      "month": 11,
+      "trips": 26300,
+      "year": 2023
+    },
+    {
+      "month": 12,
+      "trips": 17746,
+      "year": 2023
+    },
+    {
+      "month": 1,
+      "trips": 15490,
+      "year": 2024
+    },
+    {
+      "month": 2,
+      "trips": 28102,
+      "year": 2024
+    },
+    {
+      "month": 3,
+      "trips": 32207,
+      "year": 2024
+    },
+    {
+      "month": 4,
+      "trips": 33203,
+      "year": 2024
+    },
+    {
+      "month": 5,
+      "trips": 17764,
+      "year": 2024
+    },
+    {
+      "month": 6,
+      "trips": 14378,
+      "year": 2024
+    }
+  ]
+}

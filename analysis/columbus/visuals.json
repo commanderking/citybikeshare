@@ -1,0 +1,9643 @@
+{
+  "by_dow": [
+    {
+      "dow": 1,
+      "trips": 3360,
+      "year": 2013
+    },
+    {
+      "dow": 2,
+      "trips": 3165,
+      "year": 2013
+    },
+    {
+      "dow": 3,
+      "trips": 2926,
+      "year": 2013
+    },
+    {
+      "dow": 4,
+      "trips": 2673,
+      "year": 2013
+    },
+    {
+      "dow": 5,
+      "trips": 4182,
+      "year": 2013
+    },
+    {
+      "dow": 6,
+      "trips": 5726,
+      "year": 2013
+    },
+    {
+      "dow": 7,
+      "trips": 5876,
+      "year": 2013
+    },
+    {
+      "dow": 1,
+      "trips": 5131,
+      "year": 2014
+    },
+    {
+      "dow": 2,
+      "trips": 4680,
+      "year": 2014
+    },
+    {
+      "dow": 3,
+      "trips": 4708,
+      "year": 2014
+    },
+    {
+      "dow": 4,
+      "trips": 5371,
+      "year": 2014
+    },
+    {
+      "dow": 5,
+      "trips": 6535,
+      "year": 2014
+    },
+    {
+      "dow": 6,
+      "trips": 9689,
+      "year": 2014
+    },
+    {
+      "dow": 7,
+      "trips": 8725,
+      "year": 2014
+    },
+    {
+      "dow": 1,
+      "trips": 4242,
+      "year": 2015
+    },
+    {
+      "dow": 2,
+      "trips": 4012,
+      "year": 2015
+    },
+    {
+      "dow": 3,
+      "trips": 4264,
+      "year": 2015
+    },
+    {
+      "dow": 4,
+      "trips": 4278,
+      "year": 2015
+    },
+    {
+      "dow": 5,
+      "trips": 5598,
+      "year": 2015
+    },
+    {
+      "dow": 6,
+      "trips": 10713,
+      "year": 2015
+    },
+    {
+      "dow": 7,
+      "trips": 9510,
+      "year": 2015
+    },
+    {
+      "dow": 1,
+      "trips": 5451,
+      "year": 2016
+    },
+    {
+      "dow": 2,
+      "trips": 5350,
+      "year": 2016
+    },
+    {
+      "dow": 3,
+      "trips": 5109,
+      "year": 2016
+    },
+    {
+      "dow": 4,
+      "trips": 4600,
+      "year": 2016
+    },
+    {
+      "dow": 5,
+      "trips": 6208,
+      "year": 2016
+    },
+    {
+      "dow": 6,
+      "trips": 10084,
+      "year": 2016
+    },
+    {
+      "dow": 7,
+      "trips": 10177,
+      "year": 2016
+    },
+    {
+      "dow": 1,
+      "trips": 6575,
+      "year": 2017
+    },
+    {
+      "dow": 2,
+      "trips": 6241,
+      "year": 2017
+    },
+    {
+      "dow": 3,
+      "trips": 5979,
+      "year": 2017
+    },
+    {
+      "dow": 4,
+      "trips": 5149,
+      "year": 2017
+    },
+    {
+      "dow": 5,
+      "trips": 6162,
+      "year": 2017
+    },
+    {
+      "dow": 6,
+      "trips": 11647,
+      "year": 2017
+    },
+    {
+      "dow": 7,
+      "trips": 10452,
+      "year": 2017
+    },
+    {
+      "dow": 1,
+      "trips": 5365,
+      "year": 2018
+    },
+    {
+      "dow": 2,
+      "trips": 4916,
+      "year": 2018
+    },
+    {
+      "dow": 3,
+      "trips": 5167,
+      "year": 2018
+    },
+    {
+      "dow": 4,
+      "trips": 5067,
+      "year": 2018
+    },
+    {
+      "dow": 5,
+      "trips": 5750,
+      "year": 2018
+    },
+    {
+      "dow": 6,
+      "trips": 7200,
+      "year": 2018
+    },
+    {
+      "dow": 7,
+      "trips": 7251,
+      "year": 2018
+    },
+    {
+      "dow": 1,
+      "trips": 2929,
+      "year": 2019
+    },
+    {
+      "dow": 2,
+      "trips": 2794,
+      "year": 2019
+    },
+    {
+      "dow": 3,
+      "trips": 2912,
+      "year": 2019
+    },
+    {
+      "dow": 4,
+      "trips": 2781,
+      "year": 2019
+    },
+    {
+      "dow": 5,
+      "trips": 2766,
+      "year": 2019
+    },
+    {
+      "dow": 6,
+      "trips": 3888,
+      "year": 2019
+    },
+    {
+      "dow": 7,
+      "trips": 3086,
+      "year": 2019
+    },
+    {
+      "dow": 1,
+      "trips": 5791,
+      "year": 2020
+    },
+    {
+      "dow": 2,
+      "trips": 5399,
+      "year": 2020
+    },
+    {
+      "dow": 3,
+      "trips": 5434,
+      "year": 2020
+    },
+    {
+      "dow": 4,
+      "trips": 5099,
+      "year": 2020
+    },
+    {
+      "dow": 5,
+      "trips": 6242,
+      "year": 2020
+    },
+    {
+      "dow": 6,
+      "trips": 12172,
+      "year": 2020
+    },
+    {
+      "dow": 7,
+      "trips": 9815,
+      "year": 2020
+    },
+    {
+      "dow": 1,
+      "trips": 4970,
+      "year": 2021
+    },
+    {
+      "dow": 2,
+      "trips": 4843,
+      "year": 2021
+    },
+    {
+      "dow": 3,
+      "trips": 5033,
+      "year": 2021
+    },
+    {
+      "dow": 4,
+      "trips": 4406,
+      "year": 2021
+    },
+    {
+      "dow": 5,
+      "trips": 5985,
+      "year": 2021
+    },
+    {
+      "dow": 6,
+      "trips": 10404,
+      "year": 2021
+    },
+    {
+      "dow": 7,
+      "trips": 7967,
+      "year": 2021
+    },
+    {
+      "dow": 1,
+      "trips": 5956,
+      "year": 2022
+    },
+    {
+      "dow": 2,
+      "trips": 6221,
+      "year": 2022
+    },
+    {
+      "dow": 3,
+      "trips": 6487,
+      "year": 2022
+    },
+    {
+      "dow": 4,
+      "trips": 6436,
+      "year": 2022
+    },
+    {
+      "dow": 5,
+      "trips": 7960,
+      "year": 2022
+    },
+    {
+      "dow": 6,
+      "trips": 11654,
+      "year": 2022
+    },
+    {
+      "dow": 7,
+      "trips": 9009,
+      "year": 2022
+    },
+    {
+      "dow": 1,
+      "trips": 7291,
+      "year": 2023
+    },
+    {
+      "dow": 2,
+      "trips": 8017,
+      "year": 2023
+    },
+    {
+      "dow": 3,
+      "trips": 8712,
+      "year": 2023
+    },
+    {
+      "dow": 4,
+      "trips": 8345,
+      "year": 2023
+    },
+    {
+      "dow": 5,
+      "trips": 9115,
+      "year": 2023
+    },
+    {
+      "dow": 6,
+      "trips": 14239,
+      "year": 2023
+    },
+    {
+      "dow": 7,
+      "trips": 10034,
+      "year": 2023
+    },
+    {
+      "dow": 1,
+      "trips": 7621,
+      "year": 2024
+    },
+    {
+      "dow": 2,
+      "trips": 7601,
+      "year": 2024
+    },
+    {
+      "dow": 3,
+      "trips": 7439,
+      "year": 2024
+    },
+    {
+      "dow": 4,
+      "trips": 7754,
+      "year": 2024
+    },
+    {
+      "dow": 5,
+      "trips": 8540,
+      "year": 2024
+    },
+    {
+      "dow": 6,
+      "trips": 13624,
+      "year": 2024
+    },
+    {
+      "dow": 7,
+      "trips": 10143,
+      "year": 2024
+    },
+    {
+      "dow": 1,
+      "trips": 260,
+      "year": 2025
+    },
+    {
+      "dow": 2,
+      "trips": 302,
+      "year": 2025
+    },
+    {
+      "dow": 3,
+      "trips": 293,
+      "year": 2025
+    },
+    {
+      "dow": 4,
+      "trips": 327,
+      "year": 2025
+    },
+    {
+      "dow": 5,
+      "trips": 308,
+      "year": 2025
+    },
+    {
+      "dow": 6,
+      "trips": 261,
+      "year": 2025
+    },
+    {
+      "dow": 7,
+      "trips": 220,
+      "year": 2025
+    }
+  ],
+  "by_hour": [
+    {
+      "hour": 0,
+      "trips": 450,
+      "year": 2013
+    },
+    {
+      "hour": 1,
+      "trips": 270,
+      "year": 2013
+    },
+    {
+      "hour": 2,
+      "trips": 271,
+      "year": 2013
+    },
+    {
+      "hour": 3,
+      "trips": 142,
+      "year": 2013
+    },
+    {
+      "hour": 4,
+      "trips": 94,
+      "year": 2013
+    },
+    {
+      "hour": 5,
+      "trips": 143,
+      "year": 2013
+    },
+    {
+      "hour": 6,
+      "trips": 274,
+      "year": 2013
+    },
+    {
+      "hour": 7,
+      "trips": 613,
+      "year": 2013
+    },
+    {
+      "hour": 8,
+      "trips": 780,
+      "year": 2013
+    },
+    {
+      "hour": 9,
+      "trips": 821,
+      "year": 2013
+    },
+    {
+      "hour": 10,
+      "trips": 929,
+      "year": 2013
+    },
+    {
+      "hour": 11,
+      "trips": 1531,
+      "year": 2013
+    },
+    {
+      "hour": 12,
+      "trips": 2295,
+      "year": 2013
+    },
+    {
+      "hour": 13,
+      "trips": 2218,
+      "year": 2013
+    },
+    {
+      "hour": 14,
+      "trips": 2098,
+      "year": 2013
+    },
+    {
+      "hour": 15,
+      "trips": 2370,
+      "year": 2013
+    },
+    {
+      "hour": 16,
+      "trips": 2305,
+      "year": 2013
+    },
+    {
+      "hour": 17,
+      "trips": 2282,
+      "year": 2013
+    },
+    {
+      "hour": 18,
+      "trips": 1924,
+      "year": 2013
+    },
+    {
+      "hour": 19,
+      "trips": 1878,
+      "year": 2013
+    },
+    {
+      "hour": 20,
+      "trips": 1520,
+      "year": 2013
+    },
+    {
+      "hour": 21,
+      "trips": 1222,
+      "year": 2013
+    },
+    {
+      "hour": 22,
+      "trips": 842,
+      "year": 2013
+    },
+    {
+      "hour": 23,
+      "trips": 636,
+      "year": 2013
+    },
+    {
+      "hour": 0,
+      "trips": 857,
+      "year": 2014
+    },
+    {
+      "hour": 1,
+      "trips": 457,
+      "year": 2014
+    },
+    {
+      "hour": 2,
+      "trips": 407,
+      "year": 2014
+    },
+    {
+      "hour": 3,
+      "trips": 360,
+      "year": 2014
+    },
+    {
+      "hour": 4,
+      "trips": 102,
+      "year": 2014
+    },
+    {
+      "hour": 5,
+      "trips": 180,
+      "year": 2014
+    },
+    {
+      "hour": 6,
+      "trips": 606,
+      "year": 2014
+    },
+    {
+      "hour": 7,
+      "trips": 1005,
+      "year": 2014
+    },
+    {
+      "hour": 8,
+      "trips": 1136,
+      "year": 2014
+    },
+    {
+      "hour": 9,
+      "trips": 1376,
+      "year": 2014
+    },
+    {
+      "hour": 10,
+      "trips": 1519,
+      "year": 2014
+    },
+    {
+      "hour": 11,
+      "trips": 2254,
+      "year": 2014
+    },
+    {
+      "hour": 12,
+      "trips": 2814,
+      "year": 2014
+    },
+    {
+      "hour": 13,
+      "trips": 3082,
+      "year": 2014
+    },
+    {
+      "hour": 14,
+      "trips": 3313,
+      "year": 2014
+    },
+    {
+      "hour": 15,
+      "trips": 3854,
+      "year": 2014
+    },
+    {
+      "hour": 16,
+      "trips": 3553,
+      "year": 2014
+    },
+    {
+      "hour": 17,
+      "trips": 3742,
+      "year": 2014
+    },
+    {
+      "hour": 18,
+      "trips": 3262,
+      "year": 2014
+    },
+    {
+      "hour": 19,
+      "trips": 3027,
+      "year": 2014
+    },
+    {
+      "hour": 20,
+      "trips": 2507,
+      "year": 2014
+    },
+    {
+      "hour": 21,
+      "trips": 2096,
+      "year": 2014
+    },
+    {
+      "hour": 22,
+      "trips": 1865,
+      "year": 2014
+    },
+    {
+      "hour": 23,
+      "trips": 1465,
+      "year": 2014
+    },
+    {
+      "hour": 0,
+      "trips": 899,
+      "year": 2015
+    },
+    {
+      "hour": 1,
+      "trips": 592,
+      "year": 2015
+    },
+    {
+      "hour": 2,
+      "trips": 420,
+      "year": 2015
+    },
+    {
+      "hour": 3,
+      "trips": 297,
+      "year": 2015
+    },
+    {
+      "hour": 4,
+      "trips": 107,
+      "year": 2015
+    },
+    {
+      "hour": 5,
+      "trips": 128,
+      "year": 2015
+    },
+    {
+      "hour": 6,
+      "trips": 477,
+      "year": 2015
+    },
+    {
+      "hour": 7,
+      "trips": 860,
+      "year": 2015
+    },
+    {
+      "hour": 8,
+      "trips": 935,
+      "year": 2015
+    },
+    {
+      "hour": 9,
+      "trips": 1094,
+      "year": 2015
+    },
+    {
+      "hour": 10,
+      "trips": 1532,
+      "year": 2015
+    },
+    {
+      "hour": 11,
+      "trips": 2201,
+      "year": 2015
+    },
+    {
+      "hour": 12,
+      "trips": 2804,
+      "year": 2015
+    },
+    {
+      "hour": 13,
+      "trips": 3198,
+      "year": 2015
+    },
+    {
+      "hour": 14,
+      "trips": 3289,
+      "year": 2015
+    },
+    {
+      "hour": 15,
+      "trips": 3589,
+      "year": 2015
+    },
+    {
+      "hour": 16,
+      "trips": 3562,
+      "year": 2015
+    },
+    {
+      "hour": 17,
+      "trips": 3490,
+      "year": 2015
+    },
+    {
+      "hour": 18,
+      "trips": 3059,
+      "year": 2015
+    },
+    {
+      "hour": 19,
+      "trips": 2780,
+      "year": 2015
+    },
+    {
+      "hour": 20,
+      "trips": 2239,
+      "year": 2015
+    },
+    {
+      "hour": 21,
+      "trips": 1899,
+      "year": 2015
+    },
+    {
+      "hour": 22,
+      "trips": 1819,
+      "year": 2015
+    },
+    {
+      "hour": 23,
+      "trips": 1347,
+      "year": 2015
+    },
+    {
+      "hour": 0,
+      "trips": 826,
+      "year": 2016
+    },
+    {
+      "hour": 1,
+      "trips": 609,
+      "year": 2016
+    },
+    {
+      "hour": 2,
+      "trips": 346,
+      "year": 2016
+    },
+    {
+      "hour": 3,
+      "trips": 208,
+      "year": 2016
+    },
+    {
+      "hour": 4,
+      "trips": 97,
+      "year": 2016
+    },
+    {
+      "hour": 5,
+      "trips": 170,
+      "year": 2016
+    },
+    {
+      "hour": 6,
+      "trips": 713,
+      "year": 2016
+    },
+    {
+      "hour": 7,
+      "trips": 1627,
+      "year": 2016
+    },
+    {
+      "hour": 8,
+      "trips": 1264,
+      "year": 2016
+    },
+    {
+      "hour": 9,
+      "trips": 1154,
+      "year": 2016
+    },
+    {
+      "hour": 10,
+      "trips": 1494,
+      "year": 2016
+    },
+    {
+      "hour": 11,
+      "trips": 2414,
+      "year": 2016
+    },
+    {
+      "hour": 12,
+      "trips": 3048,
+      "year": 2016
+    },
+    {
+      "hour": 13,
+      "trips": 3464,
+      "year": 2016
+    },
+    {
+      "hour": 14,
+      "trips": 3622,
+      "year": 2016
+    },
+    {
+      "hour": 15,
+      "trips": 3957,
+      "year": 2016
+    },
+    {
+      "hour": 16,
+      "trips": 3941,
+      "year": 2016
+    },
+    {
+      "hour": 17,
+      "trips": 4128,
+      "year": 2016
+    },
+    {
+      "hour": 18,
+      "trips": 3402,
+      "year": 2016
+    },
+    {
+      "hour": 19,
+      "trips": 3182,
+      "year": 2016
+    },
+    {
+      "hour": 20,
+      "trips": 2437,
+      "year": 2016
+    },
+    {
+      "hour": 21,
+      "trips": 1926,
+      "year": 2016
+    },
+    {
+      "hour": 22,
+      "trips": 1598,
+      "year": 2016
+    },
+    {
+      "hour": 23,
+      "trips": 1352,
+      "year": 2016
+    },
+    {
+      "hour": 0,
+      "trips": 800,
+      "year": 2017
+    },
+    {
+      "hour": 1,
+      "trips": 508,
+      "year": 2017
+    },
+    {
+      "hour": 2,
+      "trips": 323,
+      "year": 2017
+    },
+    {
+      "hour": 3,
+      "trips": 262,
+      "year": 2017
+    },
+    {
+      "hour": 4,
+      "trips": 86,
+      "year": 2017
+    },
+    {
+      "hour": 5,
+      "trips": 137,
+      "year": 2017
+    },
+    {
+      "hour": 6,
+      "trips": 818,
+      "year": 2017
+    },
+    {
+      "hour": 7,
+      "trips": 1929,
+      "year": 2017
+    },
+    {
+      "hour": 8,
+      "trips": 1679,
+      "year": 2017
+    },
+    {
+      "hour": 9,
+      "trips": 1584,
+      "year": 2017
+    },
+    {
+      "hour": 10,
+      "trips": 1778,
+      "year": 2017
+    },
+    {
+      "hour": 11,
+      "trips": 2626,
+      "year": 2017
+    },
+    {
+      "hour": 12,
+      "trips": 3584,
+      "year": 2017
+    },
+    {
+      "hour": 13,
+      "trips": 3813,
+      "year": 2017
+    },
+    {
+      "hour": 14,
+      "trips": 4015,
+      "year": 2017
+    },
+    {
+      "hour": 15,
+      "trips": 4586,
+      "year": 2017
+    },
+    {
+      "hour": 16,
+      "trips": 4539,
+      "year": 2017
+    },
+    {
+      "hour": 17,
+      "trips": 4966,
+      "year": 2017
+    },
+    {
+      "hour": 18,
+      "trips": 3700,
+      "year": 2017
+    },
+    {
+      "hour": 19,
+      "trips": 3097,
+      "year": 2017
+    },
+    {
+      "hour": 20,
+      "trips": 2604,
+      "year": 2017
+    },
+    {
+      "hour": 21,
+      "trips": 1983,
+      "year": 2017
+    },
+    {
+      "hour": 22,
+      "trips": 1590,
+      "year": 2017
+    },
+    {
+      "hour": 23,
+      "trips": 1198,
+      "year": 2017
+    },
+    {
+      "hour": 0,
+      "trips": 984,
+      "year": 2018
+    },
+    {
+      "hour": 1,
+      "trips": 709,
+      "year": 2018
+    },
+    {
+      "hour": 2,
+      "trips": 487,
+      "year": 2018
+    },
+    {
+      "hour": 3,
+      "trips": 248,
+      "year": 2018
+    },
+    {
+      "hour": 4,
+      "trips": 81,
+      "year": 2018
+    },
+    {
+      "hour": 5,
+      "trips": 92,
+      "year": 2018
+    },
+    {
+      "hour": 6,
+      "trips": 1378,
+      "year": 2018
+    },
+    {
+      "hour": 7,
+      "trips": 1766,
+      "year": 2018
+    },
+    {
+      "hour": 8,
+      "trips": 1496,
+      "year": 2018
+    },
+    {
+      "hour": 9,
+      "trips": 1095,
+      "year": 2018
+    },
+    {
+      "hour": 10,
+      "trips": 1363,
+      "year": 2018
+    },
+    {
+      "hour": 11,
+      "trips": 1877,
+      "year": 2018
+    },
+    {
+      "hour": 12,
+      "trips": 2564,
+      "year": 2018
+    },
+    {
+      "hour": 13,
+      "trips": 2609,
+      "year": 2018
+    },
+    {
+      "hour": 14,
+      "trips": 2476,
+      "year": 2018
+    },
+    {
+      "hour": 15,
+      "trips": 3170,
+      "year": 2018
+    },
+    {
+      "hour": 16,
+      "trips": 3400,
+      "year": 2018
+    },
+    {
+      "hour": 17,
+      "trips": 3322,
+      "year": 2018
+    },
+    {
+      "hour": 18,
+      "trips": 2713,
+      "year": 2018
+    },
+    {
+      "hour": 19,
+      "trips": 2294,
+      "year": 2018
+    },
+    {
+      "hour": 20,
+      "trips": 1896,
+      "year": 2018
+    },
+    {
+      "hour": 21,
+      "trips": 1739,
+      "year": 2018
+    },
+    {
+      "hour": 22,
+      "trips": 1650,
+      "year": 2018
+    },
+    {
+      "hour": 23,
+      "trips": 1307,
+      "year": 2018
+    },
+    {
+      "hour": 0,
+      "trips": 380,
+      "year": 2019
+    },
+    {
+      "hour": 1,
+      "trips": 216,
+      "year": 2019
+    },
+    {
+      "hour": 2,
+      "trips": 123,
+      "year": 2019
+    },
+    {
+      "hour": 3,
+      "trips": 91,
+      "year": 2019
+    },
+    {
+      "hour": 4,
+      "trips": 57,
+      "year": 2019
+    },
+    {
+      "hour": 5,
+      "trips": 35,
+      "year": 2019
+    },
+    {
+      "hour": 6,
+      "trips": 594,
+      "year": 2019
+    },
+    {
+      "hour": 7,
+      "trips": 1064,
+      "year": 2019
+    },
+    {
+      "hour": 8,
+      "trips": 857,
+      "year": 2019
+    },
+    {
+      "hour": 9,
+      "trips": 634,
+      "year": 2019
+    },
+    {
+      "hour": 10,
+      "trips": 725,
+      "year": 2019
+    },
+    {
+      "hour": 11,
+      "trips": 969,
+      "year": 2019
+    },
+    {
+      "hour": 12,
+      "trips": 1356,
+      "year": 2019
+    },
+    {
+      "hour": 13,
+      "trips": 1341,
+      "year": 2019
+    },
+    {
+      "hour": 14,
+      "trips": 1455,
+      "year": 2019
+    },
+    {
+      "hour": 15,
+      "trips": 1849,
+      "year": 2019
+    },
+    {
+      "hour": 16,
+      "trips": 2053,
+      "year": 2019
+    },
+    {
+      "hour": 17,
+      "trips": 1992,
+      "year": 2019
+    },
+    {
+      "hour": 18,
+      "trips": 1497,
+      "year": 2019
+    },
+    {
+      "hour": 19,
+      "trips": 1207,
+      "year": 2019
+    },
+    {
+      "hour": 20,
+      "trips": 857,
+      "year": 2019
+    },
+    {
+      "hour": 21,
+      "trips": 709,
+      "year": 2019
+    },
+    {
+      "hour": 22,
+      "trips": 563,
+      "year": 2019
+    },
+    {
+      "hour": 23,
+      "trips": 532,
+      "year": 2019
+    },
+    {
+      "hour": 0,
+      "trips": 1518,
+      "year": 2020
+    },
+    {
+      "hour": 1,
+      "trips": 899,
+      "year": 2020
+    },
+    {
+      "hour": 2,
+      "trips": 442,
+      "year": 2020
+    },
+    {
+      "hour": 3,
+      "trips": 292,
+      "year": 2020
+    },
+    {
+      "hour": 4,
+      "trips": 215,
+      "year": 2020
+    },
+    {
+      "hour": 5,
+      "trips": 100,
+      "year": 2020
+    },
+    {
+      "hour": 6,
+      "trips": 429,
+      "year": 2020
+    },
+    {
+      "hour": 7,
+      "trips": 957,
+      "year": 2020
+    },
+    {
+      "hour": 8,
+      "trips": 989,
+      "year": 2020
+    },
+    {
+      "hour": 9,
+      "trips": 1084,
+      "year": 2020
+    },
+    {
+      "hour": 10,
+      "trips": 1718,
+      "year": 2020
+    },
+    {
+      "hour": 11,
+      "trips": 2146,
+      "year": 2020
+    },
+    {
+      "hour": 12,
+      "trips": 2726,
+      "year": 2020
+    },
+    {
+      "hour": 13,
+      "trips": 3143,
+      "year": 2020
+    },
+    {
+      "hour": 14,
+      "trips": 3506,
+      "year": 2020
+    },
+    {
+      "hour": 15,
+      "trips": 3552,
+      "year": 2020
+    },
+    {
+      "hour": 16,
+      "trips": 3831,
+      "year": 2020
+    },
+    {
+      "hour": 17,
+      "trips": 4189,
+      "year": 2020
+    },
+    {
+      "hour": 18,
+      "trips": 4072,
+      "year": 2020
+    },
+    {
+      "hour": 19,
+      "trips": 3871,
+      "year": 2020
+    },
+    {
+      "hour": 20,
+      "trips": 3262,
+      "year": 2020
+    },
+    {
+      "hour": 21,
+      "trips": 2500,
+      "year": 2020
+    },
+    {
+      "hour": 22,
+      "trips": 2481,
+      "year": 2020
+    },
+    {
+      "hour": 23,
+      "trips": 2030,
+      "year": 2020
+    },
+    {
+      "hour": 0,
+      "trips": 1009,
+      "year": 2021
+    },
+    {
+      "hour": 1,
+      "trips": 691,
+      "year": 2021
+    },
+    {
+      "hour": 2,
+      "trips": 502,
+      "year": 2021
+    },
+    {
+      "hour": 3,
+      "trips": 161,
+      "year": 2021
+    },
+    {
+      "hour": 4,
+      "trips": 131,
+      "year": 2021
+    },
+    {
+      "hour": 5,
+      "trips": 369,
+      "year": 2021
+    },
+    {
+      "hour": 6,
+      "trips": 394,
+      "year": 2021
+    },
+    {
+      "hour": 7,
+      "trips": 1007,
+      "year": 2021
+    },
+    {
+      "hour": 8,
+      "trips": 1135,
+      "year": 2021
+    },
+    {
+      "hour": 9,
+      "trips": 1317,
+      "year": 2021
+    },
+    {
+      "hour": 10,
+      "trips": 1667,
+      "year": 2021
+    },
+    {
+      "hour": 11,
+      "trips": 2074,
+      "year": 2021
+    },
+    {
+      "hour": 12,
+      "trips": 2517,
+      "year": 2021
+    },
+    {
+      "hour": 13,
+      "trips": 2917,
+      "year": 2021
+    },
+    {
+      "hour": 14,
+      "trips": 3105,
+      "year": 2021
+    },
+    {
+      "hour": 15,
+      "trips": 3179,
+      "year": 2021
+    },
+    {
+      "hour": 16,
+      "trips": 3662,
+      "year": 2021
+    },
+    {
+      "hour": 17,
+      "trips": 3960,
+      "year": 2021
+    },
+    {
+      "hour": 18,
+      "trips": 3699,
+      "year": 2021
+    },
+    {
+      "hour": 19,
+      "trips": 2961,
+      "year": 2021
+    },
+    {
+      "hour": 20,
+      "trips": 2405,
+      "year": 2021
+    },
+    {
+      "hour": 21,
+      "trips": 1854,
+      "year": 2021
+    },
+    {
+      "hour": 22,
+      "trips": 1560,
+      "year": 2021
+    },
+    {
+      "hour": 23,
+      "trips": 1332,
+      "year": 2021
+    },
+    {
+      "hour": 0,
+      "trips": 1116,
+      "year": 2022
+    },
+    {
+      "hour": 1,
+      "trips": 672,
+      "year": 2022
+    },
+    {
+      "hour": 2,
+      "trips": 575,
+      "year": 2022
+    },
+    {
+      "hour": 3,
+      "trips": 252,
+      "year": 2022
+    },
+    {
+      "hour": 4,
+      "trips": 161,
+      "year": 2022
+    },
+    {
+      "hour": 5,
+      "trips": 158,
+      "year": 2022
+    },
+    {
+      "hour": 6,
+      "trips": 536,
+      "year": 2022
+    },
+    {
+      "hour": 7,
+      "trips": 1141,
+      "year": 2022
+    },
+    {
+      "hour": 8,
+      "trips": 1610,
+      "year": 2022
+    },
+    {
+      "hour": 9,
+      "trips": 1702,
+      "year": 2022
+    },
+    {
+      "hour": 10,
+      "trips": 2149,
+      "year": 2022
+    },
+    {
+      "hour": 11,
+      "trips": 2544,
+      "year": 2022
+    },
+    {
+      "hour": 12,
+      "trips": 2957,
+      "year": 2022
+    },
+    {
+      "hour": 13,
+      "trips": 3283,
+      "year": 2022
+    },
+    {
+      "hour": 14,
+      "trips": 3631,
+      "year": 2022
+    },
+    {
+      "hour": 15,
+      "trips": 4111,
+      "year": 2022
+    },
+    {
+      "hour": 16,
+      "trips": 4465,
+      "year": 2022
+    },
+    {
+      "hour": 17,
+      "trips": 4568,
+      "year": 2022
+    },
+    {
+      "hour": 18,
+      "trips": 4731,
+      "year": 2022
+    },
+    {
+      "hour": 19,
+      "trips": 3964,
+      "year": 2022
+    },
+    {
+      "hour": 20,
+      "trips": 2927,
+      "year": 2022
+    },
+    {
+      "hour": 21,
+      "trips": 2507,
+      "year": 2022
+    },
+    {
+      "hour": 22,
+      "trips": 2213,
+      "year": 2022
+    },
+    {
+      "hour": 23,
+      "trips": 1750,
+      "year": 2022
+    },
+    {
+      "hour": 0,
+      "trips": 1080,
+      "year": 2023
+    },
+    {
+      "hour": 1,
+      "trips": 777,
+      "year": 2023
+    },
+    {
+      "hour": 2,
+      "trips": 569,
+      "year": 2023
+    },
+    {
+      "hour": 3,
+      "trips": 193,
+      "year": 2023
+    },
+    {
+      "hour": 4,
+      "trips": 174,
+      "year": 2023
+    },
+    {
+      "hour": 5,
+      "trips": 246,
+      "year": 2023
+    },
+    {
+      "hour": 6,
+      "trips": 536,
+      "year": 2023
+    },
+    {
+      "hour": 7,
+      "trips": 1471,
+      "year": 2023
+    },
+    {
+      "hour": 8,
+      "trips": 2274,
+      "year": 2023
+    },
+    {
+      "hour": 9,
+      "trips": 2566,
+      "year": 2023
+    },
+    {
+      "hour": 10,
+      "trips": 2595,
+      "year": 2023
+    },
+    {
+      "hour": 11,
+      "trips": 3042,
+      "year": 2023
+    },
+    {
+      "hour": 12,
+      "trips": 3739,
+      "year": 2023
+    },
+    {
+      "hour": 13,
+      "trips": 3971,
+      "year": 2023
+    },
+    {
+      "hour": 14,
+      "trips": 4131,
+      "year": 2023
+    },
+    {
+      "hour": 15,
+      "trips": 4778,
+      "year": 2023
+    },
+    {
+      "hour": 16,
+      "trips": 5274,
+      "year": 2023
+    },
+    {
+      "hour": 17,
+      "trips": 6070,
+      "year": 2023
+    },
+    {
+      "hour": 18,
+      "trips": 6015,
+      "year": 2023
+    },
+    {
+      "hour": 19,
+      "trips": 5060,
+      "year": 2023
+    },
+    {
+      "hour": 20,
+      "trips": 3557,
+      "year": 2023
+    },
+    {
+      "hour": 21,
+      "trips": 3114,
+      "year": 2023
+    },
+    {
+      "hour": 22,
+      "trips": 2528,
+      "year": 2023
+    },
+    {
+      "hour": 23,
+      "trips": 1993,
+      "year": 2023
+    },
+    {
+      "hour": 0,
+      "trips": 1029,
+      "year": 2024
+    },
+    {
+      "hour": 1,
+      "trips": 641,
+      "year": 2024
+    },
+    {
+      "hour": 2,
+      "trips": 506,
+      "year": 2024
+    },
+    {
+      "hour": 3,
+      "trips": 183,
+      "year": 2024
+    },
+    {
+      "hour": 4,
+      "trips": 138,
+      "year": 2024
+    },
+    {
+      "hour": 5,
+      "trips": 293,
+      "year": 2024
+    },
+    {
+      "hour": 6,
+      "trips": 670,
+      "year": 2024
+    },
+    {
+      "hour": 7,
+      "trips": 1477,
+      "year": 2024
+    },
+    {
+      "hour": 8,
+      "trips": 2194,
+      "year": 2024
+    },
+    {
+      "hour": 9,
+      "trips": 2377,
+      "year": 2024
+    },
+    {
+      "hour": 10,
+      "trips": 2582,
+      "year": 2024
+    },
+    {
+      "hour": 11,
+      "trips": 3211,
+      "year": 2024
+    },
+    {
+      "hour": 12,
+      "trips": 3649,
+      "year": 2024
+    },
+    {
+      "hour": 13,
+      "trips": 3857,
+      "year": 2024
+    },
+    {
+      "hour": 14,
+      "trips": 3667,
+      "year": 2024
+    },
+    {
+      "hour": 15,
+      "trips": 4323,
+      "year": 2024
+    },
+    {
+      "hour": 16,
+      "trips": 5161,
+      "year": 2024
+    },
+    {
+      "hour": 17,
+      "trips": 5671,
+      "year": 2024
+    },
+    {
+      "hour": 18,
+      "trips": 5686,
+      "year": 2024
+    },
+    {
+      "hour": 19,
+      "trips": 4685,
+      "year": 2024
+    },
+    {
+      "hour": 20,
+      "trips": 3595,
+      "year": 2024
+    },
+    {
+      "hour": 21,
+      "trips": 3205,
+      "year": 2024
+    },
+    {
+      "hour": 22,
+      "trips": 2387,
+      "year": 2024
+    },
+    {
+      "hour": 23,
+      "trips": 1535,
+      "year": 2024
+    },
+    {
+      "hour": 0,
+      "trips": 44,
+      "year": 2025
+    },
+    {
+      "hour": 1,
+      "trips": 26,
+      "year": 2025
+    },
+    {
+      "hour": 2,
+      "trips": 28,
+      "year": 2025
+    },
+    {
+      "hour": 3,
+      "trips": 4,
+      "year": 2025
+    },
+    {
+      "hour": 4,
+      "trips": 4,
+      "year": 2025
+    },
+    {
+      "hour": 5,
+      "trips": 34,
+      "year": 2025
+    },
+    {
+      "hour": 6,
+      "trips": 72,
+      "year": 2025
+    },
+    {
+      "hour": 7,
+      "trips": 52,
+      "year": 2025
+    },
+    {
+      "hour": 8,
+      "trips": 101,
+      "year": 2025
+    },
+    {
+      "hour": 9,
+      "trips": 56,
+      "year": 2025
+    },
+    {
+      "hour": 10,
+      "trips": 69,
+      "year": 2025
+    },
+    {
+      "hour": 11,
+      "trips": 91,
+      "year": 2025
+    },
+    {
+      "hour": 12,
+      "trips": 102,
+      "year": 2025
+    },
+    {
+      "hour": 13,
+      "trips": 94,
+      "year": 2025
+    },
+    {
+      "hour": 14,
+      "trips": 125,
+      "year": 2025
+    },
+    {
+      "hour": 15,
+      "trips": 131,
+      "year": 2025
+    },
+    {
+      "hour": 16,
+      "trips": 208,
+      "year": 2025
+    },
+    {
+      "hour": 17,
+      "trips": 176,
+      "year": 2025
+    },
+    {
+      "hour": 18,
+      "trips": 155,
+      "year": 2025
+    },
+    {
+      "hour": 19,
+      "trips": 109,
+      "year": 2025
+    },
+    {
+      "hour": 20,
+      "trips": 86,
+      "year": 2025
+    },
+    {
+      "hour": 21,
+      "trips": 76,
+      "year": 2025
+    },
+    {
+      "hour": 22,
+      "trips": 75,
+      "year": 2025
+    },
+    {
+      "hour": 23,
+      "trips": 53,
+      "year": 2025
+    }
+  ],
+  "duration_bands": [
+    {
+      "band": "<5",
+      "share": 0.0961,
+      "trips": 2681,
+      "year": 2013
+    },
+    {
+      "band": "5-15",
+      "share": 0.4335,
+      "trips": 12099,
+      "year": 2013
+    },
+    {
+      "band": "15-30",
+      "share": 0.3258,
+      "trips": 9092,
+      "year": 2013
+    },
+    {
+      "band": "30-60",
+      "share": 0.0884,
+      "trips": 2468,
+      "year": 2013
+    },
+    {
+      "band": "60+",
+      "share": 0.0562,
+      "trips": 1568,
+      "year": 2013
+    },
+    {
+      "band": "<5",
+      "share": 0.119,
+      "trips": 5337,
+      "year": 2014
+    },
+    {
+      "band": "5-15",
+      "share": 0.4518,
+      "trips": 20257,
+      "year": 2014
+    },
+    {
+      "band": "15-30",
+      "share": 0.2921,
+      "trips": 13098,
+      "year": 2014
+    },
+    {
+      "band": "30-60",
+      "share": 0.081,
+      "trips": 3634,
+      "year": 2014
+    },
+    {
+      "band": "60+",
+      "share": 0.056,
+      "trips": 2513,
+      "year": 2014
+    },
+    {
+      "band": "<5",
+      "share": 0.0957,
+      "trips": 4078,
+      "year": 2015
+    },
+    {
+      "band": "5-15",
+      "share": 0.3999,
+      "trips": 17044,
+      "year": 2015
+    },
+    {
+      "band": "15-30",
+      "share": 0.3294,
+      "trips": 14037,
+      "year": 2015
+    },
+    {
+      "band": "30-60",
+      "share": 0.1083,
+      "trips": 4615,
+      "year": 2015
+    },
+    {
+      "band": "60+",
+      "share": 0.0667,
+      "trips": 2843,
+      "year": 2015
+    },
+    {
+      "band": "<5",
+      "share": 0.0966,
+      "trips": 4538,
+      "year": 2016
+    },
+    {
+      "band": "5-15",
+      "share": 0.3995,
+      "trips": 18769,
+      "year": 2016
+    },
+    {
+      "band": "15-30",
+      "share": 0.3119,
+      "trips": 14653,
+      "year": 2016
+    },
+    {
+      "band": "30-60",
+      "share": 0.113,
+      "trips": 5307,
+      "year": 2016
+    },
+    {
+      "band": "60+",
+      "share": 0.079,
+      "trips": 3712,
+      "year": 2016
+    },
+    {
+      "band": "<5",
+      "share": 0.1074,
+      "trips": 5609,
+      "year": 2017
+    },
+    {
+      "band": "5-15",
+      "share": 0.3808,
+      "trips": 19880,
+      "year": 2017
+    },
+    {
+      "band": "15-30",
+      "share": 0.2968,
+      "trips": 15492,
+      "year": 2017
+    },
+    {
+      "band": "30-60",
+      "share": 0.1145,
+      "trips": 5979,
+      "year": 2017
+    },
+    {
+      "band": "60+",
+      "share": 0.1005,
+      "trips": 5245,
+      "year": 2017
+    },
+    {
+      "band": "<5",
+      "share": 0.1534,
+      "trips": 6247,
+      "year": 2018
+    },
+    {
+      "band": "5-15",
+      "share": 0.3815,
+      "trips": 15534,
+      "year": 2018
+    },
+    {
+      "band": "15-30",
+      "share": 0.2468,
+      "trips": 10047,
+      "year": 2018
+    },
+    {
+      "band": "30-60",
+      "share": 0.1154,
+      "trips": 4700,
+      "year": 2018
+    },
+    {
+      "band": "60+",
+      "share": 0.1029,
+      "trips": 4188,
+      "year": 2018
+    },
+    {
+      "band": "<5",
+      "share": 0.1424,
+      "trips": 3012,
+      "year": 2019
+    },
+    {
+      "band": "5-15",
+      "share": 0.3988,
+      "trips": 8438,
+      "year": 2019
+    },
+    {
+      "band": "15-30",
+      "share": 0.252,
+      "trips": 5332,
+      "year": 2019
+    },
+    {
+      "band": "30-60",
+      "share": 0.1164,
+      "trips": 2463,
+      "year": 2019
+    },
+    {
+      "band": "60+",
+      "share": 0.0903,
+      "trips": 1911,
+      "year": 2019
+    },
+    {
+      "band": "<5",
+      "share": 0.0834,
+      "trips": 4152,
+      "year": 2020
+    },
+    {
+      "band": "5-15",
+      "share": 0.2269,
+      "trips": 11296,
+      "year": 2020
+    },
+    {
+      "band": "15-30",
+      "share": 0.2596,
+      "trips": 12927,
+      "year": 2020
+    },
+    {
+      "band": "30-60",
+      "share": 0.2508,
+      "trips": 12488,
+      "year": 2020
+    },
+    {
+      "band": "60+",
+      "share": 0.1793,
+      "trips": 8930,
+      "year": 2020
+    },
+    {
+      "band": "<5",
+      "share": 0.1211,
+      "trips": 5281,
+      "year": 2021
+    },
+    {
+      "band": "5-15",
+      "share": 0.3419,
+      "trips": 14908,
+      "year": 2021
+    },
+    {
+      "band": "15-30",
+      "share": 0.2547,
+      "trips": 11105,
+      "year": 2021
+    },
+    {
+      "band": "30-60",
+      "share": 0.182,
+      "trips": 7936,
+      "year": 2021
+    },
+    {
+      "band": "60+",
+      "share": 0.1004,
+      "trips": 4377,
+      "year": 2021
+    },
+    {
+      "band": "<5",
+      "share": 0.1362,
+      "trips": 7317,
+      "year": 2022
+    },
+    {
+      "band": "5-15",
+      "share": 0.3937,
+      "trips": 21153,
+      "year": 2022
+    },
+    {
+      "band": "15-30",
+      "share": 0.2429,
+      "trips": 13047,
+      "year": 2022
+    },
+    {
+      "band": "30-60",
+      "share": 0.151,
+      "trips": 8113,
+      "year": 2022
+    },
+    {
+      "band": "60+",
+      "share": 0.0762,
+      "trips": 4093,
+      "year": 2022
+    },
+    {
+      "band": "<5",
+      "share": 0.1468,
+      "trips": 9650,
+      "year": 2023
+    },
+    {
+      "band": "5-15",
+      "share": 0.4405,
+      "trips": 28966,
+      "year": 2023
+    },
+    {
+      "band": "15-30",
+      "share": 0.2306,
+      "trips": 15159,
+      "year": 2023
+    },
+    {
+      "band": "30-60",
+      "share": 0.1271,
+      "trips": 8357,
+      "year": 2023
+    },
+    {
+      "band": "60+",
+      "share": 0.055,
+      "trips": 3619,
+      "year": 2023
+    },
+    {
+      "band": "<5",
+      "share": 0.1451,
+      "trips": 9099,
+      "year": 2024
+    },
+    {
+      "band": "5-15",
+      "share": 0.4533,
+      "trips": 28429,
+      "year": 2024
+    },
+    {
+      "band": "15-30",
+      "share": 0.2258,
+      "trips": 14165,
+      "year": 2024
+    },
+    {
+      "band": "30-60",
+      "share": 0.12,
+      "trips": 7524,
+      "year": 2024
+    },
+    {
+      "band": "60+",
+      "share": 0.0559,
+      "trips": 3504,
+      "year": 2024
+    },
+    {
+      "band": "<5",
+      "share": 0.2126,
+      "trips": 419,
+      "year": 2025
+    },
+    {
+      "band": "5-15",
+      "share": 0.5424,
+      "trips": 1069,
+      "year": 2025
+    },
+    {
+      "band": "15-30",
+      "share": 0.1659,
+      "trips": 327,
+      "year": 2025
+    },
+    {
+      "band": "30-60",
+      "share": 0.0533,
+      "trips": 105,
+      "year": 2025
+    },
+    {
+      "band": "60+",
+      "share": 0.0259,
+      "trips": 51,
+      "year": 2025
+    }
+  ],
+  "round_trip_share": [
+    {
+      "round_trip_share": 0.1307,
+      "round_trips": 3648,
+      "trips": 27908,
+      "year": 2013
+    },
+    {
+      "round_trip_share": 0.1444,
+      "round_trips": 6475,
+      "trips": 44839,
+      "year": 2014
+    },
+    {
+      "round_trip_share": 0.1659,
+      "round_trips": 7071,
+      "trips": 42617,
+      "year": 2015
+    },
+    {
+      "round_trip_share": 0.1671,
+      "round_trips": 7850,
+      "trips": 46979,
+      "year": 2016
+    },
+    {
+      "round_trip_share": 0.1826,
+      "round_trips": 9535,
+      "trips": 52205,
+      "year": 2017
+    },
+    {
+      "round_trip_share": 0.2049,
+      "round_trips": 8344,
+      "trips": 40716,
+      "year": 2018
+    },
+    {
+      "round_trip_share": 0.1792,
+      "round_trips": 3791,
+      "trips": 21156,
+      "year": 2019
+    },
+    {
+      "round_trip_share": 0.402,
+      "round_trips": 20082,
+      "trips": 49952,
+      "year": 2020
+    },
+    {
+      "round_trip_share": 0.2531,
+      "round_trips": 11038,
+      "trips": 43608,
+      "year": 2021
+    },
+    {
+      "round_trip_share": 0.1825,
+      "round_trips": 9807,
+      "trips": 53723,
+      "year": 2022
+    },
+    {
+      "round_trip_share": 0.1574,
+      "round_trips": 10351,
+      "trips": 65753,
+      "year": 2023
+    },
+    {
+      "round_trip_share": 0.1396,
+      "round_trips": 8754,
+      "trips": 62722,
+      "year": 2024
+    },
+    {
+      "round_trip_share": 0.0629,
+      "round_trips": 124,
+      "trips": 1971,
+      "year": 2025
+    }
+  ],
+  "stations": [
+    {
+      "end_trips": 2118,
+      "start_trips": 2015,
+      "station": "Bicentennial Park",
+      "total_trips": 4133,
+      "year": 2013
+    },
+    {
+      "end_trips": 1877,
+      "start_trips": 1716,
+      "station": "High St & Warren",
+      "total_trips": 3593,
+      "year": 2013
+    },
+    {
+      "end_trips": 1754,
+      "start_trips": 1604,
+      "station": "High St & 2nd Ave",
+      "total_trips": 3358,
+      "year": 2013
+    },
+    {
+      "end_trips": 1582,
+      "start_trips": 1600,
+      "station": "3rd St & Gay St",
+      "total_trips": 3182,
+      "year": 2013
+    },
+    {
+      "end_trips": 1495,
+      "start_trips": 1417,
+      "station": "3rd St & Sycamore St",
+      "total_trips": 2912,
+      "year": 2013
+    },
+    {
+      "end_trips": 1471,
+      "start_trips": 1428,
+      "station": "Schiller Park - Stewart Ave",
+      "total_trips": 2899,
+      "year": 2013
+    },
+    {
+      "end_trips": 1330,
+      "start_trips": 1269,
+      "station": "Columbus Commons - Rich St",
+      "total_trips": 2599,
+      "year": 2013
+    },
+    {
+      "end_trips": 1280,
+      "start_trips": 1287,
+      "station": "High St & Broad St",
+      "total_trips": 2567,
+      "year": 2013
+    },
+    {
+      "end_trips": 1292,
+      "start_trips": 1266,
+      "station": "North Market",
+      "total_trips": 2558,
+      "year": 2013
+    },
+    {
+      "end_trips": 1246,
+      "start_trips": 1177,
+      "station": "Front St & Beck St",
+      "total_trips": 2423,
+      "year": 2013
+    },
+    {
+      "end_trips": 1135,
+      "start_trips": 1102,
+      "station": "Neil Ave & Buttles Ave",
+      "total_trips": 2237,
+      "year": 2013
+    },
+    {
+      "end_trips": 1024,
+      "start_trips": 1115,
+      "station": "Topiary Park - Town St",
+      "total_trips": 2139,
+      "year": 2013
+    },
+    {
+      "end_trips": 1042,
+      "start_trips": 1012,
+      "station": "COSI",
+      "total_trips": 2054,
+      "year": 2013
+    },
+    {
+      "end_trips": 969,
+      "start_trips": 953,
+      "station": "Sensenbrenner Park",
+      "total_trips": 1922,
+      "year": 2013
+    },
+    {
+      "end_trips": 861,
+      "start_trips": 873,
+      "station": "Columbus College of Art & Design",
+      "total_trips": 1734,
+      "year": 2013
+    },
+    {
+      "end_trips": 773,
+      "start_trips": 885,
+      "station": "Convention Center",
+      "total_trips": 1658,
+      "year": 2013
+    },
+    {
+      "end_trips": 740,
+      "start_trips": 883,
+      "station": "High St & Spring St",
+      "total_trips": 1623,
+      "year": 2013
+    },
+    {
+      "end_trips": 752,
+      "start_trips": 750,
+      "station": "Scioto Audubon Center",
+      "total_trips": 1502,
+      "year": 2013
+    },
+    {
+      "end_trips": 674,
+      "start_trips": 674,
+      "station": "Parsons Ave & Oak St",
+      "total_trips": 1348,
+      "year": 2013
+    },
+    {
+      "end_trips": 625,
+      "start_trips": 717,
+      "station": "City Hall",
+      "total_trips": 1342,
+      "year": 2013
+    },
+    {
+      "end_trips": 616,
+      "start_trips": 646,
+      "station": "Nationwide Arena - Front St",
+      "total_trips": 1262,
+      "year": 2013
+    },
+    {
+      "end_trips": 489,
+      "start_trips": 533,
+      "station": "Library - Main Branch",
+      "total_trips": 1022,
+      "year": 2013
+    },
+    {
+      "end_trips": 462,
+      "start_trips": 497,
+      "station": "Bank St & Frankfort St",
+      "total_trips": 959,
+      "year": 2013
+    },
+    {
+      "end_trips": 435,
+      "start_trips": 507,
+      "station": "Grant Ave & Main St",
+      "total_trips": 942,
+      "year": 2013
+    },
+    {
+      "end_trips": 406,
+      "start_trips": 393,
+      "station": "Kilbourne St & Vine St",
+      "total_trips": 799,
+      "year": 2013
+    },
+    {
+      "end_trips": 347,
+      "start_trips": 399,
+      "station": "Dorrian Commons - Mound St",
+      "total_trips": 746,
+      "year": 2013
+    },
+    {
+      "end_trips": 279,
+      "start_trips": 349,
+      "station": "Cleveland Ave & Mt Vernon Ave",
+      "total_trips": 628,
+      "year": 2013
+    },
+    {
+      "end_trips": 279,
+      "start_trips": 315,
+      "station": "Columbus Museum of Art",
+      "total_trips": 594,
+      "year": 2013
+    },
+    {
+      "end_trips": 306,
+      "start_trips": 270,
+      "station": "Neil Ave & Nationwide Blvd",
+      "total_trips": 576,
+      "year": 2013
+    },
+    {
+      "end_trips": 249,
+      "start_trips": 256,
+      "station": "Livingston Park",
+      "total_trips": 505,
+      "year": 2013
+    },
+    {
+      "end_trips": 3174,
+      "start_trips": 3024,
+      "station": "Bicentennial Park",
+      "total_trips": 6198,
+      "year": 2014
+    },
+    {
+      "end_trips": 2973,
+      "start_trips": 2603,
+      "station": "High St & Warren",
+      "total_trips": 5576,
+      "year": 2014
+    },
+    {
+      "end_trips": 2449,
+      "start_trips": 2750,
+      "station": "3rd St & Gay St",
+      "total_trips": 5199,
+      "year": 2014
+    },
+    {
+      "end_trips": 2597,
+      "start_trips": 2357,
+      "station": "High St & 2nd Ave",
+      "total_trips": 4954,
+      "year": 2014
+    },
+    {
+      "end_trips": 2197,
+      "start_trips": 2114,
+      "station": "North Market",
+      "total_trips": 4311,
+      "year": 2014
+    },
+    {
+      "end_trips": 2260,
+      "start_trips": 2035,
+      "station": "Columbus Commons - Rich St",
+      "total_trips": 4295,
+      "year": 2014
+    },
+    {
+      "end_trips": 2011,
+      "start_trips": 1933,
+      "station": "Neil Ave & Buttles Ave",
+      "total_trips": 3944,
+      "year": 2014
+    },
+    {
+      "end_trips": 1934,
+      "start_trips": 1987,
+      "station": "High St & Broad St",
+      "total_trips": 3921,
+      "year": 2014
+    },
+    {
+      "end_trips": 2037,
+      "start_trips": 1873,
+      "station": "Schiller Park - Stewart Ave",
+      "total_trips": 3910,
+      "year": 2014
+    },
+    {
+      "end_trips": 1944,
+      "start_trips": 1965,
+      "station": "3rd St & Sycamore St",
+      "total_trips": 3909,
+      "year": 2014
+    },
+    {
+      "end_trips": 1798,
+      "start_trips": 2059,
+      "station": "Topiary Park - Town St",
+      "total_trips": 3857,
+      "year": 2014
+    },
+    {
+      "end_trips": 1962,
+      "start_trips": 1701,
+      "station": "Front St & Beck St",
+      "total_trips": 3663,
+      "year": 2014
+    },
+    {
+      "end_trips": 1384,
+      "start_trips": 1612,
+      "station": "Nationwide Arena - Front St",
+      "total_trips": 2996,
+      "year": 2014
+    },
+    {
+      "end_trips": 1551,
+      "start_trips": 1420,
+      "station": "Neil Ave & Nationwide Blvd",
+      "total_trips": 2971,
+      "year": 2014
+    },
+    {
+      "end_trips": 1318,
+      "start_trips": 1531,
+      "station": "Sensenbrenner Park",
+      "total_trips": 2849,
+      "year": 2014
+    },
+    {
+      "end_trips": 1256,
+      "start_trips": 1302,
+      "station": "COSI",
+      "total_trips": 2558,
+      "year": 2014
+    },
+    {
+      "end_trips": 1224,
+      "start_trips": 1256,
+      "station": "Convention Center",
+      "total_trips": 2480,
+      "year": 2014
+    },
+    {
+      "end_trips": 1209,
+      "start_trips": 1203,
+      "station": "Scioto Audubon Center",
+      "total_trips": 2412,
+      "year": 2014
+    },
+    {
+      "end_trips": 955,
+      "start_trips": 1228,
+      "station": "High St & Spring St",
+      "total_trips": 2183,
+      "year": 2014
+    },
+    {
+      "end_trips": 981,
+      "start_trips": 1078,
+      "station": "Grant Ave & Main St",
+      "total_trips": 2059,
+      "year": 2014
+    },
+    {
+      "end_trips": 1041,
+      "start_trips": 929,
+      "station": "Columbus College of Art & Design",
+      "total_trips": 1970,
+      "year": 2014
+    },
+    {
+      "end_trips": 964,
+      "start_trips": 979,
+      "station": "Library - Main Branch",
+      "total_trips": 1943,
+      "year": 2014
+    },
+    {
+      "end_trips": 848,
+      "start_trips": 1023,
+      "station": "City Hall",
+      "total_trips": 1871,
+      "year": 2014
+    },
+    {
+      "end_trips": 924,
+      "start_trips": 892,
+      "station": "Parsons Ave & Oak St",
+      "total_trips": 1816,
+      "year": 2014
+    },
+    {
+      "end_trips": 781,
+      "start_trips": 829,
+      "station": "Bank St & Frankfort St",
+      "total_trips": 1610,
+      "year": 2014
+    },
+    {
+      "end_trips": 689,
+      "start_trips": 822,
+      "station": "Dorrian Commons - Mound St",
+      "total_trips": 1511,
+      "year": 2014
+    },
+    {
+      "end_trips": 661,
+      "start_trips": 710,
+      "station": "Cleveland Ave & Mt Vernon Ave",
+      "total_trips": 1371,
+      "year": 2014
+    },
+    {
+      "end_trips": 623,
+      "start_trips": 609,
+      "station": "Livingston Park",
+      "total_trips": 1232,
+      "year": 2014
+    },
+    {
+      "end_trips": 602,
+      "start_trips": 576,
+      "station": "Kilbourne St & Vine St",
+      "total_trips": 1178,
+      "year": 2014
+    },
+    {
+      "end_trips": 492,
+      "start_trips": 439,
+      "station": "Columbus Museum of Art",
+      "total_trips": 931,
+      "year": 2014
+    },
+    {
+      "end_trips": 3271,
+      "start_trips": 3053,
+      "station": "Bicentennial Park",
+      "total_trips": 6324,
+      "year": 2015
+    },
+    {
+      "end_trips": 2289,
+      "start_trips": 2392,
+      "station": "3rd St & Gay St",
+      "total_trips": 4681,
+      "year": 2015
+    },
+    {
+      "end_trips": 2318,
+      "start_trips": 2117,
+      "station": "High St & Warren",
+      "total_trips": 4435,
+      "year": 2015
+    },
+    {
+      "end_trips": 2000,
+      "start_trips": 1840,
+      "station": "High St & 2nd Ave",
+      "total_trips": 3840,
+      "year": 2015
+    },
+    {
+      "end_trips": 1833,
+      "start_trips": 1725,
+      "station": "Columbus Commons - Rich St",
+      "total_trips": 3558,
+      "year": 2015
+    },
+    {
+      "end_trips": 1616,
+      "start_trips": 1931,
+      "station": "North Market",
+      "total_trips": 3547,
+      "year": 2015
+    },
+    {
+      "end_trips": 1598,
+      "start_trips": 1719,
+      "station": "High St & Broad St",
+      "total_trips": 3317,
+      "year": 2015
+    },
+    {
+      "end_trips": 1679,
+      "start_trips": 1583,
+      "station": "Neil Ave & Buttles Ave",
+      "total_trips": 3262,
+      "year": 2015
+    },
+    {
+      "end_trips": 1624,
+      "start_trips": 1611,
+      "station": "3rd St & Sycamore St",
+      "total_trips": 3235,
+      "year": 2015
+    },
+    {
+      "end_trips": 1675,
+      "start_trips": 1488,
+      "station": "Neil Ave & Nationwide Blvd",
+      "total_trips": 3163,
+      "year": 2015
+    },
+    {
+      "end_trips": 1474,
+      "start_trips": 1410,
+      "station": "COSI",
+      "total_trips": 2884,
+      "year": 2015
+    },
+    {
+      "end_trips": 1371,
+      "start_trips": 1513,
+      "station": "Convention Center",
+      "total_trips": 2884,
+      "year": 2015
+    },
+    {
+      "end_trips": 1495,
+      "start_trips": 1362,
+      "station": "Schiller Park - Stewart Ave",
+      "total_trips": 2857,
+      "year": 2015
+    },
+    {
+      "end_trips": 1513,
+      "start_trips": 1284,
+      "station": "Front St & Beck St",
+      "total_trips": 2797,
+      "year": 2015
+    },
+    {
+      "end_trips": 1218,
+      "start_trips": 1385,
+      "station": "Nationwide Arena - Front St",
+      "total_trips": 2603,
+      "year": 2015
+    },
+    {
+      "end_trips": 1294,
+      "start_trips": 1306,
+      "station": "Scioto Audubon Center",
+      "total_trips": 2600,
+      "year": 2015
+    },
+    {
+      "end_trips": 1167,
+      "start_trips": 1385,
+      "station": "Sensenbrenner Park",
+      "total_trips": 2552,
+      "year": 2015
+    },
+    {
+      "end_trips": 1000,
+      "start_trips": 1189,
+      "station": "High St & Spring St",
+      "total_trips": 2189,
+      "year": 2015
+    },
+    {
+      "end_trips": 1079,
+      "start_trips": 1061,
+      "station": "Topiary Park - Town St",
+      "total_trips": 2140,
+      "year": 2015
+    },
+    {
+      "end_trips": 1017,
+      "start_trips": 1033,
+      "station": "High St & 11th Ave",
+      "total_trips": 2050,
+      "year": 2015
+    },
+    {
+      "end_trips": 803,
+      "start_trips": 907,
+      "station": "City Hall",
+      "total_trips": 1710,
+      "year": 2015
+    },
+    {
+      "end_trips": 881,
+      "start_trips": 803,
+      "station": "Columbus College of Art & Design",
+      "total_trips": 1684,
+      "year": 2015
+    },
+    {
+      "end_trips": 729,
+      "start_trips": 769,
+      "station": "Dorrian Commons - Mound St",
+      "total_trips": 1498,
+      "year": 2015
+    },
+    {
+      "end_trips": 723,
+      "start_trips": 728,
+      "station": "Neil Ave & 11th Ave",
+      "total_trips": 1451,
+      "year": 2015
+    },
+    {
+      "end_trips": 629,
+      "start_trips": 628,
+      "station": "Neil Ave & King Ave",
+      "total_trips": 1257,
+      "year": 2015
+    },
+    {
+      "end_trips": 646,
+      "start_trips": 607,
+      "station": "High St & King Ave",
+      "total_trips": 1253,
+      "year": 2015
+    },
+    {
+      "end_trips": 569,
+      "start_trips": 613,
+      "station": "Library - Main Branch",
+      "total_trips": 1182,
+      "year": 2015
+    },
+    {
+      "end_trips": 573,
+      "start_trips": 599,
+      "station": "Parsons Ave & Oak St",
+      "total_trips": 1172,
+      "year": 2015
+    },
+    {
+      "end_trips": 604,
+      "start_trips": 560,
+      "station": "Michigan Ave & 3rd Ave",
+      "total_trips": 1164,
+      "year": 2015
+    },
+    {
+      "end_trips": 530,
+      "start_trips": 576,
+      "station": "High St & 4th Ave",
+      "total_trips": 1106,
+      "year": 2015
+    },
+    {
+      "end_trips": 550,
+      "start_trips": 546,
+      "station": "Bank St & Frankfort St",
+      "total_trips": 1096,
+      "year": 2015
+    },
+    {
+      "end_trips": 533,
+      "start_trips": 558,
+      "station": "Grant Ave & Main St",
+      "total_trips": 1091,
+      "year": 2015
+    },
+    {
+      "end_trips": 421,
+      "start_trips": 419,
+      "station": "Kilbourne St & Vine St",
+      "total_trips": 840,
+      "year": 2015
+    },
+    {
+      "end_trips": 322,
+      "start_trips": 325,
+      "station": "Lucas St & Town St",
+      "total_trips": 647,
+      "year": 2015
+    },
+    {
+      "end_trips": 339,
+      "start_trips": 295,
+      "station": "Columbus Museum of Art",
+      "total_trips": 634,
+      "year": 2015
+    },
+    {
+      "end_trips": 267,
+      "start_trips": 324,
+      "station": "Cleveland Ave & Mt Vernon Ave",
+      "total_trips": 591,
+      "year": 2015
+    },
+    {
+      "end_trips": 295,
+      "start_trips": 283,
+      "station": "High St & 17th Ave",
+      "total_trips": 578,
+      "year": 2015
+    },
+    {
+      "end_trips": 267,
+      "start_trips": 272,
+      "station": "Livingston Park",
+      "total_trips": 539,
+      "year": 2015
+    },
+    {
+      "end_trips": 182,
+      "start_trips": 180,
+      "station": "4th St & 1st Ave - Jeffrey Park",
+      "total_trips": 362,
+      "year": 2015
+    },
+    {
+      "end_trips": 141,
+      "start_trips": 173,
+      "station": "Weinland Park - 6th Ave",
+      "total_trips": 314,
+      "year": 2015
+    },
+    {
+      "end_trips": 82,
+      "start_trips": 65,
+      "station": "Champion Ave & Main St",
+      "total_trips": 147,
+      "year": 2015
+    },
+    {
+      "end_trips": 4829,
+      "start_trips": 4474,
+      "station": "Bicentennial Park",
+      "total_trips": 9303,
+      "year": 2016
+    },
+    {
+      "end_trips": 1960,
+      "start_trips": 2071,
+      "station": "High St & Broad St",
+      "total_trips": 4031,
+      "year": 2016
+    },
+    {
+      "end_trips": 2114,
+      "start_trips": 1875,
+      "station": "High St & Warren",
+      "total_trips": 3989,
+      "year": 2016
+    },
+    {
+      "end_trips": 1842,
+      "start_trips": 1933,
+      "station": "3rd St & Gay St",
+      "total_trips": 3775,
+      "year": 2016
+    },
+    {
+      "end_trips": 1916,
+      "start_trips": 1752,
+      "station": "Neil Ave & Nationwide Blvd",
+      "total_trips": 3668,
+      "year": 2016
+    },
+    {
+      "end_trips": 1794,
+      "start_trips": 1830,
+      "station": "Scioto Audubon Center",
+      "total_trips": 3624,
+      "year": 2016
+    },
+    {
+      "end_trips": 1774,
+      "start_trips": 1832,
+      "station": "COSI",
+      "total_trips": 3606,
+      "year": 2016
+    },
+    {
+      "end_trips": 1905,
+      "start_trips": 1685,
+      "station": "North Market",
+      "total_trips": 3590,
+      "year": 2016
+    },
+    {
+      "end_trips": 1795,
+      "start_trips": 1600,
+      "station": "Columbus Commons - Rich St",
+      "total_trips": 3395,
+      "year": 2016
+    },
+    {
+      "end_trips": 1732,
+      "start_trips": 1593,
+      "station": "Neil Ave & Buttles Ave",
+      "total_trips": 3325,
+      "year": 2016
+    },
+    {
+      "end_trips": 1317,
+      "start_trips": 1515,
+      "station": "Convention Center",
+      "total_trips": 2832,
+      "year": 2016
+    },
+    {
+      "end_trips": 1235,
+      "start_trips": 1399,
+      "station": "High St & 11th Ave",
+      "total_trips": 2634,
+      "year": 2016
+    },
+    {
+      "end_trips": 1323,
+      "start_trips": 1266,
+      "station": "3rd St & Sycamore St",
+      "total_trips": 2589,
+      "year": 2016
+    },
+    {
+      "end_trips": 1298,
+      "start_trips": 1227,
+      "station": "High St & 2nd Ave",
+      "total_trips": 2525,
+      "year": 2016
+    },
+    {
+      "end_trips": 1140,
+      "start_trips": 1245,
+      "station": "Topiary Park - Town St",
+      "total_trips": 2385,
+      "year": 2016
+    },
+    {
+      "end_trips": 1104,
+      "start_trips": 1240,
+      "station": "Sensenbrenner Park",
+      "total_trips": 2344,
+      "year": 2016
+    },
+    {
+      "end_trips": 1200,
+      "start_trips": 1076,
+      "station": "Schiller Park - Stewart Ave",
+      "total_trips": 2276,
+      "year": 2016
+    },
+    {
+      "end_trips": 1125,
+      "start_trips": 1060,
+      "station": "High St & 17th Ave",
+      "total_trips": 2185,
+      "year": 2016
+    },
+    {
+      "end_trips": 1024,
+      "start_trips": 1073,
+      "station": "Neil Ave & 11th Ave",
+      "total_trips": 2097,
+      "year": 2016
+    },
+    {
+      "end_trips": 1030,
+      "start_trips": 1051,
+      "station": "High St & Spring St",
+      "total_trips": 2081,
+      "year": 2016
+    },
+    {
+      "end_trips": 975,
+      "start_trips": 1010,
+      "station": "Lucas St & Town St",
+      "total_trips": 1985,
+      "year": 2016
+    },
+    {
+      "end_trips": 905,
+      "start_trips": 1049,
+      "station": "Nationwide Arena - Front St",
+      "total_trips": 1954,
+      "year": 2016
+    },
+    {
+      "end_trips": 935,
+      "start_trips": 1012,
+      "station": "Neil Ave & King Ave",
+      "total_trips": 1947,
+      "year": 2016
+    },
+    {
+      "end_trips": 867,
+      "start_trips": 900,
+      "station": "City Hall",
+      "total_trips": 1767,
+      "year": 2016
+    },
+    {
+      "end_trips": 848,
+      "start_trips": 856,
+      "station": "High St & 4th Ave",
+      "total_trips": 1704,
+      "year": 2016
+    },
+    {
+      "end_trips": 854,
+      "start_trips": 825,
+      "station": "Front St & Beck St",
+      "total_trips": 1679,
+      "year": 2016
+    },
+    {
+      "end_trips": 742,
+      "start_trips": 817,
+      "station": "Parsons Ave & Oak St",
+      "total_trips": 1559,
+      "year": 2016
+    },
+    {
+      "end_trips": 765,
+      "start_trips": 764,
+      "station": "High St & King Ave",
+      "total_trips": 1529,
+      "year": 2016
+    },
+    {
+      "end_trips": 776,
+      "start_trips": 732,
+      "station": "Michigan Ave & 3rd Ave",
+      "total_trips": 1508,
+      "year": 2016
+    },
+    {
+      "end_trips": 582,
+      "start_trips": 669,
+      "station": "Library - Main Branch",
+      "total_trips": 1251,
+      "year": 2016
+    },
+    {
+      "end_trips": 584,
+      "start_trips": 666,
+      "station": "Dorrian Commons - Mound St",
+      "total_trips": 1250,
+      "year": 2016
+    },
+    {
+      "end_trips": 598,
+      "start_trips": 641,
+      "station": "Columbus College of Art & Design",
+      "total_trips": 1239,
+      "year": 2016
+    },
+    {
+      "end_trips": 530,
+      "start_trips": 587,
+      "station": "4th St & 1st Ave - Jeffrey Park",
+      "total_trips": 1117,
+      "year": 2016
+    },
+    {
+      "end_trips": 460,
+      "start_trips": 440,
+      "station": "Bank St & Frankfort St",
+      "total_trips": 900,
+      "year": 2016
+    },
+    {
+      "end_trips": 403,
+      "start_trips": 432,
+      "station": "Grant Ave & Main St",
+      "total_trips": 835,
+      "year": 2016
+    },
+    {
+      "end_trips": 393,
+      "start_trips": 439,
+      "station": "Kilbourne St & Vine St",
+      "total_trips": 832,
+      "year": 2016
+    },
+    {
+      "end_trips": 377,
+      "start_trips": 368,
+      "station": "Cleveland Ave & Mt Vernon Ave",
+      "total_trips": 745,
+      "year": 2016
+    },
+    {
+      "end_trips": 365,
+      "start_trips": 359,
+      "station": "Lane Ave at Olentangy Trail",
+      "total_trips": 724,
+      "year": 2016
+    },
+    {
+      "end_trips": 350,
+      "start_trips": 315,
+      "station": "Livingston Park",
+      "total_trips": 665,
+      "year": 2016
+    },
+    {
+      "end_trips": 314,
+      "start_trips": 306,
+      "station": "Weinland Park - 6th Ave",
+      "total_trips": 620,
+      "year": 2016
+    },
+    {
+      "end_trips": 273,
+      "start_trips": 311,
+      "station": "4th St & Rich St",
+      "total_trips": 584,
+      "year": 2016
+    },
+    {
+      "end_trips": 261,
+      "start_trips": 277,
+      "station": "Columbus Museum of Art",
+      "total_trips": 538,
+      "year": 2016
+    },
+    {
+      "end_trips": 211,
+      "start_trips": 240,
+      "station": "Jaeger St & Whittier St",
+      "total_trips": 451,
+      "year": 2016
+    },
+    {
+      "end_trips": 135,
+      "start_trips": 154,
+      "station": "Champion Ave & Main St",
+      "total_trips": 289,
+      "year": 2016
+    },
+    {
+      "end_trips": 17,
+      "start_trips": 12,
+      "station": "Market District & 3rd Ave",
+      "total_trips": 29,
+      "year": 2016
+    },
+    {
+      "end_trips": 2,
+      "start_trips": 1,
+      "station": "Thurman Ave & Bruck St",
+      "total_trips": 3,
+      "year": 2016
+    },
+    {
+      "end_trips": 5728,
+      "start_trips": 5643,
+      "station": "Bicentennial Park",
+      "total_trips": 11371,
+      "year": 2017
+    },
+    {
+      "end_trips": 2240,
+      "start_trips": 2167,
+      "station": "High St & Broad St",
+      "total_trips": 4407,
+      "year": 2017
+    },
+    {
+      "end_trips": 2099,
+      "start_trips": 2003,
+      "station": "North Market",
+      "total_trips": 4102,
+      "year": 2017
+    },
+    {
+      "end_trips": 2039,
+      "start_trips": 2050,
+      "station": "Scioto Audubon Center",
+      "total_trips": 4089,
+      "year": 2017
+    },
+    {
+      "end_trips": 2122,
+      "start_trips": 1833,
+      "station": "Neil Ave & Nationwide Blvd",
+      "total_trips": 3955,
+      "year": 2017
+    },
+    {
+      "end_trips": 1915,
+      "start_trips": 1983,
+      "station": "COSI",
+      "total_trips": 3898,
+      "year": 2017
+    },
+    {
+      "end_trips": 1777,
+      "start_trips": 1808,
+      "station": "3rd St & Gay St",
+      "total_trips": 3585,
+      "year": 2017
+    },
+    {
+      "end_trips": 1877,
+      "start_trips": 1691,
+      "station": "High St & Warren",
+      "total_trips": 3568,
+      "year": 2017
+    },
+    {
+      "end_trips": 1584,
+      "start_trips": 1650,
+      "station": "City Hall",
+      "total_trips": 3234,
+      "year": 2017
+    },
+    {
+      "end_trips": 1643,
+      "start_trips": 1483,
+      "station": "Neil Ave & Buttles Ave",
+      "total_trips": 3126,
+      "year": 2017
+    },
+    {
+      "end_trips": 1390,
+      "start_trips": 1288,
+      "station": "Columbus Commons - Rich St",
+      "total_trips": 2678,
+      "year": 2017
+    },
+    {
+      "end_trips": 1391,
+      "start_trips": 1264,
+      "station": "High St & 2nd Ave",
+      "total_trips": 2655,
+      "year": 2017
+    },
+    {
+      "end_trips": 1159,
+      "start_trips": 1495,
+      "station": "Convention Center",
+      "total_trips": 2654,
+      "year": 2017
+    },
+    {
+      "end_trips": 1204,
+      "start_trips": 1399,
+      "station": "Nationwide Arena - Front St",
+      "total_trips": 2603,
+      "year": 2017
+    },
+    {
+      "end_trips": 1138,
+      "start_trips": 1379,
+      "station": "Sensenbrenner Park",
+      "total_trips": 2517,
+      "year": 2017
+    },
+    {
+      "end_trips": 1315,
+      "start_trips": 1173,
+      "station": "3rd St & Sycamore St",
+      "total_trips": 2488,
+      "year": 2017
+    },
+    {
+      "end_trips": 1242,
+      "start_trips": 1173,
+      "station": "Lucas St & Town St",
+      "total_trips": 2415,
+      "year": 2017
+    },
+    {
+      "end_trips": 1057,
+      "start_trips": 1298,
+      "station": "Topiary Park - Town St",
+      "total_trips": 2355,
+      "year": 2017
+    },
+    {
+      "end_trips": 1076,
+      "start_trips": 1172,
+      "station": "High St & 4th Ave",
+      "total_trips": 2248,
+      "year": 2017
+    },
+    {
+      "end_trips": 1077,
+      "start_trips": 1126,
+      "station": "High St & Spring St",
+      "total_trips": 2203,
+      "year": 2017
+    },
+    {
+      "end_trips": 1075,
+      "start_trips": 1011,
+      "station": "Neil Ave & 11th Ave",
+      "total_trips": 2086,
+      "year": 2017
+    },
+    {
+      "end_trips": 1015,
+      "start_trips": 986,
+      "station": "Michigan Ave & 3rd Ave",
+      "total_trips": 2001,
+      "year": 2017
+    },
+    {
+      "end_trips": 930,
+      "start_trips": 1063,
+      "station": "High St & 11th Ave",
+      "total_trips": 1993,
+      "year": 2017
+    },
+    {
+      "end_trips": 882,
+      "start_trips": 1036,
+      "station": "Neil Ave & King Ave",
+      "total_trips": 1918,
+      "year": 2017
+    },
+    {
+      "end_trips": 943,
+      "start_trips": 929,
+      "station": "Schiller Park - Stewart Ave",
+      "total_trips": 1872,
+      "year": 2017
+    },
+    {
+      "end_trips": 1005,
+      "start_trips": 843,
+      "station": "Front St & Beck St",
+      "total_trips": 1848,
+      "year": 2017
+    },
+    {
+      "end_trips": 870,
+      "start_trips": 960,
+      "station": "High St & King Ave",
+      "total_trips": 1830,
+      "year": 2017
+    },
+    {
+      "end_trips": 836,
+      "start_trips": 868,
+      "station": "4th St & 1st Ave - Jeffrey Park",
+      "total_trips": 1704,
+      "year": 2017
+    },
+    {
+      "end_trips": 808,
+      "start_trips": 782,
+      "station": "High St & 17th Ave",
+      "total_trips": 1590,
+      "year": 2017
+    },
+    {
+      "end_trips": 760,
+      "start_trips": 796,
+      "station": "Lane Ave at Olentangy Trail",
+      "total_trips": 1556,
+      "year": 2017
+    },
+    {
+      "end_trips": 732,
+      "start_trips": 776,
+      "station": "4th St & Rich St",
+      "total_trips": 1508,
+      "year": 2017
+    },
+    {
+      "end_trips": 630,
+      "start_trips": 609,
+      "station": "Parsons Ave & Oak St",
+      "total_trips": 1239,
+      "year": 2017
+    },
+    {
+      "end_trips": 617,
+      "start_trips": 590,
+      "station": "Weinland Park - 6th Ave",
+      "total_trips": 1207,
+      "year": 2017
+    },
+    {
+      "end_trips": 629,
+      "start_trips": 559,
+      "station": "Market District & 3rd Ave",
+      "total_trips": 1188,
+      "year": 2017
+    },
+    {
+      "end_trips": 619,
+      "start_trips": 560,
+      "station": "Columbus College of Art & Design",
+      "total_trips": 1179,
+      "year": 2017
+    },
+    {
+      "end_trips": 576,
+      "start_trips": 589,
+      "station": "Dorrian Commons - Mound St",
+      "total_trips": 1165,
+      "year": 2017
+    },
+    {
+      "end_trips": 551,
+      "start_trips": 610,
+      "station": "Jaeger St & Whittier St",
+      "total_trips": 1161,
+      "year": 2017
+    },
+    {
+      "end_trips": 542,
+      "start_trips": 536,
+      "station": "Library - Main Branch",
+      "total_trips": 1078,
+      "year": 2017
+    },
+    {
+      "end_trips": 576,
+      "start_trips": 500,
+      "station": "Cleveland Ave & Mt Vernon Ave",
+      "total_trips": 1076,
+      "year": 2017
+    },
+    {
+      "end_trips": 555,
+      "start_trips": 509,
+      "station": "Kilbourne St & Vine St",
+      "total_trips": 1064,
+      "year": 2017
+    },
+    {
+      "end_trips": 529,
+      "start_trips": 525,
+      "station": "Thurman Ave & Bruck St",
+      "total_trips": 1054,
+      "year": 2017
+    },
+    {
+      "end_trips": 374,
+      "start_trips": 416,
+      "station": "Grant Ave & Main St",
+      "total_trips": 790,
+      "year": 2017
+    },
+    {
+      "end_trips": 428,
+      "start_trips": 361,
+      "station": "Bank St & Frankfort St",
+      "total_trips": 789,
+      "year": 2017
+    },
+    {
+      "end_trips": 338,
+      "start_trips": 328,
+      "station": "Livingston Park",
+      "total_trips": 666,
+      "year": 2017
+    },
+    {
+      "end_trips": 201,
+      "start_trips": 289,
+      "station": "Columbus Museum of Art",
+      "total_trips": 490,
+      "year": 2017
+    },
+    {
+      "end_trips": 111,
+      "start_trips": 96,
+      "station": "Champion Ave & Main St",
+      "total_trips": 207,
+      "year": 2017
+    },
+    {
+      "end_trips": 5021,
+      "start_trips": 4765,
+      "station": "Bicentennial Park",
+      "total_trips": 9786,
+      "year": 2018
+    },
+    {
+      "end_trips": 1956,
+      "start_trips": 1978,
+      "station": "High St & Broad St",
+      "total_trips": 3934,
+      "year": 2018
+    },
+    {
+      "end_trips": 1778,
+      "start_trips": 1801,
+      "station": "City Hall",
+      "total_trips": 3579,
+      "year": 2018
+    },
+    {
+      "end_trips": 1723,
+      "start_trips": 1758,
+      "station": "COSI",
+      "total_trips": 3481,
+      "year": 2018
+    },
+    {
+      "end_trips": 1550,
+      "start_trips": 1642,
+      "station": "Scioto Audubon Center",
+      "total_trips": 3192,
+      "year": 2018
+    },
+    {
+      "end_trips": 1575,
+      "start_trips": 1558,
+      "station": "3rd St & Gay St",
+      "total_trips": 3133,
+      "year": 2018
+    },
+    {
+      "end_trips": 1577,
+      "start_trips": 1338,
+      "station": "Neil Ave & Nationwide Blvd",
+      "total_trips": 2915,
+      "year": 2018
+    },
+    {
+      "end_trips": 1424,
+      "start_trips": 1412,
+      "station": "Lucas St & Town St",
+      "total_trips": 2836,
+      "year": 2018
+    },
+    {
+      "end_trips": 1219,
+      "start_trips": 1425,
+      "station": "Sensenbrenner Park",
+      "total_trips": 2644,
+      "year": 2018
+    },
+    {
+      "end_trips": 1351,
+      "start_trips": 1214,
+      "station": "North Market",
+      "total_trips": 2565,
+      "year": 2018
+    },
+    {
+      "end_trips": 1066,
+      "start_trips": 1081,
+      "station": "Columbus Commons - Rich St",
+      "total_trips": 2147,
+      "year": 2018
+    },
+    {
+      "end_trips": 1081,
+      "start_trips": 898,
+      "station": "High St & Warren",
+      "total_trips": 1979,
+      "year": 2018
+    },
+    {
+      "end_trips": 897,
+      "start_trips": 959,
+      "station": "Nationwide Arena - Front St",
+      "total_trips": 1856,
+      "year": 2018
+    },
+    {
+      "end_trips": 798,
+      "start_trips": 1044,
+      "station": "High St & Spring St",
+      "total_trips": 1842,
+      "year": 2018
+    },
+    {
+      "end_trips": 800,
+      "start_trips": 959,
+      "station": "Convention Center",
+      "total_trips": 1759,
+      "year": 2018
+    },
+    {
+      "end_trips": 892,
+      "start_trips": 761,
+      "station": "3rd St & Sycamore St",
+      "total_trips": 1653,
+      "year": 2018
+    },
+    {
+      "end_trips": 802,
+      "start_trips": 770,
+      "station": "Neil Ave & Buttles Ave",
+      "total_trips": 1572,
+      "year": 2018
+    },
+    {
+      "end_trips": 710,
+      "start_trips": 829,
+      "station": "Library - Main Branch",
+      "total_trips": 1539,
+      "year": 2018
+    },
+    {
+      "end_trips": 749,
+      "start_trips": 779,
+      "station": "Topiary Park - Town St",
+      "total_trips": 1528,
+      "year": 2018
+    },
+    {
+      "end_trips": 774,
+      "start_trips": 752,
+      "station": "High St & 4th Ave",
+      "total_trips": 1526,
+      "year": 2018
+    },
+    {
+      "end_trips": 699,
+      "start_trips": 776,
+      "station": "Neil Ave & King Ave",
+      "total_trips": 1475,
+      "year": 2018
+    },
+    {
+      "end_trips": 648,
+      "start_trips": 706,
+      "station": "High St & 11th Ave",
+      "total_trips": 1354,
+      "year": 2018
+    },
+    {
+      "end_trips": 617,
+      "start_trips": 717,
+      "station": "High St & King Ave",
+      "total_trips": 1334,
+      "year": 2018
+    },
+    {
+      "end_trips": 621,
+      "start_trips": 651,
+      "station": "Michigan Ave & 3rd Ave",
+      "total_trips": 1272,
+      "year": 2018
+    },
+    {
+      "end_trips": 712,
+      "start_trips": 559,
+      "station": "Front St & Beck St",
+      "total_trips": 1271,
+      "year": 2018
+    },
+    {
+      "end_trips": 648,
+      "start_trips": 602,
+      "station": "Schiller Park - Stewart Ave",
+      "total_trips": 1250,
+      "year": 2018
+    },
+    {
+      "end_trips": 627,
+      "start_trips": 618,
+      "station": "4th St & Rich St",
+      "total_trips": 1245,
+      "year": 2018
+    },
+    {
+      "end_trips": 578,
+      "start_trips": 644,
+      "station": "GO FITNESS IV (Italian Village) 4th/1st",
+      "total_trips": 1222,
+      "year": 2018
+    },
+    {
+      "end_trips": 577,
+      "start_trips": 579,
+      "station": "Neil Ave & 11th Ave",
+      "total_trips": 1156,
+      "year": 2018
+    },
+    {
+      "end_trips": 556,
+      "start_trips": 583,
+      "station": "High St & 17th Ave",
+      "total_trips": 1139,
+      "year": 2018
+    },
+    {
+      "end_trips": 531,
+      "start_trips": 538,
+      "station": "Dorrian Commons - Mound St",
+      "total_trips": 1069,
+      "year": 2018
+    },
+    {
+      "end_trips": 507,
+      "start_trips": 503,
+      "station": "Lane Ave at Olentangy Trail",
+      "total_trips": 1010,
+      "year": 2018
+    },
+    {
+      "end_trips": 442,
+      "start_trips": 479,
+      "station": "Grant Ave & Main St",
+      "total_trips": 921,
+      "year": 2018
+    },
+    {
+      "end_trips": 457,
+      "start_trips": 426,
+      "station": "Cleveland Ave & Mt Vernon Ave",
+      "total_trips": 883,
+      "year": 2018
+    },
+    {
+      "end_trips": 409,
+      "start_trips": 461,
+      "station": "Columbus College of Art & Design",
+      "total_trips": 870,
+      "year": 2018
+    },
+    {
+      "end_trips": 426,
+      "start_trips": 433,
+      "station": "Front St & Town St",
+      "total_trips": 859,
+      "year": 2018
+    },
+    {
+      "end_trips": 434,
+      "start_trips": 352,
+      "station": "High St & 2nd Ave",
+      "total_trips": 786,
+      "year": 2018
+    },
+    {
+      "end_trips": 386,
+      "start_trips": 391,
+      "station": "Jaeger St & Whittier St",
+      "total_trips": 777,
+      "year": 2018
+    },
+    {
+      "end_trips": 393,
+      "start_trips": 359,
+      "station": "Parsons Ave & Oak St",
+      "total_trips": 752,
+      "year": 2018
+    },
+    {
+      "end_trips": 352,
+      "start_trips": 322,
+      "station": "Market District & 3rd Ave",
+      "total_trips": 674,
+      "year": 2018
+    },
+    {
+      "end_trips": 349,
+      "start_trips": 313,
+      "station": "Kilbourne St & Vine St",
+      "total_trips": 662,
+      "year": 2018
+    },
+    {
+      "end_trips": 309,
+      "start_trips": 338,
+      "station": "Bank St & Frankfort St",
+      "total_trips": 647,
+      "year": 2018
+    },
+    {
+      "end_trips": 336,
+      "start_trips": 304,
+      "station": "Weinland Park - 6th Ave",
+      "total_trips": 640,
+      "year": 2018
+    },
+    {
+      "end_trips": 245,
+      "start_trips": 250,
+      "station": "Thurman Ave & Bruck St",
+      "total_trips": 495,
+      "year": 2018
+    },
+    {
+      "end_trips": 200,
+      "start_trips": 199,
+      "station": "Columbus Museum of Art",
+      "total_trips": 399,
+      "year": 2018
+    },
+    {
+      "end_trips": 179,
+      "start_trips": 219,
+      "station": "Livingston Park",
+      "total_trips": 398,
+      "year": 2018
+    },
+    {
+      "end_trips": 187,
+      "start_trips": 166,
+      "station": "North Bank Park",
+      "total_trips": 353,
+      "year": 2018
+    },
+    {
+      "end_trips": 98,
+      "start_trips": 82,
+      "station": "Champion Ave & Main St",
+      "total_trips": 180,
+      "year": 2018
+    },
+    {
+      "end_trips": 55,
+      "start_trips": 44,
+      "station": "High St & Crestview Rd",
+      "total_trips": 99,
+      "year": 2018
+    },
+    {
+      "end_trips": 44,
+      "start_trips": 41,
+      "station": "Mt Pleasant & 2nd Ave",
+      "total_trips": 85,
+      "year": 2018
+    },
+    {
+      "end_trips": 37,
+      "start_trips": 42,
+      "station": "Franklin Park at Fairwood Ave",
+      "total_trips": 79,
+      "year": 2018
+    },
+    {
+      "end_trips": 36,
+      "start_trips": 39,
+      "station": "4th St & 1st Ave - Jeffrey Park",
+      "total_trips": 75,
+      "year": 2018
+    },
+    {
+      "end_trips": 39,
+      "start_trips": 24,
+      "station": "High St & Lane Ave",
+      "total_trips": 63,
+      "year": 2018
+    },
+    {
+      "end_trips": 32,
+      "start_trips": 31,
+      "station": "Northwest Blvd & Chambers Rd",
+      "total_trips": 63,
+      "year": 2018
+    },
+    {
+      "end_trips": 31,
+      "start_trips": 26,
+      "station": "Thompson Park at Hunter Ave",
+      "total_trips": 57,
+      "year": 2018
+    },
+    {
+      "end_trips": 24,
+      "start_trips": 25,
+      "station": "High St & Hudson St",
+      "total_trips": 49,
+      "year": 2018
+    },
+    {
+      "end_trips": 29,
+      "start_trips": 19,
+      "station": "Northwest Blvd & 3rd Ave",
+      "total_trips": 48,
+      "year": 2018
+    },
+    {
+      "end_trips": 13,
+      "start_trips": 20,
+      "station": "Summit St & 17th Ave",
+      "total_trips": 33,
+      "year": 2018
+    },
+    {
+      "end_trips": 13,
+      "start_trips": 19,
+      "station": "Summit St & Hudson St",
+      "total_trips": 32,
+      "year": 2018
+    },
+    {
+      "end_trips": 16,
+      "start_trips": 12,
+      "station": "Taylor Ave & Long St",
+      "total_trips": 28,
+      "year": 2018
+    },
+    {
+      "end_trips": 13,
+      "start_trips": 12,
+      "station": "Grandview Ave & 3rd Ave",
+      "total_trips": 25,
+      "year": 2018
+    },
+    {
+      "end_trips": 13,
+      "start_trips": 12,
+      "station": "Pleasant Ridge Ave & Mound St",
+      "total_trips": 25,
+      "year": 2018
+    },
+    {
+      "end_trips": 10,
+      "start_trips": 10,
+      "station": "Yard St & Burr Ave",
+      "total_trips": 20,
+      "year": 2018
+    },
+    {
+      "end_trips": 9,
+      "start_trips": 8,
+      "station": "Grandon Ave & Main St",
+      "total_trips": 17,
+      "year": 2018
+    },
+    {
+      "end_trips": 6,
+      "start_trips": 10,
+      "station": "Northwest Blvd & 1st Ave",
+      "total_trips": 16,
+      "year": 2018
+    },
+    {
+      "end_trips": 7,
+      "start_trips": 9,
+      "station": "Wellesley Dr & Lane Ave",
+      "total_trips": 16,
+      "year": 2018
+    },
+    {
+      "end_trips": 5,
+      "start_trips": 6,
+      "station": "Cleveland Ave & 4th Ave",
+      "total_trips": 11,
+      "year": 2018
+    },
+    {
+      "end_trips": 4,
+      "start_trips": 5,
+      "station": "Grandview Library at Oakland Ave",
+      "total_trips": 9,
+      "year": 2018
+    },
+    {
+      "end_trips": 4,
+      "start_trips": 4,
+      "station": "Mallway Park at Arlington Ave",
+      "total_trips": 8,
+      "year": 2018
+    },
+    {
+      "end_trips": 5,
+      "start_trips": 2,
+      "station": "Northwest Blvd and Zollinger Rd",
+      "total_trips": 7,
+      "year": 2018
+    },
+    {
+      "end_trips": 2,
+      "start_trips": 2,
+      "station": "Bexley City Hall at Main St",
+      "total_trips": 4,
+      "year": 2018
+    },
+    {
+      "end_trips": 1,
+      "start_trips": 1,
+      "station": "North Star Rd & Northwest Blvd",
+      "total_trips": 2,
+      "year": 2018
+    },
+    {
+      "end_trips": 1,
+      "start_trips": 0,
+      "station": "Tremont Center at Tremont Rd",
+      "total_trips": 1,
+      "year": 2018
+    },
+    {
+      "end_trips": 1,
+      "start_trips": 0,
+      "station": "Jeffrey Park on Clifton Ave",
+      "total_trips": 1,
+      "year": 2018
+    },
+    {
+      "end_trips": 1556,
+      "start_trips": 1417,
+      "station": "Bicentennial Park",
+      "total_trips": 2973,
+      "year": 2019
+    },
+    {
+      "end_trips": 1172,
+      "start_trips": 1069,
+      "station": "Lucas St & Town St",
+      "total_trips": 2241,
+      "year": 2019
+    },
+    {
+      "end_trips": 981,
+      "start_trips": 1072,
+      "station": "Front St & Town St",
+      "total_trips": 2053,
+      "year": 2019
+    },
+    {
+      "end_trips": 640,
+      "start_trips": 651,
+      "station": "COSI",
+      "total_trips": 1291,
+      "year": 2019
+    },
+    {
+      "end_trips": 652,
+      "start_trips": 617,
+      "station": "North Bank Park",
+      "total_trips": 1269,
+      "year": 2019
+    },
+    {
+      "end_trips": 598,
+      "start_trips": 648,
+      "station": "High St & Broad St",
+      "total_trips": 1246,
+      "year": 2019
+    },
+    {
+      "end_trips": 587,
+      "start_trips": 649,
+      "station": "Scioto Audubon Center",
+      "total_trips": 1236,
+      "year": 2019
+    },
+    {
+      "end_trips": 604,
+      "start_trips": 626,
+      "station": "Sensenbrenner Park",
+      "total_trips": 1230,
+      "year": 2019
+    },
+    {
+      "end_trips": 643,
+      "start_trips": 582,
+      "station": "High St & Warren",
+      "total_trips": 1225,
+      "year": 2019
+    },
+    {
+      "end_trips": 657,
+      "start_trips": 552,
+      "station": "North Market",
+      "total_trips": 1209,
+      "year": 2019
+    },
+    {
+      "end_trips": 570,
+      "start_trips": 630,
+      "station": "City Hall",
+      "total_trips": 1200,
+      "year": 2019
+    },
+    {
+      "end_trips": 557,
+      "start_trips": 560,
+      "station": "3rd St & Gay St",
+      "total_trips": 1117,
+      "year": 2019
+    },
+    {
+      "end_trips": 511,
+      "start_trips": 461,
+      "station": "Neil Ave & Buttles Ave",
+      "total_trips": 972,
+      "year": 2019
+    },
+    {
+      "end_trips": 491,
+      "start_trips": 425,
+      "station": "Schiller Park - Stewart Ave",
+      "total_trips": 916,
+      "year": 2019
+    },
+    {
+      "end_trips": 462,
+      "start_trips": 434,
+      "station": "3rd St & Sycamore St",
+      "total_trips": 896,
+      "year": 2019
+    },
+    {
+      "end_trips": 476,
+      "start_trips": 375,
+      "station": "Neil Ave & Nationwide Blvd",
+      "total_trips": 851,
+      "year": 2019
+    },
+    {
+      "end_trips": 449,
+      "start_trips": 399,
+      "station": "Columbus Commons - Rich St",
+      "total_trips": 848,
+      "year": 2019
+    },
+    {
+      "end_trips": 401,
+      "start_trips": 443,
+      "station": "Michigan Ave & 3rd Ave",
+      "total_trips": 844,
+      "year": 2019
+    },
+    {
+      "end_trips": 364,
+      "start_trips": 435,
+      "station": "Convention Center",
+      "total_trips": 799,
+      "year": 2019
+    },
+    {
+      "end_trips": 344,
+      "start_trips": 400,
+      "station": "Topiary Park - Town St",
+      "total_trips": 744,
+      "year": 2019
+    },
+    {
+      "end_trips": 366,
+      "start_trips": 376,
+      "station": "High St & 11th Ave",
+      "total_trips": 742,
+      "year": 2019
+    },
+    {
+      "end_trips": 290,
+      "start_trips": 435,
+      "station": "High St & Spring St",
+      "total_trips": 725,
+      "year": 2019
+    },
+    {
+      "end_trips": 368,
+      "start_trips": 316,
+      "station": "High St & 2nd Ave",
+      "total_trips": 684,
+      "year": 2019
+    },
+    {
+      "end_trips": 350,
+      "start_trips": 302,
+      "station": "Front St & Beck St",
+      "total_trips": 652,
+      "year": 2019
+    },
+    {
+      "end_trips": 311,
+      "start_trips": 309,
+      "station": "Neil Ave & King Ave",
+      "total_trips": 620,
+      "year": 2019
+    },
+    {
+      "end_trips": 276,
+      "start_trips": 339,
+      "station": "High St & King Ave",
+      "total_trips": 615,
+      "year": 2019
+    },
+    {
+      "end_trips": 331,
+      "start_trips": 266,
+      "station": "Parsons Ave & Oak St",
+      "total_trips": 597,
+      "year": 2019
+    },
+    {
+      "end_trips": 312,
+      "start_trips": 280,
+      "station": "Lane Ave at Olentangy Trail",
+      "total_trips": 592,
+      "year": 2019
+    },
+    {
+      "end_trips": 274,
+      "start_trips": 300,
+      "station": "Nationwide Arena - Front St",
+      "total_trips": 574,
+      "year": 2019
+    },
+    {
+      "end_trips": 280,
+      "start_trips": 274,
+      "station": "Cleveland Ave & Mt Vernon Ave",
+      "total_trips": 554,
+      "year": 2019
+    },
+    {
+      "end_trips": 245,
+      "start_trips": 264,
+      "station": "Yard St & Burr Ave",
+      "total_trips": 509,
+      "year": 2019
+    },
+    {
+      "end_trips": 257,
+      "start_trips": 250,
+      "station": "Dorrian Commons - Mound St",
+      "total_trips": 507,
+      "year": 2019
+    },
+    {
+      "end_trips": 265,
+      "start_trips": 235,
+      "station": "High St & 17th Ave",
+      "total_trips": 500,
+      "year": 2019
+    },
+    {
+      "end_trips": 236,
+      "start_trips": 243,
+      "station": "Franklin Park at Fairwood Ave",
+      "total_trips": 479,
+      "year": 2019
+    },
+    {
+      "end_trips": 241,
+      "start_trips": 233,
+      "station": "High St & 4th Ave",
+      "total_trips": 474,
+      "year": 2019
+    },
+    {
+      "end_trips": 229,
+      "start_trips": 227,
+      "station": "4th St & Rich St",
+      "total_trips": 456,
+      "year": 2019
+    },
+    {
+      "end_trips": 194,
+      "start_trips": 258,
+      "station": "Library - Main Branch",
+      "total_trips": 452,
+      "year": 2019
+    },
+    {
+      "end_trips": 226,
+      "start_trips": 226,
+      "station": "Market District & 3rd Ave",
+      "total_trips": 452,
+      "year": 2019
+    },
+    {
+      "end_trips": 182,
+      "start_trips": 237,
+      "station": "Bank St & Frankfort St",
+      "total_trips": 419,
+      "year": 2019
+    },
+    {
+      "end_trips": 204,
+      "start_trips": 205,
+      "station": "Jaeger St & Whittier St",
+      "total_trips": 409,
+      "year": 2019
+    },
+    {
+      "end_trips": 191,
+      "start_trips": 183,
+      "station": "Columbus College of Art & Design",
+      "total_trips": 374,
+      "year": 2019
+    },
+    {
+      "end_trips": 168,
+      "start_trips": 183,
+      "station": "Thompson Park at Hunter Ave",
+      "total_trips": 351,
+      "year": 2019
+    },
+    {
+      "end_trips": 145,
+      "start_trips": 191,
+      "station": "Kilbourne St & Vine St",
+      "total_trips": 336,
+      "year": 2019
+    },
+    {
+      "end_trips": 167,
+      "start_trips": 166,
+      "station": "Livingston Park",
+      "total_trips": 333,
+      "year": 2019
+    },
+    {
+      "end_trips": 173,
+      "start_trips": 153,
+      "station": "High St & Lane Ave",
+      "total_trips": 326,
+      "year": 2019
+    },
+    {
+      "end_trips": 158,
+      "start_trips": 161,
+      "station": "Columbus Museum of Art",
+      "total_trips": 319,
+      "year": 2019
+    },
+    {
+      "end_trips": 150,
+      "start_trips": 156,
+      "station": "Neil Ave & 11th Ave",
+      "total_trips": 306,
+      "year": 2019
+    },
+    {
+      "end_trips": 153,
+      "start_trips": 142,
+      "station": "Weinland Park - 6th Ave",
+      "total_trips": 295,
+      "year": 2019
+    },
+    {
+      "end_trips": 128,
+      "start_trips": 145,
+      "station": "Thurman Ave & Bruck St",
+      "total_trips": 273,
+      "year": 2019
+    },
+    {
+      "end_trips": 115,
+      "start_trips": 131,
+      "station": "Neil Ave & 10th Ave",
+      "total_trips": 246,
+      "year": 2019
+    },
+    {
+      "end_trips": 100,
+      "start_trips": 136,
+      "station": "GO FITNESS IV (Italian Village) 4th/1st",
+      "total_trips": 236,
+      "year": 2019
+    },
+    {
+      "end_trips": 129,
+      "start_trips": 91,
+      "station": "High St & Crestview Rd",
+      "total_trips": 220,
+      "year": 2019
+    },
+    {
+      "end_trips": 108,
+      "start_trips": 109,
+      "station": "Grant Ave & Main St",
+      "total_trips": 217,
+      "year": 2019
+    },
+    {
+      "end_trips": 91,
+      "start_trips": 109,
+      "station": "Wellesley Dr & Lane Ave",
+      "total_trips": 200,
+      "year": 2019
+    },
+    {
+      "end_trips": 102,
+      "start_trips": 89,
+      "station": "High St & Hudson St",
+      "total_trips": 191,
+      "year": 2019
+    },
+    {
+      "end_trips": 81,
+      "start_trips": 99,
+      "station": "Summit St & Hudson St",
+      "total_trips": 180,
+      "year": 2019
+    },
+    {
+      "end_trips": 77,
+      "start_trips": 99,
+      "station": "Grandview Ave & 3rd Ave",
+      "total_trips": 176,
+      "year": 2019
+    },
+    {
+      "end_trips": 64,
+      "start_trips": 75,
+      "station": "Grandview Library at Oakland Ave",
+      "total_trips": 139,
+      "year": 2019
+    },
+    {
+      "end_trips": 59,
+      "start_trips": 76,
+      "station": "Northwest Blvd & 1st Ave",
+      "total_trips": 135,
+      "year": 2019
+    },
+    {
+      "end_trips": 72,
+      "start_trips": 62,
+      "station": "Bexley City Hall at Main St",
+      "total_trips": 134,
+      "year": 2019
+    },
+    {
+      "end_trips": 58,
+      "start_trips": 60,
+      "station": "Mallway Park at Arlington Ave",
+      "total_trips": 118,
+      "year": 2019
+    },
+    {
+      "end_trips": 50,
+      "start_trips": 64,
+      "station": "Northwest Blvd & Chambers Rd",
+      "total_trips": 114,
+      "year": 2019
+    },
+    {
+      "end_trips": 50,
+      "start_trips": 55,
+      "station": "Northwest Blvd & 3rd Ave",
+      "total_trips": 105,
+      "year": 2019
+    },
+    {
+      "end_trips": 56,
+      "start_trips": 46,
+      "station": "Northwest Blvd and Zollinger Rd",
+      "total_trips": 102,
+      "year": 2019
+    },
+    {
+      "end_trips": 44,
+      "start_trips": 45,
+      "station": "Tremont Center at Tremont Rd",
+      "total_trips": 89,
+      "year": 2019
+    },
+    {
+      "end_trips": 45,
+      "start_trips": 40,
+      "station": "Taylor Ave & Long St",
+      "total_trips": 85,
+      "year": 2019
+    },
+    {
+      "end_trips": 41,
+      "start_trips": 42,
+      "station": "Pleasant Ridge Ave & Mound St",
+      "total_trips": 83,
+      "year": 2019
+    },
+    {
+      "end_trips": 37,
+      "start_trips": 35,
+      "station": "Summit St & 17th Ave",
+      "total_trips": 72,
+      "year": 2019
+    },
+    {
+      "end_trips": 36,
+      "start_trips": 34,
+      "station": "Jeffrey Park on Clifton Ave",
+      "total_trips": 70,
+      "year": 2019
+    },
+    {
+      "end_trips": 29,
+      "start_trips": 28,
+      "station": "Cleveland Ave & 4th Ave",
+      "total_trips": 57,
+      "year": 2019
+    },
+    {
+      "end_trips": 33,
+      "start_trips": 20,
+      "station": "Champion Ave & Main St",
+      "total_trips": 53,
+      "year": 2019
+    },
+    {
+      "end_trips": 20,
+      "start_trips": 23,
+      "station": "Easton Square Pl & Townsfair Way",
+      "total_trips": 43,
+      "year": 2019
+    },
+    {
+      "end_trips": 14,
+      "start_trips": 26,
+      "station": "Grandon Ave & Main St",
+      "total_trips": 40,
+      "year": 2019
+    },
+    {
+      "end_trips": 14,
+      "start_trips": 19,
+      "station": "North Star Rd & Northwest Blvd",
+      "total_trips": 33,
+      "year": 2019
+    },
+    {
+      "end_trips": 16,
+      "start_trips": 14,
+      "station": "Easton Square Pl & Loyalty Circle",
+      "total_trips": 30,
+      "year": 2019
+    },
+    {
+      "end_trips": 13,
+      "start_trips": 11,
+      "station": "Fenlon St & Gramercy St",
+      "total_trips": 24,
+      "year": 2019
+    },
+    {
+      "end_trips": 5,
+      "start_trips": 6,
+      "station": "Seward St & Worth Ave",
+      "total_trips": 11,
+      "year": 2019
+    },
+    {
+      "end_trips": 4,
+      "start_trips": 5,
+      "station": "Stelzer Rd & Morse Rd",
+      "total_trips": 9,
+      "year": 2019
+    },
+    {
+      "end_trips": 5,
+      "start_trips": 3,
+      "station": "Stelzer & Easton Way",
+      "total_trips": 8,
+      "year": 2019
+    },
+    {
+      "end_trips": 3,
+      "start_trips": 4,
+      "station": "Easton Oval",
+      "total_trips": 7,
+      "year": 2019
+    },
+    {
+      "end_trips": 6886,
+      "start_trips": 6664,
+      "station": "Bicentennial Park",
+      "total_trips": 13550,
+      "year": 2020
+    },
+    {
+      "end_trips": 1972,
+      "start_trips": 2092,
+      "station": "COSI",
+      "total_trips": 4064,
+      "year": 2020
+    },
+    {
+      "end_trips": 1998,
+      "start_trips": 1896,
+      "station": "North Bank Park",
+      "total_trips": 3894,
+      "year": 2020
+    },
+    {
+      "end_trips": 1511,
+      "start_trips": 1592,
+      "station": "High St & Broad St",
+      "total_trips": 3103,
+      "year": 2020
+    },
+    {
+      "end_trips": 1471,
+      "start_trips": 1632,
+      "station": "Scioto Audubon Center",
+      "total_trips": 3103,
+      "year": 2020
+    },
+    {
+      "end_trips": 1595,
+      "start_trips": 1391,
+      "station": "High St & Warren",
+      "total_trips": 2986,
+      "year": 2020
+    },
+    {
+      "end_trips": 1219,
+      "start_trips": 1111,
+      "station": "Lucas St & Town St",
+      "total_trips": 2330,
+      "year": 2020
+    },
+    {
+      "end_trips": 1028,
+      "start_trips": 1091,
+      "station": "City Hall",
+      "total_trips": 2119,
+      "year": 2020
+    },
+    {
+      "end_trips": 1026,
+      "start_trips": 981,
+      "station": "Neil Ave & Buttles Ave",
+      "total_trips": 2007,
+      "year": 2020
+    },
+    {
+      "end_trips": 965,
+      "start_trips": 1000,
+      "station": "High St & 2nd Ave",
+      "total_trips": 1965,
+      "year": 2020
+    },
+    {
+      "end_trips": 957,
+      "start_trips": 1005,
+      "station": "Franklin Park at Fairwood Ave",
+      "total_trips": 1962,
+      "year": 2020
+    },
+    {
+      "end_trips": 919,
+      "start_trips": 931,
+      "station": "North Market",
+      "total_trips": 1850,
+      "year": 2020
+    },
+    {
+      "end_trips": 849,
+      "start_trips": 950,
+      "station": "Front St & Town St",
+      "total_trips": 1799,
+      "year": 2020
+    },
+    {
+      "end_trips": 824,
+      "start_trips": 867,
+      "station": "High St & King Ave",
+      "total_trips": 1691,
+      "year": 2020
+    },
+    {
+      "end_trips": 816,
+      "start_trips": 860,
+      "station": "High St & 11th Ave",
+      "total_trips": 1676,
+      "year": 2020
+    },
+    {
+      "end_trips": 777,
+      "start_trips": 765,
+      "station": "Lane Ave at Olentangy Trail",
+      "total_trips": 1542,
+      "year": 2020
+    },
+    {
+      "end_trips": 748,
+      "start_trips": 741,
+      "station": "Livingston Park",
+      "total_trips": 1489,
+      "year": 2020
+    },
+    {
+      "end_trips": 672,
+      "start_trips": 796,
+      "station": "3rd St & Gay St",
+      "total_trips": 1468,
+      "year": 2020
+    },
+    {
+      "end_trips": 767,
+      "start_trips": 695,
+      "station": "Parsons Ave & Oak St",
+      "total_trips": 1462,
+      "year": 2020
+    },
+    {
+      "end_trips": 655,
+      "start_trips": 662,
+      "station": "Columbus Commons - Rich St",
+      "total_trips": 1317,
+      "year": 2020
+    },
+    {
+      "end_trips": 632,
+      "start_trips": 663,
+      "station": "High St & 17th Ave",
+      "total_trips": 1295,
+      "year": 2020
+    },
+    {
+      "end_trips": 670,
+      "start_trips": 607,
+      "station": "Schiller Park - Stewart Ave",
+      "total_trips": 1277,
+      "year": 2020
+    },
+    {
+      "end_trips": 618,
+      "start_trips": 592,
+      "station": "Front St & Beck St",
+      "total_trips": 1210,
+      "year": 2020
+    },
+    {
+      "end_trips": 594,
+      "start_trips": 614,
+      "station": "Michigan Ave & 3rd Ave",
+      "total_trips": 1208,
+      "year": 2020
+    },
+    {
+      "end_trips": 605,
+      "start_trips": 595,
+      "station": "3rd St & Sycamore St",
+      "total_trips": 1200,
+      "year": 2020
+    },
+    {
+      "end_trips": 551,
+      "start_trips": 637,
+      "station": "High St & Spring St",
+      "total_trips": 1188,
+      "year": 2020
+    },
+    {
+      "end_trips": 559,
+      "start_trips": 618,
+      "station": "Sensenbrenner Park",
+      "total_trips": 1177,
+      "year": 2020
+    },
+    {
+      "end_trips": 524,
+      "start_trips": 617,
+      "station": "Neil Ave & 10th Ave",
+      "total_trips": 1141,
+      "year": 2020
+    },
+    {
+      "end_trips": 577,
+      "start_trips": 562,
+      "station": "Neil Ave & Nationwide Blvd",
+      "total_trips": 1139,
+      "year": 2020
+    },
+    {
+      "end_trips": 546,
+      "start_trips": 582,
+      "station": "Yard St & Burr Ave",
+      "total_trips": 1128,
+      "year": 2020
+    },
+    {
+      "end_trips": 541,
+      "start_trips": 515,
+      "station": "High St & Crestview Rd",
+      "total_trips": 1056,
+      "year": 2020
+    },
+    {
+      "end_trips": 448,
+      "start_trips": 554,
+      "station": "Nationwide Arena - Front St",
+      "total_trips": 1002,
+      "year": 2020
+    },
+    {
+      "end_trips": 432,
+      "start_trips": 546,
+      "station": "GO FITNESS IV (Italian Village) 4th/1st",
+      "total_trips": 978,
+      "year": 2020
+    },
+    {
+      "end_trips": 461,
+      "start_trips": 503,
+      "station": "Neil Ave & King Ave",
+      "total_trips": 964,
+      "year": 2020
+    },
+    {
+      "end_trips": 481,
+      "start_trips": 470,
+      "station": "High St & Lane Ave",
+      "total_trips": 951,
+      "year": 2020
+    },
+    {
+      "end_trips": 394,
+      "start_trips": 459,
+      "station": "4th St & Rich St",
+      "total_trips": 853,
+      "year": 2020
+    },
+    {
+      "end_trips": 386,
+      "start_trips": 457,
+      "station": "Dorrian Commons - Mound St",
+      "total_trips": 843,
+      "year": 2020
+    },
+    {
+      "end_trips": 413,
+      "start_trips": 418,
+      "station": "Market District & 3rd Ave",
+      "total_trips": 831,
+      "year": 2020
+    },
+    {
+      "end_trips": 373,
+      "start_trips": 415,
+      "station": "Topiary Park - Town St",
+      "total_trips": 788,
+      "year": 2020
+    },
+    {
+      "end_trips": 370,
+      "start_trips": 416,
+      "station": "Bank St & Frankfort St",
+      "total_trips": 786,
+      "year": 2020
+    },
+    {
+      "end_trips": 420,
+      "start_trips": 346,
+      "station": "High St & 4th Ave",
+      "total_trips": 766,
+      "year": 2020
+    },
+    {
+      "end_trips": 394,
+      "start_trips": 352,
+      "station": "Northwest Blvd & Chambers Rd",
+      "total_trips": 746,
+      "year": 2020
+    },
+    {
+      "end_trips": 313,
+      "start_trips": 393,
+      "station": "Thompson Park at Hunter Ave",
+      "total_trips": 706,
+      "year": 2020
+    },
+    {
+      "end_trips": 344,
+      "start_trips": 360,
+      "station": "Grandview Ave & 3rd Ave",
+      "total_trips": 704,
+      "year": 2020
+    },
+    {
+      "end_trips": 323,
+      "start_trips": 354,
+      "station": "Summit St & 17th Ave",
+      "total_trips": 677,
+      "year": 2020
+    },
+    {
+      "end_trips": 321,
+      "start_trips": 324,
+      "station": "Northwest Blvd & 1st Ave",
+      "total_trips": 645,
+      "year": 2020
+    },
+    {
+      "end_trips": 311,
+      "start_trips": 312,
+      "station": "Jaeger St & Whittier St",
+      "total_trips": 623,
+      "year": 2020
+    },
+    {
+      "end_trips": 290,
+      "start_trips": 333,
+      "station": "Convention Center",
+      "total_trips": 623,
+      "year": 2020
+    },
+    {
+      "end_trips": 299,
+      "start_trips": 318,
+      "station": "High St & Hudson St",
+      "total_trips": 617,
+      "year": 2020
+    },
+    {
+      "end_trips": 280,
+      "start_trips": 312,
+      "station": "Taylor Ave & Long St",
+      "total_trips": 592,
+      "year": 2020
+    },
+    {
+      "end_trips": 286,
+      "start_trips": 299,
+      "station": "Columbus College of Art & Design",
+      "total_trips": 585,
+      "year": 2020
+    },
+    {
+      "end_trips": 283,
+      "start_trips": 300,
+      "station": "Weinland Park - 6th Ave",
+      "total_trips": 583,
+      "year": 2020
+    },
+    {
+      "end_trips": 295,
+      "start_trips": 286,
+      "station": "Kilbourne St & Vine St",
+      "total_trips": 581,
+      "year": 2020
+    },
+    {
+      "end_trips": 249,
+      "start_trips": 297,
+      "station": "Library - Main Branch",
+      "total_trips": 546,
+      "year": 2020
+    },
+    {
+      "end_trips": 240,
+      "start_trips": 257,
+      "station": "Summit St & Hudson St",
+      "total_trips": 497,
+      "year": 2020
+    },
+    {
+      "end_trips": 214,
+      "start_trips": 254,
+      "station": "Grant Ave & Main St",
+      "total_trips": 468,
+      "year": 2020
+    },
+    {
+      "end_trips": 226,
+      "start_trips": 238,
+      "station": "Thurman Ave & Bruck St",
+      "total_trips": 464,
+      "year": 2020
+    },
+    {
+      "end_trips": 226,
+      "start_trips": 223,
+      "station": "Bexley City Hall at Main St",
+      "total_trips": 449,
+      "year": 2020
+    },
+    {
+      "end_trips": 210,
+      "start_trips": 237,
+      "station": "Cleveland Ave & Mt Vernon Ave",
+      "total_trips": 447,
+      "year": 2020
+    },
+    {
+      "end_trips": 206,
+      "start_trips": 235,
+      "station": "Champion Ave & Main St",
+      "total_trips": 441,
+      "year": 2020
+    },
+    {
+      "end_trips": 221,
+      "start_trips": 217,
+      "station": "Jeffrey Park on Clifton Ave",
+      "total_trips": 438,
+      "year": 2020
+    },
+    {
+      "end_trips": 171,
+      "start_trips": 207,
+      "station": "Northwest Blvd & 3rd Ave",
+      "total_trips": 378,
+      "year": 2020
+    },
+    {
+      "end_trips": 171,
+      "start_trips": 194,
+      "station": "Grandview Library at Oakland Ave",
+      "total_trips": 365,
+      "year": 2020
+    },
+    {
+      "end_trips": 186,
+      "start_trips": 177,
+      "station": "Fenlon St & Gramercy St",
+      "total_trips": 363,
+      "year": 2020
+    },
+    {
+      "end_trips": 170,
+      "start_trips": 181,
+      "station": "Wellesley Dr & Lane Ave",
+      "total_trips": 351,
+      "year": 2020
+    },
+    {
+      "end_trips": 163,
+      "start_trips": 183,
+      "station": "Pleasant Ridge Ave & Mound St",
+      "total_trips": 346,
+      "year": 2020
+    },
+    {
+      "end_trips": 143,
+      "start_trips": 180,
+      "station": "Cleveland Ave & 4th Ave",
+      "total_trips": 323,
+      "year": 2020
+    },
+    {
+      "end_trips": 143,
+      "start_trips": 175,
+      "station": "Grandon Ave & Main St",
+      "total_trips": 318,
+      "year": 2020
+    },
+    {
+      "end_trips": 145,
+      "start_trips": 165,
+      "station": "Library - Linden Branch",
+      "total_trips": 310,
+      "year": 2020
+    },
+    {
+      "end_trips": 142,
+      "start_trips": 160,
+      "station": "Mallway Park at Arlington Ave",
+      "total_trips": 302,
+      "year": 2020
+    },
+    {
+      "end_trips": 138,
+      "start_trips": 157,
+      "station": "Tremont Center at Tremont Rd",
+      "total_trips": 295,
+      "year": 2020
+    },
+    {
+      "end_trips": 133,
+      "start_trips": 142,
+      "station": "North Star Rd & Northwest Blvd",
+      "total_trips": 275,
+      "year": 2020
+    },
+    {
+      "end_trips": 105,
+      "start_trips": 147,
+      "station": "Columbus Museum of Art",
+      "total_trips": 252,
+      "year": 2020
+    },
+    {
+      "end_trips": 115,
+      "start_trips": 108,
+      "station": "Easton Square Pl & Townsfair Way",
+      "total_trips": 223,
+      "year": 2020
+    },
+    {
+      "end_trips": 99,
+      "start_trips": 108,
+      "station": "Northwest Blvd and Zollinger Rd",
+      "total_trips": 207,
+      "year": 2020
+    },
+    {
+      "end_trips": 87,
+      "start_trips": 95,
+      "station": "Easton Transit Center",
+      "total_trips": 182,
+      "year": 2020
+    },
+    {
+      "end_trips": 81,
+      "start_trips": 97,
+      "station": "Stelzer Rd & Morse Rd",
+      "total_trips": 178,
+      "year": 2020
+    },
+    {
+      "end_trips": 79,
+      "start_trips": 87,
+      "station": "Library - Whetstone Branch",
+      "total_trips": 166,
+      "year": 2020
+    },
+    {
+      "end_trips": 70,
+      "start_trips": 66,
+      "station": "Moeller Park at Bruck St",
+      "total_trips": 136,
+      "year": 2020
+    },
+    {
+      "end_trips": 48,
+      "start_trips": 57,
+      "station": "Seward St & Worth Ave",
+      "total_trips": 105,
+      "year": 2020
+    },
+    {
+      "end_trips": 43,
+      "start_trips": 41,
+      "station": "St. Stephen's Community House",
+      "total_trips": 84,
+      "year": 2020
+    },
+    {
+      "end_trips": 39,
+      "start_trips": 42,
+      "station": "King Arts Complex",
+      "total_trips": 81,
+      "year": 2020
+    },
+    {
+      "end_trips": 56,
+      "start_trips": 19,
+      "station": "Cogo warehouse",
+      "total_trips": 75,
+      "year": 2020
+    },
+    {
+      "end_trips": 31,
+      "start_trips": 39,
+      "station": "Linden Transit Center",
+      "total_trips": 70,
+      "year": 2020
+    },
+    {
+      "end_trips": 34,
+      "start_trips": 34,
+      "station": "Stelzer & Easton Way",
+      "total_trips": 68,
+      "year": 2020
+    },
+    {
+      "end_trips": 34,
+      "start_trips": 34,
+      "station": "Broad St & Martin Ave",
+      "total_trips": 68,
+      "year": 2020
+    },
+    {
+      "end_trips": 27,
+      "start_trips": 23,
+      "station": "Library - Parsons Branch",
+      "total_trips": 50,
+      "year": 2020
+    },
+    {
+      "end_trips": 24,
+      "start_trips": 25,
+      "station": "Easton Oval",
+      "total_trips": 49,
+      "year": 2020
+    },
+    {
+      "end_trips": 23,
+      "start_trips": 20,
+      "station": "Easton Square Pl & Loyalty Circle",
+      "total_trips": 43,
+      "year": 2020
+    },
+    {
+      "end_trips": 1,
+      "start_trips": 1,
+      "station": "MTL-ECO5-1",
+      "total_trips": 2,
+      "year": 2020
+    },
+    {
+      "end_trips": 3576,
+      "start_trips": 3526,
+      "station": "Bicentennial Park",
+      "total_trips": 7102,
+      "year": 2021
+    },
+    {
+      "end_trips": 1331,
+      "start_trips": 1442,
+      "station": "Scioto Audubon Center",
+      "total_trips": 2773,
+      "year": 2021
+    },
+    {
+      "end_trips": 1389,
+      "start_trips": 1327,
+      "station": "High St & Warren",
+      "total_trips": 2716,
+      "year": 2021
+    },
+    {
+      "end_trips": 1201,
+      "start_trips": 1352,
+      "station": "North Bank Park",
+      "total_trips": 2553,
+      "year": 2021
+    },
+    {
+      "end_trips": 1042,
+      "start_trips": 1238,
+      "station": "High St & Broad St",
+      "total_trips": 2280,
+      "year": 2021
+    },
+    {
+      "end_trips": 987,
+      "start_trips": 1094,
+      "station": "COSI",
+      "total_trips": 2081,
+      "year": 2021
+    },
+    {
+      "end_trips": 826,
+      "start_trips": 818,
+      "station": "North Market",
+      "total_trips": 1644,
+      "year": 2021
+    },
+    {
+      "end_trips": 769,
+      "start_trips": 823,
+      "station": "High St & 2nd Ave",
+      "total_trips": 1592,
+      "year": 2021
+    },
+    {
+      "end_trips": 781,
+      "start_trips": 801,
+      "station": "High St & 11th Ave",
+      "total_trips": 1582,
+      "year": 2021
+    },
+    {
+      "end_trips": 741,
+      "start_trips": 826,
+      "station": "City Hall",
+      "total_trips": 1567,
+      "year": 2021
+    },
+    {
+      "end_trips": 735,
+      "start_trips": 760,
+      "station": "Livingston Park",
+      "total_trips": 1495,
+      "year": 2021
+    },
+    {
+      "end_trips": 680,
+      "start_trips": 776,
+      "station": "High St & King Ave",
+      "total_trips": 1456,
+      "year": 2021
+    },
+    {
+      "end_trips": 722,
+      "start_trips": 700,
+      "station": "Neil Ave & Nationwide Blvd",
+      "total_trips": 1422,
+      "year": 2021
+    },
+    {
+      "end_trips": 721,
+      "start_trips": 695,
+      "station": "Michigan Ave & 3rd Ave",
+      "total_trips": 1416,
+      "year": 2021
+    },
+    {
+      "end_trips": 648,
+      "start_trips": 740,
+      "station": "3rd St & Gay St",
+      "total_trips": 1388,
+      "year": 2021
+    },
+    {
+      "end_trips": 710,
+      "start_trips": 644,
+      "station": "Schiller Park - Stewart Ave",
+      "total_trips": 1354,
+      "year": 2021
+    },
+    {
+      "end_trips": 718,
+      "start_trips": 597,
+      "station": "Lucas St & Town St",
+      "total_trips": 1315,
+      "year": 2021
+    },
+    {
+      "end_trips": 679,
+      "start_trips": 625,
+      "station": "Lane Ave at Olentangy Trail",
+      "total_trips": 1304,
+      "year": 2021
+    },
+    {
+      "end_trips": 624,
+      "start_trips": 640,
+      "station": "Front St & Beck St",
+      "total_trips": 1264,
+      "year": 2021
+    },
+    {
+      "end_trips": 590,
+      "start_trips": 630,
+      "station": "Neil Ave & Buttles Ave",
+      "total_trips": 1220,
+      "year": 2021
+    },
+    {
+      "end_trips": 496,
+      "start_trips": 697,
+      "station": "Neil Ave & 10th Ave",
+      "total_trips": 1193,
+      "year": 2021
+    },
+    {
+      "end_trips": 690,
+      "start_trips": 499,
+      "station": "Parsons Ave & Oak St",
+      "total_trips": 1189,
+      "year": 2021
+    },
+    {
+      "end_trips": 579,
+      "start_trips": 598,
+      "station": "High St & Crestview Rd",
+      "total_trips": 1177,
+      "year": 2021
+    },
+    {
+      "end_trips": 568,
+      "start_trips": 588,
+      "station": "High St & 17th Ave",
+      "total_trips": 1156,
+      "year": 2021
+    },
+    {
+      "end_trips": 551,
+      "start_trips": 603,
+      "station": "Front St & Town St",
+      "total_trips": 1154,
+      "year": 2021
+    },
+    {
+      "end_trips": 561,
+      "start_trips": 587,
+      "station": "Yard St & Burr Ave",
+      "total_trips": 1148,
+      "year": 2021
+    },
+    {
+      "end_trips": 550,
+      "start_trips": 574,
+      "station": "Columbus Commons - Rich St",
+      "total_trips": 1124,
+      "year": 2021
+    },
+    {
+      "end_trips": 537,
+      "start_trips": 556,
+      "station": "Neil Ave & King Ave",
+      "total_trips": 1093,
+      "year": 2021
+    },
+    {
+      "end_trips": 565,
+      "start_trips": 477,
+      "station": "3rd St & Sycamore St",
+      "total_trips": 1042,
+      "year": 2021
+    },
+    {
+      "end_trips": 533,
+      "start_trips": 466,
+      "station": "Market District & 3rd Ave",
+      "total_trips": 999,
+      "year": 2021
+    },
+    {
+      "end_trips": 458,
+      "start_trips": 539,
+      "station": "Library - Main Branch",
+      "total_trips": 997,
+      "year": 2021
+    },
+    {
+      "end_trips": 483,
+      "start_trips": 503,
+      "station": "Franklin Park at Fairwood Ave",
+      "total_trips": 986,
+      "year": 2021
+    },
+    {
+      "end_trips": 459,
+      "start_trips": 513,
+      "station": "High St & 4th Ave",
+      "total_trips": 972,
+      "year": 2021
+    },
+    {
+      "end_trips": 433,
+      "start_trips": 462,
+      "station": "Library - Whetstone Branch",
+      "total_trips": 895,
+      "year": 2021
+    },
+    {
+      "end_trips": 421,
+      "start_trips": 462,
+      "station": "4th St & Rich St",
+      "total_trips": 883,
+      "year": 2021
+    },
+    {
+      "end_trips": 451,
+      "start_trips": 418,
+      "station": "Dorrian Commons - Mound St",
+      "total_trips": 869,
+      "year": 2021
+    },
+    {
+      "end_trips": 365,
+      "start_trips": 479,
+      "station": "Nationwide Arena - Front St",
+      "total_trips": 844,
+      "year": 2021
+    },
+    {
+      "end_trips": 361,
+      "start_trips": 471,
+      "station": "High St & Spring St",
+      "total_trips": 832,
+      "year": 2021
+    },
+    {
+      "end_trips": 345,
+      "start_trips": 458,
+      "station": "Columbus College of Art & Design",
+      "total_trips": 803,
+      "year": 2021
+    },
+    {
+      "end_trips": 378,
+      "start_trips": 425,
+      "station": "Bank St & Frankfort St",
+      "total_trips": 803,
+      "year": 2021
+    },
+    {
+      "end_trips": 362,
+      "start_trips": 410,
+      "station": "GO FITNESS IV (Italian Village) 4th/1st",
+      "total_trips": 772,
+      "year": 2021
+    },
+    {
+      "end_trips": 383,
+      "start_trips": 357,
+      "station": "High St & Lane Ave",
+      "total_trips": 740,
+      "year": 2021
+    },
+    {
+      "end_trips": 307,
+      "start_trips": 398,
+      "station": "Sensenbrenner Park",
+      "total_trips": 705,
+      "year": 2021
+    },
+    {
+      "end_trips": 318,
+      "start_trips": 377,
+      "station": "Summit St & 17th Ave",
+      "total_trips": 695,
+      "year": 2021
+    },
+    {
+      "end_trips": 313,
+      "start_trips": 374,
+      "station": "Grandview Ave & 3rd Ave",
+      "total_trips": 687,
+      "year": 2021
+    },
+    {
+      "end_trips": 298,
+      "start_trips": 328,
+      "station": "Northwest Blvd & Chambers Rd",
+      "total_trips": 626,
+      "year": 2021
+    },
+    {
+      "end_trips": 295,
+      "start_trips": 321,
+      "station": "Convention Center",
+      "total_trips": 616,
+      "year": 2021
+    },
+    {
+      "end_trips": 287,
+      "start_trips": 297,
+      "station": "Weinland Park - 6th Ave",
+      "total_trips": 584,
+      "year": 2021
+    },
+    {
+      "end_trips": 269,
+      "start_trips": 279,
+      "station": "Topiary Park - Town St",
+      "total_trips": 548,
+      "year": 2021
+    },
+    {
+      "end_trips": 253,
+      "start_trips": 284,
+      "station": "High St & Hudson St",
+      "total_trips": 537,
+      "year": 2021
+    },
+    {
+      "end_trips": 208,
+      "start_trips": 301,
+      "station": "Summit St & Hudson St",
+      "total_trips": 509,
+      "year": 2021
+    },
+    {
+      "end_trips": 222,
+      "start_trips": 278,
+      "station": "Northwest Blvd & 1st Ave",
+      "total_trips": 500,
+      "year": 2021
+    },
+    {
+      "end_trips": 235,
+      "start_trips": 239,
+      "station": "Wellesley Dr & Lane Ave",
+      "total_trips": 474,
+      "year": 2021
+    },
+    {
+      "end_trips": 188,
+      "start_trips": 264,
+      "station": "Thompson Park at Hunter Ave",
+      "total_trips": 452,
+      "year": 2021
+    },
+    {
+      "end_trips": 217,
+      "start_trips": 233,
+      "station": "Jaeger St & Whittier St",
+      "total_trips": 450,
+      "year": 2021
+    },
+    {
+      "end_trips": 207,
+      "start_trips": 230,
+      "station": "Northwest Blvd & 3rd Ave",
+      "total_trips": 437,
+      "year": 2021
+    },
+    {
+      "end_trips": 214,
+      "start_trips": 222,
+      "station": "King Arts Complex",
+      "total_trips": 436,
+      "year": 2021
+    },
+    {
+      "end_trips": 192,
+      "start_trips": 206,
+      "station": "Thurman Ave & Bruck St",
+      "total_trips": 398,
+      "year": 2021
+    },
+    {
+      "end_trips": 171,
+      "start_trips": 187,
+      "station": "Kilbourne St & Vine St",
+      "total_trips": 358,
+      "year": 2021
+    },
+    {
+      "end_trips": 163,
+      "start_trips": 184,
+      "station": "Grandview Library at Oakland Ave",
+      "total_trips": 347,
+      "year": 2021
+    },
+    {
+      "end_trips": 156,
+      "start_trips": 140,
+      "station": "Mallway Park at Arlington Ave",
+      "total_trips": 296,
+      "year": 2021
+    },
+    {
+      "end_trips": 127,
+      "start_trips": 151,
+      "station": "Fenlon St & Gramercy St",
+      "total_trips": 278,
+      "year": 2021
+    },
+    {
+      "end_trips": 133,
+      "start_trips": 143,
+      "station": "Moeller Park at Bruck St",
+      "total_trips": 276,
+      "year": 2021
+    },
+    {
+      "end_trips": 133,
+      "start_trips": 134,
+      "station": "Bexley City Hall at Main St",
+      "total_trips": 267,
+      "year": 2021
+    },
+    {
+      "end_trips": 113,
+      "start_trips": 148,
+      "station": "Champion Ave & Main St",
+      "total_trips": 261,
+      "year": 2021
+    },
+    {
+      "end_trips": 109,
+      "start_trips": 151,
+      "station": "Grant Ave & Main St",
+      "total_trips": 260,
+      "year": 2021
+    },
+    {
+      "end_trips": 109,
+      "start_trips": 149,
+      "station": "Taylor Ave & Long St",
+      "total_trips": 258,
+      "year": 2021
+    },
+    {
+      "end_trips": 130,
+      "start_trips": 122,
+      "station": "Jeffrey Park on Clifton Ave",
+      "total_trips": 252,
+      "year": 2021
+    },
+    {
+      "end_trips": 106,
+      "start_trips": 125,
+      "station": "Pleasant Ridge Ave & Mound St",
+      "total_trips": 231,
+      "year": 2021
+    },
+    {
+      "end_trips": 123,
+      "start_trips": 107,
+      "station": "Easton Square Pl & Townsfair Way",
+      "total_trips": 230,
+      "year": 2021
+    },
+    {
+      "end_trips": 105,
+      "start_trips": 119,
+      "station": "Cleveland Ave & Mt Vernon Ave",
+      "total_trips": 224,
+      "year": 2021
+    },
+    {
+      "end_trips": 108,
+      "start_trips": 113,
+      "station": "Library - Parsons Branch",
+      "total_trips": 221,
+      "year": 2021
+    },
+    {
+      "end_trips": 78,
+      "start_trips": 102,
+      "station": "Grandon Ave & Main St",
+      "total_trips": 180,
+      "year": 2021
+    },
+    {
+      "end_trips": 82,
+      "start_trips": 91,
+      "station": "Tremont Center at Tremont Rd",
+      "total_trips": 173,
+      "year": 2021
+    },
+    {
+      "end_trips": 95,
+      "start_trips": 72,
+      "station": "Crew Home Game Valet",
+      "total_trips": 167,
+      "year": 2021
+    },
+    {
+      "end_trips": 72,
+      "start_trips": 87,
+      "station": "Broad St & Martin Ave",
+      "total_trips": 159,
+      "year": 2021
+    },
+    {
+      "end_trips": 62,
+      "start_trips": 86,
+      "station": "Cleveland Ave & 4th Ave",
+      "total_trips": 148,
+      "year": 2021
+    },
+    {
+      "end_trips": 66,
+      "start_trips": 72,
+      "station": "Neiland and Nationwide",
+      "total_trips": 138,
+      "year": 2021
+    },
+    {
+      "end_trips": 49,
+      "start_trips": 76,
+      "station": "North Star Rd & Northwest Blvd",
+      "total_trips": 125,
+      "year": 2021
+    },
+    {
+      "end_trips": 51,
+      "start_trips": 67,
+      "station": "Northwest Blvd and Zollinger Rd",
+      "total_trips": 118,
+      "year": 2021
+    },
+    {
+      "end_trips": 53,
+      "start_trips": 63,
+      "station": "Easton Transit Center",
+      "total_trips": 116,
+      "year": 2021
+    },
+    {
+      "end_trips": 49,
+      "start_trips": 56,
+      "station": "Library - Linden Branch",
+      "total_trips": 105,
+      "year": 2021
+    },
+    {
+      "end_trips": 33,
+      "start_trips": 69,
+      "station": "Columbus Museum of Art",
+      "total_trips": 102,
+      "year": 2021
+    },
+    {
+      "end_trips": 41,
+      "start_trips": 52,
+      "station": "Linden Transit Center",
+      "total_trips": 93,
+      "year": 2021
+    },
+    {
+      "end_trips": 58,
+      "start_trips": 31,
+      "station": "St. Stephen's Community House",
+      "total_trips": 89,
+      "year": 2021
+    },
+    {
+      "end_trips": 33,
+      "start_trips": 43,
+      "station": "Stelzer Rd & Morse Rd",
+      "total_trips": 76,
+      "year": 2021
+    },
+    {
+      "end_trips": 30,
+      "start_trips": 44,
+      "station": "Easton Square Pl & Loyalty Circle",
+      "total_trips": 74,
+      "year": 2021
+    },
+    {
+      "end_trips": 27,
+      "start_trips": 34,
+      "station": "Seward St & Worth Ave",
+      "total_trips": 61,
+      "year": 2021
+    },
+    {
+      "end_trips": 20,
+      "start_trips": 28,
+      "station": "High & Price/First",
+      "total_trips": 48,
+      "year": 2021
+    },
+    {
+      "end_trips": 19,
+      "start_trips": 20,
+      "station": "High & Russell",
+      "total_trips": 39,
+      "year": 2021
+    },
+    {
+      "end_trips": 16,
+      "start_trips": 21,
+      "station": "High & Prescott",
+      "total_trips": 37,
+      "year": 2021
+    },
+    {
+      "end_trips": 16,
+      "start_trips": 17,
+      "station": "Bicentennial Public Rack",
+      "total_trips": 33,
+      "year": 2021
+    },
+    {
+      "end_trips": 13,
+      "start_trips": 13,
+      "station": "DEV-ECO5-1",
+      "total_trips": 26,
+      "year": 2021
+    },
+    {
+      "end_trips": 14,
+      "start_trips": 9,
+      "station": "High & Lincoln",
+      "total_trips": 23,
+      "year": 2021
+    },
+    {
+      "end_trips": 10,
+      "start_trips": 12,
+      "station": "Ohio State Student Union",
+      "total_trips": 22,
+      "year": 2021
+    },
+    {
+      "end_trips": 10,
+      "start_trips": 10,
+      "station": "High & Hubbard",
+      "total_trips": 20,
+      "year": 2021
+    },
+    {
+      "end_trips": 7,
+      "start_trips": 12,
+      "station": "Easton Oval",
+      "total_trips": 19,
+      "year": 2021
+    },
+    {
+      "end_trips": 9,
+      "start_trips": 9,
+      "station": "Crew Home Game Valet, 1-8p",
+      "total_trips": 18,
+      "year": 2021
+    },
+    {
+      "end_trips": 14,
+      "start_trips": 4,
+      "station": "Stelzer & Easton Way",
+      "total_trips": 18,
+      "year": 2021
+    },
+    {
+      "end_trips": 16,
+      "start_trips": 0,
+      "station": "Cogo warehouse",
+      "total_trips": 16,
+      "year": 2021
+    },
+    {
+      "end_trips": 8,
+      "start_trips": 5,
+      "station": "Brighton Rose & Worth Ave",
+      "total_trips": 13,
+      "year": 2021
+    },
+    {
+      "end_trips": 6,
+      "start_trips": 6,
+      "station": "Crew Home Game Valet 5-10p",
+      "total_trips": 12,
+      "year": 2021
+    },
+    {
+      "end_trips": 3047,
+      "start_trips": 2992,
+      "station": "Bicentennial Park",
+      "total_trips": 6039,
+      "year": 2022
+    },
+    {
+      "end_trips": 1502,
+      "start_trips": 1405,
+      "station": "High St & Warren",
+      "total_trips": 2907,
+      "year": 2022
+    },
+    {
+      "end_trips": 1413,
+      "start_trips": 1464,
+      "station": "Scioto Audubon Center",
+      "total_trips": 2877,
+      "year": 2022
+    },
+    {
+      "end_trips": 1336,
+      "start_trips": 1460,
+      "station": "North Bank Park",
+      "total_trips": 2796,
+      "year": 2022
+    },
+    {
+      "end_trips": 1281,
+      "start_trips": 1440,
+      "station": "High St & Broad St",
+      "total_trips": 2721,
+      "year": 2022
+    },
+    {
+      "end_trips": 1034,
+      "start_trips": 954,
+      "station": "Lucas St & Town St",
+      "total_trips": 1988,
+      "year": 2022
+    },
+    {
+      "end_trips": 993,
+      "start_trips": 984,
+      "station": "North Market",
+      "total_trips": 1977,
+      "year": 2022
+    },
+    {
+      "end_trips": 923,
+      "start_trips": 1031,
+      "station": "High St & 2nd Ave",
+      "total_trips": 1954,
+      "year": 2022
+    },
+    {
+      "end_trips": 938,
+      "start_trips": 954,
+      "station": "Michigan Ave & 3rd Ave",
+      "total_trips": 1892,
+      "year": 2022
+    },
+    {
+      "end_trips": 892,
+      "start_trips": 968,
+      "station": "COSI",
+      "total_trips": 1860,
+      "year": 2022
+    },
+    {
+      "end_trips": 908,
+      "start_trips": 943,
+      "station": "Yard St & Burr Ave",
+      "total_trips": 1851,
+      "year": 2022
+    },
+    {
+      "end_trips": 929,
+      "start_trips": 907,
+      "station": "Schiller Park - Stewart Ave",
+      "total_trips": 1836,
+      "year": 2022
+    },
+    {
+      "end_trips": 910,
+      "start_trips": 873,
+      "station": "3rd St & Gay St",
+      "total_trips": 1783,
+      "year": 2022
+    },
+    {
+      "end_trips": 858,
+      "start_trips": 810,
+      "station": "Lane Ave at Olentangy Trail",
+      "total_trips": 1668,
+      "year": 2022
+    },
+    {
+      "end_trips": 748,
+      "start_trips": 841,
+      "station": "Neil Ave & 10th Ave",
+      "total_trips": 1589,
+      "year": 2022
+    },
+    {
+      "end_trips": 777,
+      "start_trips": 811,
+      "station": "City Hall",
+      "total_trips": 1588,
+      "year": 2022
+    },
+    {
+      "end_trips": 835,
+      "start_trips": 732,
+      "station": "3rd St & Sycamore St",
+      "total_trips": 1567,
+      "year": 2022
+    },
+    {
+      "end_trips": 725,
+      "start_trips": 782,
+      "station": "Front St & Beck St",
+      "total_trips": 1507,
+      "year": 2022
+    },
+    {
+      "end_trips": 717,
+      "start_trips": 784,
+      "station": "Front St & Town St",
+      "total_trips": 1501,
+      "year": 2022
+    },
+    {
+      "end_trips": 736,
+      "start_trips": 759,
+      "station": "Parsons Ave & Oak St",
+      "total_trips": 1495,
+      "year": 2022
+    },
+    {
+      "end_trips": 750,
+      "start_trips": 733,
+      "station": "High St & Hudson St",
+      "total_trips": 1483,
+      "year": 2022
+    },
+    {
+      "end_trips": 688,
+      "start_trips": 769,
+      "station": "High St & King Ave",
+      "total_trips": 1457,
+      "year": 2022
+    },
+    {
+      "end_trips": 781,
+      "start_trips": 640,
+      "station": "Livingston Park",
+      "total_trips": 1421,
+      "year": 2022
+    },
+    {
+      "end_trips": 683,
+      "start_trips": 729,
+      "station": "Neil Ave & Buttles Ave",
+      "total_trips": 1412,
+      "year": 2022
+    },
+    {
+      "end_trips": 729,
+      "start_trips": 679,
+      "station": "Neil Ave & Nationwide Blvd",
+      "total_trips": 1408,
+      "year": 2022
+    },
+    {
+      "end_trips": 668,
+      "start_trips": 736,
+      "station": "Columbus Commons - Rich St",
+      "total_trips": 1404,
+      "year": 2022
+    },
+    {
+      "end_trips": 655,
+      "start_trips": 686,
+      "station": "High St & 17th Ave",
+      "total_trips": 1341,
+      "year": 2022
+    },
+    {
+      "end_trips": 626,
+      "start_trips": 691,
+      "station": "Neil Ave & King Ave",
+      "total_trips": 1317,
+      "year": 2022
+    },
+    {
+      "end_trips": 644,
+      "start_trips": 672,
+      "station": "Bank St & Frankfort St",
+      "total_trips": 1316,
+      "year": 2022
+    },
+    {
+      "end_trips": 603,
+      "start_trips": 673,
+      "station": "High St & 11th Ave",
+      "total_trips": 1276,
+      "year": 2022
+    },
+    {
+      "end_trips": 515,
+      "start_trips": 693,
+      "station": "High St & Spring St",
+      "total_trips": 1208,
+      "year": 2022
+    },
+    {
+      "end_trips": 549,
+      "start_trips": 648,
+      "station": "High St & 4th Ave",
+      "total_trips": 1197,
+      "year": 2022
+    },
+    {
+      "end_trips": 522,
+      "start_trips": 625,
+      "station": "Summit St & Hudson St",
+      "total_trips": 1147,
+      "year": 2022
+    },
+    {
+      "end_trips": 578,
+      "start_trips": 557,
+      "station": "Columbus College of Art & Design",
+      "total_trips": 1135,
+      "year": 2022
+    },
+    {
+      "end_trips": 557,
+      "start_trips": 551,
+      "station": "High St & Lane Ave",
+      "total_trips": 1108,
+      "year": 2022
+    },
+    {
+      "end_trips": 520,
+      "start_trips": 576,
+      "station": "Nationwide Arena - Front St",
+      "total_trips": 1096,
+      "year": 2022
+    },
+    {
+      "end_trips": 510,
+      "start_trips": 542,
+      "station": "Franklin Park at Fairwood Ave",
+      "total_trips": 1052,
+      "year": 2022
+    },
+    {
+      "end_trips": 454,
+      "start_trips": 592,
+      "station": "4th St & Rich St",
+      "total_trips": 1046,
+      "year": 2022
+    },
+    {
+      "end_trips": 471,
+      "start_trips": 536,
+      "station": "Northwest Blvd & Chambers Rd",
+      "total_trips": 1007,
+      "year": 2022
+    },
+    {
+      "end_trips": 452,
+      "start_trips": 533,
+      "station": "Grandview Ave & 3rd Ave",
+      "total_trips": 985,
+      "year": 2022
+    },
+    {
+      "end_trips": 489,
+      "start_trips": 469,
+      "station": "Library - Whetstone Branch",
+      "total_trips": 958,
+      "year": 2022
+    },
+    {
+      "end_trips": 437,
+      "start_trips": 517,
+      "station": "Broad St & Mc Dowell St",
+      "total_trips": 954,
+      "year": 2022
+    },
+    {
+      "end_trips": 426,
+      "start_trips": 527,
+      "station": "High St & Crestview Rd",
+      "total_trips": 953,
+      "year": 2022
+    },
+    {
+      "end_trips": 435,
+      "start_trips": 516,
+      "station": "Topiary Park - Town St",
+      "total_trips": 951,
+      "year": 2022
+    },
+    {
+      "end_trips": 467,
+      "start_trips": 468,
+      "station": "Weinland Park - 6th Ave",
+      "total_trips": 935,
+      "year": 2022
+    },
+    {
+      "end_trips": 445,
+      "start_trips": 484,
+      "station": "Convention Center",
+      "total_trips": 929,
+      "year": 2022
+    },
+    {
+      "end_trips": 430,
+      "start_trips": 433,
+      "station": "Market District & 3rd Ave",
+      "total_trips": 863,
+      "year": 2022
+    },
+    {
+      "end_trips": 384,
+      "start_trips": 467,
+      "station": "GO FITNESS IV (Italian Village) 4th/1st",
+      "total_trips": 851,
+      "year": 2022
+    },
+    {
+      "end_trips": 406,
+      "start_trips": 440,
+      "station": "Neiland and Nationwide",
+      "total_trips": 846,
+      "year": 2022
+    },
+    {
+      "end_trips": 375,
+      "start_trips": 459,
+      "station": "Sensenbrenner Park",
+      "total_trips": 834,
+      "year": 2022
+    },
+    {
+      "end_trips": 383,
+      "start_trips": 427,
+      "station": "Library - Main Branch",
+      "total_trips": 810,
+      "year": 2022
+    },
+    {
+      "end_trips": 338,
+      "start_trips": 399,
+      "station": "Taylor Ave & Long St",
+      "total_trips": 737,
+      "year": 2022
+    },
+    {
+      "end_trips": 321,
+      "start_trips": 403,
+      "station": "Thompson Park at Hunter Ave",
+      "total_trips": 724,
+      "year": 2022
+    },
+    {
+      "end_trips": 295,
+      "start_trips": 423,
+      "station": "Dorrian Commons - Mound St",
+      "total_trips": 718,
+      "year": 2022
+    },
+    {
+      "end_trips": 314,
+      "start_trips": 381,
+      "station": "King Arts Complex",
+      "total_trips": 695,
+      "year": 2022
+    },
+    {
+      "end_trips": 327,
+      "start_trips": 357,
+      "station": "Northwest Blvd & 1st Ave",
+      "total_trips": 684,
+      "year": 2022
+    },
+    {
+      "end_trips": 331,
+      "start_trips": 335,
+      "station": "Cleveland Ave & Mt Vernon Ave",
+      "total_trips": 666,
+      "year": 2022
+    },
+    {
+      "end_trips": 319,
+      "start_trips": 314,
+      "station": "Library - Parsons Branch",
+      "total_trips": 633,
+      "year": 2022
+    },
+    {
+      "end_trips": 283,
+      "start_trips": 328,
+      "station": "Summit St & 17th Ave",
+      "total_trips": 611,
+      "year": 2022
+    },
+    {
+      "end_trips": 269,
+      "start_trips": 304,
+      "station": "Wellesley Dr & Lane Ave",
+      "total_trips": 573,
+      "year": 2022
+    },
+    {
+      "end_trips": 251,
+      "start_trips": 292,
+      "station": "Moeller Park at Bruck St",
+      "total_trips": 543,
+      "year": 2022
+    },
+    {
+      "end_trips": 223,
+      "start_trips": 276,
+      "station": "Grant Ave & Main St",
+      "total_trips": 499,
+      "year": 2022
+    },
+    {
+      "end_trips": 251,
+      "start_trips": 246,
+      "station": "Kilbourne St & Vine St",
+      "total_trips": 497,
+      "year": 2022
+    },
+    {
+      "end_trips": 220,
+      "start_trips": 262,
+      "station": "Jaeger St & Whittier St",
+      "total_trips": 482,
+      "year": 2022
+    },
+    {
+      "end_trips": 233,
+      "start_trips": 236,
+      "station": "Grandview Library at Oakland Ave",
+      "total_trips": 469,
+      "year": 2022
+    },
+    {
+      "end_trips": 181,
+      "start_trips": 287,
+      "station": "Columbus Museum of Art",
+      "total_trips": 468,
+      "year": 2022
+    },
+    {
+      "end_trips": 198,
+      "start_trips": 236,
+      "station": "Thurman Ave & Bruck St",
+      "total_trips": 434,
+      "year": 2022
+    },
+    {
+      "end_trips": 220,
+      "start_trips": 208,
+      "station": "Broad St & Martin Ave",
+      "total_trips": 428,
+      "year": 2022
+    },
+    {
+      "end_trips": 207,
+      "start_trips": 219,
+      "station": "Mallway Park at Arlington Ave",
+      "total_trips": 426,
+      "year": 2022
+    },
+    {
+      "end_trips": 200,
+      "start_trips": 224,
+      "station": "Northwest Blvd & 3rd Ave",
+      "total_trips": 424,
+      "year": 2022
+    },
+    {
+      "end_trips": 191,
+      "start_trips": 204,
+      "station": "North Star Rd & Northwest Blvd",
+      "total_trips": 395,
+      "year": 2022
+    },
+    {
+      "end_trips": 179,
+      "start_trips": 173,
+      "station": "Bexley City Hall at Main St",
+      "total_trips": 352,
+      "year": 2022
+    },
+    {
+      "end_trips": 142,
+      "start_trips": 142,
+      "station": "Easton Square Pl & Townsfair Way",
+      "total_trips": 284,
+      "year": 2022
+    },
+    {
+      "end_trips": 124,
+      "start_trips": 159,
+      "station": "Champion Ave & Main St",
+      "total_trips": 283,
+      "year": 2022
+    },
+    {
+      "end_trips": 117,
+      "start_trips": 110,
+      "station": "Jeffrey Park on Clifton Ave",
+      "total_trips": 227,
+      "year": 2022
+    },
+    {
+      "end_trips": 83,
+      "start_trips": 127,
+      "station": "Cleveland Ave & 4th Ave",
+      "total_trips": 210,
+      "year": 2022
+    },
+    {
+      "end_trips": 91,
+      "start_trips": 111,
+      "station": "Grandon Ave & Main St",
+      "total_trips": 202,
+      "year": 2022
+    },
+    {
+      "end_trips": 74,
+      "start_trips": 89,
+      "station": "Pleasant Ridge Ave & Mound St",
+      "total_trips": 163,
+      "year": 2022
+    },
+    {
+      "end_trips": 68,
+      "start_trips": 90,
+      "station": "Linden Transit Center",
+      "total_trips": 158,
+      "year": 2022
+    },
+    {
+      "end_trips": 65,
+      "start_trips": 83,
+      "station": "Brighton Rose & Worth Ave",
+      "total_trips": 148,
+      "year": 2022
+    },
+    {
+      "end_trips": 66,
+      "start_trips": 76,
+      "station": "Stelzer Rd & Morse Rd",
+      "total_trips": 142,
+      "year": 2022
+    },
+    {
+      "end_trips": 65,
+      "start_trips": 75,
+      "station": "Library - Linden Branch",
+      "total_trips": 140,
+      "year": 2022
+    },
+    {
+      "end_trips": 68,
+      "start_trips": 60,
+      "station": "Easton Square Pl & Loyalty Circle",
+      "total_trips": 128,
+      "year": 2022
+    },
+    {
+      "end_trips": 62,
+      "start_trips": 65,
+      "station": "Tremont Center at Tremont Rd",
+      "total_trips": 127,
+      "year": 2022
+    },
+    {
+      "end_trips": 58,
+      "start_trips": 59,
+      "station": "Northwest Blvd and Zollinger Rd",
+      "total_trips": 117,
+      "year": 2022
+    },
+    {
+      "end_trips": 56,
+      "start_trips": 54,
+      "station": "St. Stephen's Community House",
+      "total_trips": 110,
+      "year": 2022
+    },
+    {
+      "end_trips": 48,
+      "start_trips": 60,
+      "station": "Easton Transit Center",
+      "total_trips": 108,
+      "year": 2022
+    },
+    {
+      "end_trips": 38,
+      "start_trips": 40,
+      "station": "High & Prescott",
+      "total_trips": 78,
+      "year": 2022
+    },
+    {
+      "end_trips": 33,
+      "start_trips": 44,
+      "station": "Seward St & Worth Ave",
+      "total_trips": 77,
+      "year": 2022
+    },
+    {
+      "end_trips": 42,
+      "start_trips": 34,
+      "station": "High & Lincoln",
+      "total_trips": 76,
+      "year": 2022
+    },
+    {
+      "end_trips": 31,
+      "start_trips": 25,
+      "station": "High & Hubbard",
+      "total_trips": 56,
+      "year": 2022
+    },
+    {
+      "end_trips": 23,
+      "start_trips": 24,
+      "station": "High & Russell",
+      "total_trips": 47,
+      "year": 2022
+    },
+    {
+      "end_trips": 22,
+      "start_trips": 23,
+      "station": "North  Market",
+      "total_trips": 45,
+      "year": 2022
+    },
+    {
+      "end_trips": 20,
+      "start_trips": 20,
+      "station": "High & Price/First",
+      "total_trips": 40,
+      "year": 2022
+    },
+    {
+      "end_trips": 14,
+      "start_trips": 19,
+      "station": "Bicentennial Public Rack",
+      "total_trips": 33,
+      "year": 2022
+    },
+    {
+      "end_trips": 14,
+      "start_trips": 13,
+      "station": "Easton Oval",
+      "total_trips": 27,
+      "year": 2022
+    },
+    {
+      "end_trips": 11,
+      "start_trips": 13,
+      "station": "Stelzer & Easton Way",
+      "total_trips": 24,
+      "year": 2022
+    },
+    {
+      "end_trips": 9,
+      "start_trips": 11,
+      "station": "DEV-ECO5-3",
+      "total_trips": 20,
+      "year": 2022
+    },
+    {
+      "end_trips": 12,
+      "start_trips": 3,
+      "station": "Ohio State Student Union",
+      "total_trips": 15,
+      "year": 2022
+    },
+    {
+      "end_trips": 5,
+      "start_trips": 7,
+      "station": "MTL lab CMH station 1",
+      "total_trips": 12,
+      "year": 2022
+    },
+    {
+      "end_trips": 4,
+      "start_trips": 5,
+      "station": "W. Broad St & Mc Dowell St",
+      "total_trips": 9,
+      "year": 2022
+    },
+    {
+      "end_trips": 3,
+      "start_trips": 3,
+      "station": "MTL lab CMH station 2",
+      "total_trips": 6,
+      "year": 2022
+    },
+    {
+      "end_trips": 2,
+      "start_trips": 2,
+      "station": "MTL-ECO5-1-LAB",
+      "total_trips": 4,
+      "year": 2022
+    },
+    {
+      "end_trips": 2,
+      "start_trips": 1,
+      "station": "DEV-ECO5-1",
+      "total_trips": 3,
+      "year": 2022
+    },
+    {
+      "end_trips": 0,
+      "start_trips": 1,
+      "station": "Cogo warehouse",
+      "total_trips": 1,
+      "year": 2022
+    },
+    {
+      "end_trips": 2402,
+      "start_trips": 2362,
+      "station": "Bicentennial Park",
+      "total_trips": 4764,
+      "year": 2023
+    },
+    {
+      "end_trips": 1797,
+      "start_trips": 1724,
+      "station": "High St & Warren",
+      "total_trips": 3521,
+      "year": 2023
+    },
+    {
+      "end_trips": 1580,
+      "start_trips": 1543,
+      "station": "Neil Ave & 10th Ave",
+      "total_trips": 3123,
+      "year": 2023
+    },
+    {
+      "end_trips": 1421,
+      "start_trips": 1499,
+      "station": "Scioto Audubon Center",
+      "total_trips": 2920,
+      "year": 2023
+    },
+    {
+      "end_trips": 1313,
+      "start_trips": 1529,
+      "station": "High St & Broad St",
+      "total_trips": 2842,
+      "year": 2023
+    },
+    {
+      "end_trips": 1328,
+      "start_trips": 1444,
+      "station": "North Bank Park",
+      "total_trips": 2772,
+      "year": 2023
+    },
+    {
+      "end_trips": 1350,
+      "start_trips": 1245,
+      "station": "3rd St & Gay St",
+      "total_trips": 2595,
+      "year": 2023
+    },
+    {
+      "end_trips": 1278,
+      "start_trips": 1293,
+      "station": "Parsons Ave & Oak St",
+      "total_trips": 2571,
+      "year": 2023
+    },
+    {
+      "end_trips": 1204,
+      "start_trips": 1228,
+      "station": "High St & 17th Ave",
+      "total_trips": 2432,
+      "year": 2023
+    },
+    {
+      "end_trips": 1100,
+      "start_trips": 1270,
+      "station": "High St & 2nd Ave",
+      "total_trips": 2370,
+      "year": 2023
+    },
+    {
+      "end_trips": 1224,
+      "start_trips": 1112,
+      "station": "3rd St & Sycamore St",
+      "total_trips": 2336,
+      "year": 2023
+    },
+    {
+      "end_trips": 1146,
+      "start_trips": 1144,
+      "station": "Yard St & Burr Ave",
+      "total_trips": 2290,
+      "year": 2023
+    },
+    {
+      "end_trips": 1115,
+      "start_trips": 1128,
+      "station": "Michigan Ave & 3rd Ave",
+      "total_trips": 2243,
+      "year": 2023
+    },
+    {
+      "end_trips": 1089,
+      "start_trips": 1094,
+      "station": "North  Market",
+      "total_trips": 2183,
+      "year": 2023
+    },
+    {
+      "end_trips": 1039,
+      "start_trips": 1132,
+      "station": "High St & 11th Ave",
+      "total_trips": 2171,
+      "year": 2023
+    },
+    {
+      "end_trips": 1131,
+      "start_trips": 1016,
+      "station": "Lucas St & Town St",
+      "total_trips": 2147,
+      "year": 2023
+    },
+    {
+      "end_trips": 980,
+      "start_trips": 1120,
+      "station": "Topiary Park - Town St",
+      "total_trips": 2100,
+      "year": 2023
+    },
+    {
+      "end_trips": 982,
+      "start_trips": 1106,
+      "station": "Neil Ave & King Ave",
+      "total_trips": 2088,
+      "year": 2023
+    },
+    {
+      "end_trips": 973,
+      "start_trips": 1086,
+      "station": "Neil Ave & Buttles Ave",
+      "total_trips": 2059,
+      "year": 2023
+    },
+    {
+      "end_trips": 999,
+      "start_trips": 1046,
+      "station": "COSI",
+      "total_trips": 2045,
+      "year": 2023
+    },
+    {
+      "end_trips": 885,
+      "start_trips": 986,
+      "station": "Convention Center",
+      "total_trips": 1871,
+      "year": 2023
+    },
+    {
+      "end_trips": 887,
+      "start_trips": 972,
+      "station": "City Hall",
+      "total_trips": 1859,
+      "year": 2023
+    },
+    {
+      "end_trips": 946,
+      "start_trips": 863,
+      "station": "Neil Ave & Nationwide Blvd",
+      "total_trips": 1809,
+      "year": 2023
+    },
+    {
+      "end_trips": 787,
+      "start_trips": 978,
+      "station": "Library - Main Branch",
+      "total_trips": 1765,
+      "year": 2023
+    },
+    {
+      "end_trips": 855,
+      "start_trips": 906,
+      "station": "Schiller Park - Stewart Ave",
+      "total_trips": 1761,
+      "year": 2023
+    },
+    {
+      "end_trips": 759,
+      "start_trips": 995,
+      "station": "High St & Spring St",
+      "total_trips": 1754,
+      "year": 2023
+    },
+    {
+      "end_trips": 896,
+      "start_trips": 856,
+      "station": "High St & Hudson St",
+      "total_trips": 1752,
+      "year": 2023
+    },
+    {
+      "end_trips": 811,
+      "start_trips": 930,
+      "station": "High St & King Ave",
+      "total_trips": 1741,
+      "year": 2023
+    },
+    {
+      "end_trips": 806,
+      "start_trips": 907,
+      "station": "Front St & Town St",
+      "total_trips": 1713,
+      "year": 2023
+    },
+    {
+      "end_trips": 818,
+      "start_trips": 877,
+      "station": "Library - Whetstone Branch",
+      "total_trips": 1695,
+      "year": 2023
+    },
+    {
+      "end_trips": 906,
+      "start_trips": 751,
+      "station": "Livingston Park",
+      "total_trips": 1657,
+      "year": 2023
+    },
+    {
+      "end_trips": 811,
+      "start_trips": 828,
+      "station": "High St & Lane Ave",
+      "total_trips": 1639,
+      "year": 2023
+    },
+    {
+      "end_trips": 699,
+      "start_trips": 881,
+      "station": "Sensenbrenner Park",
+      "total_trips": 1580,
+      "year": 2023
+    },
+    {
+      "end_trips": 774,
+      "start_trips": 799,
+      "station": "Nationwide Arena - Front St",
+      "total_trips": 1573,
+      "year": 2023
+    },
+    {
+      "end_trips": 750,
+      "start_trips": 808,
+      "station": "GO FITNESS IV (Italian Village) 4th/1st",
+      "total_trips": 1558,
+      "year": 2023
+    },
+    {
+      "end_trips": 748,
+      "start_trips": 762,
+      "station": "Columbus Commons - Rich St",
+      "total_trips": 1510,
+      "year": 2023
+    },
+    {
+      "end_trips": 730,
+      "start_trips": 771,
+      "station": "Front St & Beck St",
+      "total_trips": 1501,
+      "year": 2023
+    },
+    {
+      "end_trips": 771,
+      "start_trips": 729,
+      "station": "Columbus College of Art & Design",
+      "total_trips": 1500,
+      "year": 2023
+    },
+    {
+      "end_trips": 710,
+      "start_trips": 773,
+      "station": "4th St & Rich St",
+      "total_trips": 1483,
+      "year": 2023
+    },
+    {
+      "end_trips": 754,
+      "start_trips": 712,
+      "station": "Lane Ave at Olentangy Trail",
+      "total_trips": 1466,
+      "year": 2023
+    },
+    {
+      "end_trips": 643,
+      "start_trips": 806,
+      "station": "High St & 4th Ave",
+      "total_trips": 1449,
+      "year": 2023
+    },
+    {
+      "end_trips": 847,
+      "start_trips": 601,
+      "station": "Neiland and Nationwide",
+      "total_trips": 1448,
+      "year": 2023
+    },
+    {
+      "end_trips": 641,
+      "start_trips": 684,
+      "station": "Franklin Park at Fairwood Ave",
+      "total_trips": 1325,
+      "year": 2023
+    },
+    {
+      "end_trips": 648,
+      "start_trips": 655,
+      "station": "High St & Crestview Rd",
+      "total_trips": 1303,
+      "year": 2023
+    },
+    {
+      "end_trips": 615,
+      "start_trips": 679,
+      "station": "Thompson Park at Hunter Ave",
+      "total_trips": 1294,
+      "year": 2023
+    },
+    {
+      "end_trips": 624,
+      "start_trips": 629,
+      "station": "Bank St & Frankfort St",
+      "total_trips": 1253,
+      "year": 2023
+    },
+    {
+      "end_trips": 575,
+      "start_trips": 630,
+      "station": "Summit St & 17th Ave",
+      "total_trips": 1205,
+      "year": 2023
+    },
+    {
+      "end_trips": 614,
+      "start_trips": 523,
+      "station": "Cleveland Ave & Mt Vernon Ave",
+      "total_trips": 1137,
+      "year": 2023
+    },
+    {
+      "end_trips": 489,
+      "start_trips": 630,
+      "station": "Dorrian Commons - Mound St",
+      "total_trips": 1119,
+      "year": 2023
+    },
+    {
+      "end_trips": 551,
+      "start_trips": 564,
+      "station": "Taylor Ave & Long St",
+      "total_trips": 1115,
+      "year": 2023
+    },
+    {
+      "end_trips": 524,
+      "start_trips": 585,
+      "station": "Grant Ave & Main St",
+      "total_trips": 1109,
+      "year": 2023
+    },
+    {
+      "end_trips": 517,
+      "start_trips": 588,
+      "station": "Grandview Ave & 3rd Ave",
+      "total_trips": 1105,
+      "year": 2023
+    },
+    {
+      "end_trips": 482,
+      "start_trips": 618,
+      "station": "Summit St & Hudson St",
+      "total_trips": 1100,
+      "year": 2023
+    },
+    {
+      "end_trips": 492,
+      "start_trips": 524,
+      "station": "Market District & 3rd Ave",
+      "total_trips": 1016,
+      "year": 2023
+    },
+    {
+      "end_trips": 448,
+      "start_trips": 510,
+      "station": "Jaeger St & Whittier St",
+      "total_trips": 958,
+      "year": 2023
+    },
+    {
+      "end_trips": 489,
+      "start_trips": 469,
+      "station": "Northwest Blvd & 1st Ave",
+      "total_trips": 958,
+      "year": 2023
+    },
+    {
+      "end_trips": 459,
+      "start_trips": 495,
+      "station": "Broad St & Mc Dowell St",
+      "total_trips": 954,
+      "year": 2023
+    },
+    {
+      "end_trips": 452,
+      "start_trips": 498,
+      "station": "Northwest Blvd & Chambers Rd",
+      "total_trips": 950,
+      "year": 2023
+    },
+    {
+      "end_trips": 310,
+      "start_trips": 576,
+      "station": "Columbus Museum of Art",
+      "total_trips": 886,
+      "year": 2023
+    },
+    {
+      "end_trips": 396,
+      "start_trips": 401,
+      "station": "Weinland Park - 6th Ave",
+      "total_trips": 797,
+      "year": 2023
+    },
+    {
+      "end_trips": 375,
+      "start_trips": 362,
+      "station": "Thurman Ave & Bruck St",
+      "total_trips": 737,
+      "year": 2023
+    },
+    {
+      "end_trips": 351,
+      "start_trips": 332,
+      "station": "Library - Parsons Branch",
+      "total_trips": 683,
+      "year": 2023
+    },
+    {
+      "end_trips": 298,
+      "start_trips": 318,
+      "station": "Moeller Park at Bruck St",
+      "total_trips": 616,
+      "year": 2023
+    },
+    {
+      "end_trips": 258,
+      "start_trips": 319,
+      "station": "King Arts Complex",
+      "total_trips": 577,
+      "year": 2023
+    },
+    {
+      "end_trips": 265,
+      "start_trips": 306,
+      "station": "Northwest Blvd & 3rd Ave",
+      "total_trips": 571,
+      "year": 2023
+    },
+    {
+      "end_trips": 238,
+      "start_trips": 320,
+      "station": "Grandview Library at Oakland Ave",
+      "total_trips": 558,
+      "year": 2023
+    },
+    {
+      "end_trips": 261,
+      "start_trips": 293,
+      "station": "Broad St & Martin Ave",
+      "total_trips": 554,
+      "year": 2023
+    },
+    {
+      "end_trips": 240,
+      "start_trips": 235,
+      "station": "Kilbourne St & Vine St",
+      "total_trips": 475,
+      "year": 2023
+    },
+    {
+      "end_trips": 191,
+      "start_trips": 239,
+      "station": "Wellesley Dr & Lane Ave",
+      "total_trips": 430,
+      "year": 2023
+    },
+    {
+      "end_trips": 190,
+      "start_trips": 222,
+      "station": "Easton Square Pl & Townsfair Way",
+      "total_trips": 412,
+      "year": 2023
+    },
+    {
+      "end_trips": 184,
+      "start_trips": 214,
+      "station": "Mallway Park at Arlington Ave",
+      "total_trips": 398,
+      "year": 2023
+    },
+    {
+      "end_trips": 181,
+      "start_trips": 190,
+      "station": "Bexley City Hall at Main St",
+      "total_trips": 371,
+      "year": 2023
+    },
+    {
+      "end_trips": 166,
+      "start_trips": 195,
+      "station": "Grandon Ave & Main St",
+      "total_trips": 361,
+      "year": 2023
+    },
+    {
+      "end_trips": 157,
+      "start_trips": 204,
+      "station": "Cleveland Ave & 4th Ave",
+      "total_trips": 361,
+      "year": 2023
+    },
+    {
+      "end_trips": 145,
+      "start_trips": 174,
+      "station": "Pleasant Ridge Ave & Mound St",
+      "total_trips": 319,
+      "year": 2023
+    },
+    {
+      "end_trips": 125,
+      "start_trips": 162,
+      "station": "North Star Rd & Northwest Blvd",
+      "total_trips": 287,
+      "year": 2023
+    },
+    {
+      "end_trips": 122,
+      "start_trips": 144,
+      "station": "Library - Linden Branch",
+      "total_trips": 266,
+      "year": 2023
+    },
+    {
+      "end_trips": 103,
+      "start_trips": 154,
+      "station": "Champion Ave & Main St",
+      "total_trips": 257,
+      "year": 2023
+    },
+    {
+      "end_trips": 128,
+      "start_trips": 115,
+      "station": "Seward St & Worth Ave",
+      "total_trips": 243,
+      "year": 2023
+    },
+    {
+      "end_trips": 114,
+      "start_trips": 113,
+      "station": "Jeffrey Park on Clifton Ave",
+      "total_trips": 227,
+      "year": 2023
+    },
+    {
+      "end_trips": 88,
+      "start_trips": 107,
+      "station": "Northwest Blvd and Zollinger Rd",
+      "total_trips": 195,
+      "year": 2023
+    },
+    {
+      "end_trips": 95,
+      "start_trips": 98,
+      "station": "Tremont Center at Tremont Rd",
+      "total_trips": 193,
+      "year": 2023
+    },
+    {
+      "end_trips": 89,
+      "start_trips": 91,
+      "station": "Brighton Rose & Worth Ave",
+      "total_trips": 180,
+      "year": 2023
+    },
+    {
+      "end_trips": 65,
+      "start_trips": 69,
+      "station": "St. Stephen's Community House",
+      "total_trips": 134,
+      "year": 2023
+    },
+    {
+      "end_trips": 47,
+      "start_trips": 44,
+      "station": "Easton Square Pl & Loyalty Circle",
+      "total_trips": 91,
+      "year": 2023
+    },
+    {
+      "end_trips": 32,
+      "start_trips": 49,
+      "station": "Easton Transit Center",
+      "total_trips": 81,
+      "year": 2023
+    },
+    {
+      "end_trips": 36,
+      "start_trips": 36,
+      "station": "Stelzer & Easton Way",
+      "total_trips": 72,
+      "year": 2023
+    },
+    {
+      "end_trips": 24,
+      "start_trips": 46,
+      "station": "Bicentennial Public Rack",
+      "total_trips": 70,
+      "year": 2023
+    },
+    {
+      "end_trips": 27,
+      "start_trips": 35,
+      "station": "Stelzer Rd & Morse Rd",
+      "total_trips": 62,
+      "year": 2023
+    },
+    {
+      "end_trips": 18,
+      "start_trips": 42,
+      "station": "Linden Transit Center",
+      "total_trips": 60,
+      "year": 2023
+    },
+    {
+      "end_trips": 27,
+      "start_trips": 20,
+      "station": "Easton Oval",
+      "total_trips": 47,
+      "year": 2023
+    },
+    {
+      "end_trips": 9,
+      "start_trips": 9,
+      "station": "MTL lab CMH station 1",
+      "total_trips": 18,
+      "year": 2023
+    },
+    {
+      "end_trips": 8,
+      "start_trips": 6,
+      "station": "High & Lincoln",
+      "total_trips": 14,
+      "year": 2023
+    },
+    {
+      "end_trips": 7,
+      "start_trips": 6,
+      "station": "High & Price/First",
+      "total_trips": 13,
+      "year": 2023
+    },
+    {
+      "end_trips": 4,
+      "start_trips": 4,
+      "station": "High & Prescott",
+      "total_trips": 8,
+      "year": 2023
+    },
+    {
+      "end_trips": 4,
+      "start_trips": 3,
+      "station": "McKinley Ave COTA Facility",
+      "total_trips": 7,
+      "year": 2023
+    },
+    {
+      "end_trips": 4,
+      "start_trips": 3,
+      "station": "High & Russell",
+      "total_trips": 7,
+      "year": 2023
+    },
+    {
+      "end_trips": 3,
+      "start_trips": 1,
+      "station": "High & Hubbard",
+      "total_trips": 4,
+      "year": 2023
+    },
+    {
+      "end_trips": 1,
+      "start_trips": 1,
+      "station": "DEV-SIM-1",
+      "total_trips": 2,
+      "year": 2023
+    },
+    {
+      "end_trips": 1,
+      "start_trips": 0,
+      "station": "Cogo warehouse",
+      "total_trips": 1,
+      "year": 2023
+    },
+    {
+      "end_trips": 2206,
+      "start_trips": 2177,
+      "station": "Bicentennial Park",
+      "total_trips": 4383,
+      "year": 2024
+    },
+    {
+      "end_trips": 1878,
+      "start_trips": 1816,
+      "station": "High St & Warren",
+      "total_trips": 3694,
+      "year": 2024
+    },
+    {
+      "end_trips": 1489,
+      "start_trips": 1354,
+      "station": "Yard St & Burr Ave",
+      "total_trips": 2843,
+      "year": 2024
+    },
+    {
+      "end_trips": 1410,
+      "start_trips": 1417,
+      "station": "Scioto Audubon Center",
+      "total_trips": 2827,
+      "year": 2024
+    },
+    {
+      "end_trips": 1281,
+      "start_trips": 1420,
+      "station": "North Bank Park",
+      "total_trips": 2701,
+      "year": 2024
+    },
+    {
+      "end_trips": 1203,
+      "start_trips": 1367,
+      "station": "Topiary Park - Town St",
+      "total_trips": 2570,
+      "year": 2024
+    },
+    {
+      "end_trips": 1222,
+      "start_trips": 1337,
+      "station": "Neil Ave & 10th Ave",
+      "total_trips": 2559,
+      "year": 2024
+    },
+    {
+      "end_trips": 1206,
+      "start_trips": 1309,
+      "station": "Neil Ave & Buttles Ave",
+      "total_trips": 2515,
+      "year": 2024
+    },
+    {
+      "end_trips": 1152,
+      "start_trips": 1298,
+      "station": "High St & 2nd Ave",
+      "total_trips": 2450,
+      "year": 2024
+    },
+    {
+      "end_trips": 1255,
+      "start_trips": 1191,
+      "station": "High St & 17th Ave",
+      "total_trips": 2446,
+      "year": 2024
+    },
+    {
+      "end_trips": 1280,
+      "start_trips": 1165,
+      "station": "3rd St & Gay St",
+      "total_trips": 2445,
+      "year": 2024
+    },
+    {
+      "end_trips": 1093,
+      "start_trips": 1236,
+      "station": "High St & Broad St",
+      "total_trips": 2329,
+      "year": 2024
+    },
+    {
+      "end_trips": 1160,
+      "start_trips": 1089,
+      "station": "Parsons Ave & Oak St",
+      "total_trips": 2249,
+      "year": 2024
+    },
+    {
+      "end_trips": 1118,
+      "start_trips": 1051,
+      "station": "3rd St & Sycamore St",
+      "total_trips": 2169,
+      "year": 2024
+    },
+    {
+      "end_trips": 1125,
+      "start_trips": 976,
+      "station": "Lucas St & Town St",
+      "total_trips": 2101,
+      "year": 2024
+    },
+    {
+      "end_trips": 1032,
+      "start_trips": 1060,
+      "station": "Michigan Ave & 3rd Ave",
+      "total_trips": 2092,
+      "year": 2024
+    },
+    {
+      "end_trips": 1073,
+      "start_trips": 990,
+      "station": "High St & 11th Ave",
+      "total_trips": 2063,
+      "year": 2024
+    },
+    {
+      "end_trips": 979,
+      "start_trips": 1071,
+      "station": "Front St & Beck St",
+      "total_trips": 2050,
+      "year": 2024
+    },
+    {
+      "end_trips": 952,
+      "start_trips": 1034,
+      "station": "Library - Main Branch",
+      "total_trips": 1986,
+      "year": 2024
+    },
+    {
+      "end_trips": 1015,
+      "start_trips": 952,
+      "station": "North  Market",
+      "total_trips": 1967,
+      "year": 2024
+    },
+    {
+      "end_trips": 926,
+      "start_trips": 1005,
+      "station": "COSI",
+      "total_trips": 1931,
+      "year": 2024
+    },
+    {
+      "end_trips": 931,
+      "start_trips": 988,
+      "station": "Convention Center",
+      "total_trips": 1919,
+      "year": 2024
+    },
+    {
+      "end_trips": 882,
+      "start_trips": 903,
+      "station": "Schiller Park - Stewart Ave",
+      "total_trips": 1785,
+      "year": 2024
+    },
+    {
+      "end_trips": 833,
+      "start_trips": 924,
+      "station": "GO FITNESS IV (Italian Village) 4th/1st",
+      "total_trips": 1757,
+      "year": 2024
+    },
+    {
+      "end_trips": 834,
+      "start_trips": 894,
+      "station": "Front St & Town St",
+      "total_trips": 1728,
+      "year": 2024
+    },
+    {
+      "end_trips": 851,
+      "start_trips": 852,
+      "station": "Neil Ave & Nationwide Blvd",
+      "total_trips": 1703,
+      "year": 2024
+    },
+    {
+      "end_trips": 745,
+      "start_trips": 956,
+      "station": "Neil Ave & King Ave",
+      "total_trips": 1701,
+      "year": 2024
+    },
+    {
+      "end_trips": 770,
+      "start_trips": 859,
+      "station": "Columbus Commons - Rich St",
+      "total_trips": 1629,
+      "year": 2024
+    },
+    {
+      "end_trips": 939,
+      "start_trips": 681,
+      "station": "Neiland and Nationwide",
+      "total_trips": 1620,
+      "year": 2024
+    },
+    {
+      "end_trips": 802,
+      "start_trips": 800,
+      "station": "Columbus College of Art & Design",
+      "total_trips": 1602,
+      "year": 2024
+    },
+    {
+      "end_trips": 749,
+      "start_trips": 850,
+      "station": "High St & King Ave",
+      "total_trips": 1599,
+      "year": 2024
+    },
+    {
+      "end_trips": 735,
+      "start_trips": 839,
+      "station": "4th St & Rich St",
+      "total_trips": 1574,
+      "year": 2024
+    },
+    {
+      "end_trips": 787,
+      "start_trips": 767,
+      "station": "Lane Ave at Olentangy Trail",
+      "total_trips": 1554,
+      "year": 2024
+    },
+    {
+      "end_trips": 749,
+      "start_trips": 764,
+      "station": "High St & Lane Ave",
+      "total_trips": 1513,
+      "year": 2024
+    },
+    {
+      "end_trips": 742,
+      "start_trips": 769,
+      "station": "Nationwide Arena - Front St",
+      "total_trips": 1511,
+      "year": 2024
+    },
+    {
+      "end_trips": 635,
+      "start_trips": 778,
+      "station": "Thompson Park at Hunter Ave",
+      "total_trips": 1413,
+      "year": 2024
+    },
+    {
+      "end_trips": 641,
+      "start_trips": 769,
+      "station": "Livingston Park",
+      "total_trips": 1410,
+      "year": 2024
+    },
+    {
+      "end_trips": 628,
+      "start_trips": 751,
+      "station": "City Hall",
+      "total_trips": 1379,
+      "year": 2024
+    },
+    {
+      "end_trips": 627,
+      "start_trips": 737,
+      "station": "High St & Hudson St",
+      "total_trips": 1364,
+      "year": 2024
+    },
+    {
+      "end_trips": 553,
+      "start_trips": 755,
+      "station": "High St & Spring St",
+      "total_trips": 1308,
+      "year": 2024
+    },
+    {
+      "end_trips": 632,
+      "start_trips": 649,
+      "station": "Franklin Park at Fairwood Ave",
+      "total_trips": 1281,
+      "year": 2024
+    },
+    {
+      "end_trips": 615,
+      "start_trips": 650,
+      "station": "Market District & 3rd Ave",
+      "total_trips": 1265,
+      "year": 2024
+    },
+    {
+      "end_trips": 504,
+      "start_trips": 695,
+      "station": "High St & 4th Ave",
+      "total_trips": 1199,
+      "year": 2024
+    },
+    {
+      "end_trips": 522,
+      "start_trips": 664,
+      "station": "Summit St & Hudson St",
+      "total_trips": 1186,
+      "year": 2024
+    },
+    {
+      "end_trips": 574,
+      "start_trips": 579,
+      "station": "Bank St & Frankfort St",
+      "total_trips": 1153,
+      "year": 2024
+    },
+    {
+      "end_trips": 543,
+      "start_trips": 601,
+      "station": "Library - Whetstone Branch",
+      "total_trips": 1144,
+      "year": 2024
+    },
+    {
+      "end_trips": 461,
+      "start_trips": 668,
+      "station": "Sensenbrenner Park",
+      "total_trips": 1129,
+      "year": 2024
+    },
+    {
+      "end_trips": 522,
+      "start_trips": 573,
+      "station": "Dorrian Commons - Mound St",
+      "total_trips": 1095,
+      "year": 2024
+    },
+    {
+      "end_trips": 483,
+      "start_trips": 570,
+      "station": "Summit St & 17th Ave",
+      "total_trips": 1053,
+      "year": 2024
+    },
+    {
+      "end_trips": 486,
+      "start_trips": 557,
+      "station": "Northwest Blvd & 1st Ave",
+      "total_trips": 1043,
+      "year": 2024
+    },
+    {
+      "end_trips": 475,
+      "start_trips": 560,
+      "station": "Jaeger St & Whittier St",
+      "total_trips": 1035,
+      "year": 2024
+    },
+    {
+      "end_trips": 462,
+      "start_trips": 481,
+      "station": "High St & Crestview Rd",
+      "total_trips": 943,
+      "year": 2024
+    },
+    {
+      "end_trips": 439,
+      "start_trips": 460,
+      "station": "Grandview Ave & 3rd Ave",
+      "total_trips": 899,
+      "year": 2024
+    },
+    {
+      "end_trips": 484,
+      "start_trips": 410,
+      "station": "Taylor Ave & Long St",
+      "total_trips": 894,
+      "year": 2024
+    },
+    {
+      "end_trips": 399,
+      "start_trips": 418,
+      "station": "Weinland Park - 6th Ave",
+      "total_trips": 817,
+      "year": 2024
+    },
+    {
+      "end_trips": 377,
+      "start_trips": 405,
+      "station": "Broad St & Mc Dowell St",
+      "total_trips": 782,
+      "year": 2024
+    },
+    {
+      "end_trips": 411,
+      "start_trips": 368,
+      "station": "Grant Ave & Main St",
+      "total_trips": 779,
+      "year": 2024
+    },
+    {
+      "end_trips": 316,
+      "start_trips": 369,
+      "station": "Northwest Blvd & Chambers Rd",
+      "total_trips": 685,
+      "year": 2024
+    },
+    {
+      "end_trips": 202,
+      "start_trips": 454,
+      "station": "Columbus Museum of Art",
+      "total_trips": 656,
+      "year": 2024
+    },
+    {
+      "end_trips": 350,
+      "start_trips": 298,
+      "station": "Cleveland Ave & Mt Vernon Ave",
+      "total_trips": 648,
+      "year": 2024
+    },
+    {
+      "end_trips": 286,
+      "start_trips": 328,
+      "station": "Broad St & Martin Ave",
+      "total_trips": 614,
+      "year": 2024
+    },
+    {
+      "end_trips": 295,
+      "start_trips": 308,
+      "station": "Library - Parsons Branch",
+      "total_trips": 603,
+      "year": 2024
+    },
+    {
+      "end_trips": 258,
+      "start_trips": 312,
+      "station": "King Arts Complex",
+      "total_trips": 570,
+      "year": 2024
+    },
+    {
+      "end_trips": 245,
+      "start_trips": 287,
+      "station": "Cleveland Ave & 4th Ave",
+      "total_trips": 532,
+      "year": 2024
+    },
+    {
+      "end_trips": 255,
+      "start_trips": 257,
+      "station": "Northwest Blvd & 3rd Ave",
+      "total_trips": 512,
+      "year": 2024
+    },
+    {
+      "end_trips": 250,
+      "start_trips": 259,
+      "station": "Wellesley Dr & Lane Ave",
+      "total_trips": 509,
+      "year": 2024
+    },
+    {
+      "end_trips": 227,
+      "start_trips": 267,
+      "station": "Grandview Library at Oakland Ave",
+      "total_trips": 494,
+      "year": 2024
+    },
+    {
+      "end_trips": 232,
+      "start_trips": 260,
+      "station": "Moeller Park at Bruck St",
+      "total_trips": 492,
+      "year": 2024
+    },
+    {
+      "end_trips": 213,
+      "start_trips": 209,
+      "station": "Thurman Ave & Bruck St",
+      "total_trips": 422,
+      "year": 2024
+    },
+    {
+      "end_trips": 171,
+      "start_trips": 213,
+      "station": "Kilbourne St & Vine St",
+      "total_trips": 384,
+      "year": 2024
+    },
+    {
+      "end_trips": 178,
+      "start_trips": 183,
+      "station": "Mallway Park at Arlington Ave",
+      "total_trips": 361,
+      "year": 2024
+    },
+    {
+      "end_trips": 173,
+      "start_trips": 163,
+      "station": "Easton Square Pl & Townsfair Way",
+      "total_trips": 336,
+      "year": 2024
+    },
+    {
+      "end_trips": 160,
+      "start_trips": 168,
+      "station": "Tremont Center at Tremont Rd",
+      "total_trips": 328,
+      "year": 2024
+    },
+    {
+      "end_trips": 130,
+      "start_trips": 155,
+      "station": "Grandon Ave & Main St",
+      "total_trips": 285,
+      "year": 2024
+    },
+    {
+      "end_trips": 126,
+      "start_trips": 152,
+      "station": "North Star Rd & Northwest Blvd",
+      "total_trips": 278,
+      "year": 2024
+    },
+    {
+      "end_trips": 126,
+      "start_trips": 146,
+      "station": "Champion Ave & Main St",
+      "total_trips": 272,
+      "year": 2024
+    },
+    {
+      "end_trips": 131,
+      "start_trips": 136,
+      "station": "Bexley City Hall at Main St",
+      "total_trips": 267,
+      "year": 2024
+    },
+    {
+      "end_trips": 116,
+      "start_trips": 128,
+      "station": "Pleasant Ridge Ave & Mound St",
+      "total_trips": 244,
+      "year": 2024
+    },
+    {
+      "end_trips": 110,
+      "start_trips": 132,
+      "station": "Jeffrey Park on Clifton Ave",
+      "total_trips": 242,
+      "year": 2024
+    },
+    {
+      "end_trips": 110,
+      "start_trips": 126,
+      "station": "Seward St & Worth Ave",
+      "total_trips": 236,
+      "year": 2024
+    },
+    {
+      "end_trips": 90,
+      "start_trips": 102,
+      "station": "Brighton Rose & Worth Ave",
+      "total_trips": 192,
+      "year": 2024
+    },
+    {
+      "end_trips": 82,
+      "start_trips": 90,
+      "station": "Northwest Blvd and Zollinger Rd",
+      "total_trips": 172,
+      "year": 2024
+    },
+    {
+      "end_trips": 77,
+      "start_trips": 92,
+      "station": "Library - Linden Branch",
+      "total_trips": 169,
+      "year": 2024
+    },
+    {
+      "end_trips": 56,
+      "start_trips": 71,
+      "station": "Stelzer Rd & Morse Rd",
+      "total_trips": 127,
+      "year": 2024
+    },
+    {
+      "end_trips": 52,
+      "start_trips": 60,
+      "station": "Bicentennial Public Rack",
+      "total_trips": 112,
+      "year": 2024
+    },
+    {
+      "end_trips": 41,
+      "start_trips": 54,
+      "station": "Easton Square Pl & Loyalty Circle",
+      "total_trips": 95,
+      "year": 2024
+    },
+    {
+      "end_trips": 34,
+      "start_trips": 48,
+      "station": "Easton Transit Center",
+      "total_trips": 82,
+      "year": 2024
+    },
+    {
+      "end_trips": 37,
+      "start_trips": 29,
+      "station": "St. Stephen's Community House",
+      "total_trips": 66,
+      "year": 2024
+    },
+    {
+      "end_trips": 25,
+      "start_trips": 40,
+      "station": "Linden Transit Center",
+      "total_trips": 65,
+      "year": 2024
+    },
+    {
+      "end_trips": 27,
+      "start_trips": 27,
+      "station": "Stelzer & Easton Way",
+      "total_trips": 54,
+      "year": 2024
+    },
+    {
+      "end_trips": 27,
+      "start_trips": 25,
+      "station": "McKinley Ave COTA Facility",
+      "total_trips": 52,
+      "year": 2024
+    },
+    {
+      "end_trips": 14,
+      "start_trips": 12,
+      "station": "Easton Oval",
+      "total_trips": 26,
+      "year": 2024
+    },
+    {
+      "end_trips": 1,
+      "start_trips": 0,
+      "station": "Cogo warehouse",
+      "total_trips": 1,
+      "year": 2024
+    },
+    {
+      "end_trips": 99,
+      "start_trips": 73,
+      "station": "Schiller Park - Stewart Ave",
+      "total_trips": 172,
+      "year": 2025
+    },
+    {
+      "end_trips": 74,
+      "start_trips": 88,
+      "station": "Neil Ave & 10th Ave",
+      "total_trips": 162,
+      "year": 2025
+    },
+    {
+      "end_trips": 68,
+      "start_trips": 59,
+      "station": "3rd St & Gay St",
+      "total_trips": 127,
+      "year": 2025
+    },
+    {
+      "end_trips": 67,
+      "start_trips": 46,
+      "station": "High St & 17th Ave",
+      "total_trips": 113,
+      "year": 2025
+    },
+    {
+      "end_trips": 42,
+      "start_trips": 62,
+      "station": "Neil Ave & King Ave",
+      "total_trips": 104,
+      "year": 2025
+    },
+    {
+      "end_trips": 50,
+      "start_trips": 53,
+      "station": "High St & Warren",
+      "total_trips": 103,
+      "year": 2025
+    },
+    {
+      "end_trips": 46,
+      "start_trips": 53,
+      "station": "Livingston Park",
+      "total_trips": 99,
+      "year": 2025
+    },
+    {
+      "end_trips": 49,
+      "start_trips": 49,
+      "station": "Columbus College of Art & Design",
+      "total_trips": 98,
+      "year": 2025
+    },
+    {
+      "end_trips": 46,
+      "start_trips": 47,
+      "station": "Topiary Park - Town St",
+      "total_trips": 93,
+      "year": 2025
+    },
+    {
+      "end_trips": 49,
+      "start_trips": 42,
+      "station": "Front St & Beck St",
+      "total_trips": 91,
+      "year": 2025
+    },
+    {
+      "end_trips": 40,
+      "start_trips": 49,
+      "station": "High St & 11th Ave",
+      "total_trips": 89,
+      "year": 2025
+    },
+    {
+      "end_trips": 43,
+      "start_trips": 45,
+      "station": "Bicentennial Park",
+      "total_trips": 88,
+      "year": 2025
+    },
+    {
+      "end_trips": 44,
+      "start_trips": 41,
+      "station": "Yard St & Burr Ave",
+      "total_trips": 85,
+      "year": 2025
+    },
+    {
+      "end_trips": 42,
+      "start_trips": 38,
+      "station": "Parsons Ave & Oak St",
+      "total_trips": 80,
+      "year": 2025
+    },
+    {
+      "end_trips": 44,
+      "start_trips": 33,
+      "station": "Michigan Ave & 3rd Ave",
+      "total_trips": 77,
+      "year": 2025
+    },
+    {
+      "end_trips": 47,
+      "start_trips": 29,
+      "station": "High St & King Ave",
+      "total_trips": 76,
+      "year": 2025
+    },
+    {
+      "end_trips": 34,
+      "start_trips": 38,
+      "station": "High St & Broad St",
+      "total_trips": 72,
+      "year": 2025
+    },
+    {
+      "end_trips": 25,
+      "start_trips": 37,
+      "station": "GO FITNESS IV (Italian Village) 4th/1st",
+      "total_trips": 62,
+      "year": 2025
+    },
+    {
+      "end_trips": 28,
+      "start_trips": 33,
+      "station": "Dorrian Commons - Mound St",
+      "total_trips": 61,
+      "year": 2025
+    },
+    {
+      "end_trips": 28,
+      "start_trips": 31,
+      "station": "Nationwide Arena - Front St",
+      "total_trips": 59,
+      "year": 2025
+    },
+    {
+      "end_trips": 26,
+      "start_trips": 32,
+      "station": "Neil Ave & Buttles Ave",
+      "total_trips": 58,
+      "year": 2025
+    },
+    {
+      "end_trips": 16,
+      "start_trips": 40,
+      "station": "Columbus Museum of Art",
+      "total_trips": 56,
+      "year": 2025
+    },
+    {
+      "end_trips": 29,
+      "start_trips": 27,
+      "station": "North  Market",
+      "total_trips": 56,
+      "year": 2025
+    },
+    {
+      "end_trips": 27,
+      "start_trips": 28,
+      "station": "Library - Main Branch",
+      "total_trips": 55,
+      "year": 2025
+    },
+    {
+      "end_trips": 20,
+      "start_trips": 31,
+      "station": "High St & Lane Ave",
+      "total_trips": 51,
+      "year": 2025
+    },
+    {
+      "end_trips": 20,
+      "start_trips": 27,
+      "station": "Summit St & Hudson St",
+      "total_trips": 47,
+      "year": 2025
+    },
+    {
+      "end_trips": 24,
+      "start_trips": 22,
+      "station": "Front St & Town St",
+      "total_trips": 46,
+      "year": 2025
+    },
+    {
+      "end_trips": 24,
+      "start_trips": 20,
+      "station": "Grant Ave & Main St",
+      "total_trips": 44,
+      "year": 2025
+    },
+    {
+      "end_trips": 13,
+      "start_trips": 29,
+      "station": "High St & 2nd Ave",
+      "total_trips": 42,
+      "year": 2025
+    },
+    {
+      "end_trips": 21,
+      "start_trips": 19,
+      "station": "3rd St & Sycamore St",
+      "total_trips": 40,
+      "year": 2025
+    },
+    {
+      "end_trips": 18,
+      "start_trips": 22,
+      "station": "Sensenbrenner Park",
+      "total_trips": 40,
+      "year": 2025
+    },
+    {
+      "end_trips": 15,
+      "start_trips": 23,
+      "station": "Jaeger St & Whittier St",
+      "total_trips": 38,
+      "year": 2025
+    },
+    {
+      "end_trips": 18,
+      "start_trips": 19,
+      "station": "Convention Center",
+      "total_trips": 37,
+      "year": 2025
+    },
+    {
+      "end_trips": 12,
+      "start_trips": 24,
+      "station": "4th St & Rich St",
+      "total_trips": 36,
+      "year": 2025
+    },
+    {
+      "end_trips": 14,
+      "start_trips": 22,
+      "station": "Summit St & 17th Ave",
+      "total_trips": 36,
+      "year": 2025
+    },
+    {
+      "end_trips": 18,
+      "start_trips": 17,
+      "station": "Seward St & Worth Ave",
+      "total_trips": 35,
+      "year": 2025
+    },
+    {
+      "end_trips": 16,
+      "start_trips": 15,
+      "station": "Cleveland Ave & Mt Vernon Ave",
+      "total_trips": 31,
+      "year": 2025
+    },
+    {
+      "end_trips": 10,
+      "start_trips": 20,
+      "station": "Thompson Park at Hunter Ave",
+      "total_trips": 30,
+      "year": 2025
+    },
+    {
+      "end_trips": 10,
+      "start_trips": 19,
+      "station": "COSI",
+      "total_trips": 29,
+      "year": 2025
+    },
+    {
+      "end_trips": 16,
+      "start_trips": 12,
+      "station": "Lane Ave at Olentangy Trail",
+      "total_trips": 28,
+      "year": 2025
+    },
+    {
+      "end_trips": 13,
+      "start_trips": 14,
+      "station": "Columbus Commons - Rich St",
+      "total_trips": 27,
+      "year": 2025
+    },
+    {
+      "end_trips": 10,
+      "start_trips": 17,
+      "station": "Weinland Park - 6th Ave",
+      "total_trips": 27,
+      "year": 2025
+    },
+    {
+      "end_trips": 12,
+      "start_trips": 14,
+      "station": "Broad St & Mc Dowell St",
+      "total_trips": 26,
+      "year": 2025
+    },
+    {
+      "end_trips": 11,
+      "start_trips": 15,
+      "station": "High St & 4th Ave",
+      "total_trips": 26,
+      "year": 2025
+    },
+    {
+      "end_trips": 14,
+      "start_trips": 12,
+      "station": "Lucas St & Town St",
+      "total_trips": 26,
+      "year": 2025
+    },
+    {
+      "end_trips": 12,
+      "start_trips": 13,
+      "station": "Market District & 3rd Ave",
+      "total_trips": 25,
+      "year": 2025
+    },
+    {
+      "end_trips": 12,
+      "start_trips": 13,
+      "station": "Northwest Blvd & 1st Ave",
+      "total_trips": 25,
+      "year": 2025
+    },
+    {
+      "end_trips": 12,
+      "start_trips": 13,
+      "station": "Neiland and Nationwide",
+      "total_trips": 25,
+      "year": 2025
+    },
+    {
+      "end_trips": 8,
+      "start_trips": 16,
+      "station": "North Bank Park",
+      "total_trips": 24,
+      "year": 2025
+    },
+    {
+      "end_trips": 8,
+      "start_trips": 14,
+      "station": "Bank St & Frankfort St",
+      "total_trips": 22,
+      "year": 2025
+    },
+    {
+      "end_trips": 11,
+      "start_trips": 11,
+      "station": "Easton Square Pl & Townsfair Way",
+      "total_trips": 22,
+      "year": 2025
+    },
+    {
+      "end_trips": 14,
+      "start_trips": 8,
+      "station": "Grandview Library at Oakland Ave",
+      "total_trips": 22,
+      "year": 2025
+    },
+    {
+      "end_trips": 5,
+      "start_trips": 15,
+      "station": "King Arts Complex",
+      "total_trips": 20,
+      "year": 2025
+    },
+    {
+      "end_trips": 8,
+      "start_trips": 10,
+      "station": "Franklin Park at Fairwood Ave",
+      "total_trips": 18,
+      "year": 2025
+    },
+    {
+      "end_trips": 5,
+      "start_trips": 13,
+      "station": "Grandview Ave & 3rd Ave",
+      "total_trips": 18,
+      "year": 2025
+    },
+    {
+      "end_trips": 9,
+      "start_trips": 9,
+      "station": "Neil Ave & Nationwide Blvd",
+      "total_trips": 18,
+      "year": 2025
+    },
+    {
+      "end_trips": 8,
+      "start_trips": 9,
+      "station": "High St & Spring St",
+      "total_trips": 17,
+      "year": 2025
+    },
+    {
+      "end_trips": 5,
+      "start_trips": 12,
+      "station": "Northwest Blvd & Chambers Rd",
+      "total_trips": 17,
+      "year": 2025
+    },
+    {
+      "end_trips": 6,
+      "start_trips": 11,
+      "station": "Cleveland Ave & 4th Ave",
+      "total_trips": 17,
+      "year": 2025
+    },
+    {
+      "end_trips": 11,
+      "start_trips": 4,
+      "station": "High St & Crestview Rd",
+      "total_trips": 15,
+      "year": 2025
+    },
+    {
+      "end_trips": 9,
+      "start_trips": 6,
+      "station": "Northwest Blvd & 3rd Ave",
+      "total_trips": 15,
+      "year": 2025
+    },
+    {
+      "end_trips": 8,
+      "start_trips": 6,
+      "station": "Pleasant Ridge Ave & Mound St",
+      "total_trips": 14,
+      "year": 2025
+    },
+    {
+      "end_trips": 6,
+      "start_trips": 6,
+      "station": "Thurman Ave & Bruck St",
+      "total_trips": 12,
+      "year": 2025
+    },
+    {
+      "end_trips": 5,
+      "start_trips": 7,
+      "station": "Scioto Audubon Center",
+      "total_trips": 12,
+      "year": 2025
+    },
+    {
+      "end_trips": 5,
+      "start_trips": 7,
+      "station": "City Hall",
+      "total_trips": 12,
+      "year": 2025
+    },
+    {
+      "end_trips": 7,
+      "start_trips": 5,
+      "station": "Library - Parsons Branch",
+      "total_trips": 12,
+      "year": 2025
+    },
+    {
+      "end_trips": 6,
+      "start_trips": 5,
+      "station": "Moeller Park at Bruck St",
+      "total_trips": 11,
+      "year": 2025
+    },
+    {
+      "end_trips": 6,
+      "start_trips": 5,
+      "station": "High St & Hudson St",
+      "total_trips": 11,
+      "year": 2025
+    },
+    {
+      "end_trips": 4,
+      "start_trips": 7,
+      "station": "Taylor Ave & Long St",
+      "total_trips": 11,
+      "year": 2025
+    },
+    {
+      "end_trips": 3,
+      "start_trips": 6,
+      "station": "Library - Whetstone Branch",
+      "total_trips": 9,
+      "year": 2025
+    },
+    {
+      "end_trips": 2,
+      "start_trips": 7,
+      "station": "Wellesley Dr & Lane Ave",
+      "total_trips": 9,
+      "year": 2025
+    },
+    {
+      "end_trips": 3,
+      "start_trips": 4,
+      "station": "Library - Linden Branch",
+      "total_trips": 7,
+      "year": 2025
+    },
+    {
+      "end_trips": 3,
+      "start_trips": 4,
+      "station": "Stelzer Rd & Morse Rd",
+      "total_trips": 7,
+      "year": 2025
+    },
+    {
+      "end_trips": 1,
+      "start_trips": 6,
+      "station": "Kilbourne St & Vine St",
+      "total_trips": 7,
+      "year": 2025
+    },
+    {
+      "end_trips": 2,
+      "start_trips": 4,
+      "station": "Linden Transit Center",
+      "total_trips": 6,
+      "year": 2025
+    },
+    {
+      "end_trips": 2,
+      "start_trips": 3,
+      "station": "Broad St & Martin Ave",
+      "total_trips": 5,
+      "year": 2025
+    },
+    {
+      "end_trips": 3,
+      "start_trips": 1,
+      "station": "North Star Rd & Northwest Blvd",
+      "total_trips": 4,
+      "year": 2025
+    },
+    {
+      "end_trips": 1,
+      "start_trips": 3,
+      "station": "Brighton Rose & Worth Ave",
+      "total_trips": 4,
+      "year": 2025
+    },
+    {
+      "end_trips": 1,
+      "start_trips": 3,
+      "station": "Mallway Park at Arlington Ave",
+      "total_trips": 4,
+      "year": 2025
+    },
+    {
+      "end_trips": 1,
+      "start_trips": 2,
+      "station": "Grandon Ave & Main St",
+      "total_trips": 3,
+      "year": 2025
+    },
+    {
+      "end_trips": 1,
+      "start_trips": 2,
+      "station": "Bexley City Hall at Main St",
+      "total_trips": 3,
+      "year": 2025
+    },
+    {
+      "end_trips": 1,
+      "start_trips": 2,
+      "station": "Champion Ave & Main St",
+      "total_trips": 3,
+      "year": 2025
+    },
+    {
+      "end_trips": 1,
+      "start_trips": 2,
+      "station": "Easton Transit Center",
+      "total_trips": 3,
+      "year": 2025
+    },
+    {
+      "end_trips": 1,
+      "start_trips": 1,
+      "station": "Jeffrey Park on Clifton Ave",
+      "total_trips": 2,
+      "year": 2025
+    },
+    {
+      "end_trips": 1,
+      "start_trips": 0,
+      "station": "Stelzer & Easton Way",
+      "total_trips": 1,
+      "year": 2025
+    },
+    {
+      "end_trips": 0,
+      "start_trips": 1,
+      "station": "Easton Oval",
+      "total_trips": 1,
+      "year": 2025
+    }
+  ],
+  "volume_by_month": [
+    {
+      "month": 7,
+      "trips": 451,
+      "year": 2013
+    },
+    {
+      "month": 8,
+      "trips": 11048,
+      "year": 2013
+    },
+    {
+      "month": 9,
+      "trips": 7799,
+      "year": 2013
+    },
+    {
+      "month": 10,
+      "trips": 5262,
+      "year": 2013
+    },
+    {
+      "month": 11,
+      "trips": 2299,
+      "year": 2013
+    },
+    {
+      "month": 12,
+      "trips": 1049,
+      "year": 2013
+    },
+    {
+      "month": 1,
+      "trips": 531,
+      "year": 2014
+    },
+    {
+      "month": 2,
+      "trips": 720,
+      "year": 2014
+    },
+    {
+      "month": 3,
+      "trips": 2099,
+      "year": 2014
+    },
+    {
+      "month": 4,
+      "trips": 5491,
+      "year": 2014
+    },
+    {
+      "month": 5,
+      "trips": 6543,
+      "year": 2014
+    },
+    {
+      "month": 6,
+      "trips": 6667,
+      "year": 2014
+    },
+    {
+      "month": 7,
+      "trips": 7181,
+      "year": 2014
+    },
+    {
+      "month": 8,
+      "trips": 6137,
+      "year": 2014
+    },
+    {
+      "month": 9,
+      "trips": 4919,
+      "year": 2014
+    },
+    {
+      "month": 10,
+      "trips": 2653,
+      "year": 2014
+    },
+    {
+      "month": 11,
+      "trips": 1147,
+      "year": 2014
+    },
+    {
+      "month": 12,
+      "trips": 751,
+      "year": 2014
+    },
+    {
+      "month": 1,
+      "trips": 480,
+      "year": 2015
+    },
+    {
+      "month": 2,
+      "trips": 260,
+      "year": 2015
+    },
+    {
+      "month": 3,
+      "trips": 1470,
+      "year": 2015
+    },
+    {
+      "month": 4,
+      "trips": 3036,
+      "year": 2015
+    },
+    {
+      "month": 5,
+      "trips": 5458,
+      "year": 2015
+    },
+    {
+      "month": 6,
+      "trips": 4289,
+      "year": 2015
+    },
+    {
+      "month": 7,
+      "trips": 7820,
+      "year": 2015
+    },
+    {
+      "month": 8,
+      "trips": 7588,
+      "year": 2015
+    },
+    {
+      "month": 9,
+      "trips": 5442,
+      "year": 2015
+    },
+    {
+      "month": 10,
+      "trips": 3473,
+      "year": 2015
+    },
+    {
+      "month": 11,
+      "trips": 2047,
+      "year": 2015
+    },
+    {
+      "month": 12,
+      "trips": 1254,
+      "year": 2015
+    },
+    {
+      "month": 1,
+      "trips": 628,
+      "year": 2016
+    },
+    {
+      "month": 2,
+      "trips": 1661,
+      "year": 2016
+    },
+    {
+      "month": 3,
+      "trips": 2676,
+      "year": 2016
+    },
+    {
+      "month": 4,
+      "trips": 3700,
+      "year": 2016
+    },
+    {
+      "month": 5,
+      "trips": 4819,
+      "year": 2016
+    },
+    {
+      "month": 6,
+      "trips": 6170,
+      "year": 2016
+    },
+    {
+      "month": 7,
+      "trips": 6967,
+      "year": 2016
+    },
+    {
+      "month": 8,
+      "trips": 5753,
+      "year": 2016
+    },
+    {
+      "month": 9,
+      "trips": 5700,
+      "year": 2016
+    },
+    {
+      "month": 10,
+      "trips": 4911,
+      "year": 2016
+    },
+    {
+      "month": 11,
+      "trips": 2935,
+      "year": 2016
+    },
+    {
+      "month": 12,
+      "trips": 1059,
+      "year": 2016
+    },
+    {
+      "month": 1,
+      "trips": 1293,
+      "year": 2017
+    },
+    {
+      "month": 2,
+      "trips": 2257,
+      "year": 2017
+    },
+    {
+      "month": 3,
+      "trips": 2329,
+      "year": 2017
+    },
+    {
+      "month": 4,
+      "trips": 5378,
+      "year": 2017
+    },
+    {
+      "month": 5,
+      "trips": 5795,
+      "year": 2017
+    },
+    {
+      "month": 6,
+      "trips": 7315,
+      "year": 2017
+    },
+    {
+      "month": 7,
+      "trips": 8237,
+      "year": 2017
+    },
+    {
+      "month": 8,
+      "trips": 6632,
+      "year": 2017
+    },
+    {
+      "month": 9,
+      "trips": 5986,
+      "year": 2017
+    },
+    {
+      "month": 10,
+      "trips": 4275,
+      "year": 2017
+    },
+    {
+      "month": 11,
+      "trips": 1790,
+      "year": 2017
+    },
+    {
+      "month": 12,
+      "trips": 918,
+      "year": 2017
+    },
+    {
+      "month": 1,
+      "trips": 660,
+      "year": 2018
+    },
+    {
+      "month": 2,
+      "trips": 954,
+      "year": 2018
+    },
+    {
+      "month": 3,
+      "trips": 1333,
+      "year": 2018
+    },
+    {
+      "month": 4,
+      "trips": 2716,
+      "year": 2018
+    },
+    {
+      "month": 5,
+      "trips": 6465,
+      "year": 2018
+    },
+    {
+      "month": 6,
+      "trips": 6744,
+      "year": 2018
+    },
+    {
+      "month": 7,
+      "trips": 6959,
+      "year": 2018
+    },
+    {
+      "month": 8,
+      "trips": 5839,
+      "year": 2018
+    },
+    {
+      "month": 9,
+      "trips": 3770,
+      "year": 2018
+    },
+    {
+      "month": 10,
+      "trips": 2713,
+      "year": 2018
+    },
+    {
+      "month": 11,
+      "trips": 1447,
+      "year": 2018
+    },
+    {
+      "month": 12,
+      "trips": 1116,
+      "year": 2018
+    },
+    {
+      "month": 1,
+      "trips": 860,
+      "year": 2019
+    },
+    {
+      "month": 2,
+      "trips": 871,
+      "year": 2019
+    },
+    {
+      "month": 3,
+      "trips": 1675,
+      "year": 2019
+    },
+    {
+      "month": 4,
+      "trips": 3500,
+      "year": 2019
+    },
+    {
+      "month": 5,
+      "trips": 5329,
+      "year": 2019
+    },
+    {
+      "month": 9,
+      "trips": 3952,
+      "year": 2019
+    },
+    {
+      "month": 10,
+      "trips": 2910,
+      "year": 2019
+    },
+    {
+      "month": 11,
+      "trips": 1127,
+      "year": 2019
+    },
+    {
+      "month": 12,
+      "trips": 932,
+      "year": 2019
+    },
+    {
+      "month": 1,
+      "trips": 717,
+      "year": 2020
+    },
+    {
+      "month": 2,
+      "trips": 798,
+      "year": 2020
+    },
+    {
+      "month": 3,
+      "trips": 1879,
+      "year": 2020
+    },
+    {
+      "month": 4,
+      "trips": 2124,
+      "year": 2020
+    },
+    {
+      "month": 5,
+      "trips": 7140,
+      "year": 2020
+    },
+    {
+      "month": 6,
+      "trips": 7974,
+      "year": 2020
+    },
+    {
+      "month": 7,
+      "trips": 8494,
+      "year": 2020
+    },
+    {
+      "month": 8,
+      "trips": 8174,
+      "year": 2020
+    },
+    {
+      "month": 9,
+      "trips": 6052,
+      "year": 2020
+    },
+    {
+      "month": 10,
+      "trips": 3542,
+      "year": 2020
+    },
+    {
+      "month": 11,
+      "trips": 2220,
+      "year": 2020
+    },
+    {
+      "month": 12,
+      "trips": 838,
+      "year": 2020
+    },
+    {
+      "month": 1,
+      "trips": 660,
+      "year": 2021
+    },
+    {
+      "month": 2,
+      "trips": 477,
+      "year": 2021
+    },
+    {
+      "month": 3,
+      "trips": 3147,
+      "year": 2021
+    },
+    {
+      "month": 4,
+      "trips": 3787,
+      "year": 2021
+    },
+    {
+      "month": 5,
+      "trips": 4495,
+      "year": 2021
+    },
+    {
+      "month": 6,
+      "trips": 4833,
+      "year": 2021
+    },
+    {
+      "month": 7,
+      "trips": 5880,
+      "year": 2021
+    },
+    {
+      "month": 8,
+      "trips": 5693,
+      "year": 2021
+    },
+    {
+      "month": 9,
+      "trips": 6270,
+      "year": 2021
+    },
+    {
+      "month": 10,
+      "trips": 4695,
+      "year": 2021
+    },
+    {
+      "month": 11,
+      "trips": 2313,
+      "year": 2021
+    },
+    {
+      "month": 12,
+      "trips": 1358,
+      "year": 2021
+    },
+    {
+      "month": 1,
+      "trips": 770,
+      "year": 2022
+    },
+    {
+      "month": 2,
+      "trips": 745,
+      "year": 2022
+    },
+    {
+      "month": 3,
+      "trips": 2418,
+      "year": 2022
+    },
+    {
+      "month": 4,
+      "trips": 3152,
+      "year": 2022
+    },
+    {
+      "month": 5,
+      "trips": 5730,
+      "year": 2022
+    },
+    {
+      "month": 6,
+      "trips": 7866,
+      "year": 2022
+    },
+    {
+      "month": 7,
+      "trips": 7790,
+      "year": 2022
+    },
+    {
+      "month": 8,
+      "trips": 7416,
+      "year": 2022
+    },
+    {
+      "month": 9,
+      "trips": 7508,
+      "year": 2022
+    },
+    {
+      "month": 10,
+      "trips": 5632,
+      "year": 2022
+    },
+    {
+      "month": 11,
+      "trips": 3225,
+      "year": 2022
+    },
+    {
+      "month": 12,
+      "trips": 1471,
+      "year": 2022
+    },
+    {
+      "month": 1,
+      "trips": 1454,
+      "year": 2023
+    },
+    {
+      "month": 2,
+      "trips": 2095,
+      "year": 2023
+    },
+    {
+      "month": 3,
+      "trips": 2398,
+      "year": 2023
+    },
+    {
+      "month": 4,
+      "trips": 4329,
+      "year": 2023
+    },
+    {
+      "month": 5,
+      "trips": 7800,
+      "year": 2023
+    },
+    {
+      "month": 6,
+      "trips": 8477,
+      "year": 2023
+    },
+    {
+      "month": 7,
+      "trips": 9101,
+      "year": 2023
+    },
+    {
+      "month": 8,
+      "trips": 9229,
+      "year": 2023
+    },
+    {
+      "month": 9,
+      "trips": 8486,
+      "year": 2023
+    },
+    {
+      "month": 10,
+      "trips": 6255,
+      "year": 2023
+    },
+    {
+      "month": 11,
+      "trips": 3858,
+      "year": 2023
+    },
+    {
+      "month": 12,
+      "trips": 2271,
+      "year": 2023
+    },
+    {
+      "month": 1,
+      "trips": 1360,
+      "year": 2024
+    },
+    {
+      "month": 2,
+      "trips": 3012,
+      "year": 2024
+    },
+    {
+      "month": 3,
+      "trips": 4020,
+      "year": 2024
+    },
+    {
+      "month": 4,
+      "trips": 6008,
+      "year": 2024
+    },
+    {
+      "month": 5,
+      "trips": 6928,
+      "year": 2024
+    },
+    {
+      "month": 6,
+      "trips": 8232,
+      "year": 2024
+    },
+    {
+      "month": 7,
+      "trips": 7874,
+      "year": 2024
+    },
+    {
+      "month": 8,
+      "trips": 7549,
+      "year": 2024
+    },
+    {
+      "month": 9,
+      "trips": 6644,
+      "year": 2024
+    },
+    {
+      "month": 10,
+      "trips": 6342,
+      "year": 2024
+    },
+    {
+      "month": 11,
+      "trips": 3200,
+      "year": 2024
+    },
+    {
+      "month": 12,
+      "trips": 1553,
+      "year": 2024
+    },
+    {
+      "month": 1,
+      "trips": 815,
+      "year": 2025
+    },
+    {
+      "month": 2,
+      "trips": 1156,
+      "year": 2025
+    }
+  ]
+}

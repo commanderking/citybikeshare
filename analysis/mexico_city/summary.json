@@ -1,14 +1,14 @@
 [
   {
     "year": null,
-    "trip_count": 561821,
+    "trip_count": 129541,
     "valid_duration_count": 0,
     "duration_median": null,
     "duration_5_percent": null,
     "duration_q1": null,
     "duration_q3": null,
     "duration_95_percent": null,
-    "null_rows": 561821
+    "null_rows": 129541
   },
   {
     "year": 2010,
@@ -78,14 +78,14 @@
   },
   {
     "year": 2016,
-    "trip_count": 8637260,
-    "valid_duration_count": 8628690,
-    "duration_median": 618.0,
+    "trip_count": 9069539,
+    "valid_duration_count": 9069536,
+    "duration_median": 620.0,
     "duration_5_percent": 204.0,
-    "duration_q1": 387.0,
-    "duration_q3": 999.0,
-    "duration_95_percent": 1901.0,
-    "null_rows": 8567
+    "duration_q1": 388.0,
+    "duration_q3": 1003.0,
+    "duration_95_percent": 1907.0,
+    "null_rows": 0
   },
   {
     "year": 2017,

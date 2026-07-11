@@ -2,6 +2,7 @@
   {
     "year": 2013,
     "trip_count": 1418,
+    "valid_duration_count": 1418,
     "duration_median": 1260.0,
     "duration_5_percent": 240.0,
     "duration_q1": 600.0,
@@ -12,6 +13,7 @@
   {
     "year": 2014,
     "trip_count": 150606,
+    "valid_duration_count": 150606,
     "duration_median": 900.0,
     "duration_5_percent": 240.0,
     "duration_q1": 540.0,
@@ -22,6 +24,7 @@
   {
     "year": 2015,
     "trip_count": 176528,
+    "valid_duration_count": 176528,
     "duration_median": 840.0,
     "duration_5_percent": 240.0,
     "duration_q1": 480.0,
@@ -32,6 +35,7 @@
   {
     "year": 2016,
     "trip_count": 194469,
+    "valid_duration_count": 194469,
     "duration_median": 900.0,
     "duration_5_percent": 240.0,
     "duration_q1": 480.0,
@@ -42,6 +46,7 @@
   {
     "year": 2017,
     "trip_count": 187868,
+    "valid_duration_count": 187868,
     "duration_median": 1020.0,
     "duration_5_percent": 240.0,
     "duration_q1": 480.0,
@@ -52,6 +57,7 @@
   {
     "year": 2018,
     "trip_count": 385757,
+    "valid_duration_count": 385757,
     "duration_median": 480.0,
     "duration_5_percent": 180.0,
     "duration_q1": 300.0,
@@ -62,6 +68,7 @@
   {
     "year": 2019,
     "trip_count": 106764,
+    "valid_duration_count": 106764,
     "duration_median": 660.0,
     "duration_5_percent": 180.0,
     "duration_q1": 360.0,
@@ -72,6 +79,7 @@
   {
     "year": 2020,
     "trip_count": 101659,
+    "valid_duration_count": 101659,
     "duration_median": 1380.0,
     "duration_5_percent": 180.0,
     "duration_q1": 540.0,
@@ -82,6 +90,7 @@
   {
     "year": 2021,
     "trip_count": 223995,
+    "valid_duration_count": 223995,
     "duration_median": 840.0,
     "duration_5_percent": 180.0,
     "duration_q1": 360.0,
@@ -92,6 +101,7 @@
   {
     "year": 2022,
     "trip_count": 316980,
+    "valid_duration_count": 316980,
     "duration_median": 540.0,
     "duration_5_percent": 180.0,
     "duration_q1": 300.0,
@@ -102,6 +112,7 @@
   {
     "year": 2023,
     "trip_count": 283965,
+    "valid_duration_count": 283965,
     "duration_median": 480.0,
     "duration_5_percent": 180.0,
     "duration_q1": 300.0,
@@ -112,6 +123,7 @@
   {
     "year": 2024,
     "trip_count": 141144,
+    "valid_duration_count": 141144,
     "duration_median": 480.0,
     "duration_5_percent": 180.0,
     "duration_q1": 300.0,

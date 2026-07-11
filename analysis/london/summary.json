@@ -1,7 +1,19 @@
 [
   {
+    "year": null,
+    "trip_count": 5225393,
+    "valid_duration_count": 0,
+    "duration_median": null,
+    "duration_5_percent": null,
+    "duration_q1": null,
+    "duration_q3": null,
+    "duration_95_percent": null,
+    "null_rows": 5225393
+  },
+  {
     "year": 2012,
-    "trip_count": 4731072,
+    "trip_count": 4846951,
+    "valid_duration_count": 4731072,
     "duration_median": 720.0,
     "duration_5_percent": 180.0,
     "duration_q1": 420.0,
@@ -11,17 +23,19 @@
   },
   {
     "year": 2013,
-    "trip_count": 7285732,
+    "trip_count": 8004165,
+    "valid_duration_count": 7285732,
     "duration_median": 780.0,
     "duration_5_percent": 240.0,
     "duration_q1": 480.0,
     "duration_q3": 1200.0,
     "duration_95_percent": 2880.0,
-    "null_rows": 32
+    "null_rows": 582361
   },
   {
     "year": 2014,
-    "trip_count": 9895263,
+    "trip_count": 9895412,
+    "valid_duration_count": 9895263,
     "duration_median": 840.0,
     "duration_5_percent": 240.0,
     "duration_q1": 480.0,
@@ -31,7 +45,8 @@
   },
   {
     "year": 2015,
-    "trip_count": 12655146,
+    "trip_count": 12655258,
+    "valid_duration_count": 12655146,
     "duration_median": 840.0,
     "duration_5_percent": 240.0,
     "duration_q1": 480.0,
@@ -41,27 +56,30 @@
   },
   {
     "year": 2016,
-    "trip_count": 10642013,
+    "trip_count": 10745443,
+    "valid_duration_count": 10642013,
     "duration_median": 840.0,
     "duration_5_percent": 240.0,
     "duration_q1": 480.0,
     "duration_q3": 1260.0,
     "duration_95_percent": 2940.0,
-    "null_rows": 702
+    "null_rows": 104024
   },
   {
     "year": 2017,
-    "trip_count": 10139765,
+    "trip_count": 10205185,
+    "valid_duration_count": 10139765,
     "duration_median": 840.0,
     "duration_5_percent": 240.0,
     "duration_q1": 480.0,
     "duration_q3": 1260.0,
     "duration_95_percent": 2880.0,
-    "null_rows": 651
+    "null_rows": 65997
   },
   {
     "year": 2018,
     "trip_count": 10441884,
+    "valid_duration_count": 10441884,
     "duration_median": 840.0,
     "duration_5_percent": 240.0,
     "duration_q1": 480.0,
@@ -72,6 +90,7 @@
   {
     "year": 2019,
     "trip_count": 10310063,
+    "valid_duration_count": 10310063,
     "duration_median": 780.0,
     "duration_5_percent": 240.0,
     "duration_q1": 480.0,
@@ -82,6 +101,7 @@
   {
     "year": 2020,
     "trip_count": 10287040,
+    "valid_duration_count": 10287040,
     "duration_median": 960.0,
     "duration_5_percent": 240.0,
     "duration_q1": 600.0,
@@ -92,6 +112,7 @@
   {
     "year": 2021,
     "trip_count": 10821289,
+    "valid_duration_count": 10821289,
     "duration_median": 900.0,
     "duration_5_percent": 240.0,
     "duration_q1": 540.0,
@@ -101,7 +122,8 @@
   },
   {
     "year": 2022,
-    "trip_count": 11419108,
+    "trip_count": 11419294,
+    "valid_duration_count": 11419108,
     "duration_median": 840.0,
     "duration_5_percent": 240.0,
     "duration_q1": 480.0,
@@ -111,7 +133,8 @@
   },
   {
     "year": 2023,
-    "trip_count": 8514407,
+    "trip_count": 8514455,
+    "valid_duration_count": 8514407,
     "duration_median": 780.0,
     "duration_5_percent": 180.0,
     "duration_q1": 480.0,
@@ -121,7 +144,8 @@
   },
   {
     "year": 2024,
-    "trip_count": 8755081,
+    "trip_count": 8755152,
+    "valid_duration_count": 8755081,
     "duration_median": 780.0,
     "duration_5_percent": 180.0,
     "duration_q1": 480.0,
@@ -131,12 +155,24 @@
   },
   {
     "year": 2025,
-    "trip_count": 3538463,
+    "trip_count": 9068241,
+    "valid_duration_count": 9067991,
+    "duration_median": 780.0,
+    "duration_5_percent": 180.0,
+    "duration_q1": 480.0,
+    "duration_q3": 1320.0,
+    "duration_95_percent": 2580.0,
+    "null_rows": 184
+  },
+  {
+    "year": 2026,
+    "trip_count": 3563266,
+    "valid_duration_count": 3563266,
     "duration_median": 780.0,
     "duration_5_percent": 180.0,
     "duration_q1": 420.0,
     "duration_q3": 1260.0,
-    "duration_95_percent": 2460.0,
+    "duration_95_percent": 2520.0,
     "null_rows": 0
   }
 ]
