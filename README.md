@@ -8,17 +8,24 @@ This bikeshare ETL pipeline cleans bikeshare data from around the world and prod
 
 ```mermaid
 flowchart TD
-    subgraph SOURCES["Data Sources"]
+    subgraph SOURCES["Trip Data Sources"]
         S3[("AWS S3 bucket")]
         WEB(["City website · Playwright scrape"])
+    end
+
+    subgraph STATIONSRC["Station Sources (some cities)"]
+        GBFS(["GBFS feed\nstation_information.json"])
+        SFILE(["Station file\ne.g. nomenclatura"])
     end
 
     SYNC["sync\nDownload new/changed files"]
     EXTRACT["extract\nUnzip / copy CSVs"]
     CLEAN["clean — optional\nFix encodings & delimiters"]
     TRANSFORM["transform\nCSV → partitioned Parquet"]
-    ANALYZE["analyze\nGenerate per-city stats"]
+    ANALYZE["analyze\nPer-city stats + station coords & counts"]
     MERGE["merge-summaries\nCombine all cities"]
+
+    STATIONS[/"Committed station reference\nid → name + lat/lng\nconfig/station_coordinates/&lt;city&gt;.csv\nconfig/station_maps/&lt;city&gt;.csv"/]
 
     RESULT[/"analysis/summary_all_cities.json
 analysis/duration_buckets_all_cities.json"/]
@@ -30,7 +37,28 @@ analysis/duration_buckets_all_cities.json"/]
     TRANSFORM -->|"output/&lt;city&gt;/year=YYYY/month=MM/"| ANALYZE
     ANALYZE   -->|"analysis/&lt;city&gt;/summary.json\nanalysis/&lt;city&gt;/duration_buckets.json"| MERGE
     MERGE     --> RESULT
+
+    STATIONSRC -->|"build-station-coordinates · build-station-map\n(cumulative, never-drop)"| STATIONS
+    STATIONS -.->|"name id-only trips"| TRANSFORM
+    STATIONS -.->|"committed coords\nid → name + lat/lng"| ANALYZE
+    CLEAN -.->|"inline coords\nlat/lng or WKT point on trip rows"| ANALYZE
 ```
+
+> **Where station coordinates come from.** Each city draws its station points from one of three
+> sources, all resolved at **analyze** into the same per-station coordinates + trip counts:
+>
+> - **inline** — lat/lng (or a WKT `POINT`, e.g. Chattanooga) on every trip row, read straight
+>   from the trip CSVs; no separate source (`coordinates.strategy: inline`).
+> - **station file** — coordinates shipped alongside the data (e.g. Guadalajara's `nomenclatura`),
+>   joined by station id.
+> - **GBFS** — fetched from a live feed (e.g. Mexico City, Vancouver) during `sync`.
+>
+> For the file/GBFS cases the trips carry only a station **id** or **name**, so a per-city step
+> harvests a committed, cumulative reference that never drops a station once seen (so retirements
+> from a live feed don't lose history): `build-station-coordinates` stores `id → name + lat/lng`
+> (GBFS), `build-station-map` stores `id → name` (coordinates read from the station file at
+> analyze). **transform** uses it to name id-only trips; **analyze** turns it — or the inline
+> points — into canonical station coordinates and per-station trip counts.
 
 > **Shortcuts**
 > - `citybikeshare pipeline <city>` runs sync → extract → clean → transform in one command.
@@ -158,7 +186,13 @@ poetry run citybikeshare inspect boston
 
 ### Analysis (after transform)
 
-Generate per-city summary JSON and duration-bucket analysis from the Parquet in `output/<city>/`.
+Generate per-city analysis from the Parquet in `output/<city>/`. `analyze` produces:
+
+- `summary.json` — per-year trip summary, and `duration_buckets.json` — trip-length histogram
+- `station_coords.json` → `station_coords_canonical.json` — as-observed station points collapsed
+  to one record per physical station (name variants merged as aliases)
+- `station_trip_counts.json` — trips leaving/arriving per station per year, rolled up to the
+  canonical stations
 
 **One city:**
 
@@ -176,6 +210,18 @@ Only duration buckets (skip summary):
 
 ```bash
 poetry run citybikeshare analyze-all --duration_buckets
+```
+
+### Station reference (cities without inline coordinates)
+
+Cities that publish station coordinates separately (GBFS or a station file) build a committed,
+cumulative `id → name + lat/lng` table before transform/analyze can name stations and place them.
+The refresh also runs automatically inside `sync`/`transform` for configured cities; run it
+explicitly with:
+
+```bash
+poetry run citybikeshare build-station-coordinates mexico_city   # GBFS feed → config/station_coordinates/<city>.csv
+poetry run citybikeshare build-station-map guadalajara           # station file → config/station_maps/<city>.csv
 ```
 
 ### Merge summaries

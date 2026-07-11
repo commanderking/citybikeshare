@@ -28,6 +28,7 @@ from citybikeshare.analysis.canonicalize_station_coords import (
 )
 from citybikeshare.etl.inspect import analyze_headers
 from citybikeshare.etl.station_maps import STATION_MAP_BUILDERS
+from citybikeshare.etl.station_coordinates import STATION_COORDINATES_BUILDERS
 from citybikeshare.cli.transform_all import app as transform_all_app
 from citybikeshare.cli.pipeline_all import run_pipeline_all
 
@@ -116,6 +117,18 @@ def build_station_map(
     builder = STATION_MAP_BUILDERS.get(city)
     if builder is None:
         raise typer.BadParameter(f"No station-map builder for '{city}'")
+    builder(context)
+
+
+@app.command(name="build-station-coordinates")
+def build_station_coordinates(
+    city: str = typer.Argument(..., help="City name (GBFS coordinate cities, e.g. mexico_city)"),
+):
+    """Merge the fetched GBFS station_information.json into the committed, cumulative coordinates."""
+    context = build_context(city)
+    builder = STATION_COORDINATES_BUILDERS.get(city)
+    if builder is None:
+        raise typer.BadParameter(f"No station-coordinates builder for '{city}'")
     builder(context)
 
 

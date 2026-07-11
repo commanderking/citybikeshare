@@ -8,6 +8,7 @@ from citybikeshare.utils.io_transform import (
 )
 from citybikeshare.etl.pipelines.common import PROCESSING_FUNCTIONS
 from citybikeshare.etl.station_maps import PRE_TRANSFORM_FUNCTIONS
+from citybikeshare.etl.station_coordinates import update_gbfs_station_coordinates
 from citybikeshare.etl.constants import DEFAULT_PROCESSING_PIPELINE
 from citybikeshare.utils.paths import (
     get_csv_files,
@@ -152,6 +153,11 @@ def run_pre_transform_steps(context: PipelineContext, config: dict):
     """Run a city's configured `pre_transform_pipeline` once, before the file loop."""
     for step in config.get("pre_transform_pipeline", []):
         PRE_TRANSFORM_FUNCTIONS[step](context, config)
+    # A GBFS `coordinates.source` auto-refreshes its committed coordinates here — declared once
+    # under `coordinates.source`, so there's no separate pre-transform step to keep in sync.
+    source = (config.get("coordinates") or {}).get("source") or {}
+    if source.get("type") == "gbfs":
+        update_gbfs_station_coordinates(context, required=False)
 
 
 def transform_city_data(context: PipelineContext, incremental: bool = True):

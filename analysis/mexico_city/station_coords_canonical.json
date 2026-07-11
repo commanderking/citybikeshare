@@ -1,0 +1,5418 @@
+[
+  {
+    "name": "CE-001 Río Sena-Río Balsas",
+    "lat": 19.433478,
+    "lng": -99.16779,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-002 Río Guadalquivir - Río Nazas",
+    "lat": 19.430495,
+    "lng": -99.17116,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-003 Reforma - Insurgentes",
+    "lat": 19.43163,
+    "lng": -99.158547,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-004 Río Nilo - Río Panuco",
+    "lat": 19.428491,
+    "lng": -99.171693,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-005 Río Pánuco Río Tiber",
+    "lat": 19.429804,
+    "lng": -99.169451,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-006 Río Pánuco - Río Sena",
+    "lat": 19.430963,
+    "lng": -99.166986,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-007 Río Elba - Río Lerma",
+    "lat": 19.425355,
+    "lng": -99.17515,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-008 Reforma - General Prim",
+    "lat": 19.431256,
+    "lng": -99.158153,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-009 Río Guadalquivir - Río Lerma",
+    "lat": 19.428184,
+    "lng": -99.170013,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-010 Reforma - Ramírez",
+    "lat": 19.433431,
+    "lng": -99.155142,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-011 Río Amazonas - Río Lerma",
+    "lat": 19.431192,
+    "lng": -99.163546,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-012 Río Lerma - Villalongín",
+    "lat": 19.432223,
+    "lng": -99.161686,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-013 Reforma - Río Mississippi",
+    "lat": 19.424941,
+    "lng": -99.17233,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-014 Reforma - Río de Plata",
+    "lat": 19.42454,
+    "lng": -99.173247,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-015 Reforma - Río Mississippi",
+    "lat": 19.425597,
+    "lng": -99.171409,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-016 Reforma - Río Tiber",
+    "lat": 19.426753,
+    "lng": -99.168619,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-017 Reforma - Río Tiber",
+    "lat": 19.427553,
+    "lng": -99.167396,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-018 Reforma - Río Rhin",
+    "lat": 19.428802,
+    "lng": -99.164381,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-019 Reforma - Río Rhin",
+    "lat": 19.429453,
+    "lng": -99.16283,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-020 Reforma- Río Támesis",
+    "lat": 19.430862,
+    "lng": -99.160259,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-021 Reforma - Dublín",
+    "lat": 19.42481,
+    "lng": -99.171765,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-022 Reforma - Manchester",
+    "lat": 19.424784,
+    "lng": -99.172119,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-023 Reforma - Praga",
+    "lat": 19.42528,
+    "lng": -99.171099,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-024 Reforma- Varsovia",
+    "lat": 19.426614,
+    "lng": -99.168078,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-025 Reforma - Estocolmo",
+    "lat": 19.427338,
+    "lng": -99.16672,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-026 Reforma - Versalles",
+    "lat": 19.432595,
+    "lng": -99.154995,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-027 Reforma- Havre",
+    "lat": 19.42916,
+    "lng": -99.162703,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-028 Toledo- Tokio",
+    "lat": 19.423664,
+    "lng": -99.172568,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-029 Reforma - Bucareli",
+    "lat": 19.434944,
+    "lng": -99.150295,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-030 Hamburgo - Amberes",
+    "lat": 19.4261,
+    "lng": -99.164937,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-031 Hamburgo - Insurgentes",
+    "lat": 19.427922,
+    "lng": -99.161246,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-032 Londres - Sevilla",
+    "lat": 19.422686,
+    "lng": -99.169983,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-033 Londres - Florencia",
+    "lat": 19.424187,
+    "lng": -99.166497,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-034 Liverpool - Génova",
+    "lat": 19.424728,
+    "lng": -99.163348,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-035 Liverpool - Génova",
+    "lat": 19.424558,
+    "lng": -99.163518,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-036 Puebla - Veracruz",
+    "lat": 19.41966,
+    "lng": -99.17588,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-037 Guadalajara - Puebla",
+    "lat": 19.420417,
+    "lng": -99.172712,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-038 Cozumel - Puebla",
+    "lat": 19.420829,
+    "lng": -99.171421,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-039 Puebla - Medellín",
+    "lat": 19.421762,
+    "lng": -99.166931,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-040 Oaxaca - Puebla",
+    "lat": 19.422351,
+    "lng": -99.164174,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-041 Reforma - Av. de la República",
+    "lat": 19.43542,
+    "lng": -99.150317,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-042 Sinaloa - Valladolid",
+    "lat": 19.420627,
+    "lng": -99.16821,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-043 Revillagigedo - Juárez",
+    "lat": 19.435136,
+    "lng": -99.146076,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-044 Durango - Veracruz",
+    "lat": 19.418141,
+    "lng": -99.174709,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-045 Durango - Sonora",
+    "lat": 19.418749,
+    "lng": -99.171942,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-046 Durango - Salamanca",
+    "lat": 19.419107,
+    "lng": -99.169735,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-047 Plaza Madrid-Medellín",
+    "lat": 19.419506,
+    "lng": -99.166365,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-048 Independencia - Azueta",
+    "lat": 19.433705,
+    "lng": -99.146665,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-049 Mazatlán - Juan de la Barrera",
+    "lat": 19.41689,
+    "lng": -99.17562,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-050 Cuernavaca - Veracruz",
+    "lat": 19.416824,
+    "lng": -99.173788,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-051 Colima - Oaxaca",
+    "lat": 19.418031,
+    "lng": -99.168435,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-052 Hidalgo - Trujano",
+    "lat": 19.436208,
+    "lng": -99.141931,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-053 Fernando Montes de Oca - Tula",
+    "lat": 19.414823,
+    "lng": -99.178353,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-054 Parque España - Sonora",
+    "lat": 19.416163,
+    "lng": -99.170795,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-055  5 De Mayo - Bolívar",
+    "lat": 19.434514,
+    "lng": -99.138068,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-056 Alvaro Obregón - Medellin",
+    "lat": 19.417102,
+    "lng": -99.165607,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-057 Cuernavaca - Juan Escutia",
+    "lat": 19.414968,
+    "lng": -99.174766,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-058 Parque España - Juan de la Barrera",
+    "lat": 19.415358,
+    "lng": -99.171902,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-059 Popocatépetl - Ámsterdam",
+    "lat": 19.415237,
+    "lng": -99.16659,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-060 Mazatlán - Fernando Montes de Oca",
+    "lat": 19.414099,
+    "lng": -99.177158,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-061 Avenida México - Sonora",
+    "lat": 19.413832,
+    "lng": -99.169399,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-062 Fernando Montes de Oca - Amatlan",
+    "lat": 19.413316,
+    "lng": -99.175305,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-063 Nuevo León - Laredo",
+    "lat": 19.413091,
+    "lng": -99.17162,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-064 Sonora - Ámsterdam",
+    "lat": 19.412967,
+    "lng": -99.166925,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-065 Marconi - Tacuba",
+    "lat": 19.436522,
+    "lng": -99.139811,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-066 Mazatlán - Francisco Márquez",
+    "lat": 19.411825,
+    "lng": -99.178456,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-067 Vicente Suárez - Michoacán",
+    "lat": 19.411814,
+    "lng": -99.175957,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-068 Tamaulipas - Michoacán",
+    "lat": 19.411668,
+    "lng": -99.173824,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-069 Michoacán - Ámsterdam",
+    "lat": 19.410797,
+    "lng": -99.168143,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-070 Parque México - Michoacán",
+    "lat": 19.41128,
+    "lng": -99.169825,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-071 Amsterdam - Michoacan",
+    "lat": 19.411361,
+    "lng": -99.171271,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-072 Mazatlán - Alfonso Reyes",
+    "lat": 19.409859,
+    "lng": -99.179565,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-073 Campeche - Tamaulipas",
+    "lat": 19.410073,
+    "lng": -99.175542,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-074 Nuevo León - Ozulama",
+    "lat": 19.410468,
+    "lng": -99.172802,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-075 Alfonso Reyes - Atlixco",
+    "lat": 19.408741,
+    "lng": -99.176774,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-076 Chilpancingo - Campeche",
+    "lat": 19.408689,
+    "lng": -99.169938,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-077 Choapan - Tamaulipas",
+    "lat": 19.406745,
+    "lng": -99.178272,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-078 Benjamín Hill - Tamaulipas",
+    "lat": 19.407512,
+    "lng": -99.177361,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-079 Saltillo - Alfonso Reyes",
+    "lat": 19.407549,
+    "lng": -99.174348,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-080 Nuevo León - Aguascalientes",
+    "lat": 19.40724,
+    "lng": -99.172077,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-081 Aguascalientes - Insurgentes",
+    "lat": 19.407927,
+    "lng": -99.168734,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-082 Independencia - Marroquí",
+    "lat": 19.433344,
+    "lng": -99.14404,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-083 Alfonso Reyes - Nuevo León",
+    "lat": 19.40655,
+    "lng": -99.172275,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-084 Chilpancingo - Tlaxcala",
+    "lat": 19.406872,
+    "lng": -99.169572,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-085 Rosas Moreno - Sullivan",
+    "lat": 19.434059,
+    "lng": -99.162438,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-086 Sullivan-Insurgentes",
+    "lat": 19.432452,
+    "lng": -99.15924,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-087 Gante - Venustiano Carranza",
+    "lat": 19.432024,
+    "lng": -99.139705,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-088 2a Cerrada de 5 de Mayo - Palma",
+    "lat": 19.433757,
+    "lng": -99.135331,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-089 República de Guatemala - Monte de Piedad",
+    "lat": 19.434962,
+    "lng": -99.133729,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-090 José María Pino Suárez - Corregidora",
+    "lat": 19.43144,
+    "lng": -99.132513,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-091 Republica de Cuba-Allende",
+    "lat": 19.4374,
+    "lng": -99.137571,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-092 San Ildefonso-República de Argentina",
+    "lat": 19.436531,
+    "lng": -99.131497,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-093 Palma Norte-República de Cuba",
+    "lat": 19.436741,
+    "lng": -99.134811,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-094 Lic. Verdad-Moneda",
+    "lat": 19.433766,
+    "lng": -99.130918,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-095 20 de Noviembre-Venustiano Carranza",
+    "lat": 19.430683,
+    "lng": -99.133701,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-096 López-Ayuntamiento",
+    "lat": 19.430625,
+    "lng": -99.14248,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-097 República de Salvador-Pino Suárez",
+    "lat": 19.429189,
+    "lng": -99.132759,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-098 Emilio Dondé-Av. Balderas",
+    "lat": 19.430267,
+    "lng": -99.14861,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-099 Ernesto Pugibet-Luis Moya",
+    "lat": 19.429947,
+    "lng": -99.14591,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-100 20 de Noviembre-Mesones",
+    "lat": 19.428485,
+    "lng": -99.1338,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-102 Echeveste-Bolivar",
+    "lat": 19.428214,
+    "lng": -99.139494,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-103 Joaquín Velázquez de León - García Icazbalceta",
+    "lat": 19.441533,
+    "lng": -99.165268,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-104 San Jerónimo-Isabel la Católica",
+    "lat": 19.427059,
+    "lng": -99.137116,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-105 San Jerónimo-5 de Febrero",
+    "lat": 19.426755,
+    "lng": -99.135014,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-106 San Jerónimo-José María Pino Suarez",
+    "lat": 19.42649,
+    "lng": -99.133537,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-107-108 Tolsa-Balderas",
+    "lat": 19.427305,
+    "lng": -99.149533,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-109 Nezahualcóyotl-Isabel la Católica",
+    "lat": 19.425311,
+    "lng": -99.137421,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-110 Dr. Valenzuela-Dr. Río de la loza",
+    "lat": 19.425126,
+    "lng": -99.143391,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-111 Guillermo Prieto - Joaquín Velázquez de León",
+    "lat": 19.438197,
+    "lng": -99.165918,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-112 Av. Morelos-Abraham González",
+    "lat": 19.432819,
+    "lng": -99.151734,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-113 General Prim-Versalles",
+    "lat": 19.430369,
+    "lng": -99.154419,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-114 Lucerna-Abraham González",
+    "lat": 19.428989,
+    "lng": -99.153618,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-115 Roma-Dinamarca",
+    "lat": 19.429947,
+    "lng": -99.159698,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-116 Londres-Roma",
+    "lat": 19.428985,
+    "lng": -99.15664,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-117 Londres-Nápoles",
+    "lat": 19.427167,
+    "lng": -99.160291,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-118 Liverpool-Dinamarca",
+    "lat": 19.427171,
+    "lng": -99.158108,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-119 Turín-Abraham González",
+    "lat": 19.426852,
+    "lng": -99.155628,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-120 Marsella-Nápoles",
+    "lat": 19.425437,
+    "lng": -99.159458,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-121 Niza-Chapultepec",
+    "lat": 19.424178,
+    "lng": -99.16115,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-122 José María Vértiz-Av. Dr. Río de la Loza",
+    "lat": 19.425502,
+    "lng": -99.146337,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-123 Claudio Bernard-Dr. Lavista",
+    "lat": 19.424161,
+    "lng": -99.153117,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-124 Claudio Bernard-Dr. Liceaga",
+    "lat": 19.422392,
+    "lng": -99.150358,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-125 Morelia-Circular de Morelia",
+    "lat": 19.424197,
+    "lng": -99.156127,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-126 Jalapa-Puebla",
+    "lat": 19.422288,
+    "lng": -99.162138,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-127 Puebla-Merida",
+    "lat": 19.423318,
+    "lng": -99.15833,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-128 Orizaba-Río de Janeiro",
+    "lat": 19.422148,
+    "lng": -99.160645,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-129 Tonalá-Durango",
+    "lat": 19.4206,
+    "lng": -99.163312,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-130 Mérida-Durango",
+    "lat": 19.421576,
+    "lng": -99.158015,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-131 Colima-Jalapa",
+    "lat": 19.419579,
+    "lng": -99.161314,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-132 Colima-Frontera",
+    "lat": 19.420667,
+    "lng": -99.15645,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-133 Colima-Morelia",
+    "lat": 19.421138,
+    "lng": -99.154725,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-134 Álvaro Obregón-Orizaba",
+    "lat": 19.418293,
+    "lng": -99.159936,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-135 Álvaro Obregón-Morelia",
+    "lat": 19.419251,
+    "lng": -99.155039,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-136 Álvaro Obregón-Tonalá",
+    "lat": 19.417715,
+    "lng": -99.162729,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-137 Álvaro Obregón-Mérida",
+    "lat": 19.418774,
+    "lng": -99.157081,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-138 Guanajuato-Frontera",
+    "lat": 19.417702,
+    "lng": -99.155313,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-139 Tonalá-Guanajuato",
+    "lat": 19.416128,
+    "lng": -99.162097,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-140 Mérida-Zacatecas",
+    "lat": 19.416596,
+    "lng": -99.156879,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-141 Zacatecas-Luis Cabrera",
+    "lat": 19.415905,
+    "lng": -99.15954,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-142 San Luis Potosí-Eje 2 Pte. Monterrey",
+    "lat": 19.413252,
+    "lng": -99.164124,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-143 Córdoba-San Luis Potosí",
+    "lat": 19.414303,
+    "lng": -99.157542,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-144 Frontera-San Luis Potosí",
+    "lat": 19.415192,
+    "lng": -99.154837,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-145 Yucatán-Chiapas",
+    "lat": 19.41286,
+    "lng": -99.160661,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-146 Coahuila-Manzanillo",
+    "lat": 19.410699,
+    "lng": -99.165877,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-147 Coahuila-Orizaba",
+    "lat": 19.412182,
+    "lng": -99.158443,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-148 Coahuila-Av. Cuauhtémoc",
+    "lat": 19.412829,
+    "lng": -99.155116,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-149 Mérida-Antonio M. Anza",
+    "lat": 19.41199,
+    "lng": -99.155699,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-150 Campeche-Medellín",
+    "lat": 19.409894,
+    "lng": -99.164288,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-151 Campeche-Tonalá",
+    "lat": 19.410529,
+    "lng": -99.160873,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-152 Tlacotalpan-Campeche",
+    "lat": 19.409098,
+    "lng": -99.167181,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-153 Manzanillo-Tlaxcala",
+    "lat": 19.407468,
+    "lng": -99.165141,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-154 Tuxpan-Tlaxcala",
+    "lat": 19.406683,
+    "lng": -99.167962,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-155 Jalapa-Tlaxcala",
+    "lat": 19.408218,
+    "lng": -99.159911,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-156 Tepic-Ario",
+    "lat": 19.406959,
+    "lng": -99.163021,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-157 Tepic-Tlacotalpan",
+    "lat": 19.406236,
+    "lng": -99.166616,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-158-159 Huatabampo-Eje 1 Pte. Av. Cuauhtémoc",
+    "lat": 19.407517,
+    "lng": -99.155373,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-160 Alfonso Herrera-Gabino Barreda",
+    "lat": 19.440252,
+    "lng": -99.163455,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-161 Quintana Roo-Manzanillo",
+    "lat": 19.405533,
+    "lng": -99.164913,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-162 Tehuantepec-Medellín",
+    "lat": 19.404907,
+    "lng": -99.162485,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-163 Toluca-Bajío",
+    "lat": 19.405246,
+    "lng": -99.15643,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-164 Bajío-Tlacotalpan",
+    "lat": 19.403229,
+    "lng": -99.165854,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-165 Bajío-Eje 2 Pte. Monterrey",
+    "lat": 19.404268,
+    "lng": -99.160503,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-166 Progreso-Cda. Antonio Maceo",
+    "lat": 19.406069,
+    "lng": -99.183549,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-167 General Salvador Alvarado-Progreso",
+    "lat": 19.404609,
+    "lng": -99.17941,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-168 Comercio-Progreso",
+    "lat": 19.403997,
+    "lng": -99.1776,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-169 Prosperidad-Progreso",
+    "lat": 19.403019,
+    "lng": -99.174934,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-170 Observatorio Oriente-Revolución",
+    "lat": 19.404029,
+    "lng": -99.184342,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-171 Comercio-Jose Martí",
+    "lat": 19.402532,
+    "lng": -99.178203,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-172 General Francisco Murguía-José Martí",
+    "lat": 19.403507,
+    "lng": -99.18166,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-173 Minería-José Martí",
+    "lat": 19.401682,
+    "lng": -99.176398,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-174 Joaquín Garcia Icazbalceta-Ignacio Manuel Altamirano",
+    "lat": 19.441133,
+    "lng": -99.161703,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-175 Mutualismo-José Martí",
+    "lat": 19.400599,
+    "lng": -99.17246,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-176 Av. Jesús García-Luis Donaldo Colosio",
+    "lat": 19.442717,
+    "lng": -99.152262,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-177 Benjamín Hill - Carlos Zetina",
+    "lat": 19.408841,
+    "lng": -99.181692,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-178 Tamaulipas-Francisco Murguía",
+    "lat": 19.406833,
+    "lng": -99.180457,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-179 Nuevo León-Quintana Roo",
+    "lat": 19.404436,
+    "lng": -99.171381,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-180 Quintana Roo-Villahermosa",
+    "lat": 19.404554,
+    "lng": -99.169953,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-181 Benjamín Franklin - Ometusco",
+    "lat": 19.404825,
+    "lng": -99.174722,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-182 Progreso-Astrónomos",
+    "lat": 19.402028,
+    "lng": -99.171292,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-183 Gabino Barreda-Guillermo Prieto",
+    "lat": 19.437665,
+    "lng": -99.164018,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-184 General Gómez Pedraza-Gobernador Tiburcio Montiel",
+    "lat": 19.414793,
+    "lng": -99.185083,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-185 General Antonio Léon-General Pedro Antonio de los Santos",
+    "lat": 19.412776,
+    "lng": -99.182805,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-186 Gob. Gregorio V. Gelati-Gral. Francisco Molinos del Campo",
+    "lat": 19.412438,
+    "lng": -99.188493,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-187 General Cano-Gobernador Gregorio V. Gelati",
+    "lat": 19.411227,
+    "lng": -99.185514,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-188 Gobernador Melchor Múzquiz-Gobernador Ignacio Esteva",
+    "lat": 19.411711,
+    "lng": -99.190139,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-189 Gobernador Rafael Rebollar-Gobernador José Ceballos",
+    "lat": 19.410046,
+    "lng": -99.18796,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-190 Gobernador Ignacio Esteva-Maestro José Vasconcelos",
+    "lat": 19.409577,
+    "lng": -99.183818,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-191 Gobernador Rafael Rebollar-Gobernador Vicente Eguía",
+    "lat": 19.40796,
+    "lng": -99.187901,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-192-193 Rubén Darío.Reforma",
+    "lat": 19.425907,
+    "lng": -99.190733,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-194 Circuito Mahatma Gandhi-Reforma",
+    "lat": 19.424282,
+    "lng": -99.180334,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-195 Reforma-Circuito Mahatma Gandhi",
+    "lat": 19.424858,
+    "lng": -99.185181,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-196 Lago Tanganica- Av. Ejército Nacional",
+    "lat": 19.438349,
+    "lng": -99.192904,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-197 Presa Falcón - Miguel De Cervantes Saavedra",
+    "lat": 19.440925,
+    "lng": -99.205049,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-198 Sócrates-Ejército Nacional",
+    "lat": 19.438174,
+    "lng": -99.203836,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-199 Anatole France-Av. Ejército Nacional",
+    "lat": 19.437934,
+    "lng": -99.197241,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-200 Emerson-Av. Ejército Nacional",
+    "lat": 19.437596,
+    "lng": -99.188785,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-201 Lope de Vega-Av. Ejército Nacional",
+    "lat": 19.437497,
+    "lng": -99.187212,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-202 Calderón de la Barca-Av. Homero",
+    "lat": 19.436064,
+    "lng": -99.198898,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-203 Tennyson-Av. Homero",
+    "lat": 19.435985,
+    "lng": -99.194832,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-204 Temístocles-Homero",
+    "lat": 19.435882,
+    "lng": -99.19152,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-205 Taine-Homero",
+    "lat": 19.435526,
+    "lng": -99.184747,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-206 Homero-Moliere",
+    "lat": 19.436142,
+    "lng": -99.200996,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-207 Torquato Tasso-Homero",
+    "lat": 19.434861,
+    "lng": -99.183322,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-208 Hesiodo-Lamartine",
+    "lat": 19.434182,
+    "lng": -99.189835,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-209 Solón-Horacio",
+    "lat": 19.435478,
+    "lng": -99.206359,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-210 Eugenio Sue-Horacio",
+    "lat": 19.434076,
+    "lng": -99.194091,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-211 Isaac Newton-Horacio",
+    "lat": 19.43385,
+    "lng": -99.188275,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-212 Hegel-Horacio",
+    "lat": 19.433864,
+    "lng": -99.188094,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-213 Solón-Cicerón",
+    "lat": 19.434366,
+    "lng": -99.206306,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-214 Platón-Horacio",
+    "lat": 19.434353,
+    "lng": -99.20322,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-215 Edgar Alan Poe-Horacio",
+    "lat": 19.43384,
+    "lng": -99.19968,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-216 Alejandro Dumas-Horacio",
+    "lat": 19.433419,
+    "lng": -99.195746,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-217 Euler-Horacio",
+    "lat": 19.432851,
+    "lng": -99.183545,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-218 Hegel-Ibarbourou",
+    "lat": 19.432451,
+    "lng": -99.188033,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-219 Esopo-FC de Cuernavaca",
+    "lat": 19.433364,
+    "lng": -99.207553,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-220 Plinio-Presidente Masaryk",
+    "lat": 19.432655,
+    "lng": -99.205727,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-221 Emilio Castelar-Presidente Masaryk",
+    "lat": 19.431799,
+    "lng": -99.201565,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-222 Alejandro Dumas-Presidente Masarik",
+    "lat": 19.431417,
+    "lng": -99.195774,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-223 Isaac Newton-Presidente Masaryk",
+    "lat": 19.431242,
+    "lng": -99.191613,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-224 Hegel-Presidente Masaryk",
+    "lat": 19.431115,
+    "lng": -99.188082,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-225 Petrarca-Presidente Masaryk",
+    "lat": 19.431172,
+    "lng": -99.185612,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-226 Wallon-Presidente Masaryk",
+    "lat": 19.431044,
+    "lng": -99.182206,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-227 Campos Elíseos-Periférico",
+    "lat": 19.431783,
+    "lng": -99.207381,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-228 Campos Elíseos-La Fontaine",
+    "lat": 19.427705,
+    "lng": -99.19912,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-229 Carlos Dickens-Séneca",
+    "lat": 19.430515,
+    "lng": -99.203331,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-230 Edgar Allan Poe - Carlos Dickens",
+    "lat": 19.430098,
+    "lng": -99.200074,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-231 Isaac Newton-Aristóteles",
+    "lat": 19.429712,
+    "lng": -99.193579,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-232 Taine - Rubén Darío",
+    "lat": 19.42894,
+    "lng": -99.185389,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-233 Julio Verne-Luis G. Urbina",
+    "lat": 19.429314,
+    "lng": -99.196965,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-234 Tres Picos-Arquímides",
+    "lat": 19.427862,
+    "lng": -99.191405,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-235-236 Campos Elíseos-Moliere",
+    "lat": 19.429332,
+    "lng": -99.202181,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-237-238 Andrés Bello-George Eliot",
+    "lat": 19.426744,
+    "lng": -99.193986,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-239 Rincón del Bosque-Ruben Darío",
+    "lat": 19.430153,
+    "lng": -99.181355,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-240 Ejército Nacional-F.C. de Cuernavaca",
+    "lat": 19.438634,
+    "lng": -99.206291,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-241 Ejército Nacional-Juan Vázquez de la Mella",
+    "lat": 19.438693,
+    "lng": -99.207573,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-242 Pról. Moliere-Miguel de Cervantes Saavedra",
+    "lat": 19.440027,
+    "lng": -99.200711,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-243 Lago Filt-Miguel de Cervantes Saavedra",
+    "lat": 19.441123,
+    "lng": -99.195857,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-244 Lago Victoria-Miguel de Cervantes Saavedra",
+    "lat": 19.440508,
+    "lng": -99.193681,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-245 Lago Onega-Av. Ejército Nacional",
+    "lat": 19.438347,
+    "lng": -99.190503,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-246 Leibnitz-Thiers",
+    "lat": 19.434147,
+    "lng": -99.179835,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-247 Herschel-Rousseau",
+    "lat": 19.432276,
+    "lng": -99.18064,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-248 Shakespeare-Lafayette",
+    "lat": 19.43175,
+    "lng": -99.177399,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-249 Shakespeare-Darwin",
+    "lat": 19.429884,
+    "lng": -99.177594,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-250 Darwin-Mariano Escobedo",
+    "lat": 19.428949,
+    "lng": -99.179796,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-251 Goethe-Darwin",
+    "lat": 19.429261,
+    "lng": -99.17538,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-252 Víctor Hugo-Shakespeare",
+    "lat": 19.427575,
+    "lng": -99.17702,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-253 Dante-Tolstoi",
+    "lat": 19.426448,
+    "lng": -99.178153,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-254 Alfonso Herrera-Miguel Shultz",
+    "lat": 19.439177,
+    "lng": -99.159957,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-255 José Rosas Moreno-Guillermo Prieto",
+    "lat": 19.437118,
+    "lng": -99.161862,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-256 Gómez Farías-Sadi Carnot",
+    "lat": 19.437128,
+    "lng": -99.158363,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-257 Manuel Maria Contreras-Villalongin",
+    "lat": 19.433803,
+    "lng": -99.166223,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-258 Circuito Interior-Juan Escutia",
+    "lat": 19.41653,
+    "lng": -99.179044,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-259 Tómas Alva Edison-Ponciano Arriaga",
+    "lat": 19.437569,
+    "lng": -99.15468,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-260 Av. Juárez-Balderas",
+    "lat": 19.435311,
+    "lng": -99.147786,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-261 Paseo de la Reforma-Río de la Plata",
+    "lat": 19.42491,
+    "lng": -99.172455,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-262 República de Cuba-República de Brasil",
+    "lat": 19.436931,
+    "lng": -99.133952,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-263 Sadi Carnot - Gómez Farias",
+    "lat": 19.436274,
+    "lng": -99.158425,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-264-275 Héroes Ferrocarrileros - Jesús Garcia",
+    "lat": 19.440985,
+    "lng": -99.152935,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-265 Mina - Jesús García",
+    "lat": 19.440839,
+    "lng": -99.152265,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-266-267 Jesús García - Carlos J. Meneses",
+    "lat": 19.444031,
+    "lng": -99.152187,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-268-269 Luis Donaldo Colosio - Av. Jesús García",
+    "lat": 19.442467,
+    "lng": -99.151658,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-270 De la República-Ponciano Arriaga",
+    "lat": 19.436764,
+    "lng": -99.153865,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-271-272 Jesús García - Carlos J. Meneses",
+    "lat": 19.443684,
+    "lng": -99.152465,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-273-274 Luis Donaldo Colosio - Av. Jesús García",
+    "lat": 19.442707,
+    "lng": -99.152956,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-276 Anaxágoras-Obrero Mundial",
+    "lat": 19.401986,
+    "lng": -99.156366,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-277 Prolongación Tonalá-Obrero Mundial",
+    "lat": 19.401807,
+    "lng": -99.15909,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-278 Mier Y Pesado-Obrero Mundial",
+    "lat": 19.40071,
+    "lng": -99.163831,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-279 La Morena-Providencia",
+    "lat": 19.399908,
+    "lng": -99.166553,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-280 Anaxágoras-Obrero Mundial",
+    "lat": 19.4015,
+    "lng": -99.156406,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-281 Pitágoras-La Morena",
+    "lat": 19.398532,
+    "lng": -99.157308,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-282 La Morena-Eje 2 Poniente Gabriel Mancera",
+    "lat": 19.398719,
+    "lng": -99.16128,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-283 Av. Coyoacán-Rafael Dondé",
+    "lat": 19.397923,
+    "lng": -99.167248,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-284 Dakota-Vermont",
+    "lat": 19.397693,
+    "lng": -99.172981,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-285 12 de Octubre-Minería",
+    "lat": 19.399763,
+    "lng": -99.177538,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-286 13 de Septiembre-Avenida Patriotismo",
+    "lat": 19.399201,
+    "lng": -99.179943,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-287 13 de Septiembre-Puente de la Morena",
+    "lat": 19.398946,
+    "lng": -99.183254,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-288 11 de Abril-Avenida 2",
+    "lat": 19.39634,
+    "lng": -99.183571,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-290 Yosemite-Colorado",
+    "lat": 19.39638,
+    "lng": -99.172708,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-291 Magdalena-División Del Norte",
+    "lat": 19.397651,
+    "lng": -99.169946,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-292 Adolfo Prieto-Eje 4 Sur Xola",
+    "lat": 19.396917,
+    "lng": -99.166264,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-293 Mier y Pesado-Eje 4 Sur Xola",
+    "lat": 19.397373,
+    "lng": -99.164598,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-294 Nicolás San Juan-Eje 4 Sur Xola",
+    "lat": 19.396442,
+    "lng": -99.160902,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-295 Anaxágoras-Eje 4 Sur Xola",
+    "lat": 19.396189,
+    "lng": -99.156877,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-296 Diagonal San Antonio-Enrique Rébsamen",
+    "lat": 19.394283,
+    "lng": -99.158756,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-297 Diagonal San Antonio-Enrique Rébsamen",
+    "lat": 19.394412,
+    "lng": -99.158907,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-298 Romero de Terreros-Gabriel Mancera",
+    "lat": 19.394092,
+    "lng": -99.162139,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-299 Romero de Terreros-Mier Y Pesado",
+    "lat": 19.394601,
+    "lng": -99.165054,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-300 Providencia -Luz Saviñón",
+    "lat": 19.393229,
+    "lng": -99.168394,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-301 Luz Saviñón-Magdalena",
+    "lat": 19.393807,
+    "lng": -99.171133,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-302 Luz Saviñón-Magdalena",
+    "lat": 19.393914,
+    "lng": -99.171675,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-303 Montecito-Av. Insurgentes",
+    "lat": 19.394862,
+    "lng": -99.173006,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-304 Montecito-Dakota",
+    "lat": 19.395043,
+    "lng": -99.173821,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-305 Avenida del Parque-Arizona",
+    "lat": 19.394693,
+    "lng": -99.175531,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-306 Dakota-Minnesota",
+    "lat": 19.393699,
+    "lng": -99.175664,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-307 Minnesota-Dakota",
+    "lat": 19.393712,
+    "lng": -99.175815,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-308 Nueva York-Arizona",
+    "lat": 19.393643,
+    "lng": -99.178156,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-309 Pensilvania-Arizona",
+    "lat": 19.393059,
+    "lng": -99.179483,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-310 Calle 1-Av. Patriotismo",
+    "lat": 19.395316,
+    "lng": -99.181726,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-312 Avenida 2-Calle 7",
+    "lat": 19.392709,
+    "lng": -99.183732,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-313 Pensilvania-Oklahoma",
+    "lat": 19.391431,
+    "lng": -99.178989,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-314 Nueva York-Louisiana",
+    "lat": 19.391647,
+    "lng": -99.177331,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-315 Alabama-Montana",
+    "lat": 19.391444,
+    "lng": -99.173687,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-316 San Francisco-Concepción Beistegui",
+    "lat": 19.391056,
+    "lng": -99.1712,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-317 Avenida Coyoacán-Torres Adalid",
+    "lat": 19.391456,
+    "lng": -99.166157,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-318 Luz Saviñón-Amores",
+    "lat": 19.392195,
+    "lng": -99.163987,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-319 Diagonal San Antonio-Luz Saviñón",
+    "lat": 19.391991,
+    "lng": -99.162684,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-320 Enrique Rébsamen-Luz Saviñón",
+    "lat": 19.391323,
+    "lng": -99.15936,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-321 Torres Adalid-Anaxágoras",
+    "lat": 19.389477,
+    "lng": -99.157513,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-322 Heriberto Frías-Concepción Beistegui",
+    "lat": 19.388457,
+    "lng": -99.160643,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-323 Concepción Beistegui-Gabriel Mancera",
+    "lat": 19.388986,
+    "lng": -99.163245,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-324 Amores-Avenida Eugenia",
+    "lat": 19.387483,
+    "lng": -99.165409,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-325 Providencia -Avenida Del Valle",
+    "lat": 19.388178,
+    "lng": -99.169667,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-326 Eugenia-Nebraska",
+    "lat": 19.388978,
+    "lng": -99.174811,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-327 Georgia -Pensilvania",
+    "lat": 19.38885,
+    "lng": -99.17772,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-328 Avenida 1-Calle 7",
+    "lat": 19.392721,
+    "lng": -99.184727,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-329 Calle 13-Avenida 1",
+    "lat": 19.390306,
+    "lng": -99.184812,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-330 Calle 15-Avenida Patriotismo",
+    "lat": 19.389358,
+    "lng": -99.182606,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-331 Avenida 2-Calle 17",
+    "lat": 19.388748,
+    "lng": -99.183924,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-332 Calle 27-Avenida 3",
+    "lat": 19.385494,
+    "lng": -99.183744,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-333 Georgia-Carolina",
+    "lat": 19.387624,
+    "lng": -99.180978,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-334 Nueva York-Av. Insurgentes",
+    "lat": 19.386531,
+    "lng": -99.175107,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-335 Magdalena-Ameyalco",
+    "lat": 19.386989,
+    "lng": -99.173438,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-336 San Borja-Cda. Dr. J. Bartolache",
+    "lat": 19.385531,
+    "lng": -99.169673,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-337 San Borja-Martín Mendalde",
+    "lat": 19.384849,
+    "lng": -99.16704,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-338 Nicolás San Juan-San Borja",
+    "lat": 19.384242,
+    "lng": -99.16326,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-339 Enrique Rébsamen-Avenida Eugenia",
+    "lat": 19.386212,
+    "lng": -99.160583,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-340 Anaxágoras-Avenida Eugenia",
+    "lat": 19.385625,
+    "lng": -99.158193,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-341 San Borja-Avenida Cuauhtémoc",
+    "lat": 19.382889,
+    "lng": -99.158352,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-342 Pitágoras-Av. División del Norte",
+    "lat": 19.38237,
+    "lng": -99.159878,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-343 Enrique Rébsamen-División Del Norte",
+    "lat": 19.384079,
+    "lng": -99.160915,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-345 Patricio Sanz - Miraflores",
+    "lat": 19.384447,
+    "lng": -99.172039,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-346 San Francisco-Santa Margarita",
+    "lat": 19.384966,
+    "lng": -99.174117,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-347 Pensilvania-Maximino Avila Camacho",
+    "lat": 19.384474,
+    "lng": -99.176084,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-348 Indiana-Avenida San Antonio",
+    "lat": 19.385457,
+    "lng": -99.178272,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-349 Augusto Rodin-Avenida San Antonio",
+    "lat": 19.385632,
+    "lng": -99.180848,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-351 Calle 27-Avenida Revolución",
+    "lat": 19.385751,
+    "lng": -99.186297,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-352 Tintoreto-Giorgione",
+    "lat": 19.384146,
+    "lng": -99.185491,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-353 Carolina-Holbein",
+    "lat": 19.382335,
+    "lng": -99.178884,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-354 Boston-Av. Insurgentes",
+    "lat": 19.381714,
+    "lng": -99.176664,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-355 California-Sacramento",
+    "lat": 19.382011,
+    "lng": -99.173289,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-356 Matías Romero -Adolfo Prieto",
+    "lat": 19.381287,
+    "lng": -99.1702,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-357 Matías Romero -Amores",
+    "lat": 19.380617,
+    "lng": -99.167066,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-358 Nicolás San Juan-Matias Romero",
+    "lat": 19.380087,
+    "lng": -99.16427,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-359 Matías Romero -Pestalozzi",
+    "lat": 19.379331,
+    "lng": -99.161163,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-360 Heriberto Frías-Matias Romero",
+    "lat": 19.379435,
+    "lng": -99.162794,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-361 Porfirio Díaz-Capulín",
+    "lat": 19.380691,
+    "lng": -99.175036,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-362 Augusto Rodin-Alberto Balderas",
+    "lat": 19.382123,
+    "lng": -99.181091,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-363 Holbein-Paulo Ucello",
+    "lat": 19.380839,
+    "lng": -99.183932,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-365 Holbein-Avenida Revolución",
+    "lat": 19.381123,
+    "lng": -99.18667,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-366 Porfirio Díaz-Augusto Rodin",
+    "lat": 19.378423,
+    "lng": -99.181891,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-367 Boston -Augusto Rodin",
+    "lat": 19.379593,
+    "lng": -99.181351,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-369 Porfirio Díaz-Av. Insurgentes",
+    "lat": 19.379941,
+    "lng": -99.177224,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-370 Tlacoquemécatl-Av. Insurgentes",
+    "lat": 19.378827,
+    "lng": -99.176944,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-371 Tlacoquemécatl-Capulín",
+    "lat": 19.378546,
+    "lng": -99.174297,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-372 Dr. Roberto Gayol-Tlacoquemécatl",
+    "lat": 19.377966,
+    "lng": -99.170272,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-373 Pilares-Gabriel Mancera",
+    "lat": 19.377932,
+    "lng": -99.166594,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-374 Pitágoras-Pilares",
+    "lat": 19.376959,
+    "lng": -99.161099,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-375 Tenayuca-División Del Norte",
+    "lat": 19.376997,
+    "lng": -99.158779,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-377 Heriberto Frías-Miguel Laurent",
+    "lat": 19.375397,
+    "lng": -99.163778,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-378 Miguel Laurent-Amores",
+    "lat": 19.375865,
+    "lng": -99.168219,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-380 Moras-San Lorenzo",
+    "lat": 19.374756,
+    "lng": -99.173539,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-381 San Lorenzo-Manzanas",
+    "lat": 19.375543,
+    "lng": -99.178011,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-384 Empresa-Poussin",
+    "lat": 19.375865,
+    "lng": -99.185573,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-385 Poussin-Empresa",
+    "lat": 19.375651,
+    "lng": -99.185586,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-386 Poussin-Donatello",
+    "lat": 19.374912,
+    "lng": -99.185807,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-387 Cadiz-Empresa",
+    "lat": 19.374267,
+    "lng": -99.180546,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-389 Santander-Félix Cuevas",
+    "lat": 19.373438,
+    "lng": -99.179531,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-390-391 Oso-Félix Cuevas",
+    "lat": 19.373161,
+    "lng": -99.178243,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-392 Patricio Sanz-Félix Cuevas",
+    "lat": 19.373004,
+    "lng": -99.174764,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-393 Adolfo Prieto-Félix Cuevas",
+    "lat": 19.373307,
+    "lng": -99.172471,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-394 Dr. Roberto Gayol-Félix Cuevas",
+    "lat": 19.372474,
+    "lng": -99.171639,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-395 San Lorenzo-Martín Mendalde",
+    "lat": 19.373725,
+    "lng": -99.169807,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-396 Martin Mendalde-Felix Cuevas",
+    "lat": 19.37165,
+    "lng": -99.17015,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-397 San Lorenzo-Gabriel Mancera",
+    "lat": 19.373136,
+    "lng": -99.167067,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-398 Juan Sánchez Azcona-Félix Cuevas",
+    "lat": 19.37104,
+    "lng": -99.165653,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-399 Heriberto Frías-San Lorenzo",
+    "lat": 19.372469,
+    "lng": -99.164538,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-401 San Lorenzo-Avenida Cuauhtémoc",
+    "lat": 19.372101,
+    "lng": -99.161501,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-402 Uxmal-Municipio Libre",
+    "lat": 19.370934,
+    "lng": -99.158741,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-404 Miguel Laurent-Avenida División Del Norte",
+    "lat": 19.373833,
+    "lng": -99.157433,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-405 División Del Norte-Municipio Libre",
+    "lat": 19.370566,
+    "lng": -99.156622,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-407  Prolongación Xochicalco-General Emiliano Zapata",
+    "lat": 19.367266,
+    "lng": -99.158656,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-409 Azores - División Del Norte",
+    "lat": 19.365023,
+    "lng": -99.15549,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-412 Parroquia-Avenida Universidad",
+    "lat": 19.368107,
+    "lng": -99.164376,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-413 Parroquia-Avenida Coyoacán",
+    "lat": 19.369823,
+    "lng": -99.172164,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-414 Parroquia-José Ignacio Bartolache",
+    "lat": 19.370214,
+    "lng": -99.173855,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-415 San Francisco-Parroquia",
+    "lat": 19.37099,
+    "lng": -99.176135,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-416 Recreo-Parroquia",
+    "lat": 19.371279,
+    "lng": -99.177623,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-417 Goya-Augusto Rodin",
+    "lat": 19.373198,
+    "lng": -99.184274,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-419 Actipan-Cadiz",
+    "lat": 19.370615,
+    "lng": -99.181606,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-420 María Luz Bringas-Oso",
+    "lat": 19.369672,
+    "lng": -99.179581,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-421 María Luz Bringas-Oso",
+    "lat": 19.36952,
+    "lng": -99.179421,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-422 Búfalo-José María Rico (Eje 8)",
+    "lat": 19.368403,
+    "lng": -99.177472,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-423 Moras-José María Rico (Eje 8)",
+    "lat": 19.367816,
+    "lng": -99.175269,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-424 Amores-José María Rico (Eje 8)",
+    "lat": 19.367103,
+    "lng": -99.170581,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-425 Nicolas San Juan-Avenida Universidad",
+    "lat": 19.36704,
+    "lng": -99.167387,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-427 Avenida México-Coyoacán-Av. Popocatépetl (Eje 8)",
+    "lat": 19.364906,
+    "lng": -99.162987,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-428  Prolongación Uxmal-Av. Popocatépetl (Eje 8)",
+    "lat": 19.363404,
+    "lng": -99.160395,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-429 Pirineos-Av. Popocatépetl (Eje 8)",
+    "lat": 19.363061,
+    "lng": -99.158334,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-430 Tripoli-Av. Popocatépetl (Eje 8)",
+    "lat": 19.36205,
+    "lng": -99.154976,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-432 Carrillo Puerto-Avenida México-Coyoacan",
+    "lat": 19.361245,
+    "lng": -99.16239,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-433 Jose María Olloqui-Lopéz Cotilla",
+    "lat": 19.363548,
+    "lng": -99.170766,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-434 Jose María Olloqui-Amores",
+    "lat": 19.363699,
+    "lng": -99.171185,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-436 Rodríguez Saro-Búfalo",
+    "lat": 19.36623,
+    "lng": -99.177904,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-437 Moras-Comunal",
+    "lat": 19.364916,
+    "lng": -99.175985,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-438 Adolfo Prieto-José María Olloqui",
+    "lat": 19.36473,
+    "lng": -99.174447,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-439 Amores-Avenida Coyoacán",
+    "lat": 19.362037,
+    "lng": -99.172683,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-440  Martin Mendalde - M. López Cotilla",
+    "lat": 19.361792,
+    "lng": -99.171471,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-441 Puente Xoco-Real de Mayorazgo",
+    "lat": 19.361214,
+    "lng": -99.167721,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-442  Real de Mayorazgo - Avenida México - Coyoacán",
+    "lat": 19.359863,
+    "lng": -99.165065,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-443 Bruno Traven-Golondrinas",
+    "lat": 19.359583,
+    "lng": -99.162085,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-444 General Manuel Rincón-Agustín Gutierrez",
+    "lat": 19.359475,
+    "lng": -99.159437,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-445-446 Riff-Avenida Río Churubusco",
+    "lat": 19.358571,
+    "lng": -99.156102,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-447 Agustín Melgar-Zamora",
+    "lat": 19.418879,
+    "lng": -99.176854,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-448 Dr. Andrade-Arcos De Belén",
+    "lat": 19.426611,
+    "lng": -99.14447,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-449 Acapulco-Puebla",
+    "lat": 19.420281,
+    "lng": -99.174392,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-450 Ramos Arizpe- Av México Tenochtitlan",
+    "lat": 19.438326,
+    "lng": -99.152238,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-451 Campos Elíseos-Goldsmith",
+    "lat": 19.428847,
+    "lng": -99.201299,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-452 Leibnitz-Av. Ejercito Nacional",
+    "lat": 19.435867,
+    "lng": -99.179856,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-453 Pedregal-Teapa",
+    "lat": 19.424842,
+    "lng": -99.203739,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-454 Montes Urales-Monte Pelvoux",
+    "lat": 19.425905,
+    "lng": -99.204236,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-455 Pedregal-Ferrocarril De Cuernavaca",
+    "lat": 19.426308,
+    "lng": -99.2033,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-456 Alpes-Montes Escandinavos",
+    "lat": 19.427517,
+    "lng": -99.208412,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-457 Av. Prado Norte-Explanada",
+    "lat": 19.42703,
+    "lng": -99.212845,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-458 Montes Urales-Volcán",
+    "lat": 19.428679,
+    "lng": -99.206605,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-459 Volcán-Montes Urales",
+    "lat": 19.429324,
+    "lng": -99.207159,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-460 Juan Vázquez De Mella-Homero",
+    "lat": 19.437165,
+    "lng": -99.207931,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-461 Presa Don Martín-Boulevard Miguel De Cervantes Saavedra",
+    "lat": 19.440106,
+    "lng": -99.210031,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-462 Presa Falcón-Presa Danxhó",
+    "lat": 19.442338,
+    "lng": -99.205198,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-463 Lago Andrómaco-Lago Zurich",
+    "lat": 19.443228,
+    "lng": -99.202492,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-464 Mateo Alemán-Prolongación Moliere",
+    "lat": 19.442421,
+    "lng": -99.199838,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-465 Lago Ginebra-Lago Wetter",
+    "lat": 19.445039,
+    "lng": -99.194078,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-466 Lago Onega-Lago Ladoga",
+    "lat": 19.44269,
+    "lng": -99.19083,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-467 Lago Mayor-Lago Alberto",
+    "lat": 19.440399,
+    "lng": -99.186784,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-468 Lago Xochimilco-Av. Ejército Nacional",
+    "lat": 19.43725,
+    "lng": -99.179573,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-469 Bahía de la Concepción-Bahía de Todos Los Santos",
+    "lat": 19.434183,
+    "lng": -99.173089,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-470 Bahía de Las Palmas-Bahía de Todos Los Santos",
+    "lat": 19.435039,
+    "lng": -99.173879,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-471 Bahía de Chachalacas-Bahía de Santa Bárbara",
+    "lat": 19.436287,
+    "lng": -99.174888,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-472 Bahía de Santa Bárbara-Bahía de Ballenas",
+    "lat": 19.437667,
+    "lng": -99.17711,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-473 Bahía del Espíritu Santo-Bahía de Banderas",
+    "lat": 19.438143,
+    "lng": -99.17519,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-474 Bahía de San Hipólito-Bahía del Espíritu Santo",
+    "lat": 19.438984,
+    "lng": -99.177549,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-475 Lago Muritz-Lago Alberto",
+    "lat": 19.439249,
+    "lng": -99.181065,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-476 Lago Como-Laguna de Mayrán",
+    "lat": 19.442127,
+    "lng": -99.184433,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-477 Lago Iseo-Laguna de Mayrán",
+    "lat": 19.440905,
+    "lng": -99.181743,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-478 Laguna de Mayrán-Lago Chalco",
+    "lat": 19.440818,
+    "lng": -99.176961,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-479 Lago Muritz-Av.Marina Nacional",
+    "lat": 19.444433,
+    "lng": -99.179664,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-480 Lago Iseo-Av. Marina Nacional",
+    "lat": 19.446073,
+    "lng": -99.181654,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-481 Lago Garda - Mariano Escobedo",
+    "lat": 19.449367,
+    "lng": -99.182461,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-482 Lago Xochimilco - Laguna de San Cristóbal",
+    "lat": 19.444826,
+    "lng": -99.178393,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-483 Colegio Salesiano - Marina Nacional",
+    "lat": 19.443092,
+    "lng": -99.177612,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-484 Laguna Mayran - Lago Cuitzeo",
+    "lat": 19.44046,
+    "lng": -99.174564,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-485 Lago de Pátzcuaro - Marina Nacional",
+    "lat": 19.438506,
+    "lng": -99.172696,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-486 Izcoatl - Circuito Interior Melchor Ocampo",
+    "lat": 19.437334,
+    "lng": -99.169573,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-487 Nopaltzin - Quetzalcoatl",
+    "lat": 19.441728,
+    "lng": -99.167477,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-488 Huetzin - Cuitláhuac",
+    "lat": 19.444812,
+    "lng": -99.170307,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-489 Lago Chalco - Laguna Tamiahua",
+    "lat": 19.446383,
+    "lng": -99.17598,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-490 Lago Garda - FFCC",
+    "lat": 19.448935,
+    "lng": -99.179295,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-491 Colegio Salesiano - Lago Catemaco",
+    "lat": 19.449405,
+    "lng": -99.176635,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-492 Lago Cuitzeo - Felipe Carrillo Puerto",
+    "lat": 19.449153,
+    "lng": -99.173433,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-493 Lago Tláhuac - Laguna de Guzmán",
+    "lat": 19.445916,
+    "lng": -99.170401,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-494 Tláloc - Calzada México Tacuba",
+    "lat": 19.444053,
+    "lng": -99.167429,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-495 Amado Nervo - de los Maestros",
+    "lat": 19.445528,
+    "lng": -99.166934,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-496 Maestro Rural - José Parres",
+    "lat": 19.449039,
+    "lng": -99.170246,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-497 Manuel Carpio - Plan de Ayala",
+    "lat": 19.452688,
+    "lng": -99.170157,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-498 de los Maestros - Plan de Agua Prieta",
+    "lat": 19.453146,
+    "lng": -99.166455,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-499 de los Maestros - Calzada de los Gallos",
+    "lat": 19.455986,
+    "lng": -99.165966,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-500 Plan de Guadalupe /Ferrocarril de Cuernavaca - Juan Sarabia",
+    "lat": 19.456546,
+    "lng": -99.169344,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-501 Plan de Guadalupe /Ferrocarril de Cuernavaca - Eligio Ancona",
+    "lat": 19.454257,
+    "lng": -99.172593,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-502 Mar Mediterráneo - Callejón de la Zanja",
+    "lat": 19.453432,
+    "lng": -99.174636,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-503 Nextitla - Mar Egeo",
+    "lat": 19.455572,
+    "lng": -99.17513,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-504 Mar Blanco - Calzada México Tacuba",
+    "lat": 19.455343,
+    "lng": -99.179056,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-505 Mar Negro - Mariano Escobedo",
+    "lat": 19.455319,
+    "lng": -99.181368,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-506 Mar Mediterráneo - Mar Arábigo",
+    "lat": 19.459553,
+    "lng": -99.185111,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-507 Mar Mediterráneo - Azcapotzalco",
+    "lat": 19.460292,
+    "lng": -99.188303,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-508 Libertad-C. José Sánchez Trujillo",
+    "lat": 19.462364,
+    "lng": -99.183671,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-509  Juárez - Venecia",
+    "lat": 19.459686,
+    "lng": -99.181778,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-510 Egipto - Calle Norte 79 A",
+    "lat": 19.462152,
+    "lng": -99.178291,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-511 Palestina - Egipto",
+    "lat": 19.463941,
+    "lng": -99.18228,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-512 Clavería - Floresta",
+    "lat": 19.465638,
+    "lng": -99.186178,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-513 Av. Aquiles Serdán - Av. Invierno",
+    "lat": 19.469578,
+    "lng": -99.189828,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-514 José F. Gutiérrez - Invierno",
+    "lat": 19.470485,
+    "lng": -99.188509,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-515 Tebas-C. Salónica",
+    "lat": 19.469622,
+    "lng": -99.184082,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-516 Texcoco - Nilo",
+    "lat": 19.46669,
+    "lng": -99.180302,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-517 Ignacio Allende - Clavería",
+    "lat": 19.465377,
+    "lng": -99.179197,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-518 Heliópolis - Norte 79A",
+    "lat": 19.468315,
+    "lng": -99.177386,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-519 Poniente 58 - Cuitláhuac",
+    "lat": 19.464891,
+    "lng": -99.177242,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-520 Salónica - Eje 3 Norte Camarones",
+    "lat": 19.470699,
+    "lng": -99.178323,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-521 Yuca - Clavelinas",
+    "lat": 19.466423,
+    "lng": -99.173061,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-522 Prol. Nueces - Av. Cuitlahuac",
+    "lat": 19.470597,
+    "lng": -99.170053,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-523 Toronjil - Av. Cuitlahuac",
+    "lat": 19.471112,
+    "lng": -99.165294,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-524 Malvón - Juan Sarabia",
+    "lat": 19.468119,
+    "lng": -99.167268,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-525 Boldo - Tila",
+    "lat": 19.4683,
+    "lng": -99.165619,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-526 Toronjil - Mejorana",
+    "lat": 19.466952,
+    "lng": -99.162928,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-527 Boldo - Alcanfores",
+    "lat": 19.464826,
+    "lng": -99.163177,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-528 Tlatilco - Av. Jardín",
+    "lat": 19.464964,
+    "lng": -99.160455,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-529  Av Plan de San Luis - Calle Clavelinas",
+    "lat": 19.46555,
+    "lng": -99.166902,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-530  Membrillo - Cda. Nueces",
+    "lat": 19.4645,
+    "lng": -99.16948,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-531 Norte 67 - Poniente 44",
+    "lat": 19.460356,
+    "lng": -99.174283,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-532  Av. Biólogo Maximino Martínez - Camarones",
+    "lat": 19.460836,
+    "lng": -99.171151,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-533  Av Plan de San Luis - Eulalia Gúzman",
+    "lat": 19.460494,
+    "lng": -99.16727,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-534 Tlatilco - Jazmín",
+    "lat": 19.458773,
+    "lng": -99.164499,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-535 Av. Jardín - Orquídea",
+    "lat": 19.461773,
+    "lng": -99.162241,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-536 Fresno - Eulalia Guzmán (Eje 2 Norte)",
+    "lat": 19.458881,
+    "lng": -99.159215,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-537 Fresno - Clavel",
+    "lat": 19.457544,
+    "lng": -99.159463,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-538 Nogal - Eligio Ancona",
+    "lat": 19.453778,
+    "lng": -99.163128,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-539 Naranjo - Av. Ricardo Flores Magon",
+    "lat": 19.455104,
+    "lng": -99.157691,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-540 Eucalipto - Ricardo Flores Magón",
+    "lat": 19.453965,
+    "lng": -99.152468,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-541 Eligio Ancona - Naranjo",
+    "lat": 19.45272,
+    "lng": -99.158014,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-542 Dr. Enrique González Martínez - Eligio Ancona",
+    "lat": 19.451838,
+    "lng": -99.154584,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-543 Jaime Torres Bodet - Manuel Carpio",
+    "lat": 19.450506,
+    "lng": -99.157375,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-544 Salvador Díaz Mirón - Nogal",
+    "lat": 19.449773,
+    "lng": -99.163136,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-545 Sabino - Salvador Díaz Mirón",
+    "lat": 19.449098,
+    "lng": -99.159952,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-546 Salvador Díaz Mirón - Santa María la Ribera",
+    "lat": 19.448764,
+    "lng": -99.156817,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-547 Dr. Enrique González Martínez - Salvador Díaz Mirón",
+    "lat": 19.447481,
+    "lng": -99.155443,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-548 Dr. Mariano Azuela - Jose Antonio Alzate",
+    "lat": 19.447029,
+    "lng": -99.154311,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-549 Sor Juana Ines de la Cruz - Dr. Atl",
+    "lat": 19.445044,
+    "lng": -99.157133,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-550 Sor Juana Ines de la Cruz - Fresno",
+    "lat": 19.445947,
+    "lng": -99.161378,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-551 Nogal - Ribera de San Cosme",
+    "lat": 19.443581,
+    "lng": -99.164883,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-552 Fresno - Ribera de San Cosme",
+    "lat": 19.443108,
+    "lng": -99.162454,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-553  Jaime Torres Bodet - Ribera de San Cosme",
+    "lat": 19.442,
+    "lng": -99.159333,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-554 Heroes Ferrocarrileros - Mariano Azuela",
+    "lat": 19.441747,
+    "lng": -99.155639,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-555 Ribera de San Cosme - Insurgentes Centro",
+    "lat": 19.440216,
+    "lng": -99.156168,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-556 Plaza Tlaxcoaque - Diagonal 20 de noviembre",
+    "lat": 19.423056,
+    "lng": -99.134941,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-557 5 de Febrero - Fernando de Alva Ixtlilxochitl",
+    "lat": 19.41981,
+    "lng": -99.135941,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-558 Chimalpopoca - Simón Bolívar",
+    "lat": 19.4223,
+    "lng": -99.139872,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-559 Fernando de Alva Ixtlilxochitl - Diagonal 20 de noviembre",
+    "lat": 19.420029,
+    "lng": -99.140999,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-560 Doctor Liceaga - Eje Central",
+    "lat": 19.421599,
+    "lng": -99.143408,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-561 Dr. Jiménez - Dr. Lavista",
+    "lat": 19.423673,
+    "lng": -99.147957,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-562 Claudio Bernard - José María Vertiz",
+    "lat": 19.42037,
+    "lng": -99.146818,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-563 Doctor Velasco - Niños Héroes",
+    "lat": 19.419444,
+    "lng": -99.149776,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-564 Doctor Carmona y Valle - Doctor Velasco",
+    "lat": 19.419509,
+    "lng": -99.153227,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-565 Dr. Martinez del Rio - Dr. Lucio",
+    "lat": 19.417671,
+    "lng": -99.152786,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-566 Dr. Jiménez - Dr. García Diego",
+    "lat": 19.416239,
+    "lng": -99.149542,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-567 Doctor Martínez del Río - Doctor José Terrés",
+    "lat": 19.417133,
+    "lng": -99.145649,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-568 Doctor Barragán - Doctor Erazo",
+    "lat": 19.418013,
+    "lng": -99.144598,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-569 Gutiérrez Nájera - Bolívar",
+    "lat": 19.415713,
+    "lng": -99.141227,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-570 Alfredo Chavero - Simón Bolívar",
+    "lat": 19.417595,
+    "lng": -99.140972,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-571 Manuel M. Flores - Calzada San Antonio Abad",
+    "lat": 19.416221,
+    "lng": -99.134909,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-572 Manuel J. Othón - José T. Cuellar",
+    "lat": 19.414677,
+    "lng": -99.136894,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-573 Fernando Ramírez - Isabel la Católica",
+    "lat": 19.412853,
+    "lng": -99.138723,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-574 José María Roa Bárcenas - Simón Bolívar",
+    "lat": 19.411768,
+    "lng": -99.140899,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-575 Fernando Ramírez - Eje Central",
+    "lat": 19.413235,
+    "lng": -99.143476,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-576 Doctor Arce - Jose Maria Vertiz",
+    "lat": 19.413464,
+    "lng": -99.148029,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-577 Doctor Márquez - Doctor Jiménez",
+    "lat": 19.411609,
+    "lng": -99.15314,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-578 Doctor Jiménez - Doctor Federico Gómez Santos",
+    "lat": 19.408649,
+    "lng": -99.151126,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-579 Doctor Márquez - Privada Doctor Duran",
+    "lat": 19.410884,
+    "lng": -99.144975,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-580 Antonio Solís - Bolívar",
+    "lat": 19.409817,
+    "lng": -99.141643,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-581 José María Roa Bárcenas - San Antonio Abad",
+    "lat": 19.411398,
+    "lng": -99.135655,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-582 Antonio Solis-San Antonio Abad",
+    "lat": 19.40948,
+    "lng": -99.135894,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-583 Ángel del Campo - 5 de Febrero",
+    "lat": 19.408087,
+    "lng": -99.137763,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-584 Enrique Granados - José Peón Contreras (Eje 3)",
+    "lat": 19.40697,
+    "lng": -99.14383,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-585 José Toribio Medina - Manuel Navarrete",
+    "lat": 19.405358,
+    "lng": -99.14316,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-586 Bernardo Couto-Juan E. Hernández y Davalos",
+    "lat": 19.406326,
+    "lng": -99.138779,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-587 Jose Toribio Medina - Marcelino Davalos",
+    "lat": 19.404668,
+    "lng": -99.136946,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-588  Av. Fernando - La coruña",
+    "lat": 19.401175,
+    "lng": -99.13748,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-589 Cádiz - Calzada de Tlalpan",
+    "lat": 19.39859,
+    "lng": -99.137732,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-590 Fernando - Isabel la Católica",
+    "lat": 19.399172,
+    "lng": -99.140625,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-591 Simón Bolívar - La Coruña",
+    "lat": 19.402088,
+    "lng": -99.142976,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-592 Cádiz - Eje Central Lázaro Cárdenas",
+    "lat": 19.399664,
+    "lng": -99.145136,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-593 Zempoala - Diagonal de San Antonio",
+    "lat": 19.401018,
+    "lng": -99.147952,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-594 Xochicalco - Obrero Mundial",
+    "lat": 19.402277,
+    "lng": -99.153294,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-595 Yacatas - Diagonal de San Antonio",
+    "lat": 19.396983,
+    "lng": -99.155114,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-596 Cumbres de Maltrata - Uxmal",
+    "lat": 19.395205,
+    "lng": -99.155049,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-597 Diagonal San Antonio - Icacos",
+    "lat": 19.398858,
+    "lng": -99.151211,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-598 Palenque - Cumbres de Maltrata",
+    "lat": 19.3931,
+    "lng": -99.152012,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-599 La Morena - Zempoala",
+    "lat": 19.398143,
+    "lng": -99.148333,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-600 Cumbres de Acultzingo - Av. Universidad",
+    "lat": 19.392463,
+    "lng": -99.150544,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-601 Navarra - Fernando",
+    "lat": 19.395812,
+    "lng": -99.145347,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-602 Correspondencia - Eje Central Lázaro Cárdenas",
+    "lat": 19.392523,
+    "lng": -99.146194,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-603 Castilla - Eje 4 sur Xola",
+    "lat": 19.394422,
+    "lng": -99.143291,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-604 Andalucía - Carteros",
+    "lat": 19.390945,
+    "lng": -99.142972,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-605 5 de Febrero - Alfonso XIII",
+    "lat": 19.395084,
+    "lng": -99.139519,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-606 Alfonso XIII - Aragón",
+    "lat": 19.394974,
+    "lng": -99.138949,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-607 Unión Postal - Calzada de Tlalpan",
+    "lat": 19.39091,
+    "lng": -99.138953,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-608 Ahorro Postal - Francisco Márquez",
+    "lat": 19.38843,
+    "lng": -99.139772,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-609 Romero - Calzada de Tlalpan",
+    "lat": 19.384623,
+    "lng": -99.139817,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-610  Av. Víctor Hugo - Av. Niños Héroes de Chapultepec",
+    "lat": 19.387174,
+    "lng": -99.143708,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-611 Miguel Negrete - Niños Héroes de Chapultepec",
+    "lat": 19.387506,
+    "lng": -99.146338,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-612 Torres Adalid - Cumbres de Maltrata",
+    "lat": 19.388148,
+    "lng": -99.148446,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-613 Luz Saviñón - Doctor José María Vertiz",
+    "lat": 19.390019,
+    "lng": -99.15111,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-614 Torres Adalid - Av. Cuauhtémoc",
+    "lat": 19.389293,
+    "lng": -99.156348,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-615 Tajín - Universidad",
+    "lat": 19.38748,
+    "lng": -99.153876,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-616 Petén - Eje 5 Sur",
+    "lat": 19.384876,
+    "lng": -99.153594,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-617 Mitla - Eje 5 Sur",
+    "lat": 19.384589,
+    "lng": -99.150517,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-618 Bartolomé R. Salido - Edzna",
+    "lat": 19.381824,
+    "lng": -99.148086,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-619 Kiff - Rafael Solana Verduguillo",
+    "lat": 19.381277,
+    "lng": -99.145804,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-620 Fernando Montes de Oca - Priv. Lago",
+    "lat": 19.381804,
+    "lng": -99.142997,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-621 Lago Poniente - Calzada de Tlalpan",
+    "lat": 19.379458,
+    "lng": -99.140943,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-622 Fernando Montes de Oca - Eje 6 Sur",
+    "lat": 19.378362,
+    "lng": -99.144007,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-623 Fernando Montes de Oca - Antonio Rodríguez",
+    "lat": 19.375518,
+    "lng": -99.144118,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-624 Luis Spota - Eje Central Lázaro Cárdenas",
+    "lat": 19.377516,
+    "lng": -99.148116,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-625 Zempoala - Angel Urraza",
+    "lat": 19.379442,
+    "lng": -99.150064,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-626 San Borja - Petén",
+    "lat": 19.382115,
+    "lng": -99.153988,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-627 San Borja - Av. Universidad",
+    "lat": 19.382606,
+    "lng": -99.156592,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-628 Tenayuca - Chichen Itzá",
+    "lat": 19.378281,
+    "lng": -99.15841,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-629 Tajín - Chichen Itzá",
+    "lat": 19.376367,
+    "lng": -99.155872,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-630 Cuicuilco - Motozintla",
+    "lat": 19.375677,
+    "lng": -99.152953,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-631 Miguel Laurent - Eje Central",
+    "lat": 19.372907,
+    "lng": -99.149207,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-632 Victor Hugo - Sevilla",
+    "lat": 19.370891,
+    "lng": -99.151577,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-633 Canarias - Calzada Santa Cruz",
+    "lat": 19.372175,
+    "lng": -99.146356,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-634 Rumania - Víctor Hugo",
+    "lat": 19.370133,
+    "lng": -99.145866,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-635 Calzada Santa Cruz - Antillas",
+    "lat": 19.370586,
+    "lng": -99.142294,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-636 Ajusco - Antillas",
+    "lat": 19.367131,
+    "lng": -99.142838,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-637 Ajusco - Emperadores",
+    "lat": 19.36576,
+    "lng": -99.144413,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-638 Av Pirineos - C. Antillas",
+    "lat": 19.361743,
+    "lng": -99.143867,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-639 Bulgaria - Rumania",
+    "lat": 19.364528,
+    "lng": -99.146988,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-640 Odesa - Bulgaria",
+    "lat": 19.367465,
+    "lng": -99.148786,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-641 Sevilla - Av. Presidentes",
+    "lat": 19.368156,
+    "lng": -99.151883,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-642 Repúblicas - Monrovia",
+    "lat": 19.364001,
+    "lng": -99.150422,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-643 Filipinas - Av. Pirineos",
+    "lat": 19.362323,
+    "lng": -99.148805,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-644 Monrovia - Popocatépetl (Eje 8 Sur)",
+    "lat": 19.361371,
+    "lng": -99.150619,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-645 Saratoga - Ajusco",
+    "lat": 19.358634,
+    "lng": -99.152732,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-646  Rumania - Av. Popocatépetl",
+    "lat": 19.360545,
+    "lng": -99.147501,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-647 Antillas - Nevado",
+    "lat": 19.359256,
+    "lng": -99.144433,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-648 Rafael Olivia - 20 de agosto",
+    "lat": 19.354411,
+    "lng": -99.147795,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-649 Héroes del 47 - Calzada de Tlalpan",
+    "lat": 19.35072,
+    "lng": -99.146786,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-650 Xicoténcatl- Prolongación Xicoténcatl",
+    "lat": 19.355809,
+    "lng": -99.149393,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-651 Héroes del 47 - División del Norte",
+    "lat": 19.351578,
+    "lng": -99.150941,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-652 Xicoténcatl - División del Norte",
+    "lat": 19.354876,
+    "lng": -99.153611,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-653 Londres - División del Norte",
+    "lat": 19.356689,
+    "lng": -99.153269,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-654 Londres - San Pedro",
+    "lat": 19.355942,
+    "lng": -99.157461,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-655 Gomez Farias - Viena",
+    "lat": 19.357086,
+    "lng": -99.160197,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-656 Ignacio Allende - Paris",
+    "lat": 19.354311,
+    "lng": -99.162436,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-657 Madrid - Centenario",
+    "lat": 19.357436,
+    "lng": -99.163794,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-658 Vicente Guerrero - Berlín",
+    "lat": 19.355339,
+    "lng": -99.165613,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-659  Madrid - Avenida Mexico",
+    "lat": 19.356486,
+    "lng": -99.169456,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-660 Josefa Ortiz de Dominguez - Circuito Interior",
+    "lat": 19.358003,
+    "lng": -99.170106,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-661 Madrid - Universidad",
+    "lat": 19.35675,
+    "lng": -99.171769,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-662 Manzano - Circuito Interior",
+    "lat": 19.362041,
+    "lng": -99.175158,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-663 Hortensia - Avenida Universidad",
+    "lat": 19.354803,
+    "lng": -99.175419,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-664 Hortensia - 2da cerrada de Minerva",
+    "lat": 19.355544,
+    "lng": -99.178992,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-665 Moras - Mango",
+    "lat": 19.358903,
+    "lng": -99.177997,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-666 Moras - Naranjo",
+    "lat": 19.361489,
+    "lng": -99.177432,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-667 Hermes - Mosqueta",
+    "lat": 19.363955,
+    "lng": -99.180789,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-668 Plateros - Capuchinas",
+    "lat": 19.367522,
+    "lng": -99.181727,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-669 Los Juarez - Sagredo",
+    "lat": 19.370769,
+    "lng": -99.187361,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-670 Felix Parra - Flamencos",
+    "lat": 19.3676,
+    "lng": -99.184992,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-671 Plateros - Jose María Velasco",
+    "lat": 19.364577,
+    "lng": -99.186288,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-672 José María Velasco - Damas",
+    "lat": 19.36295,
+    "lng": -99.183161,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-673 Miguel Noreña - José María Ibarrarán",
+    "lat": 19.363153,
+    "lng": -99.186963,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-674 Silvestre Revueltas - Macedonio Alcalá",
+    "lat": 19.361846,
+    "lng": -99.186814,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-675 Manuel Castro Padilla - Av. Revolución",
+    "lat": 19.362526,
+    "lng": -99.188958,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-676  Ricardo Palmerín - Abundio Martínez",
+    "lat": 19.358236,
+    "lng": -99.188106,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-677  Juan Pablo II - Av. de los Insurgentes Sur",
+    "lat": 19.35904,
+    "lng": -99.184498,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-678 Francia - Tecoyotitla",
+    "lat": 19.358863,
+    "lng": -99.18293,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-679 Olivo - Tecoyotitla",
+    "lat": 19.354886,
+    "lng": -99.184642,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-680  Diego Becerra - Av. Revolución",
+    "lat": 19.366701,
+    "lng": -99.188228,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-681 Guty Cárdenas - Ricardo Castro",
+    "lat": 19.355844,
+    "lng": -99.189141,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-682 Manuel M. Ponce - Fernando M. Villalpando",
+    "lat": 19.353534,
+    "lng": -99.189548,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-683 Pedro Luis Ogazón-Insurgentes Sur",
+    "lat": 19.350383,
+    "lng": -99.187223,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-684 Vito Alessio Robles - Tecoyotitla",
+    "lat": 19.351594,
+    "lng": -99.184772,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-685 Av De la Paz - Insurgentes",
+    "lat": 19.347699,
+    "lng": -99.186901,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-686 Vito Alessio Robles - Universidad",
+    "lat": 19.352203,
+    "lng": -99.178393,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-687 Francisco Sosa - Panzacola",
+    "lat": 19.349307,
+    "lng": -99.179074,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-688 Panzacola - Miguel Ángel de Quevedo",
+    "lat": 19.346975,
+    "lng": -99.178791,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-689 G. Pérez Valenzuela - Salvador Novo",
+    "lat": 19.351426,
+    "lng": -99.175455,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-690 Tata Vasco - Av. Miguel Ángel de Quevedo",
+    "lat": 19.345966,
+    "lng": -99.172975,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-691 Melchor Ocampo - Dulce Olivia",
+    "lat": 19.347283,
+    "lng": -99.170834,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-692 Presidente Carranza - Francisco Sosa",
+    "lat": 19.349149,
+    "lng": -99.169646,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-693 Xicoténcatl - Vicente Guerrero",
+    "lat": 19.352531,
+    "lng": -99.164913,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-694 Ignacio Aldama - Centenario",
+    "lat": 19.353243,
+    "lng": -99.163753,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-695 Malintzin - Allende",
+    "lat": 19.352143,
+    "lng": -99.162096,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-696 México - Malintzin",
+    "lat": 19.351576,
+    "lng": -99.164567,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-697 Francisco Sosa - Tres Cruces",
+    "lat": 19.349277,
+    "lng": -99.164921,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-698 Cerrada Zamora - Av. Miguel Ángel de Quevedo",
+    "lat": 19.344873,
+    "lng": -99.16357,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-699 San Gregorio - Felipe Carrillo Puerto",
+    "lat": 19.346895,
+    "lng": -99.163868,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-700 Abasolo - Miguel Hidalgo",
+    "lat": 19.350062,
+    "lng": -99.160024,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-701 Cuauhtémoc - Morelos",
+    "lat": 19.352052,
+    "lng": -99.157981,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-702 Fernández Leal - Plaza de la Conchita",
+    "lat": 19.347246,
+    "lng": -99.15857,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-703 Miguel Hidalgo - Calzada General Anaya",
+    "lat": 19.350776,
+    "lng": -99.155379,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-704 Pacífico - Asia",
+    "lat": 19.344976,
+    "lng": -99.157824,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-705 Europa - Miguel Ángel de Quevedo",
+    "lat": 19.344107,
+    "lng": -99.155933,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-706 Canadá - Acolotitla",
+    "lat": 19.347503,
+    "lng": -99.15244,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-707 Irlanda - División del Norte",
+    "lat": 19.348076,
+    "lng": -99.14906,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-708 Irlanda-Canada",
+    "lat": 19.34642,
+    "lng": -99.145669,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-709 Inglaterra - Antigua Taxqueña",
+    "lat": 19.344237,
+    "lng": -99.150065,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-710 Molino del Rey - Glorieta de la Lealtad",
+    "lat": 19.416795,
+    "lng": -99.192508,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "CE-711 Molino del Rey - Av. Constituyentes",
+    "lat": 19.414108,
+    "lng": -99.191983,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  }
+]

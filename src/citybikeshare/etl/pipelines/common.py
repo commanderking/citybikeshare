@@ -9,6 +9,7 @@ from citybikeshare.etl.constants import (
 
 from citybikeshare.context import PipelineContext
 from citybikeshare.etl.station_maps import load_station_map
+from citybikeshare.etl.station_coordinates import load_station_coordinates
 
 
 def rename_columns_for_keys(renamed_columns_dict):
@@ -401,15 +402,14 @@ def normalize_birth_year(df, config, context):
 
 
 def get_mexico_city_stations_lf(context: PipelineContext):
-    metadata_path = context.metadata_directory
-    station_file = metadata_path / "station_information.json"
+    """id → name from the committed, cumulative GBFS coordinates (see etl/station_coordinates).
 
-    stations = []
-    with open(station_file) as f:
-        results = json.load(f)
-        stations = results["data"]["stations"]
-    stations_lf = pl.LazyFrame(stations).select(["station_id", "name"])
-    return stations_lf
+    Reads the version-controlled table, not the live/gitignored GBFS snapshot, so retired
+    stations that have left the feed keep resolving and a fresh clone can transform.
+    """
+    return load_station_coordinates(context.city).select(
+        pl.col("id").alias("station_id"), pl.col("name")
+    )
 
 
 # A bare, all-digits station id (``17``, ``017``) — no hyphen pair, no leaked name or

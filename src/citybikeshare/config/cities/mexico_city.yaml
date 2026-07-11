@@ -81,6 +81,32 @@ corrupt_time_files:
 # appear in the id columns. Dropped before the station join so the coverage assert
 # only sees genuine ids; everything else numeric is a real station (see
 # unmapped_station_ids). Listed per column since either endpoint can carry them.
+# Station coordinates come from the committed, cumulative GBFS coordinates (see
+# etl/station_coordinates; trips carry no inline coords), keyed by name — the same name the
+# transform assigns from that table, so it joins to the trip data. The table accumulates every
+# GBFS fetch and never drops ids, so a station retired from the live feed keeps its last-known
+# point. GBFS never listed the already-gone `unmapped_station_ids`, so those still get no coord;
+# that's expected. n_obs is a placeholder (point-in-time snapshot), so drop the canonicalize floor.
+coordinates:
+  # source = where coords come from + how to keep them: the GBFS feed is fetched during sync and
+  # merged into config/station_coordinates/mexico_city.csv during transform (auto — declared once
+  # here, no separate gbfs_url / pre-transform step). strategy/station_file below is the read path.
+  source:
+    type: gbfs
+    url: "https://gbfs.mex.lyftbikes.com/gbfs/gbfs.json"
+  strategy: station_file
+  key: name
+  bounding_box: [19.2, 19.6, -99.3, -98.9]   # lat_min, lat_max, lng_min, lng_max — CDMX
+  min_coverage: 0.85
+  canonicalize:
+    n_obs_floor: 0
+  station_file:
+    format: station_coordinates   # config/station_coordinates/mexico_city.csv
+    id:   ["id"]
+    name: ["name"]
+    lat:  ["lat"]
+    lng:  ["lng"]
+
 invalid_values:
   start_station_id: &bad_station_ids
     - "NULL"
