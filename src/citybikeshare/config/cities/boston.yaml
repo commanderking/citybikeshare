@@ -81,8 +81,8 @@ date_formats:
 processing_pipeline:
   - rename_columns
   - convert_to_datetime
-  - normalize_gender      # {male, female, other, unknown}; unknown ≠ null
-  - derive_is_member      # boolean from membership_type (kept lossless)
+  - normalize_gender
+  - derive_is_member
   - select_final_columns
   - cast_optional_columns
 
