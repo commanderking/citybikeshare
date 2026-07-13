@@ -6,6 +6,12 @@ s3_bucket: s3://hubway-data
 
 file_matcher:
   - "-tripdata"
+  # Jan–Mar 2018 exist only as `201801_hubway_tripdata` (underscore); no dash-named
+  # copies. Without this they'd be silently skipped, dropping 3 months of trips.
+  - "_hubway_tripdata"
+  # 2011–2014 archives (`hubway_Trips_2011.csv.gz` … `_2014_2`): the pre-monthly era,
+  # a distinct schema mapped in the "Boston 2011–2014 archives" block below.
+  - "hubway_Trips"
 renamed_columns:
   # Commonized system columns
   ride_id: id
@@ -41,6 +47,17 @@ renamed_columns:
   Gender: gender
   postal code: postal_code
 
+  # Boston 2011–2014 archives (hubway_Trips_20xx). Pre-monthly era: title-case headers,
+  # m/d/Y dates, no birth year / bike type (left null), no lat/lng (station names only).
+  Start date: start_time
+  End date: end_time
+  Start station number: start_station_id
+  Start station name: start_station_name
+  End station number: end_station_id
+  End station name: end_station_name
+  Bike number: bike_id
+  Zip code: postal_code
+
 ## Odds and ends
   Member type: membership_type
   member_casual: membership_type
@@ -51,7 +68,8 @@ final_columns:
   - end_time
   - start_station_name
   - end_station_name
-  - membership_type
+  - membership_type   # lossless raw; is_member is the commonized boolean derived from it
+  - is_member
   - gender
   - birth_year
   - bike_type
@@ -59,9 +77,12 @@ final_columns:
 date_formats:
   - "%Y-%m-%d %H:%M:%S"
   - "%Y-%m-%d %H:%M:%S%.f"
+  - "%m/%d/%Y %H:%M"   # 2011–2014 hubway_Trips archives, e.g. "12/1/2011 0:26"
 processing_pipeline:
   - rename_columns
   - convert_to_datetime
+  - normalize_gender
+  - derive_is_member
   - select_final_columns
   - cast_optional_columns
 

@@ -1,6 +1,7 @@
 import os
 import json
 import re
+from enum import StrEnum
 import polars as pl
 from citybikeshare.etl.constants import (
     DEFAULT_FINAL_COLUMNS,
@@ -804,6 +805,134 @@ def cast_optional_columns(df: pl.LazyFrame) -> pl.LazyFrame:
     return df
 
 
+# --- Value normalization ---------------------------------------------------------------
+# Commonize the *values* of already-renamed columns across a city's schema eras (and across
+# cities). Column NAMES are commonized per-city via `renamed_columns`; VALUES have a small,
+# shared closed vocabulary worth defining once here. Every non-null source value must be
+# accounted for — an unmapped value fails loud (a new era/source encoding shows up as an
+# error, not a silently-nulled or leaked stray value).
+
+
+class Gender(StrEnum):
+    MALE = "male"
+    FEMALE = "female"
+    OTHER = "other"
+    UNKNOWN = "unknown"
+
+
+# Raw gender value → canonical, keyed by the exact source spelling (not case-folded, so every
+# accepted spelling is a visible, version-controlled line and a new one fails loud). The numeric
+# codes are ISO/IEC 5218 (0=not known, 1=male, 2=female), which the Motivate/Lyft trip-data
+# dictionaries adopted; `other` (Mexico City's "O") extends past ISO's four codes. An explicit
+# "unspecified" (0 / "?") maps to `unknown`; genuine null-markers (below) are nulled before lookup
+# so "no value recorded" (null) stays distinct from "recorded, unspecified" (`unknown`).
+GENDER_MAP = {
+    # Boston / Motivate–Lyft: ISO 5218 numeric codes (2015+ monthly files)
+    "0": Gender.UNKNOWN,
+    "1": Gender.MALE,
+    "2": Gender.FEMALE,
+    # Boston: 2011–2014 hubway_Trips archives (title case)
+    "Male": Gender.MALE,
+    "Female": Gender.FEMALE,
+    # Mexico City: single-letter, with "O" (other) and "?" (unspecified)
+    "M": Gender.MALE,
+    "F": Gender.FEMALE,
+    "O": Gender.OTHER,
+    "?": Gender.UNKNOWN,
+    # Seoul: single-letter, mixed case ("M"/"F" shared with Mexico City above)
+    "m": Gender.MALE,
+    "f": Gender.FEMALE,
+}
+
+# Raw membership value → is_member, keyed by exact source spelling. Two-layer: the raw
+# `membership_type` is kept losslessly (Vancouver's pass catalog, Seoul's nationality survive);
+# this only answers "subscriber or not?" as a boolean. A city with bespoke pass names (Vancouver)
+# adds them here too — revisit a per-city map only if that single-city clutter becomes a problem.
+MEMBER_MAP = {
+    # Boston / Motivate (2015–2022 monthly files)
+    "Subscriber": True,
+    "Customer": False,
+    # Boston / Lyft (2023+): lowercase
+    "member": True,
+    "casual": False,
+    # Boston: 2011–2014 hubway_Trips archives (title case; "Member"/"Casual" shared with Toronto)
+    "Member": True,
+    "Casual": False,
+    # Toronto: "Annual Member" / "Casual Member" (plus "Member"/"Casual" shared above)
+    "Annual Member": True,
+    "Casual Member": False,
+}
+
+# Tokens that mean "no value recorded" → null, as opposed to an explicit "unspecified" code.
+# "\\N" is MySQL's null sentinel, emitted literally by some exports (Seoul); Mexico writes "NULL".
+NULL_TOKENS = {"", "NULL", "\\N"}
+
+
+def _clean_value(column: str) -> pl.Expr:
+    """Clean a raw value for map lookup: cast→strip, with null-markers as null. Values are matched
+    case-sensitively. Shared by the gender and membership value maps, so it's kept column-agnostic."""
+    value = pl.col(column).cast(pl.Utf8).str.strip_chars()
+    return pl.when(value.is_in(list(NULL_TOKENS))).then(None).otherwise(value)
+
+
+def _assert_values_mapped(df, value_expr: pl.Expr, mapping: dict, guidance: str):
+    """Raise if a non-null cleaned value isn't a key in `mapping` — an encoding the value map
+    doesn't account for. Only the (tiny) set of distinct offenders is collected."""
+    unknown = (
+        df.lazy()
+        .select(value_expr.alias("_value"))
+        .drop_nulls()
+        .filter(~pl.col("_value").is_in(list(mapping.keys())))
+        .select("_value")
+        .unique()
+        .head(5)
+        .collect()
+    )
+    if unknown.height:
+        raise ValueError(
+            f"{unknown.height} unmapped value(s) after normalization: "
+            f"{unknown['_value'].to_list()}. {guidance}"
+        )
+
+
+def normalize_gender(df: pl.LazyFrame) -> pl.LazyFrame:
+    """Map `gender` onto the canonical {male, female, other, unknown} vocabulary in place.
+    Skips cities/eras with no gender column (it's added null later by select_final_columns)."""
+    if "gender" not in df.collect_schema().names():
+        return df
+    gender_value = _clean_value("gender")
+    _assert_values_mapped(
+        df,
+        gender_value,
+        GENDER_MAP,
+        "Add it to GENDER_MAP (or NULL_TOKENS if it means 'no value recorded').",
+    )
+    return df.with_columns(
+        gender_value.replace_strict(
+            {k: str(v) for k, v in GENDER_MAP.items()}, default=None
+        ).alias("gender")
+    )
+
+
+def derive_is_member(df: pl.LazyFrame) -> pl.LazyFrame:
+    """Add a boolean `is_member` derived from `membership_type`, which is left untouched.
+    MEMBER_MAP maps every raw membership value to member/nonmember."""
+    if "membership_type" not in df.collect_schema().names():
+        return df
+    is_member_value = _clean_value("membership_type")
+    _assert_values_mapped(
+        df,
+        is_member_value,
+        MEMBER_MAP,
+        "Add it to MEMBER_MAP.",
+    )
+    return df.with_columns(
+        is_member_value.replace_strict(
+            MEMBER_MAP, default=None, return_dtype=pl.Boolean
+        ).alias("is_member")
+    )
+
+
 def _resolve_montreal_station_file_path(raw_dir, fname):
     """Locate a station file under raw/, tolerating the gzip suffix (raw is stored .csv.gz)."""
     path = raw_dir / fname
@@ -990,6 +1119,8 @@ PROCESSING_FUNCTIONS = {
     "convert_to_datetime": lambda df, config, context: df.pipe(
         convert_columns_to_datetime(["start_time", "end_time"], config["date_formats"])
     ),
+    "normalize_gender": lambda df, config, context: normalize_gender(df),
+    "derive_is_member": lambda df, config, context: derive_is_member(df),
     "select_final_columns": lambda df, config, context: select_final_columns(
         df, config.get("final_columns", DEFAULT_FINAL_COLUMNS)
     ),
