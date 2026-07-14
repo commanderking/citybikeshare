@@ -40,43 +40,65 @@ def filter_filenames(filenames, config):
     return files
 
 
-def determine_has_header(file_path, expected_columns):
-    # Not all files have headers
+def _read_first_line_fields(file_path):
+    """Return the comma-split fields of a file's first line (gzip-aware)."""
     opener = gzip.open if str(file_path).endswith(".gz") else open
     with opener(file_path, "rt", encoding="utf-8", errors="replace") as file:
-        first_line = file.readline().strip().split(",")
-        return all(item in expected_columns for item in first_line)
+        return file.readline().strip().split(",")
+
+
+def determine_has_header(file_path, expected_columns):
+    # Not all files have headers
+    return all(item in expected_columns for item in _read_first_line_fields(file_path))
+
+
+def _select_new_columns(file_path, opts):
+    """Resolve the positional column layout for a headerless file.
+
+    A single `new_columns` list is used verbatim. When a source ships more than one headerless
+    layout (Taipei added a bike_type column in 2024-11, going 6→7 columns), the city declares
+    `new_columns_by_count` keyed on the real discriminator — the column count — and we dispatch
+    on it rather than on a proxy like the file date. An unlisted count fails loud so a genuinely
+    new layout surfaces as an error instead of silently padding against the wrong names."""
+    by_count = opts.get("new_columns_by_count")
+    if by_count is None:
+        return opts.get("new_columns")
+
+    count = len(_read_first_line_fields(file_path))
+    layout = by_count.get(count)
+    if layout is None:
+        raise ValueError(
+            f"{os.path.basename(file_path)}: {count} columns has no layout in "
+            f"new_columns_by_count (known counts: {sorted(by_count)}). Add the layout "
+            "or check for a source schema change."
+        )
+    return layout
 
 
 def get_csv_scan_params(file_path, opts):
     has_header = opts.get("has_header", True)
-    new_columns = opts.get("new_columns")
+    # new_columns_by_count is our own dispatch key, not a scan_csv arg — keep it out of `base`.
+    base = {"encoding": "utf8-lossy", "infer_schema_length": 0} | {
+        k: v for k, v in opts.items() if k != "new_columns_by_count"
+    }
 
-    base = {"encoding": "utf8-lossy", "infer_schema_length": 0} | opts
-    if has_header == "auto":
-        if not new_columns:
-            raise ValueError("has_header: auto requires new_columns.")
-        file_has_header = determine_has_header(file_path, new_columns)
+    if has_header is True:
+        return base | {"has_header": True}
 
-        return base | (
-            {"has_header": True}
-            if file_has_header
-            else {
-                "has_header": False,
-                "new_columns": new_columns,
-                "infer_schema_length": 10000,
-            }
+    new_columns = _select_new_columns(file_path, opts)
+    if not new_columns:
+        raise ValueError(
+            "has_header: auto/false requires new_columns or new_columns_by_count."
         )
 
-    return base | (
-        {"has_header": True}
-        if has_header
-        else {
-            "has_header": False,
-            "new_columns": new_columns,
-            "infer_schema_length": 10000,
-        }
-    )
+    if has_header == "auto" and determine_has_header(file_path, new_columns):
+        return base | {"has_header": True}
+
+    return base | {
+        "has_header": False,
+        "new_columns": new_columns,
+        "infer_schema_length": 10000,
+    }
 
 
 def create_parquet(file, context: PipelineContext, config):

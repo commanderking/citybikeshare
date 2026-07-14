@@ -37,18 +37,33 @@ final_columns:
   - start_station_name
   - end_station_name
   - duration
+  - bike_type
+  - bike_model
 
 read_csv_options:
   encoding: utf8-lossy
   has_header: auto
-  # Only rendered if no header detected
-  new_columns: 
-    - "rent_time"
-    - "rent_station"
-    - "return_time"
-    - "return_station"
-    - "rent"
-    - "infodate"
+  # Headerless files come in two layouts; dispatch on the column count (the real
+  # discriminator), not on file date. The 7-column layout inserted a bike_type column
+  # (一般車 = regular, 電輔車 = electric) before infodate starting 2024-11. Any other count
+  # fails loud in transform.get_csv_scan_params rather than silently padding these names.
+  # Only applied when no header row is detected.
+  new_columns_by_count:
+    6:
+      - "rent_time"
+      - "rent_station"
+      - "return_time"
+      - "return_station"
+      - "rent"
+      - "infodate"
+    7:
+      - "rent_time"
+      - "rent_station"
+      - "return_time"
+      - "return_station"
+      - "rent"
+      - "bike_type"
+      - "infodate"
 
 
 extraction_pipeline:
@@ -56,7 +71,11 @@ extraction_pipeline:
 
 processing_pipeline:
   - rename_columns
+  - normalize_bike_type
   - select_final_columns
+  # bike_type is present only in 7-column files; cast to Utf8 so the all-null 6-column era
+  # doesn't emit a Null-dtype column that drops the typed values when parquets are combined.
+  - cast_optional_columns
   - convert_to_datetime
   - remove_invalid_rows
   - handle_odd_hour_duration

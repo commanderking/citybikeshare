@@ -73,6 +73,7 @@ final_columns:
   - gender
   - birth_year
   - bike_type
+  - bike_model
 
 date_formats:
   - "%Y-%m-%d %H:%M:%S"
@@ -83,6 +84,7 @@ processing_pipeline:
   - convert_to_datetime
   - normalize_gender
   - derive_is_member
+  - normalize_bike_type
   - select_final_columns
   - cast_optional_columns
 

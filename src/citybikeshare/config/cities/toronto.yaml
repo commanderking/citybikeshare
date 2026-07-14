@@ -4,6 +4,12 @@ source_url: "https://open.toronto.ca/dataset/bike-share-toronto-ridership-data/"
 aws_sync: false
 file_matcher:
   - .csv
+# The 2024 monthly files (bike_share_ridership_2024-01..09, Jan–Sep) duplicate the full-year
+# annual bikeshare-ridership-2024 — same trips, so counts would inflate. Exclude the monthly
+# ones (the annual is the complete year). The 2023 monthly files have no annual counterpart, so
+# this substring is scoped to 2024- and leaves them untouched.
+excluded_filenames:
+  - "bike_share_ridership_2024-"
 renamed_columns:
   trip_id: trip_id
   trip_start_time: start_time
@@ -35,6 +41,10 @@ renamed_columns:
   End_Station_Name: end_station_name
   Bike_Id: bike_id
   User_Type: membership_type
+  # Bike-model column: "Model" in the 2024 monthly files, "Bike_Model" from 2025 on. Both feed
+  # the two-layer bike_type/bike_model via normalize_bike_type — ICONIC=classic, EFIT/EFIT G5/
+  # ASTRO=electric. (The duplicate 2024 monthly files are dropped via excluded_filenames above.)
+  Model: bike_type
   Bike_Model: bike_type
 
 final_columns:
@@ -44,6 +54,8 @@ final_columns:
   - end_station_name
   - membership_type
   - bike_id
+  - bike_type
+  - bike_model
 
 date_formats:
   - "%m/%d/%Y %H:%M"
@@ -52,9 +64,18 @@ date_formats:
   - "%Y-%m-%d %H:%M:%S"
 read_csv_options:
   encoding: utf8-lossy
+  null_values:
+    - "NULLNULL"   # one corrupt end_time in bikeshare_ridership_(2017_q4) → treat as missing
+# TODO(data-quality): 2020-10.csv.gz has 249 rows (of 277,839) that omit the `Start Station Id`
+# field entirely — they carry 9 comma-fields instead of 10, so every column after Trip Duration
+# shifts one left (station names land in start_time). convert_to_datetime fails loud on them, which
+# currently blocks a full `--no-incremental` rebuild of Toronto. The rows are otherwise valid trips
+# (only the unused Start Station Id is missing); fix is to recover them by padding 9-field rows with
+# an empty Start Station Id before the scan, or drop them. See the TODO section in README.md.
 processing_pipeline:
   - rename_columns
   - convert_to_datetime
+  - normalize_bike_type
   - select_final_columns
   - offset_two_digit_years
   - cast_optional_columns

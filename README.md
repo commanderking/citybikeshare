@@ -398,3 +398,18 @@ Mexico City Issues
 ### Analysis Decisions
 
 1. Trips where end_time is before the start_time are filtered out.
+
+---
+
+## TODO / Known Issues
+
+- **Toronto `2020-10.csv.gz` — 249 malformed rows block a full rebuild.** These rows omit the
+  `Start Station Id` field entirely (9 comma-fields instead of 10), so every column after
+  `Trip Duration` shifts one left and station names land in the `start_time` column;
+  `convert_to_datetime` then fails loud, blocking a full `--no-incremental` transform of Toronto.
+  The rows are otherwise valid trips (only the unused `Start Station Id` is missing). Fix: recover
+  them by padding 9-field rows with an empty `Start Station Id` before the scan, or drop them.
+  Tracked in `config/cities/toronto.yaml`.
+- **Toronto `bike_type`/`bike_model` not yet in parquet.** Toronto is wired for the two-layer bike
+  model normalization (ICONIC=classic, EFIT/EFIT G5/ASTRO=electric) and the mapping is verified,
+  but its parquet can't be regenerated until the `2020-10` issue above is resolved.
