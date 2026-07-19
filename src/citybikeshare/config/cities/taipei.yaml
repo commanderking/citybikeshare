@@ -43,11 +43,11 @@ final_columns:
 read_csv_options:
   encoding: utf8-lossy
   has_header: auto
-  # Headerless files come in two layouts; dispatch on the column count (the real
-  # discriminator), not on file date. The 7-column layout inserted a bike_type column
-  # (一般車 = regular, 電輔車 = electric) before infodate starting 2024-11. Any other count
-  # fails loud in transform.get_csv_scan_params rather than silently padding these names.
-  # Only applied when no header row is detected.
+  # Headerless files come in two layouts; the `assign_positional_columns` pipeline step names
+  # column_1..N from these, dispatching on the column count (the real discriminator, not file
+  # date). The 7-column layout inserted a bike_type column (一般車 = regular, 電輔車 = electric)
+  # before infodate starting 2024-11. Any other count fails loud rather than silently padding
+  # these names. Only applied to files where has_header: auto detected no header row.
   new_columns_by_count:
     6:
       - "rent_time"
@@ -70,6 +70,8 @@ extraction_pipeline:
   header: auto
 
 processing_pipeline:
+  # Headerless files scan as column_1..N; name them from new_columns_by_count before renaming.
+  - assign_positional_columns
   - rename_columns
   - normalize_bike_type
   - select_final_columns

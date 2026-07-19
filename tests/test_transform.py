@@ -150,11 +150,13 @@ class TestGetCsvScanParams:
         assert params["encoding"] == "utf8-lossy"
         assert params["infer_schema_length"] == 0
 
-    def test_explicit_has_header_false_includes_new_columns(self):
+    def test_explicit_has_header_false_defers_column_naming(self):
+        # Naming is no longer done at scan time; the scan just flags the file headerless and
+        # assign_positional_columns names column_1..N downstream.
         opts = {"has_header": False, "new_columns": ["col_a", "col_b"]}
         params = get_csv_scan_params("/some/file.csv", opts)
         assert params["has_header"] is False
-        assert params["new_columns"] == ["col_a", "col_b"]
+        assert "new_columns" not in params
 
     def test_extra_options_are_passed_through(self):
         opts = {"separator": ";"}

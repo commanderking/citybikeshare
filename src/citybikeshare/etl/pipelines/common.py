@@ -27,6 +27,39 @@ def rename_columns_for_keys(renamed_columns_dict):
     return inner
 
 
+def _pick_positional_layout(read_csv_options, count):
+    """Pick the column layout matching a headerless file's actual column count. A single
+    `new_columns` list is used verbatim; `new_columns_by_count` dispatches on the count (Taipei's
+    6- vs 7-column eras). An unlisted count fails loud rather than misnaming positions."""
+    by_count = read_csv_options.get("new_columns_by_count")
+    if by_count is None:
+        return read_csv_options.get("new_columns")
+    layout = by_count.get(count)
+    if layout is None:
+        raise ValueError(
+            f"{count} columns has no layout in new_columns_by_count (known counts: "
+            f"{sorted(by_count)}). Add the layout or check for a source schema change."
+        )
+    return layout
+
+
+def assign_positional_columns(df, config, context):
+    """Name a headerless scan's positional columns (Polars' column_1..N defaults) from the city's
+    configured layout, dispatched on the actual column count. A no-op once a real header was
+    detected at scan time (the columns already carry their real names). Keeps header/column-count
+    handling a visible, testable pipeline step rather than scan-time logic."""
+    names = df.collect_schema().names()
+    if not all(name.startswith("column_") for name in names):
+        return df
+    layout = _pick_positional_layout(config.get("read_csv_options", {}), len(names))
+    if not layout:
+        raise ValueError(
+            "assign_positional_columns: headerless file but no new_columns / "
+            "new_columns_by_count layout is configured."
+        )
+    return df.rename({f"column_{i + 1}": name for i, name in enumerate(layout)})
+
+
 def _parse_date_columns(df, columns, date_formats):
     """Lazily parse string date columns. Each original value is stashed as `<col>_pre_clean`
     (so a genuinely-empty value can later be told apart from one that matched no format),
@@ -1192,6 +1225,9 @@ PROCESSING_FUNCTIONS = {
         rename_columns_for_keys(config["renamed_columns"])
     ),
     "clean_header_quotes": lambda df, config, context: clean_header_quotes(df),
+    "assign_positional_columns": lambda df, config, context: assign_positional_columns(
+        df, config, context
+    ),
     "convert_to_datetime": lambda df, config, context: df.pipe(
         convert_columns_to_datetime(["start_time", "end_time"], config["date_formats"])
     ),

@@ -52,53 +52,36 @@ def determine_has_header(file_path, expected_columns):
     return all(item in expected_columns for item in _read_first_line_fields(file_path))
 
 
-def _select_new_columns(file_path, opts):
-    """Resolve the positional column layout for a headerless file.
-
-    A single `new_columns` list is used verbatim. When a source ships more than one headerless
-    layout (Taipei added a bike_type column in 2024-11, going 6→7 columns), the city declares
-    `new_columns_by_count` keyed on the real discriminator — the column count — and we dispatch
-    on it rather than on a proxy like the file date. An unlisted count fails loud so a genuinely
-    new layout surfaces as an error instead of silently padding against the wrong names."""
+def _header_name_candidates(opts):
+    """Every column name a headerless layout could assign — used by has_header detection to tell
+    a header row (all fields are known names) from a data row. Spans all `new_columns_by_count`
+    layouts so a headed file from any era is recognized."""
     by_count = opts.get("new_columns_by_count")
-    if by_count is None:
-        return opts.get("new_columns")
-
-    count = len(_read_first_line_fields(file_path))
-    layout = by_count.get(count)
-    if layout is None:
-        raise ValueError(
-            f"{os.path.basename(file_path)}: {count} columns has no layout in "
-            f"new_columns_by_count (known counts: {sorted(by_count)}). Add the layout "
-            "or check for a source schema change."
-        )
-    return layout
+    if by_count:
+        return {name for layout in by_count.values() for name in layout}
+    return set(opts.get("new_columns") or [])
 
 
 def get_csv_scan_params(file_path, opts):
+    """Build the pl.scan_csv kwargs. The scan only decides whether row 1 is a header; naming a
+    headerless file's positional columns is deferred to the `assign_positional_columns` pipeline
+    step (Polars emits column_1..N, which that step renames). Everything except our header-control
+    keys is a real scan_csv kwarg (encoding, null_values, …) and passes straight through."""
     has_header = opts.get("has_header", True)
-    # new_columns_by_count is our own dispatch key, not a scan_csv arg — keep it out of `base`.
     base = {"encoding": "utf8-lossy", "infer_schema_length": 0} | {
-        k: v for k, v in opts.items() if k != "new_columns_by_count"
+        k: v
+        for k, v in opts.items()
+        if k not in ("has_header", "new_columns", "new_columns_by_count")
     }
 
-    if has_header is True:
+    if has_header == "auto":
+        has_header = determine_has_header(file_path, _header_name_candidates(opts))
+
+    if has_header:
         return base | {"has_header": True}
 
-    new_columns = _select_new_columns(file_path, opts)
-    if not new_columns:
-        raise ValueError(
-            "has_header: auto/false requires new_columns or new_columns_by_count."
-        )
-
-    if has_header == "auto" and determine_has_header(file_path, new_columns):
-        return base | {"has_header": True}
-
-    return base | {
-        "has_header": False,
-        "new_columns": new_columns,
-        "infer_schema_length": 10000,
-    }
+    # Headerless: columns arrive as column_1..N; assign_positional_columns names them downstream.
+    return base | {"has_header": False, "infer_schema_length": 10000}
 
 
 def create_parquet(file, context: PipelineContext, config):
