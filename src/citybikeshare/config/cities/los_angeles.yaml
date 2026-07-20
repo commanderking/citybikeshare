@@ -32,6 +32,7 @@ final_columns:
   - bike_id
   - membership_type
   - bike_type
+  - bike_model
 
 date_formats:
   - "%Y-%m-%d %H:%M:%S"
@@ -40,6 +41,7 @@ processing_pipeline:
   - rename_columns
   - process_bicycle_transit_stations
   - convert_to_datetime
+  - normalize_bike_type
   - select_final_columns
   - cast_optional_columns
 

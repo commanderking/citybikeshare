@@ -37,26 +37,27 @@ final_columns:
   - start_station_name
   - end_station_name
   - duration
+  - bike_type
+  - bike_model
 
 read_csv_options:
   encoding: utf8-lossy
-  has_header: auto
-  # Only rendered if no header detected
-  new_columns: 
-    - "rent_time"
-    - "rent_station"
-    - "return_time"
-    - "return_station"
-    - "rent"
-    - "infodate"
 
-
-extraction_pipeline:
-  header: auto
+# The source dropped its header row mid-2023 (and added a 7th bike_type column to the headerless
+# layout in 2024-11). Restoring the missing header is a well-formedness fix, so it's done in the
+# clean stage (taipei_prepend_header) rather than transform — after cleaning, every file is a
+# normal headed CSV. compress_cleaned keeps the cleaned copy ~raw-sized instead of ~5x larger.
+clean_pipeline:
+  - taipei_prepend_header
+compress_cleaned: true
 
 processing_pipeline:
   - rename_columns
+  - normalize_bike_type
   - select_final_columns
+  # bike_type is present only in 7-column files; cast to Utf8 so the all-null 6-column era
+  # doesn't emit a Null-dtype column that drops the typed values when parquets are combined.
+  - cast_optional_columns
   - convert_to_datetime
   - remove_invalid_rows
   - handle_odd_hour_duration

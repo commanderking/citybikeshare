@@ -796,6 +796,9 @@ def cast_optional_columns(df: pl.LazyFrame) -> pl.LazyFrame:
     if "bike_type" in headers:
         exprs.append(pl.col("bike_type").cast(pl.Utf8))
 
+    if "bike_model" in headers:
+        exprs.append(pl.col("bike_model").cast(pl.Utf8))
+
     if "membership_type" in headers:
         exprs.append(pl.col("membership_type").cast(pl.Utf8))
 
@@ -861,6 +864,53 @@ MEMBER_MAP = {
     # Toronto: "Annual Member" / "Casual Member" (plus "Member"/"Casual" shared above)
     "Annual Member": True,
     "Casual Member": False,
+}
+
+
+class BikeType(StrEnum):
+    CLASSIC = "classic"
+    ELECTRIC = "electric"
+
+
+# Raw model value → canonical bike_type, keyed by exact source spelling. This is the
+# derived/coarse layer of a two-layer design: the raw value is kept losslessly in `bike_model`
+# (frame-size, fleet-model, and dock/smart distinctions survive there), while `bike_type` is
+# just the electric-vs-classic axis that's comparable across cities. A value mapping to `None`
+# is a known value that has no place on that axis (a scooter, or a model whose type isn't
+# confirmed): bike_type stays null while bike_model still records what it was. A value absent
+# from the map fails loud (a genuinely new encoding), so `None` is the explicit "known, but not
+# classic/electric" marker.
+BIKE_TYPE_MAP = {
+    # Lyft/Motivate `rideable_type` (Boston, Chicago, NYC, Jersey City, DC, Columbus, SF)
+    "classic_bike": BikeType.CLASSIC,
+    "electric_bike": BikeType.ELECTRIC,
+    "docked_bike": BikeType.CLASSIC,  # legacy dock-only pedal bike (detail kept in bike_model)
+    "electric_scooter": None,  # Chicago 2024-09 only; a scooter, not a bike → no bike_type
+    # Bicycle Transit Systems (Philadelphia Indego, LA Metro Bike Share)
+    "standard": BikeType.CLASSIC,
+    "electric": BikeType.ELECTRIC,
+    "smart": BikeType.CLASSIC,  # LA Metro smart-lock pedal bike (detail kept in bike_model)
+    # Austin's lowercase spelling (not currently carried to parquet, but part of the vocab)
+    "classic": BikeType.CLASSIC,
+    # London `Bike model` (uppercase)
+    "CLASSIC": BikeType.CLASSIC,
+    "PBSC_EBIKE": BikeType.ELECTRIC,
+    # Taipei positional bike_type column (7-column layout, 2024-11+)
+    "一般車": BikeType.CLASSIC,  # 一般車 = general/regular pedal bike
+    "電輔車": BikeType.ELECTRIC,  # 電輔車 = electric-assist bike
+    # Seoul (자전거구분): Korean labels through 2024-12, re-coded to BIK_00x from 2025-01. All are
+    # pedal bikes; the small-frame Saessak "Sprout" distinction (새싹자전거/BIK_003) lives in
+    # bike_model, not bike_type. 일반자전거/BIK_002 = standard Ttareungi (see seoul.yaml note).
+    "일반자전거": BikeType.CLASSIC,
+    "BIK_002": BikeType.CLASSIC,
+    "새싹자전거": BikeType.CLASSIC,
+    "BIK_003": BikeType.CLASSIC,
+    # Toronto (Model / Bike_Model): ICONIC = the standard pedal bike; the EFIT family and the
+    # newer ASTRO (introduced 2026) are electric.
+    "ICONIC": BikeType.CLASSIC,
+    "EFIT": BikeType.ELECTRIC,
+    "EFIT G5": BikeType.ELECTRIC,
+    "ASTRO": BikeType.ELECTRIC,
 }
 
 # Tokens that mean "no value recorded" → null, as opposed to an explicit "unspecified" code.
@@ -930,6 +980,32 @@ def derive_is_member(df: pl.LazyFrame) -> pl.LazyFrame:
         is_member_value.replace_strict(
             MEMBER_MAP, default=None, return_dtype=pl.Boolean
         ).alias("is_member")
+    )
+
+
+def normalize_bike_type(df: pl.LazyFrame) -> pl.LazyFrame:
+    """Split the raw model column into two layers: keep the source value losslessly as
+    `bike_model`, and derive the canonical `bike_type` ({classic, electric}, null for
+    non-bike/unclassified values) via BIKE_TYPE_MAP. The raw value arrives (via renamed_columns
+    or Taipei's positional layout) already named `bike_type`; we copy it to bike_model, then
+    overwrite bike_type with the canonical value. Skips cities/eras with no such column (both are
+    added null later by select_final_columns). An unmapped value fails loud rather than being
+    nulled, which also guards Taipei's positional assignment: a reorder that drops a station name
+    or date into the model slot trips _assert_values_mapped with the offending value."""
+    if "bike_type" not in df.collect_schema().names():
+        return df
+    raw = _clean_value("bike_type")
+    _assert_values_mapped(
+        df,
+        raw,
+        BIKE_TYPE_MAP,
+        "Add it to BIKE_TYPE_MAP (map to None if it's a known non-bike/unclassified value, "
+        "or to NULL_TOKENS if it means 'no value recorded').",
+    )
+    canonical = {k: (str(v) if v is not None else None) for k, v in BIKE_TYPE_MAP.items()}
+    return df.with_columns(
+        raw.alias("bike_model"),
+        raw.replace_strict(canonical, default=None).alias("bike_type"),
     )
 
 
@@ -1121,6 +1197,7 @@ PROCESSING_FUNCTIONS = {
     ),
     "normalize_gender": lambda df, config, context: normalize_gender(df),
     "derive_is_member": lambda df, config, context: derive_is_member(df),
+    "normalize_bike_type": lambda df, config, context: normalize_bike_type(df),
     "select_final_columns": lambda df, config, context: select_final_columns(
         df, config.get("final_columns", DEFAULT_FINAL_COLUMNS)
     ),
