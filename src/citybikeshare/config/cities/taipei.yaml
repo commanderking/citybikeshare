@@ -42,36 +42,16 @@ final_columns:
 
 read_csv_options:
   encoding: utf8-lossy
-  has_header: auto
-  # Headerless files come in two layouts; the `assign_positional_columns` pipeline step names
-  # column_1..N from these, dispatching on the column count (the real discriminator, not file
-  # date). The 7-column layout inserted a bike_type column (一般車 = regular, 電輔車 = electric)
-  # before infodate starting 2024-11. Any other count fails loud rather than silently padding
-  # these names. Only applied to files where has_header: auto detected no header row.
-  new_columns_by_count:
-    6:
-      - "rent_time"
-      - "rent_station"
-      - "return_time"
-      - "return_station"
-      - "rent"
-      - "infodate"
-    7:
-      - "rent_time"
-      - "rent_station"
-      - "return_time"
-      - "return_station"
-      - "rent"
-      - "bike_type"
-      - "infodate"
 
-
-extraction_pipeline:
-  header: auto
+# The source dropped its header row mid-2023 (and added a 7th bike_type column to the headerless
+# layout in 2024-11). Restoring the missing header is a well-formedness fix, so it's done in the
+# clean stage (taipei_prepend_header) rather than transform — after cleaning, every file is a
+# normal headed CSV. compress_cleaned keeps the cleaned copy ~raw-sized instead of ~5x larger.
+clean_pipeline:
+  - taipei_prepend_header
+compress_cleaned: true
 
 processing_pipeline:
-  # Headerless files scan as column_1..N; name them from new_columns_by_count before renaming.
-  - assign_positional_columns
   - rename_columns
   - normalize_bike_type
   - select_final_columns
