@@ -2,6 +2,146 @@
   "by_dow": [
     {
       "dow": 1,
+      "trips": 21291,
+      "year": 2011
+    },
+    {
+      "dow": 2,
+      "trips": 20884,
+      "year": 2011
+    },
+    {
+      "dow": 3,
+      "trips": 19105,
+      "year": 2011
+    },
+    {
+      "dow": 4,
+      "trips": 17325,
+      "year": 2011
+    },
+    {
+      "dow": 5,
+      "trips": 21859,
+      "year": 2011
+    },
+    {
+      "dow": 6,
+      "trips": 21285,
+      "year": 2011
+    },
+    {
+      "dow": 7,
+      "trips": 19225,
+      "year": 2011
+    },
+    {
+      "dow": 1,
+      "trips": 77035,
+      "year": 2012
+    },
+    {
+      "dow": 2,
+      "trips": 73669,
+      "year": 2012
+    },
+    {
+      "dow": 3,
+      "trips": 76023,
+      "year": 2012
+    },
+    {
+      "dow": 4,
+      "trips": 81670,
+      "year": 2012
+    },
+    {
+      "dow": 5,
+      "trips": 81266,
+      "year": 2012
+    },
+    {
+      "dow": 6,
+      "trips": 73031,
+      "year": 2012
+    },
+    {
+      "dow": 7,
+      "trips": 67680,
+      "year": 2012
+    },
+    {
+      "dow": 1,
+      "trips": 131725,
+      "year": 2013
+    },
+    {
+      "dow": 2,
+      "trips": 137213,
+      "year": 2013
+    },
+    {
+      "dow": 3,
+      "trips": 143496,
+      "year": 2013
+    },
+    {
+      "dow": 4,
+      "trips": 137218,
+      "year": 2013
+    },
+    {
+      "dow": 5,
+      "trips": 128097,
+      "year": 2013
+    },
+    {
+      "dow": 6,
+      "trips": 120760,
+      "year": 2013
+    },
+    {
+      "dow": 7,
+      "trips": 108367,
+      "year": 2013
+    },
+    {
+      "dow": 1,
+      "trips": 182704,
+      "year": 2014
+    },
+    {
+      "dow": 2,
+      "trips": 187780,
+      "year": 2014
+    },
+    {
+      "dow": 3,
+      "trips": 175329,
+      "year": 2014
+    },
+    {
+      "dow": 4,
+      "trips": 178207,
+      "year": 2014
+    },
+    {
+      "dow": 5,
+      "trips": 179733,
+      "year": 2014
+    },
+    {
+      "dow": 6,
+      "trips": 140973,
+      "year": 2014
+    },
+    {
+      "dow": 7,
+      "trips": 139988,
+      "year": 2014
+    },
+    {
+      "dow": 1,
       "trips": 162507,
       "year": 2015
     },
@@ -107,37 +247,37 @@
     },
     {
       "dow": 1,
-      "trips": 229494,
+      "trips": 256032,
       "year": 2018
     },
     {
       "dow": 2,
-      "trips": 237833,
+      "trips": 265161,
       "year": 2018
     },
     {
       "dow": 3,
-      "trips": 258923,
+      "trips": 288485,
       "year": 2018
     },
     {
       "dow": 4,
-      "trips": 254649,
+      "trips": 282700,
       "year": 2018
     },
     {
       "dow": 5,
-      "trips": 251589,
+      "trips": 276229,
       "year": 2018
     },
     {
       "dow": 6,
-      "trips": 189389,
+      "trips": 208144,
       "year": 2018
     },
     {
       "dow": 7,
-      "trips": 179195,
+      "trips": 191055,
       "year": 2018
     },
     {
@@ -422,6 +562,486 @@
     }
   ],
   "by_hour": [
+    {
+      "hour": 0,
+      "trips": 1870,
+      "year": 2011
+    },
+    {
+      "hour": 1,
+      "trips": 1652,
+      "year": 2011
+    },
+    {
+      "hour": 2,
+      "trips": 1568,
+      "year": 2011
+    },
+    {
+      "hour": 3,
+      "trips": 435,
+      "year": 2011
+    },
+    {
+      "hour": 4,
+      "trips": 220,
+      "year": 2011
+    },
+    {
+      "hour": 5,
+      "trips": 497,
+      "year": 2011
+    },
+    {
+      "hour": 6,
+      "trips": 2206,
+      "year": 2011
+    },
+    {
+      "hour": 7,
+      "trips": 5627,
+      "year": 2011
+    },
+    {
+      "hour": 8,
+      "trips": 10404,
+      "year": 2011
+    },
+    {
+      "hour": 9,
+      "trips": 6451,
+      "year": 2011
+    },
+    {
+      "hour": 10,
+      "trips": 5439,
+      "year": 2011
+    },
+    {
+      "hour": 11,
+      "trips": 7053,
+      "year": 2011
+    },
+    {
+      "hour": 12,
+      "trips": 9095,
+      "year": 2011
+    },
+    {
+      "hour": 13,
+      "trips": 9230,
+      "year": 2011
+    },
+    {
+      "hour": 14,
+      "trips": 9146,
+      "year": 2011
+    },
+    {
+      "hour": 15,
+      "trips": 9687,
+      "year": 2011
+    },
+    {
+      "hour": 16,
+      "trips": 12118,
+      "year": 2011
+    },
+    {
+      "hour": 17,
+      "trips": 14590,
+      "year": 2011
+    },
+    {
+      "hour": 18,
+      "trips": 10540,
+      "year": 2011
+    },
+    {
+      "hour": 19,
+      "trips": 7295,
+      "year": 2011
+    },
+    {
+      "hour": 20,
+      "trips": 5270,
+      "year": 2011
+    },
+    {
+      "hour": 21,
+      "trips": 4124,
+      "year": 2011
+    },
+    {
+      "hour": 22,
+      "trips": 3733,
+      "year": 2011
+    },
+    {
+      "hour": 23,
+      "trips": 2724,
+      "year": 2011
+    },
+    {
+      "hour": 0,
+      "trips": 5657,
+      "year": 2012
+    },
+    {
+      "hour": 1,
+      "trips": 4754,
+      "year": 2012
+    },
+    {
+      "hour": 2,
+      "trips": 3739,
+      "year": 2012
+    },
+    {
+      "hour": 3,
+      "trips": 1033,
+      "year": 2012
+    },
+    {
+      "hour": 4,
+      "trips": 714,
+      "year": 2012
+    },
+    {
+      "hour": 5,
+      "trips": 2187,
+      "year": 2012
+    },
+    {
+      "hour": 6,
+      "trips": 9561,
+      "year": 2012
+    },
+    {
+      "hour": 7,
+      "trips": 25134,
+      "year": 2012
+    },
+    {
+      "hour": 8,
+      "trips": 42400,
+      "year": 2012
+    },
+    {
+      "hour": 9,
+      "trips": 25560,
+      "year": 2012
+    },
+    {
+      "hour": 10,
+      "trips": 20572,
+      "year": 2012
+    },
+    {
+      "hour": 11,
+      "trips": 25029,
+      "year": 2012
+    },
+    {
+      "hour": 12,
+      "trips": 31583,
+      "year": 2012
+    },
+    {
+      "hour": 13,
+      "trips": 32315,
+      "year": 2012
+    },
+    {
+      "hour": 14,
+      "trips": 31500,
+      "year": 2012
+    },
+    {
+      "hour": 15,
+      "trips": 34552,
+      "year": 2012
+    },
+    {
+      "hour": 16,
+      "trips": 44482,
+      "year": 2012
+    },
+    {
+      "hour": 17,
+      "trips": 59366,
+      "year": 2012
+    },
+    {
+      "hour": 18,
+      "trips": 42896,
+      "year": 2012
+    },
+    {
+      "hour": 19,
+      "trips": 30256,
+      "year": 2012
+    },
+    {
+      "hour": 20,
+      "trips": 20096,
+      "year": 2012
+    },
+    {
+      "hour": 21,
+      "trips": 15443,
+      "year": 2012
+    },
+    {
+      "hour": 22,
+      "trips": 12578,
+      "year": 2012
+    },
+    {
+      "hour": 23,
+      "trips": 8967,
+      "year": 2012
+    },
+    {
+      "hour": 0,
+      "trips": 10330,
+      "year": 2013
+    },
+    {
+      "hour": 1,
+      "trips": 7928,
+      "year": 2013
+    },
+    {
+      "hour": 2,
+      "trips": 5155,
+      "year": 2013
+    },
+    {
+      "hour": 3,
+      "trips": 1590,
+      "year": 2013
+    },
+    {
+      "hour": 4,
+      "trips": 1266,
+      "year": 2013
+    },
+    {
+      "hour": 5,
+      "trips": 4490,
+      "year": 2013
+    },
+    {
+      "hour": 6,
+      "trips": 15000,
+      "year": 2013
+    },
+    {
+      "hour": 7,
+      "trips": 43065,
+      "year": 2013
+    },
+    {
+      "hour": 8,
+      "trips": 75287,
+      "year": 2013
+    },
+    {
+      "hour": 9,
+      "trips": 47404,
+      "year": 2013
+    },
+    {
+      "hour": 10,
+      "trips": 36495,
+      "year": 2013
+    },
+    {
+      "hour": 11,
+      "trips": 42266,
+      "year": 2013
+    },
+    {
+      "hour": 12,
+      "trips": 51073,
+      "year": 2013
+    },
+    {
+      "hour": 13,
+      "trips": 51128,
+      "year": 2013
+    },
+    {
+      "hour": 14,
+      "trips": 51075,
+      "year": 2013
+    },
+    {
+      "hour": 15,
+      "trips": 55540,
+      "year": 2013
+    },
+    {
+      "hour": 16,
+      "trips": 74012,
+      "year": 2013
+    },
+    {
+      "hour": 17,
+      "trips": 102187,
+      "year": 2013
+    },
+    {
+      "hour": 18,
+      "trips": 76410,
+      "year": 2013
+    },
+    {
+      "hour": 19,
+      "trips": 53746,
+      "year": 2013
+    },
+    {
+      "hour": 20,
+      "trips": 36769,
+      "year": 2013
+    },
+    {
+      "hour": 21,
+      "trips": 27888,
+      "year": 2013
+    },
+    {
+      "hour": 22,
+      "trips": 21683,
+      "year": 2013
+    },
+    {
+      "hour": 23,
+      "trips": 15089,
+      "year": 2013
+    },
+    {
+      "hour": 0,
+      "trips": 10619,
+      "year": 2014
+    },
+    {
+      "hour": 1,
+      "trips": 6976,
+      "year": 2014
+    },
+    {
+      "hour": 2,
+      "trips": 4652,
+      "year": 2014
+    },
+    {
+      "hour": 3,
+      "trips": 1588,
+      "year": 2014
+    },
+    {
+      "hour": 4,
+      "trips": 1547,
+      "year": 2014
+    },
+    {
+      "hour": 5,
+      "trips": 6011,
+      "year": 2014
+    },
+    {
+      "hour": 6,
+      "trips": 22896,
+      "year": 2014
+    },
+    {
+      "hour": 7,
+      "trips": 63471,
+      "year": 2014
+    },
+    {
+      "hour": 8,
+      "trips": 104302,
+      "year": 2014
+    },
+    {
+      "hour": 9,
+      "trips": 64628,
+      "year": 2014
+    },
+    {
+      "hour": 10,
+      "trips": 47804,
+      "year": 2014
+    },
+    {
+      "hour": 11,
+      "trips": 54184,
+      "year": 2014
+    },
+    {
+      "hour": 12,
+      "trips": 64768,
+      "year": 2014
+    },
+    {
+      "hour": 13,
+      "trips": 65095,
+      "year": 2014
+    },
+    {
+      "hour": 14,
+      "trips": 64118,
+      "year": 2014
+    },
+    {
+      "hour": 15,
+      "trips": 70059,
+      "year": 2014
+    },
+    {
+      "hour": 16,
+      "trips": 97372,
+      "year": 2014
+    },
+    {
+      "hour": 17,
+      "trips": 136235,
+      "year": 2014
+    },
+    {
+      "hour": 18,
+      "trips": 100559,
+      "year": 2014
+    },
+    {
+      "hour": 19,
+      "trips": 71036,
+      "year": 2014
+    },
+    {
+      "hour": 20,
+      "trips": 48123,
+      "year": 2014
+    },
+    {
+      "hour": 21,
+      "trips": 35056,
+      "year": 2014
+    },
+    {
+      "hour": 22,
+      "trips": 26157,
+      "year": 2014
+    },
+    {
+      "hour": 23,
+      "trips": 17458,
+      "year": 2014
+    },
     {
       "hour": 0,
       "trips": 8982,
@@ -784,122 +1404,122 @@
     },
     {
       "hour": 0,
-      "trips": 13246,
+      "trips": 14381,
       "year": 2018
     },
     {
       "hour": 1,
-      "trips": 8680,
+      "trips": 9333,
       "year": 2018
     },
     {
       "hour": 2,
-      "trips": 5555,
+      "trips": 5968,
       "year": 2018
     },
     {
       "hour": 3,
-      "trips": 2051,
+      "trips": 2217,
       "year": 2018
     },
     {
       "hour": 4,
-      "trips": 2117,
+      "trips": 2339,
       "year": 2018
     },
     {
       "hour": 5,
-      "trips": 9584,
+      "trips": 10571,
       "year": 2018
     },
     {
       "hour": 6,
-      "trips": 32030,
+      "trips": 35046,
       "year": 2018
     },
     {
       "hour": 7,
-      "trips": 87700,
+      "trips": 96792,
       "year": 2018
     },
     {
       "hour": 8,
-      "trips": 149062,
+      "trips": 167768,
       "year": 2018
     },
     {
       "hour": 9,
-      "trips": 87069,
+      "trips": 98617,
       "year": 2018
     },
     {
       "hour": 10,
-      "trips": 64885,
+      "trips": 72210,
       "year": 2018
     },
     {
       "hour": 11,
-      "trips": 72278,
+      "trips": 79697,
       "year": 2018
     },
     {
       "hour": 12,
-      "trips": 84774,
+      "trips": 93262,
       "year": 2018
     },
     {
       "hour": 13,
-      "trips": 84353,
+      "trips": 92421,
       "year": 2018
     },
     {
       "hour": 14,
-      "trips": 83319,
+      "trips": 91282,
       "year": 2018
     },
     {
       "hour": 15,
-      "trips": 95050,
+      "trips": 104081,
       "year": 2018
     },
     {
       "hour": 16,
-      "trips": 139085,
+      "trips": 153387,
       "year": 2018
     },
     {
       "hour": 17,
-      "trips": 181981,
+      "trips": 201799,
       "year": 2018
     },
     {
       "hour": 18,
-      "trips": 134002,
+      "trips": 147780,
       "year": 2018
     },
     {
       "hour": 19,
-      "trips": 93313,
+      "trips": 102336,
       "year": 2018
     },
     {
       "hour": 20,
-      "trips": 64882,
+      "trips": 70877,
       "year": 2018
     },
     {
       "hour": 21,
-      "trips": 47877,
+      "trips": 52345,
       "year": 2018
     },
     {
       "hour": 22,
-      "trips": 35411,
+      "trips": 38650,
       "year": 2018
     },
     {
       "hour": 23,
-      "trips": 22768,
+      "trips": 24647,
       "year": 2018
     },
     {
@@ -1866,6 +2486,126 @@
   "duration_bands": [
     {
       "band": "<5",
+      "share": 0.1451,
+      "trips": 20459,
+      "year": 2011
+    },
+    {
+      "band": "5-15",
+      "share": 0.4547,
+      "trips": 64098,
+      "year": 2011
+    },
+    {
+      "band": "15-30",
+      "share": 0.2209,
+      "trips": 31138,
+      "year": 2011
+    },
+    {
+      "band": "30-60",
+      "share": 0.0807,
+      "trips": 11374,
+      "year": 2011
+    },
+    {
+      "band": "60+",
+      "share": 0.0986,
+      "trips": 13898,
+      "year": 2011
+    },
+    {
+      "band": "<5",
+      "share": 0.1693,
+      "trips": 89774,
+      "year": 2012
+    },
+    {
+      "band": "5-15",
+      "share": 0.5008,
+      "trips": 265584,
+      "year": 2012
+    },
+    {
+      "band": "15-30",
+      "share": 0.2397,
+      "trips": 127141,
+      "year": 2012
+    },
+    {
+      "band": "30-60",
+      "share": 0.0584,
+      "trips": 30949,
+      "year": 2012
+    },
+    {
+      "band": "60+",
+      "share": 0.0319,
+      "trips": 16908,
+      "year": 2012
+    },
+    {
+      "band": "<5",
+      "share": 0.1729,
+      "trips": 156778,
+      "year": 2013
+    },
+    {
+      "band": "5-15",
+      "share": 0.5125,
+      "trips": 464803,
+      "year": 2013
+    },
+    {
+      "band": "15-30",
+      "share": 0.2516,
+      "trips": 228119,
+      "year": 2013
+    },
+    {
+      "band": "30-60",
+      "share": 0.0457,
+      "trips": 41438,
+      "year": 2013
+    },
+    {
+      "band": "60+",
+      "share": 0.0173,
+      "trips": 15707,
+      "year": 2013
+    },
+    {
+      "band": "<5",
+      "share": 0.1777,
+      "trips": 210512,
+      "year": 2014
+    },
+    {
+      "band": "5-15",
+      "share": 0.5121,
+      "trips": 606748,
+      "year": 2014
+    },
+    {
+      "band": "15-30",
+      "share": 0.2514,
+      "trips": 297870,
+      "year": 2014
+    },
+    {
+      "band": "30-60",
+      "share": 0.0434,
+      "trips": 51389,
+      "year": 2014
+    },
+    {
+      "band": "60+",
+      "share": 0.0154,
+      "trips": 18190,
+      "year": 2014
+    },
+    {
+      "band": "<5",
       "share": 0.1352,
       "trips": 151742,
       "year": 2015
@@ -1956,32 +2696,32 @@
     },
     {
       "band": "<5",
-      "share": 0.1234,
-      "trips": 197639,
+      "share": 0.128,
+      "trips": 226363,
       "year": 2018
     },
     {
       "band": "5-15",
-      "share": 0.4928,
-      "trips": 789018,
+      "share": 0.5001,
+      "trips": 884159,
       "year": 2018
     },
     {
       "band": "15-30",
-      "share": 0.2646,
-      "trips": 423589,
+      "share": 0.2603,
+      "trips": 460236,
       "year": 2018
     },
     {
       "band": "30-60",
-      "share": 0.0822,
-      "trips": 131655,
+      "share": 0.077,
+      "trips": 136153,
       "year": 2018
     },
     {
       "band": "60+",
-      "share": 0.037,
-      "trips": 59170,
+      "share": 0.0344,
+      "trips": 60894,
       "year": 2018
     },
     {
@@ -2227,6 +2967,30 @@
   ],
   "round_trip_share": [
     {
+      "round_trip_share": 0.0955,
+      "round_trips": 13461,
+      "trips": 140974,
+      "year": 2011
+    },
+    {
+      "round_trip_share": 0.0473,
+      "round_trips": 25090,
+      "trips": 530374,
+      "year": 2012
+    },
+    {
+      "round_trip_share": 0.0308,
+      "round_trips": 27965,
+      "trips": 906876,
+      "year": 2013
+    },
+    {
+      "round_trip_share": 0.0288,
+      "round_trips": 34084,
+      "trips": 1184714,
+      "year": 2014
+    },
+    {
       "round_trip_share": 0.0312,
       "round_trips": 34974,
       "trips": 1122558,
@@ -2245,9 +3009,9 @@
       "year": 2017
     },
     {
-      "round_trip_share": 0.0391,
-      "round_trips": 62600,
-      "trips": 1601072,
+      "round_trip_share": 0.0375,
+      "round_trips": 66212,
+      "trips": 1767806,
       "year": 2018
     },
     {
@@ -2300,6 +3064,3065 @@
     }
   ],
   "stations": [
+    {
+      "end_trips": 7754,
+      "start_trips": 7512,
+      "station": "South Station - 700 Atlantic Ave.",
+      "total_trips": 15266,
+      "year": 2011
+    },
+    {
+      "end_trips": 6950,
+      "start_trips": 6933,
+      "station": "Boston Public Library - 700 Boylston St.",
+      "total_trips": 13883,
+      "year": 2011
+    },
+    {
+      "end_trips": 6031,
+      "start_trips": 5811,
+      "station": "Boylston St. at Arlington St.",
+      "total_trips": 11842,
+      "year": 2011
+    },
+    {
+      "end_trips": 4931,
+      "start_trips": 5421,
+      "station": "TD Garden - Causeway at Portal Park #2",
+      "total_trips": 10352,
+      "year": 2011
+    },
+    {
+      "end_trips": 4553,
+      "start_trips": 4351,
+      "station": "Newbury St / Hereford St",
+      "total_trips": 8904,
+      "year": 2011
+    },
+    {
+      "end_trips": 3630,
+      "start_trips": 4098,
+      "station": "Back Bay / South End Station",
+      "total_trips": 7728,
+      "year": 2011
+    },
+    {
+      "end_trips": 3879,
+      "start_trips": 3681,
+      "station": "Kenmore Sq / Comm Ave",
+      "total_trips": 7560,
+      "year": 2011
+    },
+    {
+      "end_trips": 3692,
+      "start_trips": 3677,
+      "station": "Beacon St / Mass Ave",
+      "total_trips": 7369,
+      "year": 2011
+    },
+    {
+      "end_trips": 3491,
+      "start_trips": 3594,
+      "station": "Lewis Wharf - Atlantic Ave.",
+      "total_trips": 7085,
+      "year": 2011
+    },
+    {
+      "end_trips": 3480,
+      "start_trips": 3492,
+      "station": "Prudential Center / Belvidere",
+      "total_trips": 6972,
+      "year": 2011
+    },
+    {
+      "end_trips": 3454,
+      "start_trips": 3423,
+      "station": "Seaport Square - Seaport Blvd. at Boston Wharf",
+      "total_trips": 6877,
+      "year": 2011
+    },
+    {
+      "end_trips": 3363,
+      "start_trips": 3462,
+      "station": "Washington St. at Rutland St.",
+      "total_trips": 6825,
+      "year": 2011
+    },
+    {
+      "end_trips": 3227,
+      "start_trips": 3464,
+      "station": "Mayor Martin J. Walsh - 28 State St.",
+      "total_trips": 6691,
+      "year": 2011
+    },
+    {
+      "end_trips": 3221,
+      "start_trips": 3345,
+      "station": "Boylston St / Berkeley St",
+      "total_trips": 6566,
+      "year": 2011
+    },
+    {
+      "end_trips": 3179,
+      "start_trips": 3244,
+      "station": "Stuart St. at Charles St.",
+      "total_trips": 6423,
+      "year": 2011
+    },
+    {
+      "end_trips": 3195,
+      "start_trips": 3186,
+      "station": "Christian Science Plaza",
+      "total_trips": 6381,
+      "year": 2011
+    },
+    {
+      "end_trips": 3213,
+      "start_trips": 3166,
+      "station": "Rowes Wharf - Atlantic Ave",
+      "total_trips": 6379,
+      "year": 2011
+    },
+    {
+      "end_trips": 2979,
+      "start_trips": 2989,
+      "station": "Franklin St. / Arch St.",
+      "total_trips": 5968,
+      "year": 2011
+    },
+    {
+      "end_trips": 3000,
+      "start_trips": 2956,
+      "station": "Landmark Centre",
+      "total_trips": 5956,
+      "year": 2011
+    },
+    {
+      "end_trips": 2890,
+      "start_trips": 2942,
+      "station": "Faneuil Hall - Union St. at North St.",
+      "total_trips": 5832,
+      "year": 2011
+    },
+    {
+      "end_trips": 2864,
+      "start_trips": 2934,
+      "station": "Cross St. at Hanover St.",
+      "total_trips": 5798,
+      "year": 2011
+    },
+    {
+      "end_trips": 2866,
+      "start_trips": 2931,
+      "station": "Yawkey Way at Boylston St.",
+      "total_trips": 5797,
+      "year": 2011
+    },
+    {
+      "end_trips": 2801,
+      "start_trips": 2952,
+      "station": "Tremont St / W Newton St",
+      "total_trips": 5753,
+      "year": 2011
+    },
+    {
+      "end_trips": 2960,
+      "start_trips": 2779,
+      "station": "Agganis Arena - 925 Comm Ave.",
+      "total_trips": 5739,
+      "year": 2011
+    },
+    {
+      "end_trips": 2846,
+      "start_trips": 2751,
+      "station": "Packard's Corner - Comm. Ave. at Brighton Ave.",
+      "total_trips": 5597,
+      "year": 2011
+    },
+    {
+      "end_trips": 2812,
+      "start_trips": 2736,
+      "station": "Cambridge St. at Joy St.",
+      "total_trips": 5548,
+      "year": 2011
+    },
+    {
+      "end_trips": 2699,
+      "start_trips": 2741,
+      "station": "Aquarium Station - 200 Atlantic Ave.",
+      "total_trips": 5440,
+      "year": 2011
+    },
+    {
+      "end_trips": 2659,
+      "start_trips": 2634,
+      "station": "B.U. Central - 725 Comm. Ave.",
+      "total_trips": 5293,
+      "year": 2011
+    },
+    {
+      "end_trips": 2420,
+      "start_trips": 2348,
+      "station": "Post Office Square",
+      "total_trips": 4768,
+      "year": 2011
+    },
+    {
+      "end_trips": 2314,
+      "start_trips": 2360,
+      "station": "Boylston / Mass Ave",
+      "total_trips": 4674,
+      "year": 2011
+    },
+    {
+      "end_trips": 2215,
+      "start_trips": 2303,
+      "station": "Tremont St / West St",
+      "total_trips": 4518,
+      "year": 2011
+    },
+    {
+      "end_trips": 2010,
+      "start_trips": 2115,
+      "station": "HMS / HSPH - Ave. Louis Pasteur at Longwood Ave.",
+      "total_trips": 4125,
+      "year": 2011
+    },
+    {
+      "end_trips": 1758,
+      "start_trips": 1830,
+      "station": "Tremont St. at Berkeley St.",
+      "total_trips": 3588,
+      "year": 2011
+    },
+    {
+      "end_trips": 1765,
+      "start_trips": 1743,
+      "station": "Northeastern U / North Parking Lot",
+      "total_trips": 3508,
+      "year": 2011
+    },
+    {
+      "end_trips": 1702,
+      "start_trips": 1705,
+      "station": "Charles Circle - Charles St. at Cambridge St.",
+      "total_trips": 3407,
+      "year": 2011
+    },
+    {
+      "end_trips": 1730,
+      "start_trips": 1545,
+      "station": "Ruggles Station / Columbus Ave.",
+      "total_trips": 3275,
+      "year": 2011
+    },
+    {
+      "end_trips": 1597,
+      "start_trips": 1675,
+      "station": "Columbus Ave. at Mass. Ave.",
+      "total_trips": 3272,
+      "year": 2011
+    },
+    {
+      "end_trips": 1662,
+      "start_trips": 1539,
+      "station": "Dudley Square",
+      "total_trips": 3201,
+      "year": 2011
+    },
+    {
+      "end_trips": 1578,
+      "start_trips": 1477,
+      "station": "Seaport Hotel",
+      "total_trips": 3055,
+      "year": 2011
+    },
+    {
+      "end_trips": 1460,
+      "start_trips": 1570,
+      "station": "Longwood Ave / Binney St",
+      "total_trips": 3030,
+      "year": 2011
+    },
+    {
+      "end_trips": 1523,
+      "start_trips": 1318,
+      "station": "Harvard Real Estate - Brighton Mills - 370 Western Ave",
+      "total_trips": 2841,
+      "year": 2011
+    },
+    {
+      "end_trips": 1243,
+      "start_trips": 1243,
+      "station": "The Esplanade - Beacon St. at Arlington St.",
+      "total_trips": 2486,
+      "year": 2011
+    },
+    {
+      "end_trips": 1303,
+      "start_trips": 1179,
+      "station": "Union Square - Brighton Ave. at Cambridge St.",
+      "total_trips": 2482,
+      "year": 2011
+    },
+    {
+      "end_trips": 1276,
+      "start_trips": 1187,
+      "station": "Brigham Cir / Huntington Ave",
+      "total_trips": 2463,
+      "year": 2011
+    },
+    {
+      "end_trips": 1162,
+      "start_trips": 1223,
+      "station": "Colleges of the Fenway",
+      "total_trips": 2385,
+      "year": 2011
+    },
+    {
+      "end_trips": 1156,
+      "start_trips": 1208,
+      "station": "Overland St at Brookline Ave",
+      "total_trips": 2364,
+      "year": 2011
+    },
+    {
+      "end_trips": 1116,
+      "start_trips": 1110,
+      "station": "Harvard University Housing - 111 Western Ave. at Soldiers Field Park ",
+      "total_trips": 2226,
+      "year": 2011
+    },
+    {
+      "end_trips": 1149,
+      "start_trips": 1051,
+      "station": "Boston Medical Center -  East Concord at Harrison Ave",
+      "total_trips": 2200,
+      "year": 2011
+    },
+    {
+      "end_trips": 1065,
+      "start_trips": 999,
+      "station": "Boylston at Fairfield",
+      "total_trips": 2064,
+      "year": 2011
+    },
+    {
+      "end_trips": 1046,
+      "start_trips": 999,
+      "station": "Roxbury Crossing Station",
+      "total_trips": 2045,
+      "year": 2011
+    },
+    {
+      "end_trips": 874,
+      "start_trips": 893,
+      "station": "Chinatown Gate Plaza - Surface Rd. at Beach St.",
+      "total_trips": 1767,
+      "year": 2011
+    },
+    {
+      "end_trips": 857,
+      "start_trips": 789,
+      "station": "Harvard Real Estate - North Harvard St at Western Ave",
+      "total_trips": 1646,
+      "year": 2011
+    },
+    {
+      "end_trips": 470,
+      "start_trips": 550,
+      "station": "Fan Pier",
+      "total_trips": 1020,
+      "year": 2011
+    },
+    {
+      "end_trips": 358,
+      "start_trips": 371,
+      "station": "Washington St. at Waltham St.",
+      "total_trips": 729,
+      "year": 2011
+    },
+    {
+      "end_trips": 403,
+      "start_trips": 311,
+      "station": "New Balance - 20 Guest St.",
+      "total_trips": 714,
+      "year": 2011
+    },
+    {
+      "end_trips": 308,
+      "start_trips": 333,
+      "station": "Congress / Sleeper",
+      "total_trips": 641,
+      "year": 2011
+    },
+    {
+      "end_trips": 317,
+      "start_trips": 298,
+      "station": "Innovation Lab - 125 Western Ave. at Batten Way",
+      "total_trips": 615,
+      "year": 2011
+    },
+    {
+      "end_trips": 274,
+      "start_trips": 271,
+      "station": "Washington St. at Lenox St.",
+      "total_trips": 545,
+      "year": 2011
+    },
+    {
+      "end_trips": 160,
+      "start_trips": 137,
+      "station": "Dorchester Ave. at Gillette Park",
+      "total_trips": 297,
+      "year": 2011
+    },
+    {
+      "end_trips": 84,
+      "start_trips": 89,
+      "station": "Longwood Ave/Riverway",
+      "total_trips": 173,
+      "year": 2011
+    },
+    {
+      "end_trips": 23101,
+      "start_trips": 23134,
+      "station": "South Station - 700 Atlantic Ave.",
+      "total_trips": 46235,
+      "year": 2012
+    },
+    {
+      "end_trips": 20781,
+      "start_trips": 19854,
+      "station": "TD Garden - Causeway at Portal Park #2",
+      "total_trips": 40635,
+      "year": 2012
+    },
+    {
+      "end_trips": 17587,
+      "start_trips": 17478,
+      "station": "Boston Public Library - 700 Boylston St.",
+      "total_trips": 35065,
+      "year": 2012
+    },
+    {
+      "end_trips": 14217,
+      "start_trips": 14128,
+      "station": "Charles Circle - Charles St. at Cambridge St.",
+      "total_trips": 28345,
+      "year": 2012
+    },
+    {
+      "end_trips": 13016,
+      "start_trips": 12488,
+      "station": "Boylston St. at Arlington St.",
+      "total_trips": 25504,
+      "year": 2012
+    },
+    {
+      "end_trips": 11919,
+      "start_trips": 12616,
+      "station": "Back Bay / South End Station",
+      "total_trips": 24535,
+      "year": 2012
+    },
+    {
+      "end_trips": 12171,
+      "start_trips": 11774,
+      "station": "Kenmore Sq / Comm Ave",
+      "total_trips": 23945,
+      "year": 2012
+    },
+    {
+      "end_trips": 11426,
+      "start_trips": 11827,
+      "station": "Beacon St / Mass Ave",
+      "total_trips": 23253,
+      "year": 2012
+    },
+    {
+      "end_trips": 11160,
+      "start_trips": 11974,
+      "station": "The Esplanade - Beacon St. at Arlington St.",
+      "total_trips": 23134,
+      "year": 2012
+    },
+    {
+      "end_trips": 11164,
+      "start_trips": 10572,
+      "station": "Rowes Wharf - Atlantic Ave",
+      "total_trips": 21736,
+      "year": 2012
+    },
+    {
+      "end_trips": 10572,
+      "start_trips": 10856,
+      "station": "Tremont St / West St",
+      "total_trips": 21428,
+      "year": 2012
+    },
+    {
+      "end_trips": 10028,
+      "start_trips": 10507,
+      "station": "Lewis Wharf - Atlantic Ave.",
+      "total_trips": 20535,
+      "year": 2012
+    },
+    {
+      "end_trips": 10224,
+      "start_trips": 10245,
+      "station": "Aquarium Station - 200 Atlantic Ave.",
+      "total_trips": 20469,
+      "year": 2012
+    },
+    {
+      "end_trips": 9869,
+      "start_trips": 10225,
+      "station": "Cross St. at Hanover St.",
+      "total_trips": 20094,
+      "year": 2012
+    },
+    {
+      "end_trips": 10020,
+      "start_trips": 10072,
+      "station": "Boylston at Fairfield",
+      "total_trips": 20092,
+      "year": 2012
+    },
+    {
+      "end_trips": 10066,
+      "start_trips": 9802,
+      "station": "Prudential Center / Belvidere",
+      "total_trips": 19868,
+      "year": 2012
+    },
+    {
+      "end_trips": 10090,
+      "start_trips": 9599,
+      "station": "Post Office Square",
+      "total_trips": 19689,
+      "year": 2012
+    },
+    {
+      "end_trips": 9569,
+      "start_trips": 9912,
+      "station": "Washington St. at Rutland St.",
+      "total_trips": 19481,
+      "year": 2012
+    },
+    {
+      "end_trips": 9707,
+      "start_trips": 9481,
+      "station": "Newbury St / Hereford St",
+      "total_trips": 19188,
+      "year": 2012
+    },
+    {
+      "end_trips": 9299,
+      "start_trips": 9201,
+      "station": "Christian Science Plaza",
+      "total_trips": 18500,
+      "year": 2012
+    },
+    {
+      "end_trips": 8919,
+      "start_trips": 8643,
+      "station": "Boylston St / Berkeley St",
+      "total_trips": 17562,
+      "year": 2012
+    },
+    {
+      "end_trips": 8784,
+      "start_trips": 8684,
+      "station": "Landmark Centre",
+      "total_trips": 17468,
+      "year": 2012
+    },
+    {
+      "end_trips": 8017,
+      "start_trips": 9214,
+      "station": "Mayor Martin J. Walsh - 28 State St.",
+      "total_trips": 17231,
+      "year": 2012
+    },
+    {
+      "end_trips": 8446,
+      "start_trips": 8374,
+      "station": "Cambridge St. at Joy St.",
+      "total_trips": 16820,
+      "year": 2012
+    },
+    {
+      "end_trips": 8207,
+      "start_trips": 8249,
+      "station": "Washington St. at Waltham St.",
+      "total_trips": 16456,
+      "year": 2012
+    },
+    {
+      "end_trips": 8065,
+      "start_trips": 8257,
+      "station": "Boylston / Mass Ave",
+      "total_trips": 16322,
+      "year": 2012
+    },
+    {
+      "end_trips": 7937,
+      "start_trips": 8325,
+      "station": "Franklin St. / Arch St.",
+      "total_trips": 16262,
+      "year": 2012
+    },
+    {
+      "end_trips": 7889,
+      "start_trips": 7457,
+      "station": "Congress / Sleeper",
+      "total_trips": 15346,
+      "year": 2012
+    },
+    {
+      "end_trips": 7466,
+      "start_trips": 7719,
+      "station": "Tremont St. at Berkeley St.",
+      "total_trips": 15185,
+      "year": 2012
+    },
+    {
+      "end_trips": 7699,
+      "start_trips": 7483,
+      "station": "Yawkey Way at Boylston St.",
+      "total_trips": 15182,
+      "year": 2012
+    },
+    {
+      "end_trips": 7537,
+      "start_trips": 7501,
+      "station": "Stuart St. at Charles St.",
+      "total_trips": 15038,
+      "year": 2012
+    },
+    {
+      "end_trips": 7042,
+      "start_trips": 7903,
+      "station": "Tremont St / W Newton St",
+      "total_trips": 14945,
+      "year": 2012
+    },
+    {
+      "end_trips": 7020,
+      "start_trips": 7644,
+      "station": "Columbus Ave. at Mass. Ave.",
+      "total_trips": 14664,
+      "year": 2012
+    },
+    {
+      "end_trips": 7217,
+      "start_trips": 7390,
+      "station": "Faneuil Hall - Union St. at North St.",
+      "total_trips": 14607,
+      "year": 2012
+    },
+    {
+      "end_trips": 7339,
+      "start_trips": 7022,
+      "station": "MIT at Mass Ave / Amherst St",
+      "total_trips": 14361,
+      "year": 2012
+    },
+    {
+      "end_trips": 7136,
+      "start_trips": 6691,
+      "station": "Agganis Arena - 925 Comm Ave.",
+      "total_trips": 13827,
+      "year": 2012
+    },
+    {
+      "end_trips": 6624,
+      "start_trips": 6650,
+      "station": "Packard's Corner - Comm. Ave. at Brighton Ave.",
+      "total_trips": 13274,
+      "year": 2012
+    },
+    {
+      "end_trips": 6828,
+      "start_trips": 5931,
+      "station": "B.U. Central - 725 Comm. Ave.",
+      "total_trips": 12759,
+      "year": 2012
+    },
+    {
+      "end_trips": 6260,
+      "start_trips": 6257,
+      "station": "Seaport Square - Seaport Blvd. at Boston Wharf",
+      "total_trips": 12517,
+      "year": 2012
+    },
+    {
+      "end_trips": 6290,
+      "start_trips": 6012,
+      "station": "Harvard Square at Mass Ave/ Dunster",
+      "total_trips": 12302,
+      "year": 2012
+    },
+    {
+      "end_trips": 5893,
+      "start_trips": 6381,
+      "station": "HMS / HSPH - Ave. Louis Pasteur at Longwood Ave.",
+      "total_trips": 12274,
+      "year": 2012
+    },
+    {
+      "end_trips": 6068,
+      "start_trips": 5977,
+      "station": "Chinatown Gate Plaza - Surface Rd. at Beach St.",
+      "total_trips": 12045,
+      "year": 2012
+    },
+    {
+      "end_trips": 5383,
+      "start_trips": 5036,
+      "station": "Seaport Hotel",
+      "total_trips": 10419,
+      "year": 2012
+    },
+    {
+      "end_trips": 4927,
+      "start_trips": 4520,
+      "station": "Ruggles Station / Columbus Ave.",
+      "total_trips": 9447,
+      "year": 2012
+    },
+    {
+      "end_trips": 4542,
+      "start_trips": 4773,
+      "station": "Longwood Ave / Binney St",
+      "total_trips": 9315,
+      "year": 2012
+    },
+    {
+      "end_trips": 4270,
+      "start_trips": 4373,
+      "station": "Lafayette Square at Mass Ave / Main St / Columbia St",
+      "total_trips": 8643,
+      "year": 2012
+    },
+    {
+      "end_trips": 4352,
+      "start_trips": 4183,
+      "station": "Brigham Cir / Huntington Ave",
+      "total_trips": 8535,
+      "year": 2012
+    },
+    {
+      "end_trips": 4280,
+      "start_trips": 4098,
+      "station": "Northeastern U / North Parking Lot",
+      "total_trips": 8378,
+      "year": 2012
+    },
+    {
+      "end_trips": 4136,
+      "start_trips": 3904,
+      "station": "MIT Stata Center at Vassar St / Main St",
+      "total_trips": 8040,
+      "year": 2012
+    },
+    {
+      "end_trips": 3661,
+      "start_trips": 4036,
+      "station": "Fan Pier",
+      "total_trips": 7697,
+      "year": 2012
+    },
+    {
+      "end_trips": 3702,
+      "start_trips": 3878,
+      "station": "Colleges of the Fenway",
+      "total_trips": 7580,
+      "year": 2012
+    },
+    {
+      "end_trips": 3809,
+      "start_trips": 3450,
+      "station": "Boston Medical Center -  East Concord at Harrison Ave",
+      "total_trips": 7259,
+      "year": 2012
+    },
+    {
+      "end_trips": 3602,
+      "start_trips": 3620,
+      "station": "Harvard University Housing - 111 Western Ave. at Soldiers Field Park ",
+      "total_trips": 7222,
+      "year": 2012
+    },
+    {
+      "end_trips": 3710,
+      "start_trips": 3396,
+      "station": "Dorchester Ave. at Gillette Park",
+      "total_trips": 7106,
+      "year": 2012
+    },
+    {
+      "end_trips": 3442,
+      "start_trips": 3552,
+      "station": "Central Square at Mass Ave / Essex St",
+      "total_trips": 6994,
+      "year": 2012
+    },
+    {
+      "end_trips": 3435,
+      "start_trips": 3286,
+      "station": "Overland St at Brookline Ave",
+      "total_trips": 6721,
+      "year": 2012
+    },
+    {
+      "end_trips": 3308,
+      "start_trips": 3338,
+      "station": "Roxbury Crossing Station",
+      "total_trips": 6646,
+      "year": 2012
+    },
+    {
+      "end_trips": 3246,
+      "start_trips": 3184,
+      "station": "One Broadway / Kendall Sq at Main St / 3rd St",
+      "total_trips": 6430,
+      "year": 2012
+    },
+    {
+      "end_trips": 3158,
+      "start_trips": 2951,
+      "station": "Union Square - Brighton Ave. at Cambridge St.",
+      "total_trips": 6109,
+      "year": 2012
+    },
+    {
+      "end_trips": 2908,
+      "start_trips": 3195,
+      "station": "Central Sq Post Office / Cambridge City Hall at Mass Ave / Pleasant St",
+      "total_trips": 6103,
+      "year": 2012
+    },
+    {
+      "end_trips": 2840,
+      "start_trips": 2889,
+      "station": "Boylston St / Washington St",
+      "total_trips": 5729,
+      "year": 2012
+    },
+    {
+      "end_trips": 2823,
+      "start_trips": 2660,
+      "station": "Harvard Kennedy School at Bennett St / Eliot St",
+      "total_trips": 5483,
+      "year": 2012
+    },
+    {
+      "end_trips": 2728,
+      "start_trips": 2576,
+      "station": "Boston Convention & Exhibition Center",
+      "total_trips": 5304,
+      "year": 2012
+    },
+    {
+      "end_trips": 2693,
+      "start_trips": 2375,
+      "station": "Harvard Real Estate - Brighton Mills - 370 Western Ave",
+      "total_trips": 5068,
+      "year": 2012
+    },
+    {
+      "end_trips": 2344,
+      "start_trips": 2559,
+      "station": "Longwood Ave/Riverway",
+      "total_trips": 4903,
+      "year": 2012
+    },
+    {
+      "end_trips": 2388,
+      "start_trips": 2286,
+      "station": "Harvard Real Estate - North Harvard St at Western Ave",
+      "total_trips": 4674,
+      "year": 2012
+    },
+    {
+      "end_trips": 2388,
+      "start_trips": 2260,
+      "station": "CambridgeSide Galleria - CambridgeSide PL at Land Blvd",
+      "total_trips": 4648,
+      "year": 2012
+    },
+    {
+      "end_trips": 2293,
+      "start_trips": 2306,
+      "station": "Coolidge Corner - Beacon St @ Centre St",
+      "total_trips": 4599,
+      "year": 2012
+    },
+    {
+      "end_trips": 1799,
+      "start_trips": 1948,
+      "station": "Harvard Square at Brattle St / Eliot St",
+      "total_trips": 3747,
+      "year": 2012
+    },
+    {
+      "end_trips": 1844,
+      "start_trips": 1765,
+      "station": "Washington St. at Lenox St.",
+      "total_trips": 3609,
+      "year": 2012
+    },
+    {
+      "end_trips": 1722,
+      "start_trips": 1829,
+      "station": "One Kendall Square at Hampshire St / Portland St",
+      "total_trips": 3551,
+      "year": 2012
+    },
+    {
+      "end_trips": 1761,
+      "start_trips": 1675,
+      "station": "Buswell St. at Park Dr.",
+      "total_trips": 3436,
+      "year": 2012
+    },
+    {
+      "end_trips": 1580,
+      "start_trips": 1795,
+      "station": "Inman Square at Vellucci Plaza / Hampshire St",
+      "total_trips": 3375,
+      "year": 2012
+    },
+    {
+      "end_trips": 1579,
+      "start_trips": 1706,
+      "station": "Charlestown - Warren St at Chelsea St",
+      "total_trips": 3285,
+      "year": 2012
+    },
+    {
+      "end_trips": 1581,
+      "start_trips": 1653,
+      "station": "Allston Green District - Commonwealth Ave & Griggs St",
+      "total_trips": 3234,
+      "year": 2012
+    },
+    {
+      "end_trips": 1499,
+      "start_trips": 1473,
+      "station": "Innovation Lab - 125 Western Ave. at Batten Way",
+      "total_trips": 2972,
+      "year": 2012
+    },
+    {
+      "end_trips": 1267,
+      "start_trips": 1304,
+      "station": "Beacon St at Washington / Kirkland",
+      "total_trips": 2571,
+      "year": 2012
+    },
+    {
+      "end_trips": 1281,
+      "start_trips": 1180,
+      "station": "Union Square - Somerville",
+      "total_trips": 2461,
+      "year": 2012
+    },
+    {
+      "end_trips": 1185,
+      "start_trips": 1215,
+      "station": "Lechmere Station at Cambridge St / First St",
+      "total_trips": 2400,
+      "year": 2012
+    },
+    {
+      "end_trips": 1274,
+      "start_trips": 1033,
+      "station": "New Balance - 20 Guest St.",
+      "total_trips": 2307,
+      "year": 2012
+    },
+    {
+      "end_trips": 1127,
+      "start_trips": 1095,
+      "station": "Brookline Village - Station Street @ MBTA",
+      "total_trips": 2222,
+      "year": 2012
+    },
+    {
+      "end_trips": 985,
+      "start_trips": 1077,
+      "station": "Harvard University River Houses - DeWolfe St at Grant St",
+      "total_trips": 2062,
+      "year": 2012
+    },
+    {
+      "end_trips": 950,
+      "start_trips": 994,
+      "station": "Cambridge St - at Columbia St / Webster Ave",
+      "total_trips": 1944,
+      "year": 2012
+    },
+    {
+      "end_trips": 936,
+      "start_trips": 986,
+      "station": "Harvard Law School at Mass Ave / Jarvis St",
+      "total_trips": 1922,
+      "year": 2012
+    },
+    {
+      "end_trips": 852,
+      "start_trips": 1029,
+      "station": "Harvard University Housing - 115 Putnam Ave at Peabody Terrace",
+      "total_trips": 1881,
+      "year": 2012
+    },
+    {
+      "end_trips": 936,
+      "start_trips": 896,
+      "station": "Dudley Square",
+      "total_trips": 1832,
+      "year": 2012
+    },
+    {
+      "end_trips": 859,
+      "start_trips": 918,
+      "station": "Cambridge Main Library at Broadway / Trowbridge St",
+      "total_trips": 1777,
+      "year": 2012
+    },
+    {
+      "end_trips": 725,
+      "start_trips": 768,
+      "station": "Charlestown - Main St at Austin St",
+      "total_trips": 1493,
+      "year": 2012
+    },
+    {
+      "end_trips": 618,
+      "start_trips": 733,
+      "station": "Ames St at Main St",
+      "total_trips": 1351,
+      "year": 2012
+    },
+    {
+      "end_trips": 630,
+      "start_trips": 556,
+      "station": "Washington Square at Washington St. / Beacon St.",
+      "total_trips": 1186,
+      "year": 2012
+    },
+    {
+      "end_trips": 585,
+      "start_trips": 590,
+      "station": "Conway Park - Somerville Avenue",
+      "total_trips": 1175,
+      "year": 2012
+    },
+    {
+      "end_trips": 588,
+      "start_trips": 542,
+      "station": "Spaulding Rehabilitation Hospital - Charlestown Navy Yard",
+      "total_trips": 1130,
+      "year": 2012
+    },
+    {
+      "end_trips": 551,
+      "start_trips": 566,
+      "station": "Davis Square",
+      "total_trips": 1117,
+      "year": 2012
+    },
+    {
+      "end_trips": 457,
+      "start_trips": 442,
+      "station": "South Bay Plaza",
+      "total_trips": 899,
+      "year": 2012
+    },
+    {
+      "end_trips": 369,
+      "start_trips": 468,
+      "station": "Somerville City Hall",
+      "total_trips": 837,
+      "year": 2012
+    },
+    {
+      "end_trips": 398,
+      "start_trips": 435,
+      "station": "Lower Cambridgeport at Magazine St/Riverside Rd",
+      "total_trips": 833,
+      "year": 2012
+    },
+    {
+      "end_trips": 315,
+      "start_trips": 352,
+      "station": "Harvard University Radcliffe Quadrangle at Shepard St / Garden St",
+      "total_trips": 667,
+      "year": 2012
+    },
+    {
+      "end_trips": 286,
+      "start_trips": 324,
+      "station": "Wilson Square",
+      "total_trips": 610,
+      "year": 2012
+    },
+    {
+      "end_trips": 224,
+      "start_trips": 217,
+      "station": "JFK / UMASS Station",
+      "total_trips": 441,
+      "year": 2012
+    },
+    {
+      "end_trips": 136,
+      "start_trips": 150,
+      "station": "Powder House Circle - Nathan Tufts Park",
+      "total_trips": 286,
+      "year": 2012
+    },
+    {
+      "end_trips": 152,
+      "start_trips": 133,
+      "station": "Ball Sq",
+      "total_trips": 285,
+      "year": 2012
+    },
+    {
+      "end_trips": 135,
+      "start_trips": 143,
+      "station": "UMass Boston Integrated Sciences Complex",
+      "total_trips": 278,
+      "year": 2012
+    },
+    {
+      "end_trips": 77,
+      "start_trips": 99,
+      "station": "Harvard University / SEAS Cruft-Pierce Halls at 29 Oxford St",
+      "total_trips": 176,
+      "year": 2012
+    },
+    {
+      "end_trips": 48,
+      "start_trips": 61,
+      "station": "TD Garden - Causeway at Portal Park #1",
+      "total_trips": 109,
+      "year": 2012
+    },
+    {
+      "end_trips": 26,
+      "start_trips": 31,
+      "station": "Mt Pleasant Ave / Dudley Town Common",
+      "total_trips": 57,
+      "year": 2012
+    },
+    {
+      "end_trips": 27721,
+      "start_trips": 27103,
+      "station": "MIT at Mass Ave / Amherst St",
+      "total_trips": 54824,
+      "year": 2013
+    },
+    {
+      "end_trips": 25238,
+      "start_trips": 25612,
+      "station": "South Station - 700 Atlantic Ave.",
+      "total_trips": 50850,
+      "year": 2013
+    },
+    {
+      "end_trips": 19252,
+      "start_trips": 20172,
+      "station": "Charles Circle - Charles St. at Cambridge St.",
+      "total_trips": 39424,
+      "year": 2013
+    },
+    {
+      "end_trips": 20803,
+      "start_trips": 18325,
+      "station": "Harvard Square at Mass Ave/ Dunster",
+      "total_trips": 39128,
+      "year": 2013
+    },
+    {
+      "end_trips": 18056,
+      "start_trips": 19735,
+      "station": "Beacon St / Mass Ave",
+      "total_trips": 37791,
+      "year": 2013
+    },
+    {
+      "end_trips": 18684,
+      "start_trips": 17972,
+      "station": "Boston Public Library - 700 Boylston St.",
+      "total_trips": 36656,
+      "year": 2013
+    },
+    {
+      "end_trips": 18982,
+      "start_trips": 17212,
+      "station": "TD Garden - Causeway at Portal Park #1",
+      "total_trips": 36194,
+      "year": 2013
+    },
+    {
+      "end_trips": 17008,
+      "start_trips": 16333,
+      "station": "Lafayette Square at Mass Ave / Main St / Columbia St",
+      "total_trips": 33341,
+      "year": 2013
+    },
+    {
+      "end_trips": 15863,
+      "start_trips": 17203,
+      "station": "Ames St at Main St",
+      "total_trips": 33066,
+      "year": 2013
+    },
+    {
+      "end_trips": 16313,
+      "start_trips": 15723,
+      "station": "MIT Stata Center at Vassar St / Main St",
+      "total_trips": 32036,
+      "year": 2013
+    },
+    {
+      "end_trips": 16063,
+      "start_trips": 15464,
+      "station": "Kenmore Sq / Comm Ave",
+      "total_trips": 31527,
+      "year": 2013
+    },
+    {
+      "end_trips": 15416,
+      "start_trips": 16080,
+      "station": "Central Square at Mass Ave / Essex St",
+      "total_trips": 31496,
+      "year": 2013
+    },
+    {
+      "end_trips": 15825,
+      "start_trips": 14440,
+      "station": "Boylston St. at Arlington St.",
+      "total_trips": 30265,
+      "year": 2013
+    },
+    {
+      "end_trips": 13942,
+      "start_trips": 15976,
+      "station": "Back Bay / South End Station",
+      "total_trips": 29918,
+      "year": 2013
+    },
+    {
+      "end_trips": 13766,
+      "start_trips": 14888,
+      "station": "The Esplanade - Beacon St. at Arlington St.",
+      "total_trips": 28654,
+      "year": 2013
+    },
+    {
+      "end_trips": 12807,
+      "start_trips": 13534,
+      "station": "Cross St. at Hanover St.",
+      "total_trips": 26341,
+      "year": 2013
+    },
+    {
+      "end_trips": 12945,
+      "start_trips": 13100,
+      "station": "Boylston at Fairfield",
+      "total_trips": 26045,
+      "year": 2013
+    },
+    {
+      "end_trips": 12834,
+      "start_trips": 13010,
+      "station": "Newbury St / Hereford St",
+      "total_trips": 25844,
+      "year": 2013
+    },
+    {
+      "end_trips": 13253,
+      "start_trips": 12209,
+      "station": "Rowes Wharf - Atlantic Ave",
+      "total_trips": 25462,
+      "year": 2013
+    },
+    {
+      "end_trips": 12836,
+      "start_trips": 12114,
+      "station": "Prudential Center / Belvidere",
+      "total_trips": 24950,
+      "year": 2013
+    },
+    {
+      "end_trips": 11845,
+      "start_trips": 12327,
+      "station": "Central Sq Post Office / Cambridge City Hall at Mass Ave / Pleasant St",
+      "total_trips": 24172,
+      "year": 2013
+    },
+    {
+      "end_trips": 11948,
+      "start_trips": 11813,
+      "station": "Boylston / Mass Ave",
+      "total_trips": 23761,
+      "year": 2013
+    },
+    {
+      "end_trips": 11821,
+      "start_trips": 11747,
+      "station": "One Kendall Square at Hampshire St / Portland St",
+      "total_trips": 23568,
+      "year": 2013
+    },
+    {
+      "end_trips": 11309,
+      "start_trips": 12129,
+      "station": "Cambridge St. at Joy St.",
+      "total_trips": 23438,
+      "year": 2013
+    },
+    {
+      "end_trips": 12221,
+      "start_trips": 11183,
+      "station": "Congress / Sleeper",
+      "total_trips": 23404,
+      "year": 2013
+    },
+    {
+      "end_trips": 11993,
+      "start_trips": 10946,
+      "station": "Post Office Square",
+      "total_trips": 22939,
+      "year": 2013
+    },
+    {
+      "end_trips": 11105,
+      "start_trips": 11798,
+      "station": "Lewis Wharf - Atlantic Ave.",
+      "total_trips": 22903,
+      "year": 2013
+    },
+    {
+      "end_trips": 11334,
+      "start_trips": 11281,
+      "station": "Tremont St / West St",
+      "total_trips": 22615,
+      "year": 2013
+    },
+    {
+      "end_trips": 10892,
+      "start_trips": 11168,
+      "station": "Christian Science Plaza",
+      "total_trips": 22060,
+      "year": 2013
+    },
+    {
+      "end_trips": 9827,
+      "start_trips": 11408,
+      "station": "Aquarium Station - 200 Atlantic Ave.",
+      "total_trips": 21235,
+      "year": 2013
+    },
+    {
+      "end_trips": 10693,
+      "start_trips": 10066,
+      "station": "One Broadway / Kendall Sq at Main St / 3rd St",
+      "total_trips": 20759,
+      "year": 2013
+    },
+    {
+      "end_trips": 9908,
+      "start_trips": 10145,
+      "station": "Charlestown - Warren St at Chelsea St",
+      "total_trips": 20053,
+      "year": 2013
+    },
+    {
+      "end_trips": 10020,
+      "start_trips": 9830,
+      "station": "Washington St. at Waltham St.",
+      "total_trips": 19850,
+      "year": 2013
+    },
+    {
+      "end_trips": 9363,
+      "start_trips": 10477,
+      "station": "Mayor Martin J. Walsh - 28 State St.",
+      "total_trips": 19840,
+      "year": 2013
+    },
+    {
+      "end_trips": 9496,
+      "start_trips": 10093,
+      "station": "Inman Square at Vellucci Plaza / Hampshire St",
+      "total_trips": 19589,
+      "year": 2013
+    },
+    {
+      "end_trips": 9647,
+      "start_trips": 9557,
+      "station": "Boylston St / Washington St",
+      "total_trips": 19204,
+      "year": 2013
+    },
+    {
+      "end_trips": 9595,
+      "start_trips": 9572,
+      "station": "Yawkey Way at Boylston St.",
+      "total_trips": 19167,
+      "year": 2013
+    },
+    {
+      "end_trips": 9579,
+      "start_trips": 9006,
+      "station": "Boylston St / Berkeley St",
+      "total_trips": 18585,
+      "year": 2013
+    },
+    {
+      "end_trips": 8980,
+      "start_trips": 9433,
+      "station": "Franklin St. / Arch St.",
+      "total_trips": 18413,
+      "year": 2013
+    },
+    {
+      "end_trips": 9060,
+      "start_trips": 8673,
+      "station": "Landmark Centre",
+      "total_trips": 17733,
+      "year": 2013
+    },
+    {
+      "end_trips": 9129,
+      "start_trips": 8527,
+      "station": "CambridgeSide Galleria - CambridgeSide PL at Land Blvd",
+      "total_trips": 17656,
+      "year": 2013
+    },
+    {
+      "end_trips": 8637,
+      "start_trips": 8616,
+      "station": "Washington St. at Rutland St.",
+      "total_trips": 17253,
+      "year": 2013
+    },
+    {
+      "end_trips": 8057,
+      "start_trips": 8573,
+      "station": "Faneuil Hall - Union St. at North St.",
+      "total_trips": 16630,
+      "year": 2013
+    },
+    {
+      "end_trips": 8151,
+      "start_trips": 8430,
+      "station": "Tremont St. at Berkeley St.",
+      "total_trips": 16581,
+      "year": 2013
+    },
+    {
+      "end_trips": 8163,
+      "start_trips": 8324,
+      "station": "TD Garden - Causeway at Portal Park #2",
+      "total_trips": 16487,
+      "year": 2013
+    },
+    {
+      "end_trips": 8680,
+      "start_trips": 7622,
+      "station": "Harvard Kennedy School at Bennett St / Eliot St",
+      "total_trips": 16302,
+      "year": 2013
+    },
+    {
+      "end_trips": 8692,
+      "start_trips": 7365,
+      "station": "Davis Square",
+      "total_trips": 16057,
+      "year": 2013
+    },
+    {
+      "end_trips": 7596,
+      "start_trips": 8444,
+      "station": "Columbus Ave. at Mass. Ave.",
+      "total_trips": 16040,
+      "year": 2013
+    },
+    {
+      "end_trips": 8306,
+      "start_trips": 7638,
+      "station": "Agganis Arena - 925 Comm Ave.",
+      "total_trips": 15944,
+      "year": 2013
+    },
+    {
+      "end_trips": 8235,
+      "start_trips": 7619,
+      "station": "Stuart St. at Charles St.",
+      "total_trips": 15854,
+      "year": 2013
+    },
+    {
+      "end_trips": 7407,
+      "start_trips": 8412,
+      "station": "Tremont St / W Newton St",
+      "total_trips": 15819,
+      "year": 2013
+    },
+    {
+      "end_trips": 8197,
+      "start_trips": 7510,
+      "station": "B.U. Central - 725 Comm. Ave.",
+      "total_trips": 15707,
+      "year": 2013
+    },
+    {
+      "end_trips": 7921,
+      "start_trips": 7734,
+      "station": "Lower Cambridgeport at Magazine St/Riverside Rd",
+      "total_trips": 15655,
+      "year": 2013
+    },
+    {
+      "end_trips": 7752,
+      "start_trips": 7836,
+      "station": "Lechmere Station at Cambridge St / First St",
+      "total_trips": 15588,
+      "year": 2013
+    },
+    {
+      "end_trips": 7520,
+      "start_trips": 7591,
+      "station": "Harvard Square at Brattle St / Eliot St",
+      "total_trips": 15111,
+      "year": 2013
+    },
+    {
+      "end_trips": 7171,
+      "start_trips": 7212,
+      "station": "Cambridge Main Library at Broadway / Trowbridge St",
+      "total_trips": 14383,
+      "year": 2013
+    },
+    {
+      "end_trips": 7031,
+      "start_trips": 7136,
+      "station": "HMS / HSPH - Ave. Louis Pasteur at Longwood Ave.",
+      "total_trips": 14167,
+      "year": 2013
+    },
+    {
+      "end_trips": 7048,
+      "start_trips": 6495,
+      "station": "Coolidge Corner - Beacon St @ Centre St",
+      "total_trips": 13543,
+      "year": 2013
+    },
+    {
+      "end_trips": 6644,
+      "start_trips": 6716,
+      "station": "Cambridge St - at Columbia St / Webster Ave",
+      "total_trips": 13360,
+      "year": 2013
+    },
+    {
+      "end_trips": 6607,
+      "start_trips": 6735,
+      "station": "Packard's Corner - Comm. Ave. at Brighton Ave.",
+      "total_trips": 13342,
+      "year": 2013
+    },
+    {
+      "end_trips": 6723,
+      "start_trips": 6418,
+      "station": "Seaport Square - Seaport Blvd. at Boston Wharf",
+      "total_trips": 13141,
+      "year": 2013
+    },
+    {
+      "end_trips": 6669,
+      "start_trips": 6324,
+      "station": "Chinatown Gate Plaza - Surface Rd. at Beach St.",
+      "total_trips": 12993,
+      "year": 2013
+    },
+    {
+      "end_trips": 6183,
+      "start_trips": 6681,
+      "station": "Harvard University Housing - 111 Western Ave. at Soldiers Field Park ",
+      "total_trips": 12864,
+      "year": 2013
+    },
+    {
+      "end_trips": 6619,
+      "start_trips": 6050,
+      "station": "Porter Square Station",
+      "total_trips": 12669,
+      "year": 2013
+    },
+    {
+      "end_trips": 6073,
+      "start_trips": 6233,
+      "station": "Beacon St at Washington / Kirkland",
+      "total_trips": 12306,
+      "year": 2013
+    },
+    {
+      "end_trips": 6381,
+      "start_trips": 5921,
+      "station": "Seaport Hotel",
+      "total_trips": 12302,
+      "year": 2013
+    },
+    {
+      "end_trips": 6098,
+      "start_trips": 6134,
+      "station": "Boston Medical Center -  East Concord at Harrison Ave",
+      "total_trips": 12232,
+      "year": 2013
+    },
+    {
+      "end_trips": 5956,
+      "start_trips": 6091,
+      "station": "Charlestown - Main St at Austin St",
+      "total_trips": 12047,
+      "year": 2013
+    },
+    {
+      "end_trips": 5962,
+      "start_trips": 5978,
+      "station": "Longwood Ave / Binney St",
+      "total_trips": 11940,
+      "year": 2013
+    },
+    {
+      "end_trips": 5421,
+      "start_trips": 6426,
+      "station": "Harvard University Housing - 115 Putnam Ave at Peabody Terrace",
+      "total_trips": 11847,
+      "year": 2013
+    },
+    {
+      "end_trips": 5411,
+      "start_trips": 5480,
+      "station": "Harvard University Gund Hall at Quincy St / Kirkland S",
+      "total_trips": 10891,
+      "year": 2013
+    },
+    {
+      "end_trips": 5849,
+      "start_trips": 5006,
+      "station": "Union Square - Somerville",
+      "total_trips": 10855,
+      "year": 2013
+    },
+    {
+      "end_trips": 4930,
+      "start_trips": 4802,
+      "station": "Buswell St. at Park Dr.",
+      "total_trips": 9732,
+      "year": 2013
+    },
+    {
+      "end_trips": 4966,
+      "start_trips": 4738,
+      "station": "Northeastern U / North Parking Lot",
+      "total_trips": 9704,
+      "year": 2013
+    },
+    {
+      "end_trips": 4588,
+      "start_trips": 4848,
+      "station": "Harvard University / SEAS Cruft-Pierce Halls at 29 Oxford St",
+      "total_trips": 9436,
+      "year": 2013
+    },
+    {
+      "end_trips": 4683,
+      "start_trips": 4510,
+      "station": "Fan Pier",
+      "total_trips": 9193,
+      "year": 2013
+    },
+    {
+      "end_trips": 4835,
+      "start_trips": 4332,
+      "station": "Ruggles Station / Columbus Ave.",
+      "total_trips": 9167,
+      "year": 2013
+    },
+    {
+      "end_trips": 4267,
+      "start_trips": 4790,
+      "station": "Harvard Law School at Mass Ave / Jarvis St",
+      "total_trips": 9057,
+      "year": 2013
+    },
+    {
+      "end_trips": 4322,
+      "start_trips": 4596,
+      "station": "Harvard University Radcliffe Quadrangle at Shepard St / Garden St",
+      "total_trips": 8918,
+      "year": 2013
+    },
+    {
+      "end_trips": 4335,
+      "start_trips": 4577,
+      "station": "Colleges of the Fenway",
+      "total_trips": 8912,
+      "year": 2013
+    },
+    {
+      "end_trips": 4356,
+      "start_trips": 4508,
+      "station": "Brigham Cir / Huntington Ave",
+      "total_trips": 8864,
+      "year": 2013
+    },
+    {
+      "end_trips": 4020,
+      "start_trips": 4451,
+      "station": "Allston Green District - Commonwealth Ave & Griggs St",
+      "total_trips": 8471,
+      "year": 2013
+    },
+    {
+      "end_trips": 3820,
+      "start_trips": 4488,
+      "station": "359 Broadway - Broadway at Fayette Street",
+      "total_trips": 8308,
+      "year": 2013
+    },
+    {
+      "end_trips": 3986,
+      "start_trips": 4028,
+      "station": "Spaulding Rehabilitation Hospital - Charlestown Navy Yard",
+      "total_trips": 8014,
+      "year": 2013
+    },
+    {
+      "end_trips": 3926,
+      "start_trips": 4030,
+      "station": "Harvard University River Houses - DeWolfe St at Grant St",
+      "total_trips": 7956,
+      "year": 2013
+    },
+    {
+      "end_trips": 3951,
+      "start_trips": 3821,
+      "station": "Boston Convention & Exhibition Center",
+      "total_trips": 7772,
+      "year": 2013
+    },
+    {
+      "end_trips": 4008,
+      "start_trips": 3655,
+      "station": "Brookline Village - Station Street @ MBTA",
+      "total_trips": 7663,
+      "year": 2013
+    },
+    {
+      "end_trips": 3561,
+      "start_trips": 3572,
+      "station": "Harvard Real Estate - North Harvard St at Western Ave",
+      "total_trips": 7133,
+      "year": 2013
+    },
+    {
+      "end_trips": 3506,
+      "start_trips": 3590,
+      "station": "Dorchester Ave. at Gillette Park",
+      "total_trips": 7096,
+      "year": 2013
+    },
+    {
+      "end_trips": 3448,
+      "start_trips": 3526,
+      "station": "Conway Park - Somerville Avenue",
+      "total_trips": 6974,
+      "year": 2013
+    },
+    {
+      "end_trips": 3545,
+      "start_trips": 3389,
+      "station": "Union Square - Brighton Ave. at Cambridge St.",
+      "total_trips": 6934,
+      "year": 2013
+    },
+    {
+      "end_trips": 3263,
+      "start_trips": 3536,
+      "station": "Longwood Ave/Riverway",
+      "total_trips": 6799,
+      "year": 2013
+    },
+    {
+      "end_trips": 3438,
+      "start_trips": 3346,
+      "station": "Roxbury Crossing Station",
+      "total_trips": 6784,
+      "year": 2013
+    },
+    {
+      "end_trips": 3249,
+      "start_trips": 3356,
+      "station": "Wilson Square",
+      "total_trips": 6605,
+      "year": 2013
+    },
+    {
+      "end_trips": 3069,
+      "start_trips": 3004,
+      "station": "Innovation Lab - 125 Western Ave. at Batten Way",
+      "total_trips": 6073,
+      "year": 2013
+    },
+    {
+      "end_trips": 2825,
+      "start_trips": 3150,
+      "station": "JFK Crossing at Harvard St. / Thorndike St.",
+      "total_trips": 5975,
+      "year": 2013
+    },
+    {
+      "end_trips": 2691,
+      "start_trips": 3188,
+      "station": "Washington Square at Washington St. / Beacon St.",
+      "total_trips": 5879,
+      "year": 2013
+    },
+    {
+      "end_trips": 2244,
+      "start_trips": 2025,
+      "station": "Washington St. at Lenox St.",
+      "total_trips": 4269,
+      "year": 2013
+    },
+    {
+      "end_trips": 2027,
+      "start_trips": 2195,
+      "station": "Binney St / Sixth St",
+      "total_trips": 4222,
+      "year": 2013
+    },
+    {
+      "end_trips": 2126,
+      "start_trips": 1994,
+      "station": "Linear Park - Mass. Ave. at Cameron Ave. ",
+      "total_trips": 4120,
+      "year": 2013
+    },
+    {
+      "end_trips": 1507,
+      "start_trips": 1965,
+      "station": "Somerville City Hall",
+      "total_trips": 3472,
+      "year": 2013
+    },
+    {
+      "end_trips": 1774,
+      "start_trips": 1444,
+      "station": "Harvard Real Estate - Brighton Mills - 370 Western Ave",
+      "total_trips": 3218,
+      "year": 2013
+    },
+    {
+      "end_trips": 1706,
+      "start_trips": 1491,
+      "station": "Andrew Station - Dorchester Ave at Humboldt Pl",
+      "total_trips": 3197,
+      "year": 2013
+    },
+    {
+      "end_trips": 1377,
+      "start_trips": 1751,
+      "station": "Teele Square at 239 Holland St",
+      "total_trips": 3128,
+      "year": 2013
+    },
+    {
+      "end_trips": 1438,
+      "start_trips": 1556,
+      "station": "Charles St at Beacon St",
+      "total_trips": 2994,
+      "year": 2013
+    },
+    {
+      "end_trips": 1384,
+      "start_trips": 1604,
+      "station": "Powder House Circle - Nathan Tufts Park",
+      "total_trips": 2988,
+      "year": 2013
+    },
+    {
+      "end_trips": 1445,
+      "start_trips": 1397,
+      "station": "Ball Sq",
+      "total_trips": 2842,
+      "year": 2013
+    },
+    {
+      "end_trips": 1323,
+      "start_trips": 1132,
+      "station": "New Balance - 20 Guest St.",
+      "total_trips": 2455,
+      "year": 2013
+    },
+    {
+      "end_trips": 1230,
+      "start_trips": 1020,
+      "station": "JFK / UMASS Station",
+      "total_trips": 2250,
+      "year": 2013
+    },
+    {
+      "end_trips": 1166,
+      "start_trips": 1026,
+      "station": "South Bay Plaza",
+      "total_trips": 2192,
+      "year": 2013
+    },
+    {
+      "end_trips": 1016,
+      "start_trips": 1138,
+      "station": "Packard Ave / Powderhouse Blvd",
+      "total_trips": 2154,
+      "year": 2013
+    },
+    {
+      "end_trips": 850,
+      "start_trips": 1079,
+      "station": "Somerville Hospital at Highland Ave / Crocker St",
+      "total_trips": 1929,
+      "year": 2013
+    },
+    {
+      "end_trips": 768,
+      "start_trips": 860,
+      "station": "Dudley Square",
+      "total_trips": 1628,
+      "year": 2013
+    },
+    {
+      "end_trips": 810,
+      "start_trips": 810,
+      "station": "Milk St at India St",
+      "total_trips": 1620,
+      "year": 2013
+    },
+    {
+      "end_trips": 771,
+      "start_trips": 813,
+      "station": "UMass Boston Integrated Sciences Complex",
+      "total_trips": 1584,
+      "year": 2013
+    },
+    {
+      "end_trips": 757,
+      "start_trips": 766,
+      "station": "West Broadway at Dorchester St",
+      "total_trips": 1523,
+      "year": 2013
+    },
+    {
+      "end_trips": 625,
+      "start_trips": 542,
+      "station": "Overland St at Brookline Ave",
+      "total_trips": 1167,
+      "year": 2013
+    },
+    {
+      "end_trips": 678,
+      "start_trips": 470,
+      "station": "South Boston Library - 646 East Broadway",
+      "total_trips": 1148,
+      "year": 2013
+    },
+    {
+      "end_trips": 521,
+      "start_trips": 597,
+      "station": "Mt Pleasant Ave / Dudley Town Common",
+      "total_trips": 1118,
+      "year": 2013
+    },
+    {
+      "end_trips": 463,
+      "start_trips": 486,
+      "station": "Hyde Square at Barbara St",
+      "total_trips": 949,
+      "year": 2013
+    },
+    {
+      "end_trips": 494,
+      "start_trips": 454,
+      "station": "BIDMC - Brookline at Burlington St",
+      "total_trips": 948,
+      "year": 2013
+    },
+    {
+      "end_trips": 329,
+      "start_trips": 411,
+      "station": "New Balance Store - Boylston at Dartmouth",
+      "total_trips": 740,
+      "year": 2013
+    },
+    {
+      "end_trips": 340,
+      "start_trips": 309,
+      "station": "Green St T",
+      "total_trips": 649,
+      "year": 2013
+    },
+    {
+      "end_trips": 320,
+      "start_trips": 324,
+      "station": "JP Center - Centre Street at Myrtle Street",
+      "total_trips": 644,
+      "year": 2013
+    },
+    {
+      "end_trips": 332,
+      "start_trips": 303,
+      "station": "JP Monument - South St at Centre St",
+      "total_trips": 635,
+      "year": 2013
+    },
+    {
+      "end_trips": 260,
+      "start_trips": 234,
+      "station": "Hayes Square at Vine St.",
+      "total_trips": 494,
+      "year": 2013
+    },
+    {
+      "end_trips": 253,
+      "start_trips": 220,
+      "station": "Summer St at Cutter St",
+      "total_trips": 473,
+      "year": 2013
+    },
+    {
+      "end_trips": 193,
+      "start_trips": 202,
+      "station": "Jackson Square T at Centre St",
+      "total_trips": 395,
+      "year": 2013
+    },
+    {
+      "end_trips": 118,
+      "start_trips": 159,
+      "station": "Egleston Square at Columbus Ave",
+      "total_trips": 277,
+      "year": 2013
+    },
+    {
+      "end_trips": 74,
+      "start_trips": 90,
+      "station": "E. Cottage St at Columbia Rd",
+      "total_trips": 164,
+      "year": 2013
+    },
+    {
+      "end_trips": 37,
+      "start_trips": 44,
+      "station": "Upham's Corner - Ramsey St at Dudley St",
+      "total_trips": 81,
+      "year": 2013
+    },
+    {
+      "end_trips": 33859,
+      "start_trips": 34345,
+      "station": "MIT at Mass Ave / Amherst St",
+      "total_trips": 68204,
+      "year": 2014
+    },
+    {
+      "end_trips": 30852,
+      "start_trips": 30913,
+      "station": "South Station - 700 Atlantic Ave.",
+      "total_trips": 61765,
+      "year": 2014
+    },
+    {
+      "end_trips": 25050,
+      "start_trips": 23162,
+      "station": "Harvard Square at Mass Ave/ Dunster",
+      "total_trips": 48212,
+      "year": 2014
+    },
+    {
+      "end_trips": 24662,
+      "start_trips": 22297,
+      "station": "MIT Stata Center at Vassar St / Main St",
+      "total_trips": 46959,
+      "year": 2014
+    },
+    {
+      "end_trips": 21946,
+      "start_trips": 22121,
+      "station": "Central Square at Mass Ave / Essex St",
+      "total_trips": 44067,
+      "year": 2014
+    },
+    {
+      "end_trips": 23597,
+      "start_trips": 19904,
+      "station": "TD Garden - Causeway at Portal Park #1",
+      "total_trips": 43501,
+      "year": 2014
+    },
+    {
+      "end_trips": 21420,
+      "start_trips": 21438,
+      "station": "Lafayette Square at Mass Ave / Main St / Columbia St",
+      "total_trips": 42858,
+      "year": 2014
+    },
+    {
+      "end_trips": 20167,
+      "start_trips": 21140,
+      "station": "Ames St at Main St",
+      "total_trips": 41307,
+      "year": 2014
+    },
+    {
+      "end_trips": 19105,
+      "start_trips": 18375,
+      "station": "Boston Public Library - 700 Boylston St.",
+      "total_trips": 37480,
+      "year": 2014
+    },
+    {
+      "end_trips": 18307,
+      "start_trips": 19044,
+      "station": "Beacon St / Mass Ave",
+      "total_trips": 37351,
+      "year": 2014
+    },
+    {
+      "end_trips": 18137,
+      "start_trips": 18425,
+      "station": "Cambridge St. at Joy St.",
+      "total_trips": 36562,
+      "year": 2014
+    },
+    {
+      "end_trips": 18307,
+      "start_trips": 17211,
+      "station": "Kenmore Sq / Comm Ave",
+      "total_trips": 35518,
+      "year": 2014
+    },
+    {
+      "end_trips": 17058,
+      "start_trips": 18149,
+      "station": "One Kendall Square at Hampshire St / Portland St",
+      "total_trips": 35207,
+      "year": 2014
+    },
+    {
+      "end_trips": 16228,
+      "start_trips": 17330,
+      "station": "Back Bay / South End Station",
+      "total_trips": 33558,
+      "year": 2014
+    },
+    {
+      "end_trips": 16745,
+      "start_trips": 15580,
+      "station": "Boylston St. at Arlington St.",
+      "total_trips": 32325,
+      "year": 2014
+    },
+    {
+      "end_trips": 15419,
+      "start_trips": 16046,
+      "station": "Mayor Martin J. Walsh - 28 State St.",
+      "total_trips": 31465,
+      "year": 2014
+    },
+    {
+      "end_trips": 15172,
+      "start_trips": 16290,
+      "station": "Cross St. at Hanover St.",
+      "total_trips": 31462,
+      "year": 2014
+    },
+    {
+      "end_trips": 15761,
+      "start_trips": 15496,
+      "station": "Central Sq Post Office / Cambridge City Hall at Mass Ave / Pleasant St",
+      "total_trips": 31257,
+      "year": 2014
+    },
+    {
+      "end_trips": 15068,
+      "start_trips": 15046,
+      "station": "Boylston at Fairfield",
+      "total_trips": 30114,
+      "year": 2014
+    },
+    {
+      "end_trips": 14671,
+      "start_trips": 15025,
+      "station": "The Esplanade - Beacon St. at Arlington St.",
+      "total_trips": 29696,
+      "year": 2014
+    },
+    {
+      "end_trips": 14445,
+      "start_trips": 14446,
+      "station": "Rowes Wharf - Atlantic Ave",
+      "total_trips": 28891,
+      "year": 2014
+    },
+    {
+      "end_trips": 14255,
+      "start_trips": 14227,
+      "station": "Prudential Center / Belvidere",
+      "total_trips": 28482,
+      "year": 2014
+    },
+    {
+      "end_trips": 13859,
+      "start_trips": 14471,
+      "station": "Inman Square at Vellucci Plaza / Hampshire St",
+      "total_trips": 28330,
+      "year": 2014
+    },
+    {
+      "end_trips": 14116,
+      "start_trips": 14192,
+      "station": "Boylston / Mass Ave",
+      "total_trips": 28308,
+      "year": 2014
+    },
+    {
+      "end_trips": 13644,
+      "start_trips": 14129,
+      "station": "Christian Science Plaza",
+      "total_trips": 27773,
+      "year": 2014
+    },
+    {
+      "end_trips": 13209,
+      "start_trips": 13402,
+      "station": "Tremont St / West St",
+      "total_trips": 26611,
+      "year": 2014
+    },
+    {
+      "end_trips": 13224,
+      "start_trips": 13051,
+      "station": "Congress / Sleeper",
+      "total_trips": 26275,
+      "year": 2014
+    },
+    {
+      "end_trips": 12690,
+      "start_trips": 12487,
+      "station": "Post Office Square",
+      "total_trips": 25177,
+      "year": 2014
+    },
+    {
+      "end_trips": 11942,
+      "start_trips": 12931,
+      "station": "Aquarium Station - 200 Atlantic Ave.",
+      "total_trips": 24873,
+      "year": 2014
+    },
+    {
+      "end_trips": 13025,
+      "start_trips": 11620,
+      "station": "TD Garden - Causeway at Portal Park #2",
+      "total_trips": 24645,
+      "year": 2014
+    },
+    {
+      "end_trips": 12319,
+      "start_trips": 11707,
+      "station": "Porter Square Station",
+      "total_trips": 24026,
+      "year": 2014
+    },
+    {
+      "end_trips": 12148,
+      "start_trips": 11788,
+      "station": "Boylston St / Washington St",
+      "total_trips": 23936,
+      "year": 2014
+    },
+    {
+      "end_trips": 12276,
+      "start_trips": 11592,
+      "station": "Washington St. at Waltham St.",
+      "total_trips": 23868,
+      "year": 2014
+    },
+    {
+      "end_trips": 11612,
+      "start_trips": 11883,
+      "station": "Lewis Wharf - Atlantic Ave.",
+      "total_trips": 23495,
+      "year": 2014
+    },
+    {
+      "end_trips": 11538,
+      "start_trips": 11938,
+      "station": "Charlestown - Warren St at Chelsea St",
+      "total_trips": 23476,
+      "year": 2014
+    },
+    {
+      "end_trips": 11253,
+      "start_trips": 12082,
+      "station": "One Broadway / Kendall Sq at Main St / 3rd St",
+      "total_trips": 23335,
+      "year": 2014
+    },
+    {
+      "end_trips": 11266,
+      "start_trips": 11426,
+      "station": "Newbury St / Hereford St",
+      "total_trips": 22692,
+      "year": 2014
+    },
+    {
+      "end_trips": 12205,
+      "start_trips": 10364,
+      "station": "Davis Square",
+      "total_trips": 22569,
+      "year": 2014
+    },
+    {
+      "end_trips": 11400,
+      "start_trips": 10745,
+      "station": "CambridgeSide Galleria - CambridgeSide PL at Land Blvd",
+      "total_trips": 22145,
+      "year": 2014
+    },
+    {
+      "end_trips": 10983,
+      "start_trips": 11055,
+      "station": "Yawkey Way at Boylston St.",
+      "total_trips": 22038,
+      "year": 2014
+    },
+    {
+      "end_trips": 10797,
+      "start_trips": 10957,
+      "station": "Franklin St. / Arch St.",
+      "total_trips": 21754,
+      "year": 2014
+    },
+    {
+      "end_trips": 10546,
+      "start_trips": 10678,
+      "station": "Washington St. at Rutland St.",
+      "total_trips": 21224,
+      "year": 2014
+    },
+    {
+      "end_trips": 10422,
+      "start_trips": 10269,
+      "station": "Lechmere Station at Cambridge St / First St",
+      "total_trips": 20691,
+      "year": 2014
+    },
+    {
+      "end_trips": 10405,
+      "start_trips": 10251,
+      "station": "Lower Cambridgeport at Magazine St/Riverside Rd",
+      "total_trips": 20656,
+      "year": 2014
+    },
+    {
+      "end_trips": 10078,
+      "start_trips": 10366,
+      "station": "Cambridge Main Library at Broadway / Trowbridge St",
+      "total_trips": 20444,
+      "year": 2014
+    },
+    {
+      "end_trips": 10620,
+      "start_trips": 9614,
+      "station": "Harvard Kennedy School at Bennett St / Eliot St",
+      "total_trips": 20234,
+      "year": 2014
+    },
+    {
+      "end_trips": 10439,
+      "start_trips": 9717,
+      "station": "Agganis Arena - 925 Comm Ave.",
+      "total_trips": 20156,
+      "year": 2014
+    },
+    {
+      "end_trips": 9425,
+      "start_trips": 10720,
+      "station": "Harvard University Housing - 115 Putnam Ave at Peabody Terrace",
+      "total_trips": 20145,
+      "year": 2014
+    },
+    {
+      "end_trips": 9837,
+      "start_trips": 10065,
+      "station": "Cambridge St - at Columbia St / Webster Ave",
+      "total_trips": 19902,
+      "year": 2014
+    },
+    {
+      "end_trips": 9812,
+      "start_trips": 9699,
+      "station": "Boylston St / Berkeley St",
+      "total_trips": 19511,
+      "year": 2014
+    },
+    {
+      "end_trips": 9899,
+      "start_trips": 9508,
+      "station": "Tremont St. at Berkeley St.",
+      "total_trips": 19407,
+      "year": 2014
+    },
+    {
+      "end_trips": 9770,
+      "start_trips": 9576,
+      "station": "Harvard Square at Brattle St / Eliot St",
+      "total_trips": 19346,
+      "year": 2014
+    },
+    {
+      "end_trips": 8917,
+      "start_trips": 10182,
+      "station": "HMS / HSPH - Ave. Louis Pasteur at Longwood Ave.",
+      "total_trips": 19099,
+      "year": 2014
+    },
+    {
+      "end_trips": 9569,
+      "start_trips": 9231,
+      "station": "Boston Medical Center -  East Concord at Harrison Ave",
+      "total_trips": 18800,
+      "year": 2014
+    },
+    {
+      "end_trips": 9468,
+      "start_trips": 9302,
+      "station": "Landmark Centre",
+      "total_trips": 18770,
+      "year": 2014
+    },
+    {
+      "end_trips": 8919,
+      "start_trips": 9785,
+      "station": "Columbus Ave. at Mass. Ave.",
+      "total_trips": 18704,
+      "year": 2014
+    },
+    {
+      "end_trips": 9458,
+      "start_trips": 8961,
+      "station": "B.U. Central - 725 Comm. Ave.",
+      "total_trips": 18419,
+      "year": 2014
+    },
+    {
+      "end_trips": 8481,
+      "start_trips": 9172,
+      "station": "Tremont St / W Newton St",
+      "total_trips": 17653,
+      "year": 2014
+    },
+    {
+      "end_trips": 8357,
+      "start_trips": 8532,
+      "station": "Longwood Ave / Binney St",
+      "total_trips": 16889,
+      "year": 2014
+    },
+    {
+      "end_trips": 7717,
+      "start_trips": 8936,
+      "station": "359 Broadway - Broadway at Fayette Street",
+      "total_trips": 16653,
+      "year": 2014
+    },
+    {
+      "end_trips": 7795,
+      "start_trips": 8500,
+      "station": "Faneuil Hall - Union St. at North St.",
+      "total_trips": 16295,
+      "year": 2014
+    },
+    {
+      "end_trips": 8058,
+      "start_trips": 8168,
+      "station": "Harvard University Gund Hall at Quincy St / Kirkland S",
+      "total_trips": 16226,
+      "year": 2014
+    },
+    {
+      "end_trips": 7970,
+      "start_trips": 8054,
+      "station": "Stuart St. at Charles St.",
+      "total_trips": 16024,
+      "year": 2014
+    },
+    {
+      "end_trips": 8152,
+      "start_trips": 7734,
+      "station": "Chinatown Gate Plaza - Surface Rd. at Beach St.",
+      "total_trips": 15886,
+      "year": 2014
+    },
+    {
+      "end_trips": 7851,
+      "start_trips": 7839,
+      "station": "Charles St at Beacon St",
+      "total_trips": 15690,
+      "year": 2014
+    },
+    {
+      "end_trips": 7754,
+      "start_trips": 7862,
+      "station": "Harvard University / SEAS Cruft-Pierce Halls at 29 Oxford St",
+      "total_trips": 15616,
+      "year": 2014
+    },
+    {
+      "end_trips": 7512,
+      "start_trips": 7819,
+      "station": "Packard's Corner - Comm. Ave. at Brighton Ave.",
+      "total_trips": 15331,
+      "year": 2014
+    },
+    {
+      "end_trips": 7524,
+      "start_trips": 7574,
+      "station": "Beacon St at Washington / Kirkland",
+      "total_trips": 15098,
+      "year": 2014
+    },
+    {
+      "end_trips": 7509,
+      "start_trips": 7575,
+      "station": "Seaport Hotel",
+      "total_trips": 15084,
+      "year": 2014
+    },
+    {
+      "end_trips": 7126,
+      "start_trips": 7649,
+      "station": "Charles Circle - Charles St. at Cambridge St.",
+      "total_trips": 14775,
+      "year": 2014
+    },
+    {
+      "end_trips": 7477,
+      "start_trips": 7023,
+      "station": "Coolidge Corner - Beacon St @ Centre St",
+      "total_trips": 14500,
+      "year": 2014
+    },
+    {
+      "end_trips": 6943,
+      "start_trips": 7187,
+      "station": "Harvard University Housing - 111 Western Ave. at Soldiers Field Park ",
+      "total_trips": 14130,
+      "year": 2014
+    },
+    {
+      "end_trips": 7008,
+      "start_trips": 6975,
+      "station": "Charlestown - Main St at Austin St",
+      "total_trips": 13983,
+      "year": 2014
+    },
+    {
+      "end_trips": 6819,
+      "start_trips": 7042,
+      "station": "Binney St / Sixth St",
+      "total_trips": 13861,
+      "year": 2014
+    },
+    {
+      "end_trips": 7271,
+      "start_trips": 6546,
+      "station": "Union Square - Somerville",
+      "total_trips": 13817,
+      "year": 2014
+    },
+    {
+      "end_trips": 6857,
+      "start_trips": 6615,
+      "station": "Milk St at India St",
+      "total_trips": 13472,
+      "year": 2014
+    },
+    {
+      "end_trips": 6644,
+      "start_trips": 6549,
+      "station": "Seaport Square - Seaport Blvd. at Boston Wharf",
+      "total_trips": 13193,
+      "year": 2014
+    },
+    {
+      "end_trips": 6352,
+      "start_trips": 6812,
+      "station": "New Balance Store - Boylston at Dartmouth",
+      "total_trips": 13164,
+      "year": 2014
+    },
+    {
+      "end_trips": 6424,
+      "start_trips": 6165,
+      "station": "Buswell St. at Park Dr.",
+      "total_trips": 12589,
+      "year": 2014
+    },
+    {
+      "end_trips": 6116,
+      "start_trips": 6395,
+      "station": "Harvard Law School at Mass Ave / Jarvis St",
+      "total_trips": 12511,
+      "year": 2014
+    },
+    {
+      "end_trips": 5891,
+      "start_trips": 6236,
+      "station": "Harvard University Radcliffe Quadrangle at Shepard St / Garden St",
+      "total_trips": 12127,
+      "year": 2014
+    },
+    {
+      "end_trips": 6046,
+      "start_trips": 5959,
+      "station": "Harvard University River Houses - DeWolfe St at Grant St",
+      "total_trips": 12005,
+      "year": 2014
+    },
+    {
+      "end_trips": 5930,
+      "start_trips": 6014,
+      "station": "Conway Park - Somerville Avenue",
+      "total_trips": 11944,
+      "year": 2014
+    },
+    {
+      "end_trips": 6087,
+      "start_trips": 5759,
+      "station": "Fan Pier",
+      "total_trips": 11846,
+      "year": 2014
+    },
+    {
+      "end_trips": 5734,
+      "start_trips": 5316,
+      "station": "Ruggles Station / Columbus Ave.",
+      "total_trips": 11050,
+      "year": 2014
+    },
+    {
+      "end_trips": 5507,
+      "start_trips": 5542,
+      "station": "Northeastern U / North Parking Lot",
+      "total_trips": 11049,
+      "year": 2014
+    },
+    {
+      "end_trips": 5534,
+      "start_trips": 5443,
+      "station": "Linear Park - Mass. Ave. at Cameron Ave. ",
+      "total_trips": 10977,
+      "year": 2014
+    },
+    {
+      "end_trips": 5279,
+      "start_trips": 5594,
+      "station": "Dana Park",
+      "total_trips": 10873,
+      "year": 2014
+    },
+    {
+      "end_trips": 5393,
+      "start_trips": 5383,
+      "station": "Brigham Cir / Huntington Ave",
+      "total_trips": 10776,
+      "year": 2014
+    },
+    {
+      "end_trips": 5506,
+      "start_trips": 5154,
+      "station": "Colleges of the Fenway",
+      "total_trips": 10660,
+      "year": 2014
+    },
+    {
+      "end_trips": 5080,
+      "start_trips": 4943,
+      "station": "Spaulding Rehabilitation Hospital - Charlestown Navy Yard",
+      "total_trips": 10023,
+      "year": 2014
+    },
+    {
+      "end_trips": 4914,
+      "start_trips": 4900,
+      "station": "Kendall Street",
+      "total_trips": 9814,
+      "year": 2014
+    },
+    {
+      "end_trips": 4357,
+      "start_trips": 5102,
+      "station": "Allston Green District - Commonwealth Ave & Griggs St",
+      "total_trips": 9459,
+      "year": 2014
+    },
+    {
+      "end_trips": 4515,
+      "start_trips": 4768,
+      "station": "West Broadway at Dorchester St",
+      "total_trips": 9283,
+      "year": 2014
+    },
+    {
+      "end_trips": 4567,
+      "start_trips": 4399,
+      "station": "Longwood Ave/Riverway",
+      "total_trips": 8966,
+      "year": 2014
+    },
+    {
+      "end_trips": 4345,
+      "start_trips": 4404,
+      "station": "Union Square - Brighton Ave. at Cambridge St.",
+      "total_trips": 8749,
+      "year": 2014
+    },
+    {
+      "end_trips": 4382,
+      "start_trips": 4208,
+      "station": "Dorchester Ave. at Gillette Park",
+      "total_trips": 8590,
+      "year": 2014
+    },
+    {
+      "end_trips": 4392,
+      "start_trips": 4179,
+      "station": "Brookline Village - Station Street @ MBTA",
+      "total_trips": 8571,
+      "year": 2014
+    },
+    {
+      "end_trips": 4034,
+      "start_trips": 4343,
+      "station": "JFK Crossing at Harvard St. / Thorndike St.",
+      "total_trips": 8377,
+      "year": 2014
+    },
+    {
+      "end_trips": 4060,
+      "start_trips": 4307,
+      "station": "Boston Convention & Exhibition Center",
+      "total_trips": 8367,
+      "year": 2014
+    },
+    {
+      "end_trips": 4093,
+      "start_trips": 4128,
+      "station": "Wilson Square",
+      "total_trips": 8221,
+      "year": 2014
+    },
+    {
+      "end_trips": 4008,
+      "start_trips": 4099,
+      "station": "Harvard University Transportation Services - 175 North Harvard St",
+      "total_trips": 8107,
+      "year": 2014
+    },
+    {
+      "end_trips": 3813,
+      "start_trips": 3957,
+      "station": "Roxbury Crossing Station",
+      "total_trips": 7770,
+      "year": 2014
+    },
+    {
+      "end_trips": 3685,
+      "start_trips": 3639,
+      "station": "Innovation Lab - 125 Western Ave. at Batten Way",
+      "total_trips": 7324,
+      "year": 2014
+    },
+    {
+      "end_trips": 3886,
+      "start_trips": 3319,
+      "station": "South Boston Library - 646 East Broadway",
+      "total_trips": 7205,
+      "year": 2014
+    },
+    {
+      "end_trips": 3599,
+      "start_trips": 3393,
+      "station": "Green St T",
+      "total_trips": 6992,
+      "year": 2014
+    },
+    {
+      "end_trips": 3285,
+      "start_trips": 3546,
+      "station": "Hyde Square at Barbara St",
+      "total_trips": 6831,
+      "year": 2014
+    },
+    {
+      "end_trips": 2512,
+      "start_trips": 3830,
+      "station": "Teele Square at 239 Holland St",
+      "total_trips": 6342,
+      "year": 2014
+    },
+    {
+      "end_trips": 3185,
+      "start_trips": 3134,
+      "station": "Washington St. at Lenox St.",
+      "total_trips": 6319,
+      "year": 2014
+    },
+    {
+      "end_trips": 3242,
+      "start_trips": 3036,
+      "station": "ID Building West",
+      "total_trips": 6278,
+      "year": 2014
+    },
+    {
+      "end_trips": 2843,
+      "start_trips": 3398,
+      "station": "Washington Square at Washington St. / Beacon St.",
+      "total_trips": 6241,
+      "year": 2014
+    },
+    {
+      "end_trips": 3241,
+      "start_trips": 2909,
+      "station": "Day Boulevard",
+      "total_trips": 6150,
+      "year": 2014
+    },
+    {
+      "end_trips": 3019,
+      "start_trips": 2880,
+      "station": "Harvard Real Estate - Brighton Mills - 370 Western Ave",
+      "total_trips": 5899,
+      "year": 2014
+    },
+    {
+      "end_trips": 2870,
+      "start_trips": 3015,
+      "station": "EF - North Point Park",
+      "total_trips": 5885,
+      "year": 2014
+    },
+    {
+      "end_trips": 2839,
+      "start_trips": 2965,
+      "station": "Andrew Station - Dorchester Ave at Humboldt Pl",
+      "total_trips": 5804,
+      "year": 2014
+    },
+    {
+      "end_trips": 2963,
+      "start_trips": 2829,
+      "station": "BIDMC - Brookline at Burlington St",
+      "total_trips": 5792,
+      "year": 2014
+    },
+    {
+      "end_trips": 2864,
+      "start_trips": 2569,
+      "station": "Summer St at Cutter St",
+      "total_trips": 5433,
+      "year": 2014
+    },
+    {
+      "end_trips": 2535,
+      "start_trips": 2430,
+      "station": "Jackson Square T at Centre St",
+      "total_trips": 4965,
+      "year": 2014
+    },
+    {
+      "end_trips": 2193,
+      "start_trips": 2703,
+      "station": "Powder House Circle - Nathan Tufts Park",
+      "total_trips": 4896,
+      "year": 2014
+    },
+    {
+      "end_trips": 2373,
+      "start_trips": 2489,
+      "station": "ID Building East",
+      "total_trips": 4862,
+      "year": 2014
+    },
+    {
+      "end_trips": 2323,
+      "start_trips": 2285,
+      "station": "Danehy Park",
+      "total_trips": 4608,
+      "year": 2014
+    },
+    {
+      "end_trips": 2178,
+      "start_trips": 2407,
+      "station": "Packard Ave / Powderhouse Blvd",
+      "total_trips": 4585,
+      "year": 2014
+    },
+    {
+      "end_trips": 2287,
+      "start_trips": 2210,
+      "station": "JP Monument - South St at Centre St",
+      "total_trips": 4497,
+      "year": 2014
+    },
+    {
+      "end_trips": 2168,
+      "start_trips": 2083,
+      "station": "JP Center - Centre Street at Myrtle Street",
+      "total_trips": 4251,
+      "year": 2014
+    },
+    {
+      "end_trips": 1678,
+      "start_trips": 2260,
+      "station": "Somerville City Hall",
+      "total_trips": 3938,
+      "year": 2014
+    },
+    {
+      "end_trips": 1883,
+      "start_trips": 1887,
+      "station": "State Street at Channel Center",
+      "total_trips": 3770,
+      "year": 2014
+    },
+    {
+      "end_trips": 1527,
+      "start_trips": 2146,
+      "station": "Somerville Hospital at Highland Ave / Crocker St",
+      "total_trips": 3673,
+      "year": 2014
+    },
+    {
+      "end_trips": 1819,
+      "start_trips": 1576,
+      "station": "JFK / UMASS Station",
+      "total_trips": 3395,
+      "year": 2014
+    },
+    {
+      "end_trips": 1722,
+      "start_trips": 1643,
+      "station": "Hayes Square at Vine St.",
+      "total_trips": 3365,
+      "year": 2014
+    },
+    {
+      "end_trips": 1546,
+      "start_trips": 1483,
+      "station": "Magoun Square at Trum Field",
+      "total_trips": 3029,
+      "year": 2014
+    },
+    {
+      "end_trips": 1487,
+      "start_trips": 1335,
+      "station": "Alewife Station at Russell Field",
+      "total_trips": 2822,
+      "year": 2014
+    },
+    {
+      "end_trips": 1337,
+      "start_trips": 1315,
+      "station": "Dudley Square",
+      "total_trips": 2652,
+      "year": 2014
+    },
+    {
+      "end_trips": 1355,
+      "start_trips": 1242,
+      "station": "Newmarket Square",
+      "total_trips": 2597,
+      "year": 2014
+    },
+    {
+      "end_trips": 1292,
+      "start_trips": 1190,
+      "station": "New Balance - 20 Guest St.",
+      "total_trips": 2482,
+      "year": 2014
+    },
+    {
+      "end_trips": 1043,
+      "start_trips": 1054,
+      "station": "UMass Boston Integrated Sciences Complex",
+      "total_trips": 2097,
+      "year": 2014
+    },
+    {
+      "end_trips": 849,
+      "start_trips": 1070,
+      "station": "Egleston Square at Columbus Ave",
+      "total_trips": 1919,
+      "year": 2014
+    },
+    {
+      "end_trips": 787,
+      "start_trips": 871,
+      "station": "Upham's Corner - Ramsey St at Dudley St",
+      "total_trips": 1658,
+      "year": 2014
+    },
+    {
+      "end_trips": 729,
+      "start_trips": 766,
+      "station": "E. Cottage St at Columbia Rd",
+      "total_trips": 1495,
+      "year": 2014
+    },
+    {
+      "end_trips": 570,
+      "start_trips": 706,
+      "station": "Mt Pleasant Ave / Dudley Town Common",
+      "total_trips": 1276,
+      "year": 2014
+    },
+    {
+      "end_trips": 489,
+      "start_trips": 487,
+      "station": "Rindge Avenue - O'Neill Library",
+      "total_trips": 976,
+      "year": 2014
+    },
+    {
+      "end_trips": 6,
+      "start_trips": 0,
+      "station": "Warehouse - Back Door",
+      "total_trips": 6,
+      "year": 2014
+    },
     {
       "end_trips": 31284,
       "start_trips": 30798,
@@ -3848,16 +7671,16 @@
       "year": 2016
     },
     {
-      "end_trips": 7890,
-      "start_trips": 8324,
-      "station": "Packard's Corner - Comm. Ave. at Brighton Ave.",
+      "end_trips": 8149,
+      "start_trips": 8065,
+      "station": "Post Office Square",
       "total_trips": 16214,
       "year": 2016
     },
     {
-      "end_trips": 8149,
-      "start_trips": 8065,
-      "station": "Post Office Square",
+      "end_trips": 7890,
+      "start_trips": 8324,
+      "station": "Packard's Corner - Comm. Ave. at Brighton Ave.",
       "total_trips": 16214,
       "year": 2016
     },
@@ -5059,16 +8882,16 @@
       "year": 2016
     },
     {
-      "end_trips": 75,
-      "start_trips": 86,
-      "station": "EBNHC - 20 Maverick Sq",
+      "end_trips": 90,
+      "start_trips": 71,
+      "station": "Orient Heights T Stop - Bennington St at Saratoga St",
       "total_trips": 161,
       "year": 2016
     },
     {
-      "end_trips": 90,
-      "start_trips": 71,
-      "station": "Orient Heights T Stop - Bennington St at Saratoga St",
+      "end_trips": 75,
+      "start_trips": 86,
+      "station": "EBNHC - 20 Maverick Sq",
       "total_trips": 161,
       "year": 2016
     },
@@ -5192,13 +9015,6 @@
       "year": 2016
     },
     {
-      "end_trips": 31,
-      "start_trips": 28,
-      "station": "Roxbury YMCA - Warren St at MLK Blvd",
-      "total_trips": 59,
-      "year": 2016
-    },
-    {
       "end_trips": 34,
       "start_trips": 25,
       "station": "Maverick Square - Lewis Mall",
@@ -5206,10 +9022,10 @@
       "year": 2016
     },
     {
-      "end_trips": 21,
-      "start_trips": 32,
-      "station": "Chelsea St at Saratoga St",
-      "total_trips": 53,
+      "end_trips": 31,
+      "start_trips": 28,
+      "station": "Roxbury YMCA - Warren St at MLK Blvd",
+      "total_trips": 59,
       "year": 2016
     },
     {
@@ -5221,22 +9037,29 @@
     },
     {
       "end_trips": 21,
+      "start_trips": 32,
+      "station": "Chelsea St at Saratoga St",
+      "total_trips": 53,
+      "year": 2016
+    },
+    {
+      "end_trips": 21,
       "start_trips": 30,
       "station": "The Eddy at New Street",
       "total_trips": 51,
       "year": 2016
     },
     {
-      "end_trips": 29,
-      "start_trips": 20,
-      "station": "Savin Hill T Stop - S Sydney St at Bay St",
+      "end_trips": 24,
+      "start_trips": 25,
+      "station": "Upham's Corner",
       "total_trips": 49,
       "year": 2016
     },
     {
-      "end_trips": 24,
-      "start_trips": 25,
-      "station": "Upham's Corner",
+      "end_trips": 29,
+      "start_trips": 20,
+      "station": "Savin Hill T Stop - S Sydney St at Bay St",
       "total_trips": 49,
       "year": 2016
     },
@@ -5262,6 +9085,13 @@
       "year": 2016
     },
     {
+      "end_trips": 13,
+      "start_trips": 13,
+      "station": "Grove Hall Library - 41 Geneva Ave",
+      "total_trips": 26,
+      "year": 2016
+    },
+    {
       "end_trips": 10,
       "start_trips": 16,
       "station": "Central Square East Boston - Porter Street at London Street",
@@ -5272,13 +9102,6 @@
       "end_trips": 13,
       "start_trips": 13,
       "station": "East Boston Neighborhood Health Center - 20 Maverick Square",
-      "total_trips": 26,
-      "year": 2016
-    },
-    {
-      "end_trips": 13,
-      "start_trips": 13,
-      "station": "Grove Hall Library - 41 Geneva Ave",
       "total_trips": 26,
       "year": 2016
     },
@@ -5304,16 +9127,16 @@
       "year": 2016
     },
     {
-      "end_trips": 2,
-      "start_trips": 2,
-      "station": "8D OPS 03",
+      "end_trips": 0,
+      "start_trips": 4,
+      "station": "Hayes Square - Vine St at Moulton St",
       "total_trips": 4,
       "year": 2016
     },
     {
-      "end_trips": 0,
-      "start_trips": 4,
-      "station": "Hayes Square - Vine St at Moulton St",
+      "end_trips": 2,
+      "start_trips": 2,
+      "station": "8D OPS 03",
       "total_trips": 4,
       "year": 2016
     },
@@ -6095,16 +9918,16 @@
       "year": 2017
     },
     {
-      "end_trips": 4565,
-      "start_trips": 4538,
-      "station": "Colleges of the Fenway - Fenway at Avenue Louis Pasteur",
+      "end_trips": 4537,
+      "start_trips": 4566,
+      "station": "The Lawn on D",
       "total_trips": 9103,
       "year": 2017
     },
     {
-      "end_trips": 4537,
-      "start_trips": 4566,
-      "station": "The Lawn on D",
+      "end_trips": 4565,
+      "start_trips": 4538,
+      "station": "Colleges of the Fenway - Fenway at Avenue Louis Pasteur",
       "total_trips": 9103,
       "year": 2017
     },
@@ -6368,16 +10191,16 @@
       "year": 2017
     },
     {
-      "end_trips": 2030,
-      "start_trips": 2194,
-      "station": "Magoun Square at Trum Field",
+      "end_trips": 2200,
+      "start_trips": 2024,
+      "station": "Alewife Station at Russell Field",
       "total_trips": 4224,
       "year": 2017
     },
     {
-      "end_trips": 2200,
-      "start_trips": 2024,
-      "station": "Alewife Station at Russell Field",
+      "end_trips": 2030,
+      "start_trips": 2194,
+      "station": "Magoun Square at Trum Field",
       "total_trips": 4224,
       "year": 2017
     },
@@ -6816,16 +10639,16 @@
       "year": 2017
     },
     {
-      "end_trips": 75,
-      "start_trips": 73,
-      "station": "Prudential Center / Belvidere",
+      "end_trips": 74,
+      "start_trips": 74,
+      "station": "Kenmore Sq / Comm Ave",
       "total_trips": 148,
       "year": 2017
     },
     {
-      "end_trips": 74,
-      "start_trips": 74,
-      "station": "Kenmore Sq / Comm Ave",
+      "end_trips": 75,
+      "start_trips": 73,
+      "station": "Prudential Center / Belvidere",
       "total_trips": 148,
       "year": 2017
     },
@@ -6886,16 +10709,16 @@
       "year": 2017
     },
     {
-      "end_trips": 50,
-      "start_trips": 47,
-      "station": "Faneuil St at Market St",
+      "end_trips": 46,
+      "start_trips": 51,
+      "station": "Agganis Arena - 925 Comm Ave.",
       "total_trips": 97,
       "year": 2017
     },
     {
-      "end_trips": 46,
-      "start_trips": 51,
-      "station": "Agganis Arena - 925 Comm Ave.",
+      "end_trips": 50,
+      "start_trips": 47,
+      "station": "Faneuil St at Market St",
       "total_trips": 97,
       "year": 2017
     },
@@ -6935,16 +10758,16 @@
       "year": 2017
     },
     {
-      "end_trips": 43,
-      "start_trips": 42,
-      "station": "John F Fitzgerald - Surface Road at India Street",
+      "end_trips": 34,
+      "start_trips": 51,
+      "station": "Charlestown - Warren St at Chelsea St",
       "total_trips": 85,
       "year": 2017
     },
     {
-      "end_trips": 34,
-      "start_trips": 51,
-      "station": "Charlestown - Warren St at Chelsea St",
+      "end_trips": 43,
+      "start_trips": 42,
+      "station": "John F Fitzgerald - Surface Road at India Street",
       "total_trips": 85,
       "year": 2017
     },
@@ -6956,16 +10779,16 @@
       "year": 2017
     },
     {
-      "end_trips": 38,
-      "start_trips": 39,
-      "station": "Ink Block",
+      "end_trips": 37,
+      "start_trips": 40,
+      "station": "Packard's Corner - Comm. Ave. at Brighton Ave.",
       "total_trips": 77,
       "year": 2017
     },
     {
-      "end_trips": 37,
-      "start_trips": 40,
-      "station": "Packard's Corner - Comm. Ave. at Brighton Ave.",
+      "end_trips": 38,
+      "start_trips": 39,
+      "station": "Ink Block",
       "total_trips": 77,
       "year": 2017
     },
@@ -7236,16 +11059,16 @@
       "year": 2017
     },
     {
-      "end_trips": 1,
-      "start_trips": 5,
-      "station": "Dorchester Ave. at Gillette Park",
+      "end_trips": 2,
+      "start_trips": 4,
+      "station": "Curtis Hall at South Street",
       "total_trips": 6,
       "year": 2017
     },
     {
-      "end_trips": 2,
-      "start_trips": 4,
-      "station": "Curtis Hall at South Street",
+      "end_trips": 1,
+      "start_trips": 5,
+      "station": "Dorchester Ave. at Gillette Park",
       "total_trips": 6,
       "year": 2017
     },
@@ -7257,16 +11080,16 @@
       "year": 2017
     },
     {
-      "end_trips": 1,
-      "start_trips": 4,
-      "station": "Four Corners - 157 Washington St",
+      "end_trips": 3,
+      "start_trips": 2,
+      "station": "Boston Convention & Exhibition Center",
       "total_trips": 5,
       "year": 2017
     },
     {
-      "end_trips": 3,
-      "start_trips": 2,
-      "station": "Boston Convention & Exhibition Center",
+      "end_trips": 1,
+      "start_trips": 4,
+      "station": "Four Corners - 157 Washington St",
       "total_trips": 5,
       "year": 2017
     },
@@ -7299,13 +11122,6 @@
       "year": 2017
     },
     {
-      "end_trips": 0,
-      "start_trips": 3,
-      "station": "Egleston Square at Columbus Ave",
-      "total_trips": 3,
-      "year": 2017
-    },
-    {
       "end_trips": 3,
       "start_trips": 0,
       "station": "Maverick Sq - Lewis Mall",
@@ -7313,10 +11129,10 @@
       "year": 2017
     },
     {
-      "end_trips": 1,
-      "start_trips": 1,
-      "station": "Oak Square YMCA",
-      "total_trips": 2,
+      "end_trips": 0,
+      "start_trips": 3,
+      "station": "Egleston Square at Columbus Ave",
+      "total_trips": 3,
       "year": 2017
     },
     {
@@ -7334,10 +11150,10 @@
       "year": 2017
     },
     {
-      "end_trips": 0,
+      "end_trips": 1,
       "start_trips": 1,
-      "station": "Central Square East Boston - Porter Street at London Street",
-      "total_trips": 1,
+      "station": "Oak Square YMCA",
+      "total_trips": 2,
       "year": 2017
     },
     {
@@ -7350,71 +11166,92 @@
     {
       "end_trips": 0,
       "start_trips": 1,
+      "station": "Central Square East Boston - Porter Street at London Street",
+      "total_trips": 1,
+      "year": 2017
+    },
+    {
+      "end_trips": 0,
+      "start_trips": 1,
       "station": "Walnut Ave at Crawford St",
       "total_trips": 1,
       "year": 2017
     },
     {
-      "end_trips": 43847,
-      "start_trips": 47732,
+      "end_trips": 49635,
+      "start_trips": 53846,
       "station": "MIT at Mass Ave / Amherst St",
-      "total_trips": 91579,
+      "total_trips": 103481,
       "year": 2018
     },
     {
-      "end_trips": 40984,
-      "start_trips": 36777,
+      "end_trips": 46369,
+      "start_trips": 41559,
       "station": "MIT Stata Center at Vassar St / Main St",
-      "total_trips": 77761,
+      "total_trips": 87928,
       "year": 2018
     },
     {
-      "end_trips": 33192,
-      "start_trips": 33276,
+      "end_trips": 37270,
+      "start_trips": 37346,
       "station": "Central Square at Mass Ave / Essex St",
-      "total_trips": 66468,
+      "total_trips": 74616,
       "year": 2018
     },
     {
-      "end_trips": 30107,
-      "start_trips": 32727,
+      "end_trips": 33895,
+      "start_trips": 36346,
       "station": "South Station - 700 Atlantic Ave",
-      "total_trips": 62834,
+      "total_trips": 70241,
       "year": 2018
     },
     {
-      "end_trips": 33356,
-      "start_trips": 25501,
+      "end_trips": 37861,
+      "start_trips": 28581,
       "station": "Nashua Street at Red Auerbach Way",
-      "total_trips": 58857,
+      "total_trips": 66442,
       "year": 2018
     },
     {
-      "end_trips": 24105,
-      "start_trips": 25469,
+      "end_trips": 27490,
+      "start_trips": 29379,
       "station": "MIT Pacific St at Purrington St",
-      "total_trips": 49574,
+      "total_trips": 56869,
       "year": 2018
     },
     {
-      "end_trips": 24247,
-      "start_trips": 23763,
-      "station": "Harvard Square at Mass Ave/ Dunster",
-      "total_trips": 48010,
-      "year": 2018
-    },
-    {
-      "end_trips": 23173,
-      "start_trips": 24566,
+      "end_trips": 26750,
+      "start_trips": 28458,
       "station": "Kendall T",
-      "total_trips": 47739,
+      "total_trips": 55208,
       "year": 2018
     },
     {
-      "end_trips": 24385,
-      "start_trips": 21661,
+      "end_trips": 28325,
+      "start_trips": 25058,
       "station": "Copley Square - Dartmouth St at Boylston St",
-      "total_trips": 46046,
+      "total_trips": 53383,
+      "year": 2018
+    },
+    {
+      "end_trips": 26782,
+      "start_trips": 26001,
+      "station": "Harvard Square at Mass Ave/ Dunster",
+      "total_trips": 52783,
+      "year": 2018
+    },
+    {
+      "end_trips": 22451,
+      "start_trips": 23600,
+      "station": "MIT Vassar St",
+      "total_trips": 46051,
+      "year": 2018
+    },
+    {
+      "end_trips": 23260,
+      "start_trips": 22608,
+      "station": "Ames St at Main St",
+      "total_trips": 45868,
       "year": 2018
     },
     {
@@ -7425,38 +11262,45 @@
       "year": 2018
     },
     {
-      "end_trips": 19594,
-      "start_trips": 20661,
-      "station": "MIT Vassar St",
-      "total_trips": 40255,
-      "year": 2018
-    },
-    {
-      "end_trips": 20194,
-      "start_trips": 19569,
-      "station": "Ames St at Main St",
-      "total_trips": 39763,
-      "year": 2018
-    },
-    {
-      "end_trips": 19434,
-      "start_trips": 20091,
+      "end_trips": 21585,
+      "start_trips": 22171,
       "station": "Boston City Hall - 28 State St",
-      "total_trips": 39525,
+      "total_trips": 43756,
       "year": 2018
     },
     {
-      "end_trips": 18468,
-      "start_trips": 19714,
+      "end_trips": 20956,
+      "start_trips": 22446,
       "station": "One Kendall Square at Hampshire St / Portland St",
-      "total_trips": 38182,
+      "total_trips": 43402,
       "year": 2018
     },
     {
-      "end_trips": 18105,
-      "start_trips": 19139,
+      "end_trips": 20479,
+      "start_trips": 21436,
       "station": "Back Bay T Stop - Dartmouth St at Stuart St",
-      "total_trips": 37244,
+      "total_trips": 41915,
+      "year": 2018
+    },
+    {
+      "end_trips": 19123,
+      "start_trips": 18663,
+      "station": "Kenmore Square",
+      "total_trips": 37786,
+      "year": 2018
+    },
+    {
+      "end_trips": 18492,
+      "start_trips": 18100,
+      "station": "Christian Science Plaza - Massachusetts Ave at Westland Ave",
+      "total_trips": 36592,
+      "year": 2018
+    },
+    {
+      "end_trips": 17554,
+      "start_trips": 18968,
+      "station": "University Park",
+      "total_trips": 36522,
       "year": 2018
     },
     {
@@ -7467,6 +11311,20 @@
       "year": 2018
     },
     {
+      "end_trips": 16889,
+      "start_trips": 17393,
+      "station": "Central Sq Post Office / Cambridge City Hall at Mass Ave / Pleasant St",
+      "total_trips": 34282,
+      "year": 2018
+    },
+    {
+      "end_trips": 17095,
+      "start_trips": 16769,
+      "station": "Cross St at Hanover St",
+      "total_trips": 33864,
+      "year": 2018
+    },
+    {
       "end_trips": 16680,
       "start_trips": 16946,
       "station": "Newbury St at Hereford St",
@@ -7474,17 +11332,24 @@
       "year": 2018
     },
     {
-      "end_trips": 16579,
-      "start_trips": 16245,
-      "station": "Kenmore Square",
-      "total_trips": 32824,
+      "end_trips": 16657,
+      "start_trips": 16633,
+      "station": "Cambridge St at Joy St",
+      "total_trips": 33290,
       "year": 2018
     },
     {
-      "end_trips": 15671,
-      "start_trips": 16847,
-      "station": "University Park",
-      "total_trips": 32518,
+      "end_trips": 16400,
+      "start_trips": 16224,
+      "station": "Lechmere Station at Cambridge St / First St",
+      "total_trips": 32624,
+      "year": 2018
+    },
+    {
+      "end_trips": 16382,
+      "start_trips": 16021,
+      "station": "Lower Cambridgeport at Magazine St / Riverside Rd",
+      "total_trips": 32403,
       "year": 2018
     },
     {
@@ -7495,13 +11360,6 @@
       "year": 2018
     },
     {
-      "end_trips": 16160,
-      "start_trips": 15997,
-      "station": "Christian Science Plaza - Massachusetts Ave at Westland Ave",
-      "total_trips": 32157,
-      "year": 2018
-    },
-    {
       "end_trips": 15633,
       "start_trips": 15657,
       "station": "Boylston St at Massachusetts Ave",
@@ -7509,45 +11367,45 @@
       "year": 2018
     },
     {
-      "end_trips": 15000,
-      "start_trips": 15496,
-      "station": "Central Sq Post Office / Cambridge City Hall at Mass Ave / Pleasant St",
-      "total_trips": 30496,
-      "year": 2018
-    },
-    {
-      "end_trips": 15362,
-      "start_trips": 15000,
-      "station": "Cross St at Hanover St",
-      "total_trips": 30362,
-      "year": 2018
-    },
-    {
-      "end_trips": 15022,
-      "start_trips": 14966,
-      "station": "Cambridge St at Joy St",
-      "total_trips": 29988,
-      "year": 2018
-    },
-    {
-      "end_trips": 14535,
-      "start_trips": 14324,
-      "station": "Lechmere Station at Cambridge St / First St",
-      "total_trips": 28859,
-      "year": 2018
-    },
-    {
-      "end_trips": 14389,
-      "start_trips": 14137,
-      "station": "Lower Cambridgeport at Magazine St / Riverside Rd",
-      "total_trips": 28526,
-      "year": 2018
-    },
-    {
-      "end_trips": 14140,
-      "start_trips": 13982,
+      "end_trips": 15690,
+      "start_trips": 15586,
       "station": "Lewis Wharf at Atlantic Ave",
-      "total_trips": 28122,
+      "total_trips": 31276,
+      "year": 2018
+    },
+    {
+      "end_trips": 15012,
+      "start_trips": 14685,
+      "station": "Aquarium T Stop - 200 Atlantic Ave",
+      "total_trips": 29697,
+      "year": 2018
+    },
+    {
+      "end_trips": 14754,
+      "start_trips": 14642,
+      "station": "Washington St at Rutland St",
+      "total_trips": 29396,
+      "year": 2018
+    },
+    {
+      "end_trips": 14113,
+      "start_trips": 14292,
+      "station": "Tremont St at West St",
+      "total_trips": 28405,
+      "year": 2018
+    },
+    {
+      "end_trips": 13736,
+      "start_trips": 14508,
+      "station": "Warren St at Chelsea St",
+      "total_trips": 28244,
+      "year": 2018
+    },
+    {
+      "end_trips": 14179,
+      "start_trips": 13860,
+      "station": "Arch St at Franklin St",
+      "total_trips": 28039,
       "year": 2018
     },
     {
@@ -7558,10 +11416,17 @@
       "year": 2018
     },
     {
-      "end_trips": 13875,
-      "start_trips": 13569,
-      "station": "Aquarium T Stop - 200 Atlantic Ave",
-      "total_trips": 27444,
+      "end_trips": 13573,
+      "start_trips": 13599,
+      "station": "Lafayette Square at Mass Ave / Main St / Columbia St",
+      "total_trips": 27172,
+      "year": 2018
+    },
+    {
+      "end_trips": 13072,
+      "start_trips": 13252,
+      "station": "Seaport Blvd at Sleeper St",
+      "total_trips": 26324,
       "year": 2018
     },
     {
@@ -7572,101 +11437,136 @@
       "year": 2018
     },
     {
-      "end_trips": 12952,
-      "start_trips": 13064,
-      "station": "Tremont St at West St",
-      "total_trips": 26016,
-      "year": 2018
-    },
-    {
-      "end_trips": 12302,
-      "start_trips": 13026,
-      "station": "Warren St at Chelsea St",
-      "total_trips": 25328,
-      "year": 2018
-    },
-    {
-      "end_trips": 12677,
-      "start_trips": 12384,
-      "station": "Arch St at Franklin St",
-      "total_trips": 25061,
-      "year": 2018
-    },
-    {
-      "end_trips": 12459,
-      "start_trips": 12364,
-      "station": "Washington St at Rutland St",
-      "total_trips": 24823,
-      "year": 2018
-    },
-    {
-      "end_trips": 12004,
-      "start_trips": 11983,
-      "station": "Lafayette Square at Mass Ave / Main St / Columbia St",
-      "total_trips": 23987,
-      "year": 2018
-    },
-    {
-      "end_trips": 11667,
-      "start_trips": 11912,
-      "station": "Seaport Blvd at Sleeper St",
-      "total_trips": 23579,
-      "year": 2018
-    },
-    {
-      "end_trips": 11891,
-      "start_trips": 11643,
-      "station": "Harvard University River Houses at DeWolfe St / Cowperthwaite St",
-      "total_trips": 23534,
-      "year": 2018
-    },
-    {
-      "end_trips": 11694,
-      "start_trips": 11475,
+      "end_trips": 13221,
+      "start_trips": 12910,
       "station": "Harvard Square at Brattle St / Eliot St",
-      "total_trips": 23169,
+      "total_trips": 26131,
       "year": 2018
     },
     {
-      "end_trips": 11593,
-      "start_trips": 11513,
+      "end_trips": 13005,
+      "start_trips": 12946,
       "station": "Beacon St at Arlington St",
-      "total_trips": 23106,
+      "total_trips": 25951,
       "year": 2018
     },
     {
-      "end_trips": 11808,
-      "start_trips": 10752,
+      "end_trips": 13466,
+      "start_trips": 12237,
       "station": "Davis Square",
-      "total_trips": 22560,
+      "total_trips": 25703,
       "year": 2018
     },
     {
-      "end_trips": 11244,
-      "start_trips": 11034,
+      "end_trips": 12922,
+      "start_trips": 12613,
+      "station": "Harvard University River Houses at DeWolfe St / Cowperthwaite St",
+      "total_trips": 25535,
+      "year": 2018
+    },
+    {
+      "end_trips": 12829,
+      "start_trips": 12570,
+      "station": "Prudential Center - Belvedere St",
+      "total_trips": 25399,
+      "year": 2018
+    },
+    {
+      "end_trips": 12755,
+      "start_trips": 12459,
       "station": "CambridgeSide Galleria - CambridgeSide PL at Land Blvd",
-      "total_trips": 22278,
+      "total_trips": 25214,
       "year": 2018
     },
     {
-      "end_trips": 11299,
-      "start_trips": 10645,
+      "end_trips": 12189,
+      "start_trips": 12887,
+      "station": "Inman Square at Vellucci Plaza / Hampshire St",
+      "total_trips": 25076,
+      "year": 2018
+    },
+    {
+      "end_trips": 12899,
+      "start_trips": 12024,
       "station": "Harvard Kennedy School at Bennett St / Eliot St",
-      "total_trips": 21944,
+      "total_trips": 24923,
       "year": 2018
     },
     {
-      "end_trips": 10936,
-      "start_trips": 10818,
-      "station": "Rowes Wharf at Atlantic Ave",
-      "total_trips": 21754,
-      "year": 2018
-    },
-    {
-      "end_trips": 10206,
-      "start_trips": 11143,
+      "end_trips": 11606,
+      "start_trips": 12664,
       "station": "Porter Square Station",
-      "total_trips": 21349,
+      "total_trips": 24270,
+      "year": 2018
+    },
+    {
+      "end_trips": 12006,
+      "start_trips": 11899,
+      "station": "Rowes Wharf at Atlantic Ave",
+      "total_trips": 23905,
+      "year": 2018
+    },
+    {
+      "end_trips": 11767,
+      "start_trips": 11730,
+      "station": "B.U. Central - 725 Comm. Ave.",
+      "total_trips": 23497,
+      "year": 2018
+    },
+    {
+      "end_trips": 10845,
+      "start_trips": 12156,
+      "station": "Cambridge St - at Columbia St / Webster Ave",
+      "total_trips": 23001,
+      "year": 2018
+    },
+    {
+      "end_trips": 13147,
+      "start_trips": 9807,
+      "station": "Longwood Ave at Binney St",
+      "total_trips": 22954,
+      "year": 2018
+    },
+    {
+      "end_trips": 11330,
+      "start_trips": 11109,
+      "station": "Surface Rd at India St",
+      "total_trips": 22439,
+      "year": 2018
+    },
+    {
+      "end_trips": 11013,
+      "start_trips": 11413,
+      "station": "Packard's Corner - Commonwealth Ave at Brighton Ave",
+      "total_trips": 22426,
+      "year": 2018
+    },
+    {
+      "end_trips": 11353,
+      "start_trips": 11072,
+      "station": "Chinatown Gate Plaza",
+      "total_trips": 22425,
+      "year": 2018
+    },
+    {
+      "end_trips": 11001,
+      "start_trips": 10828,
+      "station": "Columbus Ave at Massachusetts Ave",
+      "total_trips": 21829,
+      "year": 2018
+    },
+    {
+      "end_trips": 10523,
+      "start_trips": 11259,
+      "station": "Harvard University Housing - 115 Putnam Ave at Peabody Terrace",
+      "total_trips": 21782,
+      "year": 2018
+    },
+    {
+      "end_trips": 9568,
+      "start_trips": 12021,
+      "station": "359 Broadway - Broadway at Fayette Street",
+      "total_trips": 21589,
       "year": 2018
     },
     {
@@ -7677,66 +11577,52 @@
       "year": 2018
     },
     {
-      "end_trips": 10614,
-      "start_trips": 10593,
-      "station": "B.U. Central - 725 Comm. Ave.",
-      "total_trips": 21207,
+      "end_trips": 10625,
+      "start_trips": 10477,
+      "station": "Ruggles T Stop - Columbus Ave at Melnea Cass Blvd",
+      "total_trips": 21102,
       "year": 2018
     },
     {
-      "end_trips": 10560,
-      "start_trips": 10504,
-      "station": "Prudential Center - Belvedere St",
-      "total_trips": 21064,
+      "end_trips": 10386,
+      "start_trips": 10551,
+      "station": "Washington St at Waltham St",
+      "total_trips": 20937,
       "year": 2018
     },
     {
-      "end_trips": 10273,
-      "start_trips": 10679,
-      "station": "Inman Square at Vellucci Plaza / Hampshire St",
-      "total_trips": 20952,
+      "end_trips": 10478,
+      "start_trips": 10336,
+      "station": "Harvard University Gund Hall at Quincy St / Kirkland S",
+      "total_trips": 20814,
       "year": 2018
     },
     {
-      "end_trips": 12032,
-      "start_trips": 8785,
-      "station": "Longwood Ave at Binney St",
-      "total_trips": 20817,
+      "end_trips": 10309,
+      "start_trips": 10446,
+      "station": "Third at Binney",
+      "total_trips": 20755,
       "year": 2018
     },
     {
-      "end_trips": 10079,
-      "start_trips": 10461,
-      "station": "Packard's Corner - Commonwealth Ave at Brighton Ave",
-      "total_trips": 20540,
+      "end_trips": 10136,
+      "start_trips": 10279,
+      "station": "Tremont St at E Berkeley St",
+      "total_trips": 20415,
       "year": 2018
     },
     {
-      "end_trips": 9456,
-      "start_trips": 10711,
-      "station": "Cambridge St - at Columbia St / Webster Ave",
-      "total_trips": 20167,
+      "end_trips": 10103,
+      "start_trips": 10308,
+      "station": "Cambridge Main Library at Broadway / Trowbridge St",
+      "total_trips": 20411,
       "year": 2018
     },
     {
-      "end_trips": 10044,
-      "start_trips": 9881,
-      "station": "Surface Rd at India St",
-      "total_trips": 19925,
-      "year": 2018
-    },
-    {
-      "end_trips": 10069,
-      "start_trips": 9833,
-      "station": "Chinatown Gate Plaza",
-      "total_trips": 19902,
-      "year": 2018
-    },
-    {
-      "end_trips": 10023,
-      "start_trips": 9818,
-      "station": "Columbus Ave at Massachusetts Ave",
-      "total_trips": 19841,
+      "end_trips": 10038,
+      "start_trips": 9860,
+      "station": "175 N Harvard St",
+      "total_trips": 19898,
       "year": 2018
     },
     {
@@ -7754,31 +11640,31 @@
       "year": 2018
     },
     {
-      "end_trips": 9436,
-      "start_trips": 9547,
-      "station": "Third at Binney",
-      "total_trips": 18983,
+      "end_trips": 9361,
+      "start_trips": 9525,
+      "station": "Cambridge Dept. of Public Works -147 Hampshire St.",
+      "total_trips": 18886,
       "year": 2018
     },
     {
-      "end_trips": 9139,
-      "start_trips": 9675,
-      "station": "Harvard University Housing - 115 Putnam Ave at Peabody Terrace",
-      "total_trips": 18814,
+      "end_trips": 9491,
+      "start_trips": 9380,
+      "station": "Harvard University / SEAS Cruft-Pierce Halls at 29 Oxford St",
+      "total_trips": 18871,
       "year": 2018
     },
     {
-      "end_trips": 9434,
-      "start_trips": 9308,
-      "station": "Ruggles T Stop - Columbus Ave at Melnea Cass Blvd",
-      "total_trips": 18742,
+      "end_trips": 9638,
+      "start_trips": 9122,
+      "station": "Sidney Research Campus/ Erie Street at Waverly",
+      "total_trips": 18760,
       "year": 2018
     },
     {
-      "end_trips": 9389,
-      "start_trips": 9251,
-      "station": "Harvard University Gund Hall at Quincy St / Kirkland S",
-      "total_trips": 18640,
+      "end_trips": 10107,
+      "start_trips": 8624,
+      "station": "Seaport Square - Seaport Blvd at Northern Ave",
+      "total_trips": 18731,
       "year": 2018
     },
     {
@@ -7796,10 +11682,10 @@
       "year": 2018
     },
     {
-      "end_trips": 8246,
-      "start_trips": 10296,
-      "station": "359 Broadway - Broadway at Fayette Street",
-      "total_trips": 18542,
+      "end_trips": 9375,
+      "start_trips": 9222,
+      "station": "Stuart St at Charles St",
+      "total_trips": 18597,
       "year": 2018
     },
     {
@@ -7824,59 +11710,66 @@
       "year": 2018
     },
     {
-      "end_trips": 9108,
-      "start_trips": 9243,
-      "station": "Washington St at Waltham St",
-      "total_trips": 18351,
+      "end_trips": 9142,
+      "start_trips": 9041,
+      "station": "Ink Block - Harrison Ave at Herald St",
+      "total_trips": 18183,
       "year": 2018
     },
     {
-      "end_trips": 9060,
-      "start_trips": 9130,
-      "station": "Tremont St at E Berkeley St",
-      "total_trips": 18190,
+      "end_trips": 9093,
+      "start_trips": 8953,
+      "station": "Park Dr at Buswell St",
+      "total_trips": 18046,
       "year": 2018
     },
     {
-      "end_trips": 9049,
+      "end_trips": 8442,
+      "start_trips": 9459,
+      "station": "Dana Park",
+      "total_trips": 17901,
+      "year": 2018
+    },
+    {
+      "end_trips": 8726,
+      "start_trips": 8630,
+      "station": "Purchase St at Pearl St",
+      "total_trips": 17356,
+      "year": 2018
+    },
+    {
+      "end_trips": 9210,
+      "start_trips": 8033,
+      "station": "Watermark Seaport - Boston Wharf Rd at Seaport Blvd",
+      "total_trips": 17243,
+      "year": 2018
+    },
+    {
+      "end_trips": 8140,
       "start_trips": 9095,
-      "station": "Cambridge Main Library at Broadway / Trowbridge St",
-      "total_trips": 18144,
+      "station": "South End Library - Tremont St at W Newton St",
+      "total_trips": 17235,
       "year": 2018
     },
     {
-      "end_trips": 9009,
-      "start_trips": 8841,
-      "station": "175 N Harvard St",
-      "total_trips": 17850,
+      "end_trips": 8593,
+      "start_trips": 8598,
+      "station": "Conway Park - Somerville Avenue",
+      "total_trips": 17191,
       "year": 2018
     },
     {
-      "end_trips": 9236,
-      "start_trips": 7766,
-      "station": "Seaport Square - Seaport Blvd at Northern Ave",
-      "total_trips": 17002,
+      "end_trips": 8727,
+      "start_trips": 8461,
+      "station": "HMS/HSPH - Avenue Louis Pasteur at Longwood Ave",
+      "total_trips": 17188,
       "year": 2018
     },
     {
-      "end_trips": 8402,
-      "start_trips": 8510,
-      "station": "Cambridge Dept. of Public Works -147 Hampshire St.",
-      "total_trips": 16912,
-      "year": 2018
-    },
-    {
-      "end_trips": 8671,
-      "start_trips": 8154,
-      "station": "Sidney Research Campus/ Erie Street at Waverly",
-      "total_trips": 16825,
-      "year": 2018
-    },
-    {
-      "end_trips": 8492,
-      "start_trips": 8333,
-      "station": "Stuart St at Charles St",
-      "total_trips": 16825,
+      "end_trips": 8436,
+      "start_trips": 8605,
+      "station": "Binney St / Sixth St",
+      "total_trips": 17041,
       "year": 2018
     },
     {
@@ -7887,31 +11780,38 @@
       "year": 2018
     },
     {
-      "end_trips": 8063,
-      "start_trips": 7988,
-      "station": "Ink Block - Harrison Ave at Herald St",
-      "total_trips": 16051,
+      "end_trips": 8411,
+      "start_trips": 8072,
+      "station": "Harvard Law School at Mass Ave / Jarvis St",
+      "total_trips": 16483,
       "year": 2018
     },
     {
-      "end_trips": 8054,
-      "start_trips": 7955,
-      "station": "Harvard University / SEAS Cruft-Pierce Halls at 29 Oxford St",
-      "total_trips": 16009,
+      "end_trips": 9280,
+      "start_trips": 7010,
+      "station": "Kendall Street",
+      "total_trips": 16290,
       "year": 2018
     },
     {
-      "end_trips": 7531,
-      "start_trips": 8376,
-      "station": "Dana Park",
-      "total_trips": 15907,
+      "end_trips": 8330,
+      "start_trips": 7675,
+      "station": "Union Square - Somerville",
+      "total_trips": 16005,
       "year": 2018
     },
     {
-      "end_trips": 8124,
-      "start_trips": 7649,
+      "end_trips": 7822,
+      "start_trips": 8083,
+      "station": "Brigham Circle - Francis St at Huntington Ave",
+      "total_trips": 15905,
+      "year": 2018
+    },
+    {
+      "end_trips": 8130,
+      "start_trips": 7656,
       "station": "Landmark Center - Brookline Ave at Park Dr",
-      "total_trips": 15773,
+      "total_trips": 15786,
       "year": 2018
     },
     {
@@ -7922,38 +11822,10 @@
       "year": 2018
     },
     {
-      "end_trips": 7843,
-      "start_trips": 7763,
-      "station": "Park Dr at Buswell St",
-      "total_trips": 15606,
-      "year": 2018
-    },
-    {
       "end_trips": 7707,
       "start_trips": 7820,
       "station": "Beacon St at Washington / Kirkland",
       "total_trips": 15527,
-      "year": 2018
-    },
-    {
-      "end_trips": 7293,
-      "start_trips": 8127,
-      "station": "South End Library - Tremont St at W Newton St",
-      "total_trips": 15420,
-      "year": 2018
-    },
-    {
-      "end_trips": 8084,
-      "start_trips": 7007,
-      "station": "Watermark Seaport - Boston Wharf Rd at Seaport Blvd",
-      "total_trips": 15091,
-      "year": 2018
-    },
-    {
-      "end_trips": 7653,
-      "start_trips": 7410,
-      "station": "HMS/HSPH - Avenue Louis Pasteur at Longwood Ave",
-      "total_trips": 15063,
       "year": 2018
     },
     {
@@ -7964,66 +11836,73 @@
       "year": 2018
     },
     {
-      "end_trips": 7491,
-      "start_trips": 7415,
-      "station": "Purchase St at Pearl St",
-      "total_trips": 14906,
-      "year": 2018
-    },
-    {
-      "end_trips": 7349,
-      "start_trips": 7390,
-      "station": "Conway Park - Somerville Avenue",
-      "total_trips": 14739,
-      "year": 2018
-    },
-    {
-      "end_trips": 7359,
-      "start_trips": 7352,
-      "station": "Binney St / Sixth St",
-      "total_trips": 14711,
-      "year": 2018
-    },
-    {
-      "end_trips": 7341,
-      "start_trips": 7141,
-      "station": "Harvard Law School at Mass Ave / Jarvis St",
-      "total_trips": 14482,
-      "year": 2018
-    },
-    {
-      "end_trips": 8320,
-      "start_trips": 6119,
-      "station": "Kendall Street",
-      "total_trips": 14439,
-      "year": 2018
-    },
-    {
-      "end_trips": 7024,
-      "start_trips": 7229,
-      "station": "Brigham Circle - Francis St at Huntington Ave",
-      "total_trips": 14253,
-      "year": 2018
-    },
-    {
-      "end_trips": 7208,
-      "start_trips": 6667,
-      "station": "Union Square - Somerville",
-      "total_trips": 13875,
-      "year": 2018
-    },
-    {
-      "end_trips": 6696,
-      "start_trips": 6776,
-      "station": "State Street at Channel Center",
-      "total_trips": 13472,
-      "year": 2018
-    },
-    {
-      "end_trips": 6490,
-      "start_trips": 6775,
+      "end_trips": 7301,
+      "start_trips": 7597,
       "station": "W Broadway at D St",
-      "total_trips": 13265,
+      "total_trips": 14898,
+      "year": 2018
+    },
+    {
+      "end_trips": 7304,
+      "start_trips": 7352,
+      "station": "State Street at Channel Center",
+      "total_trips": 14656,
+      "year": 2018
+    },
+    {
+      "end_trips": 7074,
+      "start_trips": 7130,
+      "station": "EF - North Point Park",
+      "total_trips": 14204,
+      "year": 2018
+    },
+    {
+      "end_trips": 6899,
+      "start_trips": 7037,
+      "station": "Verizon Innovation Hub 10 Ware Street",
+      "total_trips": 13936,
+      "year": 2018
+    },
+    {
+      "end_trips": 6672,
+      "start_trips": 6987,
+      "station": "Commonwealth Ave At Babcock St",
+      "total_trips": 13659,
+      "year": 2018
+    },
+    {
+      "end_trips": 6710,
+      "start_trips": 6798,
+      "station": "Soldiers Field Park - 111 Western Ave",
+      "total_trips": 13508,
+      "year": 2018
+    },
+    {
+      "end_trips": 6781,
+      "start_trips": 6497,
+      "station": "Spaulding Rehabilitation Hospital - Charlestown Navy Yard",
+      "total_trips": 13278,
+      "year": 2018
+    },
+    {
+      "end_trips": 6310,
+      "start_trips": 6913,
+      "station": "W Broadway at Dorchester St",
+      "total_trips": 13223,
+      "year": 2018
+    },
+    {
+      "end_trips": 6447,
+      "start_trips": 6765,
+      "station": "Roxbury Crossing T Stop - Columbus Ave at Tremont St",
+      "total_trips": 13212,
+      "year": 2018
+    },
+    {
+      "end_trips": 6465,
+      "start_trips": 6607,
+      "station": "Harvard University Radcliffe Quadrangle at Shepard St / Garden St",
+      "total_trips": 13072,
       "year": 2018
     },
     {
@@ -8034,24 +11913,31 @@
       "year": 2018
     },
     {
-      "end_trips": 6370,
-      "start_trips": 6427,
-      "station": "Verizon Innovation Hub 10 Ware Street",
-      "total_trips": 12797,
+      "end_trips": 6377,
+      "start_trips": 6502,
+      "station": "One Memorial Drive",
+      "total_trips": 12879,
       "year": 2018
     },
     {
-      "end_trips": 6321,
-      "start_trips": 6425,
-      "station": "EF - North Point Park",
-      "total_trips": 12746,
+      "end_trips": 6371,
+      "start_trips": 6293,
+      "station": "Colleges of the Fenway - Fenway at Avenue Louis Pasteur",
+      "total_trips": 12664,
       "year": 2018
     },
     {
-      "end_trips": 6077,
-      "start_trips": 6310,
-      "station": "Commonwealth Ave At Babcock St",
-      "total_trips": 12387,
+      "end_trips": 6176,
+      "start_trips": 6249,
+      "station": "Seaport Hotel - Congress St at Seaport Ln",
+      "total_trips": 12425,
+      "year": 2018
+    },
+    {
+      "end_trips": 6120,
+      "start_trips": 6161,
+      "station": "South Boston Library - 646 E Broadway",
+      "total_trips": 12281,
       "year": 2018
     },
     {
@@ -8062,94 +11948,80 @@
       "year": 2018
     },
     {
-      "end_trips": 5830,
-      "start_trips": 6125,
-      "station": "Roxbury Crossing T Stop - Columbus Ave at Tremont St",
-      "total_trips": 11955,
-      "year": 2018
-    },
-    {
-      "end_trips": 5694,
-      "start_trips": 6191,
-      "station": "W Broadway at Dorchester St",
-      "total_trips": 11885,
-      "year": 2018
-    },
-    {
-      "end_trips": 5955,
-      "start_trips": 5749,
-      "station": "Spaulding Rehabilitation Hospital - Charlestown Navy Yard",
-      "total_trips": 11704,
-      "year": 2018
-    },
-    {
-      "end_trips": 5805,
-      "start_trips": 5833,
-      "station": "Soldiers Field Park - 111 Western Ave",
-      "total_trips": 11638,
-      "year": 2018
-    },
-    {
-      "end_trips": 5636,
-      "start_trips": 5720,
-      "station": "Harvard University Radcliffe Quadrangle at Shepard St / Garden St",
-      "total_trips": 11356,
-      "year": 2018
-    },
-    {
-      "end_trips": 5633,
-      "start_trips": 5644,
-      "station": "South Boston Library - 646 E Broadway",
-      "total_trips": 11277,
-      "year": 2018
-    },
-    {
-      "end_trips": 5595,
-      "start_trips": 5630,
-      "station": "Congress St at Northern Ave",
-      "total_trips": 11225,
-      "year": 2018
-    },
-    {
-      "end_trips": 5541,
-      "start_trips": 5541,
-      "station": "Colleges of the Fenway - Fenway at Avenue Louis Pasteur",
-      "total_trips": 11082,
-      "year": 2018
-    },
-    {
-      "end_trips": 5452,
-      "start_trips": 5524,
-      "station": "One Memorial Drive",
-      "total_trips": 10976,
-      "year": 2018
-    },
-    {
-      "end_trips": 5447,
-      "start_trips": 5440,
-      "station": "Wentworth Institute of Technology - Huntington Ave at Vancouver St",
-      "total_trips": 10887,
-      "year": 2018
-    },
-    {
-      "end_trips": 5376,
-      "start_trips": 5432,
-      "station": "Seaport Hotel - Congress St at Seaport Ln",
-      "total_trips": 10808,
-      "year": 2018
-    },
-    {
-      "end_trips": 5240,
-      "start_trips": 5546,
+      "end_trips": 5894,
+      "start_trips": 6220,
       "station": "Main St at Austin St",
-      "total_trips": 10786,
+      "total_trips": 12114,
       "year": 2018
     },
     {
-      "end_trips": 5398,
-      "start_trips": 4999,
+      "end_trips": 5981,
+      "start_trips": 6049,
+      "station": "Linear Park - Mass. Ave. at Cameron Ave. ",
+      "total_trips": 12030,
+      "year": 2018
+    },
+    {
+      "end_trips": 6003,
+      "start_trips": 5967,
+      "station": "Wentworth Institute of Technology - Huntington Ave at Vancouver St",
+      "total_trips": 11970,
+      "year": 2018
+    },
+    {
+      "end_trips": 5770,
+      "start_trips": 5826,
+      "station": "One Broadway / Kendall Sq at Main St / 3rd St",
+      "total_trips": 11596,
+      "year": 2018
+    },
+    {
+      "end_trips": 5599,
+      "start_trips": 5635,
+      "station": "Congress St at Northern Ave",
+      "total_trips": 11234,
+      "year": 2018
+    },
+    {
+      "end_trips": 5316,
+      "start_trips": 5637,
+      "station": "The Lawn on D",
+      "total_trips": 10953,
+      "year": 2018
+    },
+    {
+      "end_trips": 5640,
+      "start_trips": 5217,
       "station": "Murphy Skating Rink - 1880 Day Blvd",
-      "total_trips": 10397,
+      "total_trips": 10857,
+      "year": 2018
+    },
+    {
+      "end_trips": 5294,
+      "start_trips": 5420,
+      "station": "ID Building West",
+      "total_trips": 10714,
+      "year": 2018
+    },
+    {
+      "end_trips": 5215,
+      "start_trips": 5289,
+      "station": "Union Square - Brighton Ave at Cambridge St",
+      "total_trips": 10504,
+      "year": 2018
+    },
+    {
+      "end_trips": 5486,
+      "start_trips": 4968,
+      "station": "Lesley University",
+      "total_trips": 10454,
+      "year": 2018
+    },
+    {
+      "end_trips": 5142,
+      "start_trips": 5286,
+      "station": "Jackson Square T Stop",
+      "total_trips": 10428,
       "year": 2018
     },
     {
@@ -8160,66 +12032,31 @@
       "year": 2018
     },
     {
-      "end_trips": 4951,
-      "start_trips": 5240,
-      "station": "The Lawn on D",
-      "total_trips": 10191,
-      "year": 2018
-    },
-    {
-      "end_trips": 4997,
-      "start_trips": 5019,
-      "station": "Linear Park - Mass. Ave. at Cameron Ave. ",
-      "total_trips": 10016,
-      "year": 2018
-    },
-    {
-      "end_trips": 4822,
-      "start_trips": 4889,
-      "station": "One Broadway / Kendall Sq at Main St / 3rd St",
-      "total_trips": 9711,
-      "year": 2018
-    },
-    {
-      "end_trips": 4790,
-      "start_trips": 4840,
-      "station": "Union Square - Brighton Ave at Cambridge St",
-      "total_trips": 9630,
-      "year": 2018
-    },
-    {
-      "end_trips": 4665,
-      "start_trips": 4761,
-      "station": "ID Building West",
-      "total_trips": 9426,
-      "year": 2018
-    },
-    {
-      "end_trips": 4647,
-      "start_trips": 4697,
-      "station": "Jackson Square T Stop",
-      "total_trips": 9344,
-      "year": 2018
-    },
-    {
-      "end_trips": 4863,
-      "start_trips": 4394,
-      "station": "Lesley University",
-      "total_trips": 9257,
-      "year": 2018
-    },
-    {
-      "end_trips": 4229,
-      "start_trips": 4371,
-      "station": "Museum of Science",
-      "total_trips": 8600,
-      "year": 2018
-    },
-    {
-      "end_trips": 4294,
-      "start_trips": 4253,
+      "end_trips": 4649,
+      "start_trips": 4644,
       "station": "Troy Boston",
-      "total_trips": 8547,
+      "total_trips": 9293,
+      "year": 2018
+    },
+    {
+      "end_trips": 4519,
+      "start_trips": 4739,
+      "station": "Museum of Science",
+      "total_trips": 9258,
+      "year": 2018
+    },
+    {
+      "end_trips": 4615,
+      "start_trips": 4583,
+      "station": "Fan Pier",
+      "total_trips": 9198,
+      "year": 2018
+    },
+    {
+      "end_trips": 4458,
+      "start_trips": 4241,
+      "station": "Innovation Lab - 125 Western Ave at Batten Way",
+      "total_trips": 8699,
       "year": 2018
     },
     {
@@ -8230,10 +12067,17 @@
       "year": 2018
     },
     {
-      "end_trips": 4128,
-      "start_trips": 4136,
-      "station": "Fan Pier",
-      "total_trips": 8264,
+      "end_trips": 3841,
+      "start_trips": 4364,
+      "station": "Hyde Square - Barbara St at Centre St",
+      "total_trips": 8205,
+      "year": 2018
+    },
+    {
+      "end_trips": 4098,
+      "start_trips": 4025,
+      "station": "Green Street T Stop - Green St at Amory St",
+      "total_trips": 8123,
       "year": 2018
     },
     {
@@ -8244,10 +12088,17 @@
       "year": 2018
     },
     {
-      "end_trips": 3909,
-      "start_trips": 3775,
-      "station": "Innovation Lab - 125 Western Ave at Batten Way",
-      "total_trips": 7684,
+      "end_trips": 3811,
+      "start_trips": 3920,
+      "station": "ID Building East",
+      "total_trips": 7731,
+      "year": 2018
+    },
+    {
+      "end_trips": 3857,
+      "start_trips": 3814,
+      "station": "Washington St at Lenox St",
+      "total_trips": 7671,
       "year": 2018
     },
     {
@@ -8258,6 +12109,20 @@
       "year": 2018
     },
     {
+      "end_trips": 3569,
+      "start_trips": 3837,
+      "station": "Edwards Playground - Main St at Eden St",
+      "total_trips": 7406,
+      "year": 2018
+    },
+    {
+      "end_trips": 3655,
+      "start_trips": 3708,
+      "station": "Mt Auburn",
+      "total_trips": 7363,
+      "year": 2018
+    },
+    {
       "end_trips": 3783,
       "start_trips": 3535,
       "station": "Andrew T Stop - Dorchester Ave at Dexter St",
@@ -8265,17 +12130,17 @@
       "year": 2018
     },
     {
-      "end_trips": 3443,
-      "start_trips": 3850,
-      "station": "Hyde Square - Barbara St at Centre St",
+      "end_trips": 3541,
+      "start_trips": 3752,
+      "station": "Bunker Hill Community College",
       "total_trips": 7293,
       "year": 2018
     },
     {
-      "end_trips": 3694,
-      "start_trips": 3595,
-      "station": "Green Street T Stop - Green St at Amory St",
-      "total_trips": 7289,
+      "end_trips": 3530,
+      "start_trips": 3593,
+      "station": "Dorchester Ave at Gillette Park",
+      "total_trips": 7123,
       "year": 2018
     },
     {
@@ -8286,52 +12151,45 @@
       "year": 2018
     },
     {
-      "end_trips": 3464,
-      "start_trips": 3446,
-      "station": "Washington St at Lenox St",
-      "total_trips": 6910,
-      "year": 2018
-    },
-    {
-      "end_trips": 3256,
-      "start_trips": 3348,
-      "station": "ID Building East",
-      "total_trips": 6604,
-      "year": 2018
-    },
-    {
-      "end_trips": 3268,
-      "start_trips": 3331,
-      "station": "Mt Auburn",
-      "total_trips": 6599,
-      "year": 2018
-    },
-    {
-      "end_trips": 3145,
-      "start_trips": 3362,
-      "station": "Edwards Playground - Main St at Eden St",
-      "total_trips": 6507,
-      "year": 2018
-    },
-    {
-      "end_trips": 3152,
-      "start_trips": 3349,
-      "station": "Bunker Hill Community College",
-      "total_trips": 6501,
-      "year": 2018
-    },
-    {
-      "end_trips": 3178,
-      "start_trips": 3241,
-      "station": "Dorchester Ave at Gillette Park",
-      "total_trips": 6419,
-      "year": 2018
-    },
-    {
-      "end_trips": 3232,
-      "start_trips": 3137,
+      "end_trips": 3586,
+      "start_trips": 3417,
       "station": "Brighton Mills - 370 Western Ave",
-      "total_trips": 6369,
+      "total_trips": 7003,
+      "year": 2018
+    },
+    {
+      "end_trips": 2789,
+      "start_trips": 3619,
+      "station": "Somerville City Hall",
+      "total_trips": 6408,
+      "year": 2018
+    },
+    {
+      "end_trips": 3234,
+      "start_trips": 3091,
+      "station": "Curtis Hall - South St at Centre St",
+      "total_trips": 6325,
+      "year": 2018
+    },
+    {
+      "end_trips": 3000,
+      "start_trips": 3203,
+      "station": "Boston Convention and Exhibition Center - Summer St at West Side Dr",
+      "total_trips": 6203,
+      "year": 2018
+    },
+    {
+      "end_trips": 2873,
+      "start_trips": 3254,
+      "station": "Brighton Center - Washington St at Cambridge St",
+      "total_trips": 6127,
+      "year": 2018
+    },
+    {
+      "end_trips": 2993,
+      "start_trips": 2878,
+      "station": "Danehy Park",
+      "total_trips": 5871,
       "year": 2018
     },
     {
@@ -8342,31 +12200,10 @@
       "year": 2018
     },
     {
-      "end_trips": 2761,
-      "start_trips": 2976,
-      "station": "Boston Convention and Exhibition Center - Summer St at West Side Dr",
-      "total_trips": 5737,
-      "year": 2018
-    },
-    {
-      "end_trips": 2922,
-      "start_trips": 2788,
-      "station": "Curtis Hall - South St at Centre St",
-      "total_trips": 5710,
-      "year": 2018
-    },
-    {
-      "end_trips": 2476,
-      "start_trips": 3212,
-      "station": "Somerville City Hall",
-      "total_trips": 5688,
-      "year": 2018
-    },
-    {
-      "end_trips": 2700,
-      "start_trips": 2957,
-      "station": "Brighton Center - Washington St at Cambridge St",
-      "total_trips": 5657,
+      "end_trips": 2545,
+      "start_trips": 3058,
+      "station": "Magoun Square at Trum Field",
+      "total_trips": 5603,
       "year": 2018
     },
     {
@@ -8384,6 +12221,13 @@
       "year": 2018
     },
     {
+      "end_trips": 2479,
+      "start_trips": 2967,
+      "station": "S Huntington Ave at Heath St",
+      "total_trips": 5446,
+      "year": 2018
+    },
+    {
       "end_trips": 2732,
       "start_trips": 2668,
       "station": "St Mary's",
@@ -8398,17 +12242,17 @@
       "year": 2018
     },
     {
-      "end_trips": 2693,
-      "start_trips": 2589,
-      "station": "Danehy Park",
-      "total_trips": 5282,
-      "year": 2018
-    },
-    {
       "end_trips": 2674,
       "start_trips": 2542,
       "station": "Brookline Town Hall",
       "total_trips": 5216,
+      "year": 2018
+    },
+    {
+      "end_trips": 2523,
+      "start_trips": 2641,
+      "station": "Powder House Circle - Nathan Tufts Park",
+      "total_trips": 5164,
       "year": 2018
     },
     {
@@ -8419,10 +12263,17 @@
       "year": 2018
     },
     {
-      "end_trips": 2285,
-      "start_trips": 2690,
-      "station": "Magoun Square at Trum Field",
-      "total_trips": 4975,
+      "end_trips": 2597,
+      "start_trips": 2357,
+      "station": "Newmarket Square T Stop - Massachusetts Ave at Newmarket Square",
+      "total_trips": 4954,
+      "year": 2018
+    },
+    {
+      "end_trips": 2412,
+      "start_trips": 2513,
+      "station": "Rindge Avenue - O'Neill Library",
+      "total_trips": 4925,
       "year": 2018
     },
     {
@@ -8433,10 +12284,10 @@
       "year": 2018
     },
     {
-      "end_trips": 2279,
-      "start_trips": 2639,
-      "station": "S Huntington Ave at Heath St",
-      "total_trips": 4918,
+      "end_trips": 2416,
+      "start_trips": 2331,
+      "station": "Alewife Station at Russell Field",
+      "total_trips": 4747,
       "year": 2018
     },
     {
@@ -8447,52 +12298,31 @@
       "year": 2018
     },
     {
-      "end_trips": 2282,
-      "start_trips": 2371,
-      "station": "Powder House Circle - Nathan Tufts Park",
-      "total_trips": 4653,
-      "year": 2018
-    },
-    {
-      "end_trips": 2412,
-      "start_trips": 2174,
-      "station": "Newmarket Square T Stop - Massachusetts Ave at Newmarket Square",
-      "total_trips": 4586,
-      "year": 2018
-    },
-    {
-      "end_trips": 2172,
-      "start_trips": 2198,
-      "station": "Rindge Avenue - O'Neill Library",
-      "total_trips": 4370,
-      "year": 2018
-    },
-    {
-      "end_trips": 2218,
-      "start_trips": 2124,
+      "end_trips": 2369,
+      "start_trips": 2272,
       "station": "Alewife MBTA at Steel Place",
-      "total_trips": 4342,
+      "total_trips": 4641,
       "year": 2018
     },
     {
-      "end_trips": 2221,
-      "start_trips": 2120,
+      "end_trips": 2365,
+      "start_trips": 2253,
       "station": "New Balance - 20 Guest St",
-      "total_trips": 4341,
+      "total_trips": 4618,
       "year": 2018
     },
     {
-      "end_trips": 2191,
-      "start_trips": 2116,
-      "station": "Alewife Station at Russell Field",
-      "total_trips": 4307,
-      "year": 2018
-    },
-    {
-      "end_trips": 2136,
-      "start_trips": 2119,
+      "end_trips": 2233,
+      "start_trips": 2218,
       "station": "Maverick Square - Lewis Mall",
-      "total_trips": 4255,
+      "total_trips": 4451,
+      "year": 2018
+    },
+    {
+      "end_trips": 2242,
+      "start_trips": 2180,
+      "station": "JFK/UMass T Stop",
+      "total_trips": 4422,
       "year": 2018
     },
     {
@@ -8503,10 +12333,17 @@
       "year": 2018
     },
     {
-      "end_trips": 2098,
-      "start_trips": 2042,
-      "station": "JFK/UMass T Stop",
-      "total_trips": 4140,
+      "end_trips": 2073,
+      "start_trips": 2143,
+      "station": "Charles Circle - Charles St at Cambridge St TEMPORARY WINTER LOCATION",
+      "total_trips": 4216,
+      "year": 2018
+    },
+    {
+      "end_trips": 2042,
+      "start_trips": 2044,
+      "station": "Boylston St at Washington St",
+      "total_trips": 4086,
       "year": 2018
     },
     {
@@ -8517,10 +12354,31 @@
       "year": 2018
     },
     {
-      "end_trips": 1735,
-      "start_trips": 1674,
+      "end_trips": 1953,
+      "start_trips": 1935,
+      "station": "Washington St at Melnea Cass Blvd",
+      "total_trips": 3888,
+      "year": 2018
+    },
+    {
+      "end_trips": 1837,
+      "start_trips": 1797,
       "station": "Fresh Pond Reservation",
-      "total_trips": 3409,
+      "total_trips": 3634,
+      "year": 2018
+    },
+    {
+      "end_trips": 1721,
+      "start_trips": 1790,
+      "station": "Coolidge Corner - Beacon St @ Centre St",
+      "total_trips": 3511,
+      "year": 2018
+    },
+    {
+      "end_trips": 1696,
+      "start_trips": 1722,
+      "station": "Dudley Square - Dudley St at Warren St",
+      "total_trips": 3418,
       "year": 2018
     },
     {
@@ -8528,13 +12386,6 @@
       "start_trips": 1712,
       "station": "Packard Ave at Powderhouse Blvd",
       "total_trips": 3363,
-      "year": 2018
-    },
-    {
-      "end_trips": 1675,
-      "start_trips": 1681,
-      "station": "Washington St at Melnea Cass Blvd",
-      "total_trips": 3356,
       "year": 2018
     },
     {
@@ -8559,6 +12410,13 @@
       "year": 2018
     },
     {
+      "end_trips": 1579,
+      "start_trips": 1525,
+      "station": "Airport T Stop - Bremen St at Brooks St",
+      "total_trips": 3104,
+      "year": 2018
+    },
+    {
       "end_trips": 1530,
       "start_trips": 1543,
       "station": "Clarendon Hill at Broadway",
@@ -8573,24 +12431,17 @@
       "year": 2018
     },
     {
-      "end_trips": 1513,
-      "start_trips": 1521,
-      "station": "Dudley Square - Dudley St at Warren St",
-      "total_trips": 3034,
-      "year": 2018
-    },
-    {
-      "end_trips": 1533,
-      "start_trips": 1487,
-      "station": "Airport T Stop - Bremen St at Brooks St",
-      "total_trips": 3020,
-      "year": 2018
-    },
-    {
       "end_trips": 1417,
       "start_trips": 1438,
       "station": "Piers Park",
       "total_trips": 2855,
+      "year": 2018
+    },
+    {
+      "end_trips": 1420,
+      "start_trips": 1398,
+      "station": "Commonwealth Ave at Buick St",
+      "total_trips": 2818,
       "year": 2018
     },
     {
@@ -8608,6 +12459,27 @@
       "year": 2018
     },
     {
+      "end_trips": 1347,
+      "start_trips": 1302,
+      "station": "Oak Square - 615 Washington St",
+      "total_trips": 2649,
+      "year": 2018
+    },
+    {
+      "end_trips": 1297,
+      "start_trips": 1345,
+      "station": "Egleston Square - Atherton St at Washington St",
+      "total_trips": 2642,
+      "year": 2018
+    },
+    {
+      "end_trips": 1377,
+      "start_trips": 1245,
+      "station": "Boylston St at Arlington St TEMPORARY WINTER LOCATION",
+      "total_trips": 2622,
+      "year": 2018
+    },
+    {
       "end_trips": 1316,
       "start_trips": 1289,
       "station": "Deerfield St at Commonwealth Ave (former)",
@@ -8615,10 +12487,10 @@
       "year": 2018
     },
     {
-      "end_trips": 1203,
-      "start_trips": 1241,
-      "station": "Egleston Square - Atherton St at Washington St",
-      "total_trips": 2444,
+      "end_trips": 1315,
+      "start_trips": 1243,
+      "station": "Washington St at Brock St",
+      "total_trips": 2558,
       "year": 2018
     },
     {
@@ -8626,20 +12498,6 @@
       "start_trips": 1204,
       "station": "Boston Public Market",
       "total_trips": 2435,
-      "year": 2018
-    },
-    {
-      "end_trips": 1233,
-      "start_trips": 1193,
-      "station": "Oak Square - 615 Washington St",
-      "total_trips": 2426,
-      "year": 2018
-    },
-    {
-      "end_trips": 1216,
-      "start_trips": 1156,
-      "station": "Washington St at Brock St",
-      "total_trips": 2372,
       "year": 2018
     },
     {
@@ -8657,6 +12515,20 @@
       "year": 2018
     },
     {
+      "end_trips": 1135,
+      "start_trips": 1121,
+      "station": "The Eddy - New St at Sumner St",
+      "total_trips": 2256,
+      "year": 2018
+    },
+    {
+      "end_trips": 1187,
+      "start_trips": 1042,
+      "station": "Savin Hill T Stop - S Sydney St at Bay St",
+      "total_trips": 2229,
+      "year": 2018
+    },
+    {
       "end_trips": 1069,
       "start_trips": 1080,
       "station": "Mass Ave at Hadley/Walden",
@@ -8664,24 +12536,17 @@
       "year": 2018
     },
     {
-      "end_trips": 1080,
-      "start_trips": 1059,
-      "station": "The Eddy - New St at Sumner St",
-      "total_trips": 2139,
-      "year": 2018
-    },
-    {
-      "end_trips": 1106,
-      "start_trips": 977,
-      "station": "Savin Hill T Stop - S Sydney St at Bay St",
-      "total_trips": 2083,
-      "year": 2018
-    },
-    {
-      "end_trips": 983,
-      "start_trips": 1001,
+      "end_trips": 1038,
+      "start_trips": 1058,
       "station": "East Boston Neighborhood Health Center - 20 Maverick Square",
-      "total_trips": 1984,
+      "total_trips": 2096,
+      "year": 2018
+    },
+    {
+      "end_trips": 1040,
+      "start_trips": 1018,
+      "station": "Congress St at North St",
+      "total_trips": 2058,
       "year": 2018
     },
     {
@@ -8734,6 +12599,13 @@
       "year": 2018
     },
     {
+      "end_trips": 947,
+      "start_trips": 891,
+      "station": "University of Massachusetts Boston - Integrated Sciences Complex",
+      "total_trips": 1838,
+      "year": 2018
+    },
+    {
       "end_trips": 924,
       "start_trips": 898,
       "station": "Foss Park",
@@ -8783,6 +12655,13 @@
       "year": 2018
     },
     {
+      "end_trips": 734,
+      "start_trips": 1007,
+      "station": "Allston Green District - Griggs St at Commonwealth Ave TEMPORARY WINTER LOCATION",
+      "total_trips": 1741,
+      "year": 2018
+    },
+    {
       "end_trips": 909,
       "start_trips": 813,
       "station": "Boylston St at Exeter St",
@@ -8790,17 +12669,31 @@
       "year": 2018
     },
     {
-      "end_trips": 864,
-      "start_trips": 820,
-      "station": "University of Massachusetts Boston - Integrated Sciences Complex",
-      "total_trips": 1684,
-      "year": 2018
-    },
-    {
       "end_trips": 825,
       "start_trips": 847,
       "station": "30 Dane St.",
       "total_trips": 1672,
+      "year": 2018
+    },
+    {
+      "end_trips": 768,
+      "start_trips": 894,
+      "station": "MLK Blvd at Washington St",
+      "total_trips": 1662,
+      "year": 2018
+    },
+    {
+      "end_trips": 835,
+      "start_trips": 818,
+      "station": "Orient Heights T Stop - Bennington St at Saratoga St",
+      "total_trips": 1653,
+      "year": 2018
+    },
+    {
+      "end_trips": 759,
+      "start_trips": 872,
+      "station": "Roxbury YMCA - Warren St at MLK Blvd",
+      "total_trips": 1631,
       "year": 2018
     },
     {
@@ -8818,24 +12711,10 @@
       "year": 2018
     },
     {
-      "end_trips": 800,
-      "start_trips": 778,
-      "station": "Orient Heights T Stop - Bennington St at Saratoga St",
-      "total_trips": 1578,
-      "year": 2018
-    },
-    {
-      "end_trips": 693,
-      "start_trips": 792,
-      "station": "MLK Blvd at Washington St",
-      "total_trips": 1485,
-      "year": 2018
-    },
-    {
-      "end_trips": 741,
-      "start_trips": 726,
-      "station": "Boylston St at Washington St",
-      "total_trips": 1467,
+      "end_trips": 784,
+      "start_trips": 723,
+      "station": "Faneuil St at Market St",
+      "total_trips": 1507,
       "year": 2018
     },
     {
@@ -8843,20 +12722,6 @@
       "start_trips": 710,
       "station": "Park Plaza at Charles St",
       "total_trips": 1450,
-      "year": 2018
-    },
-    {
-      "end_trips": 731,
-      "start_trips": 671,
-      "station": "Faneuil St at Market St",
-      "total_trips": 1402,
-      "year": 2018
-    },
-    {
-      "end_trips": 640,
-      "start_trips": 738,
-      "station": "Roxbury YMCA - Warren St at MLK Blvd",
-      "total_trips": 1378,
       "year": 2018
     },
     {
@@ -8888,17 +12753,17 @@
       "year": 2018
     },
     {
-      "end_trips": 623,
-      "start_trips": 649,
-      "station": "Coolidge Corner - Beacon St @ Centre St",
-      "total_trips": 1272,
-      "year": 2018
-    },
-    {
       "end_trips": 624,
       "start_trips": 648,
       "station": "Tremont St at Northampton St",
       "total_trips": 1272,
+      "year": 2018
+    },
+    {
+      "end_trips": 575,
+      "start_trips": 654,
+      "station": "Franklin Park Zoo - Franklin Park Rd at Blue Hill Ave",
+      "total_trips": 1229,
       "year": 2018
     },
     {
@@ -8909,17 +12774,24 @@
       "year": 2018
     },
     {
-      "end_trips": 555,
-      "start_trips": 633,
-      "station": "Franklin Park Zoo - Franklin Park Rd at Blue Hill Ave",
-      "total_trips": 1188,
-      "year": 2018
-    },
-    {
       "end_trips": 592,
       "start_trips": 589,
       "station": "Boylston St at Jersey St (former)",
       "total_trips": 1181,
+      "year": 2018
+    },
+    {
+      "end_trips": 564,
+      "start_trips": 610,
+      "station": "Bowdoin St at Quincy St",
+      "total_trips": 1174,
+      "year": 2018
+    },
+    {
+      "end_trips": 500,
+      "start_trips": 666,
+      "station": "NCAAA - Walnut Ave at Crawford St",
+      "total_trips": 1166,
       "year": 2018
     },
     {
@@ -8930,10 +12802,10 @@
       "year": 2018
     },
     {
-      "end_trips": 542,
-      "start_trips": 569,
-      "station": "Bowdoin St at Quincy St",
-      "total_trips": 1111,
+      "end_trips": 546,
+      "start_trips": 576,
+      "station": "Brian P. Murphy Staircase at Child Street",
+      "total_trips": 1122,
       "year": 2018
     },
     {
@@ -8944,17 +12816,17 @@
       "year": 2018
     },
     {
-      "end_trips": 454,
-      "start_trips": 598,
-      "station": "NCAAA - Walnut Ave at Crawford St",
-      "total_trips": 1052,
-      "year": 2018
-    },
-    {
       "end_trips": 514,
       "start_trips": 535,
       "station": "Walnut Ave at Warren St",
       "total_trips": 1049,
+      "year": 2018
+    },
+    {
+      "end_trips": 513,
+      "start_trips": 511,
+      "station": "Chelsea St at Saratoga St",
+      "total_trips": 1024,
       "year": 2018
     },
     {
@@ -8965,10 +12837,10 @@
       "year": 2018
     },
     {
-      "end_trips": 429,
-      "start_trips": 517,
+      "end_trips": 444,
+      "start_trips": 538,
       "station": "Franklin Park - Seaver St at Humbolt Ave",
-      "total_trips": 946,
+      "total_trips": 982,
       "year": 2018
     },
     {
@@ -8976,20 +12848,6 @@
       "start_trips": 479,
       "station": "Dudley Town Common - Mt Pleasant Ave at Blue Hill Ave",
       "total_trips": 945,
-      "year": 2018
-    },
-    {
-      "end_trips": 456,
-      "start_trips": 467,
-      "station": "Commonwealth Ave at Buick St",
-      "total_trips": 923,
-      "year": 2018
-    },
-    {
-      "end_trips": 462,
-      "start_trips": 455,
-      "station": "Chelsea St at Saratoga St",
-      "total_trips": 917,
       "year": 2018
     },
     {
@@ -9007,6 +12865,20 @@
       "year": 2018
     },
     {
+      "end_trips": 707,
+      "start_trips": 157,
+      "station": "18 Dorrance Warehouse",
+      "total_trips": 864,
+      "year": 2018
+    },
+    {
+      "end_trips": 433,
+      "start_trips": 424,
+      "station": "Bennington St at Byron St",
+      "total_trips": 857,
+      "year": 2018
+    },
+    {
       "end_trips": 391,
       "start_trips": 453,
       "station": "One Brigham Circle",
@@ -9021,24 +12893,10 @@
       "year": 2018
     },
     {
-      "end_trips": 417,
-      "start_trips": 413,
-      "station": "Bennington St at Byron St",
-      "total_trips": 830,
-      "year": 2018
-    },
-    {
       "end_trips": 419,
       "start_trips": 400,
       "station": "Park Plaza at Charles St (former)",
       "total_trips": 819,
-      "year": 2018
-    },
-    {
-      "end_trips": 641,
-      "start_trips": 140,
-      "station": "18 Dorrance Warehouse",
-      "total_trips": 781,
       "year": 2018
     },
     {
@@ -9063,17 +12921,38 @@
       "year": 2018
     },
     {
-      "end_trips": 368,
-      "start_trips": 382,
+      "end_trips": 376,
+      "start_trips": 388,
       "station": "Columbia Rd at Ceylon St",
-      "total_trips": 750,
+      "total_trips": 764,
       "year": 2018
     },
     {
-      "end_trips": 345,
-      "start_trips": 401,
+      "end_trips": 348,
+      "start_trips": 407,
       "station": "Four Corners - 157 Washington St",
-      "total_trips": 746,
+      "total_trips": 755,
+      "year": 2018
+    },
+    {
+      "end_trips": 336,
+      "start_trips": 367,
+      "station": "Grove Hall Library - 41 Geneva Ave",
+      "total_trips": 703,
+      "year": 2018
+    },
+    {
+      "end_trips": 340,
+      "start_trips": 354,
+      "station": "Huron Ave. At Vassal Lane",
+      "total_trips": 694,
+      "year": 2018
+    },
+    {
+      "end_trips": 286,
+      "start_trips": 398,
+      "station": "Washington Square at Washington St. / Beacon St. TEMPORARY WINTER LOCATION",
+      "total_trips": 684,
       "year": 2018
     },
     {
@@ -9088,13 +12967,6 @@
       "start_trips": 326,
       "station": "Cleveland Circle",
       "total_trips": 646,
-      "year": 2018
-    },
-    {
-      "end_trips": 313,
-      "start_trips": 332,
-      "station": "Grove Hall Library - 41 Geneva Ave",
-      "total_trips": 645,
       "year": 2018
     },
     {
@@ -9151,6 +13023,13 @@
       "start_trips": 311,
       "station": "Broadway T Stop (former)",
       "total_trips": 612,
+      "year": 2018
+    },
+    {
+      "end_trips": 309,
+      "start_trips": 293,
+      "station": "Brookline Village - Station Street @ MBTA TEMPORARY WINTER LOCATION",
+      "total_trips": 602,
       "year": 2018
     },
     {
@@ -9231,10 +13110,10 @@
       "year": 2018
     },
     {
-      "end_trips": 224,
-      "start_trips": 228,
-      "station": "Congress St at North St",
-      "total_trips": 452,
+      "end_trips": 199,
+      "start_trips": 256,
+      "station": "Upham's Corner TEMPORARY WINTER LOCATION",
+      "total_trips": 455,
       "year": 2018
     },
     {
@@ -9301,13 +13180,6 @@
       "year": 2018
     },
     {
-      "end_trips": 174,
-      "start_trips": 196,
-      "station": "Brian P. Murphy Staircase at Child Street",
-      "total_trips": 370,
-      "year": 2018
-    },
-    {
       "end_trips": 158,
       "start_trips": 170,
       "station": "30 Dane St. (former)",
@@ -9324,14 +13196,14 @@
     {
       "end_trips": 132,
       "start_trips": 135,
-      "station": "Cleveland Circle (former)",
+      "station": "Faneuil St at Arlington St (former)",
       "total_trips": 267,
       "year": 2018
     },
     {
       "end_trips": 132,
       "start_trips": 135,
-      "station": "Faneuil St at Arlington St (former)",
+      "station": "Cleveland Circle (former)",
       "total_trips": 267,
       "year": 2018
     },
@@ -9340,13 +13212,6 @@
       "start_trips": 112,
       "station": "Vassal Lane at Tobin/VLUS",
       "total_trips": 258,
-      "year": 2018
-    },
-    {
-      "end_trips": 113,
-      "start_trips": 126,
-      "station": "Huron Ave. At Vassal Lane",
-      "total_trips": 239,
       "year": 2018
     },
     {
@@ -9399,13 +13264,6 @@
       "year": 2018
     },
     {
-      "end_trips": 83,
-      "start_trips": 82,
-      "station": "Bartlett St at John Elliot Sq",
-      "total_trips": 165,
-      "year": 2018
-    },
-    {
       "end_trips": 85,
       "start_trips": 80,
       "station": "Mattapan T Stop",
@@ -9416,6 +13274,13 @@
       "end_trips": 80,
       "start_trips": 85,
       "station": "Honan Library",
+      "total_trips": 165,
+      "year": 2018
+    },
+    {
+      "end_trips": 83,
+      "start_trips": 82,
+      "station": "Bartlett St at John Elliot Sq",
       "total_trips": 165,
       "year": 2018
     },
@@ -9497,6 +13362,13 @@
       "year": 2018
     },
     {
+      "end_trips": 54,
+      "start_trips": 34,
+      "station": "Central Square - East Boston",
+      "total_trips": 88,
+      "year": 2018
+    },
+    {
       "end_trips": 41,
       "start_trips": 44,
       "station": "Park St at Norwell St",
@@ -9563,13 +13435,6 @@
       "end_trips": 21,
       "start_trips": 21,
       "station": "BCBS Quincy",
-      "total_trips": 42,
-      "year": 2018
-    },
-    {
-      "end_trips": 25,
-      "start_trips": 17,
-      "station": "Central Square - East Boston",
       "total_trips": 42,
       "year": 2018
     },
@@ -9655,6 +13520,13 @@
       "start_trips": 0,
       "station": "8D QC Station 02",
       "total_trips": 2,
+      "year": 2018
+    },
+    {
+      "end_trips": 1,
+      "start_trips": 0,
+      "station": "Lab PBSC",
+      "total_trips": 1,
       "year": 2018
     },
     {
@@ -11275,16 +15147,16 @@
       "year": 2019
     },
     {
-      "end_trips": 2131,
-      "start_trips": 2185,
-      "station": "Boylston St at Dartmouth St FORMER",
+      "end_trips": 2188,
+      "start_trips": 2128,
+      "station": "Hayes Square - Vine St at Moulton St",
       "total_trips": 4316,
       "year": 2019
     },
     {
-      "end_trips": 2188,
-      "start_trips": 2128,
-      "station": "Hayes Square - Vine St at Moulton St",
+      "end_trips": 2131,
+      "start_trips": 2185,
+      "station": "Boylston St at Dartmouth St FORMER",
       "total_trips": 4316,
       "year": 2019
     },
@@ -11807,16 +15679,16 @@
       "year": 2019
     },
     {
-      "end_trips": 436,
-      "start_trips": 433,
-      "station": "Belgrade Ave at Walworth St",
+      "end_trips": 441,
+      "start_trips": 428,
+      "station": "Central Square East Boston",
       "total_trips": 869,
       "year": 2019
     },
     {
-      "end_trips": 441,
-      "start_trips": 428,
-      "station": "Central Square East Boston",
+      "end_trips": 436,
+      "start_trips": 433,
+      "station": "Belgrade Ave at Walworth St",
       "total_trips": 869,
       "year": 2019
     },
@@ -11989,16 +15861,16 @@
       "year": 2019
     },
     {
-      "end_trips": 229,
-      "start_trips": 202,
-      "station": "Whittier St Health Center",
+      "end_trips": 239,
+      "start_trips": 192,
+      "station": "7 Acre Park",
       "total_trips": 431,
       "year": 2019
     },
     {
-      "end_trips": 239,
-      "start_trips": 192,
-      "station": "7 Acre Park",
+      "end_trips": 229,
+      "start_trips": 202,
+      "station": "Whittier St Health Center",
       "total_trips": 431,
       "year": 2019
     },
@@ -12192,20 +16064,6 @@
       "year": 2019
     },
     {
-      "end_trips": 0,
-      "start_trips": 1,
-      "station": "MTL-ECO5.1-01",
-      "total_trips": 1,
-      "year": 2019
-    },
-    {
-      "end_trips": 0,
-      "start_trips": 1,
-      "station": "8D QC Station 01",
-      "total_trips": 1,
-      "year": 2019
-    },
-    {
       "end_trips": 1,
       "start_trips": 0,
       "station": "8D QC Station 02",
@@ -12213,9 +16071,23 @@
       "year": 2019
     },
     {
+      "end_trips": 0,
+      "start_trips": 1,
+      "station": "MTL-ECO5.1-01",
+      "total_trips": 1,
+      "year": 2019
+    },
+    {
       "end_trips": 1,
       "start_trips": 0,
       "station": "Warehouse Lab PBSC",
+      "total_trips": 1,
+      "year": 2019
+    },
+    {
+      "end_trips": 0,
+      "start_trips": 1,
+      "station": "8D QC Station 01",
       "total_trips": 1,
       "year": 2019
     },
@@ -14782,16 +18654,16 @@
       "year": 2020
     },
     {
-      "end_trips": 99,
-      "start_trips": 94,
-      "station": "Nonantum Library",
+      "end_trips": 93,
+      "start_trips": 100,
+      "station": "Marion St at White St",
       "total_trips": 193,
       "year": 2020
     },
     {
-      "end_trips": 93,
-      "start_trips": 100,
-      "station": "Marion St at White St",
+      "end_trips": 99,
+      "start_trips": 94,
+      "station": "Nonantum Library",
       "total_trips": 193,
       "year": 2020
     },
@@ -14929,16 +18801,16 @@
       "year": 2020
     },
     {
-      "end_trips": 12,
-      "start_trips": 18,
-      "station": "Broadway Opposite Norwood Ave  (Temp Winter Station)",
+      "end_trips": 18,
+      "start_trips": 12,
+      "station": "Revere Public Library",
       "total_trips": 30,
       "year": 2020
     },
     {
-      "end_trips": 18,
-      "start_trips": 12,
-      "station": "Revere Public Library",
+      "end_trips": 12,
+      "start_trips": 18,
+      "station": "Broadway Opposite Norwood Ave  (Temp Winter Station)",
       "total_trips": 30,
       "year": 2020
     },
@@ -17491,16 +21363,16 @@
       "year": 2021
     },
     {
-      "end_trips": 454,
-      "start_trips": 399,
-      "station": "Glendon St at Condor St",
+      "end_trips": 440,
+      "start_trips": 413,
+      "station": "Kearins Playground",
       "total_trips": 853,
       "year": 2021
     },
     {
-      "end_trips": 440,
-      "start_trips": 413,
-      "station": "Kearins Playground",
+      "end_trips": 454,
+      "start_trips": 399,
+      "station": "Glendon St at Condor St",
       "total_trips": 853,
       "year": 2021
     },
@@ -20746,16 +24618,16 @@
       "year": 2022
     },
     {
-      "end_trips": 506,
-      "start_trips": 476,
-      "station": "Tufts Sq - Main St at Medford St",
+      "end_trips": 477,
+      "start_trips": 505,
+      "station": "Swan St. Park",
       "total_trips": 982,
       "year": 2022
     },
     {
-      "end_trips": 477,
-      "start_trips": 505,
-      "station": "Swan St. Park",
+      "end_trips": 506,
+      "start_trips": 476,
+      "station": "Tufts Sq - Main St at Medford St",
       "total_trips": 982,
       "year": 2022
     },
@@ -20956,16 +24828,16 @@
       "year": 2022
     },
     {
-      "end_trips": 313,
-      "start_trips": 266,
-      "station": "Park St at Norwell St",
+      "end_trips": 267,
+      "start_trips": 312,
+      "station": "Forest River Park",
       "total_trips": 579,
       "year": 2022
     },
     {
-      "end_trips": 267,
-      "start_trips": 312,
-      "station": "Forest River Park",
+      "end_trips": 313,
+      "start_trips": 266,
+      "station": "Park St at Norwell St",
       "total_trips": 579,
       "year": 2022
     },
@@ -23308,16 +27180,16 @@
       "year": 2023
     },
     {
-      "end_trips": 2112,
-      "start_trips": 2484,
-      "station": "Boston College T",
+      "end_trips": 2238,
+      "start_trips": 2358,
+      "station": "84 Cambridgepark Dr",
       "total_trips": 4596,
       "year": 2023
     },
     {
-      "end_trips": 2238,
-      "start_trips": 2358,
-      "station": "84 Cambridgepark Dr",
+      "end_trips": 2112,
+      "start_trips": 2484,
+      "station": "Boston College T",
       "total_trips": 4596,
       "year": 2023
     },
@@ -23497,16 +27369,16 @@
       "year": 2023
     },
     {
-      "end_trips": 1668,
-      "start_trips": 1592,
-      "station": "Encore",
+      "end_trips": 1669,
+      "start_trips": 1591,
+      "station": "Tufts Sq - Main St at Medford St",
       "total_trips": 3260,
       "year": 2023
     },
     {
-      "end_trips": 1669,
-      "start_trips": 1591,
-      "station": "Tufts Sq - Main St at Medford St",
+      "end_trips": 1668,
+      "start_trips": 1592,
+      "station": "Encore",
       "total_trips": 3260,
       "year": 2023
     },
@@ -24071,16 +27943,16 @@
       "year": 2023
     },
     {
-      "end_trips": 572,
-      "start_trips": 513,
-      "station": "Central Ave at River St",
+      "end_trips": 552,
+      "start_trips": 533,
+      "station": "855 Broadway",
       "total_trips": 1085,
       "year": 2023
     },
     {
-      "end_trips": 552,
-      "start_trips": 533,
-      "station": "855 Broadway",
+      "end_trips": 572,
+      "start_trips": 513,
+      "station": "Central Ave at River St",
       "total_trips": 1085,
       "year": 2023
     },
@@ -24687,13 +28559,6 @@
       "year": 2023
     },
     {
-      "end_trips": 11,
-      "start_trips": 9,
-      "station": "Everett Square (Broadway at Norwood St)",
-      "total_trips": 20,
-      "year": 2023
-    },
-    {
       "end_trips": 10,
       "start_trips": 10,
       "station": "BCBS Hingham",
@@ -24704,6 +28569,13 @@
       "end_trips": 9,
       "start_trips": 11,
       "station": "BCBS Quincy",
+      "total_trips": 20,
+      "year": 2023
+    },
+    {
+      "end_trips": 11,
+      "start_trips": 9,
+      "station": "Everett Square (Broadway at Norwood St)",
       "total_trips": 20,
       "year": 2023
     },
@@ -27123,16 +30995,16 @@
       "year": 2024
     },
     {
-      "end_trips": 2006,
-      "start_trips": 2800,
-      "station": "NCAAA - Walnut Ave at Crawford St",
+      "end_trips": 2387,
+      "start_trips": 2419,
+      "station": "High St at Federal St",
       "total_trips": 4806,
       "year": 2024
     },
     {
-      "end_trips": 2387,
-      "start_trips": 2419,
-      "station": "High St at Federal St",
+      "end_trips": 2006,
+      "start_trips": 2800,
+      "station": "NCAAA - Walnut Ave at Crawford St",
       "total_trips": 4806,
       "year": 2024
     },
@@ -30364,16 +34236,16 @@
       "year": 2025
     },
     {
-      "end_trips": 5142,
-      "start_trips": 5973,
-      "station": "Beacon St at Tappan St",
+      "end_trips": 5554,
+      "start_trips": 5561,
+      "station": "JFK Crossing at Harvard St. / Thorndike St.",
       "total_trips": 11115,
       "year": 2025
     },
     {
-      "end_trips": 5554,
-      "start_trips": 5561,
-      "station": "JFK Crossing at Harvard St. / Thorndike St.",
+      "end_trips": 5142,
+      "start_trips": 5973,
+      "station": "Beacon St at Tappan St",
       "total_trips": 11115,
       "year": 2025
     },
@@ -31393,16 +35265,16 @@
       "year": 2025
     },
     {
-      "end_trips": 1870,
-      "start_trips": 2083,
-      "station": "Bennington St at Byron St",
+      "end_trips": 2115,
+      "start_trips": 1838,
+      "station": "Chelsea Station",
       "total_trips": 3953,
       "year": 2025
     },
     {
-      "end_trips": 2115,
-      "start_trips": 1838,
-      "station": "Chelsea Station",
+      "end_trips": 1870,
+      "start_trips": 2083,
+      "station": "Bennington St at Byron St",
       "total_trips": 3953,
       "year": 2025
     },
@@ -31722,16 +35594,16 @@
       "year": 2025
     },
     {
-      "end_trips": 1284,
-      "start_trips": 1220,
-      "station": "Faneuil St at Bothwell Rd",
+      "end_trips": 1219,
+      "start_trips": 1285,
+      "station": "Circuit Drive at American Legion Hwy",
       "total_trips": 2504,
       "year": 2025
     },
     {
-      "end_trips": 1219,
-      "start_trips": 1285,
-      "station": "Circuit Drive at American Legion Hwy",
+      "end_trips": 1284,
+      "start_trips": 1220,
+      "station": "Faneuil St at Bothwell Rd",
       "total_trips": 2504,
       "year": 2025
     },
@@ -32086,16 +35958,16 @@
       "year": 2025
     },
     {
-      "end_trips": 823,
-      "start_trips": 771,
-      "station": "Pope John High School",
+      "end_trips": 741,
+      "start_trips": 853,
+      "station": "Cambridge St at Warren St",
       "total_trips": 1594,
       "year": 2025
     },
     {
-      "end_trips": 741,
-      "start_trips": 853,
-      "station": "Cambridge St at Warren St",
+      "end_trips": 823,
+      "start_trips": 771,
+      "station": "Pope John High School",
       "total_trips": 1594,
       "year": 2025
     },
@@ -32478,16 +36350,16 @@
       "year": 2025
     },
     {
-      "end_trips": 461,
-      "start_trips": 423,
-      "station": "Centre St at Commonwealth Ave",
+      "end_trips": 367,
+      "start_trips": 517,
+      "station": "Chestnut Hill Ave at Winship St ",
       "total_trips": 884,
       "year": 2025
     },
     {
-      "end_trips": 367,
-      "start_trips": 517,
-      "station": "Chestnut Hill Ave at Winship St ",
+      "end_trips": 461,
+      "start_trips": 423,
+      "station": "Centre St at Commonwealth Ave",
       "total_trips": 884,
       "year": 2025
     },
@@ -32835,16 +36707,16 @@
       "year": 2025
     },
     {
-      "end_trips": 2,
-      "start_trips": 3,
-      "station": "Blossom St at Charles St 1 1 1",
+      "end_trips": 3,
+      "start_trips": 2,
+      "station": "Elm St at White St (Temporary Winter Location)",
       "total_trips": 5,
       "year": 2025
     },
     {
-      "end_trips": 3,
-      "start_trips": 2,
-      "station": "Elm St at White St (Temporary Winter Location)",
+      "end_trips": 2,
+      "start_trips": 3,
+      "station": "Blossom St at Charles St 1 1 1",
       "total_trips": 5,
       "year": 2025
     },
@@ -34662,16 +38534,16 @@
       "year": 2026
     },
     {
-      "end_trips": 1768,
-      "start_trips": 1734,
-      "station": "Western Ave at Leo Birmingham Pkwy",
+      "end_trips": 1785,
+      "start_trips": 1717,
+      "station": "Chelsea St at Medford St",
       "total_trips": 3502,
       "year": 2026
     },
     {
-      "end_trips": 1785,
-      "start_trips": 1717,
-      "station": "Chelsea St at Medford St",
+      "end_trips": 1768,
+      "start_trips": 1734,
+      "station": "Western Ave at Leo Birmingham Pkwy",
       "total_trips": 3502,
       "year": 2026
     },
@@ -34690,16 +38562,16 @@
       "year": 2026
     },
     {
-      "end_trips": 1451,
-      "start_trips": 1964,
-      "station": "Bunker Hill Community College",
+      "end_trips": 1645,
+      "start_trips": 1770,
+      "station": "Teele Square",
       "total_trips": 3415,
       "year": 2026
     },
     {
-      "end_trips": 1645,
-      "start_trips": 1770,
-      "station": "Teele Square",
+      "end_trips": 1451,
+      "start_trips": 1964,
+      "station": "Bunker Hill Community College",
       "total_trips": 3415,
       "year": 2026
     },
@@ -35453,16 +39325,16 @@
       "year": 2026
     },
     {
-      "end_trips": 774,
-      "start_trips": 907,
-      "station": "Bartlett St at John Elliot Sq",
+      "end_trips": 857,
+      "start_trips": 824,
+      "station": "Fields Corner T Stop",
       "total_trips": 1681,
       "year": 2026
     },
     {
-      "end_trips": 857,
-      "start_trips": 824,
-      "station": "Fields Corner T Stop",
+      "end_trips": 774,
+      "start_trips": 907,
+      "station": "Bartlett St at John Elliot Sq",
       "total_trips": 1681,
       "year": 2026
     },
@@ -35642,16 +39514,16 @@
       "year": 2026
     },
     {
-      "end_trips": 665,
-      "start_trips": 688,
-      "station": "Lewis Mall Wharf",
+      "end_trips": 650,
+      "start_trips": 703,
+      "station": "Bennington St at Byron St",
       "total_trips": 1353,
       "year": 2026
     },
     {
-      "end_trips": 650,
-      "start_trips": 703,
-      "station": "Bennington St at Byron St",
+      "end_trips": 665,
+      "start_trips": 688,
+      "station": "Lewis Mall Wharf",
       "total_trips": 1353,
       "year": 2026
     },
@@ -35726,16 +39598,16 @@
       "year": 2026
     },
     {
-      "end_trips": 640,
-      "start_trips": 591,
-      "station": "West Medford Square (Bower St at Harvard Ave)",
+      "end_trips": 613,
+      "start_trips": 618,
+      "station": "Gove St at Orleans St",
       "total_trips": 1231,
       "year": 2026
     },
     {
-      "end_trips": 613,
-      "start_trips": 618,
-      "station": "Gove St at Orleans St",
+      "end_trips": 640,
+      "start_trips": 591,
+      "station": "West Medford Square (Bower St at Harvard Ave)",
       "total_trips": 1231,
       "year": 2026
     },
@@ -35950,16 +39822,16 @@
       "year": 2026
     },
     {
-      "end_trips": 487,
-      "start_trips": 431,
-      "station": "Day Sq",
+      "end_trips": 443,
+      "start_trips": 475,
+      "station": "Middlesex Ave at Foley St",
       "total_trips": 918,
       "year": 2026
     },
     {
-      "end_trips": 443,
-      "start_trips": 475,
-      "station": "Middlesex Ave at Foley St",
+      "end_trips": 487,
+      "start_trips": 431,
+      "station": "Day Sq",
       "total_trips": 918,
       "year": 2026
     },
@@ -36027,13 +39899,6 @@
       "year": 2026
     },
     {
-      "end_trips": 422,
-      "start_trips": 418,
-      "station": "Chelsea St at Vine St",
-      "total_trips": 840,
-      "year": 2026
-    },
-    {
       "end_trips": 416,
       "start_trips": 424,
       "station": "Uphams Corner",
@@ -36041,16 +39906,23 @@
       "year": 2026
     },
     {
-      "end_trips": 443,
-      "start_trips": 392,
-      "station": "Kierstead Park ",
-      "total_trips": 835,
+      "end_trips": 422,
+      "start_trips": 418,
+      "station": "Chelsea St at Vine St",
+      "total_trips": 840,
       "year": 2026
     },
     {
       "end_trips": 423,
       "start_trips": 412,
       "station": "Wood Island T Stop - Vienna St at Bennington St",
+      "total_trips": 835,
+      "year": 2026
+    },
+    {
+      "end_trips": 443,
+      "start_trips": 392,
+      "station": "Kierstead Park ",
       "total_trips": 835,
       "year": 2026
     },
@@ -36307,16 +40179,16 @@
       "year": 2026
     },
     {
-      "end_trips": 292,
-      "start_trips": 291,
-      "station": "Central Ave at River St",
+      "end_trips": 247,
+      "start_trips": 336,
+      "station": "Au Bon Pain Way at Fid Kennedy Ave",
       "total_trips": 583,
       "year": 2026
     },
     {
-      "end_trips": 247,
-      "start_trips": 336,
-      "station": "Au Bon Pain Way at Fid Kennedy Ave",
+      "end_trips": 292,
+      "start_trips": 291,
+      "station": "Central Ave at River St",
       "total_trips": 583,
       "year": 2026
     },
@@ -36384,16 +40256,16 @@
       "year": 2026
     },
     {
-      "end_trips": 274,
-      "start_trips": 263,
-      "station": "Washington St at Walnut St",
+      "end_trips": 290,
+      "start_trips": 247,
+      "station": "Gallivan Blvd at Adams St",
       "total_trips": 537,
       "year": 2026
     },
     {
-      "end_trips": 290,
-      "start_trips": 247,
-      "station": "Gallivan Blvd at Adams St",
+      "end_trips": 274,
+      "start_trips": 263,
+      "station": "Washington St at Walnut St",
       "total_trips": 537,
       "year": 2026
     },
@@ -36708,14 +40580,14 @@
     {
       "end_trips": 163,
       "start_trips": 156,
-      "station": "Blue Hill Ave at Havelock St",
+      "station": "Talbot Ave At Blue Hill Ave",
       "total_trips": 319,
       "year": 2026
     },
     {
       "end_trips": 163,
       "start_trips": 156,
-      "station": "Talbot Ave At Blue Hill Ave",
+      "station": "Blue Hill Ave at Havelock St",
       "total_trips": 319,
       "year": 2026
     },
@@ -36734,16 +40606,16 @@
       "year": 2026
     },
     {
-      "end_trips": 164,
-      "start_trips": 151,
-      "station": "Swan St. Park",
+      "end_trips": 154,
+      "start_trips": 161,
+      "station": "555 Metropolitan Ave",
       "total_trips": 315,
       "year": 2026
     },
     {
-      "end_trips": 154,
-      "start_trips": 161,
-      "station": "555 Metropolitan Ave",
+      "end_trips": 164,
+      "start_trips": 151,
+      "station": "Swan St. Park",
       "total_trips": 315,
       "year": 2026
     },
@@ -36881,16 +40753,16 @@
       "year": 2026
     },
     {
-      "end_trips": 99,
-      "start_trips": 108,
-      "station": "Forest River Park",
+      "end_trips": 113,
+      "start_trips": 94,
+      "station": "Cary Square",
       "total_trips": 207,
       "year": 2026
     },
     {
-      "end_trips": 113,
-      "start_trips": 94,
-      "station": "Cary Square",
+      "end_trips": 99,
+      "start_trips": 108,
+      "station": "Forest River Park",
       "total_trips": 207,
       "year": 2026
     },
@@ -37016,14 +40888,14 @@
     {
       "end_trips": 49,
       "start_trips": 53,
-      "station": "Hyde Park Library",
+      "station": "Fairmount St at Washington St",
       "total_trips": 102,
       "year": 2026
     },
     {
       "end_trips": 49,
       "start_trips": 53,
-      "station": "Fairmount St at Washington St",
+      "station": "Hyde Park Library",
       "total_trips": 102,
       "year": 2026
     },
@@ -37120,6 +40992,181 @@
     }
   ],
   "volume_by_month": [
+    {
+      "month": 7,
+      "trips": 2729,
+      "year": 2011
+    },
+    {
+      "month": 8,
+      "trips": 36233,
+      "year": 2011
+    },
+    {
+      "month": 9,
+      "trips": 40810,
+      "year": 2011
+    },
+    {
+      "month": 10,
+      "trips": 36326,
+      "year": 2011
+    },
+    {
+      "month": 11,
+      "trips": 24876,
+      "year": 2011
+    },
+    {
+      "month": 3,
+      "trips": 14284,
+      "year": 2012
+    },
+    {
+      "month": 4,
+      "trips": 44142,
+      "year": 2012
+    },
+    {
+      "month": 5,
+      "trips": 53480,
+      "year": 2012
+    },
+    {
+      "month": 6,
+      "trips": 55636,
+      "year": 2012
+    },
+    {
+      "month": 7,
+      "trips": 70080,
+      "year": 2012
+    },
+    {
+      "month": 8,
+      "trips": 84842,
+      "year": 2012
+    },
+    {
+      "month": 9,
+      "trips": 83643,
+      "year": 2012
+    },
+    {
+      "month": 10,
+      "trips": 76868,
+      "year": 2012
+    },
+    {
+      "month": 11,
+      "trips": 47399,
+      "year": 2012
+    },
+    {
+      "month": 4,
+      "trips": 63432,
+      "year": 2013
+    },
+    {
+      "month": 5,
+      "trips": 97682,
+      "year": 2013
+    },
+    {
+      "month": 6,
+      "trips": 108666,
+      "year": 2013
+    },
+    {
+      "month": 7,
+      "trips": 131259,
+      "year": 2013
+    },
+    {
+      "month": 8,
+      "trips": 147776,
+      "year": 2013
+    },
+    {
+      "month": 9,
+      "trips": 139228,
+      "year": 2013
+    },
+    {
+      "month": 10,
+      "trips": 138304,
+      "year": 2013
+    },
+    {
+      "month": 11,
+      "trips": 72378,
+      "year": 2013
+    },
+    {
+      "month": 12,
+      "trips": 8151,
+      "year": 2013
+    },
+    {
+      "month": 1,
+      "trips": 6577,
+      "year": 2014
+    },
+    {
+      "month": 2,
+      "trips": 6967,
+      "year": 2014
+    },
+    {
+      "month": 3,
+      "trips": 11261,
+      "year": 2014
+    },
+    {
+      "month": 4,
+      "trips": 90942,
+      "year": 2014
+    },
+    {
+      "month": 5,
+      "trips": 141829,
+      "year": 2014
+    },
+    {
+      "month": 6,
+      "trips": 159897,
+      "year": 2014
+    },
+    {
+      "month": 7,
+      "trips": 173486,
+      "year": 2014
+    },
+    {
+      "month": 8,
+      "trips": 174668,
+      "year": 2014
+    },
+    {
+      "month": 9,
+      "trips": 169637,
+      "year": 2014
+    },
+    {
+      "month": 10,
+      "trips": 137732,
+      "year": 2014
+    },
+    {
+      "month": 11,
+      "trips": 77148,
+      "year": 2014
+    },
+    {
+      "month": 12,
+      "trips": 34570,
+      "year": 2014
+    },
     {
       "month": 1,
       "trips": 7840,
@@ -37299,6 +41346,21 @@
       "month": 12,
       "trips": 55072,
       "year": 2017
+    },
+    {
+      "month": 1,
+      "trips": 40932,
+      "year": 2018
+    },
+    {
+      "month": 2,
+      "trips": 62817,
+      "year": 2018
+    },
+    {
+      "month": 3,
+      "trips": 62985,
+      "year": 2018
     },
     {
       "month": 4,

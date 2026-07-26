@@ -1,5 +1,8 @@
 name: taipei
 system_name: taipei_bikeshare
+
+# Taipei YouBike 1.0 trip data is not available, but yearly trip data is provided by: https://ws.dgbas.gov.tw/001/Upload/463/relfile/10315/2139/f68e9bfd-0a96-4c5f-a268-98e9def603cf.pdf
+
 source_url: "https://data.gov.tw/dataset/150635"
 
 # DATA COVERAGE — asymmetric origin/destination scope (verified 2026-02 data + raw source):

@@ -43,8 +43,8 @@
   },
   {
     "name": "175 N Harvard St",
-    "lat": 42.364023,
-    "lng": -71.128912,
+    "lat": 42.364021,
+    "lng": -71.128914,
     "first_seen": "2016-12-01",
     "last_seen": "2026-05-31",
     "aliases": []
@@ -337,8 +337,8 @@
   },
   {
     "name": "Airport T Stop - Bremen St at Brooks St",
-    "lat": 42.375168,
-    "lng": -71.031553,
+    "lat": 42.375166,
+    "lng": -71.031555,
     "first_seen": "2016-09-28",
     "last_seen": "2026-05-31",
     "aliases": []
@@ -461,15 +461,15 @@
   {
     "name": "Aquarium T Stop - 200 Atlantic Ave",
     "lat": 42.359976,
-    "lng": -71.051318,
+    "lng": -71.051319,
     "first_seen": "2016-12-01",
     "last_seen": "2026-05-31",
     "aliases": []
   },
   {
     "name": "Arch St at Franklin St",
-    "lat": 42.355337,
-    "lng": -71.05824,
+    "lat": 42.355344,
+    "lng": -71.058249,
     "first_seen": "2017-04-02",
     "last_seen": "2026-05-31",
     "aliases": []
@@ -593,7 +593,7 @@
   {
     "name": "Back Bay T Stop - Dartmouth St at Stuart St",
     "lat": 42.348072,
-    "lng": -71.076571,
+    "lng": -71.07657,
     "first_seen": "2015-01-02",
     "last_seen": "2026-05-31",
     "aliases": [
@@ -1068,8 +1068,8 @@
   },
   {
     "name": "Brian P. Murphy Staircase at Child Street",
-    "lat": 42.372027,
-    "lng": -71.072054,
+    "lat": 42.37203,
+    "lng": -71.072052,
     "first_seen": "2016-06-30",
     "last_seen": "2018-04-30",
     "aliases": []
@@ -1349,7 +1349,7 @@
   {
     "name": "Cambridge St at Joy St",
     "lat": 42.361255,
-    "lng": -71.065284,
+    "lng": -71.065283,
     "first_seen": "2016-12-01",
     "last_seen": "2026-05-31",
     "aliases": []
@@ -1372,8 +1372,8 @@
   },
   {
     "name": "CambridgeSide Galleria - CambridgeSide PL at Land Blvd",
-    "lat": 42.36701,
-    "lng": -71.07657,
+    "lat": 42.367009,
+    "lng": -71.076569,
     "first_seen": "2015-01-01",
     "last_seen": "2024-09-20",
     "aliases": []
@@ -1444,8 +1444,8 @@
   },
   {
     "name": "Central Square - East Boston",
-    "lat": 42.374254,
-    "lng": -71.038243,
+    "lat": 42.37421,
+    "lng": -71.038372,
     "first_seen": "2016-12-01",
     "last_seen": "2018-04-30",
     "aliases": []
@@ -1545,7 +1545,7 @@
     "lat": 42.360758,
     "lng": -71.071329,
     "first_seen": "2017-12-01",
-    "last_seen": "2017-12-31",
+    "last_seen": "2018-03-31",
     "aliases": []
   },
   {
@@ -1691,7 +1691,7 @@
   {
     "name": "Chinatown Gate Plaza",
     "lat": 42.351358,
-    "lng": -71.059368,
+    "lng": -71.059367,
     "first_seen": "2015-01-09",
     "last_seen": "2026-05-31",
     "aliases": [
@@ -1899,8 +1899,8 @@
   },
   {
     "name": "Commonwealth Ave at Buick St",
-    "lat": 42.351013,
-    "lng": -71.11461,
+    "lat": 42.350976,
+    "lng": -71.114447,
     "first_seen": "2016-12-01",
     "last_seen": "2018-04-30",
     "aliases": []
@@ -2033,8 +2033,8 @@
   },
   {
     "name": "Congress St at North St",
-    "lat": 42.360541,
-    "lng": -71.057555,
+    "lat": 42.360546,
+    "lng": -71.057548,
     "first_seen": "2016-12-01",
     "last_seen": "2019-11-30",
     "aliases": []
@@ -2065,8 +2065,8 @@
   },
   {
     "name": "Conway Park - Somerville Avenue",
-    "lat": 42.38354,
-    "lng": -71.108141,
+    "lat": 42.383538,
+    "lng": -71.108134,
     "first_seen": "2015-04-14",
     "last_seen": "2026-05-31",
     "aliases": []
@@ -2110,8 +2110,8 @@
   },
   {
     "name": "Copley Square - Dartmouth St at Boylston St",
-    "lat": 42.349928,
-    "lng": -71.077374,
+    "lat": 42.349925,
+    "lng": -71.077373,
     "first_seen": "2016-12-01",
     "last_seen": "2026-05-31",
     "aliases": []
@@ -2208,7 +2208,7 @@
   {
     "name": "Dana Park",
     "lat": 42.361764,
-    "lng": -71.108039,
+    "lng": -71.10804,
     "first_seen": "2015-04-17",
     "last_seen": "2026-05-31",
     "aliases": []
@@ -2321,8 +2321,8 @@
   },
   {
     "name": "Dudley Square - Dudley St at Warren St",
-    "lat": 42.328805,
-    "lng": -71.084104,
+    "lat": 42.328796,
+    "lng": -71.084107,
     "first_seen": "2016-12-01",
     "last_seen": "2019-11-30",
     "aliases": []
@@ -2467,7 +2467,7 @@
   },
   {
     "name": "Fan Pier",
-    "lat": 42.353349,
+    "lat": 42.35335,
     "lng": -71.044505,
     "first_seen": "2015-04-17",
     "last_seen": "2026-05-31",
@@ -2992,7 +2992,7 @@
   },
   {
     "name": "Harvard Kennedy School at Bennett St / Eliot St",
-    "lat": 42.372122,
+    "lat": 42.372123,
     "lng": -71.121882,
     "first_seen": "2015-01-01",
     "last_seen": "2026-05-31",
@@ -3101,7 +3101,7 @@
   {
     "name": "Harvard University River Houses at DeWolfe St / Cowperthwaite St",
     "lat": 42.369212,
-    "lng": -71.11696,
+    "lng": -71.116961,
     "first_seen": "2015-01-01",
     "last_seen": "2026-05-31",
     "aliases": []
@@ -3273,7 +3273,7 @@
   {
     "name": "Hyde Square - Barbara St at Centre St",
     "lat": 42.321711,
-    "lng": -71.109963,
+    "lng": -71.109961,
     "first_seen": "2017-04-06",
     "last_seen": "2024-06-02",
     "aliases": []
@@ -3707,7 +3707,7 @@
   {
     "name": "MIT Stata Center at Vassar St / Main St",
     "lat": 42.362102,
-    "lng": -71.091315,
+    "lng": -71.091313,
     "first_seen": "2015-01-01",
     "last_seen": "2026-05-31",
     "aliases": []
@@ -3738,8 +3738,8 @@
   },
   {
     "name": "Magoun Square at Trum Field",
-    "lat": 42.397957,
-    "lng": -71.106502,
+    "lat": 42.397961,
+    "lng": -71.106513,
     "first_seen": "2015-04-17",
     "last_seen": "2026-05-31",
     "aliases": []
@@ -4168,8 +4168,8 @@
   },
   {
     "name": "Mt Auburn",
-    "lat": 42.374799,
-    "lng": -71.133345,
+    "lat": 42.374798,
+    "lng": -71.133344,
     "first_seen": "2015-11-05",
     "last_seen": "2026-05-31",
     "aliases": []
@@ -4510,8 +4510,8 @@
   },
   {
     "name": "One Broadway / Kendall Sq at Main St / 3rd St",
-    "lat": 42.362334,
-    "lng": -71.083358,
+    "lat": 42.362335,
+    "lng": -71.083363,
     "first_seen": "2015-01-01",
     "last_seen": "2026-05-31",
     "aliases": []
@@ -4526,8 +4526,8 @@
   },
   {
     "name": "One Memorial Drive",
-    "lat": 42.361638,
-    "lng": -71.080517,
+    "lat": 42.361637,
+    "lng": -71.080515,
     "first_seen": "2017-09-21",
     "last_seen": "2026-05-31",
     "aliases": []
@@ -4752,8 +4752,8 @@
   },
   {
     "name": "Prudential Center - Belvedere St",
-    "lat": 42.346301,
-    "lng": -71.081408,
+    "lat": 42.346314,
+    "lng": -71.081361,
     "first_seen": "2016-12-01",
     "last_seen": "2019-11-30",
     "aliases": []
@@ -5090,8 +5090,8 @@
   },
   {
     "name": "Seaport Hotel - Congress St at Seaport Ln",
-    "lat": 42.348822,
-    "lng": -71.041719,
+    "lat": 42.348821,
+    "lng": -71.041718,
     "first_seen": "2015-04-17",
     "last_seen": "2026-05-31",
     "aliases": [
@@ -5210,8 +5210,8 @@
   },
   {
     "name": "Soldiers Field Park - 111 Western Ave",
-    "lat": 42.364314,
-    "lng": -71.118339,
+    "lat": 42.364322,
+    "lng": -71.118353,
     "first_seen": "2016-12-01",
     "last_seen": "2026-05-31",
     "aliases": []
@@ -5742,8 +5742,8 @@
   },
   {
     "name": "Union Square - Somerville",
-    "lat": 42.379659,
-    "lng": -71.095013,
+    "lat": 42.37966,
+    "lng": -71.095003,
     "first_seen": "2015-04-16",
     "last_seen": "2026-05-31",
     "aliases": []
@@ -5794,8 +5794,8 @@
   },
   {
     "name": "University of Massachusetts Boston - Integrated Sciences Complex",
-    "lat": 42.31441,
-    "lng": -71.041102,
+    "lat": 42.314414,
+    "lng": -71.041108,
     "first_seen": "2016-12-01",
     "last_seen": "2019-05-31",
     "aliases": []
@@ -5837,7 +5837,7 @@
     "lat": 42.317509,
     "lng": -71.064166,
     "first_seen": "2017-12-01",
-    "last_seen": "2017-12-30",
+    "last_seen": "2018-03-31",
     "aliases": []
   },
   {
@@ -5918,8 +5918,8 @@
   },
   {
     "name": "W Broadway at Dorchester St",
-    "lat": 42.335921,
-    "lng": -71.046175,
+    "lat": 42.335919,
+    "lng": -71.046173,
     "first_seen": "2016-12-01",
     "last_seen": "2026-05-31",
     "aliases": []
@@ -6023,7 +6023,7 @@
     "lat": 42.338254,
     "lng": -71.139055,
     "first_seen": "2017-12-01",
-    "last_seen": "2017-12-29",
+    "last_seen": "2018-03-31",
     "aliases": []
   },
   {
@@ -6222,8 +6222,8 @@
   },
   {
     "name": "Washington St at Waltham St",
-    "lat": 42.341562,
-    "lng": -71.068906,
+    "lat": 42.341561,
+    "lng": -71.068907,
     "first_seen": "2015-04-17",
     "last_seen": "2026-05-31",
     "aliases": [
