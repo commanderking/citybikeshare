@@ -42,6 +42,7 @@ final_columns:
  - bike_id 
  - membership_type
  - bike_type
+ - bike_model
 
 date_formats:
   - "%Y-%m-%d %H:%M:%S"
@@ -49,6 +50,7 @@ date_formats:
 processing_pipeline:
   - rename_columns
   - convert_to_datetime
+  - normalize_bike_type
   - select_final_columns
   - cast_optional_columns
 

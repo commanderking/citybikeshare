@@ -28,9 +28,7 @@ def clean_city_data(context: PipelineContext):
         return
 
     # Raw inputs may be plain `.csv` or gzipped `.csv.gz` (after the raw-gzip migration).
-    csv_files = sorted(
-        [*Path(raw_dir).glob("*.csv"), *Path(raw_dir).glob("*.csv.gz")]
-    )
+    csv_files = sorted([*Path(raw_dir).glob("*.csv"), *Path(raw_dir).glob("*.csv.gz")])
     if not csv_files:
         print(f"⚠️ No CSV files found for {city}")
         return

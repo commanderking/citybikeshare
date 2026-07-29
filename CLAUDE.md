@@ -96,6 +96,27 @@ front so an unknown value fails loud. This applies from the *second* variant on 
 the registry for a single case. Treat introducing that second variant as a design fork worth
 surfacing, not a local parsing detail to fold in with the minimal diff.
 
+## Which stage owns a fix: document shape vs. data meaning
+
+Each fix belongs to the earliest stage that makes the input uniform for the next:
+
+- **extract** — get source bytes into `raw/` (`.csv.gz`); skip cheaply.
+- **clean** (optional, per-city `clean_pipeline`) — make the source a *well-formed, uniform CSV
+  document*: **re-encode a non-UTF-8 source to UTF-8** (Seoul/Daejeon set `cleaning_options:
+  source_encoding: EUC-KR`), normalize delimiters/newlines, drop stray-quote lines, and **restore
+  a header row the source omitted**. Writes `cleaned/` (use `compress_cleaned: true`); transform
+  then reads `cleaned/` automatically. Header-prepend lives in `HEADER_PREPEND_FUNCTIONS`, other
+  fixes in `CLEAN_FUNCTIONS` / `LINE_CLEAN_FUNCTIONS` (`utils/io_clean.py`).
+- **transform** — map already-well-formed, headed CSVs to the canonical schema/semantics: rename
+  columns, parse dates, normalize values, derive/validate. It should not do header detection or
+  positional column naming. (Its `read_csv_options: encoding: utf8-lossy` is just a tolerant
+  reader default, not an encoding *conversion* — genuine re-encoding is clean's job above.)
+
+Rule of thumb: if the fix is about the file being a *valid parseable document*, it's **clean**; if
+it's about the *data's meaning*, it's **transform**. Restoring a missing header is clean; mapping
+`rent_time → start_time` is transform. When a fix could sit in either stage, decide the stage
+*before* optimizing the code within a stage — that framing question comes first.
+
 ## Naming: functions are verbs, data is nouns
 
 Name functions for the **action they perform**, using an imperative verb phrase —

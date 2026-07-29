@@ -1,4 +1,5 @@
 import gzip
+import itertools
 import shutil
 from pathlib import Path
 import tempfile
@@ -184,17 +185,42 @@ _SEOUL_11COL_HEADER = (
 )
 
 
-def seoul_headerless_header(file_name):
+def seoul_headerless_header(first_line, file_name, config):
+    # Seoul's 3 headerless files are known by name, so the first line isn't needed here.
     headerless = ("대여정보_201812", "대여정보_201904", "대여정보_201905")
     if any(p in file_name for p in headerless):
         return _SEOUL_11COL_HEADER
     return None
 
 
-# A header-prepend function takes the raw filename and returns a header line to write
-# first (or None). Keyed by clean_pipeline step name.
+# Taipei dropped its header row mid-2023, so most files are headerless; a 7th column (bike_type)
+# was added to the headerless layout in 2024-11. Restore the header the source omitted so transform
+# reads every file like the headed (2020–2023) ones — header restoration is a well-formedness fix,
+# hence it lives in the clean stage rather than transform.
+_TAIPEI_HEADERS = {
+    6: "rent_time,rent_station,return_time,return_station,rent,infodate\n",
+    7: "rent_time,rent_station,return_time,return_station,rent,bike_type,infodate\n",
+}
+
+
+def taipei_prepend_header(first_line, file_name, config):
+    fields = first_line.rstrip("\r\n").split(",")
+    if not fields or fields[0] == "rent_time":
+        return None  # already has a header row
+    count = len(fields)
+    if count not in _TAIPEI_HEADERS:
+        raise ValueError(
+            f"{file_name}: headerless file with {count} columns has no known Taipei header "
+            f"(known: {sorted(_TAIPEI_HEADERS)}). Check for a source schema change."
+        )
+    return _TAIPEI_HEADERS[count]
+
+
+# A header-prepend function takes (first_line, raw filename, config) and returns a header line to
+# write first (or None if the file already has one). Keyed by clean_pipeline step name.
 HEADER_PREPEND_FUNCTIONS = {
     "seoul_prepend_header": seoul_headerless_header,
+    "taipei_prepend_header": taipei_prepend_header,
 }
 
 
@@ -237,12 +263,16 @@ def stream_clean_to_gzip(raw_file: Path, cleaned_file: Path, clean_pipeline, con
             cleaned_file, "wt", encoding="utf-8", newline="", compresslevel=compress_level
         ) as dst,
     ):
+        # Peek the first line so header-prepend steps can detect header-vs-data and column
+        # count, then feed it back into the line loop so no data is consumed.
+        first_line = src.readline()
         for header_fn in header_steps:
-            header = header_fn(name)
+            header = header_fn(first_line, name, config)
             if header:
                 dst.write(header)
 
-        for line in src:
+        lines = itertools.chain([first_line], src) if first_line else iter(())
+        for line in lines:
             dropped = False
             for fn in line_steps:
                 line = fn(line, name, config)

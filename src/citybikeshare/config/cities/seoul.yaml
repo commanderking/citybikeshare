@@ -24,6 +24,14 @@ renamed_columns:
   이용자종류: user_type
   대여대여소ID: start_station_id
   반납대여소ID: end_station_id
+  # 자전거구분: normalized by normalize_bike_type. Korean labels run through 2024-12, then the
+  # source re-coded to BIK_00x from 2025-01 (일반자전거→BIK_002 = standard ~77%/20%,
+  # 새싹자전거→BIK_003 = the small frame ~1.9%/0.4%). Both are pedal bikes — the axis is frame
+  # size, not electric — so 새싹/BIK_003 map to a Seoul-specific `sprout`, not `classic`.
+  # Sprout Bike (Saessak Ttareungi, 새싹따릉이) is Seoul's small-sized public rental bicycle. It
+  # features a smaller wheel size and lighter weight, making it ideal for teenagers and adults
+  # under 160 cm (5'3") tall. Compared to the standard model (24-inch wheels, 18 kg), it has
+  # 20-inch wheels and weighs 16 kg, making it much easier and safer to handle.
   자전거구분: bike_type
 
   대여대여소번호: start_station_id
@@ -64,9 +72,23 @@ cleaning_options:
 # instead of writing an uncompressed full duplicate.
 compress_cleaned: true
 
+# Seoul has no explicit final_columns by default (DEFAULT_FINAL_COLUMNS = the 4 below); listed
+# out here so bike_type is carried through to parquet.
+final_columns:
+  - start_time
+  - end_time
+  - start_station_name
+  - end_station_name
+  - bike_type
+  - bike_model
+
 processing_pipeline:
   - clean_header_quotes
   - rename_columns
+  - normalize_bike_type
   - select_final_columns
+  # bike_type is absent from pre-2023 files; cast to Utf8 so the all-null era doesn't emit a
+  # Null-dtype column that clashes with the typed values when parquets are combined.
+  - cast_optional_columns
   - convert_to_datetime
 

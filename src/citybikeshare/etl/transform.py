@@ -1,4 +1,3 @@
-import gzip
 import os
 from dataclasses import replace
 import polars as pl
@@ -40,48 +39,17 @@ def filter_filenames(filenames, config):
     return files
 
 
-def determine_has_header(file_path, expected_columns):
-    # Not all files have headers
-    opener = gzip.open if str(file_path).endswith(".gz") else open
-    with opener(file_path, "rt", encoding="utf-8", errors="replace") as file:
-        first_line = file.readline().strip().split(",")
-        return all(item in expected_columns for item in first_line)
-
-
-def get_csv_scan_params(file_path, opts):
-    has_header = opts.get("has_header", True)
-    new_columns = opts.get("new_columns")
-
-    base = {"encoding": "utf8-lossy", "infer_schema_length": 0} | opts
-    if has_header == "auto":
-        if not new_columns:
-            raise ValueError("has_header: auto requires new_columns.")
-        file_has_header = determine_has_header(file_path, new_columns)
-
-        return base | (
-            {"has_header": True}
-            if file_has_header
-            else {
-                "has_header": False,
-                "new_columns": new_columns,
-                "infer_schema_length": 10000,
-            }
-        )
-
-    return base | (
-        {"has_header": True}
-        if has_header
-        else {
-            "has_header": False,
-            "new_columns": new_columns,
-            "infer_schema_length": 10000,
-        }
-    )
+def get_csv_scan_params(opts):
+    """Assemble the pl.scan_csv kwargs from a city's read_csv_options over sensible defaults.
+    Header handling — including restoring a header row the source omitted — happens upstream in
+    the clean stage (see the header-prepend clean functions), so transform always reads
+    well-formed, headed CSVs and doesn't concern itself with header detection."""
+    return {"encoding": "utf8-lossy", "infer_schema_length": 0, "has_header": True} | opts
 
 
 def create_parquet(file, context: PipelineContext, config):
     csv_options = config.get("read_csv_options", {})
-    params = get_csv_scan_params(file, csv_options)
+    params = get_csv_scan_params(csv_options)
 
     df = pl.scan_csv(file, **params)
     # Expose the current input file so file-scoped steps can target it by name.

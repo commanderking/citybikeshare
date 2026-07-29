@@ -7,7 +7,6 @@ from citybikeshare.config.loader import load_city_config
 from citybikeshare.etl.pipelines.common import convert_columns_to_datetime
 from citybikeshare.etl.transform import (
     create_parquet,
-    determine_has_header,
     filter_filenames,
     get_csv_scan_params,
 )
@@ -145,45 +144,18 @@ class TestCreateParquet:
 
 class TestGetCsvScanParams:
     def test_defaults_to_has_header_true(self):
-        params = get_csv_scan_params("/some/file.csv", {})
+        params = get_csv_scan_params({})
         assert params["has_header"] is True
         assert params["encoding"] == "utf8-lossy"
         assert params["infer_schema_length"] == 0
 
-    def test_explicit_has_header_false_includes_new_columns(self):
-        opts = {"has_header": False, "new_columns": ["col_a", "col_b"]}
-        params = get_csv_scan_params("/some/file.csv", opts)
+    def test_options_override_defaults(self):
+        # Header handling lives in the clean stage now; read_csv_options just overrides defaults.
+        opts = {"has_header": False, "separator": ";"}
+        params = get_csv_scan_params(opts)
         assert params["has_header"] is False
-        assert params["new_columns"] == ["col_a", "col_b"]
-
-    def test_extra_options_are_passed_through(self):
-        opts = {"separator": ";"}
-        params = get_csv_scan_params("/some/file.csv", opts)
         assert params["separator"] == ";"
-
-
-class TestDetermineHasHeader:
-    def test_returns_true_when_first_row_matches_expected_columns(self, tmp_path):
-        csv = tmp_path / "with_header.csv"
-        csv.write_text("start_time,end_time,station_name\n2024-01-01,2024-01-01,A\n")
-        assert (
-            determine_has_header(str(csv), ["start_time", "end_time", "station_name"])
-            is True
-        )
-
-    def test_returns_false_when_first_row_is_data(self, tmp_path):
-        csv = tmp_path / "no_header.csv"
-        csv.write_text("2024-01-01 00:00:00,2024-01-01 00:10:00,StationA\n")
-        assert (
-            determine_has_header(str(csv), ["start_time", "end_time", "station_name"])
-            is False
-        )
-
-    def test_returns_false_when_only_some_columns_match(self, tmp_path):
-        csv = tmp_path / "partial.csv"
-        csv.write_text("start_time,end_time,station_name\n")
-        # expected_columns is missing station_name, so not all first-row items are in the set
-        assert determine_has_header(str(csv), ["start_time", "end_time"]) is False
+        assert params["encoding"] == "utf8-lossy"  # default preserved
 
 
 class TestDatetimeGuard:

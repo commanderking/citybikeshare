@@ -29,6 +29,8 @@ renamed_columns:
 date_formats:
   - "%d/%m/%Y %H:%M"
   - "%Y-%m-%d %H:%M"
+  # 2012 era (e.g. "8. Journey Data Extract 22Jul-18Aug12") stamps seconds: 03/08/2012 23:03:21
+  - "%d/%m/%Y %H:%M:%S"
 
 final_columns:
   - start_time
@@ -37,6 +39,7 @@ final_columns:
   - end_station_name
   - bike_id
   - bike_type
+  - bike_model
 
 read_csv_options:
   ## Encoding may actually be: windows-1252 (but increases inspect and transform time greatly)
@@ -45,6 +48,7 @@ processing_pipeline:
   # Some files like 9a Journey Data Extract 17Aug14-31Aug14.csv, 13b. Journey Data Extract 22Dec14-03Jan15.csv contain rows with no data
   - filter_null_rows
   - rename_columns
+  - normalize_bike_type
   - select_final_columns
   - convert_to_datetime 
   - cast_optional_columns

@@ -66,6 +66,7 @@ final_columns:
   - gender
   - birth_year
   - bike_type
+  - bike_model
 
 
 date_formats:
@@ -85,6 +86,7 @@ read_csv_options:
 processing_pipeline:
   - rename_columns
   - convert_to_datetime
+  - normalize_bike_type
   - select_final_columns
   - cast_optional_columns
 

@@ -28,6 +28,7 @@ final_columns:
   - end_station_name
   - membership_type
   - bike_type
+  - bike_model
 
 
 date_formats:
@@ -38,6 +39,7 @@ processing_pipeline:
   - process_bicycle_transit_stations
   - convert_to_datetime
   - offset_two_digit_years
+  - normalize_bike_type
   - select_final_columns
   - cast_optional_columns
 
