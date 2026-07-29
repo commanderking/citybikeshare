@@ -203,6 +203,79 @@ def calculate_end_time(df, context):
     return df
 
 
+def reconcile_madrid_times(df, config, context):
+    """Unify BiciMAD's two schema eras into canonical start_time, end_time, duration_seconds.
+
+    The eras encode time differently and can't be reconciled by renaming alone: JSON
+    (2017–2021H1) has `duration_seconds` (from travel_time) and an hour-truncated start with
+    no end; CSV (2021H2–2023) has `duration_minutes` and precise unlock/lock timestamps. This
+    is the explicit discriminator for that fork — it dispatches on which columns the renamed
+    frame actually carries rather than leaving it to implicit downstream behavior.
+    """
+    date_formats = config["date_formats"]
+    columns = df.collect_schema().names()
+
+    # Canonical duration in seconds, from whichever era's column is present.
+    duration_parts = []
+    if "duration_seconds" in columns:
+        duration_parts.append(pl.col("duration_seconds").cast(pl.Float64, strict=False))
+    if "duration_minutes" in columns:
+        duration_parts.append(
+            pl.col("duration_minutes").cast(pl.Float64, strict=False) * 60
+        )
+    if not duration_parts:
+        raise ValueError(
+            "Madrid: no duration column after rename (expected duration_seconds or "
+            "duration_minutes) — check renamed_columns."
+        )
+    df = df.with_columns(pl.coalesce(duration_parts).alias("duration_seconds"))
+
+    # BiciMAD encodes the same Madrid-local hour bucket three ways across eras — CSV naive ISO,
+    # JSON movements "...Z", and JSON Usage "...+0200" (Mongo $date, unwrapped in clean). The
+    # tz markers are inconsistent and the values are hour-granular, so strip any trailing
+    # Z/±HH[:]MM (and fractional seconds) and parse everything as naive local wall-clock.
+    date_columns = [c for c in ("start_time", "end_time") if c in columns]
+    df = df.with_columns(
+        [
+            pl.col(c).str.replace(r"(\.\d+)?(Z|[+-]\d{2}:?\d{2})$", "")
+            for c in date_columns
+        ]
+    )
+
+    # Parse the datetime columns actually present (JSON has no end_time). The shared converter
+    # fails loud on a value matching none of date_formats.
+    df = df.pipe(convert_columns_to_datetime(date_columns, date_formats))
+
+    # Derive end_time where the source lacks it (JSON era) as start + duration; where present
+    # (CSV era) keep the precise value and only fall back to the derived one if it's null.
+    derived_end = pl.col("start_time") + pl.duration(
+        seconds=pl.col("duration_seconds").cast(pl.Int64, strict=False)
+    )
+    if "end_time" in columns:
+        df = df.with_columns(
+            pl.coalesce([pl.col("end_time"), derived_end]).alias("end_time")
+        )
+    else:
+        df = df.with_columns(derived_end.alias("end_time"))
+
+    # Make the schema uniform across both eras so the per-file parquets combine at partition
+    # time. Every final column except the three typed ones (start_time/end_time Datetime,
+    # duration_seconds Float64) is a String field here; cast the ones present and add the ones
+    # this era lacks as typed-null Utf8 — otherwise a column missing in one era would land as
+    # Null dtype and clash with String from the other era when the parquets are scanned together.
+    typed_columns = {"start_time", "end_time", "duration_seconds"}
+    string_columns = [
+        c for c in config.get("final_columns", []) if c not in typed_columns
+    ]
+    present = set(df.collect_schema().names())
+    df = df.with_columns(
+        [pl.col(c).cast(pl.Utf8) for c in string_columns if c in present]
+        + [pl.lit(None, dtype=pl.Utf8).alias(c) for c in string_columns if c not in present]
+    )
+
+    return df
+
+
 def convert_milliseconds_to_datetime(df):
     headers = df.collect_schema().names()
     ### most recent Montreal data notes start time and end time in ms whereas previous versions used a date.
@@ -1204,6 +1277,10 @@ PROCESSING_FUNCTIONS = {
     "offset_two_digit_years": lambda df, config, context: offset_two_digit_years(df),
     "austin_calculate_end_time": lambda df, config, context: calculate_end_time(
         df, config
+    ),
+    ### Madrid — reconcile the JSON (seconds, no end_time) and CSV (minutes, precise) eras
+    "reconcile_madrid_times": lambda df, config, context: reconcile_madrid_times(
+        df, config, context
     ),
     "convert_milliseconds_to_datetime": lambda df,
     config,

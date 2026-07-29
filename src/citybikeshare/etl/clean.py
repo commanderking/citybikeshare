@@ -1,6 +1,7 @@
 from pathlib import Path
 from citybikeshare.utils.io_clean import (
     CLEAN_FUNCTIONS,
+    JSON_CONVERT_FUNCTIONS,
     materialize_cleaned_source,
     stream_clean_to_gzip,
 )
@@ -29,15 +30,26 @@ def clean_city_data(context: PipelineContext):
 
     # Raw inputs may be plain `.csv` or gzipped `.csv.gz` (after the raw-gzip migration).
     csv_files = sorted([*Path(raw_dir).glob("*.csv"), *Path(raw_dir).glob("*.csv.gz")])
-    if not csv_files:
-        print(f"⚠️ No CSV files found for {city}")
+    # Trip-as-JSON cities also keep `.json`/`.json.gz` in raw/; a JSON converter step in the
+    # clean_pipeline turns those into cleaned CSVs (see JSON_CONVERT_FUNCTIONS).
+    json_files = sorted([*Path(raw_dir).glob("*.json"), *Path(raw_dir).glob("*.json.gz")])
+    json_converters = [s for s in clean_pipeline if s in JSON_CONVERT_FUNCTIONS]
+    if json_files and not json_converters:
+        raise ValueError(
+            f"{city}: raw/ contains {len(json_files)} JSON files but clean_pipeline has no "
+            f"JSON converter (one of {sorted(JSON_CONVERT_FUNCTIONS)})."
+        )
+    if not csv_files and not json_files:
+        print(f"⚠️ No CSV or JSON files found for {city}")
         return
 
     # Large cities can opt into a streaming, gzip-compressed cleaned copy instead of an
     # uncompressed full duplicate (e.g. Seoul: ~40G raw). The output is `<name>.csv.gz`.
     compress = config.get("compress_cleaned", False)
 
-    print(f"🧽 Cleaning {len(csv_files)} CSV files for {city}...")
+    print(
+        f"🧽 Cleaning {len(csv_files)} CSV + {len(json_files)} JSON files for {city}..."
+    )
     cleaned_dir.mkdir(parents=True, exist_ok=True)
 
     state = load_state(context.clean_state_path)
@@ -81,5 +93,39 @@ def clean_city_data(context: PipelineContext):
             "outputs": [cleaned_file.name],
         }
 
+    # JSON trip files → cleaned CSVs. The converter decides per file whether to emit output
+    # (station snapshots and CSV-covered months are skipped), so a skipped file records an
+    # empty output list and still short-circuits on the next unchanged run.
+    for raw_file in json_files:
+        base_name = (
+            raw_file.name[:-3] if raw_file.name.endswith(".gz") else raw_file.name
+        )
+        # <name>.json[.gz] -> <name>.csv[.gz]
+        stem = base_name[: -len(".json")] if base_name.endswith(".json") else base_name
+        cleaned_name = stem + ".csv" + (".gz" if compress else "")
+        cleaned_file = cleaned_dir / cleaned_name
+        recorded = state.get(raw_file.name)
+
+        if (
+            recorded
+            and is_unchanged(raw_file, recorded)
+            and all((cleaned_dir / o).exists() for o in recorded.get("outputs", []))
+        ):
+            print(f"🟡 Skipping clean - {raw_file.name} unchanged")
+            new_state[raw_file.name] = recorded
+            continue
+
+        print(f"\n📄 Converting JSON {raw_file.name}")
+        produced = None
+        for step in json_converters:
+            produced = JSON_CONVERT_FUNCTIONS[step](
+                raw_file, cleaned_file, config, csv_files
+            )
+
+        new_state[raw_file.name] = {
+            **file_signature(raw_file),
+            "outputs": [produced.name] if produced else [],
+        }
+
     write_state(context.clean_state_path, new_state)
-    print(f"✅ Finished cleaning all CSVs for {city}")
+    print(f"✅ Finished cleaning all files for {city}")

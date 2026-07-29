@@ -1,0 +1,102 @@
+name: madrid
+system_name: bicimad
+source_url: "https://datos.madrid.es/dataset/900034-0-bicimad-viajes-estaciones/downloads"
+aws_sync: false
+
+# 2017–2021H1 trips ship as JSON (ndjson) inside the yearly archives; keep those members in
+# raw/ so the clean stage can convert them to CSV. 2021H2–2023 ship as CSV and flow normally.
+keep_json_raw: true
+
+# Trip archives are year-keyed (bicimad_trips_YYYY.zip) with stable names, so there's no
+# cumulative-rename duplication trap — re-fetching a year overwrites in place. Leave
+# prune_renamed_archives off.
+
+# Clean stage: convert the JSON-era trip files (2017–2021H1) into `;`-delimited CSVs so the
+# whole history flows through as uniform CSV documents. The converter skips station-snapshot
+# JSON and any month a CSV already covers (e.g. 2021-06) to avoid double-counting. CSV-era
+# files pass through to cleaned/ so transform reads every year from one place.
+clean_pipeline:
+  - convert_bicimad_movements_json
+compress_cleaned: true
+
+file_matcher:
+  - ".csv"
+# The source's October 2021 export is corrupted at the byte level: comma-delimited (every
+# other file is ;-delimited) with stray semicolons injected mid-value — even inside column
+# names and coordinates — and blank rows between records. It can't be parsed or safely
+# repaired, and there's no JSON movements fallback for that month (those end 2021-06). Excluded
+# explicitly rather than silently mis-parsed. Re-check if datos.madrid republishes the file.
+excluded_filenames:
+  - "trips_21_10_October"
+read_csv_options:
+  encoding: "utf8-lossy"
+  separator: ";"
+
+# --- Column-name reconciliation across the two eras --------------------------------------
+# rename_columns only renames columns present in a given file, so the JSON-era and CSV-era
+# source names can both map onto the same canonical name without colliding. Duration is the
+# exception: the eras use different UNITS, so they map to different canonical columns
+# (duration_seconds vs duration_minutes) and are unified in reconcile_madrid_times — never
+# collapse differing-unit columns by renaming them to the same name.
+renamed_columns:
+  # JSON movements era (2017–2021H1)
+  unplug_hourTime: start_time
+  travel_time: duration_seconds
+  idunplug_station: start_station_id
+  idplug_station: end_station_id
+  idunplug_base: start_dock
+  idplug_base: end_dock
+  ageRange: age_range
+  user_type: user_type
+  zip_code: zip_code
+  user_day_code: user_day_code
+
+  # CSV era (2021H2–2023)
+  unlock_date: start_time
+  lock_date: end_time
+  trip_minutes: duration_minutes
+  station_unlock: start_station_id
+  station_lock: end_station_id
+  dock_unlock: start_dock
+  dock_lock: end_dock
+  unlock_station_name: start_station_name
+  lock_station_name: end_station_name
+  idTrip: trip_id
+  idBike: bike_id
+  fleet: fleet
+  geolocation_unlock: start_geolocation
+  geolocation_lock: end_geolocation
+  # intentionally dropped: fecha (date-only dup of unlock_date), address_unlock/lock
+  # (free-text), locktype/unlocktype (constant "STATION" markers)
+
+# reconcile_madrid_times strips trailing tz markers (Z / ±HHMM) first, so every era reduces to
+# one naive ISO format here. An unaccounted-for format still fails loud.
+date_formats:
+  - "%Y-%m-%dT%H:%M:%S"
+
+# Superset of both eras. Columns absent in a given file are added as null by
+# select_final_columns: names/coords → null for JSON years, demographics → null for CSV years.
+final_columns:
+  - start_time
+  - end_time
+  - duration_seconds
+  - start_station_id
+  - end_station_id
+  - start_station_name
+  - end_station_name
+  - trip_id
+  - bike_id
+  - user_type
+  - age_range
+  - zip_code
+
+processing_pipeline:
+  - rename_columns
+  - filter_null_rows          # CSV files carry a leading all-empty row (;;;…)
+  - reconcile_madrid_times    # unify seconds/minutes + derive missing end_time (JSON era)
+  - select_final_columns
+
+# NOTE: coordinates config is still deferred (a separate fork). CSV era has inline coords as
+# single-quoted pseudo-JSON needing a parser; JSON era has station ids only, so its names +
+# coords must come from an id→name/coord map harvested from the station-snapshot JSON (+ .rar
+# station files), like Guadalajara's build-station-map. That's the next step after this.
