@@ -165,20 +165,14 @@ def _bicimad_scalar(value):
     return value
 
 
-def _bicimad_classify_json(name: str) -> str:
-    """Classify a BiciMAD raw JSON filename as 'trip', 'station', or 'unknown'.
-
-    Dispatch on the name (an explicit discriminator), not on record shape: `*_movements`
-    and `*_Usage_Bicimad` are trips; bare `YYYYMM`, `*_stations`, and `Bicimad_Estacions/
-    Stations` are station snapshots (a coordinates source, not trips). Anything else is
-    'unknown' so the caller can fail loud instead of silently guessing.
+def _bicimad_is_trip_json(name: str) -> bool:
+    """True for a BiciMAD trip JSON. Trip exports are named `*_movements` (2019H2–2021H1)
+    or `*_Usage_Bicimad` (2017–2019H1); every other JSON in raw/ is a station snapshot the
+    converter skips. If the source ever ships a trip file under a new name it'll be skipped
+    silently — add the pattern here when that happens rather than enumerating hypotheticals now.
     """
-    stem = re.sub(r"\.json(\.gz)?$", "", name, flags=re.IGNORECASE).lower()
-    if "_movements" in stem or "_usage_bicimad" in stem:
-        return "trip"
-    if re.fullmatch(r"\d{6}", stem) or "station" in stem or "estacion" in stem:
-        return "station"
-    return "unknown"
+    stem = name.lower()
+    return "_movements" in stem or "_usage_bicimad" in stem
 
 
 def _bicimad_json_year_month(name: str) -> Optional[tuple[int, int]]:
@@ -203,15 +197,9 @@ def convert_bicimad_movements_json(
     double-count. CSV wins because it carries station names and coordinates the JSON lacks.
     """
     name = raw_file.name
-    kind = _bicimad_classify_json(name)
-    if kind == "station":
-        print(f"⏭️  Skipping non-trip JSON (station data): {name}")
+    if not _bicimad_is_trip_json(name):
+        print(f"⏭️  Skipping non-trip JSON (station snapshot): {name}")
         return None
-    if kind == "unknown":
-        raise ValueError(
-            f"Unrecognized BiciMAD JSON file '{name}' — cannot tell if it is trips or "
-            f"stations. Add it to the classifier rather than guessing."
-        )
 
     year_month = _bicimad_json_year_month(name)
     csv_months = {

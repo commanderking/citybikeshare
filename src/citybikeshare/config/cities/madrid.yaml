@@ -69,8 +69,13 @@ renamed_columns:
   # intentionally dropped: fecha (date-only dup of unlock_date), address_unlock/lock
   # (free-text), locktype/unlocktype (constant "STATION" markers)
 
-# reconcile_madrid_times strips trailing tz markers (Z / ±HHMM) first, so every era reduces to
-# one naive ISO format here. An unaccounted-for format still fails loud.
+# Only one format is listed because reconcile_madrid_times strips trailing tz markers (Z /
+# ±HHMM) before parsing, reducing all three eras to naive ISO. The CSV naive form and the JSON "...Z" form are # both fine (Z parses as a literal → naive datetime). The Usage era's (JSON) "...+0200"/"+0100" offset is the 
+# blocker: a  variable offset can't be a literal, so it needs %z, and %z yields a timezone-AWARE Datetime.
+# _parse_date_columns coalesces every candidate format together, and polars can't coalesce a
+# tz-aware column with the naive ones the other eras need (no common supertype) — so adding the
+# %z format here breaks the whole parse. %z would also silently shift the value to UTC
+# (01:00+0200 → 23:00 the previous day). 
 date_formats:
   - "%Y-%m-%dT%H:%M:%S"
 
@@ -86,9 +91,12 @@ final_columns:
   - end_station_name
   - trip_id
   - bike_id
-  - user_type
-  - age_range
-  - zip_code
+
+  # Consider handling in future case. Need to figure out what user_type and age_range refer to as 
+  # they are currently integers
+  # - user_type
+  # - age_range
+  # - zip_code
 
 processing_pipeline:
   - rename_columns
