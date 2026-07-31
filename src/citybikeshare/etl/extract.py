@@ -51,10 +51,33 @@ def _gzip_uncompressed_size(gz_path: Path) -> int:
         return int.from_bytes(f.read(4), "little")
 
 
-def _extract_archive(zip_path, raw_dir: Path) -> List[Path]:
+def _deposit_member_as_gzip(full_path: str, file: str, raw_dir: Path) -> Path:
+    """Gzip a source member verbatim into raw/<file>.gz and return its path.
+
+    Skips the rewrite when an unchanged copy already exists (cumulative archives
+    re-bundle the same members), matching the size trailer as elsewhere. Used for both
+    `.csv` members and, when a city keeps them, `.json` members — raw/ is the source of
+    truth, so the bytes are stored as-is; interpreting JSON is the clean stage's job.
+    """
+    target_path = raw_dir / (file + ".gz")
+    src_size = os.path.getsize(full_path)
+    if target_path.exists() and _gzip_uncompressed_size(target_path) == src_size:
+        print(f"🟡 Unchanged member, keeping {target_path.name}")
+    else:
+        _gzip_file(full_path, target_path)
+        kind = Path(file).suffix.lstrip(".").upper()
+        print(f"✅ Extracted {kind} (gzip): {target_path.name}")
+    # Drop any stale uncompressed sibling from a pre-gzip run.
+    (raw_dir / file).unlink(missing_ok=True)
+    return target_path
+
+
+def _extract_archive(zip_path, raw_dir: Path, keep_json: bool = False) -> List[Path]:
     """Extract one archive (recursing into nested zips) into raw_dir.
 
-    Returns the list of CSV paths produced from this archive.
+    Returns the list of raw paths produced from this archive. When ``keep_json`` is set
+    (cities whose trips ship as JSON, e.g. Madrid), `.json` members are stored in raw/
+    alongside CSVs rather than silently dropped; the clean stage converts them to CSV.
     """
     produced: List[Path] = []
     to_process = [zip_path]
@@ -84,23 +107,24 @@ def _extract_archive(zip_path, raw_dir: Path) -> List[Path]:
                             elif file.lower().endswith(".csv"):
                                 # Store raw as gzip (`<name>.csv.gz`); the read path
                                 # (transform/clean) handles `.gz` transparently.
-                                target_path = raw_dir / (file + ".gz")
-                                # Cumulative archives (e.g. Daejeon) re-bundle every month.
-                                # Only rewrite a member when it's new or its (uncompressed)
-                                # size changed, so unchanged files keep their mtime and
-                                # transform skips them.
-                                src_size = os.path.getsize(full_path)
-                                if (
-                                    target_path.exists()
-                                    and _gzip_uncompressed_size(target_path) == src_size
-                                ):
-                                    print(f"🟡 Unchanged member, keeping {target_path.name}")
-                                else:
-                                    _gzip_file(full_path, target_path)
-                                    print(f"✅ Extracted CSV (gzip): {target_path.name}")
-                                # Drop any stale uncompressed sibling from a pre-gzip run.
-                                (raw_dir / file).unlink(missing_ok=True)
-                                produced.append(target_path)
+                                produced.append(
+                                    _deposit_member_as_gzip(full_path, file, raw_dir)
+                                )
+
+                            elif file.lower().endswith(".json") and keep_json:
+                                # Trip-as-JSON cities keep the JSON in raw/ (source of
+                                # truth); the clean stage converts it to CSV.
+                                produced.append(
+                                    _deposit_member_as_gzip(full_path, file, raw_dir)
+                                )
+
+                            elif file.lower().endswith(".rar"):
+                                # zipfile can't open RAR; surface it loudly rather than
+                                # silently skip (BiciMAD ships some station files as .rar).
+                                print(
+                                    f"⚠️  Cannot extract RAR (zipfile can't read it): "
+                                    f"{file} — skipping"
+                                )
 
                             elif file.lower().endswith(".txt"):
                                 txt_path = Path(full_path)
@@ -202,6 +226,9 @@ def extract_city_data(context: PipelineContext, overwrite: bool = False) -> List
     """
     config = load_city_config(context.city)
     city_name = config["name"]
+    # Trip-as-JSON cities (e.g. Madrid) keep JSON members in raw/ for the clean stage to
+    # convert; other cities' archives contain no JSON and are unaffected.
+    keep_json = config.get("keep_json_raw", False)
     download_directory = context.download_directory
     raw_dir = context.raw_directory
     raw_dir.mkdir(parents=True, exist_ok=True)
@@ -248,7 +275,7 @@ def extract_city_data(context: PipelineContext, overwrite: bool = False) -> List
             continue
 
         if is_zip:
-            produced = _extract_archive(entry, raw_dir)
+            produced = _extract_archive(entry, raw_dir, keep_json=keep_json)
         else:
             dest = raw_dir / (source_name + ".gz")
             _gzip_file(entry, dest)
