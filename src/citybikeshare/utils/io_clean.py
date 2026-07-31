@@ -187,31 +187,22 @@ def _bicimad_csv_year_month(name: str) -> Optional[tuple[int, int]]:
     return (2000 + int(match.group(1)), int(match.group(2))) if match else None
 
 
-def convert_bicimad_movements_json(
-    raw_file: Path, cleaned_file: Path, config, csv_files
-) -> Optional[Path]:
-    """Convert one BiciMAD movements JSON (ndjson) into a `;`-delimited cleaned CSV.
-
-    Skips (returns None) station-snapshot JSON and any month already covered by a CSV file
-    — some months (e.g. 2021-06) ship in both formats, and ingesting both would silently
-    double-count. CSV wins because it carries station names and coordinates the JSON lacks.
-    """
-    name = raw_file.name
-    if not _bicimad_is_trip_json(name):
-        print(f"⏭️  Skipping non-trip JSON (station snapshot): {name}")
-        return None
-
+def _bicimad_month_covered_by_csv(name: str, csv_files) -> bool:
+    """True when a CSV file already covers this movements JSON's year-month. Some months
+    (e.g. 2021-06) ship in both formats; ingesting both would silently double-count, and the
+    CSV is the more complete, richer copy (it carries station names + coordinates)."""
     year_month = _bicimad_json_year_month(name)
     csv_months = {
         ym for f in csv_files if (ym := _bicimad_csv_year_month(f.name)) is not None
     }
-    if year_month in csv_months:
-        print(
-            f"⏭️  Skipping {name}: {year_month} already covered by a CSV file "
-            f"(avoiding double-count)"
-        )
-        return None
+    return year_month in csv_months
 
+
+def _write_bicimad_movements_csv(raw_file: Path, cleaned_file: Path) -> int:
+    """Stream one movements ndjson into a `;`-delimited CSV of _BICIMAD_MOVEMENT_COLUMNS,
+    unwrapping Mongo scalar wrappers. Returns the number of rows written. Fails loud on a
+    record without `travel_time` — a station snapshot mis-named as movements, or a schema
+    change — rather than writing empty trip rows."""
     read_opener = gzip.open if _is_gzip(raw_file) else open
     write_gzip = _is_gzip(cleaned_file)
     row_count = 0
@@ -229,17 +220,36 @@ def convert_bicimad_movements_json(
                 if not line:
                     continue
                 record = json.loads(line)  # malformed JSON fails loud, as intended
-                # A station snapshot slipping through name-classification would lack this;
-                # catch it here rather than silently writing empty trip rows.
                 if "travel_time" not in record:
                     raise ValueError(
-                        f"{name}: JSON record has no 'travel_time' (keys: "
+                        f"{raw_file.name}: JSON record has no 'travel_time' (keys: "
                         f"{list(record)[:8]}) — misclassified as a movements file?"
                     )
                 writer.writerow(
                     [_bicimad_scalar(record.get(col, "")) for col in _BICIMAD_MOVEMENT_COLUMNS]
                 )
                 row_count += 1
+    return row_count
+
+
+def convert_bicimad_movements_json(
+    raw_file: Path, cleaned_file: Path, config, csv_files
+) -> Optional[Path]:
+    """Convert one BiciMAD movements JSON (ndjson) into a `;`-delimited cleaned CSV, or skip it
+    (returns None) when it's a station snapshot or a month a CSV file already covers.
+    """
+    name = raw_file.name
+    if not _bicimad_is_trip_json(name):
+        print(f"⏭️  Skipping non-trip JSON (station snapshot): {name}")
+        return None
+    if _bicimad_month_covered_by_csv(name, csv_files):
+        print(
+            f"⏭️  Skipping {name}: {_bicimad_json_year_month(name)} already covered by a "
+            f"CSV file (avoiding double-count)"
+        )
+        return None
+
+    row_count = _write_bicimad_movements_csv(raw_file, cleaned_file)
     print(f"✅ Converted {name} → {cleaned_file.name} ({row_count} rows)")
     return cleaned_file
 

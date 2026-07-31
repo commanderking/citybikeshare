@@ -203,19 +203,10 @@ def calculate_end_time(df, context):
     return df
 
 
-def reconcile_madrid_times(df, config, context):
-    """Unify BiciMAD's two schema eras into canonical start_time, end_time, duration_seconds.
-
-    The eras encode time differently and can't be reconciled by renaming alone: JSON
-    (2017–2021H1) has `duration_seconds` (from travel_time) and an hour-truncated start with
-    no end; CSV (2021H2–2023) has `duration_minutes` and precise unlock/lock timestamps. This
-    is the explicit discriminator for that fork — it dispatches on which columns the renamed
-    frame actually carries rather than leaving it to implicit downstream behavior.
-    """
-    date_formats = config["date_formats"]
-    columns = df.collect_schema().names()
-
-    # Canonical duration in seconds, from whichever era's column is present.
+def _add_madrid_duration_seconds(df, columns):
+    """Set canonical `duration_seconds` from whichever era's column is present: JSON's
+    `duration_seconds` (already seconds) or CSV's `duration_minutes` (×60). Fails loud if
+    neither survived rename, since every downstream time derivation depends on it."""
     duration_parts = []
     if "duration_seconds" in columns:
         duration_parts.append(pl.col("duration_seconds").cast(pl.Float64, strict=False))
@@ -228,51 +219,101 @@ def reconcile_madrid_times(df, config, context):
             "Madrid: no duration column after rename (expected duration_seconds or "
             "duration_minutes) — check renamed_columns."
         )
-    df = df.with_columns(pl.coalesce(duration_parts).alias("duration_seconds"))
+    return df.with_columns(pl.coalesce(duration_parts).alias("duration_seconds"))
 
-    # BiciMAD encodes the same Madrid-local hour bucket three ways across eras — CSV naive ISO,
-    # JSON movements "...Z", and JSON Usage "...+0200" (Mongo $date, unwrapped in clean). The
-    # tz markers are inconsistent and the values are hour-granular, so strip any trailing
-    # Z/±HH[:]MM (and fractional seconds) and parse everything as naive local wall-clock.
-    date_columns = [c for c in ("start_time", "end_time") if c in columns]
+
+def _madrid_local_datetime_expr(col: str, date_formats) -> pl.Expr:
+    """Expr parsing one BiciMAD timestamp column to NAIVE Europe/Madrid local time, honoring
+    the tz marker each era carries. `...Z` (movements, UTC) and `...±HHMM` (Usage) are parsed
+    tz-aware and converted to Madrid local — so the movements era's UTC is shifted to local
+    (+1 winter / +2 summer) instead of silently kept as UTC; naive CSV strings parse as-is.
+    Both branches end naive, so they share a dtype and coalesce cleanly (a tz-aware branch
+    coalesced directly with a naive one has no common supertype — the reason a bare %z format
+    can't just live in the yaml)."""
+    without_fraction = pl.col(col).str.replace(r"\.\d+", "")
+    candidates = []
+    for fmt in date_formats:
+        candidates.append(
+            without_fraction.str.replace("Z", "+0000")
+            .str.strptime(pl.Datetime, fmt + "%z", strict=False)
+            .dt.convert_time_zone("Europe/Madrid")
+            .dt.replace_time_zone(None)
+        )
+        candidates.append(without_fraction.str.strptime(pl.Datetime, fmt, strict=False))
+    return pl.coalesce(candidates).cast(pl.Datetime("ms"))
+
+
+def _parse_madrid_local_times(df, columns, date_formats):
+    """Parse the given timestamp columns to naive Madrid local time (see
+    _madrid_local_datetime_expr), failing loud on a non-empty value that parses to null under
+    every candidate — a format the eras don't account for. Empty values stay null."""
+    df = df.with_columns([pl.col(c).alias(f"{c}_pre_clean") for c in columns])
     df = df.with_columns(
-        [
-            pl.col(c).str.replace(r"(\.\d+)?(Z|[+-]\d{2}:?\d{2})$", "")
-            for c in date_columns
-        ]
+        [_madrid_local_datetime_expr(c, date_formats).alias(c) for c in columns]
     )
+    # Materialize once (the single CSV scan+parse) to validate, then hand downstream a
+    # memory-backed lazy frame so sink_parquet won't re-parse.
+    frame = df.collect(engine="streaming")
+    guidance = (
+        f"They parsed under none of date_formats={date_formats} (with an optional trailing "
+        f"Z/±HHMM offset). Add the matching format to madrid.yaml."
+    )
+    _assert_columns_parsed(frame, columns, guidance)
+    return frame.drop([f"{c}_pre_clean" for c in columns]).lazy()
 
-    # Parse the datetime columns actually present (JSON has no end_time). The shared converter
-    # fails loud on a value matching none of date_formats.
-    df = df.pipe(convert_columns_to_datetime(date_columns, date_formats))
 
-    # Derive end_time where the source lacks it (JSON era) as start + duration; where present
-    # (CSV era) keep the precise value and only fall back to the derived one if it's null.
+def _derive_madrid_end_time(df, has_source_end: bool):
+    """Set end_time to start_time + duration_seconds where the source lacks it (JSON era). When
+    the source has a precise end_time (CSV era), keep it and only fall back to the derived value
+    where it's null."""
     derived_end = pl.col("start_time") + pl.duration(
         seconds=pl.col("duration_seconds").cast(pl.Int64, strict=False)
     )
-    if "end_time" in columns:
-        df = df.with_columns(
-            pl.coalesce([pl.col("end_time"), derived_end]).alias("end_time")
-        )
-    else:
-        df = df.with_columns(derived_end.alias("end_time"))
+    end_time = (
+        pl.coalesce([pl.col("end_time"), derived_end])
+        if has_source_end
+        else derived_end
+    )
+    return df.with_columns(end_time.alias("end_time"))
 
-    # Make the schema uniform across both eras so the per-file parquets combine at partition
-    # time. Every final column except the three typed ones (start_time/end_time Datetime,
-    # duration_seconds Float64) is a String field here; cast the ones present and add the ones
-    # this era lacks as typed-null Utf8 — otherwise a column missing in one era would land as
-    # Null dtype and clash with String from the other era when the parquets are scanned together.
+
+def _uniformize_final_string_columns(df, config):
+    """Give every final column except the typed ones (start_time/end_time Datetime,
+    duration_seconds Float64) a uniform Utf8 dtype — casting those present and adding those this
+    era lacks as typed-null — so the per-file parquets combine at partition time. A column
+    missing in one era would otherwise land as Null dtype and clash with String from the other
+    when the parquets are scanned together."""
     typed_columns = {"start_time", "end_time", "duration_seconds"}
     string_columns = [
         c for c in config.get("final_columns", []) if c not in typed_columns
     ]
     present = set(df.collect_schema().names())
-    df = df.with_columns(
+    return df.with_columns(
         [pl.col(c).cast(pl.Utf8) for c in string_columns if c in present]
-        + [pl.lit(None, dtype=pl.Utf8).alias(c) for c in string_columns if c not in present]
+        + [
+            pl.lit(None, dtype=pl.Utf8).alias(c)
+            for c in string_columns
+            if c not in present
+        ]
     )
 
+
+def reconcile_madrid_times(df, config, context):
+    """Unify BiciMAD's two schema eras into canonical start_time, end_time, duration_seconds.
+
+    The eras encode time differently and can't be reconciled by renaming alone: JSON
+    (2017–2021H1) has `duration_seconds` (from travel_time) and an hour-truncated start with
+    no end; CSV (2021H2–2023) has `duration_minutes` and precise unlock/lock timestamps. This
+    is the explicit discriminator for that fork — it dispatches on which columns the renamed
+    frame actually carries rather than leaving it to implicit downstream behavior.
+    """
+    columns = df.collect_schema().names()
+    date_columns = [c for c in ("start_time", "end_time") if c in columns]
+
+    df = _add_madrid_duration_seconds(df, columns)
+    df = _parse_madrid_local_times(df, date_columns, config["date_formats"])
+    df = _derive_madrid_end_time(df, has_source_end="end_time" in columns)
+    df = _uniformize_final_string_columns(df, config)
     return df
 
 
@@ -1075,7 +1116,9 @@ def normalize_bike_type(df: pl.LazyFrame) -> pl.LazyFrame:
         "Add it to BIKE_TYPE_MAP (map to None if it's a known non-bike/unclassified value, "
         "or to NULL_TOKENS if it means 'no value recorded').",
     )
-    canonical = {k: (str(v) if v is not None else None) for k, v in BIKE_TYPE_MAP.items()}
+    canonical = {
+        k: (str(v) if v is not None else None) for k, v in BIKE_TYPE_MAP.items()
+    }
     return df.with_columns(
         raw.alias("bike_model"),
         raw.replace_strict(canonical, default=None).alias("bike_type"),
@@ -1282,27 +1325,27 @@ PROCESSING_FUNCTIONS = {
     "reconcile_madrid_times": lambda df, config, context: reconcile_madrid_times(
         df, config, context
     ),
-    "convert_milliseconds_to_datetime": lambda df,
-    config,
-    context: convert_milliseconds_to_datetime(df),
+    "convert_milliseconds_to_datetime": lambda df, config, context: (
+        convert_milliseconds_to_datetime(df)
+    ),
     ### Montreal
-    "resolve_montreal_station_names": lambda df,
-    config,
-    context: resolve_montreal_station_names(df, config, context),
+    "resolve_montreal_station_names": lambda df, config, context: (
+        resolve_montreal_station_names(df, config, context)
+    ),
     "filter_null_rows": lambda df, config, context: filter_null_rows(df),
     # City-centric functions
     ### Oslo
-    "handle_oslo_legacy_stations": lambda df,
-    config,
-    context: handle_oslo_legacy_stations(df, config, context),
+    "handle_oslo_legacy_stations": lambda df, config, context: (
+        handle_oslo_legacy_stations(df, config, context)
+    ),
     ### Philadelphia and Los Angeles
-    "process_bicycle_transit_stations": lambda df,
-    config,
-    context: process_bicycle_transit_system(df, context),
+    "process_bicycle_transit_stations": lambda df, config, context: (
+        process_bicycle_transit_system(df, context)
+    ),
     ### Guadalajara
-    "handle_guadalajara_stations": lambda df,
-    config,
-    context: handle_guadalajara_stations(df, config, context),
+    "handle_guadalajara_stations": lambda df, config, context: (
+        handle_guadalajara_stations(df, config, context)
+    ),
     "normalize_birth_year": lambda df, config, context: normalize_birth_year(
         df, config, context
     ),
@@ -1314,9 +1357,9 @@ PROCESSING_FUNCTIONS = {
         df
     ),
     ### Mexico City
-    "join_mexico_city_station_names": lambda df,
-    config,
-    context: join_mexico_city_station_names(df, config, context),
+    "join_mexico_city_station_names": lambda df, config, context: (
+        join_mexico_city_station_names(df, config, context)
+    ),
     "recover_corrupt_times": lambda df, config, context: recover_corrupt_times(
         df, config, context
     ),

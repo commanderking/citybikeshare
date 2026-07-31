@@ -69,13 +69,13 @@ renamed_columns:
   # intentionally dropped: fecha (date-only dup of unlock_date), address_unlock/lock
   # (free-text), locktype/unlocktype (constant "STATION" markers)
 
-# Only one format is listed because reconcile_madrid_times strips trailing tz markers (Z /
-# ±HHMM) before parsing, reducing all three eras to naive ISO. The CSV naive form and the JSON "...Z" form are # both fine (Z parses as a literal → naive datetime). The Usage era's (JSON) "...+0200"/"+0100" offset is the 
-# blocker: a  variable offset can't be a literal, so it needs %z, and %z yields a timezone-AWARE Datetime.
-# _parse_date_columns coalesces every candidate format together, and polars can't coalesce a
-# tz-aware column with the naive ones the other eras need (no common supertype) — so adding the
-# %z format here breaks the whole parse. %z would also silently shift the value to UTC
-# (01:00+0200 → 23:00 the previous day). 
+# One base ISO format; reconcile_madrid_times tries it both as-is (naive) and with a trailing
+# %z offset, so all three eras parse: CSV is naive local; the Usage era's "...+0200"/"+0100" and
+# the movements era's "...Z" (UTC) are parsed tz-aware, converted to Europe/Madrid, then made
+# naive — so movements times shift from UTC to local (+1 winter / +2 summer) instead of being
+# kept as UTC. (The tz-aware branch is resolved to naive before coalescing with the naive one;
+# coalescing a tz-aware column directly with a naive one has no common supertype, which is why a
+# raw %z format can't simply be listed here.) An unaccounted-for format still fails loud.
 date_formats:
   - "%Y-%m-%dT%H:%M:%S"
 
