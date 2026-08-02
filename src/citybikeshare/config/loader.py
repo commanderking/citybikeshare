@@ -4,6 +4,7 @@ import polars as pl
 import yaml
 
 CONFIG_DIR = Path(__file__).parent / "cities"
+API_CONFIG_PATH = Path(__file__).parent / "api.yaml"
 
 DTYPE_MAP = {
     "Utf8": pl.Utf8,
@@ -36,3 +37,11 @@ def load_city_config(city: str) -> Dict[str, Any]:
         return config
     else:
         raise Exception(f"No YAML file found for {city}")
+
+
+def load_api_config(path: Path | None = None) -> Dict[str, Any]:
+    """Return the publish-stage config describing what lands in ``api/``."""
+    yaml_path = path or API_CONFIG_PATH
+    if not yaml_path.exists():
+        raise FileNotFoundError(f"No API config found at {yaml_path}")
+    return yaml.safe_load(yaml_path.read_text())

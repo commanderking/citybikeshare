@@ -117,6 +117,32 @@ it's about the *data's meaning*, it's **transform**. Restoring a missing header 
 `rent_time → start_time` is transform. When a fix could sit in either stage, decide the stage
 *before* optimizing the code within a stage — that framing question comes first.
 
+Downstream of transform: **analyze** computes per-city aggregates into `analysis/<city>/`, and
+**publish** reshapes those into the committed `api/` tree (below). Publish never reads parquet and
+never computes an aggregate — if a number needs deriving, it belongs in analyze.
+
+## `api/` is a public contract; `analysis/` is not
+
+`publish` builds `api/v<schema_version>/` from `analysis/`, and those files are fetched by the web
+client over jsDelivr. Two consequences:
+
+- **Don't point the client at `analysis/` directly.** The indirection is the point: `analysis/` stays
+  free to change shape, and what's public is the enumerated list in `config/api.yaml`.
+- **Two version axes.** `schema_version` is the payload *shape* and lives in the URL path, so it
+  moves only on a breaking field change. New months, new cities, and re-runs after a parsing fix
+  change *contents*, which is a git tag (`data-YYYY-MM-DD`) that jsDelivr caches immutably. Adding
+  2026 data is a tag, never a `schema_version` bump.
+
+Merging a section across cities is only viable while the result is small — `stations` is ~20 MB
+across all cities, at/over jsDelivr's per-file limit and useless to a browser, so it would have to
+be published per-city. Check the size before adding an output.
+
+Because data updates are additive *in the expected case only* — sources restate history, and a
+parsing fix can move counts for years you weren't touching — publish diffs each rebuild against the
+already-published file and reports rows that **changed value**, not just rows added. That's the same
+class of bug as the cumulative-archive duplication above: inflated or altered counts with nothing
+raising an error.
+
 ## Naming: functions are verbs, data is nouns
 
 Name functions for the **action they perform**, using an imperative verb phrase —

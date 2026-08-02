@@ -27,6 +27,7 @@ from citybikeshare.analysis.station_trip_counts import count_station_trips
 from citybikeshare.analysis.canonicalize_station_coords import (
     canonicalize_station_coords,
 )
+from citybikeshare.publish.api import publish_api
 from citybikeshare.etl.inspect import analyze_headers
 from citybikeshare.etl.station_maps import STATION_MAP_BUILDERS
 from citybikeshare.etl.station_coordinates import STATION_COORDINATES_BUILDERS
@@ -226,6 +227,25 @@ def merge_summaries():
     analysis_folder = Path("analysis")
     merge_city_summaries(analysis_folder)
     merge_duration_buckets(analysis_folder)
+
+
+@app.command()
+def publish(
+    strict: bool = typer.Option(
+        False,
+        "--strict",
+        help="Exit non-zero if a previously published row changed value (restated history).",
+    ),
+):
+    """Build the client-facing api/ tree from per-city analysis output.
+
+    Tag the result to cut a data release: `git tag data-$(date +%F) && git push --tags`.
+    Clients pin that tag, which jsDelivr then caches immutably.
+    """
+    ok = publish_api(Path("analysis"), Path("api"), strict=strict)
+    if not ok:
+        raise typer.Exit(code=1)
+    typer.secho("✅ Publish complete", fg=typer.colors.GREEN)
 
 
 # --------------------------------------------------
