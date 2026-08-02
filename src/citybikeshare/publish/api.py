@@ -5,11 +5,9 @@ wrote. That keeps the public payload a pure function of `analysis/`, so a releas
 rebuilt byte-for-byte from a checkout.
 """
 
-import json
 from pathlib import Path
 from typing import Any
 
-from citybikeshare.config.loader import load_api_config
 from citybikeshare.publish.builders import PUBLISH_BUILDERS
 from citybikeshare.publish.manifest import (
     build_manifest,
@@ -50,15 +48,14 @@ def _assert_config_valid(config: dict[str, Any]) -> None:
 def publish_api(
     analysis_folder: Path,
     api_root: Path,
+    config: dict[str, Any],
     *,
     strict: bool = False,
-    config_path: Path | None = None,
 ) -> bool:
     """Build every configured output into ``api/v<schema_version>/``.
 
     Returns False when ``strict`` is set and a previously published row changed value.
     """
-    config = load_api_config(config_path)
     _assert_config_valid(config)
 
     schema_version = config["schema_version"]
@@ -96,17 +93,10 @@ def publish_api(
             print(line)
 
     manifest_path = version_root / "manifest.json"
-    write_json(manifest_path, build_manifest(schema_version, entries))
+    write_json(manifest_path, build_manifest(schema_version, entries, manifest_path))
     print(f"  manifest.json  {len(entries)} outputs")
 
     if history_changed and strict:
         print("❌ --strict: previously published rows changed value")
         return False
     return True
-
-
-def read_manifest(api_root: Path, schema_version: int) -> dict[str, Any] | None:
-    path = api_root / f"v{schema_version}" / "manifest.json"
-    if not path.exists():
-        return None
-    return json.loads(path.read_text(encoding="utf-8"))

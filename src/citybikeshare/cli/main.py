@@ -27,6 +27,7 @@ from citybikeshare.analysis.station_trip_counts import count_station_trips
 from citybikeshare.analysis.canonicalize_station_coords import (
     canonicalize_station_coords,
 )
+from citybikeshare.config.loader import load_api_config
 from citybikeshare.publish.api import publish_api
 from citybikeshare.etl.inspect import analyze_headers
 from citybikeshare.etl.station_maps import STATION_MAP_BUILDERS
@@ -242,7 +243,7 @@ def publish(
     Tag the result to cut a data release: `git tag data-$(date +%F) && git push --tags`.
     Clients pin that tag, which jsDelivr then caches immutably.
     """
-    ok = publish_api(Path("analysis"), Path("api"), strict=strict)
+    ok = publish_api(Path("analysis"), Path("api"), load_api_config(), strict=strict)
     if not ok:
         raise typer.Exit(code=1)
     typer.secho("✅ Publish complete", fg=typer.colors.GREEN)

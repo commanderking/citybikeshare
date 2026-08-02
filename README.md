@@ -243,16 +243,94 @@ Produces `analysis/summary_all_cities.json` and `analysis/duration_buckets_all_c
 ### Publish (build the client API)
 
 `publish` reshapes per-city analysis output into the committed `api/` tree that the web client
-loads over jsDelivr. It computes nothing — it only re-arranges what `analyze` already wrote, so a
-release can be rebuilt byte-for-byte from a checkout.
+loads over jsDelivr.
 
 ```bash
 poetry run citybikeshare publish
 ```
 
 Which files get built is declared in `src/citybikeshare/config/api.yaml`; adding a chart to the
-client should be an entry there, not a new module. Today that's
-`api/v1/all_cities_volume_by_month.json` (~180 KB across 27 cities) plus `api/v1/manifest.json`.
+client should be an entry there, not a new module. 
+
+```mermaid
+flowchart TD
+    VISUALS[/"analysis/&lt;city&gt;/visuals.json\nwritten by analyze · one per city"/]
+    APICFG[/"config/api.yaml\nschema_version · outputs: name, shape, source, section, key"/]
+
+    CLI(["citybikeshare publish"])
+    LOAD["load_api_config()"]
+    PUBLISH["publish_api(analysis_folder, api_root, config, strict)"]
+    VALIDATE["_assert_config_valid(config)\nknown shape · required fields · unique names\nruns before any write"]
+
+    CLI --> LOAD
+    APICFG --> LOAD
+    LOAD --> PUBLISH
+    PUBLISH --> VALIDATE
+
+    subgraph EACH["for each output in config"]
+        BUILD["PUBLISH_BUILDERS dispatch on shape\n= build_merged_section(analysis_folder, spec)"]
+        DISCOVER["discover_cities()"]
+        READSEC["_read_city_section()\npulls spec.section out of each city file"]
+        GUARDS["_assert_sections_found\n_assert_key_fields_present\n_assert_uniform_record_keys\n_assert_unique_keys"]
+        RECORDS[/"records — city-tagged rows, in memory"/]
+
+        PREV[/"api/v1/&lt;name&gt;.json\nprevious release, still on disk"/]
+        DIFF["diff_against_published()\nreads the old file before it is overwritten"]
+        DIFFRES[/"diff · added / removed / changed"/]
+
+        WRITE["write_json(minified=True)"]
+        PAYLOAD[/"api/v1/all_cities_volume_by_month.json"/]
+
+        ENTRY["build_output_entry()\n→ summarize_city_coverage() per city"]
+        FMT["format_diff()"]
+        NOTES[/"release notes on stdout\n+ new rows · ⚠ changed rows"/]
+
+        BUILD --> DISCOVER
+        DISCOVER --> READSEC
+        READSEC --> GUARDS
+        GUARDS --> RECORDS
+        RECORDS --> DIFF
+        PREV --> DIFF
+        DIFF --> DIFFRES
+        DIFFRES --> WRITE
+        WRITE --> PAYLOAD
+        RECORDS --> ENTRY
+        DIFFRES --> FMT
+        FMT --> NOTES
+    end
+
+    VALIDATE --> BUILD
+    VISUALS --> READSEC
+
+    MANIFEST["build_manifest(schema_version, entries, manifest_path)\ncarries generated_at forward when nothing else moved"]
+    MANFILE[/"api/v1/manifest.json\nrows · bytes · sha256 · per-city coverage"/]
+    ENTRY --> MANIFEST
+    MANIFEST --> MANFILE
+
+    STRICT{"--strict and\nrows changed?"}
+    NOTES --> STRICT
+    STRICT -->|yes| FAIL(["exit 1 — nothing to release"])
+    STRICT -->|no| OK(["✅ Publish complete"])
+
+    subgraph RELEASE["Cut a release · manual"]
+        GITADD["git add api && git commit"]
+        GITTAG["git tag -a data-YYYY-MM-DD"]
+        PUSH["git push origin main --tags"]
+        CDN[/"cdn.jsdelivr.net/gh/commanderking/citybikeshare\n@data-YYYY-MM-DD/api/v1/...\nimmutable · cached permanently"/]
+        GITADD --> GITTAG
+        GITTAG --> PUSH
+        PUSH --> CDN
+    end
+
+    OK --> GITADD
+    PAYLOAD -.-> GITADD
+    MANFILE -.-> GITADD
+
+    classDef artifact fill:#eef6ff,stroke:#4a7fb5,color:#123
+    classDef guard fill:#fff6e5,stroke:#c58b2f,color:#123
+    class VISUALS,APICFG,RECORDS,PREV,DIFFRES,PAYLOAD,NOTES,MANFILE,CDN artifact
+    class VALIDATE,GUARDS,STRICT guard
+```
 
 **Two version axes, and only one moves when new data lands:**
 

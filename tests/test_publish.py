@@ -39,13 +39,8 @@ def analysis_folder(tmp_path):
     return folder
 
 
-def write_api_config(tmp_path, **overrides):
-    spec = {**SPEC, **overrides}
-    path = tmp_path / "api.yaml"
-    path.write_text(
-        json.dumps({"schema_version": 1, "outputs": [spec]}), encoding="utf-8"
-    )
-    return path
+def api_config(**overrides):
+    return {"schema_version": 1, "outputs": [{**SPEC, **overrides}]}
 
 
 def test_merges_cities_and_tags_each_record(analysis_folder):
@@ -146,9 +141,7 @@ def test_first_publish_has_no_diff(tmp_path):
 def test_publish_writes_payload_and_manifest(tmp_path, analysis_folder):
     api_root = tmp_path / "api"
 
-    assert publish_api(
-        analysis_folder, api_root, config_path=write_api_config(tmp_path)
-    )
+    assert publish_api(analysis_folder, api_root, api_config())
 
     payload = json.loads(
         (api_root / "v1" / "all_cities_volume_by_month.json").read_text(
@@ -173,43 +166,69 @@ def test_publish_writes_payload_and_manifest(tmp_path, analysis_folder):
 
 def test_republishing_unchanged_analysis_is_byte_identical(tmp_path, analysis_folder):
     api_root = tmp_path / "api"
-    config_path = write_api_config(tmp_path)
     published = api_root / "v1" / "all_cities_volume_by_month.json"
+    manifest = api_root / "v1" / "manifest.json"
 
-    publish_api(analysis_folder, api_root, config_path=config_path)
-    first = published.read_bytes()
-    publish_api(analysis_folder, api_root, config_path=config_path)
+    publish_api(analysis_folder, api_root, api_config())
+    first_payload = published.read_bytes()
+    first_manifest = manifest.read_bytes()
+    publish_api(analysis_folder, api_root, api_config())
 
-    assert published.read_bytes() == first
+    assert published.read_bytes() == first_payload
+    # The manifest too — a no-op republish must not dirty it with a fresh wall-clock stamp.
+    assert manifest.read_bytes() == first_manifest
+
+
+def stamp_manifest(api_root, generated_at):
+    """Backdate the published manifest so timestamp assertions don't race the clock."""
+    path = api_root / "v1" / "manifest.json"
+    manifest = json.loads(path.read_text(encoding="utf-8"))
+    manifest["generated_at"] = generated_at
+    path.write_text(json.dumps(manifest), encoding="utf-8")
+
+
+def read_generated_at(api_root):
+    manifest = json.loads(
+        (api_root / "v1" / "manifest.json").read_text(encoding="utf-8")
+    )
+    return manifest["generated_at"]
+
+
+def test_generated_at_tracks_data_changes_not_publish_runs(tmp_path, analysis_folder):
+    api_root = tmp_path / "api"
+    sentinel = "2020-01-01T00:00:00Z"
+
+    publish_api(analysis_folder, api_root, api_config())
+    stamp_manifest(api_root, sentinel)
+
+    publish_api(analysis_folder, api_root, api_config())
+    assert read_generated_at(api_root) == sentinel
+
+    write_city(analysis_folder, "austin", [month(2025, 1, 50), month(2025, 2, 60)])
+    publish_api(analysis_folder, api_root, api_config())
+    assert read_generated_at(api_root) != sentinel
 
 
 def test_strict_fails_when_published_history_is_restated(tmp_path, analysis_folder):
     api_root = tmp_path / "api"
-    config_path = write_api_config(tmp_path)
-    publish_api(analysis_folder, api_root, config_path=config_path)
+    publish_api(analysis_folder, api_root, api_config())
 
     write_city(analysis_folder, "boston", [month(2025, 1, 999), month(2025, 2, 200)])
 
-    assert not publish_api(
-        analysis_folder, api_root, strict=True, config_path=config_path
-    )
+    assert not publish_api(analysis_folder, api_root, api_config(), strict=True)
     # Appending a month is not a restatement, so strict stays happy.
     write_city(
         analysis_folder,
         "boston",
         [month(2025, 1, 999), month(2025, 2, 200), month(2025, 3, 300)],
     )
-    assert publish_api(analysis_folder, api_root, strict=True, config_path=config_path)
+    assert publish_api(analysis_folder, api_root, api_config(), strict=True)
 
 
 def test_unknown_shape_fails_before_writing_anything(tmp_path, analysis_folder):
     api_root = tmp_path / "api"
 
     with pytest.raises(ValueError, match="unknown shape"):
-        publish_api(
-            analysis_folder,
-            api_root,
-            config_path=write_api_config(tmp_path, shape="merge_planets"),
-        )
+        publish_api(analysis_folder, api_root, api_config(shape="merge_planets"))
 
     assert not api_root.exists()

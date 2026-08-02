@@ -63,13 +63,38 @@ def build_output_entry(
     return entry
 
 
-def build_manifest(schema_version: int, outputs: dict[str, Any]) -> dict[str, Any]:
-    return {
-        "schema_version": schema_version,
-        "generated_at": datetime.now(timezone.utc)
+def _utc_now() -> str:
+    return (
+        datetime.now(timezone.utc)
         .replace(microsecond=0)
         .isoformat()
-        .replace("+00:00", "Z"),
+        .replace("+00:00", "Z")
+    )
+
+
+def _without_timestamp(manifest: dict[str, Any]) -> dict[str, Any]:
+    return {k: v for k, v in manifest.items() if k != "generated_at"}
+
+
+def build_manifest(
+    schema_version: int, outputs: dict[str, Any], previous_path: Path
+) -> dict[str, Any]:
+    """Assemble the manifest, carrying the previous timestamp forward when nothing else moved.
+
+    That makes ``generated_at`` mean "when this data last changed" rather than "when publish
+    last ran", so re-running publish on unchanged analysis doesn't dirty the file in git.
+    """
+    content = {"schema_version": schema_version, "outputs": outputs}
+
+    generated_at = _utc_now()
+    if previous_path.exists():
+        previous = json.loads(previous_path.read_text(encoding="utf-8"))
+        if _without_timestamp(previous) == content:
+            generated_at = previous.get("generated_at", generated_at)
+
+    return {
+        "schema_version": schema_version,
+        "generated_at": generated_at,
         "outputs": outputs,
     }
 

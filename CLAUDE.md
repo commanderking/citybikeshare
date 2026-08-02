@@ -128,20 +128,7 @@ client over jsDelivr. Two consequences:
 
 - **Don't point the client at `analysis/` directly.** The indirection is the point: `analysis/` stays
   free to change shape, and what's public is the enumerated list in `config/api.yaml`.
-- **Two version axes.** `schema_version` is the payload *shape* and lives in the URL path, so it
-  moves only on a breaking field change. New months, new cities, and re-runs after a parsing fix
-  change *contents*, which is a git tag (`data-YYYY-MM-DD`) that jsDelivr caches immutably. Adding
-  2026 data is a tag, never a `schema_version` bump.
 
-Merging a section across cities is only viable while the result is small — `stations` is ~20 MB
-across all cities, at/over jsDelivr's per-file limit and useless to a browser, so it would have to
-be published per-city. Check the size before adding an output.
-
-Because data updates are additive *in the expected case only* — sources restate history, and a
-parsing fix can move counts for years you weren't touching — publish diffs each rebuild against the
-already-published file and reports rows that **changed value**, not just rows added. That's the same
-class of bug as the cumulative-archive duplication above: inflated or altered counts with nothing
-raising an error.
 
 ## Naming: functions are verbs, data is nouns
 
