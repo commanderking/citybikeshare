@@ -267,45 +267,45 @@ flowchart TD
     LOAD --> PUBLISH
     PUBLISH --> VALIDATE
 
-    subgraph EACH["for each output in config"]
+    subgraph PHASE1["phase 1 · _build_all_outputs() — writes nothing"]
         BUILD["PUBLISH_BUILDERS dispatch on shape\n= build_merged_section(analysis_folder, spec)"]
         DISCOVER["discover_cities()"]
         READSEC["_read_city_section()\npulls spec.section out of each city file"]
         GUARDS["_assert_sections_found\n_assert_key_fields_present\n_assert_uniform_record_keys\n_assert_unique_keys"]
-        RECORDS[/"records — city-tagged rows, in memory"/]
-
         PREV[/"api/v1/&lt;name&gt;.json\nprevious release, still on disk"/]
-        DIFF["diff_against_published()\nreads the old file before it is overwritten"]
-        DIFFRES[/"diff · added / removed / changed"/]
-
-        WRITE["write_json(minified=True)"]
-        PAYLOAD[/"api/v1/all_cities_volume_by_month.json"/]
-
-        ENTRY["build_output_entry()\n→ summarize_city_coverage() per city"]
-        FMT["format_diff()"]
-        NOTES[/"release notes on stdout\n+ new rows · ⚠ changed rows"/]
+        DIFF["diff_against_published()\nsafe to read — nothing written yet"]
+        BUILT[/"BuiltOutput per config entry\nrecords · diff · destination, all in memory"/]
 
         BUILD --> DISCOVER
         DISCOVER --> READSEC
         READSEC --> GUARDS
-        GUARDS --> RECORDS
-        RECORDS --> DIFF
+        GUARDS --> DIFF
         PREV --> DIFF
-        DIFF --> DIFFRES
-        DIFFRES --> WRITE
+        DIFF --> BUILT
+    end
+
+    subgraph PHASE2["phase 2 · _write_all_outputs() — only runs if every build succeeded"]
+        WRITE["write_json(minified=True)\nper output"]
+        PAYLOAD[/"api/v1/all_cities_volume_by_month.json"/]
+        ENTRY["build_output_entry()\n→ summarize_city_coverage() per city"]
+        MANIFEST["build_manifest()\ncarries generated_at forward when nothing else moved"]
+        MANFILE[/"api/v1/manifest.json\nrows · bytes · sha256 · per-city coverage"/]
+
         WRITE --> PAYLOAD
-        RECORDS --> ENTRY
-        DIFFRES --> FMT
-        FMT --> NOTES
+        PAYLOAD --> ENTRY
+        ENTRY --> MANIFEST
+        MANIFEST --> MANFILE
     end
 
     VALIDATE --> BUILD
     VISUALS --> READSEC
+    BUILT --> WRITE
 
-    MANIFEST["build_manifest(schema_version, entries, manifest_path)\ncarries generated_at forward when nothing else moved"]
-    MANFILE[/"api/v1/manifest.json\nrows · bytes · sha256 · per-city coverage"/]
-    ENTRY --> MANIFEST
-    MANIFEST --> MANFILE
+    REPORT["_report_release()"]
+    NOTES[/"release notes on stdout\n+ new rows · ⚠ changed rows"/]
+    MANFILE --> REPORT
+    BUILT -.-> REPORT
+    REPORT --> NOTES
 
     STRICT{"--strict and\nrows changed?"}
     NOTES --> STRICT
@@ -328,7 +328,7 @@ flowchart TD
 
     classDef artifact fill:#eef6ff,stroke:#4a7fb5,color:#123
     classDef guard fill:#fff6e5,stroke:#c58b2f,color:#123
-    class VISUALS,APICFG,RECORDS,PREV,DIFFRES,PAYLOAD,NOTES,MANFILE,CDN artifact
+    class VISUALS,APICFG,PREV,BUILT,PAYLOAD,NOTES,MANFILE,CDN artifact
     class VALIDATE,GUARDS,STRICT guard
 ```
 
@@ -362,7 +362,7 @@ an error anywhere upstream. Use `--strict` to exit non-zero on a restatement.
 
 ```
   all_cities_volume_by_month.json  3,194 rows  27 cities  180 KB
-   + 3 new rows: boston 2026-01..2026-02 (2), chicago 2026-01 (1)
+   + 3 new rows: boston (2), chicago (1)
    ⚠️  1 previously published row CHANGED (history was restated — confirm this is a fix, not duplication):
        boston 2025-11  trips: 100 → 148
 ```

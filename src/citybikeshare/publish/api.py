@@ -5,10 +5,11 @@ wrote. That keeps the public payload a pure function of `analysis/`, so a releas
 rebuilt byte-for-byte from a checkout.
 """
 
+from dataclasses import dataclass
 from pathlib import Path
 from typing import Any
 
-from citybikeshare.publish.builders import PUBLISH_BUILDERS
+from citybikeshare.publish.builders import PUBLISH_BUILDERS, Records
 from citybikeshare.publish.manifest import (
     build_manifest,
     build_output_entry,
@@ -18,6 +19,24 @@ from citybikeshare.publish.manifest import (
 from citybikeshare.utils.io import write_json
 
 REQUIRED_OUTPUT_FIELDS = ("name", "shape", "key")
+
+
+@dataclass(frozen=True)
+class BuiltOutput:
+    """One output assembled in memory, before anything has been written to ``api/``."""
+
+    spec: dict[str, Any]
+    destination: Path
+    records: Records
+    diff: dict[str, Any] | None
+
+    @property
+    def name(self) -> str:
+        return self.spec["name"]
+
+    @property
+    def restates_history(self) -> bool:
+        return bool(self.diff and self.diff["changed"])
 
 
 def _assert_config_valid(config: dict[str, Any]) -> None:
@@ -45,6 +64,58 @@ def _assert_config_valid(config: dict[str, Any]) -> None:
         seen.add(spec["name"])
 
 
+def _build_all_outputs(
+    analysis_folder: Path, version_root: Path, config: dict[str, Any]
+) -> list[BuiltOutput]:
+    """Assemble every output and diff it against its published copy, writing nothing.
+
+    Keeping the whole build ahead of the whole write is what makes a failed publish a no-op:
+    a builder that raises on the third output (duplicate keys, schema drift, a city missing
+    its section) leaves the previous release intact rather than half-replaced, with a
+    manifest that no longer matches the payloads beside it.
+    """
+    built = []
+    for spec in config["outputs"]:
+        destination = version_root / f"{spec['name']}.json"
+        records = PUBLISH_BUILDERS[spec["shape"]](analysis_folder, spec)
+        # Safe to read the previous release here precisely because nothing has been written.
+        diff = diff_against_published(destination, records, spec["key"])
+        built.append(BuiltOutput(spec, destination, records, diff))
+    return built
+
+
+def _write_all_outputs(
+    built: list[BuiltOutput], schema_version: int, manifest_path: Path
+) -> dict[str, Any]:
+    """Write every payload and the manifest; return the manifest's per-output entries."""
+    entries: dict[str, Any] = {}
+    for output in built:
+        # Minified: this is CDN payload, not something to read in a diff. The manifest and
+        # the release notes are the human-readable view.
+        write_json(output.destination, output.records, minified=True)
+        # Hash what actually landed on disk, so the manifest can't describe an intent that
+        # the file doesn't match.
+        payload = output.destination.read_text(encoding="utf-8")
+        entries[output.name] = build_output_entry(
+            output.destination.name, output.records, payload
+        )
+
+    write_json(manifest_path, build_manifest(schema_version, entries, manifest_path))
+    return entries
+
+
+def _report_release(built: list[BuiltOutput], entries: dict[str, Any]) -> None:
+    for output in built:
+        entry = entries[output.name]
+        print(
+            f"  {output.destination.name}  {entry['rows']:,} rows  "
+            f"{len(entry['cities'])} cities  {entry['bytes'] / 1024:,.0f} KB"
+        )
+        for line in format_diff(output.diff, output.spec["key"]):
+            print(line)
+    print(f"  manifest.json  {len(entries)} outputs")
+
+
 def publish_api(
     analysis_folder: Path,
     api_root: Path,
@@ -63,40 +134,11 @@ def publish_api(
 
     print(f"📦 Publishing {version_root} from {analysis_folder}")
 
-    entries: dict[str, Any] = {}
-    history_changed = False
+    built = _build_all_outputs(analysis_folder, version_root, config)
+    entries = _write_all_outputs(built, schema_version, version_root / "manifest.json")
+    _report_release(built, entries)
 
-    for spec in config["outputs"]:
-        name = spec["name"]
-        file_name = f"{name}.json"
-        destination = version_root / file_name
-
-        records, missing_cities = PUBLISH_BUILDERS[spec["shape"]](analysis_folder, spec)
-
-        # Diff before overwriting — the file on disk is the previous release.
-        diff = diff_against_published(destination, records, spec["key"])
-        if diff and diff["changed"]:
-            history_changed = True
-
-        # Minified: this is CDN payload, not something to read in a diff. The manifest and
-        # the release notes below are the human-readable view.
-        write_json(destination, records, minified=True)
-        payload = destination.read_text(encoding="utf-8")
-
-        entries[name] = build_output_entry(file_name, records, payload, missing_cities)
-        city_count = len(entries[name]["cities"])
-        size_kb = entries[name]["bytes"] / 1024
-        print(
-            f"  {file_name}  {len(records):,} rows  {city_count} cities  {size_kb:,.0f} KB"
-        )
-        for line in format_diff(diff, spec["key"]):
-            print(line)
-
-    manifest_path = version_root / "manifest.json"
-    write_json(manifest_path, build_manifest(schema_version, entries, manifest_path))
-    print(f"  manifest.json  {len(entries)} outputs")
-
-    if history_changed and strict:
+    if strict and any(output.restates_history for output in built):
         print("❌ --strict: previously published rows changed value")
         return False
     return True

@@ -6,6 +6,7 @@ from citybikeshare.publish.api import publish_api
 from citybikeshare.publish.builders import build_merged_section
 from citybikeshare.publish.manifest import (
     diff_against_published,
+    format_diff,
     summarize_city_coverage,
 )
 
@@ -44,9 +45,8 @@ def api_config(**overrides):
 
 
 def test_merges_cities_and_tags_each_record(analysis_folder):
-    records, missing = build_merged_section(analysis_folder, SPEC)
+    records = build_merged_section(analysis_folder, SPEC)
 
-    assert missing == []
     assert [r["city"] for r in records] == ["austin", "boston", "boston"]
     assert records[0] == {"city": "austin", "year": 2025, "month": 1, "trips": 50}
 
@@ -56,17 +56,6 @@ def test_missing_section_raises_rather_than_dropping_the_city(analysis_folder):
 
     with pytest.raises(ValueError, match="helsinki"):
         build_merged_section(analysis_folder, SPEC)
-
-
-def test_missing_section_allowed_when_declared(analysis_folder):
-    write_city(analysis_folder, "helsinki", [], name="by_hour")
-
-    records, missing = build_merged_section(
-        analysis_folder, {**SPEC, "require_all_cities": False}
-    )
-
-    assert missing == ["helsinki"]
-    assert {r["city"] for r in records} == {"austin", "boston"}
 
 
 def test_disagreeing_record_fields_raise(analysis_folder):
@@ -136,6 +125,69 @@ def test_diff_separates_appended_rows_from_restated_history(tmp_path):
 
 def test_first_publish_has_no_diff(tmp_path):
     assert diff_against_published(tmp_path / "absent.json", [], ["city"]) is None
+
+
+KEY = ["city", "year", "month"]
+
+
+def test_release_notes_for_a_first_publish():
+    assert format_diff(None, KEY) == [
+        "   first publish — no previous release to compare against"
+    ]
+
+
+def test_release_notes_when_nothing_moved():
+    empty = {"added": [], "removed": [], "changed": []}
+
+    assert format_diff(empty, KEY) == ["   no change since the previous release"]
+
+
+def test_release_notes_tally_added_and_removed_rows_by_city():
+    diff = {
+        "added": [("boston", 2026, 1), ("boston", 2026, 2), ("chicago", 2026, 1)],
+        "removed": [("austin", 2019, 5)],
+        "changed": [],
+    }
+
+    assert format_diff(diff, KEY) == [
+        "   + 3 new rows: boston (2), chicago (1)",
+        "   - 1 rows removed: austin (1)",
+    ]
+
+
+def test_release_notes_call_out_restated_history():
+    diff = {
+        "added": [],
+        "removed": [],
+        "changed": [
+            {
+                "key": {"city": "boston", "year": 2025, "month": 11},
+                "from": {"trips": 100},
+                "to": {"trips": 1148},
+            }
+        ],
+    }
+
+    lines = format_diff(diff, KEY)
+
+    assert "1 previously published row CHANGED" in lines[0]
+    assert lines[1] == "       boston 2025-11  trips: 100 → 1,148"
+
+
+def test_release_notes_truncate_a_long_list_of_changes():
+    changed = [
+        {
+            "key": {"city": "boston", "year": 2025, "month": m},
+            "from": {"trips": 1},
+            "to": {"trips": 2},
+        }
+        for m in range(1, 13)
+    ]
+
+    lines = format_diff({"added": [], "removed": [], "changed": changed}, KEY)
+
+    assert "12 previously published rows CHANGED" in lines[0]
+    assert lines[-1] == "       … and 2 more"
 
 
 def test_publish_writes_payload_and_manifest(tmp_path, analysis_folder):
@@ -223,6 +275,33 @@ def test_strict_fails_when_published_history_is_restated(tmp_path, analysis_fold
         [month(2025, 1, 999), month(2025, 2, 200), month(2025, 3, 300)],
     )
     assert publish_api(analysis_folder, api_root, api_config(), strict=True)
+
+
+def test_builder_failure_leaves_the_previous_release_untouched(
+    tmp_path, analysis_folder
+):
+    """A later output blowing up must not half-replace the release — otherwise the manifest
+    describes a state the payloads beside it no longer match."""
+    api_root = tmp_path / "api"
+    payload = api_root / "v1" / "all_cities_volume_by_month.json"
+    manifest = api_root / "v1" / "manifest.json"
+
+    publish_api(analysis_folder, api_root, api_config())
+    published_payload = payload.read_bytes()
+    published_manifest = manifest.read_bytes()
+
+    # New data for the first output, and a second output whose `key` names a field the
+    # records don't have — passes config validation, fails inside the builder.
+    write_city(analysis_folder, "boston", [month(2025, 1, 100), month(2026, 4, 400)])
+    config = api_config()
+    config["outputs"].append({**SPEC, "name": "second", "key": ["city", "quarter"]})
+
+    with pytest.raises(ValueError, match="`key` names"):
+        publish_api(analysis_folder, api_root, config)
+
+    assert payload.read_bytes() == published_payload
+    assert manifest.read_bytes() == published_manifest
+    assert not (api_root / "v1" / "second.json").exists()
 
 
 def test_unknown_shape_fails_before_writing_anything(tmp_path, analysis_folder):

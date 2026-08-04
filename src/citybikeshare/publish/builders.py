@@ -35,18 +35,13 @@ def _read_city_section(
 def _assert_sections_found(
     missing: list[str], spec: dict[str, Any], cities: list[str]
 ) -> None:
-    """A city missing a published section means that city vanishes from the client with no
-    other symptom, so it has to be declared in config rather than discovered in production.
-    """
+    """A city missing a published section would vanish from the client with no other symptom."""
     if not missing:
-        return
-    if not spec.get("require_all_cities", True):
         return
     raise ValueError(
         f"Output '{spec['name']}': {len(missing)} of {len(cities)} cities have no "
         f"'{spec['section']}' section in {spec['source']}.json: {', '.join(missing)}. "
-        "Re-run `analyze` for them, or set `require_all_cities: false` on this output if "
-        "their absence is expected (the manifest will then record them as missing)."
+        "Re-run `analyze` for them."
     )
 
 
@@ -95,14 +90,8 @@ def _assert_key_fields_present(
         )
 
 
-def build_merged_section(
-    analysis_folder: Path, spec: dict[str, Any]
-) -> tuple[Records, list[str]]:
-    """Concatenate one section across every city, tagging each record with its city.
-
-    Returns the records and the cities that had no such section (empty unless the output
-    sets ``require_all_cities: false``).
-    """
+def build_merged_section(analysis_folder: Path, spec: dict[str, Any]) -> Records:
+    """Concatenate one section across every city, tagging each record with its city."""
     cities = discover_cities(analysis_folder)
     records: Records = []
     missing: list[str] = []
@@ -124,14 +113,12 @@ def build_merged_section(
     _assert_uniform_record_keys(records, spec)
     _assert_unique_keys(records, key, spec)
 
-    return records, missing
+    return records
 
 
 # `shape` dispatches through this registry so an unknown value fails loud at load time
 # rather than silently matching nothing. Per-city outputs (`stations` is ~20 MB merged and
 # has to be split) are the next entry.
-PUBLISH_BUILDERS: dict[
-    str, Callable[[Path, dict[str, Any]], tuple[Records, list[str]]]
-] = {
+PUBLISH_BUILDERS: dict[str, Callable[[Path, dict[str, Any]], Records]] = {
     "merge_cities": build_merged_section,
 }

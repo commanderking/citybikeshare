@@ -9,6 +9,7 @@ publish compares against the previous release and says so out loud.
 
 import hashlib
 import json
+from collections import Counter
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
@@ -42,13 +43,13 @@ def summarize_city_coverage(records: Records) -> dict[str, Any]:
 
 
 def build_output_entry(
-    file_name: str, records: Records, payload: str, missing_cities: list[str]
+    file_name: str, records: Records, payload: str
 ) -> dict[str, Any]:
     by_city: dict[str, Records] = {}
     for record in records:
         by_city.setdefault(record["city"], []).append(record)
 
-    entry: dict[str, Any] = {
+    return {
         "file": file_name,
         "rows": len(records),
         "bytes": len(payload.encode("utf-8")),
@@ -58,9 +59,6 @@ def build_output_entry(
             for city, rows in sorted(by_city.items())
         },
     }
-    if missing_cities:
-        entry["missing_cities"] = missing_cities
-    return entry
 
 
 def _utc_now() -> str:
@@ -157,29 +155,13 @@ def _describe_movement(change: dict[str, Any]) -> str:
     return ", ".join(parts)
 
 
-def _describe_span(keys: list[tuple], key_fields: list[str]) -> str:
-    """``boston 2026-01..2026-06, chicago 2026-01`` for a set of row keys."""
-    city_index = key_fields.index("city") if "city" in key_fields else None
-    by_city: dict[str, list[tuple]] = {}
-    for identity in keys:
-        city = identity[city_index] if city_index is not None else "—"
-        by_city.setdefault(city, []).append(identity)
-
-    parts = []
-    for city, rows in sorted(by_city.items()):
-        months = sorted(
-            m
-            for m in (_format_month(dict(zip(key_fields, r))) for r in rows)
-            if m is not None
-        )
-        if months:
-            span = (
-                months[0] if months[0] == months[-1] else f"{months[0]}..{months[-1]}"
-            )
-            parts.append(f"{city} {span} ({len(rows)})")
-        else:
-            parts.append(f"{city} ({len(rows)})")
-    return ", ".join(parts)
+def _describe_cities(keys: list[tuple], key_fields: list[str]) -> str:
+    """``boston (2), chicago (1)`` — which cities a set of row keys belongs to."""
+    if "city" not in key_fields:
+        return ""
+    index = key_fields.index("city")
+    counts = Counter(identity[index] for identity in keys)
+    return ", ".join(f"{city} ({n})" for city, n in sorted(counts.items()))
 
 
 def format_diff(diff: dict[str, Any] | None, key: list[str]) -> list[str]:
@@ -188,13 +170,15 @@ def format_diff(diff: dict[str, Any] | None, key: list[str]) -> list[str]:
         return ["   first publish — no previous release to compare against"]
 
     lines = []
-    if diff["added"]:
+    for sign, label, keys in (
+        ("+", "new rows", diff["added"]),
+        ("-", "rows removed", diff["removed"]),
+    ):
+        if not keys:
+            continue
+        cities = _describe_cities(keys, key)
         lines.append(
-            f"   + {len(diff['added'])} new rows: {_describe_span(diff['added'], key)}"
-        )
-    if diff["removed"]:
-        lines.append(
-            f"   - {len(diff['removed'])} rows removed: {_describe_span(diff['removed'], key)}"
+            f"   {sign} {len(keys)} {label}" + (f": {cities}" if cities else "")
         )
     if diff["changed"]:
         count = len(diff["changed"])
