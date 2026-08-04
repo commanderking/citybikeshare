@@ -90,9 +90,10 @@ def _write_all_outputs(
     """Write every payload and the manifest; return the manifest's per-output entries."""
     entries: dict[str, Any] = {}
     for output in built:
-        # Minified: this is CDN payload, not something to read in a diff. The manifest and
-        # the release notes are the human-readable view.
-        write_json(output.destination, output.records, minified=True)
+        # Pretty-printed on purpose. Minifying saves ~1 KB gzipped (jsDelivr compresses
+        # everything) but collapses the payload onto one line, which makes `git diff`
+        # useless for reviewing a release — the one place a restated count would show up.
+        write_json(output.destination, output.records)
         # Hash what actually landed on disk, so the manifest can't describe an intent that
         # the file doesn't match.
         payload = output.destination.read_text(encoding="utf-8")

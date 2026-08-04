@@ -17,9 +17,9 @@
 schema_version: 1
 
 outputs:
-  # Every city's monthly trip volume in one file (~140 KB across 27 cities, and jsDelivr
-  # gzips it). Merging is only viable for the small sections — the `stations` section is
-  # ~20 MB across all cities and has to be published per-city if it's ever published.
+  # Every city's monthly trip volume in one file (~273 KB across 27 cities, 22 KB gzipped —
+  # jsDelivr compresses everything). Merging is only viable for the small sections: the
+  # `stations` section is ~20 MB across all cities and would have to be published per-city.
   - name: all_cities_volume_by_month
     shape: merge_cities
     source: visuals

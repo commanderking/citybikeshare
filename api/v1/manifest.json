@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-02T17:10:55Z",
+  "generated_at": "2026-08-04T23:35:36Z",
   "outputs": {
     "all_cities_volume_by_month": {
       "file": "all_cities_volume_by_month.json",
       "rows": 3194,
-      "bytes": 184200,
-      "sha256": "c1d5969dd1732180c3d05ee125b172b07d6b53f4b702685e42131e63f7113d2b",
+      "bytes": 280021,
+      "sha256": "bf8a237304f6b9c9ab22d7d64ecdb2596998d0de394db6df4692708fc78e7063",
       "cities": {
         "austin": {
           "rows": 127,

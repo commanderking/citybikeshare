@@ -285,7 +285,7 @@ flowchart TD
     end
 
     subgraph PHASE2["phase 2 · _write_all_outputs() — only runs if every build succeeded"]
-        WRITE["write_json(minified=True)\nper output"]
+        WRITE["write_json()\nper output · pretty-printed so git diff stays readable"]
         PAYLOAD[/"api/v1/all_cities_volume_by_month.json"/]
         ENTRY["build_output_entry()\n→ summarize_city_coverage() per city"]
         MANIFEST["build_manifest()\ncarries generated_at forward when nothing else moved"]
@@ -361,7 +361,7 @@ history and a parsing fix can move counts for years you weren't touching — nei
 an error anywhere upstream. Use `--strict` to exit non-zero on a restatement.
 
 ```
-  all_cities_volume_by_month.json  3,194 rows  27 cities  180 KB
+  all_cities_volume_by_month.json  3,194 rows  27 cities  273 KB
    + 3 new rows: boston (2), chicago (1)
    ⚠️  1 previously published row CHANGED (history was restated — confirm this is a fix, not duplication):
        boston 2025-11  trips: 100 → 148
