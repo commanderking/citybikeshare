@@ -4,9 +4,6 @@ import pytest
 
 from citybikeshare.publish.api import publish_api
 from citybikeshare.publish.builders import build_merged_section
-from citybikeshare.publish.manifest import (
-    summarize_city_coverage,
-)
 
 SPEC = {
     "name": "all_cities_volume_by_month",
@@ -75,23 +72,7 @@ def test_key_field_absent_from_records_raises(analysis_folder):
         build_merged_section(analysis_folder, {**SPEC, "key": ["city", "quarter"]})
 
 
-def test_city_coverage_spans_months():
-    coverage = summarize_city_coverage(
-        [
-            {"city": "boston", "year": 2024, "month": 11, "trips": 5},
-            {"city": "boston", "year": 2025, "month": 2, "trips": 7},
-        ]
-    )
-
-    assert coverage == {
-        "rows": 2,
-        "trips": 12,
-        "first_month": "2024-11",
-        "last_month": "2025-02",
-    }
-
-
-def test_publish_writes_payload_and_manifest(tmp_path, analysis_folder):
+def test_publish_writes_the_payload(tmp_path, analysis_folder):
     api_root = tmp_path / "api"
 
     publish_api(analysis_folder, api_root, api_config())
@@ -101,79 +82,34 @@ def test_publish_writes_payload_and_manifest(tmp_path, analysis_folder):
             encoding="utf-8"
         )
     )
-    assert len(payload) == 3
-
-    manifest = json.loads(
-        (api_root / "v1" / "manifest.json").read_text(encoding="utf-8")
-    )
-    entry = manifest["outputs"]["all_cities_volume_by_month"]
-    assert manifest["schema_version"] == 1
-    assert entry["rows"] == 3
-    assert entry["cities"]["boston"] == {
-        "rows": 2,
-        "trips": 300,
-        "first_month": "2025-01",
-        "last_month": "2025-02",
-    }
+    assert payload == [
+        {"city": "austin", "year": 2025, "month": 1, "trips": 50},
+        {"city": "boston", "year": 2025, "month": 1, "trips": 100},
+        {"city": "boston", "year": 2025, "month": 2, "trips": 200},
+    ]
 
 
 def test_republishing_unchanged_analysis_is_byte_identical(tmp_path, analysis_folder):
     api_root = tmp_path / "api"
     published = api_root / "v1" / "all_cities_volume_by_month.json"
-    manifest = api_root / "v1" / "manifest.json"
 
     publish_api(analysis_folder, api_root, api_config())
-    first_payload = published.read_bytes()
-    first_manifest = manifest.read_bytes()
+    first = published.read_bytes()
     publish_api(analysis_folder, api_root, api_config())
 
-    assert published.read_bytes() == first_payload
-    # The manifest too — a no-op republish must not dirty it with a fresh wall-clock stamp.
-    assert manifest.read_bytes() == first_manifest
-
-
-def stamp_manifest(api_root, generated_at):
-    """Backdate the published manifest so timestamp assertions don't race the clock."""
-    path = api_root / "v1" / "manifest.json"
-    manifest = json.loads(path.read_text(encoding="utf-8"))
-    manifest["generated_at"] = generated_at
-    path.write_text(json.dumps(manifest), encoding="utf-8")
-
-
-def read_generated_at(api_root):
-    manifest = json.loads(
-        (api_root / "v1" / "manifest.json").read_text(encoding="utf-8")
-    )
-    return manifest["generated_at"]
-
-
-def test_generated_at_tracks_data_changes_not_publish_runs(tmp_path, analysis_folder):
-    api_root = tmp_path / "api"
-    sentinel = "2020-01-01T00:00:00Z"
-
-    publish_api(analysis_folder, api_root, api_config())
-    stamp_manifest(api_root, sentinel)
-
-    publish_api(analysis_folder, api_root, api_config())
-    assert read_generated_at(api_root) == sentinel
-
-    write_city(analysis_folder, "austin", [month(2025, 1, 50), month(2025, 2, 60)])
-    publish_api(analysis_folder, api_root, api_config())
-    assert read_generated_at(api_root) != sentinel
+    assert published.read_bytes() == first
 
 
 def test_builder_failure_leaves_the_previous_release_untouched(
     tmp_path, analysis_folder
 ):
-    """A later output blowing up must not half-replace the release — otherwise the manifest
-    describes a state the payloads beside it no longer match."""
+    """A later output blowing up must not half-replace the release — otherwise `api/` mixes
+    files from this run with files from the last, and the tag you cut publishes that."""
     api_root = tmp_path / "api"
     payload = api_root / "v1" / "all_cities_volume_by_month.json"
-    manifest = api_root / "v1" / "manifest.json"
 
     publish_api(analysis_folder, api_root, api_config())
     published_payload = payload.read_bytes()
-    published_manifest = manifest.read_bytes()
 
     # New data for the first output, and a second output whose `key` names a field the
     # records don't have — passes config validation, fails inside the builder.
@@ -185,7 +121,6 @@ def test_builder_failure_leaves_the_previous_release_untouched(
         publish_api(analysis_folder, api_root, config)
 
     assert payload.read_bytes() == published_payload
-    assert manifest.read_bytes() == published_manifest
     assert not (api_root / "v1" / "second.json").exists()
 
 

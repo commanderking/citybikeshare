@@ -10,7 +10,6 @@ from pathlib import Path
 from typing import Any
 
 from citybikeshare.publish.builders import PUBLISH_BUILDERS, Records
-from citybikeshare.publish.manifest import build_manifest, build_output_entry
 from citybikeshare.utils.io import write_json
 
 REQUIRED_OUTPUT_FIELDS = ("name", "shape", "key")
@@ -20,13 +19,8 @@ REQUIRED_OUTPUT_FIELDS = ("name", "shape", "key")
 class BuiltOutput:
     """One output assembled in memory, before anything has been written to ``api/``."""
 
-    spec: dict[str, Any]
     destination: Path
     records: Records
-
-    @property
-    def name(self) -> str:
-        return self.spec["name"]
 
 
 def _assert_config_valid(config: dict[str, Any]) -> None:
@@ -61,58 +55,44 @@ def _build_all_outputs(
 
     Keeping the whole build ahead of the whole write is what makes a failed publish a no-op:
     a builder that raises on the third output (duplicate keys, schema drift, a city missing
-    its section) leaves the previous release intact rather than half-replaced, with a
-    manifest that no longer matches the payloads beside it.
+    its section) leaves the previous release intact, rather than mixing files from this run
+    with files from the last — which is the state a release tag would then freeze.
     """
     built = []
     for spec in config["outputs"]:
         destination = version_root / f"{spec['name']}.json"
         records = PUBLISH_BUILDERS[spec["shape"]](analysis_folder, spec)
-        built.append(BuiltOutput(spec, destination, records))
+        built.append(BuiltOutput(destination, records))
     return built
 
 
-def _write_all_outputs(
-    built: list[BuiltOutput], schema_version: int, manifest_path: Path
-) -> dict[str, Any]:
-    """Write every payload and the manifest; return the manifest's per-output entries."""
-    entries: dict[str, Any] = {}
+def _write_all_outputs(built: list[BuiltOutput]) -> None:
     for output in built:
         # Pretty-printed on purpose. Minifying saves ~1 KB gzipped (jsDelivr compresses
         # everything) but collapses the payload onto one line, which makes `git diff`
         # useless for reviewing a release — the one place a restated count would show up.
         write_json(output.destination, output.records)
-        # Hash what actually landed on disk, so the manifest can't describe an intent that
-        # the file doesn't match.
-        payload = output.destination.read_text(encoding="utf-8")
-        entries[output.name] = build_output_entry(
-            output.destination.name, output.records, payload
-        )
-
-    write_json(manifest_path, build_manifest(schema_version, entries, manifest_path))
-    return entries
 
 
-def _report_release(entries: dict[str, Any]) -> None:
+def _report_release(built: list[BuiltOutput]) -> None:
     """What landed. Reviewing *what changed* is `git diff api/` — the payload is
     pretty-printed so an added month and a restated count both read plainly there."""
-    for entry in entries.values():
+    for output in built:
+        cities = len({record["city"] for record in output.records})
+        size_kb = output.destination.stat().st_size / 1024
         print(
-            f"  {entry['file']}  {entry['rows']:,} rows  "
-            f"{len(entry['cities'])} cities  {entry['bytes'] / 1024:,.0f} KB"
+            f"  {output.destination.name}  {len(output.records):,} rows  "
+            f"{cities} cities  {size_kb:,.0f} KB"
         )
-    print(f"  manifest.json  {len(entries)} outputs")
 
 
 def publish_api(analysis_folder: Path, api_root: Path, config: dict[str, Any]) -> None:
     """Build every configured output into ``api/v<schema_version>/``."""
     _assert_config_valid(config)
 
-    schema_version = config["schema_version"]
-    version_root = api_root / f"v{schema_version}"
-
+    version_root = api_root / f"v{config['schema_version']}"
     print(f"📦 Publishing {version_root} from {analysis_folder}")
 
     built = _build_all_outputs(analysis_folder, version_root, config)
-    entries = _write_all_outputs(built, schema_version, version_root / "manifest.json")
-    _report_release(entries)
+    _write_all_outputs(built)
+    _report_release(built)

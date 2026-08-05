@@ -31,7 +31,7 @@ flowchart TD
     RESULT[/"analysis/summary_all_cities.json
 analysis/duration_buckets_all_cities.json"/]
 
-    API[/"api/v1/*.json + manifest.json\nserved over jsDelivr"/]
+    API[/"api/v1/*.json\nserved over jsDelivr"/]
 
     SOURCES --> SYNC
     SYNC      -->|"data/&lt;city&gt;/download/"| EXTRACT
@@ -283,14 +283,8 @@ flowchart TD
     subgraph PHASE2["phase 2 · _write_all_outputs() — only runs if every build succeeded"]
         WRITE["write_json()\nper output · pretty-printed so git diff stays readable"]
         PAYLOAD[/"api/v1/all_cities_volume_by_month.json"/]
-        ENTRY["build_output_entry()\n→ summarize_city_coverage() per city"]
-        MANIFEST["build_manifest()\ncarries generated_at forward when nothing else moved"]
-        MANFILE[/"api/v1/manifest.json\nrows · bytes · sha256 · per-city coverage"/]
 
         WRITE --> PAYLOAD
-        PAYLOAD --> ENTRY
-        ENTRY --> MANIFEST
-        MANIFEST --> MANFILE
     end
 
     VALIDATE --> BUILD
@@ -299,7 +293,7 @@ flowchart TD
 
     REPORT["_report_release()"]
     NOTES[/"rows · cities · size per output, on stdout"/]
-    MANFILE --> REPORT
+    PAYLOAD --> REPORT
     REPORT --> NOTES
     NOTES --> OK(["✅ Publish complete"])
 
@@ -317,11 +311,10 @@ flowchart TD
 
     OK --> REVIEW
     PAYLOAD -.-> REVIEW
-    MANFILE -.-> REVIEW
 
     classDef artifact fill:#eef6ff,stroke:#4a7fb5,color:#123
     classDef guard fill:#fff6e5,stroke:#c58b2f,color:#123
-    class VISUALS,APICFG,BUILT,PAYLOAD,NOTES,MANFILE,CDN artifact
+    class VISUALS,APICFG,BUILT,PAYLOAD,NOTES,CDN artifact
     class VALIDATE,GUARDS,REVIEW guard
 ```
 
@@ -354,7 +347,6 @@ diff. Appended months show up as new record blocks:
 
 ```
   all_cities_volume_by_month.json  3,194 rows  27 cities  273 KB
-  manifest.json  1 outputs
 ```
 
 Worth a specific look before tagging: a row that *already shipped* and changed value. Sources do
