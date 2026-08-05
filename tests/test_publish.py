@@ -5,8 +5,6 @@ import pytest
 from citybikeshare.publish.api import publish_api
 from citybikeshare.publish.builders import build_merged_section
 from citybikeshare.publish.manifest import (
-    diff_against_published,
-    format_diff,
     summarize_city_coverage,
 )
 
@@ -93,107 +91,10 @@ def test_city_coverage_spans_months():
     }
 
 
-def test_diff_separates_appended_rows_from_restated_history(tmp_path):
-    published = tmp_path / "out.json"
-    published.write_text(
-        json.dumps(
-            [
-                {"city": "boston", "year": 2025, "month": 1, "trips": 100},
-                {"city": "boston", "year": 2025, "month": 2, "trips": 200},
-            ]
-        ),
-        encoding="utf-8",
-    )
-
-    diff = diff_against_published(
-        published,
-        [
-            {"city": "boston", "year": 2025, "month": 1, "trips": 111},
-            {"city": "boston", "year": 2025, "month": 3, "trips": 300},
-        ],
-        ["city", "year", "month"],
-    )
-
-    assert diff["added"] == [("boston", 2025, 3)]
-    assert diff["removed"] == [("boston", 2025, 2)]
-    assert [c["key"] for c in diff["changed"]] == [
-        {"city": "boston", "year": 2025, "month": 1}
-    ]
-    assert diff["changed"][0]["from"]["trips"] == 100
-    assert diff["changed"][0]["to"]["trips"] == 111
-
-
-def test_first_publish_has_no_diff(tmp_path):
-    assert diff_against_published(tmp_path / "absent.json", [], ["city"]) is None
-
-
-KEY = ["city", "year", "month"]
-
-
-def test_release_notes_for_a_first_publish():
-    assert format_diff(None, KEY) == [
-        "   first publish — no previous release to compare against"
-    ]
-
-
-def test_release_notes_when_nothing_moved():
-    empty = {"added": [], "removed": [], "changed": []}
-
-    assert format_diff(empty, KEY) == ["   no change since the previous release"]
-
-
-def test_release_notes_tally_added_and_removed_rows_by_city():
-    diff = {
-        "added": [("boston", 2026, 1), ("boston", 2026, 2), ("chicago", 2026, 1)],
-        "removed": [("austin", 2019, 5)],
-        "changed": [],
-    }
-
-    assert format_diff(diff, KEY) == [
-        "   + 3 new rows: boston (2), chicago (1)",
-        "   - 1 rows removed: austin (1)",
-    ]
-
-
-def test_release_notes_call_out_restated_history():
-    diff = {
-        "added": [],
-        "removed": [],
-        "changed": [
-            {
-                "key": {"city": "boston", "year": 2025, "month": 11},
-                "from": {"trips": 100},
-                "to": {"trips": 1148},
-            }
-        ],
-    }
-
-    lines = format_diff(diff, KEY)
-
-    assert "1 previously published row CHANGED" in lines[0]
-    assert lines[1] == "       boston 2025-11  trips: 100 → 1,148"
-
-
-def test_release_notes_truncate_a_long_list_of_changes():
-    changed = [
-        {
-            "key": {"city": "boston", "year": 2025, "month": m},
-            "from": {"trips": 1},
-            "to": {"trips": 2},
-        }
-        for m in range(1, 13)
-    ]
-
-    lines = format_diff({"added": [], "removed": [], "changed": changed}, KEY)
-
-    assert "12 previously published rows CHANGED" in lines[0]
-    assert lines[-1] == "       … and 2 more"
-
-
 def test_publish_writes_payload_and_manifest(tmp_path, analysis_folder):
     api_root = tmp_path / "api"
 
-    assert publish_api(analysis_folder, api_root, api_config())
+    publish_api(analysis_folder, api_root, api_config())
 
     payload = json.loads(
         (api_root / "v1" / "all_cities_volume_by_month.json").read_text(
@@ -259,22 +160,6 @@ def test_generated_at_tracks_data_changes_not_publish_runs(tmp_path, analysis_fo
     write_city(analysis_folder, "austin", [month(2025, 1, 50), month(2025, 2, 60)])
     publish_api(analysis_folder, api_root, api_config())
     assert read_generated_at(api_root) != sentinel
-
-
-def test_strict_fails_when_published_history_is_restated(tmp_path, analysis_folder):
-    api_root = tmp_path / "api"
-    publish_api(analysis_folder, api_root, api_config())
-
-    write_city(analysis_folder, "boston", [month(2025, 1, 999), month(2025, 2, 200)])
-
-    assert not publish_api(analysis_folder, api_root, api_config(), strict=True)
-    # Appending a month is not a restatement, so strict stays happy.
-    write_city(
-        analysis_folder,
-        "boston",
-        [month(2025, 1, 999), month(2025, 2, 200), month(2025, 3, 300)],
-    )
-    assert publish_api(analysis_folder, api_root, api_config(), strict=True)
 
 
 def test_builder_failure_leaves_the_previous_release_untouched(

@@ -205,9 +205,7 @@ def analyze_all(
                 typer.secho(f"{city}: {message}", fg=color)
                 results.append((city, success))
             except Exception as e:
-                typer.secho(
-                    f"{city}: ❌ Unexpected failure: {e}", fg=typer.colors.RED
-                )
+                typer.secho(f"{city}: ❌ Unexpected failure: {e}", fg=typer.colors.RED)
                 results.append((city, False))
 
     # 🧾 Summary
@@ -231,21 +229,13 @@ def merge_summaries():
 
 
 @app.command()
-def publish(
-    strict: bool = typer.Option(
-        False,
-        "--strict",
-        help="Exit non-zero if a previously published row changed value (restated history).",
-    ),
-):
+def publish():
     """Build the client-facing api/ tree from per-city analysis output.
 
-    Tag the result to cut a data release: `git tag data-$(date +%F) && git push --tags`.
-    Clients pin that tag, which jsDelivr then caches immutably.
+    Review the release with `git diff api/`, then tag it: `git tag data-$(date +%F) &&
+    git push --tags`. Clients pin that tag, which jsDelivr then caches immutably.
     """
-    ok = publish_api(Path("analysis"), Path("api"), load_api_config(), strict=strict)
-    if not ok:
-        raise typer.Exit(code=1)
+    publish_api(Path("analysis"), Path("api"), load_api_config())
     typer.secho("✅ Publish complete", fg=typer.colors.GREEN)
 
 

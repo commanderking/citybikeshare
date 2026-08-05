@@ -259,7 +259,7 @@ flowchart TD
 
     CLI(["citybikeshare publish"])
     LOAD["load_api_config()"]
-    PUBLISH["publish_api(analysis_folder, api_root, config, strict)"]
+    PUBLISH["publish_api(analysis_folder, api_root, config)"]
     VALIDATE["_assert_config_valid(config)\nknown shape · required fields · unique names\nruns before any write"]
 
     CLI --> LOAD
@@ -272,16 +272,12 @@ flowchart TD
         DISCOVER["discover_cities()"]
         READSEC["_read_city_section()\npulls spec.section out of each city file"]
         GUARDS["_assert_sections_found\n_assert_key_fields_present\n_assert_uniform_record_keys\n_assert_unique_keys"]
-        PREV[/"api/v1/&lt;name&gt;.json\nprevious release, still on disk"/]
-        DIFF["diff_against_published()\nsafe to read — nothing written yet"]
-        BUILT[/"BuiltOutput per config entry\nrecords · diff · destination, all in memory"/]
+        BUILT[/"BuiltOutput per config entry\nspec · destination · records, all in memory"/]
 
         BUILD --> DISCOVER
         DISCOVER --> READSEC
         READSEC --> GUARDS
-        GUARDS --> DIFF
-        PREV --> DIFF
-        DIFF --> BUILT
+        GUARDS --> BUILT
     end
 
     subgraph PHASE2["phase 2 · _write_all_outputs() — only runs if every build succeeded"]
@@ -302,34 +298,31 @@ flowchart TD
     BUILT --> WRITE
 
     REPORT["_report_release()"]
-    NOTES[/"release notes on stdout\n+ new rows · ⚠ changed rows"/]
+    NOTES[/"rows · cities · size per output, on stdout"/]
     MANFILE --> REPORT
-    BUILT -.-> REPORT
     REPORT --> NOTES
-
-    STRICT{"--strict and\nrows changed?"}
-    NOTES --> STRICT
-    STRICT -->|yes| FAIL(["exit 1 — nothing to release"])
-    STRICT -->|no| OK(["✅ Publish complete"])
+    NOTES --> OK(["✅ Publish complete"])
 
     subgraph RELEASE["Cut a release · manual"]
+        REVIEW["git diff api/\nreview added months and any restated counts"]
         GITADD["git add api && git commit"]
         GITTAG["git tag -a data-YYYY-MM-DD"]
         PUSH["git push origin main --tags"]
         CDN[/"cdn.jsdelivr.net/gh/commanderking/citybikeshare\n@data-YYYY-MM-DD/api/v1/...\nimmutable · cached permanently"/]
+        REVIEW --> GITADD
         GITADD --> GITTAG
         GITTAG --> PUSH
         PUSH --> CDN
     end
 
-    OK --> GITADD
-    PAYLOAD -.-> GITADD
-    MANFILE -.-> GITADD
+    OK --> REVIEW
+    PAYLOAD -.-> REVIEW
+    MANFILE -.-> REVIEW
 
     classDef artifact fill:#eef6ff,stroke:#4a7fb5,color:#123
     classDef guard fill:#fff6e5,stroke:#c58b2f,color:#123
-    class VISUALS,APICFG,PREV,BUILT,PAYLOAD,NOTES,MANFILE,CDN artifact
-    class VALIDATE,GUARDS,STRICT guard
+    class VISUALS,APICFG,BUILT,PAYLOAD,NOTES,MANFILE,CDN artifact
+    class VALIDATE,GUARDS,REVIEW guard
 ```
 
 **Two version axes, and only one moves when new data lands:**
@@ -355,17 +348,19 @@ https://cdn.jsdelivr.net/gh/commanderking/citybikeshare@data-2026-08-02/api/v1/a
 Production moves to new data by bumping one constant in the web app, and rolls back by reverting
 it — the old tag keeps serving the old bytes forever.
 
-**Publish diffs each rebuild against the previous release.** New months are reported as additions;
-rows that already shipped and *changed value* are called out loudly, because sources restate
-history and a parsing fix can move counts for years you weren't touching — neither of which throws
-an error anywhere upstream. Use `--strict` to exit non-zero on a restatement.
+`publish` reports what landed; **`git diff api/` is how you review what changed.** The payloads are
+pretty-printed for exactly that reason — minifying saves about 1 KB gzipped and costs you a readable
+diff. Appended months show up as new record blocks:
 
 ```
   all_cities_volume_by_month.json  3,194 rows  27 cities  273 KB
-   + 3 new rows: boston (2), chicago (1)
-   ⚠️  1 previously published row CHANGED (history was restated — confirm this is a fix, not duplication):
-       boston 2025-11  trips: 100 → 148
+  manifest.json  1 outputs
 ```
+
+Worth a specific look before tagging: a row that *already shipped* and changed value. Sources do
+restate history, and a parsing fix can move counts for years you weren't touching — neither throws
+an error anywhere upstream. Those appear as `-`/`+` pairs rather than pure additions, so
+`git diff api/ | grep '^-' | grep -v '^---'` isolates them.
 
 For options on any command: `poetry run citybikeshare <command> --help`.
 
