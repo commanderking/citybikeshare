@@ -27,6 +27,8 @@ from citybikeshare.analysis.station_trip_counts import count_station_trips
 from citybikeshare.analysis.canonicalize_station_coords import (
     canonicalize_station_coords,
 )
+from citybikeshare.config.loader import load_api_config
+from citybikeshare.publish.api import publish_api
 from citybikeshare.etl.inspect import analyze_headers
 from citybikeshare.etl.station_maps import STATION_MAP_BUILDERS
 from citybikeshare.etl.station_coordinates import STATION_COORDINATES_BUILDERS
@@ -203,9 +205,7 @@ def analyze_all(
                 typer.secho(f"{city}: {message}", fg=color)
                 results.append((city, success))
             except Exception as e:
-                typer.secho(
-                    f"{city}: ❌ Unexpected failure: {e}", fg=typer.colors.RED
-                )
+                typer.secho(f"{city}: ❌ Unexpected failure: {e}", fg=typer.colors.RED)
                 results.append((city, False))
 
     # 🧾 Summary
@@ -226,6 +226,17 @@ def merge_summaries():
     analysis_folder = Path("analysis")
     merge_city_summaries(analysis_folder)
     merge_duration_buckets(analysis_folder)
+
+
+@app.command()
+def publish():
+    """Build the client-facing api/ tree from per-city analysis output.
+
+    Review the release with `git diff api/`, then tag it: `git tag data-$(date +%F) &&
+    git push --tags`. Clients pin that tag, which jsDelivr then caches immutably.
+    """
+    publish_api(Path("analysis"), Path("api"), load_api_config())
+    typer.secho("✅ Publish complete", fg=typer.colors.GREEN)
 
 
 # --------------------------------------------------

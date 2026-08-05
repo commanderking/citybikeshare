@@ -24,11 +24,14 @@ flowchart TD
     TRANSFORM["transform\nCSV → partitioned Parquet"]
     ANALYZE["analyze\nPer-city stats + station coords & counts"]
     MERGE["merge-summaries\nCombine all cities"]
+    PUBLISH["publish\nBuild the client-facing api/ tree"]
 
     STATIONS[/"Committed station reference\nid → name + lat/lng\nconfig/station_coordinates/&lt;city&gt;.csv\nconfig/station_maps/&lt;city&gt;.csv"/]
 
     RESULT[/"analysis/summary_all_cities.json
 analysis/duration_buckets_all_cities.json"/]
+
+    API[/"api/v1/*.json\nserved over jsDelivr"/]
 
     SOURCES --> SYNC
     SYNC      -->|"data/&lt;city&gt;/download/"| EXTRACT
@@ -37,6 +40,8 @@ analysis/duration_buckets_all_cities.json"/]
     TRANSFORM -->|"output/&lt;city&gt;/year=YYYY/month=MM/"| ANALYZE
     ANALYZE   -->|"analysis/&lt;city&gt;/summary.json\nanalysis/&lt;city&gt;/duration_buckets.json"| MERGE
     MERGE     --> RESULT
+    ANALYZE   -->|"analysis/&lt;city&gt;/visuals.json"| PUBLISH
+    PUBLISH   --> API
 
     STATIONSRC -->|"build-station-coordinates · build-station-map\n(cumulative, never-drop)"| STATIONS
     STATIONS -.->|"name id-only trips"| TRANSFORM
@@ -126,6 +131,7 @@ Output lands in:
 - **`data/<city>/`** – working data: `download/` (raw archives), `raw/` (extracted CSVs), `cleaned/` (cleaned copies, only for cities that need it), `parquet/` (per-file Parquet cache), and `*.state.json` (incremental state)
 - **`output/<city>/`** – final Parquet files partitioned by year/month
 - **`analysis/<city>/`** – summary JSON and duration buckets (after you run the analyze commands)
+- **`api/v<schema_version>/`** – the published, client-facing JSON served over jsDelivr (after `publish`)
 
 ---
 
@@ -233,6 +239,73 @@ poetry run citybikeshare merge-summaries
 ```
 
 Produces `analysis/summary_all_cities.json` and `analysis/duration_buckets_all_cities.json`.
+
+### Publish (build the client API)
+
+`publish` reshapes per-city analysis output into the committed `api/` tree that the web client
+loads over jsDelivr.
+
+```bash
+poetry run citybikeshare publish
+```
+
+Which files get built is declared in `src/citybikeshare/config/api.yaml`; adding a chart to the
+client should be an entry there, not a new module. 
+
+```mermaid
+flowchart LR
+    VISUALS[/"analysis/&lt;city&gt;/visuals.json\none per city, written by analyze"/]
+    APICFG[/"config/api.yaml\nwhich sections get published"/]
+    PUBLISH["citybikeshare publish"]
+    PAYLOAD[/"api/v1/*.json\npretty-printed · committed to the repo"/]
+    TAG["git commit + git tag data-YYYY-MM-DD"]
+    CDN[/"cdn.jsdelivr.net/gh/…@data-YYYY-MM-DD/api/v1/…\nimmutable · cached permanently"/]
+
+    VISUALS --> PUBLISH
+    APICFG --> PUBLISH
+    PUBLISH --> PAYLOAD
+    PAYLOAD -->|"review with git diff api/"| TAG
+    TAG --> CDN
+
+    classDef artifact fill:#eef6ff,stroke:#4a7fb5,color:#123
+    class VISUALS,APICFG,PAYLOAD,CDN artifact
+```
+
+**Two version axes, and only one moves when new data lands:**
+
+| | What it means | When it changes | Where it lives |
+|---|---|---|---|
+| `schema_version` | The *shape* of the payload | A field is renamed, removed, or restructured | The path: `api/v1/…` |
+| Git tag | The *contents* | Every release with new months, a new city, or a re-run after a fix | `data-YYYY-MM-DD` |
+
+New 2026 months are purely a tag bump — the shape is unchanged, so `v1` stays `v1`. Cut a release:
+
+```bash
+poetry run citybikeshare publish
+git add api && git commit -m "data release" && git tag data-$(date +%F) && git push --tags
+```
+
+The client pins that tag, which jsDelivr caches immutably:
+
+```
+https://cdn.jsdelivr.net/gh/commanderking/citybikeshare@data-2026-08-02/api/v1/all_cities_volume_by_month.json
+```
+
+Production moves to new data by bumping one constant in the web app, and rolls back by reverting
+it — the old tag keeps serving the old bytes forever.
+
+`publish` reports what landed; **`git diff api/` is how you review what changed.** The payloads are
+pretty-printed for exactly that reason — minifying saves about 1 KB gzipped and costs you a readable
+diff. Appended months show up as new record blocks:
+
+```
+  all_cities_volume_by_month.json  3,194 rows  27 cities  273 KB
+```
+
+Worth a specific look before tagging: a row that *already shipped* and changed value. Sources do
+restate history, and a parsing fix can move counts for years you weren't touching — neither throws
+an error anywhere upstream. Those appear as `-`/`+` pairs rather than pure additions, so
+`git diff api/ | grep '^-' | grep -v '^---'` isolates them.
 
 For options on any command: `poetry run citybikeshare <command> --help`.
 

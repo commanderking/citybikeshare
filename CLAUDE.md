@@ -117,6 +117,19 @@ it's about the *data's meaning*, it's **transform**. Restoring a missing header 
 `rent_time → start_time` is transform. When a fix could sit in either stage, decide the stage
 *before* optimizing the code within a stage — that framing question comes first.
 
+Downstream of transform: **analyze** computes per-city aggregates into `analysis/<city>/`, and
+**publish** reshapes those into the committed `api/` tree (below). Publish never reads parquet and
+never computes an aggregate — if a number needs deriving, it belongs in analyze.
+
+## `api/` is a public contract; `analysis/` is not
+
+`publish` builds `api/v<schema_version>/` from `analysis/`, and those files are fetched by the web
+client over jsDelivr. Two consequences:
+
+- **Don't point the client at `analysis/` directly.** The indirection is the point: `analysis/` stays
+  free to change shape, and what's public is the enumerated list in `config/api.yaml`.
+
+
 ## Naming: functions are verbs, data is nouns
 
 Name functions for the **action they perform**, using an imperative verb phrase —

@@ -1,0 +1,29 @@
+# Declares the client-facing JSON published to `api/` and served over jsDelivr.
+#
+# Two independent version axes, and it matters which one you're touching:
+#
+#   schema_version (below) -> the SHAPE of the payload. It lands in the output path
+#     (`api/v1/...`) and is part of the URL clients hardcode, so it moves only on a
+#     breaking change: a renamed/removed field, a restructured record. Bumping it means
+#     publishing `api/v2/` while `v1` keeps serving the old shape until clients migrate.
+#
+#   the git tag -> the CONTENTS. New months, a new city, a re-run after a parsing fix:
+#     none of those change the shape, so none of them touch schema_version. They are a
+#     new tag (`data-YYYY-MM-DD`), which jsDelivr caches immutably, which is what lets
+#     production stay pinned to an older release.
+#
+# Adding a chart to the client should be an entry here, not a new Python module.
+
+schema_version: 1
+
+outputs:
+  # Every city's monthly trip volume in one file (~273 KB across 27 cities, 22 KB gzipped —
+  # jsDelivr compresses everything). Merging is only viable for the small sections: the
+  # `stations` section is ~20 MB across all cities and would have to be published per-city.
+  - name: all_cities_volume_by_month
+    shape: merge_cities
+    source: visuals
+    section: volume_by_month
+    # Identifies a row across releases, so publish can diff a rebuild against what is
+    # already published and flag restated history.
+    key: [city, year, month]
