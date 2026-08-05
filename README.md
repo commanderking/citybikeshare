@@ -253,69 +253,22 @@ Which files get built is declared in `src/citybikeshare/config/api.yaml`; adding
 client should be an entry there, not a new module. 
 
 ```mermaid
-flowchart TD
-    VISUALS[/"analysis/&lt;city&gt;/visuals.json\nwritten by analyze · one per city"/]
-    APICFG[/"config/api.yaml\nschema_version · outputs: name, shape, source, section, key"/]
+flowchart LR
+    VISUALS[/"analysis/&lt;city&gt;/visuals.json\none per city, written by analyze"/]
+    APICFG[/"config/api.yaml\nwhich sections get published"/]
+    PUBLISH["citybikeshare publish"]
+    PAYLOAD[/"api/v1/*.json\npretty-printed · committed to the repo"/]
+    TAG["git commit + git tag data-YYYY-MM-DD"]
+    CDN[/"cdn.jsdelivr.net/gh/…@data-YYYY-MM-DD/api/v1/…\nimmutable · cached permanently"/]
 
-    CLI(["citybikeshare publish"])
-    LOAD["load_api_config()"]
-    PUBLISH["publish_api(analysis_folder, api_root, config)"]
-    VALIDATE["_assert_config_valid(config)\nknown shape · required fields · unique names\nruns before any write"]
-
-    CLI --> LOAD
-    APICFG --> LOAD
-    LOAD --> PUBLISH
-    PUBLISH --> VALIDATE
-
-    subgraph PHASE1["phase 1 · _build_all_outputs() — writes nothing"]
-        BUILD["PUBLISH_BUILDERS dispatch on shape\n= build_merged_section(analysis_folder, spec)"]
-        DISCOVER["discover_cities()"]
-        READSEC["_read_city_section()\npulls spec.section out of each city file"]
-        GUARDS["_assert_sections_found\n_assert_key_fields_present\n_assert_uniform_record_keys\n_assert_unique_keys"]
-        BUILT[/"BuiltOutput per config entry\nspec · destination · records, all in memory"/]
-
-        BUILD --> DISCOVER
-        DISCOVER --> READSEC
-        READSEC --> GUARDS
-        GUARDS --> BUILT
-    end
-
-    subgraph PHASE2["phase 2 · _write_all_outputs() — only runs if every build succeeded"]
-        WRITE["write_json()\nper output · pretty-printed so git diff stays readable"]
-        PAYLOAD[/"api/v1/all_cities_volume_by_month.json"/]
-
-        WRITE --> PAYLOAD
-    end
-
-    VALIDATE --> BUILD
-    VISUALS --> READSEC
-    BUILT --> WRITE
-
-    REPORT["_report_release()"]
-    NOTES[/"rows · cities · size per output, on stdout"/]
-    PAYLOAD --> REPORT
-    REPORT --> NOTES
-    NOTES --> OK(["✅ Publish complete"])
-
-    subgraph RELEASE["Cut a release · manual"]
-        REVIEW["git diff api/\nreview added months and any restated counts"]
-        GITADD["git add api && git commit"]
-        GITTAG["git tag -a data-YYYY-MM-DD"]
-        PUSH["git push origin main --tags"]
-        CDN[/"cdn.jsdelivr.net/gh/commanderking/citybikeshare\n@data-YYYY-MM-DD/api/v1/...\nimmutable · cached permanently"/]
-        REVIEW --> GITADD
-        GITADD --> GITTAG
-        GITTAG --> PUSH
-        PUSH --> CDN
-    end
-
-    OK --> REVIEW
-    PAYLOAD -.-> REVIEW
+    VISUALS --> PUBLISH
+    APICFG --> PUBLISH
+    PUBLISH --> PAYLOAD
+    PAYLOAD -->|"review with git diff api/"| TAG
+    TAG --> CDN
 
     classDef artifact fill:#eef6ff,stroke:#4a7fb5,color:#123
-    classDef guard fill:#fff6e5,stroke:#c58b2f,color:#123
-    class VISUALS,APICFG,BUILT,PAYLOAD,NOTES,CDN artifact
-    class VALIDATE,GUARDS,REVIEW guard
+    class VISUALS,APICFG,PAYLOAD,CDN artifact
 ```
 
 **Two version axes, and only one moves when new data lands:**
