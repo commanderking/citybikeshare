@@ -7,6 +7,7 @@ import requests
 from playwright.sync_api import sync_playwright
 
 from citybikeshare.context import PipelineContext
+from citybikeshare.etl.custom_downloaders.utils.browser import launch_chromium
 from citybikeshare.etl.custom_downloaders.utils.download_helpers import (
     does_file_exist,
     get_file_size_from_url,
@@ -33,7 +34,7 @@ def _scrape_descarga_links(playwright, url: str) -> list[tuple[str, str]]:
     Matches the link text exactly so the "Descargas" nav item and the "Descargado"
     counters (both superstrings of "Descarga") don't get picked up.
     """
-    browser = playwright.chromium.launch(headless=True)
+    browser = launch_chromium(playwright)
     page = browser.new_context().new_page()
     try:
         page.goto(url, wait_until="domcontentloaded")

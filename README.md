@@ -80,7 +80,7 @@ analysis/duration_buckets_all_cities.json"/]
 
 **Prerequisites**
 
-- **Python 3.9–3.12**
+- **Python 3.10–3.12**
 - **Poetry** (install and add to your `PATH`):
 
   ```bash
@@ -108,7 +108,17 @@ analysis/duration_buckets_all_cities.json"/]
    poetry install
    ```
 
-4. Run the CLI with:
+4. Install the Chromium browser Playwright drives:
+
+   ```bash
+   poetry run playwright install chromium
+   ```
+
+   The `playwright` PyPI package ships only the Python client — the browser binary is a
+   separate, one-time-per-machine download (~80 MB). Most cities scrape their source with
+   it, so skipping this step fails their `sync` step.
+
+5. Run the CLI with:
 
    ```bash
    poetry run citybikeshare --help
@@ -370,36 +380,6 @@ Seoul – data is not processable for a few years because of cleaning challenges
 Pittsburgh old data can be found at: https://data.wprdc.org/dataset/healthyride-trip-data
 
 
-### Prerequisites
-
-1. Install Requirements
-
-- **Python 3.10+**
-- **Poetry** 
-
-```
-curl -sSL https://install.python-poetry.org | python3 -
-```
-
-Then follow instructions to add Poetry to your `PATH`. 
-
-2. Clone the Repo
-```
-git clone https://github.com/commanderking/citybikeshare.git
-cd citybikeshare
-```
-
-3. Create a venv (if this is your first time using poetry)
-
-```
-poetry config virtualenvs.in-project true
-```
-
-4. Install 
-
-```
-poetry install
-```
 ### Potential upcoming cities
 
 ### Portland

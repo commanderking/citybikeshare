@@ -1,6 +1,7 @@
 import os
 from playwright.sync_api import sync_playwright
 from citybikeshare.context import PipelineContext
+from citybikeshare.etl.custom_downloaders.utils.browser import launch_chromium
 from citybikeshare.etl.custom_downloaders.utils.download_helpers import should_download
 
 
@@ -9,7 +10,7 @@ def run(playwright, url, context: PipelineContext):
     # Create a downloaded zip directory if it doesn't exist
     os.makedirs(download_path, exist_ok=True)
 
-    browser = playwright.chromium.launch(headless=True)
+    browser = launch_chromium(playwright)
     context = browser.new_context(accept_downloads=True)
     page = context.new_page()
     page.goto(url)

@@ -3,6 +3,7 @@ from pathlib import Path
 from urllib.parse import urljoin, urlparse
 from playwright.sync_api import sync_playwright
 from citybikeshare.context import PipelineContext
+from citybikeshare.etl.custom_downloaders.utils.browser import launch_chromium
 from citybikeshare.etl.custom_downloaders.utils.download_helpers import (
     does_file_exist,
     get_file_size_from_url,
@@ -29,7 +30,7 @@ def _prune_stale_zips(download_path: Path, remote_filenames: set[str]) -> None:
 
 
 def run_get_exports(playwright, url, download_path: Path):
-    browser = playwright.chromium.launch(headless=True)
+    browser = launch_chromium(playwright)
     context = browser.new_context(accept_downloads=True)
     page = context.new_page()
     page.goto(url)

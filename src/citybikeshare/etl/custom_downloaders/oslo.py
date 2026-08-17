@@ -6,6 +6,7 @@ from citybikeshare.etl.custom_downloaders.utils.norway_cities import (
     click_buttons_to_download,
 )
 from citybikeshare.context import PipelineContext
+from citybikeshare.etl.custom_downloaders.utils.browser import launch_chromium
 
 
 CITY = "oslo"
@@ -45,7 +46,7 @@ def get_stations_information(context: PipelineContext):
 
 
 def run_get_exports(playwright, url, pipeline_context: PipelineContext):
-    browser = playwright.chromium.launch(headless=True)
+    browser = launch_chromium(playwright)
     context = browser.new_context(accept_downloads=True)
     download_path = pipeline_context.download_directory
     metadata_path = pipeline_context.metadata_directory

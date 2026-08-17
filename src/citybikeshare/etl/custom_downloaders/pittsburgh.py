@@ -5,10 +5,11 @@ import urllib.request
 from playwright.sync_api import sync_playwright
 from citybikeshare.context import PipelineContext
 from citybikeshare.etl.custom_downloaders.utils.download_helpers import should_download
+from citybikeshare.etl.custom_downloaders.utils.browser import launch_chromium
 
 
 def run(playwright):
-    browser = playwright.chromium.launch(headless=True)
+    browser = launch_chromium(playwright)
     context = browser.new_context(accept_downloads=True)
     page = context.new_page()
     page.goto("https://data.wprdc.org/dataset/pogoh-trip-data")

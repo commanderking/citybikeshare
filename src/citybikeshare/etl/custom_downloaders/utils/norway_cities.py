@@ -1,4 +1,5 @@
 from playwright.sync_api import sync_playwright, TimeoutError as PlaywrightTimeoutError
+from citybikeshare.etl.custom_downloaders.utils.browser import launch_chromium
 from citybikeshare.etl.custom_downloaders.utils.download_helpers import (
     download_if_new_data,
 )
@@ -24,7 +25,7 @@ def click_buttons_to_download(page, buttons, zip_path):
 
 
 def run_get_exports(playwright, url, zip_path):
-    browser = playwright.chromium.launch(headless=True)
+    browser = launch_chromium(playwright)
     context = browser.new_context(accept_downloads=True)
     page = context.new_page()
 

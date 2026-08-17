@@ -3,11 +3,12 @@ from citybikeshare.etl.custom_downloaders.utils.download_helpers import (
     download_if_new_data,
 )
 from citybikeshare.context import PipelineContext
+from citybikeshare.etl.custom_downloaders.utils.browser import launch_chromium
 
 
 def run_get_exports(playwright, url, context: PipelineContext):
     download_path = context.download_directory
-    browser = playwright.chromium.launch(headless=True)
+    browser = launch_chromium(playwright)
     context = browser.new_context(accept_downloads=True)
     page = context.new_page()
 
