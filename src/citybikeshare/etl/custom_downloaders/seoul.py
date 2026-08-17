@@ -2,13 +2,14 @@ import os
 from playwright.sync_api import sync_playwright
 from citybikeshare.context import PipelineContext
 from citybikeshare.etl.custom_downloaders.utils.download_helpers import should_download
+from citybikeshare.etl.custom_downloaders.utils.browser import launch_chromium
 
 
 def main(p, config, context: PipelineContext):
     config.get("name")
     download_path = context.download_directory
 
-    browser = p.chromium.launch(headless=True)
+    browser = launch_chromium(p)
     context = browser.new_context(accept_downloads=True)
     page = context.new_page()
     page.goto("https://data.seoul.go.kr/dataList/OA-15182/F/1/datasetView.do#")

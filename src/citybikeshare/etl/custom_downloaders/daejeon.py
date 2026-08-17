@@ -2,6 +2,7 @@ import os
 from playwright.sync_api import sync_playwright
 from citybikeshare.context import PipelineContext
 from citybikeshare.etl.custom_downloaders.utils.download_helpers import should_download
+from citybikeshare.etl.custom_downloaders.utils.browser import launch_chromium
 
 
 def _accept_dialog(dialog):
@@ -13,7 +14,7 @@ def _accept_dialog(dialog):
 
 def run(playwright, url, context: PipelineContext):
     download_path = context.download_directory
-    browser = playwright.chromium.launch(headless=True)
+    browser = launch_chromium(playwright)
     browser_context = browser.new_context(accept_downloads=True)
     page = browser_context.new_page()
     page.on("dialog", _accept_dialog)

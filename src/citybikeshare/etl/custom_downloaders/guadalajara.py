@@ -3,6 +3,7 @@ import requests
 from playwright.sync_api import sync_playwright
 from citybikeshare.context import PipelineContext
 from citybikeshare.etl.custom_downloaders.utils.download_helpers import should_download
+from citybikeshare.etl.custom_downloaders.utils.browser import launch_chromium
 
 CSV_EXTENSION = ".csv"
 OPEN_DATA_ROOT = "https://www.mibici.net"
@@ -19,7 +20,7 @@ def get_csv_links(playwright, url):
     """
     Fetch CSV file links from the given URL using Playwright.
     """
-    browser = playwright.chromium.launch(headless=True)
+    browser = launch_chromium(playwright)
     try:
         context = browser.new_context(accept_downloads=True)
         page = context.new_page()

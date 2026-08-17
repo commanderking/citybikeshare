@@ -6,6 +6,7 @@ import requests
 from playwright.sync_api import sync_playwright
 
 from citybikeshare.etl.custom_downloaders.utils.download_helpers import should_download
+from citybikeshare.etl.custom_downloaders.utils.browser import launch_chromium
 
 
 # ecobici throttles each connection to ~0.5 MB/s, so wall-clock time is bound by
@@ -15,7 +16,7 @@ _MAX_CONCURRENT_DOWNLOADS = 4
 
 
 def _fetch_csv_hrefs(playwright, url):
-    browser = playwright.chromium.launch(headless=True)
+    browser = launch_chromium(playwright)
     context = browser.new_context()
     page = context.new_page()
 
