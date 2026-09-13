@@ -107,3 +107,98 @@ class TestTransformReadsGzip:
         ctx.cleaned_directory.mkdir(parents=True)
         (ctx.cleaned_directory / "x.csv.gz").write_bytes(b"x")
         assert ctx.transform_input_directory == ctx.cleaned_directory
+
+
+class TestTorontoSplitFusedTripId:
+    HEADER = (
+        "Trip Id,Trip  Duration,Start Station Id,Start Time,Start Station Name,"
+        "End Station Id,End Time,End Station Name,Bike Id,User Type\n"
+    )
+    GOOD = "10000083,720,7239,10/03/2020 13:28,Bloor St W,7160,10/03/2020 13:40,King St W,5563,Annual Member\n"
+    FUSED = "10000084625,7120,10/03/2020 13:28,Gerrard St E,7120,10/03/2020 13:38,Gerrard St E,5250,Annual Member\n"
+    FUSED_2DIGIT = "1005497396,7118,10/08/2020 14:07,King St W,7160,10/08/2020 14:09,King St W,1,Annual Member\n"
+
+    def _run(self, tmp_path, body):
+        raw = tmp_path / "2020-10.csv"
+        raw.write_text(self.HEADER + body, encoding="utf-8")
+        out = tmp_path / "2020-10.csv.gz"
+        stream_clean_to_gzip(raw, out, ["toronto_split_fused_trip_id"], {})
+        return _read_gz(out).splitlines()
+
+    def test_splits_fused_id_after_8_digits(self, tmp_path):
+        lines = self._run(tmp_path, self.GOOD + self.FUSED + self.FUSED_2DIGIT)
+        assert lines[1] == self.GOOD.rstrip()
+        assert lines[2].startswith("10000084,625,7120,")
+        assert lines[3].startswith("10054973,96,7118,")
+        assert all(len(line.split(",")) == 10 for line in lines)
+
+    def test_unknown_short_row_raises(self, tmp_path):
+        import pytest
+
+        bad = "10000084,7120,10/03/2020 13:28,Gerrard St E,7120,10/03/2020 13:38,Gerrard St E,5250,Annual Member\n"
+        with pytest.raises(ValueError, match="unknown corruption"):
+            self._run(tmp_path, bad)
+
+
+class TestScopedCleanSteps:
+    def _ctx(self, tmp_path, city="toronto"):
+        ctx = PipelineContext(
+            city=city,
+            data_root=tmp_path / "data",
+            transformed_root=tmp_path / "output",
+            analysis_root=tmp_path / "analysis",
+        )
+        ctx.raw_directory.mkdir(parents=True)
+        return ctx
+
+    def test_normalizes_bare_and_mapping_entries(self):
+        from citybikeshare.etl.clean import _normalize_clean_steps, _steps_for_file
+
+        steps = _normalize_clean_steps(
+            ["normalize_newlines", {"step": "toronto_split_fused_trip_id", "files": ["a.csv.gz"]}]
+        )
+        assert _steps_for_file(steps, "a.csv.gz") == [
+            "normalize_newlines",
+            "toronto_split_fused_trip_id",
+        ]
+        assert _steps_for_file(steps, "b.csv.gz") == ["normalize_newlines"]
+
+    def test_unknown_step_or_unmatched_file_raises(self, tmp_path):
+        import pytest
+        from citybikeshare.etl.clean import _assert_clean_steps_valid, _normalize_clean_steps
+
+        raw = [tmp_path / "a.csv.gz"]
+        with pytest.raises(ValueError, match="unknown clean step"):
+            _assert_clean_steps_valid(_normalize_clean_steps(["nope"]), raw, "x")
+        with pytest.raises(ValueError, match="not in raw/"):
+            _assert_clean_steps_valid(
+                _normalize_clean_steps([{"step": "normalize_newlines", "files": ["zzz.csv"]}]),
+                raw,
+                "x",
+            )
+
+    def test_untargeted_file_is_byte_copied(self, tmp_path, monkeypatch):
+        from citybikeshare.etl import clean as clean_mod
+
+        ctx = self._ctx(tmp_path)
+        header = TestTorontoSplitFusedTripId.HEADER
+        with gzip.open(ctx.raw_directory / "2019-q1.csv.gz", "wt", encoding="utf-8") as f:
+            f.write(header + TestTorontoSplitFusedTripId.GOOD)
+        with gzip.open(ctx.raw_directory / "2020-10.csv.gz", "wt", encoding="utf-8") as f:
+            f.write(header + TestTorontoSplitFusedTripId.FUSED)
+        monkeypatch.setattr(
+            clean_mod,
+            "load_city_config",
+            lambda city: {
+                "clean_pipeline": [
+                    {"step": "toronto_split_fused_trip_id", "files": ["2020-10.csv.gz"]}
+                ],
+                "compress_cleaned": True,
+            },
+        )
+
+        clean_mod.clean_city_data(ctx)
+
+        untouched = ctx.cleaned_directory / "2019-q1.csv.gz"
+        assert untouched.read_bytes() == (ctx.raw_directory / "2019-q1.csv.gz").read_bytes()
+        assert "10000084,625," in _read_gz(ctx.cleaned_directory / "2020-10.csv.gz")

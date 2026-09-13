@@ -66,14 +66,39 @@ read_csv_options:
   encoding: utf8-lossy
   null_values:
     - "NULLNULL"   # one corrupt end_time in bikeshare_ridership_(2017_q4) → treat as missing
-# TODO(data-quality): 2020-10.csv.gz has 249 rows (of 277,839) that omit the `Start Station Id`
-# field entirely — they carry 9 comma-fields instead of 10, so every column after Trip Duration
-# shifts one left (station names land in start_time). convert_to_datetime fails loud on them, which
-# currently blocks a full `--no-incremental` rebuild of Toronto. The rows are otherwise valid trips
-# (only the unused Start Station Id is missing); fix is to recover them by padding 9-field rows with
-# an empty Start Station Id before the scan, or drop them. See the TODO section in README.md.
+clean_pipeline:
+  # 2020-10.csv.gz has 249 rows (of 277,839) missing the comma between Trip Id and Trip Duration,
+  # so every later column shifts one left and station names land in start_time. Scoped to that
+  # one file: every other raw file is copied into cleaned/ untouched (see
+  # toronto_split_fused_trip_id for the split rule and how it was verified).
+  - step: toronto_split_fused_trip_id
+    files: ["2020-10.csv.gz"]
+  # 2016 ships as an xlsx workbook (Q3 + Q4 sheets) with the 2017 CSV column layout. Excel
+  # mangled the Q4 dates: a d/m/yyyy text export was re-parsed as m/d, so days ≤12 became
+  # date serials with day and month swapped, while days ≥13 stayed as text. expected_months
+  # is the guard on that swap — un-swapping correct dates would scatter Q4 across the year.
+  - step: convert_xlsx_sheets
+    files: ["bikeshare-ridership-2016.xlsx.gz"]
+    sheets:
+      "tor_trips_2016_Q3 ":   # trailing space is in the source
+        date_columns: [trip_start_time, trip_stop_time]
+      tor_trips_2016_Q4:
+        date_columns: [trip_start_time, trip_stop_time]
+        text_date_format: "%d/%m/%Y %H:%M"
+        serial_dates_day_month_swapped: true
+        expected_months: [10, 11, 12]
+compress_cleaned: true
+# Published alongside the trips but not trip data: the field-description readme, and 2014–2015,
+# which is monthly station-pair counts with no timestamps.
+ignored_raw_files:
+  - bikeshare-ridership-readme.xlsx.gz
+  - bikeshare-ridership-2014-2015.xlsx.gz
+# One 2016 Q3 trip is stamped with an epoch-garbage date on both ends.
+invalid_values:
+  start_time: ["2000-01-01 14:40:00"]
 processing_pipeline:
   - rename_columns
+  - remove_invalid_rows   # matches the raw string, so it must precede convert_to_datetime
   - convert_to_datetime
   - normalize_bike_type
   - select_final_columns

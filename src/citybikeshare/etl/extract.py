@@ -258,9 +258,12 @@ def extract_city_data(context: PipelineContext, overwrite: bool = False) -> List
         source_name = entry.name
         recorded = state.get(source_name)
 
-        is_zip = zipfile.is_zipfile(entry)
+        # An xlsx is itself a zip, so test for it before is_zipfile — otherwise it would be
+        # "extracted" (no .csv members) and silently dropped.
+        is_xlsx = entry.suffix.lower() == ".xlsx"
+        is_zip = not is_xlsx and zipfile.is_zipfile(entry)
         is_csv = entry.suffix.lower() == ".csv"
-        if not (is_zip or is_csv):
+        if not (is_zip or is_csv or is_xlsx):
             continue
 
         # Skip when the source is unchanged and its outputs are still present.
@@ -277,11 +280,13 @@ def extract_city_data(context: PipelineContext, overwrite: bool = False) -> List
         if is_zip:
             produced = _extract_archive(entry, raw_dir, keep_json=keep_json)
         else:
+            # Top-level CSV or XLSX: store the bytes verbatim, gzipped. Converting an xlsx to
+            # CSV is the clean stage's job (see XLSX_CONVERT_FUNCTIONS).
             dest = raw_dir / (source_name + ".gz")
             _gzip_file(entry, dest)
             (raw_dir / source_name).unlink(missing_ok=True)
             produced = [dest]
-            print(f"✅ Copied CSV (gzip): {dest.name}")
+            print(f"✅ Copied {entry.suffix.lstrip('.').upper()} (gzip): {dest.name}")
 
         csv_files.extend(produced)
         new_state[source_name] = {
