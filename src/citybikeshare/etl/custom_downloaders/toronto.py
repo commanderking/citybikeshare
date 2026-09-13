@@ -24,7 +24,25 @@ def download(config, context: PipelineContext):
         if not resource["datastore_active"]:
             url = base_url + "/api/3/action/resource_show?id=" + resource["id"]
             resource_metadata = requests.get(url).json()
-            response = requests.get(resource_metadata["result"]["url"], timeout=10000)
+            resource_url = resource_metadata["result"]["url"]
+
+            # 2014–2016 ship as XLSX workbooks rather than zipped CSVs. Save the bytes as-is
+            # (extract carries them to raw/, clean converts the sheets). Check this before
+            # touching ZipFile: an xlsx *is* a zip, so it would otherwise open "successfully"
+            # with no .csv members and be skipped silently.
+            if resource.get("format", "").upper() == "XLSX":
+                target_path = os.path.join(
+                    csv_path, os.path.basename(resource_url).lower().replace(" ", "_")
+                )
+                if should_download(target_path):
+                    response = requests.get(resource_url, timeout=10000)
+                    response.raise_for_status()
+                    with open(target_path, "wb") as target_file:
+                        target_file.write(response.content)
+                    print(f"✅ Downloaded to {target_path}")
+                continue
+
+            response = requests.get(resource_url, timeout=10000)
             if response.status_code == 200:
                 with ZipFile(BytesIO(response.content)) as zip_file:
                     zip_contents = zip_file.namelist()
@@ -42,6 +60,4 @@ def download(config, context: PipelineContext):
                                 target_file.write(source.read())
                                 print(f"✅ Downloaded to {target_path}")
             else:
-                print(
-                    f"Failed to download file from {resource_metadata['result']['url']}"
-                )
+                print(f"Failed to download file from {resource_url}")

@@ -8,6 +8,7 @@ from pathlib import Path
 from typing import Optional
 import tempfile
 import chardet
+import polars as pl
 
 _CHUNK = 64 * 1024 * 1024
 
@@ -262,6 +263,158 @@ JSON_CONVERT_FUNCTIONS = {
 
 
 # --------------------------------------------------------------------------------------
+# XLSX → CSV conversion (clean stage). One cleaned CSV per worksheet. Every cell is read as
+# text — never let the reader infer types: polars' default read_excel silently nulled every
+# text cell of a mixed number/text date column (Toronto 2016 Q4). Date columns are then
+# normalized to one ISO format so transform sees a uniform document. The per-sheet handling
+# is declared on the clean_pipeline entry (`sheets:`), not inferred from the sheet's contents.
+# --------------------------------------------------------------------------------------
+
+_ISO_DATETIME = "%Y-%m-%d %H:%M:%S"
+
+
+def _read_xlsx_workbook(raw_file: Path):
+    import fastexcel  # optional dependency; only xlsx-source cities need it
+
+    data = gzip.open(raw_file, "rb").read() if _is_gzip(raw_file) else raw_file.read_bytes()
+    return fastexcel.read_excel(data)
+
+
+def _sheet_csv_path(cleaned_file: Path, sheet_name: str) -> Path:
+    """`<cleaned stem>__<sheet slug>.csv[.gz]` — sheet names can carry spaces (even trailing
+    ones, as Toronto's do), so they're slugged rather than used verbatim."""
+    slug = re.sub(r"[^A-Za-z0-9_-]+", "_", sheet_name.strip())
+    name = cleaned_file.name
+    base, ext = (
+        (name[:-7], ".csv.gz") if name.endswith(".csv.gz") else (name[:-4], ".csv")
+    )
+    return cleaned_file.with_name(f"{base}__{slug}{ext}")
+
+
+def _assert_sheets_match_config(workbook_sheets, configured, label: str) -> None:
+    """Every worksheet must be declared and every declared sheet must exist — an undeclared
+    sheet would be silently dropped, a misspelled one silently never converted."""
+    missing = sorted(set(configured) - set(workbook_sheets))
+    undeclared = sorted(set(workbook_sheets) - set(configured))
+    if missing or undeclared:
+        raise ValueError(
+            f"{label}: sheets in config but not in workbook: {missing}; "
+            f"sheets in workbook but not in config: {undeclared}"
+        )
+
+
+def _assert_sheet_dates_parsed(df, column: str, label: str) -> None:
+    """Raise when a date cell was present but matched neither the serial-derived ISO form nor
+    the sheet's declared text format."""
+    bad = df.filter(
+        pl.col(column).is_null()
+        & pl.col(f"{column}_pre_clean").is_not_null()
+        & (pl.col(f"{column}_pre_clean").str.strip_chars() != "")
+    )
+    if bad.height:
+        examples = bad[f"{column}_pre_clean"].head(5).to_list()
+        raise ValueError(
+            f"{label}: {bad.height} value(s) in {column!r} could not be parsed. "
+            f"Examples: {examples}. Declare their format as text_date_format on the sheet."
+        )
+
+
+def _assert_months_expected(df, column: str, expected_months, label: str) -> None:
+    """Plausibility check on the recovered dates: a sheet covering a known quarter must only
+    contain those months. This is what catches a wrong `serial_dates_day_month_swapped`
+    assumption — un-swapping correct dates would scatter a quarter across all twelve months."""
+    seen = sorted(df[column].dt.month().drop_nulls().unique().to_list())
+    unexpected = [m for m in seen if m not in expected_months]
+    if unexpected:
+        raise ValueError(
+            f"{label}: {column!r} has months {unexpected} outside expected {expected_months}"
+        )
+
+
+def _normalize_sheet_date_column(df, column: str, sheet_cfg: dict, label: str):
+    """Coalesce a text date column into a Datetime.
+
+    Cells Excel stored as date serials arrive as ISO text (the reader renders them); cells
+    Excel left as text arrive verbatim and must match `text_date_format`. With
+    `serial_dates_day_month_swapped`, the serial-derived values had their day and month
+    read the wrong way round at the source (a `d/m` file parsed as `m/d`), so those — and
+    only those — are swapped back.
+    """
+    serial = pl.col(column).str.strptime(pl.Datetime, _ISO_DATETIME, strict=False)
+    if sheet_cfg.get("serial_dates_day_month_swapped"):
+        # A swap only makes sense if the stored day fits in a month slot.
+        too_big = df.select((serial.dt.day() > 12).sum()).item()
+        if too_big:
+            raise ValueError(
+                f"{label}: {too_big} serial-derived {column!r} value(s) have day > 12, so "
+                f"they cannot be day/month swapped; the swap assumption doesn't hold."
+            )
+        serial = pl.datetime(
+            serial.dt.year(),
+            serial.dt.day(),
+            serial.dt.month(),
+            serial.dt.hour(),
+            serial.dt.minute(),
+            serial.dt.second(),
+        )
+    parts = [serial]
+    text_fmt = sheet_cfg.get("text_date_format")
+    if text_fmt:
+        parts.append(pl.col(column).str.strptime(pl.Datetime, text_fmt, strict=False))
+
+    df = df.with_columns(pl.col(column).alias(f"{column}_pre_clean")).with_columns(
+        pl.coalesce(parts).alias(column)
+    )
+    _assert_sheet_dates_parsed(df, column, label)
+    if sheet_cfg.get("expected_months"):
+        _assert_months_expected(df, column, sheet_cfg["expected_months"], label)
+    return df.drop(f"{column}_pre_clean")
+
+
+def _write_sheet_csv(df, cleaned_path: Path) -> None:
+    if _is_gzip(cleaned_path):
+        with gzip.open(cleaned_path, "wb") as f:
+            df.write_csv(f, datetime_format=_ISO_DATETIME)
+    else:
+        df.write_csv(cleaned_path, datetime_format=_ISO_DATETIME)
+
+
+def convert_xlsx_sheets(
+    raw_file: Path, cleaned_file: Path, config, csv_files, options
+) -> list[Path]:
+    """Convert each declared worksheet of an xlsx into its own cleaned CSV. `options` is the
+    clean_pipeline entry; its `sheets: {name: {date_columns, text_date_format,
+    serial_dates_day_month_swapped, expected_months}}` declares how each sheet is handled."""
+    sheets_cfg = options.get("sheets")
+    if not sheets_cfg:
+        raise ValueError(
+            f"{raw_file.name}: convert_xlsx_sheets needs a `sheets:` mapping on its "
+            f"clean_pipeline entry"
+        )
+    workbook = _read_xlsx_workbook(raw_file)
+    _assert_sheets_match_config(workbook.sheet_names, sheets_cfg, raw_file.name)
+
+    produced = []
+    for sheet_name, sheet_cfg in sheets_cfg.items():
+        label = f"{raw_file.name}[{sheet_name!r}]"
+        df = workbook.load_sheet(sheet_name, dtypes="string").to_polars()
+        for column in sheet_cfg.get("date_columns", []):
+            df = _normalize_sheet_date_column(df, column, sheet_cfg, label)
+        out = _sheet_csv_path(cleaned_file, sheet_name)
+        _write_sheet_csv(df, out)
+        print(f"✅ Converted {label} → {out.name} ({df.height} rows)")
+        produced.append(out)
+    return produced
+
+
+# An XLSX converter takes (raw_file, cleaned_file, config, sibling_csv_files, options) and
+# returns the list of cleaned Paths produced (one per sheet). Keyed by clean_pipeline step.
+XLSX_CONVERT_FUNCTIONS = {
+    "convert_xlsx_sheets": convert_xlsx_sheets,
+}
+
+
+# --------------------------------------------------------------------------------------
 # Streaming clean (for large cities like Seoul). Same fixes as the in-place functions
 # above, but applied per line so the whole file never sits in memory, and written
 # straight to a gzip-compressed cleaned copy instead of an uncompressed duplicate.
@@ -303,10 +456,40 @@ def drop_unbalanced_quote_lines(line, file_name, config):
     return line
 
 
+# Toronto's 2020-10 file has 249 rows where the comma between `Trip Id` and `Trip  Duration` is
+# missing, fusing them into one field (`10000084625,7120,...` = trip 10000084, duration 625s).
+# The corruption starts exactly when trip ids crossed 10,000,000 — every fused id is 8 digits —
+# so splitting the first field after 8 characters restores the row. Verified against the
+# neighbouring ids (…083 / …085) and against end−start for the recovered durations. A 9-field
+# row with any other shape is unknown corruption and must raise, not be guessed at.
+_TORONTO_2020_10_FIELD_COUNT = 10
+_TORONTO_FUSED_ID_DIGITS = 8
+
+
+def toronto_split_fused_trip_id(line, file_name, config):
+    fields = line.rstrip("\r\n").split(",")
+    if len(fields) == _TORONTO_2020_10_FIELD_COUNT:
+        return line
+    first = fields[0]
+    fused = (
+        len(fields) == _TORONTO_2020_10_FIELD_COUNT - 1
+        and first.isdigit()
+        and len(first) > _TORONTO_FUSED_ID_DIGITS
+    )
+    if not fused:
+        raise ValueError(
+            f"{file_name}: row has {len(fields)} fields and is not a fused trip-id/duration "
+            f"row; unknown corruption: {line.rstrip()!r}"
+        )
+    trip_id, duration = first[:_TORONTO_FUSED_ID_DIGITS], first[_TORONTO_FUSED_ID_DIGITS:]
+    return line.replace(first, f"{trip_id},{duration}", 1)
+
+
 # A line transform may return None to drop the line.
 LINE_CLEAN_FUNCTIONS = {
     "clean_seoul_files": clean_seoul_line,
     "drop_unbalanced_quote_lines": drop_unbalanced_quote_lines,
+    "toronto_split_fused_trip_id": toronto_split_fused_trip_id,
 }
 
 

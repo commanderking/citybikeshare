@@ -1,5 +1,725 @@
 [
   {
+    "bucket": 60,
+    "count": 1603,
+    "year": 2016,
+    "city": "toronto"
+  },
+  {
+    "bucket": 120,
+    "count": 7205,
+    "year": 2016,
+    "city": "toronto"
+  },
+  {
+    "bucket": 180,
+    "count": 15801,
+    "year": 2016,
+    "city": "toronto"
+  },
+  {
+    "bucket": 240,
+    "count": 24598,
+    "year": 2016,
+    "city": "toronto"
+  },
+  {
+    "bucket": 300,
+    "count": 31581,
+    "year": 2016,
+    "city": "toronto"
+  },
+  {
+    "bucket": 360,
+    "count": 36068,
+    "year": 2016,
+    "city": "toronto"
+  },
+  {
+    "bucket": 420,
+    "count": 37854,
+    "year": 2016,
+    "city": "toronto"
+  },
+  {
+    "bucket": 480,
+    "count": 38308,
+    "year": 2016,
+    "city": "toronto"
+  },
+  {
+    "bucket": 540,
+    "count": 37590,
+    "year": 2016,
+    "city": "toronto"
+  },
+  {
+    "bucket": 600,
+    "count": 35703,
+    "year": 2016,
+    "city": "toronto"
+  },
+  {
+    "bucket": 660,
+    "count": 33176,
+    "year": 2016,
+    "city": "toronto"
+  },
+  {
+    "bucket": 720,
+    "count": 30431,
+    "year": 2016,
+    "city": "toronto"
+  },
+  {
+    "bucket": 780,
+    "count": 27560,
+    "year": 2016,
+    "city": "toronto"
+  },
+  {
+    "bucket": 840,
+    "count": 25008,
+    "year": 2016,
+    "city": "toronto"
+  },
+  {
+    "bucket": 900,
+    "count": 22333,
+    "year": 2016,
+    "city": "toronto"
+  },
+  {
+    "bucket": 960,
+    "count": 19965,
+    "year": 2016,
+    "city": "toronto"
+  },
+  {
+    "bucket": 1020,
+    "count": 17834,
+    "year": 2016,
+    "city": "toronto"
+  },
+  {
+    "bucket": 1080,
+    "count": 15567,
+    "year": 2016,
+    "city": "toronto"
+  },
+  {
+    "bucket": 1140,
+    "count": 13782,
+    "year": 2016,
+    "city": "toronto"
+  },
+  {
+    "bucket": 1200,
+    "count": 12192,
+    "year": 2016,
+    "city": "toronto"
+  },
+  {
+    "bucket": 1260,
+    "count": 10991,
+    "year": 2016,
+    "city": "toronto"
+  },
+  {
+    "bucket": 1320,
+    "count": 9842,
+    "year": 2016,
+    "city": "toronto"
+  },
+  {
+    "bucket": 1380,
+    "count": 8675,
+    "year": 2016,
+    "city": "toronto"
+  },
+  {
+    "bucket": 1440,
+    "count": 7666,
+    "year": 2016,
+    "city": "toronto"
+  },
+  {
+    "bucket": 1500,
+    "count": 6581,
+    "year": 2016,
+    "city": "toronto"
+  },
+  {
+    "bucket": 1560,
+    "count": 5656,
+    "year": 2016,
+    "city": "toronto"
+  },
+  {
+    "bucket": 1620,
+    "count": 4790,
+    "year": 2016,
+    "city": "toronto"
+  },
+  {
+    "bucket": 1680,
+    "count": 4083,
+    "year": 2016,
+    "city": "toronto"
+  },
+  {
+    "bucket": 1740,
+    "count": 3307,
+    "year": 2016,
+    "city": "toronto"
+  },
+  {
+    "bucket": 1800,
+    "count": 2847,
+    "year": 2016,
+    "city": "toronto"
+  },
+  {
+    "bucket": 1860,
+    "count": 2402,
+    "year": 2016,
+    "city": "toronto"
+  },
+  {
+    "bucket": 1920,
+    "count": 1945,
+    "year": 2016,
+    "city": "toronto"
+  },
+  {
+    "bucket": 1980,
+    "count": 1596,
+    "year": 2016,
+    "city": "toronto"
+  },
+  {
+    "bucket": 2040,
+    "count": 1425,
+    "year": 2016,
+    "city": "toronto"
+  },
+  {
+    "bucket": 2100,
+    "count": 1256,
+    "year": 2016,
+    "city": "toronto"
+  },
+  {
+    "bucket": 2160,
+    "count": 1086,
+    "year": 2016,
+    "city": "toronto"
+  },
+  {
+    "bucket": 2220,
+    "count": 944,
+    "year": 2016,
+    "city": "toronto"
+  },
+  {
+    "bucket": 2280,
+    "count": 897,
+    "year": 2016,
+    "city": "toronto"
+  },
+  {
+    "bucket": 2340,
+    "count": 798,
+    "year": 2016,
+    "city": "toronto"
+  },
+  {
+    "bucket": 2400,
+    "count": 688,
+    "year": 2016,
+    "city": "toronto"
+  },
+  {
+    "bucket": 2460,
+    "count": 688,
+    "year": 2016,
+    "city": "toronto"
+  },
+  {
+    "bucket": 2520,
+    "count": 628,
+    "year": 2016,
+    "city": "toronto"
+  },
+  {
+    "bucket": 2580,
+    "count": 550,
+    "year": 2016,
+    "city": "toronto"
+  },
+  {
+    "bucket": 2640,
+    "count": 543,
+    "year": 2016,
+    "city": "toronto"
+  },
+  {
+    "bucket": 2700,
+    "count": 534,
+    "year": 2016,
+    "city": "toronto"
+  },
+  {
+    "bucket": 2760,
+    "count": 512,
+    "year": 2016,
+    "city": "toronto"
+  },
+  {
+    "bucket": 2820,
+    "count": 459,
+    "year": 2016,
+    "city": "toronto"
+  },
+  {
+    "bucket": 2880,
+    "count": 463,
+    "year": 2016,
+    "city": "toronto"
+  },
+  {
+    "bucket": 2940,
+    "count": 446,
+    "year": 2016,
+    "city": "toronto"
+  },
+  {
+    "bucket": 3000,
+    "count": 420,
+    "year": 2016,
+    "city": "toronto"
+  },
+  {
+    "bucket": 3060,
+    "count": 369,
+    "year": 2016,
+    "city": "toronto"
+  },
+  {
+    "bucket": 3120,
+    "count": 363,
+    "year": 2016,
+    "city": "toronto"
+  },
+  {
+    "bucket": 3180,
+    "count": 358,
+    "year": 2016,
+    "city": "toronto"
+  },
+  {
+    "bucket": 3240,
+    "count": 320,
+    "year": 2016,
+    "city": "toronto"
+  },
+  {
+    "bucket": 3300,
+    "count": 329,
+    "year": 2016,
+    "city": "toronto"
+  },
+  {
+    "bucket": 3360,
+    "count": 343,
+    "year": 2016,
+    "city": "toronto"
+  },
+  {
+    "bucket": 3420,
+    "count": 307,
+    "year": 2016,
+    "city": "toronto"
+  },
+  {
+    "bucket": 3480,
+    "count": 308,
+    "year": 2016,
+    "city": "toronto"
+  },
+  {
+    "bucket": 3540,
+    "count": 299,
+    "year": 2016,
+    "city": "toronto"
+  },
+  {
+    "bucket": 3600,
+    "count": 288,
+    "year": 2016,
+    "city": "toronto"
+  },
+  {
+    "bucket": 3660,
+    "count": 278,
+    "year": 2016,
+    "city": "toronto"
+  },
+  {
+    "bucket": 3720,
+    "count": 280,
+    "year": 2016,
+    "city": "toronto"
+  },
+  {
+    "bucket": 3780,
+    "count": 234,
+    "year": 2016,
+    "city": "toronto"
+  },
+  {
+    "bucket": 3840,
+    "count": 222,
+    "year": 2016,
+    "city": "toronto"
+  },
+  {
+    "bucket": 3900,
+    "count": 236,
+    "year": 2016,
+    "city": "toronto"
+  },
+  {
+    "bucket": 3960,
+    "count": 204,
+    "year": 2016,
+    "city": "toronto"
+  },
+  {
+    "bucket": 4020,
+    "count": 219,
+    "year": 2016,
+    "city": "toronto"
+  },
+  {
+    "bucket": 4080,
+    "count": 217,
+    "year": 2016,
+    "city": "toronto"
+  },
+  {
+    "bucket": 4140,
+    "count": 210,
+    "year": 2016,
+    "city": "toronto"
+  },
+  {
+    "bucket": 4200,
+    "count": 213,
+    "year": 2016,
+    "city": "toronto"
+  },
+  {
+    "bucket": 4260,
+    "count": 205,
+    "year": 2016,
+    "city": "toronto"
+  },
+  {
+    "bucket": 4320,
+    "count": 191,
+    "year": 2016,
+    "city": "toronto"
+  },
+  {
+    "bucket": 4380,
+    "count": 181,
+    "year": 2016,
+    "city": "toronto"
+  },
+  {
+    "bucket": 4440,
+    "count": 222,
+    "year": 2016,
+    "city": "toronto"
+  },
+  {
+    "bucket": 4500,
+    "count": 172,
+    "year": 2016,
+    "city": "toronto"
+  },
+  {
+    "bucket": 4560,
+    "count": 196,
+    "year": 2016,
+    "city": "toronto"
+  },
+  {
+    "bucket": 4620,
+    "count": 182,
+    "year": 2016,
+    "city": "toronto"
+  },
+  {
+    "bucket": 4680,
+    "count": 146,
+    "year": 2016,
+    "city": "toronto"
+  },
+  {
+    "bucket": 4740,
+    "count": 153,
+    "year": 2016,
+    "city": "toronto"
+  },
+  {
+    "bucket": 4800,
+    "count": 188,
+    "year": 2016,
+    "city": "toronto"
+  },
+  {
+    "bucket": 4860,
+    "count": 161,
+    "year": 2016,
+    "city": "toronto"
+  },
+  {
+    "bucket": 4920,
+    "count": 163,
+    "year": 2016,
+    "city": "toronto"
+  },
+  {
+    "bucket": 4980,
+    "count": 159,
+    "year": 2016,
+    "city": "toronto"
+  },
+  {
+    "bucket": 5040,
+    "count": 168,
+    "year": 2016,
+    "city": "toronto"
+  },
+  {
+    "bucket": 5100,
+    "count": 165,
+    "year": 2016,
+    "city": "toronto"
+  },
+  {
+    "bucket": 5160,
+    "count": 171,
+    "year": 2016,
+    "city": "toronto"
+  },
+  {
+    "bucket": 5220,
+    "count": 166,
+    "year": 2016,
+    "city": "toronto"
+  },
+  {
+    "bucket": 5280,
+    "count": 165,
+    "year": 2016,
+    "city": "toronto"
+  },
+  {
+    "bucket": 5340,
+    "count": 159,
+    "year": 2016,
+    "city": "toronto"
+  },
+  {
+    "bucket": 5400,
+    "count": 143,
+    "year": 2016,
+    "city": "toronto"
+  },
+  {
+    "bucket": 5460,
+    "count": 160,
+    "year": 2016,
+    "city": "toronto"
+  },
+  {
+    "bucket": 5520,
+    "count": 111,
+    "year": 2016,
+    "city": "toronto"
+  },
+  {
+    "bucket": 5580,
+    "count": 130,
+    "year": 2016,
+    "city": "toronto"
+  },
+  {
+    "bucket": 5640,
+    "count": 124,
+    "year": 2016,
+    "city": "toronto"
+  },
+  {
+    "bucket": 5700,
+    "count": 128,
+    "year": 2016,
+    "city": "toronto"
+  },
+  {
+    "bucket": 5760,
+    "count": 118,
+    "year": 2016,
+    "city": "toronto"
+  },
+  {
+    "bucket": 5820,
+    "count": 129,
+    "year": 2016,
+    "city": "toronto"
+  },
+  {
+    "bucket": 5880,
+    "count": 135,
+    "year": 2016,
+    "city": "toronto"
+  },
+  {
+    "bucket": 5940,
+    "count": 129,
+    "year": 2016,
+    "city": "toronto"
+  },
+  {
+    "bucket": 6000,
+    "count": 128,
+    "year": 2016,
+    "city": "toronto"
+  },
+  {
+    "bucket": 6060,
+    "count": 127,
+    "year": 2016,
+    "city": "toronto"
+  },
+  {
+    "bucket": 6120,
+    "count": 144,
+    "year": 2016,
+    "city": "toronto"
+  },
+  {
+    "bucket": 6180,
+    "count": 109,
+    "year": 2016,
+    "city": "toronto"
+  },
+  {
+    "bucket": 6240,
+    "count": 100,
+    "year": 2016,
+    "city": "toronto"
+  },
+  {
+    "bucket": 6300,
+    "count": 120,
+    "year": 2016,
+    "city": "toronto"
+  },
+  {
+    "bucket": 6360,
+    "count": 109,
+    "year": 2016,
+    "city": "toronto"
+  },
+  {
+    "bucket": 6420,
+    "count": 84,
+    "year": 2016,
+    "city": "toronto"
+  },
+  {
+    "bucket": 6480,
+    "count": 99,
+    "year": 2016,
+    "city": "toronto"
+  },
+  {
+    "bucket": 6540,
+    "count": 107,
+    "year": 2016,
+    "city": "toronto"
+  },
+  {
+    "bucket": 6600,
+    "count": 103,
+    "year": 2016,
+    "city": "toronto"
+  },
+  {
+    "bucket": 6660,
+    "count": 106,
+    "year": 2016,
+    "city": "toronto"
+  },
+  {
+    "bucket": 6720,
+    "count": 95,
+    "year": 2016,
+    "city": "toronto"
+  },
+  {
+    "bucket": 6780,
+    "count": 100,
+    "year": 2016,
+    "city": "toronto"
+  },
+  {
+    "bucket": 6840,
+    "count": 101,
+    "year": 2016,
+    "city": "toronto"
+  },
+  {
+    "bucket": 6900,
+    "count": 103,
+    "year": 2016,
+    "city": "toronto"
+  },
+  {
+    "bucket": 6960,
+    "count": 103,
+    "year": 2016,
+    "city": "toronto"
+  },
+  {
+    "bucket": 7020,
+    "count": 95,
+    "year": 2016,
+    "city": "toronto"
+  },
+  {
+    "bucket": 7080,
+    "count": 83,
+    "year": 2016,
+    "city": "toronto"
+  },
+  {
+    "bucket": 7140,
+    "count": 100,
+    "year": 2016,
+    "city": "toronto"
+  },
+  {
+    "bucket": 7200,
+    "count": 6320,
+    "year": 2016,
+    "city": "toronto"
+  },
+  {
     "bucket": 0,
     "count": 20382,
     "year": 2017,
@@ -2179,169 +2899,169 @@
   },
   {
     "bucket": 60,
-    "count": 13292,
+    "count": 13297,
     "year": 2020,
     "city": "toronto"
   },
   {
     "bucket": 120,
-    "count": 43842,
+    "count": 43851,
     "year": 2020,
     "city": "toronto"
   },
   {
     "bucket": 180,
-    "count": 78143,
+    "count": 78153,
     "year": 2020,
     "city": "toronto"
   },
   {
     "bucket": 240,
-    "count": 106250,
+    "count": 106256,
     "year": 2020,
     "city": "toronto"
   },
   {
     "bucket": 300,
-    "count": 124908,
+    "count": 124916,
     "year": 2020,
     "city": "toronto"
   },
   {
     "bucket": 360,
-    "count": 134441,
+    "count": 134454,
     "year": 2020,
     "city": "toronto"
   },
   {
     "bucket": 420,
-    "count": 138462,
+    "count": 138477,
     "year": 2020,
     "city": "toronto"
   },
   {
     "bucket": 480,
-    "count": 138850,
+    "count": 138857,
     "year": 2020,
     "city": "toronto"
   },
   {
     "bucket": 540,
-    "count": 135563,
+    "count": 135576,
     "year": 2020,
     "city": "toronto"
   },
   {
     "bucket": 600,
-    "count": 131534,
+    "count": 131549,
     "year": 2020,
     "city": "toronto"
   },
   {
     "bucket": 660,
-    "count": 126971,
+    "count": 126978,
     "year": 2020,
     "city": "toronto"
   },
   {
     "bucket": 720,
-    "count": 122581,
+    "count": 122592,
     "year": 2020,
     "city": "toronto"
   },
   {
     "bucket": 780,
-    "count": 118416,
+    "count": 118426,
     "year": 2020,
     "city": "toronto"
   },
   {
     "bucket": 840,
-    "count": 113958,
+    "count": 113967,
     "year": 2020,
     "city": "toronto"
   },
   {
     "bucket": 900,
-    "count": 109455,
+    "count": 109463,
     "year": 2020,
     "city": "toronto"
   },
   {
     "bucket": 960,
-    "count": 104331,
+    "count": 104336,
     "year": 2020,
     "city": "toronto"
   },
   {
     "bucket": 1020,
-    "count": 99994,
+    "count": 100002,
     "year": 2020,
     "city": "toronto"
   },
   {
     "bucket": 1080,
-    "count": 95254,
+    "count": 95268,
     "year": 2020,
     "city": "toronto"
   },
   {
     "bucket": 1140,
-    "count": 90880,
+    "count": 90889,
     "year": 2020,
     "city": "toronto"
   },
   {
     "bucket": 1200,
-    "count": 86858,
+    "count": 86864,
     "year": 2020,
     "city": "toronto"
   },
   {
     "bucket": 1260,
-    "count": 82169,
+    "count": 82182,
     "year": 2020,
     "city": "toronto"
   },
   {
     "bucket": 1320,
-    "count": 77371,
+    "count": 77379,
     "year": 2020,
     "city": "toronto"
   },
   {
     "bucket": 1380,
-    "count": 72346,
+    "count": 72353,
     "year": 2020,
     "city": "toronto"
   },
   {
     "bucket": 1440,
-    "count": 67789,
+    "count": 67799,
     "year": 2020,
     "city": "toronto"
   },
   {
     "bucket": 1500,
-    "count": 62388,
+    "count": 62392,
     "year": 2020,
     "city": "toronto"
   },
   {
     "bucket": 1560,
-    "count": 56082,
+    "count": 56090,
     "year": 2020,
     "city": "toronto"
   },
   {
     "bucket": 1620,
-    "count": 50128,
+    "count": 50133,
     "year": 2020,
     "city": "toronto"
   },
   {
     "bucket": 1680,
-    "count": 42877,
+    "count": 42881,
     "year": 2020,
     "city": "toronto"
   },
@@ -2353,13 +3073,13 @@
   },
   {
     "bucket": 1800,
-    "count": 26921,
+    "count": 26922,
     "year": 2020,
     "city": "toronto"
   },
   {
     "bucket": 1860,
-    "count": 19822,
+    "count": 19823,
     "year": 2020,
     "city": "toronto"
   },
@@ -5077,727 +5797,727 @@
   },
   {
     "bucket": 0,
-    "count": 17840,
+    "count": 11960,
     "year": 2024,
     "city": "toronto"
   },
   {
     "bucket": 60,
-    "count": 102244,
+    "count": 75364,
     "year": 2024,
     "city": "toronto"
   },
   {
     "bucket": 120,
-    "count": 266916,
+    "count": 175430,
     "year": 2024,
     "city": "toronto"
   },
   {
     "bucket": 180,
-    "count": 448567,
+    "count": 279218,
     "year": 2024,
     "city": "toronto"
   },
   {
     "bucket": 240,
-    "count": 605957,
+    "count": 365275,
     "year": 2024,
     "city": "toronto"
   },
   {
     "bucket": 300,
-    "count": 707033,
+    "count": 416645,
     "year": 2024,
     "city": "toronto"
   },
   {
     "bucket": 360,
-    "count": 754490,
+    "count": 437061,
     "year": 2024,
     "city": "toronto"
   },
   {
     "bucket": 420,
-    "count": 766744,
+    "count": 440765,
     "year": 2024,
     "city": "toronto"
   },
   {
     "bucket": 480,
-    "count": 752482,
+    "count": 428174,
     "year": 2024,
     "city": "toronto"
   },
   {
     "bucket": 540,
-    "count": 716222,
+    "count": 405025,
     "year": 2024,
     "city": "toronto"
   },
   {
     "bucket": 600,
-    "count": 668645,
+    "count": 374649,
     "year": 2024,
     "city": "toronto"
   },
   {
     "bucket": 660,
-    "count": 615232,
+    "count": 343614,
     "year": 2024,
     "city": "toronto"
   },
   {
     "bucket": 720,
-    "count": 561909,
+    "count": 313253,
     "year": 2024,
     "city": "toronto"
   },
   {
     "bucket": 780,
-    "count": 513344,
+    "count": 284621,
     "year": 2024,
     "city": "toronto"
   },
   {
     "bucket": 840,
-    "count": 463269,
+    "count": 256162,
     "year": 2024,
     "city": "toronto"
   },
   {
     "bucket": 900,
-    "count": 417275,
+    "count": 229825,
     "year": 2024,
     "city": "toronto"
   },
   {
     "bucket": 960,
-    "count": 373553,
+    "count": 205459,
     "year": 2024,
     "city": "toronto"
   },
   {
     "bucket": 1020,
-    "count": 334787,
+    "count": 183485,
     "year": 2024,
     "city": "toronto"
   },
   {
     "bucket": 1080,
-    "count": 298903,
+    "count": 163147,
     "year": 2024,
     "city": "toronto"
   },
   {
     "bucket": 1140,
-    "count": 267336,
+    "count": 146209,
     "year": 2024,
     "city": "toronto"
   },
   {
     "bucket": 1200,
-    "count": 239110,
+    "count": 129888,
     "year": 2024,
     "city": "toronto"
   },
   {
     "bucket": 1260,
-    "count": 213160,
+    "count": 115960,
     "year": 2024,
     "city": "toronto"
   },
   {
     "bucket": 1320,
-    "count": 191492,
+    "count": 103852,
     "year": 2024,
     "city": "toronto"
   },
   {
     "bucket": 1380,
-    "count": 171609,
+    "count": 92602,
     "year": 2024,
     "city": "toronto"
   },
   {
     "bucket": 1440,
-    "count": 153529,
+    "count": 83205,
     "year": 2024,
     "city": "toronto"
   },
   {
     "bucket": 1500,
-    "count": 139127,
+    "count": 75154,
     "year": 2024,
     "city": "toronto"
   },
   {
     "bucket": 1560,
-    "count": 124214,
+    "count": 66501,
     "year": 2024,
     "city": "toronto"
   },
   {
     "bucket": 1620,
-    "count": 111020,
+    "count": 59603,
     "year": 2024,
     "city": "toronto"
   },
   {
     "bucket": 1680,
-    "count": 99595,
+    "count": 53474,
     "year": 2024,
     "city": "toronto"
   },
   {
     "bucket": 1740,
-    "count": 89289,
+    "count": 47820,
     "year": 2024,
     "city": "toronto"
   },
   {
     "bucket": 1800,
-    "count": 79794,
+    "count": 42262,
     "year": 2024,
     "city": "toronto"
   },
   {
     "bucket": 1860,
-    "count": 70548,
+    "count": 37530,
     "year": 2024,
     "city": "toronto"
   },
   {
     "bucket": 1920,
-    "count": 63038,
+    "count": 33555,
     "year": 2024,
     "city": "toronto"
   },
   {
     "bucket": 1980,
-    "count": 57810,
+    "count": 30759,
     "year": 2024,
     "city": "toronto"
   },
   {
     "bucket": 2040,
-    "count": 52681,
+    "count": 28148,
     "year": 2024,
     "city": "toronto"
   },
   {
     "bucket": 2100,
-    "count": 48191,
+    "count": 25560,
     "year": 2024,
     "city": "toronto"
   },
   {
     "bucket": 2160,
-    "count": 44181,
+    "count": 23561,
     "year": 2024,
     "city": "toronto"
   },
   {
     "bucket": 2220,
-    "count": 40365,
+    "count": 21339,
     "year": 2024,
     "city": "toronto"
   },
   {
     "bucket": 2280,
-    "count": 37076,
+    "count": 19688,
     "year": 2024,
     "city": "toronto"
   },
   {
     "bucket": 2340,
-    "count": 34351,
+    "count": 18190,
     "year": 2024,
     "city": "toronto"
   },
   {
     "bucket": 2400,
-    "count": 31856,
+    "count": 16883,
     "year": 2024,
     "city": "toronto"
   },
   {
     "bucket": 2460,
-    "count": 29346,
+    "count": 15512,
     "year": 2024,
     "city": "toronto"
   },
   {
     "bucket": 2520,
-    "count": 26797,
+    "count": 14106,
     "year": 2024,
     "city": "toronto"
   },
   {
     "bucket": 2580,
-    "count": 24925,
+    "count": 13193,
     "year": 2024,
     "city": "toronto"
   },
   {
     "bucket": 2640,
-    "count": 22438,
+    "count": 11746,
     "year": 2024,
     "city": "toronto"
   },
   {
     "bucket": 2700,
-    "count": 19972,
+    "count": 10413,
     "year": 2024,
     "city": "toronto"
   },
   {
     "bucket": 2760,
-    "count": 17835,
+    "count": 9349,
     "year": 2024,
     "city": "toronto"
   },
   {
     "bucket": 2820,
-    "count": 16041,
+    "count": 8436,
     "year": 2024,
     "city": "toronto"
   },
   {
     "bucket": 2880,
-    "count": 15122,
+    "count": 7961,
     "year": 2024,
     "city": "toronto"
   },
   {
     "bucket": 2940,
-    "count": 14085,
+    "count": 7391,
     "year": 2024,
     "city": "toronto"
   },
   {
     "bucket": 3000,
-    "count": 13358,
+    "count": 7028,
     "year": 2024,
     "city": "toronto"
   },
   {
     "bucket": 3060,
-    "count": 12328,
+    "count": 6440,
     "year": 2024,
     "city": "toronto"
   },
   {
     "bucket": 3120,
-    "count": 11423,
+    "count": 5988,
     "year": 2024,
     "city": "toronto"
   },
   {
     "bucket": 3180,
-    "count": 10794,
+    "count": 5718,
     "year": 2024,
     "city": "toronto"
   },
   {
     "bucket": 3240,
-    "count": 10263,
+    "count": 5351,
     "year": 2024,
     "city": "toronto"
   },
   {
     "bucket": 3300,
-    "count": 9786,
+    "count": 5158,
     "year": 2024,
     "city": "toronto"
   },
   {
     "bucket": 3360,
-    "count": 9493,
+    "count": 5011,
     "year": 2024,
     "city": "toronto"
   },
   {
     "bucket": 3420,
-    "count": 9144,
+    "count": 4772,
     "year": 2024,
     "city": "toronto"
   },
   {
     "bucket": 3480,
-    "count": 8521,
+    "count": 4451,
     "year": 2024,
     "city": "toronto"
   },
   {
     "bucket": 3540,
-    "count": 8238,
+    "count": 4387,
     "year": 2024,
     "city": "toronto"
   },
   {
     "bucket": 3600,
-    "count": 7928,
+    "count": 4125,
     "year": 2024,
     "city": "toronto"
   },
   {
     "bucket": 3660,
-    "count": 7488,
+    "count": 3994,
     "year": 2024,
     "city": "toronto"
   },
   {
     "bucket": 3720,
-    "count": 7392,
+    "count": 3859,
     "year": 2024,
     "city": "toronto"
   },
   {
     "bucket": 3780,
-    "count": 7127,
+    "count": 3756,
     "year": 2024,
     "city": "toronto"
   },
   {
     "bucket": 3840,
-    "count": 7010,
+    "count": 3705,
     "year": 2024,
     "city": "toronto"
   },
   {
     "bucket": 3900,
-    "count": 6596,
+    "count": 3395,
     "year": 2024,
     "city": "toronto"
   },
   {
     "bucket": 3960,
-    "count": 6423,
+    "count": 3423,
     "year": 2024,
     "city": "toronto"
   },
   {
     "bucket": 4020,
-    "count": 6271,
+    "count": 3299,
     "year": 2024,
     "city": "toronto"
   },
   {
     "bucket": 4080,
-    "count": 6100,
+    "count": 3207,
     "year": 2024,
     "city": "toronto"
   },
   {
     "bucket": 4140,
-    "count": 5786,
+    "count": 2998,
     "year": 2024,
     "city": "toronto"
   },
   {
     "bucket": 4200,
-    "count": 5566,
+    "count": 2908,
     "year": 2024,
     "city": "toronto"
   },
   {
     "bucket": 4260,
-    "count": 5262,
+    "count": 2745,
     "year": 2024,
     "city": "toronto"
   },
   {
     "bucket": 4320,
-    "count": 5000,
+    "count": 2612,
     "year": 2024,
     "city": "toronto"
   },
   {
     "bucket": 4380,
-    "count": 4914,
+    "count": 2624,
     "year": 2024,
     "city": "toronto"
   },
   {
     "bucket": 4440,
-    "count": 4983,
+    "count": 2607,
     "year": 2024,
     "city": "toronto"
   },
   {
     "bucket": 4500,
-    "count": 4816,
+    "count": 2489,
     "year": 2024,
     "city": "toronto"
   },
   {
     "bucket": 4560,
-    "count": 4582,
+    "count": 2416,
     "year": 2024,
     "city": "toronto"
   },
   {
     "bucket": 4620,
-    "count": 4630,
+    "count": 2433,
     "year": 2024,
     "city": "toronto"
   },
   {
     "bucket": 4680,
-    "count": 4452,
+    "count": 2330,
     "year": 2024,
     "city": "toronto"
   },
   {
     "bucket": 4740,
-    "count": 4331,
+    "count": 2291,
     "year": 2024,
     "city": "toronto"
   },
   {
     "bucket": 4800,
-    "count": 4142,
+    "count": 2132,
     "year": 2024,
     "city": "toronto"
   },
   {
     "bucket": 4860,
-    "count": 3936,
+    "count": 2072,
     "year": 2024,
     "city": "toronto"
   },
   {
     "bucket": 4920,
-    "count": 3777,
+    "count": 1989,
     "year": 2024,
     "city": "toronto"
   },
   {
     "bucket": 4980,
-    "count": 3665,
-    "year": 2024,
-    "city": "toronto"
-  },
-  {
-    "bucket": 5040,
-    "count": 3660,
-    "year": 2024,
-    "city": "toronto"
-  },
-  {
-    "bucket": 5100,
-    "count": 3470,
-    "year": 2024,
-    "city": "toronto"
-  },
-  {
-    "bucket": 5160,
-    "count": 3276,
-    "year": 2024,
-    "city": "toronto"
-  },
-  {
-    "bucket": 5220,
-    "count": 3139,
-    "year": 2024,
-    "city": "toronto"
-  },
-  {
-    "bucket": 5280,
-    "count": 3042,
-    "year": 2024,
-    "city": "toronto"
-  },
-  {
-    "bucket": 5340,
-    "count": 2859,
-    "year": 2024,
-    "city": "toronto"
-  },
-  {
-    "bucket": 5400,
-    "count": 2773,
-    "year": 2024,
-    "city": "toronto"
-  },
-  {
-    "bucket": 5460,
-    "count": 2597,
-    "year": 2024,
-    "city": "toronto"
-  },
-  {
-    "bucket": 5520,
-    "count": 2490,
-    "year": 2024,
-    "city": "toronto"
-  },
-  {
-    "bucket": 5580,
-    "count": 2268,
-    "year": 2024,
-    "city": "toronto"
-  },
-  {
-    "bucket": 5640,
-    "count": 2187,
-    "year": 2024,
-    "city": "toronto"
-  },
-  {
-    "bucket": 5700,
-    "count": 2038,
-    "year": 2024,
-    "city": "toronto"
-  },
-  {
-    "bucket": 5760,
-    "count": 1917,
-    "year": 2024,
-    "city": "toronto"
-  },
-  {
-    "bucket": 5820,
-    "count": 1983,
-    "year": 2024,
-    "city": "toronto"
-  },
-  {
-    "bucket": 5880,
-    "count": 1896,
-    "year": 2024,
-    "city": "toronto"
-  },
-  {
-    "bucket": 5940,
     "count": 1910,
     "year": 2024,
     "city": "toronto"
   },
   {
+    "bucket": 5040,
+    "count": 1940,
+    "year": 2024,
+    "city": "toronto"
+  },
+  {
+    "bucket": 5100,
+    "count": 1807,
+    "year": 2024,
+    "city": "toronto"
+  },
+  {
+    "bucket": 5160,
+    "count": 1712,
+    "year": 2024,
+    "city": "toronto"
+  },
+  {
+    "bucket": 5220,
+    "count": 1642,
+    "year": 2024,
+    "city": "toronto"
+  },
+  {
+    "bucket": 5280,
+    "count": 1586,
+    "year": 2024,
+    "city": "toronto"
+  },
+  {
+    "bucket": 5340,
+    "count": 1522,
+    "year": 2024,
+    "city": "toronto"
+  },
+  {
+    "bucket": 5400,
+    "count": 1436,
+    "year": 2024,
+    "city": "toronto"
+  },
+  {
+    "bucket": 5460,
+    "count": 1341,
+    "year": 2024,
+    "city": "toronto"
+  },
+  {
+    "bucket": 5520,
+    "count": 1293,
+    "year": 2024,
+    "city": "toronto"
+  },
+  {
+    "bucket": 5580,
+    "count": 1198,
+    "year": 2024,
+    "city": "toronto"
+  },
+  {
+    "bucket": 5640,
+    "count": 1114,
+    "year": 2024,
+    "city": "toronto"
+  },
+  {
+    "bucket": 5700,
+    "count": 1089,
+    "year": 2024,
+    "city": "toronto"
+  },
+  {
+    "bucket": 5760,
+    "count": 1028,
+    "year": 2024,
+    "city": "toronto"
+  },
+  {
+    "bucket": 5820,
+    "count": 1019,
+    "year": 2024,
+    "city": "toronto"
+  },
+  {
+    "bucket": 5880,
+    "count": 1015,
+    "year": 2024,
+    "city": "toronto"
+  },
+  {
+    "bucket": 5940,
+    "count": 983,
+    "year": 2024,
+    "city": "toronto"
+  },
+  {
     "bucket": 6000,
-    "count": 1684,
+    "count": 876,
     "year": 2024,
     "city": "toronto"
   },
   {
     "bucket": 6060,
-    "count": 1737,
+    "count": 913,
     "year": 2024,
     "city": "toronto"
   },
   {
     "bucket": 6120,
-    "count": 1683,
+    "count": 878,
     "year": 2024,
     "city": "toronto"
   },
   {
     "bucket": 6180,
-    "count": 1567,
+    "count": 806,
     "year": 2024,
     "city": "toronto"
   },
   {
     "bucket": 6240,
-    "count": 1495,
+    "count": 816,
     "year": 2024,
     "city": "toronto"
   },
   {
     "bucket": 6300,
-    "count": 1486,
+    "count": 768,
     "year": 2024,
     "city": "toronto"
   },
   {
     "bucket": 6360,
-    "count": 1430,
+    "count": 784,
     "year": 2024,
     "city": "toronto"
   },
   {
     "bucket": 6420,
-    "count": 1426,
+    "count": 719,
     "year": 2024,
     "city": "toronto"
   },
   {
     "bucket": 6480,
-    "count": 1287,
+    "count": 661,
     "year": 2024,
     "city": "toronto"
   },
   {
     "bucket": 6540,
-    "count": 1241,
+    "count": 678,
     "year": 2024,
     "city": "toronto"
   },
   {
     "bucket": 6600,
-    "count": 1347,
+    "count": 719,
     "year": 2024,
     "city": "toronto"
   },
   {
     "bucket": 6660,
-    "count": 1256,
+    "count": 661,
     "year": 2024,
     "city": "toronto"
   },
   {
     "bucket": 6720,
-    "count": 1163,
+    "count": 589,
     "year": 2024,
     "city": "toronto"
   },
   {
     "bucket": 6780,
-    "count": 1197,
+    "count": 649,
     "year": 2024,
     "city": "toronto"
   },
   {
     "bucket": 6840,
-    "count": 1125,
+    "count": 578,
     "year": 2024,
     "city": "toronto"
   },
   {
     "bucket": 6900,
-    "count": 1117,
+    "count": 596,
     "year": 2024,
     "city": "toronto"
   },
   {
     "bucket": 6960,
-    "count": 1074,
+    "count": 562,
     "year": 2024,
     "city": "toronto"
   },
   {
     "bucket": 7020,
-    "count": 1053,
+    "count": 565,
     "year": 2024,
     "city": "toronto"
   },
   {
     "bucket": 7080,
-    "count": 1058,
+    "count": 544,
     "year": 2024,
     "city": "toronto"
   },
   {
     "bucket": 7140,
-    "count": 958,
+    "count": 507,
     "year": 2024,
     "city": "toronto"
   },
   {
     "bucket": 7200,
-    "count": 54854,
+    "count": 29026,
     "year": 2024,
     "city": "toronto"
   },
