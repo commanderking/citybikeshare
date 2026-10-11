@@ -24,6 +24,7 @@ requests = "^2.32.3"
 # Data and I/O
 pyarrow = "^21.0.0"
 chardet = "^5.2.0"
+fastexcel = "^0.21.0"
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^8.3.0"

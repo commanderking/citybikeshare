@@ -3,10 +3,6 @@ system_name: bicimad
 source_url: "https://datos.madrid.es/dataset/900034-0-bicimad-viajes-estaciones/downloads"
 aws_sync: false
 
-# 2017–2021H1 trips ship as JSON (ndjson) inside the yearly archives; keep those members in
-# raw/ so the clean stage can convert them to CSV. 2021H2–2023 ship as CSV and flow normally.
-keep_json_raw: true
-
 # Trip archives are year-keyed (bicimad_trips_YYYY.zip) with stable names, so there's no
 # cumulative-rename duplication trap — re-fetching a year overwrites in place. Leave
 # prune_renamed_archives off.

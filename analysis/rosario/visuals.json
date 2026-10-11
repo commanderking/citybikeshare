@@ -177,38 +177,108 @@
     },
     {
       "dow": 1,
-      "trips": 42206,
+      "trips": 117252,
       "year": 2024
     },
     {
       "dow": 2,
-      "trips": 47773,
+      "trips": 127258,
       "year": 2024
     },
     {
       "dow": 3,
-      "trips": 46324,
+      "trips": 124066,
       "year": 2024
     },
     {
       "dow": 4,
-      "trips": 46331,
+      "trips": 126691,
       "year": 2024
     },
     {
       "dow": 5,
-      "trips": 44553,
+      "trips": 125801,
       "year": 2024
     },
     {
       "dow": 6,
-      "trips": 33119,
+      "trips": 95090,
       "year": 2024
     },
     {
       "dow": 7,
-      "trips": 30169,
+      "trips": 89769,
       "year": 2024
+    },
+    {
+      "dow": 1,
+      "trips": 134032,
+      "year": 2025
+    },
+    {
+      "dow": 2,
+      "trips": 142075,
+      "year": 2025
+    },
+    {
+      "dow": 3,
+      "trips": 142494,
+      "year": 2025
+    },
+    {
+      "dow": 4,
+      "trips": 145417,
+      "year": 2025
+    },
+    {
+      "dow": 5,
+      "trips": 137356,
+      "year": 2025
+    },
+    {
+      "dow": 6,
+      "trips": 114527,
+      "year": 2025
+    },
+    {
+      "dow": 7,
+      "trips": 120524,
+      "year": 2025
+    },
+    {
+      "dow": 1,
+      "trips": 74194,
+      "year": 2026
+    },
+    {
+      "dow": 2,
+      "trips": 78289,
+      "year": 2026
+    },
+    {
+      "dow": 3,
+      "trips": 78143,
+      "year": 2026
+    },
+    {
+      "dow": 4,
+      "trips": 77685,
+      "year": 2026
+    },
+    {
+      "dow": 5,
+      "trips": 79020,
+      "year": 2026
+    },
+    {
+      "dow": 6,
+      "trips": 67191,
+      "year": 2026
+    },
+    {
+      "dow": 7,
+      "trips": 72363,
+      "year": 2026
     }
   ],
   "by_hour": [
@@ -814,123 +884,363 @@
     },
     {
       "hour": 0,
-      "trips": 4603,
+      "trips": 11753,
       "year": 2024
     },
     {
       "hour": 1,
-      "trips": 2692,
+      "trips": 7411,
       "year": 2024
     },
     {
       "hour": 2,
-      "trips": 1404,
+      "trips": 3881,
       "year": 2024
     },
     {
       "hour": 3,
-      "trips": 860,
+      "trips": 2339,
       "year": 2024
     },
     {
       "hour": 4,
-      "trips": 817,
+      "trips": 2150,
       "year": 2024
     },
     {
       "hour": 5,
-      "trips": 2067,
+      "trips": 5631,
       "year": 2024
     },
     {
       "hour": 6,
-      "trips": 5415,
+      "trips": 14177,
       "year": 2024
     },
     {
       "hour": 7,
-      "trips": 13254,
+      "trips": 35078,
       "year": 2024
     },
     {
       "hour": 8,
-      "trips": 15339,
+      "trips": 40463,
       "year": 2024
     },
     {
       "hour": 9,
-      "trips": 12839,
+      "trips": 34275,
       "year": 2024
     },
     {
       "hour": 10,
-      "trips": 13732,
+      "trips": 37101,
       "year": 2024
     },
     {
       "hour": 11,
-      "trips": 16079,
+      "trips": 44717,
       "year": 2024
     },
     {
       "hour": 12,
-      "trips": 17961,
+      "trips": 51192,
       "year": 2024
     },
     {
       "hour": 13,
-      "trips": 17619,
+      "trips": 51516,
       "year": 2024
     },
     {
       "hour": 14,
-      "trips": 15951,
+      "trips": 47215,
       "year": 2024
     },
     {
       "hour": 15,
-      "trips": 16624,
+      "trips": 51398,
       "year": 2024
     },
     {
       "hour": 16,
-      "trips": 19953,
+      "trips": 59838,
       "year": 2024
     },
     {
       "hour": 17,
-      "trips": 22917,
+      "trips": 66728,
       "year": 2024
     },
     {
       "hour": 18,
-      "trips": 21552,
+      "trips": 60730,
       "year": 2024
     },
     {
       "hour": 19,
-      "trips": 20805,
+      "trips": 54743,
       "year": 2024
     },
     {
       "hour": 20,
-      "trips": 19290,
+      "trips": 49778,
       "year": 2024
     },
     {
       "hour": 21,
-      "trips": 13996,
+      "trips": 36506,
       "year": 2024
     },
     {
       "hour": 22,
-      "trips": 8670,
+      "trips": 21753,
       "year": 2024
     },
     {
       "hour": 23,
-      "trips": 6036,
+      "trips": 15554,
       "year": 2024
+    },
+    {
+      "hour": 0,
+      "trips": 16414,
+      "year": 2025
+    },
+    {
+      "hour": 1,
+      "trips": 10044,
+      "year": 2025
+    },
+    {
+      "hour": 2,
+      "trips": 5232,
+      "year": 2025
+    },
+    {
+      "hour": 3,
+      "trips": 3407,
+      "year": 2025
+    },
+    {
+      "hour": 4,
+      "trips": 3243,
+      "year": 2025
+    },
+    {
+      "hour": 5,
+      "trips": 6486,
+      "year": 2025
+    },
+    {
+      "hour": 6,
+      "trips": 16585,
+      "year": 2025
+    },
+    {
+      "hour": 7,
+      "trips": 36530,
+      "year": 2025
+    },
+    {
+      "hour": 8,
+      "trips": 40449,
+      "year": 2025
+    },
+    {
+      "hour": 9,
+      "trips": 37240,
+      "year": 2025
+    },
+    {
+      "hour": 10,
+      "trips": 41515,
+      "year": 2025
+    },
+    {
+      "hour": 11,
+      "trips": 49220,
+      "year": 2025
+    },
+    {
+      "hour": 12,
+      "trips": 57688,
+      "year": 2025
+    },
+    {
+      "hour": 13,
+      "trips": 58700,
+      "year": 2025
+    },
+    {
+      "hour": 14,
+      "trips": 53743,
+      "year": 2025
+    },
+    {
+      "hour": 15,
+      "trips": 59982,
+      "year": 2025
+    },
+    {
+      "hour": 16,
+      "trips": 70838,
+      "year": 2025
+    },
+    {
+      "hour": 17,
+      "trips": 79741,
+      "year": 2025
+    },
+    {
+      "hour": 18,
+      "trips": 71281,
+      "year": 2025
+    },
+    {
+      "hour": 19,
+      "trips": 64542,
+      "year": 2025
+    },
+    {
+      "hour": 20,
+      "trips": 59096,
+      "year": 2025
+    },
+    {
+      "hour": 21,
+      "trips": 45236,
+      "year": 2025
+    },
+    {
+      "hour": 22,
+      "trips": 28588,
+      "year": 2025
+    },
+    {
+      "hour": 23,
+      "trips": 20625,
+      "year": 2025
+    },
+    {
+      "hour": 0,
+      "trips": 10528,
+      "year": 2026
+    },
+    {
+      "hour": 1,
+      "trips": 6564,
+      "year": 2026
+    },
+    {
+      "hour": 2,
+      "trips": 3628,
+      "year": 2026
+    },
+    {
+      "hour": 3,
+      "trips": 2272,
+      "year": 2026
+    },
+    {
+      "hour": 4,
+      "trips": 1956,
+      "year": 2026
+    },
+    {
+      "hour": 5,
+      "trips": 4126,
+      "year": 2026
+    },
+    {
+      "hour": 6,
+      "trips": 9801,
+      "year": 2026
+    },
+    {
+      "hour": 7,
+      "trips": 19716,
+      "year": 2026
+    },
+    {
+      "hour": 8,
+      "trips": 22012,
+      "year": 2026
+    },
+    {
+      "hour": 9,
+      "trips": 20287,
+      "year": 2026
+    },
+    {
+      "hour": 10,
+      "trips": 23165,
+      "year": 2026
+    },
+    {
+      "hour": 11,
+      "trips": 27225,
+      "year": 2026
+    },
+    {
+      "hour": 12,
+      "trips": 30538,
+      "year": 2026
+    },
+    {
+      "hour": 13,
+      "trips": 31347,
+      "year": 2026
+    },
+    {
+      "hour": 14,
+      "trips": 28699,
+      "year": 2026
+    },
+    {
+      "hour": 15,
+      "trips": 31954,
+      "year": 2026
+    },
+    {
+      "hour": 16,
+      "trips": 37717,
+      "year": 2026
+    },
+    {
+      "hour": 17,
+      "trips": 43575,
+      "year": 2026
+    },
+    {
+      "hour": 18,
+      "trips": 40507,
+      "year": 2026
+    },
+    {
+      "hour": 19,
+      "trips": 37971,
+      "year": 2026
+    },
+    {
+      "hour": 20,
+      "trips": 35529,
+      "year": 2026
+    },
+    {
+      "hour": 21,
+      "trips": 26999,
+      "year": 2026
+    },
+    {
+      "hour": 22,
+      "trips": 17860,
+      "year": 2026
+    },
+    {
+      "hour": 23,
+      "trips": 12909,
+      "year": 2026
     }
   ],
   "duration_bands": [
@@ -1086,6083 +1396,93 @@
     },
     {
       "band": "<5",
-      "share": 0.0508,
-      "trips": 14763,
+      "share": 0.0436,
+      "trips": 35158,
       "year": 2024
     },
     {
       "band": "5-15",
-      "share": 0.3882,
-      "trips": 112760,
+      "share": 0.3948,
+      "trips": 318142,
       "year": 2024
     },
     {
       "band": "15-30",
-      "share": 0.3106,
-      "trips": 90225,
+      "share": 0.32,
+      "trips": 257873,
       "year": 2024
     },
     {
       "band": "30-60",
-      "share": 0.1709,
-      "trips": 49644,
+      "share": 0.1682,
+      "trips": 135523,
       "year": 2024
     },
     {
       "band": "60+",
-      "share": 0.0795,
-      "trips": 23083,
+      "share": 0.0735,
+      "trips": 59231,
       "year": 2024
-    }
-  ],
-  "heatmap": [
-    {
-      "dow": 1,
-      "hour": 0,
-      "trips": 1624,
-      "year": 2019
-    },
-    {
-      "dow": 1,
-      "hour": 1,
-      "trips": 924,
-      "year": 2019
-    },
-    {
-      "dow": 1,
-      "hour": 2,
-      "trips": 428,
-      "year": 2019
-    },
-    {
-      "dow": 1,
-      "hour": 3,
-      "trips": 215,
-      "year": 2019
-    },
-    {
-      "dow": 1,
-      "hour": 4,
-      "trips": 176,
-      "year": 2019
-    },
-    {
-      "dow": 1,
-      "hour": 5,
-      "trips": 520,
-      "year": 2019
-    },
-    {
-      "dow": 1,
-      "hour": 6,
-      "trips": 1683,
-      "year": 2019
-    },
-    {
-      "dow": 1,
-      "hour": 7,
-      "trips": 6352,
-      "year": 2019
-    },
-    {
-      "dow": 1,
-      "hour": 8,
-      "trips": 7340,
-      "year": 2019
-    },
-    {
-      "dow": 1,
-      "hour": 9,
-      "trips": 6125,
-      "year": 2019
-    },
-    {
-      "dow": 1,
-      "hour": 10,
-      "trips": 6008,
-      "year": 2019
-    },
-    {
-      "dow": 1,
-      "hour": 11,
-      "trips": 7226,
-      "year": 2019
-    },
-    {
-      "dow": 1,
-      "hour": 12,
-      "trips": 9029,
-      "year": 2019
-    },
-    {
-      "dow": 1,
-      "hour": 13,
-      "trips": 10129,
-      "year": 2019
-    },
-    {
-      "dow": 1,
-      "hour": 14,
-      "trips": 9099,
-      "year": 2019
-    },
-    {
-      "dow": 1,
-      "hour": 15,
-      "trips": 9585,
-      "year": 2019
-    },
-    {
-      "dow": 1,
-      "hour": 16,
-      "trips": 10565,
-      "year": 2019
-    },
-    {
-      "dow": 1,
-      "hour": 17,
-      "trips": 12786,
-      "year": 2019
-    },
-    {
-      "dow": 1,
-      "hour": 18,
-      "trips": 12499,
-      "year": 2019
-    },
-    {
-      "dow": 1,
-      "hour": 19,
-      "trips": 10906,
-      "year": 2019
-    },
-    {
-      "dow": 1,
-      "hour": 20,
-      "trips": 9435,
-      "year": 2019
-    },
-    {
-      "dow": 1,
-      "hour": 21,
-      "trips": 6633,
-      "year": 2019
-    },
-    {
-      "dow": 1,
-      "hour": 22,
-      "trips": 3821,
-      "year": 2019
-    },
-    {
-      "dow": 1,
-      "hour": 23,
-      "trips": 2097,
-      "year": 2019
-    },
-    {
-      "dow": 2,
-      "hour": 0,
-      "trips": 1489,
-      "year": 2019
-    },
-    {
-      "dow": 2,
-      "hour": 1,
-      "trips": 785,
-      "year": 2019
-    },
-    {
-      "dow": 2,
-      "hour": 2,
-      "trips": 400,
-      "year": 2019
-    },
-    {
-      "dow": 2,
-      "hour": 3,
-      "trips": 208,
-      "year": 2019
-    },
-    {
-      "dow": 2,
-      "hour": 4,
-      "trips": 167,
-      "year": 2019
-    },
-    {
-      "dow": 2,
-      "hour": 5,
-      "trips": 589,
-      "year": 2019
-    },
-    {
-      "dow": 2,
-      "hour": 6,
-      "trips": 1873,
-      "year": 2019
-    },
-    {
-      "dow": 2,
-      "hour": 7,
-      "trips": 7480,
-      "year": 2019
-    },
-    {
-      "dow": 2,
-      "hour": 8,
-      "trips": 8384,
-      "year": 2019
-    },
-    {
-      "dow": 2,
-      "hour": 9,
-      "trips": 7394,
-      "year": 2019
-    },
-    {
-      "dow": 2,
-      "hour": 10,
-      "trips": 7146,
-      "year": 2019
-    },
-    {
-      "dow": 2,
-      "hour": 11,
-      "trips": 8374,
-      "year": 2019
-    },
-    {
-      "dow": 2,
-      "hour": 12,
-      "trips": 9944,
-      "year": 2019
-    },
-    {
-      "dow": 2,
-      "hour": 13,
-      "trips": 11172,
-      "year": 2019
-    },
-    {
-      "dow": 2,
-      "hour": 14,
-      "trips": 9724,
-      "year": 2019
-    },
-    {
-      "dow": 2,
-      "hour": 15,
-      "trips": 10030,
-      "year": 2019
-    },
-    {
-      "dow": 2,
-      "hour": 16,
-      "trips": 11212,
-      "year": 2019
-    },
-    {
-      "dow": 2,
-      "hour": 17,
-      "trips": 13005,
-      "year": 2019
-    },
-    {
-      "dow": 2,
-      "hour": 18,
-      "trips": 13003,
-      "year": 2019
-    },
-    {
-      "dow": 2,
-      "hour": 19,
-      "trips": 11109,
-      "year": 2019
-    },
-    {
-      "dow": 2,
-      "hour": 20,
-      "trips": 10006,
-      "year": 2019
-    },
-    {
-      "dow": 2,
-      "hour": 21,
-      "trips": 6930,
-      "year": 2019
-    },
-    {
-      "dow": 2,
-      "hour": 22,
-      "trips": 3841,
-      "year": 2019
-    },
-    {
-      "dow": 2,
-      "hour": 23,
-      "trips": 2311,
-      "year": 2019
-    },
-    {
-      "dow": 3,
-      "hour": 0,
-      "trips": 1791,
-      "year": 2019
-    },
-    {
-      "dow": 3,
-      "hour": 1,
-      "trips": 1022,
-      "year": 2019
-    },
-    {
-      "dow": 3,
-      "hour": 2,
-      "trips": 453,
-      "year": 2019
-    },
-    {
-      "dow": 3,
-      "hour": 3,
-      "trips": 210,
-      "year": 2019
-    },
-    {
-      "dow": 3,
-      "hour": 4,
-      "trips": 169,
-      "year": 2019
-    },
-    {
-      "dow": 3,
-      "hour": 5,
-      "trips": 593,
-      "year": 2019
-    },
-    {
-      "dow": 3,
-      "hour": 6,
-      "trips": 1902,
-      "year": 2019
-    },
-    {
-      "dow": 3,
-      "hour": 7,
-      "trips": 7595,
-      "year": 2019
-    },
-    {
-      "dow": 3,
-      "hour": 8,
-      "trips": 9143,
-      "year": 2019
-    },
-    {
-      "dow": 3,
-      "hour": 9,
-      "trips": 7666,
-      "year": 2019
-    },
-    {
-      "dow": 3,
-      "hour": 10,
-      "trips": 7323,
-      "year": 2019
-    },
-    {
-      "dow": 3,
-      "hour": 11,
-      "trips": 8870,
-      "year": 2019
-    },
-    {
-      "dow": 3,
-      "hour": 12,
-      "trips": 11056,
-      "year": 2019
-    },
-    {
-      "dow": 3,
-      "hour": 13,
-      "trips": 11930,
-      "year": 2019
-    },
-    {
-      "dow": 3,
-      "hour": 14,
-      "trips": 10582,
-      "year": 2019
-    },
-    {
-      "dow": 3,
-      "hour": 15,
-      "trips": 10931,
-      "year": 2019
-    },
-    {
-      "dow": 3,
-      "hour": 16,
-      "trips": 11946,
-      "year": 2019
-    },
-    {
-      "dow": 3,
-      "hour": 17,
-      "trips": 14061,
-      "year": 2019
-    },
-    {
-      "dow": 3,
-      "hour": 18,
-      "trips": 14042,
-      "year": 2019
-    },
-    {
-      "dow": 3,
-      "hour": 19,
-      "trips": 11750,
-      "year": 2019
-    },
-    {
-      "dow": 3,
-      "hour": 20,
-      "trips": 10232,
-      "year": 2019
-    },
-    {
-      "dow": 3,
-      "hour": 21,
-      "trips": 7336,
-      "year": 2019
-    },
-    {
-      "dow": 3,
-      "hour": 22,
-      "trips": 4068,
-      "year": 2019
-    },
-    {
-      "dow": 3,
-      "hour": 23,
-      "trips": 2589,
-      "year": 2019
-    },
-    {
-      "dow": 4,
-      "hour": 0,
-      "trips": 2199,
-      "year": 2019
-    },
-    {
-      "dow": 4,
-      "hour": 1,
-      "trips": 1126,
-      "year": 2019
-    },
-    {
-      "dow": 4,
-      "hour": 2,
-      "trips": 484,
-      "year": 2019
-    },
-    {
-      "dow": 4,
-      "hour": 3,
-      "trips": 248,
-      "year": 2019
-    },
-    {
-      "dow": 4,
-      "hour": 4,
-      "trips": 211,
-      "year": 2019
-    },
-    {
-      "dow": 4,
-      "hour": 5,
-      "trips": 567,
-      "year": 2019
-    },
-    {
-      "dow": 4,
-      "hour": 6,
-      "trips": 1921,
-      "year": 2019
-    },
-    {
-      "dow": 4,
-      "hour": 7,
-      "trips": 7620,
-      "year": 2019
-    },
-    {
-      "dow": 4,
-      "hour": 8,
-      "trips": 9117,
-      "year": 2019
-    },
-    {
-      "dow": 4,
-      "hour": 9,
-      "trips": 7480,
-      "year": 2019
-    },
-    {
-      "dow": 4,
-      "hour": 10,
-      "trips": 7173,
-      "year": 2019
-    },
-    {
-      "dow": 4,
-      "hour": 11,
-      "trips": 8364,
-      "year": 2019
-    },
-    {
-      "dow": 4,
-      "hour": 12,
-      "trips": 10153,
-      "year": 2019
-    },
-    {
-      "dow": 4,
-      "hour": 13,
-      "trips": 11275,
-      "year": 2019
-    },
-    {
-      "dow": 4,
-      "hour": 14,
-      "trips": 10251,
-      "year": 2019
-    },
-    {
-      "dow": 4,
-      "hour": 15,
-      "trips": 10069,
-      "year": 2019
-    },
-    {
-      "dow": 4,
-      "hour": 16,
-      "trips": 11471,
-      "year": 2019
-    },
-    {
-      "dow": 4,
-      "hour": 17,
-      "trips": 13916,
-      "year": 2019
-    },
-    {
-      "dow": 4,
-      "hour": 18,
-      "trips": 13379,
-      "year": 2019
-    },
-    {
-      "dow": 4,
-      "hour": 19,
-      "trips": 11231,
-      "year": 2019
-    },
-    {
-      "dow": 4,
-      "hour": 20,
-      "trips": 9691,
-      "year": 2019
-    },
-    {
-      "dow": 4,
-      "hour": 21,
-      "trips": 7223,
-      "year": 2019
-    },
-    {
-      "dow": 4,
-      "hour": 22,
-      "trips": 4325,
-      "year": 2019
-    },
-    {
-      "dow": 4,
-      "hour": 23,
-      "trips": 2493,
-      "year": 2019
-    },
-    {
-      "dow": 5,
-      "hour": 0,
-      "trips": 2296,
-      "year": 2019
-    },
-    {
-      "dow": 5,
-      "hour": 1,
-      "trips": 1467,
-      "year": 2019
-    },
-    {
-      "dow": 5,
-      "hour": 2,
-      "trips": 748,
-      "year": 2019
-    },
-    {
-      "dow": 5,
-      "hour": 3,
-      "trips": 399,
-      "year": 2019
-    },
-    {
-      "dow": 5,
-      "hour": 4,
-      "trips": 277,
-      "year": 2019
-    },
-    {
-      "dow": 5,
-      "hour": 5,
-      "trips": 655,
-      "year": 2019
-    },
-    {
-      "dow": 5,
-      "hour": 6,
-      "trips": 1921,
-      "year": 2019
-    },
-    {
-      "dow": 5,
-      "hour": 7,
-      "trips": 7269,
-      "year": 2019
-    },
-    {
-      "dow": 5,
-      "hour": 8,
-      "trips": 8970,
-      "year": 2019
-    },
-    {
-      "dow": 5,
-      "hour": 9,
-      "trips": 7541,
-      "year": 2019
-    },
-    {
-      "dow": 5,
-      "hour": 10,
-      "trips": 7378,
-      "year": 2019
-    },
-    {
-      "dow": 5,
-      "hour": 11,
-      "trips": 8834,
-      "year": 2019
-    },
-    {
-      "dow": 5,
-      "hour": 12,
-      "trips": 10756,
-      "year": 2019
-    },
-    {
-      "dow": 5,
-      "hour": 13,
-      "trips": 11220,
-      "year": 2019
-    },
-    {
-      "dow": 5,
-      "hour": 14,
-      "trips": 10297,
-      "year": 2019
-    },
-    {
-      "dow": 5,
-      "hour": 15,
-      "trips": 10805,
-      "year": 2019
-    },
-    {
-      "dow": 5,
-      "hour": 16,
-      "trips": 11804,
-      "year": 2019
-    },
-    {
-      "dow": 5,
-      "hour": 17,
-      "trips": 13487,
-      "year": 2019
-    },
-    {
-      "dow": 5,
-      "hour": 18,
-      "trips": 12246,
-      "year": 2019
-    },
-    {
-      "dow": 5,
-      "hour": 19,
-      "trips": 10504,
-      "year": 2019
-    },
-    {
-      "dow": 5,
-      "hour": 20,
-      "trips": 9357,
-      "year": 2019
-    },
-    {
-      "dow": 5,
-      "hour": 21,
-      "trips": 6796,
-      "year": 2019
-    },
-    {
-      "dow": 5,
-      "hour": 22,
-      "trips": 4106,
-      "year": 2019
-    },
-    {
-      "dow": 5,
-      "hour": 23,
-      "trips": 2786,
-      "year": 2019
-    },
-    {
-      "dow": 6,
-      "hour": 0,
-      "trips": 2474,
-      "year": 2019
-    },
-    {
-      "dow": 6,
-      "hour": 1,
-      "trips": 2178,
-      "year": 2019
-    },
-    {
-      "dow": 6,
-      "hour": 2,
-      "trips": 1664,
-      "year": 2019
-    },
-    {
-      "dow": 6,
-      "hour": 3,
-      "trips": 1098,
-      "year": 2019
-    },
-    {
-      "dow": 6,
-      "hour": 4,
-      "trips": 836,
-      "year": 2019
-    },
-    {
-      "dow": 6,
-      "hour": 5,
-      "trips": 920,
-      "year": 2019
-    },
-    {
-      "dow": 6,
-      "hour": 6,
-      "trips": 926,
-      "year": 2019
-    },
-    {
-      "dow": 6,
-      "hour": 7,
-      "trips": 1775,
-      "year": 2019
-    },
-    {
-      "dow": 6,
-      "hour": 8,
-      "trips": 4158,
-      "year": 2019
-    },
-    {
-      "dow": 6,
-      "hour": 9,
-      "trips": 4467,
-      "year": 2019
-    },
-    {
-      "dow": 6,
-      "hour": 10,
-      "trips": 5090,
-      "year": 2019
-    },
-    {
-      "dow": 6,
-      "hour": 11,
-      "trips": 6239,
-      "year": 2019
-    },
-    {
-      "dow": 6,
-      "hour": 12,
-      "trips": 7389,
-      "year": 2019
-    },
-    {
-      "dow": 6,
-      "hour": 13,
-      "trips": 7426,
-      "year": 2019
-    },
-    {
-      "dow": 6,
-      "hour": 14,
-      "trips": 5691,
-      "year": 2019
-    },
-    {
-      "dow": 6,
-      "hour": 15,
-      "trips": 6732,
-      "year": 2019
-    },
-    {
-      "dow": 6,
-      "hour": 16,
-      "trips": 7476,
-      "year": 2019
-    },
-    {
-      "dow": 6,
-      "hour": 17,
-      "trips": 7361,
-      "year": 2019
-    },
-    {
-      "dow": 6,
-      "hour": 18,
-      "trips": 7269,
-      "year": 2019
-    },
-    {
-      "dow": 6,
-      "hour": 19,
-      "trips": 7082,
-      "year": 2019
-    },
-    {
-      "dow": 6,
-      "hour": 20,
-      "trips": 6070,
-      "year": 2019
-    },
-    {
-      "dow": 6,
-      "hour": 21,
-      "trips": 4620,
-      "year": 2019
-    },
-    {
-      "dow": 6,
-      "hour": 22,
-      "trips": 3186,
-      "year": 2019
-    },
-    {
-      "dow": 6,
-      "hour": 23,
-      "trips": 2368,
-      "year": 2019
-    },
-    {
-      "dow": 7,
-      "hour": 0,
-      "trips": 2214,
-      "year": 2019
-    },
-    {
-      "dow": 7,
-      "hour": 1,
-      "trips": 1833,
-      "year": 2019
-    },
-    {
-      "dow": 7,
-      "hour": 2,
-      "trips": 1515,
-      "year": 2019
-    },
-    {
-      "dow": 7,
-      "hour": 3,
-      "trips": 1075,
-      "year": 2019
-    },
-    {
-      "dow": 7,
-      "hour": 4,
-      "trips": 844,
-      "year": 2019
-    },
-    {
-      "dow": 7,
-      "hour": 5,
-      "trips": 980,
-      "year": 2019
-    },
-    {
-      "dow": 7,
-      "hour": 6,
-      "trips": 734,
-      "year": 2019
-    },
-    {
-      "dow": 7,
-      "hour": 7,
-      "trips": 795,
-      "year": 2019
-    },
-    {
-      "dow": 7,
-      "hour": 8,
-      "trips": 1825,
-      "year": 2019
-    },
-    {
-      "dow": 7,
-      "hour": 9,
-      "trips": 3777,
-      "year": 2019
-    },
-    {
-      "dow": 7,
-      "hour": 10,
-      "trips": 7025,
-      "year": 2019
-    },
-    {
-      "dow": 7,
-      "hour": 11,
-      "trips": 9084,
-      "year": 2019
-    },
-    {
-      "dow": 7,
-      "hour": 12,
-      "trips": 7406,
-      "year": 2019
-    },
-    {
-      "dow": 7,
-      "hour": 13,
-      "trips": 5055,
-      "year": 2019
-    },
-    {
-      "dow": 7,
-      "hour": 14,
-      "trips": 4331,
-      "year": 2019
-    },
-    {
-      "dow": 7,
-      "hour": 15,
-      "trips": 5535,
-      "year": 2019
-    },
-    {
-      "dow": 7,
-      "hour": 16,
-      "trips": 6503,
-      "year": 2019
-    },
-    {
-      "dow": 7,
-      "hour": 17,
-      "trips": 6560,
-      "year": 2019
-    },
-    {
-      "dow": 7,
-      "hour": 18,
-      "trips": 6722,
-      "year": 2019
-    },
-    {
-      "dow": 7,
-      "hour": 19,
-      "trips": 6368,
-      "year": 2019
-    },
-    {
-      "dow": 7,
-      "hour": 20,
-      "trips": 5003,
-      "year": 2019
-    },
-    {
-      "dow": 7,
-      "hour": 21,
-      "trips": 3680,
-      "year": 2019
-    },
-    {
-      "dow": 7,
-      "hour": 22,
-      "trips": 2603,
-      "year": 2019
-    },
-    {
-      "dow": 7,
-      "hour": 23,
-      "trips": 1889,
-      "year": 2019
-    },
-    {
-      "dow": 1,
-      "hour": 0,
-      "trips": 1250,
-      "year": 2020
-    },
-    {
-      "dow": 1,
-      "hour": 1,
-      "trips": 602,
-      "year": 2020
-    },
-    {
-      "dow": 1,
-      "hour": 2,
-      "trips": 266,
-      "year": 2020
-    },
-    {
-      "dow": 1,
-      "hour": 3,
-      "trips": 160,
-      "year": 2020
-    },
-    {
-      "dow": 1,
-      "hour": 4,
-      "trips": 148,
-      "year": 2020
-    },
-    {
-      "dow": 1,
-      "hour": 5,
-      "trips": 614,
-      "year": 2020
-    },
-    {
-      "dow": 1,
-      "hour": 6,
-      "trips": 1650,
-      "year": 2020
-    },
-    {
-      "dow": 1,
-      "hour": 7,
-      "trips": 4857,
-      "year": 2020
-    },
-    {
-      "dow": 1,
-      "hour": 8,
-      "trips": 6618,
-      "year": 2020
-    },
-    {
-      "dow": 1,
-      "hour": 9,
-      "trips": 6091,
-      "year": 2020
-    },
-    {
-      "dow": 1,
-      "hour": 10,
-      "trips": 6207,
-      "year": 2020
-    },
-    {
-      "dow": 1,
-      "hour": 11,
-      "trips": 6671,
-      "year": 2020
-    },
-    {
-      "dow": 1,
-      "hour": 12,
-      "trips": 8117,
-      "year": 2020
-    },
-    {
-      "dow": 1,
-      "hour": 13,
-      "trips": 9081,
-      "year": 2020
-    },
-    {
-      "dow": 1,
-      "hour": 14,
-      "trips": 8066,
-      "year": 2020
-    },
-    {
-      "dow": 1,
-      "hour": 15,
-      "trips": 8693,
-      "year": 2020
-    },
-    {
-      "dow": 1,
-      "hour": 16,
-      "trips": 9371,
-      "year": 2020
-    },
-    {
-      "dow": 1,
-      "hour": 17,
-      "trips": 10505,
-      "year": 2020
-    },
-    {
-      "dow": 1,
-      "hour": 18,
-      "trips": 9523,
-      "year": 2020
-    },
-    {
-      "dow": 1,
-      "hour": 19,
-      "trips": 7709,
-      "year": 2020
-    },
-    {
-      "dow": 1,
-      "hour": 20,
-      "trips": 5915,
-      "year": 2020
-    },
-    {
-      "dow": 1,
-      "hour": 21,
-      "trips": 3414,
-      "year": 2020
-    },
-    {
-      "dow": 1,
-      "hour": 22,
-      "trips": 1900,
-      "year": 2020
-    },
-    {
-      "dow": 1,
-      "hour": 23,
-      "trips": 1402,
-      "year": 2020
-    },
-    {
-      "dow": 2,
-      "hour": 0,
-      "trips": 1108,
-      "year": 2020
-    },
-    {
-      "dow": 2,
-      "hour": 1,
-      "trips": 483,
-      "year": 2020
-    },
-    {
-      "dow": 2,
-      "hour": 2,
-      "trips": 193,
-      "year": 2020
-    },
-    {
-      "dow": 2,
-      "hour": 3,
-      "trips": 137,
-      "year": 2020
-    },
-    {
-      "dow": 2,
-      "hour": 4,
-      "trips": 143,
-      "year": 2020
-    },
-    {
-      "dow": 2,
-      "hour": 5,
-      "trips": 650,
-      "year": 2020
-    },
-    {
-      "dow": 2,
-      "hour": 6,
-      "trips": 1751,
-      "year": 2020
-    },
-    {
-      "dow": 2,
-      "hour": 7,
-      "trips": 5532,
-      "year": 2020
-    },
-    {
-      "dow": 2,
-      "hour": 8,
-      "trips": 7724,
-      "year": 2020
-    },
-    {
-      "dow": 2,
-      "hour": 9,
-      "trips": 6532,
-      "year": 2020
-    },
-    {
-      "dow": 2,
-      "hour": 10,
-      "trips": 6307,
-      "year": 2020
-    },
-    {
-      "dow": 2,
-      "hour": 11,
-      "trips": 6808,
-      "year": 2020
-    },
-    {
-      "dow": 2,
-      "hour": 12,
-      "trips": 8331,
-      "year": 2020
-    },
-    {
-      "dow": 2,
-      "hour": 13,
-      "trips": 9150,
-      "year": 2020
-    },
-    {
-      "dow": 2,
-      "hour": 14,
-      "trips": 8500,
-      "year": 2020
-    },
-    {
-      "dow": 2,
-      "hour": 15,
-      "trips": 8747,
-      "year": 2020
-    },
-    {
-      "dow": 2,
-      "hour": 16,
-      "trips": 9607,
-      "year": 2020
-    },
-    {
-      "dow": 2,
-      "hour": 17,
-      "trips": 10665,
-      "year": 2020
-    },
-    {
-      "dow": 2,
-      "hour": 18,
-      "trips": 9868,
-      "year": 2020
-    },
-    {
-      "dow": 2,
-      "hour": 19,
-      "trips": 8091,
-      "year": 2020
-    },
-    {
-      "dow": 2,
-      "hour": 20,
-      "trips": 6447,
-      "year": 2020
-    },
-    {
-      "dow": 2,
-      "hour": 21,
-      "trips": 3709,
-      "year": 2020
-    },
-    {
-      "dow": 2,
-      "hour": 22,
-      "trips": 2177,
-      "year": 2020
-    },
-    {
-      "dow": 2,
-      "hour": 23,
-      "trips": 1564,
-      "year": 2020
-    },
-    {
-      "dow": 3,
-      "hour": 0,
-      "trips": 1210,
-      "year": 2020
-    },
-    {
-      "dow": 3,
-      "hour": 1,
-      "trips": 650,
-      "year": 2020
-    },
-    {
-      "dow": 3,
-      "hour": 2,
-      "trips": 263,
-      "year": 2020
-    },
-    {
-      "dow": 3,
-      "hour": 3,
-      "trips": 167,
-      "year": 2020
-    },
-    {
-      "dow": 3,
-      "hour": 4,
-      "trips": 144,
-      "year": 2020
-    },
-    {
-      "dow": 3,
-      "hour": 5,
-      "trips": 710,
-      "year": 2020
-    },
-    {
-      "dow": 3,
-      "hour": 6,
-      "trips": 1887,
-      "year": 2020
-    },
-    {
-      "dow": 3,
-      "hour": 7,
-      "trips": 5506,
-      "year": 2020
-    },
-    {
-      "dow": 3,
-      "hour": 8,
-      "trips": 7767,
-      "year": 2020
-    },
-    {
-      "dow": 3,
-      "hour": 9,
-      "trips": 6790,
-      "year": 2020
-    },
-    {
-      "dow": 3,
-      "hour": 10,
-      "trips": 6421,
-      "year": 2020
-    },
-    {
-      "dow": 3,
-      "hour": 11,
-      "trips": 6877,
-      "year": 2020
-    },
-    {
-      "dow": 3,
-      "hour": 12,
-      "trips": 8336,
-      "year": 2020
-    },
-    {
-      "dow": 3,
-      "hour": 13,
-      "trips": 9416,
-      "year": 2020
-    },
-    {
-      "dow": 3,
-      "hour": 14,
-      "trips": 8696,
-      "year": 2020
-    },
-    {
-      "dow": 3,
-      "hour": 15,
-      "trips": 8960,
-      "year": 2020
-    },
-    {
-      "dow": 3,
-      "hour": 16,
-      "trips": 9898,
-      "year": 2020
-    },
-    {
-      "dow": 3,
-      "hour": 17,
-      "trips": 11104,
-      "year": 2020
-    },
-    {
-      "dow": 3,
-      "hour": 18,
-      "trips": 10241,
-      "year": 2020
-    },
-    {
-      "dow": 3,
-      "hour": 19,
-      "trips": 8310,
-      "year": 2020
-    },
-    {
-      "dow": 3,
-      "hour": 20,
-      "trips": 6688,
-      "year": 2020
-    },
-    {
-      "dow": 3,
-      "hour": 21,
-      "trips": 3934,
-      "year": 2020
-    },
-    {
-      "dow": 3,
-      "hour": 22,
-      "trips": 2154,
-      "year": 2020
-    },
-    {
-      "dow": 3,
-      "hour": 23,
-      "trips": 1665,
-      "year": 2020
-    },
-    {
-      "dow": 4,
-      "hour": 0,
-      "trips": 1343,
-      "year": 2020
-    },
-    {
-      "dow": 4,
-      "hour": 1,
-      "trips": 628,
-      "year": 2020
-    },
-    {
-      "dow": 4,
-      "hour": 2,
-      "trips": 251,
-      "year": 2020
-    },
-    {
-      "dow": 4,
-      "hour": 3,
-      "trips": 145,
-      "year": 2020
-    },
-    {
-      "dow": 4,
-      "hour": 4,
-      "trips": 129,
-      "year": 2020
-    },
-    {
-      "dow": 4,
-      "hour": 5,
-      "trips": 683,
-      "year": 2020
-    },
-    {
-      "dow": 4,
-      "hour": 6,
-      "trips": 1844,
-      "year": 2020
-    },
-    {
-      "dow": 4,
-      "hour": 7,
-      "trips": 5752,
-      "year": 2020
-    },
-    {
-      "dow": 4,
-      "hour": 8,
-      "trips": 8000,
-      "year": 2020
-    },
-    {
-      "dow": 4,
-      "hour": 9,
-      "trips": 6970,
-      "year": 2020
-    },
-    {
-      "dow": 4,
-      "hour": 10,
-      "trips": 7209,
-      "year": 2020
-    },
-    {
-      "dow": 4,
-      "hour": 11,
-      "trips": 7361,
-      "year": 2020
-    },
-    {
-      "dow": 4,
-      "hour": 12,
-      "trips": 9052,
-      "year": 2020
-    },
-    {
-      "dow": 4,
-      "hour": 13,
-      "trips": 9868,
-      "year": 2020
-    },
-    {
-      "dow": 4,
-      "hour": 14,
-      "trips": 9408,
-      "year": 2020
-    },
-    {
-      "dow": 4,
-      "hour": 15,
-      "trips": 9697,
-      "year": 2020
-    },
-    {
-      "dow": 4,
-      "hour": 16,
-      "trips": 10587,
-      "year": 2020
-    },
-    {
-      "dow": 4,
-      "hour": 17,
-      "trips": 11480,
-      "year": 2020
-    },
-    {
-      "dow": 4,
-      "hour": 18,
-      "trips": 10592,
-      "year": 2020
-    },
-    {
-      "dow": 4,
-      "hour": 19,
-      "trips": 8555,
-      "year": 2020
-    },
-    {
-      "dow": 4,
-      "hour": 20,
-      "trips": 6575,
-      "year": 2020
-    },
-    {
-      "dow": 4,
-      "hour": 21,
-      "trips": 3925,
-      "year": 2020
-    },
-    {
-      "dow": 4,
-      "hour": 22,
-      "trips": 2230,
-      "year": 2020
-    },
-    {
-      "dow": 4,
-      "hour": 23,
-      "trips": 1734,
-      "year": 2020
-    },
-    {
-      "dow": 5,
-      "hour": 0,
-      "trips": 1529,
-      "year": 2020
-    },
-    {
-      "dow": 5,
-      "hour": 1,
-      "trips": 815,
-      "year": 2020
-    },
-    {
-      "dow": 5,
-      "hour": 2,
-      "trips": 350,
-      "year": 2020
-    },
-    {
-      "dow": 5,
-      "hour": 3,
-      "trips": 219,
-      "year": 2020
-    },
-    {
-      "dow": 5,
-      "hour": 4,
-      "trips": 176,
-      "year": 2020
-    },
-    {
-      "dow": 5,
-      "hour": 5,
-      "trips": 698,
-      "year": 2020
-    },
-    {
-      "dow": 5,
-      "hour": 6,
-      "trips": 1877,
-      "year": 2020
-    },
-    {
-      "dow": 5,
-      "hour": 7,
-      "trips": 5490,
-      "year": 2020
-    },
-    {
-      "dow": 5,
-      "hour": 8,
-      "trips": 7588,
-      "year": 2020
-    },
-    {
-      "dow": 5,
-      "hour": 9,
-      "trips": 6600,
-      "year": 2020
-    },
-    {
-      "dow": 5,
-      "hour": 10,
-      "trips": 6738,
-      "year": 2020
-    },
-    {
-      "dow": 5,
-      "hour": 11,
-      "trips": 7529,
-      "year": 2020
-    },
-    {
-      "dow": 5,
-      "hour": 12,
-      "trips": 9006,
-      "year": 2020
-    },
-    {
-      "dow": 5,
-      "hour": 13,
-      "trips": 9619,
-      "year": 2020
-    },
-    {
-      "dow": 5,
-      "hour": 14,
-      "trips": 8645,
-      "year": 2020
-    },
-    {
-      "dow": 5,
-      "hour": 15,
-      "trips": 9188,
-      "year": 2020
-    },
-    {
-      "dow": 5,
-      "hour": 16,
-      "trips": 9705,
-      "year": 2020
-    },
-    {
-      "dow": 5,
-      "hour": 17,
-      "trips": 10288,
-      "year": 2020
-    },
-    {
-      "dow": 5,
-      "hour": 18,
-      "trips": 9264,
-      "year": 2020
-    },
-    {
-      "dow": 5,
-      "hour": 19,
-      "trips": 7969,
-      "year": 2020
-    },
-    {
-      "dow": 5,
-      "hour": 20,
-      "trips": 6526,
-      "year": 2020
-    },
-    {
-      "dow": 5,
-      "hour": 21,
-      "trips": 3951,
-      "year": 2020
-    },
-    {
-      "dow": 5,
-      "hour": 22,
-      "trips": 2198,
-      "year": 2020
-    },
-    {
-      "dow": 5,
-      "hour": 23,
-      "trips": 1675,
-      "year": 2020
-    },
-    {
-      "dow": 6,
-      "hour": 0,
-      "trips": 1782,
-      "year": 2020
-    },
-    {
-      "dow": 6,
-      "hour": 1,
-      "trips": 1125,
-      "year": 2020
-    },
-    {
-      "dow": 6,
-      "hour": 2,
-      "trips": 649,
-      "year": 2020
-    },
-    {
-      "dow": 6,
-      "hour": 3,
-      "trips": 453,
-      "year": 2020
-    },
-    {
-      "dow": 6,
-      "hour": 4,
-      "trips": 327,
-      "year": 2020
-    },
-    {
-      "dow": 6,
-      "hour": 5,
-      "trips": 660,
-      "year": 2020
-    },
-    {
-      "dow": 6,
-      "hour": 6,
-      "trips": 965,
-      "year": 2020
-    },
-    {
-      "dow": 6,
-      "hour": 7,
-      "trips": 1848,
-      "year": 2020
-    },
-    {
-      "dow": 6,
-      "hour": 8,
-      "trips": 3659,
-      "year": 2020
-    },
-    {
-      "dow": 6,
-      "hour": 9,
-      "trips": 3930,
-      "year": 2020
-    },
-    {
-      "dow": 6,
-      "hour": 10,
-      "trips": 4396,
-      "year": 2020
-    },
-    {
-      "dow": 6,
-      "hour": 11,
-      "trips": 5303,
-      "year": 2020
-    },
-    {
-      "dow": 6,
-      "hour": 12,
-      "trips": 6005,
-      "year": 2020
-    },
-    {
-      "dow": 6,
-      "hour": 13,
-      "trips": 6198,
-      "year": 2020
-    },
-    {
-      "dow": 6,
-      "hour": 14,
-      "trips": 5096,
-      "year": 2020
-    },
-    {
-      "dow": 6,
-      "hour": 15,
-      "trips": 5779,
-      "year": 2020
-    },
-    {
-      "dow": 6,
-      "hour": 16,
-      "trips": 6415,
-      "year": 2020
-    },
-    {
-      "dow": 6,
-      "hour": 17,
-      "trips": 6540,
-      "year": 2020
-    },
-    {
-      "dow": 6,
-      "hour": 18,
-      "trips": 6580,
-      "year": 2020
-    },
-    {
-      "dow": 6,
-      "hour": 19,
-      "trips": 6149,
-      "year": 2020
-    },
-    {
-      "dow": 6,
-      "hour": 20,
-      "trips": 5146,
-      "year": 2020
-    },
-    {
-      "dow": 6,
-      "hour": 21,
-      "trips": 3304,
-      "year": 2020
-    },
-    {
-      "dow": 6,
-      "hour": 22,
-      "trips": 1999,
-      "year": 2020
-    },
-    {
-      "dow": 6,
-      "hour": 23,
-      "trips": 1705,
-      "year": 2020
-    },
-    {
-      "dow": 7,
-      "hour": 0,
-      "trips": 1647,
-      "year": 2020
-    },
-    {
-      "dow": 7,
-      "hour": 1,
-      "trips": 1098,
-      "year": 2020
-    },
-    {
-      "dow": 7,
-      "hour": 2,
-      "trips": 759,
-      "year": 2020
-    },
-    {
-      "dow": 7,
-      "hour": 3,
-      "trips": 494,
-      "year": 2020
-    },
-    {
-      "dow": 7,
-      "hour": 4,
-      "trips": 368,
-      "year": 2020
-    },
-    {
-      "dow": 7,
-      "hour": 5,
-      "trips": 526,
-      "year": 2020
-    },
-    {
-      "dow": 7,
-      "hour": 6,
-      "trips": 682,
-      "year": 2020
-    },
-    {
-      "dow": 7,
-      "hour": 7,
-      "trips": 781,
-      "year": 2020
-    },
-    {
-      "dow": 7,
-      "hour": 8,
-      "trips": 1376,
-      "year": 2020
-    },
-    {
-      "dow": 7,
-      "hour": 9,
-      "trips": 2763,
-      "year": 2020
-    },
-    {
-      "dow": 7,
-      "hour": 10,
-      "trips": 4520,
-      "year": 2020
-    },
-    {
-      "dow": 7,
-      "hour": 11,
-      "trips": 5419,
-      "year": 2020
-    },
-    {
-      "dow": 7,
-      "hour": 12,
-      "trips": 5152,
-      "year": 2020
-    },
-    {
-      "dow": 7,
-      "hour": 13,
-      "trips": 3918,
-      "year": 2020
-    },
-    {
-      "dow": 7,
-      "hour": 14,
-      "trips": 3559,
-      "year": 2020
-    },
-    {
-      "dow": 7,
-      "hour": 15,
-      "trips": 4913,
-      "year": 2020
-    },
-    {
-      "dow": 7,
-      "hour": 16,
-      "trips": 5810,
-      "year": 2020
-    },
-    {
-      "dow": 7,
-      "hour": 17,
-      "trips": 6104,
-      "year": 2020
-    },
-    {
-      "dow": 7,
-      "hour": 18,
-      "trips": 5988,
-      "year": 2020
-    },
-    {
-      "dow": 7,
-      "hour": 19,
-      "trips": 5269,
-      "year": 2020
-    },
-    {
-      "dow": 7,
-      "hour": 20,
-      "trips": 3964,
-      "year": 2020
-    },
-    {
-      "dow": 7,
-      "hour": 21,
-      "trips": 2712,
-      "year": 2020
-    },
-    {
-      "dow": 7,
-      "hour": 22,
-      "trips": 1738,
-      "year": 2020
-    },
-    {
-      "dow": 7,
-      "hour": 23,
-      "trips": 1534,
-      "year": 2020
-    },
-    {
-      "dow": 1,
-      "hour": 0,
-      "trips": 2009,
-      "year": 2021
-    },
-    {
-      "dow": 1,
-      "hour": 1,
-      "trips": 942,
-      "year": 2021
-    },
-    {
-      "dow": 1,
-      "hour": 2,
-      "trips": 407,
-      "year": 2021
-    },
-    {
-      "dow": 1,
-      "hour": 3,
-      "trips": 229,
-      "year": 2021
-    },
-    {
-      "dow": 1,
-      "hour": 4,
-      "trips": 329,
-      "year": 2021
-    },
-    {
-      "dow": 1,
-      "hour": 5,
-      "trips": 1046,
-      "year": 2021
-    },
-    {
-      "dow": 1,
-      "hour": 6,
-      "trips": 2902,
-      "year": 2021
-    },
-    {
-      "dow": 1,
-      "hour": 7,
-      "trips": 8475,
-      "year": 2021
-    },
-    {
-      "dow": 1,
-      "hour": 8,
-      "trips": 9734,
-      "year": 2021
-    },
-    {
-      "dow": 1,
-      "hour": 9,
-      "trips": 8128,
-      "year": 2021
-    },
-    {
-      "dow": 1,
-      "hour": 10,
-      "trips": 7756,
-      "year": 2021
-    },
-    {
-      "dow": 1,
-      "hour": 11,
-      "trips": 9040,
-      "year": 2021
-    },
-    {
-      "dow": 1,
-      "hour": 12,
-      "trips": 11460,
-      "year": 2021
-    },
-    {
-      "dow": 1,
-      "hour": 13,
-      "trips": 12486,
-      "year": 2021
-    },
-    {
-      "dow": 1,
-      "hour": 14,
-      "trips": 11202,
-      "year": 2021
-    },
-    {
-      "dow": 1,
-      "hour": 15,
-      "trips": 12206,
-      "year": 2021
-    },
-    {
-      "dow": 1,
-      "hour": 16,
-      "trips": 13765,
-      "year": 2021
-    },
-    {
-      "dow": 1,
-      "hour": 17,
-      "trips": 16244,
-      "year": 2021
-    },
-    {
-      "dow": 1,
-      "hour": 18,
-      "trips": 14319,
-      "year": 2021
-    },
-    {
-      "dow": 1,
-      "hour": 19,
-      "trips": 11969,
-      "year": 2021
-    },
-    {
-      "dow": 1,
-      "hour": 20,
-      "trips": 9814,
-      "year": 2021
-    },
-    {
-      "dow": 1,
-      "hour": 21,
-      "trips": 5702,
-      "year": 2021
-    },
-    {
-      "dow": 1,
-      "hour": 22,
-      "trips": 3398,
-      "year": 2021
-    },
-    {
-      "dow": 1,
-      "hour": 23,
-      "trips": 2223,
-      "year": 2021
-    },
-    {
-      "dow": 2,
-      "hour": 0,
-      "trips": 1787,
-      "year": 2021
-    },
-    {
-      "dow": 2,
-      "hour": 1,
-      "trips": 694,
-      "year": 2021
-    },
-    {
-      "dow": 2,
-      "hour": 2,
-      "trips": 294,
-      "year": 2021
-    },
-    {
-      "dow": 2,
-      "hour": 3,
-      "trips": 125,
-      "year": 2021
-    },
-    {
-      "dow": 2,
-      "hour": 4,
-      "trips": 261,
-      "year": 2021
-    },
-    {
-      "dow": 2,
-      "hour": 5,
-      "trips": 1064,
-      "year": 2021
-    },
-    {
-      "dow": 2,
-      "hour": 6,
-      "trips": 3184,
-      "year": 2021
-    },
-    {
-      "dow": 2,
-      "hour": 7,
-      "trips": 9365,
-      "year": 2021
-    },
-    {
-      "dow": 2,
-      "hour": 8,
-      "trips": 10847,
-      "year": 2021
-    },
-    {
-      "dow": 2,
-      "hour": 9,
-      "trips": 9164,
-      "year": 2021
-    },
-    {
-      "dow": 2,
-      "hour": 10,
-      "trips": 8710,
-      "year": 2021
-    },
-    {
-      "dow": 2,
-      "hour": 11,
-      "trips": 10436,
-      "year": 2021
-    },
-    {
-      "dow": 2,
-      "hour": 12,
-      "trips": 12880,
-      "year": 2021
-    },
-    {
-      "dow": 2,
-      "hour": 13,
-      "trips": 13845,
-      "year": 2021
-    },
-    {
-      "dow": 2,
-      "hour": 14,
-      "trips": 12296,
-      "year": 2021
-    },
-    {
-      "dow": 2,
-      "hour": 15,
-      "trips": 13423,
-      "year": 2021
-    },
-    {
-      "dow": 2,
-      "hour": 16,
-      "trips": 14707,
-      "year": 2021
-    },
-    {
-      "dow": 2,
-      "hour": 17,
-      "trips": 17576,
-      "year": 2021
-    },
-    {
-      "dow": 2,
-      "hour": 18,
-      "trips": 14818,
-      "year": 2021
-    },
-    {
-      "dow": 2,
-      "hour": 19,
-      "trips": 12536,
-      "year": 2021
-    },
-    {
-      "dow": 2,
-      "hour": 20,
-      "trips": 10346,
-      "year": 2021
-    },
-    {
-      "dow": 2,
-      "hour": 21,
-      "trips": 6136,
-      "year": 2021
-    },
-    {
-      "dow": 2,
-      "hour": 22,
-      "trips": 3386,
-      "year": 2021
-    },
-    {
-      "dow": 2,
-      "hour": 23,
-      "trips": 2713,
-      "year": 2021
-    },
-    {
-      "dow": 3,
-      "hour": 0,
-      "trips": 1994,
-      "year": 2021
-    },
-    {
-      "dow": 3,
-      "hour": 1,
-      "trips": 856,
-      "year": 2021
-    },
-    {
-      "dow": 3,
-      "hour": 2,
-      "trips": 359,
-      "year": 2021
-    },
-    {
-      "dow": 3,
-      "hour": 3,
-      "trips": 198,
-      "year": 2021
-    },
-    {
-      "dow": 3,
-      "hour": 4,
-      "trips": 292,
-      "year": 2021
-    },
-    {
-      "dow": 3,
-      "hour": 5,
-      "trips": 1095,
-      "year": 2021
-    },
-    {
-      "dow": 3,
-      "hour": 6,
-      "trips": 3287,
-      "year": 2021
-    },
-    {
-      "dow": 3,
-      "hour": 7,
-      "trips": 9178,
-      "year": 2021
-    },
-    {
-      "dow": 3,
-      "hour": 8,
-      "trips": 10704,
-      "year": 2021
-    },
-    {
-      "dow": 3,
-      "hour": 9,
-      "trips": 9221,
-      "year": 2021
-    },
-    {
-      "dow": 3,
-      "hour": 10,
-      "trips": 8786,
-      "year": 2021
-    },
-    {
-      "dow": 3,
-      "hour": 11,
-      "trips": 9961,
-      "year": 2021
-    },
-    {
-      "dow": 3,
-      "hour": 12,
-      "trips": 12061,
-      "year": 2021
-    },
-    {
-      "dow": 3,
-      "hour": 13,
-      "trips": 12978,
-      "year": 2021
-    },
-    {
-      "dow": 3,
-      "hour": 14,
-      "trips": 11876,
-      "year": 2021
-    },
-    {
-      "dow": 3,
-      "hour": 15,
-      "trips": 12677,
-      "year": 2021
-    },
-    {
-      "dow": 3,
-      "hour": 16,
-      "trips": 13719,
-      "year": 2021
-    },
-    {
-      "dow": 3,
-      "hour": 17,
-      "trips": 15954,
-      "year": 2021
-    },
-    {
-      "dow": 3,
-      "hour": 18,
-      "trips": 14041,
-      "year": 2021
-    },
-    {
-      "dow": 3,
-      "hour": 19,
-      "trips": 11888,
-      "year": 2021
-    },
-    {
-      "dow": 3,
-      "hour": 20,
-      "trips": 9944,
-      "year": 2021
-    },
-    {
-      "dow": 3,
-      "hour": 21,
-      "trips": 6117,
-      "year": 2021
-    },
-    {
-      "dow": 3,
-      "hour": 22,
-      "trips": 3593,
-      "year": 2021
-    },
-    {
-      "dow": 3,
-      "hour": 23,
-      "trips": 2800,
-      "year": 2021
-    },
-    {
-      "dow": 4,
-      "hour": 0,
-      "trips": 2255,
-      "year": 2021
-    },
-    {
-      "dow": 4,
-      "hour": 1,
-      "trips": 939,
-      "year": 2021
-    },
-    {
-      "dow": 4,
-      "hour": 2,
-      "trips": 352,
-      "year": 2021
-    },
-    {
-      "dow": 4,
-      "hour": 3,
-      "trips": 153,
-      "year": 2021
-    },
-    {
-      "dow": 4,
-      "hour": 4,
-      "trips": 265,
-      "year": 2021
-    },
-    {
-      "dow": 4,
-      "hour": 5,
-      "trips": 1059,
-      "year": 2021
-    },
-    {
-      "dow": 4,
-      "hour": 6,
-      "trips": 3286,
-      "year": 2021
-    },
-    {
-      "dow": 4,
-      "hour": 7,
-      "trips": 9143,
-      "year": 2021
-    },
-    {
-      "dow": 4,
-      "hour": 8,
-      "trips": 10631,
-      "year": 2021
-    },
-    {
-      "dow": 4,
-      "hour": 9,
-      "trips": 8939,
-      "year": 2021
-    },
-    {
-      "dow": 4,
-      "hour": 10,
-      "trips": 8635,
-      "year": 2021
-    },
-    {
-      "dow": 4,
-      "hour": 11,
-      "trips": 10038,
-      "year": 2021
-    },
-    {
-      "dow": 4,
-      "hour": 12,
-      "trips": 12285,
-      "year": 2021
-    },
-    {
-      "dow": 4,
-      "hour": 13,
-      "trips": 13293,
-      "year": 2021
-    },
-    {
-      "dow": 4,
-      "hour": 14,
-      "trips": 11768,
-      "year": 2021
-    },
-    {
-      "dow": 4,
-      "hour": 15,
-      "trips": 12636,
-      "year": 2021
-    },
-    {
-      "dow": 4,
-      "hour": 16,
-      "trips": 14182,
-      "year": 2021
-    },
-    {
-      "dow": 4,
-      "hour": 17,
-      "trips": 16129,
-      "year": 2021
-    },
-    {
-      "dow": 4,
-      "hour": 18,
-      "trips": 14463,
-      "year": 2021
-    },
-    {
-      "dow": 4,
-      "hour": 19,
-      "trips": 12351,
-      "year": 2021
-    },
-    {
-      "dow": 4,
-      "hour": 20,
-      "trips": 10242,
-      "year": 2021
-    },
-    {
-      "dow": 4,
-      "hour": 21,
-      "trips": 6165,
-      "year": 2021
-    },
-    {
-      "dow": 4,
-      "hour": 22,
-      "trips": 3606,
-      "year": 2021
-    },
-    {
-      "dow": 4,
-      "hour": 23,
-      "trips": 3074,
-      "year": 2021
-    },
-    {
-      "dow": 5,
-      "hour": 0,
-      "trips": 2511,
-      "year": 2021
-    },
-    {
-      "dow": 5,
-      "hour": 1,
-      "trips": 1202,
-      "year": 2021
-    },
-    {
-      "dow": 5,
-      "hour": 2,
-      "trips": 558,
-      "year": 2021
-    },
-    {
-      "dow": 5,
-      "hour": 3,
-      "trips": 299,
-      "year": 2021
-    },
-    {
-      "dow": 5,
-      "hour": 4,
-      "trips": 343,
-      "year": 2021
-    },
-    {
-      "dow": 5,
-      "hour": 5,
-      "trips": 1045,
-      "year": 2021
-    },
-    {
-      "dow": 5,
-      "hour": 6,
-      "trips": 3060,
-      "year": 2021
-    },
-    {
-      "dow": 5,
-      "hour": 7,
-      "trips": 8567,
-      "year": 2021
-    },
-    {
-      "dow": 5,
-      "hour": 8,
-      "trips": 9811,
-      "year": 2021
-    },
-    {
-      "dow": 5,
-      "hour": 9,
-      "trips": 8858,
-      "year": 2021
-    },
-    {
-      "dow": 5,
-      "hour": 10,
-      "trips": 8896,
-      "year": 2021
-    },
-    {
-      "dow": 5,
-      "hour": 11,
-      "trips": 10418,
-      "year": 2021
-    },
-    {
-      "dow": 5,
-      "hour": 12,
-      "trips": 12712,
-      "year": 2021
-    },
-    {
-      "dow": 5,
-      "hour": 13,
-      "trips": 13443,
-      "year": 2021
-    },
-    {
-      "dow": 5,
-      "hour": 14,
-      "trips": 12179,
-      "year": 2021
-    },
-    {
-      "dow": 5,
-      "hour": 15,
-      "trips": 13195,
-      "year": 2021
-    },
-    {
-      "dow": 5,
-      "hour": 16,
-      "trips": 14291,
-      "year": 2021
-    },
-    {
-      "dow": 5,
-      "hour": 17,
-      "trips": 15583,
-      "year": 2021
-    },
-    {
-      "dow": 5,
-      "hour": 18,
-      "trips": 14080,
-      "year": 2021
-    },
-    {
-      "dow": 5,
-      "hour": 19,
-      "trips": 12021,
-      "year": 2021
-    },
-    {
-      "dow": 5,
-      "hour": 20,
-      "trips": 10220,
-      "year": 2021
-    },
-    {
-      "dow": 5,
-      "hour": 21,
-      "trips": 6483,
-      "year": 2021
-    },
-    {
-      "dow": 5,
-      "hour": 22,
-      "trips": 3816,
-      "year": 2021
-    },
-    {
-      "dow": 5,
-      "hour": 23,
-      "trips": 3197,
-      "year": 2021
-    },
-    {
-      "dow": 6,
-      "hour": 0,
-      "trips": 2993,
-      "year": 2021
-    },
-    {
-      "dow": 6,
-      "hour": 1,
-      "trips": 1976,
-      "year": 2021
-    },
-    {
-      "dow": 6,
-      "hour": 2,
-      "trips": 1313,
-      "year": 2021
-    },
-    {
-      "dow": 6,
-      "hour": 3,
-      "trips": 852,
-      "year": 2021
-    },
-    {
-      "dow": 6,
-      "hour": 4,
-      "trips": 505,
-      "year": 2021
-    },
-    {
-      "dow": 6,
-      "hour": 5,
-      "trips": 842,
-      "year": 2021
-    },
-    {
-      "dow": 6,
-      "hour": 6,
-      "trips": 1498,
-      "year": 2021
-    },
-    {
-      "dow": 6,
-      "hour": 7,
-      "trips": 2949,
-      "year": 2021
-    },
-    {
-      "dow": 6,
-      "hour": 8,
-      "trips": 5484,
-      "year": 2021
-    },
-    {
-      "dow": 6,
-      "hour": 9,
-      "trips": 6335,
-      "year": 2021
-    },
-    {
-      "dow": 6,
-      "hour": 10,
-      "trips": 7474,
-      "year": 2021
-    },
-    {
-      "dow": 6,
-      "hour": 11,
-      "trips": 8786,
-      "year": 2021
-    },
-    {
-      "dow": 6,
-      "hour": 12,
-      "trips": 10029,
-      "year": 2021
-    },
-    {
-      "dow": 6,
-      "hour": 13,
-      "trips": 9930,
-      "year": 2021
-    },
-    {
-      "dow": 6,
-      "hour": 14,
-      "trips": 8389,
-      "year": 2021
-    },
-    {
-      "dow": 6,
-      "hour": 15,
-      "trips": 9969,
-      "year": 2021
-    },
-    {
-      "dow": 6,
-      "hour": 16,
-      "trips": 10656,
-      "year": 2021
-    },
-    {
-      "dow": 6,
-      "hour": 17,
-      "trips": 10785,
-      "year": 2021
-    },
-    {
-      "dow": 6,
-      "hour": 18,
-      "trips": 10582,
-      "year": 2021
-    },
-    {
-      "dow": 6,
-      "hour": 19,
-      "trips": 9895,
-      "year": 2021
-    },
-    {
-      "dow": 6,
-      "hour": 20,
-      "trips": 7746,
-      "year": 2021
-    },
-    {
-      "dow": 6,
-      "hour": 21,
-      "trips": 5098,
-      "year": 2021
-    },
-    {
-      "dow": 6,
-      "hour": 22,
-      "trips": 3358,
-      "year": 2021
-    },
-    {
-      "dow": 6,
-      "hour": 23,
-      "trips": 3051,
-      "year": 2021
-    },
-    {
-      "dow": 7,
-      "hour": 0,
-      "trips": 2828,
-      "year": 2021
-    },
-    {
-      "dow": 7,
-      "hour": 1,
-      "trips": 2057,
-      "year": 2021
-    },
-    {
-      "dow": 7,
-      "hour": 2,
-      "trips": 1377,
-      "year": 2021
-    },
-    {
-      "dow": 7,
-      "hour": 3,
-      "trips": 834,
-      "year": 2021
-    },
-    {
-      "dow": 7,
-      "hour": 4,
-      "trips": 603,
-      "year": 2021
-    },
-    {
-      "dow": 7,
-      "hour": 5,
-      "trips": 848,
-      "year": 2021
-    },
-    {
-      "dow": 7,
-      "hour": 6,
-      "trips": 992,
-      "year": 2021
-    },
-    {
-      "dow": 7,
-      "hour": 7,
-      "trips": 1440,
-      "year": 2021
-    },
-    {
-      "dow": 7,
-      "hour": 8,
-      "trips": 2856,
-      "year": 2021
-    },
-    {
-      "dow": 7,
-      "hour": 9,
-      "trips": 5850,
-      "year": 2021
-    },
-    {
-      "dow": 7,
-      "hour": 10,
-      "trips": 9015,
-      "year": 2021
-    },
-    {
-      "dow": 7,
-      "hour": 11,
-      "trips": 10205,
-      "year": 2021
-    },
-    {
-      "dow": 7,
-      "hour": 12,
-      "trips": 9441,
-      "year": 2021
-    },
-    {
-      "dow": 7,
-      "hour": 13,
-      "trips": 7225,
-      "year": 2021
-    },
-    {
-      "dow": 7,
-      "hour": 14,
-      "trips": 6283,
-      "year": 2021
-    },
-    {
-      "dow": 7,
-      "hour": 15,
-      "trips": 8464,
-      "year": 2021
-    },
-    {
-      "dow": 7,
-      "hour": 16,
-      "trips": 9385,
-      "year": 2021
-    },
-    {
-      "dow": 7,
-      "hour": 17,
-      "trips": 9721,
-      "year": 2021
-    },
-    {
-      "dow": 7,
-      "hour": 18,
-      "trips": 9649,
-      "year": 2021
-    },
-    {
-      "dow": 7,
-      "hour": 19,
-      "trips": 8567,
-      "year": 2021
-    },
-    {
-      "dow": 7,
-      "hour": 20,
-      "trips": 6762,
-      "year": 2021
-    },
-    {
-      "dow": 7,
-      "hour": 21,
-      "trips": 4356,
-      "year": 2021
-    },
-    {
-      "dow": 7,
-      "hour": 22,
-      "trips": 2824,
-      "year": 2021
-    },
-    {
-      "dow": 7,
-      "hour": 23,
-      "trips": 2591,
-      "year": 2021
-    },
-    {
-      "dow": 1,
-      "hour": 0,
-      "trips": 2427,
-      "year": 2022
-    },
-    {
-      "dow": 1,
-      "hour": 1,
-      "trips": 1349,
-      "year": 2022
-    },
-    {
-      "dow": 1,
-      "hour": 2,
-      "trips": 641,
-      "year": 2022
-    },
-    {
-      "dow": 1,
-      "hour": 3,
-      "trips": 381,
-      "year": 2022
-    },
-    {
-      "dow": 1,
-      "hour": 4,
-      "trips": 402,
-      "year": 2022
-    },
-    {
-      "dow": 1,
-      "hour": 5,
-      "trips": 1276,
-      "year": 2022
-    },
-    {
-      "dow": 1,
-      "hour": 6,
-      "trips": 3290,
-      "year": 2022
-    },
-    {
-      "dow": 1,
-      "hour": 7,
-      "trips": 9406,
-      "year": 2022
-    },
-    {
-      "dow": 1,
-      "hour": 8,
-      "trips": 9867,
-      "year": 2022
-    },
-    {
-      "dow": 1,
-      "hour": 9,
-      "trips": 8043,
-      "year": 2022
-    },
-    {
-      "dow": 1,
-      "hour": 10,
-      "trips": 8201,
-      "year": 2022
-    },
-    {
-      "dow": 1,
-      "hour": 11,
-      "trips": 10230,
-      "year": 2022
-    },
-    {
-      "dow": 1,
-      "hour": 12,
-      "trips": 12217,
-      "year": 2022
-    },
-    {
-      "dow": 1,
-      "hour": 13,
-      "trips": 13291,
-      "year": 2022
-    },
-    {
-      "dow": 1,
-      "hour": 14,
-      "trips": 12283,
-      "year": 2022
-    },
-    {
-      "dow": 1,
-      "hour": 15,
-      "trips": 12834,
-      "year": 2022
-    },
-    {
-      "dow": 1,
-      "hour": 16,
-      "trips": 15237,
-      "year": 2022
-    },
-    {
-      "dow": 1,
-      "hour": 17,
-      "trips": 18206,
-      "year": 2022
-    },
-    {
-      "dow": 1,
-      "hour": 18,
-      "trips": 16187,
-      "year": 2022
-    },
-    {
-      "dow": 1,
-      "hour": 19,
-      "trips": 13418,
-      "year": 2022
-    },
-    {
-      "dow": 1,
-      "hour": 20,
-      "trips": 11930,
-      "year": 2022
-    },
-    {
-      "dow": 1,
-      "hour": 21,
-      "trips": 8303,
-      "year": 2022
-    },
-    {
-      "dow": 1,
-      "hour": 22,
-      "trips": 4901,
-      "year": 2022
-    },
-    {
-      "dow": 1,
-      "hour": 23,
-      "trips": 3102,
-      "year": 2022
-    },
-    {
-      "dow": 2,
-      "hour": 0,
-      "trips": 2264,
-      "year": 2022
-    },
-    {
-      "dow": 2,
-      "hour": 1,
-      "trips": 1063,
-      "year": 2022
-    },
-    {
-      "dow": 2,
-      "hour": 2,
-      "trips": 464,
-      "year": 2022
-    },
-    {
-      "dow": 2,
-      "hour": 3,
-      "trips": 268,
-      "year": 2022
-    },
-    {
-      "dow": 2,
-      "hour": 4,
-      "trips": 380,
-      "year": 2022
-    },
-    {
-      "dow": 2,
-      "hour": 5,
-      "trips": 1429,
-      "year": 2022
-    },
-    {
-      "dow": 2,
-      "hour": 6,
-      "trips": 3901,
-      "year": 2022
-    },
-    {
-      "dow": 2,
-      "hour": 7,
-      "trips": 11313,
-      "year": 2022
-    },
-    {
-      "dow": 2,
-      "hour": 8,
-      "trips": 11823,
-      "year": 2022
-    },
-    {
-      "dow": 2,
-      "hour": 9,
-      "trips": 10082,
-      "year": 2022
-    },
-    {
-      "dow": 2,
-      "hour": 10,
-      "trips": 9849,
-      "year": 2022
-    },
-    {
-      "dow": 2,
-      "hour": 11,
-      "trips": 11493,
-      "year": 2022
-    },
-    {
-      "dow": 2,
-      "hour": 12,
-      "trips": 13881,
-      "year": 2022
-    },
-    {
-      "dow": 2,
-      "hour": 13,
-      "trips": 15060,
-      "year": 2022
-    },
-    {
-      "dow": 2,
-      "hour": 14,
-      "trips": 13264,
-      "year": 2022
-    },
-    {
-      "dow": 2,
-      "hour": 15,
-      "trips": 14615,
-      "year": 2022
-    },
-    {
-      "dow": 2,
-      "hour": 16,
-      "trips": 16307,
-      "year": 2022
-    },
-    {
-      "dow": 2,
-      "hour": 17,
-      "trips": 18869,
-      "year": 2022
-    },
-    {
-      "dow": 2,
-      "hour": 18,
-      "trips": 17038,
-      "year": 2022
-    },
-    {
-      "dow": 2,
-      "hour": 19,
-      "trips": 14200,
-      "year": 2022
-    },
-    {
-      "dow": 2,
-      "hour": 20,
-      "trips": 12990,
-      "year": 2022
-    },
-    {
-      "dow": 2,
-      "hour": 21,
-      "trips": 8486,
-      "year": 2022
-    },
-    {
-      "dow": 2,
-      "hour": 22,
-      "trips": 5327,
-      "year": 2022
-    },
-    {
-      "dow": 2,
-      "hour": 23,
-      "trips": 3757,
-      "year": 2022
-    },
-    {
-      "dow": 3,
-      "hour": 0,
-      "trips": 2867,
-      "year": 2022
-    },
-    {
-      "dow": 3,
-      "hour": 1,
-      "trips": 1251,
-      "year": 2022
-    },
-    {
-      "dow": 3,
-      "hour": 2,
-      "trips": 544,
-      "year": 2022
-    },
-    {
-      "dow": 3,
-      "hour": 3,
-      "trips": 288,
-      "year": 2022
-    },
-    {
-      "dow": 3,
-      "hour": 4,
-      "trips": 340,
-      "year": 2022
-    },
-    {
-      "dow": 3,
-      "hour": 5,
-      "trips": 1375,
-      "year": 2022
-    },
-    {
-      "dow": 3,
-      "hour": 6,
-      "trips": 3903,
-      "year": 2022
-    },
-    {
-      "dow": 3,
-      "hour": 7,
-      "trips": 11432,
-      "year": 2022
-    },
-    {
-      "dow": 3,
-      "hour": 8,
-      "trips": 11836,
-      "year": 2022
-    },
-    {
-      "dow": 3,
-      "hour": 9,
-      "trips": 9555,
-      "year": 2022
-    },
-    {
-      "dow": 3,
-      "hour": 10,
-      "trips": 8985,
-      "year": 2022
-    },
-    {
-      "dow": 3,
-      "hour": 11,
-      "trips": 10921,
-      "year": 2022
-    },
-    {
-      "dow": 3,
-      "hour": 12,
-      "trips": 13418,
-      "year": 2022
-    },
-    {
-      "dow": 3,
-      "hour": 13,
-      "trips": 14076,
-      "year": 2022
-    },
-    {
-      "dow": 3,
-      "hour": 14,
-      "trips": 12756,
-      "year": 2022
-    },
-    {
-      "dow": 3,
-      "hour": 15,
-      "trips": 13888,
-      "year": 2022
-    },
-    {
-      "dow": 3,
-      "hour": 16,
-      "trips": 15619,
-      "year": 2022
-    },
-    {
-      "dow": 3,
-      "hour": 17,
-      "trips": 18041,
-      "year": 2022
-    },
-    {
-      "dow": 3,
-      "hour": 18,
-      "trips": 16258,
-      "year": 2022
-    },
-    {
-      "dow": 3,
-      "hour": 19,
-      "trips": 13448,
-      "year": 2022
-    },
-    {
-      "dow": 3,
-      "hour": 20,
-      "trips": 12023,
-      "year": 2022
-    },
-    {
-      "dow": 3,
-      "hour": 21,
-      "trips": 8044,
-      "year": 2022
-    },
-    {
-      "dow": 3,
-      "hour": 22,
-      "trips": 5030,
-      "year": 2022
-    },
-    {
-      "dow": 3,
-      "hour": 23,
-      "trips": 3689,
-      "year": 2022
-    },
-    {
-      "dow": 4,
-      "hour": 0,
-      "trips": 3086,
-      "year": 2022
-    },
-    {
-      "dow": 4,
-      "hour": 1,
-      "trips": 1589,
-      "year": 2022
-    },
-    {
-      "dow": 4,
-      "hour": 2,
-      "trips": 687,
-      "year": 2022
-    },
-    {
-      "dow": 4,
-      "hour": 3,
-      "trips": 378,
-      "year": 2022
-    },
-    {
-      "dow": 4,
-      "hour": 4,
-      "trips": 378,
-      "year": 2022
-    },
-    {
-      "dow": 4,
-      "hour": 5,
-      "trips": 1352,
-      "year": 2022
-    },
-    {
-      "dow": 4,
-      "hour": 6,
-      "trips": 3595,
-      "year": 2022
-    },
-    {
-      "dow": 4,
-      "hour": 7,
-      "trips": 10505,
-      "year": 2022
-    },
-    {
-      "dow": 4,
-      "hour": 8,
-      "trips": 11153,
-      "year": 2022
-    },
-    {
-      "dow": 4,
-      "hour": 9,
-      "trips": 8844,
-      "year": 2022
-    },
-    {
-      "dow": 4,
-      "hour": 10,
-      "trips": 8982,
-      "year": 2022
-    },
-    {
-      "dow": 4,
-      "hour": 11,
-      "trips": 10866,
-      "year": 2022
-    },
-    {
-      "dow": 4,
-      "hour": 12,
-      "trips": 13123,
-      "year": 2022
-    },
-    {
-      "dow": 4,
-      "hour": 13,
-      "trips": 13888,
-      "year": 2022
-    },
-    {
-      "dow": 4,
-      "hour": 14,
-      "trips": 12541,
-      "year": 2022
-    },
-    {
-      "dow": 4,
-      "hour": 15,
-      "trips": 13573,
-      "year": 2022
-    },
-    {
-      "dow": 4,
-      "hour": 16,
-      "trips": 15862,
-      "year": 2022
-    },
-    {
-      "dow": 4,
-      "hour": 17,
-      "trips": 18365,
-      "year": 2022
-    },
-    {
-      "dow": 4,
-      "hour": 18,
-      "trips": 16655,
-      "year": 2022
-    },
-    {
-      "dow": 4,
-      "hour": 19,
-      "trips": 13860,
-      "year": 2022
-    },
-    {
-      "dow": 4,
-      "hour": 20,
-      "trips": 12828,
-      "year": 2022
-    },
-    {
-      "dow": 4,
-      "hour": 21,
-      "trips": 8723,
-      "year": 2022
-    },
-    {
-      "dow": 4,
-      "hour": 22,
-      "trips": 5432,
-      "year": 2022
-    },
-    {
-      "dow": 4,
-      "hour": 23,
-      "trips": 4208,
-      "year": 2022
-    },
-    {
-      "dow": 5,
-      "hour": 0,
-      "trips": 3576,
-      "year": 2022
-    },
-    {
-      "dow": 5,
-      "hour": 1,
-      "trips": 1957,
-      "year": 2022
-    },
-    {
-      "dow": 5,
-      "hour": 2,
-      "trips": 999,
-      "year": 2022
-    },
-    {
-      "dow": 5,
-      "hour": 3,
-      "trips": 562,
-      "year": 2022
-    },
-    {
-      "dow": 5,
-      "hour": 4,
-      "trips": 473,
-      "year": 2022
-    },
-    {
-      "dow": 5,
-      "hour": 5,
-      "trips": 1286,
-      "year": 2022
-    },
-    {
-      "dow": 5,
-      "hour": 6,
-      "trips": 3365,
-      "year": 2022
-    },
-    {
-      "dow": 5,
-      "hour": 7,
-      "trips": 9680,
-      "year": 2022
-    },
-    {
-      "dow": 5,
-      "hour": 8,
-      "trips": 10325,
-      "year": 2022
-    },
-    {
-      "dow": 5,
-      "hour": 9,
-      "trips": 8890,
-      "year": 2022
-    },
-    {
-      "dow": 5,
-      "hour": 10,
-      "trips": 8961,
-      "year": 2022
-    },
-    {
-      "dow": 5,
-      "hour": 11,
-      "trips": 10971,
-      "year": 2022
-    },
-    {
-      "dow": 5,
-      "hour": 12,
-      "trips": 12781,
-      "year": 2022
-    },
-    {
-      "dow": 5,
-      "hour": 13,
-      "trips": 13156,
-      "year": 2022
-    },
-    {
-      "dow": 5,
-      "hour": 14,
-      "trips": 11808,
-      "year": 2022
-    },
-    {
-      "dow": 5,
-      "hour": 15,
-      "trips": 13343,
-      "year": 2022
-    },
-    {
-      "dow": 5,
-      "hour": 16,
-      "trips": 14922,
-      "year": 2022
-    },
-    {
-      "dow": 5,
-      "hour": 17,
-      "trips": 15957,
-      "year": 2022
-    },
-    {
-      "dow": 5,
-      "hour": 18,
-      "trips": 14225,
-      "year": 2022
-    },
-    {
-      "dow": 5,
-      "hour": 19,
-      "trips": 12349,
-      "year": 2022
-    },
-    {
-      "dow": 5,
-      "hour": 20,
-      "trips": 11263,
-      "year": 2022
-    },
-    {
-      "dow": 5,
-      "hour": 21,
-      "trips": 8235,
-      "year": 2022
-    },
-    {
-      "dow": 5,
-      "hour": 22,
-      "trips": 5263,
-      "year": 2022
-    },
-    {
-      "dow": 5,
-      "hour": 23,
-      "trips": 4061,
-      "year": 2022
-    },
-    {
-      "dow": 6,
-      "hour": 0,
-      "trips": 3699,
-      "year": 2022
-    },
-    {
-      "dow": 6,
-      "hour": 1,
-      "trips": 2793,
-      "year": 2022
-    },
-    {
-      "dow": 6,
-      "hour": 2,
-      "trips": 1837,
-      "year": 2022
-    },
-    {
-      "dow": 6,
-      "hour": 3,
-      "trips": 1265,
-      "year": 2022
-    },
-    {
-      "dow": 6,
-      "hour": 4,
-      "trips": 981,
-      "year": 2022
-    },
-    {
-      "dow": 6,
-      "hour": 5,
-      "trips": 1414,
-      "year": 2022
-    },
-    {
-      "dow": 6,
-      "hour": 6,
-      "trips": 1962,
-      "year": 2022
-    },
-    {
-      "dow": 6,
-      "hour": 7,
-      "trips": 3228,
-      "year": 2022
-    },
-    {
-      "dow": 6,
-      "hour": 8,
-      "trips": 5988,
-      "year": 2022
-    },
-    {
-      "dow": 6,
-      "hour": 9,
-      "trips": 6007,
-      "year": 2022
-    },
-    {
-      "dow": 6,
-      "hour": 10,
-      "trips": 7506,
-      "year": 2022
-    },
-    {
-      "dow": 6,
-      "hour": 11,
-      "trips": 8530,
-      "year": 2022
-    },
-    {
-      "dow": 6,
-      "hour": 12,
-      "trips": 10004,
-      "year": 2022
-    },
-    {
-      "dow": 6,
-      "hour": 13,
-      "trips": 10704,
-      "year": 2022
-    },
-    {
-      "dow": 6,
-      "hour": 14,
-      "trips": 8750,
-      "year": 2022
-    },
-    {
-      "dow": 6,
-      "hour": 15,
-      "trips": 10330,
-      "year": 2022
-    },
-    {
-      "dow": 6,
-      "hour": 16,
-      "trips": 10661,
-      "year": 2022
-    },
-    {
-      "dow": 6,
-      "hour": 17,
-      "trips": 10885,
-      "year": 2022
-    },
-    {
-      "dow": 6,
-      "hour": 18,
-      "trips": 11184,
-      "year": 2022
-    },
-    {
-      "dow": 6,
-      "hour": 19,
-      "trips": 10425,
-      "year": 2022
-    },
-    {
-      "dow": 6,
-      "hour": 20,
-      "trips": 8861,
-      "year": 2022
-    },
-    {
-      "dow": 6,
-      "hour": 21,
-      "trips": 6933,
-      "year": 2022
-    },
-    {
-      "dow": 6,
-      "hour": 22,
-      "trips": 4714,
-      "year": 2022
-    },
-    {
-      "dow": 6,
-      "hour": 23,
-      "trips": 3897,
-      "year": 2022
-    },
-    {
-      "dow": 7,
-      "hour": 0,
-      "trips": 3509,
-      "year": 2022
-    },
-    {
-      "dow": 7,
-      "hour": 1,
-      "trips": 2786,
-      "year": 2022
-    },
-    {
-      "dow": 7,
-      "hour": 2,
-      "trips": 1953,
-      "year": 2022
-    },
-    {
-      "dow": 7,
-      "hour": 3,
-      "trips": 1278,
-      "year": 2022
-    },
-    {
-      "dow": 7,
-      "hour": 4,
-      "trips": 1202,
-      "year": 2022
-    },
-    {
-      "dow": 7,
-      "hour": 5,
-      "trips": 1727,
-      "year": 2022
-    },
-    {
-      "dow": 7,
-      "hour": 6,
-      "trips": 1417,
-      "year": 2022
-    },
-    {
-      "dow": 7,
-      "hour": 7,
-      "trips": 1651,
-      "year": 2022
-    },
-    {
-      "dow": 7,
-      "hour": 8,
-      "trips": 3236,
-      "year": 2022
-    },
-    {
-      "dow": 7,
-      "hour": 9,
-      "trips": 6088,
-      "year": 2022
-    },
-    {
-      "dow": 7,
-      "hour": 10,
-      "trips": 9686,
-      "year": 2022
-    },
-    {
-      "dow": 7,
-      "hour": 11,
-      "trips": 11012,
-      "year": 2022
-    },
-    {
-      "dow": 7,
-      "hour": 12,
-      "trips": 9108,
-      "year": 2022
-    },
-    {
-      "dow": 7,
-      "hour": 13,
-      "trips": 7349,
-      "year": 2022
-    },
-    {
-      "dow": 7,
-      "hour": 14,
-      "trips": 6449,
-      "year": 2022
-    },
-    {
-      "dow": 7,
-      "hour": 15,
-      "trips": 8094,
-      "year": 2022
-    },
-    {
-      "dow": 7,
-      "hour": 16,
-      "trips": 9312,
-      "year": 2022
-    },
-    {
-      "dow": 7,
-      "hour": 17,
-      "trips": 9682,
-      "year": 2022
-    },
-    {
-      "dow": 7,
-      "hour": 18,
-      "trips": 10078,
-      "year": 2022
-    },
-    {
-      "dow": 7,
-      "hour": 19,
-      "trips": 9218,
-      "year": 2022
-    },
-    {
-      "dow": 7,
-      "hour": 20,
-      "trips": 7437,
-      "year": 2022
-    },
-    {
-      "dow": 7,
-      "hour": 21,
-      "trips": 5647,
-      "year": 2022
-    },
-    {
-      "dow": 7,
-      "hour": 22,
-      "trips": 3819,
-      "year": 2022
-    },
-    {
-      "dow": 7,
-      "hour": 23,
-      "trips": 3074,
-      "year": 2022
-    },
-    {
-      "dow": 1,
-      "hour": 0,
-      "trips": 2297,
-      "year": 2023
-    },
-    {
-      "dow": 1,
-      "hour": 1,
-      "trips": 1356,
-      "year": 2023
-    },
-    {
-      "dow": 1,
-      "hour": 2,
-      "trips": 629,
-      "year": 2023
-    },
-    {
-      "dow": 1,
-      "hour": 3,
-      "trips": 375,
-      "year": 2023
-    },
-    {
-      "dow": 1,
-      "hour": 4,
-      "trips": 335,
-      "year": 2023
-    },
-    {
-      "dow": 1,
-      "hour": 5,
-      "trips": 954,
-      "year": 2023
-    },
-    {
-      "dow": 1,
-      "hour": 6,
-      "trips": 3029,
-      "year": 2023
-    },
-    {
-      "dow": 1,
-      "hour": 7,
-      "trips": 7771,
-      "year": 2023
-    },
-    {
-      "dow": 1,
-      "hour": 8,
-      "trips": 7789,
-      "year": 2023
-    },
-    {
-      "dow": 1,
-      "hour": 9,
-      "trips": 6082,
-      "year": 2023
-    },
-    {
-      "dow": 1,
-      "hour": 10,
-      "trips": 6165,
-      "year": 2023
-    },
-    {
-      "dow": 1,
-      "hour": 11,
-      "trips": 7799,
-      "year": 2023
-    },
-    {
-      "dow": 1,
-      "hour": 12,
-      "trips": 9508,
-      "year": 2023
-    },
-    {
-      "dow": 1,
-      "hour": 13,
-      "trips": 10096,
-      "year": 2023
-    },
-    {
-      "dow": 1,
-      "hour": 14,
-      "trips": 8822,
-      "year": 2023
-    },
-    {
-      "dow": 1,
-      "hour": 15,
-      "trips": 10101,
-      "year": 2023
-    },
-    {
-      "dow": 1,
-      "hour": 16,
-      "trips": 11815,
-      "year": 2023
-    },
-    {
-      "dow": 1,
-      "hour": 17,
-      "trips": 14038,
-      "year": 2023
-    },
-    {
-      "dow": 1,
-      "hour": 18,
-      "trips": 12591,
-      "year": 2023
-    },
-    {
-      "dow": 1,
-      "hour": 19,
-      "trips": 10755,
-      "year": 2023
-    },
-    {
-      "dow": 1,
-      "hour": 20,
-      "trips": 9568,
-      "year": 2023
-    },
-    {
-      "dow": 1,
-      "hour": 21,
-      "trips": 7279,
-      "year": 2023
-    },
-    {
-      "dow": 1,
-      "hour": 22,
-      "trips": 4304,
-      "year": 2023
-    },
-    {
-      "dow": 1,
-      "hour": 23,
-      "trips": 2715,
-      "year": 2023
-    },
-    {
-      "dow": 2,
-      "hour": 0,
-      "trips": 2012,
-      "year": 2023
-    },
-    {
-      "dow": 2,
-      "hour": 1,
-      "trips": 998,
-      "year": 2023
-    },
-    {
-      "dow": 2,
-      "hour": 2,
-      "trips": 483,
-      "year": 2023
-    },
-    {
-      "dow": 2,
-      "hour": 3,
-      "trips": 257,
-      "year": 2023
-    },
-    {
-      "dow": 2,
-      "hour": 4,
-      "trips": 277,
-      "year": 2023
-    },
-    {
-      "dow": 2,
-      "hour": 5,
-      "trips": 1080,
-      "year": 2023
-    },
-    {
-      "dow": 2,
-      "hour": 6,
-      "trips": 3441,
-      "year": 2023
-    },
-    {
-      "dow": 2,
-      "hour": 7,
-      "trips": 9326,
-      "year": 2023
-    },
-    {
-      "dow": 2,
-      "hour": 8,
-      "trips": 9590,
-      "year": 2023
-    },
-    {
-      "dow": 2,
-      "hour": 9,
-      "trips": 7500,
-      "year": 2023
-    },
-    {
-      "dow": 2,
-      "hour": 10,
-      "trips": 7341,
-      "year": 2023
-    },
-    {
-      "dow": 2,
-      "hour": 11,
-      "trips": 8745,
-      "year": 2023
-    },
-    {
-      "dow": 2,
-      "hour": 12,
-      "trips": 10317,
-      "year": 2023
-    },
-    {
-      "dow": 2,
-      "hour": 13,
-      "trips": 10633,
-      "year": 2023
-    },
-    {
-      "dow": 2,
-      "hour": 14,
-      "trips": 9740,
-      "year": 2023
-    },
-    {
-      "dow": 2,
-      "hour": 15,
-      "trips": 10527,
-      "year": 2023
-    },
-    {
-      "dow": 2,
-      "hour": 16,
-      "trips": 12281,
-      "year": 2023
-    },
-    {
-      "dow": 2,
-      "hour": 17,
-      "trips": 14506,
-      "year": 2023
-    },
-    {
-      "dow": 2,
-      "hour": 18,
-      "trips": 12763,
-      "year": 2023
-    },
-    {
-      "dow": 2,
-      "hour": 19,
-      "trips": 11063,
-      "year": 2023
-    },
-    {
-      "dow": 2,
-      "hour": 20,
-      "trips": 9994,
-      "year": 2023
-    },
-    {
-      "dow": 2,
-      "hour": 21,
-      "trips": 7224,
-      "year": 2023
-    },
-    {
-      "dow": 2,
-      "hour": 22,
-      "trips": 4447,
-      "year": 2023
-    },
-    {
-      "dow": 2,
-      "hour": 23,
-      "trips": 3243,
-      "year": 2023
-    },
-    {
-      "dow": 3,
-      "hour": 0,
-      "trips": 2287,
-      "year": 2023
-    },
-    {
-      "dow": 3,
-      "hour": 1,
-      "trips": 1228,
-      "year": 2023
-    },
-    {
-      "dow": 3,
-      "hour": 2,
-      "trips": 525,
-      "year": 2023
-    },
-    {
-      "dow": 3,
-      "hour": 3,
-      "trips": 283,
-      "year": 2023
-    },
-    {
-      "dow": 3,
-      "hour": 4,
-      "trips": 279,
-      "year": 2023
-    },
-    {
-      "dow": 3,
-      "hour": 5,
-      "trips": 1009,
-      "year": 2023
-    },
-    {
-      "dow": 3,
-      "hour": 6,
-      "trips": 3147,
-      "year": 2023
-    },
-    {
-      "dow": 3,
-      "hour": 7,
-      "trips": 9357,
-      "year": 2023
-    },
-    {
-      "dow": 3,
-      "hour": 8,
-      "trips": 9084,
-      "year": 2023
-    },
-    {
-      "dow": 3,
-      "hour": 9,
-      "trips": 7002,
-      "year": 2023
-    },
-    {
-      "dow": 3,
-      "hour": 10,
-      "trips": 7182,
-      "year": 2023
-    },
-    {
-      "dow": 3,
-      "hour": 11,
-      "trips": 8245,
-      "year": 2023
-    },
-    {
-      "dow": 3,
-      "hour": 12,
-      "trips": 10232,
-      "year": 2023
-    },
-    {
-      "dow": 3,
-      "hour": 13,
-      "trips": 10444,
-      "year": 2023
-    },
-    {
-      "dow": 3,
-      "hour": 14,
-      "trips": 10014,
-      "year": 2023
-    },
-    {
-      "dow": 3,
-      "hour": 15,
-      "trips": 10643,
-      "year": 2023
-    },
-    {
-      "dow": 3,
-      "hour": 16,
-      "trips": 12616,
-      "year": 2023
-    },
-    {
-      "dow": 3,
-      "hour": 17,
-      "trips": 14816,
-      "year": 2023
-    },
-    {
-      "dow": 3,
-      "hour": 18,
-      "trips": 13007,
-      "year": 2023
-    },
-    {
-      "dow": 3,
-      "hour": 19,
-      "trips": 11279,
-      "year": 2023
-    },
-    {
-      "dow": 3,
-      "hour": 20,
-      "trips": 10120,
-      "year": 2023
-    },
-    {
-      "dow": 3,
-      "hour": 21,
-      "trips": 7454,
-      "year": 2023
-    },
-    {
-      "dow": 3,
-      "hour": 22,
-      "trips": 4461,
-      "year": 2023
-    },
-    {
-      "dow": 3,
-      "hour": 23,
-      "trips": 3148,
-      "year": 2023
-    },
-    {
-      "dow": 4,
-      "hour": 0,
-      "trips": 2487,
-      "year": 2023
-    },
-    {
-      "dow": 4,
-      "hour": 1,
-      "trips": 1384,
-      "year": 2023
-    },
-    {
-      "dow": 4,
-      "hour": 2,
-      "trips": 581,
-      "year": 2023
-    },
-    {
-      "dow": 4,
-      "hour": 3,
-      "trips": 332,
-      "year": 2023
-    },
-    {
-      "dow": 4,
-      "hour": 4,
-      "trips": 286,
-      "year": 2023
-    },
-    {
-      "dow": 4,
-      "hour": 5,
-      "trips": 1026,
-      "year": 2023
-    },
-    {
-      "dow": 4,
-      "hour": 6,
-      "trips": 3201,
-      "year": 2023
-    },
-    {
-      "dow": 4,
-      "hour": 7,
-      "trips": 8913,
-      "year": 2023
-    },
-    {
-      "dow": 4,
-      "hour": 8,
-      "trips": 9464,
-      "year": 2023
-    },
-    {
-      "dow": 4,
-      "hour": 9,
-      "trips": 7236,
-      "year": 2023
-    },
-    {
-      "dow": 4,
-      "hour": 10,
-      "trips": 7179,
-      "year": 2023
-    },
-    {
-      "dow": 4,
-      "hour": 11,
-      "trips": 8736,
-      "year": 2023
-    },
-    {
-      "dow": 4,
-      "hour": 12,
-      "trips": 10226,
-      "year": 2023
-    },
-    {
-      "dow": 4,
-      "hour": 13,
-      "trips": 10518,
-      "year": 2023
-    },
-    {
-      "dow": 4,
-      "hour": 14,
-      "trips": 10071,
-      "year": 2023
-    },
-    {
-      "dow": 4,
-      "hour": 15,
-      "trips": 10942,
-      "year": 2023
-    },
-    {
-      "dow": 4,
-      "hour": 16,
-      "trips": 12601,
-      "year": 2023
-    },
-    {
-      "dow": 4,
-      "hour": 17,
-      "trips": 14954,
-      "year": 2023
-    },
-    {
-      "dow": 4,
-      "hour": 18,
-      "trips": 13345,
-      "year": 2023
-    },
-    {
-      "dow": 4,
-      "hour": 19,
-      "trips": 11392,
-      "year": 2023
-    },
-    {
-      "dow": 4,
-      "hour": 20,
-      "trips": 10309,
-      "year": 2023
-    },
-    {
-      "dow": 4,
-      "hour": 21,
-      "trips": 7501,
-      "year": 2023
-    },
-    {
-      "dow": 4,
-      "hour": 22,
-      "trips": 4715,
-      "year": 2023
-    },
-    {
-      "dow": 4,
-      "hour": 23,
-      "trips": 3489,
-      "year": 2023
-    },
-    {
-      "dow": 5,
-      "hour": 0,
-      "trips": 3018,
-      "year": 2023
-    },
-    {
-      "dow": 5,
-      "hour": 1,
-      "trips": 1719,
-      "year": 2023
-    },
-    {
-      "dow": 5,
-      "hour": 2,
-      "trips": 785,
-      "year": 2023
-    },
-    {
-      "dow": 5,
-      "hour": 3,
-      "trips": 538,
-      "year": 2023
-    },
-    {
-      "dow": 5,
-      "hour": 4,
-      "trips": 425,
-      "year": 2023
-    },
-    {
-      "dow": 5,
-      "hour": 5,
-      "trips": 1008,
-      "year": 2023
-    },
-    {
-      "dow": 5,
-      "hour": 6,
-      "trips": 3161,
-      "year": 2023
-    },
-    {
-      "dow": 5,
-      "hour": 7,
-      "trips": 8279,
-      "year": 2023
-    },
-    {
-      "dow": 5,
-      "hour": 8,
-      "trips": 8687,
-      "year": 2023
-    },
-    {
-      "dow": 5,
-      "hour": 9,
-      "trips": 6922,
-      "year": 2023
-    },
-    {
-      "dow": 5,
-      "hour": 10,
-      "trips": 6911,
-      "year": 2023
-    },
-    {
-      "dow": 5,
-      "hour": 11,
-      "trips": 8316,
-      "year": 2023
-    },
-    {
-      "dow": 5,
-      "hour": 12,
-      "trips": 10051,
-      "year": 2023
-    },
-    {
-      "dow": 5,
-      "hour": 13,
-      "trips": 10446,
-      "year": 2023
-    },
-    {
-      "dow": 5,
-      "hour": 14,
-      "trips": 9194,
-      "year": 2023
-    },
-    {
-      "dow": 5,
-      "hour": 15,
-      "trips": 10035,
-      "year": 2023
-    },
-    {
-      "dow": 5,
-      "hour": 16,
-      "trips": 11258,
-      "year": 2023
-    },
-    {
-      "dow": 5,
-      "hour": 17,
-      "trips": 12844,
-      "year": 2023
-    },
-    {
-      "dow": 5,
-      "hour": 18,
-      "trips": 11341,
-      "year": 2023
-    },
-    {
-      "dow": 5,
-      "hour": 19,
-      "trips": 9660,
-      "year": 2023
-    },
-    {
-      "dow": 5,
-      "hour": 20,
-      "trips": 8897,
-      "year": 2023
-    },
-    {
-      "dow": 5,
-      "hour": 21,
-      "trips": 6880,
-      "year": 2023
-    },
-    {
-      "dow": 5,
-      "hour": 22,
-      "trips": 4406,
-      "year": 2023
-    },
-    {
-      "dow": 5,
-      "hour": 23,
-      "trips": 3263,
-      "year": 2023
-    },
-    {
-      "dow": 6,
-      "hour": 0,
-      "trips": 2871,
-      "year": 2023
-    },
-    {
-      "dow": 6,
-      "hour": 1,
-      "trips": 2235,
-      "year": 2023
-    },
-    {
-      "dow": 6,
-      "hour": 2,
-      "trips": 1476,
-      "year": 2023
-    },
-    {
-      "dow": 6,
-      "hour": 3,
-      "trips": 999,
-      "year": 2023
-    },
-    {
-      "dow": 6,
-      "hour": 4,
-      "trips": 754,
-      "year": 2023
-    },
-    {
-      "dow": 6,
-      "hour": 5,
-      "trips": 1132,
-      "year": 2023
-    },
-    {
-      "dow": 6,
-      "hour": 6,
-      "trips": 1607,
-      "year": 2023
-    },
-    {
-      "dow": 6,
-      "hour": 7,
-      "trips": 2813,
-      "year": 2023
-    },
-    {
-      "dow": 6,
-      "hour": 8,
-      "trips": 5166,
-      "year": 2023
-    },
-    {
-      "dow": 6,
-      "hour": 9,
-      "trips": 5446,
-      "year": 2023
-    },
-    {
-      "dow": 6,
-      "hour": 10,
-      "trips": 6420,
-      "year": 2023
-    },
-    {
-      "dow": 6,
-      "hour": 11,
-      "trips": 7316,
-      "year": 2023
-    },
-    {
-      "dow": 6,
-      "hour": 12,
-      "trips": 8455,
-      "year": 2023
-    },
-    {
-      "dow": 6,
-      "hour": 13,
-      "trips": 8692,
-      "year": 2023
-    },
-    {
-      "dow": 6,
-      "hour": 14,
-      "trips": 7194,
-      "year": 2023
-    },
-    {
-      "dow": 6,
-      "hour": 15,
-      "trips": 7790,
-      "year": 2023
-    },
-    {
-      "dow": 6,
-      "hour": 16,
-      "trips": 8754,
-      "year": 2023
-    },
-    {
-      "dow": 6,
-      "hour": 17,
-      "trips": 8987,
-      "year": 2023
-    },
-    {
-      "dow": 6,
-      "hour": 18,
-      "trips": 9214,
-      "year": 2023
-    },
-    {
-      "dow": 6,
-      "hour": 19,
-      "trips": 8867,
-      "year": 2023
-    },
-    {
-      "dow": 6,
-      "hour": 20,
-      "trips": 7881,
-      "year": 2023
-    },
-    {
-      "dow": 6,
-      "hour": 21,
-      "trips": 6637,
-      "year": 2023
-    },
-    {
-      "dow": 6,
-      "hour": 22,
-      "trips": 4582,
-      "year": 2023
-    },
-    {
-      "dow": 6,
-      "hour": 23,
-      "trips": 3601,
-      "year": 2023
-    },
-    {
-      "dow": 7,
-      "hour": 0,
-      "trips": 3264,
-      "year": 2023
-    },
-    {
-      "dow": 7,
-      "hour": 1,
-      "trips": 2728,
-      "year": 2023
-    },
-    {
-      "dow": 7,
-      "hour": 2,
-      "trips": 1850,
-      "year": 2023
-    },
-    {
-      "dow": 7,
-      "hour": 3,
-      "trips": 1261,
-      "year": 2023
-    },
-    {
-      "dow": 7,
-      "hour": 4,
-      "trips": 994,
-      "year": 2023
-    },
-    {
-      "dow": 7,
-      "hour": 5,
-      "trips": 1290,
-      "year": 2023
-    },
-    {
-      "dow": 7,
-      "hour": 6,
-      "trips": 1258,
-      "year": 2023
-    },
-    {
-      "dow": 7,
-      "hour": 7,
-      "trips": 1489,
-      "year": 2023
-    },
-    {
-      "dow": 7,
-      "hour": 8,
-      "trips": 3106,
-      "year": 2023
-    },
-    {
-      "dow": 7,
-      "hour": 9,
-      "trips": 5819,
-      "year": 2023
-    },
-    {
-      "dow": 7,
-      "hour": 10,
-      "trips": 8605,
-      "year": 2023
-    },
-    {
-      "dow": 7,
-      "hour": 11,
-      "trips": 9921,
-      "year": 2023
-    },
-    {
-      "dow": 7,
-      "hour": 12,
-      "trips": 8320,
-      "year": 2023
-    },
-    {
-      "dow": 7,
-      "hour": 13,
-      "trips": 6479,
-      "year": 2023
-    },
-    {
-      "dow": 7,
-      "hour": 14,
-      "trips": 5657,
-      "year": 2023
-    },
-    {
-      "dow": 7,
-      "hour": 15,
-      "trips": 6754,
-      "year": 2023
-    },
-    {
-      "dow": 7,
-      "hour": 16,
-      "trips": 8010,
-      "year": 2023
-    },
-    {
-      "dow": 7,
-      "hour": 17,
-      "trips": 8631,
-      "year": 2023
-    },
-    {
-      "dow": 7,
-      "hour": 18,
-      "trips": 8503,
-      "year": 2023
-    },
-    {
-      "dow": 7,
-      "hour": 19,
-      "trips": 8072,
-      "year": 2023
-    },
-    {
-      "dow": 7,
-      "hour": 20,
-      "trips": 7103,
-      "year": 2023
-    },
-    {
-      "dow": 7,
-      "hour": 21,
-      "trips": 5340,
-      "year": 2023
-    },
-    {
-      "dow": 7,
-      "hour": 22,
-      "trips": 3765,
-      "year": 2023
-    },
-    {
-      "dow": 7,
-      "hour": 23,
-      "trips": 2960,
-      "year": 2023
-    },
-    {
-      "dow": 1,
-      "hour": 0,
-      "trips": 593,
-      "year": 2024
-    },
-    {
-      "dow": 1,
-      "hour": 1,
-      "trips": 287,
-      "year": 2024
-    },
-    {
-      "dow": 1,
-      "hour": 2,
-      "trips": 139,
-      "year": 2024
-    },
-    {
-      "dow": 1,
-      "hour": 3,
-      "trips": 97,
-      "year": 2024
-    },
-    {
-      "dow": 1,
-      "hour": 4,
-      "trips": 94,
-      "year": 2024
-    },
-    {
-      "dow": 1,
-      "hour": 5,
-      "trips": 294,
-      "year": 2024
-    },
-    {
-      "dow": 1,
-      "hour": 6,
-      "trips": 887,
-      "year": 2024
-    },
-    {
-      "dow": 1,
-      "hour": 7,
-      "trips": 2180,
-      "year": 2024
-    },
-    {
-      "dow": 1,
-      "hour": 8,
-      "trips": 2332,
-      "year": 2024
-    },
-    {
-      "dow": 1,
-      "hour": 9,
-      "trips": 1655,
-      "year": 2024
-    },
-    {
-      "dow": 1,
-      "hour": 10,
-      "trips": 1743,
-      "year": 2024
-    },
-    {
-      "dow": 1,
-      "hour": 11,
-      "trips": 2076,
-      "year": 2024
-    },
-    {
-      "dow": 1,
-      "hour": 12,
-      "trips": 2312,
-      "year": 2024
-    },
-    {
-      "dow": 1,
-      "hour": 13,
-      "trips": 2438,
-      "year": 2024
-    },
-    {
-      "dow": 1,
-      "hour": 14,
-      "trips": 2290,
-      "year": 2024
-    },
-    {
-      "dow": 1,
-      "hour": 15,
-      "trips": 2544,
-      "year": 2024
-    },
-    {
-      "dow": 1,
-      "hour": 16,
-      "trips": 3066,
-      "year": 2024
-    },
-    {
-      "dow": 1,
-      "hour": 17,
-      "trips": 3633,
-      "year": 2024
-    },
-    {
-      "dow": 1,
-      "hour": 18,
-      "trips": 3399,
-      "year": 2024
-    },
-    {
-      "dow": 1,
-      "hour": 19,
-      "trips": 3325,
-      "year": 2024
-    },
-    {
-      "dow": 1,
-      "hour": 20,
-      "trips": 2950,
-      "year": 2024
-    },
-    {
-      "dow": 1,
-      "hour": 21,
-      "trips": 2073,
-      "year": 2024
-    },
-    {
-      "dow": 1,
-      "hour": 22,
-      "trips": 1097,
-      "year": 2024
-    },
-    {
-      "dow": 1,
-      "hour": 23,
-      "trips": 702,
-      "year": 2024
-    },
-    {
-      "dow": 2,
-      "hour": 0,
-      "trips": 524,
-      "year": 2024
-    },
-    {
-      "dow": 2,
-      "hour": 1,
-      "trips": 223,
-      "year": 2024
-    },
-    {
-      "dow": 2,
-      "hour": 2,
-      "trips": 111,
-      "year": 2024
-    },
-    {
-      "dow": 2,
-      "hour": 3,
-      "trips": 65,
-      "year": 2024
-    },
-    {
-      "dow": 2,
-      "hour": 4,
-      "trips": 74,
-      "year": 2024
-    },
-    {
-      "dow": 2,
-      "hour": 5,
-      "trips": 291,
-      "year": 2024
-    },
-    {
-      "dow": 2,
-      "hour": 6,
-      "trips": 979,
-      "year": 2024
-    },
-    {
-      "dow": 2,
-      "hour": 7,
-      "trips": 2547,
-      "year": 2024
-    },
-    {
-      "dow": 2,
-      "hour": 8,
-      "trips": 2631,
-      "year": 2024
-    },
-    {
-      "dow": 2,
-      "hour": 9,
-      "trips": 2091,
-      "year": 2024
-    },
-    {
-      "dow": 2,
-      "hour": 10,
-      "trips": 2012,
-      "year": 2024
-    },
-    {
-      "dow": 2,
-      "hour": 11,
-      "trips": 2351,
-      "year": 2024
-    },
-    {
-      "dow": 2,
-      "hour": 12,
-      "trips": 2947,
-      "year": 2024
-    },
-    {
-      "dow": 2,
-      "hour": 13,
-      "trips": 2995,
-      "year": 2024
-    },
-    {
-      "dow": 2,
-      "hour": 14,
-      "trips": 2787,
-      "year": 2024
-    },
-    {
-      "dow": 2,
-      "hour": 15,
-      "trips": 2926,
-      "year": 2024
-    },
-    {
-      "dow": 2,
-      "hour": 16,
-      "trips": 3544,
-      "year": 2024
-    },
-    {
-      "dow": 2,
-      "hour": 17,
-      "trips": 4037,
-      "year": 2024
-    },
-    {
-      "dow": 2,
-      "hour": 18,
-      "trips": 3792,
-      "year": 2024
-    },
-    {
-      "dow": 2,
-      "hour": 19,
-      "trips": 3459,
-      "year": 2024
-    },
-    {
-      "dow": 2,
-      "hour": 20,
-      "trips": 3088,
-      "year": 2024
-    },
-    {
-      "dow": 2,
-      "hour": 21,
-      "trips": 2232,
-      "year": 2024
-    },
-    {
-      "dow": 2,
-      "hour": 22,
-      "trips": 1267,
-      "year": 2024
-    },
-    {
-      "dow": 2,
-      "hour": 23,
-      "trips": 800,
-      "year": 2024
-    },
-    {
-      "dow": 3,
-      "hour": 0,
-      "trips": 646,
-      "year": 2024
-    },
-    {
-      "dow": 3,
-      "hour": 1,
-      "trips": 267,
-      "year": 2024
-    },
-    {
-      "dow": 3,
-      "hour": 2,
-      "trips": 122,
-      "year": 2024
-    },
-    {
-      "dow": 3,
-      "hour": 3,
-      "trips": 58,
-      "year": 2024
-    },
-    {
-      "dow": 3,
-      "hour": 4,
-      "trips": 93,
-      "year": 2024
-    },
-    {
-      "dow": 3,
-      "hour": 5,
-      "trips": 350,
-      "year": 2024
-    },
-    {
-      "dow": 3,
-      "hour": 6,
-      "trips": 1062,
-      "year": 2024
-    },
-    {
-      "dow": 3,
-      "hour": 7,
-      "trips": 2683,
-      "year": 2024
-    },
-    {
-      "dow": 3,
-      "hour": 8,
-      "trips": 2807,
-      "year": 2024
-    },
-    {
-      "dow": 3,
-      "hour": 9,
-      "trips": 2010,
-      "year": 2024
-    },
-    {
-      "dow": 3,
-      "hour": 10,
-      "trips": 2041,
-      "year": 2024
-    },
-    {
-      "dow": 3,
-      "hour": 11,
-      "trips": 2376,
-      "year": 2024
-    },
-    {
-      "dow": 3,
-      "hour": 12,
-      "trips": 2785,
-      "year": 2024
-    },
-    {
-      "dow": 3,
-      "hour": 13,
-      "trips": 2758,
-      "year": 2024
-    },
-    {
-      "dow": 3,
-      "hour": 14,
-      "trips": 2623,
-      "year": 2024
-    },
-    {
-      "dow": 3,
-      "hour": 15,
-      "trips": 2656,
-      "year": 2024
-    },
-    {
-      "dow": 3,
-      "hour": 16,
-      "trips": 3260,
-      "year": 2024
-    },
-    {
-      "dow": 3,
-      "hour": 17,
-      "trips": 3876,
-      "year": 2024
-    },
-    {
-      "dow": 3,
-      "hour": 18,
-      "trips": 3426,
-      "year": 2024
-    },
-    {
-      "dow": 3,
-      "hour": 19,
-      "trips": 3207,
-      "year": 2024
-    },
-    {
-      "dow": 3,
-      "hour": 20,
-      "trips": 2974,
-      "year": 2024
-    },
-    {
-      "dow": 3,
-      "hour": 21,
-      "trips": 2149,
-      "year": 2024
-    },
-    {
-      "dow": 3,
-      "hour": 22,
-      "trips": 1217,
-      "year": 2024
-    },
-    {
-      "dow": 3,
-      "hour": 23,
-      "trips": 878,
-      "year": 2024
-    },
-    {
-      "dow": 4,
-      "hour": 0,
-      "trips": 591,
-      "year": 2024
-    },
-    {
-      "dow": 4,
-      "hour": 1,
-      "trips": 322,
-      "year": 2024
-    },
-    {
-      "dow": 4,
-      "hour": 2,
-      "trips": 150,
-      "year": 2024
-    },
-    {
-      "dow": 4,
-      "hour": 3,
-      "trips": 94,
-      "year": 2024
-    },
-    {
-      "dow": 4,
-      "hour": 4,
-      "trips": 89,
-      "year": 2024
-    },
-    {
-      "dow": 4,
-      "hour": 5,
-      "trips": 338,
-      "year": 2024
-    },
-    {
-      "dow": 4,
-      "hour": 6,
-      "trips": 970,
-      "year": 2024
-    },
-    {
-      "dow": 4,
-      "hour": 7,
-      "trips": 2532,
-      "year": 2024
-    },
-    {
-      "dow": 4,
-      "hour": 8,
-      "trips": 2850,
-      "year": 2024
-    },
-    {
-      "dow": 4,
-      "hour": 9,
-      "trips": 2098,
-      "year": 2024
-    },
-    {
-      "dow": 4,
-      "hour": 10,
-      "trips": 1941,
-      "year": 2024
-    },
-    {
-      "dow": 4,
-      "hour": 11,
-      "trips": 2323,
-      "year": 2024
-    },
-    {
-      "dow": 4,
-      "hour": 12,
-      "trips": 2805,
-      "year": 2024
-    },
-    {
-      "dow": 4,
-      "hour": 13,
-      "trips": 2671,
-      "year": 2024
-    },
-    {
-      "dow": 4,
-      "hour": 14,
-      "trips": 2581,
-      "year": 2024
-    },
-    {
-      "dow": 4,
-      "hour": 15,
-      "trips": 2676,
-      "year": 2024
-    },
-    {
-      "dow": 4,
-      "hour": 16,
-      "trips": 3265,
-      "year": 2024
-    },
-    {
-      "dow": 4,
-      "hour": 17,
-      "trips": 3841,
-      "year": 2024
-    },
-    {
-      "dow": 4,
-      "hour": 18,
-      "trips": 3565,
-      "year": 2024
-    },
-    {
-      "dow": 4,
-      "hour": 19,
-      "trips": 3215,
-      "year": 2024
-    },
-    {
-      "dow": 4,
-      "hour": 20,
-      "trips": 3152,
-      "year": 2024
-    },
-    {
-      "dow": 4,
-      "hour": 21,
-      "trips": 2095,
-      "year": 2024
-    },
-    {
-      "dow": 4,
-      "hour": 22,
-      "trips": 1284,
-      "year": 2024
-    },
-    {
-      "dow": 4,
-      "hour": 23,
-      "trips": 883,
-      "year": 2024
-    },
-    {
-      "dow": 5,
-      "hour": 0,
-      "trips": 690,
-      "year": 2024
-    },
-    {
-      "dow": 5,
-      "hour": 1,
-      "trips": 361,
-      "year": 2024
-    },
-    {
-      "dow": 5,
-      "hour": 2,
-      "trips": 144,
-      "year": 2024
-    },
-    {
-      "dow": 5,
-      "hour": 3,
-      "trips": 84,
-      "year": 2024
-    },
-    {
-      "dow": 5,
-      "hour": 4,
-      "trips": 93,
-      "year": 2024
-    },
-    {
-      "dow": 5,
-      "hour": 5,
-      "trips": 288,
-      "year": 2024
-    },
-    {
-      "dow": 5,
-      "hour": 6,
-      "trips": 885,
-      "year": 2024
-    },
-    {
-      "dow": 5,
-      "hour": 7,
-      "trips": 2192,
-      "year": 2024
-    },
-    {
-      "dow": 5,
-      "hour": 8,
-      "trips": 2549,
-      "year": 2024
-    },
-    {
-      "dow": 5,
-      "hour": 9,
-      "trips": 1935,
-      "year": 2024
-    },
-    {
-      "dow": 5,
-      "hour": 10,
-      "trips": 1933,
-      "year": 2024
-    },
-    {
-      "dow": 5,
-      "hour": 11,
-      "trips": 2520,
-      "year": 2024
-    },
-    {
-      "dow": 5,
-      "hour": 12,
-      "trips": 2876,
-      "year": 2024
-    },
-    {
-      "dow": 5,
-      "hour": 13,
-      "trips": 2992,
-      "year": 2024
-    },
-    {
-      "dow": 5,
-      "hour": 14,
-      "trips": 2609,
-      "year": 2024
-    },
-    {
-      "dow": 5,
-      "hour": 15,
-      "trips": 2706,
-      "year": 2024
-    },
-    {
-      "dow": 5,
-      "hour": 16,
-      "trips": 3136,
-      "year": 2024
-    },
-    {
-      "dow": 5,
-      "hour": 17,
-      "trips": 3520,
-      "year": 2024
-    },
-    {
-      "dow": 5,
-      "hour": 18,
-      "trips": 2966,
-      "year": 2024
-    },
-    {
-      "dow": 5,
-      "hour": 19,
-      "trips": 2877,
-      "year": 2024
-    },
-    {
-      "dow": 5,
-      "hour": 20,
-      "trips": 2784,
-      "year": 2024
-    },
-    {
-      "dow": 5,
-      "hour": 21,
-      "trips": 2045,
-      "year": 2024
-    },
-    {
-      "dow": 5,
-      "hour": 22,
-      "trips": 1366,
-      "year": 2024
-    },
-    {
-      "dow": 5,
-      "hour": 23,
-      "trips": 1002,
-      "year": 2024
-    },
-    {
-      "dow": 6,
-      "hour": 0,
-      "trips": 766,
-      "year": 2024
-    },
-    {
-      "dow": 6,
-      "hour": 1,
-      "trips": 637,
-      "year": 2024
-    },
-    {
-      "dow": 6,
-      "hour": 2,
-      "trips": 355,
-      "year": 2024
-    },
-    {
-      "dow": 6,
-      "hour": 3,
-      "trips": 204,
-      "year": 2024
-    },
-    {
-      "dow": 6,
-      "hour": 4,
-      "trips": 151,
-      "year": 2024
-    },
-    {
-      "dow": 6,
-      "hour": 5,
-      "trips": 259,
-      "year": 2024
-    },
-    {
-      "dow": 6,
-      "hour": 6,
-      "trips": 361,
-      "year": 2024
-    },
-    {
-      "dow": 6,
-      "hour": 7,
-      "trips": 723,
-      "year": 2024
-    },
-    {
-      "dow": 6,
-      "hour": 8,
-      "trips": 1330,
-      "year": 2024
-    },
-    {
-      "dow": 6,
-      "hour": 9,
-      "trips": 1422,
-      "year": 2024
-    },
-    {
-      "dow": 6,
-      "hour": 10,
-      "trips": 1772,
-      "year": 2024
-    },
-    {
-      "dow": 6,
-      "hour": 11,
-      "trips": 1946,
-      "year": 2024
-    },
-    {
-      "dow": 6,
-      "hour": 12,
-      "trips": 2292,
-      "year": 2024
-    },
-    {
-      "dow": 6,
-      "hour": 13,
-      "trips": 2239,
-      "year": 2024
-    },
-    {
-      "dow": 6,
-      "hour": 14,
-      "trips": 1784,
-      "year": 2024
-    },
-    {
-      "dow": 6,
-      "hour": 15,
-      "trips": 1674,
-      "year": 2024
-    },
-    {
-      "dow": 6,
-      "hour": 16,
-      "trips": 1928,
-      "year": 2024
-    },
-    {
-      "dow": 6,
-      "hour": 17,
-      "trips": 2048,
-      "year": 2024
-    },
-    {
-      "dow": 6,
-      "hour": 18,
-      "trips": 2232,
-      "year": 2024
-    },
-    {
-      "dow": 6,
-      "hour": 19,
-      "trips": 2507,
-      "year": 2024
-    },
-    {
-      "dow": 6,
-      "hour": 20,
-      "trips": 2368,
-      "year": 2024
-    },
-    {
-      "dow": 6,
-      "hour": 21,
-      "trips": 1819,
-      "year": 2024
-    },
-    {
-      "dow": 6,
-      "hour": 22,
-      "trips": 1270,
-      "year": 2024
-    },
-    {
-      "dow": 6,
-      "hour": 23,
-      "trips": 1032,
-      "year": 2024
-    },
-    {
-      "dow": 7,
-      "hour": 0,
-      "trips": 793,
-      "year": 2024
-    },
-    {
-      "dow": 7,
-      "hour": 1,
-      "trips": 595,
-      "year": 2024
-    },
-    {
-      "dow": 7,
-      "hour": 2,
-      "trips": 383,
-      "year": 2024
-    },
-    {
-      "dow": 7,
-      "hour": 3,
-      "trips": 258,
-      "year": 2024
-    },
-    {
-      "dow": 7,
-      "hour": 4,
-      "trips": 223,
-      "year": 2024
-    },
-    {
-      "dow": 7,
-      "hour": 5,
-      "trips": 247,
-      "year": 2024
-    },
-    {
-      "dow": 7,
-      "hour": 6,
-      "trips": 271,
-      "year": 2024
-    },
-    {
-      "dow": 7,
-      "hour": 7,
-      "trips": 397,
-      "year": 2024
-    },
-    {
-      "dow": 7,
-      "hour": 8,
-      "trips": 840,
-      "year": 2024
-    },
-    {
-      "dow": 7,
-      "hour": 9,
-      "trips": 1628,
-      "year": 2024
-    },
-    {
-      "dow": 7,
-      "hour": 10,
-      "trips": 2290,
-      "year": 2024
-    },
-    {
-      "dow": 7,
-      "hour": 11,
-      "trips": 2487,
-      "year": 2024
-    },
-    {
-      "dow": 7,
-      "hour": 12,
-      "trips": 1944,
-      "year": 2024
     },
     {
-      "dow": 7,
-      "hour": 13,
-      "trips": 1526,
-      "year": 2024
-    },
-    {
-      "dow": 7,
-      "hour": 14,
-      "trips": 1277,
-      "year": 2024
+      "band": "<5",
+      "share": 0.0376,
+      "trips": 35194,
+      "year": 2025
     },
     {
-      "dow": 7,
-      "hour": 15,
-      "trips": 1442,
-      "year": 2024
+      "band": "5-15",
+      "share": 0.378,
+      "trips": 353952,
+      "year": 2025
     },
     {
-      "dow": 7,
-      "hour": 16,
-      "trips": 1754,
-      "year": 2024
+      "band": "15-30",
+      "share": 0.3181,
+      "trips": 297873,
+      "year": 2025
     },
     {
-      "dow": 7,
-      "hour": 17,
-      "trips": 1962,
-      "year": 2024
+      "band": "30-60",
+      "share": 0.1767,
+      "trips": 165453,
+      "year": 2025
     },
     {
-      "dow": 7,
-      "hour": 18,
-      "trips": 2172,
-      "year": 2024
+      "band": "60+",
+      "share": 0.0897,
+      "trips": 83953,
+      "year": 2025
     },
     {
-      "dow": 7,
-      "hour": 19,
-      "trips": 2215,
-      "year": 2024
+      "band": "<5",
+      "share": 0.0325,
+      "trips": 17130,
+      "year": 2026
     },
     {
-      "dow": 7,
-      "hour": 20,
-      "trips": 1974,
-      "year": 2024
+      "band": "5-15",
+      "share": 0.3641,
+      "trips": 191813,
+      "year": 2026
     },
     {
-      "dow": 7,
-      "hour": 21,
-      "trips": 1583,
-      "year": 2024
+      "band": "15-30",
+      "share": 0.3176,
+      "trips": 167338,
+      "year": 2026
     },
     {
-      "dow": 7,
-      "hour": 22,
-      "trips": 1169,
-      "year": 2024
+      "band": "30-60",
+      "share": 0.1923,
+      "trips": 101315,
+      "year": 2026
     },
     {
-      "dow": 7,
-      "hour": 23,
-      "trips": 739,
-      "year": 2024
+      "band": "60+",
+      "share": 0.0935,
+      "trips": 49289,
+      "year": 2026
     }
   ],
   "round_trip_share": [
@@ -7197,10 +1517,22 @@
       "year": 2023
     },
     {
-      "round_trip_share": 0.0733,
-      "round_trips": 21301,
-      "trips": 290475,
+      "round_trip_share": 0.0707,
+      "round_trips": 56946,
+      "trips": 805927,
       "year": 2024
+    },
+    {
+      "round_trip_share": 0.0811,
+      "round_trips": 75932,
+      "trips": 936425,
+      "year": 2025
+    },
+    {
+      "round_trip_share": 0.086,
+      "round_trips": 45335,
+      "trips": 526885,
+      "year": 2026
     }
   ],
   "stations": [
@@ -8005,7 +2337,7 @@
     {
       "end_trips": 40976,
       "start_trips": 42035,
-      "station": "Plaza Lï¿½pez",
+      "station": "Plaza López",
       "total_trips": 83011,
       "year": 2021
     },
@@ -8019,21 +2351,21 @@
     {
       "end_trips": 38910,
       "start_trips": 38291,
-      "station": "Plaza Cooperaciï¿½n",
+      "station": "Plaza Cooperación",
       "total_trips": 77201,
       "year": 2021
     },
     {
       "end_trips": 34532,
       "start_trips": 37742,
-      "station": "Fac. Ciencias Econï¿½micas",
+      "station": "Fac. Ciencias Económicas",
       "total_trips": 72274,
       "year": 2021
     },
     {
       "end_trips": 36006,
       "start_trips": 35201,
-      "station": "Fac. de Ingenierï¿½a",
+      "station": "Fac. de Ingeniería",
       "total_trips": 71207,
       "year": 2021
     },
@@ -8068,7 +2400,7 @@
     {
       "end_trips": 30130,
       "start_trips": 32210,
-      "station": "Plaza San Martï¿½n",
+      "station": "Plaza San Martín",
       "total_trips": 62340,
       "year": 2021
     },
@@ -8152,7 +2484,7 @@
     {
       "end_trips": 22214,
       "start_trips": 21489,
-      "station": "Pueyrredï¿½n",
+      "station": "Pueyrredón",
       "total_trips": 43703,
       "year": 2021
     },
@@ -8201,7 +2533,7 @@
     {
       "end_trips": 15528,
       "start_trips": 16724,
-      "station": "Repï¿½blica de la Sexta",
+      "station": "República de la Sexta",
       "total_trips": 32252,
       "year": 2021
     },
@@ -8243,14 +2575,14 @@
     {
       "end_trips": 13847,
       "start_trips": 13977,
-      "station": "Avellaneda y Cï¿½rdoba",
+      "station": "Avellaneda y Córdoba",
       "total_trips": 27824,
       "year": 2021
     },
     {
       "end_trips": 13971,
       "start_trips": 13707,
-      "station": "Parque Hipï¿½lito Yrigoyen II",
+      "station": "Parque Hipólito Yrigoyen II",
       "total_trips": 27678,
       "year": 2021
     },
@@ -8271,14 +2603,14 @@
     {
       "end_trips": 13037,
       "start_trips": 11051,
-      "station": "Parque Espaï¿½a",
+      "station": "Parque España",
       "total_trips": 24088,
       "year": 2021
     },
     {
       "end_trips": 12360,
       "start_trips": 11439,
-      "station": "Refinerï¿½a",
+      "station": "Refinería",
       "total_trips": 23799,
       "year": 2021
     },
@@ -8292,7 +2624,7 @@
     {
       "end_trips": 11446,
       "start_trips": 10813,
-      "station": "Oroï¿½o y Segui",
+      "station": "Oroño y Segui",
       "total_trips": 22259,
       "year": 2021
     },
@@ -8313,7 +2645,7 @@
     {
       "end_trips": 9063,
       "start_trips": 10035,
-      "station": "Parque Hipï¿½lito Yrigoyen",
+      "station": "Parque Hipólito Yrigoyen",
       "total_trips": 19098,
       "year": 2021
     },
@@ -8334,7 +2666,7 @@
     {
       "end_trips": 8966,
       "start_trips": 8452,
-      "station": "Plaza Eva Duarte de Perï¿½n",
+      "station": "Plaza Eva Duarte de Perón",
       "total_trips": 17418,
       "year": 2021
     },
@@ -8404,7 +2736,7 @@
     {
       "end_trips": 3029,
       "start_trips": 2958,
-      "station": "Plaza Azcuï¿½naga",
+      "station": "Plaza Azcuénaga",
       "total_trips": 5987,
       "year": 2021
     },
@@ -8460,7 +2792,7 @@
     {
       "end_trips": 1596,
       "start_trips": 1596,
-      "station": "Provincias Unidas y Eva Perï¿½n",
+      "station": "Provincias Unidas y Eva Perón",
       "total_trips": 3192,
       "year": 2021
     },
@@ -8474,7 +2806,7 @@
     {
       "end_trips": 1134,
       "start_trips": 1064,
-      "station": "Rondeau y Martï¿½n Fierro",
+      "station": "Rondeau y Martín Fierro",
       "total_trips": 2198,
       "year": 2021
     },
@@ -8488,28 +2820,28 @@
     {
       "end_trips": 1068,
       "start_trips": 958,
-      "station": "Rondeau y Ricardo Nï¿½ï¿½ez",
+      "station": "Rondeau y Ricardo Núñez",
       "total_trips": 2026,
       "year": 2021
     },
     {
       "end_trips": 98,
       "start_trips": 97,
-      "station": "Estaciï¿½n mï¿½vil 01",
+      "station": "Estación móvil 01",
       "total_trips": 195,
       "year": 2021
     },
     {
       "end_trips": 6,
       "start_trips": 7,
-      "station": "Estaciï¿½n mï¿½vil 02",
+      "station": "Estación móvil 02",
       "total_trips": 13,
       "year": 2021
     },
     {
       "end_trips": 1,
       "start_trips": 1,
-      "station": "Estaciï¿½n de Prueba",
+      "station": "Estación de Prueba",
       "total_trips": 2,
       "year": 2021
     },
@@ -9662,24 +3994,227 @@
       "year": 2023
     },
     {
-      "end_trips": 10491,
-      "start_trips": 10891,
-      "station": "Paseo Pellegrini",
-      "total_trips": 21382,
-      "year": 2024
-    },
-    {
-      "end_trips": 9843,
-      "start_trips": 10802,
+      "end_trips": 28219,
+      "start_trips": 30986,
       "station": "Plaza Sarmiento",
-      "total_trips": 20645,
+      "total_trips": 59205,
       "year": 2024
     },
     {
-      "end_trips": 9051,
-      "start_trips": 10479,
+      "end_trips": 27805,
+      "start_trips": 29167,
+      "station": "Paseo Pellegrini",
+      "total_trips": 56972,
+      "year": 2024
+    },
+    {
+      "end_trips": 23975,
+      "start_trips": 27348,
       "station": "Terminal",
-      "total_trips": 19530,
+      "total_trips": 51323,
+      "year": 2024
+    },
+    {
+      "end_trips": 21661,
+      "start_trips": 22077,
+      "station": "Fac. Medicina",
+      "total_trips": 43738,
+      "year": 2024
+    },
+    {
+      "end_trips": 21279,
+      "start_trips": 21609,
+      "station": "Paseo Pellegrini II",
+      "total_trips": 42888,
+      "year": 2024
+    },
+    {
+      "end_trips": 19745,
+      "start_trips": 20275,
+      "station": "Plaza Montenegro",
+      "total_trips": 40020,
+      "year": 2024
+    },
+    {
+      "end_trips": 19678,
+      "start_trips": 19323,
+      "station": "Plaza Pringles",
+      "total_trips": 39001,
+      "year": 2024
+    },
+    {
+      "end_trips": 17531,
+      "start_trips": 17543,
+      "station": "Distrito Centro",
+      "total_trips": 35074,
+      "year": 2024
+    },
+    {
+      "end_trips": 17554,
+      "start_trips": 17323,
+      "station": "Plaza Suecia",
+      "total_trips": 34877,
+      "year": 2024
+    },
+    {
+      "end_trips": 17114,
+      "start_trips": 17396,
+      "station": "Abasto",
+      "total_trips": 34510,
+      "year": 2024
+    },
+    {
+      "end_trips": 16008,
+      "start_trips": 17525,
+      "station": "Museo Castagnino",
+      "total_trips": 33533,
+      "year": 2024
+    },
+    {
+      "end_trips": 17050,
+      "start_trips": 15849,
+      "station": "Estadio Municipal",
+      "total_trips": 32899,
+      "year": 2024
+    },
+    {
+      "end_trips": 15902,
+      "start_trips": 16481,
+      "station": "Plaza Lpez",
+      "total_trips": 32383,
+      "year": 2024
+    },
+    {
+      "end_trips": 14852,
+      "start_trips": 16159,
+      "station": "Gimnasio UNR",
+      "total_trips": 31011,
+      "year": 2024
+    },
+    {
+      "end_trips": 14620,
+      "start_trips": 16342,
+      "station": "Plaza 25 de Mayo",
+      "total_trips": 30962,
+      "year": 2024
+    },
+    {
+      "end_trips": 15293,
+      "start_trips": 15122,
+      "station": "Pichincha",
+      "total_trips": 30415,
+      "year": 2024
+    },
+    {
+      "end_trips": 14898,
+      "start_trips": 15261,
+      "station": "HECA / UCA",
+      "total_trips": 30159,
+      "year": 2024
+    },
+    {
+      "end_trips": 14783,
+      "start_trips": 15159,
+      "station": "Parque Independencia II",
+      "total_trips": 29942,
+      "year": 2024
+    },
+    {
+      "end_trips": 14574,
+      "start_trips": 15105,
+      "station": "Pichincha II",
+      "total_trips": 29679,
+      "year": 2024
+    },
+    {
+      "end_trips": 14696,
+      "start_trips": 14512,
+      "station": "Barrio Martin",
+      "total_trips": 29208,
+      "year": 2024
+    },
+    {
+      "end_trips": 14358,
+      "start_trips": 14386,
+      "station": "Barrio Lourdes",
+      "total_trips": 28744,
+      "year": 2024
+    },
+    {
+      "end_trips": 13902,
+      "start_trips": 14044,
+      "station": "CC Echesortu",
+      "total_trips": 27946,
+      "year": 2024
+    },
+    {
+      "end_trips": 12723,
+      "start_trips": 13351,
+      "station": "Fac. Ciencias Econmicas",
+      "total_trips": 26074,
+      "year": 2024
+    },
+    {
+      "end_trips": 12345,
+      "start_trips": 12778,
+      "station": "Plaza San Martn",
+      "total_trips": 25123,
+      "year": 2024
+    },
+    {
+      "end_trips": 12503,
+      "start_trips": 11504,
+      "station": "Alto Rosario",
+      "total_trips": 24007,
+      "year": 2024
+    },
+    {
+      "end_trips": 11864,
+      "start_trips": 11955,
+      "station": "Plaza Cooperacin",
+      "total_trips": 23819,
+      "year": 2024
+    },
+    {
+      "end_trips": 11385,
+      "start_trips": 11223,
+      "station": "Fac. de Ingeniera",
+      "total_trips": 22608,
+      "year": 2024
+    },
+    {
+      "end_trips": 11138,
+      "start_trips": 11453,
+      "station": "Barrio Hospitales",
+      "total_trips": 22591,
+      "year": 2024
+    },
+    {
+      "end_trips": 10801,
+      "start_trips": 11158,
+      "station": "Plaza Gral. Toribio de Luzuriaga",
+      "total_trips": 21959,
+      "year": 2024
+    },
+    {
+      "end_trips": 9931,
+      "start_trips": 10532,
+      "station": "CC Echesortu II",
+      "total_trips": 20463,
+      "year": 2024
+    },
+    {
+      "end_trips": 10549,
+      "start_trips": 9095,
+      "station": "Parque Independencia I",
+      "total_trips": 19644,
+      "year": 2024
+    },
+    {
+      "end_trips": 9578,
+      "start_trips": 9557,
+      "station": "Pueyrredn",
+      "total_trips": 19135,
       "year": 2024
     },
     {
@@ -9690,24 +4225,52 @@
       "year": 2024
     },
     {
-      "end_trips": 7987,
-      "start_trips": 8260,
-      "station": "Fac. Medicina",
-      "total_trips": 16247,
+      "end_trips": 9587,
+      "start_trips": 8921,
+      "station": "Club Provincial",
+      "total_trips": 18508,
       "year": 2024
     },
     {
-      "end_trips": 8005,
-      "start_trips": 8052,
-      "station": "Paseo Pellegrini II",
-      "total_trips": 16057,
+      "end_trips": 8819,
+      "start_trips": 9221,
+      "station": "Barrio Agote",
+      "total_trips": 18040,
       "year": 2024
     },
     {
-      "end_trips": 7217,
-      "start_trips": 7395,
-      "station": "Plaza Montenegro",
-      "total_trips": 14612,
+      "end_trips": 8217,
+      "start_trips": 8947,
+      "station": "Repblica de la Sexta",
+      "total_trips": 17164,
+      "year": 2024
+    },
+    {
+      "end_trips": 9064,
+      "start_trips": 7959,
+      "station": "Pellegrini y Avellaneda",
+      "total_trips": 17023,
+      "year": 2024
+    },
+    {
+      "end_trips": 7813,
+      "start_trips": 8309,
+      "station": "Puerto Norte",
+      "total_trips": 16122,
+      "year": 2024
+    },
+    {
+      "end_trips": 7833,
+      "start_trips": 7028,
+      "station": "Lagos y Segui",
+      "total_trips": 14861,
+      "year": 2024
+    },
+    {
+      "end_trips": 7949,
+      "start_trips": 6903,
+      "station": "Barrio Parque",
+      "total_trips": 14852,
       "year": 2024
     },
     {
@@ -9718,24 +4281,10 @@
       "year": 2024
     },
     {
-      "end_trips": 7385,
-      "start_trips": 7091,
-      "station": "Plaza Pringles",
-      "total_trips": 14476,
-      "year": 2024
-    },
-    {
       "end_trips": 7176,
       "start_trips": 7178,
       "station": "Plaza Cooperación",
       "total_trips": 14354,
-      "year": 2024
-    },
-    {
-      "end_trips": 7267,
-      "start_trips": 7025,
-      "station": "Plaza Suecia",
-      "total_trips": 14292,
       "year": 2024
     },
     {
@@ -9746,6 +4295,13 @@
       "year": 2024
     },
     {
+      "end_trips": 6952,
+      "start_trips": 6577,
+      "station": "Barrio Matheu",
+      "total_trips": 13529,
+      "year": 2024
+    },
+    {
       "end_trips": 6758,
       "start_trips": 6560,
       "station": "Fac. de Ingeniería",
@@ -9753,87 +4309,45 @@
       "year": 2024
     },
     {
-      "end_trips": 6543,
-      "start_trips": 6610,
-      "station": "Distrito Centro",
-      "total_trips": 13153,
+      "end_trips": 6658,
+      "start_trips": 5755,
+      "station": "Monumento Nacional a la Bandera",
+      "total_trips": 12413,
       "year": 2024
     },
     {
-      "end_trips": 6238,
-      "start_trips": 6622,
-      "station": "Gimnasio UNR",
-      "total_trips": 12860,
+      "end_trips": 6231,
+      "start_trips": 6021,
+      "station": "Parque Hiplito Yrigoyen II",
+      "total_trips": 12252,
       "year": 2024
     },
     {
-      "end_trips": 6070,
-      "start_trips": 6304,
-      "station": "Abasto",
-      "total_trips": 12374,
+      "end_trips": 5995,
+      "start_trips": 5632,
+      "station": "Avellaneda y Crdoba",
+      "total_trips": 11627,
       "year": 2024
     },
     {
-      "end_trips": 5739,
-      "start_trips": 6360,
-      "station": "Plaza 25 de Mayo",
-      "total_trips": 12099,
+      "end_trips": 5996,
+      "start_trips": 5429,
+      "station": "Oroo y Segui",
+      "total_trips": 11425,
       "year": 2024
     },
     {
-      "end_trips": 6043,
-      "start_trips": 5612,
-      "station": "Estadio Municipal",
-      "total_trips": 11655,
+      "end_trips": 5111,
+      "start_trips": 5603,
+      "station": "Parque de la Arenera",
+      "total_trips": 10714,
       "year": 2024
     },
     {
-      "end_trips": 5473,
-      "start_trips": 6002,
-      "station": "Museo Castagnino",
-      "total_trips": 11475,
-      "year": 2024
-    },
-    {
-      "end_trips": 5561,
-      "start_trips": 5788,
-      "station": "Pichincha II",
-      "total_trips": 11349,
-      "year": 2024
-    },
-    {
-      "end_trips": 5603,
-      "start_trips": 5614,
-      "station": "HECA / UCA",
-      "total_trips": 11217,
-      "year": 2024
-    },
-    {
-      "end_trips": 5489,
-      "start_trips": 5423,
-      "station": "Barrio Lourdes",
-      "total_trips": 10912,
-      "year": 2024
-    },
-    {
-      "end_trips": 5358,
-      "start_trips": 5415,
-      "station": "CC Echesortu",
-      "total_trips": 10773,
-      "year": 2024
-    },
-    {
-      "end_trips": 5357,
-      "start_trips": 5395,
-      "station": "Barrio Martin",
-      "total_trips": 10752,
-      "year": 2024
-    },
-    {
-      "end_trips": 5135,
-      "start_trips": 5298,
-      "station": "Parque Independencia II",
-      "total_trips": 10433,
+      "end_trips": 5653,
+      "start_trips": 4939,
+      "station": "Lisandro de la Torre",
+      "total_trips": 10592,
       "year": 2024
     },
     {
@@ -9851,52 +4365,94 @@
       "year": 2024
     },
     {
-      "end_trips": 4374,
-      "start_trips": 4016,
-      "station": "Alto Rosario",
-      "total_trips": 8390,
+      "end_trips": 4692,
+      "start_trips": 4420,
+      "station": "Parque Espaa",
+      "total_trips": 9112,
       "year": 2024
     },
     {
-      "end_trips": 4028,
-      "start_trips": 4131,
-      "station": "Plaza Gral. Toribio de Luzuriaga",
-      "total_trips": 8159,
+      "end_trips": 4828,
+      "start_trips": 4180,
+      "station": "Cuatro Plazas",
+      "total_trips": 9008,
       "year": 2024
     },
     {
-      "end_trips": 3846,
-      "start_trips": 3891,
-      "station": "Barrio Hospitales",
-      "total_trips": 7737,
+      "end_trips": 4781,
+      "start_trips": 4191,
+      "station": "Cinco esquinas",
+      "total_trips": 8972,
       "year": 2024
     },
     {
-      "end_trips": 3726,
-      "start_trips": 3853,
-      "station": "CC Echesortu II",
-      "total_trips": 7579,
+      "end_trips": 4913,
+      "start_trips": 4036,
+      "station": "Bella Vista",
+      "total_trips": 8949,
       "year": 2024
     },
     {
-      "end_trips": 3736,
-      "start_trips": 3360,
-      "station": "Club Provincial",
-      "total_trips": 7096,
+      "end_trips": 4765,
+      "start_trips": 4165,
+      "station": "Refinera",
+      "total_trips": 8930,
       "year": 2024
     },
     {
-      "end_trips": 3657,
-      "start_trips": 3333,
-      "station": "Parque Independencia I",
-      "total_trips": 6990,
+      "end_trips": 4567,
+      "start_trips": 4290,
+      "station": "Distrito Sur",
+      "total_trips": 8857,
       "year": 2024
     },
     {
-      "end_trips": 3609,
-      "start_trips": 3257,
-      "station": "Pellegrini y Avellaneda",
-      "total_trips": 6866,
+      "end_trips": 4525,
+      "start_trips": 4264,
+      "station": "La Rambla",
+      "total_trips": 8789,
+      "year": 2024
+    },
+    {
+      "end_trips": 4595,
+      "start_trips": 3786,
+      "station": "Arroyito",
+      "total_trips": 8381,
+      "year": 2024
+    },
+    {
+      "end_trips": 3955,
+      "start_trips": 3993,
+      "station": "Rosario Norte",
+      "total_trips": 7948,
+      "year": 2024
+    },
+    {
+      "end_trips": 3747,
+      "start_trips": 4167,
+      "station": "Parque Hiplito Yrigoyen",
+      "total_trips": 7914,
+      "year": 2024
+    },
+    {
+      "end_trips": 3934,
+      "start_trips": 3682,
+      "station": "Plaza Eva Duarte de Pern",
+      "total_trips": 7616,
+      "year": 2024
+    },
+    {
+      "end_trips": 3690,
+      "start_trips": 3738,
+      "station": "Mendoza y Sucre",
+      "total_trips": 7428,
+      "year": 2024
+    },
+    {
+      "end_trips": 3725,
+      "start_trips": 3356,
+      "station": "Mendoza y Magallanes",
+      "total_trips": 7081,
       "year": 2024
     },
     {
@@ -9907,10 +4463,17 @@
       "year": 2024
     },
     {
-      "end_trips": 3263,
-      "start_trips": 3335,
-      "station": "Barrio Agote",
-      "total_trips": 6598,
+      "end_trips": 3403,
+      "start_trips": 3241,
+      "station": "Ciudad Univ. I",
+      "total_trips": 6644,
+      "year": 2024
+    },
+    {
+      "end_trips": 3646,
+      "start_trips": 2831,
+      "station": "Distrito Oeste",
+      "total_trips": 6477,
       "year": 2024
     },
     {
@@ -9921,13 +4484,6 @@
       "year": 2024
     },
     {
-      "end_trips": 2988,
-      "start_trips": 3138,
-      "station": "Puerto Norte",
-      "total_trips": 6126,
-      "year": 2024
-    },
-    {
       "end_trips": 3179,
       "start_trips": 2944,
       "station": "Oroño y Segui",
@@ -9935,24 +4491,52 @@
       "year": 2024
     },
     {
-      "end_trips": 2937,
-      "start_trips": 2871,
-      "station": "Pichincha",
-      "total_trips": 5808,
+      "end_trips": 2997,
+      "start_trips": 2903,
+      "station": " San Martn y Quintana",
+      "total_trips": 5900,
       "year": 2024
     },
     {
-      "end_trips": 2932,
-      "start_trips": 2453,
-      "station": "Lagos y Segui",
-      "total_trips": 5385,
+      "end_trips": 2969,
+      "start_trips": 2413,
+      "station": "Parque Alem",
+      "total_trips": 5382,
       "year": 2024
     },
     {
-      "end_trips": 2749,
-      "start_trips": 2439,
-      "station": "Barrio Parque",
-      "total_trips": 5188,
+      "end_trips": 2704,
+      "start_trips": 2604,
+      "station": "San Martn y Cabildo",
+      "total_trips": 5308,
+      "year": 2024
+    },
+    {
+      "end_trips": 2629,
+      "start_trips": 2655,
+      "station": "Plaza Azcunaga",
+      "total_trips": 5284,
+      "year": 2024
+    },
+    {
+      "end_trips": 2614,
+      "start_trips": 2645,
+      "station": "Plaza Alberdi",
+      "total_trips": 5259,
+      "year": 2024
+    },
+    {
+      "end_trips": 2734,
+      "start_trips": 2523,
+      "station": "O'Higgins",
+      "total_trips": 5257,
+      "year": 2024
+    },
+    {
+      "end_trips": 2657,
+      "start_trips": 2483,
+      "station": "Portal Rosario",
+      "total_trips": 5140,
       "year": 2024
     },
     {
@@ -9970,10 +4554,17 @@
       "year": 2024
     },
     {
-      "end_trips": 2382,
-      "start_trips": 2349,
-      "station": "Barrio Matheu",
-      "total_trips": 4731,
+      "end_trips": 2493,
+      "start_trips": 2237,
+      "station": "Provincias Unidas y Eva Pern",
+      "total_trips": 4730,
+      "year": 2024
+    },
+    {
+      "end_trips": 2296,
+      "start_trips": 2375,
+      "station": "San Martn y Regimiento 11",
+      "total_trips": 4671,
       "year": 2024
     },
     {
@@ -9984,6 +4575,20 @@
       "year": 2024
     },
     {
+      "end_trips": 2333,
+      "start_trips": 2029,
+      "station": "La Florida",
+      "total_trips": 4362,
+      "year": 2024
+    },
+    {
+      "end_trips": 2180,
+      "start_trips": 2085,
+      "station": "Las Heras",
+      "total_trips": 4265,
+      "year": 2024
+    },
+    {
       "end_trips": 2038,
       "start_trips": 2017,
       "station": "Plaza Eva Duarte de Perón",
@@ -9991,31 +4596,38 @@
       "year": 2024
     },
     {
-      "end_trips": 2164,
-      "start_trips": 1886,
-      "station": "Lisandro de la Torre",
-      "total_trips": 4050,
+      "end_trips": 1952,
+      "start_trips": 2053,
+      "station": "Pueyrredn y Tucumn",
+      "total_trips": 4005,
       "year": 2024
     },
     {
-      "end_trips": 2118,
-      "start_trips": 1852,
-      "station": "Monumento Nacional a la Bandera",
-      "total_trips": 3970,
+      "end_trips": 1910,
+      "start_trips": 2009,
+      "station": "Polo Tecnolgico",
+      "total_trips": 3919,
       "year": 2024
     },
     {
-      "end_trips": 1804,
-      "start_trips": 2059,
-      "station": "Parque de la Arenera",
-      "total_trips": 3863,
+      "end_trips": 2349,
+      "start_trips": 1455,
+      "station": "Rondeau y Sorrento",
+      "total_trips": 3804,
       "year": 2024
     },
     {
-      "end_trips": 1945,
-      "start_trips": 1680,
-      "station": "Arroyito",
-      "total_trips": 3625,
+      "end_trips": 1981,
+      "start_trips": 1718,
+      "station": "Distrito Noroeste",
+      "total_trips": 3699,
+      "year": 2024
+    },
+    {
+      "end_trips": 1694,
+      "start_trips": 1963,
+      "station": "Ciudad Univ. II",
+      "total_trips": 3657,
       "year": 2024
     },
     {
@@ -10026,13 +4638,6 @@
       "year": 2024
     },
     {
-      "end_trips": 1889,
-      "start_trips": 1695,
-      "station": "Cuatro Plazas",
-      "total_trips": 3584,
-      "year": 2024
-    },
-    {
       "end_trips": 1701,
       "start_trips": 1701,
       "station": "Plaza Azcuénaga",
@@ -10040,38 +4645,31 @@
       "year": 2024
     },
     {
-      "end_trips": 1773,
-      "start_trips": 1570,
-      "station": "La Rambla",
-      "total_trips": 3343,
+      "end_trips": 1650,
+      "start_trips": 1720,
+      "station": "San Martn y Arijn",
+      "total_trips": 3370,
       "year": 2024
     },
     {
-      "end_trips": 1676,
-      "start_trips": 1525,
-      "station": "Cinco esquinas",
-      "total_trips": 3201,
+      "end_trips": 1875,
+      "start_trips": 1426,
+      "station": "De la Resistencia",
+      "total_trips": 3301,
       "year": 2024
     },
     {
-      "end_trips": 1570,
-      "start_trips": 1450,
-      "station": "Distrito Sur",
-      "total_trips": 3020,
+      "end_trips": 1548,
+      "start_trips": 1533,
+      "station": "Rondeau y Ricardo Nez",
+      "total_trips": 3081,
       "year": 2024
     },
     {
-      "end_trips": 1697,
-      "start_trips": 1321,
-      "station": "Bella Vista",
-      "total_trips": 3018,
-      "year": 2024
-    },
-    {
-      "end_trips": 1485,
-      "start_trips": 1502,
-      "station": "Rosario Norte",
-      "total_trips": 2987,
+      "end_trips": 1431,
+      "start_trips": 1630,
+      "station": "PAMI II",
+      "total_trips": 3061,
       "year": 2024
     },
     {
@@ -10082,10 +4680,24 @@
       "year": 2024
     },
     {
-      "end_trips": 1363,
-      "start_trips": 1374,
-      "station": "Mendoza y Sucre",
-      "total_trips": 2737,
+      "end_trips": 1489,
+      "start_trips": 1427,
+      "station": "Rondeau y Washington",
+      "total_trips": 2916,
+      "year": 2024
+    },
+    {
+      "end_trips": 1535,
+      "start_trips": 1377,
+      "station": "La Guardia",
+      "total_trips": 2912,
+      "year": 2024
+    },
+    {
+      "end_trips": 1408,
+      "start_trips": 1384,
+      "station": "Oroo y Omb",
+      "total_trips": 2792,
       "year": 2024
     },
     {
@@ -10103,24 +4715,17 @@
       "year": 2024
     },
     {
-      "end_trips": 1340,
-      "start_trips": 1194,
-      "station": "Mendoza y Magallanes",
-      "total_trips": 2534,
+      "end_trips": 1437,
+      "start_trips": 1110,
+      "station": "Ayacucho y Arijn",
+      "total_trips": 2547,
       "year": 2024
     },
     {
-      "end_trips": 1197,
-      "start_trips": 976,
-      "station": "Distrito Oeste",
-      "total_trips": 2173,
-      "year": 2024
-    },
-    {
-      "end_trips": 1190,
-      "start_trips": 944,
-      "station": "Parque Alem",
-      "total_trips": 2134,
+      "end_trips": 1163,
+      "start_trips": 1034,
+      "station": "Rondeau y Martn Fierro",
+      "total_trips": 2197,
       "year": 2024
     },
     {
@@ -10131,38 +4736,10 @@
       "year": 2024
     },
     {
-      "end_trips": 1015,
-      "start_trips": 1020,
-      "station": "Portal Rosario",
-      "total_trips": 2035,
-      "year": 2024
-    },
-    {
-      "end_trips": 984,
-      "start_trips": 963,
-      "station": "O'Higgins",
-      "total_trips": 1947,
-      "year": 2024
-    },
-    {
-      "end_trips": 905,
-      "start_trips": 825,
-      "station": "Ciudad Univ. I",
-      "total_trips": 1730,
-      "year": 2024
-    },
-    {
-      "end_trips": 913,
-      "start_trips": 812,
-      "station": "La Florida",
-      "total_trips": 1725,
-      "year": 2024
-    },
-    {
-      "end_trips": 869,
-      "start_trips": 842,
-      "station": "Las Heras",
-      "total_trips": 1711,
+      "end_trips": 980,
+      "start_trips": 982,
+      "station": "Costa Alta",
+      "total_trips": 1962,
       "year": 2024
     },
     {
@@ -10180,17 +4757,17 @@
       "year": 2024
     },
     {
-      "end_trips": 821,
-      "start_trips": 841,
-      "station": "Plaza Alberdi",
-      "total_trips": 1662,
+      "end_trips": 906,
+      "start_trips": 715,
+      "station": "Distrito Sudoeste",
+      "total_trips": 1621,
       "year": 2024
     },
     {
-      "end_trips": 698,
-      "start_trips": 557,
-      "station": "Distrito Noroeste",
-      "total_trips": 1255,
+      "end_trips": 634,
+      "start_trips": 614,
+      "station": "Estacin mvil 01",
+      "total_trips": 1248,
       "year": 2024
     },
     {
@@ -10201,52 +4778,10 @@
       "year": 2024
     },
     {
-      "end_trips": 688,
-      "start_trips": 525,
-      "station": "De la Resistencia",
-      "total_trips": 1213,
-      "year": 2024
-    },
-    {
-      "end_trips": 588,
-      "start_trips": 624,
-      "station": "Ciudad Univ. II",
-      "total_trips": 1212,
-      "year": 2024
-    },
-    {
-      "end_trips": 807,
-      "start_trips": 383,
-      "station": "Rondeau y Sorrento",
-      "total_trips": 1190,
-      "year": 2024
-    },
-    {
       "end_trips": 638,
       "start_trips": 546,
       "station": "Ayacucho y Arijón",
       "total_trips": 1184,
-      "year": 2024
-    },
-    {
-      "end_trips": 538,
-      "start_trips": 640,
-      "station": "PAMI II",
-      "total_trips": 1178,
-      "year": 2024
-    },
-    {
-      "end_trips": 588,
-      "start_trips": 527,
-      "station": "Rondeau y Washington",
-      "total_trips": 1115,
-      "year": 2024
-    },
-    {
-      "end_trips": 351,
-      "start_trips": 381,
-      "station": "Costa Alta",
-      "total_trips": 732,
       "year": 2024
     },
     {
@@ -10257,11 +4792,1383 @@
       "year": 2024
     },
     {
+      "end_trips": 3,
+      "start_trips": 0,
+      "station": "Estacin mvil 02",
+      "total_trips": 3,
+      "year": 2024
+    },
+    {
       "end_trips": 2,
       "start_trips": 0,
       "station": "Pueyrredón y Tucumán",
       "total_trips": 2,
       "year": 2024
+    },
+    {
+      "end_trips": 1,
+      "start_trips": 0,
+      "station": "Diagonales",
+      "total_trips": 1,
+      "year": 2024
+    },
+    {
+      "end_trips": 33943,
+      "start_trips": 36063,
+      "station": "Plaza Sarmiento",
+      "total_trips": 70006,
+      "year": 2025
+    },
+    {
+      "end_trips": 31540,
+      "start_trips": 33106,
+      "station": "Paseo Pellegrini",
+      "total_trips": 64646,
+      "year": 2025
+    },
+    {
+      "end_trips": 27516,
+      "start_trips": 28299,
+      "station": "Plaza Lpez",
+      "total_trips": 55815,
+      "year": 2025
+    },
+    {
+      "end_trips": 26452,
+      "start_trips": 28324,
+      "station": "Terminal",
+      "total_trips": 54776,
+      "year": 2025
+    },
+    {
+      "end_trips": 26273,
+      "start_trips": 26378,
+      "station": "Fac. Medicina",
+      "total_trips": 52651,
+      "year": 2025
+    },
+    {
+      "end_trips": 24392,
+      "start_trips": 24492,
+      "station": "Plaza Montenegro",
+      "total_trips": 48884,
+      "year": 2025
+    },
+    {
+      "end_trips": 23600,
+      "start_trips": 23362,
+      "station": "Plaza Cooperacin",
+      "total_trips": 46962,
+      "year": 2025
+    },
+    {
+      "end_trips": 22093,
+      "start_trips": 23661,
+      "station": "Plaza San Martn",
+      "total_trips": 45754,
+      "year": 2025
+    },
+    {
+      "end_trips": 21562,
+      "start_trips": 23463,
+      "station": "Fac. Ciencias Econmicas",
+      "total_trips": 45025,
+      "year": 2025
+    },
+    {
+      "end_trips": 21802,
+      "start_trips": 22640,
+      "station": "Paseo Pellegrini II",
+      "total_trips": 44442,
+      "year": 2025
+    },
+    {
+      "end_trips": 21783,
+      "start_trips": 22022,
+      "station": "Fac. de Ingeniera",
+      "total_trips": 43805,
+      "year": 2025
+    },
+    {
+      "end_trips": 20657,
+      "start_trips": 20913,
+      "station": "Pichincha",
+      "total_trips": 41570,
+      "year": 2025
+    },
+    {
+      "end_trips": 19958,
+      "start_trips": 21378,
+      "station": "Museo Castagnino",
+      "total_trips": 41336,
+      "year": 2025
+    },
+    {
+      "end_trips": 19325,
+      "start_trips": 19981,
+      "station": "Pueyrredn",
+      "total_trips": 39306,
+      "year": 2025
+    },
+    {
+      "end_trips": 19338,
+      "start_trips": 19259,
+      "station": "Distrito Centro",
+      "total_trips": 38597,
+      "year": 2025
+    },
+    {
+      "end_trips": 18982,
+      "start_trips": 18696,
+      "station": "Plaza Pringles",
+      "total_trips": 37678,
+      "year": 2025
+    },
+    {
+      "end_trips": 19200,
+      "start_trips": 18332,
+      "station": "Plaza Suecia",
+      "total_trips": 37532,
+      "year": 2025
+    },
+    {
+      "end_trips": 18361,
+      "start_trips": 19066,
+      "station": "Abasto",
+      "total_trips": 37427,
+      "year": 2025
+    },
+    {
+      "end_trips": 17434,
+      "start_trips": 17459,
+      "station": "Parque Independencia II",
+      "total_trips": 34893,
+      "year": 2025
+    },
+    {
+      "end_trips": 17100,
+      "start_trips": 17419,
+      "station": "HECA / UCA",
+      "total_trips": 34519,
+      "year": 2025
+    },
+    {
+      "end_trips": 16135,
+      "start_trips": 16382,
+      "station": "Barrio Martin",
+      "total_trips": 32517,
+      "year": 2025
+    },
+    {
+      "end_trips": 16346,
+      "start_trips": 14331,
+      "station": "Estadio Municipal",
+      "total_trips": 30677,
+      "year": 2025
+    },
+    {
+      "end_trips": 14530,
+      "start_trips": 16009,
+      "station": "Gimnasio UNR",
+      "total_trips": 30539,
+      "year": 2025
+    },
+    {
+      "end_trips": 14222,
+      "start_trips": 14959,
+      "station": "Repblica de la Sexta",
+      "total_trips": 29181,
+      "year": 2025
+    },
+    {
+      "end_trips": 13972,
+      "start_trips": 14465,
+      "station": "CC Echesortu",
+      "total_trips": 28437,
+      "year": 2025
+    },
+    {
+      "end_trips": 13268,
+      "start_trips": 14031,
+      "station": "Pichincha II",
+      "total_trips": 27299,
+      "year": 2025
+    },
+    {
+      "end_trips": 13104,
+      "start_trips": 13502,
+      "station": "Plaza Gral. Toribio de Luzuriaga",
+      "total_trips": 26606,
+      "year": 2025
+    },
+    {
+      "end_trips": 13507,
+      "start_trips": 12612,
+      "station": "Parque Independencia I",
+      "total_trips": 26119,
+      "year": 2025
+    },
+    {
+      "end_trips": 12426,
+      "start_trips": 12250,
+      "station": "Alto Rosario",
+      "total_trips": 24676,
+      "year": 2025
+    },
+    {
+      "end_trips": 11736,
+      "start_trips": 12503,
+      "station": "Barrio Hospitales",
+      "total_trips": 24239,
+      "year": 2025
+    },
+    {
+      "end_trips": 12147,
+      "start_trips": 11958,
+      "station": "Parque Hiplito Yrigoyen II",
+      "total_trips": 24105,
+      "year": 2025
+    },
+    {
+      "end_trips": 11812,
+      "start_trips": 11986,
+      "station": "CC Echesortu II",
+      "total_trips": 23798,
+      "year": 2025
+    },
+    {
+      "end_trips": 10658,
+      "start_trips": 10847,
+      "station": "Barrio Agote",
+      "total_trips": 21505,
+      "year": 2025
+    },
+    {
+      "end_trips": 10893,
+      "start_trips": 9595,
+      "station": "Monumento Nacional a la Bandera",
+      "total_trips": 20488,
+      "year": 2025
+    },
+    {
+      "end_trips": 10245,
+      "start_trips": 9563,
+      "station": "Oroo y Segui",
+      "total_trips": 19808,
+      "year": 2025
+    },
+    {
+      "end_trips": 9894,
+      "start_trips": 9907,
+      "station": "Avellaneda y Crdoba",
+      "total_trips": 19801,
+      "year": 2025
+    },
+    {
+      "end_trips": 9341,
+      "start_trips": 10333,
+      "station": "Plaza 25 de Mayo",
+      "total_trips": 19674,
+      "year": 2025
+    },
+    {
+      "end_trips": 10066,
+      "start_trips": 9562,
+      "station": "Club Provincial",
+      "total_trips": 19628,
+      "year": 2025
+    },
+    {
+      "end_trips": 9432,
+      "start_trips": 8433,
+      "station": "Pellegrini y Avellaneda",
+      "total_trips": 17865,
+      "year": 2025
+    },
+    {
+      "end_trips": 9468,
+      "start_trips": 8391,
+      "station": "Parque Espaa",
+      "total_trips": 17859,
+      "year": 2025
+    },
+    {
+      "end_trips": 9243,
+      "start_trips": 8582,
+      "station": "Barrio Parque",
+      "total_trips": 17825,
+      "year": 2025
+    },
+    {
+      "end_trips": 8431,
+      "start_trips": 9044,
+      "station": "Puerto Norte",
+      "total_trips": 17475,
+      "year": 2025
+    },
+    {
+      "end_trips": 7906,
+      "start_trips": 8845,
+      "station": "Pueyrredn y Tucumn",
+      "total_trips": 16751,
+      "year": 2025
+    },
+    {
+      "end_trips": 8387,
+      "start_trips": 7669,
+      "station": "Refinera",
+      "total_trips": 16056,
+      "year": 2025
+    },
+    {
+      "end_trips": 7941,
+      "start_trips": 7995,
+      "station": "Parque Hiplito Yrigoyen",
+      "total_trips": 15936,
+      "year": 2025
+    },
+    {
+      "end_trips": 8241,
+      "start_trips": 7295,
+      "station": "Lagos y Segui",
+      "total_trips": 15536,
+      "year": 2025
+    },
+    {
+      "end_trips": 7643,
+      "start_trips": 7155,
+      "station": "Plaza Eva Duarte de Pern",
+      "total_trips": 14798,
+      "year": 2025
+    },
+    {
+      "end_trips": 7196,
+      "start_trips": 6744,
+      "station": "Barrio Matheu",
+      "total_trips": 13940,
+      "year": 2025
+    },
+    {
+      "end_trips": 6693,
+      "start_trips": 7229,
+      "station": "Parque de la Arenera",
+      "total_trips": 13922,
+      "year": 2025
+    },
+    {
+      "end_trips": 6748,
+      "start_trips": 6969,
+      "station": "Buenos Aires y 9 de Julio",
+      "total_trips": 13717,
+      "year": 2025
+    },
+    {
+      "end_trips": 6753,
+      "start_trips": 6605,
+      "station": "Oroo y Omb",
+      "total_trips": 13358,
+      "year": 2025
+    },
+    {
+      "end_trips": 6777,
+      "start_trips": 6386,
+      "station": "Distrito Sur",
+      "total_trips": 13163,
+      "year": 2025
+    },
+    {
+      "end_trips": 6295,
+      "start_trips": 6177,
+      "station": "La Guardia",
+      "total_trips": 12472,
+      "year": 2025
+    },
+    {
+      "end_trips": 5860,
+      "start_trips": 6203,
+      "station": " San Martn y Quintana",
+      "total_trips": 12063,
+      "year": 2025
+    },
+    {
+      "end_trips": 6034,
+      "start_trips": 5923,
+      "station": "Bella Vista",
+      "total_trips": 11957,
+      "year": 2025
+    },
+    {
+      "end_trips": 5707,
+      "start_trips": 5390,
+      "station": "Diagonales",
+      "total_trips": 11097,
+      "year": 2025
+    },
+    {
+      "end_trips": 5660,
+      "start_trips": 5347,
+      "station": "San Martn y Cabildo",
+      "total_trips": 11007,
+      "year": 2025
+    },
+    {
+      "end_trips": 5618,
+      "start_trips": 5114,
+      "station": "Distrito Sudoeste",
+      "total_trips": 10732,
+      "year": 2025
+    },
+    {
+      "end_trips": 5730,
+      "start_trips": 4992,
+      "station": "Cuatro Plazas",
+      "total_trips": 10722,
+      "year": 2025
+    },
+    {
+      "end_trips": 5510,
+      "start_trips": 4892,
+      "station": "Lisandro de la Torre",
+      "total_trips": 10402,
+      "year": 2025
+    },
+    {
+      "end_trips": 5386,
+      "start_trips": 4985,
+      "station": "La Rambla",
+      "total_trips": 10371,
+      "year": 2025
+    },
+    {
+      "end_trips": 4662,
+      "start_trips": 4748,
+      "station": "Mendoza y Sucre",
+      "total_trips": 9410,
+      "year": 2025
+    },
+    {
+      "end_trips": 4579,
+      "start_trips": 4483,
+      "station": "San Martn y Regimiento 11",
+      "total_trips": 9062,
+      "year": 2025
+    },
+    {
+      "end_trips": 4636,
+      "start_trips": 4212,
+      "station": "O'Higgins",
+      "total_trips": 8848,
+      "year": 2025
+    },
+    {
+      "end_trips": 4484,
+      "start_trips": 4195,
+      "station": "Rosario Norte",
+      "total_trips": 8679,
+      "year": 2025
+    },
+    {
+      "end_trips": 4523,
+      "start_trips": 3836,
+      "station": "Arroyito",
+      "total_trips": 8359,
+      "year": 2025
+    },
+    {
+      "end_trips": 3923,
+      "start_trips": 4113,
+      "station": "Ciudad Univ. I",
+      "total_trips": 8036,
+      "year": 2025
+    },
+    {
+      "end_trips": 4290,
+      "start_trips": 3111,
+      "station": "Distrito Oeste",
+      "total_trips": 7401,
+      "year": 2025
+    },
+    {
+      "end_trips": 4110,
+      "start_trips": 3010,
+      "station": "Cinco esquinas",
+      "total_trips": 7120,
+      "year": 2025
+    },
+    {
+      "end_trips": 3631,
+      "start_trips": 3368,
+      "station": "Provincias Unidas y Eva Pern",
+      "total_trips": 6999,
+      "year": 2025
+    },
+    {
+      "end_trips": 3259,
+      "start_trips": 3550,
+      "station": "San Martn y Arijn",
+      "total_trips": 6809,
+      "year": 2025
+    },
+    {
+      "end_trips": 3520,
+      "start_trips": 3265,
+      "station": "Polo Tecnolgico",
+      "total_trips": 6785,
+      "year": 2025
+    },
+    {
+      "end_trips": 3702,
+      "start_trips": 3055,
+      "station": "Parque Alem",
+      "total_trips": 6757,
+      "year": 2025
+    },
+    {
+      "end_trips": 3546,
+      "start_trips": 3169,
+      "station": "Ayacucho y Arijn",
+      "total_trips": 6715,
+      "year": 2025
+    },
+    {
+      "end_trips": 3553,
+      "start_trips": 3138,
+      "station": "Mendoza y Magallanes",
+      "total_trips": 6691,
+      "year": 2025
+    },
+    {
+      "end_trips": 3317,
+      "start_trips": 3194,
+      "station": "Plaza Azcunaga",
+      "total_trips": 6511,
+      "year": 2025
+    },
+    {
+      "end_trips": 3075,
+      "start_trips": 2727,
+      "station": "Distrito Noroeste",
+      "total_trips": 5802,
+      "year": 2025
+    },
+    {
+      "end_trips": 2802,
+      "start_trips": 2941,
+      "station": "Plaza Alberdi",
+      "total_trips": 5743,
+      "year": 2025
+    },
+    {
+      "end_trips": 2857,
+      "start_trips": 2818,
+      "station": "Las Heras",
+      "total_trips": 5675,
+      "year": 2025
+    },
+    {
+      "end_trips": 2904,
+      "start_trips": 2562,
+      "station": "Portal Rosario",
+      "total_trips": 5466,
+      "year": 2025
+    },
+    {
+      "end_trips": 2641,
+      "start_trips": 2476,
+      "station": "De la Resistencia",
+      "total_trips": 5117,
+      "year": 2025
+    },
+    {
+      "end_trips": 2780,
+      "start_trips": 2300,
+      "station": "La Florida",
+      "total_trips": 5080,
+      "year": 2025
+    },
+    {
+      "end_trips": 2525,
+      "start_trips": 2399,
+      "station": "San Martn y Uriburu",
+      "total_trips": 4924,
+      "year": 2025
+    },
+    {
+      "end_trips": 2484,
+      "start_trips": 2355,
+      "station": "Rondeau y Washington",
+      "total_trips": 4839,
+      "year": 2025
+    },
+    {
+      "end_trips": 2457,
+      "start_trips": 2345,
+      "station": "Barrio Lourdes",
+      "total_trips": 4802,
+      "year": 2025
+    },
+    {
+      "end_trips": 2322,
+      "start_trips": 2466,
+      "station": "PAMI II",
+      "total_trips": 4788,
+      "year": 2025
+    },
+    {
+      "end_trips": 2417,
+      "start_trips": 2145,
+      "station": "Rondeau y Sorrento",
+      "total_trips": 4562,
+      "year": 2025
+    },
+    {
+      "end_trips": 2139,
+      "start_trips": 2136,
+      "station": "Rondeau y Ricardo Nez",
+      "total_trips": 4275,
+      "year": 2025
+    },
+    {
+      "end_trips": 1765,
+      "start_trips": 1987,
+      "station": "Ciudad Univ. II",
+      "total_trips": 3752,
+      "year": 2025
+    },
+    {
+      "end_trips": 1912,
+      "start_trips": 1829,
+      "station": "Rondeau y Martn Fierro",
+      "total_trips": 3741,
+      "year": 2025
+    },
+    {
+      "end_trips": 1342,
+      "start_trips": 1448,
+      "station": "Costa Alta",
+      "total_trips": 2790,
+      "year": 2025
+    },
+    {
+      "end_trips": 1388,
+      "start_trips": 1210,
+      "station": "Uriburu y Rodriguez",
+      "total_trips": 2598,
+      "year": 2025
+    },
+    {
+      "end_trips": 596,
+      "start_trips": 361,
+      "station": "Estacin mvil 01",
+      "total_trips": 957,
+      "year": 2025
+    },
+    {
+      "end_trips": 11,
+      "start_trips": 0,
+      "station": "Estacin mvil 02",
+      "total_trips": 11,
+      "year": 2025
+    },
+    {
+      "end_trips": 1,
+      "start_trips": 0,
+      "station": "Estacin de Prueba",
+      "total_trips": 1,
+      "year": 2025
+    },
+    {
+      "end_trips": 18701,
+      "start_trips": 19567,
+      "station": "Paseo Pellegrini",
+      "total_trips": 38268,
+      "year": 2026
+    },
+    {
+      "end_trips": 17324,
+      "start_trips": 18387,
+      "station": "Plaza Sarmiento",
+      "total_trips": 35711,
+      "year": 2026
+    },
+    {
+      "end_trips": 13885,
+      "start_trips": 14082,
+      "station": "Fac. de Ingeniería",
+      "total_trips": 27967,
+      "year": 2026
+    },
+    {
+      "end_trips": 13776,
+      "start_trips": 14032,
+      "station": "Plaza López",
+      "total_trips": 27808,
+      "year": 2026
+    },
+    {
+      "end_trips": 13045,
+      "start_trips": 13609,
+      "station": "Terminal",
+      "total_trips": 26654,
+      "year": 2026
+    },
+    {
+      "end_trips": 12658,
+      "start_trips": 13356,
+      "station": "Fac. Ciencias Económicas",
+      "total_trips": 26014,
+      "year": 2026
+    },
+    {
+      "end_trips": 12861,
+      "start_trips": 12669,
+      "station": "Plaza Cooperación",
+      "total_trips": 25530,
+      "year": 2026
+    },
+    {
+      "end_trips": 12625,
+      "start_trips": 12792,
+      "station": "Plaza Pringles",
+      "total_trips": 25417,
+      "year": 2026
+    },
+    {
+      "end_trips": 11957,
+      "start_trips": 12825,
+      "station": "Plaza San Martín",
+      "total_trips": 24782,
+      "year": 2026
+    },
+    {
+      "end_trips": 12261,
+      "start_trips": 12189,
+      "station": "Pichincha",
+      "total_trips": 24450,
+      "year": 2026
+    },
+    {
+      "end_trips": 11826,
+      "start_trips": 12320,
+      "station": "Plaza Montenegro",
+      "total_trips": 24146,
+      "year": 2026
+    },
+    {
+      "end_trips": 11931,
+      "start_trips": 12085,
+      "station": "Paseo Pellegrini II",
+      "total_trips": 24016,
+      "year": 2026
+    },
+    {
+      "end_trips": 11407,
+      "start_trips": 12274,
+      "station": "Museo Castagnino",
+      "total_trips": 23681,
+      "year": 2026
+    },
+    {
+      "end_trips": 11702,
+      "start_trips": 11905,
+      "station": "Distrito Centro",
+      "total_trips": 23607,
+      "year": 2026
+    },
+    {
+      "end_trips": 11423,
+      "start_trips": 11223,
+      "station": "Fac. Medicina",
+      "total_trips": 22646,
+      "year": 2026
+    },
+    {
+      "end_trips": 10087,
+      "start_trips": 10081,
+      "station": "Abasto",
+      "total_trips": 20168,
+      "year": 2026
+    },
+    {
+      "end_trips": 9924,
+      "start_trips": 9594,
+      "station": "Plaza Suecia",
+      "total_trips": 19518,
+      "year": 2026
+    },
+    {
+      "end_trips": 9024,
+      "start_trips": 9300,
+      "station": "Parque Independencia II",
+      "total_trips": 18324,
+      "year": 2026
+    },
+    {
+      "end_trips": 8950,
+      "start_trips": 9353,
+      "station": "Buenos Aires y 9 de Julio",
+      "total_trips": 18303,
+      "year": 2026
+    },
+    {
+      "end_trips": 9038,
+      "start_trips": 8892,
+      "station": "Barrio Lourdes",
+      "total_trips": 17930,
+      "year": 2026
+    },
+    {
+      "end_trips": 8118,
+      "start_trips": 8652,
+      "station": "Plaza 25 de Mayo",
+      "total_trips": 16770,
+      "year": 2026
+    },
+    {
+      "end_trips": 8172,
+      "start_trips": 8491,
+      "station": "Pueyrredón",
+      "total_trips": 16663,
+      "year": 2026
+    },
+    {
+      "end_trips": 8395,
+      "start_trips": 7841,
+      "station": "Club Provincial",
+      "total_trips": 16236,
+      "year": 2026
+    },
+    {
+      "end_trips": 7686,
+      "start_trips": 8099,
+      "station": "República de la Sexta",
+      "total_trips": 15785,
+      "year": 2026
+    },
+    {
+      "end_trips": 7582,
+      "start_trips": 8147,
+      "station": "Gimnasio UNR",
+      "total_trips": 15729,
+      "year": 2026
+    },
+    {
+      "end_trips": 8001,
+      "start_trips": 7477,
+      "station": "Estadio Municipal",
+      "total_trips": 15478,
+      "year": 2026
+    },
+    {
+      "end_trips": 7357,
+      "start_trips": 7937,
+      "station": "Pichincha II",
+      "total_trips": 15294,
+      "year": 2026
+    },
+    {
+      "end_trips": 7637,
+      "start_trips": 7607,
+      "station": "Barrio Martin",
+      "total_trips": 15244,
+      "year": 2026
+    },
+    {
+      "end_trips": 7399,
+      "start_trips": 7183,
+      "station": "HECA / UCA",
+      "total_trips": 14582,
+      "year": 2026
+    },
+    {
+      "end_trips": 7091,
+      "start_trips": 7422,
+      "station": "CC Echesortu",
+      "total_trips": 14513,
+      "year": 2026
+    },
+    {
+      "end_trips": 6734,
+      "start_trips": 6999,
+      "station": "Plaza Gral. Toribio de Luzuriaga",
+      "total_trips": 13733,
+      "year": 2026
+    },
+    {
+      "end_trips": 6883,
+      "start_trips": 6837,
+      "station": "Parque Hipólito Yrigoyen II",
+      "total_trips": 13720,
+      "year": 2026
+    },
+    {
+      "end_trips": 6567,
+      "start_trips": 6366,
+      "station": "Alto Rosario",
+      "total_trips": 12933,
+      "year": 2026
+    },
+    {
+      "end_trips": 6465,
+      "start_trips": 6351,
+      "station": "Parque Independencia I",
+      "total_trips": 12816,
+      "year": 2026
+    },
+    {
+      "end_trips": 6034,
+      "start_trips": 6408,
+      "station": "Barrio Hospitales",
+      "total_trips": 12442,
+      "year": 2026
+    },
+    {
+      "end_trips": 5952,
+      "start_trips": 6334,
+      "station": "CC Echesortu II",
+      "total_trips": 12286,
+      "year": 2026
+    },
+    {
+      "end_trips": 6463,
+      "start_trips": 5785,
+      "station": "Parque España",
+      "total_trips": 12248,
+      "year": 2026
+    },
+    {
+      "end_trips": 6028,
+      "start_trips": 6177,
+      "station": "Barrio Agote",
+      "total_trips": 12205,
+      "year": 2026
+    },
+    {
+      "end_trips": 6434,
+      "start_trips": 5541,
+      "station": "Monumento Nacional a la Bandera",
+      "total_trips": 11975,
+      "year": 2026
+    },
+    {
+      "end_trips": 5425,
+      "start_trips": 5760,
+      "station": "Puerto Norte",
+      "total_trips": 11185,
+      "year": 2026
+    },
+    {
+      "end_trips": 4682,
+      "start_trips": 5509,
+      "station": "Pueyrredón y Tucumán",
+      "total_trips": 10191,
+      "year": 2026
+    },
+    {
+      "end_trips": 4735,
+      "start_trips": 4596,
+      "station": "Barrio Parque",
+      "total_trips": 9331,
+      "year": 2026
+    },
+    {
+      "end_trips": 4732,
+      "start_trips": 4438,
+      "station": "Pellegrini y Avellaneda",
+      "total_trips": 9170,
+      "year": 2026
+    },
+    {
+      "end_trips": 4545,
+      "start_trips": 4521,
+      "station": "Avellaneda y Córdoba",
+      "total_trips": 9066,
+      "year": 2026
+    },
+    {
+      "end_trips": 4509,
+      "start_trips": 4263,
+      "station": "Barrio Matheu",
+      "total_trips": 8772,
+      "year": 2026
+    },
+    {
+      "end_trips": 4480,
+      "start_trips": 4248,
+      "station": "Refinería",
+      "total_trips": 8728,
+      "year": 2026
+    },
+    {
+      "end_trips": 4433,
+      "start_trips": 4203,
+      "station": "Parque Hipólito Yrigoyen",
+      "total_trips": 8636,
+      "year": 2026
+    },
+    {
+      "end_trips": 4378,
+      "start_trips": 4149,
+      "station": "Diagonales",
+      "total_trips": 8527,
+      "year": 2026
+    },
+    {
+      "end_trips": 4553,
+      "start_trips": 3824,
+      "station": "Lagos y Segui",
+      "total_trips": 8377,
+      "year": 2026
+    },
+    {
+      "end_trips": 4313,
+      "start_trips": 3851,
+      "station": "Plaza Eva Duarte de Perón",
+      "total_trips": 8164,
+      "year": 2026
+    },
+    {
+      "end_trips": 3538,
+      "start_trips": 3996,
+      "station": "Parque de la Arenera",
+      "total_trips": 7534,
+      "year": 2026
+    },
+    {
+      "end_trips": 3683,
+      "start_trips": 3539,
+      "station": "San Martín y Cabildo",
+      "total_trips": 7222,
+      "year": 2026
+    },
+    {
+      "end_trips": 3750,
+      "start_trips": 3259,
+      "station": "Cuatro Plazas",
+      "total_trips": 7009,
+      "year": 2026
+    },
+    {
+      "end_trips": 3547,
+      "start_trips": 3376,
+      "station": "La Guardia",
+      "total_trips": 6923,
+      "year": 2026
+    },
+    {
+      "end_trips": 3361,
+      "start_trips": 3334,
+      "station": "Bella Vista",
+      "total_trips": 6695,
+      "year": 2026
+    },
+    {
+      "end_trips": 3311,
+      "start_trips": 3218,
+      "station": "La Rambla",
+      "total_trips": 6529,
+      "year": 2026
+    },
+    {
+      "end_trips": 3160,
+      "start_trips": 3167,
+      "station": " San Martín y Quintana",
+      "total_trips": 6327,
+      "year": 2026
+    },
+    {
+      "end_trips": 2854,
+      "start_trips": 2996,
+      "station": "Oroño y Ombú",
+      "total_trips": 5850,
+      "year": 2026
+    },
+    {
+      "end_trips": 2888,
+      "start_trips": 2867,
+      "station": "San Martín y Uriburu",
+      "total_trips": 5755,
+      "year": 2026
+    },
+    {
+      "end_trips": 2946,
+      "start_trips": 2688,
+      "station": "Distrito Sudoeste",
+      "total_trips": 5634,
+      "year": 2026
+    },
+    {
+      "end_trips": 2687,
+      "start_trips": 2636,
+      "station": "Mendoza y Sucre",
+      "total_trips": 5323,
+      "year": 2026
+    },
+    {
+      "end_trips": 2817,
+      "start_trips": 2432,
+      "station": "Lisandro de la Torre",
+      "total_trips": 5249,
+      "year": 2026
+    },
+    {
+      "end_trips": 2582,
+      "start_trips": 2468,
+      "station": "San Martín y Regimiento 11",
+      "total_trips": 5050,
+      "year": 2026
+    },
+    {
+      "end_trips": 2666,
+      "start_trips": 2328,
+      "station": "O'Higgins",
+      "total_trips": 4994,
+      "year": 2026
+    },
+    {
+      "end_trips": 2545,
+      "start_trips": 2444,
+      "station": "Plaza Azcuénaga",
+      "total_trips": 4989,
+      "year": 2026
+    },
+    {
+      "end_trips": 2506,
+      "start_trips": 2466,
+      "station": "Rosario Norte",
+      "total_trips": 4972,
+      "year": 2026
+    },
+    {
+      "end_trips": 2605,
+      "start_trips": 2174,
+      "station": "Arroyito",
+      "total_trips": 4779,
+      "year": 2026
+    },
+    {
+      "end_trips": 2376,
+      "start_trips": 2382,
+      "station": "Distrito Sur",
+      "total_trips": 4758,
+      "year": 2026
+    },
+    {
+      "end_trips": 2458,
+      "start_trips": 1843,
+      "station": "Distrito Oeste",
+      "total_trips": 4301,
+      "year": 2026
+    },
+    {
+      "end_trips": 2211,
+      "start_trips": 1785,
+      "station": "De la Resistencia",
+      "total_trips": 3996,
+      "year": 2026
+    },
+    {
+      "end_trips": 2144,
+      "start_trips": 1824,
+      "station": "Parque Alem",
+      "total_trips": 3968,
+      "year": 2026
+    },
+    {
+      "end_trips": 1970,
+      "start_trips": 1830,
+      "station": "Portal Rosario",
+      "total_trips": 3800,
+      "year": 2026
+    },
+    {
+      "end_trips": 1976,
+      "start_trips": 1798,
+      "station": "Ayacucho y Arijón",
+      "total_trips": 3774,
+      "year": 2026
+    },
+    {
+      "end_trips": 1711,
+      "start_trips": 1903,
+      "station": "Ciudad Univ. I",
+      "total_trips": 3614,
+      "year": 2026
+    },
+    {
+      "end_trips": 1923,
+      "start_trips": 1666,
+      "station": "Polo Tecnológico",
+      "total_trips": 3589,
+      "year": 2026
+    },
+    {
+      "end_trips": 1947,
+      "start_trips": 1585,
+      "station": "Mendoza y Magallanes",
+      "total_trips": 3532,
+      "year": 2026
+    },
+    {
+      "end_trips": 1938,
+      "start_trips": 1538,
+      "station": "Distrito Noroeste",
+      "total_trips": 3476,
+      "year": 2026
+    },
+    {
+      "end_trips": 1693,
+      "start_trips": 1744,
+      "station": "Las Heras",
+      "total_trips": 3437,
+      "year": 2026
+    },
+    {
+      "end_trips": 1698,
+      "start_trips": 1654,
+      "station": "Oroño y Segui",
+      "total_trips": 3352,
+      "year": 2026
+    },
+    {
+      "end_trips": 1685,
+      "start_trips": 1627,
+      "station": "San Martín y Arijón",
+      "total_trips": 3312,
+      "year": 2026
+    },
+    {
+      "end_trips": 1626,
+      "start_trips": 1577,
+      "station": "Uriburu y Rodriguez",
+      "total_trips": 3203,
+      "year": 2026
+    },
+    {
+      "end_trips": 1515,
+      "start_trips": 1525,
+      "station": "Cinco esquinas",
+      "total_trips": 3040,
+      "year": 2026
+    },
+    {
+      "end_trips": 1492,
+      "start_trips": 1510,
+      "station": "Plaza Alberdi",
+      "total_trips": 3002,
+      "year": 2026
+    },
+    {
+      "end_trips": 1615,
+      "start_trips": 1384,
+      "station": "La Florida",
+      "total_trips": 2999,
+      "year": 2026
+    },
+    {
+      "end_trips": 1492,
+      "start_trips": 1321,
+      "station": "Provincias Unidas y Eva Perón",
+      "total_trips": 2813,
+      "year": 2026
+    },
+    {
+      "end_trips": 1378,
+      "start_trips": 1429,
+      "station": "PAMI II",
+      "total_trips": 2807,
+      "year": 2026
+    },
+    {
+      "end_trips": 1336,
+      "start_trips": 1437,
+      "station": "Bv. Oroño y Gutierrez",
+      "total_trips": 2773,
+      "year": 2026
+    },
+    {
+      "end_trips": 1389,
+      "start_trips": 1310,
+      "station": "Rondeau y Sorrento",
+      "total_trips": 2699,
+      "year": 2026
+    },
+    {
+      "end_trips": 1338,
+      "start_trips": 1316,
+      "station": "Rondeau y Martín Fierro",
+      "total_trips": 2654,
+      "year": 2026
+    },
+    {
+      "end_trips": 1184,
+      "start_trips": 1183,
+      "station": "Rondeau y Washington",
+      "total_trips": 2367,
+      "year": 2026
+    },
+    {
+      "end_trips": 1093,
+      "start_trips": 1044,
+      "station": "Rondeau y Ricardo Núñez",
+      "total_trips": 2137,
+      "year": 2026
+    },
+    {
+      "end_trips": 865,
+      "start_trips": 1032,
+      "station": "Ciudad Univ. II",
+      "total_trips": 1897,
+      "year": 2026
+    },
+    {
+      "end_trips": 845,
+      "start_trips": 867,
+      "station": "Costa Alta",
+      "total_trips": 1712,
+      "year": 2026
+    },
+    {
+      "end_trips": 824,
+      "start_trips": 715,
+      "station": "Bv. Oroño y Dr. Riva",
+      "total_trips": 1539,
+      "year": 2026
+    },
+    {
+      "end_trips": 723,
+      "start_trips": 687,
+      "station": "27 de Febrero y San Nicolas",
+      "total_trips": 1410,
+      "year": 2026
+    },
+    {
+      "end_trips": 483,
+      "start_trips": 398,
+      "station": "Bv. Oroño y Lamadrid",
+      "total_trips": 881,
+      "year": 2026
+    },
+    {
+      "end_trips": 321,
+      "start_trips": 32,
+      "station": "Estación móvil 01",
+      "total_trips": 353,
+      "year": 2026
+    },
+    {
+      "end_trips": 1,
+      "start_trips": 0,
+      "station": "Estación móvil 02",
+      "total_trips": 1,
+      "year": 2026
+    },
+    {
+      "end_trips": 1,
+      "start_trips": 0,
+      "station": "Estación de Prueba",
+      "total_trips": 1,
+      "year": 2026
     }
   ],
   "volume_by_month": [
@@ -10584,6 +6491,136 @@
       "month": 4,
       "trips": 63150,
       "year": 2024
+    },
+    {
+      "month": 5,
+      "trips": 59767,
+      "year": 2024
+    },
+    {
+      "month": 6,
+      "trips": 53301,
+      "year": 2024
+    },
+    {
+      "month": 7,
+      "trips": 50151,
+      "year": 2024
+    },
+    {
+      "month": 8,
+      "trips": 48448,
+      "year": 2024
+    },
+    {
+      "month": 9,
+      "trips": 62519,
+      "year": 2024
+    },
+    {
+      "month": 10,
+      "trips": 80033,
+      "year": 2024
+    },
+    {
+      "month": 11,
+      "trips": 81851,
+      "year": 2024
+    },
+    {
+      "month": 12,
+      "trips": 79382,
+      "year": 2024
+    },
+    {
+      "month": 1,
+      "trips": 82163,
+      "year": 2025
+    },
+    {
+      "month": 2,
+      "trips": 71925,
+      "year": 2025
+    },
+    {
+      "month": 3,
+      "trips": 82336,
+      "year": 2025
+    },
+    {
+      "month": 4,
+      "trips": 83297,
+      "year": 2025
+    },
+    {
+      "month": 5,
+      "trips": 83182,
+      "year": 2025
+    },
+    {
+      "month": 6,
+      "trips": 65848,
+      "year": 2025
+    },
+    {
+      "month": 7,
+      "trips": 70189,
+      "year": 2025
+    },
+    {
+      "month": 8,
+      "trips": 74125,
+      "year": 2025
+    },
+    {
+      "month": 9,
+      "trips": 78383,
+      "year": 2025
+    },
+    {
+      "month": 10,
+      "trips": 86590,
+      "year": 2025
+    },
+    {
+      "month": 11,
+      "trips": 81005,
+      "year": 2025
+    },
+    {
+      "month": 12,
+      "trips": 77382,
+      "year": 2025
+    },
+    {
+      "month": 1,
+      "trips": 87807,
+      "year": 2026
+    },
+    {
+      "month": 2,
+      "trips": 87763,
+      "year": 2026
+    },
+    {
+      "month": 3,
+      "trips": 101988,
+      "year": 2026
+    },
+    {
+      "month": 4,
+      "trips": 90557,
+      "year": 2026
+    },
+    {
+      "month": 5,
+      "trips": 83031,
+      "year": 2026
+    },
+    {
+      "month": 6,
+      "trips": 75739,
+      "year": 2026
     }
   ]
 }

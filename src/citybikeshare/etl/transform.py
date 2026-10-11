@@ -1,4 +1,5 @@
 import os
+from pathlib import Path
 from dataclasses import replace
 import polars as pl
 from citybikeshare.config.loader import load_city_config
@@ -108,13 +109,26 @@ def _parquet_name(csv_file):
     return base + ".parquet"
 
 
+def _is_case_variant_of_expected(pq: Path, expected_names) -> bool:
+    """On a case-insensitive filesystem (macOS default) a case-only rename of a source file —
+    `2019-q3.csv` → `2019-Q3.csv` — writes the new parquet over the old inode while the
+    directory keeps the old spelling. That entry *is* the expected output, not an orphan;
+    unlinking it would delete the parquet just written."""
+    return any(
+        name.lower() == pq.name.lower() and (pq.parent / name).exists()
+        and pq.samefile(pq.parent / name)
+        for name in expected_names
+    )
+
+
 def _remove_orphan_parquets(context: PipelineContext, expected_names):
     """Delete parquet files whose source CSV is no longer in the input set, so
     removed/renamed inputs don't linger in the partitioned output."""
     for pq in context.parquet_directory.glob("*.parquet"):
-        if pq.name not in expected_names:
-            pq.unlink()
-            print(f"🗑️  Removed orphan parquet: {pq.name}")
+        if pq.name in expected_names or _is_case_variant_of_expected(pq, expected_names):
+            continue
+        pq.unlink()
+        print(f"🗑️  Removed orphan parquet: {pq.name}")
 
 
 def run_pre_transform_steps(context: PipelineContext, config: dict):

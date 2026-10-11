@@ -18,7 +18,6 @@ import zipfile
 from pathlib import Path
 from typing import List
 import tempfile
-import polars as pl
 from citybikeshare.context import PipelineContext
 from citybikeshare.config.loader import load_city_config
 from citybikeshare.etl.state import (
@@ -35,9 +34,10 @@ _COPY_CHUNK = 1024 * 1024
 
 def _gzip_file(src_path, dst_path: Path) -> None:
     """Stream-compress src_path -> dst_path (gzip). Bounded memory, no full read."""
-    with open(src_path, "rb") as fin, gzip.open(
-        dst_path, "wb", compresslevel=_GZIP_LEVEL
-    ) as fout:
+    with (
+        open(src_path, "rb") as fin,
+        gzip.open(dst_path, "wb", compresslevel=_GZIP_LEVEL) as fout,
+    ):
         shutil.copyfileobj(fin, fout, length=_COPY_CHUNK)
 
 
@@ -72,12 +72,12 @@ def _deposit_member_as_gzip(full_path: str, file: str, raw_dir: Path) -> Path:
     return target_path
 
 
-def _extract_archive(zip_path, raw_dir: Path, keep_json: bool = False) -> List[Path]:
+def _extract_archive(zip_path, raw_dir: Path) -> List[Path]:
     """Extract one archive (recursing into nested zips) into raw_dir.
 
-    Returns the list of raw paths produced from this archive. When ``keep_json`` is set
-    (cities whose trips ship as JSON, e.g. Madrid), `.json` members are stored in raw/
-    alongside CSVs rather than silently dropped; the clean stage converts them to CSV.
+    Returns the list of raw paths produced from this archive. `.json` members are kept in
+    raw/ alongside CSVs (e.g. Madrid's JSON-era trips) rather than dropped; clean converts
+    them, and raises on any non-CSV file no converter step claims.
     """
     produced: List[Path] = []
     to_process = [zip_path]
@@ -111,42 +111,24 @@ def _extract_archive(zip_path, raw_dir: Path, keep_json: bool = False) -> List[P
                                     _deposit_member_as_gzip(full_path, file, raw_dir)
                                 )
 
-                            elif file.lower().endswith(".json") and keep_json:
-                                # Trip-as-JSON cities keep the JSON in raw/ (source of
-                                # truth); the clean stage converts it to CSV.
+                            elif file.lower().endswith(".json"):
                                 produced.append(
                                     _deposit_member_as_gzip(full_path, file, raw_dir)
                                 )
 
-                            elif file.lower().endswith(".rar"):
-                                # zipfile can't open RAR; surface it loudly rather than
-                                # silently skip (BiciMAD ships some station files as .rar).
-                                print(
-                                    f"⚠️  Cannot extract RAR (zipfile can't read it): "
-                                    f"{file} — skipping"
-                                )
-
                             elif file.lower().endswith(".txt"):
-                                txt_path = Path(full_path)
-                                csv_path = raw_dir / (txt_path.stem + ".csv.gz")
-                                try:
-                                    print(f"📝 Converting TXT → CSV (gzip): {txt_path.name}")
-                                    df = pl.scan_csv(
-                                        txt_path, encoding="utf8-lossy"
-                                    ).collect()
-                                    with gzip.open(
-                                        csv_path, "wt", encoding="utf-8", newline=""
-                                    ) as f:
-                                        df.write_csv(f)
-                                    produced.append(csv_path)
-                                    (raw_dir / (txt_path.stem + ".csv")).unlink(
-                                        missing_ok=True
+                                if file.lower().startswith("readme"):
+                                    # Chicago bundles a README.txt with its trip archives.
+                                    print(f"⏭️  Skipping README: {file}")
+                                    continue
+                                # Rosario ships its 2021 trips as a `.txt` (tab-delimited,
+                                # Latin-1). Store the bytes as-is under a `.csv` name; making
+                                # it a well-formed CSV is the clean stage's job.
+                                produced.append(
+                                    _deposit_member_as_gzip(
+                                        full_path, Path(file).stem + ".csv", raw_dir
                                     )
-                                    print(f"✅ Converted and saved as: {csv_path.name}")
-                                except Exception as e:
-                                    print(
-                                        f"⚠️  Failed to convert {txt_path.name} → CSV ({e})"
-                                    )
+                                )
         except zipfile.BadZipFile:
             print(f"⚠️  Skipping invalid ZIP file: {current}")
 
@@ -157,9 +139,7 @@ def _all_outputs_exist(raw_dir: Path, outputs: List[str]) -> bool:
     return all((raw_dir / name).exists() for name in outputs)
 
 
-def _orphan_raw_files(
-    raw_dir: Path, previous_state: dict, new_state: dict
-) -> dict:
+def _orphan_raw_files(raw_dir: Path, previous_state: dict, new_state: dict) -> dict:
     """Detect raw files left behind by archives no longer present in download/.
 
     Returns {vanished_archive: [orphaned output names]}. When a source archive
@@ -226,9 +206,6 @@ def extract_city_data(context: PipelineContext, overwrite: bool = False) -> List
     """
     config = load_city_config(context.city)
     city_name = config["name"]
-    # Trip-as-JSON cities (e.g. Madrid) keep JSON members in raw/ for the clean stage to
-    # convert; other cities' archives contain no JSON and are unaffected.
-    keep_json = config.get("keep_json_raw", False)
     download_directory = context.download_directory
     raw_dir = context.raw_directory
     raw_dir.mkdir(parents=True, exist_ok=True)
@@ -258,9 +235,12 @@ def extract_city_data(context: PipelineContext, overwrite: bool = False) -> List
         source_name = entry.name
         recorded = state.get(source_name)
 
-        is_zip = zipfile.is_zipfile(entry)
+        # An xlsx is itself a zip, so test for it before is_zipfile — otherwise it would be
+        # "extracted" (no .csv members) and silently dropped.
+        is_xlsx = entry.suffix.lower() == ".xlsx"
+        is_zip = not is_xlsx and zipfile.is_zipfile(entry)
         is_csv = entry.suffix.lower() == ".csv"
-        if not (is_zip or is_csv):
+        if not (is_zip or is_csv or is_xlsx):
             continue
 
         # Skip when the source is unchanged and its outputs are still present.
@@ -275,13 +255,15 @@ def extract_city_data(context: PipelineContext, overwrite: bool = False) -> List
             continue
 
         if is_zip:
-            produced = _extract_archive(entry, raw_dir, keep_json=keep_json)
+            produced = _extract_archive(entry, raw_dir)
         else:
+            # Top-level CSV or XLSX: store the bytes verbatim, gzipped. Converting an xlsx to
+            # CSV is the clean stage's job (see CONVERT_FUNCTIONS).
             dest = raw_dir / (source_name + ".gz")
             _gzip_file(entry, dest)
             (raw_dir / source_name).unlink(missing_ok=True)
             produced = [dest]
-            print(f"✅ Copied CSV (gzip): {dest.name}")
+            print(f"✅ Copied {entry.suffix.lstrip('.').upper()} (gzip): {dest.name}")
 
         csv_files.extend(produced)
         new_state[source_name] = {
