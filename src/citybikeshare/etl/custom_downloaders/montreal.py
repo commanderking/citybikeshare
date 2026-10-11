@@ -7,26 +7,13 @@ from citybikeshare.etl.custom_downloaders.utils.browser import launch_chromium
 from citybikeshare.etl.custom_downloaders.utils.download_helpers import (
     does_file_exist,
     get_file_size_from_url,
+    prune_stale_downloads,
 )
 
 
 def _zip_filename(href: str) -> str:
     """Local filename a linked archive will be stored under (its URL basename)."""
     return os.path.basename(urlparse(href).path)
-
-
-def _prune_stale_zips(download_path: Path, remote_filenames: set[str]) -> None:
-    """Remove local .zip archives the page no longer offers.
-
-    Montreal renames the current-year archive as months are appended
-    (DonneesOuvertes2026_010203.zip → ...01020304.zip). Pruning whatever is no
-    longer linked drops the stale archive without re-downloading the immutable
-    completed-year ones — the reason the old code wiped download/ wholesale.
-    """
-    for existing in download_path.glob("*.zip"):
-        if existing.name not in remote_filenames:
-            print(f"🗑️  Removing stale archive no longer offered: {existing.name}")
-            existing.unlink()
 
 
 def run_get_exports(playwright, url, download_path: Path):
@@ -44,13 +31,6 @@ def run_get_exports(playwright, url, download_path: Path):
             absolute = urljoin(url, href)
             remote.append((_zip_filename(absolute), absolute, link))
 
-    if not remote:
-        # Don't prune on an empty scrape — a transient page failure shouldn't
-        # wipe good archives.
-        print("⚠️  No .zip links found on Montreal page; leaving download/ untouched")
-        browser.close()
-        return
-
     for filename, href, link in remote:
         remote_size = get_file_size_from_url(href)
         if does_file_exist(filename, remote_size, download_path):
@@ -64,7 +44,10 @@ def run_get_exports(playwright, url, download_path: Path):
         download.save_as(os.path.join(download_path, filename))
         print(f"✅ Downloaded {filename}")
 
-    _prune_stale_zips(download_path, {filename for filename, _, _ in remote})
+    # Montreal renames the current-year archive as months are appended
+    # (DonneesOuvertes2026_010203.zip → ...01020304.zip); pruning drops the stale name
+    # without re-downloading the immutable completed-year archives.
+    prune_stale_downloads(download_path, {filename for filename, _, _ in remote}, "*.zip")
     browser.close()
 
 

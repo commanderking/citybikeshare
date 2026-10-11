@@ -1,4 +1,6 @@
 import os
+from pathlib import Path
+
 import requests
 
 
@@ -15,6 +17,19 @@ def should_download(target_path, *, label=None):
         print(f"🟡 Skipping download - {name} already exists")
         return False
     return True
+
+
+def prune_stale_downloads(download_path, remote_filenames, pattern="*"):
+    """Remove downloads matching `pattern` that the source no longer offers, so a renamed or
+    withdrawn file doesn't linger and re-feed extract. An empty listing prunes nothing: a
+    transient listing failure shouldn't wipe good files."""
+    if not remote_filenames:
+        print("⚠️  Source listed no files; leaving download/ untouched")
+        return
+    for existing in Path(download_path).glob(pattern):
+        if existing.is_file() and existing.name not in remote_filenames:
+            print(f"🗑️  Removing stale download no longer offered: {existing.name}")
+            existing.unlink()
 
 
 def get_file_size_from_url(url):

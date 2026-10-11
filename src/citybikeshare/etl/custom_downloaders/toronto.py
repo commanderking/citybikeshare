@@ -1,5 +1,4 @@
 import os
-from pathlib import Path
 from urllib.parse import urlparse
 
 import requests
@@ -8,6 +7,7 @@ from citybikeshare.context import PipelineContext
 from citybikeshare.etl.custom_downloaders.utils.download_helpers import (
     does_file_exist,
     get_file_size_from_url,
+    prune_stale_downloads,
 )
 
 # Toronto publishes on CKAN: one "package" whose "resources" are a yearly zip of monthly CSVs
@@ -32,26 +32,11 @@ def _list_resources():
     return remote
 
 
-def _prune_stale_files(download_path: Path, remote_filenames: set[str]) -> None:
-    """Remove downloads the source no longer offers. The current year's zip keeps its name as
-    months are appended (so it's re-fetched by size, not renamed), but anything that
-    disappears from the listing would otherwise linger and re-feed extract forever."""
-    for existing in download_path.iterdir():
-        if existing.is_file() and existing.name not in remote_filenames:
-            print(f"🗑️  Removing stale download no longer offered: {existing.name}")
-            existing.unlink()
-
-
 def download(config, context: PipelineContext):
     download_path = context.download_directory
     download_path.mkdir(parents=True, exist_ok=True)
 
     remote = _list_resources()
-    if not remote:
-        # Don't prune on an empty listing — a transient API failure shouldn't wipe good files.
-        print("⚠️  CKAN listed no Toronto resources; leaving download/ untouched")
-        return
-
     for filename, url in remote:
         remote_size = get_file_size_from_url(url)
         if remote_size is not None and does_file_exist(filename, remote_size, download_path):
@@ -66,4 +51,6 @@ def download(config, context: PipelineContext):
                     target.write(chunk)
         print(f"✅ Downloaded {filename}")
 
-    _prune_stale_files(download_path, {filename for filename, _ in remote})
+    # The current year's zip keeps its name as months are appended (re-fetched by size above);
+    # pruning catches anything that drops out of the listing.
+    prune_stale_downloads(download_path, {filename for filename, _ in remote})
