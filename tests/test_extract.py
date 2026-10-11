@@ -86,3 +86,25 @@ class TestApplyOrphanCleanup:
         out = capsys.readouterr().out
         assert "may now be duplicates" in out
         assert "prune_renamed_archives" in out
+
+
+class TestExtractTxtMembers:
+    def test_stores_txt_bytes_verbatim_as_csv_gz(self, tmp_path):
+        import gzip
+        import zipfile
+        from citybikeshare.etl.extract import _extract_archive
+
+        # Latin-1, tab-delimited — must survive extract byte-for-byte (clean re-encodes).
+        payload = "Id\tOrigen\r\n1\tPlaza San Mart\xedn\r\n".encode("latin1")
+        zip_path = tmp_path / "src.zip"
+        with zipfile.ZipFile(zip_path, "w") as zf:
+            zf.writestr("Mi bici tu bici 2021.txt", payload)
+            zf.writestr("README.txt", "about this data")
+        raw = tmp_path / "raw"
+        raw.mkdir()
+
+        produced = _extract_archive(zip_path, raw)
+
+        assert [p.name for p in produced] == ["Mi bici tu bici 2021.csv.gz"]
+        assert gzip.decompress(produced[0].read_bytes()) == payload
+        assert not (raw / "README.csv.gz").exists()

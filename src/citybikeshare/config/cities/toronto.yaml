@@ -4,12 +4,6 @@ source_url: "https://open.toronto.ca/dataset/bike-share-toronto-ridership-data/"
 aws_sync: false
 file_matcher:
   - .csv
-# The 2024 monthly files (bike_share_ridership_2024-01..09, Jan–Sep) duplicate the full-year
-# annual bikeshare-ridership-2024 — same trips, so counts would inflate. Exclude the monthly
-# ones (the annual is the complete year). The 2023 monthly files have no annual counterpart, so
-# this substring is scoped to 2024- and leaves them untouched.
-excluded_filenames:
-  - "bike_share_ridership_2024-"
 renamed_columns:
   trip_id: trip_id
   trip_start_time: start_time
@@ -65,7 +59,7 @@ date_formats:
 read_csv_options:
   encoding: utf8-lossy
   null_values:
-    - "NULLNULL"   # one corrupt end_time in bikeshare_ridership_(2017_q4) → treat as missing
+    - "NULLNULL"   # one corrupt end_time in Bikeshare Ridership (2017 Q4) → treat as missing
 clean_pipeline:
   # 2020-10.csv.gz has 249 rows (of 277,839) missing the comma between Trip Id and Trip Duration,
   # so every later column shifts one left and station names land in start_time. Scoped to that
@@ -88,8 +82,9 @@ clean_pipeline:
         serial_dates_day_month_swapped: true
         expected_months: [10, 11, 12]
 compress_cleaned: true
-# Published alongside the trips but not trip data: the field-description readme, and 2014–2015,
-# which is monthly station-pair counts with no timestamps.
+# Published alongside the trips but not trip data. The readme is field descriptions. 2014–2015 is
+# a different format entirely: no trip rows, just monthly summary sheets (Oct 2014–Sep 2015) of
+# trip *counts* per start/end station pair 
 ignored_raw_files:
   - bikeshare-ridership-readme.xlsx.gz
   - bikeshare-ridership-2014-2015.xlsx.gz

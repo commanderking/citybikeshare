@@ -31,6 +31,7 @@ date_formats:
 clean_pipeline:
   - clean_rosario_files
   - normalize_delimiters
+  - assert_uniform_field_count
 
 
 read_csv_options:

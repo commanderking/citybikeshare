@@ -1,63 +1,69 @@
-from zipfile import ZipFile
-from io import BytesIO
 import os
+from pathlib import Path
+from urllib.parse import urlparse
+
 import requests
+
 from citybikeshare.context import PipelineContext
-from citybikeshare.etl.custom_downloaders.utils.download_helpers import should_download
+from citybikeshare.etl.custom_downloaders.utils.download_helpers import (
+    does_file_exist,
+    get_file_size_from_url,
+)
+
+# Toronto publishes on CKAN: one "package" whose "resources" are a yearly zip of monthly CSVs
+# (2017 on) or an xlsx workbook (2014–2016). The zips can nest another zip (2022-11 ships as
+# `Bike share ridership 2022-11.zip` inside the 2022 archive), so unzipping here would have to
+# reimplement what the shared extract stage already does — this downloader only fetches bytes.
+_CKAN_BASE = "https://ckan0.cf.opendata.inter.prod-toronto.ca"
+_PACKAGE_ID = "bike-share-toronto-ridership-data"
+
+
+def _list_resources():
+    """(local filename, download url) for every downloadable resource in the package."""
+    package = requests.get(
+        f"{_CKAN_BASE}/api/3/action/package_show", params={"id": _PACKAGE_ID}, timeout=60
+    ).json()
+    remote = []
+    for resource in package["result"]["resources"]:
+        if resource["datastore_active"]:
+            continue
+        url = resource["url"]
+        remote.append((os.path.basename(urlparse(url).path), url))
+    return remote
+
+
+def _prune_stale_files(download_path: Path, remote_filenames: set[str]) -> None:
+    """Remove downloads the source no longer offers. The current year's zip keeps its name as
+    months are appended (so it's re-fetched by size, not renamed), but anything that
+    disappears from the listing would otherwise linger and re-feed extract forever."""
+    for existing in download_path.iterdir():
+        if existing.is_file() and existing.name not in remote_filenames:
+            print(f"🗑️  Removing stale download no longer offered: {existing.name}")
+            existing.unlink()
 
 
 def download(config, context: PipelineContext):
-    city = config.get("name")
-    csv_path = context.download_directory
-    # To hit our API, you'll be making requests to:
-    base_url = "https://ckan0.cf.opendata.inter.prod-toronto.ca"
+    download_path = context.download_directory
+    download_path.mkdir(parents=True, exist_ok=True)
 
-    # Datasets are called "packages". Each package can contain many "resources"
-    # To retrieve the metadata for this package and its resources, use the package name in this page's URL:
-    url = base_url + "/api/3/action/package_show"
-    params = {"id": "bike-share-toronto-ridership-data"}
-    package = requests.get(url, params=params).json()
+    remote = _list_resources()
+    if not remote:
+        # Don't prune on an empty listing — a transient API failure shouldn't wipe good files.
+        print("⚠️  CKAN listed no Toronto resources; leaving download/ untouched")
+        return
 
-    # To get resource data:
-    for idx, resource in enumerate(package["result"]["resources"]):
-        # To get metadata for non datastore_active resources:
-        if not resource["datastore_active"]:
-            url = base_url + "/api/3/action/resource_show?id=" + resource["id"]
-            resource_metadata = requests.get(url).json()
-            resource_url = resource_metadata["result"]["url"]
+    for filename, url in remote:
+        remote_size = get_file_size_from_url(url)
+        if remote_size is not None and does_file_exist(filename, remote_size, download_path):
+            print(f"🟡 Skipping download - {filename} unchanged ({remote_size} bytes)")
+            continue
 
-            # 2014–2016 ship as XLSX workbooks rather than zipped CSVs. Save the bytes as-is
-            # (extract carries them to raw/, clean converts the sheets). Check this before
-            # touching ZipFile: an xlsx *is* a zip, so it would otherwise open "successfully"
-            # with no .csv members and be skipped silently.
-            if resource.get("format", "").upper() == "XLSX":
-                target_path = os.path.join(
-                    csv_path, os.path.basename(resource_url).lower().replace(" ", "_")
-                )
-                if should_download(target_path):
-                    response = requests.get(resource_url, timeout=10000)
-                    response.raise_for_status()
-                    with open(target_path, "wb") as target_file:
-                        target_file.write(response.content)
-                    print(f"✅ Downloaded to {target_path}")
-                continue
+        print(f"⬇️  Downloading {filename}")
+        with requests.get(url, stream=True, timeout=600) as response:
+            response.raise_for_status()
+            with open(download_path / filename, "wb") as target:
+                for chunk in response.iter_content(chunk_size=1024 * 1024):
+                    target.write(chunk)
+        print(f"✅ Downloaded {filename}")
 
-            response = requests.get(resource_url, timeout=10000)
-            if response.status_code == 200:
-                with ZipFile(BytesIO(response.content)) as zip_file:
-                    zip_contents = zip_file.namelist()
-                    for file in zip_contents:
-                        # Setup paths and names
-                        file_name = os.path.basename(file)
-                        file_path = os.path.join(csv_path, file_name)
-                        target_path = file_path.lower().replace(" ", "_")
-
-                        # Skip if already downloaded
-                        if should_download(target_path) and file.endswith(".csv"):
-                            source = zip_file.open(file)
-                            print(file)
-                            with open(target_path, "wb") as target_file:
-                                target_file.write(source.read())
-                                print(f"✅ Downloaded to {target_path}")
-            else:
-                print(f"Failed to download file from {resource_url}")
+    _prune_stale_files(download_path, {filename for filename, _ in remote})

@@ -104,17 +104,37 @@ def clean_seoul_files(csv_file: Path, config):
         print(f"Cleaned up poor encoding in {csv_file.name}")
 
 
-# Rosario has a 2021 file that unzips into a txt file with inconsistent tab separators
-# The tab separators is also different for parts of the file
+# Rosario's 2021 file is a Latin-1, tab-delimited `.txt`, and its layout changes mid-file:
+# through May 2021 fields are separated by `\t"\t` (with a stray `"` closing each value);
+# from 2021-06-01 they're plain tabs. Replacing only one form leaves the other rows with
+# fewer fields than the header, shifting Jun–Aug values one column left.
 def clean_rosario_files(csv_file: Path, config):
     if "2021" in str(csv_file):
-        text = csv_file.read_text(encoding="latin1", errors="ignore")
-
-        text_clean = (
-            text.replace('""\t""\t', ",").replace('\t""\t', ",").replace("\t", ",")
-        )
+        text = csv_file.read_text(encoding="latin1")
+        text_clean = text.replace('\t"\t', ",").replace("\t", ",")
         csv_file.write_text(text_clean, encoding="utf-8")
-        print(f"🧹 Cleaned quotes, tabs, and normalized CSV format in {csv_file.name}")
+        print(f"🧹 Converted tabs to commas and re-encoded to UTF-8 in {csv_file.name}")
+
+
+def assert_uniform_field_count(csv_file: Path, config):
+    """Raise if any row's field count differs from the header's. A short row is otherwise
+    read with its values shifted left and the tail padded with nulls — parse checks
+    downstream can pass on the shifted values."""
+    with open(csv_file, newline="", encoding="utf-8", errors="replace") as f:
+        reader = csv.reader(f)
+        header = next(reader, None)
+        if header is None:
+            return
+        mismatched = [
+            (reader.line_num, len(row))
+            for row in reader
+            if row and len(row) != len(header)
+        ]
+    if mismatched:
+        raise ValueError(
+            f"{csv_file.name}: {len(mismatched)} row(s) don't have the header's "
+            f"{len(header)} fields. First (line, field count): {mismatched[:5]}"
+        )
 
 
 CLEAN_FUNCTIONS = {
@@ -123,6 +143,7 @@ CLEAN_FUNCTIONS = {
     "encode_utf8": convert_file_encoding,
     "clean_seoul_files": clean_seoul_files,
     "clean_rosario_files": clean_rosario_files,
+    "assert_uniform_field_count": assert_uniform_field_count,
 }
 
 
