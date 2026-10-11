@@ -34,6 +34,23 @@ class TestDropUnbalancedQuotes:
         assert all(line.count('"') % 2 == 0 for line in lines)
         assert "SPB-2" not in _read_gz(out)
 
+    def test_reports_dropped_lines(self, tmp_path, capsys):
+        raw = tmp_path / "정보_2021.03.csv"
+        raw.write_text('"a","b"\n"SPB-1","ok"\n"SPB-2","교", ""0"\n', encoding="utf-8")
+        out = tmp_path / "정보_2021.03.csv.gz"
+        stream_clean_to_gzip(raw, out, ["drop_unbalanced_quote_lines"], SEOUL_CFG)
+        printed = capsys.readouterr().out
+        assert "drop_unbalanced_quote_lines dropped 1 line(s)" in printed
+        assert "line 3:" in printed and "SPB-2" in printed
+
+    def test_reports_nothing_when_no_lines_dropped(self, tmp_path, capsys):
+        raw = tmp_path / "정보_2021.03.csv"
+        raw.write_text('"a","b"\n"SPB-1","ok"\n', encoding="utf-8")
+        stream_clean_to_gzip(
+            raw, tmp_path / "out.csv.gz", ["drop_unbalanced_quote_lines"], SEOUL_CFG
+        )
+        assert "dropped" not in capsys.readouterr().out
+
 
 class TestPrependHeader:
     def test_prepends_header_for_known_headerless_file(self, tmp_path):
@@ -202,3 +219,20 @@ class TestScopedCleanSteps:
         untouched = ctx.cleaned_directory / "2019-q1.csv.gz"
         assert untouched.read_bytes() == (ctx.raw_directory / "2019-q1.csv.gz").read_bytes()
         assert "10000084,625," in _read_gz(ctx.cleaned_directory / "2020-10.csv.gz")
+
+
+class TestDropBackslashLines:
+    def test_drops_mysql_newline_shard_and_reports_split_halves(self, tmp_path, capsys):
+        raw = tmp_path / "정보_1609.csv"
+        # Real shape from Seoul 2016-09: the last field ends in CR + backslash-escaped LF.
+        raw.write_bytes(
+            b'"a","b"\n"SPB-1","ok"\n"SPB-01283","ST-445\r\\\n","LCD"\n"SPB-3","ok"\n'
+        )
+        out = tmp_path / "정보_1609.csv.gz"
+        stream_clean_to_gzip(
+            raw, out, ["drop_unbalanced_quote_lines", "drop_backslash_lines"], SEOUL_CFG
+        )
+        assert _read_gz(out).splitlines() == ['"a","b"', '"SPB-1","ok"', '"SPB-3","ok"']
+        printed = capsys.readouterr().out
+        assert "drop_unbalanced_quote_lines dropped 2 line(s)" in printed
+        assert "drop_backslash_lines dropped 1 line(s)" in printed

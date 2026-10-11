@@ -472,6 +472,20 @@ def drop_unbalanced_quote_lines(line, file_name, config):
     return line
 
 
+def drop_backslash_lines(line, file_name, config):
+    """Drop a line that is only a backslash — the middle shard of a MySQL-escaped newline.
+
+    Seoul 2016-09 has one record whose last station id ends in `\\r\\\\\\n` (CR, then a
+    backslash-escaped LF). The reader splits on the bare CR, so the record arrives as three
+    lines: both halves have unbalanced quotes (dropped by drop_unbalanced_quote_lines), but the
+    lone `\\` has none and would otherwise become an all-null row. The trip (SPB-01283) is lost
+    with it; rejoining would need a cross-line step for one record.
+    """
+    if line.strip() == "\\":
+        return None
+    return line
+
+
 # Toronto's 2020-10 file has 249 rows where the comma between `Trip Id` and `Trip  Duration` is
 # missing, fusing them into one field (`10000084625,7120,...` = trip 10000084, duration 625s).
 # The corruption starts exactly when trip ids crossed 10,000,000 — every fused id is 8 digits —
@@ -505,6 +519,7 @@ def toronto_split_fused_trip_id(line, file_name, config):
 LINE_CLEAN_FUNCTIONS = {
     "clean_seoul_files": clean_seoul_line,
     "drop_unbalanced_quote_lines": drop_unbalanced_quote_lines,
+    "drop_backslash_lines": drop_backslash_lines,
     "toronto_split_fused_trip_id": toronto_split_fused_trip_id,
 }
 
@@ -563,6 +578,26 @@ HEADER_PREPEND_FUNCTIONS = {
 }
 
 
+_DROPPED_LINE_EXAMPLES = 3
+
+
+def _record_dropped_line(drops: dict, step: str, line_number: int, line: str):
+    entry = drops.setdefault(step, {"count": 0, "examples": []})
+    entry["count"] += 1
+    if len(entry["examples"]) < _DROPPED_LINE_EXAMPLES:
+        entry["examples"].append((line_number, line))
+
+
+def _report_dropped_lines(file_name: str, drops: dict):
+    """Print how many lines each clean step dropped from a file, with the first few verbatim —
+    line drops otherwise vanish without trace, so a source change that unbalances every row
+    would empty a file while clean still reports success."""
+    for step, entry in drops.items():
+        print(f"🗑️  {file_name}: {step} dropped {entry['count']} line(s)")
+        for line_number, line in entry["examples"]:
+            print(f"     line {line_number}: {line!r}"[:300])
+
+
 def stream_clean_to_gzip(raw_file: Path, cleaned_file: Path, clean_pipeline, config):
     """Stream raw -> gzipped cleaned in a single pass.
 
@@ -580,7 +615,7 @@ def stream_clean_to_gzip(raw_file: Path, cleaned_file: Path, clean_pipeline, con
     compress_level = config.get("compress_level", 6)
 
     line_steps = [
-        LINE_CLEAN_FUNCTIONS[step]
+        (step, LINE_CLEAN_FUNCTIONS[step])
         for step in clean_pipeline
         if step in LINE_CLEAN_FUNCTIONS
     ]
@@ -611,12 +646,15 @@ def stream_clean_to_gzip(raw_file: Path, cleaned_file: Path, clean_pipeline, con
                 dst.write(header)
 
         lines = itertools.chain([first_line], src) if first_line else iter(())
-        for line in lines:
-            dropped = False
-            for fn in line_steps:
+        drops: dict = {}
+        for line_number, line in enumerate(lines, start=1):
+            original = line
+            for step, fn in line_steps:
                 line = fn(line, name, config)
                 if line is None:  # a transform signalled "drop this line"
-                    dropped = True
+                    _record_dropped_line(drops, step, line_number, original)
                     break
-            if not dropped:
+            else:
                 dst.write(line)
+
+    _report_dropped_lines(name, drops)
