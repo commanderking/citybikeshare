@@ -129,9 +129,9 @@ class TestMadridDedup:
         out = tmp_path / "202106_movements.csv"
 
         result = convert_bicimad_movements_json(
-            raw, out, {}, [Path("trips_21_06_June.csv.gz")]
+            raw, out, {}, [Path("trips_21_06_June.csv.gz")], options={}
         )
-        assert result is None
+        assert result == []
         assert not out.exists()
 
 

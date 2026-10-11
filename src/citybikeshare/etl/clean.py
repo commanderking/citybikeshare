@@ -3,10 +3,9 @@ import shutil
 from pathlib import Path
 from citybikeshare.utils.io_clean import (
     CLEAN_FUNCTIONS,
+    CONVERT_FUNCTIONS,
     HEADER_PREPEND_FUNCTIONS,
-    JSON_CONVERT_FUNCTIONS,
     LINE_CLEAN_FUNCTIONS,
-    XLSX_CONVERT_FUNCTIONS,
     materialize_cleaned_source,
     stream_clean_to_gzip,
 )
@@ -28,10 +27,8 @@ def _cleaned_csv_name(raw_name: str, compress: bool) -> str:
     return base + ".gz" if compress else base
 
 
-# Non-CSV raw inputs a converter step turns into cleaned CSVs (see JSON_CONVERT_FUNCTIONS and
-# XLSX_CONVERT_FUNCTIONS).
-_CONVERTED_SUFFIXES = (".json", ".xlsx")
-CONVERT_FUNCTIONS = {**JSON_CONVERT_FUNCTIONS, **XLSX_CONVERT_FUNCTIONS}
+# Non-CSV raw inputs a converter step turns into cleaned CSVs.
+_CONVERTED_SUFFIXES = tuple(sorted({sfx for sfx, _ in CONVERT_FUNCTIONS.values()}))
 
 
 def _cleaned_converted_name(raw_name: str, compress: bool) -> str:
@@ -113,9 +110,14 @@ def _passthrough_csv(raw_file: Path, cleaned_file: Path, compress: bool) -> None
         materialize_cleaned_source(raw_file, cleaned_file)
 
 
-def _converter_entries_for_file(steps, raw_name: str) -> list[dict]:
+def _select_converter_entries(steps, raw_name: str) -> list[dict]:
+    """The converter entries that apply to this raw file: in scope, and registered for its
+    suffix (so a bare-string JSON converter doesn't claim an xlsx it would only skip)."""
+    suffix = Path(raw_name.removesuffix(".gz")).suffix
     return [
-        s for s in _entries_for_file(steps, raw_name) if s["step"] in CONVERT_FUNCTIONS
+        s
+        for s in _entries_for_file(steps, raw_name)
+        if s["step"] in CONVERT_FUNCTIONS and CONVERT_FUNCTIONS[s["step"]][0] == suffix
     ]
 
 
@@ -125,7 +127,7 @@ def _assert_non_csv_inputs_claimed(convert_files, steps, ignored, city: str) -> 
     unclaimed = [
         f.name
         for f in convert_files
-        if f.name not in ignored and not _converter_entries_for_file(steps, f.name)
+        if f.name not in ignored and not _select_converter_entries(steps, f.name)
     ]
     if unclaimed:
         raise ValueError(
@@ -188,19 +190,6 @@ def _clean_one_csv(
     return {**file_signature(raw_file), "outputs": [cleaned_file.name]}
 
 
-def _run_converter(entry, raw_file, cleaned_file, config, csv_files) -> list[Path]:
-    """Dispatch one converter entry and normalize its result to a list of produced paths. JSON
-    converters return one Path or None (a deliberate skip); XLSX converters return one Path per
-    sheet and take their entry as `options`."""
-    step = entry["step"]
-    if step in XLSX_CONVERT_FUNCTIONS:
-        return XLSX_CONVERT_FUNCTIONS[step](
-            raw_file, cleaned_file, config, csv_files, options=entry
-        )
-    produced = JSON_CONVERT_FUNCTIONS[step](raw_file, cleaned_file, config, csv_files)
-    return [produced] if produced else []
-
-
 def _convert_one_source(
     raw_file: Path,
     cleaned_dir: Path,
@@ -226,8 +215,9 @@ def _convert_one_source(
 
     print(f"\n📄 Converting {raw_file.name}")
     produced: list[Path] = []
-    for entry in _converter_entries_for_file(steps, raw_file.name):
-        produced = _run_converter(entry, raw_file, cleaned_file, config, csv_files)
+    for entry in _select_converter_entries(steps, raw_file.name):
+        _, convert = CONVERT_FUNCTIONS[entry["step"]]
+        produced.extend(convert(raw_file, cleaned_file, config, csv_files, options=entry))
 
     return {**file_signature(raw_file), "outputs": [p.name for p in produced]}
 

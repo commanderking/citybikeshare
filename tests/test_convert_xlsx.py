@@ -183,6 +183,13 @@ class TestCleanStageXlsxInputs:
         with pytest.raises(ValueError, match="no converter step targets: \\['stray.xlsx'\\]"):
             clean_mod.clean_city_data(ctx)
 
+    def test_json_converter_does_not_claim_xlsx(self, tmp_path, monkeypatch):
+        ctx = self._ctx(tmp_path)
+        write_xlsx(ctx.raw_directory / "stray.xlsx", {"s": [HEADER]})
+        self._config(monkeypatch, {"clean_pipeline": ["convert_bicimad_movements_json"]})
+        with pytest.raises(ValueError, match="no converter step targets: \\['stray.xlsx'\\]"):
+            clean_mod.clean_city_data(ctx)
+
     def test_ignored_xlsx_is_skipped_and_targeted_one_converted(self, tmp_path, monkeypatch):
         ctx = self._ctx(tmp_path)
         write_xlsx(ctx.raw_directory / "readme.xlsx", {"s": [HEADER]})

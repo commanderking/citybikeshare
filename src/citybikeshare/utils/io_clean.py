@@ -150,9 +150,8 @@ CLEAN_FUNCTIONS = {
 # --------------------------------------------------------------------------------------
 # JSON → CSV conversion (clean stage). Some sources ship trips as JSON rather than CSV;
 # turning that into a well-formed CSV document is a clean-stage concern (not transform,
-# which maps already-headed CSVs to the canonical schema). A JSON converter takes
-# (raw_file, cleaned_file, config, sibling_csv_files) and returns the cleaned Path it
-# produced, or None when it deliberately skips the file. Keyed by clean_pipeline step name.
+# which maps already-headed CSVs to the canonical schema). Converters are registered in
+# CONVERT_FUNCTIONS below.
 # --------------------------------------------------------------------------------------
 
 
@@ -255,32 +254,25 @@ def _write_bicimad_movements_csv(raw_file: Path, cleaned_file: Path) -> int:
 
 
 def convert_bicimad_movements_json(
-    raw_file: Path, cleaned_file: Path, config, csv_files
-) -> Optional[Path]:
+    raw_file: Path, cleaned_file: Path, config, csv_files, options
+) -> list[Path]:
     """Convert one BiciMAD movements JSON (ndjson) into a `;`-delimited cleaned CSV, or skip it
-    (returns None) when it's a station snapshot or a month a CSV file already covers.
+    (returns []) when it's a station snapshot or a month a CSV file already covers.
     """
     name = raw_file.name
     if not _bicimad_is_trip_json(name):
         print(f"⏭️  Skipping non-trip JSON (station snapshot): {name}")
-        return None
+        return []
     if _bicimad_month_covered_by_csv(name, csv_files):
         print(
             f"⏭️  Skipping {name}: {_bicimad_json_year_month(name)} already covered by a "
             f"CSV file (avoiding double-count)"
         )
-        return None
+        return []
 
     row_count = _write_bicimad_movements_csv(raw_file, cleaned_file)
     print(f"✅ Converted {name} → {cleaned_file.name} ({row_count} rows)")
-    return cleaned_file
-
-
-# A JSON converter takes (raw_file, cleaned_file, config, sibling_csv_files) and returns the
-# cleaned Path produced (or None if skipped). Keyed by clean_pipeline step name.
-JSON_CONVERT_FUNCTIONS = {
-    "convert_bicimad_movements_json": convert_bicimad_movements_json,
-}
+    return [cleaned_file]
 
 
 # --------------------------------------------------------------------------------------
@@ -428,10 +420,13 @@ def convert_xlsx_sheets(
     return produced
 
 
-# An XLSX converter takes (raw_file, cleaned_file, config, sibling_csv_files, options) and
-# returns the list of cleaned Paths produced (one per sheet). Keyed by clean_pipeline step.
-XLSX_CONVERT_FUNCTIONS = {
-    "convert_xlsx_sheets": convert_xlsx_sheets,
+# Keyed by clean_pipeline step name → (raw suffix it handles, converter). A converter takes
+# (raw_file, cleaned_file, config, sibling_csv_files, options), where `options` is its
+# clean_pipeline entry, and returns the cleaned Paths it produced ([] for a deliberate skip).
+# The suffix keeps a converter from claiming a file type it would only skip.
+CONVERT_FUNCTIONS = {
+    "convert_bicimad_movements_json": (".json", convert_bicimad_movements_json),
+    "convert_xlsx_sheets": (".xlsx", convert_xlsx_sheets),
 }
 
 

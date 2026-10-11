@@ -258,7 +258,7 @@ def extract_city_data(context: PipelineContext, overwrite: bool = False) -> List
             produced = _extract_archive(entry, raw_dir)
         else:
             # Top-level CSV or XLSX: store the bytes verbatim, gzipped. Converting an xlsx to
-            # CSV is the clean stage's job (see XLSX_CONVERT_FUNCTIONS).
+            # CSV is the clean stage's job (see CONVERT_FUNCTIONS).
             dest = raw_dir / (source_name + ".gz")
             _gzip_file(entry, dest)
             (raw_dir / source_name).unlink(missing_ok=True)
