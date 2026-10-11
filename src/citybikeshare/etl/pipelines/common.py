@@ -1016,7 +1016,7 @@ BIKE_TYPE_MAP = {
     # (새싹자전거/BIK_003) lives in bike_model, not bike_type. LCD자전거 = the first-generation
     # LCD-terminal bike (2015 → phased out by 2021-08); 일반자전거/BIK_002 = its standard
     # successor. BIK_00x codes appeared in the original 2025 release, which the 2026-04 reissue
-    # replaced with Korean labels (see seoul.yaml note).
+    # replaced with Korean labels
     "LCD자전거": BikeType.CLASSIC,
     "일반자전거": BikeType.CLASSIC,
     "BIK_002": BikeType.CLASSIC,
