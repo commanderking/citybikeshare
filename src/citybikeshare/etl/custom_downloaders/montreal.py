@@ -47,7 +47,9 @@ def run_get_exports(playwright, url, download_path: Path):
     # Montreal renames the current-year archive as months are appended
     # (DonneesOuvertes2026_010203.zip → ...01020304.zip); pruning drops the stale name
     # without re-downloading the immutable completed-year archives.
-    prune_stale_downloads(download_path, {filename for filename, _, _ in remote}, "*.zip")
+    prune_stale_downloads(
+        download_path, {filename for filename, _, _ in remote}, "*.zip"
+    )
     browser.close()
 
 

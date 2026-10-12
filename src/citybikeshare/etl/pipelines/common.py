@@ -1012,9 +1012,12 @@ BIKE_TYPE_MAP = {
     # Taipei positional bike_type column (7-column layout, 2024-11+)
     "一般車": BikeType.CLASSIC,  # 一般車 = general/regular pedal bike
     "電輔車": BikeType.ELECTRIC,  # 電輔車 = electric-assist bike
-    # Seoul (자전거구분): Korean labels through 2024-12, re-coded to BIK_00x from 2025-01. All are
-    # pedal bikes; the small-frame Saessak "Sprout" distinction (새싹자전거/BIK_003) lives in
-    # bike_model, not bike_type. 일반자전거/BIK_002 = standard Ttareungi (see seoul.yaml note).
+    # Seoul (자전거구분): all pedal bikes; the small-frame Saessak "Sprout" distinction
+    # (새싹자전거/BIK_003) lives in bike_model, not bike_type. LCD자전거 = the first-generation
+    # LCD-terminal bike (2015 → phased out by 2021-08); 일반자전거/BIK_002 = its standard
+    # successor. BIK_00x codes appeared in the original 2025 release, which the 2026-04 reissue
+    # replaced with Korean labels
+    "LCD자전거": BikeType.CLASSIC,
     "일반자전거": BikeType.CLASSIC,
     "BIK_002": BikeType.CLASSIC,
     "새싹자전거": BikeType.CLASSIC,
