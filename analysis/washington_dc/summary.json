@@ -111,14 +111,14 @@
   },
   {
     "year": 2020,
-    "trip_count": 2141443,
-    "valid_duration_count": 2134154,
-    "duration_median": 813.0,
-    "duration_5_percent": 191.0,
-    "duration_q1": 452.0,
-    "duration_q3": 1431.0,
-    "duration_95_percent": 4166.0,
-    "null_rows": 127904
+    "trip_count": 2215956,
+    "valid_duration_count": 2208667,
+    "duration_median": 819.0,
+    "duration_5_percent": 192.0,
+    "duration_q1": 455.0,
+    "duration_q3": 1441.0,
+    "duration_95_percent": 4204.0,
+    "null_rows": 128363
   },
   {
     "year": 2021,

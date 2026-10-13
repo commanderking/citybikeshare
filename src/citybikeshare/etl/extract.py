@@ -16,7 +16,7 @@ import os
 import shutil
 import zipfile
 from pathlib import Path
-from typing import List
+from typing import List, Optional
 import tempfile
 from citybikeshare.context import PipelineContext
 from citybikeshare.config.loader import load_city_config
@@ -51,7 +51,47 @@ def _gzip_uncompressed_size(gz_path: Path) -> int:
         return int.from_bytes(f.read(4), "little")
 
 
-def _deposit_member_as_gzip(full_path: str, file: str, raw_dir: Path) -> Path:
+def _map_raw_files_to_downloads(
+    previous_run_metadata: dict, present_downloads: set
+) -> dict:
+    """raw name -> the download that produced it, for downloads still present this run.
+
+    A download that has left download/ (a renamed cumulative archive, e.g. Daejeon) is
+    dropped, so its successor may rewrite the files it produced.
+    """
+    download_by_raw_file = {}
+    for source, entry in previous_run_metadata.items():
+        if source not in present_downloads:
+            continue
+        for output in entry.get("outputs", []):
+            download_by_raw_file[output] = source
+    return download_by_raw_file
+
+
+def _assert_not_produced_by_other_download(
+    target_path: Path, source_name: str, download_by_raw_file: dict
+) -> None:
+    """Raise before overwriting a raw file that another present download produced.
+
+    Capital Bikeshare's April 2024 zip and Divvy's January 2026 zip each name their CSV after
+    the same month in an earlier year, so the later extract silently replaced that month.
+    """
+    producer = download_by_raw_file.get(target_path.name)
+    if target_path.exists() and producer not in (None, source_name):
+        raise ValueError(
+            f"{source_name} would overwrite raw/{target_path.name}, which {producer} "
+            f"produced, with different content. If {source_name}'s member is misnamed, "
+            f"map it to its correct name under `renamed_archive_members` in the city's YAML."
+        )
+
+
+def _deposit_member_as_gzip(
+    full_path: str | Path,
+    file: str,
+    raw_dir: Path,
+    source_name: str,
+    download_by_raw_file: dict,
+) -> Path:
     """Gzip a source member verbatim into raw/<file>.gz and return its path.
 
     Skips the rewrite when an unchanged copy already exists (cumulative archives
@@ -64,22 +104,42 @@ def _deposit_member_as_gzip(full_path: str, file: str, raw_dir: Path) -> Path:
     if target_path.exists() and _gzip_uncompressed_size(target_path) == src_size:
         print(f"🟡 Unchanged member, keeping {target_path.name}")
     else:
+        _assert_not_produced_by_other_download(
+            target_path, source_name, download_by_raw_file
+        )
         _gzip_file(full_path, target_path)
         kind = Path(file).suffix.lstrip(".").upper()
         print(f"✅ Extracted {kind} (gzip): {target_path.name}")
+    download_by_raw_file[target_path.name] = source_name
     # Drop any stale uncompressed sibling from a pre-gzip run.
     (raw_dir / file).unlink(missing_ok=True)
     return target_path
 
 
-def _extract_archive(zip_path, raw_dir: Path) -> List[Path]:
+def _raw_name_for_member(file: str) -> Optional[str]:
+    """Name a zip member is stored under in raw/ (before `.gz`), or None to skip it."""
+    lower = file.lower()
+    if lower.endswith((".csv", ".json")):
+        return file
+    # Chicago bundles a README.txt with its trip archives.
+    if lower.endswith(".txt") and not lower.startswith("readme"):
+        # Rosario ships its 2021 trips as a `.txt` (tab-delimited, Latin-1). Store the bytes
+        # as-is under a `.csv` name; making it a well-formed CSV is the clean stage's job.
+        return Path(file).stem + ".csv"
+    return None
+
+
+def _extract_archive(
+    zip_path, raw_dir: Path, source_name: str, download_by_raw_file: dict, renames: dict
+) -> List[Path]:
     """Extract one archive (recursing into nested zips) into raw_dir.
 
     Returns the list of raw paths produced from this archive. `.json` members are kept in
     raw/ alongside CSVs (e.g. Madrid's JSON-era trips) rather than dropped; clean converts
-    them, and raises on any non-CSV file no converter step claims.
+    them, and raises on any non-CSV file no converter step claims. ``renames`` maps a
+    misnamed member to the name it should be stored under (`renamed_archive_members`).
     """
-    produced: List[Path] = []
+    raw_files: List[Path] = []
     to_process = [zip_path]
 
     while to_process:
@@ -96,6 +156,7 @@ def _extract_archive(zip_path, raw_dir: Path) -> List[Path]:
                             if file.startswith("._"):
                                 continue
                             full_path = os.path.join(root, file)
+                            file = renames.get(file, file)
 
                             if zipfile.is_zipfile(full_path):
                                 # Copy nested zips to a safe path before temp deletion
@@ -103,43 +164,32 @@ def _extract_archive(zip_path, raw_dir: Path) -> List[Path]:
                                 shutil.copy(full_path, copied_path)
                                 to_process.append(copied_path)
                                 print(f"📦 Found nested zip (copied): {copied_path}")
+                                continue
 
-                            elif file.lower().endswith(".csv"):
-                                # Store raw as gzip (`<name>.csv.gz`); the read path
-                                # (transform/clean) handles `.gz` transparently.
-                                produced.append(
-                                    _deposit_member_as_gzip(full_path, file, raw_dir)
-                                )
-
-                            elif file.lower().endswith(".json"):
-                                produced.append(
-                                    _deposit_member_as_gzip(full_path, file, raw_dir)
-                                )
-
-                            elif file.lower().endswith(".txt"):
-                                if file.lower().startswith("readme"):
-                                    # Chicago bundles a README.txt with its trip archives.
-                                    print(f"⏭️  Skipping README: {file}")
-                                    continue
-                                # Rosario ships its 2021 trips as a `.txt` (tab-delimited,
-                                # Latin-1). Store the bytes as-is under a `.csv` name; making
-                                # it a well-formed CSV is the clean stage's job.
-                                produced.append(
+                            raw_name = _raw_name_for_member(file)
+                            if raw_name:
+                                raw_files.append(
                                     _deposit_member_as_gzip(
-                                        full_path, Path(file).stem + ".csv", raw_dir
+                                        full_path,
+                                        raw_name,
+                                        raw_dir,
+                                        source_name,
+                                        download_by_raw_file,
                                     )
                                 )
         except zipfile.BadZipFile:
             print(f"⚠️  Skipping invalid ZIP file: {current}")
 
-    return produced
+    return raw_files
 
 
 def _all_outputs_exist(raw_dir: Path, outputs: List[str]) -> bool:
     return all((raw_dir / name).exists() for name in outputs)
 
 
-def _orphan_raw_files(raw_dir: Path, previous_state: dict, new_state: dict) -> dict:
+def _orphan_raw_files(
+    raw_dir: Path, previous_run_metadata: dict, current_run_metadata: dict
+) -> dict:
     """Detect raw files left behind by archives no longer present in download/.
 
     Returns {vanished_archive: [orphaned output names]}. When a source archive
@@ -154,14 +204,16 @@ def _orphan_raw_files(raw_dir: Path, previous_state: dict, new_state: dict) -> d
     in the prior state).
     """
     current_outputs = {
-        name for entry in new_state.values() for name in entry.get("outputs", [])
+        name
+        for entry in current_run_metadata.values()
+        for name in entry.get("outputs", [])
     }
-    vanished = set(previous_state) - set(new_state)
+    vanished = set(previous_run_metadata) - set(current_run_metadata)
     orphans: dict = {}
     for source_name in sorted(vanished):
         names = [
             output
-            for output in previous_state[source_name].get("outputs", [])
+            for output in previous_run_metadata[source_name].get("outputs", [])
             if output not in current_outputs and (raw_dir / output).exists()
         ]
         if names:
@@ -199,7 +251,7 @@ def extract_city_data(context: PipelineContext, overwrite: bool = False) -> List
     """
     Extract all downloaded archives for a city into its raw folder.
 
-    Supports nested ZIPs, .txt-to-.csv conversion, and removes AppleDouble (._) metadata files.
+    Supports nested ZIPs, .txt-to-.csv conversion, and skips AppleDouble (._) metadata files.
     Skips downloads whose size+mtime signature is unchanged since the last run. Raw files left
     behind by archives no longer present in download/ are warned about, and deleted when the
     city sets `prune_renamed_archives: true`.
@@ -208,32 +260,28 @@ def extract_city_data(context: PipelineContext, overwrite: bool = False) -> List
     city_name = config["name"]
     download_directory = context.download_directory
     raw_dir = context.raw_directory
-    raw_dir.mkdir(parents=True, exist_ok=True)
 
     if overwrite:
         print(f"🧹 Clearing existing extracted data for {city_name}")
         shutil.rmtree(raw_dir, ignore_errors=True)
-        raw_dir.mkdir(parents=True, exist_ok=True)
-        state = {}
+        previous_run_metadata = {}
     else:
-        state = load_state(context.extract_state_path)
+        previous_run_metadata = load_state(context.extract_state_path)
+    raw_dir.mkdir(parents=True, exist_ok=True)
 
     print(f"📦 Extracting data for {city_name}")
 
-    # Clean any legacy AppleDouble (._) files left in raw/ before the idempotency
-    # check, so recorded outputs are compared against a clean directory.
-    for root, _, files in os.walk(raw_dir):
-        for file in files:
-            if file.startswith("._"):
-                os.remove(os.path.join(root, file))
-                print(f"🧹 Removed AppleDouble file: {file}")
+    current_run_metadata: dict = {}
+    raw_files_for_city: List[Path] = []
+    downloads = sorted(Path(download_directory).iterdir())
+    download_by_raw_file = _map_raw_files_to_downloads(
+        previous_run_metadata, {entry.name for entry in downloads}
+    )
+    renamed_members = config.get("renamed_archive_members", {})
 
-    new_state: dict = {}
-    csv_files: List[Path] = []
-
-    for entry in sorted(Path(download_directory).iterdir()):
+    for entry in downloads:
         source_name = entry.name
-        recorded = state.get(source_name)
+        recorded = previous_run_metadata.get(source_name)
 
         # An xlsx is itself a zip, so test for it before is_zipfile — otherwise it would be
         # "extracted" (no .csv members) and silently dropped.
@@ -250,39 +298,47 @@ def extract_city_data(context: PipelineContext, overwrite: bool = False) -> List
             and _all_outputs_exist(raw_dir, recorded.get("outputs", []))
         ):
             print(f"🟡 Skipping extract - {source_name} unchanged")
-            new_state[source_name] = recorded
-            csv_files.extend(raw_dir / name for name in recorded["outputs"])
+            current_run_metadata[source_name] = recorded
+            raw_files_for_city.extend(raw_dir / name for name in recorded["outputs"])
             continue
 
         if is_zip:
-            produced = _extract_archive(entry, raw_dir)
+            raw_files = _extract_archive(
+                entry,
+                raw_dir,
+                source_name,
+                download_by_raw_file,
+                renamed_members.get(source_name, {}),
+            )
         else:
             # Top-level CSV or XLSX: store the bytes verbatim, gzipped. Converting an xlsx to
             # CSV is the clean stage's job (see CONVERT_FUNCTIONS).
-            dest = raw_dir / (source_name + ".gz")
-            _gzip_file(entry, dest)
-            (raw_dir / source_name).unlink(missing_ok=True)
-            produced = [dest]
-            print(f"✅ Copied {entry.suffix.lstrip('.').upper()} (gzip): {dest.name}")
+            raw_files = [
+                _deposit_member_as_gzip(
+                    entry, source_name, raw_dir, source_name, download_by_raw_file
+                )
+            ]
 
-        csv_files.extend(produced)
-        new_state[source_name] = {
+        raw_files_for_city.extend(raw_files)
+        current_run_metadata[source_name] = {
             **file_signature(entry),
-            "outputs": [p.name for p in produced],
+            "outputs": [p.name for p in raw_files],
         }
 
-    orphans = _orphan_raw_files(raw_dir, state, new_state)
+    orphans = _orphan_raw_files(raw_dir, previous_run_metadata, current_run_metadata)
     _apply_orphan_cleanup(
         raw_dir, orphans, prune=config.get("prune_renamed_archives", False)
     )
 
-    write_state(context.extract_state_path, new_state)
+    write_state(context.extract_state_path, current_run_metadata)
 
-    if not csv_files:
+    if not raw_files_for_city:
         print(
             f"⚠️  No CSV files found or converted for {city_name}. Did download succeed?"
         )
     else:
-        print(f"📂 Extracted and converted {len(csv_files)} CSV files for {city_name}")
+        print(
+            f"📂 Extracted and converted {len(raw_files_for_city)} raw files for {city_name}"
+        )
 
-    return csv_files
+    return raw_files_for_city

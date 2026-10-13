@@ -25,7 +25,7 @@
   },
   {
     "name": "21st St & Pulaski Rd",
-    "lat": 41.853504,
+    "lat": 41.853503,
     "lng": -87.724712,
     "first_seen": "2024-04-13",
     "last_seen": "2026-09-30",
@@ -126,7 +126,7 @@
   {
     "name": "Aberdeen St & Monroe St",
     "lat": 41.880387,
-    "lng": -87.655436,
+    "lng": -87.655437,
     "first_seen": "2020-01-01",
     "last_seen": "2026-09-30",
     "aliases": []
@@ -284,8 +284,8 @@
   },
   {
     "name": "Albany Ave & Belmont Ave",
-    "lat": 41.939729,
-    "lng": -87.70629,
+    "lat": 41.939728,
+    "lng": -87.706286,
     "first_seen": "2021-10-27",
     "last_seen": "2026-09-30",
     "aliases": []
@@ -382,15 +382,15 @@
   },
   {
     "name": "Artesian Ave & 55th St",
-    "lat": 41.792559,
-    "lng": -87.687312,
+    "lat": 41.792561,
+    "lng": -87.68731,
     "first_seen": "2021-10-06",
     "last_seen": "2026-09-29",
     "aliases": []
   },
   {
     "name": "Artesian Ave & 71st St",
-    "lat": 41.764346,
+    "lat": 41.764345,
     "lng": -87.684418,
     "first_seen": "2023-10-06",
     "last_seen": "2026-09-26",
@@ -504,8 +504,8 @@
   },
   {
     "name": "Ashland Ave & 78th St",
-    "lat": 41.752496,
-    "lng": -87.663785,
+    "lat": 41.752495,
+    "lng": -87.663784,
     "first_seen": "2020-07-29",
     "last_seen": "2026-09-28",
     "aliases": []
@@ -521,7 +521,7 @@
   {
     "name": "Ashland Ave & Augusta Blvd",
     "lat": 41.89963,
-    "lng": -87.667996,
+    "lng": -87.667995,
     "first_seen": "2020-01-01",
     "last_seen": "2026-09-30",
     "aliases": []
@@ -544,7 +544,7 @@
   },
   {
     "name": "Ashland Ave & Chicago Ave",
-    "lat": 41.895877,
+    "lat": 41.895878,
     "lng": -87.667718,
     "first_seen": "2020-01-01",
     "last_seen": "2026-09-30",
@@ -553,7 +553,7 @@
   {
     "name": "Ashland Ave & Division St",
     "lat": 41.903403,
-    "lng": -87.667904,
+    "lng": -87.667903,
     "first_seen": "2020-01-01",
     "last_seen": "2025-10-23",
     "aliases": []
@@ -593,7 +593,7 @@
   {
     "name": "Ashland Ave & McDowell Ave",
     "lat": 41.809168,
-    "lng": -87.664255,
+    "lng": -87.664254,
     "first_seen": "2020-01-02",
     "last_seen": "2026-09-28",
     "aliases": []
@@ -609,7 +609,7 @@
   {
     "name": "Ashland Ave & Wellington Ave",
     "lat": 41.93608,
-    "lng": -87.669818,
+    "lng": -87.669817,
     "first_seen": "2020-01-01",
     "last_seen": "2026-09-30",
     "aliases": []
@@ -624,8 +624,8 @@
   },
   {
     "name": "Augusta Blvd & Laramie Ave",
-    "lat": 41.899157,
-    "lng": -87.757147,
+    "lat": 41.899152,
+    "lng": -87.75713,
     "first_seen": "2021-11-05",
     "last_seen": "2026-03-22",
     "aliases": []
@@ -634,7 +634,7 @@
     "name": "Austin Ave & Milwaukee Ave",
     "lat": 41.98736,
     "lng": -87.77805,
-    "first_seen": "2025-02-21",
+    "first_seen": "2025-01-18",
     "last_seen": "2026-09-27",
     "aliases": []
   },
@@ -854,8 +854,8 @@
   },
   {
     "name": "Baltimore Ave & 133rd St",
-    "lat": 41.653362,
-    "lng": -87.547139,
+    "lat": 41.653363,
+    "lng": -87.547138,
     "first_seen": "2022-06-08",
     "last_seen": "2026-09-29",
     "aliases": []
@@ -1052,8 +1052,8 @@
   },
   {
     "name": "Broadway & Argyle St",
-    "lat": 41.973918,
-    "lng": -87.659715,
+    "lat": 41.973919,
+    "lng": -87.659716,
     "first_seen": "2020-01-01",
     "last_seen": "2026-09-30",
     "aliases": []
@@ -1165,7 +1165,7 @@
   {
     "name": "Broadway & Wilson Ave",
     "lat": 41.965217,
-    "lng": -87.658162,
+    "lng": -87.658161,
     "first_seen": "2020-01-01",
     "last_seen": "2026-09-30",
     "aliases": [
@@ -1182,8 +1182,8 @@
   },
   {
     "name": "Buckingham Fountain",
-    "lat": 41.874648,
-    "lng": -87.621427,
+    "lat": 41.874649,
+    "lng": -87.621426,
     "first_seen": "2020-01-01",
     "last_seen": "2025-11-04",
     "aliases": []
@@ -1297,8 +1297,8 @@
   },
   {
     "name": "California & 16th St",
-    "lat": 41.859398,
-    "lng": -87.696474,
+    "lat": 41.859397,
+    "lng": -87.696468,
     "first_seen": "2022-02-27",
     "last_seen": "2026-03-09",
     "aliases": []
@@ -1345,8 +1345,8 @@
   },
   {
     "name": "California Ave & 36th St",
-    "lat": 41.828643,
-    "lng": -87.69337,
+    "lat": 41.828642,
+    "lng": -87.693373,
     "first_seen": "2021-09-29",
     "last_seen": "2026-09-30",
     "aliases": []
@@ -1431,7 +1431,7 @@
   {
     "name": "California Ave & Granville Ave",
     "lat": 41.994176,
-    "lng": -87.699498,
+    "lng": -87.699499,
     "first_seen": "2023-10-20",
     "last_seen": "2026-09-30",
     "aliases": []
@@ -1454,8 +1454,8 @@
   },
   {
     "name": "California Ave & Marquette Rd",
-    "lat": 41.771019,
-    "lng": -87.692114,
+    "lat": 41.771022,
+    "lng": -87.692118,
     "first_seen": "2021-10-28",
     "last_seen": "2026-09-29",
     "aliases": []
@@ -1478,7 +1478,7 @@
   },
   {
     "name": "California Ave & North Ave",
-    "lat": 41.910297,
+    "lat": 41.910296,
     "lng": -87.697175,
     "first_seen": "2020-01-01",
     "last_seen": "2026-09-30",
@@ -1529,8 +1529,8 @@
   },
   {
     "name": "California Ave & Winona St",
-    "lat": 41.973318,
-    "lng": -87.698484,
+    "lat": 41.973325,
+    "lng": -87.698481,
     "first_seen": "2021-11-03",
     "last_seen": "2026-09-30",
     "aliases": []
@@ -1569,7 +1569,7 @@
   },
   {
     "name": "Calumet Ave & 33rd St",
-    "lat": 41.834873,
+    "lat": 41.834874,
     "lng": -87.617936,
     "first_seen": "2020-01-01",
     "last_seen": "2026-09-30",
@@ -1617,8 +1617,8 @@
   },
   {
     "name": "Campbell Ave & 51st St",
-    "lat": 41.800647,
-    "lng": -87.68778,
+    "lat": 41.800648,
+    "lng": -87.687776,
     "first_seen": "2021-10-20",
     "last_seen": "2026-09-28",
     "aliases": []
@@ -1634,14 +1634,14 @@
   {
     "name": "Campbell Ave & Fullerton Ave",
     "lat": 41.924538,
-    "lng": -87.689077,
+    "lng": -87.689078,
     "first_seen": "2020-01-01",
     "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Campbell Ave & Irving Park Rd",
-    "lat": 41.952906,
+    "lat": 41.95291,
     "lng": -87.690633,
     "first_seen": "2022-01-25",
     "last_seen": "2026-09-30",
@@ -1673,7 +1673,7 @@
   },
   {
     "name": "Canal St & Adams St",
-    "lat": 41.879286,
+    "lat": 41.879285,
     "lng": -87.639918,
     "first_seen": "2020-01-01",
     "last_seen": "2026-09-30",
@@ -1689,8 +1689,8 @@
   },
   {
     "name": "Canal St & Jackson Blvd",
-    "lat": 41.877672,
-    "lng": -87.639659,
+    "lat": 41.877676,
+    "lng": -87.639661,
     "first_seen": "2020-01-01",
     "last_seen": "2026-09-30",
     "aliases": []
@@ -1705,7 +1705,7 @@
   },
   {
     "name": "Canal St & Madison St",
-    "lat": 41.882315,
+    "lat": 41.882316,
     "lng": -87.639772,
     "first_seen": "2020-01-01",
     "last_seen": "2026-09-30",
@@ -1713,7 +1713,7 @@
   },
   {
     "name": "Canal St & Monroe St",
-    "lat": 41.882041,
+    "lat": 41.882044,
     "lng": -87.639576,
     "first_seen": "2020-01-01",
     "last_seen": "2026-09-30",
@@ -1857,16 +1857,16 @@
   },
   {
     "name": "Central Ave & Parker Ave",
-    "lat": 41.93009,
-    "lng": -87.76799,
+    "lat": 41.930091,
+    "lng": -87.767981,
     "first_seen": "2021-07-31",
     "last_seen": "2026-09-29",
     "aliases": []
   },
   {
     "name": "Central Ave & Roscoe St",
-    "lat": 41.941019,
-    "lng": -87.768629,
+    "lat": 41.941027,
+    "lng": -87.768619,
     "first_seen": "2021-08-06",
     "last_seen": "2026-09-29",
     "aliases": []
@@ -1929,8 +1929,8 @@
   },
   {
     "name": "Central Park Ave & Douglas Blvd",
-    "lat": 41.861436,
-    "lng": -87.717471,
+    "lat": 41.861437,
+    "lng": -87.71747,
     "first_seen": "2021-07-10",
     "last_seen": "2026-09-30",
     "aliases": []
@@ -1969,8 +1969,8 @@
   },
   {
     "name": "Central Park Ave & Ohio St",
-    "lat": 41.89121,
-    "lng": -87.717688,
+    "lat": 41.891218,
+    "lng": -87.717672,
     "first_seen": "2021-10-16",
     "last_seen": "2026-09-29",
     "aliases": []
@@ -2191,16 +2191,16 @@
   },
   {
     "name": "Cicero Ave & Wellington Ave",
-    "lat": 41.936536,
-    "lng": -87.747401,
+    "lat": 41.936525,
+    "lng": -87.747393,
     "first_seen": "2022-05-09",
     "last_seen": "2026-09-28",
     "aliases": []
   },
   {
     "name": "Cicero Ave & Wrightwood Ave",
-    "lat": 41.928094,
-    "lng": -87.747029,
+    "lat": 41.92809,
+    "lng": -87.747024,
     "first_seen": "2022-05-09",
     "last_seen": "2026-09-30",
     "aliases": []
@@ -2275,7 +2275,7 @@
   {
     "name": "Clark St & 9th St (AMLI)",
     "lat": 41.870819,
-    "lng": -87.631223,
+    "lng": -87.631224,
     "first_seen": "2020-01-01",
     "last_seen": "2026-09-30",
     "aliases": []
@@ -2299,7 +2299,7 @@
   {
     "name": "Clark St & Berwyn Ave",
     "lat": 41.978012,
-    "lng": -87.668281,
+    "lng": -87.668282,
     "first_seen": "2020-01-01",
     "last_seen": "2026-09-30",
     "aliases": []
@@ -2581,7 +2581,7 @@
   {
     "name": "Clinton St & Jackson Blvd",
     "lat": 41.87832,
-    "lng": -87.640946,
+    "lng": -87.640947,
     "first_seen": "2020-01-01",
     "last_seen": "2026-09-30",
     "aliases": []
@@ -2596,8 +2596,8 @@
   },
   {
     "name": "Clinton St & Madison St",
-    "lat": 41.882409,
-    "lng": -87.641153,
+    "lat": 41.882412,
+    "lng": -87.641154,
     "first_seen": "2020-01-01",
     "last_seen": "2026-09-30",
     "aliases": []
@@ -2628,7 +2628,7 @@
   },
   {
     "name": "Clinton St & Washington Blvd",
-    "lat": 41.883351,
+    "lat": 41.883352,
     "lng": -87.641195,
     "first_seen": "2020-01-01",
     "last_seen": "2026-09-30",
@@ -2723,8 +2723,8 @@
   },
   {
     "name": "Commercial Ave & 90th St",
-    "lat": 41.731895,
-    "lng": -87.551732,
+    "lat": 41.731896,
+    "lng": -87.551725,
     "first_seen": "2024-08-21",
     "last_seen": "2026-09-28",
     "aliases": []
@@ -2867,7 +2867,7 @@
   },
   {
     "name": "Cottage Grove Ave & 63rd St",
-    "lat": 41.780564,
+    "lat": 41.780563,
     "lng": -87.605958,
     "first_seen": "2020-01-02",
     "last_seen": "2026-09-30",
@@ -2982,8 +2982,8 @@
   },
   {
     "name": "Damen Ave & 33rd St",
-    "lat": 41.832361,
-    "lng": -87.677468,
+    "lat": 41.832367,
+    "lng": -87.677461,
     "first_seen": "2021-10-10",
     "last_seen": "2026-09-29",
     "aliases": []
@@ -2999,7 +2999,7 @@
   {
     "name": "Damen Ave & 51st St",
     "lat": 41.800909,
-    "lng": -87.674678,
+    "lng": -87.674679,
     "first_seen": "2020-01-01",
     "last_seen": "2026-09-29",
     "aliases": []
@@ -3015,15 +3015,15 @@
   {
     "name": "Damen Ave & 74th St",
     "lat": 41.759274,
-    "lng": -87.67364,
+    "lng": -87.673639,
     "first_seen": "2022-05-07",
     "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Damen Ave & 77th St",
-    "lat": 41.754024,
-    "lng": -87.673365,
+    "lat": 41.754026,
+    "lng": -87.673363,
     "first_seen": "2024-06-19",
     "last_seen": "2026-09-26",
     "aliases": []
@@ -3111,7 +3111,7 @@
   {
     "name": "Damen Ave & Division St",
     "lat": 41.903268,
-    "lng": -87.678441,
+    "lng": -87.67844,
     "first_seen": "2020-01-01",
     "last_seen": "2026-09-30",
     "aliases": []
@@ -3134,7 +3134,7 @@
   },
   {
     "name": "Damen Ave & Grand Ave",
-    "lat": 41.892039,
+    "lat": 41.89204,
     "lng": -87.676877,
     "first_seen": "2020-01-01",
     "last_seen": "2025-11-06",
@@ -3198,8 +3198,8 @@
   },
   {
     "name": "Damen Ave & Pierce Ave",
-    "lat": 41.909366,
-    "lng": -87.677679,
+    "lat": 41.909364,
+    "lng": -87.677678,
     "first_seen": "2020-01-01",
     "last_seen": "2026-09-30",
     "aliases": []
@@ -3238,8 +3238,8 @@
   },
   {
     "name": "Damen Ave & Wabansia Ave",
-    "lat": 41.911716,
-    "lng": -87.677945,
+    "lat": 41.911719,
+    "lng": -87.677941,
     "first_seen": "2021-03-25",
     "last_seen": "2026-09-30",
     "aliases": []
@@ -3434,8 +3434,8 @@
   },
   {
     "name": "Desplaines St & Randolph St",
-    "lat": 41.884253,
-    "lng": -87.644429,
+    "lat": 41.884251,
+    "lng": -87.644428,
     "first_seen": "2020-01-01",
     "last_seen": "2026-09-30",
     "aliases": []
@@ -3466,7 +3466,7 @@
   },
   {
     "name": "Dodge Ave & Mulford St",
-    "lat": 42.023491,
+    "lat": 42.02349,
     "lng": -87.6996,
     "first_seen": "2020-01-02",
     "last_seen": "2026-09-30",
@@ -3475,7 +3475,7 @@
   {
     "name": "Dorchester Ave & 49th St",
     "lat": 41.805787,
-    "lng": -87.592472,
+    "lng": -87.592471,
     "first_seen": "2020-01-01",
     "last_seen": "2026-09-30",
     "aliases": []
@@ -3538,7 +3538,7 @@
   },
   {
     "name": "Drexel Ave & 60th St",
-    "lat": 41.785857,
+    "lat": 41.785858,
     "lng": -87.604557,
     "first_seen": "2023-08-02",
     "last_seen": "2026-09-30",
@@ -3697,7 +3697,7 @@
   {
     "name": "Eberhart Ave & 91st St",
     "lat": 41.729444,
-    "lng": -87.611254,
+    "lng": -87.611253,
     "first_seen": "2020-07-31",
     "last_seen": "2026-09-17",
     "aliases": []
@@ -3745,7 +3745,7 @@
   {
     "name": "Eggleston Ave & 115th St",
     "lat": 41.685067,
-    "lng": -87.633471,
+    "lng": -87.63348,
     "first_seen": "2022-08-07",
     "last_seen": "2026-09-07",
     "aliases": []
@@ -3762,7 +3762,7 @@
   },
   {
     "name": "Eggleston Ave & 92nd St",
-    "lat": 41.727868,
+    "lat": 41.727867,
     "lng": -87.634997,
     "first_seen": "2020-09-03",
     "last_seen": "2026-09-21",
@@ -3802,16 +3802,16 @@
   },
   {
     "name": "Elizabeth St & Fulton St",
-    "lat": 41.886749,
-    "lng": -87.659395,
+    "lat": 41.88675,
+    "lng": -87.659391,
     "first_seen": "2022-09-24",
     "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Elizabeth St & Randolph St",
-    "lat": 41.884188,
-    "lng": -87.658946,
+    "lat": 41.884189,
+    "lng": -87.658945,
     "first_seen": "2023-02-07",
     "last_seen": "2026-09-30",
     "aliases": []
@@ -3851,7 +3851,7 @@
   {
     "name": "Ellis Ave & 60th St",
     "lat": 41.785103,
-    "lng": -87.601076,
+    "lng": -87.601075,
     "first_seen": "2020-01-02",
     "last_seen": "2026-09-30",
     "aliases": []
@@ -3876,7 +3876,7 @@
     "name": "Elston Ave & Carmen Ave",
     "lat": 41.97354,
     "lng": -87.749551,
-    "first_seen": "2025-02-05",
+    "first_seen": "2025-01-17",
     "last_seen": "2026-09-29",
     "aliases": []
   },
@@ -3890,7 +3890,7 @@
   },
   {
     "name": "Elston Ave & George St",
-    "lat": 41.933043,
+    "lat": 41.933045,
     "lng": -87.69063,
     "first_seen": "2021-11-05",
     "last_seen": "2026-09-30",
@@ -3898,7 +3898,7 @@
   },
   {
     "name": "Elston Ave & Henderson St",
-    "lat": 41.941156,
+    "lat": 41.941157,
     "lng": -87.700733,
     "first_seen": "2021-11-19",
     "last_seen": "2026-09-30",
@@ -3923,7 +3923,7 @@
   {
     "name": "Emerald Ave & 31st St",
     "lat": 41.838203,
-    "lng": -87.645138,
+    "lng": -87.645139,
     "first_seen": "2020-01-01",
     "last_seen": "2026-09-30",
     "aliases": []
@@ -3988,8 +3988,8 @@
   },
   {
     "name": "Ewing Ave & 106th St",
-    "lat": 41.702584,
-    "lng": -87.535746,
+    "lat": 41.702585,
+    "lng": -87.535745,
     "first_seen": "2022-05-09",
     "last_seen": "2026-09-29",
     "aliases": []
@@ -4030,16 +4030,16 @@
   },
   {
     "name": "Ewing Ave & Burnham Greenway",
-    "lat": 41.77261,
-    "lng": -87.580404,
+    "lat": 41.772176,
+    "lng": -87.580092,
     "first_seen": "2020-09-24",
     "last_seen": "2026-09-26",
     "aliases": []
   },
   {
     "name": "Exchange Ave & 79th St",
-    "lat": 41.751922,
-    "lng": -87.552483,
+    "lat": 41.751923,
+    "lng": -87.55248,
     "first_seen": "2020-01-10",
     "last_seen": "2026-09-28",
     "aliases": []
@@ -4070,8 +4070,8 @@
   },
   {
     "name": "Fairfield Ave & 44th St",
-    "lat": 41.812799,
-    "lng": -87.692498,
+    "lat": 41.812806,
+    "lng": -87.692504,
     "first_seen": "2021-10-18",
     "last_seen": "2026-09-29",
     "aliases": []
@@ -4079,7 +4079,7 @@
   {
     "name": "Fairfield Ave & Pratt Blvd",
     "lat": 42.004466,
-    "lng": -87.698599,
+    "lng": -87.698598,
     "first_seen": "2024-03-28",
     "last_seen": "2026-09-30",
     "aliases": []
@@ -4166,8 +4166,8 @@
   },
   {
     "name": "Francisco Ave & 47th St",
-    "lat": 41.808994,
-    "lng": -87.697828,
+    "lat": 41.808993,
+    "lng": -87.697825,
     "first_seen": "2021-11-27",
     "last_seen": "2026-09-25",
     "aliases": []
@@ -4182,7 +4182,7 @@
   },
   {
     "name": "Francisco Ave & Bloomingdale Ave",
-    "lat": 41.913193,
+    "lat": 41.913194,
     "lng": -87.699511,
     "first_seen": "2021-11-11",
     "last_seen": "2026-09-30",
@@ -4206,16 +4206,16 @@
   },
   {
     "name": "Francisco Ave & Hollywood Ave",
-    "lat": 41.983537,
-    "lng": -87.701229,
+    "lat": 41.983541,
+    "lng": -87.701231,
     "first_seen": "2021-11-05",
     "last_seen": "2026-09-29",
     "aliases": []
   },
   {
     "name": "Francisco Ave & Montrose Ave",
-    "lat": 41.960747,
-    "lng": -87.700653,
+    "lat": 41.960748,
+    "lng": -87.700654,
     "first_seen": "2021-11-02",
     "last_seen": "2026-09-30",
     "aliases": []
@@ -4254,8 +4254,8 @@
   },
   {
     "name": "Franklin St & Chicago Ave",
-    "lat": 41.896764,
-    "lng": -87.635681,
+    "lat": 41.896765,
+    "lng": -87.63568,
     "first_seen": "2020-01-01",
     "last_seen": "2026-09-30",
     "aliases": [
@@ -4297,7 +4297,7 @@
   {
     "name": "Franklin St & Monroe St",
     "lat": 41.880286,
-    "lng": -87.63524,
+    "lng": -87.635239,
     "first_seen": "2020-01-01",
     "last_seen": "2026-09-30",
     "aliases": []
@@ -4336,8 +4336,8 @@
   },
   {
     "name": "Fullerton & Monitor",
-    "lat": 41.921194,
-    "lng": -87.770725,
+    "lat": 41.921196,
+    "lng": -87.770726,
     "first_seen": "2022-01-10",
     "last_seen": "2026-03-03",
     "aliases": []
@@ -4488,7 +4488,7 @@
   {
     "name": "Green St & Madison St",
     "lat": 41.881876,
-    "lng": -87.649031,
+    "lng": -87.649032,
     "first_seen": "2020-01-01",
     "last_seen": "2026-09-30",
     "aliases": []
@@ -4556,7 +4556,7 @@
   {
     "name": "Greenwood Ave & 79th St",
     "lat": 41.751326,
-    "lng": -87.597253,
+    "lng": -87.597249,
     "first_seen": "2020-01-02",
     "last_seen": "2026-09-30",
     "aliases": []
@@ -4718,14 +4718,14 @@
   {
     "name": "Halsted St & 51st St",
     "lat": 41.801837,
-    "lng": -87.645248,
+    "lng": -87.645247,
     "first_seen": "2020-02-02",
     "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Halsted St & 56th St",
-    "lat": 41.793001,
+    "lat": 41.793,
     "lng": -87.644977,
     "first_seen": "2020-01-02",
     "last_seen": "2026-09-19",
@@ -4785,7 +4785,7 @@
   },
   {
     "name": "Halsted St & 78th St",
-    "lat": 41.752547,
+    "lat": 41.752546,
     "lng": -87.643808,
     "first_seen": "2020-07-23",
     "last_seen": "2026-09-25",
@@ -4888,7 +4888,7 @@
   },
   {
     "name": "Halsted St & Fulton St",
-    "lat": 41.886963,
+    "lat": 41.886962,
     "lng": -87.648076,
     "first_seen": "2023-03-16",
     "last_seen": "2026-09-30",
@@ -4968,8 +4968,8 @@
   },
   {
     "name": "Hamilton Park",
-    "lat": 41.762489,
-    "lng": -87.637373,
+    "lat": 41.76249,
+    "lng": -87.637372,
     "first_seen": "2022-05-16",
     "last_seen": "2026-09-30",
     "aliases": []
@@ -4977,7 +4977,7 @@
   {
     "name": "Hamlin Ave & 62nd Pl",
     "lat": 41.779958,
-    "lng": -87.718957,
+    "lng": -87.718951,
     "first_seen": "2021-10-09",
     "last_seen": "2026-09-30",
     "aliases": []
@@ -5000,16 +5000,16 @@
   },
   {
     "name": "Hamlin Ave & Grand Ave",
-    "lat": 41.903787,
-    "lng": -87.721469,
+    "lat": 41.903791,
+    "lng": -87.721471,
     "first_seen": "2022-05-10",
     "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Hampden Ct & Diversey Ave",
-    "lat": 41.93149,
-    "lng": -87.641466,
+    "lat": 41.931495,
+    "lng": -87.641471,
     "first_seen": "2021-04-03",
     "last_seen": "2025-08-10",
     "aliases": []
@@ -5032,8 +5032,8 @@
   },
   {
     "name": "Harding Ave & 26th St",
-    "lat": 41.842358,
-    "lng": -87.721842,
+    "lat": 41.84236,
+    "lng": -87.721844,
     "first_seen": "2021-08-05",
     "last_seen": "2026-09-30",
     "aliases": []
@@ -5059,7 +5059,7 @@
   {
     "name": "Harding Ave & Chicago Ave",
     "lat": 41.89531,
-    "lng": -87.724743,
+    "lng": -87.724742,
     "first_seen": "2024-04-19",
     "last_seen": "2026-09-29",
     "aliases": []
@@ -5211,7 +5211,7 @@
   {
     "name": "Hegewisch Metra Station",
     "lat": 41.648521,
-    "lng": -87.546121,
+    "lng": -87.54612,
     "first_seen": "2020-11-06",
     "last_seen": "2026-09-29",
     "aliases": []
@@ -5238,7 +5238,7 @@
     "name": "Higgins Ave & Austin Ave",
     "lat": 41.97342,
     "lng": -87.77865,
-    "first_seen": "2025-02-08",
+    "first_seen": "2025-01-14",
     "last_seen": "2026-09-30",
     "aliases": []
   },
@@ -5262,16 +5262,16 @@
   },
   {
     "name": "Homan Ave & 65th St",
-    "lat": 41.778051,
-    "lng": -87.709242,
+    "lat": 41.778043,
+    "lng": -87.709239,
     "first_seen": "2022-03-05",
     "last_seen": "2026-09-25",
     "aliases": []
   },
   {
     "name": "Homan Ave & 77th St",
-    "lat": 41.753696,
-    "lng": -87.707522,
+    "lat": 41.753697,
+    "lng": -87.707521,
     "first_seen": "2024-06-05",
     "last_seen": "2026-09-16",
     "aliases": []
@@ -5339,8 +5339,8 @@
   },
   {
     "name": "Hoyne Ave & 34th St",
-    "lat": 41.831646,
-    "lng": -87.67824,
+    "lat": 41.831648,
+    "lng": -87.678238,
     "first_seen": "2021-09-29",
     "last_seen": "2026-09-29",
     "aliases": []
@@ -5429,8 +5429,8 @@
   },
   {
     "name": "Indiana Ave & 133rd St",
-    "lat": 41.652784,
-    "lng": -87.617848,
+    "lat": 41.652795,
+    "lng": -87.617841,
     "first_seen": "2021-10-21",
     "last_seen": "2026-09-27",
     "aliases": []
@@ -5510,7 +5510,7 @@
   {
     "name": "Jeffery Blvd & 67th St",
     "lat": 41.773532,
-    "lng": -87.577215,
+    "lng": -87.577214,
     "first_seen": "2020-01-01",
     "last_seen": "2026-09-29",
     "aliases": []
@@ -5521,7 +5521,9 @@
     "lng": -87.576449,
     "first_seen": "2020-01-01",
     "last_seen": "2026-09-30",
-    "aliases": []
+    "aliases": [
+      "Public Rack - Jeffrey Blvd & 71st St"
+    ]
   },
   {
     "name": "Jeffery Blvd & 76th St",
@@ -5635,8 +5637,8 @@
   },
   {
     "name": "Kedzie Ave & 104th St",
-    "lat": 41.702193,
-    "lng": -87.700797,
+    "lat": 41.702211,
+    "lng": -87.700803,
     "first_seen": "2021-04-11",
     "last_seen": "2026-09-24",
     "aliases": []
@@ -5651,7 +5653,7 @@
   },
   {
     "name": "Kedzie Ave & 21st St",
-    "lat": 41.853579,
+    "lat": 41.853578,
     "lng": -87.705047,
     "first_seen": "2020-01-05",
     "last_seen": "2026-09-30",
@@ -5691,16 +5693,16 @@
   },
   {
     "name": "Kedzie Ave & 45th St",
-    "lat": 41.810718,
-    "lng": -87.702055,
+    "lat": 41.810722,
+    "lng": -87.702067,
     "first_seen": "2022-01-04",
     "last_seen": "2026-09-29",
     "aliases": []
   },
   {
     "name": "Kedzie Ave & 48th Pl",
-    "lat": 41.803004,
-    "lng": -87.702632,
+    "lat": 41.803016,
+    "lng": -87.702644,
     "first_seen": "2021-09-21",
     "last_seen": "2026-09-30",
     "aliases": []
@@ -5715,7 +5717,7 @@
   },
   {
     "name": "Kedzie Ave & 54th Pl",
-    "lat": 41.794069,
+    "lat": 41.794068,
     "lng": -87.703465,
     "first_seen": "2024-06-27",
     "last_seen": "2026-09-30",
@@ -5731,8 +5733,8 @@
   },
   {
     "name": "Kedzie Ave & 57th St",
-    "lat": 41.789894,
-    "lng": -87.702071,
+    "lat": 41.789893,
+    "lng": -87.702079,
     "first_seen": "2021-10-08",
     "last_seen": "2026-09-29",
     "aliases": []
@@ -5783,7 +5785,7 @@
   },
   {
     "name": "Kedzie Ave & Archer Ave",
-    "lat": 41.814217,
+    "lat": 41.814218,
     "lng": -87.703878,
     "first_seen": "2022-05-11",
     "last_seen": "2026-09-30",
@@ -5823,8 +5825,8 @@
   },
   {
     "name": "Kedzie Ave & George St",
-    "lat": 41.933049,
-    "lng": -87.707849,
+    "lat": 41.93305,
+    "lng": -87.707848,
     "first_seen": "2021-11-11",
     "last_seen": "2026-09-30",
     "aliases": []
@@ -5863,8 +5865,8 @@
   },
   {
     "name": "Kedzie Ave & Milwaukee Ave",
-    "lat": 41.929502,
-    "lng": -87.707911,
+    "lat": 41.9295,
+    "lng": -87.707912,
     "first_seen": "2020-01-01",
     "last_seen": "2026-09-30",
     "aliases": []
@@ -5946,8 +5948,8 @@
   },
   {
     "name": "Kenneth Ave & 50th St",
-    "lat": 41.801498,
-    "lng": -87.732847,
+    "lat": 41.801499,
+    "lng": -87.732849,
     "first_seen": "2021-10-30",
     "last_seen": "2026-09-29",
     "aliases": []
@@ -6076,7 +6078,7 @@
   },
   {
     "name": "Kilbourn Ave & Milwaukee Ave",
-    "lat": 41.947833,
+    "lat": 41.947831,
     "lng": -87.740008,
     "first_seen": "2020-01-01",
     "last_seen": "2026-09-30",
@@ -6108,8 +6110,8 @@
   },
   {
     "name": "Kildare Ave & 26th St",
-    "lat": 41.843085,
-    "lng": -87.731642,
+    "lat": 41.843088,
+    "lng": -87.731643,
     "first_seen": "2021-07-20",
     "last_seen": "2026-09-30",
     "aliases": []
@@ -6124,7 +6126,7 @@
   },
   {
     "name": "Kildare Ave & 55th St",
-    "lat": 41.792224,
+    "lat": 41.792227,
     "lng": -87.730395,
     "first_seen": "2021-10-23",
     "last_seen": "2026-09-30",
@@ -6151,7 +6153,7 @@
   {
     "name": "Kildare Ave & Archer Ave",
     "lat": 41.800406,
-    "lng": -87.730504,
+    "lng": -87.730506,
     "first_seen": "2024-07-03",
     "last_seen": "2026-09-30",
     "aliases": []
@@ -6190,16 +6192,16 @@
   },
   {
     "name": "Kilpatrick Ave & Grand Ave",
-    "lat": 41.911866,
-    "lng": -87.742485,
+    "lat": 41.911872,
+    "lng": -87.742492,
     "first_seen": "2021-11-01",
     "last_seen": "2026-09-27",
     "aliases": []
   },
   {
     "name": "Kilpatrick Ave & Parker Ave",
-    "lat": 41.930362,
-    "lng": -87.741987,
+    "lat": 41.930363,
+    "lng": -87.741991,
     "first_seen": "2021-07-28",
     "last_seen": "2026-09-28",
     "aliases": []
@@ -6313,8 +6315,8 @@
   },
   {
     "name": "Komensky Ave & 31st St",
-    "lat": 41.837917,
-    "lng": -87.72724,
+    "lat": 41.837896,
+    "lng": -87.727212,
     "first_seen": "2021-08-11",
     "last_seen": "2026-09-28",
     "aliases": []
@@ -6329,8 +6331,8 @@
   },
   {
     "name": "Komensky Ave & 55th St",
-    "lat": 41.791625,
-    "lng": -87.722073,
+    "lat": 41.791626,
+    "lng": -87.722075,
     "first_seen": "2021-10-05",
     "last_seen": "2026-02-12",
     "aliases": []
@@ -6363,8 +6365,8 @@
   },
   {
     "name": "Kostner Ave & 63rd St",
-    "lat": 41.779134,
-    "lng": -87.731708,
+    "lat": 41.779131,
+    "lng": -87.731713,
     "first_seen": "2021-10-21",
     "last_seen": "2026-09-28",
     "aliases": []
@@ -6430,8 +6432,8 @@
   },
   {
     "name": "Kostner Ave & Wrightwood Ave",
-    "lat": 41.928356,
-    "lng": -87.736679,
+    "lat": 41.928353,
+    "lng": -87.736674,
     "first_seen": "2021-08-03",
     "last_seen": "2026-09-30",
     "aliases": []
@@ -6508,7 +6510,7 @@
   {
     "name": "LaSalle St & Jackson Blvd",
     "lat": 41.878166,
-    "lng": -87.631905,
+    "lng": -87.631906,
     "first_seen": "2020-01-01",
     "last_seen": "2026-09-30",
     "aliases": []
@@ -6523,7 +6525,7 @@
   },
   {
     "name": "LaSalle St & Washington St",
-    "lat": 41.882719,
+    "lat": 41.882718,
     "lng": -87.632503,
     "first_seen": "2020-01-01",
     "last_seen": "2026-06-07",
@@ -6623,7 +6625,7 @@
   },
   {
     "name": "Lake Park Ave & 56th St",
-    "lat": 41.792945,
+    "lat": 41.792944,
     "lng": -87.587734,
     "first_seen": "2020-01-01",
     "last_seen": "2026-07-10",
@@ -6690,7 +6692,7 @@
   {
     "name": "Lakefront Trail & Wilson Ave",
     "lat": 41.966064,
-    "lng": -87.644864,
+    "lng": -87.644863,
     "first_seen": "2020-01-01",
     "last_seen": "2026-09-30",
     "aliases": []
@@ -6729,7 +6731,7 @@
   },
   {
     "name": "Lamon Ave & Armitage Ave",
-    "lat": 41.91829,
+    "lat": 41.918288,
     "lng": -87.74972,
     "first_seen": "2021-08-05",
     "last_seen": "2026-09-30",
@@ -6737,16 +6739,16 @@
   },
   {
     "name": "Lamon Ave & Belmont Ave",
-    "lat": 41.939483,
-    "lng": -87.749631,
+    "lat": 41.939478,
+    "lng": -87.749628,
     "first_seen": "2021-07-17",
     "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Lamon Ave & Chicago Ave",
-    "lat": 41.896987,
-    "lng": -87.749067,
+    "lat": 41.896984,
+    "lng": -87.749066,
     "first_seen": "2021-09-15",
     "last_seen": "2026-09-30",
     "aliases": []
@@ -6983,7 +6985,7 @@
   },
   {
     "name": "Lavergne Ave & Division St",
-    "lat": 41.901574,
+    "lat": 41.901575,
     "lng": -87.750653,
     "first_seen": "2021-09-19",
     "last_seen": "2026-09-27",
@@ -7015,7 +7017,7 @@
   },
   {
     "name": "Lawler Ave & North Ave",
-    "lat": 41.909177,
+    "lat": 41.909176,
     "lng": -87.752255,
     "first_seen": "2024-04-30",
     "last_seen": "2026-09-27",
@@ -7031,16 +7033,16 @@
   },
   {
     "name": "Lawndale Ave & 16th St",
-    "lat": 41.859509,
-    "lng": -87.718656,
+    "lat": 41.859505,
+    "lng": -87.718645,
     "first_seen": "2021-07-11",
     "last_seen": "2026-09-28",
     "aliases": []
   },
   {
     "name": "Lawndale Ave & 30th St",
-    "lat": 41.839325,
-    "lng": -87.718064,
+    "lat": 41.839323,
+    "lng": -87.71806,
     "first_seen": "2021-08-12",
     "last_seen": "2026-09-30",
     "aliases": []
@@ -7193,7 +7195,7 @@
   },
   {
     "name": "Leavitt St & North Ave",
-    "lat": 41.910348,
+    "lat": 41.910349,
     "lng": -87.68235,
     "first_seen": "2020-01-01",
     "last_seen": "2026-09-30",
@@ -7242,7 +7244,7 @@
   {
     "name": "Lincoln Ave & Balmoral Ave",
     "lat": 41.979598,
-    "lng": -87.69226,
+    "lng": -87.692262,
     "first_seen": "2021-10-29",
     "last_seen": "2026-09-30",
     "aliases": []
@@ -7274,7 +7276,7 @@
   {
     "name": "Lincoln Ave & Byron St",
     "lat": 41.952318,
-    "lng": -87.677347,
+    "lng": -87.677346,
     "first_seen": "2023-04-12",
     "last_seen": "2026-09-30",
     "aliases": []
@@ -7297,8 +7299,8 @@
   },
   {
     "name": "Lincoln Ave & Fullerton Ave",
-    "lat": 41.924673,
-    "lng": -87.647224,
+    "lat": 41.924671,
+    "lng": -87.647221,
     "first_seen": "2020-01-01",
     "last_seen": "2026-09-30",
     "aliases": []
@@ -7330,7 +7332,7 @@
   {
     "name": "Lincoln Ave & Peterson Ave",
     "lat": 41.990207,
-    "lng": -87.708878,
+    "lng": -87.708877,
     "first_seen": "2021-11-05",
     "last_seen": "2026-09-30",
     "aliases": []
@@ -7353,8 +7355,8 @@
   },
   {
     "name": "Lincoln Ave & Roscoe St*",
-    "lat": 41.943347,
-    "lng": -87.670683,
+    "lat": 41.943345,
+    "lng": -87.670681,
     "first_seen": "2022-04-14",
     "last_seen": "2026-02-24",
     "aliases": []
@@ -7362,7 +7364,7 @@
   {
     "name": "Lincoln Ave & Sunnyside Ave",
     "lat": 41.963003,
-    "lng": -87.684787,
+    "lng": -87.684786,
     "first_seen": "2020-01-01",
     "last_seen": "2026-09-30",
     "aliases": []
@@ -7453,8 +7455,8 @@
   },
   {
     "name": "Lockwood Ave & Wrightwood Ave",
-    "lat": 41.928592,
-    "lng": -87.75906,
+    "lat": 41.928589,
+    "lng": -87.759059,
     "first_seen": "2021-08-04",
     "last_seen": "2026-09-30",
     "aliases": []
@@ -7469,15 +7471,15 @@
   },
   {
     "name": "Long & Irving Park",
-    "lat": 41.951468,
-    "lng": -87.761047,
+    "lat": 41.951473,
+    "lng": -87.76105,
     "first_seen": "2021-08-12",
     "last_seen": "2026-03-12",
     "aliases": []
   },
   {
     "name": "Long Ave & Belden Ave",
-    "lat": 41.921161,
+    "lat": 41.921163,
     "lng": -87.760407,
     "first_seen": "2021-07-22",
     "last_seen": "2026-09-26",
@@ -7485,8 +7487,8 @@
   },
   {
     "name": "Long Ave & Belmont Ave",
-    "lat": 41.939023,
-    "lng": -87.760969,
+    "lat": 41.939022,
+    "lng": -87.76097,
     "first_seen": "2021-07-27",
     "last_seen": "2026-09-30",
     "aliases": []
@@ -7510,7 +7512,7 @@
   {
     "name": "Long Ave & North Ave",
     "lat": 41.909455,
-    "lng": -87.76064,
+    "lng": -87.760641,
     "first_seen": "2021-09-16",
     "last_seen": "2026-09-25",
     "aliases": []
@@ -7652,7 +7654,7 @@
   {
     "name": "MLK Jr Dr & 29th St",
     "lat": 41.842048,
-    "lng": -87.616991,
+    "lng": -87.616992,
     "first_seen": "2020-01-01",
     "last_seen": "2026-09-30",
     "aliases": []
@@ -7667,7 +7669,7 @@
   },
   {
     "name": "MLK Jr Dr & 56th St",
-    "lat": 41.793479,
+    "lat": 41.793478,
     "lng": -87.615862,
     "first_seen": "2020-01-07",
     "last_seen": "2026-09-29",
@@ -7742,7 +7744,7 @@
   {
     "name": "Major Ave & Addison St",
     "lat": 41.94583,
-    "lng": -87.769681,
+    "lng": -87.76967,
     "first_seen": "2024-05-01",
     "last_seen": "2026-09-29",
     "aliases": []
@@ -7855,7 +7857,7 @@
   },
   {
     "name": "Maplewood Ave & Peterson Ave",
-    "lat": 41.990225,
+    "lat": 41.990226,
     "lng": -87.693377,
     "first_seen": "2020-01-01",
     "last_seen": "2026-09-29",
@@ -7919,7 +7921,7 @@
   },
   {
     "name": "Marshfield Ave & 44th St",
-    "lat": 41.814006,
+    "lat": 41.814005,
     "lng": -87.666551,
     "first_seen": "2020-01-09",
     "last_seen": "2026-09-29",
@@ -7959,8 +7961,8 @@
   },
   {
     "name": "Martin Luther King Dr & 111th St",
-    "lat": 41.691671,
-    "lng": -87.612319,
+    "lat": 41.691675,
+    "lng": -87.612325,
     "first_seen": "2022-06-09",
     "last_seen": "2026-04-29",
     "aliases": []
@@ -8003,8 +8005,8 @@
   },
   {
     "name": "Mason Ave & Belmont Ave",
-    "lat": 41.93918,
-    "lng": -87.771281,
+    "lat": 41.939178,
+    "lng": -87.771283,
     "first_seen": "2021-07-30",
     "last_seen": "2026-05-12",
     "aliases": []
@@ -8067,8 +8069,8 @@
   },
   {
     "name": "May St & Taylor St",
-    "lat": 41.869473,
-    "lng": -87.655317,
+    "lat": 41.869474,
+    "lng": -87.655313,
     "first_seen": "2020-01-01",
     "last_seen": "2026-09-30",
     "aliases": []
@@ -8092,7 +8094,7 @@
   {
     "name": "McClurg Ct & Erie St",
     "lat": 41.894501,
-    "lng": -87.617929,
+    "lng": -87.617928,
     "first_seen": "2020-01-01",
     "last_seen": "2026-07-03",
     "aliases": []
@@ -8116,7 +8118,7 @@
   {
     "name": "McCormick Blvd & Devon Ave",
     "lat": 41.997176,
-    "lng": -87.711117,
+    "lng": -87.711118,
     "first_seen": "2022-05-16",
     "last_seen": "2026-09-30",
     "aliases": []
@@ -8139,8 +8141,8 @@
   },
   {
     "name": "Meade Ave & Addison St",
-    "lat": 41.94778,
-    "lng": -87.779393,
+    "lat": 41.947773,
+    "lng": -87.779391,
     "first_seen": "2021-08-06",
     "last_seen": "2026-09-26",
     "aliases": []
@@ -8155,8 +8157,8 @@
   },
   {
     "name": "Meade Ave & Diversey Ave",
-    "lat": 41.93042,
-    "lng": -87.779252,
+    "lat": 41.930421,
+    "lng": -87.77925,
     "first_seen": "2021-07-27",
     "last_seen": "2026-09-29",
     "aliases": []
@@ -8301,15 +8303,15 @@
   },
   {
     "name": "Michigan Ave & 113th St",
-    "lat": 41.689135,
-    "lng": -87.620719,
+    "lat": 41.689134,
+    "lng": -87.62072,
     "first_seen": "2022-05-09",
     "last_seen": "2026-08-30",
     "aliases": []
   },
   {
     "name": "Michigan Ave & 114th St",
-    "lat": 41.687382,
+    "lat": 41.68738,
     "lng": -87.621127,
     "first_seen": "2020-09-17",
     "last_seen": "2026-08-31",
@@ -8437,8 +8439,8 @@
   },
   {
     "name": "Midway Orange Line",
-    "lat": 41.787268,
-    "lng": -87.739043,
+    "lat": 41.787264,
+    "lng": -87.739041,
     "first_seen": "2022-05-09",
     "last_seen": "2026-09-30",
     "aliases": []
@@ -8533,7 +8535,7 @@
   },
   {
     "name": "Milwaukee Ave & Fullerton Ave",
-    "lat": 41.92356,
+    "lat": 41.923564,
     "lng": -87.700442,
     "first_seen": "2021-10-28",
     "last_seen": "2026-09-30",
@@ -8627,8 +8629,8 @@
   },
   {
     "name": "Monticello Ave & Chicago Ave",
-    "lat": 41.897133,
-    "lng": -87.718421,
+    "lat": 41.897127,
+    "lng": -87.718418,
     "first_seen": "2021-09-15",
     "last_seen": "2026-09-30",
     "aliases": []
@@ -8652,7 +8654,7 @@
   {
     "name": "Monticello Ave & Lawrence Ave",
     "lat": 41.968273,
-    "lng": -87.719227,
+    "lng": -87.719229,
     "first_seen": "2023-09-19",
     "last_seen": "2026-09-30",
     "aliases": []
@@ -8736,7 +8738,7 @@
   },
   {
     "name": "Morgan St & Polk St",
-    "lat": 41.871774,
+    "lat": 41.871773,
     "lng": -87.651032,
     "first_seen": "2020-01-01",
     "last_seen": "2026-09-30",
@@ -8768,8 +8770,8 @@
   },
   {
     "name": "Mozart St & Jackson Blvd",
-    "lat": 41.878057,
-    "lng": -87.697978,
+    "lat": 41.878052,
+    "lng": -87.697973,
     "first_seen": "2021-11-24",
     "last_seen": "2026-09-29",
     "aliases": []
@@ -8808,24 +8810,24 @@
   },
   {
     "name": "N Carpenter St & W Lake St",
-    "lat": 41.887059,
-    "lng": -87.652114,
+    "lat": 41.887047,
+    "lng": -87.652122,
     "first_seen": "2020-12-28",
     "last_seen": "2026-04-09",
     "aliases": []
   },
   {
     "name": "N Clark St & W Elm St",
-    "lat": 41.902167,
-    "lng": -87.631039,
+    "lat": 41.902174,
+    "lng": -87.631041,
     "first_seen": "2020-09-21",
     "last_seen": "2025-04-21",
     "aliases": []
   },
   {
     "name": "N Damen Ave & W Chicago Ave",
-    "lat": 41.896559,
-    "lng": -87.678655,
+    "lat": 41.896554,
+    "lng": -87.678654,
     "first_seen": "2021-10-07",
     "last_seen": "2026-01-06",
     "aliases": []
@@ -8840,8 +8842,8 @@
   },
   {
     "name": "N Green St & W Lake St",
-    "lat": 41.887437,
-    "lng": -87.649109,
+    "lat": 41.887425,
+    "lng": -87.649105,
     "first_seen": "2020-12-16",
     "last_seen": "2025-10-08",
     "aliases": []
@@ -8864,8 +8866,8 @@
   },
   {
     "name": "N Paulina St & Lincoln Ave",
-    "lat": 41.942919,
-    "lng": -87.671143,
+    "lat": 41.94292,
+    "lng": -87.671144,
     "first_seen": "2021-01-04",
     "last_seen": "2026-01-30",
     "aliases": []
@@ -8888,16 +8890,16 @@
   },
   {
     "name": "N Shore Channel Trail & Argyle St",
-    "lat": 41.971649,
-    "lng": -87.702091,
+    "lat": 41.971653,
+    "lng": -87.702095,
     "first_seen": "2022-02-24",
     "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "N Southport Ave & W Newport Ave",
-    "lat": 41.942955,
-    "lng": -87.662926,
+    "lat": 41.942957,
+    "lng": -87.662928,
     "first_seen": "2021-01-13",
     "last_seen": "2026-01-07",
     "aliases": []
@@ -8914,8 +8916,8 @@
   },
   {
     "name": "Nagle Ave & Belmont Ave",
-    "lat": 41.93878,
-    "lng": -87.787816,
+    "lat": 41.938773,
+    "lng": -87.787803,
     "first_seen": "2022-06-21",
     "last_seen": "2026-09-30",
     "aliases": []
@@ -8979,7 +8981,7 @@
   {
     "name": "Narragansett Ave & School St",
     "lat": 41.940064,
-    "lng": -87.788245,
+    "lng": -87.788243,
     "first_seen": "2021-08-08",
     "last_seen": "2026-09-27",
     "aliases": []
@@ -9327,8 +9329,8 @@
   },
   {
     "name": "Oak Park & Wellington",
-    "lat": 41.932649,
-    "lng": -87.797659,
+    "lat": 41.93266,
+    "lng": -87.79765,
     "first_seen": "2021-09-04",
     "last_seen": "2026-04-05",
     "aliases": []
@@ -9360,7 +9362,7 @@
   {
     "name": "Oakley Ave & Irving Park Rd",
     "lat": 41.954327,
-    "lng": -87.686072,
+    "lng": -87.686073,
     "first_seen": "2020-01-02",
     "last_seen": "2026-09-30",
     "aliases": []
@@ -9463,8 +9465,8 @@
   },
   {
     "name": "Oketo Ave & Addison St",
-    "lat": 41.942945,
-    "lng": -87.810913,
+    "lat": 41.94295,
+    "lng": -87.810916,
     "first_seen": "2021-08-25",
     "last_seen": "2026-09-27",
     "aliases": []
@@ -9495,8 +9497,8 @@
   },
   {
     "name": "Olive Harvey College",
-    "lat": 41.710073,
-    "lng": -87.590436,
+    "lat": 41.71007,
+    "lng": -87.590435,
     "first_seen": "2021-12-14",
     "last_seen": "2026-09-30",
     "aliases": []
@@ -9551,7 +9553,7 @@
   },
   {
     "name": "Orleans St & Merchandise Mart Plaza",
-    "lat": 41.888195,
+    "lat": 41.888196,
     "lng": -87.636467,
     "first_seen": "2020-01-01",
     "last_seen": "2026-09-30",
@@ -9591,8 +9593,8 @@
   },
   {
     "name": "Panama Ave & Grace St",
-    "lat": 41.948513,
-    "lng": -87.829524,
+    "lat": 41.948507,
+    "lng": -87.829523,
     "first_seen": "2021-09-10",
     "last_seen": "2026-09-30",
     "aliases": []
@@ -9609,8 +9611,8 @@
   },
   {
     "name": "Parkside Ave & Armitage Ave",
-    "lat": 41.917897,
-    "lng": -87.768082,
+    "lat": 41.917895,
+    "lng": -87.76808,
     "first_seen": "2021-07-28",
     "last_seen": "2026-09-29",
     "aliases": []
@@ -9722,7 +9724,7 @@
   {
     "name": "Paulina St & Montrose Ave",
     "lat": 41.961504,
-    "lng": -87.671395,
+    "lng": -87.671394,
     "first_seen": "2020-01-01",
     "last_seen": "2026-09-30",
     "aliases": []
@@ -9796,8 +9798,8 @@
   },
   {
     "name": "Pershing Rd & Sacramento Ave",
-    "lat": 41.822417,
-    "lng": -87.699679,
+    "lat": 41.822416,
+    "lng": -87.699681,
     "first_seen": "2024-04-17",
     "last_seen": "2026-09-30",
     "aliases": []
@@ -9868,8 +9870,8 @@
   },
   {
     "name": "Ping Tom Park (East)",
-    "lat": 41.858343,
-    "lng": -87.631668,
+    "lat": 41.858339,
+    "lng": -87.631672,
     "first_seen": "2021-09-26",
     "last_seen": "2026-01-18",
     "aliases": []
@@ -9903,8 +9905,8 @@
   },
   {
     "name": "Plainfield & Irving Park",
-    "lat": 41.95055,
-    "lng": -87.830881,
+    "lat": 41.950554,
+    "lng": -87.830887,
     "first_seen": "2021-08-13",
     "last_seen": "2025-04-14",
     "aliases": []
@@ -10009,8 +10011,8 @@
   },
   {
     "name": "Public Rack - 10101 S Stony Island Ave",
-    "lat": 41.708455,
-    "lng": -87.58132,
+    "lat": 41.708452,
+    "lng": -87.581326,
     "first_seen": "2022-12-01",
     "last_seen": "2026-07-29",
     "aliases": []
@@ -10033,8 +10035,8 @@
   },
   {
     "name": "Public Rack - 2302 S Pulaski Rd",
-    "lat": 41.849559,
-    "lng": -87.724338,
+    "lat": 41.849554,
+    "lng": -87.724356,
     "first_seen": "2023-04-05",
     "last_seen": "2026-09-14",
     "aliases": []
@@ -10411,8 +10413,8 @@
   },
   {
     "name": "Public Rack - Austin Ave & Wrightwood Ave",
-    "lat": 41.928805,
-    "lng": -87.777819,
+    "lat": 41.928803,
+    "lng": -87.777815,
     "first_seen": "2022-06-19",
     "last_seen": "2026-09-16",
     "aliases": []
@@ -10420,7 +10422,7 @@
   {
     "name": "Public Rack - Austin Blvd & North Ave",
     "lat": 41.909361,
-    "lng": -87.776055,
+    "lng": -87.776054,
     "first_seen": "2022-06-20",
     "last_seen": "2026-09-29",
     "aliases": []
@@ -10459,8 +10461,8 @@
   },
   {
     "name": "Public Rack - Avenue J & 106th St",
-    "lat": 41.702548,
-    "lng": -87.533405,
+    "lat": 41.70255,
+    "lng": -87.533409,
     "first_seen": "2022-11-28",
     "last_seen": "2026-06-24",
     "aliases": []
@@ -10515,8 +10517,8 @@
   },
   {
     "name": "Public Rack - Avers Ave & Irving Park Rd",
-    "lat": 41.952453,
-    "lng": -87.722754,
+    "lat": 41.952471,
+    "lng": -87.722773,
     "first_seen": "2022-06-14",
     "last_seen": "2026-09-29",
     "aliases": []
@@ -10531,7 +10533,7 @@
   },
   {
     "name": "Public Rack - Avondale Ave & Addison St",
-    "lat": 41.94765,
+    "lat": 41.947645,
     "lng": -87.719889,
     "first_seen": "2022-06-18",
     "last_seen": "2026-09-27",
@@ -10595,7 +10597,7 @@
   },
   {
     "name": "Public Rack - Bernard St & Foster Ave",
-    "lat": 41.975691,
+    "lat": 41.97569,
     "lng": -87.712674,
     "first_seen": "2023-05-10",
     "last_seen": "2026-09-26",
@@ -10635,8 +10637,8 @@
   },
   {
     "name": "Public Rack - Brandon Ave & 91st St",
-    "lat": 41.73013,
-    "lng": -87.547834,
+    "lat": 41.730131,
+    "lng": -87.547821,
     "first_seen": "2022-09-10",
     "last_seen": "2026-05-01",
     "aliases": []
@@ -10757,8 +10759,8 @@
   },
   {
     "name": "Public Rack - California Ave & Devon Ave - NW",
-    "lat": 41.999161,
-    "lng": -87.699885,
+    "lat": 41.999158,
+    "lng": -87.699884,
     "first_seen": "2022-06-17",
     "last_seen": "2026-09-18",
     "aliases": []
@@ -10853,8 +10855,8 @@
   },
   {
     "name": "Public Rack - Campbell Ave & Pratt Blvd",
-    "lat": 42.005809,
-    "lng": -87.69223,
+    "lat": 42.005797,
+    "lng": -87.692237,
     "first_seen": "2022-06-15",
     "last_seen": "2026-09-30",
     "aliases": []
@@ -10958,7 +10960,7 @@
   {
     "name": "Public Rack - Central Ave & Lawrence Ave",
     "lat": 41.967905,
-    "lng": -87.767663,
+    "lng": -87.767662,
     "first_seen": "2023-05-12",
     "last_seen": "2026-09-30",
     "aliases": []
@@ -10981,8 +10983,8 @@
   },
   {
     "name": "Public Rack - Central Park & Bryn Mawr",
-    "lat": 41.982687,
-    "lng": -87.71962,
+    "lat": 41.982688,
+    "lng": -87.719619,
     "first_seen": "2023-05-02",
     "last_seen": "2026-09-14",
     "aliases": []
@@ -11005,8 +11007,8 @@
   },
   {
     "name": "Public Rack - Central Park Ave & Fillmore St",
-    "lat": 41.868396,
-    "lng": -87.716045,
+    "lat": 41.86839,
+    "lng": -87.716032,
     "first_seen": "2022-07-07",
     "last_seen": "2026-09-06",
     "aliases": []
@@ -11093,8 +11095,8 @@
   },
   {
     "name": "Public Rack - Christiana Ave & 55th St",
-    "lat": 41.792801,
-    "lng": -87.70807,
+    "lat": 41.792814,
+    "lng": -87.708061,
     "first_seen": "2022-11-29",
     "last_seen": "2026-04-23",
     "aliases": []
@@ -11109,8 +11111,8 @@
   },
   {
     "name": "Public Rack - Christiana Ave & Belmont Ave",
-    "lat": 41.939349,
-    "lng": -87.711376,
+    "lat": 41.939348,
+    "lng": -87.711377,
     "first_seen": "2022-06-14",
     "last_seen": "2026-09-30",
     "aliases": []
@@ -11125,8 +11127,8 @@
   },
   {
     "name": "Public Rack - Christiana Ave & Lawrence Ave",
-    "lat": 41.969535,
-    "lng": -87.710824,
+    "lat": 41.969528,
+    "lng": -87.710835,
     "first_seen": "2022-06-14",
     "last_seen": "2026-09-27",
     "aliases": []
@@ -11317,8 +11319,8 @@
   },
   {
     "name": "Public Rack - Commercial Ave & 89th St",
-    "lat": 41.732771,
-    "lng": -87.550946,
+    "lat": 41.732787,
+    "lng": -87.55095,
     "first_seen": "2022-09-17",
     "last_seen": "2026-09-17",
     "aliases": []
@@ -11366,15 +11368,15 @@
   {
     "name": "Public Rack - Cottage Grove & 86th St",
     "lat": 41.738465,
-    "lng": -87.604473,
+    "lng": -87.604475,
     "first_seen": "2022-09-08",
     "last_seen": "2026-07-08",
     "aliases": []
   },
   {
     "name": "Public Rack - Cottage Grove Ave & 111th St",
-    "lat": 41.691763,
-    "lng": -87.609839,
+    "lat": 41.691889,
+    "lng": -87.609827,
     "first_seen": "2022-09-06",
     "last_seen": "2026-09-01",
     "aliases": []
@@ -11413,8 +11415,8 @@
   },
   {
     "name": "Public Rack - Cottage Grove Ave & 92nd St",
-    "lat": 41.727588,
-    "lng": -87.604304,
+    "lat": 41.727582,
+    "lng": -87.604316,
     "first_seen": "2022-10-10",
     "last_seen": "2026-02-02",
     "aliases": []
@@ -11461,8 +11463,8 @@
   },
   {
     "name": "Public Rack - Damen Ave & 47th St",
-    "lat": 41.808979,
-    "lng": -87.675444,
+    "lat": 41.808978,
+    "lng": -87.675438,
     "first_seen": "2022-10-01",
     "last_seen": "2026-07-21",
     "aliases": []
@@ -11597,8 +11599,8 @@
   },
   {
     "name": "Public Rack - Drake Ave & Leland Ave",
-    "lat": 41.96631,
-    "lng": -87.717131,
+    "lat": 41.966308,
+    "lng": -87.717129,
     "first_seen": "2022-06-03",
     "last_seen": "2026-09-30",
     "aliases": []
@@ -11661,10 +11663,10 @@
   },
   {
     "name": "Public Rack - Eggleston Ave & 115th St",
-    "lat": 41.687498,
-    "lng": -87.631222,
+    "lat": 41.687388,
+    "lng": -87.631336,
     "first_seen": "2022-09-16",
-    "last_seen": "2024-11-12",
+    "last_seen": "2025-01-08",
     "aliases": []
   },
   {
@@ -11741,8 +11743,8 @@
   },
   {
     "name": "Public Rack - Emerald Ave & 45th St",
-    "lat": 41.812236,
-    "lng": -87.644417,
+    "lat": 41.812237,
+    "lng": -87.644418,
     "first_seen": "2022-10-06",
     "last_seen": "2026-09-28",
     "aliases": []
@@ -11757,8 +11759,8 @@
   },
   {
     "name": "Public Rack - Evans Ave & 63rd St",
-    "lat": 41.780435,
-    "lng": -87.607847,
+    "lat": 41.780438,
+    "lng": -87.607836,
     "first_seen": "2022-09-10",
     "last_seen": "2026-08-07",
     "aliases": []
@@ -11869,8 +11871,8 @@
   },
   {
     "name": "Public Rack - Exchange Ave & 73rd Pl",
-    "lat": 41.761832,
-    "lng": -87.562777,
+    "lat": 41.76184,
+    "lng": -87.562787,
     "first_seen": "2022-06-12",
     "last_seen": "2026-09-18",
     "aliases": []
@@ -11909,7 +11911,7 @@
   },
   {
     "name": "Public Rack - Foster Ave & Drake Ave",
-    "lat": 41.975655,
+    "lat": 41.975654,
     "lng": -87.717428,
     "first_seen": "2022-07-07",
     "last_seen": "2026-09-29",
@@ -11941,8 +11943,8 @@
   },
   {
     "name": "Public Rack - Fullerton Ave & Narragansett Ave",
-    "lat": 41.922146,
-    "lng": -87.787612,
+    "lat": 41.922152,
+    "lng": -87.787605,
     "first_seen": "2022-07-07",
     "last_seen": "2026-09-26",
     "aliases": []
@@ -12109,8 +12111,8 @@
   },
   {
     "name": "Public Rack - Halsted St & 95th St - SE",
-    "lat": 41.7206,
-    "lng": -87.642075,
+    "lat": 41.720604,
+    "lng": -87.642084,
     "first_seen": "2022-09-13",
     "last_seen": "2026-09-17",
     "aliases": []
@@ -12173,8 +12175,8 @@
   },
   {
     "name": "Public Rack - Hamlin Ave & Fullerton Ave",
-    "lat": 41.922719,
-    "lng": -87.720879,
+    "lat": 41.922723,
+    "lng": -87.720881,
     "first_seen": "2022-06-14",
     "last_seen": "2026-09-30",
     "aliases": []
@@ -12197,8 +12199,8 @@
   },
   {
     "name": "Public Rack - Hamlin Ave & Montrose Ave",
-    "lat": 41.960904,
-    "lng": -87.721832,
+    "lat": 41.960907,
+    "lng": -87.721838,
     "first_seen": "2022-06-14",
     "last_seen": "2026-09-30",
     "aliases": []
@@ -12237,8 +12239,8 @@
   },
   {
     "name": "Public Rack - Harold Washington Park",
-    "lat": 41.800868,
-    "lng": -87.583906,
+    "lat": 41.800869,
+    "lng": -87.583911,
     "first_seen": "2022-09-06",
     "last_seen": "2026-09-30",
     "aliases": []
@@ -12277,8 +12279,8 @@
   },
   {
     "name": "Public Rack - Harvey Ave & North Ave",
-    "lat": 41.9097,
-    "lng": -87.780928,
+    "lat": 41.90969,
+    "lng": -87.780958,
     "first_seen": "2022-06-14",
     "last_seen": "2025-06-11",
     "aliases": []
@@ -12429,8 +12431,8 @@
   },
   {
     "name": "Public Rack - Houston Ave & 130th St",
-    "lat": 41.659198,
-    "lng": -87.548863,
+    "lat": 41.659188,
+    "lng": -87.548848,
     "first_seen": "2022-09-26",
     "last_seen": "2025-06-14",
     "aliases": []
@@ -12486,15 +12488,15 @@
   {
     "name": "Public Rack - Hyde Park Blvd & 53rd St",
     "lat": 41.799526,
-    "lng": -87.584102,
+    "lng": -87.584104,
     "first_seen": "2022-09-08",
     "last_seen": "2026-09-29",
     "aliases": []
   },
   {
     "name": "Public Rack - Hyde Park Blvd & 55th St",
-    "lat": 41.795237,
-    "lng": -87.583898,
+    "lat": 41.795234,
+    "lng": -87.583901,
     "first_seen": "2022-09-07",
     "last_seen": "2026-09-30",
     "aliases": []
@@ -12517,8 +12519,8 @@
   },
   {
     "name": "Public Rack - Indiana Ave & 111th St",
-    "lat": 41.692236,
-    "lng": -87.618068,
+    "lat": 41.692245,
+    "lng": -87.618058,
     "first_seen": "2023-02-16",
     "last_seen": "2026-04-21",
     "aliases": []
@@ -12541,8 +12543,8 @@
   },
   {
     "name": "Public Rack - Irving Park Rd & Leclaire Ave",
-    "lat": 41.953349,
-    "lng": -87.75475,
+    "lat": 41.953351,
+    "lng": -87.754752,
     "first_seen": "2023-05-05",
     "last_seen": "2026-09-22",
     "aliases": []
@@ -12581,7 +12583,7 @@
   },
   {
     "name": "Public Rack - Jeffery Blvd & 67th St",
-    "lat": 41.773173,
+    "lat": 41.773174,
     "lng": -87.576715,
     "first_seen": "2022-09-14",
     "last_seen": "2026-09-25",
@@ -12604,14 +12606,6 @@
     "aliases": []
   },
   {
-    "name": "Public Rack - Jeffrey Blvd & 71st St",
-    "lat": 41.766667,
-    "lng": -87.576506,
-    "first_seen": "2022-09-12",
-    "last_seen": "2026-09-26",
-    "aliases": []
-  },
-  {
     "name": "Public Rack - Jensen Park",
     "lat": 41.964212,
     "lng": -87.720634,
@@ -12621,8 +12615,8 @@
   },
   {
     "name": "Public Rack - Jonathan Y Scammon Public School",
-    "lat": 41.941434,
-    "lng": -87.732119,
+    "lat": 41.941435,
+    "lng": -87.73212,
     "first_seen": "2022-06-15",
     "last_seen": "2026-09-30",
     "aliases": []
@@ -12653,8 +12647,8 @@
   },
   {
     "name": "Public Rack - Karlov Ave & Lawrence Ave",
-    "lat": 41.968381,
-    "lng": -87.730046,
+    "lat": 41.968379,
+    "lng": -87.730047,
     "first_seen": "2023-05-11",
     "last_seen": "2026-09-01",
     "aliases": []
@@ -12773,16 +12767,16 @@
   },
   {
     "name": "Public Rack - Kedzie Ave & 58th St",
-    "lat": 41.788819,
-    "lng": -87.702453,
+    "lat": 41.788814,
+    "lng": -87.702464,
     "first_seen": "2022-09-11",
     "last_seen": "2026-09-28",
     "aliases": []
   },
   {
     "name": "Public Rack - Kedzie Ave & 60th St",
-    "lat": 41.785603,
-    "lng": -87.702888,
+    "lat": 41.7856,
+    "lng": -87.70289,
     "first_seen": "2022-08-30",
     "last_seen": "2026-06-02",
     "aliases": []
@@ -12853,8 +12847,8 @@
   },
   {
     "name": "Public Rack - Kedzie Ave & Argyle St",
-    "lat": 41.971707,
-    "lng": -87.708854,
+    "lat": 41.971709,
+    "lng": -87.708852,
     "first_seen": "2022-06-16",
     "last_seen": "2026-09-30",
     "aliases": []
@@ -12885,8 +12879,8 @@
   },
   {
     "name": "Public Rack - Kedzie Ave & Walnut St",
-    "lat": 41.886489,
-    "lng": -87.706926,
+    "lat": 41.886475,
+    "lng": -87.706914,
     "first_seen": "2022-08-29",
     "last_seen": "2026-08-20",
     "aliases": []
@@ -12933,7 +12927,7 @@
   },
   {
     "name": "Public Rack - Kenneth & Carmen",
-    "lat": 41.972657,
+    "lat": 41.972656,
     "lng": -87.739244,
     "first_seen": "2023-05-04",
     "last_seen": "2026-09-29",
@@ -12965,16 +12959,16 @@
   },
   {
     "name": "Public Rack - Kenton Ave & Palmer St",
-    "lat": 41.92027,
-    "lng": -87.740762,
+    "lat": 41.920271,
+    "lng": -87.740765,
     "first_seen": "2022-06-14",
     "last_seen": "2026-07-11",
     "aliases": []
   },
   {
     "name": "Public Rack - Keystone Ave & Irving Park Rd",
-    "lat": 41.952573,
-    "lng": -87.729761,
+    "lat": 41.952577,
+    "lng": -87.72976,
     "first_seen": "2022-06-15",
     "last_seen": "2026-09-30",
     "aliases": []
@@ -13024,7 +13018,7 @@
   {
     "name": "Public Rack - Kildare Ave & North Ave",
     "lat": 41.909895,
-    "lng": -87.733184,
+    "lng": -87.733196,
     "first_seen": "2022-09-16",
     "last_seen": "2026-09-30",
     "aliases": []
@@ -13040,7 +13034,7 @@
   {
     "name": "Public Rack - Kilpatrick & Elston",
     "lat": 41.97001,
-    "lng": -87.743293,
+    "lng": -87.743295,
     "first_seen": "2023-05-04",
     "last_seen": "2026-09-08",
     "aliases": []
@@ -13048,15 +13042,15 @@
   {
     "name": "Public Rack - Kimball & Ardmore",
     "lat": 41.987036,
-    "lng": -87.713949,
+    "lng": -87.71395,
     "first_seen": "2023-05-14",
     "last_seen": "2026-09-08",
     "aliases": []
   },
   {
     "name": "Public Rack - Kimball Ave & Carmen Ave",
-    "lat": 41.97297,
-    "lng": -87.712516,
+    "lat": 41.972982,
+    "lng": -87.712526,
     "first_seen": "2022-06-15",
     "last_seen": "2026-09-30",
     "aliases": []
@@ -13087,8 +13081,8 @@
   },
   {
     "name": "Public Rack - King Dr & 115th St",
-    "lat": 41.687585,
-    "lng": -87.611741,
+    "lat": 41.687566,
+    "lng": -87.611755,
     "first_seen": "2022-06-09",
     "last_seen": "2026-01-28",
     "aliases": []
@@ -13203,8 +13197,8 @@
   },
   {
     "name": "Public Rack - Kostner & Bryn Mawr",
-    "lat": 41.982639,
-    "lng": -87.737593,
+    "lat": 41.982645,
+    "lng": -87.73759,
     "first_seen": "2023-05-05",
     "last_seen": "2026-09-26",
     "aliases": []
@@ -13227,8 +13221,8 @@
   },
   {
     "name": "Public Rack - Kostner Ave & Armitage Ave",
-    "lat": 41.918486,
-    "lng": -87.737937,
+    "lat": 41.918485,
+    "lng": -87.737935,
     "first_seen": "2022-09-06",
     "last_seen": "2026-09-05",
     "aliases": []
@@ -13307,8 +13301,8 @@
   },
   {
     "name": "Public Rack - Laflin St & 51st St",
-    "lat": 41.801202,
-    "lng": -87.661756,
+    "lat": 41.801207,
+    "lng": -87.661768,
     "first_seen": "2022-09-27",
     "last_seen": "2025-07-28",
     "aliases": []
@@ -13379,7 +13373,7 @@
   },
   {
     "name": "Public Rack - Langley Ave & 49th St",
-    "lat": 41.805166,
+    "lat": 41.805167,
     "lng": -87.609106,
     "first_seen": "2022-07-09",
     "last_seen": "2026-09-27",
@@ -13419,8 +13413,8 @@
   },
   {
     "name": "Public Rack - Laramie Ave & Belmont Ave",
-    "lat": 41.93926,
-    "lng": -87.75747,
+    "lat": 41.939257,
+    "lng": -87.757463,
     "first_seen": "2022-06-14",
     "last_seen": "2026-09-21",
     "aliases": []
@@ -13491,8 +13485,8 @@
   },
   {
     "name": "Public Rack - Lawndale Ave & 23rd St",
-    "lat": 41.849909,
-    "lng": -87.717145,
+    "lat": 41.84991,
+    "lng": -87.717142,
     "first_seen": "2022-09-05",
     "last_seen": "2026-09-14",
     "aliases": []
@@ -13507,8 +13501,8 @@
   },
   {
     "name": "Public Rack - Lawndale Ave & Diversey Ave",
-    "lat": 41.930937,
-    "lng": -87.719607,
+    "lat": 41.930941,
+    "lng": -87.719605,
     "first_seen": "2022-06-14",
     "last_seen": "2026-09-11",
     "aliases": []
@@ -13531,10 +13525,10 @@
   },
   {
     "name": "Public Rack - Lawrence Ave & 103rd St",
-    "lat": 41.708443,
-    "lng": -87.60913,
+    "lat": 41.708132,
+    "lng": -87.608956,
     "first_seen": "2022-11-03",
-    "last_seen": "2024-11-12",
+    "last_seen": "2025-01-03",
     "aliases": []
   },
   {
@@ -13571,8 +13565,8 @@
   },
   {
     "name": "Public Rack - Leclaire Ave & Division St",
-    "lat": 41.901234,
-    "lng": -87.751829,
+    "lat": 41.901257,
+    "lng": -87.751863,
     "first_seen": "2022-07-07",
     "last_seen": "2025-12-23",
     "aliases": []
@@ -13693,8 +13687,8 @@
   },
   {
     "name": "Public Rack - Lockwood & Archer",
-    "lat": 41.796747,
-    "lng": -87.755253,
+    "lat": 41.796746,
+    "lng": -87.755252,
     "first_seen": "2023-05-03",
     "last_seen": "2026-06-22",
     "aliases": []
@@ -13765,8 +13759,8 @@
   },
   {
     "name": "Public Rack - Lorel Ave & Grand Ave",
-    "lat": 41.919496,
-    "lng": -87.759909,
+    "lat": 41.919478,
+    "lng": -87.759906,
     "first_seen": "2022-06-06",
     "last_seen": "2026-07-14",
     "aliases": []
@@ -13821,8 +13815,8 @@
   },
   {
     "name": "Public Rack - Lowell Ave & Elston Ave",
-    "lat": 41.967914,
-    "lng": -87.738376,
+    "lat": 41.967909,
+    "lng": -87.738372,
     "first_seen": "2022-06-15",
     "last_seen": "2026-09-07",
     "aliases": []
@@ -13925,8 +13919,8 @@
   },
   {
     "name": "Public Rack - Marshfield Ave & 87th St",
-    "lat": 41.736927,
-    "lng": -87.662692,
+    "lat": 41.73691,
+    "lng": -87.662706,
     "first_seen": "2022-09-29",
     "last_seen": "2026-07-01",
     "aliases": []
@@ -13997,8 +13991,8 @@
   },
   {
     "name": "Public Rack - May St & 78th St",
-    "lat": 41.75179,
-    "lng": -87.652179,
+    "lat": 41.751831,
+    "lng": -87.652228,
     "first_seen": "2022-10-12",
     "last_seen": "2026-06-22",
     "aliases": []
@@ -14085,16 +14079,16 @@
   },
   {
     "name": "Public Rack - Menard Ave & Belmont Ave",
-    "lat": 41.938624,
-    "lng": -87.770928,
+    "lat": 41.938623,
+    "lng": -87.770929,
     "first_seen": "2022-06-17",
     "last_seen": "2026-09-26",
     "aliases": []
   },
   {
     "name": "Public Rack - Menard Ave & Dakin St - midblock",
-    "lat": 41.951292,
-    "lng": -87.771458,
+    "lat": 41.951296,
+    "lng": -87.771463,
     "first_seen": "2022-06-19",
     "last_seen": "2026-09-28",
     "aliases": []
@@ -14237,7 +14231,7 @@
   },
   {
     "name": "Public Rack - Midway Orange Line",
-    "lat": 41.786836,
+    "lat": 41.786835,
     "lng": -87.738487,
     "first_seen": "2022-09-10",
     "last_seen": "2026-06-24",
@@ -14245,8 +14239,8 @@
   },
   {
     "name": "Public Rack - Milwaukee Ave & Addison St",
-    "lat": 41.948005,
-    "lng": -87.737514,
+    "lat": 41.947995,
+    "lng": -87.737502,
     "first_seen": "2022-06-14",
     "last_seen": "2026-09-25",
     "aliases": []
@@ -14269,8 +14263,8 @@
   },
   {
     "name": "Public Rack - Milwaukee Ave & Diversey Ave",
-    "lat": 41.930718,
-    "lng": -87.710824,
+    "lat": 41.930725,
+    "lng": -87.710833,
     "first_seen": "2022-06-14",
     "last_seen": "2026-09-26",
     "aliases": []
@@ -14318,15 +14312,15 @@
   {
     "name": "Public Rack - Milwaukee Ave & Pensacola Ave",
     "lat": 41.959529,
-    "lng": -87.753211,
+    "lng": -87.753213,
     "first_seen": "2023-05-09",
     "last_seen": "2026-08-29",
     "aliases": []
   },
   {
     "name": "Public Rack - Milwaukee Ave & School St",
-    "lat": 41.94037,
-    "lng": -87.727646,
+    "lat": 41.940371,
+    "lng": -87.727643,
     "first_seen": "2022-06-16",
     "last_seen": "2026-09-30",
     "aliases": []
@@ -14365,7 +14359,7 @@
   },
   {
     "name": "Public Rack - Minuteman Park",
-    "lat": 41.785444,
+    "lat": 41.785443,
     "lng": -87.762539,
     "first_seen": "2023-05-18",
     "last_seen": "2026-09-04",
@@ -14565,8 +14559,8 @@
   },
   {
     "name": "Public Rack - Natoma Ave & Bryn Mawr Ave",
-    "lat": 41.982851,
-    "lng": -87.790522,
+    "lat": 41.982854,
+    "lng": -87.790517,
     "first_seen": "2023-05-05",
     "last_seen": "2026-08-22",
     "aliases": []
@@ -14669,7 +14663,7 @@
   },
   {
     "name": "Public Rack - Nina Ave & Avondale Ave",
-    "lat": 41.991124,
+    "lat": 41.991125,
     "lng": -87.799106,
     "first_seen": "2023-05-17",
     "last_seen": "2026-08-10",
@@ -14757,8 +14751,8 @@
   },
   {
     "name": "Public Rack - Northwest Hwy & Neva Ave",
-    "lat": 41.996074,
-    "lng": -87.805352,
+    "lat": 41.996072,
+    "lng": -87.805349,
     "first_seen": "2023-05-10",
     "last_seen": "2026-08-22",
     "aliases": []
@@ -14909,7 +14903,7 @@
   },
   {
     "name": "Public Rack - Olmstead Ave & Oliphant Ave",
-    "lat": 42.002263,
+    "lat": 42.002264,
     "lng": -87.817167,
     "first_seen": "2023-05-04",
     "last_seen": "2026-09-27",
@@ -14981,7 +14975,7 @@
   },
   {
     "name": "Public Rack - Ozark Ave & Addison St",
-    "lat": 41.945338,
+    "lat": 41.945334,
     "lng": -87.820067,
     "first_seen": "2022-09-07",
     "last_seen": "2026-09-23",
@@ -15029,8 +15023,8 @@
   },
   {
     "name": "Public Rack - Parkside & Elston",
-    "lat": 41.985497,
-    "lng": -87.769603,
+    "lat": 41.985495,
+    "lng": -87.769602,
     "first_seen": "2023-06-17",
     "last_seen": "2026-08-16",
     "aliases": []
@@ -15077,8 +15071,8 @@
   },
   {
     "name": "Public Rack - Penn Elementary School / KIPP Ascend Middle School",
-    "lat": 41.858997,
-    "lng": -87.72181,
+    "lat": 41.858991,
+    "lng": -87.721819,
     "first_seen": "2022-06-18",
     "last_seen": "2026-09-24",
     "aliases": []
@@ -15117,8 +15111,8 @@
   },
   {
     "name": "Public Rack - Peterson Ave & Bernard Ave",
-    "lat": 41.990157,
-    "lng": -87.717086,
+    "lat": 41.99016,
+    "lng": -87.71702,
     "first_seen": "2022-07-21",
     "last_seen": "2026-06-26",
     "aliases": []
@@ -15126,7 +15120,7 @@
   {
     "name": "Public Rack - Peterson Ave & Drake Ave",
     "lat": 41.990115,
-    "lng": -87.717461,
+    "lng": -87.717455,
     "first_seen": "2022-08-03",
     "last_seen": "2026-09-11",
     "aliases": []
@@ -15175,8 +15169,8 @@
   },
   {
     "name": "Public Rack - Prairie Ave & 47th St",
-    "lat": 41.809588,
-    "lng": -87.619194,
+    "lat": 41.809586,
+    "lng": -87.61919,
     "first_seen": "2022-09-09",
     "last_seen": "2026-09-29",
     "aliases": []
@@ -15311,16 +15305,16 @@
   },
   {
     "name": "Public Rack - Pulaski Rd & 41st",
-    "lat": 41.818054,
-    "lng": -87.723809,
+    "lat": 41.818049,
+    "lng": -87.723821,
     "first_seen": "2023-02-07",
     "last_seen": "2026-01-05",
     "aliases": []
   },
   {
     "name": "Public Rack - Pulaski Rd & 44th St",
-    "lat": 41.812329,
-    "lng": -87.722031,
+    "lat": 41.812334,
+    "lng": -87.722036,
     "first_seen": "2022-08-31",
     "last_seen": "2026-09-27",
     "aliases": []
@@ -15367,8 +15361,8 @@
   },
   {
     "name": "Public Rack - Pulaski Rd & Armitage Ave",
-    "lat": 41.918474,
-    "lng": -87.728496,
+    "lat": 41.918472,
+    "lng": -87.728495,
     "first_seen": "2022-06-15",
     "last_seen": "2026-09-25",
     "aliases": []
@@ -15383,8 +15377,8 @@
   },
   {
     "name": "Public Rack - Pulaski Rd & Fullerton Ave",
-    "lat": 41.922603,
-    "lng": -87.728576,
+    "lat": 41.92261,
+    "lng": -87.728572,
     "first_seen": "2022-06-16",
     "last_seen": "2026-08-17",
     "aliases": []
@@ -15447,32 +15441,32 @@
   },
   {
     "name": "Public Rack - Pullman - Planet Fitness",
-    "lat": 41.698599,
-    "lng": -87.598599,
+    "lat": 41.698572,
+    "lng": -87.598571,
     "first_seen": "2022-09-21",
     "last_seen": "2026-08-04",
     "aliases": []
   },
   {
     "name": "Public Rack - Pullman - Ross Dress for Less",
-    "lat": 41.698964,
-    "lng": -87.597687,
+    "lat": 41.698937,
+    "lng": -87.597621,
     "first_seen": "2023-04-22",
     "last_seen": "2025-10-26",
     "aliases": []
   },
   {
     "name": "Public Rack - Pullman - Walmart",
-    "lat": 41.698366,
-    "lng": -87.599069,
+    "lat": 41.698335,
+    "lng": -87.599051,
     "first_seen": "2022-09-02",
     "last_seen": "2026-06-10",
     "aliases": []
   },
   {
     "name": "Public Rack - Pullman Community Center",
-    "lat": 41.703153,
-    "lng": -87.592355,
+    "lat": 41.703258,
+    "lng": -87.592427,
     "first_seen": "2022-09-26",
     "last_seen": "2026-09-08",
     "aliases": []
@@ -15543,8 +15537,8 @@
   },
   {
     "name": "Public Rack - Richmond St & Thorndale Ave",
-    "lat": 41.989064,
-    "lng": -87.702448,
+    "lat": 41.989056,
+    "lng": -87.702468,
     "first_seen": "2022-08-02",
     "last_seen": "2026-08-26",
     "aliases": []
@@ -15567,7 +15561,7 @@
   },
   {
     "name": "Public Rack - Rockwell & Division",
-    "lat": 41.902534,
+    "lat": 41.902535,
     "lng": -87.692128,
     "first_seen": "2022-08-29",
     "last_seen": "2026-09-30",
@@ -15583,8 +15577,8 @@
   },
   {
     "name": "Public Rack - Rockwell Ave & Touhy Ave",
-    "lat": 42.011289,
-    "lng": -87.697418,
+    "lat": 42.011292,
+    "lng": -87.697413,
     "first_seen": "2022-06-14",
     "last_seen": "2026-09-26",
     "aliases": []
@@ -15647,8 +15641,8 @@
   },
   {
     "name": "Public Rack - Rutherford Ave & Belmont Ave",
-    "lat": 41.93852,
-    "lng": -87.793368,
+    "lat": 41.938518,
+    "lng": -87.793373,
     "first_seen": "2022-09-10",
     "last_seen": "2026-09-21",
     "aliases": []
@@ -15695,8 +15689,8 @@
   },
   {
     "name": "Public Rack - Sacramento Ave & Devon Ave",
-    "lat": 41.99862,
-    "lng": -87.702657,
+    "lat": 41.998617,
+    "lng": -87.702663,
     "first_seen": "2022-06-16",
     "last_seen": "2026-09-25",
     "aliases": []
@@ -15793,8 +15787,8 @@
   },
   {
     "name": "Public Rack - Sawyer Ave & Lawrence Ave",
-    "lat": 41.96875,
-    "lng": -87.709628,
+    "lat": 41.968748,
+    "lng": -87.709627,
     "first_seen": "2022-06-16",
     "last_seen": "2026-09-26",
     "aliases": []
@@ -15889,15 +15883,15 @@
   },
   {
     "name": "Public Rack - Spaulding Ave & Bryn Mawr Ave",
-    "lat": 41.982015,
-    "lng": -87.710968,
+    "lat": 41.98202,
+    "lng": -87.710971,
     "first_seen": "2022-06-14",
     "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Public Rack - Spaulding Ave & Evergreen Ave",
-    "lat": 41.906478,
+    "lat": 41.906477,
     "lng": -87.70962,
     "first_seen": "2022-06-15",
     "last_seen": "2026-09-30",
@@ -15905,8 +15899,8 @@
   },
   {
     "name": "Public Rack - Spaulding Ave & Foster Ave",
-    "lat": 41.978579,
-    "lng": -87.710151,
+    "lat": 41.978527,
+    "lng": -87.710156,
     "first_seen": "2022-06-14",
     "last_seen": "2026-06-28",
     "aliases": []
@@ -15929,8 +15923,8 @@
   },
   {
     "name": "Public Rack - Springfield & 71st",
-    "lat": 41.76373,
-    "lng": -87.720138,
+    "lat": 41.763754,
+    "lng": -87.720136,
     "first_seen": "2023-05-19",
     "last_seen": "2026-05-20",
     "aliases": []
@@ -16081,8 +16075,8 @@
   },
   {
     "name": "Public Rack - Talman Ave & 51st St",
-    "lat": 41.800852,
-    "lng": -87.690764,
+    "lat": 41.800854,
+    "lng": -87.690765,
     "first_seen": "2022-09-27",
     "last_seen": "2026-09-17",
     "aliases": []
@@ -16321,7 +16315,7 @@
   },
   {
     "name": "Public Rack - Walden Pkwy & 103rd St",
-    "lat": 41.707617,
+    "lat": 41.707615,
     "lng": -87.66937,
     "first_seen": "2022-09-13",
     "last_seen": "2026-09-18",
@@ -16377,15 +16371,15 @@
   },
   {
     "name": "Public Rack - Washtenaw Ave & Devon Ave",
-    "lat": 41.998419,
-    "lng": -87.69805,
+    "lat": 41.998416,
+    "lng": -87.698045,
     "first_seen": "2022-06-03",
     "last_seen": "2026-09-29",
     "aliases": []
   },
   {
     "name": "Public Rack - Washtenaw Ave & Superior St",
-    "lat": 41.8943,
+    "lat": 41.894301,
     "lng": -87.69517,
     "first_seen": "2022-09-08",
     "last_seen": "2026-09-30",
@@ -16529,8 +16523,8 @@
   },
   {
     "name": "Public Rack - Western Ave & 100th St",
-    "lat": 41.711459,
-    "lng": -87.681684,
+    "lat": 41.711462,
+    "lng": -87.681688,
     "first_seen": "2022-09-18",
     "last_seen": "2026-08-22",
     "aliases": []
@@ -16641,8 +16635,8 @@
   },
   {
     "name": "Public Rack - Western Ave & 47th Pl",
-    "lat": 41.808312,
-    "lng": -87.684061,
+    "lat": 41.80831,
+    "lng": -87.684068,
     "first_seen": "2022-09-03",
     "last_seen": "2026-09-30",
     "aliases": []
@@ -16665,7 +16659,7 @@
   },
   {
     "name": "Public Rack - Western Ave & 92nd Pl",
-    "lat": 41.725907,
+    "lat": 41.725906,
     "lng": -87.6818,
     "first_seen": "2022-09-25",
     "last_seen": "2026-09-17",
@@ -16697,7 +16691,7 @@
   },
   {
     "name": "Public Rack - Western Ave & Devon Ave",
-    "lat": 41.998116,
+    "lat": 41.998115,
     "lng": -87.689784,
     "first_seen": "2022-06-10",
     "last_seen": "2026-09-30",
@@ -16713,8 +16707,8 @@
   },
   {
     "name": "Public Rack - Western Blvd & 49th St",
-    "lat": 41.803174,
-    "lng": -87.682333,
+    "lat": 41.803176,
+    "lng": -87.682334,
     "first_seen": "2022-09-07",
     "last_seen": "2026-09-29",
     "aliases": []
@@ -16745,7 +16739,7 @@
   },
   {
     "name": "Public Rack - Whipple St & 63rd St",
-    "lat": 41.778955,
+    "lat": 41.778954,
     "lng": -87.69983,
     "first_seen": "2022-10-05",
     "last_seen": "2026-09-30",
@@ -16843,16 +16837,16 @@
   },
   {
     "name": "Public Rack - Woodlawn Ave & 63rd St N",
-    "lat": 41.780566,
-    "lng": -87.596444,
+    "lat": 41.780567,
+    "lng": -87.596436,
     "first_seen": "2022-09-07",
     "last_seen": "2026-09-29",
     "aliases": []
   },
   {
     "name": "Public Rack - Woodlawn Ave & 63rd St S",
-    "lat": 41.779543,
-    "lng": -87.59623,
+    "lat": 41.779541,
+    "lng": -87.596223,
     "first_seen": "2022-09-10",
     "last_seen": "2026-09-29",
     "aliases": []
@@ -16941,8 +16935,8 @@
   },
   {
     "name": "Pulaski Rd & 51st St",
-    "lat": 41.800281,
-    "lng": -87.723077,
+    "lat": 41.800282,
+    "lng": -87.723086,
     "first_seen": "2021-10-20",
     "last_seen": "2026-09-30",
     "aliases": []
@@ -16990,7 +16984,7 @@
   {
     "name": "Pulaski Rd & 84th St",
     "lat": 41.740407,
-    "lng": -87.721907,
+    "lng": -87.721908,
     "first_seen": "2023-11-10",
     "last_seen": "2026-09-22",
     "aliases": []
@@ -17098,7 +17092,7 @@
   },
   {
     "name": "Racine Ave & 18th St",
-    "lat": 41.858261,
+    "lat": 41.858262,
     "lng": -87.656463,
     "first_seen": "2020-01-01",
     "last_seen": "2026-09-30",
@@ -17130,7 +17124,7 @@
   },
   {
     "name": "Racine Ave & 65th St",
-    "lat": 41.775551,
+    "lat": 41.77555,
     "lng": -87.654305,
     "first_seen": "2020-04-04",
     "last_seen": "2026-09-23",
@@ -17154,7 +17148,7 @@
   },
   {
     "name": "Racine Ave & Belmont Ave",
-    "lat": 41.939725,
+    "lat": 41.939726,
     "lng": -87.658865,
     "first_seen": "2020-01-01",
     "last_seen": "2026-09-30",
@@ -17300,7 +17294,7 @@
   },
   {
     "name": "Ravenswood Ave & Lawrence Ave",
-    "lat": 41.968755,
+    "lat": 41.968753,
     "lng": -87.674227,
     "first_seen": "2020-01-01",
     "last_seen": "2026-09-30",
@@ -17340,8 +17334,8 @@
   },
   {
     "name": "Richmond St & 59th St",
-    "lat": 41.787299,
-    "lng": -87.697932,
+    "lat": 41.787288,
+    "lng": -87.697923,
     "first_seen": "2021-09-23",
     "last_seen": "2026-09-29",
     "aliases": []
@@ -17356,8 +17350,8 @@
   },
   {
     "name": "Richmond St & Lincoln Ave",
-    "lat": 41.988514,
-    "lng": -87.702538,
+    "lat": 41.98851,
+    "lng": -87.702545,
     "first_seen": "2021-11-06",
     "last_seen": "2026-09-29",
     "aliases": []
@@ -17455,14 +17449,14 @@
   {
     "name": "Rockwell St & 57th St",
     "lat": 41.790209,
-    "lng": -87.689295,
+    "lng": -87.689294,
     "first_seen": "2021-10-03",
     "last_seen": "2026-09-25",
     "aliases": []
   },
   {
     "name": "Rockwell St & 63rd St",
-    "lat": 41.779121,
+    "lat": 41.77912,
     "lng": -87.688971,
     "first_seen": "2022-03-02",
     "last_seen": "2026-09-30",
@@ -17470,8 +17464,8 @@
   },
   {
     "name": "Rockwell St & Archer Ave",
-    "lat": 41.821952,
-    "lng": -87.689863,
+    "lat": 41.821962,
+    "lng": -87.689862,
     "first_seen": "2021-09-29",
     "last_seen": "2026-09-30",
     "aliases": []
@@ -17486,8 +17480,8 @@
   },
   {
     "name": "Rockwell St & Cermak Rd",
-    "lat": 41.851082,
-    "lng": -87.690407,
+    "lat": 41.851084,
+    "lng": -87.690408,
     "first_seen": "2021-11-03",
     "last_seen": "2026-09-30",
     "aliases": []
@@ -17510,8 +17504,8 @@
   },
   {
     "name": "Rockwell St & Fletcher St",
-    "lat": 41.93909,
-    "lng": -87.69222,
+    "lat": 41.939089,
+    "lng": -87.692223,
     "first_seen": "2021-11-16",
     "last_seen": "2026-09-30",
     "aliases": []
@@ -17526,8 +17520,8 @@
   },
   {
     "name": "Roscoe & Harlem",
-    "lat": 41.940858,
-    "lng": -87.808531,
+    "lat": 41.94086,
+    "lng": -87.808527,
     "first_seen": "2021-08-25",
     "last_seen": "2026-02-18",
     "aliases": []
@@ -17618,7 +17612,7 @@
   },
   {
     "name": "Sacramento Ave & 25th St",
-    "lat": 41.847227,
+    "lat": 41.847226,
     "lng": -87.700111,
     "first_seen": "2021-11-20",
     "last_seen": "2026-09-29",
@@ -17682,8 +17676,8 @@
   },
   {
     "name": "Sacramento Blvd & Addison St",
-    "lat": 41.947114,
-    "lng": -87.702205,
+    "lat": 41.947111,
+    "lng": -87.702207,
     "first_seen": "2021-11-23",
     "last_seen": "2026-09-30",
     "aliases": []
@@ -17698,8 +17692,8 @@
   },
   {
     "name": "Sacramento Blvd & Fulton Ave",
-    "lat": 41.887234,
-    "lng": -87.701331,
+    "lat": 41.88723,
+    "lng": -87.701333,
     "first_seen": "2021-11-27",
     "last_seen": "2026-05-08",
     "aliases": []
@@ -17836,8 +17830,8 @@
   },
   {
     "name": "Sedgwick St & North Ave",
-    "lat": 41.911287,
-    "lng": -87.638644,
+    "lat": 41.911286,
+    "lng": -87.638643,
     "first_seen": "2020-01-01",
     "last_seen": "2026-09-30",
     "aliases": []
@@ -17900,7 +17894,7 @@
   },
   {
     "name": "Shabbona Park",
-    "lat": 41.943819,
+    "lat": 41.943822,
     "lng": -87.799462,
     "first_seen": "2021-10-22",
     "last_seen": "2026-09-26",
@@ -17941,7 +17935,7 @@
   {
     "name": "Sheffield Ave & Fullerton Ave",
     "lat": 41.925592,
-    "lng": -87.653696,
+    "lng": -87.653695,
     "first_seen": "2020-01-01",
     "last_seen": "2026-09-30",
     "aliases": [
@@ -18089,7 +18083,7 @@
   {
     "name": "Sheridan Rd & Loyola Ave",
     "lat": 42.001045,
-    "lng": -87.661212,
+    "lng": -87.661211,
     "first_seen": "2020-01-01",
     "last_seen": "2026-08-05",
     "aliases": []
@@ -18129,7 +18123,7 @@
   {
     "name": "Shields Ave & 43rd St",
     "lat": 41.816206,
-    "lng": -87.63479,
+    "lng": -87.634791,
     "first_seen": "2020-01-07",
     "last_seen": "2026-09-28",
     "aliases": []
@@ -18234,8 +18228,8 @@
   },
   {
     "name": "Southport Ave & Clybourn Ave",
-    "lat": 41.920875,
-    "lng": -87.664083,
+    "lat": 41.920877,
+    "lng": -87.664091,
     "first_seen": "2020-01-01",
     "last_seen": "2026-09-30",
     "aliases": []
@@ -18259,7 +18253,7 @@
   {
     "name": "Southport Ave & Irving Park Rd",
     "lat": 41.954169,
-    "lng": -87.664344,
+    "lng": -87.664345,
     "first_seen": "2020-01-01",
     "last_seen": "2026-09-30",
     "aliases": []
@@ -18282,7 +18276,7 @@
   },
   {
     "name": "Southport Ave & Waveland Ave",
-    "lat": 41.948149,
+    "lat": 41.94815,
     "lng": -87.663995,
     "first_seen": "2020-01-01",
     "last_seen": "2026-09-30",
@@ -18324,8 +18318,8 @@
   },
   {
     "name": "Spaulding Ave & 16th St",
-    "lat": 41.859399,
-    "lng": -87.708675,
+    "lat": 41.859397,
+    "lng": -87.70867,
     "first_seen": "2021-07-16",
     "last_seen": "2026-09-28",
     "aliases": []
@@ -18400,7 +18394,7 @@
   },
   {
     "name": "Springfield Ave & 47th St",
-    "lat": 41.808746,
+    "lat": 41.808745,
     "lng": -87.720797,
     "first_seen": "2021-10-08",
     "last_seen": "2026-09-29",
@@ -18464,8 +18458,8 @@
   },
   {
     "name": "St Louis Ave & 59th St",
-    "lat": 41.787442,
-    "lng": -87.710354,
+    "lat": 41.787408,
+    "lng": -87.710359,
     "first_seen": "2021-10-21",
     "last_seen": "2026-04-14",
     "aliases": []
@@ -18652,8 +18646,8 @@
   },
   {
     "name": "State St & 76th St",
-    "lat": 41.757259,
-    "lng": -87.624817,
+    "lat": 41.757258,
+    "lng": -87.624816,
     "first_seen": "2020-01-02",
     "last_seen": "2026-09-29",
     "aliases": []
@@ -18693,7 +18687,7 @@
   {
     "name": "State St & Kinzie St",
     "lat": 41.889271,
-    "lng": -87.627365,
+    "lng": -87.627364,
     "first_seen": "2020-01-01",
     "last_seen": "2026-09-30",
     "aliases": []
@@ -18740,7 +18734,7 @@
   },
   {
     "name": "Steelworkers Park",
-    "lat": 41.738234,
+    "lat": 41.738233,
     "lng": -87.530798,
     "first_seen": "2022-03-01",
     "last_seen": "2026-09-28",
@@ -18767,7 +18761,7 @@
   {
     "name": "Stewart Ave & 123rd St",
     "lat": 41.670589,
-    "lng": -87.632394,
+    "lng": -87.632395,
     "first_seen": "2022-05-18",
     "last_seen": "2026-09-23",
     "aliases": []
@@ -18784,7 +18778,7 @@
   },
   {
     "name": "Stewart Ave & 83rd St",
-    "lat": 41.743715,
+    "lat": 41.743716,
     "lng": -87.634089,
     "first_seen": "2020-07-16",
     "last_seen": "2026-09-29",
@@ -19088,24 +19082,24 @@
   },
   {
     "name": "Tripp Ave & 31st St",
-    "lat": 41.838597,
-    "lng": -87.730233,
+    "lat": 41.838591,
+    "lng": -87.730234,
     "first_seen": "2021-07-26",
     "last_seen": "2026-09-24",
     "aliases": []
   },
   {
     "name": "Tripp Ave & 65th St",
-    "lat": 41.773282,
-    "lng": -87.729221,
+    "lat": 41.773296,
+    "lng": -87.729217,
     "first_seen": "2021-10-06",
     "last_seen": "2026-09-27",
     "aliases": []
   },
   {
     "name": "Troy Ave & 27th St",
-    "lat": 41.841774,
-    "lng": -87.702698,
+    "lat": 41.841776,
+    "lng": -87.702701,
     "first_seen": "2022-03-28",
     "last_seen": "2026-01-10",
     "aliases": []
@@ -19128,16 +19122,16 @@
   },
   {
     "name": "Troy St & Grace St",
-    "lat": 41.950171,
-    "lng": -87.707467,
+    "lat": 41.950172,
+    "lng": -87.707463,
     "first_seen": "2021-10-28",
     "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Troy St & Jackson Blvd",
-    "lat": 41.878185,
-    "lng": -87.703573,
+    "lat": 41.878179,
+    "lng": -87.703586,
     "first_seen": "2022-05-04",
     "last_seen": "2026-05-06",
     "aliases": []
@@ -19272,24 +19266,24 @@
   },
   {
     "name": "Virginia Ave & Catalpa Ave",
-    "lat": 41.98097,
-    "lng": -87.704389,
+    "lat": 41.980971,
+    "lng": -87.704391,
     "first_seen": "2021-11-12",
     "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "W 103rd St & S Avers Ave",
-    "lat": 41.708249,
-    "lng": -87.718769,
+    "lat": 41.708229,
+    "lng": -87.718754,
     "first_seen": "2021-05-02",
     "last_seen": "2026-03-16",
     "aliases": []
   },
   {
     "name": "W Armitage Ave & N Sheffield Ave",
-    "lat": 41.918501,
-    "lng": -87.652365,
+    "lat": 41.918499,
+    "lng": -87.652368,
     "first_seen": "2020-08-07",
     "last_seen": "2026-02-11",
     "aliases": []
@@ -19304,7 +19298,7 @@
   },
   {
     "name": "W Washington Blvd & N Peoria St",
-    "lat": 41.882487,
+    "lat": 41.882491,
     "lng": -87.64996,
     "first_seen": "2020-12-22",
     "last_seen": "2026-04-09",
@@ -19360,7 +19354,7 @@
   },
   {
     "name": "Wabash Ave & 59th St",
-    "lat": 41.786878,
+    "lat": 41.786879,
     "lng": -87.623973,
     "first_seen": "2024-07-27",
     "last_seen": "2026-09-30",
@@ -19394,8 +19388,8 @@
   },
   {
     "name": "Wabash Ave & Adams St",
-    "lat": 41.87948,
-    "lng": -87.625708,
+    "lat": 41.879479,
+    "lng": -87.625707,
     "first_seen": "2020-01-01",
     "last_seen": "2026-09-30",
     "aliases": []
@@ -19517,8 +19511,8 @@
   },
   {
     "name": "Wallace St & Pershing Rd",
-    "lat": 41.823479,
-    "lng": -87.640885,
+    "lat": 41.823478,
+    "lng": -87.640889,
     "first_seen": "2024-09-10",
     "last_seen": "2025-12-27",
     "aliases": []
@@ -19573,7 +19567,7 @@
   },
   {
     "name": "Washtenaw Ave & Lawrence Ave",
-    "lat": 41.968851,
+    "lat": 41.96885,
     "lng": -87.696131,
     "first_seen": "2020-01-01",
     "last_seen": "2026-09-30",
@@ -19598,15 +19592,15 @@
   {
     "name": "Washtenaw Ave & Peterson Ave",
     "lat": 41.990501,
-    "lng": -87.697855,
+    "lng": -87.697853,
     "first_seen": "2021-11-11",
     "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Washtenaw Ave & Polk St",
-    "lat": 41.870754,
-    "lng": -87.692509,
+    "lat": 41.870755,
+    "lng": -87.69251,
     "first_seen": "2021-11-08",
     "last_seen": "2026-09-29",
     "aliases": []
@@ -19760,7 +19754,7 @@
   {
     "name": "Wells St & Polk St",
     "lat": 41.872691,
-    "lng": -87.633549,
+    "lng": -87.633548,
     "first_seen": "2020-01-01",
     "last_seen": "2026-09-30",
     "aliases": []
@@ -19809,7 +19803,7 @@
   },
   {
     "name": "Wentworth Ave & 104th St",
-    "lat": 41.705489,
+    "lat": 41.705488,
     "lng": -87.629212,
     "first_seen": "2020-09-20",
     "last_seen": "2026-09-28",
@@ -20038,16 +20032,16 @@
   },
   {
     "name": "Western Ave & 62nd St",
-    "lat": 41.780601,
-    "lng": -87.682081,
+    "lat": 41.780602,
+    "lng": -87.682085,
     "first_seen": "2021-09-23",
     "last_seen": "2026-09-27",
     "aliases": []
   },
   {
     "name": "Western Ave & 79th St",
-    "lat": 41.750632,
-    "lng": -87.682021,
+    "lat": 41.750634,
+    "lng": -87.682028,
     "first_seen": "2022-05-11",
     "last_seen": "2026-09-28",
     "aliases": []
@@ -20055,7 +20049,7 @@
   {
     "name": "Western Ave & 81st St",
     "lat": 41.746424,
-    "lng": -87.682964,
+    "lng": -87.682968,
     "first_seen": "2024-05-29",
     "last_seen": "2026-09-19",
     "aliases": []
@@ -20070,7 +20064,7 @@
   },
   {
     "name": "Western Ave & Ardmore Ave",
-    "lat": 41.987317,
+    "lat": 41.987315,
     "lng": -87.689825,
     "first_seen": "2021-11-21",
     "last_seen": "2026-09-30",
@@ -20078,8 +20072,8 @@
   },
   {
     "name": "Western Ave & Berteau Ave",
-    "lat": 41.958086,
-    "lng": -87.688545,
+    "lat": 41.958085,
+    "lng": -87.688544,
     "first_seen": "2022-06-10",
     "last_seen": "2026-09-30",
     "aliases": []
@@ -20113,7 +20107,7 @@
   {
     "name": "Western Ave & Grace St",
     "lat": 41.950283,
-    "lng": -87.688569,
+    "lng": -87.688567,
     "first_seen": "2021-11-11",
     "last_seen": "2026-09-30",
     "aliases": []
@@ -20152,15 +20146,15 @@
   },
   {
     "name": "Western Ave & Lake St",
-    "lat": 41.884228,
-    "lng": -87.686778,
+    "lat": 41.884231,
+    "lng": -87.686777,
     "first_seen": "2021-11-27",
     "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Western Ave & Leland Ave",
-    "lat": 41.966278,
+    "lat": 41.966279,
     "lng": -87.688621,
     "first_seen": "2020-01-01",
     "last_seen": "2026-09-30",
@@ -20184,8 +20178,8 @@
   },
   {
     "name": "Western Ave & Monroe St",
-    "lat": 41.880225,
-    "lng": -87.686233,
+    "lat": 41.880229,
+    "lng": -87.686234,
     "first_seen": "2020-01-01",
     "last_seen": "2026-09-30",
     "aliases": []
@@ -20274,8 +20268,8 @@
   },
   {
     "name": "Whipple/Irving Park",
-    "lat": 41.953103,
-    "lng": -87.70328,
+    "lat": 41.953109,
+    "lng": -87.703287,
     "first_seen": "2021-11-08",
     "last_seen": "2026-04-09",
     "aliases": []
@@ -20472,7 +20466,7 @@
   {
     "name": "Wood St & Hubbard St",
     "lat": 41.889845,
-    "lng": -87.67161,
+    "lng": -87.671611,
     "first_seen": "2020-01-01",
     "last_seen": "2026-09-30",
     "aliases": []
@@ -20585,7 +20579,7 @@
   },
   {
     "name": "Yates Blvd & 93rd St",
-    "lat": 41.726468,
+    "lat": 41.726467,
     "lng": -87.566447,
     "first_seen": "2021-06-09",
     "last_seen": "2026-09-23",

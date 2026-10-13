@@ -7,6 +7,11 @@ s3_bucket: s3://divvy-tripdata
 file_matcher:
   - trip
   - Trips
+# The January 2026 zip names its CSV after January 2025 (contents are 2025-12-31..2026-01-31),
+# so it collided with the real January 2025 file in raw/.
+renamed_archive_members:
+  202601-divvy-tripdata.zip:
+    202501-divvy-tripdata.csv: 202601-divvy-tripdata.csv
 
 renamed_columns:
   # Commonized system data columns (used by newer Divvy datasets)
