@@ -2,17 +2,17 @@
   {
     "name": "101 Smith Place",
     "lat": 42.392567,
-    "lng": -71.150758,
+    "lng": -71.150759,
     "first_seen": "2024-07-05",
-    "last_seen": "2026-05-29",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "1200 Beacon St",
     "lat": 42.344146,
-    "lng": -71.114685,
+    "lng": -71.114684,
     "first_seen": "2021-07-26",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -20,33 +20,33 @@
     "lat": 42.395857,
     "lng": -71.145108,
     "first_seen": "2026-05-29",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "135 Morrissey Blvd",
-    "lat": 42.315568,
+    "lat": 42.315569,
     "lng": -71.048415,
     "first_seen": "2025-12-06",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "160 Arsenal St",
     "lat": 42.364665,
-    "lng": -71.175686,
+    "lng": -71.175687,
     "first_seen": "2021-03-06",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": [
       "160 Arsenal"
     ]
   },
   {
     "name": "175 N Harvard St",
-    "lat": 42.364021,
-    "lng": -71.128914,
+    "lat": 42.364042,
+    "lng": -71.12889,
     "first_seen": "2016-12-01",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -54,7 +54,7 @@
     "lat": 42.387151,
     "lng": -71.075978,
     "first_seen": "2015-01-08",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-07-15",
     "aliases": []
   },
   {
@@ -62,15 +62,15 @@
     "lat": 42.380324,
     "lng": -71.108788,
     "first_seen": "2018-12-05",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "2 Hummingbird Lane at Olmsted Green",
-    "lat": 42.288876,
+    "lat": 42.288875,
     "lng": -71.095004,
     "first_seen": "2020-12-26",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-25",
     "aliases": []
   },
   {
@@ -78,7 +78,7 @@
     "lat": 42.381001,
     "lng": -71.104025,
     "first_seen": "2018-10-23",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": [
       "30 Dane St."
     ]
@@ -93,10 +93,10 @@
   },
   {
     "name": "300 Summer St",
-    "lat": 42.349774,
-    "lng": -71.048966,
+    "lat": 42.349772,
+    "lng": -71.048976,
     "first_seen": "2025-01-30",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -104,7 +104,7 @@
     "lat": 42.367219,
     "lng": -71.08903,
     "first_seen": "2024-03-05",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -112,17 +112,17 @@
     "lat": 42.370803,
     "lng": -71.104412,
     "first_seen": "2015-01-01",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": [
       "359 Broadway"
     ]
   },
   {
     "name": "39 Brighton Ave",
-    "lat": 42.352997,
-    "lng": -71.126576,
+    "lat": 42.352996,
+    "lng": -71.126577,
     "first_seen": "2025-07-28",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -130,7 +130,15 @@
     "lat": 42.369057,
     "lng": -71.080003,
     "first_seen": "2024-08-21",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
+    "aliases": []
+  },
+  {
+    "name": "440 Rutherford Ave Depot",
+    "lat": 42.379265,
+    "lng": -71.07216,
+    "first_seen": "2026-07-17",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -143,18 +151,18 @@
   },
   {
     "name": "55 Wheeler Street",
-    "lat": 42.390816,
+    "lat": 42.390817,
     "lng": -71.143948,
     "first_seen": "2023-10-03",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "555 Metropolitan Ave",
-    "lat": 42.268092,
+    "lat": 42.268093,
     "lng": -71.119236,
     "first_seen": "2021-11-01",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -162,25 +170,25 @@
     "lat": 42.285784,
     "lng": -71.109717,
     "first_seen": "2021-09-30",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "615 Broadway",
-    "lat": 42.394543,
+    "lat": 42.394542,
     "lng": -71.030827,
     "first_seen": "2021-03-05",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": [
       "Broadway at Gerrish Ave"
     ]
   },
   {
     "name": "645 Summer St",
-    "lat": 42.341773,
+    "lat": 42.341774,
     "lng": -71.039879,
     "first_seen": "2020-10-15",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -188,7 +196,7 @@
     "lat": 42.375002,
     "lng": -71.148713,
     "first_seen": "2018-08-09",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -201,10 +209,10 @@
   },
   {
     "name": "7 Acre Park",
-    "lat": 42.411418,
-    "lng": -71.068223,
+    "lat": 42.411419,
+    "lng": -71.068224,
     "first_seen": "2019-06-14",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -220,23 +228,23 @@
     "lat": 42.380786,
     "lng": -71.154128,
     "first_seen": "2018-11-07",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "75 Binney St",
-    "lat": 42.365505,
+    "lat": 42.365506,
     "lng": -71.08014,
     "first_seen": "2019-07-02",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "780 Morrissey Blvd",
-    "lat": 42.295308,
+    "lat": 42.295307,
     "lng": -71.047187,
     "first_seen": "2024-09-17",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -244,7 +252,7 @@
     "lat": 42.393597,
     "lng": -71.143935,
     "first_seen": "2018-10-18",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -252,15 +260,15 @@
     "lat": 42.398418,
     "lng": -71.023911,
     "first_seen": "2021-03-17",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "87-101 Cambridgepark Drive",
-    "lat": 42.395231,
+    "lat": 42.39523,
     "lng": -71.144216,
     "first_seen": "2023-02-08",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -276,7 +284,7 @@
     "lat": 42.368952,
     "lng": -71.109989,
     "first_seen": "2021-06-10",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -284,7 +292,15 @@
     "lat": 42.363675,
     "lng": -71.151786,
     "first_seen": "2024-12-16",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
+    "aliases": []
+  },
+  {
+    "name": "99 Harvard St",
+    "lat": 42.336389,
+    "lng": -71.120917,
+    "first_seen": "2026-08-11",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -305,18 +321,18 @@
   },
   {
     "name": "Adams St at Mallet St.",
-    "lat": 42.290826,
-    "lng": -71.056929,
+    "lat": 42.290917,
+    "lng": -71.056917,
     "first_seen": "2025-04-04",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Adams St at Robinson St",
-    "lat": 42.302848,
-    "lng": -71.060538,
+    "lat": 42.302852,
+    "lng": -71.060544,
     "first_seen": "2026-05-22",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -324,7 +340,7 @@
     "lat": 42.385181,
     "lng": -71.015135,
     "first_seen": "2022-05-14",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -337,18 +353,18 @@
   },
   {
     "name": "Airport T Stop - Bremen St at Brooks St",
-    "lat": 42.375166,
-    "lng": -71.031555,
+    "lat": 42.375192,
+    "lng": -71.031536,
     "first_seen": "2016-09-28",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Alabama St at Messinger St",
-    "lat": 42.275499,
-    "lng": -71.102806,
+    "lat": 42.2755,
+    "lng": -71.102803,
     "first_seen": "2026-05-19",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-29",
     "aliases": []
   },
   {
@@ -356,23 +372,23 @@
     "lat": 42.336649,
     "lng": -71.068945,
     "first_seen": "2019-05-13",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Alewife MBTA at Steel Place",
     "lat": 42.395591,
-    "lng": -71.142608,
+    "lng": -71.142607,
     "first_seen": "2016-08-30",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Alewife Station at Russell Field",
-    "lat": 42.39613,
-    "lng": -71.139523,
+    "lat": 42.396133,
+    "lng": -71.139545,
     "first_seen": "2015-01-01",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -393,10 +409,10 @@
   },
   {
     "name": "Alpine Path at Concord Ave",
-    "lat": 42.385364,
+    "lat": 42.385365,
     "lng": -71.137756,
     "first_seen": "2025-09-03",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -404,7 +420,7 @@
     "lat": 42.278808,
     "lng": -71.116878,
     "first_seen": "2019-08-23",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": [
       "American Legion Hwy at Canterbury St",
       "Cummins at American Legion"
@@ -415,7 +431,7 @@
     "lat": 42.272654,
     "lng": -71.1199,
     "first_seen": "2021-08-31",
-    "last_seen": "2026-05-28",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -423,7 +439,7 @@
     "lat": 42.363693,
     "lng": -71.087567,
     "first_seen": "2018-10-25",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -431,7 +447,7 @@
     "lat": 42.362499,
     "lng": -71.08822,
     "first_seen": "2015-01-01",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -440,6 +456,22 @@
     "lng": -71.057044,
     "first_seen": "2015-04-17",
     "last_seen": "2016-11-29",
+    "aliases": []
+  },
+  {
+    "name": "Andrew T Stop - Dorchester Ave (East)",
+    "lat": 42.330516,
+    "lng": -71.056876,
+    "first_seen": "2026-06-09",
+    "last_seen": "2026-09-30",
+    "aliases": []
+  },
+  {
+    "name": "Andrew T Stop - Dorchester Ave (West)",
+    "lat": 42.330187,
+    "lng": -71.057088,
+    "first_seen": "2026-06-09",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -460,18 +492,18 @@
   },
   {
     "name": "Aquarium T Stop - 200 Atlantic Ave",
-    "lat": 42.359976,
-    "lng": -71.051319,
+    "lat": 42.359969,
+    "lng": -71.051335,
     "first_seen": "2016-12-01",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Arch St at Franklin St",
-    "lat": 42.355344,
-    "lng": -71.058249,
+    "lat": 42.355343,
+    "lng": -71.058248,
     "first_seen": "2017-04-02",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -479,7 +511,7 @@
     "lat": 42.292661,
     "lng": -71.121181,
     "first_seen": "2018-08-31",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -495,7 +527,7 @@
     "lat": 42.362774,
     "lng": -71.157652,
     "first_seen": "2020-10-08",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -503,15 +535,15 @@
     "lat": 42.363497,
     "lng": -71.164216,
     "first_seen": "2024-06-27",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Ashley St at Boardman St",
     "lat": 42.389155,
-    "lng": -71.010408,
+    "lng": -71.010409,
     "first_seen": "2025-01-23",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": [
       "Ashley St at Boardman"
     ]
@@ -521,7 +553,7 @@
     "lat": 42.285691,
     "lng": -71.064143,
     "first_seen": "2019-06-07",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -529,15 +561,15 @@
     "lat": 42.392234,
     "lng": -71.077467,
     "first_seen": "2018-07-31",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Atlantic Ave at Beach St",
-    "lat": 42.350707,
+    "lat": 42.350711,
     "lng": -71.05659,
     "first_seen": "2025-09-09",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -545,7 +577,7 @@
     "lat": 42.346106,
     "lng": -71.029199,
     "first_seen": "2024-08-07",
-    "last_seen": "2026-05-30",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -553,7 +585,7 @@
     "lat": 42.417591,
     "lng": -71.12608,
     "first_seen": "2023-10-19",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -561,15 +593,15 @@
     "lat": 42.348055,
     "lng": -71.247758,
     "first_seen": "2021-08-06",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "B.U. Central T Stop - 725 Commonwealth Ave",
     "lat": 42.350405,
-    "lng": -71.108277,
+    "lng": -71.108278,
     "first_seen": "2015-04-11",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": [
       "B.U. Central - 725 Comm. Ave."
     ]
@@ -579,7 +611,7 @@
     "lat": 42.167226,
     "lng": -70.905558,
     "first_seen": "2018-10-29",
-    "last_seen": "2026-04-29",
+    "last_seen": "2026-08-15",
     "aliases": []
   },
   {
@@ -591,11 +623,19 @@
     "aliases": []
   },
   {
+    "name": "Babcock St at Dwight St",
+    "lat": 42.345889,
+    "lng": -71.121639,
+    "first_seen": "2026-08-12",
+    "last_seen": "2026-09-30",
+    "aliases": []
+  },
+  {
     "name": "Back Bay T Stop - Dartmouth St at Stuart St",
     "lat": 42.348072,
     "lng": -71.07657,
     "first_seen": "2015-01-02",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": [
       "Back Bay / South End Station"
     ]
@@ -605,23 +645,23 @@
     "lat": 42.357122,
     "lng": -71.186048,
     "first_seen": "2020-10-02",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Ball Sq",
-    "lat": 42.399258,
-    "lng": -71.110908,
+    "lat": 42.399268,
+    "lng": -71.110927,
     "first_seen": "2019-07-16",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Bartlett St at John Eliot Sq",
-    "lat": 42.329457,
-    "lng": -71.090154,
+    "lat": 42.329461,
+    "lng": -71.090156,
     "first_seen": "2018-09-28",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": [
       "Bartlett St at John Elliot Sq",
       "Bartlett St at John Elliot Sq (former)"
@@ -629,10 +669,10 @@
   },
   {
     "name": "Beach St at Freeport St",
-    "lat": 42.303669,
+    "lat": 42.30367,
     "lng": -71.054261,
     "first_seen": "2023-10-10",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -640,7 +680,7 @@
     "lat": 42.397609,
     "lng": -70.993072,
     "first_seen": "2025-01-08",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -656,7 +696,7 @@
     "lat": 42.356053,
     "lng": -71.069849,
     "first_seen": "2015-04-10",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": [
       "Charles St and Beacon St",
       "Charles St at Beacon St",
@@ -684,7 +724,7 @@
     "lat": 42.350827,
     "lng": -71.089811,
     "first_seen": "2017-04-10",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -700,15 +740,15 @@
     "lat": 42.338265,
     "lng": -71.138948,
     "first_seen": "2018-05-01",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Beacon St at Washington / Kirkland",
-    "lat": 42.378589,
-    "lng": -71.106379,
+    "lat": 42.378598,
+    "lng": -71.106417,
     "first_seen": "2015-06-10",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -716,7 +756,7 @@
     "lat": 42.330061,
     "lng": -71.206685,
     "first_seen": "2021-06-24",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -724,31 +764,31 @@
     "lat": 42.286346,
     "lng": -71.136725,
     "first_seen": "2018-11-11",
-    "last_seen": "2026-05-30",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Bellevue T Stop",
-    "lat": 42.28607,
-    "lng": -71.146604,
+    "lat": 42.286083,
+    "lng": -71.146575,
     "first_seen": "2021-06-02",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Bellingham Square",
-    "lat": 42.393202,
-    "lng": -71.03344,
+    "lat": 42.393201,
+    "lng": -71.033441,
     "first_seen": "2021-03-03",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Bennington St at Byron St",
-    "lat": 42.383527,
+    "lat": 42.383528,
     "lng": -71.016187,
     "first_seen": "2016-09-27",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -756,7 +796,7 @@
     "lat": 42.385223,
     "lng": -71.01063,
     "first_seen": "2018-09-20",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": [
       "Bennington St at Constitution Beach (former)"
     ]
@@ -766,7 +806,7 @@
     "lat": 42.375909,
     "lng": -71.035984,
     "first_seen": "2025-01-17",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -774,7 +814,7 @@
     "lat": 42.372076,
     "lng": -71.089955,
     "first_seen": "2019-09-11",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -782,23 +822,23 @@
     "lat": 42.32586,
     "lng": -71.049142,
     "first_seen": "2025-05-21",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Binney St / Sixth St",
     "lat": 42.366098,
-    "lng": -71.086414,
+    "lng": -71.086412,
     "first_seen": "2015-01-01",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Blossom St at Charles St",
-    "lat": 42.364177,
-    "lng": -71.069336,
+    "lat": 42.364192,
+    "lng": -71.069345,
     "first_seen": "2019-08-14",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -814,7 +854,7 @@
     "lat": 42.274619,
     "lng": -71.093725,
     "first_seen": "2018-08-26",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-29",
     "aliases": []
   },
   {
@@ -827,10 +867,10 @@
   },
   {
     "name": "Blue Hill Ave at Havelock St",
-    "lat": 42.286008,
-    "lng": -71.090994,
+    "lat": 42.286009,
+    "lng": -71.090993,
     "first_seen": "2020-11-05",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -838,7 +878,7 @@
     "lat": 42.317861,
     "lng": -71.077986,
     "first_seen": "2018-09-29",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": [
       "Blue Hill Ave at Southwood St (former)"
     ]
@@ -846,9 +886,9 @@
   {
     "name": "Boston City Hall - 28 State St",
     "lat": 42.358917,
-    "lng": -71.057633,
+    "lng": -71.057632,
     "first_seen": "2015-01-01",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": [
       "Mayor Martin J Walsh - 28 State St"
     ]
@@ -858,7 +898,7 @@
     "lat": 42.33988,
     "lng": -71.167089,
     "first_seen": "2021-06-20",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -874,7 +914,7 @@
     "lat": 42.34776,
     "lng": -71.045358,
     "first_seen": "2016-12-01",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -882,7 +922,7 @@
     "lat": 42.373312,
     "lng": -71.041019,
     "first_seen": "2018-05-02",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -890,7 +930,7 @@
     "lat": 42.356557,
     "lng": -71.141676,
     "first_seen": "2019-10-16",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -904,9 +944,9 @@
   {
     "name": "Boston Medical Center - E Concord St at Harrison Ave",
     "lat": 42.336413,
-    "lng": -71.07298,
+    "lng": -71.072985,
     "first_seen": "2016-12-28",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -927,10 +967,10 @@
   },
   {
     "name": "Boston Public Market - Surface Rd at Sudbury St",
-    "lat": 42.362557,
-    "lng": -71.057485,
+    "lat": 42.362558,
+    "lng": -71.057486,
     "first_seen": "2025-01-14",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -938,7 +978,7 @@
     "lat": 42.307851,
     "lng": -71.065124,
     "first_seen": "2016-08-16",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -959,10 +999,10 @@
   },
   {
     "name": "Boylston St at Arlington St",
-    "lat": 42.352147,
-    "lng": -71.069971,
+    "lat": 42.352171,
+    "lng": -71.069842,
     "first_seen": "2016-12-01",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-23",
     "aliases": []
   },
   {
@@ -970,15 +1010,15 @@
     "lat": 42.351141,
     "lng": -71.073295,
     "first_seen": "2017-04-27",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Boylston St at Charles St",
-    "lat": 42.352576,
-    "lng": -71.067644,
+    "lat": 42.352577,
+    "lng": -71.067642,
     "first_seen": "2017-12-01",
-    "last_seen": "2023-04-21",
+    "last_seen": "2026-09-30",
     "aliases": [
       "Boylston St at Arlington St TEMPORARY WINTER LOCATION",
       "Boylston St at Charles St (Temp Winter Location)"
@@ -986,10 +1026,10 @@
   },
   {
     "name": "Boylston St at Dartmouth St",
-    "lat": 42.350238,
-    "lng": -71.077161,
+    "lat": 42.350243,
+    "lng": -71.077194,
     "first_seen": "2017-04-26",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -997,15 +1037,15 @@
     "lat": 42.349593,
     "lng": -71.079462,
     "first_seen": "2018-11-08",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Boylston St at Fairfield St",
-    "lat": 42.3488,
-    "lng": -71.082355,
+    "lat": 42.348801,
+    "lng": -71.082356,
     "first_seen": "2015-04-24",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": [
       "Boylston at Fairfield"
     ]
@@ -1013,9 +1053,9 @@
   {
     "name": "Boylston St at Jersey St",
     "lat": 42.344652,
-    "lng": -71.097315,
+    "lng": -71.097316,
     "first_seen": "2018-09-06",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -1028,10 +1068,10 @@
   },
   {
     "name": "Boylston St at Massachusetts Ave",
-    "lat": 42.347381,
-    "lng": -71.087034,
+    "lat": 42.347382,
+    "lng": -71.087028,
     "first_seen": "2017-04-12",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -1044,18 +1084,18 @@
   },
   {
     "name": "Boylston T Stop",
-    "lat": 42.352504,
-    "lng": -71.065282,
+    "lat": 42.352505,
+    "lng": -71.065283,
     "first_seen": "2025-10-21",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Boynton Yards at 101 South Street",
-    "lat": 42.375436,
-    "lng": -71.091199,
+    "lat": 42.37544,
+    "lng": -71.091201,
     "first_seen": "2023-02-16",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -1063,7 +1103,7 @@
     "lat": 42.374106,
     "lng": -71.032763,
     "first_seen": "2023-06-28",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -1077,9 +1117,9 @@
   {
     "name": "Bridge Street Neck",
     "lat": 42.5281,
-    "lng": -70.88971,
+    "lng": -70.889709,
     "first_seen": "2023-06-07",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -1093,9 +1133,9 @@
   {
     "name": "Brigham Circle - Francis St at Huntington Ave",
     "lat": 42.334618,
-    "lng": -71.104124,
+    "lng": -71.104122,
     "first_seen": "2016-12-01",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -1103,7 +1143,7 @@
     "lat": 42.352837,
     "lng": -71.129675,
     "first_seen": "2022-08-09",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -1111,7 +1151,7 @@
     "lat": 42.348947,
     "lng": -71.150266,
     "first_seen": "2015-10-11",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": [
       "Brighton Center"
     ]
@@ -1121,23 +1161,31 @@
     "lat": 42.361545,
     "lng": -71.137761,
     "first_seen": "2016-12-01",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
+    "aliases": []
+  },
+  {
+    "name": "Broad Canal Way North",
+    "lat": 42.363219,
+    "lng": -71.082811,
+    "first_seen": "2026-06-03",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Broad Canal Way at Third Street",
     "lat": 42.363047,
-    "lng": -71.082881,
+    "lng": -71.08288,
     "first_seen": "2022-09-28",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Broad St at Central St",
-    "lat": 42.35849,
-    "lng": -71.054276,
+    "lat": 42.358491,
+    "lng": -71.054275,
     "first_seen": "2020-08-25",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -1150,18 +1198,18 @@
   },
   {
     "name": "Broadway St at Mt Pleasant St",
-    "lat": 42.386139,
+    "lat": 42.38614,
     "lng": -71.078281,
     "first_seen": "2016-04-29",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Broadway T Stop",
-    "lat": 42.342972,
-    "lng": -71.057873,
+    "lat": 42.34298,
+    "lng": -71.057889,
     "first_seen": "2018-09-27",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -1182,10 +1230,10 @@
   },
   {
     "name": "Broadway at Beacham St",
-    "lat": 42.398365,
+    "lat": 42.398364,
     "lng": -71.063737,
     "first_seen": "2019-06-21",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -1193,7 +1241,7 @@
     "lat": 42.395169,
     "lng": -71.098506,
     "first_seen": "2018-07-26",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -1201,23 +1249,23 @@
     "lat": 42.409941,
     "lng": -71.140091,
     "first_seen": "2020-09-16",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Broadway at Kittie Knox Bike Path",
     "lat": 42.364125,
-    "lng": -71.087392,
+    "lng": -71.087391,
     "first_seen": "2023-10-14",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Broadway at Lynde St",
     "lat": 42.396478,
-    "lng": -71.065484,
+    "lng": -71.065483,
     "first_seen": "2019-06-14",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -1225,7 +1273,7 @@
     "lat": 42.410349,
     "lng": -71.052604,
     "first_seen": "2019-06-21",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -1233,7 +1281,7 @@
     "lat": 42.333764,
     "lng": -71.120464,
     "first_seen": "2017-12-01",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": [
       "Brookline Village - Station Street @ MBTA TEMPORARY WINTER LOCATION"
     ]
@@ -1264,10 +1312,10 @@
   },
   {
     "name": "Brookline Village MBTA at Pearl Street",
-    "lat": 42.332747,
+    "lat": 42.332746,
     "lng": -71.116267,
     "first_seen": "2019-06-01",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": [
       "Brookline Village - Station Street at MBTA"
     ]
@@ -1275,9 +1323,9 @@
   {
     "name": "Bunker Hill Community College",
     "lat": 42.374091,
-    "lng": -71.069062,
+    "lng": -71.069061,
     "first_seen": "2015-10-15",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -1285,41 +1333,41 @@
     "lat": 42.345735,
     "lng": -71.1007,
     "first_seen": "2015-04-16",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": [
       "BIDMC - Brookline at Burlington St"
     ]
   },
   {
     "name": "Butler T Stop",
-    "lat": 42.272549,
-    "lng": -71.062886,
+    "lat": 42.272548,
+    "lng": -71.062885,
     "first_seen": "2023-12-22",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "C St at Baxter St",
     "lat": 42.336953,
-    "lng": -71.055484,
+    "lng": -71.055483,
     "first_seen": "2026-01-05",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "California at Chapel",
-    "lat": 42.365148,
+    "lat": 42.365149,
     "lng": -71.202359,
     "first_seen": "2021-06-23",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Cambridge Crossing at North First Street",
     "lat": 42.371147,
-    "lng": -71.076204,
+    "lng": -71.076203,
     "first_seen": "2021-10-29",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -1327,7 +1375,7 @@
     "lat": 42.371198,
     "lng": -71.097599,
     "first_seen": "2017-08-10",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -1335,15 +1383,15 @@
     "lat": 42.37338,
     "lng": -71.111075,
     "first_seen": "2015-01-01",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Cambridge St - at Columbia St / Webster Ave",
-    "lat": 42.372969,
-    "lng": -71.094433,
+    "lat": 42.372974,
+    "lng": -71.094431,
     "first_seen": "2015-01-01",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -1351,15 +1399,15 @@
     "lat": 42.361255,
     "lng": -71.065283,
     "first_seen": "2016-12-01",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Cambridge St at Warren St",
-    "lat": 42.350224,
-    "lng": -71.146677,
+    "lat": 42.350225,
+    "lng": -71.146678,
     "first_seen": "2025-09-11",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -1383,15 +1431,15 @@
     "lat": 42.36693,
     "lng": -71.076514,
     "first_seen": "2024-09-20",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Canal St at Causeway St",
-    "lat": 42.365252,
-    "lng": -71.060871,
+    "lat": 42.365245,
+    "lng": -71.060862,
     "first_seen": "2020-08-19",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -1404,34 +1452,42 @@
   },
   {
     "name": "Carr Park",
-    "lat": 42.434231,
-    "lng": -71.094721,
+    "lat": 42.434262,
+    "lng": -71.094729,
     "first_seen": "2024-07-31",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Cary Square",
-    "lat": 42.39813,
+    "lat": 42.398131,
     "lng": -71.030702,
     "first_seen": "2021-03-04",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Cedar Grove T Stop",
-    "lat": 42.279614,
+    "lat": 42.279613,
     "lng": -71.06022,
     "first_seen": "2023-10-13",
-    "last_seen": "2026-05-30",
+    "last_seen": "2026-09-29",
+    "aliases": []
+  },
+  {
+    "name": "Center Plaza",
+    "lat": 42.364275,
+    "lng": -71.08773,
+    "first_seen": "2026-07-15",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Central Ave at River St",
     "lat": 42.270946,
-    "lng": -71.073379,
+    "lng": -71.073378,
     "first_seen": "2019-09-10",
-    "last_seen": "2026-05-30",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -1439,7 +1495,7 @@
     "lat": 42.366426,
     "lng": -71.105497,
     "first_seen": "2015-01-01",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -1455,7 +1511,7 @@
     "lat": 42.375447,
     "lng": -71.039189,
     "first_seen": "2019-08-16",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -1471,15 +1527,15 @@
     "lat": 42.36507,
     "lng": -71.103098,
     "first_seen": "2015-01-01",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Centre St at Allandale St",
-    "lat": 42.300803,
-    "lng": -71.127439,
+    "lat": 42.300802,
+    "lng": -71.127441,
     "first_seen": "2024-07-31",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": [
       "Centre St. at Allandale St."
     ]
@@ -1487,9 +1543,9 @@
   {
     "name": "Centre St at Commonwealth Ave",
     "lat": 42.336231,
-    "lng": -71.193454,
+    "lng": -71.193453,
     "first_seen": "2022-03-13",
-    "last_seen": "2026-05-30",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -1497,15 +1553,15 @@
     "lat": 42.282783,
     "lng": -71.157284,
     "first_seen": "2019-08-25",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Centre St at Seaverns Ave",
-    "lat": 42.312302,
-    "lng": -71.114268,
+    "lat": 42.312294,
+    "lng": -71.114276,
     "first_seen": "2018-09-21",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -1521,7 +1577,7 @@
     "lat": 42.286329,
     "lng": -71.153449,
     "first_seen": "2019-09-05",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -1529,15 +1585,15 @@
     "lat": 42.355743,
     "lng": -71.18642,
     "first_seen": "2020-10-03",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Charles Circle - Charles St at Cambridge St",
-    "lat": 42.360744,
-    "lng": -71.071159,
+    "lat": 42.360746,
+    "lng": -71.071161,
     "first_seen": "2017-04-04",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -1566,10 +1622,10 @@
   },
   {
     "name": "Charles St S at Stuart St",
-    "lat": 42.350774,
-    "lng": -71.066704,
+    "lat": 42.350775,
+    "lng": -71.066702,
     "first_seen": "2024-12-26",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": [
       "Charles St S at Stuart"
     ]
@@ -1585,9 +1641,9 @@
   {
     "name": "Charlestown Navy Yard",
     "lat": 42.374124,
-    "lng": -71.054819,
+    "lng": -71.054818,
     "first_seen": "2018-09-20",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -1601,25 +1657,25 @@
   {
     "name": "Charlestown Navy Yard Ferry Terminal",
     "lat": 42.373364,
-    "lng": -71.052838,
+    "lng": -71.052839,
     "first_seen": "2026-04-29",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Chelsea Square",
-    "lat": 42.39022,
-    "lng": -71.038578,
+    "lat": 42.390221,
+    "lng": -71.038577,
     "first_seen": "2021-03-04",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Chelsea St at Medford St",
-    "lat": 42.378574,
-    "lng": -71.052976,
+    "lat": 42.378573,
+    "lng": -71.052977,
     "first_seen": "2025-04-15",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -1632,10 +1688,10 @@
   },
   {
     "name": "Chelsea St at Vine St",
-    "lat": 42.403687,
-    "lng": -71.047395,
+    "lat": 42.403651,
+    "lng": -71.047386,
     "first_seen": "2019-06-22",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -1643,33 +1699,33 @@
     "lat": 42.396369,
     "lng": -71.039874,
     "first_seen": "2021-03-07",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Chestnut Hill Ave at Ledgemere Rd",
-    "lat": 42.3437,
+    "lat": 42.343699,
     "lng": -71.153251,
     "first_seen": "2024-06-19",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": [
       "Chestnut Hill Ave. at Ledgemere Road"
     ]
   },
   {
     "name": "Chestnut Hill Ave at Winship St",
-    "lat": 42.345607,
+    "lat": 42.345608,
     "lng": -71.152761,
     "first_seen": "2025-09-18",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Chestnut St at Poplar St",
-    "lat": 42.377638,
+    "lat": 42.377637,
     "lng": -71.085954,
     "first_seen": "2023-12-13",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -1683,9 +1739,9 @@
   {
     "name": "Child Street at Brian P. Murphy Staircase",
     "lat": 42.371977,
-    "lng": -71.072008,
+    "lng": -71.072007,
     "first_seen": "2022-05-01",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -1693,7 +1749,7 @@
     "lat": 42.351358,
     "lng": -71.059367,
     "first_seen": "2015-01-09",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": [
       "Chinatown Gate Plaza - Surface Rd. at Beach St."
     ]
@@ -1703,7 +1759,7 @@
     "lat": 42.352404,
     "lng": -71.062685,
     "first_seen": "2015-01-02",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": [
       "Boylston St / Washington St",
       "Boylston St at Washington St"
@@ -1722,7 +1778,7 @@
     "lat": 42.343672,
     "lng": -71.085828,
     "first_seen": "2016-12-01",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -1730,7 +1786,7 @@
     "lat": 42.374342,
     "lng": -71.119665,
     "first_seen": "2023-08-10",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -1738,15 +1794,15 @@
     "lat": 42.297042,
     "lng": -71.091722,
     "first_seen": "2021-08-24",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Clarendon Hill at Broadway",
-    "lat": 42.40627,
-    "lng": -71.132397,
+    "lat": 42.406239,
+    "lng": -71.13235,
     "first_seen": "2016-12-01",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -1760,25 +1816,25 @@
   {
     "name": "Clarendon St at Newbury St",
     "lat": 42.351592,
-    "lng": -71.07564,
+    "lng": -71.075646,
     "first_seen": "2019-05-01",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Cleary Sq",
-    "lat": 42.255604,
-    "lng": -71.12443,
+    "lat": 42.255603,
+    "lng": -71.124431,
     "first_seen": "2021-09-22",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Cleveland Circle",
-    "lat": 42.33554,
+    "lat": 42.335541,
     "lng": -71.150614,
     "first_seen": "2018-09-07",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -1794,7 +1850,7 @@
     "lat": 42.360703,
     "lng": -71.055257,
     "first_seen": "2021-08-04",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -1802,7 +1858,7 @@
     "lat": 42.287363,
     "lng": -71.07111,
     "first_seen": "2018-08-24",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": [
       "Codman Square Library (former)"
     ]
@@ -1820,7 +1876,7 @@
     "lat": 42.340115,
     "lng": -71.100619,
     "first_seen": "2016-12-01",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -1828,7 +1884,7 @@
     "lat": 42.309574,
     "lng": -71.072898,
     "first_seen": "2016-08-08",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -1836,7 +1892,7 @@
     "lat": 42.330229,
     "lng": -71.050606,
     "first_seen": "2018-09-27",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": [
       "Columbia Rd at Tierney Community Center (former)"
     ]
@@ -1854,7 +1910,7 @@
     "lat": 42.344741,
     "lng": -71.076484,
     "first_seen": "2019-08-14",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -1868,9 +1924,9 @@
   {
     "name": "Commercial St at Charter St",
     "lat": 42.368173,
-    "lng": -71.05685,
+    "lng": -71.056849,
     "first_seen": "2024-10-16",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -1878,7 +1934,7 @@
     "lat": 42.351547,
     "lng": -71.121263,
     "first_seen": "2017-07-25",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -1886,15 +1942,15 @@
     "lat": 42.351692,
     "lng": -71.119033,
     "first_seen": "2018-05-01",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Commonwealth Ave at Blandford Mall",
-    "lat": 42.349004,
-    "lng": -71.100468,
+    "lat": 42.349003,
+    "lng": -71.100469,
     "first_seen": "2025-04-08",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -1908,17 +1964,17 @@
   {
     "name": "Commonwealth Ave at Chestnut Hill Dr",
     "lat": 42.338416,
-    "lng": -71.154435,
+    "lng": -71.154433,
     "first_seen": "2025-08-22",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Commonwealth Ave at Chiswick Rd",
-    "lat": 42.340248,
+    "lat": 42.340247,
     "lng": -71.151687,
     "first_seen": "2018-09-05",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": [
       "Commonwealth Ave at Chiswick Rd (former)"
     ]
@@ -1928,7 +1984,7 @@
     "lat": 42.345865,
     "lng": -71.141901,
     "first_seen": "2025-01-09",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -1936,7 +1992,7 @@
     "lat": 42.349857,
     "lng": -71.103826,
     "first_seen": "2025-02-25",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -1954,7 +2010,7 @@
     "lat": 42.348357,
     "lng": -71.139974,
     "first_seen": "2018-08-26",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": [
       "Commonwealth Ave at Kelton St (former)"
     ]
@@ -1964,7 +2020,7 @@
     "lat": 42.351909,
     "lng": -71.123795,
     "first_seen": "2023-12-21",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -1980,7 +2036,7 @@
     "lat": 42.394073,
     "lng": -71.111341,
     "first_seen": "2018-07-16",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -1988,7 +2044,7 @@
     "lat": 42.392527,
     "lng": -71.105589,
     "first_seen": "2020-10-28",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -1996,7 +2052,7 @@
     "lat": 42.390718,
     "lng": -71.153887,
     "first_seen": "2021-07-27",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -2020,15 +2076,15 @@
     "lat": 42.360423,
     "lng": -71.057524,
     "first_seen": "2019-08-21",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Congress St at Boston Wharf Rd",
     "lat": 42.349516,
-    "lng": -71.046721,
+    "lng": -71.046718,
     "first_seen": "2025-09-25",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -2044,7 +2100,7 @@
     "lat": 42.348101,
     "lng": -71.037643,
     "first_seen": "2016-12-01",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -2052,23 +2108,23 @@
     "lat": 42.351007,
     "lng": -71.049307,
     "first_seen": "2017-04-03",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Constitution Rd at Chelsea St",
     "lat": 42.373595,
-    "lng": -71.058424,
+    "lng": -71.058425,
     "first_seen": "2025-04-15",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Conway Park - Somerville Avenue",
-    "lat": 42.383538,
-    "lng": -71.108134,
+    "lat": 42.383541,
+    "lng": -71.108144,
     "first_seen": "2015-04-14",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -2081,10 +2137,10 @@
   },
   {
     "name": "Conway Park at Central Street (Temporary Winter Location)",
-    "lat": 42.383386,
-    "lng": -71.107322,
+    "lat": 42.383387,
+    "lng": -71.107323,
     "first_seen": "2025-12-11",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": [
       "Elm St at White St (Temporary Winter Location)",
       "Elm and White Street (Temporary Winter Location)"
@@ -2095,25 +2151,25 @@
     "lat": 42.341597,
     "lng": -71.123336,
     "first_seen": "2015-04-21",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": [
       "Coolidge Corner - Beacon St @ Centre St"
     ]
   },
   {
     "name": "Coolidge Sq.",
-    "lat": 42.372099,
-    "lng": -71.15684,
+    "lat": 42.372139,
+    "lng": -71.156864,
     "first_seen": "2020-07-28",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Copley Square - Dartmouth St at Boylston St",
     "lat": 42.349925,
-    "lng": -71.077373,
+    "lng": -71.077374,
     "first_seen": "2016-12-01",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -2127,9 +2183,9 @@
   {
     "name": "Craigie St at Brattle St/Sparks St",
     "lat": 42.377924,
-    "lng": -71.130058,
+    "lng": -71.130059,
     "first_seen": "2025-12-17",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": [
       "Craigie St at Brattle St / Sparks St"
     ]
@@ -2139,7 +2195,7 @@
     "lat": 42.388312,
     "lng": -71.110686,
     "first_seen": "2023-09-14",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -2155,7 +2211,7 @@
     "lat": 42.362811,
     "lng": -71.056068,
     "first_seen": "2015-04-17",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": [
       "Cross St. at Hanover St."
     ]
@@ -2165,7 +2221,7 @@
     "lat": 42.363707,
     "lng": -71.057493,
     "first_seen": "2025-04-21",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -2181,25 +2237,25 @@
     "lat": 42.309054,
     "lng": -71.115429,
     "first_seen": "2015-04-17",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": [
       "Curtis Hall at South Street"
     ]
   },
   {
     "name": "Cypress St at Clark Playground",
-    "lat": 42.327839,
+    "lat": 42.32784,
     "lng": -71.125357,
     "first_seen": "2018-07-26",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Damrell St at Old Colony",
     "lat": 42.332481,
-    "lng": -71.054261,
+    "lng": -71.054258,
     "first_seen": "2024-08-06",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": [
       "Damrell St at Old Colony Ave",
       "Damrell st at Old Colony Ave"
@@ -2208,9 +2264,9 @@
   {
     "name": "Dana Park",
     "lat": 42.361764,
-    "lng": -71.10804,
+    "lng": -71.108042,
     "first_seen": "2015-04-17",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -2218,15 +2274,15 @@
     "lat": 42.388966,
     "lng": -71.132788,
     "first_seen": "2015-01-01",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Danehy Park at New Street",
     "lat": 42.389459,
-    "lng": -71.139023,
+    "lng": -71.139022,
     "first_seen": "2021-07-27",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -2234,7 +2290,7 @@
     "lat": 42.35096,
     "lng": -71.077836,
     "first_seen": "2018-11-01",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -2242,7 +2298,7 @@
     "lat": 42.396971,
     "lng": -71.123026,
     "first_seen": "2015-04-14",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -2250,7 +2306,15 @@
     "lat": 42.379291,
     "lng": -71.027736,
     "first_seen": "2020-10-31",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
+    "aliases": []
+  },
+  {
+    "name": "DeSalvo Park",
+    "lat": 42.419917,
+    "lng": -71.018222,
+    "first_seen": "2026-09-15",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -2258,7 +2322,7 @@
     "lat": 42.349246,
     "lng": -71.097284,
     "first_seen": "2018-09-27",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": [
       "Deerfield St at Commonwealth Ave (former)"
     ]
@@ -2268,7 +2332,7 @@
     "lat": 42.520096,
     "lng": -70.891391,
     "first_seen": "2023-05-27",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -2276,7 +2340,7 @@
     "lat": 42.397908,
     "lng": -71.147971,
     "first_seen": "2019-08-14",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -2284,23 +2348,23 @@
     "lat": 42.344041,
     "lng": -71.057377,
     "first_seen": "2016-12-01",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Dorchester Ave at King St",
-    "lat": 42.291725,
-    "lng": -71.062579,
+    "lat": 42.291724,
+    "lng": -71.062578,
     "first_seen": "2019-07-31",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Dorchester Ave at Savin Hill Ave",
-    "lat": 42.312395,
-    "lng": -71.057426,
+    "lat": 42.312597,
+    "lng": -71.057455,
     "first_seen": "2025-08-19",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -2332,7 +2396,7 @@
     "lat": 42.325331,
     "lng": -71.075355,
     "first_seen": "2015-04-17",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": [
       "Mt Pleasant Ave / Dudley Town Common"
     ]
@@ -2342,7 +2406,7 @@
     "lat": 42.320564,
     "lng": -71.061986,
     "first_seen": "2015-04-17",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": [
       "E. Cottage St at Columbia Rd"
     ]
@@ -2352,7 +2416,7 @@
     "lat": 42.369886,
     "lng": -71.069961,
     "first_seen": "2015-01-01",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -2360,7 +2424,7 @@
     "lat": 42.369536,
     "lng": -71.039431,
     "first_seen": "2016-09-29",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": [
       "EBNHC - 20 Maverick Sq"
     ]
@@ -2370,7 +2434,7 @@
     "lat": 42.387629,
     "lng": -71.083186,
     "first_seen": "2018-07-31",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -2378,7 +2442,7 @@
     "lat": 42.387173,
     "lng": -71.087143,
     "first_seen": "2019-07-23",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -2386,17 +2450,17 @@
     "lat": 42.378968,
     "lng": -71.068609,
     "first_seen": "2015-10-06",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": [
       "Edwards Playground - Main Street & Eden Street"
     ]
   },
   {
     "name": "Egleston Square - Atherton St at Washington St",
-    "lat": 42.315696,
+    "lat": 42.315695,
     "lng": -71.098635,
     "first_seen": "2015-04-17",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": [
       "Egleston Square at Columbus Ave"
     ]
@@ -2404,9 +2468,9 @@
   {
     "name": "Elevate at One Leighton",
     "lat": 42.369928,
-    "lng": -71.073541,
+    "lng": -71.073539,
     "first_seen": "2024-05-07",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -2414,7 +2478,7 @@
     "lat": 42.40289,
     "lng": -70.989972,
     "first_seen": "2024-09-19",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -2427,10 +2491,10 @@
   },
   {
     "name": "Encore",
-    "lat": 42.393296,
-    "lng": -71.072454,
+    "lat": 42.393295,
+    "lng": -71.072453,
     "first_seen": "2019-06-23",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -2438,7 +2502,7 @@
     "lat": 42.516223,
     "lng": -70.905535,
     "first_seen": "2022-08-25",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -2451,10 +2515,10 @@
   },
   {
     "name": "Everett Square (Broadway at Norwood St)",
-    "lat": 42.40733,
-    "lng": -71.055408,
+    "lat": 42.407341,
+    "lng": -71.055399,
     "first_seen": "2023-12-20",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -2462,15 +2526,23 @@
     "lat": 42.281184,
     "lng": -71.0712,
     "first_seen": "2025-11-26",
-    "last_seen": "2026-05-29",
+    "last_seen": "2026-09-29",
+    "aliases": []
+  },
+  {
+    "name": "Falcon St at Meridian St",
+    "lat": 42.381879,
+    "lng": -71.0388,
+    "first_seen": "2026-08-14",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Fan Pier",
-    "lat": 42.35335,
-    "lng": -71.044505,
+    "lat": 42.353352,
+    "lng": -71.044509,
     "first_seen": "2015-04-17",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -2499,10 +2571,10 @@
   },
   {
     "name": "Faneuil St at Bothwell Rd",
-    "lat": 42.353221,
-    "lng": -71.159526,
+    "lat": 42.353258,
+    "lng": -71.159474,
     "first_seen": "2025-07-29",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -2520,23 +2592,23 @@
     "lat": 42.333404,
     "lng": -71.024948,
     "first_seen": "2018-09-27",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Fenway at Forsyth Way",
-    "lat": 42.341027,
+    "lat": 42.341026,
     "lng": -71.092105,
     "first_seen": "2025-09-05",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Fenway at Museum Rd",
-    "lat": 42.339202,
+    "lat": 42.339201,
     "lng": -71.096624,
     "first_seen": "2025-10-01",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -2549,18 +2621,18 @@
   },
   {
     "name": "Fields Corner T Stop",
-    "lat": 42.299733,
-    "lng": -71.060641,
+    "lat": 42.299725,
+    "lng": -71.060645,
     "first_seen": "2018-08-03",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Flat 9 at Whittier",
     "lat": 42.334209,
-    "lng": -71.087688,
+    "lng": -71.087687,
     "first_seen": "2022-03-04",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -2568,7 +2640,7 @@
     "lat": 42.521393,
     "lng": -70.905806,
     "first_seen": "2025-11-12",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": [
       "Flint St at Bridge St"
     ]
@@ -2576,9 +2648,9 @@
   {
     "name": "Foley St at Grand Union Blvd",
     "lat": 42.393018,
-    "lng": -71.08073,
+    "lng": -71.080729,
     "first_seen": "2021-07-08",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -2586,7 +2658,7 @@
     "lat": 42.300923,
     "lng": -71.114251,
     "first_seen": "2019-07-02",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -2594,15 +2666,15 @@
     "lat": 42.506395,
     "lng": -70.88693,
     "first_seen": "2022-08-26",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Forsyth St at Huntington Ave",
-    "lat": 42.3394,
-    "lng": -71.090554,
+    "lat": 42.339455,
+    "lng": -71.090566,
     "first_seen": "2021-12-01",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -2610,7 +2682,7 @@
     "lat": 42.391083,
     "lng": -71.090395,
     "first_seen": "2018-07-31",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -2626,15 +2698,15 @@
     "lat": 42.304138,
     "lng": -71.0793,
     "first_seen": "2017-12-19",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Four Corners/Geneva T Stop",
-    "lat": 42.303228,
+    "lat": 42.303226,
     "lng": -71.078212,
     "first_seen": "2023-10-12",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -2642,7 +2714,7 @@
     "lat": 42.309802,
     "lng": -71.092233,
     "first_seen": "2015-10-05",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": [
       "Franklin Park - Seaver St at Humbolt Ave",
       "Franklin Park - Seaver Street at Humbolt Ave"
@@ -2651,9 +2723,9 @@
   {
     "name": "Franklin Park Zoo - Franklin Park Rd at Blue Hill Ave",
     "lat": 42.303466,
-    "lng": -71.08535,
+    "lng": -71.085351,
     "first_seen": "2015-10-06",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": [
       "Franklin Park Zoo"
     ]
@@ -2663,7 +2735,7 @@
     "lat": 42.35579,
     "lng": -71.132864,
     "first_seen": "2025-08-07",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -2676,10 +2748,10 @@
   },
   {
     "name": "Fresh Pond Reservation",
-    "lat": 42.382691,
-    "lng": -71.143465,
+    "lat": 42.382718,
+    "lng": -71.143436,
     "first_seen": "2017-06-27",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -2687,7 +2759,7 @@
     "lat": 42.36428,
     "lng": -71.18573,
     "first_seen": "2025-01-09",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -2695,7 +2767,7 @@
     "lat": 42.366418,
     "lng": -71.088543,
     "first_seen": "2022-01-27",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -2703,7 +2775,7 @@
     "lat": 42.363003,
     "lng": -71.089741,
     "first_seen": "2020-10-14",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -2711,23 +2783,23 @@
     "lat": 42.282973,
     "lng": -71.054668,
     "first_seen": "2018-08-24",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Gardner St at Alcorn St",
-    "lat": 42.353207,
+    "lat": 42.353206,
     "lng": -71.123299,
     "first_seen": "2025-09-10",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Gardner St at Harvard Ave",
-    "lat": 42.353507,
-    "lng": -71.131935,
+    "lat": 42.353508,
+    "lng": -71.131934,
     "first_seen": "2025-07-31",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -2735,23 +2807,23 @@
     "lat": 42.318864,
     "lng": -71.045367,
     "first_seen": "2019-10-31",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Gilman Square T at Medford St",
     "lat": 42.386729,
-    "lng": -71.094639,
+    "lng": -71.09464,
     "first_seen": "2022-07-13",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Glendale Square (Ferry St at Broadway)",
-    "lat": 42.414281,
-    "lng": -71.044848,
+    "lat": 42.41428,
+    "lng": -71.044844,
     "first_seen": "2019-06-20",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -2759,7 +2831,7 @@
     "lat": 42.382404,
     "lng": -71.030243,
     "first_seen": "2016-09-30",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -2767,15 +2839,15 @@
     "lat": 42.520897,
     "lng": -70.910528,
     "first_seen": "2022-09-09",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-29",
     "aliases": []
   },
   {
     "name": "Gore Street at Lambert Street",
     "lat": 42.37308,
-    "lng": -71.086337,
+    "lng": -71.086338,
     "first_seen": "2022-09-22",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -2783,23 +2855,23 @@
     "lat": 42.370581,
     "lng": -71.035588,
     "first_seen": "2020-10-06",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Government Center - Cambridge St at Court St",
     "lat": 42.35983,
-    "lng": -71.059771,
+    "lng": -71.059773,
     "first_seen": "2018-04-18",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Governors Ave at Lawrence Rd",
-    "lat": 42.425178,
-    "lng": -71.110386,
+    "lat": 42.425152,
+    "lng": -71.110519,
     "first_seen": "2024-08-02",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -2807,7 +2879,7 @@
     "lat": 42.382944,
     "lng": -71.124497,
     "first_seen": "2020-08-05",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -2815,15 +2887,15 @@
     "lat": 42.408155,
     "lng": -71.0429,
     "first_seen": "2022-10-17",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Grand Union Blvd at Revolution Dr",
     "lat": 42.391657,
-    "lng": -71.080346,
+    "lng": -71.080347,
     "first_seen": "2024-06-26",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -2831,10 +2903,26 @@
     "lat": 42.31058,
     "lng": -71.10734,
     "first_seen": "2015-04-17",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": [
       "Green St T"
     ]
+  },
+  {
+    "name": "Greenfield Rd at Cummins Hwy",
+    "lat": 42.2715,
+    "lng": -71.106648,
+    "first_seen": "2026-09-29",
+    "last_seen": "2026-09-29",
+    "aliases": []
+  },
+  {
+    "name": "Griswald Fields",
+    "lat": 42.42821,
+    "lng": -71.02316,
+    "first_seen": "2026-07-30",
+    "last_seen": "2026-09-25",
+    "aliases": []
   },
   {
     "name": "Grove Hall Library",
@@ -2849,15 +2937,15 @@
     "lat": 42.307912,
     "lng": -71.080952,
     "first_seen": "2016-12-01",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Grove St at Community Path",
     "lat": 42.396387,
-    "lng": -71.120111,
+    "lng": -71.120112,
     "first_seen": "2018-07-31",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": [
       "Grove St at Community Path (former)"
     ]
@@ -2875,7 +2963,7 @@
     "lat": 42.337417,
     "lng": -71.10286,
     "first_seen": "2016-12-01",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -2883,23 +2971,23 @@
     "lat": 42.423332,
     "lng": -71.091245,
     "first_seen": "2023-05-25",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Hale Park",
-    "lat": 42.416033,
-    "lng": -71.051488,
+    "lat": 42.415944,
+    "lng": -71.051657,
     "first_seen": "2020-06-12",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Hancock St at Pleasant St",
-    "lat": 42.309825,
+    "lat": 42.309824,
     "lng": -71.060201,
     "first_seen": "2023-10-24",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -2907,39 +2995,39 @@
     "lat": 42.29126,
     "lng": -71.088675,
     "first_seen": "2025-09-23",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Harbor St at Channel St",
     "lat": 42.345139,
-    "lng": -71.036461,
+    "lng": -71.036459,
     "first_seen": "2025-01-21",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Harborwalk at Central Wharf",
-    "lat": 42.358463,
-    "lng": -71.050401,
+    "lat": 42.358466,
+    "lng": -71.050402,
     "first_seen": "2026-04-28",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Harris Park",
-    "lat": 42.410816,
-    "lng": -71.081523,
+    "lat": 42.410817,
+    "lng": -71.081524,
     "first_seen": "2023-05-19",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Harrison Ave at Bennet St",
     "lat": 42.349427,
-    "lng": -71.062095,
+    "lng": -71.062096,
     "first_seen": "2018-10-30",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -2955,7 +3043,7 @@
     "lat": 42.339193,
     "lng": -71.069751,
     "first_seen": "2020-11-12",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -2963,7 +3051,7 @@
     "lat": 42.345215,
     "lng": -71.063835,
     "first_seen": "2018-10-30",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -2979,7 +3067,7 @@
     "lat": 42.34953,
     "lng": -71.130228,
     "first_seen": "2018-08-09",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -2992,18 +3080,18 @@
   },
   {
     "name": "Harvard Kennedy School at Bennett St / Eliot St",
-    "lat": 42.372123,
+    "lat": 42.372128,
     "lng": -71.121882,
     "first_seen": "2015-01-01",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Harvard Law School at Mass Ave / Jarvis St",
-    "lat": 42.379,
-    "lng": -71.119945,
+    "lat": 42.378991,
+    "lng": -71.119944,
     "first_seen": "2015-01-01",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -3016,10 +3104,10 @@
   },
   {
     "name": "Harvard Square at Brattle St / Eliot St",
-    "lat": 42.373302,
-    "lng": -71.120914,
+    "lat": 42.373303,
+    "lng": -71.120918,
     "first_seen": "2015-01-01",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -3027,15 +3115,15 @@
     "lat": 42.373267,
     "lng": -71.118577,
     "first_seen": "2015-01-01",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Harvard St and Stedman St",
     "lat": 42.344353,
-    "lng": -71.124898,
+    "lng": -71.124899,
     "first_seen": "2021-07-23",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -3043,7 +3131,7 @@
     "lat": 42.365995,
     "lng": -71.095221,
     "first_seen": "2018-08-12",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": [
       "Harvard St at Greene-Rose Heritage Park (former)"
     ]
@@ -3053,7 +3141,7 @@
     "lat": 42.368018,
     "lng": -71.1242,
     "first_seen": "2020-11-17",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -3061,7 +3149,7 @@
     "lat": 42.377944,
     "lng": -71.116864,
     "first_seen": "2015-01-01",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -3069,7 +3157,7 @@
     "lat": 42.376369,
     "lng": -71.114024,
     "first_seen": "2015-01-01",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": [
       "Harvard University Gund Hall at Quincy St / Kirkland S"
     ]
@@ -3087,7 +3175,7 @@
     "lat": 42.366621,
     "lng": -71.114214,
     "first_seen": "2015-01-01",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -3095,15 +3183,15 @@
     "lat": 42.380288,
     "lng": -71.125105,
     "first_seen": "2015-01-01",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Harvard University River Houses at DeWolfe St / Cowperthwaite St",
-    "lat": 42.369212,
-    "lng": -71.116961,
+    "lat": 42.369213,
+    "lng": -71.116957,
     "first_seen": "2015-01-01",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -3115,11 +3203,19 @@
     "aliases": []
   },
   {
+    "name": "Hastings Square",
+    "lat": 42.355713,
+    "lng": -71.109708,
+    "first_seen": "2026-09-08",
+    "last_seen": "2026-09-30",
+    "aliases": []
+  },
+  {
     "name": "Hawthorne Boulevard",
     "lat": 42.522371,
     "lng": -70.890333,
     "first_seen": "2022-03-30",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -3127,10 +3223,18 @@
     "lat": 42.377021,
     "lng": -71.056608,
     "first_seen": "2015-04-17",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": [
       "Hayes Square at Vine St."
     ]
+  },
+  {
+    "name": "Heath St at Columbus Ave",
+    "lat": 42.325056,
+    "lng": -71.099473,
+    "first_seen": "2026-07-27",
+    "last_seen": "2026-09-30",
+    "aliases": []
   },
   {
     "name": "Heath St at South Huntington",
@@ -3145,7 +3249,7 @@
     "lat": 42.365724,
     "lng": -71.135393,
     "first_seen": "2025-01-09",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -3153,23 +3257,23 @@
     "lat": 42.424978,
     "lng": -71.098976,
     "first_seen": "2024-05-01",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "High St at Cypress St",
-    "lat": 42.324783,
-    "lng": -71.121434,
+    "lat": 42.324771,
+    "lng": -71.121427,
     "first_seen": "2019-07-10",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "High St at Federal St",
     "lat": 42.353527,
-    "lng": -71.056244,
+    "lng": -71.05624,
     "first_seen": "2024-09-12",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -3177,23 +3281,23 @@
     "lat": 42.360274,
     "lng": -71.128522,
     "first_seen": "2018-11-30",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Hood Park",
     "lat": 42.380043,
-    "lng": -71.073054,
+    "lng": -71.073053,
     "first_seen": "2022-08-12",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Hormel Stadium",
-    "lat": 42.407211,
-    "lng": -71.096504,
+    "lat": 42.407212,
+    "lng": -71.096505,
     "first_seen": "2023-05-16",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -3201,7 +3305,7 @@
     "lat": 42.332682,
     "lng": -71.110832,
     "first_seen": "2025-08-11",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -3209,7 +3313,7 @@
     "lat": 42.347855,
     "lng": -71.078951,
     "first_seen": "2025-09-24",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -3217,7 +3321,7 @@
     "lat": 42.336586,
     "lng": -71.09887,
     "first_seen": "2018-09-05",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -3231,9 +3335,9 @@
   {
     "name": "Huntington Ave at St. Alphonsus St",
     "lat": 42.336113,
-    "lng": -71.099215,
+    "lng": -71.099216,
     "first_seen": "2025-08-18",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -3241,7 +3345,7 @@
     "lat": 42.381651,
     "lng": -71.13427,
     "first_seen": "2017-10-27",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": [
       "Huron Ave. At Vassal Lane"
     ]
@@ -3251,7 +3355,7 @@
     "lat": 42.262869,
     "lng": -71.121631,
     "first_seen": "2021-08-30",
-    "last_seen": "2026-05-29",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -3259,15 +3363,15 @@
     "lat": 42.296067,
     "lng": -71.116011,
     "first_seen": "2019-10-17",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Hyde Park Library",
-    "lat": 42.256839,
+    "lat": 42.256838,
     "lng": -71.12251,
     "first_seen": "2022-01-01",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -3283,7 +3387,7 @@
     "lat": 42.32176,
     "lng": -71.109849,
     "first_seen": "2024-06-02",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -3299,7 +3403,7 @@
     "lat": 42.34483,
     "lng": -71.028666,
     "first_seen": "2015-04-17",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -3307,25 +3411,25 @@
     "lat": 42.344798,
     "lng": -71.031619,
     "first_seen": "2015-04-17",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Ink Block - Harrison Ave at Herald St",
-    "lat": 42.345899,
+    "lat": 42.3459,
     "lng": -71.063191,
     "first_seen": "2015-04-17",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": [
       "Ink Block"
     ]
   },
   {
     "name": "Inman Square at Springfield St.",
-    "lat": 42.374283,
-    "lng": -71.100241,
+    "lat": 42.374282,
+    "lng": -71.100243,
     "first_seen": "2019-01-17",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -3338,18 +3442,18 @@
   },
   {
     "name": "Innerbelt at East Somerville Station",
-    "lat": 42.379511,
-    "lng": -71.086286,
+    "lat": 42.379269,
+    "lng": -71.085904,
     "first_seen": "2024-12-19",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Innovation Lab - 125 Western Ave at Batten Way",
-    "lat": 42.36369,
-    "lng": -71.124514,
+    "lat": 42.363691,
+    "lng": -71.124518,
     "first_seen": "2016-12-01",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -3362,10 +3466,10 @@
   },
   {
     "name": "Ipswich St at Van Ness St",
-    "lat": 42.345809,
-    "lng": -71.095488,
+    "lat": 42.34581,
+    "lng": -71.095487,
     "first_seen": "2025-09-02",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -3378,10 +3482,10 @@
   },
   {
     "name": "JFK Crossing at Harvard St. / Thorndike St.",
-    "lat": 42.346543,
+    "lat": 42.346544,
     "lng": -71.128339,
     "first_seen": "2015-04-17",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -3389,7 +3493,7 @@
     "lat": 42.32034,
     "lng": -71.051181,
     "first_seen": "2016-12-01",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -3405,7 +3509,7 @@
     "lat": 42.322933,
     "lng": -71.10014,
     "first_seen": "2016-12-01",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -3421,15 +3525,15 @@
     "lat": 42.306045,
     "lng": -71.115709,
     "first_seen": "2019-08-27",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Jamaicaway at Perkins St",
-    "lat": 42.321252,
+    "lat": 42.321251,
     "lng": -71.116483,
     "first_seen": "2025-01-17",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -3443,25 +3547,25 @@
   {
     "name": "John Ahern Field at Kennedy-Longfellow School",
     "lat": 42.369037,
-    "lng": -71.086316,
+    "lng": -71.086315,
     "first_seen": "2022-11-26",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Kearins Playground",
-    "lat": 42.406151,
+    "lat": 42.406152,
     "lng": -71.060415,
     "first_seen": "2020-10-18",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Kendall Street",
-    "lat": 42.363501,
+    "lat": 42.363502,
     "lng": -71.082186,
     "first_seen": "2015-01-01",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -3469,7 +3573,7 @@
     "lat": 42.362426,
     "lng": -71.084958,
     "first_seen": "2016-03-18",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -3477,17 +3581,17 @@
     "lat": 42.348706,
     "lng": -71.097003,
     "first_seen": "2015-01-02",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": [
       "Kenmore Sq / Comm Ave"
     ]
   },
   {
     "name": "Kenmore Square - 660 Beacon St",
-    "lat": 42.349221,
+    "lat": 42.34922,
     "lng": -71.09575,
     "first_seen": "2025-06-19",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -3495,7 +3599,7 @@
     "lat": 42.369552,
     "lng": -71.08579,
     "first_seen": "2019-08-13",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -3503,7 +3607,7 @@
     "lat": 42.429338,
     "lng": -71.051913,
     "first_seen": "2025-05-05",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -3511,7 +3615,7 @@
     "lat": 42.293766,
     "lng": -71.136564,
     "first_seen": "2021-06-03",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -3519,7 +3623,7 @@
     "lat": 42.363464,
     "lng": -71.100572,
     "first_seen": "2015-01-01",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -3527,23 +3631,23 @@
     "lat": 42.511428,
     "lng": -70.891833,
     "first_seen": "2021-06-18",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Lake St. at Minuteman Bikeway",
-    "lat": 42.404169,
+    "lat": 42.40417,
     "lng": -71.146904,
     "first_seen": "2024-10-09",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Landmark Center - Brookline Ave at Park Dr",
-    "lat": 42.343826,
-    "lng": -71.102297,
+    "lat": 42.343817,
+    "lng": -71.102301,
     "first_seen": "2016-12-01",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -3565,9 +3669,9 @@
   {
     "name": "Lansdowne T Stop",
     "lat": 42.347346,
-    "lng": -71.100169,
+    "lng": -71.10017,
     "first_seen": "2019-07-10",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": [
       "Big Papi Station"
     ]
@@ -3577,7 +3681,7 @@
     "lat": 42.369842,
     "lng": -71.076078,
     "first_seen": "2024-12-17",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -3591,25 +3695,25 @@
   {
     "name": "Lenox St at Kendall St",
     "lat": 42.337586,
-    "lng": -71.082541,
+    "lng": -71.082542,
     "first_seen": "2023-05-09",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Lesley University",
-    "lat": 42.386741,
+    "lat": 42.386742,
     "lng": -71.11902,
     "first_seen": "2015-11-04",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Lewis Mall Wharf",
-    "lat": 42.365677,
+    "lat": 42.365678,
     "lng": -71.040299,
     "first_seen": "2023-07-19",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -3617,7 +3721,7 @@
     "lat": 42.363871,
     "lng": -71.050878,
     "first_seen": "2015-04-16",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": [
       "Lewis Wharf - Atlantic Ave."
     ]
@@ -3627,15 +3731,15 @@
     "lat": 42.357652,
     "lng": -71.128514,
     "first_seen": "2023-12-21",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Linear Park - Mass. Ave. at Cameron Ave.",
-    "lat": 42.397827,
-    "lng": -71.130512,
+    "lat": 42.397828,
+    "lng": -71.130504,
     "first_seen": "2015-01-01",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -3643,7 +3747,7 @@
     "lat": 42.409353,
     "lng": -71.149064,
     "first_seen": "2020-09-10",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -3651,15 +3755,15 @@
     "lat": 42.418008,
     "lng": -71.09657,
     "first_seen": "2023-12-15",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Longwood Ave at Binney St",
     "lat": 42.338628,
-    "lng": -71.106503,
+    "lng": -71.106502,
     "first_seen": "2015-01-12",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": [
       "Longwood Ave / Binney St"
     ]
@@ -3669,7 +3773,7 @@
     "lat": 42.35722,
     "lng": -71.113871,
     "first_seen": "2016-12-01",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -3685,15 +3789,15 @@
     "lat": 42.360542,
     "lng": -71.086697,
     "first_seen": "2020-10-07",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "MIT Hayward St at Amherst St",
-    "lat": 42.360863,
+    "lat": 42.360862,
     "lng": -71.085518,
     "first_seen": "2020-10-07",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -3701,15 +3805,15 @@
     "lat": 42.359574,
     "lng": -71.101294,
     "first_seen": "2015-11-04",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "MIT Stata Center at Vassar St / Main St",
-    "lat": 42.362102,
-    "lng": -71.091313,
+    "lat": 42.362103,
+    "lng": -71.091308,
     "first_seen": "2015-01-01",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -3717,31 +3821,31 @@
     "lat": 42.355601,
     "lng": -71.103944,
     "first_seen": "2015-11-04",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "MIT at Mass Ave / Amherst St",
-    "lat": 42.35814,
-    "lng": -71.093208,
+    "lat": 42.358147,
+    "lng": -71.093211,
     "first_seen": "2015-01-01",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "MLK Blvd at Washington St",
     "lat": 42.321441,
-    "lng": -71.091268,
+    "lng": -71.091267,
     "first_seen": "2016-07-16",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Magoun Square at Trum Field",
-    "lat": 42.397961,
-    "lng": -71.106513,
+    "lat": 42.397949,
+    "lng": -71.106476,
     "first_seen": "2015-04-17",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -3749,7 +3853,7 @@
     "lat": 42.375604,
     "lng": -71.064611,
     "first_seen": "2015-04-17",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": [
       "Charlestown - Main St at Austin St"
     ]
@@ -3759,7 +3863,7 @@
     "lat": 42.380856,
     "lng": -71.07063,
     "first_seen": "2018-09-19",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -3772,34 +3876,34 @@
   },
   {
     "name": "Main St at Brooks Park",
-    "lat": 42.411706,
+    "lat": 42.411707,
     "lng": -71.110442,
     "first_seen": "2022-09-21",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Main St at Devens St",
-    "lat": 42.37402,
-    "lng": -71.063319,
+    "lat": 42.374019,
+    "lng": -71.063318,
     "first_seen": "2025-04-14",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Main St at Salem St",
     "lat": 42.377098,
-    "lng": -71.066458,
+    "lng": -71.066459,
     "first_seen": "2025-04-14",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Main St at Thompson Sq",
     "lat": 42.374878,
-    "lng": -71.063837,
+    "lng": -71.063836,
     "first_seen": "2018-09-19",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": [
       "Main St at Thompson Sq (former)"
     ]
@@ -3817,39 +3921,47 @@
     "lat": 42.362902,
     "lng": -71.091566,
     "first_seen": "2022-07-12",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Malden Center T Station",
-    "lat": 42.426526,
+    "lat": 42.426528,
     "lng": -71.073177,
     "first_seen": "2022-10-05",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Malden High School",
-    "lat": 42.426535,
+    "lat": 42.426536,
     "lng": -71.063937,
     "first_seen": "2022-10-20",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Maplewood Square",
     "lat": 42.43359,
-    "lng": -71.04628,
+    "lng": -71.046279,
     "first_seen": "2025-07-02",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Marion St at Harvard St",
-    "lat": 42.34006,
-    "lng": -71.12082,
+    "lat": 42.340064,
+    "lng": -71.120813,
     "first_seen": "2019-07-10",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
+    "aliases": []
+  },
+  {
+    "name": "Marion St at Park St",
+    "lat": 42.340152,
+    "lng": -71.123866,
+    "first_seen": "2026-08-05",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -3857,15 +3969,15 @@
     "lat": 42.380671,
     "lng": -71.039074,
     "first_seen": "2020-10-06",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-08-14",
     "aliases": []
   },
   {
     "name": "Market St at Mapleton St",
-    "lat": 42.352182,
-    "lng": -71.151538,
+    "lat": 42.352129,
+    "lng": -71.151555,
     "first_seen": "2025-07-30",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -3873,23 +3985,23 @@
     "lat": 42.324177,
     "lng": -71.101958,
     "first_seen": "2020-11-02",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Mary Ellen McCormack - Sterling Square",
-    "lat": 42.326418,
-    "lng": -71.054005,
+    "lat": 42.32642,
+    "lng": -71.054008,
     "first_seen": "2026-01-07",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Mass Ave T Stop",
-    "lat": 42.341355,
-    "lng": -71.083372,
+    "lat": 42.341356,
+    "lng": -71.083371,
     "first_seen": "2019-06-14",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": [
       "Mass Ave T Station"
     ]
@@ -3899,7 +4011,7 @@
     "lat": 42.361355,
     "lng": -71.096699,
     "first_seen": "2019-01-10",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -3907,7 +4019,7 @@
     "lat": 42.401364,
     "lng": -71.136557,
     "first_seen": "2025-06-02",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -3923,15 +4035,15 @@
     "lat": 42.407262,
     "lng": -71.143821,
     "first_seen": "2020-09-16",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Mass Ave at Hadley/Walden",
     "lat": 42.39121,
-    "lng": -71.122608,
+    "lng": -71.122607,
     "first_seen": "2018-08-07",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -3944,26 +4056,26 @@
   },
   {
     "name": "Mass Ave/Lafayette Square",
-    "lat": 42.363562,
+    "lat": 42.363563,
     "lng": -71.100439,
     "first_seen": "2023-05-25",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Massachusetts Ave at Boylston St.",
-    "lat": 42.347517,
-    "lng": -71.08801,
+    "lat": 42.347518,
+    "lng": -71.088011,
     "first_seen": "2024-11-06",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Massachusetts Ave at Columbus Ave",
-    "lat": 42.340523,
-    "lng": -71.081281,
+    "lat": 42.340543,
+    "lng": -71.081279,
     "first_seen": "2019-06-01",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -3971,7 +4083,7 @@
     "lat": 42.277397,
     "lng": -71.093252,
     "first_seen": "2018-08-24",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": [
       "Mattapan Library (former)"
     ]
@@ -3981,7 +4093,7 @@
     "lat": 42.267904,
     "lng": -71.09364,
     "first_seen": "2018-08-24",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": [
       "Mattapan T Stop (former)"
     ]
@@ -3991,7 +4103,7 @@
     "lat": 42.368843,
     "lng": -71.039779,
     "first_seen": "2016-09-28",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": [
       "Maverick Sq - Lewis Mall"
     ]
@@ -4001,7 +4113,7 @@
     "lat": 42.367742,
     "lng": -71.03336,
     "first_seen": "2019-09-11",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -4009,15 +4121,15 @@
     "lat": 42.518035,
     "lng": -70.895701,
     "first_seen": "2021-06-16",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Meaney Playground - Pleasant St at E Cottage St",
-    "lat": 42.318805,
-    "lng": -71.058775,
+    "lat": 42.31877,
+    "lng": -71.058774,
     "first_seen": "2023-10-18",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -4033,7 +4145,7 @@
     "lat": 42.41772,
     "lng": -71.108097,
     "first_seen": "2022-09-22",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -4041,7 +4153,7 @@
     "lat": 42.380434,
     "lng": -71.060566,
     "first_seen": "2018-09-19",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -4055,17 +4167,17 @@
   {
     "name": "Medford St at McNulty Ct",
     "lat": 42.37916,
-    "lng": -71.057859,
+    "lng": -71.05786,
     "first_seen": "2025-04-14",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Medford St at Warren St",
     "lat": 42.416491,
-    "lng": -71.148132,
+    "lng": -71.148133,
     "first_seen": "2024-10-11",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": [
       "Medford St. at Warren St."
     ]
@@ -4080,10 +4192,10 @@
   },
   {
     "name": "Middlesex Ave at Foley St",
-    "lat": 42.392823,
-    "lng": -71.083188,
+    "lat": 42.392822,
+    "lng": -71.083187,
     "first_seen": "2025-10-21",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -4091,7 +4203,7 @@
     "lat": 42.418603,
     "lng": -71.157536,
     "first_seen": "2024-10-10",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -4123,23 +4235,23 @@
     "lat": 42.363538,
     "lng": -71.111698,
     "first_seen": "2023-12-20",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Moraine St at Centre St",
-    "lat": 42.319589,
+    "lat": 42.319588,
     "lng": -71.111968,
     "first_seen": "2026-05-13",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Morgan Ave at North First St",
-    "lat": 42.372008,
-    "lng": -71.075881,
+    "lat": 42.372032,
+    "lng": -71.075883,
     "first_seen": "2023-07-27",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -4147,7 +4259,7 @@
     "lat": 42.280725,
     "lng": -71.086171,
     "first_seen": "2018-08-25",
-    "last_seen": "2026-05-29",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -4163,15 +4275,15 @@
     "lat": 42.278747,
     "lng": -71.080288,
     "first_seen": "2021-09-04",
-    "last_seen": "2026-05-29",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Mt Auburn",
-    "lat": 42.374798,
-    "lng": -71.133344,
+    "lat": 42.374799,
+    "lng": -71.133337,
     "first_seen": "2015-11-05",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -4179,7 +4291,7 @@
     "lat": 42.284842,
     "lng": -71.118741,
     "first_seen": "2019-08-24",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -4187,7 +4299,7 @@
     "lat": 42.355538,
     "lng": -71.07287,
     "first_seen": "2016-12-01",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": [
       "Beacon St at Arlington St"
     ]
@@ -4197,7 +4309,7 @@
     "lat": 42.336449,
     "lng": -71.023739,
     "first_seen": "2016-03-17",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": [
       "Day Boulevard"
     ]
@@ -4207,7 +4319,15 @@
     "lat": 42.367691,
     "lng": -71.071164,
     "first_seen": "2017-05-11",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
+    "aliases": []
+  },
+  {
+    "name": "Myrtle St at Fellsway (Rt. 28)",
+    "lat": 42.416235,
+    "lng": -71.085073,
+    "first_seen": "2026-08-19",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -4215,15 +4335,15 @@
     "lat": 42.410809,
     "lng": -71.106276,
     "first_seen": "2025-09-04",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Mystic Valley Parkway at River Station",
     "lat": 42.41509,
-    "lng": -71.139173,
+    "lng": -71.139174,
     "first_seen": "2025-05-30",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -4237,9 +4357,9 @@
   {
     "name": "N. Harvard St at Harvard Way",
     "lat": 42.366784,
-    "lng": -71.125174,
+    "lng": -71.125175,
     "first_seen": "2025-07-21",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -4247,7 +4367,7 @@
     "lat": 42.316901,
     "lng": -71.091944,
     "first_seen": "2016-08-07",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": [
       "Walnut Ave at Crawford St"
     ]
@@ -4257,7 +4377,7 @@
     "lat": 42.36567,
     "lng": -71.064264,
     "first_seen": "2016-03-03",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -4265,7 +4385,7 @@
     "lat": 42.365858,
     "lng": -71.064158,
     "first_seen": "2025-04-29",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -4273,7 +4393,7 @@
     "lat": 42.35733,
     "lng": -71.146736,
     "first_seen": "2016-12-01",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -4296,18 +4416,18 @@
   },
   {
     "name": "New Edgerly Plaza - Westland Ave at Edgerly Rd",
-    "lat": 42.343677,
-    "lng": -71.087425,
+    "lat": 42.343675,
+    "lng": -71.087423,
     "first_seen": "2025-09-22",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Newbury St at Hereford St",
-    "lat": 42.348718,
-    "lng": -71.085949,
+    "lat": 42.348717,
+    "lng": -71.085929,
     "first_seen": "2015-04-28",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": [
       "Newbury St / Hereford St"
     ]
@@ -4317,7 +4437,7 @@
     "lat": 42.3266,
     "lng": -71.066499,
     "first_seen": "2015-04-17",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": [
       "Mass Ave at Newmarket Square"
     ]
@@ -4325,9 +4445,9 @@
   {
     "name": "Newton Highlands T",
     "lat": 42.322067,
-    "lng": -71.206369,
+    "lng": -71.20637,
     "first_seen": "2021-06-20",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -4335,15 +4455,15 @@
     "lat": 42.336204,
     "lng": -71.207793,
     "first_seen": "2021-06-26",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Nichols Ave. at Watertown-Cambridge Greenway",
-    "lat": 42.367622,
-    "lng": -71.156557,
+    "lat": 42.367621,
+    "lng": -71.156562,
     "first_seen": "2021-03-27",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": [
       "Nichols Ave. at Watertown Greenway"
     ]
@@ -4353,7 +4473,7 @@
     "lat": 42.360686,
     "lng": -71.201461,
     "first_seen": "2020-10-02",
-    "last_seen": "2026-05-29",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -4369,7 +4489,7 @@
     "lat": 42.5299,
     "lng": -70.906145,
     "first_seen": "2022-11-06",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -4377,7 +4497,7 @@
     "lat": 42.333587,
     "lng": -71.075188,
     "first_seen": "2025-06-11",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": [
       "Northhampton St at Fellows St"
     ]
@@ -4385,9 +4505,9 @@
   {
     "name": "Northbourne Rd at Hyde Park Ave",
     "lat": 42.29118,
-    "lng": -71.117734,
+    "lng": -71.117735,
     "first_seen": "2019-08-22",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -4395,17 +4515,17 @@
     "lat": 42.341814,
     "lng": -71.09018,
     "first_seen": "2015-04-17",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": [
       "Northeastern U / North Parking Lot"
     ]
   },
   {
     "name": "Northern Ave at Haul Rd",
-    "lat": 42.347179,
+    "lat": 42.34718,
     "lng": -71.035795,
     "first_seen": "2025-01-30",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -4413,15 +4533,15 @@
     "lat": 42.403443,
     "lng": -71.063277,
     "first_seen": "2024-08-27",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Northern Strand at Bike Kitchen",
-    "lat": 42.420765,
-    "lng": -71.072168,
+    "lat": 42.420725,
+    "lng": -71.07217,
     "first_seen": "2025-05-05",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -4429,7 +4549,7 @@
     "lat": 42.423856,
     "lng": -71.067793,
     "first_seen": "2022-10-06",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -4437,33 +4557,43 @@
     "lat": 42.441956,
     "lng": -71.01468,
     "first_seen": "2025-06-25",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Nubian Square - Bolling Building",
-    "lat": 42.329845,
-    "lng": -71.083862,
+    "lat": 42.329844,
+    "lng": -71.083863,
     "first_seen": "2019-06-01",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": [
       "Dudley Square - Bolling Building"
     ]
   },
   {
     "name": "O'Brien Highway at First Street",
-    "lat": 42.37097,
-    "lng": -71.076632,
+    "lat": 42.370971,
+    "lng": -71.076633,
     "first_seen": "2024-02-29",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
+  },
+  {
+    "name": "O'Neill Library",
+    "lat": 42.392766,
+    "lng": -71.129042,
+    "first_seen": "2015-01-01",
+    "last_seen": "2026-09-30",
+    "aliases": [
+      "Rindge Avenue - O'Neill Library"
+    ]
   },
   {
     "name": "Oak Square - 615 Washington St",
     "lat": 42.35057,
     "lng": -71.166484,
     "first_seen": "2016-12-01",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -4471,7 +4601,7 @@
     "lat": 42.350623,
     "lng": -71.167443,
     "first_seen": "2025-08-05",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -4487,7 +4617,7 @@
     "lat": 42.357664,
     "lng": -71.108412,
     "first_seen": "2021-09-10",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -4495,7 +4625,7 @@
     "lat": 42.358479,
     "lng": -71.061365,
     "first_seen": "2021-07-08",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -4503,17 +4633,17 @@
     "lat": 42.333923,
     "lng": -71.10446,
     "first_seen": "2018-09-20",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": [
       "One Brigham Circle (former)"
     ]
   },
   {
     "name": "One Broadway / Kendall Sq at Main St / 3rd St",
-    "lat": 42.362335,
-    "lng": -71.083363,
+    "lat": 42.362331,
+    "lng": -71.083351,
     "first_seen": "2015-01-01",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -4521,39 +4651,39 @@
     "lat": 42.366274,
     "lng": -71.091685,
     "first_seen": "2015-01-01",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "One Memorial Drive",
-    "lat": 42.361637,
-    "lng": -71.080515,
+    "lat": 42.361639,
+    "lng": -71.080504,
     "first_seen": "2017-09-21",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Orient Heights T Stop - Bennington St at Saratoga St",
-    "lat": 42.38678,
+    "lat": 42.386781,
     "lng": -71.006099,
     "first_seen": "2016-09-29",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Orr Sq (Shirley Ave)",
-    "lat": 42.407162,
-    "lng": -70.992728,
+    "lat": 42.407161,
+    "lng": -70.992727,
     "first_seen": "2021-08-26",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Packard Ave at Powderhouse Blvd",
-    "lat": 42.404486,
-    "lng": -71.123405,
+    "lat": 42.404487,
+    "lng": -71.123406,
     "first_seen": "2015-04-17",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": [
       "Packard Ave / Powderhouse Blvd"
     ]
@@ -4563,7 +4693,7 @@
     "lat": 42.352261,
     "lng": -71.123829,
     "first_seen": "2015-04-10",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": [
       "Packard's Corner - Comm. Ave. at Brighton Ave."
     ]
@@ -4573,7 +4703,7 @@
     "lat": 42.347241,
     "lng": -71.105301,
     "first_seen": "2015-04-17",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": [
       "Buswell St. at Park Dr."
     ]
@@ -4583,7 +4713,7 @@
     "lat": 42.351828,
     "lng": -71.067816,
     "first_seen": "2018-10-24",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": [
       "Park Plaza at Charles St"
     ]
@@ -4600,26 +4730,34 @@
   },
   {
     "name": "Park St at Norwell St",
-    "lat": 42.294371,
-    "lng": -71.078234,
+    "lat": 42.294377,
+    "lng": -71.078232,
     "first_seen": "2018-08-24",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-20",
     "aliases": []
   },
   {
     "name": "Park Street T Stop - Tremont St at Park St",
     "lat": 42.356627,
-    "lng": -71.062454,
+    "lng": -71.062455,
     "first_seen": "2025-06-12",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Parker St at Huntington Ave",
-    "lat": 42.338481,
-    "lng": -71.092621,
+    "lat": 42.338483,
+    "lng": -71.09262,
     "first_seen": "2023-10-18",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
+    "aliases": []
+  },
+  {
+    "name": "Parkway Rd at Brookline Ave",
+    "lat": 42.335423,
+    "lng": -71.111443,
+    "first_seen": "2026-08-06",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -4635,7 +4773,7 @@
     "lat": 42.356773,
     "lng": -71.055497,
     "first_seen": "2025-01-21",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -4643,7 +4781,7 @@
     "lat": 42.379273,
     "lng": -71.103419,
     "first_seen": "2018-12-04",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -4651,15 +4789,15 @@
     "lat": 42.350209,
     "lng": -71.044668,
     "first_seen": "2022-03-03",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Piers Park",
     "lat": 42.365,
-    "lng": -71.035246,
+    "lng": -71.035248,
     "first_seen": "2017-04-05",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -4675,15 +4813,23 @@
     "lat": 42.342598,
     "lng": -71.104904,
     "first_seen": "2025-10-29",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
+    "aliases": []
+  },
+  {
+    "name": "Pleasant St at Beacon St",
+    "lat": 42.342722,
+    "lng": -71.12025,
+    "first_seen": "2026-08-10",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Pope John High School",
     "lat": 42.420345,
-    "lng": -71.044205,
+    "lng": -71.044204,
     "first_seen": "2023-08-06",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -4691,7 +4837,7 @@
     "lat": 42.279774,
     "lng": -71.046084,
     "first_seen": "2024-12-27",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -4699,7 +4845,7 @@
     "lat": 42.387995,
     "lng": -71.119083,
     "first_seen": "2015-01-01",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -4707,15 +4853,15 @@
     "lat": 42.36412,
     "lng": -71.02877,
     "first_seen": "2020-10-23",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Post Office Square",
-    "lat": 42.356138,
-    "lng": -71.054858,
+    "lat": 42.356123,
+    "lng": -71.054844,
     "first_seen": "2015-04-17",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -4728,18 +4874,18 @@
   },
   {
     "name": "Powder House Circle - Nathan Tufts Park",
-    "lat": 42.400874,
+    "lat": 42.400875,
     "lng": -71.116774,
     "first_seen": "2015-04-17",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Prentiss St at Mindoro St",
-    "lat": 42.333707,
+    "lat": 42.333708,
     "lng": -71.093627,
     "first_seen": "2026-05-27",
-    "last_seen": "2026-05-30",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -4747,7 +4893,7 @@
     "lat": 42.346521,
     "lng": -71.080655,
     "first_seen": "2019-06-01",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -4771,15 +4917,15 @@
     "lat": 42.354663,
     "lng": -71.05319,
     "first_seen": "2016-04-15",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Railroad Lot and Minuteman Bikeway",
     "lat": 42.416068,
-    "lng": -71.153329,
+    "lng": -71.153331,
     "first_seen": "2020-09-10",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -4787,15 +4933,15 @@
     "lat": 42.387368,
     "lng": -71.127613,
     "first_seen": "2022-05-24",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Reservoir Rd at Beacon St",
     "lat": 42.331459,
-    "lng": -71.157673,
+    "lng": -71.157672,
     "first_seen": "2025-09-19",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -4803,7 +4949,7 @@
     "lat": 42.414019,
     "lng": -70.989609,
     "first_seen": "2024-09-18",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -4811,7 +4957,7 @@
     "lat": 42.407411,
     "lng": -71.013898,
     "first_seen": "2020-10-28",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -4819,15 +4965,15 @@
     "lat": 42.408087,
     "lng": -71.008942,
     "first_seen": "2020-11-04",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
-    "name": "Rindge Avenue - O'Neill Library",
-    "lat": 42.392767,
-    "lng": -71.129043,
-    "first_seen": "2015-01-01",
-    "last_seen": "2026-05-31",
+    "name": "Rindge Field",
+    "lat": 42.390528,
+    "lng": -71.12775,
+    "first_seen": "2026-09-03",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -4840,10 +4986,10 @@
   },
   {
     "name": "Ringer Park - Webley St at Armington St",
-    "lat": 42.352233,
-    "lng": -71.137167,
+    "lat": 42.352238,
+    "lng": -71.137171,
     "first_seen": "2025-08-04",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -4851,15 +4997,15 @@
     "lat": 42.336613,
     "lng": -71.110048,
     "first_seen": "2023-03-26",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Rogers St & Land Blvd",
-    "lat": 42.366182,
-    "lng": -71.076721,
+    "lat": 42.366196,
+    "lng": -71.076712,
     "first_seen": "2018-08-09",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -4875,7 +5021,7 @@
     "lat": 42.287071,
     "lng": -71.127756,
     "first_seen": "2018-08-29",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": [
       "Roslindale Village - South St (former)"
     ]
@@ -4883,9 +5029,9 @@
   {
     "name": "Roslindale Village - Washington St",
     "lat": 42.286302,
-    "lng": -71.128214,
+    "lng": -71.128213,
     "first_seen": "2018-08-30",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -4898,10 +5044,10 @@
   },
   {
     "name": "Ross Playground",
-    "lat": 42.264571,
-    "lng": -71.114558,
+    "lat": 42.264567,
+    "lng": -71.114554,
     "first_seen": "2022-03-08",
-    "last_seen": "2025-10-14",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -4909,17 +5055,17 @@
     "lat": 42.357144,
     "lng": -71.050703,
     "first_seen": "2015-04-17",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": [
       "Rowes Wharf - Atlantic Ave"
     ]
   },
   {
     "name": "Roxbury Crossing T Stop - Columbus Ave at Tremont St",
-    "lat": 42.331186,
+    "lat": 42.331185,
     "lng": -71.09517,
     "first_seen": "2015-04-17",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": [
       "Roxbury Crossing Station"
     ]
@@ -4937,23 +5083,23 @@
     "lat": 42.317875,
     "lng": -71.082432,
     "first_seen": "2016-12-02",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Royce Rd at Commonwealth Ave",
-    "lat": 42.349532,
-    "lng": -71.131837,
+    "lat": 42.349535,
+    "lng": -71.131832,
     "first_seen": "2026-04-24",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Rugg Rd at Braintree St",
-    "lat": 42.356081,
-    "lng": -71.135385,
+    "lat": 42.356082,
+    "lng": -71.135387,
     "first_seen": "2025-10-09",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -4969,31 +5115,31 @@
     "lat": 42.336249,
     "lng": -71.087982,
     "first_seen": "2016-12-01",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Rutherford Ave at Bunker Hill Industrial Park",
-    "lat": 42.379349,
+    "lat": 42.37935,
     "lng": -71.071374,
     "first_seen": "2025-05-23",
-    "last_seen": "2026-05-30",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Rutherford Ave at Main St",
-    "lat": 42.383848,
+    "lat": 42.383849,
     "lng": -71.073114,
     "first_seen": "2025-07-09",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Ryan Playground - Dorchester Ave at Harbor View St",
-    "lat": 42.317645,
-    "lng": -71.056664,
+    "lat": 42.317642,
+    "lng": -71.056655,
     "first_seen": "2015-10-05",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": [
       "Ryan Playground - Dorchester Avenue Station"
     ]
@@ -5008,10 +5154,10 @@
   },
   {
     "name": "S Huntington at Heath St",
-    "lat": 42.327645,
-    "lng": -71.110965,
+    "lat": 42.327663,
+    "lng": -71.111001,
     "first_seen": "2025-12-18",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -5019,7 +5165,7 @@
     "lat": 42.521893,
     "lng": -70.880691,
     "first_seen": "2021-06-16",
-    "last_seen": "2026-05-29",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -5035,23 +5181,23 @@
     "lat": 42.523451,
     "lng": -70.896112,
     "first_seen": "2021-06-16",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Salem State University - Bike Path at Loring Ave",
-    "lat": 42.501829,
-    "lng": -70.894783,
+    "lat": 42.501851,
+    "lng": -70.894792,
     "first_seen": "2021-06-18",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Salem State University - North Campus",
-    "lat": 42.503332,
-    "lng": -70.891444,
+    "lat": 42.503327,
+    "lng": -70.891371,
     "first_seen": "2022-08-24",
-    "last_seen": "2026-05-29",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -5059,7 +5205,7 @@
     "lat": 42.534669,
     "lng": -70.870214,
     "first_seen": "2021-06-16",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-29",
     "aliases": []
   },
   {
@@ -5067,7 +5213,7 @@
     "lat": 42.405925,
     "lng": -71.066975,
     "first_seen": "2026-05-28",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -5075,7 +5221,7 @@
     "lat": 42.310599,
     "lng": -71.053897,
     "first_seen": "2016-04-01",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": [
       "Savin Hill MBTA Station"
     ]
@@ -5085,15 +5231,15 @@
     "lat": 42.353177,
     "lng": -71.048173,
     "first_seen": "2017-10-23",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Seaport Hotel - Congress St at Seaport Ln",
-    "lat": 42.348821,
-    "lng": -71.041718,
+    "lat": 42.348832,
+    "lng": -71.041749,
     "first_seen": "2015-04-17",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": [
       "Seaport Hotel"
     ]
@@ -5103,7 +5249,7 @@
     "lat": 42.351479,
     "lng": -71.044359,
     "first_seen": "2016-12-01",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -5119,35 +5265,43 @@
     "lat": 42.368605,
     "lng": -71.099302,
     "first_seen": "2019-05-22",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": [
       "Sennott Park  Broadway at Norfolk Street"
     ]
   },
   {
+    "name": "Shattuck / Franklin Park Tennis Courts",
+    "lat": 42.299688,
+    "lng": -71.099835,
+    "first_seen": "2026-09-24",
+    "last_seen": "2026-09-29",
+    "aliases": []
+  },
+  {
     "name": "Shawmut Ave at E Berkeley St",
-    "lat": 42.344618,
-    "lng": -71.067014,
+    "lat": 42.344616,
+    "lng": -71.067015,
     "first_seen": "2025-05-07",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Shawmut Ave at Herald St",
     "lat": 42.346649,
-    "lng": -71.066047,
+    "lng": -71.066048,
     "first_seen": "2024-10-02",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": [
       "Shawmut Ave. at Herald St."
     ]
   },
   {
     "name": "Shawmut Ave at Lenox St",
-    "lat": 42.335849,
+    "lat": 42.335848,
     "lng": -71.080381,
     "first_seen": "2022-08-08",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -5155,7 +5309,7 @@
     "lat": 42.348542,
     "lng": -71.065594,
     "first_seen": "2019-07-09",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -5163,7 +5317,7 @@
     "lat": 42.292919,
     "lng": -71.065749,
     "first_seen": "2019-06-29",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -5171,7 +5325,7 @@
     "lat": 42.518368,
     "lng": -70.889524,
     "first_seen": "2021-06-16",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -5179,7 +5333,7 @@
     "lat": 42.357752,
     "lng": -71.103932,
     "first_seen": "2016-10-05",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": [
       "Sidney Research Campus/ Erie Street at Waverly"
     ]
@@ -5189,47 +5343,47 @@
     "lat": 42.349498,
     "lng": -71.100575,
     "first_seen": "2017-07-26",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Smith Pl at Wilson Rd",
     "lat": 42.392396,
-    "lng": -71.150581,
+    "lng": -71.150582,
     "first_seen": "2020-09-11",
-    "last_seen": "2026-05-30",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Smith St at Parker St",
     "lat": 42.332901,
-    "lng": -71.09683,
+    "lng": -71.096831,
     "first_seen": "2025-08-25",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Soldiers Field Park - 111 Western Ave",
-    "lat": 42.364322,
-    "lng": -71.118353,
+    "lat": 42.364318,
+    "lng": -71.118349,
     "first_seen": "2016-12-01",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Somerville City Hall",
     "lat": 42.386844,
-    "lng": -71.098121,
+    "lng": -71.098122,
     "first_seen": "2015-04-17",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Somerville City Hall Annex",
-    "lat": 42.391888,
-    "lng": -71.097468,
+    "lat": 42.391889,
+    "lng": -71.097467,
     "first_seen": "2019-07-16",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -5237,15 +5391,15 @@
     "lat": 42.386391,
     "lng": -71.096008,
     "first_seen": "2021-10-12",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Somerville Hospital",
-    "lat": 42.390724,
-    "lng": -71.108444,
+    "lat": 42.39071,
+    "lng": -71.108463,
     "first_seen": "2018-07-31",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -5261,7 +5415,7 @@
     "lat": 42.33574,
     "lng": -71.038771,
     "first_seen": "2015-04-17",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": [
       "South Boston Library - 646 East Broadway"
     ]
@@ -5271,17 +5425,17 @@
     "lat": 42.341332,
     "lng": -71.076846,
     "first_seen": "2015-04-17",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": [
       "Tremont St / W Newton St"
     ]
   },
   {
     "name": "South Station - 700 Atlantic Ave",
-    "lat": 42.352174,
-    "lng": -71.055552,
+    "lat": 42.352135,
+    "lng": -71.055571,
     "first_seen": "2015-04-16",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": [
       "South Station - 700 Atlantic Ave."
     ]
@@ -5291,7 +5445,7 @@
     "lat": 42.378337,
     "lng": -71.048921,
     "first_seen": "2015-01-01",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -5299,7 +5453,7 @@
     "lat": 42.277485,
     "lng": -71.163414,
     "first_seen": "2019-09-16",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -5307,15 +5461,15 @@
     "lat": 42.346198,
     "lng": -71.107281,
     "first_seen": "2018-08-13",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "St. Alphonsus St at Horadan Way",
     "lat": 42.335065,
-    "lng": -71.099892,
+    "lng": -71.099893,
     "first_seen": "2025-10-07",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": [
       "St Alphonsus St at Horadan Way"
     ]
@@ -5325,7 +5479,7 @@
     "lat": 42.333292,
     "lng": -71.101248,
     "first_seen": "2022-02-16",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -5333,7 +5487,7 @@
     "lat": 42.363062,
     "lng": -71.125046,
     "first_seen": "2025-06-05",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -5341,7 +5495,7 @@
     "lat": 42.363582,
     "lng": -71.063719,
     "first_seen": "2024-10-02",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": [
       "Staniford at Merrimac"
     ]
@@ -5351,7 +5505,7 @@
     "lat": 42.344139,
     "lng": -71.052609,
     "first_seen": "2015-04-17",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -5359,7 +5513,7 @@
     "lat": 42.428086,
     "lng": -71.12636,
     "first_seen": "2024-08-01",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -5367,7 +5521,7 @@
     "lat": 42.316966,
     "lng": -71.10437,
     "first_seen": "2018-09-17",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -5375,7 +5529,7 @@
     "lat": 42.349545,
     "lng": -71.072424,
     "first_seen": "2019-08-14",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -5383,17 +5537,17 @@
     "lat": 42.351142,
     "lng": -71.06629,
     "first_seen": "2015-04-17",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": [
       "Stuart St. at Charles St."
     ]
   },
   {
     "name": "Stuart St at Church St",
-    "lat": 42.350656,
-    "lng": -71.0683,
+    "lat": 42.350658,
+    "lng": -71.068301,
     "first_seen": "2024-10-23",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -5401,7 +5555,7 @@
     "lat": 42.384446,
     "lng": -71.075148,
     "first_seen": "2019-10-13",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -5433,25 +5587,25 @@
     "lat": 42.358156,
     "lng": -71.052165,
     "first_seen": "2015-04-17",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": [
       "John F Fitzgerald - Surface Road at India Street"
     ]
   },
   {
     "name": "Surface Rd at State Street",
-    "lat": 42.359741,
+    "lat": 42.359742,
     "lng": -71.052602,
     "first_seen": "2025-03-06",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Surface Rd at Summer St",
     "lat": 42.352942,
-    "lng": -71.056573,
+    "lng": -71.056572,
     "first_seen": "2019-08-02",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -5459,25 +5613,25 @@
     "lat": 42.414704,
     "lng": -71.152376,
     "first_seen": "2024-09-25",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": [
       "Swan Pl. at Minuteman Bikeway"
     ]
   },
   {
     "name": "Swan St. Park",
-    "lat": 42.412503,
+    "lat": 42.412504,
     "lng": -71.058422,
     "first_seen": "2019-06-24",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Sydney St at Carson St",
-    "lat": 42.320381,
+    "lat": 42.320382,
     "lng": -71.053548,
     "first_seen": "2019-06-29",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -5501,33 +5655,33 @@
     "lat": 42.294582,
     "lng": -71.087108,
     "first_seen": "2018-09-01",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": [
       "Talbot Ave At Blue Hill Ave (former)"
     ]
   },
   {
     "name": "Talbot Ave T Station",
-    "lat": 42.292247,
+    "lat": 42.292248,
     "lng": -71.077973,
     "first_seen": "2023-10-14",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Tappan St at Brookline Hills MBTA",
-    "lat": 42.331794,
-    "lng": -71.127436,
+    "lat": 42.331764,
+    "lng": -71.127398,
     "first_seen": "2018-07-25",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Teele Square",
-    "lat": 42.401278,
-    "lng": -71.126129,
+    "lat": 42.401239,
+    "lng": -71.126107,
     "first_seen": "2018-08-10",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -5543,7 +5697,7 @@
     "lat": 42.319311,
     "lng": -71.0964,
     "first_seen": "2019-08-27",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -5551,7 +5705,7 @@
     "lat": 42.370745,
     "lng": -71.044202,
     "first_seen": "2016-12-03",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -5575,7 +5729,7 @@
     "lat": 42.344791,
     "lng": -71.044026,
     "first_seen": "2015-10-06",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": [
       "Lawn on D"
     ]
@@ -5585,15 +5739,15 @@
     "lat": 42.346801,
     "lng": -71.145498,
     "first_seen": "2020-06-05",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Thetford Ave at Norfolk St",
-    "lat": 42.286213,
-    "lng": -71.079428,
+    "lat": 42.286211,
+    "lng": -71.079423,
     "first_seen": "2018-07-14",
-    "last_seen": "2026-05-30",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -5606,10 +5760,10 @@
   },
   {
     "name": "Third at Binney",
-    "lat": 42.365443,
+    "lat": 42.365444,
     "lng": -71.082771,
     "first_seen": "2016-10-27",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -5617,15 +5771,15 @@
     "lat": 42.400168,
     "lng": -71.144569,
     "first_seen": "2020-10-15",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Tremont St at Court St",
-    "lat": 42.359158,
-    "lng": -71.05972,
+    "lat": 42.359255,
+    "lng": -71.059696,
     "first_seen": "2023-11-29",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -5633,27 +5787,27 @@
     "lat": 42.345393,
     "lng": -71.069616,
     "first_seen": "2015-01-02",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": [
       "Tremont St. at Berkeley St."
     ]
   },
   {
     "name": "Tremont St at Hamilton Pl",
-    "lat": 42.356688,
-    "lng": -71.061664,
+    "lat": 42.35669,
+    "lng": -71.061662,
     "first_seen": "2018-11-21",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": [
       "Tremont St at Hamilton Place"
     ]
   },
   {
     "name": "Tremont St at Northampton St",
-    "lat": 42.338632,
-    "lng": -71.081608,
+    "lat": 42.338622,
+    "lng": -71.081612,
     "first_seen": "2018-10-30",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -5669,7 +5823,7 @@
     "lat": 42.342548,
     "lng": -71.074214,
     "first_seen": "2019-01-10",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -5677,7 +5831,7 @@
     "lat": 42.354979,
     "lng": -71.063351,
     "first_seen": "2015-01-06",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": [
       "Tremont St / West St"
     ]
@@ -5695,7 +5849,7 @@
     "lat": 42.343751,
     "lng": -71.062255,
     "first_seen": "2017-10-27",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -5711,15 +5865,15 @@
     "lat": 42.252287,
     "lng": -71.118359,
     "first_seen": "2025-05-07",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Tufts Sq - Main St at Medford St",
     "lat": 42.401697,
-    "lng": -71.106122,
+    "lng": -71.106123,
     "first_seen": "2022-09-05",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -5735,7 +5889,7 @@
     "lat": 42.353336,
     "lng": -71.137309,
     "first_seen": "2015-04-17",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": [
       "Union Square - Brighton Ave. at Cambridge St."
     ]
@@ -5743,9 +5897,9 @@
   {
     "name": "Union Square - Somerville",
     "lat": 42.37966,
-    "lng": -71.095003,
+    "lng": -71.095023,
     "first_seen": "2015-04-16",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -5753,7 +5907,7 @@
     "lat": 42.380078,
     "lng": -71.090098,
     "first_seen": "2020-12-09",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": [
       "Union Square East (Temp Winter Station)"
     ]
@@ -5763,15 +5917,15 @@
     "lat": 42.37731,
     "lng": -71.094431,
     "first_seen": "2023-12-13",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Union St at Herrick Rd",
     "lat": 42.329607,
-    "lng": -71.193699,
+    "lng": -71.1937,
     "first_seen": "2020-10-01",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": [
       "Union St at Herrick Rd – Newton Centre Green Line"
     ]
@@ -5781,7 +5935,7 @@
     "lat": 42.362649,
     "lng": -71.100061,
     "first_seen": "2015-11-04",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -5789,7 +5943,7 @@
     "lat": 42.312191,
     "lng": -71.03649,
     "first_seen": "2019-06-01",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -5842,10 +5996,10 @@
   },
   {
     "name": "Uphams Corner",
-    "lat": 42.317277,
-    "lng": -71.06537,
+    "lat": 42.317279,
+    "lng": -71.065378,
     "first_seen": "2019-06-01",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -5853,25 +6007,33 @@
     "lat": 42.318699,
     "lng": -71.069782,
     "first_seen": "2017-04-10",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": [
       "Upham's Corner T Stop - Magnolia St at Dudley St"
     ]
   },
   {
+    "name": "Upper Falls Greenway Pettee Square",
+    "lat": 42.3092,
+    "lng": -71.22031,
+    "first_seen": "2026-08-26",
+    "last_seen": "2026-09-30",
+    "aliases": []
+  },
+  {
     "name": "Valenti Way at Haverhill St",
-    "lat": 42.364735,
+    "lat": 42.364736,
     "lng": -71.059345,
     "first_seen": "2021-09-30",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Vassal Lane at Tobin VLUS",
-    "lat": 42.384226,
+    "lat": 42.384229,
     "lng": -71.140329,
     "first_seen": "2025-09-12",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -5892,10 +6054,10 @@
   },
   {
     "name": "Verizon Innovation Hub 10 Ware Street",
-    "lat": 42.372507,
+    "lat": 42.372508,
     "lng": -71.113052,
     "first_seen": "2017-06-07",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -5903,7 +6065,7 @@
     "lat": 42.486288,
     "lng": -70.901667,
     "first_seen": "2023-06-06",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -5911,25 +6073,25 @@
     "lat": 42.339107,
     "lng": -71.051443,
     "first_seen": "2015-10-02",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": [
       "West Broadway at D Street"
     ]
   },
   {
     "name": "W Broadway at Dorchester St",
-    "lat": 42.335919,
-    "lng": -71.046173,
+    "lat": 42.335922,
+    "lng": -71.046177,
     "first_seen": "2016-12-01",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Walbridge St at Commonwealth Ave",
-    "lat": 42.347752,
-    "lng": -71.135682,
+    "lat": 42.347579,
+    "lng": -71.135393,
     "first_seen": "2025-07-24",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -5937,23 +6099,23 @@
     "lat": 42.288015,
     "lng": -71.107306,
     "first_seen": "2025-09-16",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Walnut Ave at Humboldt Ave",
-    "lat": 42.320722,
-    "lng": -71.086325,
+    "lat": 42.320721,
+    "lng": -71.086327,
     "first_seen": "2026-05-19",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Walnut Ave at School St",
-    "lat": 42.312415,
-    "lng": -71.096175,
+    "lat": 42.312411,
+    "lng": -71.096177,
     "first_seen": "2021-08-25",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -5961,7 +6123,7 @@
     "lat": 42.32408,
     "lng": -71.083236,
     "first_seen": "2016-08-08",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -5977,17 +6139,17 @@
   {
     "name": "Warren Ave at Dartmouth St",
     "lat": 42.34431,
-    "lng": -71.074042,
+    "lng": -71.07404,
     "first_seen": "2025-05-28",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Warren St at Chelsea St",
-    "lat": 42.371847,
+    "lat": 42.371848,
     "lng": -71.060295,
     "first_seen": "2015-01-05",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": [
       "Charlestown - Warren St at Chelsea St"
     ]
@@ -6004,10 +6166,10 @@
   },
   {
     "name": "Washington Sq",
-    "lat": 42.339831,
-    "lng": -71.134244,
+    "lat": 42.339834,
+    "lng": -71.13424,
     "first_seen": "2020-07-03",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -6039,7 +6201,7 @@
     "lat": 42.299162,
     "lng": -71.073456,
     "first_seen": "2021-06-02",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -6055,23 +6217,23 @@
     "lat": 42.348957,
     "lng": -71.160319,
     "first_seen": "2015-10-09",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Washington St at Corey Rd",
-    "lat": 42.342363,
-    "lng": -71.140174,
+    "lat": 42.342366,
+    "lng": -71.140176,
     "first_seen": "2025-10-02",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Washington St at Crafts St",
-    "lat": 42.353891,
-    "lng": -71.199435,
+    "lat": 42.35389,
+    "lng": -71.199436,
     "first_seen": "2020-10-01",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -6079,7 +6241,7 @@
     "lat": 42.28073,
     "lng": -71.134235,
     "first_seen": "2019-08-29",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -6116,34 +6278,34 @@
   },
   {
     "name": "Washington St at Lenox St",
-    "lat": 42.335098,
-    "lng": -71.079039,
+    "lat": 42.335102,
+    "lng": -71.079033,
     "first_seen": "2016-12-01",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Washington St at Melnea Cass Blvd",
     "lat": 42.33282,
-    "lng": -71.081203,
+    "lng": -71.081202,
     "first_seen": "2016-07-21",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Washington St at Mina Way",
-    "lat": 42.352962,
-    "lng": -71.17323,
+    "lat": 42.352946,
+    "lng": -71.173246,
     "first_seen": "2025-08-06",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Washington St at Myrtle St",
-    "lat": 42.381715,
-    "lng": -71.084014,
+    "lat": 42.381718,
+    "lng": -71.084009,
     "first_seen": "2018-07-31",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -6157,17 +6319,25 @@
   {
     "name": "Washington St at Northampton St",
     "lat": 42.336258,
-    "lng": -71.077568,
+    "lng": -71.077567,
     "first_seen": "2025-04-16",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Washington St at Peters Park",
-    "lat": 42.343083,
-    "lng": -71.067026,
+    "lat": 42.343071,
+    "lng": -71.067028,
     "first_seen": "2019-07-31",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
+    "aliases": []
+  },
+  {
+    "name": "Washington St at Pond Ave",
+    "lat": 42.331805,
+    "lng": -71.113557,
+    "first_seen": "2026-08-13",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -6175,7 +6345,7 @@
     "lat": 42.338514,
     "lng": -71.07404,
     "first_seen": "2016-12-01",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -6183,25 +6353,25 @@
     "lat": 42.290333,
     "lng": -71.071806,
     "first_seen": "2018-08-23",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": [
       "Washington St at Talbot Ave (former)"
     ]
   },
   {
     "name": "Washington St at Temple Pl",
-    "lat": 42.354976,
+    "lat": 42.354974,
     "lng": -71.060982,
     "first_seen": "2024-09-12",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Washington St at W Dedham St",
     "lat": 42.340338,
-    "lng": -71.071786,
+    "lng": -71.071788,
     "first_seen": "2025-06-03",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -6209,7 +6379,7 @@
     "lat": 42.351459,
     "lng": -71.207648,
     "first_seen": "2021-07-04",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -6217,15 +6387,15 @@
     "lat": 42.277196,
     "lng": -71.069557,
     "first_seen": "2019-09-04",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Washington St at Waltham St",
-    "lat": 42.341561,
-    "lng": -71.068907,
+    "lat": 42.341562,
+    "lng": -71.068906,
     "first_seen": "2015-04-17",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": [
       "Washington St. at Waltham St."
     ]
@@ -6259,7 +6429,7 @@
     "lat": 42.351587,
     "lng": -71.045697,
     "first_seen": "2016-12-01",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -6267,7 +6437,7 @@
     "lat": 42.367592,
     "lng": -71.187513,
     "first_seen": "2023-11-06",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -6275,7 +6445,7 @@
     "lat": 42.36526,
     "lng": -71.185735,
     "first_seen": "2020-08-05",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -6283,7 +6453,7 @@
     "lat": 42.36289,
     "lng": -71.191271,
     "first_seen": "2024-08-30",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -6291,7 +6461,7 @@
     "lat": 42.354105,
     "lng": -71.213822,
     "first_seen": "2022-02-10",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -6303,11 +6473,19 @@
     "aliases": []
   },
   {
+    "name": "Webster Ave at Norfolk St",
+    "lat": 42.374606,
+    "lng": -71.094757,
+    "first_seen": "2026-08-18",
+    "last_seen": "2026-09-30",
+    "aliases": []
+  },
+  {
     "name": "Wellington MBTA",
     "lat": 42.402369,
     "lng": -71.075732,
     "first_seen": "2022-06-11",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -6323,7 +6501,7 @@
     "lat": 42.337586,
     "lng": -71.096272,
     "first_seen": "2016-12-01",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -6347,17 +6525,17 @@
   {
     "name": "West Medford Square (Bower St at Harvard Ave)",
     "lat": 42.420647,
-    "lng": -71.133481,
+    "lng": -71.133482,
     "first_seen": "2023-12-15",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "West Newton",
     "lat": 42.3496,
-    "lng": -71.226278,
+    "lng": -71.226277,
     "first_seen": "2020-10-10",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -6373,7 +6551,7 @@
     "lat": 42.363168,
     "lng": -71.13472,
     "first_seen": "2024-11-13",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -6381,7 +6559,7 @@
     "lat": 42.361559,
     "lng": -71.14506,
     "first_seen": "2025-01-17",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -6397,7 +6575,7 @@
     "lat": 42.332862,
     "lng": -71.092189,
     "first_seen": "2019-10-17",
-    "last_seen": "2026-05-30",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -6405,15 +6583,15 @@
     "lat": 42.306541,
     "lng": -71.107671,
     "first_seen": "2018-09-20",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Wilson Square",
-    "lat": 42.385648,
-    "lng": -71.113898,
+    "lat": 42.385649,
+    "lng": -71.11391,
     "first_seen": "2015-04-13",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
@@ -6421,15 +6599,15 @@
     "lat": 42.421361,
     "lng": -71.117556,
     "first_seen": "2024-09-26",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Wood Island T Stop - Vienna St at Bennington St",
     "lat": 42.380026,
-    "lng": -71.024438,
+    "lng": -71.024439,
     "first_seen": "2025-04-10",
-    "last_seen": "2026-05-31",
+    "last_seen": "2026-09-30",
     "aliases": []
   },
   {

@@ -3295,14 +3295,14 @@
     {
       "end_trips": 685,
       "start_trips": 748,
-      "station": "Wellington St W / Stafford St",
+      "station": "Mary McCormick Rec Centre (Sheridan Ave)",
       "total_trips": 1433,
       "year": 2016
     },
     {
       "end_trips": 685,
       "start_trips": 748,
-      "station": "Mary McCormick Rec Centre (Sheridan Ave)",
+      "station": "Wellington St W / Stafford St",
       "total_trips": 1433,
       "year": 2016
     },
@@ -5372,16 +5372,16 @@
       "year": 2017
     },
     {
-      "end_trips": 812,
-      "start_trips": 791,
-      "station": "Landsdowne Subway Green P",
+      "end_trips": 799,
+      "start_trips": 804,
+      "station": "King / Cowan Ave - SMART",
       "total_trips": 1603,
       "year": 2017
     },
     {
-      "end_trips": 799,
-      "start_trips": 804,
-      "station": "King / Cowan Ave - SMART",
+      "end_trips": 812,
+      "start_trips": 791,
+      "station": "Landsdowne Subway Green P",
       "total_trips": 1603,
       "year": 2017
     },
@@ -6086,16 +6086,16 @@
       "year": 2018
     },
     {
-      "end_trips": 8799,
-      "start_trips": 8852,
-      "station": "Wellington St W / Portland St",
+      "end_trips": 9496,
+      "start_trips": 8155,
+      "station": "Lower Jarvis St / The Esplanade",
       "total_trips": 17651,
       "year": 2018
     },
     {
-      "end_trips": 9496,
-      "start_trips": 8155,
-      "station": "Lower Jarvis St / The Esplanade",
+      "end_trips": 8799,
+      "start_trips": 8852,
+      "station": "Wellington St W / Portland St",
       "total_trips": 17651,
       "year": 2018
     },
@@ -7129,16 +7129,16 @@
       "year": 2018
     },
     {
-      "end_trips": 3041,
-      "start_trips": 2909,
-      "station": "Simcoe St / Adelaide St W",
+      "end_trips": 3147,
+      "start_trips": 2803,
+      "station": "King St E / Ontario St.",
       "total_trips": 5950,
       "year": 2018
     },
     {
-      "end_trips": 3147,
-      "start_trips": 2803,
-      "station": "King St E / Ontario St.",
+      "end_trips": 3041,
+      "start_trips": 2909,
+      "station": "Simcoe St / Adelaide St W",
       "total_trips": 5950,
       "year": 2018
     },
@@ -12757,16 +12757,16 @@
       "year": 2020
     },
     {
-      "end_trips": 5560,
-      "start_trips": 4951,
-      "station": "King St W / Bay St (East Side)",
+      "end_trips": 5256,
+      "start_trips": 5255,
+      "station": "High Park Amphitheatre",
       "total_trips": 10511,
       "year": 2020
     },
     {
-      "end_trips": 5256,
-      "start_trips": 5255,
-      "station": "High Park Amphitheatre",
+      "end_trips": 5560,
+      "start_trips": 4951,
+      "station": "King St W / Bay St (East Side)",
       "total_trips": 10511,
       "year": 2020
     },
@@ -13604,16 +13604,16 @@
       "year": 2020
     },
     {
-      "end_trips": 3036,
-      "start_trips": 3315,
-      "station": "Danforth Ave / Gough Ave",
+      "end_trips": 3126,
+      "start_trips": 3225,
+      "station": "Baldwin St / Henry St - SMART",
       "total_trips": 6351,
       "year": 2020
     },
     {
-      "end_trips": 3126,
-      "start_trips": 3225,
-      "station": "Baldwin St / Henry St - SMART",
+      "end_trips": 3036,
+      "start_trips": 3315,
+      "station": "Danforth Ave / Gough Ave",
       "total_trips": 6351,
       "year": 2020
     },
@@ -14178,13 +14178,6 @@
       "year": 2020
     },
     {
-      "end_trips": 2243,
-      "start_trips": 1888,
-      "station": "Liberty St / Fraser Ave Green P",
-      "total_trips": 4131,
-      "year": 2020
-    },
-    {
       "end_trips": 1887,
       "start_trips": 2244,
       "station": "Rosehill Ave / Avoca Ave - SMART",
@@ -14192,16 +14185,23 @@
       "year": 2020
     },
     {
-      "end_trips": 2123,
-      "start_trips": 1966,
-      "station": "Sheridan Ave / Dundas St W - SMART",
-      "total_trips": 4089,
+      "end_trips": 2243,
+      "start_trips": 1888,
+      "station": "Liberty St / Fraser Ave Green P",
+      "total_trips": 4131,
       "year": 2020
     },
     {
       "end_trips": 2201,
       "start_trips": 1888,
       "station": "Lee Ave / Queen St E",
+      "total_trips": 4089,
+      "year": 2020
+    },
+    {
+      "end_trips": 2123,
+      "start_trips": 1966,
+      "station": "Sheridan Ave / Dundas St W - SMART",
       "total_trips": 4089,
       "year": 2020
     },
@@ -14353,16 +14353,16 @@
       "year": 2020
     },
     {
-      "end_trips": 1832,
-      "start_trips": 2016,
-      "station": "541 Huron St - SMART",
+      "end_trips": 1827,
+      "start_trips": 2021,
+      "station": "Cosburn Ave / Donlands Ave",
       "total_trips": 3848,
       "year": 2020
     },
     {
-      "end_trips": 1827,
-      "start_trips": 2021,
-      "station": "Cosburn Ave / Donlands Ave",
+      "end_trips": 1832,
+      "start_trips": 2016,
+      "station": "541 Huron St - SMART",
       "total_trips": 3848,
       "year": 2020
     },
@@ -14423,16 +14423,16 @@
       "year": 2020
     },
     {
-      "end_trips": 1837,
-      "start_trips": 1757,
-      "station": "Humber College - SMART",
+      "end_trips": 1848,
+      "start_trips": 1746,
+      "station": "Sunnyside Ave / The Queensway - SMART",
       "total_trips": 3594,
       "year": 2020
     },
     {
-      "end_trips": 1848,
-      "start_trips": 1746,
-      "station": "Sunnyside Ave / The Queensway - SMART",
+      "end_trips": 1837,
+      "start_trips": 1757,
+      "station": "Humber College - SMART",
       "total_trips": 3594,
       "year": 2020
     },
@@ -14857,16 +14857,16 @@
       "year": 2020
     },
     {
-      "end_trips": 1070,
-      "start_trips": 1334,
-      "station": "Vaughan Rd /Wychwood Ave",
+      "end_trips": 1126,
+      "start_trips": 1278,
+      "station": "Langford Ave / Danforth Ave - SMART",
       "total_trips": 2404,
       "year": 2020
     },
     {
-      "end_trips": 1126,
-      "start_trips": 1278,
-      "station": "Langford Ave / Danforth Ave - SMART",
+      "end_trips": 1070,
+      "start_trips": 1334,
+      "station": "Vaughan Rd /Wychwood Ave",
       "total_trips": 2404,
       "year": 2020
     },
@@ -15207,16 +15207,16 @@
       "year": 2020
     },
     {
-      "end_trips": 581,
-      "start_trips": 772,
-      "station": "Vaughan Rd / Oakwood Ave - SMART",
+      "end_trips": 617,
+      "start_trips": 736,
+      "station": "Lumsden Ave / Eastdale Ave - SMART",
       "total_trips": 1353,
       "year": 2020
     },
     {
-      "end_trips": 617,
-      "start_trips": 736,
-      "station": "Lumsden Ave / Eastdale Ave - SMART",
+      "end_trips": 581,
+      "start_trips": 772,
+      "station": "Vaughan Rd / Oakwood Ave - SMART",
       "total_trips": 1353,
       "year": 2020
     },
@@ -15242,16 +15242,16 @@
       "year": 2020
     },
     {
-      "end_trips": 587,
-      "start_trips": 708,
-      "station": "Goodwood Park Ct / Dentonia Park - SMART",
+      "end_trips": 531,
+      "start_trips": 764,
+      "station": "Woodbine Subway Green P SMART",
       "total_trips": 1295,
       "year": 2020
     },
     {
-      "end_trips": 531,
-      "start_trips": 764,
-      "station": "Woodbine Subway Green P SMART",
+      "end_trips": 587,
+      "start_trips": 708,
+      "station": "Goodwood Park Ct / Dentonia Park - SMART",
       "total_trips": 1295,
       "year": 2020
     },
@@ -17545,16 +17545,16 @@
       "year": 2021
     },
     {
-      "end_trips": 4650,
-      "start_trips": 4712,
-      "station": "Front St W / Bay St (South Side)",
+      "end_trips": 4795,
+      "start_trips": 4567,
+      "station": "Elm St/ University Ave (East)",
       "total_trips": 9362,
       "year": 2021
     },
     {
-      "end_trips": 4795,
-      "start_trips": 4567,
-      "station": "Elm St/ University Ave (East)",
+      "end_trips": 4650,
+      "start_trips": 4712,
+      "station": "Front St W / Bay St (South Side)",
       "total_trips": 9362,
       "year": 2021
     },
@@ -18889,16 +18889,16 @@
       "year": 2021
     },
     {
-      "end_trips": 1898,
-      "start_trips": 1921,
-      "station": "Bellwoods Ave / Treford Pl - SMART",
+      "end_trips": 1989,
+      "start_trips": 1830,
+      "station": "Kings Mill Park",
       "total_trips": 3819,
       "year": 2021
     },
     {
-      "end_trips": 1989,
-      "start_trips": 1830,
-      "station": "Kings Mill Park",
+      "end_trips": 1898,
+      "start_trips": 1921,
+      "station": "Bellwoods Ave / Treford Pl - SMART",
       "total_trips": 3819,
       "year": 2021
     },
@@ -19225,16 +19225,16 @@
       "year": 2021
     },
     {
-      "end_trips": 1303,
-      "start_trips": 1589,
-      "station": "Joseph J Piccininni Community Centre",
+      "end_trips": 1500,
+      "start_trips": 1392,
+      "station": "Weston Rd / St Clair Ave W - SMART",
       "total_trips": 2892,
       "year": 2021
     },
     {
-      "end_trips": 1500,
-      "start_trips": 1392,
-      "station": "Weston Rd / St Clair Ave W - SMART",
+      "end_trips": 1303,
+      "start_trips": 1589,
+      "station": "Joseph J Piccininni Community Centre",
       "total_trips": 2892,
       "year": 2021
     },
@@ -19316,16 +19316,16 @@
       "year": 2021
     },
     {
-      "end_trips": 1327,
-      "start_trips": 1417,
-      "station": "Dundas St W / Roncesvalles Green P - SMART",
+      "end_trips": 1237,
+      "start_trips": 1507,
+      "station": "Rosehill Ave / Avoca Ave - SMART",
       "total_trips": 2744,
       "year": 2021
     },
     {
-      "end_trips": 1237,
-      "start_trips": 1507,
-      "station": "Rosehill Ave / Avoca Ave - SMART",
+      "end_trips": 1327,
+      "start_trips": 1417,
+      "station": "Dundas St W / Roncesvalles Green P - SMART",
       "total_trips": 2744,
       "year": 2021
     },
@@ -19456,16 +19456,16 @@
       "year": 2021
     },
     {
-      "end_trips": 1038,
-      "start_trips": 1258,
-      "station": "Annette St / Dundas W",
+      "end_trips": 1165,
+      "start_trips": 1131,
+      "station": "Lake Shore Blvd W / Colborne Lodge Dr",
       "total_trips": 2296,
       "year": 2021
     },
     {
-      "end_trips": 1165,
-      "start_trips": 1131,
-      "station": "Lake Shore Blvd W / Colborne Lodge Dr",
+      "end_trips": 1038,
+      "start_trips": 1258,
+      "station": "Annette St / Dundas W",
       "total_trips": 2296,
       "year": 2021
     },
@@ -20268,16 +20268,16 @@
       "year": 2021
     },
     {
-      "end_trips": 125,
-      "start_trips": 134,
-      "station": "Carlaw Ave / Danforth Ave - SMART",
+      "end_trips": 121,
+      "start_trips": 138,
+      "station": "Howard St / Rose Ave - SMART",
       "total_trips": 259,
       "year": 2021
     },
     {
-      "end_trips": 121,
-      "start_trips": 138,
-      "station": "Howard St / Rose Ave - SMART",
+      "end_trips": 125,
+      "start_trips": 134,
+      "station": "Carlaw Ave / Danforth Ave - SMART",
       "total_trips": 259,
       "year": 2021
     },
@@ -20436,16 +20436,16 @@
       "year": 2021
     },
     {
-      "end_trips": 56,
-      "start_trips": 56,
-      "station": "Chester Station (Green P)",
+      "end_trips": 54,
+      "start_trips": 58,
+      "station": "Neil McLellan Park - SMART",
       "total_trips": 112,
       "year": 2021
     },
     {
-      "end_trips": 54,
-      "start_trips": 58,
-      "station": "Neil McLellan Park - SMART",
+      "end_trips": 56,
+      "start_trips": 56,
+      "station": "Chester Station (Green P)",
       "total_trips": 112,
       "year": 2021
     },
@@ -20499,16 +20499,16 @@
       "year": 2021
     },
     {
-      "end_trips": 42,
-      "start_trips": 36,
-      "station": "Cosburn Ave / Cedarvale Ave - SMART",
+      "end_trips": 35,
+      "start_trips": 43,
+      "station": "Danforth Ave / Sibley Ave - SMART",
       "total_trips": 78,
       "year": 2021
     },
     {
-      "end_trips": 35,
-      "start_trips": 43,
-      "station": "Danforth Ave / Sibley Ave - SMART",
+      "end_trips": 42,
+      "start_trips": 36,
+      "station": "Cosburn Ave / Cedarvale Ave - SMART",
       "total_trips": 78,
       "year": 2021
     },
@@ -20548,16 +20548,16 @@
       "year": 2021
     },
     {
-      "end_trips": 32,
-      "start_trips": 32,
-      "station": "Humber College - SMART",
+      "end_trips": 30,
+      "start_trips": 34,
+      "station": "Priscilla  Ave / Dundas St W - SMART",
       "total_trips": 64,
       "year": 2021
     },
     {
-      "end_trips": 30,
-      "start_trips": 34,
-      "station": "Priscilla  Ave / Dundas St W - SMART",
+      "end_trips": 32,
+      "start_trips": 32,
+      "station": "Humber College - SMART",
       "total_trips": 64,
       "year": 2021
     },
@@ -20653,16 +20653,16 @@
       "year": 2021
     },
     {
-      "end_trips": 15,
-      "start_trips": 20,
-      "station": "Fairmount Park - SMART",
+      "end_trips": 17,
+      "start_trips": 18,
+      "station": "St Clair Ave W / Gunns Rd - SMART",
       "total_trips": 35,
       "year": 2021
     },
     {
-      "end_trips": 17,
-      "start_trips": 18,
-      "station": "St Clair Ave W / Gunns Rd - SMART",
+      "end_trips": 15,
+      "start_trips": 20,
+      "station": "Fairmount Park - SMART",
       "total_trips": 35,
       "year": 2021
     },
@@ -20716,16 +20716,9 @@
       "year": 2021
     },
     {
-      "end_trips": 12,
-      "start_trips": 11,
-      "station": "Lake Shore Blvd W / Twenty Fourth St - SMART",
-      "total_trips": 23,
-      "year": 2021
-    },
-    {
-      "end_trips": 7,
-      "start_trips": 16,
-      "station": "O'Connor Dr / Curity Ave",
+      "end_trips": 8,
+      "start_trips": 15,
+      "station": "Glenwood Ave / Runnymede Rd - SMART",
       "total_trips": 23,
       "year": 2021
     },
@@ -20737,9 +20730,16 @@
       "year": 2021
     },
     {
-      "end_trips": 8,
-      "start_trips": 15,
-      "station": "Glenwood Ave / Runnymede Rd - SMART",
+      "end_trips": 12,
+      "start_trips": 11,
+      "station": "Lake Shore Blvd W / Twenty Fourth St - SMART",
+      "total_trips": 23,
+      "year": 2021
+    },
+    {
+      "end_trips": 7,
+      "start_trips": 16,
+      "station": "O'Connor Dr / Curity Ave",
       "total_trips": 23,
       "year": 2021
     },
@@ -20802,14 +20802,14 @@
     {
       "end_trips": 2,
       "start_trips": 0,
-      "station": "555 Bloor St East",
+      "station": "Westmount Ave / St Clair Ave W",
       "total_trips": 2,
       "year": 2021
     },
     {
       "end_trips": 2,
       "start_trips": 0,
-      "station": "Westmount Ave / St Clair Ave W",
+      "station": "555 Bloor St East",
       "total_trips": 2,
       "year": 2021
     },
@@ -23033,16 +23033,16 @@
       "year": 2022
     },
     {
-      "end_trips": 5114,
-      "start_trips": 4538,
-      "station": "Frederick St / The Esplanade",
+      "end_trips": 4744,
+      "start_trips": 4908,
+      "station": "Bloor St W / Brock Ave",
       "total_trips": 9652,
       "year": 2022
     },
     {
-      "end_trips": 4744,
-      "start_trips": 4908,
-      "station": "Bloor St W / Brock Ave",
+      "end_trips": 5114,
+      "start_trips": 4538,
+      "station": "Frederick St / The Esplanade",
       "total_trips": 9652,
       "year": 2022
     },
@@ -23628,16 +23628,16 @@
       "year": 2022
     },
     {
-      "end_trips": 3055,
-      "start_trips": 2921,
-      "station": "Mary McCormick Rec Centre (Sheridan Ave)",
+      "end_trips": 3007,
+      "start_trips": 2969,
+      "station": "Royal York Rd / Lake Shore Blvd W",
       "total_trips": 5976,
       "year": 2022
     },
     {
-      "end_trips": 3007,
-      "start_trips": 2969,
-      "station": "Royal York Rd / Lake Shore Blvd W",
+      "end_trips": 3055,
+      "start_trips": 2921,
+      "station": "Mary McCormick Rec Centre (Sheridan Ave)",
       "total_trips": 5976,
       "year": 2022
     },
@@ -24314,16 +24314,16 @@
       "year": 2022
     },
     {
-      "end_trips": 1266,
-      "start_trips": 1701,
-      "station": "Southwood Dr / Kingston Rd - SMART",
+      "end_trips": 1181,
+      "start_trips": 1786,
+      "station": "St Clair W Subway - Heath Entrance",
       "total_trips": 2967,
       "year": 2022
     },
     {
-      "end_trips": 1181,
-      "start_trips": 1786,
-      "station": "St Clair W Subway - Heath Entrance",
+      "end_trips": 1266,
+      "start_trips": 1701,
+      "station": "Southwood Dr / Kingston Rd - SMART",
       "total_trips": 2967,
       "year": 2022
     },
@@ -28367,16 +28367,16 @@
       "year": 2023
     },
     {
-      "end_trips": 1845,
-      "start_trips": 1817,
-      "station": "Humber College",
+      "end_trips": 1860,
+      "start_trips": 1802,
+      "station": "Kings Mill Park",
       "total_trips": 3662,
       "year": 2023
     },
     {
-      "end_trips": 1860,
-      "start_trips": 1802,
-      "station": "Kings Mill Park",
+      "end_trips": 1845,
+      "start_trips": 1817,
+      "station": "Humber College",
       "total_trips": 3662,
       "year": 2023
     },
@@ -28388,16 +28388,16 @@
       "year": 2023
     },
     {
-      "end_trips": 1806,
-      "start_trips": 1831,
-      "station": "Riverdale Park South (Broadview Ave)",
+      "end_trips": 1731,
+      "start_trips": 1906,
+      "station": "Symington Ave / Davenport Rd",
       "total_trips": 3637,
       "year": 2023
     },
     {
-      "end_trips": 1731,
-      "start_trips": 1906,
-      "station": "Symington Ave / Davenport Rd",
+      "end_trips": 1806,
+      "start_trips": 1831,
+      "station": "Riverdale Park South (Broadview Ave)",
       "total_trips": 3637,
       "year": 2023
     },
@@ -28815,16 +28815,16 @@
       "year": 2023
     },
     {
-      "end_trips": 1042,
-      "start_trips": 980,
-      "station": "Twelfth St / Thirteenth St",
+      "end_trips": 926,
+      "start_trips": 1096,
+      "station": "406 Oakwood Ave",
       "total_trips": 2022,
       "year": 2023
     },
     {
-      "end_trips": 926,
-      "start_trips": 1096,
-      "station": "406 Oakwood Ave",
+      "end_trips": 1042,
+      "start_trips": 980,
+      "station": "Twelfth St / Thirteenth St",
       "total_trips": 2022,
       "year": 2023
     },
@@ -29781,16 +29781,16 @@
       "year": 2024
     },
     {
-      "end_trips": 21572,
-      "start_trips": 21149,
-      "station": "Spadina Ave / Sullivan St",
+      "end_trips": 21684,
+      "start_trips": 21037,
+      "station": "Front St W / University Ave (2)",
       "total_trips": 42721,
       "year": 2024
     },
     {
-      "end_trips": 21684,
-      "start_trips": 21037,
-      "station": "Front St W / University Ave (2)",
+      "end_trips": 21572,
+      "start_trips": 21149,
+      "station": "Spadina Ave / Sullivan St",
       "total_trips": 42721,
       "year": 2024
     },
@@ -31944,16 +31944,16 @@
       "year": 2024
     },
     {
-      "end_trips": 6006,
-      "start_trips": 5938,
-      "station": "Summerhill Subway Station",
+      "end_trips": 6030,
+      "start_trips": 5914,
+      "station": "Riverdale Park South (Broadview Ave)",
       "total_trips": 11944,
       "year": 2024
     },
     {
-      "end_trips": 6030,
-      "start_trips": 5914,
-      "station": "Riverdale Park South (Broadview Ave)",
+      "end_trips": 6006,
+      "start_trips": 5938,
+      "station": "Summerhill Subway Station",
       "total_trips": 11944,
       "year": 2024
     },
@@ -33512,16 +33512,16 @@
       "year": 2024
     },
     {
-      "end_trips": 1527,
-      "start_trips": 1729,
-      "station": "Vaughan Rd /Wychwood Ave",
+      "end_trips": 1524,
+      "start_trips": 1732,
+      "station": "Chatham Ave / Byron Ave",
       "total_trips": 3256,
       "year": 2024
     },
     {
-      "end_trips": 1524,
-      "start_trips": 1732,
-      "station": "Chatham Ave / Byron Ave",
+      "end_trips": 1527,
+      "start_trips": 1729,
+      "station": "Vaughan Rd /Wychwood Ave",
       "total_trips": 3256,
       "year": 2024
     },
@@ -34058,16 +34058,16 @@
       "year": 2024
     },
     {
-      "end_trips": 963,
-      "start_trips": 931,
-      "station": "Starspray Blvd / Lawrence Ave E",
+      "end_trips": 841,
+      "start_trips": 1053,
+      "station": "Gerrard St E / Malvern Ave - SMART",
       "total_trips": 1894,
       "year": 2024
     },
     {
-      "end_trips": 841,
-      "start_trips": 1053,
-      "station": "Gerrard St E / Malvern Ave - SMART",
+      "end_trips": 963,
+      "start_trips": 931,
+      "station": "Starspray Blvd / Lawrence Ave E",
       "total_trips": 1894,
       "year": 2024
     },
@@ -34506,16 +34506,16 @@
       "year": 2024
     },
     {
-      "end_trips": 492,
-      "start_trips": 508,
-      "station": "Rogers Rd / Prospect Cemetery",
+      "end_trips": 501,
+      "start_trips": 499,
+      "station": "Eglinton Ave W / Venn Cres",
       "total_trips": 1000,
       "year": 2024
     },
     {
-      "end_trips": 501,
-      "start_trips": 499,
-      "station": "Eglinton Ave W / Venn Cres",
+      "end_trips": 492,
+      "start_trips": 508,
+      "station": "Rogers Rd / Prospect Cemetery",
       "total_trips": 1000,
       "year": 2024
     },
@@ -34527,16 +34527,16 @@
       "year": 2024
     },
     {
-      "end_trips": 525,
-      "start_trips": 449,
-      "station": "York Recreation Centre",
+      "end_trips": 480,
+      "start_trips": 494,
+      "station": "G Ross Lord Park",
       "total_trips": 974,
       "year": 2024
     },
     {
-      "end_trips": 480,
-      "start_trips": 494,
-      "station": "G Ross Lord Park",
+      "end_trips": 525,
+      "start_trips": 449,
+      "station": "York Recreation Centre",
       "total_trips": 974,
       "year": 2024
     },
@@ -34562,16 +34562,16 @@
       "year": 2024
     },
     {
-      "end_trips": 469,
-      "start_trips": 465,
-      "station": "Grenoble Dr / Vendome Pl",
+      "end_trips": 475,
+      "start_trips": 459,
+      "station": "Danforth Rd / Birchmount Rd",
       "total_trips": 934,
       "year": 2024
     },
     {
-      "end_trips": 475,
-      "start_trips": 459,
-      "station": "Danforth Rd / Birchmount Rd",
+      "end_trips": 469,
+      "start_trips": 465,
+      "station": "Grenoble Dr / Vendome Pl",
       "total_trips": 934,
       "year": 2024
     },
@@ -34730,16 +34730,16 @@
       "year": 2024
     },
     {
-      "end_trips": 369,
-      "start_trips": 350,
-      "station": "Victoria Park Ave / Edge Park Ave",
+      "end_trips": 357,
+      "start_trips": 362,
+      "station": "Scarborough Soccer Centre",
       "total_trips": 719,
       "year": 2024
     },
     {
-      "end_trips": 357,
-      "start_trips": 362,
-      "station": "Scarborough Soccer Centre",
+      "end_trips": 369,
+      "start_trips": 350,
+      "station": "Victoria Park Ave / Edge Park Ave",
       "total_trips": 719,
       "year": 2024
     },
@@ -34842,16 +34842,16 @@
       "year": 2024
     },
     {
-      "end_trips": 302,
-      "start_trips": 290,
-      "station": "Willowdale Ave / Bishop Ave",
+      "end_trips": 312,
+      "start_trips": 280,
+      "station": "Queen St W / Close Ave",
       "total_trips": 592,
       "year": 2024
     },
     {
-      "end_trips": 312,
-      "start_trips": 280,
-      "station": "Queen St W / Close Ave",
+      "end_trips": 302,
+      "start_trips": 290,
+      "station": "Willowdale Ave / Bishop Ave",
       "total_trips": 592,
       "year": 2024
     },
@@ -35381,16 +35381,16 @@
       "year": 2024
     },
     {
-      "end_trips": 1,
-      "start_trips": 2,
-      "station": "16 Riverview Gardens",
+      "end_trips": 2,
+      "start_trips": 1,
+      "station": "Brookdale Ave / Yonge St",
       "total_trips": 3,
       "year": 2024
     },
     {
-      "end_trips": 2,
-      "start_trips": 1,
-      "station": "Brookdale Ave / Yonge St",
+      "end_trips": 1,
+      "start_trips": 2,
+      "station": "16 Riverview Gardens",
       "total_trips": 3,
       "year": 2024
     },
@@ -38860,16 +38860,16 @@
       "year": 2025
     },
     {
-      "end_trips": 4268,
-      "start_trips": 4227,
-      "station": "Kewbeach Ave / Kenilworth Ave",
+      "end_trips": 4242,
+      "start_trips": 4253,
+      "station": "High Park - Grenadier Cafe",
       "total_trips": 8495,
       "year": 2025
     },
     {
-      "end_trips": 4242,
-      "start_trips": 4253,
-      "station": "High Park - Grenadier Cafe",
+      "end_trips": 4268,
+      "start_trips": 4227,
+      "station": "Kewbeach Ave / Kenilworth Ave",
       "total_trips": 8495,
       "year": 2025
     },
@@ -40071,16 +40071,16 @@
       "year": 2025
     },
     {
-      "end_trips": 1600,
-      "start_trips": 1586,
-      "station": "Moore Park",
+      "end_trips": 1599,
+      "start_trips": 1587,
+      "station": "Willingdon Blvd / Bloor St W (Green P)",
       "total_trips": 3186,
       "year": 2025
     },
     {
-      "end_trips": 1599,
-      "start_trips": 1587,
-      "station": "Willingdon Blvd / Bloor St W (Green P)",
+      "end_trips": 1600,
+      "start_trips": 1586,
+      "station": "Moore Park",
       "total_trips": 3186,
       "year": 2025
     },
@@ -40652,16 +40652,16 @@
       "year": 2025
     },
     {
-      "end_trips": 853,
-      "start_trips": 1094,
-      "station": "697 Lansdowne Ave",
+      "end_trips": 1013,
+      "start_trips": 934,
+      "station": "25 York St _ Union Station South",
       "total_trips": 1947,
       "year": 2025
     },
     {
-      "end_trips": 1013,
-      "start_trips": 934,
-      "station": "25 York St _ Union Station South",
+      "end_trips": 853,
+      "start_trips": 1094,
+      "station": "697 Lansdowne Ave",
       "total_trips": 1947,
       "year": 2025
     },
@@ -40785,16 +40785,16 @@
       "year": 2025
     },
     {
-      "end_trips": 860,
-      "start_trips": 890,
-      "station": "Dundas St E / Pembroke St",
+      "end_trips": 876,
+      "start_trips": 874,
+      "station": "Bloor St W / Riverside Dr",
       "total_trips": 1750,
       "year": 2025
     },
     {
-      "end_trips": 876,
-      "start_trips": 874,
-      "station": "Bloor St W / Riverside Dr",
+      "end_trips": 860,
+      "start_trips": 890,
+      "station": "Dundas St E / Pembroke St",
       "total_trips": 1750,
       "year": 2025
     },
@@ -41149,16 +41149,16 @@
       "year": 2025
     },
     {
-      "end_trips": 563,
-      "start_trips": 561,
-      "station": "Scarlett Rd / Eileen Ave",
+      "end_trips": 606,
+      "start_trips": 518,
+      "station": "Ossington Ave / Bloor St W",
       "total_trips": 1124,
       "year": 2025
     },
     {
-      "end_trips": 606,
-      "start_trips": 518,
-      "station": "Ossington Ave / Bloor St W",
+      "end_trips": 563,
+      "start_trips": 561,
+      "station": "Scarlett Rd / Eileen Ave",
       "total_trips": 1124,
       "year": 2025
     },
@@ -41389,14 +41389,14 @@
     {
       "end_trips": 452,
       "start_trips": 447,
-      "station": "Ruddington Dr / Finch Recreational Trail",
+      "station": "Alameda Ave / Vaughan Rd - SMART",
       "total_trips": 899,
       "year": 2025
     },
     {
       "end_trips": 452,
       "start_trips": 447,
-      "station": "Alameda Ave / Vaughan Rd - SMART",
+      "station": "Ruddington Dr / Finch Recreational Trail",
       "total_trips": 899,
       "year": 2025
     },
@@ -41492,16 +41492,16 @@
       "year": 2025
     },
     {
-      "end_trips": 406,
-      "start_trips": 403,
-      "station": "Eglinton Ave E / Victoria Park Ave",
+      "end_trips": 410,
+      "start_trips": 399,
+      "station": "Caledonia Rd / Lotherton Pathway",
       "total_trips": 809,
       "year": 2025
     },
     {
-      "end_trips": 410,
-      "start_trips": 399,
-      "station": "Caledonia Rd / Lotherton Pathway",
+      "end_trips": 406,
+      "start_trips": 403,
+      "station": "Eglinton Ave E / Victoria Park Ave",
       "total_trips": 809,
       "year": 2025
     },
@@ -41765,16 +41765,16 @@
       "year": 2025
     },
     {
-      "end_trips": 299,
-      "start_trips": 297,
-      "station": "Brimley Rd / McCowan District Park",
+      "end_trips": 298,
+      "start_trips": 298,
+      "station": "Fenwood Ht / Kingston Rd",
       "total_trips": 596,
       "year": 2025
     },
     {
-      "end_trips": 298,
-      "start_trips": 298,
-      "station": "Fenwood Ht / Kingston Rd",
+      "end_trips": 299,
+      "start_trips": 297,
+      "station": "Brimley Rd / McCowan District Park",
       "total_trips": 596,
       "year": 2025
     },
@@ -41984,14 +41984,14 @@
     {
       "end_trips": 225,
       "start_trips": 222,
-      "station": "Gilder Dr / Midland Ave",
+      "station": "Leslie St / Commissioners St",
       "total_trips": 447,
       "year": 2025
     },
     {
       "end_trips": 225,
       "start_trips": 222,
-      "station": "Leslie St / Commissioners St",
+      "station": "Gilder Dr / Midland Ave",
       "total_trips": 447,
       "year": 2025
     },
@@ -42122,16 +42122,16 @@
       "year": 2025
     },
     {
-      "end_trips": 281,
-      "start_trips": 75,
-      "station": "Wellington St E / Church St",
+      "end_trips": 179,
+      "start_trips": 177,
+      "station": "Aurora Ct / Bridletowne Cir",
       "total_trips": 356,
       "year": 2025
     },
     {
-      "end_trips": 179,
-      "start_trips": 177,
-      "station": "Aurora Ct / Bridletowne Cir",
+      "end_trips": 281,
+      "start_trips": 75,
+      "station": "Wellington St E / Church St",
       "total_trips": 356,
       "year": 2025
     },
@@ -42199,9 +42199,9 @@
       "year": 2025
     },
     {
-      "end_trips": 172,
-      "start_trips": 149,
-      "station": "Yonge St / Lake Shore Blvd E",
+      "end_trips": 162,
+      "start_trips": 159,
+      "station": "Jane St / Queens Dr",
       "total_trips": 321,
       "year": 2025
     },
@@ -42213,16 +42213,16 @@
       "year": 2025
     },
     {
-      "end_trips": 161,
-      "start_trips": 160,
-      "station": "Bellamy Rd N / The Meadoway",
+      "end_trips": 172,
+      "start_trips": 149,
+      "station": "Yonge St / Lake Shore Blvd E",
       "total_trips": 321,
       "year": 2025
     },
     {
-      "end_trips": 162,
-      "start_trips": 159,
-      "station": "Jane St / Queens Dr",
+      "end_trips": 161,
+      "start_trips": 160,
+      "station": "Bellamy Rd N / The Meadoway",
       "total_trips": 321,
       "year": 2025
     },
@@ -42367,16 +42367,16 @@
       "year": 2025
     },
     {
-      "end_trips": 119,
-      "start_trips": 119,
-      "station": "Humber College Blvd / Arboretum Blvd",
+      "end_trips": 127,
+      "start_trips": 111,
+      "station": "Simcoe St / Adelaide St W",
       "total_trips": 238,
       "year": 2025
     },
     {
-      "end_trips": 127,
-      "start_trips": 111,
-      "station": "Simcoe St / Adelaide St W",
+      "end_trips": 119,
+      "start_trips": 119,
+      "station": "Humber College Blvd / Arboretum Blvd",
       "total_trips": 238,
       "year": 2025
     },
@@ -42537,14 +42537,14 @@
     {
       "end_trips": 75,
       "start_trips": 75,
-      "station": "Galloway Rd / Kingston Rd ",
+      "station": "Kingston Rd / Scarborough Golf Club Rd",
       "total_trips": 150,
       "year": 2025
     },
     {
       "end_trips": 75,
       "start_trips": 75,
-      "station": "Kingston Rd / Scarborough Golf Club Rd",
+      "station": "Galloway Rd / Kingston Rd ",
       "total_trips": 150,
       "year": 2025
     },
@@ -42698,6 +42698,13 @@
     {
       "end_trips": 52,
       "start_trips": 52,
+      "station": "Albion Rd / Finch Ave W",
+      "total_trips": 104,
+      "year": 2025
+    },
+    {
+      "end_trips": 52,
+      "start_trips": 52,
       "station": "Westmore Dr / Finch Ave W",
       "total_trips": 104,
       "year": 2025
@@ -42706,13 +42713,6 @@
       "end_trips": 52,
       "start_trips": 52,
       "station": "Yonge St / Macpherson Ave",
-      "total_trips": 104,
-      "year": 2025
-    },
-    {
-      "end_trips": 52,
-      "start_trips": 52,
-      "station": "Albion Rd / Finch Ave W",
       "total_trips": 104,
       "year": 2025
     },
@@ -42745,16 +42745,16 @@
       "year": 2025
     },
     {
-      "end_trips": 45,
-      "start_trips": 45,
-      "station": "Jane St / Sheppard Ave W",
+      "end_trips": 44,
+      "start_trips": 46,
+      "station": "Pitfield Rd / McCowan Rd",
       "total_trips": 90,
       "year": 2025
     },
     {
-      "end_trips": 44,
-      "start_trips": 46,
-      "station": "Pitfield Rd / McCowan Rd",
+      "end_trips": 45,
+      "start_trips": 45,
+      "station": "Jane St / Sheppard Ave W",
       "total_trips": 90,
       "year": 2025
     },
@@ -42955,16 +42955,23 @@
       "year": 2025
     },
     {
-      "end_trips": 6,
-      "start_trips": 8,
-      "station": "Silverstone Dr / Stevenson Rd",
+      "end_trips": 7,
+      "start_trips": 7,
+      "station": "Eglinton Ave E / Swift Dr",
       "total_trips": 14,
       "year": 2025
     },
     {
       "end_trips": 7,
       "start_trips": 7,
-      "station": "Eglinton Ave E / Swift Dr",
+      "station": "Galloway Rd / Kingston Rd",
+      "total_trips": 14,
+      "year": 2025
+    },
+    {
+      "end_trips": 6,
+      "start_trips": 8,
+      "station": "Silverstone Dr / Stevenson Rd",
       "total_trips": 14,
       "year": 2025
     },
@@ -42979,13 +42986,6 @@
       "end_trips": 9,
       "start_trips": 5,
       "station": "Markham Rd / The Meadoway",
-      "total_trips": 14,
-      "year": 2025
-    },
-    {
-      "end_trips": 7,
-      "start_trips": 7,
-      "station": "Galloway Rd / Kingston Rd",
       "total_trips": 14,
       "year": 2025
     },
@@ -43076,13 +43076,6 @@
     {
       "end_trips": 2,
       "start_trips": 2,
-      "station": "95 Beecroft Rd",
-      "total_trips": 4,
-      "year": 2025
-    },
-    {
-      "end_trips": 2,
-      "start_trips": 2,
       "station": "Mallaby Park",
       "total_trips": 4,
       "year": 2025
@@ -43091,6 +43084,13 @@
       "end_trips": 2,
       "start_trips": 2,
       "station": "Livonia Pl / Neilson Rd",
+      "total_trips": 4,
+      "year": 2025
+    },
+    {
+      "end_trips": 2,
+      "start_trips": 2,
+      "station": "95 Beecroft Rd",
       "total_trips": 4,
       "year": 2025
     },
@@ -43106,13 +43106,6 @@
       "start_trips": 2,
       "station": "McCowan Rd / Brimorton Dr",
       "total_trips": 3,
-      "year": 2025
-    },
-    {
-      "end_trips": 1,
-      "start_trips": 1,
-      "station": "Toronto Public Library - Bendale",
-      "total_trips": 2,
       "year": 2025
     },
     {
@@ -43140,6 +43133,13 @@
       "end_trips": 1,
       "start_trips": 1,
       "station": "Lawrence Ave E / Orton Park Rd",
+      "total_trips": 2,
+      "year": 2025
+    },
+    {
+      "end_trips": 1,
+      "start_trips": 1,
+      "station": "Toronto Public Library - Bendale",
       "total_trips": 2,
       "year": 2025
     },
@@ -43284,16 +43284,16 @@
       "year": 2026
     },
     {
-      "end_trips": 2698,
-      "start_trips": 2697,
-      "station": "College Park - Yonge St Entrance",
+      "end_trips": 2867,
+      "start_trips": 2528,
+      "station": "York St / Queens Quay W",
       "total_trips": 5395,
       "year": 2026
     },
     {
-      "end_trips": 2867,
-      "start_trips": 2528,
-      "station": "York St / Queens Quay W",
+      "end_trips": 2698,
+      "start_trips": 2697,
+      "station": "College Park - Yonge St Entrance",
       "total_trips": 5395,
       "year": 2026
     },
@@ -44180,16 +44180,16 @@
       "year": 2026
     },
     {
-      "end_trips": 1386,
-      "start_trips": 1254,
-      "station": "Elm St/ University Ave (East Side)",
+      "end_trips": 1321,
+      "start_trips": 1319,
+      "station": "80 Clinton St",
       "total_trips": 2640,
       "year": 2026
     },
     {
-      "end_trips": 1321,
-      "start_trips": 1319,
-      "station": "80 Clinton St",
+      "end_trips": 1386,
+      "start_trips": 1254,
+      "station": "Elm St/ University Ave (East Side)",
       "total_trips": 2640,
       "year": 2026
     },
@@ -44404,16 +44404,16 @@
       "year": 2026
     },
     {
-      "end_trips": 1170,
-      "start_trips": 1074,
-      "station": "Queen St W / Ossington Ave",
+      "end_trips": 1278,
+      "start_trips": 966,
+      "station": "Front St W / Yonge St (Hockey Hall of Fame)",
       "total_trips": 2244,
       "year": 2026
     },
     {
-      "end_trips": 1278,
-      "start_trips": 966,
-      "station": "Front St W / Yonge St (Hockey Hall of Fame)",
+      "end_trips": 1170,
+      "start_trips": 1074,
+      "station": "Queen St W / Ossington Ave",
       "total_trips": 2244,
       "year": 2026
     },
@@ -44775,16 +44775,16 @@
       "year": 2026
     },
     {
-      "end_trips": 873,
-      "start_trips": 883,
-      "station": "Bloor St W / Christie St",
+      "end_trips": 884,
+      "start_trips": 872,
+      "station": "York St / Queen St W (City Hall)",
       "total_trips": 1756,
       "year": 2026
     },
     {
-      "end_trips": 884,
-      "start_trips": 872,
-      "station": "York St / Queen St W (City Hall)",
+      "end_trips": 873,
+      "start_trips": 883,
+      "station": "Bloor St W / Christie St",
       "total_trips": 1756,
       "year": 2026
     },
@@ -45188,16 +45188,16 @@
       "year": 2026
     },
     {
-      "end_trips": 775,
-      "start_trips": 667,
-      "station": "Mill St / Tannery Rd",
+      "end_trips": 726,
+      "start_trips": 716,
+      "station": "Niagara St / Portland St",
       "total_trips": 1442,
       "year": 2026
     },
     {
-      "end_trips": 726,
-      "start_trips": 716,
-      "station": "Niagara St / Portland St",
+      "end_trips": 775,
+      "start_trips": 667,
+      "station": "Mill St / Tannery Rd",
       "total_trips": 1442,
       "year": 2026
     },
@@ -45286,16 +45286,16 @@
       "year": 2026
     },
     {
-      "end_trips": 680,
-      "start_trips": 683,
-      "station": "Dan Leckie Way / Fort York Blvd",
+      "end_trips": 669,
+      "start_trips": 694,
+      "station": "Tommy Thompson Park (Leslie Street Spit)",
       "total_trips": 1363,
       "year": 2026
     },
     {
-      "end_trips": 669,
-      "start_trips": 694,
-      "station": "Tommy Thompson Park (Leslie Street Spit)",
+      "end_trips": 680,
+      "start_trips": 683,
+      "station": "Dan Leckie Way / Fort York Blvd",
       "total_trips": 1363,
       "year": 2026
     },
@@ -45419,16 +45419,16 @@
       "year": 2026
     },
     {
-      "end_trips": 619,
-      "start_trips": 581,
-      "station": "Bay St / Harbour St",
+      "end_trips": 691,
+      "start_trips": 509,
+      "station": "Thompson St / Broadview Ave - SMART",
       "total_trips": 1200,
       "year": 2026
     },
     {
-      "end_trips": 691,
-      "start_trips": 509,
-      "station": "Thompson St / Broadview Ave - SMART",
+      "end_trips": 619,
+      "start_trips": 581,
+      "station": "Bay St / Harbour St",
       "total_trips": 1200,
       "year": 2026
     },
@@ -45622,16 +45622,16 @@
       "year": 2026
     },
     {
-      "end_trips": 496,
-      "start_trips": 492,
-      "station": "Christie St / Dupont St",
+      "end_trips": 485,
+      "start_trips": 503,
+      "station": "Danforth Ave / Ellerbeck St",
       "total_trips": 988,
       "year": 2026
     },
     {
-      "end_trips": 485,
-      "start_trips": 503,
-      "station": "Danforth Ave / Ellerbeck St",
+      "end_trips": 496,
+      "start_trips": 492,
+      "station": "Christie St / Dupont St",
       "total_trips": 988,
       "year": 2026
     },
@@ -45643,16 +45643,16 @@
       "year": 2026
     },
     {
-      "end_trips": 513,
-      "start_trips": 459,
-      "station": "Simcoe St / Wellington St W (North)",
+      "end_trips": 496,
+      "start_trips": 476,
+      "station": "Concord Ave / Dewson St",
       "total_trips": 972,
       "year": 2026
     },
     {
-      "end_trips": 496,
-      "start_trips": 476,
-      "station": "Concord Ave / Dewson St",
+      "end_trips": 513,
+      "start_trips": 459,
+      "station": "Simcoe St / Wellington St W (North)",
       "total_trips": 972,
       "year": 2026
     },
@@ -45692,16 +45692,16 @@
       "year": 2026
     },
     {
-      "end_trips": 472,
-      "start_trips": 468,
-      "station": "Dundas St W / Edna Ave",
+      "end_trips": 452,
+      "start_trips": 488,
+      "station": "11 Spadina Rd",
       "total_trips": 940,
       "year": 2026
     },
     {
-      "end_trips": 452,
-      "start_trips": 488,
-      "station": "11 Spadina Rd",
+      "end_trips": 472,
+      "start_trips": 468,
+      "station": "Dundas St W / Edna Ave",
       "total_trips": 940,
       "year": 2026
     },
@@ -45755,16 +45755,16 @@
       "year": 2026
     },
     {
-      "end_trips": 455,
-      "start_trips": 452,
-      "station": "Riverdale Park South (Broadview Ave)",
+      "end_trips": 498,
+      "start_trips": 409,
+      "station": "Queen St E / Rushbrooke Ave",
       "total_trips": 907,
       "year": 2026
     },
     {
-      "end_trips": 498,
-      "start_trips": 409,
-      "station": "Queen St E / Rushbrooke Ave",
+      "end_trips": 455,
+      "start_trips": 452,
+      "station": "Riverdale Park South (Broadview Ave)",
       "total_trips": 907,
       "year": 2026
     },
@@ -45797,16 +45797,16 @@
       "year": 2026
     },
     {
-      "end_trips": 416,
-      "start_trips": 465,
-      "station": "Kendal Ave / Bernard Ave",
+      "end_trips": 441,
+      "start_trips": 440,
+      "station": "Richmond St E / Yonge St (2)",
       "total_trips": 881,
       "year": 2026
     },
     {
-      "end_trips": 441,
-      "start_trips": 440,
-      "station": "Richmond St E / Yonge St (2)",
+      "end_trips": 416,
+      "start_trips": 465,
+      "station": "Kendal Ave / Bernard Ave",
       "total_trips": 881,
       "year": 2026
     },
@@ -45867,16 +45867,16 @@
       "year": 2026
     },
     {
-      "end_trips": 426,
-      "start_trips": 422,
-      "station": "Bloor St W / Brock Ave",
+      "end_trips": 433,
+      "start_trips": 415,
+      "station": "Queen St W  /  Fuller Ave - SMART",
       "total_trips": 848,
       "year": 2026
     },
     {
-      "end_trips": 433,
-      "start_trips": 415,
-      "station": "Queen St W  /  Fuller Ave - SMART",
+      "end_trips": 426,
+      "start_trips": 422,
+      "station": "Bloor St W / Brock Ave",
       "total_trips": 848,
       "year": 2026
     },
@@ -46408,13 +46408,6 @@
     {
       "end_trips": 269,
       "start_trips": 276,
-      "station": "Lake Shore Blvd W / Ontario Dr",
-      "total_trips": 545,
-      "year": 2026
-    },
-    {
-      "end_trips": 269,
-      "start_trips": 276,
       "station": "Lake Shore Blvd W / The Boulevard Club",
       "total_trips": 545,
       "year": 2026
@@ -46423,6 +46416,13 @@
       "end_trips": 278,
       "start_trips": 267,
       "station": "St Clarens Ave / Shirley St",
+      "total_trips": 545,
+      "year": 2026
+    },
+    {
+      "end_trips": 269,
+      "start_trips": 276,
+      "station": "Lake Shore Blvd W / Ontario Dr",
       "total_trips": 545,
       "year": 2026
     },
@@ -46749,16 +46749,16 @@
       "year": 2026
     },
     {
-      "end_trips": 207,
-      "start_trips": 171,
-      "station": "Commissioners St / Bouchette St",
+      "end_trips": 191,
+      "start_trips": 187,
+      "station": "Cariboo Ave / Railpath Trail",
       "total_trips": 378,
       "year": 2026
     },
     {
-      "end_trips": 191,
-      "start_trips": 187,
-      "station": "Cariboo Ave / Railpath Trail",
+      "end_trips": 207,
+      "start_trips": 171,
+      "station": "Commissioners St / Bouchette St",
       "total_trips": 378,
       "year": 2026
     },
@@ -46777,16 +46777,16 @@
       "year": 2026
     },
     {
-      "end_trips": 141,
-      "start_trips": 225,
-      "station": "Christie St / Benson Ave (Wychwood Barns)",
+      "end_trips": 188,
+      "start_trips": 178,
+      "station": "George St S / The Esplanade",
       "total_trips": 366,
       "year": 2026
     },
     {
-      "end_trips": 188,
-      "start_trips": 178,
-      "station": "George St S / The Esplanade",
+      "end_trips": 141,
+      "start_trips": 225,
+      "station": "Christie St / Benson Ave (Wychwood Barns)",
       "total_trips": 366,
       "year": 2026
     },
@@ -46819,16 +46819,16 @@
       "year": 2026
     },
     {
-      "end_trips": 167,
-      "start_trips": 187,
-      "station": "Sunnybrook Health Centre - S Wing",
+      "end_trips": 183,
+      "start_trips": 171,
+      "station": "King St W / Fraser Ave",
       "total_trips": 354,
       "year": 2026
     },
     {
-      "end_trips": 183,
-      "start_trips": 171,
-      "station": "King St W / Fraser Ave",
+      "end_trips": 167,
+      "start_trips": 187,
+      "station": "Sunnybrook Health Centre - S Wing",
       "total_trips": 354,
       "year": 2026
     },
@@ -46875,16 +46875,16 @@
       "year": 2026
     },
     {
-      "end_trips": 147,
-      "start_trips": 189,
-      "station": "Amroth Ave / Danforth Ave",
+      "end_trips": 137,
+      "start_trips": 199,
+      "station": "St. Clair Ave W / Robina Ave",
       "total_trips": 336,
       "year": 2026
     },
     {
-      "end_trips": 137,
-      "start_trips": 199,
-      "station": "St. Clair Ave W / Robina Ave",
+      "end_trips": 147,
+      "start_trips": 189,
+      "station": "Amroth Ave / Danforth Ave",
       "total_trips": 336,
       "year": 2026
     },
@@ -46912,14 +46912,14 @@
     {
       "end_trips": 168,
       "start_trips": 164,
-      "station": "Queen St. E / Eastern Ave",
+      "station": "1926 Lake Shore Blvd W",
       "total_trips": 332,
       "year": 2026
     },
     {
       "end_trips": 168,
       "start_trips": 164,
-      "station": "1926 Lake Shore Blvd W",
+      "station": "Queen St. E / Eastern Ave",
       "total_trips": 332,
       "year": 2026
     },
@@ -46959,16 +46959,16 @@
       "year": 2026
     },
     {
-      "end_trips": 156,
-      "start_trips": 157,
-      "station": "Danforth Ave / Aldridge Ave",
+      "end_trips": 137,
+      "start_trips": 176,
+      "station": "Lascelles Blvd / Eglinton Ave W",
       "total_trips": 313,
       "year": 2026
     },
     {
-      "end_trips": 137,
-      "start_trips": 176,
-      "station": "Lascelles Blvd / Eglinton Ave W",
+      "end_trips": 156,
+      "start_trips": 157,
+      "station": "Danforth Ave / Aldridge Ave",
       "total_trips": 313,
       "year": 2026
     },
@@ -46980,16 +46980,16 @@
       "year": 2026
     },
     {
-      "end_trips": 149,
-      "start_trips": 159,
-      "station": "Frobisher Ave / Lascelles Blvd",
+      "end_trips": 170,
+      "start_trips": 138,
+      "station": "Fairmount Park",
       "total_trips": 308,
       "year": 2026
     },
     {
-      "end_trips": 170,
-      "start_trips": 138,
-      "station": "Fairmount Park",
+      "end_trips": 149,
+      "start_trips": 159,
+      "station": "Frobisher Ave / Lascelles Blvd",
       "total_trips": 308,
       "year": 2026
     },
@@ -47015,9 +47015,9 @@
       "year": 2026
     },
     {
-      "end_trips": 149,
-      "start_trips": 144,
-      "station": "Runnymede Rd / Annette St",
+      "end_trips": 141,
+      "start_trips": 152,
+      "station": "Hocken Ave / Vaughan Rd",
       "total_trips": 293,
       "year": 2026
     },
@@ -47029,9 +47029,9 @@
       "year": 2026
     },
     {
-      "end_trips": 141,
-      "start_trips": 152,
-      "station": "Hocken Ave / Vaughan Rd",
+      "end_trips": 149,
+      "start_trips": 144,
+      "station": "Runnymede Rd / Annette St",
       "total_trips": 293,
       "year": 2026
     },
@@ -47064,16 +47064,16 @@
       "year": 2026
     },
     {
-      "end_trips": 131,
-      "start_trips": 144,
-      "station": "Wychwood Ave / Benson Ave - SMART",
+      "end_trips": 138,
+      "start_trips": 137,
+      "station": "Strachan Ave / Princes' Blvd",
       "total_trips": 275,
       "year": 2026
     },
     {
-      "end_trips": 138,
-      "start_trips": 137,
-      "station": "Strachan Ave / Princes' Blvd",
+      "end_trips": 131,
+      "start_trips": 144,
+      "station": "Wychwood Ave / Benson Ave - SMART",
       "total_trips": 275,
       "year": 2026
     },
@@ -47085,13 +47085,6 @@
       "year": 2026
     },
     {
-      "end_trips": 137,
-      "start_trips": 136,
-      "station": "Summerhill Ave / Maclennan Ave",
-      "total_trips": 273,
-      "year": 2026
-    },
-    {
       "end_trips": 120,
       "start_trips": 153,
       "station": "Bloor St W / High Park Ave (High Park)",
@@ -47099,16 +47092,23 @@
       "year": 2026
     },
     {
-      "end_trips": 135,
+      "end_trips": 137,
       "start_trips": 136,
-      "station": "Southwood Dr / Kingston Rd - SMART",
-      "total_trips": 271,
+      "station": "Summerhill Ave / Maclennan Ave",
+      "total_trips": 273,
       "year": 2026
     },
     {
       "end_trips": 170,
       "start_trips": 101,
       "station": "85 Lee Ave",
+      "total_trips": 271,
+      "year": 2026
+    },
+    {
+      "end_trips": 135,
+      "start_trips": 136,
+      "station": "Southwood Dr / Kingston Rd - SMART",
       "total_trips": 271,
       "year": 2026
     },
@@ -47148,16 +47148,16 @@
       "year": 2026
     },
     {
-      "end_trips": 127,
-      "start_trips": 122,
-      "station": "Annette St / Jane St",
+      "end_trips": 126,
+      "start_trips": 123,
+      "station": "High Park Ave / Dundas St W",
       "total_trips": 249,
       "year": 2026
     },
     {
-      "end_trips": 126,
-      "start_trips": 123,
-      "station": "High Park Ave / Dundas St W",
+      "end_trips": 127,
+      "start_trips": 122,
+      "station": "Annette St / Jane St",
       "total_trips": 249,
       "year": 2026
     },
@@ -47337,16 +47337,16 @@
       "year": 2026
     },
     {
-      "end_trips": 103,
-      "start_trips": 93,
-      "station": "Memorial Park Ave / Kimbourne Ave",
+      "end_trips": 95,
+      "start_trips": 101,
+      "station": "36 Park Lawn Rd",
       "total_trips": 196,
       "year": 2026
     },
     {
-      "end_trips": 95,
-      "start_trips": 101,
-      "station": "36 Park Lawn Rd",
+      "end_trips": 103,
+      "start_trips": 93,
+      "station": "Memorial Park Ave / Kimbourne Ave",
       "total_trips": 196,
       "year": 2026
     },
@@ -47507,14 +47507,14 @@
     {
       "end_trips": 80,
       "start_trips": 84,
-      "station": "Ellis Ave / The Queensway",
+      "station": "Blythwood Rd / Yonge St - SMART",
       "total_trips": 164,
       "year": 2026
     },
     {
       "end_trips": 80,
       "start_trips": 84,
-      "station": "Blythwood Rd / Yonge St - SMART",
+      "station": "Ellis Ave / The Queensway",
       "total_trips": 164,
       "year": 2026
     },
@@ -47561,16 +47561,16 @@
       "year": 2026
     },
     {
-      "end_trips": 80,
-      "start_trips": 74,
-      "station": "Braemar Ave / Eglinton Ave W",
+      "end_trips": 78,
+      "start_trips": 76,
+      "station": "Primrose Ave / Davenport Rd",
       "total_trips": 154,
       "year": 2026
     },
     {
-      "end_trips": 78,
-      "start_trips": 76,
-      "station": "Primrose Ave / Davenport Rd",
+      "end_trips": 80,
+      "start_trips": 74,
+      "station": "Braemar Ave / Eglinton Ave W",
       "total_trips": 154,
       "year": 2026
     },
@@ -47596,16 +47596,16 @@
       "year": 2026
     },
     {
-      "end_trips": 76,
-      "start_trips": 74,
-      "station": "Lansdowne Ave / Dupont St",
+      "end_trips": 78,
+      "start_trips": 72,
+      "station": "Briar Hill Ave / Yonge St - SMART",
       "total_trips": 150,
       "year": 2026
     },
     {
-      "end_trips": 78,
-      "start_trips": 72,
-      "station": "Briar Hill Ave / Yonge St - SMART",
+      "end_trips": 76,
+      "start_trips": 74,
+      "station": "Lansdowne Ave / Dupont St",
       "total_trips": 150,
       "year": 2026
     },
@@ -47652,6 +47652,13 @@
       "year": 2026
     },
     {
+      "end_trips": 67,
+      "start_trips": 69,
+      "station": "Dunn Ave / Queen St W",
+      "total_trips": 136,
+      "year": 2026
+    },
+    {
       "end_trips": 68,
       "start_trips": 68,
       "station": "Victoria Park Ave / Kingston Rd",
@@ -47663,20 +47670,6 @@
       "start_trips": 66,
       "station": "165 McRae Dr",
       "total_trips": 136,
-      "year": 2026
-    },
-    {
-      "end_trips": 67,
-      "start_trips": 69,
-      "station": "Dunn Ave / Queen St W",
-      "total_trips": 136,
-      "year": 2026
-    },
-    {
-      "end_trips": 73,
-      "start_trips": 62,
-      "station": "Royal York Rd / Lake Shore Blvd W",
-      "total_trips": 135,
       "year": 2026
     },
     {
@@ -47701,6 +47694,13 @@
       "year": 2026
     },
     {
+      "end_trips": 72,
+      "start_trips": 63,
+      "station": "Second St / Lake Shore Blvd W",
+      "total_trips": 135,
+      "year": 2026
+    },
+    {
       "end_trips": 66,
       "start_trips": 69,
       "station": "Sterling Rd / Dundas St W",
@@ -47708,9 +47708,9 @@
       "year": 2026
     },
     {
-      "end_trips": 72,
-      "start_trips": 63,
-      "station": "Second St / Lake Shore Blvd W",
+      "end_trips": 73,
+      "start_trips": 62,
+      "station": "Royal York Rd / Lake Shore Blvd W",
       "total_trips": 135,
       "year": 2026
     },
@@ -47750,16 +47750,16 @@
       "year": 2026
     },
     {
-      "end_trips": 64,
-      "start_trips": 60,
-      "station": "Moore Park",
+      "end_trips": 62,
+      "start_trips": 62,
+      "station": "Willingdon Blvd / Bloor St W (Green P)",
       "total_trips": 124,
       "year": 2026
     },
     {
-      "end_trips": 62,
-      "start_trips": 62,
-      "station": "Willingdon Blvd / Bloor St W (Green P)",
+      "end_trips": 64,
+      "start_trips": 60,
+      "station": "Moore Park",
       "total_trips": 124,
       "year": 2026
     },
@@ -47771,9 +47771,9 @@
       "year": 2026
     },
     {
-      "end_trips": 60,
-      "start_trips": 63,
-      "station": "Beltline Trail / Chaplin Cres",
+      "end_trips": 59,
+      "start_trips": 64,
+      "station": "24 Mountjoy Ave",
       "total_trips": 123,
       "year": 2026
     },
@@ -47785,9 +47785,9 @@
       "year": 2026
     },
     {
-      "end_trips": 59,
-      "start_trips": 64,
-      "station": "24 Mountjoy Ave",
+      "end_trips": 60,
+      "start_trips": 63,
+      "station": "Beltline Trail / Chaplin Cres",
       "total_trips": 123,
       "year": 2026
     },
@@ -47820,16 +47820,16 @@
       "year": 2026
     },
     {
-      "end_trips": 64,
-      "start_trips": 53,
-      "station": "Gateway Blvd (South) / Don Mills Rd",
+      "end_trips": 57,
+      "start_trips": 60,
+      "station": "The Pond Rd / Sentinel Rd",
       "total_trips": 117,
       "year": 2026
     },
     {
-      "end_trips": 57,
-      "start_trips": 60,
-      "station": "The Pond Rd / Sentinel Rd",
+      "end_trips": 64,
+      "start_trips": 53,
+      "station": "Gateway Blvd (South) / Don Mills Rd",
       "total_trips": 117,
       "year": 2026
     },
@@ -47855,13 +47855,6 @@
       "year": 2026
     },
     {
-      "end_trips": 58,
-      "start_trips": 55,
-      "station": "Chiltern Hill Rd / Eglinton Ave W",
-      "total_trips": 113,
-      "year": 2026
-    },
-    {
       "end_trips": 56,
       "start_trips": 57,
       "station": "Howard Park Ave / Parkside Dr",
@@ -47869,16 +47862,23 @@
       "year": 2026
     },
     {
-      "end_trips": 56,
-      "start_trips": 56,
-      "station": "Cosburn Ave / Cedarvale Ave",
-      "total_trips": 112,
+      "end_trips": 58,
+      "start_trips": 55,
+      "station": "Chiltern Hill Rd / Eglinton Ave W",
+      "total_trips": 113,
       "year": 2026
     },
     {
       "end_trips": 55,
       "start_trips": 57,
       "station": "Pottery Rd / Lower Don River Trail",
+      "total_trips": 112,
+      "year": 2026
+    },
+    {
+      "end_trips": 56,
+      "start_trips": 56,
+      "station": "Cosburn Ave / Cedarvale Ave",
       "total_trips": 112,
       "year": 2026
     },
@@ -47925,13 +47925,6 @@
       "year": 2026
     },
     {
-      "end_trips": 57,
-      "start_trips": 50,
-      "station": "King's Mill Park",
-      "total_trips": 107,
-      "year": 2026
-    },
-    {
       "end_trips": 48,
       "start_trips": 59,
       "station": "Hillsdale Ave W / Yonge St",
@@ -47939,16 +47932,23 @@
       "year": 2026
     },
     {
-      "end_trips": 54,
-      "start_trips": 52,
-      "station": "Lillian St / Soudan Ave - SMART",
-      "total_trips": 106,
+      "end_trips": 57,
+      "start_trips": 50,
+      "station": "King's Mill Park",
+      "total_trips": 107,
       "year": 2026
     },
     {
       "end_trips": 58,
       "start_trips": 48,
       "station": "Thorncliffe Park Dr / Leaside Park Trail",
+      "total_trips": 106,
+      "year": 2026
+    },
+    {
+      "end_trips": 54,
+      "start_trips": 52,
+      "station": "Lillian St / Soudan Ave - SMART",
       "total_trips": 106,
       "year": 2026
     },
@@ -47981,6 +47981,13 @@
       "year": 2026
     },
     {
+      "end_trips": 51,
+      "start_trips": 50,
+      "station": "The Queensway / High St",
+      "total_trips": 101,
+      "year": 2026
+    },
+    {
       "end_trips": 57,
       "start_trips": 44,
       "station": "Don Mills Rd / Barber Greene Rd",
@@ -47995,20 +48002,6 @@
       "year": 2026
     },
     {
-      "end_trips": 51,
-      "start_trips": 50,
-      "station": "The Queensway / High St",
-      "total_trips": 101,
-      "year": 2026
-    },
-    {
-      "end_trips": 49,
-      "start_trips": 51,
-      "station": "Luttrell Ave / Danforth Ave",
-      "total_trips": 100,
-      "year": 2026
-    },
-    {
       "end_trips": 50,
       "start_trips": 50,
       "station": "Munition St / Commissioners St",
@@ -48016,10 +48009,10 @@
       "year": 2026
     },
     {
-      "end_trips": 42,
-      "start_trips": 56,
-      "station": "High Park Outdoor Pool",
-      "total_trips": 98,
+      "end_trips": 49,
+      "start_trips": 51,
+      "station": "Luttrell Ave / Danforth Ave",
+      "total_trips": 100,
       "year": 2026
     },
     {
@@ -48033,6 +48026,13 @@
       "end_trips": 47,
       "start_trips": 51,
       "station": "Kempford Blvd / Yonge St",
+      "total_trips": 98,
+      "year": 2026
+    },
+    {
+      "end_trips": 42,
+      "start_trips": 56,
+      "station": "High Park Outdoor Pool",
       "total_trips": 98,
       "year": 2026
     },
@@ -48067,6 +48067,13 @@
     {
       "end_trips": 45,
       "start_trips": 48,
+      "station": "Park Lawn Rd / Berry Rd",
+      "total_trips": 93,
+      "year": 2026
+    },
+    {
+      "end_trips": 45,
+      "start_trips": 48,
       "station": "Pharmacy Ave / Danforth Ave",
       "total_trips": 93,
       "year": 2026
@@ -48075,13 +48082,6 @@
       "end_trips": 41,
       "start_trips": 52,
       "station": "McRae Dr / Laird Dr - SMART",
-      "total_trips": 93,
-      "year": 2026
-    },
-    {
-      "end_trips": 45,
-      "start_trips": 48,
-      "station": "Park Lawn Rd / Berry Rd",
       "total_trips": 93,
       "year": 2026
     },
@@ -48100,16 +48100,16 @@
       "year": 2026
     },
     {
-      "end_trips": 44,
-      "start_trips": 46,
-      "station": "Lumsden Ave / Eastdale Ave",
+      "end_trips": 39,
+      "start_trips": 51,
+      "station": "St. Clair Ave W / Caledonia Rd",
       "total_trips": 90,
       "year": 2026
     },
     {
-      "end_trips": 39,
-      "start_trips": 51,
-      "station": "St. Clair Ave W / Caledonia Rd",
+      "end_trips": 44,
+      "start_trips": 46,
+      "station": "Lumsden Ave / Eastdale Ave",
       "total_trips": 90,
       "year": 2026
     },
@@ -48151,14 +48151,14 @@
     {
       "end_trips": 43,
       "start_trips": 42,
-      "station": "Pharmacy Ave / Teesdale Pl",
+      "station": "E.T. Seton Park (Eglinton Ave E / Leslie St)",
       "total_trips": 85,
       "year": 2026
     },
     {
       "end_trips": 43,
       "start_trips": 42,
-      "station": "E.T. Seton Park (Eglinton Ave E / Leslie St)",
+      "station": "Pharmacy Ave / Teesdale Pl",
       "total_trips": 85,
       "year": 2026
     },
@@ -48170,16 +48170,16 @@
       "year": 2026
     },
     {
-      "end_trips": 41,
-      "start_trips": 43,
-      "station": "Eglinton West Subway Station",
+      "end_trips": 40,
+      "start_trips": 44,
+      "station": "Plaxton Dr / St. Clair Ave E",
       "total_trips": 84,
       "year": 2026
     },
     {
-      "end_trips": 40,
-      "start_trips": 44,
-      "station": "Plaxton Dr / St. Clair Ave E",
+      "end_trips": 41,
+      "start_trips": 43,
+      "station": "Eglinton West Subway Station",
       "total_trips": 84,
       "year": 2026
     },
@@ -48193,14 +48193,7 @@
     {
       "end_trips": 43,
       "start_trips": 39,
-      "station": "Waterfront Trail (Rouge Hill)",
-      "total_trips": 82,
-      "year": 2026
-    },
-    {
-      "end_trips": 31,
-      "start_trips": 51,
-      "station": "Joseph J Piccininni Community Centre",
+      "station": "St Clair Ave W / Oakwood Ave",
       "total_trips": 82,
       "year": 2026
     },
@@ -48214,7 +48207,14 @@
     {
       "end_trips": 43,
       "start_trips": 39,
-      "station": "St Clair Ave W / Oakwood Ave",
+      "station": "Waterfront Trail (Rouge Hill)",
+      "total_trips": 82,
+      "year": 2026
+    },
+    {
+      "end_trips": 31,
+      "start_trips": 51,
+      "station": "Joseph J Piccininni Community Centre",
       "total_trips": 82,
       "year": 2026
     },
@@ -48240,9 +48240,9 @@
       "year": 2026
     },
     {
-      "end_trips": 40,
-      "start_trips": 38,
-      "station": "St. Clair West Subway Station - Heath St. W",
+      "end_trips": 41,
+      "start_trips": 37,
+      "station": "Lake Shore Blvd W / Twenty Fourth St",
       "total_trips": 78,
       "year": 2026
     },
@@ -48254,9 +48254,9 @@
       "year": 2026
     },
     {
-      "end_trips": 41,
-      "start_trips": 37,
-      "station": "Lake Shore Blvd W / Twenty Fourth St",
+      "end_trips": 40,
+      "start_trips": 38,
+      "station": "St. Clair West Subway Station - Heath St. W",
       "total_trips": 78,
       "year": 2026
     },
@@ -48282,16 +48282,16 @@
       "year": 2026
     },
     {
-      "end_trips": 32,
-      "start_trips": 40,
-      "station": "2300 Lakeshore Blvd W",
+      "end_trips": 39,
+      "start_trips": 33,
+      "station": "Marlee Ave / York Beltline Trail",
       "total_trips": 72,
       "year": 2026
     },
     {
-      "end_trips": 39,
-      "start_trips": 33,
-      "station": "Marlee Ave / York Beltline Trail",
+      "end_trips": 32,
+      "start_trips": 40,
+      "station": "2300 Lakeshore Blvd W",
       "total_trips": 72,
       "year": 2026
     },
@@ -48324,9 +48324,9 @@
       "year": 2026
     },
     {
-      "end_trips": 33,
-      "start_trips": 34,
-      "station": "Kingston Rd / Ridgemoor Ave",
+      "end_trips": 34,
+      "start_trips": 33,
+      "station": "Lake Shore Blvd W / Brow Dr",
       "total_trips": 67,
       "year": 2026
     },
@@ -48338,9 +48338,9 @@
       "year": 2026
     },
     {
-      "end_trips": 34,
-      "start_trips": 33,
-      "station": "Lake Shore Blvd W / Brow Dr",
+      "end_trips": 33,
+      "start_trips": 34,
+      "station": "Kingston Rd / Ridgemoor Ave",
       "total_trips": 67,
       "year": 2026
     },
@@ -48366,13 +48366,6 @@
       "year": 2026
     },
     {
-      "end_trips": 32,
-      "start_trips": 32,
-      "station": "Eglinton Ave W / Scarlett Rd",
-      "total_trips": 64,
-      "year": 2026
-    },
-    {
       "end_trips": 37,
       "start_trips": 27,
       "station": "Lawrence Ave E / Don Mills Trail",
@@ -48380,44 +48373,16 @@
       "year": 2026
     },
     {
-      "end_trips": 25,
-      "start_trips": 38,
-      "station": "Wendover Rd / Bloor St W (Green P)",
-      "total_trips": 63,
-      "year": 2026
-    },
-    {
-      "end_trips": 31,
+      "end_trips": 32,
       "start_trips": 32,
-      "station": "Vaughan Rd / Oakwood Ave",
-      "total_trips": 63,
+      "station": "Eglinton Ave W / Scarlett Rd",
+      "total_trips": 64,
       "year": 2026
     },
     {
       "end_trips": 33,
       "start_trips": 30,
       "station": "Brahms Ave / Finch Ave E",
-      "total_trips": 63,
-      "year": 2026
-    },
-    {
-      "end_trips": 30,
-      "start_trips": 33,
-      "station": "Lower Don River Trail and Taylor Creek Trail",
-      "total_trips": 63,
-      "year": 2026
-    },
-    {
-      "end_trips": 30,
-      "start_trips": 33,
-      "station": "Torresdale Ave / Antibes Dr",
-      "total_trips": 63,
-      "year": 2026
-    },
-    {
-      "end_trips": 34,
-      "start_trips": 29,
-      "station": "Florence Gell Park",
       "total_trips": 63,
       "year": 2026
     },
@@ -48429,6 +48394,41 @@
       "year": 2026
     },
     {
+      "end_trips": 31,
+      "start_trips": 32,
+      "station": "Vaughan Rd / Oakwood Ave",
+      "total_trips": 63,
+      "year": 2026
+    },
+    {
+      "end_trips": 34,
+      "start_trips": 29,
+      "station": "Florence Gell Park",
+      "total_trips": 63,
+      "year": 2026
+    },
+    {
+      "end_trips": 30,
+      "start_trips": 33,
+      "station": "Torresdale Ave / Antibes Dr",
+      "total_trips": 63,
+      "year": 2026
+    },
+    {
+      "end_trips": 25,
+      "start_trips": 38,
+      "station": "Wendover Rd / Bloor St W (Green P)",
+      "total_trips": 63,
+      "year": 2026
+    },
+    {
+      "end_trips": 30,
+      "start_trips": 33,
+      "station": "Lower Don River Trail and Taylor Creek Trail",
+      "total_trips": 63,
+      "year": 2026
+    },
+    {
       "end_trips": 28,
       "start_trips": 34,
       "station": "Erskine Ave / Redpath Ave",
@@ -48436,16 +48436,16 @@
       "year": 2026
     },
     {
-      "end_trips": 31,
-      "start_trips": 31,
-      "station": "Lake Shore Blvd W / Thirty Ninth Street",
+      "end_trips": 32,
+      "start_trips": 30,
+      "station": "James Gardens",
       "total_trips": 62,
       "year": 2026
     },
     {
-      "end_trips": 32,
-      "start_trips": 30,
-      "station": "James Gardens",
+      "end_trips": 31,
+      "start_trips": 31,
+      "station": "Lake Shore Blvd W / Thirty Ninth Street",
       "total_trips": 62,
       "year": 2026
     },
@@ -48464,6 +48464,13 @@
       "year": 2026
     },
     {
+      "end_trips": 29,
+      "start_trips": 31,
+      "station": "Danforth Rd / Birchmount Rd",
+      "total_trips": 60,
+      "year": 2026
+    },
+    {
       "end_trips": 31,
       "start_trips": 29,
       "station": "Avenue Rd / Oxton Ave",
@@ -48472,22 +48479,15 @@
     },
     {
       "end_trips": 29,
-      "start_trips": 31,
-      "station": "Danforth Rd / Birchmount Rd",
-      "total_trips": 60,
-      "year": 2026
-    },
-    {
-      "end_trips": 29,
       "start_trips": 30,
-      "station": "Pharmacy Ave / Eglinton Ave E",
+      "station": "Teddington Park Ave",
       "total_trips": 59,
       "year": 2026
     },
     {
       "end_trips": 29,
       "start_trips": 30,
-      "station": "Teddington Park Ave",
+      "station": "Pharmacy Ave / Eglinton Ave E",
       "total_trips": 59,
       "year": 2026
     },
@@ -48501,28 +48501,7 @@
     {
       "end_trips": 29,
       "start_trips": 26,
-      "station": "Keele St / Catford Rd",
-      "total_trips": 55,
-      "year": 2026
-    },
-    {
-      "end_trips": 29,
-      "start_trips": 26,
-      "station": "Gordonridge Pl / Danforth Rd",
-      "total_trips": 55,
-      "year": 2026
-    },
-    {
-      "end_trips": 31,
-      "start_trips": 24,
-      "station": "Woodbine Ave / O'Connor Dr",
-      "total_trips": 55,
-      "year": 2026
-    },
-    {
-      "end_trips": 30,
-      "start_trips": 25,
-      "station": "Twelfth St / Thirteenth St",
+      "station": "Overlea Blvd / Thorncliffe Park Dr",
       "total_trips": 55,
       "year": 2026
     },
@@ -48536,7 +48515,28 @@
     {
       "end_trips": 29,
       "start_trips": 26,
-      "station": "Overlea Blvd / Thorncliffe Park Dr",
+      "station": "Keele St / Catford Rd",
+      "total_trips": 55,
+      "year": 2026
+    },
+    {
+      "end_trips": 30,
+      "start_trips": 25,
+      "station": "Twelfth St / Thirteenth St",
+      "total_trips": 55,
+      "year": 2026
+    },
+    {
+      "end_trips": 31,
+      "start_trips": 24,
+      "station": "Woodbine Ave / O'Connor Dr",
+      "total_trips": 55,
+      "year": 2026
+    },
+    {
+      "end_trips": 29,
+      "start_trips": 26,
+      "station": "Gordonridge Pl / Danforth Rd",
       "total_trips": 55,
       "year": 2026
     },
@@ -48548,9 +48548,9 @@
       "year": 2026
     },
     {
-      "end_trips": 20,
-      "start_trips": 33,
-      "station": "16 Riverview Gardens",
+      "end_trips": 26,
+      "start_trips": 27,
+      "station": "St. Clair Ave W / Symes Rd",
       "total_trips": 53,
       "year": 2026
     },
@@ -48562,9 +48562,9 @@
       "year": 2026
     },
     {
-      "end_trips": 26,
-      "start_trips": 27,
-      "station": "St. Clair Ave W / Symes Rd",
+      "end_trips": 20,
+      "start_trips": 33,
+      "station": "16 Riverview Gardens",
       "total_trips": 53,
       "year": 2026
     },
@@ -48573,6 +48573,13 @@
       "start_trips": 26,
       "station": "Keele St / Ingram Dr",
       "total_trips": 52,
+      "year": 2026
+    },
+    {
+      "end_trips": 25,
+      "start_trips": 26,
+      "station": "Dawes Rd / Taylor Creek Trl",
+      "total_trips": 51,
       "year": 2026
     },
     {
@@ -48586,13 +48593,6 @@
       "end_trips": 27,
       "start_trips": 24,
       "station": "Sunrise Ave / Victoria Park Ave",
-      "total_trips": 51,
-      "year": 2026
-    },
-    {
-      "end_trips": 25,
-      "start_trips": 26,
-      "station": "Dawes Rd / Taylor Creek Trl",
       "total_trips": 51,
       "year": 2026
     },
@@ -48613,22 +48613,15 @@
     {
       "end_trips": 24,
       "start_trips": 23,
-      "station": "The Pond Rd / Shoreham Dr",
+      "station": "St. Columba Pl / St. Clair Ave E",
       "total_trips": 47,
       "year": 2026
     },
     {
       "end_trips": 24,
       "start_trips": 23,
-      "station": "St. Columba Pl / St. Clair Ave E",
+      "station": "The Pond Rd / Shoreham Dr",
       "total_trips": 47,
-      "year": 2026
-    },
-    {
-      "end_trips": 22,
-      "start_trips": 24,
-      "station": "Victoria Park Ave / Dawes Rd",
-      "total_trips": 46,
       "year": 2026
     },
     {
@@ -48640,9 +48633,9 @@
     },
     {
       "end_trips": 22,
-      "start_trips": 23,
-      "station": "Ionview Rd / Eglinton Ave E",
-      "total_trips": 45,
+      "start_trips": 24,
+      "station": "Victoria Park Ave / Dawes Rd",
+      "total_trips": 46,
       "year": 2026
     },
     {
@@ -48660,16 +48653,23 @@
       "year": 2026
     },
     {
-      "end_trips": 21,
+      "end_trips": 22,
       "start_trips": 23,
-      "station": "Danforth Rd / St Clair Ave E",
-      "total_trips": 44,
+      "station": "Ionview Rd / Eglinton Ave E",
+      "total_trips": 45,
       "year": 2026
     },
     {
       "end_trips": 24,
       "start_trips": 20,
       "station": "Rockcliffe Blvd / Alliance Ave",
+      "total_trips": 44,
+      "year": 2026
+    },
+    {
+      "end_trips": 21,
+      "start_trips": 23,
+      "station": "Danforth Rd / St Clair Ave E",
       "total_trips": 44,
       "year": 2026
     },
@@ -48695,16 +48695,9 @@
       "year": 2026
     },
     {
-      "end_trips": 16,
-      "start_trips": 24,
-      "station": "Lawrence Ave W / Marlee Ave",
-      "total_trips": 40,
-      "year": 2026
-    },
-    {
-      "end_trips": 21,
-      "start_trips": 19,
-      "station": "Sheppard Ave E / Willowdale Ave",
+      "end_trips": 18,
+      "start_trips": 22,
+      "station": "Brimley Rd / Lawrence Ave E",
       "total_trips": 40,
       "year": 2026
     },
@@ -48716,16 +48709,16 @@
       "year": 2026
     },
     {
-      "end_trips": 19,
-      "start_trips": 21,
-      "station": "Don Mills Rd / Fairview Mall Dr",
+      "end_trips": 21,
+      "start_trips": 19,
+      "station": "Sheppard Ave E / Willowdale Ave",
       "total_trips": 40,
       "year": 2026
     },
     {
-      "end_trips": 18,
-      "start_trips": 22,
-      "station": "Brimley Rd / Lawrence Ave E",
+      "end_trips": 16,
+      "start_trips": 24,
+      "station": "Lawrence Ave W / Marlee Ave",
       "total_trips": 40,
       "year": 2026
     },
@@ -48737,16 +48730,23 @@
       "year": 2026
     },
     {
-      "end_trips": 16,
-      "start_trips": 23,
-      "station": "Brookdale Ave / Yonge St",
-      "total_trips": 39,
+      "end_trips": 19,
+      "start_trips": 21,
+      "station": "Don Mills Rd / Fairview Mall Dr",
+      "total_trips": 40,
       "year": 2026
     },
     {
       "end_trips": 12,
       "start_trips": 27,
       "station": "1 Shortt St",
+      "total_trips": 39,
+      "year": 2026
+    },
+    {
+      "end_trips": 16,
+      "start_trips": 23,
+      "station": "Brookdale Ave / Yonge St",
       "total_trips": 39,
       "year": 2026
     },
@@ -48772,9 +48772,9 @@
       "year": 2026
     },
     {
-      "end_trips": 17,
-      "start_trips": 20,
-      "station": "Pioneer Village Subway Station",
+      "end_trips": 19,
+      "start_trips": 18,
+      "station": "Corvette Ave / Kennedy Rd",
       "total_trips": 37,
       "year": 2026
     },
@@ -48782,6 +48782,20 @@
       "end_trips": 16,
       "start_trips": 21,
       "station": "Yonge St / North York Blvd",
+      "total_trips": 37,
+      "year": 2026
+    },
+    {
+      "end_trips": 18,
+      "start_trips": 19,
+      "station": "Rogers Rd / Bicknell Ave",
+      "total_trips": 37,
+      "year": 2026
+    },
+    {
+      "end_trips": 17,
+      "start_trips": 20,
+      "station": "Pioneer Village Subway Station",
       "total_trips": 37,
       "year": 2026
     },
@@ -48794,22 +48808,8 @@
     },
     {
       "end_trips": 19,
-      "start_trips": 18,
-      "station": "Corvette Ave / Kennedy Rd",
-      "total_trips": 37,
-      "year": 2026
-    },
-    {
-      "end_trips": 18,
-      "start_trips": 19,
-      "station": "Rogers Rd / Bicknell Ave",
-      "total_trips": 37,
-      "year": 2026
-    },
-    {
-      "end_trips": 14,
-      "start_trips": 22,
-      "station": "Wilson Ave / Transit Rd (TTC Subway Station)",
+      "start_trips": 17,
+      "station": "Bathurst St / Sheppard Ave W",
       "total_trips": 36,
       "year": 2026
     },
@@ -48821,23 +48821,23 @@
       "year": 2026
     },
     {
-      "end_trips": 19,
-      "start_trips": 17,
-      "station": "Bathurst St / Sheppard Ave W",
+      "end_trips": 14,
+      "start_trips": 22,
+      "station": "Wilson Ave / Transit Rd (TTC Subway Station)",
       "total_trips": 36,
-      "year": 2026
-    },
-    {
-      "end_trips": 17,
-      "start_trips": 18,
-      "station": "Wilmington Ave / Kennard Ave",
-      "total_trips": 35,
       "year": 2026
     },
     {
       "end_trips": 16,
       "start_trips": 19,
       "station": "Morningside Park (Highland Creek Trail)",
+      "total_trips": 35,
+      "year": 2026
+    },
+    {
+      "end_trips": 17,
+      "start_trips": 18,
+      "station": "Wilmington Ave / Kennard Ave",
       "total_trips": 35,
       "year": 2026
     },
@@ -48856,16 +48856,16 @@
       "year": 2026
     },
     {
-      "end_trips": 18,
-      "start_trips": 15,
-      "station": "Scarborough Town Centre",
+      "end_trips": 16,
+      "start_trips": 17,
+      "station": "Walter Saunders Park",
       "total_trips": 33,
       "year": 2026
     },
     {
-      "end_trips": 16,
-      "start_trips": 17,
-      "station": "Walter Saunders Park",
+      "end_trips": 18,
+      "start_trips": 15,
+      "station": "Scarborough Town Centre",
       "total_trips": 33,
       "year": 2026
     },
@@ -48884,9 +48884,9 @@
       "year": 2026
     },
     {
-      "end_trips": 15,
-      "start_trips": 17,
-      "station": "Wilket Creek Park",
+      "end_trips": 17,
+      "start_trips": 15,
+      "station": "Birchcliff Ave / Kingston Rd",
       "total_trips": 32,
       "year": 2026
     },
@@ -48898,31 +48898,10 @@
       "year": 2026
     },
     {
-      "end_trips": 17,
-      "start_trips": 15,
-      "station": "Birchcliff Ave / Kingston Rd",
-      "total_trips": 32,
-      "year": 2026
-    },
-    {
-      "end_trips": 13,
-      "start_trips": 18,
-      "station": "G Ross Lord Park",
-      "total_trips": 31,
-      "year": 2026
-    },
-    {
-      "end_trips": 16,
-      "start_trips": 15,
-      "station": "14 Fuller Ave",
-      "total_trips": 31,
-      "year": 2026
-    },
-    {
-      "end_trips": 14,
+      "end_trips": 15,
       "start_trips": 17,
-      "station": "Knob Hill Park",
-      "total_trips": 31,
+      "station": "Wilket Creek Park",
+      "total_trips": 32,
       "year": 2026
     },
     {
@@ -48941,15 +48920,36 @@
     },
     {
       "end_trips": 14,
-      "start_trips": 16,
-      "station": "Willowdale Ave / Bishop Ave",
-      "total_trips": 30,
+      "start_trips": 17,
+      "station": "Knob Hill Park",
+      "total_trips": 31,
+      "year": 2026
+    },
+    {
+      "end_trips": 16,
+      "start_trips": 15,
+      "station": "14 Fuller Ave",
+      "total_trips": 31,
+      "year": 2026
+    },
+    {
+      "end_trips": 13,
+      "start_trips": 18,
+      "station": "G Ross Lord Park",
+      "total_trips": 31,
       "year": 2026
     },
     {
       "end_trips": 15,
       "start_trips": 15,
       "station": "Glencairn Subway Station",
+      "total_trips": 30,
+      "year": 2026
+    },
+    {
+      "end_trips": 14,
+      "start_trips": 16,
+      "station": "Willowdale Ave / Bishop Ave",
       "total_trips": 30,
       "year": 2026
     },
@@ -48968,13 +48968,6 @@
       "year": 2026
     },
     {
-      "end_trips": 16,
-      "start_trips": 13,
-      "station": "Lawrence Ave W / Bathurst St",
-      "total_trips": 29,
-      "year": 2026
-    },
-    {
       "end_trips": 14,
       "start_trips": 15,
       "station": "Ruddington Dr / Finch Recreational Trail",
@@ -48982,9 +48975,9 @@
       "year": 2026
     },
     {
-      "end_trips": 13,
-      "start_trips": 16,
-      "station": "Maxome Ave / Finch Hydro Corridor",
+      "end_trips": 16,
+      "start_trips": 13,
+      "station": "Bayview Ave / Finch Recreational Trail",
       "total_trips": 29,
       "year": 2026
     },
@@ -48996,9 +48989,16 @@
       "year": 2026
     },
     {
+      "end_trips": 13,
+      "start_trips": 16,
+      "station": "Maxome Ave / Finch Hydro Corridor",
+      "total_trips": 29,
+      "year": 2026
+    },
+    {
       "end_trips": 16,
       "start_trips": 13,
-      "station": "Bayview Ave / Finch Recreational Trail",
+      "station": "Lawrence Ave W / Bathurst St",
       "total_trips": 29,
       "year": 2026
     },
@@ -49026,7 +49026,7 @@
     {
       "end_trips": 13,
       "start_trips": 14,
-      "station": "Birchmount Rd / Eglinton Ave E",
+      "station": "Cruickshank Park",
       "total_trips": 27,
       "year": 2026
     },
@@ -49038,9 +49038,9 @@
       "year": 2026
     },
     {
-      "end_trips": 13,
-      "start_trips": 14,
-      "station": "Cruickshank Park",
+      "end_trips": 15,
+      "start_trips": 12,
+      "station": "Slan Ave / Scarborough Golf Club Rd",
       "total_trips": 27,
       "year": 2026
     },
@@ -49059,9 +49059,9 @@
       "year": 2026
     },
     {
-      "end_trips": 15,
-      "start_trips": 12,
-      "station": "Slan Ave / Scarborough Golf Club Rd",
+      "end_trips": 13,
+      "start_trips": 14,
+      "station": "Birchmount Rd / Eglinton Ave E",
       "total_trips": 27,
       "year": 2026
     },
@@ -49075,6 +49075,13 @@
     {
       "end_trips": 12,
       "start_trips": 13,
+      "station": "Hawksbury Dr / Sheppard Ave E",
+      "total_trips": 25,
+      "year": 2026
+    },
+    {
+      "end_trips": 12,
+      "start_trips": 13,
       "station": "Sunnybrook Park",
       "total_trips": 25,
       "year": 2026
@@ -49083,13 +49090,6 @@
       "end_trips": 14,
       "start_trips": 11,
       "station": "60 Carl Hall Rd - SMART",
-      "total_trips": 25,
-      "year": 2026
-    },
-    {
-      "end_trips": 12,
-      "start_trips": 13,
-      "station": "Hawksbury Dr / Sheppard Ave E",
       "total_trips": 25,
       "year": 2026
     },
@@ -49117,14 +49117,14 @@
     {
       "end_trips": 11,
       "start_trips": 12,
-      "station": "Centennial College (Ashtonbee Campus)",
+      "station": "Rogers Rd / Prospect Cemetery",
       "total_trips": 23,
       "year": 2026
     },
     {
       "end_trips": 11,
       "start_trips": 12,
-      "station": "Rogers Rd / Prospect Cemetery",
+      "station": "Centennial College (Ashtonbee Campus)",
       "total_trips": 23,
       "year": 2026
     },
@@ -49133,6 +49133,34 @@
       "start_trips": 10,
       "station": "19 Glendora Ave",
       "total_trips": 23,
+      "year": 2026
+    },
+    {
+      "end_trips": 13,
+      "start_trips": 9,
+      "station": "Village Green Square",
+      "total_trips": 22,
+      "year": 2026
+    },
+    {
+      "end_trips": 10,
+      "start_trips": 12,
+      "station": "Grantbrook St / Finch Hydro Corridor Trail",
+      "total_trips": 22,
+      "year": 2026
+    },
+    {
+      "end_trips": 11,
+      "start_trips": 11,
+      "station": "Don Mills Rd / Goodview Rd",
+      "total_trips": 22,
+      "year": 2026
+    },
+    {
+      "end_trips": 9,
+      "start_trips": 13,
+      "station": "Parkway Forest Dr / Forest Manor Rd (South)",
+      "total_trips": 22,
       "year": 2026
     },
     {
@@ -49150,87 +49178,10 @@
       "year": 2026
     },
     {
-      "end_trips": 9,
-      "start_trips": 13,
-      "station": "Parkway Forest Dr / Forest Manor Rd (South)",
-      "total_trips": 22,
-      "year": 2026
-    },
-    {
-      "end_trips": 11,
-      "start_trips": 11,
-      "station": "Don Mills Rd / Goodview Rd",
-      "total_trips": 22,
-      "year": 2026
-    },
-    {
       "end_trips": 11,
       "start_trips": 11,
       "station": "Jane St / Lawrence Ave W",
       "total_trips": 22,
-      "year": 2026
-    },
-    {
-      "end_trips": 10,
-      "start_trips": 12,
-      "station": "Grantbrook St / Finch Hydro Corridor Trail",
-      "total_trips": 22,
-      "year": 2026
-    },
-    {
-      "end_trips": 13,
-      "start_trips": 9,
-      "station": "Village Green Square",
-      "total_trips": 22,
-      "year": 2026
-    },
-    {
-      "end_trips": 12,
-      "start_trips": 9,
-      "station": "Eglinton Ave E / Sloane Ave",
-      "total_trips": 21,
-      "year": 2026
-    },
-    {
-      "end_trips": 11,
-      "start_trips": 10,
-      "station": "Keele St / Dovehouse Ave - SMART",
-      "total_trips": 21,
-      "year": 2026
-    },
-    {
-      "end_trips": 10,
-      "start_trips": 11,
-      "station": "Trethewey Dr / Black Creek Dr",
-      "total_trips": 21,
-      "year": 2026
-    },
-    {
-      "end_trips": 11,
-      "start_trips": 10,
-      "station": "Caledonia Rd / Lotherton Pathway",
-      "total_trips": 21,
-      "year": 2026
-    },
-    {
-      "end_trips": 11,
-      "start_trips": 10,
-      "station": "Dufferin St / Finch Corridor Trail",
-      "total_trips": 21,
-      "year": 2026
-    },
-    {
-      "end_trips": 11,
-      "start_trips": 10,
-      "station": "Eglinton Ave W / Ennerdale Rd",
-      "total_trips": 21,
-      "year": 2026
-    },
-    {
-      "end_trips": 12,
-      "start_trips": 9,
-      "station": "Mabelle Park",
-      "total_trips": 21,
       "year": 2026
     },
     {
@@ -49248,37 +49199,58 @@
       "year": 2026
     },
     {
+      "end_trips": 12,
+      "start_trips": 9,
+      "station": "Eglinton Ave E / Sloane Ave",
+      "total_trips": 21,
+      "year": 2026
+    },
+    {
+      "end_trips": 12,
+      "start_trips": 9,
+      "station": "Mabelle Park",
+      "total_trips": 21,
+      "year": 2026
+    },
+    {
       "end_trips": 10,
+      "start_trips": 11,
+      "station": "Trethewey Dr / Black Creek Dr",
+      "total_trips": 21,
+      "year": 2026
+    },
+    {
+      "end_trips": 11,
       "start_trips": 10,
-      "station": "University of Toronto Scarborough",
-      "total_trips": 20,
+      "station": "Eglinton Ave W / Ennerdale Rd",
+      "total_trips": 21,
+      "year": 2026
+    },
+    {
+      "end_trips": 11,
+      "start_trips": 10,
+      "station": "Dufferin St / Finch Corridor Trail",
+      "total_trips": 21,
+      "year": 2026
+    },
+    {
+      "end_trips": 11,
+      "start_trips": 10,
+      "station": "Keele St / Dovehouse Ave - SMART",
+      "total_trips": 21,
+      "year": 2026
+    },
+    {
+      "end_trips": 11,
+      "start_trips": 10,
+      "station": "Caledonia Rd / Lotherton Pathway",
+      "total_trips": 21,
       "year": 2026
     },
     {
       "end_trips": 9,
       "start_trips": 11,
       "station": "Glen Long Community Centre",
-      "total_trips": 20,
-      "year": 2026
-    },
-    {
-      "end_trips": 11,
-      "start_trips": 9,
-      "station": "Confederation Dr / Greencrest Cr",
-      "total_trips": 20,
-      "year": 2026
-    },
-    {
-      "end_trips": 13,
-      "start_trips": 7,
-      "station": "Falmouth Ave / Eglinton Ave E",
-      "total_trips": 20,
-      "year": 2026
-    },
-    {
-      "end_trips": 10,
-      "start_trips": 10,
-      "station": "Lawrence Ave E / Don Mills Rd",
       "total_trips": 20,
       "year": 2026
     },
@@ -49292,7 +49264,35 @@
     {
       "end_trips": 10,
       "start_trips": 10,
+      "station": "Lawrence Ave E / Don Mills Rd",
+      "total_trips": 20,
+      "year": 2026
+    },
+    {
+      "end_trips": 10,
+      "start_trips": 10,
+      "station": "University of Toronto Scarborough",
+      "total_trips": 20,
+      "year": 2026
+    },
+    {
+      "end_trips": 11,
+      "start_trips": 9,
+      "station": "Confederation Dr / Greencrest Cr",
+      "total_trips": 20,
+      "year": 2026
+    },
+    {
+      "end_trips": 10,
+      "start_trips": 10,
       "station": "Wynford Heights Cres / Concorde Pl",
+      "total_trips": 20,
+      "year": 2026
+    },
+    {
+      "end_trips": 13,
+      "start_trips": 7,
+      "station": "Falmouth Ave / Eglinton Ave E",
       "total_trips": 20,
       "year": 2026
     },
@@ -49304,16 +49304,16 @@
       "year": 2026
     },
     {
-      "end_trips": 12,
-      "start_trips": 7,
-      "station": "Midland Ave / Finch Recreational Trail",
+      "end_trips": 9,
+      "start_trips": 10,
+      "station": "Rochefort Dr / Don Mills Rd",
       "total_trips": 19,
       "year": 2026
     },
     {
-      "end_trips": 8,
-      "start_trips": 11,
-      "station": "Trethewey Dr / Jane St",
+      "end_trips": 12,
+      "start_trips": 7,
+      "station": "Midland Ave / Finch Recreational Trail",
       "total_trips": 19,
       "year": 2026
     },
@@ -49325,17 +49325,10 @@
       "year": 2026
     },
     {
-      "end_trips": 9,
-      "start_trips": 10,
-      "station": "Rochefort Dr / Don Mills Rd",
-      "total_trips": 19,
-      "year": 2026
-    },
-    {
       "end_trips": 8,
-      "start_trips": 10,
-      "station": "Bridlewood Park",
-      "total_trips": 18,
+      "start_trips": 11,
+      "station": "Trethewey Dr / Jane St",
+      "total_trips": 19,
       "year": 2026
     },
     {
@@ -49354,22 +49347,15 @@
     },
     {
       "end_trips": 8,
-      "start_trips": 9,
-      "station": "Midland Ave / Kingston Rd",
-      "total_trips": 17,
+      "start_trips": 10,
+      "station": "Bridlewood Park",
+      "total_trips": 18,
       "year": 2026
     },
     {
-      "end_trips": 8,
-      "start_trips": 9,
-      "station": "Eglinton Ave W / Gilbert Ave",
-      "total_trips": 17,
-      "year": 2026
-    },
-    {
-      "end_trips": 8,
-      "start_trips": 9,
-      "station": "Markham Rd / The Meadoway",
+      "end_trips": 9,
+      "start_trips": 8,
+      "station": "Sharpe St / Park St (Sandown Park)",
       "total_trips": 17,
       "year": 2026
     },
@@ -49381,9 +49367,23 @@
       "year": 2026
     },
     {
-      "end_trips": 9,
-      "start_trips": 8,
-      "station": "Sharpe St / Park St (Sandown Park)",
+      "end_trips": 8,
+      "start_trips": 9,
+      "station": "Midland Ave / Kingston Rd",
+      "total_trips": 17,
+      "year": 2026
+    },
+    {
+      "end_trips": 8,
+      "start_trips": 9,
+      "station": "Markham Rd / The Meadoway",
+      "total_trips": 17,
+      "year": 2026
+    },
+    {
+      "end_trips": 8,
+      "start_trips": 9,
+      "station": "Eglinton Ave W / Gilbert Ave",
       "total_trips": 17,
       "year": 2026
     },
@@ -49402,30 +49402,9 @@
       "year": 2026
     },
     {
-      "end_trips": 8,
-      "start_trips": 7,
-      "station": "Aurora Ct / Bridletowne Cir",
-      "total_trips": 15,
-      "year": 2026
-    },
-    {
       "end_trips": 6,
       "start_trips": 9,
       "station": "Emmett Ave",
-      "total_trips": 15,
-      "year": 2026
-    },
-    {
-      "end_trips": 5,
-      "start_trips": 10,
-      "station": "Keelegate Dr / Keele St",
-      "total_trips": 15,
-      "year": 2026
-    },
-    {
-      "end_trips": 9,
-      "start_trips": 6,
-      "station": "Leslie Subway Station",
       "total_trips": 15,
       "year": 2026
     },
@@ -49444,6 +49423,27 @@
       "year": 2026
     },
     {
+      "end_trips": 9,
+      "start_trips": 6,
+      "station": "Leslie Subway Station",
+      "total_trips": 15,
+      "year": 2026
+    },
+    {
+      "end_trips": 5,
+      "start_trips": 10,
+      "station": "Keelegate Dr / Keele St",
+      "total_trips": 15,
+      "year": 2026
+    },
+    {
+      "end_trips": 8,
+      "start_trips": 7,
+      "station": "Aurora Ct / Bridletowne Cir",
+      "total_trips": 15,
+      "year": 2026
+    },
+    {
       "end_trips": 6,
       "start_trips": 9,
       "station": "Albion Rd / Kipling Ave (Albion Arena)",
@@ -49454,41 +49454,6 @@
       "end_trips": 6,
       "start_trips": 8,
       "station": "Finch Ave E / Upper Don Recreational Trail",
-      "total_trips": 14,
-      "year": 2026
-    },
-    {
-      "end_trips": 10,
-      "start_trips": 4,
-      "station": "1141 Eastern Ave",
-      "total_trips": 14,
-      "year": 2026
-    },
-    {
-      "end_trips": 6,
-      "start_trips": 8,
-      "station": "Ellesmere Rd / Markham Rd",
-      "total_trips": 14,
-      "year": 2026
-    },
-    {
-      "end_trips": 4,
-      "start_trips": 10,
-      "station": "Agincourt GO Station",
-      "total_trips": 14,
-      "year": 2026
-    },
-    {
-      "end_trips": 5,
-      "start_trips": 9,
-      "station": "Eglinton Ave E / Mason Rd",
-      "total_trips": 14,
-      "year": 2026
-    },
-    {
-      "end_trips": 8,
-      "start_trips": 6,
-      "station": "Lawrence Ave E / Burnview Cres",
       "total_trips": 14,
       "year": 2026
     },
@@ -49507,6 +49472,27 @@
       "year": 2026
     },
     {
+      "end_trips": 6,
+      "start_trips": 8,
+      "station": "Ellesmere Rd / Markham Rd",
+      "total_trips": 14,
+      "year": 2026
+    },
+    {
+      "end_trips": 4,
+      "start_trips": 10,
+      "station": "Agincourt GO Station",
+      "total_trips": 14,
+      "year": 2026
+    },
+    {
+      "end_trips": 10,
+      "start_trips": 4,
+      "station": "1141 Eastern Ave",
+      "total_trips": 14,
+      "year": 2026
+    },
+    {
       "end_trips": 7,
       "start_trips": 7,
       "station": "York Mills Rd / Lesmill Rd",
@@ -49514,17 +49500,17 @@
       "year": 2026
     },
     {
-      "end_trips": 7,
+      "end_trips": 8,
       "start_trips": 6,
-      "station": "Livingston Rd / Guildwood Pkwy",
-      "total_trips": 13,
+      "station": "Lawrence Ave E / Burnview Cres",
+      "total_trips": 14,
       "year": 2026
     },
     {
-      "end_trips": 7,
-      "start_trips": 6,
-      "station": "16 John St",
-      "total_trips": 13,
+      "end_trips": 5,
+      "start_trips": 9,
+      "station": "Eglinton Ave E / Mason Rd",
+      "total_trips": 14,
       "year": 2026
     },
     {
@@ -49542,17 +49528,17 @@
       "year": 2026
     },
     {
-      "end_trips": 8,
-      "start_trips": 4,
-      "station": "Bellamy Rd S / Kingston Rd",
-      "total_trips": 12,
+      "end_trips": 7,
+      "start_trips": 6,
+      "station": "Livingston Rd / Guildwood Pkwy",
+      "total_trips": 13,
       "year": 2026
     },
     {
-      "end_trips": 4,
-      "start_trips": 8,
-      "station": "Jane St / Weston Rd",
-      "total_trips": 12,
+      "end_trips": 7,
+      "start_trips": 6,
+      "station": "16 John St",
+      "total_trips": 13,
       "year": 2026
     },
     {
@@ -49570,16 +49556,9 @@
       "year": 2026
     },
     {
-      "end_trips": 7,
-      "start_trips": 5,
-      "station": "Esther Shiner Stadium",
-      "total_trips": 12,
-      "year": 2026
-    },
-    {
-      "end_trips": 6,
-      "start_trips": 6,
-      "station": "Weston Lions Park",
+      "end_trips": 4,
+      "start_trips": 8,
+      "station": "Eglinton Ave E / Victoria Park Ave",
       "total_trips": 12,
       "year": 2026
     },
@@ -49591,16 +49570,37 @@
       "year": 2026
     },
     {
+      "end_trips": 6,
+      "start_trips": 6,
+      "station": "Weston Lions Park",
+      "total_trips": 12,
+      "year": 2026
+    },
+    {
+      "end_trips": 8,
+      "start_trips": 4,
+      "station": "Bellamy Rd S / Kingston Rd",
+      "total_trips": 12,
+      "year": 2026
+    },
+    {
+      "end_trips": 7,
+      "start_trips": 5,
+      "station": "Esther Shiner Stadium",
+      "total_trips": 12,
+      "year": 2026
+    },
+    {
       "end_trips": 4,
       "start_trips": 8,
-      "station": "Eglinton Ave E / Victoria Park Ave",
+      "station": "Jane St / Weston Rd",
       "total_trips": 12,
       "year": 2026
     },
     {
       "end_trips": 4,
       "start_trips": 7,
-      "station": "Danforth Ave / Danforth Rd",
+      "station": "Lawrence Ave W / Pine St",
       "total_trips": 11,
       "year": 2026
     },
@@ -49621,14 +49621,14 @@
     {
       "end_trips": 4,
       "start_trips": 7,
-      "station": "Lawrence Ave W / Pine St",
+      "station": "Danforth Ave / Danforth Rd",
       "total_trips": 11,
       "year": 2026
     },
     {
-      "end_trips": 5,
-      "start_trips": 5,
-      "station": "Ridge Rd / Wilson Ave",
+      "end_trips": 2,
+      "start_trips": 8,
+      "station": "21 Pleasant Blvd (1)",
       "total_trips": 10,
       "year": 2026
     },
@@ -49642,7 +49642,21 @@
     {
       "end_trips": 5,
       "start_trips": 5,
+      "station": "Parkway Forest Dr / Forest Manor Rd (North)",
+      "total_trips": 10,
+      "year": 2026
+    },
+    {
+      "end_trips": 5,
+      "start_trips": 5,
       "station": "Bond Ave / Don Mills Trail",
+      "total_trips": 10,
+      "year": 2026
+    },
+    {
+      "end_trips": 5,
+      "start_trips": 5,
+      "station": "Warden Ave / The Meadoway",
       "total_trips": 10,
       "year": 2026
     },
@@ -49656,14 +49670,21 @@
     {
       "end_trips": 6,
       "start_trips": 4,
+      "station": "Bellamy Rd N / The Meadoway",
+      "total_trips": 10,
+      "year": 2026
+    },
+    {
+      "end_trips": 6,
+      "start_trips": 4,
       "station": "Fenwood Ht / Kingston Rd",
       "total_trips": 10,
       "year": 2026
     },
     {
-      "end_trips": 2,
-      "start_trips": 8,
-      "station": "21 Pleasant Blvd (1)",
+      "end_trips": 5,
+      "start_trips": 5,
+      "station": "Dulverton Rd / Birchmount Rd",
       "total_trips": 10,
       "year": 2026
     },
@@ -49677,21 +49698,7 @@
     {
       "end_trips": 5,
       "start_trips": 5,
-      "station": "Dulverton Rd / Birchmount Rd",
-      "total_trips": 10,
-      "year": 2026
-    },
-    {
-      "end_trips": 4,
-      "start_trips": 6,
-      "station": "Finch Ave W / Wilmington Ave",
-      "total_trips": 10,
-      "year": 2026
-    },
-    {
-      "end_trips": 5,
-      "start_trips": 5,
-      "station": "Warden Ave / The Meadoway",
+      "station": "Ridge Rd / Wilson Ave",
       "total_trips": 10,
       "year": 2026
     },
@@ -49703,37 +49710,16 @@
       "year": 2026
     },
     {
-      "end_trips": 5,
-      "start_trips": 5,
-      "station": "Parkway Forest Dr / Forest Manor Rd (North)",
-      "total_trips": 10,
-      "year": 2026
-    },
-    {
-      "end_trips": 6,
-      "start_trips": 4,
-      "station": "Bellamy Rd N / The Meadoway",
-      "total_trips": 10,
-      "year": 2026
-    },
-    {
-      "end_trips": 5,
-      "start_trips": 4,
-      "station": "Torresdale Ave / Finch Ave W",
-      "total_trips": 9,
-      "year": 2026
-    },
-    {
-      "end_trips": 5,
-      "start_trips": 4,
-      "station": "Agincourt Recreation Centre",
-      "total_trips": 9,
-      "year": 2026
-    },
-    {
-      "end_trips": 3,
+      "end_trips": 4,
       "start_trips": 6,
-      "station": "Cedar Dr / Eglinton Ave E",
+      "station": "Finch Ave W / Wilmington Ave",
+      "total_trips": 10,
+      "year": 2026
+    },
+    {
+      "end_trips": 4,
+      "start_trips": 5,
+      "station": "Jane St / Queens Dr",
       "total_trips": 9,
       "year": 2026
     },
@@ -49745,23 +49731,23 @@
       "year": 2026
     },
     {
-      "end_trips": 4,
-      "start_trips": 5,
-      "station": "Jane St / Queens Dr",
+      "end_trips": 5,
+      "start_trips": 4,
+      "station": "Agincourt Recreation Centre",
       "total_trips": 9,
       "year": 2026
     },
     {
-      "end_trips": 4,
-      "start_trips": 5,
-      "station": "Gilder Dr / Midland Ave",
+      "end_trips": 5,
+      "start_trips": 4,
+      "station": "Torresdale Ave / Finch Ave W",
       "total_trips": 9,
       "year": 2026
     },
     {
       "end_trips": 3,
       "start_trips": 6,
-      "station": "75 Thorncliffe Park Dr",
+      "station": "Warden Ave / Huntingwood Dr",
       "total_trips": 9,
       "year": 2026
     },
@@ -49775,15 +49761,22 @@
     {
       "end_trips": 3,
       "start_trips": 6,
-      "station": "Warden Ave / Huntingwood Dr",
+      "station": "Cedar Dr / Eglinton Ave E",
       "total_trips": 9,
       "year": 2026
     },
     {
-      "end_trips": 6,
-      "start_trips": 2,
-      "station": "Queen_s Plate Dr / Rexdale Blvd",
-      "total_trips": 8,
+      "end_trips": 3,
+      "start_trips": 6,
+      "station": "75 Thorncliffe Park Dr",
+      "total_trips": 9,
+      "year": 2026
+    },
+    {
+      "end_trips": 4,
+      "start_trips": 5,
+      "station": "Gilder Dr / Midland Ave",
+      "total_trips": 9,
       "year": 2026
     },
     {
@@ -49796,7 +49789,21 @@
     {
       "end_trips": 3,
       "start_trips": 5,
-      "station": "Sheppard Ave W / Chesswood Dr",
+      "station": "Tobermory Dr / Finch Corridor Trail",
+      "total_trips": 8,
+      "year": 2026
+    },
+    {
+      "end_trips": 4,
+      "start_trips": 4,
+      "station": "Linkwood Ln / Spanbridge Rd",
+      "total_trips": 8,
+      "year": 2026
+    },
+    {
+      "end_trips": 5,
+      "start_trips": 3,
+      "station": "McCowan Rd / Brimorton Dr",
       "total_trips": 8,
       "year": 2026
     },
@@ -49810,14 +49817,14 @@
     {
       "end_trips": 3,
       "start_trips": 5,
-      "station": "Tobermory Dr / Finch Corridor Trail",
+      "station": "Sheppard Ave W / Chesswood Dr",
       "total_trips": 8,
       "year": 2026
     },
     {
-      "end_trips": 5,
-      "start_trips": 3,
-      "station": "McCowan Rd / Brimorton Dr",
+      "end_trips": 6,
+      "start_trips": 2,
+      "station": "William Cragg Dr / Jane St",
       "total_trips": 8,
       "year": 2026
     },
@@ -49829,17 +49836,66 @@
       "year": 2026
     },
     {
-      "end_trips": 4,
-      "start_trips": 4,
-      "station": "Linkwood Ln / Spanbridge Rd",
+      "end_trips": 6,
+      "start_trips": 2,
+      "station": "Queen_s Plate Dr / Rexdale Blvd",
       "total_trips": 8,
       "year": 2026
     },
     {
-      "end_trips": 6,
+      "end_trips": 4,
+      "start_trips": 3,
+      "station": "Shaughnessy Blvd / Sheppard Ave E",
+      "total_trips": 7,
+      "year": 2026
+    },
+    {
+      "end_trips": 4,
+      "start_trips": 3,
+      "station": "Martin Grove Rd / Lexington Ave",
+      "total_trips": 7,
+      "year": 2026
+    },
+    {
+      "end_trips": 3,
+      "start_trips": 4,
+      "station": "Colonel Danforth Park",
+      "total_trips": 7,
+      "year": 2026
+    },
+    {
+      "end_trips": 4,
+      "start_trips": 3,
+      "station": "Victoria Park Ave / Edge Park Ave",
+      "total_trips": 7,
+      "year": 2026
+    },
+    {
+      "end_trips": 2,
+      "start_trips": 5,
+      "station": "YZD",
+      "total_trips": 7,
+      "year": 2026
+    },
+    {
+      "end_trips": 5,
       "start_trips": 2,
-      "station": "William Cragg Dr / Jane St",
-      "total_trips": 8,
+      "station": "Grenoble Dr / Vendome Pl",
+      "total_trips": 7,
+      "year": 2026
+    },
+    {
+      "end_trips": 4,
+      "start_trips": 3,
+      "station": "Armel Ct / Albion Rd",
+      "total_trips": 7,
+      "year": 2026
+    },
+    {
+      "end_trips": 3,
+      "start_trips": 4,
+      "station": "Humber River Hospital",
+      "total_trips": 7,
       "year": 2026
     },
     {
@@ -49864,13 +49920,6 @@
       "year": 2026
     },
     {
-      "end_trips": 4,
-      "start_trips": 3,
-      "station": "Armel Ct / Albion Rd",
-      "total_trips": 7,
-      "year": 2026
-    },
-    {
       "end_trips": 3,
       "start_trips": 4,
       "station": "Kennedy Rd / Finch Recreational Trail",
@@ -49879,57 +49928,8 @@
     },
     {
       "end_trips": 4,
-      "start_trips": 3,
-      "station": "Martin Grove Rd / Lexington Ave",
-      "total_trips": 7,
-      "year": 2026
-    },
-    {
-      "end_trips": 4,
-      "start_trips": 3,
-      "station": "Shaughnessy Blvd / Sheppard Ave E",
-      "total_trips": 7,
-      "year": 2026
-    },
-    {
-      "end_trips": 3,
-      "start_trips": 4,
-      "station": "Humber River Hospital",
-      "total_trips": 7,
-      "year": 2026
-    },
-    {
-      "end_trips": 2,
-      "start_trips": 5,
-      "station": "YZD",
-      "total_trips": 7,
-      "year": 2026
-    },
-    {
-      "end_trips": 5,
       "start_trips": 2,
-      "station": "Grenoble Dr / Vendome Pl",
-      "total_trips": 7,
-      "year": 2026
-    },
-    {
-      "end_trips": 4,
-      "start_trips": 3,
-      "station": "Victoria Park Ave / Edge Park Ave",
-      "total_trips": 7,
-      "year": 2026
-    },
-    {
-      "end_trips": 3,
-      "start_trips": 4,
-      "station": "Colonel Danforth Park",
-      "total_trips": 7,
-      "year": 2026
-    },
-    {
-      "end_trips": 5,
-      "start_trips": 1,
-      "station": "Lawrence Ave E / Overture Rd",
+      "station": "Birchmount Rd / Kingston Rd",
       "total_trips": 6,
       "year": 2026
     },
@@ -49937,6 +49937,13 @@
       "end_trips": 3,
       "start_trips": 3,
       "station": "Eastgate Cres / Pharmacy Ave",
+      "total_trips": 6,
+      "year": 2026
+    },
+    {
+      "end_trips": 5,
+      "start_trips": 1,
+      "station": "Lawrence Ave E / Overture Rd",
       "total_trips": 6,
       "year": 2026
     },
@@ -49951,13 +49958,6 @@
       "end_trips": 5,
       "start_trips": 1,
       "station": "Surrey Ave / Victoria Park Ave",
-      "total_trips": 6,
-      "year": 2026
-    },
-    {
-      "end_trips": 4,
-      "start_trips": 2,
-      "station": "Birchmount Rd / Kingston Rd",
       "total_trips": 6,
       "year": 2026
     },
@@ -49983,23 +49983,16 @@
       "year": 2026
     },
     {
-      "end_trips": 4,
-      "start_trips": 1,
-      "station": "Brimley Rd / Brimorton Dr",
-      "total_trips": 5,
-      "year": 2026
-    },
-    {
-      "end_trips": 3,
-      "start_trips": 2,
-      "station": "Danforth Rd / Savarin St",
-      "total_trips": 5,
-      "year": 2026
-    },
-    {
       "end_trips": 2,
       "start_trips": 3,
       "station": "Fairview Mall Dr / Fairview Mall Dr E",
+      "total_trips": 5,
+      "year": 2026
+    },
+    {
+      "end_trips": 4,
+      "start_trips": 1,
+      "station": "Brimley Rd / Brimorton Dr",
       "total_trips": 5,
       "year": 2026
     },
@@ -50018,10 +50011,10 @@
       "year": 2026
     },
     {
-      "end_trips": 0,
-      "start_trips": 4,
-      "station": "Finch Ave W / Bathurst St",
-      "total_trips": 4,
+      "end_trips": 3,
+      "start_trips": 2,
+      "station": "Danforth Rd / Savarin St",
+      "total_trips": 5,
       "year": 2026
     },
     {
@@ -50032,16 +50025,9 @@
       "year": 2026
     },
     {
-      "end_trips": 2,
-      "start_trips": 2,
-      "station": "Corporate Dr / Lee Centre Dr",
-      "total_trips": 4,
-      "year": 2026
-    },
-    {
-      "end_trips": 2,
-      "start_trips": 2,
-      "station": "Eastview Park",
+      "end_trips": 0,
+      "start_trips": 4,
+      "station": "Finch Ave W / Bathurst St",
       "total_trips": 4,
       "year": 2026
     },
@@ -50055,84 +50041,28 @@
     {
       "end_trips": 2,
       "start_trips": 2,
+      "station": "Corporate Dr / Lee Centre Dr",
+      "total_trips": 4,
+      "year": 2026
+    },
+    {
+      "end_trips": 2,
+      "start_trips": 2,
       "station": "Firvalley Ct / Warden Ave",
       "total_trips": 4,
       "year": 2026
     },
     {
-      "end_trips": 1,
+      "end_trips": 2,
       "start_trips": 2,
-      "station": "Benshire Dr / The Meadoway",
-      "total_trips": 3,
-      "year": 2026
-    },
-    {
-      "end_trips": 1,
-      "start_trips": 2,
-      "station": "Livingston Rd (Highland Creek Trail)",
-      "total_trips": 3,
+      "station": "Eastview Park",
+      "total_trips": 4,
       "year": 2026
     },
     {
       "end_trips": 2,
       "start_trips": 1,
       "station": "Galloway Rd / Kingston Rd",
-      "total_trips": 3,
-      "year": 2026
-    },
-    {
-      "end_trips": 2,
-      "start_trips": 1,
-      "station": "Weston Rd / Sheppard Ave W",
-      "total_trips": 3,
-      "year": 2026
-    },
-    {
-      "end_trips": 2,
-      "start_trips": 1,
-      "station": "Old Cummer GO Station",
-      "total_trips": 3,
-      "year": 2026
-    },
-    {
-      "end_trips": 2,
-      "start_trips": 1,
-      "station": "Sheppard Ave W / Magellan Dr",
-      "total_trips": 3,
-      "year": 2026
-    },
-    {
-      "end_trips": 1,
-      "start_trips": 2,
-      "station": "Mallaby Park",
-      "total_trips": 3,
-      "year": 2026
-    },
-    {
-      "end_trips": 1,
-      "start_trips": 2,
-      "station": "Exbury Rd / Jane St",
-      "total_trips": 3,
-      "year": 2026
-    },
-    {
-      "end_trips": 2,
-      "start_trips": 1,
-      "station": "Heron Park Community Centre",
-      "total_trips": 3,
-      "year": 2026
-    },
-    {
-      "end_trips": 1,
-      "start_trips": 2,
-      "station": "Yonge St / Golfdale Rd",
-      "total_trips": 3,
-      "year": 2026
-    },
-    {
-      "end_trips": 2,
-      "start_trips": 1,
-      "station": "Jane St / Yorkwoods Gt",
       "total_trips": 3,
       "year": 2026
     },
@@ -50146,7 +50076,21 @@
     {
       "end_trips": 1,
       "start_trips": 2,
-      "station": "Birchmount Rd / The Meadoway",
+      "station": "Exbury Rd / Jane St",
+      "total_trips": 3,
+      "year": 2026
+    },
+    {
+      "end_trips": 2,
+      "start_trips": 1,
+      "station": "Jane St / Yorkwoods Gt",
+      "total_trips": 3,
+      "year": 2026
+    },
+    {
+      "end_trips": 2,
+      "start_trips": 1,
+      "station": "Old Cummer GO Station",
       "total_trips": 3,
       "year": 2026
     },
@@ -50158,16 +50102,65 @@
       "year": 2026
     },
     {
-      "end_trips": 0,
+      "end_trips": 2,
+      "start_trips": 1,
+      "station": "Heron Park Community Centre",
+      "total_trips": 3,
+      "year": 2026
+    },
+    {
+      "end_trips": 2,
+      "start_trips": 1,
+      "station": "Sheppard Ave W / Magellan Dr",
+      "total_trips": 3,
+      "year": 2026
+    },
+    {
+      "end_trips": 1,
       "start_trips": 2,
-      "station": "Ling Rd / Lawrence Ave E",
-      "total_trips": 2,
+      "station": "Benshire Dr / The Meadoway",
+      "total_trips": 3,
+      "year": 2026
+    },
+    {
+      "end_trips": 2,
+      "start_trips": 1,
+      "station": "Weston Rd / Sheppard Ave W",
+      "total_trips": 3,
+      "year": 2026
+    },
+    {
+      "end_trips": 1,
+      "start_trips": 2,
+      "station": "Mallaby Park",
+      "total_trips": 3,
+      "year": 2026
+    },
+    {
+      "end_trips": 1,
+      "start_trips": 2,
+      "station": "Yonge St / Golfdale Rd",
+      "total_trips": 3,
+      "year": 2026
+    },
+    {
+      "end_trips": 1,
+      "start_trips": 2,
+      "station": "Birchmount Rd / The Meadoway",
+      "total_trips": 3,
+      "year": 2026
+    },
+    {
+      "end_trips": 1,
+      "start_trips": 2,
+      "station": "Livingston Rd (Highland Creek Trail)",
+      "total_trips": 3,
       "year": 2026
     },
     {
       "end_trips": 1,
       "start_trips": 1,
-      "station": "Jane St / Milo Park Gt",
+      "station": "Keele St / Ewart Ave",
       "total_trips": 2,
       "year": 2026
     },
@@ -50188,14 +50181,14 @@
     {
       "end_trips": 1,
       "start_trips": 1,
-      "station": "Church St / Cypress St",
+      "station": "Jane St / Milo Park Gt",
       "total_trips": 2,
       "year": 2026
     },
     {
       "end_trips": 1,
       "start_trips": 1,
-      "station": "Kennedy Rd/Ranstone Gdns (Jack Goodlad Park)",
+      "station": "Warehouse EBS-Station",
       "total_trips": 2,
       "year": 2026
     },
@@ -50221,16 +50214,23 @@
       "year": 2026
     },
     {
-      "end_trips": 0,
-      "start_trips": 2,
-      "station": "Jane St / Spenvalley Dr",
+      "end_trips": 1,
+      "start_trips": 1,
+      "station": "Kennedy Rd/Ranstone Gdns (Jack Goodlad Park)",
       "total_trips": 2,
       "year": 2026
     },
     {
       "end_trips": 1,
       "start_trips": 1,
-      "station": "Keele St / Ewart Ave",
+      "station": "Lawrence East Station",
+      "total_trips": 2,
+      "year": 2026
+    },
+    {
+      "end_trips": 0,
+      "start_trips": 2,
+      "station": "Ling Rd / Lawrence Ave E",
       "total_trips": 2,
       "year": 2026
     },
@@ -50244,36 +50244,22 @@
     {
       "end_trips": 0,
       "start_trips": 2,
-      "station": "Thistletown Community Centre",
+      "station": "Jane St / Spenvalley Dr",
       "total_trips": 2,
       "year": 2026
     },
     {
       "end_trips": 1,
       "start_trips": 1,
-      "station": "Lawrence East Station",
-      "total_trips": 2,
-      "year": 2026
-    },
-    {
-      "end_trips": 1,
-      "start_trips": 1,
-      "station": "Warehouse EBS-Station",
+      "station": "Church St / Cypress St",
       "total_trips": 2,
       "year": 2026
     },
     {
       "end_trips": 0,
-      "start_trips": 1,
-      "station": "Mornelle Ct / Ellesmere Rd",
-      "total_trips": 1,
-      "year": 2026
-    },
-    {
-      "end_trips": 1,
-      "start_trips": 0,
-      "station": "Kitchener Rd / Kingston Rd",
-      "total_trips": 1,
+      "start_trips": 2,
+      "station": "Thistletown Community Centre",
+      "total_trips": 2,
       "year": 2026
     },
     {
@@ -50291,16 +50277,9 @@
       "year": 2026
     },
     {
-      "end_trips": 1,
-      "start_trips": 0,
-      "station": "Oakdale Community Centre",
-      "total_trips": 1,
-      "year": 2026
-    },
-    {
       "end_trips": 0,
       "start_trips": 1,
-      "station": "Brockley Dr / Lawrence Ave E",
+      "station": "Silverstone Dr / Stevenson Rd",
       "total_trips": 1,
       "year": 2026
     },
@@ -50314,14 +50293,21 @@
     {
       "end_trips": 1,
       "start_trips": 0,
-      "station": "Bike Shop Test Station",
+      "station": "Kitchener Rd / Kingston Rd",
       "total_trips": 1,
       "year": 2026
     },
     {
       "end_trips": 0,
       "start_trips": 1,
-      "station": "Silverstone Dr / Stevenson Rd",
+      "station": "Mornelle Ct / Ellesmere Rd",
+      "total_trips": 1,
+      "year": 2026
+    },
+    {
+      "end_trips": 0,
+      "start_trips": 1,
+      "station": "Brockley Dr / Lawrence Ave E",
       "total_trips": 1,
       "year": 2026
     },
@@ -50329,6 +50315,20 @@
       "end_trips": 1,
       "start_trips": 0,
       "station": "Test Pillar Station in Shift Warehouse",
+      "total_trips": 1,
+      "year": 2026
+    },
+    {
+      "end_trips": 1,
+      "start_trips": 0,
+      "station": "Bike Shop Test Station",
+      "total_trips": 1,
+      "year": 2026
+    },
+    {
+      "end_trips": 1,
+      "start_trips": 0,
+      "station": "Oakdale Community Centre",
       "total_trips": 1,
       "year": 2026
     }

@@ -57,8 +57,8 @@
   },
   {
     "name": "(GDL-008) C. Ignacio Zaragoza / C. J. Angulo",
-    "lat": 20.681871,
-    "lng": -103.350396,
+    "lat": 20.681953,
+    "lng": -103.349992,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -129,8 +129,8 @@
   },
   {
     "name": "(GDL-017) Av. México /C. Bernardo de Balbuena",
-    "lat": 20.679086,
-    "lng": -103.372841,
+    "lat": 20.679061,
+    "lng": -103.372907,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -249,8 +249,8 @@
   },
   {
     "name": "(GDL-032) C. Degollado / Av. Miguel Hidalgo",
-    "lat": 20.677263,
-    "lng": -103.344908,
+    "lat": 20.677224,
+    "lng": -103.345006,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -385,8 +385,8 @@
   },
   {
     "name": "(GDL-049) Lopez Cotilla / Penitenciaría",
-    "lat": 20.674086,
-    "lng": -103.35632,
+    "lat": 20.67414,
+    "lng": -103.355535,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -601,8 +601,8 @@
   },
   {
     "name": "(GDL-076) Calz. Revolución / C. San Fernando",
-    "lat": 20.670967,
-    "lng": -103.344848,
+    "lat": 20.670923,
+    "lng": -103.344755,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -677,9 +677,7 @@
     "lng": -103.373378,
     "first_seen": null,
     "last_seen": null,
-    "aliases": [
-      "PBSCTEST2"
-    ]
+    "aliases": []
   },
   {
     "name": "(GDL-086) C. Simón Bolivar / Av. Niños Héroes",
@@ -731,8 +729,8 @@
   },
   {
     "name": "(GDL-092) Calz Federalismo / Av Plan San Luis",
-    "lat": 20.696106,
-    "lng": -103.354949,
+    "lat": 20.696121,
+    "lng": -103.354877,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -947,8 +945,8 @@
   },
   {
     "name": "(GDL-119) C. Fco Rojas González /C. Garibaldi",
-    "lat": 20.68153,
-    "lng": -103.3785,
+    "lat": 20.681616,
+    "lng": -103.378607,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -1019,8 +1017,8 @@
   },
   {
     "name": "(GDL-128) Av. Morelos / C. Emilio Castelar",
-    "lat": 20.674988,
-    "lng": -103.384044,
+    "lat": 20.675505,
+    "lng": -103.384145,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -1171,8 +1169,8 @@
   },
   {
     "name": "(GDL-147) Calz. Lázaro Cárdenas/Av. Guadalupe",
-    "lat": 20.66623,
-    "lng": -103.39654,
+    "lat": 20.666216,
+    "lng": -103.396182,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -1203,8 +1201,8 @@
   },
   {
     "name": "(GDL-151) C. Capuchinas / Av. Chapalita",
-    "lat": 20.66,
-    "lng": -103.39496,
+    "lat": 20.660118,
+    "lng": -103.394863,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -1378,6 +1376,14 @@
     "aliases": []
   },
   {
+    "name": "(GDL-173) Av. 5 de Febrero / Av. Dr. R Michel",
+    "lat": 20.661973,
+    "lng": -103.346019,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
     "name": "(GDL-174) C. Juan de Zumárraga / Av. Tepeyac",
     "lat": 20.6641,
     "lng": -103.4003,
@@ -1432,7 +1438,7 @@
     "first_seen": null,
     "last_seen": null,
     "aliases": [
-      "Ex-ZPN-026 C. 16 Sep. / C. Fray A. de Segovia"
+      "ex-(ZPN-026) C. 16 Sep. / C. Fray A. de Segovia"
     ]
   },
   {
@@ -1442,7 +1448,7 @@
     "first_seen": null,
     "last_seen": null,
     "aliases": [
-      "Ex-ZPN-044"
+      "ex-(ZPN-044)"
     ]
   },
   {
@@ -1543,8 +1549,8 @@
   },
   {
     "name": "(GDL-194) Av. Revolución / C. Ramón López Ve",
-    "lat": 20.65048,
-    "lng": -103.30999,
+    "lat": 20.650726,
+    "lng": -103.310163,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -1974,7 +1980,7 @@
     "aliases": []
   },
   {
-    "name": "(GDL-248)C. Hospital / C. Humboldt",
+    "name": "(GDL-248) C. Hospital / C. Humboldt",
     "lat": 20.685609,
     "lng": -103.343731,
     "first_seen": null,
@@ -2022,7 +2028,7 @@
     "aliases": []
   },
   {
-    "name": "(GDL-254)Porfirio Díaz/Francisco Javier Mina",
+    "name": "(GDL-254) Porfirio Díaz/Francisco Javier Mina",
     "lat": 20.67067,
     "lng": -103.324521,
     "first_seen": null,
@@ -2078,9 +2084,9 @@
     "aliases": []
   },
   {
-    "name": "(GDL-261)C. Jarauta, Javier Mina",
-    "lat": 20.672634,
-    "lng": -103.331562,
+    "name": "(GDL-261) C. Jarauta, Javier Mina",
+    "lat": 20.672538,
+    "lng": -103.331579,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -2088,7 +2094,7 @@
   {
     "name": "(GDL-262) Av. Gigantes / C. Aquiles Serdán",
     "lat": 20.670429,
-    "lng": -103.330044,
+    "lng": -103.330045,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -2199,8 +2205,8 @@
   },
   {
     "name": "(GDL-276) Francisco de Quevedo / Miguel Lerdo",
-    "lat": 20.671287,
-    "lng": -103.381383,
+    "lat": 20.671045,
+    "lng": -103.381349,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -2230,9 +2236,9 @@
     "aliases": []
   },
   {
-    "name": "(GDL-280) Golfo de Cortes/ Fernando de Celada",
-    "lat": 20.675522,
-    "lng": -103.388278,
+    "name": "(GDL-280) Av. Vallarta / C. Aurelio Aceves",
+    "lat": 20.674248,
+    "lng": -103.388504,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -2246,9 +2252,577 @@
     "aliases": []
   },
   {
-    "name": "(MIBICI)  E. González Martínez/ Av. La Paz",
-    "lat": 20.668962,
-    "lng": -103.351825,
+    "name": "(GDL-282) Libertad/Av. Chapultepec Sur",
+    "lat": 20.673076,
+    "lng": -103.368316,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "(GDL-283) Calderón de la Barca /Av. de La Paz",
+    "lat": 20.672056,
+    "lng": -103.378611,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "(GDL-284) F. de Quevedo/M. Lopez Cotilla",
+    "lat": 20.673598,
+    "lng": -103.381342,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "(GDL-285) D. de Rivas/Av. Ignacio L Vallarta",
+    "lat": 20.674181,
+    "lng": -103.382709,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "(GDL-286) T. V. Gómez /Av. José Maria Morelos",
+    "lat": 20.675788,
+    "lng": -103.382649,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "(GDL-287) Av .de los Arcos/M. Lopez Cotilla",
+    "lat": 20.673211,
+    "lng": -103.384808,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "(GDL-288) C. Pompeya / Av. Rubén Darío",
+    "lat": 20.690582,
+    "lng": -103.384644,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "(GDL-289) Av. México / Av. López Mateos",
+    "lat": 20.679546,
+    "lng": -103.384591,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "(GDL-290) C. Nápoles / Av. Rubén Darío",
+    "lat": 20.692,
+    "lng": -103.383626,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "(GDL-291) Av. México / Av. Yaquis",
+    "lat": 20.679313,
+    "lng": -103.39312,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "(GDL-292) C. Gral. Coronado / C. Miraflores",
+    "lat": 20.692559,
+    "lng": -103.364358,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "(GDL-293) R. Azalea / R. del Nardo",
+    "lat": 20.681449,
+    "lng": -103.399272,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "(GDL-294) Tucidides / Hidalgo",
+    "lat": 20.676472,
+    "lng": -103.396028,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "(GDL-295) C. Tarahumaras / Av. Manuel Acuña",
+    "lat": 20.684117,
+    "lng": -103.39436,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "(GDL-296) C. Esquilo / C. Alejandro",
+    "lat": 20.675611,
+    "lng": -103.400667,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "(GDL-297) Calz. Independencia / Av. República",
+    "lat": 20.677355,
+    "lng": -103.34046,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "(GDL-298) San Juan de los Lagos / Chapala",
+    "lat": 20.672946,
+    "lng": -103.393727,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "(GDL-299) Av. Toltecas / C. Huicholes",
+    "lat": 20.681944,
+    "lng": -103.395218,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "(GDL-300)  C.  Enrique Rodó / C. J.M. Heredia",
+    "lat": 20.688609,
+    "lng": -103.379321,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "(GDL-301) C. José María Vigil / Av. Américas",
+    "lat": 20.68981,
+    "lng": -103.37304,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "(GDL-302) C. Órbita / C. Astros",
+    "lat": 20.667361,
+    "lng": -103.3865,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "(GDL-303) Sta. Irene / Av. Lopez Mateos Sur",
+    "lat": 20.667806,
+    "lng": -103.392139,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "(GDL-304)  J. M. B. y Souza/P. Feliciano",
+    "lat": 20.670719,
+    "lng": -103.39679,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "(GDL-305) C. Huicholes / Av. México",
+    "lat": 20.679155,
+    "lng": -103.395646,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "(GDL-307) Calz.Federalismo /C.Juan Alvarez",
+    "lat": 20.684369,
+    "lng": -103.3539,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "(GDL-308) C. Ignacio Ramírez  /C.  Ering",
+    "lat": 20.6998,
+    "lng": -103.363098,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "(GDL-309) Federalismo / Av. Circunvalación",
+    "lat": 20.707258,
+    "lng": -103.355018,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "(GDL-310)  C. Alameda / C. Gonzálo Curiel",
+    "lat": 20.692313,
+    "lng": -103.334421,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "(GDL-311) Glez Gallo / Calz.Independencia",
+    "lat": 20.66172,
+    "lng": -103.348242,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "(GDL-312) J.D. Covarrubias / Esteban Alatorre",
+    "lat": 20.681183,
+    "lng": -103.332935,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "(GDL-313) C. Manuel Doblado / C. Federación",
+    "lat": 20.679471,
+    "lng": -103.331268,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "(GDL-314) C. Industria / C. Aquiles Serdán",
+    "lat": 20.678909,
+    "lng": -103.327039,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "(GDL-315) J. Ortiz de Dmgz / Belisario Dmgz",
+    "lat": 20.675573,
+    "lng": -103.329125,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "(GDL-316) Emiliano Zapata / Francisco de Ayza",
+    "lat": 20.676194,
+    "lng": -103.326389,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "(GDL-317) Emiliano Zapata / Javier Mina",
+    "lat": 20.672019,
+    "lng": -103.327905,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "(GDL-318) C. Porfirio Díaz / C. Industria",
+    "lat": 20.678184,
+    "lng": -103.321846,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "(GDL-319) Francisco de Ayza /Esteban Loera",
+    "lat": 20.676306,
+    "lng": -103.323389,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "(GDL-320)   Porfirio Díaz / Dioniso Rodríguez",
+    "lat": 20.673046,
+    "lng": -103.323615,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "(GDL-321) Celestino Negrete/Francisco de Ayza",
+    "lat": 20.675235,
+    "lng": -103.320907,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "(GDL-322) J. María Gómez /Francisco de Ayza",
+    "lat": 20.6745,
+    "lng": -103.318055,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "(GDL-324) P. Celestino Negrete / Javier Mina",
+    "lat": 20.670574,
+    "lng": -103.322436,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "(GDL-325) D.Rodríguez / Álvarez del Castillo",
+    "lat": 20.671204,
+    "lng": -103.318155,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "(GDL-326) J. M. Gómez / Av. Javier Mina",
+    "lat": 20.669267,
+    "lng": -103.319869,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "(GDL-327) C. Comonfort / C. Gigantes",
+    "lat": 20.667158,
+    "lng": -103.320661,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "(GDL-328) Gral. P. M.Anaya / Basilio Vadillo",
+    "lat": 20.671518,
+    "lng": -103.315318,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "(GDL-330) C.F. Gomez  / C.J. de Dios Robledo",
+    "lat": 20.669081,
+    "lng": -103.314765,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "(GDL-331) J. Ortiz de Dmgz /Sebastián Allende",
+    "lat": 20.671909,
+    "lng": -103.312766,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "(GDL-332) Agustín Basave / Av. Javier Mina",
+    "lat": 20.667371,
+    "lng": -103.313454,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "(GDL-333) Damian Carmona/Fco Gmz de Mendiola",
+    "lat": 20.667971,
+    "lng": -103.312301,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "(GDL-334) Rivas Guillén/Ortiz de Domínguez",
+    "lat": 20.670758,
+    "lng": -103.310397,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "(GDL-335) Dionisio Rdgz/González Bocanegra",
+    "lat": 20.668794,
+    "lng": -103.310139,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "(GDL-336) G. Rivas Guillén/Álvaro Obregón",
+    "lat": 20.666306,
+    "lng": -103.311833,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "(GDL-337) Ortiz de Domínguez/Pánfilo Pérez",
+    "lat": 20.670163,
+    "lng": -103.306798,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "(GDL-338) C. Dionisio Rodríguez / C. F. Villa",
+    "lat": 20.668265,
+    "lng": -103.308376,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "(GDL-339) Francisco Villa / Av. Javier Mina",
+    "lat": 20.666435,
+    "lng": -103.30878,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "(GDL-340) J.Ortiz de Dmgz / Felipe Ángeles",
+    "lat": 20.669116,
+    "lng": -103.303658,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "(GDL-341) Ventura Anaya/Dionisio Rodríguez",
+    "lat": 20.667559,
+    "lng": -103.305346,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "(GDL-344) F. Gómez de Mendiola /Lagunitas",
+    "lat": 20.665729,
+    "lng": -103.300345,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "(GDL-345) Lagunitas / Av.  Javier Mina",
+    "lat": 20.664078,
+    "lng": -103.300716,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "(GDL-347) Av. Javier Mina /Av P. Elias Calles",
+    "lat": 20.663757,
+    "lng": -103.297112,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "(GDL-348) Comonfort / C. Federico Medrano",
+    "lat": 20.663438,
+    "lng": -103.321909,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "(GDL-349) C. Antonio Tello / C. Aldama",
+    "lat": 20.663861,
+    "lng": -103.318694,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "(GDL-350) C. Artes / C. Antonio Tello",
+    "lat": 20.660556,
+    "lng": -103.319944,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "(GDL-351) Valentín Gómez Farías / Irineo Paz",
+    "lat": 20.664361,
+    "lng": -103.316333,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "(GDL-356) C. Francisco Márquez / C. Gigantes",
+    "lat": 20.663925,
+    "lng": -103.30959,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "(GDL-358) Rosa Navarro / Federico Medrano",
+    "lat": 20.657691,
+    "lng": -103.307226,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "(GDL-359) C. Ramón López Velarde / C. Artes",
+    "lat": 20.655618,
+    "lng": -103.309284,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "(GDL-360) Ramón López Velarde / Antártica",
+    "lat": 20.653538,
+    "lng": -103.309692,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "(GDL-362) Av. del Chamizal / C. San Andrés",
+    "lat": 20.661901,
+    "lng": -103.304277,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "(GDL-363) J. María Verea/J. Delgadillo Araujo",
+    "lat": 20.658568,
+    "lng": -103.302555,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "(GDL-364)  J. Delgadillo Araujo/ Medrano",
+    "lat": 20.656079,
+    "lng": -103.303276,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "(GDL-366) C. Gutiérrez Hermosillo / C. Ejido",
+    "lat": 20.650406,
+    "lng": -103.30733,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -2383,8 +2957,8 @@
   },
   {
     "name": "(ZPN-002) C. Emilio Carranza /C. Independenci",
-    "lat": 20.726376,
-    "lng": -103.397466,
+    "lat": 20.726323,
+    "lng": -103.39762,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -2679,16 +3253,16 @@
   },
   {
     "name": "(ZPN-045) Av. Tizoc / C. Iztaccíhuatl",
-    "lat": 20.65701,
-    "lng": -103.40464,
+    "lat": 20.656863,
+    "lng": -103.404257,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
   },
   {
     "name": "(ZPN-046) Av. Cubilete / Av. López Mateos",
-    "lat": 20.656866,
-    "lng": -103.397725,
+    "lat": 20.656885,
+    "lng": -103.397839,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -2824,11 +3398,11 @@
   {
     "name": "(ZPN-063) Paulino Navarro/Ma del Refugio Puga",
     "lat": 20.722987,
-    "lng": -103.373332,
+    "lng": -103.373333,
     "first_seen": null,
     "last_seen": null,
     "aliases": [
-      "(exZPN-063) C. San Felipe Neri / Av. Guadalu"
+      "ex-(ZPN-063) C. San Felipe Neri / Av. Guadalu"
     ]
   },
   {
@@ -2881,8 +3455,8 @@
   },
   {
     "name": "(ZPN-070)Av. Avila Camacho / Av. Patria",
-    "lat": 20.71285,
-    "lng": -103.375665,
+    "lat": 20.712724,
+    "lng": -103.375428,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -2953,54 +3527,246 @@
   },
   {
     "name": "(ZPN-079) Av. Coyoacan / C. Chimalpopoca",
-    "lat": 20.652921,
-    "lng": -103.404755,
+    "lat": 20.652958,
+    "lng": -103.404767,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
   },
   {
-    "name": "(exZPN-014) C. Plata / Av. Laureles",
-    "lat": 20.718374,
-    "lng": -103.374218,
+    "name": "(ZPN-080) Av. Moctezuma / Av. Netzahualcóyotl",
+    "lat": 20.650771,
+    "lng": -103.406375,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
   },
   {
-    "name": "Demo GDL",
-    "lat": 20.670222,
-    "lng": -103.354631,
+    "name": "(ZPN-081) Cedros  / Av. Moctezuma",
+    "lat": 20.650555,
+    "lng": -103.409953,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
   },
   {
-    "name": "EX-GDL-173 C. Caballerango / C. Caporales",
-    "lat": 20.64504,
-    "lng": -103.30518,
+    "name": "(ZPN-082) Av. Clouthier / C. Felipe Carrillo",
+    "lat": 20.647771,
+    "lng": -103.427545,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
   },
   {
-    "name": "EX-ZPN-023 C. Juan Diego / C. Sarcófago",
-    "lat": 20.72489,
-    "lng": -103.383614,
+    "name": "(ZPN-083)  C. Playa de Hornos / C. Playa Oro",
+    "lat": 20.648378,
+    "lng": -103.430617,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
   },
   {
-    "name": "EX-ZPN-024 Manuel H. Alatorre / C. Industria",
-    "lat": 20.72356,
-    "lng": -103.381901,
+    "name": "(ZPN-084) Av. Clouthier / Av. Moctezuma",
+    "lat": 20.650044,
+    "lng": -103.426435,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
   },
   {
-    "name": "Ex-GDL-020 Juan Manuel / C.General Coronado",
+    "name": "(ZPN-085) Av. San Luis G. / C. San Antonio",
+    "lat": 20.66546,
+    "lng": -103.414459,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "(ZPN-086) C. Tulum / Av. Labna",
+    "lat": 20.653517,
+    "lng": -103.41844,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "(ZPN-087) G.Haendel / Sto Tomas de Aquino",
+    "lat": 20.667084,
+    "lng": -103.420433,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "(ZPN-088) C. Paulino Navarro / C.  Olachea",
+    "lat": 20.722774,
+    "lng": -103.370512,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "(ZPN-089) C. Arquitectos/Av. San Luis Gonzaga",
+    "lat": 20.664611,
+    "lng": -103.425,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "(ZPN-090) Av. Toreros / Av.Luis Gonzaga",
+    "lat": 20.664047,
+    "lng": -103.428736,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "(ZPN-091) Av. Toreros Sur / Av. Guadalupe",
+    "lat": 20.661357,
+    "lng": -103.428244,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "(ZPN-092) Guadalupe / UERE Pasaportes-Zapopan",
+    "lat": 20.658884,
+    "lng": -103.433215,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "(ZPN-093)/Boulevard panamericano",
+    "lat": 20.727722,
+    "lng": -103.382721,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "(ZPN-094) Av. V. el Colli / C. V. Paricutín",
+    "lat": 20.642144,
+    "lng": -103.429911,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "(ZPN-095) Lateral Periférico/ CUCEA",
+    "lat": 20.739523,
+    "lng": -103.381326,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "(ZPN-096)  Lat.Perif. / Exp. Constitución",
+    "lat": 20.738009,
+    "lng": -103.377227,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "(ZPN-097) Prol. Arquitectos Sur/ Av. Tepeyac",
+    "lat": 20.655345,
+    "lng": -103.425162,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "(ZPN-098) Playa de Hornos / Av. Tepeyac",
+    "lat": 20.654377,
+    "lng": -103.428041,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "(ZPN-099) C. Playa Olas / Av. El Colli",
+    "lat": 20.646962,
+    "lng": -103.431648,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "(ZPN-100)  C. Popocatépetl / C. Volcán Barú",
+    "lat": 20.643779,
+    "lng": -103.432633,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "(ZPN-101) C. Volcán Quinceo/C. Ignacio C.",
+    "lat": 20.641206,
+    "lng": -103.432208,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "(ZPN-102) C. Volcán del Colli/V. del Ajusco",
+    "lat": 20.644229,
+    "lng": -103.428828,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "(ZPN-103) C. Zetter/Av. Ladron de Guevara",
+    "lat": 20.640108,
+    "lng": -103.430757,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "(ZPN-104) Av. D / C. 9",
+    "lat": 20.718288,
+    "lng": -103.371795,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "(ZPN-105) Av. Atemajac/Colinas del Congreso",
+    "lat": 20.721205,
+    "lng": -103.365756,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "(ZPN-106) Av. Atemajac/Colinas del Capitolio",
+    "lat": 20.72091,
+    "lng": -103.362985,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "(ZPN-107) C. Colina Aria / Av. Díaz de León",
+    "lat": 20.719219,
+    "lng": -103.361447,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "(ZPN-108) Av. Atemajac / Av. Yermo y Parra",
+    "lat": 20.721377,
+    "lng": -103.368757,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "ex-(GDL-020) Juan Manuel / C.General Coronado",
     "lat": 20.678714,
     "lng": -103.36573,
     "first_seen": null,
@@ -3008,7 +3774,7 @@
     "aliases": []
   },
   {
-    "name": "Ex-GDL-156 C. Crepúsculo / Av. Mariano Otero",
+    "name": "ex-(GDL-156) C. Crepúsculo / Av. Mariano Otero",
     "lat": 20.6564,
     "lng": -103.38956,
     "first_seen": null,
@@ -3016,15 +3782,15 @@
     "aliases": []
   },
   {
-    "name": "Ex-GDL-182 Av. Plan de San Luis / Av. Enríque",
-    "lat": 20.696972,
-    "lng": -103.358198,
+    "name": "ex-(GDL-173) C. Caballerango / C. Caporales",
+    "lat": 20.64504,
+    "lng": -103.30518,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
   },
   {
-    "name": "Ex-TLQ-006 C. Zalatitán / Av. Francisco Silva",
+    "name": "ex-(TLQ-006) C. Zalatitán / Av. Francisco Silva",
     "lat": 20.641848,
     "lng": -103.3026,
     "first_seen": null,
@@ -3032,7 +3798,7 @@
     "aliases": []
   },
   {
-    "name": "Ex-TLQ-008 C. Juárez / C.Francisco de Miranda",
+    "name": "ex-(TLQ-008) C. Juárez / C.Francisco de Miranda",
     "lat": 20.63841,
     "lng": -103.31334,
     "first_seen": null,
@@ -3040,7 +3806,7 @@
     "aliases": []
   },
   {
-    "name": "Ex-ZPN-007 C. Libertad / Nicolás Bravo",
+    "name": "ex-(ZPN-007) C. Libertad / Nicolás Bravo",
     "lat": 20.726196,
     "lng": -103.392672,
     "first_seen": null,
@@ -3048,7 +3814,7 @@
     "aliases": []
   },
   {
-    "name": "Ex-ZPN-009 C. Del Corral / C. Nicolás Bravo",
+    "name": "ex-(ZPN-009) C. Del Corral / C. Nicolás Bravo",
     "lat": 20.685108,
     "lng": -103.333746,
     "first_seen": null,
@@ -3056,9 +3822,33 @@
     "aliases": []
   },
   {
-    "name": "Ex-ZPN-019 C. Cabecera Mpal. Juan Manuel / C.",
+    "name": "ex-(ZPN-019) C. Cabecera Mpal. Juan Manuel / C.",
     "lat": 20.723221,
     "lng": -103.385583,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "ex-(ZPN-023) C. Juan Diego / C. Sarcófago",
+    "lat": 20.72489,
+    "lng": -103.383614,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "ex-(ZPN-024) Manuel H. Alatorre / C. Industria",
+    "lat": 20.72356,
+    "lng": -103.381901,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "ex-GDL-182 Av. Plan de San Luis / Av. Enríque",
+    "lat": 20.696972,
+    "lng": -103.358198,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
