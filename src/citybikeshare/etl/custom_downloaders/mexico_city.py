@@ -15,7 +15,9 @@ from citybikeshare.etl.custom_downloaders.utils.browser import launch_chromium
 _MAX_CONCURRENT_DOWNLOADS = 4
 
 
-def _fetch_csv_hrefs(playwright, url):
+def _fetch_csv_links(playwright, url):
+    """Return the page's CSV anchors as (label, href) pairs; the label is the month
+    ("2025-02") the page claims the link is for."""
     browser = launch_chromium(playwright)
     context = browser.new_context()
     page = context.new_page()
@@ -30,11 +32,39 @@ def _fetch_csv_hrefs(playwright, url):
     # UI no longer lets us click them, but the href is a direct link to the file.
     page.wait_for_selector("a[href*='.csv']", state="attached", timeout=60000)
 
-    hrefs = page.eval_on_selector_all(
-        "a[href*='.csv']", "els => els.map(el => el.getAttribute('href'))"
+    links = page.eval_on_selector_all(
+        "a[href*='.csv']",
+        "els => els.map(el => [el.textContent.trim(), el.getAttribute('href')])",
     )
     browser.close()
-    return hrefs
+    return [(label, href) for label, href in links]
+
+
+def _apply_url_overrides(links, overrides):
+    """Point each overridden month label at its configured file, adding labels the
+    page doesn't list at all. ecobici's page is an unreliable index: some labels link
+    the wrong file, and some months exist on the server with no link (see
+    `url_overrides` in the city config)."""
+    resolved = [(label, overrides.get(label, href)) for label, href in links]
+    listed = {label for label, _ in links}
+    resolved += [(label, href) for label, href in overrides.items() if label not in listed]
+    return resolved
+
+
+def _assert_unique_hrefs(links):
+    """Two month labels sharing one file means a month is silently missing — how
+    Feb 2025 was lost (its label pointed at 2025-01.csv)."""
+    labels_by_href = {}
+    for label, href in links:
+        labels_by_href.setdefault(href, []).append(label)
+    shared = {href: labels for href, labels in labels_by_href.items() if len(labels) > 1}
+    if shared:
+        details = "; ".join(f"{href} <- {labels}" for href, labels in shared.items())
+        raise ValueError(
+            f"ecobici page links one file under several month labels: {details}. "
+            "Find the real file for the mislinked month (the WordPress media API, "
+            "/wp-json/wp/v2/media, lists every upload) and add it to url_overrides."
+        )
 
 
 def _download_csv(file_url, csv_path):
@@ -60,9 +90,10 @@ def _download_csv(file_url, csv_path):
     os.replace(part_path, target_path)
 
 
-def run_get_exports(playwright, url, csv_path):
-    hrefs = _fetch_csv_hrefs(playwright, url)
-    file_urls = [urljoin(url, href) for href in hrefs]
+def run_get_exports(playwright, url, csv_path, url_overrides):
+    links = _apply_url_overrides(_fetch_csv_links(playwright, url), url_overrides)
+    _assert_unique_hrefs(links)
+    file_urls = [urljoin(url, href) for _, href in links]
 
     with ThreadPoolExecutor(max_workers=_MAX_CONCURRENT_DOWNLOADS) as executor:
         futures = [
@@ -78,4 +109,6 @@ def download(config, context):
     url = config.get("source_url")
     download_path = context.download_directory
     with sync_playwright() as playwright:
-        run_get_exports(playwright, url, download_path)
+        run_get_exports(
+            playwright, url, download_path, config.get("url_overrides", {})
+        )

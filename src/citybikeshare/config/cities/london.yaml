@@ -81,4 +81,8 @@ processing_pipeline:
 invalid_values:
   end_station_name: ["NA,0", "Penton Workshop,0", "6,0", "tabletop1,0"]
 
-
+# Months the coverage check allows because of a defect not yet fixed. Remove an entry once
+# its fix lands — the check fails while a listed month is complete.
+known_gaps:
+  # TODO: TfL publishes week 49 (15–21 Mar 2017) only as .xlsx, which the pipeline doesn't read.
+  - "2017-03"

@@ -41,3 +41,6 @@ processing_pipeline:
   - select_final_columns
   - convert_to_datetime
 
+# Months the coverage check (analysis/verify_month_coverage.py) allows: genuine gaps.
+expected_gaps:
+  - "2020-03..2020-05"  # COVID lockdown suspended the system

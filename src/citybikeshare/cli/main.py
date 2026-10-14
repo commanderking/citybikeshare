@@ -16,6 +16,7 @@ from citybikeshare.etl.clean import clean_city_data
 from citybikeshare.etl.transform import transform_city_data
 from citybikeshare.context import build_context
 from citybikeshare.analysis.summarize import summarize_city
+from citybikeshare.analysis.verify_month_coverage import verify_month_coverage
 from citybikeshare.analysis.merge_summaries import merge_city_summaries
 from citybikeshare.analysis.generate_duration_buckets import (
     generate_duration_buckets,
@@ -137,30 +138,37 @@ def build_station_coordinates(
     builder(context)
 
 
-def run_city_analysis(context, duration_buckets_only: bool = False) -> None:
-    """Run the per-city analysis steps in order. ``duration_buckets_only`` limits the run to the
-    duration-bucket step (the analyze-all ``--duration_buckets`` fast path)."""
+def run_city_analysis(context, duration_buckets_only: bool = False) -> list[str]:
+    """Run the per-city analysis steps in order, returning the city's known gaps.
+    ``duration_buckets_only`` limits the run to the duration-bucket step (the analyze-all
+    ``--duration_buckets`` fast path)."""
     if duration_buckets_only:
         generate_duration_buckets(context)
-        return
+        return []
+    known_gaps = verify_month_coverage(context)
     summarize_city(context)
     generate_duration_buckets(context)
     generate_visuals(context)
     generate_station_coords(context)
     canonicalize_station_coords(context)
     count_station_trips(context)
+    return known_gaps
+
+
+def format_known_gaps(city: str, known_gaps: list[str]) -> str:
+    return f"⚠️  {city}: {len(known_gaps)} known gap month(s): {', '.join(known_gaps)}"
 
 
 def analyze_single_city(
     city: str, duration_buckets_only: bool
-) -> tuple[str, bool, str]:
+) -> tuple[str, bool, str, list[str]]:
     """Analyze one city, isolating failures so one bad city can't abort the whole run.
-    Returns (city, success, message)."""
+    Returns (city, success, message, known_gaps)."""
     try:
-        run_city_analysis(build_context(city), duration_buckets_only)
-        return (city, True, "✅ Finished successfully")
+        known_gaps = run_city_analysis(build_context(city), duration_buckets_only)
+        return (city, True, "✅ Finished successfully", known_gaps)
     except Exception as e:
-        return (city, False, f"❌ Failed: {e}")
+        return (city, False, f"❌ Failed: {e}", [])
 
 
 @app.command()
@@ -170,7 +178,9 @@ def analyze(
     """
     Analyze transformed Parquet data and generate per-year summary JSON.
     """
-    run_city_analysis(build_context(city))
+    known_gaps = run_city_analysis(build_context(city))
+    if known_gaps:
+        typer.secho(format_known_gaps(city, known_gaps), fg=typer.colors.YELLOW)
 
 
 @app.command()
@@ -200,25 +210,32 @@ def analyze_all(
         for future in as_completed(future_to_city):
             city = future_to_city[future]
             try:
-                city, success, message = future.result()
-                color = typer.colors.GREEN if success else typer.colors.RED
-                typer.secho(f"{city}: {message}", fg=color)
-                results.append((city, success))
+                city, success, message, known_gaps = future.result()
             except Exception as e:
-                typer.secho(f"{city}: ❌ Unexpected failure: {e}", fg=typer.colors.RED)
-                results.append((city, False))
+                success, message, known_gaps = False, f"❌ Unexpected failure: {e}", []
+            color = typer.colors.GREEN if success else typer.colors.RED
+            typer.secho(f"{city}: {'✅' if success else '❌'}", fg=color)
+            results.append((city, success, message, known_gaps))
 
-    # 🧾 Summary
-    total = len(results)
-    failed = [c for c, ok in results if not ok]
+    # 🧾 Summary — failure details and known gaps gathered here so they aren't lost in the
+    # interleaved per-city progress output above.
+    results.sort()
+    failed = [(c, msg) for c, ok, msg, _ in results if not ok]
+    with_known_gaps = [(c, gaps) for c, ok, _, gaps in results if ok and gaps]
     typer.echo("\n🧮 Summary:")
-    typer.echo(f"  Total: {total}")
-    typer.echo(f"  Successful: {total - len(failed)}")
+    typer.echo(f"  Total: {len(results)}")
+    typer.echo(f"  Successful: {len(results) - len(failed)}")
     typer.echo(f"  Failed: {len(failed)}")
+    if with_known_gaps:
+        typer.echo("\nKnown gaps (defects listed under known_gaps in each city config):")
+        for city, gaps in with_known_gaps:
+            typer.secho(f"  {format_known_gaps(city, gaps)}", fg=typer.colors.YELLOW)
     if failed:
-        typer.echo(f"  ❌ Failed cities: {', '.join(failed)}")
-    else:
-        typer.echo("  ✅ All cities analyzed successfully!")
+        typer.echo("\nFailures:")
+        for city, message in failed:
+            typer.secho(f"  {city}: {message}", fg=typer.colors.RED)
+        raise typer.Exit(code=1)
+    typer.echo("\n  ✅ All cities analyzed successfully!")
 
 
 @app.command()

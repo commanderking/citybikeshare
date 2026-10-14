@@ -72,3 +72,11 @@ coordinates:
     id:   [end_station_id]
     lat:  [end_lat]
     lng:  [end_lng]
+
+# Months the coverage check allows because of a defect not yet fixed. Remove an entry once
+# its fix lands — the check fails while a listed month is complete.
+known_gaps:
+  # TODO: file_matcher skips 201801_capitalbikeshare_tripdata (underscores) and
+  # 202302-captialbikeshare-tripdata (source typo); both are in raw/.
+  - "2018-01"
+  - "2023-02"

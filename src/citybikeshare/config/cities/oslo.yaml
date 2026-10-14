@@ -44,3 +44,10 @@ coordinates:
     lat:  [end_station_latitude]
     lng:  [end_station_longitude]
 
+# Months the coverage check (analysis/verify_month_coverage.py) allows: genuine gaps.
+expected_gaps:
+  # Oslo Bysykkel closed each winter through 2019-20.
+  - "2016-12..2017-03"
+  - "2017-11..2018-03"
+  - "2018-12..2019-03"
+  - "2019-12..2020-03"

@@ -5,6 +5,27 @@ aws_sync: false
 file_matcher:
   - ".csv"
   - ".zip"
+
+# ecobici's open-data page is an unreliable index of its own uploads: some month labels
+# link the wrong file, and some months are on the server with no link. Each entry points a
+# month label at the right upload (the WordPress media API, /wp-json/wp/v2/media, lists them).
+url_overrides:
+  # The page's "2025-02" link points at 2025-01.csv.
+  "2025-02": "/wp-content/uploads/2025/03/2025-02.csv"
+  # The linked 2024-05.csv stops at May 15; this later re-upload is the full month
+  # (2,053,563 trips, matching SEMOVI's published count).
+  "2024-05": "/wp-content/uploads/2024/06/2024-05-1.csv"
+  # Re-export of 2022-09.csv with the same trips, minus that file's 129,541 Excel-mangled
+  # (MM:SS.s) times, which left departures unrecoverable.
+  "2022-09": "/wp-content/uploads/2023/08/202209.csv"
+  # Uploaded but no longer linked from the page.
+  "2020-12": "/wp-content/uploads/2022/08/2020-12.csv"
+
+# The files the url_overrides above supersede, still on disk from earlier syncs.
+excluded_filenames:
+  - "2024-05.csv"
+  - "2022-09.csv"
+
 clean_pipeline: 
   - normalize_newlines
 renamed_columns:
@@ -19,7 +40,7 @@ renamed_columns:
   Fecha_Arribo: end_date
   Hora_Arribo: ending_time
 
-  # Misaligned / lowercase variant (2022-09.csv)
+  # Misaligned / lowercase variant (202209.csv)
   Genero_usuario: gender
   Edad_usuario: age
   CE_retiro: start_station_id
@@ -61,21 +82,11 @@ read_csv_options:
 processing_pipeline:
   - rename_columns
   - remove_invalid_rows
-  # Before the station join: recover_corrupt_times relies on the source's arrival order,
-  # which a join can reshuffle.
-  - recover_corrupt_times
   - join_mexico_city_station_names
   - clean_datetimes
   - combine_datetimes
   - offset_two_digit_years
   - select_final_columns
-
-# Files whose source shipped Excel-mangled time cells (MM:SS.s, hour dropped from the
-# text). recover_corrupt_times rebuilds the arrival hour from the arrival-sorted order
-# for these files only (departures nulled — not sorted); any OTHER file with the pattern
-# is left to fail loud in clean_datetimes so a new occurrence is noticed.
-corrupt_time_files:
-  - "2022-09.csv"
 
 # Malformed station ids (leaked names, tag-reader errors, placeholder labels) that
 # appear in the id columns. Dropped before the station join so the coverage assert

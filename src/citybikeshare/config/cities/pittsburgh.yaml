@@ -57,3 +57,19 @@ processing_pipeline:
   - select_final_columns
   - cast_optional_columns
 
+# Months the coverage check allows because of a defect not yet fixed. Remove an entry once
+# its fix lands — the check fails while a listed month is complete.
+known_gaps:
+  # TODO: the downloader's WPRDC datastore_search call returns at most 32,000 rows and some
+  # monthly resources failed to download, so these months are truncated or missing.
+  - "2015-09"
+  - "2019-06"
+  - "2019-09"
+  - "2021-06"
+  - "2021-09"
+  - "2024-01"
+  - "2024-04"
+  - "2024-08..2024-12"
+  - "2025-02..2025-04"
+  - "2025-07..2025-11"
+  - "2026-02..2026-03"
