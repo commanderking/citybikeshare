@@ -34,7 +34,7 @@
   {
     "name": "10th & Monroe St NE",
     "lat": 38.932467,
-    "lng": -76.993389,
+    "lng": -76.99339,
     "first_seen": "2020-02-24",
     "last_seen": "2026-09-30",
     "aliases": []
@@ -101,7 +101,7 @@
   },
   {
     "name": "11th & C St SE",
-    "lat": 38.885912,
+    "lat": 38.885911,
     "lng": -76.991481,
     "first_seen": "2020-04-01",
     "last_seen": "2026-09-30",
@@ -109,7 +109,7 @@
   },
   {
     "name": "11th & Clifton St NW",
-    "lat": 38.922005,
+    "lat": 38.922007,
     "lng": -77.027113,
     "first_seen": "2022-08-23",
     "last_seen": "2026-09-30",
@@ -118,14 +118,14 @@
   {
     "name": "11th & F St NW",
     "lat": 38.897849,
-    "lng": -77.026986,
+    "lng": -77.026987,
     "first_seen": "2020-04-01",
     "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "11th & Girard St NW",
-    "lat": 38.9256,
+    "lat": 38.925601,
     "lng": -77.027122,
     "first_seen": "2020-03-28",
     "last_seen": "2026-09-30",
@@ -157,8 +157,8 @@
   },
   {
     "name": "11th & O St NW",
-    "lat": 38.908422,
-    "lng": -77.027103,
+    "lat": 38.908419,
+    "lng": -77.027102,
     "first_seen": "2020-04-01",
     "last_seen": "2026-09-30",
     "aliases": []
@@ -173,7 +173,7 @@
   },
   {
     "name": "11th & S St NW",
-    "lat": 38.913671,
+    "lat": 38.913672,
     "lng": -77.027077,
     "first_seen": "2020-04-01",
     "last_seen": "2026-09-30",
@@ -225,7 +225,7 @@
     "name": "12th & Varnum St NE",
     "lat": 38.943583,
     "lng": -76.990155,
-    "first_seen": "2023-03-01",
+    "first_seen": "2023-02-23",
     "last_seen": "2026-09-30",
     "aliases": []
   },
@@ -233,7 +233,7 @@
     "name": "12th St & New York Ave NW",
     "lat": 38.901107,
     "lng": -77.028061,
-    "first_seen": "2023-03-01",
+    "first_seen": "2023-02-07",
     "last_seen": "2026-09-30",
     "aliases": []
   },
@@ -264,7 +264,7 @@
   {
     "name": "1301 McCormick Dr / Wayne K. Curry Admin Bldg",
     "lat": 38.90838,
-    "lng": -76.843397,
+    "lng": -76.843396,
     "first_seen": "2020-04-07",
     "last_seen": "2026-09-30",
     "aliases": []
@@ -361,7 +361,7 @@
   },
   {
     "name": "14th & G St NW",
-    "lat": 38.898207,
+    "lat": 38.898206,
     "lng": -77.031972,
     "first_seen": "2020-04-01",
     "last_seen": "2026-09-30",
@@ -579,8 +579,8 @@
   },
   {
     "name": "15th & L St NW",
-    "lat": 38.903776,
-    "lng": -77.034803,
+    "lat": 38.903775,
+    "lng": -77.034804,
     "first_seen": "2020-04-01",
     "last_seen": "2026-09-30",
     "aliases": []
@@ -742,7 +742,7 @@
   {
     "name": "17th & K St NW / Farragut Square",
     "lat": 38.902067,
-    "lng": -77.038331,
+    "lng": -77.03833,
     "first_seen": "2020-04-01",
     "last_seen": "2026-09-30",
     "aliases": []
@@ -781,7 +781,7 @@
   },
   {
     "name": "17th St & Massachusetts Ave NW",
-    "lat": 38.908256,
+    "lat": 38.908255,
     "lng": -77.038404,
     "first_seen": "2020-04-01",
     "last_seen": "2026-09-30",
@@ -807,7 +807,7 @@
     "name": "17th St & Rhode Island Ave NW",
     "lat": 38.906768,
     "lng": -77.038625,
-    "first_seen": "2023-03-01",
+    "first_seen": "2023-02-09",
     "last_seen": "2026-09-30",
     "aliases": []
   },
@@ -927,7 +927,7 @@
   },
   {
     "name": "18th St & Wyoming Ave NW",
-    "lat": 38.91885,
+    "lat": 38.918849,
     "lng": -77.041554,
     "first_seen": "2020-04-01",
     "last_seen": "2026-09-30",
@@ -935,8 +935,8 @@
   },
   {
     "name": "19th & E Street NW",
-    "lat": 38.895509,
-    "lng": -77.043468,
+    "lat": 38.895507,
+    "lng": -77.043469,
     "first_seen": "2020-03-19",
     "last_seen": "2026-09-30",
     "aliases": []
@@ -961,7 +961,7 @@
     "name": "19th & I St NW",
     "lat": 38.901629,
     "lng": -77.043389,
-    "first_seen": "2023-03-01",
+    "first_seen": "2023-02-26",
     "last_seen": "2026-09-30",
     "aliases": []
   },
@@ -983,8 +983,8 @@
   },
   {
     "name": "19th St & Constitution Ave NW",
-    "lat": 38.892249,
-    "lng": -77.043265,
+    "lat": 38.892248,
+    "lng": -77.043264,
     "first_seen": "2020-04-01",
     "last_seen": "2026-09-30",
     "aliases": []
@@ -1023,8 +1023,8 @@
   },
   {
     "name": "1st & H St NW",
-    "lat": 38.900362,
-    "lng": -77.012121,
+    "lat": 38.900361,
+    "lng": -77.01212,
     "first_seen": "2020-02-19",
     "last_seen": "2026-09-30",
     "aliases": []
@@ -1083,7 +1083,7 @@
   },
   {
     "name": "1st & N St SE",
-    "lat": 38.874873,
+    "lat": 38.874874,
     "lng": -77.005756,
     "first_seen": "2020-04-01",
     "last_seen": "2026-09-30",
@@ -1148,7 +1148,7 @@
   {
     "name": "20th & E St NW",
     "lat": 38.8963,
-    "lng": -77.045,
+    "lng": -77.044999,
     "first_seen": "2020-03-19",
     "last_seen": "2026-09-30",
     "aliases": []
@@ -1211,8 +1211,8 @@
   },
   {
     "name": "20th St & Florida Ave NW",
-    "lat": 38.915362,
-    "lng": -77.044648,
+    "lat": 38.915363,
+    "lng": -77.044647,
     "first_seen": "2020-03-31",
     "last_seen": "2026-09-30",
     "aliases": []
@@ -1326,7 +1326,7 @@
   {
     "name": "23rd & E St NW",
     "lat": 38.896108,
-    "lng": -77.049867,
+    "lng": -77.049868,
     "first_seen": "2020-04-01",
     "last_seen": "2026-09-30",
     "aliases": []
@@ -1545,16 +1545,16 @@
   },
   {
     "name": "37th & Ely Pl SE",
-    "lat": 38.883083,
-    "lng": -76.949899,
+    "lat": 38.883082,
+    "lng": -76.949898,
     "first_seen": "2020-04-12",
     "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "37th & O St NW / Georgetown University",
-    "lat": 38.907816,
-    "lng": -77.071645,
+    "lat": 38.907815,
+    "lng": -77.071644,
     "first_seen": "2020-04-01",
     "last_seen": "2026-09-30",
     "aliases": []
@@ -1618,7 +1618,7 @@
   {
     "name": "3rd & H St NW",
     "lat": 38.899411,
-    "lng": -77.01528,
+    "lng": -77.015279,
     "first_seen": "2020-04-01",
     "last_seen": "2026-09-30",
     "aliases": []
@@ -1634,7 +1634,7 @@
   {
     "name": "3rd & M St NE",
     "lat": 38.905471,
-    "lng": -77.002135,
+    "lng": -77.002134,
     "first_seen": "2020-04-01",
     "last_seen": "2023-05-11",
     "aliases": []
@@ -1667,8 +1667,8 @@
   },
   {
     "name": "3rd & Underwood St NW",
-    "lat": 38.968964,
-    "lng": -77.016285,
+    "lat": 38.968969,
+    "lng": -77.016287,
     "first_seen": "2020-04-01",
     "last_seen": "2026-09-30",
     "aliases": []
@@ -1797,8 +1797,8 @@
   },
   {
     "name": "4th & M St SW",
-    "lat": 38.876812,
-    "lng": -77.017813,
+    "lat": 38.876811,
+    "lng": -77.017814,
     "first_seen": "2020-03-27",
     "last_seen": "2026-09-30",
     "aliases": []
@@ -1807,7 +1807,7 @@
     "name": "4th & O St SW",
     "lat": 38.87297,
     "lng": -77.017586,
-    "first_seen": "2023-03-01",
+    "first_seen": "2023-02-10",
     "last_seen": "2026-09-30",
     "aliases": []
   },
@@ -1885,7 +1885,7 @@
   },
   {
     "name": "5th & K St NW",
-    "lat": 38.902909,
+    "lat": 38.90291,
     "lng": -77.019097,
     "first_seen": "2020-04-01",
     "last_seen": "2026-09-30",
@@ -1917,8 +1917,8 @@
   },
   {
     "name": "6035 Warehouse",
-    "lat": 38.96301,
-    "lng": -77.010474,
+    "lat": 38.963012,
+    "lng": -77.010473,
     "first_seen": "2020-01-31",
     "last_seen": "2026-07-31",
     "aliases": []
@@ -1966,7 +1966,7 @@
   {
     "name": "7th & F St NW / National Portrait Gallery",
     "lat": 38.897298,
-    "lng": -77.022246,
+    "lng": -77.022245,
     "first_seen": "2020-04-01",
     "last_seen": "2026-09-30",
     "aliases": []
@@ -2006,7 +2006,7 @@
   {
     "name": "7th & S St NW",
     "lat": 38.914175,
-    "lng": -77.021688,
+    "lng": -77.021687,
     "first_seen": "2020-04-01",
     "last_seen": "2026-09-30",
     "aliases": []
@@ -2085,7 +2085,7 @@
   },
   {
     "name": "8th & K St NE",
-    "lat": 38.902684,
+    "lat": 38.902685,
     "lng": -76.995149,
     "first_seen": "2020-04-01",
     "last_seen": "2026-09-30",
@@ -2127,7 +2127,7 @@
     "name": "9th & G St NW",
     "lat": 38.898101,
     "lng": -77.023928,
-    "first_seen": "2023-03-01",
+    "first_seen": "2023-02-02",
     "last_seen": "2026-09-30",
     "aliases": []
   },
@@ -2159,14 +2159,14 @@
     "name": "9th St & Pennsylvania Ave NW",
     "lat": 38.894278,
     "lng": -77.023979,
-    "first_seen": "2023-03-01",
+    "first_seen": "2023-02-01",
     "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Adams Mill & Columbia Rd NW",
     "lat": 38.922874,
-    "lng": -77.042527,
+    "lng": -77.042526,
     "first_seen": "2020-03-30",
     "last_seen": "2026-09-30",
     "aliases": []
@@ -2261,8 +2261,8 @@
   },
   {
     "name": "Anacostia Metro",
-    "lat": 38.862603,
-    "lng": -76.994659,
+    "lat": 38.862604,
+    "lng": -76.994658,
     "first_seen": "2020-04-01",
     "last_seen": "2026-09-30",
     "aliases": []
@@ -2288,7 +2288,7 @@
   {
     "name": "Arizona Ave & MacArthur Blvd NW",
     "lat": 38.927293,
-    "lng": -77.103647,
+    "lng": -77.103648,
     "first_seen": "2021-10-07",
     "last_seen": "2026-09-30",
     "aliases": [
@@ -2334,7 +2334,7 @@
   {
     "name": "Arlington Blvd & N Queen St",
     "lat": 38.889318,
-    "lng": -77.077261,
+    "lng": -77.077262,
     "first_seen": "2020-04-01",
     "last_seen": "2026-09-30",
     "aliases": []
@@ -2620,7 +2620,7 @@
   {
     "name": "Branch & Pennsylvania Ave SE",
     "lat": 38.869207,
-    "lng": -76.959844,
+    "lng": -76.959843,
     "first_seen": "2020-04-02",
     "last_seen": "2026-09-30",
     "aliases": []
@@ -2765,7 +2765,7 @@
   },
   {
     "name": "Castle Blvd & Castle Ln",
-    "lat": 39.085282,
+    "lat": 39.085283,
     "lng": -76.94055,
     "first_seen": "2020-05-02",
     "last_seen": "2026-09-14",
@@ -3147,7 +3147,7 @@
   {
     "name": "Convention Center / 7th & M St NW",
     "lat": 38.905736,
-    "lng": -77.022265,
+    "lng": -77.022266,
     "first_seen": "2020-04-01",
     "last_seen": "2026-09-30",
     "aliases": []
@@ -3226,7 +3226,7 @@
   },
   {
     "name": "Crystal Dr & 15th St S",
-    "lat": 38.860983,
+    "lat": 38.860984,
     "lng": -77.04943,
     "first_seen": "2020-04-01",
     "last_seen": "2026-09-30",
@@ -3242,7 +3242,7 @@
   },
   {
     "name": "Crystal Dr & 23rd St S",
-    "lat": 38.853086,
+    "lat": 38.853085,
     "lng": -77.049754,
     "first_seen": "2020-03-29",
     "last_seen": "2026-09-30",
@@ -3267,7 +3267,7 @@
   {
     "name": "D St & Maryland Ave NE",
     "lat": 38.894838,
-    "lng": -76.995982,
+    "lng": -76.995981,
     "first_seen": "2020-04-01",
     "last_seen": "2026-09-30",
     "aliases": []
@@ -3370,23 +3370,23 @@
   },
   {
     "name": "E Montgomery Ave & Maryland Ave",
-    "lat": 39.084052,
-    "lng": -77.151228,
+    "lat": 39.084053,
+    "lng": -77.151229,
     "first_seen": "2020-04-05",
     "last_seen": "2024-07-10",
     "aliases": []
   },
   {
     "name": "Eads St & 12th St S",
-    "lat": 38.862854,
-    "lng": -77.054325,
+    "lat": 38.862855,
+    "lng": -77.054326,
     "first_seen": "2020-04-01",
     "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Eads St & 15th St S",
-    "lat": 38.859491,
+    "lat": 38.859488,
     "lng": -77.053233,
     "first_seen": "2020-04-01",
     "last_seen": "2026-09-30",
@@ -3410,7 +3410,7 @@
   },
   {
     "name": "East West Hwy & 16th St",
-    "lat": 38.995672,
+    "lat": 38.995673,
     "lng": -77.038718,
     "first_seen": "2020-04-01",
     "last_seen": "2026-09-30",
@@ -3460,8 +3460,8 @@
   },
   {
     "name": "Eckington Pl & Q St NE",
-    "lat": 38.910831,
-    "lng": -77.004803,
+    "lat": 38.910832,
+    "lng": -77.004805,
     "first_seen": "2020-03-22",
     "last_seen": "2026-09-30",
     "aliases": []
@@ -3516,7 +3516,7 @@
   },
   {
     "name": "Executive Blvd & E Jefferson St",
-    "lat": 39.04869,
+    "lat": 39.048691,
     "lng": -77.125666,
     "first_seen": "2020-04-02",
     "last_seen": "2026-09-30",
@@ -3938,7 +3938,7 @@
     "name": "Georgia Ave & Dahlia St NW",
     "lat": 38.97604,
     "lng": -77.026747,
-    "first_seen": "2023-03-01",
+    "first_seen": "2023-02-26",
     "last_seen": "2026-09-30",
     "aliases": []
   },
@@ -3992,7 +3992,7 @@
   },
   {
     "name": "Georgia Ave & Spring St",
-    "lat": 38.999348,
+    "lat": 38.999349,
     "lng": -77.031568,
     "first_seen": "2020-04-01",
     "last_seen": "2026-09-30",
@@ -4042,8 +4042,8 @@
   },
   {
     "name": "Good Hope & Naylor Rd SE",
-    "lat": 38.861383,
-    "lng": -76.96888,
+    "lat": 38.861387,
+    "lng": -76.968884,
     "first_seen": "2020-03-27",
     "last_seen": "2023-11-27",
     "aliases": []
@@ -4299,7 +4299,7 @@
   {
     "name": "Independence Ave & L'Enfant Plaza SW/DOE",
     "lat": 38.887321,
-    "lng": -77.025964,
+    "lng": -77.025962,
     "first_seen": "2020-04-01",
     "last_seen": "2026-09-30",
     "aliases": []
@@ -4582,7 +4582,7 @@
   },
   {
     "name": "King St Metro South",
-    "lat": 38.805767,
+    "lat": 38.805766,
     "lng": -77.060627,
     "first_seen": "2020-04-01",
     "last_seen": "2026-09-30",
@@ -4614,8 +4614,8 @@
   },
   {
     "name": "Lake Newport Rd and Autumn Ridge Cir",
-    "lat": 38.977728,
-    "lng": -77.353331,
+    "lat": 38.977735,
+    "lng": -77.353332,
     "first_seen": "2021-07-27",
     "last_seen": "2026-09-28",
     "aliases": []
@@ -4828,7 +4828,7 @@
   {
     "name": "M St & New Jersey Ave SE",
     "lat": 38.876254,
-    "lng": -77.003985,
+    "lng": -77.003983,
     "first_seen": "2020-04-01",
     "last_seen": "2026-09-30",
     "aliases": []
@@ -5014,7 +5014,7 @@
   {
     "name": "Massachusetts Ave & 6th St NE",
     "lat": 38.892908,
-    "lng": -76.998343,
+    "lng": -76.998342,
     "first_seen": "2020-04-01",
     "last_seen": "2026-09-30",
     "aliases": []
@@ -5030,7 +5030,7 @@
   {
     "name": "McLean Metro",
     "lat": 38.924023,
-    "lng": -77.208037,
+    "lng": -77.208038,
     "first_seen": "2020-04-01",
     "last_seen": "2026-09-30",
     "aliases": []
@@ -5079,7 +5079,7 @@
   },
   {
     "name": "Merrilee Dr & Lauren Elizabeth Lane",
-    "lat": 38.878896,
+    "lat": 38.878899,
     "lng": -77.230731,
     "first_seen": "2020-04-02",
     "last_seen": "2026-09-30",
@@ -5120,7 +5120,7 @@
   {
     "name": "Minnesota Ave Metro/DOES",
     "lat": 38.897058,
-    "lng": -76.947444,
+    "lng": -76.947443,
     "first_seen": "2020-04-01",
     "last_seen": "2026-09-30",
     "aliases": []
@@ -5353,7 +5353,7 @@
   },
   {
     "name": "N Pershing Dr & N George Mason Dr",
-    "lat": 38.87182,
+    "lat": 38.871819,
     "lng": -77.107912,
     "first_seen": "2020-04-03",
     "last_seen": "2026-09-30",
@@ -5463,8 +5463,8 @@
   },
   {
     "name": "N. Beauregard St. & Berkley St.",
-    "lat": 38.84138,
-    "lng": -77.107999,
+    "lat": 38.841381,
+    "lng": -77.107998,
     "first_seen": "2020-06-30",
     "last_seen": "2026-09-30",
     "aliases": []
@@ -5671,8 +5671,8 @@
   },
   {
     "name": "North Bethesda Metro",
-    "lat": 39.047444,
-    "lng": -77.11281,
+    "lat": 39.047445,
+    "lng": -77.112811,
     "first_seen": "2022-09-13",
     "last_seen": "2026-09-30",
     "aliases": []
@@ -5695,8 +5695,8 @@
   },
   {
     "name": "North Capitol & R St NE",
-    "lat": 38.91257,
-    "lng": -77.008791,
+    "lat": 38.912572,
+    "lng": -77.008792,
     "first_seen": "2020-04-01",
     "last_seen": "2026-09-30",
     "aliases": []
@@ -5712,7 +5712,7 @@
   {
     "name": "North Capitol St & G Pl NE",
     "lat": 38.899709,
-    "lng": -77.008938,
+    "lng": -77.008937,
     "first_seen": "2020-03-21",
     "last_seen": "2026-09-30",
     "aliases": []
@@ -5751,7 +5751,7 @@
   },
   {
     "name": "Oak Leaf & Lockwood",
-    "lat": 39.03803,
+    "lat": 39.038029,
     "lng": -76.994542,
     "first_seen": "2020-05-02",
     "last_seen": "2026-09-29",
@@ -5856,7 +5856,7 @@
   {
     "name": "Park Run & Onyx Dr",
     "lat": 38.927555,
-    "lng": -77.226579,
+    "lng": -77.22658,
     "first_seen": "2020-04-05",
     "last_seen": "2026-09-30",
     "aliases": []
@@ -5929,8 +5929,8 @@
   },
   {
     "name": "Penrose Sq/Columbia Pike & S Barton St",
-    "lat": 38.863482,
-    "lng": -77.084288,
+    "lat": 38.863483,
+    "lng": -77.084287,
     "first_seen": "2022-03-30",
     "last_seen": "2026-07-02",
     "aliases": []
@@ -6017,7 +6017,7 @@
   },
   {
     "name": "Potomac & M St NW",
-    "lat": 38.905485,
+    "lat": 38.905486,
     "lng": -77.065222,
     "first_seen": "2020-04-01",
     "last_seen": "2026-09-30",
@@ -6025,8 +6025,8 @@
   },
   {
     "name": "Potomac & Pennsylvania Ave SE",
-    "lat": 38.880222,
-    "lng": -76.986289,
+    "lat": 38.880223,
+    "lng": -76.986288,
     "first_seen": "2020-04-01",
     "last_seen": "2026-09-30",
     "aliases": []
@@ -6208,7 +6208,7 @@
   {
     "name": "Reston Pkwy & Spectrum Dr",
     "lat": 38.964217,
-    "lng": -77.354127,
+    "lng": -77.354128,
     "first_seen": "2020-04-03",
     "last_seen": "2026-09-29",
     "aliases": []
@@ -6239,8 +6239,8 @@
   },
   {
     "name": "Reston Town Center Metro South",
-    "lat": 38.952276,
-    "lng": -77.361086,
+    "lat": 38.952277,
+    "lng": -77.361091,
     "first_seen": "2022-10-28",
     "last_seen": "2026-09-30",
     "aliases": []
@@ -6576,7 +6576,7 @@
   {
     "name": "S Jordan St & Venable St",
     "lat": 38.811352,
-    "lng": -77.109925,
+    "lng": -77.109926,
     "first_seen": "2021-11-23",
     "last_seen": "2026-09-28",
     "aliases": []
@@ -6594,7 +6594,7 @@
   {
     "name": "S Maple Ave & S Washington St",
     "lat": 38.879726,
-    "lng": -77.178384,
+    "lng": -77.178385,
     "first_seen": "2020-04-02",
     "last_seen": "2026-09-30",
     "aliases": []
@@ -6652,7 +6652,7 @@
   {
     "name": "S Troy St & 26th St S",
     "lat": 38.848121,
-    "lng": -77.075144,
+    "lng": -77.075143,
     "first_seen": "2022-12-09",
     "last_seen": "2026-09-30",
     "aliases": []
@@ -6808,7 +6808,7 @@
   {
     "name": "South Dakota Ave & 33rd St NE",
     "lat": 38.921999,
-    "lng": -76.960712,
+    "lng": -76.960711,
     "first_seen": "2022-12-17",
     "last_seen": "2026-09-30",
     "aliases": []
@@ -6916,7 +6916,7 @@
   {
     "name": "Stadium Armory Metro",
     "lat": 38.885494,
-    "lng": -76.977194,
+    "lng": -76.977193,
     "first_seen": "2020-09-11",
     "last_seen": "2026-09-30",
     "aliases": []
@@ -6939,7 +6939,7 @@
   },
   {
     "name": "Stewart & April",
-    "lat": 39.04493,
+    "lat": 39.044931,
     "lng": -76.981136,
     "first_seen": "2020-05-01",
     "last_seen": "2026-09-30",
@@ -7184,7 +7184,7 @@
   {
     "name": "USDA / 12th & C St SW",
     "lat": 38.886252,
-    "lng": -77.028259,
+    "lng": -77.028258,
     "first_seen": "2020-04-01",
     "last_seen": "2026-09-30",
     "aliases": []
@@ -7249,7 +7249,7 @@
   },
   {
     "name": "Van Dorn Metro",
-    "lat": 38.800084,
+    "lat": 38.800085,
     "lng": -77.129946,
     "first_seen": "2022-02-06",
     "last_seen": "2026-09-30",
@@ -7305,15 +7305,15 @@
   },
   {
     "name": "Virginia Ave & 25th St NW",
-    "lat": 38.898665,
-    "lng": -77.053264,
+    "lat": 38.898663,
+    "lng": -77.053262,
     "first_seen": "2020-04-01",
     "last_seen": "2026-09-30",
     "aliases": []
   },
   {
     "name": "Virginia Ave & C St NW",
-    "lat": 38.894095,
+    "lat": 38.894094,
     "lng": -77.044332,
     "first_seen": "2022-09-23",
     "last_seen": "2026-09-30",
@@ -7519,7 +7519,7 @@
   },
   {
     "name": "Washington-Liberty High School / N Stafford St & Generals Way",
-    "lat": 38.888284,
+    "lat": 38.888283,
     "lng": -77.111063,
     "first_seen": "2020-04-01",
     "last_seen": "2026-09-30",
@@ -7594,7 +7594,7 @@
   {
     "name": "Westpark & Park Run Dr",
     "lat": 38.928834,
-    "lng": -77.224596,
+    "lng": -77.2246,
     "first_seen": "2020-04-02",
     "last_seen": "2026-09-24",
     "aliases": []
@@ -7649,7 +7649,7 @@
   },
   {
     "name": "White House",
-    "lat": 38.895535,
+    "lat": 38.895534,
     "lng": -77.037918,
     "first_seen": "2021-09-07",
     "last_seen": "2025-08-01",
@@ -7720,7 +7720,7 @@
   {
     "name": "Wilson Blvd & N Edgewood St",
     "lat": 38.889364,
-    "lng": -77.091911,
+    "lng": -77.09191,
     "first_seen": "2020-04-01",
     "last_seen": "2026-09-30",
     "aliases": []
@@ -7761,7 +7761,7 @@
   },
   {
     "name": "Wilson Blvd & N Quinn St",
-    "lat": 38.894001,
+    "lat": 38.894,
     "lng": -77.078566,
     "first_seen": "2020-04-03",
     "last_seen": "2026-09-30",

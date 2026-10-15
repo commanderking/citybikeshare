@@ -31,7 +31,7 @@ and news coverage otherwise.
 | Guadalajara | ✅ Matches | Within 0.5% of IIEG and WRI figures. Few annual references exist after 2019. |
 | New York City | ✅ Matches | Within 0.05% of NYC DOT's annual totals for 2022–2024, and ~1–2% of Citi Bike's own monthly reports. 2013–14 run ~8% low because the public files drop trips under 60 s and staff trips. |
 | Montreal | ✅ Plausible | Within ~4% of every BIXI figure, but all references are rounded. 2016–2021 run consistently 2–4% low. |
-| Washington DC | ❌ **Pipeline bug** | 2018 and 2023 are each missing a month. The source misnamed two files, and `file_matcher` silently skipped them. Other years match to within tens of trips. |
+| Washington DC | ✅ Fixed (2026-10-14) | Matches GGWash's published totals for 2022–2025, from within 2,024 trips (2023) down to tens of trips. 2018 and 2023 were each missing a month; `file_matcher` now covers both misnamed files. |
 | Mexico City | ✅ Fixed (2026-10-13) | Matches SEMOVI's official monthly table almost exactly for 2010–2024. 2025 is within 700 trips of the published total. The only remaining gap is Oct 2022 (−28%), which is short in the source file itself. |
 | Taipei | ⚠️ **Source discontinuity** | 20–29% below official totals from H2 2023 to H1 2024, and 2–8% below otherwise. No days or stations are missing, so the per-trip open data appears to undercount. Needs investigation. |
 | Chicago | ⚠️ Not verifiable after 2021 | The city publishes Divvy totals that include scooters, and the public trip data excludes them. One month (Sep 2024) does include 144,337 scooter rows. |
@@ -41,12 +41,12 @@ and news coverage otherwise.
 These are actionable. Each was confirmed against `raw/` or parquet, not just inferred from the
 totals.
 
-1. **Washington DC: two trip files skipped by `file_matcher`.** `file_matcher:
-   capitalbikeshare-tripdata` doesn't match `202302-captialbikeshare-tripdata.csv.gz` (the source
-   misspells "capital") or `201801_capitalbikeshare_tripdata.csv.gz` (underscores). Both sit in
-   `raw/`, but no parquet is written for them. That loses 207,591 trips (Feb 2023) and 168,590 trips
-   (Jan 2018). With the Feb file included, 2023 would be 4,467,334 vs GGWash's 4,469,358. Nothing
-   reports a trip file that matched no pattern, and that silence is how this got through.
+1. **Washington DC: two trip files skipped by `file_matcher` (fixed 2026-10-14).**
+   `202302-captialbikeshare-tripdata` (the source misspells "capital") and
+   `201801_capitalbikeshare_tripdata` (underscores) didn't match `capitalbikeshare-tripdata`, so
+   207,591 trips (Feb 2023) and 168,590 trips (Jan 2018) were dropped silently. Both spellings
+   are now in `file_matcher`. The new month-coverage check in analyze would catch this kind of
+   gap: it fails on any month with 5 or more days without trips.
 2. **Mexico City: wrong files linked from the source page (fixed 2026-10-13).** Ecobici's
    page linked January's file under the "2025-02" label, linked a May 2024 file that stops at
    May 15, and linked a Sep 2022 file with 129,541 Excel-mangled times (which left those trips
@@ -256,12 +256,12 @@ Sources:
 | Period | Ours | Reference | Diff | Source | Note |
 |---|---:|---:|---:|---|---|
 | 2022 | 3,476,782 | ~3,478,100 | -0.0% | [D1] | derived: 2023 was “+28.5%” over 2022 |
-| 2023 | 4,259,743 | 4,469,358 | -4.7% | [D1] | **Feb 2023 file skipped**; with it: 4,467,334 (−0.05%) |
+| 2023 | 4,467,334 | 4,469,358 | -0.0% | [D1] | fixed: Feb 2023 file was skipped |
 | 2024 | 6,114,359 | 6,114,324 | +0.0% | [D2] |  |
 | 2025 | 6,662,659 | 6,662,647 | +0.0% | [D3] |  |
 
-2018 has no published reference, but our 2018 is short by the 168,590 trips in the skipped Jan 2018
-file (see Pipeline issues). With that file, 2018 would be 3,542,684.
+2018 has no published reference. It now includes the previously skipped Jan 2018 file (168,590
+trips), bringing it to 3,542,684.
 
 Sources:
 - [D1] Greater Greater Washington, "Bikeshare Beat: CaBi wraps up a year of historic ridership in December": 4,469,358 rides in 2023, "an increase of 28.5% from 2022". <https://ggwash.org/view/92292/bikeshare-beat-cabi-wraps-up-a-year-of-historic-ridership-in-december>
