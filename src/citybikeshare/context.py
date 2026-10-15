@@ -12,7 +12,7 @@ class PipelineContext:
     transformed_root: Path
     analysis_root: Path
     # The specific input file currently being transformed, set per-file by the
-    # transform stage so steps can target file-scoped fixes (e.g. null_corrupt_times).
+    # transform stage so steps can target file-scoped fixes (e.g. file_date_formats).
     source_file: Path | str | None = None
 
     @property

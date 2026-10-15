@@ -54,8 +54,13 @@ final_columns:
 date_formats:
   - "%m/%d/%Y %H:%M"
   - "%m/%d/%Y %H:%M:%S"
-  - "%d/%m/%Y %H:%M"
   - "%Y-%m-%d %H:%M:%S"
+# Every other slash-dated file is month-first; these two write day-first ("9/1/2017" is Jan 9).
+# Day-first stays out of date_formats: as a fallback it would parse a day-first file's days ≥13
+# while its days ≤12 silently matched month-first with day and month swapped.
+file_date_formats:
+  "Bikeshare Ridership (2017 Q1).csv.gz": ["%d/%m/%Y %H:%M"]
+  "Bikeshare Ridership (2017 Q2).csv.gz": ["%d/%m/%Y %H:%M"]
 read_csv_options:
   encoding: utf8-lossy
   null_values:
@@ -99,10 +104,3 @@ processing_pipeline:
   - select_final_columns
   - offset_two_digit_years
   - cast_optional_columns
-
-# Months the coverage check allows because of a defect not yet fixed. Remove an entry once
-# its fix lands — the check fails while a listed month is complete.
-known_gaps:
-  # TODO: the 2017 Q1/Q2 files are parsed month-first, so days 1–12 swap with the month
-  # (Jan 9 lands on Sep 1) and days 7–12 of each month come up empty.
-  - "2017-01..2017-06"

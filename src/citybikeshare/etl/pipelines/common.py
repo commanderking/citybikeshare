@@ -91,6 +91,15 @@ def _assert_all_dates_parsed(frame, columns, date_formats):
     _assert_columns_parsed(frame, columns, guidance)
 
 
+def select_date_formats(config, context):
+    """If a specific date format is needed for a city, it will be in the city's
+    file_date_formats. Otherwise, use date_formats which applies to all city files.
+    The file_date_formats was implemented for Toronto because it has files with both MM/DD and DD/MM
+    """
+    name = os.path.basename(str(context.source_file or ""))
+    return config.get("file_date_formats", {}).get(name, config["date_formats"])
+
+
 def convert_columns_to_datetime(date_column_names, date_formats, time_unit: str = "ms"):
     """
     Convert one or more columns to datetime and raise error if there are date formts unaccounted for
@@ -1201,7 +1210,9 @@ PROCESSING_FUNCTIONS = {
     ),
     "clean_header_quotes": lambda df, config, context: clean_header_quotes(df),
     "convert_to_datetime": lambda df, config, context: df.pipe(
-        convert_columns_to_datetime(["start_time", "end_time"], config["date_formats"])
+        convert_columns_to_datetime(
+            ["start_time", "end_time"], select_date_formats(config, context)
+        )
     ),
     "normalize_gender": lambda df, config, context: normalize_gender(df),
     "derive_is_member": lambda df, config, context: derive_is_member(df),
