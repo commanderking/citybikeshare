@@ -755,7 +755,9 @@ def remove_invalid_rows(df, invalid_values):
     for column, bad_values in invalid_values.items():
         if not bad_values:
             continue
-        bad_mask = pl.col(column).is_in(list(bad_values))
+        # is_in yields null for a null value, and filter(~null) drops the row — without
+        # fill_null every null in `column` would vanish unlogged.
+        bad_mask = pl.col(column).is_in(list(bad_values)).fill_null(False)
         dropped = df.filter(bad_mask).select(column).collect()  # tiny: only matches
         if dropped.height:
             breakdown = dropped[column].value_counts().to_dicts()
@@ -920,7 +922,7 @@ BIKE_TYPE_MAP = {
     "classic_bike": BikeType.CLASSIC,
     "electric_bike": BikeType.ELECTRIC,
     "docked_bike": BikeType.CLASSIC,  # legacy dock-only pedal bike (detail kept in bike_model)
-    "electric_scooter": None,  # Chicago 2024-09 only; a scooter, not a bike → no bike_type
+    "electric_scooter": None,  # Chicago 2024-09 only; mapped so it passes here, then dropped by chicago.yaml invalid_values
     # Bicycle Transit Systems (Philadelphia Indego, LA Metro Bike Share)
     "standard": BikeType.CLASSIC,
     "electric": BikeType.ELECTRIC,

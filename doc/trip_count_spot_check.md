@@ -27,14 +27,14 @@ and news coverage otherwise.
 | Boston | ✅ Matches | Within 0.7% of Bluebikes' published annual totals for 2015–2024. 2018 is exact. |
 | Seoul | ✅ Matches | Matches Seoul's published totals to the reported precision for 2019–2024. |
 | Toronto | ✅ Matches | Within ~2% of every year-end figure for 2019–2025. |
-| London | ✅ Matches, 2 known gaps | Within ~1.5% of TfL's own daily-hire series, except 2012 (−4%, source-side) and 2017 (−2.3%, one week not ingested). The 2023 drop to 8.5M is real. |
+| London | ✅ Matches, 1 known gap | Within ~1.5% of TfL's own daily-hire series, except 2012 (−4.2%, source-side). 2017 is fixed (2026-10-14): one week had not been ingested. The 2023 drop to 8.5M is real. |
 | Guadalajara | ✅ Matches | Within 0.5% of IIEG and WRI figures. Few annual references exist after 2019. |
 | New York City | ✅ Matches | Within 0.05% of NYC DOT's annual totals for 2022–2024, and ~1–2% of Citi Bike's own monthly reports. 2013–14 run ~8% low because the public files drop trips under 60 s and staff trips. |
 | Montreal | ✅ Plausible | Within ~4% of every BIXI figure, but all references are rounded. 2016–2021 run consistently 2–4% low. |
 | Washington DC | ✅ Fixed (2026-10-14) | Matches GGWash's published totals for 2022–2025, from within 2,024 trips (2023) down to tens of trips. 2018 and 2023 were each missing a month; `file_matcher` now covers both misnamed files. |
 | Mexico City | ✅ Fixed (2026-10-13) | Matches SEMOVI's official monthly table almost exactly for 2010–2024. 2025 is within 700 trips of the published total. The only remaining gap is Oct 2022 (−28%), which is short in the source file itself. |
 | Taipei | ⚠️ **Source discontinuity** | 20–29% below official totals from H2 2023 to H1 2024, and 2–8% below otherwise. No days or stations are missing, so the per-trip open data appears to undercount. Needs investigation. |
-| Chicago | ⚠️ Not verifiable after 2021 | The city publishes Divvy totals that include scooters, and the public trip data excludes them. One month (Sep 2024) does include 144,337 scooter rows. |
+| Chicago | ⚠️ Not verifiable after 2021 | The city publishes Divvy totals that include scooters, and the public trip data excludes them. The 144,337 scooter rows in Sep 2024 are now dropped (2026-10-14). |
 
 ## Pipeline issues found
 
@@ -55,13 +55,18 @@ totals.
    The downloader now takes per-month `url_overrides` from the city YAML, and fails if two month
    labels resolve to the same file. Oct 2022 is still 28% short because the source file itself
    has only 232,277 of SEMOVI's 322,787 trips, and no fuller copy is on the server.
-3. **London: week 49 of 2017 not ingested.** TfL publishes
-   `49JourneyDataExtract15Mar2017-21Mar2017` only as `.xlsx`. It's in `download/`, but the pipeline
-   only reads CSV. That leaves 15–21 Mar 2017 missing, and March 2017 21% short (~173k trips).
-4. **Chicago: e-scooter rows in a single month.** Divvy's Sep 2024 file includes 144,337
-   `electric_scooter` rows, which end up with a null `bike_type`. No other month has scooters, so 2024
-   is inflated relative to its neighbours. Either filter them or keep them consistently; today it's
-   accidental.
+3. **London: week 49 of 2017 not ingested (fixed 2026-10-14).** TfL publishes
+   `49JourneyDataExtract15Mar2017-21Mar2017` only as `.xlsx`. Extract had recorded it with no
+   outputs before it learned to deposit xlsx, and that stale state entry kept it skipped. The
+   clean stage now converts it with `convert_xlsx_sheets`, adding 174,598 trips. 15–21 Mar match
+   TfL's daily counts to within 0.5%. The same check showed 29 Feb 2012 counted twice: the Mar 2012
+   extract repeats the Feb extract's last day (23,692 identical Rental Ids). `file_date_ranges`
+   now limits the March file to March. A Rental Id survey of all 140.7M London rows found no other
+   cross-file duplicates.
+4. **Chicago: e-scooter rows in a single month (fixed 2026-10-14).** Divvy's Sep 2024 file
+   includes 144,337 `electric_scooter` rows, which ended up with a null `bike_type`. No other month
+   has scooters, so 2024 was inflated relative to its neighbours. `chicago.yaml` now drops them via
+   `invalid_values` on `bike_model`, keeping the series bike-only.
 5. **Taipei: under-count in the source data (not yet explained).** Official totals come from the
    Taipei DBAS bulletins, which count Taipei-city YouBike rentals. Against those we're −8% for H1
    2023, −20% for 2023, −29% for H1 2024, then −2% for Jan–Sep 2025. Every day is present, and the
@@ -153,12 +158,12 @@ covering 2010-07-30 to 2026-08-31.
 
 | Period | Ours | Reference | Diff | Source | Note |
 |---|---:|---:|---:|---|---|
-| 2012 | 9,142,379 | 9,519,283 | -4.0% | [L1] | Apr–Aug 2012 run 6–10% low; all source files present |
+| 2012 | 9,118,687 | 9,519,283 | -4.2% | [L1] | Apr–Aug run 6–10% low on every day, with all source files present. 1–3 Jan are absent at source: TfL's first extract starts 04 Jan |
 | 2013 | 8,004,165 | 8,045,459 | -0.5% | [L1] |  |
 | 2014 | 9,895,412 | 10,023,897 | -1.3% | [L1] |  |
 | 2015 | 9,799,277 | 9,871,839 | -0.7% | [L1] |  |
 | 2016 | 10,316,916 | 10,303,637 | +0.1% | [L1] |  |
-| 2017 | 10,205,185 | 10,446,044 | -2.3% | [L1] | week 49 (15–21 Mar) published only as .xlsx; not ingested |
+| 2017 | 10,379,783 | 10,446,044 | -0.6% | [L1] | week 49 (15–21 Mar) ships only as .xlsx; converted in the clean stage |
 | 2018 | 10,441,884 | 10,567,540 | -1.2% | [L1] |  |
 | 2019 | 10,310,063 | 10,424,955 | -1.1% | [L1] |  |
 | 2020 | 10,287,040 | 10,434,167 | -1.4% | [L1] |  |
@@ -232,7 +237,7 @@ Sources:
 ### Chicago
 
 From 2022 on, the City of Chicago reports Divvy totals that combine bikes and Divvy e-scooters. The
-public trip data contains bikes only, except for Sep 2024. So those totals can't validate our counts,
+public trip data contains bikes only (Sep 2024's scooter rows are filtered out). So those totals can't validate our counts,
 and the gap (~0.8–1.2M a year) is roughly the scooter volume. No bike-only official total was found for
 2022–2025.
 
@@ -242,7 +247,7 @@ and the gap (~0.8–1.2M a year) is roughly the scooter volume. No bike-only off
 | 2020 | 3,541,683 | ~3,400,000 | +4.2% | [C2] | “about 3.4 million” |
 | 2021 | 5,595,063 | ~5,500,000 | +1.7% | [C2] | “roughly 5.5 million” |
 | 2023 | 5,719,877 | 6,603,071 | -13.4% | [C3] | **not comparable**: city figure includes Divvy scooters |
-| 2024 | 5,860,621 | 6,681,480 | -12.3% | [C3] | **not comparable**: includes scooters |
+| 2024 | 5,716,284 | 6,681,480 | -14.4% | [C3] | **not comparable**: includes scooters |
 | 2025 | 5,552,964 | ~6,800,000 | -18.3% | [C4] | **not comparable**: includes scooters |
 
 Sources:

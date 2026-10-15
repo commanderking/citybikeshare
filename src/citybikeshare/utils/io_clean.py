@@ -72,9 +72,13 @@ def normalize_delimiters(csv_file: Path, config):
 
 
 ### Vancouver data currently has hidden \r in files (probably from Google Doc or Windows save)
+### Mexico City's 2020-12 ends every line with \r\r\n; collapsing the whole \r-run keeps that
+### from becoming a blank line after each row. newline="" disables universal-newline reading,
+### which would otherwise already have split \r\r\n into two lines.
 def normalize_newlines(csv_file: Path, config):
-    text = csv_file.read_text(encoding="utf-8", errors="ignore")
-    text_clean = text.replace("\r\n", "\n").replace("\r", "\n")
+    with open(csv_file, encoding="utf-8", errors="ignore", newline="") as f:
+        text = f.read()
+    text_clean = re.sub(r"\r+\n?", "\n", text)
     csv_file.write_text(text_clean, encoding="utf-8")
     print(f"🧹 Normalized newlines in {csv_file.name}")
 
@@ -316,6 +320,16 @@ def _assert_sheets_match_config(workbook_sheets, configured, label: str) -> None
         )
 
 
+def _assert_sheet_empty(df, label: str) -> None:
+    """A sheet declared `expect_empty` (Excel's unused default Sheet2/Sheet3) produces no CSV;
+    if it ever holds rows, they'd be dropped, so refuse instead."""
+    if df.height:
+        raise ValueError(
+            f"{label}: declared expect_empty but holds {df.height} row(s); "
+            f"declare how to convert it instead"
+        )
+
+
 def _assert_sheet_dates_parsed(df, column: str, label: str) -> None:
     """Raise when a date cell was present but matched neither the serial-derived ISO form nor
     the sheet's declared text format."""
@@ -397,7 +411,8 @@ def convert_xlsx_sheets(
 ) -> list[Path]:
     """Convert each declared worksheet of an xlsx into its own cleaned CSV. `options` is the
     clean_pipeline entry; its `sheets: {name: {date_columns, text_date_format,
-    serial_dates_day_month_swapped, expected_months}}` declares how each sheet is handled."""
+    serial_dates_day_month_swapped, expected_months, expect_empty}}` declares how each sheet
+    is handled."""
     sheets_cfg = options.get("sheets")
     if not sheets_cfg:
         raise ValueError(
@@ -411,6 +426,9 @@ def convert_xlsx_sheets(
     for sheet_name, sheet_cfg in sheets_cfg.items():
         label = f"{raw_file.name}[{sheet_name!r}]"
         df = workbook.load_sheet(sheet_name, dtypes="string").to_polars()
+        if sheet_cfg.get("expect_empty"):
+            _assert_sheet_empty(df, label)
+            continue
         for column in sheet_cfg.get("date_columns", []):
             df = _normalize_sheet_date_column(df, column, sheet_cfg, label)
         out = _sheet_csv_path(cleaned_file, sheet_name)

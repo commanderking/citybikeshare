@@ -143,6 +143,18 @@ class TestConvertXlsxSheets:
         with pytest.raises(ValueError, match="not in workbook: \\['typo'\\]"):
             _convert(tmp_path, {"s": rows}, {"typo": {}})
 
+    def test_expect_empty_sheet_writes_nothing(self, tmp_path):
+        rows = [HEADER, [1, "x", "y", "Member"]]
+        produced = _convert(
+            tmp_path, {"s": rows, "Sheet2": []}, {"s": {}, "Sheet2": {"expect_empty": True}}
+        )
+        assert [p.name for p in produced] == ["book__s.csv.gz"]
+
+    def test_expect_empty_sheet_with_rows_raises(self, tmp_path):
+        rows = [HEADER, [1, "x", "y", "Member"]]
+        with pytest.raises(ValueError, match="expect_empty but holds 1 row"):
+            _convert(tmp_path, {"Sheet2": rows}, {"Sheet2": {"expect_empty": True}})
+
     def test_text_date_matching_no_format_raises(self, tmp_path):
         rows = [HEADER, [1, "Oct 13 2016", "Oct 13 2016", "Member"]]
         with pytest.raises(ValueError, match="could not be parsed.*Oct 13 2016"):

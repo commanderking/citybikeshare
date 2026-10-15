@@ -1,589 +1,589 @@
 [
   {
     "bucket": 0,
-    "count": 20214,
+    "count": 20036,
     "year": 2012,
     "city": "london"
   },
   {
     "bucket": 60,
-    "count": 22513,
+    "count": 22380,
     "year": 2012,
     "city": "london"
   },
   {
     "bucket": 120,
-    "count": 81992,
+    "count": 81618,
     "year": 2012,
     "city": "london"
   },
   {
     "bucket": 180,
-    "count": 162517,
+    "count": 161820,
     "year": 2012,
     "city": "london"
   },
   {
     "bucket": 240,
-    "count": 400850,
+    "count": 399854,
     "year": 2012,
     "city": "london"
   },
   {
     "bucket": 300,
-    "count": 465669,
+    "count": 464457,
     "year": 2012,
     "city": "london"
   },
   {
     "bucket": 360,
-    "count": 494432,
+    "count": 493011,
     "year": 2012,
     "city": "london"
   },
   {
     "bucket": 420,
-    "count": 507616,
+    "count": 506204,
     "year": 2012,
     "city": "london"
   },
   {
     "bucket": 480,
-    "count": 502923,
+    "count": 501478,
     "year": 2012,
     "city": "london"
   },
   {
     "bucket": 540,
-    "count": 488823,
+    "count": 487379,
     "year": 2012,
     "city": "london"
   },
   {
     "bucket": 600,
-    "count": 465596,
+    "count": 464249,
     "year": 2012,
     "city": "london"
   },
   {
     "bucket": 660,
-    "count": 439422,
+    "count": 438143,
     "year": 2012,
     "city": "london"
   },
   {
     "bucket": 720,
-    "count": 412768,
+    "count": 411584,
     "year": 2012,
     "city": "london"
   },
   {
     "bucket": 780,
-    "count": 384860,
+    "count": 383774,
     "year": 2012,
     "city": "london"
   },
   {
     "bucket": 840,
-    "count": 358007,
+    "count": 356984,
     "year": 2012,
     "city": "london"
   },
   {
     "bucket": 900,
-    "count": 329453,
+    "count": 328564,
     "year": 2012,
     "city": "london"
   },
   {
     "bucket": 960,
-    "count": 303912,
+    "count": 303112,
     "year": 2012,
     "city": "london"
   },
   {
     "bucket": 1020,
-    "count": 276415,
+    "count": 275694,
     "year": 2012,
     "city": "london"
   },
   {
     "bucket": 1080,
-    "count": 254068,
+    "count": 253488,
     "year": 2012,
     "city": "london"
   },
   {
     "bucket": 1140,
-    "count": 231551,
+    "count": 230974,
     "year": 2012,
     "city": "london"
   },
   {
     "bucket": 1200,
-    "count": 213684,
+    "count": 213127,
     "year": 2012,
     "city": "london"
   },
   {
     "bucket": 1260,
-    "count": 195440,
+    "count": 194935,
     "year": 2012,
     "city": "london"
   },
   {
     "bucket": 1320,
-    "count": 177902,
+    "count": 177462,
     "year": 2012,
     "city": "london"
   },
   {
     "bucket": 1380,
-    "count": 161306,
+    "count": 160945,
     "year": 2012,
     "city": "london"
   },
   {
     "bucket": 1440,
-    "count": 145923,
+    "count": 145633,
     "year": 2012,
     "city": "london"
   },
   {
     "bucket": 1500,
-    "count": 130292,
+    "count": 130072,
     "year": 2012,
     "city": "london"
   },
   {
     "bucket": 1560,
-    "count": 115409,
+    "count": 115162,
     "year": 2012,
     "city": "london"
   },
   {
     "bucket": 1620,
-    "count": 100775,
+    "count": 100573,
     "year": 2012,
     "city": "london"
   },
   {
     "bucket": 1680,
-    "count": 86618,
+    "count": 86454,
     "year": 2012,
     "city": "london"
   },
   {
     "bucket": 1740,
-    "count": 72968,
+    "count": 72848,
     "year": 2012,
     "city": "london"
   },
   {
     "bucket": 1800,
-    "count": 62287,
+    "count": 62173,
     "year": 2012,
     "city": "london"
   },
   {
     "bucket": 1860,
-    "count": 53072,
+    "count": 52999,
     "year": 2012,
     "city": "london"
   },
   {
     "bucket": 1920,
-    "count": 46930,
+    "count": 46849,
     "year": 2012,
     "city": "london"
   },
   {
     "bucket": 1980,
-    "count": 41702,
+    "count": 41634,
     "year": 2012,
     "city": "london"
   },
   {
     "bucket": 2040,
-    "count": 37888,
+    "count": 37833,
     "year": 2012,
     "city": "london"
   },
   {
     "bucket": 2100,
-    "count": 34777,
+    "count": 34721,
     "year": 2012,
     "city": "london"
   },
   {
     "bucket": 2160,
-    "count": 31743,
+    "count": 31689,
     "year": 2012,
     "city": "london"
   },
   {
     "bucket": 2220,
-    "count": 29323,
+    "count": 29288,
     "year": 2012,
     "city": "london"
   },
   {
     "bucket": 2280,
-    "count": 27265,
+    "count": 27221,
     "year": 2012,
     "city": "london"
   },
   {
     "bucket": 2340,
-    "count": 25469,
+    "count": 25422,
     "year": 2012,
     "city": "london"
   },
   {
     "bucket": 2400,
-    "count": 24315,
+    "count": 24281,
     "year": 2012,
     "city": "london"
   },
   {
     "bucket": 2460,
-    "count": 22921,
+    "count": 22887,
     "year": 2012,
     "city": "london"
   },
   {
     "bucket": 2520,
-    "count": 21242,
+    "count": 21215,
     "year": 2012,
     "city": "london"
   },
   {
     "bucket": 2580,
-    "count": 20468,
+    "count": 20438,
     "year": 2012,
     "city": "london"
   },
   {
     "bucket": 2640,
-    "count": 19436,
+    "count": 19409,
     "year": 2012,
     "city": "london"
   },
   {
     "bucket": 2700,
-    "count": 18399,
+    "count": 18357,
     "year": 2012,
     "city": "london"
   },
   {
     "bucket": 2760,
-    "count": 18059,
+    "count": 18042,
     "year": 2012,
     "city": "london"
   },
   {
     "bucket": 2820,
-    "count": 16974,
+    "count": 16965,
     "year": 2012,
     "city": "london"
   },
   {
     "bucket": 2880,
-    "count": 16320,
+    "count": 16299,
     "year": 2012,
     "city": "london"
   },
   {
     "bucket": 2940,
-    "count": 15874,
+    "count": 15855,
     "year": 2012,
     "city": "london"
   },
   {
     "bucket": 3000,
-    "count": 14998,
+    "count": 14982,
     "year": 2012,
     "city": "london"
   },
   {
     "bucket": 3060,
-    "count": 14489,
+    "count": 14473,
     "year": 2012,
     "city": "london"
   },
   {
     "bucket": 3120,
-    "count": 14007,
+    "count": 13987,
     "year": 2012,
     "city": "london"
   },
   {
     "bucket": 3180,
-    "count": 13438,
+    "count": 13415,
     "year": 2012,
     "city": "london"
   },
   {
     "bucket": 3240,
-    "count": 12571,
+    "count": 12555,
     "year": 2012,
     "city": "london"
   },
   {
     "bucket": 3300,
-    "count": 11798,
+    "count": 11783,
     "year": 2012,
     "city": "london"
   },
   {
     "bucket": 3360,
-    "count": 11292,
+    "count": 11273,
     "year": 2012,
     "city": "london"
   },
   {
     "bucket": 3420,
-    "count": 10535,
+    "count": 10520,
     "year": 2012,
     "city": "london"
   },
   {
     "bucket": 3480,
-    "count": 10046,
+    "count": 10028,
     "year": 2012,
     "city": "london"
   },
   {
     "bucket": 3540,
-    "count": 9300,
+    "count": 9285,
     "year": 2012,
     "city": "london"
   },
   {
     "bucket": 3600,
-    "count": 8856,
+    "count": 8840,
     "year": 2012,
     "city": "london"
   },
   {
     "bucket": 3660,
-    "count": 8274,
+    "count": 8266,
     "year": 2012,
     "city": "london"
   },
   {
     "bucket": 3720,
-    "count": 7697,
+    "count": 7686,
     "year": 2012,
     "city": "london"
   },
   {
     "bucket": 3780,
-    "count": 7280,
+    "count": 7267,
     "year": 2012,
     "city": "london"
   },
   {
     "bucket": 3840,
-    "count": 6967,
+    "count": 6957,
     "year": 2012,
     "city": "london"
   },
   {
     "bucket": 3900,
-    "count": 6779,
+    "count": 6765,
     "year": 2012,
     "city": "london"
   },
   {
     "bucket": 3960,
-    "count": 6395,
+    "count": 6377,
     "year": 2012,
     "city": "london"
   },
   {
     "bucket": 4020,
-    "count": 6108,
+    "count": 6101,
     "year": 2012,
     "city": "london"
   },
   {
     "bucket": 4080,
-    "count": 5808,
+    "count": 5802,
     "year": 2012,
     "city": "london"
   },
   {
     "bucket": 4140,
-    "count": 5525,
+    "count": 5520,
     "year": 2012,
     "city": "london"
   },
   {
     "bucket": 4200,
-    "count": 5356,
+    "count": 5351,
     "year": 2012,
     "city": "london"
   },
   {
     "bucket": 4260,
-    "count": 5187,
+    "count": 5182,
     "year": 2012,
     "city": "london"
   },
   {
     "bucket": 4320,
-    "count": 5103,
+    "count": 5098,
     "year": 2012,
     "city": "london"
   },
   {
     "bucket": 4380,
-    "count": 5033,
+    "count": 5030,
     "year": 2012,
     "city": "london"
   },
   {
     "bucket": 4440,
-    "count": 4825,
+    "count": 4814,
     "year": 2012,
     "city": "london"
   },
   {
     "bucket": 4500,
-    "count": 4608,
+    "count": 4603,
     "year": 2012,
     "city": "london"
   },
   {
     "bucket": 4560,
-    "count": 4540,
+    "count": 4533,
     "year": 2012,
     "city": "london"
   },
   {
     "bucket": 4620,
-    "count": 4354,
+    "count": 4352,
     "year": 2012,
     "city": "london"
   },
   {
     "bucket": 4680,
-    "count": 4086,
+    "count": 4074,
     "year": 2012,
     "city": "london"
   },
   {
     "bucket": 4740,
-    "count": 4119,
+    "count": 4112,
     "year": 2012,
     "city": "london"
   },
   {
     "bucket": 4800,
-    "count": 3910,
+    "count": 3904,
     "year": 2012,
     "city": "london"
   },
   {
     "bucket": 4860,
-    "count": 3829,
+    "count": 3824,
     "year": 2012,
     "city": "london"
   },
   {
     "bucket": 4920,
-    "count": 3850,
+    "count": 3847,
     "year": 2012,
     "city": "london"
   },
   {
     "bucket": 4980,
-    "count": 3587,
+    "count": 3585,
     "year": 2012,
     "city": "london"
   },
   {
     "bucket": 5040,
-    "count": 3418,
+    "count": 3416,
     "year": 2012,
     "city": "london"
   },
   {
     "bucket": 5100,
-    "count": 3442,
+    "count": 3440,
     "year": 2012,
     "city": "london"
   },
   {
     "bucket": 5160,
-    "count": 3317,
+    "count": 3309,
     "year": 2012,
     "city": "london"
   },
   {
     "bucket": 5220,
-    "count": 3307,
+    "count": 3305,
     "year": 2012,
     "city": "london"
   },
   {
     "bucket": 5280,
-    "count": 3035,
+    "count": 3033,
     "year": 2012,
     "city": "london"
   },
   {
     "bucket": 5340,
-    "count": 3052,
+    "count": 3049,
     "year": 2012,
     "city": "london"
   },
   {
     "bucket": 5400,
-    "count": 2894,
+    "count": 2888,
     "year": 2012,
     "city": "london"
   },
   {
     "bucket": 5460,
-    "count": 2692,
+    "count": 2688,
     "year": 2012,
     "city": "london"
   },
   {
     "bucket": 5520,
-    "count": 2538,
+    "count": 2536,
     "year": 2012,
     "city": "london"
   },
   {
     "bucket": 5580,
-    "count": 2729,
+    "count": 2726,
     "year": 2012,
     "city": "london"
   },
   {
     "bucket": 5640,
-    "count": 2615,
+    "count": 2613,
     "year": 2012,
     "city": "london"
   },
   {
     "bucket": 5700,
-    "count": 2459,
+    "count": 2457,
     "year": 2012,
     "city": "london"
   },
   {
     "bucket": 5760,
-    "count": 2394,
+    "count": 2391,
     "year": 2012,
     "city": "london"
   },
   {
     "bucket": 5820,
-    "count": 2365,
+    "count": 2363,
     "year": 2012,
     "city": "london"
   },
@@ -595,67 +595,67 @@
   },
   {
     "bucket": 5940,
-    "count": 2243,
+    "count": 2240,
     "year": 2012,
     "city": "london"
   },
   {
     "bucket": 6000,
-    "count": 2202,
+    "count": 2199,
     "year": 2012,
     "city": "london"
   },
   {
     "bucket": 6060,
-    "count": 2168,
+    "count": 2167,
     "year": 2012,
     "city": "london"
   },
   {
     "bucket": 6120,
-    "count": 2107,
+    "count": 2103,
     "year": 2012,
     "city": "london"
   },
   {
     "bucket": 6180,
-    "count": 1983,
+    "count": 1981,
     "year": 2012,
     "city": "london"
   },
   {
     "bucket": 6240,
-    "count": 1990,
+    "count": 1984,
     "year": 2012,
     "city": "london"
   },
   {
     "bucket": 6300,
-    "count": 1886,
+    "count": 1884,
     "year": 2012,
     "city": "london"
   },
   {
     "bucket": 6360,
-    "count": 1856,
+    "count": 1854,
     "year": 2012,
     "city": "london"
   },
   {
     "bucket": 6420,
-    "count": 1812,
+    "count": 1810,
     "year": 2012,
     "city": "london"
   },
   {
     "bucket": 6480,
-    "count": 1864,
+    "count": 1863,
     "year": 2012,
     "city": "london"
   },
   {
     "bucket": 6540,
-    "count": 1700,
+    "count": 1697,
     "year": 2012,
     "city": "london"
   },
@@ -667,61 +667,61 @@
   },
   {
     "bucket": 6660,
-    "count": 1673,
+    "count": 1670,
     "year": 2012,
     "city": "london"
   },
   {
     "bucket": 6720,
-    "count": 1578,
+    "count": 1576,
     "year": 2012,
     "city": "london"
   },
   {
     "bucket": 6780,
-    "count": 1606,
+    "count": 1605,
     "year": 2012,
     "city": "london"
   },
   {
     "bucket": 6840,
-    "count": 1592,
+    "count": 1590,
     "year": 2012,
     "city": "london"
   },
   {
     "bucket": 6900,
-    "count": 1530,
+    "count": 1529,
     "year": 2012,
     "city": "london"
   },
   {
     "bucket": 6960,
-    "count": 1539,
+    "count": 1538,
     "year": 2012,
     "city": "london"
   },
   {
     "bucket": 7020,
-    "count": 1488,
+    "count": 1486,
     "year": 2012,
     "city": "london"
   },
   {
     "bucket": 7080,
-    "count": 1413,
+    "count": 1412,
     "year": 2012,
     "city": "london"
   },
   {
     "bucket": 7140,
-    "count": 1372,
+    "count": 1371,
     "year": 2012,
     "city": "london"
   },
   {
     "bucket": 7200,
-    "count": 96882,
+    "count": 96744,
     "year": 2012,
     "city": "london"
   },
@@ -3631,727 +3631,727 @@
   },
   {
     "bucket": 0,
-    "count": 8130,
+    "count": 8142,
     "year": 2017,
     "city": "london"
   },
   {
     "bucket": 60,
-    "count": 26379,
+    "count": 26788,
     "year": 2017,
     "city": "london"
   },
   {
     "bucket": 120,
-    "count": 99663,
+    "count": 102136,
     "year": 2017,
     "city": "london"
   },
   {
     "bucket": 180,
-    "count": 266768,
+    "count": 272043,
     "year": 2017,
     "city": "london"
   },
   {
     "bucket": 240,
-    "count": 380505,
+    "count": 387941,
     "year": 2017,
     "city": "london"
   },
   {
     "bucket": 300,
-    "count": 437153,
+    "count": 445516,
     "year": 2017,
     "city": "london"
   },
   {
     "bucket": 360,
-    "count": 468623,
+    "count": 477471,
     "year": 2017,
     "city": "london"
   },
   {
     "bucket": 420,
-    "count": 489852,
+    "count": 499119,
     "year": 2017,
     "city": "london"
   },
   {
     "bucket": 480,
-    "count": 500068,
+    "count": 509320,
     "year": 2017,
     "city": "london"
   },
   {
     "bucket": 540,
-    "count": 496439,
+    "count": 505600,
     "year": 2017,
     "city": "london"
   },
   {
     "bucket": 600,
-    "count": 487674,
+    "count": 496601,
     "year": 2017,
     "city": "london"
   },
   {
     "bucket": 660,
-    "count": 468805,
+    "count": 477195,
     "year": 2017,
     "city": "london"
   },
   {
     "bucket": 720,
-    "count": 448903,
+    "count": 456913,
     "year": 2017,
     "city": "london"
   },
   {
     "bucket": 780,
-    "count": 425531,
+    "count": 433174,
     "year": 2017,
     "city": "london"
   },
   {
     "bucket": 840,
-    "count": 403684,
+    "count": 410769,
     "year": 2017,
     "city": "london"
   },
   {
     "bucket": 900,
-    "count": 378349,
+    "count": 384890,
     "year": 2017,
     "city": "london"
   },
   {
     "bucket": 960,
-    "count": 356259,
+    "count": 362397,
     "year": 2017,
     "city": "london"
   },
   {
     "bucket": 1020,
-    "count": 334885,
+    "count": 340628,
     "year": 2017,
     "city": "london"
   },
   {
     "bucket": 1080,
-    "count": 313834,
+    "count": 319117,
     "year": 2017,
     "city": "london"
   },
   {
     "bucket": 1140,
-    "count": 292519,
+    "count": 297342,
     "year": 2017,
     "city": "london"
   },
   {
     "bucket": 1200,
-    "count": 272101,
+    "count": 276664,
     "year": 2017,
     "city": "london"
   },
   {
     "bucket": 1260,
-    "count": 253518,
+    "count": 257620,
     "year": 2017,
     "city": "london"
   },
   {
     "bucket": 1320,
-    "count": 236029,
+    "count": 239766,
     "year": 2017,
     "city": "london"
   },
   {
     "bucket": 1380,
-    "count": 217529,
+    "count": 220920,
     "year": 2017,
     "city": "london"
   },
   {
     "bucket": 1440,
-    "count": 200621,
+    "count": 203604,
     "year": 2017,
     "city": "london"
   },
   {
     "bucket": 1500,
-    "count": 182038,
+    "count": 184835,
     "year": 2017,
     "city": "london"
   },
   {
     "bucket": 1560,
-    "count": 163609,
+    "count": 166139,
     "year": 2017,
     "city": "london"
   },
   {
     "bucket": 1620,
-    "count": 144304,
+    "count": 146363,
     "year": 2017,
     "city": "london"
   },
   {
     "bucket": 1680,
-    "count": 122750,
+    "count": 124532,
     "year": 2017,
     "city": "london"
   },
   {
     "bucket": 1740,
-    "count": 102335,
+    "count": 103908,
     "year": 2017,
     "city": "london"
   },
   {
     "bucket": 1800,
-    "count": 82535,
+    "count": 83689,
     "year": 2017,
     "city": "london"
   },
   {
     "bucket": 1860,
-    "count": 67789,
+    "count": 68713,
     "year": 2017,
     "city": "london"
   },
   {
     "bucket": 1920,
-    "count": 57332,
+    "count": 58092,
     "year": 2017,
     "city": "london"
   },
   {
     "bucket": 1980,
-    "count": 49583,
+    "count": 50232,
     "year": 2017,
     "city": "london"
   },
   {
     "bucket": 2040,
-    "count": 44383,
+    "count": 44937,
     "year": 2017,
     "city": "london"
   },
   {
     "bucket": 2100,
-    "count": 40080,
+    "count": 40633,
     "year": 2017,
     "city": "london"
   },
   {
     "bucket": 2160,
-    "count": 36486,
+    "count": 36985,
     "year": 2017,
     "city": "london"
   },
   {
     "bucket": 2220,
-    "count": 33159,
+    "count": 33609,
     "year": 2017,
     "city": "london"
   },
   {
     "bucket": 2280,
-    "count": 30847,
+    "count": 31233,
     "year": 2017,
     "city": "london"
   },
   {
     "bucket": 2340,
-    "count": 27785,
+    "count": 28160,
     "year": 2017,
     "city": "london"
   },
   {
     "bucket": 2400,
-    "count": 26124,
+    "count": 26469,
     "year": 2017,
     "city": "london"
   },
   {
     "bucket": 2460,
-    "count": 24447,
+    "count": 24788,
     "year": 2017,
     "city": "london"
   },
   {
     "bucket": 2520,
-    "count": 22797,
+    "count": 23113,
     "year": 2017,
     "city": "london"
   },
   {
     "bucket": 2580,
-    "count": 21370,
+    "count": 21638,
     "year": 2017,
     "city": "london"
   },
   {
     "bucket": 2640,
-    "count": 20249,
+    "count": 20519,
     "year": 2017,
     "city": "london"
   },
   {
     "bucket": 2700,
-    "count": 19024,
+    "count": 19219,
     "year": 2017,
     "city": "london"
   },
   {
     "bucket": 2760,
-    "count": 18369,
+    "count": 18566,
     "year": 2017,
     "city": "london"
   },
   {
     "bucket": 2820,
-    "count": 17115,
+    "count": 17319,
     "year": 2017,
     "city": "london"
   },
   {
     "bucket": 2880,
-    "count": 16499,
+    "count": 16684,
     "year": 2017,
     "city": "london"
   },
   {
     "bucket": 2940,
-    "count": 15629,
+    "count": 15835,
     "year": 2017,
     "city": "london"
   },
   {
     "bucket": 3000,
-    "count": 15132,
+    "count": 15309,
     "year": 2017,
     "city": "london"
   },
   {
     "bucket": 3060,
-    "count": 14520,
+    "count": 14703,
     "year": 2017,
     "city": "london"
   },
   {
     "bucket": 3120,
-    "count": 13908,
+    "count": 14065,
     "year": 2017,
     "city": "london"
   },
   {
     "bucket": 3180,
-    "count": 13503,
+    "count": 13662,
     "year": 2017,
     "city": "london"
   },
   {
     "bucket": 3240,
-    "count": 12774,
+    "count": 12913,
     "year": 2017,
     "city": "london"
   },
   {
     "bucket": 3300,
-    "count": 12209,
+    "count": 12362,
     "year": 2017,
     "city": "london"
   },
   {
     "bucket": 3360,
-    "count": 11677,
+    "count": 11819,
     "year": 2017,
     "city": "london"
   },
   {
     "bucket": 3420,
-    "count": 10893,
+    "count": 11038,
     "year": 2017,
     "city": "london"
   },
   {
     "bucket": 3480,
-    "count": 10377,
+    "count": 10478,
     "year": 2017,
     "city": "london"
   },
   {
     "bucket": 3540,
-    "count": 9726,
+    "count": 9836,
     "year": 2017,
     "city": "london"
   },
   {
     "bucket": 3600,
-    "count": 9303,
+    "count": 9391,
     "year": 2017,
     "city": "london"
   },
   {
     "bucket": 3660,
-    "count": 8972,
+    "count": 9048,
     "year": 2017,
     "city": "london"
   },
   {
     "bucket": 3720,
-    "count": 8385,
+    "count": 8488,
     "year": 2017,
     "city": "london"
   },
   {
     "bucket": 3780,
-    "count": 8061,
+    "count": 8152,
     "year": 2017,
     "city": "london"
   },
   {
     "bucket": 3840,
-    "count": 7748,
+    "count": 7836,
     "year": 2017,
     "city": "london"
   },
   {
     "bucket": 3900,
-    "count": 7653,
+    "count": 7723,
     "year": 2017,
     "city": "london"
   },
   {
     "bucket": 3960,
-    "count": 6978,
+    "count": 7063,
     "year": 2017,
     "city": "london"
   },
   {
     "bucket": 4020,
-    "count": 6831,
+    "count": 6930,
     "year": 2017,
     "city": "london"
   },
   {
     "bucket": 4080,
-    "count": 6545,
+    "count": 6620,
     "year": 2017,
     "city": "london"
   },
   {
     "bucket": 4140,
-    "count": 6525,
+    "count": 6602,
     "year": 2017,
     "city": "london"
   },
   {
     "bucket": 4200,
-    "count": 6276,
+    "count": 6352,
     "year": 2017,
     "city": "london"
   },
   {
     "bucket": 4260,
-    "count": 6180,
+    "count": 6256,
     "year": 2017,
     "city": "london"
   },
   {
     "bucket": 4320,
-    "count": 5993,
+    "count": 6064,
     "year": 2017,
     "city": "london"
   },
   {
     "bucket": 4380,
-    "count": 5715,
+    "count": 5768,
     "year": 2017,
     "city": "london"
   },
   {
     "bucket": 4440,
-    "count": 5534,
+    "count": 5600,
     "year": 2017,
     "city": "london"
   },
   {
     "bucket": 4500,
-    "count": 5486,
+    "count": 5549,
     "year": 2017,
     "city": "london"
   },
   {
     "bucket": 4560,
-    "count": 5407,
+    "count": 5465,
     "year": 2017,
     "city": "london"
   },
   {
     "bucket": 4620,
-    "count": 5122,
+    "count": 5190,
     "year": 2017,
     "city": "london"
   },
   {
     "bucket": 4680,
-    "count": 5121,
+    "count": 5190,
     "year": 2017,
     "city": "london"
   },
   {
     "bucket": 4740,
-    "count": 4892,
+    "count": 4953,
     "year": 2017,
     "city": "london"
   },
   {
     "bucket": 4800,
-    "count": 4781,
+    "count": 4833,
     "year": 2017,
     "city": "london"
   },
   {
     "bucket": 4860,
-    "count": 4667,
+    "count": 4721,
     "year": 2017,
     "city": "london"
   },
   {
     "bucket": 4920,
-    "count": 4528,
+    "count": 4593,
     "year": 2017,
     "city": "london"
   },
   {
     "bucket": 4980,
-    "count": 4325,
+    "count": 4377,
     "year": 2017,
     "city": "london"
   },
   {
     "bucket": 5040,
-    "count": 4265,
+    "count": 4309,
     "year": 2017,
     "city": "london"
   },
   {
     "bucket": 5100,
-    "count": 4186,
+    "count": 4229,
     "year": 2017,
     "city": "london"
   },
   {
     "bucket": 5160,
-    "count": 4082,
+    "count": 4128,
     "year": 2017,
     "city": "london"
   },
   {
     "bucket": 5220,
-    "count": 3897,
+    "count": 3951,
     "year": 2017,
     "city": "london"
   },
   {
     "bucket": 5280,
-    "count": 3567,
+    "count": 3602,
     "year": 2017,
     "city": "london"
   },
   {
     "bucket": 5340,
-    "count": 3705,
+    "count": 3749,
     "year": 2017,
     "city": "london"
   },
   {
     "bucket": 5400,
-    "count": 3582,
+    "count": 3629,
     "year": 2017,
     "city": "london"
   },
   {
     "bucket": 5460,
-    "count": 3344,
+    "count": 3389,
     "year": 2017,
     "city": "london"
   },
   {
     "bucket": 5520,
-    "count": 3279,
+    "count": 3308,
     "year": 2017,
     "city": "london"
   },
   {
     "bucket": 5580,
-    "count": 3285,
+    "count": 3324,
     "year": 2017,
     "city": "london"
   },
   {
     "bucket": 5640,
-    "count": 3127,
+    "count": 3167,
     "year": 2017,
     "city": "london"
   },
   {
     "bucket": 5700,
-    "count": 3133,
+    "count": 3166,
     "year": 2017,
     "city": "london"
   },
   {
     "bucket": 5760,
-    "count": 3059,
+    "count": 3096,
     "year": 2017,
     "city": "london"
   },
   {
     "bucket": 5820,
-    "count": 2988,
+    "count": 3017,
     "year": 2017,
     "city": "london"
   },
   {
     "bucket": 5880,
-    "count": 2999,
+    "count": 3028,
     "year": 2017,
     "city": "london"
   },
   {
     "bucket": 5940,
-    "count": 2783,
+    "count": 2810,
     "year": 2017,
     "city": "london"
   },
   {
     "bucket": 6000,
-    "count": 2741,
+    "count": 2769,
     "year": 2017,
     "city": "london"
   },
   {
     "bucket": 6060,
-    "count": 2617,
+    "count": 2635,
     "year": 2017,
     "city": "london"
   },
   {
     "bucket": 6120,
-    "count": 2636,
+    "count": 2663,
     "year": 2017,
     "city": "london"
   },
   {
     "bucket": 6180,
-    "count": 2614,
+    "count": 2633,
     "year": 2017,
     "city": "london"
   },
   {
     "bucket": 6240,
-    "count": 2568,
+    "count": 2594,
     "year": 2017,
     "city": "london"
   },
   {
     "bucket": 6300,
-    "count": 2531,
+    "count": 2557,
     "year": 2017,
     "city": "london"
   },
   {
     "bucket": 6360,
-    "count": 2439,
+    "count": 2469,
     "year": 2017,
     "city": "london"
   },
   {
     "bucket": 6420,
-    "count": 2480,
+    "count": 2516,
     "year": 2017,
     "city": "london"
   },
   {
     "bucket": 6480,
-    "count": 2261,
+    "count": 2288,
     "year": 2017,
     "city": "london"
   },
   {
     "bucket": 6540,
-    "count": 2270,
+    "count": 2315,
     "year": 2017,
     "city": "london"
   },
   {
     "bucket": 6600,
-    "count": 2296,
+    "count": 2316,
     "year": 2017,
     "city": "london"
   },
   {
     "bucket": 6660,
-    "count": 2222,
+    "count": 2253,
     "year": 2017,
     "city": "london"
   },
   {
     "bucket": 6720,
-    "count": 2171,
+    "count": 2190,
     "year": 2017,
     "city": "london"
   },
   {
     "bucket": 6780,
-    "count": 1968,
+    "count": 1985,
     "year": 2017,
     "city": "london"
   },
   {
     "bucket": 6840,
-    "count": 2021,
+    "count": 2050,
     "year": 2017,
     "city": "london"
   },
   {
     "bucket": 6900,
-    "count": 1978,
+    "count": 2003,
     "year": 2017,
     "city": "london"
   },
   {
     "bucket": 6960,
-    "count": 1933,
+    "count": 1967,
     "year": 2017,
     "city": "london"
   },
   {
     "bucket": 7020,
-    "count": 1865,
+    "count": 1877,
     "year": 2017,
     "city": "london"
   },
   {
     "bucket": 7080,
-    "count": 1758,
+    "count": 1776,
     "year": 2017,
     "city": "london"
   },
   {
     "bucket": 7140,
-    "count": 1770,
+    "count": 1803,
     "year": 2017,
     "city": "london"
   },
   {
     "bucket": 7200,
-    "count": 113139,
+    "count": 114277,
     "year": 2017,
     "city": "london"
   },

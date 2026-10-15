@@ -81,6 +81,7 @@ read_csv_options:
   encoding: "utf8-lossy"
 processing_pipeline:
   - rename_columns
+  - filter_null_rows   # 2021-08 ends with 11,084 all-empty (,,,,,,,,) rows
   - remove_invalid_rows
   - join_mexico_city_station_names
   - clean_datetimes
@@ -118,6 +119,12 @@ coordinates:
     lat:  ["lat"]
     lng:  ["lng"]
 
+# TODO: 2022-01, -02, -04, -06 and -07 each end with end-only records appended after the sorted
+# trips (11 rows, one an exact duplicate in 2022-02), e.g. `NULL,,,,,,334,05/01/2022,13:13:07`:
+# end station and time are valid, but start station/date/time, bike and age are empty. They
+# reach parquet with a null start_time (analyze's timeline outputs skip them). Proposed drop:
+# let invalid_values list null (`~`) for start_station_id, which needs remove_invalid_rows to
+# match nulls — today it only matches listed non-null values.
 invalid_values:
   start_station_id: &bad_station_ids
     - "NULL"

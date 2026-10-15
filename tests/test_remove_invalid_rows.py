@@ -32,6 +32,15 @@ def test_only_drops_on_the_named_column():
     assert out.height == 1
 
 
+def test_keeps_rows_with_null_in_the_named_column():
+    # Chicago filters bike_model, which is null for every pre-2020 file.
+    out = _run(
+        {"bike_model": ["classic_bike", None, "electric_scooter"]},
+        {"bike_model": ["electric_scooter"]},
+    )
+    assert out["bike_model"].to_list() == ["classic_bike", None]
+
+
 def test_logs_what_it_drops(capsys):
     _run({"duration": ["17520:06:", "17520:06:"]}, {"duration": ["17520:06:"]})
     out = capsys.readouterr().out
