@@ -1,6 +1,7 @@
 import os
 import json
 import re
+from datetime import datetime
 from enum import StrEnum
 import polars as pl
 from citybikeshare.etl.constants import (
@@ -98,6 +99,28 @@ def select_date_formats(config, context):
     """
     name = os.path.basename(str(context.source_file or ""))
     return config.get("file_date_formats", {}).get(name, config["date_formats"])
+
+
+def restrict_to_file_date_range(df, config, context):
+    """Keep only rows whose start_time falls in the half-open [start, end) range that
+    `file_date_ranges` sets for the file being transformed; other files pass through. For a
+    source file that repeats trips another file already holds (Philadelphia's 2021 Q4 file
+    re-ships all of September). Rows with no start_time are kept, so the null checks still
+    see them."""
+    name = os.path.basename(str(context.source_file or ""))
+    bounds = config.get("file_date_ranges", {}).get(name)
+    if bounds is None:
+        return df
+    start, end = (datetime.fromisoformat(b) for b in bounds)
+    outside = pl.col("start_time").is_not_null() & ~pl.col("start_time").is_between(
+        start, end, closed="left"
+    )
+    frame = df.collect()
+    print(
+        f"✂️  {name}: dropped {frame.filter(outside).height} row(s) outside "
+        f"[{bounds[0]}, {bounds[1]})"
+    )
+    return frame.filter(~outside).lazy()
 
 
 def convert_columns_to_datetime(date_column_names, date_formats, time_unit: str = "ms"):
@@ -1221,6 +1244,9 @@ PROCESSING_FUNCTIONS = {
         df, config.get("final_columns", DEFAULT_FINAL_COLUMNS)
     ),
     "offset_two_digit_years": lambda df, config, context: offset_two_digit_years(df),
+    "restrict_to_file_date_range": lambda df, config, context: restrict_to_file_date_range(
+        df, config, context
+    ),
     "austin_calculate_end_time": lambda df, config, context: calculate_end_time(
         df, config
     ),
