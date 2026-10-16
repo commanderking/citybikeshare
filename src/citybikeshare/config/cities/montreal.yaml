@@ -98,3 +98,19 @@ processing_pipeline:
   - convert_to_datetime                # era A/B: parse string timestamps (no-op on era C)
   - resolve_montreal_station_names     # era A/B: numeric code/pk -> real station name
   - select_final_columns
+
+# Months the coverage check (analysis/verify_month_coverage.py) allows: genuine gaps.
+expected_gaps:
+  # BIXI closed mid-Nov to mid-Apr each year until year-round service began in winter 2023-24.
+  - "2014-11..2015-04"
+  - "2015-11..2016-04"
+  - "2016-11..2017-04"
+  - "2017-11..2018-04"
+  - "2018-11..2019-04"
+  # BIXI's 2019 archive (Historique-BIXI-2019.zip) was packaged 2019-11-05 and ends at October,
+  # so the season's last half-month was never published.
+  - "2019-11"
+  - "2019-12..2020-04"
+  - "2020-11..2021-04"
+  - "2021-11..2022-04"
+  - "2022-11..2023-04"

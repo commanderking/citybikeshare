@@ -131,6 +131,25 @@ def _remove_orphan_parquets(context: PipelineContext, expected_names):
         print(f"🗑️  Removed orphan parquet: {pq.name}")
 
 
+# Config keys that apply a fix to one named input file. A key that names no input (a typo,
+# a renamed source file) would silently skip its fix.
+FILE_SCOPED_KEYS = ("file_date_formats", "file_date_ranges")
+
+
+def _assert_file_scoped_keys_match_inputs(config, input_files):
+    names = {os.path.basename(f) for f in input_files}
+    unmatched = {
+        key: sorted(set(config.get(key, {})) - names)
+        for key in FILE_SCOPED_KEYS
+        if set(config.get(key, {})) - names
+    }
+    if unmatched:
+        raise ValueError(
+            f"File-scoped config names files that aren't transform inputs: {unmatched}. "
+            "Fix the file name, or remove the entry if the source file is gone."
+        )
+
+
 def run_pre_transform_steps(context: PipelineContext, config: dict):
     """Run a city's configured `pre_transform_pipeline` once, before the file loop."""
     for step in config.get("pre_transform_pipeline", []):
@@ -148,6 +167,7 @@ def transform_city_data(context: PipelineContext, incremental: bool = True):
     config = load_city_config(context.city)
     run_pre_transform_steps(context, config)
     filtered_files = filter_filenames(trip_files, config)
+    _assert_file_scoped_keys_match_inputs(config, filtered_files)
 
     state = load_state(context.transform_state_path) if incremental else {}
     new_state: dict = {}

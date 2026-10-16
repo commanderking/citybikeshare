@@ -5,6 +5,12 @@ aws_sync: false
 file_matcher:
   - trips
   - Trips
+  # Q4 2017 (Oct–Dec) shipped under an export-tool file name with no "trips" in it.
+  - indego-quarter-echo
+# The 2021 Q4 file re-ships all of September 2021: the same 107,265 trip_ids as the Q3 file,
+# differing only in some station coordinates. September belongs to Q3, so the Q4 file keeps Q4.
+file_date_ranges:
+  "indego-trips-2021-q4.csv.gz": ["2021-10-01", "2022-01-01"]
 renamed_columns:
   trip_id: id
   duration: duration
@@ -39,6 +45,7 @@ processing_pipeline:
   - process_bicycle_transit_stations
   - convert_to_datetime
   - offset_two_digit_years
+  - restrict_to_file_date_range
   - normalize_bike_type
   - select_final_columns
   - cast_optional_columns

@@ -71,3 +71,7 @@ coordinates:
     id:   [end_station_id]
     lat:  [end_lat, end_station_latitude]
     lng:  [end_lng, end_station_longitude]
+
+# Months the coverage check (analysis/verify_month_coverage.py) allows: genuine gaps.
+expected_gaps:
+  - "2020-04"  # Lyft never published an April 2020 file (the bucket skips 202003 → 202005)

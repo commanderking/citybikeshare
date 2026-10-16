@@ -5,6 +5,27 @@ aws_sync: false
 file_matcher:
   - ".csv"
   - ".zip"
+
+# ecobici's open-data page is an unreliable index of its own uploads: some month labels
+# link the wrong file, and some months are on the server with no link. Each entry points a
+# month label at the right upload (the WordPress media API, /wp-json/wp/v2/media, lists them).
+url_overrides:
+  # The page's "2025-02" link points at 2025-01.csv.
+  "2025-02": "/wp-content/uploads/2025/03/2025-02.csv"
+  # The linked 2024-05.csv stops at May 15; this later re-upload is the full month
+  # (2,053,563 trips, matching SEMOVI's published count).
+  "2024-05": "/wp-content/uploads/2024/06/2024-05-1.csv"
+  # Re-export of 2022-09.csv with the same trips, minus that file's 129,541 Excel-mangled
+  # (MM:SS.s) times, which left departures unrecoverable.
+  "2022-09": "/wp-content/uploads/2023/08/202209.csv"
+  # Uploaded but no longer linked from the page.
+  "2020-12": "/wp-content/uploads/2022/08/2020-12.csv"
+
+# The files the url_overrides above supersede, still on disk from earlier syncs.
+excluded_filenames:
+  - "2024-05.csv"
+  - "2022-09.csv"
+
 clean_pipeline: 
   - normalize_newlines
 renamed_columns:
@@ -19,7 +40,7 @@ renamed_columns:
   Fecha_Arribo: end_date
   Hora_Arribo: ending_time
 
-  # Misaligned / lowercase variant (2022-09.csv)
+  # Misaligned / lowercase variant (202209.csv)
   Genero_usuario: gender
   Edad_usuario: age
   CE_retiro: start_station_id
@@ -60,22 +81,13 @@ read_csv_options:
   encoding: "utf8-lossy"
 processing_pipeline:
   - rename_columns
+  - filter_null_rows   # 2021-08 ends with 11,084 all-empty (,,,,,,,,) rows
   - remove_invalid_rows
-  # Before the station join: recover_corrupt_times relies on the source's arrival order,
-  # which a join can reshuffle.
-  - recover_corrupt_times
   - join_mexico_city_station_names
   - clean_datetimes
   - combine_datetimes
   - offset_two_digit_years
   - select_final_columns
-
-# Files whose source shipped Excel-mangled time cells (MM:SS.s, hour dropped from the
-# text). recover_corrupt_times rebuilds the arrival hour from the arrival-sorted order
-# for these files only (departures nulled — not sorted); any OTHER file with the pattern
-# is left to fail loud in clean_datetimes so a new occurrence is noticed.
-corrupt_time_files:
-  - "2022-09.csv"
 
 # Malformed station ids (leaked names, tag-reader errors, placeholder labels) that
 # appear in the id columns. Dropped before the station join so the coverage assert
@@ -107,6 +119,12 @@ coordinates:
     lat:  ["lat"]
     lng:  ["lng"]
 
+# TODO: 2022-01, -02, -04, -06 and -07 each end with end-only records appended after the sorted
+# trips (11 rows, one an exact duplicate in 2022-02), e.g. `NULL,,,,,,334,05/01/2022,13:13:07`:
+# end station and time are valid, but start station/date/time, bike and age are empty. They
+# reach parquet with a null start_time (analyze's timeline outputs skip them). Proposed drop:
+# let invalid_values list null (`~`) for start_station_id, which needs remove_invalid_rows to
+# match nulls — today it only matches listed non-null values.
 invalid_values:
   start_station_id: &bad_station_ids
     - "NULL"
@@ -160,10 +178,8 @@ unmapped_station_ids:
   - 692
   - 693
   - 696
-  - 701
   - 703
   - 704
-  - 705
   - 706
   - 707
   - 708

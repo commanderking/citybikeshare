@@ -97,3 +97,10 @@ coordinates:
     id:   [end_station_id, "Stop Station ID"]
     lat:  [end_lat, "Stop Station Lat"]
     lng:  [end_lng, "Stop Station Long"]
+
+# Months the coverage check allows because of a defect not yet fixed. Remove an entry once
+# its fix lands — the check fails while a listed month is complete.
+known_gaps:
+  # TODO: the 201906–201908 zips name their CSV member without a .csv extension, so extract
+  # skips it; the files never reach raw/.
+  - "2019-06..2019-08"

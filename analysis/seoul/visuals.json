@@ -5255,16 +5255,16 @@
       "year": 2016
     },
     {
-      "end_trips": 1919,
-      "start_trips": 1901,
-      "station": "명지전문대학교 정문 앞",
+      "end_trips": 1902,
+      "start_trips": 1918,
+      "station": "청계벽산아파트 앞",
       "total_trips": 3820,
       "year": 2016
     },
     {
-      "end_trips": 1902,
-      "start_trips": 1918,
-      "station": "청계벽산아파트 앞",
+      "end_trips": 1919,
+      "start_trips": 1901,
+      "station": "명지전문대학교 정문 앞",
       "total_trips": 3820,
       "year": 2016
     },
@@ -5913,16 +5913,16 @@
       "year": 2016
     },
     {
-      "end_trips": 952,
-      "start_trips": 1033,
-      "station": "응봉현대아파트 정류소",
+      "end_trips": 957,
+      "start_trips": 1028,
+      "station": "서울지방병무청 버스정류장",
       "total_trips": 1985,
       "year": 2016
     },
     {
-      "end_trips": 957,
-      "start_trips": 1028,
-      "station": "서울지방병무청 버스정류장",
+      "end_trips": 952,
+      "start_trips": 1033,
+      "station": "응봉현대아파트 정류소",
       "total_trips": 1985,
       "year": 2016
     },
@@ -6158,16 +6158,16 @@
       "year": 2016
     },
     {
-      "end_trips": 740,
-      "start_trips": 614,
-      "station": "역촌종합시장 버스정류장(예일여고 방면)",
+      "end_trips": 836,
+      "start_trips": 518,
+      "station": "강월초교입구 사거리",
       "total_trips": 1354,
       "year": 2016
     },
     {
-      "end_trips": 836,
-      "start_trips": 518,
-      "station": "강월초교입구 사거리",
+      "end_trips": 740,
+      "start_trips": 614,
+      "station": "역촌종합시장 버스정류장(예일여고 방면)",
       "total_trips": 1354,
       "year": 2016
     },
@@ -6524,14 +6524,14 @@
     {
       "end_trips": 1,
       "start_trips": 0,
-      "station": "을지로4가역 4번출구 앞",
+      "station": "목동 삼성쉐르빌 앞",
       "total_trips": 1,
       "year": 2016
     },
     {
       "end_trips": 1,
       "start_trips": 0,
-      "station": "목동 삼성쉐르빌 앞",
+      "station": "을지로4가역 4번출구 앞",
       "total_trips": 1,
       "year": 2016
     },
@@ -8552,16 +8552,16 @@
       "year": 2017
     },
     {
-      "end_trips": 6666,
-      "start_trips": 6432,
-      "station": "흑석역 1번출구",
+      "end_trips": 6268,
+      "start_trips": 6830,
+      "station": "재동초교 앞 삼거리",
       "total_trips": 13098,
       "year": 2017
     },
     {
-      "end_trips": 6268,
-      "start_trips": 6830,
-      "station": "재동초교 앞 삼거리",
+      "end_trips": 6666,
+      "start_trips": 6432,
+      "station": "흑석역 1번출구",
       "total_trips": 13098,
       "year": 2017
     },
@@ -9497,16 +9497,16 @@
       "year": 2017
     },
     {
-      "end_trips": 4837,
-      "start_trips": 3922,
-      "station": "삼전역 4번출구",
+      "end_trips": 2970,
+      "start_trips": 5789,
+      "station": "부엉이공원 앞",
       "total_trips": 8759,
       "year": 2017
     },
     {
-      "end_trips": 2970,
-      "start_trips": 5789,
-      "station": "부엉이공원 앞",
+      "end_trips": 4837,
+      "start_trips": 3922,
+      "station": "삼전역 4번출구",
       "total_trips": 8759,
       "year": 2017
     },
@@ -9672,16 +9672,16 @@
       "year": 2017
     },
     {
-      "end_trips": 3642,
-      "start_trips": 4628,
-      "station": "연희교차로 인근",
+      "end_trips": 4116,
+      "start_trips": 4154,
+      "station": "국립정신 건강센터 앞",
       "total_trips": 8270,
       "year": 2017
     },
     {
-      "end_trips": 4116,
-      "start_trips": 4154,
-      "station": "국립정신 건강센터 앞",
+      "end_trips": 3642,
+      "start_trips": 4628,
+      "station": "연희교차로 인근",
       "total_trips": 8270,
       "year": 2017
     },
@@ -9721,16 +9721,16 @@
       "year": 2017
     },
     {
-      "end_trips": 4014,
-      "start_trips": 4016,
-      "station": "신길우성1차아파트 앞 공원",
+      "end_trips": 4174,
+      "start_trips": 3856,
+      "station": "군자교 서측 녹지대",
       "total_trips": 8030,
       "year": 2017
     },
     {
-      "end_trips": 4174,
-      "start_trips": 3856,
-      "station": "군자교 서측 녹지대",
+      "end_trips": 4014,
+      "start_trips": 4016,
+      "station": "신길우성1차아파트 앞 공원",
       "total_trips": 8030,
       "year": 2017
     },
@@ -10211,16 +10211,16 @@
       "year": 2017
     },
     {
-      "end_trips": 3382,
-      "start_trips": 2878,
-      "station": "해공공원(천호동)",
+      "end_trips": 3210,
+      "start_trips": 3050,
+      "station": "3호선 매봉역 3번출구앞",
       "total_trips": 6260,
       "year": 2017
     },
     {
-      "end_trips": 3210,
-      "start_trips": 3050,
-      "station": "3호선 매봉역 3번출구앞",
+      "end_trips": 3382,
+      "start_trips": 2878,
+      "station": "해공공원(천호동)",
       "total_trips": 6260,
       "year": 2017
     },
@@ -11198,16 +11198,16 @@
       "year": 2017
     },
     {
-      "end_trips": 2009,
-      "start_trips": 1907,
-      "station": "도봉보건소사거리",
+      "end_trips": 1815,
+      "start_trips": 2101,
+      "station": "래미안금호하이리버 아파트 102동 옆",
       "total_trips": 3916,
       "year": 2017
     },
     {
-      "end_trips": 1815,
-      "start_trips": 2101,
-      "station": "래미안금호하이리버 아파트 102동 옆",
+      "end_trips": 2009,
+      "start_trips": 1907,
+      "station": "도봉보건소사거리",
       "total_trips": 3916,
       "year": 2017
     },
@@ -11331,16 +11331,16 @@
       "year": 2017
     },
     {
-      "end_trips": 1602,
-      "start_trips": 2174,
-      "station": "고려사대부속중고 정문",
+      "end_trips": 1967,
+      "start_trips": 1809,
+      "station": "현대아파트 정문 앞",
       "total_trips": 3776,
       "year": 2017
     },
     {
-      "end_trips": 1967,
-      "start_trips": 1809,
-      "station": "현대아파트 정문 앞",
+      "end_trips": 1602,
+      "start_trips": 2174,
+      "station": "고려사대부속중고 정문",
       "total_trips": 3776,
       "year": 2017
     },
@@ -11429,16 +11429,16 @@
       "year": 2017
     },
     {
-      "end_trips": 1861,
-      "start_trips": 1739,
-      "station": "MCM 본사 직영점 앞",
+      "end_trips": 1761,
+      "start_trips": 1839,
+      "station": "서초리슈빌S 글로벌 앞",
       "total_trips": 3600,
       "year": 2017
     },
     {
-      "end_trips": 1761,
-      "start_trips": 1839,
-      "station": "서초리슈빌S 글로벌 앞",
+      "end_trips": 1861,
+      "start_trips": 1739,
+      "station": "MCM 본사 직영점 앞",
       "total_trips": 3600,
       "year": 2017
     },
@@ -11471,16 +11471,16 @@
       "year": 2017
     },
     {
-      "end_trips": 1884,
-      "start_trips": 1653,
-      "station": "곰달래 문화복지센터 B",
+      "end_trips": 1942,
+      "start_trips": 1595,
+      "station": "방학동우체국 건너편",
       "total_trips": 3537,
       "year": 2017
     },
     {
-      "end_trips": 1942,
-      "start_trips": 1595,
-      "station": "방학동우체국 건너편",
+      "end_trips": 1884,
+      "start_trips": 1653,
+      "station": "곰달래 문화복지센터 B",
       "total_trips": 3537,
       "year": 2017
     },
@@ -11597,16 +11597,16 @@
       "year": 2017
     },
     {
-      "end_trips": 1692,
-      "start_trips": 1579,
-      "station": "낙성대역 3번출구 뒤",
+      "end_trips": 1219,
+      "start_trips": 2052,
+      "station": "양재역 3번출구 주변",
       "total_trips": 3271,
       "year": 2017
     },
     {
-      "end_trips": 1219,
-      "start_trips": 2052,
-      "station": "양재역 3번출구 주변",
+      "end_trips": 1692,
+      "start_trips": 1579,
+      "station": "낙성대역 3번출구 뒤",
       "total_trips": 3271,
       "year": 2017
     },
@@ -12087,16 +12087,16 @@
       "year": 2017
     },
     {
-      "end_trips": 1241,
-      "start_trips": 1180,
-      "station": "서울시 품질시험소 앞",
+      "end_trips": 1111,
+      "start_trips": 1310,
+      "station": "상월곡역 4번출구",
       "total_trips": 2421,
       "year": 2017
     },
     {
-      "end_trips": 1111,
-      "start_trips": 1310,
-      "station": "상월곡역 4번출구",
+      "end_trips": 1241,
+      "start_trips": 1180,
+      "station": "서울시 품질시험소 앞",
       "total_trips": 2421,
       "year": 2017
     },
@@ -12283,16 +12283,16 @@
       "year": 2017
     },
     {
-      "end_trips": 911,
-      "start_trips": 1119,
-      "station": "방배래미안 정문 앞",
+      "end_trips": 1085,
+      "start_trips": 945,
+      "station": "희성오피앙",
       "total_trips": 2030,
       "year": 2017
     },
     {
-      "end_trips": 1085,
-      "start_trips": 945,
-      "station": "희성오피앙",
+      "end_trips": 911,
+      "start_trips": 1119,
+      "station": "방배래미안 정문 앞",
       "total_trips": 2030,
       "year": 2017
     },
@@ -13214,16 +13214,16 @@
       "year": 2017
     },
     {
-      "end_trips": 70,
-      "start_trips": 74,
-      "station": "영파여고 앞",
+      "end_trips": 75,
+      "start_trips": 69,
+      "station": "구립망우청소년독서실",
       "total_trips": 144,
       "year": 2017
     },
     {
-      "end_trips": 75,
-      "start_trips": 69,
-      "station": "구립망우청소년독서실",
+      "end_trips": 70,
+      "start_trips": 74,
+      "station": "영파여고 앞",
       "total_trips": 144,
       "year": 2017
     },
@@ -13403,16 +13403,16 @@
       "year": 2017
     },
     {
-      "end_trips": 48,
-      "start_trips": 40,
-      "station": "대명초교 입구 교차로",
+      "end_trips": 40,
+      "start_trips": 48,
+      "station": "가산동 주민센터",
       "total_trips": 88,
       "year": 2017
     },
     {
-      "end_trips": 40,
-      "start_trips": 48,
-      "station": "가산동 주민센터",
+      "end_trips": 48,
+      "start_trips": 40,
+      "station": "대명초교 입구 교차로",
       "total_trips": 88,
       "year": 2017
     },
@@ -13440,13 +13440,6 @@
     {
       "end_trips": 42,
       "start_trips": 37,
-      "station": "시립창동운동장 입구",
-      "total_trips": 79,
-      "year": 2017
-    },
-    {
-      "end_trips": 42,
-      "start_trips": 37,
       "station": "면목역 3번출구",
       "total_trips": 79,
       "year": 2017
@@ -13462,6 +13455,13 @@
       "end_trips": 37,
       "start_trips": 42,
       "station": "도봉구청 옆(중랑천변)",
+      "total_trips": 79,
+      "year": 2017
+    },
+    {
+      "end_trips": 42,
+      "start_trips": 37,
+      "station": "시립창동운동장 입구",
       "total_trips": 79,
       "year": 2017
     },
@@ -13515,16 +13515,16 @@
       "year": 2017
     },
     {
-      "end_trips": 32,
-      "start_trips": 36,
-      "station": "길음래미안아파트817동 상가 앞",
+      "end_trips": 39,
+      "start_trips": 29,
+      "station": "롯데캐슬골드파크1차 서문",
       "total_trips": 68,
       "year": 2017
     },
     {
-      "end_trips": 39,
-      "start_trips": 29,
-      "station": "롯데캐슬골드파크1차 서문",
+      "end_trips": 32,
+      "start_trips": 36,
+      "station": "길음래미안아파트817동 상가 앞",
       "total_trips": 68,
       "year": 2017
     },
@@ -13536,16 +13536,16 @@
       "year": 2017
     },
     {
-      "end_trips": 19,
-      "start_trips": 44,
-      "station": "성북쉼터 앞",
+      "end_trips": 27,
+      "start_trips": 36,
+      "station": "강일리버파크 6단지",
       "total_trips": 63,
       "year": 2017
     },
     {
-      "end_trips": 27,
-      "start_trips": 36,
-      "station": "강일리버파크 6단지",
+      "end_trips": 19,
+      "start_trips": 44,
+      "station": "성북쉼터 앞",
       "total_trips": 63,
       "year": 2017
     },
@@ -13564,16 +13564,16 @@
       "year": 2017
     },
     {
-      "end_trips": 22,
-      "start_trips": 37,
-      "station": "광진유진스웰",
+      "end_trips": 31,
+      "start_trips": 28,
+      "station": "솔브레인이엔지 뒤편",
       "total_trips": 59,
       "year": 2017
     },
     {
-      "end_trips": 31,
-      "start_trips": 28,
-      "station": "솔브레인이엔지 뒤편",
+      "end_trips": 22,
+      "start_trips": 37,
+      "station": "광진유진스웰",
       "total_trips": 59,
       "year": 2017
     },
@@ -13599,16 +13599,16 @@
       "year": 2017
     },
     {
-      "end_trips": 34,
-      "start_trips": 17,
-      "station": "문정동 글샘 공원",
+      "end_trips": 25,
+      "start_trips": 26,
+      "station": "강일 다솜 어린이 공원",
       "total_trips": 51,
       "year": 2017
     },
     {
-      "end_trips": 25,
-      "start_trips": 26,
-      "station": "강일 다솜 어린이 공원",
+      "end_trips": 34,
+      "start_trips": 17,
+      "station": "문정동 글샘 공원",
       "total_trips": 51,
       "year": 2017
     },
@@ -13683,13 +13683,6 @@
       "year": 2017
     },
     {
-      "end_trips": 18,
-      "start_trips": 12,
-      "station": "고덕동 래미안 힐스테이트",
-      "total_trips": 30,
-      "year": 2017
-    },
-    {
       "end_trips": 15,
       "start_trips": 15,
       "station": "상일초등학교",
@@ -13700,6 +13693,13 @@
       "end_trips": 12,
       "start_trips": 18,
       "station": "동아1차APT105동 버스정류장(신도림중학교 방면)",
+      "total_trips": 30,
+      "year": 2017
+    },
+    {
+      "end_trips": 18,
+      "start_trips": 12,
+      "station": "고덕동 래미안 힐스테이트",
       "total_trips": 30,
       "year": 2017
     },
@@ -13830,37 +13830,9 @@
       "year": 2017
     },
     {
-      "end_trips": 1,
-      "start_trips": 0,
-      "station": "석관동 하이마트 사거리",
-      "total_trips": 1,
-      "year": 2017
-    },
-    {
       "end_trips": 0,
       "start_trips": 1,
       "station": "경서농협 버스정류장(우리은행신정동지점방향)",
-      "total_trips": 1,
-      "year": 2017
-    },
-    {
-      "end_trips": 0,
-      "start_trips": 1,
-      "station": "서울연신초등학교",
-      "total_trips": 1,
-      "year": 2017
-    },
-    {
-      "end_trips": 1,
-      "start_trips": 0,
-      "station": "신정이펜하우스314동",
-      "total_trips": 1,
-      "year": 2017
-    },
-    {
-      "end_trips": 0,
-      "start_trips": 1,
-      "station": "연신내역 1번 출구",
       "total_trips": 1,
       "year": 2017
     },
@@ -13874,7 +13846,28 @@
     {
       "end_trips": 1,
       "start_trips": 0,
-      "station": "장수공원",
+      "station": "서울연신중학교",
+      "total_trips": 1,
+      "year": 2017
+    },
+    {
+      "end_trips": 1,
+      "start_trips": 0,
+      "station": "석계역5번출구 앞",
+      "total_trips": 1,
+      "year": 2017
+    },
+    {
+      "end_trips": 0,
+      "start_trips": 1,
+      "station": "서울연신초등학교",
+      "total_trips": 1,
+      "year": 2017
+    },
+    {
+      "end_trips": 0,
+      "start_trips": 1,
+      "station": "연신내역 1번 출구",
       "total_trips": 1,
       "year": 2017
     },
@@ -13888,14 +13881,21 @@
     {
       "end_trips": 1,
       "start_trips": 0,
-      "station": "석계역5번출구 앞",
+      "station": "장수공원",
       "total_trips": 1,
       "year": 2017
     },
     {
       "end_trips": 1,
       "start_trips": 0,
-      "station": "서울연신중학교",
+      "station": "신정이펜하우스314동",
+      "total_trips": 1,
+      "year": 2017
+    },
+    {
+      "end_trips": 1,
+      "start_trips": 0,
+      "station": "석관동 하이마트 사거리",
       "total_trips": 1,
       "year": 2017
     },
@@ -14887,16 +14887,16 @@
       "year": 2018
     },
     {
-      "end_trips": 14375,
-      "start_trips": 14706,
-      "station": "제일빌딩 앞",
+      "end_trips": 15162,
+      "start_trips": 13919,
+      "station": "SBS방송국",
       "total_trips": 29081,
       "year": 2018
     },
     {
-      "end_trips": 15162,
-      "start_trips": 13919,
-      "station": "SBS방송국",
+      "end_trips": 14375,
+      "start_trips": 14706,
+      "station": "제일빌딩 앞",
       "total_trips": 29081,
       "year": 2018
     },
@@ -15384,16 +15384,16 @@
       "year": 2018
     },
     {
-      "end_trips": 12286,
-      "start_trips": 12467,
-      "station": "강동세무서",
+      "end_trips": 11943,
+      "start_trips": 12810,
+      "station": "국립현대미술관",
       "total_trips": 24753,
       "year": 2018
     },
     {
-      "end_trips": 11943,
-      "start_trips": 12810,
-      "station": "국립현대미술관",
+      "end_trips": 12286,
+      "start_trips": 12467,
+      "station": "강동세무서",
       "total_trips": 24753,
       "year": 2018
     },
@@ -16595,16 +16595,16 @@
       "year": 2018
     },
     {
-      "end_trips": 9859,
-      "start_trips": 8483,
-      "station": "증산역 4번출구",
+      "end_trips": 8501,
+      "start_trips": 9841,
+      "station": "압구정역 2번 출구 옆",
       "total_trips": 18342,
       "year": 2018
     },
     {
-      "end_trips": 8501,
-      "start_trips": 9841,
-      "station": "압구정역 2번 출구 옆",
+      "end_trips": 9859,
+      "start_trips": 8483,
+      "station": "증산역 4번출구",
       "total_trips": 18342,
       "year": 2018
     },
@@ -17596,16 +17596,16 @@
       "year": 2018
     },
     {
-      "end_trips": 7406,
-      "start_trips": 7200,
-      "station": "금원빌딩 앞",
+      "end_trips": 8136,
+      "start_trips": 6470,
+      "station": "사당역 5번출구",
       "total_trips": 14606,
       "year": 2018
     },
     {
-      "end_trips": 8136,
-      "start_trips": 6470,
-      "station": "사당역 5번출구",
+      "end_trips": 7406,
+      "start_trips": 7200,
+      "station": "금원빌딩 앞",
       "total_trips": 14606,
       "year": 2018
     },
@@ -17715,16 +17715,16 @@
       "year": 2018
     },
     {
-      "end_trips": 6933,
-      "start_trips": 7336,
-      "station": "서울대입구역 1번출구",
+      "end_trips": 7288,
+      "start_trips": 6981,
+      "station": "난곡 사거리",
       "total_trips": 14269,
       "year": 2018
     },
     {
-      "end_trips": 7288,
-      "start_trips": 6981,
-      "station": "난곡 사거리",
+      "end_trips": 6933,
+      "start_trips": 7336,
+      "station": "서울대입구역 1번출구",
       "total_trips": 14269,
       "year": 2018
     },
@@ -18191,16 +18191,16 @@
       "year": 2018
     },
     {
-      "end_trips": 7081,
-      "start_trips": 5914,
-      "station": "도림사거리",
+      "end_trips": 6506,
+      "start_trips": 6489,
+      "station": "삼각지역 3번출구",
       "total_trips": 12995,
       "year": 2018
     },
     {
-      "end_trips": 6506,
-      "start_trips": 6489,
-      "station": "삼각지역 3번출구",
+      "end_trips": 7081,
+      "start_trips": 5914,
+      "station": "도림사거리",
       "total_trips": 12995,
       "year": 2018
     },
@@ -18534,16 +18534,16 @@
       "year": 2018
     },
     {
-      "end_trips": 5798,
-      "start_trips": 6359,
-      "station": "남부고용노동지청 남측",
+      "end_trips": 6099,
+      "start_trips": 6058,
+      "station": "도봉보건소사거리",
       "total_trips": 12157,
       "year": 2018
     },
     {
-      "end_trips": 6099,
-      "start_trips": 6058,
-      "station": "도봉보건소사거리",
+      "end_trips": 5798,
+      "start_trips": 6359,
+      "station": "남부고용노동지청 남측",
       "total_trips": 12157,
       "year": 2018
     },
@@ -19157,16 +19157,16 @@
       "year": 2018
     },
     {
-      "end_trips": 5293,
-      "start_trips": 5351,
-      "station": "당고개공원 대여소",
+      "end_trips": 4318,
+      "start_trips": 6326,
+      "station": "원묵고등학교",
       "total_trips": 10644,
       "year": 2018
     },
     {
-      "end_trips": 4318,
-      "start_trips": 6326,
-      "station": "원묵고등학교",
+      "end_trips": 5293,
+      "start_trips": 5351,
+      "station": "당고개공원 대여소",
       "total_trips": 10644,
       "year": 2018
     },
@@ -20046,16 +20046,16 @@
       "year": 2018
     },
     {
-      "end_trips": 3655,
-      "start_trips": 4851,
-      "station": "역삼빌딩 앞(하나은행 옆)",
+      "end_trips": 4476,
+      "start_trips": 4030,
+      "station": "답십리초등학교 옆 공원",
       "total_trips": 8506,
       "year": 2018
     },
     {
-      "end_trips": 4476,
-      "start_trips": 4030,
-      "station": "답십리초등학교 옆 공원",
+      "end_trips": 3655,
+      "start_trips": 4851,
+      "station": "역삼빌딩 앞(하나은행 옆)",
       "total_trips": 8506,
       "year": 2018
     },
@@ -21012,16 +21012,16 @@
       "year": 2018
     },
     {
-      "end_trips": 2810,
-      "start_trips": 3359,
-      "station": "디지털미디어 시티역 4번출구(DMC역)",
+      "end_trips": 2654,
+      "start_trips": 3515,
+      "station": "관악구 보건소",
       "total_trips": 6169,
       "year": 2018
     },
     {
-      "end_trips": 2654,
-      "start_trips": 3515,
-      "station": "관악구 보건소",
+      "end_trips": 2810,
+      "start_trips": 3359,
+      "station": "디지털미디어 시티역 4번출구(DMC역)",
       "total_trips": 6169,
       "year": 2018
     },
@@ -21229,16 +21229,16 @@
       "year": 2018
     },
     {
-      "end_trips": 2726,
-      "start_trips": 3042,
-      "station": "이촌1동 마을공원",
+      "end_trips": 2925,
+      "start_trips": 2843,
+      "station": "서울교통공사 사당별관 건너편",
       "total_trips": 5768,
       "year": 2018
     },
     {
-      "end_trips": 2925,
-      "start_trips": 2843,
-      "station": "서울교통공사 사당별관 건너편",
+      "end_trips": 2726,
+      "start_trips": 3042,
+      "station": "이촌1동 마을공원",
       "total_trips": 5768,
       "year": 2018
     },
@@ -21313,16 +21313,16 @@
       "year": 2018
     },
     {
-      "end_trips": 2907,
-      "start_trips": 2741,
-      "station": "솔밭공원역",
+      "end_trips": 2458,
+      "start_trips": 3190,
+      "station": "강남 을지병원 교차로",
       "total_trips": 5648,
       "year": 2018
     },
     {
-      "end_trips": 2458,
-      "start_trips": 3190,
-      "station": "강남 을지병원 교차로",
+      "end_trips": 2907,
+      "start_trips": 2741,
+      "station": "솔밭공원역",
       "total_trips": 5648,
       "year": 2018
     },
@@ -21362,13 +21362,6 @@
       "year": 2018
     },
     {
-      "end_trips": 2300,
-      "start_trips": 3280,
-      "station": "국립정신 건강센터 앞",
-      "total_trips": 5580,
-      "year": 2018
-    },
-    {
       "end_trips": 2586,
       "start_trips": 2994,
       "station": "래미안금호하이리버 아파트 102동 옆",
@@ -21376,16 +21369,23 @@
       "year": 2018
     },
     {
-      "end_trips": 1604,
-      "start_trips": 3973,
-      "station": "백련산 힐스테이트 3차",
-      "total_trips": 5577,
+      "end_trips": 2300,
+      "start_trips": 3280,
+      "station": "국립정신 건강센터 앞",
+      "total_trips": 5580,
       "year": 2018
     },
     {
       "end_trips": 2470,
       "start_trips": 3107,
       "station": "문정 법조단지5",
+      "total_trips": 5577,
+      "year": 2018
+    },
+    {
+      "end_trips": 1604,
+      "start_trips": 3973,
+      "station": "백련산 힐스테이트 3차",
       "total_trips": 5577,
       "year": 2018
     },
@@ -21460,16 +21460,16 @@
       "year": 2018
     },
     {
-      "end_trips": 2731,
-      "start_trips": 2699,
-      "station": "양재동 꽃시장 입구",
+      "end_trips": 2895,
+      "start_trips": 2535,
+      "station": "남성역3번출구 뒤",
       "total_trips": 5430,
       "year": 2018
     },
     {
-      "end_trips": 2895,
-      "start_trips": 2535,
-      "station": "남성역3번출구 뒤",
+      "end_trips": 2731,
+      "start_trips": 2699,
+      "station": "양재동 꽃시장 입구",
       "total_trips": 5430,
       "year": 2018
     },
@@ -21768,16 +21768,16 @@
       "year": 2018
     },
     {
-      "end_trips": 2088,
-      "start_trips": 2841,
-      "station": "오금공원 사거리",
+      "end_trips": 2591,
+      "start_trips": 2338,
+      "station": "거여초등학교 옆",
       "total_trips": 4929,
       "year": 2018
     },
     {
-      "end_trips": 2591,
-      "start_trips": 2338,
-      "station": "거여초등학교 옆",
+      "end_trips": 2088,
+      "start_trips": 2841,
+      "station": "오금공원 사거리",
       "total_trips": 4929,
       "year": 2018
     },
@@ -22335,16 +22335,16 @@
       "year": 2018
     },
     {
-      "end_trips": 1268,
-      "start_trips": 2372,
-      "station": "CJ오쇼핑앞",
+      "end_trips": 1118,
+      "start_trips": 2522,
+      "station": "한국우편사업진흥원",
       "total_trips": 3640,
       "year": 2018
     },
     {
-      "end_trips": 1118,
-      "start_trips": 2522,
-      "station": "한국우편사업진흥원",
+      "end_trips": 1268,
+      "start_trips": 2372,
+      "station": "CJ오쇼핑앞",
       "total_trips": 3640,
       "year": 2018
     },
@@ -22454,16 +22454,16 @@
       "year": 2018
     },
     {
-      "end_trips": 1845,
-      "start_trips": 1357,
-      "station": "신한은행 시흥대로금융센터지점",
+      "end_trips": 1525,
+      "start_trips": 1677,
+      "station": "노해근린공원내",
       "total_trips": 3202,
       "year": 2018
     },
     {
-      "end_trips": 1525,
-      "start_trips": 1677,
-      "station": "노해근린공원내",
+      "end_trips": 1845,
+      "start_trips": 1357,
+      "station": "신한은행 시흥대로금융센터지점",
       "total_trips": 3202,
       "year": 2018
     },
@@ -22860,16 +22860,16 @@
       "year": 2018
     },
     {
-      "end_trips": 865,
-      "start_trips": 1437,
-      "station": "서울대학교 정문",
+      "end_trips": 957,
+      "start_trips": 1345,
+      "station": "은평역사한옥박물관",
       "total_trips": 2302,
       "year": 2018
     },
     {
-      "end_trips": 957,
-      "start_trips": 1345,
-      "station": "은평역사한옥박물관",
+      "end_trips": 865,
+      "start_trips": 1437,
+      "station": "서울대학교 정문",
       "total_trips": 2302,
       "year": 2018
     },
@@ -22909,16 +22909,16 @@
       "year": 2018
     },
     {
-      "end_trips": 427,
-      "start_trips": 1834,
-      "station": "신동아럭스빌아파트 앞",
+      "end_trips": 1182,
+      "start_trips": 1079,
+      "station": "궁동생태공원",
       "total_trips": 2261,
       "year": 2018
     },
     {
-      "end_trips": 1182,
-      "start_trips": 1079,
-      "station": "궁동생태공원",
+      "end_trips": 427,
+      "start_trips": 1834,
+      "station": "신동아럭스빌아파트 앞",
       "total_trips": 2261,
       "year": 2018
     },
@@ -23399,16 +23399,16 @@
       "year": 2018
     },
     {
-      "end_trips": 473,
-      "start_trips": 814,
-      "station": "서울혁신파크2",
+      "end_trips": 507,
+      "start_trips": 780,
+      "station": "숭실대 입구역3번 출구 앞",
       "total_trips": 1287,
       "year": 2018
     },
     {
-      "end_trips": 507,
-      "start_trips": 780,
-      "station": "숭실대 입구역3번 출구 앞",
+      "end_trips": 473,
+      "start_trips": 814,
+      "station": "서울혁신파크2",
       "total_trips": 1287,
       "year": 2018
     },
@@ -23784,16 +23784,16 @@
       "year": 2018
     },
     {
-      "end_trips": 318,
-      "start_trips": 463,
-      "station": "아차산 휴먼시아 아파트 옆",
+      "end_trips": 372,
+      "start_trips": 409,
+      "station": "용산 파크타워 앞",
       "total_trips": 781,
       "year": 2018
     },
     {
-      "end_trips": 372,
-      "start_trips": 409,
-      "station": "용산 파크타워 앞",
+      "end_trips": 318,
+      "start_trips": 463,
+      "station": "아차산 휴먼시아 아파트 옆",
       "total_trips": 781,
       "year": 2018
     },
@@ -24491,16 +24491,16 @@
       "year": 2018
     },
     {
-      "end_trips": 68,
-      "start_trips": 0,
-      "station": "위례24단지 꿈에그린아파트",
+      "end_trips": 30,
+      "start_trips": 38,
+      "station": "롯데중앙연구소",
       "total_trips": 68,
       "year": 2018
     },
     {
-      "end_trips": 30,
-      "start_trips": 38,
-      "station": "롯데중앙연구소",
+      "end_trips": 68,
+      "start_trips": 0,
+      "station": "위례24단지 꿈에그린아파트",
       "total_trips": 68,
       "year": 2018
     },
@@ -24512,16 +24512,16 @@
       "year": 2018
     },
     {
-      "end_trips": 31,
-      "start_trips": 34,
-      "station": "마곡 엠밸리2단지",
+      "end_trips": 18,
+      "start_trips": 47,
+      "station": "꿈의숲 롯데캐슬",
       "total_trips": 65,
       "year": 2018
     },
     {
-      "end_trips": 18,
-      "start_trips": 47,
-      "station": "꿈의숲 롯데캐슬",
+      "end_trips": 31,
+      "start_trips": 34,
+      "station": "마곡 엠밸리2단지",
       "total_trips": 65,
       "year": 2018
     },
@@ -24589,16 +24589,16 @@
       "year": 2018
     },
     {
-      "end_trips": 18,
-      "start_trips": 18,
-      "station": "대흥역 1번출구",
+      "end_trips": 28,
+      "start_trips": 8,
+      "station": "한성백제역 2번 출구",
       "total_trips": 36,
       "year": 2018
     },
     {
-      "end_trips": 28,
-      "start_trips": 8,
-      "station": "한성백제역 2번 출구",
+      "end_trips": 18,
+      "start_trips": 18,
+      "station": "대흥역 1번출구",
       "total_trips": 36,
       "year": 2018
     },
@@ -24631,16 +24631,16 @@
       "year": 2018
     },
     {
-      "end_trips": 3,
-      "start_trips": 4,
-      "station": "광평교사거리 인근",
+      "end_trips": 7,
+      "start_trips": 0,
+      "station": "강서대학교",
       "total_trips": 7,
       "year": 2018
     },
     {
-      "end_trips": 7,
-      "start_trips": 0,
-      "station": "강서대학교",
+      "end_trips": 3,
+      "start_trips": 4,
+      "station": "광평교사거리 인근",
       "total_trips": 7,
       "year": 2018
     },
@@ -24675,14 +24675,14 @@
     {
       "end_trips": 1,
       "start_trips": 0,
-      "station": "창동한신",
+      "station": "오류동역 앞",
       "total_trips": 1,
       "year": 2018
     },
     {
       "end_trips": 1,
       "start_trips": 0,
-      "station": "오류동역 앞",
+      "station": "창동한신",
       "total_trips": 1,
       "year": 2018
     },
@@ -26255,16 +26255,16 @@
       "year": 2019
     },
     {
-      "end_trips": 20585,
-      "start_trips": 20689,
-      "station": "풍납현대아파트쉼터",
+      "end_trips": 22726,
+      "start_trips": 18548,
+      "station": "성동세무서 건너편",
       "total_trips": 41274,
       "year": 2019
     },
     {
-      "end_trips": 22726,
-      "start_trips": 18548,
-      "station": "성동세무서 건너편",
+      "end_trips": 20585,
+      "start_trips": 20689,
+      "station": "풍납현대아파트쉼터",
       "total_trips": 41274,
       "year": 2019
     },
@@ -27725,16 +27725,16 @@
       "year": 2019
     },
     {
-      "end_trips": 17383,
-      "start_trips": 12636,
-      "station": "삼성광나루아파트 버스정류장",
+      "end_trips": 14819,
+      "start_trips": 15200,
+      "station": "대림역4번출구",
       "total_trips": 30019,
       "year": 2019
     },
     {
-      "end_trips": 14819,
-      "start_trips": 15200,
-      "station": "대림역4번출구",
+      "end_trips": 17383,
+      "start_trips": 12636,
+      "station": "삼성광나루아파트 버스정류장",
       "total_trips": 30019,
       "year": 2019
     },
@@ -27984,16 +27984,16 @@
       "year": 2019
     },
     {
-      "end_trips": 14610,
-      "start_trips": 14388,
-      "station": "염창역 1번 출구",
+      "end_trips": 14614,
+      "start_trips": 14384,
+      "station": "목동1단지아파트 상가 앞",
       "total_trips": 28998,
       "year": 2019
     },
     {
-      "end_trips": 14614,
-      "start_trips": 14384,
-      "station": "목동1단지아파트 상가 앞",
+      "end_trips": 14610,
+      "start_trips": 14388,
+      "station": "염창역 1번 출구",
       "total_trips": 28998,
       "year": 2019
     },
@@ -28558,16 +28558,16 @@
       "year": 2019
     },
     {
-      "end_trips": 12529,
-      "start_trips": 13764,
-      "station": "노원역7번출구",
+      "end_trips": 12566,
+      "start_trips": 13727,
+      "station": "종합운동장역 4번출구",
       "total_trips": 26293,
       "year": 2019
     },
     {
-      "end_trips": 12566,
-      "start_trips": 13727,
-      "station": "종합운동장역 4번출구",
+      "end_trips": 12529,
+      "start_trips": 13764,
+      "station": "노원역7번출구",
       "total_trips": 26293,
       "year": 2019
     },
@@ -31778,16 +31778,16 @@
       "year": 2019
     },
     {
-      "end_trips": 7221,
-      "start_trips": 7279,
-      "station": "한성대입구역6번출구 뒤",
+      "end_trips": 7320,
+      "start_trips": 7180,
+      "station": "볏골공원",
       "total_trips": 14500,
       "year": 2019
     },
     {
-      "end_trips": 7320,
-      "start_trips": 7180,
-      "station": "볏골공원",
+      "end_trips": 7221,
+      "start_trips": 7279,
+      "station": "한성대입구역6번출구 뒤",
       "total_trips": 14500,
       "year": 2019
     },
@@ -32450,16 +32450,16 @@
       "year": 2019
     },
     {
-      "end_trips": 5606,
-      "start_trips": 6654,
-      "station": "내곡3단지 어린이공원 앞",
+      "end_trips": 5897,
+      "start_trips": 6363,
+      "station": "삼환로즈빌아파트 105동 옆",
       "total_trips": 12260,
       "year": 2019
     },
     {
-      "end_trips": 5897,
-      "start_trips": 6363,
-      "station": "삼환로즈빌아파트 105동 옆",
+      "end_trips": 5606,
+      "start_trips": 6654,
+      "station": "내곡3단지 어린이공원 앞",
       "total_trips": 12260,
       "year": 2019
     },
@@ -32562,16 +32562,16 @@
       "year": 2019
     },
     {
-      "end_trips": 5874,
-      "start_trips": 6201,
-      "station": "서울산업정보학교",
+      "end_trips": 5363,
+      "start_trips": 6712,
+      "station": "북가좌1동 주민센터",
       "total_trips": 12075,
       "year": 2019
     },
     {
-      "end_trips": 5363,
-      "start_trips": 6712,
-      "station": "북가좌1동 주민센터",
+      "end_trips": 5874,
+      "start_trips": 6201,
+      "station": "서울산업정보학교",
       "total_trips": 12075,
       "year": 2019
     },
@@ -33535,16 +33535,16 @@
       "year": 2019
     },
     {
-      "end_trips": 4331,
-      "start_trips": 4679,
-      "station": "샛강생태공원방문자센터 앞",
+      "end_trips": 4133,
+      "start_trips": 4877,
+      "station": "래미안서초스위트앞",
       "total_trips": 9010,
       "year": 2019
     },
     {
-      "end_trips": 4133,
-      "start_trips": 4877,
-      "station": "래미안서초스위트앞",
+      "end_trips": 4331,
+      "start_trips": 4679,
+      "station": "샛강생태공원방문자센터 앞",
       "total_trips": 9010,
       "year": 2019
     },
@@ -33668,16 +33668,16 @@
       "year": 2019
     },
     {
-      "end_trips": 4253,
-      "start_trips": 4454,
-      "station": "휘봉고등학교 앞",
+      "end_trips": 3864,
+      "start_trips": 4843,
+      "station": "반포1동 주민센터 앞",
       "total_trips": 8707,
       "year": 2019
     },
     {
-      "end_trips": 3864,
-      "start_trips": 4843,
-      "station": "반포1동 주민센터 앞",
+      "end_trips": 4253,
+      "start_trips": 4454,
+      "station": "휘봉고등학교 앞",
       "total_trips": 8707,
       "year": 2019
     },
@@ -33766,16 +33766,16 @@
       "year": 2019
     },
     {
-      "end_trips": 3757,
-      "start_trips": 4601,
-      "station": "무악재역1번 출구",
+      "end_trips": 3612,
+      "start_trips": 4746,
+      "station": "상암중학교 옆",
       "total_trips": 8358,
       "year": 2019
     },
     {
-      "end_trips": 3612,
-      "start_trips": 4746,
-      "station": "상암중학교 옆",
+      "end_trips": 3757,
+      "start_trips": 4601,
+      "station": "무악재역1번 출구",
       "total_trips": 8358,
       "year": 2019
     },
@@ -34123,16 +34123,16 @@
       "year": 2019
     },
     {
-      "end_trips": 3705,
-      "start_trips": 3492,
-      "station": "강서수산물도매시장",
+      "end_trips": 3545,
+      "start_trips": 3652,
+      "station": "상림마을 생태공원",
       "total_trips": 7197,
       "year": 2019
     },
     {
-      "end_trips": 3545,
-      "start_trips": 3652,
-      "station": "상림마을 생태공원",
+      "end_trips": 3705,
+      "start_trips": 3492,
+      "station": "강서수산물도매시장",
       "total_trips": 7197,
       "year": 2019
     },
@@ -34312,16 +34312,16 @@
       "year": 2019
     },
     {
-      "end_trips": 3287,
-      "start_trips": 3253,
-      "station": "금호역 1번출구 앞",
+      "end_trips": 3222,
+      "start_trips": 3318,
+      "station": "대원중고교 입구(대하빌딩)",
       "total_trips": 6540,
       "year": 2019
     },
     {
-      "end_trips": 3222,
-      "start_trips": 3318,
-      "station": "대원중고교 입구(대하빌딩)",
+      "end_trips": 3287,
+      "start_trips": 3253,
+      "station": "금호역 1번출구 앞",
       "total_trips": 6540,
       "year": 2019
     },
@@ -35159,16 +35159,16 @@
       "year": 2019
     },
     {
-      "end_trips": 1279,
-      "start_trips": 2118,
-      "station": "장충체육관",
+      "end_trips": 833,
+      "start_trips": 2564,
+      "station": "면목 대원칸타빌아파트",
       "total_trips": 3397,
       "year": 2019
     },
     {
-      "end_trips": 833,
-      "start_trips": 2564,
-      "station": "면목 대원칸타빌아파트",
+      "end_trips": 1279,
+      "start_trips": 2118,
+      "station": "장충체육관",
       "total_trips": 3397,
       "year": 2019
     },
@@ -36650,16 +36650,16 @@
       "year": 2020
     },
     {
-      "end_trips": 27083,
-      "start_trips": 27554,
-      "station": "강동세무서",
+      "end_trips": 27757,
+      "start_trips": 26880,
+      "station": "강동경찰서",
       "total_trips": 54637,
       "year": 2020
     },
     {
-      "end_trips": 27757,
-      "start_trips": 26880,
-      "station": "강동경찰서",
+      "end_trips": 27083,
+      "start_trips": 27554,
+      "station": "강동세무서",
       "total_trips": 54637,
       "year": 2020
     },
@@ -38036,16 +38036,16 @@
       "year": 2020
     },
     {
-      "end_trips": 19086,
-      "start_trips": 19003,
-      "station": "이수역 4번 출구",
+      "end_trips": 19159,
+      "start_trips": 18930,
+      "station": "상봉터미널2",
       "total_trips": 38089,
       "year": 2020
     },
     {
-      "end_trips": 19159,
-      "start_trips": 18930,
-      "station": "상봉터미널2",
+      "end_trips": 19086,
+      "start_trips": 19003,
+      "station": "이수역 4번 출구",
       "total_trips": 38089,
       "year": 2020
     },
@@ -38323,16 +38323,16 @@
       "year": 2020
     },
     {
-      "end_trips": 18745,
-      "start_trips": 17382,
-      "station": "청량리 기업은행 앞",
+      "end_trips": 18074,
+      "start_trips": 18053,
+      "station": "신설동역 10번출구 앞",
       "total_trips": 36127,
       "year": 2020
     },
     {
-      "end_trips": 18074,
-      "start_trips": 18053,
-      "station": "신설동역 10번출구 앞",
+      "end_trips": 18745,
+      "start_trips": 17382,
+      "station": "청량리 기업은행 앞",
       "total_trips": 36127,
       "year": 2020
     },
@@ -38631,16 +38631,16 @@
       "year": 2020
     },
     {
-      "end_trips": 17324,
-      "start_trips": 16977,
-      "station": "삼호물산버스정류장(23370) 옆",
+      "end_trips": 17052,
+      "start_trips": 17249,
+      "station": "시조사 앞",
       "total_trips": 34301,
       "year": 2020
     },
     {
-      "end_trips": 17052,
-      "start_trips": 17249,
-      "station": "시조사 앞",
+      "end_trips": 17324,
+      "start_trips": 16977,
+      "station": "삼호물산버스정류장(23370) 옆",
       "total_trips": 34301,
       "year": 2020
     },
@@ -38750,16 +38750,16 @@
       "year": 2020
     },
     {
-      "end_trips": 18123,
-      "start_trips": 15618,
-      "station": "가양3동 주민센터",
+      "end_trips": 16976,
+      "start_trips": 16765,
+      "station": "신설동역 11번출구 뒤",
       "total_trips": 33741,
       "year": 2020
     },
     {
-      "end_trips": 16976,
-      "start_trips": 16765,
-      "station": "신설동역 11번출구 뒤",
+      "end_trips": 18123,
+      "start_trips": 15618,
+      "station": "가양3동 주민센터",
       "total_trips": 33741,
       "year": 2020
     },
@@ -39310,16 +39310,16 @@
       "year": 2020
     },
     {
-      "end_trips": 14667,
-      "start_trips": 15000,
-      "station": "청계7가 사거리",
+      "end_trips": 15050,
+      "start_trips": 14617,
+      "station": "서울신용보증재단",
       "total_trips": 29667,
       "year": 2020
     },
     {
-      "end_trips": 15050,
-      "start_trips": 14617,
-      "station": "서울신용보증재단",
+      "end_trips": 14667,
+      "start_trips": 15000,
+      "station": "청계7가 사거리",
       "total_trips": 29667,
       "year": 2020
     },
@@ -39779,16 +39779,16 @@
       "year": 2020
     },
     {
-      "end_trips": 14094,
-      "start_trips": 13526,
-      "station": "금원빌딩 앞",
+      "end_trips": 14037,
+      "start_trips": 13583,
+      "station": "북한산 코오롱 하늘채",
       "total_trips": 27620,
       "year": 2020
     },
     {
-      "end_trips": 14037,
-      "start_trips": 13583,
-      "station": "북한산 코오롱 하늘채",
+      "end_trips": 14094,
+      "start_trips": 13526,
+      "station": "금원빌딩 앞",
       "total_trips": 27620,
       "year": 2020
     },
@@ -40269,16 +40269,16 @@
       "year": 2020
     },
     {
-      "end_trips": 12622,
-      "start_trips": 13171,
-      "station": "합정역 5번출구 앞",
+      "end_trips": 12302,
+      "start_trips": 13491,
+      "station": "시청역 1번출구 뒤",
       "total_trips": 25793,
       "year": 2020
     },
     {
-      "end_trips": 12302,
-      "start_trips": 13491,
-      "station": "시청역 1번출구 뒤",
+      "end_trips": 12622,
+      "start_trips": 13171,
+      "station": "합정역 5번출구 앞",
       "total_trips": 25793,
       "year": 2020
     },
@@ -40976,16 +40976,16 @@
       "year": 2020
     },
     {
-      "end_trips": 11415,
-      "start_trips": 11472,
-      "station": "가리봉동주민센터",
+      "end_trips": 11441,
+      "start_trips": 11446,
+      "station": "원메디타운 앞",
       "total_trips": 22887,
       "year": 2020
     },
     {
-      "end_trips": 11441,
-      "start_trips": 11446,
-      "station": "원메디타운 앞",
+      "end_trips": 11415,
+      "start_trips": 11472,
+      "station": "가리봉동주민센터",
       "total_trips": 22887,
       "year": 2020
     },
@@ -41298,16 +41298,16 @@
       "year": 2020
     },
     {
-      "end_trips": 10625,
-      "start_trips": 11208,
-      "station": "혜화역 3번출구 뒤",
+      "end_trips": 10649,
+      "start_trips": 11184,
+      "station": "중계동 을지중학교",
       "total_trips": 21833,
       "year": 2020
     },
     {
-      "end_trips": 10649,
-      "start_trips": 11184,
-      "station": "중계동 을지중학교",
+      "end_trips": 10625,
+      "start_trips": 11208,
+      "station": "혜화역 3번출구 뒤",
       "total_trips": 21833,
       "year": 2020
     },
@@ -42705,16 +42705,16 @@
       "year": 2020
     },
     {
-      "end_trips": 8710,
-      "start_trips": 8829,
-      "station": "대림아파트 사거리",
+      "end_trips": 8713,
+      "start_trips": 8826,
+      "station": "미래사랑어린이공원 앞",
       "total_trips": 17539,
       "year": 2020
     },
     {
-      "end_trips": 8713,
-      "start_trips": 8826,
-      "station": "미래사랑어린이공원 앞",
+      "end_trips": 8710,
+      "start_trips": 8829,
+      "station": "대림아파트 사거리",
       "total_trips": 17539,
       "year": 2020
     },
@@ -42803,16 +42803,16 @@
       "year": 2020
     },
     {
-      "end_trips": 8661,
-      "start_trips": 8598,
-      "station": "성신여대입구역 5번출구",
+      "end_trips": 8136,
+      "start_trips": 9123,
+      "station": "송파중학교 정문",
       "total_trips": 17259,
       "year": 2020
     },
     {
-      "end_trips": 8136,
-      "start_trips": 9123,
-      "station": "송파중학교 정문",
+      "end_trips": 8661,
+      "start_trips": 8598,
+      "station": "성신여대입구역 5번출구",
       "total_trips": 17259,
       "year": 2020
     },
@@ -43188,16 +43188,16 @@
       "year": 2020
     },
     {
-      "end_trips": 8023,
-      "start_trips": 8429,
-      "station": "삼청동 골목",
+      "end_trips": 8459,
+      "start_trips": 7993,
+      "station": "신석초교앞 교차로 교통섬",
       "total_trips": 16452,
       "year": 2020
     },
     {
-      "end_trips": 8459,
-      "start_trips": 7993,
-      "station": "신석초교앞 교차로 교통섬",
+      "end_trips": 8023,
+      "start_trips": 8429,
+      "station": "삼청동 골목",
       "total_trips": 16452,
       "year": 2020
     },
@@ -44077,16 +44077,16 @@
       "year": 2020
     },
     {
-      "end_trips": 6985,
-      "start_trips": 6827,
-      "station": "홈플러스 상봉점 앞",
+      "end_trips": 7120,
+      "start_trips": 6692,
+      "station": "신도봉사거리 버스정류장",
       "total_trips": 13812,
       "year": 2020
     },
     {
-      "end_trips": 7120,
-      "start_trips": 6692,
-      "station": "신도봉사거리 버스정류장",
+      "end_trips": 6985,
+      "start_trips": 6827,
+      "station": "홈플러스 상봉점 앞",
       "total_trips": 13812,
       "year": 2020
     },
@@ -44336,16 +44336,16 @@
       "year": 2020
     },
     {
-      "end_trips": 6707,
-      "start_trips": 6533,
-      "station": "상일초등학교",
+      "end_trips": 6496,
+      "start_trips": 6744,
+      "station": "넥센 유니버시티 앞",
       "total_trips": 13240,
       "year": 2020
     },
     {
-      "end_trips": 6496,
-      "start_trips": 6744,
-      "station": "넥센 유니버시티 앞",
+      "end_trips": 6707,
+      "start_trips": 6533,
+      "station": "상일초등학교",
       "total_trips": 13240,
       "year": 2020
     },
@@ -44504,16 +44504,16 @@
       "year": 2020
     },
     {
-      "end_trips": 6226,
-      "start_trips": 6555,
-      "station": "중곡SK아파트앞",
+      "end_trips": 5802,
+      "start_trips": 6979,
+      "station": "서울가정법원",
       "total_trips": 12781,
       "year": 2020
     },
     {
-      "end_trips": 5802,
-      "start_trips": 6979,
-      "station": "서울가정법원",
+      "end_trips": 6226,
+      "start_trips": 6555,
+      "station": "중곡SK아파트앞",
       "total_trips": 12781,
       "year": 2020
     },
@@ -44777,16 +44777,16 @@
       "year": 2020
     },
     {
-      "end_trips": 6022,
-      "start_trips": 5895,
-      "station": "가온문화공원",
+      "end_trips": 5917,
+      "start_trips": 6000,
+      "station": "국회의원회관",
       "total_trips": 11917,
       "year": 2020
     },
     {
-      "end_trips": 5917,
-      "start_trips": 6000,
-      "station": "국회의원회관",
+      "end_trips": 6022,
+      "start_trips": 5895,
+      "station": "가온문화공원",
       "total_trips": 11917,
       "year": 2020
     },
@@ -45309,13 +45309,6 @@
       "year": 2020
     },
     {
-      "end_trips": 5345,
-      "start_trips": 5401,
-      "station": "신풍역 6번출구",
-      "total_trips": 10746,
-      "year": 2020
-    },
-    {
       "end_trips": 5418,
       "start_trips": 5328,
       "station": "연신내역 3번출구 인근",
@@ -45323,16 +45316,23 @@
       "year": 2020
     },
     {
-      "end_trips": 4953,
-      "start_trips": 5760,
-      "station": "삼성중앙역4번출구(문화센터더 리빌)",
-      "total_trips": 10713,
+      "end_trips": 5345,
+      "start_trips": 5401,
+      "station": "신풍역 6번출구",
+      "total_trips": 10746,
       "year": 2020
     },
     {
       "end_trips": 2956,
       "start_trips": 7757,
       "station": "신일해피트리아파트 앞",
+      "total_trips": 10713,
+      "year": 2020
+    },
+    {
+      "end_trips": 4953,
+      "start_trips": 5760,
+      "station": "삼성중앙역4번출구(문화센터더 리빌)",
       "total_trips": 10713,
       "year": 2020
     },
@@ -45351,16 +45351,16 @@
       "year": 2020
     },
     {
-      "end_trips": 5074,
-      "start_trips": 5614,
-      "station": "망원초록길 입구",
+      "end_trips": 5363,
+      "start_trips": 5325,
+      "station": "노들역 3번출구",
       "total_trips": 10688,
       "year": 2020
     },
     {
-      "end_trips": 5363,
-      "start_trips": 5325,
-      "station": "노들역 3번출구",
+      "end_trips": 5074,
+      "start_trips": 5614,
+      "station": "망원초록길 입구",
       "total_trips": 10688,
       "year": 2020
     },
@@ -45960,16 +45960,16 @@
       "year": 2020
     },
     {
-      "end_trips": 4534,
-      "start_trips": 4772,
-      "station": "구로중학교앞",
+      "end_trips": 4573,
+      "start_trips": 4733,
+      "station": "올림픽기념 국민생활관 앞",
       "total_trips": 9306,
       "year": 2020
     },
     {
-      "end_trips": 4573,
-      "start_trips": 4733,
-      "station": "올림픽기념 국민생활관 앞",
+      "end_trips": 4534,
+      "start_trips": 4772,
+      "station": "구로중학교앞",
       "total_trips": 9306,
       "year": 2020
     },
@@ -46107,16 +46107,16 @@
       "year": 2020
     },
     {
-      "end_trips": 4472,
-      "start_trips": 4518,
-      "station": "DMC엘가아파트 앞",
+      "end_trips": 2630,
+      "start_trips": 6360,
+      "station": "녹사평역1번출구",
       "total_trips": 8990,
       "year": 2020
     },
     {
-      "end_trips": 2630,
-      "start_trips": 6360,
-      "station": "녹사평역1번출구",
+      "end_trips": 4472,
+      "start_trips": 4518,
+      "station": "DMC엘가아파트 앞",
       "total_trips": 8990,
       "year": 2020
     },
@@ -46863,16 +46863,16 @@
       "year": 2020
     },
     {
-      "end_trips": 3082,
-      "start_trips": 4492,
-      "station": "더라움",
+      "end_trips": 3736,
+      "start_trips": 3838,
+      "station": "서울산업정보학교",
       "total_trips": 7574,
       "year": 2020
     },
     {
-      "end_trips": 3736,
-      "start_trips": 3838,
-      "station": "서울산업정보학교",
+      "end_trips": 3082,
+      "start_trips": 4492,
+      "station": "더라움",
       "total_trips": 7574,
       "year": 2020
     },
@@ -46947,16 +46947,16 @@
       "year": 2020
     },
     {
-      "end_trips": 3386,
-      "start_trips": 4065,
-      "station": "일원역 4~5번 출구 사이",
+      "end_trips": 3662,
+      "start_trips": 3789,
+      "station": "도곡역 1번 출구",
       "total_trips": 7451,
       "year": 2020
     },
     {
-      "end_trips": 3662,
-      "start_trips": 3789,
-      "station": "도곡역 1번 출구",
+      "end_trips": 3386,
+      "start_trips": 4065,
+      "station": "일원역 4~5번 출구 사이",
       "total_trips": 7451,
       "year": 2020
     },
@@ -46975,16 +46975,16 @@
       "year": 2020
     },
     {
-      "end_trips": 3565,
-      "start_trips": 3827,
-      "station": "양재전화국 사거리",
+      "end_trips": 3672,
+      "start_trips": 3720,
+      "station": "천호지하주차장 5번 출입구",
       "total_trips": 7392,
       "year": 2020
     },
     {
-      "end_trips": 3672,
-      "start_trips": 3720,
-      "station": "천호지하주차장 5번 출입구",
+      "end_trips": 3565,
+      "start_trips": 3827,
+      "station": "양재전화국 사거리",
       "total_trips": 7392,
       "year": 2020
     },
@@ -47689,16 +47689,16 @@
       "year": 2020
     },
     {
-      "end_trips": 2950,
-      "start_trips": 2971,
-      "station": "돈암초교입구 버스정류장(한성대입구역 방면)",
+      "end_trips": 1863,
+      "start_trips": 4058,
+      "station": "강남구 도시관리공단",
       "total_trips": 5921,
       "year": 2020
     },
     {
-      "end_trips": 1863,
-      "start_trips": 4058,
-      "station": "강남구 도시관리공단",
+      "end_trips": 2950,
+      "start_trips": 2971,
+      "station": "돈암초교입구 버스정류장(한성대입구역 방면)",
       "total_trips": 5921,
       "year": 2020
     },
@@ -48102,16 +48102,16 @@
       "year": 2020
     },
     {
-      "end_trips": 2615,
-      "start_trips": 2639,
-      "station": "장지공영차고지",
+      "end_trips": 2363,
+      "start_trips": 2891,
+      "station": "선잠단지 앞",
       "total_trips": 5254,
       "year": 2020
     },
     {
-      "end_trips": 2363,
-      "start_trips": 2891,
-      "station": "선잠단지 앞",
+      "end_trips": 2615,
+      "start_trips": 2639,
+      "station": "장지공영차고지",
       "total_trips": 5254,
       "year": 2020
     },
@@ -48277,16 +48277,16 @@
       "year": 2020
     },
     {
-      "end_trips": 2265,
-      "start_trips": 2580,
-      "station": "현대 안성타워",
+      "end_trips": 2408,
+      "start_trips": 2437,
+      "station": "전농SK아파트 앞",
       "total_trips": 4845,
       "year": 2020
     },
     {
-      "end_trips": 2408,
-      "start_trips": 2437,
-      "station": "전농SK아파트 앞",
+      "end_trips": 2265,
+      "start_trips": 2580,
+      "station": "현대 안성타워",
       "total_trips": 4845,
       "year": 2020
     },
@@ -48690,16 +48690,16 @@
       "year": 2020
     },
     {
-      "end_trips": 2061,
-      "start_trips": 2036,
-      "station": "세종대학교(영실관)",
+      "end_trips": 1978,
+      "start_trips": 2119,
+      "station": "국립어린이과학관",
       "total_trips": 4097,
       "year": 2020
     },
     {
-      "end_trips": 1978,
-      "start_trips": 2119,
-      "station": "국립어린이과학관",
+      "end_trips": 2061,
+      "start_trips": 2036,
+      "station": "세종대학교(영실관)",
       "total_trips": 4097,
       "year": 2020
     },
@@ -49047,16 +49047,16 @@
       "year": 2020
     },
     {
-      "end_trips": 1566,
-      "start_trips": 1760,
-      "station": "위트콤",
+      "end_trips": 1421,
+      "start_trips": 1905,
+      "station": "천왕이펜하우스5단지 앞",
       "total_trips": 3326,
       "year": 2020
     },
     {
-      "end_trips": 1421,
-      "start_trips": 1905,
-      "station": "천왕이펜하우스5단지 앞",
+      "end_trips": 1566,
+      "start_trips": 1760,
+      "station": "위트콤",
       "total_trips": 3326,
       "year": 2020
     },
@@ -49453,16 +49453,16 @@
       "year": 2020
     },
     {
-      "end_trips": 927,
-      "start_trips": 1516,
-      "station": "서울특별시 교육청",
+      "end_trips": 1148,
+      "start_trips": 1295,
+      "station": "북한산더�� 106동 앞",
       "total_trips": 2443,
       "year": 2020
     },
     {
-      "end_trips": 1148,
-      "start_trips": 1295,
-      "station": "북한산더�� 106동 앞",
+      "end_trips": 927,
+      "start_trips": 1516,
+      "station": "서울특별시 교육청",
       "total_trips": 2443,
       "year": 2020
     },
@@ -49488,16 +49488,16 @@
       "year": 2020
     },
     {
-      "end_trips": 1133,
-      "start_trips": 1233,
-      "station": "왕십리KCC스위첸아파트",
+      "end_trips": 1146,
+      "start_trips": 1220,
+      "station": "낙성대역 8번 출구",
       "total_trips": 2366,
       "year": 2020
     },
     {
-      "end_trips": 1146,
-      "start_trips": 1220,
-      "station": "낙성대역 8번 출구",
+      "end_trips": 1133,
+      "start_trips": 1233,
+      "station": "왕십리KCC스위첸아파트",
       "total_trips": 2366,
       "year": 2020
     },
@@ -49593,16 +49593,16 @@
       "year": 2020
     },
     {
-      "end_trips": 1036,
-      "start_trips": 1044,
-      "station": "녹사평역3번 출구",
+      "end_trips": 994,
+      "start_trips": 1086,
+      "station": "상왕십리역 6번 출입구",
       "total_trips": 2080,
       "year": 2020
     },
     {
-      "end_trips": 994,
-      "start_trips": 1086,
-      "station": "상왕십리역 6번 출입구",
+      "end_trips": 1036,
+      "start_trips": 1044,
+      "station": "녹사평역3번 출구",
       "total_trips": 2080,
       "year": 2020
     },
@@ -49691,16 +49691,16 @@
       "year": 2020
     },
     {
-      "end_trips": 454,
-      "start_trips": 1277,
-      "station": "논골사거리(금호도서관 입구)",
+      "end_trips": 864,
+      "start_trips": 867,
+      "station": "신한은행 안국역지점 옆",
       "total_trips": 1731,
       "year": 2020
     },
     {
-      "end_trips": 864,
-      "start_trips": 867,
-      "station": "신한은행 안국역지점 옆",
+      "end_trips": 454,
+      "start_trips": 1277,
+      "station": "논골사거리(금호도서관 입구)",
       "total_trips": 1731,
       "year": 2020
     },
@@ -49733,16 +49733,16 @@
       "year": 2020
     },
     {
-      "end_trips": 635,
-      "start_trips": 1057,
-      "station": "제각말푸르지오 5-1단지 아파트",
+      "end_trips": 589,
+      "start_trips": 1103,
+      "station": "옥수동성당 옆",
       "total_trips": 1692,
       "year": 2020
     },
     {
-      "end_trips": 589,
-      "start_trips": 1103,
-      "station": "옥수동성당 옆",
+      "end_trips": 635,
+      "start_trips": 1057,
+      "station": "제각말푸르지오 5-1단지 아파트",
       "total_trips": 1692,
       "year": 2020
     },
@@ -50104,16 +50104,16 @@
       "year": 2020
     },
     {
-      "end_trips": 367,
-      "start_trips": 430,
-      "station": "신영동삼거리",
+      "end_trips": 252,
+      "start_trips": 545,
+      "station": "옛골 입구",
       "total_trips": 797,
       "year": 2020
     },
     {
-      "end_trips": 252,
-      "start_trips": 545,
-      "station": "옛골 입구",
+      "end_trips": 367,
+      "start_trips": 430,
+      "station": "신영동삼거리",
       "total_trips": 797,
       "year": 2020
     },
@@ -50482,16 +50482,16 @@
       "year": 2020
     },
     {
-      "end_trips": 19,
-      "start_trips": 26,
-      "station": "서울문화재단 앞",
+      "end_trips": 22,
+      "start_trips": 23,
+      "station": "노들섬 다목적홀(동쪽) 숲, 앞",
       "total_trips": 45,
       "year": 2020
     },
     {
-      "end_trips": 22,
-      "start_trips": 23,
-      "station": "노들섬 다목적홀(동쪽) 숲, 앞",
+      "end_trips": 19,
+      "start_trips": 26,
+      "station": "서울문화재단 앞",
       "total_trips": 45,
       "year": 2020
     },
@@ -50559,16 +50559,16 @@
       "year": 2020
     },
     {
-      "end_trips": 17,
-      "start_trips": 14,
-      "station": "행당중학교 후문",
+      "end_trips": 14,
+      "start_trips": 17,
+      "station": "중부경찰서앞 사거리",
       "total_trips": 31,
       "year": 2020
     },
     {
-      "end_trips": 14,
-      "start_trips": 17,
-      "station": "중부경찰서앞 사거리",
+      "end_trips": 17,
+      "start_trips": 14,
+      "station": "행당중학교 후문",
       "total_trips": 31,
       "year": 2020
     },
@@ -50601,16 +50601,16 @@
       "year": 2020
     },
     {
-      "end_trips": 12,
-      "start_trips": 15,
-      "station": "대원빌딩",
+      "end_trips": 10,
+      "start_trips": 17,
+      "station": "대신파이낸스센터",
       "total_trips": 27,
       "year": 2020
     },
     {
-      "end_trips": 10,
-      "start_trips": 17,
-      "station": "대신파이낸스센터",
+      "end_trips": 12,
+      "start_trips": 15,
+      "station": "대원빌딩",
       "total_trips": 27,
       "year": 2020
     },
@@ -50629,16 +50629,16 @@
       "year": 2020
     },
     {
-      "end_trips": 9,
-      "start_trips": 16,
-      "station": "용두롯데캐슬리치아파트 앞",
+      "end_trips": 12,
+      "start_trips": 13,
+      "station": "둔촌신성미소지움아파트",
       "total_trips": 25,
       "year": 2020
     },
     {
-      "end_trips": 12,
-      "start_trips": 13,
-      "station": "둔촌신성미소지움아파트",
+      "end_trips": 9,
+      "start_trips": 16,
+      "station": "용두롯데캐슬리치아파트 앞",
       "total_trips": 25,
       "year": 2020
     },
@@ -50650,6 +50650,13 @@
       "year": 2020
     },
     {
+      "end_trips": 11,
+      "start_trips": 12,
+      "station": "등촌태영아파트",
+      "total_trips": 23,
+      "year": 2020
+    },
+    {
       "end_trips": 9,
       "start_trips": 14,
       "station": "OK부동산 앞",
@@ -50657,10 +50664,10 @@
       "year": 2020
     },
     {
-      "end_trips": 11,
-      "start_trips": 12,
-      "station": "등촌태영아파트",
-      "total_trips": 23,
+      "end_trips": 10,
+      "start_trips": 9,
+      "station": "국제빌딩",
+      "total_trips": 19,
       "year": 2020
     },
     {
@@ -50674,13 +50681,6 @@
       "end_trips": 10,
       "start_trips": 9,
       "station": "겸재정선미술관",
-      "total_trips": 19,
-      "year": 2020
-    },
-    {
-      "end_trips": 10,
-      "start_trips": 9,
-      "station": "국제빌딩",
       "total_trips": 19,
       "year": 2020
     },
@@ -50699,9 +50699,9 @@
       "year": 2020
     },
     {
-      "end_trips": 7,
-      "start_trips": 9,
-      "station": "장안동근린공원 입구",
+      "end_trips": 8,
+      "start_trips": 8,
+      "station": "_도봉센터",
       "total_trips": 16,
       "year": 2020
     },
@@ -50713,9 +50713,9 @@
       "year": 2020
     },
     {
-      "end_trips": 8,
-      "start_trips": 8,
-      "station": "_도봉센터",
+      "end_trips": 7,
+      "start_trips": 9,
+      "station": "장안동근린공원 입구",
       "total_trips": 16,
       "year": 2020
     },
@@ -50734,16 +50734,16 @@
       "year": 2020
     },
     {
-      "end_trips": 6,
-      "start_trips": 9,
-      "station": "휘경sk뷰아파트 앞",
+      "end_trips": 9,
+      "start_trips": 6,
+      "station": "효창공원앞역 5번출구 옆",
       "total_trips": 15,
       "year": 2020
     },
     {
-      "end_trips": 9,
-      "start_trips": 6,
-      "station": "효창공원앞역 5번출구 옆",
+      "end_trips": 6,
+      "start_trips": 9,
+      "station": "휘경sk뷰아파트 앞",
       "total_trips": 15,
       "year": 2020
     },
@@ -50755,30 +50755,9 @@
       "year": 2020
     },
     {
-      "end_trips": 7,
-      "start_trips": 6,
-      "station": "정곡나들목",
-      "total_trips": 13,
-      "year": 2020
-    },
-    {
-      "end_trips": 9,
-      "start_trips": 4,
-      "station": "나이아가라관광호텔",
-      "total_trips": 13,
-      "year": 2020
-    },
-    {
       "end_trips": 9,
       "start_trips": 4,
       "station": "연대 정문앞",
-      "total_trips": 13,
-      "year": 2020
-    },
-    {
-      "end_trips": 8,
-      "start_trips": 5,
-      "station": "중곡동 성당",
       "total_trips": 13,
       "year": 2020
     },
@@ -50790,10 +50769,24 @@
       "year": 2020
     },
     {
-      "end_trips": 6,
+      "end_trips": 9,
+      "start_trips": 4,
+      "station": "나이아가라관광호텔",
+      "total_trips": 13,
+      "year": 2020
+    },
+    {
+      "end_trips": 7,
       "start_trips": 6,
-      "station": "풍전아파트 건너편",
-      "total_trips": 12,
+      "station": "정곡나들목",
+      "total_trips": 13,
+      "year": 2020
+    },
+    {
+      "end_trips": 8,
+      "start_trips": 5,
+      "station": "중곡동 성당",
+      "total_trips": 13,
       "year": 2020
     },
     {
@@ -50811,10 +50804,31 @@
       "year": 2020
     },
     {
+      "end_trips": 6,
+      "start_trips": 6,
+      "station": "풍전아파트 건너편",
+      "total_trips": 12,
+      "year": 2020
+    },
+    {
       "end_trips": 3,
       "start_trips": 8,
       "station": "송천센트레빌",
       "total_trips": 11,
+      "year": 2020
+    },
+    {
+      "end_trips": 6,
+      "start_trips": 4,
+      "station": "공항중학교 버스정류장",
+      "total_trips": 10,
+      "year": 2020
+    },
+    {
+      "end_trips": 7,
+      "start_trips": 3,
+      "station": "동원베네스트 건너편",
+      "total_trips": 10,
       "year": 2020
     },
     {
@@ -50832,27 +50846,6 @@
       "year": 2020
     },
     {
-      "end_trips": 7,
-      "start_trips": 3,
-      "station": "동원베네스트 건너편",
-      "total_trips": 10,
-      "year": 2020
-    },
-    {
-      "end_trips": 6,
-      "start_trips": 4,
-      "station": "공항중학교 버스정류장",
-      "total_trips": 10,
-      "year": 2020
-    },
-    {
-      "end_trips": 3,
-      "start_trips": 6,
-      "station": "을지로지하쇼핑센터",
-      "total_trips": 9,
-      "year": 2020
-    },
-    {
       "end_trips": 4,
       "start_trips": 5,
       "station": "신세계면세점",
@@ -50867,6 +50860,13 @@
       "year": 2020
     },
     {
+      "end_trips": 3,
+      "start_trips": 6,
+      "station": "을지로지하쇼핑센터",
+      "total_trips": 9,
+      "year": 2020
+    },
+    {
       "end_trips": 4,
       "start_trips": 4,
       "station": "한신18차아파트",
@@ -50876,14 +50876,14 @@
     {
       "end_trips": 3,
       "start_trips": 3,
-      "station": "동작상떼빌 103동 앞",
+      "station": "강변SK뷰 APT앞",
       "total_trips": 6,
       "year": 2020
     },
     {
       "end_trips": 3,
       "start_trips": 3,
-      "station": "강변SK뷰 APT앞",
+      "station": "홈플러스(가양점)",
       "total_trips": 6,
       "year": 2020
     },
@@ -50897,7 +50897,7 @@
     {
       "end_trips": 3,
       "start_trips": 3,
-      "station": "홈플러스(가양점)",
+      "station": "동작상떼빌 103동 앞",
       "total_trips": 6,
       "year": 2020
     },
@@ -50913,6 +50913,20 @@
       "start_trips": 2,
       "station": "김포공항사거리",
       "total_trips": 5,
+      "year": 2020
+    },
+    {
+      "end_trips": 1,
+      "start_trips": 3,
+      "station": "훈련원센터",
+      "total_trips": 4,
+      "year": 2020
+    },
+    {
+      "end_trips": 2,
+      "start_trips": 2,
+      "station": "서울홍성교회",
+      "total_trips": 4,
       "year": 2020
     },
     {
@@ -50944,17 +50958,10 @@
       "year": 2020
     },
     {
-      "end_trips": 1,
-      "start_trips": 3,
-      "station": "훈련원센터",
-      "total_trips": 4,
-      "year": 2020
-    },
-    {
       "end_trips": 2,
-      "start_trips": 2,
-      "station": "서울홍성교회",
-      "total_trips": 4,
+      "start_trips": 1,
+      "station": "삼양입구사거리",
+      "total_trips": 3,
       "year": 2020
     },
     {
@@ -50974,13 +50981,6 @@
     {
       "end_trips": 2,
       "start_trips": 1,
-      "station": "삼양입구사거리",
-      "total_trips": 3,
-      "year": 2020
-    },
-    {
-      "end_trips": 2,
-      "start_trips": 1,
       "station": "마포구청역 3번출구",
       "total_trips": 3,
       "year": 2020
@@ -50988,35 +50988,7 @@
     {
       "end_trips": 1,
       "start_trips": 1,
-      "station": "양평역 2번출구",
-      "total_trips": 2,
-      "year": 2020
-    },
-    {
-      "end_trips": 1,
-      "start_trips": 1,
-      "station": "원효아파트",
-      "total_trips": 2,
-      "year": 2020
-    },
-    {
-      "end_trips": 1,
-      "start_trips": 1,
-      "station": "여의도 미원빌딩",
-      "total_trips": 2,
-      "year": 2020
-    },
-    {
-      "end_trips": 1,
-      "start_trips": 1,
       "station": "명가원설놀탕 앞(신정4동)",
-      "total_trips": 2,
-      "year": 2020
-    },
-    {
-      "end_trips": 1,
-      "start_trips": 1,
-      "station": "은평뉴타운 우물골2단지(제2경로당)",
       "total_trips": 2,
       "year": 2020
     },
@@ -51030,7 +51002,28 @@
     {
       "end_trips": 1,
       "start_trips": 1,
-      "station": "서울아산병원",
+      "station": "다락원체육공원 입구",
+      "total_trips": 2,
+      "year": 2020
+    },
+    {
+      "end_trips": 1,
+      "start_trips": 1,
+      "station": "여의도 미원빌딩",
+      "total_trips": 2,
+      "year": 2020
+    },
+    {
+      "end_trips": 1,
+      "start_trips": 1,
+      "station": "양평역 2번출구",
+      "total_trips": 2,
+      "year": 2020
+    },
+    {
+      "end_trips": 1,
+      "start_trips": 1,
+      "station": "은평뉴타운 우물골2단지(제2경로당)",
       "total_trips": 2,
       "year": 2020
     },
@@ -51044,21 +51037,14 @@
     {
       "end_trips": 1,
       "start_trips": 1,
-      "station": "창동 현대2차아파트(209동)",
+      "station": "서울아산병원",
       "total_trips": 2,
       "year": 2020
     },
     {
       "end_trips": 1,
       "start_trips": 1,
-      "station": "구의공원",
-      "total_trips": 2,
-      "year": 2020
-    },
-    {
-      "end_trips": 1,
-      "start_trips": 1,
-      "station": "다락원체육공원 입구",
+      "station": "원효아파트",
       "total_trips": 2,
       "year": 2020
     },
@@ -51079,15 +51065,22 @@
     {
       "end_trips": 1,
       "start_trips": 1,
+      "station": "창동 현대2차아파트(209동)",
+      "total_trips": 2,
+      "year": 2020
+    },
+    {
+      "end_trips": 1,
+      "start_trips": 1,
       "station": "항동지구 6단지 602동 건너편",
       "total_trips": 2,
       "year": 2020
     },
     {
-      "end_trips": 0,
+      "end_trips": 1,
       "start_trips": 1,
-      "station": "여의도 센터",
-      "total_trips": 1,
+      "station": "구의공원",
+      "total_trips": 2,
       "year": 2020
     },
     {
@@ -51101,6 +51094,13 @@
       "end_trips": 0,
       "start_trips": 1,
       "station": "롯데칠성음료 앞",
+      "total_trips": 1,
+      "year": 2020
+    },
+    {
+      "end_trips": 0,
+      "start_trips": 1,
+      "station": "여의도 센터",
       "total_trips": 1,
       "year": 2020
     },
@@ -53618,16 +53618,16 @@
       "year": 2021
     },
     {
-      "end_trips": 22616,
-      "start_trips": 22213,
-      "station": "밀리아나2빌딩 앞",
+      "end_trips": 22187,
+      "start_trips": 22642,
+      "station": "양천구청역 2번출구 옆",
       "total_trips": 44829,
       "year": 2021
     },
     {
-      "end_trips": 22187,
-      "start_trips": 22642,
-      "station": "양천구청역 2번출구 옆",
+      "end_trips": 22616,
+      "start_trips": 22213,
+      "station": "밀리아나2빌딩 앞",
       "total_trips": 44829,
       "year": 2021
     },
@@ -53688,16 +53688,16 @@
       "year": 2021
     },
     {
-      "end_trips": 22067,
-      "start_trips": 22288,
-      "station": "롯데캐슬 앞",
+      "end_trips": 21858,
+      "start_trips": 22497,
+      "station": "원일교회",
       "total_trips": 44355,
       "year": 2021
     },
     {
-      "end_trips": 21858,
-      "start_trips": 22497,
-      "station": "원일교회",
+      "end_trips": 22067,
+      "start_trips": 22288,
+      "station": "롯데캐슬 앞",
       "total_trips": 44355,
       "year": 2021
     },
@@ -55186,16 +55186,16 @@
       "year": 2021
     },
     {
-      "end_trips": 17228,
-      "start_trips": 17410,
-      "station": "창동역 1번출구 앞",
+      "end_trips": 17355,
+      "start_trips": 17283,
+      "station": "청계9가교차로 앞",
       "total_trips": 34638,
       "year": 2021
     },
     {
-      "end_trips": 17355,
-      "start_trips": 17283,
-      "station": "청계9가교차로 앞",
+      "end_trips": 17228,
+      "start_trips": 17410,
+      "station": "창동역 1번출구 앞",
       "total_trips": 34638,
       "year": 2021
     },
@@ -57629,16 +57629,16 @@
       "year": 2021
     },
     {
-      "end_trips": 12411,
-      "start_trips": 13087,
-      "station": "녹번역 3번출구",
+      "end_trips": 12792,
+      "start_trips": 12706,
+      "station": "대치역 7번출구",
       "total_trips": 25498,
       "year": 2021
     },
     {
-      "end_trips": 12792,
-      "start_trips": 12706,
-      "station": "대치역 7번출구",
+      "end_trips": 12411,
+      "start_trips": 13087,
+      "station": "녹번역 3번출구",
       "total_trips": 25498,
       "year": 2021
     },
@@ -59449,16 +59449,16 @@
       "year": 2021
     },
     {
-      "end_trips": 10135,
-      "start_trips": 10368,
-      "station": "신풍역 5번출구 인근",
+      "end_trips": 10169,
+      "start_trips": 10334,
+      "station": "삼각지역 3번출구",
       "total_trips": 20503,
       "year": 2021
     },
     {
-      "end_trips": 10169,
-      "start_trips": 10334,
-      "station": "삼각지역 3번출구",
+      "end_trips": 10135,
+      "start_trips": 10368,
+      "station": "신풍역 5번출구 인근",
       "total_trips": 20503,
       "year": 2021
     },
@@ -59799,16 +59799,16 @@
       "year": 2021
     },
     {
-      "end_trips": 9788,
-      "start_trips": 9952,
-      "station": "돈암초교 입구",
+      "end_trips": 8353,
+      "start_trips": 11387,
+      "station": "고속터미널역 5번출구 앞",
       "total_trips": 19740,
       "year": 2021
     },
     {
-      "end_trips": 8353,
-      "start_trips": 11387,
-      "station": "고속터미널역 5번출구 앞",
+      "end_trips": 9788,
+      "start_trips": 9952,
+      "station": "돈암초교 입구",
       "total_trips": 19740,
       "year": 2021
     },
@@ -59925,16 +59925,16 @@
       "year": 2021
     },
     {
-      "end_trips": 9873,
-      "start_trips": 9576,
-      "station": "내방역 8번출구 앞",
+      "end_trips": 9801,
+      "start_trips": 9648,
+      "station": "보라매역 8번출구",
       "total_trips": 19449,
       "year": 2021
     },
     {
-      "end_trips": 9801,
-      "start_trips": 9648,
-      "station": "보라매역 8번출구",
+      "end_trips": 9873,
+      "start_trips": 9576,
+      "station": "내방역 8번출구 앞",
       "total_trips": 19449,
       "year": 2021
     },
@@ -60009,16 +60009,16 @@
       "year": 2021
     },
     {
-      "end_trips": 9541,
-      "start_trips": 9685,
-      "station": "서울교통공사사거리 교통섬",
+      "end_trips": 9483,
+      "start_trips": 9743,
+      "station": "신사동 가로수길 입구",
       "total_trips": 19226,
       "year": 2021
     },
     {
-      "end_trips": 9483,
-      "start_trips": 9743,
-      "station": "신사동 가로수길 입구",
+      "end_trips": 9541,
+      "start_trips": 9685,
+      "station": "서울교통공사사거리 교통섬",
       "total_trips": 19226,
       "year": 2021
     },
@@ -60149,16 +60149,16 @@
       "year": 2021
     },
     {
-      "end_trips": 9191,
-      "start_trips": 9796,
-      "station": "동원사거리",
+      "end_trips": 9215,
+      "start_trips": 9772,
+      "station": "현대그룹(본사)",
       "total_trips": 18987,
       "year": 2021
     },
     {
-      "end_trips": 9215,
-      "start_trips": 9772,
-      "station": "현대그룹(본사)",
+      "end_trips": 9191,
+      "start_trips": 9796,
+      "station": "동원사거리",
       "total_trips": 18987,
       "year": 2021
     },
@@ -60198,16 +60198,16 @@
       "year": 2021
     },
     {
-      "end_trips": 9838,
-      "start_trips": 8998,
-      "station": "대림성원상떼빌아파트",
+      "end_trips": 8560,
+      "start_trips": 10276,
+      "station": "시립미술관",
       "total_trips": 18836,
       "year": 2021
     },
     {
-      "end_trips": 8560,
-      "start_trips": 10276,
-      "station": "시립미술관",
+      "end_trips": 9838,
+      "start_trips": 8998,
+      "station": "대림성원상떼빌아파트",
       "total_trips": 18836,
       "year": 2021
     },
@@ -60261,16 +60261,16 @@
       "year": 2021
     },
     {
-      "end_trips": 9179,
-      "start_trips": 9547,
-      "station": "대학동 고시촌",
+      "end_trips": 9551,
+      "start_trips": 9175,
+      "station": "솔브레인이엔지 뒤편",
       "total_trips": 18726,
       "year": 2021
     },
     {
-      "end_trips": 9551,
-      "start_trips": 9175,
-      "station": "솔브레인이엔지 뒤편",
+      "end_trips": 9179,
+      "start_trips": 9547,
+      "station": "대학동 고시촌",
       "total_trips": 18726,
       "year": 2021
     },
@@ -60590,16 +60590,16 @@
       "year": 2021
     },
     {
-      "end_trips": 8905,
-      "start_trips": 9006,
-      "station": "천일초교 사거리",
+      "end_trips": 8880,
+      "start_trips": 9031,
+      "station": "시석빌딩 앞",
       "total_trips": 17911,
       "year": 2021
     },
     {
-      "end_trips": 8880,
-      "start_trips": 9031,
-      "station": "시석빌딩 앞",
+      "end_trips": 8905,
+      "start_trips": 9006,
+      "station": "천일초교 사거리",
       "total_trips": 17911,
       "year": 2021
     },
@@ -61542,16 +61542,16 @@
       "year": 2021
     },
     {
-      "end_trips": 6018,
-      "start_trips": 9848,
-      "station": "서울역 센트럴 자이아파트",
+      "end_trips": 7493,
+      "start_trips": 8373,
+      "station": "양서중학교 옆",
       "total_trips": 15866,
       "year": 2021
     },
     {
-      "end_trips": 7493,
-      "start_trips": 8373,
-      "station": "양서중학교 옆",
+      "end_trips": 6018,
+      "start_trips": 9848,
+      "station": "서울역 센트럴 자이아파트",
       "total_trips": 15866,
       "year": 2021
     },
@@ -61871,16 +61871,16 @@
       "year": 2021
     },
     {
-      "end_trips": 7258,
-      "start_trips": 7756,
-      "station": "동원베네스트 건물 앞",
+      "end_trips": 6423,
+      "start_trips": 8591,
+      "station": "래미안 솔베뉴(고덕로)",
       "total_trips": 15014,
       "year": 2021
     },
     {
-      "end_trips": 6423,
-      "start_trips": 8591,
-      "station": "래미안 솔베뉴(고덕로)",
+      "end_trips": 7258,
+      "start_trips": 7756,
+      "station": "동원베네스트 건물 앞",
       "total_trips": 15014,
       "year": 2021
     },
@@ -61899,13 +61899,6 @@
       "year": 2021
     },
     {
-      "end_trips": 4924,
-      "start_trips": 10047,
-      "station": "상암월드컵파크 1단지 교차로",
-      "total_trips": 14971,
-      "year": 2021
-    },
-    {
       "end_trips": 7929,
       "start_trips": 7042,
       "station": "선사고등학교",
@@ -61913,16 +61906,23 @@
       "year": 2021
     },
     {
-      "end_trips": 8790,
-      "start_trips": 6173,
-      "station": "대성유니드아파트",
-      "total_trips": 14963,
+      "end_trips": 4924,
+      "start_trips": 10047,
+      "station": "상암월드컵파크 1단지 교차로",
+      "total_trips": 14971,
       "year": 2021
     },
     {
       "end_trips": 7910,
       "start_trips": 7053,
       "station": "강일리버파크 2~5단지",
+      "total_trips": 14963,
+      "year": 2021
+    },
+    {
+      "end_trips": 8790,
+      "start_trips": 6173,
+      "station": "대성유니드아파트",
       "total_trips": 14963,
       "year": 2021
     },
@@ -62144,16 +62144,16 @@
       "year": 2021
     },
     {
-      "end_trips": 7187,
-      "start_trips": 7289,
-      "station": "올림픽공원 서1문 앞",
+      "end_trips": 6933,
+      "start_trips": 7543,
+      "station": "SPC 앞",
       "total_trips": 14476,
       "year": 2021
     },
     {
-      "end_trips": 6933,
-      "start_trips": 7543,
-      "station": "SPC 앞",
+      "end_trips": 7187,
+      "start_trips": 7289,
+      "station": "올림픽공원 서1문 앞",
       "total_trips": 14476,
       "year": 2021
     },
@@ -63068,16 +63068,16 @@
       "year": 2021
     },
     {
-      "end_trips": 6452,
-      "start_trips": 6132,
-      "station": "세종대왕기념관 교차로",
+      "end_trips": 6308,
+      "start_trips": 6276,
+      "station": "더리브골드타워",
       "total_trips": 12584,
       "year": 2021
     },
     {
-      "end_trips": 6308,
-      "start_trips": 6276,
-      "station": "더리브골드타워",
+      "end_trips": 6452,
+      "start_trips": 6132,
+      "station": "세종대왕기념관 교차로",
       "total_trips": 12584,
       "year": 2021
     },
@@ -63677,16 +63677,16 @@
       "year": 2021
     },
     {
-      "end_trips": 4347,
-      "start_trips": 6770,
-      "station": "아차산 휴먼시아 아파트 옆",
+      "end_trips": 5402,
+      "start_trips": 5715,
+      "station": "염천교사거리",
       "total_trips": 11117,
       "year": 2021
     },
     {
-      "end_trips": 5402,
-      "start_trips": 5715,
-      "station": "염천교사거리",
+      "end_trips": 4347,
+      "start_trips": 6770,
+      "station": "아차산 휴먼시아 아파트 옆",
       "total_trips": 11117,
       "year": 2021
     },
@@ -63817,16 +63817,16 @@
       "year": 2021
     },
     {
-      "end_trips": 5093,
-      "start_trips": 5748,
-      "station": "마장역3번출구",
+      "end_trips": 4585,
+      "start_trips": 6256,
+      "station": "오리로와 서해안도로 교차로 앞",
       "total_trips": 10841,
       "year": 2021
     },
     {
-      "end_trips": 4585,
-      "start_trips": 6256,
-      "station": "오리로와 서해안도로 교차로 앞",
+      "end_trips": 5093,
+      "start_trips": 5748,
+      "station": "마장역3번출구",
       "total_trips": 10841,
       "year": 2021
     },
@@ -64181,16 +64181,16 @@
       "year": 2021
     },
     {
-      "end_trips": 5037,
-      "start_trips": 5257,
-      "station": "래미안금호하이리버 아파트 102동 옆",
+      "end_trips": 4794,
+      "start_trips": 5500,
+      "station": "래미안서초스위트앞",
       "total_trips": 10294,
       "year": 2021
     },
     {
-      "end_trips": 4794,
-      "start_trips": 5500,
-      "station": "래미안서초스위트앞",
+      "end_trips": 5037,
+      "start_trips": 5257,
+      "station": "래미안금호하이리버 아파트 102동 옆",
       "total_trips": 10294,
       "year": 2021
     },
@@ -64860,16 +64860,16 @@
       "year": 2021
     },
     {
-      "end_trips": 4216,
-      "start_trips": 4672,
-      "station": "명지전문대학교 정문 앞",
+      "end_trips": 4683,
+      "start_trips": 4205,
+      "station": "제니스스포츠 앞",
       "total_trips": 8888,
       "year": 2021
     },
     {
-      "end_trips": 4683,
-      "start_trips": 4205,
-      "station": "제니스스포츠 앞",
+      "end_trips": 4216,
+      "start_trips": 4672,
+      "station": "명지전문대학교 정문 앞",
       "total_trips": 8888,
       "year": 2021
     },
@@ -65483,16 +65483,16 @@
       "year": 2021
     },
     {
-      "end_trips": 3953,
-      "start_trips": 3929,
-      "station": "마곡역5번출구앞",
+      "end_trips": 3960,
+      "start_trips": 3922,
+      "station": "롯데리아 개포점앞",
       "total_trips": 7882,
       "year": 2021
     },
     {
-      "end_trips": 3960,
-      "start_trips": 3922,
-      "station": "롯데리아 개포점앞",
+      "end_trips": 3953,
+      "start_trips": 3929,
+      "station": "마곡역5번출구앞",
       "total_trips": 7882,
       "year": 2021
     },
@@ -66351,16 +66351,16 @@
       "year": 2021
     },
     {
-      "end_trips": 2006,
-      "start_trips": 4273,
-      "station": "청담역(우리들병원 앞)",
+      "end_trips": 3175,
+      "start_trips": 3104,
+      "station": "자양2동 주민센터",
       "total_trips": 6279,
       "year": 2021
     },
     {
-      "end_trips": 3175,
-      "start_trips": 3104,
-      "station": "자양2동 주민센터",
+      "end_trips": 2006,
+      "start_trips": 4273,
+      "station": "청담역(우리들병원 앞)",
       "total_trips": 6279,
       "year": 2021
     },
@@ -66631,16 +66631,16 @@
       "year": 2021
     },
     {
-      "end_trips": 2759,
-      "start_trips": 2918,
-      "station": "일신초등학교 옆",
+      "end_trips": 2972,
+      "start_trips": 2705,
+      "station": "신진빌라",
       "total_trips": 5677,
       "year": 2021
     },
     {
-      "end_trips": 2972,
-      "start_trips": 2705,
-      "station": "신진빌라",
+      "end_trips": 2759,
+      "start_trips": 2918,
+      "station": "일신초등학교 옆",
       "total_trips": 5677,
       "year": 2021
     },
@@ -66883,16 +66883,16 @@
       "year": 2021
     },
     {
-      "end_trips": 2498,
-      "start_trips": 2772,
-      "station": "성내교 남단",
+      "end_trips": 1957,
+      "start_trips": 3313,
+      "station": "구룡사 삼거리",
       "total_trips": 5270,
       "year": 2021
     },
     {
-      "end_trips": 1957,
-      "start_trips": 3313,
-      "station": "구룡사 삼거리",
+      "end_trips": 2498,
+      "start_trips": 2772,
+      "station": "성내교 남단",
       "total_trips": 5270,
       "year": 2021
     },
@@ -67093,16 +67093,16 @@
       "year": 2021
     },
     {
-      "end_trips": 2404,
-      "start_trips": 2487,
-      "station": "선정릉 디캠프(D,CAMP)앞",
+      "end_trips": 2473,
+      "start_trips": 2418,
+      "station": "신청담나들목",
       "total_trips": 4891,
       "year": 2021
     },
     {
-      "end_trips": 2473,
-      "start_trips": 2418,
-      "station": "신청담나들목",
+      "end_trips": 2404,
+      "start_trips": 2487,
+      "station": "선정릉 디캠프(D,CAMP)앞",
       "total_trips": 4891,
       "year": 2021
     },
@@ -67373,16 +67373,16 @@
       "year": 2021
     },
     {
-      "end_trips": 1372,
-      "start_trips": 2872,
-      "station": "낙성대 교수아파트",
+      "end_trips": 2101,
+      "start_trips": 2143,
+      "station": "서초2교(사임당로 방면)",
       "total_trips": 4244,
       "year": 2021
     },
     {
-      "end_trips": 2101,
-      "start_trips": 2143,
-      "station": "서초2교(사임당로 방면)",
+      "end_trips": 1372,
+      "start_trips": 2872,
+      "station": "낙성대 교수아파트",
       "total_trips": 4244,
       "year": 2021
     },
@@ -67933,16 +67933,16 @@
       "year": 2021
     },
     {
-      "end_trips": 1642,
-      "start_trips": 1644,
-      "station": "신내동 벽산아파트 후문 앞",
+      "end_trips": 1635,
+      "start_trips": 1651,
+      "station": "발산1동주민센터교차로",
       "total_trips": 3286,
       "year": 2021
     },
     {
-      "end_trips": 1635,
-      "start_trips": 1651,
-      "station": "발산1동주민센터교차로",
+      "end_trips": 1642,
+      "start_trips": 1644,
+      "station": "신내동 벽산아파트 후문 앞",
       "total_trips": 3286,
       "year": 2021
     },
@@ -67968,16 +67968,16 @@
       "year": 2021
     },
     {
-      "end_trips": 860,
-      "start_trips": 2382,
-      "station": "금천구립 독산도서관",
+      "end_trips": 1521,
+      "start_trips": 1721,
+      "station": "KRX한국거래소(1)",
       "total_trips": 3242,
       "year": 2021
     },
     {
-      "end_trips": 1521,
-      "start_trips": 1721,
-      "station": "KRX한국거래소(1)",
+      "end_trips": 860,
+      "start_trips": 2382,
+      "station": "금천구립 독산도서관",
       "total_trips": 3242,
       "year": 2021
     },
@@ -68899,16 +68899,16 @@
       "year": 2021
     },
     {
-      "end_trips": 535,
-      "start_trips": 601,
-      "station": "구룡사 앞 교차로 (보도육교)",
+      "end_trips": 533,
+      "start_trips": 603,
+      "station": "강남자곡힐스테이트",
       "total_trips": 1136,
       "year": 2021
     },
     {
-      "end_trips": 533,
-      "start_trips": 603,
-      "station": "강남자곡힐스테이트",
+      "end_trips": 535,
+      "start_trips": 601,
+      "station": "구룡사 앞 교차로 (보도육교)",
       "total_trips": 1136,
       "year": 2021
     },
@@ -69347,16 +69347,16 @@
       "year": 2021
     },
     {
-      "end_trips": 142,
-      "start_trips": 181,
-      "station": "구룡역 1번 출구",
+      "end_trips": 73,
+      "start_trips": 250,
+      "station": "탑성마을 버스정거장 옆",
       "total_trips": 323,
       "year": 2021
     },
     {
-      "end_trips": 73,
-      "start_trips": 250,
-      "station": "탑성마을 버스정거장 옆",
+      "end_trips": 142,
+      "start_trips": 181,
+      "station": "구룡역 1번 출구",
       "total_trips": 323,
       "year": 2021
     },
@@ -69620,13 +69620,6 @@
       "year": 2021
     },
     {
-      "end_trips": 0,
-      "start_trips": 5,
-      "station": "테스트 대여소",
-      "total_trips": 5,
-      "year": 2021
-    },
-    {
       "end_trips": 3,
       "start_trips": 2,
       "station": "서남물재생센터 버스정류장",
@@ -69634,16 +69627,23 @@
       "year": 2021
     },
     {
-      "end_trips": 4,
-      "start_trips": 0,
-      "station": "훈련원센터",
-      "total_trips": 4,
+      "end_trips": 0,
+      "start_trips": 5,
+      "station": "테스트 대여소",
+      "total_trips": 5,
       "year": 2021
     },
     {
       "end_trips": 2,
       "start_trips": 2,
       "station": "중목초등학교 앞 육교",
+      "total_trips": 4,
+      "year": 2021
+    },
+    {
+      "end_trips": 4,
+      "start_trips": 0,
+      "station": "훈련원센터",
       "total_trips": 4,
       "year": 2021
     },
@@ -71006,16 +71006,16 @@
       "year": 2022
     },
     {
-      "end_trips": 36646,
-      "start_trips": 34798,
-      "station": "망원역 2번출구 앞",
+      "end_trips": 35872,
+      "start_trips": 35572,
+      "station": "송파사거리",
       "total_trips": 71444,
       "year": 2022
     },
     {
-      "end_trips": 35872,
-      "start_trips": 35572,
-      "station": "송파사거리",
+      "end_trips": 36646,
+      "start_trips": 34798,
+      "station": "망원역 2번출구 앞",
       "total_trips": 71444,
       "year": 2022
     },
@@ -71111,16 +71111,16 @@
       "year": 2022
     },
     {
-      "end_trips": 35676,
-      "start_trips": 34186,
-      "station": "방화동강서기동대앞",
+      "end_trips": 34975,
+      "start_trips": 34887,
+      "station": "석촌호수교차로(동호 팔각정 앞)",
       "total_trips": 69862,
       "year": 2022
     },
     {
-      "end_trips": 34975,
-      "start_trips": 34887,
-      "station": "석촌호수교차로(동호 팔각정 앞)",
+      "end_trips": 35676,
+      "start_trips": 34186,
+      "station": "방화동강서기동대앞",
       "total_trips": 69862,
       "year": 2022
     },
@@ -73113,16 +73113,16 @@
       "year": 2022
     },
     {
-      "end_trips": 24550,
-      "start_trips": 22961,
-      "station": "한남나들목 입구",
+      "end_trips": 26065,
+      "start_trips": 21446,
+      "station": "이수역 11번출구쪽",
       "total_trips": 47511,
       "year": 2022
     },
     {
-      "end_trips": 26065,
-      "start_trips": 21446,
-      "station": "이수역 11번출구쪽",
+      "end_trips": 24550,
+      "start_trips": 22961,
+      "station": "한남나들목 입구",
       "total_trips": 47511,
       "year": 2022
     },
@@ -74163,16 +74163,16 @@
       "year": 2022
     },
     {
-      "end_trips": 21015,
-      "start_trips": 20855,
-      "station": "동일로 지하차도",
+      "end_trips": 20813,
+      "start_trips": 21057,
+      "station": "서울숲역 5번 출구 옆",
       "total_trips": 41870,
       "year": 2022
     },
     {
-      "end_trips": 20813,
-      "start_trips": 21057,
-      "station": "서울숲역 5번 출구 옆",
+      "end_trips": 21015,
+      "start_trips": 20855,
+      "station": "동일로 지하차도",
       "total_trips": 41870,
       "year": 2022
     },
@@ -76760,16 +76760,16 @@
       "year": 2022
     },
     {
-      "end_trips": 14923,
-      "start_trips": 15572,
-      "station": "유스호스텔 앞",
+      "end_trips": 15120,
+      "start_trips": 15375,
+      "station": "서울지방고용노동청 앞",
       "total_trips": 30495,
       "year": 2022
     },
     {
-      "end_trips": 15120,
-      "start_trips": 15375,
-      "station": "서울지방고용노동청 앞",
+      "end_trips": 14923,
+      "start_trips": 15572,
+      "station": "유스호스텔 앞",
       "total_trips": 30495,
       "year": 2022
     },
@@ -77810,16 +77810,16 @@
       "year": 2022
     },
     {
-      "end_trips": 13393,
-      "start_trips": 13365,
-      "station": "은마아파트 입구 사거리",
+      "end_trips": 13063,
+      "start_trips": 13695,
+      "station": "쌍문역 1번출구 주변",
       "total_trips": 26758,
       "year": 2022
     },
     {
-      "end_trips": 13063,
-      "start_trips": 13695,
-      "station": "쌍문역 1번출구 주변",
+      "end_trips": 13393,
+      "start_trips": 13365,
+      "station": "은마아파트 입구 사거리",
       "total_trips": 26758,
       "year": 2022
     },
@@ -77873,16 +77873,16 @@
       "year": 2022
     },
     {
-      "end_trips": 12915,
-      "start_trips": 13688,
-      "station": "군자지하보도 앞",
+      "end_trips": 13161,
+      "start_trips": 13442,
+      "station": "경희궁 자이 2단지",
       "total_trips": 26603,
       "year": 2022
     },
     {
-      "end_trips": 13161,
-      "start_trips": 13442,
-      "station": "경희궁 자이 2단지",
+      "end_trips": 12915,
+      "start_trips": 13688,
+      "station": "군자지하보도 앞",
       "total_trips": 26603,
       "year": 2022
     },
@@ -78104,16 +78104,16 @@
       "year": 2022
     },
     {
-      "end_trips": 13431,
-      "start_trips": 12588,
-      "station": "강동리엔파크14단지(1401동 앞)",
+      "end_trips": 13732,
+      "start_trips": 12287,
+      "station": "신창중학교 후문 맞은편 버스정류장",
       "total_trips": 26019,
       "year": 2022
     },
     {
-      "end_trips": 13732,
-      "start_trips": 12287,
-      "station": "신창중학교 후문 맞은편 버스정류장",
+      "end_trips": 13431,
+      "start_trips": 12588,
+      "station": "강동리엔파크14단지(1401동 앞)",
       "total_trips": 26019,
       "year": 2022
     },
@@ -78475,16 +78475,16 @@
       "year": 2022
     },
     {
-      "end_trips": 12409,
-      "start_trips": 12310,
-      "station": "도봉세무서 앞",
+      "end_trips": 12339,
+      "start_trips": 12380,
+      "station": "해공도서관앞",
       "total_trips": 24719,
       "year": 2022
     },
     {
-      "end_trips": 12339,
-      "start_trips": 12380,
-      "station": "해공도서관앞",
+      "end_trips": 12409,
+      "start_trips": 12310,
+      "station": "도봉세무서 앞",
       "total_trips": 24719,
       "year": 2022
     },
@@ -78972,16 +78972,16 @@
       "year": 2022
     },
     {
-      "end_trips": 11351,
-      "start_trips": 11982,
-      "station": "신길우성1차아파트 앞 공원",
+      "end_trips": 11286,
+      "start_trips": 12047,
+      "station": "신사동 가로수길 입구",
       "total_trips": 23333,
       "year": 2022
     },
     {
-      "end_trips": 11286,
-      "start_trips": 12047,
-      "station": "신사동 가로수길 입구",
+      "end_trips": 11351,
+      "start_trips": 11982,
+      "station": "신길우성1차아파트 앞 공원",
       "total_trips": 23333,
       "year": 2022
     },
@@ -79168,16 +79168,16 @@
       "year": 2022
     },
     {
-      "end_trips": 11587,
-      "start_trips": 11026,
-      "station": "신이문역 1번출구",
+      "end_trips": 11361,
+      "start_trips": 11252,
+      "station": "신촌동 제1공영주차장 앞",
       "total_trips": 22613,
       "year": 2022
     },
     {
-      "end_trips": 11361,
-      "start_trips": 11252,
-      "station": "신촌동 제1공영주차장 앞",
+      "end_trips": 11587,
+      "start_trips": 11026,
+      "station": "신이문역 1번출구",
       "total_trips": 22613,
       "year": 2022
     },
@@ -79455,16 +79455,16 @@
       "year": 2022
     },
     {
-      "end_trips": 7656,
-      "start_trips": 14322,
-      "station": "삼부르네상스파크빌",
+      "end_trips": 11274,
+      "start_trips": 10704,
+      "station": "한국전력공사(동대문 중랑지사)",
       "total_trips": 21978,
       "year": 2022
     },
     {
-      "end_trips": 11274,
-      "start_trips": 10704,
-      "station": "한국전력공사(동대문 중랑지사)",
+      "end_trips": 7656,
+      "start_trips": 14322,
+      "station": "삼부르네상스파크빌",
       "total_trips": 21978,
       "year": 2022
     },
@@ -79847,16 +79847,16 @@
       "year": 2022
     },
     {
-      "end_trips": 10497,
-      "start_trips": 10559,
-      "station": "홍은동 정원여중 입구",
+      "end_trips": 10273,
+      "start_trips": 10783,
+      "station": "양평역2번출구 뒤",
       "total_trips": 21056,
       "year": 2022
     },
     {
-      "end_trips": 10273,
-      "start_trips": 10783,
-      "station": "양평역2번출구 뒤",
+      "end_trips": 10497,
+      "start_trips": 10559,
+      "station": "홍은동 정원여중 입구",
       "total_trips": 21056,
       "year": 2022
     },
@@ -79868,16 +79868,16 @@
       "year": 2022
     },
     {
-      "end_trips": 10249,
-      "start_trips": 10793,
-      "station": "DMC파크뷰자이1단지 110동 앞",
+      "end_trips": 10593,
+      "start_trips": 10449,
+      "station": "봉은사역 7번 출구",
       "total_trips": 21042,
       "year": 2022
     },
     {
-      "end_trips": 10593,
-      "start_trips": 10449,
-      "station": "봉은사역 7번 출구",
+      "end_trips": 10249,
+      "start_trips": 10793,
+      "station": "DMC파크뷰자이1단지 110동 앞",
       "total_trips": 21042,
       "year": 2022
     },
@@ -80064,16 +80064,16 @@
       "year": 2022
     },
     {
-      "end_trips": 10658,
-      "start_trips": 9815,
-      "station": "콤텍시스템 앞",
+      "end_trips": 10146,
+      "start_trips": 10327,
+      "station": "언남초등학교 앞",
       "total_trips": 20473,
       "year": 2022
     },
     {
-      "end_trips": 10146,
-      "start_trips": 10327,
-      "station": "언남초등학교 앞",
+      "end_trips": 10658,
+      "start_trips": 9815,
+      "station": "콤텍시스템 앞",
       "total_trips": 20473,
       "year": 2022
     },
@@ -81548,16 +81548,16 @@
       "year": 2022
     },
     {
-      "end_trips": 8453,
-      "start_trips": 8571,
-      "station": "상암월드컵파크 7단지 앞",
+      "end_trips": 8561,
+      "start_trips": 8463,
+      "station": "건국대학교 (행정관)",
       "total_trips": 17024,
       "year": 2022
     },
     {
-      "end_trips": 8561,
-      "start_trips": 8463,
-      "station": "건국대학교 (행정관)",
+      "end_trips": 8453,
+      "start_trips": 8571,
+      "station": "상암월드컵파크 7단지 앞",
       "total_trips": 17024,
       "year": 2022
     },
@@ -82269,16 +82269,16 @@
       "year": 2022
     },
     {
-      "end_trips": 7709,
-      "start_trips": 7707,
-      "station": "필동 삼거리",
+      "end_trips": 7689,
+      "start_trips": 7727,
+      "station": "봉은사역 1,2번 출구",
       "total_trips": 15416,
       "year": 2022
     },
     {
-      "end_trips": 7689,
-      "start_trips": 7727,
-      "station": "봉은사역 1,2번 출구",
+      "end_trips": 7709,
+      "start_trips": 7707,
+      "station": "필동 삼거리",
       "total_trips": 15416,
       "year": 2022
     },
@@ -82493,16 +82493,16 @@
       "year": 2022
     },
     {
-      "end_trips": 7607,
-      "start_trips": 7253,
-      "station": "반포래미안 리오센트",
+      "end_trips": 7701,
+      "start_trips": 7159,
+      "station": "대림우성2차아파트",
       "total_trips": 14860,
       "year": 2022
     },
     {
-      "end_trips": 7701,
-      "start_trips": 7159,
-      "station": "대림우성2차아파트",
+      "end_trips": 7607,
+      "start_trips": 7253,
+      "station": "반포래미안 리오센트",
       "total_trips": 14860,
       "year": 2022
     },
@@ -84110,16 +84110,16 @@
       "year": 2022
     },
     {
-      "end_trips": 4794,
-      "start_trips": 6183,
-      "station": "연희교차로 인근",
+      "end_trips": 5177,
+      "start_trips": 5800,
+      "station": "항동지구 7단지 정문",
       "total_trips": 10977,
       "year": 2022
     },
     {
-      "end_trips": 5177,
-      "start_trips": 5800,
-      "station": "항동지구 7단지 정문",
+      "end_trips": 4794,
+      "start_trips": 6183,
+      "station": "연희교차로 인근",
       "total_trips": 10977,
       "year": 2022
     },
@@ -84593,16 +84593,16 @@
       "year": 2022
     },
     {
-      "end_trips": 5118,
-      "start_trips": 4944,
-      "station": "홍남교 사거리",
+      "end_trips": 4826,
+      "start_trips": 5236,
+      "station": "상림마을 생태공원",
       "total_trips": 10062,
       "year": 2022
     },
     {
-      "end_trips": 4826,
-      "start_trips": 5236,
-      "station": "상림마을 생태공원",
+      "end_trips": 5118,
+      "start_trips": 4944,
+      "station": "홍남교 사거리",
       "total_trips": 10062,
       "year": 2022
     },
@@ -84873,16 +84873,16 @@
       "year": 2022
     },
     {
-      "end_trips": 4677,
-      "start_trips": 4760,
-      "station": "종로문화원 건너편",
+      "end_trips": 4395,
+      "start_trips": 5042,
+      "station": "SC제일은행 양재동지점 앞",
       "total_trips": 9437,
       "year": 2022
     },
     {
-      "end_trips": 4395,
-      "start_trips": 5042,
-      "station": "SC제일은행 양재동지점 앞",
+      "end_trips": 4677,
+      "start_trips": 4760,
+      "station": "종로문화원 건너편",
       "total_trips": 9437,
       "year": 2022
     },
@@ -85139,16 +85139,16 @@
       "year": 2022
     },
     {
-      "end_trips": 4262,
-      "start_trips": 4575,
-      "station": "중랑데시앙플렉스 앞",
+      "end_trips": 4411,
+      "start_trips": 4426,
+      "station": "서울서부지방법원등기국앞",
       "total_trips": 8837,
       "year": 2022
     },
     {
-      "end_trips": 4411,
-      "start_trips": 4426,
-      "station": "서울서부지방법원등기국앞",
+      "end_trips": 4262,
+      "start_trips": 4575,
+      "station": "중랑데시앙플렉스 앞",
       "total_trips": 8837,
       "year": 2022
     },
@@ -85174,16 +85174,16 @@
       "year": 2022
     },
     {
-      "end_trips": 3519,
-      "start_trips": 5289,
-      "station": "위례 포레샤인 1809동 부근",
+      "end_trips": 4291,
+      "start_trips": 4517,
+      "station": "초롱타운 앞",
       "total_trips": 8808,
       "year": 2022
     },
     {
-      "end_trips": 4291,
-      "start_trips": 4517,
-      "station": "초롱타운 앞",
+      "end_trips": 3519,
+      "start_trips": 5289,
+      "station": "위례 포레샤인 1809동 부근",
       "total_trips": 8808,
       "year": 2022
     },
@@ -85496,16 +85496,16 @@
       "year": 2022
     },
     {
-      "end_trips": 3774,
-      "start_trips": 4345,
-      "station": "암사정수센터교차로(강동롯데캐슬퍼스트아파트)",
+      "end_trips": 3928,
+      "start_trips": 4191,
+      "station": "서울연신중학교",
       "total_trips": 8119,
       "year": 2022
     },
     {
-      "end_trips": 3928,
-      "start_trips": 4191,
-      "station": "서울연신중학교",
+      "end_trips": 3774,
+      "start_trips": 4345,
+      "station": "암사정수센터교차로(강동롯데캐슬퍼스트아파트)",
       "total_trips": 8119,
       "year": 2022
     },
@@ -85566,16 +85566,16 @@
       "year": 2022
     },
     {
-      "end_trips": 3564,
-      "start_trips": 4421,
-      "station": "오정초교 앞 보도육교",
+      "end_trips": 3442,
+      "start_trips": 4543,
+      "station": "삼육대 도서관",
       "total_trips": 7985,
       "year": 2022
     },
     {
-      "end_trips": 3442,
-      "start_trips": 4543,
-      "station": "삼육대 도서관",
+      "end_trips": 3564,
+      "start_trips": 4421,
+      "station": "오정초교 앞 보도육교",
       "total_trips": 7985,
       "year": 2022
     },
@@ -85881,16 +85881,16 @@
       "year": 2022
     },
     {
-      "end_trips": 3426,
-      "start_trips": 3994,
-      "station": "개포우성6차아파트 정문 앞",
+      "end_trips": 3414,
+      "start_trips": 4006,
+      "station": "강서문화센터",
       "total_trips": 7420,
       "year": 2022
     },
     {
-      "end_trips": 3414,
-      "start_trips": 4006,
-      "station": "강서문화센터",
+      "end_trips": 3426,
+      "start_trips": 3994,
+      "station": "개포우성6차아파트 정문 앞",
       "total_trips": 7420,
       "year": 2022
     },
@@ -85951,16 +85951,16 @@
       "year": 2022
     },
     {
-      "end_trips": 3864,
-      "start_trips": 3440,
-      "station": "월정초교 앞 사거리",
+      "end_trips": 3581,
+      "start_trips": 3723,
+      "station": "선정릉역 4번 출구",
       "total_trips": 7304,
       "year": 2022
     },
     {
-      "end_trips": 3581,
-      "start_trips": 3723,
-      "station": "선정릉역 4번 출구",
+      "end_trips": 3864,
+      "start_trips": 3440,
+      "station": "월정초교 앞 사거리",
       "total_trips": 7304,
       "year": 2022
     },
@@ -86448,16 +86448,16 @@
       "year": 2022
     },
     {
-      "end_trips": 2622,
-      "start_trips": 3545,
-      "station": "행당동 삼부APT후문",
+      "end_trips": 2086,
+      "start_trips": 4081,
+      "station": "효창 푸르지오 앞",
       "total_trips": 6167,
       "year": 2022
     },
     {
-      "end_trips": 2086,
-      "start_trips": 4081,
-      "station": "효창 푸르지오 앞",
+      "end_trips": 2622,
+      "start_trips": 3545,
+      "station": "행당동 삼부APT후문",
       "total_trips": 6167,
       "year": 2022
     },
@@ -86707,16 +86707,16 @@
       "year": 2022
     },
     {
-      "end_trips": 2377,
-      "start_trips": 3074,
-      "station": "국회2문",
+      "end_trips": 2742,
+      "start_trips": 2709,
+      "station": "도봉산역 교차로 앞",
       "total_trips": 5451,
       "year": 2022
     },
     {
-      "end_trips": 2742,
-      "start_trips": 2709,
-      "station": "도봉산역 교차로 앞",
+      "end_trips": 2377,
+      "start_trips": 3074,
+      "station": "국회2문",
       "total_trips": 5451,
       "year": 2022
     },
@@ -86875,16 +86875,16 @@
       "year": 2022
     },
     {
-      "end_trips": 2246,
-      "start_trips": 2955,
-      "station": "용마산역 1번출구",
+      "end_trips": 1550,
+      "start_trips": 3651,
+      "station": "남산타운아파트 버스정류장",
       "total_trips": 5201,
       "year": 2022
     },
     {
-      "end_trips": 1550,
-      "start_trips": 3651,
-      "station": "남산타운아파트 버스정류장",
+      "end_trips": 2246,
+      "start_trips": 2955,
+      "station": "용마산역 1번출구",
       "total_trips": 5201,
       "year": 2022
     },
@@ -86896,16 +86896,16 @@
       "year": 2022
     },
     {
-      "end_trips": 2496,
-      "start_trips": 2682,
-      "station": "역삼중학교 앞(체육관 방향)",
+      "end_trips": 2530,
+      "start_trips": 2648,
+      "station": "송파레이크힐",
       "total_trips": 5178,
       "year": 2022
     },
     {
-      "end_trips": 2530,
-      "start_trips": 2648,
-      "station": "송파레이크힐",
+      "end_trips": 2496,
+      "start_trips": 2682,
+      "station": "역삼중학교 앞(체육관 방향)",
       "total_trips": 5178,
       "year": 2022
     },
@@ -87134,16 +87134,16 @@
       "year": 2022
     },
     {
-      "end_trips": 2170,
-      "start_trips": 2597,
-      "station": "서울갤러리아 앞",
+      "end_trips": 2127,
+      "start_trips": 2640,
+      "station": "무악재역 4번 출구",
       "total_trips": 4767,
       "year": 2022
     },
     {
-      "end_trips": 2127,
-      "start_trips": 2640,
-      "station": "무악재역 4번 출구",
+      "end_trips": 2170,
+      "start_trips": 2597,
+      "station": "서울갤러리아 앞",
       "total_trips": 4767,
       "year": 2022
     },
@@ -87309,16 +87309,16 @@
       "year": 2022
     },
     {
-      "end_trips": 2038,
-      "start_trips": 2376,
-      "station": "은마아파트입구 사거리(1)",
+      "end_trips": 2228,
+      "start_trips": 2186,
+      "station": "IBK기업은행 석수역 지점 앞",
       "total_trips": 4414,
       "year": 2022
     },
     {
-      "end_trips": 2228,
-      "start_trips": 2186,
-      "station": "IBK기업은행 석수역 지점 앞",
+      "end_trips": 2038,
+      "start_trips": 2376,
+      "station": "은마아파트입구 사거리(1)",
       "total_trips": 4414,
       "year": 2022
     },
@@ -88128,16 +88128,16 @@
       "year": 2022
     },
     {
-      "end_trips": 413,
-      "start_trips": 2354,
-      "station": "상도SH빌아파트 입구",
+      "end_trips": 1200,
+      "start_trips": 1567,
+      "station": "리싸이클시티",
       "total_trips": 2767,
       "year": 2022
     },
     {
-      "end_trips": 1200,
-      "start_trips": 1567,
-      "station": "리싸이클시티",
+      "end_trips": 413,
+      "start_trips": 2354,
+      "station": "상도SH빌아파트 입구",
       "total_trips": 2767,
       "year": 2022
     },
@@ -88499,16 +88499,16 @@
       "year": 2022
     },
     {
-      "end_trips": 326,
-      "start_trips": 1210,
-      "station": "방배래미안아트힐 101동앞",
+      "end_trips": 654,
+      "start_trips": 882,
+      "station": "항동지구 3단지 302동 앞",
       "total_trips": 1536,
       "year": 2022
     },
     {
-      "end_trips": 654,
-      "start_trips": 882,
-      "station": "항동지구 3단지 302동 앞",
+      "end_trips": 326,
+      "start_trips": 1210,
+      "station": "방배래미안아트힐 101동앞",
       "total_trips": 1536,
       "year": 2022
     },
@@ -88954,16 +88954,16 @@
       "year": 2022
     },
     {
-      "end_trips": 20,
-      "start_trips": 34,
-      "station": "북위례1",
+      "end_trips": 29,
+      "start_trips": 25,
+      "station": "신풍역 5번출구 인근",
       "total_trips": 54,
       "year": 2022
     },
     {
-      "end_trips": 29,
-      "start_trips": 25,
-      "station": "신풍역 5번출구 인근",
+      "end_trips": 20,
+      "start_trips": 34,
+      "station": "북위례1",
       "total_trips": 54,
       "year": 2022
     },
@@ -88982,16 +88982,16 @@
       "year": 2022
     },
     {
-      "end_trips": 9,
-      "start_trips": 7,
-      "station": "대방역 4번출구",
+      "end_trips": 7,
+      "start_trips": 9,
+      "station": "강북 청소년 문화정보도서관 앞",
       "total_trips": 16,
       "year": 2022
     },
     {
-      "end_trips": 7,
-      "start_trips": 9,
-      "station": "강북 청소년 문화정보도서관 앞",
+      "end_trips": 9,
+      "start_trips": 7,
+      "station": "대방역 4번출구",
       "total_trips": 16,
       "year": 2022
     },
@@ -89003,16 +89003,16 @@
       "year": 2022
     },
     {
-      "end_trips": 4,
-      "start_trips": 6,
-      "station": "테스트 대여소",
+      "end_trips": 8,
+      "start_trips": 2,
+      "station": "개화센터",
       "total_trips": 10,
       "year": 2022
     },
     {
-      "end_trips": 8,
-      "start_trips": 2,
-      "station": "개화센터",
+      "end_trips": 4,
+      "start_trips": 6,
+      "station": "테스트 대여소",
       "total_trips": 10,
       "year": 2022
     },
@@ -94106,16 +94106,16 @@
       "year": 2023
     },
     {
-      "end_trips": 21515,
-      "start_trips": 20781,
-      "station": "이수역 4번 출구",
+      "end_trips": 21151,
+      "start_trips": 21145,
+      "station": "광진교 남단 사거리(천호공원 방면)",
       "total_trips": 42296,
       "year": 2023
     },
     {
-      "end_trips": 21151,
-      "start_trips": 21145,
-      "station": "광진교 남단 사거리(천호공원 방면)",
+      "end_trips": 21515,
+      "start_trips": 20781,
+      "station": "이수역 4번 출구",
       "total_trips": 42296,
       "year": 2023
     },
@@ -94757,16 +94757,16 @@
       "year": 2023
     },
     {
-      "end_trips": 19396,
-      "start_trips": 19392,
-      "station": "여의도초교 앞",
+      "end_trips": 19115,
+      "start_trips": 19673,
+      "station": "상계주공10단지 버스정류소",
       "total_trips": 38788,
       "year": 2023
     },
     {
-      "end_trips": 19115,
-      "start_trips": 19673,
-      "station": "상계주공10단지 버스정류소",
+      "end_trips": 19396,
+      "start_trips": 19392,
+      "station": "여의도초교 앞",
       "total_trips": 38788,
       "year": 2023
     },
@@ -98236,16 +98236,16 @@
       "year": 2023
     },
     {
-      "end_trips": 12661,
-      "start_trips": 13142,
-      "station": "KT관악지점",
+      "end_trips": 10824,
+      "start_trips": 14979,
+      "station": "강서힐스테이트 상가 앞",
       "total_trips": 25803,
       "year": 2023
     },
     {
-      "end_trips": 10824,
-      "start_trips": 14979,
-      "station": "강서힐스테이트 상가 앞",
+      "end_trips": 12661,
+      "start_trips": 13142,
+      "station": "KT관악지점",
       "total_trips": 25803,
       "year": 2023
     },
@@ -98537,16 +98537,16 @@
       "year": 2023
     },
     {
-      "end_trips": 12521,
-      "start_trips": 12389,
-      "station": "방학동우체국 건너편",
+      "end_trips": 12557,
+      "start_trips": 12353,
+      "station": "서초4동주민센터",
       "total_trips": 24910,
       "year": 2023
     },
     {
-      "end_trips": 12557,
-      "start_trips": 12353,
-      "station": "서초4동주민센터",
+      "end_trips": 12521,
+      "start_trips": 12389,
+      "station": "방학동우체국 건너편",
       "total_trips": 24910,
       "year": 2023
     },
@@ -99965,16 +99965,16 @@
       "year": 2023
     },
     {
-      "end_trips": 10616,
-      "start_trips": 10301,
-      "station": "위례포레샤인아파트 정류장",
+      "end_trips": 9549,
+      "start_trips": 11368,
+      "station": "양서중학교 옆",
       "total_trips": 20917,
       "year": 2023
     },
     {
-      "end_trips": 9549,
-      "start_trips": 11368,
-      "station": "양서중학교 옆",
+      "end_trips": 10616,
+      "start_trips": 10301,
+      "station": "위례포레샤인아파트 정류장",
       "total_trips": 20917,
       "year": 2023
     },
@@ -100021,16 +100021,16 @@
       "year": 2023
     },
     {
-      "end_trips": 9539,
-      "start_trips": 11280,
-      "station": "목련아파트",
+      "end_trips": 9667,
+      "start_trips": 11152,
+      "station": "포스코피앤에스타워 (역삼역 3번출구 부근)",
       "total_trips": 20819,
       "year": 2023
     },
     {
-      "end_trips": 9667,
-      "start_trips": 11152,
-      "station": "포스코피앤에스타워 (역삼역 3번출구 부근)",
+      "end_trips": 9539,
+      "start_trips": 11280,
+      "station": "목련아파트",
       "total_trips": 20819,
       "year": 2023
     },
@@ -100448,16 +100448,16 @@
       "year": 2023
     },
     {
-      "end_trips": 9704,
-      "start_trips": 10038,
-      "station": "한전아트센터 앞",
+      "end_trips": 9635,
+      "start_trips": 10107,
+      "station": "대학동 고시촌",
       "total_trips": 19742,
       "year": 2023
     },
     {
-      "end_trips": 9635,
-      "start_trips": 10107,
-      "station": "대학동 고시촌",
+      "end_trips": 9704,
+      "start_trips": 10038,
+      "station": "한전아트센터 앞",
       "total_trips": 19742,
       "year": 2023
     },
@@ -100504,16 +100504,16 @@
       "year": 2023
     },
     {
-      "end_trips": 9704,
-      "start_trips": 9937,
-      "station": "서초역 3번출구",
+      "end_trips": 9872,
+      "start_trips": 9769,
+      "station": "잠실나들목2(엘스아파트136동)",
       "total_trips": 19641,
       "year": 2023
     },
     {
-      "end_trips": 9872,
-      "start_trips": 9769,
-      "station": "잠실나들목2(엘스아파트136동)",
+      "end_trips": 9704,
+      "start_trips": 9937,
+      "station": "서초역 3번출구",
       "total_trips": 19641,
       "year": 2023
     },
@@ -100539,16 +100539,16 @@
       "year": 2023
     },
     {
-      "end_trips": 9553,
-      "start_trips": 10001,
-      "station": "위례포레나송파",
+      "end_trips": 9858,
+      "start_trips": 9696,
+      "station": "오륜사거리",
       "total_trips": 19554,
       "year": 2023
     },
     {
-      "end_trips": 9858,
-      "start_trips": 9696,
-      "station": "오륜사거리",
+      "end_trips": 9553,
+      "start_trips": 10001,
+      "station": "위례포레나송파",
       "total_trips": 19554,
       "year": 2023
     },
@@ -101078,16 +101078,16 @@
       "year": 2023
     },
     {
-      "end_trips": 9578,
-      "start_trips": 8675,
-      "station": "용마지구대 B",
+      "end_trips": 9174,
+      "start_trips": 9079,
+      "station": "약수역 3번출구 뒤",
       "total_trips": 18253,
       "year": 2023
     },
     {
-      "end_trips": 9174,
-      "start_trips": 9079,
-      "station": "약수역 3번출구 뒤",
+      "end_trips": 9578,
+      "start_trips": 8675,
+      "station": "용마지구대 B",
       "total_trips": 18253,
       "year": 2023
     },
@@ -104025,16 +104025,16 @@
       "year": 2023
     },
     {
-      "end_trips": 5831,
-      "start_trips": 5614,
-      "station": "롯데중앙연구소",
+      "end_trips": 4913,
+      "start_trips": 6532,
+      "station": "강남구청",
       "total_trips": 11445,
       "year": 2023
     },
     {
-      "end_trips": 4913,
-      "start_trips": 6532,
-      "station": "강남구청",
+      "end_trips": 5831,
+      "start_trips": 5614,
+      "station": "롯데중앙연구소",
       "total_trips": 11445,
       "year": 2023
     },
@@ -104088,16 +104088,16 @@
       "year": 2023
     },
     {
-      "end_trips": 5537,
-      "start_trips": 5779,
-      "station": "위례별 유치원 뒤",
+      "end_trips": 5980,
+      "start_trips": 5336,
+      "station": "성동도로사업소",
       "total_trips": 11316,
       "year": 2023
     },
     {
-      "end_trips": 5980,
-      "start_trips": 5336,
-      "station": "성동도로사업소",
+      "end_trips": 5537,
+      "start_trips": 5779,
+      "station": "위례별 유치원 뒤",
       "total_trips": 11316,
       "year": 2023
     },
@@ -104494,16 +104494,16 @@
       "year": 2023
     },
     {
-      "end_trips": 4777,
-      "start_trips": 5599,
-      "station": "올림픽선수기자촌아파트 123동 근처",
+      "end_trips": 4977,
+      "start_trips": 5399,
+      "station": "위너스 스포츠클럽 골프연습장옆",
       "total_trips": 10376,
       "year": 2023
     },
     {
-      "end_trips": 4977,
-      "start_trips": 5399,
-      "station": "위너스 스포츠클럽 골프연습장옆",
+      "end_trips": 4777,
+      "start_trips": 5599,
+      "station": "올림픽선수기자촌아파트 123동 근처",
       "total_trips": 10376,
       "year": 2023
     },
@@ -104550,9 +104550,9 @@
       "year": 2023
     },
     {
-      "end_trips": 4977,
-      "start_trips": 5301,
-      "station": "브라운스위트레지던스",
+      "end_trips": 5044,
+      "start_trips": 5234,
+      "station": "수색역",
       "total_trips": 10278,
       "year": 2023
     },
@@ -104564,9 +104564,9 @@
       "year": 2023
     },
     {
-      "end_trips": 5044,
-      "start_trips": 5234,
-      "station": "수색역",
+      "end_trips": 4977,
+      "start_trips": 5301,
+      "station": "브라운스위트레지던스",
       "total_trips": 10278,
       "year": 2023
     },
@@ -104732,16 +104732,16 @@
       "year": 2023
     },
     {
-      "end_trips": 3573,
-      "start_trips": 6309,
-      "station": "은평뉴타운 은뜨락아파트앞",
+      "end_trips": 3174,
+      "start_trips": 6708,
+      "station": "은평뉴타운 도서관",
       "total_trips": 9882,
       "year": 2023
     },
     {
-      "end_trips": 3174,
-      "start_trips": 6708,
-      "station": "은평뉴타운 도서관",
+      "end_trips": 3573,
+      "start_trips": 6309,
+      "station": "은평뉴타운 은뜨락아파트앞",
       "total_trips": 9882,
       "year": 2023
     },
@@ -104956,16 +104956,16 @@
       "year": 2023
     },
     {
-      "end_trips": 2768,
-      "start_trips": 6502,
-      "station": "월계 청백1단지 아파트 정류장",
+      "end_trips": 4596,
+      "start_trips": 4674,
+      "station": "서울혁신파크2",
       "total_trips": 9270,
       "year": 2023
     },
     {
-      "end_trips": 4596,
-      "start_trips": 4674,
-      "station": "서울혁신파크2",
+      "end_trips": 2768,
+      "start_trips": 6502,
+      "station": "월계 청백1단지 아파트 정류장",
       "total_trips": 9270,
       "year": 2023
     },
@@ -105257,16 +105257,16 @@
       "year": 2023
     },
     {
-      "end_trips": 3534,
-      "start_trips": 5065,
-      "station": "강북문화정보도서관",
+      "end_trips": 4257,
+      "start_trips": 4342,
+      "station": "강일동입구교차로",
       "total_trips": 8599,
       "year": 2023
     },
     {
-      "end_trips": 4257,
-      "start_trips": 4342,
-      "station": "강일동입구교차로",
+      "end_trips": 3534,
+      "start_trips": 5065,
+      "station": "강북문화정보도서관",
       "total_trips": 8599,
       "year": 2023
     },
@@ -106104,16 +106104,16 @@
       "year": 2023
     },
     {
-      "end_trips": 3312,
-      "start_trips": 3442,
-      "station": "무악재역 4번 출구",
+      "end_trips": 2454,
+      "start_trips": 4300,
+      "station": "크린랩 본사",
       "total_trips": 6754,
       "year": 2023
     },
     {
-      "end_trips": 2454,
-      "start_trips": 4300,
-      "station": "크린랩 본사",
+      "end_trips": 3312,
+      "start_trips": 3442,
+      "station": "무악재역 4번 출구",
       "total_trips": 6754,
       "year": 2023
     },
@@ -106377,16 +106377,16 @@
       "year": 2023
     },
     {
-      "end_trips": 2963,
-      "start_trips": 3336,
-      "station": "논현동가구거리",
+      "end_trips": 2995,
+      "start_trips": 3304,
+      "station": "국민연금공단충정로사옥",
       "total_trips": 6299,
       "year": 2023
     },
     {
-      "end_trips": 2995,
-      "start_trips": 3304,
-      "station": "국민연금공단충정로사옥",
+      "end_trips": 2963,
+      "start_trips": 3336,
+      "station": "논현동가구거리",
       "total_trips": 6299,
       "year": 2023
     },
@@ -106748,16 +106748,16 @@
       "year": 2023
     },
     {
-      "end_trips": 1383,
-      "start_trips": 4178,
-      "station": "남산타운아파트 버스정류장",
+      "end_trips": 2535,
+      "start_trips": 3026,
+      "station": "미림여고입구 교차로",
       "total_trips": 5561,
       "year": 2023
     },
     {
-      "end_trips": 2535,
-      "start_trips": 3026,
-      "station": "미림여고입구 교차로",
+      "end_trips": 1383,
+      "start_trips": 4178,
+      "station": "남산타운아파트 버스정류장",
       "total_trips": 5561,
       "year": 2023
     },
@@ -107308,16 +107308,16 @@
       "year": 2023
     },
     {
-      "end_trips": 1236,
-      "start_trips": 3202,
-      "station": "그룹한빌딩옆",
+      "end_trips": 2342,
+      "start_trips": 2096,
+      "station": "서원마을",
       "total_trips": 4438,
       "year": 2023
     },
     {
-      "end_trips": 2342,
-      "start_trips": 2096,
-      "station": "서원마을",
+      "end_trips": 1236,
+      "start_trips": 3202,
+      "station": "그룹한빌딩옆",
       "total_trips": 4438,
       "year": 2023
     },
@@ -107413,16 +107413,16 @@
       "year": 2023
     },
     {
-      "end_trips": 1307,
-      "start_trips": 2920,
-      "station": "제각말푸르지오 5-1단지 아파트",
+      "end_trips": 2130,
+      "start_trips": 2097,
+      "station": "송파시그니처롯데캐슬",
       "total_trips": 4227,
       "year": 2023
     },
     {
-      "end_trips": 2130,
-      "start_trips": 2097,
-      "station": "송파시그니처롯데캐슬",
+      "end_trips": 1307,
+      "start_trips": 2920,
+      "station": "제각말푸르지오 5-1단지 아파트",
       "total_trips": 4227,
       "year": 2023
     },
@@ -108036,16 +108036,16 @@
       "year": 2023
     },
     {
-      "end_trips": 1154,
-      "start_trips": 1243,
-      "station": "항동지구 8단지 803동옆(주차장입구)",
+      "end_trips": 636,
+      "start_trips": 1761,
+      "station": "서울교육청 교육연수원 앞",
       "total_trips": 2397,
       "year": 2023
     },
     {
-      "end_trips": 636,
-      "start_trips": 1761,
-      "station": "서울교육청 교육연수원 앞",
+      "end_trips": 1154,
+      "start_trips": 1243,
+      "station": "항동지구 8단지 803동옆(주차장입구)",
       "total_trips": 2397,
       "year": 2023
     },
@@ -111942,16 +111942,16 @@
       "year": 2024
     },
     {
-      "end_trips": 26725,
-      "start_trips": 25055,
-      "station": "자양중앙나들목",
+      "end_trips": 29553,
+      "start_trips": 22227,
+      "station": "신곡시장",
       "total_trips": 51780,
       "year": 2024
     },
     {
-      "end_trips": 29553,
-      "start_trips": 22227,
-      "station": "신곡시장",
+      "end_trips": 26725,
+      "start_trips": 25055,
+      "station": "자양중앙나들목",
       "total_trips": 51780,
       "year": 2024
     },
@@ -112607,16 +112607,16 @@
       "year": 2024
     },
     {
-      "end_trips": 23694,
-      "start_trips": 23379,
-      "station": "당산skv1센터",
+      "end_trips": 20652,
+      "start_trips": 26421,
+      "station": "마곡수명산파크5-6단지",
       "total_trips": 47073,
       "year": 2024
     },
     {
-      "end_trips": 20652,
-      "start_trips": 26421,
-      "station": "마곡수명산파크5-6단지",
+      "end_trips": 23694,
+      "start_trips": 23379,
+      "station": "당산skv1센터",
       "total_trips": 47073,
       "year": 2024
     },
@@ -113013,16 +113013,16 @@
       "year": 2024
     },
     {
-      "end_trips": 22515,
-      "start_trips": 21928,
-      "station": "아시아선수촌아파트 교차로",
+      "end_trips": 22452,
+      "start_trips": 21991,
+      "station": "천동초교입구사거리 버스정류장(십자성마을 방면)",
       "total_trips": 44443,
       "year": 2024
     },
     {
-      "end_trips": 22452,
-      "start_trips": 21991,
-      "station": "천동초교입구사거리 버스정류장(십자성마을 방면)",
+      "end_trips": 22515,
+      "start_trips": 21928,
+      "station": "아시아선수촌아파트 교차로",
       "total_trips": 44443,
       "year": 2024
     },
@@ -113839,16 +113839,16 @@
       "year": 2024
     },
     {
-      "end_trips": 19991,
-      "start_trips": 20066,
-      "station": "강서구청사거리(부민병원)",
+      "end_trips": 19899,
+      "start_trips": 20158,
+      "station": "가재울 초등학교",
       "total_trips": 40057,
       "year": 2024
     },
     {
-      "end_trips": 19899,
-      "start_trips": 20158,
-      "station": "가재울 초등학교",
+      "end_trips": 19991,
+      "start_trips": 20066,
+      "station": "강서구청사거리(부민병원)",
       "total_trips": 40057,
       "year": 2024
     },
@@ -114994,16 +114994,16 @@
       "year": 2024
     },
     {
-      "end_trips": 17564,
-      "start_trips": 17117,
-      "station": "신대방삼거리",
+      "end_trips": 17280,
+      "start_trips": 17401,
+      "station": "염창역 3, 4번 출구 사이",
       "total_trips": 34681,
       "year": 2024
     },
     {
-      "end_trips": 17280,
-      "start_trips": 17401,
-      "station": "염창역 3, 4번 출구 사이",
+      "end_trips": 17564,
+      "start_trips": 17117,
+      "station": "신대방삼거리",
       "total_trips": 34681,
       "year": 2024
     },
@@ -115239,16 +115239,16 @@
       "year": 2024
     },
     {
-      "end_trips": 15052,
-      "start_trips": 18705,
-      "station": "라이품 공영주차장 앞",
+      "end_trips": 16801,
+      "start_trips": 16956,
+      "station": "양재시민의숲역 3번출구",
       "total_trips": 33757,
       "year": 2024
     },
     {
-      "end_trips": 16801,
-      "start_trips": 16956,
-      "station": "양재시민의숲역 3번출구",
+      "end_trips": 15052,
+      "start_trips": 18705,
+      "station": "라이품 공영주차장 앞",
       "total_trips": 33757,
       "year": 2024
     },
@@ -116842,16 +116842,16 @@
       "year": 2024
     },
     {
-      "end_trips": 14081,
-      "start_trips": 13982,
-      "station": "종묘",
+      "end_trips": 14020,
+      "start_trips": 14043,
+      "station": "종로2가 버스정류장 (종각방향)",
       "total_trips": 28063,
       "year": 2024
     },
     {
-      "end_trips": 14020,
-      "start_trips": 14043,
-      "station": "종로2가 버스정류장 (종각방향)",
+      "end_trips": 14081,
+      "start_trips": 13982,
+      "station": "종묘",
       "total_trips": 28063,
       "year": 2024
     },
@@ -118417,16 +118417,16 @@
       "year": 2024
     },
     {
-      "end_trips": 11500,
-      "start_trips": 11635,
-      "station": "압구정로데오역 6번출구",
+      "end_trips": 11469,
+      "start_trips": 11666,
+      "station": "신길우성1차아파트 앞 공원",
       "total_trips": 23135,
       "year": 2024
     },
     {
-      "end_trips": 11469,
-      "start_trips": 11666,
-      "station": "신길우성1차아파트 앞 공원",
+      "end_trips": 11500,
+      "start_trips": 11635,
+      "station": "압구정로데오역 6번출구",
       "total_trips": 23135,
       "year": 2024
     },
@@ -118725,16 +118725,16 @@
       "year": 2024
     },
     {
-      "end_trips": 11139,
-      "start_trips": 11175,
-      "station": "휴젠느",
+      "end_trips": 10529,
+      "start_trips": 11785,
+      "station": "서울특별시 남부교육지원청",
       "total_trips": 22314,
       "year": 2024
     },
     {
-      "end_trips": 10529,
-      "start_trips": 11785,
-      "station": "서울특별시 남부교육지원청",
+      "end_trips": 11139,
+      "start_trips": 11175,
+      "station": "휴젠느",
       "total_trips": 22314,
       "year": 2024
     },
@@ -119894,16 +119894,16 @@
       "year": 2024
     },
     {
-      "end_trips": 9805,
-      "start_trips": 9519,
-      "station": "신창교",
+      "end_trips": 9617,
+      "start_trips": 9707,
+      "station": "수협대치동지점",
       "total_trips": 19324,
       "year": 2024
     },
     {
-      "end_trips": 9617,
-      "start_trips": 9707,
-      "station": "수협대치동지점",
+      "end_trips": 9805,
+      "start_trips": 9519,
+      "station": "신창교",
       "total_trips": 19324,
       "year": 2024
     },
@@ -120601,16 +120601,16 @@
       "year": 2024
     },
     {
-      "end_trips": 8770,
-      "start_trips": 8776,
-      "station": "필동 삼거리",
+      "end_trips": 8642,
+      "start_trips": 8904,
+      "station": "모래내고가차도",
       "total_trips": 17546,
       "year": 2024
     },
     {
-      "end_trips": 8642,
-      "start_trips": 8904,
-      "station": "모래내고가차도",
+      "end_trips": 8770,
+      "start_trips": 8776,
+      "station": "필동 삼거리",
       "total_trips": 17546,
       "year": 2024
     },
@@ -120944,16 +120944,16 @@
       "year": 2024
     },
     {
-      "end_trips": 8270,
-      "start_trips": 8421,
-      "station": "수유1동 주민센터",
+      "end_trips": 8394,
+      "start_trips": 8297,
+      "station": "창경궁 입구",
       "total_trips": 16691,
       "year": 2024
     },
     {
-      "end_trips": 8394,
-      "start_trips": 8297,
-      "station": "창경궁 입구",
+      "end_trips": 8270,
+      "start_trips": 8421,
+      "station": "수유1동 주민센터",
       "total_trips": 16691,
       "year": 2024
     },
@@ -123247,16 +123247,16 @@
       "year": 2024
     },
     {
-      "end_trips": 5734,
-      "start_trips": 5844,
-      "station": "중랑데시앙플렉스 앞",
+      "end_trips": 5966,
+      "start_trips": 5612,
+      "station": "한국지역난방공사강남지사",
       "total_trips": 11578,
       "year": 2024
     },
     {
-      "end_trips": 5966,
-      "start_trips": 5612,
-      "station": "한국지역난방공사강남지사",
+      "end_trips": 5734,
+      "start_trips": 5844,
+      "station": "중랑데시앙플렉스 앞",
       "total_trips": 11578,
       "year": 2024
     },
@@ -123338,16 +123338,16 @@
       "year": 2024
     },
     {
-      "end_trips": 3844,
-      "start_trips": 7541,
-      "station": "원자력 병원",
+      "end_trips": 4545,
+      "start_trips": 6840,
+      "station": "충정로역 7번출구 아래",
       "total_trips": 11385,
       "year": 2024
     },
     {
-      "end_trips": 4545,
-      "start_trips": 6840,
-      "station": "충정로역 7번출구 아래",
+      "end_trips": 3844,
+      "start_trips": 7541,
+      "station": "원자력 병원",
       "total_trips": 11385,
       "year": 2024
     },
@@ -123541,16 +123541,16 @@
       "year": 2024
     },
     {
-      "end_trips": 5408,
-      "start_trips": 5542,
-      "station": "낙성대역 1번출구",
+      "end_trips": 4988,
+      "start_trips": 5962,
+      "station": "압구정 한양 3차 아파트",
       "total_trips": 10950,
       "year": 2024
     },
     {
-      "end_trips": 4988,
-      "start_trips": 5962,
-      "station": "압구정 한양 3차 아파트",
+      "end_trips": 5408,
+      "start_trips": 5542,
+      "station": "낙성대역 1번출구",
       "total_trips": 10950,
       "year": 2024
     },
@@ -123849,16 +123849,16 @@
       "year": 2024
     },
     {
-      "end_trips": 5293,
-      "start_trips": 5024,
-      "station": "마천사거리 2",
+      "end_trips": 5162,
+      "start_trips": 5155,
+      "station": "강북 청소년 문화정보도서관 앞",
       "total_trips": 10317,
       "year": 2024
     },
     {
-      "end_trips": 5162,
-      "start_trips": 5155,
-      "station": "강북 청소년 문화정보도서관 앞",
+      "end_trips": 5293,
+      "start_trips": 5024,
+      "station": "마천사거리 2",
       "total_trips": 10317,
       "year": 2024
     },
@@ -124185,16 +124185,16 @@
       "year": 2024
     },
     {
-      "end_trips": 4812,
-      "start_trips": 4869,
-      "station": "동선고가차도 초입",
+      "end_trips": 4645,
+      "start_trips": 5036,
+      "station": "신내동 한살림 중랑지구 건너편",
       "total_trips": 9681,
       "year": 2024
     },
     {
-      "end_trips": 4645,
-      "start_trips": 5036,
-      "station": "신내동 한살림 중랑지구 건너편",
+      "end_trips": 4812,
+      "start_trips": 4869,
+      "station": "동선고가차도 초입",
       "total_trips": 9681,
       "year": 2024
     },
@@ -124255,13 +124255,6 @@
       "year": 2024
     },
     {
-      "end_trips": 1734,
-      "start_trips": 7811,
-      "station": "역촌 센트레빌 아파트",
-      "total_trips": 9545,
-      "year": 2024
-    },
-    {
       "end_trips": 4606,
       "start_trips": 4939,
       "station": "한티역 3번출구",
@@ -124269,16 +124262,23 @@
       "year": 2024
     },
     {
-      "end_trips": 4239,
-      "start_trips": 5287,
-      "station": "낙원교회 맞은편",
-      "total_trips": 9526,
+      "end_trips": 1734,
+      "start_trips": 7811,
+      "station": "역촌 센트레빌 아파트",
+      "total_trips": 9545,
       "year": 2024
     },
     {
       "end_trips": 3993,
       "start_trips": 5533,
       "station": "삼육대 도서관",
+      "total_trips": 9526,
+      "year": 2024
+    },
+    {
+      "end_trips": 4239,
+      "start_trips": 5287,
+      "station": "낙원교회 맞은편",
       "total_trips": 9526,
       "year": 2024
     },
@@ -124500,16 +124500,16 @@
       "year": 2024
     },
     {
-      "end_trips": 4259,
-      "start_trips": 4732,
-      "station": "선정릉역 4번 출구",
+      "end_trips": 4427,
+      "start_trips": 4564,
+      "station": "연신내 선일하이츠빌 정류소",
       "total_trips": 8991,
       "year": 2024
     },
     {
-      "end_trips": 4427,
-      "start_trips": 4564,
-      "station": "연신내 선일하이츠빌 정류소",
+      "end_trips": 4259,
+      "start_trips": 4732,
+      "station": "선정릉역 4번 출구",
       "total_trips": 8991,
       "year": 2024
     },
@@ -124598,16 +124598,16 @@
       "year": 2024
     },
     {
-      "end_trips": 3827,
-      "start_trips": 4902,
-      "station": "강일역 4번출구",
+      "end_trips": 2608,
+      "start_trips": 6121,
+      "station": "은평뉴타운 도서관",
       "total_trips": 8729,
       "year": 2024
     },
     {
-      "end_trips": 2608,
-      "start_trips": 6121,
-      "station": "은평뉴타운 도서관",
+      "end_trips": 3827,
+      "start_trips": 4902,
+      "station": "강일역 4번출구",
       "total_trips": 8729,
       "year": 2024
     },
@@ -125263,16 +125263,16 @@
       "year": 2024
     },
     {
-      "end_trips": 3509,
-      "start_trips": 3882,
-      "station": "회현역 1번출구",
+      "end_trips": 3144,
+      "start_trips": 4247,
+      "station": "신내SK V1센터 앞",
       "total_trips": 7391,
       "year": 2024
     },
     {
-      "end_trips": 3144,
-      "start_trips": 4247,
-      "station": "신내SK V1센터 앞",
+      "end_trips": 3509,
+      "start_trips": 3882,
+      "station": "회현역 1번출구",
       "total_trips": 7391,
       "year": 2024
     },
@@ -125690,16 +125690,16 @@
       "year": 2024
     },
     {
-      "end_trips": 2726,
-      "start_trips": 3769,
-      "station": "이대역 4번 출구",
+      "end_trips": 3128,
+      "start_trips": 3367,
+      "station": "SK 남산빌딩",
       "total_trips": 6495,
       "year": 2024
     },
     {
-      "end_trips": 3128,
-      "start_trips": 3367,
-      "station": "SK 남산빌딩",
+      "end_trips": 2726,
+      "start_trips": 3769,
+      "station": "이대역 4번 출구",
       "total_trips": 6495,
       "year": 2024
     },
@@ -125872,6 +125872,13 @@
       "year": 2024
     },
     {
+      "end_trips": 2636,
+      "start_trips": 3597,
+      "station": "반포1동 주민센터 앞",
+      "total_trips": 6233,
+      "year": 2024
+    },
+    {
       "end_trips": 2723,
       "start_trips": 3510,
       "station": "강북문화정보도서관",
@@ -125882,13 +125889,6 @@
       "end_trips": 2740,
       "start_trips": 3493,
       "station": "월계문화체육센터",
-      "total_trips": 6233,
-      "year": 2024
-    },
-    {
-      "end_trips": 2636,
-      "start_trips": 3597,
-      "station": "반포1동 주민센터 앞",
       "total_trips": 6233,
       "year": 2024
     },
@@ -126684,16 +126684,16 @@
       "year": 2024
     },
     {
-      "end_trips": 2152,
-      "start_trips": 2615,
-      "station": "왕십리KCC스위첸아파트",
+      "end_trips": 2341,
+      "start_trips": 2426,
+      "station": "솔밭공원역",
       "total_trips": 4767,
       "year": 2024
     },
     {
-      "end_trips": 2341,
-      "start_trips": 2426,
-      "station": "솔밭공원역",
+      "end_trips": 2152,
+      "start_trips": 2615,
+      "station": "왕십리KCC스위첸아파트",
       "total_trips": 4767,
       "year": 2024
     },
@@ -127027,16 +127027,16 @@
       "year": 2024
     },
     {
-      "end_trips": 687,
-      "start_trips": 3306,
-      "station": "숭실대학교(중문)",
+      "end_trips": 1837,
+      "start_trips": 2156,
+      "station": "문정중학교",
       "total_trips": 3993,
       "year": 2024
     },
     {
-      "end_trips": 1837,
-      "start_trips": 2156,
-      "station": "문정중학교",
+      "end_trips": 687,
+      "start_trips": 3306,
+      "station": "숭실대학교(중문)",
       "total_trips": 3993,
       "year": 2024
     },
@@ -131710,16 +131710,16 @@
       "year": 2025
     },
     {
-      "end_trips": 20838,
-      "start_trips": 22841,
-      "station": "한강버스 뚝섬 선착장",
+      "end_trips": 21881,
+      "start_trips": 21798,
+      "station": "여의도 삼부아파트",
       "total_trips": 43679,
       "year": 2025
     },
     {
-      "end_trips": 21881,
-      "start_trips": 21798,
-      "station": "여의도 삼부아파트",
+      "end_trips": 20838,
+      "start_trips": 22841,
+      "station": "한강버스 뚝섬 선착장",
       "total_trips": 43679,
       "year": 2025
     },
@@ -133397,16 +133397,16 @@
       "year": 2025
     },
     {
-      "end_trips": 17173,
-      "start_trips": 17436,
-      "station": "신방화역 8번출구",
+      "end_trips": 19060,
+      "start_trips": 15549,
+      "station": "개봉역2번출구 A",
       "total_trips": 34609,
       "year": 2025
     },
     {
-      "end_trips": 19060,
-      "start_trips": 15549,
-      "station": "개봉역2번출구 A",
+      "end_trips": 17173,
+      "start_trips": 17436,
+      "station": "신방화역 8번출구",
       "total_trips": 34609,
       "year": 2025
     },
@@ -134300,16 +134300,16 @@
       "year": 2025
     },
     {
-      "end_trips": 15516,
-      "start_trips": 15294,
-      "station": "홍대입구역 6번출구",
+      "end_trips": 16114,
+      "start_trips": 14696,
+      "station": "성산시영아파트",
       "total_trips": 30810,
       "year": 2025
     },
     {
-      "end_trips": 16114,
-      "start_trips": 14696,
-      "station": "성산시영아파트",
+      "end_trips": 15516,
+      "start_trips": 15294,
+      "station": "홍대입구역 6번출구",
       "total_trips": 30810,
       "year": 2025
     },
@@ -138157,16 +138157,16 @@
       "year": 2025
     },
     {
-      "end_trips": 9884,
-      "start_trips": 10112,
-      "station": "가락대림아파트 앞",
+      "end_trips": 9076,
+      "start_trips": 10920,
+      "station": "마포 신수공원 앞",
       "total_trips": 19996,
       "year": 2025
     },
     {
-      "end_trips": 9076,
-      "start_trips": 10920,
-      "station": "마포 신수공원 앞",
+      "end_trips": 9884,
+      "start_trips": 10112,
+      "station": "가락대림아파트 앞",
       "total_trips": 19996,
       "year": 2025
     },
@@ -138703,16 +138703,16 @@
       "year": 2025
     },
     {
-      "end_trips": 9137,
-      "start_trips": 9463,
-      "station": "서울경찰청",
+      "end_trips": 9242,
+      "start_trips": 9358,
+      "station": "가오리역",
       "total_trips": 18600,
       "year": 2025
     },
     {
-      "end_trips": 9242,
-      "start_trips": 9358,
-      "station": "가오리역",
+      "end_trips": 9137,
+      "start_trips": 9463,
+      "station": "서울경찰청",
       "total_trips": 18600,
       "year": 2025
     },
@@ -139151,16 +139151,16 @@
       "year": 2025
     },
     {
-      "end_trips": 8832,
-      "start_trips": 8874,
-      "station": "풍납근린공원",
+      "end_trips": 8703,
+      "start_trips": 9003,
+      "station": "DMC파크뷰자이1단지 110동 앞",
       "total_trips": 17706,
       "year": 2025
     },
     {
-      "end_trips": 8703,
-      "start_trips": 9003,
-      "station": "DMC파크뷰자이1단지 110동 앞",
+      "end_trips": 8832,
+      "start_trips": 8874,
+      "station": "풍납근린공원",
       "total_trips": 17706,
       "year": 2025
     },
@@ -139312,16 +139312,16 @@
       "year": 2025
     },
     {
-      "end_trips": 8014,
-      "start_trips": 9432,
-      "station": "강서힐스테이트 상가 앞",
+      "end_trips": 8430,
+      "start_trips": 9016,
+      "station": "마포프레스티지자이 1",
       "total_trips": 17446,
       "year": 2025
     },
     {
-      "end_trips": 8430,
-      "start_trips": 9016,
-      "station": "마포프레스티지자이 1",
+      "end_trips": 8014,
+      "start_trips": 9432,
+      "station": "강서힐스테이트 상가 앞",
       "total_trips": 17446,
       "year": 2025
     },
@@ -139494,16 +139494,16 @@
       "year": 2025
     },
     {
-      "end_trips": 8339,
-      "start_trips": 8540,
-      "station": "천일초교 사거리",
+      "end_trips": 8454,
+      "start_trips": 8425,
+      "station": "개포고등학교 정문앞",
       "total_trips": 16879,
       "year": 2025
     },
     {
-      "end_trips": 8454,
-      "start_trips": 8425,
-      "station": "개포고등학교 정문앞",
+      "end_trips": 8339,
+      "start_trips": 8540,
+      "station": "천일초교 사거리",
       "total_trips": 16879,
       "year": 2025
     },
@@ -139949,16 +139949,16 @@
       "year": 2025
     },
     {
-      "end_trips": 8445,
-      "start_trips": 7717,
-      "station": "창포원 남쪽 입구",
+      "end_trips": 6883,
+      "start_trips": 9279,
+      "station": "세종그랑시아 앞(102동)",
       "total_trips": 16162,
       "year": 2025
     },
     {
-      "end_trips": 6883,
-      "start_trips": 9279,
-      "station": "세종그랑시아 앞(102동)",
+      "end_trips": 8445,
+      "start_trips": 7717,
+      "station": "창포원 남쪽 입구",
       "total_trips": 16162,
       "year": 2025
     },
@@ -140586,16 +140586,16 @@
       "year": 2025
     },
     {
-      "end_trips": 7671,
-      "start_trips": 7230,
-      "station": "길음문화복합미디어센터",
+      "end_trips": 7440,
+      "start_trips": 7461,
+      "station": "이문대성유니드아파트 앞",
       "total_trips": 14901,
       "year": 2025
     },
     {
-      "end_trips": 7440,
-      "start_trips": 7461,
-      "station": "이문대성유니드아파트 앞",
+      "end_trips": 7671,
+      "start_trips": 7230,
+      "station": "길음문화복합미디어센터",
       "total_trips": 14901,
       "year": 2025
     },
@@ -140614,16 +140614,16 @@
       "year": 2025
     },
     {
-      "end_trips": 7207,
-      "start_trips": 7651,
-      "station": "신내역시티프라디움 앞",
+      "end_trips": 8336,
+      "start_trips": 6522,
+      "station": "고투몰 gate 15옆",
       "total_trips": 14858,
       "year": 2025
     },
     {
-      "end_trips": 8336,
-      "start_trips": 6522,
-      "station": "고투몰 gate 15옆",
+      "end_trips": 7207,
+      "start_trips": 7651,
+      "station": "신내역시티프라디움 앞",
       "total_trips": 14858,
       "year": 2025
     },
@@ -141314,16 +141314,16 @@
       "year": 2025
     },
     {
-      "end_trips": 6321,
-      "start_trips": 7032,
-      "station": "송파소방서 (방이119안전센터)",
+      "end_trips": 6157,
+      "start_trips": 7196,
+      "station": "공항중학교 버스정류장",
       "total_trips": 13353,
       "year": 2025
     },
     {
-      "end_trips": 6157,
-      "start_trips": 7196,
-      "station": "공항중학교 버스정류장",
+      "end_trips": 6321,
+      "start_trips": 7032,
+      "station": "송파소방서 (방이119안전센터)",
       "total_trips": 13353,
       "year": 2025
     },
@@ -141447,16 +141447,16 @@
       "year": 2025
     },
     {
-      "end_trips": 6637,
-      "start_trips": 6467,
-      "station": "진관고등학교앞",
+      "end_trips": 6555,
+      "start_trips": 6549,
+      "station": "419민주묘지 입구사거리",
       "total_trips": 13104,
       "year": 2025
     },
     {
-      "end_trips": 6555,
-      "start_trips": 6549,
-      "station": "419민주묘지 입구사거리",
+      "end_trips": 6637,
+      "start_trips": 6467,
+      "station": "진관고등학교앞",
       "total_trips": 13104,
       "year": 2025
     },
@@ -142266,16 +142266,16 @@
       "year": 2025
     },
     {
-      "end_trips": 5723,
-      "start_trips": 5716,
-      "station": "장승배기역2번출구뒷편쪽",
+      "end_trips": 5928,
+      "start_trips": 5511,
+      "station": "강일리버파크 10단지",
       "total_trips": 11439,
       "year": 2025
     },
     {
-      "end_trips": 5928,
-      "start_trips": 5511,
-      "station": "강일리버파크 10단지",
+      "end_trips": 5723,
+      "start_trips": 5716,
+      "station": "장승배기역2번출구뒷편쪽",
       "total_trips": 11439,
       "year": 2025
     },
@@ -142602,16 +142602,16 @@
       "year": 2025
     },
     {
-      "end_trips": 5594,
-      "start_trips": 5254,
-      "station": "성북제일새마을금고 본점 앞",
+      "end_trips": 5604,
+      "start_trips": 5244,
+      "station": "한국은행",
       "total_trips": 10848,
       "year": 2025
     },
     {
-      "end_trips": 5604,
-      "start_trips": 5244,
-      "station": "한국은행",
+      "end_trips": 5594,
+      "start_trips": 5254,
+      "station": "성북제일새마을금고 본점 앞",
       "total_trips": 10848,
       "year": 2025
     },
@@ -142868,16 +142868,16 @@
       "year": 2025
     },
     {
-      "end_trips": 5081,
-      "start_trips": 5334,
-      "station": "명지전문대학교 정문 앞",
+      "end_trips": 5256,
+      "start_trips": 5159,
+      "station": "용산 파크타워 앞",
       "total_trips": 10415,
       "year": 2025
     },
     {
-      "end_trips": 5256,
-      "start_trips": 5159,
-      "station": "용산 파크타워 앞",
+      "end_trips": 5081,
+      "start_trips": 5334,
+      "station": "명지전문대학교 정문 앞",
       "total_trips": 10415,
       "year": 2025
     },
@@ -143071,16 +143071,16 @@
       "year": 2025
     },
     {
-      "end_trips": 5257,
-      "start_trips": 4879,
-      "station": "신청담나들목",
+      "end_trips": 5063,
+      "start_trips": 5073,
+      "station": "웨스틴 조선호텔",
       "total_trips": 10136,
       "year": 2025
     },
     {
-      "end_trips": 5063,
-      "start_trips": 5073,
-      "station": "웨스틴 조선호텔",
+      "end_trips": 5257,
+      "start_trips": 4879,
+      "station": "신청담나들목",
       "total_trips": 10136,
       "year": 2025
     },
@@ -143372,16 +143372,16 @@
       "year": 2025
     },
     {
-      "end_trips": 4696,
-      "start_trips": 4862,
-      "station": "이촌1동 마을공원",
+      "end_trips": 4984,
+      "start_trips": 4574,
+      "station": "송중초등학교 옆",
       "total_trips": 9558,
       "year": 2025
     },
     {
-      "end_trips": 4984,
-      "start_trips": 4574,
-      "station": "송중초등학교 옆",
+      "end_trips": 4696,
+      "start_trips": 4862,
+      "station": "이촌1동 마을공원",
       "total_trips": 9558,
       "year": 2025
     },
@@ -143841,16 +143841,16 @@
       "year": 2025
     },
     {
-      "end_trips": 3717,
-      "start_trips": 4894,
-      "station": "서울시립과학관",
+      "end_trips": 4340,
+      "start_trips": 4271,
+      "station": "정릉도서관 앞",
       "total_trips": 8611,
       "year": 2025
     },
     {
-      "end_trips": 4340,
-      "start_trips": 4271,
-      "station": "정릉도서관 앞",
+      "end_trips": 3717,
+      "start_trips": 4894,
+      "station": "서울시립과학관",
       "total_trips": 8611,
       "year": 2025
     },
@@ -144429,16 +144429,16 @@
       "year": 2025
     },
     {
-      "end_trips": 3444,
-      "start_trips": 4161,
-      "station": "은평다목적체육관",
+      "end_trips": 3896,
+      "start_trips": 3709,
+      "station": "서울역 서부",
       "total_trips": 7605,
       "year": 2025
     },
     {
-      "end_trips": 3896,
-      "start_trips": 3709,
-      "station": "서울역 서부",
+      "end_trips": 3444,
+      "start_trips": 4161,
+      "station": "은평다목적체육관",
       "total_trips": 7605,
       "year": 2025
     },
@@ -145206,16 +145206,16 @@
       "year": 2025
     },
     {
-      "end_trips": 3098,
-      "start_trips": 3117,
-      "station": "길음래미안아파트817동 상가 앞",
+      "end_trips": 3144,
+      "start_trips": 3071,
+      "station": "서울북부광역등기국",
       "total_trips": 6215,
       "year": 2025
     },
     {
-      "end_trips": 3144,
-      "start_trips": 3071,
-      "station": "서울북부광역등기국",
+      "end_trips": 3098,
+      "start_trips": 3117,
+      "station": "길음래미안아파트817동 상가 앞",
       "total_trips": 6215,
       "year": 2025
     },
@@ -145325,16 +145325,16 @@
       "year": 2025
     },
     {
-      "end_trips": 2423,
-      "start_trips": 3598,
-      "station": "반포1동 주민센터 앞",
+      "end_trips": 2305,
+      "start_trips": 3716,
+      "station": "이대역 4번 출구",
       "total_trips": 6021,
       "year": 2025
     },
     {
-      "end_trips": 2305,
-      "start_trips": 3716,
-      "station": "이대역 4번 출구",
+      "end_trips": 2423,
+      "start_trips": 3598,
+      "station": "반포1동 주민센터 앞",
       "total_trips": 6021,
       "year": 2025
     },
@@ -145353,16 +145353,16 @@
       "year": 2025
     },
     {
-      "end_trips": 3081,
-      "start_trips": 2917,
-      "station": "청담백영빌딩 앞",
+      "end_trips": 2987,
+      "start_trips": 3011,
+      "station": "서울고등학교 건너편",
       "total_trips": 5998,
       "year": 2025
     },
     {
-      "end_trips": 2987,
-      "start_trips": 3011,
-      "station": "서울고등학교 건너편",
+      "end_trips": 3081,
+      "start_trips": 2917,
+      "station": "청담백영빌딩 앞",
       "total_trips": 5998,
       "year": 2025
     },
@@ -145591,16 +145591,16 @@
       "year": 2025
     },
     {
-      "end_trips": 2708,
-      "start_trips": 2969,
-      "station": "이문삼익아파트 앞",
+      "end_trips": 1516,
+      "start_trips": 4161,
+      "station": "노보텔 앰배서더 앞",
       "total_trips": 5677,
       "year": 2025
     },
     {
-      "end_trips": 1516,
-      "start_trips": 4161,
-      "station": "노보텔 앰배서더 앞",
+      "end_trips": 2708,
+      "start_trips": 2969,
+      "station": "이문삼익아파트 앞",
       "total_trips": 5677,
       "year": 2025
     },
@@ -146011,16 +146011,16 @@
       "year": 2025
     },
     {
-      "end_trips": 2433,
-      "start_trips": 2590,
-      "station": "이화여대 인문관 인근",
+      "end_trips": 2784,
+      "start_trips": 2239,
+      "station": "본마을 노인복지센터 앞",
       "total_trips": 5023,
       "year": 2025
     },
     {
-      "end_trips": 2784,
-      "start_trips": 2239,
-      "station": "본마을 노인복지센터 앞",
+      "end_trips": 2433,
+      "start_trips": 2590,
+      "station": "이화여대 인문관 인근",
       "total_trips": 5023,
       "year": 2025
     },
@@ -146123,16 +146123,16 @@
       "year": 2025
     },
     {
-      "end_trips": 2239,
-      "start_trips": 2608,
-      "station": "응봉현대아파트 정류소",
+      "end_trips": 2486,
+      "start_trips": 2361,
+      "station": "호암아트홀",
       "total_trips": 4847,
       "year": 2025
     },
     {
-      "end_trips": 2486,
-      "start_trips": 2361,
-      "station": "호암아트홀",
+      "end_trips": 2239,
+      "start_trips": 2608,
+      "station": "응봉현대아파트 정류소",
       "total_trips": 4847,
       "year": 2025
     },
@@ -146466,16 +146466,16 @@
       "year": 2025
     },
     {
-      "end_trips": 1833,
-      "start_trips": 2499,
-      "station": "현대벤처빌 앞",
+      "end_trips": 2089,
+      "start_trips": 2243,
+      "station": "돈암동부센트레빌상가",
       "total_trips": 4332,
       "year": 2025
     },
     {
-      "end_trips": 2089,
-      "start_trips": 2243,
-      "station": "돈암동부센트레빌상가",
+      "end_trips": 1833,
+      "start_trips": 2499,
+      "station": "현대벤처빌 앞",
       "total_trips": 4332,
       "year": 2025
     },
@@ -146536,16 +146536,16 @@
       "year": 2025
     },
     {
-      "end_trips": 2010,
-      "start_trips": 2179,
-      "station": "이촌역5번출구 앞",
+      "end_trips": 1511,
+      "start_trips": 2678,
+      "station": "도봉고등학교 맞은편",
       "total_trips": 4189,
       "year": 2025
     },
     {
-      "end_trips": 1511,
-      "start_trips": 2678,
-      "station": "도봉고등학교 맞은편",
+      "end_trips": 2010,
+      "start_trips": 2179,
+      "station": "이촌역5번출구 앞",
       "total_trips": 4189,
       "year": 2025
     },
@@ -146802,16 +146802,16 @@
       "year": 2025
     },
     {
-      "end_trips": 879,
-      "start_trips": 2758,
-      "station": "기자촌사거리 B",
+      "end_trips": 1806,
+      "start_trips": 1831,
+      "station": "중앙대학교 중앙광장",
       "total_trips": 3637,
       "year": 2025
     },
     {
-      "end_trips": 1806,
-      "start_trips": 1831,
-      "station": "중앙대학교 중앙광장",
+      "end_trips": 879,
+      "start_trips": 2758,
+      "station": "기자촌사거리 B",
       "total_trips": 3637,
       "year": 2025
     },
@@ -146851,16 +146851,16 @@
       "year": 2025
     },
     {
-      "end_trips": 1769,
-      "start_trips": 1780,
-      "station": "양원보도육교",
+      "end_trips": 870,
+      "start_trips": 2679,
+      "station": "면목 대원칸타빌아파트",
       "total_trips": 3549,
       "year": 2025
     },
     {
-      "end_trips": 870,
-      "start_trips": 2679,
-      "station": "면목 대원칸타빌아파트",
+      "end_trips": 1769,
+      "start_trips": 1780,
+      "station": "양원보도육교",
       "total_trips": 3549,
       "year": 2025
     },
@@ -146977,16 +146977,16 @@
       "year": 2025
     },
     {
-      "end_trips": 1627,
-      "start_trips": 1720,
-      "station": "주식회사 오뚜기 정문 앞",
+      "end_trips": 1591,
+      "start_trips": 1756,
+      "station": "영등포구청역 6번출구",
       "total_trips": 3347,
       "year": 2025
     },
     {
-      "end_trips": 1591,
-      "start_trips": 1756,
-      "station": "영등포구청역 6번출구",
+      "end_trips": 1627,
+      "start_trips": 1720,
+      "station": "주식회사 오뚜기 정문 앞",
       "total_trips": 3347,
       "year": 2025
     },
@@ -147264,16 +147264,16 @@
       "year": 2025
     },
     {
-      "end_trips": 482,
-      "start_trips": 2257,
-      "station": "만해공원",
+      "end_trips": 543,
+      "start_trips": 2196,
+      "station": "한울중학교",
       "total_trips": 2739,
       "year": 2025
     },
     {
-      "end_trips": 543,
-      "start_trips": 2196,
-      "station": "한울중학교",
+      "end_trips": 482,
+      "start_trips": 2257,
+      "station": "만해공원",
       "total_trips": 2739,
       "year": 2025
     },
@@ -148120,14 +148120,14 @@
     {
       "end_trips": 1,
       "start_trips": 0,
-      "station": "영남배송",
+      "station": "신한금융투자 앞",
       "total_trips": 1,
       "year": 2025
     },
     {
       "end_trips": 1,
       "start_trips": 0,
-      "station": "신한금융투자 앞",
+      "station": "영남배송",
       "total_trips": 1,
       "year": 2025
     },
@@ -150582,16 +150582,16 @@
       "year": 2026
     },
     {
-      "end_trips": 12284,
-      "start_trips": 13162,
-      "station": "센트럴 푸르지오 시티 앞",
+      "end_trips": 14898,
+      "start_trips": 10548,
+      "station": "푸조비즈타워 앞",
       "total_trips": 25446,
       "year": 2026
     },
     {
-      "end_trips": 14898,
-      "start_trips": 10548,
-      "station": "푸조비즈타워 앞",
+      "end_trips": 12284,
+      "start_trips": 13162,
+      "station": "센트럴 푸르지오 시티 앞",
       "total_trips": 25446,
       "year": 2026
     },
@@ -151884,16 +151884,16 @@
       "year": 2026
     },
     {
-      "end_trips": 11728,
-      "start_trips": 8413,
-      "station": "신곡시장",
+      "end_trips": 10010,
+      "start_trips": 10131,
+      "station": "가산디지털단지 9번출구 인근",
       "total_trips": 20141,
       "year": 2026
     },
     {
-      "end_trips": 10010,
-      "start_trips": 10131,
-      "station": "가산디지털단지 9번출구 인근",
+      "end_trips": 11728,
+      "start_trips": 8413,
+      "station": "신곡시장",
       "total_trips": 20141,
       "year": 2026
     },
@@ -152150,16 +152150,16 @@
       "year": 2026
     },
     {
-      "end_trips": 9673,
-      "start_trips": 9765,
-      "station": "상계주공10단지 종합상가 앞",
+      "end_trips": 10249,
+      "start_trips": 9189,
+      "station": "하계역 6번출구",
       "total_trips": 19438,
       "year": 2026
     },
     {
-      "end_trips": 10249,
-      "start_trips": 9189,
-      "station": "하계역 6번출구",
+      "end_trips": 9673,
+      "start_trips": 9765,
+      "station": "상계주공10단지 종합상가 앞",
       "total_trips": 19438,
       "year": 2026
     },
@@ -152332,16 +152332,16 @@
       "year": 2026
     },
     {
-      "end_trips": 9613,
-      "start_trips": 9357,
-      "station": "한국산업은행",
+      "end_trips": 8879,
+      "start_trips": 10091,
+      "station": "앙카라공원 앞",
       "total_trips": 18970,
       "year": 2026
     },
     {
-      "end_trips": 8879,
-      "start_trips": 10091,
-      "station": "앙카라공원 앞",
+      "end_trips": 9613,
+      "start_trips": 9357,
+      "station": "한국산업은행",
       "total_trips": 18970,
       "year": 2026
     },
@@ -153186,16 +153186,16 @@
       "year": 2026
     },
     {
-      "end_trips": 8667,
-      "start_trips": 8202,
-      "station": "광운대역 앞",
+      "end_trips": 8740,
+      "start_trips": 8129,
+      "station": "홍대입구역 8번출구 앞",
       "total_trips": 16869,
       "year": 2026
     },
     {
-      "end_trips": 8740,
-      "start_trips": 8129,
-      "station": "홍대입구역 8번출구 앞",
+      "end_trips": 8667,
+      "start_trips": 8202,
+      "station": "광운대역 앞",
       "total_trips": 16869,
       "year": 2026
     },
@@ -153214,16 +153214,16 @@
       "year": 2026
     },
     {
-      "end_trips": 8411,
-      "start_trips": 8434,
-      "station": "독산근린공원 입구",
+      "end_trips": 8642,
+      "start_trips": 8203,
+      "station": "홍대입구역 사거리",
       "total_trips": 16845,
       "year": 2026
     },
     {
-      "end_trips": 8642,
-      "start_trips": 8203,
-      "station": "홍대입구역 사거리",
+      "end_trips": 8411,
+      "start_trips": 8434,
+      "station": "독산근린공원 입구",
       "total_trips": 16845,
       "year": 2026
     },
@@ -153578,16 +153578,16 @@
       "year": 2026
     },
     {
-      "end_trips": 7892,
-      "start_trips": 8197,
-      "station": "한양대역 3번 출구",
+      "end_trips": 7844,
+      "start_trips": 8245,
+      "station": "베네스트 오피스텔 앞",
       "total_trips": 16089,
       "year": 2026
     },
     {
-      "end_trips": 7844,
-      "start_trips": 8245,
-      "station": "베네스트 오피스텔 앞",
+      "end_trips": 7892,
+      "start_trips": 8197,
+      "station": "한양대역 3번 출구",
       "total_trips": 16089,
       "year": 2026
     },
@@ -153641,16 +153641,16 @@
       "year": 2026
     },
     {
-      "end_trips": 8051,
-      "start_trips": 7956,
-      "station": "안암2교 옆",
+      "end_trips": 6475,
+      "start_trips": 9532,
+      "station": "고덕동 아남아파트",
       "total_trips": 16007,
       "year": 2026
     },
     {
-      "end_trips": 6475,
-      "start_trips": 9532,
-      "station": "고덕동 아남아파트",
+      "end_trips": 8051,
+      "start_trips": 7956,
+      "station": "안암2교 옆",
       "total_trips": 16007,
       "year": 2026
     },
@@ -153662,16 +153662,16 @@
       "year": 2026
     },
     {
-      "end_trips": 8047,
-      "start_trips": 7946,
-      "station": "북한산 코오롱 하늘채",
+      "end_trips": 8250,
+      "start_trips": 7743,
+      "station": "보라매역?동작세무서 버스정류장(강남중학교방면)",
       "total_trips": 15993,
       "year": 2026
     },
     {
-      "end_trips": 8250,
-      "start_trips": 7743,
-      "station": "보라매역?동작세무서 버스정류장(강남중학교방면)",
+      "end_trips": 8047,
+      "start_trips": 7946,
+      "station": "북한산 코오롱 하늘채",
       "total_trips": 15993,
       "year": 2026
     },
@@ -153851,13 +153851,6 @@
       "year": 2026
     },
     {
-      "end_trips": 8144,
-      "start_trips": 7451,
-      "station": "이수고가차도 남단",
-      "total_trips": 15595,
-      "year": 2026
-    },
-    {
       "end_trips": 8185,
       "start_trips": 7410,
       "station": "석관래미안아트리치",
@@ -153865,16 +153858,23 @@
       "year": 2026
     },
     {
-      "end_trips": 7782,
-      "start_trips": 7795,
-      "station": "공릉동풍림아파트 101동",
-      "total_trips": 15577,
+      "end_trips": 8144,
+      "start_trips": 7451,
+      "station": "이수고가차도 남단",
+      "total_trips": 15595,
       "year": 2026
     },
     {
       "end_trips": 7671,
       "start_trips": 7906,
       "station": "안국동사거리(신)",
+      "total_trips": 15577,
+      "year": 2026
+    },
+    {
+      "end_trips": 7782,
+      "start_trips": 7795,
+      "station": "공릉동풍림아파트 101동",
       "total_trips": 15577,
       "year": 2026
     },
@@ -154257,16 +154257,16 @@
       "year": 2026
     },
     {
-      "end_trips": 8464,
-      "start_trips": 6417,
-      "station": "양천해누리체육공원",
+      "end_trips": 7660,
+      "start_trips": 7221,
+      "station": "연해피빌 앞",
       "total_trips": 14881,
       "year": 2026
     },
     {
-      "end_trips": 7660,
-      "start_trips": 7221,
-      "station": "연해피빌 앞",
+      "end_trips": 8464,
+      "start_trips": 6417,
+      "station": "양천해누리체육공원",
       "total_trips": 14881,
       "year": 2026
     },
@@ -154348,16 +154348,16 @@
       "year": 2026
     },
     {
-      "end_trips": 7869,
-      "start_trips": 6869,
-      "station": "증산역 4번출구",
+      "end_trips": 7411,
+      "start_trips": 7327,
+      "station": "서울문화재단 앞",
       "total_trips": 14738,
       "year": 2026
     },
     {
-      "end_trips": 7411,
-      "start_trips": 7327,
-      "station": "서울문화재단 앞",
+      "end_trips": 7869,
+      "start_trips": 6869,
+      "station": "증산역 4번출구",
       "total_trips": 14738,
       "year": 2026
     },
@@ -154495,16 +154495,16 @@
       "year": 2026
     },
     {
-      "end_trips": 7695,
-      "start_trips": 6751,
-      "station": "숙대입구역 4번출구",
+      "end_trips": 7427,
+      "start_trips": 7019,
+      "station": "도곡역 1번 출구",
       "total_trips": 14446,
       "year": 2026
     },
     {
-      "end_trips": 7427,
-      "start_trips": 7019,
-      "station": "도곡역 1번 출구",
+      "end_trips": 7695,
+      "start_trips": 6751,
+      "station": "숙대입구역 4번출구",
       "total_trips": 14446,
       "year": 2026
     },
@@ -154544,16 +154544,16 @@
       "year": 2026
     },
     {
-      "end_trips": 7728,
-      "start_trips": 6639,
-      "station": "서울디자인고등학교 앞",
+      "end_trips": 7556,
+      "start_trips": 6811,
+      "station": "LIG강촌아파트 103동앞",
       "total_trips": 14367,
       "year": 2026
     },
     {
-      "end_trips": 7556,
-      "start_trips": 6811,
-      "station": "LIG강촌아파트 103동앞",
+      "end_trips": 7728,
+      "start_trips": 6639,
+      "station": "서울디자인고등학교 앞",
       "total_trips": 14367,
       "year": 2026
     },
@@ -154789,16 +154789,16 @@
       "year": 2026
     },
     {
-      "end_trips": 6755,
-      "start_trips": 7212,
-      "station": "잔디마을 마을버스 정류장",
+      "end_trips": 7142,
+      "start_trips": 6825,
+      "station": "서울사대부설초등학교 앞",
       "total_trips": 13967,
       "year": 2026
     },
     {
-      "end_trips": 7142,
-      "start_trips": 6825,
-      "station": "서울사대부설초등학교 앞",
+      "end_trips": 6755,
+      "start_trips": 7212,
+      "station": "잔디마을 마을버스 정류장",
       "total_trips": 13967,
       "year": 2026
     },
@@ -154957,16 +154957,16 @@
       "year": 2026
     },
     {
-      "end_trips": 7187,
-      "start_trips": 6541,
-      "station": "동부센트레빌 앞",
+      "end_trips": 7047,
+      "start_trips": 6681,
+      "station": "여의도고교 앞",
       "total_trips": 13728,
       "year": 2026
     },
     {
-      "end_trips": 7047,
-      "start_trips": 6681,
-      "station": "여의도고교 앞",
+      "end_trips": 7187,
+      "start_trips": 6541,
+      "station": "동부센트레빌 앞",
       "total_trips": 13728,
       "year": 2026
     },
@@ -155104,16 +155104,16 @@
       "year": 2026
     },
     {
-      "end_trips": 7192,
-      "start_trips": 6228,
-      "station": "벽산 디지털밸리 5차",
+      "end_trips": 6652,
+      "start_trips": 6768,
+      "station": "도림동배드민턴체육관",
       "total_trips": 13420,
       "year": 2026
     },
     {
-      "end_trips": 6652,
-      "start_trips": 6768,
-      "station": "도림동배드민턴체육관",
+      "end_trips": 7192,
+      "start_trips": 6228,
+      "station": "벽산 디지털밸리 5차",
       "total_trips": 13420,
       "year": 2026
     },
@@ -155881,16 +155881,16 @@
       "year": 2026
     },
     {
-      "end_trips": 6058,
-      "start_trips": 6095,
-      "station": "초원아파트 앞",
+      "end_trips": 6043,
+      "start_trips": 6110,
+      "station": "논현지하보도",
       "total_trips": 12153,
       "year": 2026
     },
     {
-      "end_trips": 6043,
-      "start_trips": 6110,
-      "station": "논현지하보도",
+      "end_trips": 6058,
+      "start_trips": 6095,
+      "station": "초원아파트 앞",
       "total_trips": 12153,
       "year": 2026
     },
@@ -156252,16 +156252,16 @@
       "year": 2026
     },
     {
-      "end_trips": 5809,
-      "start_trips": 5947,
-      "station": "힐스테이트클래시안아파트",
+      "end_trips": 5896,
+      "start_trips": 5860,
+      "station": "LG사이언스파크 W4동",
       "total_trips": 11756,
       "year": 2026
     },
     {
-      "end_trips": 5896,
-      "start_trips": 5860,
-      "station": "LG사이언스파크 W4동",
+      "end_trips": 5809,
+      "start_trips": 5947,
+      "station": "힐스테이트클래시안아파트",
       "total_trips": 11756,
       "year": 2026
     },
@@ -156273,16 +156273,16 @@
       "year": 2026
     },
     {
-      "end_trips": 6065,
-      "start_trips": 5650,
-      "station": "한천교 동편",
+      "end_trips": 5876,
+      "start_trips": 5839,
+      "station": "종로타워빌딩",
       "total_trips": 11715,
       "year": 2026
     },
     {
-      "end_trips": 5876,
-      "start_trips": 5839,
-      "station": "종로타워빌딩",
+      "end_trips": 6065,
+      "start_trips": 5650,
+      "station": "한천교 동편",
       "total_trips": 11715,
       "year": 2026
     },
@@ -156294,16 +156294,16 @@
       "year": 2026
     },
     {
-      "end_trips": 6501,
-      "start_trips": 5204,
-      "station": "오류동 다숲오피스텔 앞",
+      "end_trips": 6299,
+      "start_trips": 5406,
+      "station": "수서역 7번출구 앞",
       "total_trips": 11705,
       "year": 2026
     },
     {
-      "end_trips": 6299,
-      "start_trips": 5406,
-      "station": "수서역 7번출구 앞",
+      "end_trips": 6501,
+      "start_trips": 5204,
+      "station": "오류동 다숲오피스텔 앞",
       "total_trips": 11705,
       "year": 2026
     },
@@ -157330,16 +157330,16 @@
       "year": 2026
     },
     {
-      "end_trips": 5553,
-      "start_trips": 4825,
-      "station": "번동 주공3, 4단지 교차로",
+      "end_trips": 5341,
+      "start_trips": 5037,
+      "station": "맥스타일 앞",
       "total_trips": 10378,
       "year": 2026
     },
     {
-      "end_trips": 5341,
-      "start_trips": 5037,
-      "station": "맥스타일 앞",
+      "end_trips": 5553,
+      "start_trips": 4825,
+      "station": "번동 주공3, 4단지 교차로",
       "total_trips": 10378,
       "year": 2026
     },
@@ -157365,16 +157365,16 @@
       "year": 2026
     },
     {
-      "end_trips": 5423,
-      "start_trips": 4921,
-      "station": "으뜸공원",
+      "end_trips": 5229,
+      "start_trips": 5115,
+      "station": "래미안에스티움 앞 (신풍로)",
       "total_trips": 10344,
       "year": 2026
     },
     {
-      "end_trips": 5229,
-      "start_trips": 5115,
-      "station": "래미안에스티움 앞 (신풍로)",
+      "end_trips": 5423,
+      "start_trips": 4921,
+      "station": "으뜸공원",
       "total_trips": 10344,
       "year": 2026
     },
@@ -157701,16 +157701,16 @@
       "year": 2026
     },
     {
-      "end_trips": 3803,
-      "start_trips": 6174,
-      "station": "래미안 솔베뉴(고덕로)",
+      "end_trips": 5046,
+      "start_trips": 4931,
+      "station": "더리브골드타워",
       "total_trips": 9977,
       "year": 2026
     },
     {
-      "end_trips": 5046,
-      "start_trips": 4931,
-      "station": "더리브골드타워",
+      "end_trips": 3803,
+      "start_trips": 6174,
+      "station": "래미안 솔베뉴(고덕로)",
       "total_trips": 9977,
       "year": 2026
     },
@@ -157757,16 +157757,16 @@
       "year": 2026
     },
     {
-      "end_trips": 4969,
-      "start_trips": 4933,
-      "station": "반포1동 서초빌딩 앞",
+      "end_trips": 4790,
+      "start_trips": 5112,
+      "station": "목월공원 앞",
       "total_trips": 9902,
       "year": 2026
     },
     {
-      "end_trips": 4790,
-      "start_trips": 5112,
-      "station": "목월공원 앞",
+      "end_trips": 4969,
+      "start_trips": 4933,
+      "station": "반포1동 서초빌딩 앞",
       "total_trips": 9902,
       "year": 2026
     },
@@ -157932,16 +157932,16 @@
       "year": 2026
     },
     {
-      "end_trips": 4291,
-      "start_trips": 5436,
-      "station": "독립문역 사거리",
+      "end_trips": 4947,
+      "start_trips": 4780,
+      "station": "가락시장역 5번출구",
       "total_trips": 9727,
       "year": 2026
     },
     {
-      "end_trips": 4947,
-      "start_trips": 4780,
-      "station": "가락시장역 5번출구",
+      "end_trips": 4291,
+      "start_trips": 5436,
+      "station": "독립문역 사거리",
       "total_trips": 9727,
       "year": 2026
     },
@@ -158478,16 +158478,16 @@
       "year": 2026
     },
     {
-      "end_trips": 4033,
-      "start_trips": 5158,
-      "station": "어린이대공원정문",
+      "end_trips": 4592,
+      "start_trips": 4599,
+      "station": "강북구청 사거리 버스정류소 앞",
       "total_trips": 9191,
       "year": 2026
     },
     {
-      "end_trips": 4592,
-      "start_trips": 4599,
-      "station": "강북구청 사거리 버스정류소 앞",
+      "end_trips": 4033,
+      "start_trips": 5158,
+      "station": "어린이대공원정문",
       "total_trips": 9191,
       "year": 2026
     },
@@ -158569,16 +158569,16 @@
       "year": 2026
     },
     {
-      "end_trips": 4663,
-      "start_trips": 4433,
-      "station": "신도봉사거리 버스정류장",
+      "end_trips": 4745,
+      "start_trips": 4351,
+      "station": "홈플러스 면목점",
       "total_trips": 9096,
       "year": 2026
     },
     {
-      "end_trips": 4745,
-      "start_trips": 4351,
-      "station": "홈플러스 면목점",
+      "end_trips": 4663,
+      "start_trips": 4433,
+      "station": "신도봉사거리 버스정류장",
       "total_trips": 9096,
       "year": 2026
     },
@@ -158849,16 +158849,16 @@
       "year": 2026
     },
     {
-      "end_trips": 4352,
-      "start_trips": 4344,
-      "station": "세종대학교(학술정보원)",
+      "end_trips": 4660,
+      "start_trips": 4036,
+      "station": "래미안신반포리오센트 후문",
       "total_trips": 8696,
       "year": 2026
     },
     {
-      "end_trips": 4660,
-      "start_trips": 4036,
-      "station": "래미안신반포리오센트 후문",
+      "end_trips": 4352,
+      "start_trips": 4344,
+      "station": "세종대학교(학술정보원)",
       "total_trips": 8696,
       "year": 2026
     },
@@ -158933,16 +158933,16 @@
       "year": 2026
     },
     {
-      "end_trips": 4322,
-      "start_trips": 4310,
-      "station": "상봉동양엔파트 앞",
+      "end_trips": 4617,
+      "start_trips": 4015,
+      "station": "방배역 2번 출구",
       "total_trips": 8632,
       "year": 2026
     },
     {
-      "end_trips": 4617,
-      "start_trips": 4015,
-      "station": "방배역 2번 출구",
+      "end_trips": 4322,
+      "start_trips": 4310,
+      "station": "상봉동양엔파트 앞",
       "total_trips": 8632,
       "year": 2026
     },
@@ -159059,16 +159059,16 @@
       "year": 2026
     },
     {
-      "end_trips": 4332,
-      "start_trips": 4222,
-      "station": "독산역 1번출구 A",
+      "end_trips": 3937,
+      "start_trips": 4617,
+      "station": "장곡초등학교 앞",
       "total_trips": 8554,
       "year": 2026
     },
     {
-      "end_trips": 3937,
-      "start_trips": 4617,
-      "station": "장곡초등학교 앞",
+      "end_trips": 4332,
+      "start_trips": 4222,
+      "station": "독산역 1번출구 A",
       "total_trips": 8554,
       "year": 2026
     },
@@ -159129,16 +159129,16 @@
       "year": 2026
     },
     {
-      "end_trips": 4349,
-      "start_trips": 4163,
-      "station": "대상연구소",
+      "end_trips": 4404,
+      "start_trips": 4108,
+      "station": "오륜사거리",
       "total_trips": 8512,
       "year": 2026
     },
     {
-      "end_trips": 4404,
-      "start_trips": 4108,
-      "station": "오륜사거리",
+      "end_trips": 4349,
+      "start_trips": 4163,
+      "station": "대상연구소",
       "total_trips": 8512,
       "year": 2026
     },
@@ -159227,16 +159227,16 @@
       "year": 2026
     },
     {
-      "end_trips": 3685,
-      "start_trips": 4729,
-      "station": "신내동 벽산아파트 후문 앞",
+      "end_trips": 4458,
+      "start_trips": 3956,
+      "station": "번3동 주민센터 교차로",
       "total_trips": 8414,
       "year": 2026
     },
     {
-      "end_trips": 4458,
-      "start_trips": 3956,
-      "station": "번3동 주민센터 교차로",
+      "end_trips": 3685,
+      "start_trips": 4729,
+      "station": "신내동 벽산아파트 후문 앞",
       "total_trips": 8414,
       "year": 2026
     },
@@ -159381,16 +159381,16 @@
       "year": 2026
     },
     {
-      "end_trips": 4101,
-      "start_trips": 4167,
-      "station": "롯데캐슬골드파크3차 301동 앞",
+      "end_trips": 4183,
+      "start_trips": 4085,
+      "station": "반포종합운동장 입구",
       "total_trips": 8268,
       "year": 2026
     },
     {
-      "end_trips": 4183,
-      "start_trips": 4085,
-      "station": "반포종합운동장 입구",
+      "end_trips": 4101,
+      "start_trips": 4167,
+      "station": "롯데캐슬골드파크3차 301동 앞",
       "total_trips": 8268,
       "year": 2026
     },
@@ -159787,16 +159787,16 @@
       "year": 2026
     },
     {
-      "end_trips": 3858,
-      "start_trips": 4075,
-      "station": "올림픽공원 장미광장",
+      "end_trips": 3485,
+      "start_trips": 4448,
+      "station": "잠실나루역 고가하부",
       "total_trips": 7933,
       "year": 2026
     },
     {
-      "end_trips": 3485,
-      "start_trips": 4448,
-      "station": "잠실나루역 고가하부",
+      "end_trips": 3858,
+      "start_trips": 4075,
+      "station": "올림픽공원 장미광장",
       "total_trips": 7933,
       "year": 2026
     },
@@ -159969,16 +159969,16 @@
       "year": 2026
     },
     {
-      "end_trips": 3698,
-      "start_trips": 4042,
-      "station": "두산위브아파트",
+      "end_trips": 3902,
+      "start_trips": 3838,
+      "station": "불광역3,6호선 버스정류장(동명여고 방면)",
       "total_trips": 7740,
       "year": 2026
     },
     {
-      "end_trips": 3902,
-      "start_trips": 3838,
-      "station": "불광역3,6호선 버스정류장(동명여고 방면)",
+      "end_trips": 3698,
+      "start_trips": 4042,
+      "station": "두산위브아파트",
       "total_trips": 7740,
       "year": 2026
     },
@@ -160242,16 +160242,16 @@
       "year": 2026
     },
     {
-      "end_trips": 3660,
-      "start_trips": 3784,
-      "station": "서울숲리버뷰자이APT105동 앞",
+      "end_trips": 2950,
+      "start_trips": 4494,
+      "station": "올림픽선수기자촌아파트 123동 근처",
       "total_trips": 7444,
       "year": 2026
     },
     {
-      "end_trips": 2950,
-      "start_trips": 4494,
-      "station": "올림픽선수기자촌아파트 123동 근처",
+      "end_trips": 3660,
+      "start_trips": 3784,
+      "station": "서울숲리버뷰자이APT105동 앞",
       "total_trips": 7444,
       "year": 2026
     },
@@ -160319,13 +160319,6 @@
       "year": 2026
     },
     {
-      "end_trips": 3452,
-      "start_trips": 3933,
-      "station": "용문사 버스정류장",
-      "total_trips": 7385,
-      "year": 2026
-    },
-    {
       "end_trips": 3699,
       "start_trips": 3686,
       "station": "은평뉴타운 아이파크",
@@ -160333,16 +160326,23 @@
       "year": 2026
     },
     {
-      "end_trips": 3692,
-      "start_trips": 3688,
-      "station": "고덕비즈밸리 지식산업센터 A",
-      "total_trips": 7380,
+      "end_trips": 3452,
+      "start_trips": 3933,
+      "station": "용문사 버스정류장",
+      "total_trips": 7385,
       "year": 2026
     },
     {
       "end_trips": 3444,
       "start_trips": 3936,
       "station": "원풍빌라앞",
+      "total_trips": 7380,
+      "year": 2026
+    },
+    {
+      "end_trips": 3692,
+      "start_trips": 3688,
+      "station": "고덕비즈밸리 지식산업센터 A",
       "total_trips": 7380,
       "year": 2026
     },
@@ -160417,16 +160417,16 @@
       "year": 2026
     },
     {
-      "end_trips": 3612,
-      "start_trips": 3659,
-      "station": "신사동 가로수길 입구",
+      "end_trips": 3247,
+      "start_trips": 4024,
+      "station": "KAIST 경영대학 앞",
       "total_trips": 7271,
       "year": 2026
     },
     {
-      "end_trips": 3247,
-      "start_trips": 4024,
-      "station": "KAIST 경영대학 앞",
+      "end_trips": 3612,
+      "start_trips": 3659,
+      "station": "신사동 가로수길 입구",
       "total_trips": 7271,
       "year": 2026
     },
@@ -160452,16 +160452,16 @@
       "year": 2026
     },
     {
-      "end_trips": 3695,
-      "start_trips": 3556,
-      "station": "신동아타워 버스정류소",
+      "end_trips": 3587,
+      "start_trips": 3664,
+      "station": "상암월드컵파크 3단지 후문",
       "total_trips": 7251,
       "year": 2026
     },
     {
-      "end_trips": 3587,
-      "start_trips": 3664,
-      "station": "상암월드컵파크 3단지 후문",
+      "end_trips": 3695,
+      "start_trips": 3556,
+      "station": "신동아타워 버스정류소",
       "total_trips": 7251,
       "year": 2026
     },
@@ -160599,16 +160599,16 @@
       "year": 2026
     },
     {
-      "end_trips": 3717,
-      "start_trips": 3433,
-      "station": "삼각지12번 출구",
+      "end_trips": 3525,
+      "start_trips": 3625,
+      "station": "문정 법조단지4",
       "total_trips": 7150,
       "year": 2026
     },
     {
-      "end_trips": 3525,
-      "start_trips": 3625,
-      "station": "문정 법조단지4",
+      "end_trips": 3717,
+      "start_trips": 3433,
+      "station": "삼각지12번 출구",
       "total_trips": 7150,
       "year": 2026
     },
@@ -160746,16 +160746,16 @@
       "year": 2026
     },
     {
-      "end_trips": 3332,
-      "start_trips": 3660,
-      "station": "오금동 대림아파트 정문",
+      "end_trips": 3390,
+      "start_trips": 3602,
+      "station": "수협대치동지점",
       "total_trips": 6992,
       "year": 2026
     },
     {
-      "end_trips": 3390,
-      "start_trips": 3602,
-      "station": "수협대치동지점",
+      "end_trips": 3332,
+      "start_trips": 3660,
+      "station": "오금동 대림아파트 정문",
       "total_trips": 6992,
       "year": 2026
     },
@@ -160914,16 +160914,16 @@
       "year": 2026
     },
     {
-      "end_trips": 997,
-      "start_trips": 5789,
-      "station": "신길자이아파트",
+      "end_trips": 3438,
+      "start_trips": 3348,
+      "station": "K+ 타워 앞",
       "total_trips": 6786,
       "year": 2026
     },
     {
-      "end_trips": 3438,
-      "start_trips": 3348,
-      "station": "K+ 타워 앞",
+      "end_trips": 997,
+      "start_trips": 5789,
+      "station": "신길자이아파트",
       "total_trips": 6786,
       "year": 2026
     },
@@ -160942,16 +160942,16 @@
       "year": 2026
     },
     {
-      "end_trips": 3322,
-      "start_trips": 3440,
-      "station": "가락중학교 앞",
+      "end_trips": 3205,
+      "start_trips": 3557,
+      "station": "방아골종합사회복지관",
       "total_trips": 6762,
       "year": 2026
     },
     {
-      "end_trips": 3205,
-      "start_trips": 3557,
-      "station": "방아골종합사회복지관",
+      "end_trips": 3322,
+      "start_trips": 3440,
+      "station": "가락중학교 앞",
       "total_trips": 6762,
       "year": 2026
     },
@@ -161110,16 +161110,16 @@
       "year": 2026
     },
     {
-      "end_trips": 3264,
-      "start_trips": 3387,
-      "station": "위례포레나송파",
+      "end_trips": 3286,
+      "start_trips": 3365,
+      "station": "노들섬 동측 앞",
       "total_trips": 6651,
       "year": 2026
     },
     {
-      "end_trips": 3286,
-      "start_trips": 3365,
-      "station": "노들섬 동측 앞",
+      "end_trips": 3264,
+      "start_trips": 3387,
+      "station": "위례포레나송파",
       "total_trips": 6651,
       "year": 2026
     },
@@ -161257,16 +161257,16 @@
       "year": 2026
     },
     {
-      "end_trips": 3295,
-      "start_trips": 3238,
-      "station": "은평뉴타운구파발9단지",
+      "end_trips": 3326,
+      "start_trips": 3207,
+      "station": "나이아가라관광호텔",
       "total_trips": 6533,
       "year": 2026
     },
     {
-      "end_trips": 3326,
-      "start_trips": 3207,
-      "station": "나이아가라관광호텔",
+      "end_trips": 3295,
+      "start_trips": 3238,
+      "station": "은평뉴타운구파발9단지",
       "total_trips": 6533,
       "year": 2026
     },
@@ -161775,16 +161775,16 @@
       "year": 2026
     },
     {
-      "end_trips": 2983,
-      "start_trips": 3032,
-      "station": "당고개입구 오거리",
+      "end_trips": 2727,
+      "start_trips": 3288,
+      "station": "덕수중학교",
       "total_trips": 6015,
       "year": 2026
     },
     {
-      "end_trips": 2727,
-      "start_trips": 3288,
-      "station": "덕수중학교",
+      "end_trips": 2983,
+      "start_trips": 3032,
+      "station": "당고개입구 오거리",
       "total_trips": 6015,
       "year": 2026
     },
@@ -161831,16 +161831,16 @@
       "year": 2026
     },
     {
-      "end_trips": 3005,
-      "start_trips": 2972,
-      "station": "언주초등학교 입구",
+      "end_trips": 1716,
+      "start_trips": 4261,
+      "station": "고덕 래미안힐스테이트(201동)",
       "total_trips": 5977,
       "year": 2026
     },
     {
-      "end_trips": 1716,
-      "start_trips": 4261,
-      "station": "고덕 래미안힐스테이트(201동)",
+      "end_trips": 3005,
+      "start_trips": 2972,
+      "station": "언주초등학교 입구",
       "total_trips": 5977,
       "year": 2026
     },
@@ -162013,16 +162013,16 @@
       "year": 2026
     },
     {
-      "end_trips": 2802,
-      "start_trips": 3015,
-      "station": "상암월드컵파크5단지(상암중학교)",
+      "end_trips": 2887,
+      "start_trips": 2930,
+      "station": "현대아파트 정문 앞",
       "total_trips": 5817,
       "year": 2026
     },
     {
-      "end_trips": 2887,
-      "start_trips": 2930,
-      "station": "현대아파트 정문 앞",
+      "end_trips": 2802,
+      "start_trips": 3015,
+      "station": "상암월드컵파크5단지(상암중학교)",
       "total_trips": 5817,
       "year": 2026
     },
@@ -162468,16 +162468,16 @@
       "year": 2026
     },
     {
-      "end_trips": 2871,
-      "start_trips": 2525,
-      "station": "강일리버파크 2~5단지",
+      "end_trips": 2519,
+      "start_trips": 2877,
+      "station": "삼성중앙역 5번출구",
       "total_trips": 5396,
       "year": 2026
     },
     {
-      "end_trips": 2519,
-      "start_trips": 2877,
-      "station": "삼성중앙역 5번출구",
+      "end_trips": 2871,
+      "start_trips": 2525,
+      "station": "강일리버파크 2~5단지",
       "total_trips": 5396,
       "year": 2026
     },
@@ -162734,16 +162734,16 @@
       "year": 2026
     },
     {
-      "end_trips": 2357,
-      "start_trips": 2789,
-      "station": "남부순환로 205",
+      "end_trips": 2597,
+      "start_trips": 2549,
+      "station": "삼양동사거리",
       "total_trips": 5146,
       "year": 2026
     },
     {
-      "end_trips": 2597,
-      "start_trips": 2549,
-      "station": "삼양동사거리",
+      "end_trips": 2357,
+      "start_trips": 2789,
+      "station": "남부순환로 205",
       "total_trips": 5146,
       "year": 2026
     },
@@ -163434,16 +163434,16 @@
       "year": 2026
     },
     {
-      "end_trips": 2230,
-      "start_trips": 2170,
-      "station": "정릉도서관 앞",
+      "end_trips": 539,
+      "start_trips": 3861,
+      "station": "솔리스타오피스텔(공덕동주민센터)",
       "total_trips": 4400,
       "year": 2026
     },
     {
-      "end_trips": 539,
-      "start_trips": 3861,
-      "station": "솔리스타오피스텔(공덕동주민센터)",
+      "end_trips": 2230,
+      "start_trips": 2170,
+      "station": "정릉도서관 앞",
       "total_trips": 4400,
       "year": 2026
     },
@@ -163658,16 +163658,16 @@
       "year": 2026
     },
     {
-      "end_trips": 2062,
-      "start_trips": 2139,
-      "station": "국립어린이과학관",
+      "end_trips": 1307,
+      "start_trips": 2894,
+      "station": "은평뉴타운 도서관",
       "total_trips": 4201,
       "year": 2026
     },
     {
-      "end_trips": 1307,
-      "start_trips": 2894,
-      "station": "은평뉴타운 도서관",
+      "end_trips": 2062,
+      "start_trips": 2139,
+      "station": "국립어린이과학관",
       "total_trips": 4201,
       "year": 2026
     },
@@ -163770,16 +163770,16 @@
       "year": 2026
     },
     {
-      "end_trips": 1991,
-      "start_trips": 2113,
-      "station": "이투스교육 앞",
+      "end_trips": 1136,
+      "start_trips": 2968,
+      "station": "강남자곡힐스테이트",
       "total_trips": 4104,
       "year": 2026
     },
     {
-      "end_trips": 1136,
-      "start_trips": 2968,
-      "station": "강남자곡힐스테이트",
+      "end_trips": 1991,
+      "start_trips": 2113,
+      "station": "이투스교육 앞",
       "total_trips": 4104,
       "year": 2026
     },
@@ -164071,16 +164071,16 @@
       "year": 2026
     },
     {
-      "end_trips": 922,
-      "start_trips": 2969,
-      "station": "역촌센트레빌아파트 101동 앞",
+      "end_trips": 1772,
+      "start_trips": 2119,
+      "station": "서울연신초등학교",
       "total_trips": 3891,
       "year": 2026
     },
     {
-      "end_trips": 1772,
-      "start_trips": 2119,
-      "station": "서울연신초등학교",
+      "end_trips": 922,
+      "start_trips": 2969,
+      "station": "역촌센트레빌아파트 101동 앞",
       "total_trips": 3891,
       "year": 2026
     },
@@ -164232,16 +164232,16 @@
       "year": 2026
     },
     {
-      "end_trips": 1508,
-      "start_trips": 2269,
-      "station": "신촌기차역입구 교차로",
+      "end_trips": 1357,
+      "start_trips": 2420,
+      "station": "북위례3",
       "total_trips": 3777,
       "year": 2026
     },
     {
-      "end_trips": 1357,
-      "start_trips": 2420,
-      "station": "북위례3",
+      "end_trips": 1508,
+      "start_trips": 2269,
+      "station": "신촌기차역입구 교차로",
       "total_trips": 3777,
       "year": 2026
     },
@@ -164463,16 +164463,16 @@
       "year": 2026
     },
     {
-      "end_trips": 1780,
-      "start_trips": 1849,
-      "station": "낙성대역 1번출구",
+      "end_trips": 1845,
+      "start_trips": 1784,
+      "station": "MCM 본사 직영점 앞",
       "total_trips": 3629,
       "year": 2026
     },
     {
-      "end_trips": 1845,
-      "start_trips": 1784,
-      "station": "MCM 본사 직영점 앞",
+      "end_trips": 1780,
+      "start_trips": 1849,
+      "station": "낙성대역 1번출구",
       "total_trips": 3629,
       "year": 2026
     },
@@ -164484,16 +164484,16 @@
       "year": 2026
     },
     {
-      "end_trips": 1745,
-      "start_trips": 1870,
-      "station": "르네상스호텔사거리 역삼지하보도 2번출구",
+      "end_trips": 1797,
+      "start_trips": 1818,
+      "station": "서울교통공사 사당별관 건너편",
       "total_trips": 3615,
       "year": 2026
     },
     {
-      "end_trips": 1797,
-      "start_trips": 1818,
-      "station": "서울교통공사 사당별관 건너편",
+      "end_trips": 1745,
+      "start_trips": 1870,
+      "station": "르네상스호텔사거리 역삼지하보도 2번출구",
       "total_trips": 3615,
       "year": 2026
     },
@@ -164694,16 +164694,16 @@
       "year": 2026
     },
     {
-      "end_trips": 1499,
-      "start_trips": 1882,
-      "station": "한국과학기술연구원 중문",
+      "end_trips": 961,
+      "start_trips": 2420,
+      "station": "월계 청백1단지 아파트 정류장",
       "total_trips": 3381,
       "year": 2026
     },
     {
-      "end_trips": 961,
-      "start_trips": 2420,
-      "station": "월계 청백1단지 아파트 정류장",
+      "end_trips": 1499,
+      "start_trips": 1882,
+      "station": "한국과학기술연구원 중문",
       "total_trips": 3381,
       "year": 2026
     },
@@ -164771,16 +164771,16 @@
       "year": 2026
     },
     {
-      "end_trips": 1523,
-      "start_trips": 1803,
-      "station": "온수역 북측",
+      "end_trips": 1567,
+      "start_trips": 1759,
+      "station": "SK 남산빌딩",
       "total_trips": 3326,
       "year": 2026
     },
     {
-      "end_trips": 1567,
-      "start_trips": 1759,
-      "station": "SK 남산빌딩",
+      "end_trips": 1523,
+      "start_trips": 1803,
+      "station": "온수역 북측",
       "total_trips": 3326,
       "year": 2026
     },
@@ -164834,16 +164834,16 @@
       "year": 2026
     },
     {
-      "end_trips": 1649,
-      "start_trips": 1642,
-      "station": "정릉꿈에그린1단지 201동 앞",
+      "end_trips": 1528,
+      "start_trips": 1763,
+      "station": "위너스 스포츠클럽 골프연습장옆",
       "total_trips": 3291,
       "year": 2026
     },
     {
-      "end_trips": 1528,
-      "start_trips": 1763,
-      "station": "위너스 스포츠클럽 골프연습장옆",
+      "end_trips": 1649,
+      "start_trips": 1642,
+      "station": "정릉꿈에그린1단지 201동 앞",
       "total_trips": 3291,
       "year": 2026
     },
@@ -164862,16 +164862,16 @@
       "year": 2026
     },
     {
-      "end_trips": 1494,
-      "start_trips": 1770,
-      "station": "구로1동우체국 앞",
+      "end_trips": 1549,
+      "start_trips": 1715,
+      "station": "강남 을지병원 교차로",
       "total_trips": 3264,
       "year": 2026
     },
     {
-      "end_trips": 1549,
-      "start_trips": 1715,
-      "station": "강남 을지병원 교차로",
+      "end_trips": 1494,
+      "start_trips": 1770,
+      "station": "구로1동우체국 앞",
       "total_trips": 3264,
       "year": 2026
     },
@@ -165044,13 +165044,6 @@
       "year": 2026
     },
     {
-      "end_trips": 1415,
-      "start_trips": 1723,
-      "station": "위례포레샤인18단지 1802동",
-      "total_trips": 3138,
-      "year": 2026
-    },
-    {
       "end_trips": 1608,
       "start_trips": 1530,
       "station": "금호사거리",
@@ -165058,16 +165051,23 @@
       "year": 2026
     },
     {
-      "end_trips": 1601,
-      "start_trips": 1528,
-      "station": "롯데중앙연구소",
-      "total_trips": 3129,
+      "end_trips": 1415,
+      "start_trips": 1723,
+      "station": "위례포레샤인18단지 1802동",
+      "total_trips": 3138,
       "year": 2026
     },
     {
       "end_trips": 1276,
       "start_trips": 1853,
       "station": "방학중학교 앞",
+      "total_trips": 3129,
+      "year": 2026
+    },
+    {
+      "end_trips": 1601,
+      "start_trips": 1528,
+      "station": "롯데중앙연구소",
       "total_trips": 3129,
       "year": 2026
     },
@@ -165163,16 +165163,16 @@
       "year": 2026
     },
     {
-      "end_trips": 1339,
-      "start_trips": 1708,
-      "station": "양재대로(구룡지하차도 앞)",
+      "end_trips": 1383,
+      "start_trips": 1664,
+      "station": "도봉산광역환승센터앞",
       "total_trips": 3047,
       "year": 2026
     },
     {
-      "end_trips": 1383,
-      "start_trips": 1664,
-      "station": "도봉산광역환승센터앞",
+      "end_trips": 1339,
+      "start_trips": 1708,
+      "station": "양재대로(구룡지하차도 앞)",
       "total_trips": 3047,
       "year": 2026
     },
@@ -165331,16 +165331,16 @@
       "year": 2026
     },
     {
-      "end_trips": 1408,
-      "start_trips": 1468,
-      "station": "북한산더? 106동 앞",
+      "end_trips": 1380,
+      "start_trips": 1496,
+      "station": "율현삼거리",
       "total_trips": 2876,
       "year": 2026
     },
     {
-      "end_trips": 1380,
-      "start_trips": 1496,
-      "station": "율현삼거리",
+      "end_trips": 1408,
+      "start_trips": 1468,
+      "station": "북한산더? 106동 앞",
       "total_trips": 2876,
       "year": 2026
     },
@@ -165604,16 +165604,16 @@
       "year": 2026
     },
     {
-      "end_trips": 1283,
-      "start_trips": 1381,
-      "station": "가락종합 사회복지관",
+      "end_trips": 988,
+      "start_trips": 1676,
+      "station": "흑석동효사정앞",
       "total_trips": 2664,
       "year": 2026
     },
     {
-      "end_trips": 988,
-      "start_trips": 1676,
-      "station": "흑석동효사정앞",
+      "end_trips": 1283,
+      "start_trips": 1381,
+      "station": "가락종합 사회복지관",
       "total_trips": 2664,
       "year": 2026
     },
@@ -165730,16 +165730,16 @@
       "year": 2026
     },
     {
-      "end_trips": 1241,
-      "start_trips": 1274,
-      "station": "서울고등학교 건너편",
+      "end_trips": 1003,
+      "start_trips": 1512,
+      "station": "은평역사한옥박물관",
       "total_trips": 2515,
       "year": 2026
     },
     {
-      "end_trips": 1003,
-      "start_trips": 1512,
-      "station": "은평역사한옥박물관",
+      "end_trips": 1241,
+      "start_trips": 1274,
+      "station": "서울고등학교 건너편",
       "total_trips": 2515,
       "year": 2026
     },
@@ -165807,16 +165807,16 @@
       "year": 2026
     },
     {
-      "end_trips": 1039,
-      "start_trips": 1401,
-      "station": "왕십리KCC스위첸아파트",
+      "end_trips": 982,
+      "start_trips": 1458,
+      "station": "상암중학교 옆",
       "total_trips": 2440,
       "year": 2026
     },
     {
-      "end_trips": 982,
-      "start_trips": 1458,
-      "station": "상암중학교 옆",
+      "end_trips": 1039,
+      "start_trips": 1401,
+      "station": "왕십리KCC스위첸아파트",
       "total_trips": 2440,
       "year": 2026
     },
@@ -166220,16 +166220,16 @@
       "year": 2026
     },
     {
-      "end_trips": 272,
-      "start_trips": 1892,
-      "station": "신금호파크자이APT앞",
+      "end_trips": 1005,
+      "start_trips": 1159,
+      "station": "이촌역5번출구 앞",
       "total_trips": 2164,
       "year": 2026
     },
     {
-      "end_trips": 1005,
-      "start_trips": 1159,
-      "station": "이촌역5번출구 앞",
+      "end_trips": 272,
+      "start_trips": 1892,
+      "station": "신금호파크자이APT앞",
       "total_trips": 2164,
       "year": 2026
     },
@@ -166276,16 +166276,16 @@
       "year": 2026
     },
     {
-      "end_trips": 1041,
-      "start_trips": 1059,
-      "station": "호암아트홀",
+      "end_trips": 693,
+      "start_trips": 1407,
+      "station": "한국우편사업진흥원",
       "total_trips": 2100,
       "year": 2026
     },
     {
-      "end_trips": 693,
-      "start_trips": 1407,
-      "station": "한국우편사업진흥원",
+      "end_trips": 1041,
+      "start_trips": 1059,
+      "station": "호암아트홀",
       "total_trips": 2100,
       "year": 2026
     },
@@ -166395,16 +166395,16 @@
       "year": 2026
     },
     {
-      "end_trips": 981,
-      "start_trips": 1024,
-      "station": "롯데캐슬 115동앞",
+      "end_trips": 985,
+      "start_trips": 1020,
+      "station": "선정릉 디캠프(D,CAMP)앞",
       "total_trips": 2005,
       "year": 2026
     },
     {
-      "end_trips": 985,
-      "start_trips": 1020,
-      "station": "선정릉 디캠프(D,CAMP)앞",
+      "end_trips": 981,
+      "start_trips": 1024,
+      "station": "롯데캐슬 115동앞",
       "total_trips": 2005,
       "year": 2026
     },
@@ -166479,16 +166479,16 @@
       "year": 2026
     },
     {
-      "end_trips": 802,
-      "start_trips": 1091,
-      "station": "JK장평타워",
+      "end_trips": 880,
+      "start_trips": 1013,
+      "station": "신내역금강펜테리움센트럴파크",
       "total_trips": 1893,
       "year": 2026
     },
     {
-      "end_trips": 880,
-      "start_trips": 1013,
-      "station": "신내역금강펜테리움센트럴파크",
+      "end_trips": 802,
+      "start_trips": 1091,
+      "station": "JK장평타워",
       "total_trips": 1893,
       "year": 2026
     },
@@ -166563,16 +166563,16 @@
       "year": 2026
     },
     {
-      "end_trips": 403,
-      "start_trips": 1409,
-      "station": "구암초등학교 버스정류장",
+      "end_trips": 906,
+      "start_trips": 906,
+      "station": "거여동사거리 송파둘레길 입구",
       "total_trips": 1812,
       "year": 2026
     },
     {
-      "end_trips": 906,
-      "start_trips": 906,
-      "station": "거여동사거리 송파둘레길 입구",
+      "end_trips": 403,
+      "start_trips": 1409,
+      "station": "구암초등학교 버스정류장",
       "total_trips": 1812,
       "year": 2026
     },
@@ -166654,16 +166654,16 @@
       "year": 2026
     },
     {
-      "end_trips": 378,
-      "start_trips": 1345,
-      "station": "광진유진스웰",
+      "end_trips": 250,
+      "start_trips": 1473,
+      "station": "논골사거리(금호도서관 입구)",
       "total_trips": 1723,
       "year": 2026
     },
     {
-      "end_trips": 250,
-      "start_trips": 1473,
-      "station": "논골사거리(금호도서관 입구)",
+      "end_trips": 378,
+      "start_trips": 1345,
+      "station": "광진유진스웰",
       "total_trips": 1723,
       "year": 2026
     },
@@ -166696,16 +166696,16 @@
       "year": 2026
     },
     {
-      "end_trips": 777,
-      "start_trips": 912,
-      "station": "서초AICT 우수기업센터 앞",
+      "end_trips": 789,
+      "start_trips": 900,
+      "station": "박석고개(은평소방서) 앞",
       "total_trips": 1689,
       "year": 2026
     },
     {
-      "end_trips": 789,
-      "start_trips": 900,
-      "station": "박석고개(은평소방서) 앞",
+      "end_trips": 777,
+      "start_trips": 912,
+      "station": "서초AICT 우수기업센터 앞",
       "total_trips": 1689,
       "year": 2026
     },
@@ -166780,16 +166780,16 @@
       "year": 2026
     },
     {
-      "end_trips": 614,
-      "start_trips": 1031,
-      "station": "국회2문",
+      "end_trips": 822,
+      "start_trips": 823,
+      "station": "동명근린공원 진입로 (아리수로)",
       "total_trips": 1645,
       "year": 2026
     },
     {
-      "end_trips": 822,
-      "start_trips": 823,
-      "station": "동명근린공원 진입로 (아리수로)",
+      "end_trips": 614,
+      "start_trips": 1031,
+      "station": "국회2문",
       "total_trips": 1645,
       "year": 2026
     },
@@ -167613,16 +167613,16 @@
       "year": 2026
     },
     {
-      "end_trips": 123,
-      "start_trips": 250,
-      "station": "왕십리 자이아파트(101동 앞)",
+      "end_trips": 128,
+      "start_trips": 245,
+      "station": "산기슭공원 앞",
       "total_trips": 373,
       "year": 2026
     },
     {
-      "end_trips": 128,
-      "start_trips": 245,
-      "station": "산기슭공원 앞",
+      "end_trips": 123,
+      "start_trips": 250,
+      "station": "왕십리 자이아파트(101동 앞)",
       "total_trips": 373,
       "year": 2026
     },
@@ -167732,13 +167732,6 @@
       "year": 2026
     },
     {
-      "end_trips": 5,
-      "start_trips": 3,
-      "station": "신한금융투자 앞",
-      "total_trips": 8,
-      "year": 2026
-    },
-    {
       "end_trips": 4,
       "start_trips": 4,
       "station": "하이투자증권 앞",
@@ -167749,6 +167742,13 @@
       "end_trips": 5,
       "start_trips": 3,
       "station": "유광사여성병원",
+      "total_trips": 8,
+      "year": 2026
+    },
+    {
+      "end_trips": 5,
+      "start_trips": 3,
+      "station": "신한금융투자 앞",
       "total_trips": 8,
       "year": 2026
     },
@@ -167776,14 +167776,14 @@
     {
       "end_trips": 2,
       "start_trips": 2,
-      "station": "여의도역 4번출구 옆",
+      "station": "중계구민체육센터",
       "total_trips": 4,
       "year": 2026
     },
     {
       "end_trips": 2,
       "start_trips": 2,
-      "station": "중계구민체육센터",
+      "station": "목동청소년수련관",
       "total_trips": 4,
       "year": 2026
     },
@@ -167797,8 +167797,15 @@
     {
       "end_trips": 2,
       "start_trips": 2,
-      "station": "목동청소년수련관",
+      "station": "여의도역 4번출구 옆",
       "total_trips": 4,
+      "year": 2026
+    },
+    {
+      "end_trips": 3,
+      "start_trips": 0,
+      "station": "천왕센터",
+      "total_trips": 3,
       "year": 2026
     },
     {
@@ -167809,10 +167816,10 @@
       "year": 2026
     },
     {
-      "end_trips": 3,
-      "start_trips": 0,
-      "station": "천왕센터",
-      "total_trips": 3,
+      "end_trips": 1,
+      "start_trips": 1,
+      "station": "삼성역 2번출구",
+      "total_trips": 2,
       "year": 2026
     },
     {
@@ -167832,21 +167839,14 @@
     {
       "end_trips": 1,
       "start_trips": 1,
-      "station": "휘문고교 사거리",
-      "total_trips": 2,
-      "year": 2026
-    },
-    {
-      "end_trips": 1,
-      "start_trips": 1,
-      "station": "삼성역 2번출구",
-      "total_trips": 2,
-      "year": 2026
-    },
-    {
-      "end_trips": 1,
-      "start_trips": 1,
       "station": "관악동작견인차량보관소",
+      "total_trips": 2,
+      "year": 2026
+    },
+    {
+      "end_trips": 1,
+      "start_trips": 1,
+      "station": "휘문고교 사거리",
       "total_trips": 2,
       "year": 2026
     },

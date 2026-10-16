@@ -7,6 +7,30 @@ s3_bucket: s3://cycling.data.tfl.gov.uk/usage-stats
 file_matcher:
   - ".csv"
 
+# TfL's bucket serves 12 of the 2015–16 extracts twice: inside the yearly bundle
+# (2015TripDatazip.zip / 2016TripDataZip.zip) and as a loose CSV under a re-spaced or
+# hyphenated name. Each pair has identical Rental Id sets, and reading both inflated
+# 2015 by 3.5M trips and 2016 by 0.7M. We keep the loose copy and exclude the bundled one.
+# Matching is a substring of the raw path, and each entry matches exactly one file.
+excluded_filenames:
+  - "8aJourneyDataExtract26Jul15-07Aug15.csv"
+  - "8bJourneyData Extract 08Aug15-22Aug15.csv"
+  - "10a Journey Data Extract 20Sep15-03Oct15.csv"
+  - "10b Journey Data Extract 04Oct15-17Oct15.csv"
+  - "11a Journey Data Extract 18Oct15-31Oct15.csv"
+  - "11b Journey Data Extract 01Nov15-14Nov15.csv"
+  - "12a Journey Data Extract 15Nov15-27Nov15.csv"
+  - "12b Journey Data Extract 28Nov15-12Dec15.csv"
+  - "13a Journey Data Extract 13Dec15-24Dec15.csv"
+  - "13b Journey Data Extract 25Dec15-09Jan16.csv"
+  - "01bJourneyDataExtract24Jan16-06Feb16.csv"
+  - "02aJourneyDataExtract07Feb16-20Feb2016.csv"
+
+# The Mar 2012 extract opens with all of 29 Feb: the same 23,692 Rental Ids the Feb extract
+# ends with. A Rental Id survey of every file found no other cross-file overlap.
+file_date_ranges:
+  "3. Journey Data Extract_01Mar-31Mar12.csv.gz": ["2012-03-01", "2012-04-01"]
+
 renamed_columns:
   # Latest columns
   Start date: start_time
@@ -31,6 +55,8 @@ date_formats:
   - "%Y-%m-%d %H:%M"
   # 2012 era (e.g. "8. Journey Data Extract 22Jul-18Aug12") stamps seconds: 03/08/2012 23:03:21
   - "%d/%m/%Y %H:%M:%S"
+  # Written by the clean stage's xlsx conversion (week 49, 2017)
+  - "%Y-%m-%d %H:%M:%S"
 
 final_columns:
   - start_time
@@ -44,13 +70,37 @@ final_columns:
 read_csv_options:
   ## Encoding may actually be: windows-1252 (but increases inspect and transform time greatly)
   encoding: "utf8-lossy"
+clean_pipeline:
+  # TfL published week 49 (15–21 Mar 2017) only as an xlsx, with the CSV column layout. Its
+  # dates are Excel serials (rendered ISO by the converter); Sheet2/Sheet3 are Excel's unused
+  # defaults. Every other raw file passes through into cleaned/ untouched.
+  - step: convert_xlsx_sheets
+    files: ["49JourneyDataExtract15Mar2017-21Mar2017.xlsx.gz"]
+    sheets:
+      Sheet1:
+        date_columns: [Start Date, End Date]
+        expected_months: [3]
+      Sheet2:
+        expect_empty: true
+      Sheet3:
+        expect_empty: true
+compress_cleaned: true
+
 processing_pipeline:
   # Some files like 9a Journey Data Extract 17Aug14-31Aug14.csv, 13b. Journey Data Extract 22Dec14-03Jan15.csv contain rows with no data
   - filter_null_rows
   - rename_columns
   - normalize_bike_type
   - select_final_columns
-  - convert_to_datetime 
+  - convert_to_datetime
+  # After convert_to_datetime, which materializes the frame, so its audit read is in-memory
+  # rather than a second CSV scan.
+  - remove_invalid_rows
+  - restrict_to_file_date_range
   - cast_optional_columns
 
-
+# 2012 extract 6 (27May-23Jun12) holds 1,173 non-ride records (maintenance/test moves): start
+# dated 1900/1901 at midnight, area-name start "stations" (" Maida Vale,0"), and these end
+# "stations". The values appear in no other file.
+invalid_values:
+  end_station_name: ["NA,0", "Penton Workshop,0", "6,0", "tabletop1,0"]

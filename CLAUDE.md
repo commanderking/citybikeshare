@@ -31,6 +31,26 @@ When the per-value exclusions for a column start to multiply, prefer a *semantic
 plausibility* filter (e.g. drop trips longer than N hours) over curating more exact
 strings — it catches the class of corruption rather than each instance.
 
+## Handle the cases the data shows, not the ones you can imagine
+
+Write handling only for variants the source actually exhibits. Before adding a branch,
+validator, or test for an edge case, **survey all the inputs, not a sample**, and confirm the
+case exists. That is usually cheap: read every zip's member listing (HTTP range requests on
+the central directory, no full download), every raw file's header, every distinct value of
+a column. Then code to what the survey found.
+
+Failing loud doesn't mean guarding every hypothetical. When code relies on an assumption the
+data currently satisfies, one assert that turns a violation into an error is enough. Don't
+add speculative handling for what the alternative might look like. Before adding even that
+assert, check whether an existing validator downstream already catches the case.
+
+Example: the Taipei downloader fix. A survey of all 76 zips showed exactly two real problems
+(the month moved to a suffix in 5 member names; 8 zips wrap the CSV in a directory entry).
+Taking the month from the URL and skipping directory entries fixes both. An empty-CSV check
+was redundant: the clean stage's header validator already fails on an empty file, which is
+how the bug surfaced. A "member name contains the month" check guarded against something no
+zip had ever done. Both were removed.
+
 ## Cumulative / renamed sources duplicate data silently
 
 Some sources rename a cumulative archive as they append data (Montreal:

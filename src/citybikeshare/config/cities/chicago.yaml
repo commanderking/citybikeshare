@@ -7,6 +7,11 @@ s3_bucket: s3://divvy-tripdata
 file_matcher:
   - trip
   - Trips
+# The January 2026 zip names its CSV after January 2025 (contents are 2025-12-31..2026-01-31),
+# so it collided with the real January 2025 file in raw/.
+renamed_archive_members:
+  202601-divvy-tripdata.zip:
+    202501-divvy-tripdata.csv: 202601-divvy-tripdata.csv
 
 renamed_columns:
   # Commonized system data columns (used by newer Divvy datasets)
@@ -83,12 +88,19 @@ read_csv_options:
 
 
 
+# Divvy's 2024-09 file alone includes e-scooter rides (144,337 rows); no other month has any.
+# Dropped so 2024 counts stay bike-only like the rest of the series. Matched on bike_model
+# (the raw rideable_type) after select_final_columns, since pre-2020 files have no such column.
+invalid_values:
+  bike_model: ["electric_scooter"]
+
 processing_pipeline:
   - rename_columns
   - convert_to_datetime
   - normalize_bike_type
   - select_final_columns
   - cast_optional_columns
+  - remove_invalid_rows
 
 # Station-coordinate extraction. Coords are inline only in the 2020+ (start_lat/lng) era;
 # the older Divvy_Trips files carry station names but no lat/lng, so Stage 1 skips them

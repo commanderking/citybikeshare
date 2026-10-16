@@ -54,8 +54,13 @@ final_columns:
 date_formats:
   - "%m/%d/%Y %H:%M"
   - "%m/%d/%Y %H:%M:%S"
-  - "%d/%m/%Y %H:%M"
   - "%Y-%m-%d %H:%M:%S"
+# Every other slash-dated file is month-first; these two write day-first ("9/1/2017" is Jan 9).
+# Day-first stays out of date_formats: as a fallback it would parse a day-first file's days ≥13
+# while its days ≤12 silently matched month-first with day and month swapped.
+file_date_formats:
+  "Bikeshare Ridership (2017 Q1).csv.gz": ["%d/%m/%Y %H:%M"]
+  "Bikeshare Ridership (2017 Q2).csv.gz": ["%d/%m/%Y %H:%M"]
 read_csv_options:
   encoding: utf8-lossy
   null_values:

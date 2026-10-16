@@ -105,3 +105,8 @@ coordinates:
     id:   [end_station_id, "end station id"]
     lat:  [end_lat, "end station latitude"]
     lng:  [end_lng, "end station longitude"]
+
+# Months the coverage check (analysis/verify_month_coverage.py) allows: genuine gaps.
+expected_gaps:
+  - "2011-12..2012-03"  # Hubway closed for winter
+  - "2012-12..2013-03"  # Hubway closed for winter

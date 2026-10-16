@@ -6,6 +6,14 @@ s3_bucket: s3://capitalbikeshare-data
 aws_sync: true
 file_matcher:
   - capitalbikeshare-tripdata
+  # Two source files break the naming pattern; each is the only copy of its month.
+  - capitalbikeshare_tripdata   # 201801 uses underscores
+  - captialbikeshare-tripdata   # 202302 misspells "capital"
+# The April 2024 zip names its CSV after April 2020 (contents are 2024-04-01..30), so it
+# collided with the real April 2020 file in raw/.
+renamed_archive_members:
+  202404-capitalbikeshare-tripdata.zip:
+    202004-capitalbikeshare-tripdata.csv: 202404-capitalbikeshare-tripdata.csv
 renamed_columns:
   ride_id: id
   rideable_type: bike_type

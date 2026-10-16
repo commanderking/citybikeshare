@@ -17,16 +17,8 @@
   },
   {
     "name": "10e avenue / Masson",
-    "lat": 45.550328,
-    "lng": -73.573472,
-    "first_seen": null,
-    "last_seen": null,
-    "aliases": []
-  },
-  {
-    "name": "10e avenue / Shaughnessy",
-    "lat": 45.558486,
-    "lng": -73.599373,
+    "lat": 45.550338,
+    "lng": -73.573515,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -41,8 +33,8 @@
   },
   {
     "name": "12e avenue / St-Zotique",
-    "lat": 45.556869,
-    "lng": -73.589312,
+    "lat": 45.556871,
+    "lng": -73.58932,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -57,7 +49,7 @@
   },
   {
     "name": "15e Rue / Robin",
-    "lat": 45.559376,
+    "lat": 45.559377,
     "lng": -73.698512,
     "first_seen": null,
     "last_seen": null,
@@ -109,8 +101,8 @@
   },
   {
     "name": "16e avenue / St-Joseph",
-    "lat": 45.552903,
-    "lng": -73.565701,
+    "lat": 45.552907,
+    "lng": -73.56571,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -133,16 +125,8 @@
   },
   {
     "name": "19e avenue / St-Zotique",
-    "lat": 45.561641,
+    "lat": 45.561647,
     "lng": -73.585646,
-    "first_seen": null,
-    "last_seen": null,
-    "aliases": []
-  },
-  {
-    "name": "1ere avenue / St-Zotique",
-    "lat": 45.55188,
-    "lng": -73.593591,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -158,7 +142,7 @@
   {
     "name": "1ère avenue / Jean-Talon",
     "lat": 45.554907,
-    "lng": -73.601146,
+    "lng": -73.60113,
     "first_seen": null,
     "last_seen": null,
     "aliases": [
@@ -175,16 +159,18 @@
   },
   {
     "name": "1ère avenue / St-Zotique",
-    "lat": 45.551917,
-    "lng": -73.593664,
+    "lat": 45.551901,
+    "lng": -73.593633,
     "first_seen": null,
     "last_seen": null,
-    "aliases": []
+    "aliases": [
+      "1ere avenue / St-Zotique"
+    ]
   },
   {
     "name": "20e avenue / de Bellechasse",
-    "lat": 45.559935,
-    "lng": -73.576805,
+    "lat": 45.559934,
+    "lng": -73.576799,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -209,16 +195,16 @@
   },
   {
     "name": "26e avenue / Beaubien",
-    "lat": 45.564896,
-    "lng": -73.57756,
+    "lat": 45.564891,
+    "lng": -73.57755,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
   },
   {
     "name": "26e avenue / Bélanger",
-    "lat": 45.567216,
-    "lng": -73.585131,
+    "lat": 45.567212,
+    "lng": -73.585132,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -248,16 +234,18 @@
     "aliases": []
   },
   {
-    "name": "2e Avenue / Beaubien",
-    "lat": 45.550872,
-    "lng": -73.589628,
+    "name": "2e avenue / Beaubien",
+    "lat": 45.550884,
+    "lng": -73.589611,
     "first_seen": null,
     "last_seen": null,
-    "aliases": []
+    "aliases": [
+      "2e Avenue / Beaubien"
+    ]
   },
   {
     "name": "2e avenue / Centrale",
-    "lat": 45.432895,
+    "lat": 45.432894,
     "lng": -73.596855,
     "first_seen": null,
     "last_seen": null,
@@ -307,8 +295,8 @@
   },
   {
     "name": "35e avenue / Beaubien",
-    "lat": 45.570052,
-    "lng": -73.573056,
+    "lat": 45.570043,
+    "lng": -73.57306,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -325,8 +313,8 @@
   },
   {
     "name": "3e avenue / Bannantyne",
-    "lat": 45.457632,
-    "lng": -73.576318,
+    "lat": 45.457644,
+    "lng": -73.576161,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -341,8 +329,8 @@
   },
   {
     "name": "3e avenue / Wellington",
-    "lat": 45.4573,
-    "lng": -73.56725,
+    "lat": 45.457301,
+    "lng": -73.567246,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -365,8 +353,8 @@
   },
   {
     "name": "4e avenue / de Verdun",
-    "lat": 45.456872,
-    "lng": -73.572347,
+    "lat": 45.456871,
+    "lng": -73.572314,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -381,8 +369,8 @@
   },
   {
     "name": "5e avenue / Masson",
-    "lat": 45.547544,
-    "lng": -73.57536,
+    "lat": 45.547543,
+    "lng": -73.575361,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -405,8 +393,8 @@
   },
   {
     "name": "6e avenue / Bélanger",
-    "lat": 45.554564,
-    "lng": -73.596157,
+    "lat": 45.55456,
+    "lng": -73.596152,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -513,8 +501,8 @@
   },
   {
     "name": "9e avenue / Masson",
-    "lat": 45.549501,
-    "lng": -73.573296,
+    "lat": 45.549528,
+    "lng": -73.573359,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -545,8 +533,8 @@
   },
   {
     "name": "Alexandre-DeSève / Ontario",
-    "lat": 45.524377,
-    "lng": -73.560551,
+    "lat": 45.524378,
+    "lng": -73.560554,
     "first_seen": null,
     "last_seen": null,
     "aliases": [
@@ -554,20 +542,22 @@
     ]
   },
   {
-    "name": "Alexandre-DeSève / Ste-Catherine",
-    "lat": 45.52121,
-    "lng": -73.553829,
+    "name": "Alexandre-DeSève / René-Lévesque",
+    "lat": 45.519925,
+    "lng": -73.5508,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
   },
   {
-    "name": "Alexandre-de-Sève / Ste-Catherine",
-    "lat": 45.521208,
-    "lng": -73.553769,
+    "name": "Alexandre-DeSève / Ste-Catherine",
+    "lat": 45.521207,
+    "lng": -73.553824,
     "first_seen": null,
     "last_seen": null,
-    "aliases": []
+    "aliases": [
+      "Alexandre-de-Sève / Ste-Catherine"
+    ]
   },
   {
     "name": "Alexis-Nihon / St-Louis",
@@ -627,8 +617,8 @@
   },
   {
     "name": "André-Laurendeau / Rachel",
-    "lat": 45.542972,
-    "lng": -73.562242,
+    "lat": 45.542981,
+    "lng": -73.56229,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -644,15 +634,15 @@
   {
     "name": "Ann / Wellington",
     "lat": 45.494524,
-    "lng": -73.556758,
+    "lng": -73.556759,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
   },
   {
     "name": "Argyle / Bannantyne",
-    "lat": 45.453313,
-    "lng": -73.576779,
+    "lat": 45.453302,
+    "lng": -73.576786,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -667,8 +657,8 @@
   },
   {
     "name": "Armand-Frappier / Louis-R.-Renaud",
-    "lat": 45.554765,
-    "lng": -73.734257,
+    "lat": 45.554756,
+    "lng": -73.734327,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -733,40 +723,48 @@
   },
   {
     "name": "Augustin-Cantin / Shearer",
-    "lat": 45.483955,
-    "lng": -73.563543,
+    "lat": 45.483948,
+    "lng": -73.563555,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "Aylmer / Milton",
+    "lat": 45.507557,
+    "lng": -73.57523,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
   },
   {
     "name": "Aylmer / Prince-Arthur",
-    "lat": 45.508567,
-    "lng": -73.577698,
+    "lat": 45.508565,
+    "lng": -73.577687,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
   },
   {
     "name": "Aylmer / Sherbrooke",
-    "lat": 45.506463,
-    "lng": -73.573098,
+    "lat": 45.506448,
+    "lng": -73.573067,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
   },
   {
     "name": "Aylmer / Ste-Catherine",
-    "lat": 45.504355,
-    "lng": -73.568969,
+    "lat": 45.504358,
+    "lng": -73.568974,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
   },
   {
     "name": "Aylwin / Ontario",
-    "lat": 45.544288,
-    "lng": -73.545277,
+    "lat": 45.54429,
+    "lng": -73.545312,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -798,6 +796,14 @@
     ]
   },
   {
+    "name": "Baldwin / Notre-Dame",
+    "lat": 45.59758,
+    "lng": -73.511843,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
     "name": "Ball / Bloomfield",
     "lat": 45.529997,
     "lng": -73.632871,
@@ -819,12 +825,14 @@
     "lng": -73.641727,
     "first_seen": null,
     "last_seen": null,
-    "aliases": []
+    "aliases": [
+      "Basile-Routhier / Émile-Jounault"
+    ]
   },
   {
     "name": "Bassin Peel (Smith / de la Commune)",
-    "lat": 45.492725,
-    "lng": -73.556273,
+    "lat": 45.492773,
+    "lng": -73.556276,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -855,8 +863,8 @@
   },
   {
     "name": "Beaubien / 8e avenue",
-    "lat": 45.553393,
-    "lng": -73.587744,
+    "lat": 45.553392,
+    "lng": -73.587742,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -919,8 +927,8 @@
   },
   {
     "name": "Beauregard / Normandin",
-    "lat": 45.560086,
-    "lng": -73.766823,
+    "lat": 45.560098,
+    "lng": -73.766836,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -959,8 +967,8 @@
   },
   {
     "name": "Belmont / Robert-Bourassa",
-    "lat": 45.501215,
-    "lng": -73.566144,
+    "lat": 45.501366,
+    "lng": -73.566051,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -983,24 +991,24 @@
   },
   {
     "name": "Bennett / Pierre-de-Coubertin",
-    "lat": 45.558164,
-    "lng": -73.548432,
+    "lat": 45.558167,
+    "lng": -73.548456,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
   },
   {
     "name": "Bennett / Ste-Catherine",
-    "lat": 45.553132,
-    "lng": -73.532581,
+    "lat": 45.553137,
+    "lng": -73.53259,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
   },
   {
     "name": "Benny / Sherbrooke",
-    "lat": 45.46487,
-    "lng": -73.626571,
+    "lat": 45.464861,
+    "lng": -73.62654,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -1023,8 +1031,8 @@
   },
   {
     "name": "Bernard / Jeanne-Mance",
-    "lat": 45.524278,
-    "lng": -73.604962,
+    "lat": 45.52428,
+    "lng": -73.604956,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -1039,8 +1047,8 @@
   },
   {
     "name": "Berri / Cherrier",
-    "lat": 45.519185,
-    "lng": -73.569393,
+    "lat": 45.519195,
+    "lng": -73.569381,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -1055,16 +1063,16 @@
   },
   {
     "name": "Berri / Laurier",
-    "lat": 45.528056,
-    "lng": -73.588304,
+    "lat": 45.528046,
+    "lng": -73.588272,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
   },
   {
     "name": "Berri / Rachel",
-    "lat": 45.522739,
-    "lng": -73.577232,
+    "lat": 45.52274,
+    "lng": -73.577234,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -1128,9 +1136,17 @@
     ]
   },
   {
+    "name": "Bibliothèque de Ste-Thérèse (du Séminaire / Duquet)",
+    "lat": 45.64363,
+    "lng": -73.84012,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
     "name": "Bibliothèque de Verdun (Brown / Bannantyne)",
-    "lat": 45.448566,
-    "lng": -73.57775,
+    "lat": 45.448597,
+    "lng": -73.577735,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -1153,8 +1169,8 @@
   },
   {
     "name": "Bibliothèque et Complexe aquatique Rosemont (8e avenue / Rosemont)",
-    "lat": 45.55155,
-    "lng": -73.582184,
+    "lat": 45.551555,
+    "lng": -73.582197,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -1185,8 +1201,8 @@
   },
   {
     "name": "Bishop / de Maisonneuve",
-    "lat": 45.497226,
-    "lng": -73.577787,
+    "lat": 45.497217,
+    "lng": -73.577778,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -1219,8 +1235,8 @@
   },
   {
     "name": "Bloomfield / Bernard",
-    "lat": 45.520541,
-    "lng": -73.608156,
+    "lat": 45.520507,
+    "lng": -73.608092,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -1235,16 +1251,16 @@
   },
   {
     "name": "Bloomfield / Van Horne",
-    "lat": 45.52266,
-    "lng": -73.61299,
+    "lat": 45.522665,
+    "lng": -73.61302,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
   },
   {
     "name": "Boileau / Lacordaire",
-    "lat": 45.572642,
-    "lng": -73.541029,
+    "lat": 45.572588,
+    "lng": -73.541059,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -1307,16 +1323,16 @@
   },
   {
     "name": "Bourbonnière / Ontario",
-    "lat": 45.547962,
-    "lng": -73.543112,
+    "lat": 45.547972,
+    "lng": -73.543183,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
   },
   {
     "name": "Bourbonnière / du Mont-Royal",
-    "lat": 45.553595,
-    "lng": -73.560546,
+    "lat": 45.553607,
+    "lng": -73.560569,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -1339,8 +1355,8 @@
   },
   {
     "name": "Bourget / St-Jacques",
-    "lat": 45.480747,
-    "lng": -73.583663,
+    "lat": 45.480736,
+    "lng": -73.583641,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -1371,16 +1387,16 @@
   },
   {
     "name": "Boyer / Everett",
-    "lat": 45.543182,
-    "lng": -73.616167,
+    "lat": 45.543177,
+    "lng": -73.616151,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
   },
   {
     "name": "Boyer / Jean-Talon",
-    "lat": 45.541629,
-    "lng": -73.61262,
+    "lat": 45.541585,
+    "lng": -73.612536,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -1395,8 +1411,8 @@
   },
   {
     "name": "Boyer / Rosemont",
-    "lat": 45.534116,
-    "lng": -73.595509,
+    "lat": 45.534113,
+    "lng": -73.595512,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -1411,8 +1427,8 @@
   },
   {
     "name": "Boyer / St-Zotique",
-    "lat": 45.53858,
-    "lng": -73.605696,
+    "lat": 45.538594,
+    "lng": -73.605715,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -1427,8 +1443,8 @@
   },
   {
     "name": "Boyer / du Mont-Royal",
-    "lat": 45.527433,
-    "lng": -73.579918,
+    "lat": 45.52744,
+    "lng": -73.579927,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -1471,8 +1487,8 @@
   },
   {
     "name": "Bélanger / St-Denis",
-    "lat": 45.53696,
-    "lng": -73.61199,
+    "lat": 45.536956,
+    "lng": -73.611995,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -1554,38 +1570,23 @@
     "aliases": []
   },
   {
-    "name": "Cadillac / Sherbrooke",
-    "lat": 45.576963,
-    "lng": -73.546836,
-    "first_seen": null,
-    "last_seen": null,
-    "aliases": []
-  },
-  {
     "name": "Calixa-Lavallée / Rachel",
-    "lat": 45.5278,
-    "lng": -73.571849,
+    "lat": 45.527798,
+    "lng": -73.571827,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
   },
   {
     "name": "Calixa-Lavallée / Rachel (ouest)",
-    "lat": 45.527831,
-    "lng": -73.571959,
+    "lat": 45.52783,
+    "lng": -73.571958,
     "first_seen": null,
     "last_seen": null,
     "aliases": [
+      "Calixa-Lavallée / Rachel 2",
       "Calixa-Lavallée/Rachel"
     ]
-  },
-  {
-    "name": "Calixa-Lavallée / Rachel 2",
-    "lat": 45.527798,
-    "lng": -73.571915,
-    "first_seen": null,
-    "last_seen": null,
-    "aliases": []
   },
   {
     "name": "Calixa-Lavallée / Sherbrooke",
@@ -1597,8 +1598,8 @@
   },
   {
     "name": "Campus MIL (Outremont / Thérèse-Lavoie Roux)",
-    "lat": 45.52308,
-    "lng": -73.61808,
+    "lat": 45.523041,
+    "lng": -73.618055,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -1625,14 +1626,30 @@
     "lng": -73.643241,
     "first_seen": null,
     "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "Carignan / Beaubien",
+    "lat": 45.585639,
+    "lng": -73.561813,
+    "first_seen": null,
+    "last_seen": null,
     "aliases": [
-      "REM Ville-de-Mont-Royal (Canora)"
+      "Carignan / Sherbrooke"
     ]
   },
   {
     "name": "Carrefour Angrignon (Angrignon / Newman)",
     "lat": 45.448434,
     "lng": -73.612945,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "Carson / Dorval",
+    "lat": 45.443783,
+    "lng": -73.741647,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -1655,8 +1672,8 @@
   },
   {
     "name": "Cartier / Bélanger",
-    "lat": 45.546787,
-    "lng": -73.602747,
+    "lat": 45.546786,
+    "lng": -73.602756,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -1681,24 +1698,24 @@
   },
   {
     "name": "Cartier / Marie-Anne",
-    "lat": 45.532768,
-    "lng": -73.571867,
+    "lat": 45.532773,
+    "lng": -73.571872,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
   },
   {
     "name": "Cartier / Masson",
-    "lat": 45.538036,
-    "lng": -73.583511,
+    "lat": 45.538042,
+    "lng": -73.583506,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
   },
   {
     "name": "Cartier / Rosemont",
-    "lat": 45.541218,
-    "lng": -73.591015,
+    "lat": 45.541229,
+    "lng": -73.591039,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -1721,8 +1738,8 @@
   },
   {
     "name": "Casgrain / Maguire",
-    "lat": 45.526103,
-    "lng": -73.595558,
+    "lat": 45.526117,
+    "lng": -73.595585,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -1817,8 +1834,8 @@
   },
   {
     "name": "Chabanel / de l'Esplanade",
-    "lat": 45.541052,
-    "lng": -73.653047,
+    "lat": 45.541126,
+    "lng": -73.65298,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -1833,16 +1850,24 @@
   },
   {
     "name": "Chabot / Beaubien",
-    "lat": 45.5444,
-    "lng": -73.595708,
+    "lat": 45.544409,
+    "lng": -73.595727,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
   },
   {
     "name": "Chabot / Laurier",
-    "lat": 45.5369,
-    "lng": -73.579476,
+    "lat": 45.536944,
+    "lng": -73.579576,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "Chabot / St-Zotique",
+    "lat": 45.545906,
+    "lng": -73.599099,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -1865,8 +1890,8 @@
   },
   {
     "name": "Chabot / du Mont-Royal",
-    "lat": 45.534149,
-    "lng": -73.573543,
+    "lat": 45.534152,
+    "lng": -73.573553,
     "first_seen": null,
     "last_seen": null,
     "aliases": [
@@ -1885,8 +1910,8 @@
   },
   {
     "name": "Chambord / Fleury",
-    "lat": 45.559796,
-    "lng": -73.658231,
+    "lat": 45.559805,
+    "lng": -73.658265,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -1925,8 +1950,8 @@
   },
   {
     "name": "Chambord / du Mont-Royal",
-    "lat": 45.529712,
-    "lng": -73.577218,
+    "lat": 45.529721,
+    "lng": -73.577371,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -1935,6 +1960,22 @@
     "name": "Champdoré / de Lorimier",
     "lat": 45.566869,
     "lng": -73.641017,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "Champlain / Gagné",
+    "lat": 45.42655,
+    "lng": -73.612358,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "Chapleau / Sherbrooke",
+    "lat": 45.535303,
+    "lng": -73.56176,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -1965,8 +2006,8 @@
   },
   {
     "name": "Charles-Biddle / Atwater",
-    "lat": 45.479133,
-    "lng": -73.575162,
+    "lat": 45.479125,
+    "lng": -73.575185,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -1997,8 +2038,8 @@
   },
   {
     "name": "Chomedey / de Maisonneuve",
-    "lat": 45.491773,
-    "lng": -73.583973,
+    "lat": 45.491771,
+    "lng": -73.58397,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -2076,13 +2117,13 @@
     "aliases": []
   },
   {
-    "name": "Cité des Arts du Cirque (Paul Boutet / Jarry)",
-    "lat": 45.559219,
-    "lng": -73.61401,
+    "name": "Cité des Arts du Cirque ( Paul-Boutet / des Regratiers)",
+    "lat": 45.559816,
+    "lng": -73.615359,
     "first_seen": null,
     "last_seen": null,
     "aliases": [
-      "Cité des Arts du Cirque (Paul-Boutet / Jarry)"
+      "Paul-Boutet/Des Regratiers"
     ]
   },
   {
@@ -2092,6 +2133,16 @@
     "first_seen": null,
     "last_seen": null,
     "aliases": []
+  },
+  {
+    "name": "Cité des Arts du Cirque (Paul-Boutet / Jarry)",
+    "lat": 45.559219,
+    "lng": -73.61401,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": [
+      "Cité des Arts du Cirque (Paul Boutet / Jarry)"
+    ]
   },
   {
     "name": "Clanranald / de la Côte-St-Luc",
@@ -2105,8 +2156,8 @@
   },
   {
     "name": "Clark / Evans",
-    "lat": 45.511092,
-    "lng": -73.567817,
+    "lat": 45.511091,
+    "lng": -73.567824,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -2122,7 +2173,7 @@
   {
     "name": "Clark / Fleury",
     "lat": 45.547582,
-    "lng": -73.665232,
+    "lng": -73.665231,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -2137,16 +2188,16 @@
   },
   {
     "name": "Clark / Laurier",
-    "lat": 45.522583,
-    "lng": -73.593599,
+    "lat": 45.522588,
+    "lng": -73.593611,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
   },
   {
     "name": "Clark / Ontario",
-    "lat": 45.510584,
-    "lng": -73.566875,
+    "lat": 45.510578,
+    "lng": -73.566878,
     "first_seen": null,
     "last_seen": null,
     "aliases": [
@@ -2155,24 +2206,32 @@
   },
   {
     "name": "Clark / Prince-Arthur",
-    "lat": 45.513325,
-    "lng": -73.572991,
+    "lat": 45.513327,
+    "lng": -73.572994,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
   },
   {
     "name": "Clark / Rachel",
-    "lat": 45.517454,
-    "lng": -73.582285,
+    "lat": 45.517464,
+    "lng": -73.582301,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "Clark / St-Joseph",
+    "lat": 45.521704,
+    "lng": -73.591544,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
   },
   {
     "name": "Clark / St-Viateur",
-    "lat": 45.525179,
-    "lng": -73.599307,
+    "lat": 45.525181,
+    "lng": -73.599314,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -2188,15 +2247,23 @@
   {
     "name": "Clark / de Liège",
     "lat": 45.539987,
-    "lng": -73.63812,
+    "lng": -73.638118,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
   },
   {
     "name": "Clark / de l'Arcade",
-    "lat": 45.527372,
-    "lng": -73.603984,
+    "lat": 45.527374,
+    "lng": -73.603992,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "Cloutier / Bernard",
+    "lat": 45.527923,
+    "lng": -73.601968,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -2301,7 +2368,9 @@
     "lng": -73.896001,
     "first_seen": null,
     "last_seen": null,
-    "aliases": []
+    "aliases": [
+      "Complexe Aquatique St-Eustache (Arthur-Sauvé)"
+    ]
   },
   {
     "name": "Complexe Desjardins (St-Urbain / René-Lévesque)",
@@ -2310,6 +2379,32 @@
     "first_seen": null,
     "last_seen": null,
     "aliases": []
+  },
+  {
+    "name": "Complexe Loto-Québec (Bridge)",
+    "lat": 45.488029,
+    "lng": -73.553666,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "Complexe Multisport de St-Eustache (Grignon / Jérôme-Richer)",
+    "lat": 45.573603,
+    "lng": -73.908243,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "Complexe aquatique et sportif (Dawson)",
+    "lat": 45.441976,
+    "lng": -73.754356,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": [
+      "Complexe Aquatique et Sportif (Dawson)"
+    ]
   },
   {
     "name": "Complexe sportif Claude Robillard (Émile-Journault)",
@@ -2345,8 +2440,8 @@
   },
   {
     "name": "Crescent / René-Lévesque",
-    "lat": 45.49599,
-    "lng": -73.573335,
+    "lat": 45.495998,
+    "lng": -73.573359,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -2361,8 +2456,8 @@
   },
   {
     "name": "Crescent / de Maisonneuve",
-    "lat": 45.498116,
-    "lng": -73.577606,
+    "lat": 45.498117,
+    "lng": -73.577604,
     "first_seen": null,
     "last_seen": null,
     "aliases": [
@@ -2380,8 +2475,8 @@
   },
   {
     "name": "Curé-Poirier / Joliette",
-    "lat": 45.52034,
-    "lng": -73.487921,
+    "lat": 45.52033,
+    "lng": -73.487925,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -2490,8 +2585,8 @@
   },
   {
     "name": "Dandurand / de Lorimier",
-    "lat": 45.540889,
-    "lng": -73.584191,
+    "lat": 45.540883,
+    "lng": -73.584187,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -2506,8 +2601,8 @@
   },
   {
     "name": "Darling / Sherbrooke",
-    "lat": 45.545405,
-    "lng": -73.556588,
+    "lat": 45.545413,
+    "lng": -73.556612,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -2596,7 +2691,7 @@
   },
   {
     "name": "Desjardins / Ontario",
-    "lat": 45.551187,
+    "lat": 45.551186,
     "lng": -73.540872,
     "first_seen": null,
     "last_seen": null,
@@ -2628,8 +2723,8 @@
   },
   {
     "name": "Dollard / Van Horne",
-    "lat": 45.519048,
-    "lng": -73.616227,
+    "lat": 45.519042,
+    "lng": -73.616189,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -2652,7 +2747,7 @@
   },
   {
     "name": "Dorion / Ontario",
-    "lat": 45.526991,
+    "lat": 45.526992,
     "lng": -73.558212,
     "first_seen": null,
     "last_seen": null,
@@ -2732,8 +2827,8 @@
   },
   {
     "name": "Drummond / Sherbrooke",
-    "lat": 45.500487,
-    "lng": -73.578132,
+    "lat": 45.500491,
+    "lng": -73.57813,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -2748,8 +2843,8 @@
   },
   {
     "name": "Drummond / de Maisonneuve",
-    "lat": 45.499511,
-    "lng": -73.576009,
+    "lat": 45.499534,
+    "lng": -73.576063,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -2787,6 +2882,14 @@
     "aliases": []
   },
   {
+    "name": "Ducharme / Curé-Labelle",
+    "lat": 45.647416,
+    "lng": -73.840302,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
     "name": "Duchesneau / de Grosbois",
     "lat": 45.611294,
     "lng": -73.531215,
@@ -2796,8 +2899,8 @@
   },
   {
     "name": "Duchesneau / de Marseille",
-    "lat": 45.609626,
-    "lng": -73.522739,
+    "lat": 45.609633,
+    "lng": -73.522779,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -2888,8 +2991,8 @@
   },
   {
     "name": "Duluth / de l'Esplanade",
-    "lat": 45.515115,
-    "lng": -73.581093,
+    "lat": 45.515117,
+    "lng": -73.581089,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -2903,17 +3006,25 @@
     "aliases": []
   },
   {
+    "name": "Dupuis / de la Côte-des-Neiges",
+    "lat": 45.497951,
+    "lng": -73.626428,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
     "name": "Durocher / Beaumont",
     "lat": 45.527999,
-    "lng": -73.619215,
+    "lng": -73.619213,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
   },
   {
     "name": "Durocher / Bernard",
-    "lat": 45.52224,
-    "lng": -73.606728,
+    "lat": 45.522249,
+    "lng": -73.606757,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -2928,8 +3039,8 @@
   },
   {
     "name": "Durocher / Prince-Arthur",
-    "lat": 45.509231,
-    "lng": -73.576976,
+    "lat": 45.509273,
+    "lng": -73.577095,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -2960,8 +3071,8 @@
   },
   {
     "name": "Dézéry / Ontario",
-    "lat": 45.541028,
-    "lng": -73.547268,
+    "lat": 45.541019,
+    "lng": -73.547237,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -2984,8 +3095,8 @@
   },
   {
     "name": "Earnscliffe / Queen-Mary",
-    "lat": 45.481845,
-    "lng": -73.630384,
+    "lat": 45.481844,
+    "lng": -73.630389,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -3010,8 +3121,8 @@
   },
   {
     "name": "Egan / Laurendeau",
-    "lat": 45.452886,
-    "lng": -73.589213,
+    "lat": 45.452876,
+    "lng": -73.589191,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -3055,8 +3166,8 @@
   },
   {
     "name": "Empire / Régent",
-    "lat": 45.484775,
-    "lng": -73.47777,
+    "lat": 45.484779,
+    "lng": -73.477776,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -3133,16 +3244,16 @@
   },
   {
     "name": "Fabre / Laurier",
-    "lat": 45.534572,
-    "lng": -73.582564,
+    "lat": 45.534573,
+    "lng": -73.582583,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
   },
   {
     "name": "Fabre / St-Zotique",
-    "lat": 45.543565,
-    "lng": -73.60115,
+    "lat": 45.543577,
+    "lng": -73.601165,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -3161,20 +3272,30 @@
     "lng": -73.620822,
     "first_seen": null,
     "last_seen": null,
-    "aliases": []
+    "aliases": [
+      "Espaces Waverly (Waverly / Jean-Talon)"
+    ]
   },
   {
     "name": "Faillon / St-Denis",
-    "lat": 45.53988,
-    "lng": -73.620288,
+    "lat": 45.539882,
+    "lng": -73.620284,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "Faillon / St-Laurent",
+    "lat": 45.536475,
+    "lng": -73.622218,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
   },
   {
     "name": "Fairmount / Hutchison",
-    "lat": 45.519682,
-    "lng": -73.598272,
+    "lat": 45.519684,
+    "lng": -73.598271,
     "first_seen": null,
     "last_seen": null,
     "aliases": [
@@ -3215,8 +3336,8 @@
   },
   {
     "name": "Fortune / Wellington",
-    "lat": 45.477895,
-    "lng": -73.558986,
+    "lat": 45.477887,
+    "lng": -73.558971,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -3247,16 +3368,16 @@
   },
   {
     "name": "Fullum / Gilford",
-    "lat": 45.539206,
-    "lng": -73.5738,
+    "lat": 45.539205,
+    "lng": -73.573797,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
   },
   {
     "name": "Fullum / Hochelaga",
-    "lat": 45.53304,
-    "lng": -73.560628,
+    "lat": 45.532599,
+    "lng": -73.55976,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -3270,9 +3391,17 @@
     "aliases": []
   },
   {
+    "name": "Fullum / Lalonde",
+    "lat": 45.529882,
+    "lng": -73.554002,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
     "name": "Fullum / Marie-Anne",
-    "lat": 45.536505,
-    "lng": -73.568039,
+    "lat": 45.536506,
+    "lng": -73.56804,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -3287,8 +3416,8 @@
   },
   {
     "name": "Fullum / Sherbrooke",
-    "lat": 45.533786,
-    "lng": -73.562281,
+    "lat": 45.533787,
+    "lng": -73.562283,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -3363,6 +3492,16 @@
     ]
   },
   {
+    "name": "Gare Dorval (Montréal-Toronto / Côte-de-Liesse)",
+    "lat": 45.448475,
+    "lng": -73.742554,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": [
+      "Gare Dorval (Montréal-Toronto/Côte-de-Liesse)"
+    ]
+  },
+  {
     "name": "Gare LaSalle (Highlands)",
     "lat": 45.425613,
     "lng": -73.657136,
@@ -3397,16 +3536,6 @@
     "aliases": []
   },
   {
-    "name": "Gare REM Deux-Montagnes (de Deux-Montagnes)",
-    "lat": 45.544576,
-    "lng": -73.912031,
-    "first_seen": null,
-    "last_seen": null,
-    "aliases": [
-      "REM Deux-Montagnes (de Deux-Montagnes)"
-    ]
-  },
-  {
     "name": "Gare St-Michel / Montréal-Nord (Pie-IX / 56e)",
     "lat": 45.583198,
     "lng": -73.629787,
@@ -3426,11 +3555,21 @@
   },
   {
     "name": "Gare Ste-Rose (Ste-Rose E)",
-    "lat": 45.62564,
-    "lng": -73.765398,
+    "lat": 45.625642,
+    "lng": -73.765396,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
+  },
+  {
+    "name": "Gare Ste-Thérèse (des Pianos / Virginie)",
+    "lat": 45.63634,
+    "lng": -73.836532,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": [
+      "Gare exo Ste-Thérèse (des Pianos / Virginie)"
+    ]
   },
   {
     "name": "Gare Vimont (Bellerose O)",
@@ -3460,8 +3599,8 @@
   },
   {
     "name": "Garnier / Beaubien",
-    "lat": 45.541464,
-    "lng": -73.598406,
+    "lat": 45.541485,
+    "lng": -73.598441,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -3477,7 +3616,7 @@
   {
     "name": "Garnier / St-Grégoire",
     "lat": 45.535827,
-    "lng": -73.587065,
+    "lng": -73.587071,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -3510,8 +3649,16 @@
   },
   {
     "name": "Gary-Carter / St-Laurent",
-    "lat": 45.536009,
-    "lng": -73.622494,
+    "lat": 45.536006,
+    "lng": -73.622496,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "Gascon / Hochelaga",
+    "lat": 45.53607,
+    "lng": -73.557651,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -3519,15 +3666,15 @@
   {
     "name": "Gascon / de Rouen",
     "lat": 45.535352,
-    "lng": -73.555395,
+    "lng": -73.555396,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
   },
   {
     "name": "Gauthier / Papineau",
-    "lat": 45.529667,
-    "lng": -73.567335,
+    "lat": 45.529678,
+    "lng": -73.567311,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -3542,8 +3689,8 @@
   },
   {
     "name": "Gauthier / de Lorimier",
-    "lat": 45.531668,
-    "lng": -73.565384,
+    "lat": 45.531667,
+    "lng": -73.565381,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -3566,8 +3713,8 @@
   },
   {
     "name": "Georges-Vanier / Notre-Dame",
-    "lat": 45.485053,
-    "lng": -73.57196,
+    "lat": 45.485056,
+    "lng": -73.571958,
     "first_seen": null,
     "last_seen": null,
     "aliases": [
@@ -3592,8 +3739,8 @@
   },
   {
     "name": "Gilford / Papineau",
-    "lat": 45.534405,
-    "lng": -73.578226,
+    "lat": 45.534412,
+    "lng": -73.57822,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -3608,16 +3755,16 @@
   },
   {
     "name": "Gilford / St-Denis",
-    "lat": 45.525033,
-    "lng": -73.585759,
+    "lat": 45.525025,
+    "lng": -73.585735,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
   },
   {
     "name": "Gilford / de Brébeuf",
-    "lat": 45.530855,
-    "lng": -73.581577,
+    "lat": 45.530857,
+    "lng": -73.581574,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -3640,16 +3787,16 @@
   },
   {
     "name": "Gilford / des Érables",
-    "lat": 45.537427,
-    "lng": -73.575215,
+    "lat": 45.537401,
+    "lng": -73.575237,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
   },
   {
     "name": "Glengarry / Graham",
-    "lat": 45.50919,
-    "lng": -73.660327,
+    "lat": 45.509188,
+    "lng": -73.660376,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -3664,8 +3811,8 @@
   },
   {
     "name": "Gordon / Wellington",
-    "lat": 45.461059,
-    "lng": -73.567148,
+    "lat": 45.46105,
+    "lng": -73.567076,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -3680,24 +3827,32 @@
   },
   {
     "name": "Goyer / Côte-des-Neiges",
-    "lat": 45.503191,
-    "lng": -73.636579,
+    "lat": 45.503215,
+    "lng": -73.636522,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
   },
   {
     "name": "Graham / Brookfield",
-    "lat": 45.520222,
-    "lng": -73.629856,
+    "lat": 45.520234,
+    "lng": -73.629834,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "Graham / Brookfield 2",
+    "lat": 45.520287,
+    "lng": -73.629809,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
   },
   {
     "name": "Graham / Kindersley",
-    "lat": 45.514065,
-    "lng": -73.647104,
+    "lat": 45.514067,
+    "lng": -73.647089,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -3728,11 +3883,21 @@
   },
   {
     "name": "Grand Boulevard / de Terrebonne",
-    "lat": 45.470525,
-    "lng": -73.631656,
+    "lat": 45.470512,
+    "lng": -73.631647,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
+  },
+  {
+    "name": "Grand Boulevard / de Terrebonne 2",
+    "lat": 45.470425,
+    "lng": -73.631584,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": [
+      "Loyola / Somerled"
+    ]
   },
   {
     "name": "Grand Trunk / d'Hibernia",
@@ -3760,8 +3925,8 @@
   },
   {
     "name": "Grey / Sherbrooke",
-    "lat": 45.476399,
-    "lng": -73.606327,
+    "lat": 45.476416,
+    "lng": -73.606348,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -3784,8 +3949,8 @@
   },
   {
     "name": "Guilbault / St-Charles",
-    "lat": 45.535872,
-    "lng": -73.512644,
+    "lat": 45.535867,
+    "lng": -73.512628,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -3800,8 +3965,8 @@
   },
   {
     "name": "Guizot / St-Laurent",
-    "lat": 45.539674,
-    "lng": -73.634491,
+    "lat": 45.539677,
+    "lng": -73.634494,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -3866,8 +4031,8 @@
   },
   {
     "name": "Hamilton / Jolicoeur",
-    "lat": 45.456472,
-    "lng": -73.597582,
+    "lat": 45.456423,
+    "lng": -73.597564,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -3890,24 +4055,24 @@
   },
   {
     "name": "Henri-Julien / Duluth",
-    "lat": 45.519662,
-    "lng": -73.576749,
+    "lat": 45.519676,
+    "lng": -73.576748,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
   },
   {
     "name": "Henri-Julien / Laurier",
-    "lat": 45.525766,
-    "lng": -73.590334,
+    "lat": 45.525757,
+    "lng": -73.590322,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
   },
   {
     "name": "Henri-Julien / de Bellechasse",
-    "lat": 45.530414,
-    "lng": -73.604128,
+    "lat": 45.530661,
+    "lng": -73.603928,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -3922,8 +4087,8 @@
   },
   {
     "name": "Henri-Julien / du Carmel",
-    "lat": 45.52791,
-    "lng": -73.594948,
+    "lat": 45.527916,
+    "lng": -73.59496,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -3947,25 +4112,33 @@
     "aliases": []
   },
   {
+    "name": "Hickson / Ross",
+    "lat": 45.464811,
+    "lng": -73.565891,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
     "name": "Hickson / Wellington",
-    "lat": 45.464851,
-    "lng": -73.567075,
+    "lat": 45.46485,
+    "lng": -73.567076,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
   },
   {
     "name": "Hillside / Ste-Catherine",
-    "lat": 45.482832,
-    "lng": -73.590864,
+    "lat": 45.482834,
+    "lng": -73.590871,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
   },
   {
     "name": "Hingston / Somerled",
-    "lat": 45.473516,
-    "lng": -73.634203,
+    "lat": 45.473517,
+    "lng": -73.634204,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -4013,7 +4186,7 @@
   {
     "name": "Hogan / Ontario",
     "lat": 45.5353,
-    "lng": -73.551147,
+    "lng": -73.551146,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -4068,8 +4241,8 @@
   },
   {
     "name": "Hutchison / Beaubien",
-    "lat": 45.526063,
-    "lng": -73.61302,
+    "lat": 45.526065,
+    "lng": -73.61304,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -4085,7 +4258,7 @@
   {
     "name": "Hutchison / Van Horne",
     "lat": 45.524959,
-    "lng": -73.610609,
+    "lng": -73.610601,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -4093,7 +4266,7 @@
   {
     "name": "Hutchison / des Pins",
     "lat": 45.51069,
-    "lng": -73.57805,
+    "lng": -73.578049,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -4108,8 +4281,8 @@
   },
   {
     "name": "Hélène-Baillargeon / St-Denis",
-    "lat": 45.529739,
-    "lng": -73.595232,
+    "lat": 45.529738,
+    "lng": -73.595217,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -4126,8 +4299,8 @@
   },
   {
     "name": "Hôpital Maisonneuve-Rosemont (Rosemont / Chatelain)",
-    "lat": 45.57566,
-    "lng": -73.561369,
+    "lat": 45.575646,
+    "lng": -73.561312,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -4199,6 +4372,22 @@
     "aliases": []
   },
   {
+    "name": "Hôtel de Ville (St-Louis / du Chanoine-Lionel-Groulx)",
+    "lat": 45.640378,
+    "lng": -73.842338,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "Hôtel de Ville de Boisbriand (des Commissaires / de la Grande-Allée)",
+    "lat": 45.613049,
+    "lng": -73.838472,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
     "name": "Hôtel-de-Ville / Viger",
     "lat": 45.509561,
     "lng": -73.557502,
@@ -4208,8 +4397,8 @@
   },
   {
     "name": "INRS (Cartier O / Armand-Frappier)",
-    "lat": 45.545069,
-    "lng": -73.720857,
+    "lat": 45.545075,
+    "lng": -73.720785,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -4232,8 +4421,8 @@
   },
   {
     "name": "IUSMM (Georges-Villeneuve)",
-    "lat": 45.586592,
-    "lng": -73.529562,
+    "lat": 45.586595,
+    "lng": -73.529583,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -4248,8 +4437,8 @@
   },
   {
     "name": "Industriel / Louis-J.-Lafortune",
-    "lat": 45.581921,
-    "lng": -73.455317,
+    "lat": 45.581911,
+    "lng": -73.455306,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -4287,12 +4476,22 @@
     "aliases": []
   },
   {
-    "name": "Jacques-Casault / Christophe-Colomb",
-    "lat": 45.55205,
-    "lng": -73.630197,
+    "name": "Jacques-Cartier / St-Hélène",
+    "lat": 45.50849,
+    "lng": -73.471665,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
+  },
+  {
+    "name": "Jacques-Casault / Christophe-Colomb",
+    "lat": 45.552037,
+    "lng": -73.63019,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": [
+      "Jacques-Casault"
+    ]
   },
   {
     "name": "Jacques-Casault / Pierre-Dupaigne",
@@ -4304,8 +4503,8 @@
   },
   {
     "name": "Jacques-Le Ber / de la Pointe Nord",
-    "lat": 45.472552,
-    "lng": -73.539551,
+    "lat": 45.472559,
+    "lng": -73.539589,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -4341,8 +4540,8 @@
   },
   {
     "name": "Jean-Brillant / Decelles",
-    "lat": 45.498164,
-    "lng": -73.619597,
+    "lat": 45.498203,
+    "lng": -73.619536,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -4351,6 +4550,22 @@
     "name": "Jean-Brillant / de la Côte-des-Neiges",
     "lat": 45.495415,
     "lng": -73.622341,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "Jean-D'Estrées / Notre-Dame",
+    "lat": 45.49447,
+    "lng": -73.564059,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "Jean-Langlois / Dufresne",
+    "lat": 45.527385,
+    "lng": -73.545753,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -4381,8 +4596,8 @@
   },
   {
     "name": "Jean-Talon / de l'Épée",
-    "lat": 45.527825,
-    "lng": -73.623931,
+    "lat": 45.527846,
+    "lng": -73.623923,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -4415,8 +4630,8 @@
   },
   {
     "name": "Jeanne-Mance / Laurier",
-    "lat": 45.520204,
-    "lng": -73.59509,
+    "lat": 45.520213,
+    "lng": -73.595076,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -4430,6 +4645,14 @@
     "aliases": [
       "Jeann-Mance / Milton"
     ]
+  },
+  {
+    "name": "Jeanne-Mance / Prince Arthur",
+    "lat": 45.511204,
+    "lng": -73.575279,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
   },
   {
     "name": "Jeanne-Mance / Prince-Arthur",
@@ -4449,8 +4672,16 @@
   },
   {
     "name": "Jeanne-Mance / Sherbrooke",
-    "lat": 45.509314,
-    "lng": -73.571111,
+    "lat": 45.509318,
+    "lng": -73.571125,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "Jeanne-Mance / St-Joseph",
+    "lat": 45.519648,
+    "lng": -73.593378,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -4465,8 +4696,8 @@
   },
   {
     "name": "Jeanne-Mance / St-Viateur",
-    "lat": 45.523017,
-    "lng": -73.601852,
+    "lat": 45.523013,
+    "lng": -73.601857,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -4480,9 +4711,17 @@
     "aliases": []
   },
   {
+    "name": "Jeanne-Mance / Villeneuve",
+    "lat": 45.518782,
+    "lng": -73.591643,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
     "name": "Jeanne-d'Arc / Ontario",
-    "lat": 45.549598,
-    "lng": -73.541874,
+    "lat": 45.549597,
+    "lng": -73.541879,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -4491,6 +4730,14 @@
     "name": "Jogues / Allard",
     "lat": 45.45002,
     "lng": -73.600306,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "John-Easton-Mills / Dézéry",
+    "lat": 45.539034,
+    "lng": -73.540139,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -4505,6 +4752,22 @@
       "Joseph Manseau / René-Levesque",
       "Joseph-Manseau / René-Lévesque"
     ]
+  },
+  {
+    "name": "Jourdain / D'Iberville",
+    "lat": 45.544882,
+    "lng": -73.581826,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "Jubinville / Proulx",
+    "lat": 45.570324,
+    "lng": -73.686976,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
   },
   {
     "name": "Juliette / Lise",
@@ -4525,6 +4788,14 @@
     ]
   },
   {
+    "name": "Kensington / Fielding",
+    "lat": 45.473163,
+    "lng": -73.640049,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
     "name": "King / de la Commune",
     "lat": 45.497526,
     "lng": -73.553186,
@@ -4539,6 +4810,17 @@
     "first_seen": null,
     "last_seen": null,
     "aliases": []
+  },
+  {
+    "name": "La Fontaine / Alexandre-DeSève",
+    "lat": 45.523304,
+    "lng": -73.558,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": [
+      "La Fontaine / Alexandre-de-Sève",
+      "la Fontaine / Alexandre-de-Sève"
+    ]
   },
   {
     "name": "La Fontaine / Bossuet",
@@ -4590,8 +4872,8 @@
   },
   {
     "name": "LaSalle / 37e avenue",
-    "lat": 45.416302,
-    "lng": -73.612907,
+    "lat": 45.416301,
+    "lng": -73.612906,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -4606,8 +4888,8 @@
   },
   {
     "name": "LaSalle / 90e avenue",
-    "lat": 45.417577,
-    "lng": -73.644856,
+    "lat": 45.417603,
+    "lng": -73.644908,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -4615,7 +4897,7 @@
   {
     "name": "LaSalle / Crawford",
     "lat": 45.437915,
-    "lng": -73.582628,
+    "lng": -73.582614,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -4630,8 +4912,8 @@
   },
   {
     "name": "Labadie / du Parc",
-    "lat": 45.51989,
-    "lng": -73.596849,
+    "lat": 45.519888,
+    "lng": -73.596858,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -4695,17 +4977,41 @@
     "aliases": []
   },
   {
+    "name": "Laird / Kenilworth",
+    "lat": 45.507094,
+    "lng": -73.64266,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "Laird / St-Clare",
+    "lat": 45.506035,
+    "lng": -73.642634,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
     "name": "Lajeunesse / Villeray",
-    "lat": 45.542156,
-    "lng": -73.622629,
+    "lat": 45.542159,
+    "lng": -73.622636,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
   },
   {
     "name": "Lajeunesse / de Liège",
-    "lat": 45.545627,
-    "lng": -73.635012,
+    "lat": 45.545632,
+    "lng": -73.635025,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "Lake / de Salaberry",
+    "lat": 45.484251,
+    "lng": -73.806463,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -4736,8 +5042,8 @@
   },
   {
     "name": "Langelier / Marie-Victorin",
-    "lat": 45.614497,
-    "lng": -73.612109,
+    "lat": 45.61449,
+    "lng": -73.612114,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -4746,6 +5052,14 @@
     "name": "Lanouette / de l'Église",
     "lat": 45.463374,
     "lng": -73.576834,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "Lansdowne / Ste-Catherine",
+    "lat": 45.478446,
+    "lng": -73.597227,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -4811,7 +5125,7 @@
   {
     "name": "Laurier / St-Denis",
     "lat": 45.527153,
-    "lng": -73.58945,
+    "lng": -73.589448,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -4826,8 +5140,16 @@
   },
   {
     "name": "Laurier / de Brébeuf",
-    "lat": 45.532517,
-    "lng": -73.584754,
+    "lat": 45.532528,
+    "lng": -73.58474,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "Laurin / 25e avenue",
+    "lat": 45.532852,
+    "lng": -73.941485,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -4842,8 +5164,8 @@
   },
   {
     "name": "Laval / Rachel",
-    "lat": 45.520207,
-    "lng": -73.579488,
+    "lat": 45.52021,
+    "lng": -73.579494,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -4913,6 +5235,14 @@
     "aliases": []
   },
   {
+    "name": "Legendre / D'Iberville",
+    "lat": 45.568229,
+    "lng": -73.630594,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
     "name": "Legrand / Cartier",
     "lat": 45.552298,
     "lng": -73.707383,
@@ -4964,8 +5294,8 @@
   },
   {
     "name": "Lincoln / St-Marc",
-    "lat": 45.494122,
-    "lng": -73.582634,
+    "lat": 45.494138,
+    "lng": -73.582614,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -5020,8 +5350,8 @@
   },
   {
     "name": "Lockhart / Canora",
-    "lat": 45.514636,
-    "lng": -73.634723,
+    "lat": 45.514635,
+    "lng": -73.634724,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -5044,16 +5374,16 @@
   },
   {
     "name": "Logan / Poupart",
-    "lat": 45.53005,
-    "lng": -73.549508,
+    "lat": 45.530049,
+    "lng": -73.549507,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
   },
   {
     "name": "Logan / Tiffin",
-    "lat": 45.513787,
-    "lng": -73.508745,
+    "lat": 45.513777,
+    "lng": -73.508757,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -5076,8 +5406,24 @@
   },
   {
     "name": "Lorne / Prince-Arthur",
-    "lat": 45.508093,
-    "lng": -73.577806,
+    "lat": 45.50808,
+    "lng": -73.577782,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "Louis-Colin / Willowdale",
+    "lat": 45.503734,
+    "lng": -73.620009,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "Louis-Collin / Willowdale",
+    "lat": 45.503676,
+    "lng": -73.619829,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -5092,8 +5438,8 @@
   },
   {
     "name": "Louis-Hébert / Beaubien",
-    "lat": 45.548195,
-    "lng": -73.592025,
+    "lat": 45.548197,
+    "lng": -73.592027,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -5140,8 +5486,8 @@
   },
   {
     "name": "Louis-Hémon / Rosemont",
-    "lat": 45.544477,
-    "lng": -73.588093,
+    "lat": 45.544453,
+    "lng": -73.588069,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -5158,6 +5504,14 @@
     "name": "Louis-Hémon / Villeray",
     "lat": 45.554961,
     "lng": -73.610737,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "Louis-Hémon / de Bellechasse",
+    "lat": 45.545389,
+    "lng": -73.590085,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -5278,16 +5632,16 @@
   },
   {
     "name": "Mackay / René-Lévesque",
-    "lat": 45.494495,
-    "lng": -73.574241,
+    "lat": 45.494478,
+    "lng": -73.574188,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
   },
   {
     "name": "Mackay / Sherbrooke",
-    "lat": 45.497571,
-    "lng": -73.580566,
+    "lat": 45.497501,
+    "lng": -73.580408,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -5303,7 +5657,7 @@
   {
     "name": "Mackay / de Maisonneuve",
     "lat": 45.496792,
-    "lng": -73.579055,
+    "lng": -73.579057,
     "first_seen": null,
     "last_seen": null,
     "aliases": [
@@ -5325,6 +5679,16 @@
     "first_seen": null,
     "last_seen": null,
     "aliases": []
+  },
+  {
+    "name": "Mackenzie/ Westbury",
+    "lat": 45.494368,
+    "lng": -73.646899,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": [
+      "McKenzie/ Westbury"
+    ]
   },
   {
     "name": "Maguire / Henri-Julien",
@@ -5416,8 +5780,8 @@
   },
   {
     "name": "Mansfield / Ste-Catherine",
-    "lat": 45.501403,
-    "lng": -73.571729,
+    "lat": 45.501411,
+    "lng": -73.571733,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -5460,9 +5824,15 @@
     "lng": -73.539782,
     "first_seen": null,
     "last_seen": null,
-    "aliases": [
-      "Marché Maisonneuve (Ontario / Morgan)"
-    ]
+    "aliases": []
+  },
+  {
+    "name": "Marché Maisonneuve (Ontario / Morgan)",
+    "lat": 45.553216,
+    "lng": -73.539715,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
   },
   {
     "name": "Marcil / Sherbrooke",
@@ -5500,8 +5870,8 @@
   },
   {
     "name": "Marie-Anne / Christophe-Colomb",
-    "lat": 45.527023,
-    "lng": -73.576773,
+    "lat": 45.527031,
+    "lng": -73.576777,
     "first_seen": null,
     "last_seen": null,
     "aliases": [
@@ -5509,25 +5879,33 @@
     ]
   },
   {
+    "name": "Marie-Anne / Messier",
+    "lat": 45.535829,
+    "lng": -73.568594,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
     "name": "Marie-Anne / Papineau",
-    "lat": 45.53177,
-    "lng": -73.572427,
+    "lat": 45.531769,
+    "lng": -73.572425,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
   },
   {
     "name": "Marie-Anne / St-Hubert",
-    "lat": 45.524683,
-    "lng": -73.578897,
+    "lat": 45.524676,
+    "lng": -73.578906,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
   },
   {
     "name": "Marie-Anne / de Bordeaux",
-    "lat": 45.533592,
-    "lng": -73.570553,
+    "lat": 45.533589,
+    "lng": -73.570558,
     "first_seen": null,
     "last_seen": null,
     "aliases": [
@@ -5546,16 +5924,16 @@
   },
   {
     "name": "Marie-Anne / de la Roche",
-    "lat": 45.527657,
-    "lng": -73.576234,
+    "lat": 45.527646,
+    "lng": -73.576237,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
   },
   {
     "name": "Marmier / St-Denis",
-    "lat": 45.530847,
-    "lng": -73.598387,
+    "lat": 45.530842,
+    "lng": -73.598389,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -5570,8 +5948,8 @@
   },
   {
     "name": "Marquette / Gilford",
-    "lat": 45.533851,
-    "lng": -73.578912,
+    "lat": 45.533833,
+    "lng": -73.578862,
     "first_seen": null,
     "last_seen": null,
     "aliases": [
@@ -5580,8 +5958,8 @@
   },
   {
     "name": "Marquette / Laurier",
-    "lat": 45.53543,
-    "lng": -73.5822,
+    "lat": 45.535419,
+    "lng": -73.582187,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -5605,7 +5983,7 @@
   {
     "name": "Marquette / des Carrières",
     "lat": 45.538729,
-    "lng": -73.588692,
+    "lng": -73.588694,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -5620,8 +5998,8 @@
   },
   {
     "name": "Marquette / du Mont-Royal",
-    "lat": 45.532254,
-    "lng": -73.575436,
+    "lat": 45.532251,
+    "lng": -73.575435,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -5630,6 +6008,14 @@
     "name": "Marquette / du Mont-Royal (sud)",
     "lat": 45.532077,
     "lng": -73.575143,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "Martin / du Bord-du-Lac-Lakeshore",
+    "lat": 45.439885,
+    "lng": -73.729764,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -5671,7 +6057,7 @@
   {
     "name": "McGill / Wellington",
     "lat": 45.499449,
-    "lng": -73.554901,
+    "lng": -73.554902,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -5695,7 +6081,7 @@
   {
     "name": "McKenna / Édouard-Montpetit",
     "lat": 45.501165,
-    "lng": -73.620556,
+    "lng": -73.620557,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -5710,16 +6096,16 @@
   },
   {
     "name": "McNamara / St-Martin O",
-    "lat": 45.571165,
-    "lng": -73.723478,
+    "lat": 45.570993,
+    "lng": -73.723294,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
   },
   {
     "name": "McTavish / Sherbrooke",
-    "lat": 45.502793,
-    "lng": -73.575954,
+    "lat": 45.502792,
+    "lng": -73.575948,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -5778,20 +6164,15 @@
     "lng": -73.572459,
     "first_seen": null,
     "last_seen": null,
-    "aliases": []
-  },
-  {
-    "name": "Metcalfe / Ste-Catherine",
-    "lat": 45.500781,
-    "lng": -73.572315,
-    "first_seen": null,
-    "last_seen": null,
-    "aliases": []
+    "aliases": [
+      "Metcalfe / Ste-Catherine",
+      "Metcalfe / Ste-Catherine EBS"
+    ]
   },
   {
     "name": "Metcalfe / de Maisonneuve",
-    "lat": 45.501744,
-    "lng": -73.574204,
+    "lat": 45.501747,
+    "lng": -73.574213,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -5822,16 +6203,16 @@
   },
   {
     "name": "Michelet / Jean-Talon",
-    "lat": 45.576284,
-    "lng": -73.583535,
+    "lat": 45.576283,
+    "lng": -73.583536,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
   },
   {
     "name": "Milton / Clark",
-    "lat": 45.512541,
-    "lng": -73.570677,
+    "lat": 45.512544,
+    "lng": -73.57067,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -5854,8 +6235,8 @@
   },
   {
     "name": "Milton / Hutchison",
-    "lat": 45.508807,
-    "lng": -73.574288,
+    "lat": 45.508779,
+    "lng": -73.574303,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -5871,7 +6252,7 @@
   {
     "name": "Milton / St-Laurent",
     "lat": 45.512913,
-    "lng": -73.570565,
+    "lng": -73.57057,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -5886,8 +6267,8 @@
   },
   {
     "name": "Milton / du Parc",
-    "lat": 45.509361,
-    "lng": -73.573863,
+    "lat": 45.509363,
+    "lng": -73.573861,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -5902,16 +6283,16 @@
   },
   {
     "name": "Molson / Beaubien",
-    "lat": 45.549725,
-    "lng": -73.591225,
+    "lat": 45.549731,
+    "lng": -73.591237,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
   },
   {
     "name": "Molson / William-Tremblay",
-    "lat": 45.54159,
-    "lng": -73.564973,
+    "lat": 45.541592,
+    "lng": -73.564971,
     "first_seen": null,
     "last_seen": null,
     "aliases": [
@@ -5951,6 +6332,14 @@
     "aliases": []
   },
   {
+    "name": "Monkland / Girouard",
+    "lat": 45.47705,
+    "lng": -73.621449,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
     "name": "Monsabré / Boileau",
     "lat": 45.571799,
     "lng": -73.541632,
@@ -5976,16 +6365,16 @@
   },
   {
     "name": "Montcalm / Ontario",
-    "lat": 45.521094,
-    "lng": -73.562277,
+    "lat": 45.521093,
+    "lng": -73.56227,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
   },
   {
     "name": "Montcalm / de Maisonneuve",
-    "lat": 45.519135,
-    "lng": -73.55788,
+    "lat": 45.519134,
+    "lng": -73.557881,
     "first_seen": null,
     "last_seen": null,
     "aliases": [
@@ -5994,16 +6383,16 @@
   },
   {
     "name": "Montgolfier / Notre-Dame",
-    "lat": 45.533534,
-    "lng": -73.780821,
+    "lat": 45.533574,
+    "lng": -73.780793,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
   },
   {
     "name": "Montmorency / Legrand",
-    "lat": 45.554143,
-    "lng": -73.709367,
+    "lat": 45.55415,
+    "lng": -73.709355,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -6034,7 +6423,7 @@
   },
   {
     "name": "Montpellier / Stinson",
-    "lat": 45.519525,
+    "lat": 45.519524,
     "lng": -73.666534,
     "first_seen": null,
     "last_seen": null,
@@ -6044,6 +6433,14 @@
     "name": "Moreau / Ontario",
     "lat": 45.539578,
     "lng": -73.548679,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "Morgan / Ste-Catherine",
+    "lat": 45.551537,
+    "lng": -73.53374,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -6090,16 +6487,16 @@
   },
   {
     "name": "Mozart / St-Laurent",
-    "lat": 45.53325,
-    "lng": -73.615456,
+    "lat": 45.533257,
+    "lng": -73.615457,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
   },
   {
     "name": "Mozart / Waverly",
-    "lat": 45.531542,
-    "lng": -73.616984,
+    "lat": 45.531539,
+    "lng": -73.616988,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -6121,6 +6518,17 @@
     "first_seen": null,
     "last_seen": null,
     "aliases": []
+  },
+  {
+    "name": "Métro / REM Édouard-Montpetit (Vincent-d'Indy)",
+    "lat": 45.509885,
+    "lng": -73.611488,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": [
+      "Métro Édouard-Montpetit (Vincent-d'Indy / du Mont-Royal)",
+      "Métro/ REM Édouard-Montpetit (Vincent-d'Indy)"
+    ]
   },
   {
     "name": "Métro Acadie (de l'Acadie / Beaumont)",
@@ -6156,8 +6564,8 @@
   },
   {
     "name": "Métro Assomption (Chauveau / de l'Assomption)",
-    "lat": 45.569789,
-    "lng": -73.548081,
+    "lat": 45.569788,
+    "lng": -73.54808,
     "first_seen": null,
     "last_seen": null,
     "aliases": [
@@ -6166,9 +6574,17 @@
     ]
   },
   {
+    "name": "Métro Atwater ( Atwater / Ste-Catherine )",
+    "lat": 45.48973,
+    "lng": -73.58489,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
     "name": "Métro Atwater (Atwater / Ste-Catherine)",
-    "lat": 45.489488,
-    "lng": -73.584539,
+    "lat": 45.48949,
+    "lng": -73.584541,
     "first_seen": null,
     "last_seen": null,
     "aliases": [
@@ -6243,11 +6659,13 @@
   },
   {
     "name": "Métro Cadillac (Cadillac / Sherbrooke)",
-    "lat": 45.576907,
-    "lng": -73.546777,
+    "lat": 45.576922,
+    "lng": -73.546835,
     "first_seen": null,
     "last_seen": null,
-    "aliases": []
+    "aliases": [
+      "Cadillac / Sherbrooke"
+    ]
   },
   {
     "name": "Métro Cartier",
@@ -6286,8 +6704,8 @@
   },
   {
     "name": "Métro Champ-de-Mars (Viger / Sanguinet)",
-    "lat": 45.510347,
-    "lng": -73.556562,
+    "lat": 45.510348,
+    "lng": -73.556589,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -6302,8 +6720,8 @@
   },
   {
     "name": "Métro Charlevoix (Centre / Charlevoix)",
-    "lat": 45.478303,
-    "lng": -73.569613,
+    "lat": 45.478321,
+    "lng": -73.569603,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -6336,8 +6754,8 @@
   },
   {
     "name": "Métro Côte-des-Neiges (Jean-Brillant / de la Côte-des-Neiges)",
-    "lat": 45.495712,
-    "lng": -73.622106,
+    "lat": 45.495676,
+    "lng": -73.622147,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -6370,8 +6788,8 @@
   },
   {
     "name": "Métro Fabre (Fabre / Jean-Talon)",
-    "lat": 45.546673,
-    "lng": -73.607925,
+    "lat": 45.546659,
+    "lng": -73.607867,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -6391,16 +6809,6 @@
     "first_seen": null,
     "last_seen": null,
     "aliases": []
-  },
-  {
-    "name": "Métro Fabre (Papineau / Jean-Talon)",
-    "lat": 45.547751,
-    "lng": -73.60692,
-    "first_seen": null,
-    "last_seen": null,
-    "aliases": [
-      "Papineau / Jean-Talon"
-    ]
   },
   {
     "name": "Métro Frontenac (Ontario / du Havre)",
@@ -6452,8 +6860,8 @@
   },
   {
     "name": "Métro Honoré-Beaugrand (Sherbrooke / Honoré-Beaugrand)",
-    "lat": 45.596832,
-    "lng": -73.53523,
+    "lat": 45.596836,
+    "lng": -73.535235,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -6486,9 +6894,17 @@
     "aliases": []
   },
   {
+    "name": "Métro Jean-Drapeau (Chemin du Tour de l'Isle)",
+    "lat": 45.513358,
+    "lng": -73.532749,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
     "name": "Métro Jean-Talon (Berri / Jean-Talon)",
-    "lat": 45.539002,
-    "lng": -73.614253,
+    "lat": 45.539016,
+    "lng": -73.614269,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -6523,7 +6939,9 @@
     "lng": -73.551153,
     "first_seen": null,
     "last_seen": null,
-    "aliases": []
+    "aliases": [
+      "Métro Joliette (Hochelaga / Joliette)"
+    ]
   },
   {
     "name": "Métro Joliette  (Joliette / Hochelaga)",
@@ -6543,8 +6961,8 @@
   },
   {
     "name": "Métro Lasalle (de Rushbrooke / Caisse)",
-    "lat": 45.470625,
-    "lng": -73.565463,
+    "lat": 45.47064,
+    "lng": -73.565464,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -6577,8 +6995,8 @@
   },
   {
     "name": "Métro Lionel-Groulx (St-Jacques / Atwater)",
-    "lat": 45.483231,
-    "lng": -73.579736,
+    "lat": 45.483192,
+    "lng": -73.579739,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -6631,6 +7049,14 @@
     "aliases": []
   },
   {
+    "name": "Métro Monk (Beaulieu / Allard)",
+    "lat": 45.450844,
+    "lng": -73.594065,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
     "name": "Métro Mont-Royal (Berri / Mont-Royal)",
     "lat": 45.525014,
     "lng": -73.582209,
@@ -6640,8 +7066,8 @@
   },
   {
     "name": "Métro Mont-Royal (Place Gérald-Godin)",
-    "lat": 45.524399,
-    "lng": -73.581598,
+    "lat": 45.52436,
+    "lng": -73.581474,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -6696,8 +7122,8 @@
   },
   {
     "name": "Métro Outremont (Stuart / Van Horne)",
-    "lat": 45.519591,
-    "lng": -73.615369,
+    "lat": 45.5197,
+    "lng": -73.615628,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -6797,8 +7223,8 @@
   },
   {
     "name": "Métro Place-des-Arts (du Président-Kennedy / Jeanne-Mance)",
-    "lat": 45.508204,
-    "lng": -73.568815,
+    "lat": 45.508201,
+    "lng": -73.568819,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -6812,17 +7238,25 @@
     "aliases": []
   },
   {
+    "name": "Métro Plamondon (Victoria / de Kent)",
+    "lat": 45.494667,
+    "lng": -73.63854,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
     "name": "Métro Plamondon (de Kent / Victoria)",
-    "lat": 45.494634,
-    "lng": -73.638712,
+    "lat": 45.494641,
+    "lng": -73.638709,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
   },
   {
     "name": "Métro Préfontaine (Moreau / Hochelaga)",
-    "lat": 45.541595,
-    "lng": -73.554937,
+    "lat": 45.541541,
+    "lng": -73.554707,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -6845,8 +7279,8 @@
   },
   {
     "name": "Métro Rosemont (de St-Vallier / Rosemont)",
-    "lat": 45.531817,
-    "lng": -73.597748,
+    "lat": 45.531816,
+    "lng": -73.597721,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -6861,8 +7295,8 @@
   },
   {
     "name": "Métro Sherbrooke (de Rigaud / Berri)",
-    "lat": 45.51818,
-    "lng": -73.567996,
+    "lat": 45.518168,
+    "lng": -73.568,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -6885,8 +7319,8 @@
   },
   {
     "name": "Métro Snowdon (de Westbury / Queen-Mary)",
-    "lat": 45.485383,
-    "lng": -73.628143,
+    "lat": 45.485376,
+    "lng": -73.628144,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -6913,8 +7347,8 @@
   },
   {
     "name": "Métro St-Laurent (de Maisonneuve / St-Laurent)",
-    "lat": 45.510729,
-    "lng": -73.565088,
+    "lat": 45.510732,
+    "lng": -73.565093,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -6932,11 +7366,13 @@
   },
   {
     "name": "Métro St-Michel (10e avenue / Shaughnessy)",
-    "lat": 45.558498,
-    "lng": -73.599303,
+    "lat": 45.558494,
+    "lng": -73.59933,
     "first_seen": null,
     "last_seen": null,
-    "aliases": []
+    "aliases": [
+      "10e avenue / Shaughnessy"
+    ]
   },
   {
     "name": "Métro St-Michel (Shaughnessy / St-Michel)",
@@ -6947,9 +7383,25 @@
     "aliases": []
   },
   {
+    "name": "Métro St-Michel (Shaugnessy)",
+    "lat": 45.55908,
+    "lng": -73.5997,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
     "name": "Métro Université de Montréal (Édouard-Montpetit / Louis-Collin)",
     "lat": 45.503654,
-    "lng": -73.618369,
+    "lng": -73.618364,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "Métro Université-de-Montréal (Édouard-Montpetit)",
+    "lat": 45.50364,
+    "lng": -73.618116,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -6963,6 +7415,16 @@
     "aliases": []
   },
   {
+    "name": "Métro Vendôme (Grey / de Maisonneuve)",
+    "lat": 45.475059,
+    "lng": -73.60357,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": [
+      "Grey / de Maisonneuve"
+    ]
+  },
+  {
     "name": "Métro Vendôme (Marlowe / de Maisonneuve)",
     "lat": 45.4739,
     "lng": -73.604743,
@@ -6971,27 +7433,28 @@
     "aliases": []
   },
   {
-    "name": "Métro Vendôme (de Maisonneuve / Grey)",
-    "lat": 45.474604,
-    "lng": -73.603511,
+    "name": "Métro Vendôme (de Maisonneuve / de Vendôme)",
+    "lat": 45.474586,
+    "lng": -73.603534,
     "first_seen": null,
     "last_seen": null,
     "aliases": [
-      "Métro Vendôme  (de Maisonneuve / Grey)"
+      "Métro Vendôme  (de Maisonneuve / Grey)",
+      "Métro Vendôme (de Maisonneuve / Grey)"
     ]
   },
   {
     "name": "Métro Vendôme (de Marlowe / de Maisonneuve)",
     "lat": 45.473897,
-    "lng": -73.604631,
+    "lng": -73.604632,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
   },
   {
     "name": "Métro Verdun (Willibrord / de Verdun)",
-    "lat": 45.459441,
-    "lng": -73.572131,
+    "lat": 45.459429,
+    "lng": -73.572109,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -7008,8 +7471,8 @@
   },
   {
     "name": "Métro Viau (Pierre-de-Coubertin / Viau)",
-    "lat": 45.562198,
-    "lng": -73.546295,
+    "lat": 45.562219,
+    "lng": -73.546278,
     "first_seen": null,
     "last_seen": null,
     "aliases": [
@@ -7026,16 +7489,19 @@
   },
   {
     "name": "Métro Villa-Maria (de Monkland / Décarie)",
-    "lat": 45.478986,
-    "lng": -73.619581,
+    "lat": 45.478988,
+    "lng": -73.619579,
     "first_seen": null,
     "last_seen": null,
-    "aliases": []
+    "aliases": [
+      "Métro Villa-Maria (Monkland)",
+      "Métro Villa-Maria (de Monkland)"
+    ]
   },
   {
     "name": "Métro de Castelnau (de Castelnau / St-Dominique)",
-    "lat": 45.535825,
-    "lng": -73.619443,
+    "lat": 45.535828,
+    "lng": -73.61944,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -7050,8 +7516,8 @@
   },
   {
     "name": "Métro de l'Église (Ross / de l'Église)",
-    "lat": 45.46279,
-    "lng": -73.565935,
+    "lat": 45.462795,
+    "lng": -73.565936,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -7099,17 +7565,6 @@
     "aliases": []
   },
   {
-    "name": "Métro Édouard-Montpetit (Vincent-d'Indy / du Mont-Royal)",
-    "lat": 45.509885,
-    "lng": -73.611488,
-    "first_seen": null,
-    "last_seen": null,
-    "aliases": [
-      "Métro / REM Édouard-Montpetit (Vincent-d'Indy)",
-      "Métro/ REM Édouard-Montpetit (Vincent-d'Indy)"
-    ]
-  },
-  {
     "name": "Métro Édouard-Montpetit (du Mont-Royal / Vincent-d'Indy)",
     "lat": 45.51017,
     "lng": -73.61142,
@@ -7121,8 +7576,8 @@
   },
   {
     "name": "Natatorium (LaSalle / Rolland)",
-    "lat": 45.444437,
-    "lng": -73.57528,
+    "lat": 45.444423,
+    "lng": -73.575305,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -7177,8 +7632,8 @@
   },
   {
     "name": "Notre-Dame / Gauvin",
-    "lat": 45.500078,
-    "lng": -73.560218,
+    "lat": 45.50004,
+    "lng": -73.560259,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -7209,8 +7664,8 @@
   },
   {
     "name": "Notre-Dame / St-Gabriel",
-    "lat": 45.507143,
-    "lng": -73.555115,
+    "lat": 45.507148,
+    "lng": -73.55511,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -7251,15 +7706,15 @@
   },
   {
     "name": "Notre-Dame-de-Grâce / Décarie",
-    "lat": 45.477339,
-    "lng": -73.615324,
+    "lat": 45.477338,
+    "lng": -73.61532,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
   },
   {
     "name": "Notre-Dame-de-Grâce / Westmount",
-    "lat": 45.480469,
+    "lat": 45.480468,
     "lng": -73.61122,
     "first_seen": null,
     "last_seen": null,
@@ -7267,8 +7722,8 @@
   },
   {
     "name": "O'Brien / Poirier",
-    "lat": 45.522494,
-    "lng": -73.691498,
+    "lat": 45.522499,
+    "lng": -73.691489,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -7293,7 +7748,7 @@
   },
   {
     "name": "Ontario / Poupart",
-    "lat": 45.531861,
+    "lat": 45.531839,
     "lng": -73.553643,
     "first_seen": null,
     "last_seen": null,
@@ -7319,6 +7774,14 @@
     "name": "Ontario / Ville-Marie",
     "lat": 45.56002,
     "lng": -73.534935,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "Ottawa / Guy",
+    "lat": 45.48926,
+    "lng": -73.564985,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -7392,6 +7855,16 @@
     "aliases": []
   },
   {
+    "name": "Papineau / Jean-Talon",
+    "lat": 45.547762,
+    "lng": -73.606907,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": [
+      "Métro Fabre (Papineau / Jean-Talon)"
+    ]
+  },
+  {
     "name": "Papineau / René-Lévesque",
     "lat": 45.52114,
     "lng": -73.54926,
@@ -7401,8 +7874,8 @@
   },
   {
     "name": "Papineau / Émile-Journault",
-    "lat": 45.559897,
-    "lng": -73.633552,
+    "lat": 45.5599,
+    "lng": -73.633549,
     "first_seen": null,
     "last_seen": null,
     "aliases": [
@@ -7447,7 +7920,9 @@
     "lng": -73.573145,
     "first_seen": null,
     "last_seen": null,
-    "aliases": []
+    "aliases": [
+      "Parc Atwater (St-Charles)"
+    ]
   },
   {
     "name": "Parc Baldwin (Chapleau / Sherbrooke)",
@@ -7471,7 +7946,9 @@
     "lng": -73.494845,
     "first_seen": null,
     "last_seen": null,
-    "aliases": []
+    "aliases": [
+      "Parc Bariteau (St-Georges)"
+    ]
   },
   {
     "name": "Parc Beaubien (Beaubien / 8e avenue)",
@@ -7501,8 +7978,8 @@
   },
   {
     "name": "Parc Benny (Benny / de Monkland)",
-    "lat": 45.466925,
-    "lng": -73.631557,
+    "lat": 45.466923,
+    "lng": -73.631562,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -7514,6 +7991,16 @@
     "first_seen": null,
     "last_seen": null,
     "aliases": []
+  },
+  {
+    "name": "Parc Campbell Ouest (Dubois)",
+    "lat": 45.457713,
+    "lng": -73.590385,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": [
+      "Parc Cambell Ouest (Dubois)"
+    ]
   },
   {
     "name": "Parc Chamberland (Dorais / de l'Église)",
@@ -7569,6 +8056,14 @@
     "name": "Parc Clair Matin (St-Laurent)",
     "lat": 45.56909,
     "lng": -73.88485,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "Parc Coolbrooke (Spring Garden / Coolbrooke)",
+    "lat": 45.49791,
+    "lng": -73.790848,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -7639,8 +8134,8 @@
   },
   {
     "name": "Parc Ferland (Belleherbe / Albanel)",
-    "lat": 45.595751,
-    "lng": -73.595301,
+    "lat": 45.595748,
+    "lng": -73.5953,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -7672,7 +8167,7 @@
   {
     "name": "Parc Gabriel-Sagard (Jean-Talon / Sagard)",
     "lat": 45.55141,
-    "lng": -73.603822,
+    "lng": -73.603823,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -7695,8 +8190,8 @@
   },
   {
     "name": "Parc Gentilly Ouest (Belcourt / Bagot)",
-    "lat": 45.533392,
-    "lng": -73.455055,
+    "lat": 45.533421,
+    "lng": -73.455126,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -7707,7 +8202,10 @@
     "lng": -73.60947,
     "first_seen": null,
     "last_seen": null,
-    "aliases": []
+    "aliases": [
+      "Oxford / Upper Lachine",
+      "Oxford / Upper-Lachine"
+    ]
   },
   {
     "name": "Parc Gordon (Desaulniers / Victoria)",
@@ -7728,12 +8226,22 @@
     "aliases": []
   },
   {
+    "name": "Parc Génération (René-Philippe)",
+    "lat": 45.497182,
+    "lng": -73.494984,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
     "name": "Parc Hector-Toe-Blake (du Sussex / René-Lévesque)",
     "lat": 45.489154,
     "lng": -73.580888,
     "first_seen": null,
     "last_seen": null,
-    "aliases": []
+    "aliases": [
+      "Parc Hector-Toe-Blake (René-Lévesque)"
+    ]
   },
   {
     "name": "Parc Henri-Dunant (Léger / Henri-Dunant)",
@@ -7747,8 +8255,16 @@
   },
   {
     "name": "Parc Henri-Julien (Legendre / Henri-Julien)",
-    "lat": 45.546089,
-    "lng": -73.646544,
+    "lat": 45.546085,
+    "lng": -73.646549,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "Parc Henri-Julien (Legendre)",
+    "lat": 45.545995,
+    "lng": -73.646644,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -7780,6 +8296,14 @@
     "aliases": []
   },
   {
+    "name": "Parc Hilda-Ramacière (Hôtel-de-ville / Prince-Arthur)",
+    "lat": 45.515968,
+    "lng": -73.571694,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
     "name": "Parc Hilda-Ramacière (de Bullion / Prince-Arthur)",
     "lat": 45.515621,
     "lng": -73.57213,
@@ -7788,6 +8312,14 @@
     "aliases": [
       "Parc de Bullion (de Bullion / Prince-Arthur)"
     ]
+  },
+  {
+    "name": "Parc Hodgson-Field (Bedbrook / Nelson)",
+    "lat": 45.452439,
+    "lng": -73.652778,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
   },
   {
     "name": "Parc Honoré-Mercier (Notre-Dame / Liébert)",
@@ -7807,8 +8339,8 @@
   },
   {
     "name": "Parc Howard (de l'Épée / de Liège)",
-    "lat": 45.547621,
-    "lng": -73.626264,
+    "lat": 45.54515,
+    "lng": -73.629043,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -7853,7 +8385,9 @@
     "lng": -73.561916,
     "first_seen": null,
     "last_seen": null,
-    "aliases": []
+    "aliases": [
+      "de Chambly / du Mont-Royal"
+    ]
   },
   {
     "name": "Parc Jarry (Dautry / de Lorne)",
@@ -7865,16 +8399,24 @@
   },
   {
     "name": "Parc Jarry (Gary-Carter)",
-    "lat": 45.533892,
-    "lng": -73.62377,
+    "lat": 45.533883,
+    "lng": -73.623784,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
   },
   {
     "name": "Parc Jean-Drapeau",
-    "lat": 45.511201,
-    "lng": -73.534308,
+    "lat": 45.511278,
+    "lng": -73.533838,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "Parc Jean-Drapeau (Chemin Mac Donald)",
+    "lat": 45.512477,
+    "lng": -73.532114,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -7899,6 +8441,14 @@
     "name": "Parc Jean-Drapeau (Chemin du Tour-de-l'Isle)",
     "lat": 45.515746,
     "lng": -73.531671,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "Parc Jean-Drapeau (Plaine des Jeux)",
+    "lat": 45.51505,
+    "lng": -73.535929,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -7945,8 +8495,8 @@
   },
   {
     "name": "Parc Jeanne-Mance (monument sir George-Étienne-Cartier)",
-    "lat": 45.514875,
-    "lng": -73.584864,
+    "lat": 45.514862,
+    "lng": -73.584845,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -8014,7 +8564,7 @@
   },
   {
     "name": "Parc Labelle (LaSalle / Henri-Duhamel)",
-    "lat": 45.472509,
+    "lat": 45.47249,
     "lng": -73.569998,
     "first_seen": null,
     "last_seen": null,
@@ -8055,6 +8605,14 @@
     "aliases": []
   },
   {
+    "name": "Parc Lecavalier (McGill)",
+    "lat": 45.524594,
+    "lng": -73.480989,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
     "name": "Parc Lefebvre (Hardy / Dollard)",
     "lat": 45.433867,
     "lng": -73.636296,
@@ -8072,16 +8630,16 @@
   },
   {
     "name": "Parc Leta-Graydon (Bouvier / Jacqueline-Sicotte)",
-    "lat": 45.431985,
-    "lng": -73.611394,
+    "lat": 45.431986,
+    "lng": -73.611393,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
   },
   {
     "name": "Parc Loyola (Doherty / Somerled)",
-    "lat": 45.459748,
-    "lng": -73.644722,
+    "lat": 45.45975,
+    "lng": -73.644715,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -8112,8 +8670,8 @@
   },
   {
     "name": "Parc MacDonald (Clanranald / Isabella)",
-    "lat": 45.48272,
-    "lng": -73.634814,
+    "lat": 45.482722,
+    "lng": -73.634801,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -8192,8 +8750,8 @@
   },
   {
     "name": "Parc Michel-Chartrand (Adoncour / du Lac)",
-    "lat": 45.542974,
-    "lng": -73.473208,
+    "lat": 45.543062,
+    "lng": -73.473357,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -8295,9 +8853,25 @@
     "aliases": []
   },
   {
+    "name": "Parc Paula-Cordeau (Ainslie / Westminster)",
+    "lat": 45.451732,
+    "lng": -73.643234,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "Parc Pellerin (Péladeau / Pesant)",
+    "lat": 45.621877,
+    "lng": -73.821635,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
     "name": "Parc Plage",
-    "lat": 45.50272,
-    "lng": -73.527625,
+    "lat": 45.502708,
+    "lng": -73.527594,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -8312,8 +8886,8 @@
   },
   {
     "name": "Parc Pratt (Dunlop / Van Horne)",
-    "lat": 45.514958,
-    "lng": -73.619731,
+    "lat": 45.514954,
+    "lng": -73.619726,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -8369,17 +8943,25 @@
     "aliases": []
   },
   {
+    "name": "Parc Rivière-Nord (Primeau / Lamoureux)",
+    "lat": 45.57619,
+    "lng": -73.923632,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
     "name": "Parc Rosemary-Brown (McLynn / Plamondon)",
-    "lat": 45.48976,
-    "lng": -73.648152,
+    "lat": 45.489762,
+    "lng": -73.648154,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
   },
   {
     "name": "Parc Sauvé (Balzac / de Bayonne)",
-    "lat": 45.598964,
-    "lng": -73.636729,
+    "lat": 45.598952,
+    "lng": -73.636708,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -8426,8 +9008,8 @@
   },
   {
     "name": "Parc St-Henri (Laporte / Guay)",
-    "lat": 45.480123,
-    "lng": -73.585723,
+    "lat": 45.480122,
+    "lng": -73.585707,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -8462,7 +9044,9 @@
     "lng": -73.558993,
     "first_seen": null,
     "last_seen": null,
-    "aliases": []
+    "aliases": [
+      "Square St-Patrick (St-Columban)"
+    ]
   },
   {
     "name": "Parc St-Paul (Brisset / Le Caron)",
@@ -8478,7 +9062,9 @@
     "lng": -73.584934,
     "first_seen": null,
     "last_seen": null,
-    "aliases": []
+    "aliases": [
+      "Parc St-Paul (Champigny / d'Angers)"
+    ]
   },
   {
     "name": "Parc St-Paul (Le Caron / Marc-Sauvalle)",
@@ -8516,6 +9102,30 @@
     "name": "Parc Summerlea (53e avenue / St-Joseph)",
     "lat": 45.438367,
     "lng": -73.715467,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "Parc Sunnybrooke (Cadman / Kieffer)",
+    "lat": 45.494836,
+    "lng": -73.799176,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "Parc Terry-Fox (Westpark / Wilson)",
+    "lat": 45.496071,
+    "lng": -73.822417,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "Parc Trenholme (Sherbrooke)",
+    "lat": 45.461507,
+    "lng": -73.632962,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -8561,9 +9171,33 @@
     "aliases": []
   },
   {
+    "name": "Parc Walters (Pine Beach)",
+    "lat": 45.440449,
+    "lng": -73.76081,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "Parc Westwood (Thornton / Fabre)",
+    "lat": 45.48802,
+    "lng": -73.794383,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
     "name": "Parc Wilfrid-Bastien (Lacordaire / des Galets)",
     "lat": 45.5864,
     "lng": -73.595218,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "Parc Wilson (Fredmir / Poplar)",
+    "lat": 45.490748,
+    "lng": -73.830102,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -8578,8 +9212,8 @@
   },
   {
     "name": "Parc d'Antioche (Place d'Antioche / St-Zotique)",
-    "lat": 45.595583,
-    "lng": -73.55938,
+    "lat": 45.595602,
+    "lng": -73.559446,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -8624,7 +9258,9 @@
     "lng": -73.803556,
     "first_seen": null,
     "last_seen": null,
-    "aliases": []
+    "aliases": [
+      "Parc de Roxboro (11e avenue / 9e Rue)"
+    ]
   },
   {
     "name": "Parc de Turin (de Lanaudière / Jean-Talon)",
@@ -8632,9 +9268,7 @@
     "lng": -73.61033,
     "first_seen": null,
     "last_seen": null,
-    "aliases": [
-      "de Lanaudière / Jean-Talon"
-    ]
+    "aliases": []
   },
   {
     "name": "Parc de l'Hôtel-de-Ville (Laurendeau / Ste-Julie)",
@@ -8664,6 +9298,14 @@
     "name": "Parc de la Louisiane (31e avenue / de Bellechasse)",
     "lat": 45.566573,
     "lng": -73.571357,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "Parc des Camélias (Binette / des Clématites)",
+    "lat": 45.578339,
+    "lng": -73.898741,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -8710,8 +9352,8 @@
   },
   {
     "name": "Parc des Vétérans (des Vétérans / Broadway)",
-    "lat": 45.63151,
-    "lng": -73.508114,
+    "lat": 45.631503,
+    "lng": -73.508128,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -8728,6 +9370,14 @@
     "name": "Parc du Centenaire (Grand-Moulin / du Lac)",
     "lat": 45.543774,
     "lng": -73.891184,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "Parc du Centenaire (Lake / Westpark)",
+    "lat": 45.490412,
+    "lng": -73.815084,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -8757,6 +9407,14 @@
     "aliases": []
   },
   {
+    "name": "Parc du Mont-St-Eustache (Boileau)",
+    "lat": 45.557561,
+    "lng": -73.911022,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
     "name": "Parc du Père-Marquette (de Bellechasse / de Lanaudière)",
     "lat": 45.539307,
     "lng": -73.595219,
@@ -8766,16 +9424,16 @@
   },
   {
     "name": "Parc du Père-Marquette (de Bellechasse)",
-    "lat": 45.539528,
-    "lng": -73.594971,
+    "lat": 45.539552,
+    "lng": -73.594929,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
   },
   {
     "name": "Parc du Pélican (1ère avenue / Masson)",
-    "lat": 45.545196,
-    "lng": -73.576448,
+    "lat": 45.545195,
+    "lng": -73.576447,
     "first_seen": null,
     "last_seen": null,
     "aliases": [
@@ -8819,8 +9477,8 @@
   },
   {
     "name": "Park Row O / Sherbrooke",
-    "lat": 45.460729,
-    "lng": -73.634073,
+    "lat": 45.460733,
+    "lng": -73.634059,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -8835,8 +9493,8 @@
   },
   {
     "name": "Parthenais / Ste-Catherine",
-    "lat": 45.526041,
-    "lng": -73.548856,
+    "lat": 45.52609,
+    "lng": -73.548845,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -8851,16 +9509,16 @@
   },
   {
     "name": "Parthenais / du Mont-Royal",
-    "lat": 45.536376,
-    "lng": -73.571364,
+    "lat": 45.53638,
+    "lng": -73.57137,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
   },
   {
     "name": "Paré / Mountain Sights",
-    "lat": 45.498093,
-    "lng": -73.652971,
+    "lat": 45.498091,
+    "lng": -73.652976,
     "first_seen": null,
     "last_seen": null,
     "aliases": [
@@ -8876,17 +9534,9 @@
     "aliases": []
   },
   {
-    "name": "Paul-Boutet/Des Regratiers",
-    "lat": 45.559826,
-    "lng": -73.615384,
-    "first_seen": null,
-    "last_seen": null,
-    "aliases": []
-  },
-  {
     "name": "Peel / Notre-Dame",
-    "lat": 45.495448,
-    "lng": -73.563298,
+    "lat": 45.495467,
+    "lng": -73.563369,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -8903,6 +9553,14 @@
     "name": "Peel / St-Antoine",
     "lat": 45.496553,
     "lng": -73.566215,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "Peel / St-Jacques",
+    "lat": 45.495791,
+    "lng": -73.564493,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -8932,6 +9590,14 @@
     "aliases": []
   },
   {
+    "name": "Pierre-Dupuy / Des Moulins",
+    "lat": 45.490898,
+    "lng": -73.544453,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
     "name": "Pierre-Dupuy / des Moulins",
     "lat": 45.490742,
     "lng": -73.544391,
@@ -8941,8 +9607,8 @@
   },
   {
     "name": "Pierre-Péladeau / du Centropolis",
-    "lat": 45.562512,
-    "lng": -73.743706,
+    "lat": 45.562526,
+    "lng": -73.743714,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -8959,6 +9625,14 @@
     "name": "Pierre-de-Coubertin / Langelier",
     "lat": 45.580315,
     "lng": -73.535314,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "Pierre-de-Coubertin / Parkville",
+    "lat": 45.581289,
+    "lng": -73.534706,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -8996,6 +9670,22 @@
     "aliases": []
   },
   {
+    "name": "Place Gabriel-Labelle (Blainville / Leduc)",
+    "lat": 45.639088,
+    "lng": -73.826241,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "Place Jean-Paul-Riopelle (St-Antoine)",
+    "lat": 45.503069,
+    "lng": -73.560652,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
     "name": "Place Longueuil",
     "lat": 45.52841,
     "lng": -73.517166,
@@ -9013,11 +9703,21 @@
   },
   {
     "name": "Place Valois (Valois / Ontario)",
-    "lat": 45.547057,
-    "lng": -73.543212,
+    "lat": 45.54705,
+    "lng": -73.543198,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
+  },
+  {
+    "name": "Place Ville-Marie (Robert-Bourassa / René-Lévesque)",
+    "lat": 45.502183,
+    "lng": -73.568254,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": [
+      "Robert-Bourassa / René-Lévesque"
+    ]
   },
   {
     "name": "Place Youville",
@@ -9087,8 +9787,8 @@
   },
   {
     "name": "Place du Canada (Peel / des Canadiens-de-Montréal)",
-    "lat": 45.497822,
-    "lng": -73.568345,
+    "lat": 45.497817,
+    "lng": -73.568329,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -9123,7 +9823,9 @@
     "lng": -73.940424,
     "first_seen": null,
     "last_seen": null,
-    "aliases": []
+    "aliases": [
+      "Plage du Parc-Nature du Cap St-Jacques (de la Plage / Service)"
+    ]
   },
   {
     "name": "Plessis / Logan",
@@ -9135,8 +9837,8 @@
   },
   {
     "name": "Plessis / Ontario",
-    "lat": 45.523547,
-    "lng": -73.560931,
+    "lat": 45.523556,
+    "lng": -73.560946,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -9144,7 +9846,7 @@
   {
     "name": "Plessis / René-Lévesque",
     "lat": 45.519374,
-    "lng": -73.551925,
+    "lng": -73.551923,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -9177,6 +9879,14 @@
     "name": "Port Réal-Bouvier (Ch. de la Rive)",
     "lat": 45.538825,
     "lng": -73.514961,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "Poste de police (25e avenue)",
+    "lat": 45.577793,
+    "lng": -73.877467,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -9223,8 +9933,8 @@
   },
   {
     "name": "Prince-Arthur / St-Urbain",
-    "lat": 45.512579,
-    "lng": -73.573753,
+    "lat": 45.512571,
+    "lng": -73.573761,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -9240,7 +9950,7 @@
   {
     "name": "Prince-Arthur / du Parc",
     "lat": 45.510529,
-    "lng": -73.575531,
+    "lng": -73.575533,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -9279,8 +9989,8 @@
   },
   {
     "name": "Péloquin / Fleury",
-    "lat": 45.557038,
-    "lng": -73.659923,
+    "lat": 45.557036,
+    "lng": -73.659876,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -9295,19 +10005,21 @@
   },
   {
     "name": "Quai de la navette fluviale",
-    "lat": 45.513704,
-    "lng": -73.538403,
+    "lat": 45.513697,
+    "lng": -73.538407,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
   },
   {
-    "name": "Quartier-Saint-Martin / Jeanne-Mance",
+    "name": "Quartier-St-Martin / Jeanne-Mance",
     "lat": 45.559726,
     "lng": -73.749665,
     "first_seen": null,
     "last_seen": null,
-    "aliases": []
+    "aliases": [
+      "Quartier-Saint-Martin / Jeanne-Mance"
+    ]
   },
   {
     "name": "Queen / Wellington",
@@ -9358,6 +10070,24 @@
     "aliases": []
   },
   {
+    "name": "REM Canora (Dunkirk / Jean-Talon)",
+    "lat": 45.513302,
+    "lng": -73.633116,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "REM Deux-Montagnes (de Deux-Montagnes)",
+    "lat": 45.544576,
+    "lng": -73.912031,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": [
+      "Gare REM Deux-Montagnes (de Deux-Montagnes)"
+    ]
+  },
+  {
     "name": "REM Grand-Moulin (9e avenue / du Lac)",
     "lat": 45.536343,
     "lng": -73.886763,
@@ -9368,9 +10098,37 @@
     ]
   },
   {
+    "name": "REM Ste-Dorothée (du Bord-de-l'Eau / Gobeil)",
+    "lat": 45.523003,
+    "lng": -73.861419,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": [
+      "Bord-de-l'Eau / Gobeil"
+    ]
+  },
+  {
+    "name": "REM Ville-de-Mont-Royal (Canora)",
+    "lat": 45.516649,
+    "lng": -73.643312,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": [
+      "REM Ville-de-Mont-Royal"
+    ]
+  },
+  {
+    "name": "REM Île-des-Soeurs (René-Lévesque)",
+    "lat": 45.469503,
+    "lng": -73.538097,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
     "name": "Rachel / de Brébeuf",
-    "lat": 45.526901,
-    "lng": -73.572672,
+    "lat": 45.526903,
+    "lng": -73.572676,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -9416,6 +10174,14 @@
     "aliases": []
   },
   {
+    "name": "Regent / Mackay",
+    "lat": 45.490886,
+    "lng": -73.468688,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
     "name": "Regent / Windsor",
     "lat": 45.49347,
     "lng": -73.464277,
@@ -9425,8 +10191,8 @@
   },
   {
     "name": "Regina / de Verdun",
-    "lat": 45.46735,
-    "lng": -73.570782,
+    "lat": 45.467349,
+    "lng": -73.570783,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -9457,8 +10223,8 @@
   },
   {
     "name": "René-Lévesque / Papineau",
-    "lat": 45.520953,
-    "lng": -73.549961,
+    "lat": 45.520942,
+    "lng": -73.549967,
     "first_seen": null,
     "last_seen": null,
     "aliases": [
@@ -9474,14 +10240,6 @@
     "aliases": []
   },
   {
-    "name": "René-Lévesque / de Lorimier",
-    "lat": 45.524037,
-    "lng": -73.547002,
-    "first_seen": null,
-    "last_seen": null,
-    "aliases": []
-  },
-  {
     "name": "René-Philippe / André-Charpentier",
     "lat": 45.496968,
     "lng": -73.495339,
@@ -9491,21 +10249,35 @@
   },
   {
     "name": "Resther / du Mont-Royal",
-    "lat": 45.52562,
-    "lng": -73.581756,
+    "lat": 45.525618,
+    "lng": -73.58175,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "Richard / de Villiers",
+    "lat": 45.58267,
+    "lng": -73.716902,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
   },
   {
     "name": "Richardson / Montmorency",
-    "lat": 45.484943,
-    "lng": -73.560355,
+    "lat": 45.484933,
+    "lng": -73.560369,
     "first_seen": null,
     "last_seen": null,
-    "aliases": [
-      "Richardson / de Montmorency"
-    ]
+    "aliases": []
+  },
+  {
+    "name": "Richardson / de Montmorency",
+    "lat": 45.48498,
+    "lng": -73.560333,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
   },
   {
     "name": "Richer / de Blois",
@@ -9525,8 +10297,18 @@
   },
   {
     "name": "Rielle / Wellington",
-    "lat": 45.460157,
-    "lng": -73.567006,
+    "lat": 45.460158,
+    "lng": -73.567013,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": [
+      "Rielle / Wellington 2"
+    ]
+  },
+  {
+    "name": "Rivard / Duluth",
+    "lat": 45.521334,
+    "lng": -73.575579,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -9541,8 +10323,8 @@
   },
   {
     "name": "Rivard / Rachel",
-    "lat": 45.522276,
-    "lng": -73.577586,
+    "lat": 45.522266,
+    "lng": -73.577553,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -9572,19 +10354,9 @@
     "aliases": []
   },
   {
-    "name": "Robert-Bourassa / René-Lévesque",
-    "lat": 45.502183,
-    "lng": -73.568254,
-    "first_seen": null,
-    "last_seen": null,
-    "aliases": [
-      "Place Ville-Marie (Robert-Bourassa / René-Lévesque)"
-    ]
-  },
-  {
     "name": "Robert-Bourassa / St-Maurice",
-    "lat": 45.498373,
-    "lng": -73.560563,
+    "lat": 45.498387,
+    "lng": -73.560598,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -9655,8 +10427,8 @@
   },
   {
     "name": "Ropery / Augustin-Cantin",
-    "lat": 45.480955,
-    "lng": -73.568571,
+    "lat": 45.48099,
+    "lng": -73.568628,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -9687,8 +10459,8 @@
   },
   {
     "name": "Rousselot / Jarry",
-    "lat": 45.550853,
-    "lng": -73.620968,
+    "lat": 45.550848,
+    "lng": -73.620957,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -9706,7 +10478,7 @@
   {
     "name": "Roy / St-André",
     "lat": 45.521584,
-    "lng": -73.570373,
+    "lng": -73.570375,
     "first_seen": null,
     "last_seen": null,
     "aliases": [
@@ -9715,8 +10487,8 @@
   },
   {
     "name": "Roy / St-Denis",
-    "lat": 45.519087,
-    "lng": -73.572695,
+    "lat": 45.519089,
+    "lng": -73.572693,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -9743,14 +10515,6 @@
     "name": "Sacré-Coeur / Gamache",
     "lat": 45.527632,
     "lng": -73.470854,
-    "first_seen": null,
-    "last_seen": null,
-    "aliases": []
-  },
-  {
-    "name": "Saint-Martin / William",
-    "lat": 45.487467,
-    "lng": -73.566594,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -9789,8 +10553,8 @@
   },
   {
     "name": "Sanguinet / Ontario",
-    "lat": 45.514854,
-    "lng": -73.565719,
+    "lat": 45.514871,
+    "lng": -73.565791,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -9837,8 +10601,8 @@
   },
   {
     "name": "Shearer / Centre",
-    "lat": 45.482896,
-    "lng": -73.562112,
+    "lat": 45.482884,
+    "lng": -73.562104,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -9895,8 +10659,8 @@
   },
   {
     "name": "Sir-Georges-Etienne-Cartier / Léa-Roback",
-    "lat": 45.472052,
-    "lng": -73.582705,
+    "lat": 45.471737,
+    "lng": -73.582586,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -9921,8 +10685,8 @@
   },
   {
     "name": "Souligny / Desmarteau",
-    "lat": 45.604519,
-    "lng": -73.516066,
+    "lat": 45.604505,
+    "lng": -73.516075,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -9945,7 +10709,8 @@
     "last_seen": null,
     "aliases": [
       "Square Saint-Louis",
-      "du Square Saint-Louis / Laval"
+      "du Square Saint-Louis / Laval",
+      "du Square-St-Louis / Laval"
     ]
   },
   {
@@ -9962,19 +10727,13 @@
   },
   {
     "name": "Square Viger (Berri / Viger)",
-    "lat": 45.512184,
-    "lng": -73.55475,
+    "lat": 45.512181,
+    "lng": -73.55476,
     "first_seen": null,
     "last_seen": null,
-    "aliases": []
-  },
-  {
-    "name": "Square Viger (Berri / Viger)_SWAP",
-    "lat": 45.512168,
-    "lng": -73.554816,
-    "first_seen": null,
-    "last_seen": null,
-    "aliases": []
+    "aliases": [
+      "Square Viger (Berri / Viger)_SWAP"
+    ]
   },
   {
     "name": "Square Viger (Berri)",
@@ -9986,8 +10745,8 @@
   },
   {
     "name": "St-Alexandre / Ste-Catherine",
-    "lat": 45.505308,
-    "lng": -73.567585,
+    "lat": 45.505303,
+    "lng": -73.567568,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -10009,36 +10768,36 @@
     "aliases": []
   },
   {
-    "name": "St-André / Cherrier",
-    "lat": 45.520522,
-    "lng": -73.567697,
+    "name": "St-André /  Cherrier",
+    "lat": 45.520502,
+    "lng": -73.567701,
     "first_seen": null,
     "last_seen": null,
     "aliases": [
-      "St-André /  Cherrier",
+      "St-André / Cherrier",
       "St-André / Cherrier_SWAP ECO 5"
     ]
   },
   {
     "name": "St-André / Laurier",
-    "lat": 45.529333,
-    "lng": -73.587182,
+    "lat": 45.529402,
+    "lng": -73.587317,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
   },
   {
     "name": "St-André / Ontario",
-    "lat": 45.518891,
-    "lng": -73.563538,
+    "lat": 45.518905,
+    "lng": -73.563609,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
   },
   {
     "name": "St-André / Rachel",
-    "lat": 45.524178,
-    "lng": -73.575561,
+    "lat": 45.524164,
+    "lng": -73.575529,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -10054,25 +10813,33 @@
     ]
   },
   {
+    "name": "St-André / Roy",
+    "lat": 45.521744,
+    "lng": -73.570483,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
     "name": "St-André / St-Antoine",
-    "lat": 45.514119,
-    "lng": -73.552647,
+    "lat": 45.514148,
+    "lng": -73.552656,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
   },
   {
     "name": "St-André / Ste-Catherine",
-    "lat": 45.516363,
-    "lng": -73.558062,
+    "lat": 45.516356,
+    "lng": -73.558056,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
   },
   {
     "name": "St-André / de Maisonneuve",
-    "lat": 45.517093,
-    "lng": -73.559749,
+    "lat": 45.51709,
+    "lng": -73.559746,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -10087,7 +10854,7 @@
   },
   {
     "name": "St-Antoine / Jean-Paul Riopelle",
-    "lat": 45.503,
+    "lat": 45.503001,
     "lng": -73.560612,
     "first_seen": null,
     "last_seen": null,
@@ -10095,15 +10862,15 @@
   },
   {
     "name": "St-Antoine / Robert-Bourassa",
-    "lat": 45.499952,
-    "lng": -73.563028,
+    "lat": 45.499961,
+    "lng": -73.563033,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
   },
   {
     "name": "St-Antoine / St-François-Xavier",
-    "lat": 45.504582,
+    "lat": 45.504581,
     "lng": -73.559185,
     "first_seen": null,
     "last_seen": null,
@@ -10111,8 +10878,8 @@
   },
   {
     "name": "St-Antoine / de la Montagne",
-    "lat": 45.495401,
-    "lng": -73.56855,
+    "lat": 45.495422,
+    "lng": -73.568521,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -10135,8 +10902,8 @@
   },
   {
     "name": "St-Charles / Grant",
-    "lat": 45.539762,
-    "lng": -73.508864,
+    "lat": 45.539739,
+    "lng": -73.508906,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -10151,8 +10918,8 @@
   },
   {
     "name": "St-Charles / Montarville",
-    "lat": 45.533605,
-    "lng": -73.515326,
+    "lat": 45.533596,
+    "lng": -73.515333,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -10207,8 +10974,8 @@
   },
   {
     "name": "St-Denis / René-Lévesque",
-    "lat": 45.512889,
-    "lng": -73.558492,
+    "lat": 45.512936,
+    "lng": -73.558561,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -10234,7 +11001,7 @@
   {
     "name": "St-Dominique / Bernard",
     "lat": 45.527933,
-    "lng": -73.601223,
+    "lng": -73.601222,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -10249,32 +11016,32 @@
   },
   {
     "name": "St-Dominique / Duluth",
-    "lat": 45.517421,
-    "lng": -73.578824,
+    "lat": 45.517465,
+    "lng": -73.578957,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
   },
   {
     "name": "St-Dominique / Gounod",
-    "lat": 45.538639,
-    "lng": -73.627858,
+    "lat": 45.53863,
+    "lng": -73.627843,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
   },
   {
     "name": "St-Dominique / Jean-Talon",
-    "lat": 45.535224,
-    "lng": -73.617541,
+    "lat": 45.535222,
+    "lng": -73.617539,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
   },
   {
     "name": "St-Dominique / Laurier",
-    "lat": 45.523632,
-    "lng": -73.592489,
+    "lat": 45.523639,
+    "lng": -73.592502,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -10297,21 +11064,27 @@
   },
   {
     "name": "St-Dominique / St-Viateur",
-    "lat": 45.526539,
-    "lng": -73.59823,
+    "lat": 45.526535,
+    "lng": -73.598218,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
   },
   {
     "name": "St-Dominique / St-Viateur (nord)",
-    "lat": 45.526983,
-    "lng": -73.599149,
+    "lat": 45.526946,
+    "lng": -73.599081,
     "first_seen": null,
     "last_seen": null,
-    "aliases": [
-      "St-Dominique / St-Viateur Nord"
-    ]
+    "aliases": []
+  },
+  {
+    "name": "St-Dominique / St-Viateur Nord",
+    "lat": 45.526968,
+    "lng": -73.599169,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
   },
   {
     "name": "St-Dominique / St-Zotique",
@@ -10331,8 +11104,8 @@
   },
   {
     "name": "St-Dominique / de Bellechasse",
-    "lat": 45.529516,
-    "lng": -73.604879,
+    "lat": 45.529517,
+    "lng": -73.60488,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -10346,9 +11119,19 @@
     "aliases": []
   },
   {
+    "name": "St-Dominique / de Maisonneuve",
+    "lat": 45.511035,
+    "lng": -73.564775,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": [
+      "St-Dominque / de Maisonneuve"
+    ]
+  },
+  {
     "name": "St-Dominique / du Mont-Royal",
-    "lat": 45.52057,
-    "lng": -73.585791,
+    "lat": 45.520572,
+    "lng": -73.585787,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -10362,17 +11145,9 @@
     "aliases": []
   },
   {
-    "name": "St-Dominque / de Maisonneuve",
-    "lat": 45.511035,
-    "lng": -73.564775,
-    "first_seen": null,
-    "last_seen": null,
-    "aliases": []
-  },
-  {
     "name": "St-Germain / Hochelaga",
-    "lat": 45.543671,
-    "lng": -73.55356,
+    "lat": 45.543674,
+    "lng": -73.553571,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -10387,8 +11162,8 @@
   },
   {
     "name": "St-Grégoire / Christophe-Colomb",
-    "lat": 45.532566,
-    "lng": -73.589981,
+    "lat": 45.532564,
+    "lng": -73.589972,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -10413,8 +11188,8 @@
   },
   {
     "name": "St-Hubert / Laurier",
-    "lat": 45.529105,
-    "lng": -73.588255,
+    "lat": 45.529092,
+    "lng": -73.588237,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -10429,8 +11204,8 @@
   },
   {
     "name": "St-Hubert / René-Levesque",
-    "lat": 45.514451,
-    "lng": -73.556767,
+    "lat": 45.514457,
+    "lng": -73.556786,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -10467,16 +11242,16 @@
   },
   {
     "name": "St-Hubert / du Mont-Royal",
-    "lat": 45.525701,
-    "lng": -73.581263,
+    "lat": 45.525698,
+    "lng": -73.581219,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
   },
   {
     "name": "St-Jacques / Gauvin",
-    "lat": 45.500659,
-    "lng": -73.561138,
+    "lat": 45.50066,
+    "lng": -73.561116,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -10531,16 +11306,16 @@
   },
   {
     "name": "St-Jacques / Vinet",
-    "lat": 45.485327,
-    "lng": -73.576924,
+    "lat": 45.485312,
+    "lng": -73.576934,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
   },
   {
     "name": "St-Jacques / des Seigneurs",
-    "lat": 45.489188,
-    "lng": -73.571908,
+    "lat": 45.489189,
+    "lng": -73.571912,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -10555,8 +11330,8 @@
   },
   {
     "name": "St-Jean-Baptiste / René-Lévesque",
-    "lat": 45.641481,
-    "lng": -73.500152,
+    "lat": 45.641459,
+    "lng": -73.500144,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -10571,16 +11346,16 @@
   },
   {
     "name": "St-Joseph / 21e avenue Lachine",
-    "lat": 45.433532,
-    "lng": -73.683664,
+    "lat": 45.433559,
+    "lng": -73.683925,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
   },
   {
     "name": "St-Joseph / 8e avenue Lachine",
-    "lat": 45.431534,
-    "lng": -73.671112,
+    "lat": 45.431532,
+    "lng": -73.671111,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -10644,6 +11419,16 @@
     "aliases": []
   },
   {
+    "name": "St-Martin / William",
+    "lat": 45.487467,
+    "lng": -73.566594,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": [
+      "Saint-Martin / William"
+    ]
+  },
+  {
     "name": "St-Martin O. / de Neuchâtel",
     "lat": 45.57622,
     "lng": -73.713477,
@@ -10677,8 +11462,8 @@
   },
   {
     "name": "St-Mathieu / Sherbrooke",
-    "lat": 45.49579,
-    "lng": -73.582597,
+    "lat": 45.495807,
+    "lng": -73.582609,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -10693,8 +11478,8 @@
   },
   {
     "name": "St-Mathieu / Tupper",
-    "lat": 45.493289,
-    "lng": -73.578227,
+    "lat": 45.493291,
+    "lng": -73.578213,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -10717,11 +11502,21 @@
   },
   {
     "name": "St-Patrick / Briand",
-    "lat": 45.463562,
-    "lng": -73.596081,
+    "lat": 45.463578,
+    "lng": -73.596046,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
+  },
+  {
+    "name": "St-Patrick / Island",
+    "lat": 45.483244,
+    "lng": -73.566862,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": [
+      "Island / St-Patrick"
+    ]
   },
   {
     "name": "St-Patrick / Thomas-Keefer",
@@ -10778,8 +11573,8 @@
   },
   {
     "name": "St-Timothée / René-Lévesque",
-    "lat": 45.516114,
-    "lng": -73.555469,
+    "lat": 45.516129,
+    "lng": -73.555502,
     "first_seen": null,
     "last_seen": null,
     "aliases": [
@@ -10798,8 +11593,8 @@
   },
   {
     "name": "St-Timothée / Ste-Catherine",
-    "lat": 45.517055,
-    "lng": -73.557699,
+    "lat": 45.517009,
+    "lng": -73.557605,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -10814,7 +11609,7 @@
   },
   {
     "name": "St-Urbain / Laurier",
-    "lat": 45.521651,
+    "lat": 45.52165,
     "lng": -73.593669,
     "first_seen": null,
     "last_seen": null,
@@ -10853,20 +11648,22 @@
     "aliases": []
   },
   {
-    "name": "St-Viateur / Casgrain",
-    "lat": 45.527059,
-    "lng": -73.597907,
+    "name": "St-Urbain / du Mont-Royal",
+    "lat": 45.518966,
+    "lng": -73.587815,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
   },
   {
-    "name": "St-Viateur / Casgrain (sud)",
-    "lat": 45.526989,
-    "lng": -73.597899,
+    "name": "St-Viateur / Casgrain",
+    "lat": 45.527033,
+    "lng": -73.597904,
     "first_seen": null,
     "last_seen": null,
-    "aliases": []
+    "aliases": [
+      "St-Viateur / Casgrain (sud)"
+    ]
   },
   {
     "name": "St-Zotique / Clark",
@@ -10878,16 +11675,16 @@
   },
   {
     "name": "St-Zotique / St-Urbain",
-    "lat": 45.530912,
-    "lng": -73.613985,
+    "lat": 45.530907,
+    "lng": -73.613998,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
   },
   {
     "name": "Stanley / René-Lévesque",
-    "lat": 45.497909,
-    "lng": -73.570782,
+    "lat": 45.497912,
+    "lng": -73.570785,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -10926,8 +11723,8 @@
   },
   {
     "name": "Ste-Catherine / Dézéry",
-    "lat": 45.539385,
-    "lng": -73.541,
+    "lat": 45.539359,
+    "lng": -73.541015,
     "first_seen": null,
     "last_seen": null,
     "aliases": [
@@ -10962,7 +11759,7 @@
   },
   {
     "name": "Ste-Catherine / Sanguinet",
-    "lat": 45.512922,
+    "lat": 45.512924,
     "lng": -73.561246,
     "first_seen": null,
     "last_seen": null,
@@ -10986,8 +11783,18 @@
   },
   {
     "name": "Ste-Catherine / St-Denis",
-    "lat": 45.513856,
-    "lng": -73.560429,
+    "lat": 45.513882,
+    "lng": -73.560421,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": [
+      "Ste-Catherine / St-Denis N/E"
+    ]
+  },
+  {
+    "name": "Ste-Catherine / St-Denis (ouest)",
+    "lat": 45.513606,
+    "lng": -73.560483,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -11002,8 +11809,8 @@
   },
   {
     "name": "Ste-Catherine / St-Laurent",
-    "lat": 45.509909,
-    "lng": -73.563815,
+    "lat": 45.509925,
+    "lng": -73.563807,
     "first_seen": null,
     "last_seen": null,
     "aliases": [
@@ -11036,8 +11843,8 @@
   },
   {
     "name": "Ste-Catherine / Union",
-    "lat": 45.503687,
-    "lng": -73.569487,
+    "lat": 45.503689,
+    "lng": -73.569481,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -11086,8 +11893,8 @@
   },
   {
     "name": "Ste-Croix / Tassé",
-    "lat": 45.519513,
-    "lng": -73.685134,
+    "lat": 45.519516,
+    "lng": -73.685142,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -11101,9 +11908,17 @@
     "aliases": []
   },
   {
+    "name": "Ste-Famille / Prince-Arthur",
+    "lat": 45.511764,
+    "lng": -73.57468,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
     "name": "Ste-Famille / Sherbrooke",
-    "lat": 45.51006,
-    "lng": -73.570729,
+    "lat": 45.510061,
+    "lng": -73.570728,
     "first_seen": null,
     "last_seen": null,
     "aliases": [
@@ -11112,8 +11927,8 @@
   },
   {
     "name": "Ste-Famille / des Pins",
-    "lat": 45.512849,
-    "lng": -73.576916,
+    "lat": 45.51285,
+    "lng": -73.576917,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -11160,8 +11975,8 @@
   },
   {
     "name": "Ste-Émilie / Sir-Georges-Etienne-Cartier",
-    "lat": 45.472836,
-    "lng": -73.585226,
+    "lat": 45.472861,
+    "lng": -73.585201,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -11292,8 +12107,8 @@
   },
   {
     "name": "Tolhurst / Fleury",
-    "lat": 45.54411,
-    "lng": -73.667406,
+    "lat": 45.5441,
+    "lng": -73.667345,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -11315,9 +12130,33 @@
     "aliases": []
   },
   {
+    "name": "Tupper / Atwater",
+    "lat": 45.488855,
+    "lng": -73.583569,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "Tupper / Gladstone",
+    "lat": 45.487034,
+    "lng": -73.585968,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
     "name": "Tupper / du Fort",
-    "lat": 45.491245,
-    "lng": -73.580715,
+    "lat": 45.491265,
+    "lng": -73.580681,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "Tupper / du Sussex",
+    "lat": 45.489914,
+    "lng": -73.582358,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -11332,11 +12171,22 @@
   },
   {
     "name": "Turgeon / St-Ambroise",
-    "lat": 45.477028,
-    "lng": -73.578089,
+    "lat": 45.476895,
+    "lng": -73.577894,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
+  },
+  {
+    "name": "Télé-Québec (René-Lévesque / de Lorimier",
+    "lat": 45.524037,
+    "lng": -73.547002,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": [
+      "René-Lévesque / de Lorimier",
+      "Télé-Québec (René-Lévesque / de Lorimier)"
+    ]
   },
   {
     "name": "U. Concordia - Campus Loyola (Sherbrooke / West Broadway)",
@@ -11348,16 +12198,16 @@
   },
   {
     "name": "Union / René-Lévesque",
-    "lat": 45.50235,
-    "lng": -73.566583,
+    "lat": 45.502349,
+    "lng": -73.566579,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
   },
   {
     "name": "Union / Ste-Catherine",
-    "lat": 45.504027,
-    "lng": -73.569702,
+    "lat": 45.504045,
+    "lng": -73.569739,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -11365,7 +12215,7 @@
   {
     "name": "University / Milton",
     "lat": 45.506528,
-    "lng": -73.576629,
+    "lng": -73.576625,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -11406,8 +12256,8 @@
   },
   {
     "name": "Valois / Ste-Catherine",
-    "lat": 45.545266,
-    "lng": -73.53733,
+    "lat": 45.545274,
+    "lng": -73.537349,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -11430,8 +12280,8 @@
   },
   {
     "name": "Victoria / 18e avenue Lachine",
-    "lat": 45.435882,
-    "lng": -73.680156,
+    "lat": 45.435869,
+    "lng": -73.680161,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -11461,6 +12311,14 @@
     "aliases": []
   },
   {
+    "name": "Victoria / Sherbrooke",
+    "lat": 45.479094,
+    "lng": -73.603829,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
     "name": "Victoria / de Maisonneuve",
     "lat": 45.477429,
     "lng": -73.600169,
@@ -11480,8 +12338,8 @@
   },
   {
     "name": "Viger / Chenneville",
-    "lat": 45.505314,
-    "lng": -73.560892,
+    "lat": 45.505326,
+    "lng": -73.5609,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -11496,8 +12354,8 @@
   },
   {
     "name": "Villeneuve / St-Dominique",
-    "lat": 45.522264,
-    "lng": -73.588707,
+    "lat": 45.522266,
+    "lng": -73.588706,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -11528,11 +12386,21 @@
   },
   {
     "name": "Villeneuve / du Parc",
-    "lat": 45.518237,
-    "lng": -73.592374,
+    "lat": 45.518231,
+    "lng": -73.592377,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
+  },
+  {
+    "name": "Villeray / De Normanville",
+    "lat": 45.547167,
+    "lng": -73.618444,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": [
+      "Villeray/De Normanville"
+    ]
   },
   {
     "name": "Villeray / St-Michel",
@@ -11544,14 +12412,11 @@
   },
   {
     "name": "Villeray / de Normanville",
-    "lat": 45.547179,
-    "lng": -73.618495,
+    "lat": 45.547177,
+    "lng": -73.618518,
     "first_seen": null,
     "last_seen": null,
-    "aliases": [
-      "Villeray / De Normanville",
-      "Villeray/De Normanville"
-    ]
+    "aliases": []
   },
   {
     "name": "Vézina / Westbury",
@@ -11587,8 +12452,8 @@
   },
   {
     "name": "Waverly / St-Viateur",
-    "lat": 45.523876,
-    "lng": -73.600143,
+    "lat": 45.523884,
+    "lng": -73.600149,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -11666,6 +12531,14 @@
     "aliases": []
   },
   {
+    "name": "Westmount / Roslyn",
+    "lat": 45.483433,
+    "lng": -73.608468,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
     "name": "Wilderton  / Van Horne",
     "lat": 45.510142,
     "lng": -73.624752,
@@ -11683,8 +12556,8 @@
   },
   {
     "name": "William / King",
-    "lat": 45.499012,
-    "lng": -73.556897,
+    "lat": 45.499033,
+    "lng": -73.556881,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -11722,6 +12595,14 @@
     "aliases": []
   },
   {
+    "name": "Wiseman/ Ogilvy",
+    "lat": 45.526356,
+    "lng": -73.627011,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
     "name": "Wolfe / Ontario",
     "lat": 45.52059,
     "lng": -73.562549,
@@ -11739,8 +12620,8 @@
   },
   {
     "name": "Wolfe / Robin",
-    "lat": 45.519591,
-    "lng": -73.560162,
+    "lat": 45.519592,
+    "lng": -73.560168,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -11770,9 +12651,19 @@
     "aliases": []
   },
   {
+    "name": "Wurtele / Ontario",
+    "lat": 45.536551,
+    "lng": -73.550385,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": [
+      "Wurtule / Ontario"
+    ]
+  },
+  {
     "name": "Wurtele / de Rouen",
-    "lat": 45.537648,
-    "lng": -73.553478,
+    "lat": 45.537638,
+    "lng": -73.553467,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -11830,6 +12721,14 @@
     "aliases": []
   },
   {
+    "name": "d'Oka / des Promenades",
+    "lat": 45.529071,
+    "lng": -73.933473,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
     "name": "d'Olympia / Olivier-Chauveau",
     "lat": 45.61145,
     "lng": -73.743257,
@@ -11856,10 +12755,20 @@
   {
     "name": "d'Outremont / Ogilvy",
     "lat": 45.52687,
-    "lng": -73.626745,
+    "lng": -73.626746,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
+  },
+  {
+    "name": "d'Oxford / Sherbrooke",
+    "lat": 45.47132,
+    "lng": -73.614844,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": [
+      "Oxford / Sherbrooke"
+    ]
   },
   {
     "name": "de Bastogne / de Sillery",
@@ -11887,8 +12796,8 @@
   },
   {
     "name": "de Bellechasse / de Lanaudière",
-    "lat": 45.539331,
-    "lng": -73.595298,
+    "lat": 45.539324,
+    "lng": -73.595276,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -11918,9 +12827,17 @@
     "aliases": []
   },
   {
+    "name": "de Boisbriand / Sanguinet",
+    "lat": 45.512944,
+    "lng": -73.562188,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
     "name": "de Bordeaux / Gilford",
-    "lat": 45.536102,
-    "lng": -73.576241,
+    "lat": 45.5361,
+    "lng": -73.576228,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -11945,8 +12862,8 @@
   },
   {
     "name": "de Bordeaux / Masson",
-    "lat": 45.539008,
-    "lng": -73.582476,
+    "lat": 45.539012,
+    "lng": -73.582483,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -11961,16 +12878,16 @@
   },
   {
     "name": "de Bordeaux / Rachel",
-    "lat": 45.532075,
-    "lng": -73.5677,
+    "lat": 45.532091,
+    "lng": -73.567753,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
   },
   {
     "name": "de Bordeaux / Sherbrooke",
-    "lat": 45.52988,
-    "lng": -73.562994,
+    "lat": 45.52987,
+    "lng": -73.562985,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -12003,8 +12920,8 @@
   },
   {
     "name": "de Bordeaux / du Mont-Royal",
-    "lat": 45.534512,
-    "lng": -73.572838,
+    "lat": 45.534501,
+    "lng": -73.572818,
     "first_seen": null,
     "last_seen": null,
     "aliases": [
@@ -12029,16 +12946,16 @@
   },
   {
     "name": "de Bullion / Laurier",
-    "lat": 45.52449,
-    "lng": -73.591313,
+    "lat": 45.524488,
+    "lng": -73.59131,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
   },
   {
     "name": "de Bullion / Roy",
-    "lat": 45.516763,
-    "lng": -73.574741,
+    "lat": 45.516754,
+    "lng": -73.57464,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -12105,15 +13022,15 @@
   },
   {
     "name": "de Chambly / Sherbrooke",
-    "lat": 45.548939,
-    "lng": -73.555248,
+    "lat": 45.548944,
+    "lng": -73.555256,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
   },
   {
     "name": "de Chambly / de Rouen",
-    "lat": 45.547068,
+    "lat": 45.547064,
     "lng": -73.548923,
     "first_seen": null,
     "last_seen": null,
@@ -12139,16 +13056,16 @@
   },
   {
     "name": "de Chateaubriand / Jarry",
-    "lat": 45.545914,
-    "lng": -73.626838,
+    "lat": 45.54591,
+    "lng": -73.626822,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
   },
   {
     "name": "de Chenonceau / Chomedey",
-    "lat": 45.561569,
-    "lng": -73.754494,
+    "lat": 45.561565,
+    "lng": -73.754553,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -12205,16 +13122,16 @@
   },
   {
     "name": "de Côme / Jean-Talon",
-    "lat": 45.588303,
-    "lng": -73.577836,
+    "lat": 45.588296,
+    "lng": -73.577824,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
   },
   {
     "name": "de Darlington / Van Horne",
-    "lat": 45.507844,
-    "lng": -73.625377,
+    "lat": 45.507869,
+    "lng": -73.625435,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -12228,9 +13145,17 @@
     "aliases": []
   },
   {
+    "name": "de Gaspé / Bernard",
+    "lat": 45.528405,
+    "lng": -73.598899,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
     "name": "de Gaspé / Dante",
     "lat": 45.534298,
-    "lng": -73.612172,
+    "lng": -73.612174,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -12253,16 +13178,16 @@
   },
   {
     "name": "de Gaspé / Marmier",
-    "lat": 45.529677,
-    "lng": -73.601697,
+    "lat": 45.529675,
+    "lng": -73.601692,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
   },
   {
     "name": "de Gaspé / St-Viateur",
-    "lat": 45.527736,
-    "lng": -73.597468,
+    "lat": 45.527743,
+    "lng": -73.597485,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -12309,8 +13234,8 @@
   },
   {
     "name": "de Grosbois / Duchesneau",
-    "lat": 45.611227,
-    "lng": -73.531242,
+    "lat": 45.611206,
+    "lng": -73.531245,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -12333,8 +13258,8 @@
   },
   {
     "name": "de Kent / Hudson",
-    "lat": 45.505835,
-    "lng": -73.629353,
+    "lat": 45.505837,
+    "lng": -73.629344,
     "first_seen": null,
     "last_seen": null,
     "aliases": [
@@ -12360,9 +13285,17 @@
     ]
   },
   {
+    "name": "de Lanaudière / Jean-Talon",
+    "lat": 45.545431,
+    "lng": -73.609739,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
     "name": "de Lanaudière / Laurier",
-    "lat": 45.5333,
-    "lng": -73.583696,
+    "lat": 45.533293,
+    "lng": -73.583679,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -12385,24 +13318,32 @@
   },
   {
     "name": "de Lanaudière / Rosemont",
-    "lat": 45.537843,
-    "lng": -73.592347,
+    "lat": 45.537839,
+    "lng": -73.592352,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "de Lanaudière / St-Zotique",
+    "lat": 45.542188,
+    "lng": -73.602138,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
   },
   {
     "name": "de Lanaudière / du Mont-Royal",
-    "lat": 45.530162,
-    "lng": -73.576945,
+    "lat": 45.530153,
+    "lng": -73.576938,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
   },
   {
     "name": "de Laprairie / Centre",
-    "lat": 45.480906,
-    "lng": -73.565186,
+    "lat": 45.480853,
+    "lng": -73.565287,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -12417,8 +13358,8 @@
   },
   {
     "name": "de Léry / Sherbrooke",
-    "lat": 45.541,
-    "lng": -73.558263,
+    "lat": 45.541003,
+    "lng": -73.558271,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -12433,8 +13374,8 @@
   },
   {
     "name": "de Maisonneuve / Aylmer (ouest)",
-    "lat": 45.505131,
-    "lng": -73.570663,
+    "lat": 45.505136,
+    "lng": -73.570662,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -12457,24 +13398,24 @@
   },
   {
     "name": "de Maisonneuve / Mackay",
-    "lat": 45.496472,
-    "lng": -73.578794,
+    "lat": 45.496453,
+    "lng": -73.578818,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
   },
   {
     "name": "de Maisonneuve / Mansfield (nord)",
-    "lat": 45.502349,
-    "lng": -73.573351,
+    "lat": 45.502351,
+    "lng": -73.57335,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
   },
   {
     "name": "de Maisonneuve / Mansfield (sud)",
-    "lat": 45.50209,
-    "lng": -73.573451,
+    "lat": 45.502087,
+    "lng": -73.573455,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -12491,6 +13432,14 @@
     ]
   },
   {
+    "name": "de Maisonneuve / St-Dominique",
+    "lat": 45.511054,
+    "lng": -73.56517,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
     "name": "de Maisonneuve / Wood",
     "lat": 45.488198,
     "lng": -73.588071,
@@ -12502,8 +13451,8 @@
   },
   {
     "name": "de Maisonneuve / de Bleury",
-    "lat": 45.507094,
-    "lng": -73.569082,
+    "lat": 45.507096,
+    "lng": -73.569081,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -12512,6 +13461,14 @@
     "name": "de Maisonneuve / de Bleury_SWAP ECO 5",
     "lat": 45.50708,
     "lng": -73.568939,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "de Marlowe / de Maisonneuve",
+    "lat": 45.47399,
+    "lng": -73.604736,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -12534,8 +13491,8 @@
   },
   {
     "name": "de Melrose / Sherbrooke",
-    "lat": 45.469848,
-    "lng": -73.617078,
+    "lat": 45.46986,
+    "lng": -73.617147,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -12600,8 +13557,8 @@
   },
   {
     "name": "de Mentana / du Mont-Royal",
-    "lat": 45.526947,
-    "lng": -73.580054,
+    "lat": 45.526933,
+    "lng": -73.580015,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -12616,8 +13573,8 @@
   },
   {
     "name": "de Monkland / Girouard",
-    "lat": 45.477097,
-    "lng": -73.621436,
+    "lat": 45.477095,
+    "lng": -73.621437,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -12631,9 +13588,17 @@
     "aliases": []
   },
   {
+    "name": "de Normandie / de la Concorde",
+    "lat": 45.575375,
+    "lng": -73.684659,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
     "name": "de Normanville / Beaubien",
-    "lat": 45.539282,
-    "lng": -73.600261,
+    "lat": 45.539295,
+    "lng": -73.600352,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -12706,8 +13671,8 @@
   },
   {
     "name": "de St-Firmin / Fleury",
-    "lat": 45.57064,
-    "lng": -73.651812,
+    "lat": 45.570638,
+    "lng": -73.651808,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -12730,8 +13695,8 @@
   },
   {
     "name": "de St-Vallier / St-Zotique",
-    "lat": 45.536363,
-    "lng": -73.607795,
+    "lat": 45.536372,
+    "lng": -73.607842,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -12786,16 +13751,16 @@
   },
   {
     "name": "de l'Esplanade / Bernard",
-    "lat": 45.525131,
-    "lng": -73.604658,
+    "lat": 45.525133,
+    "lng": -73.604659,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
   },
   {
     "name": "de l'Esplanade / Fairmount",
-    "lat": 45.521505,
-    "lng": -73.596855,
+    "lat": 45.521516,
+    "lng": -73.596887,
     "first_seen": null,
     "last_seen": null,
     "aliases": [
@@ -12804,8 +13769,8 @@
   },
   {
     "name": "de l'Esplanade / Henri-Bourassa",
-    "lat": 45.54744,
-    "lng": -73.672371,
+    "lat": 45.547413,
+    "lng": -73.672285,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -12820,13 +13785,21 @@
   },
   {
     "name": "de l'Esplanade / Rachel",
-    "lat": 45.516318,
-    "lng": -73.58358,
+    "lat": 45.516322,
+    "lng": -73.58353,
     "first_seen": null,
     "last_seen": null,
     "aliases": [
       "Esplanade / Rachel"
     ]
+  },
+  {
+    "name": "de l'Esplanade / St-Joseph",
+    "lat": 45.520274,
+    "lng": -73.592895,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
   },
   {
     "name": "de l'Esplanade / Villeneuve",
@@ -12864,8 +13837,8 @@
   },
   {
     "name": "de l'Hôtel-de-Ville / Ontario",
-    "lat": 45.513663,
-    "lng": -73.566445,
+    "lat": 45.513679,
+    "lng": -73.566489,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -12892,8 +13865,8 @@
   },
   {
     "name": "de l'Hôtel-de-Ville / Sherbrooke",
-    "lat": 45.514544,
-    "lng": -73.568381,
+    "lat": 45.514542,
+    "lng": -73.568378,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -12942,8 +13915,16 @@
   },
   {
     "name": "de l'Église / de Verdun",
-    "lat": 45.463001,
-    "lng": -73.571569,
+    "lat": 45.46301,
+    "lng": -73.571593,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "de l'Église/ de Verdun",
+    "lat": 45.463102,
+    "lng": -73.571903,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -12982,8 +13963,8 @@
   },
   {
     "name": "de la Commune / Berri",
-    "lat": 45.510802,
-    "lng": -73.549899,
+    "lat": 45.510775,
+    "lng": -73.549931,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -12998,7 +13979,7 @@
   },
   {
     "name": "de la Commune / King",
-    "lat": 45.497511,
+    "lat": 45.497512,
     "lng": -73.552684,
     "first_seen": null,
     "last_seen": null,
@@ -13106,8 +14087,8 @@
   },
   {
     "name": "de la Côte-des-Neiges / Remembrance",
-    "lat": 45.49551,
-    "lng": -73.605774,
+    "lat": 45.495509,
+    "lng": -73.605773,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -13122,8 +14103,8 @@
   },
   {
     "name": "de la Gauchetière / St-Alexandre",
-    "lat": 45.502963,
-    "lng": -73.563739,
+    "lat": 45.502981,
+    "lng": -73.563728,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -13131,7 +14112,15 @@
   {
     "name": "de la Gauchetière / de la Cathédrale",
     "lat": 45.498034,
-    "lng": -73.567961,
+    "lng": -73.567966,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "de la Grande-Allée / des Francs-Bourgeois",
+    "lat": 45.626274,
+    "lng": -73.854431,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -13146,8 +14135,8 @@
   },
   {
     "name": "de la Montagne / Sherbrooke",
-    "lat": 45.499744,
-    "lng": -73.578993,
+    "lat": 45.49974,
+    "lng": -73.578979,
     "first_seen": null,
     "last_seen": null,
     "aliases": [
@@ -13196,7 +14185,9 @@
     "last_seen": null,
     "aliases": [
       "Porte de Québec / St-André",
-      "de la Porte de Québec/St-André"
+      "Porte-de-Québec / St-André",
+      "de la Porte de Québec/St-André",
+      "de la Porte-de-Québec / St-André"
     ]
   },
   {
@@ -13219,8 +14210,8 @@
   },
   {
     "name": "de la Roche / Bélanger",
-    "lat": 45.541634,
-    "lng": -73.607593,
+    "lat": 45.541628,
+    "lng": -73.607591,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -13261,8 +14252,8 @@
   },
   {
     "name": "de la Sorbonne / du Rousillon",
-    "lat": 45.580596,
-    "lng": -73.688821,
+    "lat": 45.580595,
+    "lng": -73.688804,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -13277,8 +14268,8 @@
   },
   {
     "name": "de la Volière / du Chardonneret",
-    "lat": 45.597401,
-    "lng": -73.77839,
+    "lat": 45.597418,
+    "lng": -73.778349,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -13317,8 +14308,8 @@
   },
   {
     "name": "des Barges / des Bassins",
-    "lat": 45.488627,
-    "lng": -73.563544,
+    "lat": 45.488678,
+    "lng": -73.563582,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -13425,8 +14416,8 @@
   },
   {
     "name": "des Pins / Hutchison",
-    "lat": 45.510806,
-    "lng": -73.578226,
+    "lat": 45.510801,
+    "lng": -73.578231,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -13443,6 +14434,22 @@
     "name": "des Prairies / du Pacifique",
     "lat": 45.549421,
     "lng": -73.701147,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "des Promenades / des Bénédictines",
+    "lat": 45.539196,
+    "lng": -73.92374,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "des Promenades / des Mélèzes",
+    "lat": 45.535448,
+    "lng": -73.928372,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -13465,16 +14472,16 @@
   },
   {
     "name": "des Récollets / Martial",
-    "lat": 45.590907,
-    "lng": -73.640652,
+    "lat": 45.590926,
+    "lng": -73.640683,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
   },
   {
     "name": "des Récollets / McGill",
-    "lat": 45.500881,
-    "lng": -73.559018,
+    "lat": 45.500882,
+    "lng": -73.559022,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -13524,7 +14531,7 @@
   {
     "name": "des Écores / de Bellechasse",
     "lat": 45.546067,
-    "lng": -73.589707,
+    "lng": -73.589705,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -13547,8 +14554,8 @@
   },
   {
     "name": "des Érables / Dandurand",
-    "lat": 45.541361,
-    "lng": -73.583961,
+    "lat": 45.541369,
+    "lng": -73.583976,
     "first_seen": null,
     "last_seen": null,
     "aliases": [
@@ -13557,16 +14564,16 @@
   },
   {
     "name": "des Érables / Laurier",
-    "lat": 45.538498,
-    "lng": -73.577693,
+    "lat": 45.5385,
+    "lng": -73.577694,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
   },
   {
     "name": "des Érables / Rachel",
-    "lat": 45.533395,
-    "lng": -73.566755,
+    "lat": 45.53339,
+    "lng": -73.566748,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -13575,6 +14582,14 @@
     "name": "des Érables / Rachel (nord)",
     "lat": 45.5335,
     "lng": -73.566932,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "des Érables / de Rouen",
+    "lat": 45.530395,
+    "lng": -73.56029,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -13605,7 +14620,7 @@
   },
   {
     "name": "du Canal / McLaughlin",
-    "lat": 45.429695,
+    "lat": 45.429694,
     "lng": -73.669488,
     "first_seen": null,
     "last_seen": null,
@@ -13641,12 +14656,14 @@
     "lng": -73.45154,
     "first_seen": null,
     "last_seen": null,
-    "aliases": []
+    "aliases": [
+      "du Fort St-Louis / de la Perrière"
+    ]
   },
   {
     "name": "du Havre / Hochelaga",
-    "lat": 45.535836,
-    "lng": -73.55793,
+    "lat": 45.535839,
+    "lng": -73.557929,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -13655,6 +14672,14 @@
     "name": "du Havre / de Rouen",
     "lat": 45.534563,
     "lng": -73.554787,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
+    "name": "du Manoir / Pratt",
+    "lat": 45.516038,
+    "lng": -73.623867,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -13677,8 +14702,8 @@
   },
   {
     "name": "du Mont-Royal / Augustin-Frigon",
-    "lat": 45.543634,
-    "lng": -73.56777,
+    "lat": 45.543621,
+    "lng": -73.567776,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -13735,8 +14760,8 @@
   },
   {
     "name": "du Parc-La Fontaine / Roy",
-    "lat": 45.523039,
-    "lng": -73.568721,
+    "lat": 45.523061,
+    "lng": -73.568749,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -13769,8 +14794,8 @@
   },
   {
     "name": "du Rosaire / St-Hubert",
-    "lat": 45.54481,
-    "lng": -73.621539,
+    "lat": 45.544807,
+    "lng": -73.621549,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -13801,8 +14826,8 @@
   },
   {
     "name": "du Souvenir / de Bois-de-Boulogne",
-    "lat": 45.570294,
-    "lng": -73.702217,
+    "lat": 45.570297,
+    "lng": -73.702211,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -13824,9 +14849,17 @@
     "aliases": []
   },
   {
+    "name": "du Square-St-Louis / St-Denis",
+    "lat": 45.51749,
+    "lng": -73.569399,
+    "first_seen": null,
+    "last_seen": null,
+    "aliases": []
+  },
+  {
     "name": "du Séminaire / Olier",
-    "lat": 45.490131,
-    "lng": -73.560093,
+    "lat": 45.49013,
+    "lng": -73.560092,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -13834,7 +14867,7 @@
   {
     "name": "du Séminaire / de la Montagne",
     "lat": 45.492107,
-    "lng": -73.562464,
+    "lng": -73.562463,
     "first_seen": null,
     "last_seen": null,
     "aliases": [
@@ -13842,23 +14875,20 @@
     ]
   },
   {
-    "name": "du Tricentenaire / Prince-Albert",
-    "lat": 45.649546,
-    "lng": -73.491916,
+    "name": "du Tricentenaire / Prince Albert",
+    "lat": 45.649662,
+    "lng": -73.492476,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
   },
   {
-    "name": "la Fontaine / Alexandre-de-Sève",
-    "lat": 45.523304,
-    "lng": -73.558,
+    "name": "du Tricentenaire / Prince-Albert",
+    "lat": 45.649572,
+    "lng": -73.492043,
     "first_seen": null,
     "last_seen": null,
-    "aliases": [
-      "La Fontaine / Alexandre-DeSève",
-      "La Fontaine / Alexandre-de-Sève"
-    ]
+    "aliases": []
   },
   {
     "name": "Édouard-Montpetit / Lemieux",
@@ -13870,16 +14900,16 @@
   },
   {
     "name": "Édouard-Montpetit / Victoria",
-    "lat": 45.491172,
-    "lng": -73.629968,
+    "lat": 45.491164,
+    "lng": -73.629958,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
   },
   {
     "name": "Édouard-Montpetit / de Stirling",
-    "lat": 45.507283,
-    "lng": -73.614964,
+    "lat": 45.507295,
+    "lng": -73.614951,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -13921,7 +14951,7 @@
   {
     "name": "Émile-Duployé / Sherbrooke",
     "lat": 45.527197,
-    "lng": -73.564594,
+    "lng": -73.564584,
     "first_seen": null,
     "last_seen": null,
     "aliases": []
@@ -13936,11 +14966,13 @@
   },
   {
     "name": "Émile-Journault / Christophe-Colomb",
-    "lat": 45.554974,
+    "lat": 45.554973,
     "lng": -73.637523,
     "first_seen": null,
     "last_seen": null,
-    "aliases": []
+    "aliases": [
+      "Émile-Jounault / Christophe-Colomb"
+    ]
   },
   {
     "name": "Émile-Journault / de Chateaubriand",
